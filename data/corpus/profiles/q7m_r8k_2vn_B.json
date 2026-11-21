@@ -195,6 +195,117 @@
   "table_occurrences": [],
   "sources": [
     {
+      "chapter_id": "c-nanshi-023-wangyu-jingwen",
+      "work_id": "w-nanshi",
+      "book_id": "b-nanshi-023",
+      "source_id": "s-nanshi-023-wangyu-jingwen-ws2478204",
+      "source": {
+        "title": "南史卷23·王彧（字景文）及伯父智",
+        "provider": "Wikisource",
+        "url": "https://zh.wikisource.org/w/index.php?oldid=2478204",
+        "permalink": "https://zh.wikisource.org/w/index.php?oldid=2478204",
+        "revision_id": 2478204,
+        "accessed_on": "2026-11-21",
+        "edition": "維基文庫固定數位轉錄",
+        "extent": "固定修訂第101至119行，含段內子孫記載。",
+        "text_scope": "complete_biography_unit",
+        "image_verified": false,
+        "review_status": "text_checked",
+        "raw_path": "sources/nanshi/nanshi023-ws2478204.wikitext",
+        "raw_file_sha256": "c54bdda206986e5d4e5331144e783f163b5823855581b9833572e1982d1d4e40",
+        "rights": "古代原典及維基文庫數位轉錄。",
+        "license_url": "https://zh.wikisource.org/wiki/Wikisource:著作權資訊",
+        "normalization": {
+          "character_conversion": {},
+          "extraction_note": "逐碼取原行，數位校者夾注分層另據原始字位查核。",
+          "verified_blank_line_gaps": [
+            {
+              "source_lines": [
+                102,
+                102
+              ],
+              "raw_quote": "",
+              "raw_quote_sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+              "revision_id": 2478204
+            },
+            {
+              "source_lines": [
+                104,
+                104
+              ],
+              "raw_quote": "",
+              "raw_quote_sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+              "revision_id": 2478204
+            },
+            {
+              "source_lines": [
+                106,
+                106
+              ],
+              "raw_quote": "",
+              "raw_quote_sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+              "revision_id": 2478204
+            },
+            {
+              "source_lines": [
+                108,
+                108
+              ],
+              "raw_quote": "",
+              "raw_quote_sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+              "revision_id": 2478204
+            },
+            {
+              "source_lines": [
+                110,
+                110
+              ],
+              "raw_quote": "",
+              "raw_quote_sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+              "revision_id": 2478204
+            },
+            {
+              "source_lines": [
+                112,
+                112
+              ],
+              "raw_quote": "",
+              "raw_quote_sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+              "revision_id": 2478204
+            },
+            {
+              "source_lines": [
+                114,
+                114
+              ],
+              "raw_quote": "",
+              "raw_quote_sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+              "revision_id": 2478204
+            },
+            {
+              "source_lines": [
+                116,
+                116
+              ],
+              "raw_quote": "",
+              "raw_quote_sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+              "revision_id": 2478204
+            },
+            {
+              "source_lines": [
+                118,
+                118
+              ],
+              "raw_quote": "",
+              "raw_quote_sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+              "revision_id": 2478204
+            }
+          ]
+        },
+        "section_locator": "數位王彧原題，傳首至長子絢；絢本傳自121行起。"
+      }
+    },
+    {
       "chapter_id": "c-songshu-041-wangzhenfeng",
       "work_id": "w-songshu",
       "book_id": "b-songshu-041",
@@ -225,6 +336,68 @@
     }
   ],
   "relations": [
+    {
+      "id": "a-nan023-wangyu-queen-sister",
+      "subject_person_id": "q7m_r8k_2vn_B",
+      "object_person_id": "1tc_q18_x7v",
+      "predicate": "sister",
+      "qualifiers": {
+        "source_term": "明帝娶景文妹",
+        "nan023_wangyu_reading": "queen-sister",
+        "relative_birth_order": {
+          "older_person_id": "1tc_q18_x7v",
+          "younger_person_id": "q7m_r8k_2vn_B",
+          "operator": "lt",
+          "scope": "siblings",
+          "older_ordinal": null,
+          "younger_ordinal": null
+        }
+      },
+      "evidence": [
+        {
+          "work_id": "w-nanshi",
+          "book_id": "b-nanshi-023",
+          "source_id": "s-nanshi-023-wangyu-jingwen-ws2478204",
+          "chapter_id": "c-nanshi-023-wangyu-jingwen",
+          "paragraph_id": "c-nanshi-023-wangyu-jingwen:p003",
+          "quote": "景文好言理，少與陳郡謝莊齊名。文帝嘗與群臣臨天泉池，帝垂綸良久不獲。景文越席曰：「臣以為垂綸者清，故不獲貪餌。」眾皆稱善。文帝甚相欽重，故為明帝娶景文妹而以景文之名名明帝。武帝第五女新安公主先適太原王景深，離絕，當以適景文，景文固辭以疾，故不成婚。襲爵建陵子。元凶以為黃門侍郎，未及就，孝武入討，景文遣間使歸款。以父在都下，不獲致身，事平，頗見嫌責。猶以舊恩，累遷司徒左長史。",
+          "subject_person_reference_id": "c-nanshi-023-wangyu-jingwen:p003:r0075",
+          "object_person_mention_id": "c-nanshi-023-wangyu-jingwen:p003:m0073"
+        }
+      ],
+      "status": "source_attested",
+      "interpretation_note": "親稱具體兩端與長幼。",
+      "reviewer": "Codex（AI 代理）",
+      "human_reviewed": false,
+      "model": null
+    },
+    {
+      "id": "a-nan023-wangyu-queen-spouse",
+      "subject_person_id": "q7m_r8k_2vn_B",
+      "object_person_id": "cti_o52_4nz",
+      "predicate": "spouse",
+      "qualifiers": {
+        "source_term": "為明帝娶景文妹",
+        "nan023_wangyu_reading": "queen-spouse"
+      },
+      "evidence": [
+        {
+          "work_id": "w-nanshi",
+          "book_id": "b-nanshi-023",
+          "source_id": "s-nanshi-023-wangyu-jingwen-ws2478204",
+          "chapter_id": "c-nanshi-023-wangyu-jingwen",
+          "paragraph_id": "c-nanshi-023-wangyu-jingwen:p003",
+          "quote": "景文好言理，少與陳郡謝莊齊名。文帝嘗與群臣臨天泉池，帝垂綸良久不獲。景文越席曰：「臣以為垂綸者清，故不獲貪餌。」眾皆稱善。文帝甚相欽重，故為明帝娶景文妹而以景文之名名明帝。武帝第五女新安公主先適太原王景深，離絕，當以適景文，景文固辭以疾，故不成婚。襲爵建陵子。元凶以為黃門侍郎，未及就，孝武入討，景文遣間使歸款。以父在都下，不獲致身，事平，頗見嫌責。猶以舊恩，累遷司徒左長史。",
+          "subject_person_reference_id": "c-nanshi-023-wangyu-jingwen:p003:r0075",
+          "object_person_reference_id": "c-nanshi-023-wangyu-jingwen:p003:r0070"
+        }
+      ],
+      "status": "source_attested",
+      "interpretation_note": "明帝妻王貞風，別於下文新安公主。",
+      "reviewer": "Codex（AI 代理）",
+      "human_reviewed": false,
+      "model": null
+    },
     {
       "id": "a-song041-wangzhenfeng-272-47-6-mother",
       "subject_person_id": "cti_o52_4nz_B",
@@ -395,6 +568,51 @@
   "name_components": [],
   "person_references": [
     {
+      "id": "c-nanshi-023-wangyu-jingwen:p001:r0048",
+      "surface": "後",
+      "start": 48,
+      "end": 49,
+      "person_id": "q7m_r8k_2vn_B",
+      "referent_role": "third_person",
+      "paragraph_id": "c-nanshi-023-wangyu-jingwen:p001",
+      "quote": "王彧字景文，球從子也。祖穆字伯遠，司徒謐之長兄，位臨海太守。父僧朗，仕宋位尚書右僕射，明帝初，以後父加特進，贈開府儀同三司，諡元公。彧名與明帝諱同，故以字行。伯父智少簡貴，有高名，宋武帝甚重之。常言：「見王智使人思仲祖」。武帝與劉穆之討劉毅而智在焉，他日，穆之白武帝曰：「伐國重事，公言何乃使王智知。」武帝笑曰：「此人高簡，豈聞此輩論議。」其見知如此。為宋國五兵尚書，封建陵縣五等子，追贈太常。",
+      "note": "按說話人、受話人及詔內上下文。",
+      "chapter_id": "c-nanshi-023-wangyu-jingwen",
+      "book_id": "b-nanshi-023",
+      "work_id": "w-nanshi",
+      "source_id": "s-nanshi-023-wangyu-jingwen-ws2478204"
+    },
+    {
+      "id": "c-nanshi-023-wangyu-jingwen:p003:r0075",
+      "surface": "妹",
+      "start": 75,
+      "end": 76,
+      "person_id": "q7m_r8k_2vn_B",
+      "referent_role": "third_person",
+      "paragraph_id": "c-nanshi-023-wangyu-jingwen:p003",
+      "quote": "景文好言理，少與陳郡謝莊齊名。文帝嘗與群臣臨天泉池，帝垂綸良久不獲。景文越席曰：「臣以為垂綸者清，故不獲貪餌。」眾皆稱善。文帝甚相欽重，故為明帝娶景文妹而以景文之名名明帝。武帝第五女新安公主先適太原王景深，離絕，當以適景文，景文固辭以疾，故不成婚。襲爵建陵子。元凶以為黃門侍郎，未及就，孝武入討，景文遣間使歸款。以父在都下，不獲致身，事平，頗見嫌責。猶以舊恩，累遷司徒左長史。",
+      "note": "按說話人、受話人及詔內上下文。",
+      "chapter_id": "c-nanshi-023-wangyu-jingwen",
+      "book_id": "b-nanshi-023",
+      "work_id": "w-nanshi",
+      "source_id": "s-nanshi-023-wangyu-jingwen-ws2478204"
+    },
+    {
+      "id": "c-nanshi-023-wangyu-jingwen:p010:r0041",
+      "surface": "皇后",
+      "start": 41,
+      "end": 43,
+      "person_id": "q7m_r8k_2vn_B",
+      "referent_role": "third_person",
+      "paragraph_id": "c-nanshi-023-wangyu-jingwen:p010",
+      "quote": "上既有疾，而諸弟並已見殺；唯桂陽王休范人才本劣，不見疑，出為江州刺史。慮一旦晏駕，皇后臨朝，則景文自然成宰相，門族強盛，藉元舅之重，歲暮不為純臣。泰豫元年春，上疾篤，遣使送藥賜景文死，使謂曰：「朕不謂卿有罪，然吾不能獨死，請子先之。」因手詔曰：「與卿周旋，欲全卿門戶，故有此處分。」敕至之夜，景文政與客棋，扣函看，復還封置局下，神色怡然不變。方與客棋思行爭劫竟，斂子內奩畢，徐謂客曰：「奉敕見賜以死。」方以敕示客。酒至未飲，門客焦度在側，憤怒發酒覆地曰：「大丈夫安能坐受死。州中文武可數百人，足以一奮。」景文曰：「知卿至心；若見念者，為我百口計。」乃墨啟答敕，並謝贈詔。酌謂客曰：「此酒不可相勸。」自仰而飲之。時年六十。追贈開府儀同三司，諡曰懿。長子絢。",
+      "note": "按說話人、受話人及詔內上下文。",
+      "chapter_id": "c-nanshi-023-wangyu-jingwen",
+      "book_id": "b-nanshi-023",
+      "work_id": "w-nanshi",
+      "source_id": "s-nanshi-023-wangyu-jingwen-ws2478204"
+    },
+    {
       "start": 19,
       "end": 20,
       "surface": "后",
@@ -549,6 +767,68 @@
     "q7m_r8k_2vn_B"
   ],
   "preferred_relations": [
+    {
+      "id": "a-nan023-wangyu-queen-sister",
+      "subject_person_id": "q7m_r8k_2vn_B",
+      "object_person_id": "1tc_q18_x7v",
+      "predicate": "sister",
+      "qualifiers": {
+        "source_term": "明帝娶景文妹",
+        "nan023_wangyu_reading": "queen-sister",
+        "relative_birth_order": {
+          "older_person_id": "1tc_q18_x7v",
+          "younger_person_id": "q7m_r8k_2vn_B",
+          "operator": "lt",
+          "scope": "siblings",
+          "older_ordinal": null,
+          "younger_ordinal": null
+        }
+      },
+      "evidence": [
+        {
+          "work_id": "w-nanshi",
+          "book_id": "b-nanshi-023",
+          "source_id": "s-nanshi-023-wangyu-jingwen-ws2478204",
+          "chapter_id": "c-nanshi-023-wangyu-jingwen",
+          "paragraph_id": "c-nanshi-023-wangyu-jingwen:p003",
+          "quote": "景文好言理，少與陳郡謝莊齊名。文帝嘗與群臣臨天泉池，帝垂綸良久不獲。景文越席曰：「臣以為垂綸者清，故不獲貪餌。」眾皆稱善。文帝甚相欽重，故為明帝娶景文妹而以景文之名名明帝。武帝第五女新安公主先適太原王景深，離絕，當以適景文，景文固辭以疾，故不成婚。襲爵建陵子。元凶以為黃門侍郎，未及就，孝武入討，景文遣間使歸款。以父在都下，不獲致身，事平，頗見嫌責。猶以舊恩，累遷司徒左長史。",
+          "subject_person_reference_id": "c-nanshi-023-wangyu-jingwen:p003:r0075",
+          "object_person_mention_id": "c-nanshi-023-wangyu-jingwen:p003:m0073"
+        }
+      ],
+      "status": "source_attested",
+      "interpretation_note": "親稱具體兩端與長幼。",
+      "reviewer": "Codex（AI 代理）",
+      "human_reviewed": false,
+      "model": null
+    },
+    {
+      "id": "a-nan023-wangyu-queen-spouse",
+      "subject_person_id": "q7m_r8k_2vn_B",
+      "object_person_id": "cti_o52_4nz",
+      "predicate": "spouse",
+      "qualifiers": {
+        "source_term": "為明帝娶景文妹",
+        "nan023_wangyu_reading": "queen-spouse"
+      },
+      "evidence": [
+        {
+          "work_id": "w-nanshi",
+          "book_id": "b-nanshi-023",
+          "source_id": "s-nanshi-023-wangyu-jingwen-ws2478204",
+          "chapter_id": "c-nanshi-023-wangyu-jingwen",
+          "paragraph_id": "c-nanshi-023-wangyu-jingwen:p003",
+          "quote": "景文好言理，少與陳郡謝莊齊名。文帝嘗與群臣臨天泉池，帝垂綸良久不獲。景文越席曰：「臣以為垂綸者清，故不獲貪餌。」眾皆稱善。文帝甚相欽重，故為明帝娶景文妹而以景文之名名明帝。武帝第五女新安公主先適太原王景深，離絕，當以適景文，景文固辭以疾，故不成婚。襲爵建陵子。元凶以為黃門侍郎，未及就，孝武入討，景文遣間使歸款。以父在都下，不獲致身，事平，頗見嫌責。猶以舊恩，累遷司徒左長史。",
+          "subject_person_reference_id": "c-nanshi-023-wangyu-jingwen:p003:r0075",
+          "object_person_reference_id": "c-nanshi-023-wangyu-jingwen:p003:r0070"
+        }
+      ],
+      "status": "source_attested",
+      "interpretation_note": "明帝妻王貞風，別於下文新安公主。",
+      "reviewer": "Codex（AI 代理）",
+      "human_reviewed": false,
+      "model": null
+    },
     {
       "id": "a-song041-wangzhenfeng-272-47-6-mother",
       "subject_person_id": "cti_o52_4nz_B",

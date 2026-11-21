@@ -16,6 +16,54 @@
   ],
   "titles": [
     {
+      "id": "th-w044-zhengm-8",
+      "person_id": "64e_ce8_aba",
+      "title": "中庶子",
+      "kind": "office",
+      "mode": "attestation",
+      "evidence": [
+        {
+          "work_id": "w-jinshu",
+          "book_id": "b-jinshu-044",
+          "chapter_id": "c-jinshu-044-zhengmo",
+          "source_id": "s-jinshu-044-zhengmo",
+          "paragraph_id": "c-jinshu-044-zhengmo:line022",
+          "quote": "默字思元。起家秘書郎，考核舊文，刪省浮穢。中書令虞松謂曰：「而今而後，硃紫別矣。」轉尚書考功郎，專典伐蜀事，封關內侯，遷司徒左長史。武帝受禪，與太原郭奕俱為中庶子。朝廷以太子官屬宜稱陪臣。默上言：「皇太子體皇極之尊，無私於天下。宮臣皆受命天朝，不得同之籓國。」事遂施行。出為東郡太守，值歲荒人饑，默輒開倉振給，乃舍都亭，自表待罪。朝廷嘉默憂國，詔書褒歎，比之汲黯。班告天下，若郡縣有此比者，皆聽出給。入為散騎常侍。",
+          "person_mention_id": "c-jinshu-044-zhengmo:line022:m0074"
+        }
+      ],
+      "attestations": [
+        {
+          "id": "th-w043-zhengm-8:a",
+          "paragraph_id": "c-jinshu-044-zhengmo:line022",
+          "start": 78,
+          "end": 81,
+          "surface": "中庶子",
+          "person_mention_id": "c-jinshu-044-zhengmo:line022:m0074",
+          "usage": "narrative",
+          "date_expression": null
+        }
+      ],
+      "effective_period": {
+        "start": {
+          "status": "unknown",
+          "date_expression": null,
+          "evidence": []
+        },
+        "end": {
+          "status": "unknown",
+          "date_expression": null,
+          "evidence": []
+        }
+      },
+      "interpretation_note": "本來源官稱或所任，未受另記。",
+      "status": "source_attested",
+      "reviewer": "Codex（AI 代理）",
+      "human_reviewed": false,
+      "model": null,
+      "period": "未定 → 未定"
+    },
+    {
       "id": "th-jin045-guoyi-001",
       "person_id": "64e_ce8_aba",
       "title": "野王令",
@@ -1903,6 +1951,41 @@
       "book_id": "b-jinshu-039",
       "chapter_id": "c-jinshu-039-wangxun-feng",
       "source_id": "s-jinshu-039-wangxun-feng",
+      "work_title": "晉書"
+    },
+    {
+      "number": 44,
+      "category": "",
+      "title": "晉書卷四十四·鄭默傳",
+      "paragraph_id": "c-jinshu-044-zhengmo:line022",
+      "count": 1,
+      "raw_count": 1,
+      "duplicate_count": 0,
+      "counting_policy": "independent_fixed_witness_occurrences",
+      "quote": "。」轉尚書考功郎，專典伐蜀事，封關內侯，遷司徒左長史。武帝受禪，與太原郭奕俱為中庶子。朝廷以太子官屬宜稱陪臣。默上言：「皇太子體皇極之尊，無私於天下。宮臣皆受命天朝，不得同之籓國。」事遂施行。出為東郡太守，值歲荒人饑，默輒開倉振給，乃舍都亭，自表待罪。朝廷嘉默憂國，詔書褒歎",
+      "paragraph_ids": [
+        "c-jinshu-044-zhengmo:line022"
+      ],
+      "mention_ids": [
+        "c-jinshu-044-zhengmo:line022:m0074"
+      ],
+      "mention_paragraph_ids": {
+        "c-jinshu-044-zhengmo:line022:m0074": "c-jinshu-044-zhengmo:line022"
+      },
+      "mention_id": "c-jinshu-044-zhengmo:line022:m0074",
+      "occurrence_groups": [
+        {
+          "canonical_mention_id": "c-jinshu-044-zhengmo:line022:m0074",
+          "mention_ids": [
+            "c-jinshu-044-zhengmo:line022:m0074"
+          ],
+          "kind": "paragraph"
+        }
+      ],
+      "work_id": "w-jinshu",
+      "book_id": "b-jinshu-044",
+      "chapter_id": "c-jinshu-044-zhengmo",
+      "source_id": "s-jinshu-044-zhengmo",
       "work_title": "晉書"
     },
     {
@@ -13962,6 +14045,33 @@
         "response_sha256": "6024484babc384e46d119f771afcfcc00dda04e96dfd57c6e2e220bfc11ca63f",
         "wikitext_sha256": "93fdc36293b084a3693b073808ba92095e730973f8e4c5b2b4dd19fb1e9cea4c",
         "edition": "維基文庫數位轉錄，底本影像未核"
+      }
+    },
+    {
+      "chapter_id": "c-jinshu-044-zhengmo",
+      "work_id": "w-jinshu",
+      "book_id": "b-jinshu-044",
+      "source_id": "s-jinshu-044-zhengmo",
+      "source": {
+        "title": "晉書卷四十四",
+        "provider": "Wikisource",
+        "url": "https://zh.wikisource.org/w/index.php?oldid=1775345",
+        "permalink": "https://zh.wikisource.org/w/index.php?oldid=1775345",
+        "revision_id": 1775345,
+        "accessed_on": "2026-11-21",
+        "extent": "固定數位題「子默」題下全文。",
+        "text_scope": "partial_chapter",
+        "review_status": "text_checked",
+        "image_verified": false,
+        "rights": "古代本文及維基文庫數位轉錄。",
+        "license_url": "https://creativecommons.org/licenses/by-sa/4.0/",
+        "edition": "維基文庫固定修訂1775345",
+        "raw_path": "sources/jinshu/wikisource-1775345-raw.wikitext",
+        "wikitext_sha256": "09742e651b479fea881fd24c7734451de2b78b9f0410adda36ba210c31a0b5c8",
+        "raw_file_sha256": "09742e651b479fea881fd24c7734451de2b78b9f0410adda36ba210c31a0b5c8",
+        "collation_witnesses": [
+          "source-evidence/jin044-zhengmo-sons/reading.json"
+        ]
       }
     },
     {

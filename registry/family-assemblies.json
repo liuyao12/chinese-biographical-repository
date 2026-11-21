@@ -15272,6 +15272,197 @@
           "source_assertion_id": "a-xuanmo-liuxiu-father"
         }
       ]
+    },
+    {
+      "id": "family-xuanmo-zaizu",
+      "root_person_id": "85g_yq3_0w6",
+      "label": "王宰、王蕤、王玄載",
+      "status": "contextual_provisional",
+      "reviewer": "Codex（AI代理）",
+      "human_reviewed": false,
+      "rationale": "傳首先書祖，再書父；組裝中間一代，以同段兩條原證為據。",
+      "members": [
+        {
+          "person_id": "85g_yq3_0w6",
+          "source_person_ids": [
+            "85g_yq3_0w6"
+          ],
+          "representative_source_person_id": "85g_yq3_0w6",
+          "identity_equivalence_decision_ids": [],
+          "parent_person_id": null,
+          "source_assertion_id": null
+        },
+        {
+          "person_id": "85g_yq3_0w6_A",
+          "source_person_ids": [
+            "85g_yq3_0w6_A"
+          ],
+          "representative_source_person_id": "85g_yq3_0w6_A",
+          "identity_equivalence_decision_ids": [],
+          "parent_person_id": "85g_yq3_0w6",
+          "source_assertion_id": null,
+          "parent_connection": {
+            "type": "parent_between_consecutive_ancestors",
+            "chain_subject_person_id": "85g_yq3_0w6_AA",
+            "nearer_ancestor_assertion_id": "a-xuanmo-zai-father",
+            "farther_ancestor_assertion_id": "a-xuanmo-zai-grandfather",
+            "status": "contextual_provisional",
+            "human_reviewed": false,
+            "rationale": "傳首先書祖，再書父；組裝中間一代，以同段兩條原證為據。",
+            "references": [
+              {
+                "work_id": "w-nanqishu",
+                "book_id": "b-nanqishu-027",
+                "chapter_id": "c-nanqishu-027-wangxuanzai",
+                "paragraph_id": "c-nanqishu-027-wangxuanzai:p001",
+                "source_id": "s-nanqishu-027-wangxuanzai-ws1508012",
+                "quote": "王玄載，字彥休，下邳人也。祖宰，偽北地太守。父蕤，東莞太守。",
+                "assertion_id": "a-xuanmo-zai-father",
+                "url": "https://zh.wikisource.org/w/index.php?oldid=1508012",
+                "scope": "原傳首祖與父兩處具名，所證同一傳主。"
+              },
+              {
+                "work_id": "w-nanqishu",
+                "book_id": "b-nanqishu-027",
+                "chapter_id": "c-nanqishu-027-wangxuanzai",
+                "paragraph_id": "c-nanqishu-027-wangxuanzai:p001",
+                "source_id": "s-nanqishu-027-wangxuanzai-ws1508012",
+                "quote": "王玄載，字彥休，下邳人也。祖宰，偽北地太守。父蕤，東莞太守。",
+                "assertion_id": "a-xuanmo-zai-grandfather",
+                "url": "https://zh.wikisource.org/w/index.php?oldid=1508012",
+                "scope": "原傳首祖與父兩處具名，所證同一傳主。"
+              }
+            ]
+          }
+        },
+        {
+          "person_id": "85g_yq3_0w6_AA",
+          "source_person_ids": [
+            "85g_yq3_0w6_AA"
+          ],
+          "representative_source_person_id": "85g_yq3_0w6_AA",
+          "identity_equivalence_decision_ids": [],
+          "parent_person_id": "85g_yq3_0w6_A",
+          "source_assertion_id": "a-xuanmo-zai-father"
+        },
+        {
+          "person_id": "85g_yq3_0w6_AB",
+          "source_person_ids": [
+            "hgq_k4y_crp"
+          ],
+          "representative_source_person_id": "hgq_k4y_crp",
+          "identity_equivalence_decision_ids": [],
+          "parent_person_id": "85g_yq3_0w6_A",
+          "source_assertion_id": null,
+          "parent_connection": {
+            "type": "shared_father_through_sibling",
+            "sibling_person_id": "85g_yq3_0w6_AA",
+            "sibling_assertion_id": "a-xuanmo-miao-qi-older",
+            "sibling_father_assertion_id": "a-xuanmo-zai-father",
+            "status": "contextual_provisional",
+            "human_reviewed": false,
+            "rationale": "玄邈以齊27兄玄載的明父蕤暫接。",
+            "references": [
+              {
+                "work_id": "w-nanqishu",
+                "book_id": "b-nanqishu-027",
+                "chapter_id": "c-nanqishu-027-wangxuanmiao",
+                "paragraph_id": "c-nanqishu-027-wangxuanmiao:p001",
+                "source_id": "s-nanqishu-027-wangxuanmiao-ws1508012",
+                "quote": "玄載弟玄邈，字彥遠。初為驃騎行軍參軍，太子左積弩將軍，射聲校尉。泰始初，遷輔國將軍、清河廣川二郡太守，幽州刺史。青州刺史沈文秀反，玄邈欲向朝廷，慮見掩襲，乃詣文秀求安軍頓。文秀令頓城外。玄邈卽立營壘，至夜拔軍南奔赴義。比曉，文秀追不復及。明帝以為持節、都督青州、青州刺史，將軍如故。",
+                "scope": "齊書27王玄載明父與玄邈明兄。",
+                "url": "https://zh.wikisource.org/w/index.php?oldid=1508012",
+                "assertion_id": "a-xuanmo-miao-qi-older"
+              },
+              {
+                "work_id": "w-nanqishu",
+                "book_id": "b-nanqishu-027",
+                "chapter_id": "c-nanqishu-027-wangxuanzai",
+                "paragraph_id": "c-nanqishu-027-wangxuanzai:p001",
+                "source_id": "s-nanqishu-027-wangxuanzai-ws1508012",
+                "quote": "王玄載，字彥休，下邳人也。祖宰，偽北地太守。父蕤，東莞太守。",
+                "scope": "齊書27王玄載明父與玄邈明兄。",
+                "url": "https://zh.wikisource.org/w/index.php?oldid=1508012",
+                "assertion_id": "a-xuanmo-zai-father"
+              }
+            ]
+          }
+        }
+      ]
+    },
+    {
+      "id": "family-xuanmo-xunboyu",
+      "root_person_id": "5we_446_pbb",
+      "label": "荀永、荀闡之、荀伯玉",
+      "status": "contextual_provisional",
+      "reviewer": "Codex（AI代理）",
+      "human_reviewed": false,
+      "rationale": "傳首先書祖，再書父；組裝中間一代，以同段兩條原證為據。",
+      "members": [
+        {
+          "person_id": "5we_446_pbb",
+          "source_person_ids": [
+            "5we_446_pbb"
+          ],
+          "representative_source_person_id": "5we_446_pbb",
+          "identity_equivalence_decision_ids": [],
+          "parent_person_id": null,
+          "source_assertion_id": null
+        },
+        {
+          "person_id": "5we_446_pbb_A",
+          "source_person_ids": [
+            "5we_446_pbb_A"
+          ],
+          "representative_source_person_id": "5we_446_pbb_A",
+          "identity_equivalence_decision_ids": [],
+          "parent_person_id": "5we_446_pbb",
+          "source_assertion_id": null,
+          "parent_connection": {
+            "type": "parent_between_consecutive_ancestors",
+            "chain_subject_person_id": "5we_446_pbb_AA",
+            "nearer_ancestor_assertion_id": "a-xuanmo-boyu-father",
+            "farther_ancestor_assertion_id": "a-xuanmo-boyu-grandfather",
+            "status": "contextual_provisional",
+            "human_reviewed": false,
+            "rationale": "傳首先書祖，再書父；組裝中間一代，以同段兩條原證為據。",
+            "references": [
+              {
+                "work_id": "w-nanqishu",
+                "book_id": "b-nanqishu-031",
+                "chapter_id": "c-nanqishu-031-xuanmiao-xunboyu",
+                "paragraph_id": "c-nanqishu-031-xuanmiao-xunboyu:p001",
+                "source_id": "s-nanqishu-031-xuanmiao-xunboyu-ws2062531",
+                "quote": "荀伯玉字弄璋，廣陵人也。祖永，南譙太守，父闡之，給事中。",
+                "assertion_id": "a-xuanmo-boyu-father",
+                "url": "https://zh.wikisource.org/w/index.php?oldid=2062531",
+                "scope": "原傳首祖與父兩處具名，所證同一傳主。"
+              },
+              {
+                "work_id": "w-nanqishu",
+                "book_id": "b-nanqishu-031",
+                "chapter_id": "c-nanqishu-031-xuanmiao-xunboyu",
+                "paragraph_id": "c-nanqishu-031-xuanmiao-xunboyu:p001",
+                "source_id": "s-nanqishu-031-xuanmiao-xunboyu-ws2062531",
+                "quote": "荀伯玉字弄璋，廣陵人也。祖永，南譙太守，父闡之，給事中。",
+                "assertion_id": "a-xuanmo-boyu-grandfather",
+                "url": "https://zh.wikisource.org/w/index.php?oldid=2062531",
+                "scope": "原傳首祖與父兩處具名，所證同一傳主。"
+              }
+            ]
+          }
+        },
+        {
+          "person_id": "5we_446_pbb_AA",
+          "source_person_ids": [
+            "5we_446_pbb_AA"
+          ],
+          "representative_source_person_id": "5we_446_pbb_AA",
+          "identity_equivalence_decision_ids": [],
+          "parent_person_id": "5we_446_pbb_A",
+          "source_assertion_id": "a-xuanmo-boyu-father"
+        }
+      ]
     }
   ]
 }

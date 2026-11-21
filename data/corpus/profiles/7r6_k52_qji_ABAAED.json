@@ -6,7 +6,8 @@
   "identity_note": "本次固定來源首輪候選；未與全庫同姓或同名者強合。",
   "review": "ai_provisional",
   "names": [
-    "穆"
+    "穆",
+    "伯遠"
   ],
   "titles": [
     {
@@ -56,6 +57,54 @@
       "human_reviewed": false,
       "model": null,
       "period": "未定 → 未定"
+    },
+    {
+      "id": "th-nan023-wangyu-m1-25",
+      "person_id": "7r6_k52_qji_ABAAED",
+      "title": "臨海太守",
+      "kind": "office",
+      "mode": "attestation",
+      "attestations": [
+        {
+          "id": "th-nan023-wangyu-m1-25:a",
+          "person_mention_id": "c-nanshi-023-wangyu-jingwen:p001:m0012",
+          "usage": "narrative",
+          "date_expression": null,
+          "paragraph_id": "c-nanshi-023-wangyu-jingwen:p001",
+          "surface": "臨海太守",
+          "start": 25,
+          "end": 29
+        }
+      ],
+      "effective_period": {
+        "start": {
+          "status": "unknown",
+          "date_expression": null,
+          "evidence": []
+        },
+        "end": {
+          "status": "unknown",
+          "date_expression": null,
+          "evidence": []
+        }
+      },
+      "evidence": [
+        {
+          "work_id": "w-nanshi",
+          "book_id": "b-nanshi-023",
+          "source_id": "s-nanshi-023-wangyu-jingwen-ws2478204",
+          "chapter_id": "c-nanshi-023-wangyu-jingwen",
+          "paragraph_id": "c-nanshi-023-wangyu-jingwen:p001",
+          "quote": "王彧字景文，球從子也。祖穆字伯遠，司徒謐之長兄，位臨海太守。父僧朗，仕宋位尚書右僕射，明帝初，以後父加特進，贈開府儀同三司，諡元公。彧名與明帝諱同，故以字行。伯父智少簡貴，有高名，宋武帝甚重之。常言：「見王智使人思仲祖」。武帝與劉穆之討劉毅而智在焉，他日，穆之白武帝曰：「伐國重事，公言何乃使王智知。」武帝笑曰：「此人高簡，豈聞此輩論議。」其見知如此。為宋國五兵尚書，封建陵縣五等子，追贈太常。",
+          "person_mention_id": "c-nanshi-023-wangyu-jingwen:p001:m0012"
+        }
+      ],
+      "status": "source_attested",
+      "interpretation_note": "按本見證原職名及其所屬人。",
+      "reviewer": "Codex（AI 代理）",
+      "human_reviewed": false,
+      "model": null,
+      "period": "未定 → 未定"
     }
   ],
   "addresses": [
@@ -94,6 +143,50 @@
     }
   ],
   "occurrences": [
+    {
+      "number": 23,
+      "category": "",
+      "title": "王彧（字景文）及伯父智",
+      "paragraph_id": "c-nanshi-023-wangyu-jingwen:p001",
+      "count": 2,
+      "raw_count": 2,
+      "duplicate_count": 0,
+      "counting_policy": "independent_fixed_witness_occurrences",
+      "quote": "王彧字景文，球從子也。祖穆字伯遠，司徒謐之長兄，位臨海太守。父僧朗，仕宋位尚書右僕射，明帝初，以後父加特進，贈開府儀同三司，諡元公。彧名與明帝諱同，故以字行。伯父智少簡貴，有高名，宋武帝甚重之。常言：「見王智使人思仲祖」。武帝",
+      "paragraph_ids": [
+        "c-nanshi-023-wangyu-jingwen:p001"
+      ],
+      "mention_ids": [
+        "c-nanshi-023-wangyu-jingwen:p001:m0012",
+        "c-nanshi-023-wangyu-jingwen:p001:m0014"
+      ],
+      "mention_paragraph_ids": {
+        "c-nanshi-023-wangyu-jingwen:p001:m0012": "c-nanshi-023-wangyu-jingwen:p001",
+        "c-nanshi-023-wangyu-jingwen:p001:m0014": "c-nanshi-023-wangyu-jingwen:p001"
+      },
+      "mention_id": "c-nanshi-023-wangyu-jingwen:p001:m0012",
+      "occurrence_groups": [
+        {
+          "canonical_mention_id": "c-nanshi-023-wangyu-jingwen:p001:m0012",
+          "mention_ids": [
+            "c-nanshi-023-wangyu-jingwen:p001:m0012"
+          ],
+          "kind": "paragraph"
+        },
+        {
+          "canonical_mention_id": "c-nanshi-023-wangyu-jingwen:p001:m0014",
+          "mention_ids": [
+            "c-nanshi-023-wangyu-jingwen:p001:m0014"
+          ],
+          "kind": "paragraph"
+        }
+      ],
+      "work_id": "w-nanshi",
+      "book_id": "b-nanshi-023",
+      "chapter_id": "c-nanshi-023-wangyu-jingwen",
+      "source_id": "s-nanshi-023-wangyu-jingwen-ws2478204",
+      "work_title": "南史"
+    },
     {
       "number": 65,
       "category": "",
@@ -852,6 +945,117 @@
           ]
         }
       }
+    },
+    {
+      "chapter_id": "c-nanshi-023-wangyu-jingwen",
+      "work_id": "w-nanshi",
+      "book_id": "b-nanshi-023",
+      "source_id": "s-nanshi-023-wangyu-jingwen-ws2478204",
+      "source": {
+        "title": "南史卷23·王彧（字景文）及伯父智",
+        "provider": "Wikisource",
+        "url": "https://zh.wikisource.org/w/index.php?oldid=2478204",
+        "permalink": "https://zh.wikisource.org/w/index.php?oldid=2478204",
+        "revision_id": 2478204,
+        "accessed_on": "2026-11-21",
+        "edition": "維基文庫固定數位轉錄",
+        "extent": "固定修訂第101至119行，含段內子孫記載。",
+        "text_scope": "complete_biography_unit",
+        "image_verified": false,
+        "review_status": "text_checked",
+        "raw_path": "sources/nanshi/nanshi023-ws2478204.wikitext",
+        "raw_file_sha256": "c54bdda206986e5d4e5331144e783f163b5823855581b9833572e1982d1d4e40",
+        "rights": "古代原典及維基文庫數位轉錄。",
+        "license_url": "https://zh.wikisource.org/wiki/Wikisource:著作權資訊",
+        "normalization": {
+          "character_conversion": {},
+          "extraction_note": "逐碼取原行，數位校者夾注分層另據原始字位查核。",
+          "verified_blank_line_gaps": [
+            {
+              "source_lines": [
+                102,
+                102
+              ],
+              "raw_quote": "",
+              "raw_quote_sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+              "revision_id": 2478204
+            },
+            {
+              "source_lines": [
+                104,
+                104
+              ],
+              "raw_quote": "",
+              "raw_quote_sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+              "revision_id": 2478204
+            },
+            {
+              "source_lines": [
+                106,
+                106
+              ],
+              "raw_quote": "",
+              "raw_quote_sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+              "revision_id": 2478204
+            },
+            {
+              "source_lines": [
+                108,
+                108
+              ],
+              "raw_quote": "",
+              "raw_quote_sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+              "revision_id": 2478204
+            },
+            {
+              "source_lines": [
+                110,
+                110
+              ],
+              "raw_quote": "",
+              "raw_quote_sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+              "revision_id": 2478204
+            },
+            {
+              "source_lines": [
+                112,
+                112
+              ],
+              "raw_quote": "",
+              "raw_quote_sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+              "revision_id": 2478204
+            },
+            {
+              "source_lines": [
+                114,
+                114
+              ],
+              "raw_quote": "",
+              "raw_quote_sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+              "revision_id": 2478204
+            },
+            {
+              "source_lines": [
+                116,
+                116
+              ],
+              "raw_quote": "",
+              "raw_quote_sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+              "revision_id": 2478204
+            },
+            {
+              "source_lines": [
+                118,
+                118
+              ],
+              "raw_quote": "",
+              "raw_quote_sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+              "revision_id": 2478204
+            }
+          ]
+        },
+        "section_locator": "數位王彧原題，傳首至長子絢；絢本傳自121行起。"
+      }
     }
   ],
   "relations": [
@@ -978,9 +1182,74 @@
       "reviewer": "Codex（AI 代理）",
       "human_reviewed": false,
       "model": null
+    },
+    {
+      "id": "a-nan023-wangyu-grandfather",
+      "subject_person_id": "1tc_q18_x7v",
+      "object_person_id": "7r6_k52_qji_ABAAED",
+      "predicate": "grandfather",
+      "qualifiers": {
+        "source_term": "祖穆",
+        "nan023_wangyu_reading": "grandfather",
+        "lineage": "paternal"
+      },
+      "evidence": [
+        {
+          "work_id": "w-nanshi",
+          "book_id": "b-nanshi-023",
+          "source_id": "s-nanshi-023-wangyu-jingwen-ws2478204",
+          "chapter_id": "c-nanshi-023-wangyu-jingwen",
+          "paragraph_id": "c-nanshi-023-wangyu-jingwen:p001",
+          "quote": "王彧字景文，球從子也。祖穆字伯遠，司徒謐之長兄，位臨海太守。父僧朗，仕宋位尚書右僕射，明帝初，以後父加特進，贈開府儀同三司，諡元公。彧名與明帝諱同，故以字行。伯父智少簡貴，有高名，宋武帝甚重之。常言：「見王智使人思仲祖」。武帝與劉穆之討劉毅而智在焉，他日，穆之白武帝曰：「伐國重事，公言何乃使王智知。」武帝笑曰：「此人高簡，豈聞此輩論議。」其見知如此。為宋國五兵尚書，封建陵縣五等子，追贈太常。",
+          "subject_person_mention_id": "c-nanshi-023-wangyu-jingwen:p001:m0000",
+          "object_person_mention_id": "c-nanshi-023-wangyu-jingwen:p001:m0012"
+        }
+      ],
+      "status": "source_attested",
+      "interpretation_note": "祖父穆，字伯遠。",
+      "reviewer": "Codex（AI 代理）",
+      "human_reviewed": false,
+      "model": null
+    },
+    {
+      "id": "a-nan023-wangyu-older-brother",
+      "subject_person_id": "7r6_k52_qji_ABAAED",
+      "object_person_id": "3c9_d1d_870",
+      "predicate": "brother",
+      "qualifiers": {
+        "source_term": "司徒謐之長兄",
+        "nan023_wangyu_reading": "older-brother",
+        "relative_birth_order": {
+          "older_person_id": "7r6_k52_qji_ABAAED",
+          "younger_person_id": "3c9_d1d_870",
+          "operator": "lt",
+          "scope": "siblings",
+          "older_ordinal": null,
+          "younger_ordinal": null
+        }
+      },
+      "evidence": [
+        {
+          "work_id": "w-nanshi",
+          "book_id": "b-nanshi-023",
+          "source_id": "s-nanshi-023-wangyu-jingwen-ws2478204",
+          "chapter_id": "c-nanshi-023-wangyu-jingwen",
+          "paragraph_id": "c-nanshi-023-wangyu-jingwen:p001",
+          "quote": "王彧字景文，球從子也。祖穆字伯遠，司徒謐之長兄，位臨海太守。父僧朗，仕宋位尚書右僕射，明帝初，以後父加特進，贈開府儀同三司，諡元公。彧名與明帝諱同，故以字行。伯父智少簡貴，有高名，宋武帝甚重之。常言：「見王智使人思仲祖」。武帝與劉穆之討劉毅而智在焉，他日，穆之白武帝曰：「伐國重事，公言何乃使王智知。」武帝笑曰：「此人高簡，豈聞此輩論議。」其見知如此。為宋國五兵尚書，封建陵縣五等子，追贈太常。",
+          "subject_person_mention_id": "c-nanshi-023-wangyu-jingwen:p001:m0012",
+          "object_person_mention_id": "c-nanshi-023-wangyu-jingwen:p001:m0019"
+        }
+      ],
+      "status": "source_attested",
+      "interpretation_note": "親稱具體兩端與長幼。",
+      "reviewer": "Codex（AI 代理）",
+      "human_reviewed": false,
+      "model": null
     }
   ],
   "related_people": {
+    "1tc_q18_x7v": "王彧",
+    "3c9_d1d_870": "王謐",
     "7r6_k52_qji_ABAAE": "王邵",
     "7r6_k52_qji_ABAAED": "王穆（王劭子）",
     "7r6_k52_qji_ABAAEDA": "王簡",
@@ -988,7 +1257,23 @@
     "7r6_k52_qji_ABAAEDC": "王超"
   },
   "dates": [],
-  "name_components": [],
+  "name_components": [
+    {
+      "id": "nc-nan023-wangyu-穆",
+      "person_id": "7r6_k52_qji_ABAAED",
+      "ming": "穆",
+      "zi": "伯遠",
+      "additional_names": [],
+      "chapter_id": "c-nanshi-023-wangyu-jingwen",
+      "paragraph_id": "c-nanshi-023-wangyu-jingwen:p001",
+      "quote": "王彧字景文，球從子也。祖穆字伯遠，司徒謐之長兄，位臨海太守。父僧朗，仕宋位尚書右僕射，明帝初，以後父加特進，贈開府儀同三司，諡元公。彧名與明帝諱同，故以字行。伯父智少簡貴，有高名，宋武帝甚重之。常言：「見王智使人思仲祖」。武帝與劉穆之討劉毅而智在焉，他日，穆之白武帝曰：「伐國重事，公言何乃使王智知。」武帝笑曰：「此人高簡，豈聞此輩論議。」其見知如此。為宋國五兵尚書，封建陵縣五等子，追贈太常。",
+      "status": "editorial_provisional",
+      "human_reviewed": false,
+      "work_id": "w-nanshi",
+      "book_id": "b-nanshi-023",
+      "source_id": "s-nanshi-023-wangyu-jingwen-ws2478204"
+    }
+  ],
   "person_ids": [
     "7r6_k52_qji_ABAAED"
   ],
@@ -1113,6 +1398,69 @@
         "surface": "穆三子：簡、智、超"
       },
       "interpretation_note": "明載父穆與三子名，不據列序推絕對排行。",
+      "reviewer": "Codex（AI 代理）",
+      "human_reviewed": false,
+      "model": null
+    },
+    {
+      "id": "a-nan023-wangyu-grandfather",
+      "subject_person_id": "1tc_q18_x7v",
+      "object_person_id": "7r6_k52_qji_ABAAED",
+      "predicate": "grandfather",
+      "qualifiers": {
+        "source_term": "祖穆",
+        "nan023_wangyu_reading": "grandfather",
+        "lineage": "paternal"
+      },
+      "evidence": [
+        {
+          "work_id": "w-nanshi",
+          "book_id": "b-nanshi-023",
+          "source_id": "s-nanshi-023-wangyu-jingwen-ws2478204",
+          "chapter_id": "c-nanshi-023-wangyu-jingwen",
+          "paragraph_id": "c-nanshi-023-wangyu-jingwen:p001",
+          "quote": "王彧字景文，球從子也。祖穆字伯遠，司徒謐之長兄，位臨海太守。父僧朗，仕宋位尚書右僕射，明帝初，以後父加特進，贈開府儀同三司，諡元公。彧名與明帝諱同，故以字行。伯父智少簡貴，有高名，宋武帝甚重之。常言：「見王智使人思仲祖」。武帝與劉穆之討劉毅而智在焉，他日，穆之白武帝曰：「伐國重事，公言何乃使王智知。」武帝笑曰：「此人高簡，豈聞此輩論議。」其見知如此。為宋國五兵尚書，封建陵縣五等子，追贈太常。",
+          "subject_person_mention_id": "c-nanshi-023-wangyu-jingwen:p001:m0000",
+          "object_person_mention_id": "c-nanshi-023-wangyu-jingwen:p001:m0012"
+        }
+      ],
+      "status": "source_attested",
+      "interpretation_note": "祖父穆，字伯遠。",
+      "reviewer": "Codex（AI 代理）",
+      "human_reviewed": false,
+      "model": null
+    },
+    {
+      "id": "a-nan023-wangyu-older-brother",
+      "subject_person_id": "7r6_k52_qji_ABAAED",
+      "object_person_id": "3c9_d1d_870",
+      "predicate": "brother",
+      "qualifiers": {
+        "source_term": "司徒謐之長兄",
+        "nan023_wangyu_reading": "older-brother",
+        "relative_birth_order": {
+          "older_person_id": "7r6_k52_qji_ABAAED",
+          "younger_person_id": "3c9_d1d_870",
+          "operator": "lt",
+          "scope": "siblings",
+          "older_ordinal": null,
+          "younger_ordinal": null
+        }
+      },
+      "evidence": [
+        {
+          "work_id": "w-nanshi",
+          "book_id": "b-nanshi-023",
+          "source_id": "s-nanshi-023-wangyu-jingwen-ws2478204",
+          "chapter_id": "c-nanshi-023-wangyu-jingwen",
+          "paragraph_id": "c-nanshi-023-wangyu-jingwen:p001",
+          "quote": "王彧字景文，球從子也。祖穆字伯遠，司徒謐之長兄，位臨海太守。父僧朗，仕宋位尚書右僕射，明帝初，以後父加特進，贈開府儀同三司，諡元公。彧名與明帝諱同，故以字行。伯父智少簡貴，有高名，宋武帝甚重之。常言：「見王智使人思仲祖」。武帝與劉穆之討劉毅而智在焉，他日，穆之白武帝曰：「伐國重事，公言何乃使王智知。」武帝笑曰：「此人高簡，豈聞此輩論議。」其見知如此。為宋國五兵尚書，封建陵縣五等子，追贈太常。",
+          "subject_person_mention_id": "c-nanshi-023-wangyu-jingwen:p001:m0012",
+          "object_person_mention_id": "c-nanshi-023-wangyu-jingwen:p001:m0019"
+        }
+      ],
+      "status": "source_attested",
+      "interpretation_note": "親稱具體兩端與長幼。",
       "reviewer": "Codex（AI 代理）",
       "human_reviewed": false,
       "model": null
