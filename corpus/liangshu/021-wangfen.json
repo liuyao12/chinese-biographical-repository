@@ -14,8 +14,8 @@
     "revision_id": 1544250,
     "accessed_on": "2026-11-19",
     "edition": "固定數位轉錄。傳內異文與武英殿本對讀見獨立校記。",
-    "extent": "已逐項通讀王份、王琳、王錫；以固定本原行及原有段號登錄。",
-    "text_scope": "partial_chapter",
+    "extent": "已逐項通讀王份、王琳、王錫、王僉；以固定本原行及原有段號登錄。",
+    "text_scope": "complete_biography_unit",
     "image_verified": false,
     "review_status": "text_checked",
     "license_url": "https://creativecommons.org/licenses/by-sa/4.0/",
@@ -25,8 +25,8 @@
     "raw_file_sha256": "d547d5b8e194f36e62b748cdfb6f18366378bb372ffb8d5b82e721ca2ccb3fab"
   },
   "annotation": {
-    "status": "in_progress",
-    "completion_note": "已逐項通讀王份、王琳、王錫；以固定本原行及原有段號登錄。",
+    "status": "reviewed",
+    "completion_note": "已逐項通讀王份、王琳、王錫、王僉；以固定本原行及原有段號登錄。",
     "reviewer": "Codex（AI代理）",
     "human_reviewed": false,
     "model": null,
@@ -287,6 +287,75 @@
         ],
         "wang_family_age_reading": "xi-14",
         "interpretation_note": "十四舉清茂；承同段年歲。",
+        "reviewer": "Codex（AI 代理）",
+        "human_reviewed": false,
+        "model": null
+      },
+      {
+        "id": "age-liang021-wangfen-family-qian-8",
+        "person_id": "q7m_r8k_2vn_ABAF",
+        "value": 8,
+        "source_number": "八",
+        "source_term": "八歲",
+        "source_anchor": {
+          "paragraph_id": "c-liangshu-021-wangfen:p012",
+          "surface": "八歲",
+          "start": 11,
+          "end": 13
+        },
+        "unit": "source_age_years",
+        "counting": "unspecified_source_age",
+        "birth_year": null,
+        "status": "source_attested",
+        "age_context": {
+          "kind": "during_life"
+        },
+        "evidence": [
+          {
+            "work_id": "w-liangshu",
+            "book_id": "b-liangshu-021",
+            "source_id": "s-liangshu-021-wangfen-ws1544250",
+            "chapter_id": "c-liangshu-021-wangfen",
+            "paragraph_id": "c-liangshu-021-wangfen:p012",
+            "quote": "僉字公會，錫第五弟也。八歲丁父憂，哀毀過禮。服闋，召補國子生，祭酒袁昂稱爲通理。策高第，除長史兼秘書郎中，歷尚書殿中郎，太子中舍人，與吳郡陸襄對掌東宮管記。出爲建安太守。山酋方善、謝稀聚徒依險，屢爲民患，僉潛設方略，率衆平之，有詔褒美，頒示州郡。除武威將軍、始興內史，丁所生母憂，固辭不拜。又除寧遠將軍、南康內史，屬盧循作亂，復轉僉爲安成內史，以鎮撫之。還除黃門侍郎，尋爲安西武陵王長史、蜀郡太守。僉憚岨嶮，固以疾辭，因以黜免。久之，除戎昭將軍、尚書左丞，復補黃門侍郎，遷太子中庶子，掌東宮管記。太清二年十二月，卒，時年四十五。贈侍中，給東園秘器，朝服一具，衣一襲。承聖三年，世祖追詔曰：「賢而不伐曰恭，諡恭子。」",
+            "person_mention_id": "c-liangshu-021-wangfen:p012:m0199"
+          }
+        ],
+        "reviewer": "Codex（AI 代理）",
+        "human_reviewed": false,
+        "model": null
+      },
+      {
+        "id": "age-liang021-wangfen-family-qian-45",
+        "person_id": "q7m_r8k_2vn_ABAF",
+        "value": 45,
+        "source_number": "四十五",
+        "source_term": "時年四十五",
+        "source_anchor": {
+          "paragraph_id": "c-liangshu-021-wangfen:p012",
+          "surface": "時年四十五",
+          "start": 258,
+          "end": 263
+        },
+        "unit": "source_age_years",
+        "counting": "unspecified_source_age",
+        "birth_year": null,
+        "status": "source_attested",
+        "age_context": {
+          "kind": "at_death",
+          "life_event_id": "le-liang021-wangfen-family-qian"
+        },
+        "evidence": [
+          {
+            "work_id": "w-liangshu",
+            "book_id": "b-liangshu-021",
+            "source_id": "s-liangshu-021-wangfen-ws1544250",
+            "chapter_id": "c-liangshu-021-wangfen",
+            "paragraph_id": "c-liangshu-021-wangfen:p012",
+            "quote": "僉字公會，錫第五弟也。八歲丁父憂，哀毀過禮。服闋，召補國子生，祭酒袁昂稱爲通理。策高第，除長史兼秘書郎中，歷尚書殿中郎，太子中舍人，與吳郡陸襄對掌東宮管記。出爲建安太守。山酋方善、謝稀聚徒依險，屢爲民患，僉潛設方略，率衆平之，有詔褒美，頒示州郡。除武威將軍、始興內史，丁所生母憂，固辭不拜。又除寧遠將軍、南康內史，屬盧循作亂，復轉僉爲安成內史，以鎮撫之。還除黃門侍郎，尋爲安西武陵王長史、蜀郡太守。僉憚岨嶮，固以疾辭，因以黜免。久之，除戎昭將軍、尚書左丞，復補黃門侍郎，遷太子中庶子，掌東宮管記。太清二年十二月，卒，時年四十五。贈侍中，給東園秘器，朝服一具，衣一襲。承聖三年，世祖追詔曰：「賢而不伐曰恭，諡恭子。」",
+            "person_mention_id": "c-liangshu-021-wangfen:p012:m0199"
+          }
+        ],
         "reviewer": "Codex（AI 代理）",
         "human_reviewed": false,
         "model": null
@@ -622,6 +691,39 @@
         "paragraph_id": "c-liangshu-021-wangfen:p010",
         "quote": "轉中書郎，遷給事黃門侍郎、尚書吏部郎中，時年二十四。謂親友曰：「吾以外戚，謬被時知，多叨人爵，本非其志；兼比羸病，庶務難擁，安能舍其所好而徇所不能。」乃稱疾不拜。便謝遣胥徒，拒絕賓客，掩扉覃思，室宇蕭然。",
         "note": "王錫對親友自述。"
+      },
+      {
+        "id": "c-liangshu-021-wangfen:p012:r0014",
+        "surface": "父",
+        "start": 14,
+        "end": 15,
+        "person_id": "q7m_r8k_2vn_ABA",
+        "referent_role": "third_person",
+        "paragraph_id": "c-liangshu-021-wangfen:p012",
+        "quote": "僉字公會，錫第五弟也。八歲丁父憂，哀毀過禮。服闋，召補國子生，祭酒袁昂稱爲通理。策高第，除長史兼秘書郎中，歷尚書殿中郎，太子中舍人，與吳郡陸襄對掌東宮管記。出爲建安太守。山酋方善、謝稀聚徒依險，屢爲民患，僉潛設方略，率衆平之，有詔褒美，頒示州郡。除武威將軍、始興內史，丁所生母憂，固辭不拜。又除寧遠將軍、南康內史，屬盧循作亂，復轉僉爲安成內史，以鎮撫之。還除黃門侍郎，尋爲安西武陵王長史、蜀郡太守。僉憚岨嶮，固以疾辭，因以黜免。久之，除戎昭將軍、尚書左丞，復補黃門侍郎，遷太子中庶子，掌東宮管記。太清二年十二月，卒，時年四十五。贈侍中，給東園秘器，朝服一具，衣一襲。承聖三年，世祖追詔曰：「賢而不伐曰恭，諡恭子。」",
+        "note": "上承錫與琳父系。南史同傳先敘父喪、後敘兩母喪。"
+      },
+      {
+        "id": "c-liangshu-021-wangfen:p012:r0188",
+        "surface": "武陵王",
+        "start": 188,
+        "end": 191,
+        "person_id": "fo7_f8v_rmf_D",
+        "referent_role": "third_person",
+        "paragraph_id": "c-liangshu-021-wangfen:p012",
+        "quote": "僉字公會，錫第五弟也。八歲丁父憂，哀毀過禮。服闋，召補國子生，祭酒袁昂稱爲通理。策高第，除長史兼秘書郎中，歷尚書殿中郎，太子中舍人，與吳郡陸襄對掌東宮管記。出爲建安太守。山酋方善、謝稀聚徒依險，屢爲民患，僉潛設方略，率衆平之，有詔褒美，頒示州郡。除武威將軍、始興內史，丁所生母憂，固辭不拜。又除寧遠將軍、南康內史，屬盧循作亂，復轉僉爲安成內史，以鎮撫之。還除黃門侍郎，尋爲安西武陵王長史、蜀郡太守。僉憚岨嶮，固以疾辭，因以黜免。久之，除戎昭將軍、尚書左丞，復補黃門侍郎，遷太子中庶子，掌東宮管記。太清二年十二月，卒，時年四十五。贈侍中，給東園秘器，朝服一具，衣一襲。承聖三年，世祖追詔曰：「賢而不伐曰恭，諡恭子。」",
+        "note": "梁武帝子紀，加安西將軍督益州。"
+      },
+      {
+        "id": "c-liangshu-021-wangfen:p012:r0288",
+        "surface": "世祖",
+        "start": 288,
+        "end": 290,
+        "person_id": "rvc_bqx_v5w",
+        "referent_role": "third_person",
+        "paragraph_id": "c-liangshu-021-wangfen:p012",
+        "quote": "僉字公會，錫第五弟也。八歲丁父憂，哀毀過禮。服闋，召補國子生，祭酒袁昂稱爲通理。策高第，除長史兼秘書郎中，歷尚書殿中郎，太子中舍人，與吳郡陸襄對掌東宮管記。出爲建安太守。山酋方善、謝稀聚徒依險，屢爲民患，僉潛設方略，率衆平之，有詔褒美，頒示州郡。除武威將軍、始興內史，丁所生母憂，固辭不拜。又除寧遠將軍、南康內史，屬盧循作亂，復轉僉爲安成內史，以鎮撫之。還除黃門侍郎，尋爲安西武陵王長史、蜀郡太守。僉憚岨嶮，固以疾辭，因以黜免。久之，除戎昭將軍、尚書左丞，復補黃門侍郎，遷太子中庶子，掌東宮管記。太清二年十二月，卒，時年四十五。贈侍中，給東園秘器，朝服一具，衣一襲。承聖三年，世祖追詔曰：「賢而不伐曰恭，諡恭子。」",
+        "note": "梁元帝繹，承聖三年追諡。"
       }
     ],
     "narrative_readings": [
@@ -1327,6 +1429,259 @@
           }
         ],
         "interpretation_note": "原作泛，南史涉，保兩位的已發號與本字。"
+      },
+      {
+        "event_type": "relative_sibling_order",
+        "person_ids": [
+          "q7m_r8k_2vn_ABAB",
+          "q7m_r8k_2vn_ABAF"
+        ],
+        "source_anchor": {
+          "paragraph_id": "c-liangshu-021-wangfen:p012",
+          "surface": "錫第五弟也",
+          "start": 5,
+          "end": 10
+        },
+        "evidence": [
+          {
+            "work_id": "w-liangshu",
+            "book_id": "b-liangshu-021",
+            "source_id": "s-liangshu-021-wangfen-ws1544250",
+            "chapter_id": "c-liangshu-021-wangfen",
+            "paragraph_id": "c-liangshu-021-wangfen:p012",
+            "quote": "錫第五弟也"
+          }
+        ],
+        "interpretation_note": "字面第五弟相對於錫。",
+        "relative_ordinal": 5,
+        "absolute_birth_order": null
+      },
+      {
+        "event_type": "appraisal",
+        "person_ids": [
+          "hb9_2gq_205",
+          "q7m_r8k_2vn_ABAF"
+        ],
+        "source_anchor": {
+          "paragraph_id": "c-liangshu-021-wangfen:p012",
+          "surface": "祭酒袁昂稱爲通理",
+          "start": 31,
+          "end": 39
+        },
+        "evidence": [
+          {
+            "work_id": "w-liangshu",
+            "book_id": "b-liangshu-021",
+            "source_id": "s-liangshu-021-wangfen-ws1544250",
+            "chapter_id": "c-liangshu-021-wangfen",
+            "paragraph_id": "c-liangshu-021-wangfen:p012",
+            "quote": "祭酒袁昂稱爲通理"
+          }
+        ],
+        "interpretation_note": "通理為祭酒評語。"
+      },
+      {
+        "event_type": "shared_duty",
+        "person_ids": [
+          "q7m_r8k_2vn_ABAF",
+          "d5x_77n_qxq_A"
+        ],
+        "source_anchor": {
+          "paragraph_id": "c-liangshu-021-wangfen:p012",
+          "surface": "與吳郡陸襄對掌東宮管記",
+          "start": 66,
+          "end": 77
+        },
+        "evidence": [
+          {
+            "work_id": "w-liangshu",
+            "book_id": "b-liangshu-021",
+            "source_id": "s-liangshu-021-wangfen-ws1544250",
+            "chapter_id": "c-liangshu-021-wangfen",
+            "paragraph_id": "c-liangshu-021-wangfen:p012",
+            "quote": "與吳郡陸襄對掌東宮管記"
+          }
+        ],
+        "interpretation_note": "二人對掌管記。"
+      },
+      {
+        "event_type": "named_local_leaders",
+        "person_ids": [
+          "dym_leq_63t",
+          "467_aa2_g64",
+          "q7m_r8k_2vn_ABAF"
+        ],
+        "source_anchor": {
+          "paragraph_id": "c-liangshu-021-wangfen:p012",
+          "surface": "山酋方善、謝稀聚徒依險",
+          "start": 85,
+          "end": 96
+        },
+        "evidence": [
+          {
+            "work_id": "w-liangshu",
+            "book_id": "b-liangshu-021",
+            "source_id": "s-liangshu-021-wangfen-ws1544250",
+            "chapter_id": "c-liangshu-021-wangfen",
+            "paragraph_id": "c-liangshu-021-wangfen:p012",
+            "quote": "山酋方善、謝稀聚徒依險"
+          }
+        ],
+        "interpretation_note": "二酋與王僉治建安事。"
+      },
+      {
+        "event_type": "source_identity_conflict",
+        "person_ids": [
+          "q7m_r8k_2vn_ABAF"
+        ],
+        "source_anchor": {
+          "paragraph_id": "c-liangshu-021-wangfen:p012",
+          "surface": "屬盧循作亂，復轉僉爲安成內史",
+          "start": 157,
+          "end": 171
+        },
+        "evidence": [
+          {
+            "work_id": "w-liangshu",
+            "book_id": "b-liangshu-021",
+            "source_id": "s-liangshu-021-wangfen-ws1544250",
+            "chapter_id": "c-liangshu-021-wangfen",
+            "paragraph_id": "c-liangshu-021-wangfen:p012",
+            "quote": "屬盧循作亂，復轉僉爲安成內史"
+          }
+        ],
+        "interpretation_note": "殿本、四庫亦書盧循。東晉盧循在義熙間已死，本卷人名暫無可定。",
+        "unresolved_surface": "盧循",
+        "excluded_person_ids": [
+          "m8n_ntm_79h_ABBA**A"
+        ]
+      },
+      {
+        "event_type": "dismissal_following_refusal",
+        "person_ids": [
+          "q7m_r8k_2vn_ABAF"
+        ],
+        "source_anchor": {
+          "paragraph_id": "c-liangshu-021-wangfen:p012",
+          "surface": "僉憚岨嶮，固以疾辭，因以黜免",
+          "start": 199,
+          "end": 213
+        },
+        "evidence": [
+          {
+            "work_id": "w-liangshu",
+            "book_id": "b-liangshu-021",
+            "source_id": "s-liangshu-021-wangfen-ws1544250",
+            "chapter_id": "c-liangshu-021-wangfen",
+            "paragraph_id": "c-liangshu-021-wangfen:p012",
+            "quote": "僉憚岨嶮，固以疾辭，因以黜免"
+          }
+        ],
+        "interpretation_note": "以疾辭蜀任後遭黜免，二職並見上句。"
+      },
+      {
+        "event_type": "death_and_age",
+        "person_ids": [
+          "q7m_r8k_2vn_ABAF"
+        ],
+        "source_anchor": {
+          "paragraph_id": "c-liangshu-021-wangfen:p012",
+          "surface": "太清二年十二月，卒，時年四十五",
+          "start": 248,
+          "end": 263
+        },
+        "evidence": [
+          {
+            "work_id": "w-liangshu",
+            "book_id": "b-liangshu-021",
+            "source_id": "s-liangshu-021-wangfen-ws1544250",
+            "chapter_id": "c-liangshu-021-wangfen",
+            "paragraph_id": "c-liangshu-021-wangfen:p012",
+            "quote": "太清二年十二月，卒，時年四十五"
+          }
+        ],
+        "interpretation_note": "548為年號折算，秉原陰曆十二月，未推西曆日。",
+        "era": "太清",
+        "regnal_year": 2,
+        "era_year_ce": 548,
+        "lunar_month": 12,
+        "age_value": 45
+      },
+      {
+        "event_type": "burial_gifts",
+        "person_ids": [
+          "q7m_r8k_2vn_ABAF"
+        ],
+        "source_anchor": {
+          "paragraph_id": "c-liangshu-021-wangfen:p012",
+          "surface": "給東園秘器，朝服一具，衣一襲",
+          "start": 268,
+          "end": 282
+        },
+        "evidence": [
+          {
+            "work_id": "w-liangshu",
+            "book_id": "b-liangshu-021",
+            "source_id": "s-liangshu-021-wangfen-ws1544250",
+            "chapter_id": "c-liangshu-021-wangfen",
+            "paragraph_id": "c-liangshu-021-wangfen:p012",
+            "quote": "給東園秘器，朝服一具，衣一襲"
+          }
+        ],
+        "interpretation_note": "卒後受賜。",
+        "court_suits": 1,
+        "clothing_sets": 1
+      },
+      {
+        "event_type": "delayed_posthumous_name",
+        "person_ids": [
+          "q7m_r8k_2vn_ABAF",
+          "rvc_bqx_v5w"
+        ],
+        "source_anchor": {
+          "paragraph_id": "c-liangshu-021-wangfen:p012",
+          "surface": "承聖三年，世祖追詔曰：「賢而不伐曰恭，諡恭子。」",
+          "start": 283,
+          "end": 307
+        },
+        "evidence": [
+          {
+            "work_id": "w-liangshu",
+            "book_id": "b-liangshu-021",
+            "source_id": "s-liangshu-021-wangfen-ws1544250",
+            "chapter_id": "c-liangshu-021-wangfen",
+            "paragraph_id": "c-liangshu-021-wangfen:p012",
+            "quote": "承聖三年，世祖追詔曰：「賢而不伐曰恭，諡恭子。」"
+          }
+        ],
+        "interpretation_note": "元帝於554年另追諡，與太清二年死相隔。",
+        "era": "承聖",
+        "era_year": 3,
+        "era_year_ce": 554
+      },
+      {
+        "event_type": "biological_mother_mourning",
+        "person_ids": [
+          "q7m_r8k_2vn_ABAF",
+          "4w4_f68_91v"
+        ],
+        "source_anchor": {
+          "paragraph_id": "c-liangshu-021-wangfen:p012",
+          "surface": "丁所生母憂，固辭不拜",
+          "start": 134,
+          "end": 144
+        },
+        "evidence": [
+          {
+            "work_id": "w-liangshu",
+            "book_id": "b-liangshu-021",
+            "source_id": "s-liangshu-021-wangfen-ws1544250",
+            "chapter_id": "c-liangshu-021-wangfen",
+            "paragraph_id": "c-liangshu-021-wangfen:p012",
+            "quote": "丁所生母憂，固辭不拜"
+          }
+        ],
+        "interpretation_note": "南史另記在南康郡時義興主薨，喪事分錄。"
       }
     ],
     "title_proposals": [
@@ -1472,6 +1827,182 @@
         ],
         "status": "contextual_provisional",
         "interpretation_note": "同句並列二職，後敘稱疾不拜；南史單言吏部郎中。",
+        "reviewer": "Codex（AI 代理）",
+        "human_reviewed": false,
+        "model": null
+      },
+      {
+        "id": "tp-liang021-wangfen-family-qian-wei",
+        "proposal_kind": "unassumed_appointment",
+        "outcome": "not_assumed",
+        "appointment_stage": "appointment",
+        "non_assumption_kind": "did_not_take_up",
+        "person_id": "q7m_r8k_2vn_ABAF",
+        "title": "武威將軍",
+        "person_mention_id": "c-liangshu-021-wangfen:p012:m0000",
+        "role_anchor": {
+          "paragraph_id": "c-liangshu-021-wangfen:p012",
+          "surface": "武威將軍",
+          "start": 124,
+          "end": 128
+        },
+        "appointment_anchor": {
+          "paragraph_id": "c-liangshu-021-wangfen:p012",
+          "surface": "除",
+          "start": 123,
+          "end": 124
+        },
+        "non_assumption_anchor": {
+          "paragraph_id": "c-liangshu-021-wangfen:p012",
+          "surface": "固辭不拜",
+          "start": 140,
+          "end": 144
+        },
+        "evidence": [
+          {
+            "work_id": "w-liangshu",
+            "book_id": "b-liangshu-021",
+            "source_id": "s-liangshu-021-wangfen-ws1544250",
+            "chapter_id": "c-liangshu-021-wangfen",
+            "paragraph_id": "c-liangshu-021-wangfen:p012",
+            "quote": "僉字公會，錫第五弟也。八歲丁父憂，哀毀過禮。服闋，召補國子生，祭酒袁昂稱爲通理。策高第，除長史兼秘書郎中，歷尚書殿中郎，太子中舍人，與吳郡陸襄對掌東宮管記。出爲建安太守。山酋方善、謝稀聚徒依險，屢爲民患，僉潛設方略，率衆平之，有詔褒美，頒示州郡。除武威將軍、始興內史，丁所生母憂，固辭不拜。又除寧遠將軍、南康內史，屬盧循作亂，復轉僉爲安成內史，以鎮撫之。還除黃門侍郎，尋爲安西武陵王長史、蜀郡太守。僉憚岨嶮，固以疾辭，因以黜免。久之，除戎昭將軍、尚書左丞，復補黃門侍郎，遷太子中庶子，掌東宮管記。太清二年十二月，卒，時年四十五。贈侍中，給東園秘器，朝服一具，衣一襲。承聖三年，世祖追詔曰：「賢而不伐曰恭，諡恭子。」",
+            "person_mention_id": "c-liangshu-021-wangfen:p012:m0000"
+          }
+        ],
+        "status": "contextual_provisional",
+        "interpretation_note": "前二職因所生母喪固辭，後二職因憚岨嶮而以疾辭、黜免。",
+        "reviewer": "Codex（AI 代理）",
+        "human_reviewed": false,
+        "model": null
+      },
+      {
+        "id": "tp-liang021-wangfen-family-qian-shixing",
+        "proposal_kind": "unassumed_appointment",
+        "outcome": "not_assumed",
+        "appointment_stage": "appointment",
+        "non_assumption_kind": "did_not_take_up",
+        "person_id": "q7m_r8k_2vn_ABAF",
+        "title": "始興內史",
+        "person_mention_id": "c-liangshu-021-wangfen:p012:m0000",
+        "role_anchor": {
+          "paragraph_id": "c-liangshu-021-wangfen:p012",
+          "surface": "始興內史",
+          "start": 129,
+          "end": 133
+        },
+        "appointment_anchor": {
+          "paragraph_id": "c-liangshu-021-wangfen:p012",
+          "surface": "除",
+          "start": 123,
+          "end": 124
+        },
+        "non_assumption_anchor": {
+          "paragraph_id": "c-liangshu-021-wangfen:p012",
+          "surface": "固辭不拜",
+          "start": 140,
+          "end": 144
+        },
+        "evidence": [
+          {
+            "work_id": "w-liangshu",
+            "book_id": "b-liangshu-021",
+            "source_id": "s-liangshu-021-wangfen-ws1544250",
+            "chapter_id": "c-liangshu-021-wangfen",
+            "paragraph_id": "c-liangshu-021-wangfen:p012",
+            "quote": "僉字公會，錫第五弟也。八歲丁父憂，哀毀過禮。服闋，召補國子生，祭酒袁昂稱爲通理。策高第，除長史兼秘書郎中，歷尚書殿中郎，太子中舍人，與吳郡陸襄對掌東宮管記。出爲建安太守。山酋方善、謝稀聚徒依險，屢爲民患，僉潛設方略，率衆平之，有詔褒美，頒示州郡。除武威將軍、始興內史，丁所生母憂，固辭不拜。又除寧遠將軍、南康內史，屬盧循作亂，復轉僉爲安成內史，以鎮撫之。還除黃門侍郎，尋爲安西武陵王長史、蜀郡太守。僉憚岨嶮，固以疾辭，因以黜免。久之，除戎昭將軍、尚書左丞，復補黃門侍郎，遷太子中庶子，掌東宮管記。太清二年十二月，卒，時年四十五。贈侍中，給東園秘器，朝服一具，衣一襲。承聖三年，世祖追詔曰：「賢而不伐曰恭，諡恭子。」",
+            "person_mention_id": "c-liangshu-021-wangfen:p012:m0000"
+          }
+        ],
+        "status": "contextual_provisional",
+        "interpretation_note": "前二職因所生母喪固辭，後二職因憚岨嶮而以疾辭、黜免。",
+        "reviewer": "Codex（AI 代理）",
+        "human_reviewed": false,
+        "model": null
+      },
+      {
+        "id": "tp-liang021-wangfen-family-qian-anxi",
+        "proposal_kind": "unassumed_appointment",
+        "outcome": "not_assumed",
+        "appointment_stage": "appointment",
+        "non_assumption_kind": "did_not_take_up",
+        "person_id": "q7m_r8k_2vn_ABAF",
+        "title": "安西武陵王長史",
+        "person_mention_id": "c-liangshu-021-wangfen:p012:m0000",
+        "role_anchor": {
+          "paragraph_id": "c-liangshu-021-wangfen:p012",
+          "surface": "安西武陵王長史",
+          "start": 186,
+          "end": 193
+        },
+        "appointment_anchor": {
+          "paragraph_id": "c-liangshu-021-wangfen:p012",
+          "surface": "爲",
+          "start": 185,
+          "end": 186
+        },
+        "non_assumption_anchor": {
+          "paragraph_id": "c-liangshu-021-wangfen:p012",
+          "surface": "固以疾辭",
+          "start": 204,
+          "end": 208
+        },
+        "evidence": [
+          {
+            "work_id": "w-liangshu",
+            "book_id": "b-liangshu-021",
+            "source_id": "s-liangshu-021-wangfen-ws1544250",
+            "chapter_id": "c-liangshu-021-wangfen",
+            "paragraph_id": "c-liangshu-021-wangfen:p012",
+            "quote": "僉字公會，錫第五弟也。八歲丁父憂，哀毀過禮。服闋，召補國子生，祭酒袁昂稱爲通理。策高第，除長史兼秘書郎中，歷尚書殿中郎，太子中舍人，與吳郡陸襄對掌東宮管記。出爲建安太守。山酋方善、謝稀聚徒依險，屢爲民患，僉潛設方略，率衆平之，有詔褒美，頒示州郡。除武威將軍、始興內史，丁所生母憂，固辭不拜。又除寧遠將軍、南康內史，屬盧循作亂，復轉僉爲安成內史，以鎮撫之。還除黃門侍郎，尋爲安西武陵王長史、蜀郡太守。僉憚岨嶮，固以疾辭，因以黜免。久之，除戎昭將軍、尚書左丞，復補黃門侍郎，遷太子中庶子，掌東宮管記。太清二年十二月，卒，時年四十五。贈侍中，給東園秘器，朝服一具，衣一襲。承聖三年，世祖追詔曰：「賢而不伐曰恭，諡恭子。」",
+            "person_mention_id": "c-liangshu-021-wangfen:p012:m0000"
+          }
+        ],
+        "status": "contextual_provisional",
+        "interpretation_note": "前二職因所生母喪固辭，後二職因憚岨嶮而以疾辭、黜免。",
+        "reviewer": "Codex（AI 代理）",
+        "human_reviewed": false,
+        "model": null
+      },
+      {
+        "id": "tp-liang021-wangfen-family-qian-shu",
+        "proposal_kind": "unassumed_appointment",
+        "outcome": "not_assumed",
+        "appointment_stage": "appointment",
+        "non_assumption_kind": "did_not_take_up",
+        "person_id": "q7m_r8k_2vn_ABAF",
+        "title": "蜀郡太守",
+        "person_mention_id": "c-liangshu-021-wangfen:p012:m0000",
+        "role_anchor": {
+          "paragraph_id": "c-liangshu-021-wangfen:p012",
+          "surface": "蜀郡太守",
+          "start": 194,
+          "end": 198
+        },
+        "appointment_anchor": {
+          "paragraph_id": "c-liangshu-021-wangfen:p012",
+          "surface": "爲",
+          "start": 185,
+          "end": 186
+        },
+        "non_assumption_anchor": {
+          "paragraph_id": "c-liangshu-021-wangfen:p012",
+          "surface": "固以疾辭",
+          "start": 204,
+          "end": 208
+        },
+        "evidence": [
+          {
+            "work_id": "w-liangshu",
+            "book_id": "b-liangshu-021",
+            "source_id": "s-liangshu-021-wangfen-ws1544250",
+            "chapter_id": "c-liangshu-021-wangfen",
+            "paragraph_id": "c-liangshu-021-wangfen:p012",
+            "quote": "僉字公會，錫第五弟也。八歲丁父憂，哀毀過禮。服闋，召補國子生，祭酒袁昂稱爲通理。策高第，除長史兼秘書郎中，歷尚書殿中郎，太子中舍人，與吳郡陸襄對掌東宮管記。出爲建安太守。山酋方善、謝稀聚徒依險，屢爲民患，僉潛設方略，率衆平之，有詔褒美，頒示州郡。除武威將軍、始興內史，丁所生母憂，固辭不拜。又除寧遠將軍、南康內史，屬盧循作亂，復轉僉爲安成內史，以鎮撫之。還除黃門侍郎，尋爲安西武陵王長史、蜀郡太守。僉憚岨嶮，固以疾辭，因以黜免。久之，除戎昭將軍、尚書左丞，復補黃門侍郎，遷太子中庶子，掌東宮管記。太清二年十二月，卒，時年四十五。贈侍中，給東園秘器，朝服一具，衣一襲。承聖三年，世祖追詔曰：「賢而不伐曰恭，諡恭子。」",
+            "person_mention_id": "c-liangshu-021-wangfen:p012:m0000"
+          }
+        ],
+        "status": "contextual_provisional",
+        "interpretation_note": "前二職因所生母喪固辭，後二職因憚岨嶮而以疾辭、黜免。",
         "reviewer": "Codex（AI 代理）",
         "human_reviewed": false,
         "model": null
@@ -3514,7 +4045,455 @@
         ],
         "projection_sha256": "48417aefceae9928377fbfb0996d545c7adedd1a80fdf81d16dd9ba9b26c1676"
       }
+    },
+    {
+      "id": "c-liangshu-021-wangfen:p012",
+      "text": "僉字公會，錫第五弟也。八歲丁父憂，哀毀過禮。服闋，召補國子生，祭酒袁昂稱爲通理。策高第，除長史兼秘書郎中，歷尚書殿中郎，太子中舍人，與吳郡陸襄對掌東宮管記。出爲建安太守。山酋方善、謝稀聚徒依險，屢爲民患，僉潛設方略，率衆平之，有詔褒美，頒示州郡。除武威將軍、始興內史，丁所生母憂，固辭不拜。又除寧遠將軍、南康內史，屬盧循作亂，復轉僉爲安成內史，以鎮撫之。還除黃門侍郎，尋爲安西武陵王長史、蜀郡太守。僉憚岨嶮，固以疾辭，因以黜免。久之，除戎昭將軍、尚書左丞，復補黃門侍郎，遷太子中庶子，掌東宮管記。太清二年十二月，卒，時年四十五。贈侍中，給東園秘器，朝服一具，衣一襲。承聖三年，世祖追詔曰：「賢而不伐曰恭，諡恭子。」",
+      "mentions": [
+        {
+          "id": "c-liangshu-021-wangfen:p012:m0000",
+          "surface": "僉",
+          "start": 0,
+          "end": 1,
+          "person_id": "q7m_r8k_2vn_ABAF",
+          "kind": "person",
+          "status": "contextual_provisional",
+          "interpretation_note": "按本傳及官府原句。"
+        },
+        {
+          "id": "c-liangshu-021-wangfen:p012:m0002",
+          "surface": "公會",
+          "start": 2,
+          "end": 4,
+          "person_id": "q7m_r8k_2vn_ABAF",
+          "kind": "person",
+          "status": "contextual_provisional",
+          "interpretation_note": "按本傳及官府原句。"
+        },
+        {
+          "id": "c-liangshu-021-wangfen:p012:m0005",
+          "surface": "錫",
+          "start": 5,
+          "end": 6,
+          "person_id": "q7m_r8k_2vn_ABAB",
+          "kind": "person",
+          "status": "contextual_provisional",
+          "interpretation_note": "按本傳及官府原句。"
+        },
+        {
+          "id": "c-liangshu-021-wangfen:p012:m0033",
+          "surface": "袁昂",
+          "start": 33,
+          "end": 35,
+          "person_id": "hb9_2gq_205",
+          "kind": "person",
+          "status": "contextual_provisional",
+          "interpretation_note": "按本傳及官府原句。"
+        },
+        {
+          "id": "c-liangshu-021-wangfen:p012:m0069",
+          "surface": "陸襄",
+          "start": 69,
+          "end": 71,
+          "person_id": "d5x_77n_qxq_A",
+          "kind": "person",
+          "status": "contextual_provisional",
+          "interpretation_note": "按本傳及官府原句。"
+        },
+        {
+          "id": "c-liangshu-021-wangfen:p012:m0087",
+          "surface": "方善",
+          "start": 87,
+          "end": 89,
+          "person_id": "dym_leq_63t",
+          "kind": "person",
+          "status": "contextual_provisional",
+          "interpretation_note": "按本傳及官府原句。"
+        },
+        {
+          "id": "c-liangshu-021-wangfen:p012:m0090",
+          "surface": "謝稀",
+          "start": 90,
+          "end": 92,
+          "person_id": "467_aa2_g64",
+          "kind": "person",
+          "status": "contextual_provisional",
+          "interpretation_note": "按本傳及官府原句。"
+        },
+        {
+          "id": "c-liangshu-021-wangfen:p012:m0102",
+          "surface": "僉",
+          "start": 102,
+          "end": 103,
+          "person_id": "q7m_r8k_2vn_ABAF",
+          "kind": "person",
+          "status": "contextual_provisional",
+          "interpretation_note": "按本傳及官府原句。"
+        },
+        {
+          "id": "c-liangshu-021-wangfen:p012:m0135",
+          "surface": "所生母",
+          "start": 135,
+          "end": 138,
+          "person_id": "4w4_f68_91v",
+          "kind": "person",
+          "status": "contextual_provisional",
+          "interpretation_note": "按本傳及官府原句。"
+        },
+        {
+          "id": "c-liangshu-021-wangfen:p012:u0158",
+          "surface": "盧循",
+          "start": 158,
+          "end": 160,
+          "person_id": null,
+          "kind": "unresolved",
+          "status": "unresolved",
+          "interpretation_note": "三本同作盧循。晉書盧循在義熙年間已投水身死，梁太清前任安成內史的敘事相距逾百年；此處人未定。"
+        },
+        {
+          "id": "c-liangshu-021-wangfen:p012:m0165",
+          "surface": "僉",
+          "start": 165,
+          "end": 166,
+          "person_id": "q7m_r8k_2vn_ABAF",
+          "kind": "person",
+          "status": "contextual_provisional",
+          "interpretation_note": "按本傳及官府原句。"
+        },
+        {
+          "id": "c-liangshu-021-wangfen:p012:m0199",
+          "surface": "僉",
+          "start": 199,
+          "end": 200,
+          "person_id": "q7m_r8k_2vn_ABAF",
+          "kind": "person",
+          "status": "contextual_provisional",
+          "interpretation_note": "按本傳及官府原句。"
+        }
+      ],
+      "text_layer": "received_chapter",
+      "annotation_status": "reviewed",
+      "source_position": {
+        "revision_id": 1544250,
+        "source_layer": "received_biography",
+        "first_line": 83,
+        "last_line": 83,
+        "line_start": 2,
+        "line_end": 323,
+        "raw_start": 5233,
+        "raw_end": 5554,
+        "raw_character_offsets": [
+          5233,
+          5234,
+          5235,
+          5236,
+          5237,
+          5238,
+          5239,
+          5240,
+          5241,
+          5242,
+          5243,
+          5244,
+          5245,
+          5246,
+          5247,
+          5248,
+          5249,
+          5250,
+          5251,
+          5252,
+          5253,
+          5254,
+          5255,
+          5256,
+          5257,
+          5258,
+          5259,
+          5260,
+          5261,
+          5262,
+          5263,
+          5264,
+          5265,
+          5266,
+          5267,
+          5268,
+          5269,
+          5270,
+          5271,
+          5272,
+          5273,
+          5274,
+          5275,
+          5276,
+          5277,
+          5278,
+          5279,
+          5280,
+          5281,
+          5282,
+          5283,
+          5284,
+          5285,
+          5286,
+          5287,
+          5288,
+          5289,
+          5290,
+          5291,
+          5292,
+          5293,
+          5294,
+          5295,
+          5296,
+          5297,
+          5298,
+          5299,
+          5300,
+          5301,
+          5302,
+          5303,
+          5304,
+          5305,
+          5306,
+          5307,
+          5308,
+          5309,
+          5310,
+          5311,
+          5312,
+          5313,
+          5314,
+          5315,
+          5316,
+          5317,
+          5318,
+          5319,
+          5320,
+          5321,
+          5322,
+          5323,
+          5324,
+          5325,
+          5326,
+          5327,
+          5328,
+          5329,
+          5330,
+          5331,
+          5332,
+          5333,
+          5334,
+          5335,
+          5336,
+          5337,
+          5338,
+          5339,
+          5340,
+          5341,
+          5342,
+          5343,
+          5344,
+          5345,
+          5346,
+          5347,
+          5348,
+          5349,
+          5350,
+          5351,
+          5352,
+          5353,
+          5354,
+          5355,
+          5356,
+          5357,
+          5358,
+          5359,
+          5360,
+          5361,
+          5362,
+          5363,
+          5364,
+          5365,
+          5366,
+          5367,
+          5368,
+          5369,
+          5370,
+          5371,
+          5372,
+          5373,
+          5374,
+          5375,
+          5376,
+          5377,
+          5378,
+          5379,
+          5380,
+          5381,
+          5382,
+          5383,
+          5384,
+          5385,
+          5386,
+          5387,
+          5388,
+          5389,
+          5390,
+          5391,
+          5392,
+          5393,
+          5394,
+          5395,
+          5396,
+          5397,
+          5398,
+          5399,
+          5400,
+          5401,
+          5402,
+          5403,
+          5404,
+          5405,
+          5406,
+          5407,
+          5408,
+          5409,
+          5410,
+          5411,
+          5412,
+          5413,
+          5414,
+          5415,
+          5416,
+          5417,
+          5418,
+          5419,
+          5420,
+          5421,
+          5422,
+          5423,
+          5424,
+          5425,
+          5426,
+          5427,
+          5428,
+          5429,
+          5430,
+          5431,
+          5432,
+          5433,
+          5434,
+          5435,
+          5436,
+          5437,
+          5438,
+          5439,
+          5440,
+          5441,
+          5442,
+          5443,
+          5444,
+          5445,
+          5446,
+          5447,
+          5448,
+          5449,
+          5450,
+          5451,
+          5452,
+          5453,
+          5454,
+          5455,
+          5456,
+          5457,
+          5458,
+          5459,
+          5460,
+          5461,
+          5462,
+          5463,
+          5464,
+          5465,
+          5466,
+          5467,
+          5468,
+          5469,
+          5470,
+          5471,
+          5472,
+          5473,
+          5474,
+          5475,
+          5476,
+          5477,
+          5478,
+          5479,
+          5480,
+          5486,
+          5487,
+          5488,
+          5489,
+          5492,
+          5493,
+          5494,
+          5495,
+          5496,
+          5497,
+          5498,
+          5499,
+          5500,
+          5501,
+          5502,
+          5503,
+          5504,
+          5505,
+          5506,
+          5507,
+          5508,
+          5509,
+          5510,
+          5511,
+          5512,
+          5513,
+          5514,
+          5515,
+          5516,
+          5517,
+          5518,
+          5519,
+          5520,
+          5521,
+          5522,
+          5528,
+          5529,
+          5530,
+          5531,
+          5534,
+          5535,
+          5536,
+          5537,
+          5538,
+          5539,
+          5540,
+          5541,
+          5542,
+          5543,
+          5544,
+          5545,
+          5546,
+          5547,
+          5548,
+          5549,
+          5550,
+          5551,
+          5552,
+          5553
+        ],
+        "projection_sha256": "9160fff910314d61d6675aef0bdfc5a936fe0787f2469664af1bcea8ae41685c"
+      }
     }
   ],
-  "text_sha256": "7737a58f06d60a9806a8438e824b99185254cbb0e9e4938e82291f8ef9d2ccb1"
+  "text_sha256": "9723750defa697ca3d027dc27bf5047dd66920d4b2292d78fafe66da5c91d865"
 }

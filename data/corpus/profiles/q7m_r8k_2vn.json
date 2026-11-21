@@ -144,6 +144,41 @@
       "work_title": "梁書"
     },
     {
+      "number": 41,
+      "category": "",
+      "title": "明恭王皇后",
+      "paragraph_id": "c-songshu-041-wangzhenfeng:p004",
+      "count": 1,
+      "raw_count": 1,
+      "duplicate_count": 0,
+      "counting_policy": "independent_fixed_witness_occurrences",
+      "quote": "陽，更立第京邑。建元元年，薨于第，時年四十四。追加號諡，葬以宋后禮。父僧朗，事別見景文傳。",
+      "paragraph_ids": [
+        "c-songshu-041-wangzhenfeng:p004"
+      ],
+      "mention_ids": [
+        "c-songshu-041-wangzhenfeng:p004:m0101"
+      ],
+      "mention_paragraph_ids": {
+        "c-songshu-041-wangzhenfeng:p004:m0101": "c-songshu-041-wangzhenfeng:p004"
+      },
+      "mention_id": "c-songshu-041-wangzhenfeng:p004:m0101",
+      "occurrence_groups": [
+        {
+          "canonical_mention_id": "c-songshu-041-wangzhenfeng:p004:m0101",
+          "mention_ids": [
+            "c-songshu-041-wangzhenfeng:p004:m0101"
+          ],
+          "kind": "paragraph"
+        }
+      ],
+      "work_id": "w-songshu",
+      "book_id": "b-songshu-041",
+      "chapter_id": "c-songshu-041-wangzhenfeng",
+      "source_id": "s-songshu-041-wangzhenfeng-ws2634831",
+      "work_title": "宋書"
+    },
+    {
       "number": 49,
       "category": "",
       "title": "《南齊書》卷四十九〈王奐〉傳首",
@@ -194,8 +229,8 @@
         "revision_id": 1544250,
         "accessed_on": "2026-11-19",
         "edition": "固定數位轉錄。傳內異文與武英殿本對讀見獨立校記。",
-        "extent": "已逐項通讀王份、王琳、王錫；以固定本原行及原有段號登錄。",
-        "text_scope": "partial_chapter",
+        "extent": "已逐項通讀王份、王琳、王錫、王僉；以固定本原行及原有段號登錄。",
+        "text_scope": "complete_biography_unit",
         "image_verified": false,
         "review_status": "text_checked",
         "license_url": "https://creativecommons.org/licenses/by-sa/4.0/",
@@ -224,6 +259,35 @@
         "image_verified": false,
         "rights": "古代正文及維基文庫數位轉錄；保留見證歸屬。",
         "license_url": "https://creativecommons.org/licenses/by-sa/4.0/"
+      }
+    },
+    {
+      "chapter_id": "c-songshu-041-wangzhenfeng",
+      "work_id": "w-songshu",
+      "book_id": "b-songshu-041",
+      "source_id": "s-songshu-041-wangzhenfeng-ws2634831",
+      "source": {
+        "title": "宋書卷四十一·明恭王皇后",
+        "provider": "Wikisource",
+        "url": "https://zh.wikisource.org/w/index.php?oldid=2634831",
+        "permalink": "https://zh.wikisource.org/w/index.php?oldid=2634831",
+        "revision_id": 2634831,
+        "accessed_on": "2026-11-19",
+        "edition": "維基文庫固定修訂2634831，武英殿本書影逐項參記。",
+        "extent": "此為具名來源單元選集；每人的首尾與非連續邊界見 source_unit_reviews。",
+        "text_scope": "partial_chapter",
+        "image_verified": false,
+        "review_status": "text_checked",
+        "license_url": "https://creativecommons.org/licenses/by-sa/4.0/",
+        "rights": "古代正文及維基文庫數位轉錄，保留見證歸屬。",
+        "section_locator": "清冊內各傳題及附敘字位；每段回鏈固定原檔。",
+        "wikitext_sha256": "9bbc04376eabe39a2e58ca12fb45068b667ae57102a566f557d564efb9556d55",
+        "raw_path": "source-evidence/nanshi022-wang/song041-ws2634831.wikitext",
+        "raw_file_sha256": "9bbc04376eabe39a2e58ca12fb45068b667ae57102a566f557d564efb9556d55",
+        "normalization": {
+          "character_conversion": {},
+          "extraction_note": "原文字位逐一對固定原檔，本文排除校勘註、連結目標及紀年模板的界符；校勘說另列。"
+        }
       }
     }
   ],
@@ -310,13 +374,47 @@
       "reviewer": "Codex（AI代理）",
       "human_reviewed": false,
       "model": null
+    },
+    {
+      "id": "a-song041-wangzhenfeng-278-38-101-father",
+      "subject_person_id": "q7m_r8k_2vn_B",
+      "object_person_id": "q7m_r8k_2vn",
+      "predicate": "father",
+      "status": "source_attested",
+      "qualifiers": {
+        "source_term": "父僧朗",
+        "lineage": "paternal",
+        "reading_basis": {
+          "kind": "song041_wang_wangzhenfeng_named_and_titled_family",
+          "source_quote": "太后與帝遜于東邸，因遷居丹陽宮，拜汝陰王太妃。順帝殂於丹陽，更立第京邑。建元元年，薨于第，時年四十四。追加號諡，葬以宋后禮。父僧朗，事別見景文傳。",
+          "start": 38,
+          "end": 111,
+          "subject_anchor_id": "c-songshu-041-wangzhenfeng:p004:r0038",
+          "object_anchor_id": "c-songshu-041-wangzhenfeng:p004:m0101"
+        }
+      },
+      "evidence": [
+        {
+          "work_id": "w-songshu",
+          "book_id": "b-songshu-041",
+          "chapter_id": "c-songshu-041-wangzhenfeng",
+          "source_id": "s-songshu-041-wangzhenfeng-ws2634831",
+          "paragraph_id": "c-songshu-041-wangzhenfeng:p004",
+          "quote": "順帝即位，齊王秉權，宗室劉晃、劉綽、卜伯興等有異志，太后頗與相關。順帝禪位，太后與帝遜于東邸，因遷居丹陽宮，拜汝陰王太妃。順帝殂於丹陽，更立第京邑。建元元年，薨于第，時年四十四。追加號諡，葬以宋后禮。父僧朗，事別見景文傳。"
+        }
+      ],
+      "interpretation_note": "按原句、兩端稱謂與前文辨讀。",
+      "reviewer": "Codex（AI代理）",
+      "model": null,
+      "human_reviewed": false
     }
   ],
   "related_people": {
     "q7m_r8k_2vn": "王僧朗",
     "q7m_r8k_2vn_A": "王粹",
     "q7m_r8k_2vn_AA": "王奐",
-    "q7m_r8k_2vn_AB": "王份"
+    "q7m_r8k_2vn_AB": "王份",
+    "q7m_r8k_2vn_B": "王貞風（明恭王皇后）"
   },
   "dates": [],
   "name_components": [],
@@ -406,6 +504,39 @@
       "reviewer": "Codex（AI代理）",
       "human_reviewed": false,
       "model": null
+    },
+    {
+      "id": "a-song041-wangzhenfeng-278-38-101-father",
+      "subject_person_id": "q7m_r8k_2vn_B",
+      "object_person_id": "q7m_r8k_2vn",
+      "predicate": "father",
+      "status": "source_attested",
+      "qualifiers": {
+        "source_term": "父僧朗",
+        "lineage": "paternal",
+        "reading_basis": {
+          "kind": "song041_wang_wangzhenfeng_named_and_titled_family",
+          "source_quote": "太后與帝遜于東邸，因遷居丹陽宮，拜汝陰王太妃。順帝殂於丹陽，更立第京邑。建元元年，薨于第，時年四十四。追加號諡，葬以宋后禮。父僧朗，事別見景文傳。",
+          "start": 38,
+          "end": 111,
+          "subject_anchor_id": "c-songshu-041-wangzhenfeng:p004:r0038",
+          "object_anchor_id": "c-songshu-041-wangzhenfeng:p004:m0101"
+        }
+      },
+      "evidence": [
+        {
+          "work_id": "w-songshu",
+          "book_id": "b-songshu-041",
+          "chapter_id": "c-songshu-041-wangzhenfeng",
+          "source_id": "s-songshu-041-wangzhenfeng-ws2634831",
+          "paragraph_id": "c-songshu-041-wangzhenfeng:p004",
+          "quote": "順帝即位，齊王秉權，宗室劉晃、劉綽、卜伯興等有異志，太后頗與相關。順帝禪位，太后與帝遜于東邸，因遷居丹陽宮，拜汝陰王太妃。順帝殂於丹陽，更立第京邑。建元元年，薨于第，時年四十四。追加號諡，葬以宋后禮。父僧朗，事別見景文傳。"
+        }
+      ],
+      "interpretation_note": "按原句、兩端稱謂與前文辨讀。",
+      "reviewer": "Codex（AI代理）",
+      "model": null,
+      "human_reviewed": false
     }
   ],
   "assembled_identity": {

@@ -8,7 +8,56 @@
   "names": [
     "任愷"
   ],
-  "titles": [],
+  "titles": [
+    {
+      "id": "th-w033-xiang-other-15",
+      "person_id": "fb5_190_43f",
+      "title": "侍中",
+      "kind": "office",
+      "mode": "attestation",
+      "evidence": [
+        {
+          "work_id": "w-jinshu",
+          "book_id": "b-jinshu-033",
+          "chapter_id": "c-jinshu-033-wanglan-family",
+          "source_id": "s-jinshu-033-wanglan-family",
+          "paragraph_id": "c-jinshu-033-wanglan-family:p012",
+          "quote": "武帝踐阼，拜太保，進爵爲公，加置七官之職。帝新愛命，虛己以求讜言。祥與何曾、鄭沖等耆艾篤老，希復朝見，帝遣侍中任愷諮問得失，及政化所先。祥以年老疲耄，累乞遜位，帝不許。御史中丞侯史光以祥久疾，闕朝會禮，請免祥官。詔曰：「太保元老高行，朕所毗倚以隆政道者也。前後遜讓，不從所執，此非有司所得議也。」遂寢光奏。祥固乞骸骨，詔聽以睢陵公就第，位同保傅，在三司之右，祿賜如前。詔曰：「古之致仕，不事王侯。今雖以國公留居京邑，不宜復苦以朝請。其賜几杖，不朝，大事皆諮訪之。賜安車駟馬，第一區，錢百萬，絹五百匹，床帳簟褥，以舍人六人爲睢陵公舍人，置官騎二十人。以公子騎都尉肇爲給事中，使常優遊定省。又乙太保高潔清素，家無宅宇，其權留本府，須所賜第成乃出。」",
+          "person_mention_id": "c-jinshu-033-wanglan-family:p012:m0055"
+        }
+      ],
+      "attestations": [
+        {
+          "id": "th-w043-xiang-other-15:a",
+          "paragraph_id": "c-jinshu-033-wanglan-family:p012",
+          "start": 53,
+          "end": 55,
+          "surface": "侍中",
+          "person_mention_id": "c-jinshu-033-wanglan-family:p012:m0055",
+          "usage": "narrative",
+          "date_expression": null
+        }
+      ],
+      "effective_period": {
+        "start": {
+          "status": "unknown",
+          "date_expression": null,
+          "evidence": []
+        },
+        "end": {
+          "status": "unknown",
+          "date_expression": null,
+          "evidence": []
+        }
+      },
+      "interpretation_note": "本來源官稱或所任，未受另記。",
+      "status": "source_attested",
+      "reviewer": "Codex（AI 代理）",
+      "human_reviewed": false,
+      "model": null,
+      "period": "未定 → 未定"
+    }
+  ],
   "addresses": [],
   "occurrences": [
     {
@@ -244,7 +293,9 @@
           "completion_appendix": "同固定修訂2650519補入原始行20–35八段；原八段全文、ID與mentions全值保留。原字漢未、乙太保、Я脯等不靜改。"
         },
         "collation_witnesses": [
-          "source-evidence/jin033-wang-family-children/reading.json"
+          "source-evidence/jin033-wang-family-children/reading.json",
+          "source-evidence/jin033-wanglan/reading.json",
+          "source-evidence/jin033-wangxiang/reading.json"
         ]
       }
     },

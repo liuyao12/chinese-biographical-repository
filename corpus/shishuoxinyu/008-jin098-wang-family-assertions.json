@@ -1,0 +1,117 @@
+{
+  "format_version": "0.2",
+  "record_type": "person_assertion_set",
+  "chapter_id": "c-shishuoxinyu-008-jin098-wang-family",
+  "assertions": [
+    {
+      "id": "a-w098-family-sui-shu",
+      "subject_person_id": "i4e_4wq_2qc",
+      "object_person_id": "nbl_2bu_99w",
+      "predicate": "brother",
+      "qualifiers": {
+        "source_term": "舒弟也"
+      },
+      "evidence": [
+        {
+          "work_id": "w-shishuoxinyu",
+          "book_id": "b-shishuoxinyu-008",
+          "chapter_id": "c-shishuoxinyu-008-jin098-wang-family",
+          "source_id": "s-shishuoxinyu-008-jin098-wang-family",
+          "paragraph_id": "c-shishuoxinyu-008-jin098-wang-family:biography",
+          "quote": "邃字處重，琅邪人，舒弟也。意局剛清，以政事稱。累遷中領軍、尚書左僕射。",
+          "subject_person_mention_id": "c-shishuoxinyu-008-jin098-wang-family:biography:m0000",
+          "object_person_mention_id": "c-shishuoxinyu-008-jin098-wang-family:biography:m0009"
+        }
+      ],
+      "interpretation_note": "此條按本句所明言。",
+      "status": "source_attested",
+      "reviewer": "Codex（AI 代理）",
+      "human_reviewed": false,
+      "model": null
+    },
+    {
+      "id": "a-w098-family-shu-dun",
+      "subject_person_id": "nbl_2bu_99w",
+      "object_person_id": "39o_b6y_n74",
+      "predicate": "agnatic_cousin",
+      "qualifiers": {
+        "source_term": "從弟",
+        "kinship_structure": {
+          "lineage": "paternal",
+          "generation_difference": 0,
+          "collateral": true,
+          "distance": null,
+          "common_ancestor_person_id": null,
+          "subject_relative_age": "younger"
+        },
+        "relative_birth_order": {
+          "older_person_id": "39o_b6y_n74",
+          "younger_person_id": "nbl_2bu_99w",
+          "operator": "lt",
+          "scope": "agnatic_cousins",
+          "older_ordinal": null,
+          "younger_ordinal": null
+        }
+      },
+      "evidence": [
+        {
+          "work_id": "w-shishuoxinyu",
+          "book_id": "b-shishuoxinyu-008",
+          "chapter_id": "c-shishuoxinyu-008-jin098-wang-family",
+          "source_id": "s-shishuoxinyu-008-jin098-wang-family",
+          "paragraph_id": "c-shishuoxinyu-008-jin098-wang-family:note",
+          "quote": "舒、邃並敦從弟。",
+          "subject_person_mention_id": "c-shishuoxinyu-008-jin098-wang-family:note:m0000",
+          "object_person_mention_id": "c-shishuoxinyu-008-jin098-wang-family:note:m0004"
+        }
+      ],
+      "interpretation_note": "此條按本句所明言。",
+      "status": "source_attested",
+      "reviewer": "Codex（AI 代理）",
+      "human_reviewed": false,
+      "model": null
+    },
+    {
+      "id": "a-w098-family-sui-dun",
+      "subject_person_id": "i4e_4wq_2qc",
+      "object_person_id": "39o_b6y_n74",
+      "predicate": "agnatic_cousin",
+      "qualifiers": {
+        "source_term": "從弟",
+        "kinship_structure": {
+          "lineage": "paternal",
+          "generation_difference": 0,
+          "collateral": true,
+          "distance": null,
+          "common_ancestor_person_id": null,
+          "subject_relative_age": "younger"
+        },
+        "relative_birth_order": {
+          "older_person_id": "39o_b6y_n74",
+          "younger_person_id": "i4e_4wq_2qc",
+          "operator": "lt",
+          "scope": "agnatic_cousins",
+          "older_ordinal": null,
+          "younger_ordinal": null
+        }
+      },
+      "evidence": [
+        {
+          "work_id": "w-shishuoxinyu",
+          "book_id": "b-shishuoxinyu-008",
+          "chapter_id": "c-shishuoxinyu-008-jin098-wang-family",
+          "source_id": "s-shishuoxinyu-008-jin098-wang-family",
+          "paragraph_id": "c-shishuoxinyu-008-jin098-wang-family:note",
+          "quote": "舒、邃並敦從弟。",
+          "subject_person_mention_id": "c-shishuoxinyu-008-jin098-wang-family:note:m0002",
+          "object_person_mention_id": "c-shishuoxinyu-008-jin098-wang-family:note:m0004"
+        }
+      ],
+      "interpretation_note": "此條按本句所明言。",
+      "status": "source_attested",
+      "reviewer": "Codex（AI 代理）",
+      "human_reviewed": false,
+      "model": null
+    }
+  ]
+}

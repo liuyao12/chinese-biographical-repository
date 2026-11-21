@@ -1290,6 +1290,50 @@
       "chapter_id": "c-nanqishu-047-xietiao",
       "source_id": "s-nanqishu-047-xietiao-ws1492435",
       "work_title": "南齊書"
+    },
+    {
+      "number": 50,
+      "category": "",
+      "title": "王籍傳及子碧附敘",
+      "paragraph_id": "c-liangshu-050-wangji:p002",
+      "count": 2,
+      "raw_count": 2,
+      "duplicate_count": 0,
+      "counting_policy": "independent_fixed_witness_occurrences",
+      "quote": "籍七歲能屬文。及長，好學博涉，有才氣，樂安任昉見而稱之。嘗於沈約坐賦得《詠燭》，甚爲約賞。齊末，爲冠軍行參軍，累遷外兵、記室。天監初，除安成王主簿、尚書三公郎、廷尉正。歷餘姚、錢塘令，並以放免。久之，除輕車湘東王諮議參軍，隨府會稽。郡境有雲門、天柱山，籍嘗遊之，或",
+      "paragraph_ids": [
+        "c-liangshu-050-wangji:p002"
+      ],
+      "mention_ids": [
+        "c-liangshu-050-wangji:p002:m0030",
+        "c-liangshu-050-wangji:p002:m0042"
+      ],
+      "mention_paragraph_ids": {
+        "c-liangshu-050-wangji:p002:m0030": "c-liangshu-050-wangji:p002",
+        "c-liangshu-050-wangji:p002:m0042": "c-liangshu-050-wangji:p002"
+      },
+      "mention_id": "c-liangshu-050-wangji:p002:m0030",
+      "occurrence_groups": [
+        {
+          "canonical_mention_id": "c-liangshu-050-wangji:p002:m0030",
+          "mention_ids": [
+            "c-liangshu-050-wangji:p002:m0030"
+          ],
+          "kind": "paragraph"
+        },
+        {
+          "canonical_mention_id": "c-liangshu-050-wangji:p002:m0042",
+          "mention_ids": [
+            "c-liangshu-050-wangji:p002:m0042"
+          ],
+          "kind": "paragraph"
+        }
+      ],
+      "work_id": "w-liangshu",
+      "book_id": "b-liangshu-050",
+      "chapter_id": "c-liangshu-050-wangji",
+      "source_id": "s-liangshu-050-wangji-ws1514482",
+      "work_title": "梁書"
     }
   ],
   "table_occurrences": [],
@@ -1377,6 +1421,35 @@
         "normalization": {
           "character_conversion": {},
           "extraction_note": "保留殿本原字、無句讀。依傳文分六段；版面小字反切另繫原欄所注之霓。"
+        }
+      }
+    },
+    {
+      "chapter_id": "c-liangshu-050-wangji",
+      "work_id": "w-liangshu",
+      "book_id": "b-liangshu-050",
+      "source_id": "s-liangshu-050-wangji-ws1514482",
+      "source": {
+        "title": "梁書卷五十·王籍傳及子碧附敘",
+        "provider": "Wikisource",
+        "url": "https://zh.wikisource.org/w/index.php?oldid=1514482",
+        "permalink": "https://zh.wikisource.org/w/index.php?oldid=1514482",
+        "revision_id": 1514482,
+        "accessed_on": "2026-11-20",
+        "edition": "維基文庫固定修訂1514482，武英殿本書影逐項參記。",
+        "extent": "逐讀第75行分題至第83行分題前。",
+        "text_scope": "complete_biography_unit",
+        "image_verified": false,
+        "review_status": "text_checked",
+        "license_url": "https://creativecommons.org/licenses/by-sa/4.0/",
+        "rights": "古代正文及維基文庫數位轉錄，保留見證歸屬。",
+        "section_locator": "王籍分題內第77、79行主傳及第81行子碧附敘，下一題何思澄。",
+        "wikitext_sha256": "46f17adb85a40252096bb10bb6b90ba40178ae6da293368629eded0273320cf8",
+        "raw_path": "source-evidence/nanshi019-xie-branches/liang050-ws1514482.wikitext",
+        "raw_file_sha256": "46f17adb85a40252096bb10bb6b90ba40178ae6da293368629eded0273320cf8",
+        "normalization": {
+          "character_conversion": {},
+          "extraction_note": "去各段行首兩個全形排版空白，其餘逐字保存。"
         }
       }
     },

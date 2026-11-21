@@ -22,6 +22,10 @@ def unassumed_role(proposal, paragraph):
 
 
 def unassumed_appointment_valid(proposal, chapter):
+    if chapter.get('id') == 'c-liangshu-021-wangjian-sons-context':
+        try: from scripts.liang021_wangjiansihui import proposal_valid as sih21_proposal_valid
+        except ImportError: from liang021_wangjiansihui import proposal_valid as sih21_proposal_valid
+        return sih21_proposal_valid(proposal, chapter)
     if chapter.get('id') == 'c-liangshu-021-wangfen':
         try: from scripts.liang021_wangfen_family import proposal_valid as wf21_proposal_valid
         except ImportError: from liang021_wangfen_family import proposal_valid as wf21_proposal_valid
@@ -116,6 +120,13 @@ def unassumed_appointment_valid(proposal, chapter):
             and p['text'][role['end']:refusal['start']] in ('', '，')
             and refusal['surface'] == '未拜'):
         verbs.append('領')
+    if (appointment['surface'] in ('用為', '用爲') and appointment['end'] == role['start']
+            and p['text'][role['end']:refusal['start']] in ('，', '') and refusal['surface'] == '固辭年老'
+            and person['surface'] == '璟' and person['person_id'] == '684_eaa_511_AAA'
+            and role['surface'] == '侍中' and p['text'][appointment['start']-2:appointment['start']] == '高祖'
+            and chapter['id'] in ('c-liangshu-050-xiezheng', 'c-liangshu-050-xiezheng-wyd')):
+        verbs.append(appointment['surface'])
+        terms['declined'].append('固辭年老')
     postposed_summons = (appointment['surface'] in ('徵', '徴')
                         and appointment['start'] == role['end']
                         and appointment['end'] <= refusal['start'])

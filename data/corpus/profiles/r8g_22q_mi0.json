@@ -75,13 +75,58 @@
           "extraction_note": "展開維基連結與YL顯示字、移除quote及粗體控制字；完整數位ref註獨立留原raw位置，不作傳世正文；無校字。"
         }
       }
+    },
+    {
+      "chapter_id": "c-jinshu-098-jin033-wangji",
+      "work_id": "w-jinshu",
+      "book_id": "b-jinshu-098",
+      "source_id": "s-jinshu-098-jin033-wangji",
+      "source": {
+        "title": "晉書卷九十八",
+        "provider": "Wikisource",
+        "url": "https://zh.wikisource.org/w/index.php?oldid=2614273",
+        "permalink": "https://zh.wikisource.org/w/index.php?oldid=2614273",
+        "revision_id": 2614273,
+        "accessed_on": "2026-10-18",
+        "extent": "卷九十八王敦題下完整傳文。",
+        "text_scope": "partial_chapter",
+        "review_status": "text_checked",
+        "image_verified": false,
+        "rights": "古代原文及維基文庫數位轉錄；保留見證歸屬。",
+        "license_url": "https://creativecommons.org/licenses/by-sa/4.0/",
+        "edition": "固定修訂2614273原文，國圖乾隆四年武英殿刊本對讀。",
+        "wikitext_sha256": "019eb1b16d5b12d4fac53fe1c94cb23ef4794434faa88ce8222576f948f4ca36",
+        "raw_path": "sources/jinshu/wikisource-2614273-raw.wikitext",
+        "raw_file_sha256": "019eb1b16d5b12d4fac53fe1c94cb23ef4794434faa88ce8222576f948f4ca36",
+        "collation_witnesses": [
+          "source-evidence/jin098-wang-han-ying/reading.json"
+        ]
+      }
     }
   ],
   "relations": [],
   "related_people": {
+    "i4e_4wq_2qc": "王邃〔字處重、王舒弟〕",
     "r8g_22q_mi0": "王邃〔郗隆參軍〕"
   },
   "dates": [],
+  "unresolved_identity_cases": [
+    {
+      "id": "ic-jin098-xuzhou-sui-and-xilong",
+      "status": "unresolved",
+      "candidate_person_ids": [
+        "i4e_4wq_2qc",
+        "r8g_22q_mi0"
+      ],
+      "paragraph_ids": [
+        "c-jinshu-098-jin033-wangji:line049",
+        "c-jinshu-059-jiong:p002"
+      ],
+      "note": "卷五十九所載郗隆參軍只有名，賞譽所引別傳明邃為舒弟；本卷與明紀均見徐州。郗隆參軍與之同人關係留待核查。",
+      "chapter_id": "c-jinshu-098-jin033-wangji",
+      "source_id": "s-jinshu-098-jin033-wangji"
+    }
+  ],
   "name_components": [],
   "person_ids": [
     "r8g_22q_mi0"

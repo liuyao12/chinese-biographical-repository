@@ -6,7 +6,8 @@
   "identity_note": "依本次固定三史選段及上下文辨識；未補本段未載姓名、生卒或親屬。",
   "review": "ai_provisional",
   "names": [
-    "李固"
+    "李固",
+    "子堅"
   ],
   "titles": [],
   "addresses": [],
@@ -95,6 +96,50 @@
       "book_id": "b-houhanshu-062",
       "chapter_id": "c-houhanshu-062-xunhan-zhongchen",
       "source_id": "s-houhanshu-062-xunhan-zhongchen",
+      "work_title": "後漢書"
+    },
+    {
+      "number": 63,
+      "category": "",
+      "title": "李固父合（王暕薦表典故）",
+      "paragraph_id": "c-houhanshu-063-ligu-wangjian:p001",
+      "count": 2,
+      "raw_count": 2,
+      "duplicate_count": 0,
+      "counting_policy": "independent_fixed_witness_occurrences",
+      "quote": "李固字子堅，漢中南鄭人，司徒合之子也。",
+      "paragraph_ids": [
+        "c-houhanshu-063-ligu-wangjian:p001"
+      ],
+      "mention_ids": [
+        "c-houhanshu-063-ligu-wangjian:p001:m0000",
+        "c-houhanshu-063-ligu-wangjian:p001:m0003"
+      ],
+      "mention_paragraph_ids": {
+        "c-houhanshu-063-ligu-wangjian:p001:m0000": "c-houhanshu-063-ligu-wangjian:p001",
+        "c-houhanshu-063-ligu-wangjian:p001:m0003": "c-houhanshu-063-ligu-wangjian:p001"
+      },
+      "mention_id": "c-houhanshu-063-ligu-wangjian:p001:m0000",
+      "occurrence_groups": [
+        {
+          "canonical_mention_id": "c-houhanshu-063-ligu-wangjian:p001:m0000",
+          "mention_ids": [
+            "c-houhanshu-063-ligu-wangjian:p001:m0000"
+          ],
+          "kind": "paragraph"
+        },
+        {
+          "canonical_mention_id": "c-houhanshu-063-ligu-wangjian:p001:m0003",
+          "mention_ids": [
+            "c-houhanshu-063-ligu-wangjian:p001:m0003"
+          ],
+          "kind": "paragraph"
+        }
+      ],
+      "work_id": "w-houhanshu",
+      "book_id": "b-houhanshu-063",
+      "chapter_id": "c-houhanshu-063-ligu-wangjian",
+      "source_id": "s-houhanshu-063-ligu-wangjian-ws7904703",
       "work_title": "後漢書"
     }
   ],
@@ -270,6 +315,34 @@
           "partial_file": false
         },
         "numbering_note": "通行卷六十二、列傳第五十二；此固定WYG數位見證題卷九十二，檔名KR2a0009_092.txt，兩者分存，不改原檔。"
+      }
+    },
+    {
+      "chapter_id": "c-houhanshu-063-ligu-wangjian",
+      "work_id": "w-houhanshu",
+      "book_id": "b-houhanshu-063",
+      "source_id": "s-houhanshu-063-ligu-wangjian-ws7904703",
+      "source": {
+        "title": "後漢書卷63·李固父合（王暕薦表典故）",
+        "provider": "Wikisource",
+        "url": "https://zh.wikisource.org/w/index.php?oldid=7904703",
+        "permalink": "https://zh.wikisource.org/w/index.php?oldid=7904703",
+        "revision_id": 7904703,
+        "accessed_on": "2026-11-21",
+        "edition": "維基文庫固定數位轉錄",
+        "extent": "李固父合（王暕薦表典故）",
+        "text_scope": "partial_chapter",
+        "image_verified": false,
+        "review_status": "text_checked",
+        "raw_path": "source-evidence/liang021-wangjiansihui/ws7904703.wikitext",
+        "raw_file_sha256": "1569056cccdcc3ab665b87dafb62d91fe9c0b62b4d65a2560676ef83ae21bf8d",
+        "rights": "古代原典及維基文庫數位轉錄。",
+        "license_url": "https://zh.wikisource.org/wiki/Wikisource:著作權資訊",
+        "normalization": {
+          "character_conversion": {},
+          "extraction_note": "投影相應原句，保留字形；移除年號模板定界符。"
+        },
+        "section_locator": "李固父合（王暕薦表典故）"
       }
     },
     {
@@ -4038,14 +4111,60 @@
       "reviewer": "Codex（AI 代理）",
       "human_reviewed": false,
       "model": null
+    },
+    {
+      "id": "a-liang021-wangjiansihui-ligu-father",
+      "subject_person_id": "5h1_iqa_qfj",
+      "object_person_id": "acp_3ec_zvn_A",
+      "predicate": "father",
+      "qualifiers": {
+        "source_term": "司徒合之子",
+        "liang021_wangjiansihui_reading": "ligu-father",
+        "lineage": "paternal"
+      },
+      "evidence": [
+        {
+          "work_id": "w-houhanshu",
+          "book_id": "b-houhanshu-063",
+          "source_id": "s-houhanshu-063-ligu-wangjian-ws7904703",
+          "chapter_id": "c-houhanshu-063-ligu-wangjian",
+          "paragraph_id": "c-houhanshu-063-ligu-wangjian:p001",
+          "quote": "李固字子堅，漢中南鄭人，司徒合之子也。",
+          "subject_person_mention_id": "c-houhanshu-063-ligu-wangjian:p001:m0000",
+          "object_person_mention_id": "c-houhanshu-063-ligu-wangjian:p001:m0014"
+        }
+      ],
+      "status": "source_attested",
+      "interpretation_note": "本固定轉錄字作合，卷八十二上及文選李善注作郃。沿李固現役 ID。",
+      "reviewer": "Codex（AI 代理）",
+      "human_reviewed": false,
+      "model": null
     }
   ],
   "related_people": {
     "5h1_iqa_qfj": "李固",
+    "acp_3ec_zvn_A": "李郃（字孟節）",
     "yoo_ox0_545": "荀淑"
   },
   "dates": [],
-  "name_components": [],
+  "name_components": [
+    {
+      "id": "nc-liang021-wangjiansihui-固",
+      "person_id": "5h1_iqa_qfj",
+      "ming": "固",
+      "zi": "子堅",
+      "additional_names": [],
+      "chapter_id": "c-houhanshu-063-ligu-wangjian",
+      "paragraph_id": "c-houhanshu-063-ligu-wangjian:p001",
+      "quote": "李固字子堅，漢中南鄭人，司徒合之子也。",
+      "status": "editorial_provisional",
+      "human_reviewed": false,
+      "surname": "李",
+      "work_id": "w-houhanshu",
+      "book_id": "b-houhanshu-063",
+      "source_id": "s-houhanshu-063-ligu-wangjian-ws7904703"
+    }
+  ],
   "person_ids": [
     "5h1_iqa_qfj"
   ],
@@ -4073,6 +4192,34 @@
         "relationship_basis": "teaching"
       },
       "interpretation_note": "師宗之的之回指本段荀淑；引句明列學生李固／李膺與老師荀淑的獨立錨點，不把同段其他名字當學生，不補授業年月與科目。",
+      "reviewer": "Codex（AI 代理）",
+      "human_reviewed": false,
+      "model": null
+    },
+    {
+      "id": "a-liang021-wangjiansihui-ligu-father",
+      "subject_person_id": "5h1_iqa_qfj",
+      "object_person_id": "acp_3ec_zvn_A",
+      "predicate": "father",
+      "qualifiers": {
+        "source_term": "司徒合之子",
+        "liang021_wangjiansihui_reading": "ligu-father",
+        "lineage": "paternal"
+      },
+      "evidence": [
+        {
+          "work_id": "w-houhanshu",
+          "book_id": "b-houhanshu-063",
+          "source_id": "s-houhanshu-063-ligu-wangjian-ws7904703",
+          "chapter_id": "c-houhanshu-063-ligu-wangjian",
+          "paragraph_id": "c-houhanshu-063-ligu-wangjian:p001",
+          "quote": "李固字子堅，漢中南鄭人，司徒合之子也。",
+          "subject_person_mention_id": "c-houhanshu-063-ligu-wangjian:p001:m0000",
+          "object_person_mention_id": "c-houhanshu-063-ligu-wangjian:p001:m0014"
+        }
+      ],
+      "status": "source_attested",
+      "interpretation_note": "本固定轉錄字作合，卷八十二上及文選李善注作郃。沿李固現役 ID。",
       "reviewer": "Codex（AI 代理）",
       "human_reviewed": false,
       "model": null

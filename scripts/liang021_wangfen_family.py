@@ -3,12 +3,12 @@ from pathlib import Path
 import json
 import hashlib
 
-CIDS=('c-liangshu-021-wangfen', 'c-nanshi-012-zhang-shangrou-yixing')
+CIDS=('c-liangshu-021-wangfen', 'c-nanshi-012-zhang-shangrou-yixing', 'c-liangshu-027-luxiang-wangqian', 'c-liangshu-055-xiaoji-wangqian', 'c-nanshi-023-wangqian-mothers')
 F='source-evidence/liang021-wangfen-family/frames.json'
-FS='8e55b335bce40589c88988884fff27ab560968107d7030986bae08bc0ee56419'
-R='source-evidence/liang021-wangfen-family/reading-3.json'
-RS='f10c1b36df17fcaa2ac320257c0b567ccbb68268483b9e8f1782d31a0e01d921'
-PROPOSALS={'tp-liang021-wangfen-family-fen-huangmen': ('c-liangshu-021-wangfen:p002', '1227e4e4393ad5f1c0863a8de0941cac7803d04b6fb1690b46ed11210e4dbce7', '1ba0c579c8b12aa1befce60c0e4dca43626834c17612d69f54b5cb12f6e2f110'), 'tp-liang021-wangfen-family-xi-給事黃門侍郎': ('c-liangshu-021-wangfen:p010', '7f4558ff842283bc63255a8a980fd5fb1406d45b7d84e89141da14e54a87a3f7', '017b28332c56caa2aea610e8337816d9231708f9a61895a95f66ebbcfd94df88'), 'tp-liang021-wangfen-family-xi-尚書吏部郎中': ('c-liangshu-021-wangfen:p010', '7f4558ff842283bc63255a8a980fd5fb1406d45b7d84e89141da14e54a87a3f7', 'e508fe87428ee1d3e1b63c49357312f5267b97950248217b993408f5843c7a62')}
+FS='8698ffa61ca0bb0c438e9cf77b22d463433fd6890b88f863d30211c38e4b678c'
+R='source-evidence/liang021-wangfen-family/reading-4.json'
+RS='631180bfed8b3d47c83df33c61192d0b0c428b881391660ec990b0e17263b741'
+PROPOSALS={'tp-liang021-wangfen-family-fen-huangmen': ('c-liangshu-021-wangfen:p002', '1227e4e4393ad5f1c0863a8de0941cac7803d04b6fb1690b46ed11210e4dbce7', '1ba0c579c8b12aa1befce60c0e4dca43626834c17612d69f54b5cb12f6e2f110'), 'tp-liang021-wangfen-family-xi-給事黃門侍郎': ('c-liangshu-021-wangfen:p010', '7f4558ff842283bc63255a8a980fd5fb1406d45b7d84e89141da14e54a87a3f7', '017b28332c56caa2aea610e8337816d9231708f9a61895a95f66ebbcfd94df88'), 'tp-liang021-wangfen-family-xi-尚書吏部郎中': ('c-liangshu-021-wangfen:p010', '7f4558ff842283bc63255a8a980fd5fb1406d45b7d84e89141da14e54a87a3f7', 'e508fe87428ee1d3e1b63c49357312f5267b97950248217b993408f5843c7a62'), 'tp-liang021-wangfen-family-qian-wei': ('c-liangshu-021-wangfen:p012', 'a1d340dc8cdb941c692d94c0492eaebccc019f39a19f9e2bf0a55a42ad7ecc4e', '7c16f8f6e93092859aed9ec1b60aeecaeaf0e6a3a11076ba754ad0a9d5eff756'), 'tp-liang021-wangfen-family-qian-shixing': ('c-liangshu-021-wangfen:p012', 'a1d340dc8cdb941c692d94c0492eaebccc019f39a19f9e2bf0a55a42ad7ecc4e', 'f4249b4156e497d39c2394bf0a2faee7310a851a2e0ab3853a5747f8c4ec2196'), 'tp-liang021-wangfen-family-qian-anxi': ('c-liangshu-021-wangfen:p012', 'a1d340dc8cdb941c692d94c0492eaebccc019f39a19f9e2bf0a55a42ad7ecc4e', '2d969a23bab5ab43cc2f495ba83cfbc78a4c6d12c0b779f049650b408c0e7bbc'), 'tp-liang021-wangfen-family-qian-shu': ('c-liangshu-021-wangfen:p012', 'a1d340dc8cdb941c692d94c0492eaebccc019f39a19f9e2bf0a55a42ad7ecc4e', '4ba1a11fc67ce87f529e309bbc0c550b96e7c4c16ea3fda39975b888dd58a4f1')}
 
 def h(x):return hashlib.sha256(x.encode()).hexdigest()
 def hd(v):return h(json.dumps(v,ensure_ascii=False,indent=2)+'\n')
@@ -31,7 +31,7 @@ def errors(ch,root):
             pos=p['source_position'];ix=pos['raw_character_offsets'];n=pos['first_line'];base=sum(map(len,ls[:n-1]));
             if p['id']!=u['paragraph_ids'][i-1] or n!=pos['last_line'] or pos['raw_start']!=base+pos['line_start'] or pos['raw_end']!=base+pos['line_end'] or hd(ix)!=pos['projection_sha256'] or ix!=sorted(set(ix)) or ''.join(raw[v]for v in ix)!=p['text']:raise ValueError('原字')
         if h('\n\n'.join(p['text']for p in ps))!=u['body_sha256'] or ch['text_sha256']!=u['body_sha256'] or hd(ch['annotation'])!=u['annotation_sha256'] or hd([p['mentions']for p in ps])!=u['mentions_sha256']:raise ValueError('姓名、引語及官次')
-        for r,d in [('source-evidence/liang021-wangfen-family/reading-1.json', '0d3584649533f98875e59f59d17c002bcd68fd72cd96d53a5800eddc5b2a498b'), ('source-evidence/liang021-wangfen-family/reading-2.json', '747fa7f8eda252373e957672dace82d31c2aedf2385ee2a2f5bfd2c186141583'), ('source-evidence/liang021-wangfen-family/reading-3.json', 'f10c1b36df17fcaa2ac320257c0b567ccbb68268483b9e8f1782d31a0e01d921')]:
+        for r,d in [('source-evidence/liang021-wangfen-family/reading-1.json', '0d3584649533f98875e59f59d17c002bcd68fd72cd96d53a5800eddc5b2a498b'), ('source-evidence/liang021-wangfen-family/reading-2.json', '747fa7f8eda252373e957672dace82d31c2aedf2385ee2a2f5bfd2c186141583'), ('source-evidence/liang021-wangfen-family/reading-3.json', 'f10c1b36df17fcaa2ac320257c0b567ccbb68268483b9e8f1782d31a0e01d921'), ('source-evidence/liang021-wangfen-family/reading-4.json', '631180bfed8b3d47c83df33c61192d0b0c428b881391660ec990b0e17263b741')]:
           for v in json.loads(source(root,r,d))['comparisons']:
             l=source(root,v['fixed_path'],v['sha256']).splitlines()[v['source_line']-1]
             if l[v['start']:v['end']]!=v['quote']:raise ValueError('旁證')

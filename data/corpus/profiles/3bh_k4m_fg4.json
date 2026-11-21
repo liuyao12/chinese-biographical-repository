@@ -7148,6 +7148,35 @@
       }
     },
     {
+      "chapter_id": "c-songshu-041-wangxianyuan-family",
+      "work_id": "w-songshu",
+      "book_id": "b-songshu-041",
+      "source_id": "s-songshu-041-wangxianyuan-family-ws2634831",
+      "source": {
+        "title": "宋書卷四十一·文穆王皇后及親族",
+        "provider": "Wikisource",
+        "url": "https://zh.wikisource.org/w/index.php?oldid=2634831",
+        "permalink": "https://zh.wikisource.org/w/index.php?oldid=2634831",
+        "revision_id": 2634831,
+        "accessed_on": "2026-11-19",
+        "edition": "維基文庫固定修訂2634831，武英殿本書影逐項參記。",
+        "extent": "此為具名來源單元選集；每人的首尾與非連續邊界見 source_unit_reviews。",
+        "text_scope": "partial_chapter",
+        "image_verified": false,
+        "review_status": "text_checked",
+        "license_url": "https://creativecommons.org/licenses/by-sa/4.0/",
+        "rights": "古代正文及維基文庫數位轉錄，保留見證歸屬。",
+        "section_locator": "清冊內各傳題及附敘字位；每段回鏈固定原檔。",
+        "wikitext_sha256": "9bbc04376eabe39a2e58ca12fb45068b667ae57102a566f557d564efb9556d55",
+        "raw_path": "source-evidence/nanshi022-wang/song041-ws2634831.wikitext",
+        "raw_file_sha256": "9bbc04376eabe39a2e58ca12fb45068b667ae57102a566f557d564efb9556d55",
+        "normalization": {
+          "character_conversion": {},
+          "extraction_note": "原文字位逐一對固定原檔，本文排除校勘註、連結目標及紀年模板的界符；校勘說另列。"
+        }
+      }
+    },
+    {
       "chapter_id": "c-songshu-041-yuanqigui",
       "work_id": "w-songshu",
       "book_id": "b-songshu-041",
@@ -24518,6 +24547,39 @@
       "human_reviewed": false
     },
     {
+      "id": "a-song041-wangxianyuan-family-243-23-12-father",
+      "subject_person_id": "3bh_k4m_fg4_B",
+      "object_person_id": "3bh_k4m_fg4",
+      "predicate": "father",
+      "status": "source_attested",
+      "qualifiers": {
+        "source_term": "太祖第六女",
+        "lineage": "paternal",
+        "reading_basis": {
+          "kind": "song041_wang_wangxianyuan_family_named_and_titled_family",
+          "source_quote": "尚太祖第六女臨川長公主諱英媛",
+          "start": 11,
+          "end": 25,
+          "subject_anchor_id": "c-songshu-041-wangxianyuan-family:p005:m0023",
+          "object_anchor_id": "c-songshu-041-wangxianyuan-family:p005:r0012"
+        }
+      },
+      "evidence": [
+        {
+          "work_id": "w-songshu",
+          "book_id": "b-songshu-041",
+          "chapter_id": "c-songshu-041-wangxianyuan-family",
+          "source_id": "s-songshu-041-wangxianyuan-family-ws2634831",
+          "paragraph_id": "c-songshu-041-wangxianyuan-family:p005",
+          "quote": "長子藻，位至東陽太守。尚太祖第六女臨川長公主諱英媛。公主性妒，而藻別愛左右人吳崇祖，前廢帝景和中，主讒之於廢帝，藻坐下獄死，主與王氏離婚。泰始初，以主適豫章太守庾沖遠，未及成禮而沖遠卒。"
+        }
+      ],
+      "interpretation_note": "按原句、兩端稱謂與前文辨讀。",
+      "reviewer": "Codex（AI代理）",
+      "model": null,
+      "human_reviewed": false
+    },
+    {
       "id": "a-songshu-041-yuanqigui-spouse",
       "subject_person_id": "3tt_4ey_uti_A",
       "object_person_id": "3bh_k4m_fg4",
@@ -24658,6 +24720,7 @@
   "related_people": {
     "3bh_k4m_fg4": "宋太祖義隆",
     "3bh_k4m_fg4_A": "東陽獻公主",
+    "3bh_k4m_fg4_B": "劉英媛（臨川長公主）",
     "3tt_4ey_uti_A": "袁齊媯",
     "hx8_st4_jdd": "宋孝武帝駿"
   },
@@ -26765,6 +26828,21 @@
       "book_id": "b-nanshi-024",
       "work_id": "w-nanshi",
       "source_id": "s-nanshi-024-wang-family"
+    },
+    {
+      "start": 12,
+      "end": 14,
+      "surface": "太祖",
+      "id": "c-songshu-041-wangxianyuan-family:p005:r0012",
+      "paragraph_id": "c-songshu-041-wangxianyuan-family:p005",
+      "person_id": "3bh_k4m_fg4",
+      "referent_role": "third_person",
+      "quote": "長子藻，位至東陽太守。尚太祖第六女臨川長公主諱英媛。公主性妒，而藻別愛左右人吳崇祖，前廢帝景和中，主讒之於廢帝，藻坐下獄死，主與王氏離婚。泰始初，以主適豫章太守庾沖遠，未及成禮而沖遠卒。",
+      "note": "本句按敘述視點回指文。",
+      "chapter_id": "c-songshu-041-wangxianyuan-family",
+      "book_id": "b-songshu-041",
+      "work_id": "w-songshu",
+      "source_id": "s-songshu-041-wangxianyuan-family-ws2634831"
     },
     {
       "id": "c-songshu-041-yuanqigui:p001:r0000",
@@ -28888,6 +28966,39 @@
         }
       ],
       "interpretation_note": "武英殿本卷二十二，依同句王妃、帝女、姓名及親稱的原字和方向連接。",
+      "reviewer": "Codex（AI代理）",
+      "model": null,
+      "human_reviewed": false
+    },
+    {
+      "id": "a-song041-wangxianyuan-family-243-23-12-father",
+      "subject_person_id": "3bh_k4m_fg4_B",
+      "object_person_id": "3bh_k4m_fg4",
+      "predicate": "father",
+      "status": "source_attested",
+      "qualifiers": {
+        "source_term": "太祖第六女",
+        "lineage": "paternal",
+        "reading_basis": {
+          "kind": "song041_wang_wangxianyuan_family_named_and_titled_family",
+          "source_quote": "尚太祖第六女臨川長公主諱英媛",
+          "start": 11,
+          "end": 25,
+          "subject_anchor_id": "c-songshu-041-wangxianyuan-family:p005:m0023",
+          "object_anchor_id": "c-songshu-041-wangxianyuan-family:p005:r0012"
+        }
+      },
+      "evidence": [
+        {
+          "work_id": "w-songshu",
+          "book_id": "b-songshu-041",
+          "chapter_id": "c-songshu-041-wangxianyuan-family",
+          "source_id": "s-songshu-041-wangxianyuan-family-ws2634831",
+          "paragraph_id": "c-songshu-041-wangxianyuan-family:p005",
+          "quote": "長子藻，位至東陽太守。尚太祖第六女臨川長公主諱英媛。公主性妒，而藻別愛左右人吳崇祖，前廢帝景和中，主讒之於廢帝，藻坐下獄死，主與王氏離婚。泰始初，以主適豫章太守庾沖遠，未及成禮而沖遠卒。"
+        }
+      ],
+      "interpretation_note": "按原句、兩端稱謂與前文辨讀。",
       "reviewer": "Codex（AI代理）",
       "model": null,
       "human_reviewed": false
