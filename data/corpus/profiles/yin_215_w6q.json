@@ -10,9 +10,93 @@
     "宏",
     "巨集"
   ],
-  "titles": [],
+  "titles": [
+    {
+      "id": "th-w076-biao-yuanlibu",
+      "person_id": "yin_215_w6q",
+      "title": "吏部郎",
+      "kind": "office",
+      "mode": "attestation",
+      "evidence": [
+        {
+          "work_id": "w-shishuoxinyu",
+          "book_id": "b-shishuoxinyu-002",
+          "chapter_id": "c-shishuoxinyu-002-jin076-wangbiaozhi",
+          "source_id": "s-shishuoxinyu-002-jin076-wangbiaozhi",
+          "paragraph_id": "c-shishuoxinyu-002-jin076-wangbiaozhi:ninetokens",
+          "quote": "温在姑孰，諷朝廷，求九錫。謝安使吏部郎袁宏具其草，以示僕射王彪之。彪之作色曰：『丈夫豈可以此事語人邪？』安徐問其計。彪之曰：『聞其疾已篤，且可緩其事。』安從之，故不行。",
+          "person_mention_id": "c-shishuoxinyu-002-jin076-wangbiaozhi:ninetokens:m0019"
+        }
+      ],
+      "attestations": [
+        {
+          "id": "th-w076-biao-yuanlibu:a",
+          "paragraph_id": "c-shishuoxinyu-002-jin076-wangbiaozhi:ninetokens",
+          "start": 16,
+          "end": 19,
+          "surface": "吏部郎",
+          "person_mention_id": "c-shishuoxinyu-002-jin076-wangbiaozhi:ninetokens:m0019",
+          "usage": "narrative",
+          "date_expression": null
+        }
+      ],
+      "effective_period": {
+        "start": {
+          "status": "unknown",
+          "date_expression": null,
+          "evidence": []
+        },
+        "end": {
+          "status": "unknown",
+          "date_expression": null,
+          "evidence": []
+        }
+      },
+      "interpretation_note": "本來源官稱或所任，未受另記。",
+      "status": "source_attested",
+      "reviewer": "Codex（AI 代理）",
+      "human_reviewed": false,
+      "model": null,
+      "period": "未定 → 未定"
+    }
+  ],
   "addresses": [],
   "occurrences": [
+    {
+      "number": 2,
+      "category": "",
+      "title": "言語劉注引晉安帝紀",
+      "paragraph_id": "c-shishuoxinyu-002-jin076-wangbiaozhi:ninetokens",
+      "count": 1,
+      "raw_count": 1,
+      "duplicate_count": 0,
+      "counting_policy": "independent_fixed_witness_occurrences",
+      "quote": "温在姑孰，諷朝廷，求九錫。謝安使吏部郎袁宏具其草，以示僕射王彪之。彪之作色曰：『丈夫豈可以此事語人邪？』安徐問其計。彪之曰：『聞其疾已篤，且可緩其事。』安從之，故不行。",
+      "paragraph_ids": [
+        "c-shishuoxinyu-002-jin076-wangbiaozhi:ninetokens"
+      ],
+      "mention_ids": [
+        "c-shishuoxinyu-002-jin076-wangbiaozhi:ninetokens:m0019"
+      ],
+      "mention_paragraph_ids": {
+        "c-shishuoxinyu-002-jin076-wangbiaozhi:ninetokens:m0019": "c-shishuoxinyu-002-jin076-wangbiaozhi:ninetokens"
+      },
+      "mention_id": "c-shishuoxinyu-002-jin076-wangbiaozhi:ninetokens:m0019",
+      "occurrence_groups": [
+        {
+          "canonical_mention_id": "c-shishuoxinyu-002-jin076-wangbiaozhi:ninetokens:m0019",
+          "mention_ids": [
+            "c-shishuoxinyu-002-jin076-wangbiaozhi:ninetokens:m0019"
+          ],
+          "kind": "paragraph"
+        }
+      ],
+      "work_id": "w-shishuoxinyu",
+      "book_id": "b-shishuoxinyu-002",
+      "chapter_id": "c-shishuoxinyu-002-jin076-wangbiaozhi",
+      "source_id": "s-shishuoxinyu-002-jin076-wangbiaozhi",
+      "work_title": "世說新語"
+    },
     {
       "number": 75,
       "category": "",
@@ -2364,6 +2448,30 @@
         "review_status": "text_checked",
         "license_url": "https://creativecommons.org/licenses/by-sa/4.0/"
       }
+    },
+    {
+      "chapter_id": "c-shishuoxinyu-002-jin076-wangbiaozhi",
+      "work_id": "w-shishuoxinyu",
+      "book_id": "b-shishuoxinyu-002",
+      "source_id": "s-shishuoxinyu-002-jin076-wangbiaozhi",
+      "source": {
+        "title": "世說新語言語",
+        "provider": "Wikisource",
+        "url": "https://zh.wikisource.org/w/index.php?oldid=2567463",
+        "permalink": "https://zh.wikisource.org/w/index.php?oldid=2567463",
+        "revision_id": 2567463,
+        "accessed_on": "2026-10-18",
+        "extent": "下列來源節錄。",
+        "text_scope": "partial_chapter",
+        "review_status": "text_checked",
+        "image_verified": false,
+        "rights": "古代原文及維基文庫數位轉錄；保留見證歸屬。",
+        "license_url": "https://creativecommons.org/licenses/by-sa/4.0/",
+        "edition": "固定修訂相關原文，逐字核收。",
+        "wikitext_sha256": "d8497f787b468d3b7538bc5f842fad69c4e32905f58bab290f767b553166ee32",
+        "raw_path": "source-evidence/jin065-wang-descendants/external/shi-ws2567463.wikitext",
+        "raw_file_sha256": "d8497f787b468d3b7538bc5f842fad69c4e32905f58bab290f767b553166ee32"
+      }
     }
   ],
   "relations": [],
@@ -2422,6 +2530,23 @@
     }
   ],
   "name_components": [],
+  "person_references": [
+    {
+      "id": "c-jinshu-076-wangbiaozhi:line083:r0038",
+      "paragraph_id": "c-jinshu-076-wangbiaozhi:line083",
+      "start": 38,
+      "end": 39,
+      "surface": "卿",
+      "person_id": "yin_215_w6q",
+      "quote": "卿固大才",
+      "referent_role": "addressee",
+      "note": "依此段書牘、對話或敘述所指。",
+      "chapter_id": "c-jinshu-076-wangbiaozhi",
+      "book_id": "b-jinshu-076",
+      "work_id": "w-jinshu",
+      "source_id": "s-jinshu-076-wangbiaozhi"
+    }
+  ],
   "person_ids": [
     "yin_215_w6q"
   ],

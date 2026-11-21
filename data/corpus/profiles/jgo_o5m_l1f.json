@@ -7,7 +7,8 @@
   "review": "ai_provisional",
   "names": [
     "劉",
-    "劉秉"
+    "劉秉",
+    "劉彥節"
   ],
   "titles": [],
   "addresses": [],
@@ -45,6 +46,41 @@
       "book_id": "b-nanshi-019",
       "chapter_id": "c-nanshi-019-chaozong",
       "source_id": "s-nanshi-019-chaozong-ws1531762",
+      "work_title": "南史"
+    },
+    {
+      "number": 22,
+      "category": "",
+      "title": "王儉及王遜傳",
+      "paragraph_id": "c-nanshi-022-wangjian:p014",
+      "count": 1,
+      "raw_count": 1,
+      "duplicate_count": 0,
+      "counting_policy": "independent_fixed_witness_occurrences",
+      "quote": "儉弟遜，宋升明中為丹陽丞，告劉彥節事，不蒙封賞。建元初，為晉陵太守，有怨言。儉慮為禍，因褚彥回啟聞，中丞陸澄依事舉奏。詔以儉竭誠佐命，特降刑書宥遜，遠徙永嘉郡，於道伏誅。長子騫嗣。",
+      "paragraph_ids": [
+        "c-nanshi-022-wangjian:p014"
+      ],
+      "mention_ids": [
+        "c-nanshi-022-wangjian:p014:m0014"
+      ],
+      "mention_paragraph_ids": {
+        "c-nanshi-022-wangjian:p014:m0014": "c-nanshi-022-wangjian:p014"
+      },
+      "mention_id": "c-nanshi-022-wangjian:p014:m0014",
+      "occurrence_groups": [
+        {
+          "canonical_mention_id": "c-nanshi-022-wangjian:p014:m0014",
+          "mention_ids": [
+            "c-nanshi-022-wangjian:p014:m0014"
+          ],
+          "kind": "paragraph"
+        }
+      ],
+      "work_id": "w-nanshi",
+      "book_id": "b-nanshi-022",
+      "chapter_id": "c-nanshi-022-wangjian",
+      "source_id": "s-nanshi-022-wangjian-ws1477957",
       "work_title": "南史"
     },
     {
@@ -138,6 +174,33 @@
         "normalization": {
           "character_conversion": {},
           "extraction_note": "僅去不轉換標記的界符。"
+        }
+      }
+    },
+    {
+      "chapter_id": "c-nanshi-022-wangjian",
+      "work_id": "w-nanshi",
+      "book_id": "b-nanshi-022",
+      "source_id": "s-nanshi-022-wangjian-ws1477957",
+      "source": {
+        "title": "南史/卷22·王儉及王遜傳",
+        "provider": "Wikisource",
+        "url": "https://zh.wikisource.org/wiki/南史/卷22",
+        "permalink": "https://zh.wikisource.org/w/index.php?title=南史/卷22&oldid=1477957",
+        "edition": "固定數位見證",
+        "revision_id": 1477957,
+        "accessed_on": "2026-11-21",
+        "text_scope": "partial_chapter",
+        "extent": "本傳或單段附敘全文",
+        "image_verified": false,
+        "review_status": "text_checked",
+        "raw_path": "sources/nanshi/nanshi022-ws1477957.wikitext",
+        "raw_file_sha256": "1fba4fa3cd43161db40d91f7330cd6cf685052cfaadb90d0a90869fd5ef3fa94",
+        "rights": "原典本文及可追溯校記",
+        "license_url": "https://zh.wikisource.org/wiki/Wikisource:著作權資訊",
+        "normalization": {
+          "character_conversion": {},
+          "extraction_note": "保留傳本文字及今本補字方括；排版界符和另存的校記依原字位投影。"
         }
       }
     }
