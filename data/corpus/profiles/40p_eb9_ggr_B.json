@@ -6,9 +6,58 @@
   "identity_note": "依本篇具名、稱謂及其所在原句辨認；引書原字存於各自來源。",
   "review": "ai_provisional",
   "names": [
-    "晏"
+    "晏",
+    "陆晏"
   ],
   "titles": [
+    {
+      "id": "t-wu057-sons-11",
+      "person_id": "40p_eb9_ggr_B",
+      "kind": "office",
+      "title": "夷道监",
+      "mode": "attestation",
+      "status": "source_attested",
+      "effective_period": {
+        "start": {
+          "status": "unknown",
+          "date_expression": null,
+          "evidence": []
+        },
+        "end": {
+          "status": "unknown",
+          "date_expression": null,
+          "evidence": []
+        }
+      },
+      "interpretation_note": "本句所載職官，任免時間未詳。",
+      "evidence": [
+        {
+          "work_id": "w-sanguozhi",
+          "book_id": "b-sanguozhi-057",
+          "chapter_id": "c-sanguozhi-057-yu-sons",
+          "source_id": "s-sanguozhi-057-yu-sons",
+          "paragraph_id": "c-sanguozhi-057-yu-sons:line034-pei02-01",
+          "quote": "《会稽典录》曰：忠字世方，翻第五子。贞固幹事，好识人物，造吴郡陆机於童龀之年，称上虞魏迁於无名之初，终皆远致，为著闻之士。交同县王岐於孤宦之族，仕进先至宜都太守，忠乃代之。晋征吴，忠与夷道监陆晏、晏弟中夏督景坚守不下，城溃被害。忠子谭，字思奥。",
+          "person_mention_id": "c-sanguozhi-057-yu-sons:line034-pei02-01:m0095"
+        }
+      ],
+      "attestations": [
+        {
+          "id": "t-wu057-sons-11:a",
+          "paragraph_id": "c-sanguozhi-057-yu-sons:line034-pei02-01",
+          "person_mention_id": "c-sanguozhi-057-yu-sons:line034-pei02-01:m0095",
+          "start": 92,
+          "end": 95,
+          "surface": "夷道监",
+          "usage": "narrative",
+          "date_expression": null
+        }
+      ],
+      "human_reviewed": false,
+      "reviewer": "Codex（AI 代理）",
+      "model": null,
+      "period": "未定 → 未定"
+    },
     {
       "id": "t-wu058-k23",
       "person_id": "40p_eb9_ggr_B",
@@ -109,6 +158,50 @@
   "addresses": [],
   "occurrences": [
     {
+      "number": 57,
+      "category": "",
+      "title": "子 汜等",
+      "paragraph_id": "c-sanguozhi-057-yu-sons:line034-pei02-01",
+      "count": 2,
+      "raw_count": 2,
+      "duplicate_count": 0,
+      "counting_policy": "independent_fixed_witness_occurrences",
+      "quote": "。交同县王岐於孤宦之族，仕进先至宜都太守，忠乃代之。晋征吴，忠与夷道监陆晏、晏弟中夏督景坚守不下，城溃被害。忠子谭，字思奥。",
+      "paragraph_ids": [
+        "c-sanguozhi-057-yu-sons:line034-pei02-01"
+      ],
+      "mention_ids": [
+        "c-sanguozhi-057-yu-sons:line034-pei02-01:m0095",
+        "c-sanguozhi-057-yu-sons:line034-pei02-01:m0098"
+      ],
+      "mention_paragraph_ids": {
+        "c-sanguozhi-057-yu-sons:line034-pei02-01:m0095": "c-sanguozhi-057-yu-sons:line034-pei02-01",
+        "c-sanguozhi-057-yu-sons:line034-pei02-01:m0098": "c-sanguozhi-057-yu-sons:line034-pei02-01"
+      },
+      "mention_id": "c-sanguozhi-057-yu-sons:line034-pei02-01:m0095",
+      "occurrence_groups": [
+        {
+          "canonical_mention_id": "c-sanguozhi-057-yu-sons:line034-pei02-01:m0095",
+          "mention_ids": [
+            "c-sanguozhi-057-yu-sons:line034-pei02-01:m0095"
+          ],
+          "kind": "paragraph"
+        },
+        {
+          "canonical_mention_id": "c-sanguozhi-057-yu-sons:line034-pei02-01:m0098",
+          "mention_ids": [
+            "c-sanguozhi-057-yu-sons:line034-pei02-01:m0098"
+          ],
+          "kind": "paragraph"
+        }
+      ],
+      "work_id": "w-sanguozhi",
+      "book_id": "b-sanguozhi-057",
+      "chapter_id": "c-sanguozhi-057-yu-sons",
+      "source_id": "s-sanguozhi-057-yu-sons",
+      "work_title": "三國志"
+    },
+    {
       "number": 58,
       "category": "",
       "title": "陸抗傳",
@@ -174,6 +267,34 @@
   "table_occurrences": [],
   "sources": [
     {
+      "chapter_id": "c-sanguozhi-057-yu-sons",
+      "work_id": "w-sanguozhi",
+      "book_id": "b-sanguozhi-057",
+      "source_id": "s-sanguozhi-057-yu-sons",
+      "source": {
+        "title": "三國志卷五十七·吳書十二",
+        "provider": "Wikisource",
+        "url": "https://zh.wikisource.org/w/index.php?oldid=2638131",
+        "permalink": "https://zh.wikisource.org/w/index.php?oldid=2638131",
+        "revision_id": 2638131,
+        "accessed_on": "2026-11-21",
+        "edition": "維基文庫固定修訂，裴注與正文分層。",
+        "extent": "第34至34行。",
+        "text_scope": "partial_chapter",
+        "review_status": "text_checked",
+        "image_verified": false,
+        "rights": "古籍原文，維基文庫轉錄。",
+        "license_url": "https://creativecommons.org/licenses/by-sa/4.0/",
+        "raw_path": "source-evidence/sanguozhi057-yu/sanguozhi057-ws2638131.wikitext",
+        "raw_file_sha256": "6848b2dab019436efffdbf207f571e343e9a9624a7333c6767a3930163fe2f99",
+        "wikitext_sha256": "6848b2dab019436efffdbf207f571e343e9a9624a7333c6767a3930163fe2f99",
+        "original_parent_heading": "虞翻",
+        "collation_witnesses": [
+          "source-evidence/sanguozhi057-yu-sons/reading.json"
+        ]
+      }
+    },
+    {
       "chapter_id": "c-sanguozhi-058-lukang",
       "work_id": "w-sanguozhi",
       "book_id": "b-sanguozhi-058",
@@ -203,6 +324,32 @@
   ],
   "relations": [
     {
+      "id": "a-wu057-lu-brothers",
+      "subject_person_id": "40p_eb9_ggr_B",
+      "object_person_id": "40p_eb9_ggr_A",
+      "predicate": "brother",
+      "qualifiers": {
+        "source_term": "晏弟中夏督景"
+      },
+      "evidence": [
+        {
+          "work_id": "w-sanguozhi",
+          "book_id": "b-sanguozhi-057",
+          "chapter_id": "c-sanguozhi-057-yu-sons",
+          "source_id": "s-sanguozhi-057-yu-sons",
+          "paragraph_id": "c-sanguozhi-057-yu-sons:line034-pei02-01",
+          "quote": "《会稽典录》曰：忠字世方，翻第五子。贞固幹事，好识人物，造吴郡陆机於童龀之年，称上虞魏迁於无名之初，终皆远致，为著闻之士。交同县王岐於孤宦之族，仕进先至宜都太守，忠乃代之。晋征吴，忠与夷道监陆晏、晏弟中夏督景坚守不下，城溃被害。忠子谭，字思奥。",
+          "subject_person_mention_id": "c-sanguozhi-057-yu-sons:line034-pei02-01:m0095",
+          "object_person_mention_id": "c-sanguozhi-057-yu-sons:line034-pei02-01:m0103"
+        }
+      ],
+      "interpretation_note": "以此來源所述兩端為據。",
+      "status": "source_attested",
+      "reviewer": "Codex（AI 代理）",
+      "human_reviewed": false,
+      "model": null
+    },
+    {
       "id": "a-wu058-kang-son-0",
       "subject_person_id": "40p_eb9_ggr_B",
       "object_person_id": "40p_eb9_ggr",
@@ -231,6 +378,7 @@
   ],
   "related_people": {
     "40p_eb9_ggr": "陸抗〔字幼節〕",
+    "40p_eb9_ggr_A": "陸景",
     "40p_eb9_ggr_B": "陸晏"
   },
   "dates": [],
@@ -239,6 +387,32 @@
     "40p_eb9_ggr_B"
   ],
   "preferred_relations": [
+    {
+      "id": "a-wu057-lu-brothers",
+      "subject_person_id": "40p_eb9_ggr_B",
+      "object_person_id": "40p_eb9_ggr_A",
+      "predicate": "brother",
+      "qualifiers": {
+        "source_term": "晏弟中夏督景"
+      },
+      "evidence": [
+        {
+          "work_id": "w-sanguozhi",
+          "book_id": "b-sanguozhi-057",
+          "chapter_id": "c-sanguozhi-057-yu-sons",
+          "source_id": "s-sanguozhi-057-yu-sons",
+          "paragraph_id": "c-sanguozhi-057-yu-sons:line034-pei02-01",
+          "quote": "《会稽典录》曰：忠字世方，翻第五子。贞固幹事，好识人物，造吴郡陆机於童龀之年，称上虞魏迁於无名之初，终皆远致，为著闻之士。交同县王岐於孤宦之族，仕进先至宜都太守，忠乃代之。晋征吴，忠与夷道监陆晏、晏弟中夏督景坚守不下，城溃被害。忠子谭，字思奥。",
+          "subject_person_mention_id": "c-sanguozhi-057-yu-sons:line034-pei02-01:m0095",
+          "object_person_mention_id": "c-sanguozhi-057-yu-sons:line034-pei02-01:m0103"
+        }
+      ],
+      "interpretation_note": "以此來源所述兩端為據。",
+      "status": "source_attested",
+      "reviewer": "Codex（AI 代理）",
+      "human_reviewed": false,
+      "model": null
+    },
     {
       "id": "a-wu058-kang-son-0",
       "subject_person_id": "40p_eb9_ggr_B",

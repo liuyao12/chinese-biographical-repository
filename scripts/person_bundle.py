@@ -217,6 +217,19 @@ def validate_parallel_given_name(name):
 
 
 def validate_former_given_name(name, paragraph=None):
+    if name.get('id') == 'nc-liang007-wanglingbin-騫':
+        record = ('c-liangshu-007-wanglingbin:p003', '7r6_k52_qji_ABAAAAEAAA', '王', '騫', '思寂', '玄成')
+        keys = ('paragraph_id', 'person_id', 'surname', 'ming', 'zi', 'former_ming')
+        if tuple(name.get(key) for key in keys) != record or not paragraph:
+            raise ValueError('王騫本名須繫同段王騫、字思寂與玄成')
+        text = paragraph.get('text', '')
+        points = {(m.get('start'), m.get('end'), m.get('surface')) for m in paragraph.get('mentions', []) if m.get('kind') == 'person' and m.get('person_id') == record[1]}
+        source = paragraph.get('source_position', {})
+        if (paragraph.get('id') == record[0] and source.get('revision_id') == 1566494
+                and text.startswith('父騫，字思寂，本名玄成，與齊高帝偏諱同，故改焉。')
+                and name.get('quote') == text and {(1, 2, '騫'), (4, 6, '思寂'), (9, 11, '玄成')} <= points):
+            return
+        raise ValueError('王騫本名須有原篇舊名、今名與避諱改名原句')
     if 'former_ming_basis' in name:
         try:from scripts.fixed_wikisource_units import biography_former_ming_valid
         except ImportError:from fixed_wikisource_units import biography_former_ming_valid

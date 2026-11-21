@@ -3317,6 +3317,54 @@
       "period": "未定 → 未定"
     },
     {
+      "id": "th-liang007-wanglingbin-m5-29",
+      "person_id": "7r6_k52_qji_ABAA",
+      "title": "丞相",
+      "kind": "office",
+      "mode": "attestation",
+      "attestations": [
+        {
+          "id": "th-liang007-wanglingbin-m5-29:a",
+          "person_mention_id": "c-liangshu-007-wanglingbin:p005:m0031",
+          "usage": "narrative",
+          "date_expression": null,
+          "paragraph_id": "c-liangshu-007-wanglingbin:p005",
+          "surface": "丞相",
+          "start": 29,
+          "end": 31
+        }
+      ],
+      "effective_period": {
+        "start": {
+          "status": "unknown",
+          "date_expression": null,
+          "evidence": []
+        },
+        "end": {
+          "status": "unknown",
+          "date_expression": null,
+          "evidence": []
+        }
+      },
+      "evidence": [
+        {
+          "work_id": "w-liangshu",
+          "book_id": "b-liangshu-007",
+          "source_id": "s-liangshu-007-wanglingbin-ws1566494",
+          "chapter_id": "c-liangshu-007-wanglingbin",
+          "paragraph_id": "c-liangshu-007-wanglingbin:p005",
+          "quote": "時高祖於鐘山造大愛敬寺，騫舊墅在寺側，有良田八十餘頃，卽晉丞相王導賜田也。高祖遣主書宣旨就騫求市，欲以施寺。騫答旨云：「此田不賣；若是敕取，所不敢言。」酬對又脫略。高祖怒，遂付市評田價，以直逼還之。由是忤旨，出爲吳興太守。在郡臥疾不視事。徵還，復爲度支尚書，加給事中，領射聲校尉。以母憂去職。",
+          "person_mention_id": "c-liangshu-007-wanglingbin:p005:m0031"
+        }
+      ],
+      "status": "source_attested",
+      "interpretation_note": "按本見證原職名及其所屬人。",
+      "reviewer": "Codex（AI 代理）",
+      "human_reviewed": false,
+      "model": null,
+      "period": "未定 → 未定"
+    },
+    {
       "id": "th-nan023-wangying-b1-12",
       "person_id": "7r6_k52_qji_ABAA",
       "title": "晉丞相",
@@ -3952,6 +4000,41 @@
       "work_title": "晉書"
     },
     {
+      "number": 7,
+      "category": "",
+      "title": "太宗王皇后及父王騫",
+      "paragraph_id": "c-liangshu-007-wanglingbin:p005",
+      "count": 1,
+      "raw_count": 1,
+      "duplicate_count": 0,
+      "counting_policy": "independent_fixed_witness_occurrences",
+      "quote": "時高祖於鐘山造大愛敬寺，騫舊墅在寺側，有良田八十餘頃，卽晉丞相王導賜田也。高祖遣主書宣旨就騫求市，欲以施寺。騫答旨云：「此田不賣；若是敕取，所不敢言。」酬對又脫略。高祖怒，遂付市評田價，以直逼還之。由是忤旨，出爲吳興太守。在郡臥疾不視事。徵還，復爲度支尚書，加給事中",
+      "paragraph_ids": [
+        "c-liangshu-007-wanglingbin:p005"
+      ],
+      "mention_ids": [
+        "c-liangshu-007-wanglingbin:p005:m0031"
+      ],
+      "mention_paragraph_ids": {
+        "c-liangshu-007-wanglingbin:p005:m0031": "c-liangshu-007-wanglingbin:p005"
+      },
+      "mention_id": "c-liangshu-007-wanglingbin:p005:m0031",
+      "occurrence_groups": [
+        {
+          "canonical_mention_id": "c-liangshu-007-wanglingbin:p005:m0031",
+          "mention_ids": [
+            "c-liangshu-007-wanglingbin:p005:m0031"
+          ],
+          "kind": "paragraph"
+        }
+      ],
+      "work_id": "w-liangshu",
+      "book_id": "b-liangshu-007",
+      "chapter_id": "c-liangshu-007-wanglingbin",
+      "source_id": "s-liangshu-007-wanglingbin-ws1566494",
+      "work_title": "梁書"
+    },
+    {
       "number": 8,
       "category": "",
       "title": "世說新語·賞譽",
@@ -4104,7 +4187,7 @@
     {
       "number": 16,
       "category": "",
-      "title": "王亮傳首所記父及祖",
+      "title": "王亮",
       "paragraph_id": "c-liangshu-016-wangliang-family-clauses:p001",
       "count": 1,
       "raw_count": 1,
@@ -24853,30 +24936,101 @@
       }
     },
     {
+      "chapter_id": "c-liangshu-007-wanglingbin",
+      "work_id": "w-liangshu",
+      "book_id": "b-liangshu-007",
+      "source_id": "s-liangshu-007-wanglingbin-ws1566494",
+      "source": {
+        "title": "梁書卷7·太宗王皇后及父王騫",
+        "provider": "Wikisource",
+        "url": "https://zh.wikisource.org/w/index.php?oldid=1566494",
+        "permalink": "https://zh.wikisource.org/w/index.php?oldid=1566494",
+        "revision_id": 1566494,
+        "accessed_on": "2026-11-21",
+        "edition": "維基文庫固定數位轉錄",
+        "extent": "固定傳題內全段，皇后與王騫按原行分界。",
+        "text_scope": "complete_biography_unit",
+        "image_verified": false,
+        "review_status": "text_checked",
+        "raw_path": "source-evidence/nanshi019-xietiao/liangshu007-ws1566494.wikitext",
+        "raw_file_sha256": "21670cf990a423b37ee0c2c543213171ea42439e787c2dd671af5f6868b47e3d",
+        "rights": "古代原典及維基文庫數位轉錄。",
+        "license_url": "https://zh.wikisource.org/wiki/Wikisource:著作權資訊",
+        "normalization": {
+          "character_conversion": {},
+          "extraction_note": "投影相應原句，保留字形；移除年號模板定界符。",
+          "verified_blank_line_gaps": [
+            {
+              "source_lines": [
+                36,
+                36
+              ],
+              "raw_quote": "",
+              "raw_quote_sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+              "revision_id": 1566494
+            },
+            {
+              "source_lines": [
+                38,
+                38
+              ],
+              "raw_quote": "",
+              "raw_quote_sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+              "revision_id": 1566494
+            },
+            {
+              "source_lines": [
+                40,
+                40
+              ],
+              "raw_quote": "",
+              "raw_quote_sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+              "revision_id": 1566494
+            },
+            {
+              "source_lines": [
+                42,
+                42
+              ],
+              "raw_quote": "",
+              "raw_quote_sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+              "revision_id": 1566494
+            },
+            {
+              "source_lines": [
+                44,
+                44
+              ],
+              "raw_quote": "",
+              "raw_quote_sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+              "revision_id": 1566494
+            }
+          ]
+        },
+        "section_locator": "太宗王皇后及父王騫"
+      }
+    },
+    {
       "chapter_id": "c-liangshu-016-wangliang-family-clauses",
       "work_id": "w-liangshu",
       "book_id": "b-liangshu-016",
       "source_id": "s-liangshu-016-wangliang-family-clauses-ws1508503",
       "source": {
-        "title": "梁書卷16·王亮傳首所記父及祖",
+        "title": "王亮",
         "provider": "Wikisource",
-        "url": "https://zh.wikisource.org/w/index.php?oldid=1508503",
         "permalink": "https://zh.wikisource.org/w/index.php?oldid=1508503",
+        "url": "https://zh.wikisource.org/w/index.php?oldid=1508503",
         "revision_id": 1508503,
+        "edition": "維基文庫固定修訂",
         "accessed_on": "2026-11-21",
-        "edition": "維基文庫固定數位轉錄",
-        "extent": "原王府身分、紀年或改名原句",
-        "text_scope": "partial_chapter",
-        "image_verified": false,
         "review_status": "text_checked",
+        "image_verified": false,
+        "rights": "古代原文；數位轉錄依維基文庫授權。",
+        "license_url": "https://creativecommons.org/licenses/by-sa/4.0/",
+        "extent": "王亮",
+        "text_scope": "complete_biography_unit",
         "raw_path": "source-evidence/nanshi022-wangyun/external/liang016-ws1508503.wikitext",
-        "raw_file_sha256": "40585b42092b90ee701fe144cb1093683a0916eaa4eb4e356eec7da7e7d773e6",
-        "rights": "古代原典及維基文庫數位轉錄。",
-        "license_url": "https://zh.wikisource.org/wiki/Wikisource:著作權資訊",
-        "normalization": {
-          "character_conversion": {},
-          "extraction_note": "投影相應原句，保留字形；移除年號模板定界符。"
-        }
+        "raw_file_sha256": "40585b42092b90ee701fe144cb1093683a0916eaa4eb4e356eec7da7e7d773e6"
       }
     },
     {
