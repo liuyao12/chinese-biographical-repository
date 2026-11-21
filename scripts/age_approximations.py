@@ -3,11 +3,13 @@
 DIGITS = '一二三四五六七八九'
 
 def age_approximation_errors(age, paragraph):
-    if age.get('subject_scope', {}).get('kind') == 'narrated_age_between_head_and_action':
+    subject_scope = age.get('subject_scope')
+    subject_kind = subject_scope.get('kind') if isinstance(subject_scope, dict) else None
+    if subject_kind == 'narrated_age_between_head_and_action':
         try: from scripts.jin043_narrated_age import age_errors
         except ImportError: from jin043_narrated_age import age_errors
         return age_errors(age, paragraph)
-    if isinstance(age.get('subject_scope'), dict) and age['subject_scope'].get('kind') == 'immediate_child_age':
+    if subject_kind == 'immediate_child_age':
         try:
             from scripts.individual_adjacent_age import individual_adjacent_age_errors
         except ImportError:
