@@ -14,6 +14,7 @@ export default {
   "Close": "關閉",
   "Source cell": "來源儲存格",
   "Fixed source version": "固定來源版本",
+  "Facsimile page {page}": "書影第 {page} 頁",
   "Source licensing": "來源授權",
   "Original headings": "原欄題",
   "Source revision": "來源版本",

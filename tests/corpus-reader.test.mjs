@@ -1,8 +1,21 @@
 import test from 'node:test';
 import assert from 'node:assert/strict';
 import {readFileSync} from 'node:fs';
-import {chapterURL, chapterParagraph, filteredChapters, sourcePassageURL, profileSourceContext} from '../assets/corpus-reader.js';
+import {chapterURL, chapterParagraph, facsimilePageLinks, filteredChapters, sourcePassageURL, profileSourceContext} from '../assets/corpus-reader.js';
 const index = JSON.parse(readFileSync(new URL('../data/corpus/index.json', import.meta.url)));
+test('verified printed paragraphs link each attested scan page once', () => {
+  const position = {column_projection: [{pdf_page: 18}, {pdf_page: 18}, {pdf_page: 19}]};
+  const catalog = {image_verified: true, url: 'https://commons.wikimedia.org/wiki/File:試讀.pdf'};
+  const links = facsimilePageLinks(catalog, position);
+  assert.match(links, /Special:FilePath\/%E8%A9%A6%E8%AE%80\.pdf#page=18/);
+  assert.equal((links.match(/#page=18/g) || []).length, 1);
+  assert.match(links, /#page=19/);
+  const direct = {image_verified: true, url: 'https://upload.wikimedia.org/wikipedia/commons/a/ab/test.pdf'};
+  assert.match(facsimilePageLinks(direct, position), /test\.pdf#page=18/);
+  assert.equal(facsimilePageLinks({...catalog, image_verified: false}, position), '');
+  assert.equal(facsimilePageLinks(catalog, {column_projection: [{pdf_page: '18'}]}), '');
+  assert.equal(facsimilePageLinks({...direct, url: 'https://example.org/test.pdf'}, position), '');
+});
 test('a direct native-work profile returns to its principal source without overriding an explicit context',()=>{
  const native={work_id:'w-jinshu',work_title:'晉書',book_id:'b-jinshu-075',chapter_id:'c-jinshu-075-synthetic',paragraph_id:'synthetic-p1',paragraph_ids:['synthetic-p1'],title:'Synthetic source',count:10};
  const person={occurrences:[native,{work_id:'w-shiji',chapter_id:'c-shiji-075-synthetic',count:2}]};

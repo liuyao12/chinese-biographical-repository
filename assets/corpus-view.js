@@ -10,7 +10,7 @@ import {createLanguageReadingTransition, restoreReadingState} from './corpus-rea
 import {referentInterpretations} from './referent-interpretations.js';
 import {escapeHTML as h} from './core.js';
 import {t,ui} from './i18n.js';
-import {chapterParagraph,filteredChapters,sourcePassageURL} from './corpus-reader.js';
+import {chapterParagraph,facsimilePageLinks,filteredChapters,sourcePassageURL} from './corpus-reader.js';
 import {safeSourceURL} from './historical-tables.js';
 import {bindPersonCards} from './cbr-person.js';
 
@@ -83,7 +83,9 @@ async function render(keepScroll=false) {
   if(chapter.id!==selected.chapter_id || chapter.work_id!==work.id || chapter.book_id!==selected.book_id)throw Error(t('Source text could not be loaded.'));
   document.title=sourceCitation(selected,chapterDirectory,workTitles)+' · 人文';
   const context={work_id:chapter.work_id,book_id:chapter.book_id,chapter_id:chapter.id,reading_layout:!!chapter.reading_layout};
-  const layout=chapterReadingLayout(chapter), paragraphHTML=p=>chapterParagraph(p,{},context,workTitles,referentInterpretations(chapter,p.id)+crossChapterReferences(chapter,p.id,volumeDirectory));
+  const layout=chapterReadingLayout(chapter);
+  const paragraphHTML=p=>chapterParagraph(p,{},context,workTitles,
+    facsimilePageLinks(chapter.source,p.source_position)+referentInterpretations(chapter,p.id)+crossChapterReferences(chapter,p.id,volumeDirectory));
   const readingHTML=layout.primary.map(paragraphHTML).join('')+layout.archival.map(({entry,paragraph})=>`<details class="corpus-archival-excerpt" data-archival-excerpt><summary>${h(entry.label)}</summary><p class="corpus-note">這是同一固定底本的歷史節引；主文已按原行展開，原錨點與引用保留。</p>${paragraphHTML(paragraph)}</details>`).join('');
   $('corpus-content').innerHTML=`<p class="eyebrow">${h(work.title)} · ${h(selected.book_title)}</p><h1>${h(sourceCitation(selected,chapterDirectory,workTitles))}</h1><p class="corpus-note volume-selection-scope">${ui('Selected scope')}: ${h(chapter.title)}</p><p class="corpus-note" data-source-scope>${h(chapter.source.extent)}</p><p class="corpus-note">${ui('Source text and identity review remain in progress.')}</p><p class="corpus-note">${ui('Names are underlined. Hover, focus or tap to read the person profile and family; follow links to other chapters.')}</p><nav class="chapter-pagination">${external(chapter.source.permalink,'Fixed source version')}<a href="${h(selected.path)}">${ui('Download chapter JSON')}</a></nav><details class="corpus-sources"><summary>${ui('Source & edition')}</summary><p>${h(chapter.source.rights)}</p><p>${h(chapter.source.normalization?.note || '')}</p><p>${h(chapter.source.normalization?.extraction_note || '')}</p><p><code>${h(chapter.id)}</code> · <code>${h(chapter.work_id)}</code> · <code>${h(chapter.book_id)}</code></p></details>${commentaryControls(chapter)}<article class="corpus-text" data-chapter-id="${h(chapter.id)}">${readingHTML}</article>`;
   removeCards=bindPersonCards($('corpus-content'));
