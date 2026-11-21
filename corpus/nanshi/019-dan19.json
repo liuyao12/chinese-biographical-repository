@@ -7,87 +7,1570 @@
   "source_id": "s-nanshi-019-dan19-ws1531762",
   "title": "謝晦傳附謝澹",
   "source": {
-    "title": "南史卷19·謝晦傳附謝澹",
+    "title": "南史卷十九·謝晦傳附謝澹",
     "provider": "Wikisource",
     "url": "https://zh.wikisource.org/w/index.php?title=南史/卷19&oldid=1531762",
     "permalink": "https://zh.wikisource.org/w/index.php?title=南史/卷19&oldid=1531762",
     "revision_id": 1531762,
-    "accessed_on": "2026-11-19",
-    "edition": "維基文庫固定數位見證；所據刻本待核，未核武英殿本。",
-    "extent": "謝晦傳附謝澹的指定句段，用於親屬、身份、任官及紀年查核。",
+    "accessed_on": "2026-11-20",
+    "edition": "維基文庫固定數位見證，所據刻本待核。另據國圖乾隆四年武英殿本卷十九葉七上下指定欄比對，見本篇校讀記錄。",
+    "extent": "謝澹附傳四段，止於謝璞小題之前。",
     "text_scope": "partial_chapter",
     "image_verified": false,
     "review_status": "text_checked",
     "license_url": "https://creativecommons.org/licenses/by-sa/4.0/",
     "rights": "古代正文及維基文庫數位轉錄，保留見證歸屬。",
-    "section_locator": "謝晦傳附謝澹"
+    "section_locator": "===晦從叔 澹===",
+    "raw_path": "sources/nanshi/nanshi019-ws1531762.wikitext",
+    "raw_file_sha256": "2f1bbb6150c723a3839e2f5a81f1a7522e3414465b8d8a11e23a164b43368964",
+    "normalization": {
+      "character_conversion": {},
+      "extraction_note": "正文移除維基單字不轉換標記的界符，保留范、爲、尙等原字符。"
+    }
   },
   "annotation": {
-    "status": "in_progress",
-    "completion_note": "謝晦傳附謝澹的指定句段，用於親屬、身份、任官及紀年查核。",
+    "status": "reviewed",
+    "completion_note": "謝澹附傳四段，止於謝璞小題之前。已核數位原文、逐項人物、親屬與紀年。",
     "reviewer": "Codex（AI代理）",
     "human_reviewed": false,
-    "model": null
+    "model": null,
+    "fixed_wikisource_unit_ref": "source-evidence/nanshi019-dan-pu/019-dan19-unit.json",
+    "modern_collation_reports": [],
+    "person_reference_occurrences": [
+      {
+        "id": "c-nanshi-019-dan19:p001:r0006",
+        "start": 6,
+        "end": 8,
+        "surface": "從叔",
+        "quote": "晦從叔也",
+        "note": "澹為晦從叔。",
+        "referent_role": "third_person",
+        "person_id": "ph1_0cf_nxw",
+        "paragraph_id": "c-nanshi-019-dan19:p001"
+      },
+      {
+        "id": "c-nanshi-019-dan19:p001:r0010",
+        "start": 10,
+        "end": 11,
+        "surface": "祖",
+        "quote": "祖安",
+        "note": "原詞只說祖。",
+        "referent_role": "third_person",
+        "person_id": "aa6_83c_juy_B",
+        "paragraph_id": "c-nanshi-019-dan19:p001"
+      },
+      {
+        "id": "c-nanshi-019-dan19:p001:r0017",
+        "start": 17,
+        "end": 18,
+        "surface": "父",
+        "quote": "父瑤",
+        "note": "明父。",
+        "referent_role": "third_person",
+        "person_id": "6na_bet_3ch",
+        "paragraph_id": "c-nanshi-019-dan19:p001"
+      },
+      {
+        "id": "c-nanshi-019-dan19:p002:r0000",
+        "start": 0,
+        "end": 3,
+        "surface": "宋武帝",
+        "quote": "宋武帝將受禪",
+        "note": "受禪前後同一君主。",
+        "referent_role": "third_person",
+        "person_id": "3qs_nqa_ioa_AAA",
+        "paragraph_id": "c-nanshi-019-dan19:p002"
+      },
+      {
+        "id": "c-nanshi-019-dan19:p002:r0018",
+        "start": 18,
+        "end": 19,
+        "surface": "帝",
+        "quote": "進璽，帝曰",
+        "note": "有司議後答話。",
+        "referent_role": "third_person",
+        "person_id": "3qs_nqa_ioa_AAA",
+        "paragraph_id": "c-nanshi-019-dan19:p002"
+      },
+      {
+        "id": "c-nanshi-019-dan19:p002:r0038",
+        "start": 38,
+        "end": 39,
+        "surface": "帝",
+        "quote": "侍帝宴",
+        "note": "同宴者。",
+        "referent_role": "third_person",
+        "person_id": "3qs_nqa_ioa_AAA",
+        "paragraph_id": "c-nanshi-019-dan19:p002"
+      },
+      {
+        "id": "c-nanshi-019-dan19:p002:r0054",
+        "start": 54,
+        "end": 55,
+        "surface": "之",
+        "quote": "鄭鮮之欲按之",
+        "note": "按之的賓語為澹。",
+        "referent_role": "third_person",
+        "person_id": "ph1_0cf_nxw",
+        "paragraph_id": "c-nanshi-019-dan19:p002"
+      },
+      {
+        "id": "c-nanshi-019-dan19:p002:r0056",
+        "start": 56,
+        "end": 57,
+        "surface": "帝",
+        "quote": "帝以爲澹方外士",
+        "note": "稱澹方外士者。",
+        "referent_role": "third_person",
+        "person_id": "3qs_nqa_ioa_AAA",
+        "paragraph_id": "c-nanshi-019-dan19:p002"
+      },
+      {
+        "id": "c-nanshi-019-dan19:p002:r0069",
+        "start": 69,
+        "end": 70,
+        "surface": "之",
+        "quote": "不宜規矩繩之",
+        "note": "帝所論被繩者。",
+        "referent_role": "third_person",
+        "person_id": "ph1_0cf_nxw",
+        "paragraph_id": "c-nanshi-019-dan19:p002"
+      },
+      {
+        "id": "c-nanshi-019-dan19:p002:r0088",
+        "start": 88,
+        "end": 89,
+        "surface": "帝",
+        "quote": "醉謂帝曰",
+        "note": "醉謂之對象。",
+        "referent_role": "third_person",
+        "person_id": "3qs_nqa_ioa_AAA",
+        "paragraph_id": "c-nanshi-019-dan19:p002"
+      },
+      {
+        "id": "c-nanshi-019-dan19:p002:r0092",
+        "start": 92,
+        "end": 94,
+        "surface": "陛下",
+        "quote": "陛下用群臣",
+        "note": "澹向宋武帝面稱。",
+        "referent_role": "addressee",
+        "person_id": "3qs_nqa_ioa_AAA",
+        "paragraph_id": "c-nanshi-019-dan19:p002"
+      },
+      {
+        "id": "c-nanshi-019-dan19:p002:r0117",
+        "start": 117,
+        "end": 118,
+        "surface": "帝",
+        "quote": "帝大笑",
+        "note": "聽話者。",
+        "referent_role": "third_person",
+        "person_id": "3qs_nqa_ioa_AAA",
+        "paragraph_id": "c-nanshi-019-dan19:p002"
+      },
+      {
+        "id": "c-nanshi-019-dan19:p003:r0011",
+        "start": 11,
+        "end": 13,
+        "surface": "從子",
+        "quote": "從子晦爲荊州",
+        "note": "晦相對於澹的親稱。",
+        "referent_role": "third_person",
+        "person_id": "aa6_83c_juy_AAAA",
+        "paragraph_id": "c-nanshi-019-dan19:p003"
+      },
+      {
+        "id": "c-nanshi-019-dan19:p003:r0048",
+        "start": 48,
+        "end": 51,
+        "surface": "荀中郎",
+        "quote": "昔荀中郎年二十九",
+        "note": "用姓與職稱舉荀羨為過往先例；《宋書》同一對話可對。",
+        "referent_role": "third_person",
+        "person_id": "yoo_ox0_545_BABAAAB",
+        "paragraph_id": "c-nanshi-019-dan19:p003"
+      },
+      {
+        "id": "c-nanshi-019-dan19:p003:r0061",
+        "start": 61,
+        "end": 62,
+        "surface": "卿",
+        "quote": "卿比之已爲老矣",
+        "note": "澹稱受話人。",
+        "referent_role": "addressee",
+        "person_id": "aa6_83c_juy_AAAA",
+        "paragraph_id": "c-nanshi-019-dan19:p003"
+      },
+      {
+        "id": "c-nanshi-019-dan19:p003:r0063",
+        "start": 63,
+        "end": 64,
+        "surface": "之",
+        "quote": "卿比之已爲老矣",
+        "note": "與該例的荀中郎相比。",
+        "referent_role": "third_person",
+        "person_id": "yoo_ox0_545_BABAAAB",
+        "paragraph_id": "c-nanshi-019-dan19:p003"
+      },
+      {
+        "id": "c-nanshi-019-dan19:p004:r0003",
+        "start": 3,
+        "end": 5,
+        "surface": "從弟",
+        "quote": "澹從弟混",
+        "note": "澹的旁系同輩。",
+        "referent_role": "third_person",
+        "person_id": "aa6_83c_juy_BAC",
+        "paragraph_id": "c-nanshi-019-dan19:p004"
+      },
+      {
+        "id": "c-nanshi-019-dan19:p004:r0023",
+        "start": 23,
+        "end": 24,
+        "surface": "弟",
+        "quote": "每謂弟璞",
+        "note": "澹所稱之弟。",
+        "referent_role": "third_person",
+        "person_id": "aa6_83c_juy_B*A",
+        "paragraph_id": "c-nanshi-019-dan19:p004"
+      },
+      {
+        "id": "c-nanshi-019-dan19:p004:r0026",
+        "start": 26,
+        "end": 28,
+        "surface": "從子",
+        "quote": "從子瞻曰",
+        "note": "澹的旁系晚一輩。",
+        "referent_role": "third_person",
+        "person_id": "aa6_83c_juy_AAAD",
+        "paragraph_id": "c-nanshi-019-dan19:p004"
+      }
+    ],
+    "narrative_readings": [
+      {
+        "event_type": "agnatic_senior_relative",
+        "person_ids": [
+          "aa6_83c_juy_AAAA",
+          "ph1_0cf_nxw"
+        ],
+        "evidence": {
+          "work_id": "w-nanshi",
+          "book_id": "b-nanshi-019",
+          "chapter_id": "c-nanshi-019-dan19",
+          "source_id": "s-nanshi-019-dan19-ws1531762",
+          "paragraph_id": "c-nanshi-019-dan19:p001",
+          "quote": "晦從叔也。"
+        },
+        "source_term": "從叔",
+        "genealogical_distance": null
+      },
+      {
+        "event_type": "grandfather",
+        "person_ids": [
+          "ph1_0cf_nxw",
+          "aa6_83c_juy_B"
+        ],
+        "evidence": {
+          "work_id": "w-nanshi",
+          "book_id": "b-nanshi-019",
+          "chapter_id": "c-nanshi-019-dan19",
+          "source_id": "s-nanshi-019-dan19-ws1531762",
+          "paragraph_id": "c-nanshi-019-dan19:p001",
+          "quote": "祖安，晉太傅。"
+        },
+        "source_term": "祖",
+        "office_of": "aa6_83c_juy_B",
+        "office": "晉太傅"
+      },
+      {
+        "event_type": "father",
+        "person_ids": [
+          "ph1_0cf_nxw",
+          "6na_bet_3ch"
+        ],
+        "evidence": {
+          "work_id": "w-nanshi",
+          "book_id": "b-nanshi-019",
+          "chapter_id": "c-nanshi-019-dan19",
+          "source_id": "s-nanshi-019-dan19-ws1531762",
+          "paragraph_id": "c-nanshi-019-dan19:p001",
+          "quote": "父瑤，琅邪王友。"
+        },
+        "source_term": "父",
+        "office_of": "6na_bet_3ch",
+        "office": "琅邪王友"
+      },
+      {
+        "event_type": "friendship",
+        "person_ids": [
+          "ph1_0cf_nxw",
+          "ffc_ea1_a8f_A"
+        ],
+        "evidence": {
+          "work_id": "w-nanshi",
+          "book_id": "b-nanshi-019",
+          "chapter_id": "c-nanshi-019-dan19",
+          "source_id": "s-nanshi-019-dan19-ws1531762",
+          "paragraph_id": "c-nanshi-019-dan19:p001",
+          "quote": "澹任達仗氣，不營當世，與順陽范泰爲雲霞之交。"
+        },
+        "source_origin_of_friend": "順陽"
+      },
+      {
+        "event_type": "office",
+        "person_ids": [
+          "ph1_0cf_nxw"
+        ],
+        "evidence": {
+          "work_id": "w-nanshi",
+          "book_id": "b-nanshi-019",
+          "chapter_id": "c-nanshi-019-dan19",
+          "source_id": "s-nanshi-019-dan19-ws1531762",
+          "paragraph_id": "c-nanshi-019-dan19:p001",
+          "quote": "歷位尙書。"
+        },
+        "source_term": "尙書"
+      },
+      {
+        "event_type": "ceremonial_substitution",
+        "person_ids": [
+          "3qs_nqa_ioa_AAA",
+          "vd5_8v5_l9a",
+          "ph1_0cf_nxw"
+        ],
+        "evidence": {
+          "work_id": "w-nanshi",
+          "book_id": "b-nanshi-019",
+          "chapter_id": "c-nanshi-019-dan19",
+          "source_id": "s-nanshi-019-dan19-ws1531762",
+          "paragraph_id": "c-nanshi-019-dan19:p002",
+          "quote": "宋武帝將受禪，有司議使侍中劉叡進璽，帝曰：「此選當須人望。」乃使澹攝。"
+        },
+        "proposed_person": "vd5_8v5_l9a",
+        "acting_person": "ph1_0cf_nxw",
+        "office_attested_for": "vd5_8v5_l9a",
+        "office": "侍中",
+        "exact_date": null
+      },
+      {
+        "event_type": "banquet_remonstrance",
+        "person_ids": [
+          "ph1_0cf_nxw",
+          "3qs_nqa_ioa_AAA",
+          "gcu_93j_y97_A"
+        ],
+        "evidence": {
+          "work_id": "w-nanshi",
+          "book_id": "b-nanshi-019",
+          "chapter_id": "c-nanshi-019-dan19",
+          "source_id": "s-nanshi-019-dan19-ws1531762",
+          "paragraph_id": "c-nanshi-019-dan19:p002",
+          "quote": "澹嘗侍帝宴，酣飲大言無所屈，鄭鮮之欲按之，帝以爲澹方外士，不宜規矩繩之；然意不說，不以任寄。"
+        },
+        "date": null
+      },
+      {
+        "event_type": "banquet_quotation",
+        "person_ids": [
+          "ph1_0cf_nxw",
+          "3qs_nqa_ioa_AAA",
+          "fmh_dmt_cql"
+        ],
+        "evidence": {
+          "work_id": "w-nanshi",
+          "book_id": "b-nanshi-019",
+          "chapter_id": "c-nanshi-019-dan19",
+          "source_id": "s-nanshi-019-dan19-ws1531762",
+          "paragraph_id": "c-nanshi-019-dan19:p002",
+          "quote": "後復侍飲，醉謂帝曰：「陛下用群臣，但須委屈順者乃見貴，汲黯之徒無用也。」帝大笑。"
+        },
+        "speaker": "ph1_0cf_nxw",
+        "addressee": "3qs_nqa_ioa_AAA",
+        "historical_allusion": "fmh_dmt_cql"
+      },
+      {
+        "event_type": "office",
+        "person_ids": [
+          "ph1_0cf_nxw"
+        ],
+        "evidence": {
+          "work_id": "w-nanshi",
+          "book_id": "b-nanshi-019",
+          "chapter_id": "c-nanshi-019-dan19",
+          "source_id": "s-nanshi-019-dan19-ws1531762",
+          "paragraph_id": "c-nanshi-019-dan19:p003",
+          "quote": "景平中，累遷光祿大夫。"
+        },
+        "era_expression": "景平中",
+        "office": "光祿大夫",
+        "not_before": 423,
+        "not_after": 424,
+        "calendar": "chinese_civil"
+      },
+      {
+        "event_type": "senior_agnatic_kin",
+        "person_ids": [
+          "ph1_0cf_nxw",
+          "aa6_83c_juy_AAAA"
+        ],
+        "evidence": {
+          "work_id": "w-nanshi",
+          "book_id": "b-nanshi-019",
+          "chapter_id": "c-nanshi-019-dan19",
+          "source_id": "s-nanshi-019-dan19-ws1531762",
+          "paragraph_id": "c-nanshi-019-dan19:p003",
+          "quote": "從子晦爲荊州，將之鎮，詣澹別。"
+        },
+        "source_term": "從子",
+        "genealogical_distance": null
+      },
+      {
+        "event_type": "reported_age",
+        "person_ids": [
+          "aa6_83c_juy_AAAA",
+          "ph1_0cf_nxw"
+        ],
+        "evidence": {
+          "work_id": "w-nanshi",
+          "book_id": "b-nanshi-019",
+          "chapter_id": "c-nanshi-019-dan19",
+          "source_id": "s-nanshi-019-dan19-ws1531762",
+          "paragraph_id": "c-nanshi-019-dan19:p003",
+          "quote": "晦色自矜，澹問晦年，答曰三十五。"
+        },
+        "age_of": "aa6_83c_juy_AAAA",
+        "source_number": "三十五",
+        "years": 35,
+        "occasion": "赴荊州辭別",
+        "counting": "unspecified"
+      },
+      {
+        "event_type": "quoted_age_at_office",
+        "person_ids": [
+          "ph1_0cf_nxw",
+          "yoo_ox0_545_BABAAAB",
+          "aa6_83c_juy_AAAA"
+        ],
+        "evidence": {
+          "work_id": "w-nanshi",
+          "book_id": "b-nanshi-019",
+          "chapter_id": "c-nanshi-019-dan19",
+          "source_id": "s-nanshi-019-dan19-ws1531762",
+          "paragraph_id": "c-nanshi-019-dan19:p003",
+          "quote": "昔荀中郎年二十九爲北府都督，卿比之已爲老矣。"
+        },
+        "age_of": "yoo_ox0_545_BABAAAB",
+        "source_number": "二十九",
+        "years": 29,
+        "speaker": "ph1_0cf_nxw",
+        "addressee": "aa6_83c_juy_AAAA",
+        "source_office": "北府都督",
+        "counting": "unspecified"
+      },
+      {
+        "event_type": "offices_and_death",
+        "person_ids": [
+          "ph1_0cf_nxw"
+        ],
+        "evidence": {
+          "work_id": "w-nanshi",
+          "book_id": "b-nanshi-019",
+          "chapter_id": "c-nanshi-019-dan19",
+          "source_id": "s-nanshi-019-dan19-ws1531762",
+          "paragraph_id": "c-nanshi-019-dan19:p003",
+          "quote": "元嘉中，位侍中、特進、金紫光祿大夫，卒。"
+        },
+        "era_expression": "元嘉中",
+        "offices": [
+          "侍中",
+          "特進",
+          "金紫光祿大夫"
+        ],
+        "calendar": "chinese_civil",
+        "not_before": 424,
+        "not_after": 453,
+        "death_year": null,
+        "precision": "regnal_era",
+        "note": "以元嘉整個年號的外界保存「中」所述，未明年次，不把年號中點當卒年。"
+      },
+      {
+        "event_type": "agnatic_cousin",
+        "person_ids": [
+          "ph1_0cf_nxw",
+          "aa6_83c_juy_BAC",
+          "a59_2c3_a2e"
+        ],
+        "evidence": {
+          "work_id": "w-nanshi",
+          "book_id": "b-nanshi-019",
+          "chapter_id": "c-nanshi-019-dan19",
+          "source_id": "s-nanshi-019-dan19-ws1531762",
+          "paragraph_id": "c-nanshi-019-dan19:p004",
+          "quote": "初，澹從弟混與劉毅昵，澹常以爲憂，漸疏混，"
+        },
+        "younger": "aa6_83c_juy_BAC",
+        "source_term": "從弟",
+        "friendship": [
+          "aa6_83c_juy_BAC",
+          "a59_2c3_a2e"
+        ],
+        "note": "初字返敘。"
+      },
+      {
+        "event_type": "family_speech",
+        "person_ids": [
+          "ph1_0cf_nxw",
+          "aa6_83c_juy_B*A",
+          "aa6_83c_juy_AAAD",
+          "aa6_83c_juy_BAC"
+        ],
+        "evidence": {
+          "work_id": "w-nanshi",
+          "book_id": "b-nanshi-019",
+          "chapter_id": "c-nanshi-019-dan19",
+          "source_id": "s-nanshi-019-dan19-ws1531762",
+          "paragraph_id": "c-nanshi-019-dan19:p004",
+          "quote": "每謂弟璞、從子瞻曰：「益壽此性，終當破家。」"
+        },
+        "addressees": [
+          "aa6_83c_juy_B*A",
+          "aa6_83c_juy_AAAD"
+        ],
+        "nickname": "益壽",
+        "nickname_of": "aa6_83c_juy_BAC"
+      },
+      {
+        "event_type": "execution_and_exemption",
+        "person_ids": [
+          "aa6_83c_juy_BAC",
+          "ph1_0cf_nxw"
+        ],
+        "evidence": {
+          "work_id": "w-nanshi",
+          "book_id": "b-nanshi-019",
+          "chapter_id": "c-nanshi-019-dan19",
+          "source_id": "s-nanshi-019-dan19-ws1531762",
+          "paragraph_id": "c-nanshi-019-dan19:p004",
+          "quote": "混尋見誅，朝廷以澹先言，故不及禍。"
+        },
+        "executed": "aa6_83c_juy_BAC",
+        "exempted": "ph1_0cf_nxw",
+        "date": null,
+        "note": "仍屬「初」回敘，沒有元嘉年下的日期。"
+      }
+    ],
+    "lexical_readings": [
+      {
+        "paragraph_id": "c-nanshi-019-dan19:p001",
+        "start": 20,
+        "end": 23,
+        "surface": "琅邪王",
+        "quote": "琅邪王友",
+        "note": "官名組成；此句未明該王名。"
+      },
+      {
+        "paragraph_id": "c-nanshi-019-dan19:p001",
+        "start": 44,
+        "end": 45,
+        "surface": "之",
+        "quote": "雲霞之交",
+        "note": "結構助詞。"
+      },
+      {
+        "paragraph_id": "c-nanshi-019-dan19:p002",
+        "start": 26,
+        "end": 28,
+        "surface": "人望",
+        "quote": "此選當須人望",
+        "note": "指聲望或有人望者，不另補一人。"
+      },
+      {
+        "paragraph_id": "c-nanshi-019-dan19:p003",
+        "start": 19,
+        "end": 20,
+        "surface": "之",
+        "quote": "將之鎮",
+        "note": "往、赴，非回指。"
+      },
+      {
+        "paragraph_id": "c-nanshi-019-dan19:p004",
+        "start": 34,
+        "end": 35,
+        "surface": "此",
+        "quote": "益壽此性",
+        "note": "此性，指其性格。"
+      }
+    ],
+    "age_assertions": [
+      {
+        "id": "age-nanshi019-answer",
+        "person_id": "aa6_83c_juy_AAAA",
+        "value": 35,
+        "source_number": "三十五",
+        "source_term": "答曰三十五",
+        "unit": "source_age_years",
+        "counting": "unspecified_source_age",
+        "birth_year": null,
+        "status": "source_attested",
+        "date_expression": null,
+        "age_context": {
+          "kind": "during_life"
+        },
+        "reported_dialogue": {
+          "role": "answer",
+          "speaker_mention_id": "c-nanshi-019-dan19:p003:m0033"
+        },
+        "evidence": [
+          {
+            "work_id": "w-nanshi",
+            "book_id": "b-nanshi-019",
+            "chapter_id": "c-nanshi-019-dan19",
+            "source_id": "s-nanshi-019-dan19-ws1531762",
+            "paragraph_id": "c-nanshi-019-dan19:p003",
+            "quote": "景平中，累遷光祿大夫。從子晦爲荊州，將之鎮，詣澹別。晦色自矜，澹問晦年，答曰三十五。澹笑曰：「昔荀中郎年二十九爲北府都督，卿比之已爲老矣。」晦色甚愧。元嘉中，位侍中、特進、金紫光祿大夫，卒。",
+            "person_mention_id": "c-nanshi-019-dan19:p003:m0033"
+          }
+        ],
+        "interpretation_note": "謝晦答澹所問之年，為赴鎮時自報。",
+        "reviewer": "Codex（AI代理）",
+        "human_reviewed": false,
+        "model": null
+      },
+      {
+        "id": "age-nanshi019-recollection",
+        "person_id": "yoo_ox0_545_BABAAAB",
+        "value": 29,
+        "source_number": "二十九",
+        "source_term": "年二十九",
+        "unit": "source_age_years",
+        "counting": "unspecified_source_age",
+        "birth_year": null,
+        "status": "source_attested",
+        "date_expression": null,
+        "age_context": {
+          "kind": "during_life"
+        },
+        "reported_dialogue": {
+          "role": "recollection",
+          "speaker_mention_id": "c-nanshi-019-dan19:p003:m0042"
+        },
+        "evidence": [
+          {
+            "work_id": "w-nanshi",
+            "book_id": "b-nanshi-019",
+            "chapter_id": "c-nanshi-019-dan19",
+            "source_id": "s-nanshi-019-dan19-ws1531762",
+            "paragraph_id": "c-nanshi-019-dan19:p003",
+            "quote": "景平中，累遷光祿大夫。從子晦爲荊州，將之鎮，詣澹別。晦色自矜，澹問晦年，答曰三十五。澹笑曰：「昔荀中郎年二十九爲北府都督，卿比之已爲老矣。」晦色甚愧。元嘉中，位侍中、特進、金紫光祿大夫，卒。",
+            "person_reference_id": "c-nanshi-019-dan19:p003:r0048"
+          }
+        ],
+        "interpretation_note": "謝澹回述荀中郎先例；所報年屬荀羨。",
+        "reviewer": "Codex（AI代理）",
+        "human_reviewed": false,
+        "model": null
+      }
+    ],
+    "source_reading_cases": [
+      {
+        "id": "reading-nanshi019-xiehui-ages",
+        "kind": "parallel_reported_age",
+        "person_id": "aa6_83c_juy_AAAA",
+        "paragraph_id": "c-nanshi-019-dan19:p003",
+        "source_quote": "澹問晦年，答曰三十五。",
+        "source_age": 35,
+        "parallel_evidence": [
+          {
+            "work_id": "w-songshu",
+            "book_id": "b-songshu-044",
+            "chapter_id": "c-songshu-044-wyd1739-xiehui",
+            "paragraph_id": "c-songshu-044-wyd1739-xiehui:p003",
+            "source_id": "s-songshu-044-wyd1739-xiehui",
+            "edition": "Commons導入NLC著錄武英殿清乾隆4年[1739]；親見卷首乾隆四年校刊",
+            "permalink": "https://commons.wikimedia.org/w/index.php?title=File:NLC892-411999017142-12779_%E4%BA%8C%E5%8D%81%E5%9B%9B%E5%8F%B2_%E7%AC%AC144%E5%86%8A.pdf&oldid=979637198",
+            "quote": "將之鎮詣從叔光祿大夫澹別澹問晦年晦答曰三十三澹笑曰昔荀中郎年二十七為北府都督卿比之已為老矣晦有愧色"
+          }
+        ],
+        "parallel_dialogue_age": 33,
+        "preferred_age": null,
+        "rationale": "各書同一問答分存，未定何數為確。",
+        "human_reviewed": false
+      },
+      {
+        "id": "reading-nanshi019-xunxian-ages",
+        "kind": "parallel_reported_age",
+        "person_id": "yoo_ox0_545_BABAAAB",
+        "paragraph_id": "c-nanshi-019-dan19:p003",
+        "source_quote": "昔荀中郎年二十九爲北府都督",
+        "source_age": 29,
+        "parallel_evidence": [
+          {
+            "work_id": "w-songshu",
+            "book_id": "b-songshu-044",
+            "chapter_id": "c-songshu-044-wyd1739-xiehui",
+            "paragraph_id": "c-songshu-044-wyd1739-xiehui:p003",
+            "source_id": "s-songshu-044-wyd1739-xiehui",
+            "edition": "Commons導入NLC著錄武英殿清乾隆4年[1739]；親見卷首乾隆四年校刊",
+            "permalink": "https://commons.wikimedia.org/w/index.php?title=File:NLC892-411999017142-12779_%E4%BA%8C%E5%8D%81%E5%9B%9B%E5%8F%B2_%E7%AC%AC144%E5%86%8A.pdf&oldid=979637198",
+            "quote": "將之鎮詣從叔光祿大夫澹別澹問晦年晦答曰三十三澹笑曰昔荀中郎年二十七為北府都督卿比之已為老矣晦有愧色"
+          },
+          {
+            "work_id": "w-jinshu",
+            "book_id": "b-jinshu-075",
+            "chapter_id": "c-jinshu-075-xunsong-families",
+            "paragraph_id": "c-jinshu-075-xunsong-families:xunxian-offices:p001",
+            "source_id": "s-jinshu-075-xunsong-families",
+            "edition": "維基文庫數位轉錄，底本影像未核",
+            "permalink": "https://zh.wikisource.org/w/index.php?title=晉書/卷075&oldid=2645530",
+            "quote": "除北中郎將、徐州刺史、監徐兗二州揚州之晉陵諸軍事、假節。殷浩以羨在事有能名，故居以重任。時年二十八，中興方伯，未有如羨之少者。"
+          }
+        ],
+        "parallel_dialogue_age": 27,
+        "preferred_age": null,
+        "rationale": "各書同一問答分存，未定何數為確。荀羨本傳另於授官敘事稱二十八。",
+        "human_reviewed": false
+      },
+      {
+        "id": "nanshi019-wyd-dan-zi",
+        "kind": "witness_collation",
+        "person_id": "ph1_0cf_nxw",
+        "paragraph_id": "c-nanshi-019-dan19:p001",
+        "source_quote": "澹字景恆，晦從叔也。",
+        "source_review": "source-evidence/nanshi019-dan-pu/wuyingdian-folios.json",
+        "reading": "澹字景恒晦從叔也",
+        "reference": "清乾隆四年武英殿刊《二十四史》本《南史》第246冊",
+        "pdf_page": 8,
+        "half": "左",
+        "columns_from_right": [
+          5
+        ],
+        "url": "https://upload.wikimedia.org/wikipedia/commons/2/25/NLC892-411999017142-12360_%E4%BA%8C%E5%8D%81%E5%9B%9B%E5%8F%B2_%E7%AC%AC246%E5%86%8A.pdf#page=8",
+        "note": "葉七上，版刻作「恒」，固定數位本作「恆」。",
+        "human_reviewed": false
+      },
+      {
+        "id": "nanshi019-wyd-dan-father",
+        "kind": "witness_collation",
+        "person_id": "ph1_0cf_nxw",
+        "paragraph_id": "c-nanshi-019-dan19:p001",
+        "source_quote": "祖安，晉太傅。父瑤，琅邪王友。",
+        "source_review": "source-evidence/nanshi019-dan-pu/wuyingdian-folios.json",
+        "reading": "祖安晉太傅父瑤琅邪王友",
+        "reference": "清乾隆四年武英殿刊《二十四史》本《南史》第246冊",
+        "pdf_page": 8,
+        "half": "左",
+        "columns_from_right": [
+          5
+        ],
+        "url": "https://upload.wikimedia.org/wikipedia/commons/2/25/NLC892-411999017142-12360_%E4%BA%8C%E5%8D%81%E5%9B%9B%E5%8F%B2_%E7%AC%AC246%E5%86%8A.pdf#page=8",
+        "note": "祖安與父瑤同見一欄。",
+        "human_reviewed": false
+      },
+      {
+        "id": "nanshi019-wyd-hui-age",
+        "kind": "witness_collation",
+        "person_id": "aa6_83c_juy_AAAA",
+        "paragraph_id": "c-nanshi-019-dan19:p003",
+        "source_quote": "晦年，答曰三十五",
+        "source_review": "source-evidence/nanshi019-dan-pu/wuyingdian-folios.json",
+        "reading": "晦年答曰三十五",
+        "reference": "清乾隆四年武英殿刊《二十四史》本《南史》第246冊",
+        "pdf_page": 9,
+        "half": "右",
+        "columns_from_right": [
+          3
+        ],
+        "url": "https://upload.wikimedia.org/wikipedia/commons/2/25/NLC892-411999017142-12360_%E4%BA%8C%E5%8D%81%E5%9B%9B%E5%8F%B2_%E7%AC%AC246%E5%86%8A.pdf#page=9",
+        "note": "葉七下所見答者之數。",
+        "human_reviewed": false
+      },
+      {
+        "id": "nanshi019-wyd-xun-age",
+        "kind": "witness_collation",
+        "person_id": "yoo_ox0_545_BABAAAB",
+        "paragraph_id": "c-nanshi-019-dan19:p003",
+        "source_quote": "年二十九爲北府都督",
+        "source_review": "source-evidence/nanshi019-dan-pu/wuyingdian-folios.json",
+        "reading": "年二十九為北府都督",
+        "reference": "清乾隆四年武英殿刊《二十四史》本《南史》第246冊",
+        "pdf_page": 9,
+        "half": "右",
+        "columns_from_right": [
+          3,
+          4
+        ],
+        "url": "https://upload.wikimedia.org/wikipedia/commons/2/25/NLC892-411999017142-12360_%E4%BA%8C%E5%8D%81%E5%9B%9B%E5%8F%B2_%E7%AC%AC246%E5%86%8A.pdf#page=9",
+        "note": "葉七下所見引述之數，與《宋書》謝晦傳的二十七分錄。",
+        "human_reviewed": false
+      },
+      {
+        "id": "nanshi019-wyd-pu-brother",
+        "kind": "witness_collation",
+        "person_id": "aa6_83c_juy_B*A",
+        "paragraph_id": "c-nanshi-019-dan19:p004",
+        "source_quote": "每謂弟璞、從子瞻曰",
+        "source_review": "source-evidence/nanshi019-dan-pu/wuyingdian-folios.json",
+        "reading": "每謂弟璞從子瞻曰",
+        "reference": "清乾隆四年武英殿刊《二十四史》本《南史》第246冊",
+        "pdf_page": 9,
+        "half": "右",
+        "columns_from_right": [
+          6
+        ],
+        "url": "https://upload.wikimedia.org/wikipedia/commons/2/25/NLC892-411999017142-12360_%E4%BA%8C%E5%8D%81%E5%9B%9B%E5%8F%B2_%E7%AC%AC246%E5%86%8A.pdf#page=9",
+        "note": "照版比對「璞」及稱弟。",
+        "human_reviewed": false
+      }
+    ]
   },
   "paragraphs": [
     {
       "id": "c-nanshi-019-dan19:p001",
-      "text": "澹字景恆，晦從叔也。祖安，晉太傅。父瑤，琅邪王友。",
+      "text": "澹字景恆，晦從叔也。祖安，晉太傅。父瑤，琅邪王友。澹任達仗氣，不營當世，與順陽范泰爲雲霞之交。歷位尙書。",
       "text_layer": "received_chapter",
-      "annotation_status": "in_progress",
+      "annotation_status": "reviewed",
       "mentions": [
         {
           "id": "c-nanshi-019-dan19:p001:m0000",
           "start": 0,
           "end": 1,
           "surface": "澹",
-          "kind": "person",
           "person_id": "ph1_0cf_nxw",
-          "identification_status": "contextual_provisional",
-          "interpretation_note": "來源明該弟澹，劉裕封柴桑侯奉安祀，後兼太尉與王謐奉冊；只此明文身份。既有謝琰從兄護軍淡（6f2_43f_c93）字形與世代角色不同，無平行原證不得自動合。 顯示姓名謝澹依原生姓名構件name-jin079-xie-dan-contextual；原文單稱及各來源別名保留，推姓資格以該記錄為準。"
+          "kind": "person",
+          "status": "contextual_provisional",
+          "interpretation_note": "傳首名。"
         },
         {
           "id": "c-nanshi-019-dan19:p001:m0002",
           "start": 2,
           "end": 4,
           "surface": "景恆",
-          "kind": "person",
           "person_id": "ph1_0cf_nxw",
-          "identification_status": "contextual_provisional",
-          "interpretation_note": "來源明該弟澹，劉裕封柴桑侯奉安祀，後兼太尉與王謐奉冊；只此明文身份。既有謝琰從兄護軍淡（6f2_43f_c93）字形與世代角色不同，無平行原證不得自動合。 顯示姓名謝澹依原生姓名構件name-jin079-xie-dan-contextual；原文單稱及各來源別名保留，推姓資格以該記錄為準。"
+          "kind": "person",
+          "status": "contextual_provisional",
+          "interpretation_note": "澹之字。"
         },
         {
           "id": "c-nanshi-019-dan19:p001:m0005",
           "start": 5,
           "end": 6,
           "surface": "晦",
-          "kind": "person",
           "person_id": "aa6_83c_juy_AAAA",
-          "identification_status": "contextual_provisional",
-          "interpretation_note": "固定宋書選段上下文所見人物；不得由名字推排行、由任官推婚姻、由照顧推收養，未知事項另核。"
+          "kind": "person",
+          "status": "contextual_provisional",
+          "interpretation_note": "謝晦的從叔為澹。"
         },
         {
           "id": "c-nanshi-019-dan19:p001:m0011",
           "start": 11,
           "end": 12,
           "surface": "安",
-          "kind": "person",
           "person_id": "aa6_83c_juy_B",
-          "identification_status": "contextual_provisional",
-          "interpretation_note": "固定晉書正文語境所載；比擬對象只作比擬，未知本名、父祖不補。"
+          "kind": "person",
+          "status": "contextual_provisional",
+          "interpretation_note": "澹之祖。"
         },
         {
           "id": "c-nanshi-019-dan19:p001:m0018",
           "start": 18,
           "end": 19,
           "surface": "瑤",
-          "kind": "person",
           "person_id": "6na_bet_3ch",
-          "identification_status": "contextual_provisional",
-          "interpretation_note": "來源內安有二子瑤琰後，緊接瑤襲爵、子該；按完整敘事主語辨識謝安子瑤。無既存同身份原生錨點，新增來源局部身份，不藉此補排行或家族ID。 顯示姓名謝瑤依原生姓名構件name-jin079-xie-yao-contextual；原文單稱及各來源別名保留，推姓資格以該記錄為準。"
+          "kind": "person",
+          "status": "contextual_provisional",
+          "interpretation_note": "澹之父。"
+        },
+        {
+          "id": "c-nanshi-019-dan19:p001:m0025",
+          "start": 25,
+          "end": 26,
+          "surface": "澹",
+          "person_id": "ph1_0cf_nxw",
+          "kind": "person",
+          "status": "contextual_provisional",
+          "interpretation_note": "承傳首。"
+        },
+        {
+          "id": "c-nanshi-019-dan19:p001:m0039",
+          "start": 39,
+          "end": 41,
+          "surface": "范泰",
+          "person_id": "ffc_ea1_a8f_A",
+          "kind": "person",
+          "status": "contextual_provisional",
+          "interpretation_note": "順陽范泰，與澹為友。"
         }
-      ]
+      ],
+      "source_position": {
+        "raw_start": 3355,
+        "raw_end": 3411,
+        "raw_character_offsets": [
+          3355,
+          3356,
+          3357,
+          3358,
+          3359,
+          3360,
+          3361,
+          3362,
+          3363,
+          3364,
+          3365,
+          3366,
+          3367,
+          3368,
+          3369,
+          3370,
+          3371,
+          3372,
+          3373,
+          3374,
+          3375,
+          3376,
+          3377,
+          3378,
+          3379,
+          3380,
+          3381,
+          3382,
+          3383,
+          3384,
+          3385,
+          3386,
+          3387,
+          3388,
+          3389,
+          3390,
+          3391,
+          3392,
+          3393,
+          3396,
+          3399,
+          3400,
+          3401,
+          3402,
+          3403,
+          3404,
+          3405,
+          3406,
+          3407,
+          3408,
+          3409,
+          3410
+        ],
+        "revision_id": 1531762,
+        "source_layer": "received_biography",
+        "projection_sha256": "cad695851a58de466ceb36a0def26678c7518cde119b7148e53b8c2d1e6a7ba8"
+      }
+    },
+    {
+      "id": "c-nanshi-019-dan19:p002",
+      "text": "宋武帝將受禪，有司議使侍中劉叡進璽，帝曰：「此選當須人望。」乃使澹攝。澹嘗侍帝宴，酣飲大言無所屈，鄭鮮之欲按之，帝以爲澹方外士，不宜規矩繩之；然意不說，不以任寄。後復侍飲，醉謂帝曰：「陛下用群臣，但須委屈順者乃見貴，汲黯之徒無用也。」帝大笑。",
+      "text_layer": "received_chapter",
+      "annotation_status": "reviewed",
+      "mentions": [
+        {
+          "id": "c-nanshi-019-dan19:p002:u0007",
+          "start": 7,
+          "end": 9,
+          "surface": "有司",
+          "person_id": null,
+          "kind": "unresolved",
+          "status": "unresolved",
+          "interpretation_note": "議進璽者未具名。"
+        },
+        {
+          "id": "c-nanshi-019-dan19:p002:m0013",
+          "start": 13,
+          "end": 15,
+          "surface": "劉叡",
+          "person_id": "vd5_8v5_l9a",
+          "kind": "person",
+          "status": "contextual_provisional",
+          "interpretation_note": "有司之議所擬進璽者，實際改由澹攝。"
+        },
+        {
+          "id": "c-nanshi-019-dan19:p002:m0032",
+          "start": 32,
+          "end": 33,
+          "surface": "澹",
+          "person_id": "ph1_0cf_nxw",
+          "kind": "person",
+          "status": "contextual_provisional",
+          "interpretation_note": "受命攝行進璽。"
+        },
+        {
+          "id": "c-nanshi-019-dan19:p002:m0035",
+          "start": 35,
+          "end": 36,
+          "surface": "澹",
+          "person_id": "ph1_0cf_nxw",
+          "kind": "person",
+          "status": "contextual_provisional",
+          "interpretation_note": "侍宴者。"
+        },
+        {
+          "id": "c-nanshi-019-dan19:p002:m0049",
+          "start": 49,
+          "end": 52,
+          "surface": "鄭鮮之",
+          "person_id": "gcu_93j_y97_A",
+          "kind": "person",
+          "status": "contextual_provisional",
+          "interpretation_note": "欲按澹者。"
+        },
+        {
+          "id": "c-nanshi-019-dan19:p002:m0059",
+          "start": 59,
+          "end": 60,
+          "surface": "澹",
+          "person_id": "ph1_0cf_nxw",
+          "kind": "person",
+          "status": "contextual_provisional",
+          "interpretation_note": "被稱方外士。"
+        },
+        {
+          "id": "c-nanshi-019-dan19:p002:u0095",
+          "start": 95,
+          "end": 97,
+          "surface": "群臣",
+          "person_id": null,
+          "kind": "unresolved",
+          "status": "unresolved",
+          "interpretation_note": "泛指眾臣。"
+        },
+        {
+          "id": "c-nanshi-019-dan19:p002:u0100",
+          "start": 100,
+          "end": 104,
+          "surface": "委屈順者",
+          "person_id": null,
+          "kind": "unresolved",
+          "status": "unresolved",
+          "interpretation_note": "以行止泛指受重用者。"
+        },
+        {
+          "id": "c-nanshi-019-dan19:p002:m0108",
+          "start": 108,
+          "end": 110,
+          "surface": "汲黯",
+          "person_id": "fmh_dmt_cql",
+          "kind": "person",
+          "status": "contextual_provisional",
+          "interpretation_note": "澹引作敢直言者之例。"
+        },
+        {
+          "id": "c-nanshi-019-dan19:p002:u0110",
+          "start": 110,
+          "end": 112,
+          "surface": "之徒",
+          "person_id": null,
+          "kind": "unresolved",
+          "status": "unresolved",
+          "interpretation_note": "類稱，非汲黯的特定門人。"
+        }
+      ],
+      "source_position": {
+        "raw_start": 3413,
+        "raw_end": 3534,
+        "raw_character_offsets": [
+          3413,
+          3414,
+          3415,
+          3416,
+          3417,
+          3418,
+          3419,
+          3420,
+          3421,
+          3422,
+          3423,
+          3424,
+          3425,
+          3426,
+          3427,
+          3428,
+          3429,
+          3430,
+          3431,
+          3432,
+          3433,
+          3434,
+          3435,
+          3436,
+          3437,
+          3438,
+          3439,
+          3440,
+          3441,
+          3442,
+          3443,
+          3444,
+          3445,
+          3446,
+          3447,
+          3448,
+          3449,
+          3450,
+          3451,
+          3452,
+          3453,
+          3454,
+          3455,
+          3456,
+          3457,
+          3458,
+          3459,
+          3460,
+          3461,
+          3462,
+          3463,
+          3464,
+          3465,
+          3466,
+          3467,
+          3468,
+          3469,
+          3470,
+          3471,
+          3472,
+          3473,
+          3474,
+          3475,
+          3476,
+          3477,
+          3478,
+          3479,
+          3480,
+          3481,
+          3482,
+          3483,
+          3484,
+          3485,
+          3486,
+          3487,
+          3488,
+          3489,
+          3490,
+          3491,
+          3492,
+          3493,
+          3494,
+          3495,
+          3496,
+          3497,
+          3498,
+          3499,
+          3500,
+          3501,
+          3502,
+          3503,
+          3504,
+          3505,
+          3506,
+          3507,
+          3508,
+          3509,
+          3510,
+          3511,
+          3512,
+          3513,
+          3514,
+          3515,
+          3516,
+          3517,
+          3518,
+          3519,
+          3520,
+          3521,
+          3522,
+          3523,
+          3524,
+          3525,
+          3526,
+          3527,
+          3528,
+          3529,
+          3530,
+          3531,
+          3532,
+          3533
+        ],
+        "revision_id": 1531762,
+        "source_layer": "received_biography",
+        "projection_sha256": "3ca00e18b9b6c9d986b5a0b6d3997459a7d1ea867c2fbd89dc910912d9c354a2"
+      }
+    },
+    {
+      "id": "c-nanshi-019-dan19:p003",
+      "text": "景平中，累遷光祿大夫。從子晦爲荊州，將之鎮，詣澹別。晦色自矜，澹問晦年，答曰三十五。澹笑曰：「昔荀中郎年二十九爲北府都督，卿比之已爲老矣。」晦色甚愧。元嘉中，位侍中、特進、金紫光祿大夫，卒。",
+      "text_layer": "received_chapter",
+      "annotation_status": "reviewed",
+      "mentions": [
+        {
+          "id": "c-nanshi-019-dan19:p003:m0013",
+          "start": 13,
+          "end": 14,
+          "surface": "晦",
+          "person_id": "aa6_83c_juy_AAAA",
+          "kind": "person",
+          "status": "contextual_provisional",
+          "interpretation_note": "赴鎮者。"
+        },
+        {
+          "id": "c-nanshi-019-dan19:p003:m0023",
+          "start": 23,
+          "end": 24,
+          "surface": "澹",
+          "person_id": "ph1_0cf_nxw",
+          "kind": "person",
+          "status": "contextual_provisional",
+          "interpretation_note": "晦辭別對象。"
+        },
+        {
+          "id": "c-nanshi-019-dan19:p003:m0026",
+          "start": 26,
+          "end": 27,
+          "surface": "晦",
+          "person_id": "aa6_83c_juy_AAAA",
+          "kind": "person",
+          "status": "contextual_provisional",
+          "interpretation_note": "與澹對話之前。"
+        },
+        {
+          "id": "c-nanshi-019-dan19:p003:m0031",
+          "start": 31,
+          "end": 32,
+          "surface": "澹",
+          "person_id": "ph1_0cf_nxw",
+          "kind": "person",
+          "status": "contextual_provisional",
+          "interpretation_note": "問者。"
+        },
+        {
+          "id": "c-nanshi-019-dan19:p003:m0033",
+          "start": 33,
+          "end": 34,
+          "surface": "晦",
+          "person_id": "aa6_83c_juy_AAAA",
+          "kind": "person",
+          "status": "contextual_provisional",
+          "interpretation_note": "答三十五者。"
+        },
+        {
+          "id": "c-nanshi-019-dan19:p003:m0042",
+          "start": 42,
+          "end": 43,
+          "surface": "澹",
+          "person_id": "ph1_0cf_nxw",
+          "kind": "person",
+          "status": "contextual_provisional",
+          "interpretation_note": "以下發言者。"
+        },
+        {
+          "id": "c-nanshi-019-dan19:p003:m0070",
+          "start": 70,
+          "end": 71,
+          "surface": "晦",
+          "person_id": "aa6_83c_juy_AAAA",
+          "kind": "person",
+          "status": "contextual_provisional",
+          "interpretation_note": "引語結束後之主語。"
+        }
+      ],
+      "source_position": {
+        "raw_start": 3536,
+        "raw_end": 3631,
+        "raw_character_offsets": [
+          3536,
+          3537,
+          3538,
+          3539,
+          3540,
+          3541,
+          3542,
+          3543,
+          3544,
+          3545,
+          3546,
+          3547,
+          3548,
+          3549,
+          3550,
+          3551,
+          3552,
+          3553,
+          3554,
+          3555,
+          3556,
+          3557,
+          3558,
+          3559,
+          3560,
+          3561,
+          3562,
+          3563,
+          3564,
+          3565,
+          3566,
+          3567,
+          3568,
+          3569,
+          3570,
+          3571,
+          3572,
+          3573,
+          3574,
+          3575,
+          3576,
+          3577,
+          3578,
+          3579,
+          3580,
+          3581,
+          3582,
+          3583,
+          3584,
+          3585,
+          3586,
+          3587,
+          3588,
+          3589,
+          3590,
+          3591,
+          3592,
+          3593,
+          3594,
+          3595,
+          3596,
+          3597,
+          3598,
+          3599,
+          3600,
+          3601,
+          3602,
+          3603,
+          3604,
+          3605,
+          3606,
+          3607,
+          3608,
+          3609,
+          3610,
+          3611,
+          3612,
+          3613,
+          3614,
+          3615,
+          3616,
+          3617,
+          3618,
+          3619,
+          3620,
+          3621,
+          3622,
+          3623,
+          3624,
+          3625,
+          3626,
+          3627,
+          3628,
+          3629,
+          3630
+        ],
+        "revision_id": 1531762,
+        "source_layer": "received_biography",
+        "projection_sha256": "d85262ecf59650eef64d2a379bc91f53c7c33c78629a78dccf8731db247dd751"
+      }
+    },
+    {
+      "id": "c-nanshi-019-dan19:p004",
+      "text": "初，澹從弟混與劉毅昵，澹常以爲憂，漸疏混，每謂弟璞、從子瞻曰：「益壽此性，終當破家。」混尋見誅，朝廷以澹先言，故不及禍。",
+      "text_layer": "received_chapter",
+      "annotation_status": "reviewed",
+      "mentions": [
+        {
+          "id": "c-nanshi-019-dan19:p004:m0002",
+          "start": 2,
+          "end": 3,
+          "surface": "澹",
+          "person_id": "ph1_0cf_nxw",
+          "kind": "person",
+          "status": "contextual_provisional",
+          "interpretation_note": "「初」回敘。"
+        },
+        {
+          "id": "c-nanshi-019-dan19:p004:m0005",
+          "start": 5,
+          "end": 6,
+          "surface": "混",
+          "person_id": "aa6_83c_juy_BAC",
+          "kind": "person",
+          "status": "contextual_provisional",
+          "interpretation_note": "澹之從弟，後文小字益壽。"
+        },
+        {
+          "id": "c-nanshi-019-dan19:p004:m0007",
+          "start": 7,
+          "end": 9,
+          "surface": "劉毅",
+          "person_id": "a59_2c3_a2e",
+          "kind": "person",
+          "status": "contextual_provisional",
+          "interpretation_note": "與謝混善，宋武帝時護軍劉毅，非西晉答武帝問孝者。"
+        },
+        {
+          "id": "c-nanshi-019-dan19:p004:m0011",
+          "start": 11,
+          "end": 12,
+          "surface": "澹",
+          "person_id": "ph1_0cf_nxw",
+          "kind": "person",
+          "status": "contextual_provisional",
+          "interpretation_note": "深憂者。"
+        },
+        {
+          "id": "c-nanshi-019-dan19:p004:m0019",
+          "start": 19,
+          "end": 20,
+          "surface": "混",
+          "person_id": "aa6_83c_juy_BAC",
+          "kind": "person",
+          "status": "contextual_provisional",
+          "interpretation_note": "澹漸疏之。"
+        },
+        {
+          "id": "c-nanshi-019-dan19:p004:m0024",
+          "start": 24,
+          "end": 25,
+          "surface": "璞",
+          "person_id": "aa6_83c_juy_B*A",
+          "kind": "person",
+          "status": "contextual_provisional",
+          "interpretation_note": "澹之弟，緊接有字景山附傳。"
+        },
+        {
+          "id": "c-nanshi-019-dan19:p004:m0028",
+          "start": 28,
+          "end": 29,
+          "surface": "瞻",
+          "person_id": "aa6_83c_juy_AAAD",
+          "kind": "person",
+          "status": "contextual_provisional",
+          "interpretation_note": "澹從子謝瞻。"
+        },
+        {
+          "id": "c-nanshi-019-dan19:p004:m0032",
+          "start": 32,
+          "end": 34,
+          "surface": "益壽",
+          "person_id": "aa6_83c_juy_BAC",
+          "kind": "person",
+          "status": "contextual_provisional",
+          "interpretation_note": "語中指混，《晉書》卷七十九明「益壽，混小字也」。"
+        },
+        {
+          "id": "c-nanshi-019-dan19:p004:m0043",
+          "start": 43,
+          "end": 44,
+          "surface": "混",
+          "person_id": "aa6_83c_juy_BAC",
+          "kind": "person",
+          "status": "contextual_provisional",
+          "interpretation_note": "見誅者。"
+        },
+        {
+          "id": "c-nanshi-019-dan19:p004:u0048",
+          "start": 48,
+          "end": 50,
+          "surface": "朝廷",
+          "person_id": null,
+          "kind": "unresolved",
+          "status": "unresolved",
+          "interpretation_note": "決定者為朝廷，句中未具名。"
+        },
+        {
+          "id": "c-nanshi-019-dan19:p004:m0051",
+          "start": 51,
+          "end": 52,
+          "surface": "澹",
+          "person_id": "ph1_0cf_nxw",
+          "kind": "person",
+          "status": "contextual_provisional",
+          "interpretation_note": "未受株連者。"
+        }
+      ],
+      "source_position": {
+        "raw_start": 3633,
+        "raw_end": 3693,
+        "raw_character_offsets": [
+          3633,
+          3634,
+          3635,
+          3636,
+          3637,
+          3638,
+          3639,
+          3640,
+          3641,
+          3642,
+          3643,
+          3644,
+          3645,
+          3646,
+          3647,
+          3648,
+          3649,
+          3650,
+          3651,
+          3652,
+          3653,
+          3654,
+          3655,
+          3656,
+          3657,
+          3658,
+          3659,
+          3660,
+          3661,
+          3662,
+          3663,
+          3664,
+          3665,
+          3666,
+          3667,
+          3668,
+          3669,
+          3670,
+          3671,
+          3672,
+          3673,
+          3674,
+          3675,
+          3676,
+          3677,
+          3678,
+          3679,
+          3680,
+          3681,
+          3682,
+          3683,
+          3684,
+          3685,
+          3686,
+          3687,
+          3688,
+          3689,
+          3690,
+          3691,
+          3692
+        ],
+        "revision_id": 1531762,
+        "source_layer": "received_biography",
+        "projection_sha256": "e6ee03d4fba1c6b696691bfe54d19f4bfe9b9bdc6958d21907a3e736adc3d8fe"
+      }
     }
   ],
-  "text_sha256": "37dd82007d21e68afdfc126ca495e63b200c1269887c1d3ce66250e099897a2d"
+  "text_sha256": "902a7dfb93e6fe2b77e097347403e3b28a921dc628021235c74609e40431dad0"
 }

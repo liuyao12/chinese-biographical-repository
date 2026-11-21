@@ -1279,7 +1279,11 @@ def _validate_uncached(root=ROOT):
                         for e in basis['evidence']:title_evidence(e)
                 if h['mode']=='posthumous_naming' or 'naming_basis' in h:
                     basis=h.get('naming_basis')
-                    if isinstance(basis, dict) and basis.get('kind') == 'named_recipient_after_death':
+                    if isinstance(basis, dict) and basis.get('kind') == 'named_jin079_family_death_award':
+                        try: from scripts.jin079_family_awards import valid as family_award_valid
+                        except ImportError: from jin079_family_awards import valid as family_award_valid
+                        valid = family_award_valid(h, paragraphs, mentions, gift_life_events)
+                    elif isinstance(basis, dict) and basis.get('kind') == 'named_recipient_after_death':
                         try:
                             from scripts.named_posthumous_naming import named_posthumous_naming_valid
                         except ImportError:
@@ -1809,6 +1813,12 @@ def _validate_uncached(root=ROOT):
                         except ImportError:
                             from congzhongbiao import valid as congzhongbiao_valid
                         check(congzhongbiao_valid(a, paragraphs, chapters, root), '從中表須有具名雙端與固定原文，不得補親等世代或父系路徑')
+                    elif qualifiers.get('kinship_basis') == 'address_to_named_sheng':
+                        try:
+                            from scripts.contextual_relations import addressed_sheng_valid
+                        except ImportError:
+                            from contextual_relations import addressed_sheng_valid
+                        check(addressed_sheng_valid(a, paragraphs), '其甥稱屬須綁定顧告者與受話者，不補母親長幼及具體親等')
                     elif qualifiers.get('kinship_basis') == 'explicit_weiqin_pair':
                         try:
                             from scripts.contextual_relations import weiqin_pair_valid
@@ -2050,7 +2060,13 @@ def _validate_uncached(root=ROOT):
             for age in chapter['annotation'].get('age_assertions', []):
                 check(age['id'] not in age_ids, '年齡記錄 ID 重複'); age_ids.add(age['id'])
                 number = age.get('source_number'); parsed = source_age_number(number)
-                if 'received_unit_age_binding' in age:
+                dialogue_anchor = None
+                if 'reported_dialogue' in age:
+                    try: from scripts.nanshi019_dialogue import age_anchor
+                    except ImportError: from nanshi019_dialogue import age_anchor
+                    dialogue_anchor = age_anchor(age, chapter)
+                    check(bool(dialogue_anchor), '引語報齡須綁實際答者或被引者')
+                elif 'received_unit_age_binding' in age:
                     try:from scripts.fixed_wikisource_units import unit_group_age_bound_valid
                     except ImportError:from fixed_wikisource_units import unit_group_age_bound_valid
                     check(unit_group_age_bound_valid(age, chapter, root, source_age_number), '具名群體年過須保各人、數詞與嚴格下界，不補生年或改卒齡')
@@ -2111,7 +2127,7 @@ def _validate_uncached(root=ROOT):
                     elif age.get('reporting_status') == 'direct_report':
                         check(age.get('value') is None and parsed is not None
                               and bounds == {'lower': parsed, 'lower_inclusive': False, 'upper': None, 'upper_inclusive': None}
-                              and age.get('source_term') in (str(number) + '餘歲', str(number) + '有餘歲', '年' + str(number) + '餘', '年出' + str(number) + '歲', '年出' + str(number) + '歳')
+                              and age.get('source_term') in (str(number) + '餘歲', str(number) + '有餘歲', '年' + str(number) + '餘', '時年已' + str(number) + '餘', '年出' + str(number) + '歲', '年出' + str(number) + '歳')
                               and age.get('source_qualification') is None and not age.get('report_group_id'),
                               '直接報齡餘歲須保存開放下界及原詞，不得補限定詞或傳聞分組')
                     else:
@@ -2158,7 +2174,7 @@ def _validate_uncached(root=ROOT):
                             from subject_continuation import prior_subject_valid
                         carried_age_subject = prior_subject_valid(evidence['context'], evidence, age['person_id'], chapter)
                         check(carried_age_subject, '來源年齡省略主語承接無效')
-                    check(carried_age_subject or bool(mention) and mention[1] == evidence['paragraph_id'] and mention[2]['person_id'] == age['person_id'], '來源年齡人物錨點不符')
+                    check(dialogue_anchor or carried_age_subject or bool(mention) and mention[1] == evidence['paragraph_id'] and mention[2]['person_id'] == age['person_id'], '來源年齡人物錨點不符')
                 if 'report_repetition_of' in age:
                     reports = chapter['annotation']['age_assertions']
                     target = next((r for r in reports[:reports.index(age)] if r['id'] == age['report_repetition_of']), None)
