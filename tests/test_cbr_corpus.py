@@ -1,9 +1,9 @@
 import importlib.util
 import json
 from pathlib import Path
-import shutil
 import tempfile
 import unittest
+from corpus_validation_fixture import copy_validation_inputs
 ROOT=Path(__file__).resolve().parents[1]
 spec=importlib.util.spec_from_file_location('corpus_validator',ROOT/'scripts/validate_corpus.py')
 v=importlib.util.module_from_spec(spec);spec.loader.exec_module(v)
@@ -11,16 +11,7 @@ class CorpusTests(unittest.TestCase):
     def setUp(self):
         self.tmp=tempfile.TemporaryDirectory();self.addCleanup(self.tmp.cleanup)
         self.root=Path(self.tmp.name)
-        for folder in ('registry','corpus','source-evidence'):shutil.copytree(ROOT/folder,self.root/folder)
-        shutil.copytree(ROOT/'data/historical-tables',self.root/'data/historical-tables')
-        # Source-scoped display choices bind records in the editorial name dataset.
-        (self.root/'data/corpus').mkdir(parents=True, exist_ok=True)
-        shutil.copy2(ROOT/'data/corpus/profile-names.json', self.root/'data/corpus/profile-names.json')
-        # Source-bound cross-chapter links require the registered volume directory.
-        shutil.copy2(ROOT/'data/corpus/chapter-directory.json', self.root/'data/corpus/chapter-directory.json')
-        # Source-bound claims need their complete fixed witnesses and date references.
-        shutil.copytree(ROOT/'sources', self.root/'sources')
-        shutil.copytree(ROOT/'data/works', self.root/'data/works')
+        copy_validation_inputs(ROOT, self.root)
     def change(self,path,fn):
         p=self.root/path;d=json.loads(p.read_text());fn(d);p.write_text(json.dumps(d,ensure_ascii=False))
     def test_work_mention_cannot_link_person(self):

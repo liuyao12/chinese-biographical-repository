@@ -9,7 +9,6 @@
     "會稽王道子",
     "道子",
     "琅邪王",
-    "明公",
     "會稽王司馬道子",
     "尊",
     "太傅"
@@ -256,6 +255,54 @@
       "period": "未定 → 未定"
     },
     {
+      "id": "th-nanshi021-wanghong-17-14",
+      "person_id": "dkn_ge4_286_AAAAAAAFA",
+      "title": "會稽王",
+      "kind": "royal_rank",
+      "mode": "attestation",
+      "attestations": [
+        {
+          "id": "th-nanshi021-wanghong-17-14:a",
+          "paragraph_id": "c-nanshi-021-wanghong:p002",
+          "start": 14,
+          "end": 17,
+          "surface": "會稽王",
+          "person_mention_id": "c-nanshi-021-wanghong:p002:m0017",
+          "usage": "narrative",
+          "date_expression": null
+        }
+      ],
+      "effective_period": {
+        "start": {
+          "status": "unknown",
+          "date_expression": null,
+          "evidence": []
+        },
+        "end": {
+          "status": "unknown",
+          "date_expression": null,
+          "evidence": []
+        }
+      },
+      "evidence": [
+        {
+          "work_id": "w-nanshi",
+          "book_id": "b-nanshi-021",
+          "chapter_id": "c-nanshi-021-wanghong",
+          "source_id": "s-nanshi-021-wanghong-ws1752646",
+          "paragraph_id": "c-nanshi-021-wanghong:p002",
+          "quote": "弘少好學，以清悟知名。弱冠爲會稽王道子驃騎主簿。珣頗好積聚，財物布在人間，及薨，弘悉燔券書，一不收責，其餘舊業，悉委諸弟。時內外多難，在喪者皆不得終其哀，唯弘徵召一無所就。",
+          "person_mention_id": "c-nanshi-021-wanghong:p002:m0017"
+        }
+      ],
+      "status": "source_attested",
+      "interpretation_note": "本句所載官名，任期無確切年月。",
+      "reviewer": "Codex（AI代理）",
+      "model": null,
+      "human_reviewed": false,
+      "period": "未定 → 未定"
+    },
+    {
       "id": "th-yu2-s045-17-dkn_ge4_286_AAAAAAAFA",
       "person_id": "dkn_ge4_286_AAAAAAAFA",
       "title": "太傅",
@@ -387,6 +434,51 @@
       "book_id": "b-nanshi-019",
       "chapter_id": "c-nanshi-019-xiehui",
       "source_id": "s-nanshi-019-xiehui-ws1531762",
+      "work_title": "南史"
+    },
+    {
+      "number": 21,
+      "category": "",
+      "title": "王弘傳",
+      "paragraph_id": "c-nanshi-021-wanghong:p002",
+      "count": 2,
+      "raw_count": 2,
+      "duplicate_count": 0,
+      "counting_policy": "independent_fixed_witness_occurrences",
+      "quote": "弘少好學，以清悟知名。弱冠爲會稽王道子驃騎主簿。珣頗好積聚，財物布在人間，及薨，弘悉燔券書，一不收責，其餘舊業，悉委諸弟。時內外多難，在喪者皆不得終其哀，唯弘徵召一無所就。",
+      "paragraph_ids": [
+        "c-nanshi-021-wanghong:p002",
+        "c-nanshi-021-wanghong:p003"
+      ],
+      "mention_ids": [
+        "c-nanshi-021-wanghong:p002:m0017",
+        "c-nanshi-021-wanghong:p003:m0007"
+      ],
+      "mention_paragraph_ids": {
+        "c-nanshi-021-wanghong:p002:m0017": "c-nanshi-021-wanghong:p002",
+        "c-nanshi-021-wanghong:p003:m0007": "c-nanshi-021-wanghong:p003"
+      },
+      "mention_id": "c-nanshi-021-wanghong:p002:m0017",
+      "occurrence_groups": [
+        {
+          "canonical_mention_id": "c-nanshi-021-wanghong:p002:m0017",
+          "mention_ids": [
+            "c-nanshi-021-wanghong:p002:m0017"
+          ],
+          "kind": "paragraph"
+        },
+        {
+          "canonical_mention_id": "c-nanshi-021-wanghong:p003:m0007",
+          "mention_ids": [
+            "c-nanshi-021-wanghong:p003:m0007"
+          ],
+          "kind": "paragraph"
+        }
+      ],
+      "work_id": "w-nanshi",
+      "book_id": "b-nanshi-021",
+      "chapter_id": "c-nanshi-021-wanghong",
+      "source_id": "s-nanshi-021-wanghong-ws1752646",
       "work_title": "南史"
     },
     {
@@ -695,8 +787,8 @@
       "category": "",
       "title": "王導及子孫附傳（卷六十五完整數位正文）",
       "paragraph_id": "c-jinshu-065-wangdao-family:line082",
-      "count": 3,
-      "raw_count": 3,
+      "count": 2,
+      "raw_count": 2,
       "duplicate_count": 0,
       "counting_policy": "independent_fixed_witness_occurrences",
       "quote": "籍，珣與殷仲堪、徐邈、王恭、郗恢等並以才學文章見昵於帝。及王國寶自媚于會稽王道子，而與珣等不協，帝慮晏駕後怨隙必生，故出恭、恢爲方伯，而委珣端右。珣夢人以大筆如椽與之，既覺，語人云：「此當有大手筆事。」俄而帝崩，哀冊諡議，皆珣所草。",
@@ -706,13 +798,11 @@
       ],
       "mention_ids": [
         "c-jinshu-065-wangdao-family:line082:m0040",
-        "c-jinshu-065-wangdao-family:line086:m0037",
-        "c-jinshu-065-wangdao-family:line086:m0125"
+        "c-jinshu-065-wangdao-family:line086:m0037"
       ],
       "mention_paragraph_ids": {
         "c-jinshu-065-wangdao-family:line082:m0040": "c-jinshu-065-wangdao-family:line082",
-        "c-jinshu-065-wangdao-family:line086:m0037": "c-jinshu-065-wangdao-family:line086",
-        "c-jinshu-065-wangdao-family:line086:m0125": "c-jinshu-065-wangdao-family:line086"
+        "c-jinshu-065-wangdao-family:line086:m0037": "c-jinshu-065-wangdao-family:line086"
       },
       "mention_id": "c-jinshu-065-wangdao-family:line082:m0040",
       "occurrence_groups": [
@@ -727,13 +817,6 @@
           "canonical_mention_id": "c-jinshu-065-wangdao-family:line086:m0037",
           "mention_ids": [
             "c-jinshu-065-wangdao-family:line086:m0037"
-          ],
-          "kind": "paragraph"
-        },
-        {
-          "canonical_mention_id": "c-jinshu-065-wangdao-family:line086:m0125",
-          "mention_ids": [
-            "c-jinshu-065-wangdao-family:line086:m0125"
           ],
           "kind": "paragraph"
         }
@@ -4138,6 +4221,35 @@
       }
     },
     {
+      "chapter_id": "c-nanshi-021-wanghong",
+      "work_id": "w-nanshi",
+      "book_id": "b-nanshi-021",
+      "source_id": "s-nanshi-021-wanghong-ws1752646",
+      "source": {
+        "title": "南史卷二十一·王弘傳",
+        "provider": "Wikisource",
+        "url": "https://zh.wikisource.org/w/index.php?oldid=1752646",
+        "permalink": "https://zh.wikisource.org/w/index.php?oldid=1752646",
+        "revision_id": 1752646,
+        "accessed_on": "2026-11-20",
+        "edition": "維基文庫固定修訂1752646，武英殿本書影逐項參記。",
+        "extent": "王弘本傳第15–35行十一原段；末子錫嗣，下一分題為弘子錫。數位傳首保留「临、导、晋、领、军」。",
+        "text_scope": "partial_chapter",
+        "image_verified": false,
+        "review_status": "text_checked",
+        "license_url": "https://creativecommons.org/licenses/by-sa/4.0/",
+        "rights": "古代正文及維基文庫數位轉錄，保留見證歸屬。",
+        "section_locator": "==王弘==",
+        "wikitext_sha256": "d377274faea65e6901368f9d913e639bbbbc6fe6080a173be2b258e8bcfad718",
+        "raw_path": "sources/nanshi/nanshi021-ws1752646.wikitext",
+        "raw_file_sha256": "d377274faea65e6901368f9d913e639bbbbc6fe6080a173be2b258e8bcfad718",
+        "normalization": {
+          "character_conversion": {},
+          "extraction_note": "僅去不轉換標記的界符。"
+        }
+      }
+    },
+    {
       "chapter_id": "c-songshu-042-wanghong",
       "work_id": "w-songshu",
       "book_id": "b-songshu-042",
@@ -5088,6 +5200,21 @@
     }
   ],
   "person_references": [
+    {
+      "id": "c-jinshu-065-wangdao-family:line086:m0125",
+      "paragraph_id": "c-jinshu-065-wangdao-family:line086",
+      "start": 125,
+      "end": 127,
+      "surface": "明公",
+      "person_id": "dkn_ge4_286_AAAAAAAFA",
+      "referent_role": "addressee",
+      "quote": "雖賴明公神鑒",
+      "note": "桓玄書致會稽王道子。",
+      "chapter_id": "c-jinshu-065-wangdao-family",
+      "book_id": "b-jinshu-065",
+      "work_id": "w-jinshu",
+      "source_id": "s-jinshu-065-wangdao-family"
+    },
     {
       "start": 60,
       "end": 63,

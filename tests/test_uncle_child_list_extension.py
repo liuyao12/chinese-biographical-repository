@@ -13,6 +13,8 @@ class UncleChildListExtensionTests(unittest.TestCase):
  def setUp(self):
   self.rr=copy.deepcopy(self.rows);self.aa={k:copy.deepcopy(v) for k,v in self.assertions.items()};self.cc={self.cid:copy.deepcopy(self.chapters[self.cid])}
   # A candidate object only: no registry ID or stored assembly is edited.
+  # Hide the direct Nan Shi evidence in this fixture to exercise the Jin Shu inference.
+  self.aa.pop('a-nanshi019-hui-pou-child-1', None)
   self.m=copy.deepcopy(self.rr[self.own]);self.m.update(parent_person_id=self.parent,source_assertion_id=None,connection='father')
   refs=[]
   for aid in [self.nfid,self.nuid,self.ufid]:
@@ -28,6 +30,9 @@ class UncleChildListExtensionTests(unittest.TestCase):
   for ref in self.m['parent_connection']['references']:
    if ref['paragraph_id']==p['id']:ref['quote']=p['text']
  def test_complete_four_refs_accepts_without_forged_source_father(self):
+  direct = self.assertions['a-nanshi019-hui-pou-child-1']
+  self.assertEqual((direct['subject_person_id'], direct['object_person_id']), (self.own, self.parent))
+  self.assertIn('裒子奕', direct['evidence'][0]['quote'])
   self.assertTrue(self.ok());self.assertEqual(len(self.m['parent_connection']['references']),4);self.assertIsNone(self.m['source_assertion_id']);self.assertFalse(any(a['predicate']=='father' and a['subject_person_id']==self.own for a in self.aa.values()))
  def test_old_three_ref_same_paragraph_branch_still_accepts(self):
   member=self.rows['aa6_83c_juy_A'];self.assertTrue(parent_through_paternal_uncle_valid(member,self.rows,self.assertions,self.chapters));self.assertEqual(len(member['parent_connection']['references']),3)

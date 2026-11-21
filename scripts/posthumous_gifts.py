@@ -3,8 +3,20 @@
 
 def posthumous_gift_valid(holding, paragraphs, mentions, life_events=None):
     basis = holding.get('posthumous_basis')
+    if (holding.get('posthumous_basis') or {}).get('kind') == 'jin065_relatives_gift':
+        try: from scripts.jin065_relatives import gift_valid
+        except ImportError: from jin065_relatives import gift_valid
+        return gift_valid(holding, paragraphs, mentions, life_events or {})
+    if (holding.get('posthumous_basis') or {}).get('kind') == 'jin065_yue_tian_gifts':
+        try: from scripts.jin065_children import gift_valid
+        except ImportError: from jin065_children import gift_valid
+        return gift_valid(holding, paragraphs, mentions, life_events or {})
     if not isinstance(basis, dict):
         return False
+    if basis.get('kind') == 'continued_topic_named_offices_after_death':
+        try: from scripts.continued_topic_office_gift import valid
+        except ImportError: from continued_topic_office_gift import valid
+        return valid(holding, paragraphs, mentions, life_events or {})
     if basis.get('kind') == 'named_jin079_family_death_award':
         try: from scripts.jin079_family_awards import valid
         except ImportError: from jin079_family_awards import valid

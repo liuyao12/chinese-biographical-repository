@@ -1,5 +1,6 @@
-import copy,json,shutil,tempfile,unittest
+import copy,json,tempfile,unittest
 from pathlib import Path
+from corpus_validation_fixture import copy_validation_inputs
 from scripts.validate_corpus import validate
 from scripts.person_bundle import bundle
 R=Path(__file__).resolve().parents[1]
@@ -14,6 +15,6 @@ class ChaoxianAttestedLocations(unittest.TestCase):
  def test_capital_without_attested_action_or_with_residence_scope_is_rejected(self):
   with tempfile.TemporaryDirectory()as temp:
    root=Path(temp)
-   for name in ['registry','corpus']:shutil.copytree(R/name,root/name)
+   copy_validation_inputs(R,root)
    p=root/'corpus/shiji/115-addresses.json';d=json.loads(p.read_text());d['assertions'][2]['qualifiers']['seat_kind']='individual_residence';p.write_text(json.dumps(d,ensure_ascii=False));self.assertIn('王都須有都與原地名，不得當籍貫或個人居所',validate(root))
 if __name__=='__main__':unittest.main()
