@@ -7,7 +7,10 @@
   "review": "ai_provisional",
   "names": [
     "豫",
-    "泰寧"
+    "泰寧",
+    "郭泰寧",
+    "郭豫",
+    "太寧"
   ],
   "titles": [
     {
@@ -130,10 +133,112 @@
       "human_reviewed": false,
       "model": null,
       "period": "未定 → 未定"
+    },
+    {
+      "id": "th-w043-guoyu-gui",
+      "person_id": "28k_44w_ibb",
+      "title": "相國參軍",
+      "kind": "office",
+      "mode": "attestation",
+      "evidence": [
+        {
+          "work_id": "w-shishuoxinyu",
+          "book_id": "b-shishuoxinyu-010",
+          "chapter_id": "c-shishuoxinyu-010-jin043-wangyan",
+          "source_id": "s-shishuoxinyu-010-jin043-wangyan",
+          "paragraph_id": "c-shishuoxinyu-010-jin043-wangyan:zhugong",
+          "quote": "郭豫字太寧，太原人。仕至相國參軍，知名。早卒。",
+          "person_mention_id": "c-shishuoxinyu-010-jin043-wangyan:zhugong:m0000"
+        }
+      ],
+      "attestations": [
+        {
+          "id": "th-w043-guoyu-gui:a",
+          "paragraph_id": "c-shishuoxinyu-010-jin043-wangyan:zhugong",
+          "start": 12,
+          "end": 16,
+          "surface": "相國參軍",
+          "person_mention_id": "c-shishuoxinyu-010-jin043-wangyan:zhugong:m0000",
+          "usage": "narrative",
+          "date_expression": null
+        }
+      ],
+      "effective_period": {
+        "start": {
+          "status": "unknown",
+          "date_expression": null,
+          "evidence": []
+        },
+        "end": {
+          "status": "unknown",
+          "date_expression": null,
+          "evidence": []
+        }
+      },
+      "interpretation_note": "本來源官稱或所任，未受另記。",
+      "status": "source_attested",
+      "reviewer": "Codex（AI 代理）",
+      "human_reviewed": false,
+      "model": null,
+      "period": "未定 → 未定"
     }
   ],
   "addresses": [],
   "occurrences": [
+    {
+      "number": 10,
+      "category": "",
+      "title": "規箴王衍妻、父郭豫與錢事兩種評說",
+      "paragraph_id": "c-shishuoxinyu-010-jin043-wangyan:family",
+      "count": 3,
+      "raw_count": 3,
+      "duplicate_count": 0,
+      "counting_policy": "independent_fixed_witness_occurrences",
+      "quote": "王夷甫婦，郭泰寧女，",
+      "paragraph_ids": [
+        "c-shishuoxinyu-010-jin043-wangyan:family",
+        "c-shishuoxinyu-010-jin043-wangyan:zhugong"
+      ],
+      "mention_ids": [
+        "c-shishuoxinyu-010-jin043-wangyan:family:m0005",
+        "c-shishuoxinyu-010-jin043-wangyan:zhugong:m0000",
+        "c-shishuoxinyu-010-jin043-wangyan:zhugong:m0003"
+      ],
+      "mention_paragraph_ids": {
+        "c-shishuoxinyu-010-jin043-wangyan:family:m0005": "c-shishuoxinyu-010-jin043-wangyan:family",
+        "c-shishuoxinyu-010-jin043-wangyan:zhugong:m0000": "c-shishuoxinyu-010-jin043-wangyan:zhugong",
+        "c-shishuoxinyu-010-jin043-wangyan:zhugong:m0003": "c-shishuoxinyu-010-jin043-wangyan:zhugong"
+      },
+      "mention_id": "c-shishuoxinyu-010-jin043-wangyan:family:m0005",
+      "occurrence_groups": [
+        {
+          "canonical_mention_id": "c-shishuoxinyu-010-jin043-wangyan:family:m0005",
+          "mention_ids": [
+            "c-shishuoxinyu-010-jin043-wangyan:family:m0005"
+          ],
+          "kind": "paragraph"
+        },
+        {
+          "canonical_mention_id": "c-shishuoxinyu-010-jin043-wangyan:zhugong:m0000",
+          "mention_ids": [
+            "c-shishuoxinyu-010-jin043-wangyan:zhugong:m0000"
+          ],
+          "kind": "paragraph"
+        },
+        {
+          "canonical_mention_id": "c-shishuoxinyu-010-jin043-wangyan:zhugong:m0003",
+          "mention_ids": [
+            "c-shishuoxinyu-010-jin043-wangyan:zhugong:m0003"
+          ],
+          "kind": "paragraph"
+        }
+      ],
+      "work_id": "w-shishuoxinyu",
+      "book_id": "b-shishuoxinyu-010",
+      "chapter_id": "c-shishuoxinyu-010-jin043-wangyan",
+      "source_id": "s-shishuoxinyu-010-jin043-wangyan",
+      "work_title": "世說新語"
+    },
     {
       "number": 26,
       "category": "",
@@ -209,6 +314,31 @@
           "extraction_note": "保全部郭淮傳與三注及合評/郭淮考證；只去版面符號、縮排與注括號。緼/縕/蘊、泰業等收到原字不正字，逐行片段完整投影。",
           "excerpts": []
         }
+      }
+    },
+    {
+      "chapter_id": "c-shishuoxinyu-010-jin043-wangyan",
+      "work_id": "w-shishuoxinyu",
+      "book_id": "b-shishuoxinyu-010",
+      "source_id": "s-shishuoxinyu-010-jin043-wangyan",
+      "source": {
+        "title": "世說新語規箴",
+        "provider": "Wikisource",
+        "url": "https://zh.wikisource.org/w/index.php?oldid=1504411",
+        "permalink": "https://zh.wikisource.org/w/index.php?oldid=1504411",
+        "revision_id": 1504411,
+        "accessed_on": "2026-10-21",
+        "extent": "下列來源節錄。",
+        "text_scope": "partial_chapter",
+        "review_status": "text_checked",
+        "image_verified": false,
+        "rights": "古代原文及維基文庫數位轉錄，保留來源歸屬；數位文字依CC BY-SA 4.0。",
+        "license_url": "https://creativecommons.org/licenses/by-sa/4.0/",
+        "edition": "固定修訂相關原文，逐字核收。",
+        "wikitext_sha256": "14d0a8b1fe5e9c9bd1bd4a1eff672d35a00c97ea9ac6e5b6f7c070d2aba54485",
+        "raw_file": "sources/witnesses/jin043-ws2618531.wikitext",
+        "raw_path": "source-evidence/jin043-wangyan-main/external/gui-ws1504411.wikitext",
+        "raw_file_sha256": "14d0a8b1fe5e9c9bd1bd4a1eff672d35a00c97ea9ac6e5b6f7c070d2aba54485"
       }
     }
   ],
@@ -297,10 +427,37 @@
       "reviewer": "Codex（AI代理）",
       "human_reviewed": false,
       "model": null
+    },
+    {
+      "id": "a-w043-yan-wife-guo",
+      "subject_person_id": "4rl_6u1_b3j",
+      "object_person_id": "28k_44w_ibb",
+      "predicate": "father",
+      "qualifiers": {
+        "source_term": "郭泰寧女"
+      },
+      "evidence": [
+        {
+          "work_id": "w-shishuoxinyu",
+          "book_id": "b-shishuoxinyu-010",
+          "chapter_id": "c-shishuoxinyu-010-jin043-wangyan",
+          "source_id": "s-shishuoxinyu-010-jin043-wangyan",
+          "paragraph_id": "c-shishuoxinyu-010-jin043-wangyan:family",
+          "quote": "王夷甫婦，郭泰寧女，",
+          "subject_person_mention_id": "c-shishuoxinyu-010-jin043-wangyan:family:m0003",
+          "object_person_mention_id": "c-shishuoxinyu-010-jin043-wangyan:family:m0005"
+        }
+      ],
+      "interpretation_note": "此條按本句所明言。",
+      "status": "source_attested",
+      "reviewer": "Codex（AI 代理）",
+      "human_reviewed": false,
+      "model": null
     }
   ],
   "related_people": {
     "28k_44w_ibb": "豫〔郭展次弟，字泰寧〕",
+    "4rl_6u1_b3j": "郭氏〔王衍妻〕",
     "8bq_8u2_yd8": "展〔郭配子，字泰舒〕"
   },
   "dates": [],
@@ -503,6 +660,32 @@
       "reviewer": "Codex（AI代理）",
       "human_reviewed": false,
       "model": null
+    },
+    {
+      "id": "a-w043-yan-wife-guo",
+      "subject_person_id": "4rl_6u1_b3j",
+      "object_person_id": "28k_44w_ibb",
+      "predicate": "father",
+      "qualifiers": {
+        "source_term": "郭泰寧女"
+      },
+      "evidence": [
+        {
+          "work_id": "w-shishuoxinyu",
+          "book_id": "b-shishuoxinyu-010",
+          "chapter_id": "c-shishuoxinyu-010-jin043-wangyan",
+          "source_id": "s-shishuoxinyu-010-jin043-wangyan",
+          "paragraph_id": "c-shishuoxinyu-010-jin043-wangyan:family",
+          "quote": "王夷甫婦，郭泰寧女，",
+          "subject_person_mention_id": "c-shishuoxinyu-010-jin043-wangyan:family:m0003",
+          "object_person_mention_id": "c-shishuoxinyu-010-jin043-wangyan:family:m0005"
+        }
+      ],
+      "interpretation_note": "此條按本句所明言。",
+      "status": "source_attested",
+      "reviewer": "Codex（AI 代理）",
+      "human_reviewed": false,
+      "model": null
     }
   ],
   "age_assertions": [],
@@ -599,6 +782,29 @@
       ],
       "interpretation_note": "只錄該原句實際死亡者；原文未年則不借同段他人卒年，不反推生年或官爵任終。",
       "reviewer": "Codex（AI代理）",
+      "human_reviewed": false,
+      "model": null
+    },
+    {
+      "id": "le-w043-guoyu-gui",
+      "person_id": "28k_44w_ibb",
+      "event_type": "death",
+      "source_term": "早卒",
+      "date_expression": null,
+      "evidence": [
+        {
+          "work_id": "w-shishuoxinyu",
+          "book_id": "b-shishuoxinyu-010",
+          "chapter_id": "c-shishuoxinyu-010-jin043-wangyan",
+          "source_id": "s-shishuoxinyu-010-jin043-wangyan",
+          "paragraph_id": "c-shishuoxinyu-010-jin043-wangyan:zhugong",
+          "quote": "郭豫字太寧，太原人。仕至相國參軍，知名。早卒。",
+          "person_mention_id": "c-shishuoxinyu-010-jin043-wangyan:zhugong:m0000"
+        }
+      ],
+      "interpretation_note": "依本來源登記。",
+      "status": "source_attested",
+      "reviewer": "Codex（AI 代理）",
       "human_reviewed": false,
       "model": null
     }

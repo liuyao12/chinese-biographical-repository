@@ -51,6 +51,41 @@
     {
       "number": 22,
       "category": "",
+      "title": "王慈",
+      "paragraph_id": "c-nanshi-022-wangci:p003",
+      "count": 1,
+      "raw_count": 1,
+      "duplicate_count": 0,
+      "counting_policy": "independent_fixed_witness_occurrences",
+      "quote": "慈妻劉彥節女，子觀尚武帝長女吳縣公主，修婦禮，姑未嘗交答。江夏王鋒為南徐州，王妃，慈女也，以慈為東海太守，行南徐州府州事。還為冠軍將軍、廬陵王中軍長史，未拜，永明九年卒。贈太常，諡懿。子泰。",
+      "paragraph_ids": [
+        "c-nanshi-022-wangci:p003"
+      ],
+      "mention_ids": [
+        "c-nanshi-022-wangci:p003:m0002"
+      ],
+      "mention_paragraph_ids": {
+        "c-nanshi-022-wangci:p003:m0002": "c-nanshi-022-wangci:p003"
+      },
+      "mention_id": "c-nanshi-022-wangci:p003:m0002",
+      "occurrence_groups": [
+        {
+          "canonical_mention_id": "c-nanshi-022-wangci:p003:m0002",
+          "mention_ids": [
+            "c-nanshi-022-wangci:p003:m0002"
+          ],
+          "kind": "paragraph"
+        }
+      ],
+      "work_id": "w-nanshi",
+      "book_id": "b-nanshi-022",
+      "chapter_id": "c-nanshi-022-wangci",
+      "source_id": "s-nanshi-022-wangci-ws1477957",
+      "work_title": "南史"
+    },
+    {
+      "number": 22,
+      "category": "",
       "title": "王儉及王遜傳",
       "paragraph_id": "c-nanshi-022-wangjian:p014",
       "count": 1,
@@ -178,6 +213,35 @@
       }
     },
     {
+      "chapter_id": "c-nanshi-022-wangci",
+      "work_id": "w-nanshi",
+      "book_id": "b-nanshi-022",
+      "source_id": "s-nanshi-022-wangci-ws1477957",
+      "source": {
+        "title": "南史卷二十二·王慈",
+        "provider": "Wikisource",
+        "url": "https://zh.wikisource.org/w/index.php?oldid=1477957",
+        "permalink": "https://zh.wikisource.org/w/index.php?oldid=1477957",
+        "revision_id": 1477957,
+        "accessed_on": "2026-11-19",
+        "edition": "維基文庫固定修訂1477957，武英殿本書影逐項參記。",
+        "extent": "逐讀第124行分題至第132行分題前。",
+        "text_scope": "partial_chapter",
+        "image_verified": false,
+        "review_status": "text_checked",
+        "license_url": "https://creativecommons.org/licenses/by-sa/4.0/",
+        "rights": "古代正文及維基文庫數位轉錄，保留見證歸屬。",
+        "section_locator": "====僧虔子 慈====",
+        "wikitext_sha256": "1fba4fa3cd43161db40d91f7330cd6cf685052cfaadb90d0a90869fd5ef3fa94",
+        "raw_path": "sources/nanshi/nanshi022-ws1477957.wikitext",
+        "raw_file_sha256": "1fba4fa3cd43161db40d91f7330cd6cf685052cfaadb90d0a90869fd5ef3fa94",
+        "normalization": {
+          "character_conversion": {},
+          "extraction_note": "僅去不轉換標記的界符。"
+        }
+      }
+    },
+    {
       "chapter_id": "c-nanshi-022-wangjian",
       "work_id": "w-nanshi",
       "book_id": "b-nanshi-022",
@@ -205,16 +269,85 @@
       }
     }
   ],
-  "relations": [],
+  "relations": [
+    {
+      "id": "a-nanshi022-wangci-130-5-2",
+      "subject_person_id": "jgo_o5m_l1f_A",
+      "object_person_id": "jgo_o5m_l1f",
+      "predicate": "father",
+      "status": "source_attested",
+      "qualifiers": {
+        "source_term": "女",
+        "lineage": "paternal",
+        "reading_basis": {
+          "kind": "nanshi022_wangci_family_roles",
+          "source_quote": "慈妻劉彥節女",
+          "start": 0,
+          "end": 6,
+          "subject_anchor_id": "c-nanshi-022-wangci:p003:r0005",
+          "object_anchor_id": "c-nanshi-022-wangci:p003:m0002"
+        }
+      },
+      "evidence": [
+        {
+          "work_id": "w-nanshi",
+          "book_id": "b-nanshi-022",
+          "chapter_id": "c-nanshi-022-wangci",
+          "source_id": "s-nanshi-022-wangci-ws1477957",
+          "paragraph_id": "c-nanshi-022-wangci:p003",
+          "quote": "慈妻劉彥節女，子觀尚武帝長女吳縣公主，修婦禮，姑未嘗交答。江夏王鋒為南徐州，王妃，慈女也，以慈為東海太守，行南徐州府州事。還為冠軍將軍、廬陵王中軍長史，未拜，永明九年卒。贈太常，諡懿。子泰。"
+        }
+      ],
+      "interpretation_note": "同句親屬與婚配當事人，姓名及稱謂各按所在字位。",
+      "reviewer": "Codex（AI代理）",
+      "model": null,
+      "human_reviewed": false
+    }
+  ],
   "related_people": {
-    "jgo_o5m_l1f": "劉秉"
+    "jgo_o5m_l1f": "劉秉",
+    "jgo_o5m_l1f_A": "劉秉女（王慈妻）"
   },
   "dates": [],
   "name_components": [],
   "person_ids": [
     "jgo_o5m_l1f"
   ],
-  "preferred_relations": [],
+  "preferred_relations": [
+    {
+      "id": "a-nanshi022-wangci-130-5-2",
+      "subject_person_id": "jgo_o5m_l1f_A",
+      "object_person_id": "jgo_o5m_l1f",
+      "predicate": "father",
+      "status": "source_attested",
+      "qualifiers": {
+        "source_term": "女",
+        "lineage": "paternal",
+        "reading_basis": {
+          "kind": "nanshi022_wangci_family_roles",
+          "source_quote": "慈妻劉彥節女",
+          "start": 0,
+          "end": 6,
+          "subject_anchor_id": "c-nanshi-022-wangci:p003:r0005",
+          "object_anchor_id": "c-nanshi-022-wangci:p003:m0002"
+        }
+      },
+      "evidence": [
+        {
+          "work_id": "w-nanshi",
+          "book_id": "b-nanshi-022",
+          "chapter_id": "c-nanshi-022-wangci",
+          "source_id": "s-nanshi-022-wangci-ws1477957",
+          "paragraph_id": "c-nanshi-022-wangci:p003",
+          "quote": "慈妻劉彥節女，子觀尚武帝長女吳縣公主，修婦禮，姑未嘗交答。江夏王鋒為南徐州，王妃，慈女也，以慈為東海太守，行南徐州府州事。還為冠軍將軍、廬陵王中軍長史，未拜，永明九年卒。贈太常，諡懿。子泰。"
+        }
+      ],
+      "interpretation_note": "同句親屬與婚配當事人，姓名及稱謂各按所在字位。",
+      "reviewer": "Codex（AI代理）",
+      "model": null,
+      "human_reviewed": false
+    }
+  ],
   "age_assertions": [],
   "life_events": [],
   "life_event_date_decisions": [],

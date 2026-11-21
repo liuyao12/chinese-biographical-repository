@@ -19,6 +19,10 @@ def posthumous_gift_valid(holding, paragraphs, mentions, life_events=None):
         return gift_valid(holding, paragraphs, mentions, life_events or {})
     if not isinstance(basis, dict):
         return False
+    if basis.get('kind') == 'song063_print_coordinated_gift':
+        try: from scripts.song063_wanghua_reading import print_gift_valid
+        except ImportError: from song063_wanghua_reading import print_gift_valid
+        return print_gift_valid(holding, paragraphs, mentions, life_events or {})
     if basis.get('kind') == 'banquet_host_before_biography_topic_death':
         try: from scripts.wangchong_gift import valid
         except ImportError: from wangchong_gift import valid

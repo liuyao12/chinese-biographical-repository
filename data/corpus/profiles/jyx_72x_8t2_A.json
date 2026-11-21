@@ -1,0 +1,208 @@
+{
+  "schema_version": 1,
+  "id": "jyx_72x_8t2_A",
+  "canonical_person_id": "jyx_72x_8t2_A",
+  "label": "褚蓁",
+  "identity_note": "梁書41褚翔傳直述父祖。",
+  "review": "ai_provisional",
+  "names": [
+    "蓁"
+  ],
+  "titles": [],
+  "addresses": [],
+  "occurrences": [
+    {
+      "number": 41,
+      "category": "",
+      "title": "褚翔傳首三代親屬",
+      "paragraph_id": "c-liangshu-041-wangcheng-chuxiang-context:p001",
+      "count": 1,
+      "raw_count": 1,
+      "duplicate_count": 0,
+      "counting_policy": "independent_fixed_witness_occurrences",
+      "quote": "褚翔字世舉，河南陽翟人。曾祖淵，齊太宰文簡公，佐命齊室。祖蓁，太常穆子。父向，字景政。",
+      "paragraph_ids": [
+        "c-liangshu-041-wangcheng-chuxiang-context:p001"
+      ],
+      "mention_ids": [
+        "c-liangshu-041-wangcheng-chuxiang-context:p001:m0029"
+      ],
+      "mention_paragraph_ids": {
+        "c-liangshu-041-wangcheng-chuxiang-context:p001:m0029": "c-liangshu-041-wangcheng-chuxiang-context:p001"
+      },
+      "mention_id": "c-liangshu-041-wangcheng-chuxiang-context:p001:m0029",
+      "occurrence_groups": [
+        {
+          "canonical_mention_id": "c-liangshu-041-wangcheng-chuxiang-context:p001:m0029",
+          "mention_ids": [
+            "c-liangshu-041-wangcheng-chuxiang-context:p001:m0029"
+          ],
+          "kind": "paragraph"
+        }
+      ],
+      "work_id": "w-liangshu",
+      "book_id": "b-liangshu-041",
+      "chapter_id": "c-liangshu-041-wangcheng-chuxiang-context",
+      "source_id": "s-liangshu-041-wangcheng-chuxiang-context-ws1512987",
+      "work_title": "梁書"
+    }
+  ],
+  "table_occurrences": [],
+  "sources": [
+    {
+      "chapter_id": "c-liangshu-041-wangcheng-chuxiang-context",
+      "work_id": "w-liangshu",
+      "book_id": "b-liangshu-041",
+      "source_id": "s-liangshu-041-wangcheng-chuxiang-context-ws1512987",
+      "source": {
+        "title": "褚翔傳首三代親屬",
+        "provider": "Wikisource",
+        "url": "https://zh.wikisource.org/w/index.php?oldid=1512987",
+        "permalink": "https://zh.wikisource.org/w/index.php?oldid=1512987",
+        "revision_id": 1512987,
+        "accessed_on": "2026-11-19",
+        "edition": "固定修訂1512987",
+        "extent": "傳首或正文辨親原句。",
+        "text_scope": "partial_chapter",
+        "image_verified": false,
+        "review_status": "text_checked",
+        "license_url": "https://creativecommons.org/licenses/by-sa/4.0/",
+        "rights": "古代正文及維基文庫數位轉錄，保留見證歸屬。",
+        "section_locator": "第40行",
+        "wikitext_sha256": "c19683a05200034bc5e35a92e79d390e2653d9c6f94cc021e06719a6062a0e4f",
+        "raw_path": "source-evidence/nanshi022-wangci/external/liang41-ws1512987.wikitext",
+        "raw_file_sha256": "c19683a05200034bc5e35a92e79d390e2653d9c6f94cc021e06719a6062a0e4f",
+        "normalization": {
+          "character_conversion": {},
+          "extraction_note": "僅去不轉換標記的界符。"
+        }
+      }
+    }
+  ],
+  "relations": [
+    {
+      "id": "a-liangshu-041-wangcheng-chuxiang-context-father-29",
+      "subject_person_id": "jyx_72x_8t2_A",
+      "object_person_id": "jyx_72x_8t2",
+      "predicate": "father",
+      "status": "source_attested",
+      "qualifiers": {
+        "source_term": "曾祖淵，齊太宰文簡公，佐命齊室。祖蓁",
+        "lineage": "paternal"
+      },
+      "evidence": [
+        {
+          "work_id": "w-liangshu",
+          "book_id": "b-liangshu-041",
+          "source_id": "s-liangshu-041-wangcheng-chuxiang-context-ws1512987",
+          "chapter_id": "c-liangshu-041-wangcheng-chuxiang-context",
+          "paragraph_id": "c-liangshu-041-wangcheng-chuxiang-context:p001",
+          "quote": "褚翔字世舉，河南陽翟人。曾祖淵，齊太宰文簡公，佐命齊室。祖蓁，太常穆子。父向，字景政。",
+          "subject_person_mention_id": "c-liangshu-041-wangcheng-chuxiang-context:p001:m0029",
+          "object_person_mention_id": "c-liangshu-041-wangcheng-chuxiang-context:p001:m0014"
+        }
+      ],
+      "interpretation_note": "原文兩個姓名與明示父子關係。",
+      "reviewer": "Codex（AI代理）",
+      "model": null,
+      "human_reviewed": false
+    },
+    {
+      "id": "a-liangshu-041-wangcheng-chuxiang-context-father-37",
+      "subject_person_id": "jyx_72x_8t2_AA",
+      "object_person_id": "jyx_72x_8t2_A",
+      "predicate": "father",
+      "status": "source_attested",
+      "qualifiers": {
+        "source_term": "祖蓁，太常穆子。父向",
+        "lineage": "paternal"
+      },
+      "evidence": [
+        {
+          "work_id": "w-liangshu",
+          "book_id": "b-liangshu-041",
+          "source_id": "s-liangshu-041-wangcheng-chuxiang-context-ws1512987",
+          "chapter_id": "c-liangshu-041-wangcheng-chuxiang-context",
+          "paragraph_id": "c-liangshu-041-wangcheng-chuxiang-context:p001",
+          "quote": "褚翔字世舉，河南陽翟人。曾祖淵，齊太宰文簡公，佐命齊室。祖蓁，太常穆子。父向，字景政。",
+          "subject_person_mention_id": "c-liangshu-041-wangcheng-chuxiang-context:p001:m0037",
+          "object_person_mention_id": "c-liangshu-041-wangcheng-chuxiang-context:p001:m0029"
+        }
+      ],
+      "interpretation_note": "原文兩個姓名與明示父子關係。",
+      "reviewer": "Codex（AI代理）",
+      "model": null,
+      "human_reviewed": false
+    }
+  ],
+  "related_people": {
+    "jyx_72x_8t2": "褚淵",
+    "jyx_72x_8t2_A": "褚蓁",
+    "jyx_72x_8t2_AA": "褚向（字景政）"
+  },
+  "dates": [],
+  "name_components": [],
+  "person_ids": [
+    "jyx_72x_8t2_A"
+  ],
+  "preferred_relations": [
+    {
+      "id": "a-liangshu-041-wangcheng-chuxiang-context-father-29",
+      "subject_person_id": "jyx_72x_8t2_A",
+      "object_person_id": "jyx_72x_8t2",
+      "predicate": "father",
+      "status": "source_attested",
+      "qualifiers": {
+        "source_term": "曾祖淵，齊太宰文簡公，佐命齊室。祖蓁",
+        "lineage": "paternal"
+      },
+      "evidence": [
+        {
+          "work_id": "w-liangshu",
+          "book_id": "b-liangshu-041",
+          "source_id": "s-liangshu-041-wangcheng-chuxiang-context-ws1512987",
+          "chapter_id": "c-liangshu-041-wangcheng-chuxiang-context",
+          "paragraph_id": "c-liangshu-041-wangcheng-chuxiang-context:p001",
+          "quote": "褚翔字世舉，河南陽翟人。曾祖淵，齊太宰文簡公，佐命齊室。祖蓁，太常穆子。父向，字景政。",
+          "subject_person_mention_id": "c-liangshu-041-wangcheng-chuxiang-context:p001:m0029",
+          "object_person_mention_id": "c-liangshu-041-wangcheng-chuxiang-context:p001:m0014"
+        }
+      ],
+      "interpretation_note": "原文兩個姓名與明示父子關係。",
+      "reviewer": "Codex（AI代理）",
+      "model": null,
+      "human_reviewed": false
+    },
+    {
+      "id": "a-liangshu-041-wangcheng-chuxiang-context-father-37",
+      "subject_person_id": "jyx_72x_8t2_AA",
+      "object_person_id": "jyx_72x_8t2_A",
+      "predicate": "father",
+      "status": "source_attested",
+      "qualifiers": {
+        "source_term": "祖蓁，太常穆子。父向",
+        "lineage": "paternal"
+      },
+      "evidence": [
+        {
+          "work_id": "w-liangshu",
+          "book_id": "b-liangshu-041",
+          "source_id": "s-liangshu-041-wangcheng-chuxiang-context-ws1512987",
+          "chapter_id": "c-liangshu-041-wangcheng-chuxiang-context",
+          "paragraph_id": "c-liangshu-041-wangcheng-chuxiang-context:p001",
+          "quote": "褚翔字世舉，河南陽翟人。曾祖淵，齊太宰文簡公，佐命齊室。祖蓁，太常穆子。父向，字景政。",
+          "subject_person_mention_id": "c-liangshu-041-wangcheng-chuxiang-context:p001:m0037",
+          "object_person_mention_id": "c-liangshu-041-wangcheng-chuxiang-context:p001:m0029"
+        }
+      ],
+      "interpretation_note": "原文兩個姓名與明示父子關係。",
+      "reviewer": "Codex（AI代理）",
+      "model": null,
+      "human_reviewed": false
+    }
+  ],
+  "age_assertions": [],
+  "life_events": [],
+  "life_event_date_decisions": [],
+  "selected_life_event_dates": []
+}

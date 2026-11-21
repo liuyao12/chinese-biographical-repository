@@ -27,6 +27,16 @@ def valid(decision,chapters,people,root):
   c=chapters[decision['chapter_ids'][0]];p=next(p for p in c['paragraphs']if p['id']==r['local_paragraph_id'])
   if p.get('text_layer')!='received_chapter'or any(k in p for k in ['annotator','attached_note_to_paragraph_id'])or p['text']!=r['local_quote']:return False
   mm={m['id']:m for m in p['mentions']};mid=r['person_mention_id'];target=r['target_mention_ids']
+  # A legacy secondary target can now be a pronominal reference; the main
+  # variant must still be an actual name in the received paragraph.
+  if mid not in mm:return False
+  for ref in c.get('annotation',{}).get('person_reference_occurrences',[]):
+   if ref.get('paragraph_id')==p['id'] and ref.get('id') in target and ref['id']!=mid:
+    a,z=ref.get('start'),ref.get('end')
+    if (type(a) is not int or type(z) is not int or not 0<=a<z<=len(p['text'])
+        or p['text'][a:z]!=ref.get('surface') or ref.get('referent_role')!='third_person'
+        or ref['id'] in mm):return False
+    mm[ref['id']]=ref
   if len(target)!=len(set(target))or mid not in target or not set(target)<=set(mm):return False
   if any(mm[x]['person_id']!=pid for x in target)or mm[mid]['surface']!=r['received_surface']:return False
   if any(mid in a['mention_ids']for a in people[pid]['aliases']):return False

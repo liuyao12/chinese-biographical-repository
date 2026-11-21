@@ -1,0 +1,105 @@
+{
+  "format_version": "0.2",
+  "record_type": "person_assertion_set",
+  "chapter_id": "c-nanshi-020-xielan-xieju-wangyun",
+  "assertions": [
+    {
+      "id": "a-liang033-wangyun-xielan-father",
+      "subject_person_id": "g2h_mgn_tvz",
+      "object_person_id": "aa6_83c_juy_DBABAC",
+      "predicate": "father",
+      "qualifiers": {
+        "source_term": "瀹子覽",
+        "liang033_family_reading": "xielan-father",
+        "lineage": "paternal"
+      },
+      "status": "source_attested",
+      "evidence": [
+        {
+          "work_id": "w-nanshi",
+          "book_id": "b-nanshi-020",
+          "source_id": "s-nanshi-020-xielan-xieju-wangyun-ws513423",
+          "chapter_id": "c-nanshi-020-xielan-xieju-wangyun",
+          "paragraph_id": "c-nanshi-020-xielan-xieju-wangyun:p002",
+          "quote": "瀹子覽。",
+          "subject_person_mention_id": "c-nanshi-020-xielan-xieju-wangyun:p002:m0002",
+          "object_person_mention_id": "c-nanshi-020-xielan-xieju-wangyun:p002:m0000"
+        }
+      ],
+      "interpretation_note": "據同段具名或親稱核兩端。",
+      "reviewer": "Codex（AI 代理）",
+      "human_reviewed": false,
+      "model": null
+    },
+    {
+      "id": "a-liang033-wangyun-xieju-brother",
+      "subject_person_id": "aa6_83c_juy_DBABACA",
+      "object_person_id": "g2h_mgn_tvz",
+      "predicate": "brother",
+      "qualifiers": {
+        "source_term": "覽弟舉",
+        "liang033_family_reading": "xieju-brother",
+        "relative_birth_order": {
+          "older_person_id": "g2h_mgn_tvz",
+          "younger_person_id": "aa6_83c_juy_DBABACA",
+          "operator": "lt",
+          "scope": "siblings",
+          "older_ordinal": null,
+          "younger_ordinal": null
+        }
+      },
+      "status": "source_attested",
+      "evidence": [
+        {
+          "work_id": "w-nanshi",
+          "book_id": "b-nanshi-020",
+          "source_id": "s-nanshi-020-xielan-xieju-wangyun-ws513423",
+          "chapter_id": "c-nanshi-020-xielan-xieju-wangyun",
+          "paragraph_id": "c-nanshi-020-xielan-xieju-wangyun:p004",
+          "quote": "覽弟舉字言揚，幼好學，與覽齊名。",
+          "subject_person_mention_id": "c-nanshi-020-xielan-xieju-wangyun:p004:m0002",
+          "object_person_mention_id": "c-nanshi-020-xielan-xieju-wangyun:p004:m0000"
+        }
+      ],
+      "interpretation_note": "據同段具名或親稱核兩端。",
+      "reviewer": "Codex（AI 代理）",
+      "human_reviewed": false,
+      "model": null
+    },
+    {
+      "id": "a-liang033-wangyun-xiehao-xieyue",
+      "subject_person_id": "aa6_83c_juy_DBABAC",
+      "object_person_id": "aa6_83c_juy_DBABAD",
+      "predicate": "brother",
+      "qualifiers": {
+        "source_term": "顥弟瀹",
+        "liang033_family_reading": "xiehao-xieyue",
+        "relative_birth_order": {
+          "older_person_id": "aa6_83c_juy_DBABAD",
+          "younger_person_id": "aa6_83c_juy_DBABAC",
+          "operator": "lt",
+          "scope": "siblings",
+          "older_ordinal": null,
+          "younger_ordinal": null
+        }
+      },
+      "status": "source_attested",
+      "evidence": [
+        {
+          "work_id": "w-nanshi",
+          "book_id": "b-nanshi-020",
+          "source_id": "s-nanshi-020-xielan-xieju-wangyun-ws513423",
+          "chapter_id": "c-nanshi-020-xielan-xieju-wangyun",
+          "paragraph_id": "c-nanshi-020-xielan-xieju-wangyun:p001",
+          "quote": "顥弟瀹字義潔。",
+          "subject_person_mention_id": "c-nanshi-020-xielan-xieju-wangyun:p001:m0002",
+          "object_person_mention_id": "c-nanshi-020-xielan-xieju-wangyun:p001:m0000"
+        }
+      ],
+      "interpretation_note": "據同段具名或親稱核兩端。",
+      "reviewer": "Codex（AI 代理）",
+      "human_reviewed": false,
+      "model": null
+    }
+  ]
+}

@@ -55,10 +55,74 @@
       "chapter_id": "c-nanshi-019-xietiao",
       "source_id": "s-nanshi-019-xietiao-ws1531762",
       "work_title": "南史"
+    },
+    {
+      "number": 34,
+      "category": "",
+      "title": "張緬傳首辨父原句",
+      "paragraph_id": "c-liangshu-034-wanggui-zhangmian:p001",
+      "count": 1,
+      "raw_count": 1,
+      "duplicate_count": 0,
+      "counting_policy": "independent_fixed_witness_occurrences",
+      "quote": "張緬字元長，車騎將軍弘策子也。",
+      "paragraph_ids": [
+        "c-liangshu-034-wanggui-zhangmian:p001"
+      ],
+      "mention_ids": [
+        "c-liangshu-034-wanggui-zhangmian:p001:m0010"
+      ],
+      "mention_paragraph_ids": {
+        "c-liangshu-034-wanggui-zhangmian:p001:m0010": "c-liangshu-034-wanggui-zhangmian:p001"
+      },
+      "mention_id": "c-liangshu-034-wanggui-zhangmian:p001:m0010",
+      "occurrence_groups": [
+        {
+          "canonical_mention_id": "c-liangshu-034-wanggui-zhangmian:p001:m0010",
+          "mention_ids": [
+            "c-liangshu-034-wanggui-zhangmian:p001:m0010"
+          ],
+          "kind": "paragraph"
+        }
+      ],
+      "work_id": "w-liangshu",
+      "book_id": "b-liangshu-034",
+      "chapter_id": "c-liangshu-034-wanggui-zhangmian",
+      "source_id": "s-liangshu-034-wanggui-zhangmian-ws1511900",
+      "work_title": "梁書"
     }
   ],
   "table_occurrences": [],
   "sources": [
+    {
+      "chapter_id": "c-liangshu-034-wanggui-zhangmian",
+      "work_id": "w-liangshu",
+      "book_id": "b-liangshu-034",
+      "source_id": "s-liangshu-034-wanggui-zhangmian-ws1511900",
+      "source": {
+        "title": "張緬傳首辨父原句",
+        "provider": "Wikisource",
+        "url": "https://zh.wikisource.org/w/index.php?oldid=1511900",
+        "permalink": "https://zh.wikisource.org/w/index.php?oldid=1511900",
+        "revision_id": 1511900,
+        "accessed_on": "2026-11-19",
+        "edition": "固定修訂1511900",
+        "extent": "傳首或正文辨親原句。",
+        "text_scope": "partial_chapter",
+        "image_verified": false,
+        "review_status": "text_checked",
+        "license_url": "https://creativecommons.org/licenses/by-sa/4.0/",
+        "rights": "古代正文及維基文庫數位轉錄，保留見證歸屬。",
+        "section_locator": "第11行",
+        "wikitext_sha256": "15d92901a0d599ceba464b2e56ce631a717b287d9c476ea589c5eedf16548337",
+        "raw_path": "source-evidence/nanshi022-wangci/external/liang34-ws1511900.wikitext",
+        "raw_file_sha256": "15d92901a0d599ceba464b2e56ce631a717b287d9c476ea589c5eedf16548337",
+        "normalization": {
+          "character_conversion": {},
+          "extraction_note": "僅去不轉換標記的界符。"
+        }
+      }
+    },
     {
       "chapter_id": "c-nanshi-019-xietiao",
       "work_id": "w-nanshi",
@@ -88,16 +152,73 @@
       }
     }
   ],
-  "relations": [],
+  "relations": [
+    {
+      "id": "a-liangshu-034-wanggui-zhangmian-father-0",
+      "subject_person_id": "0lf_ggf_5xo_A",
+      "object_person_id": "0lf_ggf_5xo",
+      "predicate": "father",
+      "status": "source_attested",
+      "qualifiers": {
+        "source_term": "子",
+        "lineage": "paternal"
+      },
+      "evidence": [
+        {
+          "work_id": "w-liangshu",
+          "book_id": "b-liangshu-034",
+          "source_id": "s-liangshu-034-wanggui-zhangmian-ws1511900",
+          "chapter_id": "c-liangshu-034-wanggui-zhangmian",
+          "paragraph_id": "c-liangshu-034-wanggui-zhangmian:p001",
+          "quote": "張緬字元長，車騎將軍弘策子也。",
+          "subject_person_mention_id": "c-liangshu-034-wanggui-zhangmian:p001:m0000",
+          "object_person_mention_id": "c-liangshu-034-wanggui-zhangmian:p001:m0010"
+        }
+      ],
+      "interpretation_note": "原文兩個姓名與明示父子關係。",
+      "reviewer": "Codex（AI代理）",
+      "model": null,
+      "human_reviewed": false
+    }
+  ],
   "related_people": {
-    "0lf_ggf_5xo": "張弘策"
+    "0lf_ggf_5xo": "張弘策",
+    "0lf_ggf_5xo_A": "張緬（字元長）"
   },
   "dates": [],
   "name_components": [],
   "person_ids": [
     "0lf_ggf_5xo"
   ],
-  "preferred_relations": [],
+  "preferred_relations": [
+    {
+      "id": "a-liangshu-034-wanggui-zhangmian-father-0",
+      "subject_person_id": "0lf_ggf_5xo_A",
+      "object_person_id": "0lf_ggf_5xo",
+      "predicate": "father",
+      "status": "source_attested",
+      "qualifiers": {
+        "source_term": "子",
+        "lineage": "paternal"
+      },
+      "evidence": [
+        {
+          "work_id": "w-liangshu",
+          "book_id": "b-liangshu-034",
+          "source_id": "s-liangshu-034-wanggui-zhangmian-ws1511900",
+          "chapter_id": "c-liangshu-034-wanggui-zhangmian",
+          "paragraph_id": "c-liangshu-034-wanggui-zhangmian:p001",
+          "quote": "張緬字元長，車騎將軍弘策子也。",
+          "subject_person_mention_id": "c-liangshu-034-wanggui-zhangmian:p001:m0000",
+          "object_person_mention_id": "c-liangshu-034-wanggui-zhangmian:p001:m0010"
+        }
+      ],
+      "interpretation_note": "原文兩個姓名與明示父子關係。",
+      "reviewer": "Codex（AI代理）",
+      "model": null,
+      "human_reviewed": false
+    }
+  ],
   "age_assertions": [],
   "life_events": [
     {

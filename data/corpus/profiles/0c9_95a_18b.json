@@ -99,6 +99,50 @@
       "work_title": "晉書"
     },
     {
+      "number": 8,
+      "category": "",
+      "title": "賞譽劉注引八王故事及顧愷之夷甫畫贊",
+      "paragraph_id": "c-shishuoxinyu-008-jin043-wangyan:bawang",
+      "count": 2,
+      "raw_count": 2,
+      "duplicate_count": 0,
+      "counting_policy": "independent_fixed_witness_occurrences",
+      "quote": "石勒見夷甫，謂長史孔萇曰：『吾行天下多矣！未嘗見如此人，當可活不？』萇曰：『彼晉三公，不為我用。』勒曰：『雖然，要不可加以鋒刃也。』夜使推牆殺之。",
+      "paragraph_ids": [
+        "c-shishuoxinyu-008-jin043-wangyan:bawang"
+      ],
+      "mention_ids": [
+        "c-shishuoxinyu-008-jin043-wangyan:bawang:m0000",
+        "c-shishuoxinyu-008-jin043-wangyan:bawang:m0049"
+      ],
+      "mention_paragraph_ids": {
+        "c-shishuoxinyu-008-jin043-wangyan:bawang:m0000": "c-shishuoxinyu-008-jin043-wangyan:bawang",
+        "c-shishuoxinyu-008-jin043-wangyan:bawang:m0049": "c-shishuoxinyu-008-jin043-wangyan:bawang"
+      },
+      "mention_id": "c-shishuoxinyu-008-jin043-wangyan:bawang:m0000",
+      "occurrence_groups": [
+        {
+          "canonical_mention_id": "c-shishuoxinyu-008-jin043-wangyan:bawang:m0000",
+          "mention_ids": [
+            "c-shishuoxinyu-008-jin043-wangyan:bawang:m0000"
+          ],
+          "kind": "paragraph"
+        },
+        {
+          "canonical_mention_id": "c-shishuoxinyu-008-jin043-wangyan:bawang:m0049",
+          "mention_ids": [
+            "c-shishuoxinyu-008-jin043-wangyan:bawang:m0049"
+          ],
+          "kind": "paragraph"
+        }
+      ],
+      "work_id": "w-shishuoxinyu",
+      "book_id": "b-shishuoxinyu-008",
+      "chapter_id": "c-shishuoxinyu-008-jin043-wangyan",
+      "source_id": "s-shishuoxinyu-008-jin043-wangyan",
+      "work_title": "世說新語"
+    },
+    {
       "number": 35,
       "category": "",
       "title": "裴楷及附傳近系",
@@ -613,8 +657,8 @@
       "category": "",
       "title": "王衍傳",
       "paragraph_id": "c-jinshu-043-wangyan:p007",
-      "count": 8,
-      "raw_count": 8,
+      "count": 7,
+      "raw_count": 7,
       "duplicate_count": 0,
       "counting_policy": "independent_fixed_witness_occurrences",
       "quote": "及石勒、王彌寇京師，以衍都督征討諸軍事、持節、假黃鉞以距之。衍使前將軍曹武、左衛將軍王景等擊賊，退之，獲其輜重。遷太尉，尚書令如故。封武陵侯，辭封不受。時洛陽危逼，多欲遷都以避其難，而衍獨賣車牛以安眾心。",
@@ -629,7 +673,6 @@
         "c-jinshu-043-wangyan:p008:m0114",
         "c-jinshu-043-wangyan:p008:m0139",
         "c-jinshu-043-wangyan:p008:m0144",
-        "c-jinshu-043-wangyan:p008:m0204",
         "c-jinshu-043-wangyan:p008:m0248"
       ],
       "mention_paragraph_ids": {
@@ -639,7 +682,6 @@
         "c-jinshu-043-wangyan:p008:m0114": "c-jinshu-043-wangyan:p008",
         "c-jinshu-043-wangyan:p008:m0139": "c-jinshu-043-wangyan:p008",
         "c-jinshu-043-wangyan:p008:m0144": "c-jinshu-043-wangyan:p008",
-        "c-jinshu-043-wangyan:p008:m0204": "c-jinshu-043-wangyan:p008",
         "c-jinshu-043-wangyan:p008:m0248": "c-jinshu-043-wangyan:p008"
       },
       "mention_id": "c-jinshu-043-wangyan:p007:m0001",
@@ -683,13 +725,6 @@
           "canonical_mention_id": "c-jinshu-043-wangyan:p008:m0144",
           "mention_ids": [
             "c-jinshu-043-wangyan:p008:m0144"
-          ],
-          "kind": "paragraph"
-        },
-        {
-          "canonical_mention_id": "c-jinshu-043-wangyan:p008:m0204",
-          "mention_ids": [
-            "c-jinshu-043-wangyan:p008:m0204"
           ],
           "kind": "paragraph"
         },
@@ -12746,8 +12781,22 @@
         "raw_file": "sources/witnesses/jin043-ws2618531.wikitext",
         "normalization": {
           "character_conversion": {},
-          "extraction_note": "僅移除段首空白、展開維基連結顯示字及YL年號模板；原齊王乂、雲、荀籓、見誣見狀等保留；老莊連結顯示字依原wikitext展開。"
-        }
+          "extraction_note": "僅移除段首空白、展開維基連結顯示字及YL年號模板；原齊王乂、雲、荀籓、見誣見狀等保留；老莊連結顯示字依原wikitext展開。",
+          "verified_blank_line_gaps": [
+            {
+              "source_lines": [
+                110,
+                110
+              ],
+              "raw_quote": "",
+              "raw_quote_sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+              "revision_id": 2618531
+            }
+          ]
+        },
+        "collation_witnesses": [
+          "source-evidence/jin043-wangyan-main/reading.json"
+        ]
       }
     },
     {
@@ -13906,6 +13955,31 @@
           ]
         }
       }
+    },
+    {
+      "chapter_id": "c-shishuoxinyu-008-jin043-wangyan",
+      "work_id": "w-shishuoxinyu",
+      "book_id": "b-shishuoxinyu-008",
+      "source_id": "s-shishuoxinyu-008-jin043-wangyan",
+      "source": {
+        "title": "世說新語賞譽",
+        "provider": "Wikisource",
+        "url": "https://zh.wikisource.org/w/index.php?oldid=1532652",
+        "permalink": "https://zh.wikisource.org/w/index.php?oldid=1532652",
+        "revision_id": 1532652,
+        "accessed_on": "2026-10-21",
+        "extent": "下列來源節錄。",
+        "text_scope": "partial_chapter",
+        "review_status": "text_checked",
+        "image_verified": false,
+        "rights": "古代原文及維基文庫數位轉錄，保留來源歸屬；數位文字依CC BY-SA 4.0。",
+        "license_url": "https://creativecommons.org/licenses/by-sa/4.0/",
+        "edition": "固定修訂相關原文，逐字核收。",
+        "wikitext_sha256": "e2ec15441d5cabbac9f4beea7a9f4f6c58db0a4e5537ff3ae0134c68bd8caa48",
+        "raw_file": "sources/witnesses/jin043-ws2618531.wikitext",
+        "raw_path": "source-evidence/jin065-wang-children/external/shang-ws1532652.wikitext",
+        "raw_file_sha256": "e2ec15441d5cabbac9f4beea7a9f4f6c58db0a4e5537ff3ae0134c68bd8caa48"
+      }
     }
   ],
   "relations": [],
@@ -13914,6 +13988,23 @@
   },
   "dates": [],
   "name_components": [],
+  "person_references": [
+    {
+      "id": "c-jinshu-043-wangyan:p008:m0204",
+      "paragraph_id": "c-jinshu-043-wangyan:p008",
+      "start": 204,
+      "end": 205,
+      "surface": "吾",
+      "person_id": "0c9_95a_18b",
+      "quote": "右扶出。謂其党孔萇曰：「吾行天下多矣，未嘗見如此人",
+      "referent_role": "speaker_self",
+      "note": "此處按對話、敘述主語及賓語記所指。",
+      "chapter_id": "c-jinshu-043-wangyan",
+      "book_id": "b-jinshu-043",
+      "work_id": "w-jinshu",
+      "source_id": "s-jinshu-043-ws2618531-wangrong"
+    }
+  ],
   "person_ids": [
     "0c9_95a_18b"
   ],

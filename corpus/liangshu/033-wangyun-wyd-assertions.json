@@ -1,0 +1,196 @@
+{
+  "format_version": "0.2",
+  "record_type": "person_assertion_set",
+  "chapter_id": "c-liangshu-033-wangyun-wyd",
+  "assertions": [
+    {
+      "id": "a-liang033-wangyun-wyd-father",
+      "subject_person_id": "mxz_qw8_acd_A",
+      "object_person_id": "mxz_qw8_acd",
+      "predicate": "father",
+      "qualifiers": {
+        "source_term": "父楫",
+        "liang033_family_reading": "father",
+        "lineage": "paternal"
+      },
+      "status": "source_attested",
+      "evidence": [
+        {
+          "work_id": "w-liangshu",
+          "book_id": "b-liangshu-033",
+          "source_id": "s-liangshu-033-wangyun-wyd1739",
+          "chapter_id": "c-liangshu-033-wangyun-wyd",
+          "paragraph_id": "c-liangshu-033-wangyun-wyd:p001",
+          "quote": "王筠字元禮一字德柔琅邪臨沂人祖僧虔齊司空簡穆公父楫太中大夫",
+          "subject_person_mention_id": "c-liangshu-033-wangyun-wyd:p001:m0000",
+          "object_person_mention_id": "c-liangshu-033-wangyun-wyd:p001:m0024"
+        }
+      ],
+      "interpretation_note": "殿本同段名或稱官繫兩端。",
+      "reviewer": "Codex（AI 代理）",
+      "human_reviewed": false,
+      "model": null
+    },
+    {
+      "id": "a-liang033-wangyun-wyd-grandfather",
+      "subject_person_id": "mxz_qw8_acd_A",
+      "object_person_id": "7r6_k52_qji_ABAAAAEB",
+      "predicate": "grandfather",
+      "qualifiers": {
+        "source_term": "祖僧虔",
+        "liang033_family_reading": "grandfather",
+        "lineage": "paternal"
+      },
+      "status": "source_attested",
+      "evidence": [
+        {
+          "work_id": "w-liangshu",
+          "book_id": "b-liangshu-033",
+          "source_id": "s-liangshu-033-wangyun-wyd1739",
+          "chapter_id": "c-liangshu-033-wangyun-wyd",
+          "paragraph_id": "c-liangshu-033-wangyun-wyd:p001",
+          "quote": "王筠字元禮一字德柔琅邪臨沂人祖僧虔齊司空簡穆公父楫太中大夫",
+          "subject_person_mention_id": "c-liangshu-033-wangyun-wyd:p001:m0000",
+          "object_person_mention_id": "c-liangshu-033-wangyun-wyd:p001:m0015"
+        }
+      ],
+      "interpretation_note": "殿本同段名或稱官繫兩端。",
+      "reviewer": "Codex（AI 代理）",
+      "human_reviewed": false,
+      "model": null
+    },
+    {
+      "id": "a-liang033-wangyun-wyd-congxiong",
+      "subject_person_id": "mxz_qw8_acd_A",
+      "object_person_id": "7r6_k52_qji_ABAAAAEBAA",
+      "predicate": "agnatic_cousin",
+      "qualifiers": {
+        "source_term": "從兄泰",
+        "liang033_family_reading": "congxiong",
+        "kinship_structure": {
+          "lineage": "paternal",
+          "generation_difference": 0,
+          "collateral": true,
+          "distance": null,
+          "common_ancestor_person_id": null,
+          "subject_relative_age": "younger"
+        },
+        "relative_birth_order": {
+          "older_person_id": "7r6_k52_qji_ABAAAAEBAA",
+          "younger_person_id": "mxz_qw8_acd_A",
+          "operator": "lt",
+          "scope": "agnatic_cousins",
+          "older_ordinal": null,
+          "younger_ordinal": null
+        }
+      },
+      "status": "source_attested",
+      "evidence": [
+        {
+          "work_id": "w-liangshu",
+          "book_id": "b-liangshu-033",
+          "source_id": "s-liangshu-033-wangyun-wyd1739",
+          "chapter_id": "c-liangshu-033-wangyun-wyd",
+          "paragraph_id": "c-liangshu-033-wangyun-wyd:p002",
+          "quote": "筠幼警寤七歲能屬文年十六為芍藥賦甚美及長清靜好學與從兄泰齊名陳郡謝覽覽弟舉亦有重譽時人為之語曰謝有覽舉王有養炬炬是泰養卽筠並小字也",
+          "subject_person_mention_id": "c-liangshu-033-wangyun-wyd:p002:m0000",
+          "object_person_mention_id": "c-liangshu-033-wangyun-wyd:p002:m0027"
+        }
+      ],
+      "interpretation_note": "殿本同段名或稱官繫兩端。",
+      "reviewer": "Codex（AI 代理）",
+      "human_reviewed": false,
+      "model": null
+    },
+    {
+      "id": "a-liang033-wangyun-wyd-xielan-xieju",
+      "subject_person_id": "g2h_mgn_tvz",
+      "object_person_id": "aa6_83c_juy_DBABACA",
+      "predicate": "brother",
+      "qualifiers": {
+        "source_term": "覽弟舉",
+        "liang033_family_reading": "xielan-xieju",
+        "relative_birth_order": {
+          "older_person_id": "g2h_mgn_tvz",
+          "younger_person_id": "aa6_83c_juy_DBABACA",
+          "operator": "lt",
+          "scope": "siblings",
+          "older_ordinal": null,
+          "younger_ordinal": null
+        }
+      },
+      "status": "source_attested",
+      "evidence": [
+        {
+          "work_id": "w-liangshu",
+          "book_id": "b-liangshu-033",
+          "source_id": "s-liangshu-033-wangyun-wyd1739",
+          "chapter_id": "c-liangshu-033-wangyun-wyd",
+          "paragraph_id": "c-liangshu-033-wangyun-wyd:p002",
+          "quote": "筠幼警寤七歲能屬文年十六為芍藥賦甚美及長清靜好學與從兄泰齊名陳郡謝覽覽弟舉亦有重譽時人為之語曰謝有覽舉王有養炬炬是泰養卽筠並小字也",
+          "subject_person_mention_id": "c-liangshu-033-wangyun-wyd:p002:m0034",
+          "object_person_mention_id": "c-liangshu-033-wangyun-wyd:p002:m0036"
+        }
+      ],
+      "interpretation_note": "殿本同段名或稱官繫兩端。",
+      "reviewer": "Codex（AI 代理）",
+      "human_reviewed": false,
+      "model": null
+    },
+    {
+      "id": "a-liang033-wangyun-wyd-wangcan",
+      "subject_person_id": "ad4_a63_862",
+      "object_person_id": "850_2a8_68a",
+      "predicate": "grandfather",
+      "qualifiers": {
+        "source_term": "王公之孫",
+        "liang033_family_reading": "wangcan",
+        "lineage": "paternal"
+      },
+      "status": "source_attested",
+      "evidence": [
+        {
+          "work_id": "w-liangshu",
+          "book_id": "b-liangshu-033",
+          "source_id": "s-liangshu-033-wangyun-wyd1739",
+          "chapter_id": "c-liangshu-033-wangyun-wyd",
+          "paragraph_id": "c-liangshu-033-wangyun-wyd:p003",
+          "quote": "起家中軍臨川王行參軍遷太子舍人除尚書殿中郎王氏過江以來未有居郎署者或勸逡巡不就筠曰陸平原東南之秀王文度獨步江東吾得比蹤昔人何所多恨乃欣然就職尚書令沈約當世辭宗每見筠文咨嗟吟咏以為不逮也嘗謂筠昔蔡伯喈見王仲宣稱曰王公之孫也吾家書籍悉當相與僕雖不敏請附斯言自謝朓諸賢零落已後平生意好殆將都絕不謂疲暮復逢於君約於郊居宅造閣齋筠為草木十詠書之於壁皆直寫文詞不加篇題約謂人云此詩指物呈形無假題署約製郊居賦構思積時猶未都畢乃要筠示其草筠讀至雌霓連踡約撫掌欣抃曰僕嘗恐人呼為霓次至墜石磓星及水懸坎而帶坻筠皆擊節稱贊約曰知音者希真賞殆絕所以相要政在此數句耳筠又嘗為詩呈約卽報書云覽所示詩實為麗則聲和被紙光影盈字夔牙接響顧有餘慚孔翠羣翔豈不多愧古情拙目每佇新奇爛然總至權輿已盡會昌昭發蘭揮玉振克諧之義寧比笙簧思力所該一至乎此歎服吟研周流忘念昔時幼壯頗愛斯文舍咀之間倐焉疲暮不及後進誠非一人擅美推能實歸吾子遲比閑日清覯乃申筠為文能壓強韻每公宴並作辭必妍美約常從容啓高祖曰晚來名家惟見王筠獨步",
+          "subject_person_mention_id": "c-liangshu-033-wangyun-wyd:p003:m0100",
+          "object_person_reference_id": "c-liangshu-033-wangyun-wyd:p003:r0105"
+        }
+      ],
+      "interpretation_note": "殿本同段名或稱官繫兩端。",
+      "reviewer": "Codex（AI 代理）",
+      "human_reviewed": false,
+      "model": null
+    },
+    {
+      "id": "a-liang033-wangyun-wyd-mother",
+      "subject_person_id": "mxz_qw8_acd_A",
+      "object_person_id": "3cn_bb6_ety",
+      "predicate": "mother",
+      "qualifiers": {
+        "source_term": "以母憂",
+        "liang033_family_reading": "mother"
+      },
+      "status": "source_attested",
+      "evidence": [
+        {
+          "work_id": "w-liangshu",
+          "book_id": "b-liangshu-033",
+          "source_id": "s-liangshu-033-wangyun-wyd1739",
+          "chapter_id": "c-liangshu-033-wangyun-wyd",
+          "paragraph_id": "c-liangshu-033-wangyun-wyd:p005",
+          "quote": "普通元年以母憂去職筠有孝性毀瘠過禮服闋後疾廢久之六年除尚書吏部郎遷太子中庶子領羽林監又改領步兵中大通二年遷司徒左長史三年昭明太子薨勅為哀策文復見嗟賞尋出為貞威將軍臨海太守在郡被訟不調累年大同初起為雲麾豫章王長史遷秘書監五年除太府卿明年遷度支尚書中大同元年出為明威將軍永嘉太守以疾固辭徙為光祿大夫俄遷雲騎將軍司徒左長史太清二年侯景寇逼筠時不入城明年太宗卽位為太子詹事筠舊宅先為賊所焚乃寓居國子祭酒蕭子雲宅夜忽有盜攻之驚懼墜井卒時年六十九家人十餘人同遇害",
+          "subject_person_mention_id": "c-liangshu-033-wangyun-wyd:p005:m0009",
+          "object_person_reference_id": "c-liangshu-033-wangyun-wyd:p005:r0005"
+        }
+      ],
+      "interpretation_note": "殿本同段名或稱官繫兩端。",
+      "reviewer": "Codex（AI 代理）",
+      "human_reviewed": false,
+      "model": null
+    }
+  ]
+}

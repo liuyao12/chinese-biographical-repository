@@ -50,6 +50,41 @@
     {
       "number": 22,
       "category": "",
+      "title": "王規",
+      "paragraph_id": "c-nanshi-022-wanggui:p002",
+      "count": 1,
+      "raw_count": 1,
+      "duplicate_count": 0,
+      "counting_policy": "independent_fixed_witness_occurrences",
+      "quote": "天監十二年，改造太極殿畢，規獻新殿賦，其辭甚工。後為晉安王綱雲麾諮議參軍，久之，為新安太守。父憂去職，服闋，襲封南昌縣侯。除中書黃門侍郎，敕與陳郡殷芸、琅邪王錫、范陽張緬同侍東宮，俱為昭明太子所禮。湘東王繹時為丹陽尹，與朝士宴集，屬規為酒令。規從容曰：「江左以",
+      "paragraph_ids": [
+        "c-nanshi-022-wanggui:p002"
+      ],
+      "mention_ids": [
+        "c-nanshi-022-wanggui:p002:m0029"
+      ],
+      "mention_paragraph_ids": {
+        "c-nanshi-022-wanggui:p002:m0029": "c-nanshi-022-wanggui:p002"
+      },
+      "mention_id": "c-nanshi-022-wanggui:p002:m0029",
+      "occurrence_groups": [
+        {
+          "canonical_mention_id": "c-nanshi-022-wanggui:p002:m0029",
+          "mention_ids": [
+            "c-nanshi-022-wanggui:p002:m0029"
+          ],
+          "kind": "paragraph"
+        }
+      ],
+      "work_id": "w-nanshi",
+      "book_id": "b-nanshi-022",
+      "chapter_id": "c-nanshi-022-wanggui",
+      "source_id": "s-nanshi-022-wanggui-ws1477957",
+      "work_title": "南史"
+    },
+    {
+      "number": 22,
+      "category": "",
       "title": "王筠傳及子祥附敘（武英殿本）",
       "paragraph_id": "c-nanshi-022-wangyun-family-wyd:p005",
       "count": 1,
@@ -120,6 +155,60 @@
   ],
   "table_occurrences": [],
   "sources": [
+    {
+      "chapter_id": "c-liangshu-033-wangyun",
+      "work_id": "w-liangshu",
+      "book_id": "b-liangshu-033",
+      "source_id": "s-liangshu-033-wangyun-ws1514481",
+      "source": {
+        "title": "梁書卷33·王筠傳",
+        "provider": "Wikisource",
+        "url": "https://zh.wikisource.org/w/index.php?oldid=1514481",
+        "permalink": "https://zh.wikisource.org/w/index.php?oldid=1514481",
+        "revision_id": 1514481,
+        "accessed_on": "2026-11-21",
+        "edition": "維基文庫固定數位轉錄",
+        "extent": "原第95、97、99、101、103、105行六段王筠傳",
+        "text_scope": "complete_biographical_unit",
+        "image_verified": false,
+        "review_status": "text_checked",
+        "raw_path": "source-evidence/nanshi022-wangzhi-family/external/liang033-ws1514481.wikitext",
+        "raw_file_sha256": "a9b1993fd0027d649219782c71e5bcb1c74e2b8049d907308b609b089543eb0b",
+        "rights": "古代原典及維基文庫數位轉錄。",
+        "license_url": "https://zh.wikisource.org/wiki/Wikisource:著作權資訊",
+        "normalization": {
+          "character_conversion": {},
+          "extraction_note": "去雙全角首行縮排，保留收到的原字、標點和段界。"
+        }
+      }
+    },
+    {
+      "chapter_id": "c-liangshu-033-wangyun-wyd",
+      "work_id": "w-liangshu",
+      "book_id": "b-liangshu-033",
+      "source_id": "s-liangshu-033-wangyun-wyd1739",
+      "source": {
+        "title": "武英殿本《梁書》卷三十三王筠傳",
+        "provider": "中國國家圖書館藏乾隆四年武英殿刊本，Wikimedia Commons",
+        "url": "https://commons.wikimedia.org/wiki/File:NLC892-411999017142-12700_二十四史_第167冊.pdf",
+        "permalink": "https://commons.wikimedia.org/wiki/File:NLC892-411999017142-12700_二十四史_第167冊.pdf",
+        "revision_id": "cbr-ai-transcription-sha256:7053558e6ae66bd8cf78b874c228cebd0f6693575c192ac8fc72b37815b9569a",
+        "accessed_on": "2026-11-21",
+        "raw_path": "source-evidence/liang033-wangyun/wyd-columns.txt",
+        "raw_file_sha256": "7053558e6ae66bd8cf78b874c228cebd0f6693575c192ac8fc72b37815b9569a",
+        "edition": "乾隆四年武英殿刊《二十四史》第167冊",
+        "extent": "卷三十三葉十六下至十九下，PDF第58面右第3欄至第61面右第2欄。",
+        "text_scope": "complete_biography_unit",
+        "image_verified": true,
+        "review_status": "AI_image_transcription_draft",
+        "rights": "國家圖書館藏古籍書影，本篇逐欄轉寫。",
+        "license_url": "https://commons.wikimedia.org/wiki/File:NLC892-411999017142-12700_二十四史_第167冊.pdf",
+        "normalization": {
+          "character_conversion": {},
+          "extraction_note": "保留殿本原字、無句讀。依傳文分六段；版面小字反切另繫原欄所注之霓。"
+        }
+      }
+    },
     {
       "chapter_id": "c-nanshi-019-xieyu-descendants",
       "work_id": "w-nanshi",
@@ -195,6 +284,35 @@
       }
     },
     {
+      "chapter_id": "c-nanshi-022-wanggui",
+      "work_id": "w-nanshi",
+      "book_id": "b-nanshi-022",
+      "source_id": "s-nanshi-022-wanggui-ws1477957",
+      "source": {
+        "title": "南史卷二十二·王規",
+        "provider": "Wikisource",
+        "url": "https://zh.wikisource.org/w/index.php?oldid=1477957",
+        "permalink": "https://zh.wikisource.org/w/index.php?oldid=1477957",
+        "revision_id": 1477957,
+        "accessed_on": "2026-11-19",
+        "edition": "維基文庫固定修訂1477957，武英殿本書影逐項參記。",
+        "extent": "第64行騫子規分題至第74行末；第76行子褒沿用現役獨立附敘。",
+        "text_scope": "partial_chapter",
+        "image_verified": false,
+        "review_status": "text_checked",
+        "license_url": "https://creativecommons.org/licenses/by-sa/4.0/",
+        "rights": "古代正文及維基文庫數位轉錄，保留見證歸屬。",
+        "section_locator": "======騫子 規======",
+        "wikitext_sha256": "1fba4fa3cd43161db40d91f7330cd6cf685052cfaadb90d0a90869fd5ef3fa94",
+        "raw_path": "sources/nanshi/nanshi022-ws1477957.wikitext",
+        "raw_file_sha256": "1fba4fa3cd43161db40d91f7330cd6cf685052cfaadb90d0a90869fd5ef3fa94",
+        "normalization": {
+          "character_conversion": {},
+          "extraction_note": "僅去不轉換標記的界符。"
+        }
+      }
+    },
+    {
       "chapter_id": "c-nanshi-022-wangyun-family",
       "work_id": "w-nanshi",
       "book_id": "b-nanshi-022",
@@ -259,6 +377,36 @@
   "name_components": [],
   "person_references": [
     {
+      "id": "c-liangshu-033-wangyun-wyd:p005:r0173",
+      "person_id": "rtd_v0b_nyn",
+      "surface": "太宗",
+      "start": 173,
+      "end": 175,
+      "paragraph_id": "c-liangshu-033-wangyun-wyd:p005",
+      "referent_role": "third_person",
+      "quote": "普通元年以母憂去職筠有孝性毀瘠過禮服闋後疾廢久之六年除尚書吏部郎遷太子中庶子領羽林監又改領步兵中大通二年遷司徒左長史三年昭明太子薨勅為哀策文復見嗟賞尋出為貞威將軍臨海太守在郡被訟不調累年大同初起為雲麾豫章王長史遷秘書監五年除太府卿明年遷度支尚書中大同元年出為明威將軍永嘉太守以疾固辭徙為光祿大夫俄遷雲騎將軍司徒左長史太清二年侯景寇逼筠時不入城明年太宗卽位為太子詹事筠舊宅先為賊所焚乃寓居國子祭酒蕭子雲宅夜忽有盜攻之驚懼墜井卒時年六十九家人十餘人同遇害",
+      "note": "據殿本本段原字、上下文及說話視點。",
+      "chapter_id": "c-liangshu-033-wangyun-wyd",
+      "book_id": "b-liangshu-033",
+      "work_id": "w-liangshu",
+      "source_id": "s-liangshu-033-wangyun-wyd1739"
+    },
+    {
+      "id": "c-liangshu-033-wangyun:p005:r0212",
+      "person_id": "rtd_v0b_nyn",
+      "surface": "太宗",
+      "start": 212,
+      "end": 214,
+      "paragraph_id": "c-liangshu-033-wangyun:p005",
+      "referent_role": "third_person",
+      "quote": "普通元年，以母憂去職。筠有孝性，毀瘠過禮，服闋後，疾廢久之。六年，除尚書吏部郎，遷太子中庶子，領羽林監，又改領步兵。中大通二年，遷司徒左長史。三年，昭明太子薨，敕爲哀策文，復見嗟賞。尋出爲貞威將軍、臨海太守，在郡被訟，不調累年。大同初，起爲雲麾豫章王長史，遷秘書監。五年，除太府卿。明年，遷度支尚書。中大同元年，出爲明威將軍、永嘉太守，以疾固辭，徙爲光祿大夫，俄遷雲騎將軍、司徒左長史。太清二年，侯景寇逼，筠時不入城。明年，太宗卽位，爲太子詹事。筠舊宅先爲賊所焚，乃寓居國子祭酒蕭子雲宅，夜忽有盜攻之，驚懼墜井卒，時年六十九。家人十餘人同遇害。",
+      "note": "據本段話語視點及上文職號。",
+      "chapter_id": "c-liangshu-033-wangyun",
+      "book_id": "b-liangshu-033",
+      "work_id": "w-liangshu",
+      "source_id": "s-liangshu-033-wangyun-ws1514481"
+    },
+    {
       "start": 117,
       "end": 120,
       "surface": "晉安王",
@@ -272,6 +420,96 @@
       "book_id": "b-nanshi-019",
       "work_id": "w-nanshi",
       "source_id": "s-nanshi-019-xieyu-descendants-ws1531762"
+    },
+    {
+      "start": 26,
+      "end": 29,
+      "surface": "晉安王",
+      "id": "c-nanshi-022-wanggui:p002:r0026",
+      "paragraph_id": "c-nanshi-022-wanggui:p002",
+      "person_id": "rtd_v0b_nyn",
+      "referent_role": "third_person",
+      "quote": "天監十二年，改造太極殿畢，規獻新殿賦，其辭甚工。後為晉安王綱雲麾諮議參軍，久之，為新安太守。父憂去職，服闋，襲封南昌縣侯。除中書黃門侍郎，敕與陳郡殷芸、琅邪王錫、范陽張緬同侍東宮，俱為昭明太子所禮。湘東王繹時為丹陽尹，與朝士宴集，屬規為酒令。規從容曰：「江左以來，未有茲舉。」特進蕭琛、金紫光祿大夫傅昭在坐，並謂為知言。朱異嘗因酒卿規，規責以無禮。",
+      "note": "本句按敘述視點回指綱。",
+      "chapter_id": "c-nanshi-022-wanggui",
+      "book_id": "b-nanshi-022",
+      "work_id": "w-nanshi",
+      "source_id": "s-nanshi-022-wanggui-ws1477957"
+    },
+    {
+      "start": 54,
+      "end": 57,
+      "surface": "晉安王",
+      "id": "c-nanshi-022-wanggui:p004:r0054",
+      "paragraph_id": "c-nanshi-022-wanggui:p004",
+      "person_id": "rtd_v0b_nyn",
+      "referent_role": "third_person",
+      "quote": "六年，武帝於文德殿餞廣州刺史元景隆，詔群臣賦詩，同用五十韻。規援筆立奏，其文又美，武帝嘉焉，即日授侍中。後為晉安王長史。王立為太子，仍為散騎常侍、太子中庶子，侍東宮。太子賜以所服貂蟬，並降令書，悅是舉也。尋為吳郡太守，主書芮珍宗家在吳，前守宰皆傾意附之。至是珍宗假還，規遇之甚薄，珍宗還都，密奏規不理郡事。俄徵為左戶尚書。郡境千餘人詣闕請留，表三奏不許。求于郡樹碑，許之。",
+      "note": "本句按敘述視點回指綱。",
+      "chapter_id": "c-nanshi-022-wanggui",
+      "book_id": "b-nanshi-022",
+      "work_id": "w-nanshi",
+      "source_id": "s-nanshi-022-wanggui-ws1477957"
+    },
+    {
+      "start": 60,
+      "end": 61,
+      "surface": "王",
+      "id": "c-nanshi-022-wanggui:p004:r0060",
+      "paragraph_id": "c-nanshi-022-wanggui:p004",
+      "person_id": "rtd_v0b_nyn",
+      "referent_role": "third_person",
+      "quote": "六年，武帝於文德殿餞廣州刺史元景隆，詔群臣賦詩，同用五十韻。規援筆立奏，其文又美，武帝嘉焉，即日授侍中。後為晉安王長史。王立為太子，仍為散騎常侍、太子中庶子，侍東宮。太子賜以所服貂蟬，並降令書，悅是舉也。尋為吳郡太守，主書芮珍宗家在吳，前守宰皆傾意附之。至是珍宗假還，規遇之甚薄，珍宗還都，密奏規不理郡事。俄徵為左戶尚書。郡境千餘人詣闕請留，表三奏不許。求于郡樹碑，許之。",
+      "note": "本句按敘述視點回指綱。",
+      "chapter_id": "c-nanshi-022-wanggui",
+      "book_id": "b-nanshi-022",
+      "work_id": "w-nanshi",
+      "source_id": "s-nanshi-022-wanggui-ws1477957"
+    },
+    {
+      "start": 63,
+      "end": 65,
+      "surface": "太子",
+      "id": "c-nanshi-022-wanggui:p004:r0063",
+      "paragraph_id": "c-nanshi-022-wanggui:p004",
+      "person_id": "rtd_v0b_nyn",
+      "referent_role": "third_person",
+      "quote": "六年，武帝於文德殿餞廣州刺史元景隆，詔群臣賦詩，同用五十韻。規援筆立奏，其文又美，武帝嘉焉，即日授侍中。後為晉安王長史。王立為太子，仍為散騎常侍、太子中庶子，侍東宮。太子賜以所服貂蟬，並降令書，悅是舉也。尋為吳郡太守，主書芮珍宗家在吳，前守宰皆傾意附之。至是珍宗假還，規遇之甚薄，珍宗還都，密奏規不理郡事。俄徵為左戶尚書。郡境千餘人詣闕請留，表三奏不許。求于郡樹碑，許之。",
+      "note": "本句按敘述視點回指綱。",
+      "chapter_id": "c-nanshi-022-wanggui",
+      "book_id": "b-nanshi-022",
+      "work_id": "w-nanshi",
+      "source_id": "s-nanshi-022-wanggui-ws1477957"
+    },
+    {
+      "start": 83,
+      "end": 85,
+      "surface": "太子",
+      "id": "c-nanshi-022-wanggui:p004:r0083",
+      "paragraph_id": "c-nanshi-022-wanggui:p004",
+      "person_id": "rtd_v0b_nyn",
+      "referent_role": "third_person",
+      "quote": "六年，武帝於文德殿餞廣州刺史元景隆，詔群臣賦詩，同用五十韻。規援筆立奏，其文又美，武帝嘉焉，即日授侍中。後為晉安王長史。王立為太子，仍為散騎常侍、太子中庶子，侍東宮。太子賜以所服貂蟬，並降令書，悅是舉也。尋為吳郡太守，主書芮珍宗家在吳，前守宰皆傾意附之。至是珍宗假還，規遇之甚薄，珍宗還都，密奏規不理郡事。俄徵為左戶尚書。郡境千餘人詣闕請留，表三奏不許。求于郡樹碑，許之。",
+      "note": "本句按敘述視點回指綱。",
+      "chapter_id": "c-nanshi-022-wanggui",
+      "book_id": "b-nanshi-022",
+      "work_id": "w-nanshi",
+      "source_id": "s-nanshi-022-wanggui-ws1477957"
+    },
+    {
+      "start": 56,
+      "end": 59,
+      "surface": "皇太子",
+      "id": "c-nanshi-022-wanggui:p005:r0056",
+      "paragraph_id": "c-nanshi-022-wanggui:p005",
+      "person_id": "rtd_v0b_nyn",
+      "referent_role": "third_person",
+      "quote": "規常以門宗貴盛，恒思減退。後為太子中庶子，領步兵校尉，辭疾不拜，遂于鍾山宋熙寺築室居焉。卒，贈光祿大夫，諡曰文。皇太子出臨哭，與湘東王繹令曰：「王威明風韻遒上，神峰標映，千里絕跡，百尺無枝，實俊人也。一爾過隙，永歸長夜，金刀掩芒，長淮絕涸。去歲冬中，已傷劉子，今茲寒孟，復悼王生。俱往之傷，信非虛說。」規集後漢眾家異同，注續漢書二百卷。文集二十卷。",
+      "note": "本句按敘述視點回指綱。",
+      "chapter_id": "c-nanshi-022-wanggui",
+      "book_id": "b-nanshi-022",
+      "work_id": "w-nanshi",
+      "source_id": "s-nanshi-022-wanggui-ws1477957"
     }
   ],
   "person_ids": [
