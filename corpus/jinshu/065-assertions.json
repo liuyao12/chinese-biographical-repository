@@ -1391,6 +1391,138 @@
       "reviewer": "Codex（AI代理）",
       "human_reviewed": false,
       "model": null
+    },
+    {
+      "id": "a-jin065-yue-brother-tian",
+      "subject_person_id": "7r6_k52_qji_ABAAC",
+      "object_person_id": "7r6_k52_qji_ABAAB",
+      "predicate": "brother",
+      "qualifiers": {
+        "source_term": "弟",
+        "relative_birth_order": {
+          "older_person_id": "7r6_k52_qji_ABAAB",
+          "younger_person_id": "7r6_k52_qji_ABAAC",
+          "operator": "lt",
+          "scope": "siblings",
+          "older_ordinal": null,
+          "younger_ordinal": null
+        }
+      },
+      "evidence": [
+        {
+          "work_id": "w-jinshu",
+          "book_id": "b-jinshu-065",
+          "source_id": "s-jinshu-065-wangdao-family",
+          "chapter_id": "c-jinshu-065-wangdao-family",
+          "paragraph_id": "c-jinshu-065-wangdao-family:line066",
+          "quote": "悅無子，以弟恬子琨爲嗣，襲導爵丹陽尹，卒，贈太常。子嘏嗣，尚鄱陽公主，歷中領軍、尚書。卒，子恢嗣，義熙末，爲遊擊將軍。",
+          "subject_person_mention_id": "c-jinshu-065-wangdao-family:line066:m0006",
+          "object_person_mention_id": "c-jinshu-065-wangdao-family:line066:m0000"
+        }
+      ],
+      "interpretation_note": "悅無子，以弟恬子琨為嗣；本文稱恬為悅弟。",
+      "status": "source_attested",
+      "reviewer": "Codex（AI代理）",
+      "human_reviewed": false,
+      "model": null
+    },
+    {
+      "id": "a-jin065-mi-hua-elder",
+      "subject_person_id": "3c9_d1d_870",
+      "predicate": "agnatic_cousin",
+      "object_person_id": "7r6_k52_qji_ABAAFAB",
+      "qualifiers": {
+        "source_term": "從兄謐",
+        "kinship_structure": {
+          "lineage": "paternal",
+          "generation_difference": 0,
+          "collateral": true,
+          "distance": null,
+          "common_ancestor_person_id": null,
+          "subject_relative_age": "older"
+        },
+        "relative_birth_order": {
+          "older_person_id": "3c9_d1d_870",
+          "younger_person_id": "7r6_k52_qji_ABAAFAB",
+          "operator": "lt",
+          "scope": "agnatic_cousins",
+          "older_ordinal": null,
+          "younger_ordinal": null
+        }
+      },
+      "evidence": [
+        {
+          "work_id": "w-jinshu",
+          "book_id": "b-jinshu-065",
+          "chapter_id": "c-jinshu-065-wangdao-family",
+          "source_id": "s-jinshu-065-wangdao-family",
+          "paragraph_id": "c-jinshu-065-wangdao-family:line114",
+          "quote": "子廞，歷太子中庶子、司徒左長史。以母喪，居於呉。王恭舉兵，假廞建武將軍、呉國內史，令起軍，助爲聲援。廞即墨絰合眾，誅殺異己，仍遣前呉國內史虞嘯父等入呉興、義興聚兵，輕俠赴者萬計。廞自謂義兵一動，勢必未寧，可乘間而取富貴。而曾不旬日，國寶賜死，恭罷兵符，廞去職。廞大怒，回眾討恭。恭遣司馬劉牢之距戰于曲阿，廞眾潰奔走，遂不知所在。長子泰爲恭所殺，少子華以不知廞存亡，憂毀布衣蔬食。後從兄謐言其死所，華始發喪，入仕。",
+          "subject_person_mention_id": "c-jinshu-065-wangdao-family:line114:m0192",
+          "object_person_mention_id": "c-jinshu-065-wangdao-family:line114:m0198"
+        }
+      ],
+      "interpretation_note": "謐為王華從兄，告廞死所而後華始發喪。本句不說謐是廞從兄。",
+      "status": "source_attested",
+      "reviewer": "Codex（AI代理）",
+      "human_reviewed": false,
+      "model": null
+    },
+    {
+      "id": "a-jin065-cheng-yuliang-maternal-uncle",
+      "subject_person_id": "dkn_ge4_286_AAAAAAAAA",
+      "predicate": "maternal_uncle",
+      "object_person_id": "4qr_wrk_3vd_B",
+      "qualifiers": {
+        "source_term": "庾公帝之元舅",
+        "lineage": "maternal",
+        "generation_difference": -1,
+        "mother_person_id": null
+      },
+      "evidence": [
+        {
+          "work_id": "w-jinshu",
+          "book_id": "b-jinshu-065",
+          "chapter_id": "c-jinshu-065-wangdao-family",
+          "source_id": "s-jinshu-065-wangdao-family",
+          "paragraph_id": "c-jinshu-065-wangdao-family:line054",
+          "quote": "于時庾亮以望重地逼，出鎮於外。南蠻校尉陶稱間説亮當舉兵內向，或勸導密爲之防。導曰：「吾與元規休戚是同，悠悠之談，宜絶智者之口。則如君言，元規若來，吾便角巾還第，復何懼哉！」又與稱書，以爲庾公帝之元舅，宜善事之。於是讒間遂息。時亮雖居外鎮，而執朝廷之權，既據上流，擁強兵，趣向者多歸之。導內不能平，常遇西風塵起，舉扇自蔽，徐曰：「元規塵汙人。」",
+          "subject_person_mention_id": "c-jinshu-065-wangdao-family:line054:m0095",
+          "object_person_mention_id": "c-jinshu-065-wangdao-family:line054:m0093"
+        }
+      ],
+      "interpretation_note": "王導與陶稱書說庾公是帝之元舅。帝為成帝，庾公為亮，未以本句補母名。",
+      "status": "source_attested",
+      "reviewer": "Codex（AI代理）",
+      "human_reviewed": false,
+      "model": null
+    },
+    {
+      "id": "a-jin065-caimo-caike-son",
+      "subject_person_id": "b98_957_r7h",
+      "predicate": "father",
+      "object_person_id": "535_712_929",
+      "qualifiers": {
+        "source_term": "蔡克兒",
+        "lineage": "paternal"
+      },
+      "evidence": [
+        {
+          "work_id": "w-jinshu",
+          "book_id": "b-jinshu-065",
+          "chapter_id": "c-jinshu-065-wangdao-family",
+          "source_id": "s-jinshu-065-wangdao-family",
+          "paragraph_id": "c-jinshu-065-wangdao-family:line052",
+          "quote": "是歳，妻曹氏卒，贈金章紫綬。初，曹氏性妒，導甚憚之，乃密營別館，以處眾妾。曹氏知，將往焉。導恐妾被辱，遽令命駕，猶恐遲之，以所執麈尾柄驅牛而進。司徒蔡謨聞之，戲導曰：「朝廷欲加公九錫。」導弗之覺，但謙退而已。謨曰：「不聞餘物，惟有短轅犢車，長柄麈尾。」導大怒，謂人曰：「吾往與群賢共遊洛中，何曾聞有蔡克兒也。」",
+          "subject_person_mention_id": "c-jinshu-065-wangdao-family:line052:m0104",
+          "object_person_mention_id": "c-jinshu-065-wangdao-family:line052:m0149"
+        }
+      ],
+      "interpretation_note": "蔡謨以九錫戲導；導言蔡克兒，即蔡謨為蔡克子。",
+      "status": "source_attested",
+      "reviewer": "Codex（AI代理）",
+      "human_reviewed": false,
+      "model": null
     }
   ]
 }
