@@ -1,0 +1,125 @@
+{
+  "format_version": "0.2",
+  "record_type": "marked_chapter",
+  "id": "c-nanqishu-002-peihuizhao-death",
+  "work_id": "w-nanqishu",
+  "book_id": "b-nanqishu-002",
+  "source_id": "s-nanqishu-002-peihuizhao-death-ws2312009",
+  "title": "皇太子妃裴氏薨",
+  "source": {
+    "title": "南齊書/卷2·皇太子妃裴氏薨",
+    "provider": "Wikisource",
+    "url": "https://zh.wikisource.org/wiki/南齊書/卷2",
+    "permalink": "https://zh.wikisource.org/w/index.php?title=南齊書/卷2&oldid=2312009",
+    "edition": "固定數位見證",
+    "revision_id": 2312009,
+    "accessed_on": "2026-11-21",
+    "text_scope": "partial_chapter",
+    "extent": "所引親屬或紀年句",
+    "image_verified": false,
+    "review_status": "text_checked",
+    "raw_path": "source-evidence/nanshi022-wangjian/nanqi002-ws2312009.wikitext",
+    "raw_file_sha256": "336ce89c3a62671c73192ac1c3d91e5cde2cdd7d42568bf624058bf70805ce9e",
+    "rights": "原典本文及可追溯校記",
+    "license_url": "https://zh.wikisource.org/wiki/Wikisource:著作權資訊",
+    "normalization": {
+      "character_conversion": {},
+      "extraction_note": "保留傳本文字及今本補字方括；排版界符和另存的校記依原字位投影。"
+    }
+  },
+  "annotation": {
+    "status": "reviewed",
+    "modern_collation_reports": [],
+    "person_reference_occurrences": [
+      {
+        "id": "c-nanqishu-002-peihuizhao-death:p001:r0003",
+        "person_id": "262_b8f_4ie_AA",
+        "paragraph_id": "c-nanqishu-002-peihuizhao-death:p001",
+        "start": 3,
+        "end": 7,
+        "surface": "皇太子妃",
+        "quote": "戊午，皇太子妃裴氏薨。",
+        "referent_role": "third_person",
+        "note": "依該段前後稱謂。"
+      }
+    ],
+    "narrative_readings": [
+      {
+        "event_type": "death",
+        "person_ids": [
+          "262_b8f_4ie_AA"
+        ],
+        "source_anchor": {
+          "paragraph_id": "c-nanqishu-002-peihuizhao-death:p001",
+          "start": 0,
+          "end": 10,
+          "surface": "戊午，皇太子妃裴氏薨"
+        },
+        "evidence": [
+          {
+            "work_id": "w-nanqishu",
+            "book_id": "b-nanqishu-002",
+            "source_id": "s-nanqishu-002-peihuizhao-death-ws2312009",
+            "chapter_id": "c-nanqishu-002-peihuizhao-death",
+            "paragraph_id": "c-nanqishu-002-peihuizhao-death:p001",
+            "quote": "戊午，皇太子妃裴氏薨"
+          }
+        ],
+        "interpretation_note": "本紀卷首建元二年，當行開頭秋七月甲寅，下記戊午薨。",
+        "era": "建元",
+        "year": 2,
+        "ce_year": 480,
+        "lunar_month": 7,
+        "sexagenary_day": "戊午"
+      }
+    ],
+    "reviewer": "Codex（AI 代理）",
+    "human_reviewed": false,
+    "model": null
+  },
+  "paragraphs": [
+    {
+      "id": "c-nanqishu-002-peihuizhao-death:p001",
+      "text": "戊午，皇太子妃裴氏薨。",
+      "mentions": [
+        {
+          "id": "c-nanqishu-002-peihuizhao-death:p001:m0007",
+          "person_id": "262_b8f_4ie_AA",
+          "start": 7,
+          "end": 9,
+          "surface": "裴氏",
+          "kind": "person",
+          "status": "contextual_provisional",
+          "interpretation_note": "依該段姓名及上下文。"
+        }
+      ],
+      "text_layer": "received_chapter",
+      "annotation_status": "reviewed",
+      "source_position": {
+        "revision_id": 2312009,
+        "first_line": 46,
+        "last_line": 46,
+        "line_start": 23,
+        "line_end": 34,
+        "raw_start": 3863,
+        "raw_end": 3874,
+        "raw_character_offsets": [
+          3863,
+          3864,
+          3865,
+          3866,
+          3867,
+          3868,
+          3869,
+          3870,
+          3871,
+          3872,
+          3873
+        ],
+        "projection_sha256": "8cbc457bf02cc5f3a5fa2ba9666a0e0ccc91c24f2429a41fdc2e63694376e61d",
+        "source_layer": "received_biography"
+      }
+    }
+  ],
+  "text_sha256": "6c65e785737af482d3cb0e3c214eb005bc468b893f34b62060ee823ffa59d658"
+}

@@ -19,6 +19,14 @@ def posthumous_gift_valid(holding, paragraphs, mentions, life_events=None):
         return gift_valid(holding, paragraphs, mentions, life_events or {})
     if not isinstance(basis, dict):
         return False
+    if basis.get('kind') == 'banquet_host_before_biography_topic_death':
+        try: from scripts.wangchong_gift import valid
+        except ImportError: from wangchong_gift import valid
+        return valid(holding, paragraphs, mentions, life_events or {})
+    if basis.get('kind') == 'nanshi021_brother_death_and_testamentary_gift':
+        try: from scripts.wangwei_gift import valid
+        except ImportError: from wangwei_gift import valid
+        return valid(holding, paragraphs, mentions, life_events or {})
     if basis.get('kind') == 'continued_topic_named_offices_after_death':
         try: from scripts.continued_topic_office_gift import valid
         except ImportError: from continued_topic_office_gift import valid

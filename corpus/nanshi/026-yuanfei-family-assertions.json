@@ -1,0 +1,185 @@
+{
+  "format_version": "0.2",
+  "record_type": "person_assertion_set",
+  "chapter_id": "c-nanshi-026-yuanfei-family",
+  "assertions": [
+    {
+      "id": "a-nanshi-026-yuanfei-family-father-tuan",
+      "subject_person_id": "x6r_6az_6zn",
+      "object_person_id": "xxh_xtr_3f9_AB",
+      "predicate": "father",
+      "qualifiers": {
+        "source_term": "覬之子",
+        "pei_kin_frame": "father-tuan",
+        "lineage": "paternal"
+      },
+      "status": "source_attested",
+      "evidence": [
+        {
+          "work_id": "w-nanshi",
+          "book_id": "b-nanshi-026",
+          "source_id": "s-nanshi-026-yuanfei-family-ws1477359",
+          "chapter_id": "c-nanshi-026-yuanfei-family",
+          "paragraph_id": "c-nanshi-026-yuanfei-family:p001",
+          "quote": "彖字偉才，顗弟覬之子也。",
+          "subject_person_mention_id": "c-nanshi-026-yuanfei-family:p001:m0000",
+          "object_person_mention_id": "c-nanshi-026-yuanfei-family:p001:m0007"
+        }
+      ],
+      "interpretation_note": "依固定原句核對稱謂及親屬方向。",
+      "reviewer": "Codex（AI 代理）",
+      "human_reviewed": false,
+      "model": null
+    },
+    {
+      "id": "a-nanshi-026-yuanfei-family-spouse",
+      "subject_person_id": "xxh_xtr_3f9_ABA",
+      "object_person_id": "x3q_cqm_dup",
+      "predicate": "spouse",
+      "qualifiers": {
+        "source_term": "彖妹為竟陵王子良妃",
+        "pei_kin_frame": "spouse"
+      },
+      "status": "source_attested",
+      "evidence": [
+        {
+          "work_id": "w-nanshi",
+          "book_id": "b-nanshi-026",
+          "source_id": "s-nanshi-026-yuanfei-family-ws1477359",
+          "chapter_id": "c-nanshi-026-yuanfei-family",
+          "paragraph_id": "c-nanshi-026-yuanfei-family:p002",
+          "quote": "彖妹為竟陵王子良妃，子良世子昭胄時年八歲，見武帝而形容慘悴，帝問其故，昭胄流涕曰：「臣舅負罪，今在尚方，臣母悲泣不食已積日，臣所以不寧。」帝曰：「特為兒赦之。」",
+          "subject_person_reference_id": "c-nanshi-026-yuanfei-family:p002:r0001",
+          "object_person_mention_id": "c-nanshi-026-yuanfei-family:p002:m0006"
+        }
+      ],
+      "interpretation_note": "依固定原句核對稱謂及親屬方向。",
+      "reviewer": "Codex（AI 代理）",
+      "human_reviewed": false,
+      "model": null
+    },
+    {
+      "id": "a-nanshi-026-yuanfei-family-sister",
+      "subject_person_id": "x6r_6az_6zn",
+      "object_person_id": "xxh_xtr_3f9_ABA",
+      "predicate": "sister",
+      "qualifiers": {
+        "source_term": "彖妹",
+        "pei_kin_frame": "sister",
+        "relative_birth_order": {
+          "operator": "lt",
+          "scope": "siblings",
+          "older_person_id": "x6r_6az_6zn",
+          "younger_person_id": "xxh_xtr_3f9_ABA",
+          "older_ordinal": null,
+          "younger_ordinal": null
+        }
+      },
+      "status": "source_attested",
+      "evidence": [
+        {
+          "work_id": "w-nanshi",
+          "book_id": "b-nanshi-026",
+          "source_id": "s-nanshi-026-yuanfei-family-ws1477359",
+          "chapter_id": "c-nanshi-026-yuanfei-family",
+          "paragraph_id": "c-nanshi-026-yuanfei-family:p002",
+          "quote": "彖妹為竟陵王子良妃，子良世子昭胄時年八歲，見武帝而形容慘悴，帝問其故，昭胄流涕曰：「臣舅負罪，今在尚方，臣母悲泣不食已積日，臣所以不寧。」帝曰：「特為兒赦之。」",
+          "subject_person_mention_id": "c-nanshi-026-yuanfei-family:p002:m0000",
+          "object_person_reference_id": "c-nanshi-026-yuanfei-family:p002:r0001"
+        }
+      ],
+      "interpretation_note": "依固定原句核對稱謂及親屬方向。",
+      "reviewer": "Codex（AI 代理）",
+      "human_reviewed": false,
+      "model": null
+    },
+    {
+      "id": "a-nanshi-026-yuanfei-family-maternal",
+      "subject_person_id": "x3q_cqm_dup_A",
+      "object_person_id": "xxh_xtr_3f9_ABA",
+      "predicate": "maternal_role",
+      "qualifiers": {
+        "source_term": "臣母",
+        "pei_kin_frame": "maternal",
+        "role": "mother_unspecified",
+        "biological_mother": null,
+        "father_person_id": null
+      },
+      "status": "source_attested",
+      "evidence": [
+        {
+          "work_id": "w-nanshi",
+          "book_id": "b-nanshi-026",
+          "source_id": "s-nanshi-026-yuanfei-family-ws1477359",
+          "chapter_id": "c-nanshi-026-yuanfei-family",
+          "paragraph_id": "c-nanshi-026-yuanfei-family:p002",
+          "quote": "彖妹為竟陵王子良妃，子良世子昭胄時年八歲，見武帝而形容慘悴，帝問其故，昭胄流涕曰：「臣舅負罪，今在尚方，臣母悲泣不食已積日，臣所以不寧。」帝曰：「特為兒赦之。」",
+          "subject_person_mention_id": "c-nanshi-026-yuanfei-family:p002:m0035",
+          "object_person_reference_id": "c-nanshi-026-yuanfei-family:p002:r0053"
+        }
+      ],
+      "interpretation_note": "依固定原句核對稱謂及親屬方向。",
+      "reviewer": "Codex（AI 代理）",
+      "human_reviewed": false,
+      "model": null
+    },
+    {
+      "id": "a-nanshi-026-yuanfei-family-uncle",
+      "subject_person_id": "x3q_cqm_dup_A",
+      "object_person_id": "x6r_6az_6zn",
+      "predicate": "maternal_uncle",
+      "qualifiers": {
+        "source_term": "臣舅",
+        "pei_kin_frame": "uncle",
+        "lineage": "maternal",
+        "generation_difference": -1,
+        "mother_person_id": "xxh_xtr_3f9_ABA"
+      },
+      "status": "source_attested",
+      "evidence": [
+        {
+          "work_id": "w-nanshi",
+          "book_id": "b-nanshi-026",
+          "source_id": "s-nanshi-026-yuanfei-family-ws1477359",
+          "chapter_id": "c-nanshi-026-yuanfei-family",
+          "paragraph_id": "c-nanshi-026-yuanfei-family:p002",
+          "quote": "彖妹為竟陵王子良妃，子良世子昭胄時年八歲，見武帝而形容慘悴，帝問其故，昭胄流涕曰：「臣舅負罪，今在尚方，臣母悲泣不食已積日，臣所以不寧。」帝曰：「特為兒赦之。」",
+          "subject_person_mention_id": "c-nanshi-026-yuanfei-family:p002:m0035",
+          "object_person_reference_id": "c-nanshi-026-yuanfei-family:p002:r0043"
+        }
+      ],
+      "interpretation_note": "依固定原句核對稱謂及親屬方向。",
+      "reviewer": "Codex（AI 代理）",
+      "human_reviewed": false,
+      "model": null
+    },
+    {
+      "id": "a-nanshi-026-yuanfei-family-father-zhaozhou",
+      "subject_person_id": "x3q_cqm_dup_A",
+      "object_person_id": "x3q_cqm_dup",
+      "predicate": "father",
+      "qualifiers": {
+        "source_term": "子良世子昭胄",
+        "pei_kin_frame": "father-zhaozhou",
+        "lineage": "paternal"
+      },
+      "status": "source_attested",
+      "evidence": [
+        {
+          "work_id": "w-nanshi",
+          "book_id": "b-nanshi-026",
+          "source_id": "s-nanshi-026-yuanfei-family-ws1477359",
+          "chapter_id": "c-nanshi-026-yuanfei-family",
+          "paragraph_id": "c-nanshi-026-yuanfei-family:p002",
+          "quote": "彖妹為竟陵王子良妃，子良世子昭胄時年八歲，見武帝而形容慘悴，帝問其故，昭胄流涕曰：「臣舅負罪，今在尚方，臣母悲泣不食已積日，臣所以不寧。」帝曰：「特為兒赦之。」",
+          "subject_person_mention_id": "c-nanshi-026-yuanfei-family:p002:m0014",
+          "object_person_mention_id": "c-nanshi-026-yuanfei-family:p002:m0010"
+        }
+      ],
+      "interpretation_note": "依固定原句核對稱謂及親屬方向。",
+      "reviewer": "Codex（AI 代理）",
+      "human_reviewed": false,
+      "model": null
+    }
+  ]
+}
