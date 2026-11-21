@@ -1,0 +1,255 @@
+{
+  "schema_version": 1,
+  "id": "23q_wcp_hny_D",
+  "canonical_person_id": "23q_wcp_hny_D",
+  "label": "崔景淵",
+  "identity_note": null,
+  "review": "ai_provisional",
+  "names": [
+    "景淵"
+  ],
+  "titles": [],
+  "addresses": [],
+  "occurrences": [
+    {
+      "number": 24,
+      "category": "",
+      "title": "崔道固及子嗣附敘",
+      "paragraph_id": "c-weishu-weishou-024-cuidaogu:p009",
+      "count": 1,
+      "raw_count": 1,
+      "duplicate_count": 0,
+      "counting_policy": "independent_fixed_witness_occurrences",
+      "quote": "景業弟景淵，亦有別功，賜爵武城男。鷹揚將軍、平齊太守。卒於郡。",
+      "paragraph_ids": [
+        "c-weishu-weishou-024-cuidaogu:p009"
+      ],
+      "mention_ids": [
+        "c-weishu-weishou-024-cuidaogu:p009:m0003"
+      ],
+      "mention_paragraph_ids": {
+        "c-weishu-weishou-024-cuidaogu:p009:m0003": "c-weishu-weishou-024-cuidaogu:p009"
+      },
+      "mention_id": "c-weishu-weishou-024-cuidaogu:p009:m0003",
+      "occurrence_groups": [
+        {
+          "canonical_mention_id": "c-weishu-weishou-024-cuidaogu:p009:m0003",
+          "mention_ids": [
+            "c-weishu-weishou-024-cuidaogu:p009:m0003"
+          ],
+          "kind": "paragraph"
+        }
+      ],
+      "work_id": "w-weishu-weishou",
+      "book_id": "b-weishu-weishou-024",
+      "chapter_id": "c-weishu-weishou-024-cuidaogu",
+      "source_id": "s-weishu-weishou-024-cuidaogu-ws2021236",
+      "work_title": "魏書（魏收）"
+    }
+  ],
+  "table_occurrences": [],
+  "sources": [
+    {
+      "chapter_id": "c-weishu-weishou-024-cuidaogu",
+      "work_id": "w-weishu-weishou",
+      "book_id": "b-weishu-weishou-024",
+      "source_id": "s-weishu-weishou-024-cuidaogu-ws2021236",
+      "source": {
+        "title": "魏書卷24·崔道固及子嗣附敘",
+        "provider": "Wikisource",
+        "url": "https://zh.wikisource.org/w/index.php?title=魏書/卷24&oldid=2021236",
+        "permalink": "https://zh.wikisource.org/w/index.php?title=魏書/卷24&oldid=2021236",
+        "revision_id": 2021236,
+        "accessed_on": "2026-11-20",
+        "edition": "維基文庫固定數位轉錄。所據印本及武英殿本書影待核。",
+        "extent": "自「顯祖時，有崔道固」至「卒於郡。」九個原段，含道固完整傳文、景徽、景業、景淵三段。下接道固兄目連子僧祐，另篇處理。",
+        "text_scope": "partial_chapter",
+        "image_verified": false,
+        "review_status": "text_checked",
+        "license_url": "https://creativecommons.org/licenses/by-sa/4.0/",
+        "rights": "古代正文與維基文庫數位轉錄，保留歸屬。",
+        "section_locator": "宗族 崔道固；崔道固長子 崔景徽至崔道固三子 崔景淵",
+        "normalization": {
+          "character_conversion": {},
+          "extraction_note": "依固定修訂原始 wikitext 逐碼點定位。正文移出 ref 校記、分段標題與段間換行。"
+        },
+        "raw_path": "sources/weishu-weishou/weishu024-ws2021236.wikitext",
+        "raw_file_sha256": "ba4e2e3039f12549b34dcefce3c04de4b9d5fa5c77ad6986018694d2d7713045",
+        "raw_url": "https://zh.wikisource.org/w/index.php?title=魏書/卷24&oldid=2021236&action=raw"
+      }
+    }
+  ],
+  "relations": [
+    {
+      "id": "a-weishu-weishou-024-cuidaogu-m0000-p09-m0003-brother",
+      "subject_person_id": "23q_wcp_hny_C",
+      "predicate": "brother",
+      "object_person_id": "23q_wcp_hny_D",
+      "status": "source_attested",
+      "qualifiers": {
+        "source_term": "景業弟景淵",
+        "relative_birth_order": {
+          "older_person_id": "23q_wcp_hny_C",
+          "younger_person_id": "23q_wcp_hny_D",
+          "operator": "lt",
+          "scope": "siblings",
+          "older_ordinal": null,
+          "younger_ordinal": null
+        }
+      },
+      "evidence": [
+        {
+          "work_id": "w-weishu-weishou",
+          "book_id": "b-weishu-weishou-024",
+          "source_id": "s-weishu-weishou-024-cuidaogu-ws2021236",
+          "chapter_id": "c-weishu-weishou-024-cuidaogu",
+          "paragraph_id": "c-weishu-weishou-024-cuidaogu:p009",
+          "quote": "景業弟景淵，亦有別功，賜爵武城男。鷹揚將軍、平齊太守。卒於郡。",
+          "subject_person_mention_id": "c-weishu-weishou-024-cuidaogu:p009:m0000",
+          "object_person_mention_id": "c-weishu-weishou-024-cuidaogu:p009:m0003"
+        }
+      ],
+      "interpretation_note": "親稱保存相對長幼，未據此補母親或絕對排行。",
+      "reviewer": "Codex（AI代理）",
+      "human_reviewed": false,
+      "model": null
+    }
+  ],
+  "related_people": {
+    "23q_wcp_hny_C": "崔景業",
+    "23q_wcp_hny_D": "崔景淵"
+  },
+  "dates": [],
+  "name_components": [],
+  "person_ids": [
+    "23q_wcp_hny_D"
+  ],
+  "inferred_parent_paths": [
+    {
+      "connection": "father",
+      "generation_distance": 1,
+      "parent_person_id": "23q_wcp_hny",
+      "source_assertion_id": null,
+      "parent_connection": {
+        "type": "shared_father_through_siblings",
+        "sibling_assertion_ids": [
+          "a-weishu-weishou-024-cuidaogu-m0000-p09-m0003-brother",
+          "a-weishu-weishou-024-cuidaogu-m0000-p08-m0003-brother"
+        ],
+        "sibling_father_assertion_id": "a-weishu-weishou-024-cuidaogu-m0341-p04-m0033-father"
+      },
+      "evidence": [
+        {
+          "work_id": "w-weishu-weishou",
+          "book_id": "b-weishu-weishou-024",
+          "source_id": "s-weishu-weishou-024-cuidaogu-ws2021236",
+          "chapter_id": "c-weishu-weishou-024-cuidaogu",
+          "paragraph_id": "c-weishu-weishou-024-cuidaogu:p009",
+          "quote": "景業弟景淵，亦有別功，賜爵武城男。鷹揚將軍、平齊太守。卒於郡。",
+          "subject_person_mention_id": "c-weishu-weishou-024-cuidaogu:p009:m0000",
+          "object_person_mention_id": "c-weishu-weishou-024-cuidaogu:p009:m0003",
+          "source_term": "景業弟景淵",
+          "source_assertion_id": "a-weishu-weishou-024-cuidaogu-m0000-p09-m0003-brother"
+        },
+        {
+          "work_id": "w-weishu-weishou",
+          "book_id": "b-weishu-weishou-024",
+          "source_id": "s-weishu-weishou-024-cuidaogu-ws2021236",
+          "chapter_id": "c-weishu-weishou-024-cuidaogu",
+          "paragraph_id": "c-weishu-weishou-024-cuidaogu:p008",
+          "quote": "景徽弟景業，字文季。別有功，太和中，賜爵昌國子，加建威將軍。卒。子休緒襲爵，員外郎。",
+          "subject_person_mention_id": "c-weishu-weishou-024-cuidaogu:p008:m0000",
+          "object_person_mention_id": "c-weishu-weishou-024-cuidaogu:p008:m0003",
+          "source_term": "景徽弟景業",
+          "source_assertion_id": "a-weishu-weishou-024-cuidaogu-m0000-p08-m0003-brother"
+        },
+        {
+          "work_id": "w-weishu-weishou",
+          "book_id": "b-weishu-weishou-024",
+          "source_id": "s-weishu-weishou-024-cuidaogu-ws2021236",
+          "chapter_id": "c-weishu-weishou-024-cuidaogu",
+          "paragraph_id": "c-weishu-weishou-024-cuidaogu:p004",
+          "quote": "皇興初，顯祖詔征南大將軍慕容白曜固築長圍以守之。及白曜攻其城東郭，道固面縛請罪，表曰：「臣資生南境，限隔大化，本朝不以卑末，委授藩任。而劉氏蕭牆內侮，懼貽大戮，前遣崔啟之奉表歸誠，幸蒙陛下過垂矜納，并賜爵寵，慶佩罔極，應奔闕庭。但劉彧尋續遣使，恕臣百死。愚以世奉劉氏，深愆蒙宥，若猶違背，則是不忠於本朝，而欲求忠於大魏。雖曰希生，懼大魏之所不許。是用迷回，孤負天日，冒萬死之艱，固執拒守。僕臣白曜，振曜威靈，漸經二載，大將臨城，以今月十四日，臣東郭失守，於臣款彧之誠，庶可以彰於大魏矣。臣勢窮力屈，以十七日面縛請罪，白曜奉宣皇恩，恕臣生命。斯實陛下起臣死尸，肉臣朽骨，天地造物所不能行，而陛下育之。雖虞舜之貸有苗，姬文之宥崇壘，方之聖澤，未足以喻。既未奉朝旨，無由親馳道路，謹遣大息景徽，束骸歸闕，伏聽刑斧。」",
+          "subject_person_mention_id": "c-weishu-weishou-024-cuidaogu:p004:m0341",
+          "object_person_mention_id": "c-weishu-weishou-024-cuidaogu:p004:m0033",
+          "source_term": "大息景徽",
+          "source_assertion_id": "a-weishu-weishou-024-cuidaogu-m0341-p04-m0033-father"
+        }
+      ],
+      "status": "contextual_provisional",
+      "human_reviewed": false,
+      "interpretation_note": "魏書從景淵循景業、景徽的兄弟原句至道固大息，據此暫接。 來源並未逐子重述父名。",
+      "person_id": "23q_wcp_hny_D"
+    }
+  ],
+  "preferred_relations": [
+    {
+      "id": "a-weishu-weishou-024-cuidaogu-m0000-p09-m0003-brother",
+      "subject_person_id": "23q_wcp_hny_C",
+      "predicate": "brother",
+      "object_person_id": "23q_wcp_hny_D",
+      "status": "source_attested",
+      "qualifiers": {
+        "source_term": "景業弟景淵",
+        "relative_birth_order": {
+          "older_person_id": "23q_wcp_hny_C",
+          "younger_person_id": "23q_wcp_hny_D",
+          "operator": "lt",
+          "scope": "siblings",
+          "older_ordinal": null,
+          "younger_ordinal": null
+        }
+      },
+      "evidence": [
+        {
+          "work_id": "w-weishu-weishou",
+          "book_id": "b-weishu-weishou-024",
+          "source_id": "s-weishu-weishou-024-cuidaogu-ws2021236",
+          "chapter_id": "c-weishu-weishou-024-cuidaogu",
+          "paragraph_id": "c-weishu-weishou-024-cuidaogu:p009",
+          "quote": "景業弟景淵，亦有別功，賜爵武城男。鷹揚將軍、平齊太守。卒於郡。",
+          "subject_person_mention_id": "c-weishu-weishou-024-cuidaogu:p009:m0000",
+          "object_person_mention_id": "c-weishu-weishou-024-cuidaogu:p009:m0003"
+        }
+      ],
+      "interpretation_note": "親稱保存相對長幼，未據此補母親或絕對排行。",
+      "reviewer": "Codex（AI代理）",
+      "human_reviewed": false,
+      "model": null
+    }
+  ],
+  "age_assertions": [],
+  "life_events": [
+    {
+      "id": "le-weishu-weishou-024-cuidaogu-p009-death",
+      "person_id": "23q_wcp_hny_D",
+      "event_type": "death",
+      "status": "source_attested",
+      "source_anchor": {
+        "paragraph_id": "c-weishu-weishou-024-cuidaogu:p009",
+        "start": 27,
+        "end": 30,
+        "surface": "卒於郡"
+      },
+      "source_term": "卒於郡",
+      "evidence": [
+        {
+          "work_id": "w-weishu-weishou",
+          "book_id": "b-weishu-weishou-024",
+          "source_id": "s-weishu-weishou-024-cuidaogu-ws2021236",
+          "chapter_id": "c-weishu-weishou-024-cuidaogu",
+          "paragraph_id": "c-weishu-weishou-024-cuidaogu:p009",
+          "quote": "景淵，亦有別功，賜爵武城男。鷹揚將軍、平齊太守。卒於郡。",
+          "person_mention_id": "c-weishu-weishou-024-cuidaogu:p009:m0003"
+        }
+      ],
+      "date_expression": null,
+      "interpretation_note": "原句報卒，保留所述官職、報齡及紀年之範圍。",
+      "reviewer": "Codex（AI代理）",
+      "human_reviewed": false,
+      "model": null
+    }
+  ],
+  "life_event_date_decisions": [],
+  "selected_life_event_dates": []
+}

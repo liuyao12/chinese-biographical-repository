@@ -1,0 +1,124 @@
+{
+  "format_version": "0.2",
+  "record_type": "person_life_event_assertion_set",
+  "chapter_id": "c-beishi-044-cuidaogu",
+  "events": [
+    {
+      "id": "le-beishi-044-cuidaogu-p004-death",
+      "person_id": "23q_wcp_hny",
+      "event_type": "death",
+      "status": "source_attested",
+      "source_anchor": {
+        "paragraph_id": "c-beishi-044-cuidaogu:p004",
+        "start": 99,
+        "end": 103,
+        "surface": "延興中卒"
+      },
+      "source_term": "延興中卒",
+      "evidence": [
+        {
+          "work_id": "w-beishi",
+          "book_id": "b-beishi-044",
+          "source_id": "s-beishi-044-cuidaogu-ws2183262",
+          "chapter_id": "c-beishi-044-cuidaogu",
+          "paragraph_id": "c-beishi-044-cuidaogu:p004",
+          "quote": "道固為太守，賜爵臨淄子。尋徙居京城西南二百餘里舊除館之西。延興中卒，子景徽襲爵。",
+          "person_mention_id": "c-beishi-044-cuidaogu:p004:m0070"
+        }
+      ],
+      "date_expression": "延興中",
+      "interpretation_note": "原句報卒，保留所述官職、報齡及紀年之範圍。",
+      "reviewer": "Codex（AI代理）",
+      "human_reviewed": false,
+      "model": null,
+      "normalized_date_range": {
+        "basis": "within_named_era",
+        "calendar": "chinese_civil",
+        "precision": "year_range",
+        "year_numbering": "astronomical",
+        "status": "editorial_provisional",
+        "source_expression": "延興中",
+        "source_stage": "中",
+        "earliest": {
+          "era": "CE",
+          "era_year": 471,
+          "year": 471
+        },
+        "latest": {
+          "era": "CE",
+          "era_year": 476,
+          "year": 476
+        },
+        "original_quote": "道固為太守，賜爵臨淄子。尋徙居京城西南二百餘里舊除館之西。延興中卒，子景徽襲爵。",
+        "evidence": [
+          {
+            "work_id": "w-beishi",
+            "book_id": "b-beishi-044",
+            "source_id": "s-beishi-044-cuidaogu-ws2183262",
+            "chapter_id": "c-beishi-044-cuidaogu",
+            "paragraph_id": "c-beishi-044-cuidaogu:p004",
+            "quote": "道固為太守，賜爵臨淄子。尋徙居京城西南二百餘里舊除館之西。延興中卒，子景徽襲爵。",
+            "person_mention_id": "c-beishi-044-cuidaogu:p004:m0070"
+          }
+        ],
+        "references": [
+          {
+            "title": "教育部《重編國語辭典修訂本》附錄中國歷代年號表",
+            "url": "https://dict.revised.moe.edu.tw/appendix.jsp?ID=3&page=3",
+            "scope": "modern_era_year_equivalence_only",
+            "quote": "延興",
+            "columns": {
+              "dynasty": "北魏",
+              "era_name": "延興",
+              "first_year": "471",
+              "last_year": "476"
+            },
+            "accessed_on": "2026-11-20",
+            "image_verified": false
+          }
+        ],
+        "era_span_mapping": {
+          "kind": "ce_regnal_era_span",
+          "polity_source_name": "北魏",
+          "era_name": "延興",
+          "start_ce_year": 471,
+          "end_ce_year": 476,
+          "reference_index": 0
+        },
+        "rationale": "按北魏年號全距保留中國曆年界限，原文未指定其中一年。",
+        "reviewer": "Codex（AI代理）",
+        "human_reviewed": false,
+        "model": null
+      }
+    },
+    {
+      "id": "le-beishi-044-cuidaogu-p005-death",
+      "person_id": "23q_wcp_hny_B",
+      "event_type": "death",
+      "status": "source_attested",
+      "source_anchor": {
+        "paragraph_id": "c-beishi-044-cuidaogu:p005",
+        "start": 113,
+        "end": 119,
+        "surface": "卒于平州刺史"
+      },
+      "source_term": "卒于平州刺史",
+      "evidence": [
+        {
+          "work_id": "w-beishi",
+          "book_id": "b-beishi-044",
+          "source_id": "s-beishi-044-cuidaogu-ws2183262",
+          "chapter_id": "c-beishi-044-cuidaogu",
+          "paragraph_id": "c-beishi-044-cuidaogu:p005",
+          "quote": "景徽字文睿，卒于平州刺史，諡曰定。子休纂襲爵。",
+          "person_mention_id": "c-beishi-044-cuidaogu:p005:m0107"
+        }
+      ],
+      "date_expression": null,
+      "interpretation_note": "原句報卒，保留所述官職、報齡及紀年之範圍。",
+      "reviewer": "Codex（AI代理）",
+      "human_reviewed": false,
+      "model": null
+    }
+  ]
+}

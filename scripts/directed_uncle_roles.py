@@ -52,6 +52,17 @@ def _resumed_child_elder_uncle(p, subjects, objects, term):
 
 def _direction(p, subjects, objects, term):
     t = p['text']
+    # The nephew is the named subject throughout the escape and pardon. The
+    # passive clause then names his uncle immediately after the kin term.
+    for nephew in subjects:
+        if nephew['start'] != 0:
+            continue
+        for uncle in objects:
+            lead = t[nephew['end']:uncle['start']]
+            tail = t[uncle['end']:]
+            if (re.fullmatch(r'後謀反，事發逃竄，會赦免[。，]尋為其叔', lead)
+                    and tail == '所殺。' and term == '叔' + uncle['surface']):
+                return True
     if _resumed_child_elder_uncle(p, subjects, objects, term):
         return True
     # A paragraph resumes its named subject, gives descriptive clauses, then

@@ -577,6 +577,11 @@ def _validate_uncached(root=ROOT):
                 from referent_interpretations import interpretation_errors
             errors.extend(interpretation_errors(d, pids))
             try:
+                from scripts.person_references import reference_errors
+            except ModuleNotFoundError:
+                from person_references import reference_errors
+            errors.extend(reference_errors(d, pids))
+            try:
                 from scripts.source_excerpts import excerpt_errors
             except ImportError:
                 from source_excerpts import excerpt_errors
@@ -785,6 +790,14 @@ def _validate_uncached(root=ROOT):
             if 'family_tree_decision_id' in path:
                 check(path['family_tree_decision_id'] in tree_decision_ids, '家族路徑所據編輯決定不存在')
             check(bool(path.get('evidence')) and bool(path.get('interpretation_note')), '家族路徑缺少證據或判讀')
+            derived_path = 'parent_connection' in path
+            if derived_path:
+                try:
+                    from scripts.family_assemblies import registry_sibling_path_valid
+                except ModuleNotFoundError:
+                    from family_assemblies import registry_sibling_path_valid
+                check(registry_sibling_path_valid(person['id'], path, assertion_index),
+                      '暫定父系的兄弟鏈、明父或逐段引證不符')
             for evidence in path.get('evidence', []):
                 if evidence.get('kind') == 'table_cell':
                     try:
@@ -798,7 +811,7 @@ def _validate_uncached(root=ROOT):
                       and evidence.get('quote') == hit[1]['text']
                       and evidence.get('source_term', '') in hit[1]['text']
                       and chapters[hit[0]]['source_id'] == evidence.get('source_id'), '家族路徑來源與原文不符')
-                check(any(a.get('qualifiers', {}).get('adopted_for_family_tree') is not False
+                check(derived_path or any(a.get('qualifiers', {}).get('adopted_for_family_tree') is not False
                           and a.get('qualifiers', {}).get('lineage') != 'maternal'
                           and a['predicate'] == path.get('connection') and a['subject_person_id'] == person['id']
                           and a['object_person_id'] == parent
@@ -1944,6 +1957,14 @@ def _validate_uncached(root=ROOT):
                             context_errors = regnal_spouse_errors(a, chapters.get(d['chapter_id'], {}))
                             errors.extend(context_errors)
                             if not context_errors: adjacent=ids
+                        elif context.get('kind') == 'inscription_subject_family_list':
+                            try:
+                                from scripts.inscription_family_lists import valid as inscription_family_valid
+                            except ImportError:
+                                from inscription_family_lists import valid as inscription_family_valid
+                            check(inscription_family_valid(a, chapters[d['chapter_id']]),
+                                  '墓誌家屬須繫誌首具名傳主、誌末親稱與實際成員字位')
+                            adjacent = ids
                         elif context.get('kind') == 'biographical_children_list':
                             try:
                                 from scripts.biographical_children_lists import children_list_errors
@@ -2002,7 +2023,7 @@ def _validate_uncached(root=ROOT):
                             quoted={m['person_id'] for m in hit[1]['mentions'] if m['kind']=='person'
                                     and any(i<=m['start'] and m['end']<=i+len(quote) for i in starts)}
                             quoted_endpoints.append(quoted)
-                if adjacent is not None:
+                if adjacent is not None and context.get('kind') != 'inscription_subject_family_list':
                     check(len(quoted_endpoints)==len(adjacent) and a['object_person_id'] in quoted_endpoints[0]
                           and a['subject_person_id'] in quoted_endpoints[-1],
                           '人物陳述承接的前段客體及後段主體未見於引句')

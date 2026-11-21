@@ -127,10 +127,13 @@ def build(root=ROOT, person_ids=None):
         if b.get('person_source_preferences'):
             profile['person_source_preferences'] = b['person_source_preferences']
         if 'source_title_uses' in b: profile['source_title_uses'] = b['source_title_uses']
-        for key in ('source_temporal_attestations', 'unresolved_kinship_references', 'source_details', 'source_reading_cases'):
+        for key in ('source_temporal_attestations', 'unresolved_kinship_references', 'source_details', 'source_reading_cases', 'person_references'):
             if key in b: profile[key] = b[key]
         profile['person_ids'] = b['person_ids']
         profile['relations'] = b['relations']
+        inferred_paths = [path for path in b.get('family_paths', []) if path.get('parent_connection')]
+        if inferred_paths:
+            profile['inferred_parent_paths'] = inferred_paths
         profile['preferred_relations'] = b.get('preferred_relations', b['relations'])
         if b.get('relative_birth_order_decisions'):
             profile['relative_birth_order_decisions'] = b['relative_birth_order_decisions']
