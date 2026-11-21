@@ -1,9 +1,9 @@
 # -*- coding: utf-8 -*-
 import json
 from pathlib import Path
-import shutil
 import tempfile
 import unittest
+from corpus_validation_fixture import copy_validation_inputs
 from scripts.validate_corpus import validate
 from scripts.person_bundle import bundle
 ROOT=Path(__file__).resolve().parents[1]
@@ -19,7 +19,7 @@ class AgeDifferenceTests(unittest.TestCase):
     def mutate_errors(self,change):
         with tempfile.TemporaryDirectory() as temp:
             root=Path(temp)
-            for name in ('registry','corpus'):shutil.copytree(ROOT/name,root/name)
+            copy_validation_inputs(ROOT, root)
             path=root/'corpus/shiji/067.json';data=json.loads(path.read_text())
             change(data['annotation']['age_difference_assertions'][0])
             path.write_text(json.dumps(data,ensure_ascii=False))
