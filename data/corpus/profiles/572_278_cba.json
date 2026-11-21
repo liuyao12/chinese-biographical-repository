@@ -363,6 +363,41 @@
       "work_title": "南齊書"
     },
     {
+      "number": 48,
+      "category": "",
+      "title": "吳景帝孫休名、字及父原句",
+      "paragraph_id": "c-sanguozhi-048-wangsengqian-sunxiu:p001",
+      "count": 1,
+      "raw_count": 1,
+      "duplicate_count": 0,
+      "counting_policy": "independent_fixed_witness_occurrences",
+      "quote": "孫休字子烈，權第六子。",
+      "paragraph_ids": [
+        "c-sanguozhi-048-wangsengqian-sunxiu:p001"
+      ],
+      "mention_ids": [
+        "c-sanguozhi-048-wangsengqian-sunxiu:p001:m0006"
+      ],
+      "mention_paragraph_ids": {
+        "c-sanguozhi-048-wangsengqian-sunxiu:p001:m0006": "c-sanguozhi-048-wangsengqian-sunxiu:p001"
+      },
+      "mention_id": "c-sanguozhi-048-wangsengqian-sunxiu:p001:m0006",
+      "occurrence_groups": [
+        {
+          "canonical_mention_id": "c-sanguozhi-048-wangsengqian-sunxiu:p001:m0006",
+          "mention_ids": [
+            "c-sanguozhi-048-wangsengqian-sunxiu:p001:m0006"
+          ],
+          "kind": "paragraph"
+        }
+      ],
+      "work_id": "w-sanguozhi",
+      "book_id": "b-sanguozhi-048",
+      "chapter_id": "c-sanguozhi-048-wangsengqian-sunxiu",
+      "source_id": "s-sanguozhi-048-wangsengqian-sunxiu-ws2085142",
+      "work_title": "三國志"
+    },
+    {
       "number": 65,
       "category": "",
       "title": "王導及子孫附傳（卷六十五完整數位正文）",
@@ -4233,6 +4268,35 @@
               "image_verified": false
             }
           }
+        }
+      }
+    },
+    {
+      "chapter_id": "c-nanshi-022-wangsengqian",
+      "work_id": "w-nanshi",
+      "book_id": "b-nanshi-022",
+      "source_id": "s-nanshi-022-wangsengqian-ws1477957",
+      "source": {
+        "title": "南史卷二十二·王僧虔",
+        "provider": "Wikisource",
+        "url": "https://zh.wikisource.org/w/index.php?oldid=1477957",
+        "permalink": "https://zh.wikisource.org/w/index.php?oldid=1477957",
+        "revision_id": 1477957,
+        "accessed_on": "2026-11-19",
+        "edition": "維基文庫固定修訂1477957，武英殿本書影逐項參記。",
+        "extent": "第90行僧虔分題下首「僧虔，金紫光祿大夫僧綽弟也」，至第122行誡子書後「子慈」止。",
+        "text_scope": "partial_chapter",
+        "image_verified": false,
+        "review_status": "text_checked",
+        "license_url": "https://creativecommons.org/licenses/by-sa/4.0/",
+        "rights": "古代正文及維基文庫數位轉錄，保留見證歸屬。",
+        "section_locator": "===子 僧虔===",
+        "wikitext_sha256": "1fba4fa3cd43161db40d91f7330cd6cf685052cfaadb90d0a90869fd5ef3fa94",
+        "raw_path": "sources/nanshi/nanshi022-ws1477957.wikitext",
+        "raw_file_sha256": "1fba4fa3cd43161db40d91f7330cd6cf685052cfaadb90d0a90869fd5ef3fa94",
+        "normalization": {
+          "character_conversion": {},
+          "extraction_note": "僅去不轉換標記的界符。"
         }
       }
     },
@@ -8140,6 +8204,35 @@
           "character_conversion": {},
           "extraction_note": "只去版面符號、縮排及注括號；原字與逐字raw位置保存。",
           "excerpts": []
+        }
+      }
+    },
+    {
+      "chapter_id": "c-sanguozhi-048-wangsengqian-sunxiu",
+      "work_id": "w-sanguozhi",
+      "book_id": "b-sanguozhi-048",
+      "source_id": "s-sanguozhi-048-wangsengqian-sunxiu-ws2085142",
+      "source": {
+        "title": "吳景帝孫休名、字及父原句",
+        "provider": "Wikisource",
+        "url": "https://zh.wikisource.org/w/index.php?oldid=2085142",
+        "permalink": "https://zh.wikisource.org/w/index.php?oldid=2085142",
+        "revision_id": 2085142,
+        "accessed_on": "2026-11-19",
+        "edition": "固定修訂2085142",
+        "extent": "傳首或正文辨親原句。",
+        "text_scope": "partial_chapter",
+        "image_verified": false,
+        "review_status": "text_checked",
+        "license_url": "https://creativecommons.org/licenses/by-sa/4.0/",
+        "rights": "古代正文及維基文庫數位轉錄，保留見證歸屬。",
+        "section_locator": "第33行",
+        "wikitext_sha256": "2a0ed9c69dc827d835ac2444f18f35fb8815f54b94eb1a1346246808d18d6d1c",
+        "raw_path": "source-evidence/nanshi022-wangci/external/sgz48-ws2085142.wikitext",
+        "raw_file_sha256": "2a0ed9c69dc827d835ac2444f18f35fb8815f54b94eb1a1346246808d18d6d1c",
+        "normalization": {
+          "character_conversion": {},
+          "extraction_note": "僅去不轉換標記的界符。"
         }
       }
     },
@@ -13553,8 +13646,37 @@
       }
     }
   ],
-  "relations": [],
+  "relations": [
+    {
+      "id": "a-sanguozhi-048-wangsengqian-sunxiu-father-0",
+      "subject_person_id": "0fo_c5c_4yh",
+      "object_person_id": "572_278_cba",
+      "predicate": "father",
+      "status": "source_attested",
+      "qualifiers": {
+        "source_term": "權第六子",
+        "lineage": "paternal"
+      },
+      "evidence": [
+        {
+          "work_id": "w-sanguozhi",
+          "book_id": "b-sanguozhi-048",
+          "source_id": "s-sanguozhi-048-wangsengqian-sunxiu-ws2085142",
+          "chapter_id": "c-sanguozhi-048-wangsengqian-sunxiu",
+          "paragraph_id": "c-sanguozhi-048-wangsengqian-sunxiu:p001",
+          "quote": "孫休字子烈，權第六子。",
+          "subject_person_mention_id": "c-sanguozhi-048-wangsengqian-sunxiu:p001:m0000",
+          "object_person_mention_id": "c-sanguozhi-048-wangsengqian-sunxiu:p001:m0006"
+        }
+      ],
+      "interpretation_note": "原文兩個姓名與明示父子關係。",
+      "reviewer": "Codex（AI代理）",
+      "model": null,
+      "human_reviewed": false
+    }
+  ],
   "related_people": {
+    "0fo_c5c_4yh": "孫休（吳景帝，字子烈）",
     "572_278_cba": "孫仲謀（引古）"
   },
   "dates": [],
@@ -13594,10 +13716,55 @@
       "source_id": "s-sanguozhi-028-wangling"
     }
   ],
+  "person_references": [
+    {
+      "start": 165,
+      "end": 169,
+      "surface": "吳大皇帝",
+      "id": "c-nanshi-022-wangsengqian:p009:r0165",
+      "paragraph_id": "c-nanshi-022-wangsengqian:p009",
+      "person_id": "572_278_cba",
+      "referent_role": "third_person",
+      "quote": "高帝素善書，篤好不已，與僧虔賭書畢，謂曰：「誰為第一？」對曰：「臣書第一，陛下亦第一。」帝笑曰：「卿可謂善自為謀。」或云帝問：「我書何如卿？」答曰：「臣正書第一，草書第二；陛下草書第二，而正書第三。臣無第三，陛下無第一。」帝大笑曰：「卿善為辭；然天下有道，丘不與易也。」帝示僧虔古跡十一卷，就求能書人名。僧虔得人間所有卷中所無者：吳大皇帝、景帝、歸命侯書，桓玄書，及王丞相導、領軍洽、中書令瑉、張芝、索靖、衛伯儒、張翼十一卷，奏之。又上羊欣所撰能書人名一卷。遷湘州刺史，侍中如故。清簡不營財產，百姓安之。",
+      "note": "本句按敘述視點回指sunquan。",
+      "chapter_id": "c-nanshi-022-wangsengqian",
+      "book_id": "b-nanshi-022",
+      "work_id": "w-nanshi",
+      "source_id": "s-nanshi-022-wangsengqian-ws1477957"
+    }
+  ],
   "person_ids": [
     "572_278_cba"
   ],
-  "preferred_relations": [],
+  "preferred_relations": [
+    {
+      "id": "a-sanguozhi-048-wangsengqian-sunxiu-father-0",
+      "subject_person_id": "0fo_c5c_4yh",
+      "object_person_id": "572_278_cba",
+      "predicate": "father",
+      "status": "source_attested",
+      "qualifiers": {
+        "source_term": "權第六子",
+        "lineage": "paternal"
+      },
+      "evidence": [
+        {
+          "work_id": "w-sanguozhi",
+          "book_id": "b-sanguozhi-048",
+          "source_id": "s-sanguozhi-048-wangsengqian-sunxiu-ws2085142",
+          "chapter_id": "c-sanguozhi-048-wangsengqian-sunxiu",
+          "paragraph_id": "c-sanguozhi-048-wangsengqian-sunxiu:p001",
+          "quote": "孫休字子烈，權第六子。",
+          "subject_person_mention_id": "c-sanguozhi-048-wangsengqian-sunxiu:p001:m0000",
+          "object_person_mention_id": "c-sanguozhi-048-wangsengqian-sunxiu:p001:m0006"
+        }
+      ],
+      "interpretation_note": "原文兩個姓名與明示父子關係。",
+      "reviewer": "Codex（AI代理）",
+      "model": null,
+      "human_reviewed": false
+    }
+  ],
   "age_assertions": [],
   "life_events": [],
   "life_event_date_decisions": [],

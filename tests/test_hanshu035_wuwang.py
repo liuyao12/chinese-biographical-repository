@@ -20,7 +20,9 @@ class HanshuWu(unittest.TestCase):
  def test_work_catalog_tracks_all_imported_hanshu_books(self):
   from scripts.table_evidence import load_tables
   c=read('data/corpus/hanshu/index.json');books={x['number']:x for x in c['chapters']}
-  body_books={int(json.loads(p.read_text())['book_id'].rsplit('-',1)[1])for p in (ROOT/'corpus/hanshu').glob('[0-9][0-9][0-9].json')}
+  records=(json.loads(p.read_text()) for p in (ROOT/'corpus/hanshu').glob('*.json'))
+  body_books={int(record['book_id'].rsplit('-',1)[1]) for record in records
+              if record.get('record_type')=='marked_chapter' and record.get('work_id')=='w-hanshu'}
   native=[t for t in load_tables(ROOT).values()if t['source']['work_id']=='w-hanshu']
   table_books={int(t['source']['book_id'].rsplit('-',1)[1])for t in native}
   self.assertEqual(set(books),body_books|table_books);self.assertEqual(books[35]['text_scope'],'partial_chapter');self.assertEqual(books[35]['paragraph_count'],8)

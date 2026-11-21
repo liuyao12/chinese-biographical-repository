@@ -738,6 +738,54 @@
         ]
       },
       "period": "未定 → 未定"
+    },
+    {
+      "id": "th-nanshi022-wangsengqian-112-25",
+      "person_id": "7r6_k52_qji_ABAAAAEBA",
+      "title": "豫章內史",
+      "kind": "office",
+      "mode": "attestation",
+      "attestations": [
+        {
+          "id": "th-nanshi022-wangsengqian-112-25:a",
+          "paragraph_id": "c-nanshi-022-wangsengqian:p011",
+          "start": 25,
+          "end": 29,
+          "surface": "豫章內史",
+          "person_mention_id": "c-nanshi-022-wangsengqian:p011:m0023",
+          "usage": "narrative",
+          "date_expression": null
+        }
+      ],
+      "effective_period": {
+        "start": {
+          "status": "unknown",
+          "date_expression": null,
+          "evidence": []
+        },
+        "end": {
+          "status": "unknown",
+          "date_expression": null,
+          "evidence": []
+        }
+      },
+      "evidence": [
+        {
+          "work_id": "w-nanshi",
+          "book_id": "b-nanshi-022",
+          "chapter_id": "c-nanshi-022-wangsengqian",
+          "source_id": "s-nanshi-022-wangsengqian-ws1477957",
+          "paragraph_id": "c-nanshi-022-wangsengqian:p011",
+          "quote": "僧虔頗解星文，夜坐見豫章分野當有事故，時僧虔子慈為豫章內史，慮有公事；少時而僧虔薨，棄郡奔赴。時有前將軍陳天福，坐討唐宇之于錢唐掠奪百姓財物棄市。先是天福將行，令家人豫作壽塚，未至東，又信催速就。塚成而得罪，因以葬焉。又宋世光祿大夫劉鎮之年三十許，病篤，已辦凶具；既而疾愈，因畜棺以為壽，九十餘乃亡，此器方用。因此而言，天道未易知也。",
+          "person_mention_id": "c-nanshi-022-wangsengqian:p011:m0023"
+        }
+      ],
+      "status": "source_attested",
+      "interpretation_note": "本句所載官名，任期無確切年月。",
+      "reviewer": "Codex（AI代理）",
+      "model": null,
+      "human_reviewed": false,
+      "period": "未定 → 未定"
     }
   ],
   "addresses": [],
@@ -745,7 +793,7 @@
     {
       "number": 21,
       "category": "",
-      "title": "王泰、王慈與王志",
+      "title": "王泰傳（附王慈）",
       "paragraph_id": "c-liangshu-021-wangtai-wangyun:p001",
       "count": 2,
       "raw_count": 2,
@@ -943,6 +991,51 @@
     {
       "number": 22,
       "category": "",
+      "title": "王僧虔",
+      "paragraph_id": "c-nanshi-022-wangsengqian:p011",
+      "count": 2,
+      "raw_count": 2,
+      "duplicate_count": 0,
+      "counting_policy": "independent_fixed_witness_occurrences",
+      "quote": "僧虔頗解星文，夜坐見豫章分野當有事故，時僧虔子慈為豫章內史，慮有公事；少時而僧虔薨，棄郡奔赴。時有前將軍陳天福，坐討唐宇之于錢唐掠奪百姓財物棄市。先是天福將行，令家人豫作壽塚，未至東，又信催速就。塚成而得罪，因以葬焉。又宋世光祿大夫劉鎮之年三十許，",
+      "paragraph_ids": [
+        "c-nanshi-022-wangsengqian:p011",
+        "c-nanshi-022-wangsengqian:p016"
+      ],
+      "mention_ids": [
+        "c-nanshi-022-wangsengqian:p011:m0023",
+        "c-nanshi-022-wangsengqian:p016:m0245"
+      ],
+      "mention_paragraph_ids": {
+        "c-nanshi-022-wangsengqian:p011:m0023": "c-nanshi-022-wangsengqian:p011",
+        "c-nanshi-022-wangsengqian:p016:m0245": "c-nanshi-022-wangsengqian:p016"
+      },
+      "mention_id": "c-nanshi-022-wangsengqian:p011:m0023",
+      "occurrence_groups": [
+        {
+          "canonical_mention_id": "c-nanshi-022-wangsengqian:p011:m0023",
+          "mention_ids": [
+            "c-nanshi-022-wangsengqian:p011:m0023"
+          ],
+          "kind": "paragraph"
+        },
+        {
+          "canonical_mention_id": "c-nanshi-022-wangsengqian:p016:m0245",
+          "mention_ids": [
+            "c-nanshi-022-wangsengqian:p016:m0245"
+          ],
+          "kind": "paragraph"
+        }
+      ],
+      "work_id": "w-nanshi",
+      "book_id": "b-nanshi-022",
+      "chapter_id": "c-nanshi-022-wangsengqian",
+      "source_id": "s-nanshi-022-wangsengqian-ws1477957",
+      "work_title": "南史"
+    },
+    {
+      "number": 22,
+      "category": "",
       "title": "王志傳",
       "paragraph_id": "c-nanshi-022-wangzhi-digital:p001",
       "count": 1,
@@ -1072,15 +1165,15 @@
       "book_id": "b-liangshu-021",
       "source_id": "s-liangshu-021-wangtai-wangyun-ws1544250",
       "source": {
-        "title": "梁書卷21·王泰、王慈與王志",
+        "title": "梁書卷二十一王泰傳（附王慈）",
         "provider": "Wikisource",
         "url": "https://zh.wikisource.org/w/index.php?title=梁書/卷21&oldid=1544250",
         "permalink": "https://zh.wikisource.org/w/index.php?title=梁書/卷21&oldid=1544250",
         "revision_id": 1544250,
         "edition": "維基文庫固定修訂",
         "accessed_on": "2026-11-21",
-        "extent": "選錄與王筠有關的署名、親屬或王泰傳首，截取界見逐字投影。",
-        "text_scope": "partial_chapter",
+        "extent": "固定本第54、56、58、60行全傳；第54行後半附敘王慈。",
+        "text_scope": "complete_biography_unit",
         "image_verified": false,
         "review_status": "text_checked",
         "raw_path": "source-evidence/nanshi022-wangzhi-family/external/liang021-ws1544250.wikitext",
@@ -4146,6 +4239,35 @@
       }
     },
     {
+      "chapter_id": "c-nanshi-022-wangsengqian",
+      "work_id": "w-nanshi",
+      "book_id": "b-nanshi-022",
+      "source_id": "s-nanshi-022-wangsengqian-ws1477957",
+      "source": {
+        "title": "南史卷二十二·王僧虔",
+        "provider": "Wikisource",
+        "url": "https://zh.wikisource.org/w/index.php?oldid=1477957",
+        "permalink": "https://zh.wikisource.org/w/index.php?oldid=1477957",
+        "revision_id": 1477957,
+        "accessed_on": "2026-11-19",
+        "edition": "維基文庫固定修訂1477957，武英殿本書影逐項參記。",
+        "extent": "第90行僧虔分題下首「僧虔，金紫光祿大夫僧綽弟也」，至第122行誡子書後「子慈」止。",
+        "text_scope": "partial_chapter",
+        "image_verified": false,
+        "review_status": "text_checked",
+        "license_url": "https://creativecommons.org/licenses/by-sa/4.0/",
+        "rights": "古代正文及維基文庫數位轉錄，保留見證歸屬。",
+        "section_locator": "===子 僧虔===",
+        "wikitext_sha256": "1fba4fa3cd43161db40d91f7330cd6cf685052cfaadb90d0a90869fd5ef3fa94",
+        "raw_path": "sources/nanshi/nanshi022-ws1477957.wikitext",
+        "raw_file_sha256": "1fba4fa3cd43161db40d91f7330cd6cf685052cfaadb90d0a90869fd5ef3fa94",
+        "normalization": {
+          "character_conversion": {},
+          "extraction_note": "僅去不轉換標記的界符。"
+        }
+      }
+    },
+    {
       "chapter_id": "c-nanshi-022-wangzhi",
       "work_id": "w-nanshi",
       "book_id": "b-nanshi-022",
@@ -4530,6 +4652,39 @@
       "human_reviewed": false
     },
     {
+      "id": "a-nanshi022-wangsengqian-112-22",
+      "subject_person_id": "7r6_k52_qji_ABAAAAEBA",
+      "object_person_id": "7r6_k52_qji_ABAAAAEB",
+      "predicate": "father",
+      "status": "source_attested",
+      "qualifiers": {
+        "source_term": "子",
+        "lineage": "paternal"
+      },
+      "evidence": [
+        {
+          "work_id": "w-nanshi",
+          "book_id": "b-nanshi-022",
+          "chapter_id": "c-nanshi-022-wangsengqian",
+          "source_id": "s-nanshi-022-wangsengqian-ws1477957",
+          "paragraph_id": "c-nanshi-022-wangsengqian:p011",
+          "quote": "僧虔頗解星文，夜坐見豫章分野當有事故，時僧虔子慈為豫章內史，慮有公事；少時而僧虔薨，棄郡奔赴。時有前將軍陳天福，坐討唐宇之于錢唐掠奪百姓財物棄市。先是天福將行，令家人豫作壽塚，未至東，又信催速就。塚成而得罪，因以葬焉。又宋世光祿大夫劉鎮之年三十許，病篤，已辦凶具；既而疾愈，因畜棺以為壽，九十餘乃亡，此器方用。因此而言，天道未易知也。",
+          "subject_person_mention_id": "c-nanshi-022-wangsengqian:p011:m0023",
+          "object_person_mention_id": "c-nanshi-022-wangsengqian:p011:m0020",
+          "relationship_anchor": {
+            "paragraph_id": "c-nanshi-022-wangsengqian:p011",
+            "start": 22,
+            "end": 23,
+            "surface": "子"
+          }
+        }
+      ],
+      "interpretation_note": "依原句的親屬詞、人物位置及同卷前後文。",
+      "reviewer": "Codex（AI代理）",
+      "model": null,
+      "human_reviewed": false
+    },
+    {
       "id": "a-nanshi022-wangzhi-003",
       "subject_person_id": "7r6_k52_qji_ABAAAAEBA",
       "predicate": "brother",
@@ -4739,6 +4894,36 @@
       "book_id": "b-nanshi-022",
       "work_id": "w-nanshi",
       "source_id": "s-nanshi-022-wangci-ws1477957"
+    },
+    {
+      "start": 22,
+      "end": 23,
+      "surface": "子",
+      "id": "c-nanshi-022-wangsengqian:p011:r0022",
+      "paragraph_id": "c-nanshi-022-wangsengqian:p011",
+      "person_id": "7r6_k52_qji_ABAAAAEBA",
+      "referent_role": "third_person",
+      "quote": "僧虔頗解星文，夜坐見豫章分野當有事故，時僧虔子慈為豫章內史，慮有公事；少時而僧虔薨，棄郡奔赴。時有前將軍陳天福，坐討唐宇之于錢唐掠奪百姓財物棄市。先是天福將行，令家人豫作壽塚，未至東，又信催速就。塚成而得罪，因以葬焉。又宋世光祿大夫劉鎮之年三十許，病篤，已辦凶具；既而疾愈，因畜棺以為壽，九十餘乃亡，此器方用。因此而言，天道未易知也。",
+      "note": "本句按敘述視點回指ci。",
+      "chapter_id": "c-nanshi-022-wangsengqian",
+      "book_id": "b-nanshi-022",
+      "work_id": "w-nanshi",
+      "source_id": "s-nanshi-022-wangsengqian-ws1477957"
+    },
+    {
+      "start": 244,
+      "end": 245,
+      "surface": "子",
+      "id": "c-nanshi-022-wangsengqian:p016:r0244",
+      "paragraph_id": "c-nanshi-022-wangsengqian:p016",
+      "person_id": "7r6_k52_qji_ABAAAAEBA",
+      "referent_role": "third_person",
+      "quote": "吾在世雖乏德素，要復推排人間數十許年，故是一舊物，人或以比數汝耳。即化之後，若自無調度，誰復知汝事者。舍中亦有少負令譽、弱冠越超清級者，于時王家門中，優者龍鳳，劣猶虎豹。失蔭之後，豈龍虎之議？況吾不能為汝蔭，政應各自努力耳。或有身經三公，蔑爾無聞，布衣寒素，卿相屈體，父子貴賤殊，兄弟聲名異，何也？體盡讀數百卷書耳。吾今悔無所及，欲以前車誡爾後乘也。汝年入立境，方應從宦，兼有室累，何處復得下帷如王郎時邪？各在爾身已切，豈復關吾邪！鬼唯知愛深松茂柏，寧知子弟毀譽事。因汝有感，故略敘胸懷。子慈。",
+      "note": "本句按敘述視點回指ci。",
+      "chapter_id": "c-nanshi-022-wangsengqian",
+      "book_id": "b-nanshi-022",
+      "work_id": "w-nanshi",
+      "source_id": "s-nanshi-022-wangsengqian-ws1477957"
     }
   ],
   "person_ids": [
@@ -5062,6 +5247,39 @@
             "start": 92,
             "end": 94,
             "surface": "子泰"
+          }
+        }
+      ],
+      "interpretation_note": "依原句的親屬詞、人物位置及同卷前後文。",
+      "reviewer": "Codex（AI代理）",
+      "model": null,
+      "human_reviewed": false
+    },
+    {
+      "id": "a-nanshi022-wangsengqian-112-22",
+      "subject_person_id": "7r6_k52_qji_ABAAAAEBA",
+      "object_person_id": "7r6_k52_qji_ABAAAAEB",
+      "predicate": "father",
+      "status": "source_attested",
+      "qualifiers": {
+        "source_term": "子",
+        "lineage": "paternal"
+      },
+      "evidence": [
+        {
+          "work_id": "w-nanshi",
+          "book_id": "b-nanshi-022",
+          "chapter_id": "c-nanshi-022-wangsengqian",
+          "source_id": "s-nanshi-022-wangsengqian-ws1477957",
+          "paragraph_id": "c-nanshi-022-wangsengqian:p011",
+          "quote": "僧虔頗解星文，夜坐見豫章分野當有事故，時僧虔子慈為豫章內史，慮有公事；少時而僧虔薨，棄郡奔赴。時有前將軍陳天福，坐討唐宇之于錢唐掠奪百姓財物棄市。先是天福將行，令家人豫作壽塚，未至東，又信催速就。塚成而得罪，因以葬焉。又宋世光祿大夫劉鎮之年三十許，病篤，已辦凶具；既而疾愈，因畜棺以為壽，九十餘乃亡，此器方用。因此而言，天道未易知也。",
+          "subject_person_mention_id": "c-nanshi-022-wangsengqian:p011:m0023",
+          "object_person_mention_id": "c-nanshi-022-wangsengqian:p011:m0020",
+          "relationship_anchor": {
+            "paragraph_id": "c-nanshi-022-wangsengqian:p011",
+            "start": 22,
+            "end": 23,
+            "surface": "子"
           }
         }
       ],

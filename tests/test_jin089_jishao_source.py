@@ -16,8 +16,8 @@ class JishaoSourceTests(unittest.TestCase):
     self.assertLessEqual(end,m['start']);self.assertEqual(p['text'][m['start']:m['end']],m['surface']);end=m['end']
  def test_qin_and_chen_are_different(self):
   chen=next(m for m in self.ps[2]['mentions']if m['surface']=='陳准');qin=next(m for m in self.ps[6]['mentions']if m['surface']=='秦准');self.assertEqual(chen['person_id'],'9w8_tqh_ysn_B*AA');self.assertNotEqual(chen['person_id'],qin['person_id'])
- def test_uncertain_pei_not_third_identity(self):
-  m=next(m for m in self.ps[1]['mentions']if m['surface']=='裴頠');self.assertEqual(m['kind'],'unresolved');self.assertEqual(m['candidate_person_ids'],['dc7_573_800'])
+ def test_pei_zuopushe_cross_reading(self):
+  m=next(m for m in self.ps[1]['mentions']if m['surface']=='裴頠');self.assertEqual(m['kind'],'person');self.assertEqual(m['person_id'],'svm_6fh_34r');self.assertEqual(m['id'],'c-jinshu-089-jishao:p002:m0059')
  def test_nonperson_terms_not_named_people(self):
   cases=[(0,'康誥'),(3,'臣之事君'),(4,'萬姓顒'),(4,'公服'),(6,'祠乙太牢'),(7,'曠而有檢')]
   for n,t in cases:

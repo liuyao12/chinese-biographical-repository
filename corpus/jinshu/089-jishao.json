@@ -251,13 +251,11 @@
           "start": 59,
           "end": 61,
           "surface": "裴頠",
-          "kind": "unresolved",
-          "person_id": null,
-          "status": "unresolved",
-          "interpretation_note": "既有SGZ019裘頠dc7為候選；原字及裴樂上下文另存，不新增裴頠或建立全域誤字規則。",
-          "candidate_person_ids": [
-            "dc7_573_800"
-          ]
+          "kind": "person",
+          "person_id": "svm_6fh_34r",
+          "status": "contextual_provisional",
+          "interpretation_note": "兩個卷89轉錄均作尚書左僕射裴頠，卷35本人所任官稱相合。",
+          "resolution_note": "本次跨篇校讀見 d-sgz019-jin043-089-peiwei。"
         },
         {
           "id": "c-jinshu-089-jishao:p002:m0064",
@@ -1718,6 +1716,12 @@
     "reviewer": "Codex（AI代理）",
     "human_reviewed": false,
     "coverage": "完整八段首輪逐人辨識；引古疑字及未定角色保留unresolved",
-    "limitations": "未圖校，不稱全卷完成；官爵、報齡、紀年等另typed，本包不生成正式facts。"
+    "limitations": "未圖校，不稱全卷完成；官爵、報齡、紀年等另typed，本包不生成正式facts。",
+    "source_spelling_collations": [
+      {
+        "decision_id": "d-sgz019-jin043-089-peiwei",
+        "path": "source-evidence/sgz019-jin043-peiwei/review.json"
+      }
+    ]
   }
 }

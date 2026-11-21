@@ -205,6 +205,33 @@
   "table_occurrences": [],
   "sources": [
     {
+      "chapter_id": "c-liangshu-021-wangjun-wangcong",
+      "work_id": "w-liangshu",
+      "book_id": "b-liangshu-021",
+      "source_id": "s-liangshu-021-wangjun-wangcong-ws1544250",
+      "source": {
+        "title": "梁書卷21·王峻傳（附王琮）",
+        "provider": "Wikisource",
+        "url": "https://zh.wikisource.org/w/index.php?oldid=1544250",
+        "permalink": "https://zh.wikisource.org/w/index.php?oldid=1544250",
+        "revision_id": 1544250,
+        "accessed_on": "2026-11-21",
+        "edition": "維基文庫固定數位轉錄",
+        "extent": "數位原第33、35、37、39、41行。末段兼載子玩、子琮婚姻、離婚及王峻與王對答。",
+        "text_scope": "complete_biography_unit",
+        "image_verified": false,
+        "review_status": "text_checked",
+        "raw_path": "source-evidence/nanshi022-wangci/external/liang021-ws1544250.wikitext",
+        "raw_file_sha256": "d547d5b8e194f36e62b748cdfb6f18366378bb372ffb8d5b82e721ca2ccb3fab",
+        "rights": "古代原典及維基文庫數位轉錄。",
+        "license_url": "https://zh.wikisource.org/wiki/Wikisource:著作權資訊",
+        "normalization": {
+          "character_conversion": {},
+          "extraction_note": "投影相應原句，保留字形；移除年號模板定界符。"
+        }
+      }
+    },
+    {
       "chapter_id": "c-liangshu-021-wangzhi",
       "work_id": "w-liangshu",
       "book_id": "b-liangshu-021",
@@ -617,6 +644,34 @@
   ],
   "relations": [
     {
+      "id": "a-liang021-wangjun-fanchang-parents",
+      "subject_person_id": "fjm_eo3_0zz_A",
+      "object_person_id": "fjm_eo3_0zz",
+      "predicate": "father",
+      "qualifiers": {
+        "source_term": "始興王女繁昌縣主",
+        "liang021_jun_reading": "fanchang-parents",
+        "lineage": "paternal"
+      },
+      "evidence": [
+        {
+          "work_id": "w-liangshu",
+          "book_id": "b-liangshu-021",
+          "source_id": "s-liangshu-021-wangjun-wangcong-ws1544250",
+          "chapter_id": "c-liangshu-021-wangjun-wangcong",
+          "paragraph_id": "c-liangshu-021-wangjun-wangcong:p005",
+          "quote": "子琮，玩。琮爲國子生，尚始興王女繁昌縣主，不慧，爲學生所嗤，遂離婚。峻謝王，王曰：「此自上意，僕極不願如此。」峻曰：「臣太祖是謝仁祖外孫，亦不藉殿下姻媾爲門戶。」",
+          "subject_person_mention_id": "c-liangshu-021-wangjun-wangcong:p005:m0016",
+          "object_person_reference_id": "c-liangshu-021-wangjun-wangcong:p005:r0012"
+        }
+      ],
+      "status": "source_attested",
+      "interpretation_note": "縣主未名，父為始興王憺。",
+      "reviewer": "Codex（AI 代理）",
+      "human_reviewed": false,
+      "model": null
+    },
+    {
       "id": "a-liangshu-022-wangzhi-royal-context-line86-father",
       "subject_person_id": "fjm_eo3_0zz",
       "object_person_id": "qvt_eq1_lcf_A",
@@ -744,10 +799,115 @@
     }
   ],
   "name_components": [],
+  "person_references": [
+    {
+      "id": "c-liangshu-021-wangjun-wangcong:p005:r0012",
+      "surface": "始興王",
+      "start": 12,
+      "end": 15,
+      "person_id": "fjm_eo3_0zz",
+      "referent_role": "third_person",
+      "paragraph_id": "c-liangshu-021-wangjun-wangcong:p005",
+      "quote": "子琮，玩。琮爲國子生，尚始興王女繁昌縣主，不慧，爲學生所嗤，遂離婚。峻謝王，王曰：「此自上意，僕極不願如此。」峻曰：「臣太祖是謝仁祖外孫，亦不藉殿下姻媾爲門戶。」",
+      "note": "梁宗室始興王憺。",
+      "chapter_id": "c-liangshu-021-wangjun-wangcong",
+      "book_id": "b-liangshu-021",
+      "work_id": "w-liangshu",
+      "source_id": "s-liangshu-021-wangjun-wangcong-ws1544250"
+    },
+    {
+      "id": "c-liangshu-021-wangjun-wangcong:p005:r0036",
+      "surface": "王",
+      "start": 36,
+      "end": 37,
+      "person_id": "fjm_eo3_0zz",
+      "referent_role": "third_person",
+      "paragraph_id": "c-liangshu-021-wangjun-wangcong:p005",
+      "quote": "子琮，玩。琮爲國子生，尚始興王女繁昌縣主，不慧，爲學生所嗤，遂離婚。峻謝王，王曰：「此自上意，僕極不願如此。」峻曰：「臣太祖是謝仁祖外孫，亦不藉殿下姻媾爲門戶。」",
+      "note": "受謝者為縣主之父。",
+      "chapter_id": "c-liangshu-021-wangjun-wangcong",
+      "book_id": "b-liangshu-021",
+      "work_id": "w-liangshu",
+      "source_id": "s-liangshu-021-wangjun-wangcong-ws1544250"
+    },
+    {
+      "id": "c-liangshu-021-wangjun-wangcong:p005:r0038",
+      "surface": "王",
+      "start": 38,
+      "end": 39,
+      "person_id": "fjm_eo3_0zz",
+      "referent_role": "third_person",
+      "paragraph_id": "c-liangshu-021-wangjun-wangcong:p005",
+      "quote": "子琮，玩。琮爲國子生，尚始興王女繁昌縣主，不慧，爲學生所嗤，遂離婚。峻謝王，王曰：「此自上意，僕極不願如此。」峻曰：「臣太祖是謝仁祖外孫，亦不藉殿下姻媾爲門戶。」",
+      "note": "憺發言。",
+      "chapter_id": "c-liangshu-021-wangjun-wangcong",
+      "book_id": "b-liangshu-021",
+      "work_id": "w-liangshu",
+      "source_id": "s-liangshu-021-wangjun-wangcong-ws1544250"
+    },
+    {
+      "id": "c-liangshu-021-wangjun-wangcong:p005:r0047",
+      "surface": "僕",
+      "start": 47,
+      "end": 48,
+      "person_id": "fjm_eo3_0zz",
+      "referent_role": "speaker_self",
+      "paragraph_id": "c-liangshu-021-wangjun-wangcong:p005",
+      "quote": "子琮，玩。琮爲國子生，尚始興王女繁昌縣主，不慧，爲學生所嗤，遂離婚。峻謝王，王曰：「此自上意，僕極不願如此。」峻曰：「臣太祖是謝仁祖外孫，亦不藉殿下姻媾爲門戶。」",
+      "note": "始興王自稱。",
+      "chapter_id": "c-liangshu-021-wangjun-wangcong",
+      "book_id": "b-liangshu-021",
+      "work_id": "w-liangshu",
+      "source_id": "s-liangshu-021-wangjun-wangcong-ws1544250"
+    },
+    {
+      "id": "c-liangshu-021-wangjun-wangcong:p005:r0072",
+      "surface": "殿下",
+      "start": 72,
+      "end": 74,
+      "person_id": "fjm_eo3_0zz",
+      "referent_role": "addressee",
+      "paragraph_id": "c-liangshu-021-wangjun-wangcong:p005",
+      "quote": "子琮，玩。琮爲國子生，尚始興王女繁昌縣主，不慧，爲學生所嗤，遂離婚。峻謝王，王曰：「此自上意，僕極不願如此。」峻曰：「臣太祖是謝仁祖外孫，亦不藉殿下姻媾爲門戶。」",
+      "note": "峻對王。",
+      "chapter_id": "c-liangshu-021-wangjun-wangcong",
+      "book_id": "b-liangshu-021",
+      "work_id": "w-liangshu",
+      "source_id": "s-liangshu-021-wangjun-wangcong-ws1544250"
+    }
+  ],
   "person_ids": [
     "fjm_eo3_0zz"
   ],
   "preferred_relations": [
+    {
+      "id": "a-liang021-wangjun-fanchang-parents",
+      "subject_person_id": "fjm_eo3_0zz_A",
+      "object_person_id": "fjm_eo3_0zz",
+      "predicate": "father",
+      "qualifiers": {
+        "source_term": "始興王女繁昌縣主",
+        "liang021_jun_reading": "fanchang-parents",
+        "lineage": "paternal"
+      },
+      "evidence": [
+        {
+          "work_id": "w-liangshu",
+          "book_id": "b-liangshu-021",
+          "source_id": "s-liangshu-021-wangjun-wangcong-ws1544250",
+          "chapter_id": "c-liangshu-021-wangjun-wangcong",
+          "paragraph_id": "c-liangshu-021-wangjun-wangcong:p005",
+          "quote": "子琮，玩。琮爲國子生，尚始興王女繁昌縣主，不慧，爲學生所嗤，遂離婚。峻謝王，王曰：「此自上意，僕極不願如此。」峻曰：「臣太祖是謝仁祖外孫，亦不藉殿下姻媾爲門戶。」",
+          "subject_person_mention_id": "c-liangshu-021-wangjun-wangcong:p005:m0016",
+          "object_person_reference_id": "c-liangshu-021-wangjun-wangcong:p005:r0012"
+        }
+      ],
+      "status": "source_attested",
+      "interpretation_note": "縣主未名，父為始興王憺。",
+      "reviewer": "Codex（AI 代理）",
+      "human_reviewed": false,
+      "model": null
+    },
     {
       "id": "a-liangshu-022-wangzhi-royal-context-line86-father",
       "subject_person_id": "fjm_eo3_0zz",
