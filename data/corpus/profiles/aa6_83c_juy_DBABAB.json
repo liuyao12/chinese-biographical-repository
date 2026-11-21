@@ -3430,6 +3430,54 @@
       "human_reviewed": false,
       "model": null,
       "period": "未定 → 未定"
+    },
+    {
+      "id": "th-nan023-wangliang-m7-23",
+      "person_id": "aa6_83c_juy_DBABAB",
+      "title": "司徒",
+      "kind": "office",
+      "mode": "attestation",
+      "attestations": [
+        {
+          "id": "th-nan023-wangliang-m7-23:a",
+          "person_mention_id": "c-nanshi-023-wangliang:p007:m0025",
+          "usage": "narrative",
+          "date_expression": null,
+          "paragraph_id": "c-nanshi-023-wangliang:p007",
+          "surface": "司徒",
+          "start": 23,
+          "end": 25
+        }
+      ],
+      "effective_period": {
+        "start": {
+          "status": "unknown",
+          "date_expression": null,
+          "evidence": []
+        },
+        "end": {
+          "status": "unknown",
+          "date_expression": null,
+          "evidence": []
+        }
+      },
+      "evidence": [
+        {
+          "work_id": "w-nanshi",
+          "book_id": "b-nanshi-023",
+          "source_id": "s-nanshi-023-wangliang-ws2478204",
+          "chapter_id": "c-nanshi-023-wangliang",
+          "paragraph_id": "c-nanshi-023-wangliang:p007",
+          "quote": "四年，帝宴華光殿，求讜言。尚書左丞范縝起曰：「司徒謝朏本有虛名，陛下擢之如此；前尚書令王亮頗有政體，陛下棄之如彼。愚臣所不知。」帝變色曰：「卿可更餘言。」縝固執不已，帝不悅。御史中丞任昉因奏縝妄陳褒貶，請免縝官。詔可。亮因屏居閉掃，不通賓客。遭母憂，居喪盡禮。後為中書監，加散騎常侍。卒，諡煬子。",
+          "person_mention_id": "c-nanshi-023-wangliang:p007:m0025"
+        }
+      ],
+      "status": "source_attested",
+      "interpretation_note": "按本見證原職名及其所屬人。",
+      "reviewer": "Codex（AI 代理）",
+      "human_reviewed": false,
+      "model": null,
+      "period": "未定 → 未定"
     }
   ],
   "addresses": [
@@ -4297,6 +4345,41 @@
       "work_title": "南史"
     },
     {
+      "number": 23,
+      "category": "",
+      "title": "王亮",
+      "paragraph_id": "c-nanshi-023-wangliang:p007",
+      "count": 1,
+      "raw_count": 1,
+      "duplicate_count": 0,
+      "counting_policy": "independent_fixed_witness_occurrences",
+      "quote": "四年，帝宴華光殿，求讜言。尚書左丞范縝起曰：「司徒謝朏本有虛名，陛下擢之如此；前尚書令王亮頗有政體，陛下棄之如彼。愚臣所不知。」帝變色曰：「卿可更餘言。」縝固執不已，帝不悅。御史中丞任昉因奏縝妄陳褒貶，請免縝官。詔可。亮因屏居閉掃，不通賓客。遭母憂，居喪",
+      "paragraph_ids": [
+        "c-nanshi-023-wangliang:p007"
+      ],
+      "mention_ids": [
+        "c-nanshi-023-wangliang:p007:m0025"
+      ],
+      "mention_paragraph_ids": {
+        "c-nanshi-023-wangliang:p007:m0025": "c-nanshi-023-wangliang:p007"
+      },
+      "mention_id": "c-nanshi-023-wangliang:p007:m0025",
+      "occurrence_groups": [
+        {
+          "canonical_mention_id": "c-nanshi-023-wangliang:p007:m0025",
+          "mention_ids": [
+            "c-nanshi-023-wangliang:p007:m0025"
+          ],
+          "kind": "paragraph"
+        }
+      ],
+      "work_id": "w-nanshi",
+      "book_id": "b-nanshi-023",
+      "chapter_id": "c-nanshi-023-wangliang",
+      "source_id": "s-nanshi-023-wangliang-ws2478204",
+      "work_title": "南史"
+    },
+    {
       "number": 36,
       "category": "",
       "title": "謝超宗傳（乾隆武英殿本）",
@@ -4652,6 +4735,90 @@
           "character_conversion": {},
           "extraction_note": "保留傳本文字及今本補字方括；排版界符和另存的校記依原字位投影。"
         }
+      }
+    },
+    {
+      "chapter_id": "c-nanshi-023-wangliang",
+      "work_id": "w-nanshi",
+      "book_id": "b-nanshi-023",
+      "source_id": "s-nanshi-023-wangliang-ws2478204",
+      "source": {
+        "title": "南史卷23·王亮",
+        "provider": "Wikisource",
+        "url": "https://zh.wikisource.org/w/index.php?oldid=2478204",
+        "permalink": "https://zh.wikisource.org/w/index.php?oldid=2478204",
+        "revision_id": 2478204,
+        "accessed_on": "2026-11-21",
+        "edition": "維基文庫固定數位轉錄",
+        "extent": "固定修訂第36至48行，含段內子孫記載。",
+        "text_scope": "complete_biography_unit",
+        "image_verified": false,
+        "review_status": "text_checked",
+        "raw_path": "sources/nanshi/nanshi023-ws2478204.wikitext",
+        "raw_file_sha256": "c54bdda206986e5d4e5331144e783f163b5823855581b9833572e1982d1d4e40",
+        "rights": "古代原典及維基文庫數位轉錄。",
+        "license_url": "https://zh.wikisource.org/wiki/Wikisource:著作權資訊",
+        "normalization": {
+          "character_conversion": {},
+          "extraction_note": "逐碼取原行，數位校者夾注分層另據原始字位查核。",
+          "verified_blank_line_gaps": [
+            {
+              "source_lines": [
+                37,
+                37
+              ],
+              "raw_quote": "",
+              "raw_quote_sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+              "revision_id": 2478204
+            },
+            {
+              "source_lines": [
+                39,
+                39
+              ],
+              "raw_quote": "",
+              "raw_quote_sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+              "revision_id": 2478204
+            },
+            {
+              "source_lines": [
+                41,
+                41
+              ],
+              "raw_quote": "",
+              "raw_quote_sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+              "revision_id": 2478204
+            },
+            {
+              "source_lines": [
+                43,
+                43
+              ],
+              "raw_quote": "",
+              "raw_quote_sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+              "revision_id": 2478204
+            },
+            {
+              "source_lines": [
+                45,
+                45
+              ],
+              "raw_quote": "",
+              "raw_quote_sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+              "revision_id": 2478204
+            },
+            {
+              "source_lines": [
+                47,
+                47
+              ],
+              "raw_quote": "",
+              "raw_quote_sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+              "revision_id": 2478204
+            }
+          ]
+        },
+        "section_locator": "王誕題下王亮"
       }
     }
   ],
@@ -8907,6 +9074,21 @@
       "book_id": "b-nanshi-019",
       "work_id": "w-nanshi",
       "source_id": "s-nanshi-019-chaozong-ws1531762"
+    },
+    {
+      "id": "c-nanshi-023-wangliang:p007:r0035",
+      "surface": "之",
+      "start": 35,
+      "end": 36,
+      "person_id": "aa6_83c_juy_DBABAB",
+      "referent_role": "third_person",
+      "paragraph_id": "c-nanshi-023-wangliang:p007",
+      "quote": "四年，帝宴華光殿，求讜言。尚書左丞范縝起曰：「司徒謝朏本有虛名，陛下擢之如此；前尚書令王亮頗有政體，陛下棄之如彼。愚臣所不知。」帝變色曰：「卿可更餘言。」縝固執不已，帝不悅。御史中丞任昉因奏縝妄陳褒貶，請免縝官。詔可。亮因屏居閉掃，不通賓客。遭母憂，居喪盡禮。後為中書監，加散騎常侍。卒，諡煬子。",
+      "note": "依原段當事人、稱謂及發言層。",
+      "chapter_id": "c-nanshi-023-wangliang",
+      "book_id": "b-nanshi-023",
+      "work_id": "w-nanshi",
+      "source_id": "s-nanshi-023-wangliang-ws2478204"
     }
   ],
   "person_ids": [

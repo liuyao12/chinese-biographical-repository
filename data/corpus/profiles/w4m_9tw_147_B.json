@@ -253,6 +253,81 @@
           "extraction_note": "正文移除維基單字不轉換標記的界符，保留范、爲、尙等原字符。"
         }
       }
+    },
+    {
+      "chapter_id": "c-nanshi-023-wangying-shi",
+      "work_id": "w-nanshi",
+      "book_id": "b-nanshi-023",
+      "source_id": "s-nanshi-023-wangying-shi-ws2478204",
+      "source": {
+        "title": "南史卷23·王瑩及少子實",
+        "provider": "Wikisource",
+        "url": "https://zh.wikisource.org/w/index.php?oldid=2478204",
+        "permalink": "https://zh.wikisource.org/w/index.php?oldid=2478204",
+        "revision_id": 2478204,
+        "accessed_on": "2026-11-21",
+        "edition": "維基文庫固定數位轉錄",
+        "extent": "固定修訂第24至34行，含段內子孫記載。",
+        "text_scope": "complete_biography_unit",
+        "image_verified": false,
+        "review_status": "text_checked",
+        "raw_path": "sources/nanshi/nanshi023-ws2478204.wikitext",
+        "raw_file_sha256": "c54bdda206986e5d4e5331144e783f163b5823855581b9833572e1982d1d4e40",
+        "rights": "古代原典及維基文庫數位轉錄。",
+        "license_url": "https://zh.wikisource.org/wiki/Wikisource:著作權資訊",
+        "normalization": {
+          "character_conversion": {},
+          "extraction_note": "逐碼取原行，數位校者夾注分層另據原始字位查核。",
+          "verified_blank_line_gaps": [
+            {
+              "source_lines": [
+                25,
+                25
+              ],
+              "raw_quote": "",
+              "raw_quote_sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+              "revision_id": 2478204
+            },
+            {
+              "source_lines": [
+                27,
+                27
+              ],
+              "raw_quote": "",
+              "raw_quote_sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+              "revision_id": 2478204
+            },
+            {
+              "source_lines": [
+                29,
+                29
+              ],
+              "raw_quote": "",
+              "raw_quote_sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+              "revision_id": 2478204
+            },
+            {
+              "source_lines": [
+                31,
+                31
+              ],
+              "raw_quote": "",
+              "raw_quote_sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+              "revision_id": 2478204
+            },
+            {
+              "source_lines": [
+                33,
+                33
+              ],
+              "raw_quote": "",
+              "raw_quote_sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+              "revision_id": 2478204
+            }
+          ]
+        },
+        "section_locator": "王誕題內懋子瑩，以及瑩少子實附敘"
+      }
     }
   ],
   "relations": [
@@ -384,6 +459,21 @@
       "book_id": "b-nanshi-019",
       "work_id": "w-nanshi",
       "source_id": "s-nanshi-019-xietiao-ws1531762"
+    },
+    {
+      "id": "c-nanshi-023-wangying-shi:p003:r0169",
+      "surface": "江夏王",
+      "start": 169,
+      "end": 172,
+      "person_id": "w4m_9tw_147_B",
+      "referent_role": "third_person",
+      "paragraph_id": "c-nanshi-023-wangying-shi:p003",
+      "quote": "永元初，政由群小，瑩守職而已，不能有所是非。及尚書令徐孝嗣誅，瑩頗綜朝政，啟取孝嗣所居宅，及取孝嗣封名枝江縣侯以為己封。從弟亮謂曰：「此非盛德也。」瑩怒曰：「我昔從東度為吳興，束身登岸，徐時為宰相，不能見知，相用為領軍長史。今住其宅，差無多慚。」時人咸謂失德。亮既當朝，於瑩素雖不善，時欲引與同事。遷尚書左僕射，未拜；會護軍崔慧景自京口奉江夏王內向，瑩拒慧景於湖頭。眾敗，瑩赴水，乘舫入樂遊，因得還台城。慧景敗，瑩還居領軍府。梁武兵至，復假節、都督宮城諸軍事。建康平，瑩乃以宅還徐氏。",
+      "note": "依本段及早書名號。",
+      "chapter_id": "c-nanshi-023-wangying-shi",
+      "book_id": "b-nanshi-023",
+      "work_id": "w-nanshi",
+      "source_id": "s-nanshi-023-wangying-shi-ws2478204"
     }
   ],
   "person_ids": [
@@ -452,6 +542,20 @@
       "human_reviewed": false
     }
   ],
+  "assembled_identity": {
+    "person_id": "w4m_9tw_147_B",
+    "source_person_ids": [
+      "w4m_9tw_147_B"
+    ],
+    "representative_source_person_id": "w4m_9tw_147_B",
+    "identity_equivalence_decision_ids": [],
+    "parent_person_id": "w4m_9tw_147",
+    "source_assertion_id": "a-qi-tiao-father-28",
+    "assembly_id": "family-nanqi-mingdi-princes",
+    "root_person_id": "w4m_9tw_147",
+    "status": "contextual_provisional",
+    "human_reviewed": false
+  },
   "age_assertions": [],
   "life_events": [],
   "life_event_date_decisions": [],

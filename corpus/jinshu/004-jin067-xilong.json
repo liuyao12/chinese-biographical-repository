@@ -1,0 +1,90 @@
+{
+  "format_version": "0.2",
+  "record_type": "marked_chapter",
+  "id": "c-jinshu-004-jin067-xilong",
+  "work_id": "w-jinshu",
+  "book_id": "b-jinshu-004",
+  "source_id": "s-jinshu-004-jin067-xilong",
+  "title": "晉書惠帝紀與郗隆",
+  "source": {
+    "title": "晉書惠帝紀",
+    "provider": "Wikisource",
+    "url": "https://zh.wikisource.org/w/index.php?oldid=2317129",
+    "permalink": "https://zh.wikisource.org/w/index.php?oldid=2317129",
+    "revision_id": 2317129,
+    "accessed_on": "2026-11-21",
+    "extent": "下列來源節錄。",
+    "text_scope": "partial_chapter",
+    "review_status": "text_checked",
+    "image_verified": false,
+    "rights": "古代原文及維基文庫數位轉錄；保留見證歸屬。",
+    "license_url": "https://creativecommons.org/licenses/by-sa/4.0/",
+    "edition": "固定修訂相關原文，逐字核收。",
+    "raw_path": "source-evidence/jin067-xilong/external/j4-ws2317129.wikitext",
+    "wikitext_sha256": "f70de7f844f4040a930248c2aa4648e6e6565518dddcbbed607a392413ecfca8",
+    "raw_file_sha256": "f70de7f844f4040a930248c2aa4648e6e6565518dddcbbed607a392413ecfca8"
+  },
+  "annotation": {
+    "status": "in_progress",
+    "human_reviewed": false,
+    "scope": "本次來源節錄。",
+    "person_reference_occurrences": [
+      {
+        "id": "c-jinshu-004-jin067-xilong:usurpation:r0011",
+        "paragraph_id": "c-jinshu-004-jin067-xilong:usurpation",
+        "start": 11,
+        "end": 12,
+        "surface": "帝",
+        "person_id": "7e0_f69_1ac",
+        "referent_role": "third_person",
+        "quote": "趙王倫篡帝位。丙寅，遷帝于金墉城，號曰太上皇",
+        "note": "依所引原句及對話角色辨識。"
+      },
+      {
+        "id": "c-jinshu-004-jin067-xilong:usurpation:r0019",
+        "paragraph_id": "c-jinshu-004-jin067-xilong:usurpation",
+        "start": 19,
+        "end": 22,
+        "surface": "太上皇",
+        "person_id": "7e0_f69_1ac",
+        "referent_role": "third_person",
+        "quote": "丙寅，遷帝于金墉城，號曰太上皇",
+        "note": "依所引原句及對話角色辨識。"
+      }
+    ],
+    "reviewed_unit_evidence": [
+      {
+        "unit": "晉書惠帝紀與郗隆",
+        "path": "source-evidence/jin067-xilong/reading.json"
+      }
+    ]
+  },
+  "paragraphs": [
+    {
+      "id": "c-jinshu-004-jin067-xilong:usurpation",
+      "text": "趙王倫篡帝位。丙寅，遷帝于金墉城，號曰太上皇",
+      "annotation_status": "reviewed",
+      "mentions": [
+        {
+          "id": "c-jinshu-004-jin067-xilong:usurpation:m0000",
+          "start": 0,
+          "end": 3,
+          "surface": "趙王倫",
+          "kind": "person",
+          "person_id": "dkn_ge4_286_AAAAG",
+          "status": "contextual_provisional",
+          "interpretation_note": "以來源原字標記。"
+        }
+      ],
+      "text_layer": "received_chapter",
+      "source_quote": {
+        "witness": "j4",
+        "quote": "趙王倫篡帝位。丙寅，遷帝于金墉城，號曰太上皇",
+        "raw_start": 3833,
+        "raw_end": 3855,
+        "raw_line": 161
+      }
+    }
+  ],
+  "text_sha256": "8f18c7a6b93636a329fc5ccb16435be65c852de9cb7b90435e6f42590df2a84f"
+}

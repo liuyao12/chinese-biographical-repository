@@ -6,6 +6,8 @@ from pathlib import Path
 
 
 WITNESSES = {
+    'c-songshu-041-xiefanjing-wyd': ('song041-xiefanjing-wyd', '70b06cb997968a23e1aa48bc19d117d96aea587354162371dd5c7c10512c2677'),
+    'c-jinshu-096-wangguangnu-wyd': ('jin096-wangguang-wyd', '0ef664a042b38875b8756d1bc58ca37de3c6a6895235613fe1b0b2409f16abb9'),
     'c-jinshu-096-wanghuifeng-wyd': ('jin096-wanghuifeng', 'ead71c226112cad4ca3c9f31cb6030aacc346cd188ac683cc4104ce0e10dbf4b'),
     'c-jinshu-096-xunguan-wyd': ('jin096-zhong-and-guan/xun', '8ec2790f6e17b3cf89a29ab6602e98bdd26f0eef8e9ce8a35fcdf63b3b97392f'),
     'c-jinshu-096-zhongyan-wyd': ('jin096-zhong-and-guan/zhong', 'e3f85ab24772f58e5e2db1a9e8c9c8085493fe8ae46082be1771111997bc5320'),

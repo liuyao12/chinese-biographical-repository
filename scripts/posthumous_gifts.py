@@ -3,27 +3,31 @@
 
 def posthumous_gift_valid(holding, paragraphs, mentions, life_events=None):
     basis = holding.get('posthumous_basis')
-    if (basis or {}).get('kind') == 'jin098_huanwei_parallel_gifts':
+    if not isinstance(basis, dict):
+        return False
+    if basis.get('kind') == 'named_posthumous_recipient_coordinated_gift':
+        try: from scripts.coordinated_posthumous_gift import validate
+        except ImportError: from coordinated_posthumous_gift import validate
+        return validate(holding, paragraphs, mentions, life_events or {})
+    if basis.get('kind') == 'jin098_huanwei_parallel_gifts':
         try: from scripts.jin098_huan_gifts import valid as huanwei_gift_valid
         except ImportError: from jin098_huan_gifts import valid as huanwei_gift_valid
         return huanwei_gift_valid(holding,paragraphs,mentions,life_events or {})
 
-    if (basis or {}).get('kind') == 'w080_empress_father_gift':
+    if basis.get('kind') == 'w080_empress_father_gift':
         try:
             from scripts.jin080_xianzhi import gift_valid
         except ImportError:
             from jin080_xianzhi import gift_valid
         return gift_valid(holding, paragraphs, mentions, life_events or {})
-    if (holding.get('posthumous_basis') or {}).get('kind') == 'jin065_relatives_gift':
+    if basis.get('kind') == 'jin065_relatives_gift':
         try: from scripts.jin065_relatives import gift_valid
         except ImportError: from jin065_relatives import gift_valid
         return gift_valid(holding, paragraphs, mentions, life_events or {})
-    if (holding.get('posthumous_basis') or {}).get('kind') == 'jin065_yue_tian_gifts':
+    if basis.get('kind') == 'jin065_yue_tian_gifts':
         try: from scripts.jin065_children import gift_valid
         except ImportError: from jin065_children import gift_valid
         return gift_valid(holding, paragraphs, mentions, life_events or {})
-    if not isinstance(basis, dict):
-        return False
     if basis.get('kind') == 'song063_print_coordinated_gift':
         try: from scripts.song063_wanghua_reading import print_gift_valid
         except ImportError: from song063_wanghua_reading import print_gift_valid

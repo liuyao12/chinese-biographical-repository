@@ -109,6 +109,54 @@
       "period": "未定 → 未定"
     },
     {
+      "id": "th-nan023-wangqiu-m2-38",
+      "person_id": "740_57f_3ec",
+      "title": "尚書僕射",
+      "kind": "office",
+      "mode": "attestation",
+      "attestations": [
+        {
+          "id": "th-nan023-wangqiu-m2-38:a",
+          "person_mention_id": "c-nanshi-023-wangqiu-lu:p002:m0042",
+          "usage": "narrative",
+          "date_expression": null,
+          "paragraph_id": "c-nanshi-023-wangqiu-lu:p002",
+          "surface": "尚書僕射",
+          "start": 38,
+          "end": 42
+        }
+      ],
+      "effective_period": {
+        "start": {
+          "status": "unknown",
+          "date_expression": null,
+          "evidence": []
+        },
+        "end": {
+          "status": "unknown",
+          "date_expression": null,
+          "evidence": []
+        }
+      },
+      "evidence": [
+        {
+          "work_id": "w-nanshi",
+          "book_id": "b-nanshi-023",
+          "source_id": "s-nanshi-023-wangqiu-lu-ws2478204",
+          "chapter_id": "c-nanshi-023-wangqiu-lu",
+          "paragraph_id": "c-nanshi-023-wangqiu-lu:p002",
+          "quote": "球簡貴勢，不交遊，筵席虛靜，門無異客。曇首常云：「蒨玉亦是玉卮無當耳。」既而尚書僕射殷景仁、領軍將軍劉湛並執重權，傾動內外，球雖通家姻戚，未嘗往來。居選職，接客甚稀，不視求官書疏，而銓衡有序。遷光祿大夫，領廬陵王師。",
+          "person_mention_id": "c-nanshi-023-wangqiu-lu:p002:m0042"
+        }
+      ],
+      "status": "source_attested",
+      "interpretation_note": "按本見證原職名及其所屬人。",
+      "reviewer": "Codex（AI 代理）",
+      "human_reviewed": false,
+      "model": null,
+      "period": "未定 → 未定"
+    },
+    {
       "id": "th-song052-xieshu-m3-164",
       "person_id": "740_57f_3ec",
       "title": "尚書僕射",
@@ -390,6 +438,61 @@
       "book_id": "b-nanshi-023",
       "chapter_id": "c-nanshi-023-wangkun",
       "source_id": "s-nanshi-023-wangkun-ws2478204",
+      "work_title": "南史"
+    },
+    {
+      "number": 23,
+      "category": "",
+      "title": "王球及兄子王履",
+      "paragraph_id": "c-nanshi-023-wangqiu-lu:p001",
+      "count": 3,
+      "raw_count": 3,
+      "duplicate_count": 0,
+      "counting_policy": "independent_fixed_witness_occurrences",
+      "quote": "雅敬之。歷位侍中，中書令，吏部尚書。時中書舍人徐爰有寵於上，上嘗命球及殷景仁與之相知。球辭曰：「士庶區別，國之章也。臣不敢奉詔。」上改容謝焉。",
+      "paragraph_ids": [
+        "c-nanshi-023-wangqiu-lu:p001",
+        "c-nanshi-023-wangqiu-lu:p002",
+        "c-nanshi-023-wangqiu-lu:p004"
+      ],
+      "mention_ids": [
+        "c-nanshi-023-wangqiu-lu:p001:m0110",
+        "c-nanshi-023-wangqiu-lu:p002:m0042",
+        "c-nanshi-023-wangqiu-lu:p004:m0000"
+      ],
+      "mention_paragraph_ids": {
+        "c-nanshi-023-wangqiu-lu:p001:m0110": "c-nanshi-023-wangqiu-lu:p001",
+        "c-nanshi-023-wangqiu-lu:p002:m0042": "c-nanshi-023-wangqiu-lu:p002",
+        "c-nanshi-023-wangqiu-lu:p004:m0000": "c-nanshi-023-wangqiu-lu:p004"
+      },
+      "mention_id": "c-nanshi-023-wangqiu-lu:p001:m0110",
+      "occurrence_groups": [
+        {
+          "canonical_mention_id": "c-nanshi-023-wangqiu-lu:p001:m0110",
+          "mention_ids": [
+            "c-nanshi-023-wangqiu-lu:p001:m0110"
+          ],
+          "kind": "paragraph"
+        },
+        {
+          "canonical_mention_id": "c-nanshi-023-wangqiu-lu:p002:m0042",
+          "mention_ids": [
+            "c-nanshi-023-wangqiu-lu:p002:m0042"
+          ],
+          "kind": "paragraph"
+        },
+        {
+          "canonical_mention_id": "c-nanshi-023-wangqiu-lu:p004:m0000",
+          "mention_ids": [
+            "c-nanshi-023-wangqiu-lu:p004:m0000"
+          ],
+          "kind": "paragraph"
+        }
+      ],
+      "work_id": "w-nanshi",
+      "book_id": "b-nanshi-023",
+      "chapter_id": "c-nanshi-023-wangqiu-lu",
+      "source_id": "s-nanshi-023-wangqiu-lu-ws2478204",
       "work_title": "南史"
     },
     {
@@ -868,6 +971,63 @@
           "character_conversion": {},
           "extraction_note": "僅去不轉換標記的界符。"
         }
+      }
+    },
+    {
+      "chapter_id": "c-nanshi-023-wangqiu-lu",
+      "work_id": "w-nanshi",
+      "book_id": "b-nanshi-023",
+      "source_id": "s-nanshi-023-wangqiu-lu-ws2478204",
+      "source": {
+        "title": "南史卷23·王球及兄子王履",
+        "provider": "Wikisource",
+        "url": "https://zh.wikisource.org/w/index.php?oldid=2478204",
+        "permalink": "https://zh.wikisource.org/w/index.php?oldid=2478204",
+        "revision_id": 2478204,
+        "accessed_on": "2026-11-21",
+        "edition": "維基文庫固定數位轉錄",
+        "extent": "固定修訂第92至98行，含段內子孫記載。",
+        "text_scope": "complete_biography_unit",
+        "image_verified": false,
+        "review_status": "text_checked",
+        "raw_path": "sources/nanshi/nanshi023-ws2478204.wikitext",
+        "raw_file_sha256": "c54bdda206986e5d4e5331144e783f163b5823855581b9833572e1982d1d4e40",
+        "rights": "古代原典及維基文庫數位轉錄。",
+        "license_url": "https://zh.wikisource.org/wiki/Wikisource:著作權資訊",
+        "normalization": {
+          "character_conversion": {},
+          "extraction_note": "逐碼取原行，數位校者夾注分層另據原始字位查核。",
+          "verified_blank_line_gaps": [
+            {
+              "source_lines": [
+                93,
+                93
+              ],
+              "raw_quote": "",
+              "raw_quote_sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+              "revision_id": 2478204
+            },
+            {
+              "source_lines": [
+                95,
+                95
+              ],
+              "raw_quote": "",
+              "raw_quote_sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+              "revision_id": 2478204
+            },
+            {
+              "source_lines": [
+                97,
+                97
+              ],
+              "raw_quote": "",
+              "raw_quote_sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+              "revision_id": 2478204
+            }
+          ]
+        },
+        "section_locator": "王惠題內王球傳及段中王履事。"
       }
     },
     {
@@ -10193,7 +10353,37 @@
   ],
   "preferred_relations": [],
   "age_assertions": [],
-  "life_events": [],
+  "life_events": [
+    {
+      "id": "le-nan023-wangqiu-yin",
+      "person_id": "740_57f_3ec",
+      "event_type": "death",
+      "source_term": "卒",
+      "source_anchor": {
+        "paragraph_id": "c-nanshi-023-wangqiu-lu:p004",
+        "surface": "卒",
+        "start": 3,
+        "end": 4
+      },
+      "date_expression": null,
+      "evidence": [
+        {
+          "work_id": "w-nanshi",
+          "book_id": "b-nanshi-023",
+          "source_id": "s-nanshi-023-wangqiu-lu-ws2478204",
+          "chapter_id": "c-nanshi-023-wangqiu-lu",
+          "paragraph_id": "c-nanshi-023-wangqiu-lu:p004",
+          "quote": "殷景仁卒，球除尚書僕射，王師如故。素有腳疾，多病還家，朝直至少。錄尚書江夏王義恭謂尚書何尚之曰：「當今乏才，群下宜加戮力，而王球放恣如此，宜以法糾之。」尚之曰：「球有素尚，加又多疾，公應以淡退求之，未可以文案責也。」義恭又面啟文帝曰：「王球誠有素譽，頗以物外自許。端任要切，或非所長。」帝曰：「誠知如此，要是時望所歸。昔周伯仁終日飲酒而居此任，蓋所以崇素德也。」遂見優容。後以白衣領職。十八年，卒，時年四十九。贈特進、金紫光祿大夫。無子，從孫奐為後。",
+          "person_mention_id": "c-nanshi-023-wangqiu-lu:p004:m0000"
+        }
+      ],
+      "status": "source_attested",
+      "interpretation_note": "景仁先卒，球代僕射；與球十八年卒分記。",
+      "reviewer": "Codex（AI 代理）",
+      "human_reviewed": false,
+      "model": null
+    }
+  ],
   "life_event_date_decisions": [],
   "selected_life_event_dates": []
 }
