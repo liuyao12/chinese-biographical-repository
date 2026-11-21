@@ -45,6 +45,41 @@
       "chapter_id": "c-nanshi-059-wangjian-sengru-context",
       "source_id": "s-nanshi-059-wangjian-sengru-context-ws1553912",
       "work_title": "南史"
+    },
+    {
+      "number": 59,
+      "category": "",
+      "title": "王僧孺及西邸諸人",
+      "paragraph_id": "c-nanshi-059-wangsengru:p001",
+      "count": 1,
+      "raw_count": 1,
+      "duplicate_count": 0,
+      "counting_policy": "independent_fixed_witness_occurrences",
+      "quote": "軍肅八世孫也。曾祖雅，晉左光祿大夫、儀同三司。祖准之，宋司徒左長史。父延年，員外常侍，未拜卒。",
+      "paragraph_ids": [
+        "c-nanshi-059-wangsengru:p001"
+      ],
+      "mention_ids": [
+        "c-nanshi-059-wangsengru:p001:m0051"
+      ],
+      "mention_paragraph_ids": {
+        "c-nanshi-059-wangsengru:p001:m0051": "c-nanshi-059-wangsengru:p001"
+      },
+      "mention_id": "c-nanshi-059-wangsengru:p001:m0051",
+      "occurrence_groups": [
+        {
+          "canonical_mention_id": "c-nanshi-059-wangsengru:p001:m0051",
+          "mention_ids": [
+            "c-nanshi-059-wangsengru:p001:m0051"
+          ],
+          "kind": "paragraph"
+        }
+      ],
+      "work_id": "w-nanshi",
+      "book_id": "b-nanshi-059",
+      "chapter_id": "c-nanshi-059-wangsengru",
+      "source_id": "s-nanshi-059-wangsengru-ws1553912",
+      "work_title": "南史"
     }
   ],
   "table_occurrences": [],
@@ -76,6 +111,34 @@
           "character_conversion": {},
           "extraction_note": "僅去不轉換標記的界符。"
         }
+      }
+    },
+    {
+      "chapter_id": "c-nanshi-059-wangsengru",
+      "work_id": "w-nanshi",
+      "book_id": "b-nanshi-059",
+      "source_id": "s-nanshi-059-wangsengru-ws1553912",
+      "source": {
+        "title": "南史卷59·王僧孺及西邸諸人",
+        "provider": "Wikisource",
+        "url": "https://zh.wikisource.org/w/index.php?oldid=1553912",
+        "permalink": "https://zh.wikisource.org/w/index.php?oldid=1553912",
+        "revision_id": 1553912,
+        "accessed_on": "2026-11-21",
+        "edition": "維基文庫固定數位轉錄",
+        "extent": "固定修訂第82–98行，第100行另起論。",
+        "text_scope": "complete_biography_unit",
+        "image_verified": false,
+        "review_status": "text_checked",
+        "raw_path": "source-evidence/nanshi022-wangci/external/nan59-ws1553912.wikitext",
+        "raw_file_sha256": "77045253826f6a6ef9eadbc8c866c4a316cb312d611aefd742a01c73c2804e9c",
+        "rights": "古代原典及維基文庫數位轉錄。",
+        "license_url": "https://zh.wikisource.org/wiki/Wikisource:著作權資訊",
+        "normalization": {
+          "character_conversion": {},
+          "extraction_note": "投影相應原句，保留字形；移除年號模板定界符。"
+        },
+        "section_locator": "王僧孺"
       }
     }
   ],
@@ -133,6 +196,34 @@
       "reviewer": "Codex（AI代理）",
       "model": null,
       "human_reviewed": false
+    },
+    {
+      "id": "a-nanshi059-wangsengru-father",
+      "subject_person_id": "59d_72d_924_AAA",
+      "object_person_id": "59d_72d_924_AA",
+      "predicate": "father",
+      "qualifiers": {
+        "source_term": "父延年",
+        "nanshi059_wangsengru_reading": "father",
+        "lineage": "paternal"
+      },
+      "evidence": [
+        {
+          "work_id": "w-nanshi",
+          "book_id": "b-nanshi-059",
+          "source_id": "s-nanshi-059-wangsengru-ws1553912",
+          "chapter_id": "c-nanshi-059-wangsengru",
+          "paragraph_id": "c-nanshi-059-wangsengru:p001",
+          "quote": "王僧孺字僧孺，東海郯人也。魏衛將軍肅八世孫也。曾祖雅，晉左光祿大夫、儀同三司。祖准之，宋司徒左長史。父延年，員外常侍，未拜卒。",
+          "subject_person_mention_id": "c-nanshi-059-wangsengru:p001:m0000",
+          "object_person_mention_id": "c-nanshi-059-wangsengru:p001:m0051"
+        }
+      ],
+      "status": "source_attested",
+      "interpretation_note": "本傳自述父系；既有同源節錄的原錨另存。",
+      "reviewer": "Codex（AI 代理）",
+      "human_reviewed": false,
+      "model": null
     }
   ],
   "related_people": {
@@ -141,7 +232,85 @@
     "59d_72d_924_AAA": "王僧孺"
   },
   "dates": [],
+  "title_proposals": [
+    {
+      "id": "tp-nanshi059-wangsengru-father",
+      "person_id": "59d_72d_924_AA",
+      "title": "員外常侍",
+      "person_mention_id": "c-nanshi-059-wangsengru:p001:m0051",
+      "evidence": [
+        {
+          "work_id": "w-nanshi",
+          "book_id": "b-nanshi-059",
+          "source_id": "s-nanshi-059-wangsengru-ws1553912",
+          "chapter_id": "c-nanshi-059-wangsengru",
+          "paragraph_id": "c-nanshi-059-wangsengru:p001",
+          "quote": "王僧孺字僧孺，東海郯人也。魏衛將軍肅八世孫也。曾祖雅，晉左光祿大夫、儀同三司。祖准之，宋司徒左長史。父延年，員外常侍，未拜卒。",
+          "person_mention_id": "c-nanshi-059-wangsengru:p001:m0051"
+        }
+      ],
+      "proposal_kind": "unassumed_appointment",
+      "outcome": "not_assumed",
+      "non_assumption_kind": "not_realized",
+      "appointment_stage": "offered",
+      "role_anchor": {
+        "paragraph_id": "c-nanshi-059-wangsengru:p001",
+        "surface": "員外常侍",
+        "start": 54,
+        "end": 58
+      },
+      "appointment_anchor": {
+        "paragraph_id": "c-nanshi-059-wangsengru:p001",
+        "surface": "員外常侍",
+        "start": 54,
+        "end": 58
+      },
+      "non_assumption_anchor": {
+        "paragraph_id": "c-nanshi-059-wangsengru:p001",
+        "surface": "未拜卒",
+        "start": 59,
+        "end": 62
+      },
+      "interpretation_note": "傳稱未拜卒，保留任命及未拜結果。",
+      "status": "contextual_provisional",
+      "reviewer": "Codex（AI 代理）",
+      "human_reviewed": false,
+      "model": null
+    }
+  ],
   "name_components": [],
+  "person_references": [
+    {
+      "id": "c-nanshi-059-wangsengru:p002:r0058",
+      "surface": "其父",
+      "start": 58,
+      "end": 60,
+      "person_id": "59d_72d_924_AA",
+      "referent_role": "third_person",
+      "paragraph_id": "c-nanshi-059-wangsengru:p002",
+      "quote": "僧孺幼聰慧，年五歲便機警，初讀孝經，問授者曰：「此書何所述？」曰：「論忠孝二事。」僧孺曰：「若爾，願常讀之。」又有饋其父冬李，先以一與之，僧孺不受，曰：「大人未見，不容先嘗。」七歲能讀十萬言，及長篤愛墳籍。家貧，常傭書以養母，寫畢諷誦亦了。",
+      "note": "從本段發言者、受話人或所記府主覆核。",
+      "chapter_id": "c-nanshi-059-wangsengru",
+      "book_id": "b-nanshi-059",
+      "work_id": "w-nanshi",
+      "source_id": "s-nanshi-059-wangsengru-ws1553912"
+    },
+    {
+      "id": "c-nanshi-059-wangsengru:p002:r0077",
+      "surface": "大人",
+      "start": 77,
+      "end": 79,
+      "person_id": "59d_72d_924_AA",
+      "referent_role": "third_person",
+      "paragraph_id": "c-nanshi-059-wangsengru:p002",
+      "quote": "僧孺幼聰慧，年五歲便機警，初讀孝經，問授者曰：「此書何所述？」曰：「論忠孝二事。」僧孺曰：「若爾，願常讀之。」又有饋其父冬李，先以一與之，僧孺不受，曰：「大人未見，不容先嘗。」七歲能讀十萬言，及長篤愛墳籍。家貧，常傭書以養母，寫畢諷誦亦了。",
+      "note": "從本段發言者、受話人或所記府主覆核。",
+      "chapter_id": "c-nanshi-059-wangsengru",
+      "book_id": "b-nanshi-059",
+      "work_id": "w-nanshi",
+      "source_id": "s-nanshi-059-wangsengru-ws1553912"
+    }
+  ],
   "person_ids": [
     "59d_72d_924_AA"
   ],
@@ -199,10 +368,68 @@
       "reviewer": "Codex（AI代理）",
       "model": null,
       "human_reviewed": false
+    },
+    {
+      "id": "a-nanshi059-wangsengru-father",
+      "subject_person_id": "59d_72d_924_AAA",
+      "object_person_id": "59d_72d_924_AA",
+      "predicate": "father",
+      "qualifiers": {
+        "source_term": "父延年",
+        "nanshi059_wangsengru_reading": "father",
+        "lineage": "paternal"
+      },
+      "evidence": [
+        {
+          "work_id": "w-nanshi",
+          "book_id": "b-nanshi-059",
+          "source_id": "s-nanshi-059-wangsengru-ws1553912",
+          "chapter_id": "c-nanshi-059-wangsengru",
+          "paragraph_id": "c-nanshi-059-wangsengru:p001",
+          "quote": "王僧孺字僧孺，東海郯人也。魏衛將軍肅八世孫也。曾祖雅，晉左光祿大夫、儀同三司。祖准之，宋司徒左長史。父延年，員外常侍，未拜卒。",
+          "subject_person_mention_id": "c-nanshi-059-wangsengru:p001:m0000",
+          "object_person_mention_id": "c-nanshi-059-wangsengru:p001:m0051"
+        }
+      ],
+      "status": "source_attested",
+      "interpretation_note": "本傳自述父系；既有同源節錄的原錨另存。",
+      "reviewer": "Codex（AI 代理）",
+      "human_reviewed": false,
+      "model": null
     }
   ],
   "age_assertions": [],
-  "life_events": [],
+  "life_events": [
+    {
+      "id": "le-nanshi059-wangsengru-father",
+      "person_id": "59d_72d_924_AA",
+      "event_type": "death",
+      "source_term": "卒",
+      "source_anchor": {
+        "paragraph_id": "c-nanshi-059-wangsengru:p001",
+        "surface": "卒",
+        "start": 61,
+        "end": 62
+      },
+      "date_expression": null,
+      "evidence": [
+        {
+          "work_id": "w-nanshi",
+          "book_id": "b-nanshi-059",
+          "source_id": "s-nanshi-059-wangsengru-ws1553912",
+          "chapter_id": "c-nanshi-059-wangsengru",
+          "paragraph_id": "c-nanshi-059-wangsengru:p001",
+          "quote": "王僧孺字僧孺，東海郯人也。魏衛將軍肅八世孫也。曾祖雅，晉左光祿大夫、儀同三司。祖准之，宋司徒左長史。父延年，員外常侍，未拜卒。",
+          "person_mention_id": "c-nanshi-059-wangsengru:p001:m0051"
+        }
+      ],
+      "status": "source_attested",
+      "interpretation_note": "父延年未拜而卒，無年月。",
+      "reviewer": "Codex（AI 代理）",
+      "human_reviewed": false,
+      "model": null
+    }
+  ],
   "life_event_date_decisions": [],
   "selected_life_event_dates": []
 }

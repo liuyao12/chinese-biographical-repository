@@ -27,7 +27,56 @@
     "相王",
     "晉王"
   ],
-  "titles": [],
+  "titles": [
+    {
+      "id": "th-w044-huaqiao-0",
+      "person_id": "dkn_ge4_286_AAAAI",
+      "title": "大將軍",
+      "kind": "office",
+      "mode": "attestation",
+      "evidence": [
+        {
+          "work_id": "w-jinshu",
+          "book_id": "b-jinshu-044",
+          "chapter_id": "c-jinshu-044-huaqiao",
+          "source_id": "s-jinshu-044-huaqiao",
+          "paragraph_id": "c-jinshu-044-huaqiao:line106",
+          "quote": "嶠字叔駿，才學深博，少有令聞。文帝為大將軍，辟為掾屬，補尚書郎，轉車騎從事中郎。泰始初，賜爵關內侯。遷太子中庶子。出為安平太守。辭親老不行，更拜散騎常侍，典中書著作，領國子博士，遷侍中。",
+          "person_mention_id": "c-jinshu-044-huaqiao:line106:m0015"
+        }
+      ],
+      "attestations": [
+        {
+          "id": "th-w043-huaqiao-0:a",
+          "paragraph_id": "c-jinshu-044-huaqiao:line106",
+          "start": 18,
+          "end": 21,
+          "surface": "大將軍",
+          "person_mention_id": "c-jinshu-044-huaqiao:line106:m0015",
+          "usage": "narrative",
+          "date_expression": null
+        }
+      ],
+      "effective_period": {
+        "start": {
+          "status": "unknown",
+          "date_expression": null,
+          "evidence": []
+        },
+        "end": {
+          "status": "unknown",
+          "date_expression": null,
+          "evidence": []
+        }
+      },
+      "interpretation_note": "本來源官稱或所任，未受另記。",
+      "status": "source_attested",
+      "reviewer": "Codex（AI 代理）",
+      "human_reviewed": false,
+      "model": null,
+      "period": "未定 → 未定"
+    }
+  ],
   "addresses": [],
   "occurrences": [
     {
@@ -818,6 +867,41 @@
       "book_id": "b-jinshu-042",
       "chapter_id": "c-jinshu-042-taiyuan-wang",
       "source_id": "s-jinshu-042-taiyuan-wang",
+      "work_title": "晉書"
+    },
+    {
+      "number": 44,
+      "category": "",
+      "title": "晉書卷四十四·華嶠傳",
+      "paragraph_id": "c-jinshu-044-huaqiao:line106",
+      "count": 1,
+      "raw_count": 1,
+      "duplicate_count": 0,
+      "counting_policy": "independent_fixed_witness_occurrences",
+      "quote": "嶠字叔駿，才學深博，少有令聞。文帝為大將軍，辟為掾屬，補尚書郎，轉車騎從事中郎。泰始初，賜爵關內侯。遷太子中庶子。出為安平太守。辭親老不行，更拜散騎常侍，典中書著作，領國子博士，遷侍中。",
+      "paragraph_ids": [
+        "c-jinshu-044-huaqiao:line106"
+      ],
+      "mention_ids": [
+        "c-jinshu-044-huaqiao:line106:m0015"
+      ],
+      "mention_paragraph_ids": {
+        "c-jinshu-044-huaqiao:line106:m0015": "c-jinshu-044-huaqiao:line106"
+      },
+      "mention_id": "c-jinshu-044-huaqiao:line106:m0015",
+      "occurrence_groups": [
+        {
+          "canonical_mention_id": "c-jinshu-044-huaqiao:line106:m0015",
+          "mention_ids": [
+            "c-jinshu-044-huaqiao:line106:m0015"
+          ],
+          "kind": "paragraph"
+        }
+      ],
+      "work_id": "w-jinshu",
+      "book_id": "b-jinshu-044",
+      "chapter_id": "c-jinshu-044-huaqiao",
+      "source_id": "s-jinshu-044-huaqiao",
       "work_title": "晉書"
     },
     {
@@ -13408,6 +13492,33 @@
         },
         "rights": "古代原文及維基文庫數位轉錄；保留來源歸屬。",
         "license_url": "https://creativecommons.org/licenses/by-sa/4.0/"
+      }
+    },
+    {
+      "chapter_id": "c-jinshu-044-huaqiao",
+      "work_id": "w-jinshu",
+      "book_id": "b-jinshu-044",
+      "source_id": "s-jinshu-044-huaqiao",
+      "source": {
+        "title": "晉書卷四十四",
+        "provider": "Wikisource",
+        "url": "https://zh.wikisource.org/w/index.php?oldid=1775345",
+        "permalink": "https://zh.wikisource.org/w/index.php?oldid=1775345",
+        "revision_id": 1775345,
+        "accessed_on": "2026-11-21",
+        "extent": "固定數位題「廙弟嶠」題下全文。",
+        "text_scope": "partial_chapter",
+        "review_status": "text_checked",
+        "image_verified": false,
+        "rights": "古代本文及維基文庫數位轉錄。",
+        "license_url": "https://creativecommons.org/licenses/by-sa/4.0/",
+        "edition": "維基文庫固定修訂1775345",
+        "raw_path": "sources/jinshu/wikisource-1775345-raw.wikitext",
+        "wikitext_sha256": "09742e651b479fea881fd24c7734451de2b78b9f0410adda36ba210c31a0b5c8",
+        "raw_file_sha256": "09742e651b479fea881fd24c7734451de2b78b9f0410adda36ba210c31a0b5c8",
+        "collation_witnesses": [
+          "source-evidence/jin044-huaqiao/reading.json"
+        ]
       }
     },
     {

@@ -24,6 +24,10 @@ def verified_blank_gap(chapter, before, after):
 
 
 def prior_subject_valid(context, evidence, person_id, chapter):
+    if isinstance(context,dict) and context.get('kind')=='liang033_sengru_resumed_biography':
+        try: from scripts.liang033_wangsengru import resumed_subject as sengru_resumed_subject
+        except ImportError: from liang033_wangsengru import resumed_subject as sengru_resumed_subject
+        return sengru_resumed_subject(context,evidence,person_id,chapter)
     if isinstance(context, dict) and context.get('kind') == 'tao_meng_death_subject':
         try: from scripts.tao_meng_family import context_valid
         except ImportError: from tao_meng_family import context_valid
@@ -70,6 +74,10 @@ def prior_subject_valid(context, evidence, person_id, chapter):
 
 def title_attestation_subject_valid(attestation, holding, chapter):
     """Keep a title's actual location and its preceding named subject separate."""
+    if attestation.get('context',{}).get('kind')=='liang033_sengru_resumed_biography':
+        try: from scripts.liang033_wangsengru import resumed_title as sengru_resumed_title
+        except ImportError: from liang033_wangsengru import resumed_title as sengru_resumed_title
+        return sengru_resumed_title(attestation,holding,chapter)
     if attestation.get('context',{}).get('kind')=='layered_biography_subject_continuation':
         try:from scripts.layered_biography_titles import title_context_valid
         except ImportError:from layered_biography_titles import title_context_valid

@@ -298,3 +298,19 @@
 褚令璩建武二年納妃，兩部正史帝紀繫十月乙卯，《通鑑》卷一四十繫十一月己卯。國圖藏紹興十八年刊遞修本《建康實錄》卷十五第十二面右第二欄末「八」與下一欄首「月納皇太子妃褚氏大赦」相接，四庫本數位轉寫作「十月納皇太子妃禇氏大赦」。皇子誦受冊，兩部正史帝紀繫永元元年四月己巳，《建康實錄》兩本均繫十一月，宋刊作「為太子」，四庫本作「為皇太子」。刊本及數位本各編入閱讀器，保留原字與原欄。[宋刊原欄與書影](../source-evidence/qi020-chulingqu/jiankang-print.json) · [各書紀年及引文](../source-evidence/qi020-chulingqu/chulingqu-nanqishu.json) · [褚后《南齊書》殿本](../source-evidence/qi020-chulingqu-wyd/wuying-reading.json) · [《南史》出雲藩本](../source-evidence/nan011-chulingqu-izumo/izumo-reading.json)
 
 本批另據兩冊殿本版心，訂正先前《南齊書》卷二十七與《南史》卷十六共十四處葉次、半葉或欄位，逐處存原定位、訂正值及引句。[版心圖及十四條訂正](../source-evidence/song076-wangxuanmo/print-folio-corrections.json) · [王景文殿本及互見](../source-evidence/nan023-wangyu/reading.json) · [盧諶與崔悅](../source-evidence/jin044-luchen-cuiyue/reading.json) · [《南齊書》卷二十七全卷分界](../source-evidence/nanqi027-nan016-volume-surveys/qi-boundaries.json) · [《南史》卷十六全卷分界](../source-evidence/nanqi027-nan016-volume-surveys/nan-boundaries.json)
+
+## 琅邪王氏之二十
+
+本批接續第十九批的館藏連結發布分支，新增三十四則逐項覆核。累計四十八卷有卷目調查，登記六百六十項傳目，四百零七項備全文，四百零六項完成人物初讀，四百零二項已逐項覆核。[第十九批](https://github.com/liuyao12/chinese-biographical-repository/pull/761) · [第十九批館藏連結](https://github.com/liuyao12/chinese-biographical-repository/pull/762)
+
+| 史書與卷次 | 本批完成 | 原文與判讀 |
+| --- | --- | --- |
+| 《晉書》卷四十四 | 華表、華廙、華混、華陶、華薈、華恆、華俊、華仰之、華嶠、華徹、華頤、華暢、石鑒、石陋 | 全卷十六個分題、十九則段中附敘均已覆核。華嶠所撰《後漢書》，本傳記九十七卷，永嘉後存五十餘卷；《隋書》經籍志著錄十七卷，《舊唐書》經籍志著錄三十一卷。華暢先見於修史及任官一段，華頤事畢，卷文再敘華暢。 |
+| 《晉書》卷七十五 | 王湛、王承、王述、王禕之 | 王述卒於太和三年八月壬寅，傳記六十六歲。王禕之字文劭、文邵兩讀各存。王禕之附敘夾在王坦之傳中，王坦之本傳另待覆核。 |
+| 《南齊書》卷四十七 | 王融、謝惠宣女 | 王融母為謝惠宣女。王融傳二十三原段，與《魏書》游明根、郭祚兩家本傳及《漢書》匈奴傳上互勘。卷內已登三項皆已覆核，段中附敘尚待全卷再勘。 |
+| 《梁書》卷三十三、《南史》卷五十九 | 各錄王僧孺及其母。《南史》另錄友人妾、全元起、賈弼及子孫、虞羲、丘國賓、蕭文琰等三人、劉孝孫、徐夤及父榮祖 | 兩傳都明書「王僧孺字僧孺」。《南史》記父延年「員外常侍，未拜卒」。僧孺卒年，《梁書》作普通三年，年五十八；《南史》作普通二年，未記齡，四庫本亦作二年。江淹、任昉等仍待逐項覆核。 |
+| 《南齊書》卷二十、《南史》卷十一 | 各錄文安王皇后寶明 | 《南史》卷四十四明記安皇后生蕭昭業。梁受禪時，王寶明降為齊文帝妃，王蕣華降為巴陵王妃。梁本紀兩書均繫王寶明薨於天監十一年冬十一月癸丑。《南齊書》后傳記年五十八，《南史》后傳未記齡。 |
+
+石尠、石定兩誌各存故宮館號、原石與拓本對照、欄位及親屬原詞。石定誌「太尉昌安元公之第三孫尚書城陽鄉侯之適子也」同時記祖孫排行與父子身分。石尠誌親屬欄拓本所讀「男姊」與館方釋文「南姊」並列。[兩誌逐欄與館藏](../source-evidence/shijian-family-rubbings/reading.json) · [《晉書》卷四十四分界](../source-evidence/jin044-survey/roll-review.json) · [華嶠著述](../source-evidence/jin044-huaqiao/reading.json) · [王禕之數位本與殿本](../source-evidence/jin075-taiyuan-wang-item-review/yizhi-reading.json)
+
+王寶明傳另據乾隆武英殿本、弘化四年出雲藩本各十二欄。《太平御覽》卷一四三、卷一四九、卷七一八三處引文各存標目、注文與原行。后傳父「曄之」與韶之傳子「曄」保留各書原稱與職官；「送后兄昺之家」保留「昺」「昺之」兩種斷讀。[王融傳對勘](../source-evidence/nanqi047-wangrong/reading.json) · [王僧孺兩史及諸家附敘](../source-evidence/nanshi059-wangsengru/reading.json) · [王寶明殿本](../source-evidence/qi020-wangbaoming-wyd/wuying-reading.json) · [出雲藩本](../source-evidence/nan011-wangbaoming-izumo/izumo-reading.json) · [后傳與諸書互見](../source-evidence/qi020-wangbaoming/wangbaoming-nanqishu.json)

@@ -22,6 +22,14 @@ def unassumed_role(proposal, paragraph):
 
 
 def unassumed_appointment_valid(proposal, chapter):
+    if chapter.get('id') == 'c-nanshi-059-wangsengru':
+        try: from scripts.nanshi059_wangsengru import proposal_valid as nan59sr_proposal_valid
+        except ImportError: from nanshi059_wangsengru import proposal_valid as nan59sr_proposal_valid
+        return nan59sr_proposal_valid(proposal, chapter)
+    if chapter.get('id') == 'c-liangshu-033-wangsengru':
+        try: from scripts.liang033_wangsengru import proposal_valid as liang33sr_proposal_valid
+        except ImportError: from liang033_wangsengru import proposal_valid as liang33sr_proposal_valid
+        return liang33sr_proposal_valid(proposal, chapter)
     if chapter.get('id') == 'c-nanshi-023-wangyu-jingwen':
         try: from scripts.nan023_wangyu import proposal_valid as nan23yu_proposal_valid
         except ImportError: from nan023_wangyu import proposal_valid as nan23yu_proposal_valid
@@ -168,6 +176,21 @@ def unassumed_appointment_valid(proposal, chapter):
                 or not text[refusal['end']:].startswith('，以侯就第，拜儀同三司')):
             return False
         terms['did_not_take_up'] = [*terms['did_not_take_up'], refusal['surface']]
+    if proposal.get('source_refusal_form') == 'jin044_huaheng':
+        fixed = {'光祿勳': ('即召恆，補光祿勳。恆到，未及拜，更以為衛將軍','補','未及拜'),
+                 '護軍': ('王敦表轉恆為護軍，疾病不拜','轉','不拜'),
+                 '左光祿大夫': ('遷左光祿大夫、開府，常侍如故，固讓未拜','遷','未拜'),
+                 '開府': ('遷左光祿大夫、開府，常侍如故，固讓未拜','遷','未拜')}
+        rule = fixed.get(role['surface'])
+        if (not rule or p['source_position']['revision_id']!=1775345 or person['surface']!='恆'
+                or p['text'].count(rule[0])!=1 or (appointment['surface'],refusal['surface'])!=rule[1:]):return False
+        pos=p['text'].index(rule[0])
+        return all(x['start']==pos+rule[0].index(x['surface']) and x['end']==x['start']+len(x['surface']) for x in [role,appointment,refusal])
+    if proposal.get('source_refusal_form') == 'jin044_huaqiao':
+        clause='出為安平太守。辭親老不行，更拜散騎常侍'
+        if p['source_position']['revision_id']!=1775345 or p['text'].count(clause)!=1 or person['start']!=0 or person['surface']!='嶠':return False
+        pos=p['text'].index(clause)
+        return ((role['start'],role['surface'])==(pos+2,'安平太守') and (appointment['start'],appointment['surface'])==(pos,'出為') and (refusal['start'],refusal['surface'])==(pos+10,'不行'))
     stage = proposal.get('appointment_stage')
     invitation = appointment['surface'] in ('請為', '請爲')
     if (stage not in (None, 'invitation', 'appointment')

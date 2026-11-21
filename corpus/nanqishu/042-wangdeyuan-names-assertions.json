@@ -1,0 +1,70 @@
+{
+  "format_version": "0.2",
+  "record_type": "person_assertion_set",
+  "chapter_id": "c-nanqishu-042-wangdeyuan-names",
+  "assertions": [
+    {
+      "id": "a-liang033-wangsengru-deyuan-d",
+      "subject_person_id": "i08_s4b_5bb_A",
+      "object_person_id": "i08_s4b_5bb",
+      "predicate": "father",
+      "qualifiers": {
+        "source_term": "晏子德元",
+        "liang033_wangsengru_reading": "deyuan-d",
+        "lineage": "paternal"
+      },
+      "evidence": [
+        {
+          "work_id": "w-nanqishu",
+          "book_id": "b-nanqishu-042",
+          "source_id": "s-nanqishu-042-wangdeyuan-names-ws1507997",
+          "chapter_id": "c-nanqishu-042-wangdeyuan-names",
+          "paragraph_id": "c-nanqishu-042-wangdeyuan-names:p001",
+          "quote": "晏子德元，有意尚。至車騎長史。德元初名湛，世祖謂晏曰：「劉湛、江湛，竝不善終，此非佳名也。」晏乃改之。至是與弟晉安王友德和俱被誅。",
+          "subject_person_mention_id": "c-nanqishu-042-wangdeyuan-names:p001:m0002",
+          "object_person_mention_id": "c-nanqishu-042-wangdeyuan-names:p001:m0000"
+        }
+      ],
+      "status": "source_attested",
+      "interpretation_note": "齊書王晏傳傳尾。",
+      "reviewer": "Codex（AI 代理）",
+      "human_reviewed": false,
+      "model": null
+    },
+    {
+      "id": "a-liang033-wangsengru-dehe",
+      "subject_person_id": "i08_s4b_5bb_A",
+      "object_person_id": "i08_s4b_5bb_B",
+      "predicate": "brother",
+      "qualifiers": {
+        "source_term": "與弟晉安王友德和",
+        "liang033_wangsengru_reading": "dehe",
+        "relative_birth_order": {
+          "older_person_id": "i08_s4b_5bb_A",
+          "younger_person_id": "i08_s4b_5bb_B",
+          "operator": "lt",
+          "scope": "siblings",
+          "older_ordinal": null,
+          "younger_ordinal": null
+        }
+      },
+      "evidence": [
+        {
+          "work_id": "w-nanqishu",
+          "book_id": "b-nanqishu-042",
+          "source_id": "s-nanqishu-042-wangdeyuan-names-ws1507997",
+          "chapter_id": "c-nanqishu-042-wangdeyuan-names",
+          "paragraph_id": "c-nanqishu-042-wangdeyuan-names:p001",
+          "quote": "晏子德元，有意尚。至車騎長史。德元初名湛，世祖謂晏曰：「劉湛、江湛，竝不善終，此非佳名也。」晏乃改之。至是與弟晉安王友德和俱被誅。",
+          "subject_person_mention_id": "c-nanqishu-042-wangdeyuan-names:p001:m0015",
+          "object_person_mention_id": "c-nanqishu-042-wangdeyuan-names:p001:m0059"
+        }
+      ],
+      "status": "source_attested",
+      "interpretation_note": "德元為兄、德和為弟。",
+      "reviewer": "Codex（AI 代理）",
+      "human_reviewed": false,
+      "model": null
+    }
+  ]
+}
