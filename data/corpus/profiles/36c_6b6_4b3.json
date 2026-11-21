@@ -15,7 +15,56 @@
     "浚",
     "彼"
   ],
-  "titles": [],
+  "titles": [
+    {
+      "id": "t-wu058-k29",
+      "person_id": "36c_6b6_4b3",
+      "kind": "office",
+      "title": "龍驤將軍",
+      "mode": "attestation",
+      "status": "source_attested",
+      "effective_period": {
+        "start": {
+          "status": "unknown",
+          "date_expression": null,
+          "evidence": []
+        },
+        "end": {
+          "status": "unknown",
+          "date_expression": null,
+          "evidence": []
+        }
+      },
+      "interpretation_note": "本句所載職官，任免時間未詳。",
+      "evidence": [
+        {
+          "work_id": "w-sanguozhi",
+          "book_id": "b-sanguozhi-058",
+          "chapter_id": "c-sanguozhi-058-lukang",
+          "source_id": "s-sanguozhi-058-lukang",
+          "paragraph_id": "c-sanguozhi-058-lukang:line087",
+          "quote": "秋遂卒，子晏嗣。晏及弟景、玄、機、雲、分領抗兵。晏為裨將軍、夷道監。天紀四年，晉軍伐吳，龍驤將軍王浚順流東下。所至輒克，終如抗慮。景字士仁，以尚公主拜騎都尉，封毗陵侯，既領抗兵，拜偏將軍、中夏督，澡身好學，著書數十篇也。二月壬戌，晏為王浚別軍所殺。癸亥，景亦遇害，時年三十一。景妻，孫皓適妹，與景俱張承外孫也。",
+          "person_mention_id": "c-sanguozhi-058-lukang:line087:m0048"
+        }
+      ],
+      "attestations": [
+        {
+          "id": "t-wu058-k29:a",
+          "paragraph_id": "c-sanguozhi-058-lukang:line087",
+          "person_mention_id": "c-sanguozhi-058-lukang:line087:m0048",
+          "start": 44,
+          "end": 48,
+          "surface": "龍驤將軍",
+          "usage": "narrative",
+          "date_expression": null
+        }
+      ],
+      "human_reviewed": false,
+      "reviewer": "Codex（AI 代理）",
+      "model": null,
+      "period": "未定 → 未定"
+    }
+  ],
   "addresses": [],
   "occurrences": [
     {
@@ -125,6 +174,50 @@
       "chapter_id": "c-jinshu-042-taiyuan-wang",
       "source_id": "s-jinshu-042-taiyuan-wang",
       "work_title": "晉書"
+    },
+    {
+      "number": 58,
+      "category": "",
+      "title": "陸抗傳",
+      "paragraph_id": "c-sanguozhi-058-lukang:line087",
+      "count": 2,
+      "raw_count": 2,
+      "duplicate_count": 0,
+      "counting_policy": "independent_fixed_witness_occurrences",
+      "quote": "玄、機、雲、分領抗兵。晏為裨將軍、夷道監。天紀四年，晉軍伐吳，龍驤將軍王浚順流東下。所至輒克，終如抗慮。景字士仁，以尚公主拜騎都尉，封毗陵侯，既領抗兵，拜偏將軍、中夏督，澡身好學，著書數十篇也。二月壬戌，晏為王浚別軍所殺。癸亥，景亦遇害，時年三十一。景妻，孫皓適妹，與景俱張",
+      "paragraph_ids": [
+        "c-sanguozhi-058-lukang:line087"
+      ],
+      "mention_ids": [
+        "c-sanguozhi-058-lukang:line087:m0048",
+        "c-sanguozhi-058-lukang:line087:m0117"
+      ],
+      "mention_paragraph_ids": {
+        "c-sanguozhi-058-lukang:line087:m0048": "c-sanguozhi-058-lukang:line087",
+        "c-sanguozhi-058-lukang:line087:m0117": "c-sanguozhi-058-lukang:line087"
+      },
+      "mention_id": "c-sanguozhi-058-lukang:line087:m0048",
+      "occurrence_groups": [
+        {
+          "canonical_mention_id": "c-sanguozhi-058-lukang:line087:m0048",
+          "mention_ids": [
+            "c-sanguozhi-058-lukang:line087:m0048"
+          ],
+          "kind": "paragraph"
+        },
+        {
+          "canonical_mention_id": "c-sanguozhi-058-lukang:line087:m0117",
+          "mention_ids": [
+            "c-sanguozhi-058-lukang:line087:m0117"
+          ],
+          "kind": "paragraph"
+        }
+      ],
+      "work_id": "w-sanguozhi",
+      "book_id": "b-sanguozhi-058",
+      "chapter_id": "c-sanguozhi-058-lukang",
+      "source_id": "s-sanguozhi-058-lukang",
+      "work_title": "三國志"
     },
     {
       "number": 61,
@@ -12532,6 +12625,33 @@
           "omitted_digital_paratext": []
         },
         "extent": "周浚及嵩、謨、馥完整選定單元；固定見證25段4069字，止於成公簡前，不是卷六十一全卷。"
+      }
+    },
+    {
+      "chapter_id": "c-sanguozhi-058-lukang",
+      "work_id": "w-sanguozhi",
+      "book_id": "b-sanguozhi-058",
+      "source_id": "s-sanguozhi-058-lukang",
+      "source": {
+        "title": "三國志卷五十八·吳書十三",
+        "provider": "Wikisource",
+        "url": "https://zh.wikisource.org/w/index.php?oldid=2131313",
+        "permalink": "https://zh.wikisource.org/w/index.php?oldid=2131313",
+        "revision_id": 2131313,
+        "accessed_on": "2026-11-21",
+        "edition": "維基文庫固定修訂，裴注與正文分層。",
+        "extent": "第60至87行。",
+        "text_scope": "partial_chapter",
+        "review_status": "text_checked",
+        "image_verified": false,
+        "rights": "古籍原文，維基文庫轉錄。",
+        "license_url": "https://creativecommons.org/licenses/by-sa/4.0/",
+        "raw_path": "source-evidence/sanguozhi058-lu/sanguozhi058-ws2131313.wikitext",
+        "raw_file_sha256": "8bc2076ba31052c04c70204ac931fa655ed6b4e11c842ae2742ba05bb7b9aa10",
+        "wikitext_sha256": "8bc2076ba31052c04c70204ac931fa655ed6b4e11c842ae2742ba05bb7b9aa10",
+        "collation_witnesses": [
+          "source-evidence/sanguozhi058-lukang/reading.json"
+        ]
       }
     }
   ],

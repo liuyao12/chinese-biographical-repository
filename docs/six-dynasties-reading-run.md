@@ -388,3 +388,18 @@
 吳太子孫登的字及父親見卷五十九傳首「孫登字子高，權長子也」。卷五十二本批四篇共十處舊姓名標記改繫吳太子，原字與原標記位置均可回查。《晉書》另載隱士孫登字公和。建昌侯孫慮亦由吳傳立證。[兩位吳皇子的傳首與跨卷訂補](../source-evidence/sanguozhi058-sun-princes/reading.json)
 
 王鎮之傳的歸葬語，固定數位本作「上虞舊墓。葬畢」，武英殿本作「還上虞舊基畢」。杜慧度、杜瑗、杜弘文三傳共四十六句。殿本所見冊缺四下、五上，以文淵閣四庫本對校。王歆之傳具曾祖愆期、祖尋之、父肇之。《晉書》王接傳末「長子愆期」與「緣父本意」又可上溯一代。[杜氏書影葉序](../source-evidence/song092-officials/printed-page-sequence.json) · [王歆之父祖逐證](../source-evidence/song092-wangxinzhi/reading.json) · [良吏全卷傳界](../source-evidence/song092-wangxinzhi/volume-boundaries.json)
+
+## 第二十六批　吳書陸氏、《宋書》張趙兩家及后妃
+
+本批新增六十九項逐傳覆核。五十九卷已登記九百四十四項傳目，六百九十二項備有全文，六百九十一項完成人物初讀，六百八十五項完成逐項覆核。
+
+| 卷篇 | 新核傳目 | 原文與校勘 |
+| --- | ---: | --- |
+| 《三國志》卷五十二 | 11 | 諸葛瑾、諸葛融、步騭及焦矯、衛旌、李肅、步協、步璣、步闡、步璿、周昭。合上批二十六項，全卷三十七項已齊。步騭篇中太子孫登的舊標記亦已據卷五十九訂正。 |
+| 《三國志》卷五十八 | 23 | 陸遜、陸抗兩篇主傳，另有二十一則附敘。陸晏及弟景、玄、機、雲分領抗兵。陸景之母為張承女，撫養景者為其祖母。吳傳記晏壬戌死、景癸亥死，《晉書》武帝紀將二人同繫壬戌。 |
+| 《宋書》卷四十六 | 13 | 張邵一家九傳、趙倫之等四傳，加上前核王氏三傳，三十三行正文共十六項。到彥之名下只有「闕」注，另記《南史》卷二十五傳文首尾。趙伯符家所見宋文帝第四女海鹽公主，與何邁妻新蔡公主英媚各有人物條目。 |
+| 《南史》卷十一、《宋書》卷四十一及卷八十 | 22 | 三卷分別新增八、十一、三項。路惠男、何令婉及何氏親屬各依本書字句。殷淑儀所生五子與第十二皇女分項立證。卷八十本批覆核子羽、子雲、子師三傳。 |
+
+武英殿本《宋書》卷八十第九葉上第三至五欄具「可以建平王景素息延年為嗣追改子鸞封為始平王食邑千戶改葬秣陵縣龍山延年字德沖」，固定數位本同處作「可以建平王景素息延延年字德沖」。本批照錄書影二十七欄，分別連回傳文與五處校異。《宋書》兩個范泰來源號亦已按十二處引文連結，兩號各自的原標記均可回查。
+
+[吳書卷五十二傳界](../source-evidence/sanguozhi052-wu/survey.json) · [陸抗諸子及兩書紀日](../source-evidence/sanguozhi058-lukang/reading.json) · [卷五十八附敘與卷末評](../source-evidence/sanguozhi058-roll-close/reading.json) · [張趙兩家全卷傳界](../source-evidence/song046-zhang-complete/volume-boundaries.json) · [到彥之兩書傳位](../source-evidence/song046-zhang-complete/dao-location.json) · [殷淑儀及皇子女](../source-evidence/nanshi011-yinshuyi/reading.json) · [宋書卷八十殿本原欄](../source-evidence/song080-yinshuyi-wyd/column-collation.json) · [范泰兩號原證](../source-evidence/song060-fantai-equivalence/source-reading.json)

@@ -1,0 +1,223 @@
+{
+  "schema_version": 1,
+  "id": "znv_mpm_bqm",
+  "canonical_person_id": "znv_mpm_bqm",
+  "label": "蔣美人（海鹽公主生母）",
+  "identity_note": "蔣美人（海鹽公主生母），見本組原文及身份互校。",
+  "review": "ai_provisional",
+  "names": [
+    "蔣美人"
+  ],
+  "titles": [],
+  "addresses": [],
+  "occurrences": [
+    {
+      "number": 46,
+      "category": "",
+      "title": "趙倩",
+      "paragraph_id": "c-songshu-046-zhaoqian-complete:p001",
+      "count": 1,
+      "raw_count": 1,
+      "duplicate_count": 0,
+      "counting_policy": "independent_fixed_witness_occurrences",
+      "quote": "通。及適倩，倩入宮而怒，肆詈搏擊，引絕帳帶。事上聞，有詔離婚，殺主所生蔣美人，",
+      "paragraph_ids": [
+        "c-songshu-046-zhaoqian-complete:p001"
+      ],
+      "mention_ids": [
+        "c-songshu-046-zhaoqian-complete:p001:m0073"
+      ],
+      "mention_paragraph_ids": {
+        "c-songshu-046-zhaoqian-complete:p001:m0073": "c-songshu-046-zhaoqian-complete:p001"
+      },
+      "mention_id": "c-songshu-046-zhaoqian-complete:p001:m0073",
+      "occurrence_groups": [
+        {
+          "canonical_mention_id": "c-songshu-046-zhaoqian-complete:p001:m0073",
+          "mention_ids": [
+            "c-songshu-046-zhaoqian-complete:p001:m0073"
+          ],
+          "kind": "paragraph"
+        }
+      ],
+      "work_id": "w-songshu",
+      "book_id": "b-songshu-046",
+      "chapter_id": "c-songshu-046-zhaoqian-complete",
+      "source_id": "s-songshu-046-zhaoqian-complete-ws2118581",
+      "work_title": "宋書"
+    }
+  ],
+  "table_occurrences": [],
+  "sources": [
+    {
+      "chapter_id": "c-songshu-046-zhao-family-witness",
+      "work_id": "w-songshu",
+      "book_id": "b-songshu-046",
+      "source_id": "s-songshu-046-zhao-family-witness-ws2118581",
+      "source": {
+        "title": "趙氏親屬原句",
+        "provider": "Wikisource",
+        "permalink": "https://zh.wikisource.org/w/index.php?oldid=2118581",
+        "url": "https://zh.wikisource.org/w/index.php?oldid=2118581",
+        "revision_id": 2118581,
+        "edition": "維基文庫固定修訂",
+        "accessed_on": "2026-11-21",
+        "review_status": "text_checked",
+        "image_verified": false,
+        "rights": "古代原文；數位轉錄依維基文庫授權。",
+        "license_url": "https://creativecommons.org/licenses/by-sa/4.0/",
+        "extent": "趙氏親屬原句",
+        "text_scope": "partial_chapter",
+        "raw_path": "sources/songshu/songshu046-ws2118581.wikitext",
+        "raw_file_sha256": "3df8bb0cdbc5811a0747fcca3c9ed93d3b714bf0eee0315f6946eef8968fffdf"
+      }
+    },
+    {
+      "chapter_id": "c-songshu-046-zhaoqian-complete",
+      "work_id": "w-songshu",
+      "book_id": "b-songshu-046",
+      "source_id": "s-songshu-046-zhaoqian-complete-ws2118581",
+      "source": {
+        "title": "趙倩",
+        "provider": "Wikisource",
+        "permalink": "https://zh.wikisource.org/w/index.php?oldid=2118581",
+        "url": "https://zh.wikisource.org/w/index.php?oldid=2118581",
+        "revision_id": 2118581,
+        "edition": "維基文庫固定修訂",
+        "accessed_on": "2026-11-21",
+        "review_status": "text_checked",
+        "image_verified": false,
+        "rights": "古代原文；數位轉錄依維基文庫授權。",
+        "license_url": "https://creativecommons.org/licenses/by-sa/4.0/",
+        "extent": "趙倩",
+        "text_scope": "complete_biography_unit",
+        "raw_path": "sources/songshu/songshu046-ws2118581.wikitext",
+        "raw_file_sha256": "3df8bb0cdbc5811a0747fcca3c9ed93d3b714bf0eee0315f6946eef8968fffdf"
+      }
+    }
+  ],
+  "relations": [
+    {
+      "id": "a-song046-zhao-haiyan-mother",
+      "subject_person_id": "3bh_k4m_fg4_G",
+      "object_person_id": "znv_mpm_bqm",
+      "predicate": "mother",
+      "qualifiers": {
+        "source_term": "主所生蔣美人",
+        "source_clause_binding": {
+          "kind": "song046_zhao_exact_family"
+        },
+        "lineage": "maternal"
+      },
+      "evidence": [
+        {
+          "work_id": "w-songshu",
+          "book_id": "b-songshu-046",
+          "chapter_id": "c-songshu-046-zhao-family-witness",
+          "source_id": "s-songshu-046-zhao-family-witness-ws2118581",
+          "paragraph_id": "c-songshu-046-zhao-family-witness:p003",
+          "quote": "典筆吏取筆不如意，鞭五十。子倩，尚文帝第四女海鹽公主。初，始興王濬以潘妃之寵，故得出入後宮，遂與公主私通。及適倩，倩入宮而怒，肆詈搏擊，引絕帳帶。事上聞，有詔離婚，殺主所生蔣美人，伯符慚懼發病卒。諡曰肅。傳國至孫勗，齊受禪，國除。",
+          "subject_person_reference_id": "c-songshu-046-zhao-family-witness:p003:r0083",
+          "object_person_reference_id": "c-songshu-046-zhao-family-witness:p003:r0086"
+        }
+      ],
+      "status": "source_attested",
+      "interpretation_note": "所生指生母，蔣為生母，無其本名。",
+      "reviewer": "Codex（AI代理）",
+      "model": null,
+      "human_reviewed": false
+    }
+  ],
+  "related_people": {
+    "3bh_k4m_fg4_G": "海鹽公主（宋文帝第四女，趙倩妻）",
+    "znv_mpm_bqm": "蔣美人（海鹽公主生母）"
+  },
+  "dates": [],
+  "name_components": [],
+  "person_references": [
+    {
+      "id": "c-songshu-046-zhao-family-witness:p003:r0086",
+      "paragraph_id": "c-songshu-046-zhao-family-witness:p003",
+      "start": 86,
+      "end": 89,
+      "surface": "蔣美人",
+      "person_id": "znv_mpm_bqm",
+      "referent_role": "third_person",
+      "quote": "典筆吏取筆不如意，鞭五十。子倩，尚文帝第四女海鹽公主。初，始興王濬以潘妃之寵，故得出入後宮，遂與公主私通。及適倩，倩入宮而怒，肆詈搏擊，引絕帳帶。事上聞，有詔離婚，殺主所生蔣美人，伯符慚懼發病卒。諡曰肅。傳國至孫勗，齊受禪，國除。",
+      "note": "依本段敘事、稱謂及語者受者定。",
+      "chapter_id": "c-songshu-046-zhao-family-witness",
+      "book_id": "b-songshu-046",
+      "work_id": "w-songshu",
+      "source_id": "s-songshu-046-zhao-family-witness-ws2118581"
+    }
+  ],
+  "person_ids": [
+    "znv_mpm_bqm"
+  ],
+  "preferred_relations": [
+    {
+      "id": "a-song046-zhao-haiyan-mother",
+      "subject_person_id": "3bh_k4m_fg4_G",
+      "object_person_id": "znv_mpm_bqm",
+      "predicate": "mother",
+      "qualifiers": {
+        "source_term": "主所生蔣美人",
+        "source_clause_binding": {
+          "kind": "song046_zhao_exact_family"
+        },
+        "lineage": "maternal"
+      },
+      "evidence": [
+        {
+          "work_id": "w-songshu",
+          "book_id": "b-songshu-046",
+          "chapter_id": "c-songshu-046-zhao-family-witness",
+          "source_id": "s-songshu-046-zhao-family-witness-ws2118581",
+          "paragraph_id": "c-songshu-046-zhao-family-witness:p003",
+          "quote": "典筆吏取筆不如意，鞭五十。子倩，尚文帝第四女海鹽公主。初，始興王濬以潘妃之寵，故得出入後宮，遂與公主私通。及適倩，倩入宮而怒，肆詈搏擊，引絕帳帶。事上聞，有詔離婚，殺主所生蔣美人，伯符慚懼發病卒。諡曰肅。傳國至孫勗，齊受禪，國除。",
+          "subject_person_reference_id": "c-songshu-046-zhao-family-witness:p003:r0083",
+          "object_person_reference_id": "c-songshu-046-zhao-family-witness:p003:r0086"
+        }
+      ],
+      "status": "source_attested",
+      "interpretation_note": "所生指生母，蔣為生母，無其本名。",
+      "reviewer": "Codex（AI代理）",
+      "model": null,
+      "human_reviewed": false
+    }
+  ],
+  "age_assertions": [],
+  "life_events": [
+    {
+      "id": "le-song046-qian-znv-mpm-bqm",
+      "person_id": "znv_mpm_bqm",
+      "event_type": "death",
+      "source_term": "殺",
+      "source_anchor": {
+        "paragraph_id": "c-songshu-046-zhaoqian-complete:p001",
+        "start": 69,
+        "end": 70,
+        "surface": "殺"
+      },
+      "date_expression": null,
+      "evidence": [
+        {
+          "work_id": "w-songshu",
+          "book_id": "b-songshu-046",
+          "chapter_id": "c-songshu-046-zhaoqian-complete",
+          "source_id": "s-songshu-046-zhaoqian-complete-ws2118581",
+          "paragraph_id": "c-songshu-046-zhaoqian-complete:p001",
+          "quote": "子倩，尚文帝第四女海鹽公主。初，始興王濬以潘妃之寵，故得出入後宮，遂與公主私通。及適倩，倩入宮而怒，肆詈搏擊，引絕帳帶。事上聞，有詔離婚，殺主所生蔣美人，",
+          "person_mention_id": "c-songshu-046-zhaoqian-complete:p001:m0073"
+        }
+      ],
+      "status": "source_attested",
+      "interpretation_note": "按同段人物與次第核所屬卒事。",
+      "reviewer": "Codex（AI代理）",
+      "model": null,
+      "human_reviewed": false
+    }
+  ],
+  "life_event_date_decisions": [],
+  "selected_life_event_dates": []
+}
