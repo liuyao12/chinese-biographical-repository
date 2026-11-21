@@ -1,0 +1,113 @@
+{
+  "format_version": "0.2",
+  "record_type": "marked_chapter",
+  "id": "c-shishuoxinyu-008-wangdao-source",
+  "work_id": "w-shishuoxinyu",
+  "book_id": "b-shishuoxinyu-008",
+  "source_id": "s-shishuoxinyu-008-wangdao-source",
+  "title": "世說新語·賞譽",
+  "source": {
+    "title": "世說新語·賞譽",
+    "provider": "Wikisource",
+    "url": "https://zh.wikisource.org/w/index.php?oldid=1532652",
+    "permalink": "https://zh.wikisource.org/w/index.php?oldid=1532652",
+    "revision_id": 1532652,
+    "accessed_on": "2026-11-20",
+    "edition": "維基文庫固定數位見證",
+    "extent": "與晉書卷六十五家支文句對讀的原文、古注節錄。",
+    "text_scope": "partial_chapter",
+    "review_status": "text_checked",
+    "image_verified": false,
+    "rights": "古代原文與維基文庫數位轉錄。",
+    "license_url": "https://creativecommons.org/licenses/by-sa/4.0/",
+    "raw_path": "source-evidence/jin065-wang-children/external/shang-ws1532652.wikitext",
+    "raw_file_sha256": "e2ec15441d5cabbac9f4beea7a9f4f6c58db0a4e5537ff3ae0134c68bd8caa48"
+  },
+  "paragraphs": [
+    {
+      "id": "c-shishuoxinyu-008-wangdao-source:zhongxing",
+      "text": "王洽字敬和，丞相導第三子，累遷吳郡內史，為士民所懷。徵拜中領軍，尋加中書令，不拜。年二十六而卒。",
+      "text_layer": "witness_appended_liuxiaobiao_note",
+      "annotation_status": "reviewed",
+      "mentions": [
+        {
+          "id": "c-shishuoxinyu-008-wangdao-source:zhongxing:m0000",
+          "start": 0,
+          "end": 2,
+          "surface": "王洽",
+          "kind": "person",
+          "person_id": "7r6_k52_qji_ABAAA",
+          "status": "contextual_provisional",
+          "interpretation_note": "核姓名、親屬及同條所注的敘事對象。"
+        },
+        {
+          "id": "c-shishuoxinyu-008-wangdao-source:zhongxing:m0003",
+          "start": 3,
+          "end": 5,
+          "surface": "敬和",
+          "kind": "person",
+          "person_id": "7r6_k52_qji_ABAAA",
+          "status": "contextual_provisional",
+          "interpretation_note": "核姓名、親屬及同條所注的敘事對象。"
+        },
+        {
+          "id": "c-shishuoxinyu-008-wangdao-source:zhongxing:m0008",
+          "start": 8,
+          "end": 9,
+          "surface": "導",
+          "kind": "person",
+          "person_id": "7r6_k52_qji_ABAA",
+          "status": "contextual_provisional",
+          "interpretation_note": "核姓名、親屬及同條所注的敘事對象。"
+        }
+      ],
+      "source_quote": {
+        "witness": "shang",
+        "raw_start": 15254,
+        "raw_end": 15302,
+        "raw_line": 121,
+        "quote": "王洽字敬和，丞相導第三子，累遷吳郡內史，為士民所懷。徵拜中領軍，尋加中書令，不拜。年二十六而卒。",
+        "source_layer": "劉注引中興書"
+      },
+      "attribution": {
+        "annotator": "劉孝標",
+        "quoted_work": "中興書"
+      }
+    }
+  ],
+  "annotation": {
+    "status": "in_progress",
+    "scope": "固定短引，原書其餘段落另計。",
+    "human_reviewed": false,
+    "model": null,
+    "age_assertions": [
+      {
+        "id": "age-wang65-ext-qia26",
+        "person_id": "7r6_k52_qji_ABAAA",
+        "value": 26,
+        "source_number": "二十六",
+        "source_term": "年二十六",
+        "unit": "source_age_years",
+        "counting": "unspecified_source_age",
+        "birth_year": null,
+        "evidence": [
+          {
+            "work_id": "w-shishuoxinyu",
+            "book_id": "b-shishuoxinyu-008",
+            "source_id": "s-shishuoxinyu-008-wangdao-source",
+            "chapter_id": "c-shishuoxinyu-008-wangdao-source",
+            "paragraph_id": "c-shishuoxinyu-008-wangdao-source:zhongxing",
+            "person_mention_id": "c-shishuoxinyu-008-wangdao-source:zhongxing:m0000",
+            "quote": "王洽字敬和，丞相導第三子，累遷吳郡內史，為士民所懷。徵拜中領軍，尋加中書令，不拜。年二十六而卒。"
+          }
+        ],
+        "interpretation_note": "此見證的報齡，與其他見證分存。",
+        "status": "source_attested",
+        "reviewer": "Codex（AI代理）",
+        "human_reviewed": false,
+        "model": null
+      }
+    ]
+  },
+  "text_sha256": "0c49df026ceba2d444814ed945fe4e84da393b82ac8c6d1330ce5d9f91b3cf1b"
+}

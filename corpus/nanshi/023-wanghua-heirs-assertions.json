@@ -1,0 +1,79 @@
+{
+  "format_version": "0.2",
+  "record_type": "person_assertion_set",
+  "chapter_id": "c-nanshi-023-wanghua-heirs",
+  "assertions": [
+    {
+      "id": "a-nanshi023-wanghua-heirs-61-7",
+      "subject_person_id": "7r6_k52_qji_ABAAFABAA",
+      "object_person_id": "7r6_k52_qji_ABAAFABA",
+      "predicate": "father",
+      "status": "source_attested",
+      "qualifiers": {
+        "source_term": "子長"
+      },
+      "evidence": [
+        {
+          "work_id": "w-nanshi",
+          "book_id": "b-nanshi-023",
+          "chapter_id": "c-nanshi-023-wanghua-heirs",
+          "source_id": "s-nanshi-023-wanghua-heirs-ws2478204",
+          "paragraph_id": "c-nanshi-023-wanghua-heirs:p001",
+          "quote": "子定侯嗣，卒。子長嗣，坐罵母奪爵，以長弟佟詔封。齊受禪，國除。",
+          "subject_person_mention_id": "c-nanshi-023-wanghua-heirs:p001:m0008",
+          "object_person_mention_id": "c-nanshi-023-wanghua-heirs:p001:m0003",
+          "relationship_anchor": {
+            "paragraph_id": "c-nanshi-023-wanghua-heirs:p001",
+            "start": 7,
+            "end": 9,
+            "surface": "子長"
+          }
+        }
+      ],
+      "interpretation_note": "依原句的親屬詞、人物位置及同卷前後文。",
+      "reviewer": "Codex（AI代理）",
+      "model": null,
+      "human_reviewed": false
+    },
+    {
+      "id": "a-nanshi023-wanghua-heirs-61-18",
+      "subject_person_id": "02c_86e_5a9",
+      "object_person_id": "7r6_k52_qji_ABAAFABAA",
+      "predicate": "brother",
+      "status": "source_attested",
+      "qualifiers": {
+        "source_term": "長弟佟",
+        "relative_birth_order": {
+          "older_person_id": "7r6_k52_qji_ABAAFABAA",
+          "younger_person_id": "02c_86e_5a9",
+          "operator": "lt",
+          "scope": "siblings",
+          "older_ordinal": null,
+          "younger_ordinal": null
+        }
+      },
+      "evidence": [
+        {
+          "work_id": "w-nanshi",
+          "book_id": "b-nanshi-023",
+          "chapter_id": "c-nanshi-023-wanghua-heirs",
+          "source_id": "s-nanshi-023-wanghua-heirs-ws2478204",
+          "paragraph_id": "c-nanshi-023-wanghua-heirs:p001",
+          "quote": "子定侯嗣，卒。子長嗣，坐罵母奪爵，以長弟佟詔封。齊受禪，國除。",
+          "subject_person_mention_id": "c-nanshi-023-wanghua-heirs:p001:m0020",
+          "object_person_mention_id": "c-nanshi-023-wanghua-heirs:p001:m0018",
+          "relationship_anchor": {
+            "paragraph_id": "c-nanshi-023-wanghua-heirs:p001",
+            "start": 18,
+            "end": 21,
+            "surface": "長弟佟"
+          }
+        }
+      ],
+      "interpretation_note": "依原句的親屬詞、人物位置及同卷前後文。",
+      "reviewer": "Codex（AI代理）",
+      "model": null,
+      "human_reviewed": false
+    }
+  ]
+}

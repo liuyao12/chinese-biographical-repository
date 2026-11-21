@@ -2,12 +2,53 @@ import unittest
 import json
 from pathlib import Path
 
-from scripts.six_dynasties_inventory import verify
+from scripts.six_dynasties_inventory import chapter_passage, received_text, source_paragraphs, source_passage, verify
 from scripts.person_references import reference_errors
 from scripts.family_assemblies import registry_sibling_path_valid
 
 
 class SixDynastiesInventoryTest(unittest.TestCase):
+    def test_song_memorials_strip_one_leading_layout_colon(self):
+        lines = ['上表曰：', ':臣聞：甲。', '::乙。']
+        self.assertEqual(source_paragraphs(lines, 'wikisource_blockquote_colon'),
+                         ['上表曰：', '臣聞：甲。', ':乙。'])
+        self.assertEqual(source_paragraphs(lines), lines)
+
+    def test_fixed_paragraph_indents_and_multi_paragraph_quote(self):
+        lines = ['　　疏曰：', '{{quote|　　甲。', '', '　　乙。}}', '　　乃止。']
+        self.assertEqual(source_paragraphs(lines, 'wikisource_indented_quote'), ['疏曰：', '甲。', '乙。', '乃止。'])
+        self.assertEqual(source_paragraphs(lines[:1]), ['　　疏曰：'])
+        with self.assertRaises(AssertionError):
+            source_paragraphs(lines[:2], 'wikisource_indented_quote')
+        with self.assertRaises(AssertionError):
+            source_paragraphs(['  甲。'], 'wikisource_indented_quote')
+
+    def test_interrupted_account_preserves_both_headings_and_skips_the_other_subject(self):
+        lines = ['==甲==', '甲傳首。', '===乙===', '乙傳。', '===甲續===', '甲傳末。']
+        first = dict(heading_line=1, heading_raw=lines[0], first_line=2, last_line=2,
+                     start_codepoint=0, end_codepoint=4, opening='甲', closing='首。')
+        continuation = dict(first, heading_line=5, heading_raw=lines[4], first_line=6,
+                            last_line=6, closing='末。')
+        row = dict(first, book_id='book', title='甲', continuation_spans=[continuation])
+        headings = set()
+        self.assertEqual(source_passage(row, lines, headings, set()), [lines[1], lines[5]])
+        self.assertEqual(headings, {1, 5})
+        with self.assertRaises(AssertionError):
+            source_passage(dict(row, continuation_spans=[first]), lines, set(), set())
+
+    def test_slice_in_a_shared_paragraph_keeps_the_next_subject_outside(self):
+        chapter = dict(paragraphs=[dict(id='p1', text='甲傳。乙有二子。'), dict(id='p2', text='丙傳。')])
+        row = dict(title='甲', paragraph_ids=['p1'], paragraph_slices={'p1': dict(start=0, end=3)})
+        self.assertEqual(chapter_passage(row, chapter)[1], ['甲傳。'])
+        with self.assertRaises(AssertionError):
+            chapter_passage(dict(row, paragraph_ids=['p2','p1']), chapter)
+        with self.assertRaises(AssertionError):
+            chapter_passage(dict(row, paragraph_slices={'p1': dict(start=0,end=100)}), chapter)
+
+    def test_markup_projection_keeps_the_displayed_glyph(self):
+        self.assertEqual(received_text('與-{范}-交，[[甲|乙]]見[[丙]]。{{YL|元年}}。'), '與范交，乙見丙。元年。')
+        self.assertEqual(received_text('張合<ref>別本作張郃。</ref>'), '張合')
+
     def test_full_entries_match_fixed_witness_and_progress(self):
         books, counts = verify()
         self.assertIn('b-nanshi-080', books)

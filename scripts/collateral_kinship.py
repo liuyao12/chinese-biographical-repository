@@ -2,6 +2,18 @@
 
 
 def agnatic_senior_kin_valid(assertion, paragraphs):
+    if assertion.get('qualifiers', {}).get('source_clause_binding', {}).get('kind') == 'jin080_named_congbo':
+        try: from scripts.jin080_xizhi import collateral_valid
+        except ImportError: from jin080_xizhi import collateral_valid
+        return collateral_valid(assertion, paragraphs)
+    if 'nanshi019_role' in assertion.get('qualifiers', {}):
+        try: from .nanshi019_dialogue import collateral_valid
+        except ImportError: from nanshi019_dialogue import collateral_valid
+        return collateral_valid(assertion, paragraphs)
+    if assertion.get('qualifiers', {}).get('source_role_frame') == 'biography_subject_and_named_congshu':
+        try:from scripts.nanshi019_zhan_roles import kin_valid
+        except ImportError:from nanshi019_zhan_roles import kin_valid
+        return kin_valid(assertion, paragraphs)
     # Position-bound close-family clauses; retain all older grammar contracts.
     if assertion.get('qualifiers', {}).get('source_clause_binding', {}).get('rule', '').startswith('close_family_'):
         try:

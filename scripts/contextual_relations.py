@@ -46,3 +46,33 @@ def weiqin_pair_valid(a,paragraphs):
                 and q['source_term']==t[start:end]==s['surface']+o['surface']+'為親'
                 and s['start']==start and s['end']==o['start']and o['end']==end-2)
     except(KeyError,TypeError,ValueError,StopIteration):return False
+
+
+def addressed_sheng_valid(assertion, paragraphs):
+    """Bind A's '其甥 B' to the two named participants in A's speech frame."""
+    try:
+        _, paragraph, _, recipient, speaker = _parts(assertion, paragraphs)
+        q = assertion['qualifiers']
+        clause = q['kinship_clause_binding']
+        start, end = clause['start'], clause['end']
+        text = paragraph['text']
+        introduction = speaker['surface'] + '顧謂其甥' + recipient['surface'] + '曰：「'
+        return (
+            assertion['predicate'] == 'kinship_unspecified'
+            and set(q) == {'source_term', 'kinship_basis', 'lineage', 'generation_difference',
+                           'exact_distance', 'connecting_person_ids', 'kinship_clause_binding'}
+            and q['kinship_basis'] == 'address_to_named_sheng'
+            and q['source_term'] == '甥'
+            and all(q[key] is None for key in ('lineage', 'generation_difference',
+                                               'exact_distance', 'connecting_person_ids'))
+            and set(clause) == {'kind', 'start', 'end', 'surface'}
+            and clause['kind'] == 'speaker_addresses_his_named_sheng'
+            and type(start) is int and type(end) is int
+            and 0 <= start < end <= len(text)
+            and speaker['start'] == start and recipient['start'] == speaker['end'] + len('顧謂其甥')
+            and clause['surface'] == text[start:end]
+            and clause['surface'].startswith(introduction)
+            and text.find('」', recipient['end'] + len('曰：「')) == end - 1
+        )
+    except (KeyError, TypeError, ValueError):
+        return False

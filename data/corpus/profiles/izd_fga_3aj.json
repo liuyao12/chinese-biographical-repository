@@ -7,9 +7,60 @@
   "review": "ai_provisional",
   "names": [
     "劉惔",
-    "惔"
+    "惔",
+    "劉真長",
+    "真長"
   ],
-  "titles": [],
+  "titles": [
+    {
+      "id": "th-w080-line070-劉惔0",
+      "person_id": "izd_fga_3aj",
+      "title": "丹陽尹",
+      "kind": "office",
+      "mode": "attestation",
+      "evidence": [
+        {
+          "work_id": "w-jinshu",
+          "book_id": "b-jinshu-080",
+          "chapter_id": "c-jinshu-080-wangxizhi-family",
+          "source_id": "s-jinshu-080-wangxizhi-family",
+          "paragraph_id": "c-jinshu-080-wangxizhi-family:line070",
+          "person_mention_id": "c-jinshu-080-wangxizhi-family:line070:m0001",
+          "quote": "時劉惔為丹陽尹，許詢嘗就惔宿，床帷新麗，飲食豐甘。詢曰：「若此保全，殊勝東山。」惔曰：「卿若知吉凶由人，吾安得保此。」羲之在坐，曰：「令巢許遇稷契，當無此言。」二人並有愧色。"
+        }
+      ],
+      "attestations": [
+        {
+          "id": "th-w080-line070-劉惔0:a",
+          "paragraph_id": "c-jinshu-080-wangxizhi-family:line070",
+          "start": 4,
+          "end": 7,
+          "surface": "丹陽尹",
+          "person_mention_id": "c-jinshu-080-wangxizhi-family:line070:m0001",
+          "usage": "narrative",
+          "date_expression": null
+        }
+      ],
+      "effective_period": {
+        "start": {
+          "status": "unknown",
+          "date_expression": null,
+          "evidence": []
+        },
+        "end": {
+          "status": "unknown",
+          "date_expression": null,
+          "evidence": []
+        }
+      },
+      "interpretation_note": "依本句所授、所歷或任時稱謂。",
+      "status": "source_attested",
+      "reviewer": "Codex（AI代理）",
+      "human_reviewed": false,
+      "model": null,
+      "period": "未定 → 未定"
+    }
+  ],
   "addresses": [
     {
       "id": "pa-jinshu075-xun-cross-005",
@@ -87,19 +138,24 @@
       "category": "",
       "title": "謝氏家族選段及謝尚、奕、玄、石、邈完整單元",
       "paragraph_id": "c-jinshu-079-xielang-family:phase6-line029",
-      "count": 1,
-      "raw_count": 1,
+      "count": 3,
+      "raw_count": 3,
       "duplicate_count": 0,
       "counting_policy": "independent_fixed_witness_occurrences",
       "quote": "安雖處衡門，其名猶出萬之右，自然有公輔之望，處家常以儀範訓子弟。安妻，劉惔妹也，既見家門富貴，而安獨靜退，乃謂曰：「丈夫不如此也？」安掩鼻曰：「恐不免耳。」及萬黜廢，安始有仕進志，時年已四十餘矣。",
       "paragraph_ids": [
-        "c-jinshu-079-xielang-family:phase6-line029"
+        "c-jinshu-079-xielang-family:phase6-line029",
+        "c-jinshu-079-xielang-family:phase6-line071"
       ],
       "mention_ids": [
-        "c-jinshu-079-xielang-family:phase6-line029:m0356"
+        "c-jinshu-079-xielang-family:phase6-line029:m0356",
+        "c-jinshu-079-xielang-family:phase6-line071:m0037",
+        "c-jinshu-079-xielang-family:phase6-line071:m0080"
       ],
       "mention_paragraph_ids": {
-        "c-jinshu-079-xielang-family:phase6-line029:m0356": "c-jinshu-079-xielang-family:phase6-line029"
+        "c-jinshu-079-xielang-family:phase6-line029:m0356": "c-jinshu-079-xielang-family:phase6-line029",
+        "c-jinshu-079-xielang-family:phase6-line071:m0037": "c-jinshu-079-xielang-family:phase6-line071",
+        "c-jinshu-079-xielang-family:phase6-line071:m0080": "c-jinshu-079-xielang-family:phase6-line071"
       },
       "mention_id": "c-jinshu-079-xielang-family:phase6-line029:m0356",
       "occurrence_groups": [
@@ -109,12 +165,89 @@
             "c-jinshu-079-xielang-family:phase6-line029:m0356"
           ],
           "kind": "paragraph"
+        },
+        {
+          "canonical_mention_id": "c-jinshu-079-xielang-family:phase6-line071:m0037",
+          "mention_ids": [
+            "c-jinshu-079-xielang-family:phase6-line071:m0037"
+          ],
+          "kind": "paragraph"
+        },
+        {
+          "canonical_mention_id": "c-jinshu-079-xielang-family:phase6-line071:m0080",
+          "mention_ids": [
+            "c-jinshu-079-xielang-family:phase6-line071:m0080"
+          ],
+          "kind": "paragraph"
         }
       ],
       "work_id": "w-jinshu",
       "book_id": "b-jinshu-079",
       "chapter_id": "c-jinshu-079-xielang-family",
       "source_id": "s-jinshu-079-xielang-family",
+      "work_title": "晉書"
+    },
+    {
+      "number": 80,
+      "category": "",
+      "title": "王羲之、諸子孫及許邁傳（卷八十完整數位正文）",
+      "paragraph_id": "c-jinshu-080-wangxizhi-family:line070",
+      "count": 4,
+      "raw_count": 4,
+      "duplicate_count": 0,
+      "counting_policy": "independent_fixed_witness_occurrences",
+      "quote": "時劉惔為丹陽尹，許詢嘗就惔宿，床帷新麗，飲食豐甘。詢曰：「若此保全，殊勝東山。」惔曰：「卿若知吉凶由人，吾安得保此。」羲之在坐，曰：「令巢許遇稷契，當無此言。」二人並有愧色。",
+      "paragraph_ids": [
+        "c-jinshu-080-wangxizhi-family:line070",
+        "c-jinshu-080-wangxizhi-family:line106"
+      ],
+      "mention_ids": [
+        "c-jinshu-080-wangxizhi-family:line070:m0001",
+        "c-jinshu-080-wangxizhi-family:line070:m0012",
+        "c-jinshu-080-wangxizhi-family:line070:m0040",
+        "c-jinshu-080-wangxizhi-family:line106:m0089"
+      ],
+      "mention_paragraph_ids": {
+        "c-jinshu-080-wangxizhi-family:line070:m0001": "c-jinshu-080-wangxizhi-family:line070",
+        "c-jinshu-080-wangxizhi-family:line070:m0012": "c-jinshu-080-wangxizhi-family:line070",
+        "c-jinshu-080-wangxizhi-family:line070:m0040": "c-jinshu-080-wangxizhi-family:line070",
+        "c-jinshu-080-wangxizhi-family:line106:m0089": "c-jinshu-080-wangxizhi-family:line106"
+      },
+      "mention_id": "c-jinshu-080-wangxizhi-family:line070:m0001",
+      "occurrence_groups": [
+        {
+          "canonical_mention_id": "c-jinshu-080-wangxizhi-family:line070:m0001",
+          "mention_ids": [
+            "c-jinshu-080-wangxizhi-family:line070:m0001"
+          ],
+          "kind": "paragraph"
+        },
+        {
+          "canonical_mention_id": "c-jinshu-080-wangxizhi-family:line070:m0012",
+          "mention_ids": [
+            "c-jinshu-080-wangxizhi-family:line070:m0012"
+          ],
+          "kind": "paragraph"
+        },
+        {
+          "canonical_mention_id": "c-jinshu-080-wangxizhi-family:line070:m0040",
+          "mention_ids": [
+            "c-jinshu-080-wangxizhi-family:line070:m0040"
+          ],
+          "kind": "paragraph"
+        },
+        {
+          "canonical_mention_id": "c-jinshu-080-wangxizhi-family:line106:m0089",
+          "mention_ids": [
+            "c-jinshu-080-wangxizhi-family:line106:m0089"
+          ],
+          "kind": "paragraph"
+        }
+      ],
+      "work_id": "w-jinshu",
+      "book_id": "b-jinshu-080",
+      "chapter_id": "c-jinshu-080-wangxizhi-family",
+      "source_id": "s-jinshu-080-wangxizhi-family",
       "work_title": "晉書"
     },
     {
@@ -1190,6 +1323,30 @@
       }
     },
     {
+      "chapter_id": "c-jinshu-080-wangxizhi-family",
+      "work_id": "w-jinshu",
+      "book_id": "b-jinshu-080",
+      "source_id": "s-jinshu-080-wangxizhi-family",
+      "source": {
+        "title": "晉書卷八十列傳第五十",
+        "provider": "Wikisource",
+        "url": "https://zh.wikisource.org/w/index.php?oldid=2603570",
+        "permalink": "https://zh.wikisource.org/w/index.php?oldid=2603570",
+        "revision_id": 2603570,
+        "accessed_on": "2026-11-20",
+        "edition": "固定數位轉錄。清武英殿本另列核過葉次及異文。",
+        "extent": "由王羲之傳首至卷末書論，每段依固定修訂；小標題另存。",
+        "text_scope": "full_chapter",
+        "review_status": "text_checked",
+        "image_verified": false,
+        "rights": "古代原文，維基文庫數位轉錄。",
+        "license_url": "https://creativecommons.org/licenses/by-sa/4.0/",
+        "raw_path": "source-evidence/jin079-xieyan-xiehun/witnesses/jin080-ws2603570.wikitext",
+        "raw_file_sha256": "4f3f42dd7d8ab0ca3c45e6524e4977db40332e845080367088be0419a3a0e8a0",
+        "wikitext_sha256": "4f3f42dd7d8ab0ca3c45e6524e4977db40332e845080367088be0419a3a0e8a0"
+      }
+    },
+    {
       "chapter_id": "c-jinshu-098-huanwen",
       "work_id": "w-jinshu",
       "book_id": "b-jinshu-098",
@@ -1256,6 +1413,53 @@
     "izd_fga_3aj": "劉惔"
   },
   "dates": [],
+  "reading_decisions": [
+    {
+      "id": "d-jin079-yan-hun-izd_fga_3aj",
+      "person_id": "izd_fga_3aj",
+      "surfaces": [
+        "劉真長",
+        "真長"
+      ],
+      "scope": "same_chapter",
+      "chapter_ids": [
+        "c-jinshu-079-xielang-family"
+      ],
+      "status": "contextual_provisional",
+      "confidence_level": "strong",
+      "evidence": [
+        {
+          "work_id": "w-jinshu",
+          "book_id": "b-jinshu-079",
+          "source_id": "s-jinshu-079-xielang-family",
+          "chapter_id": "c-jinshu-079-xielang-family",
+          "paragraph_id": "c-jinshu-079-xielang-family:phase6-line071",
+          "quote": "劉真長",
+          "person_mention_id": "c-jinshu-079-xielang-family:phase6-line071:m0037"
+        },
+        {
+          "work_id": "w-jinshu",
+          "book_id": "b-jinshu-079",
+          "source_id": "s-jinshu-079-xielang-family",
+          "chapter_id": "c-jinshu-079-xielang-family",
+          "paragraph_id": "c-jinshu-079-xielang-family:phase6-line071",
+          "quote": "真長",
+          "person_mention_id": "c-jinshu-079-xielang-family:phase6-line071:m0080"
+        }
+      ],
+      "rationale": "卷七十九的稱名與所引本傳、封諡或事典相合。逐字對讀見同批來源檔。",
+      "references": [
+        {
+          "title": "晉書/卷075",
+          "url": "https://zh.wikisource.org/w/index.php?title=晉書/卷075&oldid=2645530",
+          "quote": "劉惔，字真長，沛國相人也。"
+        }
+      ],
+      "reviewer": "Codex（AI代理）",
+      "human_reviewed": false,
+      "model": null
+    }
+  ],
   "name_components": [
     {
       "person_id": "izd_fga_3aj",
@@ -1273,6 +1477,23 @@
       "human_reviewed": false,
       "model": null,
       "note": "依具名家世及本段上下文暫分姓名；未知字號與年份留空，不以同姓接族。稱號僅為人物辨認，不指定敘事所有時點的任期。"
+    }
+  ],
+  "person_references": [
+    {
+      "id": "c-jinshu-080-wangxizhi-family:line070:r0052",
+      "paragraph_id": "c-jinshu-080-wangxizhi-family:line070",
+      "start": 52,
+      "end": 53,
+      "surface": "吾",
+      "person_id": "izd_fga_3aj",
+      "referent_role": "speaker_self",
+      "quote": "吾安得保此",
+      "note": "依原書牘的說者、受者及同段稱名。",
+      "chapter_id": "c-jinshu-080-wangxizhi-family",
+      "book_id": "b-jinshu-080",
+      "work_id": "w-jinshu",
+      "source_id": "s-jinshu-080-wangxizhi-family"
     }
   ],
   "person_ids": [

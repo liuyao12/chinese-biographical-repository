@@ -6,9 +6,7 @@
   "identity_note": "本批來源局部人物；不按同名跨史合併。",
   "review": "ai_provisional",
   "names": [
-    "郗氏",
-    "其",
-    "之"
+    "郗氏"
   ],
   "titles": [],
   "addresses": [],
@@ -18,8 +16,8 @@
       "category": "",
       "title": "謝氏家族選段及謝尚、奕、玄、石、邈完整單元",
       "paragraph_id": "c-jinshu-079-xielang-family:exp-xiemiao-p001",
-      "count": 4,
-      "raw_count": 4,
+      "count": 2,
+      "raw_count": 2,
       "duplicate_count": 0,
       "counting_policy": "independent_fixed_witness_occurrences",
       "quote": "害之。賊逼令北面，邈厲聲曰：「我不得罪天子，何北面之有！」遂害之。邈妻郗氏，甚妒。邈先娶妾，郗氏怨懟，與邈書告絕。邈以其書非婦人詞，疑其門下生仇玄達為之作，遂斥玄達。玄達怒，遂投孫恩，並害邈兄弟，竟至滅門。",
@@ -28,15 +26,11 @@
       ],
       "mention_ids": [
         "c-jinshu-079-xielang-family:exp-xiemiao-p001:m0139",
-        "c-jinshu-079-xielang-family:exp-xiemiao-p001:m0150",
-        "c-jinshu-079-xielang-family:exp-xiemiao-p001:m0163",
-        "c-jinshu-079-xielang-family:exp-xiemiao-p001:m0179"
+        "c-jinshu-079-xielang-family:exp-xiemiao-p001:m0150"
       ],
       "mention_paragraph_ids": {
         "c-jinshu-079-xielang-family:exp-xiemiao-p001:m0139": "c-jinshu-079-xielang-family:exp-xiemiao-p001",
-        "c-jinshu-079-xielang-family:exp-xiemiao-p001:m0150": "c-jinshu-079-xielang-family:exp-xiemiao-p001",
-        "c-jinshu-079-xielang-family:exp-xiemiao-p001:m0163": "c-jinshu-079-xielang-family:exp-xiemiao-p001",
-        "c-jinshu-079-xielang-family:exp-xiemiao-p001:m0179": "c-jinshu-079-xielang-family:exp-xiemiao-p001"
+        "c-jinshu-079-xielang-family:exp-xiemiao-p001:m0150": "c-jinshu-079-xielang-family:exp-xiemiao-p001"
       },
       "mention_id": "c-jinshu-079-xielang-family:exp-xiemiao-p001:m0139",
       "occurrence_groups": [
@@ -51,20 +45,6 @@
           "canonical_mention_id": "c-jinshu-079-xielang-family:exp-xiemiao-p001:m0150",
           "mention_ids": [
             "c-jinshu-079-xielang-family:exp-xiemiao-p001:m0150"
-          ],
-          "kind": "paragraph"
-        },
-        {
-          "canonical_mention_id": "c-jinshu-079-xielang-family:exp-xiemiao-p001:m0163",
-          "mention_ids": [
-            "c-jinshu-079-xielang-family:exp-xiemiao-p001:m0163"
-          ],
-          "kind": "paragraph"
-        },
-        {
-          "canonical_mention_id": "c-jinshu-079-xielang-family:exp-xiemiao-p001:m0179",
-          "mention_ids": [
-            "c-jinshu-079-xielang-family:exp-xiemiao-p001:m0179"
           ],
           "kind": "paragraph"
         }
@@ -781,6 +761,38 @@
   },
   "dates": [],
   "name_components": [],
+  "person_references": [
+    {
+      "id": "c-jinshu-079-xielang-family:exp-xiemiao-p001:m0163",
+      "paragraph_id": "c-jinshu-079-xielang-family:exp-xiemiao-p001",
+      "start": 163,
+      "end": 164,
+      "surface": "其",
+      "person_id": "bcd_fb9_57e",
+      "quote": "邈以其書非婦人詞",
+      "referent_role": "third_person",
+      "note": "指郗氏所發之書。",
+      "chapter_id": "c-jinshu-079-xielang-family",
+      "book_id": "b-jinshu-079",
+      "work_id": "w-jinshu",
+      "source_id": "s-jinshu-079-xielang-family"
+    },
+    {
+      "id": "c-jinshu-079-xielang-family:exp-xiemiao-p001:m0179",
+      "paragraph_id": "c-jinshu-079-xielang-family:exp-xiemiao-p001",
+      "start": 179,
+      "end": 180,
+      "surface": "之",
+      "person_id": "bcd_fb9_57e",
+      "quote": "疑其門下生仇玄達為之作",
+      "referent_role": "third_person",
+      "note": "疑仇玄達為郗氏作書。",
+      "chapter_id": "c-jinshu-079-xielang-family",
+      "book_id": "b-jinshu-079",
+      "work_id": "w-jinshu",
+      "source_id": "s-jinshu-079-xielang-family"
+    }
+  ],
   "person_ids": [
     "bcd_fb9_57e"
   ],

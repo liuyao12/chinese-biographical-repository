@@ -2,15 +2,51 @@
   "schema_version": 1,
   "id": "5cm_eyx_pno",
   "canonical_person_id": "5cm_eyx_pno",
-  "label": "臧氏〔宋高祖妃；本見證未名〕",
-  "identity_note": "本句高祖時妃臧氏五廟樂議，只記來源局部高祖妃；未經此文證名，不補愛親或生母角色。",
+  "label": "臧愛親",
+  "identity_note": "裴松之兩篇記高祖妃臧氏之廟樂。南史卷11武敬臧皇后明記其諱及與武帝婚姻。保留原ID及原文未名身份。",
   "review": "ai_provisional",
   "names": [
-    "臧氏"
+    "臧氏",
+    "愛親"
   ],
   "titles": [],
   "addresses": [],
   "occurrences": [
+    {
+      "number": 11,
+      "category": "",
+      "title": "武敬臧皇后世系節錄",
+      "paragraph_id": "c-nanshi-011-zangqiyuan:p001",
+      "count": 1,
+      "raw_count": 1,
+      "duplicate_count": 0,
+      "counting_policy": "independent_fixed_witness_occurrences",
+      "quote": "武敬臧皇后諱愛親，東莞人也。祖汪，尚書郎，父雋，郡功曹。",
+      "paragraph_ids": [
+        "c-nanshi-011-zangqiyuan:p001"
+      ],
+      "mention_ids": [
+        "c-nanshi-011-zangqiyuan:p001:m0006"
+      ],
+      "mention_paragraph_ids": {
+        "c-nanshi-011-zangqiyuan:p001:m0006": "c-nanshi-011-zangqiyuan:p001"
+      },
+      "mention_id": "c-nanshi-011-zangqiyuan:p001:m0006",
+      "occurrence_groups": [
+        {
+          "canonical_mention_id": "c-nanshi-011-zangqiyuan:p001:m0006",
+          "mention_ids": [
+            "c-nanshi-011-zangqiyuan:p001:m0006"
+          ],
+          "kind": "paragraph"
+        }
+      ],
+      "work_id": "w-nanshi",
+      "book_id": "b-nanshi-011",
+      "chapter_id": "c-nanshi-011-zangqiyuan",
+      "source_id": "s-nanshi-011-zangqiyuan-ws2288359",
+      "work_title": "南史"
+    },
     {
       "number": 33,
       "category": "",
@@ -84,6 +120,33 @@
   ],
   "table_occurrences": [],
   "sources": [
+    {
+      "chapter_id": "c-nanshi-011-zangqiyuan",
+      "work_id": "w-nanshi",
+      "book_id": "b-nanshi-011",
+      "source_id": "s-nanshi-011-zangqiyuan-ws2288359",
+      "source": {
+        "title": "南史卷11·武敬臧皇后世系節錄",
+        "provider": "Wikisource",
+        "url": "https://zh.wikisource.org/wiki/南史/卷11",
+        "permalink": "https://zh.wikisource.org/w/index.php?title=南史/卷11&oldid=2288359",
+        "revision_id": 2288359,
+        "accessed_on": "2026-11-20",
+        "edition": "固定數位見證",
+        "extent": "祖父原句節錄",
+        "text_scope": "partial_chapter",
+        "image_verified": false,
+        "review_status": "text_checked",
+        "raw_path": "source-evidence/nanshi022-wang/nan011-ws2288359.wikitext",
+        "raw_file_sha256": "056a4790420554786f40b92b14255aeec0a0eb168722bfeda19ad5f78f6363d4",
+        "rights": "原典古文及可追溯數位校記",
+        "license_url": "https://zh.wikisource.org/wiki/Wikisource:著作權資訊",
+        "normalization": {
+          "character_conversion": {},
+          "extraction_note": "人名、職稱與原字以原行投影。校記另存；年號及連結僅去數位界符。"
+        }
+      }
+    },
     {
       "chapter_id": "c-nanshi-033-pei-family",
       "work_id": "w-nanshi",
@@ -184,16 +247,163 @@
       }
     }
   ],
-  "relations": [],
+  "relations": [
+    {
+      "id": "a-nanshi-011-zangqiyuan-father",
+      "subject_person_id": "5cm_eyx_pno",
+      "object_person_id": "0zd_9uz_t7m_A",
+      "predicate": "father",
+      "status": "source_attested",
+      "qualifiers": {
+        "source_term": "父雋",
+        "wang_women_kin_frame": "father",
+        "lineage": "paternal"
+      },
+      "evidence": [
+        {
+          "work_id": "w-nanshi",
+          "book_id": "b-nanshi-011",
+          "chapter_id": "c-nanshi-011-zangqiyuan",
+          "source_id": "s-nanshi-011-zangqiyuan-ws2288359",
+          "paragraph_id": "c-nanshi-011-zangqiyuan:p001",
+          "quote": "武敬臧皇后諱愛親，東莞人也。祖汪，尚書郎，父雋，郡功曹。",
+          "subject_person_mention_id": "c-nanshi-011-zangqiyuan:p001:m0006",
+          "object_person_mention_id": "c-nanshi-011-zangqiyuan:p001:m0022"
+        }
+      ],
+      "interpretation_note": "依本見證所記生子、受婚者、父母與祖父的關係方向。",
+      "reviewer": "Codex（AI 代理）",
+      "human_reviewed": false,
+      "model": null
+    },
+    {
+      "id": "a-nanshi-011-zangqiyuan-grandfather",
+      "subject_person_id": "5cm_eyx_pno",
+      "object_person_id": "0zd_9uz_t7m",
+      "predicate": "grandfather",
+      "status": "source_attested",
+      "qualifiers": {
+        "source_term": "祖汪",
+        "wang_women_kin_frame": "grandfather",
+        "lineage": "paternal"
+      },
+      "evidence": [
+        {
+          "work_id": "w-nanshi",
+          "book_id": "b-nanshi-011",
+          "chapter_id": "c-nanshi-011-zangqiyuan",
+          "source_id": "s-nanshi-011-zangqiyuan-ws2288359",
+          "paragraph_id": "c-nanshi-011-zangqiyuan:p001",
+          "quote": "武敬臧皇后諱愛親，東莞人也。祖汪，尚書郎，父雋，郡功曹。",
+          "subject_person_mention_id": "c-nanshi-011-zangqiyuan:p001:m0006",
+          "object_person_mention_id": "c-nanshi-011-zangqiyuan:p001:m0015"
+        }
+      ],
+      "interpretation_note": "本句祖、父均在臧氏父家世系。",
+      "reviewer": "Codex（AI 代理）",
+      "human_reviewed": false,
+      "model": null
+    }
+  ],
   "related_people": {
-    "5cm_eyx_pno": "臧氏〔宋高祖妃；本見證未名〕"
+    "0zd_9uz_t7m": "臧汪",
+    "0zd_9uz_t7m_A": "臧儁",
+    "5cm_eyx_pno": "臧愛親"
   },
   "dates": [],
   "name_components": [],
+  "person_references": [
+    {
+      "id": "c-nanshi-011-zangqiyuan:p001:r0000",
+      "start": 0,
+      "end": 5,
+      "surface": "武敬臧皇后",
+      "person_id": "5cm_eyx_pno",
+      "paragraph_id": "c-nanshi-011-zangqiyuan:p001",
+      "referent_role": "third_person",
+      "quote": "武敬臧皇后諱愛親，東莞人也。祖汪，尚書郎，父雋，郡功曹。",
+      "note": "按本句指臧氏〔宋高祖妃；本見證未名〕。",
+      "chapter_id": "c-nanshi-011-zangqiyuan",
+      "book_id": "b-nanshi-011",
+      "work_id": "w-nanshi",
+      "source_id": "s-nanshi-011-zangqiyuan-ws2288359"
+    }
+  ],
   "person_ids": [
     "5cm_eyx_pno"
   ],
-  "preferred_relations": [],
+  "preferred_relations": [
+    {
+      "id": "a-nanshi-011-zangqiyuan-father",
+      "subject_person_id": "5cm_eyx_pno",
+      "object_person_id": "0zd_9uz_t7m_A",
+      "predicate": "father",
+      "status": "source_attested",
+      "qualifiers": {
+        "source_term": "父雋",
+        "wang_women_kin_frame": "father",
+        "lineage": "paternal"
+      },
+      "evidence": [
+        {
+          "work_id": "w-nanshi",
+          "book_id": "b-nanshi-011",
+          "chapter_id": "c-nanshi-011-zangqiyuan",
+          "source_id": "s-nanshi-011-zangqiyuan-ws2288359",
+          "paragraph_id": "c-nanshi-011-zangqiyuan:p001",
+          "quote": "武敬臧皇后諱愛親，東莞人也。祖汪，尚書郎，父雋，郡功曹。",
+          "subject_person_mention_id": "c-nanshi-011-zangqiyuan:p001:m0006",
+          "object_person_mention_id": "c-nanshi-011-zangqiyuan:p001:m0022"
+        }
+      ],
+      "interpretation_note": "依本見證所記生子、受婚者、父母與祖父的關係方向。",
+      "reviewer": "Codex（AI 代理）",
+      "human_reviewed": false,
+      "model": null
+    },
+    {
+      "id": "a-nanshi-011-zangqiyuan-grandfather",
+      "subject_person_id": "5cm_eyx_pno",
+      "object_person_id": "0zd_9uz_t7m",
+      "predicate": "grandfather",
+      "status": "source_attested",
+      "qualifiers": {
+        "source_term": "祖汪",
+        "wang_women_kin_frame": "grandfather",
+        "lineage": "paternal"
+      },
+      "evidence": [
+        {
+          "work_id": "w-nanshi",
+          "book_id": "b-nanshi-011",
+          "chapter_id": "c-nanshi-011-zangqiyuan",
+          "source_id": "s-nanshi-011-zangqiyuan-ws2288359",
+          "paragraph_id": "c-nanshi-011-zangqiyuan:p001",
+          "quote": "武敬臧皇后諱愛親，東莞人也。祖汪，尚書郎，父雋，郡功曹。",
+          "subject_person_mention_id": "c-nanshi-011-zangqiyuan:p001:m0006",
+          "object_person_mention_id": "c-nanshi-011-zangqiyuan:p001:m0015"
+        }
+      ],
+      "interpretation_note": "本句祖、父均在臧氏父家世系。",
+      "reviewer": "Codex（AI 代理）",
+      "human_reviewed": false,
+      "model": null
+    }
+  ],
+  "assembled_identity": {
+    "person_id": "0zd_9uz_t7m_AA",
+    "source_person_ids": [
+      "5cm_eyx_pno"
+    ],
+    "representative_source_person_id": "5cm_eyx_pno",
+    "identity_equivalence_decision_ids": [],
+    "parent_person_id": "0zd_9uz_t7m_A",
+    "source_assertion_id": "a-nanshi-011-zangqiyuan-father",
+    "assembly_id": "family-nanshi011-zang-wang-jun",
+    "root_person_id": "0zd_9uz_t7m",
+    "status": "contextual_provisional",
+    "human_reviewed": false
+  },
   "age_assertions": [],
   "life_events": [],
   "life_event_date_decisions": [],

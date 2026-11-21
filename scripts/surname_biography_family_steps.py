@@ -3,7 +3,7 @@ The independent fixed excerpt pins contain no person IDs; all endpoints follow M
 """
 from pathlib import Path
 import hashlib,json
-PROOF_SHA='de1a48adfa6dbeaa585d912946c6addb3b49c9c08e2b9f5139a33115be1d2eba'
+PROOF_SHA='0b74dda27cc13d7e71329d13dca13dbf2a7bfb10b83151c0e9601d696c54e07e'
 RULES={'named_children_list','son_heir_childless_younger_brother_supplies_son','younger_brother'}
 def valid(a,ch,assertions):
  try:

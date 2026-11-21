@@ -6,9 +6,59 @@
   "identity_note": "本源明確個體已暫分登記；現有召回尚不足以接合他篇，不代表已證異人或歷史上無完整姓名。 其餘未有證據的父母、生年或姓名成分不補造。",
   "review": "ai_provisional",
   "names": [
-    "孔延秀"
+    "孔延秀",
+    "延秀"
   ],
-  "titles": [],
+  "titles": [
+    {
+      "id": "th-song044-xiehui-digital-47-127",
+      "person_id": "k5k_m1v_1de",
+      "title": "中兵參軍",
+      "kind": "office",
+      "mode": "attestation",
+      "attestations": [
+        {
+          "id": "th-song044-xiehui-digital-47-127:a",
+          "paragraph_id": "c-songshu-044-xiehui-digital:p020",
+          "start": 127,
+          "end": 131,
+          "surface": "中兵參軍",
+          "person_mention_id": "c-songshu-044-xiehui-digital:p020:m0131",
+          "usage": "narrative",
+          "date_expression": null
+        }
+      ],
+      "effective_period": {
+        "start": {
+          "status": "unknown",
+          "date_expression": null,
+          "evidence": []
+        },
+        "end": {
+          "status": "unknown",
+          "date_expression": null,
+          "evidence": []
+        }
+      },
+      "evidence": [
+        {
+          "work_id": "w-songshu",
+          "book_id": "b-songshu-044",
+          "source_id": "s-songshu-044-xiehui-digital-ws1746033",
+          "chapter_id": "c-songshu-044-xiehui-digital",
+          "paragraph_id": "c-songshu-044-xiehui-digital:p020",
+          "quote": "晦至江口，到彥之已到彭城洲。庾登之據巴陵，畏懦不敢進。會霖雨連日，參軍劉和之曰：「彼此共有雨耳，檀征北尋至，東軍方強，唯宜速戰。」登之恇怯，使小將陳祐作大囊，貯茅數千斛，縣於颿檣，云可以焚艦，用火宜須晴，以緩戰期。晦然之，遂停軍十五日。乃攻蕭欣於彭城洲，中兵參軍孔延秀率三千人進戰，甚力。欣於陳後擁楯自衞，又委軍還船，於是大敗。延秀又攻洲口柵陷之，彥之退保隱圻。",
+          "person_mention_id": "c-songshu-044-xiehui-digital:p020:m0131"
+        }
+      ],
+      "status": "source_attested",
+      "interpretation_note": "原行列於該人名下，職稱與權限依當時敘法。",
+      "reviewer": "Codex（AI代理）",
+      "model": null,
+      "human_reviewed": false,
+      "period": "未定 → 未定"
+    }
+  ],
   "addresses": [],
   "occurrences": [
     {
@@ -54,6 +104,60 @@
       "book_id": "b-songshu-044",
       "chapter_id": "c-songshu-044-wyd1739-xiehui",
       "source_id": "s-songshu-044-wyd1739-xiehui",
+      "work_title": "宋書"
+    },
+    {
+      "number": 44,
+      "category": "",
+      "title": "謝晦傳（固定數位全文）",
+      "paragraph_id": "c-songshu-044-xiehui-digital:p020",
+      "count": 3,
+      "raw_count": 3,
+      "duplicate_count": 0,
+      "counting_policy": "independent_fixed_witness_occurrences",
+      "quote": "用火宜須晴，以緩戰期。晦然之，遂停軍十五日。乃攻蕭欣於彭城洲，中兵參軍孔延秀率三千人進戰，甚力。欣於陳後擁楯自衞，又委軍還船，於是大敗。延秀又攻洲口柵陷之，彥之退保隱圻。",
+      "paragraph_ids": [
+        "c-songshu-044-xiehui-digital:p020",
+        "c-songshu-044-xiehui-digital:p033"
+      ],
+      "mention_ids": [
+        "c-songshu-044-xiehui-digital:p020:m0131",
+        "c-songshu-044-xiehui-digital:p020:m0164",
+        "c-songshu-044-xiehui-digital:p033:m0067"
+      ],
+      "mention_paragraph_ids": {
+        "c-songshu-044-xiehui-digital:p020:m0131": "c-songshu-044-xiehui-digital:p020",
+        "c-songshu-044-xiehui-digital:p020:m0164": "c-songshu-044-xiehui-digital:p020",
+        "c-songshu-044-xiehui-digital:p033:m0067": "c-songshu-044-xiehui-digital:p033"
+      },
+      "mention_id": "c-songshu-044-xiehui-digital:p020:m0131",
+      "occurrence_groups": [
+        {
+          "canonical_mention_id": "c-songshu-044-xiehui-digital:p020:m0131",
+          "mention_ids": [
+            "c-songshu-044-xiehui-digital:p020:m0131"
+          ],
+          "kind": "paragraph"
+        },
+        {
+          "canonical_mention_id": "c-songshu-044-xiehui-digital:p020:m0164",
+          "mention_ids": [
+            "c-songshu-044-xiehui-digital:p020:m0164"
+          ],
+          "kind": "paragraph"
+        },
+        {
+          "canonical_mention_id": "c-songshu-044-xiehui-digital:p033:m0067",
+          "mention_ids": [
+            "c-songshu-044-xiehui-digital:p033:m0067"
+          ],
+          "kind": "paragraph"
+        }
+      ],
+      "work_id": "w-songshu",
+      "book_id": "b-songshu-044",
+      "chapter_id": "c-songshu-044-xiehui-digital",
+      "source_id": "s-songshu-044-xiehui-digital-ws1746033",
       "work_title": "宋書"
     }
   ],
@@ -192,6 +296,36 @@
           "edition_year_role": "catalogued_printed_edition_year",
           "human_image_reviewed": false
         }
+      }
+    },
+    {
+      "chapter_id": "c-songshu-044-xiehui-digital",
+      "work_id": "w-songshu",
+      "book_id": "b-songshu-044",
+      "source_id": "s-songshu-044-xiehui-digital-ws1746033",
+      "source": {
+        "title": "宋書卷四十四·謝晦傳",
+        "provider": "Wikisource",
+        "url": "https://zh.wikisource.org/w/index.php?title=%E5%AE%8B%E6%9B%B8/%E5%8D%B744&oldid=1746033",
+        "permalink": "https://zh.wikisource.org/w/index.php?title=%E5%AE%8B%E6%9B%B8/%E5%8D%B744&oldid=1746033",
+        "revision_id": 1746033,
+        "accessed_on": "2026-11-20",
+        "extent": "卷44原行9–75列傳及第77行獨立史臣論。",
+        "text_scope": "complete_chapter",
+        "review_status": "text_checked",
+        "image_verified": false,
+        "rights": "古代原文及維基文庫數位轉錄；保留見證歸屬。",
+        "license_url": "https://creativecommons.org/licenses/by-sa/4.0/",
+        "edition": "維基文庫數位轉錄，未親核底本影像",
+        "response_sha256": "996e8ff52033ad0a469fe3aa9bec6cd069d016172764e9aff87871ae19d425ba",
+        "wikitext_sha256": "9ca7cb37e05e0ebcc400fb220a1f3970ddc2c0f948483f04b71ea93847a69898",
+        "normalization": {
+          "character_conversion": {},
+          "extraction_note": "收原字，分出ref內現代校勘說，去書寫表檄的行首冒號。"
+        },
+        "raw_path": "source-evidence/nanshi019-xiehui/song044-ws1746033.wikitext",
+        "raw_file_sha256": "9ca7cb37e05e0ebcc400fb220a1f3970ddc2c0f948483f04b71ea93847a69898",
+        "section_locator": "列傳第四 謝晦"
       }
     }
   ],
@@ -786,6 +920,35 @@
         "human_reviewed": false,
         "model": null
       }
+    },
+    {
+      "id": "le-song044-digital-executed-k5k_m1v_1de",
+      "person_id": "k5k_m1v_1de",
+      "event_type": "death",
+      "source_term": "並伏誅",
+      "date_expression": null,
+      "source_anchor": {
+        "paragraph_id": "c-songshu-044-xiehui-digital:p033",
+        "start": 88,
+        "end": 91,
+        "surface": "並伏誅"
+      },
+      "evidence": [
+        {
+          "work_id": "w-songshu",
+          "book_id": "b-songshu-044",
+          "source_id": "s-songshu-044-xiehui-digital-ws1746033",
+          "chapter_id": "c-songshu-044-xiehui-digital",
+          "paragraph_id": "c-songshu-044-xiehui-digital:p033",
+          "quote": "周超既降，到彥之以參府事，劉粹遣參軍沈敞之告彥之沙橋之敗，事由周超，彥之乃執之。先繫㬭等，猶未即戮，於是與晦、遯、兄子世基、世猷及同黨孔延秀、周超、費愔、竇應期、蔣虔、嚴千斯等並伏誅。世基，絢之子也，有才氣。臨死為連句詩曰：「偉哉橫海鱗，壯矣垂天翼。一旦失風水，翻為螻蟻食。」晦續之曰：「功遂侔昔人，保退無智力。既涉太行險，斯路信難陟。」晦死時，年三十七。庾登之、殷道鸞、何承天並皆原免。",
+          "person_mention_id": "c-songshu-044-xiehui-digital:p033:m0067"
+        }
+      ],
+      "status": "source_attested",
+      "interpretation_note": "此數位本列伏誅者；㬭承「先繫㬭等，猶未即戮」，其後乃與晦等同誅。世平、紹未在此具名逐敘。",
+      "reviewer": "Codex（AI代理）",
+      "model": null,
+      "human_reviewed": false
     }
   ],
   "life_event_date_decisions": [],

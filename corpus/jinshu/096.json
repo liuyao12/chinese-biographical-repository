@@ -84,9 +84,8 @@
     "human_reviewed": false,
     "coverage": "既有選段原標記保留；鍾氏字琰本傳兩個原段的具名人物、稱謂與必要代詞已完整首輪標記，其他覆核仍未完成。",
     "limitations": [
-      "非全卷或完整生平；未核影像或人工審閱。",
-      "荀灌兵數數千保留原見證；現代研究引數十另記，未親核其所報印本。",
-      "匿名母親、未名兄長與未定協仍待核。"
+      "荀灌一段已逐項覆核。所率人數、石覽職名及周訪子名與《通鑑》卷八十九分存。",
+      "鍾琰及其餘列女仍按各傳實際覆核進度登記。"
     ],
     "age_assertions": [
       {
@@ -116,14 +115,61 @@
         "human_reviewed": false
       }
     ],
-    "completion_note": "鍾氏字琰本傳兩個原始段落已完整逐人標記：保原p001，首段後半另p002、郝氏段p003；不是全卷，親屬與候選婚姻未在本來源包轉為typed斷言。"
+    "completion_note": "鍾氏字琰本傳兩個原始段落已完整逐人標記：保原p001，首段後半另p002、郝氏段p003；不是全卷，親屬與候選婚姻未在本來源包轉為typed斷言。",
+    "source_reading_cases": [
+      {
+        "id": "c-jinshu-096-lienv:xunguan:p001:w7904751-107-41-yoo_ox0_545_BABAAAC",
+        "kind": "witness_collation",
+        "person_id": "yoo_ox0_545_BABAAAC",
+        "paragraph_id": "c-jinshu-096-lienv:xunguan:p001",
+        "source_quote": "乃率勇士數千人",
+        "reference": "《通鑑》卷八十九建興三年",
+        "reading": "崧小女灌，年十三，帥勇士數十人",
+        "url": "https://zh.wikisource.org/w/index.php?oldid=7904751",
+        "note": "數千、數十兩種說法各繫原文。",
+        "source_review": "source-evidence/jin075-xun-rui-and-song/song-and-guan.json",
+        "human_reviewed": false
+      },
+      {
+        "id": "c-jinshu-096-lienv:xunguan:p001:w7904751-107-89-smf_swf_i2l",
+        "kind": "witness_collation",
+        "person_id": "smf_swf_i2l",
+        "paragraph_id": "c-jinshu-096-lienv:xunguan:p001",
+        "source_quote": "訪即遣子撫",
+        "reference": "《通鑑》卷八十九建興三年",
+        "reading": "訪遣子扶帥兵三千，與覽共救崧",
+        "url": "https://zh.wikisource.org/w/index.php?oldid=7904751",
+        "note": "通鑑作扶，本傳及其父荀崧傳作撫。",
+        "source_review": "source-evidence/jin075-xun-rui-and-song/song-and-guan.json",
+        "human_reviewed": false
+      }
+    ],
+    "person_reference_occurrences": [
+      {
+        "id": "c-jinshu-096-lienv:xunguan:p001:r0092",
+        "paragraph_id": "c-jinshu-096-lienv:xunguan:p001",
+        "start": 92,
+        "end": 93,
+        "surface": "自",
+        "person_id": "yoo_ox0_545_BABAAAC",
+        "referent_role": "third_person",
+        "quote": "自詣覽乞師",
+        "note": "荀灌親至石覽處請援。"
+      }
+    ],
+    "reviewed_unit_evidence": [
+      {
+        "unit": "荀灌",
+        "path": "source-evidence/jin075-xun-rui-and-song/song-and-guan.json"
+      }
+    ]
   },
   "paragraphs": [
     {
       "id": "c-jinshu-096-lienv:xunguan:p001",
       "text": "荀崧小女灌，幼有奇節。崧為襄城太守，為杜曾所圍，力弱食盡，欲求救于故吏平南將軍石覽，計無從出。灌時年十三，乃率勇士數千人，逾城突圍夜出。賊追甚急，灌督厲將士，且戰且前，得入魯陽山獲免。自詣覽乞師，又為崧書與南中郎將周訪請援，仍結為兄弟，訪即遣子撫率三千人會石覽俱救崧。賊聞兵至，散走，灌之力也。",
       "text_layer": "received_chapter",
-      "annotation_status": "in_progress",
+      "annotation_status": "reviewed",
       "mentions": [
         {
           "id": "c-jinshu-096-lienv:xunguan:p001:m0000",

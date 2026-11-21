@@ -1,0 +1,333 @@
+{
+  "record_type": "received_biography_item_review",
+  "work_id": "w-jinshu",
+  "book_id": "b-jinshu-079",
+  "chapter_id": "c-jinshu-079-xielang-family",
+  "source_id": "s-jinshu-079-xielang-family",
+  "revision_id": 2645985,
+  "raw_path": "sources/witnesses/jin079-ws2645985.wikitext",
+  "raw_sha256": "5fa1f639fa36f784fc45cc19fc9b185fa59a64dab7b01f9390d09942c4f071ca",
+  "external_witnesses": {
+    "jun008": {
+      "raw_path": "source-evidence/jin079-xiewan-recheck/external/jun008-ws2644502.wikitext",
+      "revision_id": 2644502,
+      "permalink": "https://zh.wikisource.org/w/index.php?title=%E6%99%89%E6%9B%B8%2F%E5%8D%B7008&oldid=2644502",
+      "sha256": "947547981eb6fa2796d6a66f0b2f49e0d44d8f517cbd5300eb96d84114d56a73",
+      "title": "晉書/卷008"
+    },
+    "han072": {
+      "raw_path": "source-evidence/jin079-xiewan-recheck/external/han072-ws7906820.wikitext",
+      "revision_id": 7906820,
+      "permalink": "https://zh.wikisource.org/w/index.php?title=%E6%BC%A2%E6%9B%B8%2F%E5%8D%B7072&oldid=7906820",
+      "sha256": "0f0b66e00c9178dde01f8a55cb39cc642091473405c8cbea22b518002b838c15",
+      "title": "漢書/卷072"
+    },
+    "jin094": {
+      "raw_path": "source-evidence/jin079-lang-zhong-xuan-dai/external/jin094-ws5854886.wikitext",
+      "revision_id": 5854886,
+      "permalink": "https://zh.wikisource.org/w/index.php?title=%E6%99%89%E6%9B%B8%2F%E5%8D%B7094&oldid=5854886",
+      "sha256": "e392273c22b15392b11dc8bc8f8b7a6b5d6294a6e913c9bde9d57a61fb9c76ff",
+      "title": "晉書/卷094"
+    },
+    "wenxue": {
+      "raw_path": "source-evidence/jin079-lang-zhong-xuan-dai/external/shishuo-wenxue-ws2567461.wikitext",
+      "revision_id": 2567461,
+      "permalink": "https://zh.wikisource.org/w/index.php?title=%E4%B8%96%E8%AA%AA%E6%96%B0%E8%AA%9E%2F%E6%96%87%E5%AD%B8&oldid=2567461",
+      "sha256": "2b55ad5756a2642308046aa7a34ebb4230814688ddfb09efd4d82b2d65200695",
+      "title": "世說新語/文學"
+    }
+  },
+  "source_boundaries": {
+    "heading_line": 111,
+    "heading": "==安弟 萬==",
+    "body_lines": [
+      113,
+      115,
+      117
+    ],
+    "paragraph_ids": [
+      "c-jinshu-079-xielang-family:exp-xiewan-p001",
+      "c-jinshu-079-xielang-family:exp-xiewan-p002",
+      "c-jinshu-079-xielang-family:exp-xiewan-p003"
+    ],
+    "next_heading_line": 119,
+    "next_heading": "===萬子 韶==="
+  },
+  "human_reviewed": false,
+  "model": null,
+  "comparisons": [
+    {
+      "local": {
+        "paragraph_id": "c-jinshu-079-xielang-family:exp-xiewan-p001",
+        "start": 38,
+        "end": 61,
+        "quote": "漁父、屈原、季主、賈誼、楚老、龔勝、孫登、嵇康"
+      },
+      "parallel": [
+        {
+          "witness": "wenxue",
+          "start": 40171,
+          "end": 40305,
+          "line": 93,
+          "quote": "《萬集》載其敘四隱四顯，爲八賢之論，謂漁父、{{ProperNoun|屈原}}、季主、{{ProperNoun|賈誼}}、{{ProperNoun|楚老}}、{{ProperNoun|龔勝}}、{{ProperNoun|孫登}}、{{ProperNoun|嵇康}}也。",
+          "layer": "劉孝標注述《萬集》"
+        },
+        {
+          "witness": "han072",
+          "start": 9127,
+          "end": 9180,
+          "line": 115,
+          "quote": "有老父來弔，哭甚哀，既而曰：「嗟虖！薰以香自燒，膏以明自銷。龔生竟夭天年，非吾徒也。」遂趨而出，莫知其誰。",
+          "layer": "本傳正文"
+        },
+        {
+          "witness": "jin094",
+          "start": 515,
+          "end": 528,
+          "line": 13,
+          "quote": "孫登，字公和，汲郡共人也。",
+          "layer": "本傳正文"
+        },
+        {
+          "witness": "jin094",
+          "start": 675,
+          "end": 698,
+          "line": 13,
+          "quote": "嵇康又從之遊三年，問其所圖，終不答，康每歎息。",
+          "layer": "本傳正文"
+        }
+      ],
+      "separate_readings": [
+        {
+          "pair": [
+            "漁父",
+            "屈原"
+          ],
+          "native_proof": {
+            "work_id": "w-shiji",
+            "book_id": "b-shiji-084",
+            "source_id": "s-shiji-084-qujia",
+            "chapter_id": "c-shiji-084-qujia",
+            "paragraph_id": "c-shiji-084-qujia:p011",
+            "person_mention_id": "c-shiji-084-qujia:m011-0024",
+            "quote": "屈原至於江濱，被髪行吟澤畔。顏色憔悴，形容枯槁。漁父見而問之曰：「子非三閭大夫歟？何故而至此？」屈原曰：「舉世混濁而我獨清，眾人皆醉而我獨醒，是以見放。」漁父曰：「夫聖人者，不凝滯於物而能與世推移。舉世混濁，何不隨其流而揚其波？眾人皆醉，何不餔其糟而啜其醨？何故懷瑾握瑜而自令見放為？」屈原曰：「吾聞之，新沐者必彈冠，新浴者必振衣，人又誰能以身之察察，受物之汶汶者乎？寧赴常流而葬乎江魚腹中耳，又安能以皓皓之白而蒙世俗之溫蠖乎？」"
+          },
+          "companion_mid": "c-shiji-084-qujia:m011-0000",
+          "decision_id": "d-jin079-wan-yufu"
+        },
+        {
+          "pair": [
+            "季主",
+            "賈誼"
+          ],
+          "native_proof": {
+            "work_id": "w-shiji",
+            "book_id": "b-shiji-127",
+            "source_id": "s-shiji127-rizhe",
+            "chapter_id": "c-shiji-127-rizhe",
+            "paragraph_id": "c-shiji-127-rizhe:p003",
+            "person_mention_id": "c-shiji-127-rizhe:m003-0120",
+            "quote": "宋忠爲中大夫，賈誼爲博士，同日俱出洗沐，相從論議，誦易先王聖人之道術，究遍人情，相視而嘆。賈誼曰：「吾聞古之聖人，不居朝廷，必在卜醫之中。今吾已見三公九卿朝士大夫，皆可知矣。試之卜數中以觀采。」二人即同輿而之市，游於卜肆中。天新雨，道少人，司馬季主閒坐，弟子三四人侍，方辯天地之道，日月之運，陰陽吉凶之本。二大夫再拜謁。司馬季主視其狀貌，如類有知者，即禮之，使弟子延之坐。坐定，司馬季主復理前語，分別天地之終始，日月星辰之紀，差次仁義之際，列吉凶之符，語數千言，莫不順理。"
+          },
+          "companion_mid": "c-shiji-127-rizhe:m003-0007",
+          "decision_id": "d-jin079-wan-jizhu"
+        },
+        {
+          "pair": [
+            "楚老",
+            "龔勝"
+          ],
+          "person_id": "kd6_xbf_u6o",
+          "reading": "與漢書龔勝傳弔喪老父事相應，原書自言莫知其誰。"
+        },
+        {
+          "pair": [
+            "孫登",
+            "嵇康"
+          ],
+          "person_id": "yxc_1te_e15",
+          "reading": "卷九十四孫登字公和，嵇康從遊三年。與吳主孫權之子孫登分人。"
+        }
+      ]
+    }
+  ],
+  "narrative_items": [
+    {
+      "local": {
+        "paragraph_id": "c-jinshu-079-xielang-family:exp-xiewan-p001",
+        "start": 72,
+        "end": 84,
+        "quote": "其旨以處者為優，出者為劣"
+      },
+      "interpretation": "其旨指《八賢論》，隱者、出仕者是文中兩類。"
+    },
+    {
+      "local": {
+        "paragraph_id": "c-jinshu-079-xielang-family:exp-xiewan-p001",
+        "start": 107,
+        "end": 117,
+        "quote": "嘗與蔡系送客於征虜亭"
+      },
+      "interpretation": "送別在征虜亭，蔡系與萬相戲。"
+    },
+    {
+      "local": {
+        "paragraph_id": "c-jinshu-079-xielang-family:exp-xiewan-p002",
+        "start": 0,
+        "end": 16,
+        "quote": "弱冠，辟司徒掾，遷右西屬，不就。"
+      },
+      "interpretation": "不就與右西屬相接，前職是否實任未明，弱冠無具體年齡。"
+    },
+    {
+      "local": {
+        "paragraph_id": "c-jinshu-079-xielang-family:exp-xiewan-p002",
+        "start": 16,
+        "end": 34,
+        "quote": "簡文帝作相，聞其名，召為撫軍從事中郎"
+      },
+      "interpretation": "簡文帝為追稱，在事件時作相。"
+    },
+    {
+      "local": {
+        "paragraph_id": "c-jinshu-079-xielang-family:exp-xiewan-p002",
+        "start": 60,
+        "end": 77,
+        "quote": "太原王述，萬之妻父也，為揚州刺史。"
+      },
+      "interpretation": "王述是萬的岳父。無名妻可定位為王述女，太原是王述地稱。"
+    },
+    {
+      "local": {
+        "paragraph_id": "c-jinshu-079-xielang-family:exp-xiewan-p002",
+        "start": 155,
+        "end": 163,
+        "quote": "王羲之與桓溫箋曰"
+      },
+      "interpretation": "王羲之致桓溫，評論謝萬任用；引語非萬自評。"
+    },
+    {
+      "local": {
+        "paragraph_id": "c-jinshu-079-xielang-family:exp-xiewan-p003",
+        "start": 24,
+        "end": 29,
+        "quote": "兄安深憂之"
+      },
+      "interpretation": "謝安是萬之兄；之可指其人或萬不撫眾事。"
+    },
+    {
+      "local": {
+        "paragraph_id": "c-jinshu-079-xielang-family:exp-xiewan-p003",
+        "start": 114,
+        "end": 143,
+        "quote": "既而先遣征虜將軍劉建修治馬頭城池，自率眾入渦潁，以援洛陽。"
+      },
+      "interpretation": "劉建奉命治馬頭城池，謝萬自率眾入渦潁援洛陽。"
+    },
+    {
+      "local": {
+        "paragraph_id": "c-jinshu-079-xielang-family:exp-xiewan-p003",
+        "start": 143,
+        "end": 156,
+        "quote": "北中郎將郗曇以疾病退還彭城"
+      },
+      "interpretation": "郗曇病還，萬誤以為賊盛而退。"
+    },
+    {
+      "local": {
+        "paragraph_id": "c-jinshu-079-xielang-family:exp-xiewan-p003",
+        "start": 180,
+        "end": 208,
+        "quote": "廢為庶人。後復以為散騎常侍，會卒，時年四十二，因以為贈。"
+      },
+      "interpretation": "萬免為庶人，復授散騎常侍時遇卒，原官改贈，報齡四十二。卒年月無載。"
+    }
+  ],
+  "calendar_events": [
+    {
+      "subject_person_id": "aa6_83c_juy_D",
+      "event": "豫州刺史等官詔授",
+      "year": 358,
+      "regnal_year": "升平二年",
+      "lunar_month": 8,
+      "day": "壬申",
+      "local": {
+        "paragraph_id": "c-jinshu-079-xielang-family:exp-xiewan-p002",
+        "start": 128,
+        "end": 155,
+        "quote": "萬再遷豫州刺史、領淮南太守、監司豫冀並四州軍事、假節。"
+      },
+      "parallel": [
+        {
+          "witness": "jun008",
+          "start": 5771,
+          "end": 5781,
+          "line": 252,
+          "quote": "===升平二年===",
+          "layer": "數位題"
+        },
+        {
+          "witness": "jun008",
+          "start": 5999,
+          "end": 6046,
+          "line": 261,
+          "quote": "秋八月，安西將軍謝奕卒。壬申，以吳興太守謝萬爲西中郎將、持節、監司豫冀幷四州諸軍事、豫州刺史。",
+          "layer": "穆帝紀正文"
+        }
+      ],
+      "limits": "壬申屬萬之任命；前一句謝奕卒僅記月。紀本身未列淮南太守，勿將這一日外派所有職銜。"
+    },
+    {
+      "subject_person_id": "aa6_83c_juy_D",
+      "event": "下蔡出屯、兵敗",
+      "year": 359,
+      "regnal_year": "升平三年",
+      "lunar_month": 10,
+      "day": null,
+      "local": {
+        "paragraph_id": "c-jinshu-079-xielang-family:exp-xiewan-p003",
+        "start": 157,
+        "end": 174,
+        "quote": "萬以為賊盛致退，便引軍還，眾遂潰散"
+      },
+      "parallel": [
+        {
+          "witness": "jun008",
+          "start": 6172,
+          "end": 6182,
+          "line": 269,
+          "quote": "===升平三年===",
+          "layer": "數位題"
+        },
+        {
+          "witness": "jun008",
+          "start": 6253,
+          "end": 6292,
+          "line": 274,
+          "quote": "冬十月慕容儁寇東阿，遣西中郎將謝萬次下蔡，北中郎將郗曇次高平以擊之，王師敗績。",
+          "layer": "穆帝紀正文"
+        }
+      ],
+      "limits": "紀記戰役年月。萬後卒不能以此年月代入。"
+    }
+  ],
+  "printed_witness": {
+    "source": "國家圖書館藏武英殿本影印第二十冊",
+    "pdf_sha256": "a97db139412d60c1a2b51d9c5153ae7e005fdfd864a9fe096a12203d674ac99a",
+    "witness_url": "https://upload.wikimedia.org/wikipedia/commons/3/30/NLC016-HWRB201817005-3307_%E6%99%89%E6%9B%B8_%E4%B8%80%E7%99%BE%E4%B8%89%E5%8D%81%E5%8D%B7_%E9%9F%B3%E7%BE%A9%E4%B8%89%E5%8D%B7_%E7%AC%AC20%E5%86%8A.pdf",
+    "pages": [
+      {
+        "page": 21,
+        "leaf": "十八下至十九上",
+        "source_passage": "萬字萬石才器儁秀／嘗與蔡系送客于征虜亭／太原王述萬之妻父也"
+      },
+      {
+        "page": 22,
+        "leaf": "十九下",
+        "source_passage": "郗曇以疾病退還彭城／會卒時年四十二因以為贈"
+      }
+    ],
+    "human_reviewed": false,
+    "image_verified": true
+  }
+}

@@ -80,9 +80,19 @@ export function dutyObservationHTML(record, person) {
 }
 export function sourceDetailsHTML(person, full = true) {
   if (!full) return '';
+  const own = new Set([person.id, ...list(person.person_ids)]);
+  const cases = list(person.source_reading_cases).filter(c => c?.kind === 'witness_collation'
+    && own.has(c.person_id) && text(c.source_quote) && text(c.reading) && text(c.reference));
+  const readings = cases.length ? `<section class="person-source-details"><h4>${ui('Witness comparisons')}</h4>${cases.map(c => {
+    const source = list(person.sources).find(s => s.source_id === c.source_id && s.chapter_id === c.chapter_id);
+    const passage = source && c.paragraph_id ? sourcePassageURL({...source, paragraph_id:c.paragraph_id}) : '';
+    const url = safeURL(c.url);
+    const title = workName(person, source?.work_id) || text(source?.source?.title) || ui('Source wording');
+    return `<details class="person-source-detail"><summary><q>${h(c.source_quote)}</q> · ${h(c.reference)}</summary><p>${passage ? `<a href="${h(passage)}">${h(title)}</a>` : h(title)}</p><blockquote>${h(c.source_quote)}</blockquote><p>${url ? `<a href="${h(url)}" target="_blank" rel="noopener">${h(c.reference)}</a>` : h(c.reference)}</p><blockquote>${h(c.reading)}</blockquote>${text(c.note) ? `<p>${h(c.note)}</p>` : ''}</details>`;
+  }).join('')}</section>` : '';
   const records = list(person.source_details).filter(d => d && text(d.source_term));
-  if (!records.length) return '';
-  return `<section class="person-source-details"><h4>${ui('Duties and other source records')}</h4>${records.map(d => {
+  if (!records.length) return readings;
+  return readings + `<section class="person-source-details"><h4>${ui('Duties and other source records')}</h4>${records.map(d => {
     const view = detailView(d, person), scope = text(d.source_detail_pattern?.scope_anchor?.surface);
     return `<article class="person-source-detail" data-detail-id="${h(d.id || '')}"><h5>${ui(view.key)}</h5><p class="person-detail-wording"><q>${h(d.source_term)}</q></p>${view.values}${dutyObservationHTML(d,person)}<details><summary>${ui('Source wording and qualification')}</summary>${list(d.evidence).map(e => evidenceHTML(e, person, scope)).join('')}${text(d.interpretation_note) ? `<p>${h(d.interpretation_note)}</p>` : ''}</details></article>`;
   }).join('')}</section>`;

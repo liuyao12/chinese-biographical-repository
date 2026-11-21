@@ -1,0 +1,81 @@
+{
+  "format_version": "0.2",
+  "record_type": "person_life_event_assertion_set",
+  "chapter_id": "c-zizhitongjian-107-xiexuan",
+  "events": [
+    {
+      "id": "le-zztj107-xiexuan",
+      "person_id": "aa6_83c_juy_CD",
+      "event_type": "death",
+      "source_term": "卒",
+      "date_expression": "太元十三年",
+      "normalized_date": {
+        "era": "CE",
+        "era_year": 388,
+        "year": 388,
+        "year_numbering": "astronomical",
+        "precision": "year",
+        "calendar": "chinese_civil",
+        "source_expression": "太元十三年",
+        "status": "editorial_provisional",
+        "original_quote": "太元十三年（戊子，公元三八八年）\n春，正月，康樂獻武公謝玄卒。",
+        "evidence": [
+          {
+            "work_id": "w-zizhitongjian",
+            "book_id": "b-zizhitongjian-107",
+            "chapter_id": "c-zizhitongjian-107-xiexuan",
+            "source_id": "s-zizhitongjian-107-xiexuan-ws1472329",
+            "paragraph_id": "c-zizhitongjian-107-xiexuan:p001",
+            "quote": "太元十三年（戊子，公元三八八年）\n春，正月，康樂獻武公謝玄卒。",
+            "person_mention_id": "c-zizhitongjian-107-xiexuan:p001:m0027"
+          }
+        ],
+        "references": [
+          {
+            "title": "教育部《重編國語辭典修訂本》中國歷代年號表",
+            "url": "https://dict.revised.moe.edu.tw/appendix.jsp?ID=3&page=2",
+            "quote": "太元",
+            "columns": {
+              "dynasty": "東晉",
+              "era_name": "太元",
+              "first_year": "376",
+              "last_year": "396"
+            },
+            "scope": "modern_era_year_equivalence_only",
+            "accessed_on": "2026-11-20",
+            "image_verified": false
+          }
+        ],
+        "regnal_year_mapping": {
+          "kind": "ce_regnal_era_span",
+          "era_name": "太元",
+          "source_number": "十三",
+          "regnal_year": 13,
+          "start_ce_year": 376,
+          "end_ce_year": 396,
+          "reference_index": 0
+        },
+        "rationale": "通鑑年題載太元十三年及公元三八八年，正文記正月。具體日未載。",
+        "reviewer": "Codex（AI代理）",
+        "human_reviewed": false,
+        "model": null
+      },
+      "evidence": [
+        {
+          "work_id": "w-zizhitongjian",
+          "book_id": "b-zizhitongjian-107",
+          "chapter_id": "c-zizhitongjian-107-xiexuan",
+          "source_id": "s-zizhitongjian-107-xiexuan-ws1472329",
+          "paragraph_id": "c-zizhitongjian-107-xiexuan:p001",
+          "quote": "太元十三年（戊子，公元三八八年）\n春，正月，康樂獻武公謝玄卒。",
+          "person_mention_id": "c-zizhitongjian-107-xiexuan:p001:m0027"
+        }
+      ],
+      "interpretation_note": "通鑑太元十三年正月，未書朔日或干支日。",
+      "status": "source_attested",
+      "reviewer": "Codex（AI代理）",
+      "human_reviewed": false,
+      "model": null
+    }
+  ]
+}

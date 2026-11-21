@@ -5,57 +5,10 @@
   "label": "荀羨母（未名）",
   "identity_note": "固定正文具名或明示親屬；未知姓名、年月與親等不補。",
   "review": "ai_provisional",
-  "names": [
-    "母"
-  ],
+  "names": [],
   "titles": [],
   "addresses": [],
-  "occurrences": [
-    {
-      "number": 75,
-      "category": "",
-      "title": "荀崧及荀蕤、荀羨傳",
-      "paragraph_id": "c-jinshu-075-xunsong-families:xunxian-intro:p001",
-      "count": 2,
-      "raw_count": 2,
-      "duplicate_count": 0,
-      "counting_policy": "independent_fixed_witness_occurrences",
-      "quote": "清和有准。才年七歲，遇蘇峻難，隨父在石頭，峻甚愛之，恆置膝上。羨陰白其母，曰：「得一利刀子，足以殺賊。」母掩其口，曰：「無妄言！」年十五，將尚尋陽公主，羨不欲連婚帝室，仍遠遁去。監司追，不獲已，乃出尚公主，拜駙馬都尉。弱冠，與琅邪王洽齊名，沛國劉惔、太原王濛、陳郡殷浩並與",
-      "paragraph_ids": [
-        "c-jinshu-075-xunsong-families:xunxian-intro:p001"
-      ],
-      "mention_ids": [
-        "c-jinshu-075-xunsong-families:xunxian-intro:p001:m0040",
-        "c-jinshu-075-xunsong-families:xunxian-intro:p001:m0057"
-      ],
-      "mention_paragraph_ids": {
-        "c-jinshu-075-xunsong-families:xunxian-intro:p001:m0040": "c-jinshu-075-xunsong-families:xunxian-intro:p001",
-        "c-jinshu-075-xunsong-families:xunxian-intro:p001:m0057": "c-jinshu-075-xunsong-families:xunxian-intro:p001"
-      },
-      "mention_id": "c-jinshu-075-xunsong-families:xunxian-intro:p001:m0040",
-      "occurrence_groups": [
-        {
-          "canonical_mention_id": "c-jinshu-075-xunsong-families:xunxian-intro:p001:m0040",
-          "mention_ids": [
-            "c-jinshu-075-xunsong-families:xunxian-intro:p001:m0040"
-          ],
-          "kind": "paragraph"
-        },
-        {
-          "canonical_mention_id": "c-jinshu-075-xunsong-families:xunxian-intro:p001:m0057",
-          "mention_ids": [
-            "c-jinshu-075-xunsong-families:xunxian-intro:p001:m0057"
-          ],
-          "kind": "paragraph"
-        }
-      ],
-      "work_id": "w-jinshu",
-      "book_id": "b-jinshu-075",
-      "chapter_id": "c-jinshu-075-xunsong-families",
-      "source_id": "s-jinshu-075-xunsong-families",
-      "work_title": "晉書"
-    }
-  ],
+  "occurrences": [],
   "table_occurrences": [],
   "sources": [
     {
@@ -429,7 +382,12 @@
       "status": "source_attested",
       "qualifiers": {
         "source_term": "羨陰白其母",
-        "lineage": "maternal"
+        "lineage": "maternal",
+        "reading_basis": {
+          "kind": "jin075_xunxian_titled_or_anonymous_kin",
+          "paragraph_id": "c-jinshu-075-xunsong-families:xunxian-intro:p001",
+          "fixed_revision": 2645530
+        }
       },
       "evidence": [
         {
@@ -440,7 +398,7 @@
           "paragraph_id": "c-jinshu-075-xunsong-families:xunxian-intro:p001",
           "quote": "羨字令則。清和有准。才年七歲，遇蘇峻難，隨父在石頭，峻甚愛之，恆置膝上。羨陰白其母，曰：「得一利刀子，足以殺賊。」母掩其口，曰：「無妄言！」年十五，將尚尋陽公主，羨不欲連婚帝室，仍遠遁去。監司追，不獲已，乃出尚公主，拜駙馬都尉。弱冠，與琅邪王洽齊名，沛國劉惔、太原王濛、陳郡殷浩並與交好。",
           "subject_person_mention_id": "c-jinshu-075-xunsong-families:xunxian-intro:p001:m0000",
-          "object_person_mention_id": "c-jinshu-075-xunsong-families:xunxian-intro:p001:m0040"
+          "object_person_reference_id": "c-jinshu-075-xunsong-families:xunxian-intro:p001:m0040"
         }
       ],
       "interpretation_note": "其母及母掩口在荀羨童年敘事內，姓名未載，不錯當祖母荀崧母或元帝宮人荀氏。",
@@ -455,6 +413,38 @@
   },
   "dates": [],
   "name_components": [],
+  "person_references": [
+    {
+      "paragraph_id": "c-jinshu-075-xunsong-families:xunxian-intro:p001",
+      "start": 40,
+      "end": 41,
+      "surface": "母",
+      "id": "c-jinshu-075-xunsong-families:xunxian-intro:p001:m0040",
+      "person_id": "pfb_4h4_0dm",
+      "referent_role": "third_person",
+      "note": "荀羨之母，未記名。",
+      "quote": "羨陰白其母，曰：「得一利刀子，足以殺賊。」母掩其口，曰：「無妄言！」",
+      "chapter_id": "c-jinshu-075-xunsong-families",
+      "book_id": "b-jinshu-075",
+      "work_id": "w-jinshu",
+      "source_id": "s-jinshu-075-xunsong-families"
+    },
+    {
+      "paragraph_id": "c-jinshu-075-xunsong-families:xunxian-intro:p001",
+      "start": 57,
+      "end": 58,
+      "surface": "母",
+      "id": "c-jinshu-075-xunsong-families:xunxian-intro:p001:m0057",
+      "person_id": "pfb_4h4_0dm",
+      "referent_role": "third_person",
+      "note": "承前同一位母親。",
+      "quote": "羨陰白其母，曰：「得一利刀子，足以殺賊。」母掩其口，曰：「無妄言！」",
+      "chapter_id": "c-jinshu-075-xunsong-families",
+      "book_id": "b-jinshu-075",
+      "work_id": "w-jinshu",
+      "source_id": "s-jinshu-075-xunsong-families"
+    }
+  ],
   "person_ids": [
     "pfb_4h4_0dm"
   ],
@@ -467,7 +457,12 @@
       "status": "source_attested",
       "qualifiers": {
         "source_term": "羨陰白其母",
-        "lineage": "maternal"
+        "lineage": "maternal",
+        "reading_basis": {
+          "kind": "jin075_xunxian_titled_or_anonymous_kin",
+          "paragraph_id": "c-jinshu-075-xunsong-families:xunxian-intro:p001",
+          "fixed_revision": 2645530
+        }
       },
       "evidence": [
         {
@@ -478,7 +473,7 @@
           "paragraph_id": "c-jinshu-075-xunsong-families:xunxian-intro:p001",
           "quote": "羨字令則。清和有准。才年七歲，遇蘇峻難，隨父在石頭，峻甚愛之，恆置膝上。羨陰白其母，曰：「得一利刀子，足以殺賊。」母掩其口，曰：「無妄言！」年十五，將尚尋陽公主，羨不欲連婚帝室，仍遠遁去。監司追，不獲已，乃出尚公主，拜駙馬都尉。弱冠，與琅邪王洽齊名，沛國劉惔、太原王濛、陳郡殷浩並與交好。",
           "subject_person_mention_id": "c-jinshu-075-xunsong-families:xunxian-intro:p001:m0000",
-          "object_person_mention_id": "c-jinshu-075-xunsong-families:xunxian-intro:p001:m0040"
+          "object_person_reference_id": "c-jinshu-075-xunsong-families:xunxian-intro:p001:m0040"
         }
       ],
       "interpretation_note": "其母及母掩口在荀羨童年敘事內，姓名未載，不錯當祖母荀崧母或元帝宮人荀氏。",

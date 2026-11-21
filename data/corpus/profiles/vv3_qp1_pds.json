@@ -1,0 +1,146 @@
+{
+  "schema_version": 1,
+  "id": "vv3_qp1_pds",
+  "canonical_person_id": "vv3_qp1_pds",
+  "label": "徐氏（新安公主母）",
+  "identity_note": "新安公主母，御覽引中興書稱徐淑媛。",
+  "review": "ai_provisional",
+  "names": [
+    "徐淑媛"
+  ],
+  "titles": [],
+  "addresses": [],
+  "occurrences": [
+    {
+      "number": 152,
+      "category": "",
+      "title": "皇親部十八新安公主出身與兩段婚姻",
+      "paragraph_id": "c-taipingyulan-152-wang080-xianzhi:zhongxing",
+      "count": 1,
+      "raw_count": 1,
+      "duplicate_count": 0,
+      "counting_policy": "independent_fixed_witness_occurrences",
+      "quote": "新安湣公主道福，簡文第三女，徐淑媛所生。適桓濟，重適王獻之。",
+      "paragraph_ids": [
+        "c-taipingyulan-152-wang080-xianzhi:zhongxing"
+      ],
+      "mention_ids": [
+        "c-taipingyulan-152-wang080-xianzhi:zhongxing:m0014"
+      ],
+      "mention_paragraph_ids": {
+        "c-taipingyulan-152-wang080-xianzhi:zhongxing:m0014": "c-taipingyulan-152-wang080-xianzhi:zhongxing"
+      },
+      "mention_id": "c-taipingyulan-152-wang080-xianzhi:zhongxing:m0014",
+      "occurrence_groups": [
+        {
+          "canonical_mention_id": "c-taipingyulan-152-wang080-xianzhi:zhongxing:m0014",
+          "mention_ids": [
+            "c-taipingyulan-152-wang080-xianzhi:zhongxing:m0014"
+          ],
+          "kind": "paragraph"
+        }
+      ],
+      "work_id": "w-taipingyulan",
+      "book_id": "b-taipingyulan-152",
+      "chapter_id": "c-taipingyulan-152-wang080-xianzhi",
+      "source_id": "s-taipingyulan-152-wang080-xianzhi",
+      "work_title": "太平御覽"
+    }
+  ],
+  "table_occurrences": [],
+  "sources": [
+    {
+      "chapter_id": "c-taipingyulan-152-wang080-xianzhi",
+      "work_id": "w-taipingyulan",
+      "book_id": "b-taipingyulan-152",
+      "source_id": "s-taipingyulan-152-wang080-xianzhi",
+      "source": {
+        "title": "太平御覽卷一百五十二",
+        "provider": "Wikisource",
+        "url": "https://zh.wikisource.org/w/index.php?oldid=2587414",
+        "permalink": "https://zh.wikisource.org/w/index.php?oldid=2587414",
+        "revision_id": 2587414,
+        "accessed_on": "2026-11-20",
+        "edition": "維基文庫固定數位轉錄。",
+        "extent": "固定版本的相關原句及該句所出層次，按字位核對。",
+        "text_scope": "partial_chapter",
+        "review_status": "text_checked",
+        "image_verified": false,
+        "rights": "古代原文，維基文庫數位轉錄。",
+        "license_url": "https://creativecommons.org/licenses/by-sa/4.0/",
+        "raw_path": "source-evidence/jin080-wang-xianzhi/external/yu152-ws2587414.wikitext",
+        "raw_file_sha256": "22d6bd6b8649f3889cf81443340ab9a2b61d100b0afd4fb69ad7ec0bf6be313d",
+        "wikitext_sha256": "22d6bd6b8649f3889cf81443340ab9a2b61d100b0afd4fb69ad7ec0bf6be313d"
+      }
+    }
+  ],
+  "relations": [
+    {
+      "id": "a-w080-newan-xu",
+      "subject_person_id": "dkn_ge4_286_AAAAAAAFB",
+      "object_person_id": "vv3_qp1_pds",
+      "predicate": "mother",
+      "qualifiers": {
+        "source_term": "徐淑媛所生"
+      },
+      "evidence": [
+        {
+          "work_id": "w-taipingyulan",
+          "book_id": "b-taipingyulan-152",
+          "chapter_id": "c-taipingyulan-152-wang080-xianzhi",
+          "source_id": "s-taipingyulan-152-wang080-xianzhi",
+          "paragraph_id": "c-taipingyulan-152-wang080-xianzhi:zhongxing",
+          "quote": "新安湣公主道福，簡文第三女，徐淑媛所生。適桓濟，重適王獻之。",
+          "subject_person_mention_id": "c-taipingyulan-152-wang080-xianzhi:zhongxing:m0000",
+          "object_person_mention_id": "c-taipingyulan-152-wang080-xianzhi:zhongxing:m0014"
+        }
+      ],
+      "interpretation_note": "據御覽引晋中興書。",
+      "status": "source_attested",
+      "reviewer": "Codex（AI代理）",
+      "human_reviewed": false,
+      "model": null
+    }
+  ],
+  "related_people": {
+    "dkn_ge4_286_AAAAAAAFB": "司馬道福",
+    "vv3_qp1_pds": "徐氏（新安公主母）"
+  },
+  "dates": [],
+  "name_components": [],
+  "person_ids": [
+    "vv3_qp1_pds"
+  ],
+  "preferred_relations": [
+    {
+      "id": "a-w080-newan-xu",
+      "subject_person_id": "dkn_ge4_286_AAAAAAAFB",
+      "object_person_id": "vv3_qp1_pds",
+      "predicate": "mother",
+      "qualifiers": {
+        "source_term": "徐淑媛所生"
+      },
+      "evidence": [
+        {
+          "work_id": "w-taipingyulan",
+          "book_id": "b-taipingyulan-152",
+          "chapter_id": "c-taipingyulan-152-wang080-xianzhi",
+          "source_id": "s-taipingyulan-152-wang080-xianzhi",
+          "paragraph_id": "c-taipingyulan-152-wang080-xianzhi:zhongxing",
+          "quote": "新安湣公主道福，簡文第三女，徐淑媛所生。適桓濟，重適王獻之。",
+          "subject_person_mention_id": "c-taipingyulan-152-wang080-xianzhi:zhongxing:m0000",
+          "object_person_mention_id": "c-taipingyulan-152-wang080-xianzhi:zhongxing:m0014"
+        }
+      ],
+      "interpretation_note": "據御覽引晋中興書。",
+      "status": "source_attested",
+      "reviewer": "Codex（AI代理）",
+      "human_reviewed": false,
+      "model": null
+    }
+  ],
+  "age_assertions": [],
+  "life_events": [],
+  "life_event_date_decisions": [],
+  "selected_life_event_dates": []
+}
