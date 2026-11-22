@@ -10,9 +10,93 @@
     "鄱陽王鏘",
     "宣韶"
   ],
-  "titles": [],
+  "titles": [
+    {
+      "id": "th-nanqi040-zilong-an3-6",
+      "person_id": "so9_dzz_czr",
+      "title": "司徒",
+      "kind": "office",
+      "mode": "attestation",
+      "attestations": [
+        {
+          "id": "th-nanqi040-zilong-an3-6:a",
+          "person_mention_id": "c-nanqishu-005-zilong-an:p003:m0008",
+          "usage": "narrative",
+          "date_expression": null,
+          "paragraph_id": "c-nanqishu-005-zilong-an:p003",
+          "surface": "司徒",
+          "start": 6,
+          "end": 8
+        }
+      ],
+      "effective_period": {
+        "start": {
+          "status": "unknown",
+          "date_expression": null,
+          "evidence": []
+        },
+        "end": {
+          "status": "unknown",
+          "date_expression": null,
+          "evidence": []
+        }
+      },
+      "evidence": [
+        {
+          "work_id": "w-nanqishu",
+          "book_id": "b-nanqishu-005",
+          "source_id": "s-nanqishu-005-zilong-an-ws1767525",
+          "chapter_id": "c-nanqishu-005-zilong-an",
+          "paragraph_id": "c-nanqishu-005-zilong-an:p003",
+          "quote": "癸未，誅新除司徒鄱陽王鏘、中軍大將軍隨郡王子隆。",
+          "person_mention_id": "c-nanqishu-005-zilong-an:p003:m0008"
+        }
+      ],
+      "status": "source_attested",
+      "interpretation_note": "按本見證原職名及其所屬人。",
+      "reviewer": "Codex（AI 代理）",
+      "human_reviewed": false,
+      "model": null,
+      "period": "未定 → 未定"
+    }
+  ],
   "addresses": [],
   "occurrences": [
+    {
+      "number": 5,
+      "category": "",
+      "title": "延興九月癸未誅鏘及子隆",
+      "paragraph_id": "c-nanqishu-005-zilong-an:p003",
+      "count": 1,
+      "raw_count": 1,
+      "duplicate_count": 0,
+      "counting_policy": "independent_fixed_witness_occurrences",
+      "quote": "癸未，誅新除司徒鄱陽王鏘、中軍大將軍隨郡王子隆。",
+      "paragraph_ids": [
+        "c-nanqishu-005-zilong-an:p003"
+      ],
+      "mention_ids": [
+        "c-nanqishu-005-zilong-an:p003:m0008"
+      ],
+      "mention_paragraph_ids": {
+        "c-nanqishu-005-zilong-an:p003:m0008": "c-nanqishu-005-zilong-an:p003"
+      },
+      "mention_id": "c-nanqishu-005-zilong-an:p003:m0008",
+      "occurrence_groups": [
+        {
+          "canonical_mention_id": "c-nanqishu-005-zilong-an:p003:m0008",
+          "mention_ids": [
+            "c-nanqishu-005-zilong-an:p003:m0008"
+          ],
+          "kind": "paragraph"
+        }
+      ],
+      "work_id": "w-nanqishu",
+      "book_id": "b-nanqishu-005",
+      "chapter_id": "c-nanqishu-005-zilong-an",
+      "source_id": "s-nanqishu-005-zilong-an-ws1767525",
+      "work_title": "南齊書"
+    },
     {
       "number": 11,
       "category": "",
@@ -200,6 +284,41 @@
     {
       "number": 40,
       "category": "",
+      "title": "隨郡王子隆",
+      "paragraph_id": "c-nanqishu-040-zilong:p003",
+      "count": 1,
+      "raw_count": 1,
+      "duplicate_count": 0,
+      "counting_policy": "independent_fixed_witness_occurrences",
+      "quote": "蘆茹丸以自銷損。高宗輔政，謀害諸王，世祖諸子中，子隆最以才貌見憚，故與鄱陽王鏘同夜先見殺。文集行於世。",
+      "paragraph_ids": [
+        "c-nanqishu-040-zilong:p003"
+      ],
+      "mention_ids": [
+        "c-nanqishu-040-zilong:p003:m0050"
+      ],
+      "mention_paragraph_ids": {
+        "c-nanqishu-040-zilong:p003:m0050": "c-nanqishu-040-zilong:p003"
+      },
+      "mention_id": "c-nanqishu-040-zilong:p003:m0050",
+      "occurrence_groups": [
+        {
+          "canonical_mention_id": "c-nanqishu-040-zilong:p003:m0050",
+          "mention_ids": [
+            "c-nanqishu-040-zilong:p003:m0050"
+          ],
+          "kind": "paragraph"
+        }
+      ],
+      "work_id": "w-nanqishu",
+      "book_id": "b-nanqishu-040",
+      "chapter_id": "c-nanqishu-040-zilong",
+      "source_id": "s-nanqishu-040-zilong-ws2272748",
+      "work_title": "南齊書"
+    },
+    {
+      "number": 40,
+      "category": "",
       "title": "廬陵王子卿",
       "paragraph_id": "c-nanqishu-040-ziqing:p004",
       "count": 1,
@@ -235,6 +354,34 @@
   ],
   "table_occurrences": [],
   "sources": [
+    {
+      "chapter_id": "c-nanqishu-005-zilong-an",
+      "work_id": "w-nanqishu",
+      "book_id": "b-nanqishu-005",
+      "source_id": "s-nanqishu-005-zilong-an-ws1767525",
+      "source": {
+        "title": "南齊書卷5·延興九月癸未誅鏘及子隆",
+        "provider": "Wikisource",
+        "url": "https://zh.wikisource.org/w/index.php?oldid=1767525",
+        "permalink": "https://zh.wikisource.org/w/index.php?oldid=1767525",
+        "revision_id": 1767525,
+        "accessed_on": "2026-11-21",
+        "edition": "維基文庫固定數位轉錄",
+        "extent": "子隆傳婚姻、紀年、報齡或用典相應原句。",
+        "text_scope": "partial_chapter",
+        "image_verified": false,
+        "review_status": "text_checked",
+        "raw_path": "sources/nanqishu/nanqishu005-ws1767525.wikitext",
+        "raw_file_sha256": "acb70c64b51623ed9e4d80279274cf91648e3d2253f9dd2cccfa934d4bb3bd4f",
+        "rights": "古代原典及維基文庫數位轉錄。",
+        "license_url": "https://zh.wikisource.org/wiki/Wikisource:著作權資訊",
+        "normalization": {
+          "character_conversion": {},
+          "extraction_note": "投影相應原句，保留字形；移除年號模板定界符。"
+        },
+        "section_locator": "延興九月癸未誅鏘及子隆"
+      }
+    },
     {
       "chapter_id": "c-nanqishu-020-wangbaoming",
       "work_id": "w-nanqishu",
@@ -340,6 +487,111 @@
           "extraction_note": "投影相應原句，保留字形；移除年號模板定界符。"
         },
         "section_locator": "子卿傳所見三王身分"
+      }
+    },
+    {
+      "chapter_id": "c-nanqishu-040-zilong",
+      "work_id": "w-nanqishu",
+      "book_id": "b-nanqishu-040",
+      "source_id": "s-nanqishu-040-zilong-ws2272748",
+      "source": {
+        "title": "南齊書卷40·隨郡王子隆",
+        "provider": "Wikisource",
+        "url": "https://zh.wikisource.org/w/index.php?oldid=2272748",
+        "permalink": "https://zh.wikisource.org/w/index.php?oldid=2272748",
+        "revision_id": 2272748,
+        "accessed_on": "2026-11-21",
+        "edition": "維基文庫固定數位轉錄",
+        "extent": "固定傳題全段及段內相關人物。",
+        "text_scope": "complete_biography_unit",
+        "image_verified": false,
+        "review_status": "text_checked",
+        "raw_path": "sources/nanqishu/nanqishu040-ws2272748.wikitext",
+        "raw_file_sha256": "5ee4445da47c28466a6c227f23c2aac3a6941a84d4e2131a050011f70e30e7ff",
+        "rights": "古代原典及維基文庫數位轉錄。",
+        "license_url": "https://zh.wikisource.org/wiki/Wikisource:著作權資訊",
+        "normalization": {
+          "character_conversion": {},
+          "extraction_note": "投影相應原句，保留字形；移除年號模板定界符。",
+          "verified_blank_line_gaps": [
+            {
+              "source_lines": [
+                135,
+                135
+              ],
+              "raw_quote": "",
+              "raw_quote_sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+              "revision_id": 2272748
+            },
+            {
+              "source_lines": [
+                137,
+                137
+              ],
+              "raw_quote": "",
+              "raw_quote_sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+              "revision_id": 2272748
+            }
+          ]
+        },
+        "section_locator": "隨郡王子隆"
+      }
+    },
+    {
+      "chapter_id": "c-nanqishu-040-zimao",
+      "work_id": "w-nanqishu",
+      "book_id": "b-nanqishu-040",
+      "source_id": "s-nanqishu-040-zimao-ws2272748",
+      "source": {
+        "title": "南齊書卷40·晉安王子懋",
+        "provider": "Wikisource",
+        "url": "https://zh.wikisource.org/w/index.php?oldid=2272748",
+        "permalink": "https://zh.wikisource.org/w/index.php?oldid=2272748",
+        "revision_id": 2272748,
+        "accessed_on": "2026-11-21",
+        "edition": "維基文庫固定數位轉錄",
+        "extent": "固定傳題全段及段內相關人物。",
+        "text_scope": "complete_biography_unit",
+        "image_verified": false,
+        "review_status": "text_checked",
+        "raw_path": "sources/nanqishu/nanqishu040-ws2272748.wikitext",
+        "raw_file_sha256": "5ee4445da47c28466a6c227f23c2aac3a6941a84d4e2131a050011f70e30e7ff",
+        "rights": "古代原典及維基文庫數位轉錄。",
+        "license_url": "https://zh.wikisource.org/wiki/Wikisource:著作權資訊",
+        "normalization": {
+          "character_conversion": {},
+          "extraction_note": "投影相應原句，保留字形；移除年號模板定界符。",
+          "verified_blank_line_gaps": [
+            {
+              "source_lines": [
+                126,
+                126
+              ],
+              "raw_quote": "",
+              "raw_quote_sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+              "revision_id": 2272748
+            },
+            {
+              "source_lines": [
+                128,
+                128
+              ],
+              "raw_quote": "",
+              "raw_quote_sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+              "revision_id": 2272748
+            },
+            {
+              "source_lines": [
+                130,
+                130
+              ],
+              "raw_quote": "",
+              "raw_quote_sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+              "revision_id": 2272748
+            }
+          ]
+        },
+        "section_locator": "晉安王子懋"
       }
     },
     {
@@ -741,6 +993,21 @@
       "source_id": "s-nanqishu-032-zhangdai-family-ws1513918"
     },
     {
+      "id": "c-nanqishu-040-zimao:p003:r0010",
+      "surface": "鄱陽",
+      "start": 10,
+      "end": 12,
+      "person_id": "so9_dzz_czr",
+      "referent_role": "third_person",
+      "paragraph_id": "c-nanqishu-040-zimao:p003",
+      "quote": "延興元年，加侍中。聞鄱陽隨郡二王見殺，欲起兵赴難。母阮在都，遣書欲密迎上，阮報其兄于瑤之爲計，瑤之馳告高宗。於是纂嚴，遣平西將軍王廣之南北討，使軍主裴叔業與瑤之先襲尋陽，聲云爲郢州行司馬。子懋知之，遣三百人守盆城。叔業泝流直上，至夜回下襲盆城。城局參軍樂賁開門納之。子懋率府州兵力，先已具船於稽亭渚，聞叔業得盆城，乃據州自衞。子懋部曲多雍土人，皆踊躍願奮，叔業畏之，遣于瑤之說子懋曰：「今還都，必無過憂，政當作散官，不失富貴也。」子懋旣不出兵攻叔業，衆情稍沮。中兵參軍于琳之，瑤之兄也。說子懋重賂叔業，子懋使琳之往。琳之因說叔業請取子懋，叔業遣軍主徐玄慶將四百人隨琳之入州城，僚佐皆奔散，琳之從二百人拔白入齋，子懋罵曰：「小人何忍行此事。」琳之以袖鄣面，使人害之。時年二十三。",
+      "note": "依同段姓名、引者及所答者。",
+      "chapter_id": "c-nanqishu-040-zimao",
+      "book_id": "b-nanqishu-040",
+      "work_id": "w-nanqishu",
+      "source_id": "s-nanqishu-040-zimao-ws2272748"
+    },
+    {
       "id": "c-nanqishu-049-wanghuan-complete:p004:r0045",
       "paragraph_id": "c-nanqishu-049-wanghuan-complete:p004",
       "start": 45,
@@ -806,6 +1073,93 @@
   ],
   "age_assertions": [],
   "life_events": [
+    {
+      "id": "le-nanqi040-zilong-ann-qiang",
+      "person_id": "so9_dzz_czr",
+      "event_type": "death",
+      "source_term": "誅",
+      "source_anchor": {
+        "paragraph_id": "c-nanqishu-005-zilong-an:p003",
+        "surface": "誅",
+        "start": 3,
+        "end": 4
+      },
+      "date_expression": "癸未",
+      "evidence": [
+        {
+          "work_id": "w-nanqishu",
+          "book_id": "b-nanqishu-005",
+          "source_id": "s-nanqishu-005-zilong-an-ws1767525",
+          "chapter_id": "c-nanqishu-005-zilong-an",
+          "paragraph_id": "c-nanqishu-005-zilong-an:p003",
+          "quote": "癸未，誅新除司徒鄱陽王鏘、中軍大將軍隨郡王子隆。",
+          "person_mention_id": "c-nanqishu-005-zilong-an:p003:m0008"
+        }
+      ],
+      "status": "source_attested",
+      "interpretation_note": "海陵王紀在延興元年九月條明書癸未誅二王。",
+      "reviewer": "Codex（AI 代理）",
+      "human_reviewed": false,
+      "model": null
+    },
+    {
+      "id": "le-nanqi040-zilong-qiang",
+      "person_id": "so9_dzz_czr",
+      "event_type": "death",
+      "source_term": "見殺",
+      "source_anchor": {
+        "paragraph_id": "c-nanqishu-040-zilong:p003",
+        "surface": "見殺",
+        "start": 57,
+        "end": 59
+      },
+      "date_expression": null,
+      "evidence": [
+        {
+          "work_id": "w-nanqishu",
+          "book_id": "b-nanqishu-040",
+          "source_id": "s-nanqishu-040-zilong-ws2272748",
+          "chapter_id": "c-nanqishu-040-zilong",
+          "paragraph_id": "c-nanqishu-040-zilong:p003",
+          "quote": "子隆年二十一，而體過充壯，常服蘆茹丸以自銷損。高宗輔政，謀害諸王，世祖諸子中，子隆最以才貌見憚，故與鄱陽王鏘同夜先見殺。文集行於世。",
+          "person_mention_id": "c-nanqishu-040-zilong:p003:m0050"
+        }
+      ],
+      "status": "source_attested",
+      "interpretation_note": "兩王同夜見殺；本傳先敘二十一歲體狀，未單標卒年。",
+      "reviewer": "Codex（AI 代理）",
+      "human_reviewed": false,
+      "model": null
+    },
+    {
+      "id": "le-nanqi040-zimao-qiang",
+      "person_id": "so9_dzz_czr",
+      "event_type": "death",
+      "source_term": "見殺",
+      "source_anchor": {
+        "paragraph_id": "c-nanqishu-040-zimao:p003",
+        "surface": "見殺",
+        "start": 16,
+        "end": 18
+      },
+      "date_expression": null,
+      "evidence": [
+        {
+          "work_id": "w-nanqishu",
+          "book_id": "b-nanqishu-040",
+          "source_id": "s-nanqishu-040-zimao-ws2272748",
+          "chapter_id": "c-nanqishu-040-zimao",
+          "paragraph_id": "c-nanqishu-040-zimao:p003",
+          "quote": "延興元年，加侍中。聞鄱陽隨郡二王見殺，欲起兵赴難。母阮在都，遣書欲密迎上，阮報其兄于瑤之爲計，瑤之馳告高宗。於是纂嚴，遣平西將軍王廣之南北討，使軍主裴叔業與瑤之先襲尋陽，聲云爲郢州行司馬。子懋知之，遣三百人守盆城。叔業泝流直上，至夜回下襲盆城。城局參軍樂賁開門納之。子懋率府州兵力，先已具船於稽亭渚，聞叔業得盆城，乃據州自衞。子懋部曲多雍土人，皆踊躍願奮，叔業畏之，遣于瑤之說子懋曰：「今還都，必無過憂，政當作散官，不失富貴也。」子懋旣不出兵攻叔業，衆情稍沮。中兵參軍于琳之，瑤之兄也。說子懋重賂叔業，子懋使琳之往。琳之因說叔業請取子懋，叔業遣軍主徐玄慶將四百人隨琳之入州城，僚佐皆奔散，琳之從二百人拔白入齋，子懋罵曰：「小人何忍行此事。」琳之以袖鄣面，使人害之。時年二十三。",
+          "person_reference_id": "c-nanqishu-040-zimao:p003:r0010"
+        }
+      ],
+      "status": "source_attested",
+      "interpretation_note": "聽聞二王已死，另立子懋條。",
+      "reviewer": "Codex（AI 代理）",
+      "human_reviewed": false,
+      "model": null
+    },
     {
       "id": "le-nanqi040-ziqing-qiang",
       "person_id": "so9_dzz_czr",
