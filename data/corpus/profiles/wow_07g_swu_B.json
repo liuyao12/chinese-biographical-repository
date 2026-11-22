@@ -1,0 +1,165 @@
+{
+  "schema_version": 1,
+  "id": "wow_07g_swu_B",
+  "canonical_person_id": "wow_07g_swu_B",
+  "label": "毛法仁（毛脩之子）",
+  "identity_note": "毛法仁（毛脩之子），見本組原文及身份互校。",
+  "review": "ai_provisional",
+  "names": [
+    "法仁"
+  ],
+  "titles": [],
+  "addresses": [],
+  "occurrences": [
+    {
+      "number": 43,
+      "category": "",
+      "title": "魏書所載毛脩之四子與法仁",
+      "paragraph_id": "c-weishu-weishou-043-maoxiu-faren:p002",
+      "count": 1,
+      "raw_count": 1,
+      "duplicate_count": 0,
+      "counting_policy": "independent_fixed_witness_occurrences",
+      "quote": "脩之在南有四子，唯子法仁入國。",
+      "paragraph_ids": [
+        "c-weishu-weishou-043-maoxiu-faren:p002"
+      ],
+      "mention_ids": [
+        "c-weishu-weishou-043-maoxiu-faren:p002:m0010"
+      ],
+      "mention_paragraph_ids": {
+        "c-weishu-weishou-043-maoxiu-faren:p002:m0010": "c-weishu-weishou-043-maoxiu-faren:p002"
+      },
+      "mention_id": "c-weishu-weishou-043-maoxiu-faren:p002:m0010",
+      "occurrence_groups": [
+        {
+          "canonical_mention_id": "c-weishu-weishou-043-maoxiu-faren:p002:m0010",
+          "mention_ids": [
+            "c-weishu-weishou-043-maoxiu-faren:p002:m0010"
+          ],
+          "kind": "paragraph"
+        }
+      ],
+      "work_id": "w-weishu-weishou",
+      "book_id": "b-weishu-weishou-043",
+      "chapter_id": "c-weishu-weishou-043-maoxiu-faren",
+      "source_id": "s-weishu-weishou-043-maoxiu-faren-ws1516113",
+      "work_title": "魏書（魏收）"
+    }
+  ],
+  "table_occurrences": [],
+  "sources": [
+    {
+      "chapter_id": "c-weishu-weishou-043-maoxiu-faren",
+      "work_id": "w-weishu-weishou",
+      "book_id": "b-weishu-weishou-043",
+      "source_id": "s-weishu-weishou-043-maoxiu-faren-ws1516113",
+      "source": {
+        "title": "魏書所載毛脩之四子與法仁",
+        "provider": "Wikisource",
+        "permalink": "https://zh.wikisource.org/w/index.php?oldid=1516113",
+        "url": "https://zh.wikisource.org/w/index.php?oldid=1516113",
+        "revision_id": 1516113,
+        "edition": "維基文庫固定修訂",
+        "accessed_on": "2026-11-21",
+        "review_status": "text_checked",
+        "image_verified": false,
+        "rights": "古代原文；數位轉錄依維基文庫授權。",
+        "license_url": "https://creativecommons.org/licenses/by-sa/4.0/",
+        "extent": "魏書所載毛脩之四子與法仁",
+        "text_scope": "partial_chapter",
+        "raw_path": "source-evidence/song048-complete/external/wei043-ws1516113.wikitext",
+        "raw_file_sha256": "9595e9faa015e1212b5e5d73e66986f90c3c5619ad0d5a54cebfd596427403e2"
+      }
+    }
+  ],
+  "relations": [
+    {
+      "id": "a-song048-faren-xiu",
+      "subject_person_id": "wow_07g_swu_B",
+      "object_person_id": "wow_07g_swu",
+      "predicate": "father",
+      "qualifiers": {
+        "source_term": "唯子法仁入國",
+        "lineage": "paternal"
+      },
+      "evidence": [
+        {
+          "work_id": "w-weishu-weishou",
+          "book_id": "b-weishu-weishou-043",
+          "chapter_id": "c-weishu-weishou-043-maoxiu-faren",
+          "source_id": "s-weishu-weishou-043-maoxiu-faren-ws1516113",
+          "paragraph_id": "c-weishu-weishou-043-maoxiu-faren:p002",
+          "quote": "脩之在南有四子，唯子法仁入國。",
+          "subject_person_mention_id": "c-weishu-weishou-043-maoxiu-faren:p002:m0010",
+          "object_person_mention_id": "c-weishu-weishou-043-maoxiu-faren:p002:m0000"
+        }
+      ],
+      "status": "source_attested",
+      "interpretation_note": "魏43列在南有四子，只有法仁入魏，與宋48的元矯分人。",
+      "reviewer": "Codex（AI代理）",
+      "model": null,
+      "human_reviewed": false
+    }
+  ],
+  "related_people": {
+    "wow_07g_swu": "毛修之",
+    "wow_07g_swu_B": "毛法仁（毛脩之子）"
+  },
+  "dates": [],
+  "name_components": [],
+  "source_reading_cases": [
+    {
+      "id": "c-weishu-weishou-043-maoxiu-faren:children_scope2-5",
+      "kind": "children_scope",
+      "person_id": "wow_07g_swu_B",
+      "source_quote": "四子",
+      "reading": "魏43限定在南有四子，宋48另說在北妻妾及子女眾多。",
+      "note": "魏43限定在南有四子，宋48另說在北妻妾及子女眾多。",
+      "paragraph_id": "c-weishu-weishou-043-maoxiu-faren:p002",
+      "start_codepoint": 5,
+      "end_codepoint": 7,
+      "human_reviewed": false,
+      "southern_sons": 4,
+      "father": "wow_07g_swu",
+      "chapter_id": "c-weishu-weishou-043-maoxiu-faren",
+      "source_id": "s-weishu-weishou-043-maoxiu-faren-ws1516113"
+    }
+  ],
+  "person_ids": [
+    "wow_07g_swu_B"
+  ],
+  "preferred_relations": [
+    {
+      "id": "a-song048-faren-xiu",
+      "subject_person_id": "wow_07g_swu_B",
+      "object_person_id": "wow_07g_swu",
+      "predicate": "father",
+      "qualifiers": {
+        "source_term": "唯子法仁入國",
+        "lineage": "paternal"
+      },
+      "evidence": [
+        {
+          "work_id": "w-weishu-weishou",
+          "book_id": "b-weishu-weishou-043",
+          "chapter_id": "c-weishu-weishou-043-maoxiu-faren",
+          "source_id": "s-weishu-weishou-043-maoxiu-faren-ws1516113",
+          "paragraph_id": "c-weishu-weishou-043-maoxiu-faren:p002",
+          "quote": "脩之在南有四子，唯子法仁入國。",
+          "subject_person_mention_id": "c-weishu-weishou-043-maoxiu-faren:p002:m0010",
+          "object_person_mention_id": "c-weishu-weishou-043-maoxiu-faren:p002:m0000"
+        }
+      ],
+      "status": "source_attested",
+      "interpretation_note": "魏43列在南有四子，只有法仁入魏，與宋48的元矯分人。",
+      "reviewer": "Codex（AI代理）",
+      "model": null,
+      "human_reviewed": false
+    }
+  ],
+  "age_assertions": [],
+  "life_events": [],
+  "life_event_date_decisions": [],
+  "selected_life_event_dates": []
+}

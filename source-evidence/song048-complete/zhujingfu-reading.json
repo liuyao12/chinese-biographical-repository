@@ -1,0 +1,101 @@
+{
+  "record_type": "fixed_source_complete_item_review",
+  "reviewer": "Codex（AI代理）",
+  "model": null,
+  "human_reviewed": false,
+  "external_witnesses": [
+    {
+      "revision_id": 1963381,
+      "raw_path": "sources/nanshi/nanshi016-ws1963381.wikitext",
+      "line": 49,
+      "start": 72,
+      "end": 76,
+      "source_quote": "傳國至孫",
+      "raw_sha256": "8a252b3dacfcc3037062a5dab71748ee1d5c39a94f99ea9e61474b3fa9639ab3",
+      "interpretation": "南史只記至孫，不列景符祖宣姓名。"
+    }
+  ],
+  "print_readings": [
+    {
+      "url": "https://upload.wikimedia.org/wikipedia/commons/7/75/NLC892-411999017142-12779_%E4%BA%8C%E5%8D%81%E5%9B%9B%E5%8F%B2_%E7%AC%AC144%E5%86%8A.pdf#page=77",
+      "catalog_record": "https://commons.wikimedia.org/wiki/File:NLC892-411999017142-12779_%E4%BA%8C%E5%8D%81%E5%9B%9B%E5%8F%B2_%E7%AC%AC144%E5%86%8A.pdf",
+      "pdf_sha1": "126c34411892f6943a575a15ee46fb0064bd5b7b",
+      "pdf_sha256": "316229a8587d188289a7fa2dac393760437ca7facf5deb7a3bfa09770b4a1ac3",
+      "image_sha256": "4e7aa9aa2a8de2d7a8b5f51a0516d9efdf5445efe01bd18788de6384e37f70a1",
+      "edition": "清乾隆武英殿本《宋書》，國圖第144冊。",
+      "page": 77,
+      "half": "R",
+      "folio": "四下",
+      "columns_from_right": "5",
+      "source_quote": "子景符嗣景符卒",
+      "reading": "有姓名及卒。"
+    }
+  ],
+  "boundaries": [
+    {
+      "book_id": "b-songshu-048",
+      "title": "朱景符",
+      "unit_kind": "embedded_account",
+      "chapter_id": "c-songshu-048-zhujingfu",
+      "entry_checked": true,
+      "full_text": true,
+      "first_pass": true,
+      "item_reviewed": true,
+      "source_layout": "wikisource_mixed_indented_prose",
+      "first_line": 34,
+      "last_line": 34,
+      "start_codepoint": 0,
+      "end_codepoint": 9,
+      "opening": "子景符嗣。景符卒，",
+      "closing": "子景符嗣。景符卒，",
+      "parent_heading": "朱齡石",
+      "chapter_path": "corpus/songshu/048-zhujingfu.json",
+      "paragraph_ids": [
+        "c-songshu-048-zhujingfu:p001"
+      ],
+      "item_review_path": "source-evidence/song048-complete/zhujingfu-reading.json"
+    }
+  ],
+  "chronology": [],
+  "readings": [
+    {
+      "id": "c-songshu-048-zhujingfu:received_sentence1-0",
+      "kind": "received_sentence",
+      "person_id": "wip_vh5_2zm_AA",
+      "source_quote": "子景符嗣。",
+      "reading": "子景符嗣父朱齡石豐城之爵。",
+      "note": "子景符嗣父朱齡石豐城之爵。",
+      "paragraph_id": "c-songshu-048-zhujingfu:p001",
+      "start_codepoint": 0,
+      "end_codepoint": 5,
+      "human_reviewed": false
+    },
+    {
+      "id": "c-songshu-048-zhujingfu:received_sentence1-5",
+      "kind": "received_sentence",
+      "person_id": "wip_vh5_2zm_AA",
+      "source_quote": "景符卒，",
+      "reading": "景符卒，然後子祖宣嗣。",
+      "note": "景符卒，然後子祖宣嗣。",
+      "paragraph_id": "c-songshu-048-zhujingfu:p001",
+      "start_codepoint": 5,
+      "end_codepoint": 9,
+      "human_reviewed": false
+    },
+    {
+      "id": "c-songshu-048-zhujingfu:kinship_context1-0",
+      "kind": "kinship_context",
+      "person_id": "wip_vh5_2zm_AA",
+      "source_quote": "子景符嗣",
+      "reading": "父名在前段結尾，下一句子祖宣嗣；直接承襲不等於己身卒於該年。",
+      "note": "父名在前段結尾，下一句子祖宣嗣；直接承襲不等於己身卒於該年。",
+      "paragraph_id": "c-songshu-048-zhujingfu:p001",
+      "start_codepoint": 0,
+      "end_codepoint": 4,
+      "human_reviewed": false,
+      "father": "wip_vh5_2zm_A",
+      "son": "wip_vh5_2zm_AAA"
+    }
+  ],
+  "identity_limits": []
+}

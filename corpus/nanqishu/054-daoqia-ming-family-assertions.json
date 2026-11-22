@@ -1,0 +1,62 @@
+{
+  "format_version": "0.2",
+  "record_type": "person_assertion_set",
+  "chapter_id": "c-nanqishu-054-daoqia-ming-family",
+  "assertions": [
+    {
+      "id": "a-liang027-sengshao-father",
+      "subject_person_id": "nbb_y6s_bfz_AA",
+      "object_person_id": "nbb_y6s_bfz_A",
+      "predicate": "father",
+      "qualifiers": {
+        "source_term": "父略",
+        "lineage": "paternal"
+      },
+      "evidence": [
+        {
+          "work_id": "w-nanqishu",
+          "book_id": "b-nanqishu-054",
+          "chapter_id": "c-nanqishu-054-daoqia-ming-family",
+          "source_id": "s-nanqishu-054-daoqia-ming-family-ws1762878",
+          "paragraph_id": "c-nanqishu-054-daoqia-ming-family:p001",
+          "quote": "明僧紹字承烈，平原鬲人也。祖玩，州治中。父略，給事中。",
+          "subject_person_mention_id": "c-nanqishu-054-daoqia-ming-family:p001:m0000",
+          "object_person_mention_id": "c-nanqishu-054-daoqia-ming-family:p001:m0021"
+        }
+      ],
+      "status": "source_attested",
+      "interpretation_note": "南齊書高逸傳父略。",
+      "reviewer": "Codex（AI代理）",
+      "model": null,
+      "human_reviewed": false
+    },
+    {
+      "id": "a-liang027-minglue-father",
+      "subject_person_id": "nbb_y6s_bfz_A",
+      "object_person_id": "nbb_y6s_bfz",
+      "predicate": "father",
+      "qualifiers": {
+        "source_term": "祖玩，州治中。父略",
+        "lineage": "paternal",
+        "interpretation_status": "editorial_inference"
+      },
+      "evidence": [
+        {
+          "work_id": "w-nanqishu",
+          "book_id": "b-nanqishu-054",
+          "chapter_id": "c-nanqishu-054-daoqia-ming-family",
+          "source_id": "s-nanqishu-054-daoqia-ming-family-ws1762878",
+          "paragraph_id": "c-nanqishu-054-daoqia-ming-family:p001",
+          "quote": "明僧紹字承烈，平原鬲人也。祖玩，州治中。父略，給事中。",
+          "subject_person_mention_id": "c-nanqishu-054-daoqia-ming-family:p001:m0021",
+          "object_person_mention_id": "c-nanqishu-054-daoqia-ming-family:p001:m0014"
+        }
+      ],
+      "status": "source_attested",
+      "interpretation_note": "依祖、父次第相接。南史亦載。",
+      "reviewer": "Codex（AI代理）",
+      "model": null,
+      "human_reviewed": false
+    }
+  ]
+}

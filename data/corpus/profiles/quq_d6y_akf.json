@@ -249,6 +249,51 @@
       "work_title": "宋書"
     },
     {
+      "number": 48,
+      "category": "",
+      "title": "毛脩之",
+      "paragraph_id": "c-songshu-048-maoxiuzhi:p006",
+      "count": 2,
+      "raw_count": 2,
+      "duplicate_count": 0,
+      "counting_policy": "independent_fixed_witness_occurrences",
+      "quote": "司馬、輔國將軍、南郡太守。脩之雖為毅將佐，而深自結高祖。高祖討毅，先遣王鎮惡襲江陵，脩之與諮議參軍任集之等並力戰，高祖宥之。",
+      "paragraph_ids": [
+        "c-songshu-048-maoxiuzhi:p006",
+        "c-songshu-048-maoxiuzhi:p009"
+      ],
+      "mention_ids": [
+        "c-songshu-048-maoxiuzhi:p006:m0119",
+        "c-songshu-048-maoxiuzhi:p009:m0132"
+      ],
+      "mention_paragraph_ids": {
+        "c-songshu-048-maoxiuzhi:p006:m0119": "c-songshu-048-maoxiuzhi:p006",
+        "c-songshu-048-maoxiuzhi:p009:m0132": "c-songshu-048-maoxiuzhi:p009"
+      },
+      "mention_id": "c-songshu-048-maoxiuzhi:p006:m0119",
+      "occurrence_groups": [
+        {
+          "canonical_mention_id": "c-songshu-048-maoxiuzhi:p006:m0119",
+          "mention_ids": [
+            "c-songshu-048-maoxiuzhi:p006:m0119"
+          ],
+          "kind": "paragraph"
+        },
+        {
+          "canonical_mention_id": "c-songshu-048-maoxiuzhi:p009:m0132",
+          "mention_ids": [
+            "c-songshu-048-maoxiuzhi:p009:m0132"
+          ],
+          "kind": "paragraph"
+        }
+      ],
+      "work_id": "w-songshu",
+      "book_id": "b-songshu-048",
+      "chapter_id": "c-songshu-048-maoxiuzhi",
+      "source_id": "s-songshu-048-maoxiuzhi-ws1791560",
+      "work_title": "宋書"
+    },
+    {
       "number": 52,
       "category": "",
       "title": "謝純及孫沈",
@@ -395,6 +440,29 @@
       }
     },
     {
+      "chapter_id": "c-songshu-048-maoxiuzhi",
+      "work_id": "w-songshu",
+      "book_id": "b-songshu-048",
+      "source_id": "s-songshu-048-maoxiuzhi-ws1791560",
+      "source": {
+        "title": "毛脩之",
+        "provider": "Wikisource",
+        "permalink": "https://zh.wikisource.org/w/index.php?oldid=1791560",
+        "url": "https://zh.wikisource.org/w/index.php?oldid=1791560",
+        "revision_id": 1791560,
+        "edition": "維基文庫固定修訂",
+        "accessed_on": "2026-11-21",
+        "review_status": "text_checked",
+        "image_verified": false,
+        "rights": "古代原文；數位轉錄依維基文庫授權。",
+        "license_url": "https://creativecommons.org/licenses/by-sa/4.0/",
+        "extent": "毛脩之",
+        "text_scope": "complete_biography_unit",
+        "raw_path": "source-evidence/song046-zhang-complete/external/song048-ws1791560.wikitext",
+        "raw_file_sha256": "0b275f284af779a0c075ee4741b527fb1dd4a5921c3d3f3ea167939e0e50a916"
+      }
+    },
+    {
       "chapter_id": "c-songshu-052-xiechun",
       "work_id": "w-songshu",
       "book_id": "b-songshu-052",
@@ -459,7 +527,37 @@
   ],
   "preferred_relations": [],
   "age_assertions": [],
-  "life_events": [],
+  "life_events": [
+    {
+      "id": "le-song048-maoxiuzhi-王鎮惡",
+      "person_id": "quq_d6y_akf",
+      "event_type": "death",
+      "source_term": "死",
+      "source_anchor": {
+        "paragraph_id": "c-songshu-048-maoxiuzhi:p009",
+        "start": 135,
+        "end": 136,
+        "surface": "死"
+      },
+      "date_expression": null,
+      "evidence": [
+        {
+          "work_id": "w-songshu",
+          "book_id": "b-songshu-048",
+          "chapter_id": "c-songshu-048-maoxiuzhi",
+          "source_id": "s-songshu-048-maoxiuzhi-ws1791560",
+          "paragraph_id": "c-songshu-048-maoxiuzhi:p009",
+          "quote": "高祖將伐羌，先遣脩之復芍陂，起田數千頃。及至彭城，又使營立府舍，轉相國右司馬，將軍如故。時洛陽已平，即本號為河南、河內二郡太守，行司州事，戍洛陽，修治城壘。高祖既至，案行善之，賜衣服玩好，當時計直二千萬。先是，劉敬宣女嫁，高祖賜錢三百萬，雜綵千匹，時人並以為厚賜。王鎮惡死，脩之代為安西司馬，將軍如故。值桂陽公義真已發長安，為佛佛虜所邀，軍敗。脩之與義真相失，走將免矣。始登一岅，岅甚高峻，右衞軍人叛走，已上岅，嘗為脩之所罰者，以戟擲之，傷額，因墜岅，遂為佛佛所擒。佛佛死，其子赫連昌為索虜托跋燾所獲，脩之并沒。",
+          "person_mention_id": "c-songshu-048-maoxiuzhi:p009:m0132"
+        }
+      ],
+      "status": "source_attested",
+      "interpretation_note": "按同段人物與次第核所屬卒事。",
+      "reviewer": "Codex（AI代理）",
+      "model": null,
+      "human_reviewed": false
+    }
+  ],
   "life_event_date_decisions": [],
   "selected_life_event_dates": []
 }

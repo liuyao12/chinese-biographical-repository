@@ -1,0 +1,68 @@
+{
+  "format_version": "0.2",
+  "record_type": "person_assertion_set",
+  "chapter_id": "c-weishu-weishou-042-kou-xiuzhi-family",
+  "assertions": [
+    {
+      "id": "a-song048-kouzan-koux",
+      "subject_person_id": "v8m_39s_b9x_A",
+      "object_person_id": "v8m_39s_b9x",
+      "predicate": "father",
+      "qualifiers": {
+        "source_term": "父脩之",
+        "lineage": "paternal"
+      },
+      "evidence": [
+        {
+          "work_id": "w-weishu-weishou",
+          "book_id": "b-weishu-weishou-042",
+          "chapter_id": "c-weishu-weishou-042-kou-xiuzhi-family",
+          "source_id": "s-weishu-weishou-042-kou-xiuzhi-family-ws1516111",
+          "paragraph_id": "c-weishu-weishou-042-kou-xiuzhi-family:p001",
+          "quote": "寇讚，字奉國，上谷人，因難徙馮翊萬年。父脩之，字延期，苻堅東萊太守。讚弟謙之有道術，世祖敬重之，",
+          "subject_person_mention_id": "c-weishu-weishou-042-kou-xiuzhi-family:p001:m0000",
+          "object_person_mention_id": "c-weishu-weishou-042-kou-xiuzhi-family:p001:m0020"
+        }
+      ],
+      "status": "source_attested",
+      "interpretation_note": "寇脩之字延期，與毛、朱二脩之各別。",
+      "reviewer": "Codex（AI代理）",
+      "model": null,
+      "human_reviewed": false
+    },
+    {
+      "id": "a-song048-qianzhi-kouzan",
+      "subject_person_id": "v8m_39s_b9x_B",
+      "object_person_id": "v8m_39s_b9x_A",
+      "predicate": "brother",
+      "qualifiers": {
+        "source_term": "讚弟謙之",
+        "relative_birth_order": {
+          "older_person_id": "v8m_39s_b9x_A",
+          "younger_person_id": "v8m_39s_b9x_B",
+          "operator": "lt",
+          "scope": "siblings",
+          "older_ordinal": null,
+          "younger_ordinal": null
+        }
+      },
+      "evidence": [
+        {
+          "work_id": "w-weishu-weishou",
+          "book_id": "b-weishu-weishou-042",
+          "chapter_id": "c-weishu-weishou-042-kou-xiuzhi-family",
+          "source_id": "s-weishu-weishou-042-kou-xiuzhi-family-ws1516111",
+          "paragraph_id": "c-weishu-weishou-042-kou-xiuzhi-family:p001",
+          "quote": "寇讚，字奉國，上谷人，因難徙馮翊萬年。父脩之，字延期，苻堅東萊太守。讚弟謙之有道術，世祖敬重之，",
+          "subject_person_mention_id": "c-weishu-weishou-042-kou-xiuzhi-family:p001:m0036",
+          "object_person_mention_id": "c-weishu-weishou-042-kou-xiuzhi-family:p001:m0000"
+        }
+      ],
+      "status": "source_attested",
+      "interpretation_note": "寇讚之弟。",
+      "reviewer": "Codex（AI代理）",
+      "model": null,
+      "human_reviewed": false
+    }
+  ]
+}

@@ -61,6 +61,41 @@
   "addresses": [],
   "occurrences": [
     {
+      "number": 55,
+      "category": "",
+      "title": "潘璋傳",
+      "paragraph_id": "c-sanguozhi-055-panzhang:line121",
+      "count": 1,
+      "raw_count": 1,
+      "duplicate_count": 0,
+      "counting_policy": "independent_fixed_witness_occurrences",
+      "quote": "溧陽侯。甘寧卒，又并其軍。劉備出夷陵，璋與陸遜并力拒之，璋部下斬備護軍馮習等，所殺傷甚衆，拜平北將軍、襄陽太守。",
+      "paragraph_ids": [
+        "c-sanguozhi-055-panzhang:line121"
+      ],
+      "mention_ids": [
+        "c-sanguozhi-055-panzhang:line121:m0106"
+      ],
+      "mention_paragraph_ids": {
+        "c-sanguozhi-055-panzhang:line121:m0106": "c-sanguozhi-055-panzhang:line121"
+      },
+      "mention_id": "c-sanguozhi-055-panzhang:line121:m0106",
+      "occurrence_groups": [
+        {
+          "canonical_mention_id": "c-sanguozhi-055-panzhang:line121:m0106",
+          "mention_ids": [
+            "c-sanguozhi-055-panzhang:line121:m0106"
+          ],
+          "kind": "paragraph"
+        }
+      ],
+      "work_id": "w-sanguozhi",
+      "book_id": "b-sanguozhi-055",
+      "chapter_id": "c-sanguozhi-055-panzhang",
+      "source_id": "s-sanguozhi-055-panzhang",
+      "work_title": "三國志"
+    },
+    {
       "number": 58,
       "category": "",
       "title": "陸遜傳",
@@ -109,6 +144,33 @@
   "table_occurrences": [],
   "sources": [
     {
+      "chapter_id": "c-sanguozhi-055-panzhang",
+      "work_id": "w-sanguozhi",
+      "book_id": "b-sanguozhi-055",
+      "source_id": "s-sanguozhi-055-panzhang",
+      "source": {
+        "title": "三國志卷五十五·吳書十",
+        "provider": "Wikisource",
+        "url": "https://zh.wikisource.org/w/index.php?oldid=2603286",
+        "permalink": "https://zh.wikisource.org/w/index.php?oldid=2603286",
+        "revision_id": 2603286,
+        "accessed_on": "2026-11-21",
+        "edition": "維基文庫固定修訂，裴注與正文分層。",
+        "extent": "第117至125行。",
+        "text_scope": "partial_chapter",
+        "review_status": "text_checked",
+        "image_verified": false,
+        "rights": "古籍原文，維基文庫轉錄。",
+        "license_url": "https://creativecommons.org/licenses/by-sa/4.0/",
+        "raw_path": "source-evidence/sanguozhi055-commanders/sanguozhi055-ws2603286.wikitext",
+        "raw_file_sha256": "af14d36115960881146ec95d5fdf1087db58e28d3ea95541bb050a8d63778f2e",
+        "wikitext_sha256": "af14d36115960881146ec95d5fdf1087db58e28d3ea95541bb050a8d63778f2e",
+        "collation_witnesses": [
+          "source-evidence/sanguozhi055-panzhang/reading.json"
+        ]
+      }
+    },
+    {
       "chapter_id": "c-sanguozhi-058-luxun",
       "work_id": "w-sanguozhi",
       "book_id": "b-sanguozhi-058",
@@ -148,7 +210,31 @@
   ],
   "preferred_relations": [],
   "age_assertions": [],
-  "life_events": [],
+  "life_events": [
+    {
+      "id": "le-wu055-panzhang2",
+      "person_id": "bv3_5tk_8rq",
+      "event_type": "death",
+      "source_term": "璋部下斬備護軍馮習",
+      "date_expression": null,
+      "evidence": [
+        {
+          "work_id": "w-sanguozhi",
+          "book_id": "b-sanguozhi-055",
+          "chapter_id": "c-sanguozhi-055-panzhang",
+          "source_id": "s-sanguozhi-055-panzhang",
+          "paragraph_id": "c-sanguozhi-055-panzhang:line121",
+          "quote": "權征關羽，璋與朱然斷羽走道，到臨沮，住夾石。璋部下司馬馬忠禽羽，并羽子平、都督趙累等。權即分宜都巫、秭歸二縣爲固陵郡，拜璋爲太守、振威將軍，封溧陽侯。甘寧卒，又并其軍。劉備出夷陵，璋與陸遜并力拒之，璋部下斬備護軍馮習等，所殺傷甚衆，拜平北將軍、襄陽太守。",
+          "person_mention_id": "c-sanguozhi-055-panzhang:line121:m0106"
+        }
+      ],
+      "interpretation_note": "本來源所記。",
+      "status": "source_attested",
+      "reviewer": "Codex（AI 代理）",
+      "human_reviewed": false,
+      "model": null
+    }
+  ],
   "life_event_date_decisions": [],
   "selected_life_event_dates": []
 }

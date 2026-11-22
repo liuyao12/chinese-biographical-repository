@@ -478,3 +478,22 @@
 沈君理子遵儉早卒，以弟君高之子遵禮承嗣。女婺華納為太子妃，《陳書》宣帝紀繫太建元年七月辛卯，君理傳作二年，后傳作三年。陸繕之父，武英殿本作任，卷末考證記一本作倕。《南史》明載繕為倕兄子、父為任。陸繕卒於太建十二年夏四月癸亥，報年六十三。
 
 [吳學士全卷](../source-evidence/sanguozhi053-roll-close/reading.json) · [宋書卷四十七傳界](../source-evidence/song047-complete/volume-boundaries.json) · [劉敬宣逐句及外證](../source-evidence/song047-complete/liujingxuan-reading.json) · [陳書后妃殿本](../source-evidence/chen007-wuying-consorts/column-collation.json) · [張麗華兩書](../source-evidence/nan012-zhanglihua/reading.json) · [沈王陸三傳卷界](../source-evidence/chenshu023-shenwanglu/volume-boundaries.json) · [沈君理](../source-evidence/chenshu023-shenwanglu/shenjunli-reading.json) · [陸繕殿本](../source-evidence/chenshu023-shenwanglu/lushan-wuyingdian.json)
+
+## 第三十二批　周瑜、朱齡石與陸倕諸傳
+
+本批覆核七十六項。清冊已登記七十五卷、一千二百七十九項，其中一千零三十八項完成逐傳覆核。四卷收完正文及史評，另校齊后妃的刻本。
+
+| 卷 | 新覆核傳目 | 逐傳所據 |
+| --- | ---: | --- |
+| 《三國志》卷五十四 | 17 | 周瑜、魯肅、呂蒙三題及十四則附敘，共六十八段。周瑜從祖景的父名，在本卷及《後漢書》所見為興、榮二形。 |
+| 《三國志》卷五十五 | 33 | 十二個原題、陳表小題、二十則無題附敘，共八十一段。凌統卒齡四十九與《建康實錄》二十九分存。陳表遷無難右部督、封都亭侯，請將所授傳給兄脩之子延。孫權未許。 |
+| 《宋書》卷四十八 | 11 | 四將及七則附敘共二百一十句，卷末史論另十一句。毛脩之家世對讀《晉書》《南史》《魏書》。傅弘之父有韶、歆、歆之等名形，舊節錄的九處姓名標記保留。 |
+| 《梁書》卷二十七 | 15 | 陸倕、到洽、明山賓、殷鈞、陸襄五題，另十則附敘。數位底本二十八行正文的五千零二十六個原始字位各有歸屬，武英殿本卷內一百九十七欄及卷後考證逐欄定位。姚察評五人另收。 |
+
+劉敬宣女出嫁的三百萬錢與雜綵千匹，見毛脩之傳，武英殿第一百四十四冊第八十一面左半九上第四至五欄。毛脩之自己的衣玩作價二千萬，兩筆各附原句。毛脩之卒於元嘉二十三年，《魏書》所記太延二年是授官之年。本卷史評末「兵屈霸上」在殿本作「兵屈西湖」。朱超石事的「肉薄」，殿本正文作「內薄」，卷後考證又引一本作「肉」。
+
+陸倕子纘通經，《梁書》作十歲，《南史》作七歲。明山賓兄仲璋，《南齊書》以仲璋為元琳之字，《南史》卻並列元琳、仲璋、山賓三名。殷鈞的五兵尚書有「不堪拜受」明文。陸襄傳大同元年遇害的廣晉令王筠，與侯景亂時墜井的詩人王筠分人。《通鑑》記吳郡事稱陸緝、陸輯，《梁書》《南史》作陸黯。
+
+《南齊書》卷二十、《南史》卷十一齊后妃段核足二十二個數位傳段。裴惠昭祖名在殿本、出雲本分作朴之、封之；韓氏姑名兩刻本均作韓蘭英，數位齊書作韓藺英，殿本考證另引宋本「藺」。兩書的皇后、母族及韓氏原欄均可由清冊查回。
+
+[周瑜、魯肅、呂蒙](../source-evidence/sanguozhi054-roll-close/reading.json) · [吳將十二題與陳表](../source-evidence/sanguozhi055-roll-close/reading.json) · [宋書卷四十八傳界](../source-evidence/song048-complete/volume-boundaries.json) · [梁書卷二十七傳界](../source-evidence/liang027-complete/volume-boundaries.json) · [明山賓](../source-evidence/liang027-complete/mingshanbin-reading.json) · [陸襄](../source-evidence/liang027-complete/luxiang-reading.json)

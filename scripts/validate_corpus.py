@@ -601,6 +601,9 @@ def _validate_uncached(root=ROOT):
             except ImportError: from jin096_zhong_and_guan import errors as jin96_zhong_errors
             errors.extend(jin96_zhong_errors(d, root))
             errors.extend(vyd71_source_errors(d, root))
+            try: from scripts.qi020_consort_witnesses import chapter_errors as qi20_consort_errors
+            except ImportError: from qi020_consort_witnesses import chapter_errors as qi20_consort_errors
+            errors.extend(qi20_consort_errors(d,root))
             if d['id']=='c-chenshu-007-wuying-consorts':
                 try: from scripts.chen007_wuying_consorts import errors as chen007_wyd_errors
                 except ImportError: from chen007_wuying_consorts import errors as chen007_wyd_errors
@@ -2753,6 +2756,11 @@ def _validate_uncached(root=ROOT):
                         from literal_family_reports import kinship_valid
                     check(kinship_valid(a, paragraphs, chapters, root), '逐字親屬句須有同源正文層、雙端角色與完整固定raw，不補父代或排行')
                 pei_valid = False
+                if 'q20_print_kin' in qualifiers:
+                    try: from scripts.qi020_consort_witnesses import frame as qi20_family_frame
+                    except ImportError: from qi020_consort_witnesses import frame as qi20_family_frame
+                    pei_valid=qi20_family_frame(a,chapters[d['chapter_id']],root,'assertions')
+                    check(pei_valid,'裴后刊本父母、祖先與妻室須有原詞及雙端字位')
                 if 'pei_kin_frame' in qualifiers:
                     try: from scripts.pei_royal_biographies import kin_valid as pei_kin_valid
                     except ImportError: from pei_royal_biographies import kin_valid as pei_kin_valid
@@ -3299,6 +3307,12 @@ def _validate_uncached(root=ROOT):
                     except ImportError: from sanguozhi051_family import valid as valid_wu051_family
                     wu051_family=valid_wu051_family(a,paragraphs)
                     check(wu051_family,'吳宗室傳親稱、方向及具名端點須合固定原句')
+                wu054_family=False
+                if 'sanguozhi054_family' in qualifiers:
+                    try: from scripts.sanguozhi054_family import valid as wu054_family_valid
+                    except ImportError: from sanguozhi054_family import valid as wu054_family_valid
+                    wu054_family=wu054_family_valid(a,paragraphs)
+                    check(wu054_family,'吳54指稱及具名端點須合固定原句')
                 if a['predicate'] in ('raised_by', 'ritual_successor_of') or 'care_basis' in qualifiers or 'succession_kind' in qualifiers:
                     try:
                         from scripts.non_parental_family import non_parental_relation_valid
@@ -3390,7 +3404,7 @@ def _validate_uncached(root=ROOT):
                         from wyd_song044_nephew import nephew_valid as wyd_nephew_valid
                     try: from scripts.nanshi022_wanggui_kin import valid as gui_kin_valid
                     except ImportError: from nanshi022_wanggui_kin import valid as gui_kin_valid
-                    check(wu051_family or wu059_family_valid or tai21_valid or n22jian_valid or qi23_valid or (n12sw_valid and qualifiers.get('nan012_shenwuhua_reading')=='c-uncle') or (nan23hui_valid and qualifiers.get('nan023_wanghui_reading')=='uncle-mi') or (nan23qiu_valid and qualifiers.get('nan023_wangqiu_reading')=='lu-uncle') or (nan23yun_valid and qualifiers.get('nan023_wangyun_reading') in ('yun-uncle','early-uncle')) or (nan23huan_valid and qualifiers.get('nan023_wanghuan_reading') in ('uncle','uncle-again')) or (nan23yu_valid and qualifiers.get('nan023_wangyu_reading') in ('zhi-uncle',)) or (nan24siy_valid and qualifiers.get('nanshi024_wangsiyuan_reading')=='zhaolue-uncle') or (qi43siy_valid and qualifiers.get('nanqi043_wangsiyuan_reading')=='zhaolue-uncle') or song92_direction or paternal_uncle_direction_valid(a, paragraphs) or wyd_nephew_valid(a, paragraphs, root)
+                    check(wu054_family or wu051_family or wu059_family_valid or tai21_valid or n22jian_valid or qi23_valid or (n12sw_valid and qualifiers.get('nan012_shenwuhua_reading')=='c-uncle') or (nan23hui_valid and qualifiers.get('nan023_wanghui_reading')=='uncle-mi') or (nan23qiu_valid and qualifiers.get('nan023_wangqiu_reading')=='lu-uncle') or (nan23yun_valid and qualifiers.get('nan023_wangyun_reading') in ('yun-uncle','early-uncle')) or (nan23huan_valid and qualifiers.get('nan023_wanghuan_reading') in ('uncle','uncle-again')) or (nan23yu_valid and qualifiers.get('nan023_wangyu_reading') in ('zhi-uncle',)) or (nan24siy_valid and qualifiers.get('nanshi024_wangsiyuan_reading')=='zhaolue-uncle') or (qi43siy_valid and qualifiers.get('nanqi043_wangsiyuan_reading')=='zhaolue-uncle') or song92_direction or paternal_uncle_direction_valid(a, paragraphs) or wyd_nephew_valid(a, paragraphs, root)
                           or (l7wlb_valid and qualifiers.get('liang007_wanglingbin_reading') in ('m-uncle','n-uncle'))
                           or (qualifiers.get('reading_basis', {}).get('kind') == 'nanshi022_wanggui_opening_kin' and all(gui_kin_valid(a, e, chapters, root) for e in a['evidence'])),
                           '叔父關係須依原詞與人物字位定向，不得互換叔侄端點')
@@ -3469,7 +3483,9 @@ def _validate_uncached(root=ROOT):
                           and any(term in qualifiers.get('source_term', '')
                                   and any(term in e.get('quote', '') for e in a['evidence']) for term in terms),
                           '同父或異父關係須有相符原詞與布林值，不補父親端點')
-                if a['predicate'] == 'kinship_unspecified' and 'sanguozhi051_family' in qualifiers:
+                if a['predicate'] == 'kinship_unspecified' and 'sanguozhi054_family' in qualifiers:
+                    check(wu054_family,'從祖父原稱與角色定位')
+                elif a['predicate'] == 'kinship_unspecified' and 'sanguozhi051_family' in qualifiers:
                     check(wu051_family,'吳宗室族兄、族子按具名角色定向。')
                 elif a['predicate'] == 'kinship_unspecified' and 'sanguozhi050_family' in qualifiers:
                     check(wu050_family,'吳五十族屬兩端與原詞不合。')
@@ -3646,6 +3662,12 @@ def _validate_uncached(root=ROOT):
                             wu059_child_valid=deng_children(a, chapters[d['chapter_id']])
                             check(wu059_child_valid,'孫登謚號、葬地夾注及緊承的璠希英子名須保持原序')
                             if wu059_child_valid: adjacent=ids
+                        elif context.get('kind')=='sanguozhi055_xukai_after_notes':
+                            try: from scripts.sanguozhi055_continuation import xukai_father
+                            except ImportError: from sanguozhi055_continuation import xukai_father
+                            wu55_ok=xukai_father(a,chapters[d['chapter_id']],root)
+                            check(wu55_ok,'徐盛、徐楷父子須接在夾注兩則前後的相鄰正文')
+                            if wu55_ok: adjacent=ids
                         elif context.get('kind')=='chen004_emperor_and_his_named_son':
                             check(nan23hou_valid,'陳廢帝紀傳首與光大元年皇子至澤逐位相符')
                             if nan23hou_valid: adjacent=ids
@@ -3831,6 +3853,11 @@ def _validate_uncached(root=ROOT):
                                 try:from scripts.wenqiao_family_sources import family_valid
                                 except ImportError:from wenqiao_family_sources import family_valid
                                 check(family_valid(a,e,chapters[e['chapter_id']]),'溫氏傳及古譜的妻／從母／某女稱詞與姓名兩端須能逐字回讀')
+                                continue
+                            if qualifiers.get('reading_basis', {}).get('kind') == 'named_father_before_married_daughter':
+                                try: from scripts.married_daughter_reference import married_daughter_valid
+                                except ImportError: from married_daughter_reference import married_daughter_valid
+                                check(married_daughter_valid(a, e, chapters[e['chapter_id']]), '出嫁女須有相連的父名、女字指稱與嫁字')
                                 continue
                             if qualifiers.get('reading_basis', {}).get('kind') == 'huifeng_long_daughter_same_father':
                                 try: from scripts.jin096_huifeng import elder_valid as huifeng_elder_valid
@@ -4081,6 +4108,8 @@ def _validate_uncached(root=ROOT):
                                 try: from scripts.wyd_song071_wang import kin_valid as wyd71_kin_valid
                                 except ImportError: from wyd_song071_wang import kin_valid as wyd71_kin_valid
                                 check(wyd71_kin_valid(a, chapters[d['chapter_id']], root), '宋卷71殿本的兩端必須確合該欄的姓名、稱號及親屬方向')
+                            elif 'q20_print_kin' in qualifiers:
+                                check(pei_valid,'裴后兩刊本的親屬兩端未合')
                             elif 'pei_kin_frame' in qualifiers:
                                 check(pei_valid,'具名及稱謂的雙人原字不合')
                             elif 'nan22jian_kin_frame' in qualifiers:
@@ -4978,6 +5007,10 @@ def _validate_uncached(root=ROOT):
                             and any(i <= anchor[2]['start'] and anchor[2]['end'] <= i + len(quote)
                                     for i in range(len(previous[1]['text'])) if previous[1]['text'].startswith(quote, i))
                             and bool(event.get('source_term')) and event['source_term'] in evidence['quote'])
+                        if isinstance(context,dict) and context.get('kind')=='sanguozhi055_xusheng_death':
+                            try: from scripts.sanguozhi055_continuation import xusheng_death
+                            except ImportError: from sanguozhi055_continuation import xusheng_death
+                            carried_subject=xusheng_death(context,event,chapters[record['chapter_id']],evidence,root)
                         if isinstance(context, dict) and context.get('kind') == 'jin080_biography_end':
                             try: from scripts.jin080_xizhi import end_subject_valid
                             except ImportError: from jin080_xizhi import end_subject_valid
@@ -5361,6 +5394,11 @@ def _validate_uncached(root=ROOT):
                         except ImportError: from chen007_wuying_consorts import fixed_assertion as chen7_wyd_fixed
                         carried_subject=chen7_wyd_fixed(event,chapters[record['chapter_id']],root,'events')
                         check(carried_subject,'陳七殿本卒年、稱謂與卒字未合')
+                    if event['id'] in ('le-nanqishu-020-peihuizhao-pei-wyd','le-nanshi-011-peihuizhao-pei-izumo'):
+                        try: from scripts.qi020_consort_witnesses import frame as qi20_death_frame
+                        except ImportError: from qi020_consort_witnesses import frame as qi20_death_frame
+                        carried_subject=qi20_death_frame(event,chapters[record['chapter_id']],root,'events')
+                        check(carried_subject,'裴后刊本薨年與本人字位未合')
                     if event['id']=='le-nanqi023-taizu':
                         try: from scripts.qi023_wangjian_witnesses import death_subject_valid as qi23_death_subject_valid
                         except ImportError: from qi023_wangjian_witnesses import death_subject_valid as qi23_death_subject_valid
