@@ -23,6 +23,12 @@ def source_paragraphs(lines, layout=None):
     if layout == 'wanglingbin_annotated_dabao_year':
         assert len(lines)==1 and lines[0].count('{{YL|大寶元年|550年}}')==1
         return [received_text(lines[0].replace('{{YL|大寶元年|550年}}','大寶元年'))]
+    if layout == 'ruanlingying_annotated_datong_year':
+        assert len(lines)==1 and lines[0].count('{{YL|大同九年|543年}}')==1
+        return [received_text(lines[0].replace('{{YL|大同九年|543年}}','大同九年'))]
+    if layout == 'xihui_annotated_zhongxing_year':
+        assert len(lines)>0 and sum(l.count('{{YL|中興二年|502年}}')for l in lines)==1 and next(l for l in lines if '{{YL|中興二年|502年}}'in l).count('{{YL|中興二年|502年}}')==1
+        return [received_text(l.replace('{{YL|中興二年|502年}}','中興二年')) for l in lines if l.strip()]
     if layout == 'nanqi043_xieyue_glyph':
         return [received_text(line.removeprefix('　　').replace('{{!|𤅢|左「氵」右「𦿈」}}', '𤅢')) for line in lines]
     if layout == 'wikisource_inline_phonetic_glosses':
@@ -97,6 +103,12 @@ def source_paragraphs(lines, layout=None):
             from scripts.sanguozhi057_layers import project_line
         except ImportError:
             from sanguozhi057_layers import project_line
+        return [body for line in lines if (body:=project_line(line)[0])]
+    if layout == 'sanguozhi050_received_with_pei_notes':
+        try:
+            from scripts.sanguozhi050_layers import project_line
+        except ImportError:
+            from sanguozhi050_layers import project_line
         return [body for line in lines if (body:=project_line(line)[0])]
     if layout == 'jin065_indented_text':
         paragraphs = []

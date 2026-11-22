@@ -418,3 +418,17 @@
 王通傳殿本二下至三下十六欄及卷末考證二欄，王勱傳三下至五上三十欄，均按半葉、原欄照錄。勱字在《陳書》作公濟，《南史》作公齊。兩人原有的父祖、兄弟及卒齡短篇各保留原段與姓名標記。朱據妻孫魯育與同母姊孫魯班的兩次婚配則各由《吳書》步夫人傳具證；朱宣所尚公主的名仍闕。
 
 [虞翻兩處來源號](../source-evidence/sanguozhi057-yufan/reading.json) · [朱據家婚配](../source-evidence/sanguozhi057-zhuju/reading.json) · [吳書卷五十七全卷清冊](../source-evidence/sanguozhi057-roll-close/reading.json) · [梁書卷十六全卷傳界](../source-evidence/liang016-complete/volume-boundaries.json) · [王瑩兩書校讀](../source-evidence/liang016-complete/wangying-reading.json) · [姚察史論與傳承](../source-evidence/liang016-complete/commentary-reading.json) · [王靈賓武英殿本原欄](../source-evidence/liang007-wanglingbin/wyd164-reading.json) · [王通原欄及考證](../source-evidence/chenshu017-wangyuan/wangtong-wuyingdian.json) · [王勱三十欄](../source-evidence/chenshu017-wangyuan/wangmai-wuyingdian.json)
+
+## 第二十八批　吳書妃嬪、梁張郗阮徐四家與陳王沖
+
+本批新核五十一項。六十五卷已有清冊，共一千零五十六項傳目，其中八百零六項備有全文，八百零五項完成人物初讀，七百九十九項完成逐項覆核。
+
+| 卷篇 | 新核傳目 | 原文與校勘 |
+| --- | ---: | --- |
+| 《三國志》卷五十 | 28 | 十一篇主傳，十七則附敘，陳壽史評另錄。孫魯班先嫁周循、再嫁全琮，魯育先嫁朱據、再嫁劉纂。孫休朱后為魯育之女。琅邪王夫人與南陽王夫人各繫本傳。 |
+| 《梁書》卷七、《南史》卷十二、卷十五 | 22 | 張尚柔兩書所記父穆之、兄弟及嗣子諸事分段可查。郗徽之母為宋文帝女尋陽公主。阮令嬴、父石靈寶、母陳氏各取本句。徐昭佩傳中方諸母王氏受寵、旋卒的一句獨立，徐妃本傳接讀其前後。卷十五另有徐緄附傳。 |
+| 《陳書》卷十七 | 1 | 王沖歷仕梁、陳。傳中安成嗣王薨於湘州，指蕭秀世子機。後文「王薨，行州府事」指驃騎廬陵王續。陳高祖時所領左光祿大夫未拜，文帝時另加左光祿大夫。《廢帝紀》記光大元年十一月甲子薨，本傳記七十六歲。 |
+
+武英殿本阮令嬴傳載天監六年八月生世祖、大同六年六月薨，數位《梁書》作天監七年、大同六年，數位《南史》作天監七年、大同九年。三篇都記阮氏六十七歲。《梁書》元帝紀生年條另有天監七年八月丁巳。王沖傳殿本自一上第五欄至二下第七欄，共三十三欄，讀作「佐藩莅人」，固定數位本作「佐藩两人」。
+
+[吳書后妃傳界](../source-evidence/sanguozhi050-consorts/survey.json) · [張尚柔兩書親屬](../source-evidence/liang007-zhangshangrou/reading.json) · [郗徽殿本](../source-evidence/liang007-xihui/wyd164-reading.json) · [阮令嬴殿本逐欄](../source-evidence/liang007-ruanlingying/wyd164-reading.json) · [徐昭佩及王夫人](../source-evidence/liang007-xuzhaopei/reading.json) · [王沖原欄](../source-evidence/chenshu017-wangyuan/wangchong-wuyingdian.json) · [王沖各任及本紀歿日](../source-evidence/chenshu017-wangyuan/wangchong-reading.json)

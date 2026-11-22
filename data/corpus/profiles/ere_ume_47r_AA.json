@@ -1,0 +1,182 @@
+{
+  "schema_version": 1,
+  "id": "ere_ume_47r_AA",
+  "canonical_person_id": "ere_ume_47r_AA",
+  "label": "吳安",
+  "identity_note": "依本篇具名、稱謂及其所在原句辨認；引書原字存於各自來源。",
+  "review": "ai_provisional",
+  "names": [
+    "安"
+  ],
+  "titles": [],
+  "addresses": [],
+  "occurrences": [
+    {
+      "number": 50,
+      "category": "",
+      "title": "吳夫人傳",
+      "paragraph_id": "c-sanguozhi-050-wu:line018",
+      "count": 2,
+      "raw_count": 2,
+      "duplicate_count": 0,
+      "counting_policy": "independent_fixed_witness_occurrences",
+      "quote": "八年，景卒宮，子奮授兵為將，封新亭侯，卒。子安嗣，安坐黨魯王霸死。奮弟祺嗣，封都亭侯，卒。子纂嗣。纂妻即滕胤女也，胤被誅，竝遇害。",
+      "paragraph_ids": [
+        "c-sanguozhi-050-wu:line018"
+      ],
+      "mention_ids": [
+        "c-sanguozhi-050-wu:line018:m0022",
+        "c-sanguozhi-050-wu:line018:m0025"
+      ],
+      "mention_paragraph_ids": {
+        "c-sanguozhi-050-wu:line018:m0022": "c-sanguozhi-050-wu:line018",
+        "c-sanguozhi-050-wu:line018:m0025": "c-sanguozhi-050-wu:line018"
+      },
+      "mention_id": "c-sanguozhi-050-wu:line018:m0022",
+      "occurrence_groups": [
+        {
+          "canonical_mention_id": "c-sanguozhi-050-wu:line018:m0022",
+          "mention_ids": [
+            "c-sanguozhi-050-wu:line018:m0022"
+          ],
+          "kind": "paragraph"
+        },
+        {
+          "canonical_mention_id": "c-sanguozhi-050-wu:line018:m0025",
+          "mention_ids": [
+            "c-sanguozhi-050-wu:line018:m0025"
+          ],
+          "kind": "paragraph"
+        }
+      ],
+      "work_id": "w-sanguozhi",
+      "book_id": "b-sanguozhi-050",
+      "chapter_id": "c-sanguozhi-050-wu",
+      "source_id": "s-sanguozhi-050-wu",
+      "work_title": "三國志"
+    }
+  ],
+  "table_occurrences": [],
+  "sources": [
+    {
+      "chapter_id": "c-sanguozhi-050-wu",
+      "work_id": "w-sanguozhi",
+      "book_id": "b-sanguozhi-050",
+      "source_id": "s-sanguozhi-050-wu",
+      "source": {
+        "title": "三國志卷五十·吳書五",
+        "provider": "Wikisource",
+        "url": "https://zh.wikisource.org/w/index.php?oldid=2085144",
+        "permalink": "https://zh.wikisource.org/w/index.php?oldid=2085144",
+        "revision_id": 2085144,
+        "accessed_on": "2026-11-21",
+        "edition": "維基文庫固定修訂，裴注與正文分層。",
+        "extent": "第12至18行。",
+        "text_scope": "partial_chapter",
+        "review_status": "text_checked",
+        "image_verified": false,
+        "rights": "古籍原文，維基文庫轉錄。",
+        "license_url": "https://creativecommons.org/licenses/by-sa/4.0/",
+        "raw_path": "source-evidence/sanguozhi050-consorts/sanguozhi050-ws2085144.wikitext",
+        "raw_file_sha256": "e659e249b19bdabcb106007f54dab1a9fa5bd666d3e57e21f0a6eaa37ba9b1a6",
+        "wikitext_sha256": "e659e249b19bdabcb106007f54dab1a9fa5bd666d3e57e21f0a6eaa37ba9b1a6",
+        "collation_witnesses": [
+          "source-evidence/sanguozhi050-wu/reading.json"
+        ]
+      }
+    }
+  ],
+  "relations": [
+    {
+      "id": "a-wu050-wu-5",
+      "subject_person_id": "ere_ume_47r_AA",
+      "object_person_id": "ere_ume_47r_A",
+      "predicate": "father",
+      "qualifiers": {
+        "source_term": "子安嗣"
+      },
+      "evidence": [
+        {
+          "work_id": "w-sanguozhi",
+          "book_id": "b-sanguozhi-050",
+          "chapter_id": "c-sanguozhi-050-wu",
+          "source_id": "s-sanguozhi-050-wu",
+          "paragraph_id": "c-sanguozhi-050-wu:line018",
+          "quote": "八年，景卒宮，子奮授兵為將，封新亭侯，卒。子安嗣，安坐黨魯王霸死。奮弟祺嗣，封都亭侯，卒。子纂嗣。纂妻即滕胤女也，胤被誅，竝遇害。",
+          "subject_person_mention_id": "c-sanguozhi-050-wu:line018:m0022",
+          "object_person_mention_id": "c-sanguozhi-050-wu:line018:m0008"
+        }
+      ],
+      "interpretation_note": "以此來源所述兩端為據。",
+      "status": "source_attested",
+      "reviewer": "Codex（AI 代理）",
+      "human_reviewed": false,
+      "model": null
+    }
+  ],
+  "related_people": {
+    "ere_ume_47r_A": "吳奮",
+    "ere_ume_47r_AA": "吳安"
+  },
+  "dates": [],
+  "name_components": [],
+  "person_ids": [
+    "ere_ume_47r_AA"
+  ],
+  "preferred_relations": [
+    {
+      "id": "a-wu050-wu-5",
+      "subject_person_id": "ere_ume_47r_AA",
+      "object_person_id": "ere_ume_47r_A",
+      "predicate": "father",
+      "qualifiers": {
+        "source_term": "子安嗣"
+      },
+      "evidence": [
+        {
+          "work_id": "w-sanguozhi",
+          "book_id": "b-sanguozhi-050",
+          "chapter_id": "c-sanguozhi-050-wu",
+          "source_id": "s-sanguozhi-050-wu",
+          "paragraph_id": "c-sanguozhi-050-wu:line018",
+          "quote": "八年，景卒宮，子奮授兵為將，封新亭侯，卒。子安嗣，安坐黨魯王霸死。奮弟祺嗣，封都亭侯，卒。子纂嗣。纂妻即滕胤女也，胤被誅，竝遇害。",
+          "subject_person_mention_id": "c-sanguozhi-050-wu:line018:m0022",
+          "object_person_mention_id": "c-sanguozhi-050-wu:line018:m0008"
+        }
+      ],
+      "interpretation_note": "以此來源所述兩端為據。",
+      "status": "source_attested",
+      "reviewer": "Codex（AI 代理）",
+      "human_reviewed": false,
+      "model": null
+    }
+  ],
+  "age_assertions": [],
+  "life_events": [
+    {
+      "id": "le-wu050-wu-3",
+      "person_id": "ere_ume_47r_AA",
+      "event_type": "death",
+      "source_term": "安坐黨魯王霸死",
+      "date_expression": null,
+      "evidence": [
+        {
+          "work_id": "w-sanguozhi",
+          "book_id": "b-sanguozhi-050",
+          "chapter_id": "c-sanguozhi-050-wu",
+          "source_id": "s-sanguozhi-050-wu",
+          "paragraph_id": "c-sanguozhi-050-wu:line018",
+          "quote": "八年，景卒宮，子奮授兵為將，封新亭侯，卒。子安嗣，安坐黨魯王霸死。奮弟祺嗣，封都亭侯，卒。子纂嗣。纂妻即滕胤女也，胤被誅，竝遇害。",
+          "person_mention_id": "c-sanguozhi-050-wu:line018:m0022"
+        }
+      ],
+      "interpretation_note": "本來源所記。",
+      "status": "source_attested",
+      "reviewer": "Codex（AI 代理）",
+      "human_reviewed": false,
+      "model": null
+    }
+  ],
+  "life_event_date_decisions": [],
+  "selected_life_event_dates": []
+}

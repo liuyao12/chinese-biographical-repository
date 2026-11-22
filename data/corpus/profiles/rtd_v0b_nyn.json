@@ -221,6 +221,41 @@
       "chapter_id": "c-liangshu-050-xiezheng",
       "source_id": "s-liangshu-050-xiezheng-ws1514482",
       "work_title": "梁書"
+    },
+    {
+      "number": 54,
+      "category": "",
+      "title": "南史卷五十四·尋陽王大心",
+      "paragraph_id": "c-nanshi-054-wangchong-dangyang:p001",
+      "count": 1,
+      "raw_count": 1,
+      "duplicate_count": 0,
+      "counting_policy": "independent_fixed_witness_occurrences",
+      "quote": "尋陽王大心字仁恕，簡文第二子也。",
+      "paragraph_ids": [
+        "c-nanshi-054-wangchong-dangyang:p001"
+      ],
+      "mention_ids": [
+        "c-nanshi-054-wangchong-dangyang:p001:m0009"
+      ],
+      "mention_paragraph_ids": {
+        "c-nanshi-054-wangchong-dangyang:p001:m0009": "c-nanshi-054-wangchong-dangyang:p001"
+      },
+      "mention_id": "c-nanshi-054-wangchong-dangyang:p001:m0009",
+      "occurrence_groups": [
+        {
+          "canonical_mention_id": "c-nanshi-054-wangchong-dangyang:p001:m0009",
+          "mention_ids": [
+            "c-nanshi-054-wangchong-dangyang:p001:m0009"
+          ],
+          "kind": "paragraph"
+        }
+      ],
+      "work_id": "w-nanshi",
+      "book_id": "b-nanshi-054",
+      "chapter_id": "c-nanshi-054-wangchong-dangyang",
+      "source_id": "s-nanshi-054-wangchong-dangyang-ws2063857",
+      "work_title": "南史"
     }
   ],
   "table_occurrences": [],
@@ -733,6 +768,29 @@
       }
     },
     {
+      "chapter_id": "c-nanshi-054-wangchong-dangyang",
+      "work_id": "w-nanshi",
+      "book_id": "b-nanshi-054",
+      "source_id": "s-nanshi-054-wangchong-dangyang-ws2063857",
+      "source": {
+        "title": "南史卷五十四·尋陽王大心",
+        "provider": "Wikisource",
+        "permalink": "https://zh.wikisource.org/w/index.php?oldid=2063857",
+        "url": "https://zh.wikisource.org/w/index.php?oldid=2063857",
+        "revision_id": 2063857,
+        "edition": "維基文庫固定修訂",
+        "accessed_on": "2026-11-21",
+        "review_status": "text_checked",
+        "image_verified": false,
+        "rights": "古代原文；數位轉錄依維基文庫授權。",
+        "license_url": "https://creativecommons.org/licenses/by-sa/4.0/",
+        "extent": "南史卷五十四·尋陽王大心",
+        "text_scope": "partial_chapter",
+        "raw_path": "source-evidence/chenshu017-wangyuan/nanshi054-ws2063857.wikitext",
+        "raw_file_sha256": "7b7f56f3400ac8be18786d2473e138b9f6cb8728448633b7aeeeddf898bc0d5e"
+      }
+    },
+    {
       "chapter_id": "c-wenxiantongkao-258-yongjia-yuyao-marriages",
       "work_id": "w-wenxiantongkao",
       "book_id": "b-wenxiantongkao-258",
@@ -960,6 +1018,41 @@
       "model": null
     },
     {
+      "id": "a-chen017-daxin-father",
+      "subject_person_id": "rtd_v0b_nyn_E",
+      "object_person_id": "rtd_v0b_nyn",
+      "predicate": "father",
+      "qualifiers": {
+        "source_term": "簡文第二子",
+        "lineage": "paternal",
+        "birth_order": {
+          "parent_person_id": "rtd_v0b_nyn",
+          "ordinal": 2,
+          "scope": "sons_of_parent",
+          "position": "unspecified",
+          "source_term": "第二子",
+          "interpretation_status": "source_attested"
+        }
+      },
+      "evidence": [
+        {
+          "work_id": "w-nanshi",
+          "book_id": "b-nanshi-054",
+          "chapter_id": "c-nanshi-054-wangchong-dangyang",
+          "source_id": "s-nanshi-054-wangchong-dangyang-ws2063857",
+          "paragraph_id": "c-nanshi-054-wangchong-dangyang:p001",
+          "quote": "尋陽王大心字仁恕，簡文第二子也。",
+          "subject_person_mention_id": "c-nanshi-054-wangchong-dangyang:p001:m0003",
+          "object_person_mention_id": "c-nanshi-054-wangchong-dangyang:p001:m0009"
+        }
+      ],
+      "status": "source_attested",
+      "interpretation_note": "尋陽王大心為梁簡文帝第二子，本段續記以皇孫封當陽縣公。",
+      "reviewer": "Codex（AI代理）",
+      "model": null,
+      "human_reviewed": false
+    },
+    {
       "id": "a-nan023-wangfen-later-yuyao-father",
       "subject_person_id": "rtd_v0b_nyn_B",
       "object_person_id": "rtd_v0b_nyn",
@@ -994,7 +1087,8 @@
     "rtd_v0b_nyn_A": "蕭大器（宣城王，哀太子）",
     "rtd_v0b_nyn_B": "梁余姚公主（王溥妻）",
     "rtd_v0b_nyn_C": "蕭大連（梁南郡王，字仁靖）",
-    "rtd_v0b_nyn_D": "蕭妙䂮（梁長山公主，南史作妙挈）"
+    "rtd_v0b_nyn_D": "蕭妙䂮（梁長山公主，南史作妙挈）",
+    "rtd_v0b_nyn_E": "蕭大心（梁尋陽王，初封當陽公）"
   },
   "dates": [],
   "name_components": [],
@@ -1595,6 +1689,41 @@
       "reviewer": "Codex（AI 代理）",
       "human_reviewed": false,
       "model": null
+    },
+    {
+      "id": "a-chen017-daxin-father",
+      "subject_person_id": "rtd_v0b_nyn_E",
+      "object_person_id": "rtd_v0b_nyn",
+      "predicate": "father",
+      "qualifiers": {
+        "source_term": "簡文第二子",
+        "lineage": "paternal",
+        "birth_order": {
+          "parent_person_id": "rtd_v0b_nyn",
+          "ordinal": 2,
+          "scope": "sons_of_parent",
+          "position": "unspecified",
+          "source_term": "第二子",
+          "interpretation_status": "source_attested"
+        }
+      },
+      "evidence": [
+        {
+          "work_id": "w-nanshi",
+          "book_id": "b-nanshi-054",
+          "chapter_id": "c-nanshi-054-wangchong-dangyang",
+          "source_id": "s-nanshi-054-wangchong-dangyang-ws2063857",
+          "paragraph_id": "c-nanshi-054-wangchong-dangyang:p001",
+          "quote": "尋陽王大心字仁恕，簡文第二子也。",
+          "subject_person_mention_id": "c-nanshi-054-wangchong-dangyang:p001:m0003",
+          "object_person_mention_id": "c-nanshi-054-wangchong-dangyang:p001:m0009"
+        }
+      ],
+      "status": "source_attested",
+      "interpretation_note": "尋陽王大心為梁簡文帝第二子，本段續記以皇孫封當陽縣公。",
+      "reviewer": "Codex（AI代理）",
+      "model": null,
+      "human_reviewed": false
     },
     {
       "id": "a-nan023-wangfen-later-yuyao-father",
