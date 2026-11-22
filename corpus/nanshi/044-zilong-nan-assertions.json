@@ -1,0 +1,74 @@
+{
+  "format_version": "0.2",
+  "record_type": "person_assertion_set",
+  "chapter_id": "c-nanshi-044-zilong-nan",
+  "assertions": [
+    {
+      "id": "a-nanqi040-zilong-nan-father",
+      "subject_person_id": "7r6_k52_qji_ABAAAAEAAC",
+      "object_person_id": "7r6_k52_qji_ABAAAAEAA",
+      "predicate": "father",
+      "qualifiers": {
+        "source_term": "王儉女",
+        "nanqi040_zilong_reading": "nan-father",
+        "lineage": "paternal"
+      },
+      "evidence": [
+        {
+          "work_id": "w-nanshi",
+          "book_id": "b-nanshi-044",
+          "source_id": "s-nanshi-044-zilong-nan-ws2027785",
+          "chapter_id": "c-nanshi-044-zilong-nan",
+          "paragraph_id": "c-nanshi-044-zilong-nan:p001",
+          "quote": "娶尚書令王儉女為妃。武帝以子隆能屬文，謂儉曰：「我家東阿也。」",
+          "subject_person_reference_id": "c-nanshi-044-zilong-nan:p001:r0006",
+          "object_person_mention_id": "c-nanshi-044-zilong-nan:p001:m0004",
+          "relationship_anchor": {
+            "paragraph_id": "c-nanshi-044-zilong-nan:p001",
+            "surface": "王儉女",
+            "start": 4,
+            "end": 7
+          }
+        }
+      ],
+      "status": "source_attested",
+      "interpretation_note": "南史同載王儉之女。",
+      "reviewer": "Codex（AI 代理）",
+      "human_reviewed": false,
+      "model": null
+    },
+    {
+      "id": "a-nanqi040-zilong-nan-wife",
+      "subject_person_id": "4tg_ud8_zdy",
+      "object_person_id": "7r6_k52_qji_ABAAAAEAAC",
+      "predicate": "spouse",
+      "qualifiers": {
+        "source_term": "娶尚書令王儉女為妃",
+        "nanqi040_zilong_reading": "nan-wife"
+      },
+      "evidence": [
+        {
+          "work_id": "w-nanshi",
+          "book_id": "b-nanshi-044",
+          "source_id": "s-nanshi-044-zilong-nan-ws2027785",
+          "chapter_id": "c-nanshi-044-zilong-nan",
+          "paragraph_id": "c-nanshi-044-zilong-nan:p001",
+          "quote": "娶尚書令王儉女為妃。武帝以子隆能屬文，謂儉曰：「我家東阿也。」",
+          "subject_person_mention_id": "c-nanshi-044-zilong-nan:p001:m0013",
+          "object_person_reference_id": "c-nanshi-044-zilong-nan:p001:r0006",
+          "relationship_anchor": {
+            "paragraph_id": "c-nanshi-044-zilong-nan:p001",
+            "surface": "娶尚書令王儉女為妃",
+            "start": 0,
+            "end": 9
+          }
+        }
+      ],
+      "status": "source_attested",
+      "interpretation_note": "原段傳主娶王儉女。",
+      "reviewer": "Codex（AI 代理）",
+      "human_reviewed": false,
+      "model": null
+    }
+  ]
+}

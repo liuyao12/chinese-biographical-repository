@@ -1,0 +1,101 @@
+{
+  "record_type": "fixed_source_complete_item_review",
+  "reviewer": "Codex（AI代理）",
+  "model": null,
+  "human_reviewed": false,
+  "external_witnesses": [],
+  "print_readings": [
+    {
+      "url": "https://upload.wikimedia.org/wikipedia/commons/4/49/NLC892-411999017142-12209_%E4%BA%8C%E5%8D%81%E5%9B%9B%E5%8F%B2_%E7%AC%AC145%E5%86%8A.pdf#page=5",
+      "catalog_record": "https://commons.wikimedia.org/wiki/File:NLC892-411999017142-12209_%E4%BA%8C%E5%8D%81%E5%9B%9B%E5%8F%B2_%E7%AC%AC145%E5%86%8A.pdf",
+      "pdf_sha1": "888def8c99848449305a0142411b32f9b0ca79e8",
+      "pdf_sha256": "5dafc33ab9565bb6f8d44691b15a706f3d4b672c50b837630c79797adbc0b342",
+      "image_sha256": "aeee0024601d09573a29a05fafb703101ae088a4660322a40bac3ac86449500c",
+      "edition": "清乾隆武英殿本《宋書》，國圖第145冊。",
+      "page": 5,
+      "half": "R",
+      "folio": "三下",
+      "columns_from_right": "3、10",
+      "source_quote": "乾秀奪國",
+      "reading": "世祖初得還口吻指徙者，未指乾秀復爵。"
+    }
+  ],
+  "boundaries": [
+    {
+      "book_id": "b-songshu-050",
+      "title": "胡乾秀",
+      "unit_kind": "embedded_account",
+      "chapter_id": "c-songshu-050-huqianxiu",
+      "entry_checked": true,
+      "full_text": true,
+      "first_pass": true,
+      "item_reviewed": true,
+      "source_layout": "wikisource_mixed_indented_prose",
+      "first_line": 26,
+      "last_line": 26,
+      "start_codepoint": 16,
+      "end_codepoint": 21,
+      "opening": "子乾秀嗣。",
+      "closing": "子乾秀嗣。",
+      "continuation_spans": [
+        {
+          "first_line": 26,
+          "last_line": 26,
+          "start_codepoint": 184,
+          "end_codepoint": 189,
+          "opening": "乾秀奪國。",
+          "closing": "乾秀奪國。"
+        }
+      ],
+      "parent_heading": "胡藩",
+      "chapter_path": "corpus/songshu/050-huqianxiu.json",
+      "paragraph_ids": [
+        "c-songshu-050-huqianxiu:p001",
+        "c-songshu-050-huqianxiu:p002"
+      ],
+      "item_review_path": "source-evidence/song050-complete/huqianxiu-reading.json"
+    }
+  ],
+  "chronology": [],
+  "readings": [
+    {
+      "id": "c-songshu-050-huqianxiu:received_sentence1-0",
+      "kind": "received_sentence",
+      "person_id": "otw_1ui_wba_AA",
+      "source_quote": "子乾秀嗣。",
+      "reading": "隆世子乾秀嗣爵。",
+      "note": "隆世子乾秀嗣爵。",
+      "paragraph_id": "c-songshu-050-huqianxiu:p001",
+      "start_codepoint": 0,
+      "end_codepoint": 5,
+      "human_reviewed": false
+    },
+    {
+      "id": "c-songshu-050-huqianxiu:received_sentence2-0",
+      "kind": "received_sentence",
+      "person_id": "otw_1ui_wba_AA",
+      "source_quote": "乾秀奪國。",
+      "reading": "同宗事後乾秀被奪爵國。",
+      "note": "同宗事後乾秀被奪爵國。",
+      "paragraph_id": "c-songshu-050-huqianxiu:p002",
+      "start_codepoint": 0,
+      "end_codepoint": 5,
+      "human_reviewed": false
+    },
+    {
+      "id": "c-songshu-050-huqianxiu:succession2-2",
+      "kind": "succession",
+      "person_id": "otw_1ui_wba_AA",
+      "source_quote": "奪國",
+      "reading": "承祖爵後，誕世等事發並有奪國；本傳未言乾秀自參與攻郡。",
+      "note": "承祖爵後，誕世等事發並有奪國；本傳未言乾秀自參與攻郡。",
+      "paragraph_id": "c-songshu-050-huqianxiu:p002",
+      "start_codepoint": 2,
+      "end_codepoint": 4,
+      "human_reviewed": false,
+      "accused_of_uprising": null,
+      "dated_at": "元嘉二十四年記事後"
+    }
+  ],
+  "identity_limits": []
+}

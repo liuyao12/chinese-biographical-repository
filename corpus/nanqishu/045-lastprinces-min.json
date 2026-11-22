@@ -1,0 +1,272 @@
+{
+  "format_version": "0.2",
+  "record_type": "marked_chapter",
+  "id": "c-nanqishu-045-lastprinces-min",
+  "work_id": "w-nanqishu",
+  "book_id": "b-nanqishu-045",
+  "source_id": "s-nanqishu-045-lastprinces-min-ws2273185",
+  "title": "永陽王子珉本生及所繼世次",
+  "source": {
+    "title": "南齊書卷45·永陽王子珉本生及所繼世次",
+    "provider": "Wikisource",
+    "url": "https://zh.wikisource.org/w/index.php?oldid=2273185",
+    "permalink": "https://zh.wikisource.org/w/index.php?oldid=2273185",
+    "revision_id": 2273185,
+    "accessed_on": "2026-11-21",
+    "edition": "維基文庫固定數位轉錄",
+    "extent": "各原卷所載家世、紀日及本傳異文。",
+    "text_scope": "partial_chapter",
+    "image_verified": false,
+    "review_status": "text_checked",
+    "raw_path": "source-evidence/nanshi019-xietiao/nanqishu045-ws2273185.wikitext",
+    "raw_file_sha256": "9a66e3bb75c98eacffcdaaf3d866e679b06966574e4f5915630697024b9c0a1b",
+    "rights": "古代原典及維基文庫數位轉錄。",
+    "license_url": "https://zh.wikisource.org/wiki/Wikisource:著作權資訊",
+    "normalization": {
+      "character_conversion": {},
+      "extraction_note": "投影相應原句，保留字形；移除年號模板定界符。"
+    },
+    "section_locator": "永陽王子珉本生及所繼世次"
+  },
+  "annotation": {
+    "status": "reviewed",
+    "person_reference_occurrences": [
+      {
+        "id": "c-nanqishu-045-lastprinces-min:p001:r0000",
+        "surface": "明帝",
+        "start": 0,
+        "end": 2,
+        "person_id": "w4m_9tw_147",
+        "referent_role": "third_person",
+        "paragraph_id": "c-nanqishu-045-lastprinces-min:p001",
+        "quote": "明帝卽位，以永陽王子珉仍本國，繼元王爲孫。",
+        "note": "依同段姓名、引者及所答者。"
+      },
+      {
+        "id": "c-nanqishu-045-lastprinces-min:p001:r0016",
+        "surface": "元王",
+        "start": 16,
+        "end": 18,
+        "person_id": "egx_xax_4ic_A",
+        "referent_role": "third_person",
+        "paragraph_id": "c-nanqishu-045-lastprinces-min:p001",
+        "quote": "明帝卽位，以永陽王子珉仍本國，繼元王爲孫。",
+        "note": "依同段姓名、引者及所答者。"
+      },
+      {
+        "id": "c-nanqishu-045-lastprinces-min:p002:r0006",
+        "surface": "世祖",
+        "start": 6,
+        "end": 8,
+        "person_id": "kix_r92_2ed",
+        "referent_role": "third_person",
+        "paragraph_id": "c-nanqishu-045-lastprinces-min:p002",
+        "quote": "子珉字雲璵，世祖第二十子也。永明七年，封義安王，後改永陽。永泰元年見害，年十四。",
+        "note": "依同段姓名、引者及所答者。"
+      }
+    ],
+    "narrative_readings": [
+      {
+        "event_type": "lineage_succession",
+        "person_ids": [
+          "kix_r92_2ed_N",
+          "egx_xax_4ic_A"
+        ],
+        "source_anchor": {
+          "paragraph_id": "c-nanqishu-045-lastprinces-min:p001",
+          "surface": "繼元王爲孫",
+          "start": 15,
+          "end": 20
+        },
+        "evidence": [
+          {
+            "work_id": "w-nanqishu",
+            "book_id": "b-nanqishu-045",
+            "source_id": "s-nanqishu-045-lastprinces-min-ws2273185",
+            "chapter_id": "c-nanqishu-045-lastprinces-min",
+            "paragraph_id": "c-nanqishu-045-lastprinces-min:p001",
+            "quote": "繼元王爲孫"
+          }
+        ],
+        "interpretation_note": "以永陽王繼衡陽元王為孫，原句定孫世；中間一代無名。"
+      }
+    ],
+    "reviewer": "Codex（AI 代理）",
+    "human_reviewed": false,
+    "model": null,
+    "age_assertions": [
+      {
+        "id": "age-nanqi040-lastprinces-min-age",
+        "person_id": "kix_r92_2ed_N",
+        "value": 14,
+        "source_number": "十四",
+        "source_term": "年十四",
+        "source_anchor": {
+          "paragraph_id": "c-nanqishu-045-lastprinces-min:p002",
+          "surface": "年十四",
+          "start": 36,
+          "end": 39
+        },
+        "unit": "source_age_years",
+        "counting": "unspecified_source_age",
+        "birth_year": null,
+        "date_expression": null,
+        "status": "source_attested",
+        "evidence": [
+          {
+            "work_id": "w-nanqishu",
+            "book_id": "b-nanqishu-045",
+            "source_id": "s-nanqishu-045-lastprinces-min-ws2273185",
+            "chapter_id": "c-nanqishu-045-lastprinces-min",
+            "paragraph_id": "c-nanqishu-045-lastprinces-min:p002",
+            "quote": "子珉字雲璵，世祖第二十子也。永明七年，封義安王，後改永陽。永泰元年見害，年十四。",
+            "person_mention_id": "c-nanqishu-045-lastprinces-min:p002:m0000"
+          }
+        ],
+        "age_context": {
+          "kind": "at_death",
+          "life_event_id": "le-nanqi040-lastprinces-min-death"
+        },
+        "reviewer": "Codex（AI 代理）",
+        "human_reviewed": false,
+        "model": null
+      }
+    ]
+  },
+  "paragraphs": [
+    {
+      "id": "c-nanqishu-045-lastprinces-min:p001",
+      "text": "明帝卽位，以永陽王子珉仍本國，繼元王爲孫。",
+      "mentions": [
+        {
+          "id": "c-nanqishu-045-lastprinces-min:p001:m0009",
+          "surface": "子珉",
+          "start": 9,
+          "end": 11,
+          "person_id": "kix_r92_2ed_N",
+          "kind": "person",
+          "status": "contextual_provisional",
+          "interpretation_note": "按本傳及官府原句。"
+        }
+      ],
+      "text_layer": "received_chapter",
+      "annotation_status": "reviewed",
+      "source_position": {
+        "revision_id": 2273185,
+        "source_layer": "received_biography",
+        "first_line": 17,
+        "last_line": 17,
+        "line_start": 2,
+        "line_end": 23,
+        "raw_start": 473,
+        "raw_end": 494,
+        "raw_character_offsets": [
+          473,
+          474,
+          475,
+          476,
+          477,
+          478,
+          479,
+          480,
+          481,
+          482,
+          483,
+          484,
+          485,
+          486,
+          487,
+          488,
+          489,
+          490,
+          491,
+          492,
+          493
+        ],
+        "projection_sha256": "2106bc20f78223e7038c7adda0c268b3efde6b56a6230a07a367d94ccd09e7c0"
+      }
+    },
+    {
+      "id": "c-nanqishu-045-lastprinces-min:p002",
+      "text": "子珉字雲璵，世祖第二十子也。永明七年，封義安王，後改永陽。永泰元年見害，年十四。",
+      "mentions": [
+        {
+          "id": "c-nanqishu-045-lastprinces-min:p002:m0000",
+          "surface": "子珉",
+          "start": 0,
+          "end": 2,
+          "person_id": "kix_r92_2ed_N",
+          "kind": "person",
+          "status": "contextual_provisional",
+          "interpretation_note": "按本傳及官府原句。"
+        },
+        {
+          "id": "c-nanqishu-045-lastprinces-min:p002:m0003",
+          "surface": "雲璵",
+          "start": 3,
+          "end": 5,
+          "person_id": "kix_r92_2ed_N",
+          "kind": "person",
+          "status": "contextual_provisional",
+          "interpretation_note": "按本傳及官府原句。"
+        }
+      ],
+      "text_layer": "received_chapter",
+      "annotation_status": "reviewed",
+      "source_position": {
+        "revision_id": 2273185,
+        "source_layer": "received_biography",
+        "first_line": 19,
+        "last_line": 19,
+        "line_start": 2,
+        "line_end": 61,
+        "raw_start": 498,
+        "raw_end": 557,
+        "raw_character_offsets": [
+          498,
+          499,
+          500,
+          501,
+          502,
+          503,
+          504,
+          505,
+          506,
+          507,
+          508,
+          509,
+          510,
+          511,
+          517,
+          518,
+          519,
+          520,
+          523,
+          524,
+          525,
+          526,
+          527,
+          528,
+          529,
+          530,
+          531,
+          532,
+          533,
+          539,
+          540,
+          541,
+          542,
+          550,
+          551,
+          552,
+          553,
+          554,
+          555,
+          556
+        ],
+        "projection_sha256": "b945bb03b68cece04a90e6a83464810944dd1d0b72cb3877c17d641c5930f8b7"
+      }
+    }
+  ],
+  "text_sha256": "74ec961c4dd08b1309088bc531fc722e15ce7a79fe844f96a278e7d7c7979148"
+}

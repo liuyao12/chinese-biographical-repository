@@ -22,6 +22,14 @@ def unassumed_role(proposal, paragraph):
 
 
 def unassumed_appointment_valid(proposal, chapter):
+    if chapter.get('id') == 'c-nanqishu-040-zilong':
+        try: from scripts.nanqi040_zilong import proposal_valid as q40zlong_proposal_valid
+        except ImportError: from nanqi040_zilong import proposal_valid as q40zlong_proposal_valid
+        return q40zlong_proposal_valid(proposal, chapter)
+    if chapter.get('id') == 'c-nanqishu-040-zimao':
+        try: from scripts.nanqi040_zimao import proposal_valid as q40zm_proposal_valid
+        except ImportError: from nanqi040_zimao import proposal_valid as q40zm_proposal_valid
+        return q40zm_proposal_valid(proposal, chapter)
     if chapter.get('id') == 'c-nanqishu-040-ziqing':
         try: from scripts.nanqi040_ziqing import proposal_valid as q40zq_proposal_valid
         except ImportError: from nanqi040_ziqing import proposal_valid as q40zq_proposal_valid
@@ -36,7 +44,8 @@ def unassumed_appointment_valid(proposal, chapter):
         return q40zl_proposal_valid(proposal, chapter)
     if chapter.get('id') in ('c-liangshu-027-daoqia-complete', 'c-liangshu-027-mingshanbin-complete',
                              'c-liangshu-027-yinjun-complete', 'c-liangshu-028-peizhili-complete',
-                             'c-liangshu-028-peizhiping-complete', 'c-nanshi-058-peizhiping-death'):
+                             'c-liangshu-028-peizhiping-complete', 'c-liangshu-028-peisui-complete',
+                             'c-nanshi-058-peizhiping-death'):
         try: from scripts.liang_appointments import valid as liang_appointment_valid
         except ImportError: from liang_appointments import valid as liang_appointment_valid
         return liang_appointment_valid(proposal, chapter)

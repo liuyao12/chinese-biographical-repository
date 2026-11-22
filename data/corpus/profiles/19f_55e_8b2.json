@@ -929,6 +929,29 @@
   "table_occurrences": [],
   "sources": [
     {
+      "chapter_id": "c-beishi-016-kangzu-mingyuan",
+      "work_id": "w-beishi",
+      "book_id": "b-beishi-016",
+      "source_id": "s-beishi-016-kangzu-mingyuan-ws1518816",
+      "source": {
+        "title": "明元皇帝七男中的永昌王健",
+        "provider": "Wikisource",
+        "permalink": "https://zh.wikisource.org/w/index.php?oldid=1518816",
+        "url": "https://zh.wikisource.org/w/index.php?oldid=1518816",
+        "revision_id": 1518816,
+        "edition": "維基文庫固定修訂",
+        "accessed_on": "2026-11-21",
+        "review_status": "text_checked",
+        "image_verified": false,
+        "rights": "古代原文；數位轉錄依維基文庫授權。",
+        "license_url": "https://creativecommons.org/licenses/by-sa/4.0/",
+        "extent": "明元皇帝七男中的永昌王健",
+        "text_scope": "partial_chapter",
+        "raw_path": "source-evidence/song050-complete/external/beishi016-ws1518816.wikitext",
+        "raw_file_sha256": "31f16446a22a4b19b5730ceb3561bbb047a47d71283ccb08b0e30b23ded70adf"
+      }
+    },
+    {
       "chapter_id": "c-beishi-021-cuihong",
       "work_id": "w-beishi",
       "book_id": "b-beishi-021",
@@ -1028,6 +1051,42 @@
       }
     },
     {
+      "chapter_id": "c-weishu-weishou-017-kangzu-yongchang",
+      "work_id": "w-weishu-weishou",
+      "book_id": "b-weishu-weishou-017",
+      "source_id": "s-weishu-weishou-017-kangzu-yongchang-ws1550394",
+      "source": {
+        "title": "永昌王健與嗣子仁",
+        "provider": "Wikisource",
+        "permalink": "https://zh.wikisource.org/w/index.php?oldid=1550394",
+        "url": "https://zh.wikisource.org/w/index.php?oldid=1550394",
+        "revision_id": 1550394,
+        "edition": "維基文庫固定修訂",
+        "accessed_on": "2026-11-21",
+        "review_status": "text_checked",
+        "image_verified": false,
+        "rights": "古代原文；數位轉錄依維基文庫授權。",
+        "license_url": "https://creativecommons.org/licenses/by-sa/4.0/",
+        "extent": "永昌王健與嗣子仁",
+        "text_scope": "partial_chapter",
+        "raw_path": "source-evidence/song050-complete/external/weishu017-ws1550394.wikitext",
+        "raw_file_sha256": "8142ad75c09f413e0f0d2e3218caaadd08f3830bf21b3028bdf4bdac8418c23a",
+        "normalization": {
+          "verified_blank_line_gaps": [
+            {
+              "source_lines": [
+                21,
+                21
+              ],
+              "raw_quote": "",
+              "raw_quote_sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+              "revision_id": 1550394
+            }
+          ]
+        }
+      }
+    },
+    {
       "chapter_id": "c-weishu-weishou-024-cuixuanbo",
       "work_id": "w-weishu-weishou",
       "book_id": "b-weishu-weishou-024",
@@ -1119,6 +1178,36 @@
   ],
   "relations": [
     {
+      "id": "a-song050-yongchang-jian-si",
+      "predicate": "father",
+      "subject_person_id": "19f_55e_8b2_A",
+      "object_person_id": "19f_55e_8b2",
+      "qualifiers": {
+        "lineage": "paternal",
+        "source_term": "尹夫人生永昌莊王健",
+        "reading_basis": {
+          "kind": "mingyuan_seven_sons_yongchang"
+        }
+      },
+      "status": "source_attested",
+      "interpretation_note": "明元皇帝七男名單，以尹夫人所生永昌莊王健為其中一人。明元紀具名嗣並詳皇子受封；北史與今本魏書王傳源流有關。",
+      "evidence": [
+        {
+          "work_id": "w-beishi",
+          "book_id": "b-beishi-016",
+          "chapter_id": "c-beishi-016-kangzu-mingyuan",
+          "source_id": "s-beishi-016-kangzu-mingyuan-ws1518816",
+          "paragraph_id": "c-beishi-016-kangzu-mingyuan:p001",
+          "quote": "明元皇帝七男：杜密皇后生太武皇帝；大慕容夫人生樂平戾王丕；安定殤王彌闕母氏；慕容夫人生樂安宣王範；尹夫人生永昌莊王健；建甯王崇、新興王俊二王並闕母氏。",
+          "subject_person_mention_id": "c-beishi-016-kangzu-mingyuan:p001:m0057",
+          "object_person_reference_id": "c-beishi-016-kangzu-mingyuan:p001:r0000"
+        }
+      ],
+      "reviewer": "Codex（AI代理）",
+      "model": null,
+      "human_reviewed": false
+    },
+    {
       "id": "a-weishu035-recovery-012",
       "subject_person_id": "d10_1e6_850",
       "object_person_id": "19f_55e_8b2",
@@ -1185,12 +1274,28 @@
   ],
   "related_people": {
     "19f_55e_8b2": "北魏太宗明元帝嗣",
+    "19f_55e_8b2_A": "拓跋健（北魏明元帝子，永昌莊王）",
     "d10_1e6_850": "北魏世祖太武帝燾",
     "yd9_rqt_a0v_AAB": "崔浩"
   },
   "dates": [],
   "name_components": [],
   "person_references": [
+    {
+      "id": "c-beishi-016-kangzu-mingyuan:p001:r0000",
+      "paragraph_id": "c-beishi-016-kangzu-mingyuan:p001",
+      "start": 0,
+      "end": 4,
+      "surface": "明元皇帝",
+      "person_id": "19f_55e_8b2",
+      "referent_role": "third_person",
+      "quote": "明元皇帝七男：杜密皇后生太武皇帝；大慕容夫人生樂平戾王丕；安定殤王彌闕母氏；慕容夫人生樂安宣王範；尹夫人生永昌莊王健；建甯王崇、新興王俊二王並闕母氏。",
+      "note": "依本段敘事、稱謂及語者受者定。",
+      "chapter_id": "c-beishi-016-kangzu-mingyuan",
+      "book_id": "b-beishi-016",
+      "work_id": "w-beishi",
+      "source_id": "s-beishi-016-kangzu-mingyuan-ws1518816"
+    },
     {
       "id": "c-weishu-weishou-013-mingyuanyao-marriage:p001:r0022",
       "paragraph_id": "c-weishu-weishou-013-mingyuanyao-marriage:p001",
@@ -1205,12 +1310,57 @@
       "book_id": "b-weishu-weishou-013",
       "work_id": "w-weishu-weishou",
       "source_id": "s-weishu-weishou-013-mingyuanyao-marriage-ws2100436"
+    },
+    {
+      "id": "c-weishu-weishou-017-kangzu-yongchang:p001:r0000",
+      "paragraph_id": "c-weishu-weishou-017-kangzu-yongchang:p001",
+      "start": 0,
+      "end": 4,
+      "surface": "明元皇帝",
+      "person_id": "19f_55e_8b2",
+      "referent_role": "third_person",
+      "quote": "明元皇帝七男：杜密皇后生世祖太武皇帝。大慕容夫人生樂平戾王丕。安定殤王彌闕母氏。慕容夫人生樂安宣王範。尹夫人生永昌莊王健。",
+      "note": "依本段敘事、稱謂及語者受者定。",
+      "chapter_id": "c-weishu-weishou-017-kangzu-yongchang",
+      "book_id": "b-weishu-weishou-017",
+      "work_id": "w-weishu-weishou",
+      "source_id": "s-weishu-weishou-017-kangzu-yongchang-ws1550394"
     }
   ],
   "person_ids": [
     "19f_55e_8b2"
   ],
   "preferred_relations": [
+    {
+      "id": "a-song050-yongchang-jian-si",
+      "predicate": "father",
+      "subject_person_id": "19f_55e_8b2_A",
+      "object_person_id": "19f_55e_8b2",
+      "qualifiers": {
+        "lineage": "paternal",
+        "source_term": "尹夫人生永昌莊王健",
+        "reading_basis": {
+          "kind": "mingyuan_seven_sons_yongchang"
+        }
+      },
+      "status": "source_attested",
+      "interpretation_note": "明元皇帝七男名單，以尹夫人所生永昌莊王健為其中一人。明元紀具名嗣並詳皇子受封；北史與今本魏書王傳源流有關。",
+      "evidence": [
+        {
+          "work_id": "w-beishi",
+          "book_id": "b-beishi-016",
+          "chapter_id": "c-beishi-016-kangzu-mingyuan",
+          "source_id": "s-beishi-016-kangzu-mingyuan-ws1518816",
+          "paragraph_id": "c-beishi-016-kangzu-mingyuan:p001",
+          "quote": "明元皇帝七男：杜密皇后生太武皇帝；大慕容夫人生樂平戾王丕；安定殤王彌闕母氏；慕容夫人生樂安宣王範；尹夫人生永昌莊王健；建甯王崇、新興王俊二王並闕母氏。",
+          "subject_person_mention_id": "c-beishi-016-kangzu-mingyuan:p001:m0057",
+          "object_person_reference_id": "c-beishi-016-kangzu-mingyuan:p001:r0000"
+        }
+      ],
+      "reviewer": "Codex（AI代理）",
+      "model": null,
+      "human_reviewed": false
+    },
     {
       "id": "a-weishu035-recovery-012",
       "subject_person_id": "d10_1e6_850",

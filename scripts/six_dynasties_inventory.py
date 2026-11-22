@@ -34,6 +34,18 @@ def source_paragraphs(lines, layout=None):
         year='{{YL|建元元年|479年}}'
         assert sum(line.count(year) for line in lines)==1
         return [received_text(line.replace(year,'建元元年')) for line in lines]
+    if layout == 'qi040_zijing_jiujiang':
+        assert len(lines)==1 and lines[0].count('{{*|征九江}}')==1
+        return [received_text(lines[0].replace('{{*|征九江}}','征九江'))]
+    if layout == 'qi040_ziming_yanxing_year':
+        assert len(lines)==1 and lines[0].count('{{YL|延興元年|494年}}')==1
+        return [received_text(lines[0].replace('{{YL|延興元年|494年}}','延興元年'))]
+    if layout == 'qi040_five_prince_heading':
+        headings = ('西陽王子文', '衡陽王子峻', '南康王子琳', '湘東王子建', '南郡王子夏')
+        assert len(lines) in (1, 2)
+        assert any(lines[0].startswith("'''" + title + "'''") for title in headings)
+        assert sum(line.count("'''") for line in lines) == 2
+        return [received_text(line.replace("'''", '').replace('{{YL|永泰元年|498年}}', '永泰元年')) for line in lines]
     if layout == 'zhanglihua_annotated_zhide_year':
         raw_year = '{{YL|至德二年|584年}}'
         assert sum(t.count(raw_year) for t in lines) == 1
@@ -196,6 +208,26 @@ def source_paragraphs(lines, layout=None):
             from scripts.sanguozhi060_layers import project_line
         except ImportError:
             from sanguozhi060_layers import project_line
+        return [body for line in lines if (body:=project_line(line)[0])]
+    if layout=='sanguozhi061_contiguous_slice':
+        try: from scripts.sanguozhi061_slices import slice_text
+        except ImportError: from sanguozhi061_slices import slice_text
+        return [slice_text(line) for line in lines if line]
+    if layout == 'sanguozhi061_received_with_pei_notes':
+        try:
+            from scripts.sanguozhi061_layers import project_line
+        except ImportError:
+            from sanguozhi061_layers import project_line
+        return [body for line in lines if (body:=project_line(line)[0])]
+    if layout=='sanguozhi062_contiguous_slice':
+        try: from scripts.sanguozhi062_slices import slice_text
+        except ImportError: from sanguozhi062_slices import slice_text
+        return [slice_text(line) for line in lines if line]
+    if layout == 'sanguozhi062_received_with_pei_notes':
+        try:
+            from scripts.sanguozhi062_layers import project_line
+        except ImportError:
+            from sanguozhi062_layers import project_line
         return [body for line in lines if (body:=project_line(line)[0])]
     if layout == 'jin065_indented_text':
         paragraphs = []

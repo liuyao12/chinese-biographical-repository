@@ -105,6 +105,54 @@
       "reviewer": "Codex（AI 代理）",
       "model": null,
       "period": "未定 → 未定"
+    },
+    {
+      "id": "t-wu062-t-wu062-huzong9",
+      "person_id": "713_glb_bhv",
+      "kind": "office",
+      "title": "蘄春太守",
+      "mode": "attestation",
+      "status": "source_attested",
+      "effective_period": {
+        "start": {
+          "status": "unknown",
+          "date_expression": null,
+          "evidence": []
+        },
+        "end": {
+          "status": "unknown",
+          "date_expression": null,
+          "evidence": []
+        }
+      },
+      "interpretation_note": "本句所載職官，任免時間未詳。",
+      "evidence": [
+        {
+          "work_id": "w-sanguozhi",
+          "book_id": "b-sanguozhi-062",
+          "chapter_id": "c-sanguozhi-062-huzong",
+          "source_id": "s-sanguozhi-062-huzong",
+          "paragraph_id": "c-sanguozhi-062-huzong:line022",
+          "quote": "　　胡綜字偉則。汝南固始人也。少孤，母將避難江東。孫策領會稽太守，綜年十四，為門下循行，留吳與孫權共讀書。策薨，權為討虜將軍，以綜為金曹從事，從討黃祖，拜鄂長。權為將軍，都京，召綜還，為書部。與是儀、徐詳俱典軍國密事。劉備下白帝，權以見兵少，使綜料諸縣，得六千人，立解煩兩部，詳領左部、綜領右部督。吳將晉宗叛歸魏，魏以宗為蘄春太守，去江數百里，數為寇害。權使綜與賀齊輕行掩襲，生虜得宗。加建武中郎將。魏拜權為吳王，封綜、儀、詳皆為亭侯。",
+          "person_mention_id": "c-sanguozhi-062-huzong:line022:m0151"
+        }
+      ],
+      "attestations": [
+        {
+          "id": "t-wu062-t-wu062-huzong9:a",
+          "paragraph_id": "c-sanguozhi-062-huzong:line022",
+          "person_mention_id": "c-sanguozhi-062-huzong:line022:m0151",
+          "start": 161,
+          "end": 165,
+          "surface": "蘄春太守",
+          "usage": "narrative",
+          "date_expression": null
+        }
+      ],
+      "human_reviewed": false,
+      "reviewer": "Codex（AI 代理）",
+      "model": null,
+      "period": "未定 → 未定"
     }
   ],
   "addresses": [],
@@ -152,6 +200,59 @@
       "chapter_id": "c-sanguozhi-060-heqi",
       "source_id": "s-sanguozhi-060-heqi",
       "work_title": "三國志"
+    },
+    {
+      "number": 62,
+      "category": "",
+      "title": "胡綜傳",
+      "paragraph_id": "c-sanguozhi-062-huzong:line022",
+      "count": 3,
+      "raw_count": 3,
+      "duplicate_count": 0,
+      "counting_policy": "independent_fixed_witness_occurrences",
+      "quote": "以見兵少，使綜料諸縣，得六千人，立解煩兩部，詳領左部、綜領右部督。吳將晉宗叛歸魏，魏以宗為蘄春太守，去江數百里，數為寇害。權使綜與賀齊輕行掩襲，生虜得宗。加建武中郎將。魏拜權為吳王，封綜、儀、詳皆為亭侯。",
+      "paragraph_ids": [
+        "c-sanguozhi-062-huzong:line022"
+      ],
+      "mention_ids": [
+        "c-sanguozhi-062-huzong:line022:m0151",
+        "c-sanguozhi-062-huzong:line022:m0159",
+        "c-sanguozhi-062-huzong:line022:m0191"
+      ],
+      "mention_paragraph_ids": {
+        "c-sanguozhi-062-huzong:line022:m0151": "c-sanguozhi-062-huzong:line022",
+        "c-sanguozhi-062-huzong:line022:m0159": "c-sanguozhi-062-huzong:line022",
+        "c-sanguozhi-062-huzong:line022:m0191": "c-sanguozhi-062-huzong:line022"
+      },
+      "mention_id": "c-sanguozhi-062-huzong:line022:m0151",
+      "occurrence_groups": [
+        {
+          "canonical_mention_id": "c-sanguozhi-062-huzong:line022:m0151",
+          "mention_ids": [
+            "c-sanguozhi-062-huzong:line022:m0151"
+          ],
+          "kind": "paragraph"
+        },
+        {
+          "canonical_mention_id": "c-sanguozhi-062-huzong:line022:m0159",
+          "mention_ids": [
+            "c-sanguozhi-062-huzong:line022:m0159"
+          ],
+          "kind": "paragraph"
+        },
+        {
+          "canonical_mention_id": "c-sanguozhi-062-huzong:line022:m0191",
+          "mention_ids": [
+            "c-sanguozhi-062-huzong:line022:m0191"
+          ],
+          "kind": "paragraph"
+        }
+      ],
+      "work_id": "w-sanguozhi",
+      "book_id": "b-sanguozhi-062",
+      "chapter_id": "c-sanguozhi-062-huzong",
+      "source_id": "s-sanguozhi-062-huzong",
+      "work_title": "三國志"
     }
   ],
   "table_occurrences": [],
@@ -180,6 +281,33 @@
         "wikitext_sha256": "79a52b4bca550c12a1020750b4464bdc2476fcbb376e67fd22a0bc03f713e8e6",
         "collation_witnesses": [
           "source-evidence/sanguozhi060-heqi/reading.json"
+        ]
+      }
+    },
+    {
+      "chapter_id": "c-sanguozhi-062-huzong",
+      "work_id": "w-sanguozhi",
+      "book_id": "b-sanguozhi-062",
+      "source_id": "s-sanguozhi-062-huzong",
+      "source": {
+        "title": "三國志卷六十二·吳書十七",
+        "provider": "Wikisource",
+        "url": "https://zh.wikisource.org/w/index.php?oldid=2623289",
+        "permalink": "https://zh.wikisource.org/w/index.php?oldid=2623289",
+        "revision_id": 2623289,
+        "accessed_on": "2026-11-21",
+        "edition": "維基文庫固定修訂，裴注與正文分層。",
+        "extent": "第22至44行。",
+        "text_scope": "partial_chapter",
+        "review_status": "text_checked",
+        "image_verified": false,
+        "rights": "古籍原文，維基文庫轉錄。",
+        "license_url": "https://creativecommons.org/licenses/by-sa/4.0/",
+        "raw_path": "source-evidence/sanguozhi062-shi-hu/sanguozhi062-ws2623289.wikitext",
+        "raw_file_sha256": "95a124379b4fc13ef0b861043fe72cb555869267b679a85cdb840a71113867a0",
+        "wikitext_sha256": "95a124379b4fc13ef0b861043fe72cb555869267b679a85cdb840a71113867a0",
+        "collation_witnesses": [
+          "source-evidence/sanguozhi062-huzong/reading.json"
         ]
       }
     }
