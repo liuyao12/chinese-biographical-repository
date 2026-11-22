@@ -1,0 +1,261 @@
+{
+  "schema_version": 1,
+  "id": "2tc_k94_k5u",
+  "canonical_person_id": "2tc_k94_k5u",
+  "label": "蕭寶貞（桂陽王）",
+  "identity_note": "蕭寶貞（桂陽王），見本組原文及身份互校。",
+  "review": "ai_provisional",
+  "names": [
+    "桂陽王寶貞"
+  ],
+  "titles": [],
+  "addresses": [],
+  "occurrences": [
+    {
+      "number": 50,
+      "category": "",
+      "title": "南齊書卷五十·文惠太子二王及明帝七王",
+      "paragraph_id": "c-nanqishu-050-princes-complete:p005",
+      "count": 2,
+      "raw_count": 2,
+      "duplicate_count": 0,
+      "counting_policy": "independent_fixed_witness_occurrences",
+      "quote": "隱王寶義，晉熙王寶嵩；袁貴妃生廬陵王寶源；管淑妃生邵陵王寶攸；許淑媛生桂陽王寶貞。餘皆早夭。",
+      "paragraph_ids": [
+        "c-nanqishu-050-princes-complete:p005",
+        "c-nanqishu-050-princes-complete:p015"
+      ],
+      "mention_ids": [
+        "c-nanqishu-050-princes-complete:p005:m0074",
+        "c-nanqishu-050-princes-complete:p015:m0002"
+      ],
+      "mention_paragraph_ids": {
+        "c-nanqishu-050-princes-complete:p005:m0074": "c-nanqishu-050-princes-complete:p005",
+        "c-nanqishu-050-princes-complete:p015:m0002": "c-nanqishu-050-princes-complete:p015"
+      },
+      "mention_id": "c-nanqishu-050-princes-complete:p005:m0074",
+      "occurrence_groups": [
+        {
+          "canonical_mention_id": "c-nanqishu-050-princes-complete:p005:m0074",
+          "mention_ids": [
+            "c-nanqishu-050-princes-complete:p005:m0074"
+          ],
+          "kind": "paragraph"
+        },
+        {
+          "canonical_mention_id": "c-nanqishu-050-princes-complete:p015:m0002",
+          "mention_ids": [
+            "c-nanqishu-050-princes-complete:p015:m0002"
+          ],
+          "kind": "paragraph"
+        }
+      ],
+      "work_id": "w-nanqishu",
+      "book_id": "b-nanqishu-050",
+      "chapter_id": "c-nanqishu-050-princes-complete",
+      "source_id": "s-nanqishu-050-princes-complete-ws2272731",
+      "work_title": "南齊書"
+    }
+  ],
+  "table_occurrences": [],
+  "sources": [
+    {
+      "chapter_id": "c-nanqishu-050-princes-complete",
+      "work_id": "w-nanqishu",
+      "book_id": "b-nanqishu-050",
+      "source_id": "s-nanqishu-050-princes-complete-ws2272731",
+      "source": {
+        "title": "南齊書卷五十·文惠太子二王及明帝七王",
+        "provider": "Wikisource",
+        "permalink": "https://zh.wikisource.org/w/index.php?oldid=2272731",
+        "url": "https://zh.wikisource.org/w/index.php?oldid=2272731",
+        "revision_id": 2272731,
+        "edition": "維基文庫固定修訂",
+        "accessed_on": "2026-11-21",
+        "review_status": "text_checked",
+        "image_verified": false,
+        "rights": "古代原文；數位轉錄依維基文庫授權。",
+        "license_url": "https://creativecommons.org/licenses/by-sa/4.0/",
+        "extent": "南齊書卷五十·文惠太子二王及明帝七王",
+        "text_scope": "complete_biography_unit",
+        "raw_path": "source-evidence/nanshi019-xietiao/nanqishu050-ws2272731.wikitext",
+        "raw_file_sha256": "2459124c61a488a22b5213cfefd1ca38d0015243f9471998260692781a016207",
+        "collation_witnesses": [
+          "source-evidence/nanqi050-roll/princes-reading.json"
+        ]
+      }
+    }
+  ],
+  "relations": [
+    {
+      "id": "a-qi050-baozhen-father",
+      "subject_person_id": "2tc_k94_k5u",
+      "object_person_id": "w4m_9tw_147",
+      "predicate": "father",
+      "qualifiers": {
+        "source_term": "明帝十一男",
+        "lineage": "paternal"
+      },
+      "evidence": [
+        {
+          "work_id": "w-nanqishu",
+          "book_id": "b-nanqishu-050",
+          "chapter_id": "c-nanqishu-050-princes-complete",
+          "source_id": "s-nanqishu-050-princes-complete-ws2272731",
+          "paragraph_id": "c-nanqishu-050-princes-complete:p005",
+          "quote": "　　明帝十一男：敬皇后生東昏侯寶卷，江夏王寶玄，鄱陽王寶寅，和帝；殷貴嬪生巴陵隱王寶義，晉熙王寶嵩；袁貴妃生廬陵王寶源；管淑妃生邵陵王寶攸；許淑媛生桂陽王寶貞。餘皆早夭。",
+          "subject_person_mention_id": "c-nanqishu-050-princes-complete:p005:m0074",
+          "object_person_mention_id": "c-nanqishu-050-princes-complete:p005:m0002"
+        }
+      ],
+      "status": "source_attested",
+      "interpretation_note": "人物見本卷傳首所列諸男。",
+      "reviewer": "Codex（AI代理）",
+      "model": null,
+      "human_reviewed": false
+    },
+    {
+      "id": "a-qi050-baozhen-mother",
+      "subject_person_id": "2tc_k94_k5u",
+      "object_person_id": "s66_zi1_2rk",
+      "predicate": "mother",
+      "qualifiers": {
+        "source_term": "許淑媛生桂陽王寶貞",
+        "lineage": "maternal"
+      },
+      "evidence": [
+        {
+          "work_id": "w-nanqishu",
+          "book_id": "b-nanqishu-050",
+          "chapter_id": "c-nanqishu-050-princes-complete",
+          "source_id": "s-nanqishu-050-princes-complete-ws2272731",
+          "paragraph_id": "c-nanqishu-050-princes-complete:p005",
+          "quote": "　　明帝十一男：敬皇后生東昏侯寶卷，江夏王寶玄，鄱陽王寶寅，和帝；殷貴嬪生巴陵隱王寶義，晉熙王寶嵩；袁貴妃生廬陵王寶源；管淑妃生邵陵王寶攸；許淑媛生桂陽王寶貞。餘皆早夭。",
+          "subject_person_mention_id": "c-nanqishu-050-princes-complete:p005:m0074",
+          "object_person_mention_id": "c-nanqishu-050-princes-complete:p005:m0070"
+        }
+      ],
+      "status": "source_attested",
+      "interpretation_note": "父系總敘中特別具所生母。",
+      "reviewer": "Codex（AI代理）",
+      "model": null,
+      "human_reviewed": false
+    }
+  ],
+  "related_people": {
+    "2tc_k94_k5u": "蕭寶貞（桂陽王）",
+    "s66_zi1_2rk": "許淑媛（蕭寶貞母）",
+    "w4m_9tw_147": "齊明帝鸞"
+  },
+  "dates": [],
+  "name_components": [],
+  "source_reading_cases": [
+    {
+      "id": "c-nanqishu-050-princes-complete:source_review15-0",
+      "kind": "source_review",
+      "person_id": "2tc_k94_k5u",
+      "source_quote": "　　桂陽王寶貞，明帝第十一子也。永元二年，爲中護軍、北中郎將，領石頭戍事。中興二年，謀反伏誅。",
+      "reading": "寶貞是明帝第十一子。永元二年掌石頭戍事，中興二年伏誅。",
+      "note": "寶貞是明帝第十一子。永元二年掌石頭戍事，中興二年伏誅。",
+      "paragraph_id": "c-nanqishu-050-princes-complete:p015",
+      "start_codepoint": 0,
+      "end_codepoint": 47,
+      "human_reviewed": false,
+      "chapter_id": "c-nanqishu-050-princes-complete",
+      "source_id": "s-nanqishu-050-princes-complete-ws2272731"
+    }
+  ],
+  "person_ids": [
+    "2tc_k94_k5u"
+  ],
+  "preferred_relations": [
+    {
+      "id": "a-qi050-baozhen-father",
+      "subject_person_id": "2tc_k94_k5u",
+      "object_person_id": "w4m_9tw_147",
+      "predicate": "father",
+      "qualifiers": {
+        "source_term": "明帝十一男",
+        "lineage": "paternal"
+      },
+      "evidence": [
+        {
+          "work_id": "w-nanqishu",
+          "book_id": "b-nanqishu-050",
+          "chapter_id": "c-nanqishu-050-princes-complete",
+          "source_id": "s-nanqishu-050-princes-complete-ws2272731",
+          "paragraph_id": "c-nanqishu-050-princes-complete:p005",
+          "quote": "　　明帝十一男：敬皇后生東昏侯寶卷，江夏王寶玄，鄱陽王寶寅，和帝；殷貴嬪生巴陵隱王寶義，晉熙王寶嵩；袁貴妃生廬陵王寶源；管淑妃生邵陵王寶攸；許淑媛生桂陽王寶貞。餘皆早夭。",
+          "subject_person_mention_id": "c-nanqishu-050-princes-complete:p005:m0074",
+          "object_person_mention_id": "c-nanqishu-050-princes-complete:p005:m0002"
+        }
+      ],
+      "status": "source_attested",
+      "interpretation_note": "人物見本卷傳首所列諸男。",
+      "reviewer": "Codex（AI代理）",
+      "model": null,
+      "human_reviewed": false
+    },
+    {
+      "id": "a-qi050-baozhen-mother",
+      "subject_person_id": "2tc_k94_k5u",
+      "object_person_id": "s66_zi1_2rk",
+      "predicate": "mother",
+      "qualifiers": {
+        "source_term": "許淑媛生桂陽王寶貞",
+        "lineage": "maternal"
+      },
+      "evidence": [
+        {
+          "work_id": "w-nanqishu",
+          "book_id": "b-nanqishu-050",
+          "chapter_id": "c-nanqishu-050-princes-complete",
+          "source_id": "s-nanqishu-050-princes-complete-ws2272731",
+          "paragraph_id": "c-nanqishu-050-princes-complete:p005",
+          "quote": "　　明帝十一男：敬皇后生東昏侯寶卷，江夏王寶玄，鄱陽王寶寅，和帝；殷貴嬪生巴陵隱王寶義，晉熙王寶嵩；袁貴妃生廬陵王寶源；管淑妃生邵陵王寶攸；許淑媛生桂陽王寶貞。餘皆早夭。",
+          "subject_person_mention_id": "c-nanqishu-050-princes-complete:p005:m0074",
+          "object_person_mention_id": "c-nanqishu-050-princes-complete:p005:m0070"
+        }
+      ],
+      "status": "source_attested",
+      "interpretation_note": "父系總敘中特別具所生母。",
+      "reviewer": "Codex（AI代理）",
+      "model": null,
+      "human_reviewed": false
+    }
+  ],
+  "age_assertions": [],
+  "life_events": [
+    {
+      "id": "le-qi050-baozhen-death",
+      "person_id": "2tc_k94_k5u",
+      "event_type": "death",
+      "source_term": "伏誅",
+      "source_anchor": {
+        "paragraph_id": "c-nanqishu-050-princes-complete:p015",
+        "start": 44,
+        "end": 46,
+        "surface": "伏誅"
+      },
+      "date_expression": "中興二年",
+      "evidence": [
+        {
+          "work_id": "w-nanqishu",
+          "book_id": "b-nanqishu-050",
+          "chapter_id": "c-nanqishu-050-princes-complete",
+          "source_id": "s-nanqishu-050-princes-complete-ws2272731",
+          "paragraph_id": "c-nanqishu-050-princes-complete:p015",
+          "quote": "　　桂陽王寶貞，明帝第十一子也。永元二年，爲中護軍、北中郎將，領石頭戍事。中興二年，謀反伏誅。",
+          "person_mention_id": "c-nanqishu-050-princes-complete:p015:m0002"
+        }
+      ],
+      "status": "source_attested",
+      "interpretation_note": "按同段人物與次第核所屬卒事。",
+      "reviewer": "Codex（AI代理）",
+      "model": null,
+      "human_reviewed": false
+    }
+  ],
+  "life_event_date_decisions": [],
+  "selected_life_event_dates": []
+}
