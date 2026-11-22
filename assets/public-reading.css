@@ -82,3 +82,7 @@ header > .public-nav { display:flex; flex-wrap:wrap; align-items:center; gap:.2r
   .public-more > div { max-width:100%; }
   .public-more a { white-space:normal; }
 }
+.reading-source-links { display:flex; flex-wrap:wrap; align-items:baseline; gap:.4rem 1rem; margin:.55rem 0; }
+.reading-source-links > p { margin:0; font-size:.9rem; }
+.reading-source-links > details { min-width:0; max-width:100%; padding:.35rem .65rem; }
+.reading-source-links > details[open] { flex-basis:100%; }
