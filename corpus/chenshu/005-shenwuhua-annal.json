@@ -1,0 +1,130 @@
+{
+  "format_version": "0.2",
+  "record_type": "marked_chapter",
+  "id": "c-chenshu-005-shenwuhua-annal",
+  "work_id": "w-chenshu",
+  "book_id": "b-chenshu-005",
+  "source_id": "s-chenshu-005-shenwuhua-annal-ws2374950",
+  "title": "太建元年七月辛卯納妃沈氏",
+  "source": {
+    "title": "陳書卷5·太建元年七月辛卯納妃沈氏",
+    "provider": "Wikisource",
+    "url": "https://zh.wikisource.org/w/index.php?oldid=2374950",
+    "permalink": "https://zh.wikisource.org/w/index.php?oldid=2374950",
+    "revision_id": 2374950,
+    "accessed_on": "2026-11-21",
+    "edition": "維基文庫固定數位轉錄",
+    "extent": "所涉人物原名、實際親屬及紀年。",
+    "text_scope": "partial_chapter",
+    "image_verified": false,
+    "review_status": "text_checked",
+    "raw_path": "sources/chenshu/chenshu005-ws2374950.wikitext",
+    "raw_file_sha256": "f5038d61a89224b9f4ca7922f43c6ff49c083dd1f652a6f6b1ff2fcc9435fa7f",
+    "rights": "古代原典及維基文庫數位轉錄。",
+    "license_url": "https://zh.wikisource.org/wiki/Wikisource:著作權資訊",
+    "normalization": {
+      "character_conversion": {},
+      "extraction_note": "投影相應原句，保留字形；移除年號模板定界符。"
+    },
+    "section_locator": "太建元年七月辛卯納妃沈氏"
+  },
+  "annotation": {
+    "status": "reviewed",
+    "person_reference_occurrences": [
+      {
+        "id": "c-chenshu-005-shenwuhua-annal:p001:r0006",
+        "surface": "皇太子",
+        "start": 6,
+        "end": 9,
+        "person_id": "icd_mkz_d9n_A",
+        "referent_role": "third_person",
+        "paragraph_id": "c-chenshu-005-shenwuhua-annal:p001",
+        "quote": "秋七月辛卯，皇太子納妃沈氏",
+        "note": "依同段姓名、引者及所答者。"
+      }
+    ],
+    "narrative_readings": [
+      {
+        "event_type": "crown_princess_marriage",
+        "person_ids": [
+          "9wm_vgh_vz1_AAA",
+          "icd_mkz_d9n_A"
+        ],
+        "source_anchor": {
+          "paragraph_id": "c-chenshu-005-shenwuhua-annal:p001",
+          "surface": "秋七月辛卯",
+          "start": 0,
+          "end": 5
+        },
+        "evidence": [
+          {
+            "work_id": "w-chenshu",
+            "book_id": "b-chenshu-005",
+            "source_id": "s-chenshu-005-shenwuhua-annal-ws2374950",
+            "chapter_id": "c-chenshu-005-shenwuhua-annal",
+            "paragraph_id": "c-chenshu-005-shenwuhua-annal:p001",
+            "quote": "秋七月辛卯"
+          }
+        ],
+        "interpretation_note": "本紀太建元年七月辛卯。",
+        "source_date": {
+          "era": "太建",
+          "era_year": 1,
+          "year": 569,
+          "month": 7,
+          "day_term": "辛卯"
+        }
+      }
+    ],
+    "reviewer": "Codex（AI 代理）",
+    "human_reviewed": false,
+    "model": null
+  },
+  "paragraphs": [
+    {
+      "id": "c-chenshu-005-shenwuhua-annal:p001",
+      "text": "秋七月辛卯，皇太子納妃沈氏",
+      "mentions": [
+        {
+          "id": "c-chenshu-005-shenwuhua-annal:p001:m0011",
+          "surface": "沈氏",
+          "start": 11,
+          "end": 13,
+          "person_id": "9wm_vgh_vz1_AAA",
+          "kind": "person",
+          "status": "contextual_provisional",
+          "interpretation_note": "按本傳及官府原句。"
+        }
+      ],
+      "text_layer": "received_chapter",
+      "annotation_status": "reviewed",
+      "source_position": {
+        "revision_id": 2374950,
+        "source_layer": "received_biography",
+        "first_line": 21,
+        "last_line": 21,
+        "line_start": 2,
+        "line_end": 15,
+        "raw_start": 1719,
+        "raw_end": 1732,
+        "raw_character_offsets": [
+          1719,
+          1720,
+          1721,
+          1722,
+          1723,
+          1724,
+          1725,
+          1726,
+          1727,
+          1728,
+          1729,
+          1730,
+          1731
+        ],
+        "projection_sha256": "419e64e9926e5466544a0117398c2094497591f2fb518a494fc07846021410cd"
+      }
+    }
+  ],
+  "text_sha256": "fb2a102566c2747aa6e6c3f4bd6493cc9b7bdb5315730e040cfa6e7148c6e082"
+}

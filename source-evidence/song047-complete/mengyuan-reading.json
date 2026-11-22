@@ -1,0 +1,91 @@
+{
+  "record_type": "fixed_source_complete_item_review",
+  "reviewer": "Codex（AI代理）",
+  "model": null,
+  "human_reviewed": false,
+  "external_witnesses": [
+    {
+      "revision_id": 2190531,
+      "raw_path": "source-evidence/song047-complete/external/nanshi017-ws2190531.wikitext",
+      "line": 113,
+      "start": 90,
+      "end": 99,
+      "source_quote": "卒官。無子，國除。",
+      "raw_sha256": "1f2b513aa6ac93c96f9742b6b9e53bd5372c7466f990caf3ca4cab4a8d0fe843",
+      "interpretation": "南17在懷玉主語下縮述。"
+    }
+  ],
+  "print_readings": [
+    {
+      "url": "https://upload.wikimedia.org/wikipedia/commons/7/75/NLC892-411999017142-12779_%E4%BA%8C%E5%8D%81%E5%9B%9B%E5%8F%B2_%E7%AC%AC144%E5%86%8A.pdf#page=62",
+      "catalog_record": "https://commons.wikimedia.org/wiki/File:NLC892-411999017142-12779_%E4%BA%8C%E5%8D%81%E5%9B%9B%E5%8F%B2_%E7%AC%AC144%E5%86%8A.pdf",
+      "pdf_sha1": "126c34411892f6943a575a15ee46fb0064bd5b7b",
+      "pdf_sha256": "316229a8587d188289a7fa2dac393760437ca7facf5deb7a3bfa09770b4a1ac3",
+      "image_sha256": "5b4dca0d14abf01f57f91e5de44e5ee77faa5b79c9565104900f857e1842b93b",
+      "edition": "清乾隆武英殿本《宋書》，國圖第144冊。",
+      "page": 62,
+      "half": "R",
+      "folio": "五下",
+      "columns_from_right": "5",
+      "source_quote": "子元卒無子國除",
+      "reading": "五下欄5另起元。"
+    }
+  ],
+  "boundaries": [
+    {
+      "book_id": "b-songshu-047",
+      "title": "孟元",
+      "unit_kind": "embedded_account",
+      "chapter_id": "c-songshu-047-mengyuan",
+      "entry_checked": true,
+      "full_text": true,
+      "first_pass": true,
+      "item_reviewed": true,
+      "source_layout": "wikisource_mixed_indented_prose",
+      "first_line": 35,
+      "last_line": 35,
+      "start_codepoint": 409,
+      "end_codepoint": 419,
+      "opening": "子元卒，無子，國除。",
+      "closing": "子元卒，無子，國除。",
+      "parent_heading": "孟懷玉",
+      "chapter_path": "corpus/songshu/047-mengyuan.json",
+      "paragraph_ids": [
+        "c-songshu-047-mengyuan:p001"
+      ],
+      "item_review_path": "source-evidence/song047-complete/mengyuan-reading.json"
+    }
+  ],
+  "chronology": [],
+  "readings": [
+    {
+      "id": "c-songshu-047-mengyuan:received_sentence1-0",
+      "kind": "received_sentence",
+      "person_id": "zuf_v5v_18s_A",
+      "source_quote": "子元卒，無子，國除。",
+      "reading": "懷玉子元卒，其本人的無子、鄱陽國除連敘；另段有陽豐封。",
+      "note": "懷玉子元卒，其本人的無子、鄱陽國除連敘；另段有陽豐封。",
+      "paragraph_id": "c-songshu-047-mengyuan:p001",
+      "start_codepoint": 0,
+      "end_codepoint": 10,
+      "human_reviewed": false
+    },
+    {
+      "id": "c-songshu-047-mengyuan:succession1-4",
+      "kind": "succession",
+      "person_id": "zuf_v5v_18s_A",
+      "source_quote": "無子，國除",
+      "reading": "元卒而無子；本句承鄱陽侯一封。兩封的廢除緣由分屬不同傳段。",
+      "note": "元卒而無子；本句承鄱陽侯一封。兩封的廢除緣由分屬不同傳段。",
+      "paragraph_id": "c-songshu-047-mengyuan:p001",
+      "start_codepoint": 4,
+      "end_codepoint": 9,
+      "human_reviewed": false,
+      "holder": "zuf_v5v_18s_A",
+      "children_report": "無子",
+      "fief": "鄱陽",
+      "death_year": null
+    }
+  ],
+  "identity_limits": []
+}

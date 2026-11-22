@@ -1,0 +1,95 @@
+{
+  "record_type": "fixed_source_complete_item_review",
+  "reviewer": "Codex（AI代理）",
+  "model": null,
+  "human_reviewed": false,
+  "external_witnesses": [],
+  "print_readings": [
+    {
+      "url": "https://upload.wikimedia.org/wikipedia/commons/7/75/NLC892-411999017142-12779_%E4%BA%8C%E5%8D%81%E5%9B%9B%E5%8F%B2_%E7%AC%AC144%E5%86%8A.pdf#page=62",
+      "catalog_record": "https://commons.wikimedia.org/wiki/File:NLC892-411999017142-12779_%E4%BA%8C%E5%8D%81%E5%9B%9B%E5%8F%B2_%E7%AC%AC144%E5%86%8A.pdf",
+      "pdf_sha1": "126c34411892f6943a575a15ee46fb0064bd5b7b",
+      "pdf_sha256": "316229a8587d188289a7fa2dac393760437ca7facf5deb7a3bfa09770b4a1ac3",
+      "image_sha256": "5b4dca0d14abf01f57f91e5de44e5ee77faa5b79c9565104900f857e1842b93b",
+      "edition": "清乾隆武英殿本《宋書》，國圖第144冊。",
+      "page": 62,
+      "half": "R",
+      "folio": "五下",
+      "columns_from_right": "5–6",
+      "source_quote": "懷玉别封陽豐男子慧熙嗣坐廢祭祀奪爵",
+      "reading": "別封另有沿革。"
+    }
+  ],
+  "boundaries": [
+    {
+      "book_id": "b-songshu-047",
+      "title": "孟慧熙",
+      "unit_kind": "embedded_account",
+      "chapter_id": "c-songshu-047-menghuixi",
+      "entry_checked": true,
+      "full_text": true,
+      "first_pass": true,
+      "item_reviewed": true,
+      "source_layout": "wikisource_mixed_indented_prose",
+      "first_line": 35,
+      "last_line": 35,
+      "start_codepoint": 419,
+      "end_codepoint": 439,
+      "opening": "懷玉別封陽豐男，子慧熙嗣",
+      "closing": "子慧熙嗣，坐廢祭祀奪爵。",
+      "parent_heading": "孟懷玉",
+      "chapter_path": "corpus/songshu/047-menghuixi.json",
+      "paragraph_ids": [
+        "c-songshu-047-menghuixi:p001"
+      ],
+      "item_review_path": "source-evidence/song047-complete/menghuixi-reading.json"
+    }
+  ],
+  "chronology": [],
+  "readings": [
+    {
+      "id": "c-songshu-047-menghuixi:received_sentence1-0",
+      "kind": "received_sentence",
+      "person_id": "zuf_v5v_18s_B",
+      "source_quote": "懷玉別封陽豐男，子慧熙嗣，坐廢祭祀奪爵。",
+      "reading": "慧熙嗣父另封的陽豐男；坐廢祭祀奪爵。",
+      "note": "慧熙嗣父另封的陽豐男；坐廢祭祀奪爵。",
+      "paragraph_id": "c-songshu-047-menghuixi:p001",
+      "start_codepoint": 0,
+      "end_codepoint": 20,
+      "human_reviewed": false
+    },
+    {
+      "id": "c-songshu-047-menghuixi:succession1-0",
+      "kind": "succession",
+      "person_id": "zuf_v5v_18s_B",
+      "source_quote": "懷玉別封陽豐男，子慧熙嗣",
+      "reading": "父懷玉有二封；此為陽豐男，始封二百五十戶。",
+      "note": "父懷玉有二封；此為陽豐男，始封二百五十戶。",
+      "paragraph_id": "c-songshu-047-menghuixi:p001",
+      "start_codepoint": 0,
+      "end_codepoint": 12,
+      "human_reviewed": false,
+      "previous": "zuf_v5v_18s",
+      "successor": "zuf_v5v_18s_B",
+      "source_fief": "陽豐男",
+      "initial_households": 250
+    },
+    {
+      "id": "c-songshu-047-menghuixi:deprivation1-13",
+      "kind": "deprivation",
+      "person_id": "zuf_v5v_18s_B",
+      "source_quote": "坐廢祭祀奪爵",
+      "reading": "傳載奪爵事由，未載年份。",
+      "note": "傳載奪爵事由，未載年份。",
+      "paragraph_id": "c-songshu-047-menghuixi:p001",
+      "start_codepoint": 13,
+      "end_codepoint": 19,
+      "human_reviewed": false,
+      "holder": "zuf_v5v_18s_B",
+      "reason": "廢祭祀",
+      "year": null
+    }
+  ],
+  "identity_limits": []
+}

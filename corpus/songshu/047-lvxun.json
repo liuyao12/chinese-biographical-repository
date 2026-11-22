@@ -1,0 +1,112 @@
+{
+  "format_version": "0.2",
+  "record_type": "marked_chapter",
+  "id": "c-songshu-047-lvxun",
+  "work_id": "w-songshu",
+  "book_id": "b-songshu-047",
+  "source_id": "s-songshu-047-lvxun-ws2190557",
+  "title": "呂訓",
+  "source": {
+    "title": "呂訓",
+    "provider": "Wikisource",
+    "permalink": "https://zh.wikisource.org/w/index.php?oldid=2190557",
+    "url": "https://zh.wikisource.org/w/index.php?oldid=2190557",
+    "revision_id": 2190557,
+    "edition": "維基文庫固定修訂",
+    "accessed_on": "2026-11-21",
+    "review_status": "text_checked",
+    "image_verified": false,
+    "rights": "古代原文；數位轉錄依維基文庫授權。",
+    "license_url": "https://creativecommons.org/licenses/by-sa/4.0/",
+    "extent": "呂訓",
+    "text_scope": "complete_biography_unit",
+    "raw_path": "source-evidence/nan023-wanghui/ws2190557.wikitext",
+    "raw_file_sha256": "cc75864d017c88ec8c285b2b7772125dc7b10e0b49eed8f8dfa472db5db8cc20"
+  },
+  "annotation": {
+    "status": "reviewed",
+    "reviewer": "Codex（AI代理）",
+    "model": null,
+    "human_reviewed": false,
+    "source_reading_cases": [
+      {
+        "id": "c-songshu-047-lvxun:received_sentence1-0",
+        "kind": "received_sentence",
+        "person_id": "h6x_z46_nl1",
+        "source_quote": "呂訓，略陽氐人呂先子也。",
+        "reading": "本句稱略陽氐人呂先之子呂訓。",
+        "note": "本句稱略陽氐人呂先之子呂訓。",
+        "paragraph_id": "c-songshu-047-lvxun:p001",
+        "start_codepoint": 0,
+        "end_codepoint": 12,
+        "human_reviewed": false
+      },
+      {
+        "id": "c-songshu-047-lvxun:paternal_text_variant1-7",
+        "kind": "paternal_text_variant",
+        "person_id": "h6x_z46_nl1",
+        "source_quote": "呂先子也",
+        "reading": "今正文與殿本皆作呂先，殿本此前「略氐人」脫陽。校者猜呂先為後涼主呂光，缺本人或子名的同人直證，兩者不合。",
+        "note": "今正文與殿本皆作呂先，殿本此前「略氐人」脫陽。校者猜呂先為後涼主呂光，缺本人或子名的同人直證，兩者不合。",
+        "paragraph_id": "c-songshu-047-lvxun:p001",
+        "start_codepoint": 7,
+        "end_codepoint": 11,
+        "human_reviewed": false,
+        "source_father": "3ea_zoz_gud",
+        "son": "h6x_z46_nl1",
+        "conjecture": "呂光",
+        "merged": false
+      }
+    ]
+  },
+  "paragraphs": [
+    {
+      "id": "c-songshu-047-lvxun:p001",
+      "text": "呂訓，略陽氐人呂先子也。",
+      "text_layer": "received_chapter",
+      "annotation_status": "reviewed",
+      "source_position": {
+        "first_line": 26,
+        "last_line": 26,
+        "raw_start": 2195,
+        "raw_end": 2271,
+        "raw_character_offsets": [
+          2195,
+          2196,
+          2197,
+          2198,
+          2199,
+          2200,
+          2201,
+          2202,
+          2203,
+          2204,
+          2205,
+          2206
+        ],
+        "revision_id": 2190557
+      },
+      "mentions": [
+        {
+          "id": "c-songshu-047-lvxun:p001:m0000",
+          "start": 0,
+          "end": 2,
+          "surface": "呂訓",
+          "kind": "person",
+          "person_id": "h6x_z46_nl1",
+          "status": "contextual_provisional"
+        },
+        {
+          "id": "c-songshu-047-lvxun:p001:m0007",
+          "start": 7,
+          "end": 9,
+          "surface": "呂先",
+          "kind": "person",
+          "person_id": "3ea_zoz_gud",
+          "status": "contextual_provisional"
+        }
+      ]
+    }
+  ],
+  "text_sha256": "9ddf842158fca962c0f1cf4fb19227f3170a02091e2c331274c23f2096326c0c"
+}

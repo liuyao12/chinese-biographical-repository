@@ -1,0 +1,81 @@
+{
+  "record_type": "fixed_source_complete_item_review",
+  "reviewer": "Codex（AI代理）",
+  "model": null,
+  "human_reviewed": false,
+  "external_witnesses": [
+    {
+      "revision_id": 2622004,
+      "raw_path": "source-evidence/jin098-wangdun-main/external/j64-ws2622004.wikitext",
+      "line": 141,
+      "start": 117,
+      "end": 128,
+      "source_quote": "牢之參軍張暢之率眾遂之",
+      "raw_sha256": "b4c389968a1af2d99c2a6ad4a8afa3e6a4706f845194c0ce283f41927afae31f",
+      "interpretation": "名字相同，所任、事件有別，未逕合。"
+    },
+    {
+      "revision_id": 11136436,
+      "raw_path": "source-evidence/song046-wangyi-complete/external/ws11136436.wikitext",
+      "line": 12,
+      "start": 319,
+      "end": 335,
+      "source_quote": "興寧元年}}歲次癸亥三月壬寅夜生",
+      "raw_sha256": "2dec5991dd6fcc1ee82f680f915855cd9646e3f5202e7a5ac161890cd8806024",
+      "interpretation": "紀傳月份不一致。"
+    }
+  ],
+  "print_readings": [],
+  "boundaries": [],
+  "chronology": [],
+  "readings": [
+    {
+      "id": "c-jinshu-037-zhangchangzhi-huaisu:independent_joint_attestation1-4",
+      "kind": "independent_joint_attestation",
+      "person_id": "adl_wec_ik4",
+      "source_quote": "張暢之、高平相劉懷肅自沔攻振",
+      "reading": "官名與劉懷肅有明確並列，晉書「張暢之」後另有頓號，佐宋47「張暢之」讀名。",
+      "note": "官名與劉懷肅有明確並列，晉書「張暢之」後另有頓號，佐宋47「張暢之」讀名。",
+      "paragraph_id": "c-jinshu-037-zhangchangzhi-huaisu:p001",
+      "start_codepoint": 4,
+      "end_codepoint": 18,
+      "human_reviewed": false,
+      "old_mid": "c-songshu-047-liuhuaisu:p002:m0067",
+      "alternative_identity_candidate": "q7q_j3y_nhj"
+    },
+    {
+      "id": "c-songshu-041-zhaoempress-anzong:name_witness1-6",
+      "kind": "name_witness",
+      "person_id": "r5n_x7v_cwf_AB",
+      "source_quote": "安宗",
+      "reading": "本卷完整諱字安宗，舊四庫證作安，其人仍按高祖生母同號。",
+      "note": "本卷完整諱字安宗，舊四庫證作安，其人仍按高祖生母同號。",
+      "paragraph_id": "c-songshu-041-zhaoempress-anzong:p001",
+      "start_codepoint": 6,
+      "end_codepoint": 8,
+      "human_reviewed": false,
+      "prior_name": "安",
+      "received_name": "安宗",
+      "unchanged_id": "r5n_x7v_cwf_AB"
+    },
+    {
+      "id": "c-songshu-041-zhaoempress-anzong:mother_child_chronology2-15",
+      "kind": "mother_child_chronology",
+      "person_id": "r5n_x7v_cwf_AB",
+      "source_quote": "其日，后以產疾殂于丹徒官舍，時年二十一。",
+      "reading": "同日生子與產疾殂，年二十一。與卷1三月壬寅的生日異列；若假設虛歲，母生343。",
+      "note": "同日生子與產疾殂，年二十一。與卷1三月壬寅的生日異列；若假設虛歲，母生343。",
+      "paragraph_id": "c-songshu-041-zhaoempress-anzong:p002",
+      "start_codepoint": 15,
+      "end_codepoint": 35,
+      "human_reviewed": false,
+      "year": 363,
+      "lunar_month": 4,
+      "lunar_day": 2,
+      "age": 21,
+      "nominal_birth_if_inclusive": 343,
+      "son": "3qs_nqa_ioa_AAA"
+    }
+  ],
+  "identity_limits": []
+}

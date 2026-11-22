@@ -1,0 +1,131 @@
+{
+  "record_type": "fixed_source_complete_item_review",
+  "reviewer": "Codex（AI代理）",
+  "model": null,
+  "human_reviewed": false,
+  "external_witnesses": [
+    {
+      "revision_id": 2370105,
+      "raw_path": "source-evidence/song047-complete/external/song005-ws2370105.wikitext",
+      "line": 317,
+      "start": 47,
+      "end": 73,
+      "source_quote": "前雍州刺史劉真道、梁南秦二州刺史裴方明有罪，下獄死。",
+      "raw_sha256": "a8c2b67f4b5da1596c81b26e1c1bda24b8881d6f9508c2de613fb5f2453a5cca",
+      "interpretation": "本紀甲子死。"
+    },
+    {
+      "revision_id": 2190557,
+      "raw_path": "source-evidence/nan023-wanghui/ws2190557.wikitext",
+      "line": 28,
+      "start": 0,
+      "end": 31,
+      "source_quote": "真道、方明並坐破仇池，斷割金銀諸雜寶貨，又藏難當善馬，下獄死。",
+      "raw_sha256": "cc75864d017c88ec8c285b2b7772125dc7b10e0b49eed8f8dfa472db5db8cc20",
+      "interpretation": "共敘獄中的死事。"
+    }
+  ],
+  "print_readings": [
+    {
+      "url": "https://upload.wikimedia.org/wikipedia/commons/7/75/NLC892-411999017142-12779_%E4%BA%8C%E5%8D%81%E5%9B%9B%E5%8F%B2_%E7%AC%AC144%E5%86%8A.pdf#page=61",
+      "catalog_record": "https://commons.wikimedia.org/wiki/File:NLC892-411999017142-12779_%E4%BA%8C%E5%8D%81%E5%9B%9B%E5%8F%B2_%E7%AC%AC144%E5%86%8A.pdf",
+      "pdf_sha1": "126c34411892f6943a575a15ee46fb0064bd5b7b",
+      "pdf_sha256": "316229a8587d188289a7fa2dac393760437ca7facf5deb7a3bfa09770b4a1ac3",
+      "image_sha256": "df78a283297ba6c8043a3ca61882ba6339f387bdf793dd90d2e2eead5c114ad0",
+      "edition": "清乾隆武英殿本《宋書》，國圖第144冊。",
+      "page": 61,
+      "half": "R",
+      "folio": "四下",
+      "columns_from_right": "5–7",
+      "source_quote": "方明河東人為劉道濟振武中兵參軍立功蜀土歷潁川南平昌太守皆坐贓私免官",
+      "reading": "裴氏小敘止於昌太守事後，下一欄孟懷玉。"
+    }
+  ],
+  "boundaries": [
+    {
+      "book_id": "b-songshu-047",
+      "title": "裴方明",
+      "unit_kind": "embedded_account",
+      "chapter_id": "c-songshu-047-peifangming",
+      "entry_checked": true,
+      "full_text": true,
+      "first_pass": true,
+      "item_reviewed": true,
+      "source_layout": "wikisource_mixed_indented_prose",
+      "first_line": 28,
+      "last_line": 28,
+      "start_codepoint": 41,
+      "end_codepoint": 80,
+      "opening": "方明，河東人，為劉道濟振",
+      "closing": "平昌太守，皆坐贓私免官。",
+      "parent_heading": "劉真道",
+      "chapter_path": "corpus/songshu/047-peifangming.json",
+      "paragraph_ids": [
+        "c-songshu-047-peifangming:p001"
+      ],
+      "item_review_path": "source-evidence/song047-complete/peifangming-reading.json"
+    }
+  ],
+  "chronology": [],
+  "readings": [
+    {
+      "id": "c-songshu-047-peifangming:received_sentence1-0",
+      "kind": "received_sentence",
+      "person_id": "l26_15v_yeo",
+      "source_quote": "方明，河東人，為劉道濟振武中兵參軍，立功蜀土，歷潁川南平昌太守，皆坐贓私免官。",
+      "reading": "裴方明河東人，曾為劉道濟振武中兵參軍，有功蜀土，任潁川、南平昌太守，皆以贓私免。",
+      "note": "裴方明河東人，曾為劉道濟振武中兵參軍，有功蜀土，任潁川、南平昌太守，皆以贓私免。",
+      "paragraph_id": "c-songshu-047-peifangming:p001",
+      "start_codepoint": 0,
+      "end_codepoint": 39,
+      "human_reviewed": false
+    },
+    {
+      "id": "c-songshu-047-peifangming:origin1-3",
+      "kind": "origin",
+      "person_id": "l26_15v_yeo",
+      "source_quote": "河東人",
+      "reading": "家籍河東，本段補叙早年，前文已述死獄。",
+      "note": "家籍河東，本段補叙早年，前文已述死獄。",
+      "paragraph_id": "c-songshu-047-peifangming:p001",
+      "start_codepoint": 3,
+      "end_codepoint": 6,
+      "human_reviewed": false,
+      "place": "河東"
+    },
+    {
+      "id": "c-songshu-047-peifangming:prior_dismissals1-32",
+      "kind": "prior_dismissals",
+      "person_id": "l26_15v_yeo",
+      "source_quote": "皆坐贓私免官",
+      "reading": "潁川、南平昌兩任之貪贓免官，與破仇池後下獄死是不同事。",
+      "note": "潁川、南平昌兩任之貪贓免官，與破仇池後下獄死是不同事。",
+      "paragraph_id": "c-songshu-047-peifangming:p001",
+      "start_codepoint": 32,
+      "end_codepoint": 38,
+      "human_reviewed": false,
+      "prior_counties": [
+        "潁川",
+        "南平昌"
+      ],
+      "final_charge": "斷割金銀諸雜寶貨，又藏難當善馬"
+    },
+    {
+      "id": "c-songshu-047-peifangming:paternity_and_death1-0",
+      "kind": "paternity_and_death",
+      "person_id": "l26_15v_yeo",
+      "source_quote": "方明",
+      "reading": "卷98明方明使子肅之；卷5與通鑑124在元嘉二十年七月甲子記方明及真道下獄死。",
+      "note": "卷98明方明使子肅之；卷5與通鑑124在元嘉二十年七月甲子記方明及真道下獄死。",
+      "paragraph_id": "c-songshu-047-peifangming:p001",
+      "start_codepoint": 0,
+      "end_codepoint": 2,
+      "human_reviewed": false,
+      "son": "tlo_znj_7bn",
+      "death_ce": 443,
+      "death_lunar_month": 7,
+      "death_day": "甲子"
+    }
+  ],
+  "identity_limits": []
+}

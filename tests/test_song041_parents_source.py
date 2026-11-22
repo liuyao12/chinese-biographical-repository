@@ -24,7 +24,14 @@ class Song041ParentsSourceTests(unittest.TestCase):
   mother=json.loads((R/'corpus/songshu/041-parents-assertions.json').read_text())['assertions'][0];self.assertEqual(mother['predicate'],'mother');self.assertEqual(mother['object_person_id'],m['id']);self.assertEqual(mother['qualifiers']['source_term'],'生高祖其日后以産疾殂')
   father=json.loads((R/'corpus/songshu/001-parents-reference-assertions.json').read_text())['assertions'][0];self.assertEqual(father['predicate'],'father');self.assertEqual(father['qualifiers']['source_term'],'翹是為皇考')
   names=json.loads((R/'corpus/songshu/001-parents-reference-name-components.json').read_text())['records'];self.assertIsNone(names[0]['surname']);self.assertEqual(names[0]['ming'],'翹')
-  self.assertFalse(any(a['surface']in('劉翹','趙安宗','安宗')for p in(f,m)for a in p['aliases']))
+  self.assertFalse(any(a['surface'] in ('劉翹', '趙安宗') for p in (f, m) for a in p['aliases']))
+  aliases = [a for a in m['aliases'] if a['surface'] == '安宗']
+  self.assertEqual(len(aliases), 1)
+  other = json.loads((R/'corpus/songshu/041-zhaoempress-anzong.json').read_text())
+  mentions = [a for p in other['paragraphs'] for a in p['mentions']
+              if a['surface'] == '安宗' and a['person_id'] == m['id']]
+  self.assertTrue(mentions)
+  self.assertEqual(aliases[0]['mention_ids'], [a['id'] for a in mentions])
  def test_birth_dates_are_two_typed_proposals_not_month_day_reconciliation(self):
   case=json.loads((R/'source-evidence/song041-parents/birth-date-disagreement.json').read_text());self.assertEqual(case['common_chinese_civil_year'],363);self.assertIsNone(case['preferred_claim_id']);self.assertEqual(len(case['claims']),2)
   self.assertEqual({c['year']for c in case['claims']},{363});self.assertTrue(any('三月壬寅'in c['date_expression']for c in case['claims']));self.assertTrue(any('四月二日'in c['date_expression']for c in case['claims']))

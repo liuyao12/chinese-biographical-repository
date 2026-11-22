@@ -1,0 +1,50 @@
+{
+  "format_version": "0.2",
+  "record_type": "person_assertion_set",
+  "chapter_id": "c-suishu-003-shenwuhua-yang",
+  "assertions": [
+    {
+      "id": "a-nan012-shenwuhua-y-father",
+      "subject_person_id": "ce8_yhf_283_AAAAAAA",
+      "object_person_id": "ce8_yhf_283_AAAAAA",
+      "predicate": "father",
+      "qualifiers": {
+        "source_term": "高祖第二子",
+        "nan012_shenwuhua_reading": "y-father",
+        "lineage": "paternal",
+        "birth_order": {
+          "source_term": "第二子",
+          "source_number": "二",
+          "ordinal": 2,
+          "position": "unspecified",
+          "scope": "sons_of_parent",
+          "parent_person_id": "ce8_yhf_283_AAAAAA",
+          "interpretation_status": "source_attested"
+        }
+      },
+      "evidence": [
+        {
+          "work_id": "w-suishu",
+          "book_id": "b-suishu-003",
+          "source_id": "s-suishu-003-shenwuhua-yang-ws2034222",
+          "chapter_id": "c-suishu-003-shenwuhua-yang",
+          "paragraph_id": "c-suishu-003-shenwuhua-yang:p001",
+          "quote": "煬皇帝諱廣，一名英，小字阿𡡉，高祖第二子也。",
+          "subject_person_mention_id": "c-suishu-003-shenwuhua-yang:p001:m0004",
+          "object_person_reference_id": "c-suishu-003-shenwuhua-yang:p001:r0015",
+          "relationship_anchor": {
+            "paragraph_id": "c-suishu-003-shenwuhua-yang:p001",
+            "surface": "高祖第二子",
+            "start": 15,
+            "end": 20
+          }
+        }
+      ],
+      "status": "source_attested",
+      "interpretation_note": "隋書本紀隋煬帝之父及排行。",
+      "reviewer": "Codex（AI 代理）",
+      "human_reviewed": false,
+      "model": null
+    }
+  ]
+}

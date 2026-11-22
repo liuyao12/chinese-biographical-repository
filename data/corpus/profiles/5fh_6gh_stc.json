@@ -6,11 +6,65 @@
   "identity_note": "依本篇具名、稱謂及其所在原句辨認；引書原字存於各自來源。",
   "review": "ai_provisional",
   "names": [
-    "裴欽"
+    "裴欽",
+    "欽"
   ],
   "titles": [],
   "addresses": [],
   "occurrences": [
+    {
+      "number": 53,
+      "category": "",
+      "title": "裴玄傳",
+      "paragraph_id": "c-sanguozhi-053-peixuan:line024",
+      "count": 3,
+      "raw_count": 3,
+      "duplicate_count": 0,
+      "counting_policy": "independent_fixed_witness_occurrences",
+      "quote": "　　玄字彥黃，下邳人也，亦有學行，官至太中大夫。問子欽齊桓、晉文、夷、惠四人優劣，欽答所見，與玄相反覆，各有文理。欽與太子登遊處，登稱其翰採。",
+      "paragraph_ids": [
+        "c-sanguozhi-053-peixuan:line024"
+      ],
+      "mention_ids": [
+        "c-sanguozhi-053-peixuan:line024:m0026",
+        "c-sanguozhi-053-peixuan:line024:m0041",
+        "c-sanguozhi-053-peixuan:line024:m0057"
+      ],
+      "mention_paragraph_ids": {
+        "c-sanguozhi-053-peixuan:line024:m0026": "c-sanguozhi-053-peixuan:line024",
+        "c-sanguozhi-053-peixuan:line024:m0041": "c-sanguozhi-053-peixuan:line024",
+        "c-sanguozhi-053-peixuan:line024:m0057": "c-sanguozhi-053-peixuan:line024"
+      },
+      "mention_id": "c-sanguozhi-053-peixuan:line024:m0026",
+      "occurrence_groups": [
+        {
+          "canonical_mention_id": "c-sanguozhi-053-peixuan:line024:m0026",
+          "mention_ids": [
+            "c-sanguozhi-053-peixuan:line024:m0026"
+          ],
+          "kind": "paragraph"
+        },
+        {
+          "canonical_mention_id": "c-sanguozhi-053-peixuan:line024:m0041",
+          "mention_ids": [
+            "c-sanguozhi-053-peixuan:line024:m0041"
+          ],
+          "kind": "paragraph"
+        },
+        {
+          "canonical_mention_id": "c-sanguozhi-053-peixuan:line024:m0057",
+          "mention_ids": [
+            "c-sanguozhi-053-peixuan:line024:m0057"
+          ],
+          "kind": "paragraph"
+        }
+      ],
+      "work_id": "w-sanguozhi",
+      "book_id": "b-sanguozhi-053",
+      "chapter_id": "c-sanguozhi-053-peixuan",
+      "source_id": "s-sanguozhi-053-peixuan",
+      "work_title": "三國志"
+    },
     {
       "number": 59,
       "category": "",
@@ -50,6 +104,34 @@
   "table_occurrences": [],
   "sources": [
     {
+      "chapter_id": "c-sanguozhi-053-peixuan",
+      "work_id": "w-sanguozhi",
+      "book_id": "b-sanguozhi-053",
+      "source_id": "s-sanguozhi-053-peixuan",
+      "source": {
+        "title": "三國志卷五十三·吳書八",
+        "provider": "Wikisource",
+        "url": "https://zh.wikisource.org/w/index.php?oldid=2086397",
+        "permalink": "https://zh.wikisource.org/w/index.php?oldid=2086397",
+        "revision_id": 2086397,
+        "accessed_on": "2026-11-21",
+        "edition": "維基文庫固定修訂，裴注與正文分層。",
+        "extent": "第24至24行。",
+        "text_scope": "partial_chapter",
+        "review_status": "text_checked",
+        "image_verified": false,
+        "rights": "古籍原文，維基文庫轉錄。",
+        "license_url": "https://creativecommons.org/licenses/by-sa/4.0/",
+        "raw_path": "source-evidence/sanguozhi053-scholars/sanguozhi053-ws2086397.wikitext",
+        "raw_file_sha256": "a50889bcf489ad7886d32c3e937c45ea9f9bb5032888b594400ebaeb0121a447",
+        "wikitext_sha256": "a50889bcf489ad7886d32c3e937c45ea9f9bb5032888b594400ebaeb0121a447",
+        "original_parent_heading": "嚴畯",
+        "collation_witnesses": [
+          "source-evidence/sanguozhi053-peixuan/reading.json"
+        ]
+      }
+    },
+    {
       "chapter_id": "c-sanguozhi-059-deng",
       "work_id": "w-sanguozhi",
       "book_id": "b-sanguozhi-059",
@@ -77,16 +159,71 @@
       }
     }
   ],
-  "relations": [],
+  "relations": [
+    {
+      "id": "a-wu053-peixuan-0",
+      "subject_person_id": "5fh_6gh_stc",
+      "object_person_id": "pll_n3c_og5",
+      "predicate": "father",
+      "qualifiers": {
+        "source_term": "問子欽"
+      },
+      "evidence": [
+        {
+          "work_id": "w-sanguozhi",
+          "book_id": "b-sanguozhi-053",
+          "chapter_id": "c-sanguozhi-053-peixuan",
+          "source_id": "s-sanguozhi-053-peixuan",
+          "paragraph_id": "c-sanguozhi-053-peixuan:line024",
+          "quote": "　　玄字彥黃，下邳人也，亦有學行，官至太中大夫。問子欽齊桓、晉文、夷、惠四人優劣，欽答所見，與玄相反覆，各有文理。欽與太子登遊處，登稱其翰採。",
+          "subject_person_mention_id": "c-sanguozhi-053-peixuan:line024:m0026",
+          "object_person_mention_id": "c-sanguozhi-053-peixuan:line024:m0002"
+        }
+      ],
+      "interpretation_note": "以此來源所述兩端為據。",
+      "status": "source_attested",
+      "reviewer": "Codex（AI 代理）",
+      "human_reviewed": false,
+      "model": null
+    }
+  ],
   "related_people": {
-    "5fh_6gh_stc": "裴欽"
+    "5fh_6gh_stc": "裴欽",
+    "pll_n3c_og5": "裴玄〔字彥黃〕"
   },
   "dates": [],
   "name_components": [],
   "person_ids": [
     "5fh_6gh_stc"
   ],
-  "preferred_relations": [],
+  "preferred_relations": [
+    {
+      "id": "a-wu053-peixuan-0",
+      "subject_person_id": "5fh_6gh_stc",
+      "object_person_id": "pll_n3c_og5",
+      "predicate": "father",
+      "qualifiers": {
+        "source_term": "問子欽"
+      },
+      "evidence": [
+        {
+          "work_id": "w-sanguozhi",
+          "book_id": "b-sanguozhi-053",
+          "chapter_id": "c-sanguozhi-053-peixuan",
+          "source_id": "s-sanguozhi-053-peixuan",
+          "paragraph_id": "c-sanguozhi-053-peixuan:line024",
+          "quote": "　　玄字彥黃，下邳人也，亦有學行，官至太中大夫。問子欽齊桓、晉文、夷、惠四人優劣，欽答所見，與玄相反覆，各有文理。欽與太子登遊處，登稱其翰採。",
+          "subject_person_mention_id": "c-sanguozhi-053-peixuan:line024:m0026",
+          "object_person_mention_id": "c-sanguozhi-053-peixuan:line024:m0002"
+        }
+      ],
+      "interpretation_note": "以此來源所述兩端為據。",
+      "status": "source_attested",
+      "reviewer": "Codex（AI 代理）",
+      "human_reviewed": false,
+      "model": null
+    }
+  ],
   "age_assertions": [],
   "life_events": [],
   "life_event_date_decisions": [],

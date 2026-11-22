@@ -1,0 +1,116 @@
+{
+  "record_type": "fixed_source_complete_item_review",
+  "reviewer": "Codex（AI代理）",
+  "model": null,
+  "human_reviewed": false,
+  "external_witnesses": [
+    {
+      "revision_id": 2190557,
+      "raw_path": "source-evidence/nan023-wanghui/ws2190557.wikitext",
+      "line": 26,
+      "start": 118,
+      "end": 131,
+      "source_quote": "建忠將軍呂訓衞倉儲以候王師",
+      "raw_sha256": "cc75864d017c88ec8c285b2b7772125dc7b10e0b49eed8f8dfa472db5db8cc20",
+      "interpretation": "同段詔文中職與事。"
+    },
+    {
+      "revision_id": 2190557,
+      "raw_path": "source-evidence/nan023-wanghui/ws2190557.wikitext",
+      "line": 26,
+      "start": 333,
+      "end": 342,
+      "source_quote": "訓駙馬都尉、奉朝請",
+      "raw_sha256": "cc75864d017c88ec8c285b2b7772125dc7b10e0b49eed8f8dfa472db5db8cc20",
+      "interpretation": "同詔授官，駙馬都尉僅官名，未見婚配對象。"
+    }
+  ],
+  "print_readings": [
+    {
+      "url": "https://upload.wikimedia.org/wikipedia/commons/7/75/NLC892-411999017142-12779_%E4%BA%8C%E5%8D%81%E5%9B%9B%E5%8F%B2_%E7%AC%AC144%E5%86%8A.pdf#page=60",
+      "catalog_record": "https://commons.wikimedia.org/wiki/File:NLC892-411999017142-12779_%E4%BA%8C%E5%8D%81%E5%9B%9B%E5%8F%B2_%E7%AC%AC144%E5%86%8A.pdf",
+      "pdf_sha1": "126c34411892f6943a575a15ee46fb0064bd5b7b",
+      "pdf_sha256": "316229a8587d188289a7fa2dac393760437ca7facf5deb7a3bfa09770b4a1ac3",
+      "image_sha256": "1de7977430d4a76ea206e85c5355dbf5f478c5a1cdb7405ace6bee30c8588881",
+      "edition": "清乾隆武英殿本《宋書》，國圖第144冊。",
+      "page": 60,
+      "half": "L",
+      "folio": "四上",
+      "columns_from_right": "10",
+      "source_quote": "呂訓略氐人",
+      "reading": "殿本原無陽。"
+    },
+    {
+      "url": "https://upload.wikimedia.org/wikipedia/commons/7/75/NLC892-411999017142-12779_%E4%BA%8C%E5%8D%81%E5%9B%9B%E5%8F%B2_%E7%AC%AC144%E5%86%8A.pdf#page=61",
+      "catalog_record": "https://commons.wikimedia.org/wiki/File:NLC892-411999017142-12779_%E4%BA%8C%E5%8D%81%E5%9B%9B%E5%8F%B2_%E7%AC%AC144%E5%86%8A.pdf",
+      "pdf_sha1": "126c34411892f6943a575a15ee46fb0064bd5b7b",
+      "pdf_sha256": "316229a8587d188289a7fa2dac393760437ca7facf5deb7a3bfa09770b4a1ac3",
+      "image_sha256": "df78a283297ba6c8043a3ca61882ba6339f387bdf793dd90d2e2eead5c114ad0",
+      "edition": "清乾隆武英殿本《宋書》，國圖第144冊。",
+      "page": 61,
+      "half": "R",
+      "folio": "四下",
+      "columns_from_right": "1",
+      "source_quote": "呂先子也",
+      "reading": "父名先，並未刻光。"
+    }
+  ],
+  "boundaries": [
+    {
+      "book_id": "b-songshu-047",
+      "title": "呂訓",
+      "unit_kind": "embedded_account",
+      "chapter_id": "c-songshu-047-lvxun",
+      "entry_checked": true,
+      "full_text": true,
+      "first_pass": true,
+      "item_reviewed": true,
+      "source_layout": "wikisource_mixed_indented_prose",
+      "first_line": 26,
+      "last_line": 26,
+      "start_codepoint": 376,
+      "end_codepoint": 452,
+      "opening": "呂訓，略陽氐人呂先子也。",
+      "closing": "，為後涼主。</ref>",
+      "parent_heading": "劉真道",
+      "scope_note": "詔後另記籍貫父名，校注與父名解釋另記。",
+      "chapter_path": "corpus/songshu/047-lvxun.json",
+      "paragraph_ids": [
+        "c-songshu-047-lvxun:p001"
+      ],
+      "item_review_path": "source-evidence/song047-complete/lvxun-reading.json"
+    }
+  ],
+  "chronology": [],
+  "readings": [
+    {
+      "id": "c-songshu-047-lvxun:received_sentence1-0",
+      "kind": "received_sentence",
+      "person_id": "h6x_z46_nl1",
+      "source_quote": "呂訓，略陽氐人呂先子也。",
+      "reading": "本句稱略陽氐人呂先之子呂訓。",
+      "note": "本句稱略陽氐人呂先之子呂訓。",
+      "paragraph_id": "c-songshu-047-lvxun:p001",
+      "start_codepoint": 0,
+      "end_codepoint": 12,
+      "human_reviewed": false
+    },
+    {
+      "id": "c-songshu-047-lvxun:paternal_text_variant1-7",
+      "kind": "paternal_text_variant",
+      "person_id": "h6x_z46_nl1",
+      "source_quote": "呂先子也",
+      "reading": "今正文與殿本皆作呂先，殿本此前「略氐人」脫陽。校者猜呂先為後涼主呂光，缺本人或子名的同人直證，兩者不合。",
+      "note": "今正文與殿本皆作呂先，殿本此前「略氐人」脫陽。校者猜呂先為後涼主呂光，缺本人或子名的同人直證，兩者不合。",
+      "paragraph_id": "c-songshu-047-lvxun:p001",
+      "start_codepoint": 7,
+      "end_codepoint": 11,
+      "human_reviewed": false,
+      "source_father": "3ea_zoz_gud",
+      "son": "h6x_z46_nl1",
+      "conjecture": "呂光",
+      "merged": false
+    }
+  ],
+  "identity_limits": []
+}

@@ -1,0 +1,103 @@
+{
+  "record_type": "fixed_source_complete_item_review",
+  "reviewer": "Codex（AI代理）",
+  "model": null,
+  "human_reviewed": false,
+  "external_witnesses": [
+    {
+      "revision_id": "e80c057667e3c8684f11d5088251e10244d5a264",
+      "raw_path": "sources/songshu/KR2a0016_047-e80c057-zhangchang-reference.txt",
+      "line": 116,
+      "start": 10,
+      "end": 15,
+      "source_quote": "慧熙已宗嗣",
+      "raw_sha256": "65a0020c6b4d8d37522ce325f0d28bdbec5921125cdd94e3c1f741d90b63e6f6",
+      "interpretation": "四庫轉錄上字作已。"
+    },
+    {
+      "revision_id": 2293550,
+      "raw_path": "source-evidence/song047-complete/external/song099-ws2293550.wikitext",
+      "line": 56,
+      "start": 114,
+      "end": 122,
+      "source_quote": "前軍將軍孟宗嗣等",
+      "raw_sha256": "df3ee07f7ec0ecb3bc937550511d9c92f3cf2aab0c59b966a5d9bba9a84939ac",
+      "interpretation": "同書卷99另載全名及官職。"
+    }
+  ],
+  "print_readings": [
+    {
+      "url": "https://upload.wikimedia.org/wikipedia/commons/7/75/NLC892-411999017142-12779_%E4%BA%8C%E5%8D%81%E5%9B%9B%E5%8F%B2_%E7%AC%AC144%E5%86%8A.pdf#page=62",
+      "catalog_record": "https://commons.wikimedia.org/wiki/File:NLC892-411999017142-12779_%E4%BA%8C%E5%8D%81%E5%9B%9B%E5%8F%B2_%E7%AC%AC144%E5%86%8A.pdf",
+      "pdf_sha1": "126c34411892f6943a575a15ee46fb0064bd5b7b",
+      "pdf_sha256": "316229a8587d188289a7fa2dac393760437ca7facf5deb7a3bfa09770b4a1ac3",
+      "image_sha256": "5b4dca0d14abf01f57f91e5de44e5ee77faa5b79c9565104900f857e1842b93b",
+      "edition": "清乾隆武英殿本《宋書》，國圖第144冊。",
+      "page": 62,
+      "half": "R",
+      "folio": "五下",
+      "columns_from_right": "6",
+      "source_quote": "慧熙己宗嗣竟陵太守中大夫",
+      "reading": "刻字緊鄰人名。"
+    }
+  ],
+  "boundaries": [
+    {
+      "book_id": "b-songshu-047",
+      "title": "孟宗嗣",
+      "unit_kind": "embedded_account",
+      "chapter_id": "c-songshu-047-mengzongsi",
+      "entry_checked": true,
+      "full_text": true,
+      "first_pass": true,
+      "item_reviewed": true,
+      "source_layout": "wikisource_mixed_indented_prose",
+      "first_line": 35,
+      "last_line": 35,
+      "start_codepoint": 439,
+      "end_codepoint": 507,
+      "opening": "慧熙子宗嗣，<ref>慧",
+      "closing": "ef>竟陵太守，中大夫。",
+      "parent_heading": "孟懷玉",
+      "scope_note": "宗嗣為雙字名；校勘說子、弟兩解。",
+      "chapter_path": "corpus/songshu/047-mengzongsi.json",
+      "paragraph_ids": [
+        "c-songshu-047-mengzongsi:p001"
+      ],
+      "item_review_path": "source-evidence/song047-complete/mengzongsi-reading.json"
+    }
+  ],
+  "chronology": [],
+  "readings": [
+    {
+      "id": "c-songshu-047-mengzongsi:received_sentence1-0",
+      "kind": "received_sentence",
+      "person_id": "6s5_hh6_zh8",
+      "source_quote": "慧熙子宗嗣，竟陵太守，中大夫。",
+      "reading": "固定本文讀慧熙子，姓名宗嗣，歷竟陵太守與中大夫。",
+      "note": "固定本文讀慧熙子，姓名宗嗣，歷竟陵太守與中大夫。",
+      "paragraph_id": "c-songshu-047-mengzongsi:p001",
+      "start_codepoint": 0,
+      "end_codepoint": 15,
+      "human_reviewed": false
+    },
+    {
+      "id": "c-songshu-047-mengzongsi:kin_text_variants1-0",
+      "kind": "kin_text_variants",
+      "person_id": "6s5_hh6_zh8",
+      "source_quote": "慧熙子宗嗣",
+      "reading": "底本改子，注稱各本己、孫虨以子或弟為候選；四庫數位原詞為已，殿本影像見己。此處保留未決。",
+      "note": "底本改子，注稱各本己、孫虨以子或弟為候選；四庫數位原詞為已，殿本影像見己。此處保留未決。",
+      "paragraph_id": "c-songshu-047-mengzongsi:p001",
+      "start_codepoint": 0,
+      "end_codepoint": 5,
+      "human_reviewed": false,
+      "editorial_received": "子",
+      "wuying": "己",
+      "siku_transcription": "已",
+      "alternative": "弟",
+      "family_path_adopted": false
+    }
+  ],
+  "identity_limits": []
+}

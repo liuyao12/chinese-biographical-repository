@@ -1,0 +1,133 @@
+{
+  "format_version": "0.2",
+  "record_type": "marked_chapter",
+  "id": "c-songshu-047-tanlang",
+  "work_id": "w-songshu",
+  "book_id": "b-songshu-047",
+  "source_id": "s-songshu-047-tanlang-ws2190557",
+  "title": "檀朗",
+  "source": {
+    "title": "檀朗",
+    "provider": "Wikisource",
+    "permalink": "https://zh.wikisource.org/w/index.php?oldid=2190557",
+    "url": "https://zh.wikisource.org/w/index.php?oldid=2190557",
+    "revision_id": 2190557,
+    "edition": "維基文庫固定修訂",
+    "accessed_on": "2026-11-21",
+    "review_status": "text_checked",
+    "image_verified": false,
+    "rights": "古代原文；數位轉錄依維基文庫授權。",
+    "license_url": "https://creativecommons.org/licenses/by-sa/4.0/",
+    "extent": "檀朗",
+    "text_scope": "complete_biography_unit",
+    "raw_path": "source-evidence/nan023-wanghui/ws2190557.wikitext",
+    "raw_file_sha256": "cc75864d017c88ec8c285b2b7772125dc7b10e0b49eed8f8dfa472db5db8cc20"
+  },
+  "annotation": {
+    "status": "reviewed",
+    "reviewer": "Codex（AI代理）",
+    "model": null,
+    "human_reviewed": false,
+    "source_reading_cases": [
+      {
+        "id": "c-songshu-047-tanlang:received_sentence1-0",
+        "kind": "received_sentence",
+        "person_id": "59p_dir_tdq_B",
+        "source_quote": "祗次子朗紹封。",
+        "reading": "祗次子朗紹西昌封。",
+        "note": "祗次子朗紹西昌封。",
+        "paragraph_id": "c-songshu-047-tanlang:p001",
+        "start_codepoint": 0,
+        "end_codepoint": 7,
+        "human_reviewed": false
+      },
+      {
+        "id": "c-songshu-047-tanlang:received_sentence1-7",
+        "kind": "received_sentence",
+        "person_id": "59p_dir_tdq_B",
+        "source_quote": "朗卒，",
+        "reading": "朗卒。",
+        "note": "朗卒。",
+        "paragraph_id": "c-songshu-047-tanlang:p001",
+        "start_codepoint": 7,
+        "end_codepoint": 10,
+        "human_reviewed": false
+      },
+      {
+        "id": "c-songshu-047-tanlang:succession1-0",
+        "kind": "succession",
+        "person_id": "59p_dir_tdq_B",
+        "source_quote": "祗次子朗紹封",
+        "reading": "獻無子，次子朗紹封，並非獻生子。父祗明文。元熙中獻卒為其嗣位下限，齊受禪479國除為朗死上限。",
+        "note": "獻無子，次子朗紹封，並非獻生子。父祗明文。元熙中獻卒為其嗣位下限，齊受禪479國除為朗死上限。",
+        "paragraph_id": "c-songshu-047-tanlang:p001",
+        "start_codepoint": 0,
+        "end_codepoint": 6,
+        "human_reviewed": false,
+        "father": "59p_dir_tdq",
+        "predecessor": "59p_dir_tdq_A",
+        "successor": "59p_dir_tdq_B",
+        "ordinal": "次子",
+        "death_ce_earliest": 419,
+        "death_ce_latest": 479
+      }
+    ]
+  },
+  "paragraphs": [
+    {
+      "id": "c-songshu-047-tanlang:p001",
+      "text": "祗次子朗紹封。朗卒，",
+      "text_layer": "received_chapter",
+      "annotation_status": "reviewed",
+      "source_position": {
+        "first_line": 90,
+        "last_line": 90,
+        "raw_start": 8918,
+        "raw_end": 8928,
+        "raw_character_offsets": [
+          8918,
+          8919,
+          8920,
+          8921,
+          8922,
+          8923,
+          8924,
+          8925,
+          8926,
+          8927
+        ],
+        "revision_id": 2190557
+      },
+      "mentions": [
+        {
+          "id": "c-songshu-047-tanlang:p001:m0000",
+          "start": 0,
+          "end": 1,
+          "surface": "祗",
+          "kind": "person",
+          "person_id": "59p_dir_tdq",
+          "status": "contextual_provisional"
+        },
+        {
+          "id": "c-songshu-047-tanlang:p001:m0003",
+          "start": 3,
+          "end": 4,
+          "surface": "朗",
+          "kind": "person",
+          "person_id": "59p_dir_tdq_B",
+          "status": "contextual_provisional"
+        },
+        {
+          "id": "c-songshu-047-tanlang:p001:m0007",
+          "start": 7,
+          "end": 8,
+          "surface": "朗",
+          "kind": "person",
+          "person_id": "59p_dir_tdq_B",
+          "status": "contextual_provisional"
+        }
+      ]
+    }
+  ],
+  "text_sha256": "6d257dd4e5b5e9b3e30ec8ae46feadeb4c471fed6536b0b149245693978c93aa"
+}

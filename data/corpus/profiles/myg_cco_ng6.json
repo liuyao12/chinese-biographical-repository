@@ -159,6 +159,54 @@
       "human_reviewed": false,
       "model": null,
       "period": "未定 → 未定"
+    },
+    {
+      "id": "th-songshu-047-liuweizu-1-15",
+      "title": "江夏內史",
+      "kind": "office",
+      "mode": "attestation",
+      "person_id": "myg_cco_ng6",
+      "attestations": [
+        {
+          "id": "th-songshu-047-liuweizu-1-15:a",
+          "paragraph_id": "c-songshu-047-liuweizu:p001",
+          "start": 15,
+          "end": 19,
+          "surface": "江夏內史",
+          "person_mention_id": "c-songshu-047-liuweizu:p001:m0008",
+          "usage": "narrative",
+          "date_expression": null
+        }
+      ],
+      "effective_period": {
+        "start": {
+          "status": "unknown",
+          "date_expression": null,
+          "evidence": []
+        },
+        "end": {
+          "status": "unknown",
+          "date_expression": null,
+          "evidence": []
+        }
+      },
+      "evidence": [
+        {
+          "work_id": "w-songshu",
+          "book_id": "b-songshu-047",
+          "chapter_id": "c-songshu-047-liuweizu",
+          "source_id": "s-songshu-047-liuweizu-ws2190557",
+          "paragraph_id": "c-songshu-047-liuweizu:p001",
+          "quote": "無子，弟懷慎以子蔚祖嗣封，官至江夏內史。",
+          "person_mention_id": "c-songshu-047-liuweizu:p001:m0008"
+        }
+      ],
+      "status": "source_attested",
+      "interpretation_note": "所見原官稱，未載全任期。",
+      "reviewer": "Codex（AI代理）",
+      "model": null,
+      "human_reviewed": false,
+      "period": "未定 → 未定"
     }
   ],
   "addresses": [],
@@ -207,6 +255,51 @@
       "chapter_id": "c-songshu-047-liuhuaisu",
       "source_id": "s-songshu-047-liuhuaisu",
       "work_title": "宋書"
+    },
+    {
+      "number": 47,
+      "category": "",
+      "title": "劉蔚祖",
+      "paragraph_id": "c-songshu-047-liuweizu:p001",
+      "count": 2,
+      "raw_count": 2,
+      "duplicate_count": 0,
+      "counting_policy": "independent_fixed_witness_occurrences",
+      "quote": "無子，弟懷慎以子蔚祖嗣封，官至江夏內史。",
+      "paragraph_ids": [
+        "c-songshu-047-liuweizu:p001",
+        "c-songshu-047-liuweizu:p002"
+      ],
+      "mention_ids": [
+        "c-songshu-047-liuweizu:p001:m0008",
+        "c-songshu-047-liuweizu:p002:m0000"
+      ],
+      "mention_paragraph_ids": {
+        "c-songshu-047-liuweizu:p001:m0008": "c-songshu-047-liuweizu:p001",
+        "c-songshu-047-liuweizu:p002:m0000": "c-songshu-047-liuweizu:p002"
+      },
+      "mention_id": "c-songshu-047-liuweizu:p001:m0008",
+      "occurrence_groups": [
+        {
+          "canonical_mention_id": "c-songshu-047-liuweizu:p001:m0008",
+          "mention_ids": [
+            "c-songshu-047-liuweizu:p001:m0008"
+          ],
+          "kind": "paragraph"
+        },
+        {
+          "canonical_mention_id": "c-songshu-047-liuweizu:p002:m0000",
+          "mention_ids": [
+            "c-songshu-047-liuweizu:p002:m0000"
+          ],
+          "kind": "paragraph"
+        }
+      ],
+      "work_id": "w-songshu",
+      "book_id": "b-songshu-047",
+      "chapter_id": "c-songshu-047-liuweizu",
+      "source_id": "s-songshu-047-liuweizu-ws2190557",
+      "work_title": "宋書"
     }
   ],
   "table_occurrences": [],
@@ -236,6 +329,29 @@
         "raw_path": "sources/songshu/KR2a0016_047-e80c057-zhangchang-reference.txt",
         "accessed_on": "2026-10-20",
         "license_url": "https://creativecommons.org/publicdomain/mark/1.0/"
+      }
+    },
+    {
+      "chapter_id": "c-songshu-047-liuweizu",
+      "work_id": "w-songshu",
+      "book_id": "b-songshu-047",
+      "source_id": "s-songshu-047-liuweizu-ws2190557",
+      "source": {
+        "title": "劉蔚祖",
+        "provider": "Wikisource",
+        "permalink": "https://zh.wikisource.org/w/index.php?oldid=2190557",
+        "url": "https://zh.wikisource.org/w/index.php?oldid=2190557",
+        "revision_id": 2190557,
+        "edition": "維基文庫固定修訂",
+        "accessed_on": "2026-11-21",
+        "review_status": "text_checked",
+        "image_verified": false,
+        "rights": "古代原文；數位轉錄依維基文庫授權。",
+        "license_url": "https://creativecommons.org/licenses/by-sa/4.0/",
+        "extent": "劉蔚祖",
+        "text_scope": "complete_biography_unit",
+        "raw_path": "source-evidence/nan023-wanghui/ws2190557.wikitext",
+        "raw_file_sha256": "cc75864d017c88ec8c285b2b7772125dc7b10e0b49eed8f8dfa472db5db8cc20"
       }
     }
   ],
@@ -301,6 +417,54 @@
   },
   "dates": [],
   "name_components": [],
+  "source_reading_cases": [
+    {
+      "id": "c-songshu-047-liuweizu:received_sentence1-0",
+      "kind": "received_sentence",
+      "person_id": "myg_cco_ng6",
+      "source_quote": "無子，弟懷慎以子蔚祖嗣封，官至江夏內史。",
+      "reading": "懷肅無子，弟懷慎以親生子蔚祖嗣其封，蔚祖官至江夏內史。",
+      "note": "懷肅無子，弟懷慎以親生子蔚祖嗣其封，蔚祖官至江夏內史。",
+      "paragraph_id": "c-songshu-047-liuweizu:p001",
+      "start_codepoint": 0,
+      "end_codepoint": 20,
+      "human_reviewed": false,
+      "chapter_id": "c-songshu-047-liuweizu",
+      "source_id": "s-songshu-047-liuweizu-ws2190557"
+    },
+    {
+      "id": "c-songshu-047-liuweizu:received_sentence2-0",
+      "kind": "received_sentence",
+      "person_id": "myg_cco_ng6",
+      "source_quote": "蔚祖卒，",
+      "reading": "蔚祖卒，接子道存嗣。",
+      "note": "蔚祖卒，接子道存嗣。",
+      "paragraph_id": "c-songshu-047-liuweizu:p002",
+      "start_codepoint": 0,
+      "end_codepoint": 4,
+      "human_reviewed": false,
+      "chapter_id": "c-songshu-047-liuweizu",
+      "source_id": "s-songshu-047-liuweizu-ws2190557"
+    },
+    {
+      "id": "c-songshu-047-liuweizu:kinship_and_succession1-3",
+      "kind": "kinship_and_succession",
+      "person_id": "myg_cco_ng6",
+      "source_quote": "弟懷慎以子蔚祖嗣封",
+      "reading": "源詞明生父懷慎，所襲為懷肅東興縣侯；未直書作嗣子，繼封亦不強推過房。",
+      "note": "源詞明生父懷慎，所襲為懷肅東興縣侯；未直書作嗣子，繼封亦不強推過房。",
+      "paragraph_id": "c-songshu-047-liuweizu:p001",
+      "start_codepoint": 3,
+      "end_codepoint": 12,
+      "human_reviewed": false,
+      "birth_father": "tyh_fzo_pb6",
+      "prior_holder": "olf_c6j_hmg",
+      "successor": "myg_cco_ng6",
+      "adoptive_father": null,
+      "chapter_id": "c-songshu-047-liuweizu",
+      "source_id": "s-songshu-047-liuweizu-ws2190557"
+    }
+  ],
   "person_ids": [
     "myg_cco_ng6"
   ],
@@ -388,6 +552,35 @@
       "human_reviewed": false,
       "reviewer": "Codex（AI代理）",
       "model": null
+    },
+    {
+      "id": "le-song047-liuweizu-蔚祖",
+      "person_id": "myg_cco_ng6",
+      "event_type": "death",
+      "source_term": "卒",
+      "source_anchor": {
+        "paragraph_id": "c-songshu-047-liuweizu:p002",
+        "start": 2,
+        "end": 3,
+        "surface": "卒"
+      },
+      "date_expression": null,
+      "evidence": [
+        {
+          "work_id": "w-songshu",
+          "book_id": "b-songshu-047",
+          "chapter_id": "c-songshu-047-liuweizu",
+          "source_id": "s-songshu-047-liuweizu-ws2190557",
+          "paragraph_id": "c-songshu-047-liuweizu:p002",
+          "quote": "蔚祖卒，",
+          "person_mention_id": "c-songshu-047-liuweizu:p002:m0000"
+        }
+      ],
+      "status": "source_attested",
+      "interpretation_note": "按同段人物與次第核所屬卒事。",
+      "reviewer": "Codex（AI代理）",
+      "model": null,
+      "human_reviewed": false
     }
   ],
   "life_event_date_decisions": [],

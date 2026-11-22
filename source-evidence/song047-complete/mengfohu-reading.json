@@ -1,0 +1,106 @@
+{
+  "record_type": "fixed_source_complete_item_review",
+  "reviewer": "Codex（AI代理）",
+  "model": null,
+  "human_reviewed": false,
+  "external_witnesses": [],
+  "print_readings": [
+    {
+      "url": "https://upload.wikimedia.org/wikipedia/commons/7/75/NLC892-411999017142-12779_%E4%BA%8C%E5%8D%81%E5%9B%9B%E5%8F%B2_%E7%AC%AC144%E5%86%8A.pdf#page=63",
+      "catalog_record": "https://commons.wikimedia.org/wiki/File:NLC892-411999017142-12779_%E4%BA%8C%E5%8D%81%E5%9B%9B%E5%8F%B2_%E7%AC%AC144%E5%86%8A.pdf",
+      "pdf_sha1": "126c34411892f6943a575a15ee46fb0064bd5b7b",
+      "pdf_sha256": "316229a8587d188289a7fa2dac393760437ca7facf5deb7a3bfa09770b4a1ac3",
+      "image_sha256": "8f5e90c0faf4e157f572b3a16c68db36b6252c04c229c776b6f40bd7524e4565",
+      "edition": "清乾隆武英殿本《宋書》，國圖第144冊。",
+      "page": 63,
+      "half": "R",
+      "folio": "六下",
+      "columns_from_right": "7–8",
+      "source_quote": "以微生弟彥祖子佛護襲爵齊受禪國除",
+      "reading": "入齊除國。"
+    }
+  ],
+  "boundaries": [
+    {
+      "book_id": "b-songshu-047",
+      "title": "孟佛護",
+      "unit_kind": "embedded_account",
+      "chapter_id": "c-songshu-047-mengfohu",
+      "entry_checked": true,
+      "full_text": true,
+      "first_pass": true,
+      "item_reviewed": true,
+      "source_layout": "wikisource_mixed_indented_prose",
+      "first_line": 40,
+      "last_line": 40,
+      "start_codepoint": 504,
+      "end_codepoint": 523,
+      "opening": "以微生弟彥祖子佛護襲爵。",
+      "closing": "佛護襲爵。齊受禪，國除。",
+      "parent_heading": "孟龍符",
+      "chapter_path": "corpus/songshu/047-mengfohu.json",
+      "paragraph_ids": [
+        "c-songshu-047-mengfohu:p001"
+      ],
+      "item_review_path": "source-evidence/song047-complete/mengfohu-reading.json"
+    }
+  ],
+  "chronology": [],
+  "readings": [
+    {
+      "id": "c-songshu-047-mengfohu:received_sentence1-0",
+      "kind": "received_sentence",
+      "person_id": "3ut_u0d_j6w_*AABBA",
+      "source_quote": "以微生弟彥祖子佛護襲爵。",
+      "reading": "微生弟彥祖之子佛護襲爵。",
+      "note": "微生弟彥祖之子佛護襲爵。",
+      "paragraph_id": "c-songshu-047-mengfohu:p001",
+      "start_codepoint": 0,
+      "end_codepoint": 12,
+      "human_reviewed": false
+    },
+    {
+      "id": "c-songshu-047-mengfohu:received_sentence1-12",
+      "kind": "received_sentence",
+      "person_id": "3ut_u0d_j6w_*AABBA",
+      "source_quote": "齊受禪，國除。",
+      "reading": "齊受禪，臨沅國除。",
+      "note": "齊受禪，臨沅國除。",
+      "paragraph_id": "c-songshu-047-mengfohu:p001",
+      "start_codepoint": 12,
+      "end_codepoint": 19,
+      "human_reviewed": false
+    },
+    {
+      "id": "c-songshu-047-mengfohu:succession1-0",
+      "kind": "succession",
+      "person_id": "3ut_u0d_j6w_*AABBA",
+      "source_quote": "以微生弟彥祖子佛護襲爵",
+      "reading": "微生奪爵後由其弟之子承封；生父彥祖。",
+      "note": "微生奪爵後由其弟之子承封；生父彥祖。",
+      "paragraph_id": "c-songshu-047-mengfohu:p001",
+      "start_codepoint": 0,
+      "end_codepoint": 11,
+      "human_reviewed": false,
+      "previous": "3ut_u0d_j6w_*AABA",
+      "father": "3ut_u0d_j6w_*AABB",
+      "successor": "3ut_u0d_j6w_*AABBA",
+      "fief": "臨沅縣男"
+    },
+    {
+      "id": "c-songshu-047-mengfohu:chronology1-12",
+      "kind": "chronology",
+      "person_id": "3ut_u0d_j6w_*AABBA",
+      "source_quote": "齊受禪，國除",
+      "reading": "南齊建元元年即479。此年國除，個人卒年未述。",
+      "note": "南齊建元元年即479。此年國除，個人卒年未述。",
+      "paragraph_id": "c-songshu-047-mengfohu:p001",
+      "start_codepoint": 12,
+      "end_codepoint": 18,
+      "human_reviewed": false,
+      "ce_year": 479,
+      "event": "除國"
+    }
+  ],
+  "identity_limits": []
+}

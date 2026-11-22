@@ -1,0 +1,116 @@
+{
+  "format_version": "0.2",
+  "record_type": "person_assertion_set",
+  "chapter_id": "c-chenshu-028-shenwuhua-yin",
+  "assertions": [
+    {
+      "id": "a-nan012-shenwuhua-d-father",
+      "subject_person_id": "icd_mkz_d9n_AB",
+      "object_person_id": "icd_mkz_d9n_A",
+      "predicate": "father",
+      "qualifiers": {
+        "source_term": "後主長子",
+        "nan012_shenwuhua_reading": "d-father",
+        "lineage": "paternal",
+        "birth_order": {
+          "source_term": "長子",
+          "source_number": null,
+          "ordinal": 1,
+          "position": "eldest",
+          "scope": "sons_of_parent",
+          "parent_person_id": "icd_mkz_d9n_A",
+          "interpretation_status": "source_attested"
+        }
+      },
+      "evidence": [
+        {
+          "work_id": "w-chenshu",
+          "book_id": "b-chenshu-028",
+          "source_id": "s-chenshu-028-shenwuhua-yin-ws2581394",
+          "chapter_id": "c-chenshu-028-shenwuhua-yin",
+          "paragraph_id": "c-chenshu-028-shenwuhua-yin:p001",
+          "quote": "吳興王胤字承業，後主長子也。太建五年二月乙丑生于東宮，母孫姬因產卒，沈皇后哀而養之，以為己子。",
+          "subject_person_mention_id": "c-chenshu-028-shenwuhua-yin:p001:m0003",
+          "object_person_reference_id": "c-chenshu-028-shenwuhua-yin:p001:r0008",
+          "relationship_anchor": {
+            "paragraph_id": "c-chenshu-028-shenwuhua-yin:p001",
+            "surface": "後主長子",
+            "start": 8,
+            "end": 12
+          }
+        }
+      ],
+      "status": "source_attested",
+      "interpretation_note": "胤為後主長子。",
+      "reviewer": "Codex（AI 代理）",
+      "human_reviewed": false,
+      "model": null
+    },
+    {
+      "id": "a-nan012-shenwuhua-d-birth",
+      "subject_person_id": "icd_mkz_d9n_AB",
+      "object_person_id": "sxa_qn1_yt0",
+      "predicate": "mother",
+      "qualifiers": {
+        "source_term": "母孫姬",
+        "nan012_shenwuhua_reading": "d-birth"
+      },
+      "evidence": [
+        {
+          "work_id": "w-chenshu",
+          "book_id": "b-chenshu-028",
+          "source_id": "s-chenshu-028-shenwuhua-yin-ws2581394",
+          "chapter_id": "c-chenshu-028-shenwuhua-yin",
+          "paragraph_id": "c-chenshu-028-shenwuhua-yin:p001",
+          "quote": "吳興王胤字承業，後主長子也。太建五年二月乙丑生于東宮，母孫姬因產卒，沈皇后哀而養之，以為己子。",
+          "subject_person_mention_id": "c-chenshu-028-shenwuhua-yin:p001:m0003",
+          "object_person_mention_id": "c-chenshu-028-shenwuhua-yin:p001:m0028",
+          "relationship_anchor": {
+            "paragraph_id": "c-chenshu-028-shenwuhua-yin:p001",
+            "surface": "母孫姬",
+            "start": 27,
+            "end": 30
+          }
+        }
+      ],
+      "status": "source_attested",
+      "interpretation_note": "生母孫姬。",
+      "reviewer": "Codex（AI 代理）",
+      "human_reviewed": false,
+      "model": null
+    },
+    {
+      "id": "a-nan012-shenwuhua-d-adopt",
+      "subject_person_id": "icd_mkz_d9n_AB",
+      "object_person_id": "9wm_vgh_vz1_AAA",
+      "predicate": "adoptive_mother",
+      "qualifiers": {
+        "source_term": "沈皇后哀而養之，以為己子",
+        "nan012_shenwuhua_reading": "d-adopt"
+      },
+      "evidence": [
+        {
+          "work_id": "w-chenshu",
+          "book_id": "b-chenshu-028",
+          "source_id": "s-chenshu-028-shenwuhua-yin-ws2581394",
+          "chapter_id": "c-chenshu-028-shenwuhua-yin",
+          "paragraph_id": "c-chenshu-028-shenwuhua-yin:p001",
+          "quote": "吳興王胤字承業，後主長子也。太建五年二月乙丑生于東宮，母孫姬因產卒，沈皇后哀而養之，以為己子。",
+          "subject_person_mention_id": "c-chenshu-028-shenwuhua-yin:p001:m0003",
+          "object_person_mention_id": "c-chenshu-028-shenwuhua-yin:p001:m0034",
+          "relationship_anchor": {
+            "paragraph_id": "c-chenshu-028-shenwuhua-yin:p001",
+            "surface": "沈皇后哀而養之，以為己子",
+            "start": 34,
+            "end": 46
+          }
+        }
+      ],
+      "status": "source_attested",
+      "interpretation_note": "吳興王本傳原句。",
+      "reviewer": "Codex（AI 代理）",
+      "human_reviewed": false,
+      "model": null
+    }
+  ]
+}

@@ -51,6 +51,41 @@
     {
       "number": 7,
       "category": "",
+      "title": "皇后列傳、魏徵補敘及卷末考證（乾隆武英殿本節錄）",
+      "paragraph_id": "c-chenshu-007-wuying-consorts:p004",
+      "count": 1,
+      "raw_count": 1,
+      "duplicate_count": 0,
+      "counting_policy": "independent_fixed_witness_occurrences",
+      "quote": "高祖宣皇后章氏諱要兒吳興烏程人也本姓鈕父景明為章氏所養因改焉",
+      "paragraph_ids": [
+        "c-chenshu-007-wuying-consorts:p004"
+      ],
+      "mention_ids": [
+        "c-chenshu-007-wuying-consorts:p004:m0008"
+      ],
+      "mention_paragraph_ids": {
+        "c-chenshu-007-wuying-consorts:p004:m0008": "c-chenshu-007-wuying-consorts:p004"
+      },
+      "mention_id": "c-chenshu-007-wuying-consorts:p004:m0008",
+      "occurrence_groups": [
+        {
+          "canonical_mention_id": "c-chenshu-007-wuying-consorts:p004:m0008",
+          "mention_ids": [
+            "c-chenshu-007-wuying-consorts:p004:m0008"
+          ],
+          "kind": "paragraph"
+        }
+      ],
+      "work_id": "w-chenshu",
+      "book_id": "b-chenshu-007",
+      "chapter_id": "c-chenshu-007-wuying-consorts",
+      "source_id": "s-chenshu-007-wuying-consorts-1739",
+      "work_title": "陳書"
+    },
+    {
+      "number": 7,
+      "category": "",
       "title": "高祖皇后章要兒及親屬",
       "paragraph_id": "c-chenshu-007-zhangyaoer:p001",
       "count": 2,
@@ -170,6 +205,62 @@
       }
     },
     {
+      "chapter_id": "c-chenshu-007-consorts-editorial",
+      "work_id": "w-chenshu",
+      "book_id": "b-chenshu-007",
+      "source_id": "s-chenshu-007-consorts-editorial-ws2015446",
+      "source": {
+        "title": "陳書卷7·后妃傳序與史臣曰",
+        "provider": "Wikisource",
+        "url": "https://zh.wikisource.org/w/index.php?oldid=2015446",
+        "permalink": "https://zh.wikisource.org/w/index.php?oldid=2015446",
+        "revision_id": 2015446,
+        "accessed_on": "2026-11-21",
+        "edition": "維基文庫固定數位轉錄",
+        "extent": "逐段會通原卷論贊及序例。",
+        "text_scope": "partial_chapter",
+        "image_verified": false,
+        "review_status": "text_checked",
+        "raw_path": "source-evidence/nan023-wanggu/ws2015446.wikitext",
+        "raw_file_sha256": "a4557ee8b6e3859d18b3ad123ae5a394dfe9d3556c818fc9cafcc03dae9057f1",
+        "rights": "古代原典及維基文庫數位轉錄。",
+        "license_url": "https://zh.wikisource.org/wiki/Wikisource:著作權資訊",
+        "normalization": {
+          "character_conversion": {},
+          "extraction_note": "投影相應原句，保留字形；移除年號模板定界符。"
+        },
+        "section_locator": "后妃傳序與史臣曰",
+        "textual_layer": "historian_editorial"
+      }
+    },
+    {
+      "chapter_id": "c-chenshu-007-wuying-consorts",
+      "work_id": "w-chenshu",
+      "book_id": "b-chenshu-007",
+      "source_id": "s-chenshu-007-wuying-consorts-1739",
+      "source": {
+        "title": "清乾隆四年武英殿本《陳書》卷七皇后列傳節讀及卷末考證",
+        "provider": "中國國家圖書館藏本，Wikimedia Commons",
+        "url": "https://commons.wikimedia.org/wiki/File:NLC892-411999000037-306536_%E9%99%B3%E6%9B%B8_%E7%AC%AC2%E5%86%8A.pdf",
+        "permalink": "https://commons.wikimedia.org/w/index.php?oldid=997527595",
+        "revision_id": "cbr-ai-transcription-sha256:af8dccf903767b99c9a789debedbd5e19b346e21cea98059d5bc194c76e387d9",
+        "accessed_on": "2026-11-21",
+        "edition": "清乾隆四年武英殿刻本《陳書》第二冊",
+        "extent": "第二冊第43至52面，卷題、序、六傳、魏徵補敘、史臣論節錄及卷末考證。每欄由右起數。",
+        "text_scope": "partial_chapter",
+        "image_verified": true,
+        "review_status": "AI_image_transcription_draft",
+        "raw_path": "source-evidence/chen007-wuying-consorts/columns.txt",
+        "raw_file_sha256": "af8dccf903767b99c9a789debedbd5e19b346e21cea98059d5bc194c76e387d9",
+        "license_url": "https://commons.wikimedia.org/wiki/File:NLC892-411999000037-306536_%E9%99%B3%E6%9B%B8_%E7%AC%AC2%E5%86%8A.pdf",
+        "rights": "國圖藏清刊本，提供館藏書影連結與分欄轉寫。",
+        "normalization": {
+          "character_conversion": {},
+          "extraction_note": "每欄自上至下。正文不增標點。卷末考證的圈形分隔以○轉寫。"
+        }
+      }
+    },
+    {
       "chapter_id": "c-chenshu-007-zhangyaoer",
       "work_id": "w-chenshu",
       "book_id": "b-chenshu-007",
@@ -215,6 +306,35 @@
           ]
         },
         "section_locator": "高祖皇后章要兒及親屬"
+      }
+    },
+    {
+      "chapter_id": "c-nanshi-012-consorts-editorial",
+      "work_id": "w-nanshi",
+      "book_id": "b-nanshi-012",
+      "source_id": "s-nanshi-012-consorts-editorial-ws2060595",
+      "source": {
+        "title": "南史卷12·后妃列傳卷末論曰",
+        "provider": "Wikisource",
+        "url": "https://zh.wikisource.org/w/index.php?oldid=2060595",
+        "permalink": "https://zh.wikisource.org/w/index.php?oldid=2060595",
+        "revision_id": 2060595,
+        "accessed_on": "2026-11-21",
+        "edition": "維基文庫固定數位轉錄",
+        "extent": "逐段會通原卷論贊及序例。",
+        "text_scope": "partial_chapter",
+        "image_verified": false,
+        "review_status": "text_checked",
+        "raw_path": "source-evidence/liang021-wangfen-family/ws2060595.wikitext",
+        "raw_file_sha256": "824ea646232a633c4834f212ae72df29a2a790d8c17e6792764b1d4338baf929",
+        "rights": "古代原典及維基文庫數位轉錄。",
+        "license_url": "https://zh.wikisource.org/wiki/Wikisource:著作權資訊",
+        "normalization": {
+          "character_conversion": {},
+          "extraction_note": "投影相應原句，保留字形；移除年號模板定界符。"
+        },
+        "section_locator": "后妃列傳卷末論曰",
+        "textual_layer": "historian_editorial"
       }
     },
     {
@@ -276,6 +396,39 @@
     }
   ],
   "relations": [
+    {
+      "id": "a-chen007-wyd-name-adoption-father",
+      "subject_person_id": "bb6_de0_sx1_A",
+      "object_person_id": "bb6_de0_sx1",
+      "predicate": "father",
+      "qualifiers": {
+        "source_term": "父景明",
+        "lineage": "paternal"
+      },
+      "evidence": [
+        {
+          "work_id": "w-chenshu",
+          "book_id": "b-chenshu-007",
+          "chapter_id": "c-chenshu-007-wuying-consorts",
+          "source_id": "s-chenshu-007-wuying-consorts-1739",
+          "paragraph_id": "c-chenshu-007-wuying-consorts:p004",
+          "quote": "高祖宣皇后章氏諱要兒吳興烏程人也本姓鈕父景明為章氏所養因改焉",
+          "subject_person_mention_id": "c-chenshu-007-wuying-consorts:p004:m0008",
+          "object_person_mention_id": "c-chenshu-007-wuying-consorts:p004:m0020",
+          "relationship_anchor": {
+            "paragraph_id": "c-chenshu-007-wuying-consorts:p004",
+            "surface": "父景明",
+            "start": 19,
+            "end": 22
+          }
+        }
+      ],
+      "status": "source_attested",
+      "interpretation_note": "此刻卷七本傳原句。",
+      "reviewer": "Codex（AI 代理）",
+      "human_reviewed": false,
+      "model": null
+    },
     {
       "id": "a-nan012-zhangyaoer-c-father",
       "subject_person_id": "bb6_de0_sx1_A",
@@ -601,6 +754,111 @@
   ],
   "person_references": [
     {
+      "id": "c-chenshu-007-consorts-editorial:p002:r0044",
+      "surface": "宣太后",
+      "start": 44,
+      "end": 47,
+      "person_id": "bb6_de0_sx1_A",
+      "referent_role": "third_person",
+      "paragraph_id": "c-chenshu-007-consorts-editorial:p002",
+      "quote": "史臣曰：詩表關雎之德，易箸乾坤之基，然夫婦之際，人道之大倫也。若夫作儷天則，燮贊王化，則宣太后有其懿焉。",
+      "note": "依同段姓名、引者及所答者。",
+      "chapter_id": "c-chenshu-007-consorts-editorial",
+      "book_id": "b-chenshu-007",
+      "work_id": "w-chenshu",
+      "source_id": "s-chenshu-007-consorts-editorial-ws2015446"
+    },
+    {
+      "id": "c-chenshu-007-wuying-consorts:p002:r0000",
+      "surface": "高祖章皇后",
+      "start": 0,
+      "end": 5,
+      "person_id": "bb6_de0_sx1_A",
+      "paragraph_id": "c-chenshu-007-wuying-consorts:p002",
+      "referent_role": "third_person",
+      "quote": "高祖章皇后世祖沈皇后廢帝王皇后高宗柳皇后後主沈皇后張貴妃",
+      "note": "卷題三欄列六位女主。後主沈皇后下張貴妃字小。",
+      "chapter_id": "c-chenshu-007-wuying-consorts",
+      "book_id": "b-chenshu-007",
+      "work_id": "w-chenshu",
+      "source_id": "s-chenshu-007-wuying-consorts-1739"
+    },
+    {
+      "id": "c-chenshu-007-wuying-consorts:p005:r0015",
+      "surface": "后",
+      "start": 15,
+      "end": 16,
+      "person_id": "bb6_de0_sx1_A",
+      "paragraph_id": "c-chenshu-007-wuying-consorts:p005",
+      "referent_role": "third_person",
+      "quote": "高祖先娶同郡錢仲方女早卒後乃聘后",
+      "note": "高祖先妻為錢仲方女，早卒後聘章后。",
+      "chapter_id": "c-chenshu-007-wuying-consorts",
+      "book_id": "b-chenshu-007",
+      "work_id": "w-chenshu",
+      "source_id": "s-chenshu-007-wuying-consorts-1739"
+    },
+    {
+      "id": "c-chenshu-007-wuying-consorts:p006:r0006",
+      "surface": "皇后",
+      "start": 6,
+      "end": 8,
+      "person_id": "bb6_de0_sx1_A",
+      "paragraph_id": "c-chenshu-007-wuying-consorts:p006",
+      "referent_role": "third_person",
+      "quote": "永定九年立為皇后",
+      "note": "章后冊立，殿本、四庫數位本實作九年，兩史通行數位本作元年。",
+      "chapter_id": "c-chenshu-007-wuying-consorts",
+      "book_id": "b-chenshu-007",
+      "work_id": "w-chenshu",
+      "source_id": "s-chenshu-007-wuying-consorts-1739"
+    },
+    {
+      "id": "c-chenshu-007-wuying-consorts:p008:r0007",
+      "surface": "皇太后",
+      "start": 7,
+      "end": 10,
+      "person_id": "bb6_de0_sx1_A",
+      "paragraph_id": "c-chenshu-007-wuying-consorts:p008",
+      "referent_role": "third_person",
+      "quote": "太建元年尊后為皇太后二年三月丙申崩于紫極殿時年六十五",
+      "note": "章后訃日殿本刻丙申，丙字右旁似小書景，筆者未署。",
+      "chapter_id": "c-chenshu-007-wuying-consorts",
+      "book_id": "b-chenshu-007",
+      "work_id": "w-chenshu",
+      "source_id": "s-chenshu-007-wuying-consorts-1739"
+    },
+    {
+      "id": "c-chenshu-007-wuying-consorts:p040:r0037",
+      "surface": "宣太后",
+      "start": 37,
+      "end": 40,
+      "person_id": "bb6_de0_sx1_A",
+      "paragraph_id": "c-chenshu-007-wuying-consorts:p040",
+      "referent_role": "third_person",
+      "quote": "史臣曰詩表關雎之德易著乾坤之基然夫婦之際人道之大倫也若夫作儷天則燮贊王化則宣太后有其懿焉",
+      "note": "此起史臣論，全句論宣太后。",
+      "chapter_id": "c-chenshu-007-wuying-consorts",
+      "book_id": "b-chenshu-007",
+      "work_id": "w-chenshu",
+      "source_id": "s-chenshu-007-wuying-consorts-1739"
+    },
+    {
+      "id": "c-chenshu-007-wuying-consorts:p042:r0002",
+      "surface": "宣皇后章氏",
+      "start": 2,
+      "end": 7,
+      "person_id": "bb6_de0_sx1_A",
+      "paragraph_id": "c-chenshu-007-wuying-consorts:p042",
+      "referent_role": "third_person",
+      "quote": "高祖宣皇后章氏傳后母蘇○后監本誤後今改正",
+      "note": "卷末考證自記后／後的監本異字。",
+      "chapter_id": "c-chenshu-007-wuying-consorts",
+      "book_id": "b-chenshu-007",
+      "work_id": "w-chenshu",
+      "source_id": "s-chenshu-007-wuying-consorts-1739"
+    },
+    {
       "id": "c-chenshu-007-zhangyaoer:p002:r0151",
       "surface": "后",
       "start": 151,
@@ -629,6 +887,21 @@
       "book_id": "b-chenshu-007",
       "work_id": "w-chenshu",
       "source_id": "s-chenshu-007-zhangyaoer-ws2015446"
+    },
+    {
+      "id": "c-nanshi-012-consorts-editorial:p004:r0025",
+      "surface": "宣太后",
+      "start": 25,
+      "end": 28,
+      "person_id": "bb6_de0_sx1_A",
+      "referent_role": "third_person",
+      "paragraph_id": "c-nanshi-012-consorts-editorial:p004",
+      "quote": "陳武撫茲歸運，奄開帝業。若夫儷天作則，燮隆王化，則宣太后其懿焉。文、宣宮壼，無聞於喪德；後主嗣業，實敗于椒房，既曰牝晨，亦唯家之索也。",
+      "note": "依同段姓名、引者及所答者。",
+      "chapter_id": "c-nanshi-012-consorts-editorial",
+      "book_id": "b-nanshi-012",
+      "work_id": "w-nanshi",
+      "source_id": "s-nanshi-012-consorts-editorial-ws2060595"
     },
     {
       "id": "c-nanshi-012-zhangyaoer:p002:r0004",
@@ -665,6 +938,39 @@
     "bb6_de0_sx1_A"
   ],
   "preferred_relations": [
+    {
+      "id": "a-chen007-wyd-name-adoption-father",
+      "subject_person_id": "bb6_de0_sx1_A",
+      "object_person_id": "bb6_de0_sx1",
+      "predicate": "father",
+      "qualifiers": {
+        "source_term": "父景明",
+        "lineage": "paternal"
+      },
+      "evidence": [
+        {
+          "work_id": "w-chenshu",
+          "book_id": "b-chenshu-007",
+          "chapter_id": "c-chenshu-007-wuying-consorts",
+          "source_id": "s-chenshu-007-wuying-consorts-1739",
+          "paragraph_id": "c-chenshu-007-wuying-consorts:p004",
+          "quote": "高祖宣皇后章氏諱要兒吳興烏程人也本姓鈕父景明為章氏所養因改焉",
+          "subject_person_mention_id": "c-chenshu-007-wuying-consorts:p004:m0008",
+          "object_person_mention_id": "c-chenshu-007-wuying-consorts:p004:m0020",
+          "relationship_anchor": {
+            "paragraph_id": "c-chenshu-007-wuying-consorts:p004",
+            "surface": "父景明",
+            "start": 19,
+            "end": 22
+          }
+        }
+      ],
+      "status": "source_attested",
+      "interpretation_note": "此刻卷七本傳原句。",
+      "reviewer": "Codex（AI 代理）",
+      "human_reviewed": false,
+      "model": null
+    },
     {
       "id": "a-nan012-zhangyaoer-c-father",
       "subject_person_id": "bb6_de0_sx1_A",
@@ -1048,6 +1354,35 @@
       ],
       "status": "source_attested",
       "interpretation_note": "太建二年帝紀原字景申。",
+      "reviewer": "Codex（AI 代理）",
+      "human_reviewed": false,
+      "model": null
+    },
+    {
+      "id": "le-chen007-wyd-death-day",
+      "person_id": "bb6_de0_sx1_A",
+      "event_type": "death",
+      "source_term": "崩",
+      "date_expression": "二年三月丙申",
+      "source_anchor": {
+        "paragraph_id": "c-chenshu-007-wuying-consorts:p008",
+        "surface": "崩",
+        "start": 16,
+        "end": 17
+      },
+      "evidence": [
+        {
+          "work_id": "w-chenshu",
+          "book_id": "b-chenshu-007",
+          "chapter_id": "c-chenshu-007-wuying-consorts",
+          "source_id": "s-chenshu-007-wuying-consorts-1739",
+          "paragraph_id": "c-chenshu-007-wuying-consorts:p008",
+          "quote": "太建元年尊后為皇太后二年三月丙申崩于紫極殿時年六十五",
+          "person_reference_id": "c-chenshu-007-wuying-consorts:p008:r0007"
+        }
+      ],
+      "status": "source_attested",
+      "interpretation_note": "殿本傳文日期及動詞。",
       "reviewer": "Codex（AI 代理）",
       "human_reviewed": false,
       "model": null

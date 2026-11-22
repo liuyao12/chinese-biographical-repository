@@ -1,0 +1,127 @@
+{
+  "format_version": "0.2",
+  "record_type": "marked_chapter",
+  "id": "c-songshu-047-tanyi",
+  "work_id": "w-songshu",
+  "book_id": "b-songshu-047",
+  "source_id": "s-songshu-047-tanyi-ws2190557",
+  "title": "檀逸",
+  "source": {
+    "title": "檀逸",
+    "provider": "Wikisource",
+    "permalink": "https://zh.wikisource.org/w/index.php?oldid=2190557",
+    "url": "https://zh.wikisource.org/w/index.php?oldid=2190557",
+    "revision_id": 2190557,
+    "edition": "維基文庫固定修訂",
+    "accessed_on": "2026-11-21",
+    "review_status": "text_checked",
+    "image_verified": false,
+    "rights": "古代原文；數位轉錄依維基文庫授權。",
+    "license_url": "https://creativecommons.org/licenses/by-sa/4.0/",
+    "extent": "檀逸",
+    "text_scope": "complete_biography_unit",
+    "raw_path": "source-evidence/nan023-wanghui/ws2190557.wikitext",
+    "raw_file_sha256": "cc75864d017c88ec8c285b2b7772125dc7b10e0b49eed8f8dfa472db5db8cc20"
+  },
+  "annotation": {
+    "status": "reviewed",
+    "reviewer": "Codex（AI代理）",
+    "model": null,
+    "human_reviewed": false,
+    "source_reading_cases": [
+      {
+        "id": "c-songshu-047-tanyi:received_sentence1-0",
+        "kind": "received_sentence",
+        "person_id": "59p_dir_tdq_BAA",
+        "source_quote": "子逸嗣。",
+        "reading": "宣明子逸繼爵。",
+        "note": "宣明子逸繼爵。",
+        "paragraph_id": "c-songshu-047-tanyi:p001",
+        "start_codepoint": 0,
+        "end_codepoint": 4,
+        "human_reviewed": false
+      },
+      {
+        "id": "c-songshu-047-tanyi:received_sentence1-4",
+        "kind": "received_sentence",
+        "person_id": "59p_dir_tdq_BAA",
+        "source_quote": "齊受禪，國除。",
+        "reading": "479年齊受禪，西昌國除。",
+        "note": "479年齊受禪，西昌國除。",
+        "paragraph_id": "c-songshu-047-tanyi:p001",
+        "start_codepoint": 4,
+        "end_codepoint": 11,
+        "human_reviewed": false
+      },
+      {
+        "id": "c-songshu-047-tanyi:succession1-0",
+        "kind": "succession",
+        "person_id": "59p_dir_tdq_BAA",
+        "source_quote": "子逸嗣",
+        "reading": "宣明後由其子逸嗣。",
+        "note": "宣明後由其子逸嗣。",
+        "paragraph_id": "c-songshu-047-tanyi:p001",
+        "start_codepoint": 0,
+        "end_codepoint": 3,
+        "human_reviewed": false,
+        "father": "59p_dir_tdq_BA",
+        "successor": "59p_dir_tdq_BAA"
+      },
+      {
+        "id": "c-songshu-047-tanyi:chronology1-4",
+        "kind": "chronology",
+        "person_id": "59p_dir_tdq_BAA",
+        "source_quote": "齊受禪，國除",
+        "reading": "宋齊易代於479年，此處記國除，未見逸卒日或得年。",
+        "note": "宋齊易代於479年，此處記國除，未見逸卒日或得年。",
+        "paragraph_id": "c-songshu-047-tanyi:p001",
+        "start_codepoint": 4,
+        "end_codepoint": 10,
+        "human_reviewed": false,
+        "ce_year": 479,
+        "event": "除國",
+        "fief": "西昌縣侯"
+      }
+    ]
+  },
+  "paragraphs": [
+    {
+      "id": "c-songshu-047-tanyi:p001",
+      "text": "子逸嗣。齊受禪，國除。",
+      "text_layer": "received_chapter",
+      "annotation_status": "reviewed",
+      "source_position": {
+        "first_line": 90,
+        "last_line": 90,
+        "raw_start": 8937,
+        "raw_end": 8948,
+        "raw_character_offsets": [
+          8937,
+          8938,
+          8939,
+          8940,
+          8941,
+          8942,
+          8943,
+          8944,
+          8945,
+          8946,
+          8947
+        ],
+        "revision_id": 2190557
+      },
+      "mentions": [
+        {
+          "id": "c-songshu-047-tanyi:p001:m0001",
+          "start": 1,
+          "end": 2,
+          "surface": "逸",
+          "kind": "person",
+          "person_id": "59p_dir_tdq_BAA",
+          "status": "contextual_provisional"
+        }
+      ]
+    }
+  ],
+  "text_sha256": "34eda71498a4daf79073048928e2256475601bb2a3555aa6893f8bf2cb7263f2"
+}
