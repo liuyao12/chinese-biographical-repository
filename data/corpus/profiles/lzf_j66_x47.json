@@ -1,0 +1,151 @@
+{
+  "schema_version": 1,
+  "id": "lzf_j66_x47",
+  "canonical_person_id": "lzf_j66_x47",
+  "label": "張岱母（齊書報齡八十）",
+  "identity_note": "張岱母（齊書報齡八十），見本組原文及身份互校。",
+  "review": "ai_provisional",
+  "names": [],
+  "titles": [],
+  "addresses": [],
+  "occurrences": [],
+  "table_occurrences": [],
+  "sources": [
+    {
+      "chapter_id": "c-nanqishu-032-zhangdai-family",
+      "work_id": "w-nanqishu",
+      "book_id": "b-nanqishu-032",
+      "source_id": "s-nanqishu-032-zhangdai-family-ws1513918",
+      "source": {
+        "title": "張岱",
+        "provider": "Wikisource",
+        "permalink": "https://zh.wikisource.org/w/index.php?oldid=1513918",
+        "url": "https://zh.wikisource.org/w/index.php?oldid=1513918",
+        "revision_id": 1513918,
+        "edition": "維基文庫固定修訂",
+        "accessed_on": "2026-11-21",
+        "review_status": "text_checked",
+        "image_verified": false,
+        "rights": "古代原文；數位轉錄依維基文庫授權。",
+        "license_url": "https://creativecommons.org/licenses/by-sa/4.0/",
+        "extent": "張岱傳第32至50行，分出張鏡及張恕兩段。",
+        "text_scope": "complete_biography_unit",
+        "raw_path": "sources/nanqishu/nanqishu032-ws1513918.wikitext",
+        "raw_file_sha256": "cc9c36ced8f64c3c359c76836ae56968c8a13c4a3b3c19a416575737314b0061",
+        "section_locator": "第31行原題。傳首p001及其父祖斷言沿用。"
+      }
+    }
+  ],
+  "relations": [
+    {
+      "id": "a-qi032-dai-mother",
+      "predicate": "mother",
+      "subject_person_id": "d50_8f5_wul_AAAAD",
+      "object_person_id": "lzf_j66_x47",
+      "qualifiers": {
+        "source_term": "母年八十",
+        "reading_basis": {
+          "kind": "qi032_selected_family_clause"
+        }
+      },
+      "evidence": [
+        {
+          "work_id": "w-nanqishu",
+          "book_id": "b-nanqishu-032",
+          "chapter_id": "c-nanqishu-032-zhangdai-family",
+          "source_id": "s-nanqishu-032-zhangdai-family-ws1513918",
+          "paragraph_id": "c-nanqishu-032-zhangdai-family:p005",
+          "quote": "隨王誕於會稽起義，以岱爲建威將軍，輔國長史，行縣事。事平，爲司徒左西曹。母年八十，籍注未滿，岱便去官從實還養，有司以岱違制，將欲糾舉。宋孝武曰：「觀過可以知仁，不須案也。」累遷撫軍諮議參軍，領山陰令，職事閑理。",
+          "subject_person_mention_id": "c-nanqishu-032-zhangdai-family:p005:m0046",
+          "object_person_reference_id": "c-nanqishu-032-zhangdai-family:p005:r0036"
+        }
+      ],
+      "status": "source_attested",
+      "interpretation_note": "上文岱任官，下文岱便去官從實還養，母年八十與籍注分清。",
+      "reviewer": "Codex（AI代理）",
+      "model": null,
+      "human_reviewed": false
+    }
+  ],
+  "related_people": {
+    "d50_8f5_wul_AAAAD": "張岱（字景山，張茂度子）",
+    "lzf_j66_x47": "張岱母（齊書報齡八十）"
+  },
+  "dates": [],
+  "name_components": [],
+  "source_reading_cases": [
+    {
+      "id": "c-nanqishu-032-zhangdai-family:reported_age5-36",
+      "kind": "reported_age",
+      "person_id": "lzf_j66_x47",
+      "source_quote": "母年八十，籍注未滿",
+      "reading": "母實報齡八十，籍書未滿。無母名、出生年及其與父之婚配明文。",
+      "note": "母實報齡八十，籍書未滿。無母名、出生年及其與父之婚配明文。",
+      "paragraph_id": "c-nanqishu-032-zhangdai-family:p005",
+      "start_codepoint": 36,
+      "end_codepoint": 45,
+      "human_reviewed": false,
+      "reported_age": 80,
+      "counting": "unspecified_source_age",
+      "register_below": 80,
+      "child_person_id": "d50_8f5_wul_AAAAD",
+      "chapter_id": "c-nanqishu-032-zhangdai-family",
+      "source_id": "s-nanqishu-032-zhangdai-family-ws1513918"
+    }
+  ],
+  "person_references": [
+    {
+      "id": "c-nanqishu-032-zhangdai-family:p005:r0036",
+      "paragraph_id": "c-nanqishu-032-zhangdai-family:p005",
+      "start": 36,
+      "end": 37,
+      "surface": "母",
+      "person_id": "lzf_j66_x47",
+      "referent_role": "third_person",
+      "quote": "隨王誕於會稽起義，以岱爲建威將軍，輔國長史，行縣事。事平，爲司徒左西曹。母年八十，籍注未滿，岱便去官從實還養，有司以岱違制，將欲糾舉。宋孝武曰：「觀過可以知仁，不須案也。」累遷撫軍諮議參軍，領山陰令，職事閑理。",
+      "note": "依本段敘事、稱謂及語者受者定。",
+      "chapter_id": "c-nanqishu-032-zhangdai-family",
+      "book_id": "b-nanqishu-032",
+      "work_id": "w-nanqishu",
+      "source_id": "s-nanqishu-032-zhangdai-family-ws1513918"
+    }
+  ],
+  "person_ids": [
+    "lzf_j66_x47"
+  ],
+  "preferred_relations": [
+    {
+      "id": "a-qi032-dai-mother",
+      "predicate": "mother",
+      "subject_person_id": "d50_8f5_wul_AAAAD",
+      "object_person_id": "lzf_j66_x47",
+      "qualifiers": {
+        "source_term": "母年八十",
+        "reading_basis": {
+          "kind": "qi032_selected_family_clause"
+        }
+      },
+      "evidence": [
+        {
+          "work_id": "w-nanqishu",
+          "book_id": "b-nanqishu-032",
+          "chapter_id": "c-nanqishu-032-zhangdai-family",
+          "source_id": "s-nanqishu-032-zhangdai-family-ws1513918",
+          "paragraph_id": "c-nanqishu-032-zhangdai-family:p005",
+          "quote": "隨王誕於會稽起義，以岱爲建威將軍，輔國長史，行縣事。事平，爲司徒左西曹。母年八十，籍注未滿，岱便去官從實還養，有司以岱違制，將欲糾舉。宋孝武曰：「觀過可以知仁，不須案也。」累遷撫軍諮議參軍，領山陰令，職事閑理。",
+          "subject_person_mention_id": "c-nanqishu-032-zhangdai-family:p005:m0046",
+          "object_person_reference_id": "c-nanqishu-032-zhangdai-family:p005:r0036"
+        }
+      ],
+      "status": "source_attested",
+      "interpretation_note": "上文岱任官，下文岱便去官從實還養，母年八十與籍注分清。",
+      "reviewer": "Codex（AI代理）",
+      "model": null,
+      "human_reviewed": false
+    }
+  ],
+  "age_assertions": [],
+  "life_events": [],
+  "life_event_date_decisions": [],
+  "selected_life_event_dates": []
+}

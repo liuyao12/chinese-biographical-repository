@@ -7,7 +7,8 @@
   "review": "ai_provisional",
   "names": [
     "莊王佗",
-    "莊王"
+    "莊王",
+    "庄王"
   ],
   "titles": [
     {
@@ -136,10 +137,73 @@
       "chapter_id": "c-shiji-004-zhou",
       "source_id": "s-shiji-004-zhou",
       "work_title": "史記"
+    },
+    {
+      "number": 52,
+      "category": "",
+      "title": "張昭傳",
+      "paragraph_id": "c-sanguozhi-052-zhangzhao-complete:line012-pei01-02",
+      "count": 1,
+      "raw_count": 1,
+      "duplicate_count": 0,
+      "counting_policy": "independent_fixed_witness_occurrences",
+      "quote": "？周穆王讳满，至定王时有王孙满者，其为大夫，是臣协君也。又厉王讳胡，及庄王之子名胡，其比众多。夫类事建议，经有明据，传有徵案，然后进攻退守，万无奔北，垂示百世，永无咎失。今应劭虽上尊旧君之名，而下无所断齐，犹归之疑云。曲礼之篇，疑事无质，观省上下，阙义自证，文辞可为，倡而不",
+      "paragraph_ids": [
+        "c-sanguozhi-052-zhangzhao-complete:line012-pei01-02"
+      ],
+      "mention_ids": [
+        "c-sanguozhi-052-zhangzhao-complete:line012-pei01-02:m0331"
+      ],
+      "mention_paragraph_ids": {
+        "c-sanguozhi-052-zhangzhao-complete:line012-pei01-02:m0331": "c-sanguozhi-052-zhangzhao-complete:line012-pei01-02"
+      },
+      "mention_id": "c-sanguozhi-052-zhangzhao-complete:line012-pei01-02:m0331",
+      "occurrence_groups": [
+        {
+          "canonical_mention_id": "c-sanguozhi-052-zhangzhao-complete:line012-pei01-02:m0331",
+          "mention_ids": [
+            "c-sanguozhi-052-zhangzhao-complete:line012-pei01-02:m0331"
+          ],
+          "kind": "paragraph"
+        }
+      ],
+      "work_id": "w-sanguozhi",
+      "book_id": "b-sanguozhi-052",
+      "chapter_id": "c-sanguozhi-052-zhangzhao-complete",
+      "source_id": "s-sanguozhi-052-zhangzhao-complete",
+      "work_title": "三國志"
     }
   ],
   "table_occurrences": [],
   "sources": [
+    {
+      "chapter_id": "c-sanguozhi-052-zhangzhao-complete",
+      "work_id": "w-sanguozhi",
+      "book_id": "b-sanguozhi-052",
+      "source_id": "s-sanguozhi-052-zhangzhao-complete",
+      "source": {
+        "title": "三國志卷五十二·吳書七",
+        "provider": "Wikisource",
+        "url": "https://zh.wikisource.org/w/index.php?oldid=2085149",
+        "permalink": "https://zh.wikisource.org/w/index.php?oldid=2085149",
+        "revision_id": 2085149,
+        "accessed_on": "2026-11-21",
+        "edition": "維基文庫固定修訂；正文、裴注與注中引書分層。",
+        "extent": "張昭題下全段，第12至24行；資料隨原注的前後次序。",
+        "text_scope": "partial_chapter",
+        "review_status": "text_checked",
+        "image_verified": false,
+        "rights": "古籍原文，維基文庫數位轉錄。",
+        "license_url": "https://creativecommons.org/licenses/by-sa/4.0/",
+        "raw_path": "source-evidence/nanqi023-wangjian/sanguozhi052-ws2085149.wikitext",
+        "raw_file_sha256": "3f1535985be18091725a92370766f8af67d71e26e611491b169a4e0d19dc1da9",
+        "wikitext_sha256": "3f1535985be18091725a92370766f8af67d71e26e611491b169a4e0d19dc1da9",
+        "collation_witnesses": [
+          "source-evidence/sanguozhi052-gu-family/reading.json",
+          "source-evidence/sanguozhi052-zhangzhao/reading.json"
+        ]
+      }
+    },
     {
       "chapter_id": "c-shiji-004-zhou",
       "work_id": "w-shiji",
@@ -203,6 +267,32 @@
   ],
   "relations": [
     {
+      "id": "a-wu052-zz-hu",
+      "subject_person_id": "7l6_9t8_q1p_A",
+      "object_person_id": "7l6_9t8_q1p",
+      "predicate": "father",
+      "qualifiers": {
+        "source_term": "庄王之子名胡"
+      },
+      "evidence": [
+        {
+          "work_id": "w-sanguozhi",
+          "book_id": "b-sanguozhi-052",
+          "chapter_id": "c-sanguozhi-052-zhangzhao-complete",
+          "source_id": "s-sanguozhi-052-zhangzhao-complete",
+          "paragraph_id": "c-sanguozhi-052-zhangzhao-complete:line012-pei01-02",
+          "quote": "昭著论曰：「客有见大国之议，士君子之论，云起元建武已来，旧君名讳五十六人，以为后生不得协也。取乎经论，譬诸行事，义高辞丽，甚可嘉羡。愚意褊浅，窃有疑焉。盖乾坤剖分，万物定形，肇有父子君臣之经。故圣人顺天之性，制礼尚敬，在三之义，君实食之，在丧之哀，君亲临之，厚莫重焉，恩莫大焉，诚臣子所尊仰，万夫所天恃，焉得而同之哉？然亲亲有衰，尊尊有杀，故礼服上不尽高祖，下不尽玄孙。又传记四世而缌麻，服之穷也；五世袒免，降杀同姓也；六世而亲属竭矣。又曲礼有不逮事之义则不讳，不讳者，盖名之谓，属绝之义，不拘於协，况乃古君五十六哉！邾子会盟，季友来归，不称其名，咸书字者，是时鲁人嘉之也。何解臣子为君父讳乎？周穆王讳满，至定王时有王孙满者，其为大夫，是臣协君也。又厉王讳胡，及庄王之子名胡，其比众多。夫类事建议，经有明据，传有徵案，然后进攻退守，万无奔北，垂示百世，永无咎失。今应劭虽上尊旧君之名，而下无所断齐，犹归之疑云。曲礼之篇，疑事无质，观省上下，阙义自证，文辞可为，倡而不法，将来何观？言声一放，犹拾瀋也，过辞在前，悔其何追！」",
+          "subject_person_mention_id": "c-sanguozhi-052-zhangzhao-complete:line012-pei01-02:m0336",
+          "object_person_mention_id": "c-sanguozhi-052-zhangzhao-complete:line012-pei01-02:m0331"
+        }
+      ],
+      "interpretation_note": "此條按本句所明言。",
+      "status": "source_attested",
+      "reviewer": "Codex（AI 代理）",
+      "human_reviewed": false,
+      "model": null
+    },
+    {
       "id": "a-shiji004-041",
       "subject_person_id": "7l6_9t8_q1p",
       "predicate": "father",
@@ -247,6 +337,7 @@
   ],
   "related_people": {
     "7l6_9t8_q1p": "莊王",
+    "7l6_9t8_q1p_A": "胡〔張昭論所稱周莊王子〕",
     "n8l_nsk_o8v": "釐王",
     "ttx_okj_hbd": "桓王"
   },
@@ -256,6 +347,32 @@
     "7l6_9t8_q1p"
   ],
   "preferred_relations": [
+    {
+      "id": "a-wu052-zz-hu",
+      "subject_person_id": "7l6_9t8_q1p_A",
+      "object_person_id": "7l6_9t8_q1p",
+      "predicate": "father",
+      "qualifiers": {
+        "source_term": "庄王之子名胡"
+      },
+      "evidence": [
+        {
+          "work_id": "w-sanguozhi",
+          "book_id": "b-sanguozhi-052",
+          "chapter_id": "c-sanguozhi-052-zhangzhao-complete",
+          "source_id": "s-sanguozhi-052-zhangzhao-complete",
+          "paragraph_id": "c-sanguozhi-052-zhangzhao-complete:line012-pei01-02",
+          "quote": "昭著论曰：「客有见大国之议，士君子之论，云起元建武已来，旧君名讳五十六人，以为后生不得协也。取乎经论，譬诸行事，义高辞丽，甚可嘉羡。愚意褊浅，窃有疑焉。盖乾坤剖分，万物定形，肇有父子君臣之经。故圣人顺天之性，制礼尚敬，在三之义，君实食之，在丧之哀，君亲临之，厚莫重焉，恩莫大焉，诚臣子所尊仰，万夫所天恃，焉得而同之哉？然亲亲有衰，尊尊有杀，故礼服上不尽高祖，下不尽玄孙。又传记四世而缌麻，服之穷也；五世袒免，降杀同姓也；六世而亲属竭矣。又曲礼有不逮事之义则不讳，不讳者，盖名之谓，属绝之义，不拘於协，况乃古君五十六哉！邾子会盟，季友来归，不称其名，咸书字者，是时鲁人嘉之也。何解臣子为君父讳乎？周穆王讳满，至定王时有王孙满者，其为大夫，是臣协君也。又厉王讳胡，及庄王之子名胡，其比众多。夫类事建议，经有明据，传有徵案，然后进攻退守，万无奔北，垂示百世，永无咎失。今应劭虽上尊旧君之名，而下无所断齐，犹归之疑云。曲礼之篇，疑事无质，观省上下，阙义自证，文辞可为，倡而不法，将来何观？言声一放，犹拾瀋也，过辞在前，悔其何追！」",
+          "subject_person_mention_id": "c-sanguozhi-052-zhangzhao-complete:line012-pei01-02:m0336",
+          "object_person_mention_id": "c-sanguozhi-052-zhangzhao-complete:line012-pei01-02:m0331"
+        }
+      ],
+      "interpretation_note": "此條按本句所明言。",
+      "status": "source_attested",
+      "reviewer": "Codex（AI 代理）",
+      "human_reviewed": false,
+      "model": null
+    },
     {
       "id": "a-shiji004-041",
       "subject_person_id": "7l6_9t8_q1p",

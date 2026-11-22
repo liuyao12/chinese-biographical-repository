@@ -7,7 +7,8 @@
   "review": "ai_provisional",
   "names": [
     "譚",
-    "袁譚"
+    "袁譚",
+    "袁谭"
   ],
   "titles": [],
   "addresses": [],
@@ -173,6 +174,41 @@
       "book_id": "b-sanguozhi-011",
       "chapter_id": "c-sanguozhi-011-jin098-dun",
       "source_id": "s-sanguozhi-011-jin098-dun",
+      "work_title": "三國志"
+    },
+    {
+      "number": 52,
+      "category": "",
+      "title": "顧雍傳",
+      "paragraph_id": "c-sanguozhi-052-guyong-complete:line044-pei01-03",
+      "count": 1,
+      "raw_count": 1,
+      "duplicate_count": 0,
+      "counting_policy": "independent_fixed_witness_occurrences",
+      "quote": "」公厚待遣还。权问定云何，徽曰：「敌国隐情，卒难探察。然徽潜采听，方与袁谭交争，未有他意。」乃拜徽巴东太守，欲大用之，会卒。子裕，字季则，少知名，位至镇东将军。雍族人悌，字子通，以孝悌廉正闻於乡党。年十五为郡吏，除郎中，稍迁偏将军。权末年，嫡庶不分，悌数与骠骑将军硃据共陈祸",
+      "paragraph_ids": [
+        "c-sanguozhi-052-guyong-complete:line044-pei01-03"
+      ],
+      "mention_ids": [
+        "c-sanguozhi-052-guyong-complete:line044-pei01-03:m0310"
+      ],
+      "mention_paragraph_ids": {
+        "c-sanguozhi-052-guyong-complete:line044-pei01-03:m0310": "c-sanguozhi-052-guyong-complete:line044-pei01-03"
+      },
+      "mention_id": "c-sanguozhi-052-guyong-complete:line044-pei01-03:m0310",
+      "occurrence_groups": [
+        {
+          "canonical_mention_id": "c-sanguozhi-052-guyong-complete:line044-pei01-03:m0310",
+          "mention_ids": [
+            "c-sanguozhi-052-guyong-complete:line044-pei01-03:m0310"
+          ],
+          "kind": "paragraph"
+        }
+      ],
+      "work_id": "w-sanguozhi",
+      "book_id": "b-sanguozhi-052",
+      "chapter_id": "c-sanguozhi-052-guyong-complete",
+      "source_id": "s-sanguozhi-052-guyong-complete",
       "work_title": "三國志"
     },
     {
@@ -4002,6 +4038,34 @@
         "wikitext_sha256": "a9b85cc6df97f83e723cb42899788f4fe87b9133f5d6cd70e38b3c6a4edf5f12",
         "raw_path": "source-evidence/jin098-wangdun-main/external/sg11-ws2373044.wikitext",
         "raw_file_sha256": "a9b85cc6df97f83e723cb42899788f4fe87b9133f5d6cd70e38b3c6a4edf5f12"
+      }
+    },
+    {
+      "chapter_id": "c-sanguozhi-052-guyong-complete",
+      "work_id": "w-sanguozhi",
+      "book_id": "b-sanguozhi-052",
+      "source_id": "s-sanguozhi-052-guyong-complete",
+      "source": {
+        "title": "三國志卷五十二·吳書七",
+        "provider": "Wikisource",
+        "url": "https://zh.wikisource.org/w/index.php?oldid=2085149",
+        "permalink": "https://zh.wikisource.org/w/index.php?oldid=2085149",
+        "revision_id": 2085149,
+        "accessed_on": "2026-11-21",
+        "edition": "維基文庫固定修訂；正文、裴注與注中引書分層。",
+        "extent": "顧雍題下全段，第40至44行；資料隨原注的前後次序。",
+        "text_scope": "partial_chapter",
+        "review_status": "text_checked",
+        "image_verified": false,
+        "rights": "古籍原文，維基文庫數位轉錄。",
+        "license_url": "https://creativecommons.org/licenses/by-sa/4.0/",
+        "raw_path": "source-evidence/nanqi023-wangjian/sanguozhi052-ws2085149.wikitext",
+        "raw_file_sha256": "3f1535985be18091725a92370766f8af67d71e26e611491b169a4e0d19dc1da9",
+        "wikitext_sha256": "3f1535985be18091725a92370766f8af67d71e26e611491b169a4e0d19dc1da9",
+        "collation_witnesses": [
+          "source-evidence/sanguozhi052-gu-family/reading.json",
+          "source-evidence/sanguozhi052-guyong/reading.json"
+        ]
       }
     }
   ],

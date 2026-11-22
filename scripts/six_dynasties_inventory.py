@@ -71,6 +71,12 @@ def source_paragraphs(lines, layout=None):
         prefix,opener,end=second.partition('暕名公子，少致美稱')
         assert prefix and opener and end
         return [first,prefix,opener+end]
+    if layout == 'sanguozhi052_received_with_pei_notes':
+        try:
+            from scripts.sanguozhi052_layers import project_line
+        except ImportError:
+            from sanguozhi052_layers import project_line
+        return [project_line(line)[0] for line in lines]
     if layout == 'jin065_indented_text':
         paragraphs = []
         for line in lines:

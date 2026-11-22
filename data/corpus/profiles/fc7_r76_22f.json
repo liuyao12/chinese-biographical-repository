@@ -1,0 +1,253 @@
+{
+  "schema_version": 1,
+  "id": "fc7_r76_22f",
+  "canonical_person_id": "fc7_r76_22f",
+  "label": "阮氏（杜弘文母）",
+  "identity_note": "阮氏（杜弘文母），見本組原文及身份互校。",
+  "review": "ai_provisional",
+  "names": [
+    "阮"
+  ],
+  "titles": [],
+  "addresses": [],
+  "occurrences": [
+    {
+      "number": 70,
+      "category": "",
+      "title": "杜弘文母阮隨行",
+      "paragraph_id": "c-nanshi-070-duhongwen-mother:p001",
+      "count": 1,
+      "raw_count": 1,
+      "duplicate_count": 0,
+      "counting_policy": "independent_fixed_witness_occurrences",
+      "quote": "弘文母阮年老，見弘文輿疾就路，不忍別，與到廣州，遂卒。",
+      "paragraph_ids": [
+        "c-nanshi-070-duhongwen-mother:p001"
+      ],
+      "mention_ids": [
+        "c-nanshi-070-duhongwen-mother:p001:m0003"
+      ],
+      "mention_paragraph_ids": {
+        "c-nanshi-070-duhongwen-mother:p001:m0003": "c-nanshi-070-duhongwen-mother:p001"
+      },
+      "mention_id": "c-nanshi-070-duhongwen-mother:p001:m0003",
+      "occurrence_groups": [
+        {
+          "canonical_mention_id": "c-nanshi-070-duhongwen-mother:p001:m0003",
+          "mention_ids": [
+            "c-nanshi-070-duhongwen-mother:p001:m0003"
+          ],
+          "kind": "paragraph"
+        }
+      ],
+      "work_id": "w-nanshi",
+      "book_id": "b-nanshi-070",
+      "chapter_id": "c-nanshi-070-duhongwen-mother",
+      "source_id": "s-nanshi-070-duhongwen-mother-ws1748901",
+      "work_title": "南史"
+    }
+  ],
+  "table_occurrences": [],
+  "sources": [
+    {
+      "chapter_id": "c-nanshi-070-duhongwen-mother",
+      "work_id": "w-nanshi",
+      "book_id": "b-nanshi-070",
+      "source_id": "s-nanshi-070-duhongwen-mother-ws1748901",
+      "source": {
+        "title": "杜弘文母阮隨行",
+        "provider": "Wikisource",
+        "permalink": "https://zh.wikisource.org/w/index.php?oldid=1748901",
+        "url": "https://zh.wikisource.org/w/index.php?oldid=1748901",
+        "revision_id": 1748901,
+        "edition": "維基文庫固定修訂",
+        "accessed_on": "2026-11-21",
+        "review_status": "text_checked",
+        "image_verified": false,
+        "rights": "古代原文；數位轉錄依維基文庫授權。",
+        "license_url": "https://creativecommons.org/licenses/by-sa/4.0/",
+        "extent": "杜弘文母阮隨行",
+        "text_scope": "partial_chapter",
+        "raw_path": "source-evidence/nanqi049-wanghuan-item-review/external/nanshi070-ws1748901.wikitext",
+        "raw_file_sha256": "a8d75d82ad08fe46d3334c79955e0a9e92a4d56a57080fea49d1a5cad78681fc"
+      }
+    },
+    {
+      "chapter_id": "c-songshu-092-duhongwen",
+      "work_id": "w-songshu",
+      "book_id": "b-songshu-092",
+      "source_id": "s-songshu-092-duhongwen-ws2195614",
+      "source": {
+        "title": "杜弘文",
+        "provider": "Wikisource",
+        "permalink": "https://zh.wikisource.org/w/index.php?oldid=2195614",
+        "url": "https://zh.wikisource.org/w/index.php?oldid=2195614",
+        "revision_id": 2195614,
+        "edition": "維基文庫固定修訂",
+        "accessed_on": "2026-11-21",
+        "review_status": "text_checked",
+        "image_verified": false,
+        "rights": "古代原文；數位轉錄依維基文庫授權。",
+        "license_url": "https://creativecommons.org/licenses/by-sa/4.0/",
+        "extent": "杜弘文",
+        "text_scope": "complete_biography_unit",
+        "raw_path": "sources/songshu/songshu092-ws2195614.wikitext",
+        "raw_file_sha256": "88da739ec68f6114fdca1344b9d5b1e8e49b9cbd0cc7d07506aed3b2a5c4ec8e"
+      }
+    }
+  ],
+  "relations": [
+    {
+      "id": "a-song092-duhongwen-mother-ruan",
+      "subject_person_id": "b7k_v7g_vfe_*ABA",
+      "object_person_id": "fc7_r76_22f",
+      "predicate": "mother",
+      "qualifiers": {
+        "source_term": "弘文母阮",
+        "reading_basis": {
+          "kind": "song092_prose_kin",
+          "unit": "duhongwen"
+        }
+      },
+      "evidence": [
+        {
+          "work_id": "w-nanshi",
+          "book_id": "b-nanshi-070",
+          "chapter_id": "c-nanshi-070-duhongwen-mother",
+          "source_id": "s-nanshi-070-duhongwen-mother-ws1748901",
+          "paragraph_id": "c-nanshi-070-duhongwen-mother:p001",
+          "quote": "弘文母阮年老，見弘文輿疾就路，不忍別，與到廣州，遂卒。",
+          "subject_person_mention_id": "c-nanshi-070-duhongwen-mother:p001:m0000",
+          "object_person_mention_id": "c-nanshi-070-duhongwen-mother:p001:m0003"
+        }
+      ],
+      "status": "source_attested",
+      "interpretation_note": "南史確稱其母阮，不據此另寫阮氏之父母或與慧度的婚儀。",
+      "reviewer": "Codex（AI代理）",
+      "model": null,
+      "human_reviewed": false
+    },
+    {
+      "id": "a-song092-duhongwen-mother",
+      "subject_person_id": "b7k_v7g_vfe_*ABA",
+      "object_person_id": "fc7_r76_22f",
+      "predicate": "mother",
+      "qualifiers": {
+        "source_term": "弘文母既年老",
+        "reading_basis": {
+          "kind": "song092_prose_kin",
+          "unit": "duhongwen"
+        }
+      },
+      "evidence": [
+        {
+          "work_id": "w-songshu",
+          "book_id": "b-songshu-092",
+          "chapter_id": "c-songshu-092-duhongwen",
+          "source_id": "s-songshu-092-duhongwen-ws2195614",
+          "paragraph_id": "c-songshu-092-duhongwen:p001",
+          "quote": "以慧度長子員外散騎侍郎弘文為振威將軍、刺史。初，高祖北征關、洛，慧度板弘文為鷹揚將軍，流民督護，配兵三千，北係大軍。行至廣州，關、洛已平，乃歸。統府板弘文行九真太守。及繼父為刺史，亦以寬和得眾，襲爵龍編侯。太祖元嘉四年，以廷尉王徽為交州刺史，弘文就徵。會得重疾，牽以就路，親舊見其患篤，勸表待病瘉，弘文曰：「吾世荷皇恩，杖節三世，常欲投軀帝庭，以報所荷。況親被徵命，而可宴然者乎，如其顛沛，此乃命也。」弘文母既年老，見弘文輿疾就路，不忍分別，相與俱行。到廣州，遂卒。臨死，遣弟弘猷詣京，朝廷甚哀之。",
+          "subject_person_mention_id": "c-songshu-092-duhongwen:p001:m0011",
+          "object_person_reference_id": "c-songshu-092-duhongwen:p001:r0203"
+        }
+      ],
+      "status": "source_attested",
+      "interpretation_note": "宋只書母，南史同事稱阮。",
+      "reviewer": "Codex（AI代理）",
+      "model": null,
+      "human_reviewed": false
+    }
+  ],
+  "related_people": {
+    "b7k_v7g_vfe_*ABA": "杜弘文（杜慧度長子）",
+    "fc7_r76_22f": "阮氏（杜弘文母）"
+  },
+  "dates": [],
+  "name_components": [],
+  "person_references": [
+    {
+      "id": "c-songshu-092-duhongwen:p001:r0203",
+      "paragraph_id": "c-songshu-092-duhongwen:p001",
+      "start": 203,
+      "end": 204,
+      "surface": "母",
+      "person_id": "fc7_r76_22f",
+      "referent_role": "third_person",
+      "quote": "以慧度長子員外散騎侍郎弘文為振威將軍、刺史。初，高祖北征關、洛，慧度板弘文為鷹揚將軍，流民督護，配兵三千，北係大軍。行至廣州，關、洛已平，乃歸。統府板弘文行九真太守。及繼父為刺史，亦以寬和得眾，襲爵龍編侯。太祖元嘉四年，以廷尉王徽為交州刺史，弘文就徵。會得重疾，牽以就路，親舊見其患篤，勸表待病瘉，弘文曰：「吾世荷皇恩，杖節三世，常欲投軀帝庭，以報所荷。況親被徵命，而可宴然者乎，如其顛沛，此乃命也。」弘文母既年老，見弘文輿疾就路，不忍分別，相與俱行。到廣州，遂卒。臨死，遣弟弘猷詣京，朝廷甚哀之。",
+      "note": "依本段敘事、稱謂及語者受者定。",
+      "chapter_id": "c-songshu-092-duhongwen",
+      "book_id": "b-songshu-092",
+      "work_id": "w-songshu",
+      "source_id": "s-songshu-092-duhongwen-ws2195614"
+    }
+  ],
+  "person_ids": [
+    "fc7_r76_22f"
+  ],
+  "preferred_relations": [
+    {
+      "id": "a-song092-duhongwen-mother-ruan",
+      "subject_person_id": "b7k_v7g_vfe_*ABA",
+      "object_person_id": "fc7_r76_22f",
+      "predicate": "mother",
+      "qualifiers": {
+        "source_term": "弘文母阮",
+        "reading_basis": {
+          "kind": "song092_prose_kin",
+          "unit": "duhongwen"
+        }
+      },
+      "evidence": [
+        {
+          "work_id": "w-nanshi",
+          "book_id": "b-nanshi-070",
+          "chapter_id": "c-nanshi-070-duhongwen-mother",
+          "source_id": "s-nanshi-070-duhongwen-mother-ws1748901",
+          "paragraph_id": "c-nanshi-070-duhongwen-mother:p001",
+          "quote": "弘文母阮年老，見弘文輿疾就路，不忍別，與到廣州，遂卒。",
+          "subject_person_mention_id": "c-nanshi-070-duhongwen-mother:p001:m0000",
+          "object_person_mention_id": "c-nanshi-070-duhongwen-mother:p001:m0003"
+        }
+      ],
+      "status": "source_attested",
+      "interpretation_note": "南史確稱其母阮，不據此另寫阮氏之父母或與慧度的婚儀。",
+      "reviewer": "Codex（AI代理）",
+      "model": null,
+      "human_reviewed": false
+    },
+    {
+      "id": "a-song092-duhongwen-mother",
+      "subject_person_id": "b7k_v7g_vfe_*ABA",
+      "object_person_id": "fc7_r76_22f",
+      "predicate": "mother",
+      "qualifiers": {
+        "source_term": "弘文母既年老",
+        "reading_basis": {
+          "kind": "song092_prose_kin",
+          "unit": "duhongwen"
+        }
+      },
+      "evidence": [
+        {
+          "work_id": "w-songshu",
+          "book_id": "b-songshu-092",
+          "chapter_id": "c-songshu-092-duhongwen",
+          "source_id": "s-songshu-092-duhongwen-ws2195614",
+          "paragraph_id": "c-songshu-092-duhongwen:p001",
+          "quote": "以慧度長子員外散騎侍郎弘文為振威將軍、刺史。初，高祖北征關、洛，慧度板弘文為鷹揚將軍，流民督護，配兵三千，北係大軍。行至廣州，關、洛已平，乃歸。統府板弘文行九真太守。及繼父為刺史，亦以寬和得眾，襲爵龍編侯。太祖元嘉四年，以廷尉王徽為交州刺史，弘文就徵。會得重疾，牽以就路，親舊見其患篤，勸表待病瘉，弘文曰：「吾世荷皇恩，杖節三世，常欲投軀帝庭，以報所荷。況親被徵命，而可宴然者乎，如其顛沛，此乃命也。」弘文母既年老，見弘文輿疾就路，不忍分別，相與俱行。到廣州，遂卒。臨死，遣弟弘猷詣京，朝廷甚哀之。",
+          "subject_person_mention_id": "c-songshu-092-duhongwen:p001:m0011",
+          "object_person_reference_id": "c-songshu-092-duhongwen:p001:r0203"
+        }
+      ],
+      "status": "source_attested",
+      "interpretation_note": "宋只書母，南史同事稱阮。",
+      "reviewer": "Codex（AI代理）",
+      "model": null,
+      "human_reviewed": false
+    }
+  ],
+  "age_assertions": [],
+  "life_events": [],
+  "life_event_date_decisions": [],
+  "selected_life_event_dates": []
+}

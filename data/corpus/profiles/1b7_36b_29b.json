@@ -6,9 +6,59 @@
   "identity_note": "本次固定來源首輪候選；未與全庫同姓或同名者強合。",
   "review": "ai_provisional",
   "names": [
-    "徐邈"
+    "徐邈",
+    "邈"
   ],
-  "titles": [],
+  "titles": [
+    {
+      "id": "th-songshu-092-xuhuo-1-25",
+      "title": "太子左衞率",
+      "kind": "office",
+      "mode": "attestation",
+      "person_id": "1b7_36b_29b",
+      "attestations": [
+        {
+          "id": "th-songshu-092-xuhuo-1-25:a",
+          "paragraph_id": "c-songshu-092-xuhuo:p001",
+          "start": 25,
+          "end": 30,
+          "surface": "太子左衞率",
+          "person_mention_id": "c-songshu-092-xuhuo:p001:m0022",
+          "usage": "narrative",
+          "date_expression": null
+        }
+      ],
+      "effective_period": {
+        "start": {
+          "status": "unknown",
+          "date_expression": null,
+          "evidence": []
+        },
+        "end": {
+          "status": "unknown",
+          "date_expression": null,
+          "evidence": []
+        }
+      },
+      "evidence": [
+        {
+          "work_id": "w-songshu",
+          "book_id": "b-songshu-092",
+          "chapter_id": "c-songshu-092-xuhuo",
+          "source_id": "s-songshu-092-xuhuo-ws2195614",
+          "paragraph_id": "c-songshu-092-xuhuo:p001",
+          "quote": "徐豁字萬同，東莞姑幕人也，中散大夫廣兄子。父邈，晉太子左衞率。",
+          "person_mention_id": "c-songshu-092-xuhuo:p001:m0022"
+        }
+      ],
+      "status": "source_attested",
+      "interpretation_note": "所見原官稱，未載全任期。",
+      "reviewer": "Codex（AI代理）",
+      "model": null,
+      "human_reviewed": false,
+      "period": "未定 → 未定"
+    }
+  ],
   "addresses": [],
   "occurrences": [
     {
@@ -80,6 +130,41 @@
       "chapter_id": "c-jinshu-080-wangxizhi-family",
       "source_id": "s-jinshu-080-wangxizhi-family",
       "work_title": "晉書"
+    },
+    {
+      "number": 92,
+      "category": "",
+      "title": "徐豁",
+      "paragraph_id": "c-songshu-092-xuhuo:p001",
+      "count": 1,
+      "raw_count": 1,
+      "duplicate_count": 0,
+      "counting_policy": "independent_fixed_witness_occurrences",
+      "quote": "徐豁字萬同，東莞姑幕人也，中散大夫廣兄子。父邈，晉太子左衞率。",
+      "paragraph_ids": [
+        "c-songshu-092-xuhuo:p001"
+      ],
+      "mention_ids": [
+        "c-songshu-092-xuhuo:p001:m0022"
+      ],
+      "mention_paragraph_ids": {
+        "c-songshu-092-xuhuo:p001:m0022": "c-songshu-092-xuhuo:p001"
+      },
+      "mention_id": "c-songshu-092-xuhuo:p001:m0022",
+      "occurrence_groups": [
+        {
+          "canonical_mention_id": "c-songshu-092-xuhuo:p001:m0022",
+          "mention_ids": [
+            "c-songshu-092-xuhuo:p001:m0022"
+          ],
+          "kind": "paragraph"
+        }
+      ],
+      "work_id": "w-songshu",
+      "book_id": "b-songshu-092",
+      "chapter_id": "c-songshu-092-xuhuo",
+      "source_id": "s-songshu-092-xuhuo-ws2195614",
+      "work_title": "宋書"
     }
   ],
   "table_occurrences": [],
@@ -810,18 +895,169 @@
         "raw_file_sha256": "4f3f42dd7d8ab0ca3c45e6524e4977db40332e845080367088be0419a3a0e8a0",
         "wikitext_sha256": "4f3f42dd7d8ab0ca3c45e6524e4977db40332e845080367088be0419a3a0e8a0"
       }
+    },
+    {
+      "chapter_id": "c-songshu-092-xuhuo",
+      "work_id": "w-songshu",
+      "book_id": "b-songshu-092",
+      "source_id": "s-songshu-092-xuhuo-ws2195614",
+      "source": {
+        "title": "徐豁",
+        "provider": "Wikisource",
+        "permalink": "https://zh.wikisource.org/w/index.php?oldid=2195614",
+        "url": "https://zh.wikisource.org/w/index.php?oldid=2195614",
+        "revision_id": 2195614,
+        "edition": "維基文庫固定修訂",
+        "accessed_on": "2026-11-21",
+        "review_status": "text_checked",
+        "image_verified": false,
+        "rights": "古代原文；數位轉錄依維基文庫授權。",
+        "license_url": "https://creativecommons.org/licenses/by-sa/4.0/",
+        "extent": "徐豁",
+        "text_scope": "complete_biography_unit",
+        "raw_path": "sources/songshu/songshu092-ws2195614.wikitext",
+        "raw_file_sha256": "88da739ec68f6114fdca1344b9d5b1e8e49b9cbd0cc7d07506aed3b2a5c4ec8e"
+      }
     }
   ],
-  "relations": [],
+  "relations": [
+    {
+      "id": "a-song092-xuhuo-miao",
+      "subject_person_id": "1b7_36b_29b_A",
+      "object_person_id": "1b7_36b_29b",
+      "predicate": "father",
+      "qualifiers": {
+        "source_term": "父邈",
+        "reading_basis": {
+          "kind": "song092_prose_kin",
+          "unit": "xuhuo"
+        },
+        "lineage": "paternal"
+      },
+      "evidence": [
+        {
+          "work_id": "w-songshu",
+          "book_id": "b-songshu-092",
+          "chapter_id": "c-songshu-092-xuhuo",
+          "source_id": "s-songshu-092-xuhuo-ws2195614",
+          "paragraph_id": "c-songshu-092-xuhuo:p001",
+          "quote": "徐豁字萬同，東莞姑幕人也，中散大夫廣兄子。父邈，晉太子左衞率。",
+          "subject_person_mention_id": "c-songshu-092-xuhuo:p001:m0000",
+          "object_person_mention_id": "c-songshu-092-xuhuo:p001:m0022"
+        }
+      ],
+      "status": "source_attested",
+      "interpretation_note": "名、字、籍貫及官相合，指東晉徐邈。",
+      "reviewer": "Codex（AI代理）",
+      "model": null,
+      "human_reviewed": false
+    },
+    {
+      "id": "a-song092-xumiao-guang",
+      "subject_person_id": "1b7_36b_29b",
+      "object_person_id": "qf8_544_pvp",
+      "predicate": "brother",
+      "qualifiers": {
+        "source_term": "廣兄子。父邈",
+        "reading_basis": {
+          "kind": "song092_prose_kin",
+          "unit": "xuhuo"
+        },
+        "relative_age": "older"
+      },
+      "evidence": [
+        {
+          "work_id": "w-songshu",
+          "book_id": "b-songshu-092",
+          "chapter_id": "c-songshu-092-xuhuo",
+          "source_id": "s-songshu-092-xuhuo-ws2195614",
+          "paragraph_id": "c-songshu-092-xuhuo:p001",
+          "quote": "徐豁字萬同，東莞姑幕人也，中散大夫廣兄子。父邈，晉太子左衞率。",
+          "subject_person_mention_id": "c-songshu-092-xuhuo:p001:m0022",
+          "object_person_mention_id": "c-songshu-092-xuhuo:p001:m0017"
+        }
+      ],
+      "status": "source_attested",
+      "interpretation_note": "父邈與廣兄子兩句相承，南33「兄邈」。",
+      "reviewer": "Codex（AI代理）",
+      "model": null,
+      "human_reviewed": false
+    }
+  ],
   "related_people": {
-    "1b7_36b_29b": "徐邈"
+    "1b7_36b_29b": "徐邈",
+    "1b7_36b_29b_A": "徐豁（字萬同，徐邈子）",
+    "qf8_544_pvp": "徐廣"
   },
   "dates": [],
   "name_components": [],
   "person_ids": [
     "1b7_36b_29b"
   ],
-  "preferred_relations": [],
+  "preferred_relations": [
+    {
+      "id": "a-song092-xuhuo-miao",
+      "subject_person_id": "1b7_36b_29b_A",
+      "object_person_id": "1b7_36b_29b",
+      "predicate": "father",
+      "qualifiers": {
+        "source_term": "父邈",
+        "reading_basis": {
+          "kind": "song092_prose_kin",
+          "unit": "xuhuo"
+        },
+        "lineage": "paternal"
+      },
+      "evidence": [
+        {
+          "work_id": "w-songshu",
+          "book_id": "b-songshu-092",
+          "chapter_id": "c-songshu-092-xuhuo",
+          "source_id": "s-songshu-092-xuhuo-ws2195614",
+          "paragraph_id": "c-songshu-092-xuhuo:p001",
+          "quote": "徐豁字萬同，東莞姑幕人也，中散大夫廣兄子。父邈，晉太子左衞率。",
+          "subject_person_mention_id": "c-songshu-092-xuhuo:p001:m0000",
+          "object_person_mention_id": "c-songshu-092-xuhuo:p001:m0022"
+        }
+      ],
+      "status": "source_attested",
+      "interpretation_note": "名、字、籍貫及官相合，指東晉徐邈。",
+      "reviewer": "Codex（AI代理）",
+      "model": null,
+      "human_reviewed": false
+    },
+    {
+      "id": "a-song092-xumiao-guang",
+      "subject_person_id": "1b7_36b_29b",
+      "object_person_id": "qf8_544_pvp",
+      "predicate": "brother",
+      "qualifiers": {
+        "source_term": "廣兄子。父邈",
+        "reading_basis": {
+          "kind": "song092_prose_kin",
+          "unit": "xuhuo"
+        },
+        "relative_age": "older"
+      },
+      "evidence": [
+        {
+          "work_id": "w-songshu",
+          "book_id": "b-songshu-092",
+          "chapter_id": "c-songshu-092-xuhuo",
+          "source_id": "s-songshu-092-xuhuo-ws2195614",
+          "paragraph_id": "c-songshu-092-xuhuo:p001",
+          "quote": "徐豁字萬同，東莞姑幕人也，中散大夫廣兄子。父邈，晉太子左衞率。",
+          "subject_person_mention_id": "c-songshu-092-xuhuo:p001:m0022",
+          "object_person_mention_id": "c-songshu-092-xuhuo:p001:m0017"
+        }
+      ],
+      "status": "source_attested",
+      "interpretation_note": "父邈與廣兄子兩句相承，南33「兄邈」。",
+      "reviewer": "Codex（AI代理）",
+      "model": null,
+      "human_reviewed": false
+    }
+  ],
   "age_assertions": [],
   "life_events": [],
   "life_event_date_decisions": [],

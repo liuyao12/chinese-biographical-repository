@@ -26,6 +26,14 @@ def errors(ch,root):
     try:
         u=frame(ch,root);s=ch['source'];ps=ch['paragraphs'];raw=source(root,u['source_path'],u['raw_sha256']);ls=raw.splitlines(keepends=True)
         if (ch['source_id'],s['raw_path'],s['raw_file_sha256'],s['revision_id'],s['image_verified'])!=(u['source_id'],u['source_path'],u['raw_sha256'],u['revision_id'],False):raise ValueError('底本')
+        if ch['id']=='c-nanqishu-032-zhangdai-family' and len(ps)>1:
+            ext=json.loads(source(root,'source-evidence/nanqi032-biographies/issued-zhangdai-extension.json','cb3c69cf1157ba3379d43640e45aed409f5b36dd9c7493bf6702dee4a002d1f2'))
+            old=ext['old_first_paragraph']
+            if hd(ch)!=ext['full_sha256'] or ps[0]!=old or hd([old['source_position']])!=u['positions_sha256'] or hd([old['mentions']])!=u['mentions_sha256'] or h(old['text'])!=u['body_sha256'] or hd(ext['old_annotation'])!=u['annotation_sha256']:raise ValueError('張岱傳首與全傳')
+            for p in ps:
+                loc=p['source_position']; offset=loc['raw_character_offsets']; n=loc['first_line']; base=sum(map(len,ls[:n-1]))
+                if loc['last_line']!=n or not offset or offset!=sorted(set(offset)) or not base<=min(offset)<=max(offset)<base+len(ls[n-1]) or ''.join(raw[v]for v in offset)!=p['text']:raise ValueError('張岱全傳原字')
+            return []
         if hd([p['source_position']for p in ps])!=u['positions_sha256']:raise ValueError('段落選取')
         for i,p in enumerate(ps,1):
             pos=p['source_position'];ix=pos['raw_character_offsets'];n=pos['first_line'];base=sum(map(len,ls[:n-1]));
@@ -43,6 +51,10 @@ def side_errors(d,ch,root,key):
     if ch['id']not in CIDS:return []
     try:
         k={'assertions':'kin','holdings':'offices','events':'life'}[key]
+        if ch['id']=='c-nanqishu-032-zhangdai-family' and len(ch['paragraphs'])>1:
+            ext=json.loads(source(root,'source-evidence/nanqi032-biographies/issued-zhangdai-extension.json','cb3c69cf1157ba3379d43640e45aed409f5b36dd9c7493bf6702dee4a002d1f2'))
+            if hd(d[key]) not in ext['side_records'][key]:raise ValueError('張岱父祖及合併後各側檔')
+            return []
         if d[key]!=frame(ch,root)[k]:raise ValueError('原證')
         return []
     except (KeyError,TypeError,OSError,ValueError):return ['南史王繢、安陸王妃、王約雋克 的親屬、職序或身後事與所據原句不合']

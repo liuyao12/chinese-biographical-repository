@@ -253,6 +253,54 @@
       "period": "未定 → 未定"
     },
     {
+      "id": "th-songshu-092-ruanchangzhi-1-18",
+      "title": "金紫光祿大夫",
+      "kind": "office",
+      "mode": "attestation",
+      "person_id": "03n_n2r_8rt",
+      "attestations": [
+        {
+          "id": "th-songshu-092-ruanchangzhi-1-18:a",
+          "paragraph_id": "c-songshu-092-ruanchangzhi:p001",
+          "start": 18,
+          "end": 24,
+          "surface": "金紫光祿大夫",
+          "person_mention_id": "c-songshu-092-ruanchangzhi:p001:m0015",
+          "usage": "narrative",
+          "date_expression": null
+        }
+      ],
+      "effective_period": {
+        "start": {
+          "status": "unknown",
+          "date_expression": null,
+          "evidence": []
+        },
+        "end": {
+          "status": "unknown",
+          "date_expression": null,
+          "evidence": []
+        }
+      },
+      "evidence": [
+        {
+          "work_id": "w-songshu",
+          "book_id": "b-songshu-092",
+          "chapter_id": "c-songshu-092-ruanchangzhi",
+          "source_id": "s-songshu-092-ruanchangzhi-ws2195614",
+          "paragraph_id": "c-songshu-092-ruanchangzhi:p001",
+          "quote": "阮長之字茂景，陳留尉氏人也。祖思曠，金紫光祿大夫。父普，驃騎諮議參軍。",
+          "person_mention_id": "c-songshu-092-ruanchangzhi:p001:m0015"
+        }
+      ],
+      "status": "source_attested",
+      "interpretation_note": "所見原官稱，未載全任期。",
+      "reviewer": "Codex（AI代理）",
+      "model": null,
+      "human_reviewed": false,
+      "period": "未定 → 未定"
+    },
+    {
       "id": "th-nanshi024-ruanwanling-m1-15",
       "person_id": "03n_n2r_8rt",
       "title": "左光祿大夫",
@@ -597,6 +645,41 @@
       "chapter_id": "c-jinshu-080-wangxizhi-family",
       "source_id": "s-jinshu-080-wangxizhi-family",
       "work_title": "晉書"
+    },
+    {
+      "number": 92,
+      "category": "",
+      "title": "阮長之",
+      "paragraph_id": "c-songshu-092-ruanchangzhi:p001",
+      "count": 1,
+      "raw_count": 1,
+      "duplicate_count": 0,
+      "counting_policy": "independent_fixed_witness_occurrences",
+      "quote": "阮長之字茂景，陳留尉氏人也。祖思曠，金紫光祿大夫。父普，驃騎諮議參軍。",
+      "paragraph_ids": [
+        "c-songshu-092-ruanchangzhi:p001"
+      ],
+      "mention_ids": [
+        "c-songshu-092-ruanchangzhi:p001:m0015"
+      ],
+      "mention_paragraph_ids": {
+        "c-songshu-092-ruanchangzhi:p001:m0015": "c-songshu-092-ruanchangzhi:p001"
+      },
+      "mention_id": "c-songshu-092-ruanchangzhi:p001:m0015",
+      "occurrence_groups": [
+        {
+          "canonical_mention_id": "c-songshu-092-ruanchangzhi:p001:m0015",
+          "mention_ids": [
+            "c-songshu-092-ruanchangzhi:p001:m0015"
+          ],
+          "kind": "paragraph"
+        }
+      ],
+      "work_id": "w-songshu",
+      "book_id": "b-songshu-092",
+      "chapter_id": "c-songshu-092-ruanchangzhi",
+      "source_id": "s-songshu-092-ruanchangzhi-ws2195614",
+      "work_title": "宋書"
     },
     {
       "number": 93,
@@ -1164,6 +1247,29 @@
       }
     },
     {
+      "chapter_id": "c-songshu-092-ruanchangzhi",
+      "work_id": "w-songshu",
+      "book_id": "b-songshu-092",
+      "source_id": "s-songshu-092-ruanchangzhi-ws2195614",
+      "source": {
+        "title": "阮長之",
+        "provider": "Wikisource",
+        "permalink": "https://zh.wikisource.org/w/index.php?oldid=2195614",
+        "url": "https://zh.wikisource.org/w/index.php?oldid=2195614",
+        "revision_id": 2195614,
+        "edition": "維基文庫固定修訂",
+        "accessed_on": "2026-11-21",
+        "review_status": "text_checked",
+        "image_verified": false,
+        "rights": "古代原文；數位轉錄依維基文庫授權。",
+        "license_url": "https://creativecommons.org/licenses/by-sa/4.0/",
+        "extent": "阮長之",
+        "text_scope": "complete_biography_unit",
+        "raw_path": "sources/songshu/songshu092-ws2195614.wikitext",
+        "raw_file_sha256": "88da739ec68f6114fdca1344b9d5b1e8e49b9cbd0cc7d07506aed3b2a5c4ec8e"
+      }
+    },
+    {
       "chapter_id": "c-songshu-093-ruanwanling",
       "work_id": "w-songshu",
       "book_id": "b-songshu-093",
@@ -1442,6 +1548,37 @@
       "model": null
     },
     {
+      "id": "a-song092-changzhi-grandfather",
+      "subject_person_id": "qkt_yf2_rsg",
+      "object_person_id": "03n_n2r_8rt",
+      "predicate": "grandfather",
+      "qualifiers": {
+        "source_term": "祖思曠",
+        "reading_basis": {
+          "kind": "song092_prose_kin",
+          "unit": "changzhi"
+        },
+        "lineage": "paternal"
+      },
+      "evidence": [
+        {
+          "work_id": "w-songshu",
+          "book_id": "b-songshu-092",
+          "chapter_id": "c-songshu-092-ruanchangzhi",
+          "source_id": "s-songshu-092-ruanchangzhi-ws2195614",
+          "paragraph_id": "c-songshu-092-ruanchangzhi:p001",
+          "quote": "阮長之字茂景，陳留尉氏人也。祖思曠，金紫光祿大夫。父普，驃騎諮議參軍。",
+          "subject_person_mention_id": "c-songshu-092-ruanchangzhi:p001:m0000",
+          "object_person_mention_id": "c-songshu-092-ruanchangzhi:p001:m0015"
+        }
+      ],
+      "status": "source_attested",
+      "interpretation_note": "宋92祖以字書，晉49阮裕字思曠，三子有普。",
+      "reviewer": "Codex（AI代理）",
+      "model": null,
+      "human_reviewed": false
+    },
+    {
       "id": "a-nanshi024-ruanwanling-m-grandfather",
       "subject_person_id": "wv8_l6v_kp9",
       "object_person_id": "03n_n2r_8rt",
@@ -1518,6 +1655,7 @@
     "03n_n2r_8rt_A": "阮傭",
     "03n_n2r_8rt_B": "阮寧（阮萬齡父）",
     "03n_n2r_8rt_C": "阮普",
+    "qkt_yf2_rsg": "阮長之",
     "wv8_l6v_kp9": "阮萬齡"
   },
   "dates": [],
@@ -1779,6 +1917,37 @@
       "reviewer": "Codex（AI 代理）",
       "human_reviewed": false,
       "model": null
+    },
+    {
+      "id": "a-song092-changzhi-grandfather",
+      "subject_person_id": "qkt_yf2_rsg",
+      "object_person_id": "03n_n2r_8rt",
+      "predicate": "grandfather",
+      "qualifiers": {
+        "source_term": "祖思曠",
+        "reading_basis": {
+          "kind": "song092_prose_kin",
+          "unit": "changzhi"
+        },
+        "lineage": "paternal"
+      },
+      "evidence": [
+        {
+          "work_id": "w-songshu",
+          "book_id": "b-songshu-092",
+          "chapter_id": "c-songshu-092-ruanchangzhi",
+          "source_id": "s-songshu-092-ruanchangzhi-ws2195614",
+          "paragraph_id": "c-songshu-092-ruanchangzhi:p001",
+          "quote": "阮長之字茂景，陳留尉氏人也。祖思曠，金紫光祿大夫。父普，驃騎諮議參軍。",
+          "subject_person_mention_id": "c-songshu-092-ruanchangzhi:p001:m0000",
+          "object_person_mention_id": "c-songshu-092-ruanchangzhi:p001:m0015"
+        }
+      ],
+      "status": "source_attested",
+      "interpretation_note": "宋92祖以字書，晉49阮裕字思曠，三子有普。",
+      "reviewer": "Codex（AI代理）",
+      "model": null,
+      "human_reviewed": false
     },
     {
       "id": "a-nanshi024-ruanwanling-m-grandfather",

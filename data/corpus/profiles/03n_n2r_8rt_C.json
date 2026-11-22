@@ -56,6 +56,54 @@
       "human_reviewed": false,
       "model": null,
       "period": "未定 → 未定"
+    },
+    {
+      "id": "th-songshu-092-ruanchangzhi-1-28",
+      "title": "驃騎諮議參軍",
+      "kind": "office",
+      "mode": "attestation",
+      "person_id": "03n_n2r_8rt_C",
+      "attestations": [
+        {
+          "id": "th-songshu-092-ruanchangzhi-1-28:a",
+          "paragraph_id": "c-songshu-092-ruanchangzhi:p001",
+          "start": 28,
+          "end": 34,
+          "surface": "驃騎諮議參軍",
+          "person_mention_id": "c-songshu-092-ruanchangzhi:p001:m0026",
+          "usage": "narrative",
+          "date_expression": null
+        }
+      ],
+      "effective_period": {
+        "start": {
+          "status": "unknown",
+          "date_expression": null,
+          "evidence": []
+        },
+        "end": {
+          "status": "unknown",
+          "date_expression": null,
+          "evidence": []
+        }
+      },
+      "evidence": [
+        {
+          "work_id": "w-songshu",
+          "book_id": "b-songshu-092",
+          "chapter_id": "c-songshu-092-ruanchangzhi",
+          "source_id": "s-songshu-092-ruanchangzhi-ws2195614",
+          "paragraph_id": "c-songshu-092-ruanchangzhi:p001",
+          "quote": "阮長之字茂景，陳留尉氏人也。祖思曠，金紫光祿大夫。父普，驃騎諮議參軍。",
+          "person_mention_id": "c-songshu-092-ruanchangzhi:p001:m0026"
+        }
+      ],
+      "status": "source_attested",
+      "interpretation_note": "所見原官稱，未載全任期。",
+      "reviewer": "Codex（AI代理）",
+      "model": null,
+      "human_reviewed": false,
+      "period": "未定 → 未定"
     }
   ],
   "addresses": [],
@@ -104,6 +152,41 @@
       "chapter_id": "c-jinshu-049-ruanyu-family",
       "source_id": "s-jinshu-049-ruanyu-family-ws2199702",
       "work_title": "晉書"
+    },
+    {
+      "number": 92,
+      "category": "",
+      "title": "阮長之",
+      "paragraph_id": "c-songshu-092-ruanchangzhi:p001",
+      "count": 1,
+      "raw_count": 1,
+      "duplicate_count": 0,
+      "counting_policy": "independent_fixed_witness_occurrences",
+      "quote": "阮長之字茂景，陳留尉氏人也。祖思曠，金紫光祿大夫。父普，驃騎諮議參軍。",
+      "paragraph_ids": [
+        "c-songshu-092-ruanchangzhi:p001"
+      ],
+      "mention_ids": [
+        "c-songshu-092-ruanchangzhi:p001:m0026"
+      ],
+      "mention_paragraph_ids": {
+        "c-songshu-092-ruanchangzhi:p001:m0026": "c-songshu-092-ruanchangzhi:p001"
+      },
+      "mention_id": "c-songshu-092-ruanchangzhi:p001:m0026",
+      "occurrence_groups": [
+        {
+          "canonical_mention_id": "c-songshu-092-ruanchangzhi:p001:m0026",
+          "mention_ids": [
+            "c-songshu-092-ruanchangzhi:p001:m0026"
+          ],
+          "kind": "paragraph"
+        }
+      ],
+      "work_id": "w-songshu",
+      "book_id": "b-songshu-092",
+      "chapter_id": "c-songshu-092-ruanchangzhi",
+      "source_id": "s-songshu-092-ruanchangzhi-ws2195614",
+      "work_title": "宋書"
     }
   ],
   "table_occurrences": [],
@@ -134,6 +217,29 @@
           "extraction_note": "投影相應原句，保留字形；移除年號模板定界符。"
         },
         "section_locator": "阮裕字及子孫"
+      }
+    },
+    {
+      "chapter_id": "c-songshu-092-ruanchangzhi",
+      "work_id": "w-songshu",
+      "book_id": "b-songshu-092",
+      "source_id": "s-songshu-092-ruanchangzhi-ws2195614",
+      "source": {
+        "title": "阮長之",
+        "provider": "Wikisource",
+        "permalink": "https://zh.wikisource.org/w/index.php?oldid=2195614",
+        "url": "https://zh.wikisource.org/w/index.php?oldid=2195614",
+        "revision_id": 2195614,
+        "edition": "維基文庫固定修訂",
+        "accessed_on": "2026-11-21",
+        "review_status": "text_checked",
+        "image_verified": false,
+        "rights": "古代原文；數位轉錄依維基文庫授權。",
+        "license_url": "https://creativecommons.org/licenses/by-sa/4.0/",
+        "extent": "阮長之",
+        "text_scope": "complete_biography_unit",
+        "raw_path": "sources/songshu/songshu092-ws2195614.wikitext",
+        "raw_file_sha256": "88da739ec68f6114fdca1344b9d5b1e8e49b9cbd0cc7d07506aed3b2a5c4ec8e"
       }
     }
   ],
@@ -171,14 +277,86 @@
       "reviewer": "Codex（AI 代理）",
       "human_reviewed": false,
       "model": null
+    },
+    {
+      "id": "a-song092-changzhi-father",
+      "subject_person_id": "qkt_yf2_rsg",
+      "object_person_id": "03n_n2r_8rt_C",
+      "predicate": "father",
+      "qualifiers": {
+        "source_term": "父普",
+        "reading_basis": {
+          "kind": "song092_prose_kin",
+          "unit": "changzhi"
+        },
+        "lineage": "paternal"
+      },
+      "evidence": [
+        {
+          "work_id": "w-songshu",
+          "book_id": "b-songshu-092",
+          "chapter_id": "c-songshu-092-ruanchangzhi",
+          "source_id": "s-songshu-092-ruanchangzhi-ws2195614",
+          "paragraph_id": "c-songshu-092-ruanchangzhi:p001",
+          "quote": "阮長之字茂景，陳留尉氏人也。祖思曠，金紫光祿大夫。父普，驃騎諮議參軍。",
+          "subject_person_mention_id": "c-songshu-092-ruanchangzhi:p001:m0000",
+          "object_person_mention_id": "c-songshu-092-ruanchangzhi:p001:m0026"
+        }
+      ],
+      "status": "source_attested",
+      "interpretation_note": "父普後明言驃騎諮議參軍，與晉49阮裕子吻合；已發長之根號保全。",
+      "reviewer": "Codex（AI代理）",
+      "model": null,
+      "human_reviewed": false
     }
   ],
   "related_people": {
     "03n_n2r_8rt": "阮裕（韜玄祖）",
-    "03n_n2r_8rt_C": "阮普"
+    "03n_n2r_8rt_C": "阮普",
+    "qkt_yf2_rsg": "阮長之"
   },
   "dates": [],
   "name_components": [],
+  "source_reading_cases": [
+    {
+      "id": "c-songshu-092-ruanchangzhi:conditional_parent_death2-2",
+      "kind": "conditional_parent_death",
+      "person_id": "03n_n2r_8rt_C",
+      "source_quote": "年十五喪父",
+      "reading": "卒於長之十五之年。統用虛歲則長之生379、父卒393；若兩次報齡皆足歲則父卒392至394，取決於生日及兩事件季日。",
+      "note": "卒於長之十五之年。統用虛歲則長之生379、父卒393；若兩次報齡皆足歲則父卒392至394，取決於生日及兩事件季日。",
+      "paragraph_id": "c-songshu-092-ruanchangzhi:p002",
+      "start_codepoint": 2,
+      "end_codepoint": 7,
+      "human_reviewed": false,
+      "child_age": 15,
+      "nominal_year": 393,
+      "completed_age_years": [
+        392,
+        393,
+        394
+      ],
+      "chapter_id": "c-songshu-092-ruanchangzhi",
+      "source_id": "s-songshu-092-ruanchangzhi-ws2195614"
+    }
+  ],
+  "person_references": [
+    {
+      "id": "c-songshu-092-ruanchangzhi:p002:r0006",
+      "paragraph_id": "c-songshu-092-ruanchangzhi:p002",
+      "start": 6,
+      "end": 7,
+      "surface": "父",
+      "person_id": "03n_n2r_8rt_C",
+      "referent_role": "third_person",
+      "quote": "長之年十五喪父，有孝性，哀感傍人。服除，蔬食者猶積載。閑居篤學，未嘗有惰容。初為諸府參軍，除員外散騎侍郎。母老，求補襄垣令，督郵無禮，鞭之，去職。尋補廬陵王義真車騎行正參軍，平越長史，東莞太守。入為尚書殿中郎，出為武昌太守。時王弘為江州，雅相知重，引為車騎從事中郎。入為太子中舍人，中書侍郎，以母老固辭朝直，補彭城王義康平北諮議參軍。元嘉九年，遷臨川內史，以南土卑濕，母年老，非所宜，辭不就。十一年，復除臨海太守。至郡少時而母亡，葬畢，不勝憂，十四年，卒，時年五十九。",
+      "note": "依本段敘事、稱謂及語者受者定。",
+      "chapter_id": "c-songshu-092-ruanchangzhi",
+      "book_id": "b-songshu-092",
+      "work_id": "w-songshu",
+      "source_id": "s-songshu-092-ruanchangzhi-ws2195614"
+    }
+  ],
   "person_ids": [
     "03n_n2r_8rt_C"
   ],
@@ -216,6 +394,37 @@
       "reviewer": "Codex（AI 代理）",
       "human_reviewed": false,
       "model": null
+    },
+    {
+      "id": "a-song092-changzhi-father",
+      "subject_person_id": "qkt_yf2_rsg",
+      "object_person_id": "03n_n2r_8rt_C",
+      "predicate": "father",
+      "qualifiers": {
+        "source_term": "父普",
+        "reading_basis": {
+          "kind": "song092_prose_kin",
+          "unit": "changzhi"
+        },
+        "lineage": "paternal"
+      },
+      "evidence": [
+        {
+          "work_id": "w-songshu",
+          "book_id": "b-songshu-092",
+          "chapter_id": "c-songshu-092-ruanchangzhi",
+          "source_id": "s-songshu-092-ruanchangzhi-ws2195614",
+          "paragraph_id": "c-songshu-092-ruanchangzhi:p001",
+          "quote": "阮長之字茂景，陳留尉氏人也。祖思曠，金紫光祿大夫。父普，驃騎諮議參軍。",
+          "subject_person_mention_id": "c-songshu-092-ruanchangzhi:p001:m0000",
+          "object_person_mention_id": "c-songshu-092-ruanchangzhi:p001:m0026"
+        }
+      ],
+      "status": "source_attested",
+      "interpretation_note": "父普後明言驃騎諮議參軍，與晉49阮裕子吻合；已發長之根號保全。",
+      "reviewer": "Codex（AI代理）",
+      "model": null,
+      "human_reviewed": false
     }
   ],
   "assembled_identity": {
