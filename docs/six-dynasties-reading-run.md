@@ -403,3 +403,18 @@
 武英殿本《宋書》卷八十第九葉上第三至五欄具「可以建平王景素息延年為嗣追改子鸞封為始平王食邑千戶改葬秣陵縣龍山延年字德沖」，固定數位本同處作「可以建平王景素息延延年字德沖」。本批照錄書影二十七欄，分別連回傳文與五處校異。《宋書》兩個范泰來源號亦已按十二處引文連結，兩號各自的原標記均可回查。
 
 [吳書卷五十二傳界](../source-evidence/sanguozhi052-wu/survey.json) · [陸抗諸子及兩書紀日](../source-evidence/sanguozhi058-lukang/reading.json) · [卷五十八附敘與卷末評](../source-evidence/sanguozhi058-roll-close/reading.json) · [張趙兩家全卷傳界](../source-evidence/song046-zhang-complete/volume-boundaries.json) · [到彥之兩書傳位](../source-evidence/song046-zhang-complete/dao-location.json) · [殷淑儀及皇子女](../source-evidence/nanshi011-yinshuyi/reading.json) · [宋書卷八十殿本原欄](../source-evidence/song080-yinshuyi-wyd/column-collation.json) · [范泰兩號原證](../source-evidence/song060-fantai-equivalence/source-reading.json)
+
+## 第二十七批　吳書虞翻等七家、梁王張兩家與陳王通兄弟
+
+本批新增六十三項逐傳覆核。六十三卷已有清冊，共一千零十四項傳目，其中七百五十五項備有全文，七百五十四項完成人物初讀，七百四十八項完成逐項覆核。
+
+| 卷篇 | 新核傳目 | 原文與校勘 |
+| --- | ---: | --- |
+| 《三國志》卷五十七 | 53 | 七篇主傳、「子 汜等」一篇合傳、四十五則無題附敘。卷末陳壽評另錄。虞翻與卷五十二諸葛瑾傳所載徙人並證，兩處已發人物號保留。裴注「鄮莫候反」是鄮字反切。陸績子睿，殿本作叡。 |
+| 《梁書》卷十六 | 5 | 王亮、張稷、張楚瑗、張卷、王瑩。本卷述張嵊復仇，自注另有傳，正傳在卷四十三。五傳共一百六十六句，卷末姚察史論另十句。張稷長女《南史》寫楚媛。王瑩傳載鑄印六次、居職六日，印龜「頸空不實」，《南史》作「頭空不實」。 |
+| 《梁書》卷七、《南史》卷十二 | 3 | 梁太宗王皇后、其父王騫，以及《南史》簡文王皇后。長山公主名與王氏拜太子妃的年號，《梁書》數位本作「妙䂮」「中大通三年」，殿本作「妙䂮」「大通三年」，《南史》數位本作「妙挈」「大通三年」。 |
+| 《陳書》卷十七 | 2 | 王通及弟王勱。王通父琳，數位本作司徒左長史，武英殿本作司空左長史，卷末考證記《南史》作司徒。通在太建六年加特進、未拜而卒，本紀十二月景午所記為加特進之日。勱先行廣州府事，後受廣州刺史未行，改衡州又未能到任。本傳記太建四年五月卒，本紀詳至癸卯。 |
+
+王通傳殿本二下至三下十六欄及卷末考證二欄，王勱傳三下至五上三十欄，均按半葉、原欄照錄。勱字在《陳書》作公濟，《南史》作公齊。兩人原有的父祖、兄弟及卒齡短篇各保留原段與姓名標記。朱據妻孫魯育與同母姊孫魯班的兩次婚配則各由《吳書》步夫人傳具證；朱宣所尚公主的名仍闕。
+
+[虞翻兩處來源號](../source-evidence/sanguozhi057-yufan/reading.json) · [朱據家婚配](../source-evidence/sanguozhi057-zhuju/reading.json) · [吳書卷五十七全卷清冊](../source-evidence/sanguozhi057-roll-close/reading.json) · [梁書卷十六全卷傳界](../source-evidence/liang016-complete/volume-boundaries.json) · [王瑩兩書校讀](../source-evidence/liang016-complete/wangying-reading.json) · [姚察史論與傳承](../source-evidence/liang016-complete/commentary-reading.json) · [王靈賓武英殿本原欄](../source-evidence/liang007-wanglingbin/wyd164-reading.json) · [王通原欄及考證](../source-evidence/chenshu017-wangyuan/wangtong-wuyingdian.json) · [王勱三十欄](../source-evidence/chenshu017-wangyuan/wangmai-wuyingdian.json)

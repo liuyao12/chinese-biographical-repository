@@ -11,6 +11,54 @@
   ],
   "titles": [
     {
+      "id": "th-chenshu-017-wangtong-complete-1-26",
+      "title": "司徒左長史",
+      "kind": "office",
+      "mode": "attestation",
+      "person_id": "q7m_r8k_2vn_ABA",
+      "attestations": [
+        {
+          "id": "th-chenshu-017-wangtong-complete-1-26:a",
+          "paragraph_id": "c-chenshu-017-wangtong-complete:p001",
+          "start": 26,
+          "end": 31,
+          "surface": "司徒左長史",
+          "person_mention_id": "c-chenshu-017-wangtong-complete:p001:m0024",
+          "usage": "narrative",
+          "date_expression": null
+        }
+      ],
+      "effective_period": {
+        "start": {
+          "status": "unknown",
+          "date_expression": null,
+          "evidence": []
+        },
+        "end": {
+          "status": "unknown",
+          "date_expression": null,
+          "evidence": []
+        }
+      },
+      "evidence": [
+        {
+          "work_id": "w-chenshu",
+          "book_id": "b-chenshu-017",
+          "chapter_id": "c-chenshu-017-wangtong-complete",
+          "source_id": "s-chenshu-017-wangtong-complete-ws1544244",
+          "paragraph_id": "c-chenshu-017-wangtong-complete:p001",
+          "quote": "王通字公達，琅邪臨沂人也。祖份，梁左光祿大夫。父琳，司徒左長史。琳，齊代娶梁武帝妹義興長公主，有子九人，嵭知名。",
+          "person_mention_id": "c-chenshu-017-wangtong-complete:p001:m0024"
+        }
+      ],
+      "status": "source_attested",
+      "interpretation_note": "所見原官稱，未載全任期。",
+      "reviewer": "Codex（AI代理）",
+      "model": null,
+      "human_reviewed": false,
+      "period": "未定 → 未定"
+    },
+    {
       "id": "th-liang021-wangfen-family-m4-17",
       "person_id": "q7m_r8k_2vn_ABA",
       "title": "征虜建安王法曹",
@@ -731,6 +779,50 @@
       "work_title": "陳書"
     },
     {
+      "number": 17,
+      "category": "",
+      "title": "陳書卷十七·王通",
+      "paragraph_id": "c-chenshu-017-wangtong-complete:p001",
+      "count": 2,
+      "raw_count": 2,
+      "duplicate_count": 0,
+      "counting_policy": "independent_fixed_witness_occurrences",
+      "quote": "王通字公達，琅邪臨沂人也。祖份，梁左光祿大夫。父琳，司徒左長史。琳，齊代娶梁武帝妹義興長公主，有子九人，嵭知名。",
+      "paragraph_ids": [
+        "c-chenshu-017-wangtong-complete:p001"
+      ],
+      "mention_ids": [
+        "c-chenshu-017-wangtong-complete:p001:m0024",
+        "c-chenshu-017-wangtong-complete:p001:m0032"
+      ],
+      "mention_paragraph_ids": {
+        "c-chenshu-017-wangtong-complete:p001:m0024": "c-chenshu-017-wangtong-complete:p001",
+        "c-chenshu-017-wangtong-complete:p001:m0032": "c-chenshu-017-wangtong-complete:p001"
+      },
+      "mention_id": "c-chenshu-017-wangtong-complete:p001:m0024",
+      "occurrence_groups": [
+        {
+          "canonical_mention_id": "c-chenshu-017-wangtong-complete:p001:m0024",
+          "mention_ids": [
+            "c-chenshu-017-wangtong-complete:p001:m0024"
+          ],
+          "kind": "paragraph"
+        },
+        {
+          "canonical_mention_id": "c-chenshu-017-wangtong-complete:p001:m0032",
+          "mention_ids": [
+            "c-chenshu-017-wangtong-complete:p001:m0032"
+          ],
+          "kind": "paragraph"
+        }
+      ],
+      "work_id": "w-chenshu",
+      "book_id": "b-chenshu-017",
+      "chapter_id": "c-chenshu-017-wangtong-complete",
+      "source_id": "s-chenshu-017-wangtong-complete-ws1544244",
+      "work_title": "陳書"
+    },
+    {
       "number": 21,
       "category": "",
       "title": "王份傳及王琳、王錫附傳",
@@ -975,6 +1067,29 @@
           "character_conversion": {},
           "extraction_note": "投影相應原句，保留字形；移除年號模板定界符。"
         }
+      }
+    },
+    {
+      "chapter_id": "c-chenshu-017-wangtong-complete",
+      "work_id": "w-chenshu",
+      "book_id": "b-chenshu-017",
+      "source_id": "s-chenshu-017-wangtong-complete-ws1544244",
+      "source": {
+        "title": "陳書卷十七·王通",
+        "provider": "Wikisource",
+        "permalink": "https://zh.wikisource.org/w/index.php?oldid=1544244",
+        "url": "https://zh.wikisource.org/w/index.php?oldid=1544244",
+        "revision_id": 1544244,
+        "edition": "維基文庫固定修訂",
+        "accessed_on": "2026-11-21",
+        "review_status": "text_checked",
+        "image_verified": false,
+        "rights": "古代原文；數位轉錄依維基文庫授權。",
+        "license_url": "https://creativecommons.org/licenses/by-sa/4.0/",
+        "extent": "陳書卷十七·王通",
+        "text_scope": "complete_biography_unit",
+        "raw_path": "sources/chenshu/chenshu017-ws1544244.wikitext",
+        "raw_file_sha256": "8d95f1fe792049025076c024e18aec87f8fd42ac2d05afea063555680e852328"
       }
     },
     {
