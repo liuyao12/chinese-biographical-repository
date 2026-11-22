@@ -10,7 +10,8 @@
     "湛",
     "君",
     "自",
-    "江"
+    "江",
+    "江忠簡"
   ],
   "titles": [
     {
@@ -59,6 +60,54 @@
       "reviewer": "Codex（AI 代理）",
       "human_reviewed": false,
       "model": null,
+      "period": "未定 → 未定"
+    },
+    {
+      "id": "th-nanqishu-043-jiangxiao-complete-1-19",
+      "title": "左光祿大夫",
+      "kind": "office",
+      "mode": "attestation",
+      "person_id": "o1i_tao_gu1",
+      "attestations": [
+        {
+          "id": "th-nanqishu-043-jiangxiao-complete-1-19:a",
+          "paragraph_id": "c-nanqishu-043-jiangxiao-complete:p001",
+          "start": 19,
+          "end": 24,
+          "surface": "左光祿大夫",
+          "person_mention_id": "c-nanqishu-043-jiangxiao-complete:p001:m0016",
+          "usage": "narrative",
+          "date_expression": null
+        }
+      ],
+      "effective_period": {
+        "start": {
+          "status": "unknown",
+          "date_expression": null,
+          "evidence": []
+        },
+        "end": {
+          "status": "unknown",
+          "date_expression": null,
+          "evidence": []
+        }
+      },
+      "evidence": [
+        {
+          "work_id": "w-nanqishu",
+          "book_id": "b-nanqishu-043",
+          "chapter_id": "c-nanqishu-043-jiangxiao-complete",
+          "source_id": "s-nanqishu-043-jiangxiao-complete-ws2400356",
+          "paragraph_id": "c-nanqishu-043-jiangxiao-complete:p001",
+          "quote": "　　江斆字叔文，濟陽考城人也。祖湛，宋左光祿大夫、儀同三司。父恁，著作郎，爲太初所殺。斆母文帝女淮陽公主。幼以戚屬召見，孝武謂謝莊曰：「此小兒方當爲名器。」",
+          "person_mention_id": "c-nanqishu-043-jiangxiao-complete:p001:m0016"
+        }
+      ],
+      "status": "source_attested",
+      "interpretation_note": "所見原官稱，未載全任期。",
+      "reviewer": "Codex（AI代理）",
+      "model": null,
+      "human_reviewed": false,
       "period": "未定 → 未定"
     },
     {
@@ -649,6 +698,61 @@
     {
       "number": 43,
       "category": "",
+      "title": "南齊書卷四十三·江斆全傳",
+      "paragraph_id": "c-nanqishu-043-jiangxiao-complete:p001",
+      "count": 3,
+      "raw_count": 3,
+      "duplicate_count": 0,
+      "counting_policy": "independent_fixed_witness_occurrences",
+      "quote": "　　江斆字叔文，濟陽考城人也。祖湛，宋左光祿大夫、儀同三司。父恁，著作郎，爲太初所殺。斆母文帝女淮陽公主。幼以戚屬召見，孝武謂謝莊曰：「此小兒方當爲名器。」",
+      "paragraph_ids": [
+        "c-nanqishu-043-jiangxiao-complete:p001",
+        "c-nanqishu-043-jiangxiao-complete:p002",
+        "c-nanqishu-043-jiangxiao-complete:p003"
+      ],
+      "mention_ids": [
+        "c-nanqishu-043-jiangxiao-complete:p001:m0016",
+        "c-nanqishu-043-jiangxiao-complete:p002:m0159",
+        "c-nanqishu-043-jiangxiao-complete:p003:m0076"
+      ],
+      "mention_paragraph_ids": {
+        "c-nanqishu-043-jiangxiao-complete:p001:m0016": "c-nanqishu-043-jiangxiao-complete:p001",
+        "c-nanqishu-043-jiangxiao-complete:p002:m0159": "c-nanqishu-043-jiangxiao-complete:p002",
+        "c-nanqishu-043-jiangxiao-complete:p003:m0076": "c-nanqishu-043-jiangxiao-complete:p003"
+      },
+      "mention_id": "c-nanqishu-043-jiangxiao-complete:p001:m0016",
+      "occurrence_groups": [
+        {
+          "canonical_mention_id": "c-nanqishu-043-jiangxiao-complete:p001:m0016",
+          "mention_ids": [
+            "c-nanqishu-043-jiangxiao-complete:p001:m0016"
+          ],
+          "kind": "paragraph"
+        },
+        {
+          "canonical_mention_id": "c-nanqishu-043-jiangxiao-complete:p002:m0159",
+          "mention_ids": [
+            "c-nanqishu-043-jiangxiao-complete:p002:m0159"
+          ],
+          "kind": "paragraph"
+        },
+        {
+          "canonical_mention_id": "c-nanqishu-043-jiangxiao-complete:p003:m0076",
+          "mention_ids": [
+            "c-nanqishu-043-jiangxiao-complete:p003:m0076"
+          ],
+          "kind": "paragraph"
+        }
+      ],
+      "work_id": "w-nanqishu",
+      "book_id": "b-nanqishu-043",
+      "chapter_id": "c-nanqishu-043-jiangxiao-complete",
+      "source_id": "s-nanqishu-043-jiangxiao-complete-ws2400356",
+      "work_title": "南齊書"
+    },
+    {
+      "number": 43,
+      "category": "",
       "title": "江斆祖、字、婚配原句",
       "paragraph_id": "c-nanqishu-043-jiangxiao-marriage:p001",
       "count": 1,
@@ -1179,6 +1283,32 @@
           "extraction_note": "投影相應原句，保留字形；移除年號模板定界符。"
         },
         "section_locator": "王德元改名及與德和同誅"
+      }
+    },
+    {
+      "chapter_id": "c-nanqishu-043-jiangxiao-complete",
+      "work_id": "w-nanqishu",
+      "book_id": "b-nanqishu-043",
+      "source_id": "s-nanqishu-043-jiangxiao-complete-ws2400356",
+      "source": {
+        "title": "南齊書卷四十三·江斆全傳",
+        "provider": "Wikisource",
+        "permalink": "https://zh.wikisource.org/w/index.php?oldid=2400356",
+        "url": "https://zh.wikisource.org/w/index.php?oldid=2400356",
+        "revision_id": 2400356,
+        "edition": "維基文庫固定修訂",
+        "accessed_on": "2026-11-21",
+        "review_status": "text_checked",
+        "image_verified": false,
+        "rights": "古代原文；數位轉錄依維基文庫授權。",
+        "license_url": "https://creativecommons.org/licenses/by-sa/4.0/",
+        "extent": "南齊書卷四十三·江斆全傳",
+        "text_scope": "complete_biography_unit",
+        "raw_path": "sources/witnesses/nanqi043-ws2400356.wikitext",
+        "raw_file_sha256": "7a65e9b58b508ef0dbc64a4a650c99c30dcd94f8f13ea9a23d171f539174baed",
+        "collation_witnesses": [
+          "source-evidence/nanqi043-roll/jiang-reading.json"
+        ]
       }
     },
     {
@@ -4026,6 +4156,59 @@
   ],
   "relations": [
     {
+      "id": "a-qi043-jiangxiao-grandfather",
+      "subject_person_id": "s2k_e90_mxi",
+      "object_person_id": "o1i_tao_gu1",
+      "predicate": "grandfather",
+      "qualifiers": {
+        "source_term": "祖湛",
+        "lineage": "paternal"
+      },
+      "evidence": [
+        {
+          "work_id": "w-nanqishu",
+          "book_id": "b-nanqishu-043",
+          "chapter_id": "c-nanqishu-043-jiangxiao-complete",
+          "source_id": "s-nanqishu-043-jiangxiao-complete-ws2400356",
+          "paragraph_id": "c-nanqishu-043-jiangxiao-complete:p001",
+          "quote": "　　江斆字叔文，濟陽考城人也。祖湛，宋左光祿大夫、儀同三司。父恁，著作郎，爲太初所殺。斆母文帝女淮陽公主。幼以戚屬召見，孝武謂謝莊曰：「此小兒方當爲名器。」",
+          "subject_person_mention_id": "c-nanqishu-043-jiangxiao-complete:p001:m0002",
+          "object_person_mention_id": "c-nanqishu-043-jiangxiao-complete:p001:m0016"
+        }
+      ],
+      "status": "source_attested",
+      "interpretation_note": "祖江湛在劉宋。",
+      "reviewer": "Codex（AI代理）",
+      "model": null,
+      "human_reviewed": false
+    },
+    {
+      "id": "a-qi043-jiangzhan-marriage",
+      "subject_person_id": "o1i_tao_gu1",
+      "object_person_id": "y9o_khf_tcf",
+      "predicate": "spouse",
+      "qualifiers": {
+        "source_term": "湛娶褚秀之女"
+      },
+      "evidence": [
+        {
+          "work_id": "w-nanqishu",
+          "book_id": "b-nanqishu-043",
+          "chapter_id": "c-nanqishu-043-jiangxiao-complete",
+          "source_id": "s-nanqishu-043-jiangxiao-complete-ws2400356",
+          "paragraph_id": "c-nanqishu-043-jiangxiao-complete:p002",
+          "quote": "　　少有美譽。桂陽王休範臨州，辟迎主簿，不就。尚孝武女臨汝公主，拜駙馬都尉。除著作郎，太子舍人，丹陽丞。時袁粲爲尹，見斆歎曰：「風流不墜，政在江郎。」數與晏賞，留連日夜。遷安成王撫軍記室，祕書丞，中書郎。斆庶祖母王氏老疾，斆視膳嘗藥，七十餘日不解衣。及累居內官，每以侍養陳請，朝廷優其朝直。尋轉安成王驃騎從事中郎。初，湛娶褚秀之女，被遣，褚淵爲衞軍，重斆爲人，先通音意，引爲長史。加寧朔將軍。從帝立，隨府轉司空長史，領臨淮太守，將軍如故。轉太尉從事中郎。齊臺建，爲吏部郎。太祖卽位，斆以祖母久疾連年，臺閣之職，永廢溫凊，啓乞自解。",
+          "subject_person_mention_id": "c-nanqishu-043-jiangxiao-complete:p002:m0159",
+          "object_person_mention_id": "c-nanqishu-043-jiangxiao-complete:p002:m0164"
+        }
+      ],
+      "status": "source_attested",
+      "interpretation_note": "原文下一詞「被遣」，屬舊婚。",
+      "reviewer": "Codex（AI代理）",
+      "model": null,
+      "human_reviewed": false
+    },
+    {
       "id": "a-nan023-jiangcontext-zhan-grandfather",
       "subject_person_id": "s2k_e90_mxi",
       "object_person_id": "o1i_tao_gu1",
@@ -4259,7 +4442,8 @@
   "related_people": {
     "o1i_tao_gu1": "江湛",
     "s2k_e90_mxi": "江斅〔天子四友〕",
-    "vwx_acg_r0a": "江湛妹（南平王鑠妃，未名）"
+    "vwx_acg_r0a": "江湛妹（南平王鑠妃，未名）",
+    "y9o_khf_tcf": "褚氏（褚秀之女，江湛舊配）"
   },
   "dates": [],
   "name_components": [],
@@ -4329,6 +4513,59 @@
     "o1i_tao_gu1"
   ],
   "preferred_relations": [
+    {
+      "id": "a-qi043-jiangxiao-grandfather",
+      "subject_person_id": "s2k_e90_mxi",
+      "object_person_id": "o1i_tao_gu1",
+      "predicate": "grandfather",
+      "qualifiers": {
+        "source_term": "祖湛",
+        "lineage": "paternal"
+      },
+      "evidence": [
+        {
+          "work_id": "w-nanqishu",
+          "book_id": "b-nanqishu-043",
+          "chapter_id": "c-nanqishu-043-jiangxiao-complete",
+          "source_id": "s-nanqishu-043-jiangxiao-complete-ws2400356",
+          "paragraph_id": "c-nanqishu-043-jiangxiao-complete:p001",
+          "quote": "　　江斆字叔文，濟陽考城人也。祖湛，宋左光祿大夫、儀同三司。父恁，著作郎，爲太初所殺。斆母文帝女淮陽公主。幼以戚屬召見，孝武謂謝莊曰：「此小兒方當爲名器。」",
+          "subject_person_mention_id": "c-nanqishu-043-jiangxiao-complete:p001:m0002",
+          "object_person_mention_id": "c-nanqishu-043-jiangxiao-complete:p001:m0016"
+        }
+      ],
+      "status": "source_attested",
+      "interpretation_note": "祖江湛在劉宋。",
+      "reviewer": "Codex（AI代理）",
+      "model": null,
+      "human_reviewed": false
+    },
+    {
+      "id": "a-qi043-jiangzhan-marriage",
+      "subject_person_id": "o1i_tao_gu1",
+      "object_person_id": "y9o_khf_tcf",
+      "predicate": "spouse",
+      "qualifiers": {
+        "source_term": "湛娶褚秀之女"
+      },
+      "evidence": [
+        {
+          "work_id": "w-nanqishu",
+          "book_id": "b-nanqishu-043",
+          "chapter_id": "c-nanqishu-043-jiangxiao-complete",
+          "source_id": "s-nanqishu-043-jiangxiao-complete-ws2400356",
+          "paragraph_id": "c-nanqishu-043-jiangxiao-complete:p002",
+          "quote": "　　少有美譽。桂陽王休範臨州，辟迎主簿，不就。尚孝武女臨汝公主，拜駙馬都尉。除著作郎，太子舍人，丹陽丞。時袁粲爲尹，見斆歎曰：「風流不墜，政在江郎。」數與晏賞，留連日夜。遷安成王撫軍記室，祕書丞，中書郎。斆庶祖母王氏老疾，斆視膳嘗藥，七十餘日不解衣。及累居內官，每以侍養陳請，朝廷優其朝直。尋轉安成王驃騎從事中郎。初，湛娶褚秀之女，被遣，褚淵爲衞軍，重斆爲人，先通音意，引爲長史。加寧朔將軍。從帝立，隨府轉司空長史，領臨淮太守，將軍如故。轉太尉從事中郎。齊臺建，爲吏部郎。太祖卽位，斆以祖母久疾連年，臺閣之職，永廢溫凊，啓乞自解。",
+          "subject_person_mention_id": "c-nanqishu-043-jiangxiao-complete:p002:m0159",
+          "object_person_mention_id": "c-nanqishu-043-jiangxiao-complete:p002:m0164"
+        }
+      ],
+      "status": "source_attested",
+      "interpretation_note": "原文下一詞「被遣」，屬舊婚。",
+      "reviewer": "Codex（AI代理）",
+      "model": null,
+      "human_reviewed": false
+    },
     {
       "id": "a-nan023-jiangcontext-zhan-grandfather",
       "subject_person_id": "s2k_e90_mxi",
