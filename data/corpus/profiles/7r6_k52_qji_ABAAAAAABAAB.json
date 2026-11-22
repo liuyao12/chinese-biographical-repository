@@ -11,6 +11,54 @@
   ],
   "titles": [
     {
+      "id": "th-chenshu-023-wangyu-complete-1-140",
+      "title": "侍中",
+      "kind": "office",
+      "mode": "attestation",
+      "person_id": "7r6_k52_qji_ABAAAAAABAAB",
+      "attestations": [
+        {
+          "id": "th-chenshu-023-wangyu-complete-1-140:a",
+          "paragraph_id": "c-chenshu-023-wangyu-complete:p001",
+          "start": 140,
+          "end": 142,
+          "surface": "侍中",
+          "person_mention_id": "c-chenshu-023-wangyu-complete:p001:m0005",
+          "usage": "narrative",
+          "date_expression": null
+        }
+      ],
+      "effective_period": {
+        "start": {
+          "status": "unknown",
+          "date_expression": null,
+          "evidence": []
+        },
+        "end": {
+          "status": "unknown",
+          "date_expression": null,
+          "evidence": []
+        }
+      },
+      "evidence": [
+        {
+          "work_id": "w-chenshu",
+          "book_id": "b-chenshu-023",
+          "chapter_id": "c-chenshu-023-wangyu-complete",
+          "source_id": "s-chenshu-023-wangyu-complete-ws1514496",
+          "paragraph_id": "c-chenshu-023-wangyu-complete:p001",
+          "quote": "瑒第十三弟瑜，字子珪，亦知名，美容儀，早歷清顯，年（五）〔三〕十，官至侍中。永定元年，使於齊，以陳郡袁憲為副，齊以王琳之故，執而囚之。齊文宣帝每行，載死囚以從，齊人呼曰「供御囚」，每有他怒，則召殺之，以快其意。瑜及憲並危殆者數矣，齊僕射楊遵彥憫其無辜，每救護之。天嘉二年還朝，詔復侍中，頃之卒，時年四十。贈本官，諡曰貞子。",
+          "person_mention_id": "c-chenshu-023-wangyu-complete:p001:m0005"
+        }
+      ],
+      "status": "source_attested",
+      "interpretation_note": "所見原官稱，未載全任期。",
+      "reviewer": "Codex（AI代理）",
+      "model": null,
+      "human_reviewed": false,
+      "period": "未定 → 未定"
+    },
+    {
       "id": "th-nanshi021-wangyu-129-21",
       "person_id": "7r6_k52_qji_ABAAAAAABAAB",
       "title": "侍中",
@@ -235,10 +283,86 @@
       "chapter_id": "c-nanshi-021-wangyu",
       "source_id": "s-nanshi-021-wangyu-ws1752646",
       "work_title": "南史"
+    },
+    {
+      "number": 23,
+      "category": "",
+      "title": "陳書卷二十三·王瑜",
+      "paragraph_id": "c-chenshu-023-wangyu-complete:p001",
+      "count": 3,
+      "raw_count": 3,
+      "duplicate_count": 0,
+      "counting_policy": "independent_fixed_witness_occurrences",
+      "quote": "瑒第十三弟瑜，字子珪，亦知名，美容儀，早歷清顯，年（五）〔三〕十，官至侍中。永定元年，使於齊，以陳郡袁憲為副，齊以王琳之故，執而囚之。齊文宣帝每行，載死囚以從，齊人呼曰「供御囚」，每有他怒，則召殺之，以快其意。瑜",
+      "paragraph_ids": [
+        "c-chenshu-023-wangyu-complete:p001"
+      ],
+      "mention_ids": [
+        "c-chenshu-023-wangyu-complete:p001:m0005",
+        "c-chenshu-023-wangyu-complete:p001:m0008",
+        "c-chenshu-023-wangyu-complete:p001:m0105"
+      ],
+      "mention_paragraph_ids": {
+        "c-chenshu-023-wangyu-complete:p001:m0005": "c-chenshu-023-wangyu-complete:p001",
+        "c-chenshu-023-wangyu-complete:p001:m0008": "c-chenshu-023-wangyu-complete:p001",
+        "c-chenshu-023-wangyu-complete:p001:m0105": "c-chenshu-023-wangyu-complete:p001"
+      },
+      "mention_id": "c-chenshu-023-wangyu-complete:p001:m0005",
+      "occurrence_groups": [
+        {
+          "canonical_mention_id": "c-chenshu-023-wangyu-complete:p001:m0005",
+          "mention_ids": [
+            "c-chenshu-023-wangyu-complete:p001:m0005"
+          ],
+          "kind": "paragraph"
+        },
+        {
+          "canonical_mention_id": "c-chenshu-023-wangyu-complete:p001:m0008",
+          "mention_ids": [
+            "c-chenshu-023-wangyu-complete:p001:m0008"
+          ],
+          "kind": "paragraph"
+        },
+        {
+          "canonical_mention_id": "c-chenshu-023-wangyu-complete:p001:m0105",
+          "mention_ids": [
+            "c-chenshu-023-wangyu-complete:p001:m0105"
+          ],
+          "kind": "paragraph"
+        }
+      ],
+      "work_id": "w-chenshu",
+      "book_id": "b-chenshu-023",
+      "chapter_id": "c-chenshu-023-wangyu-complete",
+      "source_id": "s-chenshu-023-wangyu-complete-ws1514496",
+      "work_title": "陳書"
     }
   ],
   "table_occurrences": [],
   "sources": [
+    {
+      "chapter_id": "c-chenshu-023-wangyu-complete",
+      "work_id": "w-chenshu",
+      "book_id": "b-chenshu-023",
+      "source_id": "s-chenshu-023-wangyu-complete-ws1514496",
+      "source": {
+        "title": "陳書卷二十三·王瑜",
+        "provider": "Wikisource",
+        "permalink": "https://zh.wikisource.org/w/index.php?oldid=1514496",
+        "url": "https://zh.wikisource.org/w/index.php?oldid=1514496",
+        "revision_id": 1514496,
+        "edition": "維基文庫固定修訂",
+        "accessed_on": "2026-11-21",
+        "review_status": "text_checked",
+        "image_verified": false,
+        "rights": "古代原文；數位轉錄依維基文庫授權。",
+        "license_url": "https://creativecommons.org/licenses/by-sa/4.0/",
+        "extent": "陳書卷二十三·王瑜",
+        "text_scope": "complete_biography_unit",
+        "raw_path": "sources/chenshu/chenshu023-ws1514496.wikitext",
+        "raw_file_sha256": "c2a284e02e38025663289282e4f2050b5f225012ab2bec7615b33105d877a4e6"
+      }
+    },
     {
       "chapter_id": "c-nanshi-021-wangyu",
       "work_id": "w-nanshi",
@@ -270,6 +394,32 @@
     }
   ],
   "relations": [
+    {
+      "id": "a-chen023-yu-brother",
+      "subject_person_id": "7r6_k52_qji_ABAAAAAABAAB",
+      "object_person_id": "7r6_k52_qji_ABAAAAAABAAA",
+      "predicate": "brother",
+      "qualifiers": {
+        "source_term": "瑒第十三弟瑜"
+      },
+      "evidence": [
+        {
+          "work_id": "w-chenshu",
+          "book_id": "b-chenshu-023",
+          "chapter_id": "c-chenshu-023-wangyu-complete",
+          "source_id": "s-chenshu-023-wangyu-complete-ws1514496",
+          "paragraph_id": "c-chenshu-023-wangyu-complete:p001",
+          "quote": "瑒第十三弟瑜，字子珪，亦知名，美容儀，早歷清顯，年（五）〔三〕十，官至侍中。永定元年，使於齊，以陳郡袁憲為副，齊以王琳之故，執而囚之。齊文宣帝每行，載死囚以從，齊人呼曰「供御囚」，每有他怒，則召殺之，以快其意。瑜及憲並危殆者數矣，齊僕射楊遵彥憫其無辜，每救護之。天嘉二年還朝，詔復侍中，頃之卒，時年四十。贈本官，諡曰貞子。",
+          "subject_person_mention_id": "c-chenshu-023-wangyu-complete:p001:m0005",
+          "object_person_mention_id": "c-chenshu-023-wangyu-complete:p001:m0000"
+        }
+      ],
+      "status": "source_attested",
+      "interpretation_note": "傳以瑒為兄。第十三弟依原句保存。",
+      "reviewer": "Codex（AI代理）",
+      "model": null,
+      "human_reviewed": false
+    },
     {
       "id": "a-nanshi021-wangyu-129-0",
       "subject_person_id": "7r6_k52_qji_ABAAAAAABAAB",
@@ -317,6 +467,92 @@
   },
   "dates": [],
   "name_components": [],
+  "source_reading_cases": [
+    {
+      "id": "c-chenshu-023-wangyu-complete:received_sentence1-0",
+      "kind": "received_sentence",
+      "person_id": "7r6_k52_qji_ABAAAAAABAAB",
+      "source_quote": "瑒第十三弟瑜，字子珪，亦知名，美容儀，早歷清顯，年（五）〔三〕十，官至侍中。",
+      "reading": "瑒第十三弟瑜，字子珪。官至侍中的年齡，殿本刻五十，固定數位據《南史》校作三十。",
+      "note": "瑒第十三弟瑜，字子珪。官至侍中的年齡，殿本刻五十，固定數位據《南史》校作三十。",
+      "paragraph_id": "c-chenshu-023-wangyu-complete:p001",
+      "start_codepoint": 0,
+      "end_codepoint": 38,
+      "human_reviewed": false,
+      "chapter_id": "c-chenshu-023-wangyu-complete",
+      "source_id": "s-chenshu-023-wangyu-complete-ws1514496"
+    },
+    {
+      "id": "c-chenshu-023-wangyu-complete:received_sentence1-38",
+      "kind": "received_sentence",
+      "person_id": "7r6_k52_qji_ABAAAAAABAAB",
+      "source_quote": "永定元年，使於齊，以陳郡袁憲為副，齊以王琳之故，執而囚之。",
+      "reading": "永定元年使齊，副使陳郡袁憲，北齊因王琳之故拘留二人。袁憲本傳稱瑜為黃門侍郎。",
+      "note": "永定元年使齊，副使陳郡袁憲，北齊因王琳之故拘留二人。袁憲本傳稱瑜為黃門侍郎。",
+      "paragraph_id": "c-chenshu-023-wangyu-complete:p001",
+      "start_codepoint": 38,
+      "end_codepoint": 67,
+      "human_reviewed": false,
+      "chapter_id": "c-chenshu-023-wangyu-complete",
+      "source_id": "s-chenshu-023-wangyu-complete-ws1514496"
+    },
+    {
+      "id": "c-chenshu-023-wangyu-complete:received_sentence1-67",
+      "kind": "received_sentence",
+      "person_id": "7r6_k52_qji_ABAAAAAABAAB",
+      "source_quote": "齊文宣帝每行，載死囚以從，齊人呼曰「供御囚」，每有他怒，則召殺之，以快其意。",
+      "reading": "齊文宣帝載死囚隨行，齊人稱供御囚，帝遇怒召殺。句中死囚為群稱。",
+      "note": "齊文宣帝載死囚隨行，齊人稱供御囚，帝遇怒召殺。句中死囚為群稱。",
+      "paragraph_id": "c-chenshu-023-wangyu-complete:p001",
+      "start_codepoint": 67,
+      "end_codepoint": 105,
+      "human_reviewed": false,
+      "chapter_id": "c-chenshu-023-wangyu-complete",
+      "source_id": "s-chenshu-023-wangyu-complete-ws1514496"
+    },
+    {
+      "id": "c-chenshu-023-wangyu-complete:received_sentence1-105",
+      "kind": "received_sentence",
+      "person_id": "7r6_k52_qji_ABAAAAAABAAB",
+      "source_quote": "瑜及憲並危殆者數矣，齊僕射楊遵彥憫其無辜，每救護之。",
+      "reading": "王瑜、袁憲屢陷危殆，北齊僕射楊遵彥屢救兩人。遵彥是楊愔之字，非另立一人。",
+      "note": "王瑜、袁憲屢陷危殆，北齊僕射楊遵彥屢救兩人。遵彥是楊愔之字，非另立一人。",
+      "paragraph_id": "c-chenshu-023-wangyu-complete:p001",
+      "start_codepoint": 105,
+      "end_codepoint": 131,
+      "human_reviewed": false,
+      "chapter_id": "c-chenshu-023-wangyu-complete",
+      "source_id": "s-chenshu-023-wangyu-complete-ws1514496"
+    },
+    {
+      "id": "c-chenshu-023-wangyu-complete:received_sentence1-131",
+      "kind": "received_sentence",
+      "person_id": "7r6_k52_qji_ABAAAAAABAAB",
+      "source_quote": "天嘉二年還朝，詔復侍中，頃之卒，時年四十。",
+      "reading": "天嘉二年返朝、復侍中，頃之卒，報齡四十。二年繫還朝；袁憲本傳稱天嘉初。",
+      "note": "天嘉二年返朝、復侍中，頃之卒，報齡四十。二年繫還朝；袁憲本傳稱天嘉初。",
+      "paragraph_id": "c-chenshu-023-wangyu-complete:p001",
+      "start_codepoint": 131,
+      "end_codepoint": 152,
+      "human_reviewed": false,
+      "chapter_id": "c-chenshu-023-wangyu-complete",
+      "source_id": "s-chenshu-023-wangyu-complete-ws1514496"
+    },
+    {
+      "id": "c-chenshu-023-wangyu-complete:received_sentence1-152",
+      "kind": "received_sentence",
+      "person_id": "7r6_k52_qji_ABAAAAAABAAB",
+      "source_quote": "贈本官，諡曰貞子。",
+      "reading": "身後贈本官、諡貞子。",
+      "note": "身後贈本官、諡貞子。",
+      "paragraph_id": "c-chenshu-023-wangyu-complete:p001",
+      "start_codepoint": 152,
+      "end_codepoint": 161,
+      "human_reviewed": false,
+      "chapter_id": "c-chenshu-023-wangyu-complete",
+      "source_id": "s-chenshu-023-wangyu-complete-ws1514496"
+    }
+  ],
   "person_ids": [
     "7r6_k52_qji_ABAAAAAABAAB"
   ],
@@ -379,6 +615,32 @@
   ],
   "preferred_relations": [
     {
+      "id": "a-chen023-yu-brother",
+      "subject_person_id": "7r6_k52_qji_ABAAAAAABAAB",
+      "object_person_id": "7r6_k52_qji_ABAAAAAABAAA",
+      "predicate": "brother",
+      "qualifiers": {
+        "source_term": "瑒第十三弟瑜"
+      },
+      "evidence": [
+        {
+          "work_id": "w-chenshu",
+          "book_id": "b-chenshu-023",
+          "chapter_id": "c-chenshu-023-wangyu-complete",
+          "source_id": "s-chenshu-023-wangyu-complete-ws1514496",
+          "paragraph_id": "c-chenshu-023-wangyu-complete:p001",
+          "quote": "瑒第十三弟瑜，字子珪，亦知名，美容儀，早歷清顯，年（五）〔三〕十，官至侍中。永定元年，使於齊，以陳郡袁憲為副，齊以王琳之故，執而囚之。齊文宣帝每行，載死囚以從，齊人呼曰「供御囚」，每有他怒，則召殺之，以快其意。瑜及憲並危殆者數矣，齊僕射楊遵彥憫其無辜，每救護之。天嘉二年還朝，詔復侍中，頃之卒，時年四十。贈本官，諡曰貞子。",
+          "subject_person_mention_id": "c-chenshu-023-wangyu-complete:p001:m0005",
+          "object_person_mention_id": "c-chenshu-023-wangyu-complete:p001:m0000"
+        }
+      ],
+      "status": "source_attested",
+      "interpretation_note": "傳以瑒為兄。第十三弟依原句保存。",
+      "reviewer": "Codex（AI代理）",
+      "model": null,
+      "human_reviewed": false
+    },
+    {
       "id": "a-nanshi021-wangyu-129-0",
       "subject_person_id": "7r6_k52_qji_ABAAAAAABAAB",
       "object_person_id": "7r6_k52_qji_ABAAAAAABAAA",
@@ -421,6 +683,43 @@
   ],
   "age_assertions": [
     {
+      "id": "age-chen023-yu-death",
+      "person_id": "7r6_k52_qji_ABAAAAAABAAB",
+      "source_number": "四十",
+      "source_term": "時年四十",
+      "value": 40,
+      "source_anchor": {
+        "paragraph_id": "c-chenshu-023-wangyu-complete:p001",
+        "start": 147,
+        "end": 151,
+        "surface": "時年四十"
+      },
+      "unit": "source_age_years",
+      "counting": "unspecified_source_age",
+      "birth_year": null,
+      "date_expression": null,
+      "evidence": [
+        {
+          "work_id": "w-chenshu",
+          "book_id": "b-chenshu-023",
+          "chapter_id": "c-chenshu-023-wangyu-complete",
+          "source_id": "s-chenshu-023-wangyu-complete-ws1514496",
+          "paragraph_id": "c-chenshu-023-wangyu-complete:p001",
+          "quote": "瑒第十三弟瑜，字子珪，亦知名，美容儀，早歷清顯，年（五）〔三〕十，官至侍中。永定元年，使於齊，以陳郡袁憲為副，齊以王琳之故，執而囚之。齊文宣帝每行，載死囚以從，齊人呼曰「供御囚」，每有他怒，則召殺之，以快其意。瑜及憲並危殆者數矣，齊僕射楊遵彥憫其無辜，每救護之。天嘉二年還朝，詔復侍中，頃之卒，時年四十。贈本官，諡曰貞子。",
+          "person_mention_id": "c-chenshu-023-wangyu-complete:p001:m0005"
+        }
+      ],
+      "age_context": {
+        "kind": "at_death",
+        "life_event_id": "le-chen023-yu-death"
+      },
+      "status": "source_attested",
+      "interpretation_note": "本傳所記卒時報齡。",
+      "reviewer": "Codex（AI代理）",
+      "model": null,
+      "human_reviewed": false
+    },
+    {
       "id": "age-nanshi021-yu-129",
       "person_id": "7r6_k52_qji_ABAAAAAABAAB",
       "value": 30,
@@ -452,6 +751,35 @@
     }
   ],
   "life_events": [
+    {
+      "id": "le-chen023-yu-death",
+      "person_id": "7r6_k52_qji_ABAAAAAABAAB",
+      "event_type": "death",
+      "source_term": "卒",
+      "source_anchor": {
+        "paragraph_id": "c-chenshu-023-wangyu-complete:p001",
+        "start": 145,
+        "end": 146,
+        "surface": "卒"
+      },
+      "date_expression": null,
+      "evidence": [
+        {
+          "work_id": "w-chenshu",
+          "book_id": "b-chenshu-023",
+          "chapter_id": "c-chenshu-023-wangyu-complete",
+          "source_id": "s-chenshu-023-wangyu-complete-ws1514496",
+          "paragraph_id": "c-chenshu-023-wangyu-complete:p001",
+          "quote": "瑒第十三弟瑜，字子珪，亦知名，美容儀，早歷清顯，年（五）〔三〕十，官至侍中。永定元年，使於齊，以陳郡袁憲為副，齊以王琳之故，執而囚之。齊文宣帝每行，載死囚以從，齊人呼曰「供御囚」，每有他怒，則召殺之，以快其意。瑜及憲並危殆者數矣，齊僕射楊遵彥憫其無辜，每救護之。天嘉二年還朝，詔復侍中，頃之卒，時年四十。贈本官，諡曰貞子。",
+          "person_mention_id": "c-chenshu-023-wangyu-complete:p001:m0005"
+        }
+      ],
+      "status": "source_attested",
+      "interpretation_note": "按同段人物與次第核所屬卒事。",
+      "reviewer": "Codex（AI代理）",
+      "model": null,
+      "human_reviewed": false
+    },
     {
       "id": "le-nanshi021-wangyu-129-110",
       "person_id": "7r6_k52_qji_ABAAAAAABAAB",

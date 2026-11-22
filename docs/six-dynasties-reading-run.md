@@ -447,3 +447,17 @@
 袁敬本紀卒於至德三年九月甲戌，袁樞卒於光大元年正月癸酉，各與本傳報齡對讀。陳高祖長女在《陳書》稱永世公主，在《南史》作永嗣公主。樞議所引晉、梁兩例分別為杜預與高陵宣公主、王氏與新安穆公主。尚書主客請加錢蕆駙馬都尉並贈其子岊官，袁樞另議追贈岊亭侯。傳中僅記眾人取其議，未載所請各爵官實授之詔。
 
 [吳主五子全卷](../source-evidence/sanguozhi059-roll-close/reading.json) · [丁令光殿本逐欄](../source-evidence/liang007-dinglingguang/wyd164-reading.json) · [梁忠臣傳卷界](../source-evidence/liang043-complete/volume-boundaries.json) · [韋粲諸子弟](../source-evidence/liang043-complete/weican-reading.json) · [陳書王袁全卷傳界](../source-evidence/chenshu017-wangyuan/volume-boundaries.json) · [袁敬殿本](../source-evidence/chenshu017-wangyuan/yuanjing-wuyingdian.json) · [袁樞殿本](../source-evidence/chenshu017-wangyuan/yuanshu-wuyingdian.json)
+
+## 第三十批　吳宗室、陳三后與王沖諸子
+
+本批新核五十九項。清冊已列六十九卷、一千一百四十七項，九百零七項備有全文，九百零六項完成人物初讀，九百項完成逐項覆核。
+
+| 卷篇 | 新核傳目 | 原文與校勘 |
+| --- | ---: | --- |
+| 《三國志》卷五十一 | 35 | 吳宗室十題、二十五則附敘與卷末史評分錄。孫靜傳伏兵一事，固定數位本作「羅以然火」，殿本作「四維然火」，卷末考證另引宋本「羅以然火」。 |
+| 《南史》卷十二、《陳書》卷七 | 22 | 章要兒、沈妙容、柳敬言及兩書各自的親屬附敘。章后卒日，《南史》殿本二年三月丙申，《陳書》數位本傳與本紀作景申。柳后卒於大業，《南史》殿本十二年，《陳書》本傳十一年，兩書均記八十三歲。 |
+| 《陳書》卷二十三 | 2 | 王沖第十二子王瑒及瑒弟瑜。兩傳共三十三句，殿本二十六欄。瑒字子璵，《南史》作子瑛。其所生母僅見親稱。王瑜與袁憲同使齊，被囚時屢蒙北齊僕射楊遵彥救護。《北齊書》卷三十四具其本名愔、字遵彥、父津。 |
+
+王瑒傳殿本三上第十欄作「永定九年遷守五兵尚書」，數位作永定元年。四上第二欄作「太建六年卒」，數位據宣帝紀改八年。本紀太建七年十二月壬戌仍遷瑒為尚書左僕射，八年庚寅記卒，月份「五月」是校者所補。王瑜官至侍中的年齡，殿本作五十，《南史》作三十，數位《陳書》以後者校改；《陳書》另記卒時四十。
+
+[吳宗室全卷](../source-evidence/sanguozhi051-roll-close/reading.json) · [章要兒](../source-evidence/nan012-zhangyaoer/reading.json) · [沈妙容](../source-evidence/nan012-shenmiaorong/reading.json) · [柳敬言殿本](../source-evidence/nan012-liujingyan/wyd244-reading.json) · [王瑒、王瑜殿本二十六欄](../source-evidence/chenshu023-shenwanglu/wang-brothers-wuyingdian.json) · [兩傳逐句覆核](../source-evidence/chenshu023-shenwanglu/wang-brothers-reading.json)
