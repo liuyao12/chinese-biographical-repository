@@ -8,7 +8,8 @@
   "names": [
     "安帝",
     "安",
-    "恭宗"
+    "恭宗",
+    "汉安帝"
   ],
   "titles": [
     {
@@ -194,6 +195,50 @@
       "chapter_id": "c-houhanshu-009-xiandi-early",
       "source_id": "s-houhanshu-009-xiandi-early",
       "work_title": "後漢書"
+    },
+    {
+      "number": 60,
+      "category": "",
+      "title": "賀齊傳",
+      "paragraph_id": "c-sanguozhi-060-heqi:line011-pei01-01",
+      "count": 2,
+      "raw_count": 2,
+      "duplicate_count": 0,
+      "counting_policy": "independent_fixed_witness_occurrences",
+      "quote": "虞预《晋书》曰：贺氏本姓庆氏。齐伯父纯，儒学有重名，汉安帝时为侍中、江夏太守，去官，与江夏黄琼、〔广汉〕杨厚俱公车徵。避安帝父孝德皇（帝）讳，改为贺氏。齐父辅，永宁长。",
+      "paragraph_ids": [
+        "c-sanguozhi-060-heqi:line011-pei01-01"
+      ],
+      "mention_ids": [
+        "c-sanguozhi-060-heqi:line011-pei01-01:m0026",
+        "c-sanguozhi-060-heqi:line011-pei01-01:m0060"
+      ],
+      "mention_paragraph_ids": {
+        "c-sanguozhi-060-heqi:line011-pei01-01:m0026": "c-sanguozhi-060-heqi:line011-pei01-01",
+        "c-sanguozhi-060-heqi:line011-pei01-01:m0060": "c-sanguozhi-060-heqi:line011-pei01-01"
+      },
+      "mention_id": "c-sanguozhi-060-heqi:line011-pei01-01:m0026",
+      "occurrence_groups": [
+        {
+          "canonical_mention_id": "c-sanguozhi-060-heqi:line011-pei01-01:m0026",
+          "mention_ids": [
+            "c-sanguozhi-060-heqi:line011-pei01-01:m0026"
+          ],
+          "kind": "paragraph"
+        },
+        {
+          "canonical_mention_id": "c-sanguozhi-060-heqi:line011-pei01-01:m0060",
+          "mention_ids": [
+            "c-sanguozhi-060-heqi:line011-pei01-01:m0060"
+          ],
+          "kind": "paragraph"
+        }
+      ],
+      "work_id": "w-sanguozhi",
+      "book_id": "b-sanguozhi-060",
+      "chapter_id": "c-sanguozhi-060-heqi",
+      "source_id": "s-sanguozhi-060-heqi",
+      "work_title": "三國志"
     },
     {
       "number": 62,
@@ -447,6 +492,33 @@
         },
         "numbering_note": "通行卷六十二、列傳第五十二；此固定WYG數位見證題卷九十二，檔名KR2a0009_092.txt，兩者分存，不改原檔。"
       }
+    },
+    {
+      "chapter_id": "c-sanguozhi-060-heqi",
+      "work_id": "w-sanguozhi",
+      "book_id": "b-sanguozhi-060",
+      "source_id": "s-sanguozhi-060-heqi",
+      "source": {
+        "title": "三國志卷六十·吳書十五",
+        "provider": "Wikisource",
+        "url": "https://zh.wikisource.org/w/index.php?oldid=2120830",
+        "permalink": "https://zh.wikisource.org/w/index.php?oldid=2120830",
+        "revision_id": 2120830,
+        "accessed_on": "2026-11-21",
+        "edition": "維基文庫固定修訂，裴注與正文分層。",
+        "extent": "第11至29行。",
+        "text_scope": "partial_chapter",
+        "review_status": "text_checked",
+        "image_verified": false,
+        "rights": "古籍原文，維基文庫轉錄。",
+        "license_url": "https://creativecommons.org/licenses/by-sa/4.0/",
+        "raw_path": "source-evidence/sanguozhi060-he-quan/sanguozhi060-ws2120830.wikitext",
+        "raw_file_sha256": "79a52b4bca550c12a1020750b4464bdc2476fcbb376e67fd22a0bc03f713e8e6",
+        "wikitext_sha256": "79a52b4bca550c12a1020750b4464bdc2476fcbb376e67fd22a0bc03f713e8e6",
+        "collation_witnesses": [
+          "source-evidence/sanguozhi060-heqi/reading.json"
+        ]
+      }
     }
   ],
   "relations": [
@@ -479,11 +551,38 @@
       "reviewer": "Codex（AI 代理）",
       "human_reviewed": false,
       "model": null
+    },
+    {
+      "id": "a-wu060-heqi-1",
+      "subject_person_id": "7zd_hi5_fwe",
+      "object_person_id": "rk9_vqs_9y6",
+      "predicate": "father",
+      "qualifiers": {
+        "source_term": "安帝父孝德皇（帝）"
+      },
+      "evidence": [
+        {
+          "work_id": "w-sanguozhi",
+          "book_id": "b-sanguozhi-060",
+          "chapter_id": "c-sanguozhi-060-heqi",
+          "source_id": "s-sanguozhi-060-heqi",
+          "paragraph_id": "c-sanguozhi-060-heqi:line011-pei01-01",
+          "quote": "虞预《晋书》曰：贺氏本姓庆氏。齐伯父纯，儒学有重名，汉安帝时为侍中、江夏太守，去官，与江夏黄琼、〔广汉〕杨厚俱公车徵。避安帝父孝德皇（帝）讳，改为贺氏。齐父辅，永宁长。",
+          "subject_person_mention_id": "c-sanguozhi-060-heqi:line011-pei01-01:m0026",
+          "object_person_mention_id": "c-sanguozhi-060-heqi:line011-pei01-01:m0063"
+        }
+      ],
+      "interpretation_note": "以此來源所述兩端為據。",
+      "status": "source_attested",
+      "reviewer": "Codex（AI 代理）",
+      "human_reviewed": false,
+      "model": null
     }
   ],
   "related_people": {
     "7zd_hi5_fwe": "漢安帝",
-    "o40_aw4_nck": "宋貴人（敬隱皇后）"
+    "o40_aw4_nck": "宋貴人（敬隱皇后）",
+    "rk9_vqs_9y6": "劉慶〔清河孝王、漢安帝父〕"
   },
   "dates": [
     {
@@ -573,6 +672,32 @@
         "relationship_basis": "literal_grandmother_title_clause"
       },
       "interpretation_note": "不自動標生母或祖母父系，不補本名。",
+      "reviewer": "Codex（AI 代理）",
+      "human_reviewed": false,
+      "model": null
+    },
+    {
+      "id": "a-wu060-heqi-1",
+      "subject_person_id": "7zd_hi5_fwe",
+      "object_person_id": "rk9_vqs_9y6",
+      "predicate": "father",
+      "qualifiers": {
+        "source_term": "安帝父孝德皇（帝）"
+      },
+      "evidence": [
+        {
+          "work_id": "w-sanguozhi",
+          "book_id": "b-sanguozhi-060",
+          "chapter_id": "c-sanguozhi-060-heqi",
+          "source_id": "s-sanguozhi-060-heqi",
+          "paragraph_id": "c-sanguozhi-060-heqi:line011-pei01-01",
+          "quote": "虞预《晋书》曰：贺氏本姓庆氏。齐伯父纯，儒学有重名，汉安帝时为侍中、江夏太守，去官，与江夏黄琼、〔广汉〕杨厚俱公车徵。避安帝父孝德皇（帝）讳，改为贺氏。齐父辅，永宁长。",
+          "subject_person_mention_id": "c-sanguozhi-060-heqi:line011-pei01-01:m0026",
+          "object_person_mention_id": "c-sanguozhi-060-heqi:line011-pei01-01:m0063"
+        }
+      ],
+      "interpretation_note": "以此來源所述兩端為據。",
+      "status": "source_attested",
       "reviewer": "Codex（AI 代理）",
       "human_reviewed": false,
       "model": null

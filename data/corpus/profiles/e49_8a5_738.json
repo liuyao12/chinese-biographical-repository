@@ -20,7 +20,8 @@
     "孝獻皇帝",
     "協",
     "伯和",
-    "孝獻"
+    "孝獻",
+    "幼帝"
   ],
   "titles": [
     {
@@ -964,6 +965,41 @@
       "book_id": "b-sanguozhi-054",
       "chapter_id": "c-sanguozhi-054-zhouyu",
       "source_id": "s-sanguozhi-054-zhouyu",
+      "work_title": "三國志"
+    },
+    {
+      "number": 56,
+      "category": "",
+      "title": "朱治傳",
+      "paragraph_id": "c-sanguozhi-056-zhuzhi:line017-pei01-01",
+      "count": 1,
+      "raw_count": 1,
+      "duplicate_count": 0,
+      "counting_policy": "independent_fixed_witness_occurrences",
+      "quote": "知也。前在東聞道路之言，雲將軍有異趣，良用憮然。今曹公阻兵，傾覆漢室，幼帝流離，百姓元元未知所歸。而中國蕭條，或百里無煙，城邑空虛，道殣相望，士嘆於外，婦怨乎室，加之以師旅，因之以饑饉，以此料之，豈能越長江與我爭利哉？將軍當斯時也，而欲背骨肉之親，違萬安之計，割同氣之膚，啖",
+      "paragraph_ids": [
+        "c-sanguozhi-056-zhuzhi:line017-pei01-01"
+      ],
+      "mention_ids": [
+        "c-sanguozhi-056-zhuzhi:line017-pei01-01:m0203"
+      ],
+      "mention_paragraph_ids": {
+        "c-sanguozhi-056-zhuzhi:line017-pei01-01:m0203": "c-sanguozhi-056-zhuzhi:line017-pei01-01"
+      },
+      "mention_id": "c-sanguozhi-056-zhuzhi:line017-pei01-01:m0203",
+      "occurrence_groups": [
+        {
+          "canonical_mention_id": "c-sanguozhi-056-zhuzhi:line017-pei01-01:m0203",
+          "mention_ids": [
+            "c-sanguozhi-056-zhuzhi:line017-pei01-01:m0203"
+          ],
+          "kind": "paragraph"
+        }
+      ],
+      "work_id": "w-sanguozhi",
+      "book_id": "b-sanguozhi-056",
+      "chapter_id": "c-sanguozhi-056-zhuzhi",
+      "source_id": "s-sanguozhi-056-zhuzhi",
       "work_title": "三國志"
     },
     {
@@ -5184,6 +5220,33 @@
         "wikitext_sha256": "391eeacf65d214ce53d6fba4c9d39933b20b8b7d10509f88e5f323eda96c7912",
         "collation_witnesses": [
           "source-evidence/sanguozhi054-zhouyu/reading.json"
+        ]
+      }
+    },
+    {
+      "chapter_id": "c-sanguozhi-056-zhuzhi",
+      "work_id": "w-sanguozhi",
+      "book_id": "b-sanguozhi-056",
+      "source_id": "s-sanguozhi-056-zhuzhi",
+      "source": {
+        "title": "三國志卷五十六·吳書十一",
+        "provider": "Wikisource",
+        "url": "https://zh.wikisource.org/w/index.php?oldid=12760859",
+        "permalink": "https://zh.wikisource.org/w/index.php?oldid=12760859",
+        "revision_id": 12760859,
+        "accessed_on": "2026-11-21",
+        "edition": "維基文庫固定修訂，裴注與正文分層。",
+        "extent": "第11至19行。",
+        "text_scope": "partial_chapter",
+        "review_status": "text_checked",
+        "image_verified": false,
+        "rights": "古籍原文，維基文庫轉錄。",
+        "license_url": "https://creativecommons.org/licenses/by-sa/4.0/",
+        "raw_path": "source-evidence/sanguozhi056-zhu-lv/sanguozhi056-ws12760859.wikitext",
+        "raw_file_sha256": "be8191ed695754812c1c3a717b335f08d1af2834fb4fd965c267942c6f747549",
+        "wikitext_sha256": "be8191ed695754812c1c3a717b335f08d1af2834fb4fd965c267942c6f747549",
+        "collation_witnesses": [
+          "source-evidence/sanguozhi056-zhuzhi/reading.json"
         ]
       }
     }

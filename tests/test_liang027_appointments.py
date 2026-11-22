@@ -13,6 +13,10 @@ class LiangAppointments(unittest.TestCase):
         directory = Path(__file__).resolve().parents[1] / 'corpus' / 'liangshu'
         for name in ('daoqia', 'mingshanbin', 'yinjun'):
             cls.chapters[name] = json.loads((directory / f'027-{name}-complete.json').read_text())
+        for name in ('peizhili', 'peizhiping'):
+            cls.chapters[name] = json.loads((directory / f'028-{name}-complete.json').read_text())
+        cls.chapters['nanshi-zhiping'] = json.loads(
+            (directory.parent / 'nanshi' / '058-peizhiping-death.json').read_text())
 
     def proposal(self, name, title):
         chapter = self.chapters[name]
@@ -21,7 +25,9 @@ class LiangAppointments(unittest.TestCase):
 
     def test_each_declined_title_and_its_source_clause(self):
         for name, titles in [('daoqia', ['晉安王國左常侍','太子中庶子','步兵校尉']),
-                             ('mingshanbin', ['國子博士']), ('yinjun', ['五兵尚書'])]:
+                             ('mingshanbin', ['國子博士']), ('yinjun', ['五兵尚書']),
+                             ('peizhili', ['長流參軍']), ('peizhiping', ['扶風、弘農二郡太守']),
+                             ('nanshi-zhiping', ['光祿大夫', '慈訓宮衛尉'])]:
             for title in titles:
                 with self.subTest(name=name, title=title):
                     chapter, row = self.proposal(name, title)
@@ -62,3 +68,24 @@ class LiangAppointments(unittest.TestCase):
         changed = deepcopy(chapter)
         changed['source_id'] = row['evidence'][0]['source_id'] = 's-liangshu-other-copy'
         self.assertFalse(unassumed_appointment_valid(row, changed))
+
+    def test_pei_sons_lord_and_subsequent_office(self):
+        chapter, proposal = self.proposal('peizhili', '長流參軍')
+        p = chapter['paragraphs'][0]
+        for surface in ('邵陵王', '政'):
+            row = deepcopy(proposal)
+            m, = (m for m in p['mentions'] if m['surface'] == surface)
+            row.update(person_id=m['person_id'], person_mention_id=m['id'])
+            row['evidence'][0]['person_mention_id'] = m['id']
+            self.assertFalse(unassumed_appointment_valid(row, chapter))
+        title = '直閤將軍'
+        start = p['text'].index(title)
+        proposal.update(title=title)
+        proposal['role_anchor'].update(surface=title, start=start, end=start+len(title))
+        self.assertFalse(unassumed_appointment_valid(proposal, chapter))
+
+    def test_zhiping_parallel_titles_require_their_own_span(self):
+        chapter, first = self.proposal('nanshi-zhiping', '光祿大夫')
+        _, second = self.proposal('nanshi-zhiping', '慈訓宮衛尉')
+        first['role_anchor'] = second['role_anchor']
+        self.assertFalse(unassumed_appointment_valid(first, chapter))

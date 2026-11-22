@@ -10,7 +10,8 @@
     "霸",
     "魯王",
     "孫霸",
-    "子威"
+    "子威",
+    "鲁王霸"
   ],
   "titles": [
     {
@@ -58,6 +59,54 @@
       "status": "source_attested",
       "reviewer": "Codex（AI 代理）",
       "human_reviewed": false,
+      "model": null,
+      "period": "未定 → 未定"
+    },
+    {
+      "id": "t-wu056-t-wu056-shiji7",
+      "person_id": "572_278_cba_B",
+      "kind": "noble_rank",
+      "title": "魯王",
+      "mode": "attestation",
+      "status": "source_attested",
+      "effective_period": {
+        "start": {
+          "status": "unknown",
+          "date_expression": null,
+          "evidence": []
+        },
+        "end": {
+          "status": "unknown",
+          "date_expression": null,
+          "evidence": []
+        }
+      },
+      "interpretation_note": "本句所載職官，任免時間未詳。",
+      "evidence": [
+        {
+          "work_id": "w-sanguozhi",
+          "book_id": "b-sanguozhi-056",
+          "chapter_id": "c-sanguozhi-056-shiji",
+          "source_id": "s-sanguozhi-056-shiji",
+          "paragraph_id": "c-sanguozhi-056-shiji:line037",
+          "quote": "　　績字公緒，以父任為郎，後拜建忠都尉。叔父才卒，績領其兵，隨太常潘浚討五溪，以膽力稱。遷偏將軍營下督，領盜賊事，持法不傾。魯王霸注意交績，嘗至其廨，就之坐，欲與結好，績下地住立，辭而不當。然卒。績襲業，拜平魏將軍，樂鄉督。",
+          "person_mention_id": "c-sanguozhi-056-shiji:line037:m0062"
+        }
+      ],
+      "attestations": [
+        {
+          "id": "t-wu056-t-wu056-shiji7:a",
+          "paragraph_id": "c-sanguozhi-056-shiji:line037",
+          "person_mention_id": "c-sanguozhi-056-shiji:line037:m0062",
+          "start": 62,
+          "end": 64,
+          "surface": "魯王",
+          "usage": "narrative",
+          "date_expression": null
+        }
+      ],
+      "human_reviewed": false,
+      "reviewer": "Codex（AI 代理）",
       "model": null,
       "period": "未定 → 未定"
     },
@@ -279,6 +328,50 @@
       "book_id": "b-sanguozhi-052",
       "chapter_id": "c-sanguozhi-052-zhangxiu-complete",
       "source_id": "s-sanguozhi-052-zhangxiu-complete",
+      "work_title": "三國志"
+    },
+    {
+      "number": 56,
+      "category": "",
+      "title": "子 施績傳",
+      "paragraph_id": "c-sanguozhi-056-shiji:line037",
+      "count": 2,
+      "raw_count": 2,
+      "duplicate_count": 0,
+      "counting_policy": "independent_fixed_witness_occurrences",
+      "quote": "其兵，隨太常潘浚討五溪，以膽力稱。遷偏將軍營下督，領盜賊事，持法不傾。魯王霸注意交績，嘗至其廨，就之坐，欲與結好，績下地住立，辭而不當。然卒。績襲業，拜平魏將軍，樂鄉督。",
+      "paragraph_ids": [
+        "c-sanguozhi-056-shiji:line037"
+      ],
+      "mention_ids": [
+        "c-sanguozhi-056-shiji:line037:m0062",
+        "c-sanguozhi-056-shiji:line037:m0064"
+      ],
+      "mention_paragraph_ids": {
+        "c-sanguozhi-056-shiji:line037:m0062": "c-sanguozhi-056-shiji:line037",
+        "c-sanguozhi-056-shiji:line037:m0064": "c-sanguozhi-056-shiji:line037"
+      },
+      "mention_id": "c-sanguozhi-056-shiji:line037:m0062",
+      "occurrence_groups": [
+        {
+          "canonical_mention_id": "c-sanguozhi-056-shiji:line037:m0062",
+          "mention_ids": [
+            "c-sanguozhi-056-shiji:line037:m0062"
+          ],
+          "kind": "paragraph"
+        },
+        {
+          "canonical_mention_id": "c-sanguozhi-056-shiji:line037:m0064",
+          "mention_ids": [
+            "c-sanguozhi-056-shiji:line037:m0064"
+          ],
+          "kind": "paragraph"
+        }
+      ],
+      "work_id": "w-sanguozhi",
+      "book_id": "b-sanguozhi-056",
+      "chapter_id": "c-sanguozhi-056-shiji",
+      "source_id": "s-sanguozhi-056-shiji",
       "work_title": "三國志"
     },
     {
@@ -667,6 +760,41 @@
       "work_title": "三國志"
     },
     {
+      "number": 60,
+      "category": "",
+      "title": "全琮傳",
+      "paragraph_id": "c-sanguozhi-060-quancong:line042-pei01-01",
+      "count": 1,
+      "raw_count": 1,
+      "duplicate_count": 0,
+      "counting_policy": "independent_fixed_witness_occurrences",
+      "quote": "绪与丁奉建议引兵先出，以破魏军，封一子亭侯，年四十四卒。次子寄，坐阿党鲁王霸赐死。小子吴，孙权外孙，封都乡侯。",
+      "paragraph_ids": [
+        "c-sanguozhi-060-quancong:line042-pei01-01"
+      ],
+      "mention_ids": [
+        "c-sanguozhi-060-quancong:line042-pei01-01:m0083"
+      ],
+      "mention_paragraph_ids": {
+        "c-sanguozhi-060-quancong:line042-pei01-01:m0083": "c-sanguozhi-060-quancong:line042-pei01-01"
+      },
+      "mention_id": "c-sanguozhi-060-quancong:line042-pei01-01:m0083",
+      "occurrence_groups": [
+        {
+          "canonical_mention_id": "c-sanguozhi-060-quancong:line042-pei01-01:m0083",
+          "mention_ids": [
+            "c-sanguozhi-060-quancong:line042-pei01-01:m0083"
+          ],
+          "kind": "paragraph"
+        }
+      ],
+      "work_id": "w-sanguozhi",
+      "book_id": "b-sanguozhi-060",
+      "chapter_id": "c-sanguozhi-060-quancong",
+      "source_id": "s-sanguozhi-060-quancong",
+      "work_title": "三國志"
+    },
+    {
       "number": 74,
       "category": "",
       "title": "正始三年吳主封子霸為魯王",
@@ -818,6 +946,34 @@
         "wikitext_sha256": "3f1535985be18091725a92370766f8af67d71e26e611491b169a4e0d19dc1da9",
         "collation_witnesses": [
           "source-evidence/sanguozhi052-zhangsons/reading.json"
+        ]
+      }
+    },
+    {
+      "chapter_id": "c-sanguozhi-056-shiji",
+      "work_id": "w-sanguozhi",
+      "book_id": "b-sanguozhi-056",
+      "source_id": "s-sanguozhi-056-shiji",
+      "source": {
+        "title": "三國志卷五十六·吳書十一",
+        "provider": "Wikisource",
+        "url": "https://zh.wikisource.org/w/index.php?oldid=12760859",
+        "permalink": "https://zh.wikisource.org/w/index.php?oldid=12760859",
+        "revision_id": 12760859,
+        "accessed_on": "2026-11-21",
+        "edition": "維基文庫固定修訂，裴注與正文分層。",
+        "extent": "第37至41行。",
+        "text_scope": "partial_chapter",
+        "review_status": "text_checked",
+        "image_verified": false,
+        "rights": "古籍原文，維基文庫轉錄。",
+        "license_url": "https://creativecommons.org/licenses/by-sa/4.0/",
+        "raw_path": "source-evidence/sanguozhi056-zhu-lv/sanguozhi056-ws12760859.wikitext",
+        "raw_file_sha256": "be8191ed695754812c1c3a717b335f08d1af2834fb4fd965c267942c6f747549",
+        "wikitext_sha256": "be8191ed695754812c1c3a717b335f08d1af2834fb4fd965c267942c6f747549",
+        "original_parent_heading": "朱然",
+        "collation_witnesses": [
+          "source-evidence/sanguozhi056-shiji/reading.json"
         ]
       }
     },
@@ -981,6 +1137,33 @@
         "wikitext_sha256": "2ef34ba24c5a2d61c1f4ac236905bd136212dacb0cf4efe30d4dff4ec0918bad",
         "collation_witnesses": [
           "source-evidence/sanguozhi059-he/reading.json"
+        ]
+      }
+    },
+    {
+      "chapter_id": "c-sanguozhi-060-quancong",
+      "work_id": "w-sanguozhi",
+      "book_id": "b-sanguozhi-060",
+      "source_id": "s-sanguozhi-060-quancong",
+      "source": {
+        "title": "三國志卷六十·吳書十五",
+        "provider": "Wikisource",
+        "url": "https://zh.wikisource.org/w/index.php?oldid=2120830",
+        "permalink": "https://zh.wikisource.org/w/index.php?oldid=2120830",
+        "revision_id": 2120830,
+        "accessed_on": "2026-11-21",
+        "edition": "維基文庫固定修訂，裴注與正文分層。",
+        "extent": "第32至42行。",
+        "text_scope": "partial_chapter",
+        "review_status": "text_checked",
+        "image_verified": false,
+        "rights": "古籍原文，維基文庫轉錄。",
+        "license_url": "https://creativecommons.org/licenses/by-sa/4.0/",
+        "raw_path": "source-evidence/sanguozhi060-he-quan/sanguozhi060-ws2120830.wikitext",
+        "raw_file_sha256": "79a52b4bca550c12a1020750b4464bdc2476fcbb376e67fd22a0bc03f713e8e6",
+        "wikitext_sha256": "79a52b4bca550c12a1020750b4464bdc2476fcbb376e67fd22a0bc03f713e8e6",
+        "collation_witnesses": [
+          "source-evidence/sanguozhi060-quancong/reading.json"
         ]
       }
     },

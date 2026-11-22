@@ -458,6 +458,41 @@
       "work_title": "宋書"
     },
     {
+      "number": 90,
+      "category": "",
+      "title": "宋邵陵殤王友",
+      "paragraph_id": "c-songshu-090-ziliang-shaoling:p001",
+      "count": 1,
+      "raw_count": 1,
+      "duplicate_count": 0,
+      "counting_policy": "independent_fixed_witness_occurrences",
+      "quote": "邵陵殤王友字仲賢，明帝第七子也。",
+      "paragraph_ids": [
+        "c-songshu-090-ziliang-shaoling:p001"
+      ],
+      "mention_ids": [
+        "c-songshu-090-ziliang-shaoling:p001:m0009"
+      ],
+      "mention_paragraph_ids": {
+        "c-songshu-090-ziliang-shaoling:p001:m0009": "c-songshu-090-ziliang-shaoling:p001"
+      },
+      "mention_id": "c-songshu-090-ziliang-shaoling:p001:m0009",
+      "occurrence_groups": [
+        {
+          "canonical_mention_id": "c-songshu-090-ziliang-shaoling:p001:m0009",
+          "mention_ids": [
+            "c-songshu-090-ziliang-shaoling:p001:m0009"
+          ],
+          "kind": "paragraph"
+        }
+      ],
+      "work_id": "w-songshu",
+      "book_id": "b-songshu-090",
+      "chapter_id": "c-songshu-090-ziliang-shaoling",
+      "source_id": "s-songshu-090-ziliang-shaoling-ws1748263",
+      "work_title": "宋書"
+    },
+    {
       "number": 92,
       "category": "",
       "title": "巡行薦吏奏及申季歷等傳敘",
@@ -8700,6 +8735,34 @@
       }
     },
     {
+      "chapter_id": "c-songshu-090-ziliang-shaoling",
+      "work_id": "w-songshu",
+      "book_id": "b-songshu-090",
+      "source_id": "s-songshu-090-ziliang-shaoling-ws1748263",
+      "source": {
+        "title": "宋書卷90·宋邵陵殤王友",
+        "provider": "Wikisource",
+        "url": "https://zh.wikisource.org/w/index.php?oldid=1748263",
+        "permalink": "https://zh.wikisource.org/w/index.php?oldid=1748263",
+        "revision_id": 1748263,
+        "accessed_on": "2026-11-21",
+        "edition": "維基文庫固定數位轉錄",
+        "extent": "固定行起訖及具名原證。",
+        "text_scope": "partial_chapter",
+        "image_verified": false,
+        "review_status": "text_checked",
+        "raw_path": "source-evidence/nanqi040-ziliang/ws1748263.wikitext",
+        "raw_file_sha256": "ac77282ac2b46b4137b785988dbb67b64f095814e5f2fac7d9b300dc203e882c",
+        "rights": "古代原典及維基文庫數位轉錄。",
+        "license_url": "https://zh.wikisource.org/wiki/Wikisource:著作權資訊",
+        "normalization": {
+          "character_conversion": {},
+          "extraction_note": "投影相應原句，保留字形；移除年號模板定界符。"
+        },
+        "section_locator": "宋邵陵殤王友"
+      }
+    },
+    {
       "chapter_id": "c-songshu-092-wangyue",
       "work_id": "w-songshu",
       "book_id": "b-songshu-092",
@@ -9355,6 +9418,49 @@
       "human_reviewed": false
     },
     {
+      "id": "a-nanqi040-ziliang-song-father",
+      "subject_person_id": "cti_o52_4nz_F",
+      "object_person_id": "cti_o52_4nz",
+      "predicate": "father",
+      "qualifiers": {
+        "source_term": "明帝第七子",
+        "nanqi040_ziliang_reading": "song-father",
+        "lineage": "paternal",
+        "birth_order": {
+          "source_term": "第七子",
+          "source_number": "七",
+          "ordinal": 7,
+          "position": "unspecified",
+          "scope": "sons_of_parent",
+          "parent_person_id": "cti_o52_4nz",
+          "interpretation_status": "source_attested"
+        }
+      },
+      "evidence": [
+        {
+          "work_id": "w-songshu",
+          "book_id": "b-songshu-090",
+          "source_id": "s-songshu-090-ziliang-shaoling-ws1748263",
+          "chapter_id": "c-songshu-090-ziliang-shaoling",
+          "paragraph_id": "c-songshu-090-ziliang-shaoling:p001",
+          "quote": "邵陵殤王友字仲賢，明帝第七子也。",
+          "subject_person_mention_id": "c-songshu-090-ziliang-shaoling:p001:m0004",
+          "object_person_mention_id": "c-songshu-090-ziliang-shaoling:p001:m0009",
+          "relationship_anchor": {
+            "paragraph_id": "c-songshu-090-ziliang-shaoling:p001",
+            "surface": "明帝第七子",
+            "start": 9,
+            "end": 14
+          }
+        }
+      ],
+      "status": "source_attested",
+      "interpretation_note": "宋邵陵殤王友之父與所排行。",
+      "reviewer": "Codex（AI 代理）",
+      "human_reviewed": false,
+      "model": null
+    },
+    {
       "id": "a-nan023-wangying-linhuai-reported-father",
       "subject_person_id": "cti_o52_4nz_D",
       "object_person_id": "cti_o52_4nz",
@@ -9419,6 +9525,7 @@
     "cti_o52_4nz_C": "劉伯媛（建安長公主）",
     "cti_o52_4nz_D": "臨淮公主（南朝宋，王瑩妻）",
     "cti_o52_4nz_E": "劉贊（字仲敷，宋武陵王）",
+    "cti_o52_4nz_F": "劉友（字仲賢，宋邵陵殤王）",
     "eis_6fq_q7u": "沈容姬",
     "q7m_r8k_2vn_B": "王貞風（明恭王皇后）"
   },
@@ -11710,6 +11817,49 @@
       "reviewer": "Codex（AI代理）",
       "model": null,
       "human_reviewed": false
+    },
+    {
+      "id": "a-nanqi040-ziliang-song-father",
+      "subject_person_id": "cti_o52_4nz_F",
+      "object_person_id": "cti_o52_4nz",
+      "predicate": "father",
+      "qualifiers": {
+        "source_term": "明帝第七子",
+        "nanqi040_ziliang_reading": "song-father",
+        "lineage": "paternal",
+        "birth_order": {
+          "source_term": "第七子",
+          "source_number": "七",
+          "ordinal": 7,
+          "position": "unspecified",
+          "scope": "sons_of_parent",
+          "parent_person_id": "cti_o52_4nz",
+          "interpretation_status": "source_attested"
+        }
+      },
+      "evidence": [
+        {
+          "work_id": "w-songshu",
+          "book_id": "b-songshu-090",
+          "source_id": "s-songshu-090-ziliang-shaoling-ws1748263",
+          "chapter_id": "c-songshu-090-ziliang-shaoling",
+          "paragraph_id": "c-songshu-090-ziliang-shaoling:p001",
+          "quote": "邵陵殤王友字仲賢，明帝第七子也。",
+          "subject_person_mention_id": "c-songshu-090-ziliang-shaoling:p001:m0004",
+          "object_person_mention_id": "c-songshu-090-ziliang-shaoling:p001:m0009",
+          "relationship_anchor": {
+            "paragraph_id": "c-songshu-090-ziliang-shaoling:p001",
+            "surface": "明帝第七子",
+            "start": 9,
+            "end": 14
+          }
+        }
+      ],
+      "status": "source_attested",
+      "interpretation_note": "宋邵陵殤王友之父與所排行。",
+      "reviewer": "Codex（AI 代理）",
+      "human_reviewed": false,
+      "model": null
     },
     {
       "id": "a-nan023-wangying-linhuai-reported-father",

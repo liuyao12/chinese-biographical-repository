@@ -6,9 +6,59 @@
   "identity_note": "依本篇具名、稱謂及其所在原句辨認；引書原字存於各自來源。",
   "review": "ai_provisional",
   "names": [
-    "錢博"
+    "錢博",
+    "博"
   ],
-  "titles": [],
+  "titles": [
+    {
+      "id": "t-wu060-t-wu060-lvdai13",
+      "person_id": "uf5_ku8_d46",
+      "kind": "office",
+      "title": "高涼西部都尉",
+      "mode": "attestation",
+      "status": "source_attested",
+      "effective_period": {
+        "start": {
+          "status": "unknown",
+          "date_expression": null,
+          "evidence": []
+        },
+        "end": {
+          "status": "unknown",
+          "date_expression": null,
+          "evidence": []
+        }
+      },
+      "interpretation_note": "本句所載職官，任免時間未詳。",
+      "evidence": [
+        {
+          "work_id": "w-sanguozhi",
+          "book_id": "b-sanguozhi-060",
+          "chapter_id": "c-sanguozhi-060-lvdai",
+          "source_id": "s-sanguozhi-060-lvdai",
+          "paragraph_id": "c-sanguozhi-060-lvdai:line049",
+          "quote": "　　延康元年，代步騭為交州刺史。到州，高涼賊帥錢博乞降，岱因承製，以博為高涼西部都尉。又鬱林夷賊攻圍郡縣，岱討破之。是時桂陽、湞陽賊王金合眾於南海界上，首亂為害，權又詔岱討之，生縛金，傳送詣都，斬首獲生凡萬餘人。遷安南將軍，假節，封都鄉侯。",
+          "person_mention_id": "c-sanguozhi-060-lvdai:line049:m0023"
+        }
+      ],
+      "attestations": [
+        {
+          "id": "t-wu060-t-wu060-lvdai13:a",
+          "paragraph_id": "c-sanguozhi-060-lvdai:line049",
+          "person_mention_id": "c-sanguozhi-060-lvdai:line049:m0023",
+          "start": 36,
+          "end": 42,
+          "surface": "高涼西部都尉",
+          "usage": "narrative",
+          "date_expression": null
+        }
+      ],
+      "human_reviewed": false,
+      "reviewer": "Codex（AI 代理）",
+      "model": null,
+      "period": "未定 → 未定"
+    }
+  ],
   "addresses": [],
   "occurrences": [
     {
@@ -45,6 +95,50 @@
       "chapter_id": "c-sanguozhi-053-xuezong",
       "source_id": "s-sanguozhi-053-xuezong",
       "work_title": "三國志"
+    },
+    {
+      "number": 60,
+      "category": "",
+      "title": "呂岱傳",
+      "paragraph_id": "c-sanguozhi-060-lvdai:line049",
+      "count": 2,
+      "raw_count": 2,
+      "duplicate_count": 0,
+      "counting_policy": "independent_fixed_witness_occurrences",
+      "quote": "　　延康元年，代步騭為交州刺史。到州，高涼賊帥錢博乞降，岱因承製，以博為高涼西部都尉。又鬱林夷賊攻圍郡縣，岱討破之。是時桂陽、湞陽賊王金合眾於南海界上，首亂為害，權又詔岱討之，生縛金，傳送詣都，斬首獲生凡萬餘人。遷安南將軍，假節，封都鄉侯。",
+      "paragraph_ids": [
+        "c-sanguozhi-060-lvdai:line049"
+      ],
+      "mention_ids": [
+        "c-sanguozhi-060-lvdai:line049:m0023",
+        "c-sanguozhi-060-lvdai:line049:m0034"
+      ],
+      "mention_paragraph_ids": {
+        "c-sanguozhi-060-lvdai:line049:m0023": "c-sanguozhi-060-lvdai:line049",
+        "c-sanguozhi-060-lvdai:line049:m0034": "c-sanguozhi-060-lvdai:line049"
+      },
+      "mention_id": "c-sanguozhi-060-lvdai:line049:m0023",
+      "occurrence_groups": [
+        {
+          "canonical_mention_id": "c-sanguozhi-060-lvdai:line049:m0023",
+          "mention_ids": [
+            "c-sanguozhi-060-lvdai:line049:m0023"
+          ],
+          "kind": "paragraph"
+        },
+        {
+          "canonical_mention_id": "c-sanguozhi-060-lvdai:line049:m0034",
+          "mention_ids": [
+            "c-sanguozhi-060-lvdai:line049:m0034"
+          ],
+          "kind": "paragraph"
+        }
+      ],
+      "work_id": "w-sanguozhi",
+      "book_id": "b-sanguozhi-060",
+      "chapter_id": "c-sanguozhi-060-lvdai",
+      "source_id": "s-sanguozhi-060-lvdai",
+      "work_title": "三國志"
     }
   ],
   "table_occurrences": [],
@@ -73,6 +167,33 @@
         "wikitext_sha256": "a50889bcf489ad7886d32c3e937c45ea9f9bb5032888b594400ebaeb0121a447",
         "collation_witnesses": [
           "source-evidence/sanguozhi053-xuezong/reading.json"
+        ]
+      }
+    },
+    {
+      "chapter_id": "c-sanguozhi-060-lvdai",
+      "work_id": "w-sanguozhi",
+      "book_id": "b-sanguozhi-060",
+      "source_id": "s-sanguozhi-060-lvdai",
+      "source": {
+        "title": "三國志卷六十·吳書十五",
+        "provider": "Wikisource",
+        "url": "https://zh.wikisource.org/w/index.php?oldid=2120830",
+        "permalink": "https://zh.wikisource.org/w/index.php?oldid=2120830",
+        "revision_id": 2120830,
+        "accessed_on": "2026-11-21",
+        "edition": "維基文庫固定修訂，裴注與正文分層。",
+        "extent": "第45至65行。",
+        "text_scope": "partial_chapter",
+        "review_status": "text_checked",
+        "image_verified": false,
+        "rights": "古籍原文，維基文庫轉錄。",
+        "license_url": "https://creativecommons.org/licenses/by-sa/4.0/",
+        "raw_path": "source-evidence/sanguozhi060-he-quan/sanguozhi060-ws2120830.wikitext",
+        "raw_file_sha256": "79a52b4bca550c12a1020750b4464bdc2476fcbb376e67fd22a0bc03f713e8e6",
+        "wikitext_sha256": "79a52b4bca550c12a1020750b4464bdc2476fcbb376e67fd22a0bc03f713e8e6",
+        "collation_witnesses": [
+          "source-evidence/sanguozhi060-lvdai/reading.json"
         ]
       }
     }
