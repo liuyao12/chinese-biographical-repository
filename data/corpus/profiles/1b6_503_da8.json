@@ -15,7 +15,8 @@
     "車駕",
     "朕",
     "齐王",
-    "芳"
+    "芳",
+    "曹勞"
   ],
   "titles": [
     {
@@ -536,6 +537,41 @@
       "book_id": "b-sanguozhi-052",
       "chapter_id": "c-sanguozhi-052-zhugejin-complete",
       "source_id": "s-sanguozhi-052-zhugejin-complete",
+      "work_title": "三國志"
+    },
+    {
+      "number": 64,
+      "category": "",
+      "title": "三國志卷六十四·滕胤及滕耽、滕冑",
+      "paragraph_id": "c-sanguozhi-064-tengyin-complete:p004",
+      "count": 1,
+      "raw_count": 1,
+      "duplicate_count": 0,
+      "counting_policy": "independent_fixed_witness_occurrences",
+      "quote": "：「諸雲不可者，皆不見計算，懷居苟安者也，而子復以為然，吾何望焉？夫以曹勞暗劣，而政在私門，彼之臣民，固有離心。今吾因國家之資，借戰勝之威，則何往而不克哉！」以胤為都下督，掌統留事。胤白日接賓客，夜省文書，或通曉不寐。",
+      "paragraph_ids": [
+        "c-sanguozhi-064-tengyin-complete:p004"
+      ],
+      "mention_ids": [
+        "c-sanguozhi-064-tengyin-complete:p004:m0180"
+      ],
+      "mention_paragraph_ids": {
+        "c-sanguozhi-064-tengyin-complete:p004:m0180": "c-sanguozhi-064-tengyin-complete:p004"
+      },
+      "mention_id": "c-sanguozhi-064-tengyin-complete:p004:m0180",
+      "occurrence_groups": [
+        {
+          "canonical_mention_id": "c-sanguozhi-064-tengyin-complete:p004:m0180",
+          "mention_ids": [
+            "c-sanguozhi-064-tengyin-complete:p004:m0180"
+          ],
+          "kind": "paragraph"
+        }
+      ],
+      "work_id": "w-sanguozhi",
+      "book_id": "b-sanguozhi-064",
+      "chapter_id": "c-sanguozhi-064-tengyin-complete",
+      "source_id": "s-sanguozhi-064-tengyin-complete-ws2263487",
       "work_title": "三國志"
     }
   ],
@@ -12568,6 +12604,29 @@
           "source-evidence/sanguozhi052-zhugejin/reading.json"
         ]
       }
+    },
+    {
+      "chapter_id": "c-sanguozhi-064-tengyin-complete",
+      "work_id": "w-sanguozhi",
+      "book_id": "b-sanguozhi-064",
+      "source_id": "s-sanguozhi-064-tengyin-complete-ws2263487",
+      "source": {
+        "title": "三國志卷六十四·滕胤及滕耽、滕冑",
+        "provider": "Wikisource",
+        "permalink": "https://zh.wikisource.org/w/index.php?oldid=2263487",
+        "url": "https://zh.wikisource.org/w/index.php?oldid=2263487",
+        "revision_id": 2263487,
+        "edition": "維基文庫固定修訂",
+        "accessed_on": "2026-11-21",
+        "review_status": "text_checked",
+        "image_verified": false,
+        "rights": "古代原文；數位轉錄依維基文庫授權。",
+        "license_url": "https://creativecommons.org/licenses/by-sa/4.0/",
+        "extent": "三國志卷六十四·滕胤及滕耽、滕冑",
+        "text_scope": "complete_biography_unit",
+        "raw_path": "source-evidence/sanguozhi064-roll/ws2263487.wikitext",
+        "raw_file_sha256": "8371077fbc5c595d04ae4f085a06a84cebc3a7b385aaaa4419d46cff2088229e"
+      }
     }
   ],
   "relations": [],
@@ -12576,6 +12635,22 @@
   },
   "dates": [],
   "name_components": [],
+  "source_reading_cases": [
+    {
+      "id": "c-sanguozhi-064-tengyin-complete:variant_review4-180",
+      "kind": "variant_review",
+      "person_id": "1b6_503_da8",
+      "source_quote": "曹勞暗劣",
+      "reading": "殿本曹芳闇劣。書中以魏政在私門勸戰，據同句校曹芳。",
+      "note": "殿本曹芳闇劣。書中以魏政在私門勸戰，據同句校曹芳。",
+      "paragraph_id": "c-sanguozhi-064-tengyin-complete:p004",
+      "start_codepoint": 180,
+      "end_codepoint": 184,
+      "human_reviewed": false,
+      "chapter_id": "c-sanguozhi-064-tengyin-complete",
+      "source_id": "s-sanguozhi-064-tengyin-complete-ws2263487"
+    }
+  ],
   "person_ids": [
     "1b6_503_da8"
   ],

@@ -6,9 +6,59 @@
   "identity_note": "依本篇具名、稱謂及其所在原句辨認；引書原字存於各自來源。",
   "review": "ai_provisional",
   "names": [
-    "濮陽逸"
+    "濮陽逸",
+    "逸"
   ],
-  "titles": [],
+  "titles": [
+    {
+      "id": "th-sanguozhi-064-puyangxing-complete-1-26",
+      "title": "長沙太守",
+      "kind": "office",
+      "mode": "attestation",
+      "person_id": "3yy_t64_6nq",
+      "attestations": [
+        {
+          "id": "th-sanguozhi-064-puyangxing-complete-1-26:a",
+          "paragraph_id": "c-sanguozhi-064-puyangxing-complete:p001",
+          "start": 26,
+          "end": 30,
+          "surface": "長沙太守",
+          "person_mention_id": "c-sanguozhi-064-puyangxing-complete:p001:m0015",
+          "usage": "narrative",
+          "date_expression": null
+        }
+      ],
+      "effective_period": {
+        "start": {
+          "status": "unknown",
+          "date_expression": null,
+          "evidence": []
+        },
+        "end": {
+          "status": "unknown",
+          "date_expression": null,
+          "evidence": []
+        }
+      },
+      "evidence": [
+        {
+          "work_id": "w-sanguozhi",
+          "book_id": "b-sanguozhi-064",
+          "chapter_id": "c-sanguozhi-064-puyangxing-complete",
+          "source_id": "s-sanguozhi-064-puyangxing-complete-ws2263487",
+          "paragraph_id": "c-sanguozhi-064-puyangxing-complete:p001",
+          "quote": "　　濮陽興字子元，陳留人也。父逸，漢末避亂江東，官至長沙太守。興少有士名，孫權時除上虞令，稍遷至尚書左曹，以五官中郎將使蜀，還為會稽太守。時琅邪王休居會稽，興深與相結。及休即位，徵興為太常衛將軍、平軍國事，封外黃侯。",
+          "person_mention_id": "c-sanguozhi-064-puyangxing-complete:p001:m0015"
+        }
+      ],
+      "status": "source_attested",
+      "interpretation_note": "所見原官稱，未載全任期。",
+      "reviewer": "Codex（AI代理）",
+      "model": null,
+      "human_reviewed": false,
+      "period": "未定 → 未定"
+    }
+  ],
   "addresses": [],
   "occurrences": [
     {
@@ -45,6 +95,51 @@
       "chapter_id": "c-sanguozhi-057-lumao",
       "source_id": "s-sanguozhi-057-lumao",
       "work_title": "三國志"
+    },
+    {
+      "number": 64,
+      "category": "",
+      "title": "三國志卷六十四·濮陽興及父逸",
+      "paragraph_id": "c-sanguozhi-064-puyangxing-complete:p001",
+      "count": 2,
+      "raw_count": 2,
+      "duplicate_count": 0,
+      "counting_policy": "independent_fixed_witness_occurrences",
+      "quote": "　　濮陽興字子元，陳留人也。父逸，漢末避亂江東，官至長沙太守。興少有士名，孫權時除上虞令，稍遷至尚書左曹，以五官中郎將使蜀，還為會稽太守。時琅邪王休居會稽，興深與相結。及休即位，徵興為太常衛將軍、平軍國事，封外黃侯。",
+      "paragraph_ids": [
+        "c-sanguozhi-064-puyangxing-complete:p001",
+        "c-sanguozhi-064-puyangxing-complete:p002"
+      ],
+      "mention_ids": [
+        "c-sanguozhi-064-puyangxing-complete:p001:m0015",
+        "c-sanguozhi-064-puyangxing-complete:p002:m0000"
+      ],
+      "mention_paragraph_ids": {
+        "c-sanguozhi-064-puyangxing-complete:p001:m0015": "c-sanguozhi-064-puyangxing-complete:p001",
+        "c-sanguozhi-064-puyangxing-complete:p002:m0000": "c-sanguozhi-064-puyangxing-complete:p002"
+      },
+      "mention_id": "c-sanguozhi-064-puyangxing-complete:p001:m0015",
+      "occurrence_groups": [
+        {
+          "canonical_mention_id": "c-sanguozhi-064-puyangxing-complete:p001:m0015",
+          "mention_ids": [
+            "c-sanguozhi-064-puyangxing-complete:p001:m0015"
+          ],
+          "kind": "paragraph"
+        },
+        {
+          "canonical_mention_id": "c-sanguozhi-064-puyangxing-complete:p002:m0000",
+          "mention_ids": [
+            "c-sanguozhi-064-puyangxing-complete:p002:m0000"
+          ],
+          "kind": "paragraph"
+        }
+      ],
+      "work_id": "w-sanguozhi",
+      "book_id": "b-sanguozhi-064",
+      "chapter_id": "c-sanguozhi-064-puyangxing-complete",
+      "source_id": "s-sanguozhi-064-puyangxing-complete-ws2263487",
+      "work_title": "三國志"
     }
   ],
   "table_occurrences": [],
@@ -75,18 +170,98 @@
           "source-evidence/sanguozhi057-lumao/reading.json"
         ]
       }
+    },
+    {
+      "chapter_id": "c-sanguozhi-064-puyangxing-complete",
+      "work_id": "w-sanguozhi",
+      "book_id": "b-sanguozhi-064",
+      "source_id": "s-sanguozhi-064-puyangxing-complete-ws2263487",
+      "source": {
+        "title": "三國志卷六十四·濮陽興及父逸",
+        "provider": "Wikisource",
+        "permalink": "https://zh.wikisource.org/w/index.php?oldid=2263487",
+        "url": "https://zh.wikisource.org/w/index.php?oldid=2263487",
+        "revision_id": 2263487,
+        "edition": "維基文庫固定修訂",
+        "accessed_on": "2026-11-21",
+        "review_status": "text_checked",
+        "image_verified": false,
+        "rights": "古代原文；數位轉錄依維基文庫授權。",
+        "license_url": "https://creativecommons.org/licenses/by-sa/4.0/",
+        "extent": "三國志卷六十四·濮陽興及父逸",
+        "text_scope": "complete_biography_unit",
+        "raw_path": "source-evidence/sanguozhi064-roll/ws2263487.wikitext",
+        "raw_file_sha256": "8371077fbc5c595d04ae4f085a06a84cebc3a7b385aaaa4419d46cff2088229e"
+      }
     }
   ],
-  "relations": [],
+  "relations": [
+    {
+      "id": "a-wu064-puyang-xing-father",
+      "subject_person_id": "u44_7nr_99a",
+      "object_person_id": "3yy_t64_6nq",
+      "predicate": "father",
+      "qualifiers": {
+        "source_term": "父逸",
+        "lineage": "paternal"
+      },
+      "evidence": [
+        {
+          "work_id": "w-sanguozhi",
+          "book_id": "b-sanguozhi-064",
+          "chapter_id": "c-sanguozhi-064-puyangxing-complete",
+          "source_id": "s-sanguozhi-064-puyangxing-complete-ws2263487",
+          "paragraph_id": "c-sanguozhi-064-puyangxing-complete:p001",
+          "quote": "　　濮陽興字子元，陳留人也。父逸，漢末避亂江東，官至長沙太守。興少有士名，孫權時除上虞令，稍遷至尚書左曹，以五官中郎將使蜀，還為會稽太守。時琅邪王休居會稽，興深與相結。及休即位，徵興為太常衛將軍、平軍國事，封外黃侯。",
+          "subject_person_mention_id": "c-sanguozhi-064-puyangxing-complete:p001:m0002",
+          "object_person_mention_id": "c-sanguozhi-064-puyangxing-complete:p001:m0015"
+        }
+      ],
+      "status": "source_attested",
+      "interpretation_note": "濮陽興父名逸，漢末渡江，官至長沙太守；卷五十七陸瑁傳具逸全名。",
+      "reviewer": "Codex（AI代理）",
+      "model": null,
+      "human_reviewed": false
+    }
+  ],
   "related_people": {
-    "3yy_t64_6nq": "濮陽逸"
+    "3yy_t64_6nq": "濮陽逸",
+    "u44_7nr_99a": "濮陽興"
   },
   "dates": [],
   "name_components": [],
   "person_ids": [
     "3yy_t64_6nq"
   ],
-  "preferred_relations": [],
+  "preferred_relations": [
+    {
+      "id": "a-wu064-puyang-xing-father",
+      "subject_person_id": "u44_7nr_99a",
+      "object_person_id": "3yy_t64_6nq",
+      "predicate": "father",
+      "qualifiers": {
+        "source_term": "父逸",
+        "lineage": "paternal"
+      },
+      "evidence": [
+        {
+          "work_id": "w-sanguozhi",
+          "book_id": "b-sanguozhi-064",
+          "chapter_id": "c-sanguozhi-064-puyangxing-complete",
+          "source_id": "s-sanguozhi-064-puyangxing-complete-ws2263487",
+          "paragraph_id": "c-sanguozhi-064-puyangxing-complete:p001",
+          "quote": "　　濮陽興字子元，陳留人也。父逸，漢末避亂江東，官至長沙太守。興少有士名，孫權時除上虞令，稍遷至尚書左曹，以五官中郎將使蜀，還為會稽太守。時琅邪王休居會稽，興深與相結。及休即位，徵興為太常衛將軍、平軍國事，封外黃侯。",
+          "subject_person_mention_id": "c-sanguozhi-064-puyangxing-complete:p001:m0002",
+          "object_person_mention_id": "c-sanguozhi-064-puyangxing-complete:p001:m0015"
+        }
+      ],
+      "status": "source_attested",
+      "interpretation_note": "濮陽興父名逸，漢末渡江，官至長沙太守；卷五十七陸瑁傳具逸全名。",
+      "reviewer": "Codex（AI代理）",
+      "model": null,
+      "human_reviewed": false
+    }
+  ],
   "age_assertions": [],
   "life_events": [],
   "life_event_date_decisions": [],
