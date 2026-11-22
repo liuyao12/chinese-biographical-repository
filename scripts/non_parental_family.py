@@ -112,6 +112,14 @@ def non_parental_relation_valid(assertion, paragraphs, assertions=None):
     if kind == 'explicit_yang':
         return (child['surface'] == '之' and term == other['surface'] + '養之'
                 and text[other['end']:child['start']] == '養')
+    if kind == 'orphan_reared_by_paternal_aunt':
+        intervening = [m for m in ms.values() if m.get('kind') == 'person'
+                       and child['end'] <= m['start'] < other['start']]
+        return (not text[:child['start']].strip()
+                and all(m['surface'] == '母' for m in intervening)
+                and other['surface'].startswith('伯母')
+                and term == '幼而母卒，養於' + other['surface']
+                and other['end'] - len(term) in starts)
     if kind == 'speaker_recalls_rearing':
         speaker = ms.get(q.get('speaker_identity_mention_id'))
         return (child['surface'] == '朕' and term == '撫育之勤，' + other['surface'] + '之仁也'
