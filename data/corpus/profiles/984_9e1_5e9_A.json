@@ -187,6 +187,41 @@
       "chapter_id": "c-sanguozhi-059-he",
       "source_id": "s-sanguozhi-059-he",
       "work_title": "三國志"
+    },
+    {
+      "number": 60,
+      "category": "",
+      "title": "全琮傳",
+      "paragraph_id": "c-sanguozhi-060-quancong:line042-pei01-01",
+      "count": 1,
+      "raw_count": 1,
+      "duplicate_count": 0,
+      "counting_policy": "independent_fixed_witness_occurrences",
+      "quote": "东关之役，绪与丁奉建议引兵先出，以破魏军，封一子亭侯，年四十四卒。次子寄，坐阿党鲁王霸赐死。小子吴，孙权外孙，封都乡侯。",
+      "paragraph_ids": [
+        "c-sanguozhi-060-quancong:line042-pei01-01"
+      ],
+      "mention_ids": [
+        "c-sanguozhi-060-quancong:line042-pei01-01:m0078"
+      ],
+      "mention_paragraph_ids": {
+        "c-sanguozhi-060-quancong:line042-pei01-01:m0078": "c-sanguozhi-060-quancong:line042-pei01-01"
+      },
+      "mention_id": "c-sanguozhi-060-quancong:line042-pei01-01:m0078",
+      "occurrence_groups": [
+        {
+          "canonical_mention_id": "c-sanguozhi-060-quancong:line042-pei01-01:m0078",
+          "mention_ids": [
+            "c-sanguozhi-060-quancong:line042-pei01-01:m0078"
+          ],
+          "kind": "paragraph"
+        }
+      ],
+      "work_id": "w-sanguozhi",
+      "book_id": "b-sanguozhi-060",
+      "chapter_id": "c-sanguozhi-060-quancong",
+      "source_id": "s-sanguozhi-060-quancong",
+      "work_title": "三國志"
     }
   ],
   "table_occurrences": [],
@@ -299,6 +334,33 @@
           "source-evidence/sanguozhi059-he/reading.json"
         ]
       }
+    },
+    {
+      "chapter_id": "c-sanguozhi-060-quancong",
+      "work_id": "w-sanguozhi",
+      "book_id": "b-sanguozhi-060",
+      "source_id": "s-sanguozhi-060-quancong",
+      "source": {
+        "title": "三國志卷六十·吳書十五",
+        "provider": "Wikisource",
+        "url": "https://zh.wikisource.org/w/index.php?oldid=2120830",
+        "permalink": "https://zh.wikisource.org/w/index.php?oldid=2120830",
+        "revision_id": 2120830,
+        "accessed_on": "2026-11-21",
+        "edition": "維基文庫固定修訂，裴注與正文分層。",
+        "extent": "第32至42行。",
+        "text_scope": "partial_chapter",
+        "review_status": "text_checked",
+        "image_verified": false,
+        "rights": "古籍原文，維基文庫轉錄。",
+        "license_url": "https://creativecommons.org/licenses/by-sa/4.0/",
+        "raw_path": "source-evidence/sanguozhi060-he-quan/sanguozhi060-ws2120830.wikitext",
+        "raw_file_sha256": "79a52b4bca550c12a1020750b4464bdc2476fcbb376e67fd22a0bc03f713e8e6",
+        "wikitext_sha256": "79a52b4bca550c12a1020750b4464bdc2476fcbb376e67fd22a0bc03f713e8e6",
+        "collation_witnesses": [
+          "source-evidence/sanguozhi060-quancong/reading.json"
+        ]
+      }
     }
   ],
   "relations": [
@@ -346,6 +408,32 @@
           "quote": "先是，二宮並闕，中外職司，多遣子弟給侍。全琮報遜，遜以為“子弟苟有才，不憂不用，不宜私出以要榮利。若其不佳，終為取禍。且聞二宮勢敵，必有彼此，此古人之厚忌也。”琮子寄，果阿附魯王，輕為交構。遜書與琮曰：「卿不師日磾，而宿留阿寄，終為足下門戶致禍矣。」琮既不納，更以致隙。及太子有不安之儀，遜上疏陳：「太子正統，宜有磐石之固，魯王藩臣，當使寵秩有差，彼此得所，上下獲安。謹叩頭流血以聞。」書三四上，及求詣都，欲口論適庶之分，以匡得失。既不聽許，而遜外生顧譚、顧承、姚信，工以親附太子，枉見流徙。太子太傅吾粲坐數與遜交書，下獄死。權累遣中使責讓遜，遜憤恚致卒，時年六十三。家無餘財。",
           "subject_person_mention_id": "c-sanguozhi-058-luxun:line055:m0082",
           "object_person_mention_id": "c-sanguozhi-058-luxun:line055:m0021"
+        }
+      ],
+      "interpretation_note": "以此來源所述兩端為據。",
+      "status": "source_attested",
+      "reviewer": "Codex（AI 代理）",
+      "human_reviewed": false,
+      "model": null
+    },
+    {
+      "id": "a-wu060-quancong-4",
+      "subject_person_id": "984_9e1_5e9_A",
+      "object_person_id": "984_9e1_5e9",
+      "predicate": "father",
+      "qualifiers": {
+        "source_term": "次子寄"
+      },
+      "evidence": [
+        {
+          "work_id": "w-sanguozhi",
+          "book_id": "b-sanguozhi-060",
+          "chapter_id": "c-sanguozhi-060-quancong",
+          "source_id": "s-sanguozhi-060-quancong",
+          "paragraph_id": "c-sanguozhi-060-quancong:line042-pei01-01",
+          "quote": "吴书曰：琮长子绪，幼知名，奉朝请，出授兵，稍迁扬武将军、牛渚督。孙亮即位，迁镇北将军。东关之役，绪与丁奉建议引兵先出，以破魏军，封一子亭侯，年四十四卒。次子寄，坐阿党鲁王霸赐死。小子吴，孙权外孙，封都乡侯。",
+          "subject_person_mention_id": "c-sanguozhi-060-quancong:line042-pei01-01:m0078",
+          "object_person_mention_id": "c-sanguozhi-060-quancong:line042-pei01-01:m0004"
         }
       ],
       "interpretation_note": "以此來源所述兩端為據。",
@@ -434,6 +522,32 @@
       "reviewer": "Codex（AI 代理）",
       "human_reviewed": false,
       "model": null
+    },
+    {
+      "id": "a-wu060-quancong-4",
+      "subject_person_id": "984_9e1_5e9_A",
+      "object_person_id": "984_9e1_5e9",
+      "predicate": "father",
+      "qualifiers": {
+        "source_term": "次子寄"
+      },
+      "evidence": [
+        {
+          "work_id": "w-sanguozhi",
+          "book_id": "b-sanguozhi-060",
+          "chapter_id": "c-sanguozhi-060-quancong",
+          "source_id": "s-sanguozhi-060-quancong",
+          "paragraph_id": "c-sanguozhi-060-quancong:line042-pei01-01",
+          "quote": "吴书曰：琮长子绪，幼知名，奉朝请，出授兵，稍迁扬武将军、牛渚督。孙亮即位，迁镇北将军。东关之役，绪与丁奉建议引兵先出，以破魏军，封一子亭侯，年四十四卒。次子寄，坐阿党鲁王霸赐死。小子吴，孙权外孙，封都乡侯。",
+          "subject_person_mention_id": "c-sanguozhi-060-quancong:line042-pei01-01:m0078",
+          "object_person_mention_id": "c-sanguozhi-060-quancong:line042-pei01-01:m0004"
+        }
+      ],
+      "interpretation_note": "以此來源所述兩端為據。",
+      "status": "source_attested",
+      "reviewer": "Codex（AI 代理）",
+      "human_reviewed": false,
+      "model": null
     }
   ],
   "age_assertions": [],
@@ -453,6 +567,29 @@
           "paragraph_id": "c-sanguozhi-059-ba:line041",
           "quote": "時全寄、吳安、孫奇、楊笁等陰共附霸，圖危太子。譖毀旣行，太子以敗，霸亦賜死。流笁屍于江，兄穆以數諫戒笁，得免大辟，猶徙南州。霸賜死後，又誅寄、安、奇等，咸以黨霸搆和故也。",
           "person_mention_id": "c-sanguozhi-059-ba:line041:m0001"
+        }
+      ],
+      "interpretation_note": "本來源所記。",
+      "status": "source_attested",
+      "reviewer": "Codex（AI 代理）",
+      "human_reviewed": false,
+      "model": null
+    },
+    {
+      "id": "le-wu060-quancong3",
+      "person_id": "984_9e1_5e9_A",
+      "event_type": "death",
+      "source_term": "坐阿党鲁王霸赐死",
+      "date_expression": null,
+      "evidence": [
+        {
+          "work_id": "w-sanguozhi",
+          "book_id": "b-sanguozhi-060",
+          "chapter_id": "c-sanguozhi-060-quancong",
+          "source_id": "s-sanguozhi-060-quancong",
+          "paragraph_id": "c-sanguozhi-060-quancong:line042-pei01-01",
+          "quote": "吴书曰：琮长子绪，幼知名，奉朝请，出授兵，稍迁扬武将军、牛渚督。孙亮即位，迁镇北将军。东关之役，绪与丁奉建议引兵先出，以破魏军，封一子亭侯，年四十四卒。次子寄，坐阿党鲁王霸赐死。小子吴，孙权外孙，封都乡侯。",
+          "person_mention_id": "c-sanguozhi-060-quancong:line042-pei01-01:m0078"
         }
       ],
       "interpretation_note": "本來源所記。",

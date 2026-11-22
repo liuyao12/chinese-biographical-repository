@@ -1,0 +1,123 @@
+{
+  "format_version": "0.2",
+  "record_type": "marked_chapter",
+  "id": "c-songshu-049-liujingshun",
+  "work_id": "w-songshu",
+  "book_id": "b-songshu-049",
+  "source_id": "s-songshu-049-liujingshun-ws2118585",
+  "title": "劉敬順",
+  "source": {
+    "title": "劉敬順",
+    "provider": "Wikisource",
+    "permalink": "https://zh.wikisource.org/w/index.php?oldid=2118585",
+    "url": "https://zh.wikisource.org/w/index.php?oldid=2118585",
+    "revision_id": 2118585,
+    "edition": "維基文庫固定修訂",
+    "accessed_on": "2026-11-21",
+    "review_status": "text_checked",
+    "image_verified": false,
+    "rights": "古代原文；數位轉錄依維基文庫授權。",
+    "license_url": "https://creativecommons.org/licenses/by-sa/4.0/",
+    "extent": "劉敬順",
+    "text_scope": "complete_biography_unit",
+    "raw_path": "sources/songshu/songshu049-ws2118585.wikitext",
+    "raw_file_sha256": "eed9933668a66e9e119824479715aab40364c8a7ac72a020f65ee759b1bb0646"
+  },
+  "annotation": {
+    "status": "reviewed",
+    "reviewer": "Codex（AI代理）",
+    "model": null,
+    "human_reviewed": false,
+    "source_reading_cases": [
+      {
+        "id": "c-songshu-049-liujingshun:received_sentence1-0",
+        "kind": "received_sentence",
+        "person_id": "vcd_ee3_q63_B",
+        "source_quote": "鍾次子高昌男敬順，卒，",
+        "reading": "鍾次子高昌男敬順卒。",
+        "note": "鍾次子高昌男敬順卒。",
+        "paragraph_id": "c-songshu-049-liujingshun:p001",
+        "start_codepoint": 0,
+        "end_codepoint": 11,
+        "human_reviewed": false
+      },
+      {
+        "id": "c-songshu-049-liujingshun:succession_record1-1",
+        "kind": "succession_record",
+        "person_id": "vcd_ee3_q63_B",
+        "source_quote": "次子",
+        "reading": "因父平蜀之功別封高昌縣男、食邑百戶，與敬義所承永新別支。",
+        "note": "因父平蜀之功別封高昌縣男、食邑百戶，與敬義所承永新別支。",
+        "paragraph_id": "c-songshu-049-liujingshun:p001",
+        "start_codepoint": 1,
+        "end_codepoint": 3,
+        "human_reviewed": false,
+        "source_role": "敬順"
+      },
+      {
+        "id": "c-songshu-049-liujingshun:paternal_order1-1",
+        "kind": "paternal_order",
+        "person_id": "vcd_ee3_q63_B",
+        "source_quote": "次子",
+        "reading": "劉鍾明載次子。",
+        "note": "劉鍾明載次子。",
+        "paragraph_id": "c-songshu-049-liujingshun:p001",
+        "start_codepoint": 1,
+        "end_codepoint": 3,
+        "human_reviewed": false,
+        "father": "vcd_ee3_q63",
+        "son": "vcd_ee3_q63_B",
+        "ordinal": 2
+      }
+    ]
+  },
+  "paragraphs": [
+    {
+      "id": "c-songshu-049-liujingshun:p001",
+      "text": "鍾次子高昌男敬順，卒，",
+      "text_layer": "received_chapter",
+      "annotation_status": "reviewed",
+      "source_position": {
+        "first_line": 38,
+        "last_line": 38,
+        "raw_start": 3147,
+        "raw_end": 3158,
+        "raw_character_offsets": [
+          3147,
+          3148,
+          3149,
+          3150,
+          3151,
+          3152,
+          3153,
+          3154,
+          3155,
+          3156,
+          3157
+        ],
+        "revision_id": 2118585
+      },
+      "mentions": [
+        {
+          "id": "c-songshu-049-liujingshun:p001:m0000",
+          "start": 0,
+          "end": 1,
+          "surface": "鍾",
+          "kind": "person",
+          "person_id": "vcd_ee3_q63",
+          "status": "contextual_provisional"
+        },
+        {
+          "id": "c-songshu-049-liujingshun:p001:m0006",
+          "start": 6,
+          "end": 8,
+          "surface": "敬順",
+          "kind": "person",
+          "person_id": "vcd_ee3_q63_B",
+          "status": "contextual_provisional"
+        }
+      ]
+    }
+  ],
+  "text_sha256": "f5e00b115d8a6db55291e4eb598b272f3991e30e6dcac0458557bb0f672a81e5"
+}

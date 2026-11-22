@@ -1,0 +1,285 @@
+{
+  "schema_version": 1,
+  "id": "wuz_dky_0ki_A",
+  "canonical_person_id": "wuz_dky_0ki_A",
+  "label": "賀達",
+  "identity_note": "依本篇具名、稱謂及其所在原句辨認；引書原字存於各自來源。",
+  "review": "ai_provisional",
+  "names": [
+    "達",
+    "达"
+  ],
+  "titles": [],
+  "addresses": [],
+  "occurrences": [
+    {
+      "number": 60,
+      "category": "",
+      "title": "賀齊傳",
+      "paragraph_id": "c-sanguozhi-060-heqi:line029",
+      "count": 2,
+      "raw_count": 2,
+      "duplicate_count": 0,
+      "counting_policy": "independent_fixed_witness_occurrences",
+      "quote": "六月盛夏、出其不意，詔齊督麋芳、鮮于丹等襲蘄春，遂生虜宗。後四年卒，子達及弟景皆有令名，為佳將。",
+      "paragraph_ids": [
+        "c-sanguozhi-060-heqi:line029",
+        "c-sanguozhi-060-heqi:line029-pei01-01"
+      ],
+      "mention_ids": [
+        "c-sanguozhi-060-heqi:line029:m0080",
+        "c-sanguozhi-060-heqi:line029-pei01-01:m0036"
+      ],
+      "mention_paragraph_ids": {
+        "c-sanguozhi-060-heqi:line029:m0080": "c-sanguozhi-060-heqi:line029",
+        "c-sanguozhi-060-heqi:line029-pei01-01:m0036": "c-sanguozhi-060-heqi:line029-pei01-01"
+      },
+      "mention_id": "c-sanguozhi-060-heqi:line029:m0080",
+      "occurrence_groups": [
+        {
+          "canonical_mention_id": "c-sanguozhi-060-heqi:line029:m0080",
+          "mention_ids": [
+            "c-sanguozhi-060-heqi:line029:m0080"
+          ],
+          "kind": "paragraph"
+        },
+        {
+          "canonical_mention_id": "c-sanguozhi-060-heqi:line029-pei01-01:m0036",
+          "mention_ids": [
+            "c-sanguozhi-060-heqi:line029-pei01-01:m0036"
+          ],
+          "kind": "paragraph"
+        }
+      ],
+      "work_id": "w-sanguozhi",
+      "book_id": "b-sanguozhi-060",
+      "chapter_id": "c-sanguozhi-060-heqi",
+      "source_id": "s-sanguozhi-060-heqi",
+      "work_title": "三國志"
+    }
+  ],
+  "table_occurrences": [],
+  "sources": [
+    {
+      "chapter_id": "c-sanguozhi-060-heqi",
+      "work_id": "w-sanguozhi",
+      "book_id": "b-sanguozhi-060",
+      "source_id": "s-sanguozhi-060-heqi",
+      "source": {
+        "title": "三國志卷六十·吳書十五",
+        "provider": "Wikisource",
+        "url": "https://zh.wikisource.org/w/index.php?oldid=2120830",
+        "permalink": "https://zh.wikisource.org/w/index.php?oldid=2120830",
+        "revision_id": 2120830,
+        "accessed_on": "2026-11-21",
+        "edition": "維基文庫固定修訂，裴注與正文分層。",
+        "extent": "第11至29行。",
+        "text_scope": "partial_chapter",
+        "review_status": "text_checked",
+        "image_verified": false,
+        "rights": "古籍原文，維基文庫轉錄。",
+        "license_url": "https://creativecommons.org/licenses/by-sa/4.0/",
+        "raw_path": "source-evidence/sanguozhi060-he-quan/sanguozhi060-ws2120830.wikitext",
+        "raw_file_sha256": "79a52b4bca550c12a1020750b4464bdc2476fcbb376e67fd22a0bc03f713e8e6",
+        "wikitext_sha256": "79a52b4bca550c12a1020750b4464bdc2476fcbb376e67fd22a0bc03f713e8e6",
+        "collation_witnesses": [
+          "source-evidence/sanguozhi060-heqi/reading.json"
+        ]
+      }
+    }
+  ],
+  "relations": [
+    {
+      "id": "a-wu060-heqi-2",
+      "subject_person_id": "wuz_dky_0ki_A",
+      "object_person_id": "wuz_dky_0ki",
+      "predicate": "father",
+      "qualifiers": {
+        "source_term": "子達及弟景"
+      },
+      "evidence": [
+        {
+          "work_id": "w-sanguozhi",
+          "book_id": "b-sanguozhi-060",
+          "chapter_id": "c-sanguozhi-060-heqi",
+          "source_id": "s-sanguozhi-060-heqi",
+          "paragraph_id": "c-sanguozhi-060-heqi:line029",
+          "quote": "　　初，晉宗為戲口將，以眾叛如魏，還為蘄春太守，圖襲安樂，取其保質。權以為恥忿，因軍初罷，六月盛夏、出其不意，詔齊督麋芳、鮮于丹等襲蘄春，遂生虜宗。後四年卒，子達及弟景皆有令名，為佳將。",
+          "subject_person_mention_id": "c-sanguozhi-060-heqi:line029:m0080",
+          "object_person_mention_id": "c-sanguozhi-060-heqi:line029:m0056"
+        }
+      ],
+      "interpretation_note": "以此來源所述兩端為據。",
+      "status": "source_attested",
+      "reviewer": "Codex（AI 代理）",
+      "human_reviewed": false,
+      "model": null
+    },
+    {
+      "id": "a-wu060-heqi-4",
+      "subject_person_id": "wuz_dky_0ki_B",
+      "object_person_id": "wuz_dky_0ki_A",
+      "predicate": "brother",
+      "qualifiers": {
+        "source_term": "子達及弟景"
+      },
+      "evidence": [
+        {
+          "work_id": "w-sanguozhi",
+          "book_id": "b-sanguozhi-060",
+          "chapter_id": "c-sanguozhi-060-heqi",
+          "source_id": "s-sanguozhi-060-heqi",
+          "paragraph_id": "c-sanguozhi-060-heqi:line029",
+          "quote": "　　初，晉宗為戲口將，以眾叛如魏，還為蘄春太守，圖襲安樂，取其保質。權以為恥忿，因軍初罷，六月盛夏、出其不意，詔齊督麋芳、鮮于丹等襲蘄春，遂生虜宗。後四年卒，子達及弟景皆有令名，為佳將。",
+          "subject_person_mention_id": "c-sanguozhi-060-heqi:line029:m0083",
+          "object_person_mention_id": "c-sanguozhi-060-heqi:line029:m0080"
+        }
+      ],
+      "interpretation_note": "以此來源所述兩端為據。",
+      "status": "source_attested",
+      "reviewer": "Codex（AI 代理）",
+      "human_reviewed": false,
+      "model": null
+    },
+    {
+      "id": "a-wu060-heqi-6",
+      "subject_person_id": "wuz_dky_0ki_AA",
+      "object_person_id": "wuz_dky_0ki_A",
+      "predicate": "father",
+      "qualifiers": {
+        "source_term": "子质"
+      },
+      "evidence": [
+        {
+          "work_id": "w-sanguozhi",
+          "book_id": "b-sanguozhi-060",
+          "chapter_id": "c-sanguozhi-060-heqi",
+          "source_id": "s-sanguozhi-060-heqi",
+          "paragraph_id": "c-sanguozhi-060-heqi:line029-pei01-01",
+          "quote": "《会稽典录》曰：景为灭贼校尉，御众严而有恩，兵器精饰，为当时冠绝，早卒。达颇任气，多所犯迕，故虽有征战之劳，而爵位不至，然轻财贵义，胆烈过人。子质，位至虎牙将军。景子邵，别有传。",
+          "subject_person_mention_id": "c-sanguozhi-060-heqi:line029-pei01-01:m0072",
+          "object_person_mention_id": "c-sanguozhi-060-heqi:line029-pei01-01:m0036"
+        }
+      ],
+      "interpretation_note": "以此來源所述兩端為據。",
+      "status": "source_attested",
+      "reviewer": "Codex（AI 代理）",
+      "human_reviewed": false,
+      "model": null
+    }
+  ],
+  "related_people": {
+    "wuz_dky_0ki": "賀齊",
+    "wuz_dky_0ki_A": "賀達",
+    "wuz_dky_0ki_AA": "賀質〔賀達子、虎牙將軍〕",
+    "wuz_dky_0ki_B": "賀景"
+  },
+  "dates": [],
+  "name_components": [],
+  "source_reading_cases": [
+    {
+      "id": "c-sanguozhi-060-heqi:line029-pei01-01:reading-000-089",
+      "kind": "annotation_sentence",
+      "paragraph_id": "c-sanguozhi-060-heqi:line029-pei01-01",
+      "start_codepoint": 0,
+      "end_codepoint": 89,
+      "source_quote": "《会稽典录》曰：景为灭贼校尉，御众严而有恩，兵器精饰，为当时冠绝，早卒。达颇任气，多所犯迕，故虽有征战之劳，而爵位不至，然轻财贵义，胆烈过人。子质，位至虎牙将军。景子邵，别有传。",
+      "person_id": "wuz_dky_0ki_A",
+      "related_person_ids": [
+        "wuz_dky_0ki_B",
+        "wuz_dky_0ki_AA",
+        "n40_190_783"
+      ],
+      "reading": "會稽典錄分記賀景、達二人。子質接達；景子邵另指卷65本傳。",
+      "chapter_id": "c-sanguozhi-060-heqi",
+      "source_id": "s-sanguozhi-060-heqi"
+    }
+  ],
+  "person_ids": [
+    "wuz_dky_0ki_A"
+  ],
+  "preferred_relations": [
+    {
+      "id": "a-wu060-heqi-2",
+      "subject_person_id": "wuz_dky_0ki_A",
+      "object_person_id": "wuz_dky_0ki",
+      "predicate": "father",
+      "qualifiers": {
+        "source_term": "子達及弟景"
+      },
+      "evidence": [
+        {
+          "work_id": "w-sanguozhi",
+          "book_id": "b-sanguozhi-060",
+          "chapter_id": "c-sanguozhi-060-heqi",
+          "source_id": "s-sanguozhi-060-heqi",
+          "paragraph_id": "c-sanguozhi-060-heqi:line029",
+          "quote": "　　初，晉宗為戲口將，以眾叛如魏，還為蘄春太守，圖襲安樂，取其保質。權以為恥忿，因軍初罷，六月盛夏、出其不意，詔齊督麋芳、鮮于丹等襲蘄春，遂生虜宗。後四年卒，子達及弟景皆有令名，為佳將。",
+          "subject_person_mention_id": "c-sanguozhi-060-heqi:line029:m0080",
+          "object_person_mention_id": "c-sanguozhi-060-heqi:line029:m0056"
+        }
+      ],
+      "interpretation_note": "以此來源所述兩端為據。",
+      "status": "source_attested",
+      "reviewer": "Codex（AI 代理）",
+      "human_reviewed": false,
+      "model": null
+    },
+    {
+      "id": "a-wu060-heqi-4",
+      "subject_person_id": "wuz_dky_0ki_B",
+      "object_person_id": "wuz_dky_0ki_A",
+      "predicate": "brother",
+      "qualifiers": {
+        "source_term": "子達及弟景"
+      },
+      "evidence": [
+        {
+          "work_id": "w-sanguozhi",
+          "book_id": "b-sanguozhi-060",
+          "chapter_id": "c-sanguozhi-060-heqi",
+          "source_id": "s-sanguozhi-060-heqi",
+          "paragraph_id": "c-sanguozhi-060-heqi:line029",
+          "quote": "　　初，晉宗為戲口將，以眾叛如魏，還為蘄春太守，圖襲安樂，取其保質。權以為恥忿，因軍初罷，六月盛夏、出其不意，詔齊督麋芳、鮮于丹等襲蘄春，遂生虜宗。後四年卒，子達及弟景皆有令名，為佳將。",
+          "subject_person_mention_id": "c-sanguozhi-060-heqi:line029:m0083",
+          "object_person_mention_id": "c-sanguozhi-060-heqi:line029:m0080"
+        }
+      ],
+      "interpretation_note": "以此來源所述兩端為據。",
+      "status": "source_attested",
+      "reviewer": "Codex（AI 代理）",
+      "human_reviewed": false,
+      "model": null
+    },
+    {
+      "id": "a-wu060-heqi-6",
+      "subject_person_id": "wuz_dky_0ki_AA",
+      "object_person_id": "wuz_dky_0ki_A",
+      "predicate": "father",
+      "qualifiers": {
+        "source_term": "子质"
+      },
+      "evidence": [
+        {
+          "work_id": "w-sanguozhi",
+          "book_id": "b-sanguozhi-060",
+          "chapter_id": "c-sanguozhi-060-heqi",
+          "source_id": "s-sanguozhi-060-heqi",
+          "paragraph_id": "c-sanguozhi-060-heqi:line029-pei01-01",
+          "quote": "《会稽典录》曰：景为灭贼校尉，御众严而有恩，兵器精饰，为当时冠绝，早卒。达颇任气，多所犯迕，故虽有征战之劳，而爵位不至，然轻财贵义，胆烈过人。子质，位至虎牙将军。景子邵，别有传。",
+          "subject_person_mention_id": "c-sanguozhi-060-heqi:line029-pei01-01:m0072",
+          "object_person_mention_id": "c-sanguozhi-060-heqi:line029-pei01-01:m0036"
+        }
+      ],
+      "interpretation_note": "以此來源所述兩端為據。",
+      "status": "source_attested",
+      "reviewer": "Codex（AI 代理）",
+      "human_reviewed": false,
+      "model": null
+    }
+  ],
+  "age_assertions": [],
+  "life_events": [],
+  "life_event_date_decisions": [],
+  "selected_life_event_dates": []
+}

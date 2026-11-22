@@ -1,0 +1,89 @@
+{
+  "format_version": "0.2",
+  "record_type": "person_assertion_set",
+  "chapter_id": "c-chenshu-025-peiji-ancestry",
+  "assertions": [
+    {
+      "id": "a-liang028-ji-father",
+      "subject_person_id": "4kt_0ar_aqo_AABA",
+      "object_person_id": "4kt_0ar_aqo_AAB",
+      "predicate": "father",
+      "qualifiers": {
+        "source_term": "父之平",
+        "lineage": "paternal"
+      },
+      "evidence": [
+        {
+          "work_id": "w-chenshu",
+          "book_id": "b-chenshu-025",
+          "chapter_id": "c-chenshu-025-peiji-ancestry",
+          "source_id": "s-chenshu-025-peiji-ancestry-ws2063242",
+          "paragraph_id": "c-chenshu-025-peiji-ancestry:p001",
+          "quote": "裴忌字無畏，河東聞喜人也。祖髦，梁中散大夫。父之平，倜儻有志略，召補文德主帥。",
+          "subject_person_mention_id": "c-chenshu-025-peiji-ancestry:p001:m0000",
+          "object_person_mention_id": "c-chenshu-025-peiji-ancestry:p001:m0023"
+        }
+      ],
+      "status": "source_attested",
+      "interpretation_note": "陳書裴忌本傳具名其父。",
+      "reviewer": "Codex（AI代理）",
+      "model": null,
+      "human_reviewed": false
+    },
+    {
+      "id": "a-liang028-ji-grandfather",
+      "subject_person_id": "4kt_0ar_aqo_AABA",
+      "object_person_id": "4kt_0ar_aqo_AA",
+      "predicate": "grandfather",
+      "qualifiers": {
+        "source_term": "祖髦",
+        "lineage": "paternal"
+      },
+      "evidence": [
+        {
+          "work_id": "w-chenshu",
+          "book_id": "b-chenshu-025",
+          "chapter_id": "c-chenshu-025-peiji-ancestry",
+          "source_id": "s-chenshu-025-peiji-ancestry-ws2063242",
+          "paragraph_id": "c-chenshu-025-peiji-ancestry:p001",
+          "quote": "裴忌字無畏，河東聞喜人也。祖髦，梁中散大夫。父之平，倜儻有志略，召補文德主帥。",
+          "subject_person_mention_id": "c-chenshu-025-peiji-ancestry:p001:m0000",
+          "object_person_mention_id": "c-chenshu-025-peiji-ancestry:p001:m0014"
+        }
+      ],
+      "status": "source_attested",
+      "interpretation_note": "陳書以髦為裴忌之祖。",
+      "reviewer": "Codex（AI代理）",
+      "model": null,
+      "human_reviewed": false
+    },
+    {
+      "id": "a-liang028-zhiping-father",
+      "subject_person_id": "4kt_0ar_aqo_AAB",
+      "object_person_id": "4kt_0ar_aqo_AA",
+      "predicate": "father",
+      "qualifiers": {
+        "source_term": "祖髦，梁中散大夫。父之平",
+        "lineage": "paternal",
+        "interpretation_status": "editorial_inference"
+      },
+      "evidence": [
+        {
+          "work_id": "w-chenshu",
+          "book_id": "b-chenshu-025",
+          "chapter_id": "c-chenshu-025-peiji-ancestry",
+          "source_id": "s-chenshu-025-peiji-ancestry-ws2063242",
+          "paragraph_id": "c-chenshu-025-peiji-ancestry:p001",
+          "quote": "裴忌字無畏，河東聞喜人也。祖髦，梁中散大夫。父之平，倜儻有志略，召補文德主帥。",
+          "subject_person_mention_id": "c-chenshu-025-peiji-ancestry:p001:m0023",
+          "object_person_mention_id": "c-chenshu-025-peiji-ancestry:p001:m0014"
+        }
+      ],
+      "status": "source_attested",
+      "interpretation_note": "按裴忌本傳相連的祖、父兩代推得；梁書另記之平為髦子之高第五弟。",
+      "reviewer": "Codex（AI代理）",
+      "model": null,
+      "human_reviewed": false
+    }
+  ]
+}

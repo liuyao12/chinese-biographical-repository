@@ -1,0 +1,68 @@
+{
+  "format_version": "0.2",
+  "record_type": "person_assertion_set",
+  "chapter_id": "c-weishu-weishou-037-shufan-kin",
+  "assertions": [
+    {
+      "id": "a-song049-shufan-tanzhi",
+      "subject_person_id": "0f8_dc1_803_A",
+      "object_person_id": "0f8_dc1_803",
+      "predicate": "father",
+      "qualifiers": {
+        "source_term": "父曇之",
+        "lineage": "paternal"
+      },
+      "evidence": [
+        {
+          "work_id": "w-weishu-weishou",
+          "book_id": "b-weishu-weishou-037",
+          "chapter_id": "c-weishu-weishou-037-shufan-kin",
+          "source_id": "s-weishu-weishou-037-shufan-kin-ws1516110",
+          "paragraph_id": "c-weishu-weishou-037-shufan-kin:p001",
+          "quote": "司馬叔璠，晉安平獻王孚之後也。父曇之，司馬德宗河間王。桓玄、劉裕之際，叔璠與兄國璠北奔慕容超。",
+          "subject_person_mention_id": "c-weishu-weishou-037-shufan-kin:p001:m0000",
+          "object_person_mention_id": "c-weishu-weishou-037-shufan-kin:p001:m0016"
+        }
+      ],
+      "status": "source_attested",
+      "interpretation_note": "魏37明父，北29同。",
+      "reviewer": "Codex（AI代理）",
+      "model": null,
+      "human_reviewed": false
+    },
+    {
+      "id": "a-song049-shufan-guofan",
+      "subject_person_id": "0f8_dc1_803_A",
+      "object_person_id": "n7q_zlm_snw",
+      "predicate": "brother",
+      "qualifiers": {
+        "source_term": "叔璠與兄國璠",
+        "relative_birth_order": {
+          "older_person_id": "n7q_zlm_snw",
+          "younger_person_id": "0f8_dc1_803_A",
+          "operator": "lt",
+          "scope": "siblings",
+          "older_ordinal": null,
+          "younger_ordinal": null
+        }
+      },
+      "evidence": [
+        {
+          "work_id": "w-weishu-weishou",
+          "book_id": "b-weishu-weishou-037",
+          "chapter_id": "c-weishu-weishou-037-shufan-kin",
+          "source_id": "s-weishu-weishou-037-shufan-kin-ws1516110",
+          "paragraph_id": "c-weishu-weishou-037-shufan-kin:p001",
+          "quote": "司馬叔璠，晉安平獻王孚之後也。父曇之，司馬德宗河間王。桓玄、劉裕之際，叔璠與兄國璠北奔慕容超。",
+          "subject_person_mention_id": "c-weishu-weishou-037-shufan-kin:p001:m0000",
+          "object_person_mention_id": "c-weishu-weishou-037-shufan-kin:p001:m0039"
+        }
+      ],
+      "status": "source_attested",
+      "interpretation_note": "兄字定國璠較長。",
+      "reviewer": "Codex（AI代理）",
+      "model": null,
+      "human_reviewed": false
+    }
+  ]
+}

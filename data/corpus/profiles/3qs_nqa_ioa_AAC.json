@@ -349,6 +349,54 @@
       "period": "未定 → 未定"
     },
     {
+      "id": "th-songshu-049-kuaien-2-19",
+      "title": "振武將軍",
+      "kind": "office",
+      "mode": "attestation",
+      "person_id": "3qs_nqa_ioa_AAC",
+      "attestations": [
+        {
+          "id": "th-songshu-049-kuaien-2-19:a",
+          "paragraph_id": "c-songshu-049-kuaien:p002",
+          "start": 19,
+          "end": 23,
+          "surface": "振武將軍",
+          "person_mention_id": "c-songshu-049-kuaien:p002:m0023",
+          "usage": "narrative",
+          "date_expression": null
+        }
+      ],
+      "effective_period": {
+        "start": {
+          "status": "unknown",
+          "date_expression": null,
+          "evidence": []
+        },
+        "end": {
+          "status": "unknown",
+          "date_expression": null,
+          "evidence": []
+        }
+      },
+      "evidence": [
+        {
+          "work_id": "w-songshu",
+          "book_id": "b-songshu-049",
+          "chapter_id": "c-songshu-049-kuaien",
+          "source_id": "s-songshu-049-kuaien-ws2118585",
+          "paragraph_id": "c-songshu-049-kuaien:p002",
+          "quote": "從平京城，進定京邑，以寧遠將軍領幢。隨振武將軍道規西討，虜桓仙客，克偃月壘，遂平江陵。義熙二年，賊張堅據應城反，恩擊破之，封都鄉侯。從伐廣固，又有戰功。盧循逼京邑，恩戰于查浦，賊退走。與王仲德等追破循別將范崇民於南陵。循既走還廣州，恩又領千餘人隨劉藩追徐道覆於始興，斬之。遷龍驤將軍、蘭陵太守。",
+          "person_mention_id": "c-songshu-049-kuaien:p002:m0023"
+        }
+      ],
+      "status": "source_attested",
+      "interpretation_note": "所見原官稱，未載全任期。",
+      "reviewer": "Codex（AI代理）",
+      "model": null,
+      "human_reviewed": false,
+      "period": "未定 → 未定"
+    },
+    {
       "id": "th-wang-full-s-14-19",
       "person_id": "3qs_nqa_ioa_AAC",
       "title": "征西將軍",
@@ -786,6 +834,41 @@
       "book_id": "b-songshu-048",
       "chapter_id": "c-songshu-048-maoxiuzhi",
       "source_id": "s-songshu-048-maoxiuzhi-ws1791560",
+      "work_title": "宋書"
+    },
+    {
+      "number": 49,
+      "category": "",
+      "title": "蒯恩",
+      "paragraph_id": "c-songshu-049-kuaien:p002",
+      "count": 1,
+      "raw_count": 1,
+      "duplicate_count": 0,
+      "counting_policy": "independent_fixed_witness_occurrences",
+      "quote": "從平京城，進定京邑，以寧遠將軍領幢。隨振武將軍道規西討，虜桓仙客，克偃月壘，遂平江陵。義熙二年，賊張堅據應城反，恩擊破之，封都鄉侯。從伐廣固，又有戰功。盧循逼京邑，恩戰于查浦，賊退走。與王仲德等追破循別將范崇民於南陵。循既走還廣州，恩又領千餘人隨劉藩",
+      "paragraph_ids": [
+        "c-songshu-049-kuaien:p002"
+      ],
+      "mention_ids": [
+        "c-songshu-049-kuaien:p002:m0023"
+      ],
+      "mention_paragraph_ids": {
+        "c-songshu-049-kuaien:p002:m0023": "c-songshu-049-kuaien:p002"
+      },
+      "mention_id": "c-songshu-049-kuaien:p002:m0023",
+      "occurrence_groups": [
+        {
+          "canonical_mention_id": "c-songshu-049-kuaien:p002:m0023",
+          "mention_ids": [
+            "c-songshu-049-kuaien:p002:m0023"
+          ],
+          "kind": "paragraph"
+        }
+      ],
+      "work_id": "w-songshu",
+      "book_id": "b-songshu-049",
+      "chapter_id": "c-songshu-049-kuaien",
+      "source_id": "s-songshu-049-kuaien-ws2118585",
       "work_title": "宋書"
     },
     {
@@ -1589,6 +1672,29 @@
         "text_scope": "complete_biography_unit",
         "raw_path": "source-evidence/song046-zhang-complete/external/song048-ws1791560.wikitext",
         "raw_file_sha256": "0b275f284af779a0c075ee4741b527fb1dd4a5921c3d3f3ea167939e0e50a916"
+      }
+    },
+    {
+      "chapter_id": "c-songshu-049-kuaien",
+      "work_id": "w-songshu",
+      "book_id": "b-songshu-049",
+      "source_id": "s-songshu-049-kuaien-ws2118585",
+      "source": {
+        "title": "蒯恩",
+        "provider": "Wikisource",
+        "permalink": "https://zh.wikisource.org/w/index.php?oldid=2118585",
+        "url": "https://zh.wikisource.org/w/index.php?oldid=2118585",
+        "revision_id": 2118585,
+        "edition": "維基文庫固定修訂",
+        "accessed_on": "2026-11-21",
+        "review_status": "text_checked",
+        "image_verified": false,
+        "rights": "古代原文；數位轉錄依維基文庫授權。",
+        "license_url": "https://creativecommons.org/licenses/by-sa/4.0/",
+        "extent": "蒯恩",
+        "text_scope": "complete_biography_unit",
+        "raw_path": "sources/songshu/songshu049-ws2118585.wikitext",
+        "raw_file_sha256": "eed9933668a66e9e119824479715aab40364c8a7ac72a020f65ee759b1bb0646"
       }
     },
     {

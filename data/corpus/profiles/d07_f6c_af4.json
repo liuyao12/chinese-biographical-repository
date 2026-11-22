@@ -6,9 +6,59 @@
   "identity_note": "限固定《晉書》039荀顗本傳具名/稱號；未據熟知補本名、母、生卒或官爵年。嗣及從孫/甥不作生父。",
   "review": "ai_provisional",
   "names": [
-    "文欽"
+    "文欽",
+    "欽"
   ],
-  "titles": [],
+  "titles": [
+    {
+      "id": "t-wu056-t-wu056-zhuyi6",
+      "person_id": "d07_f6c_af4",
+      "kind": "office",
+      "title": "廬江太守",
+      "mode": "attestation",
+      "status": "source_attested",
+      "effective_period": {
+        "start": {
+          "status": "unknown",
+          "date_expression": null,
+          "evidence": []
+        },
+        "end": {
+          "status": "unknown",
+          "date_expression": null,
+          "evidence": []
+        }
+      },
+      "interpretation_note": "本句所載職官，任免時間未詳。",
+      "evidence": [
+        {
+          "work_id": "w-sanguozhi",
+          "book_id": "b-sanguozhi-056",
+          "chapter_id": "c-sanguozhi-056-zhuyi",
+          "source_id": "s-sanguozhi-056-zhuyi",
+          "paragraph_id": "c-sanguozhi-056-zhuyi:line072",
+          "quote": "　　異字季文，以父任除郎，後拜騎都尉，代桓領兵，赤烏四年，隨朱然攻魏樊城，建計破其外圍，還拜偏將軍。魏廬江太守文欽營住六安，多設屯寨，置諸道要，以招誘亡叛，為邊寇害。異乃身率其手下二千人，掩破欽七屯，斬首數百，遷揚武將軍。權與論攻戰，辭對稱意。權謂異從父驃騎將軍據曰：「本知季文膽定，見之復過所聞。」十三年，文欽詐降，密書與異，欲令自迎。異表呈欽書，因陳其偽，不可便迎。權詔曰：「方今北土未一，欽云欲歸命，宜且迎之。若嫌其有譎者，但當設計網以羅之，盛重兵以防之耳。」乃遣呂據督二萬人，與異並力，至北界，欽果不降。建興元年，遷鎮南將軍。是歲魏遣胡遵、譜葛誕等出東興，異督水軍攻浮梁，壞之，魏軍大破。太平二年，假節，為大都督，救壽春圍，不解。還軍，為孫綝所枉害。",
+          "person_mention_id": "c-sanguozhi-056-zhuyi:line072:m0055"
+        }
+      ],
+      "attestations": [
+        {
+          "id": "t-wu056-t-wu056-zhuyi6:a",
+          "paragraph_id": "c-sanguozhi-056-zhuyi:line072",
+          "person_mention_id": "c-sanguozhi-056-zhuyi:line072:m0055",
+          "start": 51,
+          "end": 55,
+          "surface": "廬江太守",
+          "usage": "narrative",
+          "date_expression": null
+        }
+      ],
+      "human_reviewed": false,
+      "reviewer": "Codex（AI 代理）",
+      "model": null,
+      "period": "未定 → 未定"
+    }
+  ],
   "addresses": [],
   "occurrences": [
     {
@@ -193,6 +243,121 @@
       "book_id": "b-sanguozhi-055",
       "chapter_id": "c-sanguozhi-055-dingfeng",
       "source_id": "s-sanguozhi-055-dingfeng",
+      "work_title": "三國志"
+    },
+    {
+      "number": 56,
+      "category": "",
+      "title": "子 據傳",
+      "paragraph_id": "c-sanguozhi-056-lvju:line056",
+      "count": 1,
+      "raw_count": 1,
+      "duplicate_count": 0,
+      "counting_policy": "independent_fixed_witness_occurrences",
+      "quote": "聞孫峻死，以從弟綝自代，據大怒，引軍還，欲廢綝。綝聞之，使中書奉詔，詔文欽、劉纂，唐咨等使取據，又遣從兄慮以都下兵逆據於江都。左右勸據降魏，據曰：「恥為叛臣。」遂自殺。夷三族。",
+      "paragraph_ids": [
+        "c-sanguozhi-056-lvju:line056"
+      ],
+      "mention_ids": [
+        "c-sanguozhi-056-lvju:line056:m0281"
+      ],
+      "mention_paragraph_ids": {
+        "c-sanguozhi-056-lvju:line056:m0281": "c-sanguozhi-056-lvju:line056"
+      },
+      "mention_id": "c-sanguozhi-056-lvju:line056:m0281",
+      "occurrence_groups": [
+        {
+          "canonical_mention_id": "c-sanguozhi-056-lvju:line056:m0281",
+          "mention_ids": [
+            "c-sanguozhi-056-lvju:line056:m0281"
+          ],
+          "kind": "paragraph"
+        }
+      ],
+      "work_id": "w-sanguozhi",
+      "book_id": "b-sanguozhi-056",
+      "chapter_id": "c-sanguozhi-056-lvju",
+      "source_id": "s-sanguozhi-056-lvju",
+      "work_title": "三國志"
+    },
+    {
+      "number": 56,
+      "category": "",
+      "title": "子 異傳",
+      "paragraph_id": "c-sanguozhi-056-zhuyi:line072",
+      "count": 6,
+      "raw_count": 6,
+      "duplicate_count": 0,
+      "counting_policy": "independent_fixed_witness_occurrences",
+      "quote": "桓領兵，赤烏四年，隨朱然攻魏樊城，建計破其外圍，還拜偏將軍。魏廬江太守文欽營住六安，多設屯寨，置諸道要，以招誘亡叛，為邊寇害。異乃身率其手下二千人，掩破欽七屯，斬首數百，遷揚武將軍。權與論攻戰，辭對稱意。權謂異從父驃騎將軍據曰：「本知季文膽定，見之復過所聞。」十三年，文欽詐",
+      "paragraph_ids": [
+        "c-sanguozhi-056-zhuyi:line072"
+      ],
+      "mention_ids": [
+        "c-sanguozhi-056-zhuyi:line072:m0055",
+        "c-sanguozhi-056-zhuyi:line072:m0096",
+        "c-sanguozhi-056-zhuyi:line072:m0154",
+        "c-sanguozhi-056-zhuyi:line072:m0172",
+        "c-sanguozhi-056-zhuyi:line072:m0197",
+        "c-sanguozhi-056-zhuyi:line072:m0251"
+      ],
+      "mention_paragraph_ids": {
+        "c-sanguozhi-056-zhuyi:line072:m0055": "c-sanguozhi-056-zhuyi:line072",
+        "c-sanguozhi-056-zhuyi:line072:m0096": "c-sanguozhi-056-zhuyi:line072",
+        "c-sanguozhi-056-zhuyi:line072:m0154": "c-sanguozhi-056-zhuyi:line072",
+        "c-sanguozhi-056-zhuyi:line072:m0172": "c-sanguozhi-056-zhuyi:line072",
+        "c-sanguozhi-056-zhuyi:line072:m0197": "c-sanguozhi-056-zhuyi:line072",
+        "c-sanguozhi-056-zhuyi:line072:m0251": "c-sanguozhi-056-zhuyi:line072"
+      },
+      "mention_id": "c-sanguozhi-056-zhuyi:line072:m0055",
+      "occurrence_groups": [
+        {
+          "canonical_mention_id": "c-sanguozhi-056-zhuyi:line072:m0055",
+          "mention_ids": [
+            "c-sanguozhi-056-zhuyi:line072:m0055"
+          ],
+          "kind": "paragraph"
+        },
+        {
+          "canonical_mention_id": "c-sanguozhi-056-zhuyi:line072:m0096",
+          "mention_ids": [
+            "c-sanguozhi-056-zhuyi:line072:m0096"
+          ],
+          "kind": "paragraph"
+        },
+        {
+          "canonical_mention_id": "c-sanguozhi-056-zhuyi:line072:m0154",
+          "mention_ids": [
+            "c-sanguozhi-056-zhuyi:line072:m0154"
+          ],
+          "kind": "paragraph"
+        },
+        {
+          "canonical_mention_id": "c-sanguozhi-056-zhuyi:line072:m0172",
+          "mention_ids": [
+            "c-sanguozhi-056-zhuyi:line072:m0172"
+          ],
+          "kind": "paragraph"
+        },
+        {
+          "canonical_mention_id": "c-sanguozhi-056-zhuyi:line072:m0197",
+          "mention_ids": [
+            "c-sanguozhi-056-zhuyi:line072:m0197"
+          ],
+          "kind": "paragraph"
+        },
+        {
+          "canonical_mention_id": "c-sanguozhi-056-zhuyi:line072:m0251",
+          "mention_ids": [
+            "c-sanguozhi-056-zhuyi:line072:m0251"
+          ],
+          "kind": "paragraph"
+        }
+      ],
+      "work_id": "w-sanguozhi",
+      "book_id": "b-sanguozhi-056",
+      "chapter_id": "c-sanguozhi-056-zhuyi",
+      "source_id": "s-sanguozhi-056-zhuyi",
       "work_title": "三國志"
     }
   ],
@@ -12164,6 +12329,62 @@
         "wikitext_sha256": "af14d36115960881146ec95d5fdf1087db58e28d3ea95541bb050a8d63778f2e",
         "collation_witnesses": [
           "source-evidence/sanguozhi055-dingfeng/reading.json"
+        ]
+      }
+    },
+    {
+      "chapter_id": "c-sanguozhi-056-lvju",
+      "work_id": "w-sanguozhi",
+      "book_id": "b-sanguozhi-056",
+      "source_id": "s-sanguozhi-056-lvju",
+      "source": {
+        "title": "三國志卷五十六·吳書十一",
+        "provider": "Wikisource",
+        "url": "https://zh.wikisource.org/w/index.php?oldid=12760859",
+        "permalink": "https://zh.wikisource.org/w/index.php?oldid=12760859",
+        "revision_id": 12760859,
+        "accessed_on": "2026-11-21",
+        "edition": "維基文庫固定修訂，裴注與正文分層。",
+        "extent": "第56至56行。",
+        "text_scope": "partial_chapter",
+        "review_status": "text_checked",
+        "image_verified": false,
+        "rights": "古籍原文，維基文庫轉錄。",
+        "license_url": "https://creativecommons.org/licenses/by-sa/4.0/",
+        "raw_path": "source-evidence/sanguozhi056-zhu-lv/sanguozhi056-ws12760859.wikitext",
+        "raw_file_sha256": "be8191ed695754812c1c3a717b335f08d1af2834fb4fd965c267942c6f747549",
+        "wikitext_sha256": "be8191ed695754812c1c3a717b335f08d1af2834fb4fd965c267942c6f747549",
+        "original_parent_heading": "呂範",
+        "collation_witnesses": [
+          "source-evidence/sanguozhi056-lvju/reading.json"
+        ]
+      }
+    },
+    {
+      "chapter_id": "c-sanguozhi-056-zhuyi",
+      "work_id": "w-sanguozhi",
+      "book_id": "b-sanguozhi-056",
+      "source_id": "s-sanguozhi-056-zhuyi",
+      "source": {
+        "title": "三國志卷五十六·吳書十一",
+        "provider": "Wikisource",
+        "url": "https://zh.wikisource.org/w/index.php?oldid=12760859",
+        "permalink": "https://zh.wikisource.org/w/index.php?oldid=12760859",
+        "revision_id": 12760859,
+        "accessed_on": "2026-11-21",
+        "edition": "維基文庫固定修訂，裴注與正文分層。",
+        "extent": "第72至72行。",
+        "text_scope": "partial_chapter",
+        "review_status": "text_checked",
+        "image_verified": false,
+        "rights": "古籍原文，維基文庫轉錄。",
+        "license_url": "https://creativecommons.org/licenses/by-sa/4.0/",
+        "raw_path": "source-evidence/sanguozhi056-zhu-lv/sanguozhi056-ws12760859.wikitext",
+        "raw_file_sha256": "be8191ed695754812c1c3a717b335f08d1af2834fb4fd965c267942c6f747549",
+        "wikitext_sha256": "be8191ed695754812c1c3a717b335f08d1af2834fb4fd965c267942c6f747549",
+        "original_parent_heading": "朱桓",
+        "collation_witnesses": [
+          "source-evidence/sanguozhi056-zhuyi/reading.json"
         ]
       }
     }

@@ -8,7 +8,8 @@
   "names": [
     "張敦",
     "敦",
-    "叔方"
+    "叔方",
+    "張惇"
   ],
   "titles": [
     {
@@ -222,6 +223,41 @@
       "work_title": "三國志"
     },
     {
+      "number": 56,
+      "category": "",
+      "title": "子 異傳",
+      "paragraph_id": "c-sanguozhi-056-zhuyi:line072-pei01-01",
+      "count": 1,
+      "raw_count": 1,
+      "duplicate_count": 0,
+      "counting_policy": "independent_fixed_witness_occurrences",
+      "quote": "《文士傳》曰：張惇子純與張儼及異俱童少，往見驃騎將軍朱據。據聞三人才名，欲試之，告曰：「老鄙相聞，饑渴甚矣。夫騕褭以迅驟為功，鷹隼以輕疾為妙，其為吾各賦一物，然後乃坐。」儼乃賦犬曰：「守則有威，出則有獲，韓盧、宋鵲，書",
+      "paragraph_ids": [
+        "c-sanguozhi-056-zhuyi:line072-pei01-01"
+      ],
+      "mention_ids": [
+        "c-sanguozhi-056-zhuyi:line072-pei01-01:m0007"
+      ],
+      "mention_paragraph_ids": {
+        "c-sanguozhi-056-zhuyi:line072-pei01-01:m0007": "c-sanguozhi-056-zhuyi:line072-pei01-01"
+      },
+      "mention_id": "c-sanguozhi-056-zhuyi:line072-pei01-01:m0007",
+      "occurrence_groups": [
+        {
+          "canonical_mention_id": "c-sanguozhi-056-zhuyi:line072-pei01-01:m0007",
+          "mention_ids": [
+            "c-sanguozhi-056-zhuyi:line072-pei01-01:m0007"
+          ],
+          "kind": "paragraph"
+        }
+      ],
+      "work_id": "w-sanguozhi",
+      "book_id": "b-sanguozhi-056",
+      "chapter_id": "c-sanguozhi-056-zhuyi",
+      "source_id": "s-sanguozhi-056-zhuyi",
+      "work_title": "三國志"
+    },
+    {
       "number": 59,
       "category": "",
       "title": "孫和傳",
@@ -288,6 +324,34 @@
       }
     },
     {
+      "chapter_id": "c-sanguozhi-056-zhuyi",
+      "work_id": "w-sanguozhi",
+      "book_id": "b-sanguozhi-056",
+      "source_id": "s-sanguozhi-056-zhuyi",
+      "source": {
+        "title": "三國志卷五十六·吳書十一",
+        "provider": "Wikisource",
+        "url": "https://zh.wikisource.org/w/index.php?oldid=12760859",
+        "permalink": "https://zh.wikisource.org/w/index.php?oldid=12760859",
+        "revision_id": 12760859,
+        "accessed_on": "2026-11-21",
+        "edition": "維基文庫固定修訂，裴注與正文分層。",
+        "extent": "第72至72行。",
+        "text_scope": "partial_chapter",
+        "review_status": "text_checked",
+        "image_verified": false,
+        "rights": "古籍原文，維基文庫轉錄。",
+        "license_url": "https://creativecommons.org/licenses/by-sa/4.0/",
+        "raw_path": "source-evidence/sanguozhi056-zhu-lv/sanguozhi056-ws12760859.wikitext",
+        "raw_file_sha256": "be8191ed695754812c1c3a717b335f08d1af2834fb4fd965c267942c6f747549",
+        "wikitext_sha256": "be8191ed695754812c1c3a717b335f08d1af2834fb4fd965c267942c6f747549",
+        "original_parent_heading": "朱桓",
+        "collation_witnesses": [
+          "source-evidence/sanguozhi056-zhuyi/reading.json"
+        ]
+      }
+    },
+    {
       "chapter_id": "c-sanguozhi-059-he",
       "work_id": "w-sanguozhi",
       "book_id": "b-sanguozhi-059",
@@ -316,6 +380,32 @@
     }
   ],
   "relations": [
+    {
+      "id": "a-wu056-zhuyi-1",
+      "subject_person_id": "16y_k92_fmm_A",
+      "object_person_id": "16y_k92_fmm",
+      "predicate": "father",
+      "qualifiers": {
+        "source_term": "張惇子純"
+      },
+      "evidence": [
+        {
+          "work_id": "w-sanguozhi",
+          "book_id": "b-sanguozhi-056",
+          "chapter_id": "c-sanguozhi-056-zhuyi",
+          "source_id": "s-sanguozhi-056-zhuyi",
+          "paragraph_id": "c-sanguozhi-056-zhuyi:line072-pei01-01",
+          "quote": "《文士傳》曰：張惇子純與張儼及異俱童少，往見驃騎將軍朱據。據聞三人才名，欲試之，告曰：「老鄙相聞，饑渴甚矣。夫騕褭以迅驟為功，鷹隼以輕疾為妙，其為吾各賦一物，然後乃坐。」儼乃賦犬曰：「守則有威，出則有獲，韓盧、宋鵲，書名竹帛。」純賦席曰：「席以冬設，簟為夏施，揖讓而坐，君子攸宜。」異賦弩曰：「南嶽之幹，鍾山之銅，應機命中，獲隼高墉。」三人各隨其目所見而賦之，皆成而後坐，據大歡悅。",
+          "subject_person_mention_id": "c-sanguozhi-056-zhuyi:line072-pei01-01:m0010",
+          "object_person_mention_id": "c-sanguozhi-056-zhuyi:line072-pei01-01:m0007"
+        }
+      ],
+      "interpretation_note": "以此來源所述兩端為據。",
+      "status": "source_attested",
+      "reviewer": "Codex（AI 代理）",
+      "human_reviewed": false,
+      "model": null
+    },
     {
       "id": "a-wu059-he-2",
       "subject_person_id": "16y_k92_fmm_A",
@@ -371,6 +461,32 @@
     "16y_k92_fmm"
   ],
   "preferred_relations": [
+    {
+      "id": "a-wu056-zhuyi-1",
+      "subject_person_id": "16y_k92_fmm_A",
+      "object_person_id": "16y_k92_fmm",
+      "predicate": "father",
+      "qualifiers": {
+        "source_term": "張惇子純"
+      },
+      "evidence": [
+        {
+          "work_id": "w-sanguozhi",
+          "book_id": "b-sanguozhi-056",
+          "chapter_id": "c-sanguozhi-056-zhuyi",
+          "source_id": "s-sanguozhi-056-zhuyi",
+          "paragraph_id": "c-sanguozhi-056-zhuyi:line072-pei01-01",
+          "quote": "《文士傳》曰：張惇子純與張儼及異俱童少，往見驃騎將軍朱據。據聞三人才名，欲試之，告曰：「老鄙相聞，饑渴甚矣。夫騕褭以迅驟為功，鷹隼以輕疾為妙，其為吾各賦一物，然後乃坐。」儼乃賦犬曰：「守則有威，出則有獲，韓盧、宋鵲，書名竹帛。」純賦席曰：「席以冬設，簟為夏施，揖讓而坐，君子攸宜。」異賦弩曰：「南嶽之幹，鍾山之銅，應機命中，獲隼高墉。」三人各隨其目所見而賦之，皆成而後坐，據大歡悅。",
+          "subject_person_mention_id": "c-sanguozhi-056-zhuyi:line072-pei01-01:m0010",
+          "object_person_mention_id": "c-sanguozhi-056-zhuyi:line072-pei01-01:m0007"
+        }
+      ],
+      "interpretation_note": "以此來源所述兩端為據。",
+      "status": "source_attested",
+      "reviewer": "Codex（AI 代理）",
+      "human_reviewed": false,
+      "model": null
+    },
     {
       "id": "a-wu059-he-2",
       "subject_person_id": "16y_k92_fmm_A",

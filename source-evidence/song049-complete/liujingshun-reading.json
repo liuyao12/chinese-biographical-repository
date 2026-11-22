@@ -1,0 +1,103 @@
+{
+  "record_type": "fixed_source_complete_item_review",
+  "reviewer": "Codex（AI代理）",
+  "model": null,
+  "human_reviewed": false,
+  "external_witnesses": [
+    {
+      "revision_id": 2118585,
+      "raw_path": "sources/songshu/songshu049-ws2118585.wikitext",
+      "line": 36,
+      "start": 125,
+      "end": 142,
+      "source_quote": "減戶以賜次子敬順高昌縣男，食邑百戶",
+      "raw_sha256": "eed9933668a66e9e119824479715aab40364c8a7ac72a020f65ee759b1bb0646",
+      "interpretation": "此封出自父平蜀功。"
+    }
+  ],
+  "print_readings": [
+    {
+      "url": "https://upload.wikimedia.org/wikipedia/commons/7/75/NLC892-411999017142-12779_%E4%BA%8C%E5%8D%81%E5%9B%9B%E5%8F%B2_%E7%AC%AC144%E5%86%8A.pdf#page=91",
+      "catalog_record": "https://commons.wikimedia.org/wiki/File:NLC892-411999017142-12779_%E4%BA%8C%E5%8D%81%E5%9B%9B%E5%8F%B2_%E7%AC%AC144%E5%86%8A.pdf",
+      "pdf_sha1": "126c34411892f6943a575a15ee46fb0064bd5b7b",
+      "pdf_sha256": "316229a8587d188289a7fa2dac393760437ca7facf5deb7a3bfa09770b4a1ac3",
+      "image_sha256": "a8b034dec4a7c0f12f639b8aa355e14ff037a10e23bb3800afcf677cc592fd95",
+      "edition": "清乾隆武英殿本《宋書》，國圖第144冊。",
+      "page": 91,
+      "half": "L",
+      "folio": "六上",
+      "columns_from_right": "7–9",
+      "source_quote": "子敬義嗣敬義官至馬頭太守卒子國重嗣齊受禪國除鍾次子高昌男敬順卒子國須嗣須卒無子國除",
+      "reading": "兩路封爵各有末嗣與國除。"
+    }
+  ],
+  "boundaries": [
+    {
+      "book_id": "b-songshu-049",
+      "title": "劉敬順",
+      "unit_kind": "embedded_account",
+      "chapter_id": "c-songshu-049-liujingshun",
+      "entry_checked": true,
+      "full_text": true,
+      "first_pass": true,
+      "item_reviewed": true,
+      "source_layout": "wikisource_mixed_indented_prose",
+      "first_line": 38,
+      "last_line": 38,
+      "start_codepoint": 28,
+      "end_codepoint": 39,
+      "opening": "鍾次子高昌男敬順，卒，",
+      "closing": "鍾次子高昌男敬順，卒，",
+      "parent_heading": "劉鍾",
+      "chapter_path": "corpus/songshu/049-liujingshun.json",
+      "paragraph_ids": [
+        "c-songshu-049-liujingshun:p001"
+      ],
+      "item_review_path": "source-evidence/song049-complete/liujingshun-reading.json"
+    }
+  ],
+  "chronology": [],
+  "readings": [
+    {
+      "id": "c-songshu-049-liujingshun:received_sentence1-0",
+      "kind": "received_sentence",
+      "person_id": "vcd_ee3_q63_B",
+      "source_quote": "鍾次子高昌男敬順，卒，",
+      "reading": "鍾次子高昌男敬順卒。",
+      "note": "鍾次子高昌男敬順卒。",
+      "paragraph_id": "c-songshu-049-liujingshun:p001",
+      "start_codepoint": 0,
+      "end_codepoint": 11,
+      "human_reviewed": false
+    },
+    {
+      "id": "c-songshu-049-liujingshun:succession_record1-1",
+      "kind": "succession_record",
+      "person_id": "vcd_ee3_q63_B",
+      "source_quote": "次子",
+      "reading": "因父平蜀之功別封高昌縣男、食邑百戶，與敬義所承永新別支。",
+      "note": "因父平蜀之功別封高昌縣男、食邑百戶，與敬義所承永新別支。",
+      "paragraph_id": "c-songshu-049-liujingshun:p001",
+      "start_codepoint": 1,
+      "end_codepoint": 3,
+      "human_reviewed": false,
+      "source_role": "敬順"
+    },
+    {
+      "id": "c-songshu-049-liujingshun:paternal_order1-1",
+      "kind": "paternal_order",
+      "person_id": "vcd_ee3_q63_B",
+      "source_quote": "次子",
+      "reading": "劉鍾明載次子。",
+      "note": "劉鍾明載次子。",
+      "paragraph_id": "c-songshu-049-liujingshun:p001",
+      "start_codepoint": 1,
+      "end_codepoint": 3,
+      "human_reviewed": false,
+      "father": "vcd_ee3_q63",
+      "son": "vcd_ee3_q63_B",
+      "ordinal": 2
+    }
+  ],
+  "identity_limits": []
+}

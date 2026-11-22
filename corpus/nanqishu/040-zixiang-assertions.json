@@ -1,0 +1,83 @@
+{
+  "format_version": "0.2",
+  "record_type": "person_assertion_set",
+  "chapter_id": "c-nanqishu-040-zixiang",
+  "assertions": [
+    {
+      "id": "a-nanqi040-zixiang-m-father",
+      "subject_person_id": "kix_r92_2ed_G",
+      "object_person_id": "kix_r92_2ed",
+      "predicate": "father",
+      "qualifiers": {
+        "source_term": "世祖第四子",
+        "nanqi040_zixiang_reading": "m-father",
+        "lineage": "paternal",
+        "birth_order": {
+          "source_term": "第四子",
+          "source_number": "四",
+          "ordinal": 4,
+          "position": "unspecified",
+          "scope": "sons_of_parent",
+          "parent_person_id": "kix_r92_2ed",
+          "interpretation_status": "source_attested"
+        }
+      },
+      "evidence": [
+        {
+          "work_id": "w-nanqishu",
+          "book_id": "b-nanqishu-040",
+          "source_id": "s-nanqishu-040-zixiang-ws2272748",
+          "chapter_id": "c-nanqishu-040-zixiang",
+          "paragraph_id": "c-nanqishu-040-zixiang:p001",
+          "quote": "魚復侯子響字雲音，世祖第四子也。豫章王嶷無子，養子響，後有子，表留爲嫡。世祖卽位，爲輔國將軍、南彭城臨淮二郡太守，見諸王不致敬。子響勇力絕人，關弓四斛力，數在園池中帖騎馳走竹樹下，身無虧傷。旣出繼，車服異諸王，每入朝，輙忿怒，拳打車壁。世祖知之，令車服與皇子同。",
+          "subject_person_mention_id": "c-nanqishu-040-zixiang:p001:m0003",
+          "object_person_reference_id": "c-nanqishu-040-zixiang:p001:r0009",
+          "relationship_anchor": {
+            "paragraph_id": "c-nanqishu-040-zixiang:p001",
+            "surface": "世祖第四子",
+            "start": 9,
+            "end": 14
+          }
+        }
+      ],
+      "status": "source_attested",
+      "interpretation_note": "本生為齊武帝子，後出繼、還本各按文。",
+      "reviewer": "Codex（AI 代理）",
+      "human_reviewed": false,
+      "model": null
+    },
+    {
+      "id": "a-nanqi040-zixiang-m-adoption",
+      "subject_person_id": "kix_r92_2ed_G",
+      "object_person_id": "ijh_3fs_6u2",
+      "predicate": "adoptive_father",
+      "qualifiers": {
+        "source_term": "養子響，後有子，表留爲嫡",
+        "nanqi040_zixiang_reading": "m-adoption"
+      },
+      "evidence": [
+        {
+          "work_id": "w-nanqishu",
+          "book_id": "b-nanqishu-040",
+          "source_id": "s-nanqishu-040-zixiang-ws2272748",
+          "chapter_id": "c-nanqishu-040-zixiang",
+          "paragraph_id": "c-nanqishu-040-zixiang:p001",
+          "quote": "魚復侯子響字雲音，世祖第四子也。豫章王嶷無子，養子響，後有子，表留爲嫡。世祖卽位，爲輔國將軍、南彭城臨淮二郡太守，見諸王不致敬。子響勇力絕人，關弓四斛力，數在園池中帖騎馳走竹樹下，身無虧傷。旣出繼，車服異諸王，每入朝，輙忿怒，拳打車壁。世祖知之，令車服與皇子同。",
+          "subject_person_mention_id": "c-nanqishu-040-zixiang:p001:m0024",
+          "object_person_mention_id": "c-nanqishu-040-zixiang:p001:m0016",
+          "relationship_anchor": {
+            "paragraph_id": "c-nanqishu-040-zixiang:p001",
+            "surface": "養子響，後有子，表留爲嫡",
+            "start": 23,
+            "end": 35
+          }
+        }
+      ],
+      "status": "source_attested",
+      "interpretation_note": "嶷初無子養之，後有子仍請留爲嫡；六年還本。",
+      "reviewer": "Codex（AI 代理）",
+      "human_reviewed": false,
+      "model": null
+    }
+  ]
+}
