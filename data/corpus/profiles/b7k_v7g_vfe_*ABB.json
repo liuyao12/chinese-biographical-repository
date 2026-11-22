@@ -1,0 +1,200 @@
+{
+  "schema_version": 1,
+  "id": "b7k_v7g_vfe_*ABB",
+  "canonical_person_id": "b7k_v7g_vfe_*ABB",
+  "label": "杜弘猷（杜弘文弟）",
+  "identity_note": "杜弘猷（杜弘文弟），見本組原文及身份互校。",
+  "review": "ai_provisional",
+  "names": [
+    "弘猷"
+  ],
+  "titles": [],
+  "addresses": [],
+  "occurrences": [
+    {
+      "number": 92,
+      "category": "",
+      "title": "杜弘文",
+      "paragraph_id": "c-songshu-092-duhongwen:p001",
+      "count": 1,
+      "raw_count": 1,
+      "duplicate_count": 0,
+      "counting_policy": "independent_fixed_witness_occurrences",
+      "quote": "母既年老，見弘文輿疾就路，不忍分別，相與俱行。到廣州，遂卒。臨死，遣弟弘猷詣京，朝廷甚哀之。",
+      "paragraph_ids": [
+        "c-songshu-092-duhongwen:p001"
+      ],
+      "mention_ids": [
+        "c-songshu-092-duhongwen:p001:m0238"
+      ],
+      "mention_paragraph_ids": {
+        "c-songshu-092-duhongwen:p001:m0238": "c-songshu-092-duhongwen:p001"
+      },
+      "mention_id": "c-songshu-092-duhongwen:p001:m0238",
+      "occurrence_groups": [
+        {
+          "canonical_mention_id": "c-songshu-092-duhongwen:p001:m0238",
+          "mention_ids": [
+            "c-songshu-092-duhongwen:p001:m0238"
+          ],
+          "kind": "paragraph"
+        }
+      ],
+      "work_id": "w-songshu",
+      "book_id": "b-songshu-092",
+      "chapter_id": "c-songshu-092-duhongwen",
+      "source_id": "s-songshu-092-duhongwen-ws2195614",
+      "work_title": "宋書"
+    }
+  ],
+  "table_occurrences": [],
+  "sources": [
+    {
+      "chapter_id": "c-songshu-092-duhongwen",
+      "work_id": "w-songshu",
+      "book_id": "b-songshu-092",
+      "source_id": "s-songshu-092-duhongwen-ws2195614",
+      "source": {
+        "title": "杜弘文",
+        "provider": "Wikisource",
+        "permalink": "https://zh.wikisource.org/w/index.php?oldid=2195614",
+        "url": "https://zh.wikisource.org/w/index.php?oldid=2195614",
+        "revision_id": 2195614,
+        "edition": "維基文庫固定修訂",
+        "accessed_on": "2026-11-21",
+        "review_status": "text_checked",
+        "image_verified": false,
+        "rights": "古代原文；數位轉錄依維基文庫授權。",
+        "license_url": "https://creativecommons.org/licenses/by-sa/4.0/",
+        "extent": "杜弘文",
+        "text_scope": "complete_biography_unit",
+        "raw_path": "sources/songshu/songshu092-ws2195614.wikitext",
+        "raw_file_sha256": "88da739ec68f6114fdca1344b9d5b1e8e49b9cbd0cc7d07506aed3b2a5c4ec8e"
+      }
+    }
+  ],
+  "relations": [
+    {
+      "id": "a-song092-duhongyou-brother",
+      "subject_person_id": "b7k_v7g_vfe_*ABB",
+      "object_person_id": "b7k_v7g_vfe_*ABA",
+      "predicate": "brother",
+      "qualifiers": {
+        "source_term": "遣弟弘猷",
+        "reading_basis": {
+          "kind": "song092_prose_kin",
+          "unit": "duhongwen"
+        },
+        "relative_age": "younger"
+      },
+      "evidence": [
+        {
+          "work_id": "w-songshu",
+          "book_id": "b-songshu-092",
+          "chapter_id": "c-songshu-092-duhongwen",
+          "source_id": "s-songshu-092-duhongwen-ws2195614",
+          "paragraph_id": "c-songshu-092-duhongwen:p001",
+          "quote": "以慧度長子員外散騎侍郎弘文為振威將軍、刺史。初，高祖北征關、洛，慧度板弘文為鷹揚將軍，流民督護，配兵三千，北係大軍。行至廣州，關、洛已平，乃歸。統府板弘文行九真太守。及繼父為刺史，亦以寬和得眾，襲爵龍編侯。太祖元嘉四年，以廷尉王徽為交州刺史，弘文就徵。會得重疾，牽以就路，親舊見其患篤，勸表待病瘉，弘文曰：「吾世荷皇恩，杖節三世，常欲投軀帝庭，以報所荷。況親被徵命，而可宴然者乎，如其顛沛，此乃命也。」弘文母既年老，見弘文輿疾就路，不忍分別，相與俱行。到廣州，遂卒。臨死，遣弟弘猷詣京，朝廷甚哀之。",
+          "subject_person_mention_id": "c-songshu-092-duhongwen:p001:m0238",
+          "object_person_mention_id": "c-songshu-092-duhongwen:p001:m0209"
+        }
+      ],
+      "status": "source_attested",
+      "interpretation_note": "弘文臨死遣其弟，非慧度弟。",
+      "reviewer": "Codex（AI代理）",
+      "model": null,
+      "human_reviewed": false
+    }
+  ],
+  "related_people": {
+    "b7k_v7g_vfe_*ABA": "杜弘文（杜慧度長子）",
+    "b7k_v7g_vfe_*ABB": "杜弘猷（杜弘文弟）"
+  },
+  "dates": [],
+  "name_components": [],
+  "person_ids": [
+    "b7k_v7g_vfe_*ABB"
+  ],
+  "inferred_parent_paths": [
+    {
+      "connection": "father",
+      "generation_distance": 1,
+      "parent_person_id": "b7k_v7g_vfe_*AB",
+      "source_assertion_id": null,
+      "parent_connection": {
+        "type": "shared_father_through_siblings",
+        "sibling_assertion_ids": [
+          "a-song092-duhongyou-brother"
+        ],
+        "sibling_father_assertion_id": "a-song092-duhongwen-father"
+      },
+      "evidence": [
+        {
+          "work_id": "w-songshu",
+          "book_id": "b-songshu-092",
+          "chapter_id": "c-songshu-092-duhongwen",
+          "source_id": "s-songshu-092-duhongwen-ws2195614",
+          "paragraph_id": "c-songshu-092-duhongwen:p001",
+          "quote": "以慧度長子員外散騎侍郎弘文為振威將軍、刺史。初，高祖北征關、洛，慧度板弘文為鷹揚將軍，流民督護，配兵三千，北係大軍。行至廣州，關、洛已平，乃歸。統府板弘文行九真太守。及繼父為刺史，亦以寬和得眾，襲爵龍編侯。太祖元嘉四年，以廷尉王徽為交州刺史，弘文就徵。會得重疾，牽以就路，親舊見其患篤，勸表待病瘉，弘文曰：「吾世荷皇恩，杖節三世，常欲投軀帝庭，以報所荷。況親被徵命，而可宴然者乎，如其顛沛，此乃命也。」弘文母既年老，見弘文輿疾就路，不忍分別，相與俱行。到廣州，遂卒。臨死，遣弟弘猷詣京，朝廷甚哀之。",
+          "subject_person_mention_id": "c-songshu-092-duhongwen:p001:m0238",
+          "object_person_mention_id": "c-songshu-092-duhongwen:p001:m0209",
+          "source_term": "遣弟弘猷",
+          "source_assertion_id": "a-song092-duhongyou-brother"
+        },
+        {
+          "work_id": "w-songshu",
+          "book_id": "b-songshu-092",
+          "chapter_id": "c-songshu-092-duhongwen",
+          "source_id": "s-songshu-092-duhongwen-ws2195614",
+          "paragraph_id": "c-songshu-092-duhongwen:p001",
+          "quote": "以慧度長子員外散騎侍郎弘文為振威將軍、刺史。初，高祖北征關、洛，慧度板弘文為鷹揚將軍，流民督護，配兵三千，北係大軍。行至廣州，關、洛已平，乃歸。統府板弘文行九真太守。及繼父為刺史，亦以寬和得眾，襲爵龍編侯。太祖元嘉四年，以廷尉王徽為交州刺史，弘文就徵。會得重疾，牽以就路，親舊見其患篤，勸表待病瘉，弘文曰：「吾世荷皇恩，杖節三世，常欲投軀帝庭，以報所荷。況親被徵命，而可宴然者乎，如其顛沛，此乃命也。」弘文母既年老，見弘文輿疾就路，不忍分別，相與俱行。到廣州，遂卒。臨死，遣弟弘猷詣京，朝廷甚哀之。",
+          "subject_person_mention_id": "c-songshu-092-duhongwen:p001:m0011",
+          "object_person_mention_id": "c-songshu-092-duhongwen:p001:m0001",
+          "source_term": "慧度長子員外散騎侍郎弘文",
+          "source_assertion_id": "a-song092-duhongwen-father"
+        }
+      ],
+      "status": "contextual_provisional",
+      "human_reviewed": false,
+      "interpretation_note": "先據本傳明稱兄弟，再接兄父確證。",
+      "person_id": "b7k_v7g_vfe_*ABB"
+    }
+  ],
+  "preferred_relations": [
+    {
+      "id": "a-song092-duhongyou-brother",
+      "subject_person_id": "b7k_v7g_vfe_*ABB",
+      "object_person_id": "b7k_v7g_vfe_*ABA",
+      "predicate": "brother",
+      "qualifiers": {
+        "source_term": "遣弟弘猷",
+        "reading_basis": {
+          "kind": "song092_prose_kin",
+          "unit": "duhongwen"
+        },
+        "relative_age": "younger"
+      },
+      "evidence": [
+        {
+          "work_id": "w-songshu",
+          "book_id": "b-songshu-092",
+          "chapter_id": "c-songshu-092-duhongwen",
+          "source_id": "s-songshu-092-duhongwen-ws2195614",
+          "paragraph_id": "c-songshu-092-duhongwen:p001",
+          "quote": "以慧度長子員外散騎侍郎弘文為振威將軍、刺史。初，高祖北征關、洛，慧度板弘文為鷹揚將軍，流民督護，配兵三千，北係大軍。行至廣州，關、洛已平，乃歸。統府板弘文行九真太守。及繼父為刺史，亦以寬和得眾，襲爵龍編侯。太祖元嘉四年，以廷尉王徽為交州刺史，弘文就徵。會得重疾，牽以就路，親舊見其患篤，勸表待病瘉，弘文曰：「吾世荷皇恩，杖節三世，常欲投軀帝庭，以報所荷。況親被徵命，而可宴然者乎，如其顛沛，此乃命也。」弘文母既年老，見弘文輿疾就路，不忍分別，相與俱行。到廣州，遂卒。臨死，遣弟弘猷詣京，朝廷甚哀之。",
+          "subject_person_mention_id": "c-songshu-092-duhongwen:p001:m0238",
+          "object_person_mention_id": "c-songshu-092-duhongwen:p001:m0209"
+        }
+      ],
+      "status": "source_attested",
+      "interpretation_note": "弘文臨死遣其弟，非慧度弟。",
+      "reviewer": "Codex（AI代理）",
+      "model": null,
+      "human_reviewed": false
+    }
+  ],
+  "age_assertions": [],
+  "life_events": [],
+  "life_event_date_decisions": [],
+  "selected_life_event_dates": []
+}

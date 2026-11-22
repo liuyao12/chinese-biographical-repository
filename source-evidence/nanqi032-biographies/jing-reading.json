@@ -1,0 +1,134 @@
+{
+  "record_type": "fixed_source_complete_item_review",
+  "reviewer": "Codex（AI代理）",
+  "model": null,
+  "human_reviewed": false,
+  "external_witnesses": [
+    {
+      "revision_id": 8730255,
+      "raw_path": "source-evidence/nanshi022-wangjian-digital/nanshi031-ws8730255.wikitext",
+      "line": 27,
+      "start": 80,
+      "end": 96,
+      "source_quote": "仕至新安太守。演、鏡兄弟中名最高",
+      "raw_sha256": "5c339f68f25ea6e733b75a666cc4d3ae1ad6bbcae823d4cb203ee9b9b2e01447",
+      "interpretation": "南史接述新安官及演、鏡。齊32兄名作寅，寅／演兩端仍依既有決議。"
+    },
+    {
+      "revision_id": 1996685,
+      "raw_path": "sources/songshu/songshu053-ws1996685.wikitext",
+      "line": 21,
+      "start": 11,
+      "end": 19,
+      "source_quote": "演弟鏡，新安太守",
+      "raw_sha256": "95226c86fe13d535c410f8134c09048a22423305a5a65c8111dbde136802cbae",
+      "interpretation": "宋書載鏡仕新安，兄名演。"
+    }
+  ],
+  "print_readings": [
+    {
+      "edition": "清乾隆四年武英殿刊，國圖《二十四史》第159冊",
+      "url": "https://upload.wikimedia.org/wikipedia/commons/4/4f/NLC892-411999017142-12464_%E4%BA%8C%E5%8D%81%E5%9B%9B%E5%8F%B2_%E7%AC%AC159%E5%86%8A.pdf#page=55",
+      "catalog_record": "https://commons.wikimedia.org/wiki/File:NLC892-411999017142-12464_%E4%BA%8C%E5%8D%81%E5%9B%9B%E5%8F%B2_%E7%AC%AC159%E5%86%8A.pdf",
+      "pdf_sha1": "f08286875cf3615a5f86b0b75f6ea1e8ef268bca",
+      "pdf_sha256": "9bb3072ec6ab8a07612d5fa19b2dc2d272f0889cd13e0ffb55d83a6f5625c41e",
+      "page": 55,
+      "half": "R",
+      "folio": "三下",
+      "columns_from_right": "1–6",
+      "source_quote": "鏡少與光祿大夫顔延之隣居",
+      "reading": "前段兄弟官名至「張氏五龍」，鏡事始於右第1欄下，末顏心服罷酣。",
+      "image_sha256": "65b977fe5b9629ac026a555d8a5700ccfff1a836c58bf550ed59862cf8f49d61"
+    }
+  ],
+  "boundaries": [
+    {
+      "book_id": "b-nanqishu-032",
+      "title": "張鏡",
+      "unit_kind": "embedded_account",
+      "entry_checked": true,
+      "full_text": true,
+      "first_pass": true,
+      "item_reviewed": true,
+      "chapter_id": "c-nanqishu-032-zhangjing",
+      "first_line": 34,
+      "last_line": 34,
+      "start_codepoint": 42,
+      "end_codepoint": 121,
+      "opening": "鏡少與光祿大夫顏延之隣居，",
+      "closing": "彼有人焉。」由此不復酣呌。",
+      "parent_heading": "張岱",
+      "chapter_path": "corpus/nanqishu/032-zhangjing.json",
+      "paragraph_ids": [
+        "c-nanqishu-032-zhangjing:p001"
+      ],
+      "source_layout": "wikisource_mixed_indented_prose",
+      "item_review_path": "source-evidence/nanqi032-biographies/jing-reading.json"
+    }
+  ],
+  "chronology": [],
+  "readings": [
+    {
+      "id": "c-nanqishu-032-zhangjing:received_sentence1-0",
+      "kind": "received_sentence",
+      "person_id": "d50_8f5_wul_AAAAB",
+      "source_quote": "鏡少與光祿大夫顏延之隣居，顏談議飲酒，喧呼不絕；而鏡靜翳無言聲。",
+      "reading": "張鏡居顏延之鄰，顏好飲談，鏡家安靜。",
+      "note": "張鏡居顏延之鄰，顏好飲談，鏡家安靜。",
+      "paragraph_id": "c-nanqishu-032-zhangjing:p001",
+      "start_codepoint": 0,
+      "end_codepoint": 32,
+      "human_reviewed": false
+    },
+    {
+      "id": "c-nanqishu-032-zhangjing:received_sentence1-32",
+      "kind": "received_sentence",
+      "person_id": "d50_8f5_wul_AAAAB",
+      "source_quote": "後延之於籬邊聞其與客語，取胡牀坐聽，辭義清玄，延之心服，謂賔客曰：「彼有人焉。」",
+      "reading": "顏延之從籬邊聽張鏡與客論，服其辭義，向客稱彼有人。",
+      "note": "顏延之從籬邊聽張鏡與客論，服其辭義，向客稱彼有人。",
+      "paragraph_id": "c-nanqishu-032-zhangjing:p001",
+      "start_codepoint": 32,
+      "end_codepoint": 72,
+      "human_reviewed": false
+    },
+    {
+      "id": "c-nanqishu-032-zhangjing:received_sentence1-72",
+      "kind": "received_sentence",
+      "person_id": "d50_8f5_wul_AAAAB",
+      "source_quote": "由此不復酣呌。",
+      "reading": "從此顏延之不再酣叫。",
+      "note": "從此顏延之不再酣叫。",
+      "paragraph_id": "c-nanqishu-032-zhangjing:p001",
+      "start_codepoint": 72,
+      "end_codepoint": 79,
+      "human_reviewed": false
+    },
+    {
+      "id": "c-nanqishu-032-zhangjing:reported_appraisal1-66",
+      "kind": "reported_appraisal",
+      "person_id": "d50_8f5_wul_AAAAB",
+      "source_quote": "彼有人焉",
+      "reading": "彼在句中指籬彼之處，有人藉張鏡之談顯才。不得把彼字登為張鏡姓名或單人代詞。",
+      "note": "彼在句中指籬彼之處，有人藉張鏡之談顯才。不得把彼字登為張鏡姓名或單人代詞。",
+      "paragraph_id": "c-nanqishu-032-zhangjing:p001",
+      "start_codepoint": 66,
+      "end_codepoint": 70,
+      "human_reviewed": false
+    },
+    {
+      "id": "c-nanqishu-032-zhangjing:residence1-0",
+      "kind": "residence",
+      "person_id": "d50_8f5_wul_AAAAB",
+      "source_quote": "鏡少與光祿大夫顏延之隣居",
+      "reading": "只明言二人鄰居，不指縣里或年月。",
+      "note": "只明言二人鄰居，不指縣里或年月。",
+      "paragraph_id": "c-nanqishu-032-zhangjing:p001",
+      "start_codepoint": 0,
+      "end_codepoint": 12,
+      "human_reviewed": false,
+      "neighbor_person_id": "ftg_rxy_day"
+    }
+  ],
+  "identity_limits": []
+}

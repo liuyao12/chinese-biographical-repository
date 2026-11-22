@@ -7,7 +7,8 @@
   "review": "ai_provisional",
   "names": [
     "顧寶先",
-    "寶先"
+    "寶先",
+    "顧彥先"
   ],
   "titles": [],
   "addresses": [],
@@ -55,10 +56,69 @@
       "chapter_id": "c-nanshi-022-wangsengqian",
       "source_id": "s-nanshi-022-wangsengqian-ws1477957",
       "work_title": "南史"
+    },
+    {
+      "number": 32,
+      "category": "",
+      "title": "何戢",
+      "paragraph_id": "c-nanqishu-032-heji-family:p006",
+      "count": 1,
+      "raw_count": 1,
+      "duplicate_count": 0,
+      "counting_policy": "independent_fixed_witness_occurrences",
+      "quote": "上頗好畫扇，宋孝武賜戢蟬雀扇，善畫者顧景秀所畫。時陸探微、顧彥先皆能畫，歎其巧絕。戢因王晏獻之，上令晏厚酬其意。",
+      "paragraph_ids": [
+        "c-nanqishu-032-heji-family:p006"
+      ],
+      "mention_ids": [
+        "c-nanqishu-032-heji-family:p006:m0029"
+      ],
+      "mention_paragraph_ids": {
+        "c-nanqishu-032-heji-family:p006:m0029": "c-nanqishu-032-heji-family:p006"
+      },
+      "mention_id": "c-nanqishu-032-heji-family:p006:m0029",
+      "occurrence_groups": [
+        {
+          "canonical_mention_id": "c-nanqishu-032-heji-family:p006:m0029",
+          "mention_ids": [
+            "c-nanqishu-032-heji-family:p006:m0029"
+          ],
+          "kind": "paragraph"
+        }
+      ],
+      "work_id": "w-nanqishu",
+      "book_id": "b-nanqishu-032",
+      "chapter_id": "c-nanqishu-032-heji-family",
+      "source_id": "s-nanqishu-032-heji-family-ws1513918",
+      "work_title": "南齊書"
     }
   ],
   "table_occurrences": [],
   "sources": [
+    {
+      "chapter_id": "c-nanqishu-032-heji-family",
+      "work_id": "w-nanqishu",
+      "book_id": "b-nanqishu-032",
+      "source_id": "s-nanqishu-032-heji-family-ws1513918",
+      "source": {
+        "title": "何戢傳",
+        "provider": "Wikisource",
+        "permalink": "https://zh.wikisource.org/w/index.php?oldid=1513918",
+        "url": "https://zh.wikisource.org/w/index.php?oldid=1513918",
+        "revision_id": 1513918,
+        "edition": "維基文庫固定修訂",
+        "accessed_on": "2026-11-21",
+        "review_status": "text_checked",
+        "image_verified": false,
+        "rights": "古代原文；數位轉錄依維基文庫授權。",
+        "license_url": "https://creativecommons.org/licenses/by-sa/4.0/",
+        "extent": "依第63行原題至74行，景和山陰公主故事、何戢女各有清冊。",
+        "text_scope": "complete_biography_unit",
+        "raw_path": "sources/nanqishu/nanqishu032-ws1513918.wikitext",
+        "raw_file_sha256": "cc9c36ced8f64c3c359c76836ae56968c8a13c4a3b3c19a416575737314b0061",
+        "section_locator": "第64至74行；舊傳首p001擴錄，傳末p002原位。"
+      }
+    },
     {
       "chapter_id": "c-nanshi-022-wangsengqian",
       "work_id": "w-nanshi",
@@ -95,6 +155,25 @@
   },
   "dates": [],
   "name_components": [],
+  "source_reading_cases": [
+    {
+      "id": "c-nanqishu-032-heji-family:parallel_identity5-29",
+      "kind": "parallel_identity",
+      "person_id": "uoq_p8o_kza",
+      "source_quote": "顧彥先",
+      "reading": "同一蟬雀扇故事，南史字作顧寶先；現有吳郡顧寶先善書，時代及藝事相容，與該人的跨篇認同為首選。",
+      "note": "同一蟬雀扇故事，南史字作顧寶先；現有吳郡顧寶先善書，時代及藝事相容，與該人的跨篇認同為首選。",
+      "paragraph_id": "c-nanqishu-032-heji-family:p006",
+      "start_codepoint": 29,
+      "end_codepoint": 32,
+      "human_reviewed": false,
+      "same_event_source": "b-nanshi-030",
+      "same_name_candidate_status": "provisional",
+      "distinct_from_jin_gu_rong": true,
+      "chapter_id": "c-nanqishu-032-heji-family",
+      "source_id": "s-nanqishu-032-heji-family-ws1513918"
+    }
+  ],
   "person_references": [
     {
       "start": 53,

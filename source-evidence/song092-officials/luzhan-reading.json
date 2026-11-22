@@ -1,0 +1,116 @@
+{
+  "record_type": "fixed_source_complete_item_review",
+  "reviewer": "Codex（AI代理）",
+  "model": null,
+  "human_reviewed": false,
+  "external_witnesses": [
+    {
+      "revision_id": 2310150,
+      "raw_path": "sources/songshu/songshu006-ws2310150.wikitext",
+      "line": 46,
+      "start": 0,
+      "end": 22,
+      "source_quote": "六月戊辰，臧質走至武昌，為人所斬，傳首京師。",
+      "raw_sha256": "587d282621c8fb306c1c037f4cca64c3624aaa3c86ec77f7831368cbdfcb683a",
+      "interpretation": "孝建元年質敗的紀日不移填陸展。"
+    }
+  ],
+  "print_readings": [
+    {
+      "edition": "清乾隆武英殿本《宋書》卷九十二，國圖永青文庫第22冊，上海商務印書館民國五年影印",
+      "url": "https://upload.wikimedia.org/wikipedia/commons/0/07/NLC016-HWRB201817006-2845_%E5%AE%8B%E6%9B%B8_%E4%B8%80%E7%99%BE%E5%8D%B7_%E7%AC%AC22%E5%86%8A.pdf#page=98",
+      "catalog": "https://commons.wikimedia.org/wiki/File:NLC016-HWRB201817006-2845_%E5%AE%8B%E6%9B%B8_%E4%B8%80%E7%99%BE%E5%8D%B7_%E7%AC%AC22%E5%86%8A.pdf",
+      "pdf_sha1": "844dd746f6c9d4ee7b2e2e3b448263be9d91dd9f",
+      "pdf_sha256": "e2423df74286134f4856c3d2df58be3f518d4e60452d680058d64fbf3fdc6e8c",
+      "page": 98,
+      "half": "R",
+      "folio": "八下",
+      "columns_from_right": "1",
+      "source_quote": "弟展臧質車騎長史尋陽太守質敗從誅",
+      "reading": "緊承子叡正員外郎，不補「弟」之所屬。",
+      "image_sha256": "08866da848a966f2eda71d6baf65843c8e8c51abf481c818c3e204c4c4fcf8c2"
+    }
+  ],
+  "boundaries": [
+    {
+      "book_id": "b-songshu-092",
+      "title": "陸展",
+      "unit_kind": "embedded_account",
+      "entry_checked": true,
+      "full_text": true,
+      "first_pass": true,
+      "item_reviewed": true,
+      "chapter_id": "c-songshu-092-luzhan",
+      "first_line": 45,
+      "last_line": 45,
+      "start_codepoint": 8,
+      "end_codepoint": 29,
+      "opening": "弟展，臧質車騎長史、尋陽",
+      "closing": "、尋陽太守，質敗，從誅。",
+      "parent_heading": "陸徽",
+      "chapter_path": "corpus/songshu/092-luzhan.json",
+      "paragraph_ids": [
+        "c-songshu-092-luzhan:p001"
+      ],
+      "item_review_path": "source-evidence/song092-officials/luzhan-reading.json"
+    }
+  ],
+  "chronology": [],
+  "readings": [
+    {
+      "id": "c-songshu-092-luzhan:received_sentence1-0",
+      "kind": "received_sentence",
+      "person_id": "6td_7eq_bey",
+      "source_quote": "弟展，臧質車騎長史、尋陽太守，質敗，從誅。",
+      "reading": "弟展為臧質車騎長史、尋陽太守。臧質敗後，展從誅。",
+      "note": "弟展為臧質車騎長史、尋陽太守。臧質敗後，展從誅。",
+      "paragraph_id": "c-songshu-092-luzhan:p001",
+      "start_codepoint": 0,
+      "end_codepoint": 21,
+      "human_reviewed": false
+    },
+    {
+      "id": "c-songshu-092-luzhan:ambiguous_elder_brother1-0",
+      "kind": "ambiguous_elder_brother",
+      "person_id": "6td_7eq_bey",
+      "source_quote": "弟展",
+      "reading": "本段先「子叡」，次「弟展」。有可能是最近所敘叡弟，也可能回指傳主徽；獨立早期旁證目前只坐實徽、叡父子。未確其兄，亦不推父。",
+      "note": "本段先「子叡」，次「弟展」。有可能是最近所敘叡弟，也可能回指傳主徽；獨立早期旁證目前只坐實徽、叡父子。未確其兄，亦不推父。",
+      "paragraph_id": "c-songshu-092-luzhan:p001",
+      "start_codepoint": 0,
+      "end_codepoint": 2,
+      "human_reviewed": false,
+      "candidate_older_brothers": [
+        "t6x_0wm_0k5_A",
+        "t6x_0wm_0k5"
+      ]
+    },
+    {
+      "id": "c-songshu-092-luzhan:violent_death1-15",
+      "kind": "violent_death",
+      "person_id": "6td_7eq_bey",
+      "source_quote": "質敗，從誅",
+      "reading": "孝建元年臧質自武昌敗亡，傳言展從誅，無同日之文。",
+      "note": "孝建元年臧質自武昌敗亡，傳言展從誅，無同日之文。",
+      "paragraph_id": "c-songshu-092-luzhan:p001",
+      "start_codepoint": 15,
+      "end_codepoint": 20,
+      "human_reviewed": false,
+      "year": 454
+    },
+    {
+      "id": "c-songshu-092-luzhan:same_name_candidate1-0",
+      "kind": "same_name_candidate",
+      "person_id": "6td_7eq_bey",
+      "source_quote": "弟展",
+      "reading": "宋67何長瑜韻語所嘲陸展在劉義慶幕，時代可通，原句未有尋陽太守或臧質事，故存候選。",
+      "note": "宋67何長瑜韻語所嘲陸展在劉義慶幕，時代可通，原句未有尋陽太守或臧質事，故存候選。",
+      "paragraph_id": "c-songshu-092-luzhan:p001",
+      "start_codepoint": 0,
+      "end_codepoint": 2,
+      "human_reviewed": false,
+      "other_candidate_id": "178_955_25e"
+    }
+  ],
+  "identity_limits": []
+}

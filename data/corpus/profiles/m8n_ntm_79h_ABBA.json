@@ -1384,6 +1384,41 @@
       "chapter_id": "c-zizhitongjian-099-jin044-luchen",
       "source_id": "s-zizhitongjian-099-jin044-luchen",
       "work_title": "資治通鑑"
+    },
+    {
+      "number": 100,
+      "category": "",
+      "title": "盧循曾祖諶與父嘏",
+      "paragraph_id": "c-jinshu-100-luxun-ancestry:p001",
+      "count": 1,
+      "raw_count": 1,
+      "duplicate_count": 0,
+      "counting_policy": "independent_fixed_witness_occurrences",
+      "quote": "盧循，字於先，小名元龍，司空從事中郎諶之曾孫也。",
+      "paragraph_ids": [
+        "c-jinshu-100-luxun-ancestry:p001"
+      ],
+      "mention_ids": [
+        "c-jinshu-100-luxun-ancestry:p001:m0018"
+      ],
+      "mention_paragraph_ids": {
+        "c-jinshu-100-luxun-ancestry:p001:m0018": "c-jinshu-100-luxun-ancestry:p001"
+      },
+      "mention_id": "c-jinshu-100-luxun-ancestry:p001:m0018",
+      "occurrence_groups": [
+        {
+          "canonical_mention_id": "c-jinshu-100-luxun-ancestry:p001:m0018",
+          "mention_ids": [
+            "c-jinshu-100-luxun-ancestry:p001:m0018"
+          ],
+          "kind": "paragraph"
+        }
+      ],
+      "work_id": "w-jinshu",
+      "book_id": "b-jinshu-100",
+      "chapter_id": "c-jinshu-100-luxun-ancestry",
+      "source_id": "s-jinshu-100-luxun-ancestry-ws2614279",
+      "work_title": "晉書"
     }
   ],
   "table_occurrences": [],
@@ -1543,6 +1578,29 @@
         "raw_path": "source-evidence/jin067-wenqiao-main/external/j62-ws2629226.wikitext",
         "wikitext_sha256": "cdb75f1a3d5f12219a75831e0c8c7cfc202c1edf76086c07267a40f7251f3a7b",
         "raw_file_sha256": "cdb75f1a3d5f12219a75831e0c8c7cfc202c1edf76086c07267a40f7251f3a7b"
+      }
+    },
+    {
+      "chapter_id": "c-jinshu-100-luxun-ancestry",
+      "work_id": "w-jinshu",
+      "book_id": "b-jinshu-100",
+      "source_id": "s-jinshu-100-luxun-ancestry-ws2614279",
+      "source": {
+        "title": "盧循曾祖諶與父嘏",
+        "provider": "Wikisource",
+        "permalink": "https://zh.wikisource.org/w/index.php?oldid=2614279",
+        "url": "https://zh.wikisource.org/w/index.php?oldid=2614279",
+        "revision_id": 2614279,
+        "edition": "維基文庫固定修訂",
+        "accessed_on": "2026-11-21",
+        "review_status": "text_checked",
+        "image_verified": false,
+        "rights": "古代原文；數位轉錄依維基文庫授權。",
+        "license_url": "https://creativecommons.org/licenses/by-sa/4.0/",
+        "extent": "盧循曾祖諶與父嘏",
+        "text_scope": "partial_chapter",
+        "raw_path": "sources/jinshu/jin100-ws2614279.wikitext",
+        "raw_file_sha256": "24f6c10f4c2d024afbb840c29ca65487326dd437a668ee4c915d9f8ff43e2e07"
       }
     },
     {
@@ -1766,6 +1824,44 @@
       "model": null
     },
     {
+      "id": "a-song092-lugu-chen",
+      "subject_person_id": "m8n_ntm_79h_ABBA*A",
+      "object_person_id": "m8n_ntm_79h_ABBA",
+      "predicate": "grandfather",
+      "qualifiers": {
+        "source_term": "諶之曾孫",
+        "lineage": "paternal",
+        "reading_basis": {
+          "kind": "song092_grandfather_through_named_son"
+        }
+      },
+      "evidence": [
+        {
+          "work_id": "w-jinshu",
+          "book_id": "b-jinshu-100",
+          "chapter_id": "c-jinshu-100-luxun-ancestry",
+          "source_id": "s-jinshu-100-luxun-ancestry-ws2614279",
+          "paragraph_id": "c-jinshu-100-luxun-ancestry:p001",
+          "quote": "盧循，字於先，小名元龍，司空從事中郎諶之曾孫也。",
+          "object_person_mention_id": "c-jinshu-100-luxun-ancestry:p001:m0018"
+        },
+        {
+          "work_id": "w-jinshu",
+          "book_id": "b-jinshu-100",
+          "chapter_id": "c-jinshu-100-luxun-ancestry",
+          "source_id": "s-jinshu-100-luxun-ancestry-ws2614279",
+          "paragraph_id": "c-jinshu-100-luxun-ancestry:p002",
+          "quote": "循勢屈，知不免，先鴆妻子十餘人，又召妓妾問曰：「我今將自殺，誰能同者？」多云：「雀鼠貪生，就死實人情所難。」有云：「官尚當死，某豈願生！」於是悉鴆諸辭死者，因自投于水。慧度取其屍斬之，及其父嘏；同黨盡獲，傳首京都。",
+          "subject_person_mention_id": "c-jinshu-100-luxun-ancestry:p002:m0095"
+        }
+      ],
+      "status": "source_attested",
+      "interpretation_note": "傳首循為諶曾孫，末敘循父嘏，故嘏為諶孫；其間不另補名。",
+      "reviewer": "Codex（AI代理）",
+      "model": null,
+      "human_reviewed": false
+    },
+    {
       "id": "a-sgz022-lu-chen-father-zhi",
       "subject_person_id": "m8n_ntm_79h_ABBA",
       "predicate": "father",
@@ -1968,6 +2064,7 @@
     "m8n_ntm_79h_ABB": "盧志",
     "m8n_ntm_79h_ABBA": "盧諶",
     "m8n_ntm_79h_ABBA**A": "盧循",
+    "m8n_ntm_79h_ABBA*A": "盧嘏（盧循父）",
     "m8n_ntm_79h_ABBAA": "偃〔盧諶子〕",
     "m8n_ntm_79h_ABBAAAA": "盧玄〔字子真〕",
     "u2c_s89_qh6": "劉琨妻〔溫嶠從母〕"
@@ -2317,6 +2414,44 @@
       "reviewer": "Codex（AI 代理）",
       "human_reviewed": false,
       "model": null
+    },
+    {
+      "id": "a-song092-lugu-chen",
+      "subject_person_id": "m8n_ntm_79h_ABBA*A",
+      "object_person_id": "m8n_ntm_79h_ABBA",
+      "predicate": "grandfather",
+      "qualifiers": {
+        "source_term": "諶之曾孫",
+        "lineage": "paternal",
+        "reading_basis": {
+          "kind": "song092_grandfather_through_named_son"
+        }
+      },
+      "evidence": [
+        {
+          "work_id": "w-jinshu",
+          "book_id": "b-jinshu-100",
+          "chapter_id": "c-jinshu-100-luxun-ancestry",
+          "source_id": "s-jinshu-100-luxun-ancestry-ws2614279",
+          "paragraph_id": "c-jinshu-100-luxun-ancestry:p001",
+          "quote": "盧循，字於先，小名元龍，司空從事中郎諶之曾孫也。",
+          "object_person_mention_id": "c-jinshu-100-luxun-ancestry:p001:m0018"
+        },
+        {
+          "work_id": "w-jinshu",
+          "book_id": "b-jinshu-100",
+          "chapter_id": "c-jinshu-100-luxun-ancestry",
+          "source_id": "s-jinshu-100-luxun-ancestry-ws2614279",
+          "paragraph_id": "c-jinshu-100-luxun-ancestry:p002",
+          "quote": "循勢屈，知不免，先鴆妻子十餘人，又召妓妾問曰：「我今將自殺，誰能同者？」多云：「雀鼠貪生，就死實人情所難。」有云：「官尚當死，某豈願生！」於是悉鴆諸辭死者，因自投于水。慧度取其屍斬之，及其父嘏；同黨盡獲，傳首京都。",
+          "subject_person_mention_id": "c-jinshu-100-luxun-ancestry:p002:m0095"
+        }
+      ],
+      "status": "source_attested",
+      "interpretation_note": "傳首循為諶曾孫，末敘循父嘏，故嘏為諶孫；其間不另補名。",
+      "reviewer": "Codex（AI代理）",
+      "model": null,
+      "human_reviewed": false
     },
     {
       "id": "a-sgz022-lu-chen-father-zhi",

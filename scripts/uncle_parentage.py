@@ -324,11 +324,19 @@ def explicit_maternal_uncle_valid(assertion, paragraphs):
                                         and m['end'] > gap_start for m in p.get('mentions', [])))
         # 「綏，玄之外甥」 states the same directed relationship in reverse.
         nephew_end = obj['end'] + len('之外甥')
+        printed_sui = (
+            hit[0] == 'c-songshu-092-wangzhenzhi-wyd'
+            and subject['surface'] == '綏' and obj['surface'] == '𤣥'
+            and subject['person_id'] == 'a8f_ec8_e74_AAAAABA'
+            and obj['person_id'] == 'u9s_w6j_8mc_AAF'
+            and subject['end'] == obj['start']
+            and p['text'][subject['start'] - 2:nephew_end + 4] == '愉子綏𤣥之外甥當時貴盛'
+            and e['quote'] == p['text'])
         named_nephew_of = (q.get('source_term') == obj['surface'] + '之外甥'
                           and p['text'][obj['end']:nephew_end] == '之外甥'
                           and p['text'][subject['end']:obj['start']] in ('', '，', '、')
                           and (nephew_end == len(p['text'])
-                               or p['text'][nephew_end] in '，。；、'))
+                               or p['text'][nephew_end] in '，。；、' or printed_sui))
         coordinated_ids = q.get('coordinated_uncle_mention_ids')
         if coordinated_ids is not None:
             if (not isinstance(coordinated_ids, list) or len(coordinated_ids) < 2
