@@ -10,7 +10,56 @@
     "當",
     "秋當"
   ],
-  "titles": [],
+  "titles": [
+    {
+      "id": "th-songshu-046-zhangfu-complete-2-0",
+      "title": "中書舍人",
+      "kind": "office",
+      "mode": "attestation",
+      "person_id": "v3n_puj_x6k",
+      "attestations": [
+        {
+          "id": "th-songshu-046-zhangfu-complete-2-0:a",
+          "paragraph_id": "c-songshu-046-zhangfu-complete:p002",
+          "start": 0,
+          "end": 4,
+          "surface": "中書舍人",
+          "person_mention_id": "c-songshu-046-zhangfu-complete:p002:m0004",
+          "usage": "narrative",
+          "date_expression": null
+        }
+      ],
+      "effective_period": {
+        "start": {
+          "status": "unknown",
+          "date_expression": null,
+          "evidence": []
+        },
+        "end": {
+          "status": "unknown",
+          "date_expression": null,
+          "evidence": []
+        }
+      },
+      "evidence": [
+        {
+          "work_id": "w-songshu",
+          "book_id": "b-songshu-046",
+          "chapter_id": "c-songshu-046-zhangfu-complete",
+          "source_id": "s-songshu-046-zhangfu-complete-ws2118581",
+          "paragraph_id": "c-songshu-046-zhangfu-complete:p002",
+          "quote": "中書舍人秋當、周赳並管要務，以敷同省名家，欲詣之。赳曰：「彼恐不相容接，不如勿往。」當曰：「吾等並已員外郎矣，何憂不得共坐。」敷先設二牀，去壁三四尺，二客就席，敷呼左右曰：「移我遠客！」赳等失色而去。其自標遇如此。善持音儀，盡詳緩之致，與人別，執手曰：「念相聞。」餘響久之不絕。張氏後進皆慕之，其源起自敷也。",
+          "person_mention_id": "c-songshu-046-zhangfu-complete:p002:m0004"
+        }
+      ],
+      "status": "source_attested",
+      "interpretation_note": "所見原官稱，未載全任期。",
+      "reviewer": "Codex（AI代理）",
+      "model": null,
+      "human_reviewed": false,
+      "period": "未定 → 未定"
+    }
+  ],
   "addresses": [],
   "occurrences": [
     {
@@ -81,6 +130,50 @@
       "book_id": "b-songshu-044",
       "chapter_id": "c-songshu-044-xiehui-digital",
       "source_id": "s-songshu-044-xiehui-digital-ws1746033",
+      "work_title": "宋書"
+    },
+    {
+      "number": 46,
+      "category": "",
+      "title": "張敷",
+      "paragraph_id": "c-songshu-046-zhangfu-complete:p002",
+      "count": 2,
+      "raw_count": 2,
+      "duplicate_count": 0,
+      "counting_policy": "independent_fixed_witness_occurrences",
+      "quote": "中書舍人秋當、周赳並管要務，以敷同省名家，欲詣之。赳曰：「彼恐不相容接，不如勿往。」當曰：「吾等並已員外郎矣，何憂不得共坐。」敷先設二牀，去壁三四尺，二客就席，敷呼左右曰：「移我遠客！」赳等失色而去。其自標遇如此",
+      "paragraph_ids": [
+        "c-songshu-046-zhangfu-complete:p002"
+      ],
+      "mention_ids": [
+        "c-songshu-046-zhangfu-complete:p002:m0004",
+        "c-songshu-046-zhangfu-complete:p002:m0042"
+      ],
+      "mention_paragraph_ids": {
+        "c-songshu-046-zhangfu-complete:p002:m0004": "c-songshu-046-zhangfu-complete:p002",
+        "c-songshu-046-zhangfu-complete:p002:m0042": "c-songshu-046-zhangfu-complete:p002"
+      },
+      "mention_id": "c-songshu-046-zhangfu-complete:p002:m0004",
+      "occurrence_groups": [
+        {
+          "canonical_mention_id": "c-songshu-046-zhangfu-complete:p002:m0004",
+          "mention_ids": [
+            "c-songshu-046-zhangfu-complete:p002:m0004"
+          ],
+          "kind": "paragraph"
+        },
+        {
+          "canonical_mention_id": "c-songshu-046-zhangfu-complete:p002:m0042",
+          "mention_ids": [
+            "c-songshu-046-zhangfu-complete:p002:m0042"
+          ],
+          "kind": "paragraph"
+        }
+      ],
+      "work_id": "w-songshu",
+      "book_id": "b-songshu-046",
+      "chapter_id": "c-songshu-046-zhangfu-complete",
+      "source_id": "s-songshu-046-zhangfu-complete-ws2118581",
       "work_title": "宋書"
     },
     {
@@ -328,6 +421,29 @@
         "raw_path": "source-evidence/nanshi019-xiehui/song044-ws1746033.wikitext",
         "raw_file_sha256": "9ca7cb37e05e0ebcc400fb220a1f3970ddc2c0f948483f04b71ea93847a69898",
         "section_locator": "列傳第四 謝晦"
+      }
+    },
+    {
+      "chapter_id": "c-songshu-046-zhangfu-complete",
+      "work_id": "w-songshu",
+      "book_id": "b-songshu-046",
+      "source_id": "s-songshu-046-zhangfu-complete-ws2118581",
+      "source": {
+        "title": "張敷",
+        "provider": "Wikisource",
+        "permalink": "https://zh.wikisource.org/w/index.php?oldid=2118581",
+        "url": "https://zh.wikisource.org/w/index.php?oldid=2118581",
+        "revision_id": 2118581,
+        "edition": "維基文庫固定修訂",
+        "accessed_on": "2026-11-21",
+        "review_status": "text_checked",
+        "image_verified": false,
+        "rights": "古代原文；數位轉錄依維基文庫授權。",
+        "license_url": "https://creativecommons.org/licenses/by-sa/4.0/",
+        "extent": "張敷",
+        "text_scope": "complete_biography_unit",
+        "raw_path": "sources/songshu/songshu046-ws2118581.wikitext",
+        "raw_file_sha256": "3df8bb0cdbc5811a0747fcca3c9ed93d3b714bf0eee0315f6946eef8968fffdf"
       }
     },
     {

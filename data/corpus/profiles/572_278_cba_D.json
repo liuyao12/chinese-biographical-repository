@@ -7,11 +7,105 @@
   "review": "ai_provisional",
   "names": [
     "孫慮",
-    "子智"
+    "子智",
+    "慮"
   ],
-  "titles": [],
+  "titles": [
+    {
+      "id": "t-wu058-x26",
+      "person_id": "572_278_cba_D",
+      "kind": "noble_rank",
+      "title": "建昌侯",
+      "mode": "attestation",
+      "status": "source_attested",
+      "effective_period": {
+        "start": {
+          "status": "unknown",
+          "date_expression": null,
+          "evidence": []
+        },
+        "end": {
+          "status": "unknown",
+          "date_expression": null,
+          "evidence": []
+        }
+      },
+      "interpretation_note": "本句所載職官，任免時間未詳。",
+      "evidence": [
+        {
+          "work_id": "w-sanguozhi",
+          "book_id": "b-sanguozhi-058",
+          "chapter_id": "c-sanguozhi-058-luxun",
+          "source_id": "s-sanguozhi-058-luxun",
+          "paragraph_id": "c-sanguozhi-058-luxun:line035",
+          "quote": "黃龍元年，拜上大將軍、右都護。是歲，權東巡建業，留太子，皇子及尚書九官，征遜輔太子，並掌荊州及豫章三郡事，董督軍國。時建昌侯慮於堂前作斗鴨欄，頗施小巧。遜正色曰：「君候宜勤覽經典以自新益，用此何為？」慮即時毀徹之。射聲校尉松於公子中最親，戲兵不整，遜對之髡其職吏。南陽謝景善劉廙先刑後禮之論，遜呵景曰：「禮之長於刑久矣，廙以細辯而詭先聖之教，皆非也。君今侍東宮，宜遵仁義以彰德音，若彼之談，不須講也。」遜雖身在外，乃心於國。上疏陳時事曰：",
+          "person_mention_id": "c-sanguozhi-058-luxun:line035:m0062"
+        }
+      ],
+      "attestations": [
+        {
+          "id": "t-wu058-x26:a",
+          "paragraph_id": "c-sanguozhi-058-luxun:line035",
+          "person_mention_id": "c-sanguozhi-058-luxun:line035:m0062",
+          "start": 59,
+          "end": 62,
+          "surface": "建昌侯",
+          "usage": "narrative",
+          "date_expression": null
+        }
+      ],
+      "human_reviewed": false,
+      "reviewer": "Codex（AI 代理）",
+      "model": null,
+      "period": "未定 → 未定"
+    }
+  ],
   "addresses": [],
   "occurrences": [
+    {
+      "number": 58,
+      "category": "",
+      "title": "陸遜傳",
+      "paragraph_id": "c-sanguozhi-058-luxun:line035",
+      "count": 2,
+      "raw_count": 2,
+      "duplicate_count": 0,
+      "counting_policy": "independent_fixed_witness_occurrences",
+      "quote": "，皇子及尚書九官，征遜輔太子，並掌荊州及豫章三郡事，董督軍國。時建昌侯慮於堂前作斗鴨欄，頗施小巧。遜正色曰：「君候宜勤覽經典以自新益，用此何為？」慮即時毀徹之。射聲校尉松於公子中最親，戲兵不整，遜對之髡其職吏。南陽謝景善劉廙先刑後禮之論，遜呵景曰：「禮之長於刑久矣，廙以細",
+      "paragraph_ids": [
+        "c-sanguozhi-058-luxun:line035"
+      ],
+      "mention_ids": [
+        "c-sanguozhi-058-luxun:line035:m0062",
+        "c-sanguozhi-058-luxun:line035:m0100"
+      ],
+      "mention_paragraph_ids": {
+        "c-sanguozhi-058-luxun:line035:m0062": "c-sanguozhi-058-luxun:line035",
+        "c-sanguozhi-058-luxun:line035:m0100": "c-sanguozhi-058-luxun:line035"
+      },
+      "mention_id": "c-sanguozhi-058-luxun:line035:m0062",
+      "occurrence_groups": [
+        {
+          "canonical_mention_id": "c-sanguozhi-058-luxun:line035:m0062",
+          "mention_ids": [
+            "c-sanguozhi-058-luxun:line035:m0062"
+          ],
+          "kind": "paragraph"
+        },
+        {
+          "canonical_mention_id": "c-sanguozhi-058-luxun:line035:m0100",
+          "mention_ids": [
+            "c-sanguozhi-058-luxun:line035:m0100"
+          ],
+          "kind": "paragraph"
+        }
+      ],
+      "work_id": "w-sanguozhi",
+      "book_id": "b-sanguozhi-058",
+      "chapter_id": "c-sanguozhi-058-luxun",
+      "source_id": "s-sanguozhi-058-luxun",
+      "work_title": "三國志"
+    },
     {
       "number": 59,
       "category": "",
@@ -59,6 +153,34 @@
   ],
   "table_occurrences": [],
   "sources": [
+    {
+      "chapter_id": "c-sanguozhi-058-luxun",
+      "work_id": "w-sanguozhi",
+      "book_id": "b-sanguozhi-058",
+      "source_id": "s-sanguozhi-058-luxun",
+      "source": {
+        "title": "三國志卷五十八·吳書十三",
+        "provider": "Wikisource",
+        "url": "https://zh.wikisource.org/w/index.php?oldid=2131313",
+        "permalink": "https://zh.wikisource.org/w/index.php?oldid=2131313",
+        "revision_id": 2131313,
+        "accessed_on": "2026-11-21",
+        "edition": "維基文庫固定修訂，裴注與正文分層。",
+        "extent": "第11至57行。",
+        "text_scope": "partial_chapter",
+        "review_status": "text_checked",
+        "image_verified": false,
+        "rights": "古籍原文，維基文庫轉錄。",
+        "license_url": "https://creativecommons.org/licenses/by-sa/4.0/",
+        "raw_path": "source-evidence/sanguozhi058-lu/sanguozhi058-ws2131313.wikitext",
+        "raw_file_sha256": "8bc2076ba31052c04c70204ac931fa655ed6b4e11c842ae2742ba05bb7b9aa10",
+        "wikitext_sha256": "8bc2076ba31052c04c70204ac931fa655ed6b4e11c842ae2742ba05bb7b9aa10",
+        "collation_witnesses": [
+          "source-evidence/sanguozhi058-lu-ancestors/reading.json",
+          "source-evidence/sanguozhi058-luxun/reading.json"
+        ]
+      }
+    },
     {
       "chapter_id": "c-sanguozhi-059-sundeng-sunlv-wu052",
       "work_id": "w-sanguozhi",

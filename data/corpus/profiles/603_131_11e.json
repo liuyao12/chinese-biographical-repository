@@ -7,7 +7,8 @@
   "review": "ai_provisional",
   "names": [
     "楊駿",
-    "駿"
+    "駿",
+    "杨骏"
   ],
   "titles": [
     {
@@ -55,6 +56,54 @@
       "status": "source_attested",
       "reviewer": "Codex（AI 代理）",
       "human_reviewed": false,
+      "model": null,
+      "period": "未定 → 未定"
+    },
+    {
+      "id": "t-wu058-k31",
+      "person_id": "603_131_11e",
+      "kind": "office",
+      "title": "太傅",
+      "mode": "attestation",
+      "status": "source_attested",
+      "effective_period": {
+        "start": {
+          "status": "unknown",
+          "date_expression": null,
+          "evidence": []
+        },
+        "end": {
+          "status": "unknown",
+          "date_expression": null,
+          "evidence": []
+        }
+      },
+      "interpretation_note": "本句所載職官，任免時間未詳。",
+      "evidence": [
+        {
+          "work_id": "w-sanguozhi",
+          "book_id": "b-sanguozhi-058",
+          "chapter_id": "c-sanguozhi-058-lukang",
+          "source_id": "s-sanguozhi-058-lukang",
+          "paragraph_id": "c-sanguozhi-058-lukang:line087-pei02-02",
+          "quote": "《机云别传》曰：晋太康末，俱入洛，造司空张华，华一见而奇之，曰：「伐吴之役，利在获二俊。」遂为之延誉，荐之诸公。太傅杨骏辟机为祭酒，转太子洗马、尚书著作郎。云为吴王郎中令，出宰浚仪，甚有惠政，吏民怀之，生为立祠。后并历显位。机天才绮练，文藻之美，独冠於时。云亦善属文，清新不及机，而口辩持论过之。于时朝廷多故，机、云并自结於成都王颖。颖用机为平原相，云清河内史。寻转云右司马，甚见委仗。无几而与长沙王构隙，遂举兵攻洛，以机行后将军，督王粹、牵秀等诸军二十万，士龙著南征赋以美其事。机吴人，羁旅单宦，顿居群士之右，多不厌服。机屡战失利，死散过半。初，宦人孟玖，颖所嬖幸，乘宠豫权，云数言其短，颖不能纳，玖又从而毁之。是役也，玖弟超亦领众配机，不奉军令。机绳之以法，超宣言曰陆机将反。及牵秀等谮机於颖，以为持两端，玖又构之於内，颖信之，遣收机，并收云及弟耽，并伏法。机兄弟既江南之秀，亦著名诸夏，并以无罪夷灭，天下痛惜之。机文章为世所重，云所著亦传於世。",
+          "person_mention_id": "c-sanguozhi-058-lukang:line087-pei02-02:m0058"
+        }
+      ],
+      "attestations": [
+        {
+          "id": "t-wu058-k31:a",
+          "paragraph_id": "c-sanguozhi-058-lukang:line087-pei02-02",
+          "person_mention_id": "c-sanguozhi-058-lukang:line087-pei02-02:m0058",
+          "start": 56,
+          "end": 58,
+          "surface": "太傅",
+          "usage": "narrative",
+          "date_expression": null
+        }
+      ],
+      "human_reviewed": false,
+      "reviewer": "Codex（AI 代理）",
       "model": null,
       "period": "未定 → 未定"
     }
@@ -538,6 +587,41 @@
       "chapter_id": "c-jinshu-045-guoyi",
       "source_id": "s-jinshu-045-ws2595687-guoyi",
       "work_title": "晉書"
+    },
+    {
+      "number": 58,
+      "category": "",
+      "title": "陸抗傳",
+      "paragraph_id": "c-sanguozhi-058-lukang:line087-pei02-02",
+      "count": 1,
+      "raw_count": 1,
+      "duplicate_count": 0,
+      "counting_policy": "independent_fixed_witness_occurrences",
+      "quote": "华一见而奇之，曰：「伐吴之役，利在获二俊。」遂为之延誉，荐之诸公。太傅杨骏辟机为祭酒，转太子洗马、尚书著作郎。云为吴王郎中令，出宰浚仪，甚有惠政，吏民怀之，生为立祠。后并历显位。机天才绮练，文藻之美，独冠於时。云亦善属文，清新不及机，而口辩持论过之。于时朝廷多故，机、云并自",
+      "paragraph_ids": [
+        "c-sanguozhi-058-lukang:line087-pei02-02"
+      ],
+      "mention_ids": [
+        "c-sanguozhi-058-lukang:line087-pei02-02:m0058"
+      ],
+      "mention_paragraph_ids": {
+        "c-sanguozhi-058-lukang:line087-pei02-02:m0058": "c-sanguozhi-058-lukang:line087-pei02-02"
+      },
+      "mention_id": "c-sanguozhi-058-lukang:line087-pei02-02:m0058",
+      "occurrence_groups": [
+        {
+          "canonical_mention_id": "c-sanguozhi-058-lukang:line087-pei02-02:m0058",
+          "mention_ids": [
+            "c-sanguozhi-058-lukang:line087-pei02-02:m0058"
+          ],
+          "kind": "paragraph"
+        }
+      ],
+      "work_id": "w-sanguozhi",
+      "book_id": "b-sanguozhi-058",
+      "chapter_id": "c-sanguozhi-058-lukang",
+      "source_id": "s-sanguozhi-058-lukang",
+      "work_title": "三國志"
     },
     {
       "number": 59,
@@ -2795,6 +2879,33 @@
           "source-evidence/jin098-wang-han-ying/reading.json",
           "source-evidence/jin098-wangdun-early/reading.json",
           "source-evidence/jin098-wangdun-main/reading.json"
+        ]
+      }
+    },
+    {
+      "chapter_id": "c-sanguozhi-058-lukang",
+      "work_id": "w-sanguozhi",
+      "book_id": "b-sanguozhi-058",
+      "source_id": "s-sanguozhi-058-lukang",
+      "source": {
+        "title": "三國志卷五十八·吳書十三",
+        "provider": "Wikisource",
+        "url": "https://zh.wikisource.org/w/index.php?oldid=2131313",
+        "permalink": "https://zh.wikisource.org/w/index.php?oldid=2131313",
+        "revision_id": 2131313,
+        "accessed_on": "2026-11-21",
+        "edition": "維基文庫固定修訂，裴注與正文分層。",
+        "extent": "第60至87行。",
+        "text_scope": "partial_chapter",
+        "review_status": "text_checked",
+        "image_verified": false,
+        "rights": "古籍原文，維基文庫轉錄。",
+        "license_url": "https://creativecommons.org/licenses/by-sa/4.0/",
+        "raw_path": "source-evidence/sanguozhi058-lu/sanguozhi058-ws2131313.wikitext",
+        "raw_file_sha256": "8bc2076ba31052c04c70204ac931fa655ed6b4e11c842ae2742ba05bb7b9aa10",
+        "wikitext_sha256": "8bc2076ba31052c04c70204ac931fa655ed6b4e11c842ae2742ba05bb7b9aa10",
+        "collation_witnesses": [
+          "source-evidence/sanguozhi058-lukang/reading.json"
         ]
       }
     }
