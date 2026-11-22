@@ -1,0 +1,102 @@
+{
+  "format_version": "0.2",
+  "record_type": "person_assertion_set",
+  "chapter_id": "c-songshu-092-xuhuo",
+  "assertions": [
+    {
+      "id": "a-song092-xuhuo-miao",
+      "subject_person_id": "1b7_36b_29b_A",
+      "object_person_id": "1b7_36b_29b",
+      "predicate": "father",
+      "qualifiers": {
+        "source_term": "父邈",
+        "reading_basis": {
+          "kind": "song092_prose_kin",
+          "unit": "xuhuo"
+        },
+        "lineage": "paternal"
+      },
+      "evidence": [
+        {
+          "work_id": "w-songshu",
+          "book_id": "b-songshu-092",
+          "chapter_id": "c-songshu-092-xuhuo",
+          "source_id": "s-songshu-092-xuhuo-ws2195614",
+          "paragraph_id": "c-songshu-092-xuhuo:p001",
+          "quote": "徐豁字萬同，東莞姑幕人也，中散大夫廣兄子。父邈，晉太子左衞率。",
+          "subject_person_mention_id": "c-songshu-092-xuhuo:p001:m0000",
+          "object_person_mention_id": "c-songshu-092-xuhuo:p001:m0022"
+        }
+      ],
+      "status": "source_attested",
+      "interpretation_note": "名、字、籍貫及官相合，指東晉徐邈。",
+      "reviewer": "Codex（AI代理）",
+      "model": null,
+      "human_reviewed": false
+    },
+    {
+      "id": "a-song092-xuhuo-guang",
+      "subject_person_id": "1b7_36b_29b_A",
+      "object_person_id": "qf8_544_pvp",
+      "predicate": "paternal_uncle",
+      "qualifiers": {
+        "source_term": "廣兄子",
+        "reading_basis": {
+          "kind": "song092_prose_kin",
+          "unit": "xuhuo"
+        },
+        "generation_difference": -1,
+        "lineage": "paternal",
+        "parent_person_id": "1b7_36b_29b"
+      },
+      "evidence": [
+        {
+          "work_id": "w-songshu",
+          "book_id": "b-songshu-092",
+          "chapter_id": "c-songshu-092-xuhuo",
+          "source_id": "s-songshu-092-xuhuo-ws2195614",
+          "paragraph_id": "c-songshu-092-xuhuo:p001",
+          "quote": "徐豁字萬同，東莞姑幕人也，中散大夫廣兄子。父邈，晉太子左衞率。",
+          "subject_person_mention_id": "c-songshu-092-xuhuo:p001:m0000",
+          "object_person_mention_id": "c-songshu-092-xuhuo:p001:m0017"
+        }
+      ],
+      "status": "source_attested",
+      "interpretation_note": "徐豁為廣兄之子，故廣為父弟。下句父邈，與南33廣兄邈互驗。",
+      "reviewer": "Codex（AI代理）",
+      "model": null,
+      "human_reviewed": false
+    },
+    {
+      "id": "a-song092-xumiao-guang",
+      "subject_person_id": "1b7_36b_29b",
+      "object_person_id": "qf8_544_pvp",
+      "predicate": "brother",
+      "qualifiers": {
+        "source_term": "廣兄子。父邈",
+        "reading_basis": {
+          "kind": "song092_prose_kin",
+          "unit": "xuhuo"
+        },
+        "relative_age": "older"
+      },
+      "evidence": [
+        {
+          "work_id": "w-songshu",
+          "book_id": "b-songshu-092",
+          "chapter_id": "c-songshu-092-xuhuo",
+          "source_id": "s-songshu-092-xuhuo-ws2195614",
+          "paragraph_id": "c-songshu-092-xuhuo:p001",
+          "quote": "徐豁字萬同，東莞姑幕人也，中散大夫廣兄子。父邈，晉太子左衞率。",
+          "subject_person_mention_id": "c-songshu-092-xuhuo:p001:m0022",
+          "object_person_mention_id": "c-songshu-092-xuhuo:p001:m0017"
+        }
+      ],
+      "status": "source_attested",
+      "interpretation_note": "父邈與廣兄子兩句相承，南33「兄邈」。",
+      "reviewer": "Codex（AI代理）",
+      "model": null,
+      "human_reviewed": false
+    }
+  ]
+}

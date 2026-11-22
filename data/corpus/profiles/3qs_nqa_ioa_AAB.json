@@ -263,6 +263,41 @@
       "work_title": "宋書"
     },
     {
+      "number": 51,
+      "category": "",
+      "title": "道憐、義宗與吳郡太守劉遐的本卷親序",
+      "paragraph_id": "c-songshu-051-yizong-xia-family:p001",
+      "count": 1,
+      "raw_count": 1,
+      "duplicate_count": 0,
+      "counting_policy": "independent_fixed_witness_occurrences",
+      "quote": "道憐六子：義欣、義慶、義融、義宗、義賓、義綦。",
+      "paragraph_ids": [
+        "c-songshu-051-yizong-xia-family:p001"
+      ],
+      "mention_ids": [
+        "c-songshu-051-yizong-xia-family:p001:m0000"
+      ],
+      "mention_paragraph_ids": {
+        "c-songshu-051-yizong-xia-family:p001:m0000": "c-songshu-051-yizong-xia-family:p001"
+      },
+      "mention_id": "c-songshu-051-yizong-xia-family:p001:m0000",
+      "occurrence_groups": [
+        {
+          "canonical_mention_id": "c-songshu-051-yizong-xia-family:p001:m0000",
+          "mention_ids": [
+            "c-songshu-051-yizong-xia-family:p001:m0000"
+          ],
+          "kind": "paragraph"
+        }
+      ],
+      "work_id": "w-songshu",
+      "book_id": "b-songshu-051",
+      "chapter_id": "c-songshu-051-yizong-xia-family",
+      "source_id": "s-songshu-051-yizong-xia-family-ws1959959",
+      "work_title": "宋書"
+    },
+    {
       "number": 52,
       "category": "",
       "title": "謝景仁及子恂、孫稚",
@@ -497,6 +532,29 @@
           "character_conversion": {},
           "extraction_note": "原文字位逐一對固定原檔，本文排除校勘註、連結目標及紀年模板的界符；校勘說另列。"
         }
+      }
+    },
+    {
+      "chapter_id": "c-songshu-051-yizong-xia-family",
+      "work_id": "w-songshu",
+      "book_id": "b-songshu-051",
+      "source_id": "s-songshu-051-yizong-xia-family-ws1959959",
+      "source": {
+        "title": "道憐、義宗與吳郡太守劉遐的本卷親序",
+        "provider": "Wikisource",
+        "permalink": "https://zh.wikisource.org/w/index.php?oldid=1959959",
+        "url": "https://zh.wikisource.org/w/index.php?oldid=1959959",
+        "revision_id": 1959959,
+        "edition": "維基文庫固定修訂",
+        "accessed_on": "2026-11-21",
+        "review_status": "text_checked",
+        "image_verified": false,
+        "rights": "古代原文；數位轉錄依維基文庫授權。",
+        "license_url": "https://creativecommons.org/licenses/by-sa/4.0/",
+        "extent": "道憐、義宗與吳郡太守劉遐的本卷親序",
+        "text_scope": "partial_chapter",
+        "raw_path": "source-evidence/song041-wang-family/external/song51-ws1959959.wikitext",
+        "raw_file_sha256": "9d7e879eec7995f066f0ba7740b3433e96b5b3336d693988c35b9416d2f75a4c"
       }
     },
     {
@@ -6741,12 +6799,43 @@
       "reviewer": "Codex（AI代理）",
       "model": null,
       "human_reviewed": false
+    },
+    {
+      "id": "a-qi032-yizong-daolian",
+      "subject_person_id": "3qs_nqa_ioa_AABB",
+      "object_person_id": "3qs_nqa_ioa_AAB",
+      "predicate": "father",
+      "qualifiers": {
+        "source_term": "道憐六子",
+        "reading_basis": {
+          "kind": "qi032_selected_family_clause"
+        },
+        "lineage": "paternal"
+      },
+      "evidence": [
+        {
+          "work_id": "w-songshu",
+          "book_id": "b-songshu-051",
+          "chapter_id": "c-songshu-051-yizong-xia-family",
+          "source_id": "s-songshu-051-yizong-xia-family-ws1959959",
+          "paragraph_id": "c-songshu-051-yizong-xia-family:p001",
+          "quote": "道憐六子：義欣、義慶、義融、義宗、義賓、義綦。",
+          "subject_person_mention_id": "c-songshu-051-yizong-xia-family:p001:m0014",
+          "object_person_mention_id": "c-songshu-051-yizong-xia-family:p001:m0000"
+        }
+      ],
+      "status": "source_attested",
+      "interpretation_note": "依完整親稱、前後具名角色及平行原傳分核。",
+      "reviewer": "Codex（AI代理）",
+      "model": null,
+      "human_reviewed": false
     }
   ],
   "related_people": {
     "3qs_nqa_ioa_AA": "翹〔孝皇帝；高祖之父〕",
     "3qs_nqa_ioa_AAB": "道憐",
     "3qs_nqa_ioa_AABA": "劉義融（桂陽恭侯）",
+    "3qs_nqa_ioa_AABB": "劉義宗（新渝惠侯，字伯奴）",
     "ph1_ms8_hyq_AA": "蕭文夀〔孝懿皇后〕"
   },
   "dates": [],
@@ -6872,6 +6961,36 @@
         }
       ],
       "interpretation_note": "按句中見名、敘事主語及親稱。",
+      "reviewer": "Codex（AI代理）",
+      "model": null,
+      "human_reviewed": false
+    },
+    {
+      "id": "a-qi032-yizong-daolian",
+      "subject_person_id": "3qs_nqa_ioa_AABB",
+      "object_person_id": "3qs_nqa_ioa_AAB",
+      "predicate": "father",
+      "qualifiers": {
+        "source_term": "道憐六子",
+        "reading_basis": {
+          "kind": "qi032_selected_family_clause"
+        },
+        "lineage": "paternal"
+      },
+      "evidence": [
+        {
+          "work_id": "w-songshu",
+          "book_id": "b-songshu-051",
+          "chapter_id": "c-songshu-051-yizong-xia-family",
+          "source_id": "s-songshu-051-yizong-xia-family-ws1959959",
+          "paragraph_id": "c-songshu-051-yizong-xia-family:p001",
+          "quote": "道憐六子：義欣、義慶、義融、義宗、義賓、義綦。",
+          "subject_person_mention_id": "c-songshu-051-yizong-xia-family:p001:m0014",
+          "object_person_mention_id": "c-songshu-051-yizong-xia-family:p001:m0000"
+        }
+      ],
+      "status": "source_attested",
+      "interpretation_note": "依完整親稱、前後具名角色及平行原傳分核。",
       "reviewer": "Codex（AI代理）",
       "model": null,
       "human_reviewed": false

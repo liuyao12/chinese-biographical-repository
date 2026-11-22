@@ -4,10 +4,11 @@ import {workMentionHTML} from './work-titles.js';
 import {nativeProfileReturn} from './native-table-links.js';
 import {escapeHTML as h} from './core.js';
 import {ui} from './i18n.js';
-export function chapterURL(number, category = '', passage = '') {
+export function chapterURL(number, category = '', passage = '', text = '') {
   const p = new URLSearchParams({chapter: String(number)});
   if (category) p.set('category', category);
   if (passage) p.set('passage', passage);
+  if (text) p.set('text', text);
   return 'shiji.html#' + p;
 }
 export function sourcePassageURL(source) {
@@ -20,7 +21,17 @@ export function sourcePassageURL(source) {
     return 'reader.html#'+params;
   }
   const number = source.number || Number(/shiji-(\d{3})/.exec(source.chapter_id || '')?.[1]);
-  return number ? chapterURL(number,source.category || '',source.paragraph_id || '') : '';
+  const text = source.work_id === 'w-shiji' && /^c-shiji-\d{3}-/.test(source.chapter_id || '') ? source.chapter_id : '';
+  return number ? chapterURL(number,source.category || '',source.paragraph_id || '',text) : '';
+}
+
+export function shijiReadingEntry(volume, params) {
+  if (!volume) return volume;
+  const passage = params.get('passage') || '';
+  let selected = volume.excerpts?.find(excerpt =>
+    excerpt.chapter_id === params.get('text') || (!params.has('text') && passage.startsWith(excerpt.chapter_id + ':')));
+  if (!selected && volume.available === 'excerpt') selected = volume.excerpts.find(e => e.chapter_id === volume.chapter_id);
+  return selected ? {...volume, ...selected} : volume;
 }
 
 export function facsimilePageLinks(source, position) {
@@ -111,5 +122,6 @@ export function chapterParagraph(paragraph, people = {}, context = null, workTit
 }
 export function filteredChapters(index, category, query = '') {
   const term = query.trim();
-  return index.chapters.filter(c => (!category || category === 'all' || c.category === category) && (!term || c.title.includes(term) || String(c.number) === term));
+  return index.chapters.filter(c => (!category || category === 'all' || c.category === category)
+    && (!term || c.title.includes(term) || String(c.number) === term || c.excerpts?.some(e => e.title.includes(term))));
 }

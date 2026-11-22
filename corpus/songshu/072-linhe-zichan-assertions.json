@@ -1,0 +1,73 @@
+{
+  "format_version": "0.2",
+  "record_type": "person_assertion_set",
+  "chapter_id": "c-songshu-072-linhe-zichan",
+  "assertions": [
+    {
+      "id": "a-nanqi042-wangyan-zichan-father",
+      "subject_person_id": "hx8_st4_jdd_I",
+      "object_person_id": "hx8_st4_jdd",
+      "predicate": "father",
+      "qualifiers": {
+        "source_term": "孝武帝第十八子",
+        "nanqi042_wangyan_reading": "zichan-father",
+        "lineage": "paternal",
+        "birth_order": {
+          "parent_person_id": "hx8_st4_jdd",
+          "ordinal": 18,
+          "scope": "sons_of_parent",
+          "position": "unspecified",
+          "source_term": "第十八子",
+          "interpretation_status": "source_attested"
+        }
+      },
+      "evidence": [
+        {
+          "work_id": "w-songshu",
+          "book_id": "b-songshu-072",
+          "source_id": "s-songshu-072-linhe-zichan-ws1997159",
+          "chapter_id": "c-songshu-072-linhe-zichan",
+          "paragraph_id": "c-songshu-072-linhe-zichan:p001",
+          "quote": "改封孝武帝第十八子臨賀王子產字孝仁為南平王，繼鑠後，未拜，被殺。",
+          "subject_person_mention_id": "c-songshu-072-linhe-zichan:p001:m0012",
+          "object_person_reference_id": "c-songshu-072-linhe-zichan:p001:r0002"
+        }
+      ],
+      "status": "source_attested",
+      "interpretation_note": "直接書父及諸子中第十八。",
+      "reviewer": "Codex（AI 代理）",
+      "human_reviewed": false,
+      "model": null
+    },
+    {
+      "id": "a-nanqi042-wangyan-zichan-adopt",
+      "subject_person_id": "hx8_st4_jdd_I",
+      "object_person_id": "ece_336_e4c",
+      "predicate": "adoptive_father",
+      "qualifiers": {
+        "source_term": "繼鑠後",
+        "nanqi042_wangyan_reading": "zichan-adopt",
+        "biological_father_assertion_id": "a-nanqi042-wangyan-zichan-father",
+        "biological_father_preserved": true,
+        "modern_legal_status": "not_inferred"
+      },
+      "evidence": [
+        {
+          "work_id": "w-songshu",
+          "book_id": "b-songshu-072",
+          "source_id": "s-songshu-072-linhe-zichan-ws1997159",
+          "chapter_id": "c-songshu-072-linhe-zichan",
+          "paragraph_id": "c-songshu-072-linhe-zichan:p001",
+          "quote": "改封孝武帝第十八子臨賀王子產字孝仁為南平王，繼鑠後，未拜，被殺。",
+          "subject_person_mention_id": "c-songshu-072-linhe-zichan:p001:m0012",
+          "object_person_mention_id": "c-songshu-072-linhe-zichan:p001:m0023"
+        }
+      ],
+      "status": "source_attested",
+      "interpretation_note": "本句明書改封為南平王並繼鑠後，而未拜被殺，生父另存。",
+      "reviewer": "Codex（AI 代理）",
+      "human_reviewed": false,
+      "model": null
+    }
+  ]
+}

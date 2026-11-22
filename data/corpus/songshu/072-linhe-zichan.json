@@ -1,0 +1,208 @@
+{
+  "format_version": "0.2",
+  "record_type": "marked_chapter",
+  "id": "c-songshu-072-linhe-zichan",
+  "work_id": "w-songshu",
+  "book_id": "b-songshu-072",
+  "source_id": "s-songshu-072-linhe-zichan-ws1997159",
+  "title": "臨賀王子產世次、繼後與未拜",
+  "source": {
+    "title": "宋書卷72·臨賀王子產世次、繼後與未拜",
+    "provider": "Wikisource",
+    "url": "https://zh.wikisource.org/w/index.php?oldid=1997159",
+    "permalink": "https://zh.wikisource.org/w/index.php?oldid=1997159",
+    "revision_id": 1997159,
+    "accessed_on": "2026-11-21",
+    "edition": "維基文庫固定數位轉錄",
+    "extent": "孝武帝第十八子劉子產改封南平王、繼鑠後及未拜被殺一段。",
+    "text_scope": "partial_chapter",
+    "image_verified": false,
+    "review_status": "text_checked",
+    "raw_path": "sources/songshu/song072-ws1997159.wikitext",
+    "raw_file_sha256": "cd2c4382536683f029cb539b03761e815ddbacd14695a3aedcf4ef51b559ebb3",
+    "rights": "古代原典及維基文庫數位轉錄。",
+    "license_url": "https://zh.wikisource.org/wiki/Wikisource:著作權資訊",
+    "normalization": {
+      "character_conversion": {},
+      "extraction_note": "投影相應原句，保留字形；移除年號模板定界符。"
+    }
+  },
+  "annotation": {
+    "status": "reviewed",
+    "person_reference_occurrences": [
+      {
+        "id": "c-songshu-072-linhe-zichan:p001:r0002",
+        "surface": "孝武帝",
+        "start": 2,
+        "end": 5,
+        "person_id": "hx8_st4_jdd",
+        "referent_role": "third_person",
+        "paragraph_id": "c-songshu-072-linhe-zichan:p001",
+        "quote": "改封孝武帝第十八子臨賀王子產字孝仁為南平王，繼鑠後，未拜，被殺。",
+        "note": "本卷所稱君主。"
+      }
+    ],
+    "narrative_readings": [
+      {
+        "event_type": "adoptive_succession",
+        "person_ids": [
+          "hx8_st4_jdd_I",
+          "ece_336_e4c"
+        ],
+        "source_anchor": {
+          "paragraph_id": "c-songshu-072-linhe-zichan:p001",
+          "surface": "繼鑠後",
+          "start": 22,
+          "end": 25
+        },
+        "evidence": [
+          {
+            "work_id": "w-songshu",
+            "book_id": "b-songshu-072",
+            "source_id": "s-songshu-072-linhe-zichan-ws1997159",
+            "chapter_id": "c-songshu-072-linhe-zichan",
+            "paragraph_id": "c-songshu-072-linhe-zichan:p001",
+            "quote": "繼鑠後"
+          }
+        ],
+        "interpretation_note": "承南平穆王劉鑠宗祀。生父據同句另記。"
+      }
+    ],
+    "reviewer": "Codex（AI 代理）",
+    "human_reviewed": false,
+    "model": null,
+    "title_proposals": [
+      {
+        "id": "tp-nanqi042-wangyan-s1-18",
+        "proposal_kind": "unassumed_appointment",
+        "outcome": "not_assumed",
+        "appointment_stage": "appointment",
+        "non_assumption_kind": "did_not_take_up",
+        "person_id": "hx8_st4_jdd_I",
+        "title": "南平王",
+        "person_mention_id": "c-songshu-072-linhe-zichan:p001:m0012",
+        "role_anchor": {
+          "paragraph_id": "c-songshu-072-linhe-zichan:p001",
+          "surface": "南平王",
+          "start": 18,
+          "end": 21
+        },
+        "appointment_anchor": {
+          "paragraph_id": "c-songshu-072-linhe-zichan:p001",
+          "surface": "改封",
+          "start": 0,
+          "end": 2
+        },
+        "non_assumption_anchor": {
+          "paragraph_id": "c-songshu-072-linhe-zichan:p001",
+          "surface": "未拜",
+          "start": 26,
+          "end": 28
+        },
+        "date_expression": null,
+        "evidence": [
+          {
+            "work_id": "w-songshu",
+            "book_id": "b-songshu-072",
+            "source_id": "s-songshu-072-linhe-zichan-ws1997159",
+            "chapter_id": "c-songshu-072-linhe-zichan",
+            "paragraph_id": "c-songshu-072-linhe-zichan:p001",
+            "quote": "改封孝武帝第十八子臨賀王子產字孝仁為南平王，繼鑠後，未拜，被殺。",
+            "person_mention_id": "c-songshu-072-linhe-zichan:p001:m0012"
+          }
+        ],
+        "status": "contextual_provisional",
+        "interpretation_note": "依相鄰任用與未受詞；去留逐項分。",
+        "reviewer": "Codex（AI 代理）",
+        "human_reviewed": false,
+        "model": null
+      }
+    ]
+  },
+  "paragraphs": [
+    {
+      "id": "c-songshu-072-linhe-zichan:p001",
+      "text": "改封孝武帝第十八子臨賀王子產字孝仁為南平王，繼鑠後，未拜，被殺。",
+      "mentions": [
+        {
+          "id": "c-songshu-072-linhe-zichan:p001:m0012",
+          "surface": "子產",
+          "start": 12,
+          "end": 14,
+          "person_id": "hx8_st4_jdd_I",
+          "kind": "person",
+          "status": "contextual_provisional",
+          "interpretation_note": "按本傳及官府原句。"
+        },
+        {
+          "id": "c-songshu-072-linhe-zichan:p001:m0015",
+          "surface": "孝仁",
+          "start": 15,
+          "end": 17,
+          "person_id": "hx8_st4_jdd_I",
+          "kind": "person",
+          "status": "contextual_provisional",
+          "interpretation_note": "按本傳及官府原句。"
+        },
+        {
+          "id": "c-songshu-072-linhe-zichan:p001:m0023",
+          "surface": "鑠",
+          "start": 23,
+          "end": 24,
+          "person_id": "ece_336_e4c",
+          "kind": "person",
+          "status": "contextual_provisional",
+          "interpretation_note": "按本傳及官府原句。"
+        }
+      ],
+      "text_layer": "received_chapter",
+      "annotation_status": "reviewed",
+      "source_position": {
+        "revision_id": 1997159,
+        "source_layer": "received_biography",
+        "first_line": 28,
+        "last_line": 28,
+        "line_start": 157,
+        "line_end": 189,
+        "raw_start": 2156,
+        "raw_end": 2188,
+        "raw_character_offsets": [
+          2156,
+          2157,
+          2158,
+          2159,
+          2160,
+          2161,
+          2162,
+          2163,
+          2164,
+          2165,
+          2166,
+          2167,
+          2168,
+          2169,
+          2170,
+          2171,
+          2172,
+          2173,
+          2174,
+          2175,
+          2176,
+          2177,
+          2178,
+          2179,
+          2180,
+          2181,
+          2182,
+          2183,
+          2184,
+          2185,
+          2186,
+          2187
+        ],
+        "projection_sha256": "dd663c2a0880e9836c77ea89ac58557815ffb5dc4dda123f167c4ddd76c5f6fb"
+      }
+    }
+  ],
+  "text_sha256": "d49eafa683e55e59b988b12b1a3b991fb108f956c81b2920c52a4a75f7415474"
+}
