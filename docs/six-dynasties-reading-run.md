@@ -432,3 +432,18 @@
 武英殿本阮令嬴傳載天監六年八月生世祖、大同六年六月薨，數位《梁書》作天監七年、大同六年，數位《南史》作天監七年、大同九年。三篇都記阮氏六十七歲。《梁書》元帝紀生年條另有天監七年八月丁巳。王沖傳殿本自一上第五欄至二下第七欄，共三十三欄，讀作「佐藩莅人」，固定數位本作「佐藩两人」。
 
 [吳書后妃傳界](../source-evidence/sanguozhi050-consorts/survey.json) · [張尚柔兩書親屬](../source-evidence/liang007-zhangshangrou/reading.json) · [郗徽殿本](../source-evidence/liang007-xihui/wyd164-reading.json) · [阮令嬴殿本逐欄](../source-evidence/liang007-ruanlingying/wyd164-reading.json) · [徐昭佩及王夫人](../source-evidence/liang007-xuzhaopei/reading.json) · [王沖原欄](../source-evidence/chenshu017-wangyuan/wangchong-wuyingdian.json) · [王沖各任及本紀歿日](../source-evidence/chenshu017-wangyuan/wangchong-reading.json)
+
+## 第二十九批　吳主五子、梁忠臣與陳郡袁氏
+
+本批新核四十二項。六十七卷已有清冊，共一千零九十二項傳目，八百四十八項備有全文，八百四十七項完成人物初讀，八百四十一項完成逐項覆核。
+
+| 卷篇 | 新核傳目 | 原文與校勘 |
+| --- | ---: | --- |
+| 《三國志》卷五十九 | 21 | 孫登、孫慮、孫和、孫霸、孫奮五傳及十六處附敘。殿本稱霸為和「同母弟」，卷末考證疑「同母」二字衍。謝姬僅依原句記為孫基、孫壹祖母。孫奮遇誅子數，數位本五、殿本三。 |
+| 《梁書》卷七、《南史》卷十二 | 6 | 兩書丁令光及丁父各二項，《南史》敬夏太后與敬王皇后各一項。《梁書》卷七六主傳、十附敘至此逐字覆核完畢。丁父在梁書名仲遷，在南史名道遷。武英殿本丁令光卒日作十月庚辰，兩書數位后傳與梁武帝紀作十一月庚辰。 |
+| 《梁書》卷四十三 | 8 | 韋粲、韋臧、江子一、江子四、江子五、張嵊、沈浚及柳敬禮，共一百四十四句。卷末史論另有三句。青塘同死者六人的身後贈官各繫其本人。沈浚對侯景自言六十，《通鑑》記五十。韋粲傳「中大同十一年」數位與殿本同文。 |
+| 《陳書》卷十七 | 7 | 袁敬、袁樞二傳，加上王琳、歐陽紇及袁樞議禮中的三則附敘。五個原題及五則獨立附敘，覆蓋固定本傳文二十二行共三千八百七十五個原始碼位。卷末史評另錄。 |
+
+袁敬本紀卒於至德三年九月甲戌，袁樞卒於光大元年正月癸酉，各與本傳報齡對讀。陳高祖長女在《陳書》稱永世公主，在《南史》作永嗣公主。樞議所引晉、梁兩例分別為杜預與高陵宣公主、王氏與新安穆公主。尚書主客請加錢蕆駙馬都尉並贈其子岊官，袁樞另議追贈岊亭侯。傳中僅記眾人取其議，未載所請各爵官實授之詔。
+
+[吳主五子全卷](../source-evidence/sanguozhi059-roll-close/reading.json) · [丁令光殿本逐欄](../source-evidence/liang007-dinglingguang/wyd164-reading.json) · [梁忠臣傳卷界](../source-evidence/liang043-complete/volume-boundaries.json) · [韋粲諸子弟](../source-evidence/liang043-complete/weican-reading.json) · [陳書王袁全卷傳界](../source-evidence/chenshu017-wangyuan/volume-boundaries.json) · [袁敬殿本](../source-evidence/chenshu017-wangyuan/yuanjing-wuyingdian.json) · [袁樞殿本](../source-evidence/chenshu017-wangyuan/yuanshu-wuyingdian.json)

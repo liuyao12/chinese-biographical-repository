@@ -1,0 +1,245 @@
+{
+  "schema_version": 1,
+  "id": "4kt_0ar_aqo_AA",
+  "canonical_person_id": "4kt_0ar_aqo_AA",
+  "label": "裴髦（中散大夫）",
+  "identity_note": "裴髦（中散大夫），見本組原文及身份互校。",
+  "review": "ai_provisional",
+  "names": [
+    "髦"
+  ],
+  "titles": [],
+  "addresses": [],
+  "occurrences": [
+    {
+      "number": 28,
+      "category": "",
+      "title": "韋放與裴之高父祖",
+      "paragraph_id": "c-liangshu-028-wei-pei-first:p003",
+      "count": 1,
+      "raw_count": 1,
+      "duplicate_count": 0,
+      "counting_policy": "independent_fixed_witness_occurrences",
+      "quote": "之高字如山，邃兄中散大夫髦之子也。",
+      "paragraph_ids": [
+        "c-liangshu-028-wei-pei-first:p003"
+      ],
+      "mention_ids": [
+        "c-liangshu-028-wei-pei-first:p003:m0012"
+      ],
+      "mention_paragraph_ids": {
+        "c-liangshu-028-wei-pei-first:p003:m0012": "c-liangshu-028-wei-pei-first:p003"
+      },
+      "mention_id": "c-liangshu-028-wei-pei-first:p003:m0012",
+      "occurrence_groups": [
+        {
+          "canonical_mention_id": "c-liangshu-028-wei-pei-first:p003:m0012",
+          "mention_ids": [
+            "c-liangshu-028-wei-pei-first:p003:m0012"
+          ],
+          "kind": "paragraph"
+        }
+      ],
+      "work_id": "w-liangshu",
+      "book_id": "b-liangshu-028",
+      "chapter_id": "c-liangshu-028-wei-pei-first",
+      "source_id": "s-liangshu-028-wei-pei-first-ws1511902",
+      "work_title": "梁書"
+    }
+  ],
+  "table_occurrences": [],
+  "sources": [
+    {
+      "chapter_id": "c-liangshu-028-wei-pei-first",
+      "work_id": "w-liangshu",
+      "book_id": "b-liangshu-028",
+      "source_id": "s-liangshu-028-wei-pei-first-ws1511902",
+      "source": {
+        "title": "韋放與裴之高父祖",
+        "provider": "Wikisource",
+        "permalink": "https://zh.wikisource.org/w/index.php?oldid=1511902",
+        "url": "https://zh.wikisource.org/w/index.php?oldid=1511902",
+        "revision_id": 1511902,
+        "edition": "維基文庫固定修訂",
+        "accessed_on": "2026-11-21",
+        "review_status": "text_checked",
+        "image_verified": false,
+        "rights": "古代原文；數位轉錄依維基文庫授權。",
+        "license_url": "https://creativecommons.org/licenses/by-sa/4.0/",
+        "extent": "韋放與裴之高父祖",
+        "text_scope": "partial_chapter",
+        "raw_path": "source-evidence/liang043-complete/external/liang028-ws1511902.wikitext",
+        "raw_file_sha256": "7dddc5f314909ad5670a3b530f0c1c1c8ecc4f7748c4166a8cb5558a6b8cd080"
+      }
+    }
+  ],
+  "relations": [
+    {
+      "id": "a-liang043-mao-sui",
+      "subject_person_id": "4kt_0ar_aqo_AA",
+      "object_person_id": "vtp_lo9_0af",
+      "predicate": "brother",
+      "qualifiers": {
+        "source_term": "邃兄中散大夫髦"
+      },
+      "evidence": [
+        {
+          "work_id": "w-liangshu",
+          "book_id": "b-liangshu-028",
+          "chapter_id": "c-liangshu-028-wei-pei-first",
+          "source_id": "s-liangshu-028-wei-pei-first-ws1511902",
+          "paragraph_id": "c-liangshu-028-wei-pei-first:p003",
+          "quote": "之高字如山，邃兄中散大夫髦之子也。",
+          "subject_person_mention_id": "c-liangshu-028-wei-pei-first:p003:m0012",
+          "object_person_mention_id": "c-liangshu-028-wei-pei-first:p003:m0006"
+        }
+      ],
+      "status": "source_attested",
+      "interpretation_note": "髦是邃之兄，長幼見「邃兄」。",
+      "reviewer": "Codex（AI代理）",
+      "model": null,
+      "human_reviewed": false
+    },
+    {
+      "id": "a-liang043-zhigao-mao",
+      "subject_person_id": "4kt_0ar_aqo_AAA",
+      "object_person_id": "4kt_0ar_aqo_AA",
+      "predicate": "father",
+      "qualifiers": {
+        "source_term": "中散大夫髦之子",
+        "lineage": "paternal"
+      },
+      "evidence": [
+        {
+          "work_id": "w-liangshu",
+          "book_id": "b-liangshu-028",
+          "chapter_id": "c-liangshu-028-wei-pei-first",
+          "source_id": "s-liangshu-028-wei-pei-first-ws1511902",
+          "paragraph_id": "c-liangshu-028-wei-pei-first:p003",
+          "quote": "之高字如山，邃兄中散大夫髦之子也。",
+          "subject_person_mention_id": "c-liangshu-028-wei-pei-first:p003:m0000",
+          "object_person_mention_id": "c-liangshu-028-wei-pei-first:p003:m0012"
+        }
+      ],
+      "status": "source_attested",
+      "interpretation_note": "之高之父裴髦。",
+      "reviewer": "Codex（AI代理）",
+      "model": null,
+      "human_reviewed": false
+    }
+  ],
+  "related_people": {
+    "4kt_0ar_aqo_AA": "裴髦（中散大夫）",
+    "4kt_0ar_aqo_AAA": "裴之高（字如山）",
+    "vtp_lo9_0af": "裴邃〔楊侃傳〕"
+  },
+  "dates": [],
+  "name_components": [],
+  "person_ids": [
+    "4kt_0ar_aqo_AA"
+  ],
+  "inferred_parent_paths": [
+    {
+      "connection": "father",
+      "generation_distance": 1,
+      "parent_person_id": "4kt_0ar_aqo_A",
+      "source_assertion_id": null,
+      "parent_connection": {
+        "type": "shared_father_through_siblings",
+        "sibling_assertion_ids": [
+          "a-liang043-mao-sui"
+        ],
+        "sibling_father_assertion_id": "a-liang043-sui-zhongmu"
+      },
+      "evidence": [
+        {
+          "work_id": "w-liangshu",
+          "book_id": "b-liangshu-028",
+          "chapter_id": "c-liangshu-028-wei-pei-first",
+          "source_id": "s-liangshu-028-wei-pei-first-ws1511902",
+          "paragraph_id": "c-liangshu-028-wei-pei-first:p003",
+          "quote": "之高字如山，邃兄中散大夫髦之子也。",
+          "subject_person_mention_id": "c-liangshu-028-wei-pei-first:p003:m0012",
+          "object_person_mention_id": "c-liangshu-028-wei-pei-first:p003:m0006",
+          "source_term": "邃兄中散大夫髦",
+          "source_assertion_id": "a-liang043-mao-sui"
+        },
+        {
+          "work_id": "w-liangshu",
+          "book_id": "b-liangshu-028",
+          "chapter_id": "c-liangshu-028-wei-pei-first",
+          "source_id": "s-liangshu-028-wei-pei-first-ws1511902",
+          "paragraph_id": "c-liangshu-028-wei-pei-first:p002",
+          "quote": "裴邃字淵明，河東聞喜人，魏襄州刺史綽之後也。祖壽孫，寓居壽陽，爲宋武帝前軍長史。父仲穆，驍騎將軍。",
+          "subject_person_mention_id": "c-liangshu-028-wei-pei-first:p002:m0000",
+          "object_person_mention_id": "c-liangshu-028-wei-pei-first:p002:m0041",
+          "source_term": "父仲穆",
+          "source_assertion_id": "a-liang043-sui-zhongmu"
+        }
+      ],
+      "status": "contextual_provisional",
+      "human_reviewed": false,
+      "interpretation_note": "一處明稱兄弟，另一處明父，按兩條具名證詞暫接同父。",
+      "person_id": "4kt_0ar_aqo_AA"
+    }
+  ],
+  "preferred_relations": [
+    {
+      "id": "a-liang043-mao-sui",
+      "subject_person_id": "4kt_0ar_aqo_AA",
+      "object_person_id": "vtp_lo9_0af",
+      "predicate": "brother",
+      "qualifiers": {
+        "source_term": "邃兄中散大夫髦"
+      },
+      "evidence": [
+        {
+          "work_id": "w-liangshu",
+          "book_id": "b-liangshu-028",
+          "chapter_id": "c-liangshu-028-wei-pei-first",
+          "source_id": "s-liangshu-028-wei-pei-first-ws1511902",
+          "paragraph_id": "c-liangshu-028-wei-pei-first:p003",
+          "quote": "之高字如山，邃兄中散大夫髦之子也。",
+          "subject_person_mention_id": "c-liangshu-028-wei-pei-first:p003:m0012",
+          "object_person_mention_id": "c-liangshu-028-wei-pei-first:p003:m0006"
+        }
+      ],
+      "status": "source_attested",
+      "interpretation_note": "髦是邃之兄，長幼見「邃兄」。",
+      "reviewer": "Codex（AI代理）",
+      "model": null,
+      "human_reviewed": false
+    },
+    {
+      "id": "a-liang043-zhigao-mao",
+      "subject_person_id": "4kt_0ar_aqo_AAA",
+      "object_person_id": "4kt_0ar_aqo_AA",
+      "predicate": "father",
+      "qualifiers": {
+        "source_term": "中散大夫髦之子",
+        "lineage": "paternal"
+      },
+      "evidence": [
+        {
+          "work_id": "w-liangshu",
+          "book_id": "b-liangshu-028",
+          "chapter_id": "c-liangshu-028-wei-pei-first",
+          "source_id": "s-liangshu-028-wei-pei-first-ws1511902",
+          "paragraph_id": "c-liangshu-028-wei-pei-first:p003",
+          "quote": "之高字如山，邃兄中散大夫髦之子也。",
+          "subject_person_mention_id": "c-liangshu-028-wei-pei-first:p003:m0000",
+          "object_person_mention_id": "c-liangshu-028-wei-pei-first:p003:m0012"
+        }
+      ],
+      "status": "source_attested",
+      "interpretation_note": "之高之父裴髦。",
+      "reviewer": "Codex（AI代理）",
+      "model": null,
+      "human_reviewed": false
+    }
+  ],
+  "age_assertions": [],
+  "life_events": [],
+  "life_event_date_decisions": [],
+  "selected_life_event_dates": []
+}

@@ -8,7 +8,9 @@
   "names": [
     "魯王霸",
     "霸",
-    "魯王"
+    "魯王",
+    "孫霸",
+    "子威"
   ],
   "titles": [
     {
@@ -56,6 +58,54 @@
       "status": "source_attested",
       "reviewer": "Codex（AI 代理）",
       "human_reviewed": false,
+      "model": null,
+      "period": "未定 → 未定"
+    },
+    {
+      "id": "t-wu059-ba-0",
+      "person_id": "572_278_cba_B",
+      "kind": "noble_rank",
+      "title": "魯王",
+      "mode": "attestation",
+      "status": "source_attested",
+      "effective_period": {
+        "start": {
+          "status": "unknown",
+          "date_expression": null,
+          "evidence": []
+        },
+        "end": {
+          "status": "unknown",
+          "date_expression": null,
+          "evidence": []
+        }
+      },
+      "interpretation_note": "本句所載職官，任免時間未詳。",
+      "evidence": [
+        {
+          "work_id": "w-sanguozhi",
+          "book_id": "b-sanguozhi-059",
+          "chapter_id": "c-sanguozhi-059-ba",
+          "source_id": "s-sanguozhi-059-ba",
+          "paragraph_id": "c-sanguozhi-059-ba:line039",
+          "quote": "孫霸字子威，和弟也。和爲太子。霸爲魯王，寵愛崇特，與和無殊。頃之，和、霸不穆之聲聞於權耳，權禁斷往來，假以精學。督軍使者羊衜上疏曰：「臣聞古之有天下者，皆先顯別適庶，封建子弟，所以尊重祖宗，爲國藩表也。二宮拜授，海內稱宜，斯乃大吳興隆之基。頃聞二宮並絕賔客，遠近悚然，大小失望。竊從下風，聽採衆論，咸謂二宮智達英茂，自正名建號，於今三年，德行內著，美稱外昭，西北二隅，乆所服聞。謂陛下當副順遐邇所以歸德，勤命二宮賔延四遠，使異國聞聲，思爲臣妾。今旣未垂意於此，而發明詔，省奪備衞，抑絕賔客，使四方禮敬，不復得通，雖實陛下敦尚古義，欲令二宮專志於學，不復顧慮觀聽小宜，期於溫故博物而已，然非臣下傾企喁喁之至願也。或謂二宮不遵典式，此臣所以寢息不寧。就如所嫌，猶宜補察，密加斟酌，不使遠近得容異言。臣懼積疑成謗，乆將宣流，而西北二隅，去國不遠，異同之語，易以聞達。聞達之日，聲論當興，將謂二宮有不順之愆，不審陛下何以解之？若無以解異國，則亦無以釋境內。境內守疑，異國興謗，非所以育巍巍，鎮社稷也。願陛下早發優詔，使二宮周旋禮命如初，則天清地晏，萬國幸甚矣。」",
+          "person_mention_id": "c-sanguozhi-059-ba:line039:m0000"
+        }
+      ],
+      "attestations": [
+        {
+          "id": "t-wu059-ba-0:a",
+          "paragraph_id": "c-sanguozhi-059-ba:line039",
+          "person_mention_id": "c-sanguozhi-059-ba:line039:m0000",
+          "start": 17,
+          "end": 19,
+          "surface": "魯王",
+          "usage": "narrative",
+          "date_expression": null
+        }
+      ],
+      "human_reviewed": false,
+      "reviewer": "Codex（AI 代理）",
       "model": null,
       "period": "未定 → 未定"
     }
@@ -320,6 +370,303 @@
       "work_title": "三國志"
     },
     {
+      "number": 59,
+      "category": "",
+      "title": "卷末評",
+      "paragraph_id": "c-sanguozhi-059-appraisal:line053",
+      "count": 1,
+      "raw_count": 1,
+      "duplicate_count": 0,
+      "counting_policy": "independent_fixed_witness_occurrences",
+      "quote": "茂美之德。慮、和並有好善之姿，規自砥礪，或短命早終，或不得其死，哀哉！霸以庶干適，奮不遵軌度，固取危亡之道也。然奮之誅夷，橫遇飛禍矣。",
+      "paragraph_ids": [
+        "c-sanguozhi-059-appraisal:line053"
+      ],
+      "mention_ids": [
+        "c-sanguozhi-059-appraisal:line053:m0047"
+      ],
+      "mention_paragraph_ids": {
+        "c-sanguozhi-059-appraisal:line053:m0047": "c-sanguozhi-059-appraisal:line053"
+      },
+      "mention_id": "c-sanguozhi-059-appraisal:line053:m0047",
+      "occurrence_groups": [
+        {
+          "canonical_mention_id": "c-sanguozhi-059-appraisal:line053:m0047",
+          "mention_ids": [
+            "c-sanguozhi-059-appraisal:line053:m0047"
+          ],
+          "kind": "paragraph"
+        }
+      ],
+      "work_id": "w-sanguozhi",
+      "book_id": "b-sanguozhi-059",
+      "chapter_id": "c-sanguozhi-059-appraisal",
+      "source_id": "s-sanguozhi-059-appraisal",
+      "work_title": "三國志"
+    },
+    {
+      "number": 59,
+      "category": "",
+      "title": "孫霸傳",
+      "paragraph_id": "c-sanguozhi-059-ba:line039",
+      "count": 11,
+      "raw_count": 11,
+      "duplicate_count": 0,
+      "counting_policy": "independent_fixed_witness_occurrences",
+      "quote": "孫霸字子威，和弟也。和爲太子。霸爲魯王，寵愛崇特，與和無殊。頃之，和、霸不穆之聲聞於權耳，權禁斷往來，假以精學。督軍使者羊衜上疏曰：「臣聞古之有天下者，皆先顯別適庶，封建子弟，所以尊重祖宗，爲國藩表也。二",
+      "paragraph_ids": [
+        "c-sanguozhi-059-ba:line039",
+        "c-sanguozhi-059-ba:line041",
+        "c-sanguozhi-059-ba:line043"
+      ],
+      "mention_ids": [
+        "c-sanguozhi-059-ba:line039:m0000",
+        "c-sanguozhi-059-ba:line039:m0003",
+        "c-sanguozhi-059-ba:line039:m0015",
+        "c-sanguozhi-059-ba:line039:m0035",
+        "c-sanguozhi-059-ba:line041:m0016",
+        "c-sanguozhi-059-ba:line041:m0033",
+        "c-sanguozhi-059-ba:line041:m0062",
+        "c-sanguozhi-059-ba:line041:m0079",
+        "c-sanguozhi-059-ba:line043:m0000",
+        "c-sanguozhi-059-ba:line043:m0072",
+        "c-sanguozhi-059-ba:line043:m0184"
+      ],
+      "mention_paragraph_ids": {
+        "c-sanguozhi-059-ba:line039:m0000": "c-sanguozhi-059-ba:line039",
+        "c-sanguozhi-059-ba:line039:m0003": "c-sanguozhi-059-ba:line039",
+        "c-sanguozhi-059-ba:line039:m0015": "c-sanguozhi-059-ba:line039",
+        "c-sanguozhi-059-ba:line039:m0035": "c-sanguozhi-059-ba:line039",
+        "c-sanguozhi-059-ba:line041:m0016": "c-sanguozhi-059-ba:line041",
+        "c-sanguozhi-059-ba:line041:m0033": "c-sanguozhi-059-ba:line041",
+        "c-sanguozhi-059-ba:line041:m0062": "c-sanguozhi-059-ba:line041",
+        "c-sanguozhi-059-ba:line041:m0079": "c-sanguozhi-059-ba:line041",
+        "c-sanguozhi-059-ba:line043:m0000": "c-sanguozhi-059-ba:line043",
+        "c-sanguozhi-059-ba:line043:m0072": "c-sanguozhi-059-ba:line043",
+        "c-sanguozhi-059-ba:line043:m0184": "c-sanguozhi-059-ba:line043"
+      },
+      "mention_id": "c-sanguozhi-059-ba:line039:m0000",
+      "occurrence_groups": [
+        {
+          "canonical_mention_id": "c-sanguozhi-059-ba:line039:m0000",
+          "mention_ids": [
+            "c-sanguozhi-059-ba:line039:m0000"
+          ],
+          "kind": "paragraph"
+        },
+        {
+          "canonical_mention_id": "c-sanguozhi-059-ba:line039:m0003",
+          "mention_ids": [
+            "c-sanguozhi-059-ba:line039:m0003"
+          ],
+          "kind": "paragraph"
+        },
+        {
+          "canonical_mention_id": "c-sanguozhi-059-ba:line039:m0015",
+          "mention_ids": [
+            "c-sanguozhi-059-ba:line039:m0015"
+          ],
+          "kind": "paragraph"
+        },
+        {
+          "canonical_mention_id": "c-sanguozhi-059-ba:line039:m0035",
+          "mention_ids": [
+            "c-sanguozhi-059-ba:line039:m0035"
+          ],
+          "kind": "paragraph"
+        },
+        {
+          "canonical_mention_id": "c-sanguozhi-059-ba:line041:m0016",
+          "mention_ids": [
+            "c-sanguozhi-059-ba:line041:m0016"
+          ],
+          "kind": "paragraph"
+        },
+        {
+          "canonical_mention_id": "c-sanguozhi-059-ba:line041:m0033",
+          "mention_ids": [
+            "c-sanguozhi-059-ba:line041:m0033"
+          ],
+          "kind": "paragraph"
+        },
+        {
+          "canonical_mention_id": "c-sanguozhi-059-ba:line041:m0062",
+          "mention_ids": [
+            "c-sanguozhi-059-ba:line041:m0062"
+          ],
+          "kind": "paragraph"
+        },
+        {
+          "canonical_mention_id": "c-sanguozhi-059-ba:line041:m0079",
+          "mention_ids": [
+            "c-sanguozhi-059-ba:line041:m0079"
+          ],
+          "kind": "paragraph"
+        },
+        {
+          "canonical_mention_id": "c-sanguozhi-059-ba:line043:m0000",
+          "mention_ids": [
+            "c-sanguozhi-059-ba:line043:m0000"
+          ],
+          "kind": "paragraph"
+        },
+        {
+          "canonical_mention_id": "c-sanguozhi-059-ba:line043:m0072",
+          "mention_ids": [
+            "c-sanguozhi-059-ba:line043:m0072"
+          ],
+          "kind": "paragraph"
+        },
+        {
+          "canonical_mention_id": "c-sanguozhi-059-ba:line043:m0184",
+          "mention_ids": [
+            "c-sanguozhi-059-ba:line043:m0184"
+          ],
+          "kind": "paragraph"
+        }
+      ],
+      "work_id": "w-sanguozhi",
+      "book_id": "b-sanguozhi-059",
+      "chapter_id": "c-sanguozhi-059-ba",
+      "source_id": "s-sanguozhi-059-ba",
+      "work_title": "三國志"
+    },
+    {
+      "number": 59,
+      "category": "",
+      "title": "孫奮傳",
+      "paragraph_id": "c-sanguozhi-059-fen:line046",
+      "count": 3,
+      "raw_count": 3,
+      "duplicate_count": 0,
+      "counting_policy": "independent_fixed_witness_occurrences",
+      "quote": "孫奮字子揚，霸弟也，母曰仲姬。太元二年，立爲齊王，居武昌。權薨，太傅諸葛恪不欲諸王處江濵兵馬之地，徙奮於豫章。奮怒，不從命，又數越法度。恪上牋諫曰：「帝王之尊，與天同位，是以家天下，臣父兄，四海之內，皆爲臣妾。仇讎",
+      "paragraph_ids": [
+        "c-sanguozhi-059-fen:line046"
+      ],
+      "mention_ids": [
+        "c-sanguozhi-059-fen:line046:m0006",
+        "c-sanguozhi-059-fen:line046:m0613",
+        "c-sanguozhi-059-fen:line046:m0733"
+      ],
+      "mention_paragraph_ids": {
+        "c-sanguozhi-059-fen:line046:m0006": "c-sanguozhi-059-fen:line046",
+        "c-sanguozhi-059-fen:line046:m0613": "c-sanguozhi-059-fen:line046",
+        "c-sanguozhi-059-fen:line046:m0733": "c-sanguozhi-059-fen:line046"
+      },
+      "mention_id": "c-sanguozhi-059-fen:line046:m0006",
+      "occurrence_groups": [
+        {
+          "canonical_mention_id": "c-sanguozhi-059-fen:line046:m0006",
+          "mention_ids": [
+            "c-sanguozhi-059-fen:line046:m0006"
+          ],
+          "kind": "paragraph"
+        },
+        {
+          "canonical_mention_id": "c-sanguozhi-059-fen:line046:m0613",
+          "mention_ids": [
+            "c-sanguozhi-059-fen:line046:m0613"
+          ],
+          "kind": "paragraph"
+        },
+        {
+          "canonical_mention_id": "c-sanguozhi-059-fen:line046:m0733",
+          "mention_ids": [
+            "c-sanguozhi-059-fen:line046:m0733"
+          ],
+          "kind": "paragraph"
+        }
+      ],
+      "work_id": "w-sanguozhi",
+      "book_id": "b-sanguozhi-059",
+      "chapter_id": "c-sanguozhi-059-fen",
+      "source_id": "s-sanguozhi-059-fen",
+      "work_title": "三國志"
+    },
+    {
+      "number": 59,
+      "category": "",
+      "title": "孫和傳",
+      "paragraph_id": "c-sanguozhi-059-he:line032",
+      "count": 6,
+      "raw_count": 6,
+      "duplicate_count": 0,
+      "counting_policy": "independent_fixed_witness_occurrences",
+      "quote": "言王夫人見上寢疾，有喜色。權由是發怒，夫人憂死，而和寵稍損，懼於廢黜。魯王霸覬覦滋甚，陸遜、吾粲、顧譚等數陳適庶之義，理不可奪，全寄、楊笁爲魯王霸支黨，譖愬日興。粲遂下獄誅，譚徙交州。權沈吟者歷年，後遂幽閉和。於是驃騎將軍朱據、尚書僕射屈晃率諸將吏泥頭自縛，連日詣闕請和。權登",
+      "paragraph_ids": [
+        "c-sanguozhi-059-he:line032",
+        "c-sanguozhi-059-he:line032-pei01-01",
+        "c-sanguozhi-059-he:line032-pei01-02"
+      ],
+      "mention_ids": [
+        "c-sanguozhi-059-he:line032:m0099",
+        "c-sanguozhi-059-he:line032:m0134",
+        "c-sanguozhi-059-he:line032-pei01-01:m0019",
+        "c-sanguozhi-059-he:line032-pei01-02:m0035",
+        "c-sanguozhi-059-he:line032-pei01-02:m0075",
+        "c-sanguozhi-059-he:line032-pei01-02:m0110"
+      ],
+      "mention_paragraph_ids": {
+        "c-sanguozhi-059-he:line032:m0099": "c-sanguozhi-059-he:line032",
+        "c-sanguozhi-059-he:line032:m0134": "c-sanguozhi-059-he:line032",
+        "c-sanguozhi-059-he:line032-pei01-01:m0019": "c-sanguozhi-059-he:line032-pei01-01",
+        "c-sanguozhi-059-he:line032-pei01-02:m0035": "c-sanguozhi-059-he:line032-pei01-02",
+        "c-sanguozhi-059-he:line032-pei01-02:m0075": "c-sanguozhi-059-he:line032-pei01-02",
+        "c-sanguozhi-059-he:line032-pei01-02:m0110": "c-sanguozhi-059-he:line032-pei01-02"
+      },
+      "mention_id": "c-sanguozhi-059-he:line032:m0099",
+      "occurrence_groups": [
+        {
+          "canonical_mention_id": "c-sanguozhi-059-he:line032:m0099",
+          "mention_ids": [
+            "c-sanguozhi-059-he:line032:m0099"
+          ],
+          "kind": "paragraph"
+        },
+        {
+          "canonical_mention_id": "c-sanguozhi-059-he:line032:m0134",
+          "mention_ids": [
+            "c-sanguozhi-059-he:line032:m0134"
+          ],
+          "kind": "paragraph"
+        },
+        {
+          "canonical_mention_id": "c-sanguozhi-059-he:line032-pei01-01:m0019",
+          "mention_ids": [
+            "c-sanguozhi-059-he:line032-pei01-01:m0019"
+          ],
+          "kind": "paragraph"
+        },
+        {
+          "canonical_mention_id": "c-sanguozhi-059-he:line032-pei01-02:m0035",
+          "mention_ids": [
+            "c-sanguozhi-059-he:line032-pei01-02:m0035"
+          ],
+          "kind": "paragraph"
+        },
+        {
+          "canonical_mention_id": "c-sanguozhi-059-he:line032-pei01-02:m0075",
+          "mention_ids": [
+            "c-sanguozhi-059-he:line032-pei01-02:m0075"
+          ],
+          "kind": "paragraph"
+        },
+        {
+          "canonical_mention_id": "c-sanguozhi-059-he:line032-pei01-02:m0110",
+          "mention_ids": [
+            "c-sanguozhi-059-he:line032-pei01-02:m0110"
+          ],
+          "kind": "paragraph"
+        }
+      ],
+      "work_id": "w-sanguozhi",
+      "book_id": "b-sanguozhi-059",
+      "chapter_id": "c-sanguozhi-059-he",
+      "source_id": "s-sanguozhi-059-he",
+      "work_title": "三國志"
+    },
+    {
       "number": 74,
       "category": "",
       "title": "正始三年吳主封子霸為魯王",
@@ -530,6 +877,114 @@
       }
     },
     {
+      "chapter_id": "c-sanguozhi-059-appraisal",
+      "work_id": "w-sanguozhi",
+      "book_id": "b-sanguozhi-059",
+      "source_id": "s-sanguozhi-059-appraisal",
+      "source": {
+        "title": "三國志卷五十九·吳書十四",
+        "provider": "Wikisource",
+        "url": "https://zh.wikisource.org/w/index.php?oldid=2085159",
+        "permalink": "https://zh.wikisource.org/w/index.php?oldid=2085159",
+        "revision_id": 2085159,
+        "accessed_on": "2026-11-21",
+        "edition": "維基文庫固定修訂，裴注與正文分層。",
+        "extent": "第53至53行。",
+        "text_scope": "partial_chapter",
+        "review_status": "text_checked",
+        "image_verified": false,
+        "rights": "古籍原文，維基文庫轉錄。",
+        "license_url": "https://creativecommons.org/licenses/by-sa/4.0/",
+        "raw_path": "source-evidence/sanguozhi059-princes/sanguozhi059-ws2085159.wikitext",
+        "raw_file_sha256": "2ef34ba24c5a2d61c1f4ac236905bd136212dacb0cf4efe30d4dff4ec0918bad",
+        "wikitext_sha256": "2ef34ba24c5a2d61c1f4ac236905bd136212dacb0cf4efe30d4dff4ec0918bad",
+        "collation_witnesses": [
+          "source-evidence/sanguozhi059-appraisal/reading.json"
+        ]
+      }
+    },
+    {
+      "chapter_id": "c-sanguozhi-059-ba",
+      "work_id": "w-sanguozhi",
+      "book_id": "b-sanguozhi-059",
+      "source_id": "s-sanguozhi-059-ba",
+      "source": {
+        "title": "三國志卷五十九·吳書十四",
+        "provider": "Wikisource",
+        "url": "https://zh.wikisource.org/w/index.php?oldid=2085159",
+        "permalink": "https://zh.wikisource.org/w/index.php?oldid=2085159",
+        "revision_id": 2085159,
+        "accessed_on": "2026-11-21",
+        "edition": "維基文庫固定修訂，裴注與正文分層。",
+        "extent": "第39至43行。",
+        "text_scope": "partial_chapter",
+        "review_status": "text_checked",
+        "image_verified": false,
+        "rights": "古籍原文，維基文庫轉錄。",
+        "license_url": "https://creativecommons.org/licenses/by-sa/4.0/",
+        "raw_path": "source-evidence/sanguozhi059-princes/sanguozhi059-ws2085159.wikitext",
+        "raw_file_sha256": "2ef34ba24c5a2d61c1f4ac236905bd136212dacb0cf4efe30d4dff4ec0918bad",
+        "wikitext_sha256": "2ef34ba24c5a2d61c1f4ac236905bd136212dacb0cf4efe30d4dff4ec0918bad",
+        "collation_witnesses": [
+          "source-evidence/sanguozhi059-ba/reading.json"
+        ]
+      }
+    },
+    {
+      "chapter_id": "c-sanguozhi-059-fen",
+      "work_id": "w-sanguozhi",
+      "book_id": "b-sanguozhi-059",
+      "source_id": "s-sanguozhi-059-fen",
+      "source": {
+        "title": "三國志卷五十九·吳書十四",
+        "provider": "Wikisource",
+        "url": "https://zh.wikisource.org/w/index.php?oldid=2085159",
+        "permalink": "https://zh.wikisource.org/w/index.php?oldid=2085159",
+        "revision_id": 2085159,
+        "accessed_on": "2026-11-21",
+        "edition": "維基文庫固定修訂，裴注與正文分層。",
+        "extent": "第46至50行。",
+        "text_scope": "partial_chapter",
+        "review_status": "text_checked",
+        "image_verified": false,
+        "rights": "古籍原文，維基文庫轉錄。",
+        "license_url": "https://creativecommons.org/licenses/by-sa/4.0/",
+        "raw_path": "source-evidence/sanguozhi059-princes/sanguozhi059-ws2085159.wikitext",
+        "raw_file_sha256": "2ef34ba24c5a2d61c1f4ac236905bd136212dacb0cf4efe30d4dff4ec0918bad",
+        "wikitext_sha256": "2ef34ba24c5a2d61c1f4ac236905bd136212dacb0cf4efe30d4dff4ec0918bad",
+        "collation_witnesses": [
+          "source-evidence/sanguozhi059-fen/reading.json"
+        ]
+      }
+    },
+    {
+      "chapter_id": "c-sanguozhi-059-he",
+      "work_id": "w-sanguozhi",
+      "book_id": "b-sanguozhi-059",
+      "source_id": "s-sanguozhi-059-he",
+      "source": {
+        "title": "三國志卷五十九·吳書十四",
+        "provider": "Wikisource",
+        "url": "https://zh.wikisource.org/w/index.php?oldid=2085159",
+        "permalink": "https://zh.wikisource.org/w/index.php?oldid=2085159",
+        "revision_id": 2085159,
+        "accessed_on": "2026-11-21",
+        "edition": "維基文庫固定修訂，裴注與正文分層。",
+        "extent": "第28至36行。",
+        "text_scope": "partial_chapter",
+        "review_status": "text_checked",
+        "image_verified": false,
+        "rights": "古籍原文，維基文庫轉錄。",
+        "license_url": "https://creativecommons.org/licenses/by-sa/4.0/",
+        "raw_path": "source-evidence/sanguozhi059-princes/sanguozhi059-ws2085159.wikitext",
+        "raw_file_sha256": "2ef34ba24c5a2d61c1f4ac236905bd136212dacb0cf4efe30d4dff4ec0918bad",
+        "wikitext_sha256": "2ef34ba24c5a2d61c1f4ac236905bd136212dacb0cf4efe30d4dff4ec0918bad",
+        "collation_witnesses": [
+          "source-evidence/sanguozhi059-he/reading.json"
+        ]
+      }
+    },
+    {
       "chapter_id": "c-zizhitongjian-074-wu052-zhangsons",
       "work_id": "w-zizhitongjian",
       "book_id": "b-zizhitongjian-074",
@@ -555,6 +1010,110 @@
     }
   ],
   "relations": [
+    {
+      "id": "a-wu059-ba-0",
+      "subject_person_id": "572_278_cba_B",
+      "object_person_id": "572_278_cba_A",
+      "predicate": "brother",
+      "qualifiers": {
+        "source_term": "和弟也"
+      },
+      "evidence": [
+        {
+          "work_id": "w-sanguozhi",
+          "book_id": "b-sanguozhi-059",
+          "chapter_id": "c-sanguozhi-059-ba",
+          "source_id": "s-sanguozhi-059-ba",
+          "paragraph_id": "c-sanguozhi-059-ba:line039",
+          "quote": "孫霸字子威，和弟也。和爲太子。霸爲魯王，寵愛崇特，與和無殊。頃之，和、霸不穆之聲聞於權耳，權禁斷往來，假以精學。督軍使者羊衜上疏曰：「臣聞古之有天下者，皆先顯別適庶，封建子弟，所以尊重祖宗，爲國藩表也。二宮拜授，海內稱宜，斯乃大吳興隆之基。頃聞二宮並絕賔客，遠近悚然，大小失望。竊從下風，聽採衆論，咸謂二宮智達英茂，自正名建號，於今三年，德行內著，美稱外昭，西北二隅，乆所服聞。謂陛下當副順遐邇所以歸德，勤命二宮賔延四遠，使異國聞聲，思爲臣妾。今旣未垂意於此，而發明詔，省奪備衞，抑絕賔客，使四方禮敬，不復得通，雖實陛下敦尚古義，欲令二宮專志於學，不復顧慮觀聽小宜，期於溫故博物而已，然非臣下傾企喁喁之至願也。或謂二宮不遵典式，此臣所以寢息不寧。就如所嫌，猶宜補察，密加斟酌，不使遠近得容異言。臣懼積疑成謗，乆將宣流，而西北二隅，去國不遠，異同之語，易以聞達。聞達之日，聲論當興，將謂二宮有不順之愆，不審陛下何以解之？若無以解異國，則亦無以釋境內。境內守疑，異國興謗，非所以育巍巍，鎮社稷也。願陛下早發優詔，使二宮周旋禮命如初，則天清地晏，萬國幸甚矣。」",
+          "subject_person_mention_id": "c-sanguozhi-059-ba:line039:m0000",
+          "object_person_mention_id": "c-sanguozhi-059-ba:line039:m0006"
+        }
+      ],
+      "interpretation_note": "以此來源所述兩端為據。",
+      "status": "source_attested",
+      "reviewer": "Codex（AI 代理）",
+      "human_reviewed": false,
+      "model": null
+    },
+    {
+      "id": "a-wu059-ba-2",
+      "subject_person_id": "572_278_cba_BA",
+      "object_person_id": "572_278_cba_B",
+      "predicate": "father",
+      "qualifiers": {
+        "source_term": "霸二子，基、壹"
+      },
+      "evidence": [
+        {
+          "work_id": "w-sanguozhi",
+          "book_id": "b-sanguozhi-059",
+          "chapter_id": "c-sanguozhi-059-ba",
+          "source_id": "s-sanguozhi-059-ba",
+          "paragraph_id": "c-sanguozhi-059-ba:line043",
+          "quote": "霸二子，基、壹。五鳳中，封基爲吳侯，壹宛陵侯。基侍孫亮在內，太平二年，盜乘御馬，收付獄。亮問侍中刁玄曰：「盜乘御馬罪云何？」玄對曰：「科應死。然魯王早終，惟陛下哀原之。」亮曰：「法者，天下所共，何得阿以親親故邪？當思惟可以釋此者，柰何以情相迫乎？」玄曰：「舊赦有大小，或天下，亦有千里、五百里赦，隨意所及。」亮曰：「解人不當爾邪！」乃赦宮中，基以得免。孫皓即位，追和、霸舊隙，削基、壹爵土，與祖母謝姬俱徙會稽烏傷縣。",
+          "subject_person_mention_id": "c-sanguozhi-059-ba:line043:m0004",
+          "object_person_mention_id": "c-sanguozhi-059-ba:line043:m0000"
+        }
+      ],
+      "interpretation_note": "以此來源所述兩端為據。",
+      "status": "source_attested",
+      "reviewer": "Codex（AI 代理）",
+      "human_reviewed": false,
+      "model": null
+    },
+    {
+      "id": "a-wu059-ba-3",
+      "subject_person_id": "572_278_cba_BB",
+      "object_person_id": "572_278_cba_B",
+      "predicate": "father",
+      "qualifiers": {
+        "source_term": "霸二子，基、壹"
+      },
+      "evidence": [
+        {
+          "work_id": "w-sanguozhi",
+          "book_id": "b-sanguozhi-059",
+          "chapter_id": "c-sanguozhi-059-ba",
+          "source_id": "s-sanguozhi-059-ba",
+          "paragraph_id": "c-sanguozhi-059-ba:line043",
+          "quote": "霸二子，基、壹。五鳳中，封基爲吳侯，壹宛陵侯。基侍孫亮在內，太平二年，盜乘御馬，收付獄。亮問侍中刁玄曰：「盜乘御馬罪云何？」玄對曰：「科應死。然魯王早終，惟陛下哀原之。」亮曰：「法者，天下所共，何得阿以親親故邪？當思惟可以釋此者，柰何以情相迫乎？」玄曰：「舊赦有大小，或天下，亦有千里、五百里赦，隨意所及。」亮曰：「解人不當爾邪！」乃赦宮中，基以得免。孫皓即位，追和、霸舊隙，削基、壹爵土，與祖母謝姬俱徙會稽烏傷縣。",
+          "subject_person_mention_id": "c-sanguozhi-059-ba:line043:m0006",
+          "object_person_mention_id": "c-sanguozhi-059-ba:line043:m0000"
+        }
+      ],
+      "interpretation_note": "以此來源所述兩端為據。",
+      "status": "source_attested",
+      "reviewer": "Codex（AI 代理）",
+      "human_reviewed": false,
+      "model": null
+    },
+    {
+      "id": "a-wu059-fen-0",
+      "subject_person_id": "572_278_cba_E",
+      "object_person_id": "572_278_cba_B",
+      "predicate": "brother",
+      "qualifiers": {
+        "source_term": "霸弟也"
+      },
+      "evidence": [
+        {
+          "work_id": "w-sanguozhi",
+          "book_id": "b-sanguozhi-059",
+          "chapter_id": "c-sanguozhi-059-fen",
+          "source_id": "s-sanguozhi-059-fen",
+          "paragraph_id": "c-sanguozhi-059-fen:line046",
+          "quote": "孫奮字子揚，霸弟也，母曰仲姬。太元二年，立爲齊王，居武昌。權薨，太傅諸葛恪不欲諸王處江濵兵馬之地，徙奮於豫章。奮怒，不從命，又數越法度。恪上牋諫曰：「帝王之尊，與天同位，是以家天下，臣父兄，四海之內，皆爲臣妾。仇讎有善，不得不舉，親戚有惡，不得不誅，所以承天理物，先國後身，蓋聖人立制，百代不易之道也。昔漢初興，多王子弟至於太彊，輒爲不軌，上則幾危社稷，下則骨肉相殘，其後懲戒，以爲大諱。自光武以來，諸王有制，惟得自娛於宮內，不得臨民，干與政事，其與交通，皆有重禁，遂以全安，各保福祚。此則前世得失之驗也。近袁紹、劉表各有國土，土地非狹，人衆非弱，以適庶不分，遂滅其宗祀。此乃天下愚智，所共嗟痛。大行皇帝覽古戒今，防芽遏萌，慮於千載。是以寢疾之日，分遣諸王，各早就國，詔策殷勤，科禁嚴峻，其所戒勑，無所不至，誠欲上安宗廟，下全諸王，使百世相承，無凶國害家之悔也。大王宜上惟太伯順父之志，中念河間獻王、東海王彊恭敬之節，下當裁抑驕恣荒亂以爲警戒。而聞頃至武昌以來，多違詔勑，不拘制度，擅發諸將兵治護宮室。又左右常從有罪過者，當以表聞，公付有司，而擅私殺，事不明白。大司馬呂岱親受先帝詔勑，輔導大王，旣不承用其言，令懷憂怖。華錡先帝近臣，忠良正直，其所陳道，當納用之，而聞怒錡，有收縛之語。又中書楊融，親受詔勑，所當恭肅，云『正自不聽禁，當如我何』？聞此之日，大小驚怪，莫不寒心。里語曰：『明鏡所以照形，古事所以知今。』大王宜深以魯王爲戒，改易其行，戰戰兢兢，盡敬朝廷，如此則無求不得。若棄忘先帝法教，懷輕慢之心，臣下寧負大王，不敢負先帝遺詔，寧爲大王所怨疾，豈敢忘尊主之威，而令詔勑不行於藩臣邪？此古今正義，大王所照知也。夫福來有由，禍來有漸，漸生不憂，將不可悔。向使魯王早納忠直之言，懷驚懼之慮，享祚無窮，豈有滅亡之禍哉？夫良藥苦口，惟疾者能甘之。忠言逆耳，惟達者能受之。今者恪等慺慺欲爲大王除危殆於萌芽，廣福慶之基原，是以不自知言至，願蒙三思。」",
+          "subject_person_mention_id": "c-sanguozhi-059-fen:line046:m0000",
+          "object_person_mention_id": "c-sanguozhi-059-fen:line046:m0006"
+        }
+      ],
+      "interpretation_note": "以此來源所述兩端為據。",
+      "status": "source_attested",
+      "reviewer": "Codex（AI 代理）",
+      "human_reviewed": false,
+      "model": null
+    },
     {
       "id": "a-wu052-sz-ba",
       "subject_person_id": "572_278_cba_B",
@@ -611,14 +1170,181 @@
   "related_people": {
     "572_278_cba": "孫仲謀（引古）",
     "572_278_cba_A": "孫和〔字子孝〕",
-    "572_278_cba_B": "孫霸〔魯王〕"
+    "572_278_cba_B": "孫霸〔魯王〕",
+    "572_278_cba_BA": "孫基",
+    "572_278_cba_BB": "孫壹〔孫霸子，吳志考證疑名字〕",
+    "572_278_cba_E": "孫奮〔齊王，字子揚〕"
   },
   "dates": [],
   "name_components": [],
+  "source_reading_cases": [
+    {
+      "id": "c-sanguozhi-059-ba:line039:reading-000-477",
+      "kind": "received_sentence",
+      "paragraph_id": "c-sanguozhi-059-ba:line039",
+      "start_codepoint": 0,
+      "end_codepoint": 477,
+      "source_quote": "孫霸字子威，和弟也。和爲太子。霸爲魯王，寵愛崇特，與和無殊。頃之，和、霸不穆之聲聞於權耳，權禁斷往來，假以精學。督軍使者羊衜上疏曰：「臣聞古之有天下者，皆先顯別適庶，封建子弟，所以尊重祖宗，爲國藩表也。二宮拜授，海內稱宜，斯乃大吳興隆之基。頃聞二宮並絕賔客，遠近悚然，大小失望。竊從下風，聽採衆論，咸謂二宮智達英茂，自正名建號，於今三年，德行內著，美稱外昭，西北二隅，乆所服聞。謂陛下當副順遐邇所以歸德，勤命二宮賔延四遠，使異國聞聲，思爲臣妾。今旣未垂意於此，而發明詔，省奪備衞，抑絕賔客，使四方禮敬，不復得通，雖實陛下敦尚古義，欲令二宮專志於學，不復顧慮觀聽小宜，期於溫故博物而已，然非臣下傾企喁喁之至願也。或謂二宮不遵典式，此臣所以寢息不寧。就如所嫌，猶宜補察，密加斟酌，不使遠近得容異言。臣懼積疑成謗，乆將宣流，而西北二隅，去國不遠，異同之語，易以聞達。聞達之日，聲論當興，將謂二宮有不順之愆，不審陛下何以解之？若無以解異國，則亦無以釋境內。境內守疑，異國興謗，非所以育巍巍，鎮社稷也。願陛下早發優詔，使二宮周旋禮命如初，則天清地晏，萬國幸甚矣。」",
+      "person_id": "572_278_cba_B",
+      "related_person_ids": [
+        "572_278_cba_A",
+        "572_278_cba",
+        "5tz_96t_bu3"
+      ],
+      "reading": "孫和弟為正文直接親稱，與和同受重。羊衜上疏論二宮，臣為衜、陛下為權。",
+      "chapter_id": "c-sanguozhi-059-ba",
+      "source_id": "s-sanguozhi-059-ba"
+    },
+    {
+      "id": "c-sanguozhi-059-ba:line041:reading-000-085",
+      "kind": "received_sentence",
+      "paragraph_id": "c-sanguozhi-059-ba:line041",
+      "start_codepoint": 0,
+      "end_codepoint": 85,
+      "source_quote": "時全寄、吳安、孫奇、楊笁等陰共附霸，圖危太子。譖毀旣行，太子以敗，霸亦賜死。流笁屍于江，兄穆以數諫戒笁，得免大辟，猶徙南州。霸賜死後，又誅寄、安、奇等，咸以黨霸搆和故也。",
+      "person_id": "572_278_cba_B",
+      "related_person_ids": [
+        "984_9e1_5e9_A",
+        "ere_ume_47r_AA",
+        "dla_va0_389",
+        "xg3_juy_uxc",
+        "572_278_cba_A",
+        "p9e_3al_gt8"
+      ],
+      "reading": "楊竺兄穆再三諫戒，徙南州；霸受賜死，寄、安、奇以黨霸見誅。",
+      "chapter_id": "c-sanguozhi-059-ba",
+      "source_id": "s-sanguozhi-059-ba"
+    },
+    {
+      "id": "c-sanguozhi-059-ba:line043:reading-000-208",
+      "kind": "received_sentence",
+      "paragraph_id": "c-sanguozhi-059-ba:line043",
+      "start_codepoint": 0,
+      "end_codepoint": 208,
+      "source_quote": "霸二子，基、壹。五鳳中，封基爲吳侯，壹宛陵侯。基侍孫亮在內，太平二年，盜乘御馬，收付獄。亮問侍中刁玄曰：「盜乘御馬罪云何？」玄對曰：「科應死。然魯王早終，惟陛下哀原之。」亮曰：「法者，天下所共，何得阿以親親故邪？當思惟可以釋此者，柰何以情相迫乎？」玄曰：「舊赦有大小，或天下，亦有千里、五百里赦，隨意所及。」亮曰：「解人不當爾邪！」乃赦宮中，基以得免。孫皓即位，追和、霸舊隙，削基、壹爵土，與祖母謝姬俱徙會稽烏傷縣。",
+      "person_id": "572_278_cba_B",
+      "related_person_ids": [
+        "572_278_cba_BA",
+        "572_278_cba_BB",
+        "hqp_o1w_ihy",
+        "s7m_pgz_fux",
+        "05e_9bb_55a",
+        "572_278_cba_A",
+        "vsl_vc4_gva"
+      ],
+      "reading": "霸二子基、壹，並稱其祖母謝姬；孫基盜乘御馬經赦，與受削爵及遷徙有別。",
+      "chapter_id": "c-sanguozhi-059-ba",
+      "source_id": "s-sanguozhi-059-ba"
+    }
+  ],
   "person_ids": [
     "572_278_cba_B"
   ],
   "preferred_relations": [
+    {
+      "id": "a-wu059-ba-0",
+      "subject_person_id": "572_278_cba_B",
+      "object_person_id": "572_278_cba_A",
+      "predicate": "brother",
+      "qualifiers": {
+        "source_term": "和弟也"
+      },
+      "evidence": [
+        {
+          "work_id": "w-sanguozhi",
+          "book_id": "b-sanguozhi-059",
+          "chapter_id": "c-sanguozhi-059-ba",
+          "source_id": "s-sanguozhi-059-ba",
+          "paragraph_id": "c-sanguozhi-059-ba:line039",
+          "quote": "孫霸字子威，和弟也。和爲太子。霸爲魯王，寵愛崇特，與和無殊。頃之，和、霸不穆之聲聞於權耳，權禁斷往來，假以精學。督軍使者羊衜上疏曰：「臣聞古之有天下者，皆先顯別適庶，封建子弟，所以尊重祖宗，爲國藩表也。二宮拜授，海內稱宜，斯乃大吳興隆之基。頃聞二宮並絕賔客，遠近悚然，大小失望。竊從下風，聽採衆論，咸謂二宮智達英茂，自正名建號，於今三年，德行內著，美稱外昭，西北二隅，乆所服聞。謂陛下當副順遐邇所以歸德，勤命二宮賔延四遠，使異國聞聲，思爲臣妾。今旣未垂意於此，而發明詔，省奪備衞，抑絕賔客，使四方禮敬，不復得通，雖實陛下敦尚古義，欲令二宮專志於學，不復顧慮觀聽小宜，期於溫故博物而已，然非臣下傾企喁喁之至願也。或謂二宮不遵典式，此臣所以寢息不寧。就如所嫌，猶宜補察，密加斟酌，不使遠近得容異言。臣懼積疑成謗，乆將宣流，而西北二隅，去國不遠，異同之語，易以聞達。聞達之日，聲論當興，將謂二宮有不順之愆，不審陛下何以解之？若無以解異國，則亦無以釋境內。境內守疑，異國興謗，非所以育巍巍，鎮社稷也。願陛下早發優詔，使二宮周旋禮命如初，則天清地晏，萬國幸甚矣。」",
+          "subject_person_mention_id": "c-sanguozhi-059-ba:line039:m0000",
+          "object_person_mention_id": "c-sanguozhi-059-ba:line039:m0006"
+        }
+      ],
+      "interpretation_note": "以此來源所述兩端為據。",
+      "status": "source_attested",
+      "reviewer": "Codex（AI 代理）",
+      "human_reviewed": false,
+      "model": null
+    },
+    {
+      "id": "a-wu059-ba-2",
+      "subject_person_id": "572_278_cba_BA",
+      "object_person_id": "572_278_cba_B",
+      "predicate": "father",
+      "qualifiers": {
+        "source_term": "霸二子，基、壹"
+      },
+      "evidence": [
+        {
+          "work_id": "w-sanguozhi",
+          "book_id": "b-sanguozhi-059",
+          "chapter_id": "c-sanguozhi-059-ba",
+          "source_id": "s-sanguozhi-059-ba",
+          "paragraph_id": "c-sanguozhi-059-ba:line043",
+          "quote": "霸二子，基、壹。五鳳中，封基爲吳侯，壹宛陵侯。基侍孫亮在內，太平二年，盜乘御馬，收付獄。亮問侍中刁玄曰：「盜乘御馬罪云何？」玄對曰：「科應死。然魯王早終，惟陛下哀原之。」亮曰：「法者，天下所共，何得阿以親親故邪？當思惟可以釋此者，柰何以情相迫乎？」玄曰：「舊赦有大小，或天下，亦有千里、五百里赦，隨意所及。」亮曰：「解人不當爾邪！」乃赦宮中，基以得免。孫皓即位，追和、霸舊隙，削基、壹爵土，與祖母謝姬俱徙會稽烏傷縣。",
+          "subject_person_mention_id": "c-sanguozhi-059-ba:line043:m0004",
+          "object_person_mention_id": "c-sanguozhi-059-ba:line043:m0000"
+        }
+      ],
+      "interpretation_note": "以此來源所述兩端為據。",
+      "status": "source_attested",
+      "reviewer": "Codex（AI 代理）",
+      "human_reviewed": false,
+      "model": null
+    },
+    {
+      "id": "a-wu059-ba-3",
+      "subject_person_id": "572_278_cba_BB",
+      "object_person_id": "572_278_cba_B",
+      "predicate": "father",
+      "qualifiers": {
+        "source_term": "霸二子，基、壹"
+      },
+      "evidence": [
+        {
+          "work_id": "w-sanguozhi",
+          "book_id": "b-sanguozhi-059",
+          "chapter_id": "c-sanguozhi-059-ba",
+          "source_id": "s-sanguozhi-059-ba",
+          "paragraph_id": "c-sanguozhi-059-ba:line043",
+          "quote": "霸二子，基、壹。五鳳中，封基爲吳侯，壹宛陵侯。基侍孫亮在內，太平二年，盜乘御馬，收付獄。亮問侍中刁玄曰：「盜乘御馬罪云何？」玄對曰：「科應死。然魯王早終，惟陛下哀原之。」亮曰：「法者，天下所共，何得阿以親親故邪？當思惟可以釋此者，柰何以情相迫乎？」玄曰：「舊赦有大小，或天下，亦有千里、五百里赦，隨意所及。」亮曰：「解人不當爾邪！」乃赦宮中，基以得免。孫皓即位，追和、霸舊隙，削基、壹爵土，與祖母謝姬俱徙會稽烏傷縣。",
+          "subject_person_mention_id": "c-sanguozhi-059-ba:line043:m0006",
+          "object_person_mention_id": "c-sanguozhi-059-ba:line043:m0000"
+        }
+      ],
+      "interpretation_note": "以此來源所述兩端為據。",
+      "status": "source_attested",
+      "reviewer": "Codex（AI 代理）",
+      "human_reviewed": false,
+      "model": null
+    },
+    {
+      "id": "a-wu059-fen-0",
+      "subject_person_id": "572_278_cba_E",
+      "object_person_id": "572_278_cba_B",
+      "predicate": "brother",
+      "qualifiers": {
+        "source_term": "霸弟也"
+      },
+      "evidence": [
+        {
+          "work_id": "w-sanguozhi",
+          "book_id": "b-sanguozhi-059",
+          "chapter_id": "c-sanguozhi-059-fen",
+          "source_id": "s-sanguozhi-059-fen",
+          "paragraph_id": "c-sanguozhi-059-fen:line046",
+          "quote": "孫奮字子揚，霸弟也，母曰仲姬。太元二年，立爲齊王，居武昌。權薨，太傅諸葛恪不欲諸王處江濵兵馬之地，徙奮於豫章。奮怒，不從命，又數越法度。恪上牋諫曰：「帝王之尊，與天同位，是以家天下，臣父兄，四海之內，皆爲臣妾。仇讎有善，不得不舉，親戚有惡，不得不誅，所以承天理物，先國後身，蓋聖人立制，百代不易之道也。昔漢初興，多王子弟至於太彊，輒爲不軌，上則幾危社稷，下則骨肉相殘，其後懲戒，以爲大諱。自光武以來，諸王有制，惟得自娛於宮內，不得臨民，干與政事，其與交通，皆有重禁，遂以全安，各保福祚。此則前世得失之驗也。近袁紹、劉表各有國土，土地非狹，人衆非弱，以適庶不分，遂滅其宗祀。此乃天下愚智，所共嗟痛。大行皇帝覽古戒今，防芽遏萌，慮於千載。是以寢疾之日，分遣諸王，各早就國，詔策殷勤，科禁嚴峻，其所戒勑，無所不至，誠欲上安宗廟，下全諸王，使百世相承，無凶國害家之悔也。大王宜上惟太伯順父之志，中念河間獻王、東海王彊恭敬之節，下當裁抑驕恣荒亂以爲警戒。而聞頃至武昌以來，多違詔勑，不拘制度，擅發諸將兵治護宮室。又左右常從有罪過者，當以表聞，公付有司，而擅私殺，事不明白。大司馬呂岱親受先帝詔勑，輔導大王，旣不承用其言，令懷憂怖。華錡先帝近臣，忠良正直，其所陳道，當納用之，而聞怒錡，有收縛之語。又中書楊融，親受詔勑，所當恭肅，云『正自不聽禁，當如我何』？聞此之日，大小驚怪，莫不寒心。里語曰：『明鏡所以照形，古事所以知今。』大王宜深以魯王爲戒，改易其行，戰戰兢兢，盡敬朝廷，如此則無求不得。若棄忘先帝法教，懷輕慢之心，臣下寧負大王，不敢負先帝遺詔，寧爲大王所怨疾，豈敢忘尊主之威，而令詔勑不行於藩臣邪？此古今正義，大王所照知也。夫福來有由，禍來有漸，漸生不憂，將不可悔。向使魯王早納忠直之言，懷驚懼之慮，享祚無窮，豈有滅亡之禍哉？夫良藥苦口，惟疾者能甘之。忠言逆耳，惟達者能受之。今者恪等慺慺欲爲大王除危殆於萌芽，廣福慶之基原，是以不自知言至，願蒙三思。」",
+          "subject_person_mention_id": "c-sanguozhi-059-fen:line046:m0000",
+          "object_person_mention_id": "c-sanguozhi-059-fen:line046:m0006"
+        }
+      ],
+      "interpretation_note": "以此來源所述兩端為據。",
+      "status": "source_attested",
+      "reviewer": "Codex（AI 代理）",
+      "human_reviewed": false,
+      "model": null
+    },
     {
       "id": "a-wu052-sz-ba",
       "subject_person_id": "572_278_cba_B",
@@ -673,7 +1399,31 @@
     }
   ],
   "age_assertions": [],
-  "life_events": [],
+  "life_events": [
+    {
+      "id": "le-wu059-ba0",
+      "person_id": "572_278_cba_B",
+      "event_type": "death",
+      "source_term": "霸亦賜死",
+      "date_expression": null,
+      "evidence": [
+        {
+          "work_id": "w-sanguozhi",
+          "book_id": "b-sanguozhi-059",
+          "chapter_id": "c-sanguozhi-059-ba",
+          "source_id": "s-sanguozhi-059-ba",
+          "paragraph_id": "c-sanguozhi-059-ba:line041",
+          "quote": "時全寄、吳安、孫奇、楊笁等陰共附霸，圖危太子。譖毀旣行，太子以敗，霸亦賜死。流笁屍于江，兄穆以數諫戒笁，得免大辟，猶徙南州。霸賜死後，又誅寄、安、奇等，咸以黨霸搆和故也。",
+          "person_mention_id": "c-sanguozhi-059-ba:line041:m0016"
+        }
+      ],
+      "interpretation_note": "本來源所記。",
+      "status": "source_attested",
+      "reviewer": "Codex（AI 代理）",
+      "human_reviewed": false,
+      "model": null
+    }
+  ],
   "life_event_date_decisions": [],
   "selected_life_event_dates": []
 }

@@ -129,6 +129,41 @@
       "work_title": "梁書"
     },
     {
+      "number": 22,
+      "category": "",
+      "title": "鄱陽王恢、範及世子嗣",
+      "paragraph_id": "c-liangshu-022-xiaofan-si:p001",
+      "count": 1,
+      "raw_count": 1,
+      "duplicate_count": 0,
+      "counting_policy": "independent_fixed_witness_occurrences",
+      "quote": "恢性通恕，輕財好施，凡歷四州，所得俸祿隨而散之。在荊州，常從容問賓僚曰：「中山好酒，趙王好吏，二者孰愈？」衆未有對者。顧謂長史蕭琛曰：「漢時王侯，籓屏而已，視事親民，自有其職。中山聽樂，可得任性；彭祖代",
+      "paragraph_ids": [
+        "c-liangshu-022-xiaofan-si:p001"
+      ],
+      "mention_ids": [
+        "c-liangshu-022-xiaofan-si:p001:m0000"
+      ],
+      "mention_paragraph_ids": {
+        "c-liangshu-022-xiaofan-si:p001:m0000": "c-liangshu-022-xiaofan-si:p001"
+      },
+      "mention_id": "c-liangshu-022-xiaofan-si:p001:m0000",
+      "occurrence_groups": [
+        {
+          "canonical_mention_id": "c-liangshu-022-xiaofan-si:p001:m0000",
+          "mention_ids": [
+            "c-liangshu-022-xiaofan-si:p001:m0000"
+          ],
+          "kind": "paragraph"
+        }
+      ],
+      "work_id": "w-liangshu",
+      "book_id": "b-liangshu-022",
+      "chapter_id": "c-liangshu-022-xiaofan-si",
+      "source_id": "s-liangshu-022-xiaofan-si-ws1513347",
+      "work_title": "梁書"
+    },
+    {
       "number": 164,
       "category": "",
       "title": "宜豐侯循父恢",
@@ -248,6 +283,29 @@
       }
     },
     {
+      "chapter_id": "c-liangshu-022-xiaofan-si",
+      "work_id": "w-liangshu",
+      "book_id": "b-liangshu-022",
+      "source_id": "s-liangshu-022-xiaofan-si-ws1513347",
+      "source": {
+        "title": "鄱陽王恢、範及世子嗣",
+        "provider": "Wikisource",
+        "permalink": "https://zh.wikisource.org/w/index.php?oldid=1513347",
+        "url": "https://zh.wikisource.org/w/index.php?oldid=1513347",
+        "revision_id": 1513347,
+        "edition": "維基文庫固定修訂",
+        "accessed_on": "2026-11-21",
+        "review_status": "text_checked",
+        "image_verified": false,
+        "rights": "古代原文；數位轉錄依維基文庫授權。",
+        "license_url": "https://creativecommons.org/licenses/by-sa/4.0/",
+        "extent": "鄱陽王恢、範及世子嗣",
+        "text_scope": "partial_chapter",
+        "raw_path": "source-evidence/liang043-complete/external/liang022-ws1513347.wikitext",
+        "raw_file_sha256": "94e38a83a5c49d47cb4a42f5036f55883e3afecdb214256ab9ee333cc69d3f1a"
+      }
+    },
+    {
       "chapter_id": "c-liangshu-050-xiejiqing-family-intro",
       "work_id": "w-liangshu",
       "book_id": "b-liangshu-050",
@@ -358,6 +416,33 @@
       "human_reviewed": false
     },
     {
+      "id": "a-liang043-fan-hui",
+      "subject_person_id": "qvt_eq1_lcf_AAB",
+      "object_person_id": "qvt_eq1_lcf_AA",
+      "predicate": "father",
+      "qualifiers": {
+        "source_term": "世子範嗣",
+        "lineage": "paternal"
+      },
+      "evidence": [
+        {
+          "work_id": "w-liangshu",
+          "book_id": "b-liangshu-022",
+          "chapter_id": "c-liangshu-022-xiaofan-si",
+          "source_id": "s-liangshu-022-xiaofan-si-ws1513347",
+          "paragraph_id": "c-liangshu-022-xiaofan-si:p001",
+          "quote": "恢性通恕，輕財好施，凡歷四州，所得俸祿隨而散之。在荊州，常從容問賓僚曰：「中山好酒，趙王好吏，二者孰愈？」衆未有對者。顧謂長史蕭琛曰：「漢時王侯，籓屏而已，視事親民，自有其職。中山聽樂，可得任性；彭祖代吏，近於侵官。今之王侯，不守籓國，當佐天子臨民，清白其優乎！」坐賓咸服。世子範嗣。",
+          "subject_person_mention_id": "c-liangshu-022-xiaofan-si:p001:m0139",
+          "object_person_mention_id": "c-liangshu-022-xiaofan-si:p001:m0000"
+        }
+      ],
+      "status": "source_attested",
+      "interpretation_note": "恢傳末世子範繼。",
+      "reviewer": "Codex（AI代理）",
+      "model": null,
+      "human_reviewed": false
+    },
+    {
       "id": "a-nan023-wangmai-xun-father",
       "subject_person_id": "qvt_eq1_lcf_AAA",
       "object_person_id": "qvt_eq1_lcf_AA",
@@ -389,7 +474,8 @@
   "related_people": {
     "qvt_eq1_lcf_A": "蕭順之",
     "qvt_eq1_lcf_AA": "蕭恢",
-    "qvt_eq1_lcf_AAA": "蕭循（宜豐侯）"
+    "qvt_eq1_lcf_AAA": "蕭循（宜豐侯）",
+    "qvt_eq1_lcf_AAB": "蕭範（字世儀，鄱陽王）"
   },
   "dates": [],
   "name_components": [],
@@ -451,6 +537,33 @@
       ],
       "status": "source_attested",
       "interpretation_note": "此句父子關係由前後兩個具名或具號的人物及親屬詞共同確定。",
+      "reviewer": "Codex（AI代理）",
+      "model": null,
+      "human_reviewed": false
+    },
+    {
+      "id": "a-liang043-fan-hui",
+      "subject_person_id": "qvt_eq1_lcf_AAB",
+      "object_person_id": "qvt_eq1_lcf_AA",
+      "predicate": "father",
+      "qualifiers": {
+        "source_term": "世子範嗣",
+        "lineage": "paternal"
+      },
+      "evidence": [
+        {
+          "work_id": "w-liangshu",
+          "book_id": "b-liangshu-022",
+          "chapter_id": "c-liangshu-022-xiaofan-si",
+          "source_id": "s-liangshu-022-xiaofan-si-ws1513347",
+          "paragraph_id": "c-liangshu-022-xiaofan-si:p001",
+          "quote": "恢性通恕，輕財好施，凡歷四州，所得俸祿隨而散之。在荊州，常從容問賓僚曰：「中山好酒，趙王好吏，二者孰愈？」衆未有對者。顧謂長史蕭琛曰：「漢時王侯，籓屏而已，視事親民，自有其職。中山聽樂，可得任性；彭祖代吏，近於侵官。今之王侯，不守籓國，當佐天子臨民，清白其優乎！」坐賓咸服。世子範嗣。",
+          "subject_person_mention_id": "c-liangshu-022-xiaofan-si:p001:m0139",
+          "object_person_mention_id": "c-liangshu-022-xiaofan-si:p001:m0000"
+        }
+      ],
+      "status": "source_attested",
+      "interpretation_note": "恢傳末世子範繼。",
       "reviewer": "Codex（AI代理）",
       "model": null,
       "human_reviewed": false
