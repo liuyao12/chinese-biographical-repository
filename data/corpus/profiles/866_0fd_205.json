@@ -1187,6 +1187,50 @@
       "work_title": "三國志"
     },
     {
+      "number": 63,
+      "category": "",
+      "title": "吳範傳",
+      "paragraph_id": "c-sanguozhi-063-wufan:line013",
+      "count": 2,
+      "raw_count": 2,
+      "duplicate_count": 0,
+      "counting_policy": "independent_fixed_witness_occurrences",
+      "quote": "初，權在吳，欲討黃祖。範曰：「今茲少利，不如明年。明年戊子，荊州劉表亦身死國亡。」權遂征祖，卒不能克。明年，軍出，行及尋陽，範見風氣，因詣船賀，催兵急行，至即破祖，祖得夜亡。權恐失之，範曰：「未遠，必生禽祖。」至五更中，果得之。劉表竟死，荊州分割。",
+      "paragraph_ids": [
+        "c-sanguozhi-063-wufan:line013"
+      ],
+      "mention_ids": [
+        "c-sanguozhi-063-wufan:line013:m0032",
+        "c-sanguozhi-063-wufan:line013:m0114"
+      ],
+      "mention_paragraph_ids": {
+        "c-sanguozhi-063-wufan:line013:m0032": "c-sanguozhi-063-wufan:line013",
+        "c-sanguozhi-063-wufan:line013:m0114": "c-sanguozhi-063-wufan:line013"
+      },
+      "mention_id": "c-sanguozhi-063-wufan:line013:m0032",
+      "occurrence_groups": [
+        {
+          "canonical_mention_id": "c-sanguozhi-063-wufan:line013:m0032",
+          "mention_ids": [
+            "c-sanguozhi-063-wufan:line013:m0032"
+          ],
+          "kind": "paragraph"
+        },
+        {
+          "canonical_mention_id": "c-sanguozhi-063-wufan:line013:m0114",
+          "mention_ids": [
+            "c-sanguozhi-063-wufan:line013:m0114"
+          ],
+          "kind": "paragraph"
+        }
+      ],
+      "work_id": "w-sanguozhi",
+      "book_id": "b-sanguozhi-063",
+      "chapter_id": "c-sanguozhi-063-wufan",
+      "source_id": "s-sanguozhi-063-wufan",
+      "work_title": "三國志"
+    },
+    {
       "number": 98,
       "category": "",
       "title": "桓溫完整本傳單元",
@@ -5819,6 +5863,33 @@
       }
     },
     {
+      "chapter_id": "c-sanguozhi-063-wufan",
+      "work_id": "w-sanguozhi",
+      "book_id": "b-sanguozhi-063",
+      "source_id": "s-sanguozhi-063-wufan",
+      "source": {
+        "title": "三國志卷六十三·吳書十八",
+        "provider": "Wikisource",
+        "url": "https://zh.wikisource.org/w/index.php?oldid=2188657",
+        "permalink": "https://zh.wikisource.org/w/index.php?oldid=2188657",
+        "revision_id": 2188657,
+        "accessed_on": "2026-11-21",
+        "edition": "維基文庫固定修訂，裴注與正文分層。",
+        "extent": "第11至27行。",
+        "text_scope": "partial_chapter",
+        "review_status": "text_checked",
+        "image_verified": false,
+        "rights": "古籍原文，維基文庫轉錄。",
+        "license_url": "https://creativecommons.org/licenses/by-sa/4.0/",
+        "raw_path": "source-evidence/sanguozhi063-wu-liu-zhao/sanguozhi063-ws2188657.wikitext",
+        "raw_file_sha256": "09476ea05c8009bbbcf1f0bab016a7fec3b22878ab03752df55992912f97344b",
+        "wikitext_sha256": "09476ea05c8009bbbcf1f0bab016a7fec3b22878ab03752df55992912f97344b",
+        "collation_witnesses": [
+          "source-evidence/sanguozhi063-wufan/reading.json"
+        ]
+      }
+    },
+    {
       "chapter_id": "c-shishuoxinyu-026-jin098-huanwen-luoyang",
       "work_id": "w-shishuoxinyu",
       "book_id": "b-shishuoxinyu-026",
@@ -6047,6 +6118,29 @@
           "paragraph_id": "c-sanguozhi-054-lusu:line047",
           "quote": "　　劉表死，肅進說曰：「夫荊楚與國鄰接，水流順北，外帶江漢，內阻山陵，有金城之固，沃野萬里，士民殷富，若據而有之，此帝王之資也。今表新亡，二子素不輯睦，軍中諸將，各有彼此。加劉備天下梟雄，與操有隙，寄寓於表，表惡其能而不能用也。若備與彼協心，上下齊同，則宜撫安，與結盟好：如有離違，宜別圖之，以濟大事。肅請得奉命吊表二子，並慰勞其軍中用事者，及說備使撫表眾，同心一意，共治曹操，備必喜而從命。如其克諧，天下可定也。今不速往，恐為操所先。」權即遣肅行。",
           "person_mention_id": "c-sanguozhi-054-lusu:line047:m0002"
+        }
+      ],
+      "interpretation_note": "本來源所記。",
+      "status": "source_attested",
+      "reviewer": "Codex（AI 代理）",
+      "human_reviewed": false,
+      "model": null
+    },
+    {
+      "id": "le-wu063-wufan0",
+      "person_id": "866_0fd_205",
+      "event_type": "death",
+      "source_term": "劉表竟死",
+      "date_expression": null,
+      "evidence": [
+        {
+          "work_id": "w-sanguozhi",
+          "book_id": "b-sanguozhi-063",
+          "chapter_id": "c-sanguozhi-063-wufan",
+          "source_id": "s-sanguozhi-063-wufan",
+          "paragraph_id": "c-sanguozhi-063-wufan:line013",
+          "quote": "初，權在吳，欲討黃祖。範曰：「今茲少利，不如明年。明年戊子，荊州劉表亦身死國亡。」權遂征祖，卒不能克。明年，軍出，行及尋陽，範見風氣，因詣船賀，催兵急行，至即破祖，祖得夜亡。權恐失之，範曰：「未遠，必生禽祖。」至五更中，果得之。劉表竟死，荊州分割。",
+          "person_mention_id": "c-sanguozhi-063-wufan:line013:m0032"
         }
       ],
       "interpretation_note": "本來源所記。",
