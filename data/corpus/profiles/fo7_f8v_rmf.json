@@ -1248,6 +1248,72 @@
   "table_occurrences": [],
   "sources": [
     {
+      "chapter_id": "c-chenshu-007-liujingyan",
+      "work_id": "w-chenshu",
+      "book_id": "b-chenshu-007",
+      "source_id": "s-chenshu-007-liujingyan-ws2015446",
+      "source": {
+        "title": "陳書卷7·高宗柳皇后、錢貴妃、柳盼與柳莊",
+        "provider": "Wikisource",
+        "url": "https://zh.wikisource.org/w/index.php?oldid=2015446",
+        "permalink": "https://zh.wikisource.org/w/index.php?oldid=2015446",
+        "revision_id": 2015446,
+        "accessed_on": "2026-11-21",
+        "edition": "維基文庫固定數位轉錄",
+        "extent": "固定傳題全段及段內相關人物。",
+        "text_scope": "complete_biography_unit",
+        "image_verified": false,
+        "review_status": "text_checked",
+        "raw_path": "source-evidence/nan023-wanggu/ws2015446.wikitext",
+        "raw_file_sha256": "a4557ee8b6e3859d18b3ad123ae5a394dfe9d3556c818fc9cafcc03dae9057f1",
+        "rights": "古代原典及維基文庫數位轉錄。",
+        "license_url": "https://zh.wikisource.org/wiki/Wikisource:著作權資訊",
+        "normalization": {
+          "character_conversion": {},
+          "extraction_note": "投影相應原句，保留字形；移除年號模板定界符。",
+          "verified_blank_line_gaps": [
+            {
+              "source_lines": [
+                38,
+                38
+              ],
+              "raw_quote": "",
+              "raw_quote_sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+              "revision_id": 2015446
+            },
+            {
+              "source_lines": [
+                40,
+                40
+              ],
+              "raw_quote": "",
+              "raw_quote_sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+              "revision_id": 2015446
+            },
+            {
+              "source_lines": [
+                42,
+                42
+              ],
+              "raw_quote": "",
+              "raw_quote_sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+              "revision_id": 2015446
+            },
+            {
+              "source_lines": [
+                44,
+                44
+              ],
+              "raw_quote": "",
+              "raw_quote_sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+              "revision_id": 2015446
+            }
+          ]
+        },
+        "section_locator": "高宗柳皇后、錢貴妃、柳盼與柳莊"
+      }
+    },
+    {
       "chapter_id": "c-chenshu-017-wangchong-complete",
       "work_id": "w-chenshu",
       "book_id": "b-chenshu-017",
@@ -4587,6 +4653,34 @@
       }
     },
     {
+      "chapter_id": "c-nanshi-038-liujingyan-liujia",
+      "work_id": "w-nanshi",
+      "book_id": "b-nanshi-038",
+      "source_id": "s-nanshi-038-liujingyan-liujia-ws1569807",
+      "source": {
+        "title": "南史卷38·柳惲、柳偃、兩公主與柳盼的親屬",
+        "provider": "Wikisource",
+        "url": "https://zh.wikisource.org/w/index.php?oldid=1569807",
+        "permalink": "https://zh.wikisource.org/w/index.php?oldid=1569807",
+        "revision_id": 1569807,
+        "accessed_on": "2026-11-21",
+        "edition": "維基文庫固定數位轉錄",
+        "extent": "身分、世系及母乳別稱等所據條文。",
+        "text_scope": "partial_chapter",
+        "image_verified": false,
+        "review_status": "text_checked",
+        "raw_path": "source-evidence/nan012-liujingyan/ws1569807.wikitext",
+        "raw_file_sha256": "a8a9ac6648fb0f6db271b0b494948ed908913b9b6bbd44af894c86486182f74a",
+        "rights": "古代原典及維基文庫數位轉錄。",
+        "license_url": "https://zh.wikisource.org/wiki/Wikisource:著作權資訊",
+        "normalization": {
+          "character_conversion": {},
+          "extraction_note": "投影相應原句，保留字形；移除年號模板定界符。"
+        },
+        "section_locator": "柳惲、柳偃、兩公主與柳盼的親屬"
+      }
+    },
+    {
       "chapter_id": "c-nanshi-051-xiaozhengde-adoption",
       "work_id": "w-nanshi",
       "book_id": "b-nanshi-051",
@@ -4776,6 +4870,40 @@
     }
   ],
   "relations": [
+    {
+      "id": "a-nan012-liujingyan-c-princess-father",
+      "subject_person_id": "fo7_f8v_rmf_I",
+      "object_person_id": "fo7_f8v_rmf",
+      "predicate": "father",
+      "qualifiers": {
+        "source_term": "梁武帝女長城公主",
+        "nan012_liujingyan_reading": "c-princess-father",
+        "lineage": "paternal"
+      },
+      "evidence": [
+        {
+          "work_id": "w-chenshu",
+          "book_id": "b-chenshu-007",
+          "source_id": "s-chenshu-007-liujingyan-ws2015446",
+          "chapter_id": "c-chenshu-007-liujingyan",
+          "paragraph_id": "c-chenshu-007-liujingyan:p001",
+          "quote": "高宗柳皇后諱敬言，河東解人也。曾祖世隆，齊侍中、司空、尚書令、貞陽忠武公。祖惲，有重名於梁代，官至祕書監，贈侍中、中護軍。父偃，尚梁武帝女長城公主，拜駙馬都尉，大寶中，為鄱陽太守，卒官。后時年九歲，幹理家事，有若成人。侯景之亂，后與弟盼往江陵依梁元帝，元帝以長城公主之故，待遇甚厚。及高宗赴江陵，元帝以后配焉。承聖二年，后生後主於江陵。明年，江陵陷，高宗遷于關右，后與後主俱留穰城。天嘉二年，與後主還朝，后為安成王妃。高宗即位，立為皇后。",
+          "subject_person_mention_id": "c-chenshu-007-liujingyan:p001:m0069",
+          "object_person_reference_id": "c-chenshu-007-liujingyan:p001:r0065",
+          "relationship_anchor": {
+            "paragraph_id": "c-chenshu-007-liujingyan:p001",
+            "surface": "梁武帝女長城公主",
+            "start": 65,
+            "end": 73
+          }
+        }
+      ],
+      "status": "source_attested",
+      "interpretation_note": "柳偃所尚長城公主為梁武帝之女。",
+      "reviewer": "Codex（AI 代理）",
+      "human_reviewed": false,
+      "model": null
+    },
     {
       "id": "a-liang007-ruanlingying-b-father",
       "subject_person_id": "rvc_bqx_v5w",
@@ -5686,6 +5814,40 @@
       "model": null
     },
     {
+      "id": "a-nan012-liujingyan-f-princess-father",
+      "subject_person_id": "fo7_f8v_rmf_I",
+      "object_person_id": "fo7_f8v_rmf",
+      "predicate": "father",
+      "qualifiers": {
+        "source_term": "武帝女長城公主",
+        "nan012_liujingyan_reading": "f-princess-father",
+        "lineage": "paternal"
+      },
+      "evidence": [
+        {
+          "work_id": "w-nanshi",
+          "book_id": "b-nanshi-038",
+          "source_id": "s-nanshi-038-liujingyan-liujia-ws1569807",
+          "chapter_id": "c-nanshi-038-liujingyan-liujia",
+          "paragraph_id": "c-nanshi-038-liujingyan-liujia:p003",
+          "quote": "少子偃字彥遊，年十二，梁武帝引見，詔問讀何書，對曰：「尚書。」又問有何美句，對曰：「德惟善政，政在養人。」眾咸異之。詔尚武帝女長城公主，拜駙馬都尉、都亭侯，位鄱陽內史，卒。",
+          "subject_person_mention_id": "c-nanshi-038-liujingyan-liujia:p003:m0063",
+          "object_person_reference_id": "c-nanshi-038-liujingyan-liujia:p003:r0060",
+          "relationship_anchor": {
+            "paragraph_id": "c-nanshi-038-liujingyan-liujia:p003",
+            "surface": "武帝女長城公主",
+            "start": 60,
+            "end": 67
+          }
+        }
+      ],
+      "status": "source_attested",
+      "interpretation_note": "本傳明稱武帝女。",
+      "reviewer": "Codex（AI 代理）",
+      "human_reviewed": false,
+      "model": null
+    },
+    {
       "id": "a-liang007-dinglingguang-s-father",
       "subject_person_id": "fo7_f8v_rmf_G",
       "object_person_id": "fo7_f8v_rmf",
@@ -5742,6 +5904,7 @@
     "fo7_f8v_rmf_F": "梁永嘉公主（王銓妻）",
     "fo7_f8v_rmf_G": "蕭續（梁廬陵威王）",
     "fo7_f8v_rmf_H": "蕭玉嬛（梁永康公主）",
+    "fo7_f8v_rmf_I": "長城公主（梁武帝女、柳偃妻）",
     "q7m_r8k_2vn_ABAD": "王質",
     "q7m_r8k_2vn_ABAE": "王固",
     "qvt_eq1_lcf_A": "蕭順之",
@@ -5849,6 +6012,21 @@
     }
   ],
   "person_references": [
+    {
+      "id": "c-chenshu-007-liujingyan:p001:r0065",
+      "surface": "梁武帝",
+      "start": 65,
+      "end": 68,
+      "person_id": "fo7_f8v_rmf",
+      "referent_role": "third_person",
+      "paragraph_id": "c-chenshu-007-liujingyan:p001",
+      "quote": "高宗柳皇后諱敬言，河東解人也。曾祖世隆，齊侍中、司空、尚書令、貞陽忠武公。祖惲，有重名於梁代，官至祕書監，贈侍中、中護軍。父偃，尚梁武帝女長城公主，拜駙馬都尉，大寶中，為鄱陽太守，卒官。后時年九歲，幹理家事，有若成人。侯景之亂，后與弟盼往江陵依梁元帝，元帝以長城公主之故，待遇甚厚。及高宗赴江陵，元帝以后配焉。承聖二年，后生後主於江陵。明年，江陵陷，高宗遷于關右，后與後主俱留穰城。天嘉二年，與後主還朝，后為安成王妃。高宗即位，立為皇后。",
+      "note": "依同段姓名、引者及所答者。",
+      "chapter_id": "c-chenshu-007-liujingyan",
+      "book_id": "b-chenshu-007",
+      "work_id": "w-chenshu",
+      "source_id": "s-chenshu-007-liujingyan-ws2015446"
+    },
     {
       "id": "c-gaosengzhuan-010-baozhi-wangyun:p002:r0083",
       "person_id": "fo7_f8v_rmf",
@@ -8535,6 +8713,36 @@
       "source_id": "s-nanshi-024-wangjinzhi-ws1765279"
     },
     {
+      "id": "c-nanshi-038-liujingyan-liujia:p003:r0011",
+      "surface": "梁武帝",
+      "start": 11,
+      "end": 14,
+      "person_id": "fo7_f8v_rmf",
+      "referent_role": "third_person",
+      "paragraph_id": "c-nanshi-038-liujingyan-liujia:p003",
+      "quote": "少子偃字彥遊，年十二，梁武帝引見，詔問讀何書，對曰：「尚書。」又問有何美句，對曰：「德惟善政，政在養人。」眾咸異之。詔尚武帝女長城公主，拜駙馬都尉、都亭侯，位鄱陽內史，卒。",
+      "note": "依同段姓名、引者及所答者。",
+      "chapter_id": "c-nanshi-038-liujingyan-liujia",
+      "book_id": "b-nanshi-038",
+      "work_id": "w-nanshi",
+      "source_id": "s-nanshi-038-liujingyan-liujia-ws1569807"
+    },
+    {
+      "id": "c-nanshi-038-liujingyan-liujia:p003:r0060",
+      "surface": "武帝",
+      "start": 60,
+      "end": 62,
+      "person_id": "fo7_f8v_rmf",
+      "referent_role": "third_person",
+      "paragraph_id": "c-nanshi-038-liujingyan-liujia:p003",
+      "quote": "少子偃字彥遊，年十二，梁武帝引見，詔問讀何書，對曰：「尚書。」又問有何美句，對曰：「德惟善政，政在養人。」眾咸異之。詔尚武帝女長城公主，拜駙馬都尉、都亭侯，位鄱陽內史，卒。",
+      "note": "依同段姓名、引者及所答者。",
+      "chapter_id": "c-nanshi-038-liujingyan-liujia",
+      "book_id": "b-nanshi-038",
+      "work_id": "w-nanshi",
+      "source_id": "s-nanshi-038-liujingyan-liujia-ws1569807"
+    },
+    {
       "id": "c-nanshi-051-xiaozhengde-adoption:p001:r0031",
       "paragraph_id": "c-nanshi-051-xiaozhengde-adoption:p001",
       "start": 31,
@@ -8674,6 +8882,40 @@
     "fo7_f8v_rmf"
   ],
   "preferred_relations": [
+    {
+      "id": "a-nan012-liujingyan-c-princess-father",
+      "subject_person_id": "fo7_f8v_rmf_I",
+      "object_person_id": "fo7_f8v_rmf",
+      "predicate": "father",
+      "qualifiers": {
+        "source_term": "梁武帝女長城公主",
+        "nan012_liujingyan_reading": "c-princess-father",
+        "lineage": "paternal"
+      },
+      "evidence": [
+        {
+          "work_id": "w-chenshu",
+          "book_id": "b-chenshu-007",
+          "source_id": "s-chenshu-007-liujingyan-ws2015446",
+          "chapter_id": "c-chenshu-007-liujingyan",
+          "paragraph_id": "c-chenshu-007-liujingyan:p001",
+          "quote": "高宗柳皇后諱敬言，河東解人也。曾祖世隆，齊侍中、司空、尚書令、貞陽忠武公。祖惲，有重名於梁代，官至祕書監，贈侍中、中護軍。父偃，尚梁武帝女長城公主，拜駙馬都尉，大寶中，為鄱陽太守，卒官。后時年九歲，幹理家事，有若成人。侯景之亂，后與弟盼往江陵依梁元帝，元帝以長城公主之故，待遇甚厚。及高宗赴江陵，元帝以后配焉。承聖二年，后生後主於江陵。明年，江陵陷，高宗遷于關右，后與後主俱留穰城。天嘉二年，與後主還朝，后為安成王妃。高宗即位，立為皇后。",
+          "subject_person_mention_id": "c-chenshu-007-liujingyan:p001:m0069",
+          "object_person_reference_id": "c-chenshu-007-liujingyan:p001:r0065",
+          "relationship_anchor": {
+            "paragraph_id": "c-chenshu-007-liujingyan:p001",
+            "surface": "梁武帝女長城公主",
+            "start": 65,
+            "end": 73
+          }
+        }
+      ],
+      "status": "source_attested",
+      "interpretation_note": "柳偃所尚長城公主為梁武帝之女。",
+      "reviewer": "Codex（AI 代理）",
+      "human_reviewed": false,
+      "model": null
+    },
     {
       "id": "a-liang007-ruanlingying-b-father",
       "subject_person_id": "rvc_bqx_v5w",
@@ -9579,6 +9821,40 @@
       ],
       "status": "source_attested",
       "interpretation_note": "梁武帝的甥。本句未稱母名，父之婚配與生母身分分列。",
+      "reviewer": "Codex（AI 代理）",
+      "human_reviewed": false,
+      "model": null
+    },
+    {
+      "id": "a-nan012-liujingyan-f-princess-father",
+      "subject_person_id": "fo7_f8v_rmf_I",
+      "object_person_id": "fo7_f8v_rmf",
+      "predicate": "father",
+      "qualifiers": {
+        "source_term": "武帝女長城公主",
+        "nan012_liujingyan_reading": "f-princess-father",
+        "lineage": "paternal"
+      },
+      "evidence": [
+        {
+          "work_id": "w-nanshi",
+          "book_id": "b-nanshi-038",
+          "source_id": "s-nanshi-038-liujingyan-liujia-ws1569807",
+          "chapter_id": "c-nanshi-038-liujingyan-liujia",
+          "paragraph_id": "c-nanshi-038-liujingyan-liujia:p003",
+          "quote": "少子偃字彥遊，年十二，梁武帝引見，詔問讀何書，對曰：「尚書。」又問有何美句，對曰：「德惟善政，政在養人。」眾咸異之。詔尚武帝女長城公主，拜駙馬都尉、都亭侯，位鄱陽內史，卒。",
+          "subject_person_mention_id": "c-nanshi-038-liujingyan-liujia:p003:m0063",
+          "object_person_reference_id": "c-nanshi-038-liujingyan-liujia:p003:r0060",
+          "relationship_anchor": {
+            "paragraph_id": "c-nanshi-038-liujingyan-liujia:p003",
+            "surface": "武帝女長城公主",
+            "start": 60,
+            "end": 67
+          }
+        }
+      ],
+      "status": "source_attested",
+      "interpretation_note": "本傳明稱武帝女。",
       "reviewer": "Codex（AI 代理）",
       "human_reviewed": false,
       "model": null

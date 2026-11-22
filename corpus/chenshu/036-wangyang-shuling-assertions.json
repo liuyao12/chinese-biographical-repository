@@ -1,0 +1,42 @@
+{
+  "format_version": "0.2",
+  "record_type": "person_assertion_set",
+  "chapter_id": "c-chenshu-036-wangyang-shuling",
+  "assertions": [
+    {
+      "id": "a-chen023-shuling-father",
+      "subject_person_id": "icd_mkz_d9n_B",
+      "object_person_id": "icd_mkz_d9n",
+      "predicate": "father",
+      "qualifiers": {
+        "source_term": "高宗之第二子",
+        "lineage": "paternal",
+        "birth_order": {
+          "parent_person_id": "icd_mkz_d9n",
+          "ordinal": 2,
+          "position": "unspecified",
+          "scope": "sons_of_parent",
+          "source_term": "第二子",
+          "interpretation_status": "source_attested"
+        }
+      },
+      "evidence": [
+        {
+          "work_id": "w-chenshu",
+          "book_id": "b-chenshu-036",
+          "chapter_id": "c-chenshu-036-wangyang-shuling",
+          "source_id": "s-chenshu-036-wangyang-shuling-ws1530928",
+          "paragraph_id": "c-chenshu-036-wangyang-shuling:p001",
+          "quote": "始興王叔陵字子嵩，高宗之第二子也。",
+          "subject_person_mention_id": "c-chenshu-036-wangyang-shuling:p001:m0003",
+          "object_person_mention_id": "c-chenshu-036-wangyang-shuling:p001:m0009"
+        }
+      ],
+      "status": "source_attested",
+      "interpretation_note": "本傳明載高宗第二子。",
+      "reviewer": "Codex（AI代理）",
+      "model": null,
+      "human_reviewed": false
+    }
+  ]
+}

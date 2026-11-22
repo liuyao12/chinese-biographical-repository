@@ -1,0 +1,166 @@
+{
+  "schema_version": 1,
+  "id": "1ld_xob_aav",
+  "canonical_person_id": "1ld_xob_aav",
+  "label": "毛栖忠（毛喜父）",
+  "identity_note": "陳書二十九原稱栖忠。",
+  "review": "ai_provisional",
+  "names": [
+    "栖忠"
+  ],
+  "titles": [],
+  "addresses": [],
+  "occurrences": [
+    {
+      "number": 29,
+      "category": "",
+      "title": "毛喜本傳家世",
+      "paragraph_id": "c-chenshu-029-shenmiaorong-maoxi:p001",
+      "count": 1,
+      "raw_count": 1,
+      "duplicate_count": 0,
+      "counting_policy": "independent_fixed_witness_occurrences",
+      "quote": "毛喜字伯武，滎陽陽武人也。祖稱，梁散騎侍郎。父栖忠，梁尚書比部侍郎、中權司馬。",
+      "paragraph_ids": [
+        "c-chenshu-029-shenmiaorong-maoxi:p001"
+      ],
+      "mention_ids": [
+        "c-chenshu-029-shenmiaorong-maoxi:p001:m0023"
+      ],
+      "mention_paragraph_ids": {
+        "c-chenshu-029-shenmiaorong-maoxi:p001:m0023": "c-chenshu-029-shenmiaorong-maoxi:p001"
+      },
+      "mention_id": "c-chenshu-029-shenmiaorong-maoxi:p001:m0023",
+      "occurrence_groups": [
+        {
+          "canonical_mention_id": "c-chenshu-029-shenmiaorong-maoxi:p001:m0023",
+          "mention_ids": [
+            "c-chenshu-029-shenmiaorong-maoxi:p001:m0023"
+          ],
+          "kind": "paragraph"
+        }
+      ],
+      "work_id": "w-chenshu",
+      "book_id": "b-chenshu-029",
+      "chapter_id": "c-chenshu-029-shenmiaorong-maoxi",
+      "source_id": "s-chenshu-029-shenmiaorong-maoxi-ws1511159",
+      "work_title": "陳書"
+    }
+  ],
+  "table_occurrences": [],
+  "sources": [
+    {
+      "chapter_id": "c-chenshu-029-shenmiaorong-maoxi",
+      "work_id": "w-chenshu",
+      "book_id": "b-chenshu-029",
+      "source_id": "s-chenshu-029-shenmiaorong-maoxi-ws1511159",
+      "source": {
+        "title": "陳書卷29·毛喜本傳家世",
+        "provider": "Wikisource",
+        "url": "https://zh.wikisource.org/w/index.php?oldid=1511159",
+        "permalink": "https://zh.wikisource.org/w/index.php?oldid=1511159",
+        "revision_id": 1511159,
+        "accessed_on": "2026-11-21",
+        "edition": "維基文庫固定數位轉錄",
+        "extent": "所涉人物本傳的親屬、名、字及世次。",
+        "text_scope": "partial_chapter",
+        "image_verified": false,
+        "review_status": "text_checked",
+        "raw_path": "source-evidence/nan012-shenmiaorong/ws1511159.wikitext",
+        "raw_file_sha256": "297ef31253da84fa457d2f40c31d3588a704a92a8a667296c7a8736bca8323dd",
+        "rights": "古代原典及維基文庫數位轉錄。",
+        "license_url": "https://zh.wikisource.org/wiki/Wikisource:著作權資訊",
+        "normalization": {
+          "character_conversion": {},
+          "extraction_note": "投影相應原句，保留字形；移除年號模板定界符。"
+        },
+        "section_locator": "毛喜本傳家世"
+      }
+    }
+  ],
+  "relations": [
+    {
+      "id": "a-nan012-shenmiaorong-a-father",
+      "subject_person_id": "1ld_xob_aav_A",
+      "object_person_id": "1ld_xob_aav",
+      "predicate": "father",
+      "qualifiers": {
+        "source_term": "父栖忠",
+        "nan012_shenmiaorong_reading": "a-father",
+        "lineage": "paternal"
+      },
+      "evidence": [
+        {
+          "work_id": "w-chenshu",
+          "book_id": "b-chenshu-029",
+          "source_id": "s-chenshu-029-shenmiaorong-maoxi-ws1511159",
+          "chapter_id": "c-chenshu-029-shenmiaorong-maoxi",
+          "paragraph_id": "c-chenshu-029-shenmiaorong-maoxi:p001",
+          "quote": "毛喜字伯武，滎陽陽武人也。祖稱，梁散騎侍郎。父栖忠，梁尚書比部侍郎、中權司馬。",
+          "subject_person_mention_id": "c-chenshu-029-shenmiaorong-maoxi:p001:m0000",
+          "object_person_mention_id": "c-chenshu-029-shenmiaorong-maoxi:p001:m0023",
+          "relationship_anchor": {
+            "paragraph_id": "c-chenshu-029-shenmiaorong-maoxi:p001",
+            "surface": "父栖忠",
+            "start": 22,
+            "end": 25
+          }
+        }
+      ],
+      "status": "source_attested",
+      "interpretation_note": "本傳明書父。",
+      "reviewer": "Codex（AI 代理）",
+      "human_reviewed": false,
+      "model": null
+    }
+  ],
+  "related_people": {
+    "1ld_xob_aav": "毛栖忠（毛喜父）",
+    "1ld_xob_aav_A": "毛喜（字伯武）"
+  },
+  "dates": [],
+  "name_components": [],
+  "person_ids": [
+    "1ld_xob_aav"
+  ],
+  "preferred_relations": [
+    {
+      "id": "a-nan012-shenmiaorong-a-father",
+      "subject_person_id": "1ld_xob_aav_A",
+      "object_person_id": "1ld_xob_aav",
+      "predicate": "father",
+      "qualifiers": {
+        "source_term": "父栖忠",
+        "nan012_shenmiaorong_reading": "a-father",
+        "lineage": "paternal"
+      },
+      "evidence": [
+        {
+          "work_id": "w-chenshu",
+          "book_id": "b-chenshu-029",
+          "source_id": "s-chenshu-029-shenmiaorong-maoxi-ws1511159",
+          "chapter_id": "c-chenshu-029-shenmiaorong-maoxi",
+          "paragraph_id": "c-chenshu-029-shenmiaorong-maoxi:p001",
+          "quote": "毛喜字伯武，滎陽陽武人也。祖稱，梁散騎侍郎。父栖忠，梁尚書比部侍郎、中權司馬。",
+          "subject_person_mention_id": "c-chenshu-029-shenmiaorong-maoxi:p001:m0000",
+          "object_person_mention_id": "c-chenshu-029-shenmiaorong-maoxi:p001:m0023",
+          "relationship_anchor": {
+            "paragraph_id": "c-chenshu-029-shenmiaorong-maoxi:p001",
+            "surface": "父栖忠",
+            "start": 22,
+            "end": 25
+          }
+        }
+      ],
+      "status": "source_attested",
+      "interpretation_note": "本傳明書父。",
+      "reviewer": "Codex（AI 代理）",
+      "human_reviewed": false,
+      "model": null
+    }
+  ],
+  "age_assertions": [],
+  "life_events": [],
+  "life_event_date_decisions": [],
+  "selected_life_event_dates": []
+}

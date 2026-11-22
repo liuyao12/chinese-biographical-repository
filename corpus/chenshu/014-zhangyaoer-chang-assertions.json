@@ -1,0 +1,50 @@
+{
+  "format_version": "0.2",
+  "record_type": "person_assertion_set",
+  "chapter_id": "c-chenshu-014-zhangyaoer-chang",
+  "assertions": [
+    {
+      "id": "a-nan012-zhangyaoer-d-father",
+      "subject_person_id": "3eu_ixs_h1w_B",
+      "object_person_id": "3eu_ixs_h1w",
+      "predicate": "father",
+      "qualifiers": {
+        "source_term": "高祖第六子",
+        "nan012_zhangyaoer_reading": "d-father",
+        "lineage": "paternal",
+        "birth_order": {
+          "source_term": "第六子",
+          "source_number": "六",
+          "ordinal": 6,
+          "position": "unspecified",
+          "scope": "sons_of_parent",
+          "parent_person_id": "3eu_ixs_h1w",
+          "interpretation_status": "source_attested"
+        }
+      },
+      "evidence": [
+        {
+          "work_id": "w-chenshu",
+          "book_id": "b-chenshu-014",
+          "source_id": "s-chenshu-014-zhangyaoer-chang-ws2262003",
+          "chapter_id": "c-chenshu-014-zhangyaoer-chang",
+          "paragraph_id": "c-chenshu-014-zhangyaoer-chang:p001",
+          "quote": "衡陽獻王昌字敬業，高祖第六子也。",
+          "subject_person_mention_id": "c-chenshu-014-zhangyaoer-chang:p001:m0004",
+          "object_person_reference_id": "c-chenshu-014-zhangyaoer-chang:p001:r0009",
+          "relationship_anchor": {
+            "paragraph_id": "c-chenshu-014-zhangyaoer-chang:p001",
+            "surface": "高祖第六子",
+            "start": 9,
+            "end": 14
+          }
+        }
+      ],
+      "status": "source_attested",
+      "interpretation_note": "衡陽獻王本傳確指第六子。",
+      "reviewer": "Codex（AI 代理）",
+      "human_reviewed": false,
+      "model": null
+    }
+  ]
+}
