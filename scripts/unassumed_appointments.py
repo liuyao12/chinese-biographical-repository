@@ -22,6 +22,10 @@ def unassumed_role(proposal, paragraph):
 
 
 def unassumed_appointment_valid(proposal, chapter):
+    if chapter.get('id') == 'c-chenshu-023-wangyang-complete':
+        try: from scripts.chenshu023_wangyang import proposal_valid
+        except ImportError: from chenshu023_wangyang import proposal_valid
+        return proposal_valid(proposal, chapter)
     if chapter.get('id') in ('c-chenshu-017-wangtong-complete', 'c-chenshu-017-wangmai-complete',
                              'c-chenshu-017-wangchong-complete', 'c-chenshu-017-yuanshu-complete'):
         try:
