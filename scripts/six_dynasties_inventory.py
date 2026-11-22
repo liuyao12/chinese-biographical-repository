@@ -229,6 +229,16 @@ def source_paragraphs(lines, layout=None):
         except ImportError:
             from sanguozhi062_layers import project_line
         return [body for line in lines if (body:=project_line(line)[0])]
+    if layout=='sanguozhi063_contiguous_slice':
+        try: from scripts.sanguozhi063_slices import slice_text
+        except ImportError: from sanguozhi063_slices import slice_text
+        return [slice_text(line) for line in lines if line]
+    if layout == 'sanguozhi063_received_with_pei_notes':
+        try:
+            from scripts.sanguozhi063_layers import project_line
+        except ImportError:
+            from sanguozhi063_layers import project_line
+        return [body for line in lines if (body:=project_line(line)[0])]
     if layout == 'jin065_indented_text':
         paragraphs = []
         for line in lines:
