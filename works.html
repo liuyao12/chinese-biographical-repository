@@ -2,8 +2,24 @@
 
 <html lang="zh-Hant"><head><script src="assets/locale-init.js"></script><meta charset="utf-8"/><meta content="width=device-width,initial-scale=1" name="viewport"/><meta content="人文著作資料：題名、撰著者與文獻提及。" data-i18n-content="Source-linked work profiles, titles, authorship and textual occurrences in Ren-Wen." name="description"/><title data-i18n="Works · 文 · Ren-Wen">著作 · 人文 · Ren-Wen</title><link rel="stylesheet" href="assets/profile.css"><link rel="stylesheet" href="assets/library.css"><link rel="stylesheet" href="assets/i18n.css"><link rel="stylesheet" href="assets/collection.css">
 <link rel="stylesheet" href="assets/dated-reader.css">
+<link rel="stylesheet" href="assets/public-reading.css">
 </head>
-<body><header><a class="brand" href="./"><span lang="zh-Hant">人文</span><span>REN-WEN</span></a><nav aria-label="主要導覽" data-i18n-aria-label="Project"><a href="reader.html" data-i18n="Source texts">文獻</a><a href="cbr.html" data-i18n="CBR people">人物</a><a href="works.html" data-i18n="Works · 文" aria-current="page">著作</a><a href="places.html" data-i18n="Place names">地名</a><a href="texts.html" data-i18n="Text structure">文本層次</a><div aria-label="介面語言" class="language-switch" data-i18n-aria-label="Interface language" role="group"><button type="button" data-set-locale="zh-Hant" aria-pressed="true" lang="zh-Hant">中文</button><button type="button" data-set-locale="en" aria-pressed="false" lang="en">English</button></div></nav><small data-release-info class="release-info">r2026.09.09</small></header>
+<body><header><a class="brand" href="./"><span lang="zh-Hant">人文</span><span>REN-WEN</span></a><nav class="public-nav" aria-label="主要導覽" data-i18n-aria-label="Project">
+    <a href="./?section=sources"><span data-i18n="Book catalogue">史書目錄</span></a>
+    <a href="shiji.html#category=biao"><span data-i18n="Historical tables">年表</span></a>
+    <a href="cbr.html"><span data-i18n="Person index">人物索引</span></a>
+    <details class="public-more">
+      <summary><span data-i18n="More indexes">更多索引</span></summary>
+      <div>
+        <a href="library.html"><span data-i18n="Qing biographies">清代人物傳記</span></a>
+        <a href="works.html" aria-current="page"><span data-i18n="Works · 文">著作</span></a>
+        <a href="places.html"><span data-i18n="Place names">地名</span></a>
+        <a href="texts.html"><span data-i18n="Text structure">文本層次</span></a>
+        <a href="https://github.com/liuyao12/chinese-biographical-repository"><span data-i18n="Source and data repository ↗">史料與資料庫 ↗</span></a>
+      </div>
+    </details>
+    <div aria-label="介面語言" class="language-switch" data-i18n-aria-label="Interface language" role="group"><button type="button" data-set-locale="zh-Hant" aria-pressed="true" lang="zh-Hant">中文</button><button type="button" data-set-locale="en" aria-pressed="false" lang="en">English</button></div>
+  </nav><small data-release-info class="release-info">r2026.09.09</small></header>
 <div class="toolbar"><label for="work-select"><span data-i18n="Works · 文">著作</span></label><input aria-label="篩選著作題名" class="library-search" data-i18n-aria-label="Filter work titles" data-i18n-placeholder="Find a title…" id="work-search" placeholder="搜尋書名…" type="search"/><select aria-label="選擇著作" data-i18n-aria-label="Choose a work" id="work-select"></select><span id="work-count"></span></div>
 <main id="work"><p role="status"><span data-i18n="Loading work profiles…">正在載入著作資料…</span></p></main><footer><span data-i18n="Titles, editions and people are distinct records. Every work is linked to its source passages.">著作、版本與人物分別立目，每部著作皆可追溯至出處。</span></footer><noscript>The work JSON files are available in data/works/.</noscript><script type="module" src="assets/work-view.js"></script><script type="module" src="assets/i18n.js"></script><script type="module" src="assets/release-info.js"></script>
 </body></html>
