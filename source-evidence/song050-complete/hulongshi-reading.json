@@ -1,0 +1,89 @@
+{
+  "record_type": "fixed_source_complete_item_review",
+  "reviewer": "Codex（AI代理）",
+  "model": null,
+  "human_reviewed": false,
+  "external_witnesses": [],
+  "print_readings": [
+    {
+      "url": "https://upload.wikimedia.org/wikipedia/commons/4/49/NLC892-411999017142-12209_%E4%BA%8C%E5%8D%81%E5%9B%9B%E5%8F%B2_%E7%AC%AC145%E5%86%8A.pdf#page=5",
+      "catalog_record": "https://commons.wikimedia.org/wiki/File:NLC892-411999017142-12209_%E4%BA%8C%E5%8D%81%E5%9B%9B%E5%8F%B2_%E7%AC%AC145%E5%86%8A.pdf",
+      "pdf_sha1": "888def8c99848449305a0142411b32f9b0ca79e8",
+      "pdf_sha256": "5dafc33ab9565bb6f8d44691b15a706f3d4b672c50b837630c79797adbc0b342",
+      "image_sha256": "aeee0024601d09573a29a05fafb703101ae088a4660322a40bac3ac86449500c",
+      "edition": "清乾隆武英殿本《宋書》，國圖第145冊。",
+      "page": 5,
+      "half": "R",
+      "folio": "三下",
+      "columns_from_right": "3",
+      "source_quote": "子隆世嗣官至西陽太守隆世卒",
+      "reading": "官、卒、承嗣次第。"
+    }
+  ],
+  "boundaries": [
+    {
+      "book_id": "b-songshu-050",
+      "title": "胡隆世",
+      "unit_kind": "embedded_account",
+      "chapter_id": "c-songshu-050-hulongshi",
+      "entry_checked": true,
+      "full_text": true,
+      "first_pass": true,
+      "item_reviewed": true,
+      "source_layout": "wikisource_mixed_indented_prose",
+      "first_line": 26,
+      "last_line": 26,
+      "start_codepoint": 0,
+      "end_codepoint": 16,
+      "opening": "子隆世嗣，官至西陽太守。",
+      "closing": "，官至西陽太守。隆世卒，",
+      "parent_heading": "胡藩",
+      "chapter_path": "corpus/songshu/050-hulongshi.json",
+      "paragraph_ids": [
+        "c-songshu-050-hulongshi:p001"
+      ],
+      "item_review_path": "source-evidence/song050-complete/hulongshi-reading.json"
+    }
+  ],
+  "chronology": [],
+  "readings": [
+    {
+      "id": "c-songshu-050-hulongshi:received_sentence1-0",
+      "kind": "received_sentence",
+      "person_id": "otw_1ui_wba_A",
+      "source_quote": "子隆世嗣，官至西陽太守。",
+      "reading": "隆世嗣父胡藩爵，官至西陽太守。",
+      "note": "隆世嗣父胡藩爵，官至西陽太守。",
+      "paragraph_id": "c-songshu-050-hulongshi:p001",
+      "start_codepoint": 0,
+      "end_codepoint": 12,
+      "human_reviewed": false
+    },
+    {
+      "id": "c-songshu-050-hulongshi:received_sentence1-12",
+      "kind": "received_sentence",
+      "person_id": "otw_1ui_wba_A",
+      "source_quote": "隆世卒，",
+      "reading": "隆世卒，後句稱子乾秀嗣。",
+      "note": "隆世卒，後句稱子乾秀嗣。",
+      "paragraph_id": "c-songshu-050-hulongshi:p001",
+      "start_codepoint": 12,
+      "end_codepoint": 16,
+      "human_reviewed": false
+    },
+    {
+      "id": "c-songshu-050-hulongshi:succession1-3",
+      "kind": "succession",
+      "person_id": "otw_1ui_wba_A",
+      "source_quote": "嗣",
+      "reading": "承胡藩陽山縣男，未言隆世為長子。",
+      "note": "承胡藩陽山縣男，未言隆世為長子。",
+      "paragraph_id": "c-songshu-050-hulongshi:p001",
+      "start_codepoint": 3,
+      "end_codepoint": 4,
+      "human_reviewed": false,
+      "predecessor": "otw_1ui_wba"
+    }
+  ],
+  "identity_limits": []
+}

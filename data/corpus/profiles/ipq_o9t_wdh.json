@@ -2184,6 +2184,34 @@
       }
     },
     {
+      "chapter_id": "c-nanshi-044-lastprinces-nan",
+      "work_id": "w-nanshi",
+      "book_id": "b-nanshi-044",
+      "source_id": "s-nanshi-044-lastprinces-nan-ws2027785",
+      "source": {
+        "title": "南史卷44·七王名形、荀氏謝氏及文惠太子二子",
+        "provider": "Wikisource",
+        "url": "https://zh.wikisource.org/w/index.php?oldid=2027785",
+        "permalink": "https://zh.wikisource.org/w/index.php?oldid=2027785",
+        "revision_id": 2027785,
+        "accessed_on": "2026-11-21",
+        "edition": "維基文庫固定數位轉錄",
+        "extent": "各原卷所載家世、紀日及本傳異文。",
+        "text_scope": "partial_chapter",
+        "image_verified": false,
+        "review_status": "text_checked",
+        "raw_path": "source-evidence/qinan-pei/nanshi044-ws2027785.wikitext",
+        "raw_file_sha256": "f660e2e62332f13dcf8c01176489591b3cd117182d7b985c3316b59dd170d9e4",
+        "rights": "古代原典及維基文庫數位轉錄。",
+        "license_url": "https://zh.wikisource.org/wiki/Wikisource:著作權資訊",
+        "normalization": {
+          "character_conversion": {},
+          "extraction_note": "投影相應原句，保留字形；移除年號模板定界符。"
+        },
+        "section_locator": "七王名形、荀氏謝氏及文惠太子二子"
+      }
+    },
+    {
       "chapter_id": "c-nanshi-044-mu-empress-children",
       "work_id": "w-nanshi",
       "book_id": "b-nanshi-044",
@@ -2405,6 +2433,34 @@
         },
         "section_locator": "子響、順之、太子長懋"
       }
+    },
+    {
+      "chapter_id": "c-zizhitongjian-141-lastprinces-huren",
+      "work_id": "w-zizhitongjian",
+      "book_id": "b-zizhitongjian-141",
+      "source_id": "s-zizhitongjian-141-lastprinces-huren-ws2080217",
+      "source": {
+        "title": "資治通鑑卷141·胡三省釋司徒及通鑑十王次第",
+        "provider": "Wikisource",
+        "url": "https://zh.wikisource.org/w/index.php?oldid=2080217",
+        "permalink": "https://zh.wikisource.org/w/index.php?oldid=2080217",
+        "revision_id": 2080217,
+        "accessed_on": "2026-11-21",
+        "edition": "維基文庫固定數位轉錄",
+        "extent": "各原卷所載家世、紀日及本傳異文。",
+        "text_scope": "partial_chapter",
+        "image_verified": false,
+        "review_status": "text_checked",
+        "raw_path": "source-evidence/nanqi040-lastprinces/ws2080217.wikitext",
+        "raw_file_sha256": "c3e0afcf49e09af061b8a5785ecb285348767cac1d4d74c588ae7f7b5528c2f8",
+        "rights": "古代原典及維基文庫數位轉錄。",
+        "license_url": "https://zh.wikisource.org/wiki/Wikisource:著作權資訊",
+        "normalization": {
+          "character_conversion": {},
+          "extraction_note": "投影相應原句，保留字形；移除年號模板定界符。"
+        },
+        "section_locator": "胡三省釋司徒及通鑑十王次第"
+      }
     }
   ],
   "relations": [
@@ -2579,6 +2635,92 @@
       "model": null
     },
     {
+      "id": "a-nanqi040-lastprinces-nan-昭秀-father",
+      "subject_person_id": "ipq_o9t_wdh_A",
+      "object_person_id": "ipq_o9t_wdh",
+      "predicate": "father",
+      "qualifiers": {
+        "source_term": "太子第三子",
+        "nanqi040_lastprinces_reading": "nan-昭秀-father",
+        "lineage": "paternal",
+        "birth_order": {
+          "source_term": "第三子",
+          "source_number": "三",
+          "ordinal": 3,
+          "position": "unspecified",
+          "scope": "sons_of_parent",
+          "parent_person_id": "ipq_o9t_wdh",
+          "interpretation_status": "source_attested"
+        }
+      },
+      "evidence": [
+        {
+          "work_id": "w-nanshi",
+          "book_id": "b-nanshi-044",
+          "source_id": "s-nanshi-044-lastprinces-nan-ws2027785",
+          "chapter_id": "c-nanshi-044-lastprinces-nan",
+          "paragraph_id": "c-nanshi-044-lastprinces-nan:p008",
+          "quote": "巴陵王昭秀字懷尚，太子第三子也。",
+          "subject_person_mention_id": "c-nanshi-044-lastprinces-nan:p008:m0003",
+          "object_person_reference_id": "c-nanshi-044-lastprinces-nan:p008:r0009",
+          "relationship_anchor": {
+            "paragraph_id": "c-nanshi-044-lastprinces-nan:p008",
+            "surface": "太子第三子",
+            "start": 9,
+            "end": 14
+          }
+        }
+      ],
+      "status": "source_attested",
+      "interpretation_note": "原句記明所生父親及子次。",
+      "reviewer": "Codex（AI 代理）",
+      "human_reviewed": false,
+      "model": null
+    },
+    {
+      "id": "a-nanqi040-lastprinces-nan-昭粲-father",
+      "subject_person_id": "ipq_o9t_wdh_B",
+      "object_person_id": "ipq_o9t_wdh",
+      "predicate": "father",
+      "qualifiers": {
+        "source_term": "太子第四子",
+        "nanqi040_lastprinces_reading": "nan-昭粲-father",
+        "lineage": "paternal",
+        "birth_order": {
+          "source_term": "第四子",
+          "source_number": "四",
+          "ordinal": 4,
+          "position": "unspecified",
+          "scope": "sons_of_parent",
+          "parent_person_id": "ipq_o9t_wdh",
+          "interpretation_status": "source_attested"
+        }
+      },
+      "evidence": [
+        {
+          "work_id": "w-nanshi",
+          "book_id": "b-nanshi-044",
+          "source_id": "s-nanshi-044-lastprinces-nan-ws2027785",
+          "chapter_id": "c-nanshi-044-lastprinces-nan",
+          "paragraph_id": "c-nanshi-044-lastprinces-nan:p009",
+          "quote": "桂陽王昭粲，太子第四子也。",
+          "subject_person_mention_id": "c-nanshi-044-lastprinces-nan:p009:m0003",
+          "object_person_reference_id": "c-nanshi-044-lastprinces-nan:p009:r0006",
+          "relationship_anchor": {
+            "paragraph_id": "c-nanshi-044-lastprinces-nan:p009",
+            "surface": "太子第四子",
+            "start": 6,
+            "end": 11
+          }
+        }
+      ],
+      "status": "source_attested",
+      "interpretation_note": "原句記明所生父親及子次。",
+      "reviewer": "Codex（AI 代理）",
+      "human_reviewed": false,
+      "model": null
+    },
+    {
       "id": "a-nanshi-044-mu-empress-children-mother-changmao",
       "subject_person_id": "ipq_o9t_wdh",
       "object_person_id": "262_b8f_4ie_AA",
@@ -2638,6 +2780,8 @@
     "262_b8f_4ie_AA": "裴惠昭",
     "iop_ybd_afm": "鬱林王昭業",
     "ipq_o9t_wdh": "南郡王長懋",
+    "ipq_o9t_wdh_A": "蕭昭秀（字懷尚，巴陵王）",
+    "ipq_o9t_wdh_B": "蕭昭粲（文惠太子第四子，桂陽王）",
     "m9u_v4i_tk5": "王寶明（齊文安皇后）",
     "x3q_cqm_dup": "竟陵王子良"
   },
@@ -3240,6 +3384,36 @@
       "source_id": "s-nanshi-024-wangsiyuan-ws1765279"
     },
     {
+      "id": "c-nanshi-044-lastprinces-nan:p008:r0009",
+      "surface": "太子",
+      "start": 9,
+      "end": 11,
+      "person_id": "ipq_o9t_wdh",
+      "referent_role": "third_person",
+      "paragraph_id": "c-nanshi-044-lastprinces-nan:p008",
+      "quote": "巴陵王昭秀字懷尚，太子第三子也。",
+      "note": "依同段姓名、引者及所答者。",
+      "chapter_id": "c-nanshi-044-lastprinces-nan",
+      "book_id": "b-nanshi-044",
+      "work_id": "w-nanshi",
+      "source_id": "s-nanshi-044-lastprinces-nan-ws2027785"
+    },
+    {
+      "id": "c-nanshi-044-lastprinces-nan:p009:r0006",
+      "surface": "太子",
+      "start": 6,
+      "end": 8,
+      "person_id": "ipq_o9t_wdh",
+      "referent_role": "third_person",
+      "paragraph_id": "c-nanshi-044-lastprinces-nan:p009",
+      "quote": "桂陽王昭粲，太子第四子也。",
+      "note": "依同段姓名、引者及所答者。",
+      "chapter_id": "c-nanshi-044-lastprinces-nan",
+      "book_id": "b-nanshi-044",
+      "work_id": "w-nanshi",
+      "source_id": "s-nanshi-044-lastprinces-nan-ws2027785"
+    },
+    {
       "id": "c-nanshi-044-mu-empress-children:p001:r0011",
       "person_id": "ipq_o9t_wdh",
       "paragraph_id": "c-nanshi-044-mu-empress-children:p001",
@@ -3343,6 +3517,36 @@
       "book_id": "b-zizhitongjian-137",
       "work_id": "w-zizhitongjian",
       "source_id": "s-zizhitongjian-137-zixiang-tj-ws803179"
+    },
+    {
+      "id": "c-zizhitongjian-141-lastprinces-huren:p002:r0071",
+      "surface": "世宗",
+      "start": 71,
+      "end": 73,
+      "person_id": "ipq_o9t_wdh",
+      "referent_role": "third_person",
+      "paragraph_id": "c-zizhitongjian-141-lastprinces-huren:p002",
+      "quote": "丁未，殺河東王鉉、臨賀王子岳、西陽王子文、永陽王子峻、南康王子琳、衡陽王子珉、湘東王子建、南郡王子夏、桂陽王昭粲、巴陵王昭秀，於是太祖、世祖及世宗諸子皆盡矣。",
+      "note": "依同段姓名、引者及所答者。",
+      "chapter_id": "c-zizhitongjian-141-lastprinces-huren",
+      "book_id": "b-zizhitongjian-141",
+      "work_id": "w-zizhitongjian",
+      "source_id": "s-zizhitongjian-141-lastprinces-huren-ws2080217"
+    },
+    {
+      "id": "c-zizhitongjian-141-lastprinces-huren:p003:r0023",
+      "surface": "世宗",
+      "start": 23,
+      "end": 25,
+      "person_id": "ipq_o9t_wdh",
+      "referent_role": "third_person",
+      "paragraph_id": "c-zizhitongjian-141-lastprinces-huren:p003",
+      "quote": "鉉，太祖子。子岳至子夏，皆世祖子。昭粲、昭秀，世宗子。",
+      "note": "依同段姓名、引者及所答者。",
+      "chapter_id": "c-zizhitongjian-141-lastprinces-huren",
+      "book_id": "b-zizhitongjian-141",
+      "work_id": "w-zizhitongjian",
+      "source_id": "s-zizhitongjian-141-lastprinces-huren-ws2080217"
     }
   ],
   "person_ids": [
@@ -3515,6 +3719,92 @@
       ],
       "interpretation_note": "高帝主婚，所配為文惠太子長懋。",
       "status": "source_attested",
+      "reviewer": "Codex（AI 代理）",
+      "human_reviewed": false,
+      "model": null
+    },
+    {
+      "id": "a-nanqi040-lastprinces-nan-昭秀-father",
+      "subject_person_id": "ipq_o9t_wdh_A",
+      "object_person_id": "ipq_o9t_wdh",
+      "predicate": "father",
+      "qualifiers": {
+        "source_term": "太子第三子",
+        "nanqi040_lastprinces_reading": "nan-昭秀-father",
+        "lineage": "paternal",
+        "birth_order": {
+          "source_term": "第三子",
+          "source_number": "三",
+          "ordinal": 3,
+          "position": "unspecified",
+          "scope": "sons_of_parent",
+          "parent_person_id": "ipq_o9t_wdh",
+          "interpretation_status": "source_attested"
+        }
+      },
+      "evidence": [
+        {
+          "work_id": "w-nanshi",
+          "book_id": "b-nanshi-044",
+          "source_id": "s-nanshi-044-lastprinces-nan-ws2027785",
+          "chapter_id": "c-nanshi-044-lastprinces-nan",
+          "paragraph_id": "c-nanshi-044-lastprinces-nan:p008",
+          "quote": "巴陵王昭秀字懷尚，太子第三子也。",
+          "subject_person_mention_id": "c-nanshi-044-lastprinces-nan:p008:m0003",
+          "object_person_reference_id": "c-nanshi-044-lastprinces-nan:p008:r0009",
+          "relationship_anchor": {
+            "paragraph_id": "c-nanshi-044-lastprinces-nan:p008",
+            "surface": "太子第三子",
+            "start": 9,
+            "end": 14
+          }
+        }
+      ],
+      "status": "source_attested",
+      "interpretation_note": "原句記明所生父親及子次。",
+      "reviewer": "Codex（AI 代理）",
+      "human_reviewed": false,
+      "model": null
+    },
+    {
+      "id": "a-nanqi040-lastprinces-nan-昭粲-father",
+      "subject_person_id": "ipq_o9t_wdh_B",
+      "object_person_id": "ipq_o9t_wdh",
+      "predicate": "father",
+      "qualifiers": {
+        "source_term": "太子第四子",
+        "nanqi040_lastprinces_reading": "nan-昭粲-father",
+        "lineage": "paternal",
+        "birth_order": {
+          "source_term": "第四子",
+          "source_number": "四",
+          "ordinal": 4,
+          "position": "unspecified",
+          "scope": "sons_of_parent",
+          "parent_person_id": "ipq_o9t_wdh",
+          "interpretation_status": "source_attested"
+        }
+      },
+      "evidence": [
+        {
+          "work_id": "w-nanshi",
+          "book_id": "b-nanshi-044",
+          "source_id": "s-nanshi-044-lastprinces-nan-ws2027785",
+          "chapter_id": "c-nanshi-044-lastprinces-nan",
+          "paragraph_id": "c-nanshi-044-lastprinces-nan:p009",
+          "quote": "桂陽王昭粲，太子第四子也。",
+          "subject_person_mention_id": "c-nanshi-044-lastprinces-nan:p009:m0003",
+          "object_person_reference_id": "c-nanshi-044-lastprinces-nan:p009:r0006",
+          "relationship_anchor": {
+            "paragraph_id": "c-nanshi-044-lastprinces-nan:p009",
+            "surface": "太子第四子",
+            "start": 6,
+            "end": 11
+          }
+        }
+      ],
+      "status": "source_attested",
+      "interpretation_note": "原句記明所生父親及子次。",
       "reviewer": "Codex（AI 代理）",
       "human_reviewed": false,
       "model": null

@@ -711,6 +711,50 @@
       "chapter_id": "c-sanguozhi-056-zhuzhi",
       "source_id": "s-sanguozhi-056-zhuzhi",
       "work_title": "三國志"
+    },
+    {
+      "number": 61,
+      "category": "",
+      "title": "潘濬傳",
+      "paragraph_id": "c-sanguozhi-061-panjun:line014-pei02-01",
+      "count": 2,
+      "raw_count": 2,
+      "duplicate_count": 0,
+      "counting_policy": "independent_fixed_witness_occurrences",
+      "quote": "吴书曰：芮玄卒，濬并领玄兵，屯夏口。玄字文表，丹杨人。父祉，字宣嗣，从孙坚征伐有功，坚荐祉为九江太守，后转吴郡，所在有声。玄兄良，字文鸾，随孙策平定江东，策以为会稽东部都尉，卒，玄领良兵，拜奋武中郎将，以功封溧阳侯。权为子登拣择淑媛，群臣咸称玄父祉兄良并以德义文武显名三世，",
+      "paragraph_ids": [
+        "c-sanguozhi-061-panjun:line014-pei02-01"
+      ],
+      "mention_ids": [
+        "c-sanguozhi-061-panjun:line014-pei02-01:m0035",
+        "c-sanguozhi-061-panjun:line014-pei02-01:m0042"
+      ],
+      "mention_paragraph_ids": {
+        "c-sanguozhi-061-panjun:line014-pei02-01:m0035": "c-sanguozhi-061-panjun:line014-pei02-01",
+        "c-sanguozhi-061-panjun:line014-pei02-01:m0042": "c-sanguozhi-061-panjun:line014-pei02-01"
+      },
+      "mention_id": "c-sanguozhi-061-panjun:line014-pei02-01:m0035",
+      "occurrence_groups": [
+        {
+          "canonical_mention_id": "c-sanguozhi-061-panjun:line014-pei02-01:m0035",
+          "mention_ids": [
+            "c-sanguozhi-061-panjun:line014-pei02-01:m0035"
+          ],
+          "kind": "paragraph"
+        },
+        {
+          "canonical_mention_id": "c-sanguozhi-061-panjun:line014-pei02-01:m0042",
+          "mention_ids": [
+            "c-sanguozhi-061-panjun:line014-pei02-01:m0042"
+          ],
+          "kind": "paragraph"
+        }
+      ],
+      "work_id": "w-sanguozhi",
+      "book_id": "b-sanguozhi-061",
+      "chapter_id": "c-sanguozhi-061-panjun",
+      "source_id": "s-sanguozhi-061-panjun",
+      "work_title": "三國志"
     }
   ],
   "table_occurrences": [],
@@ -1063,6 +1107,33 @@
         "wikitext_sha256": "be8191ed695754812c1c3a717b335f08d1af2834fb4fd965c267942c6f747549",
         "collation_witnesses": [
           "source-evidence/sanguozhi056-zhuzhi/reading.json"
+        ]
+      }
+    },
+    {
+      "chapter_id": "c-sanguozhi-061-panjun",
+      "work_id": "w-sanguozhi",
+      "book_id": "b-sanguozhi-061",
+      "source_id": "s-sanguozhi-061-panjun",
+      "source": {
+        "title": "三國志卷六十一·吳書十六",
+        "provider": "Wikisource",
+        "url": "https://zh.wikisource.org/w/index.php?oldid=2085162",
+        "permalink": "https://zh.wikisource.org/w/index.php?oldid=2085162",
+        "revision_id": 2085162,
+        "accessed_on": "2026-11-21",
+        "edition": "維基文庫固定修訂，裴注與正文分層。",
+        "extent": "第12至18行。",
+        "text_scope": "partial_chapter",
+        "review_status": "text_checked",
+        "image_verified": false,
+        "rights": "古籍原文，維基文庫轉錄。",
+        "license_url": "https://creativecommons.org/licenses/by-sa/4.0/",
+        "raw_path": "source-evidence/sanguozhi061-pan-lu/sanguozhi061-ws2085162.wikitext",
+        "raw_file_sha256": "74eec1dcbe3028be24f1c3dab8c1d732070b04883c2d9f7b9c39e67345ffcc86",
+        "wikitext_sha256": "74eec1dcbe3028be24f1c3dab8c1d732070b04883c2d9f7b9c39e67345ffcc86",
+        "collation_witnesses": [
+          "source-evidence/sanguozhi061-panjun/reading.json"
         ]
       }
     }

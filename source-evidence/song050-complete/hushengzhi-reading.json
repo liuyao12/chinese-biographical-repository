@@ -1,0 +1,115 @@
+{
+  "record_type": "fixed_source_complete_item_review",
+  "reviewer": "Codex（AI代理）",
+  "model": null,
+  "human_reviewed": false,
+  "external_witnesses": [
+    {
+      "revision_id": 2322627,
+      "raw_path": "sources/weishu/weishu004-ws2322627.wikitext",
+      "line": 226,
+      "start": 123,
+      "end": 135,
+      "source_quote": "并虜將軍胡盛之、王羅漢等",
+      "raw_sha256": "9e4f01c1fa354c72d8387dc408a6e22a88cc2176b1558fc0f770bc63706998fc",
+      "interpretation": "魏太武紀具名並俘。"
+    }
+  ],
+  "print_readings": [
+    {
+      "url": "https://upload.wikimedia.org/wikipedia/commons/4/49/NLC892-411999017142-12209_%E4%BA%8C%E5%8D%81%E5%9B%9B%E5%8F%B2_%E7%AC%AC145%E5%86%8A.pdf#page=7",
+      "catalog_record": "https://commons.wikimedia.org/wiki/File:NLC892-411999017142-12209_%E4%BA%8C%E5%8D%81%E5%9B%9B%E5%8F%B2_%E7%AC%AC145%E5%86%8A.pdf",
+      "pdf_sha1": "888def8c99848449305a0142411b32f9b0ca79e8",
+      "pdf_sha256": "5dafc33ab9565bb6f8d44691b15a706f3d4b672c50b837630c79797adbc0b342",
+      "image_sha256": "f80314f208f2530308fe96a9474586078d9a2ed3170b63b6e7705950448da9e6",
+      "edition": "清乾隆武英殿本《宋書》，國圖第145冊。",
+      "page": 7,
+      "half": "L",
+      "folio": "六上",
+      "columns_from_right": "8–10",
+      "source_quote": "胡盛之為虜生禽",
+      "reading": "上接康祖首示彭城。"
+    }
+  ],
+  "boundaries": [
+    {
+      "book_id": "b-songshu-050",
+      "title": "胡盛之",
+      "unit_kind": "embedded_account",
+      "chapter_id": "c-songshu-050-hushengzhi",
+      "entry_checked": true,
+      "full_text": true,
+      "first_pass": true,
+      "item_reviewed": true,
+      "source_layout": "wikisource_mixed_indented_prose",
+      "first_line": 37,
+      "last_line": 37,
+      "start_codepoint": 0,
+      "end_codepoint": 72,
+      "opening": "胡盛之為虜生禽，托跋燾寵",
+      "closing": "挺身獨進，手斬五十八級。",
+      "parent_heading": "劉康祖",
+      "chapter_path": "corpus/songshu/050-hushengzhi.json",
+      "paragraph_ids": [
+        "c-songshu-050-hushengzhi:p001"
+      ],
+      "item_review_path": "source-evidence/song050-complete/hushengzhi-reading.json"
+    }
+  ],
+  "chronology": [],
+  "readings": [
+    {
+      "id": "c-songshu-050-hushengzhi:received_sentence1-0",
+      "kind": "received_sentence",
+      "person_id": "uj4_46o_tww",
+      "source_quote": "胡盛之為虜生禽，托跋燾寵之，常在左右。",
+      "reading": "胡盛之被魏生擒，獲太武帝寵遇。",
+      "note": "胡盛之被魏生擒，獲太武帝寵遇。",
+      "paragraph_id": "c-songshu-050-hushengzhi:p001",
+      "start_codepoint": 0,
+      "end_codepoint": 19,
+      "human_reviewed": false
+    },
+    {
+      "id": "c-songshu-050-hushengzhi:received_sentence1-19",
+      "kind": "received_sentence",
+      "person_id": "uj4_46o_tww",
+      "source_quote": "盛之有勇力，初為長沙王義欣鎮軍參軍督護，討劫譙郡，縣西劫有馬步七十，逃隱深榛，盛之挺身獨進，手斬五十八級。",
+      "reading": "回敘其為長沙王鎮軍參軍督護及在譙郡的勇力。",
+      "note": "回敘其為長沙王鎮軍參軍督護及在譙郡的勇力。",
+      "paragraph_id": "c-songshu-050-hushengzhi:p001",
+      "start_codepoint": 19,
+      "end_codepoint": 72,
+      "human_reviewed": false
+    },
+    {
+      "id": "c-songshu-050-hushengzhi:captivity1-3",
+      "kind": "captivity",
+      "person_id": "uj4_46o_tww",
+      "source_quote": "為虜生禽",
+      "reading": "被俘者胡盛之，與同役中劉康祖之死有別。魏紀並列王羅漢同俘。",
+      "note": "被俘者胡盛之，與同役中劉康祖之死有別。魏紀並列王羅漢同俘。",
+      "paragraph_id": "c-songshu-050-hushengzhi:p001",
+      "start_codepoint": 3,
+      "end_codepoint": 7,
+      "human_reviewed": false,
+      "ce_year": 450,
+      "death_date": null
+    },
+    {
+      "id": "c-songshu-050-hushengzhi:reported_numbers1-48",
+      "kind": "reported_numbers",
+      "person_id": "uj4_46o_tww",
+      "source_quote": "馬步七十",
+      "reading": "宋書述對方七十、盛之斬五十八。",
+      "note": "宋書述對方七十、盛之斬五十八。",
+      "paragraph_id": "c-songshu-050-hushengzhi:p001",
+      "start_codepoint": 48,
+      "end_codepoint": 52,
+      "human_reviewed": false,
+      "reported_force": 70,
+      "reported_count": 58
+    }
+  ],
+  "identity_limits": []
+}

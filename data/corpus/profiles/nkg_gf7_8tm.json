@@ -129,6 +129,41 @@
       "chapter_id": "c-songshu-044-xiehui-digital",
       "source_id": "s-songshu-044-xiehui-digital-ws1746033",
       "work_title": "宋書"
+    },
+    {
+      "number": 65,
+      "category": "",
+      "title": "劉道產傳所明簡之、康祖",
+      "paragraph_id": "c-songshu-065-kangzu-daocan:p001",
+      "count": 1,
+      "raw_count": 1,
+      "duplicate_count": 0,
+      "counting_policy": "independent_fixed_witness_occurrences",
+      "quote": "劉道產，彭城呂人，太尉諮議參軍簡之子也。簡之事在弟子康祖傳。",
+      "paragraph_ids": [
+        "c-songshu-065-kangzu-daocan:p001"
+      ],
+      "mention_ids": [
+        "c-songshu-065-kangzu-daocan:p001:m0000"
+      ],
+      "mention_paragraph_ids": {
+        "c-songshu-065-kangzu-daocan:p001:m0000": "c-songshu-065-kangzu-daocan:p001"
+      },
+      "mention_id": "c-songshu-065-kangzu-daocan:p001:m0000",
+      "occurrence_groups": [
+        {
+          "canonical_mention_id": "c-songshu-065-kangzu-daocan:p001:m0000",
+          "mention_ids": [
+            "c-songshu-065-kangzu-daocan:p001:m0000"
+          ],
+          "kind": "paragraph"
+        }
+      ],
+      "work_id": "w-songshu",
+      "book_id": "b-songshu-065",
+      "chapter_id": "c-songshu-065-kangzu-daocan",
+      "source_id": "s-songshu-065-kangzu-daocan-ws2110981",
+      "work_title": "宋書"
     }
   ],
   "table_occurrences": [],
@@ -297,10 +332,62 @@
         "raw_file_sha256": "9ca7cb37e05e0ebcc400fb220a1f3970ddc2c0f948483f04b71ea93847a69898",
         "section_locator": "列傳第四 謝晦"
       }
+    },
+    {
+      "chapter_id": "c-songshu-065-kangzu-daocan",
+      "work_id": "w-songshu",
+      "book_id": "b-songshu-065",
+      "source_id": "s-songshu-065-kangzu-daocan-ws2110981",
+      "source": {
+        "title": "劉道產傳所明簡之、康祖",
+        "provider": "Wikisource",
+        "permalink": "https://zh.wikisource.org/w/index.php?oldid=2110981",
+        "url": "https://zh.wikisource.org/w/index.php?oldid=2110981",
+        "revision_id": 2110981,
+        "edition": "維基文庫固定修訂",
+        "accessed_on": "2026-11-21",
+        "review_status": "text_checked",
+        "image_verified": false,
+        "rights": "古代原文；數位轉錄依維基文庫授權。",
+        "license_url": "https://creativecommons.org/licenses/by-sa/4.0/",
+        "extent": "劉道產傳所明簡之、康祖",
+        "text_scope": "partial_chapter",
+        "raw_path": "source-evidence/song050-complete/external/song065-ws2110981.wikitext",
+        "raw_file_sha256": "ece8802ea984976d8238ebb03b04996a5a38da721e51a723724ba3490e74725f"
+      }
     }
   ],
-  "relations": [],
+  "relations": [
+    {
+      "id": "a-song050-daochan-jian",
+      "subject_person_id": "nkg_gf7_8tm",
+      "object_person_id": "dwr_is1_jaf",
+      "predicate": "father",
+      "qualifiers": {
+        "source_term": "太尉諮議參軍簡之子也",
+        "lineage": "paternal"
+      },
+      "evidence": [
+        {
+          "work_id": "w-songshu",
+          "book_id": "b-songshu-065",
+          "chapter_id": "c-songshu-065-kangzu-daocan",
+          "source_id": "s-songshu-065-kangzu-daocan-ws2110981",
+          "paragraph_id": "c-songshu-065-kangzu-daocan:p001",
+          "quote": "劉道產，彭城呂人，太尉諮議參軍簡之子也。簡之事在弟子康祖傳。",
+          "subject_person_mention_id": "c-songshu-065-kangzu-daocan:p001:m0000",
+          "object_person_mention_id": "c-songshu-065-kangzu-daocan:p001:m0015"
+        }
+      ],
+      "status": "source_attested",
+      "interpretation_note": "宋65明簡之子，弟子康祖為同書明示交叉指向。",
+      "reviewer": "Codex（AI代理）",
+      "model": null,
+      "human_reviewed": false
+    }
+  ],
   "related_people": {
+    "dwr_is1_jaf": "劉簡之（劉康祖伯父、劉道產父）",
     "nkg_gf7_8tm": "劉道產"
   },
   "dates": [],
@@ -308,7 +395,35 @@
   "person_ids": [
     "nkg_gf7_8tm"
   ],
-  "preferred_relations": [],
+  "preferred_relations": [
+    {
+      "id": "a-song050-daochan-jian",
+      "subject_person_id": "nkg_gf7_8tm",
+      "object_person_id": "dwr_is1_jaf",
+      "predicate": "father",
+      "qualifiers": {
+        "source_term": "太尉諮議參軍簡之子也",
+        "lineage": "paternal"
+      },
+      "evidence": [
+        {
+          "work_id": "w-songshu",
+          "book_id": "b-songshu-065",
+          "chapter_id": "c-songshu-065-kangzu-daocan",
+          "source_id": "s-songshu-065-kangzu-daocan-ws2110981",
+          "paragraph_id": "c-songshu-065-kangzu-daocan:p001",
+          "quote": "劉道產，彭城呂人，太尉諮議參軍簡之子也。簡之事在弟子康祖傳。",
+          "subject_person_mention_id": "c-songshu-065-kangzu-daocan:p001:m0000",
+          "object_person_mention_id": "c-songshu-065-kangzu-daocan:p001:m0015"
+        }
+      ],
+      "status": "source_attested",
+      "interpretation_note": "宋65明簡之子，弟子康祖為同書明示交叉指向。",
+      "reviewer": "Codex（AI代理）",
+      "model": null,
+      "human_reviewed": false
+    }
+  ],
   "age_assertions": [],
   "life_events": [],
   "life_event_date_decisions": [],
