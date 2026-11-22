@@ -1,0 +1,143 @@
+{
+  "schema_version": 1,
+  "id": "r3a_awx_oje",
+  "canonical_person_id": "r3a_awx_oje",
+  "label": "徐機",
+  "identity_note": "郎中，使告蔡謨。",
+  "review": "ai_provisional",
+  "names": [
+    "徐機"
+  ],
+  "titles": [
+    {
+      "id": "th-w076r-gu-ji0",
+      "person_id": "r3a_awx_oje",
+      "title": "郎中",
+      "kind": "office",
+      "mode": "attestation",
+      "evidence": [
+        {
+          "work_id": "w-jinshu",
+          "book_id": "b-jinshu-076",
+          "chapter_id": "c-jinshu-076-guzhong",
+          "source_id": "s-jinshu-076-guzhong",
+          "paragraph_id": "c-jinshu-076-guzhong:line118",
+          "quote": "蘇峻反，王師敗績，衆還吳，潛圖義舉。時吳國內史庾冰奔於會稽，峻以蔡謨代之。前陵江將軍張悊為峻收兵于吳，衆遣人喻悊，悊從之。衆乃遣郎中徐機告謨曰：「衆已潛闔家兵，待時而奮，又與張悊克期效節。」謨乃檄衆為本國督護，揚威將軍仍舊，衆從弟護軍將軍颺為威遠將軍、前鋒督護。吳中人士同時響應。",
+          "person_mention_id": "c-jinshu-076-guzhong:line118:m0066"
+        }
+      ],
+      "attestations": [
+        {
+          "id": "th-w076r-gu-ji0:a",
+          "paragraph_id": "c-jinshu-076-guzhong:line118",
+          "start": 64,
+          "end": 66,
+          "surface": "郎中",
+          "person_mention_id": "c-jinshu-076-guzhong:line118:m0066",
+          "usage": "narrative",
+          "date_expression": null
+        }
+      ],
+      "effective_period": {
+        "start": {
+          "status": "unknown",
+          "date_expression": null,
+          "evidence": []
+        },
+        "end": {
+          "status": "unknown",
+          "date_expression": null,
+          "evidence": []
+        }
+      },
+      "interpretation_note": "本來源官稱或所任，未受另記。",
+      "status": "source_attested",
+      "reviewer": "Codex（AI 代理）",
+      "human_reviewed": false,
+      "model": null,
+      "period": "未定 → 未定"
+    }
+  ],
+  "addresses": [],
+  "occurrences": [
+    {
+      "number": 76,
+      "category": "",
+      "title": "顧衆傳",
+      "paragraph_id": "c-jinshu-076-guzhong:line118",
+      "count": 1,
+      "raw_count": 1,
+      "duplicate_count": 0,
+      "counting_policy": "independent_fixed_witness_occurrences",
+      "quote": "以蔡謨代之。前陵江將軍張悊為峻收兵于吳，衆遣人喻悊，悊從之。衆乃遣郎中徐機告謨曰：「衆已潛闔家兵，待時而奮，又與張悊克期效節。」謨乃檄衆為本國督護，揚威將軍仍舊，衆從弟護軍將軍颺為威遠將軍、前鋒督護。吳中人士同時響應。",
+      "paragraph_ids": [
+        "c-jinshu-076-guzhong:line118"
+      ],
+      "mention_ids": [
+        "c-jinshu-076-guzhong:line118:m0066"
+      ],
+      "mention_paragraph_ids": {
+        "c-jinshu-076-guzhong:line118:m0066": "c-jinshu-076-guzhong:line118"
+      },
+      "mention_id": "c-jinshu-076-guzhong:line118:m0066",
+      "occurrence_groups": [
+        {
+          "canonical_mention_id": "c-jinshu-076-guzhong:line118:m0066",
+          "mention_ids": [
+            "c-jinshu-076-guzhong:line118:m0066"
+          ],
+          "kind": "paragraph"
+        }
+      ],
+      "work_id": "w-jinshu",
+      "book_id": "b-jinshu-076",
+      "chapter_id": "c-jinshu-076-guzhong",
+      "source_id": "s-jinshu-076-guzhong",
+      "work_title": "晉書"
+    }
+  ],
+  "table_occurrences": [],
+  "sources": [
+    {
+      "chapter_id": "c-jinshu-076-guzhong",
+      "work_id": "w-jinshu",
+      "book_id": "b-jinshu-076",
+      "source_id": "s-jinshu-076-guzhong",
+      "source": {
+        "title": "晉書卷七十六",
+        "provider": "Wikisource",
+        "url": "https://zh.wikisource.org/w/index.php?oldid=2180533",
+        "permalink": "https://zh.wikisource.org/w/index.php?oldid=2180533",
+        "revision_id": 2180533,
+        "accessed_on": "2026-11-21",
+        "edition": "固定數位修訂；武英殿本另錄。",
+        "extent": "顧衆題下第114至126行。",
+        "text_scope": "partial_chapter",
+        "review_status": "text_checked",
+        "image_verified": false,
+        "rights": "古籍原文，維基文庫數位轉錄。",
+        "license_url": "https://creativecommons.org/licenses/by-sa/4.0/",
+        "raw_path": "source-evidence/jin079-lang-zhong-xuan-dai/external/jin076-ws2180533.wikitext",
+        "raw_file_sha256": "872701db949f6f58ea6f183425617dfa82353177d2cc026037bfad953a60cd71",
+        "wikitext_sha256": "872701db949f6f58ea6f183425617dfa82353177d2cc026037bfad953a60cd71",
+        "collation_witnesses": [
+          "source-evidence/jin076-guzhong/reading.json"
+        ]
+      }
+    }
+  ],
+  "relations": [],
+  "related_people": {
+    "r3a_awx_oje": "徐機"
+  },
+  "dates": [],
+  "name_components": [],
+  "person_ids": [
+    "r3a_awx_oje"
+  ],
+  "preferred_relations": [],
+  "age_assertions": [],
+  "life_events": [],
+  "life_event_date_decisions": [],
+  "selected_life_event_dates": []
+}

@@ -83,6 +83,41 @@
       "work_title": "南史"
     },
     {
+      "number": 32,
+      "category": "",
+      "title": "王佟",
+      "paragraph_id": "c-nanqishu-032-wangtong:p001",
+      "count": 1,
+      "raw_count": 1,
+      "duplicate_count": 0,
+      "counting_policy": "independent_fixed_witness_occurrences",
+      "quote": "嗣小息佟閑立保退，不乖素風，如蒙拯立，則存亡荷榮，私祿更搆。」",
+      "paragraph_ids": [
+        "c-nanqishu-032-wangtong:p001"
+      ],
+      "mention_ids": [
+        "c-nanqishu-032-wangtong:p001:m0003"
+      ],
+      "mention_paragraph_ids": {
+        "c-nanqishu-032-wangtong:p001:m0003": "c-nanqishu-032-wangtong:p001"
+      },
+      "mention_id": "c-nanqishu-032-wangtong:p001:m0003",
+      "occurrence_groups": [
+        {
+          "canonical_mention_id": "c-nanqishu-032-wangtong:p001:m0003",
+          "mention_ids": [
+            "c-nanqishu-032-wangtong:p001:m0003"
+          ],
+          "kind": "paragraph"
+        }
+      ],
+      "work_id": "w-nanqishu",
+      "book_id": "b-nanqishu-032",
+      "chapter_id": "c-nanqishu-032-wangtong",
+      "source_id": "s-nanqishu-032-wangtong-ws1513918",
+      "work_title": "南齊書"
+    },
+    {
       "number": 63,
       "category": "",
       "title": "王華、王曇首完整傳主單元",
@@ -173,6 +208,29 @@
   ],
   "table_occurrences": [],
   "sources": [
+    {
+      "chapter_id": "c-nanqishu-032-wangtong",
+      "work_id": "w-nanqishu",
+      "book_id": "b-nanqishu-032",
+      "source_id": "s-nanqishu-032-wangtong-ws1513918",
+      "source": {
+        "title": "王佟",
+        "provider": "Wikisource",
+        "permalink": "https://zh.wikisource.org/w/index.php?oldid=1513918",
+        "url": "https://zh.wikisource.org/w/index.php?oldid=1513918",
+        "revision_id": 1513918,
+        "edition": "維基文庫固定修訂",
+        "accessed_on": "2026-11-21",
+        "review_status": "text_checked",
+        "image_verified": false,
+        "rights": "古代原文；數位轉錄依維基文庫授權。",
+        "license_url": "https://creativecommons.org/licenses/by-sa/4.0/",
+        "extent": "王佟",
+        "text_scope": "complete_biography_unit",
+        "raw_path": "sources/nanqishu/nanqishu032-ws1513918.wikitext",
+        "raw_file_sha256": "cc9c36ced8f64c3c359c76836ae56968c8a13c4a3b3c19a416575737314b0061"
+      }
+    },
     {
       "chapter_id": "c-nanshi-023-wanghua-heirs",
       "work_id": "w-nanshi",
@@ -521,6 +579,36 @@
   ],
   "relations": [
     {
+      "id": "a-qi032-tong-si",
+      "subject_person_id": "02c_86e_5a9",
+      "object_person_id": "7r6_k52_qji_ABAAFABA",
+      "predicate": "father",
+      "qualifiers": {
+        "source_term": "嗣小息佟",
+        "lineage": "paternal",
+        "reading_basis": {
+          "kind": "qi032_petition_names_father"
+        }
+      },
+      "evidence": [
+        {
+          "work_id": "w-nanqishu",
+          "book_id": "b-nanqishu-032",
+          "chapter_id": "c-nanqishu-032-wangtong",
+          "source_id": "s-nanqishu-032-wangtong-ws1513918",
+          "paragraph_id": "c-nanqishu-032-wangtong:p001",
+          "quote": "嗣小息佟閑立保退，不乖素風，如蒙拯立，則存亡荷榮，私祿更搆。」",
+          "subject_person_mention_id": "c-nanqishu-032-wangtong:p001:m0003",
+          "object_person_mention_id": "c-nanqishu-032-wangtong:p001:m0000"
+        }
+      ],
+      "status": "source_attested",
+      "interpretation_note": "嗣小息佟明言王嗣為其父。",
+      "reviewer": "Codex（AI代理）",
+      "model": null,
+      "human_reviewed": false
+    },
+    {
       "id": "a-nanshi023-wanghua-heirs-61-18",
       "subject_person_id": "02c_86e_5a9",
       "object_person_id": "7r6_k52_qji_ABAAFABAA",
@@ -679,11 +767,43 @@
   ],
   "related_people": {
     "02c_86e_5a9": "王終",
+    "7r6_k52_qji_ABAAFABA": "王嗣",
     "7r6_k52_qji_ABAAFABAA": "王長"
   },
   "dates": [],
   "name_components": [],
   "source_reading_cases": [
+    {
+      "id": "c-nanqishu-032-wangtong:received_sentence1-0",
+      "kind": "received_sentence",
+      "person_id": "02c_86e_5a9",
+      "source_quote": "嗣小息佟閑立保退，不乖素風，如蒙拯立，則存亡荷榮，私祿更搆。」",
+      "reading": "王琨表說王嗣小息佟性行可立，請朝廷改立以存王華的世祀。沒有敘已奉詔受封。",
+      "note": "王琨表說王嗣小息佟性行可立，請朝廷改立以存王華的世祀。沒有敘已奉詔受封。",
+      "paragraph_id": "c-nanqishu-032-wangtong:p001",
+      "start_codepoint": 0,
+      "end_codepoint": 31,
+      "human_reviewed": false,
+      "chapter_id": "c-nanqishu-032-wangtong",
+      "source_id": "s-nanqishu-032-wangtong-ws1513918"
+    },
+    {
+      "id": "c-nanqishu-032-wangtong:petition_for_succession1-14",
+      "kind": "petition_for_succession",
+      "person_id": "02c_86e_5a9",
+      "source_quote": "如蒙拯立",
+      "reading": "奏中用如蒙，為王琨請立，應分別記兩書話語層次。",
+      "note": "奏中用如蒙，為王琨請立，應分別記兩書話語層次。",
+      "paragraph_id": "c-nanqishu-032-wangtong:p001",
+      "start_codepoint": 14,
+      "end_codepoint": 18,
+      "human_reviewed": false,
+      "applicant_person_id": "7r6_k52_qji_ABAAFBA",
+      "proposed_heir_person_id": "02c_86e_5a9",
+      "proposal_only": true,
+      "chapter_id": "c-nanqishu-032-wangtong",
+      "source_id": "s-nanqishu-032-wangtong-ws1513918"
+    },
     {
       "id": "c-songshu-063-wanghua-tanshou-wanghua-reading-30",
       "kind": "primary_source_comparison",
@@ -753,6 +873,36 @@
     "02c_86e_5a9"
   ],
   "preferred_relations": [
+    {
+      "id": "a-qi032-tong-si",
+      "subject_person_id": "02c_86e_5a9",
+      "object_person_id": "7r6_k52_qji_ABAAFABA",
+      "predicate": "father",
+      "qualifiers": {
+        "source_term": "嗣小息佟",
+        "lineage": "paternal",
+        "reading_basis": {
+          "kind": "qi032_petition_names_father"
+        }
+      },
+      "evidence": [
+        {
+          "work_id": "w-nanqishu",
+          "book_id": "b-nanqishu-032",
+          "chapter_id": "c-nanqishu-032-wangtong",
+          "source_id": "s-nanqishu-032-wangtong-ws1513918",
+          "paragraph_id": "c-nanqishu-032-wangtong:p001",
+          "quote": "嗣小息佟閑立保退，不乖素風，如蒙拯立，則存亡荷榮，私祿更搆。」",
+          "subject_person_mention_id": "c-nanqishu-032-wangtong:p001:m0003",
+          "object_person_mention_id": "c-nanqishu-032-wangtong:p001:m0000"
+        }
+      ],
+      "status": "source_attested",
+      "interpretation_note": "嗣小息佟明言王嗣為其父。",
+      "reviewer": "Codex（AI代理）",
+      "model": null,
+      "human_reviewed": false
+    },
     {
       "id": "a-nanshi023-wanghua-heirs-61-18",
       "subject_person_id": "02c_86e_5a9",

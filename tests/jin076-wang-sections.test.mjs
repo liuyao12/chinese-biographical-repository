@@ -15,8 +15,14 @@ test('卷七十六所有數位傳題、井然可分的無題短傳及固定原�
     if(p.heading_line) assert.equal(lines[p.heading_line-1],p.heading_raw);
     if(p.unit_kind==='embedded_account'){
       const q=Array.from(lines[p.first_line-1]).slice(p.start_codepoint,p.end_codepoint).join('');
-      const c=read(p.chapter_path), para=c.paragraphs.find(x=>x.id===p.paragraph_ids[0]),s=p.paragraph_slices[para.id];
-      assert.equal(q,Array.from(para.text).slice(s.start,s.end).join(''));
+      const chapter = read(p.chapter_path);
+      const text = p.paragraph_ids.flatMap(id => {
+        const paragraph = chapter.paragraphs.find(item => item.id === id);
+        const selection = p.paragraph_slices[id];
+        const slices = Array.isArray(selection) ? selection : [selection];
+        return slices.map(({start, end}) => Array.from(paragraph.text).slice(start, end).join(''));
+      }).join('');
+      assert.equal(text, q, p.title);
     }
   }
   assert.equal(new Set(rows.filter(p=>p.heading_line).map(p=>p.heading_line)).size,11);

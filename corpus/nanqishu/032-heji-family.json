@@ -33,7 +33,19 @@
     "reviewer": "Codex（AI 代理）",
     "human_reviewed": false,
     "model": null,
-    "person_reference_occurrences": [],
+    "person_reference_occurrences": [
+      {
+        "id": "c-nanqishu-032-heji-family:p002:r-qi32-0029",
+        "paragraph_id": "c-nanqishu-032-heji-family:p002",
+        "start": 29,
+        "end": 30,
+        "surface": "女",
+        "person_id": "pbz_pni_tco_AA",
+        "referent_role": "third_person",
+        "quote": "女爲雞林王后",
+        "note": "依本句的敘述者、話者或受話者定位。"
+      }
+    ],
     "narrative_readings": [
       {
         "event_type": "posthumous_office",
@@ -71,10 +83,38 @@
         "end_codepoint": 35,
         "note": "對應女后，南齊書此固定轉寫作雞字。",
         "human_reviewed": false
+      },
+      {
+        "id": "qi32-hedaughter-74-29-received_sentence",
+        "kind": "received_sentence",
+        "person_id": "pbz_pni_tco_AA",
+        "paragraph_id": "c-nanqishu-032-heji-family:p002",
+        "start_codepoint": 29,
+        "end_codepoint": 36,
+        "source_quote": "女爲雞林王后，",
+        "reading": "何戢女為鬱林王后，即何婧英。本卷固定修訂寫雞林王后；下接又贈侍中、光祿大夫的受贈者為何戢。",
+        "note": "何戢女為鬱林王后，即何婧英。本卷固定修訂寫雞林王后；下接又贈侍中、光祿大夫的受贈者為何戢。",
+        "human_reviewed": false
+      },
+      {
+        "id": "qi32-hedaughter-74-31-diplomatic_variant",
+        "kind": "diplomatic_variant",
+        "person_id": "pbz_pni_tco_AA",
+        "paragraph_id": "c-nanqishu-032-heji-family:p002",
+        "start_codepoint": 31,
+        "end_codepoint": 35,
+        "source_quote": "雞林王后",
+        "reading": "本書定本電子文本作雞林王后，武英殿刊作鬱林王后，王妃本傳明名婧英、父戢。",
+        "note": "本書定本電子文本作雞林王后，武英殿刊作鬱林王后，王妃本傳明名婧英、父戢。",
+        "human_reviewed": false,
+        "father_person_id": "pbz_pni_tco_A",
+        "received_reading": "雞林王后",
+        "printed_reading": "鬱林王后"
       }
     ],
     "biography_source_reviews": {
-      "原文、校勘及日期": "source-evidence/qi020-hejingying/heji-family-nanqishu.json"
+      "原文、校勘及日期": "source-evidence/qi020-hejingying/heji-family-nanqishu.json",
+      "何戢女（何婧英）": "source-evidence/nanqi032-biographies/hedaughter-reading.json"
     }
   },
   "paragraphs": [

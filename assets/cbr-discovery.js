@@ -6,6 +6,13 @@ const dimensions=[['dynasty','Dynasty'],['surname','Surname'],['jiguan','Native 
 const parameters=new URLSearchParams(location.search);
 const selection=Object.fromEntries(dimensions.map(([key])=>[key,[...new Set(parameters.getAll(key))]]));
 const facetSearch={dynasty:'',surname:'',jiguan:''};
+const filters = document.getElementById('directory-filters');
+const narrow = window.matchMedia('(max-width:540px)');
+function sizeFilters() {
+  filters.open = !narrow.matches || dimensions.some(([key]) => selection[key].length);
+}
+sizeFilters();
+narrow.addEventListener('change', sizeFilters);
 const facetRoot=document.getElementById('person-facets');
 document.querySelector('.person-search').addEventListener('submit',event=>event.preventDefault());
 const requestedPage=Number(parameters.get('page') || 1);

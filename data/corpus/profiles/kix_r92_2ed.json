@@ -65,6 +65,56 @@
       },
       "interpretation_note": "世祖爲中軍而引𤅢記室，中軍屬世祖；不補將軍二字。",
       "period": "未定 → 未定"
+    },
+    {
+      "id": "th-nanshi024-wangyan-m2-43",
+      "person_id": "kix_r92_2ed",
+      "title": "長史",
+      "kind": "office",
+      "mode": "attestation",
+      "attestations": [
+        {
+          "id": "th-nanshi024-wangyan-m2-43:a",
+          "usage": "narrative",
+          "date_expression": null,
+          "paragraph_id": "c-nanshi-024-wangyan:p002",
+          "surface": "長史",
+          "start": 43,
+          "end": 45,
+          "person_mention_id": null,
+          "person_reference_id": "c-nanshi-024-wangyan:p002:r0039"
+        }
+      ],
+      "effective_period": {
+        "start": {
+          "status": "unknown",
+          "date_expression": null,
+          "evidence": []
+        },
+        "end": {
+          "status": "unknown",
+          "date_expression": null,
+          "evidence": []
+        }
+      },
+      "evidence": [
+        {
+          "work_id": "w-nanshi",
+          "book_id": "b-nanshi-024",
+          "source_id": "s-nanshi-024-wangyan-ws1765279",
+          "chapter_id": "c-nanshi-024-wangyan",
+          "paragraph_id": "c-nanshi-024-wangyan:p002",
+          "quote": "晏字休默，一字士彥。仕宋，初爲建安國左常侍，稍至車騎，晉熙王燮安西板晏主簿，時齊武帝爲長史，與晏相遇。府轉鎭西，板晏爲記室。沈攸之事難，隨武帝鎭盆城。齊高帝時威權雖重，而眾情猶有疑惑，晏便專心奉事，軍旅書翰皆見委。性甚便僻，漸見親待，常參議機密。",
+          "person_reference_id": "c-nanshi-024-wangyan:p002:r0039"
+        }
+      ],
+      "status": "source_attested",
+      "interpretation_note": "按本見證原職名及其所屬人。",
+      "reviewer": "Codex（AI 代理）",
+      "human_reviewed": false,
+      "model": null,
+      "nanshi024_wangyan_title_reference": true,
+      "period": "未定 → 未定"
     }
   ],
   "addresses": [],
@@ -382,6 +432,41 @@
       "book_id": "b-nanshi-022",
       "chapter_id": "c-nanshi-022-wangbin-digital",
       "source_id": "s-nanshi-022-wangbin-digital-ws1477957",
+      "work_title": "南史"
+    },
+    {
+      "number": 24,
+      "category": "",
+      "title": "王延之、阮韜、王綸之、王昕傳（武英殿本）",
+      "paragraph_id": "c-nanshi-024-yanzhi-ruantao-wyd:p005",
+      "count": 1,
+      "raw_count": 1,
+      "duplicate_count": 0,
+      "counting_policy": "independent_fixed_witness_occurrences",
+      "quote": "章太守下車祭徐孺子許子將墓圖畫陳蕃華歆謝鯤像於郡朝堂為政寛簡稱良二千石武帝幸琅邪城綸之與光祿大夫全景文等二十一人坐不參承為有司奏免官後位侍中都官尚書卒自敬𢎞至綸之並方嚴皆尅日乃見子孫蓋家風也",
+      "paragraph_ids": [
+        "c-nanshi-024-yanzhi-ruantao-wyd:p005"
+      ],
+      "mention_ids": [
+        "c-nanshi-024-yanzhi-ruantao-wyd:p005:m0104"
+      ],
+      "mention_paragraph_ids": {
+        "c-nanshi-024-yanzhi-ruantao-wyd:p005:m0104": "c-nanshi-024-yanzhi-ruantao-wyd:p005"
+      },
+      "mention_id": "c-nanshi-024-yanzhi-ruantao-wyd:p005:m0104",
+      "occurrence_groups": [
+        {
+          "canonical_mention_id": "c-nanshi-024-yanzhi-ruantao-wyd:p005:m0104",
+          "mention_ids": [
+            "c-nanshi-024-yanzhi-ruantao-wyd:p005:m0104"
+          ],
+          "kind": "paragraph"
+        }
+      ],
+      "work_id": "w-nanshi",
+      "book_id": "b-nanshi-024",
+      "chapter_id": "c-nanshi-024-yanzhi-ruantao-wyd",
+      "source_id": "s-nanshi-024-yanzhi-ruantao-wyd",
       "work_title": "南史"
     },
     {
@@ -1295,7 +1380,7 @@
         "revision_id": 1513918,
         "accessed_on": "2026-10-19",
         "extent": "王延之傳及子倫之附傳完整七原段；未錄同卷其他本傳。",
-        "text_scope": "partial_chapter",
+        "text_scope": "complete_biography_unit",
         "review_status": "text_checked",
         "image_verified": false,
         "rights": "古代原文及維基文庫數位轉錄；保留見證歸屬。",
@@ -6392,7 +6477,195 @@
               "end_anchor": "爲事，但恨短筆不足書美。」誄竟不就。"
             }
           ]
-        }
+        },
+        "raw_path": "sources/nanshi/nanshi024-ws1765279.wikitext",
+        "raw_file_sha256": "8fd9281c1d58e066b75c0b6cce86fff07d6e11c8ad6426459f8e0f2139a29499"
+      }
+    },
+    {
+      "chapter_id": "c-nanshi-024-wangdeyuan",
+      "work_id": "w-nanshi",
+      "book_id": "b-nanshi-024",
+      "source_id": "s-nanshi-024-wangdeyuan-ws1765279",
+      "source": {
+        "title": "南史卷24·王德元",
+        "provider": "Wikisource",
+        "url": "https://zh.wikisource.org/w/index.php?oldid=1765279",
+        "permalink": "https://zh.wikisource.org/w/index.php?oldid=1765279",
+        "revision_id": 1765279,
+        "accessed_on": "2026-11-21",
+        "edition": "維基文庫固定數位轉錄",
+        "extent": "固定修訂原第113行本傳全文。",
+        "text_scope": "complete_biography_unit",
+        "image_verified": false,
+        "review_status": "text_checked",
+        "raw_path": "sources/nanshi/nanshi024-ws1765279.wikitext",
+        "raw_file_sha256": "8fd9281c1d58e066b75c0b6cce86fff07d6e11c8ad6426459f8e0f2139a29499",
+        "rights": "古代原典及維基文庫數位轉錄。",
+        "license_url": "https://zh.wikisource.org/wiki/Wikisource:著作權資訊",
+        "normalization": {
+          "character_conversion": {},
+          "extraction_note": "投影相應原句，保留字形；移除年號模板定界符。"
+        },
+        "section_locator": "王德元"
+      }
+    },
+    {
+      "chapter_id": "c-nanshi-024-wangsiyuan",
+      "work_id": "w-nanshi",
+      "book_id": "b-nanshi-024",
+      "source_id": "s-nanshi-024-wangsiyuan-ws1765279",
+      "source": {
+        "title": "南史卷24·王思遠",
+        "provider": "Wikisource",
+        "url": "https://zh.wikisource.org/w/index.php?oldid=1765279",
+        "permalink": "https://zh.wikisource.org/w/index.php?oldid=1765279",
+        "revision_id": 1765279,
+        "accessed_on": "2026-11-21",
+        "edition": "維基文庫固定數位轉錄",
+        "extent": "121、123、125、127、129及131行前28碼，止經恤甚至。隨後暠之字士明起另一篇。",
+        "text_scope": "complete_biography_unit",
+        "image_verified": false,
+        "review_status": "text_checked",
+        "raw_path": "sources/nanshi/nanshi024-ws1765279.wikitext",
+        "raw_file_sha256": "8fd9281c1d58e066b75c0b6cce86fff07d6e11c8ad6426459f8e0f2139a29499",
+        "rights": "古代原典及維基文庫數位轉錄。",
+        "license_url": "https://zh.wikisource.org/wiki/Wikisource:著作權資訊",
+        "normalization": {
+          "character_conversion": {},
+          "extraction_note": "投影相應原句，保留字形；移除年號模板定界符。"
+        },
+        "section_locator": "晏從父弟 思遠"
+      }
+    },
+    {
+      "chapter_id": "c-nanshi-024-wangyan",
+      "work_id": "w-nanshi",
+      "book_id": "b-nanshi-024",
+      "source_id": "s-nanshi-024-wangyan-ws1765279",
+      "source": {
+        "title": "南史卷24·王晏",
+        "provider": "Wikisource",
+        "url": "https://zh.wikisource.org/w/index.php?oldid=1765279",
+        "permalink": "https://zh.wikisource.org/w/index.php?oldid=1765279",
+        "revision_id": 1765279,
+        "accessed_on": "2026-11-21",
+        "edition": "維基文庫固定數位轉錄",
+        "extent": "固定原93–109行九段。111行為子德元節題。",
+        "text_scope": "complete_biography_unit",
+        "image_verified": false,
+        "review_status": "text_checked",
+        "raw_path": "sources/nanshi/nanshi024-ws1765279.wikitext",
+        "raw_file_sha256": "8fd9281c1d58e066b75c0b6cce86fff07d6e11c8ad6426459f8e0f2139a29499",
+        "rights": "古代原典及維基文庫數位轉錄。",
+        "license_url": "https://zh.wikisource.org/wiki/Wikisource:著作權資訊",
+        "normalization": {
+          "character_conversion": {},
+          "extraction_note": "投影相應原句，保留字形；移除年號模板定界符。",
+          "verified_blank_line_gaps": [
+            {
+              "source_lines": [
+                94,
+                94
+              ],
+              "raw_quote": "",
+              "raw_quote_sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+              "revision_id": 1765279
+            },
+            {
+              "source_lines": [
+                96,
+                96
+              ],
+              "raw_quote": "",
+              "raw_quote_sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+              "revision_id": 1765279
+            },
+            {
+              "source_lines": [
+                98,
+                98
+              ],
+              "raw_quote": "",
+              "raw_quote_sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+              "revision_id": 1765279
+            },
+            {
+              "source_lines": [
+                100,
+                100
+              ],
+              "raw_quote": "",
+              "raw_quote_sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+              "revision_id": 1765279
+            },
+            {
+              "source_lines": [
+                102,
+                102
+              ],
+              "raw_quote": "",
+              "raw_quote_sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+              "revision_id": 1765279
+            },
+            {
+              "source_lines": [
+                104,
+                104
+              ],
+              "raw_quote": "",
+              "raw_quote_sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+              "revision_id": 1765279
+            },
+            {
+              "source_lines": [
+                106,
+                106
+              ],
+              "raw_quote": "",
+              "raw_quote_sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+              "revision_id": 1765279
+            },
+            {
+              "source_lines": [
+                108,
+                108
+              ],
+              "raw_quote": "",
+              "raw_quote_sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+              "revision_id": 1765279
+            }
+          ]
+        },
+        "section_locator": "曇生從子 晏"
+      }
+    },
+    {
+      "chapter_id": "c-nanshi-024-yanzhi-ruantao-wyd",
+      "work_id": "w-nanshi",
+      "book_id": "b-nanshi-024",
+      "source_id": "s-nanshi-024-yanzhi-ruantao-wyd",
+      "source": {
+        "title": "武英殿本《南史》卷二十四王延之、阮韜、王綸之、王昕",
+        "provider": "中國國家圖書館藏本書影，Wikimedia Commons",
+        "url": "https://upload.wikimedia.org/wikipedia/commons/a/a5/NLC892-411999017142-12361_%E4%BA%8C%E5%8D%81%E5%9B%9B%E5%8F%B2_%E7%AC%AC247%E5%86%8A.pdf",
+        "permalink": "https://commons.wikimedia.org/w/index.php?oldid=1158108475",
+        "revision_id": "cbr-ai-transcription-sha256:e34bb528b6ae95d677b1dd58aaf5e2921dd3fa3ce67cd2e3043f1dca3ad0cf8d",
+        "accessed_on": "2026-11-21",
+        "edition": "乾隆四年武英殿刊《二十四史》第247冊",
+        "extent": "卷二十四第四葉上第九欄至第五葉下第六欄，PDF 第三十三至三十五面。第四葉下第九欄至第五葉上第三欄為阮韜附傳。",
+        "text_scope": "complete_biography_unit",
+        "image_verified": true,
+        "review_status": "AI_image_transcription_draft",
+        "raw_path": "source-evidence/nanshi024-wangyanzhi/wyd-columns.txt",
+        "raw_file_sha256": "e34bb528b6ae95d677b1dd58aaf5e2921dd3fa3ce67cd2e3043f1dca3ad0cf8d",
+        "rights": "國家圖書館藏乾隆四年刊本，逐欄錄文；館藏圖像以公開原頁外鏈查核。",
+        "license_url": "https://commons.wikimedia.org/wiki/File:NLC892-411999017142-12361_%E4%BA%8C%E5%8D%81%E5%9B%9B%E5%8F%B2_%E7%AC%AC247%E5%86%8A.pdf",
+        "normalization": {
+          "character_conversion": {},
+          "extraction_note": "逐欄自右向左錄字。第四葉下第九欄起阮韜附傳，第五葉上第三欄續王延之傳。"
+        },
+        "section_locator": "王延之、阮韜、王綸之、王昕"
       }
     },
     {
@@ -9670,6 +9943,216 @@
       "source_id": "s-nanshi-023-wanghui-yue-jun-ke-ws2478204"
     },
     {
+      "id": "c-nanshi-024-wangdeyuan:p001:r0021",
+      "surface": "武帝",
+      "start": 21,
+      "end": 23,
+      "person_id": "kix_r92_2ed",
+      "referent_role": "third_person",
+      "paragraph_id": "c-nanshi-024-wangdeyuan:p001",
+      "quote": "晏子德元，有意尚，位車騎長史。德元初名湛，武帝曰：「劉湛、江湛，並不善終，此非佳名也。」晏乃改之，至是及誅。",
+      "note": "齊世祖蕭賾評論舊名。",
+      "chapter_id": "c-nanshi-024-wangdeyuan",
+      "book_id": "b-nanshi-024",
+      "work_id": "w-nanshi",
+      "source_id": "s-nanshi-024-wangdeyuan-ws1765279"
+    },
+    {
+      "id": "c-nanshi-024-wangsiyuan:p002:r0083",
+      "surface": "武帝",
+      "start": 83,
+      "end": 85,
+      "person_id": "kix_r92_2ed",
+      "referent_role": "third_person",
+      "paragraph_id": "c-nanshi-024-wangsiyuan:p002",
+      "quote": "齊建元初，曆竟陵王司徒録事參軍、太子中舍人。文惠太子與竟陵王子良素好士，並蒙賞接。思遠求出爲遠郡，除建安內史。長兄思玄卒，思遠友于甚至，表乞自解，不許。及祥日又固陳，武帝乃許之。仍除中書郎、大司馬諮議。詔舉士，竟陵王子良薦思遠及呉郡顧暠之、陳郡殷叡。時邵陵王子貞爲呉郡，除思遠爲呉郡丞，以本官行郡事，論者以爲得人。後拜御史中丞。臨海太守沈昭略贓私，思遠依事劾奏，明帝及思遠從兄晏、昭略叔父文季並請止之，思遠不從，案事如故。",
+      "note": "按本句行事、說話與受話兩端。",
+      "chapter_id": "c-nanshi-024-wangsiyuan",
+      "book_id": "b-nanshi-024",
+      "work_id": "w-nanshi",
+      "source_id": "s-nanshi-024-wangsiyuan-ws1765279"
+    },
+    {
+      "id": "c-nanshi-024-wangsiyuan:p003:r0060",
+      "surface": "武帝",
+      "start": 60,
+      "end": 62,
+      "person_id": "kix_r92_2ed",
+      "referent_role": "third_person",
+      "paragraph_id": "c-nanshi-024-wangsiyuan:p003",
+      "quote": "建武中，遷吏部郎。思遠以晏爲尚書令，不欲並居內台權要之職，上表固讓，乃改授司徒左長史。初明帝廢立之際，思遠謂晏曰：「兄荷武帝厚恩，今一旦贊人如此事，彼或可以權計相須，未知兄將何以自立。及此引決，猶可保全門戸，不失後名。」晏曰：「方噉粥，未暇此事。」及拜驃騎，會子弟，謂思遠兄思征曰：「隆昌之末，阿戎勸吾自裁，若用其語，豈有今日。」思遠遽應曰：「如阿戎所見，猶未晩也。」晏既不能謙退，位處朝端，事多專斷，內外要職，並用門生，帝外跡甚美，內相疑異。思遠謂曰：「時事稍異，兄覺不？凡人多拙於自謀，而巧於謀人。」晏默然不答。思遠退後，晏方歎曰：「天下人遂勸人自殺。」旬日，晏及禍。明帝后知思遠有此言，謂江祏曰：「王晏早用思遠語，當不至此。」",
+      "note": "按本句行事、說話與受話兩端。",
+      "chapter_id": "c-nanshi-024-wangsiyuan",
+      "book_id": "b-nanshi-024",
+      "work_id": "w-nanshi",
+      "source_id": "s-nanshi-024-wangsiyuan-ws1765279"
+    },
+    {
+      "id": "c-nanshi-024-wangyan:p002:r0039",
+      "surface": "齊武帝",
+      "start": 39,
+      "end": 42,
+      "person_id": "kix_r92_2ed",
+      "referent_role": "third_person",
+      "paragraph_id": "c-nanshi-024-wangyan:p002",
+      "quote": "晏字休默，一字士彥。仕宋，初爲建安國左常侍，稍至車騎，晉熙王燮安西板晏主簿，時齊武帝爲長史，與晏相遇。府轉鎭西，板晏爲記室。沈攸之事難，隨武帝鎭盆城。齊高帝時威權雖重，而眾情猶有疑惑，晏便專心奉事，軍旅書翰皆見委。性甚便僻，漸見親待，常參議機密。",
+      "note": "依本句及齊書卷42不同朝君主、親屬與說話位置。",
+      "chapter_id": "c-nanshi-024-wangyan",
+      "book_id": "b-nanshi-024",
+      "work_id": "w-nanshi",
+      "source_id": "s-nanshi-024-wangyan-ws1765279"
+    },
+    {
+      "id": "c-nanshi-024-wangyan:p002:r0069",
+      "surface": "武帝",
+      "start": 69,
+      "end": 71,
+      "person_id": "kix_r92_2ed",
+      "referent_role": "third_person",
+      "paragraph_id": "c-nanshi-024-wangyan:p002",
+      "quote": "晏字休默，一字士彥。仕宋，初爲建安國左常侍，稍至車騎，晉熙王燮安西板晏主簿，時齊武帝爲長史，與晏相遇。府轉鎭西，板晏爲記室。沈攸之事難，隨武帝鎭盆城。齊高帝時威權雖重，而眾情猶有疑惑，晏便專心奉事，軍旅書翰皆見委。性甚便僻，漸見親待，常參議機密。",
+      "note": "依本句及齊書卷42不同朝君主、親屬與說話位置。",
+      "chapter_id": "c-nanshi-024-wangyan",
+      "book_id": "b-nanshi-024",
+      "work_id": "w-nanshi",
+      "source_id": "s-nanshi-024-wangyan-ws1765279"
+    },
+    {
+      "id": "c-nanshi-024-wangyan:p003:r0011",
+      "surface": "武帝",
+      "start": 11,
+      "end": 13,
+      "person_id": "kix_r92_2ed",
+      "referent_role": "third_person",
+      "paragraph_id": "c-nanshi-024-wangyan:p003",
+      "quote": "建元初，爲太子中庶子。武帝在東宮，專斷朝事，多不聞啟，晏慮及罪，稱疾自疎。武帝即位，爲長兼侍中，意任如舊。遷侍中祭酒。遭母喪，起爲司徒左長史。晏父普曜藉晏勢，多曆通官。普曜卒，晏居喪有禮。",
+      "note": "依本句及齊書卷42不同朝君主、親屬與說話位置。",
+      "chapter_id": "c-nanshi-024-wangyan",
+      "book_id": "b-nanshi-024",
+      "work_id": "w-nanshi",
+      "source_id": "s-nanshi-024-wangyan-ws1765279"
+    },
+    {
+      "id": "c-nanshi-024-wangyan:p003:r0037",
+      "surface": "武帝",
+      "start": 37,
+      "end": 39,
+      "person_id": "kix_r92_2ed",
+      "referent_role": "third_person",
+      "paragraph_id": "c-nanshi-024-wangyan:p003",
+      "quote": "建元初，爲太子中庶子。武帝在東宮，專斷朝事，多不聞啟，晏慮及罪，稱疾自疎。武帝即位，爲長兼侍中，意任如舊。遷侍中祭酒。遭母喪，起爲司徒左長史。晏父普曜藉晏勢，多曆通官。普曜卒，晏居喪有禮。",
+      "note": "依本句及齊書卷42不同朝君主、親屬與說話位置。",
+      "chapter_id": "c-nanshi-024-wangyan",
+      "book_id": "b-nanshi-024",
+      "work_id": "w-nanshi",
+      "source_id": "s-nanshi-024-wangyan-ws1765279"
+    },
+    {
+      "id": "c-nanshi-024-wangyan:p005:r0045",
+      "surface": "上",
+      "start": 45,
+      "end": 46,
+      "person_id": "kix_r92_2ed",
+      "referent_role": "third_person",
+      "paragraph_id": "c-nanshi-024-wangyan:p005",
+      "quote": "時尚書令王儉雖貴而疎，晏既領選，權行台閣，與儉頗不平。儉卒，禮官欲依王導諡爲「文獻」，晏啟上曰：「導乃得此諡，但宋來不加素族。」謂親人曰：「平頭憲事已行矣。」十一年，爲右僕射，領太孫右衞率。",
+      "note": "依本句及齊書卷42不同朝君主、親屬與說話位置。",
+      "chapter_id": "c-nanshi-024-wangyan",
+      "book_id": "b-nanshi-024",
+      "work_id": "w-nanshi",
+      "source_id": "s-nanshi-024-wangyan-ws1765279"
+    },
+    {
+      "id": "c-nanshi-024-wangyan:p006:r0000",
+      "surface": "武帝",
+      "start": 0,
+      "end": 2,
+      "person_id": "kix_r92_2ed",
+      "referent_role": "third_person",
+      "paragraph_id": "c-nanshi-024-wangyan:p006",
+      "quote": "武帝崩，遺旨以尚書事付晏及徐孝嗣。郁林即位，轉左僕射。及明帝謀廢立，晏便回應推奉，轉尚書令，封曲江縣侯，給鼓吹一部，甲仗五十人入殿。時明帝形勢已布，而莫敢先言，蕭諶兄弟握兵權，遲疑未決，晏頻三夜微歩詣諶議，時人以此窺之。明帝與晏東府語及時事，晏抵掌曰：「公常言晏怯，今定如何？」建武元年，進號驃騎大將軍，給班劍二十人，又加兵百人，領太子少傅，進爵爲公。以魏軍動，給兵千人。",
+      "note": "依本句及齊書卷42不同朝君主、親屬與說話位置。",
+      "chapter_id": "c-nanshi-024-wangyan",
+      "book_id": "b-nanshi-024",
+      "work_id": "w-nanshi",
+      "source_id": "s-nanshi-024-wangyan-ws1765279"
+    },
+    {
+      "id": "c-nanshi-024-wangyan:p007:r0024",
+      "surface": "武帝",
+      "start": 24,
+      "end": 26,
+      "person_id": "kix_r92_2ed",
+      "referent_role": "third_person",
+      "paragraph_id": "c-nanshi-024-wangyan:p007",
+      "quote": "晏篤於親舊，爲時所稱，至是自謂佐命惟新，言論常非武帝故事，眾始怪之。明帝雖以事際須晏，而心相疑斥，料簡武帝中詔，得與晏手詔三百餘紙，皆是論國家事。永明中，武帝欲以明帝代晏領選，晏啟曰：「鸞清幹有餘，然不諳百氏，恐不可居此職。」乃止。及見此詔，愈猜薄之。帝初即位，始安王遙光便勸誅晏，帝曰：「晏於我有勳，且未有罪。」遙光曰：「晏尚不能爲武帝，安能爲陛下？」帝默然變色。時帝常遣心腹左右陳世范等出塗巷采聽異言，由是以晏爲事。晏性浮動，志欲無厭，自謂旦夕開府。又望録尚書，毎謂人曰：「徐公應爲令。」又和徐詩云：「槐序候方調。」其名位在徐前，徐若三槐，則晏不言自顯，人或譏之。",
+      "note": "依本句及齊書卷42不同朝君主、親屬與說話位置。",
+      "chapter_id": "c-nanshi-024-wangyan",
+      "book_id": "b-nanshi-024",
+      "work_id": "w-nanshi",
+      "source_id": "s-nanshi-024-wangyan-ws1765279"
+    },
+    {
+      "id": "c-nanshi-024-wangyan:p007:r0051",
+      "surface": "武帝",
+      "start": 51,
+      "end": 53,
+      "person_id": "kix_r92_2ed",
+      "referent_role": "third_person",
+      "paragraph_id": "c-nanshi-024-wangyan:p007",
+      "quote": "晏篤於親舊，爲時所稱，至是自謂佐命惟新，言論常非武帝故事，眾始怪之。明帝雖以事際須晏，而心相疑斥，料簡武帝中詔，得與晏手詔三百餘紙，皆是論國家事。永明中，武帝欲以明帝代晏領選，晏啟曰：「鸞清幹有餘，然不諳百氏，恐不可居此職。」乃止。及見此詔，愈猜薄之。帝初即位，始安王遙光便勸誅晏，帝曰：「晏於我有勳，且未有罪。」遙光曰：「晏尚不能爲武帝，安能爲陛下？」帝默然變色。時帝常遣心腹左右陳世范等出塗巷采聽異言，由是以晏爲事。晏性浮動，志欲無厭，自謂旦夕開府。又望録尚書，毎謂人曰：「徐公應爲令。」又和徐詩云：「槐序候方調。」其名位在徐前，徐若三槐，則晏不言自顯，人或譏之。",
+      "note": "依本句及齊書卷42不同朝君主、親屬與說話位置。",
+      "chapter_id": "c-nanshi-024-wangyan",
+      "book_id": "b-nanshi-024",
+      "work_id": "w-nanshi",
+      "source_id": "s-nanshi-024-wangyan-ws1765279"
+    },
+    {
+      "id": "c-nanshi-024-wangyan:p007:r0077",
+      "surface": "武帝",
+      "start": 77,
+      "end": 79,
+      "person_id": "kix_r92_2ed",
+      "referent_role": "third_person",
+      "paragraph_id": "c-nanshi-024-wangyan:p007",
+      "quote": "晏篤於親舊，爲時所稱，至是自謂佐命惟新，言論常非武帝故事，眾始怪之。明帝雖以事際須晏，而心相疑斥，料簡武帝中詔，得與晏手詔三百餘紙，皆是論國家事。永明中，武帝欲以明帝代晏領選，晏啟曰：「鸞清幹有餘，然不諳百氏，恐不可居此職。」乃止。及見此詔，愈猜薄之。帝初即位，始安王遙光便勸誅晏，帝曰：「晏於我有勳，且未有罪。」遙光曰：「晏尚不能爲武帝，安能爲陛下？」帝默然變色。時帝常遣心腹左右陳世范等出塗巷采聽異言，由是以晏爲事。晏性浮動，志欲無厭，自謂旦夕開府。又望録尚書，毎謂人曰：「徐公應爲令。」又和徐詩云：「槐序候方調。」其名位在徐前，徐若三槐，則晏不言自顯，人或譏之。",
+      "note": "依本句及齊書卷42不同朝君主、親屬與說話位置。",
+      "chapter_id": "c-nanshi-024-wangyan",
+      "book_id": "b-nanshi-024",
+      "work_id": "w-nanshi",
+      "source_id": "s-nanshi-024-wangyan-ws1765279"
+    },
+    {
+      "id": "c-nanshi-024-wangyan:p007:r0167",
+      "surface": "武帝",
+      "start": 167,
+      "end": 169,
+      "person_id": "kix_r92_2ed",
+      "referent_role": "third_person",
+      "paragraph_id": "c-nanshi-024-wangyan:p007",
+      "quote": "晏篤於親舊，爲時所稱，至是自謂佐命惟新，言論常非武帝故事，眾始怪之。明帝雖以事際須晏，而心相疑斥，料簡武帝中詔，得與晏手詔三百餘紙，皆是論國家事。永明中，武帝欲以明帝代晏領選，晏啟曰：「鸞清幹有餘，然不諳百氏，恐不可居此職。」乃止。及見此詔，愈猜薄之。帝初即位，始安王遙光便勸誅晏，帝曰：「晏於我有勳，且未有罪。」遙光曰：「晏尚不能爲武帝，安能爲陛下？」帝默然變色。時帝常遣心腹左右陳世范等出塗巷采聽異言，由是以晏爲事。晏性浮動，志欲無厭，自謂旦夕開府。又望録尚書，毎謂人曰：「徐公應爲令。」又和徐詩云：「槐序候方調。」其名位在徐前，徐若三槐，則晏不言自顯，人或譏之。",
+      "note": "依本句及齊書卷42不同朝君主、親屬與說話位置。",
+      "chapter_id": "c-nanshi-024-wangyan",
+      "book_id": "b-nanshi-024",
+      "work_id": "w-nanshi",
+      "source_id": "s-nanshi-024-wangyan-ws1765279"
+    },
+    {
+      "id": "c-nanshi-024-wangyan:p008:r0161",
+      "surface": "武帝",
+      "start": 161,
+      "end": 163,
+      "person_id": "kix_r92_2ed",
+      "referent_role": "third_person",
+      "paragraph_id": "c-nanshi-024-wangyan:p008",
+      "quote": "晏人望未重，又與上素疎，中興初，雖以事計委任，而內相疑阻，晏無防意。既居朝端，事多專決，內外要職，並用周旋門義，毎與上爭用人。數呼相工自視，雲當大貴。與客語，好屏人。上聞，疑晏欲反，遂有誅晏意。有鮮于文粲與晏子德元往來，密探朝旨，告晏有異志。又左右單景雋、陳世范等采巫覡言啟上，雲晏懷異圖。是時南郊應親奉，景雋等言晏因此與武帝故主帥于道中竊發。會獸犯郊壇，帝愈懼，未郊前一日，上乃停行，先報晏及徐孝嗣，孝嗣奉旨，而晏陳郊祀事大，必宜自力。景雋言益見信，元會畢，乃召晏于華林省誅之。下詔顯其罪，稱以河東王鉉識用微弱，欲令守以虛器，並令收付廷尉。",
+      "note": "依本句及齊書卷42不同朝君主、親屬與說話位置。",
+      "chapter_id": "c-nanshi-024-wangyan",
+      "book_id": "b-nanshi-024",
+      "work_id": "w-nanshi",
+      "source_id": "s-nanshi-024-wangyan-ws1765279"
+    },
+    {
       "id": "c-nanshi-025-wangwenhe:p001:r0091",
       "paragraph_id": "c-nanshi-025-wangwenhe:p001",
       "start": 91,
@@ -10171,7 +10654,37 @@
     }
   ],
   "age_assertions": [],
-  "life_events": [],
+  "life_events": [
+    {
+      "id": "le-nanshi024-wangyan-emperor",
+      "person_id": "kix_r92_2ed",
+      "event_type": "death",
+      "source_term": "崩",
+      "source_anchor": {
+        "paragraph_id": "c-nanshi-024-wangyan:p006",
+        "surface": "崩",
+        "start": 2,
+        "end": 3
+      },
+      "date_expression": null,
+      "evidence": [
+        {
+          "work_id": "w-nanshi",
+          "book_id": "b-nanshi-024",
+          "source_id": "s-nanshi-024-wangyan-ws1765279",
+          "chapter_id": "c-nanshi-024-wangyan",
+          "paragraph_id": "c-nanshi-024-wangyan:p006",
+          "quote": "武帝崩，遺旨以尚書事付晏及徐孝嗣。郁林即位，轉左僕射。及明帝謀廢立，晏便回應推奉，轉尚書令，封曲江縣侯，給鼓吹一部，甲仗五十人入殿。時明帝形勢已布，而莫敢先言，蕭諶兄弟握兵權，遲疑未決，晏頻三夜微歩詣諶議，時人以此窺之。明帝與晏東府語及時事，晏抵掌曰：「公常言晏怯，今定如何？」建武元年，進號驃騎大將軍，給班劍二十人，又加兵百人，領太子少傅，進爵爲公。以魏軍動，給兵千人。",
+          "person_reference_id": "c-nanshi-024-wangyan:p006:r0000"
+        }
+      ],
+      "status": "source_attested",
+      "interpretation_note": "齊武帝遺旨付尚書事。",
+      "reviewer": "Codex（AI 代理）",
+      "human_reviewed": false,
+      "model": null
+    }
+  ],
   "life_event_date_decisions": [],
   "selected_life_event_dates": []
 }

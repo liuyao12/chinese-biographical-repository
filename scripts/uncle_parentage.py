@@ -198,7 +198,48 @@ def parent_through_paternal_uncle_valid(member, rows, assertions, chapters):
                and e.get('quote') == f.get('quote') for e in nf['evidence'] for f in nu['evidence'])
 
 
+def paired_nephews_valid(assertion, paragraphs):
+    """俱 relates two explicitly named subjects to the one maternal uncle in the clause."""
+    qualifiers = assertion['qualifiers']
+    if (qualifiers.get('source_clause_binding', {}).get('kind') != 'paired_named_nephews_of_named_uncle'
+            or assertion['predicate'] != 'maternal_uncle' or qualifiers.get('generation_difference') != -1
+            or qualifiers.get('lineage') != 'maternal' or qualifiers.get('mother_person_id') is not None):
+        return False
+    readings = {
+        ('c-nanqishu-032-wangyanzhi', 'line085'): ('，', '俱宋領軍劉湛外甥'),
+        ('c-nanshi-024-wang-family', 'line047'): ('', '俱宋領軍將軍劉湛外甥'),
+        ('c-nanshi-024-yanzhi-ruantao-wyd', 'p003'): ('', '俱宋領軍將軍劉湛外甥'),
+    }
+    for evidence in assertion.get('evidence', []):
+        hit = paragraphs.get(evidence.get('paragraph_id'))
+        if not hit:
+            return False
+        chapter_id, p = hit
+        suffix = p['id'].removeprefix(chapter_id + ':')
+        reading = readings.get((chapter_id, suffix))
+        if not reading:
+            return False
+        separator, term = reading
+        clause = '延之與金紫光祿大夫阮韜' + separator + term
+        if (not p['text'].startswith(clause) or evidence['quote'] != p['text']
+                or qualifiers.get('source_term') != term or evidence.get('chapter_id') != chapter_id):
+            return False
+        names = {m['start']: m for m in p['mentions'] if m.get('kind') == 'person'}
+        people = [names.get(clause.index(term)) for term in ('延之', '阮韜', '劉湛')]
+        if not all(people) or [m['surface'] for m in people] != ['延之', '阮韜', '劉湛']:
+            return False
+        first, second, uncle = people
+        if (qualifiers['source_clause_binding']['pair_ids'] != [first['person_id'], second['person_id']]
+                or assertion['object_person_id'] != uncle['person_id'] or evidence['object_person_mention_id'] != uncle['id']
+                or (assertion['subject_person_id'], evidence['subject_person_mention_id']) not in
+                [(m['person_id'], m['id']) for m in (first, second)]):
+            return False
+    return bool(assertion.get('evidence'))
+
+
 def explicit_maternal_uncle_valid(assertion, paragraphs):
+    if assertion.get('qualifiers', {}).get('source_clause_binding', {}).get('kind') == 'paired_named_nephews_of_named_uncle':
+        return paired_nephews_valid(assertion, paragraphs)
     if assertion.get('qualifiers',{}).get('source_clause_binding',{}).get('kind')=='jin067_emperor_yuliang_yuanjiu':
         e,=assertion['evidence']; p=paragraphs[e['paragraph_id']][1]; terms='護軍庾公，帝之元舅';q=assertion['qualifiers']
         return p['text'].count(terms)==1 and e['quote']==p['text'] and q['source_term']=='帝之元舅' and q['lineage']=='maternal' and q['generation_difference']==-1 and q['mother_person_id'] is None

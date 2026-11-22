@@ -7,9 +7,59 @@
   "review": "ai_provisional",
   "names": [
     "顧榮",
-    "榮"
+    "榮",
+    "彥先"
   ],
-  "titles": [],
+  "titles": [
+    {
+      "id": "th-w076r-gu-rong0",
+      "person_id": "wtz_smr_dwz",
+      "title": "驃騎將軍",
+      "kind": "office",
+      "mode": "attestation",
+      "evidence": [
+        {
+          "work_id": "w-jinshu",
+          "book_id": "b-jinshu-076",
+          "chapter_id": "c-jinshu-076-guzhong",
+          "source_id": "s-jinshu-076-guzhong",
+          "paragraph_id": "c-jinshu-076-guzhong:line114",
+          "quote": "顧衆，字長始，吳郡吳人，驃騎將軍榮之族弟也。父秘，交州刺史，有文武才幹。衆出後伯父，早終，事伯母以孝聞。光祿硃誕器之。州辟主簿，舉秀才，除余杭、秣陵令，並不行。元帝為鎮東將軍。命為參軍。以討華軼功，封東鄉侯，辟丞相掾。秘卒，州人立衆兄壽為刺史，為州人所害，衆往交州迎喪，值杜弢之亂，崎嶇六年乃還。秘曾蒞吳興，吳興義故以衆經離寇難，共遺錢二百萬，一無所受。",
+          "person_mention_id": "c-jinshu-076-guzhong:line114:m0016"
+        }
+      ],
+      "attestations": [
+        {
+          "id": "th-w076r-gu-rong0:a",
+          "paragraph_id": "c-jinshu-076-guzhong:line114",
+          "start": 12,
+          "end": 16,
+          "surface": "驃騎將軍",
+          "person_mention_id": "c-jinshu-076-guzhong:line114:m0016",
+          "usage": "narrative",
+          "date_expression": null
+        }
+      ],
+      "effective_period": {
+        "start": {
+          "status": "unknown",
+          "date_expression": null,
+          "evidence": []
+        },
+        "end": {
+          "status": "unknown",
+          "date_expression": null,
+          "evidence": []
+        }
+      },
+      "interpretation_note": "本來源官稱或所任，未受另記。",
+      "status": "source_attested",
+      "reviewer": "Codex（AI 代理）",
+      "human_reviewed": false,
+      "model": null,
+      "period": "未定 → 未定"
+    }
+  ],
   "addresses": [
     {
       "id": "pa-wangdao4-14-181-15",
@@ -111,6 +161,50 @@
       "work_title": "晉書"
     },
     {
+      "number": 68,
+      "category": "",
+      "title": "顧榮本傳名與字",
+      "paragraph_id": "c-jinshu-068-jin076-guzhong:rong",
+      "count": 2,
+      "raw_count": 2,
+      "duplicate_count": 0,
+      "counting_policy": "independent_fixed_witness_occurrences",
+      "quote": "顧榮，字彥先，吳國吳人也，為南土著姓。",
+      "paragraph_ids": [
+        "c-jinshu-068-jin076-guzhong:rong"
+      ],
+      "mention_ids": [
+        "c-jinshu-068-jin076-guzhong:rong:m0000",
+        "c-jinshu-068-jin076-guzhong:rong:m0004"
+      ],
+      "mention_paragraph_ids": {
+        "c-jinshu-068-jin076-guzhong:rong:m0000": "c-jinshu-068-jin076-guzhong:rong",
+        "c-jinshu-068-jin076-guzhong:rong:m0004": "c-jinshu-068-jin076-guzhong:rong"
+      },
+      "mention_id": "c-jinshu-068-jin076-guzhong:rong:m0000",
+      "occurrence_groups": [
+        {
+          "canonical_mention_id": "c-jinshu-068-jin076-guzhong:rong:m0000",
+          "mention_ids": [
+            "c-jinshu-068-jin076-guzhong:rong:m0000"
+          ],
+          "kind": "paragraph"
+        },
+        {
+          "canonical_mention_id": "c-jinshu-068-jin076-guzhong:rong:m0004",
+          "mention_ids": [
+            "c-jinshu-068-jin076-guzhong:rong:m0004"
+          ],
+          "kind": "paragraph"
+        }
+      ],
+      "work_id": "w-jinshu",
+      "book_id": "b-jinshu-068",
+      "chapter_id": "c-jinshu-068-jin076-guzhong",
+      "source_id": "s-jinshu-068-jin076-guzhong",
+      "work_title": "晉書"
+    },
+    {
       "number": 75,
       "category": "",
       "title": "荀崧及荀蕤、荀羨傳",
@@ -143,6 +237,41 @@
       "book_id": "b-jinshu-075",
       "chapter_id": "c-jinshu-075-xunsong-families",
       "source_id": "s-jinshu-075-xunsong-families",
+      "work_title": "晉書"
+    },
+    {
+      "number": 76,
+      "category": "",
+      "title": "顧衆傳",
+      "paragraph_id": "c-jinshu-076-guzhong:line114",
+      "count": 1,
+      "raw_count": 1,
+      "duplicate_count": 0,
+      "counting_policy": "independent_fixed_witness_occurrences",
+      "quote": "顧衆，字長始，吳郡吳人，驃騎將軍榮之族弟也。父秘，交州刺史，有文武才幹。衆出後伯父，早終，事伯母以孝聞。光祿硃誕器之。州辟主簿，舉秀才，除余杭、秣陵令，並不行。元帝為鎮東將軍。命為參軍。以討華軼功，封東鄉侯，辟丞相掾。秘卒，州人立衆兄",
+      "paragraph_ids": [
+        "c-jinshu-076-guzhong:line114"
+      ],
+      "mention_ids": [
+        "c-jinshu-076-guzhong:line114:m0016"
+      ],
+      "mention_paragraph_ids": {
+        "c-jinshu-076-guzhong:line114:m0016": "c-jinshu-076-guzhong:line114"
+      },
+      "mention_id": "c-jinshu-076-guzhong:line114:m0016",
+      "occurrence_groups": [
+        {
+          "canonical_mention_id": "c-jinshu-076-guzhong:line114:m0016",
+          "mention_ids": [
+            "c-jinshu-076-guzhong:line114:m0016"
+          ],
+          "kind": "paragraph"
+        }
+      ],
+      "work_id": "w-jinshu",
+      "book_id": "b-jinshu-076",
+      "chapter_id": "c-jinshu-076-guzhong",
+      "source_id": "s-jinshu-076-guzhong",
       "work_title": "晉書"
     },
     {
@@ -887,6 +1016,30 @@
       }
     },
     {
+      "chapter_id": "c-jinshu-068-jin076-guzhong",
+      "work_id": "w-jinshu",
+      "book_id": "b-jinshu-068",
+      "source_id": "s-jinshu-068-jin076-guzhong",
+      "source": {
+        "title": "晉書顧榮、賀循",
+        "provider": "Wikisource",
+        "url": "https://zh.wikisource.org/w/index.php?oldid=2581578",
+        "permalink": "https://zh.wikisource.org/w/index.php?oldid=2581578",
+        "revision_id": 2581578,
+        "accessed_on": "2026-11-21",
+        "edition": "固定修訂相關原文，逐字核收。",
+        "extent": "下列來源節錄。",
+        "text_scope": "partial_chapter",
+        "review_status": "text_checked",
+        "image_verified": false,
+        "rights": "古籍原文，維基文庫數位轉錄。",
+        "license_url": "https://creativecommons.org/licenses/by-sa/4.0/",
+        "raw_path": "source-evidence/jin065-wangdao-main/external/jin068-ws2581578.wikitext",
+        "raw_file_sha256": "51c836e14087ecf3b0f6577aae470c286607c067dd0331e306b5a3c42f3d10dc",
+        "wikitext_sha256": "51c836e14087ecf3b0f6577aae470c286607c067dd0331e306b5a3c42f3d10dc"
+      }
+    },
+    {
       "chapter_id": "c-jinshu-075-xunsong-families",
       "work_id": "w-jinshu",
       "book_id": "b-jinshu-075",
@@ -1248,6 +1401,33 @@
       }
     },
     {
+      "chapter_id": "c-jinshu-076-guzhong",
+      "work_id": "w-jinshu",
+      "book_id": "b-jinshu-076",
+      "source_id": "s-jinshu-076-guzhong",
+      "source": {
+        "title": "晉書卷七十六",
+        "provider": "Wikisource",
+        "url": "https://zh.wikisource.org/w/index.php?oldid=2180533",
+        "permalink": "https://zh.wikisource.org/w/index.php?oldid=2180533",
+        "revision_id": 2180533,
+        "accessed_on": "2026-11-21",
+        "edition": "固定數位修訂；武英殿本另錄。",
+        "extent": "顧衆題下第114至126行。",
+        "text_scope": "partial_chapter",
+        "review_status": "text_checked",
+        "image_verified": false,
+        "rights": "古籍原文，維基文庫數位轉錄。",
+        "license_url": "https://creativecommons.org/licenses/by-sa/4.0/",
+        "raw_path": "source-evidence/jin079-lang-zhong-xuan-dai/external/jin076-ws2180533.wikitext",
+        "raw_file_sha256": "872701db949f6f58ea6f183425617dfa82353177d2cc026037bfad953a60cd71",
+        "wikitext_sha256": "872701db949f6f58ea6f183425617dfa82353177d2cc026037bfad953a60cd71",
+        "collation_witnesses": [
+          "source-evidence/jin076-guzhong/reading.json"
+        ]
+      }
+    },
+    {
       "chapter_id": "c-jinshu-076-jin076-guzhong-parent",
       "work_id": "w-jinshu",
       "book_id": "b-jinshu-076",
@@ -1272,8 +1452,52 @@
       }
     }
   ],
-  "relations": [],
+  "relations": [
+    {
+      "id": "a-w076r-gz-rong",
+      "subject_person_id": "jfc_0dt_42a_A",
+      "object_person_id": "wtz_smr_dwz",
+      "predicate": "agnatic_cousin",
+      "qualifiers": {
+        "source_term": "榮之族弟也",
+        "kinship_structure": {
+          "lineage": "paternal",
+          "generation_difference": 0,
+          "collateral": true,
+          "distance": null,
+          "common_ancestor_person_id": null,
+          "subject_relative_age": "younger"
+        },
+        "relative_birth_order": {
+          "older_person_id": "wtz_smr_dwz",
+          "younger_person_id": "jfc_0dt_42a_A",
+          "operator": "lt",
+          "scope": "agnatic_cousins",
+          "older_ordinal": null,
+          "younger_ordinal": null
+        }
+      },
+      "evidence": [
+        {
+          "work_id": "w-jinshu",
+          "book_id": "b-jinshu-076",
+          "chapter_id": "c-jinshu-076-guzhong",
+          "source_id": "s-jinshu-076-guzhong",
+          "paragraph_id": "c-jinshu-076-guzhong:line114",
+          "quote": "顧衆，字長始，吳郡吳人，驃騎將軍榮之族弟也。父秘，交州刺史，有文武才幹。衆出後伯父，早終，事伯母以孝聞。光祿硃誕器之。州辟主簿，舉秀才，除余杭、秣陵令，並不行。元帝為鎮東將軍。命為參軍。以討華軼功，封東鄉侯，辟丞相掾。秘卒，州人立衆兄壽為刺史，為州人所害，衆往交州迎喪，值杜弢之亂，崎嶇六年乃還。秘曾蒞吳興，吳興義故以衆經離寇難，共遺錢二百萬，一無所受。",
+          "subject_person_mention_id": "c-jinshu-076-guzhong:line114:m0000",
+          "object_person_mention_id": "c-jinshu-076-guzhong:line114:m0016"
+        }
+      ],
+      "interpretation_note": "此條按本句所明言。",
+      "status": "source_attested",
+      "reviewer": "Codex（AI 代理）",
+      "human_reviewed": false,
+      "model": null
+    }
+  ],
   "related_people": {
+    "jfc_0dt_42a_A": "顧衆",
     "wtz_smr_dwz": "顧榮"
   },
   "dates": [],
@@ -1281,7 +1505,50 @@
   "person_ids": [
     "wtz_smr_dwz"
   ],
-  "preferred_relations": [],
+  "preferred_relations": [
+    {
+      "id": "a-w076r-gz-rong",
+      "subject_person_id": "jfc_0dt_42a_A",
+      "object_person_id": "wtz_smr_dwz",
+      "predicate": "agnatic_cousin",
+      "qualifiers": {
+        "source_term": "榮之族弟也",
+        "kinship_structure": {
+          "lineage": "paternal",
+          "generation_difference": 0,
+          "collateral": true,
+          "distance": null,
+          "common_ancestor_person_id": null,
+          "subject_relative_age": "younger"
+        },
+        "relative_birth_order": {
+          "older_person_id": "wtz_smr_dwz",
+          "younger_person_id": "jfc_0dt_42a_A",
+          "operator": "lt",
+          "scope": "agnatic_cousins",
+          "older_ordinal": null,
+          "younger_ordinal": null
+        }
+      },
+      "evidence": [
+        {
+          "work_id": "w-jinshu",
+          "book_id": "b-jinshu-076",
+          "chapter_id": "c-jinshu-076-guzhong",
+          "source_id": "s-jinshu-076-guzhong",
+          "paragraph_id": "c-jinshu-076-guzhong:line114",
+          "quote": "顧衆，字長始，吳郡吳人，驃騎將軍榮之族弟也。父秘，交州刺史，有文武才幹。衆出後伯父，早終，事伯母以孝聞。光祿硃誕器之。州辟主簿，舉秀才，除余杭、秣陵令，並不行。元帝為鎮東將軍。命為參軍。以討華軼功，封東鄉侯，辟丞相掾。秘卒，州人立衆兄壽為刺史，為州人所害，衆往交州迎喪，值杜弢之亂，崎嶇六年乃還。秘曾蒞吳興，吳興義故以衆經離寇難，共遺錢二百萬，一無所受。",
+          "subject_person_mention_id": "c-jinshu-076-guzhong:line114:m0000",
+          "object_person_mention_id": "c-jinshu-076-guzhong:line114:m0016"
+        }
+      ],
+      "interpretation_note": "此條按本句所明言。",
+      "status": "source_attested",
+      "reviewer": "Codex（AI 代理）",
+      "human_reviewed": false,
+      "model": null
+    }
+  ],
   "age_assertions": [],
   "life_events": [],
   "life_event_date_decisions": [],

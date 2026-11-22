@@ -20,6 +20,8 @@ def received_text(line):
 def source_paragraphs(lines, layout=None):
     """核對固定轉錄選用的首行空格及跨段引文模板。"""
     lines = [line for line in lines if line.strip()]
+    if layout == 'nanqi043_xieyue_glyph':
+        return [received_text(line.removeprefix('　　').replace('{{!|𤅢|左「氵」右「𦿈」}}', '𤅢')) for line in lines]
     if layout == 'wikisource_inline_phonetic_glosses':
         return [received_text(re.sub(r'\{\{\*\|[^{}|]+反\}\}', '', line)) for line in lines]
     if layout == 'wikisource_indented_blue_and_quote':

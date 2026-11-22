@@ -8,9 +8,93 @@
   "names": [
     "惔"
   ],
-  "titles": [],
+  "titles": [
+    {
+      "id": "th-nanshi024-wangsiyuan-s1-27",
+      "person_id": "3ea_uzt_2n2_D",
+      "title": "南康太守",
+      "kind": "office",
+      "mode": "attestation",
+      "attestations": [
+        {
+          "id": "th-nanshi024-wangsiyuan-s1-27:a",
+          "person_mention_id": "c-songshu-066-heshangzhi-uncle-line:p001:m0025",
+          "usage": "narrative",
+          "date_expression": null,
+          "paragraph_id": "c-songshu-066-heshangzhi-uncle-line:p001",
+          "surface": "南康太守",
+          "start": 27,
+          "end": 31
+        }
+      ],
+      "effective_period": {
+        "start": {
+          "status": "unknown",
+          "date_expression": null,
+          "evidence": []
+        },
+        "end": {
+          "status": "unknown",
+          "date_expression": null,
+          "evidence": []
+        }
+      },
+      "evidence": [
+        {
+          "work_id": "w-songshu",
+          "book_id": "b-songshu-066",
+          "source_id": "s-songshu-066-heshangzhi-uncle-line-ws2069104",
+          "chapter_id": "c-songshu-066-heshangzhi-uncle-line",
+          "paragraph_id": "c-songshu-066-heshangzhi-uncle-line:p001",
+          "quote": "何尚之字彥德，廬江灊人也。曾祖準，高尚不應徵辟。祖惔，南康太守。父叔度",
+          "person_mention_id": "c-songshu-066-heshangzhi-uncle-line:p001:m0025"
+        }
+      ],
+      "status": "source_attested",
+      "interpretation_note": "按本見證原職名及其所屬人。",
+      "reviewer": "Codex（AI 代理）",
+      "human_reviewed": false,
+      "model": null,
+      "period": "未定 → 未定"
+    }
+  ],
   "addresses": [],
   "occurrences": [
+    {
+      "number": 66,
+      "category": "",
+      "title": "何尚之家世",
+      "paragraph_id": "c-songshu-066-heshangzhi-uncle-line:p001",
+      "count": 1,
+      "raw_count": 1,
+      "duplicate_count": 0,
+      "counting_policy": "independent_fixed_witness_occurrences",
+      "quote": "何尚之字彥德，廬江灊人也。曾祖準，高尚不應徵辟。祖惔，南康太守。父叔度",
+      "paragraph_ids": [
+        "c-songshu-066-heshangzhi-uncle-line:p001"
+      ],
+      "mention_ids": [
+        "c-songshu-066-heshangzhi-uncle-line:p001:m0025"
+      ],
+      "mention_paragraph_ids": {
+        "c-songshu-066-heshangzhi-uncle-line:p001:m0025": "c-songshu-066-heshangzhi-uncle-line:p001"
+      },
+      "mention_id": "c-songshu-066-heshangzhi-uncle-line:p001:m0025",
+      "occurrence_groups": [
+        {
+          "canonical_mention_id": "c-songshu-066-heshangzhi-uncle-line:p001:m0025",
+          "mention_ids": [
+            "c-songshu-066-heshangzhi-uncle-line:p001:m0025"
+          ],
+          "kind": "paragraph"
+        }
+      ],
+      "work_id": "w-songshu",
+      "book_id": "b-songshu-066",
+      "chapter_id": "c-songshu-066-heshangzhi-uncle-line",
+      "source_id": "s-songshu-066-heshangzhi-uncle-line-ws2069104",
+      "work_title": "宋書"
+    },
     {
       "number": 93,
       "category": "",
@@ -54,6 +138,41 @@
       "chapter_id": "c-jinshu-093-heyu-grandfather-context",
       "source_id": "s-jinshu-093-heyu-grandfather-context-ws1548000",
       "work_title": "晉書"
+    },
+    {
+      "number": 93,
+      "category": "",
+      "title": "何惔二子",
+      "paragraph_id": "c-jinshu-093-heyu-he-shudu:p001",
+      "count": 1,
+      "raw_count": 1,
+      "duplicate_count": 0,
+      "counting_policy": "independent_fixed_witness_occurrences",
+      "quote": "惔子元度，西陽太守；次叔度，太常卿、尚書。",
+      "paragraph_ids": [
+        "c-jinshu-093-heyu-he-shudu:p001"
+      ],
+      "mention_ids": [
+        "c-jinshu-093-heyu-he-shudu:p001:m0000"
+      ],
+      "mention_paragraph_ids": {
+        "c-jinshu-093-heyu-he-shudu:p001:m0000": "c-jinshu-093-heyu-he-shudu:p001"
+      },
+      "mention_id": "c-jinshu-093-heyu-he-shudu:p001:m0000",
+      "occurrence_groups": [
+        {
+          "canonical_mention_id": "c-jinshu-093-heyu-he-shudu:p001:m0000",
+          "mention_ids": [
+            "c-jinshu-093-heyu-he-shudu:p001:m0000"
+          ],
+          "kind": "paragraph"
+        }
+      ],
+      "work_id": "w-jinshu",
+      "book_id": "b-jinshu-093",
+      "chapter_id": "c-jinshu-093-heyu-he-shudu",
+      "source_id": "s-jinshu-093-heyu-he-shudu-ws1548000",
+      "work_title": "晉書"
     }
   ],
   "table_occurrences": [],
@@ -77,6 +196,60 @@
         "review_status": "text_checked",
         "raw_path": "source-evidence/nan023-chuaicontext/ws1548000.wikitext",
         "raw_file_sha256": "8fc7f8b8a8a5a33a18c016006082a49f92e418f8fba965e1068b3e4e2016ff7e",
+        "rights": "古代原典及維基文庫數位轉錄。",
+        "license_url": "https://zh.wikisource.org/wiki/Wikisource:著作權資訊",
+        "normalization": {
+          "character_conversion": {},
+          "extraction_note": "投影相應原句，保留字形；移除年號模板定界符。"
+        }
+      }
+    },
+    {
+      "chapter_id": "c-jinshu-093-heyu-he-shudu",
+      "work_id": "w-jinshu",
+      "book_id": "b-jinshu-093",
+      "source_id": "s-jinshu-093-heyu-he-shudu-ws1548000",
+      "source": {
+        "title": "晉書卷93·何惔二子",
+        "provider": "Wikisource",
+        "url": "https://zh.wikisource.org/w/index.php?oldid=1548000",
+        "permalink": "https://zh.wikisource.org/w/index.php?oldid=1548000",
+        "revision_id": 1548000,
+        "accessed_on": "2026-11-21",
+        "edition": "維基文庫固定數位轉錄",
+        "extent": "原王府身分、紀年或改名原句",
+        "text_scope": "partial_chapter",
+        "image_verified": false,
+        "review_status": "text_checked",
+        "raw_path": "source-evidence/nan023-chuaicontext/ws1548000.wikitext",
+        "raw_file_sha256": "8fc7f8b8a8a5a33a18c016006082a49f92e418f8fba965e1068b3e4e2016ff7e",
+        "rights": "古代原典及維基文庫數位轉錄。",
+        "license_url": "https://zh.wikisource.org/wiki/Wikisource:著作權資訊",
+        "normalization": {
+          "character_conversion": {},
+          "extraction_note": "投影相應原句，保留字形；移除年號模板定界符。"
+        }
+      }
+    },
+    {
+      "chapter_id": "c-songshu-066-heshangzhi-uncle-line",
+      "work_id": "w-songshu",
+      "book_id": "b-songshu-066",
+      "source_id": "s-songshu-066-heshangzhi-uncle-line-ws2069104",
+      "source": {
+        "title": "宋書卷66·何尚之家世",
+        "provider": "Wikisource",
+        "url": "https://zh.wikisource.org/w/index.php?oldid=2069104",
+        "permalink": "https://zh.wikisource.org/w/index.php?oldid=2069104",
+        "revision_id": 2069104,
+        "accessed_on": "2026-11-21",
+        "edition": "維基文庫固定數位轉錄",
+        "extent": "原王府身分、紀年或改名原句",
+        "text_scope": "partial_chapter",
+        "image_verified": false,
+        "review_status": "text_checked",
+        "raw_path": "sources/songshu/songshu066-ws2069104.wikitext",
+        "raw_file_sha256": "671045acf8eb033bd02cd9b1e4bd1f0b43ebe2005d0bf7b0b8706d64dce57cec",
         "rights": "古代原典及維基文庫數位轉錄。",
         "license_url": "https://zh.wikisource.org/wiki/Wikisource:著作權資訊",
         "normalization": {
@@ -114,11 +287,69 @@
       "reviewer": "Codex（AI 代理）",
       "human_reviewed": false,
       "model": null
+    },
+    {
+      "id": "a-nanshi024-wangsiyuan-he-shudu",
+      "subject_person_id": "3ea_uzt_2n2_DA",
+      "object_person_id": "3ea_uzt_2n2_D",
+      "predicate": "father",
+      "qualifiers": {
+        "source_term": "惔子元度，西陽太守；次叔度",
+        "nanshi024_wangsiyuan_reading": "he-shudu",
+        "lineage": "paternal"
+      },
+      "evidence": [
+        {
+          "work_id": "w-jinshu",
+          "book_id": "b-jinshu-093",
+          "source_id": "s-jinshu-093-heyu-he-shudu-ws1548000",
+          "chapter_id": "c-jinshu-093-heyu-he-shudu",
+          "paragraph_id": "c-jinshu-093-heyu-he-shudu:p001",
+          "quote": "惔子元度，西陽太守；次叔度，太常卿、尚書。",
+          "subject_person_mention_id": "c-jinshu-093-heyu-he-shudu:p001:m0011",
+          "object_person_mention_id": "c-jinshu-093-heyu-he-shudu:p001:m0000"
+        }
+      ],
+      "status": "source_attested",
+      "interpretation_note": "本句列父子，承接詞限本見證。",
+      "reviewer": "Codex（AI 代理）",
+      "human_reviewed": false,
+      "model": null
+    },
+    {
+      "id": "a-nanshi024-wangsiyuan-he-yuandu",
+      "subject_person_id": "3ea_uzt_2n2_DB",
+      "object_person_id": "3ea_uzt_2n2_D",
+      "predicate": "father",
+      "qualifiers": {
+        "source_term": "惔子元度",
+        "nanshi024_wangsiyuan_reading": "he-yuandu",
+        "lineage": "paternal"
+      },
+      "evidence": [
+        {
+          "work_id": "w-jinshu",
+          "book_id": "b-jinshu-093",
+          "source_id": "s-jinshu-093-heyu-he-shudu-ws1548000",
+          "chapter_id": "c-jinshu-093-heyu-he-shudu",
+          "paragraph_id": "c-jinshu-093-heyu-he-shudu:p001",
+          "quote": "惔子元度，西陽太守；次叔度，太常卿、尚書。",
+          "subject_person_mention_id": "c-jinshu-093-heyu-he-shudu:p001:m0002",
+          "object_person_mention_id": "c-jinshu-093-heyu-he-shudu:p001:m0000"
+        }
+      ],
+      "status": "source_attested",
+      "interpretation_note": "本句列父子，承接詞限本見證。",
+      "reviewer": "Codex（AI 代理）",
+      "human_reviewed": false,
+      "model": null
     }
   ],
   "related_people": {
     "3ea_uzt_2n2": "何准",
-    "3ea_uzt_2n2_D": "何惔（何准子）"
+    "3ea_uzt_2n2_D": "何惔（何准子）",
+    "3ea_uzt_2n2_DA": "何叔度（何惔子）",
+    "3ea_uzt_2n2_DB": "何元度（何惔子）"
   },
   "dates": [],
   "name_components": [],
@@ -150,6 +381,62 @@
       ],
       "status": "source_attested",
       "interpretation_note": "何准傳以三子連舉三人。",
+      "reviewer": "Codex（AI 代理）",
+      "human_reviewed": false,
+      "model": null
+    },
+    {
+      "id": "a-nanshi024-wangsiyuan-he-shudu",
+      "subject_person_id": "3ea_uzt_2n2_DA",
+      "object_person_id": "3ea_uzt_2n2_D",
+      "predicate": "father",
+      "qualifiers": {
+        "source_term": "惔子元度，西陽太守；次叔度",
+        "nanshi024_wangsiyuan_reading": "he-shudu",
+        "lineage": "paternal"
+      },
+      "evidence": [
+        {
+          "work_id": "w-jinshu",
+          "book_id": "b-jinshu-093",
+          "source_id": "s-jinshu-093-heyu-he-shudu-ws1548000",
+          "chapter_id": "c-jinshu-093-heyu-he-shudu",
+          "paragraph_id": "c-jinshu-093-heyu-he-shudu:p001",
+          "quote": "惔子元度，西陽太守；次叔度，太常卿、尚書。",
+          "subject_person_mention_id": "c-jinshu-093-heyu-he-shudu:p001:m0011",
+          "object_person_mention_id": "c-jinshu-093-heyu-he-shudu:p001:m0000"
+        }
+      ],
+      "status": "source_attested",
+      "interpretation_note": "本句列父子，承接詞限本見證。",
+      "reviewer": "Codex（AI 代理）",
+      "human_reviewed": false,
+      "model": null
+    },
+    {
+      "id": "a-nanshi024-wangsiyuan-he-yuandu",
+      "subject_person_id": "3ea_uzt_2n2_DB",
+      "object_person_id": "3ea_uzt_2n2_D",
+      "predicate": "father",
+      "qualifiers": {
+        "source_term": "惔子元度",
+        "nanshi024_wangsiyuan_reading": "he-yuandu",
+        "lineage": "paternal"
+      },
+      "evidence": [
+        {
+          "work_id": "w-jinshu",
+          "book_id": "b-jinshu-093",
+          "source_id": "s-jinshu-093-heyu-he-shudu-ws1548000",
+          "chapter_id": "c-jinshu-093-heyu-he-shudu",
+          "paragraph_id": "c-jinshu-093-heyu-he-shudu:p001",
+          "quote": "惔子元度，西陽太守；次叔度，太常卿、尚書。",
+          "subject_person_mention_id": "c-jinshu-093-heyu-he-shudu:p001:m0002",
+          "object_person_mention_id": "c-jinshu-093-heyu-he-shudu:p001:m0000"
+        }
+      ],
+      "status": "source_attested",
+      "interpretation_note": "本句列父子，承接詞限本見證。",
       "reviewer": "Codex（AI 代理）",
       "human_reviewed": false,
       "model": null

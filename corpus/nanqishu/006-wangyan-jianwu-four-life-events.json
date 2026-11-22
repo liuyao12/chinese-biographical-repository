@@ -1,0 +1,112 @@
+{
+  "format_version": "0.2",
+  "record_type": "person_life_event_assertion_set",
+  "chapter_id": "c-nanqishu-006-wangyan-jianwu-four",
+  "events": [
+    {
+      "id": "le-nanshi024-wangyan-yan-annal",
+      "person_id": "i08_s4b_5bb",
+      "event_type": "death",
+      "source_term": "伏誅",
+      "source_anchor": {
+        "paragraph_id": "c-nanqishu-006-wangyan-jianwu-four:p001",
+        "surface": "伏誅",
+        "start": 8,
+        "end": 10
+      },
+      "date_expression": "丙辰",
+      "evidence": [
+        {
+          "work_id": "w-nanqishu",
+          "book_id": "b-nanqishu-006",
+          "source_id": "s-nanqishu-006-wangyan-jianwu-four-ws2311630",
+          "chapter_id": "c-nanqishu-006-wangyan-jianwu-four",
+          "paragraph_id": "c-nanqishu-006-wangyan-jianwu-four:p001",
+          "quote": "丙辰，尚書令王晏伏誅。",
+          "person_mention_id": "c-nanqishu-006-wangyan-jianwu-four:p001:m0006"
+        }
+      ],
+      "status": "source_attested",
+      "interpretation_note": "高宗紀建武四年正月丙辰，該日只記王晏。",
+      "reviewer": "Codex（AI 代理）",
+      "human_reviewed": false,
+      "model": null,
+      "normalized_date": {
+        "era": "CE",
+        "era_year": 497,
+        "year": 497,
+        "year_numbering": "astronomical",
+        "precision": "year",
+        "calendar": "chinese_civil",
+        "source_expression": "丙辰",
+        "status": "editorial_provisional",
+        "original_quote": "丙辰，尚書令王晏伏誅。",
+        "evidence": [
+          {
+            "work_id": "w-nanqishu",
+            "book_id": "b-nanqishu-006",
+            "source_id": "s-nanqishu-006-wangyan-jianwu-four-ws2311630",
+            "chapter_id": "c-nanqishu-006-wangyan-jianwu-four",
+            "paragraph_id": "c-nanqishu-006-wangyan-jianwu-four:p001",
+            "quote": "丙辰，尚書令王晏伏誅。",
+            "person_mention_id": "c-nanqishu-006-wangyan-jianwu-four:p001:m0006"
+          }
+        ],
+        "references": [
+          {
+            "title": "教育部《重編國語辭典修訂本》中國歷代年號表",
+            "url": "https://dict.revised.moe.edu.tw/appendix.jsp?ID=3&page=2",
+            "scope": "modern_era_year_equivalence_only",
+            "quote": "建武",
+            "columns": {
+              "dynasty": "齊",
+              "era_name": "建武",
+              "first_year": "494",
+              "last_year": "498"
+            },
+            "image_verified": false
+          }
+        ],
+        "rationale": "固定齊明帝紀第56行題建武四年，第57行起四年春正月，本人伏誅句明記丙辰。建武元年494，四年為497；保留中國曆日干支。",
+        "regnal_year_mapping": {
+          "kind": "qi006_wangyan_era_year",
+          "era_name": "建武",
+          "source_number": "四",
+          "regnal_year": 4,
+          "start_ce_year": 494,
+          "end_ce_year": 498,
+          "reference_index": 0
+        },
+        "reviewer": "Codex（AI 代理）",
+        "human_reviewed": false,
+        "model": null,
+        "annal_locator": {
+          "era": "建武",
+          "year": 4,
+          "month": 1,
+          "ganzhi": "丙辰",
+          "anchors": [
+            {
+              "line": 56,
+              "start": 0,
+              "end": 8,
+              "quote": "==建武四年=="
+            },
+            {
+              "line": 57,
+              "start": 0,
+              "end": 5,
+              "quote": "四年春正月"
+            },
+            {
+              "line": 57,
+              "start": 248,
+              "end": 259,
+              "quote": "丙辰，尚書令王晏伏誅。"
+            }
+          ]
+        }
+      }
+    }
+  ]
+}

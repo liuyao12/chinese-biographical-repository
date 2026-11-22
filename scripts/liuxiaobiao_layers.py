@@ -41,6 +41,8 @@ def valid(p, chapter, root):
         # 異體單字標記也可位於專名模板內。
         deconverted_quote = re.sub(r'-\{([^{}]+)\}-', r'\1', q['quote'])
         rendered = re.sub(r'\{\{ProperNoun\|([^{}]+)\}\}', r'\1', deconverted_quote)
+        if source['revision_id'] == 1532655:
+            rendered = rendered.replace('{{!|𩦎|馬斐}}', '𩦎')
         return p['text'] == rendered
     except (KeyError, ValueError, TypeError, OSError, IndexError):
         return False

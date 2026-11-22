@@ -1,0 +1,100 @@
+{
+  "record_type": "fixed_source_complete_item_review",
+  "reviewer": "Codex（AI代理）",
+  "model": null,
+  "human_reviewed": false,
+  "external_witnesses": [
+    {
+      "revision_id": 2478204,
+      "raw_path": "sources/nanshi/nanshi023-ws2478204.wikitext",
+      "line": 71,
+      "start": 31,
+      "end": 39,
+      "source_quote": "請以長小弟佟嗣焉",
+      "raw_sha256": "c54bdda206986e5d4e5331144e783f163b5823855581b9833572e1982d1d4e40",
+      "interpretation": "南史王琨傳具稱長小弟。"
+    },
+    {
+      "revision_id": 2478204,
+      "raw_path": "sources/nanshi/nanshi023-ws2478204.wikitext",
+      "line": 61,
+      "start": 17,
+      "end": 23,
+      "source_quote": "以長弟佟詔封",
+      "raw_sha256": "c54bdda206986e5d4e5331144e783f163b5823855581b9833572e1982d1d4e40",
+      "interpretation": "南史王華傳另記詔封，齊本此處止於表請。"
+    }
+  ],
+  "print_readings": [
+    {
+      "edition": "清乾隆四年武英殿刊，國圖《二十四史》第159冊",
+      "url": "https://upload.wikimedia.org/wikipedia/commons/4/4f/NLC892-411999017142-12464_%E4%BA%8C%E5%8D%81%E5%9B%9B%E5%8F%B2_%E7%AC%AC159%E5%86%8A.pdf#page=53",
+      "catalog_record": "https://commons.wikimedia.org/wiki/File:NLC892-411999017142-12464_%E4%BA%8C%E5%8D%81%E5%9B%9B%E5%8F%B2_%E7%AC%AC159%E5%86%8A.pdf",
+      "pdf_sha1": "f08286875cf3615a5f86b0b75f6ea1e8ef268bca",
+      "pdf_sha256": "9bb3072ec6ab8a07612d5fa19b2dc2d272f0889cd13e0ffb55d83a6f5625c41e",
+      "page": 53,
+      "half": "L",
+      "folio": "二上",
+      "columns_from_right": "10",
+      "source_quote": "嗣小息佟閑立保退不乖素風如蒙拯立",
+      "reading": "名佟與嗣小息的從屬均清楚。",
+      "image_sha256": "96ba846c7d97c58bbf306754878d86e83d351d48ca4398d3cf709ff59d9b7d5b"
+    }
+  ],
+  "boundaries": [
+    {
+      "book_id": "b-nanqishu-032",
+      "title": "王佟",
+      "unit_kind": "embedded_account",
+      "entry_checked": true,
+      "full_text": true,
+      "first_pass": true,
+      "item_reviewed": true,
+      "chapter_id": "c-nanqishu-032-wangtong",
+      "first_line": 19,
+      "last_line": 19,
+      "start_codepoint": 94,
+      "end_codepoint": 125,
+      "opening": "嗣小息佟閑立保退，不乖素風",
+      "closing": "，則存亡荷榮，私祿更搆。」",
+      "parent_heading": "王琨",
+      "chapter_path": "corpus/nanqishu/032-wangtong.json",
+      "paragraph_ids": [
+        "c-nanqishu-032-wangtong:p001"
+      ],
+      "source_layout": "wikisource_mixed_indented_prose",
+      "item_review_path": "source-evidence/nanqi032-biographies/tong-reading.json"
+    }
+  ],
+  "chronology": [],
+  "readings": [
+    {
+      "id": "c-nanqishu-032-wangtong:received_sentence1-0",
+      "kind": "received_sentence",
+      "person_id": "02c_86e_5a9",
+      "source_quote": "嗣小息佟閑立保退，不乖素風，如蒙拯立，則存亡荷榮，私祿更搆。」",
+      "reading": "王琨表說王嗣小息佟性行可立，請朝廷改立以存王華的世祀。沒有敘已奉詔受封。",
+      "note": "王琨表說王嗣小息佟性行可立，請朝廷改立以存王華的世祀。沒有敘已奉詔受封。",
+      "paragraph_id": "c-nanqishu-032-wangtong:p001",
+      "start_codepoint": 0,
+      "end_codepoint": 31,
+      "human_reviewed": false
+    },
+    {
+      "id": "c-nanqishu-032-wangtong:petition_for_succession1-14",
+      "kind": "petition_for_succession",
+      "person_id": "02c_86e_5a9",
+      "source_quote": "如蒙拯立",
+      "reading": "奏中用如蒙，為王琨請立，應分別記兩書話語層次。",
+      "note": "奏中用如蒙，為王琨請立，應分別記兩書話語層次。",
+      "paragraph_id": "c-nanqishu-032-wangtong:p001",
+      "start_codepoint": 14,
+      "end_codepoint": 18,
+      "human_reviewed": false,
+      "applicant_person_id": "7r6_k52_qji_ABAAFBA",
+      "proposed_heir_person_id": "02c_86e_5a9",
+      "proposal_only": true
+    }
+  ],
+  "identity_limits": []
+}

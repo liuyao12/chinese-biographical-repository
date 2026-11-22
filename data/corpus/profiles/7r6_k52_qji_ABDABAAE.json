@@ -375,7 +375,9 @@
               "end_anchor": "爲事，但恨短筆不足書美。」誄竟不就。"
             }
           ]
-        }
+        },
+        "raw_path": "sources/nanshi/nanshi024-ws1765279.wikitext",
+        "raw_file_sha256": "8fd9281c1d58e066b75c0b6cce86fff07d6e11c8ad6426459f8e0f2139a29499"
       }
     },
     {
@@ -703,6 +705,34 @@
   ],
   "relations": [
     {
+      "id": "a-nan024-yu-kong-father",
+      "subject_person_id": "7r6_k52_qji_ABDABAAE",
+      "object_person_id": "7r6_k52_qji_ABDABAA",
+      "predicate": "father",
+      "qualifiers": {
+        "source_term": "臣女幼",
+        "nanshi024_reported_kin": "kong-father",
+        "lineage": "paternal"
+      },
+      "evidence": [
+        {
+          "work_id": "w-nanshi",
+          "book_id": "b-nanshi-024",
+          "chapter_id": "c-nanshi-024-wang-family",
+          "source_id": "s-nanshi-024-wang-family",
+          "paragraph_id": "c-nanshi-024-wang-family:line023",
+          "quote": "敬弘形狀短而起坐端方，桓玄謂之「彈棋發八勢」。所居舍亭山，林澗環周，備登臨之美，故時人謂之王東山。文帝嘗問爲政得失，對曰：「天下有道，庶人不議。」上高其言。左右嘗使二老婦女，戴五條辮，著青紋絝袼，飾以朱粉。女適尚書僕射何尚之弟述之。敬弘嘗往何氏看女，遇尚之不在，因寄齋中臥。俄頃尚之還，敬弘使二婦女守合，不聽尚之入，云：「正熱不堪相見，君可且去」。尚之於是移於他室。上將爲廬陵王納其女，辭曰：「臣女幼，既許孔淳之息。」子恢之被召爲祕書郎，敬弘爲求奉朝請，與恢之書曰：「彼祕書有限故有競，朝請無限故無競，吾欲使汝處不競之地。」文帝嘉之，並見許。",
+          "subject_person_reference_id": "c-nanshi-024-wang-family:line023:m0198",
+          "object_person_reference_id": "c-nanshi-024-wang-family:line023:m0197"
+        }
+      ],
+      "status": "source_attested",
+      "interpretation_note": "敬弘自稱臣女，明所許者為其女。未把許婚標為此卷已婚。",
+      "reviewer": "Codex（AI代理）",
+      "model": null,
+      "human_reviewed": false
+    },
+    {
       "id": "a-songshu093-wang-daughter-father",
       "subject_person_id": "7r6_k52_qji_ABDABAAE",
       "predicate": "father",
@@ -787,6 +817,58 @@
     }
   ],
   "name_components": [],
+  "source_reading_cases": [
+    {
+      "id": "n24-kongnu-23-183-received_sentence",
+      "kind": "received_sentence",
+      "person_id": "7r6_k52_qji_ABDABAAE",
+      "paragraph_id": "c-nanshi-024-wang-family:line023",
+      "start_codepoint": 183,
+      "end_codepoint": 209,
+      "source_quote": "上將爲廬陵王納其女，辭曰：「臣女幼，既許孔淳之息。」",
+      "reading": "宋文帝欲為廬陵王納女，敬弘以女已許孔淳之子為辭。宋書孔淳之傳另記敬弘以女適其子尚。",
+      "note": "宋文帝欲為廬陵王納女，敬弘以女已許孔淳之子為辭。宋書孔淳之傳另記敬弘以女適其子尚。",
+      "human_reviewed": false,
+      "chapter_id": "c-nanshi-024-wang-family",
+      "source_id": "s-nanshi-024-wang-family"
+    },
+    {
+      "id": "n24-kongnu-23-183-proposed_marriage",
+      "kind": "proposed_marriage",
+      "person_id": "7r6_k52_qji_ABDABAAE",
+      "paragraph_id": "c-nanshi-024-wang-family:line023",
+      "start_codepoint": 183,
+      "end_codepoint": 192,
+      "source_quote": "上將爲廬陵王納其女",
+      "reading": "《南史》敘帝室婚議、敬弘辭之；文帝上下文暫繫劉紹，若係追敘亦保留義真。",
+      "note": "《南史》敘帝室婚議、敬弘辭之；文帝上下文暫繫劉紹，若係追敘亦保留義真。",
+      "human_reviewed": false,
+      "royal_candidate_ids": [
+        "3uc_2s9_8oj",
+        "4ly_56b_ld0"
+      ],
+      "proposal_accepted": false,
+      "chapter_id": "c-nanshi-024-wang-family",
+      "source_id": "s-nanshi-024-wang-family"
+    },
+    {
+      "id": "n24-kongnu-23-201-betrothal",
+      "kind": "betrothal",
+      "person_id": "7r6_k52_qji_ABDABAAE",
+      "paragraph_id": "c-nanshi-024-wang-family:line023",
+      "start_codepoint": 201,
+      "end_codepoint": 207,
+      "source_quote": "既許孔淳之息",
+      "reading": "既許於孔淳之子，當段未名、未敘完婚日。宋書九十三同世系明書子尚。",
+      "note": "既許於孔淳之子，當段未名、未敘完婚日。宋書九十三同世系明書子尚。",
+      "human_reviewed": false,
+      "betrothed_person_id": "vhw_07a_wzm_AAA",
+      "father_id": "7r6_k52_qji_ABDABAA",
+      "marriage_date": null,
+      "chapter_id": "c-nanshi-024-wang-family",
+      "source_id": "s-nanshi-024-wang-family"
+    }
+  ],
   "person_references": [
     {
       "paragraph_id": "c-nanshi-024-wang-family:line023",
@@ -823,6 +905,34 @@
     "7r6_k52_qji_ABDABAAE"
   ],
   "preferred_relations": [
+    {
+      "id": "a-nan024-yu-kong-father",
+      "subject_person_id": "7r6_k52_qji_ABDABAAE",
+      "object_person_id": "7r6_k52_qji_ABDABAA",
+      "predicate": "father",
+      "qualifiers": {
+        "source_term": "臣女幼",
+        "nanshi024_reported_kin": "kong-father",
+        "lineage": "paternal"
+      },
+      "evidence": [
+        {
+          "work_id": "w-nanshi",
+          "book_id": "b-nanshi-024",
+          "chapter_id": "c-nanshi-024-wang-family",
+          "source_id": "s-nanshi-024-wang-family",
+          "paragraph_id": "c-nanshi-024-wang-family:line023",
+          "quote": "敬弘形狀短而起坐端方，桓玄謂之「彈棋發八勢」。所居舍亭山，林澗環周，備登臨之美，故時人謂之王東山。文帝嘗問爲政得失，對曰：「天下有道，庶人不議。」上高其言。左右嘗使二老婦女，戴五條辮，著青紋絝袼，飾以朱粉。女適尚書僕射何尚之弟述之。敬弘嘗往何氏看女，遇尚之不在，因寄齋中臥。俄頃尚之還，敬弘使二婦女守合，不聽尚之入，云：「正熱不堪相見，君可且去」。尚之於是移於他室。上將爲廬陵王納其女，辭曰：「臣女幼，既許孔淳之息。」子恢之被召爲祕書郎，敬弘爲求奉朝請，與恢之書曰：「彼祕書有限故有競，朝請無限故無競，吾欲使汝處不競之地。」文帝嘉之，並見許。",
+          "subject_person_reference_id": "c-nanshi-024-wang-family:line023:m0198",
+          "object_person_reference_id": "c-nanshi-024-wang-family:line023:m0197"
+        }
+      ],
+      "status": "source_attested",
+      "interpretation_note": "敬弘自稱臣女，明所許者為其女。未把許婚標為此卷已婚。",
+      "reviewer": "Codex（AI代理）",
+      "model": null,
+      "human_reviewed": false
+    },
     {
       "id": "a-songshu093-wang-daughter-father",
       "subject_person_id": "7r6_k52_qji_ABDABAAE",

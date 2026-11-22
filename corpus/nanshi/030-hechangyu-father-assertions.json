@@ -1,0 +1,70 @@
+{
+  "format_version": "0.2",
+  "record_type": "person_assertion_set",
+  "chapter_id": "c-nanshi-030-hechangyu-father",
+  "assertions": [
+    {
+      "id": "a-nanshi024-wangsiyuan-changyu-father",
+      "subject_person_id": "3ea_uzt_2n2_DAAA",
+      "object_person_id": "3ea_uzt_2n2_DAA",
+      "predicate": "father",
+      "qualifiers": {
+        "source_term": "父佟之",
+        "nanshi024_wangsiyuan_reading": "changyu-father",
+        "lineage": "paternal"
+      },
+      "evidence": [
+        {
+          "work_id": "w-nanshi",
+          "book_id": "b-nanshi-030",
+          "source_id": "s-nanshi-030-hechangyu-father-ws1752309",
+          "chapter_id": "c-nanshi-030-hechangyu-father",
+          "paragraph_id": "c-nanshi-030-hechangyu-father:p001",
+          "quote": "何昌宇字儼望，尚之弟子也。父佟之，位侍中。",
+          "subject_person_mention_id": "c-nanshi-030-hechangyu-father:p001:m0000",
+          "object_person_mention_id": "c-nanshi-030-hechangyu-father:p001:m0014"
+        }
+      ],
+      "status": "source_attested",
+      "interpretation_note": "本句列父子，承接詞限本見證。",
+      "reviewer": "Codex（AI 代理）",
+      "human_reviewed": false,
+      "model": null
+    },
+    {
+      "id": "a-nanshi024-wangsiyuan-shang-tong",
+      "subject_person_id": "d84_kqu_2g5",
+      "object_person_id": "3ea_uzt_2n2_DAA",
+      "predicate": "brother",
+      "qualifiers": {
+        "source_term": "尚之弟子也。父佟之",
+        "nanshi024_wangsiyuan_reading": "shang-tong",
+        "relative_birth_order": {
+          "older_person_id": "d84_kqu_2g5",
+          "younger_person_id": "3ea_uzt_2n2_DAA",
+          "operator": "lt",
+          "scope": "siblings",
+          "older_ordinal": null,
+          "younger_ordinal": null
+        }
+      },
+      "evidence": [
+        {
+          "work_id": "w-nanshi",
+          "book_id": "b-nanshi-030",
+          "source_id": "s-nanshi-030-hechangyu-father-ws1752309",
+          "chapter_id": "c-nanshi-030-hechangyu-father",
+          "paragraph_id": "c-nanshi-030-hechangyu-father:p001",
+          "quote": "何昌宇字儼望，尚之弟子也。父佟之，位侍中。",
+          "subject_person_mention_id": "c-nanshi-030-hechangyu-father:p001:m0007",
+          "object_person_mention_id": "c-nanshi-030-hechangyu-father:p001:m0014"
+        }
+      ],
+      "status": "source_attested",
+      "interpretation_note": "兄弟次序明載。",
+      "reviewer": "Codex（AI 代理）",
+      "human_reviewed": false,
+      "model": null
+    }
+  ]
+}

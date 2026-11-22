@@ -6,7 +6,8 @@
   "identity_note": "本批完整原段具名人物；父系按明文子詞、雙錨點與原生斷言，不補母親或未知生年。",
   "review": "ai_provisional",
   "names": [
-    "弘徽"
+    "弘徽",
+    "徽"
   ],
   "titles": [],
   "addresses": [],
@@ -44,6 +45,50 @@
       "book_id": "b-jinshu-007",
       "chapter_id": "c-jinshu-007-huan-annal-xianhe3",
       "source_id": "s-jinshu-007-huan-annal-xianhe3",
+      "work_title": "晉書"
+    },
+    {
+      "number": 76,
+      "category": "",
+      "title": "顧衆傳",
+      "paragraph_id": "c-jinshu-076-guzhong:line120",
+      "count": 2,
+      "raw_count": 2,
+      "duplicate_count": 0,
+      "counting_policy": "independent_fixed_witness_occurrences",
+      "quote": "峻遣將弘徽領甲卒五百，鼓行而前。衆與颺、悊要擊徽，戰于高莋，大破之，收其軍實。謨以冰當還任，故便去郡。衆遣颺率諸軍屯無錫。冰至，鎮禦亭，恐賊從海虞道入，衆自往備之。而賊率張健、馬流攻無錫，颺等大敗，庚冰亦失守，",
+      "paragraph_ids": [
+        "c-jinshu-076-guzhong:line120"
+      ],
+      "mention_ids": [
+        "c-jinshu-076-guzhong:line120:m0003",
+        "c-jinshu-076-guzhong:line120:m0023"
+      ],
+      "mention_paragraph_ids": {
+        "c-jinshu-076-guzhong:line120:m0003": "c-jinshu-076-guzhong:line120",
+        "c-jinshu-076-guzhong:line120:m0023": "c-jinshu-076-guzhong:line120"
+      },
+      "mention_id": "c-jinshu-076-guzhong:line120:m0003",
+      "occurrence_groups": [
+        {
+          "canonical_mention_id": "c-jinshu-076-guzhong:line120:m0003",
+          "mention_ids": [
+            "c-jinshu-076-guzhong:line120:m0003"
+          ],
+          "kind": "paragraph"
+        },
+        {
+          "canonical_mention_id": "c-jinshu-076-guzhong:line120:m0023",
+          "mention_ids": [
+            "c-jinshu-076-guzhong:line120:m0023"
+          ],
+          "kind": "paragraph"
+        }
+      ],
+      "work_id": "w-jinshu",
+      "book_id": "b-jinshu-076",
+      "chapter_id": "c-jinshu-076-guzhong",
+      "source_id": "s-jinshu-076-guzhong",
       "work_title": "晉書"
     },
     {
@@ -138,6 +183,33 @@
             "raw_quote_sha256": "37174f931aeaa8ad3499e35e1cf5073b5fe8c6a2837018b651972188fc39e725",
             "whole_source_sha256": "c727543967deb6e1a5a16d15ccc580b1fb763c2c9ff5fee91c3184c7e43d5c28"
           }
+        ]
+      }
+    },
+    {
+      "chapter_id": "c-jinshu-076-guzhong",
+      "work_id": "w-jinshu",
+      "book_id": "b-jinshu-076",
+      "source_id": "s-jinshu-076-guzhong",
+      "source": {
+        "title": "晉書卷七十六",
+        "provider": "Wikisource",
+        "url": "https://zh.wikisource.org/w/index.php?oldid=2180533",
+        "permalink": "https://zh.wikisource.org/w/index.php?oldid=2180533",
+        "revision_id": 2180533,
+        "accessed_on": "2026-11-21",
+        "edition": "固定數位修訂；武英殿本另錄。",
+        "extent": "顧衆題下第114至126行。",
+        "text_scope": "partial_chapter",
+        "review_status": "text_checked",
+        "image_verified": false,
+        "rights": "古籍原文，維基文庫數位轉錄。",
+        "license_url": "https://creativecommons.org/licenses/by-sa/4.0/",
+        "raw_path": "source-evidence/jin079-lang-zhong-xuan-dai/external/jin076-ws2180533.wikitext",
+        "raw_file_sha256": "872701db949f6f58ea6f183425617dfa82353177d2cc026037bfad953a60cd71",
+        "wikitext_sha256": "872701db949f6f58ea6f183425617dfa82353177d2cc026037bfad953a60cd71",
+        "collation_witnesses": [
+          "source-evidence/jin076-guzhong/reading.json"
         ]
       }
     },
