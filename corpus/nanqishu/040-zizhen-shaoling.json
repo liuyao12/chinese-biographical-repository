@@ -1,0 +1,233 @@
+{
+  "format_version": "0.2",
+  "record_type": "marked_chapter",
+  "id": "c-nanqishu-040-zizhen-shaoling",
+  "work_id": "w-nanqishu",
+  "book_id": "b-nanqishu-040",
+  "source_id": "s-nanqishu-040-zizhen-shaoling-ws2272748",
+  "title": "邵陵王子貞",
+  "source": {
+    "title": "南齊書卷40·邵陵王子貞",
+    "provider": "Wikisource",
+    "url": "https://zh.wikisource.org/w/index.php?oldid=2272748",
+    "permalink": "https://zh.wikisource.org/w/index.php?oldid=2272748",
+    "revision_id": 2272748,
+    "accessed_on": "2026-11-21",
+    "edition": "維基文庫固定數位轉錄",
+    "extent": "固定傳題全段及段內相關人物。",
+    "text_scope": "complete_biography_unit",
+    "image_verified": false,
+    "review_status": "text_checked",
+    "raw_path": "sources/nanqishu/nanqishu040-ws2272748.wikitext",
+    "raw_file_sha256": "5ee4445da47c28466a6c227f23c2aac3a6941a84d4e2131a050011f70e30e7ff",
+    "rights": "古代原典及維基文庫數位轉錄。",
+    "license_url": "https://zh.wikisource.org/wiki/Wikisource:著作權資訊",
+    "normalization": {
+      "character_conversion": {},
+      "extraction_note": "投影相應原句，保留字形；移除年號模板定界符。",
+      "verified_blank_line_gaps": []
+    },
+    "section_locator": "邵陵王子貞"
+  },
+  "annotation": {
+    "status": "reviewed",
+    "person_reference_occurrences": [
+      {
+        "id": "c-nanqishu-040-zizhen-shaoling:p001:r0009",
+        "surface": "世祖",
+        "start": 9,
+        "end": 11,
+        "person_id": "kix_r92_2ed",
+        "referent_role": "third_person",
+        "paragraph_id": "c-nanqishu-040-zizhen-shaoling:p001",
+        "quote": "邵陵王子貞字雲松，世祖第十四子也。永明十年，爲東中郎將、吳郡太守。鬱林卽位，進號征虜將軍，還爲後將軍。建武二年，見誅。年十五。",
+        "note": "依同段姓名、引者及所答者。"
+      },
+      {
+        "id": "c-nanqishu-040-zizhen-shaoling:p001:r0033",
+        "surface": "鬱林",
+        "start": 33,
+        "end": 35,
+        "person_id": "iop_ybd_afm",
+        "referent_role": "third_person",
+        "paragraph_id": "c-nanqishu-040-zizhen-shaoling:p001",
+        "quote": "邵陵王子貞字雲松，世祖第十四子也。永明十年，爲東中郎將、吳郡太守。鬱林卽位，進號征虜將軍，還爲後將軍。建武二年，見誅。年十五。",
+        "note": "依同段姓名、引者及所答者。"
+      }
+    ],
+    "narrative_readings": [
+      {
+        "event_type": "death_chronology",
+        "person_ids": [
+          "kix_r92_2ed_F"
+        ],
+        "source_anchor": {
+          "paragraph_id": "c-nanqishu-040-zizhen-shaoling:p001",
+          "surface": "建武二年，見誅",
+          "start": 51,
+          "end": 58
+        },
+        "evidence": [
+          {
+            "work_id": "w-nanqishu",
+            "book_id": "b-nanqishu-040",
+            "source_id": "s-nanqishu-040-zizhen-shaoling-ws2272748",
+            "chapter_id": "c-nanqishu-040-zizhen-shaoling",
+            "paragraph_id": "c-nanqishu-040-zizhen-shaoling:p001",
+            "quote": "建武二年，見誅"
+          }
+        ],
+        "interpretation_note": "本紀建武二年六月壬戌名列諶、子明、子罕、子貞。"
+      }
+    ],
+    "reviewer": "Codex（AI 代理）",
+    "human_reviewed": false,
+    "model": null,
+    "age_assertions": [
+      {
+        "id": "age-nanqi040-wudifive-zhen-age",
+        "person_id": "kix_r92_2ed_F",
+        "value": 15,
+        "source_number": "十五",
+        "source_term": "年十五",
+        "source_anchor": {
+          "paragraph_id": "c-nanqishu-040-zizhen-shaoling:p001",
+          "surface": "年十五",
+          "start": 59,
+          "end": 62
+        },
+        "unit": "source_age_years",
+        "counting": "unspecified_source_age",
+        "birth_year": null,
+        "date_expression": null,
+        "status": "source_attested",
+        "evidence": [
+          {
+            "work_id": "w-nanqishu",
+            "book_id": "b-nanqishu-040",
+            "source_id": "s-nanqishu-040-zizhen-shaoling-ws2272748",
+            "chapter_id": "c-nanqishu-040-zizhen-shaoling",
+            "paragraph_id": "c-nanqishu-040-zizhen-shaoling:p001",
+            "quote": "邵陵王子貞字雲松，世祖第十四子也。永明十年，爲東中郎將、吳郡太守。鬱林卽位，進號征虜將軍，還爲後將軍。建武二年，見誅。年十五。",
+            "person_mention_id": "c-nanqishu-040-zizhen-shaoling:p001:m0003"
+          }
+        ],
+        "age_context": {
+          "kind": "at_death",
+          "life_event_id": "le-nanqi040-wudifive-zhen-death"
+        },
+        "reviewer": "Codex（AI 代理）",
+        "human_reviewed": false,
+        "model": null
+      }
+    ]
+  },
+  "paragraphs": [
+    {
+      "id": "c-nanqishu-040-zizhen-shaoling:p001",
+      "text": "邵陵王子貞字雲松，世祖第十四子也。永明十年，爲東中郎將、吳郡太守。鬱林卽位，進號征虜將軍，還爲後將軍。建武二年，見誅。年十五。",
+      "mentions": [
+        {
+          "id": "c-nanqishu-040-zizhen-shaoling:p001:m0003",
+          "surface": "子貞",
+          "start": 3,
+          "end": 5,
+          "person_id": "kix_r92_2ed_F",
+          "kind": "person",
+          "status": "contextual_provisional",
+          "interpretation_note": "按本傳及官府原句。"
+        },
+        {
+          "id": "c-nanqishu-040-zizhen-shaoling:p001:m0006",
+          "surface": "雲松",
+          "start": 6,
+          "end": 8,
+          "person_id": "kix_r92_2ed_F",
+          "kind": "person",
+          "status": "contextual_provisional",
+          "interpretation_note": "按本傳及官府原句。"
+        }
+      ],
+      "text_layer": "received_chapter",
+      "annotation_status": "reviewed",
+      "source_position": {
+        "revision_id": 2272748,
+        "source_layer": "received_biography",
+        "first_line": 153,
+        "last_line": 153,
+        "line_start": 2,
+        "line_end": 79,
+        "raw_start": 11253,
+        "raw_end": 11330,
+        "raw_character_offsets": [
+          11253,
+          11254,
+          11255,
+          11256,
+          11257,
+          11258,
+          11259,
+          11260,
+          11261,
+          11262,
+          11263,
+          11264,
+          11265,
+          11266,
+          11267,
+          11268,
+          11269,
+          11275,
+          11276,
+          11277,
+          11278,
+          11281,
+          11282,
+          11283,
+          11284,
+          11285,
+          11286,
+          11287,
+          11288,
+          11289,
+          11290,
+          11291,
+          11292,
+          11293,
+          11294,
+          11295,
+          11296,
+          11297,
+          11298,
+          11299,
+          11300,
+          11301,
+          11302,
+          11303,
+          11304,
+          11305,
+          11306,
+          11307,
+          11308,
+          11309,
+          11310,
+          11316,
+          11317,
+          11318,
+          11319,
+          11322,
+          11323,
+          11324,
+          11325,
+          11326,
+          11327,
+          11328,
+          11329
+        ],
+        "projection_sha256": "bd22fcffe759d858a6bcf5546b103057cd0546e276dbf6ad5ec863ae3f11510c",
+        "editorial_excerpt_boundary": true
+      }
+    }
+  ],
+  "text_sha256": "7835d7e9b18efc2558397e6fd6c00df4977e83676f469989468e90221dc76fd8"
+}

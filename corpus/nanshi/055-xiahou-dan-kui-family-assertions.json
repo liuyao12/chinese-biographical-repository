@@ -1,0 +1,69 @@
+{
+  "format_version": "0.2",
+  "record_type": "person_assertion_set",
+  "chapter_id": "c-nanshi-055-xiahou-dan-kui-family",
+  "assertions": [
+    {
+      "id": "a-liang028-dan-father",
+      "subject_person_id": "zz1_0tr_xni_A",
+      "object_person_id": "zz1_0tr_xni",
+      "predicate": "father",
+      "qualifiers": {
+        "source_term": "父詳",
+        "lineage": "paternal"
+      },
+      "evidence": [
+        {
+          "work_id": "w-nanshi",
+          "book_id": "b-nanshi-055",
+          "chapter_id": "c-nanshi-055-xiahou-dan-kui-family",
+          "source_id": "s-nanshi-055-xiahou-dan-kui-family-ws1748893",
+          "paragraph_id": "c-nanshi-055-xiahou-dan-kui-family:p001",
+          "quote": "亶字世龍，齊永元末，父詳爲西中郎南康王司馬，",
+          "subject_person_mention_id": "c-nanshi-055-xiahou-dan-kui-family:p001:m0000",
+          "object_person_mention_id": "c-nanshi-055-xiahou-dan-kui-family:p001:m0011"
+        }
+      ],
+      "status": "source_attested",
+      "interpretation_note": "南史明記亶父詳；梁書以亶為詳長子。",
+      "reviewer": "Codex（AI代理）",
+      "model": null,
+      "human_reviewed": false
+    },
+    {
+      "id": "a-liang028-kui-brother",
+      "subject_person_id": "zz1_0tr_xni_B",
+      "object_person_id": "zz1_0tr_xni_A",
+      "predicate": "brother",
+      "qualifiers": {
+        "source_term": "亶弟夔",
+        "lineage": "paternal",
+        "relative_birth_order": {
+          "older_person_id": "zz1_0tr_xni_A",
+          "younger_person_id": "zz1_0tr_xni_B",
+          "operator": "lt",
+          "scope": "siblings",
+          "older_ordinal": null,
+          "younger_ordinal": null
+        }
+      },
+      "evidence": [
+        {
+          "work_id": "w-nanshi",
+          "book_id": "b-nanshi-055",
+          "chapter_id": "c-nanshi-055-xiahou-dan-kui-family",
+          "source_id": "s-nanshi-055-xiahou-dan-kui-family-ws1748893",
+          "paragraph_id": "c-nanshi-055-xiahou-dan-kui-family:p002",
+          "quote": "亶弟夔字季龍，位大匠卿，累遷司州刺史，領安陸太守。",
+          "subject_person_mention_id": "c-nanshi-055-xiahou-dan-kui-family:p002:m0002",
+          "object_person_mention_id": "c-nanshi-055-xiahou-dan-kui-family:p002:m0000"
+        }
+      ],
+      "status": "source_attested",
+      "interpretation_note": "兩人字分別為世龍和季龍。",
+      "reviewer": "Codex（AI代理）",
+      "model": null,
+      "human_reviewed": false
+    }
+  ]
+}

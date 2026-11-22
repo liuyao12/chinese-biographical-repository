@@ -202,6 +202,54 @@
       "reviewer": "Codex（AI 代理）",
       "model": null,
       "period": "未定 → 未定"
+    },
+    {
+      "id": "t-wu061-t-wu061-panjun24",
+      "person_id": "572_278_cba_D",
+      "kind": "noble_rank",
+      "title": "建昌侯",
+      "mode": "attestation",
+      "status": "source_attested",
+      "effective_period": {
+        "start": {
+          "status": "unknown",
+          "date_expression": null,
+          "evidence": []
+        },
+        "end": {
+          "status": "unknown",
+          "date_expression": null,
+          "evidence": []
+        }
+      },
+      "interpretation_note": "本句所載職官，任免時間未詳。",
+      "evidence": [
+        {
+          "work_id": "w-sanguozhi",
+          "book_id": "b-sanguozhi-061",
+          "chapter_id": "c-sanguozhi-061-panjun",
+          "source_id": "s-sanguozhi-061-panjun",
+          "paragraph_id": "c-sanguozhi-061-panjun:line018",
+          "quote": "　　赤烏二年，濬卒，子翥嗣。濬女配建昌侯孫慮。",
+          "person_mention_id": "c-sanguozhi-061-panjun:line018:m0020"
+        }
+      ],
+      "attestations": [
+        {
+          "id": "t-wu061-t-wu061-panjun24:a",
+          "paragraph_id": "c-sanguozhi-061-panjun:line018",
+          "person_mention_id": "c-sanguozhi-061-panjun:line018:m0020",
+          "start": 17,
+          "end": 20,
+          "surface": "建昌侯",
+          "usage": "narrative",
+          "date_expression": null
+        }
+      ],
+      "human_reviewed": false,
+      "reviewer": "Codex（AI 代理）",
+      "model": null,
+      "period": "未定 → 未定"
     }
   ],
   "addresses": [],
@@ -559,6 +607,41 @@
       "chapter_id": "c-sanguozhi-059-sundeng-sunlv-wu052",
       "source_id": "s-sanguozhi-059-sundeng-sunlv-wu052",
       "work_title": "三國志"
+    },
+    {
+      "number": 61,
+      "category": "",
+      "title": "潘濬傳",
+      "paragraph_id": "c-sanguozhi-061-panjun:line018",
+      "count": 1,
+      "raw_count": 1,
+      "duplicate_count": 0,
+      "counting_policy": "independent_fixed_witness_occurrences",
+      "quote": "　　赤烏二年，濬卒，子翥嗣。濬女配建昌侯孫慮。",
+      "paragraph_ids": [
+        "c-sanguozhi-061-panjun:line018"
+      ],
+      "mention_ids": [
+        "c-sanguozhi-061-panjun:line018:m0020"
+      ],
+      "mention_paragraph_ids": {
+        "c-sanguozhi-061-panjun:line018:m0020": "c-sanguozhi-061-panjun:line018"
+      },
+      "mention_id": "c-sanguozhi-061-panjun:line018:m0020",
+      "occurrence_groups": [
+        {
+          "canonical_mention_id": "c-sanguozhi-061-panjun:line018:m0020",
+          "mention_ids": [
+            "c-sanguozhi-061-panjun:line018:m0020"
+          ],
+          "kind": "paragraph"
+        }
+      ],
+      "work_id": "w-sanguozhi",
+      "book_id": "b-sanguozhi-061",
+      "chapter_id": "c-sanguozhi-061-panjun",
+      "source_id": "s-sanguozhi-061-panjun",
+      "work_title": "三國志"
     }
   ],
   "table_occurrences": [],
@@ -749,6 +832,33 @@
         "raw_file_sha256": "2ef34ba24c5a2d61c1f4ac236905bd136212dacb0cf4efe30d4dff4ec0918bad",
         "wikitext_sha256": "2ef34ba24c5a2d61c1f4ac236905bd136212dacb0cf4efe30d4dff4ec0918bad"
       }
+    },
+    {
+      "chapter_id": "c-sanguozhi-061-panjun",
+      "work_id": "w-sanguozhi",
+      "book_id": "b-sanguozhi-061",
+      "source_id": "s-sanguozhi-061-panjun",
+      "source": {
+        "title": "三國志卷六十一·吳書十六",
+        "provider": "Wikisource",
+        "url": "https://zh.wikisource.org/w/index.php?oldid=2085162",
+        "permalink": "https://zh.wikisource.org/w/index.php?oldid=2085162",
+        "revision_id": 2085162,
+        "accessed_on": "2026-11-21",
+        "edition": "維基文庫固定修訂，裴注與正文分層。",
+        "extent": "第12至18行。",
+        "text_scope": "partial_chapter",
+        "review_status": "text_checked",
+        "image_verified": false,
+        "rights": "古籍原文，維基文庫轉錄。",
+        "license_url": "https://creativecommons.org/licenses/by-sa/4.0/",
+        "raw_path": "source-evidence/sanguozhi061-pan-lu/sanguozhi061-ws2085162.wikitext",
+        "raw_file_sha256": "74eec1dcbe3028be24f1c3dab8c1d732070b04883c2d9f7b9c39e67345ffcc86",
+        "wikitext_sha256": "74eec1dcbe3028be24f1c3dab8c1d732070b04883c2d9f7b9c39e67345ffcc86",
+        "collation_witnesses": [
+          "source-evidence/sanguozhi061-panjun/reading.json"
+        ]
+      }
     }
   ],
   "relations": [
@@ -855,12 +965,39 @@
       "reviewer": "Codex（AI 代理）",
       "human_reviewed": false,
       "model": null
+    },
+    {
+      "id": "a-wu061-panjun-9",
+      "subject_person_id": "pac_tt7_hs3_B",
+      "object_person_id": "572_278_cba_D",
+      "predicate": "spouse",
+      "qualifiers": {
+        "source_term": "濬女配建昌侯孫慮"
+      },
+      "evidence": [
+        {
+          "work_id": "w-sanguozhi",
+          "book_id": "b-sanguozhi-061",
+          "chapter_id": "c-sanguozhi-061-panjun",
+          "source_id": "s-sanguozhi-061-panjun",
+          "paragraph_id": "c-sanguozhi-061-panjun:line018",
+          "quote": "　　赤烏二年，濬卒，子翥嗣。濬女配建昌侯孫慮。",
+          "subject_person_mention_id": "c-sanguozhi-061-panjun:line018:m0015",
+          "object_person_mention_id": "c-sanguozhi-061-panjun:line018:m0020"
+        }
+      ],
+      "interpretation_note": "以此來源所述兩端為據。",
+      "status": "source_attested",
+      "reviewer": "Codex（AI 代理）",
+      "human_reviewed": false,
+      "model": null
     }
   ],
   "related_people": {
     "572_278_cba_A": "孫和〔字子孝〕",
     "572_278_cba_C": "孫登〔吳太子，字子高〕",
-    "572_278_cba_D": "孫慮〔建昌侯，字子智〕"
+    "572_278_cba_D": "孫慮〔建昌侯，字子智〕",
+    "pac_tt7_hs3_B": "潘氏〔潘濬女、建昌侯孫慮妻〕"
   },
   "dates": [],
   "name_components": [],
@@ -1043,6 +1180,32 @@
           "quote": "孫慮字子智，登弟也。少敏惠有才藝，權器愛之。",
           "subject_person_mention_id": "c-sanguozhi-059-sundeng-sunlv-wu052:lv:m0006",
           "object_person_mention_id": "c-sanguozhi-059-sundeng-sunlv-wu052:lv:m0000"
+        }
+      ],
+      "interpretation_note": "以此來源所述兩端為據。",
+      "status": "source_attested",
+      "reviewer": "Codex（AI 代理）",
+      "human_reviewed": false,
+      "model": null
+    },
+    {
+      "id": "a-wu061-panjun-9",
+      "subject_person_id": "pac_tt7_hs3_B",
+      "object_person_id": "572_278_cba_D",
+      "predicate": "spouse",
+      "qualifiers": {
+        "source_term": "濬女配建昌侯孫慮"
+      },
+      "evidence": [
+        {
+          "work_id": "w-sanguozhi",
+          "book_id": "b-sanguozhi-061",
+          "chapter_id": "c-sanguozhi-061-panjun",
+          "source_id": "s-sanguozhi-061-panjun",
+          "paragraph_id": "c-sanguozhi-061-panjun:line018",
+          "quote": "　　赤烏二年，濬卒，子翥嗣。濬女配建昌侯孫慮。",
+          "subject_person_mention_id": "c-sanguozhi-061-panjun:line018:m0015",
+          "object_person_mention_id": "c-sanguozhi-061-panjun:line018:m0020"
         }
       ],
       "interpretation_note": "以此來源所述兩端為據。",

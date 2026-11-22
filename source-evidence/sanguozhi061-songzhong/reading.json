@@ -1,0 +1,133 @@
+{
+  "witnesses": {
+    "w57": {
+      "revision_id": 2638131,
+      "url": "https://zh.wikisource.org/w/index.php?oldid=2638131",
+      "raw_path": "source-evidence/sanguozhi061-songzhong/external/sanguozhi057-ws2638131.wikitext",
+      "raw_sha256": "6848b2dab019436efffdbf207f571e343e9a9624a7333c6767a3930163fe2f99"
+    },
+    "w61": {
+      "revision_id": 2085162,
+      "url": "https://zh.wikisource.org/w/index.php?oldid=2085162",
+      "raw_path": "source-evidence/sanguozhi061-pan-lu/sanguozhi061-ws2085162.wikitext",
+      "raw_sha256": "74eec1dcbe3028be24f1c3dab8c1d732070b04883c2d9f7b9c39e67345ffcc86"
+    },
+    "w38": {
+      "revision_id": 8737777,
+      "url": "https://zh.wikisource.org/w/index.php?oldid=8737777",
+      "raw_path": "source-evidence/sanguozhi061-songzhong/external/sanguozhi038-ws8737777.wikitext",
+      "raw_sha256": "0df4ee1d2e68948fdd2a7014690d1f6494ff6e1fabffe71710efa4c7e92cd2a9"
+    },
+    "shiwen": {
+      "revision_id": 766854,
+      "url": "https://zh.wikisource.org/w/index.php?oldid=766854",
+      "raw_path": "source-evidence/sanguozhi061-songzhong/external/jingdianshiwen001-ws766854.wikitext",
+      "raw_sha256": "4e82c48146c3102acec552f144cd1d93ae497ca714ef1f96041c604d89805d1a"
+    },
+    "shiji": {
+      "revision_id": 2609359,
+      "url": "https://zh.wikisource.org/w/index.php?oldid=2609359",
+      "raw_path": "source-evidence/sanguozhi061-songzhong/external/shiji127-ws2609359.wikitext",
+      "raw_sha256": "53cd4a975c990cb350c1a3743053a1dc83d10c0ab67b4914dc5f37bf83f43d5c"
+    }
+  },
+  "source_clauses": [
+    {
+      "witness": "w57",
+      "quote": "南阳宋忠，虽各立注，忠小差玄",
+      "raw_start": 3910,
+      "raw_end": 3924,
+      "raw_line": 27
+    },
+    {
+      "witness": "w57",
+      "quote": "又以宋氏解《[[太玄經|玄]]》",
+      "raw_start": 4427,
+      "raw_end": 4443,
+      "raw_line": 27
+    },
+    {
+      "witness": "w61",
+      "quote": "弱冠從宋仲子受學",
+      "raw_start": 203,
+      "raw_end": 211,
+      "raw_line": 12
+    },
+    {
+      "witness": "w38",
+      "quote": "南陽宋仲子于荊州與蜀郡太守王商書曰",
+      "raw_start": 2112,
+      "raw_end": 2129,
+      "raw_line": 24
+    },
+    {
+      "witness": "w38",
+      "quote": "荊州牧劉表及儒者宋忠咸聞其名",
+      "raw_start": 2377,
+      "raw_end": 2391,
+      "raw_line": 24
+    },
+    {
+      "witness": "shiwen",
+      "quote": "宋衷注九卷",
+      "raw_start": 5907,
+      "raw_end": 5912,
+      "raw_line": 37
+    },
+    {
+      "witness": "shiwen",
+      "quote": "字仲子南陽章陵人後漢荆州五業從事",
+      "raw_start": 5923,
+      "raw_end": 5939,
+      "raw_line": 37
+    },
+    {
+      "witness": "shiji",
+      "quote": "宋忠爲中大夫，賈誼爲博士",
+      "raw_start": 289,
+      "raw_end": 301,
+      "raw_line": 19
+    }
+  ],
+  "corrections": [
+    {
+      "mention_id": "c-sanguozhi-057-yufan:line027-pei01-01:m0520",
+      "surface": "宋忠",
+      "paragraph_id": "c-sanguozhi-057-yufan:line027-pei01-01",
+      "old_person_id": "a5t_kff_al9",
+      "person_id": "jjj_x9l_48c",
+      "start": 520,
+      "end": 522,
+      "raw_codepoints": [
+        3912,
+        3913
+      ]
+    },
+    {
+      "mention_id": "c-sanguozhi-057-yufan:line027-pei01-01:m1025",
+      "surface": "宋氏",
+      "paragraph_id": "c-sanguozhi-057-yufan:line027-pei01-01",
+      "old_person_id": "a5t_kff_al9",
+      "person_id": "jjj_x9l_48c",
+      "start": 1025,
+      "end": 1027,
+      "raw_codepoints": [
+        4429,
+        4430
+      ]
+    }
+  ],
+  "distinction": "史記宋忠從賈誼訪司馬季主。吳志卷57南陽宋忠在虞翻注《玄》議論中；卷38宋仲子、儒者宋忠同與王商致書，卷61作宋仲子，經典釋文明字仲子及荊州。",
+  "new_person": {
+    "id": "jjj_x9l_48c",
+    "label": "宋衷〔字仲子、南陽章陵經師〕",
+    "status": "active",
+    "historicity": "historical_tradition",
+    "review": "ai_provisional",
+    "aliases": [],
+    "evidence": [],
+    "identity_note": "依本篇具名、稱謂及其所在原句辨認；引書原字存於各自來源。"
+  },
+  "required_wu57_source": "source-evidence/sanguozhi057-yufan/reading.json",
+  "source_revision": 2638131
+}

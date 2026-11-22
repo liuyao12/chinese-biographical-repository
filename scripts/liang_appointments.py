@@ -7,6 +7,9 @@ except ImportError:
 
 QIA = 'c-liangshu-027-daoqia-complete'
 QIA_REAPPOINTMENT = '五年，復爲太子中庶子，領步兵校尉，未拜，仍遷給事黃門侍郎'
+PEI_SUI_SHIAN = (
+    '由是左遷爲始安太守。邃志欲立功邊陲，不願閑遠，乃致書於呂僧珍曰：「昔阮咸、顏延有『二始』之歎。'
+    '吾才不逮古人，今爲三始，非其願也，將如之何！」未及至郡')
 ZHIPING = '4kt_0ar_aqo_AAB'
 ZHIPING_CHEN_OFFICES = '陳文帝初，除光祿大夫、慈訓宮衛尉，並不就'
 WITNESSES = {
@@ -15,6 +18,10 @@ WITNESSES = {
     'b-nanshi-058': (513461, '6ea7470791ba480cec67928464d333afeca6f2bc112d80e79ab526bb6da31983'),
 }
 READINGS = {
+    ('c-liangshu-028-peisui-complete', '始安太守'): (
+        4, 'vtp_lo9_0af', '邃與鄉人共入魏武廟', '邃', PEI_SUI_SHIAN, '左遷爲', '未及至郡'),
+    ('c-liangshu-028-peisui-complete', '北徐州刺史'): (
+        5, 'vtp_lo9_0af', '以邃爲假節', '邃', '除持節、督北徐州諸軍事、信武將軍、北徐州刺史。未之職', '除', '未之職'),
     ('c-liangshu-027-yinjun-complete', '五兵尚書'): (
         2, 'ceq_pnr_q0e_A', '鈞體羸多疾', '鈞',
         '服闋，遷五兵尚書，猶以頓瘵經時，不堪拜受，乃更授散騎常侍', '遷', '不堪拜受'),

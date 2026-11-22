@@ -1,0 +1,132 @@
+{
+  "record_type": "fixed_source_complete_item_review",
+  "reviewer": "Codex（AI代理）",
+  "model": null,
+  "human_reviewed": false,
+  "external_witnesses": [],
+  "print_readings": [
+    {
+      "url": "https://upload.wikimedia.org/wikipedia/commons/4/49/NLC892-411999017142-12209_%E4%BA%8C%E5%8D%81%E5%9B%9B%E5%8F%B2_%E7%AC%AC145%E5%86%8A.pdf#page=5",
+      "catalog_record": "https://commons.wikimedia.org/wiki/File:NLC892-411999017142-12209_%E4%BA%8C%E5%8D%81%E5%9B%9B%E5%8F%B2_%E7%AC%AC145%E5%86%8A.pdf",
+      "pdf_sha1": "888def8c99848449305a0142411b32f9b0ca79e8",
+      "pdf_sha256": "5dafc33ab9565bb6f8d44691b15a706f3d4b672c50b837630c79797adbc0b342",
+      "image_sha256": "aeee0024601d09573a29a05fafb703101ae088a4660322a40bac3ac86449500c",
+      "edition": "清乾隆武英殿本《宋書》，國圖第145冊。",
+      "page": 5,
+      "half": "R",
+      "folio": "三下",
+      "columns_from_right": "9–10",
+      "source_quote": "景世弟寶世詣廷尉歸罪並徙遠州",
+      "reading": "乾秀奪國後復接世祖初徙字。"
+    },
+    {
+      "url": "https://upload.wikimedia.org/wikipedia/commons/4/49/NLC892-411999017142-12209_%E4%BA%8C%E5%8D%81%E5%9B%9B%E5%8F%B2_%E7%AC%AC145%E5%86%8A.pdf#page=5",
+      "catalog_record": "https://commons.wikimedia.org/wiki/File:NLC892-411999017142-12209_%E4%BA%8C%E5%8D%81%E5%9B%9B%E5%8F%B2_%E7%AC%AC145%E5%86%8A.pdf",
+      "pdf_sha1": "888def8c99848449305a0142411b32f9b0ca79e8",
+      "pdf_sha256": "5dafc33ab9565bb6f8d44691b15a706f3d4b672c50b837630c79797adbc0b342",
+      "image_sha256": "42027aa5f384d38d6a3ec2e419bfaf2a74e5d1f717815f89ba171b886eca40f0",
+      "edition": "清乾隆武英殿本《宋書》，國圖第145冊。",
+      "page": 5,
+      "half": "L",
+      "folio": "四上",
+      "columns_from_right": "1",
+      "source_quote": "者並得還",
+      "reading": "跨葉承徙者。"
+    }
+  ],
+  "boundaries": [
+    {
+      "book_id": "b-songshu-050",
+      "title": "胡景世、胡寶世",
+      "unit_kind": "embedded_account",
+      "chapter_id": "c-songshu-050-hujingbao",
+      "entry_checked": true,
+      "full_text": true,
+      "first_pass": true,
+      "item_reviewed": true,
+      "source_layout": "wikisource_mixed_indented_prose",
+      "first_line": 26,
+      "last_line": 26,
+      "start_codepoint": 153,
+      "end_codepoint": 184,
+      "opening": "誕世兄車騎參軍新興太守景",
+      "closing": "，詣廷尉歸罪，並徙遠州。",
+      "continuation_spans": [
+        {
+          "first_line": 26,
+          "last_line": 26,
+          "start_codepoint": 189,
+          "end_codepoint": 199,
+          "opening": "世祖初，徙者並得還。",
+          "closing": "世祖初，徙者並得還。"
+        }
+      ],
+      "parent_heading": "胡藩",
+      "scope_note": "歸罪與同徙者具名二人，世祖初得還承徙者。",
+      "chapter_path": "corpus/songshu/050-hujingbao.json",
+      "paragraph_ids": [
+        "c-songshu-050-hujingbao:p001",
+        "c-songshu-050-hujingbao:p002"
+      ],
+      "item_review_path": "source-evidence/song050-complete/hujingbao-reading.json"
+    }
+  ],
+  "chronology": [],
+  "readings": [
+    {
+      "id": "c-songshu-050-hujingbao:received_sentence1-0",
+      "kind": "received_sentence",
+      "person_id": "otw_1ui_wba_E",
+      "source_quote": "誕世兄車騎參軍新興太守景世、景世弟寶世，詣廷尉歸罪，並徙遠州。",
+      "reading": "誕世兄景世與景世弟寶世，同詣廷尉歸罪，俱徙遠州。",
+      "note": "誕世兄景世與景世弟寶世，同詣廷尉歸罪，俱徙遠州。",
+      "paragraph_id": "c-songshu-050-hujingbao:p001",
+      "start_codepoint": 0,
+      "end_codepoint": 31,
+      "human_reviewed": false
+    },
+    {
+      "id": "c-songshu-050-hujingbao:received_sentence2-0",
+      "kind": "received_sentence",
+      "person_id": "otw_1ui_wba_E",
+      "source_quote": "世祖初，徙者並得還。",
+      "reading": "世祖初，前述被徙者皆得還。",
+      "note": "世祖初，前述被徙者皆得還。",
+      "paragraph_id": "c-songshu-050-hujingbao:p002",
+      "start_codepoint": 0,
+      "end_codepoint": 10,
+      "human_reviewed": false
+    },
+    {
+      "id": "c-songshu-050-hujingbao:kinship1-14",
+      "kind": "kinship",
+      "person_id": "otw_1ui_wba_E",
+      "source_quote": "景世弟寶世",
+      "reading": "景世為誕世兄，寶世為景世弟；寶世與誕世彼此長幼無明文。",
+      "note": "景世為誕世兄，寶世為景世弟；寶世與誕世彼此長幼無明文。",
+      "paragraph_id": "c-songshu-050-hujingbao:p001",
+      "start_codepoint": 14,
+      "end_codepoint": 19,
+      "human_reviewed": false,
+      "older": "otw_1ui_wba_E",
+      "younger": "otw_1ui_wba_F",
+      "relative_age_to_danshi": null
+    },
+    {
+      "id": "c-songshu-050-hujingbao:regnal_interval2-0",
+      "kind": "regnal_interval",
+      "person_id": "otw_1ui_wba_E",
+      "source_quote": "世祖初",
+      "reading": "宋孝武帝即位之初，未寫年號、年月日。",
+      "note": "宋孝武帝即位之初，未寫年號、年月日。",
+      "paragraph_id": "c-songshu-050-hujingbao:p002",
+      "start_codepoint": 0,
+      "end_codepoint": 3,
+      "human_reviewed": false,
+      "emperor": "hx8_st4_jdd",
+      "accession_year": 453,
+      "precise_year": null
+    }
+  ],
+  "identity_limits": []
+}
