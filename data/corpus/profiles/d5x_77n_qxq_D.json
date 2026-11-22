@@ -1,0 +1,221 @@
+{
+  "schema_version": 1,
+  "id": "d5x_77n_qxq_D",
+  "canonical_person_id": "d5x_77n_qxq_D",
+  "label": "陸完（陸閑子，陸雲公父）",
+  "identity_note": "陸完（陸閑子，陸雲公父），見本組原文及身份互校。",
+  "review": "ai_provisional",
+  "names": [
+    "完"
+  ],
+  "titles": [],
+  "addresses": [],
+  "occurrences": [
+    {
+      "number": 48,
+      "category": "",
+      "title": "南史卷四十八·陸閑四子與雲公",
+      "paragraph_id": "c-nanshi-048-luxiang-four-brothers:p001",
+      "count": 3,
+      "raw_count": 3,
+      "duplicate_count": 0,
+      "counting_policy": "independent_fixed_witness_occurrences",
+      "quote": "閑四子：厥、絳、完、襄也。絳字魏卿，時隨閑，抱頸求代死，不獲，遂以身蔽刀刃，行刑者俱害之。",
+      "paragraph_ids": [
+        "c-nanshi-048-luxiang-four-brothers:p001",
+        "c-nanshi-048-luxiang-four-brothers:p003"
+      ],
+      "mention_ids": [
+        "c-nanshi-048-luxiang-four-brothers:p001:m0008",
+        "c-nanshi-048-luxiang-four-brothers:p003:m0008",
+        "c-nanshi-048-luxiang-four-brothers:p003:m0012"
+      ],
+      "mention_paragraph_ids": {
+        "c-nanshi-048-luxiang-four-brothers:p001:m0008": "c-nanshi-048-luxiang-four-brothers:p001",
+        "c-nanshi-048-luxiang-four-brothers:p003:m0008": "c-nanshi-048-luxiang-four-brothers:p003",
+        "c-nanshi-048-luxiang-four-brothers:p003:m0012": "c-nanshi-048-luxiang-four-brothers:p003"
+      },
+      "mention_id": "c-nanshi-048-luxiang-four-brothers:p001:m0008",
+      "occurrence_groups": [
+        {
+          "canonical_mention_id": "c-nanshi-048-luxiang-four-brothers:p001:m0008",
+          "mention_ids": [
+            "c-nanshi-048-luxiang-four-brothers:p001:m0008"
+          ],
+          "kind": "paragraph"
+        },
+        {
+          "canonical_mention_id": "c-nanshi-048-luxiang-four-brothers:p003:m0008",
+          "mention_ids": [
+            "c-nanshi-048-luxiang-four-brothers:p003:m0008"
+          ],
+          "kind": "paragraph"
+        },
+        {
+          "canonical_mention_id": "c-nanshi-048-luxiang-four-brothers:p003:m0012",
+          "mention_ids": [
+            "c-nanshi-048-luxiang-four-brothers:p003:m0012"
+          ],
+          "kind": "paragraph"
+        }
+      ],
+      "work_id": "w-nanshi",
+      "book_id": "b-nanshi-048",
+      "chapter_id": "c-nanshi-048-luxiang-four-brothers",
+      "source_id": "s-nanshi-048-luxiang-four-brothers-ws2493997",
+      "work_title": "南史"
+    }
+  ],
+  "table_occurrences": [],
+  "sources": [
+    {
+      "chapter_id": "c-nanshi-048-luxiang-four-brothers",
+      "work_id": "w-nanshi",
+      "book_id": "b-nanshi-048",
+      "source_id": "s-nanshi-048-luxiang-four-brothers-ws2493997",
+      "source": {
+        "title": "南史卷四十八·陸閑四子與雲公",
+        "provider": "Wikisource",
+        "permalink": "https://zh.wikisource.org/w/index.php?oldid=2493997",
+        "url": "https://zh.wikisource.org/w/index.php?oldid=2493997",
+        "revision_id": 2493997,
+        "edition": "維基文庫固定修訂",
+        "accessed_on": "2026-11-21",
+        "review_status": "text_checked",
+        "image_verified": false,
+        "rights": "古代原文；數位轉錄依維基文庫授權。",
+        "license_url": "https://creativecommons.org/licenses/by-sa/4.0/",
+        "extent": "南史卷四十八·陸閑四子與雲公",
+        "text_scope": "partial_chapter",
+        "raw_path": "source-evidence/nanqi023-wangjian/nanshi048-ws2493997.wikitext",
+        "raw_file_sha256": "01210fed682c1667777f914eefd5c672d3b8d4a7221d328fda142dac11c05369"
+      }
+    }
+  ],
+  "relations": [
+    {
+      "id": "a-liang027-xian-son-完",
+      "subject_person_id": "d5x_77n_qxq_D",
+      "object_person_id": "d5x_77n_qxq",
+      "predicate": "father",
+      "qualifiers": {
+        "source_term": "閑四子：厥、絳、完、襄也",
+        "lineage": "paternal"
+      },
+      "evidence": [
+        {
+          "work_id": "w-nanshi",
+          "book_id": "b-nanshi-048",
+          "chapter_id": "c-nanshi-048-luxiang-four-brothers",
+          "source_id": "s-nanshi-048-luxiang-four-brothers-ws2493997",
+          "paragraph_id": "c-nanshi-048-luxiang-four-brothers:p001",
+          "quote": "閑四子：厥、絳、完、襄也。絳字魏卿，時隨閑，抱頸求代死，不獲，遂以身蔽刀刃，行刑者俱害之。",
+          "subject_person_mention_id": "c-nanshi-048-luxiang-four-brothers:p001:m0008",
+          "object_person_mention_id": "c-nanshi-048-luxiang-four-brothers:p001:m0000"
+        }
+      ],
+      "status": "source_attested",
+      "interpretation_note": "南史明列四子，以梁傳父兄互校。",
+      "reviewer": "Codex（AI代理）",
+      "model": null,
+      "human_reviewed": false
+    },
+    {
+      "id": "a-liang027-yungong-father",
+      "subject_person_id": "d5x_77n_qxq_DA",
+      "object_person_id": "d5x_77n_qxq_D",
+      "predicate": "father",
+      "qualifiers": {
+        "source_term": "襄兄完子也",
+        "lineage": "paternal"
+      },
+      "evidence": [
+        {
+          "work_id": "w-nanshi",
+          "book_id": "b-nanshi-048",
+          "chapter_id": "c-nanshi-048-luxiang-four-brothers",
+          "source_id": "s-nanshi-048-luxiang-four-brothers-ws2493997",
+          "paragraph_id": "c-nanshi-048-luxiang-four-brothers:p003",
+          "quote": "雲公字子龍，襄兄完子也。完位甯遠長史、琅邪彭城二郡丞。",
+          "subject_person_mention_id": "c-nanshi-048-luxiang-four-brothers:p003:m0000",
+          "object_person_mention_id": "c-nanshi-048-luxiang-four-brothers:p003:m0008"
+        }
+      ],
+      "status": "source_attested",
+      "interpretation_note": "陸雲公父完，襄兄子映公的父名不見。",
+      "reviewer": "Codex（AI代理）",
+      "model": null,
+      "human_reviewed": false
+    }
+  ],
+  "related_people": {
+    "d5x_77n_qxq": "陸閑（字遐業）",
+    "d5x_77n_qxq_D": "陸完（陸閑子，陸雲公父）",
+    "d5x_77n_qxq_DA": "陸雲公（陸完子，字子龍）"
+  },
+  "dates": [],
+  "name_components": [],
+  "person_ids": [
+    "d5x_77n_qxq_D"
+  ],
+  "preferred_relations": [
+    {
+      "id": "a-liang027-xian-son-完",
+      "subject_person_id": "d5x_77n_qxq_D",
+      "object_person_id": "d5x_77n_qxq",
+      "predicate": "father",
+      "qualifiers": {
+        "source_term": "閑四子：厥、絳、完、襄也",
+        "lineage": "paternal"
+      },
+      "evidence": [
+        {
+          "work_id": "w-nanshi",
+          "book_id": "b-nanshi-048",
+          "chapter_id": "c-nanshi-048-luxiang-four-brothers",
+          "source_id": "s-nanshi-048-luxiang-four-brothers-ws2493997",
+          "paragraph_id": "c-nanshi-048-luxiang-four-brothers:p001",
+          "quote": "閑四子：厥、絳、完、襄也。絳字魏卿，時隨閑，抱頸求代死，不獲，遂以身蔽刀刃，行刑者俱害之。",
+          "subject_person_mention_id": "c-nanshi-048-luxiang-four-brothers:p001:m0008",
+          "object_person_mention_id": "c-nanshi-048-luxiang-four-brothers:p001:m0000"
+        }
+      ],
+      "status": "source_attested",
+      "interpretation_note": "南史明列四子，以梁傳父兄互校。",
+      "reviewer": "Codex（AI代理）",
+      "model": null,
+      "human_reviewed": false
+    },
+    {
+      "id": "a-liang027-yungong-father",
+      "subject_person_id": "d5x_77n_qxq_DA",
+      "object_person_id": "d5x_77n_qxq_D",
+      "predicate": "father",
+      "qualifiers": {
+        "source_term": "襄兄完子也",
+        "lineage": "paternal"
+      },
+      "evidence": [
+        {
+          "work_id": "w-nanshi",
+          "book_id": "b-nanshi-048",
+          "chapter_id": "c-nanshi-048-luxiang-four-brothers",
+          "source_id": "s-nanshi-048-luxiang-four-brothers-ws2493997",
+          "paragraph_id": "c-nanshi-048-luxiang-four-brothers:p003",
+          "quote": "雲公字子龍，襄兄完子也。完位甯遠長史、琅邪彭城二郡丞。",
+          "subject_person_mention_id": "c-nanshi-048-luxiang-four-brothers:p003:m0000",
+          "object_person_mention_id": "c-nanshi-048-luxiang-four-brothers:p003:m0008"
+        }
+      ],
+      "status": "source_attested",
+      "interpretation_note": "陸雲公父完，襄兄子映公的父名不見。",
+      "reviewer": "Codex（AI代理）",
+      "model": null,
+      "human_reviewed": false
+    }
+  ],
+  "age_assertions": [],
+  "life_events": [],
+  "life_event_date_decisions": [],
+  "selected_life_event_dates": []
+}

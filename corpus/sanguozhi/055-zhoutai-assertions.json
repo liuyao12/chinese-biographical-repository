@@ -1,0 +1,74 @@
+{
+  "format_version": "0.2",
+  "record_type": "person_assertion_set",
+  "chapter_id": "c-sanguozhi-055-zhoutai",
+  "assertions": [
+    {
+      "id": "a-wu055-zhoutai-0",
+      "subject_person_id": "m3f_jcq_eo0",
+      "object_person_id": "sno_cph_i2h_A",
+      "predicate": "brother",
+      "qualifiers": {
+        "source_term": "弟承領兵襲侯"
+      },
+      "evidence": [
+        {
+          "work_id": "w-sanguozhi",
+          "book_id": "b-sanguozhi-055",
+          "chapter_id": "c-sanguozhi-055-zhoutai",
+          "source_id": "s-sanguozhi-055-zhoutai",
+          "paragraph_id": "c-sanguozhi-055-zhoutai:line050",
+          "quote": "子邵以騎都尉領兵。曹仁出濡須，戰有功，又從攻破曹休，進位裨將軍，黃龍二年卒。弟承領兵襲侯。",
+          "subject_person_mention_id": "c-sanguozhi-055-zhoutai:line050:m0039",
+          "object_person_mention_id": "c-sanguozhi-055-zhoutai:line050:m0001"
+        }
+      ],
+      "interpretation_note": "以此來源所述兩端為據。",
+      "status": "source_attested",
+      "reviewer": "Codex（AI 代理）",
+      "human_reviewed": false,
+      "model": null
+    },
+    {
+      "id": "a-wu055-zhoushao-father",
+      "subject_person_id": "sno_cph_i2h_A",
+      "object_person_id": "sno_cph_i2h",
+      "predicate": "father",
+      "qualifiers": {
+        "source_term": "子邵以騎都尉領兵"
+      },
+      "evidence": [
+        {
+          "work_id": "w-sanguozhi",
+          "book_id": "b-sanguozhi-055",
+          "chapter_id": "c-sanguozhi-055-zhoutai",
+          "source_id": "s-sanguozhi-055-zhoutai",
+          "paragraph_id": "c-sanguozhi-055-zhoutai:line048",
+          "quote": "後權破關羽，欲進圖蜀，拜泰漢中太守、奮威將軍，封陵陽侯。黃武中卒。",
+          "object_person_mention_id": "c-sanguozhi-055-zhoutai:line048:m0012"
+        },
+        {
+          "work_id": "w-sanguozhi",
+          "book_id": "b-sanguozhi-055",
+          "chapter_id": "c-sanguozhi-055-zhoutai",
+          "source_id": "s-sanguozhi-055-zhoutai",
+          "paragraph_id": "c-sanguozhi-055-zhoutai:line050",
+          "quote": "子邵以騎都尉領兵。曹仁出濡須，戰有功，又從攻破曹休，進位裨將軍，黃龍二年卒。弟承領兵襲侯。",
+          "subject_person_mention_id": "c-sanguozhi-055-zhoutai:line050:m0001"
+        }
+      ],
+      "interpretation_note": "本傳由具名傳主的晚職與卒句轉敘子嗣，兩段位置連續。",
+      "status": "source_attested",
+      "reviewer": "Codex（AI 代理）",
+      "human_reviewed": false,
+      "model": null,
+      "context": {
+        "kind": "adjacent_paragraphs",
+        "paragraph_ids": [
+          "c-sanguozhi-055-zhoutai:line048",
+          "c-sanguozhi-055-zhoutai:line050"
+        ]
+      }
+    }
+  ]
+}

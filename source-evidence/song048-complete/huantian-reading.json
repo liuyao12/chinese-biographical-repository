@@ -1,0 +1,114 @@
+{
+  "record_type": "fixed_source_complete_item_review",
+  "reviewer": "Codex（AI代理）",
+  "model": null,
+  "human_reviewed": false,
+  "external_witnesses": [
+    {
+      "revision_id": 1536331,
+      "raw_path": "sources/jinshu/wikisource-1536331-raw.wikitext",
+      "line": 81,
+      "start": 218,
+      "end": 231,
+      "source_quote": "嗣、謙、修、崇、弘、羨、怡",
+      "raw_sha256": "7bda6727ecfc8408408ee49fb5d8a7ef3062666e54535355b3d51b8517fcd925",
+      "interpretation": "晉書末子名怡。"
+    },
+    {
+      "revision_id": 2567072,
+      "raw_path": "source-evidence/song046-zhang-complete/external/jin010-ws2567072.wikitext",
+      "line": 280,
+      "start": 2,
+      "end": 21,
+      "source_quote": "秋七月，朱齡石克成都，斬譙縱，益州平。",
+      "raw_sha256": "191bbf44a05c366e9ce2ae1556f05d317245ff0d923e97e99d5aad06c81e8794",
+      "interpretation": "晉書義熙九年。"
+    }
+  ],
+  "print_readings": [
+    {
+      "url": "https://upload.wikimedia.org/wikipedia/commons/7/75/NLC892-411999017142-12779_%E4%BA%8C%E5%8D%81%E5%9B%9B%E5%8F%B2_%E7%AC%AC144%E5%86%8A.pdf#page=76",
+      "catalog_record": "https://commons.wikimedia.org/wiki/File:NLC892-411999017142-12779_%E4%BA%8C%E5%8D%81%E5%9B%9B%E5%8F%B2_%E7%AC%AC144%E5%86%8A.pdf",
+      "pdf_sha1": "126c34411892f6943a575a15ee46fb0064bd5b7b",
+      "pdf_sha256": "316229a8587d188289a7fa2dac393760437ca7facf5deb7a3bfa09770b4a1ac3",
+      "image_sha256": "223e66b1ddc10e279c9e9f7a1ffa18ac639fd565ac2f882fd464a16e9d06332f",
+      "edition": "清乾隆武英殿本《宋書》，國圖第144冊。",
+      "page": 76,
+      "half": "R",
+      "folio": "三下",
+      "columns_from_right": "7–8",
+      "source_quote": "桓謙弟恬隨謙入蜀為寧蜀太守至是亦斬焉",
+      "reading": "殿本清楚作恬。"
+    }
+  ],
+  "boundaries": [
+    {
+      "book_id": "b-songshu-048",
+      "title": "桓恬",
+      "unit_kind": "embedded_account",
+      "chapter_id": "c-songshu-048-huantian",
+      "entry_checked": true,
+      "full_text": true,
+      "first_pass": true,
+      "item_reviewed": true,
+      "source_layout": "wikisource_mixed_indented_prose",
+      "first_line": 24,
+      "last_line": 24,
+      "start_codepoint": 208,
+      "end_codepoint": 229,
+      "opening": "桓謙弟恬隨謙入蜀，為寧蜀",
+      "closing": "為寧蜀太守，至是亦斬焉。",
+      "parent_heading": "朱齡石",
+      "chapter_path": "corpus/songshu/048-huantian.json",
+      "paragraph_ids": [
+        "c-songshu-048-huantian:p001"
+      ],
+      "item_review_path": "source-evidence/song048-complete/huantian-reading.json"
+    }
+  ],
+  "chronology": [],
+  "readings": [
+    {
+      "id": "c-songshu-048-huantian:received_sentence1-0",
+      "kind": "received_sentence",
+      "person_id": "ets_mpk_a0z",
+      "source_quote": "桓謙弟恬隨謙入蜀，為寧蜀太守，至是亦斬焉。",
+      "reading": "桓謙弟恬隨兄入蜀，為寧蜀太守，於蜀敗時被斬。",
+      "note": "桓謙弟恬隨兄入蜀，為寧蜀太守，於蜀敗時被斬。",
+      "paragraph_id": "c-songshu-048-huantian:p001",
+      "start_codepoint": 0,
+      "end_codepoint": 21,
+      "human_reviewed": false
+    },
+    {
+      "id": "c-songshu-048-huantian:identity_candidates1-0",
+      "kind": "identity_candidates",
+      "person_id": "ets_mpk_a0z",
+      "source_quote": "桓謙弟恬",
+      "reading": "宋48與殿本作恬，晉74所列沖七子末作怡。兩書未明異名，本次保留候選，無額外父系號與父子斷言。",
+      "note": "宋48與殿本作恬，晉74所列沖七子末作怡。兩書未明異名，本次保留候選，無額外父系號與父子斷言。",
+      "paragraph_id": "c-songshu-048-huantian:p001",
+      "start_codepoint": 0,
+      "end_codepoint": 4,
+      "human_reviewed": false,
+      "song": "ets_mpk_a0z",
+      "possible_jin": "u9s_w6j_8mc_AEG",
+      "certain_older_brother": "u9s_w6j_8mc_AEB"
+    },
+    {
+      "id": "c-songshu-048-huantian:chronology_conflict1-15",
+      "kind": "chronology_conflict",
+      "person_id": "ets_mpk_a0z",
+      "source_quote": "至是亦斬焉",
+      "reading": "承本傳十年六月彭模；晉10及通鑑記義熙九年六月至七月平蜀。依本傳語境和獨立紀年分錄，未載個人確日。",
+      "note": "承本傳十年六月彭模；晉10及通鑑記義熙九年六月至七月平蜀。依本傳語境和獨立紀年分錄，未載個人確日。",
+      "paragraph_id": "c-songshu-048-huantian:p001",
+      "start_codepoint": 15,
+      "end_codepoint": 20,
+      "human_reviewed": false,
+      "song_campaign_year": 414,
+      "chronicle_campaign_year": 413
+    }
+  ],
+  "identity_limits": []
+}

@@ -1,0 +1,149 @@
+{
+  "schema_version": 1,
+  "id": "v4f_db2_eqv_A",
+  "canonical_person_id": "v4f_db2_eqv_A",
+  "label": "潘平",
+  "identity_note": "依本篇具名、稱謂及其所在原句辨認；引書原字存於各自來源。",
+  "review": "ai_provisional",
+  "names": [
+    "平"
+  ],
+  "titles": [],
+  "addresses": [],
+  "occurrences": [
+    {
+      "number": 55,
+      "category": "",
+      "title": "潘璋傳",
+      "paragraph_id": "c-sanguozhi-055-panzhang:line125",
+      "count": 1,
+      "raw_count": 1,
+      "duplicate_count": 0,
+      "counting_policy": "independent_fixed_witness_occurrences",
+      "quote": "，或殺取其財物，數不奉法。監司舉奏，權惜其功而輒原不問。嘉禾三年卒。子平，以無行徙會稽。璋妻居建業，賜田宅，復客五十家。",
+      "paragraph_ids": [
+        "c-sanguozhi-055-panzhang:line125"
+      ],
+      "mention_ids": [
+        "c-sanguozhi-055-panzhang:line125:m0108"
+      ],
+      "mention_paragraph_ids": {
+        "c-sanguozhi-055-panzhang:line125:m0108": "c-sanguozhi-055-panzhang:line125"
+      },
+      "mention_id": "c-sanguozhi-055-panzhang:line125:m0108",
+      "occurrence_groups": [
+        {
+          "canonical_mention_id": "c-sanguozhi-055-panzhang:line125:m0108",
+          "mention_ids": [
+            "c-sanguozhi-055-panzhang:line125:m0108"
+          ],
+          "kind": "paragraph"
+        }
+      ],
+      "work_id": "w-sanguozhi",
+      "book_id": "b-sanguozhi-055",
+      "chapter_id": "c-sanguozhi-055-panzhang",
+      "source_id": "s-sanguozhi-055-panzhang",
+      "work_title": "三國志"
+    }
+  ],
+  "table_occurrences": [],
+  "sources": [
+    {
+      "chapter_id": "c-sanguozhi-055-panzhang",
+      "work_id": "w-sanguozhi",
+      "book_id": "b-sanguozhi-055",
+      "source_id": "s-sanguozhi-055-panzhang",
+      "source": {
+        "title": "三國志卷五十五·吳書十",
+        "provider": "Wikisource",
+        "url": "https://zh.wikisource.org/w/index.php?oldid=2603286",
+        "permalink": "https://zh.wikisource.org/w/index.php?oldid=2603286",
+        "revision_id": 2603286,
+        "accessed_on": "2026-11-21",
+        "edition": "維基文庫固定修訂，裴注與正文分層。",
+        "extent": "第117至125行。",
+        "text_scope": "partial_chapter",
+        "review_status": "text_checked",
+        "image_verified": false,
+        "rights": "古籍原文，維基文庫轉錄。",
+        "license_url": "https://creativecommons.org/licenses/by-sa/4.0/",
+        "raw_path": "source-evidence/sanguozhi055-commanders/sanguozhi055-ws2603286.wikitext",
+        "raw_file_sha256": "af14d36115960881146ec95d5fdf1087db58e28d3ea95541bb050a8d63778f2e",
+        "wikitext_sha256": "af14d36115960881146ec95d5fdf1087db58e28d3ea95541bb050a8d63778f2e",
+        "collation_witnesses": [
+          "source-evidence/sanguozhi055-panzhang/reading.json"
+        ]
+      }
+    }
+  ],
+  "relations": [
+    {
+      "id": "a-wu055-panzhang-1",
+      "subject_person_id": "v4f_db2_eqv_A",
+      "object_person_id": "v4f_db2_eqv",
+      "predicate": "father",
+      "qualifiers": {
+        "source_term": "子平，以無行"
+      },
+      "evidence": [
+        {
+          "work_id": "w-sanguozhi",
+          "book_id": "b-sanguozhi-055",
+          "chapter_id": "c-sanguozhi-055-panzhang",
+          "source_id": "s-sanguozhi-055-panzhang",
+          "paragraph_id": "c-sanguozhi-055-panzhang:line125",
+          "quote": "璋爲人麤猛，禁令肅然，好立功業，所領兵馬不過數千，而其所在常如萬人。征伐止頓，便立軍巿，他軍所無，皆仰取足。然性奢泰，末年彌甚，服物僭擬。吏兵富者，或殺取其財物，數不奉法。監司舉奏，權惜其功而輒原不問。嘉禾三年卒。子平，以無行徙會稽。璋妻居建業，賜田宅，復客五十家。",
+          "subject_person_mention_id": "c-sanguozhi-055-panzhang:line125:m0108",
+          "object_person_mention_id": "c-sanguozhi-055-panzhang:line125:m0000"
+        }
+      ],
+      "interpretation_note": "以此來源所述兩端為據。",
+      "status": "source_attested",
+      "reviewer": "Codex（AI 代理）",
+      "human_reviewed": false,
+      "model": null
+    }
+  ],
+  "related_people": {
+    "v4f_db2_eqv": "潘璋〔字文珪〕",
+    "v4f_db2_eqv_A": "潘平"
+  },
+  "dates": [],
+  "name_components": [],
+  "person_ids": [
+    "v4f_db2_eqv_A"
+  ],
+  "preferred_relations": [
+    {
+      "id": "a-wu055-panzhang-1",
+      "subject_person_id": "v4f_db2_eqv_A",
+      "object_person_id": "v4f_db2_eqv",
+      "predicate": "father",
+      "qualifiers": {
+        "source_term": "子平，以無行"
+      },
+      "evidence": [
+        {
+          "work_id": "w-sanguozhi",
+          "book_id": "b-sanguozhi-055",
+          "chapter_id": "c-sanguozhi-055-panzhang",
+          "source_id": "s-sanguozhi-055-panzhang",
+          "paragraph_id": "c-sanguozhi-055-panzhang:line125",
+          "quote": "璋爲人麤猛，禁令肅然，好立功業，所領兵馬不過數千，而其所在常如萬人。征伐止頓，便立軍巿，他軍所無，皆仰取足。然性奢泰，末年彌甚，服物僭擬。吏兵富者，或殺取其財物，數不奉法。監司舉奏，權惜其功而輒原不問。嘉禾三年卒。子平，以無行徙會稽。璋妻居建業，賜田宅，復客五十家。",
+          "subject_person_mention_id": "c-sanguozhi-055-panzhang:line125:m0108",
+          "object_person_mention_id": "c-sanguozhi-055-panzhang:line125:m0000"
+        }
+      ],
+      "interpretation_note": "以此來源所述兩端為據。",
+      "status": "source_attested",
+      "reviewer": "Codex（AI 代理）",
+      "human_reviewed": false,
+      "model": null
+    }
+  ],
+  "age_assertions": [],
+  "life_events": [],
+  "life_event_date_decisions": [],
+  "selected_life_event_dates": []
+}

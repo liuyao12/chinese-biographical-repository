@@ -12,6 +12,54 @@
   ],
   "titles": [
     {
+      "id": "th-liangshu-027-yinjun-complete-1-14",
+      "title": "太常",
+      "kind": "office",
+      "mode": "attestation",
+      "person_id": "ali_hbb_4bn",
+      "attestations": [
+        {
+          "id": "th-liangshu-027-yinjun-complete-1-14:a",
+          "paragraph_id": "c-liangshu-027-yinjun-complete:p001",
+          "start": 14,
+          "end": 16,
+          "surface": "太常",
+          "person_mention_id": "c-liangshu-027-yinjun-complete:p001:m0016",
+          "usage": "narrative",
+          "date_expression": null
+        }
+      ],
+      "effective_period": {
+        "start": {
+          "status": "unknown",
+          "date_expression": null,
+          "evidence": []
+        },
+        "end": {
+          "status": "unknown",
+          "date_expression": null,
+          "evidence": []
+        }
+      },
+      "evidence": [
+        {
+          "work_id": "w-liangshu",
+          "book_id": "b-liangshu-027",
+          "chapter_id": "c-liangshu-027-yinjun-complete",
+          "source_id": "s-liangshu-027-yinjun-complete-ws1511478",
+          "paragraph_id": "c-liangshu-027-yinjun-complete:p001",
+          "quote": "殷鈞字季和，陳郡長平人也。晉太常融八世孫。父叡，有才辯，知名齊世，歷官司徒從事中郎。叡妻王奐女。奐爲雍州刺史、鎮北將軍，乃言於朝，以叡爲鎮北長史、河南太守。奐誅，叡並見害。鈞時年九歲，以孝聞。及長，恬靜簡交遊，好學有思理。善隸書，爲當時楷法，南鄉范雲、樂安任昉，並稱賞之。高祖與叡少舊故，以女妻鈞，卽永興公主也。",
+          "person_mention_id": "c-liangshu-027-yinjun-complete:p001:m0016"
+        }
+      ],
+      "status": "source_attested",
+      "interpretation_note": "所見原官稱，未載全任期。",
+      "reviewer": "Codex（AI代理）",
+      "model": null,
+      "human_reviewed": false,
+      "period": "未定 → 未定"
+    },
+    {
       "id": "th-nanqishu-049-yinrui-1-11",
       "title": "太常",
       "kind": "office",
@@ -62,6 +110,41 @@
   ],
   "addresses": [],
   "occurrences": [
+    {
+      "number": 27,
+      "category": "",
+      "title": "梁書卷二十七·殷鈞與父殷叡",
+      "paragraph_id": "c-liangshu-027-yinjun-complete:p001",
+      "count": 1,
+      "raw_count": 1,
+      "duplicate_count": 0,
+      "counting_policy": "independent_fixed_witness_occurrences",
+      "quote": "殷鈞字季和，陳郡長平人也。晉太常融八世孫。父叡，有才辯，知名齊世，歷官司徒從事中郎。叡妻王奐女。奐爲雍州刺史、鎮北將軍，乃言於朝，以叡爲鎮北長史、河南太守。奐誅，叡並見害。鈞時年九歲，以孝聞。及長，恬靜簡交遊，好學有思理。善隸書，爲當",
+      "paragraph_ids": [
+        "c-liangshu-027-yinjun-complete:p001"
+      ],
+      "mention_ids": [
+        "c-liangshu-027-yinjun-complete:p001:m0016"
+      ],
+      "mention_paragraph_ids": {
+        "c-liangshu-027-yinjun-complete:p001:m0016": "c-liangshu-027-yinjun-complete:p001"
+      },
+      "mention_id": "c-liangshu-027-yinjun-complete:p001:m0016",
+      "occurrence_groups": [
+        {
+          "canonical_mention_id": "c-liangshu-027-yinjun-complete:p001:m0016",
+          "mention_ids": [
+            "c-liangshu-027-yinjun-complete:p001:m0016"
+          ],
+          "kind": "paragraph"
+        }
+      ],
+      "work_id": "w-liangshu",
+      "book_id": "b-liangshu-027",
+      "chapter_id": "c-liangshu-027-yinjun-complete",
+      "source_id": "s-liangshu-027-yinjun-complete-ws1511478",
+      "work_title": "梁書"
+    },
     {
       "number": 32,
       "category": "",
@@ -634,6 +717,29 @@
           "character_conversion": "none",
           "extraction_note": "008除頁碼連接同一完整紀年；077僅去除維基排版前綴，原字／標點不校改。"
         }
+      }
+    },
+    {
+      "chapter_id": "c-liangshu-027-yinjun-complete",
+      "work_id": "w-liangshu",
+      "book_id": "b-liangshu-027",
+      "source_id": "s-liangshu-027-yinjun-complete-ws1511478",
+      "source": {
+        "title": "梁書卷二十七·殷鈞與父殷叡",
+        "provider": "Wikisource",
+        "permalink": "https://zh.wikisource.org/w/index.php?oldid=1511478",
+        "url": "https://zh.wikisource.org/w/index.php?oldid=1511478",
+        "revision_id": 1511478,
+        "edition": "維基文庫固定修訂",
+        "accessed_on": "2026-11-21",
+        "review_status": "text_checked",
+        "image_verified": false,
+        "rights": "古代原文；數位轉錄依維基文庫授權。",
+        "license_url": "https://creativecommons.org/licenses/by-sa/4.0/",
+        "extent": "梁書卷二十七·殷鈞與父殷叡",
+        "text_scope": "complete_biography_unit",
+        "raw_path": "source-evidence/nanshi019-xietiao/liangshu027-ws1511478.wikitext",
+        "raw_file_sha256": "fcb730ce00423c60dc63e01c4a6d43ecd45cf2669df595850e0abb2339acfb5f"
       }
     },
     {

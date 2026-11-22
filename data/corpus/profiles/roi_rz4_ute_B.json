@@ -300,10 +300,93 @@
       "human_reviewed": false,
       "model": null,
       "period": "未定 → 未定"
+    },
+    {
+      "id": "t-wu054-t-wu054-lusu8",
+      "person_id": "roi_rz4_ute_B",
+      "kind": "office",
+      "title": "濡須督",
+      "mode": "attestation",
+      "status": "source_attested",
+      "effective_period": {
+        "start": {
+          "status": "unknown",
+          "date_expression": null,
+          "evidence": []
+        },
+        "end": {
+          "status": "unknown",
+          "date_expression": null,
+          "evidence": []
+        }
+      },
+      "interpretation_note": "本句所載職官，任免時間未詳。",
+      "evidence": [
+        {
+          "work_id": "w-sanguozhi",
+          "book_id": "b-sanguozhi-054",
+          "chapter_id": "c-sanguozhi-054-lusu",
+          "source_id": "s-sanguozhi-054-lusu",
+          "paragraph_id": "c-sanguozhi-054-lusu:line057",
+          "quote": "　　肅年四十六，建安二十二年卒。權為舉哀，又臨其葬。諸葛亮亦為發哀。權稱尊號，臨壇，願謂公卿曰：「昔魯子敬嘗道此，可謂明於事勢矣。」肅遣腹子淑既壯，濡須督張承謂終當到至。永安中，為昭武將軍、都亭侯、武昌督。建衡中，假節，遷夏口督。所在嚴整，有方幹。鳳凰三年卒。子睦襲爵，領兵馬。",
+          "person_mention_id": "c-sanguozhi-054-lusu:line057:m0077"
+        }
+      ],
+      "attestations": [
+        {
+          "id": "t-wu054-t-wu054-lusu8:a",
+          "paragraph_id": "c-sanguozhi-054-lusu:line057",
+          "person_mention_id": "c-sanguozhi-054-lusu:line057:m0077",
+          "start": 74,
+          "end": 77,
+          "surface": "濡須督",
+          "usage": "narrative",
+          "date_expression": null
+        }
+      ],
+      "human_reviewed": false,
+      "reviewer": "Codex（AI 代理）",
+      "model": null,
+      "period": "未定 → 未定"
     }
   ],
   "addresses": [],
   "occurrences": [
+    {
+      "number": 1,
+      "category": "",
+      "title": "建康實錄卷一凌統卒年與賜養",
+      "paragraph_id": "c-jiankang-shilu-001-lingtong-wu055:p002",
+      "count": 1,
+      "raw_count": 1,
+      "duplicate_count": 0,
+      "counting_policy": "independent_fixed_witness_occurrences",
+      "quote": "物，親賢愛士，輕財重義，有國士風。年二十九卒。權聞之驚起，哀不自勝，使張承作誄致祭。",
+      "paragraph_ids": [
+        "c-jiankang-shilu-001-lingtong-wu055:p002"
+      ],
+      "mention_ids": [
+        "c-jiankang-shilu-001-lingtong-wu055:p002:m0041"
+      ],
+      "mention_paragraph_ids": {
+        "c-jiankang-shilu-001-lingtong-wu055:p002:m0041": "c-jiankang-shilu-001-lingtong-wu055:p002"
+      },
+      "mention_id": "c-jiankang-shilu-001-lingtong-wu055:p002:m0041",
+      "occurrence_groups": [
+        {
+          "canonical_mention_id": "c-jiankang-shilu-001-lingtong-wu055:p002:m0041",
+          "mention_ids": [
+            "c-jiankang-shilu-001-lingtong-wu055:p002:m0041"
+          ],
+          "kind": "paragraph"
+        }
+      ],
+      "work_id": "w-jiankang-shilu",
+      "book_id": "b-jiankang-shilu-001",
+      "chapter_id": "c-jiankang-shilu-001-lingtong-wu055",
+      "source_id": "s-jiankang-shilu-001-lingtong-wu055",
+      "work_title": "建康實錄"
+    },
     {
       "number": 52,
       "category": "",
@@ -553,6 +636,76 @@
       "work_title": "三國志"
     },
     {
+      "number": 54,
+      "category": "",
+      "title": "魯肅傳",
+      "paragraph_id": "c-sanguozhi-054-lusu:line057",
+      "count": 1,
+      "raw_count": 1,
+      "duplicate_count": 0,
+      "counting_policy": "independent_fixed_witness_occurrences",
+      "quote": "願謂公卿曰：「昔魯子敬嘗道此，可謂明於事勢矣。」肅遣腹子淑既壯，濡須督張承謂終當到至。永安中，為昭武將軍、都亭侯、武昌督。建衡中，假節，遷夏口督。所在嚴整，有方幹。鳳凰三年卒。子睦襲爵，領兵馬。",
+      "paragraph_ids": [
+        "c-sanguozhi-054-lusu:line057"
+      ],
+      "mention_ids": [
+        "c-sanguozhi-054-lusu:line057:m0077"
+      ],
+      "mention_paragraph_ids": {
+        "c-sanguozhi-054-lusu:line057:m0077": "c-sanguozhi-054-lusu:line057"
+      },
+      "mention_id": "c-sanguozhi-054-lusu:line057:m0077",
+      "occurrence_groups": [
+        {
+          "canonical_mention_id": "c-sanguozhi-054-lusu:line057:m0077",
+          "mention_ids": [
+            "c-sanguozhi-054-lusu:line057:m0077"
+          ],
+          "kind": "paragraph"
+        }
+      ],
+      "work_id": "w-sanguozhi",
+      "book_id": "b-sanguozhi-054",
+      "chapter_id": "c-sanguozhi-054-lusu",
+      "source_id": "s-sanguozhi-054-lusu",
+      "work_title": "三國志"
+    },
+    {
+      "number": 55,
+      "category": "",
+      "title": "凌統傳",
+      "paragraph_id": "c-sanguozhi-055-lingtong:line099",
+      "count": 1,
+      "raw_count": 1,
+      "duplicate_count": 0,
+      "counting_policy": "independent_fixed_witness_occurrences",
+      "quote": "病卒，時年四十九。權聞之，拊牀起坐，哀不能自止，數日減膳，言及流涕，使張承爲作銘誄。",
+      "paragraph_ids": [
+        "c-sanguozhi-055-lingtong:line099"
+      ],
+      "mention_ids": [
+        "c-sanguozhi-055-lingtong:line099:m0130"
+      ],
+      "mention_paragraph_ids": {
+        "c-sanguozhi-055-lingtong:line099:m0130": "c-sanguozhi-055-lingtong:line099"
+      },
+      "mention_id": "c-sanguozhi-055-lingtong:line099:m0130",
+      "occurrence_groups": [
+        {
+          "canonical_mention_id": "c-sanguozhi-055-lingtong:line099:m0130",
+          "mention_ids": [
+            "c-sanguozhi-055-lingtong:line099:m0130"
+          ],
+          "kind": "paragraph"
+        }
+      ],
+      "work_id": "w-sanguozhi",
+      "book_id": "b-sanguozhi-055",
+      "chapter_id": "c-sanguozhi-055-lingtong",
+      "source_id": "s-sanguozhi-055-lingtong",
+      "work_title": "三國志"
+    },
+    {
       "number": 58,
       "category": "",
       "title": "陸抗傳",
@@ -670,6 +823,29 @@
   ],
   "table_occurrences": [],
   "sources": [
+    {
+      "chapter_id": "c-jiankang-shilu-001-lingtong-wu055",
+      "work_id": "w-jiankang-shilu",
+      "book_id": "b-jiankang-shilu-001",
+      "source_id": "s-jiankang-shilu-001-lingtong-wu055",
+      "source": {
+        "title": "建康實錄卷一凌統卒年與賜養",
+        "provider": "Wikisource",
+        "url": "https://zh.wikisource.org/w/index.php?oldid=2389050",
+        "permalink": "https://zh.wikisource.org/w/index.php?oldid=2389050",
+        "edition": "維基文庫固定修訂",
+        "extent": "具名互證原句。",
+        "text_scope": "partial_chapter",
+        "review_status": "text_checked",
+        "image_verified": false,
+        "rights": "古籍原文，維基文庫轉錄。",
+        "license_url": "https://creativecommons.org/licenses/by-sa/4.0/",
+        "revision_id": 2389050,
+        "raw_path": "source-evidence/sanguozhi055-roll-close/external/jiankang001-ws2389050.wikitext",
+        "wikitext_sha256": "773d7472ea358c7f40ec9ce7ace43f3644dd2c7f6f7e546010ad4721e9f8cefb",
+        "raw_file_sha256": "773d7472ea358c7f40ec9ce7ace43f3644dd2c7f6f7e546010ad4721e9f8cefb"
+      }
+    },
     {
       "chapter_id": "c-sanguozhi-052-compiler-appraisal",
       "work_id": "w-sanguozhi",
@@ -803,6 +979,60 @@
         "wikitext_sha256": "a50889bcf489ad7886d32c3e937c45ea9f9bb5032888b594400ebaeb0121a447",
         "collation_witnesses": [
           "source-evidence/sanguozhi053-yanjun/reading.json"
+        ]
+      }
+    },
+    {
+      "chapter_id": "c-sanguozhi-054-lusu",
+      "work_id": "w-sanguozhi",
+      "book_id": "b-sanguozhi-054",
+      "source_id": "s-sanguozhi-054-lusu",
+      "source": {
+        "title": "三國志卷五十四·吳書九",
+        "provider": "Wikisource",
+        "url": "https://zh.wikisource.org/w/index.php?oldid=2387393",
+        "permalink": "https://zh.wikisource.org/w/index.php?oldid=2387393",
+        "revision_id": 2387393,
+        "accessed_on": "2026-11-21",
+        "edition": "維基文庫固定修訂，裴注與正文分層。",
+        "extent": "第41至57行。",
+        "text_scope": "partial_chapter",
+        "review_status": "text_checked",
+        "image_verified": false,
+        "rights": "古籍原文，維基文庫轉錄。",
+        "license_url": "https://creativecommons.org/licenses/by-sa/4.0/",
+        "raw_path": "source-evidence/sanguozhi054-generals/sanguozhi054-ws2387393.wikitext",
+        "raw_file_sha256": "391eeacf65d214ce53d6fba4c9d39933b20b8b7d10509f88e5f323eda96c7912",
+        "wikitext_sha256": "391eeacf65d214ce53d6fba4c9d39933b20b8b7d10509f88e5f323eda96c7912",
+        "collation_witnesses": [
+          "source-evidence/sanguozhi054-lusu/reading.json"
+        ]
+      }
+    },
+    {
+      "chapter_id": "c-sanguozhi-055-lingtong",
+      "work_id": "w-sanguozhi",
+      "book_id": "b-sanguozhi-055",
+      "source_id": "s-sanguozhi-055-lingtong",
+      "source": {
+        "title": "三國志卷五十五·吳書十",
+        "provider": "Wikisource",
+        "url": "https://zh.wikisource.org/w/index.php?oldid=2603286",
+        "permalink": "https://zh.wikisource.org/w/index.php?oldid=2603286",
+        "revision_id": 2603286,
+        "accessed_on": "2026-11-21",
+        "edition": "維基文庫固定修訂，裴注與正文分層。",
+        "extent": "第89至101行。",
+        "text_scope": "partial_chapter",
+        "review_status": "text_checked",
+        "image_verified": false,
+        "rights": "古籍原文，維基文庫轉錄。",
+        "license_url": "https://creativecommons.org/licenses/by-sa/4.0/",
+        "raw_path": "source-evidence/sanguozhi055-commanders/sanguozhi055-ws2603286.wikitext",
+        "raw_file_sha256": "af14d36115960881146ec95d5fdf1087db58e28d3ea95541bb050a8d63778f2e",
+        "wikitext_sha256": "af14d36115960881146ec95d5fdf1087db58e28d3ea95541bb050a8d63778f2e",
+        "collation_witnesses": [
+          "source-evidence/sanguozhi055-lingtong/reading.json"
         ]
       }
     },

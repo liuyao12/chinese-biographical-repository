@@ -183,6 +183,27 @@ def _direction(p, subjects, objects, term):
 
 
 def paternal_uncle_direction_valid(assertion, paragraphs):
+    if assertion.get('id') == 'a-liang027-yinggong-uncle':
+        try:
+            from scripts.chenshu023_shenjunli import named
+        except ImportError:
+            from chenshu023_shenjunli import named
+        try:
+            e, = assertion['evidence']
+            chapter, p = paragraphs[e['paragraph_id']]
+            clause = '襄遣迎寧爲盟主，遣黯及兄子映公'
+            nephew, uncle = 'ecp_1f6_47o', 'd5x_77n_qxq_A'
+            return (chapter == e['chapter_id'] == 'c-liangshu-027-luxiang-complete'
+                    and e['source_id'] == 's-liangshu-027-luxiang-complete-ws1511478'
+                    and e['paragraph_id'] == p['id'] == chapter + ':p004'
+                    and p['source_position']['revision_id'] == 1511478 and e['quote'] == p['text']
+                    and assertion['predicate'] == 'paternal_uncle' and assertion['qualifiers']['lineage'] == 'paternal'
+                    and assertion['qualifiers']['source_term'] == clause
+                    and (assertion['subject_person_id'], assertion['object_person_id']) == (nephew, uncle)
+                    and named(p, e, 'subject_person_mention_id', nephew, clause, '映公')
+                    and named(p, e, 'object_person_mention_id', uncle, clause, '襄'))
+        except (KeyError, TypeError, ValueError):
+            return False
     if assertion.get('qualifiers', {}).get('source_clause_binding', {}).get('kind') == 'jin076_yufei_brothers_son':
         try: from scripts.jin076_yufei_uncle import valid
         except ImportError: from jin076_yufei_uncle import valid

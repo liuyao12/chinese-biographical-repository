@@ -106,6 +106,54 @@
       "reviewer": "Codex（AI代理）",
       "model": null,
       "period": "未定 → 未定"
+    },
+    {
+      "id": "th-songshu-048-fuhongzhi-2-37",
+      "title": "雍州刺史",
+      "kind": "office",
+      "mode": "attestation",
+      "person_id": "qfe_gev_wl7",
+      "attestations": [
+        {
+          "id": "th-songshu-048-fuhongzhi-2-37:a",
+          "paragraph_id": "c-songshu-048-fuhongzhi:p002",
+          "start": 37,
+          "end": 41,
+          "surface": "雍州刺史",
+          "person_mention_id": "c-songshu-048-fuhongzhi:p002:m0041",
+          "usage": "narrative",
+          "date_expression": null
+        }
+      ],
+      "effective_period": {
+        "start": {
+          "status": "unknown",
+          "date_expression": null,
+          "evidence": []
+        },
+        "end": {
+          "status": "unknown",
+          "date_expression": null,
+          "evidence": []
+        }
+      },
+      "evidence": [
+        {
+          "work_id": "w-songshu",
+          "book_id": "b-songshu-048",
+          "chapter_id": "c-songshu-048-fuhongzhi",
+          "source_id": "s-songshu-048-fuhongzhi-ws1791560",
+          "paragraph_id": "c-songshu-048-fuhongzhi:p002",
+          "quote": "少倜儻有大志，為本州主簿，舉秀才，不行。桓玄將篡，新野人庾仄起兵於南陽，襲雍州刺史馮該，該走。弘之時在江陵，與仄兄子彬謀殺荊州刺史桓石康，以荊州刺史應仄。彬從弟宏知其謀，以告石康，石康收彬殺之，繫弘之於獄。桓玄以弘之非造謀，又白衣無兵眾，原不罪。",
+          "person_mention_id": "c-songshu-048-fuhongzhi:p002:m0041"
+        }
+      ],
+      "status": "source_attested",
+      "interpretation_note": "所見原官稱，未載全任期。",
+      "reviewer": "Codex（AI代理）",
+      "model": null,
+      "human_reviewed": false,
+      "period": "未定 → 未定"
     }
   ],
   "addresses": [],
@@ -214,6 +262,50 @@
       "book_id": "b-songshu-047",
       "chapter_id": "c-songshu-047-liuhuaisu",
       "source_id": "s-songshu-047-liuhuaisu",
+      "work_title": "宋書"
+    },
+    {
+      "number": 48,
+      "category": "",
+      "title": "傅弘之",
+      "paragraph_id": "c-songshu-048-fuhongzhi:p002",
+      "count": 2,
+      "raw_count": 2,
+      "duplicate_count": 0,
+      "counting_policy": "independent_fixed_witness_occurrences",
+      "quote": "，為本州主簿，舉秀才，不行。桓玄將篡，新野人庾仄起兵於南陽，襲雍州刺史馮該，該走。弘之時在江陵，與仄兄子彬謀殺荊州刺史桓石康，以荊州刺史應仄。彬從弟宏知其謀，以告石康，石康收彬殺之，繫弘之於獄。桓玄以弘之非造謀，又白衣無兵眾，原不罪。",
+      "paragraph_ids": [
+        "c-songshu-048-fuhongzhi:p002"
+      ],
+      "mention_ids": [
+        "c-songshu-048-fuhongzhi:p002:m0041",
+        "c-songshu-048-fuhongzhi:p002:m0044"
+      ],
+      "mention_paragraph_ids": {
+        "c-songshu-048-fuhongzhi:p002:m0041": "c-songshu-048-fuhongzhi:p002",
+        "c-songshu-048-fuhongzhi:p002:m0044": "c-songshu-048-fuhongzhi:p002"
+      },
+      "mention_id": "c-songshu-048-fuhongzhi:p002:m0041",
+      "occurrence_groups": [
+        {
+          "canonical_mention_id": "c-songshu-048-fuhongzhi:p002:m0041",
+          "mention_ids": [
+            "c-songshu-048-fuhongzhi:p002:m0041"
+          ],
+          "kind": "paragraph"
+        },
+        {
+          "canonical_mention_id": "c-songshu-048-fuhongzhi:p002:m0044",
+          "mention_ids": [
+            "c-songshu-048-fuhongzhi:p002:m0044"
+          ],
+          "kind": "paragraph"
+        }
+      ],
+      "work_id": "w-songshu",
+      "book_id": "b-songshu-048",
+      "chapter_id": "c-songshu-048-fuhongzhi",
+      "source_id": "s-songshu-048-fuhongzhi-ws1791560",
       "work_title": "宋書"
     },
     {
@@ -533,6 +625,29 @@
         "text_scope": "complete_biography_unit",
         "raw_path": "source-evidence/nan023-wanghui/ws2190557.wikitext",
         "raw_file_sha256": "cc75864d017c88ec8c285b2b7772125dc7b10e0b49eed8f8dfa472db5db8cc20"
+      }
+    },
+    {
+      "chapter_id": "c-songshu-048-fuhongzhi",
+      "work_id": "w-songshu",
+      "book_id": "b-songshu-048",
+      "source_id": "s-songshu-048-fuhongzhi-ws1791560",
+      "source": {
+        "title": "傅弘之",
+        "provider": "Wikisource",
+        "permalink": "https://zh.wikisource.org/w/index.php?oldid=1791560",
+        "url": "https://zh.wikisource.org/w/index.php?oldid=1791560",
+        "revision_id": 1791560,
+        "edition": "維基文庫固定修訂",
+        "accessed_on": "2026-11-21",
+        "review_status": "text_checked",
+        "image_verified": false,
+        "rights": "古代原文；數位轉錄依維基文庫授權。",
+        "license_url": "https://creativecommons.org/licenses/by-sa/4.0/",
+        "extent": "傅弘之",
+        "text_scope": "complete_biography_unit",
+        "raw_path": "source-evidence/song046-zhang-complete/external/song048-ws1791560.wikitext",
+        "raw_file_sha256": "0b275f284af779a0c075ee4741b527fb1dd4a5921c3d3f3ea167939e0e50a916"
       }
     }
   ],

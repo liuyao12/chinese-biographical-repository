@@ -13,6 +13,59 @@
   "addresses": [],
   "occurrences": [
     {
+      "number": 48,
+      "category": "",
+      "title": "傅弘之",
+      "paragraph_id": "c-songshu-048-fuhongzhi:p002",
+      "count": 3,
+      "raw_count": 3,
+      "duplicate_count": 0,
+      "counting_policy": "independent_fixed_witness_occurrences",
+      "quote": "篡，新野人庾仄起兵於南陽，襲雍州刺史馮該，該走。弘之時在江陵，與仄兄子彬謀殺荊州刺史桓石康，以荊州刺史應仄。彬從弟宏知其謀，以告石康，石康收彬殺之，繫弘之於獄。桓玄以弘之非造謀，又白衣無兵眾，原不罪。",
+      "paragraph_ids": [
+        "c-songshu-048-fuhongzhi:p002"
+      ],
+      "mention_ids": [
+        "c-songshu-048-fuhongzhi:p002:m0058",
+        "c-songshu-048-fuhongzhi:p002:m0077",
+        "c-songshu-048-fuhongzhi:p002:m0093"
+      ],
+      "mention_paragraph_ids": {
+        "c-songshu-048-fuhongzhi:p002:m0058": "c-songshu-048-fuhongzhi:p002",
+        "c-songshu-048-fuhongzhi:p002:m0077": "c-songshu-048-fuhongzhi:p002",
+        "c-songshu-048-fuhongzhi:p002:m0093": "c-songshu-048-fuhongzhi:p002"
+      },
+      "mention_id": "c-songshu-048-fuhongzhi:p002:m0058",
+      "occurrence_groups": [
+        {
+          "canonical_mention_id": "c-songshu-048-fuhongzhi:p002:m0058",
+          "mention_ids": [
+            "c-songshu-048-fuhongzhi:p002:m0058"
+          ],
+          "kind": "paragraph"
+        },
+        {
+          "canonical_mention_id": "c-songshu-048-fuhongzhi:p002:m0077",
+          "mention_ids": [
+            "c-songshu-048-fuhongzhi:p002:m0077"
+          ],
+          "kind": "paragraph"
+        },
+        {
+          "canonical_mention_id": "c-songshu-048-fuhongzhi:p002:m0093",
+          "mention_ids": [
+            "c-songshu-048-fuhongzhi:p002:m0093"
+          ],
+          "kind": "paragraph"
+        }
+      ],
+      "work_id": "w-songshu",
+      "book_id": "b-songshu-048",
+      "chapter_id": "c-songshu-048-fuhongzhi",
+      "source_id": "s-songshu-048-fuhongzhi-ws1791560",
+      "work_title": "宋書"
+    },
+    {
       "number": 99,
       "category": "",
       "title": "桓玄完整本傳單元",
@@ -89,10 +142,103 @@
         "review_status": "text_checked",
         "license_url": "https://creativecommons.org/licenses/by-sa/4.0/"
       }
+    },
+    {
+      "chapter_id": "c-songshu-048-fuhongzhi",
+      "work_id": "w-songshu",
+      "book_id": "b-songshu-048",
+      "source_id": "s-songshu-048-fuhongzhi-ws1791560",
+      "source": {
+        "title": "傅弘之",
+        "provider": "Wikisource",
+        "permalink": "https://zh.wikisource.org/w/index.php?oldid=1791560",
+        "url": "https://zh.wikisource.org/w/index.php?oldid=1791560",
+        "revision_id": 1791560,
+        "edition": "維基文庫固定修訂",
+        "accessed_on": "2026-11-21",
+        "review_status": "text_checked",
+        "image_verified": false,
+        "rights": "古代原文；數位轉錄依維基文庫授權。",
+        "license_url": "https://creativecommons.org/licenses/by-sa/4.0/",
+        "extent": "傅弘之",
+        "text_scope": "complete_biography_unit",
+        "raw_path": "source-evidence/song046-zhang-complete/external/song048-ws1791560.wikitext",
+        "raw_file_sha256": "0b275f284af779a0c075ee4741b527fb1dd4a5921c3d3f3ea167939e0e50a916"
+      }
     }
   ],
-  "relations": [],
+  "relations": [
+    {
+      "id": "a-song048-bin-ze",
+      "subject_person_id": "psj_1tj_ns7",
+      "object_person_id": "g3n_ce4_ubd",
+      "predicate": "paternal_uncle",
+      "qualifiers": {
+        "source_term": "仄兄子彬",
+        "lineage": "paternal",
+        "generation_difference": -1
+      },
+      "evidence": [
+        {
+          "work_id": "w-songshu",
+          "book_id": "b-songshu-048",
+          "chapter_id": "c-songshu-048-fuhongzhi",
+          "source_id": "s-songshu-048-fuhongzhi-ws1791560",
+          "paragraph_id": "c-songshu-048-fuhongzhi:p002",
+          "quote": "少倜儻有大志，為本州主簿，舉秀才，不行。桓玄將篡，新野人庾仄起兵於南陽，襲雍州刺史馮該，該走。弘之時在江陵，與仄兄子彬謀殺荊州刺史桓石康，以荊州刺史應仄。彬從弟宏知其謀，以告石康，石康收彬殺之，繫弘之於獄。桓玄以弘之非造謀，又白衣無兵眾，原不罪。",
+          "subject_person_mention_id": "c-songshu-048-fuhongzhi:p002:m0058",
+          "object_person_mention_id": "c-songshu-048-fuhongzhi:p002:m0055"
+        }
+      ],
+      "status": "source_attested",
+      "interpretation_note": "依兩端具名原句，無中間父名或共同祖名。",
+      "reviewer": "Codex（AI代理）",
+      "model": null,
+      "human_reviewed": false
+    },
+    {
+      "id": "a-song048-hong-bin",
+      "subject_person_id": "9ve_klf_w2r",
+      "object_person_id": "psj_1tj_ns7",
+      "predicate": "agnatic_cousin",
+      "qualifiers": {
+        "source_term": "彬從弟宏",
+        "kinship_structure": {
+          "lineage": "paternal",
+          "generation_difference": 0,
+          "collateral": true,
+          "distance": null,
+          "common_ancestor_person_id": null,
+          "subject_relative_age": "younger"
+        },
+        "source_clause_binding": {
+          "kind": "named_object_congdi_subject",
+          "start": 77,
+          "end": 81
+        }
+      },
+      "evidence": [
+        {
+          "work_id": "w-songshu",
+          "book_id": "b-songshu-048",
+          "chapter_id": "c-songshu-048-fuhongzhi",
+          "source_id": "s-songshu-048-fuhongzhi-ws1791560",
+          "paragraph_id": "c-songshu-048-fuhongzhi:p002",
+          "quote": "少倜儻有大志，為本州主簿，舉秀才，不行。桓玄將篡，新野人庾仄起兵於南陽，襲雍州刺史馮該，該走。弘之時在江陵，與仄兄子彬謀殺荊州刺史桓石康，以荊州刺史應仄。彬從弟宏知其謀，以告石康，石康收彬殺之，繫弘之於獄。桓玄以弘之非造謀，又白衣無兵眾，原不罪。",
+          "subject_person_mention_id": "c-songshu-048-fuhongzhi:p002:m0080",
+          "object_person_mention_id": "c-songshu-048-fuhongzhi:p002:m0077"
+        }
+      ],
+      "status": "source_attested",
+      "interpretation_note": "依兩端具名原句，無中間父名或共同祖名。",
+      "reviewer": "Codex（AI代理）",
+      "model": null,
+      "human_reviewed": false
+    }
+  ],
   "related_people": {
+    "9ve_klf_w2r": "庾宏（庾彬從弟）",
+    "g3n_ce4_ubd": "庾仄",
     "psj_1tj_ns7": "庾彬"
   },
   "dates": [],
@@ -100,9 +246,107 @@
   "person_ids": [
     "psj_1tj_ns7"
   ],
-  "preferred_relations": [],
+  "preferred_relations": [
+    {
+      "id": "a-song048-bin-ze",
+      "subject_person_id": "psj_1tj_ns7",
+      "object_person_id": "g3n_ce4_ubd",
+      "predicate": "paternal_uncle",
+      "qualifiers": {
+        "source_term": "仄兄子彬",
+        "lineage": "paternal",
+        "generation_difference": -1
+      },
+      "evidence": [
+        {
+          "work_id": "w-songshu",
+          "book_id": "b-songshu-048",
+          "chapter_id": "c-songshu-048-fuhongzhi",
+          "source_id": "s-songshu-048-fuhongzhi-ws1791560",
+          "paragraph_id": "c-songshu-048-fuhongzhi:p002",
+          "quote": "少倜儻有大志，為本州主簿，舉秀才，不行。桓玄將篡，新野人庾仄起兵於南陽，襲雍州刺史馮該，該走。弘之時在江陵，與仄兄子彬謀殺荊州刺史桓石康，以荊州刺史應仄。彬從弟宏知其謀，以告石康，石康收彬殺之，繫弘之於獄。桓玄以弘之非造謀，又白衣無兵眾，原不罪。",
+          "subject_person_mention_id": "c-songshu-048-fuhongzhi:p002:m0058",
+          "object_person_mention_id": "c-songshu-048-fuhongzhi:p002:m0055"
+        }
+      ],
+      "status": "source_attested",
+      "interpretation_note": "依兩端具名原句，無中間父名或共同祖名。",
+      "reviewer": "Codex（AI代理）",
+      "model": null,
+      "human_reviewed": false
+    },
+    {
+      "id": "a-song048-hong-bin",
+      "subject_person_id": "9ve_klf_w2r",
+      "object_person_id": "psj_1tj_ns7",
+      "predicate": "agnatic_cousin",
+      "qualifiers": {
+        "source_term": "彬從弟宏",
+        "kinship_structure": {
+          "lineage": "paternal",
+          "generation_difference": 0,
+          "collateral": true,
+          "distance": null,
+          "common_ancestor_person_id": null,
+          "subject_relative_age": "younger"
+        },
+        "source_clause_binding": {
+          "kind": "named_object_congdi_subject",
+          "start": 77,
+          "end": 81
+        }
+      },
+      "evidence": [
+        {
+          "work_id": "w-songshu",
+          "book_id": "b-songshu-048",
+          "chapter_id": "c-songshu-048-fuhongzhi",
+          "source_id": "s-songshu-048-fuhongzhi-ws1791560",
+          "paragraph_id": "c-songshu-048-fuhongzhi:p002",
+          "quote": "少倜儻有大志，為本州主簿，舉秀才，不行。桓玄將篡，新野人庾仄起兵於南陽，襲雍州刺史馮該，該走。弘之時在江陵，與仄兄子彬謀殺荊州刺史桓石康，以荊州刺史應仄。彬從弟宏知其謀，以告石康，石康收彬殺之，繫弘之於獄。桓玄以弘之非造謀，又白衣無兵眾，原不罪。",
+          "subject_person_mention_id": "c-songshu-048-fuhongzhi:p002:m0080",
+          "object_person_mention_id": "c-songshu-048-fuhongzhi:p002:m0077"
+        }
+      ],
+      "status": "source_attested",
+      "interpretation_note": "依兩端具名原句，無中間父名或共同祖名。",
+      "reviewer": "Codex（AI代理）",
+      "model": null,
+      "human_reviewed": false
+    }
+  ],
   "age_assertions": [],
-  "life_events": [],
+  "life_events": [
+    {
+      "id": "le-song048-fuhongzhi-庾彬",
+      "person_id": "psj_1tj_ns7",
+      "event_type": "death",
+      "source_term": "殺",
+      "source_anchor": {
+        "paragraph_id": "c-songshu-048-fuhongzhi:p002",
+        "start": 94,
+        "end": 95,
+        "surface": "殺"
+      },
+      "date_expression": null,
+      "evidence": [
+        {
+          "work_id": "w-songshu",
+          "book_id": "b-songshu-048",
+          "chapter_id": "c-songshu-048-fuhongzhi",
+          "source_id": "s-songshu-048-fuhongzhi-ws1791560",
+          "paragraph_id": "c-songshu-048-fuhongzhi:p002",
+          "quote": "少倜儻有大志，為本州主簿，舉秀才，不行。桓玄將篡，新野人庾仄起兵於南陽，襲雍州刺史馮該，該走。弘之時在江陵，與仄兄子彬謀殺荊州刺史桓石康，以荊州刺史應仄。彬從弟宏知其謀，以告石康，石康收彬殺之，繫弘之於獄。桓玄以弘之非造謀，又白衣無兵眾，原不罪。",
+          "person_mention_id": "c-songshu-048-fuhongzhi:p002:m0058"
+        }
+      ],
+      "status": "source_attested",
+      "interpretation_note": "按同段人物與次第核所屬卒事。",
+      "reviewer": "Codex（AI代理）",
+      "model": null,
+      "human_reviewed": false
+    }
+  ],
   "life_event_date_decisions": [],
   "selected_life_event_dates": []
 }

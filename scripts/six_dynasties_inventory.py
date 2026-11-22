@@ -143,6 +143,26 @@ def source_paragraphs(lines, layout=None):
         except ImportError:
             from sanguozhi053_layers import project_line
         return [body for line in lines if (body:=project_line(line)[0])]
+    if layout=='sanguozhi054_contiguous_slice':
+        try: from scripts.sanguozhi054_slices import slice_text
+        except ImportError: from sanguozhi054_slices import slice_text
+        return [slice_text(line) for line in lines if line]
+    if layout == 'sanguozhi054_received_with_pei_notes':
+        try:
+            from scripts.sanguozhi054_layers import project_line
+        except ImportError:
+            from sanguozhi054_layers import project_line
+        return [body for line in lines if (body:=project_line(line)[0])]
+    if layout=='sanguozhi055_contiguous_slice':
+        try: from scripts.sanguozhi055_slices import slice_text
+        except ImportError: from sanguozhi055_slices import slice_text
+        return [slice_text(line) for line in lines if line]
+    if layout == 'sanguozhi055_received_with_pei_notes':
+        try:
+            from scripts.sanguozhi055_layers import project_line
+        except ImportError:
+            from sanguozhi055_layers import project_line
+        return [body for line in lines if (body:=project_line(line)[0])]
     if layout == 'jin065_indented_text':
         paragraphs = []
         for line in lines:
@@ -342,6 +362,9 @@ def verify(root=ROOT):
     except ImportError:
         from consort_volume_coverage import verify_covered_consorts
     verify_covered_consorts(inventory, witnesses)
+    try: from scripts.qi020_consort_witnesses import cover as cover_qi_consorts
+    except ImportError: from qi020_consort_witnesses import cover as cover_qi_consorts
+    cover_qi_consorts(inventory,witnesses)
     return candidates, counts
 
 

@@ -1,0 +1,110 @@
+{
+  "format_version": "0.2",
+  "record_type": "person_assertion_set",
+  "chapter_id": "c-songshu-048-zhu-succession",
+  "assertions": [
+    {
+      "id": "a-song048-jingfu-lingshi",
+      "subject_person_id": "wip_vh5_2zm_AA",
+      "object_person_id": "wip_vh5_2zm_A",
+      "predicate": "father",
+      "qualifiers": {
+        "source_term": "子景符嗣",
+        "lineage": "paternal"
+      },
+      "evidence": [
+        {
+          "work_id": "w-songshu",
+          "book_id": "b-songshu-048",
+          "chapter_id": "c-songshu-048-zhu-succession",
+          "source_id": "s-songshu-048-zhu-succession-ws1791560",
+          "paragraph_id": "c-songshu-048-zhu-succession:p001",
+          "quote": "虜執齡石及敬先還長安，見殺，時年四十。",
+          "object_person_mention_id": "c-songshu-048-zhu-succession:p001:m0002"
+        },
+        {
+          "work_id": "w-songshu",
+          "book_id": "b-songshu-048",
+          "chapter_id": "c-songshu-048-zhu-succession",
+          "source_id": "s-songshu-048-zhu-succession-ws1791560",
+          "paragraph_id": "c-songshu-048-zhu-succession:p002",
+          "quote": "子景符嗣。景符卒，子祖宣嗣，坐輒之封，八年不反，及不分姑國秩，奪爵。更以祖宣弟隆紹封。齊受禪，國除。",
+          "subject_person_mention_id": "c-songshu-048-zhu-succession:p002:m0001"
+        }
+      ],
+      "context": {
+        "kind": "adjacent_paragraphs",
+        "paragraph_ids": [
+          "c-songshu-048-zhu-succession:p001",
+          "c-songshu-048-zhu-succession:p002"
+        ]
+      },
+      "status": "source_attested",
+      "interpretation_note": "前段結尾為齡石見殺，後段緊接子景符嗣並續敘其子祖宣；兩段在固定原本僅隔空行。",
+      "reviewer": "Codex（AI代理）",
+      "model": null,
+      "human_reviewed": false
+    },
+    {
+      "id": "a-song048-zuxuan-jingfu",
+      "subject_person_id": "wip_vh5_2zm_AAA",
+      "object_person_id": "wip_vh5_2zm_AA",
+      "predicate": "father",
+      "qualifiers": {
+        "source_term": "景符卒，子祖宣嗣",
+        "lineage": "paternal"
+      },
+      "evidence": [
+        {
+          "work_id": "w-songshu",
+          "book_id": "b-songshu-048",
+          "chapter_id": "c-songshu-048-zhu-succession",
+          "source_id": "s-songshu-048-zhu-succession-ws1791560",
+          "paragraph_id": "c-songshu-048-zhu-succession:p002",
+          "quote": "子景符嗣。景符卒，子祖宣嗣，坐輒之封，八年不反，及不分姑國秩，奪爵。更以祖宣弟隆紹封。齊受禪，國除。",
+          "subject_person_mention_id": "c-songshu-048-zhu-succession:p002:m0010",
+          "object_person_mention_id": "c-songshu-048-zhu-succession:p002:m0001"
+        }
+      ],
+      "status": "source_attested",
+      "interpretation_note": "景符卒，其子祖宣承襲。",
+      "reviewer": "Codex（AI代理）",
+      "model": null,
+      "human_reviewed": false
+    },
+    {
+      "id": "a-song048-long-zuxuan",
+      "subject_person_id": "wip_vh5_2zm_AAB",
+      "object_person_id": "wip_vh5_2zm_AAA",
+      "predicate": "brother",
+      "qualifiers": {
+        "source_term": "祖宣弟隆",
+        "relative_birth_order": {
+          "older_person_id": "wip_vh5_2zm_AAA",
+          "younger_person_id": "wip_vh5_2zm_AAB",
+          "operator": "lt",
+          "scope": "siblings",
+          "older_ordinal": null,
+          "younger_ordinal": null
+        }
+      },
+      "evidence": [
+        {
+          "work_id": "w-songshu",
+          "book_id": "b-songshu-048",
+          "chapter_id": "c-songshu-048-zhu-succession",
+          "source_id": "s-songshu-048-zhu-succession-ws1791560",
+          "paragraph_id": "c-songshu-048-zhu-succession:p002",
+          "quote": "子景符嗣。景符卒，子祖宣嗣，坐輒之封，八年不反，及不分姑國秩，奪爵。更以祖宣弟隆紹封。齊受禪，國除。",
+          "subject_person_mention_id": "c-songshu-048-zhu-succession:p002:m0039",
+          "object_person_mention_id": "c-songshu-048-zhu-succession:p002:m0010"
+        }
+      ],
+      "status": "source_attested",
+      "interpretation_note": "祖宣弟隆，兄失爵後紹封。",
+      "reviewer": "Codex（AI代理）",
+      "model": null,
+      "human_reviewed": false
+    }
+  ]
+}

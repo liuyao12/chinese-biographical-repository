@@ -6,7 +6,8 @@
   "identity_note": "四晉完整選定單元來源內身份暫定；不把近似人名、同姓、遠祖報說變成近親或同人。",
   "review": "ai_provisional",
   "names": [
-    "譙道福"
+    "譙道福",
+    "道福"
   ],
   "titles": [
     {
@@ -93,6 +94,69 @@
       "book_id": "b-songshu-047",
       "chapter_id": "c-songshu-047-liujingxuan",
       "source_id": "s-songshu-047-liujingxuan-ws2190557",
+      "work_title": "宋書"
+    },
+    {
+      "number": 48,
+      "category": "",
+      "title": "朱齡石",
+      "paragraph_id": "c-songshu-048-zhulingshi:p007",
+      "count": 4,
+      "raw_count": 4,
+      "duplicate_count": 0,
+      "counting_policy": "independent_fixed_witness_occurrences",
+      "quote": "羸弱乘高艦十餘，由內水向黃虎。」眾軍乃倍道兼行，譙縱果備內水，使其大將譙道福以重兵戍涪城，遣其前將軍秦州刺史侯輝、尚書僕射蜀郡太守譙詵等率眾萬餘屯彭模，夾水為城。",
+      "paragraph_ids": [
+        "c-songshu-048-zhulingshi:p007",
+        "c-songshu-048-zhulingshi:p009"
+      ],
+      "mention_ids": [
+        "c-songshu-048-zhulingshi:p007:m0299",
+        "c-songshu-048-zhulingshi:p009:m0021",
+        "c-songshu-048-zhulingshi:p009:m0076",
+        "c-songshu-048-zhulingshi:p009:m0099"
+      ],
+      "mention_paragraph_ids": {
+        "c-songshu-048-zhulingshi:p007:m0299": "c-songshu-048-zhulingshi:p007",
+        "c-songshu-048-zhulingshi:p009:m0021": "c-songshu-048-zhulingshi:p009",
+        "c-songshu-048-zhulingshi:p009:m0076": "c-songshu-048-zhulingshi:p009",
+        "c-songshu-048-zhulingshi:p009:m0099": "c-songshu-048-zhulingshi:p009"
+      },
+      "mention_id": "c-songshu-048-zhulingshi:p007:m0299",
+      "occurrence_groups": [
+        {
+          "canonical_mention_id": "c-songshu-048-zhulingshi:p007:m0299",
+          "mention_ids": [
+            "c-songshu-048-zhulingshi:p007:m0299"
+          ],
+          "kind": "paragraph"
+        },
+        {
+          "canonical_mention_id": "c-songshu-048-zhulingshi:p009:m0021",
+          "mention_ids": [
+            "c-songshu-048-zhulingshi:p009:m0021"
+          ],
+          "kind": "paragraph"
+        },
+        {
+          "canonical_mention_id": "c-songshu-048-zhulingshi:p009:m0076",
+          "mention_ids": [
+            "c-songshu-048-zhulingshi:p009:m0076"
+          ],
+          "kind": "paragraph"
+        },
+        {
+          "canonical_mention_id": "c-songshu-048-zhulingshi:p009:m0099",
+          "mention_ids": [
+            "c-songshu-048-zhulingshi:p009:m0099"
+          ],
+          "kind": "paragraph"
+        }
+      ],
+      "work_id": "w-songshu",
+      "book_id": "b-songshu-048",
+      "chapter_id": "c-songshu-048-zhulingshi",
+      "source_id": "s-songshu-048-zhulingshi-ws1791560",
       "work_title": "宋書"
     },
     {
@@ -186,6 +250,29 @@
         "raw_path": "source-evidence/nan023-wanghui/ws2190557.wikitext",
         "raw_file_sha256": "cc75864d017c88ec8c285b2b7772125dc7b10e0b49eed8f8dfa472db5db8cc20"
       }
+    },
+    {
+      "chapter_id": "c-songshu-048-zhulingshi",
+      "work_id": "w-songshu",
+      "book_id": "b-songshu-048",
+      "source_id": "s-songshu-048-zhulingshi-ws1791560",
+      "source": {
+        "title": "朱齡石",
+        "provider": "Wikisource",
+        "permalink": "https://zh.wikisource.org/w/index.php?oldid=1791560",
+        "url": "https://zh.wikisource.org/w/index.php?oldid=1791560",
+        "revision_id": 1791560,
+        "edition": "維基文庫固定修訂",
+        "accessed_on": "2026-11-21",
+        "review_status": "text_checked",
+        "image_verified": false,
+        "rights": "古代原文；數位轉錄依維基文庫授權。",
+        "license_url": "https://creativecommons.org/licenses/by-sa/4.0/",
+        "extent": "朱齡石",
+        "text_scope": "complete_biography_unit",
+        "raw_path": "source-evidence/song046-zhang-complete/external/song048-ws1791560.wikitext",
+        "raw_file_sha256": "0b275f284af779a0c075ee4741b527fb1dd4a5921c3d3f3ea167939e0e50a916"
+      }
     }
   ],
   "relations": [],
@@ -199,7 +286,37 @@
   ],
   "preferred_relations": [],
   "age_assertions": [],
-  "life_events": [],
+  "life_events": [
+    {
+      "id": "le-song048-zhulingshi-譙道福",
+      "person_id": "o3z_vpz_572",
+      "event_type": "death",
+      "source_term": "斬",
+      "source_anchor": {
+        "paragraph_id": "c-songshu-048-zhulingshi:p009",
+        "start": 120,
+        "end": 121,
+        "surface": "斬"
+      },
+      "date_expression": null,
+      "evidence": [
+        {
+          "work_id": "w-songshu",
+          "book_id": "b-songshu-048",
+          "chapter_id": "c-songshu-048-zhulingshi",
+          "source_id": "s-songshu-048-zhulingshi-ws1791560",
+          "paragraph_id": "c-songshu-048-zhulingshi:p009",
+          "quote": "龍驤將軍臧熹至廣漢，病卒。朱林至廣漢，復破譙道福，別軍乘船陷牛脾城，斬其大將譙撫。譙縱聞諸處盡敗，奔于涪城，巴西人王志斬送。偽尚書令馬躭封府庫以待王師。道福聞彭模不守，率精銳五千兼行來赴，聞縱已走，道福眾亦散，乃逃于獠中，巴西民杜瑤縛送之，斬于軍門。",
+          "person_mention_id": "c-songshu-048-zhulingshi:p009:m0021"
+        }
+      ],
+      "status": "source_attested",
+      "interpretation_note": "按同段人物與次第核所屬卒事。",
+      "reviewer": "Codex（AI代理）",
+      "model": null,
+      "human_reviewed": false
+    }
+  ],
   "life_event_date_decisions": [],
   "selected_life_event_dates": []
 }

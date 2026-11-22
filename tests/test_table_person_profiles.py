@@ -39,12 +39,25 @@ class TablePersonProfilesTests(unittest.TestCase):
             self.assertEqual(record['relations'],[])
             self.assertTrue(record['table_occurrences'])
     def test_zhang_yi_links_actual_cross_chapter_passages(self):
-        profile=json.loads((ROOT/'data/corpus/profiles/uq6_74z_vtv.json').read_text())
-        occurrences=profile['occurrences'];self.assertTrue({5,40,70}.issubset({p['number'] for p in occurrences}))
+        profile = json.loads((ROOT / 'data/corpus/profiles/uq6_74z_vtv.json').read_text())
+        occurrences = profile['occurrences']
+        self.assertTrue({5, 40, 70}.issubset(
+            {row['number'] for row in occurrences if row['work_id'] == 'w-shiji'}))
+        works = json.loads((ROOT / 'data/corpus/works.json').read_text())['works']
+        paths = {}
+        for work in works:
+            if work['id'] not in {row['work_id'] for row in occurrences}:
+                continue
+            catalog = json.loads((ROOT / work['catalog_path']).read_text())
+            for chapter in catalog['chapters']:
+                for text in [chapter, *chapter.get('excerpts', [])]:
+                    if text.get('chapter_id') and text.get('path'):
+                        paths[work['id'], text['chapter_id']] = text['path']
         for entry in occurrences:
-            chapter=json.loads((ROOT/'data/corpus/shiji'/f'{entry["number"]:03}.json').read_text())
-            paragraph=next(p for p in chapter['paragraphs'] if p['id']==entry['paragraph_id'])
-            self.assertIn(entry['quote'],paragraph['text'])
+            with self.subTest(chapter=entry['chapter_id'], paragraph=entry['paragraph_id']):
+                chapter = json.loads((ROOT / paths[entry['work_id'], entry['chapter_id']]).read_text())
+                paragraph = next(p for p in chapter['paragraphs'] if p['id'] == entry['paragraph_id'])
+                self.assertIn(entry['quote'], paragraph['text'])
 
     def test_reader_retains_commentary_provenance_without_adopting_readings(self):
         for pid in ('jb2_tak_5p8', 'lap_qc0_yqm', 'puu_6hs_m4f'):
