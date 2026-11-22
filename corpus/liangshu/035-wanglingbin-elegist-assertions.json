@@ -1,0 +1,82 @@
+{
+  "format_version": "0.2",
+  "record_type": "person_assertion_set",
+  "chapter_id": "c-liangshu-035-wanglingbin-elegist",
+  "assertions": [
+    {
+      "id": "a-liang007-wanglingbin-b-dad",
+      "subject_person_id": "ijh_3fs_6u2_A",
+      "object_person_id": "ijh_3fs_6u2",
+      "predicate": "father",
+      "qualifiers": {
+        "source_term": "齊豫章文獻王嶷第二子",
+        "liang007_wanglingbin_reading": "b-dad",
+        "lineage": "paternal",
+        "birth_order": {
+          "parent_person_id": "ijh_3fs_6u2",
+          "scope": "sons_of_parent",
+          "ordinal": 2,
+          "position": "unspecified",
+          "source_term": "第二子",
+          "interpretation_status": "source_attested"
+        }
+      },
+      "evidence": [
+        {
+          "work_id": "w-liangshu",
+          "book_id": "b-liangshu-035",
+          "source_id": "s-liangshu-035-wanglingbin-elegist-ws1552297",
+          "chapter_id": "c-liangshu-035-wanglingbin-elegist",
+          "paragraph_id": "c-liangshu-035-wanglingbin-elegist:p001",
+          "quote": "蕭子恪，字景沖，蘭陵人，齊豫章文獻王嶷第二子也。",
+          "subject_person_mention_id": "c-liangshu-035-wanglingbin-elegist:p001:m0000",
+          "object_person_mention_id": "c-liangshu-035-wanglingbin-elegist:p001:m0018",
+          "relationship_anchor": {
+            "paragraph_id": "c-liangshu-035-wanglingbin-elegist:p001",
+            "surface": "齊豫章文獻王嶷第二子",
+            "start": 12,
+            "end": 22
+          }
+        }
+      ],
+      "status": "source_attested",
+      "interpretation_note": "子恪是齊豫章王嶷第二子。",
+      "reviewer": "Codex（AI 代理）",
+      "human_reviewed": false,
+      "model": null
+    },
+    {
+      "id": "a-liang007-wanglingbin-b-brother",
+      "subject_person_id": "ijh_3fs_6u2_B",
+      "object_person_id": "ijh_3fs_6u2_A",
+      "predicate": "brother",
+      "qualifiers": {
+        "source_term": "子恪第六弟",
+        "liang007_wanglingbin_reading": "b-brother"
+      },
+      "evidence": [
+        {
+          "work_id": "w-liangshu",
+          "book_id": "b-liangshu-035",
+          "source_id": "s-liangshu-035-wanglingbin-elegist-ws1552297",
+          "chapter_id": "c-liangshu-035-wanglingbin-elegist",
+          "paragraph_id": "c-liangshu-035-wanglingbin-elegist:p002",
+          "quote": "子範字景則，子恪第六弟也。",
+          "subject_person_mention_id": "c-liangshu-035-wanglingbin-elegist:p002:m0000",
+          "object_person_mention_id": "c-liangshu-035-wanglingbin-elegist:p002:m0006",
+          "relationship_anchor": {
+            "paragraph_id": "c-liangshu-035-wanglingbin-elegist:p002",
+            "surface": "子恪第六弟",
+            "start": 6,
+            "end": 11
+          }
+        }
+      ],
+      "status": "source_attested",
+      "interpretation_note": "第六弟是相對子恪的弟稱，保留源式。",
+      "reviewer": "Codex（AI 代理）",
+      "human_reviewed": false,
+      "model": null
+    }
+  ]
+}

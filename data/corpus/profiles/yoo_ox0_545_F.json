@@ -14,7 +14,9 @@
     "之",
     "臣",
     "其",
-    "荀公"
+    "荀公",
+    "荀谞",
+    "谞"
   ],
   "titles": [
     {
@@ -1129,6 +1131,69 @@
       "chapter_id": "c-jinshu-039-wangxun-feng",
       "source_id": "s-jinshu-039-wangxun-feng",
       "work_title": "晉書"
+    },
+    {
+      "number": 57,
+      "category": "",
+      "title": "虞翻傳",
+      "paragraph_id": "c-sanguozhi-057-yufan:line027-pei01-01",
+      "count": 4,
+      "raw_count": 4,
+      "duplicate_count": 0,
+      "counting_policy": "independent_fixed_witness_occurrences",
+      "quote": "，莫过於易。自汉初以来，海内英才，其读易者，解之率少。至孝灵之际，颍川荀谞号为知易，臣得其注，有愈俗儒，至所说西南得朋，东北丧朋，颠倒反逆，了不可知。孔子叹《易》曰：‘知变化之道者，其知神之所为乎！’以美大衍四象之作，而上为章首，尤可怪笑。又南郡太守马融，名有俊才，其所解释",
+      "paragraph_ids": [
+        "c-sanguozhi-057-yufan:line027-pei01-01",
+        "c-sanguozhi-057-yufan:line027-pei01-02"
+      ],
+      "mention_ids": [
+        "c-sanguozhi-057-yufan:line027-pei01-01:m0382",
+        "c-sanguozhi-057-yufan:line027-pei01-01:m0488",
+        "c-sanguozhi-057-yufan:line027-pei01-02:m0115",
+        "c-sanguozhi-057-yufan:line027-pei01-02:m0118"
+      ],
+      "mention_paragraph_ids": {
+        "c-sanguozhi-057-yufan:line027-pei01-01:m0382": "c-sanguozhi-057-yufan:line027-pei01-01",
+        "c-sanguozhi-057-yufan:line027-pei01-01:m0488": "c-sanguozhi-057-yufan:line027-pei01-01",
+        "c-sanguozhi-057-yufan:line027-pei01-02:m0115": "c-sanguozhi-057-yufan:line027-pei01-02",
+        "c-sanguozhi-057-yufan:line027-pei01-02:m0118": "c-sanguozhi-057-yufan:line027-pei01-02"
+      },
+      "mention_id": "c-sanguozhi-057-yufan:line027-pei01-01:m0382",
+      "occurrence_groups": [
+        {
+          "canonical_mention_id": "c-sanguozhi-057-yufan:line027-pei01-01:m0382",
+          "mention_ids": [
+            "c-sanguozhi-057-yufan:line027-pei01-01:m0382"
+          ],
+          "kind": "paragraph"
+        },
+        {
+          "canonical_mention_id": "c-sanguozhi-057-yufan:line027-pei01-01:m0488",
+          "mention_ids": [
+            "c-sanguozhi-057-yufan:line027-pei01-01:m0488"
+          ],
+          "kind": "paragraph"
+        },
+        {
+          "canonical_mention_id": "c-sanguozhi-057-yufan:line027-pei01-02:m0115",
+          "mention_ids": [
+            "c-sanguozhi-057-yufan:line027-pei01-02:m0115"
+          ],
+          "kind": "paragraph"
+        },
+        {
+          "canonical_mention_id": "c-sanguozhi-057-yufan:line027-pei01-02:m0118",
+          "mention_ids": [
+            "c-sanguozhi-057-yufan:line027-pei01-02:m0118"
+          ],
+          "kind": "paragraph"
+        }
+      ],
+      "work_id": "w-sanguozhi",
+      "book_id": "b-sanguozhi-057",
+      "chapter_id": "c-sanguozhi-057-yufan",
+      "source_id": "s-sanguozhi-057-yufan",
+      "work_title": "三國志"
     },
     {
       "number": 62,
@@ -17340,6 +17405,33 @@
           "character_conversion": "none",
           "extraction_note": "正文兩完整傳主分段，古注十四層另段；去¶、頁碼、古注逐行括號包裝，原字不校改。完整raw與逐字runs另存。"
         }
+      }
+    },
+    {
+      "chapter_id": "c-sanguozhi-057-yufan",
+      "work_id": "w-sanguozhi",
+      "book_id": "b-sanguozhi-057",
+      "source_id": "s-sanguozhi-057-yufan",
+      "source": {
+        "title": "三國志卷五十七·吳書十二",
+        "provider": "Wikisource",
+        "url": "https://zh.wikisource.org/w/index.php?oldid=2638131",
+        "permalink": "https://zh.wikisource.org/w/index.php?oldid=2638131",
+        "revision_id": 2638131,
+        "accessed_on": "2026-11-21",
+        "edition": "維基文庫固定修訂，裴注與正文分層。",
+        "extent": "第11至31行。",
+        "text_scope": "partial_chapter",
+        "review_status": "text_checked",
+        "image_verified": false,
+        "rights": "古籍原文，維基文庫轉錄。",
+        "license_url": "https://creativecommons.org/licenses/by-sa/4.0/",
+        "raw_path": "source-evidence/sanguozhi057-yu/sanguozhi057-ws2638131.wikitext",
+        "raw_file_sha256": "6848b2dab019436efffdbf207f571e343e9a9624a7333c6767a3930163fe2f99",
+        "wikitext_sha256": "6848b2dab019436efffdbf207f571e343e9a9624a7333c6767a3930163fe2f99",
+        "collation_witnesses": [
+          "source-evidence/sanguozhi057-yufan/reading.json"
+        ]
       }
     }
   ],

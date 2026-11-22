@@ -1,0 +1,99 @@
+{
+  "record_type": "fixed_source_complete_item_review",
+  "reviewer": "Codex（AI代理）",
+  "model": null,
+  "human_reviewed": false,
+  "external_witnesses": [
+    {
+      "revision_id": 2044621,
+      "raw_path": "source-evidence/liang016-complete/external/qi041-ws2044621.wikitext",
+      "line": 12,
+      "start": 14,
+      "end": 35,
+      "source_quote": "祖褘，晉琅邪王國郎中令。父暢，宋會稽太守。",
+      "raw_sha256": "d5e0dbaacce33066aaff7fe5e3e0a13ceaa99b14cbf1cd0700fcdb25241ff963",
+      "interpretation": "宋46張暢官為會稽太守，其父同郡、同官，宋46傳異作偉。"
+    },
+    {
+      "revision_id": 8730255,
+      "raw_path": "source-evidence/liang016-complete/external/nanshi031-ws8730255.wikitext",
+      "line": 163,
+      "start": 89,
+      "end": 103,
+      "source_quote": "州人徐道角等夜襲州城，乃害之",
+      "raw_sha256": "5c339f68f25ea6e733b75a666cc4d3ae1ad6bbcae823d4cb203ee9b9b2e01447",
+      "interpretation": "徐道角及夜襲的另一記載。"
+    },
+    {
+      "revision_id": 2087360,
+      "raw_path": "source-evidence/liang016-complete/external/liang043-ws2087360.wikitext",
+      "line": 33,
+      "start": 2,
+      "end": 16,
+      "source_quote": "張嵊字四山，鎮北將軍稷之子也",
+      "raw_sha256": "ab1a49e1b8d3d9ab9120336efa70cf35d073bd45a713402d3d0f95ead22f9d73",
+      "interpretation": "證別傳所在、表字及親父。"
+    },
+    {
+      "revision_id": 8730255,
+      "raw_path": "source-evidence/liang016-complete/external/nanshi031-ws8730255.wikitext",
+      "line": 171,
+      "start": 27,
+      "end": 31,
+      "source_quote": "卷字令遠",
+      "raw_sha256": "5c339f68f25ea6e733b75a666cc4d3ae1ad6bbcae823d4cb203ee9b9b2e01447",
+      "interpretation": "張卷，與稷、充、融聯稱。"
+    }
+  ],
+  "print_readings": [
+    {
+      "url": "https://upload.wikimedia.org/wikipedia/commons/1/17/NLC892-411999017142-12617_%E4%BA%8C%E5%8D%81%E5%9B%9B%E5%8F%B2_%E7%AC%AC165%E5%86%8A.pdf#page=54",
+      "catalog_record": "https://commons.wikimedia.org/wiki/File:NLC892-411999017142-12617_%E4%BA%8C%E5%8D%81%E5%9B%9B%E5%8F%B2_%E7%AC%AC165%E5%86%8A.pdf",
+      "pdf_sha1": "03661bdc8af32f3ab8c99054e7c4b67f3f4534d0",
+      "pdf_sha256": "e2b5c3248f7b7a898d747c208215c80fc3be3775a1a38fcc2666a871995086e5",
+      "image_sha256": "ad780e2848a93076809d9faa99c9e240c95dc7bdb3aa09a01c7aa1ea5ece0f76",
+      "edition": "清乾隆武英殿本《梁書》，國圖第165冊。",
+      "page": 54,
+      "half": "R",
+      "folio": "六下",
+      "columns_from_right": "6–9",
+      "source_quote": "稷長女楚瑗適會稽孔氏無子歸宗至稷見害女以身蔽刃先父卒稷子嵊別有傳",
+      "reading": "刻本聯接楚瑗、嵊別傳及卷從兄。"
+    }
+  ],
+  "boundaries": [],
+  "chronology": [],
+  "readings": [
+    {
+      "id": "c-nanshi-031-zhangji-mothers:birth_mother1-14",
+      "kind": "birth_mother",
+      "person_id": "ant_dk4_dds",
+      "source_quote": "所生母劉",
+      "reading": "南史明載生母劉；梁書首段兩處記母存歿。",
+      "note": "南史明載生母劉；梁書首段兩處記母存歿。",
+      "paragraph_id": "c-nanshi-031-zhangji-mothers:p001",
+      "start_codepoint": 14,
+      "end_codepoint": 18,
+      "human_reviewed": false,
+      "object_person_id": "kkw_8m4_7dv",
+      "predicate": "mother",
+      "maternal_role": "biological"
+    },
+    {
+      "id": "c-nanshi-031-zhangji-mothers:legal_mother2-3",
+      "kind": "legal_mother",
+      "person_id": "ant_dk4_dds",
+      "source_quote": "嫡母丘",
+      "reading": "與父永相繼殂者為嫡母丘。",
+      "note": "與父永相繼殂者為嫡母丘。",
+      "paragraph_id": "c-nanshi-031-zhangji-mothers:p002",
+      "start_codepoint": 3,
+      "end_codepoint": 6,
+      "human_reviewed": false,
+      "object_person_id": "tt9_0bz_xoo",
+      "predicate": "legal_mother",
+      "maternal_role": "嫡母"
+    }
+  ],
+  "identity_limits": []
+}

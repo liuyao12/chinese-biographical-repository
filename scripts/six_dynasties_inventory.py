@@ -20,6 +20,9 @@ def received_text(line):
 def source_paragraphs(lines, layout=None):
     """核對固定轉錄選用的首行空格及跨段引文模板。"""
     lines = [line for line in lines if line.strip()]
+    if layout == 'wanglingbin_annotated_dabao_year':
+        assert len(lines)==1 and lines[0].count('{{YL|大寶元年|550年}}')==1
+        return [received_text(lines[0].replace('{{YL|大寶元年|550年}}','大寶元年'))]
     if layout == 'nanqi043_xieyue_glyph':
         return [received_text(line.removeprefix('　　').replace('{{!|𤅢|左「氵」右「𦿈」}}', '𤅢')) for line in lines]
     if layout == 'wikisource_inline_phonetic_glosses':
@@ -89,6 +92,12 @@ def source_paragraphs(lines, layout=None):
         except ImportError:
             from sanguozhi058_layers import project_line
         return [project_line(line)[0] for line in lines]
+    if layout == 'sanguozhi057_received_with_pei_notes':
+        try:
+            from scripts.sanguozhi057_layers import project_line
+        except ImportError:
+            from sanguozhi057_layers import project_line
+        return [body for line in lines if (body:=project_line(line)[0])]
     if layout == 'jin065_indented_text':
         paragraphs = []
         for line in lines:

@@ -626,6 +626,41 @@
       "work_title": "三國志"
     },
     {
+      "number": 57,
+      "category": "",
+      "title": "張溫傳",
+      "paragraph_id": "c-sanguozhi-057-zhangwen:line058-pei01-03",
+      "count": 1,
+      "raw_count": 1,
+      "duplicate_count": 0,
+      "counting_policy": "independent_fixed_witness_occurrences",
+      "quote": "《文士传》曰：温姊妹三人皆有节行，为温事，已嫁者皆见录夺。其中妹先適顾承，官以许嫁丁氏，成婚有日，遂饮药而死。吴朝嘉叹，乡人图画，为之赞颂云。",
+      "paragraph_ids": [
+        "c-sanguozhi-057-zhangwen:line058-pei01-03"
+      ],
+      "mention_ids": [
+        "c-sanguozhi-057-zhangwen:line058-pei01-03:m0034"
+      ],
+      "mention_paragraph_ids": {
+        "c-sanguozhi-057-zhangwen:line058-pei01-03:m0034": "c-sanguozhi-057-zhangwen:line058-pei01-03"
+      },
+      "mention_id": "c-sanguozhi-057-zhangwen:line058-pei01-03:m0034",
+      "occurrence_groups": [
+        {
+          "canonical_mention_id": "c-sanguozhi-057-zhangwen:line058-pei01-03:m0034",
+          "mention_ids": [
+            "c-sanguozhi-057-zhangwen:line058-pei01-03:m0034"
+          ],
+          "kind": "paragraph"
+        }
+      ],
+      "work_id": "w-sanguozhi",
+      "book_id": "b-sanguozhi-057",
+      "chapter_id": "c-sanguozhi-057-zhangwen",
+      "source_id": "s-sanguozhi-057-zhangwen",
+      "work_title": "三國志"
+    },
+    {
       "number": 58,
       "category": "",
       "title": "陸遜傳",
@@ -827,6 +862,33 @@
       }
     },
     {
+      "chapter_id": "c-sanguozhi-057-zhangwen",
+      "work_id": "w-sanguozhi",
+      "book_id": "b-sanguozhi-057",
+      "source_id": "s-sanguozhi-057-zhangwen",
+      "source": {
+        "title": "三國志卷五十七·吳書十二",
+        "provider": "Wikisource",
+        "url": "https://zh.wikisource.org/w/index.php?oldid=2638131",
+        "permalink": "https://zh.wikisource.org/w/index.php?oldid=2638131",
+        "revision_id": 2638131,
+        "accessed_on": "2026-11-21",
+        "edition": "維基文庫固定修訂，裴注與正文分層。",
+        "extent": "第42至58行。",
+        "text_scope": "partial_chapter",
+        "review_status": "text_checked",
+        "image_verified": false,
+        "rights": "古籍原文，維基文庫轉錄。",
+        "license_url": "https://creativecommons.org/licenses/by-sa/4.0/",
+        "raw_path": "source-evidence/sanguozhi057-yu/sanguozhi057-ws2638131.wikitext",
+        "raw_file_sha256": "6848b2dab019436efffdbf207f571e343e9a9624a7333c6767a3930163fe2f99",
+        "wikitext_sha256": "6848b2dab019436efffdbf207f571e343e9a9624a7333c6767a3930163fe2f99",
+        "collation_witnesses": [
+          "source-evidence/sanguozhi057-zhangwen/reading.json"
+        ]
+      }
+    },
+    {
       "chapter_id": "c-sanguozhi-058-luxun",
       "work_id": "w-sanguozhi",
       "book_id": "b-sanguozhi-058",
@@ -988,10 +1050,37 @@
       "reviewer": "Codex（AI 代理）",
       "human_reviewed": false,
       "model": null
+    },
+    {
+      "id": "a-wu057-zhangwen-3",
+      "subject_person_id": "qcl_3n3_fbn",
+      "object_person_id": "syc_ik6_bq5_**AAB",
+      "predicate": "spouse",
+      "qualifiers": {
+        "source_term": "妹先適顾承"
+      },
+      "evidence": [
+        {
+          "work_id": "w-sanguozhi",
+          "book_id": "b-sanguozhi-057",
+          "chapter_id": "c-sanguozhi-057-zhangwen",
+          "source_id": "s-sanguozhi-057-zhangwen",
+          "paragraph_id": "c-sanguozhi-057-zhangwen:line058-pei01-03",
+          "quote": "《文士传》曰：温姊妹三人皆有节行，为温事，已嫁者皆见录夺。其中妹先適顾承，官以许嫁丁氏，成婚有日，遂饮药而死。吴朝嘉叹，乡人图画，为之赞颂云。",
+          "subject_person_mention_id": "c-sanguozhi-057-zhangwen:line058-pei01-03:m0031",
+          "object_person_mention_id": "c-sanguozhi-057-zhangwen:line058-pei01-03:m0034"
+        }
+      ],
+      "interpretation_note": "以此來源所述兩端為據。",
+      "status": "source_attested",
+      "reviewer": "Codex（AI 代理）",
+      "human_reviewed": false,
+      "model": null
     }
   ],
   "related_people": {
     "36u_j3u_i3z": "陸瑁",
+    "qcl_3n3_fbn": "張氏〔張溫妹、顧承妻〕",
     "syc_ik6_bq5_**A": "顧雍",
     "syc_ik6_bq5_**AA": "顧邵",
     "syc_ik6_bq5_**AAA": "顧譚",
@@ -1228,6 +1317,32 @@
         }
       ],
       "interpretation_note": "此條按本句所明言。",
+      "status": "source_attested",
+      "reviewer": "Codex（AI 代理）",
+      "human_reviewed": false,
+      "model": null
+    },
+    {
+      "id": "a-wu057-zhangwen-3",
+      "subject_person_id": "qcl_3n3_fbn",
+      "object_person_id": "syc_ik6_bq5_**AAB",
+      "predicate": "spouse",
+      "qualifiers": {
+        "source_term": "妹先適顾承"
+      },
+      "evidence": [
+        {
+          "work_id": "w-sanguozhi",
+          "book_id": "b-sanguozhi-057",
+          "chapter_id": "c-sanguozhi-057-zhangwen",
+          "source_id": "s-sanguozhi-057-zhangwen",
+          "paragraph_id": "c-sanguozhi-057-zhangwen:line058-pei01-03",
+          "quote": "《文士传》曰：温姊妹三人皆有节行，为温事，已嫁者皆见录夺。其中妹先適顾承，官以许嫁丁氏，成婚有日，遂饮药而死。吴朝嘉叹，乡人图画，为之赞颂云。",
+          "subject_person_mention_id": "c-sanguozhi-057-zhangwen:line058-pei01-03:m0031",
+          "object_person_mention_id": "c-sanguozhi-057-zhangwen:line058-pei01-03:m0034"
+        }
+      ],
+      "interpretation_note": "以此來源所述兩端為據。",
       "status": "source_attested",
       "reviewer": "Codex（AI 代理）",
       "human_reviewed": false,

@@ -1,0 +1,71 @@
+{
+  "format_version": "0.2",
+  "record_type": "person_life_event_assertion_set",
+  "chapter_id": "c-liangshu-007-wanglingbin",
+  "events": [
+    {
+      "id": "le-liang007-wanglingbin-liang-dateline-death",
+      "person_id": "7r6_k52_qji_ABAAAAEAAAB",
+      "event_type": "death",
+      "source_term": "薨",
+      "source_anchor": {
+        "paragraph_id": "c-liangshu-007-wanglingbin:p002",
+        "surface": "薨",
+        "start": 76,
+        "end": 77
+      },
+      "date_expression": "太清三年",
+      "evidence": [
+        {
+          "work_id": "w-liangshu",
+          "book_id": "b-liangshu-007",
+          "source_id": "s-liangshu-007-wanglingbin-ws1566494",
+          "chapter_id": "c-liangshu-007-wanglingbin",
+          "paragraph_id": "c-liangshu-007-wanglingbin:p002",
+          "quote": "后幼而柔明淑德，叔父暕見之曰：「吾家女師也。」天監十一年，拜晉安王妃。生哀太子大器，南郡王大連，長山公主妙䂮。中大通三年十月，拜皇太子妃。太清三年三月，薨于永福省，時年四十五。其年，太宗卽位，追崇爲皇后，諡曰簡。大寶元年九月，葬莊陵。先是詔曰：「簡皇后窀穸有期。昔西京霸陵，因山爲藏；東漢壽陵，流水而已。朕屬值時艱，歲饑民弊，方欲以身率下，永示敦朴。今所營莊陵，務存約儉。」又詔金紫光祿大夫蕭子范爲哀策文。",
+          "person_reference_id": "c-liangshu-007-wanglingbin:p002:r0000"
+        }
+      ],
+      "status": "source_attested",
+      "interpretation_note": "三月薨，帝紀另載己未。",
+      "reviewer": "Codex（AI 代理）",
+      "human_reviewed": false,
+      "model": null
+    },
+    {
+      "id": "le-liang007-wanglingbin-qian-death",
+      "person_id": "7r6_k52_qji_ABAAAAEAAA",
+      "event_type": "death",
+      "source_term": "卒",
+      "source_anchor": {
+        "paragraph_id": "c-liangshu-007-wanglingbin:p006",
+        "surface": "卒",
+        "start": 6,
+        "end": 7
+      },
+      "date_expression": "普通三年",
+      "evidence": [
+        {
+          "work_id": "w-liangshu",
+          "book_id": "b-liangshu-007",
+          "source_id": "s-liangshu-007-wanglingbin-ws1566494",
+          "chapter_id": "c-liangshu-007-wanglingbin",
+          "paragraph_id": "c-liangshu-007-wanglingbin:p006",
+          "quote": "普通三年十月卒，時年四十九。詔贈侍中、金紫光祿大夫，諡曰安。子規襲爵，別有傳。",
+          "context": {
+            "kind": "prior_paragraph_subject",
+            "paragraph_id": "c-liangshu-007-wanglingbin:p005",
+            "person_mention_id": "c-liangshu-007-wanglingbin:p005:m0012",
+            "quote": "騫舊墅",
+            "intervening_paragraph_ids": []
+          }
+        }
+      ],
+      "status": "source_attested",
+      "interpretation_note": "相接前段為王騫本傳；普通三年十月卒。",
+      "reviewer": "Codex（AI 代理）",
+      "human_reviewed": false,
+      "model": null
+    }
+  ]
+}
