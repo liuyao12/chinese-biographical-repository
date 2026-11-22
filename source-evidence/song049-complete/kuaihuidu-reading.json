@@ -1,0 +1,103 @@
+{
+  "record_type": "fixed_source_complete_item_review",
+  "reviewer": "Codex（AI代理）",
+  "model": null,
+  "human_reviewed": false,
+  "external_witnesses": [],
+  "print_readings": [
+    {
+      "url": "https://upload.wikimedia.org/wikipedia/commons/7/75/NLC892-411999017142-12779_%E4%BA%8C%E5%8D%81%E5%9B%9B%E5%8F%B2_%E7%AC%AC144%E5%86%8A.pdf#page=89",
+      "catalog_record": "https://commons.wikimedia.org/wiki/File:NLC892-411999017142-12779_%E4%BA%8C%E5%8D%81%E5%9B%9B%E5%8F%B2_%E7%AC%AC144%E5%86%8A.pdf",
+      "pdf_sha1": "126c34411892f6943a575a15ee46fb0064bd5b7b",
+      "pdf_sha256": "316229a8587d188289a7fa2dac393760437ca7facf5deb7a3bfa09770b4a1ac3",
+      "image_sha256": "ca6f1bbacdadfcf5eeb07e118dcdc56a9bd68273d10f41828fbdd7901f804dc6",
+      "edition": "清乾隆武英殿本《宋書》，國圖第144冊。",
+      "page": 89,
+      "half": "R",
+      "folio": "三下",
+      "columns_from_right": "8–9",
+      "source_quote": "死於虜中子國才嗣國才卒子慧度嗣慧度卒無子國除",
+      "reading": "蒯恩兩代，末嗣無子。"
+    }
+  ],
+  "boundaries": [
+    {
+      "book_id": "b-songshu-049",
+      "title": "蒯慧度",
+      "unit_kind": "embedded_account",
+      "chapter_id": "c-songshu-049-kuaihuidu",
+      "entry_checked": true,
+      "full_text": true,
+      "first_pass": true,
+      "item_reviewed": true,
+      "source_layout": "wikisource_mixed_indented_prose",
+      "first_line": 25,
+      "last_line": 25,
+      "start_codepoint": 64,
+      "end_codepoint": 79,
+      "opening": "子慧度嗣。慧度卒，無子，",
+      "closing": "嗣。慧度卒，無子，國除。",
+      "parent_heading": "蒯恩",
+      "chapter_path": "corpus/songshu/049-kuaihuidu.json",
+      "paragraph_ids": [
+        "c-songshu-049-kuaihuidu:p001"
+      ],
+      "item_review_path": "source-evidence/song049-complete/kuaihuidu-reading.json"
+    }
+  ],
+  "chronology": [],
+  "readings": [
+    {
+      "id": "c-songshu-049-kuaihuidu:received_sentence1-0",
+      "kind": "received_sentence",
+      "person_id": "sn4_yf4_esv_AA",
+      "source_quote": "子慧度嗣。",
+      "reading": "國才子慧度嗣。",
+      "note": "國才子慧度嗣。",
+      "paragraph_id": "c-songshu-049-kuaihuidu:p001",
+      "start_codepoint": 0,
+      "end_codepoint": 5,
+      "human_reviewed": false
+    },
+    {
+      "id": "c-songshu-049-kuaihuidu:received_sentence1-5",
+      "kind": "received_sentence",
+      "person_id": "sn4_yf4_esv_AA",
+      "source_quote": "慧度卒，無子，國除。",
+      "reading": "慧度卒，無子，國除。",
+      "note": "慧度卒，無子，國除。",
+      "paragraph_id": "c-songshu-049-kuaihuidu:p001",
+      "start_codepoint": 5,
+      "end_codepoint": 15,
+      "human_reviewed": false
+    },
+    {
+      "id": "c-songshu-049-kuaihuidu:succession_record1-9",
+      "kind": "succession_record",
+      "person_id": "sn4_yf4_esv_AA",
+      "source_quote": "無子，國除",
+      "reading": "未見卒年；爵國因無子而除。與交州杜慧度不同。",
+      "note": "未見卒年；爵國因無子而除。與交州杜慧度不同。",
+      "paragraph_id": "c-songshu-049-kuaihuidu:p001",
+      "start_codepoint": 9,
+      "end_codepoint": 14,
+      "human_reviewed": false,
+      "source_role": "慧度"
+    },
+    {
+      "id": "c-songshu-049-kuaihuidu:descendants1-9",
+      "kind": "descendants",
+      "person_id": "sn4_yf4_esv_AA",
+      "source_quote": "無子",
+      "reading": "傳文在嗣者卒後斷言無子而除國。",
+      "note": "傳文在嗣者卒後斷言無子而除國。",
+      "paragraph_id": "c-songshu-049-kuaihuidu:p001",
+      "start_codepoint": 9,
+      "end_codepoint": 11,
+      "human_reviewed": false,
+      "reported_sons": 0,
+      "extinction_year": null
+    }
+  ],
+  "identity_limits": []
+}

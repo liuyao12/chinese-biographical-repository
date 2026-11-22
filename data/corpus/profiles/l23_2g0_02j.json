@@ -12,7 +12,56 @@
     "意",
     "锺离意"
   ],
-  "titles": [],
+  "titles": [
+    {
+      "id": "t-wu060-t-wu060-zhonglimu0",
+      "person_id": "l23_2g0_02j",
+      "kind": "office",
+      "title": "魯相",
+      "mode": "attestation",
+      "status": "source_attested",
+      "effective_period": {
+        "start": {
+          "status": "unknown",
+          "date_expression": null,
+          "evidence": []
+        },
+        "end": {
+          "status": "unknown",
+          "date_expression": null,
+          "evidence": []
+        }
+      },
+      "interpretation_note": "本句所載職官，任免時間未詳。",
+      "evidence": [
+        {
+          "work_id": "w-sanguozhi",
+          "book_id": "b-sanguozhi-060",
+          "chapter_id": "c-sanguozhi-060-zhonglimu",
+          "source_id": "s-sanguozhi-060-zhonglimu",
+          "paragraph_id": "c-sanguozhi-060-zhonglimu:line093",
+          "quote": "　　鍾離牧字子幹，會稽山陰人，漢魯相意七世孫也。少爰居永興，躬自墾田，種稻二十餘畝。臨熟，縣民有識認之。牧曰：“本以田荒，故墾之耳。”遂以稻與縣人。縣長聞之，召民繋獄，欲繩以法，牧為之請。長曰：“君慕承宮，自行義事，僕為民主，當以法率下，何得寢公憲而從君邪？”牧曰：“此是郡界，緣君意顧，故來蹔住。今以少稻而殺此民，何心復留？”遂出裝，還山陰，長自往止之，為釋繋民。民慚懼，率妻子舂所取稻得六十斛米，送還牧，牧閉門不受。民輸置道旁，莫有取者。牧由此發名。",
+          "person_mention_id": "c-sanguozhi-060-zhonglimu:line093:m0018"
+        }
+      ],
+      "attestations": [
+        {
+          "id": "t-wu060-t-wu060-zhonglimu0:a",
+          "paragraph_id": "c-sanguozhi-060-zhonglimu:line093",
+          "person_mention_id": "c-sanguozhi-060-zhonglimu:line093:m0018",
+          "start": 16,
+          "end": 18,
+          "surface": "魯相",
+          "usage": "narrative",
+          "date_expression": null
+        }
+      ],
+      "human_reviewed": false,
+      "reviewer": "Codex（AI 代理）",
+      "model": null,
+      "period": "未定 → 未定"
+    }
+  ],
   "addresses": [],
   "occurrences": [
     {
@@ -111,6 +160,41 @@
       "chapter_id": "c-sanguozhi-057-yufan",
       "source_id": "s-sanguozhi-057-yufan",
       "work_title": "三國志"
+    },
+    {
+      "number": 60,
+      "category": "",
+      "title": "鍾離牧傳",
+      "paragraph_id": "c-sanguozhi-060-zhonglimu:line093",
+      "count": 1,
+      "raw_count": 1,
+      "duplicate_count": 0,
+      "counting_policy": "independent_fixed_witness_occurrences",
+      "quote": "　　鍾離牧字子幹，會稽山陰人，漢魯相意七世孫也。少爰居永興，躬自墾田，種稻二十餘畝。臨熟，縣民有識認之。牧曰：“本以田荒，故墾之耳。”遂以稻與縣人。縣長聞之，召民繋獄，欲繩以法，牧為之請。長曰：“君慕承宮，自行義事，僕為民主，當以法率下，",
+      "paragraph_ids": [
+        "c-sanguozhi-060-zhonglimu:line093"
+      ],
+      "mention_ids": [
+        "c-sanguozhi-060-zhonglimu:line093:m0018"
+      ],
+      "mention_paragraph_ids": {
+        "c-sanguozhi-060-zhonglimu:line093:m0018": "c-sanguozhi-060-zhonglimu:line093"
+      },
+      "mention_id": "c-sanguozhi-060-zhonglimu:line093:m0018",
+      "occurrence_groups": [
+        {
+          "canonical_mention_id": "c-sanguozhi-060-zhonglimu:line093:m0018",
+          "mention_ids": [
+            "c-sanguozhi-060-zhonglimu:line093:m0018"
+          ],
+          "kind": "paragraph"
+        }
+      ],
+      "work_id": "w-sanguozhi",
+      "book_id": "b-sanguozhi-060",
+      "chapter_id": "c-sanguozhi-060-zhonglimu",
+      "source_id": "s-sanguozhi-060-zhonglimu",
+      "work_title": "三國志"
     }
   ],
   "table_occurrences": [],
@@ -168,10 +252,70 @@
           "source-evidence/sanguozhi057-yufan/reading.json"
         ]
       }
+    },
+    {
+      "chapter_id": "c-sanguozhi-060-zhonglimu",
+      "work_id": "w-sanguozhi",
+      "book_id": "b-sanguozhi-060",
+      "source_id": "s-sanguozhi-060-zhonglimu",
+      "source": {
+        "title": "三國志卷六十·吳書十五",
+        "provider": "Wikisource",
+        "url": "https://zh.wikisource.org/w/index.php?oldid=2120830",
+        "permalink": "https://zh.wikisource.org/w/index.php?oldid=2120830",
+        "revision_id": 2120830,
+        "accessed_on": "2026-11-21",
+        "edition": "維基文庫固定修訂，裴注與正文分層。",
+        "extent": "第93至99行。",
+        "text_scope": "partial_chapter",
+        "review_status": "text_checked",
+        "image_verified": false,
+        "rights": "古籍原文，維基文庫轉錄。",
+        "license_url": "https://creativecommons.org/licenses/by-sa/4.0/",
+        "raw_path": "source-evidence/sanguozhi060-he-quan/sanguozhi060-ws2120830.wikitext",
+        "raw_file_sha256": "79a52b4bca550c12a1020750b4464bdc2476fcbb376e67fd22a0bc03f713e8e6",
+        "wikitext_sha256": "79a52b4bca550c12a1020750b4464bdc2476fcbb376e67fd22a0bc03f713e8e6",
+        "collation_witnesses": [
+          "source-evidence/sanguozhi060-zhonglimu/reading.json"
+        ]
+      }
     }
   ],
-  "relations": [],
+  "relations": [
+    {
+      "id": "a-wu060-zhonglimu-4",
+      "subject_person_id": "2ue_nmk_m3s_A",
+      "object_person_id": "l23_2g0_02j",
+      "predicate": "ancestor",
+      "qualifiers": {
+        "source_term": "漢魯相意七世孫也",
+        "ancestry_precision": "reported_generation",
+        "adopted_for_family_tree": false,
+        "generation_distance": null,
+        "source_number": "七",
+        "reported_generation_number": 7
+      },
+      "evidence": [
+        {
+          "work_id": "w-sanguozhi",
+          "book_id": "b-sanguozhi-060",
+          "chapter_id": "c-sanguozhi-060-zhonglimu",
+          "source_id": "s-sanguozhi-060-zhonglimu",
+          "paragraph_id": "c-sanguozhi-060-zhonglimu:line093",
+          "quote": "　　鍾離牧字子幹，會稽山陰人，漢魯相意七世孫也。少爰居永興，躬自墾田，種稻二十餘畝。臨熟，縣民有識認之。牧曰：“本以田荒，故墾之耳。”遂以稻與縣人。縣長聞之，召民繋獄，欲繩以法，牧為之請。長曰：“君慕承宮，自行義事，僕為民主，當以法率下，何得寢公憲而從君邪？”牧曰：“此是郡界，緣君意顧，故來蹔住。今以少稻而殺此民，何心復留？”遂出裝，還山陰，長自往止之，為釋繋民。民慚懼，率妻子舂所取稻得六十斛米，送還牧，牧閉門不受。民輸置道旁，莫有取者。牧由此發名。",
+          "subject_person_mention_id": "c-sanguozhi-060-zhonglimu:line093:m0002",
+          "object_person_mention_id": "c-sanguozhi-060-zhonglimu:line093:m0018"
+        }
+      ],
+      "interpretation_note": "以此來源所述兩端為據。",
+      "status": "source_attested",
+      "reviewer": "Codex（AI 代理）",
+      "human_reviewed": false,
+      "model": null
+    }
+  ],
   "related_people": {
+    "2ue_nmk_m3s_A": "鍾離牧",
     "l23_2g0_02j": "鍾離意"
   },
   "dates": [],
@@ -179,7 +323,39 @@
   "person_ids": [
     "l23_2g0_02j"
   ],
-  "preferred_relations": [],
+  "preferred_relations": [
+    {
+      "id": "a-wu060-zhonglimu-4",
+      "subject_person_id": "2ue_nmk_m3s_A",
+      "object_person_id": "l23_2g0_02j",
+      "predicate": "ancestor",
+      "qualifiers": {
+        "source_term": "漢魯相意七世孫也",
+        "ancestry_precision": "reported_generation",
+        "adopted_for_family_tree": false,
+        "generation_distance": null,
+        "source_number": "七",
+        "reported_generation_number": 7
+      },
+      "evidence": [
+        {
+          "work_id": "w-sanguozhi",
+          "book_id": "b-sanguozhi-060",
+          "chapter_id": "c-sanguozhi-060-zhonglimu",
+          "source_id": "s-sanguozhi-060-zhonglimu",
+          "paragraph_id": "c-sanguozhi-060-zhonglimu:line093",
+          "quote": "　　鍾離牧字子幹，會稽山陰人，漢魯相意七世孫也。少爰居永興，躬自墾田，種稻二十餘畝。臨熟，縣民有識認之。牧曰：“本以田荒，故墾之耳。”遂以稻與縣人。縣長聞之，召民繋獄，欲繩以法，牧為之請。長曰：“君慕承宮，自行義事，僕為民主，當以法率下，何得寢公憲而從君邪？”牧曰：“此是郡界，緣君意顧，故來蹔住。今以少稻而殺此民，何心復留？”遂出裝，還山陰，長自往止之，為釋繋民。民慚懼，率妻子舂所取稻得六十斛米，送還牧，牧閉門不受。民輸置道旁，莫有取者。牧由此發名。",
+          "subject_person_mention_id": "c-sanguozhi-060-zhonglimu:line093:m0002",
+          "object_person_mention_id": "c-sanguozhi-060-zhonglimu:line093:m0018"
+        }
+      ],
+      "interpretation_note": "以此來源所述兩端為據。",
+      "status": "source_attested",
+      "reviewer": "Codex（AI 代理）",
+      "human_reviewed": false,
+      "model": null
+    }
+  ],
   "age_assertions": [],
   "life_events": [],
   "life_event_date_decisions": [],

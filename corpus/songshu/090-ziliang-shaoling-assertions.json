@@ -1,0 +1,50 @@
+{
+  "format_version": "0.2",
+  "record_type": "person_assertion_set",
+  "chapter_id": "c-songshu-090-ziliang-shaoling",
+  "assertions": [
+    {
+      "id": "a-nanqi040-ziliang-song-father",
+      "subject_person_id": "cti_o52_4nz_F",
+      "object_person_id": "cti_o52_4nz",
+      "predicate": "father",
+      "qualifiers": {
+        "source_term": "明帝第七子",
+        "nanqi040_ziliang_reading": "song-father",
+        "lineage": "paternal",
+        "birth_order": {
+          "source_term": "第七子",
+          "source_number": "七",
+          "ordinal": 7,
+          "position": "unspecified",
+          "scope": "sons_of_parent",
+          "parent_person_id": "cti_o52_4nz",
+          "interpretation_status": "source_attested"
+        }
+      },
+      "evidence": [
+        {
+          "work_id": "w-songshu",
+          "book_id": "b-songshu-090",
+          "source_id": "s-songshu-090-ziliang-shaoling-ws1748263",
+          "chapter_id": "c-songshu-090-ziliang-shaoling",
+          "paragraph_id": "c-songshu-090-ziliang-shaoling:p001",
+          "quote": "邵陵殤王友字仲賢，明帝第七子也。",
+          "subject_person_mention_id": "c-songshu-090-ziliang-shaoling:p001:m0004",
+          "object_person_mention_id": "c-songshu-090-ziliang-shaoling:p001:m0009",
+          "relationship_anchor": {
+            "paragraph_id": "c-songshu-090-ziliang-shaoling:p001",
+            "surface": "明帝第七子",
+            "start": 9,
+            "end": 14
+          }
+        }
+      ],
+      "status": "source_attested",
+      "interpretation_note": "宋邵陵殤王友之父與所排行。",
+      "reviewer": "Codex（AI 代理）",
+      "human_reviewed": false,
+      "model": null
+    }
+  ]
+}

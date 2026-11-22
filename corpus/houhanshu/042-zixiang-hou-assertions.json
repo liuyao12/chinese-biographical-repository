@@ -1,0 +1,74 @@
+{
+  "format_version": "0.2",
+  "record_type": "person_assertion_set",
+  "chapter_id": "c-houhanshu-042-zixiang-hou",
+  "assertions": [
+    {
+      "id": "a-nanqi040-zixiang-hou-father",
+      "subject_person_id": "6c9_c43_555_A",
+      "object_person_id": "6c9_c43_555",
+      "predicate": "father",
+      "qualifiers": {
+        "source_term": "光武皇帝十一子",
+        "nanqi040_zixiang_reading": "hou-father",
+        "lineage": "paternal"
+      },
+      "evidence": [
+        {
+          "work_id": "w-houhanshu",
+          "book_id": "b-houhanshu-042",
+          "source_id": "s-houhanshu-042-zixiang-hou-ws1549947",
+          "chapter_id": "c-houhanshu-042-zixiang-hou",
+          "paragraph_id": "c-houhanshu-042-zixiang-hou:p001",
+          "quote": "光武皇帝十一子：郭皇后生東海恭王強、沛獻王輔、濟南安王康、阜陵質王延、中山簡王焉，許美人生楚王英，光烈皇后生顯宗、東平憲王蒼、廣陵思王荊",
+          "subject_person_mention_id": "c-houhanshu-042-zixiang-hou:p001:m0063",
+          "object_person_mention_id": "c-houhanshu-042-zixiang-hou:p001:m0000",
+          "relationship_anchor": {
+            "paragraph_id": "c-houhanshu-042-zixiang-hou:p001",
+            "surface": "光武皇帝十一子",
+            "start": 0,
+            "end": 7
+          }
+        }
+      ],
+      "status": "source_attested",
+      "interpretation_note": "諸母分列在光武皇帝十一子下，荊列光烈皇后所生。",
+      "reviewer": "Codex（AI 代理）",
+      "human_reviewed": false,
+      "model": null
+    },
+    {
+      "id": "a-nanqi040-zixiang-hou-mother",
+      "subject_person_id": "6c9_c43_555_A",
+      "object_person_id": "pdw_8ej_kps",
+      "predicate": "mother",
+      "qualifiers": {
+        "source_term": "光烈皇后生",
+        "nanqi040_zixiang_reading": "hou-mother"
+      },
+      "evidence": [
+        {
+          "work_id": "w-houhanshu",
+          "book_id": "b-houhanshu-042",
+          "source_id": "s-houhanshu-042-zixiang-hou-ws1549947",
+          "chapter_id": "c-houhanshu-042-zixiang-hou",
+          "paragraph_id": "c-houhanshu-042-zixiang-hou:p001",
+          "quote": "光武皇帝十一子：郭皇后生東海恭王強、沛獻王輔、濟南安王康、阜陵質王延、中山簡王焉，許美人生楚王英，光烈皇后生顯宗、東平憲王蒼、廣陵思王荊",
+          "subject_person_mention_id": "c-houhanshu-042-zixiang-hou:p001:m0063",
+          "object_person_mention_id": "c-houhanshu-042-zixiang-hou:p001:m0049",
+          "relationship_anchor": {
+            "paragraph_id": "c-houhanshu-042-zixiang-hou:p001",
+            "surface": "光烈皇后生",
+            "start": 49,
+            "end": 54
+          }
+        }
+      ],
+      "status": "source_attested",
+      "interpretation_note": "後漢書卷首列子與所生。",
+      "reviewer": "Codex（AI 代理）",
+      "human_reviewed": false,
+      "model": null
+    }
+  ]
+}

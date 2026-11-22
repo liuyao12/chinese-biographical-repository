@@ -6,9 +6,59 @@
   "identity_note": "本源明確個體已暫分登記；現有召回尚不足以接合他篇，不代表已證異人或歷史上無完整姓名。 其餘未有證據的父母、生年或姓名成分不補造。",
   "review": "ai_provisional",
   "names": [
-    "徐逵之"
+    "徐逵之",
+    "逵之"
   ],
-  "titles": [],
+  "titles": [
+    {
+      "id": "th-songshu-049-kuaien-3-114",
+      "title": "建威將軍",
+      "kind": "office",
+      "mode": "attestation",
+      "person_id": "hx4_83x_n1y",
+      "attestations": [
+        {
+          "id": "th-songshu-049-kuaien-3-114:a",
+          "paragraph_id": "c-songshu-049-kuaien:p003",
+          "start": 114,
+          "end": 118,
+          "surface": "建威將軍",
+          "person_mention_id": "c-songshu-049-kuaien:p003:m0118",
+          "usage": "narrative",
+          "date_expression": null
+        }
+      ],
+      "effective_period": {
+        "start": {
+          "status": "unknown",
+          "date_expression": null,
+          "evidence": []
+        },
+        "end": {
+          "status": "unknown",
+          "date_expression": null,
+          "evidence": []
+        }
+      },
+      "evidence": [
+        {
+          "work_id": "w-songshu",
+          "book_id": "b-songshu-049",
+          "chapter_id": "c-songshu-049-kuaien",
+          "source_id": "s-songshu-049-kuaien-ws2118585",
+          "paragraph_id": "c-songshu-049-kuaien:p003",
+          "quote": "高祖西征劉毅，恩與王鎮惡輕軍襲江陵，事在鎮惡傳。以本官為太尉長兼行參軍，領眾二千，隨益州刺史朱齡石伐蜀。至彭模，恩所領居前，大戰，自朝至日昃，勇氣益奮，賊破走。進平成都，擢為行參軍，改封北至縣五等男。高祖伐司馬休之及魯宗之，恩與建威將軍徐逵之前進。逵之敗沒，恩陳于隄下，宗之子軌乘勝擊恩，矢下如雨，呼聲震地，恩整厲將士，置陣堅嚴。軌屢衝之不動，知不可攻，乃退。高祖善其能將軍持重。江陵平定，復追魯軌於石城。軌棄城走，恩追至襄陽，宗之奔羌，恩與諸將追討至魯陽關乃還。",
+          "person_mention_id": "c-songshu-049-kuaien:p003:m0118"
+        }
+      ],
+      "status": "source_attested",
+      "interpretation_note": "所見原官稱，未載全任期。",
+      "reviewer": "Codex（AI代理）",
+      "model": null,
+      "human_reviewed": false,
+      "period": "未定 → 未定"
+    }
+  ],
   "addresses": [],
   "occurrences": [
     {
@@ -114,6 +164,50 @@
       "book_id": "b-songshu-044",
       "chapter_id": "c-songshu-044-xiehui-digital",
       "source_id": "s-songshu-044-xiehui-digital-ws1746033",
+      "work_title": "宋書"
+    },
+    {
+      "number": 49,
+      "category": "",
+      "title": "蒯恩",
+      "paragraph_id": "c-songshu-049-kuaien:p003",
+      "count": 2,
+      "raw_count": 2,
+      "duplicate_count": 0,
+      "counting_policy": "independent_fixed_witness_occurrences",
+      "quote": "都，擢為行參軍，改封北至縣五等男。高祖伐司馬休之及魯宗之，恩與建威將軍徐逵之前進。逵之敗沒，恩陳于隄下，宗之子軌乘勝擊恩，矢下如雨，呼聲震地，恩整厲將士，置陣堅嚴。軌屢衝之不動，知不可攻，乃退。高祖善其能將軍持重。江陵平定，復追魯軌於石城。軌棄城走，恩追至襄陽，宗之奔羌，恩與",
+      "paragraph_ids": [
+        "c-songshu-049-kuaien:p003"
+      ],
+      "mention_ids": [
+        "c-songshu-049-kuaien:p003:m0118",
+        "c-songshu-049-kuaien:p003:m0124"
+      ],
+      "mention_paragraph_ids": {
+        "c-songshu-049-kuaien:p003:m0118": "c-songshu-049-kuaien:p003",
+        "c-songshu-049-kuaien:p003:m0124": "c-songshu-049-kuaien:p003"
+      },
+      "mention_id": "c-songshu-049-kuaien:p003:m0118",
+      "occurrence_groups": [
+        {
+          "canonical_mention_id": "c-songshu-049-kuaien:p003:m0118",
+          "mention_ids": [
+            "c-songshu-049-kuaien:p003:m0118"
+          ],
+          "kind": "paragraph"
+        },
+        {
+          "canonical_mention_id": "c-songshu-049-kuaien:p003:m0124",
+          "mention_ids": [
+            "c-songshu-049-kuaien:p003:m0124"
+          ],
+          "kind": "paragraph"
+        }
+      ],
+      "work_id": "w-songshu",
+      "book_id": "b-songshu-049",
+      "chapter_id": "c-songshu-049-kuaien",
+      "source_id": "s-songshu-049-kuaien-ws2118585",
       "work_title": "宋書"
     }
   ],
@@ -311,6 +405,29 @@
         "raw_file_sha256": "9ca7cb37e05e0ebcc400fb220a1f3970ddc2c0f948483f04b71ea93847a69898",
         "section_locator": "列傳第四 謝晦"
       }
+    },
+    {
+      "chapter_id": "c-songshu-049-kuaien",
+      "work_id": "w-songshu",
+      "book_id": "b-songshu-049",
+      "source_id": "s-songshu-049-kuaien-ws2118585",
+      "source": {
+        "title": "蒯恩",
+        "provider": "Wikisource",
+        "permalink": "https://zh.wikisource.org/w/index.php?oldid=2118585",
+        "url": "https://zh.wikisource.org/w/index.php?oldid=2118585",
+        "revision_id": 2118585,
+        "edition": "維基文庫固定修訂",
+        "accessed_on": "2026-11-21",
+        "review_status": "text_checked",
+        "image_verified": false,
+        "rights": "古代原文；數位轉錄依維基文庫授權。",
+        "license_url": "https://creativecommons.org/licenses/by-sa/4.0/",
+        "extent": "蒯恩",
+        "text_scope": "complete_biography_unit",
+        "raw_path": "sources/songshu/songshu049-ws2118585.wikitext",
+        "raw_file_sha256": "eed9933668a66e9e119824479715aab40364c8a7ac72a020f65ee759b1bb0646"
+      }
     }
   ],
   "relations": [],
@@ -379,6 +496,35 @@
       ],
       "status": "source_attested",
       "interpretation_note": "徐逵之戰敗被殺。",
+      "reviewer": "Codex（AI代理）",
+      "model": null,
+      "human_reviewed": false
+    },
+    {
+      "id": "le-song049-kuaien-徐逵之",
+      "person_id": "hx4_83x_n1y",
+      "event_type": "death",
+      "source_term": "敗沒",
+      "source_anchor": {
+        "paragraph_id": "c-songshu-049-kuaien:p003",
+        "start": 126,
+        "end": 128,
+        "surface": "敗沒"
+      },
+      "date_expression": null,
+      "evidence": [
+        {
+          "work_id": "w-songshu",
+          "book_id": "b-songshu-049",
+          "chapter_id": "c-songshu-049-kuaien",
+          "source_id": "s-songshu-049-kuaien-ws2118585",
+          "paragraph_id": "c-songshu-049-kuaien:p003",
+          "quote": "高祖西征劉毅，恩與王鎮惡輕軍襲江陵，事在鎮惡傳。以本官為太尉長兼行參軍，領眾二千，隨益州刺史朱齡石伐蜀。至彭模，恩所領居前，大戰，自朝至日昃，勇氣益奮，賊破走。進平成都，擢為行參軍，改封北至縣五等男。高祖伐司馬休之及魯宗之，恩與建威將軍徐逵之前進。逵之敗沒，恩陳于隄下，宗之子軌乘勝擊恩，矢下如雨，呼聲震地，恩整厲將士，置陣堅嚴。軌屢衝之不動，知不可攻，乃退。高祖善其能將軍持重。江陵平定，復追魯軌於石城。軌棄城走，恩追至襄陽，宗之奔羌，恩與諸將追討至魯陽關乃還。",
+          "person_mention_id": "c-songshu-049-kuaien:p003:m0118"
+        }
+      ],
+      "status": "source_attested",
+      "interpretation_note": "按同段人物與次第核所屬卒事。",
       "reviewer": "Codex（AI代理）",
       "model": null,
       "human_reviewed": false

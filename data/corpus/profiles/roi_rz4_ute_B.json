@@ -348,6 +348,54 @@
       "reviewer": "Codex（AI 代理）",
       "model": null,
       "period": "未定 → 未定"
+    },
+    {
+      "id": "t-wu060-t-wu060-lvdai25",
+      "person_id": "roi_rz4_ute_B",
+      "kind": "office",
+      "title": "奮威將軍",
+      "mode": "attestation",
+      "status": "source_attested",
+      "effective_period": {
+        "start": {
+          "status": "unknown",
+          "date_expression": null,
+          "evidence": []
+        },
+        "end": {
+          "status": "unknown",
+          "date_expression": null,
+          "evidence": []
+        }
+      },
+      "interpretation_note": "本句所載職官，任免時間未詳。",
+      "evidence": [
+        {
+          "work_id": "w-sanguozhi",
+          "book_id": "b-sanguozhi-060",
+          "chapter_id": "c-sanguozhi-060-lvdai",
+          "source_id": "s-sanguozhi-060-lvdai",
+          "paragraph_id": "c-sanguozhi-060-lvdai:line059",
+          "quote": "　　時年已八十，然體素精勤，躬親王事。奮威將軍張承與岱書曰：",
+          "person_mention_id": "c-sanguozhi-060-lvdai:line059:m0023"
+        }
+      ],
+      "attestations": [
+        {
+          "id": "t-wu060-t-wu060-lvdai25:a",
+          "paragraph_id": "c-sanguozhi-060-lvdai:line059",
+          "person_mention_id": "c-sanguozhi-060-lvdai:line059:m0023",
+          "start": 19,
+          "end": 23,
+          "surface": "奮威將軍",
+          "usage": "narrative",
+          "date_expression": null
+        }
+      ],
+      "human_reviewed": false,
+      "reviewer": "Codex（AI 代理）",
+      "model": null,
+      "period": "未定 → 未定"
     }
   ],
   "addresses": [],
@@ -819,6 +867,41 @@
       "chapter_id": "c-sanguozhi-059-he",
       "source_id": "s-sanguozhi-059-he",
       "work_title": "三國志"
+    },
+    {
+      "number": 60,
+      "category": "",
+      "title": "呂岱傳",
+      "paragraph_id": "c-sanguozhi-060-lvdai:line059",
+      "count": 1,
+      "raw_count": 1,
+      "duplicate_count": 0,
+      "counting_policy": "independent_fixed_witness_occurrences",
+      "quote": "　　時年已八十，然體素精勤，躬親王事。奮威將軍張承與岱書曰：",
+      "paragraph_ids": [
+        "c-sanguozhi-060-lvdai:line059"
+      ],
+      "mention_ids": [
+        "c-sanguozhi-060-lvdai:line059:m0023"
+      ],
+      "mention_paragraph_ids": {
+        "c-sanguozhi-060-lvdai:line059:m0023": "c-sanguozhi-060-lvdai:line059"
+      },
+      "mention_id": "c-sanguozhi-060-lvdai:line059:m0023",
+      "occurrence_groups": [
+        {
+          "canonical_mention_id": "c-sanguozhi-060-lvdai:line059:m0023",
+          "mention_ids": [
+            "c-sanguozhi-060-lvdai:line059:m0023"
+          ],
+          "kind": "paragraph"
+        }
+      ],
+      "work_id": "w-sanguozhi",
+      "book_id": "b-sanguozhi-060",
+      "chapter_id": "c-sanguozhi-060-lvdai",
+      "source_id": "s-sanguozhi-060-lvdai",
+      "work_title": "三國志"
     }
   ],
   "table_occurrences": [],
@@ -1114,6 +1197,33 @@
         "wikitext_sha256": "2ef34ba24c5a2d61c1f4ac236905bd136212dacb0cf4efe30d4dff4ec0918bad",
         "collation_witnesses": [
           "source-evidence/sanguozhi059-he/reading.json"
+        ]
+      }
+    },
+    {
+      "chapter_id": "c-sanguozhi-060-lvdai",
+      "work_id": "w-sanguozhi",
+      "book_id": "b-sanguozhi-060",
+      "source_id": "s-sanguozhi-060-lvdai",
+      "source": {
+        "title": "三國志卷六十·吳書十五",
+        "provider": "Wikisource",
+        "url": "https://zh.wikisource.org/w/index.php?oldid=2120830",
+        "permalink": "https://zh.wikisource.org/w/index.php?oldid=2120830",
+        "revision_id": 2120830,
+        "accessed_on": "2026-11-21",
+        "edition": "維基文庫固定修訂，裴注與正文分層。",
+        "extent": "第45至65行。",
+        "text_scope": "partial_chapter",
+        "review_status": "text_checked",
+        "image_verified": false,
+        "rights": "古籍原文，維基文庫轉錄。",
+        "license_url": "https://creativecommons.org/licenses/by-sa/4.0/",
+        "raw_path": "source-evidence/sanguozhi060-he-quan/sanguozhi060-ws2120830.wikitext",
+        "raw_file_sha256": "79a52b4bca550c12a1020750b4464bdc2476fcbb376e67fd22a0bc03f713e8e6",
+        "wikitext_sha256": "79a52b4bca550c12a1020750b4464bdc2476fcbb376e67fd22a0bc03f713e8e6",
+        "collation_witnesses": [
+          "source-evidence/sanguozhi060-lvdai/reading.json"
         ]
       }
     }
@@ -1511,6 +1621,24 @@
       "reading": "承女配太子，《張承傳》及《孫和傳》互證。",
       "chapter_id": "c-sanguozhi-052-zhouzhao-complete",
       "source_id": "s-sanguozhi-052-zhouzhao-complete"
+    },
+    {
+      "id": "c-sanguozhi-060-lvdai:line060:reading-000-130",
+      "kind": "received_sentence",
+      "paragraph_id": "c-sanguozhi-060-lvdai:line060",
+      "start_codepoint": 0,
+      "end_codepoint": 130,
+      "source_quote": "昔旦奭翼同，《二南》作歌，今則足下與陸子也。忠勤相先，勞謙相讓，功以權成，化與道合，君子歎其德，小人悅其美。加以文書鞅掌，賓客終日，罷不捨事，勞不言倦。又知上馬輒自超乘，不由跨躡，如此足下過廉頗也。何其事事決也。《周易》有之，禮言恭，德言盛，足下何有盡此美耶！",
+      "person_id": "roi_rz4_ute_B",
+      "related_person_ids": [
+        "y4i_pjk_4gn_AD",
+        "7m7_qvm_4oj",
+        "lii_454_vuv",
+        "tfz_fnj_ejn"
+      ],
+      "reading": "張承致呂岱書，引周公旦、召公奭、廉頗。足下指呂岱，陸子指前文陸遜。",
+      "chapter_id": "c-sanguozhi-060-lvdai",
+      "source_id": "s-sanguozhi-060-lvdai"
     }
   ],
   "person_references": [

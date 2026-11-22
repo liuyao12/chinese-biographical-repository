@@ -15,6 +15,50 @@
   "addresses": [],
   "occurrences": [
     {
+      "number": 60,
+      "category": "",
+      "title": "周魴傳",
+      "paragraph_id": "c-sanguozhi-060-zhoufang:line090-pei01-01",
+      "count": 2,
+      "raw_count": 2,
+      "duplicate_count": 0,
+      "counting_policy": "independent_fixed_witness_occurrences",
+      "quote": "征，众寡不敌，处临陈慷慨，奋不顾身，遂死於战场，追赠平西将军。处子玘、札，皆有才力，中兴之初，并见宠任。其诸子侄悉处列位，为扬土豪右，而札凶淫放恣，为百姓所苦。泰宁中，王敦诛之，灭其族。",
+      "paragraph_ids": [
+        "c-sanguozhi-060-zhoufang:line090-pei01-01"
+      ],
+      "mention_ids": [
+        "c-sanguozhi-060-zhoufang:line090-pei01-01:m0077",
+        "c-sanguozhi-060-zhoufang:line090-pei01-01:m0110"
+      ],
+      "mention_paragraph_ids": {
+        "c-sanguozhi-060-zhoufang:line090-pei01-01:m0077": "c-sanguozhi-060-zhoufang:line090-pei01-01",
+        "c-sanguozhi-060-zhoufang:line090-pei01-01:m0110": "c-sanguozhi-060-zhoufang:line090-pei01-01"
+      },
+      "mention_id": "c-sanguozhi-060-zhoufang:line090-pei01-01:m0077",
+      "occurrence_groups": [
+        {
+          "canonical_mention_id": "c-sanguozhi-060-zhoufang:line090-pei01-01:m0077",
+          "mention_ids": [
+            "c-sanguozhi-060-zhoufang:line090-pei01-01:m0077"
+          ],
+          "kind": "paragraph"
+        },
+        {
+          "canonical_mention_id": "c-sanguozhi-060-zhoufang:line090-pei01-01:m0110",
+          "mention_ids": [
+            "c-sanguozhi-060-zhoufang:line090-pei01-01:m0110"
+          ],
+          "kind": "paragraph"
+        }
+      ],
+      "work_id": "w-sanguozhi",
+      "book_id": "b-sanguozhi-060",
+      "chapter_id": "c-sanguozhi-060-zhoufang",
+      "source_id": "s-sanguozhi-060-zhoufang",
+      "work_title": "三國志"
+    },
+    {
       "number": 67,
       "category": "",
       "title": "晉書卷六十七·郗鑒傳",
@@ -198,18 +242,100 @@
           "source-evidence/jin098-wangdun-main/reading.json"
         ]
       }
+    },
+    {
+      "chapter_id": "c-sanguozhi-060-zhoufang",
+      "work_id": "w-sanguozhi",
+      "book_id": "b-sanguozhi-060",
+      "source_id": "s-sanguozhi-060-zhoufang",
+      "source": {
+        "title": "三國志卷六十·吳書十五",
+        "provider": "Wikisource",
+        "url": "https://zh.wikisource.org/w/index.php?oldid=2120830",
+        "permalink": "https://zh.wikisource.org/w/index.php?oldid=2120830",
+        "revision_id": 2120830,
+        "accessed_on": "2026-11-21",
+        "edition": "維基文庫固定修訂，裴注與正文分層。",
+        "extent": "第68至90行。",
+        "text_scope": "partial_chapter",
+        "review_status": "text_checked",
+        "image_verified": false,
+        "rights": "古籍原文，維基文庫轉錄。",
+        "license_url": "https://creativecommons.org/licenses/by-sa/4.0/",
+        "raw_path": "source-evidence/sanguozhi060-he-quan/sanguozhi060-ws2120830.wikitext",
+        "raw_file_sha256": "79a52b4bca550c12a1020750b4464bdc2476fcbb376e67fd22a0bc03f713e8e6",
+        "wikitext_sha256": "79a52b4bca550c12a1020750b4464bdc2476fcbb376e67fd22a0bc03f713e8e6",
+        "collation_witnesses": [
+          "source-evidence/sanguozhi060-zhoufang/reading.json"
+        ]
+      }
     }
   ],
-  "relations": [],
+  "relations": [
+    {
+      "id": "a-wu060-zhoufang-2",
+      "subject_person_id": "1a4_h3u_5rc",
+      "object_person_id": "iuc_mqu_3jm_A",
+      "predicate": "father",
+      "qualifiers": {
+        "source_term": "处子玘、札"
+      },
+      "evidence": [
+        {
+          "work_id": "w-sanguozhi",
+          "book_id": "b-sanguozhi-060",
+          "chapter_id": "c-sanguozhi-060-zhoufang",
+          "source_id": "s-sanguozhi-060-zhoufang",
+          "paragraph_id": "c-sanguozhi-060-zhoufang:line090-pei01-01",
+          "quote": "虞预《晋书》曰：处入晋，为御史中丞，多所弹纠，不避强御。齐万年反，以处为建威将军，西征，众寡不敌，处临陈慷慨，奋不顾身，遂死於战场，追赠平西将军。处子玘、札，皆有才力，中兴之初，并见宠任。其诸子侄悉处列位，为扬土豪右，而札凶淫放恣，为百姓所苦。泰宁中，王敦诛之，灭其族。",
+          "subject_person_mention_id": "c-sanguozhi-060-zhoufang:line090-pei01-01:m0077",
+          "object_person_mention_id": "c-sanguozhi-060-zhoufang:line090-pei01-01:m0008"
+        }
+      ],
+      "interpretation_note": "以此來源所述兩端為據。",
+      "status": "source_attested",
+      "reviewer": "Codex（AI 代理）",
+      "human_reviewed": false,
+      "model": null
+    }
+  ],
   "related_people": {
-    "1a4_h3u_5rc": "周劄〔字宣季〕"
+    "1a4_h3u_5rc": "周劄〔字宣季〕",
+    "iuc_mqu_3jm_A": "周處〔字子隱，周魴子〕"
   },
   "dates": [],
   "name_components": [],
   "person_ids": [
     "1a4_h3u_5rc"
   ],
-  "preferred_relations": [],
+  "preferred_relations": [
+    {
+      "id": "a-wu060-zhoufang-2",
+      "subject_person_id": "1a4_h3u_5rc",
+      "object_person_id": "iuc_mqu_3jm_A",
+      "predicate": "father",
+      "qualifiers": {
+        "source_term": "处子玘、札"
+      },
+      "evidence": [
+        {
+          "work_id": "w-sanguozhi",
+          "book_id": "b-sanguozhi-060",
+          "chapter_id": "c-sanguozhi-060-zhoufang",
+          "source_id": "s-sanguozhi-060-zhoufang",
+          "paragraph_id": "c-sanguozhi-060-zhoufang:line090-pei01-01",
+          "quote": "虞预《晋书》曰：处入晋，为御史中丞，多所弹纠，不避强御。齐万年反，以处为建威将军，西征，众寡不敌，处临陈慷慨，奋不顾身，遂死於战场，追赠平西将军。处子玘、札，皆有才力，中兴之初，并见宠任。其诸子侄悉处列位，为扬土豪右，而札凶淫放恣，为百姓所苦。泰宁中，王敦诛之，灭其族。",
+          "subject_person_mention_id": "c-sanguozhi-060-zhoufang:line090-pei01-01:m0077",
+          "object_person_mention_id": "c-sanguozhi-060-zhoufang:line090-pei01-01:m0008"
+        }
+      ],
+      "interpretation_note": "以此來源所述兩端為據。",
+      "status": "source_attested",
+      "reviewer": "Codex（AI 代理）",
+      "human_reviewed": false,
+      "model": null
+    }
+  ],
   "age_assertions": [],
   "life_events": [
     {
@@ -230,6 +356,29 @@
         }
       ],
       "interpretation_note": "依本來源登記。",
+      "status": "source_attested",
+      "reviewer": "Codex（AI 代理）",
+      "human_reviewed": false,
+      "model": null
+    },
+    {
+      "id": "le-wu060-zhoufang4",
+      "person_id": "1a4_h3u_5rc",
+      "event_type": "death",
+      "source_term": "王敦诛之，灭其族",
+      "date_expression": null,
+      "evidence": [
+        {
+          "work_id": "w-sanguozhi",
+          "book_id": "b-sanguozhi-060",
+          "chapter_id": "c-sanguozhi-060-zhoufang",
+          "source_id": "s-sanguozhi-060-zhoufang",
+          "paragraph_id": "c-sanguozhi-060-zhoufang:line090-pei01-01",
+          "quote": "虞预《晋书》曰：处入晋，为御史中丞，多所弹纠，不避强御。齐万年反，以处为建威将军，西征，众寡不敌，处临陈慷慨，奋不顾身，遂死於战场，追赠平西将军。处子玘、札，皆有才力，中兴之初，并见宠任。其诸子侄悉处列位，为扬土豪右，而札凶淫放恣，为百姓所苦。泰宁中，王敦诛之，灭其族。",
+          "person_mention_id": "c-sanguozhi-060-zhoufang:line090-pei01-01:m0077"
+        }
+      ],
+      "interpretation_note": "本來源所記。",
       "status": "source_attested",
       "reviewer": "Codex（AI 代理）",
       "human_reviewed": false,
