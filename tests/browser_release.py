@@ -218,6 +218,8 @@ with sync_playwright() as pw:
             assert back.get_attribute('href').startswith('reader.html#work=w-hanshu') and '漢書' in back.inner_text()
             back.click();expect(page.locator('.corpus-text p')).to_have_count(11)
             assert page.locator('.corpus-text p').all_text_contents()==han_text
+            if not page.locator('#chapter-directory').evaluate('node => node.open'):
+                page.locator('#chapter-directory > summary').click()
             page.locator('#chapter-search').fill('周')
             before=page.url
             page.locator('[data-set-locale="en"]').click()
