@@ -1520,6 +1520,50 @@
       "chapter_id": "c-sanguozhi-060-lvdai",
       "source_id": "s-sanguozhi-060-lvdai",
       "work_title": "三國志"
+    },
+    {
+      "number": 63,
+      "category": "",
+      "title": "吳範傳",
+      "paragraph_id": "c-sanguozhi-063-wufan:line015",
+      "count": 2,
+      "raw_count": 2,
+      "duplicate_count": 0,
+      "counting_policy": "independent_fixed_witness_occurrences",
+      "quote": "及壬辰歲，範又白言：「歲在甲午，劉備當得益州。」後呂岱從蜀還，遇之白帝，說備部衆離落，死亡且半，事必不克。權以難範，範曰：「臣所言者天道也，而岱所見者人事耳。」備卒得蜀。",
+      "paragraph_ids": [
+        "c-sanguozhi-063-wufan:line015"
+      ],
+      "mention_ids": [
+        "c-sanguozhi-063-wufan:line015:m0025",
+        "c-sanguozhi-063-wufan:line015:m0071"
+      ],
+      "mention_paragraph_ids": {
+        "c-sanguozhi-063-wufan:line015:m0025": "c-sanguozhi-063-wufan:line015",
+        "c-sanguozhi-063-wufan:line015:m0071": "c-sanguozhi-063-wufan:line015"
+      },
+      "mention_id": "c-sanguozhi-063-wufan:line015:m0025",
+      "occurrence_groups": [
+        {
+          "canonical_mention_id": "c-sanguozhi-063-wufan:line015:m0025",
+          "mention_ids": [
+            "c-sanguozhi-063-wufan:line015:m0025"
+          ],
+          "kind": "paragraph"
+        },
+        {
+          "canonical_mention_id": "c-sanguozhi-063-wufan:line015:m0071",
+          "mention_ids": [
+            "c-sanguozhi-063-wufan:line015:m0071"
+          ],
+          "kind": "paragraph"
+        }
+      ],
+      "work_id": "w-sanguozhi",
+      "book_id": "b-sanguozhi-063",
+      "chapter_id": "c-sanguozhi-063-wufan",
+      "source_id": "s-sanguozhi-063-wufan",
+      "work_title": "三國志"
     }
   ],
   "table_occurrences": [],
@@ -1764,6 +1808,33 @@
         "wikitext_sha256": "79a52b4bca550c12a1020750b4464bdc2476fcbb376e67fd22a0bc03f713e8e6",
         "collation_witnesses": [
           "source-evidence/sanguozhi060-lvdai/reading.json"
+        ]
+      }
+    },
+    {
+      "chapter_id": "c-sanguozhi-063-wufan",
+      "work_id": "w-sanguozhi",
+      "book_id": "b-sanguozhi-063",
+      "source_id": "s-sanguozhi-063-wufan",
+      "source": {
+        "title": "三國志卷六十三·吳書十八",
+        "provider": "Wikisource",
+        "url": "https://zh.wikisource.org/w/index.php?oldid=2188657",
+        "permalink": "https://zh.wikisource.org/w/index.php?oldid=2188657",
+        "revision_id": 2188657,
+        "accessed_on": "2026-11-21",
+        "edition": "維基文庫固定修訂，裴注與正文分層。",
+        "extent": "第11至27行。",
+        "text_scope": "partial_chapter",
+        "review_status": "text_checked",
+        "image_verified": false,
+        "rights": "古籍原文，維基文庫轉錄。",
+        "license_url": "https://creativecommons.org/licenses/by-sa/4.0/",
+        "raw_path": "source-evidence/sanguozhi063-wu-liu-zhao/sanguozhi063-ws2188657.wikitext",
+        "raw_file_sha256": "09476ea05c8009bbbcf1f0bab016a7fec3b22878ab03752df55992912f97344b",
+        "wikitext_sha256": "09476ea05c8009bbbcf1f0bab016a7fec3b22878ab03752df55992912f97344b",
+        "collation_witnesses": [
+          "source-evidence/sanguozhi063-wufan/reading.json"
         ]
       }
     }
