@@ -1,0 +1,152 @@
+{
+  "record_type": "fixed_source_complete_item_review",
+  "reviewer": "Codex（AI代理）",
+  "model": null,
+  "human_reviewed": false,
+  "external_witnesses": [
+    {
+      "revision_id": 803202,
+      "raw_path": "source-evidence/liang043-complete/external/tongjian162-ws803202.wikitext",
+      "line": 14,
+      "start": 8,
+      "end": 23,
+      "source_quote": "太清三年（己巳，公元五四九年）",
+      "raw_sha256": "ab62b2042b474e9ca9e95db3b1c1246a79ea9cca612b7720f098377f5be05ce8",
+      "interpretation": "太清三年城陷。"
+    },
+    {
+      "revision_id": 513461,
+      "raw_path": "source-evidence/liang043-complete/external/nan058-ws513461.wikitext",
+      "line": 62,
+      "start": 0,
+      "end": 15,
+      "source_quote": "子諒，以學業為陳始興王叔陵所引",
+      "raw_sha256": "6ea7470791ba480cec67928464d333afeca6f2bc112d80e79ab526bb6da31983",
+      "interpretation": "南58在粲敘後記子諒、仕陳，名與遭遇皆與臧不同，未作一人。"
+    }
+  ],
+  "print_readings": [
+    {
+      "url": "https://upload.wikimedia.org/wikipedia/commons/0/00/NLC892-411999017142-12737_%E4%BA%8C%E5%8D%81%E5%9B%9B%E5%8F%B2_%E7%AC%AC168%E5%86%8A.pdf#page=70",
+      "catalog_record": "https://commons.wikimedia.org/wiki/File:NLC892-411999017142-12737_%E4%BA%8C%E5%8D%81%E5%9B%9B%E5%8F%B2_%E7%AC%AC168%E5%86%8A.pdf",
+      "pdf_sha1": "452ab2c8fb5a14877997663fb83f731a633c467e",
+      "pdf_sha256": "3393f423b57e317a145624946afd80fbb696aa364415b45897cca0b2988eef50",
+      "image_sha256": "5b703252b84ea9dc4fe8420495d5c7f9e8efa45b729366de0b756a8d499212a4",
+      "edition": "清乾隆武英殿本《梁書》，國圖第168冊。",
+      "page": 70,
+      "half": "L",
+      "folio": "四上",
+      "columns_from_right": "5–7",
+      "source_quote": "粲長子臧字君理歴官尚書三公郎太子洗馬東宮領直侯景至帥兵屯西華門城陷奔江州收舊部曲據豫章為其部下所害",
+      "reading": "殿本臧為長子，署字君理，遇害在據豫章之後。"
+    }
+  ],
+  "boundaries": [
+    {
+      "book_id": "b-liangshu-043",
+      "title": "韋臧",
+      "unit_kind": "embedded_account",
+      "chapter_id": "c-liangshu-043-weizang",
+      "entry_checked": true,
+      "full_text": true,
+      "first_pass": true,
+      "item_reviewed": true,
+      "source_layout": "wikisource_mixed_indented_prose",
+      "first_line": 19,
+      "last_line": 19,
+      "start_codepoint": 0,
+      "end_codepoint": 63,
+      "opening": "　　粲長子臧，字君理。歷",
+      "closing": "，據豫章，爲其部下所害。",
+      "parent_heading": "韋粲",
+      "chapter_path": "corpus/liangshu/043-weizang.json",
+      "paragraph_ids": [
+        "c-liangshu-043-weizang:p001"
+      ],
+      "item_review_path": "source-evidence/liang043-complete/weizang-reading.json"
+    }
+  ],
+  "chronology": [],
+  "readings": [
+    {
+      "id": "c-liangshu-043-weizang:received_sentence1-0",
+      "kind": "received_sentence",
+      "person_id": "axs_5y7_p7w_AAAAA",
+      "source_quote": "粲長子臧，字君理。",
+      "reading": "韋臧字君理，粲長子。",
+      "note": "韋臧字君理，粲長子。",
+      "paragraph_id": "c-liangshu-043-weizang:p001",
+      "start_codepoint": 0,
+      "end_codepoint": 9,
+      "human_reviewed": false
+    },
+    {
+      "id": "c-liangshu-043-weizang:received_sentence1-9",
+      "kind": "received_sentence",
+      "person_id": "axs_5y7_p7w_AAAAA",
+      "source_quote": "歷官尚書三公郎、太子洗馬、東宮領直。",
+      "reading": "歷尚書三公郎、太子洗馬、東宮領直。",
+      "note": "歷尚書三公郎、太子洗馬、東宮領直。",
+      "paragraph_id": "c-liangshu-043-weizang:p001",
+      "start_codepoint": 9,
+      "end_codepoint": 27,
+      "human_reviewed": false
+    },
+    {
+      "id": "c-liangshu-043-weizang:received_sentence1-27",
+      "kind": "received_sentence",
+      "person_id": "axs_5y7_p7w_AAAAA",
+      "source_quote": "侯景至，帥兵屯西華門。",
+      "reading": "侯景至時率兵屯西華門。",
+      "note": "侯景至時率兵屯西華門。",
+      "paragraph_id": "c-liangshu-043-weizang:p001",
+      "start_codepoint": 27,
+      "end_codepoint": 38,
+      "human_reviewed": false
+    },
+    {
+      "id": "c-liangshu-043-weizang:received_sentence1-38",
+      "kind": "received_sentence",
+      "person_id": "axs_5y7_p7w_AAAAA",
+      "source_quote": "城陷，奔江州，收舊部曲，據豫章，爲其部下所害。",
+      "reading": "城陷出奔，收舊部據豫章，為部下所害。",
+      "note": "城陷出奔，收舊部據豫章，為部下所害。",
+      "paragraph_id": "c-liangshu-043-weizang:p001",
+      "start_codepoint": 38,
+      "end_codepoint": 61,
+      "human_reviewed": false
+    },
+    {
+      "id": "c-liangshu-043-weizang:eldest_son1-0",
+      "kind": "eldest_son",
+      "person_id": "axs_5y7_p7w_AAAAA",
+      "source_quote": "粲長子臧",
+      "reading": "卷中另段。尼為粲子而與父同戰死；不得將臧列入青塘死亡。",
+      "note": "卷中另段。尼為粲子而與父同戰死；不得將臧列入青塘死亡。",
+      "paragraph_id": "c-liangshu-043-weizang:p001",
+      "start_codepoint": 0,
+      "end_codepoint": 4,
+      "human_reviewed": false,
+      "father": "axs_5y7_p7w_AAAA",
+      "eldest": "axs_5y7_p7w_AAAAA",
+      "separate_son": "axs_5y7_p7w_AAAAB"
+    },
+    {
+      "id": "c-liangshu-043-weizang:death_bound1-38",
+      "kind": "death_bound",
+      "person_id": "axs_5y7_p7w_AAAAA",
+      "source_quote": "城陷，奔江州",
+      "reading": "台城陷於太清三年三月549；臧出奔後遇害，本傳不標卒年日及歲數。",
+      "note": "台城陷於太清三年三月549；臧出奔後遇害，本傳不標卒年日及歲數。",
+      "paragraph_id": "c-liangshu-043-weizang:p001",
+      "start_codepoint": 38,
+      "end_codepoint": 44,
+      "human_reviewed": false,
+      "earliest_ce_year": 549,
+      "after": "台城陷，奔江州、據豫章",
+      "death_assertion": "le-liang043-weizang-臧",
+      "exact_death_year": null
+    }
+  ],
+  "identity_limits": []
+}

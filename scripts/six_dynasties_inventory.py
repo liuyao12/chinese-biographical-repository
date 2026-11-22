@@ -110,6 +110,12 @@ def source_paragraphs(lines, layout=None):
         except ImportError:
             from sanguozhi050_layers import project_line
         return [body for line in lines if (body:=project_line(line)[0])]
+    if layout == 'sanguozhi059_received_with_pei_notes':
+        try:
+            from scripts.sanguozhi059_layers import project_line
+        except ImportError:
+            from sanguozhi059_layers import project_line
+        return [body for line in lines if (body:=project_line(line)[0])]
     if layout == 'jin065_indented_text':
         paragraphs = []
         for line in lines:

@@ -61,6 +61,41 @@
   "addresses": [],
   "occurrences": [
     {
+      "number": 31,
+      "category": "",
+      "title": "梁書卷三十一·袁昂父祖",
+      "paragraph_id": "c-liangshu-031-yuanjing-yuanang:p001",
+      "count": 1,
+      "raw_count": 1,
+      "duplicate_count": 0,
+      "counting_policy": "independent_fixed_witness_occurrences",
+      "quote": "袁昂字千里，陳郡陽夏人。祖洵，宋征虜將軍、吳郡太守，父顗，冠軍將軍、雍州刺史，",
+      "paragraph_ids": [
+        "c-liangshu-031-yuanjing-yuanang:p001"
+      ],
+      "mention_ids": [
+        "c-liangshu-031-yuanjing-yuanang:p001:m0013"
+      ],
+      "mention_paragraph_ids": {
+        "c-liangshu-031-yuanjing-yuanang:p001:m0013": "c-liangshu-031-yuanjing-yuanang:p001"
+      },
+      "mention_id": "c-liangshu-031-yuanjing-yuanang:p001:m0013",
+      "occurrence_groups": [
+        {
+          "canonical_mention_id": "c-liangshu-031-yuanjing-yuanang:p001:m0013",
+          "mention_ids": [
+            "c-liangshu-031-yuanjing-yuanang:p001:m0013"
+          ],
+          "kind": "paragraph"
+        }
+      ],
+      "work_id": "w-liangshu",
+      "book_id": "b-liangshu-031",
+      "chapter_id": "c-liangshu-031-yuanjing-yuanang",
+      "source_id": "s-liangshu-031-yuanjing-yuanang-ws1530926",
+      "work_title": "梁書"
+    },
+    {
       "number": 48,
       "category": "",
       "title": "袁彖祖父",
@@ -134,6 +169,29 @@
   "table_occurrences": [],
   "sources": [
     {
+      "chapter_id": "c-liangshu-031-yuanjing-yuanang",
+      "work_id": "w-liangshu",
+      "book_id": "b-liangshu-031",
+      "source_id": "s-liangshu-031-yuanjing-yuanang-ws1530926",
+      "source": {
+        "title": "梁書卷三十一·袁昂父祖",
+        "provider": "Wikisource",
+        "permalink": "https://zh.wikisource.org/w/index.php?oldid=1530926",
+        "url": "https://zh.wikisource.org/w/index.php?oldid=1530926",
+        "revision_id": 1530926,
+        "edition": "維基文庫固定修訂",
+        "accessed_on": "2026-11-21",
+        "review_status": "text_checked",
+        "image_verified": false,
+        "rights": "古代原文；數位轉錄依維基文庫授權。",
+        "license_url": "https://creativecommons.org/licenses/by-sa/4.0/",
+        "extent": "梁書卷三十一·袁昂父祖",
+        "text_scope": "partial_chapter",
+        "raw_path": "source-evidence/liang016-complete/external/liang031-ws1530926.wikitext",
+        "raw_file_sha256": "13d41d36915b185d6128b1acf871160262913f885ebcb1fef95a377727df8287"
+      }
+    },
+    {
       "chapter_id": "c-nanqishu-048-yuantuan-ancestry",
       "work_id": "w-nanqishu",
       "book_id": "b-nanqishu-048",
@@ -189,6 +247,33 @@
     }
   ],
   "relations": [
+    {
+      "id": "a-chen017-ang-grandfather",
+      "subject_person_id": "hb9_2gq_205",
+      "object_person_id": "xxh_xtr_3f9_A",
+      "predicate": "grandfather",
+      "qualifiers": {
+        "source_term": "祖洵",
+        "lineage": "paternal"
+      },
+      "evidence": [
+        {
+          "work_id": "w-liangshu",
+          "book_id": "b-liangshu-031",
+          "chapter_id": "c-liangshu-031-yuanjing-yuanang",
+          "source_id": "s-liangshu-031-yuanjing-yuanang-ws1530926",
+          "paragraph_id": "c-liangshu-031-yuanjing-yuanang:p001",
+          "quote": "袁昂字千里，陳郡陽夏人。祖洵，宋征虜將軍、吳郡太守，父顗，冠軍將軍、雍州刺史，",
+          "subject_person_mention_id": "c-liangshu-031-yuanjing-yuanang:p001:m0000",
+          "object_person_mention_id": "c-liangshu-031-yuanjing-yuanang:p001:m0013"
+        }
+      ],
+      "status": "source_attested",
+      "interpretation_note": "梁書袁昂傳明書祖洵。",
+      "reviewer": "Codex（AI代理）",
+      "model": null,
+      "human_reviewed": false
+    },
     {
       "id": "a-nanqishu-048-yuantuan-ancestry-grandfather",
       "subject_person_id": "x6r_6az_6zn",
@@ -327,6 +412,7 @@
     }
   ],
   "related_people": {
+    "hb9_2gq_205": "袁昂〔吳郡不降梁〕",
     "x6r_6az_6zn": "袁彖",
     "xxh_xtr_3f9": "袁豹",
     "xxh_xtr_3f9_A": "袁洵",
@@ -356,6 +442,33 @@
     "xxh_xtr_3f9_A"
   ],
   "preferred_relations": [
+    {
+      "id": "a-chen017-ang-grandfather",
+      "subject_person_id": "hb9_2gq_205",
+      "object_person_id": "xxh_xtr_3f9_A",
+      "predicate": "grandfather",
+      "qualifiers": {
+        "source_term": "祖洵",
+        "lineage": "paternal"
+      },
+      "evidence": [
+        {
+          "work_id": "w-liangshu",
+          "book_id": "b-liangshu-031",
+          "chapter_id": "c-liangshu-031-yuanjing-yuanang",
+          "source_id": "s-liangshu-031-yuanjing-yuanang-ws1530926",
+          "paragraph_id": "c-liangshu-031-yuanjing-yuanang:p001",
+          "quote": "袁昂字千里，陳郡陽夏人。祖洵，宋征虜將軍、吳郡太守，父顗，冠軍將軍、雍州刺史，",
+          "subject_person_mention_id": "c-liangshu-031-yuanjing-yuanang:p001:m0000",
+          "object_person_mention_id": "c-liangshu-031-yuanjing-yuanang:p001:m0013"
+        }
+      ],
+      "status": "source_attested",
+      "interpretation_note": "梁書袁昂傳明書祖洵。",
+      "reviewer": "Codex（AI代理）",
+      "model": null,
+      "human_reviewed": false
+    },
     {
       "id": "a-nanqishu-048-yuantuan-ancestry-grandfather",
       "subject_person_id": "x6r_6az_6zn",
