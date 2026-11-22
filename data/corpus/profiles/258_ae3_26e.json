@@ -9,7 +9,56 @@
     "傅暢",
     "暢"
   ],
-  "titles": [],
+  "titles": [
+    {
+      "id": "th-songshu-048-fuhongzhi-1-114",
+      "title": "祕書丞",
+      "kind": "office",
+      "mode": "attestation",
+      "person_id": "258_ae3_26e",
+      "attestations": [
+        {
+          "id": "th-songshu-048-fuhongzhi-1-114:a",
+          "paragraph_id": "c-songshu-048-fuhongzhi:p001",
+          "start": 114,
+          "end": 117,
+          "surface": "祕書丞",
+          "person_mention_id": "c-songshu-048-fuhongzhi:p001:m0112",
+          "usage": "narrative",
+          "date_expression": null
+        }
+      ],
+      "effective_period": {
+        "start": {
+          "status": "unknown",
+          "date_expression": null,
+          "evidence": []
+        },
+        "end": {
+          "status": "unknown",
+          "date_expression": null,
+          "evidence": []
+        }
+      },
+      "evidence": [
+        {
+          "work_id": "w-songshu",
+          "book_id": "b-songshu-048",
+          "chapter_id": "c-songshu-048-fuhongzhi",
+          "source_id": "s-songshu-048-fuhongzhi-ws1791560",
+          "paragraph_id": "c-songshu-048-fuhongzhi:p001",
+          "quote": "傅弘之字仲度，北地泥陽人。傅氏舊屬靈州，漢末郡境為虜所侵，失土寄寓馮翊，置泥陽、富平二縣，靈州廢不立，故傅氏悉屬泥陽。晉武帝太康三年，復立靈州縣，傅氏還屬靈州。弘之高祖晉司徒祗，後封靈州公，不欲封本縣，故祗一門還復泥陽。曾祖暢，祕書丞，沒胡，生子洪，晉穆帝永和中，胡亂得還。洪生韶，梁州刺史，散騎常侍。韶生弘之。",
+          "person_mention_id": "c-songshu-048-fuhongzhi:p001:m0112"
+        }
+      ],
+      "status": "source_attested",
+      "interpretation_note": "所見原官稱，未載全任期。",
+      "reviewer": "Codex（AI代理）",
+      "model": null,
+      "human_reviewed": false,
+      "period": "未定 → 未定"
+    }
+  ],
   "addresses": [],
   "occurrences": [
     {
@@ -150,6 +199,41 @@
       "book_id": "b-songshu-048",
       "chapter_id": "c-songshu-048-fuhongzhi-zhao-family",
       "source_id": "s-songshu-048-fuhongzhi-zhao-family-ws1791560",
+      "work_title": "宋書"
+    },
+    {
+      "number": 48,
+      "category": "",
+      "title": "傅弘之",
+      "paragraph_id": "c-songshu-048-fuhongzhi:p001",
+      "count": 1,
+      "raw_count": 1,
+      "duplicate_count": 0,
+      "counting_policy": "independent_fixed_witness_occurrences",
+      "quote": "靈州。弘之高祖晉司徒祗，後封靈州公，不欲封本縣，故祗一門還復泥陽。曾祖暢，祕書丞，沒胡，生子洪，晉穆帝永和中，胡亂得還。洪生韶，梁州刺史，散騎常侍。韶生弘之。",
+      "paragraph_ids": [
+        "c-songshu-048-fuhongzhi:p001"
+      ],
+      "mention_ids": [
+        "c-songshu-048-fuhongzhi:p001:m0112"
+      ],
+      "mention_paragraph_ids": {
+        "c-songshu-048-fuhongzhi:p001:m0112": "c-songshu-048-fuhongzhi:p001"
+      },
+      "mention_id": "c-songshu-048-fuhongzhi:p001:m0112",
+      "occurrence_groups": [
+        {
+          "canonical_mention_id": "c-songshu-048-fuhongzhi:p001:m0112",
+          "mention_ids": [
+            "c-songshu-048-fuhongzhi:p001:m0112"
+          ],
+          "kind": "paragraph"
+        }
+      ],
+      "work_id": "w-songshu",
+      "book_id": "b-songshu-048",
+      "chapter_id": "c-songshu-048-fuhongzhi",
+      "source_id": "s-songshu-048-fuhongzhi-ws1791560",
       "work_title": "宋書"
     }
   ],
@@ -639,6 +723,29 @@
           ],
           "digital_headings_not_received_text": true
         }
+      }
+    },
+    {
+      "chapter_id": "c-songshu-048-fuhongzhi",
+      "work_id": "w-songshu",
+      "book_id": "b-songshu-048",
+      "source_id": "s-songshu-048-fuhongzhi-ws1791560",
+      "source": {
+        "title": "傅弘之",
+        "provider": "Wikisource",
+        "permalink": "https://zh.wikisource.org/w/index.php?oldid=1791560",
+        "url": "https://zh.wikisource.org/w/index.php?oldid=1791560",
+        "revision_id": 1791560,
+        "edition": "維基文庫固定修訂",
+        "accessed_on": "2026-11-21",
+        "review_status": "text_checked",
+        "image_verified": false,
+        "rights": "古代原文；數位轉錄依維基文庫授權。",
+        "license_url": "https://creativecommons.org/licenses/by-sa/4.0/",
+        "extent": "傅弘之",
+        "text_scope": "complete_biography_unit",
+        "raw_path": "source-evidence/song046-zhang-complete/external/song048-ws1791560.wikitext",
+        "raw_file_sha256": "0b275f284af779a0c075ee4741b527fb1dd4a5921c3d3f3ea167939e0e50a916"
       }
     },
     {

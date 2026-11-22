@@ -1,0 +1,89 @@
+{
+  "record_type": "fixed_source_complete_item_review",
+  "reviewer": "Codex（AI代理）",
+  "model": null,
+  "human_reviewed": false,
+  "external_witnesses": [],
+  "print_readings": [
+    {
+      "url": "https://upload.wikimedia.org/wikipedia/commons/7/75/NLC892-411999017142-12779_%E4%BA%8C%E5%8D%81%E5%9B%9B%E5%8F%B2_%E7%AC%AC144%E5%86%8A.pdf#page=77",
+      "catalog_record": "https://commons.wikimedia.org/wiki/File:NLC892-411999017142-12779_%E4%BA%8C%E5%8D%81%E5%9B%9B%E5%8F%B2_%E7%AC%AC144%E5%86%8A.pdf",
+      "pdf_sha1": "126c34411892f6943a575a15ee46fb0064bd5b7b",
+      "pdf_sha256": "316229a8587d188289a7fa2dac393760437ca7facf5deb7a3bfa09770b4a1ac3",
+      "image_sha256": "4e7aa9aa2a8de2d7a8b5f51a0516d9efdf5445efe01bd18788de6384e37f70a1",
+      "edition": "清乾隆武英殿本《宋書》，國圖第144冊。",
+      "page": 77,
+      "half": "R",
+      "folio": "四下",
+      "columns_from_right": "7",
+      "source_quote": "弟隆紹封齊受禪國除",
+      "reading": "卷內未另載朱隆卒時。"
+    }
+  ],
+  "boundaries": [
+    {
+      "book_id": "b-songshu-048",
+      "title": "朱隆",
+      "unit_kind": "embedded_account",
+      "chapter_id": "c-songshu-048-zhulong",
+      "entry_checked": true,
+      "full_text": true,
+      "first_pass": true,
+      "item_reviewed": true,
+      "source_layout": "wikisource_mixed_indented_prose",
+      "first_line": 34,
+      "last_line": 34,
+      "start_codepoint": 34,
+      "end_codepoint": 50,
+      "opening": "更以祖宣弟隆紹封。齊受禪",
+      "closing": "弟隆紹封。齊受禪，國除。",
+      "parent_heading": "朱齡石",
+      "chapter_path": "corpus/songshu/048-zhulong.json",
+      "paragraph_ids": [
+        "c-songshu-048-zhulong:p001"
+      ],
+      "item_review_path": "source-evidence/song048-complete/zhulong-reading.json"
+    }
+  ],
+  "chronology": [],
+  "readings": [
+    {
+      "id": "c-songshu-048-zhulong:received_sentence1-0",
+      "kind": "received_sentence",
+      "person_id": "wip_vh5_2zm_AAB",
+      "source_quote": "更以祖宣弟隆紹封。",
+      "reading": "祖宣弟朱隆紹封。",
+      "note": "祖宣弟朱隆紹封。",
+      "paragraph_id": "c-songshu-048-zhulong:p001",
+      "start_codepoint": 0,
+      "end_codepoint": 9,
+      "human_reviewed": false
+    },
+    {
+      "id": "c-songshu-048-zhulong:received_sentence1-9",
+      "kind": "received_sentence",
+      "person_id": "wip_vh5_2zm_AAB",
+      "source_quote": "齊受禪，國除。",
+      "reading": "齊受禪，豐城國除。",
+      "note": "齊受禪，豐城國除。",
+      "paragraph_id": "c-songshu-048-zhulong:p001",
+      "start_codepoint": 9,
+      "end_codepoint": 16,
+      "human_reviewed": false
+    },
+    {
+      "id": "c-songshu-048-zhulong:chronology1-9",
+      "kind": "chronology",
+      "person_id": "wip_vh5_2zm_AAB",
+      "source_quote": "齊受禪，國除",
+      "reading": "南齊受禪為479年，所記為封國除。",
+      "note": "南齊受禪為479年，所記為封國除。",
+      "paragraph_id": "c-songshu-048-zhulong:p001",
+      "start_codepoint": 9,
+      "end_codepoint": 15,
+      "human_reviewed": false,
+      "ce_year": 479
+    }
+  ],
+  "identity_limits": []
+}

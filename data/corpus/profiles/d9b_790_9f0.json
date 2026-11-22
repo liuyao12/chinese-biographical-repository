@@ -276,6 +276,41 @@
       "chapter_id": "c-jinshu-073-yuliang",
       "source_id": "s-jinshu-073-yuliang",
       "work_title": "晉書"
+    },
+    {
+      "number": 81,
+      "category": "",
+      "title": "毛寶、穆之、珍、璩、瑾與脩之",
+      "paragraph_id": "c-jinshu-081-maoxiu-paternal-line:p001",
+      "count": 1,
+      "raw_count": 1,
+      "duplicate_count": 0,
+      "counting_policy": "independent_fixed_witness_occurrences",
+      "quote": "寶二子：穆之、安之。",
+      "paragraph_ids": [
+        "c-jinshu-081-maoxiu-paternal-line:p001"
+      ],
+      "mention_ids": [
+        "c-jinshu-081-maoxiu-paternal-line:p001:m0000"
+      ],
+      "mention_paragraph_ids": {
+        "c-jinshu-081-maoxiu-paternal-line:p001:m0000": "c-jinshu-081-maoxiu-paternal-line:p001"
+      },
+      "mention_id": "c-jinshu-081-maoxiu-paternal-line:p001:m0000",
+      "occurrence_groups": [
+        {
+          "canonical_mention_id": "c-jinshu-081-maoxiu-paternal-line:p001:m0000",
+          "mention_ids": [
+            "c-jinshu-081-maoxiu-paternal-line:p001:m0000"
+          ],
+          "kind": "paragraph"
+        }
+      ],
+      "work_id": "w-jinshu",
+      "book_id": "b-jinshu-081",
+      "chapter_id": "c-jinshu-081-maoxiu-paternal-line",
+      "source_id": "s-jinshu-081-maoxiu-paternal-line-ws11237683",
+      "work_title": "晉書"
     }
   ],
   "table_occurrences": [],
@@ -818,18 +853,98 @@
           ]
         }
       }
+    },
+    {
+      "chapter_id": "c-jinshu-081-maoxiu-paternal-line",
+      "work_id": "w-jinshu",
+      "book_id": "b-jinshu-081",
+      "source_id": "s-jinshu-081-maoxiu-paternal-line-ws11237683",
+      "source": {
+        "title": "毛寶、穆之、珍、璩、瑾與脩之",
+        "provider": "Wikisource",
+        "permalink": "https://zh.wikisource.org/w/index.php?oldid=11237683",
+        "url": "https://zh.wikisource.org/w/index.php?oldid=11237683",
+        "revision_id": 11237683,
+        "edition": "維基文庫固定修訂",
+        "accessed_on": "2026-11-21",
+        "review_status": "text_checked",
+        "image_verified": false,
+        "rights": "古代原文；數位轉錄依維基文庫授權。",
+        "license_url": "https://creativecommons.org/licenses/by-sa/4.0/",
+        "extent": "毛寶、穆之、珍、璩、瑾與脩之",
+        "text_scope": "partial_chapter",
+        "raw_path": "source-evidence/song048-complete/external/jin081-ws11237683.wikitext",
+        "raw_file_sha256": "3140ce59998afa4ece0b29670f21e783ad88578b06781c384eb4b767a2fce698"
+      }
     }
   ],
-  "relations": [],
+  "relations": [
+    {
+      "id": "a-song048-muzhi-bao",
+      "subject_person_id": "d9b_790_9f0_A",
+      "object_person_id": "d9b_790_9f0",
+      "predicate": "father",
+      "qualifiers": {
+        "source_term": "寶二子：穆之",
+        "lineage": "paternal"
+      },
+      "evidence": [
+        {
+          "work_id": "w-jinshu",
+          "book_id": "b-jinshu-081",
+          "chapter_id": "c-jinshu-081-maoxiu-paternal-line",
+          "source_id": "s-jinshu-081-maoxiu-paternal-line-ws11237683",
+          "paragraph_id": "c-jinshu-081-maoxiu-paternal-line:p001",
+          "quote": "寶二子：穆之、安之。",
+          "subject_person_mention_id": "c-jinshu-081-maoxiu-paternal-line:p001:m0004",
+          "object_person_mention_id": "c-jinshu-081-maoxiu-paternal-line:p001:m0000"
+        }
+      ],
+      "status": "source_attested",
+      "interpretation_note": "穆之為寶二子之一。",
+      "reviewer": "Codex（AI代理）",
+      "model": null,
+      "human_reviewed": false
+    }
+  ],
   "related_people": {
-    "d9b_790_9f0": "毛寶"
+    "d9b_790_9f0": "毛寶",
+    "d9b_790_9f0_A": "毛穆之（字憲祖，虎生／武生）"
   },
   "dates": [],
   "name_components": [],
   "person_ids": [
     "d9b_790_9f0"
   ],
-  "preferred_relations": [],
+  "preferred_relations": [
+    {
+      "id": "a-song048-muzhi-bao",
+      "subject_person_id": "d9b_790_9f0_A",
+      "object_person_id": "d9b_790_9f0",
+      "predicate": "father",
+      "qualifiers": {
+        "source_term": "寶二子：穆之",
+        "lineage": "paternal"
+      },
+      "evidence": [
+        {
+          "work_id": "w-jinshu",
+          "book_id": "b-jinshu-081",
+          "chapter_id": "c-jinshu-081-maoxiu-paternal-line",
+          "source_id": "s-jinshu-081-maoxiu-paternal-line-ws11237683",
+          "paragraph_id": "c-jinshu-081-maoxiu-paternal-line:p001",
+          "quote": "寶二子：穆之、安之。",
+          "subject_person_mention_id": "c-jinshu-081-maoxiu-paternal-line:p001:m0004",
+          "object_person_mention_id": "c-jinshu-081-maoxiu-paternal-line:p001:m0000"
+        }
+      ],
+      "status": "source_attested",
+      "interpretation_note": "穆之為寶二子之一。",
+      "reviewer": "Codex（AI代理）",
+      "model": null,
+      "human_reviewed": false
+    }
+  ],
   "age_assertions": [],
   "life_events": [
     {

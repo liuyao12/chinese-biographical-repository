@@ -1,0 +1,113 @@
+{
+  "record_type": "fixed_source_complete_item_review",
+  "reviewer": "Codex（AI代理）",
+  "model": null,
+  "human_reviewed": false,
+  "external_witnesses": [
+    {
+      "revision_id": 2644502,
+      "raw_path": "sources/calendar-context/jin008-ws2644502.wikitext",
+      "line": 449,
+      "start": 2,
+      "end": 10,
+      "source_quote": "二月癸酉，袁眞死",
+      "raw_sha256": "947547981eb6fa2796d6a66f0b2f49e0d44d8f517cbd5300eb96d84114d56a73",
+      "interpretation": "晉海西公本紀。"
+    },
+    {
+      "revision_id": 1963381,
+      "raw_path": "sources/nanshi/nanshi016-ws1963381.wikitext",
+      "line": 41,
+      "start": 17,
+      "end": 35,
+      "source_quote": "伯父憲及斌-{並}-爲西中郎袁眞將佐",
+      "raw_sha256": "8a252b3dacfcc3037062a5dab71748ee1d5c39a94f99ea9e61474b3fa9639ab3",
+      "interpretation": "南史同段省兩郡官。"
+    }
+  ],
+  "print_readings": [
+    {
+      "url": "https://upload.wikimedia.org/wikipedia/commons/7/75/NLC892-411999017142-12779_%E4%BA%8C%E5%8D%81%E5%9B%9B%E5%8F%B2_%E7%AC%AC144%E5%86%8A.pdf#page=73",
+      "catalog_record": "https://commons.wikimedia.org/wiki/File:NLC892-411999017142-12779_%E4%BA%8C%E5%8D%81%E5%9B%9B%E5%8F%B2_%E7%AC%AC144%E5%86%8A.pdf",
+      "pdf_sha1": "126c34411892f6943a575a15ee46fb0064bd5b7b",
+      "pdf_sha256": "316229a8587d188289a7fa2dac393760437ca7facf5deb7a3bfa09770b4a1ac3",
+      "image_sha256": "3fbccfe27e3d7a2f82de02922ffd55b25e868e515ae4b3ae23713fafc24b8254",
+      "edition": "清乾隆武英殿本《宋書》，國圖第144冊。",
+      "page": 73,
+      "half": "L",
+      "folio": "一上",
+      "columns_from_right": "6–8",
+      "source_quote": "伯父憲及斌並為西中郎袁真將佐憲為梁國内史斌為汝南内史",
+      "reading": "二人署官分明。"
+    }
+  ],
+  "boundaries": [
+    {
+      "book_id": "b-songshu-048",
+      "title": "朱憲、朱斌",
+      "unit_kind": "embedded_account",
+      "chapter_id": "c-songshu-048-zhuxianbin",
+      "entry_checked": true,
+      "full_text": true,
+      "first_pass": true,
+      "item_reviewed": true,
+      "source_layout": "wikisource_mixed_indented_prose",
+      "first_line": 10,
+      "last_line": 10,
+      "start_codepoint": 31,
+      "end_codepoint": 86,
+      "opening": "伯父憲及斌，並為西中郎袁",
+      "closing": "憲兄弟與溫潛通，並殺之。",
+      "parent_heading": "朱齡石",
+      "scope_note": "二伯父同事同死，各有官職，各自建立人物，本文合敘。",
+      "chapter_path": "corpus/songshu/048-zhuxianbin.json",
+      "paragraph_ids": [
+        "c-songshu-048-zhuxianbin:p001"
+      ],
+      "item_review_path": "source-evidence/song048-complete/zhuxianbin-reading.json"
+    }
+  ],
+  "chronology": [],
+  "readings": [
+    {
+      "id": "c-songshu-048-zhuxianbin:received_sentence1-0",
+      "kind": "received_sentence",
+      "person_id": "m0r_dxh_she",
+      "source_quote": "伯父憲及斌，並為西中郎袁真將佐，憲為梁國內史，斌為汝南內史。",
+      "reading": "齡石伯父憲、斌皆事袁真，憲梁國內史，斌汝南內史。",
+      "note": "齡石伯父憲、斌皆事袁真，憲梁國內史，斌汝南內史。",
+      "paragraph_id": "c-songshu-048-zhuxianbin:p001",
+      "start_codepoint": 0,
+      "end_codepoint": 30,
+      "human_reviewed": false
+    },
+    {
+      "id": "c-songshu-048-zhuxianbin:received_sentence1-30",
+      "kind": "received_sentence",
+      "person_id": "m0r_dxh_she",
+      "source_quote": "大司馬桓溫伐真於壽陽，真以憲兄弟與溫潛通，並殺之。",
+      "reading": "桓溫攻袁真時，真疑二人與溫潛通，並殺之。",
+      "note": "桓溫攻袁真時，真疑二人與溫潛通，並殺之。",
+      "paragraph_id": "c-songshu-048-zhuxianbin:p001",
+      "start_codepoint": 30,
+      "end_codepoint": 55,
+      "human_reviewed": false
+    },
+    {
+      "id": "c-songshu-048-zhuxianbin:reported_motive1-41",
+      "kind": "reported_motive",
+      "person_id": "m0r_dxh_she",
+      "source_quote": "真以憲兄弟與溫潛通",
+      "reading": "袁真因疑殺二人，出於敘事者對袁真判斷的追記。晉8太和五年二月癸酉袁真死，是憲、斌所遭處分的最遲界。",
+      "note": "袁真因疑殺二人，出於敘事者對袁真判斷的追記。晉8太和五年二月癸酉袁真死，是憲、斌所遭處分的最遲界。",
+      "paragraph_id": "c-songshu-048-zhuxianbin:p001",
+      "start_codepoint": 41,
+      "end_codepoint": 50,
+      "human_reviewed": false,
+      "exclusive_latest_event": "袁真卒",
+      "latest_year": 370,
+      "year_exact": false
+    }
+  ],
+  "identity_limits": []
+}

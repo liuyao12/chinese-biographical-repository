@@ -7,7 +7,8 @@
   "review": "ai_provisional",
   "names": [
     "石苞",
-    "之"
+    "之",
+    "苞"
   ],
   "titles": [],
   "addresses": [],
@@ -125,6 +126,50 @@
       "chapter_id": "c-jinshu-044-huabiao",
       "source_id": "s-jinshu-044-huabiao",
       "work_title": "晉書"
+    },
+    {
+      "number": 55,
+      "category": "",
+      "title": "丁奉傳",
+      "paragraph_id": "c-sanguozhi-055-dingfeng:line138",
+      "count": 2,
+      "raw_count": 2,
+      "duplicate_count": 0,
+      "counting_policy": "independent_fixed_witness_occurrences",
+      "quote": "迎立孫皓，遷右大司馬左軍師。寶鼎三年，皓命奉與諸葛靚攻合肥。奉與晉大將石苞書，搆而間之，苞以徵還。建衡元年，奉復帥衆治徐塘，因攻晉穀陽。穀陽民知之，引去，奉無所獲。皓怒，斬奉導軍。三年，卒。奉貴而有功，漸以驕矜，或有毀之者，皓追以前出軍事，徙奉家於臨川。奉弟封，官至後將軍，",
+      "paragraph_ids": [
+        "c-sanguozhi-055-dingfeng:line138"
+      ],
+      "mention_ids": [
+        "c-sanguozhi-055-dingfeng:line138:m0053",
+        "c-sanguozhi-055-dingfeng:line138:m0062"
+      ],
+      "mention_paragraph_ids": {
+        "c-sanguozhi-055-dingfeng:line138:m0053": "c-sanguozhi-055-dingfeng:line138",
+        "c-sanguozhi-055-dingfeng:line138:m0062": "c-sanguozhi-055-dingfeng:line138"
+      },
+      "mention_id": "c-sanguozhi-055-dingfeng:line138:m0053",
+      "occurrence_groups": [
+        {
+          "canonical_mention_id": "c-sanguozhi-055-dingfeng:line138:m0053",
+          "mention_ids": [
+            "c-sanguozhi-055-dingfeng:line138:m0053"
+          ],
+          "kind": "paragraph"
+        },
+        {
+          "canonical_mention_id": "c-sanguozhi-055-dingfeng:line138:m0062",
+          "mention_ids": [
+            "c-sanguozhi-055-dingfeng:line138:m0062"
+          ],
+          "kind": "paragraph"
+        }
+      ],
+      "work_id": "w-sanguozhi",
+      "book_id": "b-sanguozhi-055",
+      "chapter_id": "c-sanguozhi-055-dingfeng",
+      "source_id": "s-sanguozhi-055-dingfeng",
+      "work_title": "三國志"
     }
   ],
   "table_occurrences": [],
@@ -12050,6 +12095,33 @@
             }
           ]
         }
+      }
+    },
+    {
+      "chapter_id": "c-sanguozhi-055-dingfeng",
+      "work_id": "w-sanguozhi",
+      "book_id": "b-sanguozhi-055",
+      "source_id": "s-sanguozhi-055-dingfeng",
+      "source": {
+        "title": "三國志卷五十五·吳書十",
+        "provider": "Wikisource",
+        "url": "https://zh.wikisource.org/w/index.php?oldid=2603286",
+        "permalink": "https://zh.wikisource.org/w/index.php?oldid=2603286",
+        "revision_id": 2603286,
+        "accessed_on": "2026-11-21",
+        "edition": "維基文庫固定修訂，裴注與正文分層。",
+        "extent": "第128至138行。",
+        "text_scope": "partial_chapter",
+        "review_status": "text_checked",
+        "image_verified": false,
+        "rights": "古籍原文，維基文庫轉錄。",
+        "license_url": "https://creativecommons.org/licenses/by-sa/4.0/",
+        "raw_path": "source-evidence/sanguozhi055-commanders/sanguozhi055-ws2603286.wikitext",
+        "raw_file_sha256": "af14d36115960881146ec95d5fdf1087db58e28d3ea95541bb050a8d63778f2e",
+        "wikitext_sha256": "af14d36115960881146ec95d5fdf1087db58e28d3ea95541bb050a8d63778f2e",
+        "collation_witnesses": [
+          "source-evidence/sanguozhi055-dingfeng/reading.json"
+        ]
       }
     }
   ],

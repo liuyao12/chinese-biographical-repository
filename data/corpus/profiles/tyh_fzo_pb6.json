@@ -12,6 +12,41 @@
   "addresses": [],
   "occurrences": [
     {
+      "number": 45,
+      "category": "",
+      "title": "劉懷慎庶長子榮祖與朱超石",
+      "paragraph_id": "c-songshu-045-liurongzu-chaoshi:p001",
+      "count": 1,
+      "raw_count": 1,
+      "duplicate_count": 0,
+      "counting_policy": "independent_fixed_witness_occurrences",
+      "quote": "懷慎庶長子榮祖，少好騎射，為高祖所知。",
+      "paragraph_ids": [
+        "c-songshu-045-liurongzu-chaoshi:p001"
+      ],
+      "mention_ids": [
+        "c-songshu-045-liurongzu-chaoshi:p001:m0000"
+      ],
+      "mention_paragraph_ids": {
+        "c-songshu-045-liurongzu-chaoshi:p001:m0000": "c-songshu-045-liurongzu-chaoshi:p001"
+      },
+      "mention_id": "c-songshu-045-liurongzu-chaoshi:p001:m0000",
+      "occurrence_groups": [
+        {
+          "canonical_mention_id": "c-songshu-045-liurongzu-chaoshi:p001:m0000",
+          "mention_ids": [
+            "c-songshu-045-liurongzu-chaoshi:p001:m0000"
+          ],
+          "kind": "paragraph"
+        }
+      ],
+      "work_id": "w-songshu",
+      "book_id": "b-songshu-045",
+      "chapter_id": "c-songshu-045-liurongzu-chaoshi",
+      "source_id": "s-songshu-045-liurongzu-chaoshi-ws2196532",
+      "work_title": "宋書"
+    },
+    {
       "number": 47,
       "category": "",
       "title": "劉懷肅及附家族完整選錄單元",
@@ -85,6 +120,29 @@
   "table_occurrences": [],
   "sources": [
     {
+      "chapter_id": "c-songshu-045-liurongzu-chaoshi",
+      "work_id": "w-songshu",
+      "book_id": "b-songshu-045",
+      "source_id": "s-songshu-045-liurongzu-chaoshi-ws2196532",
+      "source": {
+        "title": "劉懷慎庶長子榮祖與朱超石",
+        "provider": "Wikisource",
+        "permalink": "https://zh.wikisource.org/w/index.php?oldid=2196532",
+        "url": "https://zh.wikisource.org/w/index.php?oldid=2196532",
+        "revision_id": 2196532,
+        "edition": "維基文庫固定修訂",
+        "accessed_on": "2026-11-21",
+        "review_status": "text_checked",
+        "image_verified": false,
+        "rights": "古代原文；數位轉錄依維基文庫授權。",
+        "license_url": "https://creativecommons.org/licenses/by-sa/4.0/",
+        "extent": "劉懷慎庶長子榮祖與朱超石",
+        "text_scope": "partial_chapter",
+        "raw_path": "source-evidence/song047-complete/external/song045-ws2196532.wikitext",
+        "raw_file_sha256": "0c57853827c85b13ab394a52dd18a550c5072ac7b94d3fb6e4881582e7008c87"
+      }
+    },
+    {
       "chapter_id": "c-songshu-047-liuhuaisu",
       "work_id": "w-songshu",
       "book_id": "b-songshu-047",
@@ -136,6 +194,33 @@
     }
   ],
   "relations": [
+    {
+      "id": "a-song048-rongzu-huaishen",
+      "subject_person_id": "tyh_fzo_pb6_A",
+      "object_person_id": "tyh_fzo_pb6",
+      "predicate": "father",
+      "qualifiers": {
+        "source_term": "懷慎庶長子榮祖",
+        "lineage": "paternal"
+      },
+      "evidence": [
+        {
+          "work_id": "w-songshu",
+          "book_id": "b-songshu-045",
+          "chapter_id": "c-songshu-045-liurongzu-chaoshi",
+          "source_id": "s-songshu-045-liurongzu-chaoshi-ws2196532",
+          "paragraph_id": "c-songshu-045-liurongzu-chaoshi:p001",
+          "quote": "懷慎庶長子榮祖，少好騎射，為高祖所知。",
+          "subject_person_mention_id": "c-songshu-045-liurongzu-chaoshi:p001:m0005",
+          "object_person_mention_id": "c-songshu-045-liurongzu-chaoshi:p001:m0000"
+        }
+      ],
+      "status": "source_attested",
+      "interpretation_note": "懷慎庶長子，同傳明又與朱超石在半城。蔚祖是懷慎子、懷肅嗣，此為另一人。",
+      "reviewer": "Codex（AI代理）",
+      "model": null,
+      "human_reviewed": false
+    },
     {
       "id": "a-song047-liuhuaisu-002",
       "subject_person_id": "tyh_fzo_pb6",
@@ -200,7 +285,8 @@
   "related_people": {
     "myg_cco_ng6": "蔚祖",
     "olf_c6j_hmg": "劉懷肅",
-    "tyh_fzo_pb6": "懷慎"
+    "tyh_fzo_pb6": "懷慎",
+    "tyh_fzo_pb6_A": "劉榮祖（劉懷慎庶長子）"
   },
   "dates": [],
   "name_components": [],
@@ -208,6 +294,33 @@
     "tyh_fzo_pb6"
   ],
   "preferred_relations": [
+    {
+      "id": "a-song048-rongzu-huaishen",
+      "subject_person_id": "tyh_fzo_pb6_A",
+      "object_person_id": "tyh_fzo_pb6",
+      "predicate": "father",
+      "qualifiers": {
+        "source_term": "懷慎庶長子榮祖",
+        "lineage": "paternal"
+      },
+      "evidence": [
+        {
+          "work_id": "w-songshu",
+          "book_id": "b-songshu-045",
+          "chapter_id": "c-songshu-045-liurongzu-chaoshi",
+          "source_id": "s-songshu-045-liurongzu-chaoshi-ws2196532",
+          "paragraph_id": "c-songshu-045-liurongzu-chaoshi:p001",
+          "quote": "懷慎庶長子榮祖，少好騎射，為高祖所知。",
+          "subject_person_mention_id": "c-songshu-045-liurongzu-chaoshi:p001:m0005",
+          "object_person_mention_id": "c-songshu-045-liurongzu-chaoshi:p001:m0000"
+        }
+      ],
+      "status": "source_attested",
+      "interpretation_note": "懷慎庶長子，同傳明又與朱超石在半城。蔚祖是懷慎子、懷肅嗣，此為另一人。",
+      "reviewer": "Codex（AI代理）",
+      "model": null,
+      "human_reviewed": false
+    },
     {
       "id": "a-song047-liuhuaisu-002",
       "subject_person_id": "tyh_fzo_pb6",

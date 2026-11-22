@@ -1,5 +1,9 @@
 """A literal 祖母 role does not choose the paternal or maternal branch."""
 def reported_grandmother_valid(a,paragraphs):
+ if a.get('id')=='a-wu054-lusu-1':
+  try: from scripts.sanguozhi054_family import valid as su_grandmother
+  except ImportError: from sanguozhi054_family import valid as su_grandmother
+  q=a.get('qualifiers',{});return q=={'source_term':'與祖母居'} and su_grandmother(dict(a,qualifiers=dict(q,sanguozhi054_family='su-grandmother')),paragraphs)
  if isinstance(a.get('qualifiers'), dict) and isinstance(a['qualifiers'].get('source_clause_binding'), dict) and a['qualifiers']['source_clause_binding'].get('kind') == 'biography_head_birth_mother_dies_grandmother_care':
      try:
          from scripts.biography_orphan_grandmother_care import valid

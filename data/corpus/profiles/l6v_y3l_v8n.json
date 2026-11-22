@@ -6,7 +6,8 @@
   "identity_note": "依荀彧傳子嗣敘事與原稱辨識；未據習知補未讀姓名、母親、年代或排行。",
   "review": "ai_provisional",
   "names": [
-    "夏侯尚"
+    "夏侯尚",
+    "尚"
   ],
   "titles": [],
   "addresses": [],
@@ -134,6 +135,50 @@
       "book_id": "b-sanguozhi-052",
       "chapter_id": "c-sanguozhi-052-zhugejin-complete",
       "source_id": "s-sanguozhi-052-zhugejin-complete",
+      "work_title": "三國志"
+    },
+    {
+      "number": 55,
+      "category": "",
+      "title": "潘璋傳",
+      "paragraph_id": "c-sanguozhi-055-panzhang:line123",
+      "count": 2,
+      "raw_count": 2,
+      "duplicate_count": 0,
+      "counting_policy": "independent_fixed_witness_occurrences",
+      "quote": "魏將夏侯尚等圍南郡，分前部三萬人作浮橋，渡百里洲上，諸葛瑾、楊粲並會兵赴救，未知所出，而魏兵日渡不絕。璋曰：「魏勢始盛，江水又淺，未可與戰。」便將所領，到魏上流五十里，伐葦數百萬束，縛作大筏，欲順流放火，燒敗浮",
+      "paragraph_ids": [
+        "c-sanguozhi-055-panzhang:line123"
+      ],
+      "mention_ids": [
+        "c-sanguozhi-055-panzhang:line123:m0002",
+        "c-sanguozhi-055-panzhang:line123:m0118"
+      ],
+      "mention_paragraph_ids": {
+        "c-sanguozhi-055-panzhang:line123:m0002": "c-sanguozhi-055-panzhang:line123",
+        "c-sanguozhi-055-panzhang:line123:m0118": "c-sanguozhi-055-panzhang:line123"
+      },
+      "mention_id": "c-sanguozhi-055-panzhang:line123:m0002",
+      "occurrence_groups": [
+        {
+          "canonical_mention_id": "c-sanguozhi-055-panzhang:line123:m0002",
+          "mention_ids": [
+            "c-sanguozhi-055-panzhang:line123:m0002"
+          ],
+          "kind": "paragraph"
+        },
+        {
+          "canonical_mention_id": "c-sanguozhi-055-panzhang:line123:m0118",
+          "mention_ids": [
+            "c-sanguozhi-055-panzhang:line123:m0118"
+          ],
+          "kind": "paragraph"
+        }
+      ],
+      "work_id": "w-sanguozhi",
+      "book_id": "b-sanguozhi-055",
+      "chapter_id": "c-sanguozhi-055-panzhang",
+      "source_id": "s-sanguozhi-055-panzhang",
       "work_title": "三國志"
     }
   ],
@@ -3928,6 +3973,33 @@
         "wikitext_sha256": "3f1535985be18091725a92370766f8af67d71e26e611491b169a4e0d19dc1da9",
         "collation_witnesses": [
           "source-evidence/sanguozhi052-zhugejin/reading.json"
+        ]
+      }
+    },
+    {
+      "chapter_id": "c-sanguozhi-055-panzhang",
+      "work_id": "w-sanguozhi",
+      "book_id": "b-sanguozhi-055",
+      "source_id": "s-sanguozhi-055-panzhang",
+      "source": {
+        "title": "三國志卷五十五·吳書十",
+        "provider": "Wikisource",
+        "url": "https://zh.wikisource.org/w/index.php?oldid=2603286",
+        "permalink": "https://zh.wikisource.org/w/index.php?oldid=2603286",
+        "revision_id": 2603286,
+        "accessed_on": "2026-11-21",
+        "edition": "維基文庫固定修訂，裴注與正文分層。",
+        "extent": "第117至125行。",
+        "text_scope": "partial_chapter",
+        "review_status": "text_checked",
+        "image_verified": false,
+        "rights": "古籍原文，維基文庫轉錄。",
+        "license_url": "https://creativecommons.org/licenses/by-sa/4.0/",
+        "raw_path": "source-evidence/sanguozhi055-commanders/sanguozhi055-ws2603286.wikitext",
+        "raw_file_sha256": "af14d36115960881146ec95d5fdf1087db58e28d3ea95541bb050a8d63778f2e",
+        "wikitext_sha256": "af14d36115960881146ec95d5fdf1087db58e28d3ea95541bb050a8d63778f2e",
+        "collation_witnesses": [
+          "source-evidence/sanguozhi055-panzhang/reading.json"
         ]
       }
     }
