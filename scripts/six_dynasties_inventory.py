@@ -239,12 +239,13 @@ def source_paragraphs(lines, layout=None):
         except ImportError:
             from sanguozhi063_layers import project_line
         return [body for line in lines if (body:=project_line(line)[0])]
-    if layout == 'sanguozhi064_contiguous_slice':
+    if layout in ('sanguozhi064_contiguous_slice', 'sanguozhi065_contiguous_slice'):
         try:
             from scripts.sanguozhi064_slices import slice_text
         except ImportError:
             from sanguozhi064_slices import slice_text
-        return [slice_text(line) for line in lines]
+        volume = 64 if layout.startswith('sanguozhi064') else 65
+        return [slice_text(line, volume) for line in lines]
     if layout == 'jin065_indented_text':
         paragraphs = []
         for line in lines:

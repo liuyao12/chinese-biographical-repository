@@ -1,4 +1,4 @@
-"""從卷六十四的固定見證重建正文與裴注內的傳目原句。"""
+"""從《吳書》卷六十四、六十五固定見證重建正文與裴注傳目。"""
 from functools import lru_cache
 from pathlib import Path
 
@@ -8,13 +8,15 @@ except ImportError:
     from sanguozhi063_slices import slice_volume_text
 
 
-@lru_cache(maxsize=1)
-def source_lines():
-    source = Path(__file__).resolve().parents[1] / (
-        'source-evidence/sanguozhi064-roll/ws2263487.wikitext'
-    )
+REVISIONS = {64: 2263487, 65: 2589669}
+
+
+@lru_cache(maxsize=len(REVISIONS))
+def source_lines(volume):
+    folder = Path(__file__).resolve().parents[1] / 'source-evidence' / f'sanguozhi{volume:03}-roll'
+    source = folder / f'ws{REVISIONS[volume]}.wikitext'
     return source.read_text(encoding='utf-8').splitlines()
 
 
-def slice_text(fragment):
-    return slice_volume_text(fragment, source_lines(), '卷64')
+def slice_text(fragment, volume=64):
+    return slice_volume_text(fragment, source_lines(volume), f'卷{volume}')
