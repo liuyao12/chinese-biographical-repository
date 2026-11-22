@@ -187,7 +187,15 @@ class WangXiuzhiReceived(unittest.TestCase):
                     self.assertEqual(p['text'][attestation['start']:attestation['end']], holding['title'])
                     person = next(m for m in p['mentions'] if m['id'] == attestation['person_mention_id'])
                     self.assertEqual(person['person_id'], holding['person_id'])
-                self.assertEqual(holding['effective_period']['end']['status'], 'unknown')
+                end = holding['effective_period']['end']
+                term = {'烏程令': '尋以病歸', '衞軍參軍': '弘之解職同行'}.get(holding['title'])
+                if stem == 'corpus/songshu/093' and holding['person_id'] == '7r6_k52_qji_ABDACAB' and term:
+                    self.assertEqual(end['status'], 'source_event')
+                    self.assertEqual(end['event_type'], 'explicit_end')
+                    self.assertIsNone(end['date_expression'])
+                    self.assertIn(term, end['evidence'][0]['quote'])
+                else:
+                    self.assertEqual(end['status'], 'unknown')
         qi = read('corpus/nanqishu/046-titles.json')['holdings']
         posthumous = next(h for h in qi if h['title'] == '簡子')
         self.assertEqual(posthumous['person_id'], self.ids['王秀之'])

@@ -52,7 +52,14 @@ class WangZhenzhiSourceFamily(unittest.TestCase):
         self.assertEqual(maternal['predicate'], 'grandfather')
         self.assertEqual(maternal['qualifiers']['lineage'], 'maternal')
         self.assertIsNone(maternal['qualifiers']['mother_person_id'])
-        self.assertFalse(any(a['predicate'] == 'mother' for a in data['relations']))
+        mothers = [a for a in data['relations'] if a['predicate'] == 'mother'
+                   and a['subject_person_id'] == maternal['subject_person_id']]
+        self.assertCountEqual([a['id'] for a in mothers], [
+            'a-song093-wanghongzhi-mother', 'a-nanshi024-wanghongzhi-mother',
+        ])
+        self.assertEqual({a['object_person_id'] for a in mothers}, {'p48_ngr_u0u'})
+        for assertion in mothers:
+            self.assertIn('母隨兄鎭之之安成郡', assertion['evidence'][0]['quote'])
         _, assembled = load_assemblies(ROOT, catalog)
         self.assertNotEqual(assembled['7r6_k52_qji_ABDACAB']['parent_person_id'], maternal['object_person_id'])
         self.assertEqual(assembled['7r6_k52_qji_ABDACABA']['parent_person_id'], '7r6_k52_qji_ABDACAB')
@@ -84,7 +91,12 @@ class WangZhenzhiSourceFamily(unittest.TestCase):
         abbreviated = next(e for e in hong['life_events'] if e['id'] == 'le-songshu-093-66-wang-received')
         explicit = next(e for e in hong['life_events'] if e['id'] == 'le-nanshi-024-81-wang-received')
         self.assertEqual(abbreviated['date_expression'], '四年')
-        self.assertNotIn('normalized_date', abbreviated)
+        proposed = abbreviated['normalized_date']
+        self.assertEqual(proposed['status'], 'editorial_provisional')
+        self.assertEqual(proposed['source_expression'], '四年')
+        self.assertEqual(proposed['year'], 427)
+        self.assertIn('元嘉四年，徴爲通直散騎常侍', proposed['evidence'][0]['quote'])
+        self.assertIn('弘之四年卒', proposed['evidence'][-1]['quote'])
         self.assertEqual(explicit['normalized_date']['year'], 427)
         self.assertEqual(explicit['date_expression'], '元嘉四年')
         for data, age in [(zhen, 66), (hong, 63)]:
