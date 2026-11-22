@@ -47,6 +47,10 @@ def analyse(a,paragraphs,chapters,root):
  return ch,p,r,f,rule
 
 def valid(a,paragraphs,chapters,root):
+ if a.get('predicate')=='father_in_law' and a.get('evidence') and a['evidence'][0].get('chapter_id')=='c-sanguozhi-053-xuezong':
+  try: from scripts.sanguozhi053_affinity import valid as xue_affinity
+  except ImportError: from sanguozhi053_affinity import valid as xue_affinity
+  return xue_affinity(a,paragraphs)
  if a.get('predicate') == 'father_in_law' and a.get('qualifiers',{}).get('nanshi024_wangqing_reading') in ('du-fatherinlaw','du-fatherinlaw-parallel'):
   try: from scripts.nanshi024_wangqing import kin_valid as qing_received_affinity
   except ImportError: from nanshi024_wangqing import kin_valid as qing_received_affinity

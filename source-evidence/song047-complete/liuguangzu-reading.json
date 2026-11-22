@@ -1,0 +1,117 @@
+{
+  "record_type": "fixed_source_complete_item_review",
+  "reviewer": "Codex（AI代理）",
+  "model": null,
+  "human_reviewed": false,
+  "external_witnesses": [
+    {
+      "revision_id": 2190531,
+      "raw_path": "source-evidence/song047-complete/external/nanshi017-ws2190531.wikitext",
+      "line": 37,
+      "start": 166,
+      "end": 178,
+      "source_quote": "子光祖嗣。宋受禪，國除。",
+      "raw_sha256": "1f2b513aa6ac93c96f9742b6b9e53bd5372c7466f990caf3ca4cab4a8d0fe843",
+      "interpretation": "南史嗣爵與名。"
+    }
+  ],
+  "print_readings": [
+    {
+      "url": "https://upload.wikimedia.org/wikipedia/commons/7/75/NLC892-411999017142-12779_%E4%BA%8C%E5%8D%81%E5%9B%9B%E5%8F%B2_%E7%AC%AC144%E5%86%8A.pdf#page=70",
+      "catalog_record": "https://commons.wikimedia.org/wiki/File:NLC892-411999017142-12779_%E4%BA%8C%E5%8D%81%E5%9B%9B%E5%8F%B2_%E7%AC%AC144%E5%86%8A.pdf",
+      "pdf_sha1": "126c34411892f6943a575a15ee46fb0064bd5b7b",
+      "pdf_sha256": "316229a8587d188289a7fa2dac393760437ca7facf5deb7a3bfa09770b4a1ac3",
+      "image_sha256": "9df636435c935459d1969996a8970770e3345b749c28350c8265f7dc4dc75158",
+      "edition": "清乾隆武英殿本《宋書》，國圖第144冊。",
+      "page": 70,
+      "half": "L",
+      "folio": "十四上",
+      "columns_from_right": "8",
+      "source_quote": "子祖嗣宋受禪國除",
+      "reading": "與卷47數位同。"
+    }
+  ],
+  "boundaries": [
+    {
+      "book_id": "b-songshu-047",
+      "title": "劉祖",
+      "unit_kind": "embedded_account",
+      "chapter_id": "c-songshu-047-liuguangzu",
+      "entry_checked": true,
+      "full_text": true,
+      "first_pass": true,
+      "item_reviewed": true,
+      "source_layout": "wikisource_mixed_indented_prose",
+      "first_line": 79,
+      "last_line": 79,
+      "start_codepoint": 250,
+      "end_codepoint": 296,
+      "opening": "子祖嗣。<ref>子祖嗣",
+      "closing": "/ref>宋受禪，國除。",
+      "parent_heading": "劉敬宣",
+      "scope_note": "本見證作祖，南史及校注作光祖。",
+      "chapter_path": "corpus/songshu/047-liuguangzu.json",
+      "paragraph_ids": [
+        "c-songshu-047-liuguangzu:p001"
+      ],
+      "item_review_path": "source-evidence/song047-complete/liuguangzu-reading.json"
+    }
+  ],
+  "chronology": [],
+  "readings": [
+    {
+      "id": "c-songshu-047-liuguangzu:received_sentence1-0",
+      "kind": "received_sentence",
+      "person_id": "er7_nw6_n6w_A",
+      "source_quote": "子祖嗣。",
+      "reading": "劉祖承父武岡爵，宋47正文名祖，南17作光祖。",
+      "note": "劉祖承父武岡爵，宋47正文名祖，南17作光祖。",
+      "paragraph_id": "c-songshu-047-liuguangzu:p001",
+      "start_codepoint": 0,
+      "end_codepoint": 4,
+      "human_reviewed": false
+    },
+    {
+      "id": "c-songshu-047-liuguangzu:received_sentence1-4",
+      "kind": "received_sentence",
+      "person_id": "er7_nw6_n6w_A",
+      "source_quote": "宋受禪，國除。",
+      "reading": "宋受禪國除。",
+      "note": "宋受禪國除。",
+      "paragraph_id": "c-songshu-047-liuguangzu:p001",
+      "start_codepoint": 4,
+      "end_codepoint": 11,
+      "human_reviewed": false
+    },
+    {
+      "id": "c-songshu-047-liuguangzu:name_variants1-0",
+      "kind": "name_variants",
+      "person_id": "er7_nw6_n6w_A",
+      "source_quote": "子祖嗣",
+      "reading": "武英殿本及固定宋47皆作祖；南史17作光祖。用途系同一嗣爵者。",
+      "note": "武英殿本及固定宋47皆作祖；南史17作光祖。用途系同一嗣爵者。",
+      "paragraph_id": "c-songshu-047-liuguangzu:p001",
+      "start_codepoint": 0,
+      "end_codepoint": 3,
+      "human_reviewed": false,
+      "song": "祖",
+      "nan": "光祖",
+      "father": "er7_nw6_n6w",
+      "inherited": "武岡縣男"
+    },
+    {
+      "id": "c-songshu-047-liuguangzu:chronology1-4",
+      "kind": "chronology",
+      "person_id": "er7_nw6_n6w_A",
+      "source_quote": "宋受禪，國除",
+      "reading": "劉宋受禪420年，國除；不等於劉祖死年。",
+      "note": "劉宋受禪420年，國除；不等於劉祖死年。",
+      "paragraph_id": "c-songshu-047-liuguangzu:p001",
+      "start_codepoint": 4,
+      "end_codepoint": 10,
+      "human_reviewed": false,
+      "ce_year": 420
+    }
+  ],
+  "identity_limits": []
+}

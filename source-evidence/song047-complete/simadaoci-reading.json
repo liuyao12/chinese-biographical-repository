@@ -1,0 +1,128 @@
+{
+  "record_type": "fixed_source_complete_item_review",
+  "reviewer": "Codex（AI代理）",
+  "model": null,
+  "human_reviewed": false,
+  "external_witnesses": [
+    {
+      "revision_id": 803166,
+      "raw_path": "source-evidence/song047-complete/external/tongjian117-ws803166.wikitext",
+      "line": 44,
+      "start": 10,
+      "end": 24,
+      "source_quote": "參軍司馬道賜，宗室之疏屬也。",
+      "raw_sha256": "062ce10c119a69b19f90b7ca413d63dc71560b39c9b4d9811b4df1a6afefe580",
+      "interpretation": "本傳賤屬，通鑑疏屬。"
+    },
+    {
+      "revision_id": 2567072,
+      "raw_path": "source-evidence/song047-complete/external/jin010-ws2567072.wikitext",
+      "line": 306,
+      "start": 19,
+      "end": 28,
+      "source_quote": "其參軍司馬道賜所害",
+      "raw_sha256": "191bbf44a05c366e9ce2ae1556f05d317245ff0d923e97e99d5aad06c81e8794",
+      "interpretation": "本紀概稱。"
+    },
+    {
+      "revision_id": 2190557,
+      "raw_path": "source-evidence/nan023-wanghui/ws2190557.wikitext",
+      "line": 79,
+      "start": 53,
+      "end": 59,
+      "source_quote": "道賜自號齊王",
+      "raw_sha256": "cc75864d017c88ec8c285b2b7772125dc7b10e0b49eed8f8dfa472db5db8cc20",
+      "interpretation": "非受封。"
+    }
+  ],
+  "print_readings": [
+    {
+      "url": "https://upload.wikimedia.org/wikipedia/commons/7/75/NLC892-411999017142-12779_%E4%BA%8C%E5%8D%81%E5%9B%9B%E5%8F%B2_%E7%AC%AC144%E5%86%8A.pdf#page=70",
+      "catalog_record": "https://commons.wikimedia.org/wiki/File:NLC892-411999017142-12779_%E4%BA%8C%E5%8D%81%E5%9B%9B%E5%8F%B2_%E7%AC%AC144%E5%86%8A.pdf",
+      "pdf_sha1": "126c34411892f6943a575a15ee46fb0064bd5b7b",
+      "pdf_sha256": "316229a8587d188289a7fa2dac393760437ca7facf5deb7a3bfa09770b4a1ac3",
+      "image_sha256": "9df636435c935459d1969996a8970770e3345b749c28350c8265f7dc4dc75158",
+      "edition": "清乾隆武英殿本《宋書》，國圖第144冊。",
+      "page": 70,
+      "half": "L",
+      "folio": "十四上",
+      "columns_from_right": "1–2",
+      "source_quote": "道賜乃陰結同府辟閭道秀及左右小將王猛子等謀反",
+      "reading": "下段舉事。"
+    }
+  ],
+  "boundaries": [
+    {
+      "book_id": "b-songshu-047",
+      "title": "司馬道賜",
+      "unit_kind": "embedded_account",
+      "chapter_id": "c-songshu-047-simadaoci",
+      "entry_checked": true,
+      "full_text": true,
+      "first_pass": true,
+      "item_reviewed": true,
+      "source_layout": "wikisource_mixed_indented_prose",
+      "first_line": 79,
+      "last_line": 79,
+      "start_codepoint": 0,
+      "end_codepoint": 20,
+      "opening": "司馬道賜者，晉宗室之賤屬",
+      "closing": "室之賤屬也，為敬宣參軍。",
+      "parent_heading": "劉敬宣",
+      "scope_note": "以「者」提起家屬及前官兩句，後續殺敬宣、道賜被斬共一敘事，存敬宣傳。",
+      "chapter_path": "corpus/songshu/047-simadaoci.json",
+      "paragraph_ids": [
+        "c-songshu-047-simadaoci:p001"
+      ],
+      "item_review_path": "source-evidence/song047-complete/simadaoci-reading.json"
+    }
+  ],
+  "chronology": [],
+  "readings": [
+    {
+      "id": "c-songshu-047-simadaoci:received_sentence1-0",
+      "kind": "received_sentence",
+      "person_id": "wrg_jw3_e9n",
+      "source_quote": "司馬道賜者，晉宗室之賤屬也，為敬宣參軍。",
+      "reading": "司馬道賜為晉宗室遠支，充劉敬宣參軍。",
+      "note": "司馬道賜為晉宗室遠支，充劉敬宣參軍。",
+      "paragraph_id": "c-songshu-047-simadaoci:p001",
+      "start_codepoint": 0,
+      "end_codepoint": 20,
+      "human_reviewed": false
+    },
+    {
+      "id": "c-songshu-047-simadaoci:lineage_scope1-6",
+      "kind": "lineage_scope",
+      "person_id": "wrg_jw3_e9n",
+      "source_quote": "晉宗室之賤屬",
+      "reading": "本句未明父及支派。自號齊王及敗死詳同段續文，司馬休之為其欲呼應之人，未有具體親等。",
+      "note": "本句未明父及支派。自號齊王及敗死詳同段續文，司馬休之為其欲呼應之人，未有具體親等。",
+      "paragraph_id": "c-songshu-047-simadaoci:p001",
+      "start_codepoint": 6,
+      "end_codepoint": 12,
+      "human_reviewed": false,
+      "father": null,
+      "political_ally": "pcf_gg0_ena"
+    },
+    {
+      "id": "c-songshu-047-simadaoci:shared_action1-14",
+      "kind": "shared_action",
+      "person_id": "wrg_jw3_e9n",
+      "source_quote": "為敬宣參軍",
+      "reading": "後文道賜主謀，王猛子親執備身刀殺敬宣；通鑑117與晉書10具四月乙卯，宋47、南17討斬列名異。",
+      "note": "後文道賜主謀，王猛子親執備身刀殺敬宣；通鑑117與晉書10具四月乙卯，宋47、南17討斬列名異。",
+      "paragraph_id": "c-songshu-047-simadaoci:p001",
+      "start_codepoint": 14,
+      "end_codepoint": 19,
+      "human_reviewed": false,
+      "principal": "wrg_jw3_e9n",
+      "victim": "er7_nw6_n6w",
+      "killer": "dvp_ycx_2yl",
+      "ce_year": 415,
+      "lunar_month": 4,
+      "sexagenary_day": "乙卯"
+    }
+  ],
+  "identity_limits": []
+}

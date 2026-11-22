@@ -224,6 +224,54 @@
       "reviewer": "Codex（AI代理）",
       "model": null,
       "period": "未定 → 未定"
+    },
+    {
+      "id": "t-wu053-t-wu053-zhanghong11",
+      "person_id": "dad_b77_b38",
+      "kind": "office",
+      "title": "司空",
+      "mode": "attestation",
+      "status": "source_attested",
+      "effective_period": {
+        "start": {
+          "status": "unknown",
+          "date_expression": null,
+          "evidence": []
+        },
+        "end": {
+          "status": "unknown",
+          "date_expression": null,
+          "evidence": []
+        }
+      },
+      "interpretation_note": "本句所載職官，任免時間未詳。",
+      "evidence": [
+        {
+          "work_id": "w-sanguozhi",
+          "book_id": "b-sanguozhi-053",
+          "chapter_id": "c-sanguozhi-053-zhanghong",
+          "source_id": "s-sanguozhi-053-zhanghong",
+          "paragraph_id": "c-sanguozhi-053-zhanghong:line014-pei01-01",
+          "quote": "吳書曰：纮至，與在朝公卿及知舊述策材略絕異，平定三郡，風行草偃，加以忠敬款誠，乃心王室。時曹公為司空，欲加恩厚，以悅遠人，至乃優文褒崇，改號加封，辟纮為掾，舉高第，補侍御吏，後以纮為九江太守。纮心戀舊恩，思還反命，以疾固辭。",
+          "person_mention_id": "c-sanguozhi-053-zhanghong:line014-pei01-01:m0045"
+        }
+      ],
+      "attestations": [
+        {
+          "id": "t-wu053-t-wu053-zhanghong11:a",
+          "paragraph_id": "c-sanguozhi-053-zhanghong:line014-pei01-01",
+          "person_mention_id": "c-sanguozhi-053-zhanghong:line014-pei01-01:m0045",
+          "start": 48,
+          "end": 50,
+          "surface": "司空",
+          "usage": "narrative",
+          "date_expression": null
+        }
+      ],
+      "human_reviewed": false,
+      "reviewer": "Codex（AI 代理）",
+      "model": null,
+      "period": "未定 → 未定"
     }
   ],
   "addresses": [],
@@ -3572,6 +3620,69 @@
       "book_id": "b-sanguozhi-052",
       "chapter_id": "c-sanguozhi-052-zhugejin-complete",
       "source_id": "s-sanguozhi-052-zhugejin-complete",
+      "work_title": "三國志"
+    },
+    {
+      "number": 53,
+      "category": "",
+      "title": "張紘傳",
+      "paragraph_id": "c-sanguozhi-053-zhanghong:line014",
+      "count": 4,
+      "raw_count": 4,
+      "duplicate_count": 0,
+      "counting_policy": "independent_fixed_witness_occurrences",
+      "quote": "　　建安四年，策遣紘奉章至許宮，留為侍御史。少府孔融等皆與親善。曹公聞策薨，欲因喪伐吳。紘諫，以為乘人之喪。既非古義，若其不克，成仇棄好，不如因而厚之。曹公從其言，即表權為討虜將軍，領會稽太守。曹公欲令紘輔權內附，出紘為會稽東部都尉。後權以紘為長史，從徵合肥。權率輕騎",
+      "paragraph_ids": [
+        "c-sanguozhi-053-zhanghong:line014",
+        "c-sanguozhi-053-zhanghong:line014-pei01-01"
+      ],
+      "mention_ids": [
+        "c-sanguozhi-053-zhanghong:line014:m0032",
+        "c-sanguozhi-053-zhanghong:line014:m0076",
+        "c-sanguozhi-053-zhanghong:line014:m0097",
+        "c-sanguozhi-053-zhanghong:line014-pei01-01:m0045"
+      ],
+      "mention_paragraph_ids": {
+        "c-sanguozhi-053-zhanghong:line014:m0032": "c-sanguozhi-053-zhanghong:line014",
+        "c-sanguozhi-053-zhanghong:line014:m0076": "c-sanguozhi-053-zhanghong:line014",
+        "c-sanguozhi-053-zhanghong:line014:m0097": "c-sanguozhi-053-zhanghong:line014",
+        "c-sanguozhi-053-zhanghong:line014-pei01-01:m0045": "c-sanguozhi-053-zhanghong:line014-pei01-01"
+      },
+      "mention_id": "c-sanguozhi-053-zhanghong:line014:m0032",
+      "occurrence_groups": [
+        {
+          "canonical_mention_id": "c-sanguozhi-053-zhanghong:line014:m0032",
+          "mention_ids": [
+            "c-sanguozhi-053-zhanghong:line014:m0032"
+          ],
+          "kind": "paragraph"
+        },
+        {
+          "canonical_mention_id": "c-sanguozhi-053-zhanghong:line014:m0076",
+          "mention_ids": [
+            "c-sanguozhi-053-zhanghong:line014:m0076"
+          ],
+          "kind": "paragraph"
+        },
+        {
+          "canonical_mention_id": "c-sanguozhi-053-zhanghong:line014:m0097",
+          "mention_ids": [
+            "c-sanguozhi-053-zhanghong:line014:m0097"
+          ],
+          "kind": "paragraph"
+        },
+        {
+          "canonical_mention_id": "c-sanguozhi-053-zhanghong:line014-pei01-01:m0045",
+          "mention_ids": [
+            "c-sanguozhi-053-zhanghong:line014-pei01-01:m0045"
+          ],
+          "kind": "paragraph"
+        }
+      ],
+      "work_id": "w-sanguozhi",
+      "book_id": "b-sanguozhi-053",
+      "chapter_id": "c-sanguozhi-053-zhanghong",
+      "source_id": "s-sanguozhi-053-zhanghong",
       "work_title": "三國志"
     },
     {
@@ -22176,6 +22287,33 @@
       }
     },
     {
+      "chapter_id": "c-sanguozhi-053-zhanghong",
+      "work_id": "w-sanguozhi",
+      "book_id": "b-sanguozhi-053",
+      "source_id": "s-sanguozhi-053-zhanghong",
+      "source": {
+        "title": "三國志卷五十三·吳書八",
+        "provider": "Wikisource",
+        "url": "https://zh.wikisource.org/w/index.php?oldid=2086397",
+        "permalink": "https://zh.wikisource.org/w/index.php?oldid=2086397",
+        "revision_id": 2086397,
+        "accessed_on": "2026-11-21",
+        "edition": "維基文庫固定修訂，裴注與正文分層。",
+        "extent": "第12至18行。",
+        "text_scope": "partial_chapter",
+        "review_status": "text_checked",
+        "image_verified": false,
+        "rights": "古籍原文，維基文庫轉錄。",
+        "license_url": "https://creativecommons.org/licenses/by-sa/4.0/",
+        "raw_path": "source-evidence/sanguozhi053-scholars/sanguozhi053-ws2086397.wikitext",
+        "raw_file_sha256": "a50889bcf489ad7886d32c3e937c45ea9f9bb5032888b594400ebaeb0121a447",
+        "wikitext_sha256": "a50889bcf489ad7886d32c3e937c45ea9f9bb5032888b594400ebaeb0121a447",
+        "collation_witnesses": [
+          "source-evidence/sanguozhi053-zhanghong/reading.json"
+        ]
+      }
+    },
+    {
       "chapter_id": "c-sanguozhi-057-yufan",
       "work_id": "w-sanguozhi",
       "book_id": "b-sanguozhi-057",
@@ -22258,6 +22396,29 @@
           "source-evidence/jin098-huan-four-children/reading.json"
         ],
         "wikitext_sha256": "e9c3aaaad25c30cd381c847f25685fca14fa4ac411515081b9e8b50fb934f8e1"
+      }
+    },
+    {
+      "chapter_id": "c-songshu-047-liujingxuan",
+      "work_id": "w-songshu",
+      "book_id": "b-songshu-047",
+      "source_id": "s-songshu-047-liujingxuan-ws2190557",
+      "source": {
+        "title": "劉敬宣",
+        "provider": "Wikisource",
+        "permalink": "https://zh.wikisource.org/w/index.php?oldid=2190557",
+        "url": "https://zh.wikisource.org/w/index.php?oldid=2190557",
+        "revision_id": 2190557,
+        "edition": "維基文庫固定修訂",
+        "accessed_on": "2026-11-21",
+        "review_status": "text_checked",
+        "image_verified": false,
+        "rights": "古代原文；數位轉錄依維基文庫授權。",
+        "license_url": "https://creativecommons.org/licenses/by-sa/4.0/",
+        "extent": "劉敬宣",
+        "text_scope": "complete_biography_unit",
+        "raw_path": "source-evidence/nan023-wanghui/ws2190557.wikitext",
+        "raw_file_sha256": "cc75864d017c88ec8c285b2b7772125dc7b10e0b49eed8f8dfa472db5db8cc20"
       }
     },
     {
@@ -28244,6 +28405,21 @@
       "book_id": "b-sanguozhi-012",
       "work_id": "w-sanguozhi",
       "source_id": "s-sanguozhi-012-cuiyan-qiuxu-ws2085067"
+    },
+    {
+      "id": "c-songshu-047-liujingxuan:p016:r0091",
+      "paragraph_id": "c-songshu-047-liujingxuan:p016",
+      "start": 91,
+      "end": 93,
+      "surface": "曹公",
+      "person_id": "dad_b77_b38",
+      "referent_role": "third_person",
+      "quote": "初，敬宣回師於蜀，劉毅欲以重法繩之，高祖既相任待，又何無忌明言於毅，謂不宜以私憾傷至公，若必文致為戮，己當入朝以廷議決之。毅雖止，猶謂高祖曰：「夫生平之舊，豈可孤信。光武悔之於龐萌，曹公失之於孟卓，公宜深慮之。」毅出為荊州，謂敬宣曰：「吾忝西任，欲屈卿為長史、南蠻，豈有見輔意乎？」敬宣懼禍及，以告高祖。高祖笑曰：「但令老兄平安，必無過慮。」出為使持節、督北青州軍郡事、征虜將軍、北青州刺史，領清河太守，尋領冀州刺史。",
+      "note": "依本段敘事、稱謂及語者受者定。",
+      "chapter_id": "c-songshu-047-liujingxuan",
+      "book_id": "b-songshu-047",
+      "work_id": "w-songshu",
+      "source_id": "s-songshu-047-liujingxuan-ws2190557"
     }
   ],
   "person_ids": [

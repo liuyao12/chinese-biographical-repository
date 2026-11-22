@@ -1,0 +1,91 @@
+{
+  "record_type": "fixed_source_complete_item_review",
+  "reviewer": "Codex（AI代理）",
+  "model": null,
+  "human_reviewed": false,
+  "external_witnesses": [
+    {
+      "revision_id": 2583201,
+      "raw_path": "source-evidence/song047-complete/external/song002-ws2583201.wikitext",
+      "line": 138,
+      "start": 5,
+      "end": 14,
+      "source_quote": "元熙元年|419年",
+      "raw_sha256": "d0c99a237e28ac17b388a7493198df1411773c7f9331cb73dca1a7457acf4f45",
+      "interpretation": "元熙開始。"
+    }
+  ],
+  "print_readings": [
+    {
+      "url": "https://upload.wikimedia.org/wikipedia/commons/7/75/NLC892-411999017142-12779_%E4%BA%8C%E5%8D%81%E5%9B%9B%E5%8F%B2_%E7%AC%AC144%E5%86%8A.pdf#page=72",
+      "catalog_record": "https://commons.wikimedia.org/wiki/File:NLC892-411999017142-12779_%E4%BA%8C%E5%8D%81%E5%9B%9B%E5%8F%B2_%E7%AC%AC144%E5%86%8A.pdf",
+      "pdf_sha1": "126c34411892f6943a575a15ee46fb0064bd5b7b",
+      "pdf_sha256": "316229a8587d188289a7fa2dac393760437ca7facf5deb7a3bfa09770b4a1ac3",
+      "image_sha256": "ab550998effe550eb5e536a34e05ff7bedd546ce856cc1e5380eed990616c6a3",
+      "edition": "清乾隆武英殿本《宋書》，國圖第144冊。",
+      "page": 72,
+      "half": "R",
+      "folio": "十五下",
+      "columns_from_right": "3–4",
+      "source_quote": "子獻嗣元熙中卒無子",
+      "reading": "嗣與卒。"
+    }
+  ],
+  "boundaries": [
+    {
+      "book_id": "b-songshu-047",
+      "title": "檀獻",
+      "unit_kind": "embedded_account",
+      "chapter_id": "c-songshu-047-tanxian",
+      "entry_checked": true,
+      "full_text": true,
+      "first_pass": true,
+      "item_reviewed": true,
+      "source_layout": "wikisource_mixed_indented_prose",
+      "first_line": 90,
+      "last_line": 90,
+      "start_codepoint": 0,
+      "end_codepoint": 12,
+      "opening": "子獻嗣，元熙中卒，無子，",
+      "closing": "子獻嗣，元熙中卒，無子，",
+      "parent_heading": "檀祗",
+      "chapter_path": "corpus/songshu/047-tanxian.json",
+      "paragraph_ids": [
+        "c-songshu-047-tanxian:p001"
+      ],
+      "item_review_path": "source-evidence/song047-complete/tanxian-reading.json"
+    }
+  ],
+  "chronology": [],
+  "readings": [
+    {
+      "id": "c-songshu-047-tanxian:received_sentence1-0",
+      "kind": "received_sentence",
+      "person_id": "59p_dir_tdq_A",
+      "source_quote": "子獻嗣，元熙中卒，無子，",
+      "reading": "檀祗子獻嗣，元熙中卒而無子，傳段接其弟朗。",
+      "note": "檀祗子獻嗣，元熙中卒而無子，傳段接其弟朗。",
+      "paragraph_id": "c-songshu-047-tanxian:p001",
+      "start_codepoint": 0,
+      "end_codepoint": 12,
+      "human_reviewed": false
+    },
+    {
+      "id": "c-songshu-047-tanxian:chronology1-4",
+      "kind": "chronology",
+      "person_id": "59p_dir_tdq_A",
+      "source_quote": "元熙中卒",
+      "reading": "晉恭帝元熙為419–420；死日不詳，傳言無子。",
+      "note": "晉恭帝元熙為419–420；死日不詳，傳言無子。",
+      "paragraph_id": "c-songshu-047-tanxian:p001",
+      "start_codepoint": 4,
+      "end_codepoint": 8,
+      "human_reviewed": false,
+      "ce_earliest": 419,
+      "ce_latest": 420,
+      "children_report": "無子",
+      "fief": "西昌縣侯"
+    }
+  ],
+  "identity_limits": []
+}

@@ -145,6 +145,41 @@
       "work_title": "陳書"
     },
     {
+      "number": 7,
+      "category": "",
+      "title": "皇后列傳、魏徵補敘及卷末考證（乾隆武英殿本節錄）",
+      "paragraph_id": "c-chenshu-007-wuying-consorts:p020",
+      "count": 1,
+      "raw_count": 1,
+      "duplicate_count": 0,
+      "counting_policy": "independent_fixed_witness_occurrences",
+      "quote": "世隆齊侍中司空尚書令貞陽忠武公祖惲有重名於梁代官至祕書監贈侍中中護軍父偃尚梁武帝女長城公主",
+      "paragraph_ids": [
+        "c-chenshu-007-wuying-consorts:p020"
+      ],
+      "mention_ids": [
+        "c-chenshu-007-wuying-consorts:p020:m0050"
+      ],
+      "mention_paragraph_ids": {
+        "c-chenshu-007-wuying-consorts:p020:m0050": "c-chenshu-007-wuying-consorts:p020"
+      },
+      "mention_id": "c-chenshu-007-wuying-consorts:p020:m0050",
+      "occurrence_groups": [
+        {
+          "canonical_mention_id": "c-chenshu-007-wuying-consorts:p020:m0050",
+          "mention_ids": [
+            "c-chenshu-007-wuying-consorts:p020:m0050"
+          ],
+          "kind": "paragraph"
+        }
+      ],
+      "work_id": "w-chenshu",
+      "book_id": "b-chenshu-007",
+      "chapter_id": "c-chenshu-007-wuying-consorts",
+      "source_id": "s-chenshu-007-wuying-consorts-1739",
+      "work_title": "陳書"
+    },
+    {
       "number": 12,
       "category": "",
       "title": "宣柳皇后及錢貴妃",
@@ -337,6 +372,33 @@
       }
     },
     {
+      "chapter_id": "c-chenshu-007-wuying-consorts",
+      "work_id": "w-chenshu",
+      "book_id": "b-chenshu-007",
+      "source_id": "s-chenshu-007-wuying-consorts-1739",
+      "source": {
+        "title": "清乾隆四年武英殿本《陳書》卷七皇后列傳節讀及卷末考證",
+        "provider": "中國國家圖書館藏本，Wikimedia Commons",
+        "url": "https://commons.wikimedia.org/wiki/File:NLC892-411999000037-306536_%E9%99%B3%E6%9B%B8_%E7%AC%AC2%E5%86%8A.pdf",
+        "permalink": "https://commons.wikimedia.org/w/index.php?oldid=997527595",
+        "revision_id": "cbr-ai-transcription-sha256:af8dccf903767b99c9a789debedbd5e19b346e21cea98059d5bc194c76e387d9",
+        "accessed_on": "2026-11-21",
+        "edition": "清乾隆四年武英殿刻本《陳書》第二冊",
+        "extent": "第二冊第43至52面，卷題、序、六傳、魏徵補敘、史臣論節錄及卷末考證。每欄由右起數。",
+        "text_scope": "partial_chapter",
+        "image_verified": true,
+        "review_status": "AI_image_transcription_draft",
+        "raw_path": "source-evidence/chen007-wuying-consorts/columns.txt",
+        "raw_file_sha256": "af8dccf903767b99c9a789debedbd5e19b346e21cea98059d5bc194c76e387d9",
+        "license_url": "https://commons.wikimedia.org/wiki/File:NLC892-411999000037-306536_%E9%99%B3%E6%9B%B8_%E7%AC%AC2%E5%86%8A.pdf",
+        "rights": "國圖藏清刊本，提供館藏書影連結與分欄轉寫。",
+        "normalization": {
+          "character_conversion": {},
+          "extraction_note": "每欄自上至下。正文不增標點。卷末考證的圈形分隔以○轉寫。"
+        }
+      }
+    },
+    {
       "chapter_id": "c-liangshu-021-liujingyan-yan",
       "work_id": "w-liangshu",
       "book_id": "b-liangshu-021",
@@ -496,6 +558,71 @@
       ],
       "status": "source_attested",
       "interpretation_note": "原文只說柳偃尚公主。",
+      "reviewer": "Codex（AI 代理）",
+      "human_reviewed": false,
+      "model": null
+    },
+    {
+      "id": "a-chen007-wyd-fourth-consort-father",
+      "subject_person_id": "5jc_z9b_i2n_AAAAAAA",
+      "object_person_id": "5jc_z9b_i2n_AAAAAA",
+      "predicate": "father",
+      "qualifiers": {
+        "source_term": "父偃",
+        "lineage": "paternal"
+      },
+      "evidence": [
+        {
+          "work_id": "w-chenshu",
+          "book_id": "b-chenshu-007",
+          "chapter_id": "c-chenshu-007-wuying-consorts",
+          "source_id": "s-chenshu-007-wuying-consorts-1739",
+          "paragraph_id": "c-chenshu-007-wuying-consorts:p020",
+          "quote": "高宗柳皇后諱敬言河東解人也曾祖世隆齊侍中司空尚書令貞陽忠武公祖惲有重名於梁代官至祕書監贈侍中中護軍父偃尚梁武帝女長城公主",
+          "subject_person_mention_id": "c-chenshu-007-wuying-consorts:p020:m0006",
+          "object_person_mention_id": "c-chenshu-007-wuying-consorts:p020:m0050",
+          "relationship_anchor": {
+            "paragraph_id": "c-chenshu-007-wuying-consorts:p020",
+            "surface": "父偃",
+            "start": 49,
+            "end": 51
+          }
+        }
+      ],
+      "status": "source_attested",
+      "interpretation_note": "此刻卷七本傳原句。",
+      "reviewer": "Codex（AI 代理）",
+      "human_reviewed": false,
+      "model": null
+    },
+    {
+      "id": "a-chen007-wyd-fourth-consort-spouse",
+      "subject_person_id": "5jc_z9b_i2n_AAAAAA",
+      "object_person_id": "fo7_f8v_rmf_I",
+      "predicate": "spouse",
+      "qualifiers": {
+        "source_term": "尚梁武帝女長城公主"
+      },
+      "evidence": [
+        {
+          "work_id": "w-chenshu",
+          "book_id": "b-chenshu-007",
+          "chapter_id": "c-chenshu-007-wuying-consorts",
+          "source_id": "s-chenshu-007-wuying-consorts-1739",
+          "paragraph_id": "c-chenshu-007-wuying-consorts:p020",
+          "quote": "高宗柳皇后諱敬言河東解人也曾祖世隆齊侍中司空尚書令貞陽忠武公祖惲有重名於梁代官至祕書監贈侍中中護軍父偃尚梁武帝女長城公主",
+          "subject_person_mention_id": "c-chenshu-007-wuying-consorts:p020:m0050",
+          "object_person_reference_id": "c-chenshu-007-wuying-consorts:p020:r0056",
+          "relationship_anchor": {
+            "paragraph_id": "c-chenshu-007-wuying-consorts:p020",
+            "surface": "尚梁武帝女長城公主",
+            "start": 51,
+            "end": 60
+          }
+        }
+      ],
+      "status": "source_attested",
+      "interpretation_note": "此刻卷七本傳原句。",
       "reviewer": "Codex（AI 代理）",
       "human_reviewed": false,
       "model": null
@@ -712,6 +839,71 @@
       ],
       "status": "source_attested",
       "interpretation_note": "原文只說柳偃尚公主。",
+      "reviewer": "Codex（AI 代理）",
+      "human_reviewed": false,
+      "model": null
+    },
+    {
+      "id": "a-chen007-wyd-fourth-consort-father",
+      "subject_person_id": "5jc_z9b_i2n_AAAAAAA",
+      "object_person_id": "5jc_z9b_i2n_AAAAAA",
+      "predicate": "father",
+      "qualifiers": {
+        "source_term": "父偃",
+        "lineage": "paternal"
+      },
+      "evidence": [
+        {
+          "work_id": "w-chenshu",
+          "book_id": "b-chenshu-007",
+          "chapter_id": "c-chenshu-007-wuying-consorts",
+          "source_id": "s-chenshu-007-wuying-consorts-1739",
+          "paragraph_id": "c-chenshu-007-wuying-consorts:p020",
+          "quote": "高宗柳皇后諱敬言河東解人也曾祖世隆齊侍中司空尚書令貞陽忠武公祖惲有重名於梁代官至祕書監贈侍中中護軍父偃尚梁武帝女長城公主",
+          "subject_person_mention_id": "c-chenshu-007-wuying-consorts:p020:m0006",
+          "object_person_mention_id": "c-chenshu-007-wuying-consorts:p020:m0050",
+          "relationship_anchor": {
+            "paragraph_id": "c-chenshu-007-wuying-consorts:p020",
+            "surface": "父偃",
+            "start": 49,
+            "end": 51
+          }
+        }
+      ],
+      "status": "source_attested",
+      "interpretation_note": "此刻卷七本傳原句。",
+      "reviewer": "Codex（AI 代理）",
+      "human_reviewed": false,
+      "model": null
+    },
+    {
+      "id": "a-chen007-wyd-fourth-consort-spouse",
+      "subject_person_id": "5jc_z9b_i2n_AAAAAA",
+      "object_person_id": "fo7_f8v_rmf_I",
+      "predicate": "spouse",
+      "qualifiers": {
+        "source_term": "尚梁武帝女長城公主"
+      },
+      "evidence": [
+        {
+          "work_id": "w-chenshu",
+          "book_id": "b-chenshu-007",
+          "chapter_id": "c-chenshu-007-wuying-consorts",
+          "source_id": "s-chenshu-007-wuying-consorts-1739",
+          "paragraph_id": "c-chenshu-007-wuying-consorts:p020",
+          "quote": "高宗柳皇后諱敬言河東解人也曾祖世隆齊侍中司空尚書令貞陽忠武公祖惲有重名於梁代官至祕書監贈侍中中護軍父偃尚梁武帝女長城公主",
+          "subject_person_mention_id": "c-chenshu-007-wuying-consorts:p020:m0050",
+          "object_person_reference_id": "c-chenshu-007-wuying-consorts:p020:r0056",
+          "relationship_anchor": {
+            "paragraph_id": "c-chenshu-007-wuying-consorts:p020",
+            "surface": "尚梁武帝女長城公主",
+            "start": 51,
+            "end": 60
+          }
+        }
+      ],
+      "status": "source_attested",
+      "interpretation_note": "此刻卷七本傳原句。",
       "reviewer": "Codex（AI 代理）",
       "human_reviewed": false,
       "model": null

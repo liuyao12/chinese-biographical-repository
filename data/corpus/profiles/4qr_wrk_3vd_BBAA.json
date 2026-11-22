@@ -6,7 +6,8 @@
   "identity_note": "本固定傳文具名／有上下文稱謂；不由同姓連系，不補生母及生年。",
   "review": "ai_provisional",
   "names": [
-    "悅"
+    "悅",
+    "庾悅"
   ],
   "titles": [
     {
@@ -56,6 +57,54 @@
       "human_reviewed": false,
       "model": null,
       "period": "未定 → 未定"
+    },
+    {
+      "id": "th-songshu-047-tanzhi-1-198",
+      "title": "武陵內史",
+      "kind": "office",
+      "mode": "attestation",
+      "person_id": "4qr_wrk_3vd_BBAA",
+      "attestations": [
+        {
+          "id": "th-songshu-047-tanzhi-1-198:a",
+          "paragraph_id": "c-songshu-047-tanzhi:p001",
+          "start": 198,
+          "end": 202,
+          "surface": "武陵內史",
+          "person_mention_id": "c-songshu-047-tanzhi:p001:m0202",
+          "usage": "narrative",
+          "date_expression": null
+        }
+      ],
+      "effective_period": {
+        "start": {
+          "status": "unknown",
+          "date_expression": null,
+          "evidence": []
+        },
+        "end": {
+          "status": "unknown",
+          "date_expression": null,
+          "evidence": []
+        }
+      },
+      "evidence": [
+        {
+          "work_id": "w-songshu",
+          "book_id": "b-songshu-047",
+          "chapter_id": "c-songshu-047-tanzhi",
+          "source_id": "s-songshu-047-tanzhi-ws2190557",
+          "paragraph_id": "c-songshu-047-tanzhi:p001",
+          "quote": "檀祗字恭叔，高平金鄉人，左將軍韶第二弟也。少為孫無終輔國參軍，隨無終東征孫恩，屢有戰功。復為王誕龍驤參軍。從高祖克京城，參建武軍事。至羅落，檀憑之戰沒之後，仍以憑之所領兵配祗。京邑既平，參鎮軍事，加振武將軍，隸振武大將軍道規追討桓玄，每戰克捷。江陵平定，道規遣祗征溳、沔亡命桓道兒、張靖、苻嗣等，皆悉平之。除龍驤將軍、秦郡太守、北陳留內史，又為寧朔將軍、竟陵太守，不拜。破桓亮於長沙，苻宏於湘東。武陵內史庾悅疾病，道規以祗代悅，加寧朔將軍，封西昌縣侯，食邑千戶。五年，入為中書侍郎。",
+          "person_mention_id": "c-songshu-047-tanzhi:p001:m0202"
+        }
+      ],
+      "status": "source_attested",
+      "interpretation_note": "所見原官稱，未載全任期。",
+      "reviewer": "Codex（AI代理）",
+      "model": null,
+      "human_reviewed": false,
+      "period": "未定 → 未定"
     }
   ],
   "addresses": [
@@ -94,6 +143,50 @@
     }
   ],
   "occurrences": [
+    {
+      "number": 47,
+      "category": "",
+      "title": "檀祗",
+      "paragraph_id": "c-songshu-047-tanzhi:p001",
+      "count": 2,
+      "raw_count": 2,
+      "duplicate_count": 0,
+      "counting_policy": "independent_fixed_witness_occurrences",
+      "quote": "內史，又為寧朔將軍、竟陵太守，不拜。破桓亮於長沙，苻宏於湘東。武陵內史庾悅疾病，道規以祗代悅，加寧朔將軍，封西昌縣侯，食邑千戶。五年，入為中書侍郎。",
+      "paragraph_ids": [
+        "c-songshu-047-tanzhi:p001"
+      ],
+      "mention_ids": [
+        "c-songshu-047-tanzhi:p001:m0202",
+        "c-songshu-047-tanzhi:p001:m0212"
+      ],
+      "mention_paragraph_ids": {
+        "c-songshu-047-tanzhi:p001:m0202": "c-songshu-047-tanzhi:p001",
+        "c-songshu-047-tanzhi:p001:m0212": "c-songshu-047-tanzhi:p001"
+      },
+      "mention_id": "c-songshu-047-tanzhi:p001:m0202",
+      "occurrence_groups": [
+        {
+          "canonical_mention_id": "c-songshu-047-tanzhi:p001:m0202",
+          "mention_ids": [
+            "c-songshu-047-tanzhi:p001:m0202"
+          ],
+          "kind": "paragraph"
+        },
+        {
+          "canonical_mention_id": "c-songshu-047-tanzhi:p001:m0212",
+          "mention_ids": [
+            "c-songshu-047-tanzhi:p001:m0212"
+          ],
+          "kind": "paragraph"
+        }
+      ],
+      "work_id": "w-songshu",
+      "book_id": "b-songshu-047",
+      "chapter_id": "c-songshu-047-tanzhi",
+      "source_id": "s-songshu-047-tanzhi-ws2190557",
+      "work_title": "宋書"
+    },
     {
       "number": 73,
       "category": "",
@@ -584,6 +677,29 @@
             }
           ]
         }
+      }
+    },
+    {
+      "chapter_id": "c-songshu-047-tanzhi",
+      "work_id": "w-songshu",
+      "book_id": "b-songshu-047",
+      "source_id": "s-songshu-047-tanzhi-ws2190557",
+      "source": {
+        "title": "檀祗",
+        "provider": "Wikisource",
+        "permalink": "https://zh.wikisource.org/w/index.php?oldid=2190557",
+        "url": "https://zh.wikisource.org/w/index.php?oldid=2190557",
+        "revision_id": 2190557,
+        "edition": "維基文庫固定修訂",
+        "accessed_on": "2026-11-21",
+        "review_status": "text_checked",
+        "image_verified": false,
+        "rights": "古代原文；數位轉錄依維基文庫授權。",
+        "license_url": "https://creativecommons.org/licenses/by-sa/4.0/",
+        "extent": "檀祗",
+        "text_scope": "complete_biography_unit",
+        "raw_path": "source-evidence/nan023-wanghui/ws2190557.wikitext",
+        "raw_file_sha256": "cc75864d017c88ec8c285b2b7772125dc7b10e0b49eed8f8dfa472db5db8cc20"
       }
     }
   ],

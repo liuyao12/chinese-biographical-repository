@@ -1,0 +1,260 @@
+{
+  "schema_version": 1,
+  "id": "jss_82r_1ct_AAAB",
+  "canonical_person_id": "jss_82r_1ct_AAAB",
+  "label": "陸繕兄（陸見賢父，名未載）",
+  "identity_note": "陸繕兄（陸見賢父，名未載），見本組原文及身份互校。",
+  "review": "ai_provisional",
+  "names": [],
+  "titles": [],
+  "addresses": [],
+  "occurrences": [],
+  "table_occurrences": [],
+  "sources": [
+    {
+      "chapter_id": "c-chenshu-023-lushan-complete",
+      "work_id": "w-chenshu",
+      "book_id": "b-chenshu-023",
+      "source_id": "s-chenshu-023-lushan-complete-ws1514496",
+      "source": {
+        "title": "陳書卷二十三·陸繕與子姪",
+        "provider": "Wikisource",
+        "permalink": "https://zh.wikisource.org/w/index.php?oldid=1514496",
+        "url": "https://zh.wikisource.org/w/index.php?oldid=1514496",
+        "revision_id": 1514496,
+        "edition": "維基文庫固定修訂",
+        "accessed_on": "2026-11-21",
+        "review_status": "text_checked",
+        "image_verified": false,
+        "rights": "古代原文；數位轉錄依維基文庫授權。",
+        "license_url": "https://creativecommons.org/licenses/by-sa/4.0/",
+        "extent": "陳書卷二十三·陸繕與子姪",
+        "text_scope": "complete_biography_unit",
+        "raw_path": "sources/chenshu/chenshu023-ws1514496.wikitext",
+        "raw_file_sha256": "c2a284e02e38025663289282e4f2050b5f225012ab2bec7615b33105d877a4e6"
+      }
+    }
+  ],
+  "relations": [
+    {
+      "id": "a-chen023-lu-elder-brother",
+      "subject_person_id": "jss_82r_1ct_AAAB",
+      "object_person_id": "jss_82r_1ct_AAAA",
+      "predicate": "brother",
+      "qualifiers": {
+        "source_term": "繕兄子見賢",
+        "reading_basis": {
+          "kind": "chen023_lu_nephew",
+          "role_anchor": {
+            "paragraph_id": "c-chenshu-023-lushan-complete:p006",
+            "start": 1,
+            "end": 2,
+            "surface": "兄"
+          }
+        }
+      },
+      "evidence": [
+        {
+          "work_id": "w-chenshu",
+          "book_id": "b-chenshu-023",
+          "chapter_id": "c-chenshu-023-lushan-complete",
+          "source_id": "s-chenshu-023-lushan-complete-ws1514496",
+          "paragraph_id": "c-chenshu-023-lushan-complete:p006",
+          "quote": "繕兄子見賢，亦方雅，高宗為揚州牧，乃以為治中從事史，深被知遇。歷給事黃門侍郎，長沙鄱陽二王長史，帶尋陽太守，少府卿。太建十年卒，時年五十。贈廷尉卿，諡曰平子。",
+          "subject_person_reference_id": "c-chenshu-023-lushan-complete:p006:r0001",
+          "object_person_mention_id": "c-chenshu-023-lushan-complete:p006:m0000"
+        }
+      ],
+      "status": "source_attested",
+      "interpretation_note": "本傳稱見賢為繕兄子；繕兄未具私名。",
+      "reviewer": "Codex（AI代理）",
+      "model": null,
+      "human_reviewed": false
+    },
+    {
+      "id": "a-chen023-lu-jianxian-father",
+      "subject_person_id": "jss_82r_1ct_AAABA",
+      "object_person_id": "jss_82r_1ct_AAAB",
+      "predicate": "father",
+      "qualifiers": {
+        "source_term": "繕兄子見賢",
+        "reading_basis": {
+          "kind": "chen023_lu_nephew",
+          "role_anchor": {
+            "paragraph_id": "c-chenshu-023-lushan-complete:p006",
+            "start": 1,
+            "end": 2,
+            "surface": "兄"
+          }
+        },
+        "lineage": "paternal"
+      },
+      "evidence": [
+        {
+          "work_id": "w-chenshu",
+          "book_id": "b-chenshu-023",
+          "chapter_id": "c-chenshu-023-lushan-complete",
+          "source_id": "s-chenshu-023-lushan-complete-ws1514496",
+          "paragraph_id": "c-chenshu-023-lushan-complete:p006",
+          "quote": "繕兄子見賢，亦方雅，高宗為揚州牧，乃以為治中從事史，深被知遇。歷給事黃門侍郎，長沙鄱陽二王長史，帶尋陽太守，少府卿。太建十年卒，時年五十。贈廷尉卿，諡曰平子。",
+          "subject_person_mention_id": "c-chenshu-023-lushan-complete:p006:m0003",
+          "object_person_reference_id": "c-chenshu-023-lushan-complete:p006:r0001"
+        }
+      ],
+      "status": "source_attested",
+      "interpretation_note": "本傳稱見賢為繕兄子；繕兄未具私名。",
+      "reviewer": "Codex（AI代理）",
+      "model": null,
+      "human_reviewed": false
+    }
+  ],
+  "related_people": {
+    "jss_82r_1ct_AAAA": "陸繕（字士繻，諡安子）",
+    "jss_82r_1ct_AAAB": "陸繕兄（陸見賢父，名未載）",
+    "jss_82r_1ct_AAABA": "陸見賢（陸繕兄子，諡平子）"
+  },
+  "dates": [],
+  "name_components": [],
+  "person_references": [
+    {
+      "id": "c-chenshu-023-lushan-complete:p006:r0001",
+      "paragraph_id": "c-chenshu-023-lushan-complete:p006",
+      "start": 1,
+      "end": 2,
+      "surface": "兄",
+      "person_id": "jss_82r_1ct_AAAB",
+      "referent_role": "third_person",
+      "quote": "繕兄子見賢，亦方雅，高宗為揚州牧，乃以為治中從事史，深被知遇。歷給事黃門侍郎，長沙鄱陽二王長史，帶尋陽太守，少府卿。太建十年卒，時年五十。贈廷尉卿，諡曰平子。",
+      "note": "依本段敘事、稱謂及語者受者定。",
+      "chapter_id": "c-chenshu-023-lushan-complete",
+      "book_id": "b-chenshu-023",
+      "work_id": "w-chenshu",
+      "source_id": "s-chenshu-023-lushan-complete-ws1514496"
+    }
+  ],
+  "person_ids": [
+    "jss_82r_1ct_AAAB"
+  ],
+  "inferred_parent_paths": [
+    {
+      "connection": "father",
+      "generation_distance": 1,
+      "parent_person_id": "jss_82r_1ct_AAA",
+      "source_assertion_id": null,
+      "parent_connection": {
+        "type": "shared_father_through_siblings",
+        "sibling_assertion_ids": [
+          "a-chen023-lu-elder-brother"
+        ],
+        "sibling_father_assertion_id": "a-chen023-shan-father"
+      },
+      "evidence": [
+        {
+          "work_id": "w-chenshu",
+          "book_id": "b-chenshu-023",
+          "chapter_id": "c-chenshu-023-lushan-complete",
+          "source_id": "s-chenshu-023-lushan-complete-ws1514496",
+          "paragraph_id": "c-chenshu-023-lushan-complete:p006",
+          "quote": "繕兄子見賢，亦方雅，高宗為揚州牧，乃以為治中從事史，深被知遇。歷給事黃門侍郎，長沙鄱陽二王長史，帶尋陽太守，少府卿。太建十年卒，時年五十。贈廷尉卿，諡曰平子。",
+          "subject_person_reference_id": "c-chenshu-023-lushan-complete:p006:r0001",
+          "object_person_mention_id": "c-chenshu-023-lushan-complete:p006:m0000",
+          "source_term": "繕兄子見賢",
+          "source_assertion_id": "a-chen023-lu-elder-brother"
+        },
+        {
+          "work_id": "w-chenshu",
+          "book_id": "b-chenshu-023",
+          "chapter_id": "c-chenshu-023-lushan-complete",
+          "source_id": "s-chenshu-023-lushan-complete-ws1514496",
+          "paragraph_id": "c-chenshu-023-lushan-complete:p001",
+          "quote": "陸繕字士繻，吳郡吳人也。祖惠曉，齊太常卿。父（倕）〔任〕，梁御史中丞。",
+          "subject_person_mention_id": "c-chenshu-023-lushan-complete:p001:m0000",
+          "object_person_mention_id": "c-chenshu-023-lushan-complete:p001:m0026",
+          "source_term": "父（倕）〔任〕",
+          "source_assertion_id": "a-chen023-shan-father"
+        }
+      ],
+      "status": "contextual_provisional",
+      "human_reviewed": false,
+      "interpretation_note": "見賢父循繕兄、繕父任兩條明文暫接。",
+      "person_id": "jss_82r_1ct_AAAB"
+    }
+  ],
+  "preferred_relations": [
+    {
+      "id": "a-chen023-lu-elder-brother",
+      "subject_person_id": "jss_82r_1ct_AAAB",
+      "object_person_id": "jss_82r_1ct_AAAA",
+      "predicate": "brother",
+      "qualifiers": {
+        "source_term": "繕兄子見賢",
+        "reading_basis": {
+          "kind": "chen023_lu_nephew",
+          "role_anchor": {
+            "paragraph_id": "c-chenshu-023-lushan-complete:p006",
+            "start": 1,
+            "end": 2,
+            "surface": "兄"
+          }
+        }
+      },
+      "evidence": [
+        {
+          "work_id": "w-chenshu",
+          "book_id": "b-chenshu-023",
+          "chapter_id": "c-chenshu-023-lushan-complete",
+          "source_id": "s-chenshu-023-lushan-complete-ws1514496",
+          "paragraph_id": "c-chenshu-023-lushan-complete:p006",
+          "quote": "繕兄子見賢，亦方雅，高宗為揚州牧，乃以為治中從事史，深被知遇。歷給事黃門侍郎，長沙鄱陽二王長史，帶尋陽太守，少府卿。太建十年卒，時年五十。贈廷尉卿，諡曰平子。",
+          "subject_person_reference_id": "c-chenshu-023-lushan-complete:p006:r0001",
+          "object_person_mention_id": "c-chenshu-023-lushan-complete:p006:m0000"
+        }
+      ],
+      "status": "source_attested",
+      "interpretation_note": "本傳稱見賢為繕兄子；繕兄未具私名。",
+      "reviewer": "Codex（AI代理）",
+      "model": null,
+      "human_reviewed": false
+    },
+    {
+      "id": "a-chen023-lu-jianxian-father",
+      "subject_person_id": "jss_82r_1ct_AAABA",
+      "object_person_id": "jss_82r_1ct_AAAB",
+      "predicate": "father",
+      "qualifiers": {
+        "source_term": "繕兄子見賢",
+        "reading_basis": {
+          "kind": "chen023_lu_nephew",
+          "role_anchor": {
+            "paragraph_id": "c-chenshu-023-lushan-complete:p006",
+            "start": 1,
+            "end": 2,
+            "surface": "兄"
+          }
+        },
+        "lineage": "paternal"
+      },
+      "evidence": [
+        {
+          "work_id": "w-chenshu",
+          "book_id": "b-chenshu-023",
+          "chapter_id": "c-chenshu-023-lushan-complete",
+          "source_id": "s-chenshu-023-lushan-complete-ws1514496",
+          "paragraph_id": "c-chenshu-023-lushan-complete:p006",
+          "quote": "繕兄子見賢，亦方雅，高宗為揚州牧，乃以為治中從事史，深被知遇。歷給事黃門侍郎，長沙鄱陽二王長史，帶尋陽太守，少府卿。太建十年卒，時年五十。贈廷尉卿，諡曰平子。",
+          "subject_person_mention_id": "c-chenshu-023-lushan-complete:p006:m0003",
+          "object_person_reference_id": "c-chenshu-023-lushan-complete:p006:r0001"
+        }
+      ],
+      "status": "source_attested",
+      "interpretation_note": "本傳稱見賢為繕兄子；繕兄未具私名。",
+      "reviewer": "Codex（AI代理）",
+      "model": null,
+      "human_reviewed": false
+    }
+  ],
+  "age_assertions": [],
+  "life_events": [],
+  "life_event_date_decisions": [],
+  "selected_life_event_dates": []
+}

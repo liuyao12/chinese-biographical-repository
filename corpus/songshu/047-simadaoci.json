@@ -1,0 +1,136 @@
+{
+  "format_version": "0.2",
+  "record_type": "marked_chapter",
+  "id": "c-songshu-047-simadaoci",
+  "work_id": "w-songshu",
+  "book_id": "b-songshu-047",
+  "source_id": "s-songshu-047-simadaoci-ws2190557",
+  "title": "司馬道賜",
+  "source": {
+    "title": "司馬道賜",
+    "provider": "Wikisource",
+    "permalink": "https://zh.wikisource.org/w/index.php?oldid=2190557",
+    "url": "https://zh.wikisource.org/w/index.php?oldid=2190557",
+    "revision_id": 2190557,
+    "edition": "維基文庫固定修訂",
+    "accessed_on": "2026-11-21",
+    "review_status": "text_checked",
+    "image_verified": false,
+    "rights": "古代原文；數位轉錄依維基文庫授權。",
+    "license_url": "https://creativecommons.org/licenses/by-sa/4.0/",
+    "extent": "司馬道賜",
+    "text_scope": "complete_biography_unit",
+    "raw_path": "source-evidence/nan023-wanghui/ws2190557.wikitext",
+    "raw_file_sha256": "cc75864d017c88ec8c285b2b7772125dc7b10e0b49eed8f8dfa472db5db8cc20"
+  },
+  "annotation": {
+    "status": "reviewed",
+    "reviewer": "Codex（AI代理）",
+    "model": null,
+    "human_reviewed": false,
+    "source_reading_cases": [
+      {
+        "id": "c-songshu-047-simadaoci:received_sentence1-0",
+        "kind": "received_sentence",
+        "person_id": "wrg_jw3_e9n",
+        "source_quote": "司馬道賜者，晉宗室之賤屬也，為敬宣參軍。",
+        "reading": "司馬道賜為晉宗室遠支，充劉敬宣參軍。",
+        "note": "司馬道賜為晉宗室遠支，充劉敬宣參軍。",
+        "paragraph_id": "c-songshu-047-simadaoci:p001",
+        "start_codepoint": 0,
+        "end_codepoint": 20,
+        "human_reviewed": false
+      },
+      {
+        "id": "c-songshu-047-simadaoci:lineage_scope1-6",
+        "kind": "lineage_scope",
+        "person_id": "wrg_jw3_e9n",
+        "source_quote": "晉宗室之賤屬",
+        "reading": "本句未明父及支派。自號齊王及敗死詳同段續文，司馬休之為其欲呼應之人，未有具體親等。",
+        "note": "本句未明父及支派。自號齊王及敗死詳同段續文，司馬休之為其欲呼應之人，未有具體親等。",
+        "paragraph_id": "c-songshu-047-simadaoci:p001",
+        "start_codepoint": 6,
+        "end_codepoint": 12,
+        "human_reviewed": false,
+        "father": null,
+        "political_ally": "pcf_gg0_ena"
+      },
+      {
+        "id": "c-songshu-047-simadaoci:shared_action1-14",
+        "kind": "shared_action",
+        "person_id": "wrg_jw3_e9n",
+        "source_quote": "為敬宣參軍",
+        "reading": "後文道賜主謀，王猛子親執備身刀殺敬宣；通鑑117與晉書10具四月乙卯，宋47、南17討斬列名異。",
+        "note": "後文道賜主謀，王猛子親執備身刀殺敬宣；通鑑117與晉書10具四月乙卯，宋47、南17討斬列名異。",
+        "paragraph_id": "c-songshu-047-simadaoci:p001",
+        "start_codepoint": 14,
+        "end_codepoint": 19,
+        "human_reviewed": false,
+        "principal": "wrg_jw3_e9n",
+        "victim": "er7_nw6_n6w",
+        "killer": "dvp_ycx_2yl",
+        "ce_year": 415,
+        "lunar_month": 4,
+        "sexagenary_day": "乙卯"
+      }
+    ]
+  },
+  "paragraphs": [
+    {
+      "id": "c-songshu-047-simadaoci:p001",
+      "text": "司馬道賜者，晉宗室之賤屬也，為敬宣參軍。",
+      "text_layer": "received_chapter",
+      "annotation_status": "reviewed",
+      "source_position": {
+        "first_line": 79,
+        "last_line": 79,
+        "raw_start": 7802,
+        "raw_end": 7822,
+        "raw_character_offsets": [
+          7802,
+          7803,
+          7804,
+          7805,
+          7806,
+          7807,
+          7808,
+          7809,
+          7810,
+          7811,
+          7812,
+          7813,
+          7814,
+          7815,
+          7816,
+          7817,
+          7818,
+          7819,
+          7820,
+          7821
+        ],
+        "revision_id": 2190557
+      },
+      "mentions": [
+        {
+          "id": "c-songshu-047-simadaoci:p001:m0000",
+          "start": 0,
+          "end": 4,
+          "surface": "司馬道賜",
+          "kind": "person",
+          "person_id": "wrg_jw3_e9n",
+          "status": "contextual_provisional"
+        },
+        {
+          "id": "c-songshu-047-simadaoci:p001:m0015",
+          "start": 15,
+          "end": 17,
+          "surface": "敬宣",
+          "kind": "person",
+          "person_id": "er7_nw6_n6w",
+          "status": "contextual_provisional"
+        }
+      ]
+    }
+  ],
+  "text_sha256": "063e62a08510e3e79cdfa6de8a3c6350c1abe32b02b9144076a2444211eac66c"
+}

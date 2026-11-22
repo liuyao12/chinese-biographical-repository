@@ -48,6 +48,41 @@
       "work_title": "陳書"
     },
     {
+      "number": 7,
+      "category": "",
+      "title": "皇后列傳、魏徵補敘及卷末考證（乾隆武英殿本節錄）",
+      "paragraph_id": "c-chenshu-007-wuying-consorts:p010",
+      "count": 1,
+      "raw_count": 1,
+      "duplicate_count": 0,
+      "counting_policy": "independent_fixed_witness_occurrences",
+      "quote": "世祖沈皇后諱妙容吳興武康人也父法深梁安前中錄事參軍后年十餘歲以梁大同中歸于世祖",
+      "paragraph_ids": [
+        "c-chenshu-007-wuying-consorts:p010"
+      ],
+      "mention_ids": [
+        "c-chenshu-007-wuying-consorts:p010:m0006"
+      ],
+      "mention_paragraph_ids": {
+        "c-chenshu-007-wuying-consorts:p010:m0006": "c-chenshu-007-wuying-consorts:p010"
+      },
+      "mention_id": "c-chenshu-007-wuying-consorts:p010:m0006",
+      "occurrence_groups": [
+        {
+          "canonical_mention_id": "c-chenshu-007-wuying-consorts:p010:m0006",
+          "mention_ids": [
+            "c-chenshu-007-wuying-consorts:p010:m0006"
+          ],
+          "kind": "paragraph"
+        }
+      ],
+      "work_id": "w-chenshu",
+      "book_id": "b-chenshu-007",
+      "chapter_id": "c-chenshu-007-wuying-consorts",
+      "source_id": "s-chenshu-007-wuying-consorts-1739",
+      "work_title": "陳書"
+    },
+    {
       "number": 12,
       "category": "",
       "title": "文沈皇后及兄欽、姪觀",
@@ -175,6 +210,33 @@
           ]
         },
         "section_locator": "世祖沈皇后與沈欽、沈觀"
+      }
+    },
+    {
+      "chapter_id": "c-chenshu-007-wuying-consorts",
+      "work_id": "w-chenshu",
+      "book_id": "b-chenshu-007",
+      "source_id": "s-chenshu-007-wuying-consorts-1739",
+      "source": {
+        "title": "清乾隆四年武英殿本《陳書》卷七皇后列傳節讀及卷末考證",
+        "provider": "中國國家圖書館藏本，Wikimedia Commons",
+        "url": "https://commons.wikimedia.org/wiki/File:NLC892-411999000037-306536_%E9%99%B3%E6%9B%B8_%E7%AC%AC2%E5%86%8A.pdf",
+        "permalink": "https://commons.wikimedia.org/w/index.php?oldid=997527595",
+        "revision_id": "cbr-ai-transcription-sha256:af8dccf903767b99c9a789debedbd5e19b346e21cea98059d5bc194c76e387d9",
+        "accessed_on": "2026-11-21",
+        "edition": "清乾隆四年武英殿刻本《陳書》第二冊",
+        "extent": "第二冊第43至52面，卷題、序、六傳、魏徵補敘、史臣論節錄及卷末考證。每欄由右起數。",
+        "text_scope": "partial_chapter",
+        "image_verified": true,
+        "review_status": "AI_image_transcription_draft",
+        "raw_path": "source-evidence/chen007-wuying-consorts/columns.txt",
+        "raw_file_sha256": "af8dccf903767b99c9a789debedbd5e19b346e21cea98059d5bc194c76e387d9",
+        "license_url": "https://commons.wikimedia.org/wiki/File:NLC892-411999000037-306536_%E9%99%B3%E6%9B%B8_%E7%AC%AC2%E5%86%8A.pdf",
+        "rights": "國圖藏清刊本，提供館藏書影連結與分欄轉寫。",
+        "normalization": {
+          "character_conversion": {},
+          "extraction_note": "每欄自上至下。正文不增標點。卷末考證的圈形分隔以○轉寫。"
+        }
       }
     },
     {
@@ -393,6 +455,39 @@
       ],
       "status": "source_attested",
       "interpretation_note": "沈欽是沈后之兄。",
+      "reviewer": "Codex（AI 代理）",
+      "human_reviewed": false,
+      "model": null
+    },
+    {
+      "id": "a-chen007-wyd-second-consort-father",
+      "subject_person_id": "itp_cr4_7pm_A",
+      "object_person_id": "itp_cr4_7pm",
+      "predicate": "father",
+      "qualifiers": {
+        "source_term": "父法深",
+        "lineage": "paternal"
+      },
+      "evidence": [
+        {
+          "work_id": "w-chenshu",
+          "book_id": "b-chenshu-007",
+          "chapter_id": "c-chenshu-007-wuying-consorts",
+          "source_id": "s-chenshu-007-wuying-consorts-1739",
+          "paragraph_id": "c-chenshu-007-wuying-consorts:p010",
+          "quote": "世祖沈皇后諱妙容吳興武康人也父法深梁安前中錄事參軍后年十餘歲以梁大同中歸于世祖",
+          "subject_person_mention_id": "c-chenshu-007-wuying-consorts:p010:m0006",
+          "object_person_mention_id": "c-chenshu-007-wuying-consorts:p010:m0015",
+          "relationship_anchor": {
+            "paragraph_id": "c-chenshu-007-wuying-consorts:p010",
+            "surface": "父法深",
+            "start": 14,
+            "end": 17
+          }
+        }
+      ],
+      "status": "source_attested",
+      "interpretation_note": "此刻卷七本傳原句。",
       "reviewer": "Codex（AI 代理）",
       "human_reviewed": false,
       "model": null
@@ -701,6 +796,36 @@
       "source_id": "s-chenshu-007-shenmiaorong-ws2015446"
     },
     {
+      "id": "c-chenshu-007-wuying-consorts:p002:r0005",
+      "surface": "世祖沈皇后",
+      "start": 5,
+      "end": 10,
+      "person_id": "itp_cr4_7pm_A",
+      "paragraph_id": "c-chenshu-007-wuying-consorts:p002",
+      "referent_role": "third_person",
+      "quote": "高祖章皇后世祖沈皇后廢帝王皇后高宗柳皇后後主沈皇后張貴妃",
+      "note": "卷題三欄列六位女主。後主沈皇后下張貴妃字小。",
+      "chapter_id": "c-chenshu-007-wuying-consorts",
+      "book_id": "b-chenshu-007",
+      "work_id": "w-chenshu",
+      "source_id": "s-chenshu-007-wuying-consorts-1739"
+    },
+    {
+      "id": "c-chenshu-007-wuying-consorts:p015:r0000",
+      "surface": "后",
+      "start": 0,
+      "end": 1,
+      "person_id": "itp_cr4_7pm_A",
+      "paragraph_id": "c-chenshu-007-wuying-consorts:p015",
+      "referent_role": "third_person",
+      "quote": "后兄欽隨世祖征伐以功至貞威將軍安州刺史世祖即位襲爵建城侯",
+      "note": "欽襲爵在同一刻本作建城侯，與父封建成並存。",
+      "chapter_id": "c-chenshu-007-wuying-consorts",
+      "book_id": "b-chenshu-007",
+      "work_id": "w-chenshu",
+      "source_id": "s-chenshu-007-wuying-consorts-1739"
+    },
+    {
       "id": "c-nanshi-012-shenmiaorong:p002:r0139",
       "surface": "后",
       "start": 139,
@@ -894,6 +1019,39 @@
       ],
       "status": "source_attested",
       "interpretation_note": "沈欽是沈后之兄。",
+      "reviewer": "Codex（AI 代理）",
+      "human_reviewed": false,
+      "model": null
+    },
+    {
+      "id": "a-chen007-wyd-second-consort-father",
+      "subject_person_id": "itp_cr4_7pm_A",
+      "object_person_id": "itp_cr4_7pm",
+      "predicate": "father",
+      "qualifiers": {
+        "source_term": "父法深",
+        "lineage": "paternal"
+      },
+      "evidence": [
+        {
+          "work_id": "w-chenshu",
+          "book_id": "b-chenshu-007",
+          "chapter_id": "c-chenshu-007-wuying-consorts",
+          "source_id": "s-chenshu-007-wuying-consorts-1739",
+          "paragraph_id": "c-chenshu-007-wuying-consorts:p010",
+          "quote": "世祖沈皇后諱妙容吳興武康人也父法深梁安前中錄事參軍后年十餘歲以梁大同中歸于世祖",
+          "subject_person_mention_id": "c-chenshu-007-wuying-consorts:p010:m0006",
+          "object_person_mention_id": "c-chenshu-007-wuying-consorts:p010:m0015",
+          "relationship_anchor": {
+            "paragraph_id": "c-chenshu-007-wuying-consorts:p010",
+            "surface": "父法深",
+            "start": 14,
+            "end": 17
+          }
+        }
+      ],
+      "status": "source_attested",
+      "interpretation_note": "此刻卷七本傳原句。",
       "reviewer": "Codex（AI 代理）",
       "human_reviewed": false,
       "model": null

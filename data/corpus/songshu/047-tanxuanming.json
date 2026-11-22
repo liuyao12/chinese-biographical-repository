@@ -1,0 +1,121 @@
+{
+  "format_version": "0.2",
+  "record_type": "marked_chapter",
+  "id": "c-songshu-047-tanxuanming",
+  "work_id": "w-songshu",
+  "book_id": "b-songshu-047",
+  "source_id": "s-songshu-047-tanxuanming-ws2190557",
+  "title": "檀宣明",
+  "source": {
+    "title": "檀宣明",
+    "provider": "Wikisource",
+    "permalink": "https://zh.wikisource.org/w/index.php?oldid=2190557",
+    "url": "https://zh.wikisource.org/w/index.php?oldid=2190557",
+    "revision_id": 2190557,
+    "edition": "維基文庫固定修訂",
+    "accessed_on": "2026-11-21",
+    "review_status": "text_checked",
+    "image_verified": false,
+    "rights": "古代原文；數位轉錄依維基文庫授權。",
+    "license_url": "https://creativecommons.org/licenses/by-sa/4.0/",
+    "extent": "檀宣明",
+    "text_scope": "complete_biography_unit",
+    "raw_path": "source-evidence/nan023-wanghui/ws2190557.wikitext",
+    "raw_file_sha256": "cc75864d017c88ec8c285b2b7772125dc7b10e0b49eed8f8dfa472db5db8cc20"
+  },
+  "annotation": {
+    "status": "reviewed",
+    "reviewer": "Codex（AI代理）",
+    "model": null,
+    "human_reviewed": false,
+    "source_reading_cases": [
+      {
+        "id": "c-songshu-047-tanxuanming:received_sentence1-0",
+        "kind": "received_sentence",
+        "person_id": "59p_dir_tdq_BA",
+        "source_quote": "子宣明嗣。",
+        "reading": "檀朗的兒子宣明嗣爵。",
+        "note": "檀朗的兒子宣明嗣爵。",
+        "paragraph_id": "c-songshu-047-tanxuanming:p001",
+        "start_codepoint": 0,
+        "end_codepoint": 5,
+        "human_reviewed": false
+      },
+      {
+        "id": "c-songshu-047-tanxuanming:received_sentence1-5",
+        "kind": "received_sentence",
+        "person_id": "59p_dir_tdq_BA",
+        "source_quote": "宣明卒，",
+        "reading": "宣明卒。",
+        "note": "宣明卒。",
+        "paragraph_id": "c-songshu-047-tanxuanming:p001",
+        "start_codepoint": 5,
+        "end_codepoint": 9,
+        "human_reviewed": false
+      },
+      {
+        "id": "c-songshu-047-tanxuanming:succession1-0",
+        "kind": "succession",
+        "person_id": "59p_dir_tdq_BA",
+        "source_quote": "子宣明嗣",
+        "reading": "承朗為父，死在子逸嗣爵前，本句無某年；全鏈的外界419–479。",
+        "note": "承朗為父，死在子逸嗣爵前，本句無某年；全鏈的外界419–479。",
+        "paragraph_id": "c-songshu-047-tanxuanming:p001",
+        "start_codepoint": 0,
+        "end_codepoint": 4,
+        "human_reviewed": false,
+        "father": "59p_dir_tdq_B",
+        "succeeded_by": "59p_dir_tdq_BAA",
+        "succession_ce_earliest": 419,
+        "death_ce_latest": 479
+      }
+    ]
+  },
+  "paragraphs": [
+    {
+      "id": "c-songshu-047-tanxuanming:p001",
+      "text": "子宣明嗣。宣明卒，",
+      "text_layer": "received_chapter",
+      "annotation_status": "reviewed",
+      "source_position": {
+        "first_line": 90,
+        "last_line": 90,
+        "raw_start": 8928,
+        "raw_end": 8937,
+        "raw_character_offsets": [
+          8928,
+          8929,
+          8930,
+          8931,
+          8932,
+          8933,
+          8934,
+          8935,
+          8936
+        ],
+        "revision_id": 2190557
+      },
+      "mentions": [
+        {
+          "id": "c-songshu-047-tanxuanming:p001:m0001",
+          "start": 1,
+          "end": 3,
+          "surface": "宣明",
+          "kind": "person",
+          "person_id": "59p_dir_tdq_BA",
+          "status": "contextual_provisional"
+        },
+        {
+          "id": "c-songshu-047-tanxuanming:p001:m0005",
+          "start": 5,
+          "end": 7,
+          "surface": "宣明",
+          "kind": "person",
+          "person_id": "59p_dir_tdq_BA",
+          "status": "contextual_provisional"
+        }
+      ]
+    }
+  ],
+  "text_sha256": "b0f55582d9fef4166dcbf61c275915d30ee780eeb1683c83e0ef7c99abb8d0b9"
+}
