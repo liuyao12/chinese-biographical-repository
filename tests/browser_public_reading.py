@@ -120,6 +120,14 @@ def main():
             check_tasks(page, args.url.rstrip('/') + '/', mobile, args.output)
             page.close()
             print('Mobile' if mobile else 'Desktop', 'reader tasks passed', flush=True)
+        page = browser.new_page(viewport={'width': 320, 'height': 800})
+        page.goto(args.url.rstrip('/') + '/reader.html')
+        page.get_by_role('button', name='English', exact=True).click()
+        page.locator('.public-more summary').click()
+        menu = page.locator('.public-more > div')
+        expect(menu).to_be_visible()
+        assert menu.evaluate('node => { const r = node.getBoundingClientRect(); return r.left >= 0 && r.right <= innerWidth; }')
+        page.close()
         browser.close()
 
 

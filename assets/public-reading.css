@@ -76,3 +76,9 @@ header > .public-nav { display:flex; flex-wrap:wrap; align-items:center; gap:.2r
 .related-table { border-top:1px solid #c9cbbf; margin-top:1.5rem; padding:.8rem 0; }
 .related-table h2 { font-size:1rem; }
 .related-table a { display:inline-block; padding:.4rem 0; }
+@media (max-width:540px) {
+  header > .public-nav { position:relative; }
+  .public-nav .public-more { position:static; }
+  .public-more > div { max-width:100%; }
+  .public-more a { white-space:normal; }
+}
