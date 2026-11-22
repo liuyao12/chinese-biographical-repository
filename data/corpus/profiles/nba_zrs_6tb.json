@@ -8,7 +8,8 @@
   "names": [
     "張魯",
     "魯",
-    "张鲁"
+    "张鲁",
+    "鲁"
   ],
   "titles": [],
   "addresses": [],
@@ -215,6 +216,50 @@
       "chapter_id": "c-sanguozhi-054-zhouyu",
       "source_id": "s-sanguozhi-054-zhouyu",
       "work_title": "三國志"
+    },
+    {
+      "number": 60,
+      "category": "",
+      "title": "呂岱傳",
+      "paragraph_id": "c-sanguozhi-060-lvdai:line045-pei01-01",
+      "count": 2,
+      "raw_count": 2,
+      "duplicate_count": 0,
+      "counting_policy": "independent_fixed_witness_occurrences",
+      "quote": "吴书曰：建安十六年，岱督郎将尹异等，以兵二千人西诱汉中贼帅张鲁到汉兴寋城，鲁嫌疑断道，事计不立，权遂召岱还。",
+      "paragraph_ids": [
+        "c-sanguozhi-060-lvdai:line045-pei01-01"
+      ],
+      "mention_ids": [
+        "c-sanguozhi-060-lvdai:line045-pei01-01:m0029",
+        "c-sanguozhi-060-lvdai:line045-pei01-01:m0037"
+      ],
+      "mention_paragraph_ids": {
+        "c-sanguozhi-060-lvdai:line045-pei01-01:m0029": "c-sanguozhi-060-lvdai:line045-pei01-01",
+        "c-sanguozhi-060-lvdai:line045-pei01-01:m0037": "c-sanguozhi-060-lvdai:line045-pei01-01"
+      },
+      "mention_id": "c-sanguozhi-060-lvdai:line045-pei01-01:m0029",
+      "occurrence_groups": [
+        {
+          "canonical_mention_id": "c-sanguozhi-060-lvdai:line045-pei01-01:m0029",
+          "mention_ids": [
+            "c-sanguozhi-060-lvdai:line045-pei01-01:m0029"
+          ],
+          "kind": "paragraph"
+        },
+        {
+          "canonical_mention_id": "c-sanguozhi-060-lvdai:line045-pei01-01:m0037",
+          "mention_ids": [
+            "c-sanguozhi-060-lvdai:line045-pei01-01:m0037"
+          ],
+          "kind": "paragraph"
+        }
+      ],
+      "work_id": "w-sanguozhi",
+      "book_id": "b-sanguozhi-060",
+      "chapter_id": "c-sanguozhi-060-lvdai",
+      "source_id": "s-sanguozhi-060-lvdai",
+      "work_title": "三國志"
     }
   ],
   "table_occurrences": [],
@@ -325,6 +370,33 @@
         "wikitext_sha256": "391eeacf65d214ce53d6fba4c9d39933b20b8b7d10509f88e5f323eda96c7912",
         "collation_witnesses": [
           "source-evidence/sanguozhi054-zhouyu/reading.json"
+        ]
+      }
+    },
+    {
+      "chapter_id": "c-sanguozhi-060-lvdai",
+      "work_id": "w-sanguozhi",
+      "book_id": "b-sanguozhi-060",
+      "source_id": "s-sanguozhi-060-lvdai",
+      "source": {
+        "title": "三國志卷六十·吳書十五",
+        "provider": "Wikisource",
+        "url": "https://zh.wikisource.org/w/index.php?oldid=2120830",
+        "permalink": "https://zh.wikisource.org/w/index.php?oldid=2120830",
+        "revision_id": 2120830,
+        "accessed_on": "2026-11-21",
+        "edition": "維基文庫固定修訂，裴注與正文分層。",
+        "extent": "第45至65行。",
+        "text_scope": "partial_chapter",
+        "review_status": "text_checked",
+        "image_verified": false,
+        "rights": "古籍原文，維基文庫轉錄。",
+        "license_url": "https://creativecommons.org/licenses/by-sa/4.0/",
+        "raw_path": "source-evidence/sanguozhi060-he-quan/sanguozhi060-ws2120830.wikitext",
+        "raw_file_sha256": "79a52b4bca550c12a1020750b4464bdc2476fcbb376e67fd22a0bc03f713e8e6",
+        "wikitext_sha256": "79a52b4bca550c12a1020750b4464bdc2476fcbb376e67fd22a0bc03f713e8e6",
+        "collation_witnesses": [
+          "source-evidence/sanguozhi060-lvdai/reading.json"
         ]
       }
     }

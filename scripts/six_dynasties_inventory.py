@@ -20,6 +20,20 @@ def received_text(line):
 def source_paragraphs(lines, layout=None):
     """核對固定轉錄選用的首行空格及跨段引文模板。"""
     lines = [line for line in lines if line.strip()]
+    if layout == 'qi040_ziliang_annotated_jianyuan':
+        year = '{{YL|建元二年|480年}}'
+        assert sum(line.count(year) for line in lines) == 1
+        return [received_text(line.replace(year, '建元二年')) for line in lines]
+    if layout == 'qi040_zhaozhou_annotated_years':
+        years={'{{YL|建武三年|496年}}':'建武三年','{{YL|永元元年|499年}}':'永元元年'}
+        for year in years:
+            assert sum(line.count(year) for line in lines)==1
+            lines=[line.replace(year,years[year]) for line in lines]
+        return [received_text(line) for line in lines]
+    if layout == 'qi040_ziqing_annotated_jianyuan':
+        year='{{YL|建元元年|479年}}'
+        assert sum(line.count(year) for line in lines)==1
+        return [received_text(line.replace(year,'建元元年')) for line in lines]
     if layout == 'zhanglihua_annotated_zhide_year':
         raw_year = '{{YL|至德二年|584年}}'
         assert sum(t.count(raw_year) for t in lines) == 1
@@ -162,6 +176,26 @@ def source_paragraphs(lines, layout=None):
             from scripts.sanguozhi055_layers import project_line
         except ImportError:
             from sanguozhi055_layers import project_line
+        return [body for line in lines if (body:=project_line(line)[0])]
+    if layout=='sanguozhi056_contiguous_slice':
+        try: from scripts.sanguozhi056_slices import slice_text
+        except ImportError: from sanguozhi056_slices import slice_text
+        return [slice_text(line) for line in lines if line]
+    if layout == 'sanguozhi056_received_with_pei_notes':
+        try:
+            from scripts.sanguozhi056_layers import project_line
+        except ImportError:
+            from sanguozhi056_layers import project_line
+        return [body for line in lines if (body:=project_line(line)[0])]
+    if layout=='sanguozhi060_contiguous_slice':
+        try: from scripts.sanguozhi060_slices import slice_text
+        except ImportError: from sanguozhi060_slices import slice_text
+        return [slice_text(line) for line in lines if line]
+    if layout == 'sanguozhi060_received_with_pei_notes':
+        try:
+            from scripts.sanguozhi060_layers import project_line
+        except ImportError:
+            from sanguozhi060_layers import project_line
         return [body for line in lines if (body:=project_line(line)[0])]
     if layout == 'jin065_indented_text':
         paragraphs = []

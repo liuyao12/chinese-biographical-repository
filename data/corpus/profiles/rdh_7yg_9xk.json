@@ -81,10 +81,83 @@
       "chapter_id": "c-sanguozhi-022-chenqun-chentai",
       "source_id": "s-sanguozhi-022-chenqun-chentai",
       "work_title": "三國志"
+    },
+    {
+      "number": 42,
+      "category": "",
+      "title": "廣陵思王荊生母、母兄及賜諡",
+      "paragraph_id": "c-houhanshu-042-zixiang-hou:p001",
+      "count": 2,
+      "raw_count": 2,
+      "duplicate_count": 0,
+      "counting_policy": "independent_fixed_witness_occurrences",
+      "quote": "獻王輔、濟南安王康、阜陵質王延、中山簡王焉，許美人生楚王英，光烈皇后生顯宗、東平憲王蒼、廣陵思王荊",
+      "paragraph_ids": [
+        "c-houhanshu-042-zixiang-hou:p001",
+        "c-houhanshu-042-zixiang-hou:p002"
+      ],
+      "mention_ids": [
+        "c-houhanshu-042-zixiang-hou:p001:m0054",
+        "c-houhanshu-042-zixiang-hou:p002:m0000"
+      ],
+      "mention_paragraph_ids": {
+        "c-houhanshu-042-zixiang-hou:p001:m0054": "c-houhanshu-042-zixiang-hou:p001",
+        "c-houhanshu-042-zixiang-hou:p002:m0000": "c-houhanshu-042-zixiang-hou:p002"
+      },
+      "mention_id": "c-houhanshu-042-zixiang-hou:p001:m0054",
+      "occurrence_groups": [
+        {
+          "canonical_mention_id": "c-houhanshu-042-zixiang-hou:p001:m0054",
+          "mention_ids": [
+            "c-houhanshu-042-zixiang-hou:p001:m0054"
+          ],
+          "kind": "paragraph"
+        },
+        {
+          "canonical_mention_id": "c-houhanshu-042-zixiang-hou:p002:m0000",
+          "mention_ids": [
+            "c-houhanshu-042-zixiang-hou:p002:m0000"
+          ],
+          "kind": "paragraph"
+        }
+      ],
+      "work_id": "w-houhanshu",
+      "book_id": "b-houhanshu-042",
+      "chapter_id": "c-houhanshu-042-zixiang-hou",
+      "source_id": "s-houhanshu-042-zixiang-hou-ws1549947",
+      "work_title": "後漢書"
     }
   ],
   "table_occurrences": [],
   "sources": [
+    {
+      "chapter_id": "c-houhanshu-042-zixiang-hou",
+      "work_id": "w-houhanshu",
+      "book_id": "b-houhanshu-042",
+      "source_id": "s-houhanshu-042-zixiang-hou-ws1549947",
+      "source": {
+        "title": "後漢書卷42·廣陵思王荊生母、母兄及賜諡",
+        "provider": "Wikisource",
+        "url": "https://zh.wikisource.org/w/index.php?oldid=1549947",
+        "permalink": "https://zh.wikisource.org/w/index.php?oldid=1549947",
+        "revision_id": 1549947,
+        "accessed_on": "2026-11-21",
+        "edition": "維基文庫固定數位轉錄",
+        "extent": "子響傳特定身分、斷事或用典的原句。",
+        "text_scope": "partial_chapter",
+        "image_verified": false,
+        "review_status": "text_checked",
+        "raw_path": "source-evidence/nanqi040-zixiang/ws1549947.wikitext",
+        "raw_file_sha256": "7538969260fdf5e6bc77797f163e273b0f8eae56b6383524517f08a523fecbd2",
+        "rights": "古代原典及維基文庫數位轉錄。",
+        "license_url": "https://zh.wikisource.org/wiki/Wikisource:著作權資訊",
+        "normalization": {
+          "character_conversion": {},
+          "extraction_note": "投影相應原句，保留字形；移除年號模板定界符。"
+        },
+        "section_locator": "廣陵思王荊生母、母兄及賜諡"
+      }
+    },
     {
       "chapter_id": "c-sanguozhi-009-caozhen",
       "work_id": "w-sanguozhi",
@@ -146,6 +219,23 @@
   },
   "dates": [],
   "name_components": [],
+  "person_references": [
+    {
+      "id": "c-houhanshu-042-zixiang-hou:p003:r0034",
+      "surface": "帝",
+      "start": 34,
+      "end": 35,
+      "person_id": "rdh_7yg_9xk",
+      "referent_role": "third_person",
+      "paragraph_id": "c-houhanshu-042-zixiang-hou:p003",
+      "quote": "荊猶不改。其後使巫祭祀祝詛，有司舉奏，請誅之，荊自殺。立二十九年死。帝憐傷之，賜謚曰思王。",
+      "note": "依同段姓名、引者及所答者。",
+      "chapter_id": "c-houhanshu-042-zixiang-hou",
+      "book_id": "b-houhanshu-042",
+      "work_id": "w-houhanshu",
+      "source_id": "s-houhanshu-042-zixiang-hou-ws1549947"
+    }
+  ],
   "person_ids": [
     "rdh_7yg_9xk"
   ],

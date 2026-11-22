@@ -590,6 +590,54 @@
       "reviewer": "Codex（AI 代理）",
       "model": null,
       "period": "未定 → 未定"
+    },
+    {
+      "id": "t-wu056-t-wu056-zhuran7",
+      "person_id": "ibt_i7u_ykp",
+      "kind": "office",
+      "title": "虎威將軍",
+      "mode": "attestation",
+      "status": "source_attested",
+      "effective_period": {
+        "start": {
+          "status": "unknown",
+          "date_expression": null,
+          "evidence": []
+        },
+        "end": {
+          "status": "unknown",
+          "date_expression": null,
+          "evidence": []
+        }
+      },
+      "interpretation_note": "本句所載職官，任免時間未詳。",
+      "evidence": [
+        {
+          "work_id": "w-sanguozhi",
+          "book_id": "b-sanguozhi-056",
+          "chapter_id": "c-sanguozhi-056-zhuran",
+          "source_id": "s-sanguozhi-056-zhuran",
+          "paragraph_id": "c-sanguozhi-056-zhuran:line026",
+          "quote": "　　虎威將軍呂蒙病篤。權問曰：「卿如不起，誰可代者?」蒙對曰：「朱然膽守有餘，愚以為可任。」蒙卒，權假然節，鎮江陵。黃武元年，劉備舉兵攻宜都。然督五千人與陸遜並力拒備。然別攻破備前鋒，斷其後道，備遂破走。拜征北將軍，封永安侯。",
+          "person_mention_id": "c-sanguozhi-056-zhuran:line026:m0006"
+        }
+      ],
+      "attestations": [
+        {
+          "id": "t-wu056-t-wu056-zhuran7:a",
+          "paragraph_id": "c-sanguozhi-056-zhuran:line026",
+          "person_mention_id": "c-sanguozhi-056-zhuran:line026:m0006",
+          "start": 2,
+          "end": 6,
+          "surface": "虎威將軍",
+          "usage": "narrative",
+          "date_expression": null
+        }
+      ],
+      "human_reviewed": false,
+      "reviewer": "Codex（AI 代理）",
+      "model": null,
+      "period": "未定 → 未定"
     }
   ],
   "addresses": [],
@@ -2088,6 +2136,69 @@
       "work_title": "三國志"
     },
     {
+      "number": 56,
+      "category": "",
+      "title": "朱然傳",
+      "paragraph_id": "c-sanguozhi-056-zhuran:line026",
+      "count": 4,
+      "raw_count": 4,
+      "duplicate_count": 0,
+      "counting_policy": "independent_fixed_witness_occurrences",
+      "quote": "　　虎威將軍呂蒙病篤。權問曰：「卿如不起，誰可代者?」蒙對曰：「朱然膽守有餘，愚以為可任。」蒙卒，權假然節，鎮江陵。黃武元年，劉備舉兵攻宜都。然督五千人與陸遜並力拒備。然別攻破備前鋒，斷其後道，備遂破走。拜征北將軍，",
+      "paragraph_ids": [
+        "c-sanguozhi-056-zhuran:line026",
+        "c-sanguozhi-056-zhuran:line034"
+      ],
+      "mention_ids": [
+        "c-sanguozhi-056-zhuran:line026:m0006",
+        "c-sanguozhi-056-zhuran:line026:m0027",
+        "c-sanguozhi-056-zhuran:line026:m0046",
+        "c-sanguozhi-056-zhuran:line034:m0218"
+      ],
+      "mention_paragraph_ids": {
+        "c-sanguozhi-056-zhuran:line026:m0006": "c-sanguozhi-056-zhuran:line026",
+        "c-sanguozhi-056-zhuran:line026:m0027": "c-sanguozhi-056-zhuran:line026",
+        "c-sanguozhi-056-zhuran:line026:m0046": "c-sanguozhi-056-zhuran:line026",
+        "c-sanguozhi-056-zhuran:line034:m0218": "c-sanguozhi-056-zhuran:line034"
+      },
+      "mention_id": "c-sanguozhi-056-zhuran:line026:m0006",
+      "occurrence_groups": [
+        {
+          "canonical_mention_id": "c-sanguozhi-056-zhuran:line026:m0006",
+          "mention_ids": [
+            "c-sanguozhi-056-zhuran:line026:m0006"
+          ],
+          "kind": "paragraph"
+        },
+        {
+          "canonical_mention_id": "c-sanguozhi-056-zhuran:line026:m0027",
+          "mention_ids": [
+            "c-sanguozhi-056-zhuran:line026:m0027"
+          ],
+          "kind": "paragraph"
+        },
+        {
+          "canonical_mention_id": "c-sanguozhi-056-zhuran:line026:m0046",
+          "mention_ids": [
+            "c-sanguozhi-056-zhuran:line026:m0046"
+          ],
+          "kind": "paragraph"
+        },
+        {
+          "canonical_mention_id": "c-sanguozhi-056-zhuran:line034:m0218",
+          "mention_ids": [
+            "c-sanguozhi-056-zhuran:line034:m0218"
+          ],
+          "kind": "paragraph"
+        }
+      ],
+      "work_id": "w-sanguozhi",
+      "book_id": "b-sanguozhi-056",
+      "chapter_id": "c-sanguozhi-056-zhuran",
+      "source_id": "s-sanguozhi-056-zhuran",
+      "work_title": "三國志"
+    },
+    {
       "number": 57,
       "category": "",
       "title": "虞翻傳",
@@ -2281,6 +2392,41 @@
       "book_id": "b-sanguozhi-058",
       "chapter_id": "c-sanguozhi-058-luxun",
       "source_id": "s-sanguozhi-058-luxun",
+      "work_title": "三國志"
+    },
+    {
+      "number": 60,
+      "category": "",
+      "title": "全琮傳",
+      "paragraph_id": "c-sanguozhi-060-quancong:line034",
+      "count": 1,
+      "raw_count": 1,
+      "duplicate_count": 0,
+      "counting_policy": "independent_fixed_witness_occurrences",
+      "quote": "　　建安二十四年，劉備將關羽圍樊、襄陽，琮上疏陳羽可討之計，權時已與呂蒙陰議襲之，恐事洩，故寢琮表不答。及禽羽，權置酒公安。顧謂琮曰：“君前陳此，孤雖不相答，今日之捷，抑亦君之功也。”於是封陽華亭侯。",
+      "paragraph_ids": [
+        "c-sanguozhi-060-quancong:line034"
+      ],
+      "mention_ids": [
+        "c-sanguozhi-060-quancong:line034:m0034"
+      ],
+      "mention_paragraph_ids": {
+        "c-sanguozhi-060-quancong:line034:m0034": "c-sanguozhi-060-quancong:line034"
+      },
+      "mention_id": "c-sanguozhi-060-quancong:line034:m0034",
+      "occurrence_groups": [
+        {
+          "canonical_mention_id": "c-sanguozhi-060-quancong:line034:m0034",
+          "mention_ids": [
+            "c-sanguozhi-060-quancong:line034:m0034"
+          ],
+          "kind": "paragraph"
+        }
+      ],
+      "work_id": "w-sanguozhi",
+      "book_id": "b-sanguozhi-060",
+      "chapter_id": "c-sanguozhi-060-quancong",
+      "source_id": "s-sanguozhi-060-quancong",
       "work_title": "三國志"
     }
   ],
@@ -2558,6 +2704,33 @@
       }
     },
     {
+      "chapter_id": "c-sanguozhi-056-zhuran",
+      "work_id": "w-sanguozhi",
+      "book_id": "b-sanguozhi-056",
+      "source_id": "s-sanguozhi-056-zhuran",
+      "source": {
+        "title": "三國志卷五十六·吳書十一",
+        "provider": "Wikisource",
+        "url": "https://zh.wikisource.org/w/index.php?oldid=12760859",
+        "permalink": "https://zh.wikisource.org/w/index.php?oldid=12760859",
+        "revision_id": 12760859,
+        "accessed_on": "2026-11-21",
+        "edition": "維基文庫固定修訂，裴注與正文分層。",
+        "extent": "第22至34行。",
+        "text_scope": "partial_chapter",
+        "review_status": "text_checked",
+        "image_verified": false,
+        "rights": "古籍原文，維基文庫轉錄。",
+        "license_url": "https://creativecommons.org/licenses/by-sa/4.0/",
+        "raw_path": "source-evidence/sanguozhi056-zhu-lv/sanguozhi056-ws12760859.wikitext",
+        "raw_file_sha256": "be8191ed695754812c1c3a717b335f08d1af2834fb4fd965c267942c6f747549",
+        "wikitext_sha256": "be8191ed695754812c1c3a717b335f08d1af2834fb4fd965c267942c6f747549",
+        "collation_witnesses": [
+          "source-evidence/sanguozhi056-zhuran/reading.json"
+        ]
+      }
+    },
+    {
       "chapter_id": "c-sanguozhi-057-yufan",
       "work_id": "w-sanguozhi",
       "book_id": "b-sanguozhi-057",
@@ -2636,6 +2809,33 @@
         "collation_witnesses": [
           "source-evidence/sanguozhi058-lu-ancestors/reading.json",
           "source-evidence/sanguozhi058-luxun/reading.json"
+        ]
+      }
+    },
+    {
+      "chapter_id": "c-sanguozhi-060-quancong",
+      "work_id": "w-sanguozhi",
+      "book_id": "b-sanguozhi-060",
+      "source_id": "s-sanguozhi-060-quancong",
+      "source": {
+        "title": "三國志卷六十·吳書十五",
+        "provider": "Wikisource",
+        "url": "https://zh.wikisource.org/w/index.php?oldid=2120830",
+        "permalink": "https://zh.wikisource.org/w/index.php?oldid=2120830",
+        "revision_id": 2120830,
+        "accessed_on": "2026-11-21",
+        "edition": "維基文庫固定修訂，裴注與正文分層。",
+        "extent": "第32至42行。",
+        "text_scope": "partial_chapter",
+        "review_status": "text_checked",
+        "image_verified": false,
+        "rights": "古籍原文，維基文庫轉錄。",
+        "license_url": "https://creativecommons.org/licenses/by-sa/4.0/",
+        "raw_path": "source-evidence/sanguozhi060-he-quan/sanguozhi060-ws2120830.wikitext",
+        "raw_file_sha256": "79a52b4bca550c12a1020750b4464bdc2476fcbb376e67fd22a0bc03f713e8e6",
+        "wikitext_sha256": "79a52b4bca550c12a1020750b4464bdc2476fcbb376e67fd22a0bc03f713e8e6",
+        "collation_witnesses": [
+          "source-evidence/sanguozhi060-quancong/reading.json"
         ]
       }
     }
@@ -3099,6 +3299,21 @@
       "book_id": "b-sanguozhi-054",
       "work_id": "w-sanguozhi",
       "source_id": "s-sanguozhi-054-lvmeng"
+    },
+    {
+      "id": "c-sanguozhi-056-zhuran:line026:r0016",
+      "paragraph_id": "c-sanguozhi-056-zhuran:line026",
+      "start": 16,
+      "end": 17,
+      "surface": "卿",
+      "person_id": "ibt_i7u_ykp",
+      "referent_role": "addressee",
+      "quote": "篤。權問曰：「卿如不起，誰可代",
+      "note": "依對話說話者、受書者及上下句定位。",
+      "chapter_id": "c-sanguozhi-056-zhuran",
+      "book_id": "b-sanguozhi-056",
+      "work_id": "w-sanguozhi",
+      "source_id": "s-sanguozhi-056-zhuran"
     }
   ],
   "person_ids": [
@@ -3254,6 +3469,29 @@
           "paragraph_id": "c-sanguozhi-054-lvmeng:line081",
           "quote": "　　以蒙為南郡太守，封孱陵候，賜錢一億，黃金五百斤。蒙固辭金錢，權不許。封爵未下。會蒙疾發，權時在公安，迎置內殿。所以治護者萬方，募封內有能愈蒙疾者，賜千金。時有針加，權為之慘戚，欲數見其顏色，又恐勞動，常穿壁瞻之，見小能下食則喜，顧左右言笑，不然則咄唶，夜不能寐。病中瘳，為下赦令，群臣畢賀。後更增篤，權自臨視，命道士於星辰下為之請命。年四十二，遂卒於內殿。時權哀痛甚，為之降損。蒙未死時，所得金寶諸賜盡付府藏，敕主者命絕之日皆上還，喪事務約。權聞之，益以悲感。",
           "person_mention_id": "c-sanguozhi-054-lvmeng:line081:m0003"
+        }
+      ],
+      "interpretation_note": "本來源所記。",
+      "status": "source_attested",
+      "reviewer": "Codex（AI 代理）",
+      "human_reviewed": false,
+      "model": null
+    },
+    {
+      "id": "le-wu056-zhuran0",
+      "person_id": "ibt_i7u_ykp",
+      "event_type": "death",
+      "source_term": "蒙卒",
+      "date_expression": null,
+      "evidence": [
+        {
+          "work_id": "w-sanguozhi",
+          "book_id": "b-sanguozhi-056",
+          "chapter_id": "c-sanguozhi-056-zhuran",
+          "source_id": "s-sanguozhi-056-zhuran",
+          "paragraph_id": "c-sanguozhi-056-zhuran:line026",
+          "quote": "　　虎威將軍呂蒙病篤。權問曰：「卿如不起，誰可代者?」蒙對曰：「朱然膽守有餘，愚以為可任。」蒙卒，權假然節，鎮江陵。黃武元年，劉備舉兵攻宜都。然督五千人與陸遜並力拒備。然別攻破備前鋒，斷其後道，備遂破走。拜征北將軍，封永安侯。",
+          "person_mention_id": "c-sanguozhi-056-zhuran:line026:m0006"
         }
       ],
       "interpretation_note": "本來源所記。",

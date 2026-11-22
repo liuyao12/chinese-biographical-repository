@@ -22,11 +22,24 @@ def unassumed_role(proposal, paragraph):
 
 
 def unassumed_appointment_valid(proposal, chapter):
+    if chapter.get('id') == 'c-nanqishu-040-ziqing':
+        try: from scripts.nanqi040_ziqing import proposal_valid as q40zq_proposal_valid
+        except ImportError: from nanqi040_ziqing import proposal_valid as q40zq_proposal_valid
+        return q40zq_proposal_valid(proposal, chapter)
+    if chapter.get('id') == 'c-nanqishu-040-zhaozhou':
+        try: from scripts.nanqi040_zhaozhou import proposal_valid as q40zz_proposal_valid
+        except ImportError: from nanqi040_zhaozhou import proposal_valid as q40zz_proposal_valid
+        return q40zz_proposal_valid(proposal, chapter)
+    if chapter.get('id') == 'c-nanqishu-040-ziliang':
+        try: from scripts.nanqi040_ziliang import proposal_valid as q40zl_proposal_valid
+        except ImportError: from nanqi040_ziliang import proposal_valid as q40zl_proposal_valid
+        return q40zl_proposal_valid(proposal, chapter)
     if chapter.get('id') in ('c-liangshu-027-daoqia-complete', 'c-liangshu-027-mingshanbin-complete',
-                             'c-liangshu-027-yinjun-complete'):
-        try: from scripts.liang027_appointments import valid as liang27_appointment_valid
-        except ImportError: from liang027_appointments import valid as liang27_appointment_valid
-        return liang27_appointment_valid(proposal, chapter)
+                             'c-liangshu-027-yinjun-complete', 'c-liangshu-028-peizhili-complete',
+                             'c-liangshu-028-peizhiping-complete', 'c-nanshi-058-peizhiping-death'):
+        try: from scripts.liang_appointments import valid as liang_appointment_valid
+        except ImportError: from liang_appointments import valid as liang_appointment_valid
+        return liang_appointment_valid(proposal, chapter)
     if chapter.get('id') == 'c-chenshu-023-lushan-complete':
         try: from scripts.chenshu023_lushan import proposal_valid
         except ImportError: from chenshu023_lushan import proposal_valid

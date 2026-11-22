@@ -74,6 +74,10 @@ def prior_subject_valid(context, evidence, person_id, chapter):
 
 def title_attestation_subject_valid(attestation, holding, chapter):
     """Keep a title's actual location and its preceding named subject separate."""
+    if attestation.get('context',{}).get('kind')=='qi040_memorial_resumption':
+        try: from scripts.nanqi040_ziliang import resumed_title as qi40_resumed_title
+        except ImportError: from nanqi040_ziliang import resumed_title as qi40_resumed_title
+        return qi40_resumed_title(attestation,holding,chapter)
     if attestation.get('context',{}).get('kind')=='liang033_sengru_resumed_biography':
         try: from scripts.liang033_wangsengru import resumed_title as sengru_resumed_title
         except ImportError: from liang033_wangsengru import resumed_title as sengru_resumed_title

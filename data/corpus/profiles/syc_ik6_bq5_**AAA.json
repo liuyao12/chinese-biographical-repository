@@ -10,7 +10,8 @@
     "顧譚",
     "谭",
     "子默",
-    "子嘿"
+    "子嘿",
+    "顾谭"
   ],
   "titles": [
     {
@@ -1111,6 +1112,41 @@
       "chapter_id": "c-sanguozhi-059-he",
       "source_id": "s-sanguozhi-059-he",
       "work_title": "三國志"
+    },
+    {
+      "number": 60,
+      "category": "",
+      "title": "鍾離牧傳",
+      "paragraph_id": "c-sanguozhi-060-zhonglimu:line093-pei01-01",
+      "count": 1,
+      "raw_count": 1,
+      "duplicate_count": 0,
+      "counting_policy": "independent_fixed_witness_occurrences",
+      "quote": "会稽典录曰：牧父绪，楼船都尉，兄骃，上计吏，少与同郡谢赞、吴郡顾谭齐名。牧童龀时号为迟讷，骃常谓人曰：“牧必胜我，不可轻也。”时人皆以为不然。",
+      "paragraph_ids": [
+        "c-sanguozhi-060-zhonglimu:line093-pei01-01"
+      ],
+      "mention_ids": [
+        "c-sanguozhi-060-zhonglimu:line093-pei01-01:m0031"
+      ],
+      "mention_paragraph_ids": {
+        "c-sanguozhi-060-zhonglimu:line093-pei01-01:m0031": "c-sanguozhi-060-zhonglimu:line093-pei01-01"
+      },
+      "mention_id": "c-sanguozhi-060-zhonglimu:line093-pei01-01:m0031",
+      "occurrence_groups": [
+        {
+          "canonical_mention_id": "c-sanguozhi-060-zhonglimu:line093-pei01-01:m0031",
+          "mention_ids": [
+            "c-sanguozhi-060-zhonglimu:line093-pei01-01:m0031"
+          ],
+          "kind": "paragraph"
+        }
+      ],
+      "work_id": "w-sanguozhi",
+      "book_id": "b-sanguozhi-060",
+      "chapter_id": "c-sanguozhi-060-zhonglimu",
+      "source_id": "s-sanguozhi-060-zhonglimu",
+      "work_title": "三國志"
     }
   ],
   "table_occurrences": [],
@@ -1413,6 +1449,33 @@
         "wikitext_sha256": "2ef34ba24c5a2d61c1f4ac236905bd136212dacb0cf4efe30d4dff4ec0918bad",
         "collation_witnesses": [
           "source-evidence/sanguozhi059-he/reading.json"
+        ]
+      }
+    },
+    {
+      "chapter_id": "c-sanguozhi-060-zhonglimu",
+      "work_id": "w-sanguozhi",
+      "book_id": "b-sanguozhi-060",
+      "source_id": "s-sanguozhi-060-zhonglimu",
+      "source": {
+        "title": "三國志卷六十·吳書十五",
+        "provider": "Wikisource",
+        "url": "https://zh.wikisource.org/w/index.php?oldid=2120830",
+        "permalink": "https://zh.wikisource.org/w/index.php?oldid=2120830",
+        "revision_id": 2120830,
+        "accessed_on": "2026-11-21",
+        "edition": "維基文庫固定修訂，裴注與正文分層。",
+        "extent": "第93至99行。",
+        "text_scope": "partial_chapter",
+        "review_status": "text_checked",
+        "image_verified": false,
+        "rights": "古籍原文，維基文庫轉錄。",
+        "license_url": "https://creativecommons.org/licenses/by-sa/4.0/",
+        "raw_path": "source-evidence/sanguozhi060-he-quan/sanguozhi060-ws2120830.wikitext",
+        "raw_file_sha256": "79a52b4bca550c12a1020750b4464bdc2476fcbb376e67fd22a0bc03f713e8e6",
+        "wikitext_sha256": "79a52b4bca550c12a1020750b4464bdc2476fcbb376e67fd22a0bc03f713e8e6",
+        "collation_witnesses": [
+          "source-evidence/sanguozhi060-zhonglimu/reading.json"
         ]
       }
     }

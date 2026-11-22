@@ -1,0 +1,90 @@
+{
+  "record_type": "fixed_source_complete_item_review",
+  "reviewer": "Codex（AI代理）",
+  "model": null,
+  "human_reviewed": false,
+  "external_witnesses": [],
+  "print_readings": [
+    {
+      "url": "https://upload.wikimedia.org/wikipedia/commons/7/75/NLC892-411999017142-12779_%E4%BA%8C%E5%8D%81%E5%9B%9B%E5%8F%B2_%E7%AC%AC144%E5%86%8A.pdf#page=91",
+      "catalog_record": "https://commons.wikimedia.org/wiki/File:NLC892-411999017142-12779_%E4%BA%8C%E5%8D%81%E5%9B%9B%E5%8F%B2_%E7%AC%AC144%E5%86%8A.pdf",
+      "pdf_sha1": "126c34411892f6943a575a15ee46fb0064bd5b7b",
+      "pdf_sha256": "316229a8587d188289a7fa2dac393760437ca7facf5deb7a3bfa09770b4a1ac3",
+      "image_sha256": "a8b034dec4a7c0f12f639b8aa355e14ff037a10e23bb3800afcf677cc592fd95",
+      "edition": "清乾隆武英殿本《宋書》，國圖第144冊。",
+      "page": 91,
+      "half": "L",
+      "folio": "六上",
+      "columns_from_right": "7–9",
+      "source_quote": "子敬義嗣敬義官至馬頭太守卒子國重嗣齊受禪國除鍾次子高昌男敬順卒子國須嗣須卒無子國除",
+      "reading": "兩路封爵各有末嗣與國除。"
+    }
+  ],
+  "boundaries": [
+    {
+      "book_id": "b-songshu-049",
+      "title": "劉國重",
+      "unit_kind": "embedded_account",
+      "chapter_id": "c-songshu-049-liuguozhong",
+      "entry_checked": true,
+      "full_text": true,
+      "first_pass": true,
+      "item_reviewed": true,
+      "source_layout": "wikisource_mixed_indented_prose",
+      "first_line": 38,
+      "last_line": 38,
+      "start_codepoint": 16,
+      "end_codepoint": 28,
+      "opening": "子國重嗣，齊受禪，國除。",
+      "closing": "子國重嗣，齊受禪，國除。",
+      "parent_heading": "劉鍾",
+      "chapter_path": "corpus/songshu/049-liuguozhong.json",
+      "paragraph_ids": [
+        "c-songshu-049-liuguozhong:p001"
+      ],
+      "item_review_path": "source-evidence/song049-complete/liuguozhong-reading.json"
+    }
+  ],
+  "chronology": [],
+  "readings": [
+    {
+      "id": "c-songshu-049-liuguozhong:received_sentence1-0",
+      "kind": "received_sentence",
+      "person_id": "vcd_ee3_q63_AA",
+      "source_quote": "子國重嗣，齊受禪，國除。",
+      "reading": "敬義子國重嗣，齊受禪時國除。",
+      "note": "敬義子國重嗣，齊受禪時國除。",
+      "paragraph_id": "c-songshu-049-liuguozhong:p001",
+      "start_codepoint": 0,
+      "end_codepoint": 12,
+      "human_reviewed": false
+    },
+    {
+      "id": "c-songshu-049-liuguozhong:succession_record1-5",
+      "kind": "succession_record",
+      "person_id": "vcd_ee3_q63_AA",
+      "source_quote": "齊受禪",
+      "reading": "479年除的是劉鍾原爵一路。",
+      "note": "479年除的是劉鍾原爵一路。",
+      "paragraph_id": "c-songshu-049-liuguozhong:p001",
+      "start_codepoint": 5,
+      "end_codepoint": 8,
+      "human_reviewed": false,
+      "source_role": "國重"
+    },
+    {
+      "id": "c-songshu-049-liuguozhong:calendar1-5",
+      "kind": "calendar",
+      "person_id": "vcd_ee3_q63_AA",
+      "source_quote": "齊受禪",
+      "reading": "齊受禪在479年，屬國除紀年。",
+      "note": "齊受禪在479年，屬國除紀年。",
+      "paragraph_id": "c-songshu-049-liuguozhong:p001",
+      "start_codepoint": 5,
+      "end_codepoint": 8,
+      "human_reviewed": false,
+      "ce_year": 479
+    }
+  ],
+  "identity_limits": []
+}

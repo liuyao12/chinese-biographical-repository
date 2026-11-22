@@ -497,3 +497,19 @@
 《南齊書》卷二十、《南史》卷十一齊后妃段核足二十二個數位傳段。裴惠昭祖名在殿本、出雲本分作朴之、封之；韓氏姑名兩刻本均作韓蘭英，數位齊書作韓藺英，殿本考證另引宋本「藺」。兩書的皇后、母族及韓氏原欄均可由清冊查回。
 
 [周瑜、魯肅、呂蒙](../source-evidence/sanguozhi054-roll-close/reading.json) · [吳將十二題與陳表](../source-evidence/sanguozhi055-roll-close/reading.json) · [宋書卷四十八傳界](../source-evidence/song048-complete/volume-boundaries.json) · [梁書卷二十七傳界](../source-evidence/liang027-complete/volume-boundaries.json) · [明山賓](../source-evidence/liang027-complete/mingshanbin-reading.json) · [陸襄](../source-evidence/liang027-complete/luxiang-reading.json)
+
+## 第三十三批　朱然、孫處、竟陵文宣王及裴氏
+
+本批覆核六十五項。現有八十卷列入清冊，共一千三百六十五項，其中一千一百零三項已逐傳覆核。
+
+| 卷 | 本批傳目 | 校讀所得 |
+| --- | ---: | --- |
+| 《三國志》卷五十六 | 15 | 四篇主傳、三篇有小題子傳及八則附敘。朱然墓所出的木刺、木謁各列文字、藏地與圖錄出處。 |
+| 《三國志》卷六十 | 22 | 賀齊、全琮、呂岱、周魴、鍾離牧五題及附敘。周魴致曹休七箋與另上孫權的密表各自立項。孫奐在數位本作「從孫奐」，殿本作「從弟孫奐」。 |
+| 《宋書》卷四十九 | 16 | 孫處、蒯恩、劉鍾、虞丘進四傳及十二則附敘共一百六十九句，另核史評四句。虞丘進卒於永初三年，年六十；虞丘世寶承嗣，原文未具父名。 |
+| 《南齊書》卷四十 | 9 | 子良、昭冑、子卿、子響諸傳及五則附敘。昭冑子監利侯在數位本作周，殿本、《南史》作同。劉寅、席恭穆各有成段敘事。 |
+| 《梁書》卷二十八 | 3 | 裴之禮、裴政、裴之平。之禮的長流參軍及之平的扶風、弘農二郡太守，兩處都明記未赴任。 |
+
+蒯恩的箭傷在宋書固定文與殿本作左目，《南史》作右目。劉鍾改葬父祖以下十喪。傳中記他有三子，只具敬義、敬順二名，兄弟各承一爵。虞丘進末段的「進爵」是動詞，卒年從前段「永初二年」及下文「明年」銜接。卷末武英殿本考證署名承蒼，以虞丘進、劉鍾的早年行跡論沈約對諸將出身的概括。[宋四十九傳界](../source-evidence/song049-complete/volume-boundaries.json) · [史臣論與《大雅·抑》](../source-evidence/song049-complete/song049-shilun-reading.json)
+
+齊魚復侯子響遇害，《南齊書》本傳作賜死，本紀作伏誅，《南史》《通鑑》記射堂縊殺。二十五日是子響投軍之日。裴之禮的末官，《梁書》《南史》記少府卿，《隋書》裴政傳則稱其父廷尉卿。之平字如原，為之高第五弟，其子裴忌、孫裴蘊另有陳、隋兩史本傳可校。[子響](../source-evidence/nanqi040-zixiang/reading.json) · [裴之禮](../source-evidence/liang028-complete/peizhili-reading.json) · [裴之平](../source-evidence/liang028-complete/peizhiping-reading.json)
