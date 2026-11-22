@@ -1,4 +1,4 @@
-"""從《吳書》卷六十四、六十五固定見證重建正文與裴注傳目。"""
+"""從《吳書》卷四十九、六十四、六十五固定見證重建正文與裴注傳目。"""
 from functools import lru_cache
 from pathlib import Path
 
@@ -8,7 +8,7 @@ except ImportError:
     from sanguozhi063_slices import slice_volume_text
 
 
-REVISIONS = {64: 2263487, 65: 2589669}
+REVISIONS = {49: 2075209, 64: 2263487, 65: 2589669}
 
 
 @lru_cache(maxsize=len(REVISIONS))
