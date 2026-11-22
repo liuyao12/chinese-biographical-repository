@@ -1,0 +1,230 @@
+{
+  "schema_version": 1,
+  "id": "9wm_vgh_vz1_ADB",
+  "canonical_person_id": "9wm_vgh_vz1_ADB",
+  "label": "沈氏（沈君高女，長沙王妃）",
+  "identity_note": "沈氏（沈君高女，長沙王妃），見本組原文及身份互校。",
+  "review": "ai_provisional",
+  "names": [],
+  "titles": [],
+  "addresses": [],
+  "occurrences": [],
+  "table_occurrences": [],
+  "sources": [
+    {
+      "chapter_id": "c-chenshu-023-shenjunli-complete",
+      "work_id": "w-chenshu",
+      "book_id": "b-chenshu-023",
+      "source_id": "s-chenshu-023-shenjunli-complete-ws1514496",
+      "source": {
+        "title": "陳書卷二十三·沈君理與諸弟",
+        "provider": "Wikisource",
+        "permalink": "https://zh.wikisource.org/w/index.php?oldid=1514496",
+        "url": "https://zh.wikisource.org/w/index.php?oldid=1514496",
+        "revision_id": 1514496,
+        "edition": "維基文庫固定修訂",
+        "accessed_on": "2026-11-21",
+        "review_status": "text_checked",
+        "image_verified": false,
+        "rights": "古代原文；數位轉錄依維基文庫授權。",
+        "license_url": "https://creativecommons.org/licenses/by-sa/4.0/",
+        "extent": "陳書卷二十三·沈君理與諸弟",
+        "text_scope": "complete_biography_unit",
+        "raw_path": "sources/chenshu/chenshu023-ws1514496.wikitext",
+        "raw_file_sha256": "c2a284e02e38025663289282e4f2050b5f225012ab2bec7615b33105d877a4e6"
+      }
+    }
+  ],
+  "relations": [
+    {
+      "id": "a-chen023-jungao-daughter-father",
+      "subject_person_id": "9wm_vgh_vz1_ADB",
+      "object_person_id": "9wm_vgh_vz1_AD",
+      "predicate": "father",
+      "qualifiers": {
+        "source_term": "以女為王妃",
+        "reading_basis": {
+          "kind": "chen023_jungao_daughter",
+          "role_anchor": {
+            "paragraph_id": "c-chenshu-023-shenjunli-complete:p006",
+            "start": 134,
+            "end": 135,
+            "surface": "女"
+          }
+        },
+        "lineage": "paternal"
+      },
+      "evidence": [
+        {
+          "work_id": "w-chenshu",
+          "book_id": "b-chenshu-023",
+          "chapter_id": "c-chenshu-023-shenjunli-complete",
+          "source_id": "s-chenshu-023-shenjunli-complete-ws1514496",
+          "paragraph_id": "c-chenshu-023-shenjunli-complete:p006",
+          "quote": "君理第六弟君高，字季高，少知名，性剛直，有吏能。以家門外戚，早居清顯，歷太子舍人、洗馬、中舍人、高宗司空府從事中郎、廷尉卿。太建元年，東境大水，百姓飢弊，乃以君高為貞威將軍、吳令。尋除太子中庶子、尚書吏部郎、衛尉卿。出為宣遠將軍、平南長沙王長史、南海太守，行廣州事。以女為王妃，固辭不行，復為衛尉卿。八年，詔授持節、都督廣等十八州諸軍事、寧遠將軍、平越中郎將、廣州刺史。嶺南俚、獠世相攻伐，君高本文吏，無武幹，推心撫御，甚得民和。十年，卒于官，時年四十七。贈散騎常侍，諡曰祁子。",
+          "subject_person_reference_id": "c-chenshu-023-shenjunli-complete:p006:r0134",
+          "object_person_mention_id": "c-chenshu-023-shenjunli-complete:p006:m0005"
+        }
+      ],
+      "status": "source_attested",
+      "interpretation_note": "君高之女為此處長沙王之妃，以該親稱繫證。",
+      "reviewer": "Codex（AI代理）",
+      "model": null,
+      "human_reviewed": false
+    },
+    {
+      "id": "a-chen023-jungao-daughter-spouse",
+      "subject_person_id": "9wm_vgh_vz1_ADB",
+      "object_person_id": "icd_mkz_d9n_D",
+      "predicate": "spouse",
+      "qualifiers": {
+        "source_term": "平南長沙王長史、南海太守，行廣州事。以女為王妃",
+        "reading_basis": {
+          "kind": "chen023_jungao_daughter",
+          "role_anchor": {
+            "paragraph_id": "c-chenshu-023-shenjunli-complete:p006",
+            "start": 134,
+            "end": 135,
+            "surface": "女"
+          }
+        }
+      },
+      "evidence": [
+        {
+          "work_id": "w-chenshu",
+          "book_id": "b-chenshu-023",
+          "chapter_id": "c-chenshu-023-shenjunli-complete",
+          "source_id": "s-chenshu-023-shenjunli-complete-ws1514496",
+          "paragraph_id": "c-chenshu-023-shenjunli-complete:p006",
+          "quote": "君理第六弟君高，字季高，少知名，性剛直，有吏能。以家門外戚，早居清顯，歷太子舍人、洗馬、中舍人、高宗司空府從事中郎、廷尉卿。太建元年，東境大水，百姓飢弊，乃以君高為貞威將軍、吳令。尋除太子中庶子、尚書吏部郎、衛尉卿。出為宣遠將軍、平南長沙王長史、南海太守，行廣州事。以女為王妃，固辭不行，復為衛尉卿。八年，詔授持節、都督廣等十八州諸軍事、寧遠將軍、平越中郎將、廣州刺史。嶺南俚、獠世相攻伐，君高本文吏，無武幹，推心撫御，甚得民和。十年，卒于官，時年四十七。贈散騎常侍，諡曰祁子。",
+          "subject_person_reference_id": "c-chenshu-023-shenjunli-complete:p006:r0134",
+          "object_person_mention_id": "c-chenshu-023-shenjunli-complete:p006:m0117"
+        }
+      ],
+      "status": "source_attested",
+      "interpretation_note": "君高之女為此處長沙王之妃，以該親稱繫證。",
+      "reviewer": "Codex（AI代理）",
+      "model": null,
+      "human_reviewed": false
+    }
+  ],
+  "related_people": {
+    "9wm_vgh_vz1_AD": "沈君高（字季高，諡祁子）",
+    "9wm_vgh_vz1_ADB": "沈氏（沈君高女，長沙王妃）",
+    "icd_mkz_d9n_D": "陳叔堅（字子成，陳宣帝第四子）"
+  },
+  "dates": [],
+  "name_components": [],
+  "person_references": [
+    {
+      "id": "c-chenshu-023-shenjunli-complete:p006:r0134",
+      "paragraph_id": "c-chenshu-023-shenjunli-complete:p006",
+      "start": 134,
+      "end": 135,
+      "surface": "女",
+      "person_id": "9wm_vgh_vz1_ADB",
+      "referent_role": "third_person",
+      "quote": "君理第六弟君高，字季高，少知名，性剛直，有吏能。以家門外戚，早居清顯，歷太子舍人、洗馬、中舍人、高宗司空府從事中郎、廷尉卿。太建元年，東境大水，百姓飢弊，乃以君高為貞威將軍、吳令。尋除太子中庶子、尚書吏部郎、衛尉卿。出為宣遠將軍、平南長沙王長史、南海太守，行廣州事。以女為王妃，固辭不行，復為衛尉卿。八年，詔授持節、都督廣等十八州諸軍事、寧遠將軍、平越中郎將、廣州刺史。嶺南俚、獠世相攻伐，君高本文吏，無武幹，推心撫御，甚得民和。十年，卒于官，時年四十七。贈散騎常侍，諡曰祁子。",
+      "note": "依本段敘事、稱謂及語者受者定。",
+      "chapter_id": "c-chenshu-023-shenjunli-complete",
+      "book_id": "b-chenshu-023",
+      "work_id": "w-chenshu",
+      "source_id": "s-chenshu-023-shenjunli-complete-ws1514496"
+    },
+    {
+      "id": "c-chenshu-023-shenjunli-complete:p006:r0136",
+      "paragraph_id": "c-chenshu-023-shenjunli-complete:p006",
+      "start": 136,
+      "end": 138,
+      "surface": "王妃",
+      "person_id": "9wm_vgh_vz1_ADB",
+      "referent_role": "third_person",
+      "quote": "君理第六弟君高，字季高，少知名，性剛直，有吏能。以家門外戚，早居清顯，歷太子舍人、洗馬、中舍人、高宗司空府從事中郎、廷尉卿。太建元年，東境大水，百姓飢弊，乃以君高為貞威將軍、吳令。尋除太子中庶子、尚書吏部郎、衛尉卿。出為宣遠將軍、平南長沙王長史、南海太守，行廣州事。以女為王妃，固辭不行，復為衛尉卿。八年，詔授持節、都督廣等十八州諸軍事、寧遠將軍、平越中郎將、廣州刺史。嶺南俚、獠世相攻伐，君高本文吏，無武幹，推心撫御，甚得民和。十年，卒于官，時年四十七。贈散騎常侍，諡曰祁子。",
+      "note": "依本段敘事、稱謂及語者受者定。",
+      "chapter_id": "c-chenshu-023-shenjunli-complete",
+      "book_id": "b-chenshu-023",
+      "work_id": "w-chenshu",
+      "source_id": "s-chenshu-023-shenjunli-complete-ws1514496"
+    }
+  ],
+  "person_ids": [
+    "9wm_vgh_vz1_ADB"
+  ],
+  "preferred_relations": [
+    {
+      "id": "a-chen023-jungao-daughter-father",
+      "subject_person_id": "9wm_vgh_vz1_ADB",
+      "object_person_id": "9wm_vgh_vz1_AD",
+      "predicate": "father",
+      "qualifiers": {
+        "source_term": "以女為王妃",
+        "reading_basis": {
+          "kind": "chen023_jungao_daughter",
+          "role_anchor": {
+            "paragraph_id": "c-chenshu-023-shenjunli-complete:p006",
+            "start": 134,
+            "end": 135,
+            "surface": "女"
+          }
+        },
+        "lineage": "paternal"
+      },
+      "evidence": [
+        {
+          "work_id": "w-chenshu",
+          "book_id": "b-chenshu-023",
+          "chapter_id": "c-chenshu-023-shenjunli-complete",
+          "source_id": "s-chenshu-023-shenjunli-complete-ws1514496",
+          "paragraph_id": "c-chenshu-023-shenjunli-complete:p006",
+          "quote": "君理第六弟君高，字季高，少知名，性剛直，有吏能。以家門外戚，早居清顯，歷太子舍人、洗馬、中舍人、高宗司空府從事中郎、廷尉卿。太建元年，東境大水，百姓飢弊，乃以君高為貞威將軍、吳令。尋除太子中庶子、尚書吏部郎、衛尉卿。出為宣遠將軍、平南長沙王長史、南海太守，行廣州事。以女為王妃，固辭不行，復為衛尉卿。八年，詔授持節、都督廣等十八州諸軍事、寧遠將軍、平越中郎將、廣州刺史。嶺南俚、獠世相攻伐，君高本文吏，無武幹，推心撫御，甚得民和。十年，卒于官，時年四十七。贈散騎常侍，諡曰祁子。",
+          "subject_person_reference_id": "c-chenshu-023-shenjunli-complete:p006:r0134",
+          "object_person_mention_id": "c-chenshu-023-shenjunli-complete:p006:m0005"
+        }
+      ],
+      "status": "source_attested",
+      "interpretation_note": "君高之女為此處長沙王之妃，以該親稱繫證。",
+      "reviewer": "Codex（AI代理）",
+      "model": null,
+      "human_reviewed": false
+    },
+    {
+      "id": "a-chen023-jungao-daughter-spouse",
+      "subject_person_id": "9wm_vgh_vz1_ADB",
+      "object_person_id": "icd_mkz_d9n_D",
+      "predicate": "spouse",
+      "qualifiers": {
+        "source_term": "平南長沙王長史、南海太守，行廣州事。以女為王妃",
+        "reading_basis": {
+          "kind": "chen023_jungao_daughter",
+          "role_anchor": {
+            "paragraph_id": "c-chenshu-023-shenjunli-complete:p006",
+            "start": 134,
+            "end": 135,
+            "surface": "女"
+          }
+        }
+      },
+      "evidence": [
+        {
+          "work_id": "w-chenshu",
+          "book_id": "b-chenshu-023",
+          "chapter_id": "c-chenshu-023-shenjunli-complete",
+          "source_id": "s-chenshu-023-shenjunli-complete-ws1514496",
+          "paragraph_id": "c-chenshu-023-shenjunli-complete:p006",
+          "quote": "君理第六弟君高，字季高，少知名，性剛直，有吏能。以家門外戚，早居清顯，歷太子舍人、洗馬、中舍人、高宗司空府從事中郎、廷尉卿。太建元年，東境大水，百姓飢弊，乃以君高為貞威將軍、吳令。尋除太子中庶子、尚書吏部郎、衛尉卿。出為宣遠將軍、平南長沙王長史、南海太守，行廣州事。以女為王妃，固辭不行，復為衛尉卿。八年，詔授持節、都督廣等十八州諸軍事、寧遠將軍、平越中郎將、廣州刺史。嶺南俚、獠世相攻伐，君高本文吏，無武幹，推心撫御，甚得民和。十年，卒于官，時年四十七。贈散騎常侍，諡曰祁子。",
+          "subject_person_reference_id": "c-chenshu-023-shenjunli-complete:p006:r0134",
+          "object_person_mention_id": "c-chenshu-023-shenjunli-complete:p006:m0117"
+        }
+      ],
+      "status": "source_attested",
+      "interpretation_note": "君高之女為此處長沙王之妃，以該親稱繫證。",
+      "reviewer": "Codex（AI代理）",
+      "model": null,
+      "human_reviewed": false
+    }
+  ],
+  "age_assertions": [],
+  "life_events": [],
+  "life_event_date_decisions": [],
+  "selected_life_event_dates": []
+}

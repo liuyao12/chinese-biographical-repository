@@ -20,6 +20,10 @@ def received_text(line):
 def source_paragraphs(lines, layout=None):
     """核對固定轉錄選用的首行空格及跨段引文模板。"""
     lines = [line for line in lines if line.strip()]
+    if layout == 'zhanglihua_annotated_zhide_year':
+        raw_year = '{{YL|至德二年|584年}}'
+        assert sum(t.count(raw_year) for t in lines) == 1
+        return [received_text(t.replace(raw_year, '至德二年')) for t in lines]
     if layout == 'wanglingbin_annotated_dabao_year':
         assert len(lines)==1 and lines[0].count('{{YL|大寶元年|550年}}')==1
         return [received_text(lines[0].replace('{{YL|大寶元年|550年}}','大寶元年'))]
@@ -128,6 +132,16 @@ def source_paragraphs(lines, layout=None):
             from scripts.sanguozhi051_layers import project_line
         except ImportError:
             from sanguozhi051_layers import project_line
+        return [body for line in lines if (body:=project_line(line)[0])]
+    if layout=='sanguozhi053_contiguous_slice':
+        try: from scripts.sanguozhi053_slices import slice_text
+        except ImportError: from sanguozhi053_slices import slice_text
+        return [slice_text(line) for line in lines if line]
+    if layout == 'sanguozhi053_received_with_pei_notes':
+        try:
+            from scripts.sanguozhi053_layers import project_line
+        except ImportError:
+            from sanguozhi053_layers import project_line
         return [body for line in lines if (body:=project_line(line)[0])]
     if layout == 'jin065_indented_text':
         paragraphs = []
@@ -323,6 +337,11 @@ def verify(root=ROOT):
             assert located_headings[book].isdisjoint(exclusions), book
             if survey['heading_survey'] == 'complete':
                 assert headings == located_headings[book] | exclusions, book
+    try:
+        from scripts.consort_volume_coverage import verify_covered_consorts
+    except ImportError:
+        from consort_volume_coverage import verify_covered_consorts
+    verify_covered_consorts(inventory, witnesses)
     return candidates, counts
 
 

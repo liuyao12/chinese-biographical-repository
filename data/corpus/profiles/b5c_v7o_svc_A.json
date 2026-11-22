@@ -1,0 +1,204 @@
+{
+  "schema_version": 1,
+  "id": "b5c_v7o_svc_A",
+  "canonical_person_id": "b5c_v7o_svc_A",
+  "label": "徐摛（徐陵父，梁太子左衛率）",
+  "identity_note": "徐摛（徐陵父，梁太子左衛率），見本組原文及身份互校。",
+  "review": "ai_provisional",
+  "names": [
+    "摛"
+  ],
+  "titles": [],
+  "addresses": [],
+  "occurrences": [
+    {
+      "number": 26,
+      "category": "",
+      "title": "陳書卷二十六·徐陵與父祖",
+      "paragraph_id": "c-chenshu-026-lushan-xuling:p001",
+      "count": 1,
+      "raw_count": 1,
+      "duplicate_count": 0,
+      "counting_policy": "independent_fixed_witness_occurrences",
+      "quote": "徐陵字孝穆，東海郯人也。祖超之，齊鬱林太守，梁員外散騎常侍。父摛，梁戎昭將軍、太子左衛率，贈侍中、太子詹事，諡貞子。",
+      "paragraph_ids": [
+        "c-chenshu-026-lushan-xuling:p001"
+      ],
+      "mention_ids": [
+        "c-chenshu-026-lushan-xuling:p001:m0031"
+      ],
+      "mention_paragraph_ids": {
+        "c-chenshu-026-lushan-xuling:p001:m0031": "c-chenshu-026-lushan-xuling:p001"
+      },
+      "mention_id": "c-chenshu-026-lushan-xuling:p001:m0031",
+      "occurrence_groups": [
+        {
+          "canonical_mention_id": "c-chenshu-026-lushan-xuling:p001:m0031",
+          "mention_ids": [
+            "c-chenshu-026-lushan-xuling:p001:m0031"
+          ],
+          "kind": "paragraph"
+        }
+      ],
+      "work_id": "w-chenshu",
+      "book_id": "b-chenshu-026",
+      "chapter_id": "c-chenshu-026-lushan-xuling",
+      "source_id": "s-chenshu-026-lushan-xuling-ws2132678",
+      "work_title": "陳書"
+    }
+  ],
+  "table_occurrences": [],
+  "sources": [
+    {
+      "chapter_id": "c-chenshu-026-lushan-xuling",
+      "work_id": "w-chenshu",
+      "book_id": "b-chenshu-026",
+      "source_id": "s-chenshu-026-lushan-xuling-ws2132678",
+      "source": {
+        "title": "陳書卷二十六·徐陵與父祖",
+        "provider": "Wikisource",
+        "permalink": "https://zh.wikisource.org/w/index.php?oldid=2132678",
+        "url": "https://zh.wikisource.org/w/index.php?oldid=2132678",
+        "revision_id": 2132678,
+        "edition": "維基文庫固定修訂",
+        "accessed_on": "2026-11-21",
+        "review_status": "text_checked",
+        "image_verified": false,
+        "rights": "古代原文；數位轉錄依維基文庫授權。",
+        "license_url": "https://creativecommons.org/licenses/by-sa/4.0/",
+        "extent": "陳書卷二十六·徐陵與父祖",
+        "text_scope": "partial_chapter",
+        "raw_path": "source-evidence/chenshu023-shenwanglu/chen026-ws2132678.wikitext",
+        "raw_file_sha256": "7752c2135b9fa934ad5a18a7c774c4f0a50b19ad0896d0f4958daeb99349c506"
+      }
+    }
+  ],
+  "relations": [
+    {
+      "id": "a-chen023-xuling-father",
+      "subject_person_id": "b5c_v7o_svc_AA",
+      "object_person_id": "b5c_v7o_svc_A",
+      "predicate": "father",
+      "qualifiers": {
+        "source_term": "父摛",
+        "lineage": "paternal"
+      },
+      "evidence": [
+        {
+          "work_id": "w-chenshu",
+          "book_id": "b-chenshu-026",
+          "chapter_id": "c-chenshu-026-lushan-xuling",
+          "source_id": "s-chenshu-026-lushan-xuling-ws2132678",
+          "paragraph_id": "c-chenshu-026-lushan-xuling:p001",
+          "quote": "徐陵字孝穆，東海郯人也。祖超之，齊鬱林太守，梁員外散騎常侍。父摛，梁戎昭將軍、太子左衛率，贈侍中、太子詹事，諡貞子。",
+          "subject_person_mention_id": "c-chenshu-026-lushan-xuling:p001:m0000",
+          "object_person_mention_id": "c-chenshu-026-lushan-xuling:p001:m0031"
+        }
+      ],
+      "status": "source_attested",
+      "interpretation_note": "本傳明載徐陵父摛。",
+      "reviewer": "Codex（AI代理）",
+      "model": null,
+      "human_reviewed": false
+    },
+    {
+      "id": "a-chen023-xuchi-father",
+      "subject_person_id": "b5c_v7o_svc_A",
+      "object_person_id": "b5c_v7o_svc",
+      "predicate": "father",
+      "qualifiers": {
+        "source_term": "祖超之，齊鬱林太守，梁員外散騎常侍。父摛",
+        "lineage": "paternal",
+        "interpretation_status": "editorial_inference"
+      },
+      "evidence": [
+        {
+          "work_id": "w-chenshu",
+          "book_id": "b-chenshu-026",
+          "chapter_id": "c-chenshu-026-lushan-xuling",
+          "source_id": "s-chenshu-026-lushan-xuling-ws2132678",
+          "paragraph_id": "c-chenshu-026-lushan-xuling:p001",
+          "quote": "徐陵字孝穆，東海郯人也。祖超之，齊鬱林太守，梁員外散騎常侍。父摛，梁戎昭將軍、太子左衛率，贈侍中、太子詹事，諡貞子。",
+          "subject_person_mention_id": "c-chenshu-026-lushan-xuling:p001:m0031",
+          "object_person_mention_id": "c-chenshu-026-lushan-xuling:p001:m0013"
+        }
+      ],
+      "status": "source_attested",
+      "interpretation_note": "據徐陵傳首並敘祖、父兩輩暫接。",
+      "reviewer": "Codex（AI代理）",
+      "model": null,
+      "human_reviewed": false
+    }
+  ],
+  "related_people": {
+    "b5c_v7o_svc": "徐超之（齊鬱林太守）",
+    "b5c_v7o_svc_A": "徐摛（徐陵父，梁太子左衛率）",
+    "b5c_v7o_svc_AA": "徐陵（字孝穆，東海郯人）"
+  },
+  "dates": [],
+  "name_components": [],
+  "person_ids": [
+    "b5c_v7o_svc_A"
+  ],
+  "preferred_relations": [
+    {
+      "id": "a-chen023-xuling-father",
+      "subject_person_id": "b5c_v7o_svc_AA",
+      "object_person_id": "b5c_v7o_svc_A",
+      "predicate": "father",
+      "qualifiers": {
+        "source_term": "父摛",
+        "lineage": "paternal"
+      },
+      "evidence": [
+        {
+          "work_id": "w-chenshu",
+          "book_id": "b-chenshu-026",
+          "chapter_id": "c-chenshu-026-lushan-xuling",
+          "source_id": "s-chenshu-026-lushan-xuling-ws2132678",
+          "paragraph_id": "c-chenshu-026-lushan-xuling:p001",
+          "quote": "徐陵字孝穆，東海郯人也。祖超之，齊鬱林太守，梁員外散騎常侍。父摛，梁戎昭將軍、太子左衛率，贈侍中、太子詹事，諡貞子。",
+          "subject_person_mention_id": "c-chenshu-026-lushan-xuling:p001:m0000",
+          "object_person_mention_id": "c-chenshu-026-lushan-xuling:p001:m0031"
+        }
+      ],
+      "status": "source_attested",
+      "interpretation_note": "本傳明載徐陵父摛。",
+      "reviewer": "Codex（AI代理）",
+      "model": null,
+      "human_reviewed": false
+    },
+    {
+      "id": "a-chen023-xuchi-father",
+      "subject_person_id": "b5c_v7o_svc_A",
+      "object_person_id": "b5c_v7o_svc",
+      "predicate": "father",
+      "qualifiers": {
+        "source_term": "祖超之，齊鬱林太守，梁員外散騎常侍。父摛",
+        "lineage": "paternal",
+        "interpretation_status": "editorial_inference"
+      },
+      "evidence": [
+        {
+          "work_id": "w-chenshu",
+          "book_id": "b-chenshu-026",
+          "chapter_id": "c-chenshu-026-lushan-xuling",
+          "source_id": "s-chenshu-026-lushan-xuling-ws2132678",
+          "paragraph_id": "c-chenshu-026-lushan-xuling:p001",
+          "quote": "徐陵字孝穆，東海郯人也。祖超之，齊鬱林太守，梁員外散騎常侍。父摛，梁戎昭將軍、太子左衛率，贈侍中、太子詹事，諡貞子。",
+          "subject_person_mention_id": "c-chenshu-026-lushan-xuling:p001:m0031",
+          "object_person_mention_id": "c-chenshu-026-lushan-xuling:p001:m0013"
+        }
+      ],
+      "status": "source_attested",
+      "interpretation_note": "據徐陵傳首並敘祖、父兩輩暫接。",
+      "reviewer": "Codex（AI代理）",
+      "model": null,
+      "human_reviewed": false
+    }
+  ],
+  "age_assertions": [],
+  "life_events": [],
+  "life_event_date_decisions": [],
+  "selected_life_event_dates": []
+}

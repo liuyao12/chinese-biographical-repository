@@ -1,0 +1,62 @@
+{
+  "format_version": "0.2",
+  "record_type": "person_assertion_set",
+  "chapter_id": "c-nanqishu-046-lushan-huixiao",
+  "assertions": [
+    {
+      "id": "a-chen023-huixiao-father",
+      "subject_person_id": "jss_82r_1ct_AA",
+      "object_person_id": "jss_82r_1ct_A",
+      "predicate": "father",
+      "qualifiers": {
+        "source_term": "父子真",
+        "lineage": "paternal"
+      },
+      "evidence": [
+        {
+          "work_id": "w-nanqishu",
+          "book_id": "b-nanqishu-046",
+          "chapter_id": "c-nanqishu-046-lushan-huixiao",
+          "source_id": "s-nanqishu-046-lushan-huixiao-ws1511897",
+          "paragraph_id": "c-nanqishu-046-lushan-huixiao:p001",
+          "quote": "陸慧曉字叔明，吳郡吳人也。祖萬載，侍中。父子真，元嘉中爲海陵太守。",
+          "subject_person_mention_id": "c-nanqishu-046-lushan-huixiao:p001:m0000",
+          "object_person_mention_id": "c-nanqishu-046-lushan-huixiao:p001:m0021"
+        }
+      ],
+      "status": "source_attested",
+      "interpretation_note": "陸慧曉父子真；宋裴松之傳另見同名使者，兩傳未提供同官或互稱。",
+      "reviewer": "Codex（AI代理）",
+      "model": null,
+      "human_reviewed": false
+    },
+    {
+      "id": "a-chen023-zizhen-father",
+      "subject_person_id": "jss_82r_1ct_A",
+      "object_person_id": "jss_82r_1ct",
+      "predicate": "father",
+      "qualifiers": {
+        "source_term": "祖萬載，侍中。父子真",
+        "lineage": "paternal",
+        "interpretation_status": "editorial_inference"
+      },
+      "evidence": [
+        {
+          "work_id": "w-nanqishu",
+          "book_id": "b-nanqishu-046",
+          "chapter_id": "c-nanqishu-046-lushan-huixiao",
+          "source_id": "s-nanqishu-046-lushan-huixiao-ws1511897",
+          "paragraph_id": "c-nanqishu-046-lushan-huixiao:p001",
+          "quote": "陸慧曉字叔明，吳郡吳人也。祖萬載，侍中。父子真，元嘉中爲海陵太守。",
+          "subject_person_mention_id": "c-nanqishu-046-lushan-huixiao:p001:m0021",
+          "object_person_mention_id": "c-nanqishu-046-lushan-huixiao:p001:m0014"
+        }
+      ],
+      "status": "source_attested",
+      "interpretation_note": "慧曉傳先祖後父；據連敘兩輩暫接。",
+      "reviewer": "Codex（AI代理）",
+      "model": null,
+      "human_reviewed": false
+    }
+  ]
+}

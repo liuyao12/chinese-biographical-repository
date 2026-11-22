@@ -1,0 +1,73 @@
+{
+  "format_version": "0.2",
+  "record_type": "person_assertion_set",
+  "chapter_id": "c-nanshi-012-zhanglihua",
+  "assertions": [
+    {
+      "id": "a-nan012-zhanglihua-m-mom",
+      "subject_person_id": "icd_mkz_d9n_AA",
+      "object_person_id": "3jv_fyp_o96",
+      "predicate": "mother",
+      "qualifiers": {
+        "source_term": "生太子深",
+        "nan012_zhanglihua_reading": "m-mom"
+      },
+      "evidence": [
+        {
+          "work_id": "w-nanshi",
+          "book_id": "b-nanshi-012",
+          "source_id": "s-nanshi-012-zhanglihua-ws2060595",
+          "chapter_id": "c-nanshi-012-zhanglihua",
+          "paragraph_id": "c-nanshi-012-zhanglihua:p001",
+          "quote": "張貴妃名麗華，兵家女也。父兄以織席為業。後主為太子，以選入宮。時龔貴嬪為良娣，貴妃年十歲，為之給使。後主見而悅之，因得幸，遂有娠，生太子深。後主即位，拜為貴妃。性聰慧，甚被寵遇。",
+          "subject_person_mention_id": "c-nanshi-012-zhanglihua:p001:m0068",
+          "object_person_mention_id": "c-nanshi-012-zhanglihua:p001:m0004",
+          "relationship_anchor": {
+            "paragraph_id": "c-nanshi-012-zhanglihua:p001",
+            "surface": "生太子深",
+            "start": 65,
+            "end": 69
+          }
+        }
+      ],
+      "status": "source_attested",
+      "interpretation_note": "太子深由張氏生。",
+      "reviewer": "Codex（AI 代理）",
+      "human_reviewed": false,
+      "model": null
+    },
+    {
+      "id": "a-nan012-zhanglihua-m-consort",
+      "subject_person_id": "3jv_fyp_o96",
+      "object_person_id": "icd_mkz_d9n_A",
+      "predicate": "spouse",
+      "qualifiers": {
+        "source_term": "後主即位，拜為貴妃",
+        "nan012_zhanglihua_reading": "m-consort"
+      },
+      "evidence": [
+        {
+          "work_id": "w-nanshi",
+          "book_id": "b-nanshi-012",
+          "source_id": "s-nanshi-012-zhanglihua-ws2060595",
+          "chapter_id": "c-nanshi-012-zhanglihua",
+          "paragraph_id": "c-nanshi-012-zhanglihua:p001",
+          "quote": "張貴妃名麗華，兵家女也。父兄以織席為業。後主為太子，以選入宮。時龔貴嬪為良娣，貴妃年十歲，為之給使。後主見而悅之，因得幸，遂有娠，生太子深。後主即位，拜為貴妃。性聰慧，甚被寵遇。",
+          "subject_person_mention_id": "c-nanshi-012-zhanglihua:p001:m0004",
+          "object_person_reference_id": "c-nanshi-012-zhanglihua:p001:r0070",
+          "relationship_anchor": {
+            "paragraph_id": "c-nanshi-012-zhanglihua:p001",
+            "surface": "後主即位，拜為貴妃",
+            "start": 70,
+            "end": 79
+          }
+        }
+      ],
+      "status": "source_attested",
+      "interpretation_note": "後主拜張氏為貴妃。",
+      "reviewer": "Codex（AI 代理）",
+      "human_reviewed": false,
+      "model": null
+    }
+  ]
+}

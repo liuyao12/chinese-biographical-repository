@@ -218,6 +218,41 @@
       "work_title": "南史"
     },
     {
+      "number": 48,
+      "category": "",
+      "title": "蕭氏身分與沈君公所從諸王",
+      "paragraph_id": "c-zhoushu-048-shenwuhua-xiao:p001",
+      "count": 1,
+      "raw_count": 1,
+      "duplicate_count": 0,
+      "counting_policy": "independent_fixed_witness_occurrences",
+      "quote": "蕭詧字理孫，蘭陵人也，梁武帝之孫，昭明太子統之第三子。",
+      "paragraph_ids": [
+        "c-zhoushu-048-shenwuhua-xiao:p001"
+      ],
+      "mention_ids": [
+        "c-zhoushu-048-shenwuhua-xiao:p001:m0021"
+      ],
+      "mention_paragraph_ids": {
+        "c-zhoushu-048-shenwuhua-xiao:p001:m0021": "c-zhoushu-048-shenwuhua-xiao:p001"
+      },
+      "mention_id": "c-zhoushu-048-shenwuhua-xiao:p001:m0021",
+      "occurrence_groups": [
+        {
+          "canonical_mention_id": "c-zhoushu-048-shenwuhua-xiao:p001:m0021",
+          "mention_ids": [
+            "c-zhoushu-048-shenwuhua-xiao:p001:m0021"
+          ],
+          "kind": "paragraph"
+        }
+      ],
+      "work_id": "w-zhoushu",
+      "book_id": "b-zhoushu-048",
+      "chapter_id": "c-zhoushu-048-shenwuhua-xiao",
+      "source_id": "s-zhoushu-048-shenwuhua-xiao-ws2432546",
+      "work_title": "周書"
+    },
+    {
       "number": 53,
       "category": "",
       "title": "梁武帝諸子母序及廬陵王傳首",
@@ -633,6 +668,35 @@
       }
     },
     {
+      "chapter_id": "c-nanshi-012-consorts-editorial",
+      "work_id": "w-nanshi",
+      "book_id": "b-nanshi-012",
+      "source_id": "s-nanshi-012-consorts-editorial-ws2060595",
+      "source": {
+        "title": "南史卷12·后妃列傳卷末論曰",
+        "provider": "Wikisource",
+        "url": "https://zh.wikisource.org/w/index.php?oldid=2060595",
+        "permalink": "https://zh.wikisource.org/w/index.php?oldid=2060595",
+        "revision_id": 2060595,
+        "accessed_on": "2026-11-21",
+        "edition": "維基文庫固定數位轉錄",
+        "extent": "逐段會通原卷論贊及序例。",
+        "text_scope": "partial_chapter",
+        "image_verified": false,
+        "review_status": "text_checked",
+        "raw_path": "source-evidence/liang021-wangfen-family/ws2060595.wikitext",
+        "raw_file_sha256": "824ea646232a633c4834f212ae72df29a2a790d8c17e6792764b1d4338baf929",
+        "rights": "古代原典及維基文庫數位轉錄。",
+        "license_url": "https://zh.wikisource.org/wiki/Wikisource:著作權資訊",
+        "normalization": {
+          "character_conversion": {},
+          "extraction_note": "投影相應原句，保留字形；移除年號模板定界符。"
+        },
+        "section_locator": "后妃列傳卷末論曰",
+        "textual_layer": "historian_editorial"
+      }
+    },
+    {
       "chapter_id": "c-nanshi-012-dinglingguang",
       "work_id": "w-nanshi",
       "book_id": "b-nanshi-012",
@@ -932,6 +996,34 @@
         },
         "section_locator": "梁武帝諸子母序及廬陵王傳首"
       }
+    },
+    {
+      "chapter_id": "c-zhoushu-048-shenwuhua-xiao",
+      "work_id": "w-zhoushu",
+      "book_id": "b-zhoushu-048",
+      "source_id": "s-zhoushu-048-shenwuhua-xiao-ws2432546",
+      "source": {
+        "title": "周書卷48·蕭氏身分與沈君公所從諸王",
+        "provider": "Wikisource",
+        "url": "https://zh.wikisource.org/w/index.php?oldid=2432546",
+        "permalink": "https://zh.wikisource.org/w/index.php?oldid=2432546",
+        "revision_id": 2432546,
+        "accessed_on": "2026-11-21",
+        "edition": "維基文庫固定數位轉錄",
+        "extent": "所涉人物原名、實際親屬及紀年。",
+        "text_scope": "partial_chapter",
+        "image_verified": false,
+        "review_status": "text_checked",
+        "raw_path": "source-evidence/nan012-shenwuhua/ws2432546.wikitext",
+        "raw_file_sha256": "e8825437ff68bc418b92687f78479e17bd0c30c49585b732013b13d42f21cd6d",
+        "rights": "古代原典及維基文庫數位轉錄。",
+        "license_url": "https://zh.wikisource.org/wiki/Wikisource:著作權資訊",
+        "normalization": {
+          "character_conversion": {},
+          "extraction_note": "投影相應原句，保留字形；移除年號模板定界符。"
+        },
+        "section_locator": "蕭氏身分與沈君公所從諸王"
+      }
     }
   ],
   "relations": [
@@ -1070,11 +1162,55 @@
       "reviewer": "Codex（AI 代理）",
       "human_reviewed": false,
       "model": null
+    },
+    {
+      "id": "a-nan012-shenwuhua-x-father1",
+      "subject_person_id": "0va_s3x_wb4_B",
+      "object_person_id": "0va_s3x_wb4",
+      "predicate": "father",
+      "qualifiers": {
+        "source_term": "昭明太子統之第三子",
+        "nan012_shenwuhua_reading": "x-father1",
+        "lineage": "paternal",
+        "birth_order": {
+          "source_term": "第三子",
+          "source_number": "三",
+          "ordinal": 3,
+          "position": "unspecified",
+          "scope": "sons_of_parent",
+          "parent_person_id": "0va_s3x_wb4",
+          "interpretation_status": "source_attested"
+        }
+      },
+      "evidence": [
+        {
+          "work_id": "w-zhoushu",
+          "book_id": "b-zhoushu-048",
+          "source_id": "s-zhoushu-048-shenwuhua-xiao-ws2432546",
+          "chapter_id": "c-zhoushu-048-shenwuhua-xiao",
+          "paragraph_id": "c-zhoushu-048-shenwuhua-xiao:p001",
+          "quote": "蕭詧字理孫，蘭陵人也，梁武帝之孫，昭明太子統之第三子。",
+          "subject_person_mention_id": "c-zhoushu-048-shenwuhua-xiao:p001:m0000",
+          "object_person_mention_id": "c-zhoushu-048-shenwuhua-xiao:p001:m0021",
+          "relationship_anchor": {
+            "paragraph_id": "c-zhoushu-048-shenwuhua-xiao:p001",
+            "surface": "昭明太子統之第三子",
+            "start": 17,
+            "end": 26
+          }
+        }
+      ],
+      "status": "source_attested",
+      "interpretation_note": "世系與排行據周書宗族本傳。",
+      "reviewer": "Codex（AI 代理）",
+      "human_reviewed": false,
+      "model": null
     }
   ],
   "related_people": {
     "0va_s3x_wb4": "蕭統",
     "0va_s3x_wb4_A": "蕭譽（梁河東王）",
+    "0va_s3x_wb4_B": "蕭詧（字理孫，梁昭明太子統第三子）",
     "2zn_kvj_dmy_A": "丁令光（梁穆太后）",
     "fo7_f8v_rmf": "梁武帝衍"
   },
@@ -1450,6 +1586,21 @@
       "source_id": "s-liangshu-055-hedong-wangyu-parent-ws1530936"
     },
     {
+      "id": "c-nanshi-012-consorts-editorial:p003:r0211",
+      "surface": "元良",
+      "start": 211,
+      "end": 213,
+      "person_id": "0va_s3x_wb4",
+      "referent_role": "third_person",
+      "paragraph_id": "c-nanshi-012-consorts-editorial:p003",
+      "quote": "齊氏孝、昭二后，並有賢明之訓，惜乎早世，不得母臨萬國。有婦人焉，空慕周典，禎符顯瑞，徒萃徽名。高皇受命，宮禁貶約，衣不文繡，色無紅采，永巷貧空，有同素室。武帝嗣位，運藉休平，壽昌前興，鳳華晚構，香柏文檉，花梁繡柱，雕金鏤寶，照燭房帷，趙瑟吳趨，承閑奏曲，事由私蓄，無損國儲。明帝統業，矯情儉陋，奉己之制，曾莫雲改。東昏喪道，侈風大扇，哲婦傾城，同符殷、夏，可以垂誡，其在斯乎。梁武志在約己，示存宮掖，雖貴嬪之徽華早著，誕育元良，唯見崇重，無聞正位。徐妃無行，其殲滅也宜哉。",
+      "note": "依同段姓名、引者及所答者。",
+      "chapter_id": "c-nanshi-012-consorts-editorial",
+      "book_id": "b-nanshi-012",
+      "work_id": "w-nanshi",
+      "source_id": "s-nanshi-012-consorts-editorial-ws2060595"
+    },
+    {
       "id": "c-nanshi-012-dinglingguang:p002:r0045",
       "surface": "皇太子",
       "start": 45,
@@ -1706,6 +1857,49 @@
       ],
       "status": "source_attested",
       "interpretation_note": "武帝諸子母序同列三子。",
+      "reviewer": "Codex（AI 代理）",
+      "human_reviewed": false,
+      "model": null
+    },
+    {
+      "id": "a-nan012-shenwuhua-x-father1",
+      "subject_person_id": "0va_s3x_wb4_B",
+      "object_person_id": "0va_s3x_wb4",
+      "predicate": "father",
+      "qualifiers": {
+        "source_term": "昭明太子統之第三子",
+        "nan012_shenwuhua_reading": "x-father1",
+        "lineage": "paternal",
+        "birth_order": {
+          "source_term": "第三子",
+          "source_number": "三",
+          "ordinal": 3,
+          "position": "unspecified",
+          "scope": "sons_of_parent",
+          "parent_person_id": "0va_s3x_wb4",
+          "interpretation_status": "source_attested"
+        }
+      },
+      "evidence": [
+        {
+          "work_id": "w-zhoushu",
+          "book_id": "b-zhoushu-048",
+          "source_id": "s-zhoushu-048-shenwuhua-xiao-ws2432546",
+          "chapter_id": "c-zhoushu-048-shenwuhua-xiao",
+          "paragraph_id": "c-zhoushu-048-shenwuhua-xiao:p001",
+          "quote": "蕭詧字理孫，蘭陵人也，梁武帝之孫，昭明太子統之第三子。",
+          "subject_person_mention_id": "c-zhoushu-048-shenwuhua-xiao:p001:m0000",
+          "object_person_mention_id": "c-zhoushu-048-shenwuhua-xiao:p001:m0021",
+          "relationship_anchor": {
+            "paragraph_id": "c-zhoushu-048-shenwuhua-xiao:p001",
+            "surface": "昭明太子統之第三子",
+            "start": 17,
+            "end": 26
+          }
+        }
+      ],
+      "status": "source_attested",
+      "interpretation_note": "世系與排行據周書宗族本傳。",
       "reviewer": "Codex（AI 代理）",
       "human_reviewed": false,
       "model": null

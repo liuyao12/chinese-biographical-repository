@@ -108,6 +108,54 @@
       "reviewer": "Codex（AI代理）",
       "model": null,
       "period": "未定 → 未定"
+    },
+    {
+      "id": "th-songshu-047-liuzhendao-1-23",
+      "title": "揚州治中從事史",
+      "kind": "office",
+      "mode": "attestation",
+      "person_id": "bc8_80d_613",
+      "attestations": [
+        {
+          "id": "th-songshu-047-liuzhendao-1-23:a",
+          "paragraph_id": "c-songshu-047-liuzhendao:p001",
+          "start": 23,
+          "end": 30,
+          "surface": "揚州治中從事史",
+          "person_mention_id": "c-songshu-047-liuzhendao:p001:m0030",
+          "usage": "narrative",
+          "date_expression": null
+        }
+      ],
+      "effective_period": {
+        "start": {
+          "status": "unknown",
+          "date_expression": null,
+          "evidence": []
+        },
+        "end": {
+          "status": "unknown",
+          "date_expression": null,
+          "evidence": []
+        }
+      },
+      "evidence": [
+        {
+          "work_id": "w-songshu",
+          "book_id": "b-songshu-047",
+          "chapter_id": "c-songshu-047-liuzhendao",
+          "source_id": "s-songshu-047-liuzhendao-ws2190557",
+          "paragraph_id": "c-songshu-047-liuzhendao:p001",
+          "quote": "懷敬子真道，為錢唐令。元嘉十三年，東土饑，上遣揚州治中從事史沈演之巡行在所，演之上表曰：「宰邑敷政，必以簡惠成能，莅職闡治，務以利民著績。故王奐見紀於前，叔卿流稱於後。竊見錢唐令劉真道、餘杭令劉道錫，皆奉公卹民，恪勤匪懈，百姓稱詠，訟訴希簡。又翦蕩凶非，屢能擒獲。災水之初，餘杭高堤崩潰，洪流迅激，勢不可量，道錫躬先吏民，親執板築，塘既還立，縣邑獲全。經歷諸縣，訪覈名實，並為二邦之首最，治民之良宰。」上嘉之，各賜穀千斛，以真道為步兵校尉。",
+          "person_mention_id": "c-songshu-047-liuzhendao:p001:m0030"
+        }
+      ],
+      "status": "source_attested",
+      "interpretation_note": "所見原官稱，未載全任期。",
+      "reviewer": "Codex（AI代理）",
+      "model": null,
+      "human_reviewed": false,
+      "period": "未定 → 未定"
     }
   ],
   "addresses": [],
@@ -154,6 +202,50 @@
       "book_id": "b-songshu-047",
       "chapter_id": "c-songshu-047-liuhuaisu",
       "source_id": "s-songshu-047-liuhuaisu",
+      "work_title": "宋書"
+    },
+    {
+      "number": 47,
+      "category": "",
+      "title": "劉真道",
+      "paragraph_id": "c-songshu-047-liuzhendao:p001",
+      "count": 2,
+      "raw_count": 2,
+      "duplicate_count": 0,
+      "counting_policy": "independent_fixed_witness_occurrences",
+      "quote": "懷敬子真道，為錢唐令。元嘉十三年，東土饑，上遣揚州治中從事史沈演之巡行在所，演之上表曰：「宰邑敷政，必以簡惠成能，莅職闡治，務以利民著績。故王奐見紀於前，叔卿流稱於後。竊見錢唐令劉真道、餘杭令劉道錫，皆奉公卹民，恪勤匪懈，百姓稱詠，訟訴希簡。又翦蕩凶非，屢能擒獲。災",
+      "paragraph_ids": [
+        "c-songshu-047-liuzhendao:p001"
+      ],
+      "mention_ids": [
+        "c-songshu-047-liuzhendao:p001:m0030",
+        "c-songshu-047-liuzhendao:p001:m0038"
+      ],
+      "mention_paragraph_ids": {
+        "c-songshu-047-liuzhendao:p001:m0030": "c-songshu-047-liuzhendao:p001",
+        "c-songshu-047-liuzhendao:p001:m0038": "c-songshu-047-liuzhendao:p001"
+      },
+      "mention_id": "c-songshu-047-liuzhendao:p001:m0030",
+      "occurrence_groups": [
+        {
+          "canonical_mention_id": "c-songshu-047-liuzhendao:p001:m0030",
+          "mention_ids": [
+            "c-songshu-047-liuzhendao:p001:m0030"
+          ],
+          "kind": "paragraph"
+        },
+        {
+          "canonical_mention_id": "c-songshu-047-liuzhendao:p001:m0038",
+          "mention_ids": [
+            "c-songshu-047-liuzhendao:p001:m0038"
+          ],
+          "kind": "paragraph"
+        }
+      ],
+      "work_id": "w-songshu",
+      "book_id": "b-songshu-047",
+      "chapter_id": "c-songshu-047-liuzhendao",
+      "source_id": "s-songshu-047-liuzhendao-ws2190557",
       "work_title": "宋書"
     },
     {
@@ -219,6 +311,29 @@
         "raw_path": "sources/songshu/KR2a0016_047-e80c057-zhangchang-reference.txt",
         "accessed_on": "2026-10-20",
         "license_url": "https://creativecommons.org/publicdomain/mark/1.0/"
+      }
+    },
+    {
+      "chapter_id": "c-songshu-047-liuzhendao",
+      "work_id": "w-songshu",
+      "book_id": "b-songshu-047",
+      "source_id": "s-songshu-047-liuzhendao-ws2190557",
+      "source": {
+        "title": "劉真道",
+        "provider": "Wikisource",
+        "permalink": "https://zh.wikisource.org/w/index.php?oldid=2190557",
+        "url": "https://zh.wikisource.org/w/index.php?oldid=2190557",
+        "revision_id": 2190557,
+        "edition": "維基文庫固定修訂",
+        "accessed_on": "2026-11-21",
+        "review_status": "text_checked",
+        "image_verified": false,
+        "rights": "古代原文；數位轉錄依維基文庫授權。",
+        "license_url": "https://creativecommons.org/licenses/by-sa/4.0/",
+        "extent": "劉真道",
+        "text_scope": "complete_biography_unit",
+        "raw_path": "source-evidence/nan023-wanghui/ws2190557.wikitext",
+        "raw_file_sha256": "cc75864d017c88ec8c285b2b7772125dc7b10e0b49eed8f8dfa472db5db8cc20"
       }
     },
     {
@@ -531,6 +646,23 @@
     }
   ],
   "name_components": [],
+  "person_references": [
+    {
+      "id": "c-songshu-047-liuzhendao:p001:r0084",
+      "paragraph_id": "c-songshu-047-liuzhendao:p001",
+      "start": 84,
+      "end": 85,
+      "surface": "竊",
+      "person_id": "bc8_80d_613",
+      "referent_role": "speaker_self",
+      "quote": "懷敬子真道，為錢唐令。元嘉十三年，東土饑，上遣揚州治中從事史沈演之巡行在所，演之上表曰：「宰邑敷政，必以簡惠成能，莅職闡治，務以利民著績。故王奐見紀於前，叔卿流稱於後。竊見錢唐令劉真道、餘杭令劉道錫，皆奉公卹民，恪勤匪懈，百姓稱詠，訟訴希簡。又翦蕩凶非，屢能擒獲。災水之初，餘杭高堤崩潰，洪流迅激，勢不可量，道錫躬先吏民，親執板築，塘既還立，縣邑獲全。經歷諸縣，訪覈名實，並為二邦之首最，治民之良宰。」上嘉之，各賜穀千斛，以真道為步兵校尉。",
+      "note": "依本段敘事、稱謂及語者受者定。",
+      "chapter_id": "c-songshu-047-liuzhendao",
+      "book_id": "b-songshu-047",
+      "work_id": "w-songshu",
+      "source_id": "s-songshu-047-liuzhendao-ws2190557"
+    }
+  ],
   "person_ids": [
     "bc8_80d_613"
   ],

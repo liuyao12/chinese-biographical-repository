@@ -50,6 +50,63 @@
   "table_occurrences": [],
   "sources": [
     {
+      "chapter_id": "c-chenshu-007-shenwuhua",
+      "work_id": "w-chenshu",
+      "book_id": "b-chenshu-007",
+      "source_id": "s-chenshu-007-shenwuhua-ws2015446",
+      "source": {
+        "title": "陳書卷7·後主沈皇后及會稽穆公主、君公",
+        "provider": "Wikisource",
+        "url": "https://zh.wikisource.org/w/index.php?oldid=2015446",
+        "permalink": "https://zh.wikisource.org/w/index.php?oldid=2015446",
+        "revision_id": 2015446,
+        "accessed_on": "2026-11-21",
+        "edition": "維基文庫固定數位轉錄",
+        "extent": "固定傳題全段及段內相關人物。",
+        "text_scope": "complete_biography_unit",
+        "image_verified": false,
+        "review_status": "text_checked",
+        "raw_path": "source-evidence/nan023-wanggu/ws2015446.wikitext",
+        "raw_file_sha256": "a4557ee8b6e3859d18b3ad123ae5a394dfe9d3556c818fc9cafcc03dae9057f1",
+        "rights": "古代原典及維基文庫數位轉錄。",
+        "license_url": "https://zh.wikisource.org/wiki/Wikisource:著作權資訊",
+        "normalization": {
+          "character_conversion": {},
+          "extraction_note": "投影相應原句，保留字形；移除年號模板定界符。",
+          "verified_blank_line_gaps": [
+            {
+              "source_lines": [
+                49,
+                49
+              ],
+              "raw_quote": "",
+              "raw_quote_sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+              "revision_id": 2015446
+            },
+            {
+              "source_lines": [
+                51,
+                51
+              ],
+              "raw_quote": "",
+              "raw_quote_sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+              "revision_id": 2015446
+            },
+            {
+              "source_lines": [
+                53,
+                53
+              ],
+              "raw_quote": "",
+              "raw_quote_sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+              "revision_id": 2015446
+            }
+          ]
+        },
+        "section_locator": "後主沈皇后及會稽穆公主、君公"
+      }
+    },
+    {
       "chapter_id": "c-chenshu-014-wangyong",
       "work_id": "w-chenshu",
       "book_id": "b-chenshu-014",
@@ -170,6 +227,34 @@
         },
         "section_locator": "隋文帝本紀傳世家系"
       }
+    },
+    {
+      "chapter_id": "c-suishu-003-shenwuhua-yang",
+      "work_id": "w-suishu",
+      "book_id": "b-suishu-003",
+      "source_id": "s-suishu-003-shenwuhua-yang-ws2034222",
+      "source": {
+        "title": "隋書卷3·煬帝廣及晉王封號",
+        "provider": "Wikisource",
+        "url": "https://zh.wikisource.org/w/index.php?oldid=2034222",
+        "permalink": "https://zh.wikisource.org/w/index.php?oldid=2034222",
+        "revision_id": 2034222,
+        "accessed_on": "2026-11-21",
+        "edition": "維基文庫固定數位轉錄",
+        "extent": "所涉人物原名、實際親屬及紀年。",
+        "text_scope": "partial_chapter",
+        "image_verified": false,
+        "review_status": "text_checked",
+        "raw_path": "source-evidence/nan012-shenwuhua/ws2034222.wikitext",
+        "raw_file_sha256": "93aa9930478e33b48b569b709c968a85a60cb0015e0784dcaa7db22f040be199",
+        "rights": "古代原典及維基文庫數位轉錄。",
+        "license_url": "https://zh.wikisource.org/wiki/Wikisource:著作權資訊",
+        "normalization": {
+          "character_conversion": {},
+          "extraction_note": "投影相應原句，保留字形；移除年號模板定界符。"
+        },
+        "section_locator": "煬帝廣及晉王封號"
+      }
     }
   ],
   "relations": [
@@ -206,15 +291,74 @@
       "reviewer": "Codex（AI 代理）",
       "human_reviewed": false,
       "model": null
+    },
+    {
+      "id": "a-nan012-shenwuhua-y-father",
+      "subject_person_id": "ce8_yhf_283_AAAAAAA",
+      "object_person_id": "ce8_yhf_283_AAAAAA",
+      "predicate": "father",
+      "qualifiers": {
+        "source_term": "高祖第二子",
+        "nan012_shenwuhua_reading": "y-father",
+        "lineage": "paternal",
+        "birth_order": {
+          "source_term": "第二子",
+          "source_number": "二",
+          "ordinal": 2,
+          "position": "unspecified",
+          "scope": "sons_of_parent",
+          "parent_person_id": "ce8_yhf_283_AAAAAA",
+          "interpretation_status": "source_attested"
+        }
+      },
+      "evidence": [
+        {
+          "work_id": "w-suishu",
+          "book_id": "b-suishu-003",
+          "source_id": "s-suishu-003-shenwuhua-yang-ws2034222",
+          "chapter_id": "c-suishu-003-shenwuhua-yang",
+          "paragraph_id": "c-suishu-003-shenwuhua-yang:p001",
+          "quote": "煬皇帝諱廣，一名英，小字阿𡡉，高祖第二子也。",
+          "subject_person_mention_id": "c-suishu-003-shenwuhua-yang:p001:m0004",
+          "object_person_reference_id": "c-suishu-003-shenwuhua-yang:p001:r0015",
+          "relationship_anchor": {
+            "paragraph_id": "c-suishu-003-shenwuhua-yang:p001",
+            "surface": "高祖第二子",
+            "start": 15,
+            "end": 20
+          }
+        }
+      ],
+      "status": "source_attested",
+      "interpretation_note": "隋書本紀隋煬帝之父及排行。",
+      "reviewer": "Codex（AI 代理）",
+      "human_reviewed": false,
+      "model": null
     }
   ],
   "related_people": {
     "ce8_yhf_283_AAAAA": "楊忠（隋文帝父）",
-    "ce8_yhf_283_AAAAAA": "楊堅（隋文帝）"
+    "ce8_yhf_283_AAAAAA": "楊堅（隋文帝）",
+    "ce8_yhf_283_AAAAAAA": "楊廣（隋煬帝）"
   },
   "dates": [],
   "name_components": [],
   "person_references": [
+    {
+      "id": "c-chenshu-007-shenwuhua:p004:r0064",
+      "surface": "隋文帝",
+      "start": 64,
+      "end": 67,
+      "person_id": "ce8_yhf_283_AAAAAA",
+      "referent_role": "third_person",
+      "paragraph_id": "c-chenshu-007-shenwuhua:p004",
+      "quote": "后叔君公，自梁元帝敗後，常在江陵。禎明中，與蕭瓛、蕭巖率红叛隋歸朝，後主擢為太子詹事。君公博學有才辯，善談論，後主深器之。陳亡，隋文帝以其叛己，命斬于建康。",
+      "note": "依同段姓名、引者及所答者。",
+      "chapter_id": "c-chenshu-007-shenwuhua",
+      "book_id": "b-chenshu-007",
+      "work_id": "w-chenshu",
+      "source_id": "s-chenshu-007-shenwuhua-ws2015446"
+    },
     {
       "id": "c-chenshu-014-wangyong:p001:r0062",
       "surface": "隋文帝",
@@ -304,6 +448,21 @@
       "book_id": "b-nanshi-024",
       "work_id": "w-nanshi",
       "source_id": "s-nanshi-024-wangmeng-ws1765279"
+    },
+    {
+      "id": "c-suishu-003-shenwuhua-yang:p001:r0015",
+      "surface": "高祖",
+      "start": 15,
+      "end": 17,
+      "person_id": "ce8_yhf_283_AAAAAA",
+      "referent_role": "third_person",
+      "paragraph_id": "c-suishu-003-shenwuhua-yang:p001",
+      "quote": "煬皇帝諱廣，一名英，小字阿𡡉，高祖第二子也。",
+      "note": "依同段姓名、引者及所答者。",
+      "chapter_id": "c-suishu-003-shenwuhua-yang",
+      "book_id": "b-suishu-003",
+      "work_id": "w-suishu",
+      "source_id": "s-suishu-003-shenwuhua-yang-ws2034222"
     }
   ],
   "person_ids": [
@@ -340,6 +499,49 @@
       ],
       "status": "source_attested",
       "interpretation_note": "《隋書》帝紀所傳父子，忠稱皇考繫高祖文皇帝。",
+      "reviewer": "Codex（AI 代理）",
+      "human_reviewed": false,
+      "model": null
+    },
+    {
+      "id": "a-nan012-shenwuhua-y-father",
+      "subject_person_id": "ce8_yhf_283_AAAAAAA",
+      "object_person_id": "ce8_yhf_283_AAAAAA",
+      "predicate": "father",
+      "qualifiers": {
+        "source_term": "高祖第二子",
+        "nan012_shenwuhua_reading": "y-father",
+        "lineage": "paternal",
+        "birth_order": {
+          "source_term": "第二子",
+          "source_number": "二",
+          "ordinal": 2,
+          "position": "unspecified",
+          "scope": "sons_of_parent",
+          "parent_person_id": "ce8_yhf_283_AAAAAA",
+          "interpretation_status": "source_attested"
+        }
+      },
+      "evidence": [
+        {
+          "work_id": "w-suishu",
+          "book_id": "b-suishu-003",
+          "source_id": "s-suishu-003-shenwuhua-yang-ws2034222",
+          "chapter_id": "c-suishu-003-shenwuhua-yang",
+          "paragraph_id": "c-suishu-003-shenwuhua-yang:p001",
+          "quote": "煬皇帝諱廣，一名英，小字阿𡡉，高祖第二子也。",
+          "subject_person_mention_id": "c-suishu-003-shenwuhua-yang:p001:m0004",
+          "object_person_reference_id": "c-suishu-003-shenwuhua-yang:p001:r0015",
+          "relationship_anchor": {
+            "paragraph_id": "c-suishu-003-shenwuhua-yang:p001",
+            "surface": "高祖第二子",
+            "start": 15,
+            "end": 20
+          }
+        }
+      ],
+      "status": "source_attested",
+      "interpretation_note": "隋書本紀隋煬帝之父及排行。",
       "reviewer": "Codex（AI 代理）",
       "human_reviewed": false,
       "model": null

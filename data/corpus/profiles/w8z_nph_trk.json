@@ -541,6 +541,41 @@
       "work_title": "宋書"
     },
     {
+      "number": 15,
+      "category": "",
+      "title": "檀祗兄韶、弟道濟",
+      "paragraph_id": "c-nanshi-015-tanzhi-brothers:p001",
+      "count": 1,
+      "raw_count": 1,
+      "duplicate_count": 0,
+      "counting_policy": "independent_fixed_witness_occurrences",
+      "quote": "祗字恭叔，與兄韶弟道濟俱參義舉，",
+      "paragraph_ids": [
+        "c-nanshi-015-tanzhi-brothers:p001"
+      ],
+      "mention_ids": [
+        "c-nanshi-015-tanzhi-brothers:p001:m0009"
+      ],
+      "mention_paragraph_ids": {
+        "c-nanshi-015-tanzhi-brothers:p001:m0009": "c-nanshi-015-tanzhi-brothers:p001"
+      },
+      "mention_id": "c-nanshi-015-tanzhi-brothers:p001:m0009",
+      "occurrence_groups": [
+        {
+          "canonical_mention_id": "c-nanshi-015-tanzhi-brothers:p001:m0009",
+          "mention_ids": [
+            "c-nanshi-015-tanzhi-brothers:p001:m0009"
+          ],
+          "kind": "paragraph"
+        }
+      ],
+      "work_id": "w-nanshi",
+      "book_id": "b-nanshi-015",
+      "chapter_id": "c-nanshi-015-tanzhi-brothers",
+      "source_id": "s-nanshi-015-tanzhi-brothers-ws1659582",
+      "work_title": "南史"
+    },
+    {
       "number": 19,
       "category": "",
       "title": "謝晦傳",
@@ -1277,6 +1312,29 @@
   "table_occurrences": [],
   "sources": [
     {
+      "chapter_id": "c-nanshi-015-tanzhi-brothers",
+      "work_id": "w-nanshi",
+      "book_id": "b-nanshi-015",
+      "source_id": "s-nanshi-015-tanzhi-brothers-ws1659582",
+      "source": {
+        "title": "檀祗兄韶、弟道濟",
+        "provider": "Wikisource",
+        "permalink": "https://zh.wikisource.org/w/index.php?oldid=1659582",
+        "url": "https://zh.wikisource.org/w/index.php?oldid=1659582",
+        "revision_id": 1659582,
+        "edition": "維基文庫固定修訂",
+        "accessed_on": "2026-11-21",
+        "review_status": "text_checked",
+        "image_verified": false,
+        "rights": "古代原文；數位轉錄依維基文庫授權。",
+        "license_url": "https://creativecommons.org/licenses/by-sa/4.0/",
+        "extent": "檀祗兄韶、弟道濟",
+        "text_scope": "partial_chapter",
+        "raw_path": "source-evidence/song047-complete/external/nanshi015-ws1659582.wikitext",
+        "raw_file_sha256": "c723cb984914fc0276a54d341c19812b35ddd4fedd4fe24695d8e552a78ce43f"
+      }
+    },
+    {
       "chapter_id": "c-nanshi-019-xiehui",
       "work_id": "w-nanshi",
       "book_id": "b-nanshi-019",
@@ -1784,8 +1842,44 @@
       }
     }
   ],
-  "relations": [],
+  "relations": [
+    {
+      "id": "a-song047-daoji-zhi",
+      "subject_person_id": "w8z_nph_trk",
+      "object_person_id": "59p_dir_tdq",
+      "predicate": "brother",
+      "qualifiers": {
+        "source_term": "祗字恭叔，與兄韶弟道濟",
+        "relative_birth_order": {
+          "older_person_id": "59p_dir_tdq",
+          "younger_person_id": "w8z_nph_trk",
+          "operator": "lt",
+          "scope": "siblings",
+          "older_ordinal": null,
+          "younger_ordinal": null
+        }
+      },
+      "evidence": [
+        {
+          "work_id": "w-nanshi",
+          "book_id": "b-nanshi-015",
+          "chapter_id": "c-nanshi-015-tanzhi-brothers",
+          "source_id": "s-nanshi-015-tanzhi-brothers-ws1659582",
+          "paragraph_id": "c-nanshi-015-tanzhi-brothers:p001",
+          "quote": "祗字恭叔，與兄韶弟道濟俱參義舉，",
+          "subject_person_mention_id": "c-nanshi-015-tanzhi-brothers:p001:m0009",
+          "object_person_mention_id": "c-nanshi-015-tanzhi-brothers:p001:m0000"
+        }
+      ],
+      "status": "source_attested",
+      "interpretation_note": "南15將韶、祗、道濟次序說清。",
+      "reviewer": "Codex（AI代理）",
+      "model": null,
+      "human_reviewed": false
+    }
+  ],
   "related_people": {
+    "59p_dir_tdq": "檀祗",
     "w8z_nph_trk": "檀道濟"
   },
   "dates": [],
@@ -1987,7 +2081,42 @@
   "person_ids": [
     "w8z_nph_trk"
   ],
-  "preferred_relations": [],
+  "preferred_relations": [
+    {
+      "id": "a-song047-daoji-zhi",
+      "subject_person_id": "w8z_nph_trk",
+      "object_person_id": "59p_dir_tdq",
+      "predicate": "brother",
+      "qualifiers": {
+        "source_term": "祗字恭叔，與兄韶弟道濟",
+        "relative_birth_order": {
+          "older_person_id": "59p_dir_tdq",
+          "younger_person_id": "w8z_nph_trk",
+          "operator": "lt",
+          "scope": "siblings",
+          "older_ordinal": null,
+          "younger_ordinal": null
+        }
+      },
+      "evidence": [
+        {
+          "work_id": "w-nanshi",
+          "book_id": "b-nanshi-015",
+          "chapter_id": "c-nanshi-015-tanzhi-brothers",
+          "source_id": "s-nanshi-015-tanzhi-brothers-ws1659582",
+          "paragraph_id": "c-nanshi-015-tanzhi-brothers:p001",
+          "quote": "祗字恭叔，與兄韶弟道濟俱參義舉，",
+          "subject_person_mention_id": "c-nanshi-015-tanzhi-brothers:p001:m0009",
+          "object_person_mention_id": "c-nanshi-015-tanzhi-brothers:p001:m0000"
+        }
+      ],
+      "status": "source_attested",
+      "interpretation_note": "南15將韶、祗、道濟次序說清。",
+      "reviewer": "Codex（AI代理）",
+      "model": null,
+      "human_reviewed": false
+    }
+  ],
   "age_assertions": [],
   "life_events": [],
   "life_event_date_decisions": [],
