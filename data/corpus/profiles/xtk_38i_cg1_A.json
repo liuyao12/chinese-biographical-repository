@@ -57,6 +57,54 @@
       "model": null,
       "human_reviewed": false,
       "period": "未定 → 未定"
+    },
+    {
+      "id": "th-songshu-048-fuhongzhi-4-8",
+      "title": "扶風太守",
+      "kind": "office",
+      "mode": "attestation",
+      "person_id": "xtk_38i_cg1_A",
+      "attestations": [
+        {
+          "id": "th-songshu-048-fuhongzhi-4-8:a",
+          "paragraph_id": "c-songshu-048-fuhongzhi:p004",
+          "start": 8,
+          "end": 12,
+          "surface": "扶風太守",
+          "person_mention_id": "c-songshu-048-fuhongzhi:p004:m0012",
+          "usage": "narrative",
+          "date_expression": null
+        }
+      ],
+      "effective_period": {
+        "start": {
+          "status": "unknown",
+          "date_expression": null,
+          "evidence": []
+        },
+        "end": {
+          "status": "unknown",
+          "date_expression": null,
+          "evidence": []
+        }
+      },
+      "evidence": [
+        {
+          "work_id": "w-songshu",
+          "book_id": "b-songshu-048",
+          "chapter_id": "c-songshu-048-fuhongzhi",
+          "source_id": "s-songshu-048-fuhongzhi-ws1791560",
+          "paragraph_id": "c-songshu-048-fuhongzhi:p004",
+          "quote": "高祖北伐，弘之與扶風太守沈田子等七軍自武關入，偽上洛太守脫身奔走，進據藍田，招懷戎、晉。晉人龐斌之、戴養、胡人康橫等各率部落歸化。弘之素善騎乘，高祖至長安，弘之於姚泓馳道內，緩服戲馬，或馳或驟，往反二十里中，甚有姿制，羌胡聚觀者數千人，並驚惋歎息。初上馬，以馬鞭柄策，挽致兩股內，及下馬，柄孔猶存。",
+          "person_mention_id": "c-songshu-048-fuhongzhi:p004:m0012"
+        }
+      ],
+      "status": "source_attested",
+      "interpretation_note": "所見原官稱，未載全任期。",
+      "reviewer": "Codex（AI代理）",
+      "model": null,
+      "human_reviewed": false,
+      "period": "未定 → 未定"
     }
   ],
   "addresses": [],
@@ -94,6 +142,41 @@
       "book_id": "b-songshu-046",
       "chapter_id": "c-songshu-046-zhaolunzhi-complete",
       "source_id": "s-songshu-046-zhaolunzhi-complete-ws2118581",
+      "work_title": "宋書"
+    },
+    {
+      "number": 48,
+      "category": "",
+      "title": "傅弘之",
+      "paragraph_id": "c-songshu-048-fuhongzhi:p004",
+      "count": 1,
+      "raw_count": 1,
+      "duplicate_count": 0,
+      "counting_policy": "independent_fixed_witness_occurrences",
+      "quote": "高祖北伐，弘之與扶風太守沈田子等七軍自武關入，偽上洛太守脫身奔走，進據藍田，招懷戎、晉。晉人龐斌之、戴養、胡人康橫等各率部落歸化。弘之素善騎乘，高祖至長安，弘之於姚泓馳道內，緩服戲馬，或馳或驟，往反二十里中，甚有姿制，羌胡聚觀者數",
+      "paragraph_ids": [
+        "c-songshu-048-fuhongzhi:p004"
+      ],
+      "mention_ids": [
+        "c-songshu-048-fuhongzhi:p004:m0012"
+      ],
+      "mention_paragraph_ids": {
+        "c-songshu-048-fuhongzhi:p004:m0012": "c-songshu-048-fuhongzhi:p004"
+      },
+      "mention_id": "c-songshu-048-fuhongzhi:p004:m0012",
+      "occurrence_groups": [
+        {
+          "canonical_mention_id": "c-songshu-048-fuhongzhi:p004:m0012",
+          "mention_ids": [
+            "c-songshu-048-fuhongzhi:p004:m0012"
+          ],
+          "kind": "paragraph"
+        }
+      ],
+      "work_id": "w-songshu",
+      "book_id": "b-songshu-048",
+      "chapter_id": "c-songshu-048-fuhongzhi",
+      "source_id": "s-songshu-048-fuhongzhi-ws1791560",
       "work_title": "宋書"
     },
     {
@@ -178,6 +261,29 @@
         "text_scope": "complete_biography_unit",
         "raw_path": "sources/songshu/songshu046-ws2118581.wikitext",
         "raw_file_sha256": "3df8bb0cdbc5811a0747fcca3c9ed93d3b714bf0eee0315f6946eef8968fffdf"
+      }
+    },
+    {
+      "chapter_id": "c-songshu-048-fuhongzhi",
+      "work_id": "w-songshu",
+      "book_id": "b-songshu-048",
+      "source_id": "s-songshu-048-fuhongzhi-ws1791560",
+      "source": {
+        "title": "傅弘之",
+        "provider": "Wikisource",
+        "permalink": "https://zh.wikisource.org/w/index.php?oldid=1791560",
+        "url": "https://zh.wikisource.org/w/index.php?oldid=1791560",
+        "revision_id": 1791560,
+        "edition": "維基文庫固定修訂",
+        "accessed_on": "2026-11-21",
+        "review_status": "text_checked",
+        "image_verified": false,
+        "rights": "古代原文；數位轉錄依維基文庫授權。",
+        "license_url": "https://creativecommons.org/licenses/by-sa/4.0/",
+        "extent": "傅弘之",
+        "text_scope": "complete_biography_unit",
+        "raw_path": "source-evidence/song046-zhang-complete/external/song048-ws1791560.wikitext",
+        "raw_file_sha256": "0b275f284af779a0c075ee4741b527fb1dd4a5921c3d3f3ea167939e0e50a916"
       }
     }
   ],

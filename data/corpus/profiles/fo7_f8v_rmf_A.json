@@ -6,7 +6,8 @@
   "identity_note": "梁武長女永興公主。《梁書》7記個人名。",
   "review": "ai_provisional",
   "names": [
-    "玉姚"
+    "玉姚",
+    "永興公主"
   ],
   "titles": [
     {
@@ -212,6 +213,41 @@
       "chapter_id": "c-nanshi-012-xihui",
       "source_id": "s-nanshi-012-xihui-ws2060595",
       "work_title": "南史"
+    },
+    {
+      "number": 27,
+      "category": "",
+      "title": "梁書卷二十七·殷鈞與父殷叡",
+      "paragraph_id": "c-liangshu-027-yinjun-complete:p001",
+      "count": 1,
+      "raw_count": 1,
+      "duplicate_count": 0,
+      "counting_policy": "independent_fixed_witness_occurrences",
+      "quote": "爲當時楷法，南鄉范雲、樂安任昉，並稱賞之。高祖與叡少舊故，以女妻鈞，卽永興公主也。",
+      "paragraph_ids": [
+        "c-liangshu-027-yinjun-complete:p001"
+      ],
+      "mention_ids": [
+        "c-liangshu-027-yinjun-complete:p001:m0150"
+      ],
+      "mention_paragraph_ids": {
+        "c-liangshu-027-yinjun-complete:p001:m0150": "c-liangshu-027-yinjun-complete:p001"
+      },
+      "mention_id": "c-liangshu-027-yinjun-complete:p001:m0150",
+      "occurrence_groups": [
+        {
+          "canonical_mention_id": "c-liangshu-027-yinjun-complete:p001:m0150",
+          "mention_ids": [
+            "c-liangshu-027-yinjun-complete:p001:m0150"
+          ],
+          "kind": "paragraph"
+        }
+      ],
+      "work_id": "w-liangshu",
+      "book_id": "b-liangshu-027",
+      "chapter_id": "c-liangshu-027-yinjun-complete",
+      "source_id": "s-liangshu-027-yinjun-complete-ws1511478",
+      "work_title": "梁書"
     }
   ],
   "table_occurrences": [],
@@ -304,6 +340,29 @@
           ]
         },
         "section_locator": "高祖郗皇后與郗燁、尋陽公主、郗泛"
+      }
+    },
+    {
+      "chapter_id": "c-liangshu-027-yinjun-complete",
+      "work_id": "w-liangshu",
+      "book_id": "b-liangshu-027",
+      "source_id": "s-liangshu-027-yinjun-complete-ws1511478",
+      "source": {
+        "title": "梁書卷二十七·殷鈞與父殷叡",
+        "provider": "Wikisource",
+        "permalink": "https://zh.wikisource.org/w/index.php?oldid=1511478",
+        "url": "https://zh.wikisource.org/w/index.php?oldid=1511478",
+        "revision_id": 1511478,
+        "edition": "維基文庫固定修訂",
+        "accessed_on": "2026-11-21",
+        "review_status": "text_checked",
+        "image_verified": false,
+        "rights": "古代原文；數位轉錄依維基文庫授權。",
+        "license_url": "https://creativecommons.org/licenses/by-sa/4.0/",
+        "extent": "梁書卷二十七·殷鈞與父殷叡",
+        "text_scope": "complete_biography_unit",
+        "raw_path": "source-evidence/nanshi019-xietiao/liangshu027-ws1511478.wikitext",
+        "raw_file_sha256": "fcb730ce00423c60dc63e01c4a6d43ecd45cf2669df595850e0abb2339acfb5f"
       }
     },
     {
@@ -450,6 +509,59 @@
       "reviewer": "Codex（AI 代理）",
       "human_reviewed": false,
       "model": null
+    },
+    {
+      "id": "a-liang027-yinjun-marriage",
+      "subject_person_id": "fo7_f8v_rmf_A",
+      "object_person_id": "ceq_pnr_q0e_A",
+      "predicate": "spouse",
+      "qualifiers": {
+        "source_term": "以女妻鈞，卽永興公主也"
+      },
+      "evidence": [
+        {
+          "work_id": "w-liangshu",
+          "book_id": "b-liangshu-027",
+          "chapter_id": "c-liangshu-027-yinjun-complete",
+          "source_id": "s-liangshu-027-yinjun-complete-ws1511478",
+          "paragraph_id": "c-liangshu-027-yinjun-complete:p001",
+          "quote": "殷鈞字季和，陳郡長平人也。晉太常融八世孫。父叡，有才辯，知名齊世，歷官司徒從事中郎。叡妻王奐女。奐爲雍州刺史、鎮北將軍，乃言於朝，以叡爲鎮北長史、河南太守。奐誅，叡並見害。鈞時年九歲，以孝聞。及長，恬靜簡交遊，好學有思理。善隸書，爲當時楷法，南鄉范雲、樂安任昉，並稱賞之。高祖與叡少舊故，以女妻鈞，卽永興公主也。",
+          "subject_person_mention_id": "c-liangshu-027-yinjun-complete:p001:m0150",
+          "object_person_mention_id": "c-liangshu-027-yinjun-complete:p001:m0000"
+        }
+      ],
+      "status": "source_attested",
+      "interpretation_note": "武帝以女永興公主妻鈞；郗后傳具女名玉姚。",
+      "reviewer": "Codex（AI代理）",
+      "model": null,
+      "human_reviewed": false
+    },
+    {
+      "id": "a-liang027-yongxing-father",
+      "subject_person_id": "fo7_f8v_rmf_A",
+      "object_person_id": "fo7_f8v_rmf",
+      "predicate": "father",
+      "qualifiers": {
+        "source_term": "高祖與叡少舊故，以女妻鈞，卽永興公主也",
+        "lineage": "paternal"
+      },
+      "evidence": [
+        {
+          "work_id": "w-liangshu",
+          "book_id": "b-liangshu-027",
+          "chapter_id": "c-liangshu-027-yinjun-complete",
+          "source_id": "s-liangshu-027-yinjun-complete-ws1511478",
+          "paragraph_id": "c-liangshu-027-yinjun-complete:p001",
+          "quote": "殷鈞字季和，陳郡長平人也。晉太常融八世孫。父叡，有才辯，知名齊世，歷官司徒從事中郎。叡妻王奐女。奐爲雍州刺史、鎮北將軍，乃言於朝，以叡爲鎮北長史、河南太守。奐誅，叡並見害。鈞時年九歲，以孝聞。及長，恬靜簡交遊，好學有思理。善隸書，爲當時楷法，南鄉范雲、樂安任昉，並稱賞之。高祖與叡少舊故，以女妻鈞，卽永興公主也。",
+          "subject_person_mention_id": "c-liangshu-027-yinjun-complete:p001:m0150",
+          "object_person_mention_id": "c-liangshu-027-yinjun-complete:p001:m0136"
+        }
+      ],
+      "status": "source_attested",
+      "interpretation_note": "高祖以己女妻鈞。",
+      "reviewer": "Codex（AI代理）",
+      "model": null,
+      "human_reviewed": false
     },
     {
       "id": "a-liang007-xihui-n-mother-玉姚",
@@ -714,6 +826,21 @@
       "source_id": "s-liangshu-007-xihui-ws1566494"
     },
     {
+      "id": "c-liangshu-027-yinjun-complete:p001:r0145",
+      "paragraph_id": "c-liangshu-027-yinjun-complete:p001",
+      "start": 145,
+      "end": 146,
+      "surface": "女",
+      "person_id": "fo7_f8v_rmf_A",
+      "referent_role": "third_person",
+      "quote": "殷鈞字季和，陳郡長平人也。晉太常融八世孫。父叡，有才辯，知名齊世，歷官司徒從事中郎。叡妻王奐女。奐爲雍州刺史、鎮北將軍，乃言於朝，以叡爲鎮北長史、河南太守。奐誅，叡並見害。鈞時年九歲，以孝聞。及長，恬靜簡交遊，好學有思理。善隸書，爲當時楷法，南鄉范雲、樂安任昉，並稱賞之。高祖與叡少舊故，以女妻鈞，卽永興公主也。",
+      "note": "依本段敘事、稱謂及語者受者定。",
+      "chapter_id": "c-liangshu-027-yinjun-complete",
+      "book_id": "b-liangshu-027",
+      "work_id": "w-liangshu",
+      "source_id": "s-liangshu-027-yinjun-complete-ws1511478"
+    },
+    {
       "id": "c-nanshi-012-xihui:p002:r0066",
       "surface": "永興公主",
       "start": 66,
@@ -829,6 +956,59 @@
       "reviewer": "Codex（AI 代理）",
       "human_reviewed": false,
       "model": null
+    },
+    {
+      "id": "a-liang027-yinjun-marriage",
+      "subject_person_id": "fo7_f8v_rmf_A",
+      "object_person_id": "ceq_pnr_q0e_A",
+      "predicate": "spouse",
+      "qualifiers": {
+        "source_term": "以女妻鈞，卽永興公主也"
+      },
+      "evidence": [
+        {
+          "work_id": "w-liangshu",
+          "book_id": "b-liangshu-027",
+          "chapter_id": "c-liangshu-027-yinjun-complete",
+          "source_id": "s-liangshu-027-yinjun-complete-ws1511478",
+          "paragraph_id": "c-liangshu-027-yinjun-complete:p001",
+          "quote": "殷鈞字季和，陳郡長平人也。晉太常融八世孫。父叡，有才辯，知名齊世，歷官司徒從事中郎。叡妻王奐女。奐爲雍州刺史、鎮北將軍，乃言於朝，以叡爲鎮北長史、河南太守。奐誅，叡並見害。鈞時年九歲，以孝聞。及長，恬靜簡交遊，好學有思理。善隸書，爲當時楷法，南鄉范雲、樂安任昉，並稱賞之。高祖與叡少舊故，以女妻鈞，卽永興公主也。",
+          "subject_person_mention_id": "c-liangshu-027-yinjun-complete:p001:m0150",
+          "object_person_mention_id": "c-liangshu-027-yinjun-complete:p001:m0000"
+        }
+      ],
+      "status": "source_attested",
+      "interpretation_note": "武帝以女永興公主妻鈞；郗后傳具女名玉姚。",
+      "reviewer": "Codex（AI代理）",
+      "model": null,
+      "human_reviewed": false
+    },
+    {
+      "id": "a-liang027-yongxing-father",
+      "subject_person_id": "fo7_f8v_rmf_A",
+      "object_person_id": "fo7_f8v_rmf",
+      "predicate": "father",
+      "qualifiers": {
+        "source_term": "高祖與叡少舊故，以女妻鈞，卽永興公主也",
+        "lineage": "paternal"
+      },
+      "evidence": [
+        {
+          "work_id": "w-liangshu",
+          "book_id": "b-liangshu-027",
+          "chapter_id": "c-liangshu-027-yinjun-complete",
+          "source_id": "s-liangshu-027-yinjun-complete-ws1511478",
+          "paragraph_id": "c-liangshu-027-yinjun-complete:p001",
+          "quote": "殷鈞字季和，陳郡長平人也。晉太常融八世孫。父叡，有才辯，知名齊世，歷官司徒從事中郎。叡妻王奐女。奐爲雍州刺史、鎮北將軍，乃言於朝，以叡爲鎮北長史、河南太守。奐誅，叡並見害。鈞時年九歲，以孝聞。及長，恬靜簡交遊，好學有思理。善隸書，爲當時楷法，南鄉范雲、樂安任昉，並稱賞之。高祖與叡少舊故，以女妻鈞，卽永興公主也。",
+          "subject_person_mention_id": "c-liangshu-027-yinjun-complete:p001:m0150",
+          "object_person_mention_id": "c-liangshu-027-yinjun-complete:p001:m0136"
+        }
+      ],
+      "status": "source_attested",
+      "interpretation_note": "高祖以己女妻鈞。",
+      "reviewer": "Codex（AI代理）",
+      "model": null,
+      "human_reviewed": false
     },
     {
       "id": "a-liang007-xihui-n-mother-玉姚",

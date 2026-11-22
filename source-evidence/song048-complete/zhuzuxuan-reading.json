@@ -1,0 +1,92 @@
+{
+  "record_type": "fixed_source_complete_item_review",
+  "reviewer": "Codex（AI代理）",
+  "model": null,
+  "human_reviewed": false,
+  "external_witnesses": [],
+  "print_readings": [
+    {
+      "url": "https://upload.wikimedia.org/wikipedia/commons/7/75/NLC892-411999017142-12779_%E4%BA%8C%E5%8D%81%E5%9B%9B%E5%8F%B2_%E7%AC%AC144%E5%86%8A.pdf#page=77",
+      "catalog_record": "https://commons.wikimedia.org/wiki/File:NLC892-411999017142-12779_%E4%BA%8C%E5%8D%81%E5%9B%9B%E5%8F%B2_%E7%AC%AC144%E5%86%8A.pdf",
+      "pdf_sha1": "126c34411892f6943a575a15ee46fb0064bd5b7b",
+      "pdf_sha256": "316229a8587d188289a7fa2dac393760437ca7facf5deb7a3bfa09770b4a1ac3",
+      "image_sha256": "4e7aa9aa2a8de2d7a8b5f51a0516d9efdf5445efe01bd18788de6384e37f70a1",
+      "edition": "清乾隆武英殿本《宋書》，國圖第144冊。",
+      "page": 77,
+      "half": "R",
+      "folio": "四下",
+      "columns_from_right": "6",
+      "source_quote": "八年不反及不分姑國秩奪爵",
+      "reading": "兩項失爵事由。"
+    }
+  ],
+  "boundaries": [
+    {
+      "book_id": "b-songshu-048",
+      "title": "朱祖宣",
+      "unit_kind": "embedded_account",
+      "chapter_id": "c-songshu-048-zhuzuxuan",
+      "entry_checked": true,
+      "full_text": true,
+      "first_pass": true,
+      "item_reviewed": true,
+      "source_layout": "wikisource_mixed_indented_prose",
+      "first_line": 34,
+      "last_line": 34,
+      "start_codepoint": 9,
+      "end_codepoint": 34,
+      "opening": "子祖宣嗣，坐輒之封，八年",
+      "closing": "反，及不分姑國秩，奪爵。",
+      "parent_heading": "朱齡石",
+      "chapter_path": "corpus/songshu/048-zhuzuxuan.json",
+      "paragraph_ids": [
+        "c-songshu-048-zhuzuxuan:p001"
+      ],
+      "item_review_path": "source-evidence/song048-complete/zhuzuxuan-reading.json"
+    }
+  ],
+  "chronology": [],
+  "readings": [
+    {
+      "id": "c-songshu-048-zhuzuxuan:received_sentence1-0",
+      "kind": "received_sentence",
+      "person_id": "wip_vh5_2zm_AAA",
+      "source_quote": "子祖宣嗣，坐輒之封，八年不反，及不分姑國秩，奪爵。",
+      "reading": "祖宣嗣封，因擅往封地八年未還且未分姑國秩，被奪爵。",
+      "note": "祖宣嗣封，因擅往封地八年未還且未分姑國秩，被奪爵。",
+      "paragraph_id": "c-songshu-048-zhuzuxuan:p001",
+      "start_codepoint": 0,
+      "end_codepoint": 25,
+      "human_reviewed": false
+    },
+    {
+      "id": "c-songshu-048-zhuzuxuan:elapsed_time1-10",
+      "kind": "elapsed_time",
+      "person_id": "wip_vh5_2zm_AAA",
+      "source_quote": "八年不反",
+      "reading": "八年為在封地未還的時長，起訖月份不詳。",
+      "note": "八年為在封地未還的時長，起訖月份不詳。",
+      "paragraph_id": "c-songshu-048-zhuzuxuan:p001",
+      "start_codepoint": 10,
+      "end_codepoint": 14,
+      "human_reviewed": false,
+      "duration_years": 8,
+      "ce_year": null
+    },
+    {
+      "id": "c-songshu-048-zhuzuxuan:paternal_aunt1-16",
+      "kind": "paternal_aunt",
+      "person_id": "wip_vh5_2zm_AAA",
+      "source_quote": "不分姑國秩",
+      "reading": "姑是祖宣之姑，獲分封國祿秩之對象；原書不記名及婚配。",
+      "note": "姑是祖宣之姑，獲分封國祿秩之對象；原書不記名及婚配。",
+      "paragraph_id": "c-songshu-048-zhuzuxuan:p001",
+      "start_codepoint": 16,
+      "end_codepoint": 21,
+      "human_reviewed": false,
+      "aunt": "75x_yfd_4fe",
+      "nephew": "wip_vh5_2zm_AAA"
+    }
+  ],
+  "identity_limits": []
+}

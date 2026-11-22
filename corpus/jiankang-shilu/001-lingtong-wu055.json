@@ -1,0 +1,208 @@
+{
+  "format_version": "0.2",
+  "record_type": "marked_chapter",
+  "id": "c-jiankang-shilu-001-lingtong-wu055",
+  "work_id": "w-jiankang-shilu",
+  "book_id": "b-jiankang-shilu-001",
+  "source_id": "s-jiankang-shilu-001-lingtong-wu055",
+  "title": "建康實錄卷一凌統卒年與賜養",
+  "source": {
+    "title": "建康實錄卷一凌統卒年與賜養",
+    "provider": "Wikisource",
+    "url": "https://zh.wikisource.org/w/index.php?oldid=2389050",
+    "permalink": "https://zh.wikisource.org/w/index.php?oldid=2389050",
+    "edition": "維基文庫固定修訂",
+    "extent": "具名互證原句。",
+    "text_scope": "partial_chapter",
+    "review_status": "text_checked",
+    "image_verified": false,
+    "rights": "古籍原文，維基文庫轉錄。",
+    "license_url": "https://creativecommons.org/licenses/by-sa/4.0/",
+    "revision_id": 2389050,
+    "raw_path": "source-evidence/sanguozhi055-roll-close/external/jiankang001-ws2389050.wikitext",
+    "wikitext_sha256": "773d7472ea358c7f40ec9ce7ace43f3644dd2c7f6f7e546010ad4721e9f8cefb",
+    "raw_file_sha256": "773d7472ea358c7f40ec9ce7ace43f3644dd2c7f6f7e546010ad4721e9f8cefb"
+  },
+  "annotation": {
+    "status": "in_progress",
+    "scope": "建安二十二年紀下凌統卒，實錄另言卒年二十九及葛先教二子。",
+    "human_reviewed": false,
+    "age_assertions": [
+      {
+        "id": "age-wu055-jiankang-tong",
+        "person_id": "evj_nj4_5k4",
+        "source_number": "二十九",
+        "source_term": "年二十九",
+        "value": 29,
+        "unit": "source_age_years",
+        "counting": "unspecified_source_age",
+        "birth_year": null,
+        "evidence": [
+          {
+            "work_id": "w-jiankang-shilu",
+            "book_id": "b-jiankang-shilu-001",
+            "chapter_id": "c-jiankang-shilu-001-lingtong-wu055",
+            "source_id": "s-jiankang-shilu-001-lingtong-wu055",
+            "paragraph_id": "c-jiankang-shilu-001-lingtong-wu055:p002",
+            "quote": "統為人性好接物，親賢愛士，輕財重義，有國士風。年二十九卒。權聞之驚起，哀不自勝，使張承作誄致祭。",
+            "person_mention_id": "c-jiankang-shilu-001-lingtong-wu055:p002:m0000"
+          }
+        ],
+        "interpretation_note": "按直接記年齡句注錄。",
+        "status": "source_attested",
+        "reviewer": "Codex（AI 代理）",
+        "human_reviewed": false,
+        "model": null
+      }
+    ],
+    "reviewed_unit_evidence": [
+      {
+        "unit": "建康實錄卷一凌統卒年與賜養",
+        "path": "source-evidence/sanguozhi055-roll-close/reading.json"
+      }
+    ]
+  },
+  "paragraphs": [
+    {
+      "id": "c-jiankang-shilu-001-lingtong-wu055:p001",
+      "text": "是歲，偏將軍、都亭侯凌統卒。",
+      "text_layer": "received_chapter",
+      "source_quote": {
+        "witness": "jk",
+        "quote": "是歲，偏將軍、都亭侯凌統卒。",
+        "raw_start": 12849,
+        "raw_end": 12863,
+        "raw_line": 108
+      },
+      "annotation_status": "reviewed",
+      "mentions": [
+        {
+          "id": "c-jiankang-shilu-001-lingtong-wu055:p001:m0010",
+          "surface": "凌統",
+          "start": 10,
+          "end": 12,
+          "kind": "person",
+          "person_id": "evj_nj4_5k4",
+          "status": "contextual_provisional",
+          "interpretation_note": "按本段具名及前後親稱、官職定位。"
+        }
+      ]
+    },
+    {
+      "id": "c-jiankang-shilu-001-lingtong-wu055:p002",
+      "text": "統為人性好接物，親賢愛士，輕財重義，有國士風。年二十九卒。權聞之驚起，哀不自勝，使張承作誄致祭。",
+      "text_layer": "received_chapter",
+      "source_quote": {
+        "witness": "jk",
+        "quote": "統為人性好接物，親賢愛士，輕財重義，有國士風。年二十九卒。權聞之驚起，哀不自勝，使張承作誄致祭。",
+        "raw_start": 13052,
+        "raw_end": 13100,
+        "raw_line": 114
+      },
+      "annotation_status": "reviewed",
+      "mentions": [
+        {
+          "id": "c-jiankang-shilu-001-lingtong-wu055:p002:m0000",
+          "surface": "統",
+          "start": 0,
+          "end": 1,
+          "kind": "person",
+          "person_id": "evj_nj4_5k4",
+          "status": "contextual_provisional",
+          "interpretation_note": "按本段具名及前後親稱、官職定位。"
+        },
+        {
+          "id": "c-jiankang-shilu-001-lingtong-wu055:p002:m0029",
+          "surface": "權",
+          "start": 29,
+          "end": 30,
+          "kind": "person",
+          "person_id": "572_278_cba",
+          "status": "contextual_provisional",
+          "interpretation_note": "按本段具名及前後親稱、官職定位。"
+        },
+        {
+          "id": "c-jiankang-shilu-001-lingtong-wu055:p002:m0041",
+          "surface": "張承",
+          "start": 41,
+          "end": 43,
+          "kind": "person",
+          "person_id": "roi_rz4_ute_B",
+          "status": "contextual_provisional",
+          "interpretation_note": "按本段具名及前後親稱、官職定位。"
+        }
+      ]
+    },
+    {
+      "id": "c-jiankang-shilu-001-lingtong-wu055:p003",
+      "text": "有二子烈、封，",
+      "text_layer": "received_chapter",
+      "source_quote": {
+        "witness": "jk",
+        "quote": "有二子烈、封，",
+        "raw_start": 13102,
+        "raw_end": 13109,
+        "raw_line": 116
+      },
+      "annotation_status": "reviewed",
+      "mentions": [
+        {
+          "id": "c-jiankang-shilu-001-lingtong-wu055:p003:m0003",
+          "surface": "烈",
+          "start": 3,
+          "end": 4,
+          "kind": "person",
+          "person_id": "evj_nj4_5k4_A",
+          "status": "contextual_provisional",
+          "interpretation_note": "按本段具名及前後親稱、官職定位。"
+        },
+        {
+          "id": "c-jiankang-shilu-001-lingtong-wu055:p003:m0005",
+          "surface": "封",
+          "start": 5,
+          "end": 6,
+          "kind": "person",
+          "person_id": "evj_nj4_5k4_B",
+          "status": "contextual_provisional",
+          "interpretation_note": "按本段具名及前後親稱、官職定位。"
+        }
+      ]
+    },
+    {
+      "id": "c-jiankang-shilu-001-lingtong-wu055:p004",
+      "text": "皆幼弱，權收養於宮中。年八九歲，令葛先授書，",
+      "text_layer": "received_chapter",
+      "source_quote": {
+        "witness": "jk",
+        "quote": "皆幼弱，權收養於宮中。年八九歲，令葛先授書，",
+        "raw_start": 13170,
+        "raw_end": 13192,
+        "raw_line": 116
+      },
+      "annotation_status": "reviewed",
+      "mentions": [
+        {
+          "id": "c-jiankang-shilu-001-lingtong-wu055:p004:m0004",
+          "surface": "權",
+          "start": 4,
+          "end": 5,
+          "kind": "person",
+          "person_id": "572_278_cba",
+          "status": "contextual_provisional",
+          "interpretation_note": "按本段具名及前後親稱、官職定位。"
+        },
+        {
+          "id": "c-jiankang-shilu-001-lingtong-wu055:p004:m0017",
+          "surface": "葛先",
+          "start": 17,
+          "end": 19,
+          "kind": "person",
+          "person_id": "gtm_9n8_vkm",
+          "status": "contextual_provisional",
+          "interpretation_note": "按本段具名及前後親稱、官職定位。"
+        }
+      ]
+    }
+  ],
+  "text_sha256": "c84617b8676d013610ac48db134ca644268e19aa9440c2a916065d44513e51bf"
+}

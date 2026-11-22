@@ -6,7 +6,8 @@
   "identity_note": "依本篇具名、稱謂及其所在原句辨認；引書原字存於各自來源。",
   "review": "ai_provisional",
   "names": [
-    "布"
+    "布",
+    "張布"
   ],
   "titles": [],
   "addresses": [],
@@ -63,6 +64,59 @@
       "chapter_id": "c-sanguozhi-050-he",
       "source_id": "s-sanguozhi-050-he",
       "work_title": "三國志"
+    },
+    {
+      "number": 55,
+      "category": "",
+      "title": "丁奉傳",
+      "paragraph_id": "c-sanguozhi-055-dingfeng:line136",
+      "count": 3,
+      "raw_count": 3,
+      "duplicate_count": 0,
+      "counting_policy": "independent_fixed_witness_occurrences",
+      "quote": "孫休即位，與張布謀，欲誅孫綝，布曰：「丁奉雖不能吏書，而計略過人，能斷大事。」休召奉告曰：「綝秉國威，將行不軌，欲與將軍誅之。」奉曰：「丞相兄弟友黨甚盛，恐人心不同，不可卒制，可因臘會，有陛下兵以誅之也。」休納其計，",
+      "paragraph_ids": [
+        "c-sanguozhi-055-dingfeng:line136"
+      ],
+      "mention_ids": [
+        "c-sanguozhi-055-dingfeng:line136:m0006",
+        "c-sanguozhi-055-dingfeng:line136:m0015",
+        "c-sanguozhi-055-dingfeng:line136:m0115"
+      ],
+      "mention_paragraph_ids": {
+        "c-sanguozhi-055-dingfeng:line136:m0006": "c-sanguozhi-055-dingfeng:line136",
+        "c-sanguozhi-055-dingfeng:line136:m0015": "c-sanguozhi-055-dingfeng:line136",
+        "c-sanguozhi-055-dingfeng:line136:m0115": "c-sanguozhi-055-dingfeng:line136"
+      },
+      "mention_id": "c-sanguozhi-055-dingfeng:line136:m0006",
+      "occurrence_groups": [
+        {
+          "canonical_mention_id": "c-sanguozhi-055-dingfeng:line136:m0006",
+          "mention_ids": [
+            "c-sanguozhi-055-dingfeng:line136:m0006"
+          ],
+          "kind": "paragraph"
+        },
+        {
+          "canonical_mention_id": "c-sanguozhi-055-dingfeng:line136:m0015",
+          "mention_ids": [
+            "c-sanguozhi-055-dingfeng:line136:m0015"
+          ],
+          "kind": "paragraph"
+        },
+        {
+          "canonical_mention_id": "c-sanguozhi-055-dingfeng:line136:m0115",
+          "mention_ids": [
+            "c-sanguozhi-055-dingfeng:line136:m0115"
+          ],
+          "kind": "paragraph"
+        }
+      ],
+      "work_id": "w-sanguozhi",
+      "book_id": "b-sanguozhi-055",
+      "chapter_id": "c-sanguozhi-055-dingfeng",
+      "source_id": "s-sanguozhi-055-dingfeng",
+      "work_title": "三國志"
     }
   ],
   "table_occurrences": [],
@@ -91,6 +145,33 @@
         "wikitext_sha256": "e659e249b19bdabcb106007f54dab1a9fa5bd666d3e57e21f0a6eaa37ba9b1a6",
         "collation_witnesses": [
           "source-evidence/sanguozhi050-he/reading.json"
+        ]
+      }
+    },
+    {
+      "chapter_id": "c-sanguozhi-055-dingfeng",
+      "work_id": "w-sanguozhi",
+      "book_id": "b-sanguozhi-055",
+      "source_id": "s-sanguozhi-055-dingfeng",
+      "source": {
+        "title": "三國志卷五十五·吳書十",
+        "provider": "Wikisource",
+        "url": "https://zh.wikisource.org/w/index.php?oldid=2603286",
+        "permalink": "https://zh.wikisource.org/w/index.php?oldid=2603286",
+        "revision_id": 2603286,
+        "accessed_on": "2026-11-21",
+        "edition": "維基文庫固定修訂，裴注與正文分層。",
+        "extent": "第128至138行。",
+        "text_scope": "partial_chapter",
+        "review_status": "text_checked",
+        "image_verified": false,
+        "rights": "古籍原文，維基文庫轉錄。",
+        "license_url": "https://creativecommons.org/licenses/by-sa/4.0/",
+        "raw_path": "source-evidence/sanguozhi055-commanders/sanguozhi055-ws2603286.wikitext",
+        "raw_file_sha256": "af14d36115960881146ec95d5fdf1087db58e28d3ea95541bb050a8d63778f2e",
+        "wikitext_sha256": "af14d36115960881146ec95d5fdf1087db58e28d3ea95541bb050a8d63778f2e",
+        "collation_witnesses": [
+          "source-evidence/sanguozhi055-dingfeng/reading.json"
         ]
       }
     }

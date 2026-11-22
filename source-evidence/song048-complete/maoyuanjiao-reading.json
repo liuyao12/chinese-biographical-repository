@@ -1,0 +1,92 @@
+{
+  "record_type": "fixed_source_complete_item_review",
+  "reviewer": "Codex（AI代理）",
+  "model": null,
+  "human_reviewed": false,
+  "external_witnesses": [
+    {
+      "revision_id": 1516113,
+      "raw_path": "source-evidence/song048-complete/external/wei043-ws1516113.wikitext",
+      "line": 16,
+      "start": 8,
+      "end": 14,
+      "source_quote": "唯子法仁入國",
+      "raw_sha256": "9595e9faa015e1212b5e5d73e66986f90c3c5619ad0d5a54cebfd596427403e2",
+      "interpretation": "魏書另見一子，未把兩號合併。"
+    }
+  ],
+  "print_readings": [
+    {
+      "url": "https://upload.wikimedia.org/wikipedia/commons/7/75/NLC892-411999017142-12779_%E4%BA%8C%E5%8D%81%E5%9B%9B%E5%8F%B2_%E7%AC%AC144%E5%86%8A.pdf#page=82",
+      "catalog_record": "https://commons.wikimedia.org/wiki/File:NLC892-411999017142-12779_%E4%BA%8C%E5%8D%81%E5%9B%9B%E5%8F%B2_%E7%AC%AC144%E5%86%8A.pdf",
+      "pdf_sha1": "126c34411892f6943a575a15ee46fb0064bd5b7b",
+      "pdf_sha256": "316229a8587d188289a7fa2dac393760437ca7facf5deb7a3bfa09770b4a1ac3",
+      "image_sha256": "7eaaa15dea4ea9bfbd6c75601e1f2b137993b7fb13a7731ed5210f1703fef714",
+      "edition": "清乾隆武英殿本《宋書》，國圖第144冊。",
+      "page": 82,
+      "half": "L",
+      "folio": "十上",
+      "columns_from_right": "3",
+      "source_quote": "元矯歷宛陵江乘溧陽令",
+      "reading": "小傳恰在傅弘之題前。"
+    }
+  ],
+  "boundaries": [
+    {
+      "book_id": "b-songshu-048",
+      "title": "毛元矯",
+      "unit_kind": "embedded_account",
+      "chapter_id": "c-songshu-048-maoyuanjiao",
+      "entry_checked": true,
+      "full_text": true,
+      "first_pass": true,
+      "item_reviewed": true,
+      "source_layout": "wikisource_mixed_indented_prose",
+      "first_line": 64,
+      "last_line": 64,
+      "start_codepoint": 429,
+      "end_codepoint": 442,
+      "opening": "元矯歷宛陵、江乘、溧陽令",
+      "closing": "矯歷宛陵、江乘、溧陽令。",
+      "parent_heading": "毛脩之",
+      "chapter_path": "corpus/songshu/048-maoyuanjiao.json",
+      "paragraph_ids": [
+        "c-songshu-048-maoyuanjiao:p001"
+      ],
+      "item_review_path": "source-evidence/song048-complete/maoyuanjiao-reading.json"
+    }
+  ],
+  "chronology": [],
+  "readings": [
+    {
+      "id": "c-songshu-048-maoyuanjiao:received_sentence1-0",
+      "kind": "received_sentence",
+      "person_id": "wow_07g_swu_A",
+      "source_quote": "元矯歷宛陵、江乘、溧陽令。",
+      "reading": "毛元矯歷三縣令，父之卒年及歲數在前句。",
+      "note": "毛元矯歷三縣令，父之卒年及歲數在前句。",
+      "paragraph_id": "c-songshu-048-maoyuanjiao:p001",
+      "start_codepoint": 0,
+      "end_codepoint": 13,
+      "human_reviewed": false
+    },
+    {
+      "id": "c-songshu-048-maoyuanjiao:successive_postings1-3",
+      "kind": "successive_postings",
+      "person_id": "wow_07g_swu_A",
+      "source_quote": "宛陵、江乘、溧陽令",
+      "reading": "同一「令」分繫三縣，未載各任起訖年。",
+      "note": "同一「令」分繫三縣，未載各任起訖年。",
+      "paragraph_id": "c-songshu-048-maoyuanjiao:p001",
+      "start_codepoint": 3,
+      "end_codepoint": 12,
+      "human_reviewed": false,
+      "postings": [
+        "宛陵令",
+        "江乘令",
+        "溧陽令"
+      ]
+    }
+  ],
+  "identity_limits": []
+}
