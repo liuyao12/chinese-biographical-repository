@@ -4,7 +4,7 @@ from copy import deepcopy
 from hashlib import sha256
 from pathlib import Path
 
-from scripts.chen017_appointments import MAI, TONG, valid
+from scripts.chen017_appointments import CHONG, MAI, TONG, valid
 
 ROOT = Path(__file__).resolve().parents[1]
 
@@ -17,7 +17,7 @@ class ChenWangBrothers(unittest.TestCase):
     @classmethod
     def setUpClass(cls):
         cls.chapters = {cid: read('corpus/chenshu/' + cid.removeprefix('c-chenshu-') + '.json')
-                        for cid in (TONG, MAI)}
+                        for cid in (TONG, MAI, CHONG)}
 
     def test_sentences_cover_fixed_text_and_native_character_positions(self):
         for chapter in self.chapters.values():
@@ -39,7 +39,8 @@ class ChenWangBrothers(unittest.TestCase):
     def test_offered_dignity_and_provincial_appointments_bind_exact_passages(self):
         for cid, chapter in self.chapters.items():
             offers = chapter['annotation']['title_proposals']
-            expected = {'特進'} if cid == TONG else {'廣州刺史', '衡州刺史', '侍中', '都官尚書'}
+            expected = {TONG: {'特進'}, MAI: {'廣州刺史', '衡州刺史', '侍中', '都官尚書'},
+                        CHONG: {'左光祿大夫'}}[cid]
             self.assertEqual({o['title'] for o in offers}, expected)
             for offer in offers:
                 self.assertTrue(valid(offer, chapter))
@@ -65,7 +66,7 @@ class ChenWangBrothers(unittest.TestCase):
         self.assertTrue(all(len(row['text']) == 21 for row in mai['columns']))
         self.assertIn('勅勱令從輦側', ''.join(r['text'] for r in mai['columns']))
         self.assertIn('队勱令從輦側', self.chapters[MAI]['paragraphs'][1]['text'])
-        for slug in ('wangtong', 'wangmai'):
+        for slug in ('wangtong', 'wangmai', 'wangchong'):
             ledger = read(basedir + slug + '-reading.json')
             for witness in ledger['external_witnesses']:
                 raw = (ROOT / witness['raw_path']).read_bytes()
@@ -73,3 +74,26 @@ class ChenWangBrothers(unittest.TestCase):
                 lines = raw.decode().splitlines()
                 for part in witness['clauses']:
                     self.assertEqual(lines[part['line'] - 1][part['start']:part['end']], part['quote'])
+
+    def test_chong_two_grants_and_the_two_princely_deaths(self):
+        chapter = self.chapters[CHONG]
+        para = chapter['paragraphs'][4]
+        offer, = chapter['annotation']['title_proposals']
+        holdings = read('corpus/chenshu/017-wangchong-complete-titles.json')['holdings']
+        held, = [h for h in holdings if h['title'] == offer['title']]
+        anchor = held['attestations'][0]
+        self.assertEqual(anchor['start'], para['text'].index('左光祿大夫', para['text'].index('文帝嗣位')))
+        wrong = deepcopy(offer)
+        wrong['role_anchor'].update(start=anchor['start'], end=anchor['end'])
+        self.assertFalse(valid(wrong, chapter))
+        wrong = deepcopy(offer)
+        wrong['evidence'][0]['context']['paragraph_id'] = para['id']
+        self.assertFalse(valid(wrong, chapter))
+        opening = chapter['paragraphs'][0]
+        deaths = {m['start']: m['person_id'] for m in opening['mentions'] if m['surface'] == '王'}
+        self.assertEqual(deaths[opening['text'].index('王薨於湘州')], 'z8c_kq5_fri_A')
+        self.assertEqual(deaths[opening['text'].index('王薨，行州府事')], 'fo7_f8v_rmf_G')
+        pr = read('source-evidence/chenshu017-wangyuan/wangchong-wuyingdian.json')
+        self.assertEqual(len(pr['columns']), 33)
+        self.assertIn('佐藩莅人', ''.join(v['text'] for v in pr['columns']))
+        self.assertIn('佐藩两人', opening['text'])

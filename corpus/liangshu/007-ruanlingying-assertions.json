@@ -1,0 +1,107 @@
+{
+  "format_version": "0.2",
+  "record_type": "person_assertion_set",
+  "chapter_id": "c-liangshu-007-ruanlingying",
+  "assertions": [
+    {
+      "id": "a-liang007-ruanlingying-m-mother",
+      "subject_person_id": "rvc_bqx_v5w",
+      "object_person_id": "8dg_6jb_3j5_A",
+      "predicate": "mother",
+      "qualifiers": {
+        "source_term": "生世祖",
+        "liang007_ruanlingying_reading": "m-mother"
+      },
+      "evidence": [
+        {
+          "work_id": "w-liangshu",
+          "book_id": "b-liangshu-007",
+          "source_id": "s-liangshu-007-ruanlingying-ws1566494",
+          "chapter_id": "c-liangshu-007-ruanlingying",
+          "paragraph_id": "c-liangshu-007-ruanlingying:p001",
+          "quote": "高祖阮脩容諱令嬴，本姓石，會稽餘姚人也。齊始安王遙光納焉。遙光敗，入東昏宮。建康城平，高祖納爲彩女。天監七年八月，生世祖。尋拜爲脩容，常隨世祖出蕃。",
+          "subject_person_reference_id": "c-liangshu-007-ruanlingying:p001:r0058",
+          "object_person_mention_id": "c-liangshu-007-ruanlingying:p001:m0006",
+          "relationship_anchor": {
+            "paragraph_id": "c-liangshu-007-ruanlingying:p001",
+            "surface": "生世祖",
+            "start": 57,
+            "end": 60
+          }
+        }
+      ],
+      "status": "source_attested",
+      "interpretation_note": "阮令嬴生元帝。",
+      "reviewer": "Codex（AI 代理）",
+      "human_reviewed": false,
+      "model": null
+    },
+    {
+      "id": "a-liang007-ruanlingying-m-father",
+      "subject_person_id": "8dg_6jb_3j5_A",
+      "object_person_id": "8dg_6jb_3j5",
+      "predicate": "father",
+      "qualifiers": {
+        "source_term": "太后父",
+        "liang007_ruanlingying_reading": "m-father",
+        "lineage": "paternal"
+      },
+      "evidence": [
+        {
+          "work_id": "w-liangshu",
+          "book_id": "b-liangshu-007",
+          "source_id": "s-liangshu-007-ruanlingying-ws1566494",
+          "chapter_id": "c-liangshu-007-ruanlingying",
+          "paragraph_id": "c-liangshu-007-ruanlingying:p003",
+          "quote": "承聖二年，追贈太后父齊故奉朝請靈寶散騎常侍、左衛將軍，封武康縣侯，邑五百戶；母陳氏，武康侯夫人。",
+          "subject_person_reference_id": "c-liangshu-007-ruanlingying:p003:r0007",
+          "object_person_mention_id": "c-liangshu-007-ruanlingying:p003:m0015",
+          "relationship_anchor": {
+            "paragraph_id": "c-liangshu-007-ruanlingying:p003",
+            "surface": "太后父",
+            "start": 7,
+            "end": 10
+          }
+        }
+      ],
+      "status": "source_attested",
+      "interpretation_note": "受贈人為阮太后之父。",
+      "reviewer": "Codex（AI 代理）",
+      "human_reviewed": false,
+      "model": null
+    },
+    {
+      "id": "a-liang007-ruanlingying-m-mother-parent",
+      "subject_person_id": "8dg_6jb_3j5_A",
+      "object_person_id": "jqb_32a_0p0",
+      "predicate": "mother",
+      "qualifiers": {
+        "source_term": "母陳氏",
+        "liang007_ruanlingying_reading": "m-mother-parent"
+      },
+      "evidence": [
+        {
+          "work_id": "w-liangshu",
+          "book_id": "b-liangshu-007",
+          "source_id": "s-liangshu-007-ruanlingying-ws1566494",
+          "chapter_id": "c-liangshu-007-ruanlingying",
+          "paragraph_id": "c-liangshu-007-ruanlingying:p003",
+          "quote": "承聖二年，追贈太后父齊故奉朝請靈寶散騎常侍、左衛將軍，封武康縣侯，邑五百戶；母陳氏，武康侯夫人。",
+          "subject_person_reference_id": "c-liangshu-007-ruanlingying:p003:r0007",
+          "object_person_mention_id": "c-liangshu-007-ruanlingying:p003:m0039",
+          "relationship_anchor": {
+            "paragraph_id": "c-liangshu-007-ruanlingying:p003",
+            "surface": "母陳氏",
+            "start": 38,
+            "end": 41
+          }
+        }
+      ],
+      "status": "source_attested",
+      "interpretation_note": "太后母陳氏，封武康侯夫人。",
+      "reviewer": "Codex（AI 代理）",
+      "human_reviewed": false,
+      "model": null
+    }
+  ]
+}

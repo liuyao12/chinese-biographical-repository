@@ -6,11 +6,47 @@
   "identity_note": "梁022安成康王秀明天監元封安成、三年右將軍，且傳末明裴子野為王門撰文；與梁030右軍安成王脈絡相符。右軍/右將軍字面差與年份不矯原字，不據此授子野實任年。",
   "review": "ai_provisional",
   "names": [
-    "安成王"
+    "安成王",
+    "秀"
   ],
   "titles": [],
   "addresses": [],
   "occurrences": [
+    {
+      "number": 22,
+      "category": "",
+      "title": "梁書卷二十二·安成王秀與世子機",
+      "paragraph_id": "c-liangshu-022-wangchong-ancheng:p001",
+      "count": 1,
+      "raw_count": 1,
+      "duplicate_count": 0,
+      "counting_policy": "independent_fixed_witness_occurrences",
+      "quote": "秀稱心受之，亦弗辭多也。昆弟之睦，時議歸之。故吏夏侯稟等表立墓碑，詔許焉。當世高才游王門者，東海王僧孺、吳郡陸倕、彭城劉孝綽、河東裴子野，各制其文，古未之有也。世子機嗣。",
+      "paragraph_ids": [
+        "c-liangshu-022-wangchong-ancheng:p001"
+      ],
+      "mention_ids": [
+        "c-liangshu-022-wangchong-ancheng:p001:m0000"
+      ],
+      "mention_paragraph_ids": {
+        "c-liangshu-022-wangchong-ancheng:p001:m0000": "c-liangshu-022-wangchong-ancheng:p001"
+      },
+      "mention_id": "c-liangshu-022-wangchong-ancheng:p001:m0000",
+      "occurrence_groups": [
+        {
+          "canonical_mention_id": "c-liangshu-022-wangchong-ancheng:p001:m0000",
+          "mention_ids": [
+            "c-liangshu-022-wangchong-ancheng:p001:m0000"
+          ],
+          "kind": "paragraph"
+        }
+      ],
+      "work_id": "w-liangshu",
+      "book_id": "b-liangshu-022",
+      "chapter_id": "c-liangshu-022-wangchong-ancheng",
+      "source_id": "s-liangshu-022-wangchong-ancheng-ws1513347",
+      "work_title": "梁書"
+    },
     {
       "number": 30,
       "category": "",
@@ -74,6 +110,29 @@
           "character_conversion": {},
           "extraction_note": "投影相應原句，保留字形；移除年號模板定界符。"
         }
+      }
+    },
+    {
+      "chapter_id": "c-liangshu-022-wangchong-ancheng",
+      "work_id": "w-liangshu",
+      "book_id": "b-liangshu-022",
+      "source_id": "s-liangshu-022-wangchong-ancheng-ws1513347",
+      "source": {
+        "title": "梁書卷二十二·安成王秀與世子機",
+        "provider": "Wikisource",
+        "permalink": "https://zh.wikisource.org/w/index.php?oldid=1513347",
+        "url": "https://zh.wikisource.org/w/index.php?oldid=1513347",
+        "revision_id": 1513347,
+        "edition": "維基文庫固定修訂",
+        "accessed_on": "2026-11-21",
+        "review_status": "text_checked",
+        "image_verified": false,
+        "rights": "古代原文；數位轉錄依維基文庫授權。",
+        "license_url": "https://creativecommons.org/licenses/by-sa/4.0/",
+        "extent": "梁書卷二十二·安成王秀與世子機",
+        "text_scope": "partial_chapter",
+        "raw_path": "source-evidence/liang021-wangzhi/external/liangshu022-ws1513347.wikitext",
+        "raw_file_sha256": "94e38a83a5c49d47cb4a42f5036f55883e3afecdb214256ab9ee333cc69d3f1a"
       }
     },
     {
@@ -359,9 +418,38 @@
       }
     }
   ],
-  "relations": [],
+  "relations": [
+    {
+      "id": "a-chen017-ji-father",
+      "subject_person_id": "z8c_kq5_fri_A",
+      "object_person_id": "z8c_kq5_fri",
+      "predicate": "father",
+      "qualifiers": {
+        "source_term": "世子機嗣",
+        "lineage": "paternal"
+      },
+      "evidence": [
+        {
+          "work_id": "w-liangshu",
+          "book_id": "b-liangshu-022",
+          "chapter_id": "c-liangshu-022-wangchong-ancheng",
+          "source_id": "s-liangshu-022-wangchong-ancheng-ws1513347",
+          "paragraph_id": "c-liangshu-022-wangchong-ancheng:p001",
+          "quote": "秀稱心受之，亦弗辭多也。昆弟之睦，時議歸之。故吏夏侯稟等表立墓碑，詔許焉。當世高才游王門者，東海王僧孺、吳郡陸倕、彭城劉孝綽、河東裴子野，各制其文，古未之有也。世子機嗣。",
+          "subject_person_mention_id": "c-liangshu-022-wangchong-ancheng:p001:m0082",
+          "object_person_mention_id": "c-liangshu-022-wangchong-ancheng:p001:m0000"
+        }
+      ],
+      "status": "source_attested",
+      "interpretation_note": "秀傳之末載立碑及世子機嗣。緊接本卷記機襲封安成郡王、為湘州刺史、薨于州。",
+      "reviewer": "Codex（AI代理）",
+      "model": null,
+      "human_reviewed": false
+    }
+  ],
   "related_people": {
-    "z8c_kq5_fri": "安成康王秀〔梁〕"
+    "z8c_kq5_fri": "安成康王秀〔梁〕",
+    "z8c_kq5_fri_A": "蕭機（安成煬王，字智通）"
   },
   "dates": [],
   "name_components": [],
@@ -494,7 +582,35 @@
   "person_ids": [
     "z8c_kq5_fri"
   ],
-  "preferred_relations": [],
+  "preferred_relations": [
+    {
+      "id": "a-chen017-ji-father",
+      "subject_person_id": "z8c_kq5_fri_A",
+      "object_person_id": "z8c_kq5_fri",
+      "predicate": "father",
+      "qualifiers": {
+        "source_term": "世子機嗣",
+        "lineage": "paternal"
+      },
+      "evidence": [
+        {
+          "work_id": "w-liangshu",
+          "book_id": "b-liangshu-022",
+          "chapter_id": "c-liangshu-022-wangchong-ancheng",
+          "source_id": "s-liangshu-022-wangchong-ancheng-ws1513347",
+          "paragraph_id": "c-liangshu-022-wangchong-ancheng:p001",
+          "quote": "秀稱心受之，亦弗辭多也。昆弟之睦，時議歸之。故吏夏侯稟等表立墓碑，詔許焉。當世高才游王門者，東海王僧孺、吳郡陸倕、彭城劉孝綽、河東裴子野，各制其文，古未之有也。世子機嗣。",
+          "subject_person_mention_id": "c-liangshu-022-wangchong-ancheng:p001:m0082",
+          "object_person_mention_id": "c-liangshu-022-wangchong-ancheng:p001:m0000"
+        }
+      ],
+      "status": "source_attested",
+      "interpretation_note": "秀傳之末載立碑及世子機嗣。緊接本卷記機襲封安成郡王、為湘州刺史、薨于州。",
+      "reviewer": "Codex（AI代理）",
+      "model": null,
+      "human_reviewed": false
+    }
+  ],
   "age_assertions": [],
   "life_events": [],
   "life_event_date_decisions": [],
