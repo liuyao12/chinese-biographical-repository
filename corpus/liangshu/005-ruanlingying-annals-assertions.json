@@ -1,0 +1,50 @@
+{
+  "format_version": "0.2",
+  "record_type": "person_assertion_set",
+  "chapter_id": "c-liangshu-005-ruanlingying-annals",
+  "assertions": [
+    {
+      "id": "a-liang007-ruanlingying-b-father",
+      "subject_person_id": "rvc_bqx_v5w",
+      "object_person_id": "fo7_f8v_rmf",
+      "predicate": "father",
+      "qualifiers": {
+        "source_term": "高祖第七子",
+        "liang007_ruanlingying_reading": "b-father",
+        "lineage": "paternal",
+        "birth_order": {
+          "source_term": "第七子",
+          "source_number": "七",
+          "ordinal": 7,
+          "position": "unspecified",
+          "scope": "sons_of_parent",
+          "parent_person_id": "fo7_f8v_rmf",
+          "interpretation_status": "source_attested"
+        }
+      },
+      "evidence": [
+        {
+          "work_id": "w-liangshu",
+          "book_id": "b-liangshu-005",
+          "source_id": "s-liangshu-005-ruanlingying-annals-ws2312810",
+          "chapter_id": "c-liangshu-005-ruanlingying-annals",
+          "paragraph_id": "c-liangshu-005-ruanlingying-annals:p001",
+          "quote": "世祖孝元皇帝諱繹，字世誠，小字七符，高祖第七子也。天監七年八月丁巳生。",
+          "subject_person_mention_id": "c-liangshu-005-ruanlingying-annals:p001:m0007",
+          "object_person_reference_id": "c-liangshu-005-ruanlingying-annals:p001:r0018",
+          "relationship_anchor": {
+            "paragraph_id": "c-liangshu-005-ruanlingying-annals:p001",
+            "surface": "高祖第七子",
+            "start": 18,
+            "end": 23
+          }
+        }
+      ],
+      "status": "source_attested",
+      "interpretation_note": "紀首明繹為高祖第七子。",
+      "reviewer": "Codex（AI 代理）",
+      "human_reviewed": false,
+      "model": null
+    }
+  ]
+}

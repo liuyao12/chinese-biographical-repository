@@ -1,0 +1,54 @@
+{
+  "format_version": "0.2",
+  "record_type": "person_assertion_set",
+  "chapter_id": "c-nanshi-015-xuzhaopei-father",
+  "assertions": [
+    {
+      "id": "a-nanshi015-xuzhaopei-xugun-father",
+      "subject_person_id": "tvq_5nw_rqn_A",
+      "object_person_id": "tvq_5nw_rqn",
+      "predicate": "father",
+      "qualifiers": {
+        "source_term": "子",
+        "lineage": "paternal"
+      },
+      "context": {
+        "kind": "biographical_child_continuation",
+        "paragraph_ids": [
+          "c-nanshi-015-xuzhaopei-father:p001",
+          "c-nanshi-015-xuzhaopei-father:p002"
+        ],
+        "parent_mention_id": "c-nanshi-015-xuzhaopei-father:p001:m0008",
+        "child_mention_id": "c-nanshi-015-xuzhaopei-father:p002:m0001",
+        "rationale": "前段具名傳主，次段起子某。",
+        "status": "contextual_provisional",
+        "human_reviewed": false
+      },
+      "evidence": [
+        {
+          "work_id": "w-nanshi",
+          "book_id": "b-nanshi-015",
+          "source_id": "s-nanshi-015-xuzhaopei-father-ws1659582",
+          "chapter_id": "c-nanshi-015-xuzhaopei-father",
+          "paragraph_id": "c-nanshi-015-xuzhaopei-father:p001",
+          "quote": "中興元年，和帝贈孝嗣太尉。二年，改葬宣德太后，詔增班劍四十人，加羽葆、鼓吹，諡曰文忠，改封餘幹縣公。",
+          "object_person_mention_id": "c-nanshi-015-xuzhaopei-father:p001:m0008"
+        },
+        {
+          "work_id": "w-nanshi",
+          "book_id": "b-nanshi-015",
+          "source_id": "s-nanshi-015-xuzhaopei-father-ws1659582",
+          "chapter_id": "c-nanshi-015-xuzhaopei-father",
+          "paragraph_id": "c-nanshi-015-xuzhaopei-father:p002",
+          "quote": "子緄，仕梁，位侍中，太常，信武將軍，諡頃子。",
+          "subject_person_mention_id": "c-nanshi-015-xuzhaopei-father:p002:m0001"
+        }
+      ],
+      "status": "source_attested",
+      "interpretation_note": "原段子某承前段傳主。",
+      "reviewer": "Codex（AI 代理）",
+      "human_reviewed": false,
+      "model": null
+    }
+  ]
+}

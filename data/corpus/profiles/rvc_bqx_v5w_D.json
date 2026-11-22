@@ -1,0 +1,163 @@
+{
+  "schema_version": 1,
+  "id": "rvc_bqx_v5w_D",
+  "canonical_person_id": "rvc_bqx_v5w_D",
+  "label": "蕭方矩（改名元良，愍懷太子）",
+  "identity_note": "蕭方矩（改名元良，愍懷太子），見本組原文及身份互校。",
+  "review": "ai_provisional",
+  "names": [
+    "元良"
+  ],
+  "titles": [],
+  "addresses": [],
+  "occurrences": [
+    {
+      "number": 17,
+      "category": "",
+      "title": "陳書卷十七·王沖",
+      "paragraph_id": "c-chenshu-017-wangchong-complete:p002",
+      "count": 1,
+      "raw_count": 1,
+      "duplicate_count": 0,
+      "counting_policy": "independent_fixed_witness_occurrences",
+      "quote": "軍賞。元帝授持節、督衡桂成合四州諸軍事、雲麾將軍、衡州刺史。元帝第四子元良為湘州刺史，仍以沖行州事，領長沙內史。侯景平，授翊左將軍、丹陽尹。",
+      "paragraph_ids": [
+        "c-chenshu-017-wangchong-complete:p002"
+      ],
+      "mention_ids": [
+        "c-chenshu-017-wangchong-complete:p002:m0070"
+      ],
+      "mention_paragraph_ids": {
+        "c-chenshu-017-wangchong-complete:p002:m0070": "c-chenshu-017-wangchong-complete:p002"
+      },
+      "mention_id": "c-chenshu-017-wangchong-complete:p002:m0070",
+      "occurrence_groups": [
+        {
+          "canonical_mention_id": "c-chenshu-017-wangchong-complete:p002:m0070",
+          "mention_ids": [
+            "c-chenshu-017-wangchong-complete:p002:m0070"
+          ],
+          "kind": "paragraph"
+        }
+      ],
+      "work_id": "w-chenshu",
+      "book_id": "b-chenshu-017",
+      "chapter_id": "c-chenshu-017-wangchong-complete",
+      "source_id": "s-chenshu-017-wangchong-complete-ws1544244",
+      "work_title": "陳書"
+    }
+  ],
+  "table_occurrences": [],
+  "sources": [
+    {
+      "chapter_id": "c-chenshu-017-wangchong-complete",
+      "work_id": "w-chenshu",
+      "book_id": "b-chenshu-017",
+      "source_id": "s-chenshu-017-wangchong-complete-ws1544244",
+      "source": {
+        "title": "陳書卷十七·王沖",
+        "provider": "Wikisource",
+        "permalink": "https://zh.wikisource.org/w/index.php?oldid=1544244",
+        "url": "https://zh.wikisource.org/w/index.php?oldid=1544244",
+        "revision_id": 1544244,
+        "edition": "維基文庫固定修訂",
+        "accessed_on": "2026-11-21",
+        "review_status": "text_checked",
+        "image_verified": false,
+        "rights": "古代原文；數位轉錄依維基文庫授權。",
+        "license_url": "https://creativecommons.org/licenses/by-sa/4.0/",
+        "extent": "陳書卷十七·王沖",
+        "text_scope": "complete_biography_unit",
+        "raw_path": "sources/chenshu/chenshu017-ws1544244.wikitext",
+        "raw_file_sha256": "8d95f1fe792049025076c024e18aec87f8fd42ac2d05afea063555680e852328"
+      }
+    }
+  ],
+  "relations": [
+    {
+      "id": "a-chen017-yuanliang-father",
+      "subject_person_id": "rvc_bqx_v5w_D",
+      "object_person_id": "rvc_bqx_v5w",
+      "predicate": "father",
+      "qualifiers": {
+        "source_term": "元帝第四子元良",
+        "lineage": "paternal",
+        "birth_order": {
+          "parent_person_id": "rvc_bqx_v5w",
+          "ordinal": 4,
+          "scope": "sons_of_parent",
+          "position": "unspecified",
+          "source_term": "第四子",
+          "interpretation_status": "source_attested"
+        }
+      },
+      "evidence": [
+        {
+          "work_id": "w-chenshu",
+          "book_id": "b-chenshu-017",
+          "chapter_id": "c-chenshu-017-wangchong-complete",
+          "source_id": "s-chenshu-017-wangchong-complete-ws1544244",
+          "paragraph_id": "c-chenshu-017-wangchong-complete:p002",
+          "quote": "侯景之亂，梁元帝於荊州承制，沖求解南郡，以讓王僧辯，并獻女妓十人，以助軍賞。元帝授持節、督衡桂成合四州諸軍事、雲麾將軍、衡州刺史。元帝第四子元良為湘州刺史，仍以沖行州事，領長沙內史。侯景平，授翊左將軍、丹陽尹。",
+          "subject_person_mention_id": "c-chenshu-017-wangchong-complete:p002:m0070",
+          "object_person_mention_id": "c-chenshu-017-wangchong-complete:p002:m0038"
+        }
+      ],
+      "status": "source_attested",
+      "interpretation_note": "按本卷本句兩端親稱及所在字位。",
+      "reviewer": "Codex（AI代理）",
+      "model": null,
+      "human_reviewed": false
+    }
+  ],
+  "related_people": {
+    "rvc_bqx_v5w": "湘東王繹",
+    "rvc_bqx_v5w_D": "蕭方矩（改名元良，愍懷太子）"
+  },
+  "dates": [],
+  "name_components": [],
+  "person_ids": [
+    "rvc_bqx_v5w_D"
+  ],
+  "preferred_relations": [
+    {
+      "id": "a-chen017-yuanliang-father",
+      "subject_person_id": "rvc_bqx_v5w_D",
+      "object_person_id": "rvc_bqx_v5w",
+      "predicate": "father",
+      "qualifiers": {
+        "source_term": "元帝第四子元良",
+        "lineage": "paternal",
+        "birth_order": {
+          "parent_person_id": "rvc_bqx_v5w",
+          "ordinal": 4,
+          "scope": "sons_of_parent",
+          "position": "unspecified",
+          "source_term": "第四子",
+          "interpretation_status": "source_attested"
+        }
+      },
+      "evidence": [
+        {
+          "work_id": "w-chenshu",
+          "book_id": "b-chenshu-017",
+          "chapter_id": "c-chenshu-017-wangchong-complete",
+          "source_id": "s-chenshu-017-wangchong-complete-ws1544244",
+          "paragraph_id": "c-chenshu-017-wangchong-complete:p002",
+          "quote": "侯景之亂，梁元帝於荊州承制，沖求解南郡，以讓王僧辯，并獻女妓十人，以助軍賞。元帝授持節、督衡桂成合四州諸軍事、雲麾將軍、衡州刺史。元帝第四子元良為湘州刺史，仍以沖行州事，領長沙內史。侯景平，授翊左將軍、丹陽尹。",
+          "subject_person_mention_id": "c-chenshu-017-wangchong-complete:p002:m0070",
+          "object_person_mention_id": "c-chenshu-017-wangchong-complete:p002:m0038"
+        }
+      ],
+      "status": "source_attested",
+      "interpretation_note": "按本卷本句兩端親稱及所在字位。",
+      "reviewer": "Codex（AI代理）",
+      "model": null,
+      "human_reviewed": false
+    }
+  ],
+  "age_assertions": [],
+  "life_events": [],
+  "life_event_date_decisions": [],
+  "selected_life_event_dates": []
+}
