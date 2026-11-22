@@ -1,0 +1,202 @@
+{
+  "schema_version": 1,
+  "id": "e2r_5iw_ui0_AA",
+  "canonical_person_id": "e2r_5iw_ui0_AA",
+  "label": "劉繪（字士章）",
+  "identity_note": "劉繪（字士章），見本組原文及身份互校。",
+  "review": "ai_provisional",
+  "names": [
+    "繪"
+  ],
+  "titles": [],
+  "addresses": [],
+  "occurrences": [
+    {
+      "number": 33,
+      "category": "",
+      "title": "劉孝綽、父繪與祖勔",
+      "paragraph_id": "c-liangshu-033-liuhui-grandfather:p001",
+      "count": 1,
+      "raw_count": 1,
+      "duplicate_count": 0,
+      "counting_policy": "independent_fixed_witness_occurrences",
+      "quote": "劉孝綽字孝綽，彭城人，本名冉。祖勔，宋司空忠昭公。父繪，齊大司馬霸府從事中郎。",
+      "paragraph_ids": [
+        "c-liangshu-033-liuhui-grandfather:p001"
+      ],
+      "mention_ids": [
+        "c-liangshu-033-liuhui-grandfather:p001:m0026"
+      ],
+      "mention_paragraph_ids": {
+        "c-liangshu-033-liuhui-grandfather:p001:m0026": "c-liangshu-033-liuhui-grandfather:p001"
+      },
+      "mention_id": "c-liangshu-033-liuhui-grandfather:p001:m0026",
+      "occurrence_groups": [
+        {
+          "canonical_mention_id": "c-liangshu-033-liuhui-grandfather:p001:m0026",
+          "mention_ids": [
+            "c-liangshu-033-liuhui-grandfather:p001:m0026"
+          ],
+          "kind": "paragraph"
+        }
+      ],
+      "work_id": "w-liangshu",
+      "book_id": "b-liangshu-033",
+      "chapter_id": "c-liangshu-033-liuhui-grandfather",
+      "source_id": "s-liangshu-033-liuhui-grandfather-ws1514481",
+      "work_title": "梁書"
+    }
+  ],
+  "table_occurrences": [],
+  "sources": [
+    {
+      "chapter_id": "c-liangshu-033-liuhui-grandfather",
+      "work_id": "w-liangshu",
+      "book_id": "b-liangshu-033",
+      "source_id": "s-liangshu-033-liuhui-grandfather-ws1514481",
+      "source": {
+        "title": "劉孝綽、父繪與祖勔",
+        "provider": "Wikisource",
+        "permalink": "https://zh.wikisource.org/w/index.php?oldid=1514481",
+        "url": "https://zh.wikisource.org/w/index.php?oldid=1514481",
+        "revision_id": 1514481,
+        "edition": "維基文庫固定修訂",
+        "accessed_on": "2026-11-21",
+        "review_status": "text_checked",
+        "image_verified": false,
+        "rights": "古代原文；數位轉錄依維基文庫授權。",
+        "license_url": "https://creativecommons.org/licenses/by-sa/4.0/",
+        "extent": "劉孝綽、父繪與祖勔",
+        "text_scope": "partial_chapter",
+        "raw_path": "source-evidence/liang043-complete/external/liang033-ws1514481.wikitext",
+        "raw_file_sha256": "a9b1993fd0027d649219782c71e5bcb1c74e2b8049d907308b609b089543eb0b"
+      }
+    }
+  ],
+  "relations": [
+    {
+      "id": "a-liang043-hui-mian",
+      "subject_person_id": "e2r_5iw_ui0_AA",
+      "object_person_id": "e2r_5iw_ui0_A",
+      "predicate": "father",
+      "qualifiers": {
+        "source_term": "祖勔，宋司空忠昭公。父繪",
+        "lineage": "paternal"
+      },
+      "evidence": [
+        {
+          "work_id": "w-liangshu",
+          "book_id": "b-liangshu-033",
+          "chapter_id": "c-liangshu-033-liuhui-grandfather",
+          "source_id": "s-liangshu-033-liuhui-grandfather-ws1514481",
+          "paragraph_id": "c-liangshu-033-liuhui-grandfather:p001",
+          "quote": "劉孝綽字孝綽，彭城人，本名冉。祖勔，宋司空忠昭公。父繪，齊大司馬霸府從事中郎。",
+          "subject_person_mention_id": "c-liangshu-033-liuhui-grandfather:p001:m0026",
+          "object_person_mention_id": "c-liangshu-033-liuhui-grandfather:p001:m0016"
+        }
+      ],
+      "status": "source_attested",
+      "interpretation_note": "孝綽父繪及祖勔，齊48另證父勉異字。",
+      "reviewer": "Codex（AI代理）",
+      "model": null,
+      "human_reviewed": false
+    },
+    {
+      "id": "a-liang043-xiaochuo-hui",
+      "subject_person_id": "di1_zqb_t0f",
+      "object_person_id": "e2r_5iw_ui0_AA",
+      "predicate": "father",
+      "qualifiers": {
+        "source_term": "父繪",
+        "lineage": "paternal"
+      },
+      "evidence": [
+        {
+          "work_id": "w-liangshu",
+          "book_id": "b-liangshu-033",
+          "chapter_id": "c-liangshu-033-liuhui-grandfather",
+          "source_id": "s-liangshu-033-liuhui-grandfather-ws1514481",
+          "paragraph_id": "c-liangshu-033-liuhui-grandfather:p001",
+          "quote": "劉孝綽字孝綽，彭城人，本名冉。祖勔，宋司空忠昭公。父繪，齊大司馬霸府從事中郎。",
+          "subject_person_mention_id": "c-liangshu-033-liuhui-grandfather:p001:m0000",
+          "object_person_mention_id": "c-liangshu-033-liuhui-grandfather:p001:m0026"
+        }
+      ],
+      "status": "source_attested",
+      "interpretation_note": "孝綽明父，沿其既發號。",
+      "reviewer": "Codex（AI代理）",
+      "model": null,
+      "human_reviewed": false
+    }
+  ],
+  "related_people": {
+    "di1_zqb_t0f": "劉孝綽",
+    "e2r_5iw_ui0_A": "劉勔",
+    "e2r_5iw_ui0_AA": "劉繪（字士章）"
+  },
+  "dates": [],
+  "name_components": [],
+  "person_ids": [
+    "e2r_5iw_ui0_AA"
+  ],
+  "preferred_relations": [
+    {
+      "id": "a-liang043-hui-mian",
+      "subject_person_id": "e2r_5iw_ui0_AA",
+      "object_person_id": "e2r_5iw_ui0_A",
+      "predicate": "father",
+      "qualifiers": {
+        "source_term": "祖勔，宋司空忠昭公。父繪",
+        "lineage": "paternal"
+      },
+      "evidence": [
+        {
+          "work_id": "w-liangshu",
+          "book_id": "b-liangshu-033",
+          "chapter_id": "c-liangshu-033-liuhui-grandfather",
+          "source_id": "s-liangshu-033-liuhui-grandfather-ws1514481",
+          "paragraph_id": "c-liangshu-033-liuhui-grandfather:p001",
+          "quote": "劉孝綽字孝綽，彭城人，本名冉。祖勔，宋司空忠昭公。父繪，齊大司馬霸府從事中郎。",
+          "subject_person_mention_id": "c-liangshu-033-liuhui-grandfather:p001:m0026",
+          "object_person_mention_id": "c-liangshu-033-liuhui-grandfather:p001:m0016"
+        }
+      ],
+      "status": "source_attested",
+      "interpretation_note": "孝綽父繪及祖勔，齊48另證父勉異字。",
+      "reviewer": "Codex（AI代理）",
+      "model": null,
+      "human_reviewed": false
+    },
+    {
+      "id": "a-liang043-xiaochuo-hui",
+      "subject_person_id": "di1_zqb_t0f",
+      "object_person_id": "e2r_5iw_ui0_AA",
+      "predicate": "father",
+      "qualifiers": {
+        "source_term": "父繪",
+        "lineage": "paternal"
+      },
+      "evidence": [
+        {
+          "work_id": "w-liangshu",
+          "book_id": "b-liangshu-033",
+          "chapter_id": "c-liangshu-033-liuhui-grandfather",
+          "source_id": "s-liangshu-033-liuhui-grandfather-ws1514481",
+          "paragraph_id": "c-liangshu-033-liuhui-grandfather:p001",
+          "quote": "劉孝綽字孝綽，彭城人，本名冉。祖勔，宋司空忠昭公。父繪，齊大司馬霸府從事中郎。",
+          "subject_person_mention_id": "c-liangshu-033-liuhui-grandfather:p001:m0000",
+          "object_person_mention_id": "c-liangshu-033-liuhui-grandfather:p001:m0026"
+        }
+      ],
+      "status": "source_attested",
+      "interpretation_note": "孝綽明父，沿其既發號。",
+      "reviewer": "Codex（AI代理）",
+      "model": null,
+      "human_reviewed": false
+    }
+  ],
+  "age_assertions": [],
+  "life_events": [],
+  "life_event_date_decisions": [],
+  "selected_life_event_dates": []
+}

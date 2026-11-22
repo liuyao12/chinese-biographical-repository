@@ -57,6 +57,54 @@
       "human_reviewed": false,
       "model": null,
       "period": "未定 → 未定"
+    },
+    {
+      "id": "t-wu059-he-1",
+      "person_id": "yt7_qwp_k7p",
+      "kind": "office",
+      "title": "少傅",
+      "mode": "attestation",
+      "status": "source_attested",
+      "effective_period": {
+        "start": {
+          "status": "unknown",
+          "date_expression": null,
+          "evidence": []
+        },
+        "end": {
+          "status": "unknown",
+          "date_expression": null,
+          "evidence": []
+        }
+      },
+      "interpretation_note": "本句所載職官，任免時間未詳。",
+      "evidence": [
+        {
+          "work_id": "w-sanguozhi",
+          "book_id": "b-sanguozhi-059",
+          "chapter_id": "c-sanguozhi-059-he",
+          "source_id": "s-sanguozhi-059-he",
+          "paragraph_id": "c-sanguozhi-059-he:line028",
+          "quote": "孫和字子孝，慮弟也。少以母王有寵見愛，年十四，爲置宮衞，使中書令闞澤教以書藝。好學下士，甚見稱述。赤烏五年，立爲太子，時年十九。闞澤爲太傅，薛綜爲少傅，而蔡穎、張純、封俌、嚴維等皆從容侍從。",
+          "person_mention_id": "c-sanguozhi-059-he:line028:m0070"
+        }
+      ],
+      "attestations": [
+        {
+          "id": "t-wu059-he-1:a",
+          "paragraph_id": "c-sanguozhi-059-he:line028",
+          "person_mention_id": "c-sanguozhi-059-he:line028:m0070",
+          "start": 73,
+          "end": 75,
+          "surface": "少傅",
+          "usage": "narrative",
+          "date_expression": null
+        }
+      ],
+      "human_reviewed": false,
+      "reviewer": "Codex（AI 代理）",
+      "model": null,
+      "period": "未定 → 未定"
     }
   ],
   "addresses": [],
@@ -139,6 +187,41 @@
       "chapter_id": "c-sanguozhi-058-lukang",
       "source_id": "s-sanguozhi-058-lukang",
       "work_title": "三國志"
+    },
+    {
+      "number": 59,
+      "category": "",
+      "title": "孫和傳",
+      "paragraph_id": "c-sanguozhi-059-he:line028",
+      "count": 1,
+      "raw_count": 1,
+      "duplicate_count": 0,
+      "counting_policy": "independent_fixed_witness_occurrences",
+      "quote": "以書藝。好學下士，甚見稱述。赤烏五年，立爲太子，時年十九。闞澤爲太傅，薛綜爲少傅，而蔡穎、張純、封俌、嚴維等皆從容侍從。",
+      "paragraph_ids": [
+        "c-sanguozhi-059-he:line028"
+      ],
+      "mention_ids": [
+        "c-sanguozhi-059-he:line028:m0070"
+      ],
+      "mention_paragraph_ids": {
+        "c-sanguozhi-059-he:line028:m0070": "c-sanguozhi-059-he:line028"
+      },
+      "mention_id": "c-sanguozhi-059-he:line028:m0070",
+      "occurrence_groups": [
+        {
+          "canonical_mention_id": "c-sanguozhi-059-he:line028:m0070",
+          "mention_ids": [
+            "c-sanguozhi-059-he:line028:m0070"
+          ],
+          "kind": "paragraph"
+        }
+      ],
+      "work_id": "w-sanguozhi",
+      "book_id": "b-sanguozhi-059",
+      "chapter_id": "c-sanguozhi-059-he",
+      "source_id": "s-sanguozhi-059-he",
+      "work_title": "三國志"
     }
   ],
   "table_occurrences": [],
@@ -194,6 +277,33 @@
         "wikitext_sha256": "8bc2076ba31052c04c70204ac931fa655ed6b4e11c842ae2742ba05bb7b9aa10",
         "collation_witnesses": [
           "source-evidence/sanguozhi058-lukang/reading.json"
+        ]
+      }
+    },
+    {
+      "chapter_id": "c-sanguozhi-059-he",
+      "work_id": "w-sanguozhi",
+      "book_id": "b-sanguozhi-059",
+      "source_id": "s-sanguozhi-059-he",
+      "source": {
+        "title": "三國志卷五十九·吳書十四",
+        "provider": "Wikisource",
+        "url": "https://zh.wikisource.org/w/index.php?oldid=2085159",
+        "permalink": "https://zh.wikisource.org/w/index.php?oldid=2085159",
+        "revision_id": 2085159,
+        "accessed_on": "2026-11-21",
+        "edition": "維基文庫固定修訂，裴注與正文分層。",
+        "extent": "第28至36行。",
+        "text_scope": "partial_chapter",
+        "review_status": "text_checked",
+        "image_verified": false,
+        "rights": "古籍原文，維基文庫轉錄。",
+        "license_url": "https://creativecommons.org/licenses/by-sa/4.0/",
+        "raw_path": "source-evidence/sanguozhi059-princes/sanguozhi059-ws2085159.wikitext",
+        "raw_file_sha256": "2ef34ba24c5a2d61c1f4ac236905bd136212dacb0cf4efe30d4dff4ec0918bad",
+        "wikitext_sha256": "2ef34ba24c5a2d61c1f4ac236905bd136212dacb0cf4efe30d4dff4ec0918bad",
+        "collation_witnesses": [
+          "source-evidence/sanguozhi059-he/reading.json"
         ]
       }
     }

@@ -50,6 +50,51 @@
       "work_title": "南史"
     },
     {
+      "number": 38,
+      "category": "",
+      "title": "柳慶遠父叔珍及子孫",
+      "paragraph_id": "c-nanshi-038-liujingli-family:p001",
+      "count": 2,
+      "raw_count": 2,
+      "duplicate_count": 0,
+      "counting_policy": "independent_fixed_witness_occurrences",
+      "quote": "元景六弟：僧景、僧珍、叔宗、叔政、叔珍、叔仁。",
+      "paragraph_ids": [
+        "c-nanshi-038-liujingli-family:p001",
+        "c-nanshi-038-liujingli-family:p002"
+      ],
+      "mention_ids": [
+        "c-nanshi-038-liujingli-family:p001:m0000",
+        "c-nanshi-038-liujingli-family:p002:m0006"
+      ],
+      "mention_paragraph_ids": {
+        "c-nanshi-038-liujingli-family:p001:m0000": "c-nanshi-038-liujingli-family:p001",
+        "c-nanshi-038-liujingli-family:p002:m0006": "c-nanshi-038-liujingli-family:p002"
+      },
+      "mention_id": "c-nanshi-038-liujingli-family:p001:m0000",
+      "occurrence_groups": [
+        {
+          "canonical_mention_id": "c-nanshi-038-liujingli-family:p001:m0000",
+          "mention_ids": [
+            "c-nanshi-038-liujingli-family:p001:m0000"
+          ],
+          "kind": "paragraph"
+        },
+        {
+          "canonical_mention_id": "c-nanshi-038-liujingli-family:p002:m0006",
+          "mention_ids": [
+            "c-nanshi-038-liujingli-family:p002:m0006"
+          ],
+          "kind": "paragraph"
+        }
+      ],
+      "work_id": "w-nanshi",
+      "book_id": "b-nanshi-038",
+      "chapter_id": "c-nanshi-038-liujingli-family",
+      "source_id": "s-nanshi-038-liujingli-family-ws1569807",
+      "work_title": "南史"
+    },
+    {
       "number": 46,
       "category": "",
       "title": "王秀之傳",
@@ -709,6 +754,29 @@
         },
         "raw_path": "sources/nanshi/nanshi024-ws1765279.wikitext",
         "raw_file_sha256": "8fd9281c1d58e066b75c0b6cce86fff07d6e11c8ad6426459f8e0f2139a29499"
+      }
+    },
+    {
+      "chapter_id": "c-nanshi-038-liujingli-family",
+      "work_id": "w-nanshi",
+      "book_id": "b-nanshi-038",
+      "source_id": "s-nanshi-038-liujingli-family-ws1569807",
+      "source": {
+        "title": "柳慶遠父叔珍及子孫",
+        "provider": "Wikisource",
+        "permalink": "https://zh.wikisource.org/w/index.php?oldid=1569807",
+        "url": "https://zh.wikisource.org/w/index.php?oldid=1569807",
+        "revision_id": 1569807,
+        "edition": "維基文庫固定修訂",
+        "accessed_on": "2026-11-21",
+        "review_status": "text_checked",
+        "image_verified": false,
+        "rights": "古代原文；數位轉錄依維基文庫授權。",
+        "license_url": "https://creativecommons.org/licenses/by-sa/4.0/",
+        "extent": "柳慶遠父叔珍及子孫",
+        "text_scope": "partial_chapter",
+        "raw_path": "source-evidence/liang043-complete/external/nan038-ws1569807.wikitext",
+        "raw_file_sha256": "a8a9ac6648fb0f6db271b0b494948ed908913b9b6bbd44af894c86486182f74a"
       }
     },
     {
@@ -2738,6 +2806,40 @@
   ],
   "relations": [
     {
+      "id": "a-liang043-liushuzhen-yuanjing",
+      "subject_person_id": "5jc_z9b_i2n_AAD",
+      "object_person_id": "f3x_mii_8ax",
+      "predicate": "brother",
+      "qualifiers": {
+        "source_term": "元景六弟：僧景、僧珍、叔宗、叔政、叔珍、叔仁",
+        "relative_birth_order": {
+          "older_person_id": "f3x_mii_8ax",
+          "younger_person_id": "5jc_z9b_i2n_AAD",
+          "operator": "lt",
+          "scope": "siblings",
+          "older_ordinal": null,
+          "younger_ordinal": null
+        }
+      },
+      "evidence": [
+        {
+          "work_id": "w-nanshi",
+          "book_id": "b-nanshi-038",
+          "chapter_id": "c-nanshi-038-liujingli-family",
+          "source_id": "s-nanshi-038-liujingli-family-ws1569807",
+          "paragraph_id": "c-nanshi-038-liujingli-family:p001",
+          "quote": "元景六弟：僧景、僧珍、叔宗、叔政、叔珍、叔仁。",
+          "subject_person_mention_id": "c-nanshi-038-liujingli-family:p001:m0017",
+          "object_person_mention_id": "c-nanshi-038-liujingli-family:p001:m0000"
+        }
+      ],
+      "status": "source_attested",
+      "interpretation_note": "六弟之列，叔珍是元景弟。",
+      "reviewer": "Codex（AI代理）",
+      "model": null,
+      "human_reviewed": false
+    },
+    {
       "id": "a-xuanmo-liu-sengjing-younger",
       "subject_person_id": "f3x_mii_8ax",
       "object_person_id": "5jc_z9b_i2n_AAC",
@@ -2861,6 +2963,7 @@
     "5jc_z9b_i2n_A": "柳恬",
     "5jc_z9b_i2n_AA": "柳憑",
     "5jc_z9b_i2n_AAC": "柳僧景（柳元景弟）",
+    "5jc_z9b_i2n_AAD": "柳叔珍（義陽內史）",
     "f3x_mii_8ax": "柳元景"
   },
   "dates": [],
@@ -2895,6 +2998,40 @@
     "f3x_mii_8ax"
   ],
   "preferred_relations": [
+    {
+      "id": "a-liang043-liushuzhen-yuanjing",
+      "subject_person_id": "5jc_z9b_i2n_AAD",
+      "object_person_id": "f3x_mii_8ax",
+      "predicate": "brother",
+      "qualifiers": {
+        "source_term": "元景六弟：僧景、僧珍、叔宗、叔政、叔珍、叔仁",
+        "relative_birth_order": {
+          "older_person_id": "f3x_mii_8ax",
+          "younger_person_id": "5jc_z9b_i2n_AAD",
+          "operator": "lt",
+          "scope": "siblings",
+          "older_ordinal": null,
+          "younger_ordinal": null
+        }
+      },
+      "evidence": [
+        {
+          "work_id": "w-nanshi",
+          "book_id": "b-nanshi-038",
+          "chapter_id": "c-nanshi-038-liujingli-family",
+          "source_id": "s-nanshi-038-liujingli-family-ws1569807",
+          "paragraph_id": "c-nanshi-038-liujingli-family:p001",
+          "quote": "元景六弟：僧景、僧珍、叔宗、叔政、叔珍、叔仁。",
+          "subject_person_mention_id": "c-nanshi-038-liujingli-family:p001:m0017",
+          "object_person_mention_id": "c-nanshi-038-liujingli-family:p001:m0000"
+        }
+      ],
+      "status": "source_attested",
+      "interpretation_note": "六弟之列，叔珍是元景弟。",
+      "reviewer": "Codex（AI代理）",
+      "model": null,
+      "human_reviewed": false
+    },
     {
       "id": "a-xuanmo-liu-sengjing-younger",
       "subject_person_id": "f3x_mii_8ax",

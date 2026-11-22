@@ -1,0 +1,74 @@
+{
+  "format_version": "0.2",
+  "record_type": "person_assertion_set",
+  "chapter_id": "c-liangshu-008-dinglingguang-tong",
+  "assertions": [
+    {
+      "id": "a-liang007-dinglingguang-t-mother",
+      "subject_person_id": "0va_s3x_wb4",
+      "object_person_id": "2zn_kvj_dmy_A",
+      "predicate": "mother",
+      "qualifiers": {
+        "source_term": "母曰丁貴嬪",
+        "liang007_dinglingguang_reading": "t-mother"
+      },
+      "evidence": [
+        {
+          "work_id": "w-liangshu",
+          "book_id": "b-liangshu-008",
+          "source_id": "s-liangshu-008-dinglingguang-tong-ws1538023",
+          "chapter_id": "c-liangshu-008-dinglingguang-tong",
+          "paragraph_id": "c-liangshu-008-dinglingguang-tong:p001",
+          "quote": "昭明太子統字德施，高祖長子也。母曰丁貴嬪。",
+          "subject_person_mention_id": "c-liangshu-008-dinglingguang-tong:p001:m0004",
+          "object_person_mention_id": "c-liangshu-008-dinglingguang-tong:p001:m0017",
+          "relationship_anchor": {
+            "paragraph_id": "c-liangshu-008-dinglingguang-tong:p001",
+            "surface": "母曰丁貴嬪",
+            "start": 15,
+            "end": 20
+          }
+        }
+      ],
+      "status": "source_attested",
+      "interpretation_note": "昭明太子傳直接載母。",
+      "reviewer": "Codex（AI 代理）",
+      "human_reviewed": false,
+      "model": null
+    },
+    {
+      "id": "a-liang007-dinglingguang-t-father",
+      "subject_person_id": "0va_s3x_wb4",
+      "object_person_id": "fo7_f8v_rmf",
+      "predicate": "father",
+      "qualifiers": {
+        "source_term": "高祖長子",
+        "liang007_dinglingguang_reading": "t-father",
+        "lineage": "paternal"
+      },
+      "evidence": [
+        {
+          "work_id": "w-liangshu",
+          "book_id": "b-liangshu-008",
+          "source_id": "s-liangshu-008-dinglingguang-tong-ws1538023",
+          "chapter_id": "c-liangshu-008-dinglingguang-tong",
+          "paragraph_id": "c-liangshu-008-dinglingguang-tong:p001",
+          "quote": "昭明太子統字德施，高祖長子也。母曰丁貴嬪。",
+          "subject_person_mention_id": "c-liangshu-008-dinglingguang-tong:p001:m0004",
+          "object_person_reference_id": "c-liangshu-008-dinglingguang-tong:p001:r0009",
+          "relationship_anchor": {
+            "paragraph_id": "c-liangshu-008-dinglingguang-tong:p001",
+            "surface": "高祖長子",
+            "start": 9,
+            "end": 13
+          }
+        }
+      ],
+      "status": "source_attested",
+      "interpretation_note": "昭明太子為高祖長子。",
+      "reviewer": "Codex（AI 代理）",
+      "human_reviewed": false,
+      "model": null
+    }
+  ]
+}
