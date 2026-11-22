@@ -1,3 +1,4 @@
+import {setReadingDirectory} from './reading-directory.js';
 import {commentaryControls,bindCommentaryControls} from './commentary-layers.js';
 import {crossChapterReferences} from './cross-chapter-references.js';
 import {chapterDirectoryMap,sourceCitation,sourceChapterTitle} from './source-caption.js';
@@ -52,7 +53,9 @@ async function render(keepScroll=false) {
   removeWorkTitles?.(); removeWorkTitles=null;
   removeCards?.();removeCards=null;
   tableView?.destroy();tableView=null;
+  const previousWork = work?.id;
   work=manifest.works.find(w=>w.id===params.get('work')) || (!params.has('work')?manifest.works.find(w=>w.reader_kind==='corpus'):null);
+  if (previousWork && previousWork !== work?.id) $('chapter-search').value = '';
   if (!work || work.reader_kind!=='corpus' || !catalogPath(work.catalog_path)) {
     index=null;selected=null;list();$('corpus-content').innerHTML=`<p>${ui('This source is not available in the imported catalog.')}</p>`;return;
   }
@@ -60,6 +63,7 @@ async function render(keepScroll=false) {
   index=await json(work.catalog_path);
   if(current!==ticket)return;
   selected=index.chapters.find(e=>e.chapter_id===params.get('chapter') && (!params.has('book') || e.book_id===params.get('book')));
+  if (!keepScroll) setReadingDirectory(Boolean(selected || params.has('book')));
   list();
   if (!params.has('chapter') && params.has('book')) {
     const landing=volumeLanding(volumeModel(volumeDirectory,work.id,index),params.get('book'));
@@ -87,7 +91,7 @@ async function render(keepScroll=false) {
   const paragraphHTML=p=>chapterParagraph(p,{},context,workTitles,
     facsimilePageLinks(chapter.source,p.source_position)+referentInterpretations(chapter,p.id)+crossChapterReferences(chapter,p.id,volumeDirectory));
   const readingHTML=layout.primary.map(paragraphHTML).join('')+layout.archival.map(({entry,paragraph})=>`<details class="corpus-archival-excerpt" data-archival-excerpt><summary>${h(entry.label)}</summary><p class="corpus-note">這是同一固定底本的歷史節引；主文已按原行展開，原錨點與引用保留。</p>${paragraphHTML(paragraph)}</details>`).join('');
-  $('corpus-content').innerHTML=`<p class="eyebrow">${h(work.title)} · ${h(selected.book_title)}</p><h1>${h(sourceCitation(selected,chapterDirectory,workTitles))}</h1><p class="corpus-note volume-selection-scope">${ui('Selected scope')}: ${h(chapter.title)}</p><p class="corpus-note" data-source-scope>${h(chapter.source.extent)}</p><p class="corpus-note">${ui('Source text and identity review remain in progress.')}</p><p class="corpus-note">${ui('Names are underlined. Hover, focus or tap to read the person profile and family; follow links to other chapters.')}</p><nav class="chapter-pagination">${external(chapter.source.permalink,'Fixed source version')}<a href="${h(selected.path)}">${ui('Download chapter JSON')}</a></nav><details class="corpus-sources"><summary>${ui('Source & edition')}</summary><p>${h(chapter.source.rights)}</p><p>${h(chapter.source.normalization?.note || '')}</p><p>${h(chapter.source.normalization?.extraction_note || '')}</p><p><code>${h(chapter.id)}</code> · <code>${h(chapter.work_id)}</code> · <code>${h(chapter.book_id)}</code></p></details>${commentaryControls(chapter)}<article class="corpus-text" data-chapter-id="${h(chapter.id)}">${readingHTML}</article>`;
+  $('corpus-content').innerHTML=`<p class="eyebrow">${h(work.title)} · ${h(selected.book_title)}</p><h1>${h(sourceCitation(selected,chapterDirectory,workTitles))}</h1><p class="corpus-note volume-selection-scope">${ui('Selected scope')}: ${h(chapter.title)}</p><p class="corpus-note" data-source-scope>${h(chapter.source.extent)}</p><p class="corpus-note">${ui('Select an underlined name to see its profile and sources.')}</p><details class="corpus-sources"><summary>${ui('Source & edition')}</summary><p class="corpus-note">${ui('Source text and identity review remain in progress.')}</p><nav class="chapter-pagination">${external(chapter.source.permalink,'Fixed source version')}<a href="${h(selected.path)}">${ui('Download chapter JSON')}</a></nav><p>${h(chapter.source.rights)}</p><p>${h(chapter.source.normalization?.note || '')}</p><p>${h(chapter.source.normalization?.extraction_note || '')}</p><p><code>${h(chapter.id)}</code> · <code>${h(chapter.work_id)}</code> · <code>${h(chapter.book_id)}</code></p></details>${commentaryControls(chapter)}<article class="corpus-text" data-chapter-id="${h(chapter.id)}">${readingHTML}</article>`;
   removeCards=bindPersonCards($('corpus-content'));
   removeWorkTitles=bindWorkTitles($('corpus-content'));
   commentaryController=bindCommentaryControls($('corpus-content'),chapter,commentaryState);

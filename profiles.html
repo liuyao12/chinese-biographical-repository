@@ -11,9 +11,25 @@
 <link rel="stylesheet" href="assets/person-navigation.css">
 <link rel="stylesheet" href="assets/i18n.css"><link rel="stylesheet" href="assets/collection.css">
 <link rel="stylesheet" href="assets/dated-reader.css">
+<link rel="stylesheet" href="assets/public-reading.css">
 </head>
 <body>
-<header><a class="brand" href="./"><span lang="zh-Hant">人文</span> <span>REN-WEN</span></a><nav aria-label="主要導覽" data-i18n-aria-label="Project"><a href="reader.html" data-i18n="Source texts">文獻</a><a href="cbr.html" data-i18n="CBR people">人物</a><a href="works.html" data-i18n="Works · 文">著作</a><a href="places.html" data-i18n="Place names">地名</a><a href="texts.html" data-i18n="Text structure">文本層次</a><div aria-label="介面語言" class="language-switch" data-i18n-aria-label="Interface language" role="group"><button type="button" data-set-locale="zh-Hant" aria-pressed="true" lang="zh-Hant">中文</button><button type="button" data-set-locale="en" aria-pressed="false" lang="en">English</button></div></nav><small data-release-info class="release-info">r2026.09.09</small></header>
+<header><a class="brand" href="./"><span lang="zh-Hant">人文</span> <span>REN-WEN</span></a><nav class="public-nav" aria-label="主要導覽" data-i18n-aria-label="Project">
+    <a href="./?section=sources"><span data-i18n="Book catalogue">史書目錄</span></a>
+    <a href="shiji.html#category=biao"><span data-i18n="Historical tables">年表</span></a>
+    <a href="cbr.html"><span data-i18n="Person index">人物索引</span></a>
+    <details class="public-more">
+      <summary><span data-i18n="More indexes">更多索引</span></summary>
+      <div>
+        <a href="library.html"><span data-i18n="Qing biographies">清代人物傳記</span></a>
+        <a href="works.html"><span data-i18n="Works · 文">著作</span></a>
+        <a href="places.html"><span data-i18n="Place names">地名</span></a>
+        <a href="texts.html"><span data-i18n="Text structure">文本層次</span></a>
+        <a href="https://github.com/liuyao12/chinese-biographical-repository"><span data-i18n="Source and data repository ↗">史料與資料庫 ↗</span></a>
+      </div>
+    </details>
+    <div aria-label="介面語言" class="language-switch" data-i18n-aria-label="Interface language" role="group"><button type="button" data-set-locale="zh-Hant" aria-pressed="true" lang="zh-Hant">中文</button><button type="button" data-set-locale="en" aria-pressed="false" lang="en">English</button></div>
+  </nav><small data-release-info class="release-info">r2026.09.09</small></header>
 <div class="toolbar"><label for="profile-select"><span data-i18n="People · 人">人物</span></label><select aria-label="選擇人物" data-i18n-aria-label="Choose a person" id="profile-select"></select><span><span data-i18n="One biography at a time">逐篇整理，據文立傳</span></span></div>
 <main id="profile"><p role="status"><span data-i18n="Loading profiles…">正在載入人物資料…</span></p></main>
 <footer><span data-i18n="People through texts. Texts in context. · Profile changes are reviewed in the repository; no external genealogy is edited here.">以文識人，因人讀文。人物資料於程式庫中審校；本頁不修改外部家譜。</span></footer>

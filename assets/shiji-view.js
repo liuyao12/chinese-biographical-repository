@@ -1,3 +1,4 @@
+import {setReadingDirectory} from './reading-directory.js';
 import {revealSourceTarget} from './reading-layout.js';
 import {commentaryControls,bindCommentaryControls} from './commentary-layers.js';
 import {loadWorkTitles, bindWorkTitles} from './work-titles.js';
@@ -41,11 +42,27 @@ async function render(keepReadingState = false) {
   removeTextPersonCards?.(); removeTextPersonCards = null;
   tableReader?.destroy(); tableReader = null;
   selected = entry;
+  if (!keepReadingState) setReadingDirectory(Boolean(entry));
   list();
   $('person-preview').hidden = true;
+  const tablesLink = document.querySelector('.public-nav a[href="shiji.html#category=biao"]');
+  const booksLink = document.querySelector('.public-nav a[href="./?section=sources"]');
+  const inTables = (entry?.category || category) === 'biao';
+  tablesLink.setAttribute('aria-current', inTables ? 'page' : 'false');
+  booksLink.setAttribute('aria-current', inTables ? 'false' : 'page');
   if (!entry) {
     document.title = '史記 · 人文';
-    $('corpus-content').innerHTML = `<div class="chapter-intro"><p class="eyebrow">史記 · 130 篇</p><h1>${h(category === 'all' ? t('Choose a chapter') : index.categories.find(c => c.id === category).label)}</h1><p>${ui('Choose a chapter from the categorized contents to read the received text and its linked people.')}</p><p>${ui('Imported texts remain under annotation review. Missing chapters are listed without invented text.')}</p><p><a href="${chapterURL(6, 'benji')}">${ui('Read the Qin Shihuang chapter')} →</a></p><p><a href="shiji.html#category=biao">${ui('Continuous historical tables')} →</a></p><p>${ext(index.contents_source.revision_url, 'Contents source')}</p></div>`;
+    const tables = category === 'biao';
+    const title = tables ? t('Read a table') : category === 'all' ? t('Choose a chapter') : index.categories.find(c => c.id === category).label;
+    const links = tables
+      ? `<nav class="table-directory" aria-label="${h(title)}">${index.chapters.filter(c => c.category === 'biao').map(c =>
+          `<a href="${h(chapterURL(c.number, 'biao'))}">${h(c.title)}</a>`).join('')}</nav>`
+      : `<p><a href="${chapterURL(6, 'benji')}">${ui('Read the Qin Shihuang chapter')} →</a></p>`;
+    $('corpus-content').innerHTML = `<div class="chapter-intro"><p class="eyebrow">史記</p><h1>${h(title)}</h1>
+      <p>${ui(tables ? 'Open a table to follow a year or inspect the original cells.' : 'Choose a chapter from the categorized contents to read the received text and its linked people.')}</p>
+      ${links}<p>${ext(index.contents_source.revision_url, 'Contents source')}</p></div>
+      ${tables ? `<aside class="related-table"><h2>${ui('Tables in other histories')}</h2>
+        <a href="reader.html#work=w-hanshu&amp;book=b-hanshu-016&amp;chapter=table-chapter-hanshu-016">《漢書·髙惠髙后文功臣表》曲成列</a></aside>` : ''}`;
     return;
   }
   document.title = entry.title + ' · 人文';
@@ -71,7 +88,7 @@ async function render(keepReadingState = false) {
   }
   if (current !== ticket) return;
   const chapter = cache.get(number); selected = {...entry, chapter};
-  $('corpus-content').innerHTML = heading + `<p class="corpus-note">${ui('Names are underlined. Hover, focus or tap to read the person profile and family; follow links to other chapters.')}</p><p class="corpus-note">${ui('Annotation in progress · no independently reviewed edition claimed')}</p><nav class="chapter-pagination">${ext(chapter.source.permalink, 'Fixed source version')}<a href="${h(entry.path)}">${ui('Download chapter JSON')}</a></nav><details class="corpus-sources"><summary>${ui('Source & edition')}</summary><p data-original>${h(chapter.source.extent)}</p><p data-original>${h(chapter.source.rights)}</p><p data-original>${h(chapter.source.normalization?.note || '')}</p><p><code>${h(chapter.id)}</code> · <code>${h(chapter.work_id)}</code> · <code>${h(chapter.book_id)}</code></p></details>${commentaryControls(chapter)}<article class="corpus-text" data-chapter-id="${h(chapter.id)}">${chapter.paragraphs.map(p => chapterParagraph(p, people, null, workTitles, referentInterpretations(chapter, p.id, people))).join('')}</article>${navigation(entry)}`;
+  $('corpus-content').innerHTML = heading + `<p class="corpus-note">${ui('Select an underlined name to see its profile and sources.')}</p><details class="corpus-sources"><summary>${ui('Source & edition')}</summary><p class="corpus-note">${ui('Annotation in progress · no independently reviewed edition claimed')}</p><nav class="chapter-pagination">${ext(chapter.source.permalink, 'Fixed source version')}<a href="${h(entry.path)}">${ui('Download chapter JSON')}</a></nav><p data-original>${h(chapter.source.extent)}</p><p data-original>${h(chapter.source.rights)}</p><p data-original>${h(chapter.source.normalization?.note || '')}</p><p><code>${h(chapter.id)}</code> · <code>${h(chapter.work_id)}</code> · <code>${h(chapter.book_id)}</code></p></details>${commentaryControls(chapter)}<article class="corpus-text" data-chapter-id="${h(chapter.id)}">${chapter.paragraphs.map(p => chapterParagraph(p, people, null, workTitles, referentInterpretations(chapter, p.id, people))).join('')}</article>${navigation(entry)}`;
   removeTextPersonCards = bindPersonCards($('corpus-content'));
   removeWorkTitles=bindWorkTitles($('corpus-content'));
   commentaryController=bindCommentaryControls($('corpus-content'),chapter,commentaryState);
