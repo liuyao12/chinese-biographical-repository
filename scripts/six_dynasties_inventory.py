@@ -77,6 +77,18 @@ def source_paragraphs(lines, layout=None):
         except ImportError:
             from sanguozhi052_layers import project_line
         return [project_line(line)[0] for line in lines]
+    if layout == 'sanguozhi052_remaining_with_print_alternatives':
+        try:
+            from scripts.sanguozhi052_remaining_layers import passage
+        except ImportError:
+            from sanguozhi052_remaining_layers import passage
+        return passage(lines)
+    if layout == 'sanguozhi058_received_with_pei_notes':
+        try:
+            from scripts.sanguozhi058_layers import project_line
+        except ImportError:
+            from sanguozhi058_layers import project_line
+        return [project_line(line)[0] for line in lines]
     if layout == 'jin065_indented_text':
         paragraphs = []
         for line in lines:

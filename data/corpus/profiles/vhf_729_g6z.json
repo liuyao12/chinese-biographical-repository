@@ -752,6 +752,54 @@
       "period": "未定 → 未定"
     },
     {
+      "id": "th-songshu-046-zhangshao-complete-1-17",
+      "title": "晉琅邪內史",
+      "kind": "office",
+      "mode": "attestation",
+      "person_id": "vhf_729_g6z",
+      "attestations": [
+        {
+          "id": "th-songshu-046-zhangshao-complete-1-17:a",
+          "paragraph_id": "c-songshu-046-zhangshao-complete:p001",
+          "start": 17,
+          "end": 22,
+          "surface": "晉琅邪內史",
+          "person_mention_id": "c-songshu-046-zhangshao-complete:p001:m0022",
+          "usage": "narrative",
+          "date_expression": null
+        }
+      ],
+      "effective_period": {
+        "start": {
+          "status": "unknown",
+          "date_expression": null,
+          "evidence": []
+        },
+        "end": {
+          "status": "unknown",
+          "date_expression": null,
+          "evidence": []
+        }
+      },
+      "evidence": [
+        {
+          "work_id": "w-songshu",
+          "book_id": "b-songshu-046",
+          "chapter_id": "c-songshu-046-zhangshao-complete",
+          "source_id": "s-songshu-046-zhangshao-complete-ws2118581",
+          "paragraph_id": "c-songshu-046-zhangshao-complete:p001",
+          "quote": "張邵字茂宗，會稽太守裕之弟也。初為晉琅邪內史王誕龍驤府功曹，桓玄徙誕於廣州，親故咸離棄之，惟邵情意彌謹，流涕追送。時變亂饑饉，又饋送其妻子。",
+          "person_mention_id": "c-songshu-046-zhangshao-complete:p001:m0022"
+        }
+      ],
+      "status": "source_attested",
+      "interpretation_note": "所見原官稱，未載全任期。",
+      "reviewer": "Codex（AI代理）",
+      "model": null,
+      "human_reviewed": false,
+      "period": "未定 → 未定"
+    },
+    {
       "id": "th-song052-wangdan-m2-89",
       "person_id": "vhf_729_g6z",
       "title": "雉鄉侯",
@@ -2443,6 +2491,50 @@
     {
       "number": 46,
       "category": "",
+      "title": "張邵",
+      "paragraph_id": "c-songshu-046-zhangshao-complete:p001",
+      "count": 2,
+      "raw_count": 2,
+      "duplicate_count": 0,
+      "counting_policy": "independent_fixed_witness_occurrences",
+      "quote": "張邵字茂宗，會稽太守裕之弟也。初為晉琅邪內史王誕龍驤府功曹，桓玄徙誕於廣州，親故咸離棄之，惟邵情意彌謹，流涕追送。時變亂饑饉，又饋送其妻子。",
+      "paragraph_ids": [
+        "c-songshu-046-zhangshao-complete:p001"
+      ],
+      "mention_ids": [
+        "c-songshu-046-zhangshao-complete:p001:m0022",
+        "c-songshu-046-zhangshao-complete:p001:m0033"
+      ],
+      "mention_paragraph_ids": {
+        "c-songshu-046-zhangshao-complete:p001:m0022": "c-songshu-046-zhangshao-complete:p001",
+        "c-songshu-046-zhangshao-complete:p001:m0033": "c-songshu-046-zhangshao-complete:p001"
+      },
+      "mention_id": "c-songshu-046-zhangshao-complete:p001:m0022",
+      "occurrence_groups": [
+        {
+          "canonical_mention_id": "c-songshu-046-zhangshao-complete:p001:m0022",
+          "mention_ids": [
+            "c-songshu-046-zhangshao-complete:p001:m0022"
+          ],
+          "kind": "paragraph"
+        },
+        {
+          "canonical_mention_id": "c-songshu-046-zhangshao-complete:p001:m0033",
+          "mention_ids": [
+            "c-songshu-046-zhangshao-complete:p001:m0033"
+          ],
+          "kind": "paragraph"
+        }
+      ],
+      "work_id": "w-songshu",
+      "book_id": "b-songshu-046",
+      "chapter_id": "c-songshu-046-zhangshao-complete",
+      "source_id": "s-songshu-046-zhangshao-complete-ws2118581",
+      "work_title": "宋書"
+    },
+    {
+      "number": 46,
+      "category": "",
       "title": "張邵及敷、柬附傳（卷046選錄）",
       "paragraph_id": "c-songshu-046-zhangshao:p001",
       "count": 2,
@@ -3003,6 +3095,29 @@
         "edition": "文淵閣四庫全書數位轉錄；未圖校",
         "license_url": "https://creativecommons.org/publicdomain/mark/1.0/",
         "rights": "古籍原文；固定Kanripo數位見證"
+      }
+    },
+    {
+      "chapter_id": "c-songshu-046-zhangshao-complete",
+      "work_id": "w-songshu",
+      "book_id": "b-songshu-046",
+      "source_id": "s-songshu-046-zhangshao-complete-ws2118581",
+      "source": {
+        "title": "張邵",
+        "provider": "Wikisource",
+        "permalink": "https://zh.wikisource.org/w/index.php?oldid=2118581",
+        "url": "https://zh.wikisource.org/w/index.php?oldid=2118581",
+        "revision_id": 2118581,
+        "edition": "維基文庫固定修訂",
+        "accessed_on": "2026-11-21",
+        "review_status": "text_checked",
+        "image_verified": false,
+        "rights": "古代原文；數位轉錄依維基文庫授權。",
+        "license_url": "https://creativecommons.org/licenses/by-sa/4.0/",
+        "extent": "張邵",
+        "text_scope": "complete_biography_unit",
+        "raw_path": "sources/songshu/songshu046-ws2118581.wikitext",
+        "raw_file_sha256": "3df8bb0cdbc5811a0747fcca3c9ed93d3b714bf0eee0315f6946eef8968fffdf"
       }
     },
     {
@@ -4228,6 +4343,36 @@
       "book_id": "b-nanshi-023",
       "work_id": "w-nanshi",
       "source_id": "s-nanshi-023-wangdan-gu-yan-ws2478204"
+    },
+    {
+      "id": "c-songshu-046-zhangshao-complete:p001:r0043",
+      "paragraph_id": "c-songshu-046-zhangshao-complete:p001",
+      "start": 43,
+      "end": 44,
+      "surface": "之",
+      "person_id": "vhf_729_g6z",
+      "referent_role": "third_person",
+      "quote": "張邵字茂宗，會稽太守裕之弟也。初為晉琅邪內史王誕龍驤府功曹，桓玄徙誕於廣州，親故咸離棄之，惟邵情意彌謹，流涕追送。時變亂饑饉，又饋送其妻子。",
+      "note": "依本段敘事、稱謂及語者受者定。",
+      "chapter_id": "c-songshu-046-zhangshao-complete",
+      "book_id": "b-songshu-046",
+      "work_id": "w-songshu",
+      "source_id": "s-songshu-046-zhangshao-complete-ws2118581"
+    },
+    {
+      "id": "c-songshu-046-zhangshao-complete:p001:r0066",
+      "paragraph_id": "c-songshu-046-zhangshao-complete:p001",
+      "start": 66,
+      "end": 67,
+      "surface": "其",
+      "person_id": "vhf_729_g6z",
+      "referent_role": "third_person",
+      "quote": "張邵字茂宗，會稽太守裕之弟也。初為晉琅邪內史王誕龍驤府功曹，桓玄徙誕於廣州，親故咸離棄之，惟邵情意彌謹，流涕追送。時變亂饑饉，又饋送其妻子。",
+      "note": "依本段敘事、稱謂及語者受者定。",
+      "chapter_id": "c-songshu-046-zhangshao-complete",
+      "book_id": "b-songshu-046",
+      "work_id": "w-songshu",
+      "source_id": "s-songshu-046-zhangshao-complete-ws2118581"
     },
     {
       "id": "c-songshu-052-wangdan:p003:r0159",

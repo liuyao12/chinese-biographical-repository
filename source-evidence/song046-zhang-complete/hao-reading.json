@@ -1,0 +1,100 @@
+{
+  "record_type": "fixed_source_complete_item_review",
+  "reviewer": "Codex（AI代理）",
+  "model": null,
+  "human_reviewed": false,
+  "external_witnesses": [
+    {
+      "raw_path": "source-evidence/song046-zhang-complete/external/song059-ws1996693.wikitext",
+      "permalink": "https://zh.wikisource.org/w/index.php?oldid=1996693",
+      "revision_id": 1996693,
+      "line": 49,
+      "start": 0,
+      "end": 16,
+      "source_quote": "子浩，官至義陽王昶征北諮議參軍。",
+      "raw_sha256": "94c38972de8b9fe21ec29bd1443b8fc7f73989af1aafd109a0b51972a2c1adeb",
+      "interpretation": "宋卷59亦作昶。"
+    },
+    {
+      "revision_id": 1494939,
+      "raw_path": "source-evidence/nanqi049-wanghuan-item-review/external/nanshi032-ws1494939.wikitext",
+      "line": 111,
+      "start": 0,
+      "end": 17,
+      "source_quote": "暢子浩，官至義陽王昶征北諮議參軍。",
+      "raw_sha256": "15c2de7372e19c4330803394c90b8fb62ace4280a0a8b70cd6afc5ecd8c863e5",
+      "interpretation": "南32兩端同具。"
+    }
+  ],
+  "print_readings": [
+    {
+      "url": "https://upload.wikimedia.org/wikipedia/commons/7/75/NLC892-411999017142-12779_%E4%BA%8C%E5%8D%81%E5%9B%9B%E5%8F%B2_%E7%AC%AC144%E5%86%8A.pdf#page=54",
+      "catalog_record": "https://commons.wikimedia.org/wiki/File:NLC892-411999017142-12779_%E4%BA%8C%E5%8D%81%E5%9B%9B%E5%8F%B2_%E7%AC%AC144%E5%86%8A.pdf",
+      "pdf_sha1": "126c34411892f6943a575a15ee46fb0064bd5b7b",
+      "pdf_sha256": "316229a8587d188289a7fa2dac393760437ca7facf5deb7a3bfa09770b4a1ac3",
+      "image_sha256": "8a54a30a87036df4429d3f1ba51a9c7a38a067867e804d79d966f4317584d6a4",
+      "edition": "清乾隆四年武英殿本《宋書》，國圖第144冊。",
+      "page": 54,
+      "half": "L",
+      "folio": "十二上",
+      "columns_from_right": "8–9",
+      "source_quote": "暢子浩官至義陽王昶征北諮議參軍",
+      "reading": "第8欄底至右起第9欄；王名為昶，右旁日。"
+    }
+  ],
+  "boundaries": [
+    {
+      "book_id": "b-songshu-046",
+      "title": "張浩",
+      "unit_kind": "embedded_account",
+      "chapter_id": "c-songshu-046-zhanghao-complete",
+      "entry_checked": true,
+      "full_text": true,
+      "first_pass": true,
+      "item_reviewed": true,
+      "first_line": 80,
+      "start_codepoint": 0,
+      "last_line": 80,
+      "end_codepoint": 17,
+      "opening": "暢子浩，官至義陽王昶",
+      "closing": "陽王昶征北諮議參軍。",
+      "parent_heading": "張暢",
+      "chapter_path": "corpus/songshu/046-zhanghao-complete.json",
+      "paragraph_ids": [
+        "c-songshu-046-zhanghao-complete:p001"
+      ],
+      "item_review_path": "source-evidence/song046-zhang-complete/hao-reading.json"
+    }
+  ],
+  "chronology": [],
+  "readings": [
+    {
+      "id": "c-songshu-046-zhanghao-complete:received_sentence1-0",
+      "kind": "received_sentence",
+      "person_id": "d50_8f5_wul_AAABAA",
+      "source_quote": "暢子浩，官至義陽王昶征北諮議參軍。",
+      "reading": "張暢之子張浩，仕至義陽王劉昶征北府諮議參軍。",
+      "note": "張暢之子張浩，仕至義陽王劉昶征北府諮議參軍。",
+      "paragraph_id": "c-songshu-046-zhanghao-complete:p001",
+      "start_codepoint": 0,
+      "end_codepoint": 17,
+      "human_reviewed": false
+    },
+    {
+      "id": "c-songshu-046-zhanghao-complete:kinship1-0",
+      "kind": "kinship",
+      "person_id": "d50_8f5_wul_AAABAA",
+      "source_quote": "暢子浩",
+      "reading": "父子具名，張浩承父暢。",
+      "note": "父子具名，張浩承父暢。",
+      "paragraph_id": "c-songshu-046-zhanghao-complete:p001",
+      "start_codepoint": 0,
+      "end_codepoint": 3,
+      "human_reviewed": false,
+      "predicate": "father",
+      "subject_person_id": "d50_8f5_wul_AAABAA",
+      "object_person_id": "d50_8f5_wul_AAABA"
+    }
+  ],
+  "identity_limits": []
+}

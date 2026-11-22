@@ -6,7 +6,8 @@
   "identity_note": "只依完整王懿傳上下文辨識；後補正文資格與自述遠祖限制另記。",
   "review": "ai_provisional",
   "names": [
-    "沈林子"
+    "沈林子",
+    "林子"
   ],
   "titles": [
     {
@@ -212,6 +213,41 @@
       "chapter_id": "c-songshu-046-wangyi",
       "source_id": "s-songshu-046-wangyi",
       "work_title": "宋書"
+    },
+    {
+      "number": 57,
+      "category": "",
+      "title": "沈田子父子原句",
+      "paragraph_id": "c-nanshi-057-shentianzi-zhao-family:p001",
+      "count": 1,
+      "raw_count": 1,
+      "duplicate_count": 0,
+      "counting_policy": "independent_fixed_witness_occurrences",
+      "quote": "唯穆夫子深子、雲子、田子、林子、虔子獲全。",
+      "paragraph_ids": [
+        "c-nanshi-057-shentianzi-zhao-family:p001"
+      ],
+      "mention_ids": [
+        "c-nanshi-057-shentianzi-zhao-family:p001:m0013"
+      ],
+      "mention_paragraph_ids": {
+        "c-nanshi-057-shentianzi-zhao-family:p001:m0013": "c-nanshi-057-shentianzi-zhao-family:p001"
+      },
+      "mention_id": "c-nanshi-057-shentianzi-zhao-family:p001:m0013",
+      "occurrence_groups": [
+        {
+          "canonical_mention_id": "c-nanshi-057-shentianzi-zhao-family:p001:m0013",
+          "mention_ids": [
+            "c-nanshi-057-shentianzi-zhao-family:p001:m0013"
+          ],
+          "kind": "paragraph"
+        }
+      ],
+      "work_id": "w-nanshi",
+      "book_id": "b-nanshi-057",
+      "chapter_id": "c-nanshi-057-shentianzi-zhao-family",
+      "source_id": "s-nanshi-057-shentianzi-zhao-family-ws1484916",
+      "work_title": "南史"
     }
   ],
   "table_occurrences": [],
@@ -237,6 +273,29 @@
         "text_scope": "complete_biography_unit",
         "raw_path": "source-evidence/song046-wangyi-complete/external/ws12757141.wikitext",
         "raw_file_sha256": "7c28b60e43f51d2c524ca29994d917bfea883896e31bb1cc1ec2c995a9cf9480"
+      }
+    },
+    {
+      "chapter_id": "c-nanshi-057-shentianzi-zhao-family",
+      "work_id": "w-nanshi",
+      "book_id": "b-nanshi-057",
+      "source_id": "s-nanshi-057-shentianzi-zhao-family-ws1484916",
+      "source": {
+        "title": "沈田子父子原句",
+        "provider": "Wikisource",
+        "permalink": "https://zh.wikisource.org/w/index.php?oldid=1484916",
+        "url": "https://zh.wikisource.org/w/index.php?oldid=1484916",
+        "revision_id": 1484916,
+        "edition": "維基文庫固定修訂",
+        "accessed_on": "2026-11-21",
+        "review_status": "text_checked",
+        "image_verified": false,
+        "rights": "古代原文；數位轉錄依維基文庫授權。",
+        "license_url": "https://creativecommons.org/licenses/by-sa/4.0/",
+        "extent": "沈田子父子原句",
+        "text_scope": "partial_chapter",
+        "raw_path": "source-evidence/song046-zhang-complete/external/nan057-ws1484916.wikitext",
+        "raw_file_sha256": "74d78dc0225319da0b2e2a19ee9f0151c3af1cef6a947b1bb3f07ad120c66af9"
       }
     },
     {
@@ -297,9 +356,41 @@
       }
     }
   ],
-  "relations": [],
+  "relations": [
+    {
+      "id": "a-song046-zhao-shenlinzi-father",
+      "subject_person_id": "r3p_0a4_n85",
+      "object_person_id": "xtk_38i_cg1",
+      "predicate": "father",
+      "qualifiers": {
+        "source_term": "穆夫子深子、雲子、田子、林子、虔子",
+        "source_clause_binding": {
+          "kind": "song046_zhao_exact_family"
+        },
+        "lineage": "paternal"
+      },
+      "evidence": [
+        {
+          "work_id": "w-nanshi",
+          "book_id": "b-nanshi-057",
+          "chapter_id": "c-nanshi-057-shentianzi-zhao-family",
+          "source_id": "s-nanshi-057-shentianzi-zhao-family-ws1484916",
+          "paragraph_id": "c-nanshi-057-shentianzi-zhao-family:p001",
+          "quote": "唯穆夫子深子、雲子、田子、林子、虔子獲全。",
+          "subject_person_mention_id": "c-nanshi-057-shentianzi-zhao-family:p001:m0013",
+          "object_person_mention_id": "c-nanshi-057-shentianzi-zhao-family:p001:m0001"
+        }
+      ],
+      "status": "source_attested",
+      "interpretation_note": "對照既發林子號；已用號續存。",
+      "reviewer": "Codex（AI代理）",
+      "model": null,
+      "human_reviewed": false
+    }
+  ],
   "related_people": {
-    "r3p_0a4_n85": "沈林子"
+    "r3p_0a4_n85": "沈林子",
+    "xtk_38i_cg1": "沈穆夫（沈田子、沈林子父）"
   },
   "dates": [],
   "name_components": [],
@@ -331,7 +422,38 @@
   "person_ids": [
     "r3p_0a4_n85"
   ],
-  "preferred_relations": [],
+  "preferred_relations": [
+    {
+      "id": "a-song046-zhao-shenlinzi-father",
+      "subject_person_id": "r3p_0a4_n85",
+      "object_person_id": "xtk_38i_cg1",
+      "predicate": "father",
+      "qualifiers": {
+        "source_term": "穆夫子深子、雲子、田子、林子、虔子",
+        "source_clause_binding": {
+          "kind": "song046_zhao_exact_family"
+        },
+        "lineage": "paternal"
+      },
+      "evidence": [
+        {
+          "work_id": "w-nanshi",
+          "book_id": "b-nanshi-057",
+          "chapter_id": "c-nanshi-057-shentianzi-zhao-family",
+          "source_id": "s-nanshi-057-shentianzi-zhao-family-ws1484916",
+          "paragraph_id": "c-nanshi-057-shentianzi-zhao-family:p001",
+          "quote": "唯穆夫子深子、雲子、田子、林子、虔子獲全。",
+          "subject_person_mention_id": "c-nanshi-057-shentianzi-zhao-family:p001:m0013",
+          "object_person_mention_id": "c-nanshi-057-shentianzi-zhao-family:p001:m0001"
+        }
+      ],
+      "status": "source_attested",
+      "interpretation_note": "對照既發林子號；已用號續存。",
+      "reviewer": "Codex（AI代理）",
+      "model": null,
+      "human_reviewed": false
+    }
+  ],
   "age_assertions": [],
   "life_events": [],
   "life_event_date_decisions": [],

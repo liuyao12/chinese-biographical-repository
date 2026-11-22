@@ -1,0 +1,138 @@
+{
+  "format_version": "0.2",
+  "record_type": "marked_chapter",
+  "id": "c-songshu-046-zhanghao-complete",
+  "work_id": "w-songshu",
+  "book_id": "b-songshu-046",
+  "source_id": "s-songshu-046-zhanghao-complete-ws2118581",
+  "title": "張浩",
+  "source": {
+    "title": "張浩",
+    "provider": "Wikisource",
+    "permalink": "https://zh.wikisource.org/w/index.php?oldid=2118581",
+    "url": "https://zh.wikisource.org/w/index.php?oldid=2118581",
+    "revision_id": 2118581,
+    "edition": "維基文庫固定修訂",
+    "accessed_on": "2026-11-21",
+    "review_status": "text_checked",
+    "image_verified": false,
+    "rights": "古代原文；數位轉錄依維基文庫授權。",
+    "license_url": "https://creativecommons.org/licenses/by-sa/4.0/",
+    "extent": "張浩",
+    "text_scope": "complete_biography_unit",
+    "raw_path": "sources/songshu/songshu046-ws2118581.wikitext",
+    "raw_file_sha256": "3df8bb0cdbc5811a0747fcca3c9ed93d3b714bf0eee0315f6946eef8968fffdf"
+  },
+  "annotation": {
+    "status": "reviewed",
+    "reviewer": "Codex（AI代理）",
+    "model": null,
+    "human_reviewed": false,
+    "person_reference_occurrences": [
+      {
+        "id": "c-songshu-046-zhanghao-complete:p001:r0001",
+        "paragraph_id": "c-songshu-046-zhanghao-complete:p001",
+        "start": 1,
+        "end": 2,
+        "surface": "子",
+        "person_id": "d50_8f5_wul_AAABAA",
+        "referent_role": "third_person",
+        "quote": "暢子浩，官至義陽王昶征北諮議參軍。",
+        "note": "依本段敘事、稱謂及語者受者定。"
+      }
+    ],
+    "source_reading_cases": [
+      {
+        "id": "c-songshu-046-zhanghao-complete:received_sentence1-0",
+        "kind": "received_sentence",
+        "person_id": "d50_8f5_wul_AAABAA",
+        "source_quote": "暢子浩，官至義陽王昶征北諮議參軍。",
+        "reading": "張暢之子張浩，仕至義陽王劉昶征北府諮議參軍。",
+        "note": "張暢之子張浩，仕至義陽王劉昶征北府諮議參軍。",
+        "paragraph_id": "c-songshu-046-zhanghao-complete:p001",
+        "start_codepoint": 0,
+        "end_codepoint": 17,
+        "human_reviewed": false
+      },
+      {
+        "id": "c-songshu-046-zhanghao-complete:kinship1-0",
+        "kind": "kinship",
+        "person_id": "d50_8f5_wul_AAABAA",
+        "source_quote": "暢子浩",
+        "reading": "父子具名，張浩承父暢。",
+        "note": "父子具名，張浩承父暢。",
+        "paragraph_id": "c-songshu-046-zhanghao-complete:p001",
+        "start_codepoint": 0,
+        "end_codepoint": 3,
+        "human_reviewed": false,
+        "predicate": "father",
+        "subject_person_id": "d50_8f5_wul_AAABAA",
+        "object_person_id": "d50_8f5_wul_AAABA"
+      }
+    ]
+  },
+  "paragraphs": [
+    {
+      "id": "c-songshu-046-zhanghao-complete:p001",
+      "text": "暢子浩，官至義陽王昶征北諮議參軍。",
+      "text_layer": "received_chapter",
+      "annotation_status": "reviewed",
+      "source_position": {
+        "first_line": 80,
+        "last_line": 80,
+        "raw_start": 6992,
+        "raw_end": 7009,
+        "raw_character_offsets": [
+          6992,
+          6993,
+          6994,
+          6995,
+          6996,
+          6997,
+          6998,
+          6999,
+          7000,
+          7001,
+          7002,
+          7003,
+          7004,
+          7005,
+          7006,
+          7007,
+          7008
+        ],
+        "revision_id": 2118581
+      },
+      "mentions": [
+        {
+          "id": "c-songshu-046-zhanghao-complete:p001:m0000",
+          "start": 0,
+          "end": 1,
+          "surface": "暢",
+          "kind": "person",
+          "person_id": "d50_8f5_wul_AAABA",
+          "status": "contextual_provisional"
+        },
+        {
+          "id": "c-songshu-046-zhanghao-complete:p001:m0002",
+          "start": 2,
+          "end": 3,
+          "surface": "浩",
+          "kind": "person",
+          "person_id": "d50_8f5_wul_AAABAA",
+          "status": "contextual_provisional"
+        },
+        {
+          "id": "c-songshu-046-zhanghao-complete:p001:m0006",
+          "start": 6,
+          "end": 10,
+          "surface": "義陽王昶",
+          "kind": "person",
+          "person_id": "g9z_y41_l95",
+          "status": "contextual_provisional"
+        }
+      ]
+    }
+  ],
+  "text_sha256": "ef06eef7ba28fd9907b0adbac330febe9e8278fb254cdb8dbac3c1ef0adfa6ea"
+}

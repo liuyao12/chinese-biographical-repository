@@ -601,6 +601,19 @@ def _validate_uncached(root=ROOT):
             except ImportError: from jin096_zhong_and_guan import errors as jin96_zhong_errors
             errors.extend(jin96_zhong_errors(d, root))
             errors.extend(vyd71_source_errors(d, root))
+            if d['id']=='c-songshu-080-yinshuyi-wyd':
+                try: from scripts.song080_yinshuyi_wyd import errors as s80wyd_errors
+                except ImportError: from song080_yinshuyi_wyd import errors as s80wyd_errors
+                errors.extend(s80wyd_errors(d,root))
+            try: from scripts.nanshi011_yinshuyi import errors as nan11ys_errors
+            except ImportError: from nanshi011_yinshuyi import errors as nan11ys_errors
+            errors.extend(nan11ys_errors(d,root))
+            try: from scripts.nanshi011_helingwan import errors as nan11hw_errors
+            except ImportError: from nanshi011_helingwan import errors as nan11hw_errors
+            errors.extend(nan11hw_errors(d,root))
+            try: from scripts.nanshi011_luhuinan import errors as nan11hn_errors
+            except ImportError: from nanshi011_luhuinan import errors as nan11hn_errors
+            errors.extend(nan11hn_errors(d,root))
             try: from scripts.nanqi043_wangsiyuan import errors as qi43siy_errors
             except ImportError: from nanqi043_wangsiyuan import errors as qi43siy_errors
             errors.extend(qi43siy_errors(d,root))
@@ -1589,6 +1602,18 @@ def _validate_uncached(root=ROOT):
                 try: from scripts.nanqi043_wangsiyuan import side_errors as qi43siy_side_errors
                 except ImportError: from nanqi043_wangsiyuan import side_errors as qi43siy_side_errors
                 errors.extend(qi43siy_side_errors(d,chapters[d['chapter_id']],root,'holdings'))
+            if d['chapter_id'] in chapters:
+                try: from scripts.nanshi011_luhuinan import side_errors as nan11hn_side_errors
+                except ImportError: from nanshi011_luhuinan import side_errors as nan11hn_side_errors
+                errors.extend(nan11hn_side_errors(d,chapters[d['chapter_id']],root,'holdings'))
+            if d['chapter_id'] in chapters:
+                try: from scripts.nanshi011_helingwan import side_errors as nan11hw_side_errors
+                except ImportError: from nanshi011_helingwan import side_errors as nan11hw_side_errors
+                errors.extend(nan11hw_side_errors(d,chapters[d['chapter_id']],root,'holdings'))
+            if d['chapter_id'] in chapters:
+                try: from scripts.nanshi011_yinshuyi import side_errors as nan11ys_side_errors
+                except ImportError: from nanshi011_yinshuyi import side_errors as nan11ys_side_errors
+                errors.extend(nan11ys_side_errors(d,chapters[d['chapter_id']],root,'holdings'))
             for h in d['holdings']:
                 check(h['id'] not in title_ids,'稱號持有 ID 重複');title_ids.add(h['id'])
                 check(h['person_id'] in pids and bool(h['title']),'稱號持有人或用稱無效')
@@ -2527,6 +2552,18 @@ def _validate_uncached(root=ROOT):
                 try: from scripts.nanqi043_wangsiyuan import side_errors as qi43siy_side_errors
                 except ImportError: from nanqi043_wangsiyuan import side_errors as qi43siy_side_errors
                 errors.extend(qi43siy_side_errors(d,chapters[d['chapter_id']],root,'assertions'))
+            if d['chapter_id'] in chapters:
+                try: from scripts.nanshi011_luhuinan import side_errors as nan11hn_side_errors
+                except ImportError: from nanshi011_luhuinan import side_errors as nan11hn_side_errors
+                errors.extend(nan11hn_side_errors(d,chapters[d['chapter_id']],root,'assertions'))
+            if d['chapter_id'] in chapters:
+                try: from scripts.nanshi011_helingwan import side_errors as nan11hw_side_errors
+                except ImportError: from nanshi011_helingwan import side_errors as nan11hw_side_errors
+                errors.extend(nan11hw_side_errors(d,chapters[d['chapter_id']],root,'assertions'))
+            if d['chapter_id'] in chapters:
+                try: from scripts.nanshi011_yinshuyi import side_errors as nan11ys_side_errors
+                except ImportError: from nanshi011_yinshuyi import side_errors as nan11ys_side_errors
+                errors.extend(nan11ys_side_errors(d,chapters[d['chapter_id']],root,'assertions'))
             for a in d['assertions']:
                 check(a['id'] not in aids,'人物陳述 ID 重複');aids.add(a['id'])
                 check(a['subject_person_id'] in pids and a['object_person_id'] in pids,'人物陳述引用未知人物')
@@ -2937,6 +2974,24 @@ def _validate_uncached(root=ROOT):
                     except ImportError: from nanqi043_wangsiyuan import kin_valid as qi43siy_kin_valid
                     qi43siy_valid=qi43siy_kin_valid(a,chapters[d['chapter_id']],root)
                     check(qi43siy_valid,'本傳親屬原字及其方向須相符')
+                nan11hn_valid=False
+                if 'nanshi011_luhuinan_reading' in qualifiers:
+                    try: from scripts.nanshi011_luhuinan import kin_valid as nan11hn_kin_valid
+                    except ImportError: from nanshi011_luhuinan import kin_valid as nan11hn_kin_valid
+                    nan11hn_valid=nan11hn_kin_valid(a,chapters[d['chapter_id']],root)
+                    check(nan11hn_valid,'本傳親屬原字及其方向須相符')
+                nan11hw_valid=False
+                if 'nanshi011_helingwan_reading' in qualifiers:
+                    try: from scripts.nanshi011_helingwan import kin_valid as nan11hw_kin_valid
+                    except ImportError: from nanshi011_helingwan import kin_valid as nan11hw_kin_valid
+                    nan11hw_valid=nan11hw_kin_valid(a,chapters[d['chapter_id']],root)
+                    check(nan11hw_valid,'本傳親屬原字及其方向須相符')
+                nan11ys_valid=False
+                if 'nanshi011_yinshuyi_reading' in qualifiers:
+                    try: from scripts.nanshi011_yinshuyi import kin_valid as nan11ys_kin_valid
+                    except ImportError: from nanshi011_yinshuyi import kin_valid as nan11ys_kin_valid
+                    nan11ys_valid=nan11ys_kin_valid(a,chapters[d['chapter_id']],root)
+                    check(nan11ys_valid,'本傳親屬原字及其方向須相符')
                 qi23_valid = False
                 if 'qi23_kin_frame' in qualifiers:
                     try: from scripts.qi023_wangjian_witnesses import kin_valid as qi23_kin_valid
@@ -3009,7 +3064,7 @@ def _validate_uncached(root=ROOT):
                         from scripts.non_parental_family import non_parental_relation_valid
                     except ModuleNotFoundError:
                         from non_parental_family import non_parental_relation_valid
-                    check(tai21_valid or pei_valid or n22jian_valid or qi23_valid or ((nan23qiu_valid and qualifiers.get('nan023_wangqiu_reading')=='huan-successor') or ((nan23huan_valid and qualifiers.get('nan023_wanghuan_reading')=='successor') or (n24hong_valid and qualifiers.get('nanshi024_wanghongzhi_reading')=='care') or (hongzhi_valid and qualifiers.get('song093_hongzhi_reading')=='care') or (s93wyd_valid and qualifiers.get('song093_wyd_reading')=='care') or non_parental_relation_valid(a, paragraphs, family_relations))), '撫養或宗祀承繼須有雙人錨點與原詞，不得推成生父母或法定收養')
+                    check(tai21_valid or pei_valid or n22jian_valid or qi23_valid or ((nan23qiu_valid and qualifiers.get('nan023_wangqiu_reading')=='huan-successor') or ((nan23huan_valid and qualifiers.get('nan023_wanghuan_reading')=='successor') or (n24hong_valid and qualifiers.get('nanshi024_wanghongzhi_reading')=='care') or (hongzhi_valid and qualifiers.get('song093_hongzhi_reading')=='care') or (s93wyd_valid and qualifiers.get('song093_wyd_reading')=='care') or (nan11hn_valid and a['predicate']=='raised_by' and qualifiers.get('nanshi011_luhuinan_reading') in ('m-raised','s-raised')) or non_parental_relation_valid(a, paragraphs, family_relations))), '撫養或宗祀承繼須有雙人錨點與原詞，不得推成生父母或法定收養')
                 if a['predicate'] == 'agnatic_senior_kin':
                     check('kinship_structure' in qualifiers, '父系晚一代稱謂缺少世代結構')
                 if a['predicate'] == 'maternal_cousin':
@@ -3017,6 +3072,8 @@ def _validate_uncached(root=ROOT):
                 if 'adopted_for_family_tree' in qualifiers:
                     if nan23chu_valid and qualifiers.get('nan023_chuzhanzhi_reading') in ('son','younger'):
                         check(qualifiers.get('adopted_for_family_tree') is False and a['predicate'] in ('father','brother'), '親稱不同的兩源陳述不得冒作唯一家系')
+                    elif nan11ys_valid and a['id']=='a-nanshi011-yinshuyi-m-yixuan-reported':
+                        check(a['predicate']=='father' and qualifiers.get('adopted_for_family_tree') is False and bool(qualifiers.get('alternative_account')), '義宣女說與殷琰家人異說須並存')
                     elif qualifiers.get('ancestry_precision') == 'reported_generation_formula':
                         try:
                             from scripts.unspecified_ancestry import reported_generation_formula_valid
@@ -3153,6 +3210,8 @@ def _validate_uncached(root=ROOT):
                     terms = ('異母',) if qualifiers['shared_mother'] is False else ('同母', '母弟', '母兄')
                     if nan24meng_valid and qualifiers.get('nanshi024_wangmeng_reading') == 'deng-yong' and qualifiers['shared_mother'] is True:
                         terms = (*terms, '同產弟')
+                    if nan11ys_valid and qualifiers.get('shared_mother') is True:
+                        terms = (*terms, '同生')
                     check(a['predicate'] in ('brother', 'sister') and type(qualifiers['shared_mother']) is bool
                           and any(term in qualifiers.get('source_term', '')
                                   and any(term in e.get('quote', '') for e in a['evidence']) for term in terms),
@@ -3422,6 +3481,11 @@ def _validate_uncached(root=ROOT):
                                 try: from scripts.song092_lugu import valid as song92_lugu
                                 except ImportError: from song092_lugu import valid as song92_lugu
                                 check(song92_lugu(a,e,chapters[e['chapter_id']]), '盧嘏與盧諶隔代世系須經盧循本傳首尾兩段合證')
+                                continue
+                            if qualifiers.get('source_clause_binding', {}).get('kind') == 'song046_zhao_exact_family':
+                                try: from scripts.song046_zhao_family import valid as song46_zhao_kin
+                                except ImportError: from song046_zhao_family import valid as song46_zhao_kin
+                                check(song46_zhao_kin(a, e, chapters[e['chapter_id']], root), '趙氏卷親屬須對應固定原段的稱親字及兩端人物')
                                 continue
                             if qualifiers.get('reading_basis', {}).get('kind') == 'song092_prose_kin':
                                 try: from scripts.song092_officials_kin import valid as song92_kin
@@ -3699,6 +3763,12 @@ def _validate_uncached(root=ROOT):
                                 check(qi42yan_valid,'本傳親屬的兩端姓名或稱謂有誤')
                             elif 'nanqi043_wangsiyuan_reading' in qualifiers:
                                 check(qi43siy_valid,'本傳親屬的兩端姓名或稱謂有誤')
+                            elif 'nanshi011_luhuinan_reading' in qualifiers:
+                                check(nan11hn_valid,'本傳親屬的兩端姓名或稱謂有誤')
+                            elif 'nanshi011_helingwan_reading' in qualifiers:
+                                check(nan11hw_valid,'本傳親屬的兩端姓名或稱謂有誤')
+                            elif 'nanshi011_yinshuyi_reading' in qualifiers:
+                                check(nan11ys_valid,'本傳親屬的兩端姓名或稱謂有誤')
                             elif 'wyd_song071_kin_frame' in qualifiers:
                                 try: from scripts.wyd_song071_wang import kin_valid as wyd71_kin_valid
                                 except ImportError: from wyd_song071_wang import kin_valid as wyd71_kin_valid
@@ -3912,6 +3982,10 @@ def _validate_uncached(root=ROOT):
                             from subject_continuation import prior_subject_valid
                         carried_age_subject = prior_subject_valid(evidence['context'], evidence, age['person_id'], chapter)
                         check(carried_age_subject, '來源年齡省略主語承接無效')
+                    if age.get('id')=='age-nanshi011-luhuinan-song-fifty-five':
+                        try: from scripts.nanshi011_luhuinan import age_recipient as lu_age_recipient
+                        except ImportError: from nanshi011_luhuinan import age_recipient as lu_age_recipient
+                        carried_age_subject=lu_age_recipient(age,evidence,chapter,root)
                     if evidence.get('person_reference_id') and chapter['id']=='c-songshu-041-wangzhenfeng':
                         try: from scripts.song041_wang_obituaries import valid as royal_obituary
                         except ImportError: from song041_wang_obituaries import valid as royal_obituary
@@ -4335,6 +4409,18 @@ def _validate_uncached(root=ROOT):
                 try: from scripts.nanqi043_wangsiyuan import side_errors as qi43siy_side_errors
                 except ImportError: from nanqi043_wangsiyuan import side_errors as qi43siy_side_errors
                 errors.extend(qi43siy_side_errors(record,chapters[record['chapter_id']],root,'events'))
+            if record['chapter_id'] in chapters:
+                try: from scripts.nanshi011_luhuinan import side_errors as nan11hn_side_errors
+                except ImportError: from nanshi011_luhuinan import side_errors as nan11hn_side_errors
+                errors.extend(nan11hn_side_errors(record,chapters[record['chapter_id']],root,'events'))
+            if record['chapter_id'] in chapters:
+                try: from scripts.nanshi011_helingwan import side_errors as nan11hw_side_errors
+                except ImportError: from nanshi011_helingwan import side_errors as nan11hw_side_errors
+                errors.extend(nan11hw_side_errors(record,chapters[record['chapter_id']],root,'events'))
+            if record['chapter_id'] in chapters:
+                try: from scripts.nanshi011_yinshuyi import side_errors as nan11ys_side_errors
+                except ImportError: from nanshi011_yinshuyi import side_errors as nan11ys_side_errors
+                errors.extend(nan11ys_side_errors(record,chapters[record['chapter_id']],root,'events'))
             for event in record['events']:
                 check(event['id'] not in life_event_ids, '生卒事件ID重複'); life_event_ids.add(event['id'])
                 check(event['person_id'] in pids and event['event_type'] in (('birth', 'death') if record.get('record_type') == 'person_life_event_assertion_set' else ('recruitment', 'burial', 'office_non_reinstatement', 'office_restoration', 'diplomatic_service', 'noble_state_abolition', 'noble_title_succession', 'noble_title_restoration')), '生卒事件人物或類型無效')
@@ -4838,6 +4924,21 @@ def _validate_uncached(root=ROOT):
                         try: from scripts.nanqi043_wangsiyuan import death_valid as qi43siy_death_valid
                         except ImportError: from nanqi043_wangsiyuan import death_valid as qi43siy_death_valid
                         carried_subject=qi43siy_death_valid(event,evidence,chapters[record['chapter_id']],root)
+                        check(carried_subject,'本傳諸卒各繫本人')
+                    if event['id'].startswith('le-nanshi011-luhuinan-'):
+                        try: from scripts.nanshi011_luhuinan import death_valid as nan11hn_death_valid
+                        except ImportError: from nanshi011_luhuinan import death_valid as nan11hn_death_valid
+                        carried_subject=nan11hn_death_valid(event,evidence,chapters[record['chapter_id']],root)
+                        check(carried_subject,'本傳諸卒各繫本人')
+                    if event['id'].startswith('le-nanshi011-helingwan-'):
+                        try: from scripts.nanshi011_helingwan import death_valid as nan11hw_death_valid
+                        except ImportError: from nanshi011_helingwan import death_valid as nan11hw_death_valid
+                        carried_subject=nan11hw_death_valid(event,evidence,chapters[record['chapter_id']],root)
+                        check(carried_subject,'本傳諸卒各繫本人')
+                    if event['id'].startswith('le-nanshi011-yinshuyi-'):
+                        try: from scripts.nanshi011_yinshuyi import death_valid as nan11ys_death_valid
+                        except ImportError: from nanshi011_yinshuyi import death_valid as nan11ys_death_valid
+                        carried_subject=nan11ys_death_valid(event,evidence,chapters[record['chapter_id']],root)
                         check(carried_subject,'本傳諸卒各繫本人')
                     if event['id']=='le-nanqi023-taizu':
                         try: from scripts.qi023_wangjian_witnesses import death_subject_valid as qi23_death_subject_valid

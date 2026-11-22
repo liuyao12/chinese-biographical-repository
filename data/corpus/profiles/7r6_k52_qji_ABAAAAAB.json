@@ -689,6 +689,54 @@
       "model": null,
       "human_reviewed": false,
       "period": "未定 → 未定"
+    },
+    {
+      "id": "th-nanshi011-luhuinan-s4-4",
+      "person_id": "7r6_k52_qji_ABAAAAAB",
+      "title": "太常",
+      "kind": "office",
+      "mode": "attestation",
+      "attestations": [
+        {
+          "id": "th-nanshi011-luhuinan-s4-4:a",
+          "person_mention_id": "c-songshu-041-luhuinan:p004:m0006",
+          "usage": "narrative",
+          "date_expression": null,
+          "paragraph_id": "c-songshu-041-luhuinan:p004",
+          "surface": "太常",
+          "start": 4,
+          "end": 6
+        }
+      ],
+      "effective_period": {
+        "start": {
+          "status": "unknown",
+          "date_expression": null,
+          "evidence": []
+        },
+        "end": {
+          "status": "unknown",
+          "date_expression": null,
+          "evidence": []
+        }
+      },
+      "evidence": [
+        {
+          "work_id": "w-songshu",
+          "book_id": "b-songshu-041",
+          "source_id": "s-songshu-041-luhuinan-ws2634831",
+          "chapter_id": "c-songshu-041-luhuinan",
+          "paragraph_id": "c-songshu-041-luhuinan:p004",
+          "quote": "瓊之宅與太常王僧達並門。嘗盛車服衞從造僧達，僧達不為之禮。瓊之以訴太后，太后大怒，告上曰：「我尚在，而人皆陵我家，死後乞食矣。」欲罪僧達。上曰：「瓊之年少，自不宜輕造詣。王僧達貴公子，豈可以此事加罪。」",
+          "person_mention_id": "c-songshu-041-luhuinan:p004:m0006"
+        }
+      ],
+      "status": "source_attested",
+      "interpretation_note": "按本見證原職名及其所屬人。",
+      "reviewer": "Codex（AI 代理）",
+      "human_reviewed": false,
+      "model": null,
+      "period": "未定 → 未定"
     }
   ],
   "addresses": [],
@@ -1303,6 +1351,77 @@
       "chapter_id": "c-nanqishu-033-wangsengqian",
       "source_id": "s-nanqishu-033-wangsengqian",
       "work_title": "南齊書"
+    },
+    {
+      "number": 41,
+      "category": "",
+      "title": "文帝路淑媛",
+      "paragraph_id": "c-songshu-041-luhuinan:p004",
+      "count": 5,
+      "raw_count": 5,
+      "duplicate_count": 0,
+      "counting_policy": "independent_fixed_witness_occurrences",
+      "quote": "瓊之宅與太常王僧達並門。嘗盛車服衞從造僧達，僧達不為之禮。瓊之以訴太后，太后大怒，告上曰：「我尚在，而人皆陵我家，死後乞食矣。」欲罪僧達。上曰：「瓊之年少，自不宜輕造詣。王僧達貴公子，豈可以此事加罪。」",
+      "paragraph_ids": [
+        "c-songshu-041-luhuinan:p004"
+      ],
+      "mention_ids": [
+        "c-songshu-041-luhuinan:p004:m0006",
+        "c-songshu-041-luhuinan:p004:m0019",
+        "c-songshu-041-luhuinan:p004:m0022",
+        "c-songshu-041-luhuinan:p004:m0066",
+        "c-songshu-041-luhuinan:p004:m0085"
+      ],
+      "mention_paragraph_ids": {
+        "c-songshu-041-luhuinan:p004:m0006": "c-songshu-041-luhuinan:p004",
+        "c-songshu-041-luhuinan:p004:m0019": "c-songshu-041-luhuinan:p004",
+        "c-songshu-041-luhuinan:p004:m0022": "c-songshu-041-luhuinan:p004",
+        "c-songshu-041-luhuinan:p004:m0066": "c-songshu-041-luhuinan:p004",
+        "c-songshu-041-luhuinan:p004:m0085": "c-songshu-041-luhuinan:p004"
+      },
+      "mention_id": "c-songshu-041-luhuinan:p004:m0006",
+      "occurrence_groups": [
+        {
+          "canonical_mention_id": "c-songshu-041-luhuinan:p004:m0006",
+          "mention_ids": [
+            "c-songshu-041-luhuinan:p004:m0006"
+          ],
+          "kind": "paragraph"
+        },
+        {
+          "canonical_mention_id": "c-songshu-041-luhuinan:p004:m0019",
+          "mention_ids": [
+            "c-songshu-041-luhuinan:p004:m0019"
+          ],
+          "kind": "paragraph"
+        },
+        {
+          "canonical_mention_id": "c-songshu-041-luhuinan:p004:m0022",
+          "mention_ids": [
+            "c-songshu-041-luhuinan:p004:m0022"
+          ],
+          "kind": "paragraph"
+        },
+        {
+          "canonical_mention_id": "c-songshu-041-luhuinan:p004:m0066",
+          "mention_ids": [
+            "c-songshu-041-luhuinan:p004:m0066"
+          ],
+          "kind": "paragraph"
+        },
+        {
+          "canonical_mention_id": "c-songshu-041-luhuinan:p004:m0085",
+          "mention_ids": [
+            "c-songshu-041-luhuinan:p004:m0085"
+          ],
+          "kind": "paragraph"
+        }
+      ],
+      "work_id": "w-songshu",
+      "book_id": "b-songshu-041",
+      "chapter_id": "c-songshu-041-luhuinan",
+      "source_id": "s-songshu-041-luhuinan-ws2634831",
+      "work_title": "宋書"
     },
     {
       "number": 42,
@@ -5688,6 +5807,99 @@
           "character_conversion": {},
           "extraction_note": "僅去不轉換標記的界符。"
         }
+      }
+    },
+    {
+      "chapter_id": "c-songshu-041-luhuinan",
+      "work_id": "w-songshu",
+      "book_id": "b-songshu-041",
+      "source_id": "s-songshu-041-luhuinan-ws2634831",
+      "source": {
+        "title": "宋書卷41·文帝路淑媛",
+        "provider": "Wikisource",
+        "url": "https://zh.wikisource.org/w/index.php?oldid=2634831",
+        "permalink": "https://zh.wikisource.org/w/index.php?oldid=2634831",
+        "revision_id": 2634831,
+        "accessed_on": "2026-11-21",
+        "edition": "維基文庫固定數位轉錄",
+        "extent": "固定修訂原行218至232。本傳全文。",
+        "text_scope": "complete_biography_unit",
+        "image_verified": false,
+        "review_status": "text_checked",
+        "raw_path": "sources/songshu/songshu041-ws2634831.wikitext",
+        "raw_file_sha256": "9bbc04376eabe39a2e58ca12fb45068b667ae57102a566f557d564efb9556d55",
+        "rights": "古代原典及維基文庫數位轉錄。",
+        "license_url": "https://zh.wikisource.org/wiki/Wikisource:著作權資訊",
+        "normalization": {
+          "character_conversion": {},
+          "extraction_note": "固定原碼點投影。年號與書內連結保留顯示字，夾注留在來源層。",
+          "verified_blank_line_gaps": [
+            {
+              "source_lines": [
+                219,
+                219
+              ],
+              "raw_quote": "",
+              "raw_quote_sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+              "revision_id": 2634831
+            },
+            {
+              "source_lines": [
+                221,
+                221
+              ],
+              "raw_quote": "",
+              "raw_quote_sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+              "revision_id": 2634831
+            },
+            {
+              "source_lines": [
+                223,
+                223
+              ],
+              "raw_quote": "",
+              "raw_quote_sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+              "revision_id": 2634831
+            },
+            {
+              "source_lines": [
+                225,
+                225
+              ],
+              "raw_quote": "",
+              "raw_quote_sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+              "revision_id": 2634831
+            },
+            {
+              "source_lines": [
+                227,
+                227
+              ],
+              "raw_quote": "",
+              "raw_quote_sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+              "revision_id": 2634831
+            },
+            {
+              "source_lines": [
+                229,
+                229
+              ],
+              "raw_quote": "",
+              "raw_quote_sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+              "revision_id": 2634831
+            },
+            {
+              "source_lines": [
+                231,
+                231
+              ],
+              "raw_quote": "",
+              "raw_quote_sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+              "revision_id": 2634831
+            }
+          ]
+        },
+        "section_locator": "文帝路淑媛"
       }
     },
     {
