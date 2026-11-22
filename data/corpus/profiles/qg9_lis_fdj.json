@@ -7,11 +7,56 @@
   "review": "ai_provisional",
   "names": [
     "華譚",
-    "譚"
+    "譚",
+    "令思"
   ],
   "titles": [],
   "addresses": [],
   "occurrences": [
+    {
+      "number": 52,
+      "category": "",
+      "title": "晉書卷五十二·華譚祖父與父親",
+      "paragraph_id": "c-jinshu-052-huatan-wu064-ancestry:p001",
+      "count": 2,
+      "raw_count": 2,
+      "duplicate_count": 0,
+      "counting_policy": "independent_fixed_witness_occurrences",
+      "quote": "華譚，字令思，廣陵人也。祖融，吳左將軍、錄尚書事。父諝，吳黃門郎。",
+      "paragraph_ids": [
+        "c-jinshu-052-huatan-wu064-ancestry:p001"
+      ],
+      "mention_ids": [
+        "c-jinshu-052-huatan-wu064-ancestry:p001:m0000",
+        "c-jinshu-052-huatan-wu064-ancestry:p001:m0004"
+      ],
+      "mention_paragraph_ids": {
+        "c-jinshu-052-huatan-wu064-ancestry:p001:m0000": "c-jinshu-052-huatan-wu064-ancestry:p001",
+        "c-jinshu-052-huatan-wu064-ancestry:p001:m0004": "c-jinshu-052-huatan-wu064-ancestry:p001"
+      },
+      "mention_id": "c-jinshu-052-huatan-wu064-ancestry:p001:m0000",
+      "occurrence_groups": [
+        {
+          "canonical_mention_id": "c-jinshu-052-huatan-wu064-ancestry:p001:m0000",
+          "mention_ids": [
+            "c-jinshu-052-huatan-wu064-ancestry:p001:m0000"
+          ],
+          "kind": "paragraph"
+        },
+        {
+          "canonical_mention_id": "c-jinshu-052-huatan-wu064-ancestry:p001:m0004",
+          "mention_ids": [
+            "c-jinshu-052-huatan-wu064-ancestry:p001:m0004"
+          ],
+          "kind": "paragraph"
+        }
+      ],
+      "work_id": "w-jinshu",
+      "book_id": "b-jinshu-052",
+      "chapter_id": "c-jinshu-052-huatan-wu064-ancestry",
+      "source_id": "s-jinshu-052-huatan-wu064-ancestry-ws2604575",
+      "work_title": "晉書"
+    },
     {
       "number": 61,
       "category": "",
@@ -79,6 +124,29 @@
   "table_occurrences": [],
   "sources": [
     {
+      "chapter_id": "c-jinshu-052-huatan-wu064-ancestry",
+      "work_id": "w-jinshu",
+      "book_id": "b-jinshu-052",
+      "source_id": "s-jinshu-052-huatan-wu064-ancestry-ws2604575",
+      "source": {
+        "title": "晉書卷五十二·華譚祖父與父親",
+        "provider": "Wikisource",
+        "permalink": "https://zh.wikisource.org/w/index.php?oldid=2604575",
+        "url": "https://zh.wikisource.org/w/index.php?oldid=2604575",
+        "revision_id": 2604575,
+        "edition": "維基文庫固定修訂",
+        "accessed_on": "2026-11-21",
+        "review_status": "text_checked",
+        "image_verified": false,
+        "rights": "古代原文；數位轉錄依維基文庫授權。",
+        "license_url": "https://creativecommons.org/licenses/by-sa/4.0/",
+        "extent": "晉書卷五十二·華譚祖父與父親",
+        "text_scope": "partial_chapter",
+        "raw_path": "source-evidence/sanguozhi064-roll/external/jin052-ws2604575.wikitext",
+        "raw_file_sha256": "bc23c6fb49d83914c3f16c54b867415d8da7e44bee413a61cefb0c18cac5a212"
+      }
+    },
+    {
       "chapter_id": "c-jinshu-061-zhou-family",
       "work_id": "w-jinshu",
       "book_id": "b-jinshu-061",
@@ -104,16 +172,89 @@
       }
     }
   ],
-  "relations": [],
+  "relations": [
+    {
+      "id": "a-wu064-tan-xu-father",
+      "subject_person_id": "qg9_lis_fdj",
+      "object_person_id": "cwx_3y8_7ha_A",
+      "predicate": "father",
+      "qualifiers": {
+        "source_term": "父諝",
+        "lineage": "paternal"
+      },
+      "evidence": [
+        {
+          "work_id": "w-jinshu",
+          "book_id": "b-jinshu-052",
+          "chapter_id": "c-jinshu-052-huatan-wu064-ancestry",
+          "source_id": "s-jinshu-052-huatan-wu064-ancestry-ws2604575",
+          "paragraph_id": "c-jinshu-052-huatan-wu064-ancestry:p001",
+          "quote": "華譚，字令思，廣陵人也。祖融，吳左將軍、錄尚書事。父諝，吳黃門郎。",
+          "subject_person_mention_id": "c-jinshu-052-huatan-wu064-ancestry:p001:m0000",
+          "object_person_mention_id": "c-jinshu-052-huatan-wu064-ancestry:p001:m0026"
+        }
+      ],
+      "status": "source_attested",
+      "interpretation_note": "晉書華譚傳以華融為祖、黃門郎華諝為父。與吳書孫綝傳裴引文士傳世次不同。",
+      "reviewer": "Codex（AI代理）",
+      "model": null,
+      "human_reviewed": false
+    }
+  ],
   "related_people": {
+    "cwx_3y8_7ha_A": "華諝（華融子，吳黃門郎）",
     "qg9_lis_fdj": "華譚"
   },
   "dates": [],
   "name_components": [],
+  "source_reading_cases": [
+    {
+      "id": "c-jinshu-052-huatan-wu064-ancestry:source_comparison1-0",
+      "kind": "source_comparison",
+      "person_id": "qg9_lis_fdj",
+      "source_quote": "華譚，字令思，廣陵人也。祖融，吳左將軍、錄尚書事。父諝，吳黃門郎。",
+      "reading": "晉書以融為祖、諝為父；文士傳傳句「融子諝，黃門郎……次子譚」形同父子相承，世次不同。兩書俱載吳黃門郎諝及晉秘書監譚。",
+      "note": "晉書以融為祖、諝為父；文士傳傳句「融子諝，黃門郎……次子譚」形同父子相承，世次不同。兩書俱載吳黃門郎諝及晉秘書監譚。",
+      "paragraph_id": "c-jinshu-052-huatan-wu064-ancestry:p001",
+      "start_codepoint": 0,
+      "end_codepoint": 33,
+      "human_reviewed": false,
+      "chapter_id": "c-jinshu-052-huatan-wu064-ancestry",
+      "source_id": "s-jinshu-052-huatan-wu064-ancestry-ws2604575"
+    }
+  ],
   "person_ids": [
     "qg9_lis_fdj"
   ],
-  "preferred_relations": [],
+  "preferred_relations": [
+    {
+      "id": "a-wu064-tan-xu-father",
+      "subject_person_id": "qg9_lis_fdj",
+      "object_person_id": "cwx_3y8_7ha_A",
+      "predicate": "father",
+      "qualifiers": {
+        "source_term": "父諝",
+        "lineage": "paternal"
+      },
+      "evidence": [
+        {
+          "work_id": "w-jinshu",
+          "book_id": "b-jinshu-052",
+          "chapter_id": "c-jinshu-052-huatan-wu064-ancestry",
+          "source_id": "s-jinshu-052-huatan-wu064-ancestry-ws2604575",
+          "paragraph_id": "c-jinshu-052-huatan-wu064-ancestry:p001",
+          "quote": "華譚，字令思，廣陵人也。祖融，吳左將軍、錄尚書事。父諝，吳黃門郎。",
+          "subject_person_mention_id": "c-jinshu-052-huatan-wu064-ancestry:p001:m0000",
+          "object_person_mention_id": "c-jinshu-052-huatan-wu064-ancestry:p001:m0026"
+        }
+      ],
+      "status": "source_attested",
+      "interpretation_note": "晉書華譚傳以華融為祖、黃門郎華諝為父。與吳書孫綝傳裴引文士傳世次不同。",
+      "reviewer": "Codex（AI代理）",
+      "model": null,
+      "human_reviewed": false
+    }
+  ],
   "age_assertions": [],
   "life_events": [],
   "life_event_date_decisions": [],
