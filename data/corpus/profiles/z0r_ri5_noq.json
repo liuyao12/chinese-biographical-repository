@@ -131,6 +131,60 @@
       "chapter_id": "c-sanguozhi-052-zhangzhao-complete",
       "source_id": "s-sanguozhi-052-zhangzhao-complete",
       "work_title": "三國志"
+    },
+    {
+      "number": 58,
+      "category": "",
+      "title": "陸遜傳",
+      "paragraph_id": "c-sanguozhi-058-luxun:line040",
+      "count": 3,
+      "raw_count": 3,
+      "duplicate_count": 0,
+      "counting_policy": "independent_fixed_witness_occurrences",
+      "quote": "權遂征夷州，得不補失。及公孫淵背盟，權欲往征。遜上疏曰：",
+      "paragraph_ids": [
+        "c-sanguozhi-058-luxun:line040",
+        "c-sanguozhi-058-luxun:line041"
+      ],
+      "mention_ids": [
+        "c-sanguozhi-058-luxun:line040:m0012",
+        "c-sanguozhi-058-luxun:line041:m0000",
+        "c-sanguozhi-058-luxun:line041:m0252"
+      ],
+      "mention_paragraph_ids": {
+        "c-sanguozhi-058-luxun:line040:m0012": "c-sanguozhi-058-luxun:line040",
+        "c-sanguozhi-058-luxun:line041:m0000": "c-sanguozhi-058-luxun:line041",
+        "c-sanguozhi-058-luxun:line041:m0252": "c-sanguozhi-058-luxun:line041"
+      },
+      "mention_id": "c-sanguozhi-058-luxun:line040:m0012",
+      "occurrence_groups": [
+        {
+          "canonical_mention_id": "c-sanguozhi-058-luxun:line040:m0012",
+          "mention_ids": [
+            "c-sanguozhi-058-luxun:line040:m0012"
+          ],
+          "kind": "paragraph"
+        },
+        {
+          "canonical_mention_id": "c-sanguozhi-058-luxun:line041:m0000",
+          "mention_ids": [
+            "c-sanguozhi-058-luxun:line041:m0000"
+          ],
+          "kind": "paragraph"
+        },
+        {
+          "canonical_mention_id": "c-sanguozhi-058-luxun:line041:m0252",
+          "mention_ids": [
+            "c-sanguozhi-058-luxun:line041:m0252"
+          ],
+          "kind": "paragraph"
+        }
+      ],
+      "work_id": "w-sanguozhi",
+      "book_id": "b-sanguozhi-058",
+      "chapter_id": "c-sanguozhi-058-luxun",
+      "source_id": "s-sanguozhi-058-luxun",
+      "work_title": "三國志"
     }
   ],
   "table_occurrences": [],
@@ -160,6 +214,34 @@
         "collation_witnesses": [
           "source-evidence/sanguozhi052-gu-family/reading.json",
           "source-evidence/sanguozhi052-zhangzhao/reading.json"
+        ]
+      }
+    },
+    {
+      "chapter_id": "c-sanguozhi-058-luxun",
+      "work_id": "w-sanguozhi",
+      "book_id": "b-sanguozhi-058",
+      "source_id": "s-sanguozhi-058-luxun",
+      "source": {
+        "title": "三國志卷五十八·吳書十三",
+        "provider": "Wikisource",
+        "url": "https://zh.wikisource.org/w/index.php?oldid=2131313",
+        "permalink": "https://zh.wikisource.org/w/index.php?oldid=2131313",
+        "revision_id": 2131313,
+        "accessed_on": "2026-11-21",
+        "edition": "維基文庫固定修訂，裴注與正文分層。",
+        "extent": "第11至57行。",
+        "text_scope": "partial_chapter",
+        "review_status": "text_checked",
+        "image_verified": false,
+        "rights": "古籍原文，維基文庫轉錄。",
+        "license_url": "https://creativecommons.org/licenses/by-sa/4.0/",
+        "raw_path": "source-evidence/sanguozhi058-lu/sanguozhi058-ws2131313.wikitext",
+        "raw_file_sha256": "8bc2076ba31052c04c70204ac931fa655ed6b4e11c842ae2742ba05bb7b9aa10",
+        "wikitext_sha256": "8bc2076ba31052c04c70204ac931fa655ed6b4e11c842ae2742ba05bb7b9aa10",
+        "collation_witnesses": [
+          "source-evidence/sanguozhi058-lu-ancestors/reading.json",
+          "source-evidence/sanguozhi058-luxun/reading.json"
         ]
       }
     }

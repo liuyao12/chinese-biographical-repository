@@ -1,0 +1,117 @@
+{
+  "record_type": "fixed_source_complete_item_review",
+  "reviewer": "Codex（AI代理）",
+  "model": null,
+  "human_reviewed": false,
+  "external_witnesses": [
+    {
+      "raw_path": "source-evidence/song046-zhang-complete/external/nan018-ws7904750.wikitext",
+      "permalink": "https://zh.wikisource.org/w/index.php?oldid=7904750",
+      "revision_id": 7904750,
+      "line": 13,
+      "start": 177,
+      "end": 190,
+      "source_quote": "傳國至孫勖，齊受禪，國除。",
+      "raw_sha256": "352005e8a6f8c6aea44bef215fc2e99bda93f980750db38b546063b2cb082b2c",
+      "interpretation": "南史孫名勖。"
+    },
+    {
+      "revision_id": 2312009,
+      "raw_path": "source-evidence/nanshi022-wangjian/nanqi002-ws2312009.wikitext",
+      "line": 11,
+      "start": 0,
+      "end": 18,
+      "source_quote": "建元元年夏四月甲午，上即皇帝位於南郊",
+      "raw_sha256": "336ce89c3a62671c73192ac1c3d91e5cde2cdd7d42568bf624058bf70805ce9e",
+      "interpretation": "齊高帝本紀具即位日；此日不作勗死或襲爵之日。"
+    }
+  ],
+  "print_readings": [
+    {
+      "url": "https://upload.wikimedia.org/wikipedia/commons/7/75/NLC892-411999017142-12779_%E4%BA%8C%E5%8D%81%E5%9B%9B%E5%8F%B2_%E7%AC%AC144%E5%86%8A.pdf#page=44",
+      "catalog_record": "https://commons.wikimedia.org/wiki/File:NLC892-411999017142-12779_%E4%BA%8C%E5%8D%81%E5%9B%9B%E5%8F%B2_%E7%AC%AC144%E5%86%8A.pdf",
+      "pdf_sha1": "126c34411892f6943a575a15ee46fb0064bd5b7b",
+      "pdf_sha256": "316229a8587d188289a7fa2dac393760437ca7facf5deb7a3bfa09770b4a1ac3",
+      "image_sha256": "82a0e47b2a8423a3b80688885920498c0dbb4d85452edb8320faa38f58326827",
+      "edition": "清乾隆四年武英殿本《宋書》，國圖第144冊。",
+      "page": 44,
+      "half": "L",
+      "folio": "二上",
+      "columns_from_right": "8–9",
+      "source_quote": "傳國至孫勗齊受禪國除",
+      "reading": "第8欄末到第9欄；右第10欄另起王懿。"
+    }
+  ],
+  "boundaries": [
+    {
+      "book_id": "b-songshu-046",
+      "title": "趙勗",
+      "unit_kind": "embedded_account",
+      "parent_heading": "趙伯符",
+      "chapter_id": "c-songshu-046-zhaoxu-complete",
+      "entry_checked": true,
+      "full_text": true,
+      "first_pass": true,
+      "item_reviewed": true,
+      "first_line": 15,
+      "start_codepoint": 324,
+      "last_line": 15,
+      "end_codepoint": 337,
+      "opening": "傳國至孫勗，齊受禪，國除",
+      "closing": "國至孫勗，齊受禪，國除。",
+      "chapter_path": "corpus/songshu/046-zhaoxu-complete.json",
+      "paragraph_ids": [
+        "c-songshu-046-zhaoxu-complete:p001"
+      ],
+      "item_review_path": "source-evidence/song046-zhang-complete/xu-reading.json"
+    }
+  ],
+  "chronology": [],
+  "readings": [
+    {
+      "id": "c-songshu-046-zhaoxu-complete:received_sentence1-0",
+      "kind": "received_sentence",
+      "person_id": "r5n_x7v_cwf_ACA*A",
+      "source_quote": "傳國至孫勗，齊受禪，國除。",
+      "reading": "伯符的封國傳至孫勗；齊受宋禪後國除。",
+      "note": "伯符的封國傳至孫勗；齊受宋禪後國除。",
+      "paragraph_id": "c-songshu-046-zhaoxu-complete:p001",
+      "start_codepoint": 0,
+      "end_codepoint": 13,
+      "human_reviewed": false
+    },
+    {
+      "id": "c-songshu-046-zhaoxu-complete:kinship_and_succession1-0",
+      "kind": "kinship_and_succession",
+      "person_id": "r5n_x7v_cwf_ACA*A",
+      "source_quote": "傳國至孫勗",
+      "reading": "勗為伯符孫，未明其父，更不能確定生父是倩。南史同句作勖。",
+      "note": "勗為伯符孫，未明其父，更不能確定生父是倩。南史同句作勖。",
+      "paragraph_id": "c-songshu-046-zhaoxu-complete:p001",
+      "start_codepoint": 0,
+      "end_codepoint": 5,
+      "human_reviewed": false,
+      "grandfather": "r5n_x7v_cwf_ACA",
+      "father": null,
+      "assertion_id": "a-song046-zhao-xu-grandfather",
+      "parallel_glyph": "勖"
+    },
+    {
+      "id": "c-songshu-046-zhaoxu-complete:era_context1-6",
+      "kind": "era_context",
+      "person_id": "r5n_x7v_cwf_ACA*A",
+      "source_quote": "齊受禪，國除",
+      "reading": "宋齊易代在昇明三年／建元元年（479）。國除之時和勗生卒二者相別；承國不晚於479。",
+      "note": "宋齊易代在昇明三年／建元元年（479）。國除之時和勗生卒二者相別；承國不晚於479。",
+      "paragraph_id": "c-songshu-046-zhaoxu-complete:p001",
+      "start_codepoint": 6,
+      "end_codepoint": 12,
+      "human_reviewed": false,
+      "year": 479,
+      "event": "封國廢除",
+      "inherited_not_after": 479,
+      "death_year": null
+    }
+  ],
+  "identity_limits": []
+}

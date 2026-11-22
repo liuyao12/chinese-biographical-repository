@@ -63,6 +63,50 @@
       "chapter_id": "c-sanguozhi-052-gutan-complete",
       "source_id": "s-sanguozhi-052-gutan-complete",
       "work_title": "三國志"
+    },
+    {
+      "number": 58,
+      "category": "",
+      "title": "陸遜傳",
+      "paragraph_id": "c-sanguozhi-058-luxun:line055",
+      "count": 2,
+      "raw_count": 2,
+      "duplicate_count": 0,
+      "counting_policy": "independent_fixed_witness_occurrences",
+      "quote": "利。若其不佳，終為取禍。且聞二宮勢敵，必有彼此，此古人之厚忌也。”琮子寄，果阿附魯王，輕為交構。遜書與琮曰：「卿不師日磾，而宿留阿寄，終為足下門戶致禍矣。」琮既不納，更以致隙。及太子有不安之儀，遜上疏陳：「太子正統，宜有磐石之固，魯王藩臣，當使寵秩有差，彼此得所，上下獲安",
+      "paragraph_ids": [
+        "c-sanguozhi-058-luxun:line055"
+      ],
+      "mention_ids": [
+        "c-sanguozhi-058-luxun:line055:m0082",
+        "c-sanguozhi-058-luxun:line055:m0112"
+      ],
+      "mention_paragraph_ids": {
+        "c-sanguozhi-058-luxun:line055:m0082": "c-sanguozhi-058-luxun:line055",
+        "c-sanguozhi-058-luxun:line055:m0112": "c-sanguozhi-058-luxun:line055"
+      },
+      "mention_id": "c-sanguozhi-058-luxun:line055:m0082",
+      "occurrence_groups": [
+        {
+          "canonical_mention_id": "c-sanguozhi-058-luxun:line055:m0082",
+          "mention_ids": [
+            "c-sanguozhi-058-luxun:line055:m0082"
+          ],
+          "kind": "paragraph"
+        },
+        {
+          "canonical_mention_id": "c-sanguozhi-058-luxun:line055:m0112",
+          "mention_ids": [
+            "c-sanguozhi-058-luxun:line055:m0112"
+          ],
+          "kind": "paragraph"
+        }
+      ],
+      "work_id": "w-sanguozhi",
+      "book_id": "b-sanguozhi-058",
+      "chapter_id": "c-sanguozhi-058-luxun",
+      "source_id": "s-sanguozhi-058-luxun",
+      "work_title": "三國志"
     }
   ],
   "table_occurrences": [],
@@ -93,6 +137,34 @@
           "source-evidence/sanguozhi052-gutan/reading.json"
         ]
       }
+    },
+    {
+      "chapter_id": "c-sanguozhi-058-luxun",
+      "work_id": "w-sanguozhi",
+      "book_id": "b-sanguozhi-058",
+      "source_id": "s-sanguozhi-058-luxun",
+      "source": {
+        "title": "三國志卷五十八·吳書十三",
+        "provider": "Wikisource",
+        "url": "https://zh.wikisource.org/w/index.php?oldid=2131313",
+        "permalink": "https://zh.wikisource.org/w/index.php?oldid=2131313",
+        "revision_id": 2131313,
+        "accessed_on": "2026-11-21",
+        "edition": "維基文庫固定修訂，裴注與正文分層。",
+        "extent": "第11至57行。",
+        "text_scope": "partial_chapter",
+        "review_status": "text_checked",
+        "image_verified": false,
+        "rights": "古籍原文，維基文庫轉錄。",
+        "license_url": "https://creativecommons.org/licenses/by-sa/4.0/",
+        "raw_path": "source-evidence/sanguozhi058-lu/sanguozhi058-ws2131313.wikitext",
+        "raw_file_sha256": "8bc2076ba31052c04c70204ac931fa655ed6b4e11c842ae2742ba05bb7b9aa10",
+        "wikitext_sha256": "8bc2076ba31052c04c70204ac931fa655ed6b4e11c842ae2742ba05bb7b9aa10",
+        "collation_witnesses": [
+          "source-evidence/sanguozhi058-lu-ancestors/reading.json",
+          "source-evidence/sanguozhi058-luxun/reading.json"
+        ]
+      }
     }
   ],
   "relations": [
@@ -117,6 +189,32 @@
         }
       ],
       "interpretation_note": "此條按本句所明言。",
+      "status": "source_attested",
+      "reviewer": "Codex（AI 代理）",
+      "human_reviewed": false,
+      "model": null
+    },
+    {
+      "id": "a-wu058-ji-cong",
+      "subject_person_id": "984_9e1_5e9_A",
+      "object_person_id": "984_9e1_5e9",
+      "predicate": "father",
+      "qualifiers": {
+        "source_term": "琮子寄"
+      },
+      "evidence": [
+        {
+          "work_id": "w-sanguozhi",
+          "book_id": "b-sanguozhi-058",
+          "chapter_id": "c-sanguozhi-058-luxun",
+          "source_id": "s-sanguozhi-058-luxun",
+          "paragraph_id": "c-sanguozhi-058-luxun:line055",
+          "quote": "先是，二宮並闕，中外職司，多遣子弟給侍。全琮報遜，遜以為“子弟苟有才，不憂不用，不宜私出以要榮利。若其不佳，終為取禍。且聞二宮勢敵，必有彼此，此古人之厚忌也。”琮子寄，果阿附魯王，輕為交構。遜書與琮曰：「卿不師日磾，而宿留阿寄，終為足下門戶致禍矣。」琮既不納，更以致隙。及太子有不安之儀，遜上疏陳：「太子正統，宜有磐石之固，魯王藩臣，當使寵秩有差，彼此得所，上下獲安。謹叩頭流血以聞。」書三四上，及求詣都，欲口論適庶之分，以匡得失。既不聽許，而遜外生顧譚、顧承、姚信，工以親附太子，枉見流徙。太子太傅吾粲坐數與遜交書，下獄死。權累遣中使責讓遜，遜憤恚致卒，時年六十三。家無餘財。",
+          "subject_person_mention_id": "c-sanguozhi-058-luxun:line055:m0082",
+          "object_person_mention_id": "c-sanguozhi-058-luxun:line055:m0021"
+        }
+      ],
+      "interpretation_note": "以此來源所述兩端為據。",
       "status": "source_attested",
       "reviewer": "Codex（AI 代理）",
       "human_reviewed": false,
@@ -172,6 +270,32 @@
         }
       ],
       "interpretation_note": "此條按本句所明言。",
+      "status": "source_attested",
+      "reviewer": "Codex（AI 代理）",
+      "human_reviewed": false,
+      "model": null
+    },
+    {
+      "id": "a-wu058-ji-cong",
+      "subject_person_id": "984_9e1_5e9_A",
+      "object_person_id": "984_9e1_5e9",
+      "predicate": "father",
+      "qualifiers": {
+        "source_term": "琮子寄"
+      },
+      "evidence": [
+        {
+          "work_id": "w-sanguozhi",
+          "book_id": "b-sanguozhi-058",
+          "chapter_id": "c-sanguozhi-058-luxun",
+          "source_id": "s-sanguozhi-058-luxun",
+          "paragraph_id": "c-sanguozhi-058-luxun:line055",
+          "quote": "先是，二宮並闕，中外職司，多遣子弟給侍。全琮報遜，遜以為“子弟苟有才，不憂不用，不宜私出以要榮利。若其不佳，終為取禍。且聞二宮勢敵，必有彼此，此古人之厚忌也。”琮子寄，果阿附魯王，輕為交構。遜書與琮曰：「卿不師日磾，而宿留阿寄，終為足下門戶致禍矣。」琮既不納，更以致隙。及太子有不安之儀，遜上疏陳：「太子正統，宜有磐石之固，魯王藩臣，當使寵秩有差，彼此得所，上下獲安。謹叩頭流血以聞。」書三四上，及求詣都，欲口論適庶之分，以匡得失。既不聽許，而遜外生顧譚、顧承、姚信，工以親附太子，枉見流徙。太子太傅吾粲坐數與遜交書，下獄死。權累遣中使責讓遜，遜憤恚致卒，時年六十三。家無餘財。",
+          "subject_person_mention_id": "c-sanguozhi-058-luxun:line055:m0082",
+          "object_person_mention_id": "c-sanguozhi-058-luxun:line055:m0021"
+        }
+      ],
+      "interpretation_note": "以此來源所述兩端為據。",
       "status": "source_attested",
       "reviewer": "Codex（AI 代理）",
       "human_reviewed": false,

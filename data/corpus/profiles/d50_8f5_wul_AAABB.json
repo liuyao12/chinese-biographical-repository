@@ -6,11 +6,65 @@
   "identity_note": "059完整單元與固定平行來源上下文暫定辨識；不用同姓／同字自動接族。",
   "review": "ai_provisional",
   "names": [
-    "牧"
+    "牧",
+    "枚"
   ],
   "titles": [],
   "addresses": [],
   "occurrences": [
+    {
+      "number": 46,
+      "category": "",
+      "title": "張暢",
+      "paragraph_id": "c-songshu-046-zhangchang-complete:p002",
+      "count": 3,
+      "raw_count": 3,
+      "duplicate_count": 0,
+      "counting_policy": "independent_fixed_witness_occurrences",
+      "quote": "秀。起家為太守徐佩之主簿，佩之被誅，暢馳出奔赴，制服盡哀，時論美之。弟枚嘗為猘犬所傷，醫者云食蝦蟇可療，枚難之。暢含笑先嘗，枚因此乃食，由是遂愈。累遷太子中庶子。",
+      "paragraph_ids": [
+        "c-songshu-046-zhangchang-complete:p002"
+      ],
+      "mention_ids": [
+        "c-songshu-046-zhangchang-complete:p002:m0052",
+        "c-songshu-046-zhangchang-complete:p002:m0069",
+        "c-songshu-046-zhangchang-complete:p002:m0079"
+      ],
+      "mention_paragraph_ids": {
+        "c-songshu-046-zhangchang-complete:p002:m0052": "c-songshu-046-zhangchang-complete:p002",
+        "c-songshu-046-zhangchang-complete:p002:m0069": "c-songshu-046-zhangchang-complete:p002",
+        "c-songshu-046-zhangchang-complete:p002:m0079": "c-songshu-046-zhangchang-complete:p002"
+      },
+      "mention_id": "c-songshu-046-zhangchang-complete:p002:m0052",
+      "occurrence_groups": [
+        {
+          "canonical_mention_id": "c-songshu-046-zhangchang-complete:p002:m0052",
+          "mention_ids": [
+            "c-songshu-046-zhangchang-complete:p002:m0052"
+          ],
+          "kind": "paragraph"
+        },
+        {
+          "canonical_mention_id": "c-songshu-046-zhangchang-complete:p002:m0069",
+          "mention_ids": [
+            "c-songshu-046-zhangchang-complete:p002:m0069"
+          ],
+          "kind": "paragraph"
+        },
+        {
+          "canonical_mention_id": "c-songshu-046-zhangchang-complete:p002:m0079",
+          "mention_ids": [
+            "c-songshu-046-zhangchang-complete:p002:m0079"
+          ],
+          "kind": "paragraph"
+        }
+      ],
+      "work_id": "w-songshu",
+      "book_id": "b-songshu-046",
+      "chapter_id": "c-songshu-046-zhangchang-complete",
+      "source_id": "s-songshu-046-zhangchang-complete-ws2118581",
+      "work_title": "宋書"
+    },
     {
       "number": 59,
       "category": "",
@@ -67,6 +121,29 @@
   ],
   "table_occurrences": [],
   "sources": [
+    {
+      "chapter_id": "c-songshu-046-zhangchang-complete",
+      "work_id": "w-songshu",
+      "book_id": "b-songshu-046",
+      "source_id": "s-songshu-046-zhangchang-complete-ws2118581",
+      "source": {
+        "title": "張暢",
+        "provider": "Wikisource",
+        "permalink": "https://zh.wikisource.org/w/index.php?oldid=2118581",
+        "url": "https://zh.wikisource.org/w/index.php?oldid=2118581",
+        "revision_id": 2118581,
+        "edition": "維基文庫固定修訂",
+        "accessed_on": "2026-11-21",
+        "review_status": "text_checked",
+        "image_verified": false,
+        "rights": "古代原文；數位轉錄依維基文庫授權。",
+        "license_url": "https://creativecommons.org/licenses/by-sa/4.0/",
+        "extent": "張暢",
+        "text_scope": "complete_biography_unit",
+        "raw_path": "sources/songshu/songshu046-ws2118581.wikitext",
+        "raw_file_sha256": "3df8bb0cdbc5811a0747fcca3c9ed93d3b714bf0eee0315f6946eef8968fffdf"
+      }
+    },
     {
       "chapter_id": "c-songshu-059-zhangchang",
       "work_id": "w-songshu",
@@ -138,6 +215,23 @@
   },
   "dates": [],
   "name_components": [],
+  "person_references": [
+    {
+      "id": "c-songshu-046-zhangchang-complete:p002:r0051",
+      "paragraph_id": "c-songshu-046-zhangchang-complete:p002",
+      "start": 51,
+      "end": 52,
+      "surface": "弟",
+      "person_id": "d50_8f5_wul_AAABB",
+      "referent_role": "third_person",
+      "quote": "暢少與從兄敷、演、敬齊名，為後進之秀。起家為太守徐佩之主簿，佩之被誅，暢馳出奔赴，制服盡哀，時論美之。弟枚嘗為猘犬所傷，醫者云食蝦蟇可療，枚難之。暢含笑先嘗，枚因此乃食，由是遂愈。累遷太子中庶子。",
+      "note": "依本段敘事、稱謂及語者受者定。",
+      "chapter_id": "c-songshu-046-zhangchang-complete",
+      "book_id": "b-songshu-046",
+      "work_id": "w-songshu",
+      "source_id": "s-songshu-046-zhangchang-complete-ws2118581"
+    }
+  ],
   "person_ids": [
     "d50_8f5_wul_AAABB"
   ],
