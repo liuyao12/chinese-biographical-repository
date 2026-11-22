@@ -1,5 +1,6 @@
 import {loadPerson, loadFamily, personCard} from './cbr-person.js';
 import {profileReturnLink} from './profile-return.js';
+import {ui, t} from './i18n.js';
 import {escapeHTML} from './core.js';
 
 let request = 0;
@@ -33,6 +34,32 @@ function disclosures(root) {
   });
 }
 
+function addSectionNavigation(root) {
+  const sections = [['person-family','Family members'], ['profile-passage-citations','Passage citations'], ['profile-table-citations','Table citations'], ['person-references','Contextual mentions']];
+  const links = [];
+  for (const [name, label] of sections) {
+    const section = root.querySelector('.' + name);
+    if (!section) continue;
+    section.id = name;
+    section.tabIndex = -1;
+    links.push(`<button type="button" id="jump-${name}" aria-controls="${name}">${ui(label)}</button>`);
+  }
+  if (!links.length) return;
+  const nav = document.createElement('nav');
+  nav.className = 'profile-shortcuts';
+  nav.setAttribute('aria-label', t('On this profile'));
+  nav.innerHTML = links.join('');
+  nav.addEventListener('click', event => {
+    const id = event.target.closest('button')?.getAttribute('aria-controls');
+    if (!id) return;
+    const section = document.getElementById(id);
+    if (section instanceof HTMLDetailsElement) section.open = true;
+    section.focus({preventScroll:true});
+    section.scrollIntoView({block:'start'});
+  });
+  root.querySelector('h1').after(nav);
+}
+
 async function render() {
   const ticket = ++request;
   const root = document.getElementById('cbr-profile');
@@ -53,6 +80,7 @@ async function render() {
     setReturnLink(preview);
     root.innerHTML = personCard(preview, true, 'main', null)
       + '<p class="person-family-loading" role="status">正在載入家族關係…</p>';
+    addSectionNavigation(root);
     document.title = preview.label + ' · 人文';
 
     const [p, ref, familyResult] = await Promise.all([
@@ -64,14 +92,18 @@ async function render() {
     const family = familyResult.family || null;
     const scrollY = window.scrollY;
     const focusId = document.activeElement?.id;
+    const focusTop = document.activeElement?.getBoundingClientRect().top;
     const openDisclosures = new Set(disclosures(root).filter(([, detail]) => detail.open).map(([key]) => key));
     root.innerHTML = personCard(p, true, ref, family)
       + (familyResult.error ? '<p class="person-family-loading" role="status">家族資料暫時無法載入；人物及來源資料仍可閱讀。</p>' : '');
+    addSectionNavigation(root);
     for (const [key, detail] of disclosures(root)) {
       if (openDisclosures.has(key)) detail.open = true;
     }
-    if (focusId) document.getElementById(focusId)?.focus({preventScroll:true});
-    window.scrollTo({top:scrollY, behavior:'auto'});
+    const focus = focusId && document.getElementById(focusId);
+    if (focus) focus.focus({preventScroll:true});
+    const top = focus && root.contains(focus) ? window.scrollY + focus.getBoundingClientRect().top - focusTop : scrollY;
+    window.scrollTo({top, behavior:'auto'});
   } catch (error) {
     if (ticket === request) {
       root.innerHTML = '<h1>人物資料無法載入</h1><p role="alert">' + escapeHTML(error?.message || '載入失敗') + '</p><p>可返回 <a href="cbr.html">CBR 人物目錄</a>，再從來源中的人名進入。</p>';
