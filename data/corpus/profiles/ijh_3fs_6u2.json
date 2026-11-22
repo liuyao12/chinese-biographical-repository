@@ -384,6 +384,41 @@
       "work_title": "南史"
     },
     {
+      "number": 35,
+      "category": "",
+      "title": "哀策作者蕭子範及兄子恪家世",
+      "paragraph_id": "c-liangshu-035-wanglingbin-elegist:p001",
+      "count": 1,
+      "raw_count": 1,
+      "duplicate_count": 0,
+      "counting_policy": "independent_fixed_witness_occurrences",
+      "quote": "蕭子恪，字景沖，蘭陵人，齊豫章文獻王嶷第二子也。",
+      "paragraph_ids": [
+        "c-liangshu-035-wanglingbin-elegist:p001"
+      ],
+      "mention_ids": [
+        "c-liangshu-035-wanglingbin-elegist:p001:m0018"
+      ],
+      "mention_paragraph_ids": {
+        "c-liangshu-035-wanglingbin-elegist:p001:m0018": "c-liangshu-035-wanglingbin-elegist:p001"
+      },
+      "mention_id": "c-liangshu-035-wanglingbin-elegist:p001:m0018",
+      "occurrence_groups": [
+        {
+          "canonical_mention_id": "c-liangshu-035-wanglingbin-elegist:p001:m0018",
+          "mention_ids": [
+            "c-liangshu-035-wanglingbin-elegist:p001:m0018"
+          ],
+          "kind": "paragraph"
+        }
+      ],
+      "work_id": "w-liangshu",
+      "book_id": "b-liangshu-035",
+      "chapter_id": "c-liangshu-035-wanglingbin-elegist",
+      "source_id": "s-liangshu-035-wanglingbin-elegist-ws1552297",
+      "work_title": "梁書"
+    },
+    {
       "number": 40,
       "category": "",
       "title": "席恭穆案所稱魚復侯與生、養父",
@@ -752,6 +787,34 @@
           ]
         },
         "section_locator": "數位原題王僧孺"
+      }
+    },
+    {
+      "chapter_id": "c-liangshu-035-wanglingbin-elegist",
+      "work_id": "w-liangshu",
+      "book_id": "b-liangshu-035",
+      "source_id": "s-liangshu-035-wanglingbin-elegist-ws1552297",
+      "source": {
+        "title": "梁書卷35·哀策作者蕭子範及兄子恪家世",
+        "provider": "Wikisource",
+        "url": "https://zh.wikisource.org/w/index.php?oldid=1552297",
+        "permalink": "https://zh.wikisource.org/w/index.php?oldid=1552297",
+        "revision_id": 1552297,
+        "accessed_on": "2026-11-21",
+        "edition": "維基文庫固定數位轉錄",
+        "extent": "子恪、子範兩傳首的父與兄弟原證。",
+        "text_scope": "partial_chapter",
+        "image_verified": false,
+        "review_status": "text_checked",
+        "raw_path": "source-evidence/liang007-wanglingbin/ws1552297.wikitext",
+        "raw_file_sha256": "b28f52a3cdd998b57709b22306eb779ff98cb209b4e1e4053756293b1b613e1c",
+        "rights": "古代原典及維基文庫數位轉錄。",
+        "license_url": "https://zh.wikisource.org/wiki/Wikisource:著作權資訊",
+        "normalization": {
+          "character_conversion": {},
+          "extraction_note": "投影相應原句，保留字形；移除年號模板定界符。"
+        },
+        "section_locator": "哀策作者蕭子範及兄子恪家世"
       }
     },
     {
@@ -1668,6 +1731,48 @@
   ],
   "relations": [
     {
+      "id": "a-liang007-wanglingbin-b-dad",
+      "subject_person_id": "ijh_3fs_6u2_A",
+      "object_person_id": "ijh_3fs_6u2",
+      "predicate": "father",
+      "qualifiers": {
+        "source_term": "齊豫章文獻王嶷第二子",
+        "liang007_wanglingbin_reading": "b-dad",
+        "lineage": "paternal",
+        "birth_order": {
+          "parent_person_id": "ijh_3fs_6u2",
+          "scope": "sons_of_parent",
+          "ordinal": 2,
+          "position": "unspecified",
+          "source_term": "第二子",
+          "interpretation_status": "source_attested"
+        }
+      },
+      "evidence": [
+        {
+          "work_id": "w-liangshu",
+          "book_id": "b-liangshu-035",
+          "source_id": "s-liangshu-035-wanglingbin-elegist-ws1552297",
+          "chapter_id": "c-liangshu-035-wanglingbin-elegist",
+          "paragraph_id": "c-liangshu-035-wanglingbin-elegist:p001",
+          "quote": "蕭子恪，字景沖，蘭陵人，齊豫章文獻王嶷第二子也。",
+          "subject_person_mention_id": "c-liangshu-035-wanglingbin-elegist:p001:m0000",
+          "object_person_mention_id": "c-liangshu-035-wanglingbin-elegist:p001:m0018",
+          "relationship_anchor": {
+            "paragraph_id": "c-liangshu-035-wanglingbin-elegist:p001",
+            "surface": "齊豫章文獻王嶷第二子",
+            "start": 12,
+            "end": 22
+          }
+        }
+      ],
+      "status": "source_attested",
+      "interpretation_note": "子恪是齊豫章王嶷第二子。",
+      "reviewer": "Codex（AI 代理）",
+      "human_reviewed": false,
+      "model": null
+    },
+    {
       "id": "a-nanqishu-020-peihuizhao-yu-spouse",
       "subject_person_id": "v9d_w9p_fij",
       "object_person_id": "ijh_3fs_6u2",
@@ -1834,6 +1939,7 @@
   "related_people": {
     "gm4_alk_hn7_AA": "劉智容",
     "ijh_3fs_6u2": "豫章王嶷",
+    "ijh_3fs_6u2_A": "蕭子恪（齊豫章王嶷第二子）",
     "v9d_w9p_fij": "庾氏（豫章王嶷妃）"
   },
   "dates": [],
@@ -2190,6 +2296,48 @@
     "ijh_3fs_6u2"
   ],
   "preferred_relations": [
+    {
+      "id": "a-liang007-wanglingbin-b-dad",
+      "subject_person_id": "ijh_3fs_6u2_A",
+      "object_person_id": "ijh_3fs_6u2",
+      "predicate": "father",
+      "qualifiers": {
+        "source_term": "齊豫章文獻王嶷第二子",
+        "liang007_wanglingbin_reading": "b-dad",
+        "lineage": "paternal",
+        "birth_order": {
+          "parent_person_id": "ijh_3fs_6u2",
+          "scope": "sons_of_parent",
+          "ordinal": 2,
+          "position": "unspecified",
+          "source_term": "第二子",
+          "interpretation_status": "source_attested"
+        }
+      },
+      "evidence": [
+        {
+          "work_id": "w-liangshu",
+          "book_id": "b-liangshu-035",
+          "source_id": "s-liangshu-035-wanglingbin-elegist-ws1552297",
+          "chapter_id": "c-liangshu-035-wanglingbin-elegist",
+          "paragraph_id": "c-liangshu-035-wanglingbin-elegist:p001",
+          "quote": "蕭子恪，字景沖，蘭陵人，齊豫章文獻王嶷第二子也。",
+          "subject_person_mention_id": "c-liangshu-035-wanglingbin-elegist:p001:m0000",
+          "object_person_mention_id": "c-liangshu-035-wanglingbin-elegist:p001:m0018",
+          "relationship_anchor": {
+            "paragraph_id": "c-liangshu-035-wanglingbin-elegist:p001",
+            "surface": "齊豫章文獻王嶷第二子",
+            "start": 12,
+            "end": 22
+          }
+        }
+      ],
+      "status": "source_attested",
+      "interpretation_note": "子恪是齊豫章王嶷第二子。",
+      "reviewer": "Codex（AI 代理）",
+      "human_reviewed": false,
+      "model": null
+    },
     {
       "id": "a-nanqishu-020-peihuizhao-yu-spouse",
       "subject_person_id": "v9d_w9p_fij",

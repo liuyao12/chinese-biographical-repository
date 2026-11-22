@@ -1,0 +1,190 @@
+{
+  "schema_version": 1,
+  "id": "mo6_e25_hpq_A",
+  "canonical_person_id": "mo6_e25_hpq_A",
+  "label": "張祗",
+  "identity_note": "依本篇具名、稱謂及其所在原句辨認；引書原字存於各自來源。",
+  "review": "ai_provisional",
+  "names": [
+    "祗"
+  ],
+  "titles": [],
+  "addresses": [],
+  "occurrences": [
+    {
+      "number": 57,
+      "category": "",
+      "title": "張溫傳",
+      "paragraph_id": "c-sanguozhi-057-zhangwen:line058",
+      "count": 1,
+      "raw_count": 1,
+      "duplicate_count": 0,
+      "counting_policy": "independent_fixed_witness_occurrences",
+      "quote": "後六年，溫病卒。二弟祗、白，亦有才名，與溫俱廢。",
+      "paragraph_ids": [
+        "c-sanguozhi-057-zhangwen:line058"
+      ],
+      "mention_ids": [
+        "c-sanguozhi-057-zhangwen:line058:m0010"
+      ],
+      "mention_paragraph_ids": {
+        "c-sanguozhi-057-zhangwen:line058:m0010": "c-sanguozhi-057-zhangwen:line058"
+      },
+      "mention_id": "c-sanguozhi-057-zhangwen:line058:m0010",
+      "occurrence_groups": [
+        {
+          "canonical_mention_id": "c-sanguozhi-057-zhangwen:line058:m0010",
+          "mention_ids": [
+            "c-sanguozhi-057-zhangwen:line058:m0010"
+          ],
+          "kind": "paragraph"
+        }
+      ],
+      "work_id": "w-sanguozhi",
+      "book_id": "b-sanguozhi-057",
+      "chapter_id": "c-sanguozhi-057-zhangwen",
+      "source_id": "s-sanguozhi-057-zhangwen",
+      "work_title": "三國志"
+    }
+  ],
+  "table_occurrences": [],
+  "sources": [
+    {
+      "chapter_id": "c-sanguozhi-057-zhangwen",
+      "work_id": "w-sanguozhi",
+      "book_id": "b-sanguozhi-057",
+      "source_id": "s-sanguozhi-057-zhangwen",
+      "source": {
+        "title": "三國志卷五十七·吳書十二",
+        "provider": "Wikisource",
+        "url": "https://zh.wikisource.org/w/index.php?oldid=2638131",
+        "permalink": "https://zh.wikisource.org/w/index.php?oldid=2638131",
+        "revision_id": 2638131,
+        "accessed_on": "2026-11-21",
+        "edition": "維基文庫固定修訂，裴注與正文分層。",
+        "extent": "第42至58行。",
+        "text_scope": "partial_chapter",
+        "review_status": "text_checked",
+        "image_verified": false,
+        "rights": "古籍原文，維基文庫轉錄。",
+        "license_url": "https://creativecommons.org/licenses/by-sa/4.0/",
+        "raw_path": "source-evidence/sanguozhi057-yu/sanguozhi057-ws2638131.wikitext",
+        "raw_file_sha256": "6848b2dab019436efffdbf207f571e343e9a9624a7333c6767a3930163fe2f99",
+        "wikitext_sha256": "6848b2dab019436efffdbf207f571e343e9a9624a7333c6767a3930163fe2f99",
+        "collation_witnesses": [
+          "source-evidence/sanguozhi057-zhangwen/reading.json"
+        ]
+      }
+    }
+  ],
+  "relations": [
+    {
+      "id": "a-wu057-zhangwen-1",
+      "subject_person_id": "xuu_do0_zbf",
+      "object_person_id": "mo6_e25_hpq_A",
+      "predicate": "brother",
+      "qualifiers": {
+        "source_term": "二弟祗、白"
+      },
+      "evidence": [
+        {
+          "work_id": "w-sanguozhi",
+          "book_id": "b-sanguozhi-057",
+          "chapter_id": "c-sanguozhi-057-zhangwen",
+          "source_id": "s-sanguozhi-057-zhangwen",
+          "paragraph_id": "c-sanguozhi-057-zhangwen:line058",
+          "quote": "後六年，溫病卒。二弟祗、白，亦有才名，與溫俱廢。",
+          "subject_person_mention_id": "c-sanguozhi-057-zhangwen:line058:m0004",
+          "object_person_mention_id": "c-sanguozhi-057-zhangwen:line058:m0010"
+        }
+      ],
+      "interpretation_note": "以此來源所述兩端為據。",
+      "status": "source_attested",
+      "reviewer": "Codex（AI 代理）",
+      "human_reviewed": false,
+      "model": null
+    }
+  ],
+  "related_people": {
+    "mo6_e25_hpq_A": "張祗",
+    "xuu_do0_zbf": "張溫"
+  },
+  "dates": [],
+  "name_components": [],
+  "person_ids": [
+    "mo6_e25_hpq_A"
+  ],
+  "inferred_parent_paths": [
+    {
+      "connection": "father",
+      "parent_person_id": "mo6_e25_hpq",
+      "generation_distance": 1,
+      "status": "contextual_provisional",
+      "human_reviewed": false,
+      "reviewer": "Codex（AI 代理）",
+      "interpretation_note": "具名二弟與長兄張溫的明父，據兩處原文繫家支。",
+      "parent_connection": {
+        "type": "shared_father_through_siblings",
+        "sibling_assertion_ids": [
+          "a-wu057-zhangwen-1"
+        ],
+        "sibling_father_assertion_id": "a-wu057-zhangwen-0"
+      },
+      "evidence": [
+        {
+          "work_id": "w-sanguozhi",
+          "book_id": "b-sanguozhi-057",
+          "chapter_id": "c-sanguozhi-057-zhangwen",
+          "source_id": "s-sanguozhi-057-zhangwen",
+          "paragraph_id": "c-sanguozhi-057-zhangwen:line042",
+          "quote": "張溫字惠恕，吳郡吳人也。父允，以輕財重士，名顯州郡，為孫權東曹掾。卒。溫少修節操，容貌奇偉。權聞之，以問公卿曰：“溫當今與誰為比？”大（司）農劉基曰：\"可與全琮為輩。\"太常顧雍曰：\"基未詳其為人也。溫當今無輩。\"權曰：\"如是，張允不死也。\"征到延見，文辭占對，觀者傾竦，權改容加禮。罷出，張昭執其手曰：\"老夫托意，君宜明之。\"拜議郎、選曹尚書，徙太子太傅，甚見信重。",
+          "source_term": "父允",
+          "source_assertion_id": "a-wu057-zhangwen-0"
+        },
+        {
+          "work_id": "w-sanguozhi",
+          "book_id": "b-sanguozhi-057",
+          "chapter_id": "c-sanguozhi-057-zhangwen",
+          "source_id": "s-sanguozhi-057-zhangwen",
+          "paragraph_id": "c-sanguozhi-057-zhangwen:line058",
+          "quote": "後六年，溫病卒。二弟祗、白，亦有才名，與溫俱廢。",
+          "source_term": "二弟祗、白",
+          "source_assertion_id": "a-wu057-zhangwen-1"
+        }
+      ],
+      "person_id": "mo6_e25_hpq_A"
+    }
+  ],
+  "preferred_relations": [
+    {
+      "id": "a-wu057-zhangwen-1",
+      "subject_person_id": "xuu_do0_zbf",
+      "object_person_id": "mo6_e25_hpq_A",
+      "predicate": "brother",
+      "qualifiers": {
+        "source_term": "二弟祗、白"
+      },
+      "evidence": [
+        {
+          "work_id": "w-sanguozhi",
+          "book_id": "b-sanguozhi-057",
+          "chapter_id": "c-sanguozhi-057-zhangwen",
+          "source_id": "s-sanguozhi-057-zhangwen",
+          "paragraph_id": "c-sanguozhi-057-zhangwen:line058",
+          "quote": "後六年，溫病卒。二弟祗、白，亦有才名，與溫俱廢。",
+          "subject_person_mention_id": "c-sanguozhi-057-zhangwen:line058:m0004",
+          "object_person_mention_id": "c-sanguozhi-057-zhangwen:line058:m0010"
+        }
+      ],
+      "interpretation_note": "以此來源所述兩端為據。",
+      "status": "source_attested",
+      "reviewer": "Codex（AI 代理）",
+      "human_reviewed": false,
+      "model": null
+    }
+  ],
+  "age_assertions": [],
+  "life_events": [],
+  "life_event_date_decisions": [],
+  "selected_life_event_dates": []
+}

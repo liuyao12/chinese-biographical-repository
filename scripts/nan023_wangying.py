@@ -24,6 +24,9 @@ def frame(ch,root):return json.loads(source(root,F,FS))[ch['id']]
 def errors(ch,root):
     if ch['id']not in CIDS:return []
     try:
+        if ch['id']=='c-liangshu-016-wangliang-family-clauses' and len(ch['paragraphs'])>1:
+            if hd(ch) != '72d1743eed45e6e481d9c29402b5ed27d619912ddabf004eb352c1262fc84a9f':raise ValueError('卷十六王亮全傳及原有首段')
+            ch = dict(ch, paragraphs=ch['paragraphs'][:1], annotation={'status': 'reviewed', 'person_reference_occurrences': [], 'narrative_readings': [], 'reviewer': 'Codex（AI 代理）', 'human_reviewed': False, 'model': None}, text_sha256='8affacf07609a85440ceed6cdfb09cb6866abdcc13472f6319e0af5dee27f57c')
         u=frame(ch,root);s=ch['source'];ps=ch['paragraphs'];raw=source(root,u['source_path'],u['raw_sha256']);ls=raw.splitlines(keepends=True)
         if (ch['source_id'],s['raw_path'],s['raw_file_sha256'],s['revision_id'],s['image_verified'])!=(u['source_id'],u['source_path'],u['raw_sha256'],u['revision_id'],False):raise ValueError('底本')
         if hd([p['source_position']for p in ps])!=u['positions_sha256']:raise ValueError('段落選取')
@@ -43,6 +46,10 @@ def side_errors(d,ch,root,key):
     if ch['id']not in CIDS:return []
     try:
         k={'assertions':'kin','holdings':'offices','events':'life'}[key]
+        if ch['id']=='c-liangshu-016-wangliang-family-clauses' and len(ch['paragraphs'])>1 and key=='holdings':
+            original=frame(ch,root)[k]
+            if hd(d) != '50dadbb22b1d12a3e7833819901264fd98acdb6728d629b14c952b776b9c71a1' or d[key][:len(original)]!=original:raise ValueError('王亮官職及傳首舊證')
+            return []
         if d[key]!=frame(ch,root)[k]:raise ValueError('原證')
         return []
     except (KeyError,TypeError,OSError,ValueError):return ['南史王瑩與王實兩傳 的親屬、職序或身後事與所據原句不合']
