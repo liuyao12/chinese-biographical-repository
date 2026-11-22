@@ -6,8 +6,7 @@
   "identity_note": "四晉完整選定單元來源內身份暫定；不把近似人名、同姓、遠祖報說變成近親或同人。",
   "review": "ai_provisional",
   "names": [
-    "比丘尼",
-    "尼"
+    "比丘尼"
   ],
   "titles": [],
   "addresses": [],
@@ -17,8 +16,8 @@
       "category": "",
       "title": "桓溫完整本傳單元",
       "paragraph_id": "c-jinshu-098-huanwen:p020",
-      "count": 3,
-      "raw_count": 3,
+      "count": 1,
+      "raw_count": 1,
       "duplicate_count": 0,
       "counting_policy": "independent_fixed_witness_occurrences",
       "quote": "臭萬載邪！」嘗行經王敦墓，望之曰：「可人，可人！」其心跡若是。時有遠方比丘尼名有道術，於別室浴，溫竊窺之。尼倮身先以刀自破腹，次斷兩足。浴竟出，溫問吉凶，尼云：「公若作天子，亦當如是。」",
@@ -26,14 +25,10 @@
         "c-jinshu-098-huanwen:p020"
       ],
       "mention_ids": [
-        "c-jinshu-098-huanwen:p020:m0109",
-        "c-jinshu-098-huanwen:p020:m0127",
-        "c-jinshu-098-huanwen:p020:m0151"
+        "c-jinshu-098-huanwen:p020:m0109"
       ],
       "mention_paragraph_ids": {
-        "c-jinshu-098-huanwen:p020:m0109": "c-jinshu-098-huanwen:p020",
-        "c-jinshu-098-huanwen:p020:m0127": "c-jinshu-098-huanwen:p020",
-        "c-jinshu-098-huanwen:p020:m0151": "c-jinshu-098-huanwen:p020"
+        "c-jinshu-098-huanwen:p020:m0109": "c-jinshu-098-huanwen:p020"
       },
       "mention_id": "c-jinshu-098-huanwen:p020:m0109",
       "occurrence_groups": [
@@ -41,20 +36,6 @@
           "canonical_mention_id": "c-jinshu-098-huanwen:p020:m0109",
           "mention_ids": [
             "c-jinshu-098-huanwen:p020:m0109"
-          ],
-          "kind": "paragraph"
-        },
-        {
-          "canonical_mention_id": "c-jinshu-098-huanwen:p020:m0127",
-          "mention_ids": [
-            "c-jinshu-098-huanwen:p020:m0127"
-          ],
-          "kind": "paragraph"
-        },
-        {
-          "canonical_mention_id": "c-jinshu-098-huanwen:p020:m0151",
-          "mention_ids": [
-            "c-jinshu-098-huanwen:p020:m0151"
           ],
           "kind": "paragraph"
         }
@@ -98,7 +79,15 @@
         "review_status": "text_checked",
         "license_url": "https://creativecommons.org/licenses/by-sa/4.0/",
         "collation_witnesses": [
-          "source-evidence/jin098-huan-four-children/reading.json"
+          "source-evidence/jin098-huan-four-children/reading.json",
+          "source-evidence/jin098-huanwen-opening/reading.json",
+          "source-evidence/jin098-huanwen-shu/reading.json",
+          "source-evidence/jin098-huanwen-wuchang/reading.json",
+          "source-evidence/jin098-huanwen-guanzhong/reading.json",
+          "source-evidence/jin098-huanwen-luoyang/reading.json",
+          "source-evidence/jin098-huanwen-return/reading.json",
+          "source-evidence/jin098-huanwen-fangtou/reading.json",
+          "source-evidence/jin098-huanwen-succession/reading.json"
         ]
       }
     }
@@ -109,6 +98,38 @@
   },
   "dates": [],
   "name_components": [],
+  "person_references": [
+    {
+      "id": "c-jinshu-098-huanwen:p020:m0127",
+      "paragraph_id": "c-jinshu-098-huanwen:p020",
+      "start": 127,
+      "end": 128,
+      "surface": "尼",
+      "person_id": "t4r_nea_qof",
+      "referent_role": "third_person",
+      "quote": "室浴，溫竊窺之。尼倮身先以刀自破腹，次",
+      "note": "按此段說話、受書或敘述者定位。",
+      "chapter_id": "c-jinshu-098-huanwen",
+      "book_id": "b-jinshu-098",
+      "work_id": "w-jinshu",
+      "source_id": "s-jinshu-098-ws2614273"
+    },
+    {
+      "id": "c-jinshu-098-huanwen:p020:m0151",
+      "paragraph_id": "c-jinshu-098-huanwen:p020",
+      "start": 151,
+      "end": 152,
+      "surface": "尼",
+      "person_id": "t4r_nea_qof",
+      "referent_role": "third_person",
+      "quote": "竟出，溫問吉凶，尼云：「公若作天子，亦",
+      "note": "按此段說話、受書或敘述者定位。",
+      "chapter_id": "c-jinshu-098-huanwen",
+      "book_id": "b-jinshu-098",
+      "work_id": "w-jinshu",
+      "source_id": "s-jinshu-098-ws2614273"
+    }
+  ],
   "person_ids": [
     "t4r_nea_qof"
   ],

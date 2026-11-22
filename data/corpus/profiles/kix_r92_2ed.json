@@ -4701,6 +4701,29 @@
       }
     },
     {
+      "chapter_id": "c-nanqishu-040-ziming-zhangchong",
+      "work_id": "w-nanqishu",
+      "book_id": "b-nanqishu-040",
+      "source_id": "s-nanqishu-040-ziming-zhangchong-ws2272748",
+      "source": {
+        "title": "西陽王子明生父",
+        "provider": "Wikisource",
+        "permalink": "https://zh.wikisource.org/w/index.php?oldid=2272748",
+        "url": "https://zh.wikisource.org/w/index.php?oldid=2272748",
+        "revision_id": 2272748,
+        "edition": "維基文庫固定修訂",
+        "accessed_on": "2026-11-21",
+        "review_status": "text_checked",
+        "image_verified": false,
+        "rights": "古代原文；數位轉錄依維基文庫授權。",
+        "license_url": "https://creativecommons.org/licenses/by-sa/4.0/",
+        "extent": "西陽王子明生父",
+        "text_scope": "partial_chapter",
+        "raw_path": "sources/nanqishu/nanqishu040-ws2272748.wikitext",
+        "raw_file_sha256": "5ee4445da47c28466a6c227f23c2aac3a6941a84d4e2131a050011f70e30e7ff"
+      }
+    },
+    {
       "chapter_id": "c-nanqishu-040-zixiang-xi-family",
       "work_id": "w-nanqishu",
       "book_id": "b-nanqishu-040",
@@ -6777,6 +6800,36 @@
       "model": null
     },
     {
+      "id": "a-qi049-ziming-father",
+      "subject_person_id": "kix_r92_2ed_H",
+      "object_person_id": "kix_r92_2ed",
+      "predicate": "father",
+      "qualifiers": {
+        "source_term": "世祖第十子也",
+        "reading_basis": {
+          "kind": "qi049_contextual_parent"
+        },
+        "lineage": "paternal"
+      },
+      "evidence": [
+        {
+          "work_id": "w-nanqishu",
+          "book_id": "b-nanqishu-040",
+          "chapter_id": "c-nanqishu-040-ziming-zhangchong",
+          "source_id": "s-nanqishu-040-ziming-zhangchong-ws2272748",
+          "paragraph_id": "c-nanqishu-040-ziming-zhangchong:p001",
+          "quote": "西陽王子明字雲光，世祖第十子也。",
+          "subject_person_mention_id": "c-nanqishu-040-ziming-zhangchong:p001:m0003",
+          "object_person_reference_id": "c-nanqishu-040-ziming-zhangchong:p001:r0009"
+        }
+      ],
+      "status": "source_attested",
+      "interpretation_note": "依指定固定卷句之父母、子女稱謂與雙端字位。",
+      "reviewer": "Codex（AI代理）",
+      "model": null,
+      "human_reviewed": false
+    },
+    {
       "id": "a-qi049-zixiang-wudi",
       "subject_person_id": "kix_r92_2ed_G",
       "object_person_id": "kix_r92_2ed",
@@ -6995,7 +7048,8 @@
     "kix_r92_2ed_D": "吳縣公主（齊武帝長女）",
     "kix_r92_2ed_E": "廬陵王子卿",
     "kix_r92_2ed_F": "蕭子貞（字雲松）",
-    "kix_r92_2ed_G": "蕭子響（字雲音，魚復侯）"
+    "kix_r92_2ed_G": "蕭子響（字雲音，魚復侯）",
+    "kix_r92_2ed_H": "蕭子明（字雲光，西陽王）"
   },
   "dates": [],
   "reading_decisions": [
@@ -7724,6 +7778,21 @@
       "book_id": "b-nanqishu-040",
       "work_id": "w-nanqishu",
       "source_id": "s-nanqishu-040-xiaozizhen-wangjun-ws2272748"
+    },
+    {
+      "id": "c-nanqishu-040-ziming-zhangchong:p001:r0009",
+      "paragraph_id": "c-nanqishu-040-ziming-zhangchong:p001",
+      "start": 9,
+      "end": 11,
+      "surface": "世祖",
+      "person_id": "kix_r92_2ed",
+      "referent_role": "third_person",
+      "quote": "西陽王子明字雲光，世祖第十子也。",
+      "note": "依本段敘事、稱謂及語者受者定。",
+      "chapter_id": "c-nanqishu-040-ziming-zhangchong",
+      "book_id": "b-nanqishu-040",
+      "work_id": "w-nanqishu",
+      "source_id": "s-nanqishu-040-ziming-zhangchong-ws2272748"
     },
     {
       "id": "c-nanqishu-040-zixiang-xi-family:p001:r0009",
@@ -9860,6 +9929,36 @@
       "reviewer": "Codex（AI 代理）",
       "human_reviewed": false,
       "model": null
+    },
+    {
+      "id": "a-qi049-ziming-father",
+      "subject_person_id": "kix_r92_2ed_H",
+      "object_person_id": "kix_r92_2ed",
+      "predicate": "father",
+      "qualifiers": {
+        "source_term": "世祖第十子也",
+        "reading_basis": {
+          "kind": "qi049_contextual_parent"
+        },
+        "lineage": "paternal"
+      },
+      "evidence": [
+        {
+          "work_id": "w-nanqishu",
+          "book_id": "b-nanqishu-040",
+          "chapter_id": "c-nanqishu-040-ziming-zhangchong",
+          "source_id": "s-nanqishu-040-ziming-zhangchong-ws2272748",
+          "paragraph_id": "c-nanqishu-040-ziming-zhangchong:p001",
+          "quote": "西陽王子明字雲光，世祖第十子也。",
+          "subject_person_mention_id": "c-nanqishu-040-ziming-zhangchong:p001:m0003",
+          "object_person_reference_id": "c-nanqishu-040-ziming-zhangchong:p001:r0009"
+        }
+      ],
+      "status": "source_attested",
+      "interpretation_note": "依指定固定卷句之父母、子女稱謂與雙端字位。",
+      "reviewer": "Codex（AI代理）",
+      "model": null,
+      "human_reviewed": false
     },
     {
       "id": "a-qi049-zixiang-wudi",

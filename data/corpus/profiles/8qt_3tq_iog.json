@@ -144,6 +144,54 @@
       "human_reviewed": false,
       "model": null,
       "period": "未定 → 未定"
+    },
+    {
+      "id": "th-w098-luoyang-teng",
+      "person_id": "8qt_3tq_iog",
+      "title": "西陽太守",
+      "kind": "office",
+      "mode": "attestation",
+      "evidence": [
+        {
+          "work_id": "w-jinshu",
+          "book_id": "b-jinshu-098",
+          "chapter_id": "c-jinshu-098-huanwen",
+          "source_id": "s-jinshu-098-ws2614273",
+          "paragraph_id": "c-jinshu-098-huanwen:p011",
+          "quote": "溫遣督護高武據魯陽，輔國將軍戴施屯河上，勒舟師以逼許洛，以譙梁水道既通，請徐豫兵乘淮泗入河。溫自江陵北伐，行經金城，見少為琅邪時所種柳皆已十圍，慨然曰：「木猶如此，人何以堪！」攀枝執條，泫然流涕。於是過淮泗，踐北境，與諸僚屬登平乘樓，眺矚中原，慨然曰：「遂使神州陸沈，百年丘墟，王夷甫諸人不得不任其責！」袁宏曰：「運有興廢，豈必諸人之過！」溫作色謂四座曰：「頗聞劉景升有千斤大牛，啖芻豆十倍于常牛，負重致遠，曾不若一羸牸，魏武入荊州，以享軍士。」意以況宏，坐中皆失色。師次伊水，姚襄屯水北，距水而戰。溫結陣而前，親被甲督弟沖及諸將奮擊，襄大敗，自相殺死者數千人，越北芒而西走，追之不及，遂奔平陽。溫屯故太極殿前，徙入金墉城，謁先帝諸陵，陵被侵毀者皆繕復之，兼置陵令。遂旋軍，執降賊周成以歸，遷降人三千餘家于江漢之間。遣西陽太守滕畯出黃城，討蠻賊文盧等，又遣江夏相劉岵、義陽太守胡驥討妖賊李弘，皆破之，傳首京都。溫還軍之後，司、豫、青、兗復陷於賊。升平中，改封南郡公，降臨賀為縣公，以封其次子濟。",
+          "person_mention_id": "c-jinshu-098-huanwen:p011:m0363"
+        }
+      ],
+      "attestations": [
+        {
+          "id": "th-w043-luoyang-teng:a",
+          "paragraph_id": "c-jinshu-098-huanwen:p011",
+          "start": 359,
+          "end": 363,
+          "surface": "西陽太守",
+          "person_mention_id": "c-jinshu-098-huanwen:p011:m0363",
+          "usage": "narrative",
+          "date_expression": null
+        }
+      ],
+      "effective_period": {
+        "start": {
+          "status": "unknown",
+          "date_expression": null,
+          "evidence": []
+        },
+        "end": {
+          "status": "unknown",
+          "date_expression": null,
+          "evidence": []
+        }
+      },
+      "interpretation_note": "本來源官稱或所任，未受另記。",
+      "status": "source_attested",
+      "reviewer": "Codex（AI 代理）",
+      "human_reviewed": false,
+      "model": null,
+      "period": "未定 → 未定"
     }
   ],
   "addresses": [],
@@ -295,7 +343,15 @@
         "review_status": "text_checked",
         "license_url": "https://creativecommons.org/licenses/by-sa/4.0/",
         "collation_witnesses": [
-          "source-evidence/jin098-huan-four-children/reading.json"
+          "source-evidence/jin098-huan-four-children/reading.json",
+          "source-evidence/jin098-huanwen-opening/reading.json",
+          "source-evidence/jin098-huanwen-shu/reading.json",
+          "source-evidence/jin098-huanwen-wuchang/reading.json",
+          "source-evidence/jin098-huanwen-guanzhong/reading.json",
+          "source-evidence/jin098-huanwen-luoyang/reading.json",
+          "source-evidence/jin098-huanwen-return/reading.json",
+          "source-evidence/jin098-huanwen-fangtou/reading.json",
+          "source-evidence/jin098-huanwen-succession/reading.json"
         ]
       }
     }

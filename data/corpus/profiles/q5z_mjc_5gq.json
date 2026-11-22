@@ -9,7 +9,56 @@
     "竺瑤",
     "瑤"
   ],
-  "titles": [],
+  "titles": [
+    {
+      "id": "th-w098-fangtou-yao",
+      "person_id": "q5z_mjc_5gq",
+      "title": "督護",
+      "kind": "office",
+      "mode": "attestation",
+      "evidence": [
+        {
+          "work_id": "w-jinshu",
+          "book_id": "b-jinshu-098",
+          "chapter_id": "c-jinshu-098-huanwen",
+          "source_id": "s-jinshu-098-ws2614273",
+          "paragraph_id": "c-jinshu-098-huanwen:p023",
+          "quote": "袁真病死，其將朱輔立其子瑾以嗣事。慕容暐、苻堅並遣軍授瑾，溫使督護竺瑤、矯陽之等與水軍擊之。時暐軍已至，瑤等與戰于武丘，破之。溫率二萬人自廣陵又至，瑾嬰城固守，溫築長圍守之。苻堅乃使其將王鑒、張蠔等率兵以救瑾，屯洛澗，先遣精騎五千次於肥水北。溫遣桓伊及弟子石虔等逆擊，大破之，瑾眾遂潰，生擒之，並其宗族數十人及硃輔送於京都而斬之，所侍養乞活數百人悉坑之，以妻子為賞。溫以功，詔加班劍十人，犒軍于路次，文武論功賞賜各有差。",
+          "person_mention_id": "c-jinshu-098-huanwen:p023:m0033"
+        }
+      ],
+      "attestations": [
+        {
+          "id": "th-w043-fangtou-yao:a",
+          "paragraph_id": "c-jinshu-098-huanwen:p023",
+          "start": 31,
+          "end": 33,
+          "surface": "督護",
+          "person_mention_id": "c-jinshu-098-huanwen:p023:m0033",
+          "usage": "narrative",
+          "date_expression": null
+        }
+      ],
+      "effective_period": {
+        "start": {
+          "status": "unknown",
+          "date_expression": null,
+          "evidence": []
+        },
+        "end": {
+          "status": "unknown",
+          "date_expression": null,
+          "evidence": []
+        }
+      },
+      "interpretation_note": "本來源官稱或所任，未受另記。",
+      "status": "source_attested",
+      "reviewer": "Codex（AI 代理）",
+      "human_reviewed": false,
+      "model": null,
+      "period": "未定 → 未定"
+    }
+  ],
   "addresses": [],
   "occurrences": [
     {
@@ -164,7 +213,15 @@
         "review_status": "text_checked",
         "license_url": "https://creativecommons.org/licenses/by-sa/4.0/",
         "collation_witnesses": [
-          "source-evidence/jin098-huan-four-children/reading.json"
+          "source-evidence/jin098-huan-four-children/reading.json",
+          "source-evidence/jin098-huanwen-opening/reading.json",
+          "source-evidence/jin098-huanwen-shu/reading.json",
+          "source-evidence/jin098-huanwen-wuchang/reading.json",
+          "source-evidence/jin098-huanwen-guanzhong/reading.json",
+          "source-evidence/jin098-huanwen-luoyang/reading.json",
+          "source-evidence/jin098-huanwen-return/reading.json",
+          "source-evidence/jin098-huanwen-fangtou/reading.json",
+          "source-evidence/jin098-huanwen-succession/reading.json"
         ]
       }
     }

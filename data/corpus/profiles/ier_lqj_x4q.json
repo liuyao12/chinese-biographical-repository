@@ -1116,6 +1116,54 @@
       "human_reviewed": false,
       "model": null,
       "period": "未定 → 未定"
+    },
+    {
+      "id": "th-w098-fangtou-xiyin",
+      "person_id": "ier_lqj_x4q",
+      "title": "平北將軍",
+      "kind": "office",
+      "mode": "attestation",
+      "evidence": [
+        {
+          "work_id": "w-jinshu",
+          "book_id": "b-jinshu-098",
+          "chapter_id": "c-jinshu-098-huanwen",
+          "source_id": "s-jinshu-098-ws2614273",
+          "paragraph_id": "c-jinshu-098-huanwen:p021",
+          "quote": "太和四年，又上疏悉眾北伐。平北將軍郗愔以疾解職，又以溫領平北將軍、徐兗二州刺史，率弟南中郎沖、西中郎袁真步騎五萬北伐。百官皆于南州祖道，都邑盡傾。軍次湖陸，攻慕容暐將慕容忠，獲之，進次金鄉。時亢旱，水道不通，乃鑿钜野三百餘里以通舟運，自清水入河。暐將慕容垂、傅末波等率眾八萬距溫，戰于林渚。溫擊破之，遂至枋頭。先使袁真伐譙梁，開石門以通運。真討譙梁皆平之，而不能開石門，軍糧竭盡。溫焚舟步退，自東燕出倉垣，經陳留，鑿井而飲，行七百餘里。垂以八千騎追之，戰於襄邑，溫軍敗績，死者三萬人。溫甚恥之，歸罪於真，表廢為庶人。真怨溫誣己，據壽陽以自固，潛通苻堅、慕容暐。",
+          "person_mention_id": "c-jinshu-098-huanwen:p021:m0017"
+        }
+      ],
+      "attestations": [
+        {
+          "id": "th-w043-fangtou-xiyin:a",
+          "paragraph_id": "c-jinshu-098-huanwen:p021",
+          "start": 13,
+          "end": 17,
+          "surface": "平北將軍",
+          "person_mention_id": "c-jinshu-098-huanwen:p021:m0017",
+          "usage": "narrative",
+          "date_expression": null
+        }
+      ],
+      "effective_period": {
+        "start": {
+          "status": "unknown",
+          "date_expression": null,
+          "evidence": []
+        },
+        "end": {
+          "status": "unknown",
+          "date_expression": null,
+          "evidence": []
+        }
+      },
+      "interpretation_note": "本來源官稱或所任，未受另記。",
+      "status": "source_attested",
+      "reviewer": "Codex（AI 代理）",
+      "human_reviewed": false,
+      "model": null,
+      "period": "未定 → 未定"
     }
   ],
   "addresses": [],
@@ -1942,7 +1990,15 @@
         "review_status": "text_checked",
         "license_url": "https://creativecommons.org/licenses/by-sa/4.0/",
         "collation_witnesses": [
-          "source-evidence/jin098-huan-four-children/reading.json"
+          "source-evidence/jin098-huan-four-children/reading.json",
+          "source-evidence/jin098-huanwen-opening/reading.json",
+          "source-evidence/jin098-huanwen-shu/reading.json",
+          "source-evidence/jin098-huanwen-wuchang/reading.json",
+          "source-evidence/jin098-huanwen-guanzhong/reading.json",
+          "source-evidence/jin098-huanwen-luoyang/reading.json",
+          "source-evidence/jin098-huanwen-return/reading.json",
+          "source-evidence/jin098-huanwen-fangtou/reading.json",
+          "source-evidence/jin098-huanwen-succession/reading.json"
         ]
       }
     },

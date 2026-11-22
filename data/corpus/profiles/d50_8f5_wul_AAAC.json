@@ -1412,6 +1412,68 @@
       "work_title": "宋書"
     },
     {
+      "number": 49,
+      "category": "",
+      "title": "張景胤",
+      "paragraph_id": "c-nanqishu-049-zhangjingyin:p001",
+      "count": 4,
+      "raw_count": 4,
+      "duplicate_count": 0,
+      "counting_policy": "independent_fixed_witness_occurrences",
+      "quote": "沖出繼從伯侍中景胤，小名查，父邵，小名梨。宋文帝戲景胤曰：「查何如梨。」景胤答曰：「梨是百果之宗，查何敢及。」",
+      "paragraph_ids": [
+        "c-nanqishu-049-zhangjingyin:p001"
+      ],
+      "mention_ids": [
+        "c-nanqishu-049-zhangjingyin:p001:m0015",
+        "c-nanqishu-049-zhangjingyin:p001:m0019",
+        "c-nanqishu-049-zhangjingyin:p001:m0033",
+        "c-nanqishu-049-zhangjingyin:p001:m0042"
+      ],
+      "mention_paragraph_ids": {
+        "c-nanqishu-049-zhangjingyin:p001:m0015": "c-nanqishu-049-zhangjingyin:p001",
+        "c-nanqishu-049-zhangjingyin:p001:m0019": "c-nanqishu-049-zhangjingyin:p001",
+        "c-nanqishu-049-zhangjingyin:p001:m0033": "c-nanqishu-049-zhangjingyin:p001",
+        "c-nanqishu-049-zhangjingyin:p001:m0042": "c-nanqishu-049-zhangjingyin:p001"
+      },
+      "mention_id": "c-nanqishu-049-zhangjingyin:p001:m0015",
+      "occurrence_groups": [
+        {
+          "canonical_mention_id": "c-nanqishu-049-zhangjingyin:p001:m0015",
+          "mention_ids": [
+            "c-nanqishu-049-zhangjingyin:p001:m0015"
+          ],
+          "kind": "paragraph"
+        },
+        {
+          "canonical_mention_id": "c-nanqishu-049-zhangjingyin:p001:m0019",
+          "mention_ids": [
+            "c-nanqishu-049-zhangjingyin:p001:m0019"
+          ],
+          "kind": "paragraph"
+        },
+        {
+          "canonical_mention_id": "c-nanqishu-049-zhangjingyin:p001:m0033",
+          "mention_ids": [
+            "c-nanqishu-049-zhangjingyin:p001:m0033"
+          ],
+          "kind": "paragraph"
+        },
+        {
+          "canonical_mention_id": "c-nanqishu-049-zhangjingyin:p001:m0042",
+          "mention_ids": [
+            "c-nanqishu-049-zhangjingyin:p001:m0042"
+          ],
+          "kind": "paragraph"
+        }
+      ],
+      "work_id": "w-nanqishu",
+      "book_id": "b-nanqishu-049",
+      "chapter_id": "c-nanqishu-049-zhangjingyin",
+      "source_id": "s-nanqishu-049-zhangjingyin-ws2261984",
+      "work_title": "南齊書"
+    },
+    {
       "number": 52,
       "category": "",
       "title": "謝述及綜、約、緯",
@@ -1697,6 +1759,29 @@
   ],
   "table_occurrences": [],
   "sources": [
+    {
+      "chapter_id": "c-nanqishu-049-zhangjingyin",
+      "work_id": "w-nanqishu",
+      "book_id": "b-nanqishu-049",
+      "source_id": "s-nanqishu-049-zhangjingyin-ws2261984",
+      "source": {
+        "title": "張景胤",
+        "provider": "Wikisource",
+        "permalink": "https://zh.wikisource.org/w/index.php?oldid=2261984",
+        "url": "https://zh.wikisource.org/w/index.php?oldid=2261984",
+        "revision_id": 2261984,
+        "edition": "維基文庫固定修訂",
+        "accessed_on": "2026-11-21",
+        "review_status": "text_checked",
+        "image_verified": false,
+        "rights": "古代原文；數位轉錄依維基文庫授權。",
+        "license_url": "https://creativecommons.org/licenses/by-sa/4.0/",
+        "extent": "張景胤",
+        "text_scope": "complete_biography_unit",
+        "raw_path": "source-evidence/nan023-wangqiu/ws2261984.wikitext",
+        "raw_file_sha256": "e3c16a4e75b7ffc6b0987e68ce9ef6a2053c598271498baf5f07ed0c035e69fa"
+      }
+    },
     {
       "chapter_id": "c-nanshi-019-xieshu",
       "work_id": "w-nanshi",
@@ -2366,6 +2451,33 @@
   ],
   "relations": [
     {
+      "id": "a-qi049-zhangfu-shao",
+      "subject_person_id": "d50_8f5_wul_AAACA",
+      "object_person_id": "d50_8f5_wul_AAAC",
+      "predicate": "father",
+      "qualifiers": {
+        "source_term": "父邵",
+        "lineage": "paternal"
+      },
+      "evidence": [
+        {
+          "work_id": "w-nanqishu",
+          "book_id": "b-nanqishu-049",
+          "chapter_id": "c-nanqishu-049-zhangjingyin",
+          "source_id": "s-nanqishu-049-zhangjingyin-ws2261984",
+          "paragraph_id": "c-nanqishu-049-zhangjingyin:p001",
+          "quote": "沖出繼從伯侍中景胤，小名查，父邵，小名梨。宋文帝戲景胤曰：「查何如梨。」景胤答曰：「梨是百果之宗，查何敢及。」",
+          "subject_person_mention_id": "c-nanqishu-049-zhangjingyin:p001:m0007",
+          "object_person_mention_id": "c-nanqishu-049-zhangjingyin:p001:m0015"
+        }
+      ],
+      "status": "source_attested",
+      "interpretation_note": "本句父邵承景胤，張敷另傳卷六十二明言。",
+      "reviewer": "Codex（AI代理）",
+      "model": null,
+      "human_reviewed": false
+    },
+    {
       "id": "a-song046-zhangshao-001",
       "subject_person_id": "d50_8f5_wul_AAAC",
       "object_person_id": "d50_8f5_wul_AAA",
@@ -2998,6 +3110,21 @@
   ],
   "person_references": [
     {
+      "id": "c-nanqishu-049-zhangjingyin:p001:r0014",
+      "paragraph_id": "c-nanqishu-049-zhangjingyin:p001",
+      "start": 14,
+      "end": 15,
+      "surface": "父",
+      "person_id": "d50_8f5_wul_AAAC",
+      "referent_role": "third_person",
+      "quote": "父邵",
+      "note": "依句內語法、說話對象及本段承接辨識。",
+      "chapter_id": "c-nanqishu-049-zhangjingyin",
+      "book_id": "b-nanqishu-049",
+      "work_id": "w-nanqishu",
+      "source_id": "s-nanqishu-049-zhangjingyin-ws2261984"
+    },
+    {
       "start": 230,
       "end": 231,
       "surface": "卿",
@@ -3047,6 +3174,33 @@
     "d50_8f5_wul_AAAC"
   ],
   "preferred_relations": [
+    {
+      "id": "a-qi049-zhangfu-shao",
+      "subject_person_id": "d50_8f5_wul_AAACA",
+      "object_person_id": "d50_8f5_wul_AAAC",
+      "predicate": "father",
+      "qualifiers": {
+        "source_term": "父邵",
+        "lineage": "paternal"
+      },
+      "evidence": [
+        {
+          "work_id": "w-nanqishu",
+          "book_id": "b-nanqishu-049",
+          "chapter_id": "c-nanqishu-049-zhangjingyin",
+          "source_id": "s-nanqishu-049-zhangjingyin-ws2261984",
+          "paragraph_id": "c-nanqishu-049-zhangjingyin:p001",
+          "quote": "沖出繼從伯侍中景胤，小名查，父邵，小名梨。宋文帝戲景胤曰：「查何如梨。」景胤答曰：「梨是百果之宗，查何敢及。」",
+          "subject_person_mention_id": "c-nanqishu-049-zhangjingyin:p001:m0007",
+          "object_person_mention_id": "c-nanqishu-049-zhangjingyin:p001:m0015"
+        }
+      ],
+      "status": "source_attested",
+      "interpretation_note": "本句父邵承景胤，張敷另傳卷六十二明言。",
+      "reviewer": "Codex（AI代理）",
+      "model": null,
+      "human_reviewed": false
+    },
     {
       "id": "a-song046-zhangshao-001",
       "subject_person_id": "d50_8f5_wul_AAAC",

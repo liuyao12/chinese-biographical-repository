@@ -2535,6 +2535,41 @@
     {
       "number": 93,
       "category": "",
+      "title": "王弘之（武英殿本）",
+      "paragraph_id": "c-songshu-093-wanghongzhi-wyd:p001",
+      "count": 1,
+      "raw_count": 1,
+      "duplicate_count": 0,
+      "counting_policy": "independent_fixed_witness_occurrences",
+      "quote": "晉安帝隆安中為琅邪王中軍參軍遷司徒主簿家貧而性好山水求為烏程令尋以病歸桓𤣥輔晉桓謙以為衞軍參軍時琅邪殷仲文還姑孰祖送傾朝謙要𢎞之同行答曰凡祖離送別必在有情下官與殷風馬不接無緣扈從謙貴其言每隨兄鎮之之安成郡𢎞之解職同行荊州刺史桓偉請為南蠻長史義熙初何無忌又請為右軍司馬高祖命為",
+      "paragraph_ids": [
+        "c-songshu-093-wanghongzhi-wyd:p001"
+      ],
+      "mention_ids": [
+        "c-songshu-093-wanghongzhi-wyd:p001:m0080"
+      ],
+      "mention_paragraph_ids": {
+        "c-songshu-093-wanghongzhi-wyd:p001:m0080": "c-songshu-093-wanghongzhi-wyd:p001"
+      },
+      "mention_id": "c-songshu-093-wanghongzhi-wyd:p001:m0080",
+      "occurrence_groups": [
+        {
+          "canonical_mention_id": "c-songshu-093-wanghongzhi-wyd:p001:m0080",
+          "mention_ids": [
+            "c-songshu-093-wanghongzhi-wyd:p001:m0080"
+          ],
+          "kind": "paragraph"
+        }
+      ],
+      "work_id": "w-songshu",
+      "book_id": "b-songshu-093",
+      "chapter_id": "c-songshu-093-wanghongzhi-wyd",
+      "source_id": "s-songshu-093-wanghongzhi-wyd1739",
+      "work_title": "宋書"
+    },
+    {
+      "number": 93,
+      "category": "",
       "title": "王弘之、孔淳之傳",
       "paragraph_id": "c-songshu-093-recluses:line062",
       "count": 1,
@@ -7434,7 +7469,15 @@
         "review_status": "text_checked",
         "license_url": "https://creativecommons.org/licenses/by-sa/4.0/",
         "collation_witnesses": [
-          "source-evidence/jin098-huan-four-children/reading.json"
+          "source-evidence/jin098-huan-four-children/reading.json",
+          "source-evidence/jin098-huanwen-opening/reading.json",
+          "source-evidence/jin098-huanwen-shu/reading.json",
+          "source-evidence/jin098-huanwen-wuchang/reading.json",
+          "source-evidence/jin098-huanwen-guanzhong/reading.json",
+          "source-evidence/jin098-huanwen-luoyang/reading.json",
+          "source-evidence/jin098-huanwen-return/reading.json",
+          "source-evidence/jin098-huanwen-fangtou/reading.json",
+          "source-evidence/jin098-huanwen-succession/reading.json"
         ]
       }
     },
@@ -13374,6 +13417,33 @@
           ]
         },
         "response_sha256": "e715e1ac86b592e0b9f1ff085b7018abc415de6b534dceb093ab0d2e9e5cdd7d"
+      }
+    },
+    {
+      "chapter_id": "c-songshu-093-wanghongzhi-wyd",
+      "work_id": "w-songshu",
+      "book_id": "b-songshu-093",
+      "source_id": "s-songshu-093-wanghongzhi-wyd1739",
+      "source": {
+        "title": "武英殿本宋書卷九十三王弘之",
+        "provider": "中國國家圖書館藏本書影，Wikimedia Commons",
+        "url": "https://commons.wikimedia.org/wiki/File:NLC016-HWRB201817006-2849_%E5%AE%8B%E6%9B%B8_%E4%B8%80%E7%99%BE%E5%8D%B7_%E7%AC%AC23%E5%86%8A.pdf",
+        "permalink": "https://commons.wikimedia.org/wiki/File:NLC016-HWRB201817006-2849_%E5%AE%8B%E6%9B%B8_%E4%B8%80%E7%99%BE%E5%8D%B7_%E7%AC%AC23%E5%86%8A.pdf",
+        "revision_id": "cbr-ai-transcription-sha256:b7170dce6be9a5980d5373556ef7d70d8234d1f7af16af3aa30bf21f6e707b20",
+        "accessed_on": "2026-11-21",
+        "edition": "乾隆四年武英殿校刊本，國家圖書館HWRB201817006宋書第23冊",
+        "extent": "09L01 王𢎞之至11R04 誄竟不就",
+        "text_scope": "complete_biography_unit",
+        "image_verified": true,
+        "review_status": "AI_image_transcription_draft",
+        "raw_path": "source-evidence/song093-wyd/columns.txt",
+        "raw_file_sha256": "b7170dce6be9a5980d5373556ef7d70d8234d1f7af16af3aa30bf21f6e707b20",
+        "rights": "古籍版面，逐欄獨立錄文。館藏圖像以原頁外鏈查核。",
+        "license_url": "https://commons.wikimedia.org/wiki/File:NLC016-HWRB201817006-2849_%E5%AE%8B%E6%9B%B8_%E4%B8%80%E7%99%BE%E5%8D%B7_%E7%AC%AC23%E5%86%8A.pdf",
+        "normalization": {
+          "character_conversion": {},
+          "extraction_note": "行欄依書影右至左。篇界隨原本接文，各欄可由原圖獨立複查。"
+        }
       }
     },
     {

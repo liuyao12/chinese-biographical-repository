@@ -77,6 +77,10 @@ def consecutive_ancestor_parent_valid(member, rows, assertions, chapters, root=N
             or not isinstance(c.get('rationale'), str) or not c['rationale'].strip()
             or member.get('source_assertion_id') is not None):
         return False
+    if c.get('interpretation_basis') == 'nanshi024_wangsu_four_ancestors':
+        try: from scripts.nanshi024_wangsu import four_ancestor_pair as wangsu_four_ancestor_pair
+        except ImportError: from nanshi024_wangsu import four_ancestor_pair as wangsu_four_ancestor_pair
+        return wangsu_four_ancestor_pair(member, rows, assertions, chapters, root)
     if c.get('interpretation_basis') == 'punctuated_biography_four_ancestor_office_sequence':
         try:from .punctuated_ancestor_offices import valid as punctuated_valid
         except ImportError:from punctuated_ancestor_offices import valid as punctuated_valid

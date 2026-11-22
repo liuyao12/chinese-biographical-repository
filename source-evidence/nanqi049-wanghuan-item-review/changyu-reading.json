@@ -1,0 +1,234 @@
+{
+  "record_type": "fixed_source_complete_item_review",
+  "reviewer": "Codex（AI代理）",
+  "model": null,
+  "human_reviewed": false,
+  "external_witnesses": [
+    {
+      "revision_id": 1963381,
+      "raw_path": "sources/nanshi/nanshi016-ws1963381.wikitext",
+      "line": 143,
+      "start": 156,
+      "end": 175,
+      "source_quote": "子長瑜，亦有義行，永明中，爲州中從事。",
+      "raw_sha256": "8a252b3dacfcc3037062a5dab71748ee1d5c39a94f99ea9e61474b3fa9639ab3",
+      "url": "https://zh.wikisource.org/w/index.php?oldid=1963381",
+      "interpretation": "此在叔安事後，直接明父子；現役南16已記其世系。"
+    },
+    {
+      "revision_id": 1494939,
+      "raw_path": "source-evidence/nanqi049-wanghuan-item-review/external/nanshi032-ws1494939.wikitext",
+      "line": 73,
+      "start": 43,
+      "end": 57,
+      "source_quote": "沖故吏青州中從事房長瑜謂孜曰",
+      "raw_sha256": "15c2de7372e19c4330803394c90b8fb62ace4280a0a8b70cd6afc5ecd8c863e5",
+      "url": "https://zh.wikisource.org/w/index.php?oldid=1494939",
+      "interpretation": "南史作青州中從事。"
+    },
+    {
+      "revision_id": 1494939,
+      "raw_path": "source-evidence/nanqi049-wanghuan-item-review/external/nanshi032-ws1494939.wikitext",
+      "line": 73,
+      "start": 132,
+      "end": 140,
+      "source_quote": "不從，卒以郢城降",
+      "raw_sha256": "15c2de7372e19c4330803394c90b8fb62ace4280a0a8b70cd6afc5ecd8c863e5",
+      "url": "https://zh.wikisource.org/w/index.php?oldid=1494939",
+      "interpretation": "南史另記勸諫未獲採納。"
+    },
+    {
+      "revision_id": 803184,
+      "raw_path": "source-evidence/qi020-chulingqu/ws803184.wikitext",
+      "line": 82,
+      "start": 101,
+      "end": 115,
+      "source_quote": "張沖故吏青州治中房長瑜謂孜曰",
+      "raw_sha256": "c979f0bf6303567448ff6f0e7652ca983c707fead6c64b29678500511079f446",
+      "url": "https://zh.wikisource.org/w/index.php?oldid=803184",
+      "interpretation": "通鑑官稱跟齊書相同，後記孜不能用。"
+    },
+    {
+      "revision_id": 803184,
+      "raw_path": "source-evidence/qi020-chulingqu/ws803184.wikitext",
+      "line": 82,
+      "start": 182,
+      "end": 187,
+      "source_quote": "孜不能用。",
+      "raw_sha256": "c979f0bf6303567448ff6f0e7652ca983c707fead6c64b29678500511079f446",
+      "url": "https://zh.wikisource.org/w/index.php?oldid=803184",
+      "interpretation": "張孜未採此策；未敘其死。"
+    }
+  ],
+  "print_readings": [
+    {
+      "edition": "乾隆四年武英殿本《南齊書》，國家圖書館藏第161冊",
+      "url": "https://upload.wikimedia.org/wikipedia/commons/e/ea/NLC892-411999017142-12542_%E4%BA%8C%E5%8D%81%E5%9B%9B%E5%8F%B2_%E7%AC%AC161%E5%86%8A.pdf#page=61",
+      "pdf_sha1": "b81e77a03ff92f1d72b9b3ad9a967b4c96922592",
+      "pdf_sha256": "1aa6d822bc71fea651e4eb3cfa0a6b84b3deccc990b8fefa67cef78346f7fa62",
+      "page": 61,
+      "half": "R",
+      "folio": "九下",
+      "columns_from_right": [
+        4,
+        5,
+        6,
+        7,
+        8
+      ],
+      "source_quote": "沖故吏青州治中房長瑜謂孜曰前使君忠貫昊天",
+      "image_sha256": "8de12fa3ab5ac40c8d5bb8b606591f3f13d9a3a5a5a113bd1e0008b49b2629b9",
+      "interpretation": "諫詞結於第八欄；以下接魯山陷後二日。"
+    }
+  ],
+  "boundaries": [
+    {
+      "book_id": "b-nanqishu-049",
+      "title": "房長瑜",
+      "unit_kind": "embedded_account",
+      "entry_checked": true,
+      "full_text": true,
+      "first_pass": true,
+      "item_reviewed": true,
+      "chapter_id": "c-nanqishu-049-fangchangyu",
+      "first_line": 68,
+      "last_line": 68,
+      "start_codepoint": 43,
+      "end_codepoint": 131,
+      "opening": "沖故吏青州治中房長瑜謂孜曰",
+      "closing": "山之望，亦恐彼所不取也。」",
+      "parent_heading": "張沖",
+      "source_layout": "wikisource_private_use_glyphs",
+      "chapter_path": "corpus/nanqishu/049-fangchangyu.json",
+      "paragraph_ids": [
+        "c-nanqishu-049-fangchangyu:p001"
+      ],
+      "item_review_path": "source-evidence/nanqi049-wanghuan-item-review/changyu-reading.json"
+    }
+  ],
+  "chronology": [
+    {
+      "event": "房長瑜勸孜",
+      "year": 501,
+      "interval": "魯山失守後、郢城出降前",
+      "day_not_recorded": true
+    },
+    {
+      "event": "永明中州中從事",
+      "interval": [
+        483,
+        493
+      ],
+      "witness": "南史16"
+    }
+  ],
+  "readings": [
+    {
+      "id": "c-nanqishu-049-fangchangyu:received_sentence1-0",
+      "kind": "received_sentence",
+      "person_id": "5ql_hfz_086_A",
+      "source_quote": "沖故吏青州治中房長瑜謂孜曰：「前使君忠貫昊天，操逾松竹。",
+      "reading": "張沖故吏房長瑜告張孜，稱已故使君張沖忠節。",
+      "note": "張沖故吏房長瑜告張孜，稱已故使君張沖忠節。",
+      "paragraph_id": "c-nanqishu-049-fangchangyu:p001",
+      "start_codepoint": 0,
+      "end_codepoint": 28,
+      "human_reviewed": false
+    },
+    {
+      "id": "c-nanqishu-049-fangchangyu:received_sentence1-28",
+      "kind": "received_sentence",
+      "person_id": "5ql_hfz_086_A",
+      "source_quote": "郎君但當端坐畫一，以荷析薪。",
+      "reading": "請張孜守父遺法、荷父業。",
+      "note": "請張孜守父遺法、荷父業。",
+      "paragraph_id": "c-nanqishu-049-fangchangyu:p001",
+      "start_codepoint": 28,
+      "end_codepoint": 42,
+      "human_reviewed": false
+    },
+    {
+      "id": "c-nanqishu-049-fangchangyu:received_sentence1-42",
+      "kind": "received_sentence",
+      "person_id": "5ql_hfz_086_A",
+      "source_quote": "若天運不與，幅巾待命，以下從使君。",
+      "reading": "若時運不順，宜待命以從故使君。這是勸語，未述張孜死事。",
+      "note": "若時運不順，宜待命以從故使君。這是勸語，未述張孜死事。",
+      "paragraph_id": "c-nanqishu-049-fangchangyu:p001",
+      "start_codepoint": 42,
+      "end_codepoint": 59,
+      "human_reviewed": false
+    },
+    {
+      "id": "c-nanqishu-049-fangchangyu:received_sentence1-59",
+      "kind": "received_sentence",
+      "person_id": "5ql_hfz_086_A",
+      "source_quote": "今若隨諸人之計，非唯郢州士女失高山之望，亦恐彼所不取也。」",
+      "reading": "反對附程茂等降議，憂郢州士女失望、對方亦不取。",
+      "note": "反對附程茂等降議，憂郢州士女失望、對方亦不取。",
+      "paragraph_id": "c-nanqishu-049-fangchangyu:p001",
+      "start_codepoint": 59,
+      "end_codepoint": 88,
+      "human_reviewed": false
+    },
+    {
+      "id": "c-nanqishu-049-fangchangyu:office_variant1-3",
+      "kind": "office_variant",
+      "person_id": "5ql_hfz_086_A",
+      "source_quote": "青州治中",
+      "reading": "《通鑑》同作青州治中；南史32作青州中從事。南史16另明永明中為州中從事。三處各錄。",
+      "note": "《通鑑》同作青州治中；南史32作青州中從事。南史16另明永明中為州中從事。三處各錄。",
+      "paragraph_id": "c-nanqishu-049-fangchangyu:p001",
+      "start_codepoint": 3,
+      "end_codepoint": 7,
+      "human_reviewed": false,
+      "offices_by_source": [
+        "青州治中",
+        "青州中從事",
+        "州中從事"
+      ]
+    },
+    {
+      "id": "c-nanqishu-049-fangchangyu:conditional_speech1-53",
+      "kind": "conditional_speech",
+      "person_id": "d50_8f5_wul_AAACBBA",
+      "source_quote": "以下從使君",
+      "reading": "張沖已死，「下從」是房長瑜所提條件，不據此立張孜卒事或年。",
+      "note": "張沖已死，「下從」是房長瑜所提條件，不據此立張孜卒事或年。",
+      "paragraph_id": "c-nanqishu-049-fangchangyu:p001",
+      "start_codepoint": 53,
+      "end_codepoint": 58,
+      "human_reviewed": false,
+      "speaker_person_id": "5ql_hfz_086_A",
+      "addressee_person_id": "d50_8f5_wul_AAACBBA"
+    },
+    {
+      "id": "c-nanqishu-049-fangchangyu:collective_reference1-61",
+      "kind": "collective_reference",
+      "person_id": "5ql_hfz_086_A",
+      "source_quote": "隨諸人之計",
+      "reading": "指同段此前程茂、元嗣等所議之降計。",
+      "note": "指同段此前程茂、元嗣等所議之降計。",
+      "paragraph_id": "c-nanqishu-049-fangchangyu:p001",
+      "start_codepoint": 61,
+      "end_codepoint": 66,
+      "human_reviewed": false,
+      "group": "程茂、薛元嗣等議降者"
+    },
+    {
+      "id": "c-nanqishu-049-fangchangyu:collective_reference1-81",
+      "kind": "collective_reference",
+      "person_id": "5ql_hfz_086_A",
+      "source_quote": "彼所不取",
+      "reading": "「彼」指受降之梁方，未把這一代詞限於蕭衍個人。",
+      "note": "「彼」指受降之梁方，未把這一代詞限於蕭衍個人。",
+      "paragraph_id": "c-nanqishu-049-fangchangyu:p001",
+      "start_codepoint": 81,
+      "end_codepoint": 85,
+      "human_reviewed": false
+    }
+  ],
+  "identity_limits": [
+    "清河房叔安子；本篇並見房僧寄，兩人無明文親屬。"
+  ]
+}

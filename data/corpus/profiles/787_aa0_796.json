@@ -74,6 +74,41 @@
       "chapter_id": "c-jinshu-042-taiyuan-wang",
       "source_id": "s-jinshu-042-taiyuan-wang",
       "work_title": "晉書"
+    },
+    {
+      "number": 101,
+      "category": "",
+      "title": "通鑑遷都議、鄧遐父子及洌洲之會",
+      "paragraph_id": "c-zizhitongjian-101-jin098-huanwen-return:sun",
+      "count": 1,
+      "raw_count": 1,
+      "duplicate_count": 0,
+      "counting_policy": "independent_fixed_witness_occurrences",
+      "quote": "綽，楚之孫也。少慕高尚，嘗著《遂初賦》以見志。溫見綽表，不悅，曰：「致意興公，何不尋君《遂初賦》，而知人家國事邪！」",
+      "paragraph_ids": [
+        "c-zizhitongjian-101-jin098-huanwen-return:sun"
+      ],
+      "mention_ids": [
+        "c-zizhitongjian-101-jin098-huanwen-return:sun:m0002"
+      ],
+      "mention_paragraph_ids": {
+        "c-zizhitongjian-101-jin098-huanwen-return:sun:m0002": "c-zizhitongjian-101-jin098-huanwen-return:sun"
+      },
+      "mention_id": "c-zizhitongjian-101-jin098-huanwen-return:sun:m0002",
+      "occurrence_groups": [
+        {
+          "canonical_mention_id": "c-zizhitongjian-101-jin098-huanwen-return:sun:m0002",
+          "mention_ids": [
+            "c-zizhitongjian-101-jin098-huanwen-return:sun:m0002"
+          ],
+          "kind": "paragraph"
+        }
+      ],
+      "work_id": "w-zizhitongjian",
+      "book_id": "b-zizhitongjian-101",
+      "chapter_id": "c-zizhitongjian-101-jin098-huanwen-return",
+      "source_id": "s-zizhitongjian-101-jin098-huanwen-return",
+      "work_title": "資治通鑑"
     }
   ],
   "table_occurrences": [],
@@ -465,18 +500,103 @@
         "rights": "古代原文及維基文庫數位轉錄；保留來源歸屬。",
         "license_url": "https://creativecommons.org/licenses/by-sa/4.0/"
       }
+    },
+    {
+      "chapter_id": "c-zizhitongjian-101-jin098-huanwen-return",
+      "work_id": "w-zizhitongjian",
+      "book_id": "b-zizhitongjian-101",
+      "source_id": "s-zizhitongjian-101-jin098-huanwen-return",
+      "source": {
+        "provider": "Wikisource",
+        "revision_id": 2024978,
+        "permalink": "https://zh.wikisource.org/w/index.php?oldid=2024978",
+        "edition": "固定修訂相關原文，逐字核收。",
+        "image_verified": false,
+        "qualification": "固定數位傳世文字見證；未親核底本或影像，校勘ref另層。",
+        "selected_raw_start": 8177,
+        "selected_raw_end": 14871,
+        "extent": "下列來源節錄。",
+        "rights": "古代正文公版；維基文庫數位整理保留來源歸屬及CC BY-SA資格。",
+        "title": "資治通鑑一百一",
+        "url": "https://zh.wikisource.org/w/index.php?oldid=2024978",
+        "raw_file_sha256": "33fd83674645c026b303c113799b69d62857aca88e0cadc3ae06e548852f282b",
+        "raw_path": "source-evidence/jin098-huanwen-return/external/z-ws2024978.wikitext",
+        "accessed_on": "2026-10-20",
+        "text_scope": "partial_chapter",
+        "review_status": "text_checked",
+        "license_url": "https://creativecommons.org/licenses/by-sa/4.0/",
+        "collation_witnesses": [
+          "source-evidence/jin098-huan-four-children/reading.json"
+        ],
+        "wikitext_sha256": "33fd83674645c026b303c113799b69d62857aca88e0cadc3ae06e548852f282b"
+      }
     }
   ],
-  "relations": [],
+  "relations": [
+    {
+      "id": "a-w098-z101-sun",
+      "subject_person_id": "9c1_b3c_cb7",
+      "object_person_id": "787_aa0_796",
+      "predicate": "grandfather",
+      "qualifiers": {
+        "source_term": "綽，楚之孫也"
+      },
+      "evidence": [
+        {
+          "work_id": "w-zizhitongjian",
+          "book_id": "b-zizhitongjian-101",
+          "chapter_id": "c-zizhitongjian-101-jin098-huanwen-return",
+          "source_id": "s-zizhitongjian-101-jin098-huanwen-return",
+          "paragraph_id": "c-zizhitongjian-101-jin098-huanwen-return:sun",
+          "quote": "綽，楚之孫也。少慕高尚，嘗著《遂初賦》以見志。溫見綽表，不悅，曰：「致意興公，何不尋君《遂初賦》，而知人家國事邪！」",
+          "subject_person_mention_id": "c-zizhitongjian-101-jin098-huanwen-return:sun:m0000",
+          "object_person_mention_id": "c-zizhitongjian-101-jin098-huanwen-return:sun:m0002"
+        }
+      ],
+      "interpretation_note": "此條按本句所明言。",
+      "status": "source_attested",
+      "reviewer": "Codex（AI 代理）",
+      "human_reviewed": false,
+      "model": null
+    }
+  ],
   "related_people": {
-    "787_aa0_796": "孫楚"
+    "787_aa0_796": "孫楚",
+    "9c1_b3c_cb7": "孫綽"
   },
   "dates": [],
   "name_components": [],
   "person_ids": [
     "787_aa0_796"
   ],
-  "preferred_relations": [],
+  "preferred_relations": [
+    {
+      "id": "a-w098-z101-sun",
+      "subject_person_id": "9c1_b3c_cb7",
+      "object_person_id": "787_aa0_796",
+      "predicate": "grandfather",
+      "qualifiers": {
+        "source_term": "綽，楚之孫也"
+      },
+      "evidence": [
+        {
+          "work_id": "w-zizhitongjian",
+          "book_id": "b-zizhitongjian-101",
+          "chapter_id": "c-zizhitongjian-101-jin098-huanwen-return",
+          "source_id": "s-zizhitongjian-101-jin098-huanwen-return",
+          "paragraph_id": "c-zizhitongjian-101-jin098-huanwen-return:sun",
+          "quote": "綽，楚之孫也。少慕高尚，嘗著《遂初賦》以見志。溫見綽表，不悅，曰：「致意興公，何不尋君《遂初賦》，而知人家國事邪！」",
+          "subject_person_mention_id": "c-zizhitongjian-101-jin098-huanwen-return:sun:m0000",
+          "object_person_mention_id": "c-zizhitongjian-101-jin098-huanwen-return:sun:m0002"
+        }
+      ],
+      "interpretation_note": "此條按本句所明言。",
+      "status": "source_attested",
+      "reviewer": "Codex（AI 代理）",
+      "human_reviewed": false,
+      "model": null
+    }
+  ],
   "age_assertions": [],
   "life_events": [],
   "life_event_date_decisions": [],

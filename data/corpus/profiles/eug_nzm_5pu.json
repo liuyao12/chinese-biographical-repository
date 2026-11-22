@@ -66,6 +66,50 @@
   "addresses": [],
   "occurrences": [
     {
+      "number": 7,
+      "category": "",
+      "title": "昭帝紀所記上官父子與霍光",
+      "paragraph_id": "c-hanshu-007-jin098-huanwen-wuchang:father",
+      "count": 2,
+      "raw_count": 2,
+      "duplicate_count": 0,
+      "counting_policy": "independent_fixed_witness_occurrences",
+      "quote": "初，桀、 安父子與大將軍光爭權，欲害之，詐使人為燕王旦上書言光罪。",
+      "paragraph_ids": [
+        "c-hanshu-007-jin098-huanwen-wuchang:father"
+      ],
+      "mention_ids": [
+        "c-hanshu-007-jin098-huanwen-wuchang:father:m0012",
+        "c-hanshu-007-jin098-huanwen-wuchang:father:m0030"
+      ],
+      "mention_paragraph_ids": {
+        "c-hanshu-007-jin098-huanwen-wuchang:father:m0012": "c-hanshu-007-jin098-huanwen-wuchang:father",
+        "c-hanshu-007-jin098-huanwen-wuchang:father:m0030": "c-hanshu-007-jin098-huanwen-wuchang:father"
+      },
+      "mention_id": "c-hanshu-007-jin098-huanwen-wuchang:father:m0012",
+      "occurrence_groups": [
+        {
+          "canonical_mention_id": "c-hanshu-007-jin098-huanwen-wuchang:father:m0012",
+          "mention_ids": [
+            "c-hanshu-007-jin098-huanwen-wuchang:father:m0012"
+          ],
+          "kind": "paragraph"
+        },
+        {
+          "canonical_mention_id": "c-hanshu-007-jin098-huanwen-wuchang:father:m0030",
+          "mention_ids": [
+            "c-hanshu-007-jin098-huanwen-wuchang:father:m0030"
+          ],
+          "kind": "paragraph"
+        }
+      ],
+      "work_id": "w-hanshu",
+      "book_id": "b-hanshu-007",
+      "chapter_id": "c-hanshu-007-jin098-huanwen-wuchang",
+      "source_id": "s-hanshu-007-jin098-huanwen-wuchang",
+      "work_title": "漢書"
+    },
+    {
       "number": 9,
       "category": "",
       "title": "曹真曹爽完整本傳及附敘",
@@ -583,6 +627,36 @@
   ],
   "table_occurrences": [],
   "sources": [
+    {
+      "chapter_id": "c-hanshu-007-jin098-huanwen-wuchang",
+      "work_id": "w-hanshu",
+      "book_id": "b-hanshu-007",
+      "source_id": "s-hanshu-007-jin098-huanwen-wuchang",
+      "source": {
+        "provider": "Wikisource",
+        "revision_id": 2154537,
+        "permalink": "https://zh.wikisource.org/w/index.php?oldid=2154537",
+        "edition": "固定修訂相關原文，逐字核收。",
+        "image_verified": false,
+        "qualification": "固定數位傳世文字見證；未親核底本或影像，校勘ref另層。",
+        "selected_raw_start": 8177,
+        "selected_raw_end": 14871,
+        "extent": "下列來源節錄。",
+        "rights": "古代正文公版；維基文庫數位整理保留來源歸屬及CC BY-SA資格。",
+        "title": "漢書昭帝紀",
+        "url": "https://zh.wikisource.org/w/index.php?oldid=2154537",
+        "raw_file_sha256": "bc6d10cab620790929011a73699e7e610c596ee5ea1e5662522c598517980b2e",
+        "raw_path": "source-evidence/jin098-huanwen-wuchang/external/han7-ws2154537.wikitext",
+        "accessed_on": "2026-10-20",
+        "text_scope": "partial_chapter",
+        "review_status": "text_checked",
+        "license_url": "https://creativecommons.org/licenses/by-sa/4.0/",
+        "collation_witnesses": [
+          "source-evidence/jin098-huan-four-children/reading.json"
+        ],
+        "wikitext_sha256": "bc6d10cab620790929011a73699e7e610c596ee5ea1e5662522c598517980b2e"
+      }
+    },
     {
       "chapter_id": "c-hanshu-059-zhangtang",
       "work_id": "w-hanshu",
@@ -3335,7 +3409,15 @@
         "review_status": "text_checked",
         "license_url": "https://creativecommons.org/licenses/by-sa/4.0/",
         "collation_witnesses": [
-          "source-evidence/jin098-huan-four-children/reading.json"
+          "source-evidence/jin098-huan-four-children/reading.json",
+          "source-evidence/jin098-huanwen-opening/reading.json",
+          "source-evidence/jin098-huanwen-shu/reading.json",
+          "source-evidence/jin098-huanwen-wuchang/reading.json",
+          "source-evidence/jin098-huanwen-guanzhong/reading.json",
+          "source-evidence/jin098-huanwen-luoyang/reading.json",
+          "source-evidence/jin098-huanwen-return/reading.json",
+          "source-evidence/jin098-huanwen-fangtou/reading.json",
+          "source-evidence/jin098-huanwen-succession/reading.json"
         ]
       }
     },

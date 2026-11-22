@@ -2583,6 +2583,51 @@
       "work_title": "史記"
     },
     {
+      "number": 103,
+      "category": "",
+      "title": "殷浩子涓、遺詔兩式、桓溫九錫與王謝",
+      "paragraph_id": "c-zizhitongjian-103-jin098-huanwen-succession:draft",
+      "count": 2,
+      "raw_count": 2,
+      "duplicate_count": 0,
+      "counting_policy": "independent_fixed_witness_occurrences",
+      "quote": "遺詔：「大司馬溫依周公居攝故事。」又曰：「少子可輔者輔之，如不可，君自取之。」侍中王坦之自持詔入，於帝前毀之。",
+      "paragraph_ids": [
+        "c-zizhitongjian-103-jin098-huanwen-succession:draft",
+        "c-zizhitongjian-103-jin098-huanwen-succession:regency"
+      ],
+      "mention_ids": [
+        "c-zizhitongjian-103-jin098-huanwen-succession:draft:m0009",
+        "c-zizhitongjian-103-jin098-huanwen-succession:regency:m0019"
+      ],
+      "mention_paragraph_ids": {
+        "c-zizhitongjian-103-jin098-huanwen-succession:draft:m0009": "c-zizhitongjian-103-jin098-huanwen-succession:draft",
+        "c-zizhitongjian-103-jin098-huanwen-succession:regency:m0019": "c-zizhitongjian-103-jin098-huanwen-succession:regency"
+      },
+      "mention_id": "c-zizhitongjian-103-jin098-huanwen-succession:draft:m0009",
+      "occurrence_groups": [
+        {
+          "canonical_mention_id": "c-zizhitongjian-103-jin098-huanwen-succession:draft:m0009",
+          "mention_ids": [
+            "c-zizhitongjian-103-jin098-huanwen-succession:draft:m0009"
+          ],
+          "kind": "paragraph"
+        },
+        {
+          "canonical_mention_id": "c-zizhitongjian-103-jin098-huanwen-succession:regency:m0019",
+          "mention_ids": [
+            "c-zizhitongjian-103-jin098-huanwen-succession:regency:m0019"
+          ],
+          "kind": "paragraph"
+        }
+      ],
+      "work_id": "w-zizhitongjian",
+      "book_id": "b-zizhitongjian-103",
+      "chapter_id": "c-zizhitongjian-103-jin098-huanwen-succession",
+      "source_id": "s-zizhitongjian-103-jin098-huanwen-succession",
+      "work_title": "資治通鑑"
+    },
+    {
       "number": 118,
       "category": "liezhuan",
       "title": "淮南衡山列傳第五十八",
@@ -17566,7 +17611,15 @@
         "review_status": "text_checked",
         "license_url": "https://creativecommons.org/licenses/by-sa/4.0/",
         "collation_witnesses": [
-          "source-evidence/jin098-huan-four-children/reading.json"
+          "source-evidence/jin098-huan-four-children/reading.json",
+          "source-evidence/jin098-huanwen-opening/reading.json",
+          "source-evidence/jin098-huanwen-shu/reading.json",
+          "source-evidence/jin098-huanwen-wuchang/reading.json",
+          "source-evidence/jin098-huanwen-guanzhong/reading.json",
+          "source-evidence/jin098-huanwen-luoyang/reading.json",
+          "source-evidence/jin098-huanwen-return/reading.json",
+          "source-evidence/jin098-huanwen-fangtou/reading.json",
+          "source-evidence/jin098-huanwen-succession/reading.json"
         ]
       }
     },
@@ -23267,6 +23320,36 @@
           "extraction_note": "只去物理空白、¶、頁標；原字及一對一座標保留。",
           "excerpts": []
         }
+      }
+    },
+    {
+      "chapter_id": "c-zizhitongjian-103-jin098-huanwen-succession",
+      "work_id": "w-zizhitongjian",
+      "book_id": "b-zizhitongjian-103",
+      "source_id": "s-zizhitongjian-103-jin098-huanwen-succession",
+      "source": {
+        "provider": "Wikisource",
+        "revision_id": 2402076,
+        "permalink": "https://zh.wikisource.org/w/index.php?oldid=2402076",
+        "edition": "固定修訂相關原文，逐字核收。",
+        "image_verified": false,
+        "qualification": "固定數位傳世文字見證；未親核底本或影像，校勘ref另層。",
+        "selected_raw_start": 8177,
+        "selected_raw_end": 14871,
+        "extent": "下列來源節錄。",
+        "rights": "古代正文公版；維基文庫數位整理保留來源歸屬及CC BY-SA資格。",
+        "title": "資治通鑑一百三",
+        "url": "https://zh.wikisource.org/w/index.php?oldid=2402076",
+        "raw_file_sha256": "38799dea58a4931421e376e4e9fb615b42efc73714480be7ba79b6fefd423a9a",
+        "raw_path": "source-evidence/jin098-huanwen-succession/external/z-ws2402076.wikitext",
+        "accessed_on": "2026-10-20",
+        "text_scope": "partial_chapter",
+        "review_status": "text_checked",
+        "license_url": "https://creativecommons.org/licenses/by-sa/4.0/",
+        "collation_witnesses": [
+          "source-evidence/jin098-huan-four-children/reading.json"
+        ],
+        "wikitext_sha256": "38799dea58a4931421e376e4e9fb615b42efc73714480be7ba79b6fefd423a9a"
       }
     },
     {

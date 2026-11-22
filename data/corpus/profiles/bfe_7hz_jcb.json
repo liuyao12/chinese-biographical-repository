@@ -12,6 +12,61 @@
   "table_occurrences": [],
   "sources": [
     {
+      "chapter_id": "c-nanshi-011-wangxianyuan",
+      "work_id": "w-nanshi",
+      "book_id": "b-nanshi-011",
+      "source_id": "s-nanshi-011-wangxianyuan-ws2288359",
+      "source": {
+        "title": "孝武文穆皇后王憲嫄傳",
+        "provider": "Wikisource",
+        "url": "https://zh.wikisource.org/w/index.php?oldid=2288359",
+        "permalink": "https://zh.wikisource.org/w/index.php?oldid=2288359",
+        "revision_id": 2288359,
+        "accessed_on": "2026-11-21",
+        "edition": "維基文庫固定修訂",
+        "extent": "固定原始檔第55、57行傳目全段。",
+        "text_scope": "complete_biography_unit",
+        "image_verified": false,
+        "review_status": "text_checked",
+        "license_url": "https://creativecommons.org/licenses/by-sa/4.0/",
+        "rights": "古代正文及維基文庫數位轉錄，保留見證歸屬。",
+        "section_locator": "孝武文穆皇后王憲嫄傳",
+        "raw_path": "source-evidence/nanshi022-wang/nan011-ws2288359.wikitext",
+        "raw_file_sha256": "056a4790420554786f40b92b14255aeec0a0eb168722bfeda19ad5f78f6363d4",
+        "normalization": {
+          "character_conversion": {},
+          "extraction_note": "各字保存固定修訂原位，分開正文、數位版校勘與按語。"
+        }
+      }
+    },
+    {
+      "chapter_id": "c-nanshi-011-wangxianyuan-izumo",
+      "work_id": "w-nanshi",
+      "book_id": "b-nanshi-011",
+      "source_id": "s-nanshi-011-wangxianyuan-izumo",
+      "source": {
+        "title": "弘化四年出雲藩刊本《南史》卷十一孝武文穆皇后王憲嫄傳",
+        "provider": "日本國立公文書館內閣文庫藏，Wikimedia Commons",
+        "url": "https://upload.wikimedia.org/wikipedia/commons/6/6a/NAJDA-280-0079_%E5%8D%97%E5%8F%B27.pdf",
+        "permalink": "https://commons.wikimedia.org/w/index.php?oldid=1298729844",
+        "revision_id": "cbr-ai-transcription-sha256:b1fcce7a518a492ebf12b1d2b504abc1f3d5bacccf6522f72a2704d9b34daf29",
+        "accessed_on": "2026-11-21",
+        "raw_path": "source-evidence/nan011-wangxianyuan-izumo/izumo-columns.txt",
+        "raw_file_sha256": "b1fcce7a518a492ebf12b1d2b504abc1f3d5bacccf6522f72a2704d9b34daf29",
+        "edition": "弘化四年出雲藩刊《南史》第七冊，內閣文庫 280-0079，卷十一。",
+        "extent": "PDF第十二面左半第二至九欄，即卷十一第十葉上。",
+        "text_scope": "complete_biography_unit",
+        "image_verified": true,
+        "review_status": "AI_image_transcription_draft",
+        "rights": "所據館藏古籍及自行按欄轉寫。",
+        "license_url": "https://commons.wikimedia.org/wiki/File:NAJDA-280-0079_%E5%8D%97%E5%8F%B27.pdf",
+        "normalization": {
+          "character_conversion": {},
+          "extraction_note": "依原欄自右至左轉寫。短傳另起一欄，字旁原圈點未收入正文。"
+        }
+      }
+    },
+    {
       "chapter_id": "c-nanshi-021-wangsengda",
       "work_id": "w-nanshi",
       "book_id": "b-nanshi-021",
@@ -77,6 +132,36 @@
   "dates": [],
   "name_components": [],
   "person_references": [
+    {
+      "id": "c-nanshi-011-wangxianyuan-izumo:p002:r0013",
+      "start": 13,
+      "end": 16,
+      "surface": "皇太后",
+      "person_id": "bfe_7hz_jcb",
+      "paragraph_id": "c-nanshi-011-wangxianyuan-izumo:p002",
+      "quote": "皇太后觀禮",
+      "referent_role": "third_person",
+      "note": "觀禮者為路惠男；本段後一個皇太后是新受尊號的王憲嫄。",
+      "chapter_id": "c-nanshi-011-wangxianyuan-izumo",
+      "book_id": "b-nanshi-011",
+      "work_id": "w-nanshi",
+      "source_id": "s-nanshi-011-wangxianyuan-izumo"
+    },
+    {
+      "id": "c-nanshi-011-wangxianyuan:p002:r0015",
+      "start": 15,
+      "end": 18,
+      "surface": "皇太后",
+      "person_id": "bfe_7hz_jcb",
+      "paragraph_id": "c-nanshi-011-wangxianyuan:p002",
+      "quote": "皇太后觀禮",
+      "referent_role": "third_person",
+      "note": "觀禮者為路惠男；本段後一個皇太后是新受尊號的王憲嫄。",
+      "chapter_id": "c-nanshi-011-wangxianyuan",
+      "book_id": "b-nanshi-011",
+      "work_id": "w-nanshi",
+      "source_id": "s-nanshi-011-wangxianyuan-ws2288359"
+    },
     {
       "start": 107,
       "end": 109,

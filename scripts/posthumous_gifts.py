@@ -3,6 +3,14 @@
 
 def posthumous_gift_valid(holding, paragraphs, mentions, life_events=None):
     basis = holding.get('posthumous_basis')
+    if isinstance(basis, dict) and basis.get('kind') == 'jin098_huanwen_final_gift':
+        try: from scripts.jin098_huan_final import gift
+        except ImportError: from jin098_huan_final import gift
+        return gift(holding, paragraphs, mentions, life_events or {})
+    if isinstance(basis, dict) and basis.get('kind') == 'jin098_kong_seal':
+        try: from scripts.jin098_kong_yuan import seal_valid
+        except ImportError: from jin098_kong_yuan import seal_valid
+        return seal_valid(holding, paragraphs, mentions, life_events or {})
     if not isinstance(basis, dict):
         return False
     if basis.get('kind') == 'jin043_shangai_gift':
@@ -26,6 +34,10 @@ def posthumous_gift_valid(holding, paragraphs, mentions, life_events=None):
                 and len(holding.get('attestations', [])) == 1
                 and all(holding['attestations'][0].get(k) == v for k, v in
                         {'paragraph_id': pid, 'person_mention_id': mid, 'start': at, 'end': at + 4, 'surface': '長水校尉', 'usage': 'posthumous_usage'}.items()))
+    if basis.get('kind') == 'qi049_gift_to_named_defender':
+        try: from scripts.qi049_defender_gifts import valid as qi049_gift
+        except ImportError: from qi049_defender_gifts import valid as qi049_gift
+        return qi049_gift(holding, paragraphs, mentions, life_events or {})
     if basis.get('kind') == 'qi020_baoming_parent_grant':
         try: from scripts.qi020_baoming import parent_grant_valid
         except ImportError: from qi020_baoming import parent_grant_valid

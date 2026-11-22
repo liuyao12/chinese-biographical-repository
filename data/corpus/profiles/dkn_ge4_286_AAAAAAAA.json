@@ -414,6 +414,41 @@
       "work_title": "晉書"
     },
     {
+      "number": 19,
+      "category": "",
+      "title": "續晉陽秋記南康長公主",
+      "paragraph_id": "c-shishuoxinyu-019-jin098-huanwen-opening:princess",
+      "count": 1,
+      "raw_count": 1,
+      "duplicate_count": 0,
+      "counting_policy": "independent_fixed_witness_occurrences",
+      "quote": "溫尚明帝女南康長公主。",
+      "paragraph_ids": [
+        "c-shishuoxinyu-019-jin098-huanwen-opening:princess"
+      ],
+      "mention_ids": [
+        "c-shishuoxinyu-019-jin098-huanwen-opening:princess:m0002"
+      ],
+      "mention_paragraph_ids": {
+        "c-shishuoxinyu-019-jin098-huanwen-opening:princess:m0002": "c-shishuoxinyu-019-jin098-huanwen-opening:princess"
+      },
+      "mention_id": "c-shishuoxinyu-019-jin098-huanwen-opening:princess:m0002",
+      "occurrence_groups": [
+        {
+          "canonical_mention_id": "c-shishuoxinyu-019-jin098-huanwen-opening:princess:m0002",
+          "mention_ids": [
+            "c-shishuoxinyu-019-jin098-huanwen-opening:princess:m0002"
+          ],
+          "kind": "paragraph"
+        }
+      ],
+      "work_id": "w-shishuoxinyu",
+      "book_id": "b-shishuoxinyu-019",
+      "chapter_id": "c-shishuoxinyu-019-jin098-huanwen-opening",
+      "source_id": "s-shishuoxinyu-019-jin098-huanwen-opening",
+      "work_title": "世說新語"
+    },
+    {
       "number": 32,
       "category": "",
       "title": "元明帝后妃與鄭阿春家世選段",
@@ -16772,7 +16807,15 @@
         "review_status": "text_checked",
         "license_url": "https://creativecommons.org/licenses/by-sa/4.0/",
         "collation_witnesses": [
-          "source-evidence/jin098-huan-four-children/reading.json"
+          "source-evidence/jin098-huan-four-children/reading.json",
+          "source-evidence/jin098-huanwen-opening/reading.json",
+          "source-evidence/jin098-huanwen-shu/reading.json",
+          "source-evidence/jin098-huanwen-wuchang/reading.json",
+          "source-evidence/jin098-huanwen-guanzhong/reading.json",
+          "source-evidence/jin098-huanwen-luoyang/reading.json",
+          "source-evidence/jin098-huanwen-return/reading.json",
+          "source-evidence/jin098-huanwen-fangtou/reading.json",
+          "source-evidence/jin098-huanwen-succession/reading.json"
         ]
       }
     },
@@ -16880,6 +16923,36 @@
         "license_url": "https://creativecommons.org/licenses/by-sa/4.0/",
         "raw_path": "source-evidence/jin065-wangdao-main/external/fang-ws2567462.wikitext",
         "raw_file_sha256": "fe12e14d6e67a7ed4e8b0ca80124762d30c1995b3f890783ada310c1f80cb40e"
+      }
+    },
+    {
+      "chapter_id": "c-shishuoxinyu-019-jin098-huanwen-opening",
+      "work_id": "w-shishuoxinyu",
+      "book_id": "b-shishuoxinyu-019",
+      "source_id": "s-shishuoxinyu-019-jin098-huanwen-opening",
+      "source": {
+        "provider": "Wikisource",
+        "revision_id": 1503603,
+        "permalink": "https://zh.wikisource.org/w/index.php?oldid=1503603",
+        "edition": "固定修訂相關原文，逐字核收。",
+        "image_verified": false,
+        "qualification": "固定數位傳世文字見證；未親核底本或影像，校勘ref另層。",
+        "selected_raw_start": 8177,
+        "selected_raw_end": 14871,
+        "extent": "下列來源節錄。",
+        "rights": "古代正文公版；維基文庫數位整理保留來源歸屬及CC BY-SA資格。",
+        "title": "世說新語賢媛與劉注",
+        "url": "https://zh.wikisource.org/w/index.php?oldid=1503603",
+        "raw_file_sha256": "5f6eea7193b4001333fcb094be894cb6b9ba9c0aeaa2c2b147b3bc96915f375b",
+        "raw_path": "source-evidence/jin098-mengjia/external/xian-ws1503603.wikitext",
+        "accessed_on": "2026-10-20",
+        "text_scope": "partial_chapter",
+        "review_status": "text_checked",
+        "license_url": "https://creativecommons.org/licenses/by-sa/4.0/",
+        "collation_witnesses": [
+          "source-evidence/jin098-huan-four-children/reading.json"
+        ],
+        "wikitext_sha256": "5f6eea7193b4001333fcb094be894cb6b9ba9c0aeaa2c2b147b3bc96915f375b"
       }
     }
   ],
@@ -17050,6 +17123,32 @@
       "reviewer": "Codex（AI 代理）",
       "human_reviewed": false,
       "model": null
+    },
+    {
+      "id": "a-w098-huan-open-princess",
+      "subject_person_id": "f09_80e_7ee",
+      "object_person_id": "dkn_ge4_286_AAAAAAAA",
+      "predicate": "father",
+      "qualifiers": {
+        "source_term": "明帝女南康長公主"
+      },
+      "evidence": [
+        {
+          "work_id": "w-shishuoxinyu",
+          "book_id": "b-shishuoxinyu-019",
+          "chapter_id": "c-shishuoxinyu-019-jin098-huanwen-opening",
+          "source_id": "s-shishuoxinyu-019-jin098-huanwen-opening",
+          "paragraph_id": "c-shishuoxinyu-019-jin098-huanwen-opening:princess",
+          "quote": "溫尚明帝女南康長公主。",
+          "subject_person_mention_id": "c-shishuoxinyu-019-jin098-huanwen-opening:princess:m0005",
+          "object_person_mention_id": "c-shishuoxinyu-019-jin098-huanwen-opening:princess:m0002"
+        }
+      ],
+      "interpretation_note": "此條按本句所明言。",
+      "status": "source_attested",
+      "reviewer": "Codex（AI 代理）",
+      "human_reviewed": false,
+      "model": null
     }
   ],
   "related_people": {
@@ -17057,7 +17156,8 @@
     "4qr_wrk_3vd_A": "庾文君",
     "dkn_ge4_286_AAAAAAA": "晉元帝",
     "dkn_ge4_286_AAAAAAAA": "晉明帝",
-    "dkn_ge4_286_AAAAAAAAA": "晉成帝"
+    "dkn_ge4_286_AAAAAAAAA": "晉成帝",
+    "f09_80e_7ee": "南康主"
   },
   "dates": [],
   "reading_decisions": [
@@ -17944,6 +18044,32 @@
         }
       ],
       "interpretation_note": "只保存本句所載關係；不把兄弟改作明載共同父母，不補同母、絕對排行。",
+      "reviewer": "Codex（AI 代理）",
+      "human_reviewed": false,
+      "model": null
+    },
+    {
+      "id": "a-w098-huan-open-princess",
+      "subject_person_id": "f09_80e_7ee",
+      "object_person_id": "dkn_ge4_286_AAAAAAAA",
+      "predicate": "father",
+      "qualifiers": {
+        "source_term": "明帝女南康長公主"
+      },
+      "evidence": [
+        {
+          "work_id": "w-shishuoxinyu",
+          "book_id": "b-shishuoxinyu-019",
+          "chapter_id": "c-shishuoxinyu-019-jin098-huanwen-opening",
+          "source_id": "s-shishuoxinyu-019-jin098-huanwen-opening",
+          "paragraph_id": "c-shishuoxinyu-019-jin098-huanwen-opening:princess",
+          "quote": "溫尚明帝女南康長公主。",
+          "subject_person_mention_id": "c-shishuoxinyu-019-jin098-huanwen-opening:princess:m0005",
+          "object_person_mention_id": "c-shishuoxinyu-019-jin098-huanwen-opening:princess:m0002"
+        }
+      ],
+      "interpretation_note": "此條按本句所明言。",
+      "status": "source_attested",
       "reviewer": "Codex（AI 代理）",
       "human_reviewed": false,
       "model": null

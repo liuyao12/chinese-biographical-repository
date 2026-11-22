@@ -2131,6 +2131,41 @@
     {
       "number": 24,
       "category": "",
+      "title": "王准之、王逡之、王珪之的兩處分題",
+      "paragraph_id": "c-nanshi-024-wangqunzhi-heading-context:p001",
+      "count": 1,
+      "raw_count": 1,
+      "duplicate_count": 0,
+      "counting_policy": "independent_fixed_witness_occurrences",
+      "quote": "准之從弟 逡之",
+      "paragraph_ids": [
+        "c-nanshi-024-wangqunzhi-heading-context:p001"
+      ],
+      "mention_ids": [
+        "c-nanshi-024-wangqunzhi-heading-context:p001:m0000"
+      ],
+      "mention_paragraph_ids": {
+        "c-nanshi-024-wangqunzhi-heading-context:p001:m0000": "c-nanshi-024-wangqunzhi-heading-context:p001"
+      },
+      "mention_id": "c-nanshi-024-wangqunzhi-heading-context:p001:m0000",
+      "occurrence_groups": [
+        {
+          "canonical_mention_id": "c-nanshi-024-wangqunzhi-heading-context:p001:m0000",
+          "mention_ids": [
+            "c-nanshi-024-wangqunzhi-heading-context:p001:m0000"
+          ],
+          "kind": "paragraph"
+        }
+      ],
+      "work_id": "w-nanshi",
+      "book_id": "b-nanshi-024",
+      "chapter_id": "c-nanshi-024-wangqunzhi-heading-context",
+      "source_id": "s-nanshi-024-wangqunzhi-heading-context-ws1765279",
+      "work_title": "南史"
+    },
+    {
+      "number": 24,
+      "category": "",
       "title": "王准之（字元魯，附子輿之）",
       "paragraph_id": "c-nanshi-024-wangzhunzhi:p001",
       "count": 8,
@@ -2412,6 +2447,34 @@
           "character_conversion": {},
           "extraction_note": "僅去不轉換標記的界符。"
         }
+      }
+    },
+    {
+      "chapter_id": "c-nanshi-024-wangqunzhi-heading-context",
+      "work_id": "w-nanshi",
+      "book_id": "b-nanshi-024",
+      "source_id": "s-nanshi-024-wangqunzhi-heading-context-ws1765279",
+      "source": {
+        "title": "南史卷24·王准之、王逡之、王珪之的兩處分題",
+        "provider": "Wikisource",
+        "url": "https://zh.wikisource.org/w/index.php?oldid=1765279",
+        "permalink": "https://zh.wikisource.org/w/index.php?oldid=1765279",
+        "revision_id": 1765279,
+        "accessed_on": "2026-11-21",
+        "edition": "維基文庫固定數位轉錄",
+        "extent": "固定數位修訂獨立分題原字，與傳文分層。",
+        "text_scope": "partial_chapter",
+        "image_verified": false,
+        "review_status": "text_checked",
+        "raw_path": "sources/nanshi/nanshi024-ws1765279.wikitext",
+        "raw_file_sha256": "8fd9281c1d58e066b75c0b6cce86fff07d6e11c8ad6426459f8e0f2139a29499",
+        "rights": "古代原典及維基文庫數位轉錄。",
+        "license_url": "https://zh.wikisource.org/wiki/Wikisource:著作權資訊",
+        "normalization": {
+          "character_conversion": {},
+          "extraction_note": "投影相應原句，保留字形；移除年號模板定界符。"
+        },
+        "section_locator": "王准之、王逡之、王珪之的兩處分題"
       }
     },
     {
@@ -2954,6 +3017,47 @@
   ],
   "relations": [
     {
+      "id": "a-nanshi024-wangqunzhi-zhun-qun",
+      "subject_person_id": "pwq_tuu_wns",
+      "object_person_id": "72e_1a7_3ac",
+      "predicate": "agnatic_cousin",
+      "qualifiers": {
+        "source_term": "准之從弟 逡之",
+        "nanshi024_wangqunzhi_reading": "zhun-qun",
+        "relative_birth_order": {
+          "older_person_id": "72e_1a7_3ac",
+          "younger_person_id": "pwq_tuu_wns",
+          "operator": "lt",
+          "scope": "agnatic_cousins",
+          "older_ordinal": null,
+          "younger_ordinal": null
+        }
+      },
+      "evidence": [
+        {
+          "work_id": "w-nanshi",
+          "book_id": "b-nanshi-024",
+          "source_id": "s-nanshi-024-wangqunzhi-heading-context-ws1765279",
+          "chapter_id": "c-nanshi-024-wangqunzhi-heading-context",
+          "paragraph_id": "c-nanshi-024-wangqunzhi-heading-context:p001",
+          "quote": "准之從弟 逡之",
+          "subject_person_mention_id": "c-nanshi-024-wangqunzhi-heading-context:p001:m0005",
+          "object_person_mention_id": "c-nanshi-024-wangqunzhi-heading-context:p001:m0000",
+          "relationship_anchor": {
+            "paragraph_id": "c-nanshi-024-wangqunzhi-heading-context:p001",
+            "surface": "准之從弟 逡之",
+            "start": 0,
+            "end": 7
+          }
+        }
+      ],
+      "status": "source_attested",
+      "interpretation_note": "數位分題明言從弟，僅據從親及長幼，不推共同祖先是哪一人。",
+      "reviewer": "Codex（AI 代理）",
+      "human_reviewed": false,
+      "model": null
+    },
+    {
       "id": "a-nanshi024-wangzhunzhi-bin",
       "subject_person_id": "72e_1a7_3ac",
       "object_person_id": "7r6_k52_qji_ABDB",
@@ -3317,7 +3421,8 @@
     "7r6_k52_qji_ABDB": "王彬",
     "7r6_k52_qji_ABDBB": "王彪之",
     "7r6_k52_qji_ABDBBB": "王臨之",
-    "7r6_k52_qji_ABDBBBA": "王訥之（字永言）"
+    "7r6_k52_qji_ABDBBBA": "王訥之（字永言）",
+    "pwq_tuu_wns": "王逡之"
   },
   "dates": [],
   "name_components": [
@@ -3648,6 +3753,47 @@
     "72e_1a7_3ac"
   ],
   "preferred_relations": [
+    {
+      "id": "a-nanshi024-wangqunzhi-zhun-qun",
+      "subject_person_id": "pwq_tuu_wns",
+      "object_person_id": "72e_1a7_3ac",
+      "predicate": "agnatic_cousin",
+      "qualifiers": {
+        "source_term": "准之從弟 逡之",
+        "nanshi024_wangqunzhi_reading": "zhun-qun",
+        "relative_birth_order": {
+          "older_person_id": "72e_1a7_3ac",
+          "younger_person_id": "pwq_tuu_wns",
+          "operator": "lt",
+          "scope": "agnatic_cousins",
+          "older_ordinal": null,
+          "younger_ordinal": null
+        }
+      },
+      "evidence": [
+        {
+          "work_id": "w-nanshi",
+          "book_id": "b-nanshi-024",
+          "source_id": "s-nanshi-024-wangqunzhi-heading-context-ws1765279",
+          "chapter_id": "c-nanshi-024-wangqunzhi-heading-context",
+          "paragraph_id": "c-nanshi-024-wangqunzhi-heading-context:p001",
+          "quote": "准之從弟 逡之",
+          "subject_person_mention_id": "c-nanshi-024-wangqunzhi-heading-context:p001:m0005",
+          "object_person_mention_id": "c-nanshi-024-wangqunzhi-heading-context:p001:m0000",
+          "relationship_anchor": {
+            "paragraph_id": "c-nanshi-024-wangqunzhi-heading-context:p001",
+            "surface": "准之從弟 逡之",
+            "start": 0,
+            "end": 7
+          }
+        }
+      ],
+      "status": "source_attested",
+      "interpretation_note": "數位分題明言從弟，僅據從親及長幼，不推共同祖先是哪一人。",
+      "reviewer": "Codex（AI 代理）",
+      "human_reviewed": false,
+      "model": null
+    },
     {
       "id": "a-nanshi024-wangzhunzhi-bin",
       "subject_person_id": "72e_1a7_3ac",

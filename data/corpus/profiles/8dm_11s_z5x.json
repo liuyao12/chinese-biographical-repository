@@ -147,6 +147,54 @@
       "human_reviewed": false,
       "model": null,
       "period": "未定 → 未定"
+    },
+    {
+      "id": "th-w098-guanzhong-xun",
+      "person_id": "8dm_11s_z5x",
+      "title": "梁州刺史",
+      "kind": "office",
+      "mode": "attestation",
+      "evidence": [
+        {
+          "work_id": "w-jinshu",
+          "book_id": "b-jinshu-098",
+          "chapter_id": "c-jinshu-098-huanwen",
+          "source_id": "s-jinshu-098-ws2614273",
+          "paragraph_id": "c-jinshu-098-huanwen:p008",
+          "quote": "進位太尉，固讓不拜。時殷浩至洛陽修復園陵，經涉數年，屢戰屢敗，器械都盡。溫復進督司州，因朝野之怨，乃奏廢浩，自此內外大權一歸溫矣。溫遂統步騎四萬發江陵，水軍自襄陽入均口。至南鄉，步自淅川以征關中，命梁州刺史司馬勳出子午道。別軍攻上洛，獲苻健荊州刺史郭敬，進擊青泥，破之。健又遣子生、弟雄眾數萬屯嶢柳、愁思塠以距溫，遂大戰，生親自陷陣，殺溫將應庭、劉泓，死傷千數。溫軍力戰，生眾乃散。雄又與將軍桓沖戰白鹿原，又為沖所破。雄遂馳襲司馬勳，勳退次女媧堡。溫進至霸上，健以五千人深溝自固，居人皆安堵復業，持牛酒迎溫于路者十八九，耆老感泣曰：「不圖今日復見官軍！」初，溫恃麥熟，取以為軍資。而健芟苗清野，軍糧不屬，收三千餘口而還。帝使侍中黃門勞溫於襄陽。",
+          "person_mention_id": "c-jinshu-098-huanwen:p008:m0103"
+        }
+      ],
+      "attestations": [
+        {
+          "id": "th-w043-guanzhong-xun:a",
+          "paragraph_id": "c-jinshu-098-huanwen:p008",
+          "start": 99,
+          "end": 103,
+          "surface": "梁州刺史",
+          "person_mention_id": "c-jinshu-098-huanwen:p008:m0103",
+          "usage": "narrative",
+          "date_expression": null
+        }
+      ],
+      "effective_period": {
+        "start": {
+          "status": "unknown",
+          "date_expression": null,
+          "evidence": []
+        },
+        "end": {
+          "status": "unknown",
+          "date_expression": null,
+          "evidence": []
+        }
+      },
+      "interpretation_note": "本來源官稱或所任，未受另記。",
+      "status": "source_attested",
+      "reviewer": "Codex（AI 代理）",
+      "human_reviewed": false,
+      "model": null,
+      "period": "未定 → 未定"
     }
   ],
   "addresses": [
@@ -350,6 +398,41 @@
       "chapter_id": "c-jinshu-098-huanwen",
       "source_id": "s-jinshu-098-ws2614273",
       "work_title": "晉書"
+    },
+    {
+      "number": 112,
+      "category": "",
+      "title": "苻健與苻生載記關中役及其子",
+      "paragraph_id": "c-jinshu-112-jin098-huanwen-guanzhong:white-deer",
+      "count": 1,
+      "raw_count": 1,
+      "duplicate_count": 0,
+      "counting_policy": "independent_fixed_witness_occurrences",
+      "quote": "健別使雄領騎七千，與桓沖戰于白鹿原，王師敗績，又破司馬勳于子午穀。",
+      "paragraph_ids": [
+        "c-jinshu-112-jin098-huanwen-guanzhong:white-deer"
+      ],
+      "mention_ids": [
+        "c-jinshu-112-jin098-huanwen-guanzhong:white-deer:m0025"
+      ],
+      "mention_paragraph_ids": {
+        "c-jinshu-112-jin098-huanwen-guanzhong:white-deer:m0025": "c-jinshu-112-jin098-huanwen-guanzhong:white-deer"
+      },
+      "mention_id": "c-jinshu-112-jin098-huanwen-guanzhong:white-deer:m0025",
+      "occurrence_groups": [
+        {
+          "canonical_mention_id": "c-jinshu-112-jin098-huanwen-guanzhong:white-deer:m0025",
+          "mention_ids": [
+            "c-jinshu-112-jin098-huanwen-guanzhong:white-deer:m0025"
+          ],
+          "kind": "paragraph"
+        }
+      ],
+      "work_id": "w-jinshu",
+      "book_id": "b-jinshu-112",
+      "chapter_id": "c-jinshu-112-jin098-huanwen-guanzhong",
+      "source_id": "s-jinshu-112-jin098-huanwen-guanzhong",
+      "work_title": "晉書"
     }
   ],
   "table_occurrences": [],
@@ -459,8 +542,46 @@
         "review_status": "text_checked",
         "license_url": "https://creativecommons.org/licenses/by-sa/4.0/",
         "collation_witnesses": [
-          "source-evidence/jin098-huan-four-children/reading.json"
+          "source-evidence/jin098-huan-four-children/reading.json",
+          "source-evidence/jin098-huanwen-opening/reading.json",
+          "source-evidence/jin098-huanwen-shu/reading.json",
+          "source-evidence/jin098-huanwen-wuchang/reading.json",
+          "source-evidence/jin098-huanwen-guanzhong/reading.json",
+          "source-evidence/jin098-huanwen-luoyang/reading.json",
+          "source-evidence/jin098-huanwen-return/reading.json",
+          "source-evidence/jin098-huanwen-fangtou/reading.json",
+          "source-evidence/jin098-huanwen-succession/reading.json"
         ]
+      }
+    },
+    {
+      "chapter_id": "c-jinshu-112-jin098-huanwen-guanzhong",
+      "work_id": "w-jinshu",
+      "book_id": "b-jinshu-112",
+      "source_id": "s-jinshu-112-jin098-huanwen-guanzhong",
+      "source": {
+        "provider": "Wikisource",
+        "revision_id": 2180614,
+        "permalink": "https://zh.wikisource.org/w/index.php?oldid=2180614",
+        "edition": "固定修訂相關原文，逐字核收。",
+        "image_verified": false,
+        "qualification": "固定數位傳世文字見證；未親核底本或影像，校勘ref另層。",
+        "selected_raw_start": 8177,
+        "selected_raw_end": 14871,
+        "extent": "下列來源節錄。",
+        "rights": "古代正文公版；維基文庫數位整理保留來源歸屬及CC BY-SA資格。",
+        "title": "晉書苻健、苻生載記",
+        "url": "https://zh.wikisource.org/w/index.php?oldid=2180614",
+        "raw_file_sha256": "ce3ebec3f3ca7279a7c73b485ab7c43e36385bbad7f1c47b1275857d2759afcb",
+        "raw_path": "source-evidence/jin098-huanwen-guanzhong/external/j112-ws2180614.wikitext",
+        "accessed_on": "2026-10-20",
+        "text_scope": "partial_chapter",
+        "review_status": "text_checked",
+        "license_url": "https://creativecommons.org/licenses/by-sa/4.0/",
+        "collation_witnesses": [
+          "source-evidence/jin098-huan-four-children/reading.json"
+        ],
+        "wikitext_sha256": "ce3ebec3f3ca7279a7c73b485ab7c43e36385bbad7f1c47b1275857d2759afcb"
       }
     }
   ],

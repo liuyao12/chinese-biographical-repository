@@ -5,6 +5,10 @@ import re
 
 
 def valid(p, chapter, root):
+    if p.get('id') == 'c-shishuoxinyu-004-jin098-huanwen-luoyang:note':
+        try: from scripts.jin098_kong_yuan import liu_yuan_note
+        except ImportError: from jin098_kong_yuan import liu_yuan_note
+        return liu_yuan_note(p, chapter, root)
     if p.get('source_quote', {}).get('source_layer') == '劉孝標注':
         try:
             from scripts.jin080_family import liu_note_valid

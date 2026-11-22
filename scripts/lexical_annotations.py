@@ -28,6 +28,9 @@ def non_person_errors(mention, text):
         role_valid = (mention.get('surface') == '太子'
                       and term in ('太子太傅', '太子太保', '太子少傅', '太子少保', '太子中庶子', '太子舍人')
                       and any(i == start for i in starts))
+    if role == 'geographic_name_in_rebus':
+        role_valid = (mention.get('surface') == '溫' and term == '故河內大縣，溫也'
+                      and any(i + term.index('溫') == start for i in starts))
     if role == 'office_title_component' and mention.get('surface') == '中書':
         role_valid = term == '中書侍郎' and any(i == start for i in starts)
     if role == 'generic_rank_component':

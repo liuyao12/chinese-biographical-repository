@@ -8,7 +8,56 @@
   "names": [
     "柬"
   ],
-  "titles": [],
+  "titles": [
+    {
+      "id": "th-nanqishu-049-zhangchong-1-14",
+      "title": "通直郎",
+      "kind": "office",
+      "mode": "attestation",
+      "person_id": "d50_8f5_wul_AAACB",
+      "attestations": [
+        {
+          "id": "th-nanqishu-049-zhangchong-1-14:a",
+          "paragraph_id": "c-nanqishu-049-zhangchong:p001",
+          "start": 14,
+          "end": 17,
+          "surface": "通直郎",
+          "person_mention_id": "c-nanqishu-049-zhangchong:p001:m0012",
+          "usage": "narrative",
+          "date_expression": null
+        }
+      ],
+      "effective_period": {
+        "start": {
+          "status": "unknown",
+          "date_expression": null,
+          "evidence": []
+        },
+        "end": {
+          "status": "unknown",
+          "date_expression": null,
+          "evidence": []
+        }
+      },
+      "evidence": [
+        {
+          "work_id": "w-nanqishu",
+          "book_id": "b-nanqishu-049",
+          "chapter_id": "c-nanqishu-049-zhangchong",
+          "source_id": "s-nanqishu-049-zhangchong-ws2261984",
+          "paragraph_id": "c-nanqishu-049-zhangchong:p001",
+          "quote": "張沖字思約，吳郡吳人。父柬，通直郎。",
+          "person_mention_id": "c-nanqishu-049-zhangchong:p001:m0012"
+        }
+      ],
+      "status": "source_attested",
+      "interpretation_note": "所見原官稱，未載全任期。",
+      "reviewer": "Codex（AI代理）",
+      "model": null,
+      "human_reviewed": false,
+      "period": "未定 → 未定"
+    }
+  ],
   "addresses": [],
   "occurrences": [
     {
@@ -63,10 +112,126 @@
       "chapter_id": "c-songshu-046-zhangshao",
       "source_id": "s-songshu-046-zhangshao",
       "work_title": "宋書"
+    },
+    {
+      "number": 49,
+      "category": "",
+      "title": "張沖本生父柬",
+      "paragraph_id": "c-nanqishu-049-zhangchong-birth-father:p001",
+      "count": 1,
+      "raw_count": 1,
+      "duplicate_count": 0,
+      "counting_policy": "independent_fixed_witness_occurrences",
+      "quote": "張沖字思約，吳郡吳人。父柬，通直郎。",
+      "paragraph_ids": [
+        "c-nanqishu-049-zhangchong-birth-father:p001"
+      ],
+      "mention_ids": [
+        "c-nanqishu-049-zhangchong-birth-father:p001:m0012"
+      ],
+      "mention_paragraph_ids": {
+        "c-nanqishu-049-zhangchong-birth-father:p001:m0012": "c-nanqishu-049-zhangchong-birth-father:p001"
+      },
+      "mention_id": "c-nanqishu-049-zhangchong-birth-father:p001:m0012",
+      "occurrence_groups": [
+        {
+          "canonical_mention_id": "c-nanqishu-049-zhangchong-birth-father:p001:m0012",
+          "mention_ids": [
+            "c-nanqishu-049-zhangchong-birth-father:p001:m0012"
+          ],
+          "kind": "paragraph"
+        }
+      ],
+      "work_id": "w-nanqishu",
+      "book_id": "b-nanqishu-049",
+      "chapter_id": "c-nanqishu-049-zhangchong-birth-father",
+      "source_id": "s-nanqishu-049-zhangchong-birth-father-ws2261984",
+      "work_title": "南齊書"
+    },
+    {
+      "number": 49,
+      "category": "",
+      "title": "張沖",
+      "paragraph_id": "c-nanqishu-049-zhangchong:p001",
+      "count": 1,
+      "raw_count": 1,
+      "duplicate_count": 0,
+      "counting_policy": "independent_fixed_witness_occurrences",
+      "quote": "張沖字思約，吳郡吳人。父柬，通直郎。",
+      "paragraph_ids": [
+        "c-nanqishu-049-zhangchong:p001"
+      ],
+      "mention_ids": [
+        "c-nanqishu-049-zhangchong:p001:m0012"
+      ],
+      "mention_paragraph_ids": {
+        "c-nanqishu-049-zhangchong:p001:m0012": "c-nanqishu-049-zhangchong:p001"
+      },
+      "mention_id": "c-nanqishu-049-zhangchong:p001:m0012",
+      "occurrence_groups": [
+        {
+          "canonical_mention_id": "c-nanqishu-049-zhangchong:p001:m0012",
+          "mention_ids": [
+            "c-nanqishu-049-zhangchong:p001:m0012"
+          ],
+          "kind": "paragraph"
+        }
+      ],
+      "work_id": "w-nanqishu",
+      "book_id": "b-nanqishu-049",
+      "chapter_id": "c-nanqishu-049-zhangchong",
+      "source_id": "s-nanqishu-049-zhangchong-ws2261984",
+      "work_title": "南齊書"
     }
   ],
   "table_occurrences": [],
   "sources": [
+    {
+      "chapter_id": "c-nanqishu-049-zhangchong",
+      "work_id": "w-nanqishu",
+      "book_id": "b-nanqishu-049",
+      "source_id": "s-nanqishu-049-zhangchong-ws2261984",
+      "source": {
+        "title": "張沖",
+        "provider": "Wikisource",
+        "permalink": "https://zh.wikisource.org/w/index.php?oldid=2261984",
+        "url": "https://zh.wikisource.org/w/index.php?oldid=2261984",
+        "revision_id": 2261984,
+        "edition": "維基文庫固定修訂",
+        "accessed_on": "2026-11-21",
+        "review_status": "text_checked",
+        "image_verified": false,
+        "rights": "古代原文；數位轉錄依維基文庫授權。",
+        "license_url": "https://creativecommons.org/licenses/by-sa/4.0/",
+        "extent": "張沖",
+        "text_scope": "complete_biography_unit",
+        "raw_path": "source-evidence/nan023-wangqiu/ws2261984.wikitext",
+        "raw_file_sha256": "e3c16a4e75b7ffc6b0987e68ce9ef6a2053c598271498baf5f07ed0c035e69fa"
+      }
+    },
+    {
+      "chapter_id": "c-nanqishu-049-zhangchong-birth-father",
+      "work_id": "w-nanqishu",
+      "book_id": "b-nanqishu-049",
+      "source_id": "s-nanqishu-049-zhangchong-birth-father-ws2261984",
+      "source": {
+        "title": "張沖本生父柬",
+        "provider": "Wikisource",
+        "permalink": "https://zh.wikisource.org/w/index.php?oldid=2261984",
+        "url": "https://zh.wikisource.org/w/index.php?oldid=2261984",
+        "revision_id": 2261984,
+        "edition": "維基文庫固定修訂",
+        "accessed_on": "2026-11-21",
+        "review_status": "text_checked",
+        "image_verified": false,
+        "rights": "古代原文；數位轉錄依維基文庫授權。",
+        "license_url": "https://creativecommons.org/licenses/by-sa/4.0/",
+        "extent": "張沖本生父柬",
+        "text_scope": "partial_chapter",
+        "raw_path": "source-evidence/nan023-wangqiu/ws2261984.wikitext",
+        "raw_file_sha256": "e3c16a4e75b7ffc6b0987e68ce9ef6a2053c598271498baf5f07ed0c035e69fa"
+      }
+    },
     {
       "chapter_id": "c-songshu-046-zhangshao",
       "work_id": "w-songshu",
@@ -97,6 +262,33 @@
     }
   ],
   "relations": [
+    {
+      "id": "a-qi049-zhangchong-jian",
+      "subject_person_id": "d50_8f5_wul_AAACBB",
+      "object_person_id": "d50_8f5_wul_AAACB",
+      "predicate": "father",
+      "qualifiers": {
+        "source_term": "父柬",
+        "lineage": "paternal"
+      },
+      "evidence": [
+        {
+          "work_id": "w-nanqishu",
+          "book_id": "b-nanqishu-049",
+          "chapter_id": "c-nanqishu-049-zhangchong-birth-father",
+          "source_id": "s-nanqishu-049-zhangchong-birth-father-ws2261984",
+          "paragraph_id": "c-nanqishu-049-zhangchong-birth-father:p001",
+          "quote": "張沖字思約，吳郡吳人。父柬，通直郎。",
+          "subject_person_mention_id": "c-nanqishu-049-zhangchong-birth-father:p001:m0000",
+          "object_person_mention_id": "c-nanqishu-049-zhangchong-birth-father:p001:m0012"
+        }
+      ],
+      "status": "source_attested",
+      "interpretation_note": "本傳先記父柬，後敘出繼。",
+      "reviewer": "Codex（AI代理）",
+      "model": null,
+      "human_reviewed": false
+    },
     {
       "id": "a-song046-zhangshao-005",
       "subject_person_id": "d50_8f5_wul_AAACB",
@@ -162,14 +354,74 @@
   "related_people": {
     "d50_8f5_wul_AAACA": "張敷",
     "d50_8f5_wul_AAACB": "張柬〔敷弟〕",
-    "d50_8f5_wul_AAACBA": "張式〔柬子〕"
+    "d50_8f5_wul_AAACBA": "張式〔柬子〕",
+    "d50_8f5_wul_AAACBB": "張沖（字思約，張柬子，出繼張敷）"
   },
   "dates": [],
   "name_components": [],
+  "person_references": [
+    {
+      "id": "c-nanqishu-049-zhangchong-birth-father:p001:r0011",
+      "paragraph_id": "c-nanqishu-049-zhangchong-birth-father:p001",
+      "start": 11,
+      "end": 12,
+      "surface": "父",
+      "person_id": "d50_8f5_wul_AAACB",
+      "referent_role": "third_person",
+      "quote": "張沖字思約，吳郡吳人。父柬，通直郎。",
+      "note": "依本段敘事、稱謂及語者受者定。",
+      "chapter_id": "c-nanqishu-049-zhangchong-birth-father",
+      "book_id": "b-nanqishu-049",
+      "work_id": "w-nanqishu",
+      "source_id": "s-nanqishu-049-zhangchong-birth-father-ws2261984"
+    },
+    {
+      "id": "c-nanqishu-049-zhangchong:p001:r0011",
+      "paragraph_id": "c-nanqishu-049-zhangchong:p001",
+      "start": 11,
+      "end": 12,
+      "surface": "父",
+      "person_id": "d50_8f5_wul_AAACB",
+      "referent_role": "third_person",
+      "quote": "父柬",
+      "note": "依句內語法、說話對象及本段承接辨識。",
+      "chapter_id": "c-nanqishu-049-zhangchong",
+      "book_id": "b-nanqishu-049",
+      "work_id": "w-nanqishu",
+      "source_id": "s-nanqishu-049-zhangchong-ws2261984"
+    }
+  ],
   "person_ids": [
     "d50_8f5_wul_AAACB"
   ],
   "preferred_relations": [
+    {
+      "id": "a-qi049-zhangchong-jian",
+      "subject_person_id": "d50_8f5_wul_AAACBB",
+      "object_person_id": "d50_8f5_wul_AAACB",
+      "predicate": "father",
+      "qualifiers": {
+        "source_term": "父柬",
+        "lineage": "paternal"
+      },
+      "evidence": [
+        {
+          "work_id": "w-nanqishu",
+          "book_id": "b-nanqishu-049",
+          "chapter_id": "c-nanqishu-049-zhangchong-birth-father",
+          "source_id": "s-nanqishu-049-zhangchong-birth-father-ws2261984",
+          "paragraph_id": "c-nanqishu-049-zhangchong-birth-father:p001",
+          "quote": "張沖字思約，吳郡吳人。父柬，通直郎。",
+          "subject_person_mention_id": "c-nanqishu-049-zhangchong-birth-father:p001:m0000",
+          "object_person_mention_id": "c-nanqishu-049-zhangchong-birth-father:p001:m0012"
+        }
+      ],
+      "status": "source_attested",
+      "interpretation_note": "本傳先記父柬，後敘出繼。",
+      "reviewer": "Codex（AI代理）",
+      "model": null,
+      "human_reviewed": false
+    },
     {
       "id": "a-song046-zhangshao-005",
       "subject_person_id": "d50_8f5_wul_AAACB",

@@ -477,6 +477,54 @@
       "human_reviewed": false,
       "model": null,
       "period": "未定 → 未定"
+    },
+    {
+      "id": "th-w098-shu-z-zhou",
+      "person_id": "smf_swf_i2l",
+      "title": "益州刺史",
+      "kind": "office",
+      "mode": "attestation",
+      "evidence": [
+        {
+          "work_id": "w-zizhitongjian",
+          "book_id": "b-zizhitongjian-097",
+          "chapter_id": "c-zizhitongjian-097-jin098-huanwen-shu",
+          "source_id": "s-zizhitongjian-097-jin098-huanwen-shu",
+          "paragraph_id": "c-zizhitongjian-097-jin098-huanwen-shu:wang",
+          "quote": "漢故尚書僕射王誓、鎮東將軍鄧定、平南將軍王潤、將軍隗文等皆舉兵反，眾各萬餘。桓溫自擊定，使袁喬擊文，皆破之。溫命益州刺史周撫鎮彭模，斬王誓、王潤。",
+          "person_mention_id": "c-zizhitongjian-097-jin098-huanwen-shu:wang:m0060"
+        }
+      ],
+      "attestations": [
+        {
+          "id": "th-w043-shu-z-zhou:a",
+          "paragraph_id": "c-zizhitongjian-097-jin098-huanwen-shu:wang",
+          "start": 56,
+          "end": 60,
+          "surface": "益州刺史",
+          "person_mention_id": "c-zizhitongjian-097-jin098-huanwen-shu:wang:m0060",
+          "usage": "narrative",
+          "date_expression": null
+        }
+      ],
+      "effective_period": {
+        "start": {
+          "status": "unknown",
+          "date_expression": null,
+          "evidence": []
+        },
+        "end": {
+          "status": "unknown",
+          "date_expression": null,
+          "evidence": []
+        }
+      },
+      "interpretation_note": "本來源官稱或所任，未受另記。",
+      "status": "source_attested",
+      "reviewer": "Codex（AI 代理）",
+      "human_reviewed": false,
+      "model": null,
+      "period": "未定 → 未定"
     }
   ],
   "addresses": [
@@ -554,6 +602,41 @@
       "book_id": "b-jinshu-006",
       "chapter_id": "c-jinshu-006-jin098-wang-family",
       "source_id": "s-jinshu-006-jin098-wang-family",
+      "work_title": "晉書"
+    },
+    {
+      "number": 8,
+      "category": "",
+      "title": "穆帝紀伐蜀與李勢降日",
+      "paragraph_id": "c-jinshu-008-jin098-huanwen-shu:revolt",
+      "count": 1,
+      "raw_count": 1,
+      "duplicate_count": 0,
+      "counting_policy": "independent_fixed_witness_occurrences",
+      "quote": "蜀人鄧定、隗文舉兵反，桓溫又擊破之，使益州刺史周撫鎮彭模。",
+      "paragraph_ids": [
+        "c-jinshu-008-jin098-huanwen-shu:revolt"
+      ],
+      "mention_ids": [
+        "c-jinshu-008-jin098-huanwen-shu:revolt:m0023"
+      ],
+      "mention_paragraph_ids": {
+        "c-jinshu-008-jin098-huanwen-shu:revolt:m0023": "c-jinshu-008-jin098-huanwen-shu:revolt"
+      },
+      "mention_id": "c-jinshu-008-jin098-huanwen-shu:revolt:m0023",
+      "occurrence_groups": [
+        {
+          "canonical_mention_id": "c-jinshu-008-jin098-huanwen-shu:revolt:m0023",
+          "mention_ids": [
+            "c-jinshu-008-jin098-huanwen-shu:revolt:m0023"
+          ],
+          "kind": "paragraph"
+        }
+      ],
+      "work_id": "w-jinshu",
+      "book_id": "b-jinshu-008",
+      "chapter_id": "c-jinshu-008-jin098-huanwen-shu",
+      "source_id": "s-jinshu-008-jin098-huanwen-shu",
       "work_title": "晉書"
     },
     {
@@ -776,6 +859,51 @@
       "work_title": "晉書"
     },
     {
+      "number": 97,
+      "category": "",
+      "title": "資治通鑑永和紀年李氏、周氏及新舊屬官",
+      "paragraph_id": "c-zizhitongjian-097-jin098-huanwen-shu:zhou",
+      "count": 2,
+      "raw_count": 2,
+      "duplicate_count": 0,
+      "counting_policy": "independent_fixed_witness_occurrences",
+      "quote": "溫從之，留參軍孫盛、周楚將贏兵守輜重，溫自將步卒直指成都。楚，撫之子也。",
+      "paragraph_ids": [
+        "c-zizhitongjian-097-jin098-huanwen-shu:wang",
+        "c-zizhitongjian-097-jin098-huanwen-shu:zhou"
+      ],
+      "mention_ids": [
+        "c-zizhitongjian-097-jin098-huanwen-shu:zhou:m0031",
+        "c-zizhitongjian-097-jin098-huanwen-shu:wang:m0060"
+      ],
+      "mention_paragraph_ids": {
+        "c-zizhitongjian-097-jin098-huanwen-shu:zhou:m0031": "c-zizhitongjian-097-jin098-huanwen-shu:zhou",
+        "c-zizhitongjian-097-jin098-huanwen-shu:wang:m0060": "c-zizhitongjian-097-jin098-huanwen-shu:wang"
+      },
+      "mention_id": "c-zizhitongjian-097-jin098-huanwen-shu:zhou:m0031",
+      "occurrence_groups": [
+        {
+          "canonical_mention_id": "c-zizhitongjian-097-jin098-huanwen-shu:zhou:m0031",
+          "mention_ids": [
+            "c-zizhitongjian-097-jin098-huanwen-shu:zhou:m0031"
+          ],
+          "kind": "paragraph"
+        },
+        {
+          "canonical_mention_id": "c-zizhitongjian-097-jin098-huanwen-shu:wang:m0060",
+          "mention_ids": [
+            "c-zizhitongjian-097-jin098-huanwen-shu:wang:m0060"
+          ],
+          "kind": "paragraph"
+        }
+      ],
+      "work_id": "w-zizhitongjian",
+      "book_id": "b-zizhitongjian-097",
+      "chapter_id": "c-zizhitongjian-097-jin098-huanwen-shu",
+      "source_id": "s-zizhitongjian-097-jin098-huanwen-shu",
+      "work_title": "資治通鑑"
+    },
+    {
       "number": 98,
       "category": "",
       "title": "晉書卷九十八·王敦傳",
@@ -865,6 +993,36 @@
         "wikitext_sha256": "4bcc7edd878f1baecc9a21f26128556c303b980fd5e43f0a1ec988c3a046b929",
         "raw_path": "source-evidence/jin065-wangdao-main/external/jin006-ws2674431.wikitext",
         "raw_file_sha256": "4bcc7edd878f1baecc9a21f26128556c303b980fd5e43f0a1ec988c3a046b929"
+      }
+    },
+    {
+      "chapter_id": "c-jinshu-008-jin098-huanwen-shu",
+      "work_id": "w-jinshu",
+      "book_id": "b-jinshu-008",
+      "source_id": "s-jinshu-008-jin098-huanwen-shu",
+      "source": {
+        "provider": "Wikisource",
+        "revision_id": 2644502,
+        "permalink": "https://zh.wikisource.org/w/index.php?oldid=2644502",
+        "edition": "固定修訂相關原文，逐字核收。",
+        "image_verified": false,
+        "qualification": "固定數位傳世文字見證；未親核底本或影像，校勘ref另層。",
+        "selected_raw_start": 8177,
+        "selected_raw_end": 14871,
+        "extent": "下列來源節錄。",
+        "rights": "古代正文公版；維基文庫數位整理保留來源歸屬及CC BY-SA資格。",
+        "title": "晉書穆帝紀",
+        "url": "https://zh.wikisource.org/w/index.php?oldid=2644502",
+        "raw_file_sha256": "947547981eb6fa2796d6a66f0b2f49e0d44d8f517cbd5300eb96d84114d56a73",
+        "raw_path": "sources/calendar-context/jin008-ws2644502.wikitext",
+        "accessed_on": "2026-10-20",
+        "text_scope": "partial_chapter",
+        "review_status": "text_checked",
+        "license_url": "https://creativecommons.org/licenses/by-sa/4.0/",
+        "collation_witnesses": [
+          "source-evidence/jin098-huan-four-children/reading.json"
+        ],
+        "wikitext_sha256": "947547981eb6fa2796d6a66f0b2f49e0d44d8f517cbd5300eb96d84114d56a73"
       }
     },
     {
@@ -1459,6 +1617,36 @@
           "source-evidence/jin098-wangdun-main/reading.json"
         ]
       }
+    },
+    {
+      "chapter_id": "c-zizhitongjian-097-jin098-huanwen-shu",
+      "work_id": "w-zizhitongjian",
+      "book_id": "b-zizhitongjian-097",
+      "source_id": "s-zizhitongjian-097-jin098-huanwen-shu",
+      "source": {
+        "provider": "Wikisource",
+        "revision_id": 2617598,
+        "permalink": "https://zh.wikisource.org/w/index.php?oldid=2617598",
+        "edition": "固定修訂相關原文，逐字核收。",
+        "image_verified": false,
+        "qualification": "固定數位傳世文字見證；未親核底本或影像，校勘ref另層。",
+        "selected_raw_start": 8177,
+        "selected_raw_end": 14871,
+        "extent": "下列來源節錄。",
+        "rights": "古代正文公版；維基文庫數位整理保留來源歸屬及CC BY-SA資格。",
+        "title": "資治通鑑晉穆帝永和二年至三年",
+        "url": "https://zh.wikisource.org/w/index.php?oldid=2617598",
+        "raw_file_sha256": "9d654af3907680c1e5e2ffdcfda20311527377d22f12603ae2a6ac274a6ca8f7",
+        "raw_path": "source-evidence/jin098-huanwen-shu/external/z-ws2617598.wikitext",
+        "accessed_on": "2026-10-20",
+        "text_scope": "partial_chapter",
+        "review_status": "text_checked",
+        "license_url": "https://creativecommons.org/licenses/by-sa/4.0/",
+        "collation_witnesses": [
+          "source-evidence/jin098-huan-four-children/reading.json"
+        ],
+        "wikitext_sha256": "9d654af3907680c1e5e2ffdcfda20311527377d22f12603ae2a6ac274a6ca8f7"
+      }
     }
   ],
   "relations": [
@@ -1536,9 +1724,36 @@
       "reviewer": "Codex",
       "human_reviewed": false,
       "model": null
+    },
+    {
+      "id": "a-w098-zhou-chu",
+      "subject_person_id": "aiu_ulx_ejj",
+      "object_person_id": "smf_swf_i2l",
+      "predicate": "father",
+      "qualifiers": {
+        "source_term": "楚，撫之子也"
+      },
+      "evidence": [
+        {
+          "work_id": "w-zizhitongjian",
+          "book_id": "b-zizhitongjian-097",
+          "chapter_id": "c-zizhitongjian-097-jin098-huanwen-shu",
+          "source_id": "s-zizhitongjian-097-jin098-huanwen-shu",
+          "paragraph_id": "c-zizhitongjian-097-jin098-huanwen-shu:zhou",
+          "quote": "溫從之，留參軍孫盛、周楚將贏兵守輜重，溫自將步卒直指成都。楚，撫之子也。",
+          "subject_person_mention_id": "c-zizhitongjian-097-jin098-huanwen-shu:zhou:m0029",
+          "object_person_mention_id": "c-zizhitongjian-097-jin098-huanwen-shu:zhou:m0031"
+        }
+      ],
+      "interpretation_note": "此條按本句所明言。",
+      "status": "source_attested",
+      "reviewer": "Codex（AI 代理）",
+      "human_reviewed": false,
+      "model": null
     }
   ],
   "related_people": {
+    "aiu_ulx_ejj": "周楚",
     "c6b_s71_vt7": "周訪",
     "smf_swf_i2l": "周撫"
   },
@@ -1959,6 +2174,32 @@
       ],
       "interpretation_note": "撫為周訪子，《通鑑》此處作扶。",
       "reviewer": "Codex",
+      "human_reviewed": false,
+      "model": null
+    },
+    {
+      "id": "a-w098-zhou-chu",
+      "subject_person_id": "aiu_ulx_ejj",
+      "object_person_id": "smf_swf_i2l",
+      "predicate": "father",
+      "qualifiers": {
+        "source_term": "楚，撫之子也"
+      },
+      "evidence": [
+        {
+          "work_id": "w-zizhitongjian",
+          "book_id": "b-zizhitongjian-097",
+          "chapter_id": "c-zizhitongjian-097-jin098-huanwen-shu",
+          "source_id": "s-zizhitongjian-097-jin098-huanwen-shu",
+          "paragraph_id": "c-zizhitongjian-097-jin098-huanwen-shu:zhou",
+          "quote": "溫從之，留參軍孫盛、周楚將贏兵守輜重，溫自將步卒直指成都。楚，撫之子也。",
+          "subject_person_mention_id": "c-zizhitongjian-097-jin098-huanwen-shu:zhou:m0029",
+          "object_person_mention_id": "c-zizhitongjian-097-jin098-huanwen-shu:zhou:m0031"
+        }
+      ],
+      "interpretation_note": "此條按本句所明言。",
+      "status": "source_attested",
+      "reviewer": "Codex（AI 代理）",
       "human_reviewed": false,
       "model": null
     }

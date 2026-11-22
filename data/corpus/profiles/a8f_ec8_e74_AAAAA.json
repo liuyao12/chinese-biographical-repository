@@ -1271,6 +1271,54 @@
       "period": "未定 → 未定"
     },
     {
+      "id": "th-w098-succ-tan",
+      "person_id": "a8f_ec8_e74_AAAAA",
+      "title": "侍中",
+      "kind": "office",
+      "mode": "attestation",
+      "evidence": [
+        {
+          "work_id": "w-jinshu",
+          "book_id": "b-jinshu-098",
+          "chapter_id": "c-jinshu-098-huanwen",
+          "source_id": "s-jinshu-098-ws2614273",
+          "paragraph_id": "c-jinshu-098-huanwen:p026",
+          "quote": "溫復還白石，上疏求歸姑孰。詔曰：「夫乾坤體合，而化成萬物；二人同心，則不言所利。古之哲王咸賴元輔，姬旦光於四表，而周道以隆；伊尹格於皇天，而殷化以洽。大司馬明德應期，光大深遠，上合天心，含章時發，用集大命，在予一人，功美博陸，道固萬世。今進公丞相，其大司馬本官皆如故，留公京都，以鎮社稷。」溫固辭，仍請還鎮。遣侍中王坦之徵溫入相，增邑為萬戶，又辭。詔以西府經袁真事故，軍用不足，給世子熙布三萬匹，米六萬斛，又以熙弟濟為給事中。",
+          "person_mention_id": "c-jinshu-098-huanwen:p026:m0157"
+        }
+      ],
+      "attestations": [
+        {
+          "id": "th-w043-succ-tan:a",
+          "paragraph_id": "c-jinshu-098-huanwen:p026",
+          "start": 155,
+          "end": 157,
+          "surface": "侍中",
+          "person_mention_id": "c-jinshu-098-huanwen:p026:m0157",
+          "usage": "narrative",
+          "date_expression": null
+        }
+      ],
+      "effective_period": {
+        "start": {
+          "status": "unknown",
+          "date_expression": null,
+          "evidence": []
+        },
+        "end": {
+          "status": "unknown",
+          "date_expression": null,
+          "evidence": []
+        }
+      },
+      "interpretation_note": "本來源官稱或所任，未受另記。",
+      "status": "source_attested",
+      "reviewer": "Codex（AI 代理）",
+      "human_reviewed": false,
+      "model": null,
+      "period": "未定 → 未定"
+    },
+    {
       "id": "th-wang35-070",
       "person_id": "a8f_ec8_e74_AAAAA",
       "title": "北中郎将",
@@ -1552,6 +1600,60 @@
       "book_id": "b-shishuoxinyu-006",
       "chapter_id": "c-shishuoxinyu-006-jin067-xichao",
       "source_id": "s-shishuoxinyu-006-jin067-xichao",
+      "work_title": "世說新語"
+    },
+    {
+      "number": 6,
+      "category": "",
+      "title": "雅量正文與劉注引晉安帝紀",
+      "paragraph_id": "c-shishuoxinyu-006-jin098-huanwen-succession:banquet",
+      "count": 3,
+      "raw_count": 3,
+      "duplicate_count": 0,
+      "counting_policy": "independent_fixed_witness_occurrences",
+      "quote": "桓公伏甲設饌，廣延朝士，因此欲誅謝安、王坦之。",
+      "paragraph_ids": [
+        "c-shishuoxinyu-006-jin098-huanwen-succession:banquet",
+        "c-shishuoxinyu-006-jin098-huanwen-succession:note"
+      ],
+      "mention_ids": [
+        "c-shishuoxinyu-006-jin098-huanwen-succession:banquet:m0019",
+        "c-shishuoxinyu-006-jin098-huanwen-succession:note:m0032",
+        "c-shishuoxinyu-006-jin098-huanwen-succession:note:m0067"
+      ],
+      "mention_paragraph_ids": {
+        "c-shishuoxinyu-006-jin098-huanwen-succession:banquet:m0019": "c-shishuoxinyu-006-jin098-huanwen-succession:banquet",
+        "c-shishuoxinyu-006-jin098-huanwen-succession:note:m0032": "c-shishuoxinyu-006-jin098-huanwen-succession:note",
+        "c-shishuoxinyu-006-jin098-huanwen-succession:note:m0067": "c-shishuoxinyu-006-jin098-huanwen-succession:note"
+      },
+      "mention_id": "c-shishuoxinyu-006-jin098-huanwen-succession:banquet:m0019",
+      "occurrence_groups": [
+        {
+          "canonical_mention_id": "c-shishuoxinyu-006-jin098-huanwen-succession:banquet:m0019",
+          "mention_ids": [
+            "c-shishuoxinyu-006-jin098-huanwen-succession:banquet:m0019"
+          ],
+          "kind": "paragraph"
+        },
+        {
+          "canonical_mention_id": "c-shishuoxinyu-006-jin098-huanwen-succession:note:m0032",
+          "mention_ids": [
+            "c-shishuoxinyu-006-jin098-huanwen-succession:note:m0032"
+          ],
+          "kind": "paragraph"
+        },
+        {
+          "canonical_mention_id": "c-shishuoxinyu-006-jin098-huanwen-succession:note:m0067",
+          "mention_ids": [
+            "c-shishuoxinyu-006-jin098-huanwen-succession:note:m0067"
+          ],
+          "kind": "paragraph"
+        }
+      ],
+      "work_id": "w-shishuoxinyu",
+      "book_id": "b-shishuoxinyu-006",
+      "chapter_id": "c-shishuoxinyu-006-jin098-huanwen-succession",
+      "source_id": "s-shishuoxinyu-006-jin098-huanwen-succession",
       "work_title": "世說新語"
     },
     {
@@ -2333,6 +2435,71 @@
       "chapter_id": "c-jinshu-098-huanwen",
       "source_id": "s-jinshu-098-ws2614273",
       "work_title": "晉書"
+    },
+    {
+      "number": 103,
+      "category": "",
+      "title": "殷浩子涓、遺詔兩式、桓溫九錫與王謝",
+      "paragraph_id": "c-zizhitongjian-103-jin098-huanwen-succession:draft",
+      "count": 4,
+      "raw_count": 4,
+      "duplicate_count": 0,
+      "counting_policy": "independent_fixed_witness_occurrences",
+      "quote": "馬溫依周公居攝故事。」又曰：「少子可輔者輔之，如不可，君自取之。」侍中王坦之自持詔入，於帝前毀之。",
+      "paragraph_ids": [
+        "c-zizhitongjian-103-jin098-huanwen-succession:altered",
+        "c-zizhitongjian-103-jin098-huanwen-succession:draft",
+        "c-zizhitongjian-103-jin098-huanwen-succession:pair",
+        "c-zizhitongjian-103-jin098-huanwen-succession:summer"
+      ],
+      "mention_ids": [
+        "c-zizhitongjian-103-jin098-huanwen-succession:draft:m0041",
+        "c-zizhitongjian-103-jin098-huanwen-succession:altered:m0003",
+        "c-zizhitongjian-103-jin098-huanwen-succession:pair:m0014",
+        "c-zizhitongjian-103-jin098-huanwen-succession:summer:m0039"
+      ],
+      "mention_paragraph_ids": {
+        "c-zizhitongjian-103-jin098-huanwen-succession:draft:m0041": "c-zizhitongjian-103-jin098-huanwen-succession:draft",
+        "c-zizhitongjian-103-jin098-huanwen-succession:altered:m0003": "c-zizhitongjian-103-jin098-huanwen-succession:altered",
+        "c-zizhitongjian-103-jin098-huanwen-succession:pair:m0014": "c-zizhitongjian-103-jin098-huanwen-succession:pair",
+        "c-zizhitongjian-103-jin098-huanwen-succession:summer:m0039": "c-zizhitongjian-103-jin098-huanwen-succession:summer"
+      },
+      "mention_id": "c-zizhitongjian-103-jin098-huanwen-succession:draft:m0041",
+      "occurrence_groups": [
+        {
+          "canonical_mention_id": "c-zizhitongjian-103-jin098-huanwen-succession:draft:m0041",
+          "mention_ids": [
+            "c-zizhitongjian-103-jin098-huanwen-succession:draft:m0041"
+          ],
+          "kind": "paragraph"
+        },
+        {
+          "canonical_mention_id": "c-zizhitongjian-103-jin098-huanwen-succession:altered:m0003",
+          "mention_ids": [
+            "c-zizhitongjian-103-jin098-huanwen-succession:altered:m0003"
+          ],
+          "kind": "paragraph"
+        },
+        {
+          "canonical_mention_id": "c-zizhitongjian-103-jin098-huanwen-succession:pair:m0014",
+          "mention_ids": [
+            "c-zizhitongjian-103-jin098-huanwen-succession:pair:m0014"
+          ],
+          "kind": "paragraph"
+        },
+        {
+          "canonical_mention_id": "c-zizhitongjian-103-jin098-huanwen-succession:summer:m0039",
+          "mention_ids": [
+            "c-zizhitongjian-103-jin098-huanwen-succession:summer:m0039"
+          ],
+          "kind": "paragraph"
+        }
+      ],
+      "work_id": "w-zizhitongjian",
+      "book_id": "b-zizhitongjian-103",
+      "chapter_id": "c-zizhitongjian-103-jin098-huanwen-succession",
+      "source_id": "s-zizhitongjian-103-jin098-huanwen-succession",
+      "work_title": "資治通鑑"
     }
   ],
   "table_occurrences": [],
@@ -4404,7 +4571,15 @@
         "review_status": "text_checked",
         "license_url": "https://creativecommons.org/licenses/by-sa/4.0/",
         "collation_witnesses": [
-          "source-evidence/jin098-huan-four-children/reading.json"
+          "source-evidence/jin098-huan-four-children/reading.json",
+          "source-evidence/jin098-huanwen-opening/reading.json",
+          "source-evidence/jin098-huanwen-shu/reading.json",
+          "source-evidence/jin098-huanwen-wuchang/reading.json",
+          "source-evidence/jin098-huanwen-guanzhong/reading.json",
+          "source-evidence/jin098-huanwen-luoyang/reading.json",
+          "source-evidence/jin098-huanwen-return/reading.json",
+          "source-evidence/jin098-huanwen-fangtou/reading.json",
+          "source-evidence/jin098-huanwen-succession/reading.json"
         ]
       }
     },
@@ -4596,6 +4771,36 @@
       }
     },
     {
+      "chapter_id": "c-shishuoxinyu-006-jin098-huanwen-succession",
+      "work_id": "w-shishuoxinyu",
+      "book_id": "b-shishuoxinyu-006",
+      "source_id": "s-shishuoxinyu-006-jin098-huanwen-succession",
+      "source": {
+        "provider": "Wikisource",
+        "revision_id": 2567465,
+        "permalink": "https://zh.wikisource.org/w/index.php?oldid=2567465",
+        "edition": "固定修訂相關原文，逐字核收。",
+        "image_verified": false,
+        "qualification": "固定數位傳世文字見證；未親核底本或影像，校勘ref另層。",
+        "selected_raw_start": 8177,
+        "selected_raw_end": 14871,
+        "extent": "下列來源節錄。",
+        "rights": "古代正文公版；維基文庫數位整理保留來源歸屬及CC BY-SA資格。",
+        "title": "世說新語雅量",
+        "url": "https://zh.wikisource.org/w/index.php?oldid=2567465",
+        "raw_file_sha256": "4fa1d377dc194fe049f6924524f78ef967d5edd3bc9c809bafb17ea7293276de",
+        "raw_path": "source-evidence/jin067-xiyin/external/ya-ws2567465.wikitext",
+        "accessed_on": "2026-10-20",
+        "text_scope": "partial_chapter",
+        "review_status": "text_checked",
+        "license_url": "https://creativecommons.org/licenses/by-sa/4.0/",
+        "collation_witnesses": [
+          "source-evidence/jin098-huan-four-children/reading.json"
+        ],
+        "wikitext_sha256": "4fa1d377dc194fe049f6924524f78ef967d5edd3bc9c809bafb17ea7293276de"
+      }
+    },
+    {
       "chapter_id": "c-shishuoxinyu-009-wang-yizhi-family",
       "work_id": "w-shishuoxinyu",
       "book_id": "b-shishuoxinyu-009",
@@ -4616,6 +4821,36 @@
         "text_scope": "partial_chapter",
         "raw_path": "sources/shishuoxinyu/shishuo009-ws1532655.wikitext",
         "raw_file_sha256": "bb84912db3dff13ccba1ab15981534723dad840db63f064c7f196eb88c97f06c"
+      }
+    },
+    {
+      "chapter_id": "c-zizhitongjian-103-jin098-huanwen-succession",
+      "work_id": "w-zizhitongjian",
+      "book_id": "b-zizhitongjian-103",
+      "source_id": "s-zizhitongjian-103-jin098-huanwen-succession",
+      "source": {
+        "provider": "Wikisource",
+        "revision_id": 2402076,
+        "permalink": "https://zh.wikisource.org/w/index.php?oldid=2402076",
+        "edition": "固定修訂相關原文，逐字核收。",
+        "image_verified": false,
+        "qualification": "固定數位傳世文字見證；未親核底本或影像，校勘ref另層。",
+        "selected_raw_start": 8177,
+        "selected_raw_end": 14871,
+        "extent": "下列來源節錄。",
+        "rights": "古代正文公版；維基文庫數位整理保留來源歸屬及CC BY-SA資格。",
+        "title": "資治通鑑一百三",
+        "url": "https://zh.wikisource.org/w/index.php?oldid=2402076",
+        "raw_file_sha256": "38799dea58a4931421e376e4e9fb615b42efc73714480be7ba79b6fefd423a9a",
+        "raw_path": "source-evidence/jin098-huanwen-succession/external/z-ws2402076.wikitext",
+        "accessed_on": "2026-10-20",
+        "text_scope": "partial_chapter",
+        "review_status": "text_checked",
+        "license_url": "https://creativecommons.org/licenses/by-sa/4.0/",
+        "collation_witnesses": [
+          "source-evidence/jin098-huan-four-children/reading.json"
+        ],
+        "wikitext_sha256": "38799dea58a4931421e376e4e9fb615b42efc73714480be7ba79b6fefd423a9a"
       }
     }
   ],
@@ -7075,6 +7310,54 @@
       "book_id": "b-jinshu-075",
       "work_id": "w-jinshu",
       "source_id": "s-jinshu-075-taiyuan-wang"
+    },
+    {
+      "id": "c-jinshu-098-huanwen:p029:r0019-2",
+      "paragraph_id": "c-jinshu-098-huanwen:p029",
+      "start": 19,
+      "end": 21,
+      "surface": "伊等",
+      "person_id": "a8f_ec8_e74_AAAAA",
+      "quote": "伊等不為汝所處分",
+      "referent_role": "third_person",
+      "note": "明指此段連敘的謝安、王坦之，兩人同受指。",
+      "group_reference_id": "c-jinshu-098-huanwen:p029:g19",
+      "chapter_id": "c-jinshu-098-huanwen",
+      "book_id": "b-jinshu-098",
+      "work_id": "w-jinshu",
+      "source_id": "s-jinshu-098-ws2614273"
+    },
+    {
+      "id": "c-jinshu-098-huanwen:p029:r0033-2",
+      "paragraph_id": "c-jinshu-098-huanwen:p029",
+      "start": 33,
+      "end": 34,
+      "surface": "彼",
+      "person_id": "a8f_ec8_e74_AAAAA",
+      "quote": "溫知己存彼不敢異",
+      "referent_role": "third_person",
+      "note": "明指此段連敘的謝安、王坦之，兩人同受指。",
+      "group_reference_id": "c-jinshu-098-huanwen:p029:g33",
+      "chapter_id": "c-jinshu-098-huanwen",
+      "book_id": "b-jinshu-098",
+      "work_id": "w-jinshu",
+      "source_id": "s-jinshu-098-ws2614273"
+    },
+    {
+      "id": "c-jinshu-098-huanwen:p029:r0039-2",
+      "paragraph_id": "c-jinshu-098-huanwen:p029",
+      "start": 39,
+      "end": 40,
+      "surface": "之",
+      "person_id": "a8f_ec8_e74_AAAAA",
+      "quote": "害之無益於沖",
+      "referent_role": "third_person",
+      "note": "明指此段連敘的謝安、王坦之，兩人同受指。",
+      "group_reference_id": "c-jinshu-098-huanwen:p029:g39",
+      "chapter_id": "c-jinshu-098-huanwen",
+      "book_id": "b-jinshu-098",
+      "work_id": "w-jinshu",
+      "source_id": "s-jinshu-098-ws2614273"
     }
   ],
   "person_ids": [

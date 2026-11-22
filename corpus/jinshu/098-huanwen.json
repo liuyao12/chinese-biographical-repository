@@ -31,16 +31,24 @@
     "review_status": "text_checked",
     "license_url": "https://creativecommons.org/licenses/by-sa/4.0/",
     "collation_witnesses": [
-      "source-evidence/jin098-huan-four-children/reading.json"
+      "source-evidence/jin098-huan-four-children/reading.json",
+      "source-evidence/jin098-huanwen-opening/reading.json",
+      "source-evidence/jin098-huanwen-shu/reading.json",
+      "source-evidence/jin098-huanwen-wuchang/reading.json",
+      "source-evidence/jin098-huanwen-guanzhong/reading.json",
+      "source-evidence/jin098-huanwen-luoyang/reading.json",
+      "source-evidence/jin098-huanwen-return/reading.json",
+      "source-evidence/jin098-huanwen-fangtou/reading.json",
+      "source-evidence/jin098-huanwen-succession/reading.json"
     ]
   },
   "annotation": {
-    "status": "in_progress",
+    "status": "reviewed",
     "scope": "full_selected_biography_contextual_person_pass",
     "human_reviewed": false,
     "model": null,
     "reviewer": "Codex（AI代理）",
-    "completion_note": "完整選定單元逐人初讀；親屬依來源斷言與未決記錄分存，生卒／官爵等逐項補錄；未圖校，不代表全卷或全書已完成。",
+    "completion_note": "此選本三十段已逐項覆核，並取武英殿本逐葉校對；各批來源、異文與未決均見 reviewed_unit_evidence。",
     "age_assertions": [
       {
         "id": "age-jin098-biography-death",
@@ -72,12 +80,1026 @@
         "human_reviewed": false,
         "reviewer": "Codex（AI代理）",
         "model": null
+      },
+      {
+        "id": "age-w098-huan-fifteen",
+        "person_id": "u9s_w6j_8mc_AA",
+        "source_number": "十五",
+        "source_term": "時年十五",
+        "value": 15,
+        "unit": "source_age_years",
+        "counting": "unspecified_source_age",
+        "birth_year": null,
+        "evidence": [
+          {
+            "work_id": "w-jinshu",
+            "book_id": "b-jinshu-098",
+            "chapter_id": "c-jinshu-098-huanwen",
+            "source_id": "s-jinshu-098-ws2614273",
+            "paragraph_id": "c-jinshu-098-huanwen:p001",
+            "quote": "桓溫，字元子，宣城太守彝之子也。生未期而太原溫嶠見之，曰：「此兒有奇骨，可試使啼。」及聞其聲，曰：「真英物也！」以嶠所賞，故遂名之曰溫。嶠笑曰：「果爾，後將易吾姓也。」彝為韓晃所害，涇令江播豫焉。溫時年十五，枕戈泣血，志在復仇。至年十八，會播已終，子彪兄弟三人居喪，置刃杖中，以為溫備。溫詭稱吊賓，得進，刃彪於廬中，並追二弟殺之，時人稱焉。",
+            "person_mention_id": "c-jinshu-098-huanwen:p001:m0000"
+          }
+        ],
+        "interpretation_note": "本句所報年齡。",
+        "status": "source_attested",
+        "reviewer": "Codex（AI 代理）",
+        "human_reviewed": false,
+        "model": null
+      },
+      {
+        "id": "age-w098-huan-eighteen",
+        "person_id": "u9s_w6j_8mc_AA",
+        "source_number": "十八",
+        "source_term": "年十八",
+        "value": 18,
+        "unit": "source_age_years",
+        "counting": "unspecified_source_age",
+        "birth_year": null,
+        "evidence": [
+          {
+            "work_id": "w-jinshu",
+            "book_id": "b-jinshu-098",
+            "chapter_id": "c-jinshu-098-huanwen",
+            "source_id": "s-jinshu-098-ws2614273",
+            "paragraph_id": "c-jinshu-098-huanwen:p001",
+            "quote": "桓溫，字元子，宣城太守彝之子也。生未期而太原溫嶠見之，曰：「此兒有奇骨，可試使啼。」及聞其聲，曰：「真英物也！」以嶠所賞，故遂名之曰溫。嶠笑曰：「果爾，後將易吾姓也。」彝為韓晃所害，涇令江播豫焉。溫時年十五，枕戈泣血，志在復仇。至年十八，會播已終，子彪兄弟三人居喪，置刃杖中，以為溫備。溫詭稱吊賓，得進，刃彪於廬中，並追二弟殺之，時人稱焉。",
+            "person_mention_id": "c-jinshu-098-huanwen:p001:m0000"
+          }
+        ],
+        "interpretation_note": "本句所報年齡。",
+        "status": "source_attested",
+        "reviewer": "Codex（AI 代理）",
+        "human_reviewed": false,
+        "model": null
       }
     ],
     "reviewed_unit_evidence": [
       {
         "unit": "桓熙、桓濟、桓歆、桓偉",
         "path": "source-evidence/jin098-huan-four-children/reading.json"
+      },
+      {
+        "unit": "桓溫傳首三段：父死、婚配與初任",
+        "path": "source-evidence/jin098-huanwen-opening/reading.json"
+      },
+      {
+        "unit": "桓溫傳伐蜀、李氏異文及任官",
+        "path": "source-evidence/jin098-huanwen-shu/reading.json"
+      },
+      {
+        "unit": "桓溫至武昌及上疏",
+        "path": "source-evidence/jin098-huanwen-wuchang/reading.json"
+      },
+      {
+        "unit": "桓溫關中役、太尉辭授與劉琨故婢",
+        "path": "source-evidence/jin098-huanwen-guanzhong/reading.json"
+      },
+      {
+        "unit": "桓溫母喪、伊水及封爵",
+        "path": "source-evidence/jin098-huanwen-luoyang/reading.json"
+      },
+      {
+        "unit": "桓溫還都洛陽及辭入參朝政兩疏",
+        "path": "source-evidence/jin098-huanwen-return/reading.json"
+      },
+      {
+        "unit": "桓溫臥語、枋頭、壽陽與桓熙居喪",
+        "path": "source-evidence/jin098-huanwen-fangtou/reading.json"
+      },
+      {
+        "unit": "桓溫廢立、遺詔、謝王與葬禮",
+        "path": "source-evidence/jin098-huanwen-succession/reading.json"
+      }
+    ],
+    "person_reference_occurrences": [
+      {
+        "id": "c-jinshu-098-huanwen:p001:m0030",
+        "paragraph_id": "c-jinshu-098-huanwen:p001",
+        "start": 30,
+        "end": 32,
+        "surface": "此兒",
+        "person_id": "u9s_w6j_8mc_AA",
+        "quote": "此兒有奇骨",
+        "referent_role": "third_person",
+        "note": "依此段書牘、對話或敘述所指。"
+      },
+      {
+        "id": "c-jinshu-098-huanwen:p001:m0079",
+        "paragraph_id": "c-jinshu-098-huanwen:p001",
+        "start": 79,
+        "end": 80,
+        "surface": "吾",
+        "person_id": "6v8_pk9_7k5",
+        "quote": "後將易吾姓也",
+        "referent_role": "speaker_self",
+        "note": "依此段書牘、對話或敘述所指。"
+      },
+      {
+        "id": "c-jinshu-098-huanwen:p001:r0025",
+        "paragraph_id": "c-jinshu-098-huanwen:p001",
+        "start": 25,
+        "end": 26,
+        "surface": "之",
+        "person_id": "u9s_w6j_8mc_AA",
+        "quote": "太原溫嶠見之",
+        "referent_role": "third_person",
+        "note": "依此段書牘、對話或敘述所指。"
+      },
+      {
+        "id": "c-jinshu-098-huanwen:p006:m0000",
+        "paragraph_id": "c-jinshu-098-huanwen:p006",
+        "start": 0,
+        "end": 1,
+        "surface": "臣",
+        "person_id": "u9s_w6j_8mc_AA",
+        "referent_role": "speaker_self",
+        "quote": "臣近親率所統，欲北掃趙",
+        "note": "按此段說話、受書或敘述者定位。"
+      },
+      {
+        "id": "c-jinshu-098-huanwen:p006:m0072",
+        "paragraph_id": "c-jinshu-098-huanwen:p006",
+        "start": 72,
+        "end": 73,
+        "surface": "臣",
+        "person_id": "u9s_w6j_8mc_AA",
+        "referent_role": "speaker_self",
+        "quote": "相顧，隕越無地。臣以暗蔽，忝荷重任，雖",
+        "note": "按此段說話、受書或敘述者定位。"
+      },
+      {
+        "id": "c-jinshu-098-huanwen:p006:m0126",
+        "paragraph_id": "c-jinshu-098-huanwen:p006",
+        "start": 126,
+        "end": 127,
+        "surface": "臣",
+        "person_id": "u9s_w6j_8mc_AA",
+        "referent_role": "speaker_self",
+        "quote": "有志，猶懷憤慨，臣亦何心，坐觀其弊！故",
+        "note": "按此段說話、受書或敘述者定位。"
+      },
+      {
+        "id": "c-jinshu-098-huanwen:p007:m0046",
+        "paragraph_id": "c-jinshu-098-huanwen:p007",
+        "start": 46,
+        "end": 48,
+        "surface": "主上",
+        "person_id": "84i_4jp_gmc",
+        "referent_role": "third_person",
+        "quote": "存亡之所由也。今主上富於陽秋，陛下以聖淑",
+        "note": "按此段說話、受書或敘述者定位。"
+      },
+      {
+        "id": "c-jinshu-098-huanwen:p007:m0053",
+        "paragraph_id": "c-jinshu-098-huanwen:p007",
+        "start": 53,
+        "end": 55,
+        "surface": "陛下",
+        "person_id": "xke_dj3_6ba_AAB",
+        "referent_role": "addressee",
+        "quote": "今主上富於陽秋，陛下以聖淑臨朝，恭己委任",
+        "note": "按此段說話、受書或敘述者定位。"
+      },
+      {
+        "id": "c-jinshu-098-huanwen:p007:m0087",
+        "paragraph_id": "c-jinshu-098-huanwen:p007",
+        "start": 87,
+        "end": 88,
+        "surface": "臣",
+        "person_id": "u9s_w6j_8mc_AA",
+        "referent_role": "speaker_self",
+        "quote": "布德信於遐荒。況臣世蒙殊恩，服事三朝，",
+        "note": "按此段說話、受書或敘述者定位。"
+      },
+      {
+        "id": "c-jinshu-098-huanwen:p007:m0139",
+        "paragraph_id": "c-jinshu-098-huanwen:p007",
+        "start": 139,
+        "end": 140,
+        "surface": "臣",
+        "person_id": "u9s_w6j_8mc_AA",
+        "referent_role": "speaker_self",
+        "quote": "以歎息於既往，而臣亦大懼于當年也。今橫",
+        "note": "按此段說話、受書或敘述者定位。"
+      },
+      {
+        "id": "c-jinshu-098-huanwen:p007:m0181",
+        "paragraph_id": "c-jinshu-098-huanwen:p007",
+        "start": 181,
+        "end": 182,
+        "surface": "臣",
+        "person_id": "u9s_w6j_8mc_AA",
+        "referent_role": "speaker_self",
+        "quote": "絕氣，悲慨彌深。臣雖所存者公，所務者國",
+        "note": "按此段說話、受書或敘述者定位。"
+      },
+      {
+        "id": "c-jinshu-098-huanwen:p007:m0206",
+        "paragraph_id": "c-jinshu-098-huanwen:p007",
+        "start": 206,
+        "end": 207,
+        "surface": "臣",
+        "person_id": "u9s_w6j_8mc_AA",
+        "referent_role": "speaker_self",
+        "quote": "，而內弊交興，則臣本心陳力之志也。",
+        "note": "按此段說話、受書或敘述者定位。"
+      },
+      {
+        "id": "c-jinshu-098-huanwen:p005:r0039",
+        "paragraph_id": "c-jinshu-098-huanwen:p005",
+        "start": 39,
+        "end": 40,
+        "surface": "己",
+        "person_id": "u9s_w6j_8mc_AA",
+        "quote": "以抗己",
+        "referent_role": "third_person",
+        "note": "依此段書牘、對話或敘述所指。"
+      },
+      {
+        "id": "c-jinshu-098-huanwen:p005:r0052",
+        "paragraph_id": "c-jinshu-098-huanwen:p005",
+        "start": 52,
+        "end": 53,
+        "surface": "之",
+        "person_id": "djo_u3b_i9w_A",
+        "quote": "素知浩，弗之憚也",
+        "referent_role": "third_person",
+        "note": "依此段書牘、對話或敘述所指。"
+      },
+      {
+        "id": "c-jinshu-098-huanwen:p005:r0133",
+        "paragraph_id": "c-jinshu-098-huanwen:p005",
+        "start": 133,
+        "end": 134,
+        "surface": "之",
+        "person_id": "u9s_w6j_8mc_AA",
+        "quote": "將謀避之",
+        "referent_role": "third_person",
+        "note": "依此段書牘、對話或敘述所指。"
+      },
+      {
+        "id": "c-jinshu-098-huanwen:p009:m0051",
+        "paragraph_id": "c-jinshu-098-huanwen:p009",
+        "start": 51,
+        "end": 53,
+        "surface": "伎女",
+        "person_id": "7f3_xn9_i9t",
+        "referent_role": "third_person",
+        "quote": "老婢，訪之，乃琨伎女也，一見溫，便潸然而",
+        "note": "按此段說話、受書或敘述者定位。"
+      },
+      {
+        "id": "c-jinshu-098-huanwen:p009:m0074",
+        "paragraph_id": "c-jinshu-098-huanwen:p009",
+        "start": 74,
+        "end": 75,
+        "surface": "公",
+        "person_id": "u9s_w6j_8mc_AA",
+        "referent_role": "addressee",
+        "quote": "問其故，答曰：「公甚似劉司空。」溫大悅",
+        "note": "按此段說話、受書或敘述者定位。"
+      },
+      {
+        "id": "c-jinshu-098-huanwen:p009:m0095",
+        "paragraph_id": "c-jinshu-098-huanwen:p009",
+        "start": 95,
+        "end": 96,
+        "surface": "婢",
+        "person_id": "7f3_xn9_i9t",
+        "referent_role": "third_person",
+        "quote": "外整理衣冠，又呼婢問。婢云：「面甚似，",
+        "note": "按此段說話、受書或敘述者定位。"
+      },
+      {
+        "id": "c-jinshu-098-huanwen:p009:m0098",
+        "paragraph_id": "c-jinshu-098-huanwen:p009",
+        "start": 98,
+        "end": 99,
+        "surface": "婢",
+        "person_id": "7f3_xn9_i9t",
+        "referent_role": "third_person",
+        "quote": "衣冠，又呼婢問。婢云：「面甚似，恨薄；",
+        "note": "按此段說話、受書或敘述者定位。"
+      },
+      {
+        "id": "c-jinshu-098-huanwen:p009:r0020",
+        "paragraph_id": "c-jinshu-098-huanwen:p009",
+        "start": 20,
+        "end": 21,
+        "surface": "其",
+        "person_id": "u9s_w6j_8mc_AA",
+        "quote": "有以其比王敦者",
+        "referent_role": "third_person",
+        "note": "依此段書牘、對話或敘述所指。"
+      },
+      {
+        "id": "c-jinshu-098-huanwen:p009:r0047",
+        "paragraph_id": "c-jinshu-098-huanwen:p009",
+        "start": 47,
+        "end": 48,
+        "surface": "之",
+        "person_id": "7f3_xn9_i9t",
+        "quote": "訪之，乃琨",
+        "referent_role": "third_person",
+        "note": "依此段書牘、對話或敘述所指。"
+      },
+      {
+        "id": "c-jinshu-098-huanwen:p009:r0067",
+        "paragraph_id": "c-jinshu-098-huanwen:p009",
+        "start": 67,
+        "end": 68,
+        "surface": "其",
+        "person_id": "7f3_xn9_i9t",
+        "quote": "溫問其故",
+        "referent_role": "third_person",
+        "note": "依此段書牘、對話或敘述所指。"
+      },
+      {
+        "id": "c-jinshu-098-huanwen:p011:r0442",
+        "paragraph_id": "c-jinshu-098-huanwen:p011",
+        "start": 442,
+        "end": 443,
+        "surface": "其",
+        "person_id": "u9s_w6j_8mc_AA",
+        "quote": "以封其次子濟",
+        "referent_role": "third_person",
+        "note": "依此段書牘、對話或敘述所指。"
+      },
+      {
+        "id": "c-jinshu-098-huanwen:p013:m0074",
+        "paragraph_id": "c-jinshu-098-huanwen:p013",
+        "start": 74,
+        "end": 76,
+        "surface": "陛下",
+        "person_id": "emb_vx4_gm9",
+        "referent_role": "addressee",
+        "quote": "於既往者也。伏惟陛下稟乾坤自然之姿，挺羲",
+        "note": "按此段說話、受書或敘述者定位。"
+      },
+      {
+        "id": "c-jinshu-098-huanwen:p014:m0159",
+        "paragraph_id": "c-jinshu-098-huanwen:p014",
+        "start": 159,
+        "end": 160,
+        "surface": "臣",
+        "person_id": "u9s_w6j_8mc_AA",
+        "referent_role": "speaker_self",
+        "quote": "悼之，不覺悲歎！臣雖庸劣，才不周務，然",
+        "note": "按此段說話、受書或敘述者定位。"
+      },
+      {
+        "id": "c-jinshu-098-huanwen:p014:m0278",
+        "paragraph_id": "c-jinshu-098-huanwen:p014",
+        "start": 278,
+        "end": 280,
+        "surface": "陛下",
+        "person_id": "emb_vx4_gm9",
+        "referent_role": "addressee",
+        "quote": "，綱維粗舉。然後陛下建三辰之章，振旂旗之",
+        "note": "按此段說話、受書或敘述者定位。"
+      },
+      {
+        "id": "c-jinshu-098-huanwen:p015:m0023",
+        "paragraph_id": "c-jinshu-098-huanwen:p015",
+        "start": 23,
+        "end": 25,
+        "surface": "陛下",
+        "person_id": "emb_vx4_gm9",
+        "referent_role": "addressee",
+        "quote": "，眾人所疑。伏願陛下決玄照之明，斷常均之",
+        "note": "按此段說話、受書或敘述者定位。"
+      },
+      {
+        "id": "c-jinshu-098-huanwen:p015:m0038",
+        "paragraph_id": "c-jinshu-098-huanwen:p015",
+        "start": 38,
+        "end": 39,
+        "surface": "臣",
+        "person_id": "u9s_w6j_8mc_AA",
+        "referent_role": "speaker_self",
+        "quote": "，斷常均之外，責臣以興復之效，委臣以終",
+        "note": "按此段說話、受書或敘述者定位。"
+      },
+      {
+        "id": "c-jinshu-098-huanwen:p015:m0046",
+        "paragraph_id": "c-jinshu-098-huanwen:p015",
+        "start": 46,
+        "end": 47,
+        "surface": "臣",
+        "person_id": "u9s_w6j_8mc_AA",
+        "referent_role": "speaker_self",
+        "quote": "臣以興復之效，委臣以終濟之功。此事既就",
+        "note": "按此段說話、受書或敘述者定位。"
+      },
+      {
+        "id": "c-jinshu-098-huanwen:p015:m0064",
+        "paragraph_id": "c-jinshu-098-huanwen:p015",
+        "start": 64,
+        "end": 66,
+        "surface": "陛下",
+        "person_id": "emb_vx4_gm9",
+        "referent_role": "addressee",
+        "quote": "就，此功既成，則陛下盛勳比靈斯前代，周宣",
+        "note": "按此段說話、受書或敘述者定位。"
+      },
+      {
+        "id": "c-jinshu-098-huanwen:p015:m0088",
+        "paragraph_id": "c-jinshu-098-huanwen:p015",
+        "start": 88,
+        "end": 89,
+        "surface": "臣",
+        "person_id": "u9s_w6j_8mc_AA",
+        "referent_role": "speaker_self",
+        "quote": "當年。如其不效，臣之罪也，褰裳赴鑊，其",
+        "note": "按此段說話、受書或敘述者定位。"
+      },
+      {
+        "id": "c-jinshu-098-huanwen:p017:m0056",
+        "paragraph_id": "c-jinshu-098-huanwen:p017",
+        "start": 56,
+        "end": 57,
+        "surface": "臣",
+        "person_id": "u9s_w6j_8mc_AA",
+        "referent_role": "speaker_self",
+        "quote": "朝政，非所敢聞。臣違離宮省二十餘載，鞸",
+        "note": "按此段說話、受書或敘述者定位。"
+      },
+      {
+        "id": "c-jinshu-098-huanwen:p017:m0182",
+        "paragraph_id": "c-jinshu-098-huanwen:p017",
+        "start": 182,
+        "end": 183,
+        "surface": "臣",
+        "person_id": "u9s_w6j_8mc_AA",
+        "referent_role": "speaker_self",
+        "quote": "，無以鎮禦遐外。臣知舍此之艱危，敢背之",
+        "note": "按此段說話、受書或敘述者定位。"
+      },
+      {
+        "id": "c-jinshu-098-huanwen:p017:m0257",
+        "paragraph_id": "c-jinshu-098-huanwen:p017",
+        "start": 257,
+        "end": 258,
+        "surface": "臣",
+        "person_id": "u9s_w6j_8mc_AA",
+        "referent_role": "speaker_self",
+        "quote": "如當假息遊魂，則臣據河洛，親臨二寇，廣",
+        "note": "按此段說話、受書或敘述者定位。"
+      },
+      {
+        "id": "c-jinshu-098-huanwen:p018:m0018",
+        "paragraph_id": "c-jinshu-098-huanwen:p018",
+        "start": 18,
+        "end": 19,
+        "surface": "臣",
+        "person_id": "u9s_w6j_8mc_AA",
+        "referent_role": "speaker_self",
+        "quote": "輔二世，即無煩以臣疏鈍，並是機務。且不",
+        "note": "按此段說話、受書或敘述者定位。"
+      },
+      {
+        "id": "c-jinshu-098-huanwen:p018:m0050",
+        "paragraph_id": "c-jinshu-098-huanwen:p018",
+        "start": 50,
+        "end": 52,
+        "surface": "陛下",
+        "person_id": "emb_vx4_gm9",
+        "referent_role": "addressee",
+        "quote": "，實深實重。伏願陛下察臣所陳，兼訪內外，",
+        "note": "承此前桓溫辭入朝的奏疏，沿舊標按在位哀帝登記。當時太后復臨朝攝政，未載實際執筆之人。"
+      },
+      {
+        "id": "c-jinshu-098-huanwen:p018:m0053",
+        "paragraph_id": "c-jinshu-098-huanwen:p018",
+        "start": 53,
+        "end": 54,
+        "surface": "臣",
+        "person_id": "u9s_w6j_8mc_AA",
+        "referent_role": "speaker_self",
+        "quote": "實重。伏願陛下察臣所陳，兼訪內外，乞時",
+        "note": "按此段說話、受書或敘述者定位。"
+      },
+      {
+        "id": "c-jinshu-098-huanwen:p018:m0001",
+        "paragraph_id": "c-jinshu-098-huanwen:p018",
+        "start": 1,
+        "end": 2,
+        "surface": "臣",
+        "person_id": "dkn_ge4_286_AAAAAAAF",
+        "quote": "今臣昱以親賢贊國",
+        "referent_role": "third_person",
+        "note": "桓溫在奏疏中就親賢輔國者稱臣昱，與後句自稱臣相別。原二字標記依字位分為稱臣與單名。"
+      },
+      {
+        "id": "c-jinshu-098-huanwen:p020:m0127",
+        "paragraph_id": "c-jinshu-098-huanwen:p020",
+        "start": 127,
+        "end": 128,
+        "surface": "尼",
+        "person_id": "t4r_nea_qof",
+        "referent_role": "third_person",
+        "quote": "室浴，溫竊窺之。尼倮身先以刀自破腹，次",
+        "note": "按此段說話、受書或敘述者定位。"
+      },
+      {
+        "id": "c-jinshu-098-huanwen:p020:m0151",
+        "paragraph_id": "c-jinshu-098-huanwen:p020",
+        "start": 151,
+        "end": 152,
+        "surface": "尼",
+        "person_id": "t4r_nea_qof",
+        "referent_role": "third_person",
+        "quote": "竟出，溫問吉凶，尼云：「公若作天子，亦",
+        "note": "按此段說話、受書或敘述者定位。"
+      },
+      {
+        "id": "c-jinshu-098-huanwen:p020:m0155",
+        "paragraph_id": "c-jinshu-098-huanwen:p020",
+        "start": 155,
+        "end": 156,
+        "surface": "公",
+        "person_id": "u9s_w6j_8mc_AA",
+        "referent_role": "addressee",
+        "quote": "問吉凶，尼云：「公若作天子，亦當如是。",
+        "note": "按此段說話、受書或敘述者定位。"
+      },
+      {
+        "id": "c-jinshu-098-huanwen:p020:m0158",
+        "paragraph_id": "c-jinshu-098-huanwen:p020",
+        "start": 158,
+        "end": 160,
+        "surface": "天子",
+        "person_id": "u9s_w6j_8mc_AA",
+        "referent_role": "addressee",
+        "quote": "，尼云：「公若作天子，亦當如是。」",
+        "note": "比丘尼對桓溫所說「公若作天子」為條件句，所指是受話者，未稱桓溫在位。"
+      },
+      {
+        "id": "c-jinshu-098-huanwen:p024:m0130",
+        "paragraph_id": "c-jinshu-098-huanwen:p024",
+        "start": 130,
+        "end": 131,
+        "surface": "卿",
+        "person_id": "aa6_83c_juy_B",
+        "referent_role": "addressee",
+        "quote": "溫驚曰：「安石，卿何事乃爾！」安曰：「",
+        "note": "按此段說話、受書或敘述者定位。"
+      },
+      {
+        "id": "c-jinshu-098-huanwen:p026:m0120",
+        "paragraph_id": "c-jinshu-098-huanwen:p026",
+        "start": 120,
+        "end": 121,
+        "surface": "公",
+        "person_id": "u9s_w6j_8mc_AA",
+        "referent_role": "addressee",
+        "quote": "，道固萬世。今進公丞相，其大司馬本官皆",
+        "note": "按此段說話、受書或敘述者定位。"
+      },
+      {
+        "id": "c-jinshu-098-huanwen:p026:m0135",
+        "paragraph_id": "c-jinshu-098-huanwen:p026",
+        "start": 135,
+        "end": 136,
+        "surface": "公",
+        "person_id": "u9s_w6j_8mc_AA",
+        "referent_role": "addressee",
+        "quote": "馬本官皆如故，留公京都，以鎮社稷。」溫",
+        "note": "按此段說話、受書或敘述者定位。"
+      },
+      {
+        "id": "c-jinshu-098-huanwen:p027:m0010",
+        "paragraph_id": "c-jinshu-098-huanwen:p027",
+        "start": 10,
+        "end": 11,
+        "surface": "吾",
+        "person_id": "dkn_ge4_286_AAAAAAAF",
+        "referent_role": "speaker_self",
+        "quote": "不豫，詔溫曰：「吾遂委篤，足下便入，冀",
+        "note": "按此段說話、受書或敘述者定位。"
+      },
+      {
+        "id": "c-jinshu-098-huanwen:p027:m0015",
+        "paragraph_id": "c-jinshu-098-huanwen:p027",
+        "start": 15,
+        "end": 17,
+        "surface": "足下",
+        "person_id": "u9s_w6j_8mc_AA",
+        "referent_role": "addressee",
+        "quote": "曰：「吾遂委篤，足下便入，冀得相見。便來",
+        "note": "按此段說話、受書或敘述者定位。"
+      },
+      {
+        "id": "c-jinshu-098-huanwen:p027:m0116",
+        "paragraph_id": "c-jinshu-098-huanwen:p027",
+        "start": 116,
+        "end": 118,
+        "surface": "皇子",
+        "person_id": "uke_dff_yrf",
+        "referent_role": "third_person",
+        "quote": "蓋所存者大也。今皇子幼稚，而朝賢時譽惟謝",
+        "note": "按此段說話、受書或敘述者定位。"
+      },
+      {
+        "id": "c-jinshu-098-huanwen:p027:m0165",
+        "paragraph_id": "c-jinshu-098-huanwen:p027",
+        "start": 165,
+        "end": 167,
+        "surface": "陛下",
+        "person_id": "dkn_ge4_286_AAAAAAAF",
+        "referent_role": "addressee",
+        "quote": "懼，然理盡於此。陛下便宜崇授，使群下知所",
+        "note": "按此段說話、受書或敘述者定位。"
+      },
+      {
+        "id": "c-jinshu-098-huanwen:p027:m0194",
+        "paragraph_id": "c-jinshu-098-huanwen:p027",
+        "start": 194,
+        "end": 195,
+        "surface": "臣",
+        "person_id": "u9s_w6j_8mc_AA",
+        "referent_role": "speaker_self",
+        "quote": "，公私為宜。至如臣溫位兼將相，加陛下垂",
+        "note": "按此段說話、受書或敘述者定位。"
+      },
+      {
+        "id": "c-jinshu-098-huanwen:p027:m0202",
+        "paragraph_id": "c-jinshu-098-huanwen:p027",
+        "start": 202,
+        "end": 204,
+        "surface": "陛下",
+        "person_id": "dkn_ge4_286_AAAAAAAF",
+        "referent_role": "addressee",
+        "quote": "臣溫位兼將相，加陛下垂布衣之顧，但朽邁疾",
+        "note": "按此段說話、受書或敘述者定位。"
+      },
+      {
+        "id": "c-jinshu-098-huanwen:p027:m0305",
+        "paragraph_id": "c-jinshu-098-huanwen:p027",
+        "start": 305,
+        "end": 306,
+        "surface": "吾",
+        "person_id": "u9s_w6j_8mc_AA",
+        "referent_role": "speaker_self",
+        "quote": "沖書曰：「遺詔使吾依武侯、王公故事耳。",
+        "note": "按此段說話、受書或敘述者定位。"
+      },
+      {
+        "id": "c-jinshu-098-huanwen:p028:m0023",
+        "paragraph_id": "c-jinshu-098-huanwen:p028",
+        "start": 23,
+        "end": 24,
+        "surface": "吾",
+        "person_id": "dkn_ge4_286_AAAAAAAF",
+        "referent_role": "speaker_self",
+        "quote": "：'事大司馬如事吾。'令答表便可盡敬。",
+        "note": "按此段說話、受書或敘述者定位。"
+      },
+      {
+        "id": "c-jinshu-098-huanwen:p028:m0115",
+        "paragraph_id": "c-jinshu-098-huanwen:p028",
+        "start": 115,
+        "end": 116,
+        "surface": "朕",
+        "person_id": "uke_dff_yrf",
+        "referent_role": "speaker_self",
+        "quote": "公勳德尊重，師保朕躬，兼有風患，其無敬",
+        "note": "按此段說話、受書或敘述者定位。"
+      },
+      {
+        "id": "c-jinshu-098-huanwen:p028:m0254",
+        "paragraph_id": "c-jinshu-098-huanwen:p028",
+        "start": 254,
+        "end": 255,
+        "surface": "臣",
+        "person_id": "u9s_w6j_8mc_AA",
+        "referent_role": "speaker_self",
+        "quote": "但見將拜時頻言「臣不敢」而已。又問左右",
+        "note": "按此段說話、受書或敘述者定位。"
+      },
+      {
+        "id": "c-jinshu-098-huanwen:p029:m0023",
+        "paragraph_id": "c-jinshu-098-huanwen:p029",
+        "start": 23,
+        "end": 24,
+        "surface": "汝",
+        "person_id": "u9s_w6j_8mc_AE",
+        "referent_role": "addressee",
+        "quote": "溫曰：「伊等不為汝所處分。」溫知己存彼",
+        "note": "按此段說話、受書或敘述者定位。"
+      },
+      {
+        "id": "c-jinshu-098-huanwen:p024:r0148",
+        "paragraph_id": "c-jinshu-098-huanwen:p024",
+        "start": 148,
+        "end": 149,
+        "surface": "臣",
+        "person_id": "aa6_83c_juy_B",
+        "quote": "臣揖於後",
+        "referent_role": "speaker_self",
+        "note": "依此段書牘、對話或敘述所指。"
+      },
+      {
+        "id": "c-jinshu-098-huanwen:p026:r0104",
+        "paragraph_id": "c-jinshu-098-huanwen:p026",
+        "start": 104,
+        "end": 105,
+        "surface": "予",
+        "person_id": "dkn_ge4_286_AAAAAAAF",
+        "quote": "在予一人",
+        "referent_role": "speaker_self",
+        "note": "依此段書牘、對話或敘述所指。"
+      },
+      {
+        "id": "c-jinshu-098-huanwen:p027:r0248",
+        "paragraph_id": "c-jinshu-098-huanwen:p027",
+        "start": 248,
+        "end": 249,
+        "surface": "公",
+        "person_id": "u9s_w6j_8mc_AA",
+        "quote": "家國事一稟之於公",
+        "referent_role": "addressee",
+        "note": "依此段書牘、對話或敘述所指。"
+      },
+      {
+        "id": "c-jinshu-098-huanwen:p027:r0272",
+        "paragraph_id": "c-jinshu-098-huanwen:p027",
+        "start": 272,
+        "end": 273,
+        "surface": "己",
+        "person_id": "u9s_w6j_8mc_AA",
+        "quote": "禪位於己",
+        "referent_role": "third_person",
+        "note": "依此段書牘、對話或敘述所指。"
+      },
+      {
+        "id": "c-jinshu-098-huanwen:p027:r0059",
+        "paragraph_id": "c-jinshu-098-huanwen:p027",
+        "start": 59,
+        "end": 60,
+        "surface": "愚",
+        "person_id": "u9s_w6j_8mc_AA",
+        "quote": "愚心惶恐",
+        "referent_role": "speaker_self",
+        "note": "依此段書牘、對話或敘述所指。"
+      },
+      {
+        "id": "c-jinshu-098-huanwen:p028:r0061",
+        "paragraph_id": "c-jinshu-098-huanwen:p028",
+        "start": 61,
+        "end": 62,
+        "surface": "公",
+        "person_id": "u9s_w6j_8mc_AA",
+        "quote": "關公施行",
+        "referent_role": "third_person",
+        "note": "依此段書牘、對話或敘述所指。"
+      },
+      {
+        "id": "c-jinshu-098-huanwen:p028:r0107",
+        "paragraph_id": "c-jinshu-098-huanwen:p028",
+        "start": 107,
+        "end": 108,
+        "surface": "公",
+        "person_id": "u9s_w6j_8mc_AA",
+        "quote": "公勳德尊重",
+        "referent_role": "addressee",
+        "note": "依此段書牘、對話或敘述所指。"
+      },
+      {
+        "id": "c-jinshu-098-huanwen:p028:r0368",
+        "paragraph_id": "c-jinshu-098-huanwen:p028",
+        "start": 368,
+        "end": 369,
+        "surface": "己",
+        "person_id": "u9s_w6j_8mc_AA",
+        "quote": "諷朝廷加己九錫",
+        "referent_role": "third_person",
+        "note": "依此段書牘、對話或敘述所指。"
+      },
+      {
+        "id": "c-jinshu-098-huanwen:p029:r0031",
+        "paragraph_id": "c-jinshu-098-huanwen:p029",
+        "start": 31,
+        "end": 32,
+        "surface": "己",
+        "person_id": "u9s_w6j_8mc_AA",
+        "quote": "溫知己存",
+        "referent_role": "third_person",
+        "note": "依此段書牘、對話或敘述所指。"
+      },
+      {
+        "id": "c-jinshu-098-huanwen:p029:m0019",
+        "paragraph_id": "c-jinshu-098-huanwen:p029",
+        "start": 19,
+        "end": 21,
+        "surface": "伊等",
+        "person_id": "aa6_83c_juy_B",
+        "quote": "伊等不為汝所處分",
+        "referent_role": "third_person",
+        "note": "明指此段連敘的謝安、王坦之，兩人同受指。",
+        "group_reference_id": "c-jinshu-098-huanwen:p029:g19"
+      },
+      {
+        "id": "c-jinshu-098-huanwen:p029:r0019-2",
+        "paragraph_id": "c-jinshu-098-huanwen:p029",
+        "start": 19,
+        "end": 21,
+        "surface": "伊等",
+        "person_id": "a8f_ec8_e74_AAAAA",
+        "quote": "伊等不為汝所處分",
+        "referent_role": "third_person",
+        "note": "明指此段連敘的謝安、王坦之，兩人同受指。",
+        "group_reference_id": "c-jinshu-098-huanwen:p029:g19"
+      },
+      {
+        "id": "c-jinshu-098-huanwen:p029:r0033-1",
+        "paragraph_id": "c-jinshu-098-huanwen:p029",
+        "start": 33,
+        "end": 34,
+        "surface": "彼",
+        "person_id": "aa6_83c_juy_B",
+        "quote": "溫知己存彼不敢異",
+        "referent_role": "third_person",
+        "note": "明指此段連敘的謝安、王坦之，兩人同受指。",
+        "group_reference_id": "c-jinshu-098-huanwen:p029:g33"
+      },
+      {
+        "id": "c-jinshu-098-huanwen:p029:r0033-2",
+        "paragraph_id": "c-jinshu-098-huanwen:p029",
+        "start": 33,
+        "end": 34,
+        "surface": "彼",
+        "person_id": "a8f_ec8_e74_AAAAA",
+        "quote": "溫知己存彼不敢異",
+        "referent_role": "third_person",
+        "note": "明指此段連敘的謝安、王坦之，兩人同受指。",
+        "group_reference_id": "c-jinshu-098-huanwen:p029:g33"
+      },
+      {
+        "id": "c-jinshu-098-huanwen:p029:r0039-1",
+        "paragraph_id": "c-jinshu-098-huanwen:p029",
+        "start": 39,
+        "end": 40,
+        "surface": "之",
+        "person_id": "aa6_83c_juy_B",
+        "quote": "害之無益於沖",
+        "referent_role": "third_person",
+        "note": "明指此段連敘的謝安、王坦之，兩人同受指。",
+        "group_reference_id": "c-jinshu-098-huanwen:p029:g39"
+      },
+      {
+        "id": "c-jinshu-098-huanwen:p029:r0039-2",
+        "paragraph_id": "c-jinshu-098-huanwen:p029",
+        "start": 39,
+        "end": 40,
+        "surface": "之",
+        "person_id": "a8f_ec8_e74_AAAAA",
+        "quote": "害之無益於沖",
+        "referent_role": "third_person",
+        "note": "明指此段連敘的謝安、王坦之，兩人同受指。",
+        "group_reference_id": "c-jinshu-098-huanwen:p029:g39"
+      }
+    ],
+    "title_proposals": [
+      {
+        "id": "tp-w098-huanwen-taiwei",
+        "person_id": "u9s_w6j_8mc_AA",
+        "person_mention_id": "c-jinshu-098-huanwen:p008:m0036",
+        "title": "太尉",
+        "outcome": "not_assumed",
+        "proposal_kind": "unassumed_appointment",
+        "appointment_stage": "appointment",
+        "non_assumption_kind": "declined",
+        "source_refusal_form": "jin098_huan_taiwei",
+        "role_anchor": {
+          "paragraph_id": "c-jinshu-098-huanwen:p008",
+          "start": 2,
+          "end": 4,
+          "surface": "太尉"
+        },
+        "appointment_anchor": {
+          "paragraph_id": "c-jinshu-098-huanwen:p008",
+          "start": 0,
+          "end": 2,
+          "surface": "進位"
+        },
+        "non_assumption_anchor": {
+          "paragraph_id": "c-jinshu-098-huanwen:p008",
+          "start": 5,
+          "end": 9,
+          "surface": "固讓不拜"
+        },
+        "evidence": [
+          {
+            "work_id": "w-jinshu",
+            "book_id": "b-jinshu-098",
+            "chapter_id": "c-jinshu-098-huanwen",
+            "source_id": "s-jinshu-098-ws2614273",
+            "paragraph_id": "c-jinshu-098-huanwen:p008",
+            "quote": "進位太尉，固讓不拜。時殷浩至洛陽修復園陵，經涉數年，屢戰屢敗，器械都盡。溫復進督司州，因朝野之怨，乃奏廢浩，自此內外大權一歸溫矣。溫遂統步騎四萬發江陵，水軍自襄陽入均口。至南鄉，步自淅川以征關中，命梁州刺史司馬勳出子午道。別軍攻上洛，獲苻健荊州刺史郭敬，進擊青泥，破之。健又遣子生、弟雄眾數萬屯嶢柳、愁思塠以距溫，遂大戰，生親自陷陣，殺溫將應庭、劉泓，死傷千數。溫軍力戰，生眾乃散。雄又與將軍桓沖戰白鹿原，又為沖所破。雄遂馳襲司馬勳，勳退次女媧堡。溫進至霸上，健以五千人深溝自固，居人皆安堵復業，持牛酒迎溫于路者十八九，耆老感泣曰：「不圖今日復見官軍！」初，溫恃麥熟，取以為軍資。而健芟苗清野，軍糧不屬，收三千餘口而還。帝使侍中黃門勞溫於襄陽。"
+          }
+        ],
+        "interpretation_note": "本傳明記固讓不拜，穆帝紀另載授命及後來稱太尉。",
+        "status": "contextual_provisional",
+        "reviewer": "Codex（AI 代理）",
+        "human_reviewed": false,
+        "model": null
+      },
+      {
+        "id": "tp-w098-huanwen-chengxiang",
+        "person_id": "u9s_w6j_8mc_AA",
+        "person_mention_id": "c-jinshu-098-huanwen:p026:m0145",
+        "title": "丞相",
+        "outcome": "not_assumed",
+        "proposal_kind": "unassumed_appointment",
+        "appointment_stage": "appointment",
+        "non_assumption_kind": "declined",
+        "source_refusal_form": "jin098_huan_chengxiang",
+        "role_anchor": {
+          "paragraph_id": "c-jinshu-098-huanwen:p026",
+          "start": 121,
+          "end": 123,
+          "surface": "丞相"
+        },
+        "appointment_anchor": {
+          "paragraph_id": "c-jinshu-098-huanwen:p026",
+          "start": 119,
+          "end": 120,
+          "surface": "進"
+        },
+        "non_assumption_anchor": {
+          "paragraph_id": "c-jinshu-098-huanwen:p026",
+          "start": 146,
+          "end": 148,
+          "surface": "固辭"
+        },
+        "evidence": [
+          {
+            "work_id": "w-jinshu",
+            "book_id": "b-jinshu-098",
+            "chapter_id": "c-jinshu-098-huanwen",
+            "source_id": "s-jinshu-098-ws2614273",
+            "paragraph_id": "c-jinshu-098-huanwen:p026",
+            "quote": "溫復還白石，上疏求歸姑孰。詔曰：「夫乾坤體合，而化成萬物；二人同心，則不言所利。古之哲王咸賴元輔，姬旦光於四表，而周道以隆；伊尹格於皇天，而殷化以洽。大司馬明德應期，光大深遠，上合天心，含章時發，用集大命，在予一人，功美博陸，道固萬世。今進公丞相，其大司馬本官皆如故，留公京都，以鎮社稷。」溫固辭，仍請還鎮。遣侍中王坦之徵溫入相，增邑為萬戶，又辭。詔以西府經袁真事故，軍用不足，給世子熙布三萬匹，米六萬斛，又以熙弟濟為給事中。",
+            "person_mention_id": "c-jinshu-098-huanwen:p026:m0000"
+          }
+        ],
+        "interpretation_note": "本傳先記進丞相與徵入相均辭；本紀庚申不受，薨時列銜則另作丞相。",
+        "status": "contextual_provisional",
+        "reviewer": "Codex（AI 代理）",
+        "human_reviewed": false,
+        "model": null
+      }
+    ],
+    "person_group_references": [
+      {
+        "id": "c-jinshu-098-huanwen:p029:g19",
+        "paragraph_id": "c-jinshu-098-huanwen:p029",
+        "start": 19,
+        "end": 21,
+        "surface": "伊等",
+        "person_ids": [
+          "aa6_83c_juy_B",
+          "a8f_ec8_e74_AAAAA"
+        ],
+        "reference_ids": [
+          "c-jinshu-098-huanwen:p029:m0019",
+          "c-jinshu-098-huanwen:p029:r0019-2"
+        ],
+        "quote": "伊等不為汝所處分"
+      },
+      {
+        "id": "c-jinshu-098-huanwen:p029:g33",
+        "paragraph_id": "c-jinshu-098-huanwen:p029",
+        "start": 33,
+        "end": 34,
+        "surface": "彼",
+        "person_ids": [
+          "aa6_83c_juy_B",
+          "a8f_ec8_e74_AAAAA"
+        ],
+        "reference_ids": [
+          "c-jinshu-098-huanwen:p029:r0033-1",
+          "c-jinshu-098-huanwen:p029:r0033-2"
+        ],
+        "quote": "溫知己存彼不敢異"
+      },
+      {
+        "id": "c-jinshu-098-huanwen:p029:g39",
+        "paragraph_id": "c-jinshu-098-huanwen:p029",
+        "start": 39,
+        "end": 40,
+        "surface": "之",
+        "person_ids": [
+          "aa6_83c_juy_B",
+          "a8f_ec8_e74_AAAAA"
+        ],
+        "reference_ids": [
+          "c-jinshu-098-huanwen:p029:r0039-1",
+          "c-jinshu-098-huanwen:p029:r0039-2"
+        ],
+        "quote": "害之無益於沖"
       }
     ]
   },
@@ -305,16 +1327,6 @@
           "interpretation_note": "依完整單元、引語範圍及平行來源作AI暫定辨識，未圖校。"
         },
         {
-          "id": "c-jinshu-098-huanwen:p001:m0030",
-          "start": 30,
-          "end": 32,
-          "surface": "此兒",
-          "kind": "person",
-          "person_id": "u9s_w6j_8mc_AA",
-          "status": "contextual_provisional",
-          "interpretation_note": "溫嶠見幼溫"
-        },
-        {
           "id": "c-jinshu-098-huanwen:p001:m0057",
           "start": 57,
           "end": 58,
@@ -343,16 +1355,6 @@
           "person_id": "6v8_pk9_7k5",
           "status": "contextual_provisional",
           "interpretation_note": "依完整單元、引語範圍及平行來源作AI暫定辨識，未圖校。"
-        },
-        {
-          "id": "c-jinshu-098-huanwen:p001:m0079",
-          "start": 79,
-          "end": 80,
-          "surface": "吾",
-          "kind": "person",
-          "person_id": "6v8_pk9_7k5",
-          "status": "contextual_provisional",
-          "interpretation_note": "嶠笑曰"
         },
         {
           "id": "c-jinshu-098-huanwen:p001:m0084",
@@ -456,7 +1458,7 @@
           "candidate_person_ids": []
         }
       ],
-      "annotation_status": "named_mentions_first_pass"
+      "annotation_status": "reviewed"
     },
     {
       "id": "c-jinshu-098-huanwen:p002",
@@ -632,7 +1634,7 @@
           "interpretation_note": "依完整單元、引語範圍及平行來源作AI暫定辨識，未圖校。"
         }
       ],
-      "annotation_status": "named_mentions_first_pass"
+      "annotation_status": "reviewed"
     },
     {
       "id": "c-jinshu-098-huanwen:p003",
@@ -796,7 +1798,7 @@
           "kind": "unresolved",
           "person_id": null,
           "status": "unresolved",
-          "interpretation_note": "原文時序與庾翼官歷有疑，未靜校",
+          "interpretation_note": "本卷與武英殿桓溫傳並作明帝；卷七十三庾翼傳同疏作成帝。兩個文獻記載可識，所薦歷史事件的唯一受奏者仍未能定。",
           "candidate_person_ids": [
             "dkn_ge4_286_AAAAAAAA",
             "dkn_ge4_286_AAAAAAAAA"
@@ -820,7 +1822,7 @@
           "kind": "unresolved",
           "person_id": null,
           "status": "unresolved",
-          "interpretation_note": "同上原文明帝問題",
+          "interpretation_note": "本卷與武英殿桓溫傳並作明帝；卷七十三庾翼傳同疏作成帝。兩個文獻記載可識，所薦歷史事件的唯一受奏者仍未能定。",
           "candidate_person_ids": [
             "dkn_ge4_286_AAAAAAAA",
             "dkn_ge4_286_AAAAAAAAA"
@@ -873,7 +1875,7 @@
           "interpretation_note": "依完整單元、引語範圍及平行來源作AI暫定辨識，未圖校。"
         }
       ],
-      "annotation_status": "named_mentions_first_pass"
+      "annotation_status": "reviewed"
     },
     {
       "id": "c-jinshu-098-huanwen:p004",
@@ -1626,7 +2628,7 @@
           "interpretation_note": "依完整單元、引語範圍及平行來源作AI暫定辨識，未圖校。"
         }
       ],
-      "annotation_status": "named_mentions_first_pass"
+      "annotation_status": "reviewed"
     },
     {
       "id": "c-jinshu-098-huanwen:p005",
@@ -1939,7 +2941,7 @@
           "interpretation_note": "依完整單元、引語範圍及平行來源作AI暫定辨識，未圖校。"
         }
       ],
-      "annotation_status": "named_mentions_first_pass"
+      "annotation_status": "reviewed"
     },
     {
       "id": "c-jinshu-098-huanwen:p006",
@@ -2152,16 +3154,6 @@
       },
       "mentions": [
         {
-          "id": "c-jinshu-098-huanwen:p006:m0000",
-          "start": 0,
-          "end": 1,
-          "surface": "臣",
-          "kind": "person",
-          "person_id": "u9s_w6j_8mc_AA",
-          "status": "contextual_provisional",
-          "interpretation_note": "p005溫上疏曰承接"
-        },
-        {
           "id": "c-jinshu-098-huanwen:p006:m0025",
           "start": 25,
           "end": 29,
@@ -2170,29 +3162,15 @@
           "person_id": "dkn_ge4_286_AAAAAAAF",
           "status": "contextual_provisional",
           "interpretation_note": "依完整單元、引語範圍及平行來源作AI暫定辨識，未圖校。"
-        },
-        {
-          "id": "c-jinshu-098-huanwen:p006:m0072",
-          "start": 72,
-          "end": 73,
-          "surface": "臣",
-          "kind": "person",
-          "person_id": "u9s_w6j_8mc_AA",
-          "status": "contextual_provisional",
-          "interpretation_note": "同上疏"
-        },
-        {
-          "id": "c-jinshu-098-huanwen:p006:m0126",
-          "start": 126,
-          "end": 127,
-          "surface": "臣",
-          "kind": "person",
-          "person_id": "u9s_w6j_8mc_AA",
-          "status": "contextual_provisional",
-          "interpretation_note": "同上疏"
         }
       ],
-      "annotation_status": "named_mentions_first_pass"
+      "annotation_status": "reviewed",
+      "attribution": {
+        "document": "桓溫上疏",
+        "speaker_person_id": "u9s_w6j_8mc_AA",
+        "addressee_person_id": "xke_dj3_6ba_AAB",
+        "source_boundary": "上承「溫即回軍還鎮，上疏曰」。"
+      }
     },
     {
       "id": "c-jinshu-098-huanwen:p007",
@@ -2449,41 +3427,11 @@
           "kind": "unresolved",
           "person_id": null,
           "status": "unresolved",
-          "interpretation_note": "可能父子合稱，未按近名單人化",
+          "interpretation_note": "漢書昭帝紀明言桀、安父子，霍光傳亦並列桀、安；此處只寫姓，父子舊候選並保留。",
           "candidate_person_ids": [
             "1kj_vhc_cx9",
             "1kj_vhc_cx9_A"
           ]
-        },
-        {
-          "id": "c-jinshu-098-huanwen:p007:m0046",
-          "start": 46,
-          "end": 48,
-          "surface": "主上",
-          "kind": "person",
-          "person_id": "84i_4jp_gmc",
-          "status": "contextual_provisional",
-          "interpretation_note": "依完整單元、引語範圍及平行來源作AI暫定辨識，未圖校。"
-        },
-        {
-          "id": "c-jinshu-098-huanwen:p007:m0053",
-          "start": 53,
-          "end": 55,
-          "surface": "陛下",
-          "kind": "person",
-          "person_id": "xke_dj3_6ba_AAB",
-          "status": "contextual_provisional",
-          "interpretation_note": "依完整單元、引語範圍及平行來源作AI暫定辨識，未圖校。"
-        },
-        {
-          "id": "c-jinshu-098-huanwen:p007:m0087",
-          "start": 87,
-          "end": 88,
-          "surface": "臣",
-          "kind": "person",
-          "person_id": "u9s_w6j_8mc_AA",
-          "status": "contextual_provisional",
-          "interpretation_note": "同上疏"
         },
         {
           "id": "c-jinshu-098-huanwen:p007:m0107",
@@ -2493,7 +3441,7 @@
           "kind": "unresolved",
           "person_id": null,
           "status": "unresolved",
-          "interpretation_note": "韓信〔淮陰侯〕引古候選，不套韓王信",
+          "interpretation_note": "以韓彭連稱對讀漢書韓信彭越合傳；本疏只用姓，保留舊候選。",
           "candidate_person_ids": [
             "ofc_8ei_jb7"
           ]
@@ -2506,43 +3454,19 @@
           "kind": "unresolved",
           "person_id": null,
           "status": "unresolved",
-          "interpretation_note": "彭越引古候選",
+          "interpretation_note": "以韓彭連稱對讀漢書韓信彭越合傳；本疏只用姓，保留舊候選。",
           "candidate_person_ids": [
             "9qt_orl_5f2"
           ]
-        },
-        {
-          "id": "c-jinshu-098-huanwen:p007:m0139",
-          "start": 139,
-          "end": 140,
-          "surface": "臣",
-          "kind": "person",
-          "person_id": "u9s_w6j_8mc_AA",
-          "status": "contextual_provisional",
-          "interpretation_note": "同上疏"
-        },
-        {
-          "id": "c-jinshu-098-huanwen:p007:m0181",
-          "start": 181,
-          "end": 182,
-          "surface": "臣",
-          "kind": "person",
-          "person_id": "u9s_w6j_8mc_AA",
-          "status": "contextual_provisional",
-          "interpretation_note": "同上疏"
-        },
-        {
-          "id": "c-jinshu-098-huanwen:p007:m0206",
-          "start": 206,
-          "end": 207,
-          "surface": "臣",
-          "kind": "person",
-          "person_id": "u9s_w6j_8mc_AA",
-          "status": "contextual_provisional",
-          "interpretation_note": "同上疏"
         }
       ],
-      "annotation_status": "named_mentions_first_pass"
+      "annotation_status": "reviewed",
+      "attribution": {
+        "document": "桓溫上疏",
+        "speaker_person_id": "u9s_w6j_8mc_AA",
+        "addressee_person_id": "xke_dj3_6ba_AAB",
+        "source_boundary": "上承「溫即回軍還鎮，上疏曰」。"
+      }
     },
     {
       "id": "c-jinshu-098-huanwen:p008",
@@ -3189,7 +4113,7 @@
           "interpretation_note": "依完整單元、引語範圍及平行來源作AI暫定辨識，未圖校。"
         }
       ],
-      "annotation_status": "named_mentions_first_pass"
+      "annotation_status": "reviewed"
     },
     {
       "id": "c-jinshu-098-huanwen:p009",
@@ -3408,7 +4332,7 @@
           "kind": "person",
           "person_id": "7f3_xn9_i9t",
           "status": "contextual_provisional",
-          "interpretation_note": "同段訪之乃琨伎女"
+          "interpretation_note": "本傳以「一巧作老婢」首次引入未具名者，其後說明為劉琨伎女。老婢是身份描述。"
         },
         {
           "id": "c-jinshu-098-huanwen:p009:m0050",
@@ -3419,16 +4343,6 @@
           "person_id": "b21_e55_8bd",
           "status": "contextual_provisional",
           "interpretation_note": "依完整單元、引語範圍及平行來源作AI暫定辨識，未圖校。"
-        },
-        {
-          "id": "c-jinshu-098-huanwen:p009:m0051",
-          "start": 51,
-          "end": 53,
-          "surface": "伎女",
-          "kind": "person",
-          "person_id": "7f3_xn9_i9t",
-          "status": "contextual_provisional",
-          "interpretation_note": "同段老婢"
         },
         {
           "id": "c-jinshu-098-huanwen:p009:m0057",
@@ -3445,16 +4359,6 @@
           "start": 65,
           "end": 66,
           "surface": "溫",
-          "kind": "person",
-          "person_id": "u9s_w6j_8mc_AA",
-          "status": "contextual_provisional",
-          "interpretation_note": "依完整單元、引語範圍及平行來源作AI暫定辨識，未圖校。"
-        },
-        {
-          "id": "c-jinshu-098-huanwen:p009:m0074",
-          "start": 74,
-          "end": 75,
-          "surface": "公",
           "kind": "person",
           "person_id": "u9s_w6j_8mc_AA",
           "status": "contextual_provisional",
@@ -3481,26 +4385,6 @@
           "interpretation_note": "依完整單元、引語範圍及平行來源作AI暫定辨識，未圖校。"
         },
         {
-          "id": "c-jinshu-098-huanwen:p009:m0095",
-          "start": 95,
-          "end": 96,
-          "surface": "婢",
-          "kind": "person",
-          "person_id": "7f3_xn9_i9t",
-          "status": "contextual_provisional",
-          "interpretation_note": "同人"
-        },
-        {
-          "id": "c-jinshu-098-huanwen:p009:m0098",
-          "start": 98,
-          "end": 99,
-          "surface": "婢",
-          "kind": "person",
-          "person_id": "7f3_xn9_i9t",
-          "status": "contextual_provisional",
-          "interpretation_note": "同人"
-        },
-        {
           "id": "c-jinshu-098-huanwen:p009:m0138",
           "start": 138,
           "end": 139,
@@ -3511,7 +4395,7 @@
           "interpretation_note": "依完整單元、引語範圍及平行來源作AI暫定辨識，未圖校。"
         }
       ],
-      "annotation_status": "named_mentions_first_pass"
+      "annotation_status": "reviewed"
     },
     {
       "id": "c-jinshu-098-huanwen:p010",
@@ -3679,7 +4563,7 @@
           "interpretation_note": "依完整單元、引語範圍及平行來源作AI暫定辨識，未圖校。"
         }
       ],
-      "annotation_status": "named_mentions_first_pass"
+      "annotation_status": "reviewed"
     },
     {
       "id": "c-jinshu-098-huanwen:p011",
@@ -4371,7 +5255,7 @@
           "interpretation_note": "依完整單元、引語範圍及平行來源作AI暫定辨識，未圖校。"
         }
       ],
-      "annotation_status": "named_mentions_first_pass"
+      "annotation_status": "reviewed"
     },
     {
       "id": "c-jinshu-098-huanwen:p012",
@@ -4487,7 +5371,7 @@
           "interpretation_note": "依完整單元、引語範圍及平行來源作AI暫定辨識，未圖校。"
         }
       ],
-      "annotation_status": "named_mentions_first_pass"
+      "annotation_status": "reviewed"
     },
     {
       "id": "c-jinshu-098-huanwen:p013",
@@ -4862,16 +5746,6 @@
       },
       "mentions": [
         {
-          "id": "c-jinshu-098-huanwen:p013:m0074",
-          "start": 74,
-          "end": 76,
-          "surface": "陛下",
-          "kind": "person",
-          "person_id": "emb_vx4_gm9",
-          "status": "contextual_provisional",
-          "interpretation_note": "依完整單元、引語範圍及平行來源作AI暫定辨識，未圖校。"
-        },
-        {
           "id": "c-jinshu-098-huanwen:p013:m0085",
           "start": 85,
           "end": 87,
@@ -4882,7 +5756,14 @@
           "interpretation_note": "依完整單元、引語範圍及平行來源作AI暫定辨識，未圖校。"
         }
       ],
-      "annotation_status": "named_mentions_first_pass"
+      "annotation_status": "reviewed",
+      "attribution": {
+        "document": "桓溫請還都洛陽疏",
+        "speaker_person_id": "u9s_w6j_8mc_AA",
+        "addressee_as_received": "陛下",
+        "reigning_emperor_person_id": "emb_vx4_gm9",
+        "precise_scribe": null
+      }
     },
     {
       "id": "c-jinshu-098-huanwen:p014",
@@ -5207,29 +6088,15 @@
           11373
         ]
       },
-      "mentions": [
-        {
-          "id": "c-jinshu-098-huanwen:p014:m0159",
-          "start": 159,
-          "end": 160,
-          "surface": "臣",
-          "kind": "person",
-          "person_id": "u9s_w6j_8mc_AA",
-          "status": "contextual_provisional",
-          "interpretation_note": "p012上疏跨段至p015"
-        },
-        {
-          "id": "c-jinshu-098-huanwen:p014:m0278",
-          "start": 278,
-          "end": 280,
-          "surface": "陛下",
-          "kind": "person",
-          "person_id": "emb_vx4_gm9",
-          "status": "contextual_provisional",
-          "interpretation_note": "依完整單元、引語範圍及平行來源作AI暫定辨識，未圖校。"
-        }
-      ],
-      "annotation_status": "named_mentions_first_pass"
+      "mentions": [],
+      "annotation_status": "reviewed",
+      "attribution": {
+        "document": "桓溫請還都洛陽疏",
+        "speaker_person_id": "u9s_w6j_8mc_AA",
+        "addressee_as_received": "陛下",
+        "reigning_emperor_person_id": "emb_vx4_gm9",
+        "precise_scribe": null
+      }
     },
     {
       "id": "c-jinshu-098-huanwen:p015",
@@ -5347,46 +6214,6 @@
       },
       "mentions": [
         {
-          "id": "c-jinshu-098-huanwen:p015:m0023",
-          "start": 23,
-          "end": 25,
-          "surface": "陛下",
-          "kind": "person",
-          "person_id": "emb_vx4_gm9",
-          "status": "contextual_provisional",
-          "interpretation_note": "依完整單元、引語範圍及平行來源作AI暫定辨識，未圖校。"
-        },
-        {
-          "id": "c-jinshu-098-huanwen:p015:m0038",
-          "start": 38,
-          "end": 39,
-          "surface": "臣",
-          "kind": "person",
-          "person_id": "u9s_w6j_8mc_AA",
-          "status": "contextual_provisional",
-          "interpretation_note": "同疏"
-        },
-        {
-          "id": "c-jinshu-098-huanwen:p015:m0046",
-          "start": 46,
-          "end": 47,
-          "surface": "臣",
-          "kind": "person",
-          "person_id": "u9s_w6j_8mc_AA",
-          "status": "contextual_provisional",
-          "interpretation_note": "同疏"
-        },
-        {
-          "id": "c-jinshu-098-huanwen:p015:m0064",
-          "start": 64,
-          "end": 66,
-          "surface": "陛下",
-          "kind": "person",
-          "person_id": "emb_vx4_gm9",
-          "status": "contextual_provisional",
-          "interpretation_note": "依完整單元、引語範圍及平行來源作AI暫定辨識，未圖校。"
-        },
-        {
           "id": "c-jinshu-098-huanwen:p015:m0074",
           "start": 74,
           "end": 76,
@@ -5395,19 +6222,16 @@
           "person_id": "lt5_gcv_iqh",
           "status": "contextual_provisional",
           "interpretation_note": "依完整單元、引語範圍及平行來源作AI暫定辨識，未圖校。"
-        },
-        {
-          "id": "c-jinshu-098-huanwen:p015:m0088",
-          "start": 88,
-          "end": 89,
-          "surface": "臣",
-          "kind": "person",
-          "person_id": "u9s_w6j_8mc_AA",
-          "status": "contextual_provisional",
-          "interpretation_note": "同疏"
         }
       ],
-      "annotation_status": "named_mentions_first_pass"
+      "annotation_status": "reviewed",
+      "attribution": {
+        "document": "桓溫請還都洛陽疏",
+        "speaker_person_id": "u9s_w6j_8mc_AA",
+        "addressee_as_received": "陛下",
+        "reigning_emperor_person_id": "emb_vx4_gm9",
+        "precise_scribe": null
+      }
     },
     {
       "id": "c-jinshu-098-huanwen:p016",
@@ -5848,7 +6672,7 @@
           "interpretation_note": "依完整單元、引語範圍及平行來源作AI暫定辨識，未圖校。"
         }
       ],
-      "annotation_status": "named_mentions_first_pass"
+      "annotation_status": "reviewed"
     },
     {
       "id": "c-jinshu-098-huanwen:p017",
@@ -6148,39 +6972,15 @@
           12147
         ]
       },
-      "mentions": [
-        {
-          "id": "c-jinshu-098-huanwen:p017:m0056",
-          "start": 56,
-          "end": 57,
-          "surface": "臣",
-          "kind": "person",
-          "person_id": "u9s_w6j_8mc_AA",
-          "status": "contextual_provisional",
-          "interpretation_note": "p016溫上疏承接"
-        },
-        {
-          "id": "c-jinshu-098-huanwen:p017:m0182",
-          "start": 182,
-          "end": 183,
-          "surface": "臣",
-          "kind": "person",
-          "person_id": "u9s_w6j_8mc_AA",
-          "status": "contextual_provisional",
-          "interpretation_note": "同疏"
-        },
-        {
-          "id": "c-jinshu-098-huanwen:p017:m0257",
-          "start": 257,
-          "end": 258,
-          "surface": "臣",
-          "kind": "person",
-          "person_id": "u9s_w6j_8mc_AA",
-          "status": "contextual_provisional",
-          "interpretation_note": "同疏"
-        }
-      ],
-      "annotation_status": "named_mentions_first_pass"
+      "mentions": [],
+      "annotation_status": "reviewed",
+      "attribution": {
+        "document": "桓溫辭入參朝政疏",
+        "speaker_person_id": "u9s_w6j_8mc_AA",
+        "addressee_as_received": "陛下",
+        "reigning_emperor_person_id": "emb_vx4_gm9",
+        "precise_scribe": null
+      }
     },
     {
       "id": "c-jinshu-098-huanwen:p018",
@@ -6267,50 +7067,24 @@
       },
       "mentions": [
         {
-          "id": "c-jinshu-098-huanwen:p018:m0001",
-          "start": 1,
+          "id": "c-jinshu-098-huanwen:p018:m0002",
+          "start": 2,
           "end": 3,
-          "surface": "臣昱",
-          "kind": "unresolved",
-          "person_id": null,
-          "status": "unresolved",
-          "interpretation_note": "保原文今臣昱，不改皇叔；句法資格待核",
-          "candidate_person_ids": [
-            "dkn_ge4_286_AAAAAAAF"
-          ]
-        },
-        {
-          "id": "c-jinshu-098-huanwen:p018:m0018",
-          "start": 18,
-          "end": 19,
-          "surface": "臣",
+          "surface": "昱",
           "kind": "person",
-          "person_id": "u9s_w6j_8mc_AA",
+          "person_id": "dkn_ge4_286_AAAAAAAF",
           "status": "contextual_provisional",
-          "interpretation_note": "今臣昱字樣仍另未決，這一自謙臣屬表作者溫"
-        },
-        {
-          "id": "c-jinshu-098-huanwen:p018:m0050",
-          "start": 50,
-          "end": 52,
-          "surface": "陛下",
-          "kind": "person",
-          "person_id": "emb_vx4_gm9",
-          "status": "contextual_provisional",
-          "interpretation_note": "依完整單元、引語範圍及平行來源作AI暫定辨識，未圖校。"
-        },
-        {
-          "id": "c-jinshu-098-huanwen:p018:m0053",
-          "start": 53,
-          "end": 54,
-          "surface": "臣",
-          "kind": "person",
-          "person_id": "u9s_w6j_8mc_AA",
-          "status": "contextual_provisional",
-          "interpretation_note": "同表"
+          "interpretation_note": "親賢贊國之昱，同卷第十九段所稱輔政簡文帝。"
         }
       ],
-      "annotation_status": "named_mentions_first_pass"
+      "annotation_status": "reviewed",
+      "attribution": {
+        "document": "桓溫辭入參朝政疏",
+        "speaker_person_id": "u9s_w6j_8mc_AA",
+        "addressee_as_received": "陛下",
+        "reigning_emperor_person_id": "emb_vx4_gm9",
+        "precise_scribe": null
+      }
     },
     {
       "id": "c-jinshu-098-huanwen:p019",
@@ -6500,7 +7274,7 @@
           "interpretation_note": "依完整單元、引語範圍及平行來源作AI暫定辨識，未圖校。"
         }
       ],
-      "annotation_status": "named_mentions_first_pass"
+      "annotation_status": "reviewed"
     },
     {
       "id": "c-jinshu-098-huanwen:p020",
@@ -6748,16 +7522,6 @@
           "interpretation_note": "依完整單元、引語範圍及平行來源作AI暫定辨識，未圖校。"
         },
         {
-          "id": "c-jinshu-098-huanwen:p020:m0127",
-          "start": 127,
-          "end": 128,
-          "surface": "尼",
-          "kind": "person",
-          "person_id": "t4r_nea_qof",
-          "status": "contextual_provisional",
-          "interpretation_note": "同段比丘尼"
-        },
-        {
           "id": "c-jinshu-098-huanwen:p020:m0146",
           "start": 146,
           "end": 147,
@@ -6766,39 +7530,9 @@
           "person_id": "u9s_w6j_8mc_AA",
           "status": "contextual_provisional",
           "interpretation_note": "依完整單元、引語範圍及平行來源作AI暫定辨識，未圖校。"
-        },
-        {
-          "id": "c-jinshu-098-huanwen:p020:m0151",
-          "start": 151,
-          "end": 152,
-          "surface": "尼",
-          "kind": "person",
-          "person_id": "t4r_nea_qof",
-          "status": "contextual_provisional",
-          "interpretation_note": "同段比丘尼"
-        },
-        {
-          "id": "c-jinshu-098-huanwen:p020:m0155",
-          "start": 155,
-          "end": 156,
-          "surface": "公",
-          "kind": "person",
-          "person_id": "u9s_w6j_8mc_AA",
-          "status": "contextual_provisional",
-          "interpretation_note": "依完整單元、引語範圍及平行來源作AI暫定辨識，未圖校。"
-        },
-        {
-          "id": "c-jinshu-098-huanwen:p020:m0158",
-          "start": 158,
-          "end": 160,
-          "surface": "天子",
-          "kind": "person",
-          "person_id": "u9s_w6j_8mc_AA",
-          "status": "contextual_provisional",
-          "interpretation_note": "依完整單元、引語範圍及平行來源作AI暫定辨識，未圖校。"
         }
       ],
-      "annotation_status": "named_mentions_first_pass"
+      "annotation_status": "reviewed"
     },
     {
       "id": "c-jinshu-098-huanwen:p021",
@@ -7313,7 +8047,7 @@
           "interpretation_note": "依完整單元、引語範圍及平行來源作AI暫定辨識，未圖校。"
         }
       ],
-      "annotation_status": "named_mentions_first_pass"
+      "annotation_status": "reviewed"
     },
     {
       "id": "c-jinshu-098-huanwen:p022",
@@ -7566,7 +8300,7 @@
           "interpretation_note": "依完整單元、引語範圍及平行來源作AI暫定辨識，未圖校。"
         }
       ],
-      "annotation_status": "named_mentions_first_pass"
+      "annotation_status": "reviewed"
     },
     {
       "id": "c-jinshu-098-huanwen:p023",
@@ -8031,7 +8765,7 @@
           "interpretation_note": "依完整單元、引語範圍及平行來源作AI暫定辨識，未圖校。"
         }
       ],
-      "annotation_status": "named_mentions_first_pass"
+      "annotation_status": "reviewed"
     },
     {
       "id": "c-jinshu-098-huanwen:p024",
@@ -8391,16 +9125,6 @@
           "interpretation_note": "依完整單元、引語範圍及平行來源作AI暫定辨識，未圖校。"
         },
         {
-          "id": "c-jinshu-098-huanwen:p024:m0130",
-          "start": 130,
-          "end": 131,
-          "surface": "卿",
-          "kind": "person",
-          "person_id": "aa6_83c_juy_B",
-          "status": "contextual_provisional",
-          "interpretation_note": "依完整單元、引語範圍及平行來源作AI暫定辨識，未圖校。"
-        },
-        {
           "id": "c-jinshu-098-huanwen:p024:m0137",
           "start": 137,
           "end": 138,
@@ -8441,7 +9165,7 @@
           "interpretation_note": "依完整單元、引語範圍及平行來源作AI暫定辨識，未圖校。"
         }
       ],
-      "annotation_status": "named_mentions_first_pass"
+      "annotation_status": "reviewed"
     },
     {
       "id": "c-jinshu-098-huanwen:p025",
@@ -8743,10 +9467,14 @@
           "start": 127,
           "end": 128,
           "surface": "溫",
-          "kind": "person",
-          "person_id": "u9s_w6j_8mc_AA",
+          "kind": "non_person",
+          "person_id": null,
           "status": "contextual_provisional",
-          "interpretation_note": "依完整單元、引語範圍及平行來源作AI暫定辨識，未圖校。"
+          "interpretation_note": "此處釋河內郡屬縣名溫，以縣名切桓溫之名。前句溫字元子另有姓名錨，本字不另算人名。",
+          "lexical_role": "geographic_name_in_rebus",
+          "basis_quote": "故河內大縣，溫也",
+          "reviewer": "Codex（AI 代理）",
+          "human_reviewed": false
         },
         {
           "id": "c-jinshu-098-huanwen:p025:m0130",
@@ -8809,7 +9537,7 @@
           "interpretation_note": "依完整單元、引語範圍及平行來源作AI暫定辨識，未圖校。"
         }
       ],
-      "annotation_status": "named_mentions_first_pass"
+      "annotation_status": "reviewed"
     },
     {
       "id": "c-jinshu-098-huanwen:p026",
@@ -9087,30 +9815,10 @@
           "interpretation_note": "依完整單元、引語範圍及平行來源作AI暫定辨識，未圖校。"
         },
         {
-          "id": "c-jinshu-098-huanwen:p026:m0120",
-          "start": 120,
-          "end": 121,
-          "surface": "公",
-          "kind": "person",
-          "person_id": "u9s_w6j_8mc_AA",
-          "status": "contextual_provisional",
-          "interpretation_note": "依完整單元、引語範圍及平行來源作AI暫定辨識，未圖校。"
-        },
-        {
           "id": "c-jinshu-098-huanwen:p026:m0125",
           "start": 125,
           "end": 128,
           "surface": "大司馬",
-          "kind": "person",
-          "person_id": "u9s_w6j_8mc_AA",
-          "status": "contextual_provisional",
-          "interpretation_note": "依完整單元、引語範圍及平行來源作AI暫定辨識，未圖校。"
-        },
-        {
-          "id": "c-jinshu-098-huanwen:p026:m0135",
-          "start": 135,
-          "end": 136,
-          "surface": "公",
           "kind": "person",
           "person_id": "u9s_w6j_8mc_AA",
           "status": "contextual_provisional",
@@ -9187,7 +9895,7 @@
           "interpretation_note": "依完整單元、引語範圍及平行來源作AI暫定辨識，未圖校。"
         }
       ],
-      "annotation_status": "named_mentions_first_pass"
+      "annotation_status": "reviewed"
     },
     {
       "id": "c-jinshu-098-huanwen:p027",
@@ -9554,26 +10262,6 @@
           "interpretation_note": "依完整單元、引語範圍及平行來源作AI暫定辨識，未圖校。"
         },
         {
-          "id": "c-jinshu-098-huanwen:p027:m0010",
-          "start": 10,
-          "end": 11,
-          "surface": "吾",
-          "kind": "person",
-          "person_id": "dkn_ge4_286_AAAAAAAF",
-          "status": "contextual_provisional",
-          "interpretation_note": "帝詔溫"
-        },
-        {
-          "id": "c-jinshu-098-huanwen:p027:m0015",
-          "start": 15,
-          "end": 17,
-          "surface": "足下",
-          "kind": "person",
-          "person_id": "u9s_w6j_8mc_AA",
-          "status": "contextual_provisional",
-          "interpretation_note": "依完整單元、引語範圍及平行來源作AI暫定辨識，未圖校。"
-        },
-        {
           "id": "c-jinshu-098-huanwen:p027:m0043",
           "start": 43,
           "end": 44,
@@ -9624,16 +10312,6 @@
           "interpretation_note": "依完整單元、引語範圍及平行來源作AI暫定辨識，未圖校。"
         },
         {
-          "id": "c-jinshu-098-huanwen:p027:m0116",
-          "start": 116,
-          "end": 118,
-          "surface": "皇子",
-          "kind": "person",
-          "person_id": "uke_dff_yrf",
-          "status": "contextual_provisional",
-          "interpretation_note": "依完整單元、引語範圍及平行來源作AI暫定辨識，未圖校。"
-        },
-        {
           "id": "c-jinshu-098-huanwen:p027:m0127",
           "start": 127,
           "end": 129,
@@ -9654,16 +10332,6 @@
           "interpretation_note": "依完整單元、引語範圍及平行來源作AI暫定辨識，未圖校。"
         },
         {
-          "id": "c-jinshu-098-huanwen:p027:m0165",
-          "start": 165,
-          "end": 167,
-          "surface": "陛下",
-          "kind": "person",
-          "person_id": "dkn_ge4_286_AAAAAAAF",
-          "status": "contextual_provisional",
-          "interpretation_note": "依完整單元、引語範圍及平行來源作AI暫定辨識，未圖校。"
-        },
-        {
           "id": "c-jinshu-098-huanwen:p027:m0180",
           "start": 180,
           "end": 181,
@@ -9674,32 +10342,12 @@
           "interpretation_note": "依完整單元、引語範圍及平行來源作AI暫定辨識，未圖校。"
         },
         {
-          "id": "c-jinshu-098-huanwen:p027:m0194",
-          "start": 194,
-          "end": 195,
-          "surface": "臣",
-          "kind": "person",
-          "person_id": "u9s_w6j_8mc_AA",
-          "status": "contextual_provisional",
-          "interpretation_note": "溫表"
-        },
-        {
           "id": "c-jinshu-098-huanwen:p027:m0195",
           "start": 195,
           "end": 196,
           "surface": "溫",
           "kind": "person",
           "person_id": "u9s_w6j_8mc_AA",
-          "status": "contextual_provisional",
-          "interpretation_note": "依完整單元、引語範圍及平行來源作AI暫定辨識，未圖校。"
-        },
-        {
-          "id": "c-jinshu-098-huanwen:p027:m0202",
-          "start": 202,
-          "end": 204,
-          "surface": "陛下",
-          "kind": "person",
-          "person_id": "dkn_ge4_286_AAAAAAAF",
           "status": "contextual_provisional",
           "interpretation_note": "依完整單元、引語範圍及平行來源作AI暫定辨識，未圖校。"
         },
@@ -9774,16 +10422,6 @@
           "interpretation_note": "依完整單元、引語範圍及平行來源作AI暫定辨識，未圖校。"
         },
         {
-          "id": "c-jinshu-098-huanwen:p027:m0305",
-          "start": 305,
-          "end": 306,
-          "surface": "吾",
-          "kind": "person",
-          "person_id": "u9s_w6j_8mc_AA",
-          "status": "contextual_provisional",
-          "interpretation_note": "溫與弟沖書"
-        },
-        {
           "id": "c-jinshu-098-huanwen:p027:m0307",
           "start": 307,
           "end": 309,
@@ -9824,7 +10462,7 @@
           "interpretation_note": "依完整單元、引語範圍及平行來源作AI暫定辨識，未圖校。"
         }
       ],
-      "annotation_status": "named_mentions_first_pass"
+      "annotation_status": "reviewed"
     },
     {
       "id": "c-jinshu-098-huanwen:p028",
@@ -10427,16 +11065,6 @@
           "interpretation_note": "依完整單元、引語範圍及平行來源作AI暫定辨識，未圖校。"
         },
         {
-          "id": "c-jinshu-098-huanwen:p028:m0023",
-          "start": 23,
-          "end": 24,
-          "surface": "吾",
-          "kind": "person",
-          "person_id": "dkn_ge4_286_AAAAAAAF",
-          "status": "contextual_provisional",
-          "interpretation_note": "孝武詔內引先帝遺敕，嵌套發話者"
-        },
-        {
           "id": "c-jinshu-098-huanwen:p028:m0039",
           "start": 39,
           "end": 42,
@@ -10495,16 +11123,6 @@
           "person_id": "u9s_w6j_8mc_AA",
           "status": "contextual_provisional",
           "interpretation_note": "依完整單元、引語範圍及平行來源作AI暫定辨識，未圖校。"
-        },
-        {
-          "id": "c-jinshu-098-huanwen:p028:m0115",
-          "start": 115,
-          "end": 116,
-          "surface": "朕",
-          "kind": "person",
-          "person_id": "uke_dff_yrf",
-          "status": "contextual_provisional",
-          "interpretation_note": "現任孝武詔"
         },
         {
           "id": "c-jinshu-098-huanwen:p028:m0132",
@@ -10585,16 +11203,6 @@
           "person_id": "dkn_ge4_286_AAAAAAAF",
           "status": "contextual_provisional",
           "interpretation_note": "依完整單元、引語範圍及平行來源作AI暫定辨識，未圖校。"
-        },
-        {
-          "id": "c-jinshu-098-huanwen:p028:m0254",
-          "start": 254,
-          "end": 255,
-          "surface": "臣",
-          "kind": "person",
-          "person_id": "u9s_w6j_8mc_AA",
-          "status": "contextual_provisional",
-          "interpretation_note": "溫高平陵所言"
         },
         {
           "id": "c-jinshu-098-huanwen:p028:m0265",
@@ -10721,13 +11329,10 @@
           "start": 407,
           "end": 410,
           "surface": "皇太后",
-          "kind": "unresolved",
-          "person_id": null,
-          "status": "unresolved",
-          "interpretation_note": "373年稱謂須另原書時序核對，不按皇帝生母合併",
-          "candidate_person_ids": [
-            "xke_dj3_6ba_AAB"
-          ]
+          "kind": "person",
+          "person_id": "xke_dj3_6ba_AAB",
+          "status": "contextual_provisional",
+          "interpretation_note": "卷三十二褚皇后傳明言簡文即位尊崇德太后、孝武幼沖而桓溫又薨；卷九本紀繼記崇德太后臨朝。"
         },
         {
           "id": "c-jinshu-098-huanwen:p028:m0411",
@@ -10760,7 +11365,7 @@
           "interpretation_note": "依完整單元、引語範圍及平行來源作AI暫定辨識，未圖校。"
         }
       ],
-      "annotation_status": "named_mentions_first_pass"
+      "annotation_status": "reviewed"
     },
     {
       "id": "c-jinshu-098-huanwen:p029",
@@ -10880,27 +11485,6 @@
           "interpretation_note": "依完整單元、引語範圍及平行來源作AI暫定辨識，未圖校。"
         },
         {
-          "id": "c-jinshu-098-huanwen:p029:m0019",
-          "start": 19,
-          "end": 21,
-          "surface": "伊等",
-          "kind": "unresolved",
-          "person_id": null,
-          "status": "unresolved",
-          "interpretation_note": "謝安與王坦之複數，不誤作桓伊",
-          "candidate_person_ids": []
-        },
-        {
-          "id": "c-jinshu-098-huanwen:p029:m0023",
-          "start": 23,
-          "end": 24,
-          "surface": "汝",
-          "kind": "person",
-          "person_id": "u9s_w6j_8mc_AE",
-          "status": "contextual_provisional",
-          "interpretation_note": "依完整單元、引語範圍及平行來源作AI暫定辨識，未圖校。"
-        },
-        {
           "id": "c-jinshu-098-huanwen:p029:m0029",
           "start": 29,
           "end": 30,
@@ -10921,7 +11505,7 @@
           "interpretation_note": "依完整單元、引語範圍及平行來源作AI暫定辨識，未圖校。"
         }
       ],
-      "annotation_status": "named_mentions_first_pass"
+      "annotation_status": "reviewed"
     },
     {
       "id": "c-jinshu-098-huanwen:p030",

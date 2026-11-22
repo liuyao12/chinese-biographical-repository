@@ -183,6 +183,14 @@ def _direction(p, subjects, objects, term):
 
 
 def paternal_uncle_direction_valid(assertion, paragraphs):
+    if assertion.get('qualifiers', {}).get('source_clause_binding', {}).get('kind') == 'huanwen_shiqian_fangtou':
+        try: from scripts.jin098_shiqian_uncle import valid
+        except ImportError: from jin098_shiqian_uncle import valid
+        return valid(assertion, paragraphs)
+    if assertion.get('qualifiers', {}).get('source_clause_binding', {}).get('kind') == 'jin098_shi_sends_fu':
+        try: from scripts.jin098_shu_relatives import sent_uncle_valid
+        except ImportError: from jin098_shu_relatives import sent_uncle_valid
+        return sent_uncle_valid(assertion, paragraphs)
     if assertion.get('qualifiers', {}).get('source_kin_term_type') == 'resumed_subject_named_shifu':
         try: from scripts.received_paternal_reports import elder_uncle_valid
         except ImportError: from received_paternal_reports import elder_uncle_valid

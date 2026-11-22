@@ -22,6 +22,38 @@ def unassumed_role(proposal, paragraph):
 
 
 def unassumed_appointment_valid(proposal, chapter):
+    if chapter.get('id') == 'c-epitaph-wangjianzhi-full':
+        try: from scripts.xiangshan_m9_epitaphs import proposal_valid as xm9_proposal_valid
+        except ImportError: from xiangshan_m9_epitaphs import proposal_valid as xm9_proposal_valid
+        return xm9_proposal_valid(proposal, chapter)
+    if chapter.get('id') in ['c-songshu-093-wanghongzhi-wyd', 'c-songshu-093-ruanwanling-wyd']:
+        try: from scripts.song093_wyd import proposal_valid as s93wyd_proposal
+        except ImportError: from song093_wyd import proposal_valid as s93wyd_proposal
+        return s93wyd_proposal(proposal,chapter)
+    if proposal.get('id','').startswith('tp-nanshi024-wanghongzhi-'):
+        try: from scripts.nanshi024_wanghongzhi import proposal_valid as n24hong_proposal
+        except ImportError: from nanshi024_wanghongzhi import proposal_valid as n24hong_proposal
+        return n24hong_proposal(proposal,chapter)
+    if chapter.get('id') == 'c-songshu-093-ruanwanling':
+        try: from scripts.nanshi024_ruanwanling import proposal_valid as nan24rw_proposal_valid
+        except ImportError: from nanshi024_ruanwanling import proposal_valid as nan24rw_proposal_valid
+        return nan24rw_proposal_valid(proposal, chapter)
+    if chapter.get('id') == 'c-songshu-093-wangsu':
+        try: from scripts.nanshi024_wangsu import proposal_valid as nan24su_proposal_valid
+        except ImportError: from nanshi024_wangsu import proposal_valid as nan24su_proposal_valid
+        return nan24su_proposal_valid(proposal, chapter)
+    if chapter.get('id') == 'c-nanqishu-052-wangqunzhi':
+        try: from scripts.nanshi024_wangqunzhi import proposal_valid as nan24qun_proposal_valid
+        except ImportError: from nanshi024_wangqunzhi import proposal_valid as nan24qun_proposal_valid
+        return nan24qun_proposal_valid(proposal, chapter)
+    if proposal.get('source_refusal_form') == 'jin098_huan_chengxiang':
+        try: from scripts.jin098_huan_final import refused
+        except ImportError: from jin098_huan_final import refused
+        return refused(proposal, chapter)
+    if proposal.get('source_refusal_form') == 'jin098_huan_taiwei':
+        try: from scripts.jin098_huan_taiwei import valid as huan_taiwei_valid
+        except ImportError: from jin098_huan_taiwei import valid as huan_taiwei_valid
+        return huan_taiwei_valid(proposal, chapter)
     if chapter.get('id') == 'c-nanshi-059-wangsengru':
         try: from scripts.nanshi059_wangsengru import proposal_valid as nan59sr_proposal_valid
         except ImportError: from nanshi059_wangsengru import proposal_valid as nan59sr_proposal_valid

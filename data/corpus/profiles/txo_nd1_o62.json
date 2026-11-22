@@ -8,7 +8,56 @@
   "names": [
     "羅含"
   ],
-  "titles": [],
+  "titles": [
+    {
+      "id": "th-w098-fangtou-luo",
+      "person_id": "txo_nd1_o62",
+      "title": "侍中",
+      "kind": "office",
+      "mode": "attestation",
+      "evidence": [
+        {
+          "work_id": "w-jinshu",
+          "book_id": "b-jinshu-098",
+          "chapter_id": "c-jinshu-098-huanwen",
+          "source_id": "s-jinshu-098-ws2614273",
+          "paragraph_id": "c-jinshu-098-huanwen:p022",
+          "quote": "帝遣侍中羅含以牛酒犒溫于山陽，使會稽王昱會溫於途中，詔以溫世子給事熙為征虜將軍、豫州刺史、假節。及南康公主薨，詔賻布千匹，錢百萬，溫辭不受。又陳息熙三年之孤，且年少未宜使居偏任，詔不許。發州人築廣陵城，移鎮之。時溫行役既久，又兼疾癘，死者十四五，百姓嗟怨。",
+          "person_mention_id": "c-jinshu-098-huanwen:p022:m0004"
+        }
+      ],
+      "attestations": [
+        {
+          "id": "th-w043-fangtou-luo:a",
+          "paragraph_id": "c-jinshu-098-huanwen:p022",
+          "start": 2,
+          "end": 4,
+          "surface": "侍中",
+          "person_mention_id": "c-jinshu-098-huanwen:p022:m0004",
+          "usage": "narrative",
+          "date_expression": null
+        }
+      ],
+      "effective_period": {
+        "start": {
+          "status": "unknown",
+          "date_expression": null,
+          "evidence": []
+        },
+        "end": {
+          "status": "unknown",
+          "date_expression": null,
+          "evidence": []
+        }
+      },
+      "interpretation_note": "本來源官稱或所任，未受另記。",
+      "status": "source_attested",
+      "reviewer": "Codex（AI 代理）",
+      "human_reviewed": false,
+      "model": null,
+      "period": "未定 → 未定"
+    }
+  ],
   "addresses": [],
   "occurrences": [
     {
@@ -79,7 +128,15 @@
         "review_status": "text_checked",
         "license_url": "https://creativecommons.org/licenses/by-sa/4.0/",
         "collation_witnesses": [
-          "source-evidence/jin098-huan-four-children/reading.json"
+          "source-evidence/jin098-huan-four-children/reading.json",
+          "source-evidence/jin098-huanwen-opening/reading.json",
+          "source-evidence/jin098-huanwen-shu/reading.json",
+          "source-evidence/jin098-huanwen-wuchang/reading.json",
+          "source-evidence/jin098-huanwen-guanzhong/reading.json",
+          "source-evidence/jin098-huanwen-luoyang/reading.json",
+          "source-evidence/jin098-huanwen-return/reading.json",
+          "source-evidence/jin098-huanwen-fangtou/reading.json",
+          "source-evidence/jin098-huanwen-succession/reading.json"
         ]
       }
     }

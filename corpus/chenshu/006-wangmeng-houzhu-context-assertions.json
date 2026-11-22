@@ -1,0 +1,48 @@
+{
+  "format_version": "0.2",
+  "record_type": "person_assertion_set",
+  "chapter_id": "c-chenshu-006-wangmeng-houzhu-context",
+  "assertions": [
+    {
+      "id": "a-nanshi024-wangmeng-shubao",
+      "subject_person_id": "icd_mkz_d9n_A",
+      "object_person_id": "icd_mkz_d9n",
+      "predicate": "father",
+      "qualifiers": {
+        "source_term": "高宗嫡長子",
+        "nanshi024_wangmeng_reading": "shubao",
+        "lineage": "paternal",
+        "birth_order": {
+          "parent_person_id": "icd_mkz_d9n",
+          "scope": "sons_of_parent",
+          "ordinal": 1,
+          "position": "eldest",
+          "interpretation_status": "source_attested"
+        }
+      },
+      "evidence": [
+        {
+          "work_id": "w-chenshu",
+          "book_id": "b-chenshu-006",
+          "source_id": "s-chenshu-006-wangmeng-houzhu-context-ws2312453",
+          "chapter_id": "c-chenshu-006-wangmeng-houzhu-context",
+          "paragraph_id": "c-chenshu-006-wangmeng-houzhu-context:p001",
+          "quote": "後主諱叔寶，字元秀，小字黃奴，高宗嫡長子也。",
+          "subject_person_mention_id": "c-chenshu-006-wangmeng-houzhu-context:p001:m0003",
+          "object_person_reference_id": "c-chenshu-006-wangmeng-houzhu-context:p001:r0015",
+          "relationship_anchor": {
+            "paragraph_id": "c-chenshu-006-wangmeng-houzhu-context:p001",
+            "surface": "高宗嫡長子",
+            "start": 15,
+            "end": 20
+          }
+        }
+      ],
+      "status": "source_attested",
+      "interpretation_note": "高宗嫡長子。",
+      "reviewer": "Codex（AI 代理）",
+      "human_reviewed": false,
+      "model": null
+    }
+  ]
+}

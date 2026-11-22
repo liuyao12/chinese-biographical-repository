@@ -254,6 +254,54 @@
       "period": "未定 → 未定"
     },
     {
+      "id": "th-w098-succ-daozi",
+      "person_id": "dkn_ge4_286_AAAAAAAFA",
+      "title": "會稽王",
+      "kind": "royal_rank",
+      "mode": "attestation",
+      "evidence": [
+        {
+          "work_id": "w-jinshu",
+          "book_id": "b-jinshu-098",
+          "chapter_id": "c-jinshu-098-huanwen",
+          "source_id": "s-jinshu-098-ws2614273",
+          "paragraph_id": "c-jinshu-098-huanwen:p025",
+          "quote": "初，元明世，郭璞為讖曰：「君非無嗣，兄弟代禪。」謂成帝有子，而以國祚傳弟。又曰：「有人姓李，兒專征戰。譬如車軸，脫在一面。」兒者，子也；李去子木存，車去軸為亙，合成「桓」字也。又曰：「爾來，爾來，河內大縣。」爾來謂自爾已來為元始，溫字元子也；故河內大縣，溫也。成康既崩，桓氏始大，故連言之。又曰：「賴子之薨，延我國祚。痛子之隕，皇運其暮。」二子者，元子、道子也。溫志在篡奪，事未成而死，幸之也。會稽王道子雖首亂晉國，而其死亦晉衰之由也，故云痛也。",
+          "person_mention_id": "c-jinshu-098-huanwen:p025:m0177"
+        }
+      ],
+      "attestations": [
+        {
+          "id": "th-w043-succ-daozi:a",
+          "paragraph_id": "c-jinshu-098-huanwen:p025",
+          "start": 197,
+          "end": 200,
+          "surface": "會稽王",
+          "person_mention_id": "c-jinshu-098-huanwen:p025:m0177",
+          "usage": "narrative",
+          "date_expression": null
+        }
+      ],
+      "effective_period": {
+        "start": {
+          "status": "unknown",
+          "date_expression": null,
+          "evidence": []
+        },
+        "end": {
+          "status": "unknown",
+          "date_expression": null,
+          "evidence": []
+        }
+      },
+      "interpretation_note": "本來源官稱或所任，未受另記。",
+      "status": "source_attested",
+      "reviewer": "Codex（AI 代理）",
+      "human_reviewed": false,
+      "model": null,
+      "period": "未定 → 未定"
+    },
+    {
       "id": "th-nanshi021-wanghong-17-14",
       "person_id": "dkn_ge4_286_AAAAAAAFA",
       "title": "會稽王",
@@ -448,6 +496,41 @@
   ],
   "addresses": [],
   "occurrences": [
+    {
+      "number": 9,
+      "category": "",
+      "title": "簡文遺詔、昌明繼位及寧康七月桓溫薨時列銜",
+      "paragraph_id": "c-jinshu-009-jin098-huanwen-succession:emperor",
+      "count": 1,
+      "raw_count": 1,
+      "duplicate_count": 0,
+      "counting_policy": "independent_fixed_witness_occurrences",
+      "quote": "立會稽王昌明爲皇太子，皇子道子爲琅邪王，領會稽內史。是日，帝崩于東堂，時年五十三。葬高平陵，廟號太宗。",
+      "paragraph_ids": [
+        "c-jinshu-009-jin098-huanwen-succession:emperor"
+      ],
+      "mention_ids": [
+        "c-jinshu-009-jin098-huanwen-succession:emperor:m0013"
+      ],
+      "mention_paragraph_ids": {
+        "c-jinshu-009-jin098-huanwen-succession:emperor:m0013": "c-jinshu-009-jin098-huanwen-succession:emperor"
+      },
+      "mention_id": "c-jinshu-009-jin098-huanwen-succession:emperor:m0013",
+      "occurrence_groups": [
+        {
+          "canonical_mention_id": "c-jinshu-009-jin098-huanwen-succession:emperor:m0013",
+          "mention_ids": [
+            "c-jinshu-009-jin098-huanwen-succession:emperor:m0013"
+          ],
+          "kind": "paragraph"
+        }
+      ],
+      "work_id": "w-jinshu",
+      "book_id": "b-jinshu-009",
+      "chapter_id": "c-jinshu-009-jin098-huanwen-succession",
+      "source_id": "s-jinshu-009-jin098-huanwen-succession",
+      "work_title": "晉書"
+    },
     {
       "number": 19,
       "category": "",
@@ -1322,6 +1405,36 @@
   ],
   "table_occurrences": [],
   "sources": [
+    {
+      "chapter_id": "c-jinshu-009-jin098-huanwen-succession",
+      "work_id": "w-jinshu",
+      "book_id": "b-jinshu-009",
+      "source_id": "s-jinshu-009-jin098-huanwen-succession",
+      "source": {
+        "provider": "Wikisource",
+        "revision_id": 13021561,
+        "permalink": "https://zh.wikisource.org/w/index.php?oldid=13021561",
+        "edition": "固定修訂相關原文，逐字核收。",
+        "image_verified": false,
+        "qualification": "固定數位傳世文字見證；未親核底本或影像，校勘ref另層。",
+        "selected_raw_start": 8177,
+        "selected_raw_end": 14871,
+        "extent": "下列來源節錄。",
+        "rights": "古代正文公版；維基文庫數位整理保留來源歸屬及CC BY-SA資格。",
+        "title": "晉書簡文孝武二帝紀",
+        "url": "https://zh.wikisource.org/w/index.php?oldid=13021561",
+        "raw_file_sha256": "ca71f266e7b6e662ea8035a7b2c471e6086c60227f5fa4ca815ede449c07adb4",
+        "raw_path": "source-evidence/jin079-yi-shi-miao/external/jin009-ws13021561.wikitext",
+        "accessed_on": "2026-10-20",
+        "text_scope": "partial_chapter",
+        "review_status": "text_checked",
+        "license_url": "https://creativecommons.org/licenses/by-sa/4.0/",
+        "collation_witnesses": [
+          "source-evidence/jin098-huan-four-children/reading.json"
+        ],
+        "wikitext_sha256": "ca71f266e7b6e662ea8035a7b2c471e6086c60227f5fa4ca815ede449c07adb4"
+      }
+    },
     {
       "chapter_id": "c-jinshu-032-zheng-achun-family",
       "work_id": "w-jinshu",
@@ -4083,7 +4196,15 @@
         "review_status": "text_checked",
         "license_url": "https://creativecommons.org/licenses/by-sa/4.0/",
         "collation_witnesses": [
-          "source-evidence/jin098-huan-four-children/reading.json"
+          "source-evidence/jin098-huan-four-children/reading.json",
+          "source-evidence/jin098-huanwen-opening/reading.json",
+          "source-evidence/jin098-huanwen-shu/reading.json",
+          "source-evidence/jin098-huanwen-wuchang/reading.json",
+          "source-evidence/jin098-huanwen-guanzhong/reading.json",
+          "source-evidence/jin098-huanwen-luoyang/reading.json",
+          "source-evidence/jin098-huanwen-return/reading.json",
+          "source-evidence/jin098-huanwen-fangtou/reading.json",
+          "source-evidence/jin098-huanwen-succession/reading.json"
         ]
       }
     },

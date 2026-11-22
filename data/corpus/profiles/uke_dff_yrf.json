@@ -15,10 +15,11 @@
     "陛下",
     "孝武",
     "司馬昌明",
-    "皇子",
-    "朕",
     "先帝",
-    "晉孝武"
+    "晉孝武",
+    "昌明",
+    "孝武皇帝",
+    "曜"
   ],
   "titles": [
     {
@@ -167,6 +168,69 @@
       "work_title": "世說新語"
     },
     {
+      "number": 9,
+      "category": "",
+      "title": "簡文遺詔、昌明繼位及寧康七月桓溫薨時列銜",
+      "paragraph_id": "c-jinshu-009-jin098-huanwen-succession:emperor",
+      "count": 4,
+      "raw_count": 4,
+      "duplicate_count": 0,
+      "counting_policy": "independent_fixed_witness_occurrences",
+      "quote": "立會稽王昌明爲皇太子，皇子道子爲琅邪王，領會稽內史。是日，帝崩于東堂，時年五十三。葬高平陵，廟號太宗。",
+      "paragraph_ids": [
+        "c-jinshu-009-jin098-huanwen-succession:emperor",
+        "c-jinshu-009-jin098-huanwen-succession:son"
+      ],
+      "mention_ids": [
+        "c-jinshu-009-jin098-huanwen-succession:emperor:m0004",
+        "c-jinshu-009-jin098-huanwen-succession:son:m0000",
+        "c-jinshu-009-jin098-huanwen-succession:son:m0005",
+        "c-jinshu-009-jin098-huanwen-succession:son:m0008"
+      ],
+      "mention_paragraph_ids": {
+        "c-jinshu-009-jin098-huanwen-succession:emperor:m0004": "c-jinshu-009-jin098-huanwen-succession:emperor",
+        "c-jinshu-009-jin098-huanwen-succession:son:m0000": "c-jinshu-009-jin098-huanwen-succession:son",
+        "c-jinshu-009-jin098-huanwen-succession:son:m0005": "c-jinshu-009-jin098-huanwen-succession:son",
+        "c-jinshu-009-jin098-huanwen-succession:son:m0008": "c-jinshu-009-jin098-huanwen-succession:son"
+      },
+      "mention_id": "c-jinshu-009-jin098-huanwen-succession:emperor:m0004",
+      "occurrence_groups": [
+        {
+          "canonical_mention_id": "c-jinshu-009-jin098-huanwen-succession:emperor:m0004",
+          "mention_ids": [
+            "c-jinshu-009-jin098-huanwen-succession:emperor:m0004"
+          ],
+          "kind": "paragraph"
+        },
+        {
+          "canonical_mention_id": "c-jinshu-009-jin098-huanwen-succession:son:m0000",
+          "mention_ids": [
+            "c-jinshu-009-jin098-huanwen-succession:son:m0000"
+          ],
+          "kind": "paragraph"
+        },
+        {
+          "canonical_mention_id": "c-jinshu-009-jin098-huanwen-succession:son:m0005",
+          "mention_ids": [
+            "c-jinshu-009-jin098-huanwen-succession:son:m0005"
+          ],
+          "kind": "paragraph"
+        },
+        {
+          "canonical_mention_id": "c-jinshu-009-jin098-huanwen-succession:son:m0008",
+          "mention_ids": [
+            "c-jinshu-009-jin098-huanwen-succession:son:m0008"
+          ],
+          "kind": "paragraph"
+        }
+      ],
+      "work_id": "w-jinshu",
+      "book_id": "b-jinshu-009",
+      "chapter_id": "c-jinshu-009-jin098-huanwen-succession",
+      "source_id": "s-jinshu-009-jin098-huanwen-succession",
+      "work_title": "晉書"
+    },
+    {
       "number": 24,
       "category": "",
       "title": "卷二十四：崔𤣥伯完整本傳及簡、恬、徽附敘",
@@ -289,6 +353,41 @@
       "book_id": "b-jinshu-032",
       "chapter_id": "c-jinshu-032-chu-suanzi",
       "source_id": "s-jinshu-032-chu-suanzi",
+      "work_title": "晉書"
+    },
+    {
+      "number": 32,
+      "category": "",
+      "title": "褚蒜子受尊與桓溫之喪",
+      "paragraph_id": "c-jinshu-032-jin098-huanwen-succession:time",
+      "count": 1,
+      "raw_count": 1,
+      "duplicate_count": 0,
+      "counting_policy": "independent_fixed_witness_occurrences",
+      "quote": "簡文帝即位，尊后為崇德太后。及帝崩，孝武帝幼沖，桓溫又薨。",
+      "paragraph_ids": [
+        "c-jinshu-032-jin098-huanwen-succession:time"
+      ],
+      "mention_ids": [
+        "c-jinshu-032-jin098-huanwen-succession:time:m0018"
+      ],
+      "mention_paragraph_ids": {
+        "c-jinshu-032-jin098-huanwen-succession:time:m0018": "c-jinshu-032-jin098-huanwen-succession:time"
+      },
+      "mention_id": "c-jinshu-032-jin098-huanwen-succession:time:m0018",
+      "occurrence_groups": [
+        {
+          "canonical_mention_id": "c-jinshu-032-jin098-huanwen-succession:time:m0018",
+          "mention_ids": [
+            "c-jinshu-032-jin098-huanwen-succession:time:m0018"
+          ],
+          "kind": "paragraph"
+        }
+      ],
+      "work_id": "w-jinshu",
+      "book_id": "b-jinshu-032",
+      "chapter_id": "c-jinshu-032-jin098-huanwen-succession",
+      "source_id": "s-jinshu-032-jin098-huanwen-succession",
       "work_title": "晉書"
     },
     {
@@ -855,48 +954,29 @@
       "number": 98,
       "category": "",
       "title": "桓溫完整本傳單元",
-      "paragraph_id": "c-jinshu-098-huanwen:p027",
-      "count": 4,
-      "raw_count": 4,
+      "paragraph_id": "c-jinshu-098-huanwen:p028",
+      "count": 2,
+      "raw_count": 2,
       "duplicate_count": 0,
       "counting_policy": "independent_fixed_witness_occurrences",
-      "quote": "漢高枕疾，呂後問相，孝武不豫，霍光啟嗣。嗚噎以問身後，蓋所存者大也。今皇子幼稚，而朝賢時譽惟謝安、王坦之才識智皆簡在聖鑒。內輔幼君，外禦強寇，實群情之大懼，然理盡於此。陛下便宜崇授，使群下知所寄，而安等奉命陳力，公私為宜。至如臣溫位兼將相，加陛下垂布衣之顧，但朽邁疾病，懼不",
+      "quote": "及孝武即位，詔曰：「先帝遺敕云：'事大司馬如事吾。'令答表便可盡敬。」又詔：「大司馬社稷所寄，先帝托以家國，內外眾事便就關公施行。」復遣謝安徵溫入輔，加前部羽葆鼓吹，武賁六十人，溫讓不受。及溫入朝，赴山陵，",
       "paragraph_ids": [
-        "c-jinshu-098-huanwen:p027",
         "c-jinshu-098-huanwen:p028"
       ],
       "mention_ids": [
-        "c-jinshu-098-huanwen:p027:m0116",
         "c-jinshu-098-huanwen:p028:m0001",
-        "c-jinshu-098-huanwen:p028:m0115",
         "c-jinshu-098-huanwen:p028:m0411"
       ],
       "mention_paragraph_ids": {
-        "c-jinshu-098-huanwen:p027:m0116": "c-jinshu-098-huanwen:p027",
         "c-jinshu-098-huanwen:p028:m0001": "c-jinshu-098-huanwen:p028",
-        "c-jinshu-098-huanwen:p028:m0115": "c-jinshu-098-huanwen:p028",
         "c-jinshu-098-huanwen:p028:m0411": "c-jinshu-098-huanwen:p028"
       },
-      "mention_id": "c-jinshu-098-huanwen:p027:m0116",
+      "mention_id": "c-jinshu-098-huanwen:p028:m0001",
       "occurrence_groups": [
-        {
-          "canonical_mention_id": "c-jinshu-098-huanwen:p027:m0116",
-          "mention_ids": [
-            "c-jinshu-098-huanwen:p027:m0116"
-          ],
-          "kind": "paragraph"
-        },
         {
           "canonical_mention_id": "c-jinshu-098-huanwen:p028:m0001",
           "mention_ids": [
             "c-jinshu-098-huanwen:p028:m0001"
-          ],
-          "kind": "paragraph"
-        },
-        {
-          "canonical_mention_id": "c-jinshu-098-huanwen:p028:m0115",
-          "mention_ids": [
-            "c-jinshu-098-huanwen:p028:m0115"
           ],
           "kind": "paragraph"
         },
@@ -986,10 +1066,75 @@
       "chapter_id": "c-jinshu-099-huanxuan",
       "source_id": "s-jinshu-099-huanxuan-ws2644703",
       "work_title": "晉書"
+    },
+    {
+      "number": 103,
+      "category": "",
+      "title": "殷浩子涓、遺詔兩式、桓溫九錫與王謝",
+      "paragraph_id": "c-zizhitongjian-103-jin098-huanwen-succession:regency",
+      "count": 1,
+      "raw_count": 1,
+      "duplicate_count": 0,
+      "counting_policy": "independent_fixed_witness_occurrences",
+      "quote": "崇德太后令，以帝沖幼，加在諒闇，令溫依周公居攝故事。",
+      "paragraph_ids": [
+        "c-zizhitongjian-103-jin098-huanwen-succession:regency"
+      ],
+      "mention_ids": [
+        "c-zizhitongjian-103-jin098-huanwen-succession:regency:m0007"
+      ],
+      "mention_paragraph_ids": {
+        "c-zizhitongjian-103-jin098-huanwen-succession:regency:m0007": "c-zizhitongjian-103-jin098-huanwen-succession:regency"
+      },
+      "mention_id": "c-zizhitongjian-103-jin098-huanwen-succession:regency:m0007",
+      "occurrence_groups": [
+        {
+          "canonical_mention_id": "c-zizhitongjian-103-jin098-huanwen-succession:regency:m0007",
+          "mention_ids": [
+            "c-zizhitongjian-103-jin098-huanwen-succession:regency:m0007"
+          ],
+          "kind": "paragraph"
+        }
+      ],
+      "work_id": "w-zizhitongjian",
+      "book_id": "b-zizhitongjian-103",
+      "chapter_id": "c-zizhitongjian-103-jin098-huanwen-succession",
+      "source_id": "s-zizhitongjian-103-jin098-huanwen-succession",
+      "work_title": "資治通鑑"
     }
   ],
   "table_occurrences": [],
   "sources": [
+    {
+      "chapter_id": "c-jinshu-009-jin098-huanwen-succession",
+      "work_id": "w-jinshu",
+      "book_id": "b-jinshu-009",
+      "source_id": "s-jinshu-009-jin098-huanwen-succession",
+      "source": {
+        "provider": "Wikisource",
+        "revision_id": 13021561,
+        "permalink": "https://zh.wikisource.org/w/index.php?oldid=13021561",
+        "edition": "固定修訂相關原文，逐字核收。",
+        "image_verified": false,
+        "qualification": "固定數位傳世文字見證；未親核底本或影像，校勘ref另層。",
+        "selected_raw_start": 8177,
+        "selected_raw_end": 14871,
+        "extent": "下列來源節錄。",
+        "rights": "古代正文公版；維基文庫數位整理保留來源歸屬及CC BY-SA資格。",
+        "title": "晉書簡文孝武二帝紀",
+        "url": "https://zh.wikisource.org/w/index.php?oldid=13021561",
+        "raw_file_sha256": "ca71f266e7b6e662ea8035a7b2c471e6086c60227f5fa4ca815ede449c07adb4",
+        "raw_path": "source-evidence/jin079-yi-shi-miao/external/jin009-ws13021561.wikitext",
+        "accessed_on": "2026-10-20",
+        "text_scope": "partial_chapter",
+        "review_status": "text_checked",
+        "license_url": "https://creativecommons.org/licenses/by-sa/4.0/",
+        "collation_witnesses": [
+          "source-evidence/jin098-huan-four-children/reading.json"
+        ],
+        "wikitext_sha256": "ca71f266e7b6e662ea8035a7b2c471e6086c60227f5fa4ca815ede449c07adb4"
+      }
+    },
     {
       "chapter_id": "c-jinshu-032-chu-suanzi",
       "work_id": "w-jinshu",
@@ -1103,6 +1248,36 @@
             }
           ]
         }
+      }
+    },
+    {
+      "chapter_id": "c-jinshu-032-jin098-huanwen-succession",
+      "work_id": "w-jinshu",
+      "book_id": "b-jinshu-032",
+      "source_id": "s-jinshu-032-jin098-huanwen-succession",
+      "source": {
+        "provider": "Wikisource",
+        "revision_id": 1543614,
+        "permalink": "https://zh.wikisource.org/w/index.php?oldid=1543614",
+        "edition": "固定修訂相關原文，逐字核收。",
+        "image_verified": false,
+        "qualification": "固定數位傳世文字見證；未親核底本或影像，校勘ref另層。",
+        "selected_raw_start": 8177,
+        "selected_raw_end": 14871,
+        "extent": "下列來源節錄。",
+        "rights": "古代正文公版；維基文庫數位整理保留來源歸屬及CC BY-SA資格。",
+        "title": "晉書康獻褚皇后傳",
+        "url": "https://zh.wikisource.org/w/index.php?oldid=1543614",
+        "raw_file_sha256": "82cd88cad08dac2b1bbb57371dc460a43806730b4da42c143f041374bd6866c5",
+        "raw_path": "source-evidence/jin080-wang-xianzhi/external/jin32-ws1543614.wikitext",
+        "accessed_on": "2026-10-20",
+        "text_scope": "partial_chapter",
+        "review_status": "text_checked",
+        "license_url": "https://creativecommons.org/licenses/by-sa/4.0/",
+        "collation_witnesses": [
+          "source-evidence/jin098-huan-four-children/reading.json"
+        ],
+        "wikitext_sha256": "82cd88cad08dac2b1bbb57371dc460a43806730b4da42c143f041374bd6866c5"
       }
     },
     {
@@ -15990,7 +16165,15 @@
         "review_status": "text_checked",
         "license_url": "https://creativecommons.org/licenses/by-sa/4.0/",
         "collation_witnesses": [
-          "source-evidence/jin098-huan-four-children/reading.json"
+          "source-evidence/jin098-huan-four-children/reading.json",
+          "source-evidence/jin098-huanwen-opening/reading.json",
+          "source-evidence/jin098-huanwen-shu/reading.json",
+          "source-evidence/jin098-huanwen-wuchang/reading.json",
+          "source-evidence/jin098-huanwen-guanzhong/reading.json",
+          "source-evidence/jin098-huanwen-luoyang/reading.json",
+          "source-evidence/jin098-huanwen-return/reading.json",
+          "source-evidence/jin098-huanwen-fangtou/reading.json",
+          "source-evidence/jin098-huanwen-succession/reading.json"
         ]
       }
     },
@@ -21923,9 +22106,65 @@
           "excerpts": []
         }
       }
+    },
+    {
+      "chapter_id": "c-zizhitongjian-103-jin098-huanwen-succession",
+      "work_id": "w-zizhitongjian",
+      "book_id": "b-zizhitongjian-103",
+      "source_id": "s-zizhitongjian-103-jin098-huanwen-succession",
+      "source": {
+        "provider": "Wikisource",
+        "revision_id": 2402076,
+        "permalink": "https://zh.wikisource.org/w/index.php?oldid=2402076",
+        "edition": "固定修訂相關原文，逐字核收。",
+        "image_verified": false,
+        "qualification": "固定數位傳世文字見證；未親核底本或影像，校勘ref另層。",
+        "selected_raw_start": 8177,
+        "selected_raw_end": 14871,
+        "extent": "下列來源節錄。",
+        "rights": "古代正文公版；維基文庫數位整理保留來源歸屬及CC BY-SA資格。",
+        "title": "資治通鑑一百三",
+        "url": "https://zh.wikisource.org/w/index.php?oldid=2402076",
+        "raw_file_sha256": "38799dea58a4931421e376e4e9fb615b42efc73714480be7ba79b6fefd423a9a",
+        "raw_path": "source-evidence/jin098-huanwen-succession/external/z-ws2402076.wikitext",
+        "accessed_on": "2026-10-20",
+        "text_scope": "partial_chapter",
+        "review_status": "text_checked",
+        "license_url": "https://creativecommons.org/licenses/by-sa/4.0/",
+        "collation_witnesses": [
+          "source-evidence/jin098-huan-four-children/reading.json"
+        ],
+        "wikitext_sha256": "38799dea58a4931421e376e4e9fb615b42efc73714480be7ba79b6fefd423a9a"
+      }
     }
   ],
   "relations": [
+    {
+      "id": "a-w098-succ-xiaowu",
+      "subject_person_id": "uke_dff_yrf",
+      "object_person_id": "dkn_ge4_286_AAAAAAAF",
+      "predicate": "father",
+      "qualifiers": {
+        "source_term": "簡文帝第三子也"
+      },
+      "evidence": [
+        {
+          "work_id": "w-jinshu",
+          "book_id": "b-jinshu-009",
+          "chapter_id": "c-jinshu-009-jin098-huanwen-succession",
+          "source_id": "s-jinshu-009-jin098-huanwen-succession",
+          "paragraph_id": "c-jinshu-009-jin098-huanwen-succession:son",
+          "quote": "孝武皇帝諱曜，字昌明，簡文帝第三子也。",
+          "subject_person_mention_id": "c-jinshu-009-jin098-huanwen-succession:son:m0000",
+          "object_person_mention_id": "c-jinshu-009-jin098-huanwen-succession:son:m0011"
+        }
+      ],
+      "interpretation_note": "此條按本句所明言。",
+      "status": "source_attested",
+      "reviewer": "Codex（AI 代理）",
+      "human_reviewed": false,
+      "model": null
+    },
     {
       "id": "a-nan023-digital-father-鄱陽公主-晉孝武帝",
       "subject_person_id": "9c8_5fa_bea",
@@ -22034,7 +22273,8 @@
       "paragraph_ids": [
         "c-jinshu-067-xiyin:line095",
         "c-jinshu-067-xiyin:line091",
-        "c-jinshu-098-huanwen:p027"
+        "c-jinshu-098-huanwen:p027",
+        "c-jinshu-098-huanwen:p028"
       ],
       "note": "上文顯名簡文帝，太元元年孝武帝以郗愔為鎮軍大將軍。不得僅以所加軍號把太元臨朝當踐阼年份。兩事並記，句內省名存疑。",
       "chapter_id": "c-jinshu-067-xiyin",
@@ -22494,6 +22734,36 @@
       "source_id": "s-jinshu-093-heyu-grandfather-context-ws1548000"
     },
     {
+      "id": "c-jinshu-098-huanwen:p027:m0116",
+      "paragraph_id": "c-jinshu-098-huanwen:p027",
+      "start": 116,
+      "end": 118,
+      "surface": "皇子",
+      "person_id": "uke_dff_yrf",
+      "referent_role": "third_person",
+      "quote": "蓋所存者大也。今皇子幼稚，而朝賢時譽惟謝",
+      "note": "按此段說話、受書或敘述者定位。",
+      "chapter_id": "c-jinshu-098-huanwen",
+      "book_id": "b-jinshu-098",
+      "work_id": "w-jinshu",
+      "source_id": "s-jinshu-098-ws2614273"
+    },
+    {
+      "id": "c-jinshu-098-huanwen:p028:m0115",
+      "paragraph_id": "c-jinshu-098-huanwen:p028",
+      "start": 115,
+      "end": 116,
+      "surface": "朕",
+      "person_id": "uke_dff_yrf",
+      "referent_role": "speaker_self",
+      "quote": "公勳德尊重，師保朕躬，兼有風患，其無敬",
+      "note": "按此段說話、受書或敘述者定位。",
+      "chapter_id": "c-jinshu-098-huanwen",
+      "book_id": "b-jinshu-098",
+      "work_id": "w-jinshu",
+      "source_id": "s-jinshu-098-ws2614273"
+    },
+    {
       "id": "c-nanshi-022-wangjian:p010:r0314",
       "person_id": "uke_dff_yrf",
       "paragraph_id": "c-nanshi-022-wangjian:p010",
@@ -22633,6 +22903,32 @@
     "uke_dff_yrf"
   ],
   "preferred_relations": [
+    {
+      "id": "a-w098-succ-xiaowu",
+      "subject_person_id": "uke_dff_yrf",
+      "object_person_id": "dkn_ge4_286_AAAAAAAF",
+      "predicate": "father",
+      "qualifiers": {
+        "source_term": "簡文帝第三子也"
+      },
+      "evidence": [
+        {
+          "work_id": "w-jinshu",
+          "book_id": "b-jinshu-009",
+          "chapter_id": "c-jinshu-009-jin098-huanwen-succession",
+          "source_id": "s-jinshu-009-jin098-huanwen-succession",
+          "paragraph_id": "c-jinshu-009-jin098-huanwen-succession:son",
+          "quote": "孝武皇帝諱曜，字昌明，簡文帝第三子也。",
+          "subject_person_mention_id": "c-jinshu-009-jin098-huanwen-succession:son:m0000",
+          "object_person_mention_id": "c-jinshu-009-jin098-huanwen-succession:son:m0011"
+        }
+      ],
+      "interpretation_note": "此條按本句所明言。",
+      "status": "source_attested",
+      "reviewer": "Codex（AI 代理）",
+      "human_reviewed": false,
+      "model": null
+    },
     {
       "id": "a-nan023-digital-father-鄱陽公主-晉孝武帝",
       "subject_person_id": "9c8_5fa_bea",

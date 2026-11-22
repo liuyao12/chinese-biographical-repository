@@ -1,0 +1,83 @@
+{
+  "format_version": "0.2",
+  "record_type": "person_assertion_set",
+  "chapter_id": "c-jinshu-121-jin098-huanwen-shu",
+  "assertions": [
+    {
+      "id": "a-w098-lishi-brother",
+      "subject_person_id": "4ys_87g_ilk",
+      "object_person_id": "agn_6ch_sus",
+      "predicate": "brother",
+      "qualifiers": {
+        "source_term": "弟福",
+        "relative_birth_order": {
+          "older_person_id": "agn_6ch_sus",
+          "younger_person_id": "4ys_87g_ilk",
+          "operator": "lt",
+          "scope": "siblings",
+          "older_ordinal": null,
+          "younger_ordinal": null
+        }
+      },
+      "evidence": [
+        {
+          "work_id": "w-jinshu",
+          "book_id": "b-jinshu-121",
+          "chapter_id": "c-jinshu-121-jin098-huanwen-shu",
+          "source_id": "s-jinshu-121-jin098-huanwen-shu",
+          "paragraph_id": "c-jinshu-121-jin098-huanwen-shu:family",
+          "quote": "勢尋輿櫬面縛軍門，溫解其縛，焚其櫬，遷勢及弟福、從兄權親族十餘人于健康，封勢歸義侯。",
+          "subject_person_mention_id": "c-jinshu-121-jin098-huanwen-shu:family:m0022",
+          "object_person_mention_id": "c-jinshu-121-jin098-huanwen-shu:family:m0019"
+        }
+      ],
+      "interpretation_note": "李勢載記此處作弟福，桓溫傳與通鑑記叔父福。",
+      "status": "source_attested",
+      "reviewer": "Codex（AI 代理）",
+      "human_reviewed": false,
+      "model": null
+    },
+    {
+      "id": "a-w098-lishi-quan",
+      "subject_person_id": "agn_6ch_sus",
+      "object_person_id": "l2p_ktv_dyf",
+      "predicate": "agnatic_cousin",
+      "qualifiers": {
+        "source_term": "從兄權",
+        "kinship_structure": {
+          "lineage": "paternal",
+          "generation_difference": 0,
+          "collateral": true,
+          "distance": null,
+          "common_ancestor_person_id": null,
+          "subject_relative_age": "younger"
+        },
+        "relative_birth_order": {
+          "older_person_id": "l2p_ktv_dyf",
+          "younger_person_id": "agn_6ch_sus",
+          "operator": "lt",
+          "scope": "agnatic_cousins",
+          "older_ordinal": null,
+          "younger_ordinal": null
+        }
+      },
+      "evidence": [
+        {
+          "work_id": "w-jinshu",
+          "book_id": "b-jinshu-121",
+          "chapter_id": "c-jinshu-121-jin098-huanwen-shu",
+          "source_id": "s-jinshu-121-jin098-huanwen-shu",
+          "paragraph_id": "c-jinshu-121-jin098-huanwen-shu:family",
+          "quote": "勢尋輿櫬面縛軍門，溫解其縛，焚其櫬，遷勢及弟福、從兄權親族十餘人于健康，封勢歸義侯。",
+          "subject_person_mention_id": "c-jinshu-121-jin098-huanwen-shu:family:m0019",
+          "object_person_mention_id": "c-jinshu-121-jin098-huanwen-shu:family:m0026"
+        }
+      ],
+      "interpretation_note": "此條按本句所明言。",
+      "status": "source_attested",
+      "reviewer": "Codex（AI 代理）",
+      "human_reviewed": false,
+      "model": null
+    }
+  ]
+}

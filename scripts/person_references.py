@@ -30,7 +30,14 @@ def reference_errors(chapter, person_ids):
             errors.append(f'{key}：指涉字位或引文未涵蓋該處')
             continue
         position = (p['id'], a, b)
-        if position in positions or any(m['start'] < b and a < m['end'] for m in p['mentions']):
+        same_group = False
+        if row.get('group_reference_id'):
+            try: from scripts.jin098_huan_final import shared_reference
+            except ImportError: from jin098_huan_final import shared_reference
+            same_group = shared_reference(chapter, row, rows)
+            if not same_group:
+                errors.append(f'{key}：並指王謝須對應兩個具名人物與同一處原文')
+        if (position in positions and not same_group) or any(m['start'] < b and a < m['end'] for m in p['mentions']):
             errors.append(f'{key}：指涉與另一處標記重疊')
         positions.add(position)
         if (row.get('person_id') not in person_ids
