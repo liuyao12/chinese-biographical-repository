@@ -1990,6 +1990,25 @@
       ]
     },
     {
+      "book_id": "b-sanguozhi-049",
+      "raw_path": "source-evidence/sanguozhi049-roll/ws2075209.wikitext",
+      "revision": 2075209,
+      "sha256": "780f2eae67e7ce1a0636ce73c30c7cea2182b390af0fea6b3723a3dbaf607526",
+      "permalink": "https://zh.wikisource.org/w/index.php?oldid=2075209",
+      "heading_survey": "complete",
+      "heading_locator_scheme": "wikisource_equals_lines",
+      "embedded_account_survey": "complete",
+      "excluded_sections": [
+        {
+          "heading_line": 51,
+          "heading": "【評】",
+          "reason": "卷末陳壽評。"
+        }
+      ],
+      "pending_boundaries": [],
+      "source_review_path": "source-evidence/sanguozhi049-roll/volume-close-reading.json"
+    },
+    {
       "book_id": "b-sanguozhi-050",
       "revision": 2085144,
       "permalink": "https://zh.wikisource.org/w/index.php?oldid=2085144",
@@ -29141,6 +29160,859 @@
       "full_text": false,
       "first_pass": false,
       "item_reviewed": false
+    },
+    {
+      "title": "劉繇",
+      "book_id": "b-sanguozhi-049",
+      "chapter_id": "c-sanguozhi-049-liuyou-complete",
+      "chapter_path": "corpus/sanguozhi/049-liuyou-complete.json",
+      "entry_checked": true,
+      "full_text": true,
+      "first_pass": true,
+      "item_reviewed": true,
+      "mixed_chapter": true,
+      "source_layout": "sanguozhi049_contiguous_slice",
+      "item_review_path": "source-evidence/sanguozhi049-roll/liuyou-reading.json",
+      "first_line": 11,
+      "last_line": 11,
+      "start_codepoint": 0,
+      "end_codepoint": 31,
+      "opening": "　　劉繇，字正禮，東",
+      "closing": "封牟平侯，子孫家焉。",
+      "unit_kind": "headed_account",
+      "heading_line": 10,
+      "heading_raw": "==劉繇==",
+      "continuation_spans": [
+        {
+          "first_line": 13,
+          "last_line": 13,
+          "start_codepoint": 0,
+          "end_codepoint": 623,
+          "opening": "　　繇年十九，從父韙",
+          "closing": "尋病卒，時年四十二。"
+        },
+        {
+          "first_line": 18,
+          "last_line": 18,
+          "start_codepoint": 0,
+          "end_codepoint": 272,
+          "opening": "　　後策西伐江夏，還",
+          "closing": "之以恩，不亦優哉!\""
+        }
+      ],
+      "paragraph_ids": [
+        "c-sanguozhi-049-liuyou-complete:p001",
+        "c-sanguozhi-049-liuyou-complete:p004",
+        "c-sanguozhi-049-liuyou-complete:p008"
+      ],
+      "paragraph_slices": {
+        "c-sanguozhi-049-liuyou-complete:p001": [
+          {
+            "start": 0,
+            "end": 31
+          }
+        ]
+      }
+    },
+    {
+      "title": "劉寵",
+      "book_id": "b-sanguozhi-049",
+      "chapter_id": "c-sanguozhi-049-liuyou-complete",
+      "chapter_path": "corpus/sanguozhi/049-liuyou-complete.json",
+      "entry_checked": true,
+      "full_text": true,
+      "first_pass": true,
+      "item_reviewed": true,
+      "mixed_chapter": true,
+      "source_layout": "sanguozhi049_contiguous_slice",
+      "item_review_path": "source-evidence/sanguozhi049-roll/liuyou-reading.json",
+      "first_line": 11,
+      "last_line": 11,
+      "start_codepoint": 31,
+      "end_codepoint": 41,
+      "opening": "繇伯父寵，為漢太尉。",
+      "closing": "繇伯父寵，為漢太尉。",
+      "unit_kind": "embedded_account",
+      "parent_heading": "劉繇",
+      "continuation_spans": [
+        {
+          "first_line": 11,
+          "last_line": 11,
+          "start_codepoint": 83,
+          "end_codepoint": 486,
+          "opening": "宠字祖荣，受父业，以",
+          "closing": "类也。以老病卒于家。"
+        }
+      ],
+      "paragraph_ids": [
+        "c-sanguozhi-049-liuyou-complete:p001",
+        "c-sanguozhi-049-liuyou-complete:p002"
+      ],
+      "paragraph_slices": {
+        "c-sanguozhi-049-liuyou-complete:p001": [
+          {
+            "start": 31,
+            "end": 41
+          }
+        ],
+        "c-sanguozhi-049-liuyou-complete:p002": [
+          {
+            "start": 38,
+            "end": 441
+          }
+        ]
+      }
+    },
+    {
+      "title": "劉本",
+      "book_id": "b-sanguozhi-049",
+      "chapter_id": "c-sanguozhi-049-liuyou-complete",
+      "chapter_path": "corpus/sanguozhi/049-liuyou-complete.json",
+      "entry_checked": true,
+      "full_text": true,
+      "first_pass": true,
+      "item_reviewed": true,
+      "mixed_chapter": true,
+      "source_layout": "sanguozhi049_contiguous_slice",
+      "item_review_path": "source-evidence/sanguozhi049-roll/liuyou-reading.json",
+      "first_line": 11,
+      "last_line": 11,
+      "start_codepoint": 45,
+      "end_codepoint": 83,
+      "opening": "续汉书曰：繇祖父本，",
+      "closing": "方正，为般长，卒官。",
+      "unit_kind": "embedded_account",
+      "parent_heading": "劉繇",
+      "paragraph_ids": [
+        "c-sanguozhi-049-liuyou-complete:p002"
+      ],
+      "paragraph_slices": {
+        "c-sanguozhi-049-liuyou-complete:p002": [
+          {
+            "start": 0,
+            "end": 38
+          }
+        ]
+      }
+    },
+    {
+      "title": "劉岱",
+      "book_id": "b-sanguozhi-049",
+      "chapter_id": "c-sanguozhi-049-liuyou-complete",
+      "chapter_path": "corpus/sanguozhi/049-liuyou-complete.json",
+      "entry_checked": true,
+      "full_text": true,
+      "first_pass": true,
+      "item_reviewed": true,
+      "mixed_chapter": true,
+      "source_layout": "sanguozhi049_contiguous_slice",
+      "item_review_path": "source-evidence/sanguozhi049-roll/liuyou-reading.json",
+      "first_line": 11,
+      "last_line": 11,
+      "start_codepoint": 488,
+      "end_codepoint": 512,
+      "opening": "繇兄'''岱，字公山",
+      "closing": "歷位侍中，兗州刺史。",
+      "unit_kind": "embedded_account",
+      "parent_heading": "劉繇",
+      "continuation_spans": [
+        {
+          "first_line": 11,
+          "last_line": 11,
+          "start_codepoint": 542,
+          "end_codepoint": 564,
+          "opening": "《[[英雄记]]》称",
+          "closing": "悌仁恕，以虚己受人。"
+        }
+      ],
+      "paragraph_ids": [
+        "c-sanguozhi-049-liuyou-complete:p001",
+        "c-sanguozhi-049-liuyou-complete:p003"
+      ],
+      "paragraph_slices": {
+        "c-sanguozhi-049-liuyou-complete:p001": [
+          {
+            "start": 41,
+            "end": 59
+          }
+        ],
+        "c-sanguozhi-049-liuyou-complete:p003": [
+          {
+            "start": 26,
+            "end": 44
+          }
+        ]
+      }
+    },
+    {
+      "title": "劉輿",
+      "book_id": "b-sanguozhi-049",
+      "chapter_id": "c-sanguozhi-049-liuyou-complete",
+      "chapter_path": "corpus/sanguozhi/049-liuyou-complete.json",
+      "entry_checked": true,
+      "full_text": true,
+      "first_pass": true,
+      "item_reviewed": true,
+      "mixed_chapter": true,
+      "source_layout": "sanguozhi049_contiguous_slice",
+      "item_review_path": "source-evidence/sanguozhi049-roll/liuyou-reading.json",
+      "first_line": 11,
+      "last_line": 11,
+      "start_codepoint": 516,
+      "end_codepoint": 534,
+      "opening": "续汉书曰：繇父舆，一",
+      "closing": "，一名方，山阳太守。",
+      "unit_kind": "embedded_account",
+      "parent_heading": "劉繇",
+      "paragraph_ids": [
+        "c-sanguozhi-049-liuyou-complete:p003"
+      ],
+      "paragraph_slices": {
+        "c-sanguozhi-049-liuyou-complete:p003": [
+          {
+            "start": 0,
+            "end": 18
+          }
+        ]
+      }
+    },
+    {
+      "title": "笮融",
+      "book_id": "b-sanguozhi-049",
+      "chapter_id": "c-sanguozhi-049-zerong-complete",
+      "chapter_path": "corpus/sanguozhi/049-zerong-complete.json",
+      "entry_checked": true,
+      "full_text": true,
+      "first_pass": true,
+      "item_reviewed": true,
+      "mixed_chapter": true,
+      "source_layout": "sanguozhi049_contiguous_slice",
+      "item_review_path": "source-evidence/sanguozhi049-roll/liuyou-reading.json",
+      "first_line": 16,
+      "last_line": 16,
+      "start_codepoint": 0,
+      "end_codepoint": 262,
+      "opening": "　　笮融者，丹楊人。",
+      "closing": "。過殺禮，然後殺皓。",
+      "unit_kind": "headed_account",
+      "heading_line": 15,
+      "heading_raw": "===笮融===",
+      "paragraph_ids": [
+        "c-sanguozhi-049-zerong-complete:p001"
+      ]
+    },
+    {
+      "title": "劉基",
+      "book_id": "b-sanguozhi-049",
+      "chapter_id": "c-sanguozhi-049-liuyou-complete",
+      "chapter_path": "corpus/sanguozhi/049-liuyou-complete.json",
+      "entry_checked": true,
+      "full_text": true,
+      "first_pass": true,
+      "item_reviewed": true,
+      "mixed_chapter": true,
+      "source_layout": "sanguozhi049_contiguous_slice",
+      "item_review_path": "source-evidence/sanguozhi049-roll/liuyou-reading.json",
+      "first_line": 21,
+      "last_line": 21,
+      "start_codepoint": 0,
+      "end_codepoint": 275,
+      "opening": "　　繇長子基，字敬輿",
+      "closing": "時寵賜，與全、張比。",
+      "unit_kind": "headed_account",
+      "heading_line": 20,
+      "heading_raw": "===子　基===",
+      "paragraph_ids": [
+        "c-sanguozhi-049-liuyou-complete:p009"
+      ],
+      "paragraph_slices": {
+        "c-sanguozhi-049-liuyou-complete:p009": [
+          {
+            "start": 0,
+            "end": 207
+          }
+        ]
+      }
+    },
+    {
+      "title": "劉鑠、劉尚",
+      "book_id": "b-sanguozhi-049",
+      "chapter_id": "c-sanguozhi-049-liuyou-complete",
+      "chapter_path": "corpus/sanguozhi/049-liuyou-complete.json",
+      "entry_checked": true,
+      "full_text": true,
+      "first_pass": true,
+      "item_reviewed": true,
+      "mixed_chapter": true,
+      "source_layout": "sanguozhi049_contiguous_slice",
+      "item_review_path": "source-evidence/sanguozhi049-roll/liuyou-reading.json",
+      "first_line": 21,
+      "last_line": 21,
+      "start_codepoint": 275,
+      "end_codepoint": 288,
+      "opening": "基二弟，鑠、尚，皆騎",
+      "closing": "，鑠、尚，皆騎都尉。",
+      "unit_kind": "embedded_account",
+      "parent_heading": "劉基",
+      "paragraph_ids": [
+        "c-sanguozhi-049-liuyou-complete:p009"
+      ],
+      "paragraph_slices": {
+        "c-sanguozhi-049-liuyou-complete:p009": [
+          {
+            "start": 207,
+            "end": 220
+          }
+        ]
+      }
+    },
+    {
+      "title": "太史慈",
+      "book_id": "b-sanguozhi-049",
+      "chapter_id": "c-sanguozhi-049-taishici-complete",
+      "chapter_path": "corpus/sanguozhi/049-taishici-complete.json",
+      "entry_checked": true,
+      "full_text": true,
+      "first_pass": true,
+      "item_reviewed": true,
+      "mixed_chapter": true,
+      "source_layout": "sanguozhi049_contiguous_slice",
+      "item_review_path": "source-evidence/sanguozhi049-roll/taishici-reading.json",
+      "first_line": 24,
+      "last_line": 24,
+      "start_codepoint": 0,
+      "end_codepoint": 395,
+      "opening": "　　太史慈字子義，東",
+      "closing": "受其禍，乃避之遼東。",
+      "unit_kind": "headed_account",
+      "heading_line": 23,
+      "heading_raw": "==太史慈==",
+      "continuation_spans": [
+        {
+          "first_line": 26,
+          "last_line": 26,
+          "start_codepoint": 0,
+          "end_codepoint": 652,
+          "opening": "　　北海相孔融聞而奇",
+          "closing": "汝有以報孔北海也。」"
+        },
+        {
+          "first_line": 28,
+          "last_line": 28,
+          "start_codepoint": 0,
+          "end_codepoint": 153,
+          "opening": "　　揚州刺史劉繇與慈",
+          "closing": "並各來赴，於是解散。"
+        },
+        {
+          "first_line": 30,
+          "last_line": 30,
+          "start_codepoint": 0,
+          "end_codepoint": 1256,
+          "opening": "　　慈當與繇俱奔豫章",
+          "closing": "顷之，遂定豫章。}}"
+        },
+        {
+          "first_line": 32,
+          "last_line": 32,
+          "start_codepoint": 0,
+          "end_codepoint": 63,
+          "opening": "　　劉表從子磐，驍勇",
+          "closing": "磐。磐絕跡不復為寇。"
+        },
+        {
+          "first_line": 34,
+          "last_line": 34,
+          "start_codepoint": 0,
+          "end_codepoint": 137,
+          "opening": "　　慈長七尺七寸，美",
+          "closing": "|建安十一年}}卒。"
+        }
+      ],
+      "paragraph_ids": [
+        "c-sanguozhi-049-taishici-complete:p001",
+        "c-sanguozhi-049-taishici-complete:p002",
+        "c-sanguozhi-049-taishici-complete:p003",
+        "c-sanguozhi-049-taishici-complete:p004",
+        "c-sanguozhi-049-taishici-complete:p008",
+        "c-sanguozhi-049-taishici-complete:p009"
+      ],
+      "paragraph_slices": {
+        "c-sanguozhi-049-taishici-complete:p009": [
+          {
+            "start": 0,
+            "end": 130
+          }
+        ]
+      }
+    },
+    {
+      "title": "太史享",
+      "book_id": "b-sanguozhi-049",
+      "chapter_id": "c-sanguozhi-049-taishici-complete",
+      "chapter_path": "corpus/sanguozhi/049-taishici-complete.json",
+      "entry_checked": true,
+      "full_text": true,
+      "first_pass": true,
+      "item_reviewed": true,
+      "mixed_chapter": true,
+      "source_layout": "sanguozhi049_contiguous_slice",
+      "item_review_path": "source-evidence/sanguozhi049-roll/taishici-reading.json",
+      "first_line": 34,
+      "last_line": 34,
+      "start_codepoint": 194,
+      "end_codepoint": 204,
+      "opening": "子享，官至越騎校尉。",
+      "closing": "子享，官至越騎校尉。",
+      "unit_kind": "embedded_account",
+      "parent_heading": "太史慈",
+      "continuation_spans": [
+        {
+          "first_line": 34,
+          "last_line": 34,
+          "start_codepoint": 208,
+          "end_codepoint": 226,
+          "opening": "吴书曰：享字元复，历",
+          "closing": "，历尚书、吴郡太守。"
+        }
+      ],
+      "paragraph_ids": [
+        "c-sanguozhi-049-taishici-complete:p009",
+        "c-sanguozhi-049-taishici-complete:p011"
+      ],
+      "paragraph_slices": {
+        "c-sanguozhi-049-taishici-complete:p009": [
+          {
+            "start": 130,
+            "end": 140
+          }
+        ]
+      }
+    },
+    {
+      "title": "士燮",
+      "book_id": "b-sanguozhi-049",
+      "chapter_id": "c-sanguozhi-049-shixie-complete",
+      "chapter_path": "corpus/sanguozhi/049-shixie-complete.json",
+      "entry_checked": true,
+      "full_text": true,
+      "first_pass": true,
+      "item_reviewed": true,
+      "mixed_chapter": true,
+      "source_layout": "sanguozhi049_contiguous_slice",
+      "item_review_path": "source-evidence/sanguozhi049-roll/shixie-reading.json",
+      "first_line": 37,
+      "last_line": 37,
+      "start_codepoint": 0,
+      "end_codepoint": 109,
+      "opening": "　　士燮字威彥，蒼梧",
+      "closing": "除巫令，遷交阯太守。",
+      "unit_kind": "headed_account",
+      "heading_line": 36,
+      "heading_raw": "==士燮==",
+      "continuation_spans": [
+        {
+          "first_line": 41,
+          "last_line": 41,
+          "start_codepoint": 0,
+          "end_codepoint": 202,
+          "opening": "　　燮體器寬厚，謙虛",
+          "closing": "上之。」其見稱如此。"
+        },
+        {
+          "first_line": 43,
+          "last_line": 43,
+          "start_codepoint": 0,
+          "end_codepoint": 88,
+          "opening": "　　燮兄弟並為列郡，",
+          "closing": "百蠻，尉他不足踰也。"
+        },
+        {
+          "first_line": 43,
+          "last_line": 43,
+          "start_codepoint": 92,
+          "end_codepoint": 179,
+          "opening": "葛洪《[[神仙传]]",
+          "closing": "奉字君异，侯官人也。"
+        },
+        {
+          "first_line": 45,
+          "last_line": 45,
+          "start_codepoint": 0,
+          "end_codepoint": 183,
+          "opening": "　　朱符死後，漢遣張",
+          "closing": "遠將軍，封龍度亭侯。"
+        },
+        {
+          "first_line": 47,
+          "last_line": 47,
+          "start_codepoint": 0,
+          "end_codepoint": 263,
+          "opening": "　　後巨與恭相失，舉",
+          "closing": "五年}}，年九十卒。"
+        }
+      ],
+      "paragraph_ids": [
+        "c-sanguozhi-049-shixie-complete:p001",
+        "c-sanguozhi-049-shixie-complete:p005",
+        "c-sanguozhi-049-shixie-complete:p006",
+        "c-sanguozhi-049-shixie-complete:p007",
+        "c-sanguozhi-049-shixie-complete:p008",
+        "c-sanguozhi-049-shixie-complete:p009"
+      ],
+      "paragraph_slices": {
+        "c-sanguozhi-049-shixie-complete:p006": [
+          {
+            "start": 0,
+            "end": 88
+          }
+        ]
+      }
+    },
+    {
+      "title": "士壹",
+      "book_id": "b-sanguozhi-049",
+      "chapter_id": "c-sanguozhi-049-shixie-complete",
+      "chapter_path": "corpus/sanguozhi/049-shixie-complete.json",
+      "entry_checked": true,
+      "full_text": true,
+      "first_pass": true,
+      "item_reviewed": true,
+      "mixed_chapter": true,
+      "source_layout": "sanguozhi049_contiguous_slice",
+      "item_review_path": "source-evidence/sanguozhi049-roll/shixie-reading.json",
+      "first_line": 39,
+      "last_line": 39,
+      "start_codepoint": 2,
+      "end_codepoint": 89,
+      "opening": "弟壹，初為郡督郵。刺",
+      "closing": "卓作亂，壹亡歸鄉里。",
+      "unit_kind": "embedded_account",
+      "parent_heading": "士燮",
+      "continuation_spans": [
+        {
+          "first_line": 39,
+          "last_line": 39,
+          "start_codepoint": 93,
+          "end_codepoint": 153,
+          "opening": "吴书曰：琬与卓相害，",
+          "closing": "会卓入关，壹乃亡归。"
+        },
+        {
+          "first_line": 47,
+          "last_line": 47,
+          "start_codepoint": 146,
+          "end_codepoint": 156,
+          "opening": "弟壹偏將軍，都鄉侯。",
+          "closing": "弟壹偏將軍，都鄉侯。"
+        },
+        {
+          "first_line": 47,
+          "last_line": 47,
+          "start_codepoint": 214,
+          "end_codepoint": 238,
+          "opening": "壹時貢馬凡數百匹。權",
+          "closing": "厚加寵賜，以答慰之。"
+        },
+        {
+          "first_line": 49,
+          "last_line": 49,
+          "start_codepoint": 447,
+          "end_codepoint": 482,
+          "opening": "壹、䵋、匡後出，權原",
+          "closing": "數歲，壹、䵋坐法誅。"
+        }
+      ],
+      "paragraph_ids": [
+        "c-sanguozhi-049-shixie-complete:p002",
+        "c-sanguozhi-049-shixie-complete:p003",
+        "c-sanguozhi-049-shixie-complete:p009",
+        "c-sanguozhi-049-shixie-complete:p010"
+      ],
+      "paragraph_slices": {
+        "c-sanguozhi-049-shixie-complete:p002": [
+          {
+            "start": 2,
+            "end": 89
+          }
+        ],
+        "c-sanguozhi-049-shixie-complete:p009": [
+          {
+            "start": 139,
+            "end": 149
+          },
+          {
+            "start": 207,
+            "end": 231
+          }
+        ],
+        "c-sanguozhi-049-shixie-complete:p010": [
+          {
+            "start": 315,
+            "end": 350
+          }
+        ]
+      }
+    },
+    {
+      "title": "士䵋",
+      "book_id": "b-sanguozhi-049",
+      "chapter_id": "c-sanguozhi-049-shixie-complete",
+      "chapter_path": "corpus/sanguozhi/049-shixie-complete.json",
+      "entry_checked": true,
+      "full_text": true,
+      "first_pass": true,
+      "item_reviewed": true,
+      "mixed_chapter": true,
+      "source_layout": "sanguozhi049_contiguous_slice",
+      "item_review_path": "source-evidence/sanguozhi049-roll/shixie-reading.json",
+      "first_line": 39,
+      "last_line": 39,
+      "start_codepoint": 182,
+      "end_codepoint": 194,
+      "opening": "次弟徐聞令䵋領九真太",
+      "closing": "徐聞令䵋領九真太守，",
+      "unit_kind": "embedded_account",
+      "parent_heading": "士燮",
+      "continuation_spans": [
+        {
+          "first_line": 39,
+          "last_line": 39,
+          "start_codepoint": 198,
+          "end_codepoint": 210,
+          "opening": "䵋音于鄙反，见《字林",
+          "closing": "于鄙反，见《字林》。"
+        },
+        {
+          "first_line": 49,
+          "last_line": 49,
+          "start_codepoint": 449,
+          "end_codepoint": 482,
+          "opening": "䵋、匡後出，權原其罪",
+          "closing": "數歲，壹、䵋坐法誅。"
+        }
+      ],
+      "paragraph_ids": [
+        "c-sanguozhi-049-shixie-complete:p002",
+        "c-sanguozhi-049-shixie-complete:p004",
+        "c-sanguozhi-049-shixie-complete:p010"
+      ],
+      "paragraph_slices": {
+        "c-sanguozhi-049-shixie-complete:p002": [
+          {
+            "start": 116,
+            "end": 128
+          }
+        ],
+        "c-sanguozhi-049-shixie-complete:p010": [
+          {
+            "start": 317,
+            "end": 350
+          }
+        ]
+      }
+    },
+    {
+      "title": "士武",
+      "book_id": "b-sanguozhi-049",
+      "chapter_id": "c-sanguozhi-049-shixie-complete",
+      "chapter_path": "corpus/sanguozhi/049-shixie-complete.json",
+      "entry_checked": true,
+      "full_text": true,
+      "first_pass": true,
+      "item_reviewed": true,
+      "mixed_chapter": true,
+      "source_layout": "sanguozhi049_contiguous_slice",
+      "item_review_path": "source-evidence/sanguozhi049-roll/shixie-reading.json",
+      "first_line": 39,
+      "last_line": 39,
+      "start_codepoint": 212,
+      "end_codepoint": 222,
+      "opening": "䵋弟武，領南海太守。",
+      "closing": "䵋弟武，領南海太守。",
+      "unit_kind": "embedded_account",
+      "parent_heading": "士燮",
+      "continuation_spans": [
+        {
+          "first_line": 43,
+          "last_line": 43,
+          "start_codepoint": 181,
+          "end_codepoint": 186,
+          "opening": "武先病沒。",
+          "closing": "武先病沒。"
+        }
+      ],
+      "paragraph_ids": [
+        "c-sanguozhi-049-shixie-complete:p002",
+        "c-sanguozhi-049-shixie-complete:p006"
+      ],
+      "paragraph_slices": {
+        "c-sanguozhi-049-shixie-complete:p002": [
+          {
+            "start": 128,
+            "end": 138
+          }
+        ],
+        "c-sanguozhi-049-shixie-complete:p006": [
+          {
+            "start": 88,
+            "end": 93
+          }
+        ]
+      }
+    },
+    {
+      "title": "士廞",
+      "book_id": "b-sanguozhi-049",
+      "chapter_id": "c-sanguozhi-049-shixie-complete",
+      "chapter_path": "corpus/sanguozhi/049-shixie-complete.json",
+      "entry_checked": true,
+      "full_text": true,
+      "first_pass": true,
+      "item_reviewed": true,
+      "mixed_chapter": true,
+      "source_layout": "sanguozhi049_contiguous_slice",
+      "item_review_path": "source-evidence/sanguozhi049-roll/shixie-reading.json",
+      "first_line": 47,
+      "last_line": 47,
+      "start_codepoint": 75,
+      "end_codepoint": 95,
+      "opening": "建安末年，燮遣子廞入",
+      "closing": "質，權以為武昌太守，",
+      "unit_kind": "embedded_account",
+      "parent_heading": "士燮",
+      "continuation_spans": [
+        {
+          "first_line": 49,
+          "last_line": 49,
+          "start_codepoint": 460,
+          "end_codepoint": 472,
+          "opening": "及燮質子廞，皆免為庶",
+          "closing": "質子廞，皆免為庶人。"
+        },
+        {
+          "first_line": 49,
+          "last_line": 49,
+          "start_codepoint": 482,
+          "end_codepoint": 507,
+          "opening": "廞病卒，無子，妻寡居",
+          "closing": "給俸米，賜錢四十萬。"
+        }
+      ],
+      "paragraph_ids": [
+        "c-sanguozhi-049-shixie-complete:p009",
+        "c-sanguozhi-049-shixie-complete:p010"
+      ],
+      "paragraph_slices": {
+        "c-sanguozhi-049-shixie-complete:p009": [
+          {
+            "start": 68,
+            "end": 88
+          }
+        ],
+        "c-sanguozhi-049-shixie-complete:p010": [
+          {
+            "start": 328,
+            "end": 340
+          },
+          {
+            "start": 350,
+            "end": 375
+          }
+        ]
+      }
+    },
+    {
+      "title": "士徽",
+      "book_id": "b-sanguozhi-049",
+      "chapter_id": "c-sanguozhi-049-shixie-complete",
+      "chapter_path": "corpus/sanguozhi/049-shixie-complete.json",
+      "entry_checked": true,
+      "full_text": true,
+      "first_pass": true,
+      "item_reviewed": true,
+      "mixed_chapter": true,
+      "source_layout": "sanguozhi049_contiguous_slice",
+      "item_review_path": "source-evidence/sanguozhi049-roll/shixie-reading.json",
+      "first_line": 49,
+      "last_line": 49,
+      "start_codepoint": 66,
+      "end_codepoint": 315,
+      "opening": "而燮子徽自署交阯太守",
+      "closing": "皆伏誅，傳首詣武昌。",
+      "unit_kind": "embedded_account",
+      "parent_heading": "士燮",
+      "continuation_spans": [
+        {
+          "first_line": 49,
+          "last_line": 49,
+          "start_codepoint": 319,
+          "end_codepoint": 445,
+          "opening": "孙盛曰：夫柔远能迩，",
+          "closing": "而吕氏之祚不延者也。"
+        }
+      ],
+      "paragraph_ids": [
+        "c-sanguozhi-049-shixie-complete:p010",
+        "c-sanguozhi-049-shixie-complete:p011"
+      ],
+      "paragraph_slices": {
+        "c-sanguozhi-049-shixie-complete:p010": [
+          {
+            "start": 66,
+            "end": 315
+          }
+        ]
+      }
+    },
+    {
+      "title": "士匡",
+      "book_id": "b-sanguozhi-049",
+      "chapter_id": "c-sanguozhi-049-shixie-complete",
+      "chapter_path": "corpus/sanguozhi/049-shixie-complete.json",
+      "entry_checked": true,
+      "full_text": true,
+      "first_pass": true,
+      "item_reviewed": true,
+      "mixed_chapter": true,
+      "source_layout": "sanguozhi049_contiguous_slice",
+      "item_review_path": "source-evidence/sanguozhi049-roll/shixie-reading.json",
+      "first_line": 49,
+      "last_line": 49,
+      "start_codepoint": 178,
+      "end_codepoint": 229,
+      "opening": "壹子中郎將匡與岱有舊",
+      "closing": "雖失郡守，保無他憂。",
+      "unit_kind": "embedded_account",
+      "parent_heading": "士燮",
+      "continuation_spans": [
+        {
+          "first_line": 49,
+          "last_line": 49,
+          "start_codepoint": 389,
+          "end_codepoint": 401,
+          "opening": "吕岱师友士匡，使通信",
+          "closing": "师友士匡，使通信誓，"
+        }
+      ],
+      "paragraph_ids": [
+        "c-sanguozhi-049-shixie-complete:p010",
+        "c-sanguozhi-049-shixie-complete:p011"
+      ],
+      "paragraph_slices": {
+        "c-sanguozhi-049-shixie-complete:p010": [
+          {
+            "start": 178,
+            "end": 229
+          }
+        ],
+        "c-sanguozhi-049-shixie-complete:p011": [
+          {
+            "start": 70,
+            "end": 82
+          }
+        ]
+      }
     },
     {
       "book_id": "b-sanguozhi-050",
