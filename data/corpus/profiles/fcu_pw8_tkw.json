@@ -6,7 +6,8 @@
   "identity_note": "具名中書侍郎，先不補父母。",
   "review": "ai_provisional",
   "names": [
-    "蔡興宗"
+    "蔡興宗",
+    "興宗"
   ],
   "titles": [
     {
@@ -393,6 +394,41 @@
       "work_title": "南史"
     },
     {
+      "number": 46,
+      "category": "",
+      "title": "南齊書卷四十六·蔡約全傳",
+      "paragraph_id": "c-nanqishu-046-caiyue-complete:p001",
+      "count": 1,
+      "raw_count": 1,
+      "duplicate_count": 0,
+      "counting_policy": "independent_fixed_witness_occurrences",
+      "quote": "　　蔡約字景撝，濟陽考城人也。祖廓，宋祠部尚書。父興宗，征西、儀同。",
+      "paragraph_ids": [
+        "c-nanqishu-046-caiyue-complete:p001"
+      ],
+      "mention_ids": [
+        "c-nanqishu-046-caiyue-complete:p001:m0025"
+      ],
+      "mention_paragraph_ids": {
+        "c-nanqishu-046-caiyue-complete:p001:m0025": "c-nanqishu-046-caiyue-complete:p001"
+      },
+      "mention_id": "c-nanqishu-046-caiyue-complete:p001:m0025",
+      "occurrence_groups": [
+        {
+          "canonical_mention_id": "c-nanqishu-046-caiyue-complete:p001:m0025",
+          "mention_ids": [
+            "c-nanqishu-046-caiyue-complete:p001:m0025"
+          ],
+          "kind": "paragraph"
+        }
+      ],
+      "work_id": "w-nanqishu",
+      "book_id": "b-nanqishu-046",
+      "chapter_id": "c-nanqishu-046-caiyue-complete",
+      "source_id": "s-nanqishu-046-caiyue-complete-ws1511897",
+      "work_title": "南齊書"
+    },
+    {
       "number": 47,
       "category": "",
       "title": "謝朓傳",
@@ -535,6 +571,32 @@
   ],
   "table_occurrences": [],
   "sources": [
+    {
+      "chapter_id": "c-nanqishu-046-caiyue-complete",
+      "work_id": "w-nanqishu",
+      "book_id": "b-nanqishu-046",
+      "source_id": "s-nanqishu-046-caiyue-complete-ws1511897",
+      "source": {
+        "title": "南齊書卷四十六·蔡約全傳",
+        "provider": "Wikisource",
+        "permalink": "https://zh.wikisource.org/w/index.php?oldid=1511897",
+        "url": "https://zh.wikisource.org/w/index.php?oldid=1511897",
+        "revision_id": 1511897,
+        "edition": "維基文庫固定修訂",
+        "accessed_on": "2026-11-21",
+        "review_status": "text_checked",
+        "image_verified": false,
+        "rights": "古代原文；數位轉錄依維基文庫授權。",
+        "license_url": "https://creativecommons.org/licenses/by-sa/4.0/",
+        "extent": "南齊書卷四十六·蔡約全傳",
+        "text_scope": "complete_biography_unit",
+        "raw_path": "sources/nanqishu/nanqishu046-ws1511897.wikitext",
+        "raw_file_sha256": "d109243a343e069b8ce98cb0607567b69305574aa59ecc8776b9ea70ca0fd537",
+        "collation_witnesses": [
+          "source-evidence/nanqi046-roll/cai-reading.json"
+        ]
+      }
+    },
     {
       "chapter_id": "c-nanqishu-047-xietiao",
       "work_id": "w-nanqishu",
@@ -1273,6 +1335,33 @@
   ],
   "relations": [
     {
+      "id": "a-qi046-caiyue-father",
+      "subject_person_id": "fcu_pw8_tkw_A",
+      "object_person_id": "fcu_pw8_tkw",
+      "predicate": "father",
+      "qualifiers": {
+        "source_term": "父興宗",
+        "lineage": "paternal"
+      },
+      "evidence": [
+        {
+          "work_id": "w-nanqishu",
+          "book_id": "b-nanqishu-046",
+          "chapter_id": "c-nanqishu-046-caiyue-complete",
+          "source_id": "s-nanqishu-046-caiyue-complete-ws1511897",
+          "paragraph_id": "c-nanqishu-046-caiyue-complete:p001",
+          "quote": "　　蔡約字景撝，濟陽考城人也。祖廓，宋祠部尚書。父興宗，征西、儀同。",
+          "subject_person_mention_id": "c-nanqishu-046-caiyue-complete:p001:m0002",
+          "object_person_mention_id": "c-nanqishu-046-caiyue-complete:p001:m0025"
+        }
+      ],
+      "status": "source_attested",
+      "interpretation_note": "據本傳原句。宋安吉公主依朝代、父與夫同核。",
+      "reviewer": "Codex（AI代理）",
+      "model": null,
+      "human_reviewed": false
+    },
+    {
       "id": "a-nanshi022-wangci-128-78",
       "subject_person_id": "fcu_pw8_tkw_A",
       "object_person_id": "fcu_pw8_tkw",
@@ -1316,6 +1405,33 @@
     "fcu_pw8_tkw"
   ],
   "preferred_relations": [
+    {
+      "id": "a-qi046-caiyue-father",
+      "subject_person_id": "fcu_pw8_tkw_A",
+      "object_person_id": "fcu_pw8_tkw",
+      "predicate": "father",
+      "qualifiers": {
+        "source_term": "父興宗",
+        "lineage": "paternal"
+      },
+      "evidence": [
+        {
+          "work_id": "w-nanqishu",
+          "book_id": "b-nanqishu-046",
+          "chapter_id": "c-nanqishu-046-caiyue-complete",
+          "source_id": "s-nanqishu-046-caiyue-complete-ws1511897",
+          "paragraph_id": "c-nanqishu-046-caiyue-complete:p001",
+          "quote": "　　蔡約字景撝，濟陽考城人也。祖廓，宋祠部尚書。父興宗，征西、儀同。",
+          "subject_person_mention_id": "c-nanqishu-046-caiyue-complete:p001:m0002",
+          "object_person_mention_id": "c-nanqishu-046-caiyue-complete:p001:m0025"
+        }
+      ],
+      "status": "source_attested",
+      "interpretation_note": "據本傳原句。宋安吉公主依朝代、父與夫同核。",
+      "reviewer": "Codex（AI代理）",
+      "model": null,
+      "human_reviewed": false
+    },
     {
       "id": "a-nanshi022-wangci-128-78",
       "subject_person_id": "fcu_pw8_tkw_A",

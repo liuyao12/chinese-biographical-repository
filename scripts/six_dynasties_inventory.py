@@ -6,6 +6,10 @@ from pathlib import Path
 
 ROOT = Path(__file__).resolve().parents[1]
 STAGES = ('entry_checked', 'full_text', 'first_pass', 'item_reviewed')
+NANQI_FIXED_LAYOUTS = (
+    'nanqi041_fixed_text', 'nanqi042_fixed_text', 'nanqi043_fixed_text',
+    'nanqi044_fixed_text', 'nanqi045_fixed_text', 'nanqi046_fixed_text', 'nanqi046_legacy_text',
+)
 
 
 def received_text(line):
@@ -247,13 +251,15 @@ def source_paragraphs(lines, layout=None):
             from sanguozhi064_slices import slice_text
         volume = int(layout[9:12])
         return [slice_text(line, volume) for line in lines]
-    if layout in ('nanqi041_fixed_text', 'nanqi042_fixed_text', 'nanqi043_fixed_text', 'nanqi044_fixed_text',
-                  'nanqi045_fixed_text'):
+    if layout in NANQI_FIXED_LAYOUTS:
         try:
             from scripts.nanqi041_projection import decode_line
         except ImportError:
             from nanqi041_projection import decode_line
-        return [text for line in lines if (text := decode_line(line)[0])]
+        paragraphs = [text for line in lines if (text := decode_line(line)[0])]
+        if layout == 'nanqi046_legacy_text':
+            return [text.removeprefix('　　') for text in paragraphs]
+        return paragraphs
     if layout == 'jin065_indented_text':
         paragraphs = []
         for line in lines:
@@ -426,13 +432,15 @@ def verify(root=ROOT):
             assert chapter['id'] == cid and chapter['source']['revision_id'] == survey['revision']
             paragraphs, text = chapter_passage(entry, chapter)
             assert source_paragraphs(selected, entry.get('source_layout')) == text, title
-            if entry.get('source_layout') in ('nanqi041_fixed_text', 'nanqi042_fixed_text', 'nanqi043_fixed_text',
-                                             'nanqi044_fixed_text', 'nanqi045_fixed_text'):
+            if entry.get('source_layout') in NANQI_FIXED_LAYOUTS:
                 try:
                     from scripts.nanqi041_projection import verify_positions
                 except ImportError:
                     from nanqi041_projection import verify_positions
-                verify_positions(chapter, (root / survey['raw_path']).read_text())
+                verify_positions(
+                    chapter, (root / survey['raw_path']).read_text(),
+                    omit_leading_indent=entry['source_layout'] == 'nanqi046_legacy_text',
+                )
             if entry['item_reviewed']:
                 assert all(reviewed_slices(p, entry, chapter) for p in paragraphs), title
     for book, (survey, lines) in witnesses.items():

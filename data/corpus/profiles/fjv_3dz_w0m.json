@@ -288,6 +288,50 @@
     {
       "number": 46,
       "category": "",
+      "title": "南齊書卷四十六·蕭惠基、弈棊附敘、惠休與惠朗",
+      "paragraph_id": "c-nanqishu-046-xiaohuiji-complete:p004",
+      "count": 2,
+      "raw_count": 2,
+      "duplicate_count": 0,
+      "counting_policy": "independent_fixed_witness_occurrences",
+      "quote": "門郎。惠基善隷書及弈棊，太祖與之情好相得，早相器遇。桂陽之役，惠基姊爲休範妃，太祖謂之曰：「卿家桂陽遂復作賊。」太祖頓新亭壘，以惠基爲軍副，惠基弟惠朗親爲休範攻戰，惠基在城內了不自疑。出爲豫章太守。還爲吏部郎，遷長兼侍中。袁粲、劉秉起兵之夕，太祖以秉是惠基妹夫，時直在侍中省",
+      "paragraph_ids": [
+        "c-nanqishu-046-xiaohuiji-complete:p004"
+      ],
+      "mention_ids": [
+        "c-nanqishu-046-xiaohuiji-complete:p004:m0047",
+        "c-nanqishu-046-xiaohuiji-complete:p004:m0089"
+      ],
+      "mention_paragraph_ids": {
+        "c-nanqishu-046-xiaohuiji-complete:p004:m0047": "c-nanqishu-046-xiaohuiji-complete:p004",
+        "c-nanqishu-046-xiaohuiji-complete:p004:m0089": "c-nanqishu-046-xiaohuiji-complete:p004"
+      },
+      "mention_id": "c-nanqishu-046-xiaohuiji-complete:p004:m0047",
+      "occurrence_groups": [
+        {
+          "canonical_mention_id": "c-nanqishu-046-xiaohuiji-complete:p004:m0047",
+          "mention_ids": [
+            "c-nanqishu-046-xiaohuiji-complete:p004:m0047"
+          ],
+          "kind": "paragraph"
+        },
+        {
+          "canonical_mention_id": "c-nanqishu-046-xiaohuiji-complete:p004:m0089",
+          "mention_ids": [
+            "c-nanqishu-046-xiaohuiji-complete:p004:m0089"
+          ],
+          "kind": "paragraph"
+        }
+      ],
+      "work_id": "w-nanqishu",
+      "book_id": "b-nanqishu-046",
+      "chapter_id": "c-nanqishu-046-xiaohuiji-complete",
+      "source_id": "s-nanqishu-046-xiaohuiji-complete-ws1511897",
+      "work_title": "南齊書"
+    },
+    {
+      "number": 46,
+      "category": "",
       "title": "王秀之傳",
       "paragraph_id": "c-nanqishu-046-wangxiuzhi:line013",
       "count": 2,
@@ -612,6 +656,32 @@
           ]
         },
         "response_sha256": "5c7b6b848d348ff02938bfa253f4357668fba6b1df46559afb1033418cbd529f"
+      }
+    },
+    {
+      "chapter_id": "c-nanqishu-046-xiaohuiji-complete",
+      "work_id": "w-nanqishu",
+      "book_id": "b-nanqishu-046",
+      "source_id": "s-nanqishu-046-xiaohuiji-complete-ws1511897",
+      "source": {
+        "title": "南齊書卷四十六·蕭惠基、弈棊附敘、惠休與惠朗",
+        "provider": "Wikisource",
+        "permalink": "https://zh.wikisource.org/w/index.php?oldid=1511897",
+        "url": "https://zh.wikisource.org/w/index.php?oldid=1511897",
+        "revision_id": 1511897,
+        "edition": "維基文庫固定修訂",
+        "accessed_on": "2026-11-21",
+        "review_status": "text_checked",
+        "image_verified": false,
+        "rights": "古代原文；數位轉錄依維基文庫授權。",
+        "license_url": "https://creativecommons.org/licenses/by-sa/4.0/",
+        "extent": "南齊書卷四十六·蕭惠基、弈棊附敘、惠休與惠朗",
+        "text_scope": "complete_biography_unit",
+        "raw_path": "sources/nanqishu/nanqishu046-ws1511897.wikitext",
+        "raw_file_sha256": "d109243a343e069b8ce98cb0607567b69305574aa59ecc8776b9ea70ca0fd537",
+        "collation_witnesses": [
+          "source-evidence/nanqi046-roll/xiao-reading.json"
+        ]
       }
     },
     {
@@ -1039,8 +1109,36 @@
       }
     }
   ],
-  "relations": [],
+  "relations": [
+    {
+      "id": "a-qi046-xiaohuiji-elder-sister-marriage",
+      "subject_person_id": "70w_jj6_ef1",
+      "object_person_id": "fjv_3dz_w0m",
+      "predicate": "spouse",
+      "qualifiers": {
+        "source_term": "惠基姊爲休範妃"
+      },
+      "evidence": [
+        {
+          "work_id": "w-nanqishu",
+          "book_id": "b-nanqishu-046",
+          "chapter_id": "c-nanqishu-046-xiaohuiji-complete",
+          "source_id": "s-nanqishu-046-xiaohuiji-complete-ws1511897",
+          "paragraph_id": "c-nanqishu-046-xiaohuiji-complete:p004",
+          "quote": "　　出爲武陵內史，中書黃門郎。惠基善隷書及弈棊，太祖與之情好相得，早相器遇。桂陽之役，惠基姊爲休範妃，太祖謂之曰：「卿家桂陽遂復作賊。」太祖頓新亭壘，以惠基爲軍副，惠基弟惠朗親爲休範攻戰，惠基在城內了不自疑。出爲豫章太守。還爲吏部郎，遷長兼侍中。袁粲、劉秉起兵之夕，太祖以秉是惠基妹夫，時直在侍中省，遣王敬則觀其指趣，見惠基安靜不與秉相知，由是益加恩信。討沈攸之，加惠基輔國將軍，徙頓新亭。事寧，解軍號，領長水校尉。母憂去官。",
+          "subject_person_mention_id": "c-nanqishu-046-xiaohuiji-complete:p004:m0045",
+          "object_person_mention_id": "c-nanqishu-046-xiaohuiji-complete:p004:m0047"
+        }
+      ],
+      "status": "source_attested",
+      "interpretation_note": "桂陽王休範妃為惠基姊。",
+      "reviewer": "Codex（AI代理）",
+      "model": null,
+      "human_reviewed": false
+    }
+  ],
   "related_people": {
+    "70w_jj6_ef1": "蕭氏（蕭惠基姊，桂陽王休範妃）",
     "fjv_3dz_w0m": "桂陽王休範"
   },
   "dates": [],
@@ -1125,7 +1223,34 @@
   "person_ids": [
     "fjv_3dz_w0m"
   ],
-  "preferred_relations": [],
+  "preferred_relations": [
+    {
+      "id": "a-qi046-xiaohuiji-elder-sister-marriage",
+      "subject_person_id": "70w_jj6_ef1",
+      "object_person_id": "fjv_3dz_w0m",
+      "predicate": "spouse",
+      "qualifiers": {
+        "source_term": "惠基姊爲休範妃"
+      },
+      "evidence": [
+        {
+          "work_id": "w-nanqishu",
+          "book_id": "b-nanqishu-046",
+          "chapter_id": "c-nanqishu-046-xiaohuiji-complete",
+          "source_id": "s-nanqishu-046-xiaohuiji-complete-ws1511897",
+          "paragraph_id": "c-nanqishu-046-xiaohuiji-complete:p004",
+          "quote": "　　出爲武陵內史，中書黃門郎。惠基善隷書及弈棊，太祖與之情好相得，早相器遇。桂陽之役，惠基姊爲休範妃，太祖謂之曰：「卿家桂陽遂復作賊。」太祖頓新亭壘，以惠基爲軍副，惠基弟惠朗親爲休範攻戰，惠基在城內了不自疑。出爲豫章太守。還爲吏部郎，遷長兼侍中。袁粲、劉秉起兵之夕，太祖以秉是惠基妹夫，時直在侍中省，遣王敬則觀其指趣，見惠基安靜不與秉相知，由是益加恩信。討沈攸之，加惠基輔國將軍，徙頓新亭。事寧，解軍號，領長水校尉。母憂去官。",
+          "subject_person_mention_id": "c-nanqishu-046-xiaohuiji-complete:p004:m0045",
+          "object_person_mention_id": "c-nanqishu-046-xiaohuiji-complete:p004:m0047"
+        }
+      ],
+      "status": "source_attested",
+      "interpretation_note": "桂陽王休範妃為惠基姊。",
+      "reviewer": "Codex（AI代理）",
+      "model": null,
+      "human_reviewed": false
+    }
+  ],
   "age_assertions": [],
   "life_events": [],
   "life_event_date_decisions": [],
