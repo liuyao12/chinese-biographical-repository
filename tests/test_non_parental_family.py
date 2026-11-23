@@ -53,6 +53,22 @@ class NonParentalFamily(unittest.TestCase):
         self.assertNotEqual(care['object_person_id'],mothers[0]['object_person_id'])
         self.assertFalse(any(a['subject_person_id']==care['subject_person_id'] and a['predicate']=='adoptive_mother' for a in self.relations))
 
+    def test_yuan_tuan_rearing_requires_the_continued_biographical_subject(self):
+        base = ROOT / 'corpus/nanqishu/048-yuantuan-complete.json'
+        chapter = json.loads(base.read_text())
+        assertions = json.loads(base.with_name(base.stem + '-assertions.json').read_text())['assertions']
+        claim = next(row for row in assertions if row['predicate'] == 'raised_by')
+        evidence = claim['evidence'][0]
+        paragraph = next(row for row in chapter['paragraphs'] if row['id'] == evidence['paragraph_id'])
+        paragraphs = {paragraph['id']: (chapter['id'], paragraph)}
+        self.assertTrue(non_parental_relation_valid(claim, paragraphs))
+
+        mother = next(row for row in paragraph['mentions'] if row['surface'] == '母')
+        wrong_subject = copy.deepcopy(claim)
+        wrong_subject['subject_person_id'] = mother['person_id']
+        wrong_subject['evidence'][0]['subject_person_mention_id'] = mother['id']
+        self.assertFalse(non_parental_relation_valid(wrong_subject, paragraphs))
+
     def test_care_does_not_replace_the_two_orphans_father(self):
         for a in self.cases:
             if a['qualifiers'].get('care_basis')!='welcomed_like_children':continue
