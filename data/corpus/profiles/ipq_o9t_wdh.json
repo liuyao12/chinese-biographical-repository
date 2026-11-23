@@ -627,6 +627,61 @@
       "work_title": "南齊書"
     },
     {
+      "number": 50,
+      "category": "",
+      "title": "南齊書卷五十·文惠太子二王及明帝七王",
+      "paragraph_id": "c-nanqishu-050-princes-complete:p001",
+      "count": 3,
+      "raw_count": 3,
+      "duplicate_count": 0,
+      "counting_policy": "independent_fixed_witness_occurrences",
+      "quote": "　　文惠太子四男：安皇后生鬱林王昭業；宮人許氏生海陵恭王昭文；陳氏生巴陵王昭秀；褚氏生桂陽王昭粲。",
+      "paragraph_ids": [
+        "c-nanqishu-050-princes-complete:p001",
+        "c-nanqishu-050-princes-complete:p002",
+        "c-nanqishu-050-princes-complete:p004"
+      ],
+      "mention_ids": [
+        "c-nanqishu-050-princes-complete:p001:m0002",
+        "c-nanqishu-050-princes-complete:p002:m0011",
+        "c-nanqishu-050-princes-complete:p004:m0008"
+      ],
+      "mention_paragraph_ids": {
+        "c-nanqishu-050-princes-complete:p001:m0002": "c-nanqishu-050-princes-complete:p001",
+        "c-nanqishu-050-princes-complete:p002:m0011": "c-nanqishu-050-princes-complete:p002",
+        "c-nanqishu-050-princes-complete:p004:m0008": "c-nanqishu-050-princes-complete:p004"
+      },
+      "mention_id": "c-nanqishu-050-princes-complete:p001:m0002",
+      "occurrence_groups": [
+        {
+          "canonical_mention_id": "c-nanqishu-050-princes-complete:p001:m0002",
+          "mention_ids": [
+            "c-nanqishu-050-princes-complete:p001:m0002"
+          ],
+          "kind": "paragraph"
+        },
+        {
+          "canonical_mention_id": "c-nanqishu-050-princes-complete:p002:m0011",
+          "mention_ids": [
+            "c-nanqishu-050-princes-complete:p002:m0011"
+          ],
+          "kind": "paragraph"
+        },
+        {
+          "canonical_mention_id": "c-nanqishu-050-princes-complete:p004:m0008",
+          "mention_ids": [
+            "c-nanqishu-050-princes-complete:p004:m0008"
+          ],
+          "kind": "paragraph"
+        }
+      ],
+      "work_id": "w-nanqishu",
+      "book_id": "b-nanqishu-050",
+      "chapter_id": "c-nanqishu-050-princes-complete",
+      "source_id": "s-nanqishu-050-princes-complete-ws2272731",
+      "work_title": "南齊書"
+    },
+    {
       "number": 52,
       "category": "",
       "title": "祖沖之傳",
@@ -2057,6 +2112,32 @@
       }
     },
     {
+      "chapter_id": "c-nanqishu-050-princes-complete",
+      "work_id": "w-nanqishu",
+      "book_id": "b-nanqishu-050",
+      "source_id": "s-nanqishu-050-princes-complete-ws2272731",
+      "source": {
+        "title": "南齊書卷五十·文惠太子二王及明帝七王",
+        "provider": "Wikisource",
+        "permalink": "https://zh.wikisource.org/w/index.php?oldid=2272731",
+        "url": "https://zh.wikisource.org/w/index.php?oldid=2272731",
+        "revision_id": 2272731,
+        "edition": "維基文庫固定修訂",
+        "accessed_on": "2026-11-21",
+        "review_status": "text_checked",
+        "image_verified": false,
+        "rights": "古代原文；數位轉錄依維基文庫授權。",
+        "license_url": "https://creativecommons.org/licenses/by-sa/4.0/",
+        "extent": "南齊書卷五十·文惠太子二王及明帝七王",
+        "text_scope": "complete_biography_unit",
+        "raw_path": "source-evidence/nanshi019-xietiao/nanqishu050-ws2272731.wikitext",
+        "raw_file_sha256": "2459124c61a488a22b5213cfefd1ca38d0015243f9471998260692781a016207",
+        "collation_witnesses": [
+          "source-evidence/nanqi050-roll/princes-reading.json"
+        ]
+      }
+    },
+    {
       "chapter_id": "c-nanqishu-052-zuchongzhi",
       "work_id": "w-nanqishu",
       "book_id": "b-nanqishu-052",
@@ -2909,6 +2990,114 @@
       "model": null
     },
     {
+      "id": "a-qi050-zhaoye-father",
+      "subject_person_id": "iop_ybd_afm",
+      "object_person_id": "ipq_o9t_wdh",
+      "predicate": "father",
+      "qualifiers": {
+        "source_term": "文惠太子四男",
+        "lineage": "paternal"
+      },
+      "evidence": [
+        {
+          "work_id": "w-nanqishu",
+          "book_id": "b-nanqishu-050",
+          "chapter_id": "c-nanqishu-050-princes-complete",
+          "source_id": "s-nanqishu-050-princes-complete-ws2272731",
+          "paragraph_id": "c-nanqishu-050-princes-complete:p001",
+          "quote": "　　文惠太子四男：安皇后生鬱林王昭業；宮人許氏生海陵恭王昭文；陳氏生巴陵王昭秀；褚氏生桂陽王昭粲。",
+          "subject_person_mention_id": "c-nanqishu-050-princes-complete:p001:m0013",
+          "object_person_mention_id": "c-nanqishu-050-princes-complete:p001:m0002"
+        }
+      ],
+      "status": "source_attested",
+      "interpretation_note": "人物見本卷傳首所列諸男。",
+      "reviewer": "Codex（AI代理）",
+      "model": null,
+      "human_reviewed": false
+    },
+    {
+      "id": "a-qi050-zhaowen-father",
+      "subject_person_id": "79g_3gx_htk",
+      "object_person_id": "ipq_o9t_wdh",
+      "predicate": "father",
+      "qualifiers": {
+        "source_term": "文惠太子四男",
+        "lineage": "paternal"
+      },
+      "evidence": [
+        {
+          "work_id": "w-nanqishu",
+          "book_id": "b-nanqishu-050",
+          "chapter_id": "c-nanqishu-050-princes-complete",
+          "source_id": "s-nanqishu-050-princes-complete-ws2272731",
+          "paragraph_id": "c-nanqishu-050-princes-complete:p001",
+          "quote": "　　文惠太子四男：安皇后生鬱林王昭業；宮人許氏生海陵恭王昭文；陳氏生巴陵王昭秀；褚氏生桂陽王昭粲。",
+          "subject_person_mention_id": "c-nanqishu-050-princes-complete:p001:m0024",
+          "object_person_mention_id": "c-nanqishu-050-princes-complete:p001:m0002"
+        }
+      ],
+      "status": "source_attested",
+      "interpretation_note": "人物見本卷傳首所列諸男。",
+      "reviewer": "Codex（AI代理）",
+      "model": null,
+      "human_reviewed": false
+    },
+    {
+      "id": "a-qi050-zhaoxiu-father",
+      "subject_person_id": "ipq_o9t_wdh_A",
+      "object_person_id": "ipq_o9t_wdh",
+      "predicate": "father",
+      "qualifiers": {
+        "source_term": "文惠太子四男",
+        "lineage": "paternal"
+      },
+      "evidence": [
+        {
+          "work_id": "w-nanqishu",
+          "book_id": "b-nanqishu-050",
+          "chapter_id": "c-nanqishu-050-princes-complete",
+          "source_id": "s-nanqishu-050-princes-complete-ws2272731",
+          "paragraph_id": "c-nanqishu-050-princes-complete:p001",
+          "quote": "　　文惠太子四男：安皇后生鬱林王昭業；宮人許氏生海陵恭王昭文；陳氏生巴陵王昭秀；褚氏生桂陽王昭粲。",
+          "subject_person_mention_id": "c-nanqishu-050-princes-complete:p001:m0034",
+          "object_person_mention_id": "c-nanqishu-050-princes-complete:p001:m0002"
+        }
+      ],
+      "status": "source_attested",
+      "interpretation_note": "人物見本卷傳首所列諸男。",
+      "reviewer": "Codex（AI代理）",
+      "model": null,
+      "human_reviewed": false
+    },
+    {
+      "id": "a-qi050-zhaocan-father",
+      "subject_person_id": "ipq_o9t_wdh_B",
+      "object_person_id": "ipq_o9t_wdh",
+      "predicate": "father",
+      "qualifiers": {
+        "source_term": "文惠太子四男",
+        "lineage": "paternal"
+      },
+      "evidence": [
+        {
+          "work_id": "w-nanqishu",
+          "book_id": "b-nanqishu-050",
+          "chapter_id": "c-nanqishu-050-princes-complete",
+          "source_id": "s-nanqishu-050-princes-complete-ws2272731",
+          "paragraph_id": "c-nanqishu-050-princes-complete:p001",
+          "quote": "　　文惠太子四男：安皇后生鬱林王昭業；宮人許氏生海陵恭王昭文；陳氏生巴陵王昭秀；褚氏生桂陽王昭粲。",
+          "subject_person_mention_id": "c-nanqishu-050-princes-complete:p001:m0043",
+          "object_person_mention_id": "c-nanqishu-050-princes-complete:p001:m0002"
+        }
+      ],
+      "status": "source_attested",
+      "interpretation_note": "人物見本卷傳首所列諸男。",
+      "reviewer": "Codex（AI代理）",
+      "model": null,
+      "human_reviewed": false
+    },
+    {
       "id": "a-nanshi-011-wangbaoming-4",
       "predicate": "spouse",
       "subject_person_id": "m9u_v4i_tk5",
@@ -3104,6 +3293,7 @@
   ],
   "related_people": {
     "262_b8f_4ie_AA": "裴惠昭",
+    "79g_3gx_htk": "新安王昭文",
     "iop_ybd_afm": "鬱林王昭業",
     "ipq_o9t_wdh": "南郡王長懋",
     "ipq_o9t_wdh_A": "蕭昭秀（字懷尚，巴陵王）",
@@ -3238,6 +3428,20 @@
       "human_reviewed": false,
       "chapter_id": "c-nanqishu-020-wangbaoming",
       "source_id": "s-nanqishu-020-wangbaoming-ws2074177"
+    },
+    {
+      "id": "c-nanqishu-050-princes-complete:source_review1-0",
+      "kind": "source_review",
+      "person_id": "ipq_o9t_wdh",
+      "source_quote": "　　文惠太子四男：安皇后生鬱林王昭業；宮人許氏生海陵恭王昭文；陳氏生巴陵王昭秀；褚氏生桂陽王昭粲。",
+      "reading": "本卷先列文惠太子四子及各母。安皇后生昭業、宮人許氏生昭文、陳氏生昭秀、褚氏生昭粲。昭業、昭文各有本紀，這裡只見母系總敘。",
+      "note": "本卷先列文惠太子四子及各母。安皇后生昭業、宮人許氏生昭文、陳氏生昭秀、褚氏生昭粲。昭業、昭文各有本紀，這裡只見母系總敘。",
+      "paragraph_id": "c-nanqishu-050-princes-complete:p001",
+      "start_codepoint": 0,
+      "end_codepoint": 49,
+      "human_reviewed": false,
+      "chapter_id": "c-nanqishu-050-princes-complete",
+      "source_id": "s-nanqishu-050-princes-complete-ws2272731"
     },
     {
       "id": "c-nanshi-011-wangbaoming-izumo-compare-4",
@@ -4079,6 +4283,114 @@
       "reviewer": "Codex（AI 代理）",
       "human_reviewed": false,
       "model": null
+    },
+    {
+      "id": "a-qi050-zhaoye-father",
+      "subject_person_id": "iop_ybd_afm",
+      "object_person_id": "ipq_o9t_wdh",
+      "predicate": "father",
+      "qualifiers": {
+        "source_term": "文惠太子四男",
+        "lineage": "paternal"
+      },
+      "evidence": [
+        {
+          "work_id": "w-nanqishu",
+          "book_id": "b-nanqishu-050",
+          "chapter_id": "c-nanqishu-050-princes-complete",
+          "source_id": "s-nanqishu-050-princes-complete-ws2272731",
+          "paragraph_id": "c-nanqishu-050-princes-complete:p001",
+          "quote": "　　文惠太子四男：安皇后生鬱林王昭業；宮人許氏生海陵恭王昭文；陳氏生巴陵王昭秀；褚氏生桂陽王昭粲。",
+          "subject_person_mention_id": "c-nanqishu-050-princes-complete:p001:m0013",
+          "object_person_mention_id": "c-nanqishu-050-princes-complete:p001:m0002"
+        }
+      ],
+      "status": "source_attested",
+      "interpretation_note": "人物見本卷傳首所列諸男。",
+      "reviewer": "Codex（AI代理）",
+      "model": null,
+      "human_reviewed": false
+    },
+    {
+      "id": "a-qi050-zhaowen-father",
+      "subject_person_id": "79g_3gx_htk",
+      "object_person_id": "ipq_o9t_wdh",
+      "predicate": "father",
+      "qualifiers": {
+        "source_term": "文惠太子四男",
+        "lineage": "paternal"
+      },
+      "evidence": [
+        {
+          "work_id": "w-nanqishu",
+          "book_id": "b-nanqishu-050",
+          "chapter_id": "c-nanqishu-050-princes-complete",
+          "source_id": "s-nanqishu-050-princes-complete-ws2272731",
+          "paragraph_id": "c-nanqishu-050-princes-complete:p001",
+          "quote": "　　文惠太子四男：安皇后生鬱林王昭業；宮人許氏生海陵恭王昭文；陳氏生巴陵王昭秀；褚氏生桂陽王昭粲。",
+          "subject_person_mention_id": "c-nanqishu-050-princes-complete:p001:m0024",
+          "object_person_mention_id": "c-nanqishu-050-princes-complete:p001:m0002"
+        }
+      ],
+      "status": "source_attested",
+      "interpretation_note": "人物見本卷傳首所列諸男。",
+      "reviewer": "Codex（AI代理）",
+      "model": null,
+      "human_reviewed": false
+    },
+    {
+      "id": "a-qi050-zhaoxiu-father",
+      "subject_person_id": "ipq_o9t_wdh_A",
+      "object_person_id": "ipq_o9t_wdh",
+      "predicate": "father",
+      "qualifiers": {
+        "source_term": "文惠太子四男",
+        "lineage": "paternal"
+      },
+      "evidence": [
+        {
+          "work_id": "w-nanqishu",
+          "book_id": "b-nanqishu-050",
+          "chapter_id": "c-nanqishu-050-princes-complete",
+          "source_id": "s-nanqishu-050-princes-complete-ws2272731",
+          "paragraph_id": "c-nanqishu-050-princes-complete:p001",
+          "quote": "　　文惠太子四男：安皇后生鬱林王昭業；宮人許氏生海陵恭王昭文；陳氏生巴陵王昭秀；褚氏生桂陽王昭粲。",
+          "subject_person_mention_id": "c-nanqishu-050-princes-complete:p001:m0034",
+          "object_person_mention_id": "c-nanqishu-050-princes-complete:p001:m0002"
+        }
+      ],
+      "status": "source_attested",
+      "interpretation_note": "人物見本卷傳首所列諸男。",
+      "reviewer": "Codex（AI代理）",
+      "model": null,
+      "human_reviewed": false
+    },
+    {
+      "id": "a-qi050-zhaocan-father",
+      "subject_person_id": "ipq_o9t_wdh_B",
+      "object_person_id": "ipq_o9t_wdh",
+      "predicate": "father",
+      "qualifiers": {
+        "source_term": "文惠太子四男",
+        "lineage": "paternal"
+      },
+      "evidence": [
+        {
+          "work_id": "w-nanqishu",
+          "book_id": "b-nanqishu-050",
+          "chapter_id": "c-nanqishu-050-princes-complete",
+          "source_id": "s-nanqishu-050-princes-complete-ws2272731",
+          "paragraph_id": "c-nanqishu-050-princes-complete:p001",
+          "quote": "　　文惠太子四男：安皇后生鬱林王昭業；宮人許氏生海陵恭王昭文；陳氏生巴陵王昭秀；褚氏生桂陽王昭粲。",
+          "subject_person_mention_id": "c-nanqishu-050-princes-complete:p001:m0043",
+          "object_person_mention_id": "c-nanqishu-050-princes-complete:p001:m0002"
+        }
+      ],
+      "status": "source_attested",
+      "interpretation_note": "人物見本卷傳首所列諸男。",
+      "reviewer": "Codex（AI代理）",
+      "model": null,
+      "human_reviewed": false
     },
     {
       "id": "a-nanshi-011-wangbaoming-4",

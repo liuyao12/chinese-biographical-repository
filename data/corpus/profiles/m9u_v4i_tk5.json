@@ -1489,6 +1489,71 @@
       "work_title": "南齊書"
     },
     {
+      "number": 50,
+      "category": "",
+      "title": "南齊書卷五十·文惠太子二王及明帝七王",
+      "paragraph_id": "c-nanqishu-050-princes-complete:p001",
+      "count": 4,
+      "raw_count": 4,
+      "duplicate_count": 0,
+      "counting_policy": "independent_fixed_witness_occurrences",
+      "quote": "　　文惠太子四男：安皇后生鬱林王昭業；宮人許氏生海陵恭王昭文；陳氏生巴陵王昭秀；褚氏生桂陽王昭粲。",
+      "paragraph_ids": [
+        "c-nanqishu-050-princes-complete:p001",
+        "c-nanqishu-050-princes-complete:p006",
+        "c-nanqishu-050-princes-complete:p012",
+        "c-nanqishu-050-princes-complete:p013"
+      ],
+      "mention_ids": [
+        "c-nanqishu-050-princes-complete:p001:m0009",
+        "c-nanqishu-050-princes-complete:p006:m0270",
+        "c-nanqishu-050-princes-complete:p012:m0069",
+        "c-nanqishu-050-princes-complete:p013:m0158"
+      ],
+      "mention_paragraph_ids": {
+        "c-nanqishu-050-princes-complete:p001:m0009": "c-nanqishu-050-princes-complete:p001",
+        "c-nanqishu-050-princes-complete:p006:m0270": "c-nanqishu-050-princes-complete:p006",
+        "c-nanqishu-050-princes-complete:p012:m0069": "c-nanqishu-050-princes-complete:p012",
+        "c-nanqishu-050-princes-complete:p013:m0158": "c-nanqishu-050-princes-complete:p013"
+      },
+      "mention_id": "c-nanqishu-050-princes-complete:p001:m0009",
+      "occurrence_groups": [
+        {
+          "canonical_mention_id": "c-nanqishu-050-princes-complete:p001:m0009",
+          "mention_ids": [
+            "c-nanqishu-050-princes-complete:p001:m0009"
+          ],
+          "kind": "paragraph"
+        },
+        {
+          "canonical_mention_id": "c-nanqishu-050-princes-complete:p006:m0270",
+          "mention_ids": [
+            "c-nanqishu-050-princes-complete:p006:m0270"
+          ],
+          "kind": "paragraph"
+        },
+        {
+          "canonical_mention_id": "c-nanqishu-050-princes-complete:p012:m0069",
+          "mention_ids": [
+            "c-nanqishu-050-princes-complete:p012:m0069"
+          ],
+          "kind": "paragraph"
+        },
+        {
+          "canonical_mention_id": "c-nanqishu-050-princes-complete:p013:m0158",
+          "mention_ids": [
+            "c-nanqishu-050-princes-complete:p013:m0158"
+          ],
+          "kind": "paragraph"
+        }
+      ],
+      "work_id": "w-nanqishu",
+      "book_id": "b-nanqishu-050",
+      "chapter_id": "c-nanqishu-050-princes-complete",
+      "source_id": "s-nanqishu-050-princes-complete-ws2272731",
+      "work_title": "南齊書"
+    },
+    {
       "number": 143,
       "category": "",
       "title": "御覽皇親部引蕭子顯齊書何妃",
@@ -1961,6 +2026,32 @@
         "raw_file_sha256": "9a66e3bb75c98eacffcdaaf3d866e679b06966574e4f5915630697024b9c0a1b",
         "collation_witnesses": [
           "source-evidence/nanqi045-roll/mian-reading.json"
+        ]
+      }
+    },
+    {
+      "chapter_id": "c-nanqishu-050-princes-complete",
+      "work_id": "w-nanqishu",
+      "book_id": "b-nanqishu-050",
+      "source_id": "s-nanqishu-050-princes-complete-ws2272731",
+      "source": {
+        "title": "南齊書卷五十·文惠太子二王及明帝七王",
+        "provider": "Wikisource",
+        "permalink": "https://zh.wikisource.org/w/index.php?oldid=2272731",
+        "url": "https://zh.wikisource.org/w/index.php?oldid=2272731",
+        "revision_id": 2272731,
+        "edition": "維基文庫固定修訂",
+        "accessed_on": "2026-11-21",
+        "review_status": "text_checked",
+        "image_verified": false,
+        "rights": "古代原文；數位轉錄依維基文庫授權。",
+        "license_url": "https://creativecommons.org/licenses/by-sa/4.0/",
+        "extent": "南齊書卷五十·文惠太子二王及明帝七王",
+        "text_scope": "complete_biography_unit",
+        "raw_path": "source-evidence/nanshi019-xietiao/nanqishu050-ws2272731.wikitext",
+        "raw_file_sha256": "2459124c61a488a22b5213cfefd1ca38d0015243f9471998260692781a016207",
+        "collation_witnesses": [
+          "source-evidence/nanqi050-roll/princes-reading.json"
         ]
       }
     },
@@ -2686,6 +2777,33 @@
       "reviewer": "Codex（AI 代理）",
       "human_reviewed": false,
       "model": null
+    },
+    {
+      "id": "a-qi050-zhaoye-mother",
+      "subject_person_id": "iop_ybd_afm",
+      "object_person_id": "m9u_v4i_tk5",
+      "predicate": "mother",
+      "qualifiers": {
+        "source_term": "安皇后生鬱林王昭業",
+        "lineage": "maternal"
+      },
+      "evidence": [
+        {
+          "work_id": "w-nanqishu",
+          "book_id": "b-nanqishu-050",
+          "chapter_id": "c-nanqishu-050-princes-complete",
+          "source_id": "s-nanqishu-050-princes-complete-ws2272731",
+          "paragraph_id": "c-nanqishu-050-princes-complete:p001",
+          "quote": "　　文惠太子四男：安皇后生鬱林王昭業；宮人許氏生海陵恭王昭文；陳氏生巴陵王昭秀；褚氏生桂陽王昭粲。",
+          "subject_person_mention_id": "c-nanqishu-050-princes-complete:p001:m0013",
+          "object_person_mention_id": "c-nanqishu-050-princes-complete:p001:m0009"
+        }
+      ],
+      "status": "source_attested",
+      "interpretation_note": "父系總敘中特別具所生母。",
+      "reviewer": "Codex（AI代理）",
+      "model": null,
+      "human_reviewed": false
     },
     {
       "id": "a-nanshi-011-wangbaoming-1",
@@ -4733,6 +4851,33 @@
       "reviewer": "Codex（AI 代理）",
       "human_reviewed": false,
       "model": null
+    },
+    {
+      "id": "a-qi050-zhaoye-mother",
+      "subject_person_id": "iop_ybd_afm",
+      "object_person_id": "m9u_v4i_tk5",
+      "predicate": "mother",
+      "qualifiers": {
+        "source_term": "安皇后生鬱林王昭業",
+        "lineage": "maternal"
+      },
+      "evidence": [
+        {
+          "work_id": "w-nanqishu",
+          "book_id": "b-nanqishu-050",
+          "chapter_id": "c-nanqishu-050-princes-complete",
+          "source_id": "s-nanqishu-050-princes-complete-ws2272731",
+          "paragraph_id": "c-nanqishu-050-princes-complete:p001",
+          "quote": "　　文惠太子四男：安皇后生鬱林王昭業；宮人許氏生海陵恭王昭文；陳氏生巴陵王昭秀；褚氏生桂陽王昭粲。",
+          "subject_person_mention_id": "c-nanqishu-050-princes-complete:p001:m0013",
+          "object_person_mention_id": "c-nanqishu-050-princes-complete:p001:m0009"
+        }
+      ],
+      "status": "source_attested",
+      "interpretation_note": "父系總敘中特別具所生母。",
+      "reviewer": "Codex（AI代理）",
+      "model": null,
+      "human_reviewed": false
     },
     {
       "id": "a-nanshi-011-wangbaoming-1",
