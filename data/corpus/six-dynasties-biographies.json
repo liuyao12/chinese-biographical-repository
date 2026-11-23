@@ -1237,7 +1237,7 @@
       "sha256": "7a65e9b58b508ef0dbc64a4a650c99c30dcd94f8f13ea9a23d171f539174baed",
       "heading_survey": "complete",
       "heading_locator_scheme": "wikisource_equals_lines",
-      "embedded_account_survey": "partial",
+      "embedded_account_survey": "complete",
       "excluded_sections": [
         {
           "heading_line": 92,
@@ -1250,12 +1250,8 @@
           "reason": "史評及校注。"
         }
       ],
-      "pending_boundaries": [
-        {
-          "person": "江斆、何昌宇傳內附敘",
-          "note": "王思遠傳尾顧暠之、王思微已分，謝𤅢傳首謝顥已分。江、何傳內其他未題人物另核。"
-        }
-      ]
+      "pending_boundaries": [],
+      "source_review_path": "source-evidence/nanqi043-roll/close-reading.json"
     },
     {
       "book_id": "b-nanqishu-047",
@@ -19787,40 +19783,220 @@
       }
     },
     {
-      "book_id": "b-nanqishu-043",
       "title": "江斆",
-      "unit_kind": "headed_account",
-      "first_line": 11,
-      "last_line": 21,
-      "start_codepoint": 2,
-      "end_codepoint": 98,
-      "opening": "江斆字叔文，濟陽考城",
-      "closing": "侍、太常，謚曰敬子。",
-      "chapter_id": null,
+      "book_id": "b-nanqishu-043",
+      "chapter_id": "c-nanqishu-043-jiangxiao-complete",
+      "chapter_path": "corpus/nanqishu/043-jiangxiao-complete.json",
+      "mixed_chapter": true,
+      "paragraph_ids": [
+        "c-nanqishu-043-jiangxiao-complete:p001",
+        "c-nanqishu-043-jiangxiao-complete:p002",
+        "c-nanqishu-043-jiangxiao-complete:p003",
+        "c-nanqishu-043-jiangxiao-complete:p004",
+        "c-nanqishu-043-jiangxiao-complete:p005",
+        "c-nanqishu-043-jiangxiao-complete:p006"
+      ],
+      "source_layout": "nanqi043_fixed_text",
+      "full_text": true,
+      "first_pass": true,
       "entry_checked": true,
-      "full_text": false,
-      "first_pass": false,
-      "item_reviewed": false,
+      "item_reviewed": true,
+      "item_review_path": "source-evidence/nanqi043-roll/jiang-reading.json",
+      "first_line": 11,
+      "last_line": 11,
+      "start_codepoint": 0,
+      "end_codepoint": 78,
+      "opening": "　　江斆字叔文，濟陽",
+      "closing": "此小兒方當爲名器。」",
+      "unit_kind": "headed_account",
       "heading_line": 10,
-      "heading_raw": "==江斆=="
+      "heading_raw": "==江斆==",
+      "continuation_spans": [
+        {
+          "first_line": 13,
+          "last_line": 13,
+          "start_codepoint": 0,
+          "end_codepoint": 265,
+          "opening": "　　少有美譽。桂陽王",
+          "closing": "永廢溫凊，啓乞自解。"
+        },
+        {
+          "first_line": 15,
+          "last_line": 15,
+          "start_codepoint": 0,
+          "end_codepoint": 175,
+          "opening": "　　初，宋明帝勑斆出",
+          "closing": "家，詔使自量立後者。"
+        },
+        {
+          "first_line": 17,
+          "last_line": 17,
+          "start_codepoint": 0,
+          "end_codepoint": 196,
+          "opening": "　　出爲寧朔將軍、豫",
+          "closing": "二千石，行南徐州事。"
+        },
+        {
+          "first_line": 19,
+          "last_line": 19,
+          "start_codepoint": 0,
+          "end_codepoint": 206,
+          "opening": "　　七年，徙爲侍中，",
+          "closing": "監，又改領晉安王師。"
+        },
+        {
+          "first_line": 21,
+          "last_line": 21,
+          "start_codepoint": 0,
+          "end_codepoint": 98,
+          "opening": "　　{{YL|建武二",
+          "closing": "侍、太常，謚曰敬子。"
+        }
+      ]
     },
     {
-      "book_id": "b-nanqishu-043",
       "title": "何昌宇",
-      "unit_kind": "headed_account",
-      "first_line": 24,
-      "last_line": 50,
-      "start_codepoint": 2,
-      "end_codepoint": 26,
-      "opening": "何昌宇字儼望，廬江灊",
-      "closing": "清白，士君子多稱之。",
-      "chapter_id": null,
+      "book_id": "b-nanqishu-043",
+      "chapter_id": "c-nanqishu-043-hechangyu-complete",
+      "chapter_path": "corpus/nanqishu/043-hechangyu-complete.json",
+      "mixed_chapter": true,
+      "paragraph_ids": [
+        "c-nanqishu-043-hechangyu-complete:p001",
+        "c-nanqishu-043-hechangyu-complete:p002",
+        "c-nanqishu-043-hechangyu-complete:p003",
+        "c-nanqishu-043-hechangyu-complete:p004",
+        "c-nanqishu-043-hechangyu-complete:p005",
+        "c-nanqishu-043-hechangyu-complete:p006",
+        "c-nanqishu-043-hechangyu-complete:p007",
+        "c-nanqishu-043-hechangyu-complete:p008",
+        "c-nanqishu-043-hechangyu-complete:p009",
+        "c-nanqishu-043-hechangyu-complete:p010",
+        "c-nanqishu-043-hechangyu-complete:p011",
+        "c-nanqishu-043-hechangyu-complete:p012",
+        "c-nanqishu-043-hechangyu-complete:p013",
+        "c-nanqishu-043-hechangyu-complete:p014"
+      ],
+      "source_layout": "nanqi043_fixed_text",
+      "full_text": true,
+      "first_pass": true,
       "entry_checked": true,
-      "full_text": false,
-      "first_pass": false,
-      "item_reviewed": false,
+      "item_reviewed": true,
+      "item_review_path": "source-evidence/nanqi043-roll/he-reading.json",
+      "first_line": 24,
+      "last_line": 24,
+      "start_codepoint": 0,
+      "end_codepoint": 31,
+      "opening": "　　何昌宇字儼望，廬",
+      "closing": "太守。父佟之，太常。",
+      "unit_kind": "headed_account",
       "heading_line": 23,
-      "heading_raw": "==何昌宇=="
+      "heading_raw": "==何昌宇==",
+      "continuation_spans": [
+        {
+          "first_line": 26,
+          "last_line": 26,
+          "start_codepoint": 0,
+          "end_codepoint": 133,
+          "opening": "　　昌宇少而淹厚，爲",
+          "closing": "痛之。至是啓太祖曰："
+        },
+        {
+          "first_line": 28,
+          "last_line": 28,
+          "start_codepoint": 0,
+          "end_codepoint": 73,
+          "opening": ":　　伏尋故建平王，",
+          "closing": "有殊，誰不悉斯事者？"
+        },
+        {
+          "first_line": 30,
+          "last_line": 30,
+          "start_codepoint": 0,
+          "end_codepoint": 181,
+          "opening": ":　　元徽之間，政關",
+          "closing": "俱沐溫光，獨酸霜露。"
+        },
+        {
+          "first_line": 32,
+          "last_line": 32,
+          "start_codepoint": 0,
+          "end_codepoint": 120,
+          "opening": ":　　明公鋪天地之施",
+          "closing": "分軀碎首，不足上謝。"
+        },
+        {
+          "first_line": 34,
+          "last_line": 34,
+          "start_codepoint": 0,
+          "end_codepoint": 11,
+          "opening": "　　又與司空褚淵書曰",
+          "closing": "　又與司空褚淵書曰："
+        },
+        {
+          "first_line": 36,
+          "last_line": 36,
+          "start_codepoint": 0,
+          "end_codepoint": 129,
+          "opening": ":　　天下之可哀者有",
+          "closing": "豈不痛哉！豈不痛哉！"
+        },
+        {
+          "first_line": 38,
+          "last_line": 38,
+          "start_codepoint": 0,
+          "end_codepoint": 246,
+          "opening": ":　　竊尋故建平王，",
+          "closing": "忠誠弗亮，罹此百殃。"
+        },
+        {
+          "first_line": 40,
+          "last_line": 40,
+          "start_codepoint": 0,
+          "end_codepoint": 244,
+          "opening": ":　　歲朔亟流，已經",
+          "closing": "碎首抽脅，自謂不殞。"
+        },
+        {
+          "first_line": 42,
+          "last_line": 42,
+          "start_codepoint": 0,
+          "end_codepoint": 122,
+          "opening": "淵答曰：「追風古人，",
+          "closing": "朝事者，非卿而誰？」"
+        },
+        {
+          "first_line": 44,
+          "last_line": 44,
+          "start_codepoint": 0,
+          "end_codepoint": 108,
+          "opening": "　　{{YL|永明元",
+          "closing": "。遷吏部郎，轉侍中。"
+        },
+        {
+          "first_line": 46,
+          "last_line": 46,
+          "start_codepoint": 0,
+          "end_codepoint": 115,
+          "opening": "　　臨海王昭秀爲荊州",
+          "closing": "」昭秀以此得還京師。"
+        },
+        {
+          "first_line": 48,
+          "last_line": 48,
+          "start_codepoint": 0,
+          "end_codepoint": 59,
+          "opening": "　　{{YL|建武二",
+          "closing": "一。贈太常，謚簡子。"
+        },
+        {
+          "first_line": 50,
+          "last_line": 50,
+          "start_codepoint": 0,
+          "end_codepoint": 26,
+          "opening": "　　昌不雜交遊，通和",
+          "closing": "清白，士君子多稱之。"
+        }
+      ]
     },
     {
       "book_id": "b-nanqishu-043",
@@ -19836,7 +20012,7 @@
       "entry_checked": true,
       "full_text": true,
       "first_pass": true,
-      "item_reviewed": false,
+      "item_reviewed": true,
       "heading_line": 52,
       "heading_raw": "==謝{{!|𤅢|左「氵」右「𦿈」}}==",
       "continuation_spans": [
@@ -19867,7 +20043,8 @@
           "end": 59
         }
       },
-      "source_layout": "nanqi043_xieyue_glyph"
+      "source_layout": "nanqi043_xieyue_glyph",
+      "item_review_path": "source-evidence/nanqi043-roll/xie-reading.json"
     },
     {
       "book_id": "b-nanqishu-043",
@@ -19883,7 +20060,7 @@
       "entry_checked": true,
       "full_text": true,
       "first_pass": true,
-      "item_reviewed": false,
+      "item_reviewed": true,
       "parent_heading": "謝𤅢",
       "chapter_path": "corpus/nanqishu/043-xieyue.json",
       "mixed_chapter": true,
@@ -19896,7 +20073,8 @@
           "end": 129
         }
       },
-      "source_layout": "nanqi043_xieyue_glyph"
+      "source_layout": "nanqi043_xieyue_glyph",
+      "item_review_path": "source-evidence/nanqi043-roll/xie-reading.json"
     },
     {
       "book_id": "b-nanqishu-043",
