@@ -125,6 +125,41 @@
       "chapter_id": "c-nanqishu-053-kongxiuzhi-father",
       "source_id": "s-nanqishu-053-kongxiuzhi-father-ws1501803",
       "work_title": "南齊書"
+    },
+    {
+      "number": 53,
+      "category": "",
+      "title": "南齊書卷五十三·傅琰、虞愿等良政列傳",
+      "paragraph_id": "c-nanqishu-053-local-officials-complete:p034",
+      "count": 1,
+      "raw_count": 1,
+      "duplicate_count": 0,
+      "counting_policy": "independent_fixed_witness_occurrences",
+      "quote": "　　孔琇之，會稽山陰人也。祖季恭，光祿大夫，父靈運，著作郎。",
+      "paragraph_ids": [
+        "c-nanqishu-053-local-officials-complete:p034"
+      ],
+      "mention_ids": [
+        "c-nanqishu-053-local-officials-complete:p034:m0014"
+      ],
+      "mention_paragraph_ids": {
+        "c-nanqishu-053-local-officials-complete:p034:m0014": "c-nanqishu-053-local-officials-complete:p034"
+      },
+      "mention_id": "c-nanqishu-053-local-officials-complete:p034:m0014",
+      "occurrence_groups": [
+        {
+          "canonical_mention_id": "c-nanqishu-053-local-officials-complete:p034:m0014",
+          "mention_ids": [
+            "c-nanqishu-053-local-officials-complete:p034:m0014"
+          ],
+          "kind": "paragraph"
+        }
+      ],
+      "work_id": "w-nanqishu",
+      "book_id": "b-nanqishu-053",
+      "chapter_id": "c-nanqishu-053-local-officials-complete",
+      "source_id": "s-nanqishu-053-local-officials-complete-ws1501803",
+      "work_title": "南齊書"
     }
   ],
   "table_occurrences": [],
@@ -150,6 +185,32 @@
         "text_scope": "partial_chapter",
         "raw_path": "source-evidence/nanqi049-wanghuan-item-review/external/nanqishu053-ws1501803.wikitext",
         "raw_file_sha256": "97775eac54569041d53e5d8356e1ac0da29e57cf3728d00fe2d1212ec59ec567"
+      }
+    },
+    {
+      "chapter_id": "c-nanqishu-053-local-officials-complete",
+      "work_id": "w-nanqishu",
+      "book_id": "b-nanqishu-053",
+      "source_id": "s-nanqishu-053-local-officials-complete-ws1501803",
+      "source": {
+        "title": "南齊書卷五十三·傅琰、虞愿等良政列傳",
+        "provider": "Wikisource",
+        "permalink": "https://zh.wikisource.org/w/index.php?oldid=1501803",
+        "url": "https://zh.wikisource.org/w/index.php?oldid=1501803",
+        "revision_id": 1501803,
+        "edition": "維基文庫固定修訂",
+        "accessed_on": "2026-11-21",
+        "review_status": "text_checked",
+        "image_verified": false,
+        "rights": "古代原文；數位轉錄依維基文庫授權。",
+        "license_url": "https://creativecommons.org/licenses/by-sa/4.0/",
+        "extent": "南齊書卷五十三·傅琰、虞愿等良政列傳",
+        "text_scope": "complete_biography_unit",
+        "raw_path": "source-evidence/nanqi049-wanghuan-item-review/external/nanqishu053-ws1501803.wikitext",
+        "raw_file_sha256": "97775eac54569041d53e5d8356e1ac0da29e57cf3728d00fe2d1212ec59ec567",
+        "collation_witnesses": [
+          "source-evidence/nanqi053-roll/local-officials-reading.json"
+        ]
       }
     },
     {
@@ -229,6 +290,33 @@
       "human_reviewed": false
     },
     {
+      "id": "a-qi053-kongxiuzhi-grandfather",
+      "subject_person_id": "f84_da6_42a_AAAA",
+      "object_person_id": "f84_da6_42a_AA",
+      "predicate": "grandfather",
+      "qualifiers": {
+        "source_term": "祖季恭",
+        "lineage": "paternal"
+      },
+      "evidence": [
+        {
+          "work_id": "w-nanqishu",
+          "book_id": "b-nanqishu-053",
+          "chapter_id": "c-nanqishu-053-local-officials-complete",
+          "source_id": "s-nanqishu-053-local-officials-complete-ws1501803",
+          "paragraph_id": "c-nanqishu-053-local-officials-complete:p034",
+          "quote": "　　孔琇之，會稽山陰人也。祖季恭，光祿大夫，父靈運，著作郎。",
+          "subject_person_mention_id": "c-nanqishu-053-local-officials-complete:p034:m0002",
+          "object_person_mention_id": "c-nanqishu-053-local-officials-complete:p034:m0014"
+        }
+      ],
+      "status": "source_attested",
+      "interpretation_note": "宋書孔靖字季恭。",
+      "reviewer": "Codex（AI代理）",
+      "model": null,
+      "human_reviewed": false
+    },
+    {
       "id": "a-qi049-jing-yin",
       "subject_person_id": "f84_da6_42a_AA",
       "object_person_id": "f84_da6_42a_A",
@@ -259,7 +347,8 @@
   "related_people": {
     "f84_da6_42a_A": "孔誾（孔愉子、孔靖父）",
     "f84_da6_42a_AA": "孔靖（字季恭，晉書作靜）",
-    "f84_da6_42a_AAA": "孔靈運（孔琇之父）"
+    "f84_da6_42a_AAA": "孔靈運（孔琇之父）",
+    "f84_da6_42a_AAAA": "孔琇之（會稽山陰人，孔靈運子）"
   },
   "dates": [],
   "name_components": [],
@@ -290,6 +379,33 @@
       ],
       "status": "source_attested",
       "interpretation_note": "孔琇之本傳祖季恭父靈運；南史孔靖子靈符、靈符弟靈運合讀。",
+      "reviewer": "Codex（AI代理）",
+      "model": null,
+      "human_reviewed": false
+    },
+    {
+      "id": "a-qi053-kongxiuzhi-grandfather",
+      "subject_person_id": "f84_da6_42a_AAAA",
+      "object_person_id": "f84_da6_42a_AA",
+      "predicate": "grandfather",
+      "qualifiers": {
+        "source_term": "祖季恭",
+        "lineage": "paternal"
+      },
+      "evidence": [
+        {
+          "work_id": "w-nanqishu",
+          "book_id": "b-nanqishu-053",
+          "chapter_id": "c-nanqishu-053-local-officials-complete",
+          "source_id": "s-nanqishu-053-local-officials-complete-ws1501803",
+          "paragraph_id": "c-nanqishu-053-local-officials-complete:p034",
+          "quote": "　　孔琇之，會稽山陰人也。祖季恭，光祿大夫，父靈運，著作郎。",
+          "subject_person_mention_id": "c-nanqishu-053-local-officials-complete:p034:m0002",
+          "object_person_mention_id": "c-nanqishu-053-local-officials-complete:p034:m0014"
+        }
+      ],
+      "status": "source_attested",
+      "interpretation_note": "宋書孔靖字季恭。",
       "reviewer": "Codex（AI代理）",
       "model": null,
       "human_reviewed": false
