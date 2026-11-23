@@ -1,0 +1,205 @@
+{
+  "schema_version": 1,
+  "id": "g4e_kxc_smi",
+  "canonical_person_id": "g4e_kxc_smi",
+  "label": "淮陽公主（宋文帝女，江斆母）",
+  "identity_note": "淮陽公主（宋文帝女，江斆母），見本組原文及身份互校。",
+  "review": "ai_provisional",
+  "names": [
+    "淮陽公主"
+  ],
+  "titles": [],
+  "addresses": [],
+  "occurrences": [
+    {
+      "number": 43,
+      "category": "",
+      "title": "南齊書卷四十三·江斆全傳",
+      "paragraph_id": "c-nanqishu-043-jiangxiao-complete:p001",
+      "count": 1,
+      "raw_count": 1,
+      "duplicate_count": 0,
+      "counting_policy": "independent_fixed_witness_occurrences",
+      "quote": "也。祖湛，宋左光祿大夫、儀同三司。父恁，著作郎，爲太初所殺。斆母文帝女淮陽公主。幼以戚屬召見，孝武謂謝莊曰：「此小兒方當爲名器。」",
+      "paragraph_ids": [
+        "c-nanqishu-043-jiangxiao-complete:p001"
+      ],
+      "mention_ids": [
+        "c-nanqishu-043-jiangxiao-complete:p001:m0048"
+      ],
+      "mention_paragraph_ids": {
+        "c-nanqishu-043-jiangxiao-complete:p001:m0048": "c-nanqishu-043-jiangxiao-complete:p001"
+      },
+      "mention_id": "c-nanqishu-043-jiangxiao-complete:p001:m0048",
+      "occurrence_groups": [
+        {
+          "canonical_mention_id": "c-nanqishu-043-jiangxiao-complete:p001:m0048",
+          "mention_ids": [
+            "c-nanqishu-043-jiangxiao-complete:p001:m0048"
+          ],
+          "kind": "paragraph"
+        }
+      ],
+      "work_id": "w-nanqishu",
+      "book_id": "b-nanqishu-043",
+      "chapter_id": "c-nanqishu-043-jiangxiao-complete",
+      "source_id": "s-nanqishu-043-jiangxiao-complete-ws2400356",
+      "work_title": "南齊書"
+    }
+  ],
+  "table_occurrences": [],
+  "sources": [
+    {
+      "chapter_id": "c-nanqishu-043-jiangxiao-complete",
+      "work_id": "w-nanqishu",
+      "book_id": "b-nanqishu-043",
+      "source_id": "s-nanqishu-043-jiangxiao-complete-ws2400356",
+      "source": {
+        "title": "南齊書卷四十三·江斆全傳",
+        "provider": "Wikisource",
+        "permalink": "https://zh.wikisource.org/w/index.php?oldid=2400356",
+        "url": "https://zh.wikisource.org/w/index.php?oldid=2400356",
+        "revision_id": 2400356,
+        "edition": "維基文庫固定修訂",
+        "accessed_on": "2026-11-21",
+        "review_status": "text_checked",
+        "image_verified": false,
+        "rights": "古代原文；數位轉錄依維基文庫授權。",
+        "license_url": "https://creativecommons.org/licenses/by-sa/4.0/",
+        "extent": "南齊書卷四十三·江斆全傳",
+        "text_scope": "complete_biography_unit",
+        "raw_path": "sources/witnesses/nanqi043-ws2400356.wikitext",
+        "raw_file_sha256": "7a65e9b58b508ef0dbc64a4a650c99c30dcd94f8f13ea9a23d171f539174baed",
+        "collation_witnesses": [
+          "source-evidence/nanqi043-roll/jiang-reading.json"
+        ]
+      }
+    }
+  ],
+  "relations": [
+    {
+      "id": "a-qi043-jiangxiao-mother",
+      "subject_person_id": "s2k_e90_mxi",
+      "object_person_id": "g4e_kxc_smi",
+      "predicate": "mother",
+      "qualifiers": {
+        "source_term": "斆母文帝女淮陽公主",
+        "lineage": "maternal"
+      },
+      "evidence": [
+        {
+          "work_id": "w-nanqishu",
+          "book_id": "b-nanqishu-043",
+          "chapter_id": "c-nanqishu-043-jiangxiao-complete",
+          "source_id": "s-nanqishu-043-jiangxiao-complete-ws2400356",
+          "paragraph_id": "c-nanqishu-043-jiangxiao-complete:p001",
+          "quote": "　　江斆字叔文，濟陽考城人也。祖湛，宋左光祿大夫、儀同三司。父恁，著作郎，爲太初所殺。斆母文帝女淮陽公主。幼以戚屬召見，孝武謂謝莊曰：「此小兒方當爲名器。」",
+          "subject_person_mention_id": "c-nanqishu-043-jiangxiao-complete:p001:m0002",
+          "object_person_mention_id": "c-nanqishu-043-jiangxiao-complete:p001:m0048"
+        }
+      ],
+      "status": "source_attested",
+      "interpretation_note": "江斆母為文帝女淮陽公主。",
+      "reviewer": "Codex（AI代理）",
+      "model": null,
+      "human_reviewed": false
+    },
+    {
+      "id": "a-qi043-huaiyang-father",
+      "subject_person_id": "g4e_kxc_smi",
+      "object_person_id": "3bh_k4m_fg4",
+      "predicate": "father",
+      "qualifiers": {
+        "source_term": "文帝女淮陽公主",
+        "lineage": "paternal"
+      },
+      "evidence": [
+        {
+          "work_id": "w-nanqishu",
+          "book_id": "b-nanqishu-043",
+          "chapter_id": "c-nanqishu-043-jiangxiao-complete",
+          "source_id": "s-nanqishu-043-jiangxiao-complete-ws2400356",
+          "paragraph_id": "c-nanqishu-043-jiangxiao-complete:p001",
+          "quote": "　　江斆字叔文，濟陽考城人也。祖湛，宋左光祿大夫、儀同三司。父恁，著作郎，爲太初所殺。斆母文帝女淮陽公主。幼以戚屬召見，孝武謂謝莊曰：「此小兒方當爲名器。」",
+          "subject_person_mention_id": "c-nanqishu-043-jiangxiao-complete:p001:m0048",
+          "object_person_mention_id": "c-nanqishu-043-jiangxiao-complete:p001:m0045"
+        }
+      ],
+      "status": "source_attested",
+      "interpretation_note": "宋文帝與孝武帝分列。",
+      "reviewer": "Codex（AI代理）",
+      "model": null,
+      "human_reviewed": false
+    }
+  ],
+  "related_people": {
+    "3bh_k4m_fg4": "宋太祖義隆",
+    "g4e_kxc_smi": "淮陽公主（宋文帝女，江斆母）",
+    "s2k_e90_mxi": "江斅〔天子四友〕"
+  },
+  "dates": [],
+  "name_components": [],
+  "person_ids": [
+    "g4e_kxc_smi"
+  ],
+  "preferred_relations": [
+    {
+      "id": "a-qi043-jiangxiao-mother",
+      "subject_person_id": "s2k_e90_mxi",
+      "object_person_id": "g4e_kxc_smi",
+      "predicate": "mother",
+      "qualifiers": {
+        "source_term": "斆母文帝女淮陽公主",
+        "lineage": "maternal"
+      },
+      "evidence": [
+        {
+          "work_id": "w-nanqishu",
+          "book_id": "b-nanqishu-043",
+          "chapter_id": "c-nanqishu-043-jiangxiao-complete",
+          "source_id": "s-nanqishu-043-jiangxiao-complete-ws2400356",
+          "paragraph_id": "c-nanqishu-043-jiangxiao-complete:p001",
+          "quote": "　　江斆字叔文，濟陽考城人也。祖湛，宋左光祿大夫、儀同三司。父恁，著作郎，爲太初所殺。斆母文帝女淮陽公主。幼以戚屬召見，孝武謂謝莊曰：「此小兒方當爲名器。」",
+          "subject_person_mention_id": "c-nanqishu-043-jiangxiao-complete:p001:m0002",
+          "object_person_mention_id": "c-nanqishu-043-jiangxiao-complete:p001:m0048"
+        }
+      ],
+      "status": "source_attested",
+      "interpretation_note": "江斆母為文帝女淮陽公主。",
+      "reviewer": "Codex（AI代理）",
+      "model": null,
+      "human_reviewed": false
+    },
+    {
+      "id": "a-qi043-huaiyang-father",
+      "subject_person_id": "g4e_kxc_smi",
+      "object_person_id": "3bh_k4m_fg4",
+      "predicate": "father",
+      "qualifiers": {
+        "source_term": "文帝女淮陽公主",
+        "lineage": "paternal"
+      },
+      "evidence": [
+        {
+          "work_id": "w-nanqishu",
+          "book_id": "b-nanqishu-043",
+          "chapter_id": "c-nanqishu-043-jiangxiao-complete",
+          "source_id": "s-nanqishu-043-jiangxiao-complete-ws2400356",
+          "paragraph_id": "c-nanqishu-043-jiangxiao-complete:p001",
+          "quote": "　　江斆字叔文，濟陽考城人也。祖湛，宋左光祿大夫、儀同三司。父恁，著作郎，爲太初所殺。斆母文帝女淮陽公主。幼以戚屬召見，孝武謂謝莊曰：「此小兒方當爲名器。」",
+          "subject_person_mention_id": "c-nanqishu-043-jiangxiao-complete:p001:m0048",
+          "object_person_mention_id": "c-nanqishu-043-jiangxiao-complete:p001:m0045"
+        }
+      ],
+      "status": "source_attested",
+      "interpretation_note": "宋文帝與孝武帝分列。",
+      "reviewer": "Codex（AI代理）",
+      "model": null,
+      "human_reviewed": false
+    }
+  ],
+  "age_assertions": [],
+  "life_events": [],
+  "life_event_date_decisions": [],
+  "selected_life_event_dates": []
+}
