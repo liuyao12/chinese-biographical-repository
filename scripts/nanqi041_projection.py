@@ -93,7 +93,7 @@ def decode_line(line, offset=0):
     return reading, spans, annotations
 
 
-def verify_positions(chapter, raw):
+def verify_positions(chapter, raw, *, omit_leading_indent=False):
     """Check direct, expanded, and unresolved source characters against the pinned witness."""
     positions = [0]
     lines = raw.splitlines(keepends=True)
@@ -105,6 +105,8 @@ def verify_positions(chapter, raw):
         n = source['first_line']
         assert prior < n == source['last_line'] <= len(lines)
         text, spans, _ = decode_line(lines[n - 1].rstrip('\r\n'), positions[n - 1])
+        if omit_leading_indent and text.startswith('　　'):
+            text, spans = text[2:], spans[2:]
         assert paragraph['text'] == text
         assert source['raw_start'] == positions[n - 1]
         assert source['raw_end'] == positions[n - 1] + len(lines[n - 1].rstrip('\r\n'))
