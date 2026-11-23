@@ -119,6 +119,54 @@
       "human_reviewed": false,
       "model": null,
       "period": "未定 → 未定"
+    },
+    {
+      "id": "th-nanqishu-041-zhouyong-complete-1-15",
+      "title": "左光祿大夫",
+      "kind": "office",
+      "mode": "attestation",
+      "person_id": "3xx_gdy_or6_AAA",
+      "attestations": [
+        {
+          "id": "th-nanqishu-041-zhouyong-complete-1-15:a",
+          "paragraph_id": "c-nanqishu-041-zhouyong-complete:p001",
+          "start": 15,
+          "end": 20,
+          "surface": "左光祿大夫",
+          "person_mention_id": "c-nanqishu-041-zhouyong-complete:p001:m0020",
+          "usage": "narrative",
+          "date_expression": null
+        }
+      ],
+      "effective_period": {
+        "start": {
+          "status": "unknown",
+          "date_expression": null,
+          "evidence": []
+        },
+        "end": {
+          "status": "unknown",
+          "date_expression": null,
+          "evidence": []
+        }
+      },
+      "evidence": [
+        {
+          "work_id": "w-nanqishu",
+          "book_id": "b-nanqishu-041",
+          "chapter_id": "c-nanqishu-041-zhouyong-complete",
+          "source_id": "s-nanqishu-041-zhouyong-complete-ws2044621",
+          "paragraph_id": "c-nanqishu-041-zhouyong-complete:p001",
+          "quote": "　　周顒字彥倫，汝南安城人。晉左光祿大夫顗七世孫也。祖虎頭，員外常侍。父恂，歸郷相。",
+          "person_mention_id": "c-nanqishu-041-zhouyong-complete:p001:m0020"
+        }
+      ],
+      "status": "source_attested",
+      "interpretation_note": "所見原官稱，未載全任期。",
+      "reviewer": "Codex（AI代理）",
+      "model": null,
+      "human_reviewed": false,
+      "period": "未定 → 未定"
     }
   ],
   "addresses": [
@@ -258,6 +306,41 @@
       "chapter_id": "c-nanshi-023-wangqiu-lu",
       "source_id": "s-nanshi-023-wangqiu-lu-ws2478204",
       "work_title": "南史"
+    },
+    {
+      "number": 41,
+      "category": "",
+      "title": "南齊書卷四十一·周顒與論學書札",
+      "paragraph_id": "c-nanqishu-041-zhouyong-complete:p001",
+      "count": 1,
+      "raw_count": 1,
+      "duplicate_count": 0,
+      "counting_policy": "independent_fixed_witness_occurrences",
+      "quote": "　　周顒字彥倫，汝南安城人。晉左光祿大夫顗七世孫也。祖虎頭，員外常侍。父恂，歸郷相。",
+      "paragraph_ids": [
+        "c-nanqishu-041-zhouyong-complete:p001"
+      ],
+      "mention_ids": [
+        "c-nanqishu-041-zhouyong-complete:p001:m0020"
+      ],
+      "mention_paragraph_ids": {
+        "c-nanqishu-041-zhouyong-complete:p001:m0020": "c-nanqishu-041-zhouyong-complete:p001"
+      },
+      "mention_id": "c-nanqishu-041-zhouyong-complete:p001:m0020",
+      "occurrence_groups": [
+        {
+          "canonical_mention_id": "c-nanqishu-041-zhouyong-complete:p001:m0020",
+          "mention_ids": [
+            "c-nanqishu-041-zhouyong-complete:p001:m0020"
+          ],
+          "kind": "paragraph"
+        }
+      ],
+      "work_id": "w-nanqishu",
+      "book_id": "b-nanqishu-041",
+      "chapter_id": "c-nanqishu-041-zhouyong-complete",
+      "source_id": "s-nanqishu-041-zhouyong-complete-ws2044621",
+      "work_title": "南齊書"
     },
     {
       "number": 61,
@@ -4123,6 +4206,32 @@
       }
     },
     {
+      "chapter_id": "c-nanqishu-041-zhouyong-complete",
+      "work_id": "w-nanqishu",
+      "book_id": "b-nanqishu-041",
+      "source_id": "s-nanqishu-041-zhouyong-complete-ws2044621",
+      "source": {
+        "title": "南齊書卷四十一·周顒與論學書札",
+        "provider": "Wikisource",
+        "permalink": "https://zh.wikisource.org/w/index.php?oldid=2044621",
+        "url": "https://zh.wikisource.org/w/index.php?oldid=2044621",
+        "revision_id": 2044621,
+        "edition": "維基文庫固定修訂",
+        "accessed_on": "2026-11-21",
+        "review_status": "text_checked",
+        "image_verified": false,
+        "rights": "古代原文；數位轉錄依維基文庫授權。",
+        "license_url": "https://creativecommons.org/licenses/by-sa/4.0/",
+        "extent": "南齊書卷四十一·周顒與論學書札",
+        "text_scope": "complete_biography_unit",
+        "raw_path": "source-evidence/nanqi041-roll/ws2044621.wikitext",
+        "raw_file_sha256": "d5e0dbaacce33066aaff7fe5e3e0a13ceaa99b14cbf1cd0700fcdb25241ff963",
+        "collation_witnesses": [
+          "source-evidence/nanqi041-roll/zhou-reading.json"
+        ]
+      }
+    },
+    {
       "chapter_id": "c-nanshi-022-wangsengchuo",
       "work_id": "w-nanshi",
       "book_id": "b-nanshi-022",
@@ -5069,6 +5178,34 @@
       "reviewer": "Codex（AI代理）",
       "human_reviewed": false,
       "model": null
+    },
+    {
+      "id": "a-qi041-zhouyong-remote-ancestor",
+      "subject_person_id": "vkd_5ff_i23",
+      "object_person_id": "3xx_gdy_or6_AAA",
+      "predicate": "ancestor",
+      "qualifiers": {
+        "source_term": "顗七世孫",
+        "lineage": "paternal",
+        "generation_distance": 7
+      },
+      "evidence": [
+        {
+          "work_id": "w-nanqishu",
+          "book_id": "b-nanqishu-041",
+          "chapter_id": "c-nanqishu-041-zhouyong-complete",
+          "source_id": "s-nanqishu-041-zhouyong-complete-ws2044621",
+          "paragraph_id": "c-nanqishu-041-zhouyong-complete:p001",
+          "quote": "　　周顒字彥倫，汝南安城人。晉左光祿大夫顗七世孫也。祖虎頭，員外常侍。父恂，歸郷相。",
+          "subject_person_mention_id": "c-nanqishu-041-zhouyong-complete:p001:m0002",
+          "object_person_mention_id": "c-nanqishu-041-zhouyong-complete:p001:m0020"
+        }
+      ],
+      "status": "source_attested",
+      "interpretation_note": "本傳報七世孫，依原數保存，無中間族系表。",
+      "reviewer": "Codex（AI代理）",
+      "model": null,
+      "human_reviewed": false
     }
   ],
   "related_people": {
@@ -5078,7 +5215,8 @@
     "3xx_gdy_or6_AAAB": "周恬",
     "3xx_gdy_or6_AAAC": "周頤",
     "3xx_gdy_or6_AAB": "周嵩",
-    "e2n_dxb_vmj": "周穆"
+    "e2n_dxb_vmj": "周穆",
+    "vkd_5ff_i23": "周顒（字彥倫，汝南安城人）"
   },
   "dates": [],
   "name_components": [
@@ -5362,6 +5500,34 @@
       "reviewer": "Codex（AI代理）",
       "human_reviewed": false,
       "model": null
+    },
+    {
+      "id": "a-qi041-zhouyong-remote-ancestor",
+      "subject_person_id": "vkd_5ff_i23",
+      "object_person_id": "3xx_gdy_or6_AAA",
+      "predicate": "ancestor",
+      "qualifiers": {
+        "source_term": "顗七世孫",
+        "lineage": "paternal",
+        "generation_distance": 7
+      },
+      "evidence": [
+        {
+          "work_id": "w-nanqishu",
+          "book_id": "b-nanqishu-041",
+          "chapter_id": "c-nanqishu-041-zhouyong-complete",
+          "source_id": "s-nanqishu-041-zhouyong-complete-ws2044621",
+          "paragraph_id": "c-nanqishu-041-zhouyong-complete:p001",
+          "quote": "　　周顒字彥倫，汝南安城人。晉左光祿大夫顗七世孫也。祖虎頭，員外常侍。父恂，歸郷相。",
+          "subject_person_mention_id": "c-nanqishu-041-zhouyong-complete:p001:m0002",
+          "object_person_mention_id": "c-nanqishu-041-zhouyong-complete:p001:m0020"
+        }
+      ],
+      "status": "source_attested",
+      "interpretation_note": "本傳報七世孫，依原數保存，無中間族系表。",
+      "reviewer": "Codex（AI代理）",
+      "model": null,
+      "human_reviewed": false
     }
   ],
   "assembled_identity": {
