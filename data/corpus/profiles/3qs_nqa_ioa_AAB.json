@@ -7,7 +7,8 @@
   "review": "ai_provisional",
   "names": [
     "道憐",
-    "長沙景王道憐"
+    "長沙景王道憐",
+    "長沙王道憐"
   ],
   "titles": [
     {
@@ -567,6 +568,41 @@
     {
       "number": 52,
       "category": "",
+      "title": "南齊書卷五十二·丘靈鞠、檀超、卞彬、丘巨源",
+      "paragraph_id": "c-nanqishu-052-early-literature-complete:p007",
+      "count": 1,
+      "raw_count": 1,
+      "duplicate_count": 0,
+      "counting_policy": "independent_fixed_witness_occurrences",
+      "quote": "爲之下。謂惠開曰：「我與卿俱起一老姥，何足相誇？」蕭太后，惠開之祖姑，長沙王道憐妃，超祖姑也。舉秀才。孝建初，坐事徙梁州，板宣威府參軍。孝武聞超有文章，敕還直東宮，除驃騎參軍、寧蠻主簿，鎮北諮議。超累佐蕃職，不得志，轉尚書度支郎，車騎功曹，桂陽內史。入爲殿中郎，兼中書郎，零陵內史",
+      "paragraph_ids": [
+        "c-nanqishu-052-early-literature-complete:p007"
+      ],
+      "mention_ids": [
+        "c-nanqishu-052-early-literature-complete:p007:m0065"
+      ],
+      "mention_paragraph_ids": {
+        "c-nanqishu-052-early-literature-complete:p007:m0065": "c-nanqishu-052-early-literature-complete:p007"
+      },
+      "mention_id": "c-nanqishu-052-early-literature-complete:p007:m0065",
+      "occurrence_groups": [
+        {
+          "canonical_mention_id": "c-nanqishu-052-early-literature-complete:p007:m0065",
+          "mention_ids": [
+            "c-nanqishu-052-early-literature-complete:p007:m0065"
+          ],
+          "kind": "paragraph"
+        }
+      ],
+      "work_id": "w-nanqishu",
+      "book_id": "b-nanqishu-052",
+      "chapter_id": "c-nanqishu-052-early-literature-complete",
+      "source_id": "s-nanqishu-052-early-literature-complete-ws2371079",
+      "work_title": "南齊書"
+    },
+    {
+      "number": 52,
+      "category": "",
       "title": "謝景仁及子恂、孫稚",
       "paragraph_id": "c-songshu-052-xiejingren:p006",
       "count": 1,
@@ -716,6 +752,32 @@
   ],
   "table_occurrences": [],
   "sources": [
+    {
+      "chapter_id": "c-nanqishu-052-early-literature-complete",
+      "work_id": "w-nanqishu",
+      "book_id": "b-nanqishu-052",
+      "source_id": "s-nanqishu-052-early-literature-complete-ws2371079",
+      "source": {
+        "title": "南齊書卷五十二·丘靈鞠、檀超、卞彬、丘巨源",
+        "provider": "Wikisource",
+        "permalink": "https://zh.wikisource.org/w/index.php?oldid=2371079",
+        "url": "https://zh.wikisource.org/w/index.php?oldid=2371079",
+        "revision_id": 2371079,
+        "edition": "維基文庫固定修訂",
+        "accessed_on": "2026-11-21",
+        "review_status": "text_checked",
+        "image_verified": false,
+        "rights": "古代原文；數位轉錄依維基文庫授權。",
+        "license_url": "https://creativecommons.org/licenses/by-sa/4.0/",
+        "extent": "南齊書卷五十二·丘靈鞠、檀超、卞彬、丘巨源",
+        "text_scope": "complete_biography_unit",
+        "raw_path": "source-evidence/nanshi059-wangsengru/ws2371079.wikitext",
+        "raw_file_sha256": "0d21e91bd7417b412efe653110e18a597d7858db9f48f63191b88b3bf13d1364",
+        "collation_witnesses": [
+          "source-evidence/nanqi052-roll/early-literature-reading.json"
+        ]
+      }
+    },
     {
       "chapter_id": "c-nanshi-019-fangming",
       "work_id": "w-nanshi",
@@ -7055,6 +7117,32 @@
   ],
   "relations": [
     {
+      "id": "a-qi052-daolian-tan-preface",
+      "subject_person_id": "3qs_nqa_ioa_AAB",
+      "object_person_id": "j14_z5t_w01",
+      "predicate": "spouse",
+      "qualifiers": {
+        "source_term": "長沙王道憐妃"
+      },
+      "evidence": [
+        {
+          "work_id": "w-nanqishu",
+          "book_id": "b-nanqishu-052",
+          "chapter_id": "c-nanqishu-052-early-literature-complete",
+          "source_id": "s-nanqishu-052-early-literature-complete-ws2371079",
+          "paragraph_id": "c-nanqishu-052-early-literature-complete:p007",
+          "quote": "　　超少好文學，放誕任氣，解褐州西曹。嘗與別駕蕭惠開共事，不爲之下。謂惠開曰：「我與卿俱起一老姥，何足相誇？」蕭太后，惠開之祖姑，長沙王道憐妃，超祖姑也。舉秀才。孝建初，坐事徙梁州，板宣威府參軍。孝武聞超有文章，敕還直東宮，除驃騎參軍、寧蠻主簿，鎮北諮議。超累佐蕃職，不得志，轉尚書度支郎，車騎功曹，桂陽內史。入爲殿中郎，兼中書郎，零陵內史，征北驃騎記室，國子博士，兼左丞。",
+          "subject_person_mention_id": "c-nanqishu-052-early-literature-complete:p007:m0065",
+          "object_person_mention_id": "c-nanqishu-052-early-literature-complete:p007:m0070"
+        }
+      ],
+      "status": "source_attested",
+      "interpretation_note": "下文作超祖姑，與蕭太后分敘。",
+      "reviewer": "Codex（AI代理）",
+      "model": null,
+      "human_reviewed": false
+    },
+    {
       "id": "a-song041-kin-015-daolian",
       "subject_person_id": "3qs_nqa_ioa_AAB",
       "object_person_id": "ph1_ms8_hyq_AA",
@@ -7172,6 +7260,7 @@
     "3qs_nqa_ioa_AAB": "道憐",
     "3qs_nqa_ioa_AABA": "劉義融（桂陽恭侯）",
     "3qs_nqa_ioa_AABB": "劉義宗（新渝惠侯，字伯奴）",
+    "j14_z5t_w01": "檀珪祖姑（長沙景王配偶，未名）",
     "ph1_ms8_hyq_AA": "蕭文夀〔孝懿皇后〕"
   },
   "dates": [],
@@ -7219,6 +7308,32 @@
     "3qs_nqa_ioa_AAB"
   ],
   "preferred_relations": [
+    {
+      "id": "a-qi052-daolian-tan-preface",
+      "subject_person_id": "3qs_nqa_ioa_AAB",
+      "object_person_id": "j14_z5t_w01",
+      "predicate": "spouse",
+      "qualifiers": {
+        "source_term": "長沙王道憐妃"
+      },
+      "evidence": [
+        {
+          "work_id": "w-nanqishu",
+          "book_id": "b-nanqishu-052",
+          "chapter_id": "c-nanqishu-052-early-literature-complete",
+          "source_id": "s-nanqishu-052-early-literature-complete-ws2371079",
+          "paragraph_id": "c-nanqishu-052-early-literature-complete:p007",
+          "quote": "　　超少好文學，放誕任氣，解褐州西曹。嘗與別駕蕭惠開共事，不爲之下。謂惠開曰：「我與卿俱起一老姥，何足相誇？」蕭太后，惠開之祖姑，長沙王道憐妃，超祖姑也。舉秀才。孝建初，坐事徙梁州，板宣威府參軍。孝武聞超有文章，敕還直東宮，除驃騎參軍、寧蠻主簿，鎮北諮議。超累佐蕃職，不得志，轉尚書度支郎，車騎功曹，桂陽內史。入爲殿中郎，兼中書郎，零陵內史，征北驃騎記室，國子博士，兼左丞。",
+          "subject_person_mention_id": "c-nanqishu-052-early-literature-complete:p007:m0065",
+          "object_person_mention_id": "c-nanqishu-052-early-literature-complete:p007:m0070"
+        }
+      ],
+      "status": "source_attested",
+      "interpretation_note": "下文作超祖姑，與蕭太后分敘。",
+      "reviewer": "Codex（AI代理）",
+      "model": null,
+      "human_reviewed": false
+    },
     {
       "id": "a-song041-kin-015-daolian",
       "subject_person_id": "3qs_nqa_ioa_AAB",

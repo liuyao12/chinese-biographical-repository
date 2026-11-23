@@ -165,6 +165,60 @@
       "work_title": "南齊書"
     },
     {
+      "number": 52,
+      "category": "",
+      "title": "南齊書卷五十二·王智深、陸厥、崔慰祖、祖沖之、賈淵",
+      "paragraph_id": "c-nanqishu-052-later-literature-complete:p040",
+      "count": 3,
+      "raw_count": 3,
+      "duplicate_count": 0,
+      "counting_policy": "independent_fixed_witness_occurrences",
+      "quote": "　　賈淵字希鏡，平陽襄陵人也。祖弼之，晉員外郎。父匪之，驃騎參軍。",
+      "paragraph_ids": [
+        "c-nanqishu-052-later-literature-complete:p040",
+        "c-nanqishu-052-later-literature-complete:p043"
+      ],
+      "mention_ids": [
+        "c-nanqishu-052-later-literature-complete:p040:m0016",
+        "c-nanqishu-052-later-literature-complete:p043:m0013",
+        "c-nanqishu-052-later-literature-complete:p043:m0035"
+      ],
+      "mention_paragraph_ids": {
+        "c-nanqishu-052-later-literature-complete:p040:m0016": "c-nanqishu-052-later-literature-complete:p040",
+        "c-nanqishu-052-later-literature-complete:p043:m0013": "c-nanqishu-052-later-literature-complete:p043",
+        "c-nanqishu-052-later-literature-complete:p043:m0035": "c-nanqishu-052-later-literature-complete:p043"
+      },
+      "mention_id": "c-nanqishu-052-later-literature-complete:p040:m0016",
+      "occurrence_groups": [
+        {
+          "canonical_mention_id": "c-nanqishu-052-later-literature-complete:p040:m0016",
+          "mention_ids": [
+            "c-nanqishu-052-later-literature-complete:p040:m0016"
+          ],
+          "kind": "paragraph"
+        },
+        {
+          "canonical_mention_id": "c-nanqishu-052-later-literature-complete:p043:m0013",
+          "mention_ids": [
+            "c-nanqishu-052-later-literature-complete:p043:m0013"
+          ],
+          "kind": "paragraph"
+        },
+        {
+          "canonical_mention_id": "c-nanqishu-052-later-literature-complete:p043:m0035",
+          "mention_ids": [
+            "c-nanqishu-052-later-literature-complete:p043:m0035"
+          ],
+          "kind": "paragraph"
+        }
+      ],
+      "work_id": "w-nanqishu",
+      "book_id": "b-nanqishu-052",
+      "chapter_id": "c-nanqishu-052-later-literature-complete",
+      "source_id": "s-nanqishu-052-later-literature-complete-ws2371079",
+      "work_title": "南齊書"
+    },
+    {
       "number": 59,
       "category": "",
       "title": "王僧孺及西邸諸人",
@@ -240,6 +294,32 @@
       }
     },
     {
+      "chapter_id": "c-nanqishu-052-later-literature-complete",
+      "work_id": "w-nanqishu",
+      "book_id": "b-nanqishu-052",
+      "source_id": "s-nanqishu-052-later-literature-complete-ws2371079",
+      "source": {
+        "title": "南齊書卷五十二·王智深、陸厥、崔慰祖、祖沖之、賈淵",
+        "provider": "Wikisource",
+        "permalink": "https://zh.wikisource.org/w/index.php?oldid=2371079",
+        "url": "https://zh.wikisource.org/w/index.php?oldid=2371079",
+        "revision_id": 2371079,
+        "edition": "維基文庫固定修訂",
+        "accessed_on": "2026-11-21",
+        "review_status": "text_checked",
+        "image_verified": false,
+        "rights": "古代原文；數位轉錄依維基文庫授權。",
+        "license_url": "https://creativecommons.org/licenses/by-sa/4.0/",
+        "extent": "南齊書卷五十二·王智深、陸厥、崔慰祖、祖沖之、賈淵",
+        "text_scope": "complete_biography_unit",
+        "raw_path": "source-evidence/nanshi059-wangsengru/ws2371079.wikitext",
+        "raw_file_sha256": "0d21e91bd7417b412efe653110e18a597d7858db9f48f63191b88b3bf13d1364",
+        "collation_witnesses": [
+          "source-evidence/nanqi052-roll/later-literature-reading.json"
+        ]
+      }
+    },
+    {
       "chapter_id": "c-nanshi-059-wangsengru",
       "work_id": "w-nanshi",
       "book_id": "b-nanshi-059",
@@ -296,6 +376,33 @@
       "reviewer": "Codex（AI 代理）",
       "human_reviewed": false,
       "model": null
+    },
+    {
+      "id": "a-qi052-jiayuan-grandfather",
+      "subject_person_id": "uij_ufp_1a6_AA",
+      "object_person_id": "uij_ufp_1a6",
+      "predicate": "grandfather",
+      "qualifiers": {
+        "source_term": "祖弼之",
+        "lineage": "paternal"
+      },
+      "evidence": [
+        {
+          "work_id": "w-nanqishu",
+          "book_id": "b-nanqishu-052",
+          "chapter_id": "c-nanqishu-052-later-literature-complete",
+          "source_id": "s-nanqishu-052-later-literature-complete-ws2371079",
+          "paragraph_id": "c-nanqishu-052-later-literature-complete:p040",
+          "quote": "　　賈淵字希鏡，平陽襄陵人也。祖弼之，晉員外郎。父匪之，驃騎參軍。",
+          "subject_person_mention_id": "c-nanqishu-052-later-literature-complete:p040:m0002",
+          "object_person_mention_id": "c-nanqishu-052-later-literature-complete:p040:m0016"
+        }
+      ],
+      "status": "source_attested",
+      "interpretation_note": "祖為晉員外郎。",
+      "reviewer": "Codex（AI代理）",
+      "model": null,
+      "human_reviewed": false
     },
     {
       "id": "a-nanshi059-wangsengru-feizhi",
@@ -364,6 +471,33 @@
       "reviewer": "Codex（AI 代理）",
       "human_reviewed": false,
       "model": null
+    },
+    {
+      "id": "a-qi052-jiayuan-grandfather",
+      "subject_person_id": "uij_ufp_1a6_AA",
+      "object_person_id": "uij_ufp_1a6",
+      "predicate": "grandfather",
+      "qualifiers": {
+        "source_term": "祖弼之",
+        "lineage": "paternal"
+      },
+      "evidence": [
+        {
+          "work_id": "w-nanqishu",
+          "book_id": "b-nanqishu-052",
+          "chapter_id": "c-nanqishu-052-later-literature-complete",
+          "source_id": "s-nanqishu-052-later-literature-complete-ws2371079",
+          "paragraph_id": "c-nanqishu-052-later-literature-complete:p040",
+          "quote": "　　賈淵字希鏡，平陽襄陵人也。祖弼之，晉員外郎。父匪之，驃騎參軍。",
+          "subject_person_mention_id": "c-nanqishu-052-later-literature-complete:p040:m0002",
+          "object_person_mention_id": "c-nanqishu-052-later-literature-complete:p040:m0016"
+        }
+      ],
+      "status": "source_attested",
+      "interpretation_note": "祖為晉員外郎。",
+      "reviewer": "Codex（AI代理）",
+      "model": null,
+      "human_reviewed": false
     },
     {
       "id": "a-nanshi059-wangsengru-feizhi",

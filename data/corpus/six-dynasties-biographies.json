@@ -1506,25 +1506,21 @@
       "sha256": "0d21e91bd7417b412efe653110e18a597d7858db9f48f63191b88b3bf13d1364",
       "heading_survey": "complete",
       "heading_locator_scheme": "wikisource_equals_lines",
-      "embedded_account_survey": "partial",
+      "embedded_account_survey": "complete",
       "excluded_sections": [
         {
           "heading_line": 177,
           "heading": "史論",
-          "reason": "史論及校語。"
+          "reason": "史論與贊。"
         },
         {
           "heading_line": 182,
           "heading": "案",
-          "reason": "史論及校語。"
+          "reason": "數位注目。"
         }
       ],
-      "pending_boundaries": [
-        {
-          "person": "其餘文學傳的未題附敘",
-          "note": "本包核王逡之、王珪之、王顥。"
-        }
-      ]
+      "pending_boundaries": [],
+      "source_review_path": "source-evidence/nanqi052-roll/close-reading.json"
     },
     {
       "book_id": "b-nanshi-011",
@@ -23905,16 +23901,61 @@
       "heading_line": 11,
       "heading_raw": "==丘靈鞠==",
       "first_line": 12,
-      "last_line": 20,
+      "last_line": 12,
       "start_codepoint": 0,
-      "end_codepoint": 140,
+      "end_codepoint": 20,
       "opening": "　　丘靈鞠，吳興烏程",
-      "closing": "訖元熙。文集行於世。",
-      "chapter_id": null,
+      "closing": "人也。祖系，祕書監。",
+      "chapter_id": "c-nanqishu-052-early-literature-complete",
       "entry_checked": true,
-      "full_text": false,
-      "first_pass": false,
-      "item_reviewed": false
+      "full_text": true,
+      "first_pass": true,
+      "item_reviewed": true,
+      "chapter_path": "corpus/nanqishu/052-early-literature-complete.json",
+      "mixed_chapter": true,
+      "paragraph_ids": [
+        "c-nanqishu-052-early-literature-complete:p001",
+        "c-nanqishu-052-early-literature-complete:p002",
+        "c-nanqishu-052-early-literature-complete:p003",
+        "c-nanqishu-052-early-literature-complete:p004",
+        "c-nanqishu-052-early-literature-complete:p005"
+      ],
+      "source_layout": "nanqi052_fixed_text",
+      "item_review_path": "source-evidence/nanqi052-roll/early-literature-reading.json",
+      "continuation_spans": [
+        {
+          "first_line": 14,
+          "last_line": 14,
+          "start_codepoint": 0,
+          "end_codepoint": 85,
+          "opening": "　　靈鞠少好學，善屬",
+          "closing": "州主簿。累遷員外郎。"
+        },
+        {
+          "first_line": 16,
+          "last_line": 16,
+          "start_codepoint": 0,
+          "end_codepoint": 163,
+          "opening": "　　宋孝武殷貴妃亡，",
+          "closing": "轉通直郎，兼中書郎。"
+        },
+        {
+          "first_line": 18,
+          "last_line": 18,
+          "start_codepoint": 0,
+          "end_codepoint": 208,
+          "opening": "　　昇明中，遷正員郎",
+          "closing": "餘罪。」改正員常侍。"
+        },
+        {
+          "first_line": 20,
+          "last_line": 20,
+          "start_codepoint": 0,
+          "end_codepoint": 140,
+          "opening": "　　靈鞠好飲酒，臧否",
+          "closing": "訖元熙。文集行於世。"
+        }
+      ]
     },
     {
       "book_id": "b-nanqishu-052",
@@ -23923,16 +23964,76 @@
       "heading_line": 22,
       "heading_raw": "==檀超==",
       "first_line": 23,
+      "last_line": 23,
+      "start_codepoint": 0,
+      "end_codepoint": 26,
+      "opening": "　　檀超字悅祖，高平",
+      "closing": "弘宗，宋南琅邪太守。",
+      "chapter_id": "c-nanqishu-052-early-literature-complete",
+      "entry_checked": true,
+      "full_text": true,
+      "first_pass": true,
+      "item_reviewed": true,
+      "chapter_path": "corpus/nanqishu/052-early-literature-complete.json",
+      "mixed_chapter": true,
+      "paragraph_ids": [
+        "c-nanqishu-052-early-literature-complete:p006",
+        "c-nanqishu-052-early-literature-complete:p007",
+        "c-nanqishu-052-early-literature-complete:p008",
+        "c-nanqishu-052-early-literature-complete:p009"
+      ],
+      "source_layout": "nanqi052_fixed_text",
+      "item_review_path": "source-evidence/nanqi052-roll/early-literature-reading.json",
+      "continuation_spans": [
+        {
+          "first_line": 25,
+          "last_line": 25,
+          "start_codepoint": 0,
+          "end_codepoint": 187,
+          "opening": "　　超少好文學，放誕",
+          "closing": "，國子博士，兼左丞。"
+        },
+        {
+          "first_line": 27,
+          "last_line": 27,
+          "start_codepoint": 0,
+          "end_codepoint": 63,
+          "opening": "　　超嗜酒，好言詠，",
+          "closing": "，常侍，司徒右長史。"
+        },
+        {
+          "first_line": 29,
+          "last_line": 29,
+          "start_codepoint": 0,
+          "end_codepoint": 423,
+          "opening": "　　建元二年，初置史",
+          "closing": "淹撰成之，猶不備也。"
+        }
+      ]
+    },
+    {
+      "title": "熊襄",
+      "book_id": "b-nanqishu-052",
+      "chapter_id": "c-nanqishu-052-early-literature-complete",
+      "chapter_path": "corpus/nanqishu/052-early-literature-complete.json",
+      "mixed_chapter": true,
+      "paragraph_ids": [
+        "c-nanqishu-052-early-literature-complete:p010"
+      ],
+      "source_layout": "nanqi052_fixed_text",
+      "full_text": true,
+      "first_pass": true,
+      "entry_checked": true,
+      "item_reviewed": true,
+      "item_review_path": "source-evidence/nanqi052-roll/early-literature-reading.json",
+      "first_line": 31,
       "last_line": 31,
       "start_codepoint": 0,
       "end_codepoint": 60,
-      "opening": "　　檀超字悅祖，高平",
+      "opening": "　　時豫章熊襄著《齊",
       "closing": "名爲《河洛金匱》。」",
-      "chapter_id": null,
-      "entry_checked": true,
-      "full_text": false,
-      "first_pass": false,
-      "item_reviewed": false
+      "unit_kind": "embedded_account",
+      "parent_heading": "檀超"
     },
     {
       "book_id": "b-nanqishu-052",
@@ -23941,16 +24042,109 @@
       "heading_line": 33,
       "heading_raw": "==卞彬==",
       "first_line": 34,
+      "last_line": 34,
+      "start_codepoint": 0,
+      "end_codepoint": 36,
+      "opening": "　　卞彬字士蔚，濟陰",
+      "closing": "，有剛氣，爲上虞令。",
+      "chapter_id": "c-nanqishu-052-early-literature-complete",
+      "entry_checked": true,
+      "full_text": true,
+      "first_pass": true,
+      "item_reviewed": true,
+      "chapter_path": "corpus/nanqishu/052-early-literature-complete.json",
+      "mixed_chapter": true,
+      "paragraph_ids": [
+        "c-nanqishu-052-early-literature-complete:p011",
+        "c-nanqishu-052-early-literature-complete:p012",
+        "c-nanqishu-052-early-literature-complete:p013",
+        "c-nanqishu-052-early-literature-complete:p014",
+        "c-nanqishu-052-early-literature-complete:p015"
+      ],
+      "source_layout": "nanqi052_fixed_text",
+      "item_review_path": "source-evidence/nanqi052-roll/early-literature-reading.json",
+      "continuation_spans": [
+        {
+          "first_line": 36,
+          "last_line": 36,
+          "start_codepoint": 0,
+          "end_codepoint": 198,
+          "opening": "　　彬才操不羣，文多",
+          "closing": "家貧，出爲南康郡丞。"
+        },
+        {
+          "first_line": 38,
+          "last_line": 38,
+          "start_codepoint": 0,
+          "end_codepoint": 216,
+          "opening": "　　彬頗飲酒，擯棄形",
+          "closing": "。」其略言皆實錄也。"
+        },
+        {
+          "first_line": 40,
+          "last_line": 40,
+          "start_codepoint": 0,
+          "end_codepoint": 151,
+          "opening": "　　除南海王國郎中令",
+          "closing": "史、綏建太守，卒官。"
+        },
+        {
+          "first_line": 42,
+          "last_line": 42,
+          "start_codepoint": 0,
+          "end_codepoint": 105,
+          "opening": "　　彬又目禽獸云：「",
+          "closing": "事也。文章傳於閭巷。"
+        }
+      ]
+    },
+    {
+      "title": "諸葛勗",
+      "book_id": "b-nanqishu-052",
+      "chapter_id": "c-nanqishu-052-early-literature-complete",
+      "chapter_path": "corpus/nanqishu/052-early-literature-complete.json",
+      "mixed_chapter": true,
+      "paragraph_ids": [
+        "c-nanqishu-052-early-literature-complete:p016"
+      ],
+      "source_layout": "nanqi052_fixed_text",
+      "full_text": true,
+      "first_pass": true,
+      "entry_checked": true,
+      "item_reviewed": true,
+      "item_review_path": "source-evidence/nanqi052-roll/early-literature-reading.json",
+      "first_line": 44,
+      "last_line": 44,
+      "start_codepoint": 0,
+      "end_codepoint": 56,
+      "opening": "　　永明中，琅邪諸葛",
+      "closing": "賦》，世祖見，赦之。",
+      "unit_kind": "embedded_account",
+      "parent_heading": "卞彬"
+    },
+    {
+      "title": "袁嘏",
+      "book_id": "b-nanqishu-052",
+      "chapter_id": "c-nanqishu-052-early-literature-complete",
+      "chapter_path": "corpus/nanqishu/052-early-literature-complete.json",
+      "mixed_chapter": true,
+      "paragraph_ids": [
+        "c-nanqishu-052-early-literature-complete:p017"
+      ],
+      "source_layout": "nanqi052_fixed_text",
+      "full_text": true,
+      "first_pass": true,
+      "entry_checked": true,
+      "item_reviewed": true,
+      "item_review_path": "source-evidence/nanqi052-roll/early-literature-reading.json",
+      "first_line": 46,
       "last_line": 46,
       "start_codepoint": 0,
       "end_codepoint": 50,
-      "opening": "　　卞彬字士蔚，濟陰",
+      "opening": "　　又有陳郡袁嘏，自",
       "closing": "暨令，被王敬則所殺。",
-      "chapter_id": null,
-      "entry_checked": true,
-      "full_text": false,
-      "first_pass": false,
-      "item_reviewed": false
+      "unit_kind": "embedded_account",
+      "parent_heading": "卞彬"
     },
     {
       "book_id": "b-nanqishu-052",
@@ -23959,16 +24153,133 @@
       "heading_line": 48,
       "heading_raw": "==丘巨源==",
       "first_line": 49,
-      "last_line": 73,
+      "last_line": 49,
       "start_codepoint": 0,
-      "end_codepoint": 60,
+      "end_codepoint": 104,
       "opening": "　　丘巨源，蘭陵蘭陵",
-      "closing": "有譏刺語，以事見殺。",
-      "chapter_id": null,
+      "closing": "鎮軍參軍，寧喪還家。",
+      "chapter_id": "c-nanqishu-052-early-literature-complete",
       "entry_checked": true,
-      "full_text": false,
-      "first_pass": false,
-      "item_reviewed": false
+      "full_text": true,
+      "first_pass": true,
+      "item_reviewed": true,
+      "chapter_path": "corpus/nanqishu/052-early-literature-complete.json",
+      "mixed_chapter": true,
+      "paragraph_ids": [
+        "c-nanqishu-052-early-literature-complete:p018",
+        "c-nanqishu-052-early-literature-complete:p019",
+        "c-nanqishu-052-early-literature-complete:p020",
+        "c-nanqishu-052-early-literature-complete:p021",
+        "c-nanqishu-052-early-literature-complete:p022",
+        "c-nanqishu-052-early-literature-complete:p023",
+        "c-nanqishu-052-early-literature-complete:p024",
+        "c-nanqishu-052-early-literature-complete:p025",
+        "c-nanqishu-052-early-literature-complete:p026",
+        "c-nanqishu-052-early-literature-complete:p027",
+        "c-nanqishu-052-early-literature-complete:p028",
+        "c-nanqishu-052-early-literature-complete:p029",
+        "c-nanqishu-052-early-literature-complete:p030"
+      ],
+      "source_layout": "nanqi052_fixed_text",
+      "item_review_path": "source-evidence/nanqi052-roll/early-literature-reading.json",
+      "continuation_spans": [
+        {
+          "first_line": 51,
+          "last_line": 51,
+          "start_codepoint": 0,
+          "end_codepoint": 72,
+          "opening": "　　元徽初，桂陽王休",
+          "closing": "檄，事平，除奉朝請。"
+        },
+        {
+          "first_line": 53,
+          "last_line": 53,
+          "start_codepoint": 0,
+          "end_codepoint": 24,
+          "opening": "　　巨源望有封賞，旣",
+          "closing": "乃與尚書令袁粲書曰："
+        },
+        {
+          "first_line": 55,
+          "last_line": 55,
+          "start_codepoint": 0,
+          "end_codepoint": 123,
+          "opening": ":　　民信理推心，闇",
+          "closing": "倫伍，巫匠之流匹矣。"
+        },
+        {
+          "first_line": 57,
+          "last_line": 57,
+          "start_codepoint": 0,
+          "end_codepoint": 88,
+          "opening": ":　　去昔奇兵，變起",
+          "closing": "民不畏，其一可論也。"
+        },
+        {
+          "first_line": 59,
+          "last_line": 59,
+          "start_codepoint": 0,
+          "end_codepoint": 87,
+          "opening": ":　　臨機新亭，獨能",
+          "closing": "膽何如？其二可論也。"
+        },
+        {
+          "first_line": 61,
+          "last_line": 61,
+          "start_codepoint": 0,
+          "end_codepoint": 108,
+          "opening": ":　　又爾時顛沛，普",
+          "closing": "才賜列，其三可論也。"
+        },
+        {
+          "first_line": 63,
+          "last_line": 63,
+          "start_codepoint": 0,
+          "end_codepoint": 82,
+          "opening": ":　　竊見桂陽賊賞不",
+          "closing": "人埋沒，其四可論也。"
+        },
+        {
+          "first_line": 65,
+          "last_line": 65,
+          "start_codepoint": 0,
+          "end_codepoint": 72,
+          "opening": ":　　且邁遠置辭，無",
+          "closing": "可熟念，其五可論也。"
+        },
+        {
+          "first_line": 67,
+          "last_line": 67,
+          "start_codepoint": 0,
+          "end_codepoint": 206,
+          "opening": ":　　往年戎旅，萬有",
+          "closing": "旣非草木，何能弭聲？"
+        },
+        {
+          "first_line": 69,
+          "last_line": 69,
+          "start_codepoint": 0,
+          "end_codepoint": 9,
+          "opening": "　　巨源竟不被申。",
+          "closing": "　　巨源竟不被申。"
+        },
+        {
+          "first_line": 71,
+          "last_line": 71,
+          "start_codepoint": 0,
+          "end_codepoint": 96,
+          "opening": "　　歷佐諸王府，轉羽",
+          "closing": "建業。」以爲餘杭令。"
+        },
+        {
+          "first_line": 73,
+          "last_line": 73,
+          "start_codepoint": 0,
+          "end_codepoint": 60,
+          "opening": "　　沈攸之事，太祖使",
+          "closing": "有譏刺語，以事見殺。"
+        }
+      ]
     },
     {
       "book_id": "b-nanqishu-052",
@@ -23977,16 +24288,109 @@
       "heading_line": 75,
       "heading_raw": "==王智深==",
       "first_line": 76,
+      "last_line": 76,
+      "start_codepoint": 0,
+      "end_codepoint": 140,
+      "opening": "　　王智深字雲才，琅",
+      "closing": "大司馬參軍，兼記室。",
+      "chapter_id": "c-nanqishu-052-later-literature-complete",
+      "entry_checked": true,
+      "full_text": true,
+      "first_pass": true,
+      "item_reviewed": true,
+      "chapter_path": "corpus/nanqishu/052-later-literature-complete.json",
+      "mixed_chapter": true,
+      "paragraph_ids": [
+        "c-nanqishu-052-later-literature-complete:p001",
+        "c-nanqishu-052-later-literature-complete:p002",
+        "c-nanqishu-052-later-literature-complete:p003",
+        "c-nanqishu-052-later-literature-complete:p004",
+        "c-nanqishu-052-later-literature-complete:p005"
+      ],
+      "source_layout": "nanqi052_fixed_text",
+      "item_review_path": "source-evidence/nanqi052-roll/later-literature-reading.json",
+      "continuation_spans": [
+        {
+          "first_line": 78,
+          "last_line": 78,
+          "start_codepoint": 0,
+          "end_codepoint": 105,
+          "opening": "　　世祖使太子家令沈",
+          "closing": "義。」於是多所省除。"
+        },
+        {
+          "first_line": 80,
+          "last_line": 80,
+          "start_codepoint": 0,
+          "end_codepoint": 121,
+          "opening": "　　又敕智深撰《宋紀",
+          "closing": "鋒衡陽王鈞竝善待之。"
+        },
+        {
+          "first_line": 82,
+          "last_line": 82,
+          "start_codepoint": 0,
+          "end_codepoint": 59,
+          "opening": "　　初，智深爲司徒袁",
+          "closing": "譏之，智深於是著論。"
+        },
+        {
+          "first_line": 84,
+          "last_line": 84,
+          "start_codepoint": 0,
+          "end_codepoint": 39,
+          "opening": "　　家貧無人事，嘗餓",
+          "closing": "志分其衣食。卒於家。"
+        }
+      ]
+    },
+    {
+      "title": "袁炳",
+      "book_id": "b-nanqishu-052",
+      "chapter_id": "c-nanqishu-052-later-literature-complete",
+      "chapter_path": "corpus/nanqishu/052-later-literature-complete.json",
+      "mixed_chapter": true,
+      "paragraph_ids": [
+        "c-nanqishu-052-later-literature-complete:p006"
+      ],
+      "source_layout": "nanqi052_fixed_text",
+      "full_text": true,
+      "first_pass": true,
+      "entry_checked": true,
+      "item_reviewed": true,
+      "item_review_path": "source-evidence/nanqi052-roll/later-literature-reading.json",
+      "first_line": 86,
+      "last_line": 86,
+      "start_codepoint": 0,
+      "end_codepoint": 34,
+      "opening": "　　先是陳郡袁炳，字",
+      "closing": "著《晉書》未成，卒。",
+      "unit_kind": "embedded_account",
+      "parent_heading": "王智深"
+    },
+    {
+      "title": "庾銑",
+      "book_id": "b-nanqishu-052",
+      "chapter_id": "c-nanqishu-052-later-literature-complete",
+      "chapter_path": "corpus/nanqishu/052-later-literature-complete.json",
+      "mixed_chapter": true,
+      "paragraph_ids": [
+        "c-nanqishu-052-later-literature-complete:p007"
+      ],
+      "source_layout": "nanqi052_fixed_text",
+      "full_text": true,
+      "first_pass": true,
+      "entry_checked": true,
+      "item_reviewed": true,
+      "item_review_path": "source-evidence/nanqi052-roll/later-literature-reading.json",
+      "first_line": 88,
       "last_line": 88,
       "start_codepoint": 0,
       "end_codepoint": 29,
-      "opening": "　　王智深字雲才，琅",
+      "opening": "　　潁川庾銑，善屬文",
       "closing": "大司馬記室參軍，卒。",
-      "chapter_id": null,
-      "entry_checked": true,
-      "full_text": false,
-      "first_pass": false,
-      "item_reviewed": false
+      "unit_kind": "embedded_account",
+      "parent_heading": "王智深"
     },
     {
       "book_id": "b-nanqishu-052",
@@ -23995,16 +24399,148 @@
       "heading_line": 90,
       "heading_raw": "==陸厥==",
       "first_line": 91,
+      "last_line": 91,
+      "start_codepoint": 0,
+      "end_codepoint": 83,
+      "opening": "　　陸厥字韓卿，吳郡",
+      "closing": "主簿，遷後軍行參軍。",
+      "chapter_id": "c-nanqishu-052-later-literature-complete",
+      "entry_checked": true,
+      "full_text": true,
+      "first_pass": true,
+      "item_reviewed": true,
+      "chapter_path": "corpus/nanqishu/052-later-literature-complete.json",
+      "mixed_chapter": true,
+      "paragraph_ids": [
+        "c-nanqishu-052-later-literature-complete:p008",
+        "c-nanqishu-052-later-literature-complete:p009",
+        "c-nanqishu-052-later-literature-complete:p010",
+        "c-nanqishu-052-later-literature-complete:p011",
+        "c-nanqishu-052-later-literature-complete:p012",
+        "c-nanqishu-052-later-literature-complete:p013",
+        "c-nanqishu-052-later-literature-complete:p014",
+        "c-nanqishu-052-later-literature-complete:p015",
+        "c-nanqishu-052-later-literature-complete:p016",
+        "c-nanqishu-052-later-literature-complete:p017",
+        "c-nanqishu-052-later-literature-complete:p018",
+        "c-nanqishu-052-later-literature-complete:p019"
+      ],
+      "source_layout": "nanqi052_fixed_text",
+      "item_review_path": "source-evidence/nanqi052-roll/later-literature-reading.json",
+      "continuation_spans": [
+        {
+          "first_line": 93,
+          "last_line": 93,
+          "start_codepoint": 0,
+          "end_codepoint": 99,
+          "opening": "　　永明末，盛爲文章",
+          "closing": "論宮商。厥與約書曰："
+        },
+        {
+          "first_line": 95,
+          "last_line": 95,
+          "start_codepoint": 0,
+          "end_codepoint": 194,
+          "opening": ":　　范詹事《自序》",
+          "closing": "祕未睹」，近於誣乎？"
+        },
+        {
+          "first_line": 97,
+          "last_line": 97,
+          "start_codepoint": 0,
+          "end_codepoint": 186,
+          "opening": ":　　案范云「不從根",
+          "closing": "理而寄詆訶爲遺恨邪？"
+        },
+        {
+          "first_line": 99,
+          "last_line": 99,
+          "start_codepoint": 0,
+          "end_codepoint": 268,
+          "opening": ":　　自魏文屬論，深",
+          "closing": "於斯，必非不知明矣。"
+        },
+        {
+          "first_line": 101,
+          "last_line": 101,
+          "start_codepoint": 0,
+          "end_codepoint": 170,
+          "opening": ":　　《長門》、《上",
+          "closing": "，不得言曾無先覺也。"
+        },
+        {
+          "first_line": 103,
+          "last_line": 103,
+          "start_codepoint": 0,
+          "end_codepoint": 6,
+          "opening": "　　約答曰：",
+          "closing": "　　約答曰："
+        },
+        {
+          "first_line": 105,
+          "last_line": 105,
+          "start_codepoint": 0,
+          "end_codepoint": 162,
+          "opening": ":　　宮商之聲有五，",
+          "closing": "」，云「壯夫不爲」。"
+        },
+        {
+          "first_line": 107,
+          "last_line": 107,
+          "start_codepoint": 0,
+          "end_codepoint": 72,
+          "opening": ":　　自古辭人，豈不",
+          "closing": "前世文士便未悟此處。"
+        },
+        {
+          "first_line": 109,
+          "last_line": 109,
+          "start_codepoint": 0,
+          "end_codepoint": 90,
+          "opening": ":　　若以文章之音韻",
+          "closing": "情滯，則音律頓舛也。"
+        },
+        {
+          "first_line": 111,
+          "last_line": 111,
+          "start_codepoint": 0,
+          "end_codepoint": 71,
+          "opening": ":　　士衡雖云「炳若",
+          "closing": "言，老夫亦不盡辨此。"
+        },
+        {
+          "first_line": 113,
+          "last_line": 113,
+          "start_codepoint": 0,
+          "end_codepoint": 53,
+          "opening": "　　永元元年，始安王",
+          "closing": "二十八。文集行於世。"
+        }
+      ]
+    },
+    {
+      "title": "虞炎",
+      "book_id": "b-nanqishu-052",
+      "chapter_id": "c-nanqishu-052-later-literature-complete",
+      "chapter_path": "corpus/nanqishu/052-later-literature-complete.json",
+      "mixed_chapter": true,
+      "paragraph_ids": [
+        "c-nanqishu-052-later-literature-complete:p020"
+      ],
+      "source_layout": "nanqi052_fixed_text",
+      "full_text": true,
+      "first_pass": true,
+      "entry_checked": true,
+      "item_reviewed": true,
+      "item_review_path": "source-evidence/nanqi052-roll/later-literature-reading.json",
+      "first_line": 115,
       "last_line": 115,
       "start_codepoint": 0,
       "end_codepoint": 37,
-      "opening": "　　陸厥字韓卿，吳郡",
+      "opening": "　　會稽虞炎，永明中",
       "closing": "殊常。官至驍騎將軍。",
-      "chapter_id": null,
-      "entry_checked": true,
-      "full_text": false,
-      "first_pass": false,
-      "item_reviewed": false
+      "unit_kind": "embedded_account",
+      "parent_heading": "陸厥"
     },
     {
       "book_id": "b-nanqishu-052",
@@ -24013,16 +24549,88 @@
       "heading_line": 117,
       "heading_raw": "==崔慰祖==",
       "first_line": 118,
-      "last_line": 132,
+      "last_line": 118,
       "start_codepoint": 0,
-      "end_codepoint": 140,
+      "end_codepoint": 31,
       "opening": "　　崔慰祖字悅宗，清",
-      "closing": "靈座」。時年三十五。",
-      "chapter_id": null,
+      "closing": "永明中，爲梁州刺史。",
+      "chapter_id": "c-nanqishu-052-later-literature-complete",
       "entry_checked": true,
-      "full_text": false,
-      "first_pass": false,
-      "item_reviewed": false
+      "full_text": true,
+      "first_pass": true,
+      "item_reviewed": true,
+      "chapter_path": "corpus/nanqishu/052-later-literature-complete.json",
+      "mixed_chapter": true,
+      "paragraph_ids": [
+        "c-nanqishu-052-later-literature-complete:p021",
+        "c-nanqishu-052-later-literature-complete:p022",
+        "c-nanqishu-052-later-literature-complete:p023",
+        "c-nanqishu-052-later-literature-complete:p024",
+        "c-nanqishu-052-later-literature-complete:p025",
+        "c-nanqishu-052-later-literature-complete:p026",
+        "c-nanqishu-052-later-literature-complete:p027",
+        "c-nanqishu-052-later-literature-complete:p028"
+      ],
+      "source_layout": "nanqi052_fixed_text",
+      "item_review_path": "source-evidence/nanqi052-roll/later-literature-reading.json",
+      "continuation_spans": [
+        {
+          "first_line": 120,
+          "last_line": 120,
+          "start_codepoint": 0,
+          "end_codepoint": 137,
+          "opening": "　　慰祖解褐奉朝請。",
+          "closing": "何言哉！」悉火焚之。"
+        },
+        {
+          "first_line": 122,
+          "last_line": 122,
+          "start_codepoint": 0,
+          "end_codepoint": 40,
+          "opening": "　　好學，聚書至萬卷",
+          "closing": "親自取與，未常爲辭。"
+        },
+        {
+          "first_line": 124,
+          "last_line": 124,
+          "start_codepoint": 0,
+          "end_codepoint": 86,
+          "opening": "　　爲始安王撫軍墨曹",
+          "closing": "以百里，慰祖辭不就。"
+        },
+        {
+          "first_line": 126,
+          "last_line": 126,
+          "start_codepoint": 0,
+          "end_codepoint": 79,
+          "opening": "　　國子祭酒沈約、吏",
+          "closing": "馬復生，無以過此。」"
+        },
+        {
+          "first_line": 128,
+          "last_line": 128,
+          "start_codepoint": 0,
+          "end_codepoint": 77,
+          "opening": "　　慰祖賣宅四十五萬",
+          "closing": "欺人，豈是我心乎？」"
+        },
+        {
+          "first_line": 130,
+          "last_line": 130,
+          "start_codepoint": 0,
+          "end_codepoint": 91,
+          "opening": "　　少與侍中江祀款，",
+          "closing": "自首。繫尚方，病卒。"
+        },
+        {
+          "first_line": 132,
+          "last_line": 132,
+          "start_codepoint": 0,
+          "end_codepoint": 140,
+          "opening": "　　慰祖著《海岱志》",
+          "closing": "靈座」。時年三十五。"
+        }
+      ]
     },
     {
       "book_id": "b-nanqishu-052",
@@ -24109,16 +24717,115 @@
       "heading_line": 143,
       "heading_raw": "==祖沖之==",
       "first_line": 144,
-      "last_line": 164,
+      "last_line": 144,
       "start_codepoint": 0,
-      "end_codepoint": 134,
+      "end_codepoint": 31,
       "opening": "　　祖沖之字文遠，范",
-      "closing": "》造《綴述》數十篇。",
-      "chapter_id": null,
+      "closing": "卿。父朔之，奉朝請。",
+      "chapter_id": "c-nanqishu-052-later-literature-complete",
       "entry_checked": true,
-      "full_text": false,
-      "first_pass": false,
-      "item_reviewed": false
+      "full_text": true,
+      "first_pass": true,
+      "item_reviewed": true,
+      "chapter_path": "corpus/nanqishu/052-later-literature-complete.json",
+      "mixed_chapter": true,
+      "paragraph_ids": [
+        "c-nanqishu-052-later-literature-complete:p029",
+        "c-nanqishu-052-later-literature-complete:p030",
+        "c-nanqishu-052-later-literature-complete:p031",
+        "c-nanqishu-052-later-literature-complete:p032",
+        "c-nanqishu-052-later-literature-complete:p033",
+        "c-nanqishu-052-later-literature-complete:p034",
+        "c-nanqishu-052-later-literature-complete:p035",
+        "c-nanqishu-052-later-literature-complete:p036",
+        "c-nanqishu-052-later-literature-complete:p037",
+        "c-nanqishu-052-later-literature-complete:p038",
+        "c-nanqishu-052-later-literature-complete:p039"
+      ],
+      "source_layout": "nanqi052_fixed_text",
+      "item_review_path": "source-evidence/nanqi052-roll/later-literature-reading.json",
+      "continuation_spans": [
+        {
+          "first_line": 146,
+          "last_line": 146,
+          "start_codepoint": 0,
+          "end_codepoint": 41,
+          "opening": "　　沖之少稽古，有機",
+          "closing": "州迎從事，公府參軍。"
+        },
+        {
+          "first_line": 148,
+          "last_line": 148,
+          "start_codepoint": 0,
+          "end_codepoint": 40,
+          "opening": "　　宋元嘉中，用何承",
+          "closing": "乃更造新法。上表曰："
+        },
+        {
+          "first_line": 150,
+          "last_line": 150,
+          "start_codepoint": 0,
+          "end_codepoint": 142,
+          "opening": ":　　臣博訪前墳，遠",
+          "closing": "推移，又曲備其詳矣。"
+        },
+        {
+          "first_line": 152,
+          "last_line": 152,
+          "start_codepoint": 0,
+          "end_codepoint": 141,
+          "opening": ":　　然而古曆疏舛，",
+          "closing": "敢率愚瞽，更創新曆。"
+        },
+        {
+          "first_line": 154,
+          "last_line": 154,
+          "start_codepoint": 0,
+          "end_codepoint": 579,
+          "opening": ":　　謹立改易之意有",
+          "closing": "羣流共源，庶無乖誤。"
+        },
+        {
+          "first_line": 156,
+          "last_line": 156,
+          "start_codepoint": 0,
+          "end_codepoint": 174,
+          "opening": ":　　若夫測以定形，",
+          "closing": "頒宣羣司，賜垂詳究。"
+        },
+        {
+          "first_line": 158,
+          "last_line": 158,
+          "start_codepoint": 0,
+          "end_codepoint": 39,
+          "opening": "　　事奏。孝武令朝士",
+          "closing": "爲婁縣令，謁者僕射。"
+        },
+        {
+          "first_line": 160,
+          "last_line": 160,
+          "start_codepoint": 0,
+          "end_codepoint": 145,
+          "opening": "　　初，宋武平關中，",
+          "closing": "古，沖之造欹器獻之。"
+        },
+        {
+          "first_line": 162,
+          "last_line": 162,
+          "start_codepoint": 0,
+          "end_codepoint": 96,
+          "opening": "　　文惠太子在東宮，",
+          "closing": "連有軍事，事竟不行。"
+        },
+        {
+          "first_line": 164,
+          "last_line": 164,
+          "start_codepoint": 0,
+          "end_codepoint": 134,
+          "opening": "　　沖之解鍾律，博塞",
+          "closing": "》造《綴述》數十篇。"
+        }
+      ]
     },
     {
       "book_id": "b-nanqishu-052",
@@ -24127,16 +24834,101 @@
       "heading_line": 166,
       "heading_raw": "==賈淵==",
       "first_line": 167,
-      "last_line": 175,
+      "last_line": 167,
       "start_codepoint": 0,
-      "end_codepoint": 120,
+      "end_codepoint": 33,
       "opening": "　　賈淵字希鏡，平陽",
-      "closing": "人名書》，竝行於世。",
-      "chapter_id": null,
+      "closing": "。父匪之，驃騎參軍。",
+      "chapter_id": "c-nanqishu-052-later-literature-complete",
       "entry_checked": true,
-      "full_text": false,
-      "first_pass": false,
-      "item_reviewed": false
+      "full_text": true,
+      "first_pass": true,
+      "item_reviewed": true,
+      "chapter_path": "corpus/nanqishu/052-later-literature-complete.json",
+      "mixed_chapter": true,
+      "paragraph_ids": [
+        "c-nanqishu-052-later-literature-complete:p040",
+        "c-nanqishu-052-later-literature-complete:p041",
+        "c-nanqishu-052-later-literature-complete:p042",
+        "c-nanqishu-052-later-literature-complete:p043",
+        "c-nanqishu-052-later-literature-complete:p044"
+      ],
+      "source_layout": "nanqi052_fixed_text",
+      "item_review_path": "source-evidence/nanqi052-roll/later-literature-reading.json",
+      "continuation_spans": [
+        {
+          "first_line": 169,
+          "last_line": 169,
+          "start_codepoint": 0,
+          "end_codepoint": 87,
+          "opening": "　　世傳譜學。孝武世",
+          "closing": "遇。敕淵注《郭子》。"
+        },
+        {
+          "first_line": 171,
+          "last_line": 171,
+          "start_codepoint": 0,
+          "end_codepoint": 117,
+          "opening": "　　泰始初，辟丹陽郡",
+          "closing": "見客譜，出爲句容令。"
+        },
+        {
+          "first_line": 173,
+          "last_line": 173,
+          "start_codepoint": 55,
+          "end_codepoint": 113,
+          "opening": "淵父及淵三世傳學，凡",
+          "closing": "譜》，與淵參懷撰定。"
+        },
+        {
+          "first_line": 175,
+          "last_line": 175,
+          "start_codepoint": 0,
+          "end_codepoint": 120,
+          "opening": "　　建武初，淵遷長水",
+          "closing": "人名書》，竝行於世。"
+        }
+      ],
+      "paragraph_slices": {
+        "c-nanqishu-052-later-literature-complete:p043": [
+          {
+            "start": 55,
+            "end": 113
+          }
+        ]
+      }
+    },
+    {
+      "title": "賈弼之",
+      "book_id": "b-nanqishu-052",
+      "chapter_id": "c-nanqishu-052-later-literature-complete",
+      "chapter_path": "corpus/nanqishu/052-later-literature-complete.json",
+      "mixed_chapter": true,
+      "paragraph_ids": [
+        "c-nanqishu-052-later-literature-complete:p043"
+      ],
+      "source_layout": "nanqi052_fixed_text",
+      "full_text": true,
+      "first_pass": true,
+      "entry_checked": true,
+      "item_reviewed": true,
+      "item_review_path": "source-evidence/nanqi052-roll/later-literature-reading.json",
+      "first_line": 173,
+      "last_line": 173,
+      "start_codepoint": 0,
+      "end_codepoint": 55,
+      "opening": "　　先是譜學未有名家",
+      "closing": "寫，藏祕閣及左民曹。",
+      "unit_kind": "embedded_account",
+      "parent_heading": "賈淵",
+      "paragraph_slices": {
+        "c-nanqishu-052-later-literature-complete:p043": [
+          {
+            "start": 0,
+            "end": 55
+          }
+        ]
+      }
     },
     {
       "book_id": "b-nanshi-011",
