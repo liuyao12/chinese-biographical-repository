@@ -11,6 +11,54 @@
   ],
   "titles": [
     {
+      "id": "th-nanqishu-044-shenwenji-complete-8-24",
+      "title": "前軍將軍",
+      "kind": "office",
+      "mode": "attestation",
+      "person_id": "1vs_gdp_2dy",
+      "attestations": [
+        {
+          "id": "th-nanqishu-044-shenwenji-complete-8-24:a",
+          "paragraph_id": "c-nanqishu-044-shenwenji-complete:p008",
+          "start": 24,
+          "end": 28,
+          "surface": "前軍將軍",
+          "person_mention_id": "c-nanqishu-044-shenwenji-complete:p008:m0028",
+          "usage": "narrative",
+          "date_expression": null
+        }
+      ],
+      "effective_period": {
+        "start": {
+          "status": "unknown",
+          "date_expression": null,
+          "evidence": []
+        },
+        "end": {
+          "status": "unknown",
+          "date_expression": null,
+          "evidence": []
+        }
+      },
+      "evidence": [
+        {
+          "work_id": "w-nanqishu",
+          "book_id": "b-nanqishu-044",
+          "chapter_id": "c-nanqishu-044-shenwenji-complete",
+          "source_id": "s-nanqishu-044-shenwenji-complete-ws1507959",
+          "paragraph_id": "c-nanqishu-044-shenwenji-complete:p008",
+          "quote": "　　臺軍乘勝，百姓頗被抄奪。軍還，上聞之，收軍主前軍將軍陳天福弃市，左軍將軍中宿縣子劉明徹免官削爵付東冶。天福，上寵將也，旣伏誅，內外莫不震肅。天福善馬槊，至今諸將法之。",
+          "person_mention_id": "c-nanqishu-044-shenwenji-complete:p008:m0028"
+        }
+      ],
+      "status": "source_attested",
+      "interpretation_note": "所見原官稱，未載全任期。",
+      "reviewer": "Codex（AI代理）",
+      "model": null,
+      "human_reviewed": false,
+      "period": "未定 → 未定"
+    },
+    {
       "id": "th-nanshi022-wangsengqian-112-49",
       "person_id": "1vs_gdp_2dy",
       "title": "前將軍",
@@ -104,10 +152,89 @@
       "chapter_id": "c-nanshi-022-wangsengqian",
       "source_id": "s-nanshi-022-wangsengqian-ws1477957",
       "work_title": "南史"
+    },
+    {
+      "number": 44,
+      "category": "",
+      "title": "南齊書卷四十四·沈文季、唐宇之、蕭崇之、陳天福、沈昭略及昭光",
+      "paragraph_id": "c-nanqishu-044-shenwenji-complete:p008",
+      "count": 3,
+      "raw_count": 3,
+      "duplicate_count": 0,
+      "counting_policy": "independent_fixed_witness_occurrences",
+      "quote": "　　臺軍乘勝，百姓頗被抄奪。軍還，上聞之，收軍主前軍將軍陳天福弃市，左軍將軍中宿縣子劉明徹免官削爵付東冶。天福，上寵將也，旣伏誅，內外莫不震肅。天福善馬槊，至今諸將法之。",
+      "paragraph_ids": [
+        "c-nanqishu-044-shenwenji-complete:p008"
+      ],
+      "mention_ids": [
+        "c-nanqishu-044-shenwenji-complete:p008:m0028",
+        "c-nanqishu-044-shenwenji-complete:p008:m0053",
+        "c-nanqishu-044-shenwenji-complete:p008:m0072"
+      ],
+      "mention_paragraph_ids": {
+        "c-nanqishu-044-shenwenji-complete:p008:m0028": "c-nanqishu-044-shenwenji-complete:p008",
+        "c-nanqishu-044-shenwenji-complete:p008:m0053": "c-nanqishu-044-shenwenji-complete:p008",
+        "c-nanqishu-044-shenwenji-complete:p008:m0072": "c-nanqishu-044-shenwenji-complete:p008"
+      },
+      "mention_id": "c-nanqishu-044-shenwenji-complete:p008:m0028",
+      "occurrence_groups": [
+        {
+          "canonical_mention_id": "c-nanqishu-044-shenwenji-complete:p008:m0028",
+          "mention_ids": [
+            "c-nanqishu-044-shenwenji-complete:p008:m0028"
+          ],
+          "kind": "paragraph"
+        },
+        {
+          "canonical_mention_id": "c-nanqishu-044-shenwenji-complete:p008:m0053",
+          "mention_ids": [
+            "c-nanqishu-044-shenwenji-complete:p008:m0053"
+          ],
+          "kind": "paragraph"
+        },
+        {
+          "canonical_mention_id": "c-nanqishu-044-shenwenji-complete:p008:m0072",
+          "mention_ids": [
+            "c-nanqishu-044-shenwenji-complete:p008:m0072"
+          ],
+          "kind": "paragraph"
+        }
+      ],
+      "work_id": "w-nanqishu",
+      "book_id": "b-nanqishu-044",
+      "chapter_id": "c-nanqishu-044-shenwenji-complete",
+      "source_id": "s-nanqishu-044-shenwenji-complete-ws1507959",
+      "work_title": "南齊書"
     }
   ],
   "table_occurrences": [],
   "sources": [
+    {
+      "chapter_id": "c-nanqishu-044-shenwenji-complete",
+      "work_id": "w-nanqishu",
+      "book_id": "b-nanqishu-044",
+      "source_id": "s-nanqishu-044-shenwenji-complete-ws1507959",
+      "source": {
+        "title": "南齊書卷四十四·沈文季、唐宇之、蕭崇之、陳天福、沈昭略及昭光",
+        "provider": "Wikisource",
+        "permalink": "https://zh.wikisource.org/w/index.php?oldid=1507959",
+        "url": "https://zh.wikisource.org/w/index.php?oldid=1507959",
+        "revision_id": 1507959,
+        "edition": "維基文庫固定修訂",
+        "accessed_on": "2026-11-21",
+        "review_status": "text_checked",
+        "image_verified": false,
+        "rights": "古代原文；數位轉錄依維基文庫授權。",
+        "license_url": "https://creativecommons.org/licenses/by-sa/4.0/",
+        "extent": "南齊書卷四十四·沈文季、唐宇之、蕭崇之、陳天福、沈昭略及昭光",
+        "text_scope": "complete_biography_unit",
+        "raw_path": "source-evidence/nanqi023-wangjian/nanqishu044-ws1507959.wikitext",
+        "raw_file_sha256": "e1f2e1b345f48e7f4b7f28e521e550b3dc1af7d9a88656753b9da994711bb257",
+        "collation_witnesses": [
+          "source-evidence/nanqi044-roll/shen-reading.json"
+        ]
+      }
+    },
     {
       "chapter_id": "c-nanshi-022-wangsengqian",
       "work_id": "w-nanshi",
@@ -150,6 +277,35 @@
   "preferred_relations": [],
   "age_assertions": [],
   "life_events": [
+    {
+      "id": "le-qi044-chentianfu-death",
+      "person_id": "1vs_gdp_2dy",
+      "event_type": "death",
+      "source_term": "弃市",
+      "source_anchor": {
+        "paragraph_id": "c-nanqishu-044-shenwenji-complete:p008",
+        "start": 31,
+        "end": 33,
+        "surface": "弃市"
+      },
+      "date_expression": null,
+      "evidence": [
+        {
+          "work_id": "w-nanqishu",
+          "book_id": "b-nanqishu-044",
+          "chapter_id": "c-nanqishu-044-shenwenji-complete",
+          "source_id": "s-nanqishu-044-shenwenji-complete-ws1507959",
+          "paragraph_id": "c-nanqishu-044-shenwenji-complete:p008",
+          "quote": "　　臺軍乘勝，百姓頗被抄奪。軍還，上聞之，收軍主前軍將軍陳天福弃市，左軍將軍中宿縣子劉明徹免官削爵付東冶。天福，上寵將也，旣伏誅，內外莫不震肅。天福善馬槊，至今諸將法之。",
+          "person_mention_id": "c-nanqishu-044-shenwenji-complete:p008:m0028"
+        }
+      ],
+      "status": "source_attested",
+      "interpretation_note": "按同段人物與次第核所屬卒事。",
+      "reviewer": "Codex（AI代理）",
+      "model": null,
+      "human_reviewed": false
+    },
     {
       "id": "le-nanshi022-wangsengqian-112-70",
       "person_id": "1vs_gdp_2dy",
