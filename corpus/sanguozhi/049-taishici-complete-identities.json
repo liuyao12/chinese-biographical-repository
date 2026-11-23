@@ -1,0 +1,64 @@
+{
+  "format_version": "0.2",
+  "record_type": "person_identity_decision_set",
+  "chapter_id": "c-sanguozhi-049-taishici-complete",
+  "decisions": [
+    {
+      "id": "d-wu049-taishici-song047-allusion",
+      "person_id": "s52_ysc_gyl",
+      "scope": "cross_chapter",
+      "chapter_ids": [
+        "c-sanguozhi-049-taishici-complete",
+        "c-songshu-047-liujingxuan"
+      ],
+      "surfaces": [
+        "太史慈",
+        "太史子義",
+        "慈"
+      ],
+      "status": "contextual_provisional",
+      "confidence_level": "high",
+      "identification_basis": {
+        "kind": "source_context",
+        "target_mention_ids": [
+          "c-sanguozhi-049-taishici-complete:p001:m0002",
+          "c-songshu-047-liujingxuan:p015:m0096",
+          "c-sanguozhi-049-taishici-complete:p002:m0615"
+        ]
+      },
+      "evidence": [
+        {
+          "work_id": "w-sanguozhi",
+          "book_id": "b-sanguozhi-049",
+          "source_id": "s-sanguozhi-049-taishici-complete-ws2075209",
+          "chapter_id": "c-sanguozhi-049-taishici-complete",
+          "paragraph_id": "c-sanguozhi-049-taishici-complete:p001",
+          "person_mention_id": "c-sanguozhi-049-taishici-complete:p001:m0002",
+          "quote": "太史慈字子義"
+        },
+        {
+          "work_id": "w-songshu",
+          "book_id": "b-songshu-047",
+          "source_id": "s-songshu-047-liujingxuan-ws2190557",
+          "chapter_id": "c-songshu-047-liujingxuan",
+          "paragraph_id": "c-songshu-047-liujingxuan:p015",
+          "person_mention_id": "c-songshu-047-liujingxuan:p015:m0096",
+          "quote": "孔文舉禮太史子義"
+        },
+        {
+          "work_id": "w-sanguozhi",
+          "book_id": "b-sanguozhi-049",
+          "source_id": "s-sanguozhi-049-taishici-complete-ws2075209",
+          "chapter_id": "c-sanguozhi-049-taishici-complete",
+          "paragraph_id": "c-sanguozhi-049-taishici-complete:p002",
+          "person_mention_id": "c-sanguozhi-049-taishici-complete:p002:m0615",
+          "quote": "融既得濟，益奇貴慈，曰：「卿吾之少友也。」"
+        }
+      ],
+      "rationale": "《宋書》謝混以孔文舉禮太史子義喻待劉敬宣。《吳書》傳首太史慈字子義，又具載北海相孔融問訊其母、慈解都昌圍、融以慈為少友。姓、字、人物與事相合。",
+      "reviewer": "Codex（AI 代理）",
+      "human_reviewed": false,
+      "model": null
+    }
+  ]
+}
