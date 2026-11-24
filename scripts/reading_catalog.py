@@ -72,7 +72,9 @@ def outputs(root=None):
     # Work-specific catalogs retain native chapter IDs. The established Shiji
     # reader (including its tables) remains its own specialized entry point.
     works = json.loads((root / 'registry/works.json').read_text())['works']
-    navigation_work_ids = {w['work_id'] for w in json.loads((directory / 'chapter-directory.json').read_text())['works'] if w.get('books')}
+    directory_works = json.loads((directory / 'chapter-directory.json').read_text())['works']
+    display_titles = {w['work_id']: w['title'] for w in directory_works}
+    navigation_work_ids = {w['work_id'] for w in directory_works if w.get('books')}
     manifest = [{'id':'w-shiji','title':'史記','author':'司馬遷',
                  'reader_kind':'shiji','catalog_path':'data/corpus/index.json'}]
     for work in works:
@@ -116,6 +118,9 @@ def outputs(root=None):
         result[root / path] = (json.dumps(other,ensure_ascii=False,indent=2)+'\n').encode()
         manifest.append({'id':work['id'],'title':work['title'],'author':work.get('author'),
                          'reader_kind':'corpus','catalog_path':path})
+    for entry in manifest:
+        entry['display_title'] = display_titles.get(entry['id']) or entry['title']
+        entry['reading_unit_count'] = len(json.loads(result[root / entry['catalog_path']])['chapters'])
     provenance_path = root / 'registry/work-provenance.json'
     provenance_link = {}
     if provenance_path.exists():

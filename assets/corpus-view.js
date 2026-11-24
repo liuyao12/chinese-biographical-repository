@@ -104,8 +104,7 @@ async function render(keepScroll=false) {
 const fail=error=>{$('corpus-content').innerHTML=`<p role="alert">${h(error.message)}</p>`;};
 (async()=>{
   try {
-    manifest=await json('data/corpus/works.json');
-    [workTitles,volumeDirectory]=await Promise.all([loadWorkTitles(),loadVolumeDirectory()]);
+    [manifest,workTitles,volumeDirectory]=await Promise.all([json('data/corpus/works.json'),loadWorkTitles(),loadVolumeDirectory()]);
     chapterDirectory=chapterDirectoryMap(volumeDirectory);
     $('chapter-search').oninput=list;
     window.addEventListener('hashchange',()=>render().catch(fail));
