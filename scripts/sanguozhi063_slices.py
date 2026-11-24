@@ -10,8 +10,12 @@ def source_lines():
     return f.read_text().splitlines()
 
 def slice_text(fragment):
+    return slice_volume_text(fragment, source_lines(), '卷63')
+
+
+def slice_volume_text(fragment, lines, volume):
     matches=set()
-    for line in source_lines():
+    for line in lines:
         offset=line.find(fragment)
         while offset>=0:
             last=offset+len(fragment)
@@ -25,5 +29,5 @@ def slice_text(fragment):
                         break
             if selected:matches.add(selected)
             offset=line.find(fragment,offset+1)
-    if len(matches)!=1:raise ValueError(('卷63附敘與固定行不能唯一互讀',fragment[:20]))
+    if len(matches)!=1:raise ValueError((volume+'附敘與固定行不能唯一互讀',fragment[:20]))
     return matches.pop()

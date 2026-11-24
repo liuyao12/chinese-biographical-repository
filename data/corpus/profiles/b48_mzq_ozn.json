@@ -6,7 +6,8 @@
   "identity_note": "依本篇具名、稱謂及其所在原句辨認；引書原字存於各自來源。",
   "review": "ai_provisional",
   "names": [
-    "儀"
+    "儀",
+    "孫儀"
   ],
   "titles": [
     {
@@ -156,6 +157,50 @@
       "chapter_id": "c-sanguozhi-051-jiao",
       "source_id": "s-sanguozhi-051-jiao",
       "work_title": "三國志"
+    },
+    {
+      "number": 64,
+      "category": "",
+      "title": "三國志卷六十四·孫峻附吳書留贊傳",
+      "paragraph_id": "c-sanguozhi-064-sunjun-complete:p003",
+      "count": 2,
+      "raw_count": 2,
+      "duplicate_count": 0,
+      "counting_policy": "independent_fixed_witness_occurrences",
+      "quote": "帥驃騎將軍呂據、左將軍留贊襲壽春，會欽敗降，軍還。是歲，蜀使來聘，將軍孫儀、孫邵綝恂等欲因會殺峻。事洩，儀等自殺，死者數十入，並及公主魯育。",
+      "paragraph_ids": [
+        "c-sanguozhi-064-sunjun-complete:p003"
+      ],
+      "mention_ids": [
+        "c-sanguozhi-064-sunjun-complete:p003:m0060",
+        "c-sanguozhi-064-sunjun-complete:p003:m0077"
+      ],
+      "mention_paragraph_ids": {
+        "c-sanguozhi-064-sunjun-complete:p003:m0060": "c-sanguozhi-064-sunjun-complete:p003",
+        "c-sanguozhi-064-sunjun-complete:p003:m0077": "c-sanguozhi-064-sunjun-complete:p003"
+      },
+      "mention_id": "c-sanguozhi-064-sunjun-complete:p003:m0060",
+      "occurrence_groups": [
+        {
+          "canonical_mention_id": "c-sanguozhi-064-sunjun-complete:p003:m0060",
+          "mention_ids": [
+            "c-sanguozhi-064-sunjun-complete:p003:m0060"
+          ],
+          "kind": "paragraph"
+        },
+        {
+          "canonical_mention_id": "c-sanguozhi-064-sunjun-complete:p003:m0077",
+          "mention_ids": [
+            "c-sanguozhi-064-sunjun-complete:p003:m0077"
+          ],
+          "kind": "paragraph"
+        }
+      ],
+      "work_id": "w-sanguozhi",
+      "book_id": "b-sanguozhi-064",
+      "chapter_id": "c-sanguozhi-064-sunjun-complete",
+      "source_id": "s-sanguozhi-064-sunjun-complete-ws2263487",
+      "work_title": "三國志"
     }
   ],
   "table_occurrences": [],
@@ -214,6 +259,29 @@
           "source-evidence/sanguozhi051-jiao/reading.json"
         ]
       }
+    },
+    {
+      "chapter_id": "c-sanguozhi-064-sunjun-complete",
+      "work_id": "w-sanguozhi",
+      "book_id": "b-sanguozhi-064",
+      "source_id": "s-sanguozhi-064-sunjun-complete-ws2263487",
+      "source": {
+        "title": "三國志卷六十四·孫峻附吳書留贊傳",
+        "provider": "Wikisource",
+        "permalink": "https://zh.wikisource.org/w/index.php?oldid=2263487",
+        "url": "https://zh.wikisource.org/w/index.php?oldid=2263487",
+        "revision_id": 2263487,
+        "edition": "維基文庫固定修訂",
+        "accessed_on": "2026-11-21",
+        "review_status": "text_checked",
+        "image_verified": false,
+        "rights": "古代原文；數位轉錄依維基文庫授權。",
+        "license_url": "https://creativecommons.org/licenses/by-sa/4.0/",
+        "extent": "三國志卷六十四·孫峻附吳書留贊傳",
+        "text_scope": "complete_biography_unit",
+        "raw_path": "source-evidence/sanguozhi064-roll/ws2263487.wikitext",
+        "raw_file_sha256": "8371077fbc5c595d04ae4f085a06a84cebc3a7b385aaaa4419d46cff2088229e"
+      }
     }
   ],
   "relations": [],
@@ -222,6 +290,22 @@
   },
   "dates": [],
   "name_components": [],
+  "source_reading_cases": [
+    {
+      "id": "c-sanguozhi-064-sunjun-complete:variant_review3-58",
+      "kind": "variant_review",
+      "person_id": "b48_mzq_ozn",
+      "source_quote": "將軍孫儀、孫邵綝恂等欲因會殺峻",
+      "reading": "本傳殿本與數位皆有連書孫邵綝恂。卷四十八同事為孫儀、張怡、林恂。保原段字形，未將連書切成既知人物。",
+      "note": "本傳殿本與數位皆有連書孫邵綝恂。卷四十八同事為孫儀、張怡、林恂。保原段字形，未將連書切成既知人物。",
+      "paragraph_id": "c-sanguozhi-064-sunjun-complete:p003",
+      "start_codepoint": 58,
+      "end_codepoint": 73,
+      "human_reviewed": false,
+      "chapter_id": "c-sanguozhi-064-sunjun-complete",
+      "source_id": "s-sanguozhi-064-sunjun-complete-ws2263487"
+    }
+  ],
   "person_ids": [
     "b48_mzq_ozn"
   ],
