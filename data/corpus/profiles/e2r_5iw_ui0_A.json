@@ -10,7 +10,8 @@
     "勔",
     "伯猷",
     "劉勉",
-    "勉"
+    "勉",
+    "劉公"
   ],
   "titles": [
     {
@@ -233,6 +234,59 @@
       "book_id": "b-nanqishu-041",
       "chapter_id": "c-nanqishu-041-zhangrong-complete",
       "source_id": "s-nanqishu-041-zhangrong-complete-ws2044621",
+      "work_title": "南齊書"
+    },
+    {
+      "number": 48,
+      "category": "",
+      "title": "南齊書卷四十八·劉繪、劉瑱",
+      "paragraph_id": "c-nanqishu-048-liuhui-complete:p001",
+      "count": 3,
+      "raw_count": 3,
+      "duplicate_count": 0,
+      "counting_policy": "independent_fixed_witness_occurrences",
+      "quote": "　　劉繪字士章，彭城人，太常悛弟也。父勉，宋末權貴，門多人客，使繪與之共語，應接流暢。勉喜曰：「汝後若束帶立朝，可與賔客言矣。」解褐著作郎，太祖太尉行參軍。太祖見而歎曰：「劉公爲不亡也。」",
+      "paragraph_ids": [
+        "c-nanqishu-048-liuhui-complete:p001"
+      ],
+      "mention_ids": [
+        "c-nanqishu-048-liuhui-complete:p001:m0019",
+        "c-nanqishu-048-liuhui-complete:p001:m0043",
+        "c-nanqishu-048-liuhui-complete:p001:m0086"
+      ],
+      "mention_paragraph_ids": {
+        "c-nanqishu-048-liuhui-complete:p001:m0019": "c-nanqishu-048-liuhui-complete:p001",
+        "c-nanqishu-048-liuhui-complete:p001:m0043": "c-nanqishu-048-liuhui-complete:p001",
+        "c-nanqishu-048-liuhui-complete:p001:m0086": "c-nanqishu-048-liuhui-complete:p001"
+      },
+      "mention_id": "c-nanqishu-048-liuhui-complete:p001:m0019",
+      "occurrence_groups": [
+        {
+          "canonical_mention_id": "c-nanqishu-048-liuhui-complete:p001:m0019",
+          "mention_ids": [
+            "c-nanqishu-048-liuhui-complete:p001:m0019"
+          ],
+          "kind": "paragraph"
+        },
+        {
+          "canonical_mention_id": "c-nanqishu-048-liuhui-complete:p001:m0043",
+          "mention_ids": [
+            "c-nanqishu-048-liuhui-complete:p001:m0043"
+          ],
+          "kind": "paragraph"
+        },
+        {
+          "canonical_mention_id": "c-nanqishu-048-liuhui-complete:p001:m0086",
+          "mention_ids": [
+            "c-nanqishu-048-liuhui-complete:p001:m0086"
+          ],
+          "kind": "paragraph"
+        }
+      ],
+      "work_id": "w-nanqishu",
+      "book_id": "b-nanqishu-048",
+      "chapter_id": "c-nanqishu-048-liuhui-complete",
+      "source_id": "s-nanqishu-048-liuhui-complete-ws1511898",
       "work_title": "南齊書"
     },
     {
@@ -466,6 +520,32 @@
       }
     },
     {
+      "chapter_id": "c-nanqishu-048-liuhui-complete",
+      "work_id": "w-nanqishu",
+      "book_id": "b-nanqishu-048",
+      "source_id": "s-nanqishu-048-liuhui-complete-ws1511898",
+      "source": {
+        "title": "南齊書卷四十八·劉繪、劉瑱",
+        "provider": "Wikisource",
+        "permalink": "https://zh.wikisource.org/w/index.php?oldid=1511898",
+        "url": "https://zh.wikisource.org/w/index.php?oldid=1511898",
+        "revision_id": 1511898,
+        "edition": "維基文庫固定修訂",
+        "accessed_on": "2026-11-21",
+        "review_status": "text_checked",
+        "image_verified": false,
+        "rights": "古代原文；數位轉錄依維基文庫授權。",
+        "license_url": "https://creativecommons.org/licenses/by-sa/4.0/",
+        "extent": "南齊書卷四十八·劉繪、劉瑱",
+        "text_scope": "complete_biography_unit",
+        "raw_path": "source-evidence/qinan-pei/nanqishu048-ws1511898.wikitext",
+        "raw_file_sha256": "f758b7ab7604ee6000def9ea1bf234eba658ff7eeebbaec1547a798d2938880a",
+        "collation_witnesses": [
+          "source-evidence/nanqi048-roll/liu-reading.json"
+        ]
+      }
+    },
+    {
       "chapter_id": "c-nanshi-023-wangkun",
       "work_id": "w-nanshi",
       "book_id": "b-nanshi-023",
@@ -604,6 +684,33 @@
       "human_reviewed": false
     },
     {
+      "id": "a-qi048-liuhui-father",
+      "subject_person_id": "e2r_5iw_ui0_AA",
+      "object_person_id": "e2r_5iw_ui0_A",
+      "predicate": "father",
+      "qualifiers": {
+        "source_term": "父勉",
+        "lineage": "paternal"
+      },
+      "evidence": [
+        {
+          "work_id": "w-nanqishu",
+          "book_id": "b-nanqishu-048",
+          "chapter_id": "c-nanqishu-048-liuhui-complete",
+          "source_id": "s-nanqishu-048-liuhui-complete-ws1511898",
+          "paragraph_id": "c-nanqishu-048-liuhui-complete:p001",
+          "quote": "　　劉繪字士章，彭城人，太常悛弟也。父勉，宋末權貴，門多人客，使繪與之共語，應接流暢。勉喜曰：「汝後若束帶立朝，可與賔客言矣。」解褐著作郎，太祖太尉行參軍。太祖見而歎曰：「劉公爲不亡也。」",
+          "subject_person_mention_id": "c-nanqishu-048-liuhui-complete:p001:m0002",
+          "object_person_mention_id": "c-nanqishu-048-liuhui-complete:p001:m0019"
+        }
+      ],
+      "status": "source_attested",
+      "interpretation_note": "數位勉，殿本及南史作勔。",
+      "reviewer": "Codex（AI代理）",
+      "model": null,
+      "human_reviewed": false
+    },
+    {
       "id": "a-songshu-086-liumian-grandfather",
       "subject_person_id": "e2r_5iw_ui0_A",
       "predicate": "grandfather",
@@ -725,6 +832,33 @@
       ],
       "status": "source_attested",
       "interpretation_note": "孝綽父繪及祖勔，齊48另證父勉異字。",
+      "reviewer": "Codex（AI代理）",
+      "model": null,
+      "human_reviewed": false
+    },
+    {
+      "id": "a-qi048-liuhui-father",
+      "subject_person_id": "e2r_5iw_ui0_AA",
+      "object_person_id": "e2r_5iw_ui0_A",
+      "predicate": "father",
+      "qualifiers": {
+        "source_term": "父勉",
+        "lineage": "paternal"
+      },
+      "evidence": [
+        {
+          "work_id": "w-nanqishu",
+          "book_id": "b-nanqishu-048",
+          "chapter_id": "c-nanqishu-048-liuhui-complete",
+          "source_id": "s-nanqishu-048-liuhui-complete-ws1511898",
+          "paragraph_id": "c-nanqishu-048-liuhui-complete:p001",
+          "quote": "　　劉繪字士章，彭城人，太常悛弟也。父勉，宋末權貴，門多人客，使繪與之共語，應接流暢。勉喜曰：「汝後若束帶立朝，可與賔客言矣。」解褐著作郎，太祖太尉行參軍。太祖見而歎曰：「劉公爲不亡也。」",
+          "subject_person_mention_id": "c-nanqishu-048-liuhui-complete:p001:m0002",
+          "object_person_mention_id": "c-nanqishu-048-liuhui-complete:p001:m0019"
+        }
+      ],
+      "status": "source_attested",
+      "interpretation_note": "數位勉，殿本及南史作勔。",
       "reviewer": "Codex（AI代理）",
       "model": null,
       "human_reviewed": false
