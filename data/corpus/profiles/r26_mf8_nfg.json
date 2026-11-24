@@ -1,0 +1,150 @@
+{
+  "schema_version": 1,
+  "id": "r26_mf8_nfg",
+  "canonical_person_id": "r26_mf8_nfg",
+  "label": "沈昭光母（未具名）",
+  "identity_note": "沈昭光母（未具名），見本組原文及身份互校。",
+  "review": "ai_provisional",
+  "names": [
+    "母"
+  ],
+  "titles": [],
+  "addresses": [],
+  "occurrences": [
+    {
+      "number": 44,
+      "category": "",
+      "title": "南齊書卷四十四·沈文季、唐宇之、蕭崇之、陳天福、沈昭略及昭光",
+      "paragraph_id": "c-nanqishu-044-shenwenji-complete:p016",
+      "count": 1,
+      "raw_count": 1,
+      "duplicate_count": 0,
+      "counting_policy": "independent_fixed_witness_occurrences",
+      "quote": "　　弟昭光，聞收至，家人勸逃去，昭光不忍捨母，遂見獲，殺之。中興元年，贈昭略太常，昭光廷尉。",
+      "paragraph_ids": [
+        "c-nanqishu-044-shenwenji-complete:p016"
+      ],
+      "mention_ids": [
+        "c-nanqishu-044-shenwenji-complete:p016:m0021"
+      ],
+      "mention_paragraph_ids": {
+        "c-nanqishu-044-shenwenji-complete:p016:m0021": "c-nanqishu-044-shenwenji-complete:p016"
+      },
+      "mention_id": "c-nanqishu-044-shenwenji-complete:p016:m0021",
+      "occurrence_groups": [
+        {
+          "canonical_mention_id": "c-nanqishu-044-shenwenji-complete:p016:m0021",
+          "mention_ids": [
+            "c-nanqishu-044-shenwenji-complete:p016:m0021"
+          ],
+          "kind": "paragraph"
+        }
+      ],
+      "work_id": "w-nanqishu",
+      "book_id": "b-nanqishu-044",
+      "chapter_id": "c-nanqishu-044-shenwenji-complete",
+      "source_id": "s-nanqishu-044-shenwenji-complete-ws1507959",
+      "work_title": "南齊書"
+    }
+  ],
+  "table_occurrences": [],
+  "sources": [
+    {
+      "chapter_id": "c-nanqishu-044-shenwenji-complete",
+      "work_id": "w-nanqishu",
+      "book_id": "b-nanqishu-044",
+      "source_id": "s-nanqishu-044-shenwenji-complete-ws1507959",
+      "source": {
+        "title": "南齊書卷四十四·沈文季、唐宇之、蕭崇之、陳天福、沈昭略及昭光",
+        "provider": "Wikisource",
+        "permalink": "https://zh.wikisource.org/w/index.php?oldid=1507959",
+        "url": "https://zh.wikisource.org/w/index.php?oldid=1507959",
+        "revision_id": 1507959,
+        "edition": "維基文庫固定修訂",
+        "accessed_on": "2026-11-21",
+        "review_status": "text_checked",
+        "image_verified": false,
+        "rights": "古代原文；數位轉錄依維基文庫授權。",
+        "license_url": "https://creativecommons.org/licenses/by-sa/4.0/",
+        "extent": "南齊書卷四十四·沈文季、唐宇之、蕭崇之、陳天福、沈昭略及昭光",
+        "text_scope": "complete_biography_unit",
+        "raw_path": "source-evidence/nanqi023-wangjian/nanqishu044-ws1507959.wikitext",
+        "raw_file_sha256": "e1f2e1b345f48e7f4b7f28e521e550b3dc1af7d9a88656753b9da994711bb257",
+        "collation_witnesses": [
+          "source-evidence/nanqi044-roll/shen-reading.json"
+        ]
+      }
+    }
+  ],
+  "relations": [
+    {
+      "id": "a-qi044-shenzhaoguang-mother",
+      "subject_person_id": "exe_6mm_87x",
+      "object_person_id": "r26_mf8_nfg",
+      "predicate": "mother",
+      "qualifiers": {
+        "source_term": "昭光不忍捨母",
+        "lineage": "maternal"
+      },
+      "evidence": [
+        {
+          "work_id": "w-nanqishu",
+          "book_id": "b-nanqishu-044",
+          "chapter_id": "c-nanqishu-044-shenwenji-complete",
+          "source_id": "s-nanqishu-044-shenwenji-complete-ws1507959",
+          "paragraph_id": "c-nanqishu-044-shenwenji-complete:p016",
+          "quote": "　　弟昭光，聞收至，家人勸逃去，昭光不忍捨母，遂見獲，殺之。中興元年，贈昭略太常，昭光廷尉。",
+          "subject_person_mention_id": "c-nanqishu-044-shenwenji-complete:p016:m0003",
+          "object_person_mention_id": "c-nanqishu-044-shenwenji-complete:p016:m0021"
+        }
+      ],
+      "status": "source_attested",
+      "interpretation_note": "原句只明昭光所護之母。",
+      "reviewer": "Codex（AI代理）",
+      "model": null,
+      "human_reviewed": false
+    }
+  ],
+  "related_people": {
+    "exe_6mm_87x": "沈昭光（沈昭略弟）",
+    "r26_mf8_nfg": "沈昭光母（未具名）"
+  },
+  "dates": [],
+  "name_components": [],
+  "person_ids": [
+    "r26_mf8_nfg"
+  ],
+  "preferred_relations": [
+    {
+      "id": "a-qi044-shenzhaoguang-mother",
+      "subject_person_id": "exe_6mm_87x",
+      "object_person_id": "r26_mf8_nfg",
+      "predicate": "mother",
+      "qualifiers": {
+        "source_term": "昭光不忍捨母",
+        "lineage": "maternal"
+      },
+      "evidence": [
+        {
+          "work_id": "w-nanqishu",
+          "book_id": "b-nanqishu-044",
+          "chapter_id": "c-nanqishu-044-shenwenji-complete",
+          "source_id": "s-nanqishu-044-shenwenji-complete-ws1507959",
+          "paragraph_id": "c-nanqishu-044-shenwenji-complete:p016",
+          "quote": "　　弟昭光，聞收至，家人勸逃去，昭光不忍捨母，遂見獲，殺之。中興元年，贈昭略太常，昭光廷尉。",
+          "subject_person_mention_id": "c-nanqishu-044-shenwenji-complete:p016:m0003",
+          "object_person_mention_id": "c-nanqishu-044-shenwenji-complete:p016:m0021"
+        }
+      ],
+      "status": "source_attested",
+      "interpretation_note": "原句只明昭光所護之母。",
+      "reviewer": "Codex（AI代理）",
+      "model": null,
+      "human_reviewed": false
+    }
+  ],
+  "age_assertions": [],
+  "life_events": [],
+  "life_event_date_decisions": [],
+  "selected_life_event_dates": []
+}
