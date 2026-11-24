@@ -23,6 +23,13 @@ class XiezhuangSource(unittest.TestCase):
  def test_existing_zhuang_and_hongwei_not_duplicated(self):
   self.assertEqual(I['謝莊'],'aa6_83c_juy_DBABA');self.assertEqual(I['謝弘微'],'aa6_83c_juy_DBAB');a=next(a for a in self.rows if a['subject_person_id']==I['謝莊']);self.assertEqual((a['predicate'],a['object_person_id']),('father',I['謝弘微']));self.assertFalse(any(p['label']=='宏微' for p in self.cat[0].values()))
  def test_issued_duji_reused(self):self.assertEqual(I['杜畿'],'56f_8f7_e9f');self.assertIn('56f_8f7_e9f',self.cat[0]);self.assertNotIn('杜畿',IDS['new'])
+ def test_gu_jizhi_keeps_song_spelling_and_both_office_anchors(self):
+  mentions=[m for p in D['paragraphs'] for m in p['mentions'] if m['surface']=='顧顗之']
+  self.assertEqual([m['person_id'] for m in mentions],[I['顧顗之']])
+  holdings=J(ROOT/'corpus/songshu/085-xiezhuang-titles.json')['holdings']
+  linked=[h for h in holdings if h['person_id']==I['顧顗之']]
+  self.assertEqual({h['title'] for h in linked},{'吏部尚書','度支尚書'})
+  self.assertTrue(all(a['person_mention_id']==mentions[0]['id'] for h in linked for a in h['attestations']))
  def test_eldest_son_explicit_not_id_order(self):
   a=next(a for a in self.rows if a['subject_person_id']==I['謝颺']);self.assertEqual(a['object_person_id'],I['謝莊']);self.assertEqual(a['qualifiers']['birth_order']['ordinal'],1)
  def test_empress_is_yang_daughter_not_zhuang_daughter(self):

@@ -1,0 +1,75 @@
+{
+  "format_version": "0.2",
+  "record_type": "person_identity_decision_set",
+  "chapter_id": "c-nanqishu-054-recluses-complete",
+  "decisions": [
+    {
+      "id": "d-qi054-gu-jizhi-cross-work",
+      "person_id": "i9w_mm6_m7t_*AAA",
+      "scope": "cross_chapter",
+      "chapter_ids": [
+        "c-songshu-085-xiezhuang",
+        "c-nanqishu-054-recluses-complete",
+        "c-songshu-081-gujizhi-shanyin-ancestry"
+      ],
+      "surfaces": [
+        "顧顗之",
+        "顧覬之",
+        "覬之"
+      ],
+      "status": "contextual_provisional",
+      "confidence_level": "high",
+      "identification_basis": {
+        "kind": "source_context",
+        "target_mention_ids": [
+          "c-songshu-085-xiezhuang:p010:m0668",
+          "c-nanqishu-054-recluses-complete:p011:m0156",
+          "c-songshu-081-gujizhi-shanyin-ancestry:p001:m0000",
+          "c-nanqishu-054-recluses-complete:p037:m0031"
+        ]
+      },
+      "evidence": [
+        {
+          "work_id": "w-songshu",
+          "book_id": "b-songshu-085",
+          "source_id": "s-songshu-085-xiezhuang",
+          "chapter_id": "c-songshu-085-xiezhuang",
+          "paragraph_id": "c-songshu-085-xiezhuang:p010",
+          "person_mention_id": "c-songshu-085-xiezhuang:p010:m0668",
+          "quote": "莊及度支尚書顧顗之並補選職"
+        },
+        {
+          "work_id": "w-nanqishu",
+          "book_id": "b-nanqishu-054",
+          "source_id": "s-nanqishu-054-recluses-complete-ws1762878",
+          "chapter_id": "c-nanqishu-054-recluses-complete",
+          "paragraph_id": "c-nanqishu-054-recluses-complete:p011",
+          "person_mention_id": "c-nanqishu-054-recluses-complete:p011:m0156",
+          "quote": "同郡顧顗之臨縣，見而異之，遣諸子與遊，及孫憲之"
+        },
+        {
+          "work_id": "w-songshu",
+          "book_id": "b-songshu-081",
+          "source_id": "s-songshu-081-gujizhi-shanyin-ancestry-ws2069213",
+          "chapter_id": "c-songshu-081-gujizhi-shanyin-ancestry",
+          "paragraph_id": "c-songshu-081-gujizhi-shanyin-ancestry:p001",
+          "person_mention_id": "c-songshu-081-gujizhi-shanyin-ancestry:p001:m0000",
+          "quote": "顧覬之字偉仁"
+        },
+        {
+          "work_id": "w-nanqishu",
+          "book_id": "b-nanqishu-054",
+          "source_id": "s-nanqishu-054-recluses-complete-ws1762878",
+          "chapter_id": "c-nanqishu-054-recluses-complete",
+          "paragraph_id": "c-nanqishu-054-recluses-complete:p037",
+          "person_mention_id": "c-nanqishu-054-recluses-complete:p037:m0031",
+          "quote": "宋鎮軍將軍覬之弟子也"
+        }
+      ],
+      "rationale": "《宋書》卷八十五 ctext 本作「度支尚書顧顗之並補選職」，固定維基文庫本同句及《梁書》卷三十三作「顧覬之」。本卷顧歡傳的顧顗之曾臨縣、孫憲之，同卷顧惠胤附傳見「宋鎮軍將軍覬之」。《宋書》卷八十一正文立顧覬之，與《南齊書》卷四十六所載憲之祖的山陰、湘州任履相校。沿用顧覬之既有 ID，各本字形照錄。",
+      "reviewer": "Codex（AI代理）",
+      "human_reviewed": false,
+      "model": null
+    }
+  ]
+}
