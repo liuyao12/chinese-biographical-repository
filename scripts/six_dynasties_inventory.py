@@ -10,7 +10,7 @@ NANQI_FIXED_LAYOUTS = (
     'nanqi041_fixed_text', 'nanqi042_fixed_text', 'nanqi043_fixed_text',
     'nanqi044_fixed_text', 'nanqi045_fixed_text', 'nanqi046_fixed_text', 'nanqi046_legacy_text',
     'nanqi048_fixed_text', 'nanqi050_fixed_text', 'nanqi051_fixed_text', 'nanqi052_fixed_text', 'nanqi053_fixed_text',
-    'nanqi054_fixed_text',
+    'nanqi054_fixed_text', 'nanqi055_fixed_text',
 )
 
 

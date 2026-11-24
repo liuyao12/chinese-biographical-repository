@@ -1,0 +1,188 @@
+{
+  "schema_version": 1,
+  "id": "hjt_872_5td",
+  "canonical_person_id": "hjt_872_5td",
+  "label": "趙氏（吳康之妻）",
+  "identity_note": "趙氏（吳康之妻），見本組原文及身份互校。",
+  "review": "ai_provisional",
+  "names": [
+    "趙氏",
+    "趙"
+  ],
+  "titles": [],
+  "addresses": [],
+  "occurrences": [
+    {
+      "number": 55,
+      "category": "",
+      "title": "南齊書卷五十五·崔懷慎、韓靈敏等孝義列傳",
+      "paragraph_id": "c-nanqishu-055-filial-complete:p012",
+      "count": 2,
+      "raw_count": 2,
+      "duplicate_count": 0,
+      "counting_policy": "independent_fixed_witness_occurrences",
+      "quote": "　　晉陵吳康之妻趙氏，父亡弟幼，值歲饑，母老病篤，趙詣鄉里自賣，言辭哀苦，鄉里憐之，人人分升米相救，遂得免。及嫁康之，少時夫亡，家欲更嫁，誓死不貳。",
+      "paragraph_ids": [
+        "c-nanqishu-055-filial-complete:p012"
+      ],
+      "mention_ids": [
+        "c-nanqishu-055-filial-complete:p012:m0008",
+        "c-nanqishu-055-filial-complete:p012:m0025"
+      ],
+      "mention_paragraph_ids": {
+        "c-nanqishu-055-filial-complete:p012:m0008": "c-nanqishu-055-filial-complete:p012",
+        "c-nanqishu-055-filial-complete:p012:m0025": "c-nanqishu-055-filial-complete:p012"
+      },
+      "mention_id": "c-nanqishu-055-filial-complete:p012:m0008",
+      "occurrence_groups": [
+        {
+          "canonical_mention_id": "c-nanqishu-055-filial-complete:p012:m0008",
+          "mention_ids": [
+            "c-nanqishu-055-filial-complete:p012:m0008"
+          ],
+          "kind": "paragraph"
+        },
+        {
+          "canonical_mention_id": "c-nanqishu-055-filial-complete:p012:m0025",
+          "mention_ids": [
+            "c-nanqishu-055-filial-complete:p012:m0025"
+          ],
+          "kind": "paragraph"
+        }
+      ],
+      "work_id": "w-nanqishu",
+      "book_id": "b-nanqishu-055",
+      "chapter_id": "c-nanqishu-055-filial-complete",
+      "source_id": "s-nanqishu-055-filial-complete-ws1545598",
+      "work_title": "南齊書"
+    }
+  ],
+  "table_occurrences": [],
+  "sources": [
+    {
+      "chapter_id": "c-nanqishu-055-filial-complete",
+      "work_id": "w-nanqishu",
+      "book_id": "b-nanqishu-055",
+      "source_id": "s-nanqishu-055-filial-complete-ws1545598",
+      "source": {
+        "title": "南齊書卷五十五·崔懷慎、韓靈敏等孝義列傳",
+        "provider": "Wikisource",
+        "permalink": "https://zh.wikisource.org/w/index.php?oldid=1545598",
+        "url": "https://zh.wikisource.org/w/index.php?oldid=1545598",
+        "revision_id": 1545598,
+        "edition": "維基文庫固定修訂",
+        "accessed_on": "2026-11-22",
+        "review_status": "text_checked",
+        "image_verified": false,
+        "rights": "古代原文；數位轉錄依維基文庫授權。",
+        "license_url": "https://creativecommons.org/licenses/by-sa/4.0/",
+        "extent": "南齊書卷五十五·崔懷慎、韓靈敏等孝義列傳",
+        "text_scope": "complete_biography_unit",
+        "raw_path": "source-evidence/nanqi055-roll/nanqishu055-ws1545598.wikitext",
+        "raw_file_sha256": "371b4c928d933faa455b0c1174986abaa3465cb96f0d8982955e9ce805cf44f6",
+        "collation_witnesses": [
+          "source-evidence/nanqi055-roll/filial-reading.json"
+        ]
+      }
+    }
+  ],
+  "relations": [
+    {
+      "id": "a-qi055-zhao-wife",
+      "subject_person_id": "hjt_872_5td",
+      "object_person_id": "hay_dxk_68u",
+      "predicate": "spouse",
+      "qualifiers": {
+        "source_term": "吳康之妻趙氏"
+      },
+      "evidence": [
+        {
+          "work_id": "w-nanqishu",
+          "book_id": "b-nanqishu-055",
+          "chapter_id": "c-nanqishu-055-filial-complete",
+          "source_id": "s-nanqishu-055-filial-complete-ws1545598",
+          "paragraph_id": "c-nanqishu-055-filial-complete:p012",
+          "quote": "　　晉陵吳康之妻趙氏，父亡弟幼，值歲饑，母老病篤，趙詣鄉里自賣，言辭哀苦，鄉里憐之，人人分升米相救，遂得免。及嫁康之，少時夫亡，家欲更嫁，誓死不貳。",
+          "subject_person_mention_id": "c-nanqishu-055-filial-complete:p012:m0008",
+          "object_person_mention_id": "c-nanqishu-055-filial-complete:p012:m0004"
+        }
+      ],
+      "status": "source_attested",
+      "interpretation_note": "下文稱及嫁康之。",
+      "reviewer": "Codex（AI代理）",
+      "model": null,
+      "human_reviewed": false
+    }
+  ],
+  "related_people": {
+    "hay_dxk_68u": "吳康之（晉陵人）",
+    "hjt_872_5td": "趙氏（吳康之妻）"
+  },
+  "dates": [],
+  "name_components": [],
+  "source_reading_cases": [
+    {
+      "id": "c-nanqishu-055-filial-complete:source_review12-0",
+      "kind": "source_review",
+      "person_id": "hjt_872_5td",
+      "source_quote": "　　晉陵吳康之妻趙氏，父亡弟幼，值歲饑，母老病篤，趙詣鄉里自賣，言辭哀苦，鄉里憐之，人人分升米相救，遂得免。及嫁康之，少時夫亡，家欲更嫁，誓死不貳。",
+      "reading": "趙氏少時自賣為救母弟，婚後丈夫死守寡。原句「及嫁康之」證其夫名。",
+      "note": "趙氏少時自賣為救母弟，婚後丈夫死守寡。原句「及嫁康之」證其夫名。",
+      "paragraph_id": "c-nanqishu-055-filial-complete:p012",
+      "start_codepoint": 0,
+      "end_codepoint": 74,
+      "human_reviewed": false,
+      "chapter_id": "c-nanqishu-055-filial-complete",
+      "source_id": "s-nanqishu-055-filial-complete-ws1545598"
+    },
+    {
+      "id": "c-nanqishu-055-filial-complete:variant_review12-54",
+      "kind": "variant_review",
+      "person_id": "hjt_872_5td",
+      "source_quote": "及嫁康之",
+      "reading": "前文「吳康之妻趙氏」的康之由此獲獨立原詞印證；篇題仍留吳康妻趙氏。",
+      "note": "前文「吳康之妻趙氏」的康之由此獲獨立原詞印證；篇題仍留吳康妻趙氏。",
+      "paragraph_id": "c-nanqishu-055-filial-complete:p012",
+      "start_codepoint": 54,
+      "end_codepoint": 58,
+      "human_reviewed": false,
+      "chapter_id": "c-nanqishu-055-filial-complete",
+      "source_id": "s-nanqishu-055-filial-complete-ws1545598"
+    }
+  ],
+  "person_ids": [
+    "hjt_872_5td"
+  ],
+  "preferred_relations": [
+    {
+      "id": "a-qi055-zhao-wife",
+      "subject_person_id": "hjt_872_5td",
+      "object_person_id": "hay_dxk_68u",
+      "predicate": "spouse",
+      "qualifiers": {
+        "source_term": "吳康之妻趙氏"
+      },
+      "evidence": [
+        {
+          "work_id": "w-nanqishu",
+          "book_id": "b-nanqishu-055",
+          "chapter_id": "c-nanqishu-055-filial-complete",
+          "source_id": "s-nanqishu-055-filial-complete-ws1545598",
+          "paragraph_id": "c-nanqishu-055-filial-complete:p012",
+          "quote": "　　晉陵吳康之妻趙氏，父亡弟幼，值歲饑，母老病篤，趙詣鄉里自賣，言辭哀苦，鄉里憐之，人人分升米相救，遂得免。及嫁康之，少時夫亡，家欲更嫁，誓死不貳。",
+          "subject_person_mention_id": "c-nanqishu-055-filial-complete:p012:m0008",
+          "object_person_mention_id": "c-nanqishu-055-filial-complete:p012:m0004"
+        }
+      ],
+      "status": "source_attested",
+      "interpretation_note": "下文稱及嫁康之。",
+      "reviewer": "Codex（AI代理）",
+      "model": null,
+      "human_reviewed": false
+    }
+  ],
+  "age_assertions": [],
+  "life_events": [],
+  "life_event_date_decisions": [],
+  "selected_life_event_dates": []
+}
