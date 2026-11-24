@@ -7,11 +7,75 @@
   "review": "ai_provisional",
   "names": [
     "寶源",
-    "智淵"
+    "智淵",
+    "廬陵王寶源"
   ],
   "titles": [],
   "addresses": [],
   "occurrences": [
+    {
+      "number": 50,
+      "category": "",
+      "title": "南齊書卷五十·文惠太子二王及明帝七王",
+      "paragraph_id": "c-nanqishu-050-princes-complete:p005",
+      "count": 4,
+      "raw_count": 4,
+      "duplicate_count": 0,
+      "counting_policy": "independent_fixed_witness_occurrences",
+      "quote": "夏王寶玄，鄱陽王寶寅，和帝；殷貴嬪生巴陵隱王寶義，晉熙王寶嵩；袁貴妃生廬陵王寶源；管淑妃生邵陵王寶攸；許淑媛生桂陽王寶貞。餘皆早夭。",
+      "paragraph_ids": [
+        "c-nanqishu-050-princes-complete:p005",
+        "c-nanqishu-050-princes-complete:p009"
+      ],
+      "mention_ids": [
+        "c-nanqishu-050-princes-complete:p005:m0054",
+        "c-nanqishu-050-princes-complete:p009:m0002",
+        "c-nanqishu-050-princes-complete:p009:m0008",
+        "c-nanqishu-050-princes-complete:p009:m0088"
+      ],
+      "mention_paragraph_ids": {
+        "c-nanqishu-050-princes-complete:p005:m0054": "c-nanqishu-050-princes-complete:p005",
+        "c-nanqishu-050-princes-complete:p009:m0002": "c-nanqishu-050-princes-complete:p009",
+        "c-nanqishu-050-princes-complete:p009:m0008": "c-nanqishu-050-princes-complete:p009",
+        "c-nanqishu-050-princes-complete:p009:m0088": "c-nanqishu-050-princes-complete:p009"
+      },
+      "mention_id": "c-nanqishu-050-princes-complete:p005:m0054",
+      "occurrence_groups": [
+        {
+          "canonical_mention_id": "c-nanqishu-050-princes-complete:p005:m0054",
+          "mention_ids": [
+            "c-nanqishu-050-princes-complete:p005:m0054"
+          ],
+          "kind": "paragraph"
+        },
+        {
+          "canonical_mention_id": "c-nanqishu-050-princes-complete:p009:m0002",
+          "mention_ids": [
+            "c-nanqishu-050-princes-complete:p009:m0002"
+          ],
+          "kind": "paragraph"
+        },
+        {
+          "canonical_mention_id": "c-nanqishu-050-princes-complete:p009:m0008",
+          "mention_ids": [
+            "c-nanqishu-050-princes-complete:p009:m0008"
+          ],
+          "kind": "paragraph"
+        },
+        {
+          "canonical_mention_id": "c-nanqishu-050-princes-complete:p009:m0088",
+          "mention_ids": [
+            "c-nanqishu-050-princes-complete:p009:m0088"
+          ],
+          "kind": "paragraph"
+        }
+      ],
+      "work_id": "w-nanqishu",
+      "book_id": "b-nanqishu-050",
+      "chapter_id": "c-nanqishu-050-princes-complete",
+      "source_id": "s-nanqishu-050-princes-complete-ws2272731",
+      "work_title": "南齊書"
+    },
     {
       "number": 50,
       "category": "",
@@ -112,6 +176,32 @@
       }
     },
     {
+      "chapter_id": "c-nanqishu-050-princes-complete",
+      "work_id": "w-nanqishu",
+      "book_id": "b-nanqishu-050",
+      "source_id": "s-nanqishu-050-princes-complete-ws2272731",
+      "source": {
+        "title": "南齊書卷五十·文惠太子二王及明帝七王",
+        "provider": "Wikisource",
+        "permalink": "https://zh.wikisource.org/w/index.php?oldid=2272731",
+        "url": "https://zh.wikisource.org/w/index.php?oldid=2272731",
+        "revision_id": 2272731,
+        "edition": "維基文庫固定修訂",
+        "accessed_on": "2026-11-21",
+        "review_status": "text_checked",
+        "image_verified": false,
+        "rights": "古代原文；數位轉錄依維基文庫授權。",
+        "license_url": "https://creativecommons.org/licenses/by-sa/4.0/",
+        "extent": "南齊書卷五十·文惠太子二王及明帝七王",
+        "text_scope": "complete_biography_unit",
+        "raw_path": "source-evidence/nanshi019-xietiao/nanqishu050-ws2272731.wikitext",
+        "raw_file_sha256": "2459124c61a488a22b5213cfefd1ca38d0015243f9471998260692781a016207",
+        "collation_witnesses": [
+          "source-evidence/nanqi050-roll/princes-reading.json"
+        ]
+      }
+    },
+    {
       "chapter_id": "c-nanqishu-050-xiaobaoyuan-wangjian",
       "work_id": "w-nanqishu",
       "book_id": "b-nanqishu-050",
@@ -141,6 +231,60 @@
     }
   ],
   "relations": [
+    {
+      "id": "a-qi050-baoyuan-father",
+      "subject_person_id": "w4m_9tw_147_E",
+      "object_person_id": "w4m_9tw_147",
+      "predicate": "father",
+      "qualifiers": {
+        "source_term": "明帝十一男",
+        "lineage": "paternal"
+      },
+      "evidence": [
+        {
+          "work_id": "w-nanqishu",
+          "book_id": "b-nanqishu-050",
+          "chapter_id": "c-nanqishu-050-princes-complete",
+          "source_id": "s-nanqishu-050-princes-complete-ws2272731",
+          "paragraph_id": "c-nanqishu-050-princes-complete:p005",
+          "quote": "　　明帝十一男：敬皇后生東昏侯寶卷，江夏王寶玄，鄱陽王寶寅，和帝；殷貴嬪生巴陵隱王寶義，晉熙王寶嵩；袁貴妃生廬陵王寶源；管淑妃生邵陵王寶攸；許淑媛生桂陽王寶貞。餘皆早夭。",
+          "subject_person_mention_id": "c-nanqishu-050-princes-complete:p005:m0054",
+          "object_person_mention_id": "c-nanqishu-050-princes-complete:p005:m0002"
+        }
+      ],
+      "status": "source_attested",
+      "interpretation_note": "人物見本卷傳首所列諸男。",
+      "reviewer": "Codex（AI代理）",
+      "model": null,
+      "human_reviewed": false
+    },
+    {
+      "id": "a-qi050-baoyuan-mother",
+      "subject_person_id": "w4m_9tw_147_E",
+      "object_person_id": "rwa_84b_jo5",
+      "predicate": "mother",
+      "qualifiers": {
+        "source_term": "袁貴妃生廬陵王寶源",
+        "lineage": "maternal"
+      },
+      "evidence": [
+        {
+          "work_id": "w-nanqishu",
+          "book_id": "b-nanqishu-050",
+          "chapter_id": "c-nanqishu-050-princes-complete",
+          "source_id": "s-nanqishu-050-princes-complete-ws2272731",
+          "paragraph_id": "c-nanqishu-050-princes-complete:p005",
+          "quote": "　　明帝十一男：敬皇后生東昏侯寶卷，江夏王寶玄，鄱陽王寶寅，和帝；殷貴嬪生巴陵隱王寶義，晉熙王寶嵩；袁貴妃生廬陵王寶源；管淑妃生邵陵王寶攸；許淑媛生桂陽王寶貞。餘皆早夭。",
+          "subject_person_mention_id": "c-nanqishu-050-princes-complete:p005:m0054",
+          "object_person_mention_id": "c-nanqishu-050-princes-complete:p005:m0050"
+        }
+      ],
+      "status": "source_attested",
+      "interpretation_note": "父系總敘中特別具所生母。",
+      "reviewer": "Codex（AI代理）",
+      "model": null,
+      "human_reviewed": false
+    },
     {
       "id": "a-liang021-wangjiansihui-baoyuan-father",
       "subject_person_id": "w4m_9tw_147_E",
@@ -179,6 +323,7 @@
     }
   ],
   "related_people": {
+    "rwa_84b_jo5": "袁貴妃（蕭寶源母）",
     "w4m_9tw_147": "齊明帝鸞",
     "w4m_9tw_147_E": "蕭寶源（字智淵）"
   },
@@ -198,6 +343,22 @@
       "work_id": "w-nanqishu",
       "book_id": "b-nanqishu-050",
       "source_id": "s-nanqishu-050-xiaobaoyuan-wangjian-ws2272731"
+    }
+  ],
+  "source_reading_cases": [
+    {
+      "id": "c-nanqishu-050-princes-complete:source_review9-0",
+      "kind": "source_review",
+      "person_id": "w4m_9tw_147_E",
+      "source_quote": "　　廬陵王寶源字智淵，明帝第五子也。建武元年，爲北中郎將，鎮琅邪城，封廬陵郡王。遷右將軍，領石頭戍事，仍出爲使持節、都督南兖兖徐青冀五州軍事、後將軍、南兖州刺史。王敬則伏誅，徙寶源爲都督會稽東陽臨海永嘉新安五郡軍事、會稽太守，將軍如故。永元元年，進號安東將軍。和帝卽位，以爲侍中、車騎將軍、開府儀同三司，都督、太守如故。未拜，中興二年薨。",
+      "reading": "寶源字智淵，明帝第五子。王敬則死後改任會稽，和帝任命未拜，中興二年薨。殿本中興二年的兩橫可辨。",
+      "note": "寶源字智淵，明帝第五子。王敬則死後改任會稽，和帝任命未拜，中興二年薨。殿本中興二年的兩橫可辨。",
+      "paragraph_id": "c-nanqishu-050-princes-complete:p009",
+      "start_codepoint": 0,
+      "end_codepoint": 169,
+      "human_reviewed": false,
+      "chapter_id": "c-nanqishu-050-princes-complete",
+      "source_id": "s-nanqishu-050-princes-complete-ws2272731"
     }
   ],
   "person_references": [
@@ -252,6 +413,60 @@
   ],
   "preferred_relations": [
     {
+      "id": "a-qi050-baoyuan-father",
+      "subject_person_id": "w4m_9tw_147_E",
+      "object_person_id": "w4m_9tw_147",
+      "predicate": "father",
+      "qualifiers": {
+        "source_term": "明帝十一男",
+        "lineage": "paternal"
+      },
+      "evidence": [
+        {
+          "work_id": "w-nanqishu",
+          "book_id": "b-nanqishu-050",
+          "chapter_id": "c-nanqishu-050-princes-complete",
+          "source_id": "s-nanqishu-050-princes-complete-ws2272731",
+          "paragraph_id": "c-nanqishu-050-princes-complete:p005",
+          "quote": "　　明帝十一男：敬皇后生東昏侯寶卷，江夏王寶玄，鄱陽王寶寅，和帝；殷貴嬪生巴陵隱王寶義，晉熙王寶嵩；袁貴妃生廬陵王寶源；管淑妃生邵陵王寶攸；許淑媛生桂陽王寶貞。餘皆早夭。",
+          "subject_person_mention_id": "c-nanqishu-050-princes-complete:p005:m0054",
+          "object_person_mention_id": "c-nanqishu-050-princes-complete:p005:m0002"
+        }
+      ],
+      "status": "source_attested",
+      "interpretation_note": "人物見本卷傳首所列諸男。",
+      "reviewer": "Codex（AI代理）",
+      "model": null,
+      "human_reviewed": false
+    },
+    {
+      "id": "a-qi050-baoyuan-mother",
+      "subject_person_id": "w4m_9tw_147_E",
+      "object_person_id": "rwa_84b_jo5",
+      "predicate": "mother",
+      "qualifiers": {
+        "source_term": "袁貴妃生廬陵王寶源",
+        "lineage": "maternal"
+      },
+      "evidence": [
+        {
+          "work_id": "w-nanqishu",
+          "book_id": "b-nanqishu-050",
+          "chapter_id": "c-nanqishu-050-princes-complete",
+          "source_id": "s-nanqishu-050-princes-complete-ws2272731",
+          "paragraph_id": "c-nanqishu-050-princes-complete:p005",
+          "quote": "　　明帝十一男：敬皇后生東昏侯寶卷，江夏王寶玄，鄱陽王寶寅，和帝；殷貴嬪生巴陵隱王寶義，晉熙王寶嵩；袁貴妃生廬陵王寶源；管淑妃生邵陵王寶攸；許淑媛生桂陽王寶貞。餘皆早夭。",
+          "subject_person_mention_id": "c-nanqishu-050-princes-complete:p005:m0054",
+          "object_person_mention_id": "c-nanqishu-050-princes-complete:p005:m0050"
+        }
+      ],
+      "status": "source_attested",
+      "interpretation_note": "父系總敘中特別具所生母。",
+      "reviewer": "Codex（AI代理）",
+      "model": null,
+      "human_reviewed": false
+    },
+    {
       "id": "a-liang021-wangjiansihui-baoyuan-father",
       "subject_person_id": "w4m_9tw_147_E",
       "object_person_id": "w4m_9tw_147",
@@ -289,7 +504,37 @@
     }
   ],
   "age_assertions": [],
-  "life_events": [],
+  "life_events": [
+    {
+      "id": "le-qi050-baoyuan-death",
+      "person_id": "w4m_9tw_147_E",
+      "event_type": "death",
+      "source_term": "薨",
+      "source_anchor": {
+        "paragraph_id": "c-nanqishu-050-princes-complete:p009",
+        "start": 167,
+        "end": 168,
+        "surface": "薨"
+      },
+      "date_expression": "中興二年",
+      "evidence": [
+        {
+          "work_id": "w-nanqishu",
+          "book_id": "b-nanqishu-050",
+          "chapter_id": "c-nanqishu-050-princes-complete",
+          "source_id": "s-nanqishu-050-princes-complete-ws2272731",
+          "paragraph_id": "c-nanqishu-050-princes-complete:p009",
+          "quote": "　　廬陵王寶源字智淵，明帝第五子也。建武元年，爲北中郎將，鎮琅邪城，封廬陵郡王。遷右將軍，領石頭戍事，仍出爲使持節、都督南兖兖徐青冀五州軍事、後將軍、南兖州刺史。王敬則伏誅，徙寶源爲都督會稽東陽臨海永嘉新安五郡軍事、會稽太守，將軍如故。永元元年，進號安東將軍。和帝卽位，以爲侍中、車騎將軍、開府儀同三司，都督、太守如故。未拜，中興二年薨。",
+          "person_mention_id": "c-nanqishu-050-princes-complete:p009:m0002"
+        }
+      ],
+      "status": "source_attested",
+      "interpretation_note": "按同段人物與次第核所屬卒事。",
+      "reviewer": "Codex（AI代理）",
+      "model": null,
+      "human_reviewed": false
+    }
+  ],
   "life_event_date_decisions": [],
   "selected_life_event_dates": []
 }

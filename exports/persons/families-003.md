@@ -17,21 +17,12 @@
 
 [第1頁](README.md) · [第2頁](families-002.md) · [第3頁](families-003.md)
 
-<details><summary><code>zwr_jel_e3l</code> 齊宣公（田世家候選）（2 名）</summary>
-
-| ID 尾碼 | 人物 | 最多提及來源 | JSON |
-|---|---|---|---|
-| `根` | 齊宣公 | [《史記・田敬仲完世家》][1132] | [JSON](zwr_jel_e3l.json) |
-| `A` | 康公貸 | [《史記・田敬仲完世家》][1132] | [JSON](zwr_jel_e3l_A.json) |
-
-</details>
-
 <details><summary><code>zyu_yrx_2pz</code> 宇文述（宇文化及父）（2 名）</summary>
 
 | ID 尾碼 | 人物 | 最多提及來源 | JSON |
 |---|---|---|---|
-| `根` | 宇文述（宇文化及父） | [《隋書・列傳第50 序言 宇文化及 王充》][1549] | [JSON](zyu_yrx_2pz.json) |
-| `A` | 宇文化及（宇文述子） | [《陳書・皇后》][29]、[《隋書・列傳第50 序言 宇文化及 王充》][1549] | [JSON](zyu_yrx_2pz_A.json) |
+| `根` | 宇文述（宇文化及父） | [《隋書・列傳第50 序言 宇文化及 王充》][1551] | [JSON](zyu_yrx_2pz.json) |
+| `A` | 宇文化及（宇文述子） | [《陳書・皇后》][29]、[《隋書・列傳第50 序言 宇文化及 王充》][1551] | [JSON](zyu_yrx_2pz_A.json) |
 
 </details>
 
@@ -52,5 +43,4 @@
 [29]: https://zh.wikisource.org/w/index.php?oldid=2015446
 [431]: https://zh.wikisource.org/w/index.php?oldid=1511902
 [432]: https://zh.wikisource.org/w/index.php?oldid=1511902
-[1132]: https://zh.wikisource.org/w/index.php?title=史記/卷046&oldid=2560838
-[1549]: https://zh.wikisource.org/w/index.php?oldid=2180348
+[1551]: https://zh.wikisource.org/w/index.php?oldid=2180348
