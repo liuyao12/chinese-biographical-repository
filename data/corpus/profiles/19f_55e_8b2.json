@@ -15,7 +15,8 @@
     "陛下",
     "吾",
     "托跋嗣",
-    "嗣"
+    "嗣",
+    "木末"
   ],
   "titles": [
     {
@@ -924,6 +925,61 @@
       "chapter_id": "c-songshu-048-zhuchaoshi",
       "source_id": "s-songshu-048-zhuchaoshi-ws1791560",
       "work_title": "宋書"
+    },
+    {
+      "number": 57,
+      "category": "",
+      "title": "南齊書卷五十七·北魏（原題魏虜）",
+      "paragraph_id": "c-nanqishu-057-northern-wei-complete:p003",
+      "count": 3,
+      "raw_count": 3,
+      "duplicate_count": 0,
+      "counting_policy": "independent_fixed_witness_occurrences",
+      "quote": "，僭稱魏，年號天（瑞）〔賜〕。追諡犍烈祖文平皇帝。珪死，諡道武皇帝，子木末立，年號太常，死，諡明元皇帝。子燾，字佛狸代立，年號太平真君。宋元嘉中，偽太子晃與大臣崔氏、寇氏不睦，崔、寇譖之。玄高道人有道術，晃使祈福七日七夜，佛狸夢其祖父竝怒，手刃向之曰：「汝何故信讒，欲害太子",
+      "paragraph_ids": [
+        "c-nanqishu-057-northern-wei-complete:p003",
+        "c-nanqishu-057-northern-wei-complete:p004",
+        "c-nanqishu-057-northern-wei-complete:p009"
+      ],
+      "mention_ids": [
+        "c-nanqishu-057-northern-wei-complete:p003:m0082",
+        "c-nanqishu-057-northern-wei-complete:p004:m0017",
+        "c-nanqishu-057-northern-wei-complete:p009:m0081"
+      ],
+      "mention_paragraph_ids": {
+        "c-nanqishu-057-northern-wei-complete:p003:m0082": "c-nanqishu-057-northern-wei-complete:p003",
+        "c-nanqishu-057-northern-wei-complete:p004:m0017": "c-nanqishu-057-northern-wei-complete:p004",
+        "c-nanqishu-057-northern-wei-complete:p009:m0081": "c-nanqishu-057-northern-wei-complete:p009"
+      },
+      "mention_id": "c-nanqishu-057-northern-wei-complete:p003:m0082",
+      "occurrence_groups": [
+        {
+          "canonical_mention_id": "c-nanqishu-057-northern-wei-complete:p003:m0082",
+          "mention_ids": [
+            "c-nanqishu-057-northern-wei-complete:p003:m0082"
+          ],
+          "kind": "paragraph"
+        },
+        {
+          "canonical_mention_id": "c-nanqishu-057-northern-wei-complete:p004:m0017",
+          "mention_ids": [
+            "c-nanqishu-057-northern-wei-complete:p004:m0017"
+          ],
+          "kind": "paragraph"
+        },
+        {
+          "canonical_mention_id": "c-nanqishu-057-northern-wei-complete:p009:m0081",
+          "mention_ids": [
+            "c-nanqishu-057-northern-wei-complete:p009:m0081"
+          ],
+          "kind": "paragraph"
+        }
+      ],
+      "work_id": "w-nanqishu",
+      "book_id": "b-nanqishu-057",
+      "chapter_id": "c-nanqishu-057-northern-wei-complete",
+      "source_id": "s-nanqishu-057-northern-wei-complete-ws1999801",
+      "work_title": "南齊書"
     }
   ],
   "table_occurrences": [],
@@ -979,6 +1035,32 @@
           "extraction_note": "只去物理空白、¶與頁標；逐字座標保存，不改元伯/𤣥伯、悦/恱/悅、誅等源字。",
           "excerpts": []
         }
+      }
+    },
+    {
+      "chapter_id": "c-nanqishu-057-northern-wei-complete",
+      "work_id": "w-nanqishu",
+      "book_id": "b-nanqishu-057",
+      "source_id": "s-nanqishu-057-northern-wei-complete-ws1999801",
+      "source": {
+        "title": "南齊書卷五十七·北魏（原題魏虜）",
+        "provider": "Wikisource",
+        "permalink": "https://zh.wikisource.org/w/index.php?oldid=1999801",
+        "url": "https://zh.wikisource.org/w/index.php?oldid=1999801",
+        "revision_id": 1999801,
+        "edition": "維基文庫固定修訂",
+        "accessed_on": "2026-11-22",
+        "review_status": "text_checked",
+        "image_verified": false,
+        "rights": "古代原文；數位轉錄依維基文庫授權。",
+        "license_url": "https://creativecommons.org/licenses/by-sa/4.0/",
+        "extent": "南齊書卷五十七·北魏（原題魏虜）",
+        "text_scope": "complete_biography_unit",
+        "raw_path": "source-evidence/nanqi057-roll/nanqishu057-ws1999801.wikitext",
+        "raw_file_sha256": "3296a1b29f8acdbc4725846c32054172095b4ce7199a7eb2f9dd27676d73ece7",
+        "collation_witnesses": [
+          "source-evidence/nanqi057-roll/northern-wei-reading.json"
+        ]
       }
     },
     {
@@ -1208,6 +1290,58 @@
       "human_reviewed": false
     },
     {
+      "id": "a-qi057-mingyuan-father",
+      "subject_person_id": "19f_55e_8b2",
+      "object_person_id": "v6b_hpr_lax",
+      "predicate": "father",
+      "qualifiers": {
+        "source_term": "子木末立"
+      },
+      "evidence": [
+        {
+          "work_id": "w-nanqishu",
+          "book_id": "b-nanqishu-057",
+          "chapter_id": "c-nanqishu-057-northern-wei-complete",
+          "source_id": "s-nanqishu-057-northern-wei-complete-ws1999801",
+          "paragraph_id": "c-nanqishu-057-northern-wei-complete:p003",
+          "quote": "堅敗，子珪，字涉圭，隨舅慕容垂據中山，還領其部，後稍彊盛。隆安元年，珪破慕容寶於中山，遂有并州，僭稱魏，年號天（瑞）〔賜〕。追諡犍烈祖文平皇帝。珪死，諡道武皇帝，子木末立，年號太常，死，諡明元皇帝。子燾，字佛狸代立，年號太平真君。宋元嘉中，偽太子晃與大臣崔氏、寇氏不睦，崔、寇譖之。玄高道人有道術，晃使祈福七日七夜，佛狸夢其祖父竝怒，手刃向之曰：「汝何故信讒，欲害太子！」佛狸驚覺，下偽詔曰：「王者大業，纂承為重，儲宮嗣紹，百王舊例。自今已往，事無巨細，必經太子，然後上聞。」晃後謀殺佛狸見殺。燾死，諡太武皇帝。立晃子濬，字烏雷直勤，年號和平。追諡晃景穆皇帝。濬死，諡文成皇帝。子弘字萬民立，年號天安。景和九年，偽太子宏生，改年為皇興。",
+          "subject_person_mention_id": "c-nanqishu-057-northern-wei-complete:p003:m0082",
+          "object_person_mention_id": "c-nanqishu-057-northern-wei-complete:p003:m0004"
+        }
+      ],
+      "status": "source_attested",
+      "interpretation_note": "齊書木末與明元帝同段。",
+      "reviewer": "Codex（AI代理）",
+      "model": null,
+      "human_reviewed": false
+    },
+    {
+      "id": "a-qi057-taiwu-father",
+      "subject_person_id": "d10_1e6_850",
+      "object_person_id": "19f_55e_8b2",
+      "predicate": "father",
+      "qualifiers": {
+        "source_term": "子燾，字佛狸代立"
+      },
+      "evidence": [
+        {
+          "work_id": "w-nanqishu",
+          "book_id": "b-nanqishu-057",
+          "chapter_id": "c-nanqishu-057-northern-wei-complete",
+          "source_id": "s-nanqishu-057-northern-wei-complete-ws1999801",
+          "paragraph_id": "c-nanqishu-057-northern-wei-complete:p003",
+          "quote": "堅敗，子珪，字涉圭，隨舅慕容垂據中山，還領其部，後稍彊盛。隆安元年，珪破慕容寶於中山，遂有并州，僭稱魏，年號天（瑞）〔賜〕。追諡犍烈祖文平皇帝。珪死，諡道武皇帝，子木末立，年號太常，死，諡明元皇帝。子燾，字佛狸代立，年號太平真君。宋元嘉中，偽太子晃與大臣崔氏、寇氏不睦，崔、寇譖之。玄高道人有道術，晃使祈福七日七夜，佛狸夢其祖父竝怒，手刃向之曰：「汝何故信讒，欲害太子！」佛狸驚覺，下偽詔曰：「王者大業，纂承為重，儲宮嗣紹，百王舊例。自今已往，事無巨細，必經太子，然後上聞。」晃後謀殺佛狸見殺。燾死，諡太武皇帝。立晃子濬，字烏雷直勤，年號和平。追諡晃景穆皇帝。濬死，諡文成皇帝。子弘字萬民立，年號天安。景和九年，偽太子宏生，改年為皇興。",
+          "subject_person_mention_id": "c-nanqishu-057-northern-wei-complete:p003:m0100",
+          "object_person_mention_id": "c-nanqishu-057-northern-wei-complete:p003:m0082"
+        }
+      ],
+      "status": "source_attested",
+      "interpretation_note": "上文木末諡明元。",
+      "reviewer": "Codex（AI代理）",
+      "model": null,
+      "human_reviewed": false
+    },
+    {
       "id": "a-weishu035-recovery-012",
       "subject_person_id": "d10_1e6_850",
       "object_person_id": "19f_55e_8b2",
@@ -1276,6 +1410,7 @@
     "19f_55e_8b2": "北魏太宗明元帝嗣",
     "19f_55e_8b2_A": "拓跋健（北魏明元帝子，永昌莊王）",
     "d10_1e6_850": "北魏世祖太武帝燾",
+    "v6b_hpr_lax": "拓跋珪〔北魏道武帝〕",
     "yd9_rqt_a0v_AAB": "崔浩"
   },
   "dates": [],
@@ -1362,6 +1497,58 @@
       "human_reviewed": false
     },
     {
+      "id": "a-qi057-mingyuan-father",
+      "subject_person_id": "19f_55e_8b2",
+      "object_person_id": "v6b_hpr_lax",
+      "predicate": "father",
+      "qualifiers": {
+        "source_term": "子木末立"
+      },
+      "evidence": [
+        {
+          "work_id": "w-nanqishu",
+          "book_id": "b-nanqishu-057",
+          "chapter_id": "c-nanqishu-057-northern-wei-complete",
+          "source_id": "s-nanqishu-057-northern-wei-complete-ws1999801",
+          "paragraph_id": "c-nanqishu-057-northern-wei-complete:p003",
+          "quote": "堅敗，子珪，字涉圭，隨舅慕容垂據中山，還領其部，後稍彊盛。隆安元年，珪破慕容寶於中山，遂有并州，僭稱魏，年號天（瑞）〔賜〕。追諡犍烈祖文平皇帝。珪死，諡道武皇帝，子木末立，年號太常，死，諡明元皇帝。子燾，字佛狸代立，年號太平真君。宋元嘉中，偽太子晃與大臣崔氏、寇氏不睦，崔、寇譖之。玄高道人有道術，晃使祈福七日七夜，佛狸夢其祖父竝怒，手刃向之曰：「汝何故信讒，欲害太子！」佛狸驚覺，下偽詔曰：「王者大業，纂承為重，儲宮嗣紹，百王舊例。自今已往，事無巨細，必經太子，然後上聞。」晃後謀殺佛狸見殺。燾死，諡太武皇帝。立晃子濬，字烏雷直勤，年號和平。追諡晃景穆皇帝。濬死，諡文成皇帝。子弘字萬民立，年號天安。景和九年，偽太子宏生，改年為皇興。",
+          "subject_person_mention_id": "c-nanqishu-057-northern-wei-complete:p003:m0082",
+          "object_person_mention_id": "c-nanqishu-057-northern-wei-complete:p003:m0004"
+        }
+      ],
+      "status": "source_attested",
+      "interpretation_note": "齊書木末與明元帝同段。",
+      "reviewer": "Codex（AI代理）",
+      "model": null,
+      "human_reviewed": false
+    },
+    {
+      "id": "a-qi057-taiwu-father",
+      "subject_person_id": "d10_1e6_850",
+      "object_person_id": "19f_55e_8b2",
+      "predicate": "father",
+      "qualifiers": {
+        "source_term": "子燾，字佛狸代立"
+      },
+      "evidence": [
+        {
+          "work_id": "w-nanqishu",
+          "book_id": "b-nanqishu-057",
+          "chapter_id": "c-nanqishu-057-northern-wei-complete",
+          "source_id": "s-nanqishu-057-northern-wei-complete-ws1999801",
+          "paragraph_id": "c-nanqishu-057-northern-wei-complete:p003",
+          "quote": "堅敗，子珪，字涉圭，隨舅慕容垂據中山，還領其部，後稍彊盛。隆安元年，珪破慕容寶於中山，遂有并州，僭稱魏，年號天（瑞）〔賜〕。追諡犍烈祖文平皇帝。珪死，諡道武皇帝，子木末立，年號太常，死，諡明元皇帝。子燾，字佛狸代立，年號太平真君。宋元嘉中，偽太子晃與大臣崔氏、寇氏不睦，崔、寇譖之。玄高道人有道術，晃使祈福七日七夜，佛狸夢其祖父竝怒，手刃向之曰：「汝何故信讒，欲害太子！」佛狸驚覺，下偽詔曰：「王者大業，纂承為重，儲宮嗣紹，百王舊例。自今已往，事無巨細，必經太子，然後上聞。」晃後謀殺佛狸見殺。燾死，諡太武皇帝。立晃子濬，字烏雷直勤，年號和平。追諡晃景穆皇帝。濬死，諡文成皇帝。子弘字萬民立，年號天安。景和九年，偽太子宏生，改年為皇興。",
+          "subject_person_mention_id": "c-nanqishu-057-northern-wei-complete:p003:m0100",
+          "object_person_mention_id": "c-nanqishu-057-northern-wei-complete:p003:m0082"
+        }
+      ],
+      "status": "source_attested",
+      "interpretation_note": "上文木末諡明元。",
+      "reviewer": "Codex（AI代理）",
+      "model": null,
+      "human_reviewed": false
+    },
+    {
       "id": "a-weishu035-recovery-012",
       "subject_person_id": "d10_1e6_850",
       "object_person_id": "19f_55e_8b2",
@@ -1428,6 +1615,35 @@
   ],
   "age_assertions": [],
   "life_events": [
+    {
+      "id": "le-qi057-ming-yuan-death",
+      "person_id": "19f_55e_8b2",
+      "event_type": "death",
+      "source_term": "死",
+      "source_anchor": {
+        "paragraph_id": "c-nanqishu-057-northern-wei-complete:p003",
+        "start": 91,
+        "end": 92,
+        "surface": "死"
+      },
+      "date_expression": null,
+      "evidence": [
+        {
+          "work_id": "w-nanqishu",
+          "book_id": "b-nanqishu-057",
+          "chapter_id": "c-nanqishu-057-northern-wei-complete",
+          "source_id": "s-nanqishu-057-northern-wei-complete-ws1999801",
+          "paragraph_id": "c-nanqishu-057-northern-wei-complete:p003",
+          "quote": "堅敗，子珪，字涉圭，隨舅慕容垂據中山，還領其部，後稍彊盛。隆安元年，珪破慕容寶於中山，遂有并州，僭稱魏，年號天（瑞）〔賜〕。追諡犍烈祖文平皇帝。珪死，諡道武皇帝，子木末立，年號太常，死，諡明元皇帝。子燾，字佛狸代立，年號太平真君。宋元嘉中，偽太子晃與大臣崔氏、寇氏不睦，崔、寇譖之。玄高道人有道術，晃使祈福七日七夜，佛狸夢其祖父竝怒，手刃向之曰：「汝何故信讒，欲害太子！」佛狸驚覺，下偽詔曰：「王者大業，纂承為重，儲宮嗣紹，百王舊例。自今已往，事無巨細，必經太子，然後上聞。」晃後謀殺佛狸見殺。燾死，諡太武皇帝。立晃子濬，字烏雷直勤，年號和平。追諡晃景穆皇帝。濬死，諡文成皇帝。子弘字萬民立，年號天安。景和九年，偽太子宏生，改年為皇興。",
+          "person_mention_id": "c-nanqishu-057-northern-wei-complete:p003:m0082"
+        }
+      ],
+      "status": "source_attested",
+      "interpretation_note": "按同段人物與次第核所屬卒事。",
+      "reviewer": "Codex（AI代理）",
+      "model": null,
+      "human_reviewed": false
+    },
     {
       "id": "le-weishu038-wf44-276",
       "person_id": "19f_55e_8b2",
