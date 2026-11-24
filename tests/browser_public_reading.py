@@ -111,6 +111,12 @@ def main():
         args.output.mkdir(parents=True, exist_ok=True)
     with sync_playwright() as pw:
         browser = pw.chromium.launch(executable_path=os.getenv('BROWSER_EXECUTABLE'))
+        static_page = browser.new_page(java_script_enabled=False)
+        static_page.goto(args.url.rstrip('/') + '/')
+        expect(static_page.get_by_role('link', name='《史記》', exact=True)).to_be_visible()
+        expect(static_page.get_by_role('link', name='《三國志》', exact=True)).to_be_visible()
+        expect(static_page.locator('.home-source-count').first).to_contain_text('130')
+        static_page.close()
         for mobile in [False, True]:
             options = dict(pw.devices['iPhone 13']) if mobile else {'viewport': {'width': 1440, 'height': 900}}
             options.pop('default_browser_type', None)
