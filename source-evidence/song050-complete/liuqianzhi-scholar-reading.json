@@ -1,0 +1,160 @@
+{
+  "record_type": "fixed_source_complete_item_review",
+  "reviewer": "Codex（AI代理）",
+  "model": null,
+  "human_reviewed": false,
+  "external_witnesses": [
+    {
+      "revision_id": 2567072,
+      "raw_path": "source-evidence/nanshi020-langye-king-reading/jin010-ws2567072.wikitext",
+      "line": 336,
+      "start": 26,
+      "end": 46,
+      "source_quote": "南海賊徐道期陷廣州，始興相劉謙之討平之。",
+      "raw_sha256": "191bbf44a05c366e9ce2ae1556f05d317245ff0d923e97e99d5aad06c81e8794",
+      "interpretation": "晉安帝紀同地與兩端。"
+    },
+    {
+      "revision_id": 2190531,
+      "raw_path": "source-evidence/song047-complete/external/nanshi017-ws2190531.wikitext",
+      "line": 139,
+      "start": 118,
+      "end": 133,
+      "source_quote": "簡之弟謙之，好學，撰晉紀二十卷",
+      "raw_sha256": "1f2b513aa6ac93c96f9742b6b9e53bd5372c7466f990caf3ca4cab4a8d0fe843",
+      "interpretation": "南17保留書名及卷數。"
+    }
+  ],
+  "print_readings": [
+    {
+      "url": "https://upload.wikimedia.org/wikipedia/commons/4/49/NLC892-411999017142-12209_%E4%BA%8C%E5%8D%81%E5%9B%9B%E5%8F%B2_%E7%AC%AC145%E5%86%8A.pdf#page=5",
+      "catalog_record": "https://commons.wikimedia.org/wiki/File:NLC892-411999017142-12209_%E4%BA%8C%E5%8D%81%E5%9B%9B%E5%8F%B2_%E7%AC%AC145%E5%86%8A.pdf",
+      "pdf_sha1": "888def8c99848449305a0142411b32f9b0ca79e8",
+      "pdf_sha256": "5dafc33ab9565bb6f8d44691b15a706f3d4b672c50b837630c79797adbc0b342",
+      "image_sha256": "42027aa5f384d38d6a3ec2e419bfaf2a74e5d1f717815f89ba171b886eca40f0",
+      "edition": "清乾隆武英殿本《宋書》，國圖第145冊。",
+      "page": 5,
+      "half": "L",
+      "folio": "四上",
+      "columns_from_right": "8–10",
+      "source_quote": "簡之弟謙之好學撰晉紀二十卷",
+      "reading": "學術記事。"
+    }
+  ],
+  "boundaries": [
+    {
+      "book_id": "b-songshu-050",
+      "title": "劉謙之",
+      "unit_kind": "embedded_account",
+      "chapter_id": "c-songshu-050-liuqianzhi-scholar",
+      "entry_checked": true,
+      "full_text": true,
+      "first_pass": true,
+      "item_reviewed": true,
+      "source_layout": "wikisource_mixed_indented_prose",
+      "first_line": 29,
+      "last_line": 29,
+      "start_codepoint": 150,
+      "end_codepoint": 175,
+      "opening": "簡之弟謙之，好學，撰晉紀",
+      "closing": "十卷，義熙末，為始興相。",
+      "continuation_spans": [
+        {
+          "first_line": 29,
+          "last_line": 29,
+          "start_codepoint": 242,
+          "end_codepoint": 283,
+          "opening": "謙之破走之，進平廣州，誅",
+          "closing": "廣州刺史。後為太中大夫。"
+        }
+      ],
+      "parent_heading": "劉康祖",
+      "chapter_path": "corpus/songshu/050-liuqianzhi-scholar.json",
+      "paragraph_ids": [
+        "c-songshu-050-liuqianzhi-scholar:p001",
+        "c-songshu-050-liuqianzhi-scholar:p002"
+      ],
+      "item_review_path": "source-evidence/song050-complete/liuqianzhi-scholar-reading.json"
+    }
+  ],
+  "chronology": [],
+  "readings": [
+    {
+      "id": "c-songshu-050-liuqianzhi-scholar:received_sentence1-0",
+      "kind": "received_sentence",
+      "person_id": "7e3_6f5_aqx",
+      "source_quote": "簡之弟謙之，好學，撰晉紀二十卷，義熙末，為始興相。",
+      "reading": "簡之弟劉謙之好學，撰《晉紀》二十卷，義熙末為始興相。",
+      "note": "簡之弟劉謙之好學，撰《晉紀》二十卷，義熙末為始興相。",
+      "paragraph_id": "c-songshu-050-liuqianzhi-scholar:p001",
+      "start_codepoint": 0,
+      "end_codepoint": 25,
+      "human_reviewed": false
+    },
+    {
+      "id": "c-songshu-050-liuqianzhi-scholar:received_sentence2-0",
+      "kind": "received_sentence",
+      "person_id": "7e3_6f5_aqx",
+      "source_quote": "謙之破走之，進平廣州，誅其黨與，仍行州事。",
+      "reading": "謙之破徐道期，進平廣州，行州事。",
+      "note": "謙之破徐道期，進平廣州，行州事。",
+      "paragraph_id": "c-songshu-050-liuqianzhi-scholar:p002",
+      "start_codepoint": 0,
+      "end_codepoint": 21,
+      "human_reviewed": false
+    },
+    {
+      "id": "c-songshu-050-liuqianzhi-scholar:received_sentence2-21",
+      "kind": "received_sentence",
+      "person_id": "7e3_6f5_aqx",
+      "source_quote": "即以為振威將軍、廣州刺史。",
+      "reading": "即以為振威將軍、廣州刺史。",
+      "note": "即以為振威將軍、廣州刺史。",
+      "paragraph_id": "c-songshu-050-liuqianzhi-scholar:p002",
+      "start_codepoint": 21,
+      "end_codepoint": 34,
+      "human_reviewed": false
+    },
+    {
+      "id": "c-songshu-050-liuqianzhi-scholar:received_sentence2-34",
+      "kind": "received_sentence",
+      "person_id": "7e3_6f5_aqx",
+      "source_quote": "後為太中大夫。",
+      "reading": "後任太中大夫。",
+      "note": "後任太中大夫。",
+      "paragraph_id": "c-songshu-050-liuqianzhi-scholar:p002",
+      "start_codepoint": 34,
+      "end_codepoint": 41,
+      "human_reviewed": false
+    },
+    {
+      "id": "c-songshu-050-liuqianzhi-scholar:authored_work1-9",
+      "kind": "authored_work",
+      "person_id": "7e3_6f5_aqx",
+      "source_quote": "撰晉紀二十卷",
+      "reading": "原題晉紀，二十卷；著者簡之弟謙之。",
+      "note": "原題晉紀，二十卷；著者簡之弟謙之。",
+      "paragraph_id": "c-songshu-050-liuqianzhi-scholar:p001",
+      "start_codepoint": 9,
+      "end_codepoint": 15,
+      "human_reviewed": false,
+      "title": "晉紀",
+      "volumes": 20
+    },
+    {
+      "id": "c-songshu-050-liuqianzhi-scholar:calendar2-0",
+      "kind": "calendar",
+      "person_id": "7e3_6f5_aqx",
+      "source_quote": "謙之破走之",
+      "reading": "晉10義熙十三年秋七月條同記徐道期陷廣州與謙之討平（417）。",
+      "note": "晉10義熙十三年秋七月條同記徐道期陷廣州與謙之討平（417）。",
+      "paragraph_id": "c-songshu-050-liuqianzhi-scholar:p002",
+      "start_codepoint": 0,
+      "end_codepoint": 5,
+      "human_reviewed": false,
+      "ce_year": 417,
+      "annals_month": 7
+    }
+  ],
+  "identity_limits": []
+}

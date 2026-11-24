@@ -10,9 +10,93 @@
     "韓伯",
     "之"
   ],
-  "titles": [],
+  "titles": [
+    {
+      "id": "th-songshu-050-hufan-2-10",
+      "title": "太守",
+      "kind": "office",
+      "mode": "attestation",
+      "person_id": "al7_2l9_13l",
+      "attestations": [
+        {
+          "id": "th-songshu-050-hufan-2-10:a",
+          "paragraph_id": "c-songshu-050-hufan:p002",
+          "start": 10,
+          "end": 12,
+          "surface": "太守",
+          "person_mention_id": "c-songshu-050-hufan:p002:m0012",
+          "usage": "narrative",
+          "date_expression": null
+        }
+      ],
+      "effective_period": {
+        "start": {
+          "status": "unknown",
+          "date_expression": null,
+          "evidence": []
+        },
+        "end": {
+          "status": "unknown",
+          "date_expression": null,
+          "evidence": []
+        }
+      },
+      "evidence": [
+        {
+          "work_id": "w-songshu",
+          "book_id": "b-songshu-050",
+          "chapter_id": "c-songshu-050-hufan",
+          "source_id": "s-songshu-050-hufan-ws2371899",
+          "paragraph_id": "c-songshu-050-hufan:p002",
+          "quote": "藩少孤，居喪以毀稱。太守韓伯見之，謂藩叔尚書少廣曰：「卿此姪當以義烈成名。」州府辟召，不就。須二弟冠婚畢，及參郗恢征虜軍事。時殷仲堪為荊州刺史，藩外兄羅企生為仲堪參軍，藩請假還，過江陵省企生。仲堪要藩相見，接待甚厚。藩因說仲堪曰：「桓玄意趣不常，每怏怏於失職。節下崇待太過，非將來之計也。」仲堪色不悅。藩退而謂企生曰：「倒戈授人，必至之禍。若不早規去就，後悔無及。」玄自夏口襲仲堪，藩參玄後軍軍事。仲堪敗，企生果以附從及禍。藩轉參太尉、大將軍、相國軍事。",
+          "person_mention_id": "c-songshu-050-hufan:p002:m0012"
+        }
+      ],
+      "status": "source_attested",
+      "interpretation_note": "所見原官稱，未載全任期。",
+      "reviewer": "Codex（AI代理）",
+      "model": null,
+      "human_reviewed": false,
+      "period": "未定 → 未定"
+    }
+  ],
   "addresses": [],
   "occurrences": [
+    {
+      "number": 50,
+      "category": "",
+      "title": "胡藩",
+      "paragraph_id": "c-songshu-050-hufan:p002",
+      "count": 1,
+      "raw_count": 1,
+      "duplicate_count": 0,
+      "counting_policy": "independent_fixed_witness_occurrences",
+      "quote": "藩少孤，居喪以毀稱。太守韓伯見之，謂藩叔尚書少廣曰：「卿此姪當以義烈成名。」州府辟召，不就。須二弟冠婚畢，及參郗恢征虜軍事。時殷仲堪為荊州刺史，藩外兄羅企生為仲堪參軍，藩請假還，過江陵省企生。仲堪要藩相見，接待甚厚。藩因說仲堪曰",
+      "paragraph_ids": [
+        "c-songshu-050-hufan:p002"
+      ],
+      "mention_ids": [
+        "c-songshu-050-hufan:p002:m0012"
+      ],
+      "mention_paragraph_ids": {
+        "c-songshu-050-hufan:p002:m0012": "c-songshu-050-hufan:p002"
+      },
+      "mention_id": "c-songshu-050-hufan:p002:m0012",
+      "occurrence_groups": [
+        {
+          "canonical_mention_id": "c-songshu-050-hufan:p002:m0012",
+          "mention_ids": [
+            "c-songshu-050-hufan:p002:m0012"
+          ],
+          "kind": "paragraph"
+        }
+      ],
+      "work_id": "w-songshu",
+      "book_id": "b-songshu-050",
+      "chapter_id": "c-songshu-050-hufan",
+      "source_id": "s-songshu-050-hufan-ws2371899",
+      "work_title": "宋書"
+    },
     {
       "number": 77,
       "category": "",
@@ -92,6 +176,29 @@
           "character_conversion": "none",
           "extraction_note": "008除頁碼連接同一完整紀年；077僅去除維基排版前綴，原字／標點不校改。"
         }
+      }
+    },
+    {
+      "chapter_id": "c-songshu-050-hufan",
+      "work_id": "w-songshu",
+      "book_id": "b-songshu-050",
+      "source_id": "s-songshu-050-hufan-ws2371899",
+      "source": {
+        "title": "胡藩",
+        "provider": "Wikisource",
+        "permalink": "https://zh.wikisource.org/w/index.php?oldid=2371899",
+        "url": "https://zh.wikisource.org/w/index.php?oldid=2371899",
+        "revision_id": 2371899,
+        "edition": "維基文庫固定修訂",
+        "accessed_on": "2026-11-21",
+        "review_status": "text_checked",
+        "image_verified": false,
+        "rights": "古代原文；數位轉錄依維基文庫授權。",
+        "license_url": "https://creativecommons.org/licenses/by-sa/4.0/",
+        "extent": "胡藩",
+        "text_scope": "complete_biography_unit",
+        "raw_path": "sources/songshu/songshu050-ws2371899.wikitext",
+        "raw_file_sha256": "dcbc759b29ffb7da5f88d942343f5b1ea0b95f130240cc40cb373bad857a3638"
       }
     }
   ],

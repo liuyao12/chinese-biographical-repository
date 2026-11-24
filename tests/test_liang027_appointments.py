@@ -13,7 +13,7 @@ class LiangAppointments(unittest.TestCase):
         directory = Path(__file__).resolve().parents[1] / 'corpus' / 'liangshu'
         for name in ('daoqia', 'mingshanbin', 'yinjun'):
             cls.chapters[name] = json.loads((directory / f'027-{name}-complete.json').read_text())
-        for name in ('peizhili', 'peizhiping'):
+        for name in ('peisui', 'peizhili', 'peizhiping'):
             cls.chapters[name] = json.loads((directory / f'028-{name}-complete.json').read_text())
         cls.chapters['nanshi-zhiping'] = json.loads(
             (directory.parent / 'nanshi' / '058-peizhiping-death.json').read_text())
@@ -27,7 +27,7 @@ class LiangAppointments(unittest.TestCase):
         for name, titles in [('daoqia', ['晉安王國左常侍','太子中庶子','步兵校尉']),
                              ('mingshanbin', ['國子博士']), ('yinjun', ['五兵尚書']),
                              ('peizhili', ['長流參軍']), ('peizhiping', ['扶風、弘農二郡太守']),
-                             ('nanshi-zhiping', ['光祿大夫', '慈訓宮衛尉'])]:
+                             ('nanshi-zhiping', ['光祿大夫', '慈訓宮衛尉']), ('peisui', ['始安太守', '北徐州刺史'])]:
             for title in titles:
                 with self.subTest(name=name, title=title):
                     chapter, row = self.proposal(name, title)
@@ -89,3 +89,17 @@ class LiangAppointments(unittest.TestCase):
         _, second = self.proposal('nanshi-zhiping', '慈訓宮衛尉')
         first['role_anchor'] = second['role_anchor']
         self.assertFalse(unassumed_appointment_valid(first, chapter))
+
+    def test_pei_sui_new_posting_and_literary_allusion(self):
+        chapter, row = self.proposal('peisui', '始安太守')
+        paragraph = chapter['paragraphs'][4]
+        quoted_poet, = (m for m in paragraph['mentions'] if m['surface'] == '顏延')
+        row.update(person_id=quoted_poet['person_id'], person_mention_id=quoted_poet['id'])
+        row['evidence'][0]['person_mention_id'] = quoted_poet['id']
+        self.assertFalse(unassumed_appointment_valid(row, chapter))
+        chapter, row = self.proposal('peisui', '北徐州刺史')
+        title = '豫州刺史'
+        start = chapter['paragraphs'][5]['text'].index(title)
+        row.update(title=title)
+        row['role_anchor'].update(surface=title, start=start, end=start + len(title))
+        self.assertFalse(unassumed_appointment_valid(row, chapter))

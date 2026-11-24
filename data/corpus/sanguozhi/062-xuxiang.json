@@ -1,0 +1,130 @@
+{
+  "format_version": "0.2",
+  "record_type": "marked_chapter",
+  "id": "c-sanguozhi-062-xuxiang",
+  "work_id": "w-sanguozhi",
+  "book_id": "b-sanguozhi-062",
+  "source_id": "s-sanguozhi-062-xuxiang",
+  "title": "徐詳傳",
+  "source": {
+    "title": "三國志卷六十二·吳書十七",
+    "provider": "Wikisource",
+    "url": "https://zh.wikisource.org/w/index.php?oldid=2623289",
+    "permalink": "https://zh.wikisource.org/w/index.php?oldid=2623289",
+    "revision_id": 2623289,
+    "accessed_on": "2026-11-21",
+    "edition": "維基文庫固定修訂，裴注與正文分層。",
+    "extent": "第48至48行。",
+    "text_scope": "partial_chapter",
+    "review_status": "text_checked",
+    "image_verified": false,
+    "rights": "古籍原文，維基文庫轉錄。",
+    "license_url": "https://creativecommons.org/licenses/by-sa/4.0/",
+    "raw_path": "source-evidence/sanguozhi062-shi-hu/sanguozhi062-ws2623289.wikitext",
+    "raw_file_sha256": "95a124379b4fc13ef0b861043fe72cb555869267b679a85cdb840a71113867a0",
+    "wikitext_sha256": "95a124379b4fc13ef0b861043fe72cb555869267b679a85cdb840a71113867a0",
+    "collation_witnesses": [
+      "source-evidence/sanguozhi062-xuxiang/reading.json"
+    ]
+  },
+  "annotation": {
+    "status": "reviewed",
+    "human_reviewed": false,
+    "scope": "依固定修訂的行、字位分存傳文與裴注。",
+    "source_reading_cases": [
+      {
+        "id": "c-sanguozhi-062-xuxiang:line048:reading-000-020",
+        "kind": "received_sentence",
+        "paragraph_id": "c-sanguozhi-062-xuxiang:line048",
+        "start_codepoint": 0,
+        "end_codepoint": 20,
+        "source_quote": "　　徐詳者字子明，吳郡烏程人也，先綜死。",
+        "person_id": "28m_ezf_3e7",
+        "related_person_ids": [
+          "qfk_09j_fhe"
+        ],
+        "reading": "數位單列原題徐詳。武英殿本卷首將徐詳以小字繫胡綜，巻末亦直敘先綜死；保持各見證層級。"
+      }
+    ],
+    "reviewed_unit_evidence": [
+      {
+        "unit": "徐詳傳",
+        "path": "source-evidence/sanguozhi062-xuxiang/reading.json"
+      },
+      {
+        "unit": "徐詳傳",
+        "path": "source-evidence/sanguozhi062-roll-close/reading.json"
+      }
+    ]
+  },
+  "paragraphs": [
+    {
+      "id": "c-sanguozhi-062-xuxiang:line048",
+      "text": "　　徐詳者字子明，吳郡烏程人也，先綜死。",
+      "text_layer": "received_chapter",
+      "mentions": [
+        {
+          "id": "c-sanguozhi-062-xuxiang:line048:m0002",
+          "start": 2,
+          "end": 4,
+          "surface": "徐詳",
+          "kind": "person",
+          "person_id": "28m_ezf_3e7",
+          "status": "contextual_provisional",
+          "interpretation_note": "依本段姓名與上下文定位。"
+        },
+        {
+          "id": "c-sanguozhi-062-xuxiang:line048:m0006",
+          "start": 6,
+          "end": 8,
+          "surface": "子明",
+          "kind": "person",
+          "person_id": "28m_ezf_3e7",
+          "status": "contextual_provisional",
+          "interpretation_note": "依本段姓名與上下文定位。"
+        },
+        {
+          "id": "c-sanguozhi-062-xuxiang:line048:m0017",
+          "start": 17,
+          "end": 18,
+          "surface": "綜",
+          "kind": "person",
+          "person_id": "qfk_09j_fhe",
+          "status": "contextual_provisional",
+          "interpretation_note": "依本段姓名與上下文定位。"
+        }
+      ],
+      "annotation_status": "reviewed",
+      "source_position": {
+        "first_line": 48,
+        "last_line": 48,
+        "revision_id": 2623289,
+        "raw_start": 4448,
+        "raw_end": 4468,
+        "character_positions": [
+          4448,
+          4449,
+          4450,
+          4451,
+          4452,
+          4453,
+          4454,
+          4455,
+          4456,
+          4457,
+          4458,
+          4459,
+          4460,
+          4461,
+          4462,
+          4463,
+          4464,
+          4465,
+          4466,
+          4467
+        ]
+      }
+    }
+  ],
+  "text_sha256": "d6495ee3bc580bb5714098ab383d1c8ffbcf94ea30f2921e4dc0fd25c472cf44"
+}

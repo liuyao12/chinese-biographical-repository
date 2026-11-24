@@ -1,0 +1,90 @@
+{
+  "format_version": "0.2",
+  "record_type": "person_assertion_set",
+  "chapter_id": "c-nanshi-044-zimao-ruan",
+  "assertions": [
+    {
+      "id": "a-nanqi040-zimao-nan-yaozhi",
+      "subject_person_id": "q2g_7m1_cbj",
+      "object_person_id": "rl0_0az_tqc",
+      "predicate": "brother",
+      "qualifiers": {
+        "source_term": "阮報同產弟于瑤之",
+        "nanqi040_zimao_reading": "nan-yaozhi",
+        "shared_mother": true,
+        "relative_birth_order": {
+          "older_person_id": "q2g_7m1_cbj",
+          "younger_person_id": "rl0_0az_tqc",
+          "scope": "siblings",
+          "operator": "lt",
+          "older_ordinal": null,
+          "younger_ordinal": null
+        }
+      },
+      "evidence": [
+        {
+          "work_id": "w-nanshi",
+          "book_id": "b-nanshi-044",
+          "source_id": "s-nanshi-044-zimao-ruan-ws2027785",
+          "chapter_id": "c-nanshi-044-zimao-ruan",
+          "paragraph_id": "c-nanshi-044-zimao-ruan:p002",
+          "quote": "母阮在都，遣書欲密迎上，阮報同產弟于瑤之為計。瑤之馳告明帝",
+          "subject_person_mention_id": "c-nanshi-044-zimao-ruan:p002:m0012",
+          "object_person_mention_id": "c-nanshi-044-zimao-ruan:p002:m0017",
+          "relationship_anchor": {
+            "paragraph_id": "c-nanshi-044-zimao-ruan:p002",
+            "surface": "阮報同產弟于瑤之",
+            "start": 12,
+            "end": 20
+          }
+        }
+      ],
+      "status": "source_attested",
+      "interpretation_note": "南史明言阮氏之同產弟，與齊四十及殿本正文「兄」相反。",
+      "reviewer": "Codex（AI 代理）",
+      "human_reviewed": false,
+      "model": null
+    },
+    {
+      "id": "a-nanqi040-zimao-nan-linzhi",
+      "subject_person_id": "rl0_0az_tqc",
+      "object_person_id": "obw_yg1_w5i",
+      "predicate": "brother",
+      "qualifiers": {
+        "source_term": "瑤之兄也",
+        "nanqi040_zimao_reading": "nan-linzhi",
+        "relative_birth_order": {
+          "older_person_id": "obw_yg1_w5i",
+          "younger_person_id": "rl0_0az_tqc",
+          "scope": "siblings",
+          "operator": "lt",
+          "older_ordinal": null,
+          "younger_ordinal": null
+        }
+      },
+      "evidence": [
+        {
+          "work_id": "w-nanshi",
+          "book_id": "b-nanshi-044",
+          "source_id": "s-nanshi-044-zimao-ruan-ws2027785",
+          "chapter_id": "c-nanshi-044-zimao-ruan",
+          "paragraph_id": "c-nanshi-044-zimao-ruan:p003",
+          "quote": "中兵參軍於琳之，瑤之兄也",
+          "subject_person_mention_id": "c-nanshi-044-zimao-ruan:p003:m0008",
+          "object_person_mention_id": "c-nanshi-044-zimao-ruan:p003:m0004",
+          "relationship_anchor": {
+            "paragraph_id": "c-nanshi-044-zimao-ruan:p003",
+            "surface": "瑤之兄也",
+            "start": 8,
+            "end": 12
+          }
+        }
+      ],
+      "status": "source_attested",
+      "interpretation_note": "琳之為瑤之兄；南史此處於字。",
+      "reviewer": "Codex（AI 代理）",
+      "human_reviewed": false,
+      "model": null
+    }
+  ]
+}
