@@ -6,7 +6,9 @@
   "identity_note": "南四十四名桂陽，齊六紀作桂楊。",
   "review": "ai_provisional",
   "names": [
-    "昭粲"
+    "昭粲",
+    "桂陽王昭粲",
+    "永嘉王昭粲"
   ],
   "titles": [],
   "addresses": [],
@@ -80,6 +82,70 @@
       "chapter_id": "c-nanshi-044-lastprinces-nan",
       "source_id": "s-nanshi-044-lastprinces-nan-ws2027785",
       "work_title": "南史"
+    },
+    {
+      "number": 50,
+      "category": "",
+      "title": "南齊書卷五十·文惠太子二王及明帝七王",
+      "paragraph_id": "c-nanqishu-050-princes-complete:p001",
+      "count": 4,
+      "raw_count": 4,
+      "duplicate_count": 0,
+      "counting_policy": "independent_fixed_witness_occurrences",
+      "quote": "：安皇后生鬱林王昭業；宮人許氏生海陵恭王昭文；陳氏生巴陵王昭秀；褚氏生桂陽王昭粲。",
+      "paragraph_ids": [
+        "c-nanqishu-050-princes-complete:p001",
+        "c-nanqishu-050-princes-complete:p002",
+        "c-nanqishu-050-princes-complete:p004"
+      ],
+      "mention_ids": [
+        "c-nanqishu-050-princes-complete:p001:m0043",
+        "c-nanqishu-050-princes-complete:p002:m0113",
+        "c-nanqishu-050-princes-complete:p004:m0002",
+        "c-nanqishu-050-princes-complete:p004:m0086"
+      ],
+      "mention_paragraph_ids": {
+        "c-nanqishu-050-princes-complete:p001:m0043": "c-nanqishu-050-princes-complete:p001",
+        "c-nanqishu-050-princes-complete:p002:m0113": "c-nanqishu-050-princes-complete:p002",
+        "c-nanqishu-050-princes-complete:p004:m0002": "c-nanqishu-050-princes-complete:p004",
+        "c-nanqishu-050-princes-complete:p004:m0086": "c-nanqishu-050-princes-complete:p004"
+      },
+      "mention_id": "c-nanqishu-050-princes-complete:p001:m0043",
+      "occurrence_groups": [
+        {
+          "canonical_mention_id": "c-nanqishu-050-princes-complete:p001:m0043",
+          "mention_ids": [
+            "c-nanqishu-050-princes-complete:p001:m0043"
+          ],
+          "kind": "paragraph"
+        },
+        {
+          "canonical_mention_id": "c-nanqishu-050-princes-complete:p002:m0113",
+          "mention_ids": [
+            "c-nanqishu-050-princes-complete:p002:m0113"
+          ],
+          "kind": "paragraph"
+        },
+        {
+          "canonical_mention_id": "c-nanqishu-050-princes-complete:p004:m0002",
+          "mention_ids": [
+            "c-nanqishu-050-princes-complete:p004:m0002"
+          ],
+          "kind": "paragraph"
+        },
+        {
+          "canonical_mention_id": "c-nanqishu-050-princes-complete:p004:m0086",
+          "mention_ids": [
+            "c-nanqishu-050-princes-complete:p004:m0086"
+          ],
+          "kind": "paragraph"
+        }
+      ],
+      "work_id": "w-nanqishu",
+      "book_id": "b-nanqishu-050",
+      "chapter_id": "c-nanqishu-050-princes-complete",
+      "source_id": "s-nanqishu-050-princes-complete-ws2272731",
+      "work_title": "南齊書"
     },
     {
       "number": 141,
@@ -158,6 +224,32 @@
       }
     },
     {
+      "chapter_id": "c-nanqishu-050-princes-complete",
+      "work_id": "w-nanqishu",
+      "book_id": "b-nanqishu-050",
+      "source_id": "s-nanqishu-050-princes-complete-ws2272731",
+      "source": {
+        "title": "南齊書卷五十·文惠太子二王及明帝七王",
+        "provider": "Wikisource",
+        "permalink": "https://zh.wikisource.org/w/index.php?oldid=2272731",
+        "url": "https://zh.wikisource.org/w/index.php?oldid=2272731",
+        "revision_id": 2272731,
+        "edition": "維基文庫固定修訂",
+        "accessed_on": "2026-11-21",
+        "review_status": "text_checked",
+        "image_verified": false,
+        "rights": "古代原文；數位轉錄依維基文庫授權。",
+        "license_url": "https://creativecommons.org/licenses/by-sa/4.0/",
+        "extent": "南齊書卷五十·文惠太子二王及明帝七王",
+        "text_scope": "complete_biography_unit",
+        "raw_path": "source-evidence/nanshi019-xietiao/nanqishu050-ws2272731.wikitext",
+        "raw_file_sha256": "2459124c61a488a22b5213cfefd1ca38d0015243f9471998260692781a016207",
+        "collation_witnesses": [
+          "source-evidence/nanqi050-roll/princes-reading.json"
+        ]
+      }
+    },
+    {
       "chapter_id": "c-nanshi-044-lastprinces-nan",
       "work_id": "w-nanshi",
       "book_id": "b-nanshi-044",
@@ -216,6 +308,60 @@
   ],
   "relations": [
     {
+      "id": "a-qi050-zhaocan-father",
+      "subject_person_id": "ipq_o9t_wdh_B",
+      "object_person_id": "ipq_o9t_wdh",
+      "predicate": "father",
+      "qualifiers": {
+        "source_term": "文惠太子四男",
+        "lineage": "paternal"
+      },
+      "evidence": [
+        {
+          "work_id": "w-nanqishu",
+          "book_id": "b-nanqishu-050",
+          "chapter_id": "c-nanqishu-050-princes-complete",
+          "source_id": "s-nanqishu-050-princes-complete-ws2272731",
+          "paragraph_id": "c-nanqishu-050-princes-complete:p001",
+          "quote": "　　文惠太子四男：安皇后生鬱林王昭業；宮人許氏生海陵恭王昭文；陳氏生巴陵王昭秀；褚氏生桂陽王昭粲。",
+          "subject_person_mention_id": "c-nanqishu-050-princes-complete:p001:m0043",
+          "object_person_mention_id": "c-nanqishu-050-princes-complete:p001:m0002"
+        }
+      ],
+      "status": "source_attested",
+      "interpretation_note": "人物見本卷傳首所列諸男。",
+      "reviewer": "Codex（AI代理）",
+      "model": null,
+      "human_reviewed": false
+    },
+    {
+      "id": "a-qi050-zhaocan-mother",
+      "subject_person_id": "ipq_o9t_wdh_B",
+      "object_person_id": "wyj_so9_szx",
+      "predicate": "mother",
+      "qualifiers": {
+        "source_term": "褚氏生桂陽王昭粲",
+        "lineage": "maternal"
+      },
+      "evidence": [
+        {
+          "work_id": "w-nanqishu",
+          "book_id": "b-nanqishu-050",
+          "chapter_id": "c-nanqishu-050-princes-complete",
+          "source_id": "s-nanqishu-050-princes-complete-ws2272731",
+          "paragraph_id": "c-nanqishu-050-princes-complete:p001",
+          "quote": "　　文惠太子四男：安皇后生鬱林王昭業；宮人許氏生海陵恭王昭文；陳氏生巴陵王昭秀；褚氏生桂陽王昭粲。",
+          "subject_person_mention_id": "c-nanqishu-050-princes-complete:p001:m0043",
+          "object_person_mention_id": "c-nanqishu-050-princes-complete:p001:m0040"
+        }
+      ],
+      "status": "source_attested",
+      "interpretation_note": "父系總敘中特別具所生母。",
+      "reviewer": "Codex（AI代理）",
+      "model": null,
+      "human_reviewed": false
+    },
+    {
       "id": "a-nanqi040-lastprinces-nan-昭粲-father",
       "subject_person_id": "ipq_o9t_wdh_B",
       "object_person_id": "ipq_o9t_wdh",
@@ -261,14 +407,85 @@
   ],
   "related_people": {
     "ipq_o9t_wdh": "南郡王長懋",
-    "ipq_o9t_wdh_B": "蕭昭粲（文惠太子第四子，桂陽王）"
+    "ipq_o9t_wdh_B": "蕭昭粲（文惠太子第四子，桂陽王）",
+    "wyj_so9_szx": "褚氏（桂陽王蕭昭粲母）"
   },
   "dates": [],
   "name_components": [],
+  "source_reading_cases": [
+    {
+      "id": "c-nanqishu-050-princes-complete:source_review4-0",
+      "kind": "source_review",
+      "person_id": "ipq_o9t_wdh_B",
+      "source_quote": "　　桂陽王昭粲，太子第四子也。鬱林立，以皇弟封永嘉郡王，南徐州刺史。延興元年，出爲使持節、都督荊雍益寧梁南北秦七州軍事、西中郎將、荊州刺史。明帝立，欲以聞喜公遙欣爲荊州，轉昭粲爲右將軍，中書令。建武二年，改封桂陽王。四年，遷太常，將軍如故。永泰元年見殺，年八歲。",
+      "reading": "昭粲為文惠太子第四子，早封永嘉，後改桂陽。蕭遙欣代荊州。建武四年遷太常，永泰元年見殺，年八歲。",
+      "note": "昭粲為文惠太子第四子，早封永嘉，後改桂陽。蕭遙欣代荊州。建武四年遷太常，永泰元年見殺，年八歲。",
+      "paragraph_id": "c-nanqishu-050-princes-complete:p004",
+      "start_codepoint": 0,
+      "end_codepoint": 131,
+      "human_reviewed": false,
+      "chapter_id": "c-nanqishu-050-princes-complete",
+      "source_id": "s-nanqishu-050-princes-complete-ws2272731"
+    }
+  ],
   "person_ids": [
     "ipq_o9t_wdh_B"
   ],
   "preferred_relations": [
+    {
+      "id": "a-qi050-zhaocan-father",
+      "subject_person_id": "ipq_o9t_wdh_B",
+      "object_person_id": "ipq_o9t_wdh",
+      "predicate": "father",
+      "qualifiers": {
+        "source_term": "文惠太子四男",
+        "lineage": "paternal"
+      },
+      "evidence": [
+        {
+          "work_id": "w-nanqishu",
+          "book_id": "b-nanqishu-050",
+          "chapter_id": "c-nanqishu-050-princes-complete",
+          "source_id": "s-nanqishu-050-princes-complete-ws2272731",
+          "paragraph_id": "c-nanqishu-050-princes-complete:p001",
+          "quote": "　　文惠太子四男：安皇后生鬱林王昭業；宮人許氏生海陵恭王昭文；陳氏生巴陵王昭秀；褚氏生桂陽王昭粲。",
+          "subject_person_mention_id": "c-nanqishu-050-princes-complete:p001:m0043",
+          "object_person_mention_id": "c-nanqishu-050-princes-complete:p001:m0002"
+        }
+      ],
+      "status": "source_attested",
+      "interpretation_note": "人物見本卷傳首所列諸男。",
+      "reviewer": "Codex（AI代理）",
+      "model": null,
+      "human_reviewed": false
+    },
+    {
+      "id": "a-qi050-zhaocan-mother",
+      "subject_person_id": "ipq_o9t_wdh_B",
+      "object_person_id": "wyj_so9_szx",
+      "predicate": "mother",
+      "qualifiers": {
+        "source_term": "褚氏生桂陽王昭粲",
+        "lineage": "maternal"
+      },
+      "evidence": [
+        {
+          "work_id": "w-nanqishu",
+          "book_id": "b-nanqishu-050",
+          "chapter_id": "c-nanqishu-050-princes-complete",
+          "source_id": "s-nanqishu-050-princes-complete-ws2272731",
+          "paragraph_id": "c-nanqishu-050-princes-complete:p001",
+          "quote": "　　文惠太子四男：安皇后生鬱林王昭業；宮人許氏生海陵恭王昭文；陳氏生巴陵王昭秀；褚氏生桂陽王昭粲。",
+          "subject_person_mention_id": "c-nanqishu-050-princes-complete:p001:m0043",
+          "object_person_mention_id": "c-nanqishu-050-princes-complete:p001:m0040"
+        }
+      ],
+      "status": "source_attested",
+      "interpretation_note": "父系總敘中特別具所生母。",
+      "reviewer": "Codex（AI代理）",
+      "model": null,
+      "human_reviewed": false
+    },
     {
       "id": "a-nanqi040-lastprinces-nan-昭粲-father",
       "subject_person_id": "ipq_o9t_wdh_B",
@@ -313,7 +530,45 @@
       "model": null
     }
   ],
-  "age_assertions": [],
+  "age_assertions": [
+    {
+      "id": "age-qi050-zhaocan-death",
+      "person_id": "ipq_o9t_wdh_B",
+      "source_number": "八",
+      "source_term": "年八歲",
+      "value": 8,
+      "unit": "source_age_years",
+      "counting": "unspecified_source_age",
+      "birth_year": null,
+      "date_expression": "永泰元年",
+      "source_anchor": {
+        "paragraph_id": "c-nanqishu-050-princes-complete:p004",
+        "start": 127,
+        "end": 130,
+        "surface": "年八歲"
+      },
+      "evidence": [
+        {
+          "work_id": "w-nanqishu",
+          "book_id": "b-nanqishu-050",
+          "chapter_id": "c-nanqishu-050-princes-complete",
+          "source_id": "s-nanqishu-050-princes-complete-ws2272731",
+          "paragraph_id": "c-nanqishu-050-princes-complete:p004",
+          "quote": "　　桂陽王昭粲，太子第四子也。鬱林立，以皇弟封永嘉郡王，南徐州刺史。延興元年，出爲使持節、都督荊雍益寧梁南北秦七州軍事、西中郎將、荊州刺史。明帝立，欲以聞喜公遙欣爲荊州，轉昭粲爲右將軍，中書令。建武二年，改封桂陽王。四年，遷太常，將軍如故。永泰元年見殺，年八歲。",
+          "person_mention_id": "c-nanqishu-050-princes-complete:p004:m0002"
+        }
+      ],
+      "age_context": {
+        "kind": "at_death",
+        "life_event_id": "le-qi050-zhaocan-death"
+      },
+      "status": "source_attested",
+      "interpretation_note": "本傳明文連卒事與報齡。",
+      "reviewer": "Codex（AI代理）",
+      "model": null,
+      "human_reviewed": false
+    }
+  ],
   "life_events": [
     {
       "id": "le-nanqi040-lastprinces-qi6-昭粲",
@@ -343,6 +598,35 @@
       "reviewer": "Codex（AI 代理）",
       "human_reviewed": false,
       "model": null
+    },
+    {
+      "id": "le-qi050-zhaocan-death",
+      "person_id": "ipq_o9t_wdh_B",
+      "event_type": "death",
+      "source_term": "見殺",
+      "source_anchor": {
+        "paragraph_id": "c-nanqishu-050-princes-complete:p004",
+        "start": 124,
+        "end": 126,
+        "surface": "見殺"
+      },
+      "date_expression": "永泰元年",
+      "evidence": [
+        {
+          "work_id": "w-nanqishu",
+          "book_id": "b-nanqishu-050",
+          "chapter_id": "c-nanqishu-050-princes-complete",
+          "source_id": "s-nanqishu-050-princes-complete-ws2272731",
+          "paragraph_id": "c-nanqishu-050-princes-complete:p004",
+          "quote": "　　桂陽王昭粲，太子第四子也。鬱林立，以皇弟封永嘉郡王，南徐州刺史。延興元年，出爲使持節、都督荊雍益寧梁南北秦七州軍事、西中郎將、荊州刺史。明帝立，欲以聞喜公遙欣爲荊州，轉昭粲爲右將軍，中書令。建武二年，改封桂陽王。四年，遷太常，將軍如故。永泰元年見殺，年八歲。",
+          "person_mention_id": "c-nanqishu-050-princes-complete:p004:m0002"
+        }
+      ],
+      "status": "source_attested",
+      "interpretation_note": "按同段人物與次第核所屬卒事。",
+      "reviewer": "Codex（AI代理）",
+      "model": null,
+      "human_reviewed": false
     }
   ],
   "life_event_date_decisions": [],
