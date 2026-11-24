@@ -4816,6 +4816,41 @@
       "work_title": "南齊書"
     },
     {
+      "number": 57,
+      "category": "",
+      "title": "南齊書卷五十七·北魏（原題魏虜）",
+      "paragraph_id": "c-nanqishu-057-northern-wei-complete:p031",
+      "count": 1,
+      "raw_count": 1,
+      "duplicate_count": 0,
+      "counting_policy": "independent_fixed_witness_occurrences",
+      "quote": "王奐之誅，子肅奔虜，宏以為鎮南將軍、南豫州刺史。遣肅與劉昶號二十萬眾，圍義陽。司州刺史蕭誕拒戰，虜築圍壍柵三重，燒居民淨盡，并力攻城，城中負楯而立。王廣之都督救援，虜遣三萬餘人逆攻太子右率蕭季敞於下梁，季",
+      "paragraph_ids": [
+        "c-nanqishu-057-northern-wei-complete:p031"
+      ],
+      "mention_ids": [
+        "c-nanqishu-057-northern-wei-complete:p031:m0000"
+      ],
+      "mention_paragraph_ids": {
+        "c-nanqishu-057-northern-wei-complete:p031:m0000": "c-nanqishu-057-northern-wei-complete:p031"
+      },
+      "mention_id": "c-nanqishu-057-northern-wei-complete:p031:m0000",
+      "occurrence_groups": [
+        {
+          "canonical_mention_id": "c-nanqishu-057-northern-wei-complete:p031:m0000",
+          "mention_ids": [
+            "c-nanqishu-057-northern-wei-complete:p031:m0000"
+          ],
+          "kind": "paragraph"
+        }
+      ],
+      "work_id": "w-nanqishu",
+      "book_id": "b-nanqishu-057",
+      "chapter_id": "c-nanqishu-057-northern-wei-complete",
+      "source_id": "s-nanqishu-057-northern-wei-complete-ws1999801",
+      "work_title": "南齊書"
+    },
+    {
       "number": 58,
       "category": "",
       "title": "《宋書》卷五十八〈王球〉節錄",
@@ -5757,6 +5792,32 @@
       }
     },
     {
+      "chapter_id": "c-nanqishu-057-northern-wei-complete",
+      "work_id": "w-nanqishu",
+      "book_id": "b-nanqishu-057",
+      "source_id": "s-nanqishu-057-northern-wei-complete-ws1999801",
+      "source": {
+        "title": "南齊書卷五十七·北魏（原題魏虜）",
+        "provider": "Wikisource",
+        "permalink": "https://zh.wikisource.org/w/index.php?oldid=1999801",
+        "url": "https://zh.wikisource.org/w/index.php?oldid=1999801",
+        "revision_id": 1999801,
+        "edition": "維基文庫固定修訂",
+        "accessed_on": "2026-11-22",
+        "review_status": "text_checked",
+        "image_verified": false,
+        "rights": "古代原文；數位轉錄依維基文庫授權。",
+        "license_url": "https://creativecommons.org/licenses/by-sa/4.0/",
+        "extent": "南齊書卷五十七·北魏（原題魏虜）",
+        "text_scope": "complete_biography_unit",
+        "raw_path": "source-evidence/nanqi057-roll/nanqishu057-ws1999801.wikitext",
+        "raw_file_sha256": "3296a1b29f8acdbc4725846c32054172095b4ce7199a7eb2f9dd27676d73ece7",
+        "collation_witnesses": [
+          "source-evidence/nanqi057-roll/northern-wei-reading.json"
+        ]
+      }
+    },
+    {
       "chapter_id": "c-nanshi-023-wangfen",
       "work_id": "w-nanshi",
       "book_id": "b-nanshi-023",
@@ -6409,6 +6470,32 @@
       "reviewer": "Codex（AI 代理）",
       "human_reviewed": false,
       "model": null
+    },
+    {
+      "id": "a-qi057-wangsu-father",
+      "subject_person_id": "l1w_swd_dj8",
+      "object_person_id": "q7m_r8k_2vn_AA",
+      "predicate": "father",
+      "qualifiers": {
+        "source_term": "王奐之誅，子肅奔虜"
+      },
+      "evidence": [
+        {
+          "work_id": "w-nanqishu",
+          "book_id": "b-nanqishu-057",
+          "chapter_id": "c-nanqishu-057-northern-wei-complete",
+          "source_id": "s-nanqishu-057-northern-wei-complete-ws1999801",
+          "paragraph_id": "c-nanqishu-057-northern-wei-complete:p031",
+          "quote": "王奐之誅，子肅奔虜，宏以為鎮南將軍、南豫州刺史。遣肅與劉昶號二十萬眾，圍義陽。司州刺史蕭誕拒戰，虜築圍壍柵三重，燒居民淨盡，并力攻城，城中負楯而立。王廣之都督救援，虜遣三萬餘人逆攻太子右率蕭季敞於下梁，季敞戰不利。司州城內告急，王廣之遣軍主黃門侍郎梁王閒道先進，與太子右率蕭誄、輔國將軍徐玄慶、荊州軍主魯休烈據賢首山，出虜不備。城內見援軍至，蕭誕遣長史王伯瑜及軍主崔恭祖出攻虜柵，因風放火，梁王等眾軍自外擊之，昶、肅棄圍引退，追擊破之。",
+          "subject_person_mention_id": "c-nanqishu-057-northern-wei-complete:p031:m0006",
+          "object_person_mention_id": "c-nanqishu-057-northern-wei-complete:p031:m0000"
+        }
+      ],
+      "status": "source_attested",
+      "interpretation_note": "以王奐誅事為王肅入魏緣由。",
+      "reviewer": "Codex（AI代理）",
+      "model": null,
+      "human_reviewed": false
     },
     {
       "id": "a-nanshi-023-wangfen-m0002-brother-brother",
@@ -9449,6 +9536,32 @@
       "reviewer": "Codex（AI 代理）",
       "human_reviewed": false,
       "model": null
+    },
+    {
+      "id": "a-qi057-wangsu-father",
+      "subject_person_id": "l1w_swd_dj8",
+      "object_person_id": "q7m_r8k_2vn_AA",
+      "predicate": "father",
+      "qualifiers": {
+        "source_term": "王奐之誅，子肅奔虜"
+      },
+      "evidence": [
+        {
+          "work_id": "w-nanqishu",
+          "book_id": "b-nanqishu-057",
+          "chapter_id": "c-nanqishu-057-northern-wei-complete",
+          "source_id": "s-nanqishu-057-northern-wei-complete-ws1999801",
+          "paragraph_id": "c-nanqishu-057-northern-wei-complete:p031",
+          "quote": "王奐之誅，子肅奔虜，宏以為鎮南將軍、南豫州刺史。遣肅與劉昶號二十萬眾，圍義陽。司州刺史蕭誕拒戰，虜築圍壍柵三重，燒居民淨盡，并力攻城，城中負楯而立。王廣之都督救援，虜遣三萬餘人逆攻太子右率蕭季敞於下梁，季敞戰不利。司州城內告急，王廣之遣軍主黃門侍郎梁王閒道先進，與太子右率蕭誄、輔國將軍徐玄慶、荊州軍主魯休烈據賢首山，出虜不備。城內見援軍至，蕭誕遣長史王伯瑜及軍主崔恭祖出攻虜柵，因風放火，梁王等眾軍自外擊之，昶、肅棄圍引退，追擊破之。",
+          "subject_person_mention_id": "c-nanqishu-057-northern-wei-complete:p031:m0006",
+          "object_person_mention_id": "c-nanqishu-057-northern-wei-complete:p031:m0000"
+        }
+      ],
+      "status": "source_attested",
+      "interpretation_note": "以王奐誅事為王肅入魏緣由。",
+      "reviewer": "Codex（AI代理）",
+      "model": null,
+      "human_reviewed": false
     },
     {
       "id": "a-nanshi-023-wangfen-m0002-brother-brother",
