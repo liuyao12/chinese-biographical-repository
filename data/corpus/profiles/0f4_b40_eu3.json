@@ -14,6 +14,41 @@
     {
       "number": 40,
       "category": "",
+      "title": "武帝二十三男",
+      "paragraph_id": "c-nanqishu-040-twentythree-sons:p001",
+      "count": 1,
+      "raw_count": 1,
+      "duplicate_count": 0,
+      "counting_policy": "independent_fixed_witness_occurrences",
+      "quote": "子響；周淑儀生安陸王子敬、建安王子真；阮淑媛生晉安王子懋、衡陽王子峻；王淑儀生隨郡王子隆；蔡婕妤生西陽王子明；樂容華生南海王子罕；傅充華生巴陵王子倫；謝昭儀生邵陵王子貞；江淑儀生臨賀王子岳；庾昭容生西陽王子文；荀昭華生南康王子琳；顏婕妤生永陽王子珉；宮人謝生湘東王子建；何充華",
+      "paragraph_ids": [
+        "c-nanqishu-040-twentythree-sons:p001"
+      ],
+      "mention_ids": [
+        "c-nanqishu-040-twentythree-sons:p001:m0072"
+      ],
+      "mention_paragraph_ids": {
+        "c-nanqishu-040-twentythree-sons:p001:m0072": "c-nanqishu-040-twentythree-sons:p001"
+      },
+      "mention_id": "c-nanqishu-040-twentythree-sons:p001:m0072",
+      "occurrence_groups": [
+        {
+          "canonical_mention_id": "c-nanqishu-040-twentythree-sons:p001:m0072",
+          "mention_ids": [
+            "c-nanqishu-040-twentythree-sons:p001:m0072"
+          ],
+          "kind": "paragraph"
+        }
+      ],
+      "work_id": "w-nanqishu",
+      "book_id": "b-nanqishu-040",
+      "chapter_id": "c-nanqishu-040-twentythree-sons",
+      "source_id": "s-nanqishu-040-twentythree-sons-ws2272748",
+      "work_title": "南齊書"
+    },
+    {
+      "number": 40,
+      "category": "",
       "title": "王淑儀生子隆",
       "paragraph_id": "c-nanqishu-040-zilong-mother:p001",
       "count": 1,
@@ -50,6 +85,34 @@
   "table_occurrences": [],
   "sources": [
     {
+      "chapter_id": "c-nanqishu-040-twentythree-sons",
+      "work_id": "w-nanqishu",
+      "book_id": "b-nanqishu-040",
+      "source_id": "s-nanqishu-040-twentythree-sons-ws2272748",
+      "source": {
+        "title": "南齊書卷40·武帝二十三男",
+        "provider": "Wikisource",
+        "url": "https://zh.wikisource.org/w/index.php?oldid=2272748",
+        "permalink": "https://zh.wikisource.org/w/index.php?oldid=2272748",
+        "revision_id": 2272748,
+        "accessed_on": "2026-11-21",
+        "edition": "維基文庫固定數位轉錄",
+        "extent": "固定原行 notes 欄全文；武英殿本於卷首十七王題下刻入正文。",
+        "text_scope": "complete_biography_unit",
+        "image_verified": false,
+        "review_status": "text_checked",
+        "raw_path": "sources/nanqishu/nanqishu040-ws2272748.wikitext",
+        "raw_file_sha256": "5ee4445da47c28466a6c227f23c2aac3a6941a84d4e2131a050011f70e30e7ff",
+        "rights": "古代原典及維基文庫數位轉錄。",
+        "license_url": "https://zh.wikisource.org/wiki/Wikisource:著作權資訊",
+        "normalization": {
+          "character_conversion": {},
+          "extraction_note": "投影相應原句，保留字形；移除年號模板定界符。"
+        },
+        "section_locator": "武帝二十三男（卷首）"
+      }
+    },
+    {
       "chapter_id": "c-nanqishu-040-zilong-mother",
       "work_id": "w-nanqishu",
       "book_id": "b-nanqishu-040",
@@ -79,6 +142,39 @@
     }
   ],
   "relations": [
+    {
+      "id": "a-nanqi040-volumeclose-m-子隆-mother",
+      "subject_person_id": "4tg_ud8_zdy",
+      "object_person_id": "0f4_b40_eu3",
+      "predicate": "mother",
+      "qualifiers": {
+        "source_term": "王淑儀生",
+        "nanqi040_volumeclose_reading": "m-子隆-mother"
+      },
+      "evidence": [
+        {
+          "work_id": "w-nanqishu",
+          "book_id": "b-nanqishu-040",
+          "source_id": "s-nanqishu-040-twentythree-sons-ws2272748",
+          "chapter_id": "c-nanqishu-040-twentythree-sons",
+          "paragraph_id": "c-nanqishu-040-twentythree-sons:p001",
+          "quote": "武帝二十三男：穆皇后生文惠太子、竟陵文宣王子良；張淑妃生廬陵王子卿、魚復侯子響；周淑儀生安陸王子敬、建安王子真；阮淑媛生晉安王子懋、衡陽王子峻；王淑儀生隨郡王子隆；蔡婕妤生西陽王子明；樂容華生南海王子罕；傅充華生巴陵王子倫；謝昭儀生邵陵王子貞；江淑儀生臨賀王子岳；庾昭容生西陽王子文；荀昭華生南康王子琳；顏婕妤生永陽王子珉；宮人謝生湘東王子建；何充華生南郡王子夏；第六、十二、十五、二十二皇子早亡。子珉建武中繼衡陽元王後。",
+          "subject_person_mention_id": "c-nanqishu-040-twentythree-sons:p001:m0079",
+          "object_person_mention_id": "c-nanqishu-040-twentythree-sons:p001:m0072",
+          "relationship_anchor": {
+            "paragraph_id": "c-nanqishu-040-twentythree-sons:p001",
+            "surface": "王淑儀生",
+            "start": 72,
+            "end": 76
+          }
+        }
+      ],
+      "status": "source_attested",
+      "interpretation_note": "總敘各母所生，子名或太子稱謂列於生字之後。",
+      "reviewer": "Codex（AI 代理）",
+      "human_reviewed": false,
+      "model": null
+    },
     {
       "id": "a-nanqi040-zilong-mother-mother",
       "subject_person_id": "4tg_ud8_zdy",
@@ -123,6 +219,39 @@
     "0f4_b40_eu3"
   ],
   "preferred_relations": [
+    {
+      "id": "a-nanqi040-volumeclose-m-子隆-mother",
+      "subject_person_id": "4tg_ud8_zdy",
+      "object_person_id": "0f4_b40_eu3",
+      "predicate": "mother",
+      "qualifiers": {
+        "source_term": "王淑儀生",
+        "nanqi040_volumeclose_reading": "m-子隆-mother"
+      },
+      "evidence": [
+        {
+          "work_id": "w-nanqishu",
+          "book_id": "b-nanqishu-040",
+          "source_id": "s-nanqishu-040-twentythree-sons-ws2272748",
+          "chapter_id": "c-nanqishu-040-twentythree-sons",
+          "paragraph_id": "c-nanqishu-040-twentythree-sons:p001",
+          "quote": "武帝二十三男：穆皇后生文惠太子、竟陵文宣王子良；張淑妃生廬陵王子卿、魚復侯子響；周淑儀生安陸王子敬、建安王子真；阮淑媛生晉安王子懋、衡陽王子峻；王淑儀生隨郡王子隆；蔡婕妤生西陽王子明；樂容華生南海王子罕；傅充華生巴陵王子倫；謝昭儀生邵陵王子貞；江淑儀生臨賀王子岳；庾昭容生西陽王子文；荀昭華生南康王子琳；顏婕妤生永陽王子珉；宮人謝生湘東王子建；何充華生南郡王子夏；第六、十二、十五、二十二皇子早亡。子珉建武中繼衡陽元王後。",
+          "subject_person_mention_id": "c-nanqishu-040-twentythree-sons:p001:m0079",
+          "object_person_mention_id": "c-nanqishu-040-twentythree-sons:p001:m0072",
+          "relationship_anchor": {
+            "paragraph_id": "c-nanqishu-040-twentythree-sons:p001",
+            "surface": "王淑儀生",
+            "start": 72,
+            "end": 76
+          }
+        }
+      ],
+      "status": "source_attested",
+      "interpretation_note": "總敘各母所生，子名或太子稱謂列於生字之後。",
+      "reviewer": "Codex（AI 代理）",
+      "human_reviewed": false,
+      "model": null
+    },
     {
       "id": "a-nanqi040-zilong-mother-mother",
       "subject_person_id": "4tg_ud8_zdy",
