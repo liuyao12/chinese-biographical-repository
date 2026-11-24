@@ -10,7 +10,8 @@
     "世謙",
     "贊",
     "德文",
-    "豫章王"
+    "豫章王",
+    "豫章王綜"
   ],
   "titles": [
     {
@@ -274,6 +275,50 @@
       "work_title": "梁書"
     },
     {
+      "number": 29,
+      "category": "",
+      "title": "梁書卷二十九·高祖八男總敘",
+      "paragraph_id": "c-liangshu-029-eight-sons:p001",
+      "count": 2,
+      "raw_count": 2,
+      "duplicate_count": 0,
+      "counting_policy": "independent_fixed_witness_occurrences",
+      "quote": "生昭明太子統，太宗簡文皇帝，廬陵威王續；阮脩容生世祖孝元皇帝；吳淑媛生豫章王綜；董淑儀生南康簡王績；丁充華生邵陵攜王綸；葛脩容生武陵王紀。綜及紀別有傳。",
+      "paragraph_ids": [
+        "c-liangshu-029-eight-sons:p001"
+      ],
+      "mention_ids": [
+        "c-liangshu-029-eight-sons:p001:m0043",
+        "c-liangshu-029-eight-sons:p001:m0077"
+      ],
+      "mention_paragraph_ids": {
+        "c-liangshu-029-eight-sons:p001:m0043": "c-liangshu-029-eight-sons:p001",
+        "c-liangshu-029-eight-sons:p001:m0077": "c-liangshu-029-eight-sons:p001"
+      },
+      "mention_id": "c-liangshu-029-eight-sons:p001:m0043",
+      "occurrence_groups": [
+        {
+          "canonical_mention_id": "c-liangshu-029-eight-sons:p001:m0043",
+          "mention_ids": [
+            "c-liangshu-029-eight-sons:p001:m0043"
+          ],
+          "kind": "paragraph"
+        },
+        {
+          "canonical_mention_id": "c-liangshu-029-eight-sons:p001:m0077",
+          "mention_ids": [
+            "c-liangshu-029-eight-sons:p001:m0077"
+          ],
+          "kind": "paragraph"
+        }
+      ],
+      "work_id": "w-liangshu",
+      "book_id": "b-liangshu-029",
+      "chapter_id": "c-liangshu-029-eight-sons",
+      "source_id": "s-liangshu-029-eight-sons-ws1538079",
+      "work_title": "梁書"
+    },
+    {
       "number": 53,
       "category": "",
       "title": "豫章王綜及改名贊",
@@ -470,6 +515,29 @@
       }
     },
     {
+      "chapter_id": "c-liangshu-029-eight-sons",
+      "work_id": "w-liangshu",
+      "book_id": "b-liangshu-029",
+      "source_id": "s-liangshu-029-eight-sons-ws1538079",
+      "source": {
+        "title": "梁書卷二十九·高祖八男總敘",
+        "provider": "Wikisource",
+        "permalink": "https://zh.wikisource.org/w/index.php?oldid=1538079",
+        "url": "https://zh.wikisource.org/w/index.php?oldid=1538079",
+        "revision_id": 1538079,
+        "edition": "維基文庫固定修訂",
+        "accessed_on": "2026-11-21",
+        "review_status": "text_checked",
+        "image_verified": false,
+        "rights": "古代原文；數位轉錄依維基文庫授權。",
+        "license_url": "https://creativecommons.org/licenses/by-sa/4.0/",
+        "extent": "梁書卷二十九·高祖八男總敘",
+        "text_scope": "partial_chapter",
+        "raw_path": "source-evidence/liang021-wangtai/ws1538079.wikitext",
+        "raw_file_sha256": "8ee6d27e5a06b49bd70824c93abacd27719d15b8f74f9277c33f7b2969c3c055"
+      }
+    },
+    {
       "chapter_id": "c-liangshu-050-xiezheng",
       "work_id": "w-liangshu",
       "book_id": "b-liangshu-050",
@@ -554,6 +622,32 @@
   ],
   "relations": [
     {
+      "id": "a-liang029-head-mother-syn_jn4_wiu",
+      "subject_person_id": "syn_jn4_wiu",
+      "object_person_id": "tpj_t61_f20",
+      "predicate": "mother",
+      "qualifiers": {
+        "source_term": "吳淑媛生"
+      },
+      "evidence": [
+        {
+          "work_id": "w-liangshu",
+          "book_id": "b-liangshu-029",
+          "chapter_id": "c-liangshu-029-eight-sons",
+          "source_id": "s-liangshu-029-eight-sons-ws1538079",
+          "paragraph_id": "c-liangshu-029-eight-sons:p001",
+          "quote": "高祖八男：丁貴嬪生昭明太子統，太宗簡文皇帝，廬陵威王續；阮脩容生世祖孝元皇帝；吳淑媛生豫章王綜；董淑儀生南康簡王績；丁充華生邵陵攜王綸；葛脩容生武陵王紀。綜及紀別有傳。",
+          "subject_person_mention_id": "c-liangshu-029-eight-sons:p001:m0043",
+          "object_person_mention_id": "c-liangshu-029-eight-sons:p001:m0039"
+        }
+      ],
+      "status": "source_attested",
+      "interpretation_note": "「高祖八男」列母子，承母名之「生」統下面各子。",
+      "reviewer": "Codex（AI代理）",
+      "model": null,
+      "human_reviewed": false
+    },
+    {
       "id": "a-liang021-wangtai-zong-mother",
       "subject_person_id": "syn_jn4_wiu",
       "object_person_id": "tpj_t61_f20",
@@ -622,6 +716,20 @@
     }
   ],
   "source_reading_cases": [
+    {
+      "id": "c-liangshu-029-eight-sons:volume_frame1-77",
+      "kind": "volume_frame",
+      "person_id": "syn_jn4_wiu",
+      "source_quote": "綜及紀別有傳",
+      "reading": "明指蕭綜、蕭紀另有傳。數位本連到卷五十五，殿本同見別有傳。",
+      "note": "明指蕭綜、蕭紀另有傳。數位本連到卷五十五，殿本同見別有傳。",
+      "paragraph_id": "c-liangshu-029-eight-sons:p001",
+      "start_codepoint": 77,
+      "end_codepoint": 83,
+      "human_reviewed": false,
+      "chapter_id": "c-liangshu-029-eight-sons",
+      "source_id": "s-liangshu-029-eight-sons-ws1538079"
+    },
     {
       "id": "c-liangshu-050-xiezheng-wyd-comparison-9",
       "kind": "primary_source_comparison",
@@ -781,6 +889,32 @@
     "syn_jn4_wiu"
   ],
   "preferred_relations": [
+    {
+      "id": "a-liang029-head-mother-syn_jn4_wiu",
+      "subject_person_id": "syn_jn4_wiu",
+      "object_person_id": "tpj_t61_f20",
+      "predicate": "mother",
+      "qualifiers": {
+        "source_term": "吳淑媛生"
+      },
+      "evidence": [
+        {
+          "work_id": "w-liangshu",
+          "book_id": "b-liangshu-029",
+          "chapter_id": "c-liangshu-029-eight-sons",
+          "source_id": "s-liangshu-029-eight-sons-ws1538079",
+          "paragraph_id": "c-liangshu-029-eight-sons:p001",
+          "quote": "高祖八男：丁貴嬪生昭明太子統，太宗簡文皇帝，廬陵威王續；阮脩容生世祖孝元皇帝；吳淑媛生豫章王綜；董淑儀生南康簡王績；丁充華生邵陵攜王綸；葛脩容生武陵王紀。綜及紀別有傳。",
+          "subject_person_mention_id": "c-liangshu-029-eight-sons:p001:m0043",
+          "object_person_mention_id": "c-liangshu-029-eight-sons:p001:m0039"
+        }
+      ],
+      "status": "source_attested",
+      "interpretation_note": "「高祖八男」列母子，承母名之「生」統下面各子。",
+      "reviewer": "Codex（AI代理）",
+      "model": null,
+      "human_reviewed": false
+    },
     {
       "id": "a-liang021-wangtai-zong-mother",
       "subject_person_id": "syn_jn4_wiu",

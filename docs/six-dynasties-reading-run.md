@@ -541,3 +541,11 @@
 垣護之「俄遷大司馬」在殿本、數位傳與孝武紀均有原語。考異與《宋書考論》疑脫所任僚佐官，保全其異讀，官歷按可定原句記。張興世父仲子「給事」殿本無中字，《南史》有。張興世答父的鼓角，殿本正文作太子，卷後考證另舉《南史》作天子。
 
 [吳書六十三全卷](../source-evidence/sanguozhi063-roll-close/reading.json) · [宋書五十全卷](../source-evidence/song050-complete/whole-volume.json) · [齊書四十卷首及評贊](../source-evidence/nanqi040-volumeclose/reading.json) · [梁書蕭績](../source-evidence/liang029-complete/xiaoji-reading.json) · [蕭續](../source-evidence/liang029-complete/xiaoxu-reading.json)
+
+## 第三十六批　梁書卷二十九邵陵王及卷首卷末
+
+本批完成蕭綸主傳和蕭堅、蕭確附傳。全清冊八十五卷、一千四百四十一項，其中一千二百零七項備全文，一千二百零六項完成人物初讀，一千二百項完成逐篇覆核。《梁書》卷二十九三篇主傳、六項附敘，合二十四原行、五千二百三十四個非空白碼位，均有原文定位。卷首八子總敘、史臣合評和殿本考證另有定位。
+
+蕭綸大寶元年出奔所隨之子，數位《梁書》與《南史》寫躓，《通鑑》寫威正侯礩，殿本正文寫確，其卷末考證也記此異文。蕭確早在太清三年臺城陷後遇害，故兩人分列，並存同次出奔諸本原字。蕭綸大寶二年二月在汝南被害，梁傳未記日，《通鑑》卷一六四繫於乙亥。梁傳記李素中流矢卒，南史作李素孝並另記蕭綸斂葬，《通鑑》亦作李素，歸取葬於岳陽王察。 [蕭綸](../source-evidence/liang029-complete/xiaolun-reading.json) · [蕭堅、蕭確](../source-evidence/liang029-complete/xiaolun-sons-reading.json)
+
+殿考證據《梁武帝紀》判蕭績封王在天監七年九月，紀文確繫癸巳。梁傳及殿本本傳照錄八年，《南史》原作七年。卷首六位生母按原文與八子相繫。丁貴嬪、阮脩容依卷七原傳繫於已有人物丁令光、阮令嬴，丁充華以位號及其子蕭綸定位。 [卷首、合評和殿考證](../source-evidence/liang029-complete/liang029-close-reading.json)
