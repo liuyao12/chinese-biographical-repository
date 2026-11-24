@@ -153,6 +153,43 @@ def outputs(root=None):
 
 def run(check=False, root=None):
     generated = outputs(root)
+    # Include working book links in the first HTTP response, using the same
+    # manifest, discovery groups and translations as the published reader.
+    site = ROOT if root is None else Path(root)
+    home = site / 'index.html'
+    if home.exists():
+        import subprocess
+        page = home.read_text()
+        start = '<!-- published book catalogue -->'
+        end = '<!-- end published book catalogue -->'
+        if start in page:
+            before, rest = page.split(start)
+            _, after = rest.split(end)
+            cards = subprocess.check_output(
+                ['node', str(site / 'scripts/render_home_catalog.mjs')],
+                input=generated[site / 'data/corpus/works.json'],
+            ).decode()
+            page = before + start + '\n' + cards + '\n' + end + after
+            # Ship the small, ordered homepage styles with its book links.
+            # A stylesheet with relative resources keeps its original base URL.
+            styles = []
+            for name in ('style', 'library', 'person-navigation', 'context', 'i18n',
+                         'reading-layout', 'collection', 'dated-reader', 'places',
+                         'home', 'discovery', 'public-reading'):
+                path = f'assets/{name}.css'
+                css = (site / path).read_text()
+                if re.search(r'url\s*\(|@import|</style', css, re.I):
+                    styles.append(f'<link rel="stylesheet" href="{path}">')
+                else:
+                    styles.append(f'<style data-source="{path}">\n{css}\n</style>')
+            language = (site / 'assets/locale-init.js').read_text()
+            for label, value in [('initial styles', '\n'.join(styles)),
+                                 ('initial language', f'<script>{language}</script>')]:
+                first, last = f'<!-- {label} -->', f'<!-- end {label} -->'
+                prefix, block = page.split(first)
+                _, suffix = block.split(last)
+                page = prefix + first + '\n' + value + '\n' + last + suffix
+            generated[home] = page.encode()
     for path, data in generated.items():
         if check:
             assert path.exists() and path.read_bytes() == data, '閱讀器匯出不同步：' + str(path)

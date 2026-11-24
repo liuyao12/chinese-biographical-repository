@@ -1,24 +1,396 @@
 <!DOCTYPE html>
 
 <html lang="zh-Hant">
-<head><script src="assets/locale-init.js"></script>
+<head>
+<!-- initial language -->
+<script>/* Synchronous language hint before styles render; works when browser storage is blocked. */
+(() => {
+  let language = 'zh-Hant';
+  try { if (localStorage.getItem('ren-wen:language:v1') === 'en') language = 'en'; } catch { /* Chinese default. */ }
+  document.documentElement.lang = language;
+})();
+</script>
+<!-- end initial language -->
 <meta charset="utf-8"/>
-<link rel="preload" as="fetch" href="data/corpus/works.json" crossorigin>
 <meta content="width=device-width,initial-scale=1" name="viewport"/>
 <meta content="人文連接歷史文獻、人物、年代與地理。" data-i18n-content="Ren-Wen connects historical texts, people, time, and place." name="description"/>
 <meta content="light" name="color-scheme"/>
 <title>人文 · Ren-Wen</title>
-<link rel="stylesheet" href="assets/style.css">
-<link rel="stylesheet" href="assets/library.css">
-<link rel="stylesheet" href="assets/person-navigation.css">
-<link rel="stylesheet" href="assets/context.css">
-<link rel="stylesheet" href="assets/i18n.css">
-<link rel="stylesheet" href="assets/reading-layout.css"><link rel="stylesheet" href="assets/collection.css"><link rel="stylesheet" href="assets/dated-reader.css">
-<link rel="stylesheet" href="assets/places.css">
-<link rel="stylesheet" href="assets/home.css"><link rel="stylesheet" href="assets/discovery.css">
-<link rel="stylesheet" href="assets/public-reading.css">
+<!-- initial styles -->
+<style data-source="assets/style.css">
+:root{--paper:#faf8f3;--white:#fffefb;--ink:#263834;--muted:#727873;--line:#dedfd6;--person:#305d70;--place:#4e7453;--office:#9a6940;--accent:#ab543e;--wash:#eef0e9;font-family:system-ui,-apple-system,BlinkMacSystemFont,"Segoe UI",sans-serif;color:var(--ink);background:var(--paper);font-size:14px}*{box-sizing:border-box}body{margin:0}button,select,input,textarea{font:inherit}button,select{color:inherit;background:var(--white);border:1px solid var(--line);border-radius:5px;padding:7px 10px}button,select,a{touch-action:manipulation}button{cursor:pointer}button:hover{background:var(--wash)}button:disabled{cursor:default;opacity:.5}a{color:var(--person);text-decoration:none}a:hover{text-decoration:underline}button:focus-visible,a:focus-visible,select:focus-visible,input:focus-visible,textarea:focus-visible,[tabindex]:focus-visible{outline:2px solid var(--accent);outline-offset:3px}[hidden]{display:none!important}.masthead{height:88px;display:flex;justify-content:space-between;align-items:center;padding:0 28px;border-bottom:1px solid var(--line)}.brand{display:flex;gap:15px;align-items:center;color:var(--ink);letter-spacing:.15em;font-weight:650}.brand>span:first-child{font:38px/1.15 "Noto Serif CJK SC","Songti SC",serif;letter-spacing:.05em;border-right:1px solid var(--line);padding-right:18px}.brand small{display:block;font-size:11px;letter-spacing:.01em;color:var(--muted);font-weight:400;margin-top:6px}.masthead nav{display:flex;gap:9px;align-items:center;font-size:12px}.masthead nav>a{padding-left:8px}.context-bar{min-height:40px;border-bottom:1px solid var(--line);display:flex;gap:17px;align-items:center;padding:8px 28px;font-size:12px}.context-bar label{margin-left:auto;white-space:nowrap}.pilot-badge{font-size:9px;letter-spacing:.12em;color:var(--accent);font-weight:700}.workspace{display:grid;grid-template-columns:minmax(340px,1.45fr) minmax(300px,1fr) minmax(290px,1fr);height:calc(100dvh - 129px);min-height:480px}.panel{min-width:0;background:var(--white);display:flex;flex-direction:column;border-right:1px solid var(--line);overflow:hidden}.panel:last-child{border:0;background:var(--paper)}.panel-heading{min-height:62px;border-bottom:1px solid var(--line);padding:12px 17px;display:flex;align-items:center;justify-content:space-between;gap:8px}.panel-heading h2{font-size:13px;font-weight:600;margin:0;white-space:nowrap}.panel-heading h2>span{font-size:10px;font-weight:400;margin-right:8px;color:var(--muted)}.panel-heading h2 small{font:15px Georgia,serif;color:var(--muted);margin-left:8px}.panel-heading select{font-size:11px;max-width:58%;min-width:0}.panel-heading button{font-size:11px}.text-tools,.map-tools{padding:10px 17px;font-size:10px;display:flex;gap:8px;justify-content:space-between;align-items:center;border-bottom:1px solid var(--line);min-height:47px;color:var(--muted)}.text-tools button,.map-tools button{font-size:10px;padding:5px 6px;white-space:nowrap}.text-tools label{display:flex;align-items:center;gap:4px}#reader{padding:28px 34px 90px;overflow:auto;scroll-behavior:smooth;flex:1;line-height:1.85;font-family:Georgia,"Noto Serif CJK SC","Songti SC",serif;font-size:16px}#reader h1{font-size:30px;font-weight:400;line-height:1.25;letter-spacing:-.02em;margin:8px 0 10px}#reader .kicker{font:10px system-ui;letter-spacing:.1em;text-transform:uppercase;color:var(--muted)}#reader .source-caption{font:12px/1.6 system-ui;color:var(--muted);margin:10px 0 25px;padding-bottom:19px;border-bottom:1px solid var(--line)}#reader p[id]{padding:10px 14px;margin:8px -14px 18px;border-left:2px solid transparent;cursor:default}#reader p.active{border-left-color:var(--accent);background:#f5f3ed}#reader p[lang=zh-Hant]{font-size:18px;line-height:2.15;letter-spacing:.03em}.excerpt-gap{font:10px/1.5 system-ui;color:var(--muted);text-align:center;letter-spacing:.06em;margin:10px 0}#reader [data-entity]{border-bottom:1px solid;cursor:pointer;padding-bottom:1px;border-radius:2px}#reader [data-type=person]{color:var(--person);border-color:#97b1b9}#reader [data-type=place]{color:var(--place);border-color:#a4b8a0}#reader [data-type=office],#reader [data-type=title]{color:var(--office);border-color:#c7b39c}#reader [data-entity].selected{background:#e3d8b8;outline:2px solid #e3d8b8}#reader [data-entity]:hover{background:#e8ece3}#reader a{color:inherit}#reader .editorial-punctuation.hidden-mark{display:none}.panel-footer{padding:12px 16px;border-top:1px solid var(--line);font-size:9px;color:var(--muted);display:flex;gap:10px;flex-wrap:wrap;background:var(--paper)}.legend-person{color:var(--person)}.legend-place{color:var(--place)}.legend-office{color:var(--office)}.time-controls{padding:18px;border-bottom:1px solid var(--line)}.time-controls label{display:flex;align-items:center;justify-content:space-between;font-size:11px;color:var(--muted)}#year-label{font:25px Georgia,serif;color:var(--ink)}#year{width:100%;accent-color:var(--accent);margin:16px 0 9px}.time-controls small{font-size:10px;line-height:1.5;color:var(--muted);display:block}.time-body,.place-body{overflow:auto;padding:16px;flex:1;min-height:0}#timeline{width:100%;display:block;overflow:visible}#timeline text{font-family:system-ui,sans-serif;fill:var(--muted);font-size:10px}#timeline .life-bar{fill:#bdcfd1;rx:3}#timeline .person-row{cursor:pointer}#timeline .person-row.active .life-bar{fill:#638e95}#timeline .person-row.dim{opacity:.38}#timeline .name{fill:var(--ink);font-size:12px}#timeline .ruler{stroke:var(--line);stroke-width:1}#timeline .cursor{stroke:var(--accent);stroke-width:1;stroke-dasharray:3 3}#timeline .event-dot{fill:var(--accent)}.subhead{letter-spacing:.09em;font-size:9px;color:var(--muted);margin:17px 0 12px;display:flex;justify-content:space-between}.event-card,.place-card{width:100%;text-align:left;padding:11px 12px;margin:0 0 8px;background:var(--paper);display:block;border:1px solid var(--line)}.event-card strong,.place-card strong{display:block;font-size:12px;font-weight:550}.event-card small,.place-card small{display:block;color:var(--muted);font-size:10px;margin-top:5px;line-height:1.5}.event-card .date{color:var(--accent);font-size:11px;float:right;margin-left:8px}.reading-note,.empty{font-size:11px;line-height:1.7;color:var(--muted);margin-top:20px}.map-wrap{background:#e7eeec;min-height:190px;flex-shrink:0;display:flex;align-items:center;border-bottom:1px solid var(--line)}#map{width:100%;height:260px;display:block}.sea{fill:#e7eeec}.gridline{stroke:#afc1bc;stroke-width:.2;opacity:.5}.map-point{cursor:pointer}.map-point circle{fill:var(--white);stroke:var(--place);stroke-width:.5}.map-point.active circle{fill:var(--accent);stroke:var(--white)}.map-point text{font-family:system-ui;fill:#456054;font-size:3.1px;paint-order:stroke;stroke:var(--paper);stroke-width:.7px}.map-point.active text{font-weight:600}.map-note{font-size:9px;color:var(--muted);padding:10px 16px;border-bottom:1px solid var(--line)}.jurisdiction-note{margin-top:23px;border-top:1px solid var(--line);padding-top:16px;font-size:11px;color:var(--muted);line-height:1.7}.jurisdiction-note strong{color:var(--ink);font-weight:550}.drawer{position:fixed;right:0;top:88px;bottom:0;width:min(460px,100vw);z-index:5;background:var(--white);border-left:1px solid var(--line);box-shadow:-15px 0 40px #26383418;padding:35px 28px;overflow:auto}.close{position:absolute;right:12px;top:10px;background:transparent;border:0;font-size:24px;padding:2px 8px}.drawer h2,dialog h2{font:26px/1.4 Georgia,serif;margin:5px 0 12px}.drawer h3,dialog h3{font-size:12px;margin-top:24px}.drawer p,dialog p,dialog li{font-size:12px;line-height:1.8}.drawer label{display:block;margin-top:17px;font-size:11px;color:var(--muted)}.drawer select,.drawer textarea{width:100%;margin-top:7px}.drawer textarea{min-height:85px;border:1px solid var(--line);border-radius:5px;padding:10px;color:var(--ink);resize:vertical}.drawer blockquote{margin:16px 0;padding:12px 16px;border-left:2px solid var(--accent);background:var(--paper);font:15px/1.7 Georgia,serif}.small-label{font-size:9px;letter-spacing:.1em;color:var(--accent);text-transform:uppercase}.actions{display:flex;gap:8px;flex-wrap:wrap;margin-top:18px}.primary{background:var(--ink);color:white;border-color:var(--ink)}.primary:hover{background:#415b52}dialog{width:min(680px,94vw);max-height:86dvh;border:1px solid var(--line);border-radius:8px;padding:30px;color:var(--ink);background:var(--white)}dialog::backdrop{background:#142b2455}dialog pre{white-space:pre-wrap;overflow-wrap:anywhere;font-size:11px;max-height:300px;overflow:auto;background:var(--paper);padding:15px}dialog .queue-item{border-top:1px solid var(--line);padding:15px 0}code{font-size:11px;overflow-wrap:anywhere}#status:not(:empty){position:fixed;bottom:20px;left:50%;transform:translateX(-50%);background:var(--ink);color:white;padding:12px 20px;border-radius:7px;z-index:20;max-width:90vw;font-size:12px}.error{color:#9b3528}.notice{padding:12px;background:var(--wash);font-size:11px!important;line-height:1.7}.punctuation-off #reader p[lang=zh-Hant]{line-height:2.05}@media(min-width:1600px){#reader{padding-left:55px;padding-right:55px}.workspace{grid-template-columns:1.45fr 1fr 1fr}#reader{font-size:18px}.map-wrap #map{height:310px}}@media(max-width:1000px){.masthead{padding:0 15px}.brand small{display:none}.masthead nav{gap:4px;font-size:10px}.masthead nav button{font-size:10px}.workspace{grid-template-columns:minmax(320px,1.25fr) minmax(270px,1fr)}.map-panel{grid-column:2;grid-row:2}.text-panel{grid-row:1/3}.time-panel{max-height:48dvh}.workspace{grid-template-rows:1fr 1fr}.map-panel .panel-heading{min-height:48px}.map-wrap{min-height:90px}#map{height:140px}.map-panel .place-body{min-height:70px}.map-tools,.map-note{font-size:8px}.context-bar{padding:8px 15px;font-size:10px}.panel-heading{padding:10px}.panel-footer{font-size:8px}#reader{padding:20px 25px}.map-panel .jurisdiction-note{display:none}}@media(max-width:640px){.masthead{height:auto;min-height:95px;gap:10px;align-items:flex-start;padding:16px;flex-direction:column}.brand>span:first-child{font-size:29px}.masthead nav{flex-wrap:wrap}.context-bar{flex-wrap:wrap;gap:7px}.workspace{display:flex;flex-direction:column;height:auto;min-height:0}.text-panel{height:70dvh;min-height:480px}.time-panel{max-height:none;height:600px}.map-panel{height:560px}.panel{border-right:0;border-bottom:1px solid var(--line)}.map-panel .jurisdiction-note{display:block}#map{height:220px}.drawer{top:0}.pilot-badge{display:none}}@media(prefers-reduced-motion:reduce){#reader{scroll-behavior:auto}}
+
+</style>
+<style data-source="assets/library.css">
+/* Work annotations and navigation cards use the same reading surface as person links. */
+#reader a[data-work-link]{color:#526957;text-decoration:none;border-bottom:1px dotted #809581}
+#reader [data-type="work"],#reader [data-entity^="work-"]{background:#eaf0e8;border-radius:2px;padding:0 1px}
+#reader a[data-work-link]:hover,#reader a[data-work-link]:focus-visible{background:#dce9d9;outline-offset:3px}
+.entity-card{position:fixed;z-index:1000;max-width:calc(100vw - 20px);width:340px;max-height:calc(100vh - 20px);overflow:auto;padding:19px 21px 16px;background:#fffdf8;color:#2c302d;border:1px solid #cbc8bd;border-radius:7px;box-shadow:0 10px 36px #0003;font:14px/1.5 system-ui,-apple-system,sans-serif}
+.entity-card[hidden]{display:none}.entity-card h2{font-family:Georgia,"Noto Serif CJK TC",serif;font-size:21px;line-height:1.45;font-weight:500;margin:6px 18px 8px 0;border:0;padding:0;overflow-wrap:anywhere}.entity-card p{margin:6px 0}.entity-card .card-kind{font-size:10px;letter-spacing:1.8px;color:#7d6857}.entity-card .card-calendar,.entity-card small,.entity-card .card-note{font-size:12px;color:#6c7068}.entity-card nav{display:flex;flex-direction:column;gap:8px;margin:15px 0 9px}.entity-card nav a{display:block;border:1px solid #d9d4c8;border-radius:4px;padding:8px 11px;background:#f7f4ed;color:#684b38;text-decoration:none;font-weight:500}.entity-card nav a:hover{background:#eeeadf}.entity-card .card-close{position:absolute;right:9px;top:7px;border:0;background:none;color:#706b64;font-size:24px;line-height:1;cursor:pointer}.entity-card .card-review{display:block;border:0;background:transparent;padding:4px 0;color:#795c42;text-decoration:underline;cursor:pointer;font:inherit;margin-bottom:9px}.entity-card a:focus-visible,.entity-card button:focus-visible{outline:2px solid #795c42;outline-offset:2px}.entity-card .card-note{display:block}.legend-work{color:#526957}.reading-links{display:flex;flex-wrap:wrap;gap:9px;margin:12px 0}.reading-links a{padding:8px 12px;border:1px solid #d4cfc3;background:#fffdf8;border-radius:4px;text-decoration:none}.work-subtitle{font:18px/1.7 Georgia,"Noto Serif CJK TC",serif;color:#636b60}.mentions-list{list-style:none;padding:0}.mentions-list li{padding:9px 0;border-bottom:1px solid #e6e1d7}.mentions-list q{color:#495047}.contribution-list{padding-left:20px}.contribution-list li{margin:8px 0}.library-search{font:inherit;padding:7px 10px;border:1px solid #c9c4b8;background:#fffdf8;border-radius:3px;max-width:230px}.source-caption .entry-count{font-size:12px}
+
+</style>
+<style data-source="assets/person-navigation.css">
+.person-heading{margin:0 0 24px;padding:0 0 22px;border-bottom:1px solid #d9d5ca;line-height:1.5}
+.person-heading h1{margin:0!important;font-family:Georgia,"Noto Serif CJK TC",serif;font-weight:500;line-height:1.45;font-size:clamp(24px,2.5vw,36px);overflow-wrap:anywhere}
+.person-heading h1 a{color:inherit;text-decoration:none}
+.person-heading h1 a:hover{text-decoration:underline;text-underline-offset:5px}
+.person-heading .person-ad{margin:9px 0 6px!important;font-family:Georgia,serif;font-size:23px;line-height:1.4;letter-spacing:.4px}
+.person-ad>span{font:12px system-ui;letter-spacing:1px;color:#676d69}
+.person-heading .person-chinese{display:flex;flex-wrap:wrap;gap:4px 18px;margin:0!important;font-family:system-ui,sans-serif;font-size:14px;line-height:1.8;color:#626a65}
+.person-sui{white-space:nowrap}
+#reader a[data-person-link]{color:inherit;text-decoration:none}
+#reader a[data-person-link]:hover{text-decoration:underline;text-underline-offset:4px}
+#reader a[data-person-link]:focus-visible{outline:2px solid #79563e;outline-offset:3px}
+#reader a[data-person-link] [data-entity]{cursor:pointer}
+#reader .source-reading-title{font-size:19px;margin:9px 0;font-weight:500;line-height:1.5}
+.text-tools{flex-wrap:wrap}
+#profile .person-heading{margin-top:12px;margin-bottom:16px}
+.profile-source-navigation{display:flex;flex-wrap:wrap;gap:8px 20px;margin:12px 0 24px}
+#profile .life-cell strong{font-size:19px}
+#profile .life-cell .ad-detail{font-size:17px;font-weight:500;color:#333}
+.profile-unfinished{color:#766758}
+@media(max-width:700px){.person-heading .person-ad{font-size:21px}.person-heading .person-chinese{font-size:13px}}
+
+.text-unit-control{display:block;font:12px/1.6 system-ui;margin:18px 0 3px;color:#75634f;text-decoration:none;border-bottom:1px solid #e5dfd4;padding:4px 0}.unit-reading{font:18px/1.9 Georgia,"Noto Serif CJK TC",serif}.unit-reading p{white-space:pre-wrap}.text-reading{margin:25px 0 45px}.unit-breadcrumb{display:block;font-size:14px}
+
+.person-western-reference{font:12px/1.5 system-ui,sans-serif;color:#626a65;margin:3px 0 6px!important}
+
+</style>
+<style data-source="assets/context.css">
+.context-options{display:flex;justify-content:space-between;gap:8px;align-items:center;font-size:11px;color:var(--muted);margin:0 0 12px}.context-options label{display:flex;gap:5px;align-items:center}.context-options span{white-space:nowrap}.context-timeline>svg{width:100%;display:block;overflow:visible}.context-timeline svg text{font:10px system-ui;fill:var(--muted)}.context-timeline svg .name{font-size:12px;fill:var(--ink)}.context-timeline .life-bar{fill:#638e95;cursor:pointer}.context-timeline .person-row.dim{opacity:.38}.context-timeline .ruler{stroke:var(--line);stroke-width:.7}.context-timeline .cursor{stroke:var(--accent);stroke-width:1;stroke-dasharray:3 3}.context-timeline .event-dot{fill:var(--accent)}.family-connector{stroke:#677069;stroke-width:1.5;fill:none;stroke-dasharray:3 2}.family-connector.reviewed{stroke-dasharray:none}.context-family-list button{display:block;width:100%;text-align:left;font-size:11px;margin:4px 0;padding:7px 9px}.context-family-list small{color:var(--muted);font-size:9px}.context-caption{font:11px/1.65 system-ui;color:var(--muted);margin:10px 0}.context-map-body{flex:1;min-height:0;overflow:auto;padding:0 16px 18px}.context-map-toolbar{display:flex;flex-wrap:wrap;gap:8px;padding:12px 0}.context-map-toolbar label{flex:1;font-size:10px;color:var(--muted);min-width:120px}.context-map-toolbar select{width:100%;margin-top:4px;font-size:11px;padding:6px}.interactive-map{position:relative;margin:0 -16px;background:#e7eeec;border-block:1px solid var(--line)}#historic-map{display:block;width:100%;height:270px;touch-action:none;cursor:grab;overflow:hidden}#historic-map:active{cursor:grabbing}.map-zoom{position:absolute;left:10px;top:10px;display:flex;flex-direction:column;gap:3px}.map-zoom button{font-size:18px;line-height:1;width:30px;height:30px;padding:4px;background:var(--white)}.context-map-actions{display:flex;gap:6px;flex-wrap:wrap;align-items:center;margin:10px 0}.context-map-actions button{font-size:10px;padding:6px 8px}.context-map-actions span{margin-left:auto;font-size:10px;color:var(--muted)}.context-jurisdictions{border-block:1px solid var(--line);padding:5px 0 12px}.context-map-body h3{font-size:12px;font-weight:550;letter-spacing:.02em;margin:15px 0 8px}.jurisdiction-selectors{display:flex;gap:5px}.jurisdiction-selectors label{flex:1;min-width:0;font-size:10px;color:var(--muted)}.jurisdiction-selectors select{width:100%;font-size:12px;padding:6px 4px;margin-top:4px}.jurisdiction-breadcrumb{font-size:14px;color:var(--ink)}#jurisdiction-evidence p{font-size:10px;line-height:1.6}.context-jurisdictions summary{cursor:pointer;font-size:11px}.context-jurisdictions details{font-size:11px;color:var(--muted)}.context-jurisdictions details select{font-size:11px}.journey-card{width:100%;text-align:left;display:block;margin:7px 0;font-size:12px;padding:10px;background:var(--white)}.journey-card strong{font-weight:550}.journey-card small{display:block;margin-top:5px;font-size:10px;line-height:1.6;color:var(--muted)}.journey-card.active{border-left:3px solid var(--accent)}.trajectory{fill:none;stroke:var(--person);stroke-width:1.4;vector-effect:non-scaling-stroke;opacity:.6;pointer-events:none}.trajectory.active{stroke:var(--accent);stroke-width:2;opacity:1}.trajectory.future{stroke-dasharray:4 3;opacity:.45}.trajectory-hit{fill:none;stroke:transparent;stroke-width:13;vector-effect:non-scaling-stroke;cursor:pointer;pointer-events:stroke}#trajectory-arrow path{fill:var(--person)}.context-place{cursor:pointer}.context-place circle{fill:var(--white);stroke:var(--place);stroke-width:1.4;vector-effect:non-scaling-stroke}.context-place.active circle{fill:var(--accent)}.context-place text{font-family:system-ui;fill:var(--ink);stroke:var(--paper);paint-order:stroke;stroke-linejoin:round;pointer-events:none}.historical-boundary{fill:#698f7840;stroke:#526c5b;stroke-width:1;vector-effect:non-scaling-stroke;cursor:pointer}.historical-boundary.prefecture{fill:#a9906128;stroke:#897445}.historical-boundary.county{fill:#92635828;stroke:#926358}.historical-boundary:hover{fill:#e0ad5680}#context-evidence small{color:var(--muted)}.context-enhanced .workspace{grid-template-columns:minmax(360px,1.4fr) minmax(300px,1fr) minmax(330px,1fr)}@media(max-width:1100px) and (min-width:641px){.context-enhanced .workspace{grid-template-columns:minmax(330px,1.1fr) minmax(330px,1fr)}.context-enhanced .map-panel{grid-column:2;grid-row:2}.context-enhanced .text-panel{grid-row:1/3}.context-enhanced .time-panel{max-height:48dvh}.context-enhanced .workspace{grid-template-rows:1fr 1fr}#historic-map{height:210px}}@media(max-width:640px){.context-enhanced .map-panel{height:780px}#historic-map{height:260px}.context-map-toolbar select{font-size:12px}.context-options{font-size:10px}}
+
+.reference-map-controls{display:flex;gap:10px;flex-wrap:wrap;padding:8px 12px;background:#f0ece1;font-size:12px}.reference-map-controls label{display:flex;align-items:center;gap:6px}.reference-map-controls select{padding:4px;max-width:200px}.reference-status{margin:4px 12px;padding:7px 9px;background:#ebe7da;font-size:12px;border-left:3px solid #7d826a}.reference-attribution{padding:4px 12px;font-size:11px;color:#5c625b}.reference-attribution summary{cursor:pointer}.interactive-map{height:330px;min-height:300px}#historic-map{height:100%;background:#f7f5eb;cursor:grab;touch-action:none}#historic-map:active{cursor:grabbing}.interactive-map:focus-within{outline:1px solid #947a57}.reference-map-controls + .interactive-map{border-block:1px solid #ded6c6}
+
+</style>
+<style data-source="assets/i18n.css">
+.language-switch{display:inline-flex;flex-shrink:0;align-items:center;gap:2px;padding:2px;border:1px solid #c9c4b8;border-radius:5px;background:#fffdf8;white-space:nowrap}
+.language-switch button{font:inherit;font-size:12px;line-height:1.4;padding:5px 9px;min-height:30px;border:0;border-radius:3px;background:transparent;color:#575d58;cursor:pointer;letter-spacing:0;text-transform:none}
+.language-switch button[aria-pressed="true"]{background:#393e39;color:#fffdf8}
+.language-switch button:focus-visible{outline:2px solid #8a533d;outline-offset:3px}
+html[lang="zh-Hant"]{font-family:system-ui,-apple-system,"Segoe UI","Noto Sans CJK TC","PingFang TC","Microsoft JhengHei",sans-serif}
+html[lang="zh-Hant"] .eyebrow,html[lang="zh-Hant"] .subhead,html[lang="zh-Hant"] .card-kind{letter-spacing:.08em}
+.source-language-note{font-size:11px;color:#666e65;margin-top:5px}
+header nav{align-items:center;flex-wrap:wrap}
+@media(max-width:720px){header nav{gap:8px 12px}.language-switch{margin-left:auto}.masthead{height:auto!important;flex-wrap:wrap}.masthead nav{width:100%}.language-switch button{padding:5px 8px}.context-bar{height:auto;min-height:38px;flex-wrap:wrap}header .brand small{white-space:normal}}
+
+.panel-heading h2 > [data-i18n]{font:inherit;margin-right:0;color:inherit}
+html[lang="zh-Hant"] .panel-heading h2 > small{display:none}
+[data-i18n] [lang="en"]{font-family:inherit}
+.person-heading .person-ad{display:flex;gap:.3em;align-items:baseline}
+.person-heading .person-ad > .person-era{order:-1}
+
+</style>
+<style data-source="assets/reading-layout.css">
+/* Two equal reading columns: text left; family timeline above the map on the right. */
+@media (min-width: 761px) {
+  body {height:100dvh;display:flex;flex-direction:column;overflow:hidden;}
+  .masthead,.context-bar {flex-shrink:0;}
+  .masthead {height:70px;padding-inline:22px;gap:18px;}
+  .masthead nav {flex-wrap:wrap;justify-content:flex-end;gap:5px;}
+  .masthead .brand {flex-shrink:0;}
+  .context-bar {min-height:34px;padding-block:6px;}
+  .workspace,.context-enhanced .workspace {
+    flex:1;min-height:0;height:auto;display:grid;
+    grid-template-columns:minmax(0,1fr) minmax(0,1fr);
+    grid-template-rows:minmax(0,46fr) minmax(0,54fr);
+    grid-template-areas:'text time' 'text map';
+  }
+  .workspace > .text-panel {grid-area:text;}
+  .workspace > .time-panel {grid-area:time;max-height:none;min-height:0;border-right:0;border-bottom:1px solid var(--line);}
+  .workspace > .map-panel {grid-area:map;min-height:0;border:0;}
+  .panel .panel-heading {min-height:38px;padding:8px 16px;flex-shrink:0;}
+  .text-panel .panel-heading {min-height:47px;}
+  .panel .panel-footer {flex-shrink:0;}
+  .time-controls {display:grid;grid-template-columns:auto minmax(80px,1fr);gap:5px 12px;align-items:center;padding:7px 16px;flex-shrink:0;}
+  .time-controls label {margin:0;}
+  .time-controls input {margin:0;width:100%;}
+  .time-controls small {grid-column:1/-1;margin:0;font-size:10px;}
+  .time-body {padding:8px 14px 14px;overflow:auto;min-height:0;overscroll-behavior:contain;}
+  #reader {padding:22px clamp(24px,3.2vw,60px);font-size:18px;line-height:1.85;min-height:0;}
+  .text-tools {flex-wrap:wrap;flex-shrink:0;}
+  .map-panel .context-map-body {min-height:0;overflow:auto;padding:0 12px 12px;overscroll-behavior:contain;}
+  .context-map-toolbar {display:flex;align-items:center;gap:12px;margin:4px 0;padding:0;}
+  .context-map-toolbar label {display:flex;align-items:center;gap:5px;min-width:0;}
+  .context-map-toolbar select {max-width:190px;padding:4px 6px;}
+  .reference-map-controls {padding:5px 8px;margin:0 -12px;gap:12px;}
+  .reference-map-controls select {padding:3px 5px;font-size:11px;}
+  .interactive-map {height:clamp(205px,29dvh,340px);min-height:205px;margin:0 -12px;}
+  #historic-map {height:100%;}
+  .context-map-actions {margin:5px 0;}
+  .context-map-body > .context-caption {margin:5px 0;}
+  .map-panel .panel-footer {font-size:9px;padding:5px 12px;}
+  .reference-status {margin:5px 0;font-size:11px;}
+}
+@media (min-width:761px) and (max-width:1100px) {
+  .masthead {height:auto;min-height:70px;padding:9px 14px;}
+  .masthead .brand small {display:none;}
+  .masthead .brand>span:first-child {font-size:30px;}
+  .masthead nav {font-size:11px;}
+  .context-bar {font-size:10px;padding-inline:14px;}
+  .context-options {flex-wrap:wrap;}
+  .context-map-toolbar {gap:6px;flex-wrap:wrap;}
+  .context-map-toolbar select {max-width:150px;}
+  #reader {font-size:16px;padding:18px 22px;}
+}
+@media (max-width:760px) {
+  body {height:auto;overflow:auto;}
+  .masthead {height:auto;min-height:85px;align-items:flex-start;flex-direction:column;padding:12px 16px;gap:10px;}
+  .masthead nav {flex-wrap:wrap;gap:5px;}
+  .brand small {display:none;}
+  .context-bar {flex-wrap:wrap;padding:8px 16px;font-size:11px;}
+  .workspace,.context-enhanced .workspace {display:flex;flex-direction:column;height:auto;min-height:0;}
+  .workspace > .text-panel {height:68dvh;min-height:400px;}
+  .workspace > .time-panel {height:450px;max-height:none;}
+  .workspace > .map-panel {height:660px;}
+  .panel {border-right:0;border-bottom:1px solid var(--line);}
+  .time-body {min-height:0;padding:10px 12px;}
+  .context-map-body {min-height:0;}
+  .interactive-map {height:280px;min-height:250px;}
+  #historic-map {height:100%;}
+}
+/* Source text, the family grouping, and each known lifespan retain separate semantics. */
+.family-timeline .context-options {margin:0 0 6px;gap:8px;flex-wrap:wrap;}
+.family-timeline .context-options label {font-size:11px;}
+.family-timeline .context-options button,.family-other-control button {padding:3px 8px;font-size:11px;}
+.family-timeline #context-people-count {margin-left:auto;font-size:10px;}
+.family-timeline > svg {display:block;width:100%;height:auto;overflow:hidden;}
+.family-timeline svg .name {font-size:12px;}
+.family-timeline svg .dates {font-size:9px;}
+.family-timeline svg .family-role {font-size:10px;fill:var(--muted);}
+.family-timeline svg .family-divider {font-size:10px;fill:var(--accent);}
+.family-timeline .family-background {fill:#f2f3ed;}
+.family-timeline .self-background {fill:#e2ebe3;}
+.family-timeline .self-row .name {font-weight:650;}
+.family-timeline .self-row .life-bar {fill:var(--ink);}
+.family-timeline .person-row.dim {opacity:.55;}
+.family-timeline .person-row.dim .life-bar {fill:#a0a59f;}
+.family-timeline .person-row {transition:opacity 180ms ease;}
+.family-timeline .family-summary {opacity:.7;}
+.family-timeline .summary-hit {fill:transparent;cursor:pointer;}
+.family-timeline .family-summary [role=button]:hover .summary-hit {fill:#e4e5dc;}
+.family-timeline svg .summary-label {font-size:10px;fill:#666e65;}
+.family-timeline .mini-life {stroke:#929b91;stroke-width:1.4;pointer-events:none;}
+.family-timeline .spouse-connector {stroke-dasharray:5 3;}
+.family-timeline .family-connector {pointer-events:none;}
+.family-evidence {margin-top:6px;font-size:11px;color:var(--muted);}
+.family-evidence summary {cursor:pointer;padding:4px 0;}
+.family-evidence p {font-size:11px;line-height:1.6;}
+.family-help {font-size:10px;line-height:1.6;color:var(--muted);margin:5px 0;}
+.family-other-control {margin:4px 0;}
+.family-timeline #context-families button {padding:5px 8px;}
+@media (prefers-reduced-motion:reduce) {.family-timeline .person-row {transition:none;}}
+
+</style>
+<style data-source="assets/collection.css">
+.library-filters{display:flex;gap:16px;flex-wrap:wrap;margin:24px 0 12px}.library-filters input{flex:1;min-width:200px;font:inherit;padding:10px;border:1px solid #c9c4b8;background:#fffdf8}.library-filters label{display:flex;align-items:center;gap:10px}#library-results{display:grid;grid-template-columns:repeat(2,minmax(0,1fr));gap:12px}.collection-entry{background:#fffdf8;border:1px solid #dfdcd3;padding:16px 20px}.collection-entry h2{font-family:serif;margin:0;padding:0;border:0;font-size:20px}.collection-entry p{margin:6px 0;color:#686d68;font-size:14px}.collection-entry nav{gap:16px;font-size:13px}.collection-entry small{font-size:11px}.source-search{font:inherit;border:1px solid #d9d5ca;padding:5px 8px;max-width:135px;min-width:0;background:#fffdf8}@media(max-width:700px){#library-results{grid-template-columns:1fr}.source-search{max-width:105px}}
+
+</style>
+<style data-source="assets/dated-reader.css">
+/* Source prose is the primary surface; a narrower context column stays alongside it. */
+.person-name-details {display:flex;flex-wrap:wrap;gap:.3em 1em;margin:4px 0 8px;font-size:13px;line-height:1.5;font-weight:400;}
+.name-kind {color:var(--muted,#666);margin-right:.15em;}
+.person-name-details .name-detail {white-space:nowrap;}
+.biography-panel {overflow:auto;background:var(--paper,#fffdf8);padding:12px 16px;border-bottom:1px solid var(--line);}
+.biography-panel .person-heading h1 {font-size:23px;line-height:1.3;margin:0;}
+.biography-panel .person-heading {margin:0;padding:0;}
+.biography-panel .person-ad {font-size:13px;margin:6px 0;}
+.biography-panel .person-chinese {font-size:11px;line-height:1.5;gap:3px 10px;margin:3px 0;}
+.biography-panel .profile-source-navigation {font-size:11px;margin:6px 0 0;}
+.family-canvas {overflow-x:auto;overflow-y:hidden;max-width:100%;overscroll-behavior-x:contain;scrollbar-width:thin;}
+.family-timeline .family-canvas svg {display:block;max-width:none;height:auto;overflow:visible;}
+.family-timeline svg .life-bar {height:28px;fill:#e2ebf0;stroke:#698495;stroke-width:1;}
+.family-timeline svg .self-row .life-bar {fill:#d4e3d6;stroke:#477650;}
+.family-timeline svg .person-row.dim .life-bar {fill:#e5e6e2;stroke:#a6aaa2;}
+.family-timeline svg .bar-name {font-size:13px;font-weight:400;fill:#192e29;}
+.family-timeline svg .bar-name .bar-title {font-size:10px;fill:#435c50;}
+.family-timeline svg .bar-dates {font-size:9px;fill:#617069;}
+.family-timeline svg .unknown-card {fill:none;stroke:#9caaa1;stroke-dasharray:3 3;}
+.family-timeline svg .unknown-label {font-size:11px;fill:#657568;}
+.family-timeline svg .paragraph-cursor {stroke:#a54b39;stroke-width:1.5;pointer-events:none;}
+.family-timeline svg .paragraph-cursor-label {fill:#a54b39;font-size:11px;font-weight:600;paint-order:stroke;stroke:#fffdf8;stroke-width:3px;}
+.family-timeline svg .family-role {font-size:9px;}
+.dated-names {list-style:none;padding:0;}
+.dated-names li {padding:8px 0;border-bottom:1px solid var(--line);font-size:14px;}
+.dated-names small {display:block;color:var(--muted);}
+.source-name-group {border-bottom:1px solid var(--line);padding:8px 0;font-size:14px;}
+.source-name-group summary {cursor:pointer;}
+.source-name-group ul {padding-left:1.4em;}
+.source-name-group q {font-style:normal;}
+.source-date-label {font-size:12px;color:var(--muted);}
+.collection-entry .name-details {font-size:13px;margin-top:4px;color:var(--muted);}
+@media(min-width:1000px) {
+  .workspace,.context-enhanced .workspace {
+    grid-template-columns:minmax(0,2fr) minmax(345px,1fr);
+    grid-template-rows:auto minmax(0,1fr) minmax(0,1.12fr);
+    grid-template-areas:'text bio' 'text time' 'text map';
+  }
+  .workspace>.biography-panel {grid-area:bio;max-height:185px;}
+  #reader {font-size:18px;padding:22px clamp(28px,3.2vw,64px);line-height:1.85;}
+  .context-map-toolbar {flex-wrap:wrap;gap:5px;}
+  .reference-map-controls {flex-wrap:wrap;gap:5px;}
+  .reference-map-controls select {max-width:170px;}
+  .time-controls {font-size:11px;padding:5px 12px;}
+  .time-controls small {font-size:10px;line-height:1.4;}
+  .time-body {padding:8px 10px;}
+  .interactive-map {height:clamp(205px,27dvh,310px);}
+  .context-bar #reading-context {overflow:hidden;text-overflow:ellipsis;white-space:nowrap;}
+}
+@media(min-width:761px) and (max-width:999px) {
+  .workspace,.context-enhanced .workspace {
+    grid-template-columns:minmax(0,1.35fr) minmax(315px,1fr);
+    grid-template-rows:auto minmax(0,1fr) minmax(0,1.1fr);
+    grid-template-areas:'text bio' 'text time' 'text map';
+  }
+  .workspace>.biography-panel {grid-area:bio;max-height:175px;}
+  .reference-map-controls {flex-wrap:wrap;gap:4px;}
+  .context-map-toolbar {flex-wrap:wrap;}
+  .biography-panel .person-heading h1 {font-size:20px;}
+}
+@media(max-width:760px) {
+  .workspace>.biography-panel {order:0;max-height:220px;min-height:100px;}
+  .workspace>.text-panel {order:1;}
+  .workspace>.time-panel {order:2;}
+  .workspace>.map-panel {order:3;}
+}
+
+.release-info { color: #646b70; font-size: 10px; white-space: nowrap; padding: 0 7px; }
+@media (max-width: 760px) { .release-info { display: none; } }
+
+.text-panel>.panel-heading{flex-wrap:wrap;height:auto;min-height:64px;gap:.45rem;padding-bottom:.5rem}
+.source-navigation{display:flex;flex:1 1 520px;gap:.45rem;min-width:0;align-items:center}
+.source-navigation select{width:auto!important;min-width:0;max-width:none!important;flex:1}
+.source-navigation #source-select{flex:3}.source-navigation #source-family{max-width:110px!important}.source-navigation #source-group{max-width:150px!important}
+.editorial-review-link{display:inline-block;margin-left:.7rem}.review-row{border-bottom:1px solid #ddd;padding:1rem 0}.review-row q{display:block;margin:.5rem 0}.review-controls{display:flex;flex-wrap:wrap;gap:.8rem;margin:1rem 0}.review-controls input{flex:1;min-width:12rem}
+@media(max-width:680px){.source-navigation{flex-basis:100%;flex-wrap:wrap}.source-navigation #source-select{flex-basis:100%}}
+
+</style>
+<style data-source="assets/places.css">
+:root{--place:#196844}
+#reader [data-type=place],#reader a[data-place-link]{color:var(--place);text-decoration:none}
+#reader [data-type=place]{border-bottom:2px dotted var(--place);background:#e6f1e940;padding-bottom:1px}
+#reader a[data-place-link]:hover{background:#e3f1e7}
+.legend-place{color:var(--place);border-bottom:2px dotted var(--place)}
+.reference-name-toggle{display:inline-flex;align-items:center;gap:.35rem;font-size:12px;margin:4px 10px}
+.place-page{max-width:1100px;margin:auto;padding:25px 24px}
+.place-page h1{font-size:26px;margin:16px 0}.place-page h2{font-size:18px}.place-page p{line-height:1.65}
+.place-controls{display:flex;gap:10px;flex-wrap:wrap;margin:15px 0}.place-controls input{min-width:200px;padding:8px}
+.place-record,.place-occurrence,.place-candidate{border-bottom:1px solid #d9dfd7;padding:12px 0;overflow-wrap:anywhere}
+.place-record a{color:var(--place)}.place-record small,.place-page .muted{color:#59675e;line-height:1.7}
+.place-evidence{padding:0;list-style:none}.place-evidence a{margin-right:15px}.place-note{padding:10px;background:#eef4ef;border-left:3px solid var(--place)}
+.place-page button{margin:6px}.place-page input,.place-page select{max-width:100%}
+
+</style>
+<style data-source="assets/home.css">
+[hidden]{display:none!important}.library-home{height:auto;overflow:auto;display:block;background:#faf8f3}.library-home .masthead{height:auto;min-height:88px;flex-wrap:wrap;padding:1.25rem 4vw}.library-home .masthead nav{font-size:.8rem;flex-wrap:wrap}.library-home .masthead nav button:not([data-set-locale]){display:none}.library-home .brand small{display:none}#home-library{max-width:1200px;margin:auto;padding:5rem 4vw}#home-library .home-eyebrow{font: .75rem ui-monospace,monospace;letter-spacing:.15em;color:#766d5d}#home-library h1{font-family:'Songti TC',serif;font-size:clamp(2.5rem,5vw,4rem);line-height:1.25;font-weight:500;margin:1rem 0 1.5rem}#home-library .home-lead{font-size:1.1rem;line-height:1.9;color:#647066;max-width:40rem;margin-bottom:3rem}.home-books{display:grid;grid-template-columns:1.4fr 1fr;gap:1.5rem}.home-book{padding:2rem;background:#fffcf5;border:1px solid #d8cebd;border-radius:4px}.home-book.featured{background:#edf1e9;border-color:#b6c4b6}.home-book h2{font-family:'Songti TC',serif;font-size:2.3rem;margin:0 0 1rem;font-weight:500}.home-book p{font-size:.95rem;line-height:1.8;color:#617064}.home-categories{display:flex;flex-wrap:wrap;gap:.5rem;margin:1.5rem 0}.home-categories a{display:inline-block;border:1px solid #b6c4b6;padding:.6rem .85rem;text-decoration:none;font-size:1rem}.home-categories a:hover{background:#dae5d7}.home-primary{display:inline-block;background:#234c42;color:#fff!important;padding:.8rem 1.2rem;margin-top:.7rem;font-size:1rem;text-decoration:none}.home-secondary{display:inline-block;font-size:.9rem;margin:1rem 1rem 0 0}.home-tools{display:flex;gap:1.5rem;flex-wrap:wrap;padding:2rem 0;font-size:.9rem}.home-footer{border-top:1px solid #d8cebd;padding-top:1.5rem;font-size:.85rem;color:#7a7469;line-height:1.8}@media(max-width:700px){#home-library{padding:2.5rem 5vw}.home-books{grid-template-columns:1fr}.home-book{padding:1.5rem}.library-home .masthead{padding:1rem 5vw}.home-book h2{font-size:2rem}}
+#home-library{padding-top:3.8rem}#home-library .home-lead{margin-bottom:1.3rem;max-width:46rem}.home-entrances{display:flex;align-items:center;flex-wrap:wrap;gap:.8rem 1.2rem;margin-bottom:3.5rem}.home-entrances .home-primary{margin:0}.home-person-entry{background:#754c35}.home-person-feature{display:flex;align-items:center;gap:2rem;justify-content:space-between;border-top:1px solid #b5c3b4;border-bottom:1px solid #b5c3b4;padding:2rem 0;margin-bottom:4rem}.home-person-feature div{max-width:44rem}.home-section-label{font:.7rem ui-monospace,monospace;color:#62745e;letter-spacing:.1em}.home-person-feature h2{font:500 1.7rem 'Songti TC',serif;margin:.5rem 0 1rem}.home-person-feature p:not(.home-section-label){color:#626d5f;line-height:1.9;font-size:.95rem}.home-person-feature>a{white-space:nowrap;color:#754c35;font-size:1rem}.home-section-heading{display:flex;justify-content:space-between;align-items:baseline;gap:1rem}.home-section-heading h2{font:500 2rem 'Songti TC',serif}.home-section-heading>span{font-size:.8rem;color:#68745f}.home-scope-note{font-size:.9rem;line-height:1.8;color:#777364;max-width:48rem}.home-source-group{margin:2rem 0 3rem}.home-source-group>h2{font-size:.95rem;font-weight:500;color:#596d5c;margin-bottom:1rem;letter-spacing:.06em}.home-source-grid{display:grid;grid-template-columns:repeat(3,minmax(0,1fr));gap:1rem}.home-source-card{border:1px solid #d8cebd;background:#fffdf7;padding:1.5rem;display:flex;flex-direction:column;align-items:flex-start;min-width:0}.home-source-card h3{font:500 1.55rem 'Songti TC',serif;margin:0 0 .8rem;line-height:1.5}.home-source-card h3 a{text-decoration:none}.home-source-author{font-size:.8rem;line-height:1.6;color:#736d60;min-height:1.6em;margin:0 0 .8rem}.home-source-count{font-size:.9rem;color:#48644e;margin:.1rem 0 .4rem}.home-source-status{font-size:.72rem;color:#93836a;margin:0 0 1.2rem}.home-source-open{margin-top:auto;font-size:.85rem;color:#754c35}.home-qing{border-top:1px solid #d8cebd;border-bottom:1px solid #d8cebd;padding:1.8rem 0;display:flex;gap:1.5rem;align-items:center}.home-qing>div{flex:1}.home-qing h2{font:500 1.6rem 'Songti TC',serif;margin:0 0 .8rem}.home-qing p{font-size:.9rem;line-height:1.8;color:#6e705f}.home-qing>a{white-space:nowrap;font-size:.9rem}@media(max-width:850px){.home-source-grid{grid-template-columns:repeat(2,minmax(0,1fr))}}@media(max-width:560px){#home-library{padding-top:2rem}.home-person-feature{display:block;margin-bottom:2.5rem}.home-person-feature>a{display:inline-block;margin-top:.6rem}.home-source-grid{grid-template-columns:1fr}.home-source-card{padding:1.3rem}.home-qing{flex-wrap:wrap}.home-qing>div{flex-basis:100%}.home-entrances{margin-bottom:2rem}.home-section-heading h2{font-size:1.7rem}}
+.home-entrances{margin-bottom:1.2rem}.home-topic-links{display:flex;flex-wrap:wrap;gap:.5rem 1.25rem;margin:1.5rem 0 2.5rem;font-size:.85rem}.home-topic-links a{color:#667255;text-underline-offset:.25em}.home-source-group{scroll-margin-top:1rem}
+
+</style>
+<style data-source="assets/discovery.css">
+.discovery-eyebrow,.home-eyebrow{font:.72rem ui-monospace,monospace;letter-spacing:.12em;color:#6d7367}.person-discovery{max-width:1120px;margin:auto;padding:3rem 5vw}.person-discovery h1{font-family:'Songti TC',serif;font-size:clamp(2.4rem,5vw,3.6rem);font-weight:500;margin:1rem 0}.discovery-lead{max-width:46rem;line-height:1.9;color:#58675d;font-size:1.05rem}.discovery-count{color:#52675a;font-size:.9rem}.person-search{margin:2.5rem 0 1.5rem}.person-search label{display:block;font-size:.9rem;margin-bottom:.65rem}.person-search>div{display:flex;gap:.7rem;max-width:48rem}.person-search input{min-width:0;flex:1;border:1px solid #b4c0b2;background:#fffdf7;padding:.85rem 1rem;font:inherit;border-radius:3px}.person-search button,.person-pagination button{background:#edf1e9;border:1px solid #b4c0b2;color:#294b40;border-radius:3px;padding:.7rem 1rem;font:inherit;cursor:pointer}.person-results{padding:0;list-style:none;display:grid;grid-template-columns:repeat(3,minmax(0,1fr));gap:0 1.6rem}.person-results li{padding:1.2rem 0;border-top:1px solid #ded8cc;min-width:0;scroll-margin-top:1rem}.person-result-name{font-family:'Songti TC',serif;font-size:1.3rem;display:flex;justify-content:space-between;gap:1rem;text-decoration:none}.person-result-name span{font:1rem system-ui;color:#8a8c7b}.person-result-forms{font-size:.8rem;color:#776f62;line-height:1.65;margin:.65rem 0;overflow-wrap:anywhere}.person-results code{display:block;font:.68rem ui-monospace,monospace;color:#777a70;margin-top:.6rem;overflow-wrap:anywhere}.person-search-empty{grid-column:1/-1}.person-pagination{display:flex;justify-content:space-between;gap:1rem;align-items:center;padding:1.5rem 0;font-size:.85rem}.person-pagination button:disabled{opacity:.4;cursor:default}.discovery-footer{border-top:1px solid #d8cebd;margin-top:2rem;padding:1rem 0 2rem;font-size:.85rem;line-height:1.8;color:#766e60}.sr-only{position:absolute;width:1px;height:1px;padding:0;margin:-1px;overflow:hidden;clip:rect(0,0,0,0);white-space:nowrap;border:0}@media(max-width:760px){.person-results{grid-template-columns:repeat(2,minmax(0,1fr));gap:0 1rem}.person-discovery{padding:2rem 5vw}.person-pagination{flex-wrap:wrap}.person-pagination span{order:3;width:100%;text-align:center}}@media(max-width:430px){.person-results{grid-template-columns:1fr}.person-search>div{flex-wrap:wrap}.person-search input{flex-basis:100%}.person-result-name{font-size:1.35rem}}
+/* Name typography follows jiapu-mp's primary line and smaller Kai addendum. */
+.person-discovery{max-width:1360px}.person-directory-layout{display:grid;grid-template-columns:220px minmax(0,1fr);gap:2.5rem;align-items:start}.person-directory-results{min-width:0}.person-filters{position:sticky;top:1rem;border-top:1px solid #b4c0b2;padding-top:1rem}.person-filter-heading{display:flex;align-items:center;justify-content:space-between;gap:.6rem}.person-filter-heading h2{font:500 1.1rem 'Songti TC',serif;margin:0}.person-filter-heading button{font:inherit;font-size:.75rem;border:0;background:transparent;text-decoration:underline;cursor:pointer;color:#52675a;padding:.35rem}.person-filter-heading button:disabled{opacity:.45;cursor:default}.person-filter-note{font-size:.75rem;line-height:1.7;color:#766e60}.person-facet{border:0;border-top:1px solid #ded8cc;margin:1.2rem 0;padding:1rem 0 0;min-width:0}.person-facet legend{font-size:.9rem;padding:0 .5rem 0 0}.person-facet-options{max-height:15rem;overflow:auto;padding-right:.4rem;scrollbar-width:thin}.person-facet-option{display:flex;align-items:baseline;gap:.5rem;padding:.3rem 0;font-size:.85rem;line-height:1.5;cursor:pointer}.person-facet-option[hidden]{display:none}.person-facet-option input{accent-color:#405f4c}.person-facet-option>span{overflow-wrap:anywhere}.person-facet-option:has(input:disabled){opacity:.45}.facet-count{margin-left:auto;font: .75rem ui-monospace,monospace;color:#766e60;font-variant-numeric:tabular-nums}.facet-search-label{display:block;font-size:.75rem;color:#766e60;margin-bottom:.5rem}.facet-search-label input{display:block;box-sizing:border-box;width:100%;margin-top:.3rem;padding:.4rem;border:1px solid #b4c0b2;background:#fffdf7;font:inherit;border-radius:3px}.person-results{grid-template-columns:repeat(2,minmax(0,1fr))}.person-result-name{gap:.5rem;align-items:baseline;line-height:1.5}.directory-identity{font:400 1.2rem/1.6 'CBR Historical Rare Fallback','SimSun','Songti TC','STSong',serif;color:#05070a;overflow-wrap:anywhere}.directory-identity .title-name-gap{margin-right:.5em}.directory-additional{margin-left:.36em;font-family:'CBR Historical Rare Fallback','STKaiti','KaiTi','FangSong','SimSun',serif;font-size:.643em;font-weight:400;opacity:.72}.person-result-name .person-result-arrow{font:1rem system-ui;color:#8a8c7b;flex-shrink:0}.person-result-name:focus-visible,.person-filters input:focus-visible,.person-filter-heading button:focus-visible{outline:2px solid #405f4c;outline-offset:3px}.person-result-name .directory-identity{font:400 1.2rem/1.6 'CBR Historical Rare Fallback','SimSun','Songti TC','STSong',serif;color:#05070a}.person-result-name .directory-identity>span{font:inherit;color:inherit}
+@media(max-width:760px){.person-directory-layout{grid-template-columns:180px minmax(0,1fr);gap:1.25rem}.person-results{grid-template-columns:1fr}.person-facet-options{max-height:12rem}}@media(max-width:540px){.person-directory-layout{grid-template-columns:1fr;gap:1rem}.person-filters{position:static}.person-filters #person-facets{display:grid;grid-template-columns:repeat(3,minmax(0,1fr));gap:.65rem}.person-facet{margin:.5rem 0}.person-facet-options{max-height:10rem}.person-facet-option{font-size:.8rem;gap:.25rem}.facet-count{font-size:.68rem}.person-filter-note{margin:.5rem 0}.person-result-name .directory-identity{font-size:1.25rem}}
+@media(min-width:541px){.person-filters{max-height:calc(100dvh - 2rem);overflow-y:auto;padding-right:.5rem;scrollbar-width:thin}}
+
+</style>
+<style data-source="assets/public-reading.css">
+/* Public indexes and reading controls use the same ink, paper and dividers. */
+header > .public-nav { display:flex; flex-wrap:wrap; align-items:center; gap:.2rem 1.1rem; font:500 .93rem/1.4 system-ui,sans-serif; }
+.public-nav > a, .public-more summary { display:inline-flex; align-items:center; min-height:2.75rem; color:#29483c; text-decoration:none; }
+.public-nav a:hover, .public-more summary:hover { text-decoration:underline; text-underline-offset:.25em; }
+.public-nav > [aria-current="page"] { box-shadow:inset 0 -2px #8f4d39; }
+.public-more { position:relative; }
+.public-more summary { cursor:pointer; gap:.4em; list-style:none; }
+.public-more summary::-webkit-details-marker { display:none; }
+.public-more summary::after { content:""; width:.42em; height:.42em; border:solid currentColor; border-width:0 1px 1px 0; transform:translateY(-.15em) rotate(45deg); }
+.public-more[open] summary::after { transform:rotate(225deg); }
+.public-more > div { position:absolute; right:0; top:100%; z-index:50; display:grid; min-width:10rem; padding:.4rem; background:#fffdf7; border:1px solid #c7c8b8; box-shadow:0 .45rem 1.1rem #26383419; }
+.public-more a { display:block; padding:.7rem; color:#29483c; white-space:nowrap; }
+.public-more a:hover { background:#edf0e7; }
+.reader-editor-tools { display:contents; }
+.library-home .reader-editor-tools { display:none; }
+.public-nav :focus-visible, #home-library :focus-visible, .corpus-navigation summary:focus-visible, .profile-shortcuts button:focus-visible { outline:2px solid #8b4c35; outline-offset:3px; }
+#home-library { max-width:78rem; padding:clamp(1.5rem,4vw,3.5rem) 5vw; }
+.catalogue-heading { display:grid; grid-template-columns:1fr minmax(16rem,25rem); align-items:end; gap:1rem 3rem; padding-bottom:1.5rem; }
+#home-library h1 { margin:0 0 .35rem; font-size:clamp(2.5rem,5vw,4rem); color:#203e34; }
+#home-library .home-lead { margin:0; color:#526255; }
+.home-search { display:grid; gap:.4rem; font-size:.88rem; color:#314c40; }
+.home-search input { width:100%; font:inherit; font-size:1rem; line-height:1.5; padding:.7rem .9rem; background:#fffef9; border:1px solid #8f9d8d; border-radius:.2rem; }
+#home-library .home-topic-links { margin:0; gap:.15rem 1.25rem; border-block:1px solid #c4c9ba; }
+.home-topic-links a { display:inline-flex; align-items:center; min-height:2.75rem; }
+.catalogue-status { padding:.8rem 0 0; font-size:.85rem; color:#555f54; }
+.home-source-group { margin:1.4rem 0 2.7rem; scroll-margin:1rem; }
+.home-source-group > h2 { color:#263f35; font:500 1.3rem/1.5 'Songti TC',serif; }
+.home-source-grid { gap:0 1.5rem; }
+.home-source-card { position:relative; display:grid; align-content:start; gap:.25rem; padding:1rem .6rem 1rem .25rem; border:0; border-top:1px solid #cccdbd; background:transparent; }
+.home-source-card:hover, .home-source-card:focus-within { background:#edf0e6; }
+.home-source-card h3 { margin:0; font-size:1.38rem; }
+.home-source-card h3 a { color:#25463a; }
+.home-source-card h3 a::after { content:""; position:absolute; inset:0; }
+.home-source-card p { min-height:0; margin:0; font-size:.83rem; color:#5a655a; }
+.home-source-card p:empty { display:none; }
+.work-switch summary, #chapter-directory > summary, #directory-filters > summary { cursor:pointer; padding:.65rem 0; color:#294c3c; font-weight:600; }
+.corpus-navigation .work-switch { border-block:1px solid #c9cbbf; }
+.corpus-navigation .chapter-search input { width:100%; }
+.corpus-content .chapter-intro { background:#fffcf5; }
+.table-directory { display:grid; grid-template-columns:repeat(auto-fit,minmax(min(100%,14rem),1fr)); gap:0 1.4rem; }
+.table-directory a { padding:.75rem .1rem; border-bottom:1px solid #d6d3c6; font-size:1rem; }
+.profile-shortcuts { display:flex; flex-wrap:wrap; gap:.5rem; margin:1rem 0; }
+.profile-shortcuts button { min-height:2.6rem; padding:.45rem .85rem; border:1px solid #b7c3b4; background:#f2f5ee; color:#284a3c; font:inherit; font-size:.88rem; cursor:pointer; }
+.cbr-profile section:focus { outline:2px solid #9da78d; outline-offset:4px; }
+.cbr-profile section[tabindex="-1"] { scroll-margin-top:6rem; }
+@media (max-width:800px) {
+  body > header:has(.public-nav), .library-home .masthead { flex-wrap:wrap; padding:.7rem 5vw; gap:.3rem .7rem; }
+  header > .public-nav, .library-home .masthead .public-nav { gap:0 .85rem; flex:1 1 20rem; font-size:.87rem; }
+  .public-more > div { right:0; }
+  .catalogue-heading { grid-template-columns:1fr; gap:1rem; }
+  #home-library .home-topic-links { column-gap:1rem; }
+  .corpus-navigation { border-bottom:1px solid #c9cbbf; padding-bottom:.4rem; }
+  .corpus-navigation > h1 { display:inline-block; font-size:1.6rem; margin:.15rem 0; }
+  .corpus-navigation > .eyebrow { margin:.25rem 0; }
+  .corpus-content { margin-top:.8rem; }
+  .corpus-content > .chapter-pagination:first-child { margin:.4rem 0 .75rem; }
+  .corpus-navigation .work-switch summary, #chapter-directory > summary { min-height:2.75rem; }
+  .cbr-profile section[tabindex="-1"] { scroll-margin-top:1rem; }
+}
+@media (max-width:540px) {
+  .home-source-grid { grid-template-columns:1fr; }
+  .home-source-card { grid-template-columns:minmax(0,1fr) auto; align-items:baseline; column-gap:.5rem; }
+  .home-source-card h3 { grid-column:1; }
+  .home-source-author { grid-column:1; }
+  .home-source-count { grid-column:2; grid-row:1; }
+  .person-filters #person-facets { grid-template-columns:1fr; }
+  .person-facet .person-facet-options { max-height:12rem; }
+}
+.public-more, .work-switch, #chapter-directory, #directory-filters { padding:0; background:transparent; }
+.public-more summary { font:inherit; }
+@media (max-width:800px) {
+  .library-home .masthead .public-nav { flex:0 1 auto; justify-content:flex-start; }
+  .corpus-content .corpus-note { margin:.5rem 0; }
+  .corpus-edition-policy { margin:1.5rem auto; }
+}
+.related-table { border-top:1px solid #c9cbbf; margin-top:1.5rem; padding:.8rem 0; }
+.related-table h2 { font-size:1rem; }
+.related-table a { display:inline-block; padding:.4rem 0; }
+@media (max-width:540px) {
+  header > .public-nav { position:relative; }
+  .public-nav .public-more { position:static; }
+  .public-more > div { max-width:100%; }
+  .public-more a { white-space:normal; }
+}
+.reading-source-links { display:flex; flex-wrap:wrap; align-items:baseline; gap:.4rem 1rem; margin:.55rem 0; }
+.reading-source-links > p { margin:0; font-size:.9rem; }
+.reading-source-links > details { min-width:0; max-width:100%; padding:.35rem .65rem; }
+.reading-source-links > details[open] { flex-basis:100%; }
+
+</style>
+<!-- end initial styles -->
 </head>
-<body>
+<body class="library-home">
+<script>if (location.hash) document.body.classList.remove('library-home');</script>
+<style>body:not(.library-home) #home-library,.library-home #workspace,.library-home .context-bar{display:none}</style>
 <header class="masthead">
 <a aria-label="人文首頁" class="brand" data-i18n-aria-label="Ren-Wen home" href="./"><span lang="zh-Hant">人文</span><span>REN-WEN<small><span data-i18n="People through texts. Texts in context.">以文識人，因人讀文。</span></small></span></a>
 <nav class="public-nav" aria-label="主要導覽" data-i18n-aria-label="Project">
@@ -39,7 +411,7 @@
     <div aria-label="介面語言" class="language-switch" data-i18n-aria-label="Interface language" role="group"><button aria-pressed="true" data-set-locale="zh-Hant" lang="zh-Hant" type="button">中文</button><button aria-pressed="false" data-set-locale="en" lang="en" type="button">English</button></div>
   </nav>
 <small data-release-info class="release-info">r2026.09.09</small></header>
-<main id="home-library" hidden>
+<main id="home-library">
 <section id="published-sources" aria-labelledby="home-title">
   <div class="catalogue-heading"><div>
     <h1 id="home-title" data-i18n="Book catalogue">史書目錄</h1>
@@ -54,7 +426,229 @@
     <a href="?section=other" data-i18n="Epitaphs, genealogies and reference works">墓誌、譜系與參考文獻</a>
   </nav>
   <div class="catalogue-status"><span id="home-source-total" role="status"></span></div>
-  <div id="home-source-catalog"><p role="status" data-i18n="Loading the published catalog…">正在載入已發布目錄…</p></div>
+  <div id="home-source-catalog"><!-- published book catalogue -->
+<section class="home-source-group" id="home-sources-early">
+    <h2><span lang="zh-Hant" data-i18n="Early histories and chronological works">秦漢經史與編年通史</span></h2>
+    <div class="home-source-grid"><article class="home-source-card" data-work="w-shiji">
+      <h3><a href="shiji.html">《史記》</a></h3>
+      <p class="home-source-author">司馬遷</p>
+      <p class="home-source-count"><span lang="zh-Hant" data-i18n="{count} reading units" data-i18n-params="{&quot;count&quot;:130}">130 項原文／選錄</span></p>
+    </article><article class="home-source-card" data-work="w-hanshu">
+      <h3><a href="reader.html#work=w-hanshu">《漢書》</a></h3>
+      <p class="home-source-author">班固</p>
+      <p class="home-source-count"><span lang="zh-Hant" data-i18n="{count} reading units" data-i18n-params="{&quot;count&quot;:15}">15 項原文／選錄</span></p>
+    </article><article class="home-source-card" data-work="w-zizhitongjian">
+      <h3><a href="reader.html#work=w-zizhitongjian">《資治通鑑》</a></h3>
+      <p class="home-source-author">司馬光</p>
+      <p class="home-source-count"><span lang="zh-Hant" data-i18n="{count} reading units" data-i18n-params="{&quot;count&quot;:28}">28 項原文／選錄</span></p>
+    </article><article class="home-source-card" data-work="w-zuozhuan-zhushu">
+      <h3><a href="reader.html#work=w-zuozhuan-zhushu">《春秋左傳注疏》</a></h3>
+      <p class="home-source-author">杜預注；陸德明音義；孔穎達疏</p>
+      <p class="home-source-count"><span lang="zh-Hant" data-i18n="{count} reading units" data-i18n-params="{&quot;count&quot;:4}">4 項原文／選錄</span></p>
+    </article><article class="home-source-card" data-work="w-houhanshu">
+      <h3><a href="reader.html#work=w-houhanshu">《後漢書》</a></h3>
+      <p class="home-source-author">范曄</p>
+      <p class="home-source-count"><span lang="zh-Hant" data-i18n="{count} reading units" data-i18n-params="{&quot;count&quot;:15}">15 項原文／選錄</span></p>
+    </article></div>
+  </section><section class="home-source-group" id="home-sources-medieval">
+    <h2><span lang="zh-Hant" data-i18n="Three Kingdoms, Jin and Northern and Southern Dynasties">三國兩晉南北朝</span></h2>
+    <div class="home-source-grid"><article class="home-source-card" data-work="w-sanguozhi">
+      <h3><a href="reader.html#work=w-sanguozhi">《三國志》</a></h3>
+      <p class="home-source-author">陳壽</p>
+      <p class="home-source-count"><span lang="zh-Hant" data-i18n="{count} reading units" data-i18n-params="{&quot;count&quot;:144}">144 項原文／選錄</span></p>
+    </article><article class="home-source-card" data-work="w-jinshu">
+      <h3><a href="reader.html#work=w-jinshu">《晉書》</a></h3>
+      <p class="home-source-author">房玄齡等</p>
+      <p class="home-source-count"><span lang="zh-Hant" data-i18n="{count} reading units" data-i18n-params="{&quot;count&quot;:220}">220 項原文／選錄</span></p>
+    </article><article class="home-source-card" data-work="w-songshu">
+      <h3><a href="reader.html#work=w-songshu">《宋書》</a></h3>
+      <p class="home-source-author">沈約</p>
+      <p class="home-source-count"><span lang="zh-Hant" data-i18n="{count} reading units" data-i18n-params="{&quot;count&quot;:230}">230 項原文／選錄</span></p>
+    </article><article class="home-source-card" data-work="w-nanqishu">
+      <h3><a href="reader.html#work=w-nanqishu">《南齊書》</a></h3>
+      <p class="home-source-author">蕭子顯</p>
+      <p class="home-source-count"><span lang="zh-Hant" data-i18n="{count} reading units" data-i18n-params="{&quot;count&quot;:171}">171 項原文／選錄</span></p>
+    </article><article class="home-source-card" data-work="w-nanshi">
+      <h3><a href="reader.html#work=w-nanshi">《南史》</a></h3>
+      <p class="home-source-author">李延壽</p>
+      <p class="home-source-count"><span lang="zh-Hant" data-i18n="{count} reading units" data-i18n-params="{&quot;count&quot;:249}">249 項原文／選錄</span></p>
+    </article><article class="home-source-card" data-work="w-weishu-weishou">
+      <h3><a href="reader.html#work=w-weishu-weishou">《魏書》</a></h3>
+      <p class="home-source-author">魏收（傳世本題署）</p>
+      <p class="home-source-count"><span lang="zh-Hant" data-i18n="{count} reading units" data-i18n-params="{&quot;count&quot;:23}">23 項原文／選錄</span></p>
+    </article><article class="home-source-card" data-work="w-beishi">
+      <h3><a href="reader.html#work=w-beishi">《北史》</a></h3>
+      <p class="home-source-author">李延壽（傳世本題署）</p>
+      <p class="home-source-count"><span lang="zh-Hant" data-i18n="{count} reading units" data-i18n-params="{&quot;count&quot;:8}">8 項原文／選錄</span></p>
+    </article><article class="home-source-card" data-work="w-liangshu">
+      <h3><a href="reader.html#work=w-liangshu">《梁書》</a></h3>
+      <p class="home-source-author">姚思廉</p>
+      <p class="home-source-count"><span lang="zh-Hant" data-i18n="{count} reading units" data-i18n-params="{&quot;count&quot;:117}">117 項原文／選錄</span></p>
+    </article><article class="home-source-card" data-work="w-chenshu">
+      <h3><a href="reader.html#work=w-chenshu">《陳書》</a></h3>
+      <p class="home-source-author"></p>
+      <p class="home-source-count"><span lang="zh-Hant" data-i18n="{count} reading units" data-i18n-params="{&quot;count&quot;:69}">69 項原文／選錄</span></p>
+    </article><article class="home-source-card" data-work="w-beiqishu">
+      <h3><a href="reader.html#work=w-beiqishu">《北齊書》</a></h3>
+      <p class="home-source-author"></p>
+      <p class="home-source-count"><span lang="zh-Hant" data-i18n="{count} reading units" data-i18n-params="{&quot;count&quot;:2}">2 項原文／選錄</span></p>
+    </article><article class="home-source-card" data-work="w-zhoushu">
+      <h3><a href="reader.html#work=w-zhoushu">《周書》</a></h3>
+      <p class="home-source-author"></p>
+      <p class="home-source-count"><span lang="zh-Hant" data-i18n="{count} reading units" data-i18n-params="{&quot;count&quot;:5}">5 項原文／選錄</span></p>
+    </article></div>
+  </section><section class="home-source-group" id="home-sources-later">
+    <h2><span lang="zh-Hant" data-i18n="Sui, Tang and later dynastic histories">隋唐及其後正史</span></h2>
+    <div class="home-source-grid"><article class="home-source-card" data-work="w-xintangshu">
+      <h3><a href="reader.html#work=w-xintangshu">《新唐書》</a></h3>
+      <p class="home-source-author">歐陽修、宋祁等</p>
+      <p class="home-source-count"><span lang="zh-Hant" data-i18n="{count} reading units" data-i18n-params="{&quot;count&quot;:3}">3 項原文／選錄</span></p>
+    </article><article class="home-source-card" data-work="w-suishu">
+      <h3><a href="reader.html#work=w-suishu">《隋書》</a></h3>
+      <p class="home-source-author"></p>
+      <p class="home-source-count"><span lang="zh-Hant" data-i18n="{count} reading units" data-i18n-params="{&quot;count&quot;:12}">12 項原文／選錄</span></p>
+    </article><article class="home-source-card" data-work="w-jiutangshu">
+      <h3><a href="reader.html#work=w-jiutangshu">《舊唐書》</a></h3>
+      <p class="home-source-author"></p>
+      <p class="home-source-count"><span lang="zh-Hant" data-i18n="{count} reading units" data-i18n-params="{&quot;count&quot;:4}">4 項原文／選錄</span></p>
+    </article><article class="home-source-card" data-work="w-jiuwudaishi">
+      <h3><a href="reader.html#work=w-jiuwudaishi">《舊五代史》</a></h3>
+      <p class="home-source-author"></p>
+      <p class="home-source-count"><span lang="zh-Hant" data-i18n="Source text not yet imported">正文尚未收錄</span></p>
+    </article><article class="home-source-card" data-work="w-xinwudaishi">
+      <h3><a href="reader.html#work=w-xinwudaishi">《新五代史》</a></h3>
+      <p class="home-source-author"></p>
+      <p class="home-source-count"><span lang="zh-Hant" data-i18n="Source text not yet imported">正文尚未收錄</span></p>
+    </article><article class="home-source-card" data-work="w-songshi">
+      <h3><a href="reader.html#work=w-songshi">《宋史》</a></h3>
+      <p class="home-source-author"></p>
+      <p class="home-source-count"><span lang="zh-Hant" data-i18n="Source text not yet imported">正文尚未收錄</span></p>
+    </article><article class="home-source-card" data-work="w-liaoshi">
+      <h3><a href="reader.html#work=w-liaoshi">《遼史》</a></h3>
+      <p class="home-source-author"></p>
+      <p class="home-source-count"><span lang="zh-Hant" data-i18n="Source text not yet imported">正文尚未收錄</span></p>
+    </article><article class="home-source-card" data-work="w-jinshi">
+      <h3><a href="reader.html#work=w-jinshi">《金史》</a></h3>
+      <p class="home-source-author"></p>
+      <p class="home-source-count"><span lang="zh-Hant" data-i18n="Source text not yet imported">正文尚未收錄</span></p>
+    </article><article class="home-source-card" data-work="w-yuanshi">
+      <h3><a href="reader.html#work=w-yuanshi">《元史》</a></h3>
+      <p class="home-source-author"></p>
+      <p class="home-source-count"><span lang="zh-Hant" data-i18n="Source text not yet imported">正文尚未收錄</span></p>
+    </article><article class="home-source-card" data-work="w-mingshi">
+      <h3><a href="reader.html#work=w-mingshi">《明史》</a></h3>
+      <p class="home-source-author"></p>
+      <p class="home-source-count"><span lang="zh-Hant" data-i18n="Source text not yet imported">正文尚未收錄</span></p>
+    </article></div>
+  </section><section class="home-source-group" id="home-sources-other">
+    <h2><span lang="zh-Hant" data-i18n="Epitaphs, genealogies and reference works">墓誌、譜系與參考文獻</span></h2>
+    <div class="home-source-grid"><article class="home-source-card" data-work="w-gujin-tongxingminglu">
+      <h3><a href="reader.html#work=w-gujin-tongxingminglu">《古今同姓名錄》</a></h3>
+      <p class="home-source-author">傳梁元帝撰、唐陸善經續、元葉森補（依WYG卷題，原本未校）</p>
+      <p class="home-source-count"><span lang="zh-Hant" data-i18n="{count} reading units" data-i18n-params="{&quot;count&quot;:2}">2 項原文／選錄</span></p>
+    </article><article class="home-source-card" data-work="w-epitaph-wangminzhi">
+      <h3><a href="reader.html#work=w-epitaph-wangminzhi">《王閩之墓誌》</a></h3>
+      <p class="home-source-author"></p>
+      <p class="home-source-count"><span lang="zh-Hant" data-i18n="{count} reading units" data-i18n-params="{&quot;count&quot;:1}">1 項原文／選錄</span></p>
+    </article><article class="home-source-card" data-work="w-epitaph-yangshu">
+      <h3><a href="reader.html#work=w-epitaph-yangshu">《楊舒墓誌》</a></h3>
+      <p class="home-source-author"></p>
+      <p class="home-source-count"><span lang="zh-Hant" data-i18n="{count} reading units" data-i18n-params="{&quot;count&quot;:1}">1 項原文／選錄</span></p>
+    </article><article class="home-source-card" data-work="w-epitaph-wangyi">
+      <h3><a href="reader.html#work=w-epitaph-wangyi">《王翊墓誌》</a></h3>
+      <p class="home-source-author"></p>
+      <p class="home-source-count"><span lang="zh-Hant" data-i18n="{count} reading units" data-i18n-params="{&quot;count&quot;:1}">1 項原文／選錄</span></p>
+    </article><article class="home-source-card" data-work="w-epitaph-wanglingyuan">
+      <h3><a href="reader.html#work=w-epitaph-wanglingyuan">《王令媛墓誌》</a></h3>
+      <p class="home-source-author"></p>
+      <p class="home-source-count"><span lang="zh-Hant" data-i18n="{count} reading units" data-i18n-params="{&quot;count&quot;:1}">1 項原文／選錄</span></p>
+    </article><article class="home-source-card" data-work="w-epitaph-yuanzhan">
+      <h3><a href="reader.html#work=w-epitaph-yuanzhan">《元湛墓誌》</a></h3>
+      <p class="home-source-author"></p>
+      <p class="home-source-count"><span lang="zh-Hant" data-i18n="{count} reading units" data-i18n-params="{&quot;count&quot;:1}">1 項原文／選錄</span></p>
+    </article><article class="home-source-card" data-work="w-cefu-yuangui">
+      <h3><a href="reader.html#work=w-cefu-yuangui">《冊府元龜》</a></h3>
+      <p class="home-source-author">王欽若等</p>
+      <p class="home-source-count"><span lang="zh-Hant" data-i18n="{count} reading units" data-i18n-params="{&quot;count&quot;:1}">1 項原文／選錄</span></p>
+    </article><article class="home-source-card" data-work="w-epitaph-cuihong">
+      <h3><a href="reader.html#work=w-epitaph-cuihong">《崔鴻墓誌》</a></h3>
+      <p class="home-source-author"></p>
+      <p class="home-source-count"><span lang="zh-Hant" data-i18n="{count} reading units" data-i18n-params="{&quot;count&quot;:1}">1 項原文／選錄</span></p>
+    </article><article class="home-source-card" data-work="w-epitaph-cuihun">
+      <h3><a href="reader.html#work=w-epitaph-cuihun">《崔混墓誌》</a></h3>
+      <p class="home-source-author"></p>
+      <p class="home-source-count"><span lang="zh-Hant" data-i18n="{count} reading units" data-i18n-params="{&quot;count&quot;:1}">1 項原文／選錄</span></p>
+    </article><article class="home-source-card" data-work="w-shishuoxinyu">
+      <h3><a href="reader.html#work=w-shishuoxinyu">《世說新語》</a></h3>
+      <p class="home-source-author">劉義慶編，劉孝標注</p>
+      <p class="home-source-count"><span lang="zh-Hant" data-i18n="{count} reading units" data-i18n-params="{&quot;count&quot;:76}">76 項原文／選錄</span></p>
+    </article><article class="home-source-card" data-work="w-taipingyulan">
+      <h3><a href="reader.html#work=w-taipingyulan">《太平御覽》</a></h3>
+      <p class="home-source-author">李昉等編</p>
+      <p class="home-source-count"><span lang="zh-Hant" data-i18n="{count} reading units" data-i18n-params="{&quot;count&quot;:14}">14 項原文／選錄</span></p>
+    </article><article class="home-source-card" data-work="w-zhengao">
+      <h3><a href="reader.html#work=w-zhengao">《真誥》</a></h3>
+      <p class="home-source-author">陶弘景編校</p>
+      <p class="home-source-count"><span lang="zh-Hant" data-i18n="{count} reading units" data-i18n-params="{&quot;count&quot;:1}">1 項原文／選錄</span></p>
+    </article><article class="home-source-card" data-work="w-wenxiantongkao">
+      <h3><a href="reader.html#work=w-wenxiantongkao">《文獻通考》</a></h3>
+      <p class="home-source-author">馬端臨</p>
+      <p class="home-source-count"><span lang="zh-Hant" data-i18n="{count} reading units" data-i18n-params="{&quot;count&quot;:3}">3 項原文／選錄</span></p>
+    </article><article class="home-source-card" data-work="w-shuduan">
+      <h3><a href="reader.html#work=w-shuduan">《書斷》</a></h3>
+      <p class="home-source-author">唐張懷瓘</p>
+      <p class="home-source-count"><span lang="zh-Hant" data-i18n="{count} reading units" data-i18n-params="{&quot;count&quot;:1}">1 項原文／選錄</span></p>
+    </article><article class="home-source-card" data-work="w-gaosengzhuan">
+      <h3><a href="reader.html#work=w-gaosengzhuan">《高僧傳》</a></h3>
+      <p class="home-source-author">梁慧皎</p>
+      <p class="home-source-count"><span lang="zh-Hant" data-i18n="{count} reading units" data-i18n-params="{&quot;count&quot;:1}">1 項原文／選錄</span></p>
+    </article><article class="home-source-card" data-work="w-taoyuanmingji">
+      <h3><a href="reader.html#work=w-taoyuanmingji">《陶淵明集》</a></h3>
+      <p class="home-source-author">陶淵明</p>
+      <p class="home-source-count"><span lang="zh-Hant" data-i18n="{count} reading units" data-i18n-params="{&quot;count&quot;:1}">1 項原文／選錄</span></p>
+    </article><article class="home-source-card" data-work="w-gujin-xingshi-shu-bianzheng">
+      <h3><a href="reader.html#work=w-gujin-xingshi-shu-bianzheng">《古今姓氏書辯證》</a></h3>
+      <p class="home-source-author">鄧名世</p>
+      <p class="home-source-count"><span lang="zh-Hant" data-i18n="{count} reading units" data-i18n-params="{&quot;count&quot;:2}">2 項原文／選錄</span></p>
+    </article><article class="home-source-card" data-work="w-epitaph-wenqiao">
+      <h3><a href="reader.html#work=w-epitaph-wenqiao">《溫嶠墓誌》</a></h3>
+      <p class="home-source-author"></p>
+      <p class="home-source-count"><span lang="zh-Hant" data-i18n="{count} reading units" data-i18n-params="{&quot;count&quot;:1}">1 項原文／選錄</span></p>
+    </article><article class="home-source-card" data-work="w-epitaph-wenshizhi">
+      <h3><a href="reader.html#work=w-epitaph-wenshizhi">《溫式之墓誌》</a></h3>
+      <p class="home-source-author"></p>
+      <p class="home-source-count"><span lang="zh-Hant" data-i18n="{count} reading units" data-i18n-params="{&quot;count&quot;:1}">1 項原文／選錄</span></p>
+    </article><article class="home-source-card" data-work="w-wenxuan">
+      <h3><a href="reader.html#work=w-wenxuan">《昭明文選》</a></h3>
+      <p class="home-source-author">蕭統編</p>
+      <p class="home-source-count"><span lang="zh-Hant" data-i18n="{count} reading units" data-i18n-params="{&quot;count&quot;:5}">5 項原文／選錄</span></p>
+    </article><article class="home-source-card" data-work="w-jiankang-shilu">
+      <h3><a href="reader.html#work=w-jiankang-shilu">《建康實錄》</a></h3>
+      <p class="home-source-author">許嵩</p>
+      <p class="home-source-count"><span lang="zh-Hant" data-i18n="{count} reading units" data-i18n-params="{&quot;count&quot;:3}">3 項原文／選錄</span></p>
+    </article><article class="home-source-card" data-work="w-epitaph-shixian">
+      <h3><a href="reader.html#work=w-epitaph-shixian">《晉城陽簡侯石尠墓誌》</a></h3>
+      <p class="home-source-author"></p>
+      <p class="home-source-count"><span lang="zh-Hant" data-i18n="{count} reading units" data-i18n-params="{&quot;count&quot;:1}">1 項原文／選錄</span></p>
+    </article><article class="home-source-card" data-work="w-epitaph-shiding">
+      <h3><a href="reader.html#work=w-epitaph-shiding">《處士石定墓誌》</a></h3>
+      <p class="home-source-author"></p>
+      <p class="home-source-count"><span lang="zh-Hant" data-i18n="{count} reading units" data-i18n-params="{&quot;count&quot;:1}">1 項原文／選錄</span></p>
+    </article><article class="home-source-card" data-work="w-epitaph-wangjianzhi">
+      <h3><a href="reader.html#work=w-epitaph-wangjianzhi">《王建之墓誌》</a></h3>
+      <p class="home-source-author"></p>
+      <p class="home-source-count"><span lang="zh-Hant" data-i18n="{count} reading units" data-i18n-params="{&quot;count&quot;:1}">1 項原文／選錄</span></p>
+    </article><article class="home-source-card" data-work="w-epitaph-liumeizi-stone">
+      <h3><a href="reader.html#work=w-epitaph-liumeizi-stone">《劉媚子石墓誌》</a></h3>
+      <p class="home-source-author"></p>
+      <p class="home-source-count"><span lang="zh-Hant" data-i18n="{count} reading units" data-i18n-params="{&quot;count&quot;:1}">1 項原文／選錄</span></p>
+    </article><article class="home-source-card" data-work="w-epitaph-liumeizi-brick">
+      <h3><a href="reader.html#work=w-epitaph-liumeizi-brick">《劉媚子磚墓誌》</a></h3>
+      <p class="home-source-author"></p>
+      <p class="home-source-count"><span lang="zh-Hant" data-i18n="{count} reading units" data-i18n-params="{&quot;count&quot;:1}">1 項原文／選錄</span></p>
+    </article></div>
+  </section>
+<!-- end published book catalogue --></div>
 </section>
 <section class="home-qing"><div><h2 data-i18n="Qing biographies">清代人物傳記</h2><p data-i18n="Browse ECCP biographies and linked Qing materials. This collection has its own biography catalog.">瀏覽《清代名人傳略》（ECCP）及相關清代史料，另有獨立傳記目錄。</p></div><a href="library.html" data-i18n="Browse all biographies">傳記目錄</a><a href="./#eccp-zeng-guofan">曾國藩</a></section>
 
