@@ -7,7 +7,8 @@
   "review": "ai_provisional",
   "names": [
     "東平王楙",
-    "楙"
+    "楙",
+    "東平王懋"
   ],
   "titles": [],
   "addresses": [],
@@ -99,6 +100,41 @@
       "chapter_id": "c-jinshu-059-prince-yue",
       "source_id": "s-jinshu-059-prince-yue-ws2650517",
       "work_title": "晉書"
+    },
+    {
+      "number": 62,
+      "category": "",
+      "title": "晉書卷六十二·劉琨",
+      "paragraph_id": "c-jinshu-062-liukun:p003",
+      "count": 1,
+      "raw_count": 1,
+      "duplicate_count": 0,
+      "counting_policy": "independent_fixed_witness_occurrences",
+      "quote": "於虓。及虓領冀州，遣琨詣幽州，乞師于王浚，得突騎八百人，與虓濟河，共破東平王懋於廩丘，南走劉喬，始得其父母。又斬石超，降呂朗，因統諸軍奉迎大駕于長安。以動封廣武侯，邑二千戸。",
+      "paragraph_ids": [
+        "c-jinshu-062-liukun:p003"
+      ],
+      "mention_ids": [
+        "c-jinshu-062-liukun:p003:m0130"
+      ],
+      "mention_paragraph_ids": {
+        "c-jinshu-062-liukun:p003:m0130": "c-jinshu-062-liukun:p003"
+      },
+      "mention_id": "c-jinshu-062-liukun:p003:m0130",
+      "occurrence_groups": [
+        {
+          "canonical_mention_id": "c-jinshu-062-liukun:p003:m0130",
+          "mention_ids": [
+            "c-jinshu-062-liukun:p003:m0130"
+          ],
+          "kind": "paragraph"
+        }
+      ],
+      "work_id": "w-jinshu",
+      "book_id": "b-jinshu-062",
+      "chapter_id": "c-jinshu-062-liukun",
+      "source_id": "s-jinshu-062-liukun-ws2629226",
+      "work_title": "晉書"
     }
   ],
   "table_occurrences": [],
@@ -152,6 +188,32 @@
         "raw_file_sha256": "a83fe708c8dffc5965863d337a19fd4e7222ae41e29aa99e1c2a11ed8030d1d3",
         "collation_witnesses": [
           "source-evidence/jin059-roll/volume-reading.json"
+        ]
+      }
+    },
+    {
+      "chapter_id": "c-jinshu-062-liukun",
+      "work_id": "w-jinshu",
+      "book_id": "b-jinshu-062",
+      "source_id": "s-jinshu-062-liukun-ws2629226",
+      "source": {
+        "title": "晉書卷六十二·劉琨",
+        "provider": "Wikisource",
+        "permalink": "https://zh.wikisource.org/w/index.php?oldid=2629226",
+        "url": "https://zh.wikisource.org/w/index.php?oldid=2629226",
+        "revision_id": 2629226,
+        "edition": "維基文庫固定修訂",
+        "accessed_on": "2026-11-22",
+        "review_status": "text_checked",
+        "image_verified": false,
+        "rights": "古代原文；數位轉錄依維基文庫授權。",
+        "license_url": "https://creativecommons.org/licenses/by-sa/4.0/",
+        "extent": "晉書卷六十二·劉琨",
+        "text_scope": "complete_biography_unit",
+        "raw_path": "source-evidence/jin062-roll/ws2629226.wikitext",
+        "raw_file_sha256": "cdb75f1a3d5f12219a75831e0c8c7cfc202c1edf76086c07267a40f7251f3a7b",
+        "collation_witnesses": [
+          "source-evidence/jin062-roll/volume-reading.json"
         ]
       }
     }

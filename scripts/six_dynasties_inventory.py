@@ -127,12 +127,29 @@ def source_paragraphs(lines, layout=None):
                 for line in lines]
     if layout == 'jinshu059_received_text':
         return source_paragraphs([line.replace("'''", '') for line in lines], 'jinshu056_received_text')
+    if layout == 'jinshu064_received_text':
+        # This revision includes a malformed reference tag and one alternate era argument.
+        return source_paragraphs([
+            re.sub(r'\{\{YL\|([^|{}]+)\|[^|{}]+\}\}', r'\1', line.replace('</ref ref>', '</ref>'))
+            for line in lines
+        ], 'jinshu059_received_text')
     if layout == 'jinshu060_received_text':
         return source_paragraphs([
             line.removeprefix(':　　{{blue|').removeprefix('{{quote|{{blue|')
                 .removeprefix(':').removesuffix('}}}}').replace("'''", '')
             for line in lines
         ], 'jinshu056_received_text')
+    if layout == 'jinshu062_received_text':
+        display_quote = re.compile(r'\{\{(?:blue|red)\|((?:[^{}]|\{\{[^{}]+\}\}|\{[^{}]+\})*)\}\}')
+        return source_paragraphs([
+            display_quote.sub(r'\1', line).removeprefix(':') for line in lines
+        ], 'jinshu056_received_text')
+    if layout == 'jinshu070_received_text':
+        return source_paragraphs([
+            re.sub(r'\{\{YL\|([^{}|]+)\}\}', r'\1',
+                   line.removeprefix('{{quote|').removeprefix('{{gap}}'))
+            for line in lines if line != '<br>'
+        ], 'jinshu062_received_text')
     if layout == 'wikisource_blockquote_colon':
         return [received_text(line.removeprefix(':')) for line in lines]
     if layout == 'liang021_split_issued_wangxi_death':

@@ -118,10 +118,71 @@
       "chapter_id": "c-sanguozhi-058-luxun",
       "source_id": "s-sanguozhi-058-luxun",
       "work_title": "三國志"
+    },
+    {
+      "number": 61,
+      "category": "",
+      "title": "晉書卷六十一·劉喬",
+      "paragraph_id": "c-jinshu-061-liuqiao:p001",
+      "count": 1,
+      "raw_count": 1,
+      "duplicate_count": 0,
+      "counting_policy": "independent_fixed_witness_occurrences",
+      "quote": "劉喬，字仲彥，南陽人也。其先漢宗室，封安眾侯，傳襲曆三代。祖廙，魏侍中。父阜，陳留相。喬少為秘書郎，建威將軍王戎引為參軍。伐吳之役，戎使喬與參軍羅尚濟江，破武昌，還授滎陽令，遷太子洗馬。以誅楊駿功，賜爵關中侯，拜尚書右丞。豫誅賈謐，封安眾男，累遷散騎常侍。",
+      "paragraph_ids": [
+        "c-jinshu-061-liuqiao:p001"
+      ],
+      "mention_ids": [
+        "c-jinshu-061-liuqiao:p001:m0030"
+      ],
+      "mention_paragraph_ids": {
+        "c-jinshu-061-liuqiao:p001:m0030": "c-jinshu-061-liuqiao:p001"
+      },
+      "mention_id": "c-jinshu-061-liuqiao:p001:m0030",
+      "occurrence_groups": [
+        {
+          "canonical_mention_id": "c-jinshu-061-liuqiao:p001:m0030",
+          "mention_ids": [
+            "c-jinshu-061-liuqiao:p001:m0030"
+          ],
+          "kind": "paragraph"
+        }
+      ],
+      "work_id": "w-jinshu",
+      "book_id": "b-jinshu-061",
+      "chapter_id": "c-jinshu-061-liuqiao",
+      "source_id": "s-jinshu-061-liuqiao-ws7903772",
+      "work_title": "晉書"
     }
   ],
   "table_occurrences": [],
   "sources": [
+    {
+      "chapter_id": "c-jinshu-061-liuqiao",
+      "work_id": "w-jinshu",
+      "book_id": "b-jinshu-061",
+      "source_id": "s-jinshu-061-liuqiao-ws7903772",
+      "source": {
+        "title": "晉書卷六十一·劉喬",
+        "provider": "Wikisource",
+        "permalink": "https://zh.wikisource.org/w/index.php?oldid=7903772",
+        "url": "https://zh.wikisource.org/w/index.php?oldid=7903772",
+        "revision_id": 7903772,
+        "edition": "維基文庫固定修訂",
+        "accessed_on": "2026-11-22",
+        "review_status": "text_checked",
+        "image_verified": false,
+        "rights": "古代原文；數位轉錄依維基文庫授權。",
+        "license_url": "https://creativecommons.org/licenses/by-sa/4.0/",
+        "extent": "晉書卷六十一·劉喬",
+        "text_scope": "complete_biography_unit",
+        "raw_path": "source-evidence/jin061-roll/ws7903772.wikitext",
+        "raw_file_sha256": "6e28403fc85f551b2aab898cac610180884ba0732a24a492f8ca514381b9978d",
+        "collation_witnesses": [
+          "source-evidence/jin061-roll/volume-reading.json"
+        ]
+      }
+    },
     {
       "chapter_id": "c-sanguozhi-022-chenqun-chentai",
       "work_id": "w-sanguozhi",
@@ -180,6 +241,32 @@
   ],
   "relations": [
     {
+      "id": "a-jin061-liuqiao-grandfather",
+      "subject_person_id": "7xd_7vq_fwl",
+      "object_person_id": "7i3_di7_l5h",
+      "predicate": "grandfather",
+      "qualifiers": {
+        "source_term": "祖廙"
+      },
+      "evidence": [
+        {
+          "work_id": "w-jinshu",
+          "book_id": "b-jinshu-061",
+          "chapter_id": "c-jinshu-061-liuqiao",
+          "source_id": "s-jinshu-061-liuqiao-ws7903772",
+          "paragraph_id": "c-jinshu-061-liuqiao:p001",
+          "quote": "劉喬，字仲彥，南陽人也。其先漢宗室，封安眾侯，傳襲曆三代。祖廙，魏侍中。父阜，陳留相。喬少為秘書郎，建威將軍王戎引為參軍。伐吳之役，戎使喬與參軍羅尚濟江，破武昌，還授滎陽令，遷太子洗馬。以誅楊駿功，賜爵關中侯，拜尚書右丞。豫誅賈謐，封安眾男，累遷散騎常侍。",
+          "subject_person_mention_id": "c-jinshu-061-liuqiao:p001:m0000",
+          "object_person_mention_id": "c-jinshu-061-liuqiao:p001:m0030"
+        }
+      ],
+      "status": "source_attested",
+      "interpretation_note": "本傳祖父。",
+      "reviewer": "Codex（AI代理）",
+      "model": null,
+      "human_reviewed": false
+    },
+    {
       "id": "a-sanguozhi022-chen-006",
       "subject_person_id": "rbe_p1f_4j5",
       "predicate": "brother",
@@ -224,6 +311,7 @@
   ],
   "related_people": {
     "7i3_di7_l5h": "劉廙",
+    "7xd_7vq_fwl": "劉喬〔王戎參軍〕",
     "rbe_p1f_4j5": "劉廙未名弟"
   },
   "dates": [],
@@ -232,6 +320,32 @@
     "7i3_di7_l5h"
   ],
   "preferred_relations": [
+    {
+      "id": "a-jin061-liuqiao-grandfather",
+      "subject_person_id": "7xd_7vq_fwl",
+      "object_person_id": "7i3_di7_l5h",
+      "predicate": "grandfather",
+      "qualifiers": {
+        "source_term": "祖廙"
+      },
+      "evidence": [
+        {
+          "work_id": "w-jinshu",
+          "book_id": "b-jinshu-061",
+          "chapter_id": "c-jinshu-061-liuqiao",
+          "source_id": "s-jinshu-061-liuqiao-ws7903772",
+          "paragraph_id": "c-jinshu-061-liuqiao:p001",
+          "quote": "劉喬，字仲彥，南陽人也。其先漢宗室，封安眾侯，傳襲曆三代。祖廙，魏侍中。父阜，陳留相。喬少為秘書郎，建威將軍王戎引為參軍。伐吳之役，戎使喬與參軍羅尚濟江，破武昌，還授滎陽令，遷太子洗馬。以誅楊駿功，賜爵關中侯，拜尚書右丞。豫誅賈謐，封安眾男，累遷散騎常侍。",
+          "subject_person_mention_id": "c-jinshu-061-liuqiao:p001:m0000",
+          "object_person_mention_id": "c-jinshu-061-liuqiao:p001:m0030"
+        }
+      ],
+      "status": "source_attested",
+      "interpretation_note": "本傳祖父。",
+      "reviewer": "Codex（AI代理）",
+      "model": null,
+      "human_reviewed": false
+    },
     {
       "id": "a-sanguozhi022-chen-006",
       "subject_person_id": "rbe_p1f_4j5",

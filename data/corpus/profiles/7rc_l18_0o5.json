@@ -1,0 +1,210 @@
+{
+  "schema_version": 1,
+  "id": "7rc_l18_0o5",
+  "canonical_person_id": "7rc_l18_0o5",
+  "label": "劉乂〔劉喬弟、始安太守〕",
+  "identity_note": "劉乂〔劉喬弟、始安太守〕，見本組原文及身份互校。",
+  "review": "ai_provisional",
+  "names": [
+    "乂"
+  ],
+  "titles": [],
+  "addresses": [],
+  "occurrences": [
+    {
+      "number": 61,
+      "category": "",
+      "title": "晉書卷六十一·劉柳",
+      "paragraph_id": "c-jinshu-061-liuliu:p001",
+      "count": 2,
+      "raw_count": 2,
+      "duplicate_count": 0,
+      "counting_policy": "independent_fixed_witness_occurrences",
+      "quote": "人重其言。出為徐、兗、江三州刺史。卒，贈右光祿大夫、開府儀同三司。喬弟乂，始安太守。乂子成，丹陽尹。",
+      "paragraph_ids": [
+        "c-jinshu-061-liuliu:p001"
+      ],
+      "mention_ids": [
+        "c-jinshu-061-liuliu:p001:m0111",
+        "c-jinshu-061-liuliu:p001:m0118"
+      ],
+      "mention_paragraph_ids": {
+        "c-jinshu-061-liuliu:p001:m0111": "c-jinshu-061-liuliu:p001",
+        "c-jinshu-061-liuliu:p001:m0118": "c-jinshu-061-liuliu:p001"
+      },
+      "mention_id": "c-jinshu-061-liuliu:p001:m0111",
+      "occurrence_groups": [
+        {
+          "canonical_mention_id": "c-jinshu-061-liuliu:p001:m0111",
+          "mention_ids": [
+            "c-jinshu-061-liuliu:p001:m0111"
+          ],
+          "kind": "paragraph"
+        },
+        {
+          "canonical_mention_id": "c-jinshu-061-liuliu:p001:m0118",
+          "mention_ids": [
+            "c-jinshu-061-liuliu:p001:m0118"
+          ],
+          "kind": "paragraph"
+        }
+      ],
+      "work_id": "w-jinshu",
+      "book_id": "b-jinshu-061",
+      "chapter_id": "c-jinshu-061-liuliu",
+      "source_id": "s-jinshu-061-liuliu-ws7903772",
+      "work_title": "晉書"
+    }
+  ],
+  "table_occurrences": [],
+  "sources": [
+    {
+      "chapter_id": "c-jinshu-061-liuliu",
+      "work_id": "w-jinshu",
+      "book_id": "b-jinshu-061",
+      "source_id": "s-jinshu-061-liuliu-ws7903772",
+      "source": {
+        "title": "晉書卷六十一·劉柳",
+        "provider": "Wikisource",
+        "permalink": "https://zh.wikisource.org/w/index.php?oldid=7903772",
+        "url": "https://zh.wikisource.org/w/index.php?oldid=7903772",
+        "revision_id": 7903772,
+        "edition": "維基文庫固定修訂",
+        "accessed_on": "2026-11-22",
+        "review_status": "text_checked",
+        "image_verified": false,
+        "rights": "古代原文；數位轉錄依維基文庫授權。",
+        "license_url": "https://creativecommons.org/licenses/by-sa/4.0/",
+        "extent": "晉書卷六十一·劉柳",
+        "text_scope": "complete_biography_unit",
+        "raw_path": "source-evidence/jin061-roll/ws7903772.wikitext",
+        "raw_file_sha256": "6e28403fc85f551b2aab898cac610180884ba0732a24a492f8ca514381b9978d",
+        "collation_witnesses": [
+          "source-evidence/jin061-roll/volume-reading.json"
+        ]
+      }
+    }
+  ],
+  "relations": [
+    {
+      "id": "a-jin061-liuyi-brother",
+      "subject_person_id": "7rc_l18_0o5",
+      "object_person_id": "7xd_7vq_fwl",
+      "predicate": "brother",
+      "qualifiers": {
+        "source_term": "喬弟乂"
+      },
+      "evidence": [
+        {
+          "work_id": "w-jinshu",
+          "book_id": "b-jinshu-061",
+          "chapter_id": "c-jinshu-061-liuliu",
+          "source_id": "s-jinshu-061-liuliu-ws7903772",
+          "paragraph_id": "c-jinshu-061-liuliu:p001",
+          "quote": "柳字叔惠，亦有名譽。少登清官，曆尚書左右僕射。時右丞傅迪好廣讀書而不解其義，柳唯讀《老子》而已，迪每輕之。柳云：「卿讀書雖多，而無所解，可謂書簏矣。」時人重其言。出為徐、兗、江三州刺史。卒，贈右光祿大夫、開府儀同三司。喬弟乂，始安太守。乂子成，丹陽尹。",
+          "subject_person_mention_id": "c-jinshu-061-liuliu:p001:m0111",
+          "object_person_mention_id": "c-jinshu-061-liuliu:p001:m0109"
+        }
+      ],
+      "status": "source_attested",
+      "interpretation_note": "劉喬弟乂。",
+      "reviewer": "Codex（AI代理）",
+      "model": null,
+      "human_reviewed": false
+    },
+    {
+      "id": "a-jin061-liucheng-father",
+      "subject_person_id": "4i9_dy0_wqw",
+      "object_person_id": "7rc_l18_0o5",
+      "predicate": "father",
+      "qualifiers": {
+        "source_term": "乂子成"
+      },
+      "evidence": [
+        {
+          "work_id": "w-jinshu",
+          "book_id": "b-jinshu-061",
+          "chapter_id": "c-jinshu-061-liuliu",
+          "source_id": "s-jinshu-061-liuliu-ws7903772",
+          "paragraph_id": "c-jinshu-061-liuliu:p001",
+          "quote": "柳字叔惠，亦有名譽。少登清官，曆尚書左右僕射。時右丞傅迪好廣讀書而不解其義，柳唯讀《老子》而已，迪每輕之。柳云：「卿讀書雖多，而無所解，可謂書簏矣。」時人重其言。出為徐、兗、江三州刺史。卒，贈右光祿大夫、開府儀同三司。喬弟乂，始安太守。乂子成，丹陽尹。",
+          "subject_person_mention_id": "c-jinshu-061-liuliu:p001:m0120",
+          "object_person_mention_id": "c-jinshu-061-liuliu:p001:m0111"
+        }
+      ],
+      "status": "source_attested",
+      "interpretation_note": "乂子成。",
+      "reviewer": "Codex（AI代理）",
+      "model": null,
+      "human_reviewed": false
+    }
+  ],
+  "related_people": {
+    "4i9_dy0_wqw": "劉成",
+    "7rc_l18_0o5": "劉乂〔劉喬弟、始安太守〕",
+    "7xd_7vq_fwl": "劉喬〔王戎參軍〕"
+  },
+  "dates": [],
+  "name_components": [],
+  "person_ids": [
+    "7rc_l18_0o5"
+  ],
+  "preferred_relations": [
+    {
+      "id": "a-jin061-liuyi-brother",
+      "subject_person_id": "7rc_l18_0o5",
+      "object_person_id": "7xd_7vq_fwl",
+      "predicate": "brother",
+      "qualifiers": {
+        "source_term": "喬弟乂"
+      },
+      "evidence": [
+        {
+          "work_id": "w-jinshu",
+          "book_id": "b-jinshu-061",
+          "chapter_id": "c-jinshu-061-liuliu",
+          "source_id": "s-jinshu-061-liuliu-ws7903772",
+          "paragraph_id": "c-jinshu-061-liuliu:p001",
+          "quote": "柳字叔惠，亦有名譽。少登清官，曆尚書左右僕射。時右丞傅迪好廣讀書而不解其義，柳唯讀《老子》而已，迪每輕之。柳云：「卿讀書雖多，而無所解，可謂書簏矣。」時人重其言。出為徐、兗、江三州刺史。卒，贈右光祿大夫、開府儀同三司。喬弟乂，始安太守。乂子成，丹陽尹。",
+          "subject_person_mention_id": "c-jinshu-061-liuliu:p001:m0111",
+          "object_person_mention_id": "c-jinshu-061-liuliu:p001:m0109"
+        }
+      ],
+      "status": "source_attested",
+      "interpretation_note": "劉喬弟乂。",
+      "reviewer": "Codex（AI代理）",
+      "model": null,
+      "human_reviewed": false
+    },
+    {
+      "id": "a-jin061-liucheng-father",
+      "subject_person_id": "4i9_dy0_wqw",
+      "object_person_id": "7rc_l18_0o5",
+      "predicate": "father",
+      "qualifiers": {
+        "source_term": "乂子成"
+      },
+      "evidence": [
+        {
+          "work_id": "w-jinshu",
+          "book_id": "b-jinshu-061",
+          "chapter_id": "c-jinshu-061-liuliu",
+          "source_id": "s-jinshu-061-liuliu-ws7903772",
+          "paragraph_id": "c-jinshu-061-liuliu:p001",
+          "quote": "柳字叔惠，亦有名譽。少登清官，曆尚書左右僕射。時右丞傅迪好廣讀書而不解其義，柳唯讀《老子》而已，迪每輕之。柳云：「卿讀書雖多，而無所解，可謂書簏矣。」時人重其言。出為徐、兗、江三州刺史。卒，贈右光祿大夫、開府儀同三司。喬弟乂，始安太守。乂子成，丹陽尹。",
+          "subject_person_mention_id": "c-jinshu-061-liuliu:p001:m0120",
+          "object_person_mention_id": "c-jinshu-061-liuliu:p001:m0111"
+        }
+      ],
+      "status": "source_attested",
+      "interpretation_note": "乂子成。",
+      "reviewer": "Codex（AI代理）",
+      "model": null,
+      "human_reviewed": false
+    }
+  ],
+  "age_assertions": [],
+  "life_events": [],
+  "life_event_date_decisions": [],
+  "selected_life_event_dates": []
+}

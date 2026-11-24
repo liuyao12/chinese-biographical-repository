@@ -112,6 +112,51 @@
     {
       "number": 69,
       "category": "",
+      "title": "晉書卷六十九·戴邈",
+      "paragraph_id": "c-jinshu-069-daimiao:p001",
+      "count": 2,
+      "raw_count": 2,
+      "duplicate_count": 0,
+      "counting_policy": "independent_fixed_witness_occurrences",
+      "quote": "邈字望之。少好學，尤精《史》《漢》，才不逮若思，儒博過之。弱冠舉秀才，尋遷太子洗馬，出補西陽內史。永嘉中，元帝版行邵陵內史、丞相軍諮祭酒，出為征南軍司。于時凡百草創，學校未立，邈上疏曰：",
+      "paragraph_ids": [
+        "c-jinshu-069-daimiao:p001",
+        "c-jinshu-069-daimiao:p007"
+      ],
+      "mention_ids": [
+        "c-jinshu-069-daimiao:p001:m0000",
+        "c-jinshu-069-daimiao:p007:m0029"
+      ],
+      "mention_paragraph_ids": {
+        "c-jinshu-069-daimiao:p001:m0000": "c-jinshu-069-daimiao:p001",
+        "c-jinshu-069-daimiao:p007:m0029": "c-jinshu-069-daimiao:p007"
+      },
+      "mention_id": "c-jinshu-069-daimiao:p001:m0000",
+      "occurrence_groups": [
+        {
+          "canonical_mention_id": "c-jinshu-069-daimiao:p001:m0000",
+          "mention_ids": [
+            "c-jinshu-069-daimiao:p001:m0000"
+          ],
+          "kind": "paragraph"
+        },
+        {
+          "canonical_mention_id": "c-jinshu-069-daimiao:p007:m0029",
+          "mention_ids": [
+            "c-jinshu-069-daimiao:p007:m0029"
+          ],
+          "kind": "paragraph"
+        }
+      ],
+      "work_id": "w-jinshu",
+      "book_id": "b-jinshu-069",
+      "chapter_id": "c-jinshu-069-daimiao",
+      "source_id": "s-jinshu-069-daimiao-ws2012453",
+      "work_title": "晉書"
+    },
+    {
+      "number": 69,
+      "category": "",
       "title": "周顗及附子閔",
       "paragraph_id": "c-jinshu-069-zhouyi:p002",
       "count": 1,
@@ -196,6 +241,32 @@
           "omitted_digital_paratext": []
         },
         "extent": "周浚及嵩、謨、馥完整選定單元；固定見證25段4069字，止於成公簡前，不是卷六十一全卷。"
+      }
+    },
+    {
+      "chapter_id": "c-jinshu-069-daimiao",
+      "work_id": "w-jinshu",
+      "book_id": "b-jinshu-069",
+      "source_id": "s-jinshu-069-daimiao-ws2012453",
+      "source": {
+        "title": "晉書卷六十九·戴邈",
+        "provider": "Wikisource",
+        "permalink": "https://zh.wikisource.org/w/index.php?oldid=2012453",
+        "url": "https://zh.wikisource.org/w/index.php?oldid=2012453",
+        "revision_id": 2012453,
+        "edition": "維基文庫固定修訂",
+        "accessed_on": "2026-11-22",
+        "review_status": "text_checked",
+        "image_verified": false,
+        "rights": "古代原文；數位轉錄依維基文庫授權。",
+        "license_url": "https://creativecommons.org/licenses/by-sa/4.0/",
+        "extent": "晉書卷六十九·戴邈",
+        "text_scope": "complete_biography_unit",
+        "raw_path": "source-evidence/jin069-roll/ws2012453.wikitext",
+        "raw_file_sha256": "c1e20b58e336495080becb68c3823ada28de1d6cfd202a74c22e053615cc9adf",
+        "collation_witnesses": [
+          "source-evidence/jin069-roll/volume-reading.json"
+        ]
       }
     },
     {
@@ -344,7 +415,12 @@
               "end_anchor": "恬、頤並歷卿守。琳少子文，驃騎諮議參軍。"
             }
           ]
-        }
+        },
+        "raw_path": "source-evidence/jin069-roll/ws2012453.wikitext",
+        "raw_file_sha256": "c1e20b58e336495080becb68c3823ada28de1d6cfd202a74c22e053615cc9adf",
+        "collation_witnesses": [
+          "source-evidence/jin069-roll/volume-reading.json"
+        ]
       }
     }
   ],
@@ -397,6 +473,34 @@
       "relative_person_id": "qg9_lis_fdj",
       "chapter_id": "c-jinshu-052-hua-tan",
       "source_id": "s-jinshu-052-hua-tan-ws2604575"
+    },
+    {
+      "id": "c-jinshu-069-daimiao:kinship1-18",
+      "kind": "kinship",
+      "person_id": "qxw_ax7_qew",
+      "source_quote": "才不逮若思，儒博過之",
+      "reading": "附傳原題「弟 邈」，所承戴若思。",
+      "note": "附傳原題「弟 邈」，所承戴若思。",
+      "paragraph_id": "c-jinshu-069-daimiao:p001",
+      "start_codepoint": 18,
+      "end_codepoint": 28,
+      "human_reviewed": false,
+      "chapter_id": "c-jinshu-069-daimiao",
+      "source_id": "s-jinshu-069-daimiao-ws2012453"
+    },
+    {
+      "id": "c-jinshu-069-daimiao:textual_variant2-43",
+      "kind": "textual_variant",
+      "person_id": "qxw_ax7_qew",
+      "source_quote": "庠序[1111]校",
+      "reading": "固定數位本作庠序[1111]校，武英殿轉錄作庠序、黌校。",
+      "note": "固定數位本作庠序[1111]校，武英殿轉錄作庠序、黌校。",
+      "paragraph_id": "c-jinshu-069-daimiao:p002",
+      "start_codepoint": 43,
+      "end_codepoint": 52,
+      "human_reviewed": false,
+      "chapter_id": "c-jinshu-069-daimiao",
+      "source_id": "s-jinshu-069-daimiao-ws2012453"
     }
   ],
   "person_ids": [
@@ -431,7 +535,37 @@
     }
   ],
   "age_assertions": [],
-  "life_events": [],
+  "life_events": [
+    {
+      "id": "le-jin069-daimiao",
+      "person_id": "qxw_ax7_qew",
+      "event_type": "death",
+      "source_term": "卒官",
+      "source_anchor": {
+        "paragraph_id": "c-jinshu-069-daimiao:p007",
+        "start": 44,
+        "end": 46,
+        "surface": "卒官"
+      },
+      "date_expression": null,
+      "evidence": [
+        {
+          "work_id": "w-jinshu",
+          "book_id": "b-jinshu-069",
+          "chapter_id": "c-jinshu-069-daimiao",
+          "source_id": "s-jinshu-069-daimiao-ws2012453",
+          "paragraph_id": "c-jinshu-069-daimiao:p007",
+          "quote": "代劉隗為丹陽尹。王敦作逆，加左將軍。及敦得志，而若思遇害，邈坐免官。敦誅後，拜尚書僕射。卒官，贈衛將軍，諡曰穆。子謐嗣，歷義興太守、大司農。",
+          "person_mention_id": "c-jinshu-069-daimiao:p007:m0029"
+        }
+      ],
+      "status": "source_attested",
+      "interpretation_note": "按同段人物與次第核所屬卒事。",
+      "reviewer": "Codex（AI代理）",
+      "model": null,
+      "human_reviewed": false
+    }
+  ],
   "life_event_date_decisions": [],
   "selected_life_event_dates": []
 }
