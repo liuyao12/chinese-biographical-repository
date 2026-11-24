@@ -21,8 +21,8 @@
 
 | ID 尾碼 | 人物 | 最多提及來源 | JSON |
 |---|---|---|---|
-| `根` | 宇文述（宇文化及父） | [《隋書・列傳第50 序言 宇文化及 王充》][1559] | [JSON](zyu_yrx_2pz.json) |
-| `A` | 宇文化及（宇文述子） | [《陳書・皇后》][29]、[《隋書・列傳第50 序言 宇文化及 王充》][1559] | [JSON](zyu_yrx_2pz_A.json) |
+| `根` | 宇文述（宇文化及父） | [《隋書・列傳第50 序言 宇文化及 王充》][1562] | [JSON](zyu_yrx_2pz.json) |
+| `A` | 宇文化及（宇文述子） | [《陳書・皇后》][29]、[《隋書・列傳第50 序言 宇文化及 王充》][1562] | [JSON](zyu_yrx_2pz_A.json) |
 
 </details>
 
@@ -43,4 +43,4 @@
 [29]: https://zh.wikisource.org/w/index.php?oldid=2015446
 [431]: https://zh.wikisource.org/w/index.php?oldid=1511902
 [432]: https://zh.wikisource.org/w/index.php?oldid=1511902
-[1559]: https://zh.wikisource.org/w/index.php?oldid=2180348
+[1562]: https://zh.wikisource.org/w/index.php?oldid=2180348

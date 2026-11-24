@@ -13,6 +13,13 @@ def decode_line(line, offset=0):
     annotations = []
     cursor = int(line.startswith(':　　'))
     while cursor < len(line):
+        if line.startswith('-{云}-', cursor):
+            text.append('云')
+            spans.append([offset + cursor + 2, offset + cursor + 3])
+            annotations.append(dict(kind='數位字形轉換標記', raw_start=offset + cursor,
+                                    raw_end=offset + cursor + 5, source='云'))
+            cursor += 5
+            continue
         if line.startswith("'''", cursor):
             annotations.append(dict(kind='數位粗體標記', raw_start=offset + cursor,
                                     raw_end=offset + cursor + 3, source="'''"))

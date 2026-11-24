@@ -8,7 +8,8 @@
   "names": [
     "宗少文",
     "少文",
-    "吾"
+    "吾",
+    "炳"
   ],
   "titles": [],
   "addresses": [],
@@ -109,10 +110,90 @@
       "chapter_id": "c-songshu-046-zhangshao",
       "source_id": "s-songshu-046-zhangshao",
       "work_title": "宋書"
+    },
+    {
+      "number": 54,
+      "category": "",
+      "title": "南齊書卷五十四·褚伯玉、顧歡等高逸列傳",
+      "paragraph_id": "c-nanqishu-054-recluses-complete:p055",
+      "count": 3,
+      "raw_count": 3,
+      "duplicate_count": 0,
+      "counting_policy": "independent_fixed_witness_occurrences",
+      "quote": "　　宗測字敬微，南陽人，宋徵士炳孫也。世居江陵。測少靜退，不樂人間。歎曰：「家貧親老，不擇官而仕，先哲以爲美談，余竊有惑。誠不能潛感地金，冥致江鯉，但當用天道，分地利。孰能食人厚祿，憂人重事乎？」",
+      "paragraph_ids": [
+        "c-nanqishu-054-recluses-complete:p055",
+        "c-nanqishu-054-recluses-complete:p057"
+      ],
+      "mention_ids": [
+        "c-nanqishu-054-recluses-complete:p055:m0015",
+        "c-nanqishu-054-recluses-complete:p057:m0010",
+        "c-nanqishu-054-recluses-complete:p057:m0106"
+      ],
+      "mention_paragraph_ids": {
+        "c-nanqishu-054-recluses-complete:p055:m0015": "c-nanqishu-054-recluses-complete:p055",
+        "c-nanqishu-054-recluses-complete:p057:m0010": "c-nanqishu-054-recluses-complete:p057",
+        "c-nanqishu-054-recluses-complete:p057:m0106": "c-nanqishu-054-recluses-complete:p057"
+      },
+      "mention_id": "c-nanqishu-054-recluses-complete:p055:m0015",
+      "occurrence_groups": [
+        {
+          "canonical_mention_id": "c-nanqishu-054-recluses-complete:p055:m0015",
+          "mention_ids": [
+            "c-nanqishu-054-recluses-complete:p055:m0015"
+          ],
+          "kind": "paragraph"
+        },
+        {
+          "canonical_mention_id": "c-nanqishu-054-recluses-complete:p057:m0010",
+          "mention_ids": [
+            "c-nanqishu-054-recluses-complete:p057:m0010"
+          ],
+          "kind": "paragraph"
+        },
+        {
+          "canonical_mention_id": "c-nanqishu-054-recluses-complete:p057:m0106",
+          "mention_ids": [
+            "c-nanqishu-054-recluses-complete:p057:m0106"
+          ],
+          "kind": "paragraph"
+        }
+      ],
+      "work_id": "w-nanqishu",
+      "book_id": "b-nanqishu-054",
+      "chapter_id": "c-nanqishu-054-recluses-complete",
+      "source_id": "s-nanqishu-054-recluses-complete-ws1762878",
+      "work_title": "南齊書"
     }
   ],
   "table_occurrences": [],
   "sources": [
+    {
+      "chapter_id": "c-nanqishu-054-recluses-complete",
+      "work_id": "w-nanqishu",
+      "book_id": "b-nanqishu-054",
+      "source_id": "s-nanqishu-054-recluses-complete-ws1762878",
+      "source": {
+        "title": "南齊書卷五十四·褚伯玉、顧歡等高逸列傳",
+        "provider": "Wikisource",
+        "permalink": "https://zh.wikisource.org/w/index.php?oldid=1762878",
+        "url": "https://zh.wikisource.org/w/index.php?oldid=1762878",
+        "revision_id": 1762878,
+        "edition": "維基文庫固定修訂",
+        "accessed_on": "2026-11-21",
+        "review_status": "text_checked",
+        "image_verified": false,
+        "rights": "古代原文；數位轉錄依維基文庫授權。",
+        "license_url": "https://creativecommons.org/licenses/by-sa/4.0/",
+        "extent": "南齊書卷五十四·褚伯玉、顧歡等高逸列傳",
+        "text_scope": "complete_biography_unit",
+        "raw_path": "source-evidence/liang027-complete/external/nanqi054-ws1762878.wikitext",
+        "raw_file_sha256": "acdda954790fed4481bbfb7d99611d07a4531f390d67c5daa291fb68f6c9a976",
+        "collation_witnesses": [
+          "source-evidence/nanqi054-roll/recluses-reading.json"
+        ]
+      }
+    },
     {
       "chapter_id": "c-songshu-046-zhangfu-complete",
       "work_id": "w-songshu",
@@ -165,9 +246,38 @@
       }
     }
   ],
-  "relations": [],
+  "relations": [
+    {
+      "id": "a-qi054-zongce-grandfather",
+      "subject_person_id": "ou7_kzk_fb6",
+      "object_person_id": "nwk_pqi_g48",
+      "predicate": "grandfather",
+      "qualifiers": {
+        "source_term": "宋徵士炳孫也",
+        "lineage": "paternal"
+      },
+      "evidence": [
+        {
+          "work_id": "w-nanqishu",
+          "book_id": "b-nanqishu-054",
+          "chapter_id": "c-nanqishu-054-recluses-complete",
+          "source_id": "s-nanqishu-054-recluses-complete-ws1762878",
+          "paragraph_id": "c-nanqishu-054-recluses-complete:p055",
+          "quote": "　　宗測字敬微，南陽人，宋徵士炳孫也。世居江陵。測少靜退，不樂人間。歎曰：「家貧親老，不擇官而仕，先哲以爲美談，余竊有惑。誠不能潛感地金，冥致江鯉，但當用天道，分地利。孰能食人厚祿，憂人重事乎？」",
+          "subject_person_mention_id": "c-nanqishu-054-recluses-complete:p055:m0002",
+          "object_person_mention_id": "c-nanqishu-054-recluses-complete:p055:m0015"
+        }
+      ],
+      "status": "source_attested",
+      "interpretation_note": "後文又稱祖炳及舊宅。",
+      "reviewer": "Codex（AI代理）",
+      "model": null,
+      "human_reviewed": false
+    }
+  ],
   "related_people": {
-    "nwk_pqi_g48": "宗炳〔字少文〕"
+    "nwk_pqi_g48": "宗炳〔字少文〕",
+    "ou7_kzk_fb6": "宗測（字敬微）"
   },
   "dates": [],
   "name_components": [],
@@ -191,7 +301,35 @@
   "person_ids": [
     "nwk_pqi_g48"
   ],
-  "preferred_relations": [],
+  "preferred_relations": [
+    {
+      "id": "a-qi054-zongce-grandfather",
+      "subject_person_id": "ou7_kzk_fb6",
+      "object_person_id": "nwk_pqi_g48",
+      "predicate": "grandfather",
+      "qualifiers": {
+        "source_term": "宋徵士炳孫也",
+        "lineage": "paternal"
+      },
+      "evidence": [
+        {
+          "work_id": "w-nanqishu",
+          "book_id": "b-nanqishu-054",
+          "chapter_id": "c-nanqishu-054-recluses-complete",
+          "source_id": "s-nanqishu-054-recluses-complete-ws1762878",
+          "paragraph_id": "c-nanqishu-054-recluses-complete:p055",
+          "quote": "　　宗測字敬微，南陽人，宋徵士炳孫也。世居江陵。測少靜退，不樂人間。歎曰：「家貧親老，不擇官而仕，先哲以爲美談，余竊有惑。誠不能潛感地金，冥致江鯉，但當用天道，分地利。孰能食人厚祿，憂人重事乎？」",
+          "subject_person_mention_id": "c-nanqishu-054-recluses-complete:p055:m0002",
+          "object_person_mention_id": "c-nanqishu-054-recluses-complete:p055:m0015"
+        }
+      ],
+      "status": "source_attested",
+      "interpretation_note": "後文又稱祖炳及舊宅。",
+      "reviewer": "Codex（AI代理）",
+      "model": null,
+      "human_reviewed": false
+    }
+  ],
   "age_assertions": [],
   "life_events": [],
   "life_event_date_decisions": [],
