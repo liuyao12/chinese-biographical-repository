@@ -8,7 +8,8 @@
   "names": [
     "子珉",
     "雲璵",
-    "子瑉"
+    "子瑉",
+    "永陽王子珉"
   ],
   "titles": [
     {
@@ -225,6 +226,60 @@
     {
       "number": 45,
       "category": "",
+      "title": "南齊書卷四十五·衡陽元王蕭道度、蕭鈞與蕭子珉",
+      "paragraph_id": "c-nanqishu-045-daodu-complete:p003",
+      "count": 3,
+      "raw_count": 3,
+      "duplicate_count": 0,
+      "counting_policy": "independent_fixed_witness_occurrences",
+      "quote": "　　明帝卽位，以永陽王子珉仍本國，繼元王爲孫。",
+      "paragraph_ids": [
+        "c-nanqishu-045-daodu-complete:p003",
+        "c-nanqishu-045-daodu-complete:p004"
+      ],
+      "mention_ids": [
+        "c-nanqishu-045-daodu-complete:p003:m0008",
+        "c-nanqishu-045-daodu-complete:p004:m0002",
+        "c-nanqishu-045-daodu-complete:p004:m0005"
+      ],
+      "mention_paragraph_ids": {
+        "c-nanqishu-045-daodu-complete:p003:m0008": "c-nanqishu-045-daodu-complete:p003",
+        "c-nanqishu-045-daodu-complete:p004:m0002": "c-nanqishu-045-daodu-complete:p004",
+        "c-nanqishu-045-daodu-complete:p004:m0005": "c-nanqishu-045-daodu-complete:p004"
+      },
+      "mention_id": "c-nanqishu-045-daodu-complete:p003:m0008",
+      "occurrence_groups": [
+        {
+          "canonical_mention_id": "c-nanqishu-045-daodu-complete:p003:m0008",
+          "mention_ids": [
+            "c-nanqishu-045-daodu-complete:p003:m0008"
+          ],
+          "kind": "paragraph"
+        },
+        {
+          "canonical_mention_id": "c-nanqishu-045-daodu-complete:p004:m0002",
+          "mention_ids": [
+            "c-nanqishu-045-daodu-complete:p004:m0002"
+          ],
+          "kind": "paragraph"
+        },
+        {
+          "canonical_mention_id": "c-nanqishu-045-daodu-complete:p004:m0005",
+          "mention_ids": [
+            "c-nanqishu-045-daodu-complete:p004:m0005"
+          ],
+          "kind": "paragraph"
+        }
+      ],
+      "work_id": "w-nanqishu",
+      "book_id": "b-nanqishu-045",
+      "chapter_id": "c-nanqishu-045-daodu-complete",
+      "source_id": "s-nanqishu-045-daodu-complete-ws2273185",
+      "work_title": "南齊書"
+    },
+    {
+      "number": 45,
+      "category": "",
       "title": "永陽王子珉本生及所繼世次",
       "paragraph_id": "c-nanqishu-045-lastprinces-min:p001",
       "count": 3,
@@ -396,6 +451,32 @@
           "extraction_note": "投影相應原句，保留字形；移除年號模板定界符。"
         },
         "section_locator": "武帝二十三男（卷首）"
+      }
+    },
+    {
+      "chapter_id": "c-nanqishu-045-daodu-complete",
+      "work_id": "w-nanqishu",
+      "book_id": "b-nanqishu-045",
+      "source_id": "s-nanqishu-045-daodu-complete-ws2273185",
+      "source": {
+        "title": "南齊書卷四十五·衡陽元王蕭道度、蕭鈞與蕭子珉",
+        "provider": "Wikisource",
+        "permalink": "https://zh.wikisource.org/w/index.php?oldid=2273185",
+        "url": "https://zh.wikisource.org/w/index.php?oldid=2273185",
+        "revision_id": 2273185,
+        "edition": "維基文庫固定修訂",
+        "accessed_on": "2026-11-21",
+        "review_status": "text_checked",
+        "image_verified": false,
+        "rights": "古代原文；數位轉錄依維基文庫授權。",
+        "license_url": "https://creativecommons.org/licenses/by-sa/4.0/",
+        "extent": "南齊書卷四十五·衡陽元王蕭道度、蕭鈞與蕭子珉",
+        "text_scope": "complete_biography_unit",
+        "raw_path": "source-evidence/nanshi019-xietiao/nanqishu045-ws2273185.wikitext",
+        "raw_file_sha256": "9a66e3bb75c98eacffcdaaf3d866e679b06966574e4f5915630697024b9c0a1b",
+        "collation_witnesses": [
+          "source-evidence/nanqi045-roll/daodu-reading.json"
+        ]
       }
     },
     {
@@ -585,6 +666,33 @@
       "model": null
     },
     {
+      "id": "a-qi045-xiaozimin-natural-father",
+      "subject_person_id": "kix_r92_2ed_N",
+      "object_person_id": "kix_r92_2ed",
+      "predicate": "father",
+      "qualifiers": {
+        "source_term": "世祖第二十子",
+        "lineage": "paternal"
+      },
+      "evidence": [
+        {
+          "work_id": "w-nanqishu",
+          "book_id": "b-nanqishu-045",
+          "chapter_id": "c-nanqishu-045-daodu-complete",
+          "source_id": "s-nanqishu-045-daodu-complete-ws2273185",
+          "paragraph_id": "c-nanqishu-045-daodu-complete:p004",
+          "quote": "　　子珉字雲璵，世祖第二十子也。永明七年，封義安王，後改永陽。永泰元年見害，年十四。復以武陵昭王曄第三子子坦奉元王後。",
+          "subject_person_mention_id": "c-nanqishu-045-daodu-complete:p004:m0002",
+          "object_person_mention_id": "c-nanqishu-045-daodu-complete:p004:m0008"
+        }
+      ],
+      "status": "source_attested",
+      "interpretation_note": "世祖蕭賾。",
+      "reviewer": "Codex（AI代理）",
+      "model": null,
+      "human_reviewed": false
+    },
+    {
       "id": "a-nanqi040-lastprinces-min-father",
       "subject_person_id": "kix_r92_2ed_N",
       "object_person_id": "kix_r92_2ed",
@@ -683,6 +791,22 @@
       "work_id": "w-nanqishu",
       "book_id": "b-nanqishu-045",
       "source_id": "s-nanqishu-045-lastprinces-min-ws2273185"
+    }
+  ],
+  "source_reading_cases": [
+    {
+      "id": "c-nanqishu-045-daodu-complete:source_review3-17",
+      "kind": "source_review",
+      "person_id": "kix_r92_2ed_N",
+      "source_quote": "繼元王爲孫",
+      "reading": "奉祀關係以原文所載世次保存。",
+      "note": "奉祀關係以原文所載世次保存。",
+      "paragraph_id": "c-nanqishu-045-daodu-complete:p003",
+      "start_codepoint": 17,
+      "end_codepoint": 22,
+      "human_reviewed": false,
+      "chapter_id": "c-nanqishu-045-daodu-complete",
+      "source_id": "s-nanqishu-045-daodu-complete-ws2273185"
     }
   ],
   "person_ids": [
@@ -790,6 +914,33 @@
       "model": null
     },
     {
+      "id": "a-qi045-xiaozimin-natural-father",
+      "subject_person_id": "kix_r92_2ed_N",
+      "object_person_id": "kix_r92_2ed",
+      "predicate": "father",
+      "qualifiers": {
+        "source_term": "世祖第二十子",
+        "lineage": "paternal"
+      },
+      "evidence": [
+        {
+          "work_id": "w-nanqishu",
+          "book_id": "b-nanqishu-045",
+          "chapter_id": "c-nanqishu-045-daodu-complete",
+          "source_id": "s-nanqishu-045-daodu-complete-ws2273185",
+          "paragraph_id": "c-nanqishu-045-daodu-complete:p004",
+          "quote": "　　子珉字雲璵，世祖第二十子也。永明七年，封義安王，後改永陽。永泰元年見害，年十四。復以武陵昭王曄第三子子坦奉元王後。",
+          "subject_person_mention_id": "c-nanqishu-045-daodu-complete:p004:m0002",
+          "object_person_mention_id": "c-nanqishu-045-daodu-complete:p004:m0008"
+        }
+      ],
+      "status": "source_attested",
+      "interpretation_note": "世祖蕭賾。",
+      "reviewer": "Codex（AI代理）",
+      "model": null,
+      "human_reviewed": false
+    },
+    {
       "id": "a-nanqi040-lastprinces-min-father",
       "subject_person_id": "kix_r92_2ed_N",
       "object_person_id": "kix_r92_2ed",
@@ -868,6 +1019,43 @@
   ],
   "age_assertions": [
     {
+      "id": "age-qi045-xiaozimin-death",
+      "person_id": "kix_r92_2ed_N",
+      "source_number": "十四",
+      "source_term": "年十四",
+      "value": 14,
+      "unit": "source_age_years",
+      "counting": "unspecified_source_age",
+      "birth_year": null,
+      "date_expression": "永泰元年",
+      "source_anchor": {
+        "paragraph_id": "c-nanqishu-045-daodu-complete:p004",
+        "start": 38,
+        "end": 41,
+        "surface": "年十四"
+      },
+      "evidence": [
+        {
+          "work_id": "w-nanqishu",
+          "book_id": "b-nanqishu-045",
+          "chapter_id": "c-nanqishu-045-daodu-complete",
+          "source_id": "s-nanqishu-045-daodu-complete-ws2273185",
+          "paragraph_id": "c-nanqishu-045-daodu-complete:p004",
+          "quote": "　　子珉字雲璵，世祖第二十子也。永明七年，封義安王，後改永陽。永泰元年見害，年十四。復以武陵昭王曄第三子子坦奉元王後。",
+          "person_mention_id": "c-nanqishu-045-daodu-complete:p004:m0002"
+        }
+      ],
+      "age_context": {
+        "kind": "at_death",
+        "life_event_id": "le-qi045-xiaozimin-death"
+      },
+      "status": "source_attested",
+      "interpretation_note": "本傳卒事相鄰報齡。",
+      "reviewer": "Codex（AI代理）",
+      "model": null,
+      "human_reviewed": false
+    },
+    {
       "id": "age-nanqi040-lastprinces-min-age",
       "person_id": "kix_r92_2ed_N",
       "value": 14,
@@ -933,6 +1121,35 @@
       "reviewer": "Codex（AI 代理）",
       "human_reviewed": false,
       "model": null
+    },
+    {
+      "id": "le-qi045-xiaozimin-death",
+      "person_id": "kix_r92_2ed_N",
+      "event_type": "death",
+      "source_term": "見害",
+      "source_anchor": {
+        "paragraph_id": "c-nanqishu-045-daodu-complete:p004",
+        "start": 35,
+        "end": 37,
+        "surface": "見害"
+      },
+      "date_expression": "永泰元年",
+      "evidence": [
+        {
+          "work_id": "w-nanqishu",
+          "book_id": "b-nanqishu-045",
+          "chapter_id": "c-nanqishu-045-daodu-complete",
+          "source_id": "s-nanqishu-045-daodu-complete-ws2273185",
+          "paragraph_id": "c-nanqishu-045-daodu-complete:p004",
+          "quote": "　　子珉字雲璵，世祖第二十子也。永明七年，封義安王，後改永陽。永泰元年見害，年十四。復以武陵昭王曄第三子子坦奉元王後。",
+          "person_mention_id": "c-nanqishu-045-daodu-complete:p004:m0002"
+        }
+      ],
+      "status": "source_attested",
+      "interpretation_note": "按同段人物與次第核所屬卒事。",
+      "reviewer": "Codex（AI代理）",
+      "model": null,
+      "human_reviewed": false
     },
     {
       "id": "le-nanqi040-lastprinces-min-death",

@@ -1,0 +1,197 @@
+{
+  "record_type": "fixed_source_complete_item_review",
+  "reviewer": "Codex（AI代理）",
+  "model": null,
+  "human_reviewed": false,
+  "external_witnesses": [],
+  "print_readings": [
+    {
+      "holder": "中國國家圖書館",
+      "catalog_id": "NLC892-411999017142-12542",
+      "description": "乾隆四年武英殿刊《二十四史》第161冊",
+      "pdf_url": "https://upload.wikimedia.org/wikipedia/commons/e/ea/NLC892-411999017142-12542_%E4%BA%8C%E5%8D%81%E5%9B%9B%E5%8F%B2_%E7%AC%AC161%E5%86%8A.pdf#page=2",
+      "pdf_sha256": "1aa6d822bc71fea651e4eb3cfa0a6b84b3deccc990b8fefa67cef78346f7fa62",
+      "pdf_page": 2,
+      "half": "左",
+      "leaf": "一上",
+      "columns": "第7至10欄",
+      "quotes": [
+        "衡陽元王道度太祖長兄也",
+        "與太祖俱受學雷次宗",
+        "無子太祖以第十一子鈞繼道度後"
+      ],
+      "research_image_sha256": "f8b1de1c329823520b8daff98c0f9146012356eaaea9cee1cbf3bd876e0ba284",
+      "research_image_derivation": "PDFium 0.45 倍渲染，以 PIL 轉 1240 像素縮圖，JPEG 91。"
+    },
+    {
+      "holder": "中國國家圖書館",
+      "catalog_id": "NLC892-411999017142-12542",
+      "description": "乾隆四年武英殿刊《二十四史》第161冊",
+      "pdf_url": "https://upload.wikimedia.org/wikipedia/commons/e/ea/NLC892-411999017142-12542_%E4%BA%8C%E5%8D%81%E5%9B%9B%E5%8F%B2_%E7%AC%AC161%E5%86%8A.pdf#page=3",
+      "pdf_sha256": "1aa6d822bc71fea651e4eb3cfa0a6b84b3deccc990b8fefa67cef78346f7fa62",
+      "pdf_page": 3,
+      "half": "右",
+      "leaf": "一下",
+      "columns": "第1至10欄",
+      "quotes": [
+        "母區貴人卒居喪盡禮",
+        "海陵立轉撫軍將軍侍中如故尋遇害年二十二",
+        "繼元王為孫",
+        "永泰元年見害年十四",
+        "第三子子坦奉元王後"
+      ],
+      "research_image_sha256": "25ea1a21695a765bfa1561667dad5598f924c8fe8348178807636fa08f323c24",
+      "research_image_derivation": "PDFium 0.45 倍渲染，以 PIL 轉 1240 像素縮圖，JPEG 91。"
+    }
+  ],
+  "boundaries": [
+    {
+      "title": "衡陽元王道度",
+      "raw_spans": [
+        {
+          "first_line": 13,
+          "last_line": 13,
+          "start_codepoint": 0,
+          "end_codepoint": 111,
+          "opening": "　　衡陽元王道度，太",
+          "closing": "第十一子鈞繼道度後。"
+        },
+        {
+          "first_line": 17,
+          "last_line": 17,
+          "start_codepoint": 0,
+          "end_codepoint": 23,
+          "opening": "　　明帝卽位，以永陽",
+          "closing": "仍本國，繼元王爲孫。"
+        }
+      ],
+      "paragraph_ids": [
+        "c-nanqishu-045-daodu-complete:p001",
+        "c-nanqishu-045-daodu-complete:p003"
+      ],
+      "paragraph_slices": {}
+    },
+    {
+      "title": "蕭鈞",
+      "raw_spans": [
+        {
+          "first_line": 15,
+          "last_line": 15,
+          "start_codepoint": 0,
+          "end_codepoint": 172,
+          "opening": "　　鈞字宣禮。{{Y",
+          "closing": "。尋遇害，年二十二。"
+        }
+      ],
+      "paragraph_ids": [
+        "c-nanqishu-045-daodu-complete:p002"
+      ],
+      "paragraph_slices": {}
+    },
+    {
+      "title": "蕭子珉",
+      "raw_spans": [
+        {
+          "first_line": 19,
+          "last_line": 19,
+          "start_codepoint": 0,
+          "end_codepoint": 78,
+          "opening": "　　子珉字雲璵，世祖",
+          "closing": "第三子子坦奉元王後。"
+        }
+      ],
+      "paragraph_ids": [
+        "c-nanqishu-045-daodu-complete:p004"
+      ],
+      "paragraph_slices": {}
+    }
+  ],
+  "chronology": [],
+  "readings": [
+    {
+      "id": "c-nanqishu-045-daodu-complete:source_review1-0",
+      "kind": "source_review",
+      "person_id": "egx_xax_4ic_A",
+      "source_quote": "　　衡陽元王道度，太祖長兄也。與太祖俱受學雷次宗。宣帝問二兒學業，次宗答曰：「其兄外朗，其弟內潤，皆良璞也。」隨宣帝征伐，仕至安定太守，卒於宋世。建元二年，追加封謚。無子，太祖以第十一子鈞繼道度後。",
+      "reading": "衡陽元王蕭道度是蕭道成長兄，曾與弟受學雷次宗。宣帝蕭承之是二兒之父。仕宋安定太守而卒，建元二年追封。蕭道成第十一子鈞奉後，區分自然親子和承繼。",
+      "note": "衡陽元王蕭道度是蕭道成長兄，曾與弟受學雷次宗。宣帝蕭承之是二兒之父。仕宋安定太守而卒，建元二年追封。蕭道成第十一子鈞奉後，區分自然親子和承繼。",
+      "paragraph_id": "c-nanqishu-045-daodu-complete:p001",
+      "start_codepoint": 0,
+      "end_codepoint": 99,
+      "human_reviewed": false
+    },
+    {
+      "id": "c-nanqishu-045-daodu-complete:source_review2-0",
+      "kind": "source_review",
+      "person_id": "egx_xax_4ic_A",
+      "source_quote": "　　鈞字宣禮。永明四年，爲江州刺史，加散騎常侍。母區貴人卒，居喪盡禮。六年，遷爲征虜將軍。八年，遷驍騎將軍，常侍如故。仍轉左衞將軍。鈞有好尚，爲世祖所知。兄弟中意遇次鄱陽王鏘。十年，轉中書令，領石頭戍事。遷散騎常侍，祕書監，領驍騎如故。不拜。隆昌元年，改加侍中，給扶。海陵立，轉撫軍將軍，侍中如故。尋遇害，年二十二。",
+      "reading": "蕭鈞字宣禮；歷永明四年至十年、隆昌及海陵即位，母區貴人卒丁憂。末記鈞遇害年二十二，未書月日。",
+      "note": "蕭鈞字宣禮；歷永明四年至十年、隆昌及海陵即位，母區貴人卒丁憂。末記鈞遇害年二十二，未書月日。",
+      "paragraph_id": "c-nanqishu-045-daodu-complete:p002",
+      "start_codepoint": 0,
+      "end_codepoint": 158,
+      "human_reviewed": false
+    },
+    {
+      "id": "c-nanqishu-045-daodu-complete:source_review3-0",
+      "kind": "source_review",
+      "person_id": "egx_xax_4ic_A",
+      "source_quote": "　　明帝卽位，以永陽王子珉仍本國，繼元王爲孫。",
+      "reading": "齊明帝以永陽王子珉原國兼繼道度為孫，繼嗣原文直接稱繼元王，不據此增補子珉的父稱。",
+      "note": "齊明帝以永陽王子珉原國兼繼道度為孫，繼嗣原文直接稱繼元王，不據此增補子珉的父稱。",
+      "paragraph_id": "c-nanqishu-045-daodu-complete:p003",
+      "start_codepoint": 0,
+      "end_codepoint": 23,
+      "human_reviewed": false
+    },
+    {
+      "id": "c-nanqishu-045-daodu-complete:source_review4-0",
+      "kind": "source_review",
+      "person_id": "egx_xax_4ic_A",
+      "source_quote": "　　子珉字雲璵，世祖第二十子也。永明七年，封義安王，後改永陽。永泰元年見害，年十四。復以武陵昭王曄第三子子坦奉元王後。",
+      "reading": "蕭子珉為齊武帝蕭賾第二十子，永明七年封義安，後改永陽，永泰元年被害年十四；後改以蕭曄第三子子坦奉元王後。",
+      "note": "蕭子珉為齊武帝蕭賾第二十子，永明七年封義安，後改永陽，永泰元年被害年十四；後改以蕭曄第三子子坦奉元王後。",
+      "paragraph_id": "c-nanqishu-045-daodu-complete:p004",
+      "start_codepoint": 0,
+      "end_codepoint": 59,
+      "human_reviewed": false
+    },
+    {
+      "id": "c-nanqishu-045-daodu-complete:source_review1-86",
+      "kind": "source_review",
+      "person_id": "egx_xax_4ic_A",
+      "source_quote": "太祖以第十一子鈞繼道度後",
+      "reading": "蕭鈞奉衡陽元王後，自然父為蕭道成。",
+      "note": "蕭鈞奉衡陽元王後，自然父為蕭道成。",
+      "paragraph_id": "c-nanqishu-045-daodu-complete:p001",
+      "start_codepoint": 86,
+      "end_codepoint": 98,
+      "human_reviewed": false
+    },
+    {
+      "id": "c-nanqishu-045-daodu-complete:source_review3-17",
+      "kind": "source_review",
+      "person_id": "kix_r92_2ed_N",
+      "source_quote": "繼元王爲孫",
+      "reading": "奉祀關係以原文所載世次保存。",
+      "note": "奉祀關係以原文所載世次保存。",
+      "paragraph_id": "c-nanqishu-045-daodu-complete:p003",
+      "start_codepoint": 17,
+      "end_codepoint": 22,
+      "human_reviewed": false
+    },
+    {
+      "id": "c-nanqishu-045-daodu-complete:source_review4-42",
+      "kind": "source_review",
+      "person_id": "6z9_z3d_zvb",
+      "source_quote": "復以武陵昭王曄第三子子坦奉元王後",
+      "reading": "子珉被害後改奉嗣。",
+      "note": "子珉被害後改奉嗣。",
+      "paragraph_id": "c-nanqishu-045-daodu-complete:p004",
+      "start_codepoint": 42,
+      "end_codepoint": 58,
+      "human_reviewed": false
+    }
+  ],
+  "identity_limits": []
+}

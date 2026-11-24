@@ -13,6 +13,11 @@ def decode_line(line, offset=0):
     annotations = []
     cursor = int(line.startswith(':　　'))
     while cursor < len(line):
+        if line.startswith("'''", cursor):
+            annotations.append(dict(kind='數位粗體標記', raw_start=offset + cursor,
+                                    raw_end=offset + cursor + 3, source="'''"))
+            cursor += 3
+            continue
         if line.startswith('<ref>', cursor):
             end = line.index('</ref>', cursor + 5)
             annotations.append(dict(kind='數位校注', raw_start=offset + cursor,
@@ -59,6 +64,12 @@ def decode_line(line, offset=0):
                 value = content.split('|', 1)[0]
                 text.append(value)
                 spans.extend([offset + p, offset + p + 1] for p in range(start, start + len(value)))
+            elif name == 'PUA' and len(content) == 1 and 0xE000 <= ord(content) <= 0xF8FF:
+                start = offset + cursor + 3 + len(name)
+                text.append(content)
+                spans.append([start, start + 1])
+                annotations.append(dict(kind='數位本私用區字元', raw_start=offset + cursor,
+                                        raw_end=offset + end, source=hex(ord(content))))
             else:
                 raise ValueError(f'未識模板 {name}')
             cursor = end
