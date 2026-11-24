@@ -21,8 +21,8 @@
 
 | ID 尾碼 | 人物 | 最多提及來源 | JSON |
 |---|---|---|---|
-| `根` | 齊宣公 | [《史記・田敬仲完世家》][1166] | [JSON](zwr_jel_e3l.json) |
-| `A` | 康公貸 | [《史記・田敬仲完世家》][1166] | [JSON](zwr_jel_e3l_A.json) |
+| `根` | 齊宣公 | [《史記・田敬仲完世家》][1171] | [JSON](zwr_jel_e3l.json) |
+| `A` | 康公貸 | [《史記・田敬仲完世家》][1171] | [JSON](zwr_jel_e3l_A.json) |
 
 </details>
 
@@ -30,8 +30,8 @@
 
 | ID 尾碼 | 人物 | 最多提及來源 | JSON |
 |---|---|---|---|
-| `根` | 宇文述（宇文化及父） | [《隋書・列傳第50 序言 宇文化及 王充》][1583] | [JSON](zyu_yrx_2pz.json) |
-| `A` | 宇文化及（宇文述子） | [《陳書・皇后》][29]、[《隋書・列傳第50 序言 宇文化及 王充》][1583] | [JSON](zyu_yrx_2pz_A.json) |
+| `根` | 宇文述（宇文化及父） | [《隋書・列傳第50 序言 宇文化及 王充》][1588] | [JSON](zyu_yrx_2pz.json) |
+| `A` | 宇文化及（宇文述子） | [《陳書・皇后》][29]、[《隋書・列傳第50 序言 宇文化及 王充》][1588] | [JSON](zyu_yrx_2pz_A.json) |
 
 </details>
 
@@ -39,18 +39,18 @@
 
 | ID 尾碼 | 人物 | 最多提及來源 | JSON |
 |---|---|---|---|
-| `根` | 夏侯詳（字叔業，夏侯亶父） | [《梁書・裴邃 兄子之高 之平 之橫 夏侯亶 弟夔 魚弘附 韋放》][431] | [JSON](zz1_0tr_xni.json) |
-| `A` | 夏侯亶（字世龍，夏侯詳長子） | [《梁書・裴邃 兄子之高 之平 之橫 夏侯亶 弟夔 魚弘附 韋放》][431] | [JSON](zz1_0tr_xni_A.json) |
-| `AA` | 夏侯誼（夏侯亶子，襲豐城公） | [《梁書・裴邃 兄子之高 之平 之橫 夏侯亶 弟夔 魚弘附 韋放》][431] | [JSON](zz1_0tr_xni_AA.json) |
-| `AB` | 夏侯損（夏侯誼弟） | [《梁書・裴邃 兄子之高 之平 之橫 夏侯亶 弟夔 魚弘附 韋放》][431] | [JSON](zz1_0tr_xni_AB.json) |
-| `B` | 夏侯夔（字季龍，夏侯亶弟） | [《梁書・裴邃 兄子之高 之平 之橫 夏侯亶 弟夔 魚弘附 韋放》][432] | [JSON](zz1_0tr_xni_B.json) |
-| `BA` | 夏侯撰（夏侯夔子，太僕卿） | [《梁書・裴邃 兄子之高 之平 之橫 夏侯亶 弟夔 魚弘附 韋放》][432] | [JSON](zz1_0tr_xni_BA.json) |
-| `BB` | 夏侯譒（夏侯撰弟） | [《梁書・裴邃 兄子之高 之平 之橫 夏侯亶 弟夔 魚弘附 韋放》][432] | [JSON](zz1_0tr_xni_BB.json) |
+| `根` | 夏侯詳（字叔業，夏侯亶父） | [《梁書・裴邃 兄子之高 之平 之橫 夏侯亶 弟夔 魚弘附 韋放》][436] | [JSON](zz1_0tr_xni.json) |
+| `A` | 夏侯亶（字世龍，夏侯詳長子） | [《梁書・裴邃 兄子之高 之平 之橫 夏侯亶 弟夔 魚弘附 韋放》][436] | [JSON](zz1_0tr_xni_A.json) |
+| `AA` | 夏侯誼（夏侯亶子，襲豐城公） | [《梁書・裴邃 兄子之高 之平 之橫 夏侯亶 弟夔 魚弘附 韋放》][436] | [JSON](zz1_0tr_xni_AA.json) |
+| `AB` | 夏侯損（夏侯誼弟） | [《梁書・裴邃 兄子之高 之平 之橫 夏侯亶 弟夔 魚弘附 韋放》][436] | [JSON](zz1_0tr_xni_AB.json) |
+| `B` | 夏侯夔（字季龍，夏侯亶弟） | [《梁書・裴邃 兄子之高 之平 之橫 夏侯亶 弟夔 魚弘附 韋放》][437] | [JSON](zz1_0tr_xni_B.json) |
+| `BA` | 夏侯撰（夏侯夔子，太僕卿） | [《梁書・裴邃 兄子之高 之平 之橫 夏侯亶 弟夔 魚弘附 韋放》][437] | [JSON](zz1_0tr_xni_BA.json) |
+| `BB` | 夏侯譒（夏侯撰弟） | [《梁書・裴邃 兄子之高 之平 之橫 夏侯亶 弟夔 魚弘附 韋放》][437] | [JSON](zz1_0tr_xni_BB.json) |
 
 </details>
 
 [29]: https://zh.wikisource.org/w/index.php?oldid=2015446
-[431]: https://zh.wikisource.org/w/index.php?oldid=1511902
-[432]: https://zh.wikisource.org/w/index.php?oldid=1511902
-[1166]: https://zh.wikisource.org/w/index.php?title=史記/卷046&oldid=2560838
-[1583]: https://zh.wikisource.org/w/index.php?oldid=2180348
+[436]: https://zh.wikisource.org/w/index.php?oldid=1511902
+[437]: https://zh.wikisource.org/w/index.php?oldid=1511902
+[1171]: https://zh.wikisource.org/w/index.php?title=史記/卷046&oldid=2560838
+[1588]: https://zh.wikisource.org/w/index.php?oldid=2180348
