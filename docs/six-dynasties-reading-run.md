@@ -666,3 +666,15 @@
 | 單景雋 | 將卷四十四的兩個字位改接既有識別。卷四十及《南史》卷二十四與卷四十四同記其為齊明帝左右。 |
 
 [全卷界線及考證](../source-evidence/nanqi046-roll/close-reading.json) · [王秀之](../source-evidence/nanqi046-roll/wangxiu-reading.json) · [蔡約](../source-evidence/nanqi046-roll/cai-reading.json) · [顧憲之](../source-evidence/nanqi046-roll/gu-reading.json) · [蕭惠基](../source-evidence/nanqi046-roll/xiao-reading.json)
+
+## 第四十六批　南齊書卷四十八
+
+本批覆核三篇主傳及孔靈產、劉瑱兩附傳。九十三卷已建清冊，共一千五百三十九項。一千三百一十項備全文，一千三百零九項完成人物初讀，一千三百零五項完成逐篇覆核。
+
+| 傳目 | 核對結果 |
+| --- | --- |
+| 袁彖 | 父袁覬與兄袁顗有臨終書，史公為袁彖小字。彖護袁顗遺體及文集，殿本作父集，原考證據《南史》文集釋指伯父。袁彖幼喪母，由伯母王氏撫養。隆昌元年卒，年四十八。 |
+| 孔稚珪、孔靈產 | 父孔靈產有任晉安太守、山館及遷光祿的獨立附敘。孔稚珪兩篇奏疏分存，永元三年卒，年五十五。《南史》作孔珪。 |
+| 劉繪、劉瑱 | 父名固定數位作勉，殿本與《南史》作勔。劉繪與悛、瑱及姪女各依原稱。中興二年卒，年四十五。劉瑱先卒，繫於本傳相對次序。另錄殿本「不𠫤財物」字形與四庫本的組字標記。 |
+
+[全卷界線、史論及考證](../source-evidence/nanqi048-roll/close-reading.json) · [袁彖](../source-evidence/nanqi048-roll/yuan-reading.json) · [孔稚珪](../source-evidence/nanqi048-roll/kong-reading.json) · [劉繪與劉瑱](../source-evidence/nanqi048-roll/liu-reading.json)
