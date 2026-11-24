@@ -713,7 +713,7 @@
       "permalink": "https://zh.wikisource.org/w/index.php?oldid=1538079",
       "heading_survey": "complete",
       "heading_locator_scheme": "wikisource_equals_lines",
-      "embedded_account_survey": "partial",
+      "embedded_account_survey": "complete",
       "excluded_sections": [
         {
           "heading_line": 65,
@@ -726,12 +726,7 @@
           "reason": "數位注釋層。"
         }
       ],
-      "pending_boundaries": [
-        {
-          "person": "高祖八男總敘與三王附敘",
-          "note": "卷首總敘和三題之下的家屬、卒事與轉引依原行續核。"
-        }
-      ]
+      "pending_boundaries": []
     },
     {
       "book_id": "b-liangshu-033",
@@ -14828,16 +14823,165 @@
       "heading_line": 37,
       "heading_raw": "==邵陵攜王==",
       "first_line": 39,
-      "last_line": 63,
+      "last_line": 39,
       "start_codepoint": 0,
-      "end_codepoint": 126,
+      "end_codepoint": 374,
       "opening": "　　邵陵攜王綸字",
-      "closing": "未遂而爲賊所害。",
+      "closing": "軍、南徐州刺史。",
       "entry_checked": true,
-      "full_text": false,
-      "first_pass": false,
-      "item_reviewed": false,
-      "chapter_id": null
+      "full_text": true,
+      "first_pass": true,
+      "item_reviewed": true,
+      "chapter_id": "c-liangshu-029-xiaolun-complete",
+      "continuation_spans": [
+        {
+          "first_line": 41,
+          "last_line": 41,
+          "start_codepoint": 0,
+          "end_codepoint": 290,
+          "opening": "　　{{YL|太",
+          "closing": "敗，乃奔還京口。"
+        },
+        {
+          "first_line": 43,
+          "last_line": 43,
+          "start_codepoint": 0,
+          "end_codepoint": 157,
+          "opening": "　　三年春，綸復",
+          "closing": "。乃與世祖書曰："
+        },
+        {
+          "first_line": 45,
+          "last_line": 45,
+          "start_codepoint": 0,
+          "end_codepoint": 283,
+          "opening": ":　　伏以先朝聖",
+          "closing": "，委悉無因詳究。"
+        },
+        {
+          "first_line": 47,
+          "last_line": 47,
+          "start_codepoint": 0,
+          "end_codepoint": 227,
+          "opening": ":　　方今社稷危",
+          "closing": "訪古，未或弗亡。"
+        },
+        {
+          "first_line": 49,
+          "last_line": 49,
+          "start_codepoint": 0,
+          "end_codepoint": 320,
+          "opening": ":　　夫征戰之理",
+          "closing": "，皆欲解體故耳。"
+        },
+        {
+          "first_line": 51,
+          "last_line": 51,
+          "start_codepoint": 0,
+          "end_codepoint": 439,
+          "opening": ":　　自我國五十",
+          "closing": "號迷，諸失次緒。"
+        },
+        {
+          "first_line": 53,
+          "last_line": 53,
+          "start_codepoint": 0,
+          "end_codepoint": 108,
+          "opening": "世祖復書，陳河東",
+          "closing": "餘人輕舟走武昌。"
+        },
+        {
+          "first_line": 55,
+          "last_line": 55,
+          "start_codepoint": 0,
+          "end_codepoint": 292,
+          "opening": "　　時綸長史韋質",
+          "closing": "後世祖追諡曰攜。"
+        }
+      ],
+      "chapter_path": "corpus/liangshu/029-xiaolun-complete.json",
+      "mixed_chapter": true,
+      "source_layout": "wikisource_mixed_indented_prose",
+      "item_review_path": "source-evidence/liang029-complete/xiaolun-reading.json",
+      "paragraph_ids": [
+        "c-liangshu-029-xiaolun-complete:p001",
+        "c-liangshu-029-xiaolun-complete:p002",
+        "c-liangshu-029-xiaolun-complete:p003",
+        "c-liangshu-029-xiaolun-complete:p004",
+        "c-liangshu-029-xiaolun-complete:p005",
+        "c-liangshu-029-xiaolun-complete:p006",
+        "c-liangshu-029-xiaolun-complete:p007",
+        "c-liangshu-029-xiaolun-complete:p008",
+        "c-liangshu-029-xiaolun-complete:p009"
+      ]
+    },
+    {
+      "title": "蕭堅",
+      "book_id": "b-liangshu-029",
+      "chapter_id": "c-liangshu-029-xiaojian-xiaoque",
+      "chapter_path": "corpus/liangshu/029-xiaojian-xiaoque.json",
+      "entry_checked": true,
+      "full_text": true,
+      "first_pass": true,
+      "item_reviewed": true,
+      "mixed_chapter": true,
+      "source_layout": "wikisource_mixed_indented_prose",
+      "item_review_path": "source-evidence/liang029-complete/xiaolun-sons-reading.json",
+      "first_line": 57,
+      "last_line": 57,
+      "start_codepoint": 0,
+      "end_codepoint": 130,
+      "opening": "　　長子堅，字長",
+      "closing": "城遂陷，堅遇害。",
+      "unit_kind": "embedded_account",
+      "paragraph_ids": [
+        "c-liangshu-029-xiaojian-xiaoque:p001"
+      ],
+      "parent_heading": "蕭綸"
+    },
+    {
+      "title": "蕭確",
+      "book_id": "b-liangshu-029",
+      "chapter_id": "c-liangshu-029-xiaojian-xiaoque",
+      "chapter_path": "corpus/liangshu/029-xiaojian-xiaoque.json",
+      "entry_checked": true,
+      "full_text": true,
+      "first_pass": true,
+      "item_reviewed": true,
+      "mixed_chapter": true,
+      "source_layout": "wikisource_mixed_indented_prose",
+      "item_review_path": "source-evidence/liang029-complete/xiaolun-sons-reading.json",
+      "first_line": 59,
+      "last_line": 59,
+      "start_codepoint": 0,
+      "end_codepoint": 101,
+      "opening": "　　弟確，字仲正",
+      "closing": "丞，太子中舍人。",
+      "unit_kind": "embedded_account",
+      "parent_heading": "蕭綸",
+      "continuation_spans": [
+        {
+          "first_line": 61,
+          "last_line": 61,
+          "start_codepoint": 0,
+          "end_codepoint": 382,
+          "opening": "　　鐘山之役，確",
+          "closing": "乃使確爲慰勞文。"
+        },
+        {
+          "first_line": 63,
+          "last_line": 63,
+          "start_codepoint": 0,
+          "end_codepoint": 126,
+          "opening": "　　確旣出見景，",
+          "closing": "未遂而爲賊所害。"
+        }
+      ],
+      "paragraph_ids": [
+        "c-liangshu-029-xiaojian-xiaoque:p002",
+        "c-liangshu-029-xiaojian-xiaoque:p003",
+        "c-liangshu-029-xiaojian-xiaoque:p004"
+      ]
     },
     {
       "book_id": "b-liangshu-033",
