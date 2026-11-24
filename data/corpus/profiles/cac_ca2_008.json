@@ -539,6 +539,61 @@
       "chapter_id": "c-jinshu-059-jiong",
       "source_id": "s-jinshu-059-ws2650517-jiong",
       "work_title": "晉書"
+    },
+    {
+      "number": 59,
+      "category": "",
+      "title": "晉書卷五十九·司馬冏",
+      "paragraph_id": "c-jinshu-059-prince-jiong:p001",
+      "count": 3,
+      "raw_count": 3,
+      "duplicate_count": 0,
+      "counting_policy": "independent_fixed_witness_occurrences",
+      "quote": "齊武閔王冏，字景治，獻王攸之子也。少稱仁惠，好振施，有父風。初，攸有疾，武帝不信，遣太醫診候，皆言無病。及攸薨，帝往臨喪，冏號踴訴父病為醫所誣，詔即誅醫。由是見稱，遂得為嗣。元康中，拜散騎常侍，領左軍將軍、翊軍校尉。趙王倫密與",
+      "paragraph_ids": [
+        "c-jinshu-059-prince-jiong:p001",
+        "c-jinshu-059-prince-jiong:p003",
+        "c-jinshu-059-prince-jiong:p017"
+      ],
+      "mention_ids": [
+        "c-jinshu-059-prince-jiong:p001:m0012",
+        "c-jinshu-059-prince-jiong:p003:m0007",
+        "c-jinshu-059-prince-jiong:p017:m0073"
+      ],
+      "mention_paragraph_ids": {
+        "c-jinshu-059-prince-jiong:p001:m0012": "c-jinshu-059-prince-jiong:p001",
+        "c-jinshu-059-prince-jiong:p003:m0007": "c-jinshu-059-prince-jiong:p003",
+        "c-jinshu-059-prince-jiong:p017:m0073": "c-jinshu-059-prince-jiong:p017"
+      },
+      "mention_id": "c-jinshu-059-prince-jiong:p001:m0012",
+      "occurrence_groups": [
+        {
+          "canonical_mention_id": "c-jinshu-059-prince-jiong:p001:m0012",
+          "mention_ids": [
+            "c-jinshu-059-prince-jiong:p001:m0012"
+          ],
+          "kind": "paragraph"
+        },
+        {
+          "canonical_mention_id": "c-jinshu-059-prince-jiong:p003:m0007",
+          "mention_ids": [
+            "c-jinshu-059-prince-jiong:p003:m0007"
+          ],
+          "kind": "paragraph"
+        },
+        {
+          "canonical_mention_id": "c-jinshu-059-prince-jiong:p017:m0073",
+          "mention_ids": [
+            "c-jinshu-059-prince-jiong:p017:m0073"
+          ],
+          "kind": "paragraph"
+        }
+      ],
+      "work_id": "w-jinshu",
+      "book_id": "b-jinshu-059",
+      "chapter_id": "c-jinshu-059-prince-jiong",
+      "source_id": "s-jinshu-059-prince-jiong-ws2650517",
+      "work_title": "晉書"
     }
   ],
   "table_occurrences": [],
@@ -12897,6 +12952,32 @@
           "extraction_note": "展開維基連結與YL顯示字、移除quote及粗體控制字；完整數位ref註獨立留原raw位置，不作傳世正文；無校字。"
         }
       }
+    },
+    {
+      "chapter_id": "c-jinshu-059-prince-jiong",
+      "work_id": "w-jinshu",
+      "book_id": "b-jinshu-059",
+      "source_id": "s-jinshu-059-prince-jiong-ws2650517",
+      "source": {
+        "title": "晉書卷五十九·司馬冏",
+        "provider": "Wikisource",
+        "permalink": "https://zh.wikisource.org/w/index.php?oldid=2650517",
+        "url": "https://zh.wikisource.org/w/index.php?oldid=2650517",
+        "revision_id": 2650517,
+        "edition": "維基文庫固定修訂",
+        "accessed_on": "2026-11-22",
+        "review_status": "text_checked",
+        "image_verified": false,
+        "rights": "古代原文；數位轉錄依維基文庫授權。",
+        "license_url": "https://creativecommons.org/licenses/by-sa/4.0/",
+        "extent": "晉書卷五十九·司馬冏",
+        "text_scope": "complete_biography_unit",
+        "raw_path": "source-evidence/jin059-roll/ws2650517.wikitext",
+        "raw_file_sha256": "a83fe708c8dffc5965863d337a19fd4e7222ae41e29aa99e1c2a11ed8030d1d3",
+        "collation_witnesses": [
+          "source-evidence/jin059-roll/volume-reading.json"
+        ]
+      }
     }
   ],
   "relations": [
@@ -12938,6 +13019,32 @@
       "reviewer": "Codex（AI代理）",
       "human_reviewed": false,
       "model": null
+    },
+    {
+      "id": "a-jin059-volume-jiong-father",
+      "subject_person_id": "ee0_b2a_68e",
+      "object_person_id": "cac_ca2_008",
+      "predicate": "father",
+      "qualifiers": {
+        "source_term": "獻王攸之子"
+      },
+      "evidence": [
+        {
+          "work_id": "w-jinshu",
+          "book_id": "b-jinshu-059",
+          "chapter_id": "c-jinshu-059-prince-jiong",
+          "source_id": "s-jinshu-059-prince-jiong-ws2650517",
+          "paragraph_id": "c-jinshu-059-prince-jiong:p001",
+          "quote": "齊武閔王冏，字景治，獻王攸之子也。少稱仁惠，好振施，有父風。初，攸有疾，武帝不信，遣太醫診候，皆言無病。及攸薨，帝往臨喪，冏號踴訴父病為醫所誣，詔即誅醫。由是見稱，遂得為嗣。元康中，拜散騎常侍，領左軍將軍、翊軍校尉。趙王倫密與相結，廢賈后，以功轉遊擊將軍。冏以位不滿意，有恨色。孫秀微覺之，且憚其在內，出為平東將軍、假節，鎮許昌。倫篡，遷鎮東大將軍、開府儀同三司，欲以寵安之。",
+          "subject_person_mention_id": "c-jinshu-059-prince-jiong:p001:m0004",
+          "object_person_mention_id": "c-jinshu-059-prince-jiong:p001:m0012"
+        }
+      ],
+      "status": "source_attested",
+      "interpretation_note": "攸薨後冏立。",
+      "reviewer": "Codex（AI代理）",
+      "model": null,
+      "human_reviewed": false
     }
   ],
   "related_people": {
@@ -12988,6 +13095,32 @@
       "reviewer": "Codex（AI代理）",
       "human_reviewed": false,
       "model": null
+    },
+    {
+      "id": "a-jin059-volume-jiong-father",
+      "subject_person_id": "ee0_b2a_68e",
+      "object_person_id": "cac_ca2_008",
+      "predicate": "father",
+      "qualifiers": {
+        "source_term": "獻王攸之子"
+      },
+      "evidence": [
+        {
+          "work_id": "w-jinshu",
+          "book_id": "b-jinshu-059",
+          "chapter_id": "c-jinshu-059-prince-jiong",
+          "source_id": "s-jinshu-059-prince-jiong-ws2650517",
+          "paragraph_id": "c-jinshu-059-prince-jiong:p001",
+          "quote": "齊武閔王冏，字景治，獻王攸之子也。少稱仁惠，好振施，有父風。初，攸有疾，武帝不信，遣太醫診候，皆言無病。及攸薨，帝往臨喪，冏號踴訴父病為醫所誣，詔即誅醫。由是見稱，遂得為嗣。元康中，拜散騎常侍，領左軍將軍、翊軍校尉。趙王倫密與相結，廢賈后，以功轉遊擊將軍。冏以位不滿意，有恨色。孫秀微覺之，且憚其在內，出為平東將軍、假節，鎮許昌。倫篡，遷鎮東大將軍、開府儀同三司，欲以寵安之。",
+          "subject_person_mention_id": "c-jinshu-059-prince-jiong:p001:m0004",
+          "object_person_mention_id": "c-jinshu-059-prince-jiong:p001:m0012"
+        }
+      ],
+      "status": "source_attested",
+      "interpretation_note": "攸薨後冏立。",
+      "reviewer": "Codex（AI代理）",
+      "model": null,
+      "human_reviewed": false
     }
   ],
   "age_assertions": [],

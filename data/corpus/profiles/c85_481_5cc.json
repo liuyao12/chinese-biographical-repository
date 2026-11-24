@@ -6,7 +6,8 @@
   "identity_note": "全庫label及alias未找到同名登記；本段明載此身份，未補其父母、日期或未見本名。 本批身份只限固定見證，未經人工覆核。",
   "review": "ai_provisional",
   "names": [
-    "周興"
+    "周興",
+    "興"
   ],
   "titles": [],
   "addresses": [],
@@ -44,6 +45,41 @@
       "book_id": "b-jinshu-042",
       "chapter_id": "c-jinshu-042-taiyuan-wang",
       "source_id": "s-jinshu-042-taiyuan-wang",
+      "work_title": "晉書"
+    },
+    {
+      "number": 58,
+      "category": "",
+      "title": "晉書卷五十八·周虓",
+      "paragraph_id": "c-jinshu-058-zhou-xiao:p002",
+      "count": 1,
+      "raw_count": 1,
+      "duplicate_count": 0,
+      "counting_policy": "independent_fixed_witness_occurrences",
+      "quote": "虓竟以病卒於太原。其子興迎致其喪，冠軍將軍謝玄親臨哭之，因上疏曰：「臣聞旌善表功，崇義明節，所以振揚聲教，垂美來葉。故西夷校尉、梓潼太守周虓，執心忠烈，厲節寇庭，遂嬰禍荒裔，痛窴泉壤。臣毎悲其志，以爲蘇武之賢，不復過也。前宣",
+      "paragraph_ids": [
+        "c-jinshu-058-zhou-xiao:p002"
+      ],
+      "mention_ids": [
+        "c-jinshu-058-zhou-xiao:p002:m0011"
+      ],
+      "mention_paragraph_ids": {
+        "c-jinshu-058-zhou-xiao:p002:m0011": "c-jinshu-058-zhou-xiao:p002"
+      },
+      "mention_id": "c-jinshu-058-zhou-xiao:p002:m0011",
+      "occurrence_groups": [
+        {
+          "canonical_mention_id": "c-jinshu-058-zhou-xiao:p002:m0011",
+          "mention_ids": [
+            "c-jinshu-058-zhou-xiao:p002:m0011"
+          ],
+          "kind": "paragraph"
+        }
+      ],
+      "work_id": "w-jinshu",
+      "book_id": "b-jinshu-058",
+      "chapter_id": "c-jinshu-058-zhou-xiao",
+      "source_id": "s-jinshu-058-zhou-xiao-ws1775463",
       "work_title": "晉書"
     }
   ],
@@ -436,18 +472,99 @@
         "rights": "古代原文及維基文庫數位轉錄；保留來源歸屬。",
         "license_url": "https://creativecommons.org/licenses/by-sa/4.0/"
       }
+    },
+    {
+      "chapter_id": "c-jinshu-058-zhou-xiao",
+      "work_id": "w-jinshu",
+      "book_id": "b-jinshu-058",
+      "source_id": "s-jinshu-058-zhou-xiao-ws1775463",
+      "source": {
+        "title": "晉書卷五十八·周虓",
+        "provider": "Wikisource",
+        "permalink": "https://zh.wikisource.org/w/index.php?oldid=1775463",
+        "url": "https://zh.wikisource.org/w/index.php?oldid=1775463",
+        "revision_id": 1775463,
+        "edition": "維基文庫固定修訂",
+        "accessed_on": "2026-11-22",
+        "review_status": "text_checked",
+        "image_verified": false,
+        "rights": "古代原文；數位轉錄依維基文庫授權。",
+        "license_url": "https://creativecommons.org/licenses/by-sa/4.0/",
+        "extent": "晉書卷五十八·周虓",
+        "text_scope": "complete_biography_unit",
+        "raw_path": "source-evidence/jin058-roll/ws1775463.wikitext",
+        "raw_file_sha256": "01b260cc8d1f216f20c4cfc426037be1e3f987097d24b45303e3659b07fe9083",
+        "collation_witnesses": [
+          "source-evidence/jin058-roll/volume-reading.json"
+        ]
+      }
     }
   ],
-  "relations": [],
+  "relations": [
+    {
+      "id": "a-jin058-volume-zhou-xing-father",
+      "subject_person_id": "c85_481_5cc",
+      "object_person_id": "pqa_k01_mx5",
+      "predicate": "father",
+      "qualifiers": {
+        "source_term": "其子興"
+      },
+      "evidence": [
+        {
+          "work_id": "w-jinshu",
+          "book_id": "b-jinshu-058",
+          "chapter_id": "c-jinshu-058-zhou-xiao",
+          "source_id": "s-jinshu-058-zhou-xiao-ws1775463",
+          "paragraph_id": "c-jinshu-058-zhou-xiao:p002",
+          "quote": "虓竟以病卒於太原。其子興迎致其喪，冠軍將軍謝玄親臨哭之，因上疏曰：「臣聞旌善表功，崇義明節，所以振揚聲教，垂美來葉。故西夷校尉、梓潼太守周虓，執心忠烈，厲節寇庭，遂嬰禍荒裔，痛窴泉壤。臣毎悲其志，以爲蘇武之賢，不復過也。前宣告并州，訪求虓喪，並索其家。負荷數千，始得來至。即以資送，還其舊隴。伏願聖朝追其志心，表其殊節，使負霜之志不墜於地，則榮慰存亡，惠被幽顯矣。」孝武帝詔曰：「虓厲志貞亮，無愧古烈。未及拔身，奄隕厥命。甄表義節，國之典也。贈龍驤將軍、益州刺史，賻錢二十萬，布百匹。」又贍賜其家。",
+          "subject_person_mention_id": "c-jinshu-058-zhou-xiao:p002:m0011",
+          "object_person_mention_id": "c-jinshu-058-zhou-xiao:p002:m0000"
+        }
+      ],
+      "status": "source_attested",
+      "interpretation_note": "虓卒子興迎喪。",
+      "reviewer": "Codex（AI代理）",
+      "model": null,
+      "human_reviewed": false
+    }
+  ],
   "related_people": {
-    "c85_481_5cc": "周興"
+    "c85_481_5cc": "周興",
+    "pqa_k01_mx5": "周虓〔字孟威、梓潼太守〕"
   },
   "dates": [],
   "name_components": [],
   "person_ids": [
     "c85_481_5cc"
   ],
-  "preferred_relations": [],
+  "preferred_relations": [
+    {
+      "id": "a-jin058-volume-zhou-xing-father",
+      "subject_person_id": "c85_481_5cc",
+      "object_person_id": "pqa_k01_mx5",
+      "predicate": "father",
+      "qualifiers": {
+        "source_term": "其子興"
+      },
+      "evidence": [
+        {
+          "work_id": "w-jinshu",
+          "book_id": "b-jinshu-058",
+          "chapter_id": "c-jinshu-058-zhou-xiao",
+          "source_id": "s-jinshu-058-zhou-xiao-ws1775463",
+          "paragraph_id": "c-jinshu-058-zhou-xiao:p002",
+          "quote": "虓竟以病卒於太原。其子興迎致其喪，冠軍將軍謝玄親臨哭之，因上疏曰：「臣聞旌善表功，崇義明節，所以振揚聲教，垂美來葉。故西夷校尉、梓潼太守周虓，執心忠烈，厲節寇庭，遂嬰禍荒裔，痛窴泉壤。臣毎悲其志，以爲蘇武之賢，不復過也。前宣告并州，訪求虓喪，並索其家。負荷數千，始得來至。即以資送，還其舊隴。伏願聖朝追其志心，表其殊節，使負霜之志不墜於地，則榮慰存亡，惠被幽顯矣。」孝武帝詔曰：「虓厲志貞亮，無愧古烈。未及拔身，奄隕厥命。甄表義節，國之典也。贈龍驤將軍、益州刺史，賻錢二十萬，布百匹。」又贍賜其家。",
+          "subject_person_mention_id": "c-jinshu-058-zhou-xiao:p002:m0011",
+          "object_person_mention_id": "c-jinshu-058-zhou-xiao:p002:m0000"
+        }
+      ],
+      "status": "source_attested",
+      "interpretation_note": "虓卒子興迎喪。",
+      "reviewer": "Codex（AI代理）",
+      "model": null,
+      "human_reviewed": false
+    }
+  ],
   "age_assertions": [],
   "life_events": [],
   "life_event_date_decisions": [],

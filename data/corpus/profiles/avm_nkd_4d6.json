@@ -6,7 +6,8 @@
   "identity_note": "本傳振威將軍，與張闓共督丹陽義軍。",
   "review": "ai_provisional",
   "names": [
-    "陶回"
+    "陶回",
+    "回"
   ],
   "titles": [
     {
@@ -61,6 +62,41 @@
   "addresses": [],
   "occurrences": [
     {
+      "number": 57,
+      "category": "",
+      "title": "晉書卷五十七·陶璜",
+      "paragraph_id": "c-jinshu-057-tao-huang:p010",
+      "count": 1,
+      "raw_count": 1,
+      "duplicate_count": 0,
+      "counting_policy": "independent_fixed_witness_occurrences",
+      "quote": "宣城內史，王導右軍長史。湮子馥，於湖令，為韓晃所殺，追贈廬江太守。抗子回，自有傳。",
+      "paragraph_ids": [
+        "c-jinshu-057-tao-huang:p010"
+      ],
+      "mention_ids": [
+        "c-jinshu-057-tao-huang:p010:m0093"
+      ],
+      "mention_paragraph_ids": {
+        "c-jinshu-057-tao-huang:p010:m0093": "c-jinshu-057-tao-huang:p010"
+      },
+      "mention_id": "c-jinshu-057-tao-huang:p010:m0093",
+      "occurrence_groups": [
+        {
+          "canonical_mention_id": "c-jinshu-057-tao-huang:p010:m0093",
+          "mention_ids": [
+            "c-jinshu-057-tao-huang:p010:m0093"
+          ],
+          "kind": "paragraph"
+        }
+      ],
+      "work_id": "w-jinshu",
+      "book_id": "b-jinshu-057",
+      "chapter_id": "c-jinshu-057-tao-huang",
+      "source_id": "s-jinshu-057-tao-huang-ws2413329",
+      "work_title": "晉書"
+    },
+    {
       "number": 76,
       "category": "",
       "title": "張闓傳",
@@ -99,6 +135,32 @@
   "table_occurrences": [],
   "sources": [
     {
+      "chapter_id": "c-jinshu-057-tao-huang",
+      "work_id": "w-jinshu",
+      "book_id": "b-jinshu-057",
+      "source_id": "s-jinshu-057-tao-huang-ws2413329",
+      "source": {
+        "title": "晉書卷五十七·陶璜",
+        "provider": "Wikisource",
+        "permalink": "https://zh.wikisource.org/w/index.php?oldid=2413329",
+        "url": "https://zh.wikisource.org/w/index.php?oldid=2413329",
+        "revision_id": 2413329,
+        "edition": "維基文庫固定修訂",
+        "accessed_on": "2026-11-22",
+        "review_status": "text_checked",
+        "image_verified": false,
+        "rights": "古代原文；數位轉錄依維基文庫授權。",
+        "license_url": "https://creativecommons.org/licenses/by-sa/4.0/",
+        "extent": "晉書卷五十七·陶璜",
+        "text_scope": "complete_biography_unit",
+        "raw_path": "source-evidence/jin057-roll/ws2413329.wikitext",
+        "raw_file_sha256": "b8c7c77af7cc2d9dd644c5b5223d1ca1a7b91b46ce5e894901f37c2013340eb1",
+        "collation_witnesses": [
+          "source-evidence/jin057-roll/volume-reading.json"
+        ]
+      }
+    },
+    {
       "chapter_id": "c-jinshu-076-zhangkai",
       "work_id": "w-jinshu",
       "book_id": "b-jinshu-076",
@@ -126,8 +188,36 @@
       }
     }
   ],
-  "relations": [],
+  "relations": [
+    {
+      "id": "a-jin057-volume-tao-hui",
+      "subject_person_id": "avm_nkd_4d6",
+      "object_person_id": "9tt_xur_as1",
+      "predicate": "father",
+      "qualifiers": {
+        "source_term": "抗子回"
+      },
+      "evidence": [
+        {
+          "work_id": "w-jinshu",
+          "book_id": "b-jinshu-057",
+          "chapter_id": "c-jinshu-057-tao-huang",
+          "source_id": "s-jinshu-057-tao-huang-ws2413329",
+          "paragraph_id": "c-jinshu-057-tao-huang:p010",
+          "quote": "璜弟濬，吳鎮南大將軍、荊州牧。濬弟抗，太子中庶子。濬子湮，字恭之；湮弟猷，字恭豫，並有名。湮至臨海太守、黃門侍郎。猷宣城內史，王導右軍長史。湮子馥，於湖令，為韓晃所殺，追贈廬江太守。抗子回，自有傳。",
+          "subject_person_mention_id": "c-jinshu-057-tao-huang:p010:m0093",
+          "object_person_mention_id": "c-jinshu-057-tao-huang:p010:m0017"
+        }
+      ],
+      "status": "source_attested",
+      "interpretation_note": "與卷七十八陶回自傳故官一致。",
+      "reviewer": "Codex（AI代理）",
+      "model": null,
+      "human_reviewed": false
+    }
+  ],
   "related_people": {
+    "9tt_xur_as1": "陶抗〔陶濬弟、陶回父〕",
     "avm_nkd_4d6": "陶回"
   },
   "dates": [],
@@ -135,7 +225,34 @@
   "person_ids": [
     "avm_nkd_4d6"
   ],
-  "preferred_relations": [],
+  "preferred_relations": [
+    {
+      "id": "a-jin057-volume-tao-hui",
+      "subject_person_id": "avm_nkd_4d6",
+      "object_person_id": "9tt_xur_as1",
+      "predicate": "father",
+      "qualifiers": {
+        "source_term": "抗子回"
+      },
+      "evidence": [
+        {
+          "work_id": "w-jinshu",
+          "book_id": "b-jinshu-057",
+          "chapter_id": "c-jinshu-057-tao-huang",
+          "source_id": "s-jinshu-057-tao-huang-ws2413329",
+          "paragraph_id": "c-jinshu-057-tao-huang:p010",
+          "quote": "璜弟濬，吳鎮南大將軍、荊州牧。濬弟抗，太子中庶子。濬子湮，字恭之；湮弟猷，字恭豫，並有名。湮至臨海太守、黃門侍郎。猷宣城內史，王導右軍長史。湮子馥，於湖令，為韓晃所殺，追贈廬江太守。抗子回，自有傳。",
+          "subject_person_mention_id": "c-jinshu-057-tao-huang:p010:m0093",
+          "object_person_mention_id": "c-jinshu-057-tao-huang:p010:m0017"
+        }
+      ],
+      "status": "source_attested",
+      "interpretation_note": "與卷七十八陶回自傳故官一致。",
+      "reviewer": "Codex（AI代理）",
+      "model": null,
+      "human_reviewed": false
+    }
+  ],
   "age_assertions": [],
   "life_events": [],
   "life_event_date_decisions": [],

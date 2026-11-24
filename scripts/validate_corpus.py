@@ -3772,7 +3772,7 @@ def _validate_uncached(root=ROOT):
                             from scripts.maternal_cousins import maternal_cousin_valid
                         except ImportError:
                             from maternal_cousins import maternal_cousin_valid
-                        check((nan23liang_valid and qualifiers.get('nan023_wangliang_reading')=='emperor-neidi') or wu061_family or maternal_cousin_valid(a, paragraphs), '姨表旁親須有母系路徑、雙人物錨點及姨弟原詞，不得接成父系')
+                        check((nan23liang_valid and qualifiers.get('nan023_wangliang_reading')=='emperor-neidi') or wu061_family or maternal_cousin_valid(a, paragraphs), '姨表旁親須有母系路徑、雙人物錨點及原親稱，不得接成父系')
                     else:
                         check(a['predicate'] == 'agnatic_cousin' and structure.get('lineage') == 'paternal' and structure.get('generation_difference') == 0 and structure.get('collateral') is True, '同世代父系旁親結構無效')
                     if a['predicate'] == 'agnatic_cousin' and 'source_clause_binding' in qualifiers and qualifiers['source_clause_binding'].get('kind') != 'biography_family_clause':

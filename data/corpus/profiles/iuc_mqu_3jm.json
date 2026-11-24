@@ -494,6 +494,41 @@
     {
       "number": 58,
       "category": "",
+      "title": "晉書卷五十八·周處",
+      "paragraph_id": "c-jinshu-058-zhou-chu:p001",
+      "count": 1,
+      "raw_count": 1,
+      "duplicate_count": 0,
+      "counting_policy": "independent_fixed_witness_occurrences",
+      "quote": "周處，字子隱，義興陽羨人也。父魴，呉鄱陽太守。處少孤，未弱冠，膂力絶人，好馳騁田獵，不修細行，縱情肆欲，州曲患之。處自知爲人所惡，乃慨然有改勵之志，謂父老曰：「今時和歳豐，何苦而不樂耶？」父老歎曰：「三害未除，何樂之有！」處曰：「何",
+      "paragraph_ids": [
+        "c-jinshu-058-zhou-chu:p001"
+      ],
+      "mention_ids": [
+        "c-jinshu-058-zhou-chu:p001:m0015"
+      ],
+      "mention_paragraph_ids": {
+        "c-jinshu-058-zhou-chu:p001:m0015": "c-jinshu-058-zhou-chu:p001"
+      },
+      "mention_id": "c-jinshu-058-zhou-chu:p001:m0015",
+      "occurrence_groups": [
+        {
+          "canonical_mention_id": "c-jinshu-058-zhou-chu:p001:m0015",
+          "mention_ids": [
+            "c-jinshu-058-zhou-chu:p001:m0015"
+          ],
+          "kind": "paragraph"
+        }
+      ],
+      "work_id": "w-jinshu",
+      "book_id": "b-jinshu-058",
+      "chapter_id": "c-jinshu-058-zhou-chu",
+      "source_id": "s-jinshu-058-zhou-chu-ws1775463",
+      "work_title": "晉書"
+    },
+    {
+      "number": 58,
+      "category": "",
       "title": "周處傳具名其父周魴",
       "paragraph_id": "c-jinshu-058-zhouchu-fang-wu060:p001",
       "count": 1,
@@ -917,6 +952,32 @@
   "table_occurrences": [],
   "sources": [
     {
+      "chapter_id": "c-jinshu-058-zhou-chu",
+      "work_id": "w-jinshu",
+      "book_id": "b-jinshu-058",
+      "source_id": "s-jinshu-058-zhou-chu-ws1775463",
+      "source": {
+        "title": "晉書卷五十八·周處",
+        "provider": "Wikisource",
+        "permalink": "https://zh.wikisource.org/w/index.php?oldid=1775463",
+        "url": "https://zh.wikisource.org/w/index.php?oldid=1775463",
+        "revision_id": 1775463,
+        "edition": "維基文庫固定修訂",
+        "accessed_on": "2026-11-22",
+        "review_status": "text_checked",
+        "image_verified": false,
+        "rights": "古代原文；數位轉錄依維基文庫授權。",
+        "license_url": "https://creativecommons.org/licenses/by-sa/4.0/",
+        "extent": "晉書卷五十八·周處",
+        "text_scope": "complete_biography_unit",
+        "raw_path": "source-evidence/jin058-roll/ws1775463.wikitext",
+        "raw_file_sha256": "01b260cc8d1f216f20c4cfc426037be1e3f987097d24b45303e3659b07fe9083",
+        "collation_witnesses": [
+          "source-evidence/jin058-roll/volume-reading.json"
+        ]
+      }
+    },
+    {
       "chapter_id": "c-jinshu-058-zhouchu-fang-wu060",
       "work_id": "w-jinshu",
       "book_id": "b-jinshu-058",
@@ -1050,6 +1111,32 @@
     }
   ],
   "relations": [
+    {
+      "id": "a-jin058-volume-zhou-chu-father",
+      "subject_person_id": "iuc_mqu_3jm_A",
+      "object_person_id": "iuc_mqu_3jm",
+      "predicate": "father",
+      "qualifiers": {
+        "source_term": "父魴"
+      },
+      "evidence": [
+        {
+          "work_id": "w-jinshu",
+          "book_id": "b-jinshu-058",
+          "chapter_id": "c-jinshu-058-zhou-chu",
+          "source_id": "s-jinshu-058-zhou-chu-ws1775463",
+          "paragraph_id": "c-jinshu-058-zhou-chu:p001",
+          "quote": "周處，字子隱，義興陽羨人也。父魴，呉鄱陽太守。處少孤，未弱冠，膂力絶人，好馳騁田獵，不修細行，縱情肆欲，州曲患之。處自知爲人所惡，乃慨然有改勵之志，謂父老曰：「今時和歳豐，何苦而不樂耶？」父老歎曰：「三害未除，何樂之有！」處曰：「何謂也？」答曰：「南山白額猛獸，長橋下蛟，並子爲三矣。」處曰：「若此爲患，吾能除之。」父老曰：「子若除之，則一郡之大慶，非徒去害而已。」處乃入山射殺猛獸，因投水搏蛟，蛟或沈或浮，行數十里，而處與之俱，經三日三夜，人謂死，皆相慶賀。處果殺蛟而反，聞鄕里相慶，始知人患己之甚，乃入呉尋二陸。時機不在，見雲，具以情告，曰：「欲自修而年已蹉跎，恐將無及。」雲曰：「古人貴朝聞夕改，君前途尚可，且患志之不立，何憂名之不彰！」處遂勵志好學，有文思，志存義烈，言必忠信克己。期年，州府交辟。仕呉爲東觀左丞。孫皓末，爲無難督。及呉平，王渾登建鄴宮釃酒，既酣，謂呉人曰：「諸君亡國之餘，得無戚乎？」處對曰：「漢末分崩，三國鼎立，魏滅於前，呉亡於後，亡國之戚，豈惟一人！」渾有慚色。",
+          "subject_person_mention_id": "c-jinshu-058-zhou-chu:p001:m0000",
+          "object_person_mention_id": "c-jinshu-058-zhou-chu:p001:m0015"
+        }
+      ],
+      "status": "source_attested",
+      "interpretation_note": "吳鄱陽太守周魴。",
+      "reviewer": "Codex（AI代理）",
+      "model": null,
+      "human_reviewed": false
+    },
     {
       "id": "a-wu060-chu-fang",
       "subject_person_id": "iuc_mqu_3jm_A",
@@ -1388,6 +1475,32 @@
     "iuc_mqu_3jm"
   ],
   "preferred_relations": [
+    {
+      "id": "a-jin058-volume-zhou-chu-father",
+      "subject_person_id": "iuc_mqu_3jm_A",
+      "object_person_id": "iuc_mqu_3jm",
+      "predicate": "father",
+      "qualifiers": {
+        "source_term": "父魴"
+      },
+      "evidence": [
+        {
+          "work_id": "w-jinshu",
+          "book_id": "b-jinshu-058",
+          "chapter_id": "c-jinshu-058-zhou-chu",
+          "source_id": "s-jinshu-058-zhou-chu-ws1775463",
+          "paragraph_id": "c-jinshu-058-zhou-chu:p001",
+          "quote": "周處，字子隱，義興陽羨人也。父魴，呉鄱陽太守。處少孤，未弱冠，膂力絶人，好馳騁田獵，不修細行，縱情肆欲，州曲患之。處自知爲人所惡，乃慨然有改勵之志，謂父老曰：「今時和歳豐，何苦而不樂耶？」父老歎曰：「三害未除，何樂之有！」處曰：「何謂也？」答曰：「南山白額猛獸，長橋下蛟，並子爲三矣。」處曰：「若此爲患，吾能除之。」父老曰：「子若除之，則一郡之大慶，非徒去害而已。」處乃入山射殺猛獸，因投水搏蛟，蛟或沈或浮，行數十里，而處與之俱，經三日三夜，人謂死，皆相慶賀。處果殺蛟而反，聞鄕里相慶，始知人患己之甚，乃入呉尋二陸。時機不在，見雲，具以情告，曰：「欲自修而年已蹉跎，恐將無及。」雲曰：「古人貴朝聞夕改，君前途尚可，且患志之不立，何憂名之不彰！」處遂勵志好學，有文思，志存義烈，言必忠信克己。期年，州府交辟。仕呉爲東觀左丞。孫皓末，爲無難督。及呉平，王渾登建鄴宮釃酒，既酣，謂呉人曰：「諸君亡國之餘，得無戚乎？」處對曰：「漢末分崩，三國鼎立，魏滅於前，呉亡於後，亡國之戚，豈惟一人！」渾有慚色。",
+          "subject_person_mention_id": "c-jinshu-058-zhou-chu:p001:m0000",
+          "object_person_mention_id": "c-jinshu-058-zhou-chu:p001:m0015"
+        }
+      ],
+      "status": "source_attested",
+      "interpretation_note": "吳鄱陽太守周魴。",
+      "reviewer": "Codex（AI代理）",
+      "model": null,
+      "human_reviewed": false
+    },
     {
       "id": "a-wu060-chu-fang",
       "subject_person_id": "iuc_mqu_3jm_A",
