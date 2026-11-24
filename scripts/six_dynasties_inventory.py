@@ -110,6 +110,15 @@ def source_paragraphs(lines, layout=None):
         return source_paragraphs(lines, 'wikisource_mixed_indented_prose')
     if layout == 'wikisource_mixed_indented_prose':
         return [received_text(line.removeprefix(':').removeprefix('　　')) for line in lines]
+    if layout == 'jinshu053_received_text':
+        result = []
+        for line in lines:
+            text = received_text(line.removeprefix('　　'))
+            text = text.replace('{{quote|{{red|', '').replace('：「{{red|', '：「')
+            text = text.removesuffix('}}').replace('。}}」', '。」')
+            if text:
+                result.append(text)
+        return result
     if layout == 'wikisource_blockquote_colon':
         return [received_text(line.removeprefix(':')) for line in lines]
     if layout == 'liang021_split_issued_wangxi_death':
