@@ -6,11 +6,58 @@
   "identity_note": "卷七十九引潘岳《宜城宣君誄》，與卷四十充婦郭槐、宜城君及諡宣相合。",
   "review": "ai_provisional",
   "names": [
-    "宜城宣君"
+    "宜城宣君",
+    "郭槐",
+    "宜城君"
   ],
   "titles": [],
   "addresses": [],
   "occurrences": [
+    {
+      "number": 53,
+      "category": "",
+      "title": "晉書卷五十三·愍懷太子",
+      "paragraph_id": "c-jinshu-053-minhuai-yu:p004",
+      "count": 2,
+      "raw_count": 2,
+      "duplicate_count": 0,
+      "counting_policy": "independent_fixed_witness_occurrences",
+      "quote": "矣。宜深自謙屈，以防其變，廣延賢士，用自輔翼。」太子不能從。初，賈后母郭槐欲以韓壽女為太子妃，太子亦欲婚韓氏以自固。而壽妻賈午及后皆不聽，而為太子聘王衍小女惠風。太子聞衍長女美，而賈后為謐聘之，心不能平，頗以為言。謐嘗與太子圍棋，爭道，成都王穎見而訶謐，謐意愈不平，因此譖太",
+      "paragraph_ids": [
+        "c-jinshu-053-minhuai-yu:p004",
+        "c-jinshu-053-minhuai-yu:p006"
+      ],
+      "mention_ids": [
+        "c-jinshu-053-minhuai-yu:p004:m0102",
+        "c-jinshu-053-minhuai-yu:p006:m0084"
+      ],
+      "mention_paragraph_ids": {
+        "c-jinshu-053-minhuai-yu:p004:m0102": "c-jinshu-053-minhuai-yu:p004",
+        "c-jinshu-053-minhuai-yu:p006:m0084": "c-jinshu-053-minhuai-yu:p006"
+      },
+      "mention_id": "c-jinshu-053-minhuai-yu:p004:m0102",
+      "occurrence_groups": [
+        {
+          "canonical_mention_id": "c-jinshu-053-minhuai-yu:p004:m0102",
+          "mention_ids": [
+            "c-jinshu-053-minhuai-yu:p004:m0102"
+          ],
+          "kind": "paragraph"
+        },
+        {
+          "canonical_mention_id": "c-jinshu-053-minhuai-yu:p006:m0084",
+          "mention_ids": [
+            "c-jinshu-053-minhuai-yu:p006:m0084"
+          ],
+          "kind": "paragraph"
+        }
+      ],
+      "work_id": "w-jinshu",
+      "book_id": "b-jinshu-053",
+      "chapter_id": "c-jinshu-053-minhuai-yu",
+      "source_id": "s-jinshu-053-minhuai-yu-ws2595666",
+      "work_title": "晉書"
+    },
     {
       "number": 79,
       "category": "",
@@ -49,6 +96,32 @@
   ],
   "table_occurrences": [],
   "sources": [
+    {
+      "chapter_id": "c-jinshu-053-minhuai-yu",
+      "work_id": "w-jinshu",
+      "book_id": "b-jinshu-053",
+      "source_id": "s-jinshu-053-minhuai-yu-ws2595666",
+      "source": {
+        "title": "晉書卷五十三·愍懷太子",
+        "provider": "Wikisource",
+        "permalink": "https://zh.wikisource.org/w/index.php?oldid=2595666",
+        "url": "https://zh.wikisource.org/w/index.php?oldid=2595666",
+        "revision_id": 2595666,
+        "edition": "維基文庫固定修訂",
+        "accessed_on": "2026-11-22",
+        "review_status": "text_checked",
+        "image_verified": false,
+        "rights": "古代原文；數位轉錄依維基文庫授權。",
+        "license_url": "https://creativecommons.org/licenses/by-sa/4.0/",
+        "extent": "晉書卷五十三·愍懷太子",
+        "text_scope": "complete_biography_unit",
+        "raw_path": "source-evidence/jin096-wanghuifeng/external/ws53-ws2595666.wikitext",
+        "raw_file_sha256": "6164fe2fb3f9c2033f45f7bf35b2b32b7c32ac5884fb65f9511b7e7ef0af8968",
+        "collation_witnesses": [
+          "source-evidence/jin053-roll/volume-reading.json"
+        ]
+      }
+    },
     {
       "chapter_id": "c-jinshu-079-xielang-family",
       "work_id": "w-jinshu",
@@ -714,8 +787,36 @@
       }
     }
   ],
-  "relations": [],
+  "relations": [
+    {
+      "id": "a-jin053-volume-jia-mother",
+      "subject_person_id": "c27_590_7e3_A",
+      "object_person_id": "v23_rka_rb6",
+      "predicate": "mother",
+      "qualifiers": {
+        "source_term": "賈后母郭槐"
+      },
+      "evidence": [
+        {
+          "work_id": "w-jinshu",
+          "book_id": "b-jinshu-053",
+          "chapter_id": "c-jinshu-053-minhuai-yu",
+          "source_id": "s-jinshu-053-minhuai-yu-ws2595666",
+          "paragraph_id": "c-jinshu-053-minhuai-yu:p004",
+          "quote": "太子性剛，知賈謐恃后之貴，不能假借之。謐至東宮，或舍之而於後庭遊戲。詹事裴權諫曰：「賈謐甚有寵于中宮，而有不順之色，若一旦交構，大事去矣。宜深自謙屈，以防其變，廣延賢士，用自輔翼。」太子不能從。初，賈后母郭槐欲以韓壽女為太子妃，太子亦欲婚韓氏以自固。而壽妻賈午及后皆不聽，而為太子聘王衍小女惠風。太子聞衍長女美，而賈后為謐聘之，心不能平，頗以為言。謐嘗與太子圍棋，爭道，成都王穎見而訶謐，謐意愈不平，因此譖太子于后曰：「太子廣買田業，多畜私財以結小人者，為賈氏故也。密聞其言云：『皇后萬歲後，吾當魚肉之。』非但如是也，若宮車晏駕，彼居大位，依楊氏故事，誅臣等而廢后於金墉，如反手耳。不如早為之所，更立慈順者以自防衛。」后納其言，又宣揚太子之短，布諸遠近。于時朝野咸知賈后有害太子意。中護軍趙俊請太子廢后，太子不聽。",
+          "subject_person_mention_id": "c-jinshu-053-minhuai-yu:p004:m0099",
+          "object_person_mention_id": "c-jinshu-053-minhuai-yu:p004:m0102"
+        }
+      ],
+      "status": "source_attested",
+      "interpretation_note": "賈后之母在原句具名。",
+      "reviewer": "Codex（AI代理）",
+      "model": null,
+      "human_reviewed": false
+    }
+  ],
   "related_people": {
+    "c27_590_7e3_A": "賈充女（荀顗薦選太子妃者）",
     "v23_rka_rb6": "郭槐"
   },
   "dates": [],
@@ -782,7 +883,34 @@
   "person_ids": [
     "v23_rka_rb6"
   ],
-  "preferred_relations": [],
+  "preferred_relations": [
+    {
+      "id": "a-jin053-volume-jia-mother",
+      "subject_person_id": "c27_590_7e3_A",
+      "object_person_id": "v23_rka_rb6",
+      "predicate": "mother",
+      "qualifiers": {
+        "source_term": "賈后母郭槐"
+      },
+      "evidence": [
+        {
+          "work_id": "w-jinshu",
+          "book_id": "b-jinshu-053",
+          "chapter_id": "c-jinshu-053-minhuai-yu",
+          "source_id": "s-jinshu-053-minhuai-yu-ws2595666",
+          "paragraph_id": "c-jinshu-053-minhuai-yu:p004",
+          "quote": "太子性剛，知賈謐恃后之貴，不能假借之。謐至東宮，或舍之而於後庭遊戲。詹事裴權諫曰：「賈謐甚有寵于中宮，而有不順之色，若一旦交構，大事去矣。宜深自謙屈，以防其變，廣延賢士，用自輔翼。」太子不能從。初，賈后母郭槐欲以韓壽女為太子妃，太子亦欲婚韓氏以自固。而壽妻賈午及后皆不聽，而為太子聘王衍小女惠風。太子聞衍長女美，而賈后為謐聘之，心不能平，頗以為言。謐嘗與太子圍棋，爭道，成都王穎見而訶謐，謐意愈不平，因此譖太子于后曰：「太子廣買田業，多畜私財以結小人者，為賈氏故也。密聞其言云：『皇后萬歲後，吾當魚肉之。』非但如是也，若宮車晏駕，彼居大位，依楊氏故事，誅臣等而廢后於金墉，如反手耳。不如早為之所，更立慈順者以自防衛。」后納其言，又宣揚太子之短，布諸遠近。于時朝野咸知賈后有害太子意。中護軍趙俊請太子廢后，太子不聽。",
+          "subject_person_mention_id": "c-jinshu-053-minhuai-yu:p004:m0099",
+          "object_person_mention_id": "c-jinshu-053-minhuai-yu:p004:m0102"
+        }
+      ],
+      "status": "source_attested",
+      "interpretation_note": "賈后之母在原句具名。",
+      "reviewer": "Codex（AI代理）",
+      "model": null,
+      "human_reviewed": false
+    }
+  ],
   "age_assertions": [],
   "life_events": [],
   "life_event_date_decisions": [],
