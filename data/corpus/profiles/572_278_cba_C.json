@@ -115,6 +115,79 @@
   "addresses": [],
   "occurrences": [
     {
+      "number": 47,
+      "category": "",
+      "title": "三國志卷四十七·孫權及附敘",
+      "paragraph_id": "c-sanguozhi-047-sun-quan:p038",
+      "count": 5,
+      "raw_count": 5,
+      "duplicate_count": 0,
+      "counting_policy": "independent_fixed_witness_occurrences",
+      "quote": "其智也；據三州虎視於天下，是其雄也；屈身於陛下，是其略也。」帝欲封權子登，權以登年幼，上書辭封，重遣西曹掾沈珩陳謝，並獻方物。立登爲王太子。",
+      "paragraph_ids": [
+        "c-sanguozhi-047-sun-quan:p038",
+        "c-sanguozhi-047-sun-quan:p070",
+        "c-sanguozhi-047-sun-quan:p092"
+      ],
+      "mention_ids": [
+        "c-sanguozhi-047-sun-quan:p038:m0198",
+        "c-sanguozhi-047-sun-quan:p038:m0202",
+        "c-sanguozhi-047-sun-quan:p038:m0227",
+        "c-sanguozhi-047-sun-quan:p070:m0094",
+        "c-sanguozhi-047-sun-quan:p092:m0181"
+      ],
+      "mention_paragraph_ids": {
+        "c-sanguozhi-047-sun-quan:p038:m0198": "c-sanguozhi-047-sun-quan:p038",
+        "c-sanguozhi-047-sun-quan:p038:m0202": "c-sanguozhi-047-sun-quan:p038",
+        "c-sanguozhi-047-sun-quan:p038:m0227": "c-sanguozhi-047-sun-quan:p038",
+        "c-sanguozhi-047-sun-quan:p070:m0094": "c-sanguozhi-047-sun-quan:p070",
+        "c-sanguozhi-047-sun-quan:p092:m0181": "c-sanguozhi-047-sun-quan:p092"
+      },
+      "mention_id": "c-sanguozhi-047-sun-quan:p038:m0198",
+      "occurrence_groups": [
+        {
+          "canonical_mention_id": "c-sanguozhi-047-sun-quan:p038:m0198",
+          "mention_ids": [
+            "c-sanguozhi-047-sun-quan:p038:m0198"
+          ],
+          "kind": "paragraph"
+        },
+        {
+          "canonical_mention_id": "c-sanguozhi-047-sun-quan:p038:m0202",
+          "mention_ids": [
+            "c-sanguozhi-047-sun-quan:p038:m0202"
+          ],
+          "kind": "paragraph"
+        },
+        {
+          "canonical_mention_id": "c-sanguozhi-047-sun-quan:p038:m0227",
+          "mention_ids": [
+            "c-sanguozhi-047-sun-quan:p038:m0227"
+          ],
+          "kind": "paragraph"
+        },
+        {
+          "canonical_mention_id": "c-sanguozhi-047-sun-quan:p070:m0094",
+          "mention_ids": [
+            "c-sanguozhi-047-sun-quan:p070:m0094"
+          ],
+          "kind": "paragraph"
+        },
+        {
+          "canonical_mention_id": "c-sanguozhi-047-sun-quan:p092:m0181",
+          "mention_ids": [
+            "c-sanguozhi-047-sun-quan:p092:m0181"
+          ],
+          "kind": "paragraph"
+        }
+      ],
+      "work_id": "w-sanguozhi",
+      "book_id": "b-sanguozhi-047",
+      "chapter_id": "c-sanguozhi-047-sun-quan",
+      "source_id": "s-sanguozhi-047-sun-quan-ws2602668",
+      "work_title": "三國志"
+    },
+    {
       "number": 50,
       "category": "",
       "title": "徐夫人傳",
@@ -1143,6 +1216,33 @@
   "table_occurrences": [],
   "sources": [
     {
+      "chapter_id": "c-sanguozhi-047-sun-quan",
+      "work_id": "w-sanguozhi",
+      "book_id": "b-sanguozhi-047",
+      "source_id": "s-sanguozhi-047-sun-quan-ws2602668",
+      "source": {
+        "title": "三國志卷四十七·孫權及附敘",
+        "provider": "Wikisource",
+        "permalink": "https://zh.wikisource.org/w/index.php?oldid=2602668",
+        "url": "https://zh.wikisource.org/w/index.php?oldid=2602668",
+        "revision_id": 2602668,
+        "edition": "維基文庫固定修訂",
+        "accessed_on": "2026-11-22",
+        "review_status": "text_checked",
+        "image_verified": false,
+        "rights": "古代原文；數位轉錄依維基文庫授權。",
+        "license_url": "https://creativecommons.org/licenses/by-sa/4.0/",
+        "extent": "三國志卷四十七·孫權及附敘",
+        "text_scope": "complete_biography_unit",
+        "raw_path": "source-evidence/sanguozhi047-roll/ws2602668.wikitext",
+        "raw_file_sha256": "947cbb6a295e8aea0056cf89cb662d648f14f4fefacdf149ea46f3ccd9c8af01",
+        "collation_witnesses": [
+          "source-evidence/sanguozhi047-roll/main-reading.json",
+          "source-evidence/sanguozhi047-roll/close-reading.json"
+        ]
+      }
+    },
+    {
       "chapter_id": "c-sanguozhi-050-xu",
       "work_id": "w-sanguozhi",
       "book_id": "b-sanguozhi-050",
@@ -1682,6 +1782,32 @@
     }
   ],
   "relations": [
+    {
+      "id": "a-wu047-deng-father",
+      "subject_person_id": "572_278_cba_C",
+      "object_person_id": "572_278_cba",
+      "predicate": "father",
+      "qualifiers": {
+        "source_term": "權子登"
+      },
+      "evidence": [
+        {
+          "work_id": "w-sanguozhi",
+          "book_id": "b-sanguozhi-047",
+          "chapter_id": "c-sanguozhi-047-sun-quan",
+          "source_id": "s-sanguozhi-047-sun-quan-ws2602668",
+          "paragraph_id": "c-sanguozhi-047-sun-quan:p038",
+          "quote": "　　是歳，劉備師軍來伐，至巫山、秭歸，使使誘導武陵蠻夷，假與印傳，許之封賞。於是諸縣及五谿民皆反爲蜀。權以陸遜爲督，督朱然、潘璋等以拒之。遣都尉趙咨使魏。魏帝問曰：「吳王何等主也?」咨對曰：「聰明仁智，雄略之主也。」帝問其狀，咨曰：「納魯肅於凡品，是其聰也；拔呂蒙於行陳，是其明也；獲於禁而不害，是其仁也；取荊州而兵不血刃，是其智也；據三州虎視於天下，是其雄也；屈身於陛下，是其略也。」帝欲封權子登，權以登年幼，上書辭封，重遣西曹掾沈珩陳謝，並獻方物。立登爲王太子。",
+          "subject_person_mention_id": "c-sanguozhi-047-sun-quan:p038:m0198",
+          "object_person_mention_id": "c-sanguozhi-047-sun-quan:p038:m0051"
+        }
+      ],
+      "status": "source_attested",
+      "interpretation_note": "按同段主語及稱謂錄親屬原詞。",
+      "reviewer": "Codex（AI代理）",
+      "model": null,
+      "human_reviewed": false
+    },
     {
       "id": "a-wu050-xu-nurture",
       "subject_person_id": "572_278_cba_C",
@@ -2561,6 +2687,32 @@
     "572_278_cba_C"
   ],
   "preferred_relations": [
+    {
+      "id": "a-wu047-deng-father",
+      "subject_person_id": "572_278_cba_C",
+      "object_person_id": "572_278_cba",
+      "predicate": "father",
+      "qualifiers": {
+        "source_term": "權子登"
+      },
+      "evidence": [
+        {
+          "work_id": "w-sanguozhi",
+          "book_id": "b-sanguozhi-047",
+          "chapter_id": "c-sanguozhi-047-sun-quan",
+          "source_id": "s-sanguozhi-047-sun-quan-ws2602668",
+          "paragraph_id": "c-sanguozhi-047-sun-quan:p038",
+          "quote": "　　是歳，劉備師軍來伐，至巫山、秭歸，使使誘導武陵蠻夷，假與印傳，許之封賞。於是諸縣及五谿民皆反爲蜀。權以陸遜爲督，督朱然、潘璋等以拒之。遣都尉趙咨使魏。魏帝問曰：「吳王何等主也?」咨對曰：「聰明仁智，雄略之主也。」帝問其狀，咨曰：「納魯肅於凡品，是其聰也；拔呂蒙於行陳，是其明也；獲於禁而不害，是其仁也；取荊州而兵不血刃，是其智也；據三州虎視於天下，是其雄也；屈身於陛下，是其略也。」帝欲封權子登，權以登年幼，上書辭封，重遣西曹掾沈珩陳謝，並獻方物。立登爲王太子。",
+          "subject_person_mention_id": "c-sanguozhi-047-sun-quan:p038:m0198",
+          "object_person_mention_id": "c-sanguozhi-047-sun-quan:p038:m0051"
+        }
+      ],
+      "status": "source_attested",
+      "interpretation_note": "按同段主語及稱謂錄親屬原詞。",
+      "reviewer": "Codex（AI代理）",
+      "model": null,
+      "human_reviewed": false
+    },
     {
       "id": "a-wu050-xu-nurture",
       "subject_person_id": "572_278_cba_C",
