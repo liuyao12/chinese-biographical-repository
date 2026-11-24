@@ -10,7 +10,8 @@ def _mentions(p, person):
 
 
 def _biographical_head(p, marks):
-    return any(m['start'] == 0 and re.match(r'[，,]?(字|者[，,]|立|[^，。；曰]{1,12}人也祖)', p['text'][m['end']:])
+    return any(not p['text'][:m['start']].strip()
+               and re.match(r'[，,]?(字|者[，,]|立|[^，。；曰]{1,12}人也祖)', p['text'][m['end']:])
                for m in marks)
 
 
@@ -104,7 +105,7 @@ def _direction(p, subjects, objects, term):
                     if subject['end'] <= a and (
                             between in ('', '之', '謂', '隨', '初繼', '出繼', '之郡以其', '三年，以其')
                             or re.fullmatch(r'年[一二三四五六七八九十百]+疑之謂', between)
-                            or (_biographical_head(p, subjects) and subject['start'] == 0)
+                            or _biographical_head(p, (subject,))
                             or (role == '季父' and between.endswith('其')
                                 and _biographical_head(p, subjects))
                             or (role == '季父' and re.fullmatch(r'大父行[^，。；]+[，,]生捕', between))):
