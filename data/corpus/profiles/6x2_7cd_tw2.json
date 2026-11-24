@@ -316,6 +316,51 @@
       "work_title": "晉書"
     },
     {
+      "number": 60,
+      "category": "",
+      "title": "晉書卷六十·李含",
+      "paragraph_id": "c-jinshu-060-lihan:p001",
+      "count": 2,
+      "raw_count": 2,
+      "duplicate_count": 0,
+      "counting_policy": "independent_fixed_witness_occurrences",
+      "quote": "臺儀，葬訖除喪。尚書趙浚有內寵，疾含不事己，遂奏含不應除喪。本州大中正傅祗以名義貶含。中丞傅咸上表理含曰：",
+      "paragraph_ids": [
+        "c-jinshu-060-lihan:p001",
+        "c-jinshu-060-lihan:p004"
+      ],
+      "mention_ids": [
+        "c-jinshu-060-lihan:p001:m0179",
+        "c-jinshu-060-lihan:p004:m0111"
+      ],
+      "mention_paragraph_ids": {
+        "c-jinshu-060-lihan:p001:m0179": "c-jinshu-060-lihan:p001",
+        "c-jinshu-060-lihan:p004:m0111": "c-jinshu-060-lihan:p004"
+      },
+      "mention_id": "c-jinshu-060-lihan:p001:m0179",
+      "occurrence_groups": [
+        {
+          "canonical_mention_id": "c-jinshu-060-lihan:p001:m0179",
+          "mention_ids": [
+            "c-jinshu-060-lihan:p001:m0179"
+          ],
+          "kind": "paragraph"
+        },
+        {
+          "canonical_mention_id": "c-jinshu-060-lihan:p004:m0111",
+          "mention_ids": [
+            "c-jinshu-060-lihan:p004:m0111"
+          ],
+          "kind": "paragraph"
+        }
+      ],
+      "work_id": "w-jinshu",
+      "book_id": "b-jinshu-060",
+      "chapter_id": "c-jinshu-060-lihan",
+      "source_id": "s-jinshu-060-lihan-ws2413335",
+      "work_title": "晉書"
+    },
+    {
       "number": 76,
       "category": "",
       "title": "王彬傳",
@@ -404,6 +449,32 @@
         "raw_file_sha256": "6164fe2fb3f9c2033f45f7bf35b2b32b7c32ac5884fb65f9511b7e7ef0af8968",
         "collation_witnesses": [
           "source-evidence/jin053-roll/volume-reading.json"
+        ]
+      }
+    },
+    {
+      "chapter_id": "c-jinshu-060-lihan",
+      "work_id": "w-jinshu",
+      "book_id": "b-jinshu-060",
+      "source_id": "s-jinshu-060-lihan-ws2413335",
+      "source": {
+        "title": "晉書卷六十·李含",
+        "provider": "Wikisource",
+        "permalink": "https://zh.wikisource.org/w/index.php?oldid=2413335",
+        "url": "https://zh.wikisource.org/w/index.php?oldid=2413335",
+        "revision_id": 2413335,
+        "edition": "維基文庫固定修訂",
+        "accessed_on": "2026-11-22",
+        "review_status": "text_checked",
+        "image_verified": false,
+        "rights": "古代原文；數位轉錄依維基文庫授權。",
+        "license_url": "https://creativecommons.org/licenses/by-sa/4.0/",
+        "extent": "晉書卷六十·李含",
+        "text_scope": "complete_biography_unit",
+        "raw_path": "source-evidence/jin060-roll/ws2413335.wikitext",
+        "raw_file_sha256": "672a23c2f4dfdcdbd4f29d98e5bc94bacbf82cba6e5759da81c2a7f6add365ef",
+        "collation_witnesses": [
+          "source-evidence/jin060-roll/volume-reading.json"
         ]
       }
     },
@@ -531,8 +602,36 @@
       }
     }
   ],
-  "relations": [],
+  "relations": [
+    {
+      "id": "a-jin060-fu-cousins",
+      "subject_person_id": "6x2_7cd_tw2",
+      "object_person_id": "2rh_opu_xtn",
+      "predicate": "agnatic_cousin",
+      "qualifiers": {
+        "source_term": "臣從弟祗"
+      },
+      "evidence": [
+        {
+          "work_id": "w-jinshu",
+          "book_id": "b-jinshu-060",
+          "chapter_id": "c-jinshu-060-lihan",
+          "source_id": "s-jinshu-060-lihan-ws2413335",
+          "paragraph_id": "c-jinshu-060-lihan:p004",
+          "quote": "又含自以隴西人，雖戶屬始平，非所綜悉。自初見使為中正，反復言辭，說非始平國人，不宜為中正。後為郎中令，又自以選官引臺府為比，以讓常山太守蘇韶，辭意懇切，形于文墨。含之固讓，乃在王未薨之前，葬後躊躇，窮於對罰而攝職耳。臣從弟祗為州都，意在欲隆風教，議含已過，不良之人遂相扇動，冀挾名義，法外致案，足有所邀，中正龐騰便割含品。臣雖無祁大夫之德，見含為騰所侮，謹表以聞，乞朝廷以時博議，無令騰得妄弄刀尺。",
+          "subject_person_mention_id": "c-jinshu-060-lihan:p004:m0111",
+          "object_person_mention_id": "c-jinshu-060-lihan:p004:m0108"
+        }
+      ],
+      "status": "source_attested",
+      "interpretation_note": "傅咸上表稱祗為從弟。",
+      "reviewer": "Codex（AI代理）",
+      "model": null,
+      "human_reviewed": false
+    }
+  ],
   "related_people": {
+    "2rh_opu_xtn": "傅咸〔司隸〕",
     "6x2_7cd_tw2": "傅祗"
   },
   "dates": [],
@@ -540,7 +639,34 @@
   "person_ids": [
     "6x2_7cd_tw2"
   ],
-  "preferred_relations": [],
+  "preferred_relations": [
+    {
+      "id": "a-jin060-fu-cousins",
+      "subject_person_id": "6x2_7cd_tw2",
+      "object_person_id": "2rh_opu_xtn",
+      "predicate": "agnatic_cousin",
+      "qualifiers": {
+        "source_term": "臣從弟祗"
+      },
+      "evidence": [
+        {
+          "work_id": "w-jinshu",
+          "book_id": "b-jinshu-060",
+          "chapter_id": "c-jinshu-060-lihan",
+          "source_id": "s-jinshu-060-lihan-ws2413335",
+          "paragraph_id": "c-jinshu-060-lihan:p004",
+          "quote": "又含自以隴西人，雖戶屬始平，非所綜悉。自初見使為中正，反復言辭，說非始平國人，不宜為中正。後為郎中令，又自以選官引臺府為比，以讓常山太守蘇韶，辭意懇切，形于文墨。含之固讓，乃在王未薨之前，葬後躊躇，窮於對罰而攝職耳。臣從弟祗為州都，意在欲隆風教，議含已過，不良之人遂相扇動，冀挾名義，法外致案，足有所邀，中正龐騰便割含品。臣雖無祁大夫之德，見含為騰所侮，謹表以聞，乞朝廷以時博議，無令騰得妄弄刀尺。",
+          "subject_person_mention_id": "c-jinshu-060-lihan:p004:m0111",
+          "object_person_mention_id": "c-jinshu-060-lihan:p004:m0108"
+        }
+      ],
+      "status": "source_attested",
+      "interpretation_note": "傅咸上表稱祗為從弟。",
+      "reviewer": "Codex（AI代理）",
+      "model": null,
+      "human_reviewed": false
+    }
+  ],
   "age_assertions": [],
   "life_events": [],
   "life_event_date_decisions": [],

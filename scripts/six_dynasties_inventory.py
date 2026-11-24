@@ -6,12 +6,12 @@ from pathlib import Path
 
 ROOT = Path(__file__).resolve().parents[1]
 STAGES = ('entry_checked', 'full_text', 'first_pass', 'item_reviewed')
-NANQI_FIXED_LAYOUTS = (
+GLYPH_PROJECTED_LAYOUTS = (
     'nanqi041_fixed_text', 'nanqi042_fixed_text', 'nanqi043_fixed_text',
     'nanqi044_fixed_text', 'nanqi045_fixed_text', 'nanqi046_fixed_text', 'nanqi046_legacy_text',
     'nanqi048_fixed_text', 'nanqi050_fixed_text', 'nanqi051_fixed_text', 'nanqi052_fixed_text', 'nanqi053_fixed_text',
     'nanqi054_fixed_text', 'nanqi055_fixed_text', 'nanqi056_fixed_text', 'nanqi057_fixed_text', 'nanqi058_fixed_text',
-    'nanqi059_fixed_text',
+    'nanqi059_fixed_text', 'jinshu055_received_text',
 )
 EARLY_WU_SLICE_LAYOUTS = ('sanguozhi047_projected_slice', 'sanguozhi048_projected_slice')
 
@@ -119,6 +119,20 @@ def source_paragraphs(lines, layout=None):
             if text:
                 result.append(text)
         return result
+    if layout == 'jinshu054_received_text':
+        return [received_text(line.removeprefix('{{quote|').removeprefix('　　').removesuffix('}}'))
+                for line in lines]
+    if layout == 'jinshu056_received_text':
+        return [received_text(line.removeprefix('{{quote|').removesuffix('}}').strip(' 　'))
+                for line in lines]
+    if layout == 'jinshu059_received_text':
+        return source_paragraphs([line.replace("'''", '') for line in lines], 'jinshu056_received_text')
+    if layout == 'jinshu060_received_text':
+        return source_paragraphs([
+            line.removeprefix(':　　{{blue|').removeprefix('{{quote|{{blue|')
+                .removeprefix(':').removesuffix('}}}}').replace("'''", '')
+            for line in lines
+        ], 'jinshu056_received_text')
     if layout == 'wikisource_blockquote_colon':
         return [received_text(line.removeprefix(':')) for line in lines]
     if layout == 'liang021_split_issued_wangxi_death':
@@ -272,7 +286,7 @@ def source_paragraphs(lines, layout=None):
             from sanguozhi064_slices import slice_text
         volume = int(layout[9:12])
         return [slice_text(line, volume) for line in lines]
-    if layout in NANQI_FIXED_LAYOUTS:
+    if layout in GLYPH_PROJECTED_LAYOUTS:
         try:
             from scripts.nanqi041_projection import decode_line
         except ImportError:
@@ -461,7 +475,7 @@ def verify(root=ROOT):
             assert chapter['id'] == cid and chapter['source']['revision_id'] == survey['revision']
             paragraphs, text = chapter_passage(entry, chapter)
             assert source_paragraphs(selected, entry.get('source_layout')) == text, title
-            if entry.get('source_layout') in NANQI_FIXED_LAYOUTS:
+            if entry.get('source_layout') in GLYPH_PROJECTED_LAYOUTS:
                 try:
                     from scripts.nanqi041_projection import verify_positions
                 except ImportError:

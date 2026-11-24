@@ -9,7 +9,17 @@ class ChenzhunIdentityTests(unittest.TestCase):
  def test_seven_generation_statement_not_new_fathers(self):
   a=next(a for a in J('corpus/songshu/060-assertions.json')['assertions']if a['id']=='a-songshu060-family-012');self.assertEqual(a['object_person_id'],CANON);self.assertEqual(a['predicate'],'ancestor');self.assertEqual(a['qualifiers']['source_term'],'七世祖');self.assertEqual(a['qualifiers']['generation_distance'],7);fa=J('registry/family-assemblies.json');self.assertFalse(any(m['person_id']=='lir_36y_g5d'and m.get('parent_person_id')==CANON for f in fa['assemblies']for m in f['members']))
  def test_chenpu_and_jin089_retained(self):
-  c=J('corpus/jinshu/089-jishao.json');m=next(m for p in c['paragraphs']for m in p['mentions']if m['surface']=='陳准');self.assertEqual(m['person_id'],CANON);reg=J('registry/persons.json');p=next(p for p in reg['persons']if p['id']==CANON);sources={e['source_id']for e in p['evidence']};self.assertTrue({'s-songshu-060-xunbozi','s-sanguozhi-022-chenqun-chentai','s-jinshu-089-jishao'}<=sources)
+  chapter = J('corpus/jinshu/089-jishao.json')
+  mention = next(m for paragraph in chapter['paragraphs'] for m in paragraph['mentions']
+                 if m['surface'] == '陳准')
+  self.assertEqual(mention['person_id'], CANON)
+  person = next(p for p in J('registry/persons.json')['persons'] if p['id'] == CANON)
+  sources = {entry['source_id'] for entry in person['evidence'] if 'source_id' in entry}
+  self.assertTrue({
+      's-songshu-060-xunbozi',
+      's-sanguozhi-022-chenqun-chentai',
+      's-jinshu-089-jishao',
+  } <= sources)
  def test_pei_followup_resolves_same_source_anchor(self):
   c=J('corpus/jinshu/089-jishao.json');m=next(m for p in c['paragraphs']for m in p['mentions']if m['surface']=='裴頠');self.assertEqual(m['kind'],'person');self.assertEqual(m['person_id'],'svm_6fh_34r');self.assertEqual(m['id'],'c-jinshu-089-jishao:p002:m0059')
 if __name__=='__main__':unittest.main()

@@ -10,7 +10,8 @@
     "世將",
     "廙",
     "王平南廙",
-    "王廣"
+    "王廣",
+    "暠"
   ],
   "titles": [
     {
@@ -1663,6 +1664,51 @@
       "book_id": "b-jinshu-058",
       "chapter_id": "c-jinshu-058-jin043-guoshu",
       "source_id": "s-jinshu-058-jin043-guoshu",
+      "work_title": "晉書"
+    },
+    {
+      "number": 58,
+      "category": "",
+      "title": "晉書卷五十八·周訪",
+      "paragraph_id": "c-jinshu-058-zhou-fang:p004",
+      "count": 2,
+      "raw_count": 2,
+      "duplicate_count": 0,
+      "counting_policy": "independent_fixed_witness_occurrences",
+      "quote": "兵數萬，破陶侃於石城，攻平南將軍荀崧於宛，不克，引兵向江陵。王敦以從弟暠爲荊州刺史，令督護征虜將軍趙誘、襄陽太守硃軌、陵江將軍黃峻等討曾，而大敗於女觀湖，誘、軌並遇害。曾遂逐暠，徑造沔口，大爲寇害，威震江、沔。元帝命訪擊之。訪有眾八千，進至沌陽。曾等銳氣甚盛，訪曰：「先人",
+      "paragraph_ids": [
+        "c-jinshu-058-zhou-fang:p004",
+        "c-jinshu-058-zhou-fang:p005"
+      ],
+      "mention_ids": [
+        "c-jinshu-058-zhou-fang:p004:m0094",
+        "c-jinshu-058-zhou-fang:p005:m0036"
+      ],
+      "mention_paragraph_ids": {
+        "c-jinshu-058-zhou-fang:p004:m0094": "c-jinshu-058-zhou-fang:p004",
+        "c-jinshu-058-zhou-fang:p005:m0036": "c-jinshu-058-zhou-fang:p005"
+      },
+      "mention_id": "c-jinshu-058-zhou-fang:p004:m0094",
+      "occurrence_groups": [
+        {
+          "canonical_mention_id": "c-jinshu-058-zhou-fang:p004:m0094",
+          "mention_ids": [
+            "c-jinshu-058-zhou-fang:p004:m0094"
+          ],
+          "kind": "paragraph"
+        },
+        {
+          "canonical_mention_id": "c-jinshu-058-zhou-fang:p005:m0036",
+          "mention_ids": [
+            "c-jinshu-058-zhou-fang:p005:m0036"
+          ],
+          "kind": "paragraph"
+        }
+      ],
+      "work_id": "w-jinshu",
+      "book_id": "b-jinshu-058",
+      "chapter_id": "c-jinshu-058-zhou-fang",
+      "source_id": "s-jinshu-058-zhou-fang-ws1775463",
       "work_title": "晉書"
     },
     {
@@ -14093,6 +14139,32 @@
       }
     },
     {
+      "chapter_id": "c-jinshu-058-zhou-fang",
+      "work_id": "w-jinshu",
+      "book_id": "b-jinshu-058",
+      "source_id": "s-jinshu-058-zhou-fang-ws1775463",
+      "source": {
+        "title": "晉書卷五十八·周訪",
+        "provider": "Wikisource",
+        "permalink": "https://zh.wikisource.org/w/index.php?oldid=1775463",
+        "url": "https://zh.wikisource.org/w/index.php?oldid=1775463",
+        "revision_id": 1775463,
+        "edition": "維基文庫固定修訂",
+        "accessed_on": "2026-11-22",
+        "review_status": "text_checked",
+        "image_verified": false,
+        "rights": "古代原文；數位轉錄依維基文庫授權。",
+        "license_url": "https://creativecommons.org/licenses/by-sa/4.0/",
+        "extent": "晉書卷五十八·周訪",
+        "text_scope": "complete_biography_unit",
+        "raw_path": "source-evidence/jin058-roll/ws1775463.wikitext",
+        "raw_file_sha256": "01b260cc8d1f216f20c4cfc426037be1e3f987097d24b45303e3659b07fe9083",
+        "collation_witnesses": [
+          "source-evidence/jin058-roll/volume-reading.json"
+        ]
+      }
+    },
+    {
       "chapter_id": "c-jinshu-061-zhou-family",
       "work_id": "w-jinshu",
       "book_id": "b-jinshu-061",
@@ -18269,6 +18341,22 @@
       "human_reviewed": false,
       "model": null,
       "zi": "世將"
+    }
+  ],
+  "source_reading_cases": [
+    {
+      "id": "c-jinshu-058-zhou-fang:source_variant4-89",
+      "kind": "source_variant",
+      "person_id": "7r6_k52_qji_ABDA",
+      "source_quote": "王敦以從弟暠爲荊州刺史",
+      "reading": "武英殿本同一官職及同段人物作廙，固定本後文王廙去職，兩名形並存。",
+      "note": "武英殿本同一官職及同段人物作廙，固定本後文王廙去職，兩名形並存。",
+      "paragraph_id": "c-jinshu-058-zhou-fang:p004",
+      "start_codepoint": 89,
+      "end_codepoint": 100,
+      "human_reviewed": false,
+      "chapter_id": "c-jinshu-058-zhou-fang",
+      "source_id": "s-jinshu-058-zhou-fang-ws1775463"
     }
   ],
   "person_references": [
