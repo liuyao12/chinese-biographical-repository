@@ -47,6 +47,41 @@
       "work_title": "三國志"
     },
     {
+      "number": 54,
+      "category": "",
+      "title": "晉書卷五十四·陸耽",
+      "paragraph_id": "c-jinshu-054-lu-dan:p001",
+      "count": 1,
+      "raw_count": 1,
+      "duplicate_count": 0,
+      "counting_policy": "independent_fixed_witness_occurrences",
+      "quote": "雲弟耽為平東祭酒，亦有清譽，與雲同遇害。大將軍參軍孫惠與淮南內史硃誕書曰：「不意三陸相攜暗朝，一旦湮滅，道業淪喪，痛酷之深，荼毒難言。國喪俊望，悲豈一人！」其為州裏所痛悼如此。後東海王越討穎，移檄天下，亦以",
+      "paragraph_ids": [
+        "c-jinshu-054-lu-dan:p001"
+      ],
+      "mention_ids": [
+        "c-jinshu-054-lu-dan:p001:m0002"
+      ],
+      "mention_paragraph_ids": {
+        "c-jinshu-054-lu-dan:p001:m0002": "c-jinshu-054-lu-dan:p001"
+      },
+      "mention_id": "c-jinshu-054-lu-dan:p001:m0002",
+      "occurrence_groups": [
+        {
+          "canonical_mention_id": "c-jinshu-054-lu-dan:p001:m0002",
+          "mention_ids": [
+            "c-jinshu-054-lu-dan:p001:m0002"
+          ],
+          "kind": "paragraph"
+        }
+      ],
+      "work_id": "w-jinshu",
+      "book_id": "b-jinshu-054",
+      "chapter_id": "c-jinshu-054-lu-dan",
+      "source_id": "s-jinshu-054-lu-dan-ws2605147",
+      "work_title": "晉書"
+    },
+    {
       "number": 58,
       "category": "",
       "title": "陸抗傳",
@@ -84,6 +119,32 @@
   ],
   "table_occurrences": [],
   "sources": [
+    {
+      "chapter_id": "c-jinshu-054-lu-dan",
+      "work_id": "w-jinshu",
+      "book_id": "b-jinshu-054",
+      "source_id": "s-jinshu-054-lu-dan-ws2605147",
+      "source": {
+        "title": "晉書卷五十四·陸耽",
+        "provider": "Wikisource",
+        "permalink": "https://zh.wikisource.org/w/index.php?oldid=2605147",
+        "url": "https://zh.wikisource.org/w/index.php?oldid=2605147",
+        "revision_id": 2605147,
+        "edition": "維基文庫固定修訂",
+        "accessed_on": "2026-11-22",
+        "review_status": "text_checked",
+        "image_verified": false,
+        "rights": "古代原文；數位轉錄依維基文庫授權。",
+        "license_url": "https://creativecommons.org/licenses/by-sa/4.0/",
+        "extent": "晉書卷五十四·陸耽",
+        "text_scope": "complete_biography_unit",
+        "raw_path": "source-evidence/sanguozhi051-roll-close/external/jin054-ws2605147.wikitext",
+        "raw_file_sha256": "77518bfb06b9a1a917849c9d669f0459fca826ab6fe88d54706f72b0314606c0",
+        "collation_witnesses": [
+          "source-evidence/jin054-roll/volume-reading.json"
+        ]
+      }
+    },
     {
       "chapter_id": "c-sanguozhi-051-ben",
       "work_id": "w-sanguozhi",
@@ -139,18 +200,119 @@
       }
     }
   ],
-  "relations": [],
+  "relations": [
+    {
+      "id": "a-jin054-volume-dan-brother",
+      "subject_person_id": "2lr_p1t_rkm",
+      "object_person_id": "40p_eb9_ggr_D",
+      "predicate": "brother",
+      "qualifiers": {
+        "source_term": "雲弟耽"
+      },
+      "evidence": [
+        {
+          "work_id": "w-jinshu",
+          "book_id": "b-jinshu-054",
+          "chapter_id": "c-jinshu-054-lu-dan",
+          "source_id": "s-jinshu-054-lu-dan-ws2605147",
+          "paragraph_id": "c-jinshu-054-lu-dan:p001",
+          "quote": "雲弟耽為平東祭酒，亦有清譽，與雲同遇害。大將軍參軍孫惠與淮南內史硃誕書曰：「不意三陸相攜暗朝，一旦湮滅，道業淪喪，痛酷之深，荼毒難言。國喪俊望，悲豈一人！」其為州裏所痛悼如此。後東海王越討穎，移檄天下，亦以機、雲兄弟枉害罪狀穎雲。",
+          "subject_person_mention_id": "c-jinshu-054-lu-dan:p001:m0002",
+          "object_person_mention_id": "c-jinshu-054-lu-dan:p001:m0000"
+        }
+      ],
+      "status": "source_attested",
+      "interpretation_note": "原句以耽為雲弟。",
+      "reviewer": "Codex（AI代理）",
+      "model": null,
+      "human_reviewed": false
+    }
+  ],
   "related_people": {
-    "2lr_p1t_rkm": "陸耽"
+    "2lr_p1t_rkm": "陸耽",
+    "40p_eb9_ggr_D": "陸雲"
   },
   "dates": [],
   "name_components": [],
+  "source_reading_cases": [
+    {
+      "id": "c-jinshu-054-lu-dan:source_review1-0",
+      "kind": "source_review",
+      "person_id": "2lr_p1t_rkm",
+      "source_quote": "雲弟耽為平東祭酒，亦有清譽，與雲同遇害。大將軍參軍孫惠與淮南內史硃誕書曰：「不意三陸相攜暗朝，一旦湮滅，道業淪喪，痛酷之深，荼毒難言。國喪俊望，悲豈一人！」其為州裏所痛悼如此。後東海王越討穎，移檄天下，亦以機、雲兄弟枉害罪狀穎雲。",
+      "reading": "陸耽為雲弟，平東祭酒，同被害。孫惠致硃誕書及東海王越檄各依本段。",
+      "note": "陸耽為雲弟，平東祭酒，同被害。孫惠致硃誕書及東海王越檄各依本段。",
+      "paragraph_id": "c-jinshu-054-lu-dan:p001",
+      "start_codepoint": 0,
+      "end_codepoint": 115,
+      "human_reviewed": false,
+      "chapter_id": "c-jinshu-054-lu-dan",
+      "source_id": "s-jinshu-054-lu-dan-ws2605147"
+    }
+  ],
   "person_ids": [
     "2lr_p1t_rkm"
   ],
-  "preferred_relations": [],
+  "preferred_relations": [
+    {
+      "id": "a-jin054-volume-dan-brother",
+      "subject_person_id": "2lr_p1t_rkm",
+      "object_person_id": "40p_eb9_ggr_D",
+      "predicate": "brother",
+      "qualifiers": {
+        "source_term": "雲弟耽"
+      },
+      "evidence": [
+        {
+          "work_id": "w-jinshu",
+          "book_id": "b-jinshu-054",
+          "chapter_id": "c-jinshu-054-lu-dan",
+          "source_id": "s-jinshu-054-lu-dan-ws2605147",
+          "paragraph_id": "c-jinshu-054-lu-dan:p001",
+          "quote": "雲弟耽為平東祭酒，亦有清譽，與雲同遇害。大將軍參軍孫惠與淮南內史硃誕書曰：「不意三陸相攜暗朝，一旦湮滅，道業淪喪，痛酷之深，荼毒難言。國喪俊望，悲豈一人！」其為州裏所痛悼如此。後東海王越討穎，移檄天下，亦以機、雲兄弟枉害罪狀穎雲。",
+          "subject_person_mention_id": "c-jinshu-054-lu-dan:p001:m0002",
+          "object_person_mention_id": "c-jinshu-054-lu-dan:p001:m0000"
+        }
+      ],
+      "status": "source_attested",
+      "interpretation_note": "原句以耽為雲弟。",
+      "reviewer": "Codex（AI代理）",
+      "model": null,
+      "human_reviewed": false
+    }
+  ],
   "age_assertions": [],
-  "life_events": [],
+  "life_events": [
+    {
+      "id": "le-jin054-volume-dan-death",
+      "person_id": "2lr_p1t_rkm",
+      "event_type": "death",
+      "source_term": "同遇害",
+      "source_anchor": {
+        "paragraph_id": "c-jinshu-054-lu-dan:p001",
+        "start": 16,
+        "end": 19,
+        "surface": "同遇害"
+      },
+      "date_expression": null,
+      "evidence": [
+        {
+          "work_id": "w-jinshu",
+          "book_id": "b-jinshu-054",
+          "chapter_id": "c-jinshu-054-lu-dan",
+          "source_id": "s-jinshu-054-lu-dan-ws2605147",
+          "paragraph_id": "c-jinshu-054-lu-dan:p001",
+          "quote": "雲弟耽為平東祭酒，亦有清譽，與雲同遇害。大將軍參軍孫惠與淮南內史硃誕書曰：「不意三陸相攜暗朝，一旦湮滅，道業淪喪，痛酷之深，荼毒難言。國喪俊望，悲豈一人！」其為州裏所痛悼如此。後東海王越討穎，移檄天下，亦以機、雲兄弟枉害罪狀穎雲。",
+          "person_mention_id": "c-jinshu-054-lu-dan:p001:m0002"
+        }
+      ],
+      "status": "source_attested",
+      "interpretation_note": "按同段人物與次第核所屬卒事。",
+      "reviewer": "Codex（AI代理）",
+      "model": null,
+      "human_reviewed": false
+    }
+  ],
   "life_event_date_decisions": [],
   "selected_life_event_dates": []
 }

@@ -1,0 +1,194 @@
+{
+  "schema_version": 1,
+  "id": "w2h_xg9_xz5",
+  "canonical_person_id": "w2h_xg9_xz5",
+  "label": "周彝〔周勰弟〕",
+  "identity_note": "周彝〔周勰弟〕，見本組原文及身份互校。",
+  "review": "ai_provisional",
+  "names": [
+    "彝"
+  ],
+  "titles": [],
+  "addresses": [],
+  "occurrences": [
+    {
+      "number": 58,
+      "category": "",
+      "title": "晉書卷五十八·周彝",
+      "paragraph_id": "c-jinshu-058-zhou-yi:p001",
+      "count": 1,
+      "raw_count": 1,
+      "duplicate_count": 0,
+      "counting_policy": "independent_fixed_witness_occurrences",
+      "quote": "勰弟彝，少知名，元帝辟爲丞相掾，早亡。",
+      "paragraph_ids": [
+        "c-jinshu-058-zhou-yi:p001"
+      ],
+      "mention_ids": [
+        "c-jinshu-058-zhou-yi:p001:m0002"
+      ],
+      "mention_paragraph_ids": {
+        "c-jinshu-058-zhou-yi:p001:m0002": "c-jinshu-058-zhou-yi:p001"
+      },
+      "mention_id": "c-jinshu-058-zhou-yi:p001:m0002",
+      "occurrence_groups": [
+        {
+          "canonical_mention_id": "c-jinshu-058-zhou-yi:p001:m0002",
+          "mention_ids": [
+            "c-jinshu-058-zhou-yi:p001:m0002"
+          ],
+          "kind": "paragraph"
+        }
+      ],
+      "work_id": "w-jinshu",
+      "book_id": "b-jinshu-058",
+      "chapter_id": "c-jinshu-058-zhou-yi",
+      "source_id": "s-jinshu-058-zhou-yi-ws1775463",
+      "work_title": "晉書"
+    }
+  ],
+  "table_occurrences": [],
+  "sources": [
+    {
+      "chapter_id": "c-jinshu-058-zhou-yi",
+      "work_id": "w-jinshu",
+      "book_id": "b-jinshu-058",
+      "source_id": "s-jinshu-058-zhou-yi-ws1775463",
+      "source": {
+        "title": "晉書卷五十八·周彝",
+        "provider": "Wikisource",
+        "permalink": "https://zh.wikisource.org/w/index.php?oldid=1775463",
+        "url": "https://zh.wikisource.org/w/index.php?oldid=1775463",
+        "revision_id": 1775463,
+        "edition": "維基文庫固定修訂",
+        "accessed_on": "2026-11-22",
+        "review_status": "text_checked",
+        "image_verified": false,
+        "rights": "古代原文；數位轉錄依維基文庫授權。",
+        "license_url": "https://creativecommons.org/licenses/by-sa/4.0/",
+        "extent": "晉書卷五十八·周彝",
+        "text_scope": "complete_biography_unit",
+        "raw_path": "source-evidence/jin058-roll/ws1775463.wikitext",
+        "raw_file_sha256": "01b260cc8d1f216f20c4cfc426037be1e3f987097d24b45303e3659b07fe9083",
+        "collation_witnesses": [
+          "source-evidence/jin058-roll/volume-reading.json"
+        ]
+      }
+    }
+  ],
+  "relations": [
+    {
+      "id": "a-jin058-volume-zhou-yi-brother",
+      "subject_person_id": "w2h_xg9_xz5",
+      "object_person_id": "o1j_w2l_0gv",
+      "predicate": "brother",
+      "qualifiers": {
+        "source_term": "勰弟彝"
+      },
+      "evidence": [
+        {
+          "work_id": "w-jinshu",
+          "book_id": "b-jinshu-058",
+          "chapter_id": "c-jinshu-058-zhou-yi",
+          "source_id": "s-jinshu-058-zhou-yi-ws1775463",
+          "paragraph_id": "c-jinshu-058-zhou-yi:p001",
+          "quote": "勰弟彝，少知名，元帝辟爲丞相掾，早亡。",
+          "subject_person_mention_id": "c-jinshu-058-zhou-yi:p001:m0002",
+          "object_person_mention_id": "c-jinshu-058-zhou-yi:p001:m0000"
+        }
+      ],
+      "status": "source_attested",
+      "interpretation_note": "以勰弟起傳。",
+      "reviewer": "Codex（AI代理）",
+      "model": null,
+      "human_reviewed": false
+    }
+  ],
+  "related_people": {
+    "o1j_w2l_0gv": "周勰〔周玘子、字彥和〕",
+    "w2h_xg9_xz5": "周彝〔周勰弟〕"
+  },
+  "dates": [],
+  "name_components": [],
+  "source_reading_cases": [
+    {
+      "id": "c-jinshu-058-zhou-yi:source_review1-0",
+      "kind": "source_review",
+      "person_id": "w2h_xg9_xz5",
+      "source_quote": "勰弟彝，少知名，元帝辟爲丞相掾，早亡。",
+      "reading": "周彝為勰弟，辟丞相掾，早卒。",
+      "note": "周彝為勰弟，辟丞相掾，早卒。",
+      "paragraph_id": "c-jinshu-058-zhou-yi:p001",
+      "start_codepoint": 0,
+      "end_codepoint": 19,
+      "human_reviewed": false,
+      "chapter_id": "c-jinshu-058-zhou-yi",
+      "source_id": "s-jinshu-058-zhou-yi-ws1775463"
+    }
+  ],
+  "person_ids": [
+    "w2h_xg9_xz5"
+  ],
+  "preferred_relations": [
+    {
+      "id": "a-jin058-volume-zhou-yi-brother",
+      "subject_person_id": "w2h_xg9_xz5",
+      "object_person_id": "o1j_w2l_0gv",
+      "predicate": "brother",
+      "qualifiers": {
+        "source_term": "勰弟彝"
+      },
+      "evidence": [
+        {
+          "work_id": "w-jinshu",
+          "book_id": "b-jinshu-058",
+          "chapter_id": "c-jinshu-058-zhou-yi",
+          "source_id": "s-jinshu-058-zhou-yi-ws1775463",
+          "paragraph_id": "c-jinshu-058-zhou-yi:p001",
+          "quote": "勰弟彝，少知名，元帝辟爲丞相掾，早亡。",
+          "subject_person_mention_id": "c-jinshu-058-zhou-yi:p001:m0002",
+          "object_person_mention_id": "c-jinshu-058-zhou-yi:p001:m0000"
+        }
+      ],
+      "status": "source_attested",
+      "interpretation_note": "以勰弟起傳。",
+      "reviewer": "Codex（AI代理）",
+      "model": null,
+      "human_reviewed": false
+    }
+  ],
+  "age_assertions": [],
+  "life_events": [
+    {
+      "id": "le-jin058-volume-zhou-yi-death",
+      "person_id": "w2h_xg9_xz5",
+      "event_type": "death",
+      "source_term": "早亡",
+      "source_anchor": {
+        "paragraph_id": "c-jinshu-058-zhou-yi:p001",
+        "start": 16,
+        "end": 18,
+        "surface": "早亡"
+      },
+      "date_expression": null,
+      "evidence": [
+        {
+          "work_id": "w-jinshu",
+          "book_id": "b-jinshu-058",
+          "chapter_id": "c-jinshu-058-zhou-yi",
+          "source_id": "s-jinshu-058-zhou-yi-ws1775463",
+          "paragraph_id": "c-jinshu-058-zhou-yi:p001",
+          "quote": "勰弟彝，少知名，元帝辟爲丞相掾，早亡。",
+          "person_mention_id": "c-jinshu-058-zhou-yi:p001:m0002"
+        }
+      ],
+      "status": "source_attested",
+      "interpretation_note": "按同段人物與次第核所屬卒事。",
+      "reviewer": "Codex（AI代理）",
+      "model": null,
+      "human_reviewed": false
+    }
+  ],
+  "life_event_date_decisions": [],
+  "selected_life_event_dates": []
+}
