@@ -7,7 +7,8 @@
   "review": "ai_provisional",
   "names": [
     "卞嗣之",
-    "奉伯"
+    "奉伯",
+    "嗣之"
   ],
   "titles": [],
   "addresses": [
@@ -103,6 +104,41 @@
     }
   ],
   "occurrences": [
+    {
+      "number": 52,
+      "category": "",
+      "title": "南齊書卷五十二·丘靈鞠、檀超、卞彬、丘巨源",
+      "paragraph_id": "c-nanqishu-052-early-literature-complete:p011",
+      "count": 1,
+      "raw_count": 1,
+      "duplicate_count": 0,
+      "counting_policy": "independent_fixed_witness_occurrences",
+      "quote": "　　卞彬字士蔚，濟陰冤句人也。祖嗣之，中領軍。父延之，有剛氣，爲上虞令。",
+      "paragraph_ids": [
+        "c-nanqishu-052-early-literature-complete:p011"
+      ],
+      "mention_ids": [
+        "c-nanqishu-052-early-literature-complete:p011:m0016"
+      ],
+      "mention_paragraph_ids": {
+        "c-nanqishu-052-early-literature-complete:p011:m0016": "c-nanqishu-052-early-literature-complete:p011"
+      },
+      "mention_id": "c-nanqishu-052-early-literature-complete:p011:m0016",
+      "occurrence_groups": [
+        {
+          "canonical_mention_id": "c-nanqishu-052-early-literature-complete:p011:m0016",
+          "mention_ids": [
+            "c-nanqishu-052-early-literature-complete:p011:m0016"
+          ],
+          "kind": "paragraph"
+        }
+      ],
+      "work_id": "w-nanqishu",
+      "book_id": "b-nanqishu-052",
+      "chapter_id": "c-nanqishu-052-early-literature-complete",
+      "source_id": "s-nanqishu-052-early-literature-complete-ws2371079",
+      "work_title": "南齊書"
+    },
     {
       "number": null,
       "category": "",
@@ -423,6 +459,32 @@
           }
         ]
       }
+    },
+    {
+      "chapter_id": "c-nanqishu-052-early-literature-complete",
+      "work_id": "w-nanqishu",
+      "book_id": "b-nanqishu-052",
+      "source_id": "s-nanqishu-052-early-literature-complete-ws2371079",
+      "source": {
+        "title": "南齊書卷五十二·丘靈鞠、檀超、卞彬、丘巨源",
+        "provider": "Wikisource",
+        "permalink": "https://zh.wikisource.org/w/index.php?oldid=2371079",
+        "url": "https://zh.wikisource.org/w/index.php?oldid=2371079",
+        "revision_id": 2371079,
+        "edition": "維基文庫固定修訂",
+        "accessed_on": "2026-11-21",
+        "review_status": "text_checked",
+        "image_verified": false,
+        "rights": "古代原文；數位轉錄依維基文庫授權。",
+        "license_url": "https://creativecommons.org/licenses/by-sa/4.0/",
+        "extent": "南齊書卷五十二·丘靈鞠、檀超、卞彬、丘巨源",
+        "text_scope": "complete_biography_unit",
+        "raw_path": "source-evidence/nanshi059-wangsengru/ws2371079.wikitext",
+        "raw_file_sha256": "0d21e91bd7417b412efe653110e18a597d7858db9f48f63191b88b3bf13d1364",
+        "collation_witnesses": [
+          "source-evidence/nanqi052-roll/early-literature-reading.json"
+        ]
+      }
     }
   ],
   "relations": [
@@ -524,11 +586,39 @@
       "reviewer": "Codex（AI 代理）",
       "human_reviewed": false,
       "model": null
+    },
+    {
+      "id": "a-qi052-bianbin-grandfather",
+      "subject_person_id": "fha_6ju_xi9",
+      "object_person_id": "6w0_y3q_k7s",
+      "predicate": "grandfather",
+      "qualifiers": {
+        "source_term": "祖嗣之",
+        "lineage": "paternal"
+      },
+      "evidence": [
+        {
+          "work_id": "w-nanqishu",
+          "book_id": "b-nanqishu-052",
+          "chapter_id": "c-nanqishu-052-early-literature-complete",
+          "source_id": "s-nanqishu-052-early-literature-complete-ws2371079",
+          "paragraph_id": "c-nanqishu-052-early-literature-complete:p011",
+          "quote": "　　卞彬字士蔚，濟陰冤句人也。祖嗣之，中領軍。父延之，有剛氣，爲上虞令。",
+          "subject_person_mention_id": "c-nanqishu-052-early-literature-complete:p011:m0002",
+          "object_person_mention_id": "c-nanqishu-052-early-literature-complete:p011:m0016"
+        }
+      ],
+      "status": "source_attested",
+      "interpretation_note": "祖為中領軍。",
+      "reviewer": "Codex（AI代理）",
+      "model": null,
+      "human_reviewed": false
     }
   ],
   "related_people": {
     "6w0_y3q_k7s": "卞嗣之（字奉伯）",
-    "7r6_k52_qji_ABDBAAC": "王張願（王建之小女）"
+    "7r6_k52_qji_ABDBAAC": "王張願（王建之小女）",
+    "fha_6ju_xi9": "卞彬（字士蔚，濟陰冤句人）"
   },
   "dates": [],
   "name_components": [
@@ -683,6 +773,33 @@
       "reviewer": "Codex（AI 代理）",
       "human_reviewed": false,
       "model": null
+    },
+    {
+      "id": "a-qi052-bianbin-grandfather",
+      "subject_person_id": "fha_6ju_xi9",
+      "object_person_id": "6w0_y3q_k7s",
+      "predicate": "grandfather",
+      "qualifiers": {
+        "source_term": "祖嗣之",
+        "lineage": "paternal"
+      },
+      "evidence": [
+        {
+          "work_id": "w-nanqishu",
+          "book_id": "b-nanqishu-052",
+          "chapter_id": "c-nanqishu-052-early-literature-complete",
+          "source_id": "s-nanqishu-052-early-literature-complete-ws2371079",
+          "paragraph_id": "c-nanqishu-052-early-literature-complete:p011",
+          "quote": "　　卞彬字士蔚，濟陰冤句人也。祖嗣之，中領軍。父延之，有剛氣，爲上虞令。",
+          "subject_person_mention_id": "c-nanqishu-052-early-literature-complete:p011:m0002",
+          "object_person_mention_id": "c-nanqishu-052-early-literature-complete:p011:m0016"
+        }
+      ],
+      "status": "source_attested",
+      "interpretation_note": "祖為中領軍。",
+      "reviewer": "Codex（AI代理）",
+      "model": null,
+      "human_reviewed": false
     }
   ],
   "age_assertions": [],
