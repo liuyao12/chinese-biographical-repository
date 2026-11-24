@@ -1213,7 +1213,7 @@
       "sha256": "0dcd8247799793e88edf3bee9a4b72eb5e0b0097a2bd2b84c8888c828c95feac",
       "heading_survey": "complete",
       "heading_locator_scheme": "wikisource_equals_lines",
-      "embedded_account_survey": "partial",
+      "embedded_account_survey": "complete",
       "excluded_sections": [
         {
           "heading_line": 84,
@@ -1226,12 +1226,8 @@
           "reason": "卷末史論、贊及校注器。"
         }
       ],
-      "pending_boundaries": [
-        {
-          "person": "蕭諶、蕭坦之、江祏傳內未題附敘",
-          "note": "王晏傳末王德元與王詡已有獨立原段。44行蕭誕，46行蕭誄及伯父仙民，61行子賞，63行從兄翼宗，80行江祀、禧、廞與82行劉暄等待逐傳。第65行為蕭坦之身後贈官，第82行含江祏、江祀、劉暄追贈。"
-        }
-      ]
+      "pending_boundaries": [],
+      "source_review_path": "source-evidence/nanqi042-roll/close-reading.json"
     },
     {
       "book_id": "b-nanqishu-043",
@@ -19201,58 +19197,594 @@
       "mixed_chapter": true
     },
     {
-      "book_id": "b-nanqishu-042",
       "title": "蕭諶",
-      "unit_kind": "headed_account",
+      "book_id": "b-nanqishu-042",
+      "chapter_id": "c-nanqishu-042-xiaochen-complete",
+      "chapter_path": "corpus/nanqishu/042-xiaochen-complete.json",
+      "mixed_chapter": true,
+      "paragraph_ids": [
+        "c-nanqishu-042-xiaochen-complete:p001",
+        "c-nanqishu-042-xiaochen-complete:p002",
+        "c-nanqishu-042-xiaochen-complete:p003",
+        "c-nanqishu-042-xiaochen-complete:p004",
+        "c-nanqishu-042-xiaochen-complete:p005",
+        "c-nanqishu-042-xiaochen-complete:p006"
+      ],
+      "source_layout": "nanqi042_fixed_text",
+      "full_text": true,
+      "first_pass": true,
+      "entry_checked": true,
+      "item_reviewed": true,
+      "item_review_path": "source-evidence/nanqi042-roll/chen-reading.json",
       "first_line": 32,
-      "last_line": 42,
-      "start_codepoint": 2,
-      "end_codepoint": 45,
-      "opening": "蕭諶字彥孚，南蘭陵蘭",
-      "closing": "也。」至是文猷伏誅。",
-      "chapter_id": null,
-      "entry_checked": true,
-      "full_text": false,
-      "first_pass": false,
-      "item_reviewed": false,
+      "last_line": 32,
+      "start_codepoint": 0,
+      "end_codepoint": 34,
+      "opening": "　　蕭諶字彥孚，南蘭",
+      "closing": "父仙伯，桂陽國參軍。",
+      "unit_kind": "headed_account",
       "heading_line": 31,
-      "heading_raw": "==蕭諶=="
+      "heading_raw": "==蕭諶==",
+      "continuation_spans": [
+        {
+          "first_line": 34,
+          "last_line": 34,
+          "start_codepoint": 0,
+          "end_codepoint": 213,
+          "opening": "　　諶初爲州從事，晉",
+          "closing": "濮陽太守，領御仗主。"
+        },
+        {
+          "first_line": 36,
+          "last_line": 36,
+          "start_codepoint": 0,
+          "end_codepoint": 305,
+          "opening": "　　{{YL|永明二",
+          "closing": "素隷服諶，莫有動者。"
+        },
+        {
+          "first_line": 38,
+          "last_line": 38,
+          "start_codepoint": 0,
+          "end_codepoint": 175,
+          "opening": "　　海陵立，轉中領軍",
+          "closing": "具知諶言，深相疑阻。"
+        },
+        {
+          "first_line": 40,
+          "last_line": 40,
+          "start_codepoint": 0,
+          "end_codepoint": 462,
+          "opening": "　　二年六月，上幸華",
+          "closing": "止元惡，餘無所問。」"
+        },
+        {
+          "first_line": 42,
+          "last_line": 42,
+          "start_codepoint": 0,
+          "end_codepoint": 45,
+          "opening": "諶好左道，吳興沈文猷",
+          "closing": "也。」至是文猷伏誅。"
+        }
+      ]
     },
     {
+      "title": "蕭誕",
       "book_id": "b-nanqishu-042",
+      "chapter_id": "c-nanqishu-042-xiaochen-complete",
+      "chapter_path": "corpus/nanqishu/042-xiaochen-complete.json",
+      "mixed_chapter": true,
+      "paragraph_ids": [
+        "c-nanqishu-042-xiaochen-complete:p007"
+      ],
+      "source_layout": "nanqi042_fixed_text",
+      "full_text": true,
+      "first_pass": true,
+      "entry_checked": true,
+      "item_reviewed": true,
+      "item_review_path": "source-evidence/nanqi042-roll/chen-reading.json",
+      "first_line": 44,
+      "last_line": 44,
+      "start_codepoint": 0,
+      "end_codepoint": 211,
+      "opening": "　　諶兄誕，字彥偉，",
+      "closing": "身受戮，家口繫尚方。",
+      "unit_kind": "embedded_account",
+      "parent_heading": "蕭諶"
+    },
+    {
+      "title": "蕭誄",
+      "book_id": "b-nanqishu-042",
+      "chapter_id": "c-nanqishu-042-xiaochen-complete",
+      "chapter_path": "corpus/nanqishu/042-xiaochen-complete.json",
+      "mixed_chapter": true,
+      "paragraph_ids": [
+        "c-nanqishu-042-xiaochen-complete:p008"
+      ],
+      "source_layout": "nanqi042_fixed_text",
+      "full_text": true,
+      "first_pass": true,
+      "entry_checked": true,
+      "item_reviewed": true,
+      "item_review_path": "source-evidence/nanqi042-roll/chen-reading.json",
+      "first_line": 46,
+      "last_line": 46,
+      "start_codepoint": 0,
+      "end_codepoint": 61,
+      "opening": "　　諶弟誄，與諶同豫",
+      "closing": "解司州圍還，同伏誅。",
+      "unit_kind": "embedded_account",
+      "parent_heading": "蕭諶",
+      "paragraph_slices": {
+        "c-nanqishu-042-xiaochen-complete:p008": [
+          {
+            "start": 0,
+            "end": 61
+          }
+        ]
+      }
+    },
+    {
+      "title": "蕭仙民",
+      "book_id": "b-nanqishu-042",
+      "chapter_id": "c-nanqishu-042-xiaochen-complete",
+      "chapter_path": "corpus/nanqishu/042-xiaochen-complete.json",
+      "mixed_chapter": true,
+      "paragraph_ids": [
+        "c-nanqishu-042-xiaochen-complete:p008"
+      ],
+      "source_layout": "nanqi042_fixed_text",
+      "full_text": true,
+      "first_pass": true,
+      "entry_checked": true,
+      "item_reviewed": true,
+      "item_review_path": "source-evidence/nanqi042-roll/chen-reading.json",
+      "first_line": 46,
+      "last_line": 46,
+      "start_codepoint": 61,
+      "end_codepoint": 76,
+      "opening": "諶伯父仙民，官至太中",
+      "closing": "，官至太中大夫，卒。",
+      "unit_kind": "embedded_account",
+      "parent_heading": "蕭諶",
+      "paragraph_slices": {
+        "c-nanqishu-042-xiaochen-complete:p008": [
+          {
+            "start": 61,
+            "end": 76
+          }
+        ]
+      }
+    },
+    {
       "title": "蕭坦之",
-      "unit_kind": "headed_account",
-      "first_line": 49,
-      "last_line": 65,
-      "start_codepoint": 2,
-      "end_codepoint": 25,
-      "opening": "蕭坦之，南蘭陵蘭陵人",
-      "closing": "將軍、開府儀同三司。",
-      "chapter_id": null,
+      "book_id": "b-nanqishu-042",
+      "chapter_id": "c-nanqishu-042-xiaotanzhi-complete",
+      "chapter_path": "corpus/nanqishu/042-xiaotanzhi-complete.json",
+      "mixed_chapter": true,
+      "paragraph_ids": [
+        "c-nanqishu-042-xiaotanzhi-complete:p001",
+        "c-nanqishu-042-xiaotanzhi-complete:p002",
+        "c-nanqishu-042-xiaotanzhi-complete:p003",
+        "c-nanqishu-042-xiaotanzhi-complete:p004",
+        "c-nanqishu-042-xiaotanzhi-complete:p005",
+        "c-nanqishu-042-xiaotanzhi-complete:p006",
+        "c-nanqishu-042-xiaotanzhi-complete:p007",
+        "c-nanqishu-042-xiaotanzhi-complete:p009"
+      ],
+      "source_layout": "nanqi042_fixed_text",
+      "full_text": true,
+      "first_pass": true,
       "entry_checked": true,
-      "full_text": false,
-      "first_pass": false,
-      "item_reviewed": false,
+      "item_reviewed": true,
+      "item_review_path": "source-evidence/nanqi042-roll/tanzhi-reading.json",
+      "first_line": 49,
+      "last_line": 49,
+      "start_codepoint": 0,
+      "end_codepoint": 38,
+      "opening": "　　蕭坦之，南蘭陵蘭",
+      "closing": "勳於世祖，至武進令。",
+      "unit_kind": "headed_account",
       "heading_line": 48,
-      "heading_raw": "==蕭坦之=="
+      "heading_raw": "==蕭坦之==",
+      "continuation_spans": [
+        {
+          "first_line": 51,
+          "last_line": 51,
+          "start_codepoint": 0,
+          "end_codepoint": 134,
+          "opening": "　　坦之與蕭諶同族。",
+          "closing": "正員郎、南魯郡太守。"
+        },
+        {
+          "first_line": 53,
+          "last_line": 53,
+          "start_codepoint": 0,
+          "end_codepoint": 116,
+          "opening": "　　少帝以坦之世祖舊",
+          "closing": "三百戶。徙征南諮議。"
+        },
+        {
+          "first_line": 55,
+          "last_line": 55,
+          "start_codepoint": 0,
+          "end_codepoint": 172,
+          "opening": "　　高宗謀廢少帝，旣",
+          "closing": "日遂廢帝，坦之力也。"
+        },
+        {
+          "first_line": 57,
+          "last_line": 57,
+          "start_codepoint": 0,
+          "end_codepoint": 135,
+          "opening": "　　海陵卽位，除黃門",
+          "closing": "}}，爲侍中、領軍。"
+        },
+        {
+          "first_line": 59,
+          "last_line": 59,
+          "start_codepoint": 0,
+          "end_codepoint": 195,
+          "opening": "　　東昏立，爲侍中、",
+          "closing": "。進爵公，增邑千戶。"
+        },
+        {
+          "first_line": 61,
+          "last_line": 61,
+          "start_codepoint": 0,
+          "end_codepoint": 62,
+          "opening": "　　坦之肥黑無鬚，語",
+          "closing": "領兵圍坦之宅，殺之。"
+        },
+        {
+          "first_line": 65,
+          "last_line": 65,
+          "start_codepoint": 0,
+          "end_codepoint": 25,
+          "opening": "　　和帝中興元年，追",
+          "closing": "將軍、開府儀同三司。"
+        }
+      ],
+      "paragraph_slices": {
+        "c-nanqishu-042-xiaotanzhi-complete:p007": [
+          {
+            "start": 0,
+            "end": 62
+          }
+        ]
+      }
     },
     {
+      "title": "蕭賞",
       "book_id": "b-nanqishu-042",
-      "title": "江祏",
-      "unit_kind": "headed_account",
-      "first_line": 68,
-      "last_line": 82,
-      "start_codepoint": 2,
-      "end_codepoint": 94,
-      "opening": "江祏字弘業，濟陽考城",
-      "closing": "祀散騎常侍、太常卿。",
-      "chapter_id": null,
+      "chapter_id": "c-nanqishu-042-xiaotanzhi-complete",
+      "chapter_path": "corpus/nanqishu/042-xiaotanzhi-complete.json",
+      "mixed_chapter": true,
+      "paragraph_ids": [
+        "c-nanqishu-042-xiaotanzhi-complete:p007"
+      ],
+      "source_layout": "nanqi042_fixed_text",
+      "full_text": true,
+      "first_pass": true,
       "entry_checked": true,
-      "full_text": false,
-      "first_pass": false,
-      "item_reviewed": false,
+      "item_reviewed": true,
+      "item_review_path": "source-evidence/nanqi042-roll/tanzhi-reading.json",
+      "first_line": 61,
+      "last_line": 61,
+      "start_codepoint": 62,
+      "end_codepoint": 73,
+      "opening": "子賞，祕書郎。亦伏誅",
+      "closing": "賞，祕書郎。亦伏誅。",
+      "unit_kind": "embedded_account",
+      "parent_heading": "蕭坦之",
+      "paragraph_slices": {
+        "c-nanqishu-042-xiaotanzhi-complete:p007": [
+          {
+            "start": 62,
+            "end": 73
+          }
+        ]
+      }
+    },
+    {
+      "title": "蕭翼宗",
+      "book_id": "b-nanqishu-042",
+      "chapter_id": "c-nanqishu-042-xiaotanzhi-complete",
+      "chapter_path": "corpus/nanqishu/042-xiaotanzhi-complete.json",
+      "mixed_chapter": true,
+      "paragraph_ids": [
+        "c-nanqishu-042-xiaotanzhi-complete:p008"
+      ],
+      "source_layout": "nanqi042_fixed_text",
+      "full_text": true,
+      "first_pass": true,
+      "entry_checked": true,
+      "item_reviewed": true,
+      "item_review_path": "source-evidence/nanqi042-roll/tanzhi-reading.json",
+      "first_line": 63,
+      "last_line": 63,
+      "start_codepoint": 0,
+      "end_codepoint": 94,
+      "opening": "　　坦之從兄翼宗，爲",
+      "closing": "啓帝，原死，繫尚方。",
+      "unit_kind": "embedded_account",
+      "parent_heading": "蕭坦之"
+    },
+    {
+      "title": "江祏",
+      "book_id": "b-nanqishu-042",
+      "chapter_id": "c-nanqishu-042-jiangshi-complete",
+      "chapter_path": "corpus/nanqishu/042-jiangshi-complete.json",
+      "mixed_chapter": true,
+      "paragraph_ids": [
+        "c-nanqishu-042-jiangshi-complete:p001",
+        "c-nanqishu-042-jiangshi-complete:p002",
+        "c-nanqishu-042-jiangshi-complete:p003",
+        "c-nanqishu-042-jiangshi-complete:p004",
+        "c-nanqishu-042-jiangshi-complete:p005",
+        "c-nanqishu-042-jiangshi-complete:p006",
+        "c-nanqishu-042-jiangshi-complete:p007",
+        "c-nanqishu-042-jiangshi-complete:p008"
+      ],
+      "source_layout": "nanqi042_fixed_text",
+      "full_text": true,
+      "first_pass": true,
+      "entry_checked": true,
+      "item_reviewed": true,
+      "item_review_path": "source-evidence/nanqi042-roll/jiang-reading.json",
+      "first_line": 68,
+      "last_line": 68,
+      "start_codepoint": 0,
+      "end_codepoint": 33,
+      "opening": "　　江祏字弘業，濟陽",
+      "closing": "父德隣，司徒右長史。",
+      "unit_kind": "headed_account",
       "heading_line": 67,
-      "heading_raw": "==江祏=="
+      "heading_raw": "==江祏==",
+      "continuation_spans": [
+        {
+          "first_line": 70,
+          "last_line": 70,
+          "start_codepoint": 0,
+          "end_codepoint": 127,
+          "opening": "　　祏姑爲景皇后，少",
+          "closing": "直郎，補南徐州別駕。"
+        },
+        {
+          "first_line": 72,
+          "last_line": 72,
+          "start_codepoint": 0,
+          "end_codepoint": 308,
+          "opening": "　　高宗輔政，委以心",
+          "closing": "以帝舅亦贈光祿大夫。"
+        },
+        {
+          "first_line": 74,
+          "last_line": 74,
+          "start_codepoint": 0,
+          "end_codepoint": 75,
+          "opening": "　　{{YL|建武二",
+          "closing": "甚睦，待子姪有恩意。"
+        },
+        {
+          "first_line": 76,
+          "last_line": 76,
+          "start_codepoint": 0,
+          "end_codepoint": 172,
+          "opening": "　　上寢疾，{{YL",
+          "closing": "敕，時呼爲「六貴」。"
+        },
+        {
+          "first_line": 78,
+          "last_line": 78,
+          "start_codepoint": 0,
+          "end_codepoint": 371,
+          "opening": "　　帝稍欲行意，孝嗣",
+          "closing": "？」祏、祀同日見殺。"
+        },
+        {
+          "first_line": 80,
+          "last_line": 80,
+          "start_codepoint": 114,
+          "end_codepoint": 145,
+          "opening": "後帝於後堂騎馬致適，",
+          "closing": "，我當復能騎此不？」"
+        },
+        {
+          "first_line": 82,
+          "last_line": 82,
+          "start_codepoint": 52,
+          "end_codepoint": 94,
+          "opening": "和帝中興元年，贈祏衞",
+          "closing": "祀散騎常侍、太常卿。"
+        }
+      ],
+      "paragraph_slices": {
+        "c-nanqishu-042-jiangshi-complete:p007": [
+          {
+            "start": 114,
+            "end": 145
+          }
+        ],
+        "c-nanqishu-042-jiangshi-complete:p008": [
+          {
+            "start": 52,
+            "end": 94
+          }
+        ]
+      }
+    },
+    {
+      "title": "江祀",
+      "book_id": "b-nanqishu-042",
+      "chapter_id": "c-nanqishu-042-jiangshi-complete",
+      "chapter_path": "corpus/nanqishu/042-jiangshi-complete.json",
+      "mixed_chapter": true,
+      "paragraph_ids": [
+        "c-nanqishu-042-jiangshi-complete:p006",
+        "c-nanqishu-042-jiangshi-complete:p007",
+        "c-nanqishu-042-jiangshi-complete:p008"
+      ],
+      "source_layout": "nanqi042_fixed_text",
+      "full_text": true,
+      "first_pass": true,
+      "entry_checked": true,
+      "item_reviewed": true,
+      "item_review_path": "source-evidence/nanqi042-roll/jiang-reading.json",
+      "first_line": 78,
+      "last_line": 78,
+      "start_codepoint": 172,
+      "end_codepoint": 187,
+      "opening": "祏弟祀以少主難保，勸",
+      "closing": "主難保，勸祏立遙光。",
+      "unit_kind": "embedded_account",
+      "parent_heading": "江祏",
+      "continuation_spans": [
+        {
+          "first_line": 78,
+          "last_line": 78,
+          "start_codepoint": 363,
+          "end_codepoint": 371,
+          "opening": "祏、祀同日見殺。",
+          "closing": "祏、祀同日見殺。"
+        },
+        {
+          "first_line": 80,
+          "last_line": 80,
+          "start_codepoint": 0,
+          "end_codepoint": 68,
+          "opening": "　　祀字景昌，初爲南",
+          "closing": "不脩，祀更開掃構立。"
+        },
+        {
+          "first_line": 82,
+          "last_line": 82,
+          "start_codepoint": 84,
+          "end_codepoint": 94,
+          "opening": "祀散騎常侍、太常卿。",
+          "closing": "祀散騎常侍、太常卿。"
+        }
+      ],
+      "paragraph_slices": {
+        "c-nanqishu-042-jiangshi-complete:p006": [
+          {
+            "start": 172,
+            "end": 187
+          },
+          {
+            "start": 363,
+            "end": 371
+          }
+        ],
+        "c-nanqishu-042-jiangshi-complete:p007": [
+          {
+            "start": 0,
+            "end": 68
+          }
+        ],
+        "c-nanqishu-042-jiangshi-complete:p008": [
+          {
+            "start": 84,
+            "end": 94
+          }
+        ]
+      }
+    },
+    {
+      "title": "江禧",
+      "book_id": "b-nanqishu-042",
+      "chapter_id": "c-nanqishu-042-jiangshi-complete",
+      "chapter_path": "corpus/nanqishu/042-jiangshi-complete.json",
+      "mixed_chapter": true,
+      "paragraph_ids": [
+        "c-nanqishu-042-jiangshi-complete:p007"
+      ],
+      "source_layout": "nanqi042_fixed_text",
+      "full_text": true,
+      "first_pass": true,
+      "entry_checked": true,
+      "item_reviewed": true,
+      "item_review_path": "source-evidence/nanqi042-roll/jiang-reading.json",
+      "first_line": 80,
+      "last_line": 80,
+      "start_codepoint": 68,
+      "end_codepoint": 77,
+      "opening": "祀弟禧，居喪早卒。",
+      "closing": "祀弟禧，居喪早卒。",
+      "unit_kind": "embedded_account",
+      "parent_heading": "江祏",
+      "paragraph_slices": {
+        "c-nanqishu-042-jiangshi-complete:p007": [
+          {
+            "start": 68,
+            "end": 77
+          }
+        ]
+      }
+    },
+    {
+      "title": "江廞",
+      "book_id": "b-nanqishu-042",
+      "chapter_id": "c-nanqishu-042-jiangshi-complete",
+      "chapter_path": "corpus/nanqishu/042-jiangshi-complete.json",
+      "mixed_chapter": true,
+      "paragraph_ids": [
+        "c-nanqishu-042-jiangshi-complete:p007"
+      ],
+      "source_layout": "nanqi042_fixed_text",
+      "full_text": true,
+      "first_pass": true,
+      "entry_checked": true,
+      "item_reviewed": true,
+      "item_review_path": "source-evidence/nanqi042-roll/jiang-reading.json",
+      "first_line": 80,
+      "last_line": 80,
+      "start_codepoint": 77,
+      "end_codepoint": 114,
+      "opening": "有子廞，字偉卿，年十",
+      "closing": "無心獨存。」赴井死。",
+      "unit_kind": "embedded_account",
+      "parent_heading": "江祏",
+      "paragraph_slices": {
+        "c-nanqishu-042-jiangshi-complete:p007": [
+          {
+            "start": 77,
+            "end": 114
+          }
+        ]
+      }
+    },
+    {
+      "title": "劉暄",
+      "book_id": "b-nanqishu-042",
+      "chapter_id": "c-nanqishu-042-jiangshi-complete",
+      "chapter_path": "corpus/nanqishu/042-jiangshi-complete.json",
+      "mixed_chapter": true,
+      "paragraph_ids": [
+        "c-nanqishu-042-jiangshi-complete:p008"
+      ],
+      "source_layout": "nanqi042_fixed_text",
+      "full_text": true,
+      "first_pass": true,
+      "entry_checked": true,
+      "item_reviewed": true,
+      "item_review_path": "source-evidence/nanqi042-roll/jiang-reading.json",
+      "first_line": 82,
+      "last_line": 82,
+      "start_codepoint": 0,
+      "end_codepoint": 52,
+      "opening": "　　暄字士穆，出身南",
+      "closing": "千戶。其年，又見殺。",
+      "unit_kind": "embedded_account",
+      "parent_heading": "江祏",
+      "paragraph_slices": {
+        "c-nanqishu-042-jiangshi-complete:p008": [
+          {
+            "start": 0,
+            "end": 52
+          }
+        ]
+      }
     },
     {
       "book_id": "b-nanqishu-043",
