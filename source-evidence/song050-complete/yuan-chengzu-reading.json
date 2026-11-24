@@ -1,0 +1,88 @@
+{
+  "record_type": "fixed_source_complete_item_review",
+  "reviewer": "Codex（AI代理）",
+  "model": null,
+  "human_reviewed": false,
+  "external_witnesses": [],
+  "print_readings": [
+    {
+      "url": "https://upload.wikimedia.org/wikipedia/commons/4/49/NLC892-411999017142-12209_%E4%BA%8C%E5%8D%81%E5%9B%9B%E5%8F%B2_%E7%AC%AC145%E5%86%8A.pdf#page=11",
+      "catalog_record": "https://commons.wikimedia.org/wiki/File:NLC892-411999017142-12209_%E4%BA%8C%E5%8D%81%E5%9B%9B%E5%8F%B2_%E7%AC%AC145%E5%86%8A.pdf",
+      "pdf_sha1": "888def8c99848449305a0142411b32f9b0ca79e8",
+      "pdf_sha256": "5dafc33ab9565bb6f8d44691b15a706f3d4b672c50b837630c79797adbc0b342",
+      "image_sha256": "8f497b849773d1520e98664164c66c8746b1079f6c387305e1a5e2df0df2c6d0",
+      "edition": "清乾隆武英殿本《宋書》，國圖第145冊。",
+      "page": 11,
+      "half": "L",
+      "folio": "十上",
+      "columns_from_right": "7–8",
+      "source_quote": "子承祖嗣承祖卒",
+      "reading": "第七欄追贈語接第八欄刺史，後為嗣爵。"
+    }
+  ],
+  "boundaries": [
+    {
+      "book_id": "b-songshu-050",
+      "title": "垣承祖",
+      "unit_kind": "embedded_account",
+      "chapter_id": "c-songshu-050-yuan-chengzu",
+      "entry_checked": true,
+      "full_text": true,
+      "first_pass": true,
+      "item_reviewed": true,
+      "source_layout": "wikisource_mixed_indented_prose",
+      "first_line": 60,
+      "last_line": 60,
+      "start_codepoint": 0,
+      "end_codepoint": 9,
+      "opening": "子承祖嗣。承祖卒，",
+      "closing": "子承祖嗣。承祖卒，",
+      "parent_heading": "垣護之",
+      "chapter_path": "corpus/songshu/050-yuan-chengzu.json",
+      "paragraph_ids": [
+        "c-songshu-050-yuan-chengzu:p001"
+      ],
+      "item_review_path": "source-evidence/song050-complete/yuan-chengzu-reading.json"
+    }
+  ],
+  "chronology": [],
+  "readings": [
+    {
+      "id": "c-songshu-050-yuan-chengzu:received_sentence1-0",
+      "kind": "received_sentence",
+      "person_id": "bdx_txf_e62_AAA",
+      "source_quote": "子承祖嗣。",
+      "reading": "垣護之死，子承祖嗣益陽縣侯。",
+      "note": "垣護之死，子承祖嗣益陽縣侯。",
+      "paragraph_id": "c-songshu-050-yuan-chengzu:p001",
+      "start_codepoint": 0,
+      "end_codepoint": 5,
+      "human_reviewed": false
+    },
+    {
+      "id": "c-songshu-050-yuan-chengzu:received_sentence1-5",
+      "kind": "received_sentence",
+      "person_id": "bdx_txf_e62_AAA",
+      "source_quote": "承祖卒，",
+      "reading": "承祖卒，卒年未載。",
+      "note": "承祖卒，卒年未載。",
+      "paragraph_id": "c-songshu-050-yuan-chengzu:p001",
+      "start_codepoint": 5,
+      "end_codepoint": 9,
+      "human_reviewed": false
+    },
+    {
+      "id": "c-songshu-050-yuan-chengzu:succession1-0",
+      "kind": "succession",
+      "person_id": "bdx_txf_e62_AAA",
+      "source_quote": "子承祖嗣",
+      "reading": "承祖嗣父護之，相鄰句有其卒。",
+      "note": "承祖嗣父護之，相鄰句有其卒。",
+      "paragraph_id": "c-songshu-050-yuan-chengzu:p001",
+      "start_codepoint": 0,
+      "end_codepoint": 4,
+      "human_reviewed": false
+    }
+  ],
+  "identity_limits": []
+}
