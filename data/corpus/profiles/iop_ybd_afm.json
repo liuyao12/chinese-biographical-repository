@@ -17,7 +17,8 @@
     "南郡王",
     "太孫",
     "少帝",
-    "鬱林王昭業"
+    "鬱林王昭業",
+    "少主"
   ],
   "titles": [],
   "addresses": [],
@@ -1027,6 +1028,50 @@
       "book_id": "b-nanqishu-050",
       "chapter_id": "c-nanqishu-050-princes-complete",
       "source_id": "s-nanqishu-050-princes-complete-ws2272731",
+      "work_title": "南齊書"
+    },
+    {
+      "number": 51,
+      "category": "",
+      "title": "南齊書卷五十一·裴叔業、崔慧景、張欣泰",
+      "paragraph_id": "c-nanqishu-051-pei-cui-zhang-complete:p012",
+      "count": 2,
+      "raw_count": 2,
+      "duplicate_count": 0,
+      "counting_policy": "independent_fixed_witness_occurrences",
+      "quote": "慧景爲持節、督豫州郢州之西陽司州之汝南二郡諸軍事、冠軍將軍、豫州刺史。鬱林卽位，進號征虜將軍。慧景以少主新立，密與虜交通，朝廷疑懼。高宗輔政，遣梁王至壽春安慰之，慧景遣密啓送誠勸進，徵還，爲散騎常侍，左衞將軍。建武二年，虜寇徐、豫，慧景以本官假節向鍾離，受王玄邈節度。尋加冠",
+      "paragraph_ids": [
+        "c-nanqishu-051-pei-cui-zhang-complete:p012"
+      ],
+      "mention_ids": [
+        "c-nanqishu-051-pei-cui-zhang-complete:p012:m0046",
+        "c-nanqishu-051-pei-cui-zhang-complete:p012:m0061"
+      ],
+      "mention_paragraph_ids": {
+        "c-nanqishu-051-pei-cui-zhang-complete:p012:m0046": "c-nanqishu-051-pei-cui-zhang-complete:p012",
+        "c-nanqishu-051-pei-cui-zhang-complete:p012:m0061": "c-nanqishu-051-pei-cui-zhang-complete:p012"
+      },
+      "mention_id": "c-nanqishu-051-pei-cui-zhang-complete:p012:m0046",
+      "occurrence_groups": [
+        {
+          "canonical_mention_id": "c-nanqishu-051-pei-cui-zhang-complete:p012:m0046",
+          "mention_ids": [
+            "c-nanqishu-051-pei-cui-zhang-complete:p012:m0046"
+          ],
+          "kind": "paragraph"
+        },
+        {
+          "canonical_mention_id": "c-nanqishu-051-pei-cui-zhang-complete:p012:m0061",
+          "mention_ids": [
+            "c-nanqishu-051-pei-cui-zhang-complete:p012:m0061"
+          ],
+          "kind": "paragraph"
+        }
+      ],
+      "work_id": "w-nanqishu",
+      "book_id": "b-nanqishu-051",
+      "chapter_id": "c-nanqishu-051-pei-cui-zhang-complete",
+      "source_id": "s-nanqishu-051-pei-cui-zhang-complete-ws1504716",
       "work_title": "南齊書"
     },
     {
@@ -2679,6 +2724,32 @@
         "raw_file_sha256": "2459124c61a488a22b5213cfefd1ca38d0015243f9471998260692781a016207",
         "collation_witnesses": [
           "source-evidence/nanqi050-roll/princes-reading.json"
+        ]
+      }
+    },
+    {
+      "chapter_id": "c-nanqishu-051-pei-cui-zhang-complete",
+      "work_id": "w-nanqishu",
+      "book_id": "b-nanqishu-051",
+      "source_id": "s-nanqishu-051-pei-cui-zhang-complete-ws1504716",
+      "source": {
+        "title": "南齊書卷五十一·裴叔業、崔慧景、張欣泰",
+        "provider": "Wikisource",
+        "permalink": "https://zh.wikisource.org/w/index.php?oldid=1504716",
+        "url": "https://zh.wikisource.org/w/index.php?oldid=1504716",
+        "revision_id": 1504716,
+        "edition": "維基文庫固定修訂",
+        "accessed_on": "2026-11-21",
+        "review_status": "text_checked",
+        "image_verified": false,
+        "rights": "古代原文；數位轉錄依維基文庫授權。",
+        "license_url": "https://creativecommons.org/licenses/by-sa/4.0/",
+        "extent": "南齊書卷五十一·裴叔業、崔慧景、張欣泰",
+        "text_scope": "complete_biography_unit",
+        "raw_path": "source-evidence/song050-complete/external/nanqi051-ws1504716.wikitext",
+        "raw_file_sha256": "01f7d84af76cab584ca29d71f373ac742b7058e7d2b6ef06ba3524319a9c23d5",
+        "collation_witnesses": [
+          "source-evidence/nanqi051-roll/accounts-reading.json"
         ]
       }
     },
