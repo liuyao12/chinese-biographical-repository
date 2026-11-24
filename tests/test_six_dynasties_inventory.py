@@ -5,6 +5,7 @@ from pathlib import Path
 from scripts.six_dynasties_inventory import chapter_passage, received_text, source_paragraphs, source_passage, verify
 from scripts.person_references import reference_errors
 from scripts.family_assemblies import registry_sibling_path_valid
+from scripts.nanqi041_projection import decode_line
 
 
 class SixDynastiesInventoryTest(unittest.TestCase):
@@ -48,6 +49,14 @@ class SixDynastiesInventoryTest(unittest.TestCase):
     def test_markup_projection_keeps_the_displayed_glyph(self):
         self.assertEqual(received_text('與-{范}-交，[[甲|乙]]見[[丙]]。{{YL|元年}}。'), '與范交，乙見丙。元年。')
         self.assertEqual(received_text('張合<ref>別本作張郃。</ref>'), '張合')
+
+    def test_fixed_qi_markup_keeps_both_adjacent_and_joined_glyphs(self):
+        raw = '蕭-{叡}--{眀}-，又見-{叡眀}-。'
+        offset = 12
+        text, spans, marks = decode_line(raw, offset)
+        self.assertEqual(text, '蕭叡眀，又見叡眀。')
+        self.assertEqual(''.join(raw[start-offset:end-offset] for start, end in spans), text)
+        self.assertEqual([row['source'] for row in marks], ['叡', '眀', '叡眀'])
 
     def test_full_entries_match_fixed_witness_and_progress(self):
         books, counts = verify()
