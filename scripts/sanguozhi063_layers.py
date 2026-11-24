@@ -17,7 +17,7 @@ def shown(text, offset):
   if text.startswith('{{',i):
    z=bounds(text,i);mid=text.find('|',i+2,z);kind=text[i+2:mid] if mid!=-1 else text[i+2:z-2]
    if kind=='gap' and mid==-1:i=z;continue
-   assert kind in ('YL','blue','red','quote','另','校'),(kind,text[i:z]);e=text.find('|',mid+1,z-2) if kind in ('YL','另','校') else -1;e=z-2 if e==-1 else e
+   assert kind in ('YL','blue','red','quote','另','校','僻字'),(kind,text[i:z]);e=text.find('|',mid+1,z-2) if kind in ('YL','另','校','僻字') else -1;e=z-2 if e==-1 else e
    a,b=shown(text[mid+1:e],offset+mid+1);out+=a;pos+=b;i=z;continue
   if text.startswith('[[',i):
    z=text.index(']]',i+2);mid=text.rfind('|',i+2,z);a=mid+1 if mid!=-1 else i+2;out+=text[a:z];pos+=range(offset+a,offset+z);i=z+2;continue

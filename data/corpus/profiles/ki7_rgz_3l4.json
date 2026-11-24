@@ -755,6 +755,41 @@
       "chapter_id": "c-sanguozhi-061-panjun",
       "source_id": "s-sanguozhi-061-panjun",
       "work_title": "三國志"
+    },
+    {
+      "number": 64,
+      "category": "",
+      "title": "三國志卷六十四·孫峻附吳書留贊傳",
+      "paragraph_id": "c-sanguozhi-064-sunjun-complete:p001",
+      "count": 1,
+      "raw_count": 1,
+      "duplicate_count": 0,
+      "counting_policy": "independent_fixed_witness_occurrences",
+      "quote": "　　孫峻字子遠，孫堅弟靜之曾孫也。靜生暠，暠生恭，為散騎侍郎。恭生峻。少便弓馬，精果膽決。孫權末，徙武衛都尉，為侍中。權臨薨，受遺輔政，領武衛將軍，故典宿衛，封都鄉侯。既誅諸葛恪，遷丞相大將軍，督中外諸軍事、假節，進封富",
+      "paragraph_ids": [
+        "c-sanguozhi-064-sunjun-complete:p001"
+      ],
+      "mention_ids": [
+        "c-sanguozhi-064-sunjun-complete:p001:m0008"
+      ],
+      "mention_paragraph_ids": {
+        "c-sanguozhi-064-sunjun-complete:p001:m0008": "c-sanguozhi-064-sunjun-complete:p001"
+      },
+      "mention_id": "c-sanguozhi-064-sunjun-complete:p001:m0008",
+      "occurrence_groups": [
+        {
+          "canonical_mention_id": "c-sanguozhi-064-sunjun-complete:p001:m0008",
+          "mention_ids": [
+            "c-sanguozhi-064-sunjun-complete:p001:m0008"
+          ],
+          "kind": "paragraph"
+        }
+      ],
+      "work_id": "w-sanguozhi",
+      "book_id": "b-sanguozhi-064",
+      "chapter_id": "c-sanguozhi-064-sunjun-complete",
+      "source_id": "s-sanguozhi-064-sunjun-complete-ws2263487",
+      "work_title": "三國志"
     }
   ],
   "table_occurrences": [],
@@ -1136,6 +1171,29 @@
           "source-evidence/sanguozhi061-panjun/reading.json"
         ]
       }
+    },
+    {
+      "chapter_id": "c-sanguozhi-064-sunjun-complete",
+      "work_id": "w-sanguozhi",
+      "book_id": "b-sanguozhi-064",
+      "source_id": "s-sanguozhi-064-sunjun-complete-ws2263487",
+      "source": {
+        "title": "三國志卷六十四·孫峻附吳書留贊傳",
+        "provider": "Wikisource",
+        "permalink": "https://zh.wikisource.org/w/index.php?oldid=2263487",
+        "url": "https://zh.wikisource.org/w/index.php?oldid=2263487",
+        "revision_id": 2263487,
+        "edition": "維基文庫固定修訂",
+        "accessed_on": "2026-11-21",
+        "review_status": "text_checked",
+        "image_verified": false,
+        "rights": "古代原文；數位轉錄依維基文庫授權。",
+        "license_url": "https://creativecommons.org/licenses/by-sa/4.0/",
+        "extent": "三國志卷六十四·孫峻附吳書留贊傳",
+        "text_scope": "complete_biography_unit",
+        "raw_path": "source-evidence/sanguozhi064-roll/ws2263487.wikitext",
+        "raw_file_sha256": "8371077fbc5c595d04ae4f085a06a84cebc3a7b385aaaa4419d46cff2088229e"
+      }
     }
   ],
   "relations": [
@@ -1322,6 +1380,32 @@
       "reviewer": "Codex（AI 代理）",
       "human_reviewed": false,
       "model": null
+    },
+    {
+      "id": "a-wu064-jing-brother",
+      "subject_person_id": "y4x_cmp_976",
+      "object_person_id": "ki7_rgz_3l4",
+      "predicate": "brother",
+      "qualifiers": {
+        "source_term": "孫堅弟靜"
+      },
+      "evidence": [
+        {
+          "work_id": "w-sanguozhi",
+          "book_id": "b-sanguozhi-064",
+          "chapter_id": "c-sanguozhi-064-sunjun-complete",
+          "source_id": "s-sanguozhi-064-sunjun-complete-ws2263487",
+          "paragraph_id": "c-sanguozhi-064-sunjun-complete:p001",
+          "quote": "　　孫峻字子遠，孫堅弟靜之曾孫也。靜生暠，暠生恭，為散騎侍郎。恭生峻。少便弓馬，精果膽決。孫權末，徙武衛都尉，為侍中。權臨薨，受遺輔政，領武衛將軍，故典宿衛，封都鄉侯。既誅諸葛恪，遷丞相大將軍，督中外諸軍事、假節，進封富春侯。滕胤以恪子竦妻父辭位。峻曰：「鯀、禹罪不相及，滕侯何為？」峻、胤雖內不沾洽，而外相包容，進胤爵高密侯，共事如前。峻素無重名，驕矜險害，多所刑殺，百姓囂然。又姦亂宮人，與公主魯班私通。五鳳元年，吳侯英謀殺峻，英事洩死。",
+          "subject_person_mention_id": "c-sanguozhi-064-sunjun-complete:p001:m0011",
+          "object_person_mention_id": "c-sanguozhi-064-sunjun-complete:p001:m0008"
+        }
+      ],
+      "status": "source_attested",
+      "interpretation_note": "孫靜為孫堅弟。",
+      "reviewer": "Codex（AI代理）",
+      "model": null,
+      "human_reviewed": false
     }
   ],
   "related_people": {
@@ -1551,6 +1635,32 @@
       "reviewer": "Codex（AI 代理）",
       "human_reviewed": false,
       "model": null
+    },
+    {
+      "id": "a-wu064-jing-brother",
+      "subject_person_id": "y4x_cmp_976",
+      "object_person_id": "ki7_rgz_3l4",
+      "predicate": "brother",
+      "qualifiers": {
+        "source_term": "孫堅弟靜"
+      },
+      "evidence": [
+        {
+          "work_id": "w-sanguozhi",
+          "book_id": "b-sanguozhi-064",
+          "chapter_id": "c-sanguozhi-064-sunjun-complete",
+          "source_id": "s-sanguozhi-064-sunjun-complete-ws2263487",
+          "paragraph_id": "c-sanguozhi-064-sunjun-complete:p001",
+          "quote": "　　孫峻字子遠，孫堅弟靜之曾孫也。靜生暠，暠生恭，為散騎侍郎。恭生峻。少便弓馬，精果膽決。孫權末，徙武衛都尉，為侍中。權臨薨，受遺輔政，領武衛將軍，故典宿衛，封都鄉侯。既誅諸葛恪，遷丞相大將軍，督中外諸軍事、假節，進封富春侯。滕胤以恪子竦妻父辭位。峻曰：「鯀、禹罪不相及，滕侯何為？」峻、胤雖內不沾洽，而外相包容，進胤爵高密侯，共事如前。峻素無重名，驕矜險害，多所刑殺，百姓囂然。又姦亂宮人，與公主魯班私通。五鳳元年，吳侯英謀殺峻，英事洩死。",
+          "subject_person_mention_id": "c-sanguozhi-064-sunjun-complete:p001:m0011",
+          "object_person_mention_id": "c-sanguozhi-064-sunjun-complete:p001:m0008"
+        }
+      ],
+      "status": "source_attested",
+      "interpretation_note": "孫靜為孫堅弟。",
+      "reviewer": "Codex（AI代理）",
+      "model": null,
+      "human_reviewed": false
     }
   ],
   "age_assertions": [],
