@@ -7,11 +7,57 @@
   "review": "ai_provisional",
   "names": [
     "全夫人",
-    "亮妃"
+    "亮妃",
+    "全氏"
   ],
   "titles": [],
   "addresses": [],
   "occurrences": [
+    {
+      "number": 48,
+      "category": "",
+      "title": "三國志卷四十八·孫亮",
+      "paragraph_id": "c-sanguozhi-048-sun-liang:p001",
+      "count": 2,
+      "raw_count": 2,
+      "duplicate_count": 0,
+      "counting_policy": "independent_fixed_witness_occurrences",
+      "quote": "欲豫自結，數稱述全尚女，勸爲亮納。赤烏十三年，和廢，權遂立亮爲太子，以全氏爲妃。",
+      "paragraph_ids": [
+        "c-sanguozhi-048-sun-liang:p001",
+        "c-sanguozhi-048-sun-liang:p006"
+      ],
+      "mention_ids": [
+        "c-sanguozhi-048-sun-liang:p001:m0083",
+        "c-sanguozhi-048-sun-liang:p006:m0011"
+      ],
+      "mention_paragraph_ids": {
+        "c-sanguozhi-048-sun-liang:p001:m0083": "c-sanguozhi-048-sun-liang:p001",
+        "c-sanguozhi-048-sun-liang:p006:m0011": "c-sanguozhi-048-sun-liang:p006"
+      },
+      "mention_id": "c-sanguozhi-048-sun-liang:p001:m0083",
+      "occurrence_groups": [
+        {
+          "canonical_mention_id": "c-sanguozhi-048-sun-liang:p001:m0083",
+          "mention_ids": [
+            "c-sanguozhi-048-sun-liang:p001:m0083"
+          ],
+          "kind": "paragraph"
+        },
+        {
+          "canonical_mention_id": "c-sanguozhi-048-sun-liang:p006:m0011",
+          "mention_ids": [
+            "c-sanguozhi-048-sun-liang:p006:m0011"
+          ],
+          "kind": "paragraph"
+        }
+      ],
+      "work_id": "w-sanguozhi",
+      "book_id": "b-sanguozhi-048",
+      "chapter_id": "c-sanguozhi-048-sun-liang",
+      "source_id": "s-sanguozhi-048-sun-liang-ws2085142",
+      "work_title": "三國志"
+    },
     {
       "number": 50,
       "category": "",
@@ -96,6 +142,33 @@
   "table_occurrences": [],
   "sources": [
     {
+      "chapter_id": "c-sanguozhi-048-sun-liang",
+      "work_id": "w-sanguozhi",
+      "book_id": "b-sanguozhi-048",
+      "source_id": "s-sanguozhi-048-sun-liang-ws2085142",
+      "source": {
+        "title": "三國志卷四十八·孫亮",
+        "provider": "Wikisource",
+        "permalink": "https://zh.wikisource.org/w/index.php?oldid=2085142",
+        "url": "https://zh.wikisource.org/w/index.php?oldid=2085142",
+        "revision_id": 2085142,
+        "edition": "維基文庫固定修訂",
+        "accessed_on": "2026-11-22",
+        "review_status": "text_checked",
+        "image_verified": false,
+        "rights": "古代原文；數位轉錄依維基文庫授權。",
+        "license_url": "https://creativecommons.org/licenses/by-sa/4.0/",
+        "extent": "三國志卷四十八·孫亮",
+        "text_scope": "complete_biography_unit",
+        "raw_path": "source-evidence/sanguozhi048-roll/ws2085142.wikitext",
+        "raw_file_sha256": "2a0ed9c69dc827d835ac2444f18f35fb8815f54b94eb1a1346246808d18d6d1c",
+        "collation_witnesses": [
+          "source-evidence/sanguozhi048-roll/main-reading.json",
+          "source-evidence/sanguozhi048-roll/close-reading.json"
+        ]
+      }
+    },
+    {
       "chapter_id": "c-sanguozhi-050-quan",
       "work_id": "w-sanguozhi",
       "book_id": "b-sanguozhi-050",
@@ -147,6 +220,32 @@
     }
   ],
   "relations": [
+    {
+      "id": "a-wu048-quan-father",
+      "subject_person_id": "vl3_bta_0h1_A",
+      "object_person_id": "vl3_bta_0h1",
+      "predicate": "father",
+      "qualifiers": {
+        "source_term": "全尚女"
+      },
+      "evidence": [
+        {
+          "work_id": "w-sanguozhi",
+          "book_id": "b-sanguozhi-048",
+          "chapter_id": "c-sanguozhi-048-sun-liang",
+          "source_id": "s-sanguozhi-048-sun-liang-ws2085142",
+          "paragraph_id": "c-sanguozhi-048-sun-liang:p001",
+          "quote": "孫亮字子明，權少子也。權春秋高，而亮最少，故尤留意。姊全公主嘗譖太子和子母，心不自安，因倚權意，欲豫自結，數稱述全尚女，勸爲亮納。赤烏十三年，和廢，權遂立亮爲太子，以全氏爲妃。",
+          "subject_person_mention_id": "c-sanguozhi-048-sun-liang:p001:m0083",
+          "object_person_mention_id": "c-sanguozhi-048-sun-liang:p001:m0056"
+        }
+      ],
+      "status": "source_attested",
+      "interpretation_note": "依固定見證同段親屬原詞及所屬敘事。",
+      "reviewer": "Codex（AI代理）",
+      "model": null,
+      "human_reviewed": false
+    },
     {
       "id": "a-wu050-quan-0",
       "subject_person_id": "vl3_bta_0h1_A",
@@ -257,6 +356,32 @@
     "vl3_bta_0h1_A"
   ],
   "preferred_relations": [
+    {
+      "id": "a-wu048-quan-father",
+      "subject_person_id": "vl3_bta_0h1_A",
+      "object_person_id": "vl3_bta_0h1",
+      "predicate": "father",
+      "qualifiers": {
+        "source_term": "全尚女"
+      },
+      "evidence": [
+        {
+          "work_id": "w-sanguozhi",
+          "book_id": "b-sanguozhi-048",
+          "chapter_id": "c-sanguozhi-048-sun-liang",
+          "source_id": "s-sanguozhi-048-sun-liang-ws2085142",
+          "paragraph_id": "c-sanguozhi-048-sun-liang:p001",
+          "quote": "孫亮字子明，權少子也。權春秋高，而亮最少，故尤留意。姊全公主嘗譖太子和子母，心不自安，因倚權意，欲豫自結，數稱述全尚女，勸爲亮納。赤烏十三年，和廢，權遂立亮爲太子，以全氏爲妃。",
+          "subject_person_mention_id": "c-sanguozhi-048-sun-liang:p001:m0083",
+          "object_person_mention_id": "c-sanguozhi-048-sun-liang:p001:m0056"
+        }
+      ],
+      "status": "source_attested",
+      "interpretation_note": "依固定見證同段親屬原詞及所屬敘事。",
+      "reviewer": "Codex（AI代理）",
+      "model": null,
+      "human_reviewed": false
+    },
     {
       "id": "a-wu050-quan-0",
       "subject_person_id": "vl3_bta_0h1_A",
