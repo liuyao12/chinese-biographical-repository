@@ -13,7 +13,7 @@ NANQI_FIXED_LAYOUTS = (
     'nanqi054_fixed_text', 'nanqi055_fixed_text', 'nanqi056_fixed_text', 'nanqi057_fixed_text', 'nanqi058_fixed_text',
     'nanqi059_fixed_text',
 )
-EARLY_WU_SLICE_LAYOUT = 'sanguozhi047_projected_slice'
+EARLY_WU_SLICE_LAYOUTS = ('sanguozhi047_projected_slice', 'sanguozhi048_projected_slice')
 
 
 def received_text(line):
@@ -28,7 +28,7 @@ def received_text(line):
 def source_paragraphs(lines, layout=None):
     """核對固定轉錄選用的首行空格及跨段引文模板。"""
     lines = [line for line in lines if line.strip()]
-    if layout == EARLY_WU_SLICE_LAYOUT:
+    if layout in EARLY_WU_SLICE_LAYOUTS:
         return lines
     if layout == 'qi040_ziliang_annotated_jianyuan':
         year = '{{YL|建元二年|480年}}'
@@ -334,7 +334,7 @@ def source_passage(entry, lines, located_headings, ranges):
                 assert (offset or start == 0) and line.startswith(':'), title
                 raw[offset] = line[1:]
                 used_indents.add(line_number)
-        if entry.get('source_layout') == EARLY_WU_SLICE_LAYOUT:
+        if entry.get('source_layout') in EARLY_WU_SLICE_LAYOUTS:
             try:
                 from scripts.sanguozhi_early_wu_layers import project_slice
             except ImportError:

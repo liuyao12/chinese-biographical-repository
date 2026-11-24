@@ -13,6 +13,41 @@
   "addresses": [],
   "occurrences": [
     {
+      "number": 48,
+      "category": "",
+      "title": "三國志卷四十八·孫亮",
+      "paragraph_id": "c-sanguozhi-048-sun-liang:p014",
+      "count": 1,
+      "raw_count": 1,
+      "duplicate_count": 0,
+      "counting_policy": "independent_fixed_witness_occurrences",
+      "quote": "月朔己巳，殺異於鑊里。辛未，綝自鑊里還建業。甲申，大赦。十一月，全緒子禕、儀以其母奔魏。十二月，全端、懌等自壽春城詣司馬文王。",
+      "paragraph_ids": [
+        "c-sanguozhi-048-sun-liang:p014"
+      ],
+      "mention_ids": [
+        "c-sanguozhi-048-sun-liang:p014:m0225"
+      ],
+      "mention_paragraph_ids": {
+        "c-sanguozhi-048-sun-liang:p014:m0225": "c-sanguozhi-048-sun-liang:p014"
+      },
+      "mention_id": "c-sanguozhi-048-sun-liang:p014:m0225",
+      "occurrence_groups": [
+        {
+          "canonical_mention_id": "c-sanguozhi-048-sun-liang:p014:m0225",
+          "mention_ids": [
+            "c-sanguozhi-048-sun-liang:p014:m0225"
+          ],
+          "kind": "paragraph"
+        }
+      ],
+      "work_id": "w-sanguozhi",
+      "book_id": "b-sanguozhi-048",
+      "chapter_id": "c-sanguozhi-048-sun-liang",
+      "source_id": "s-sanguozhi-048-sun-liang-ws2085142",
+      "work_title": "三國志"
+    },
+    {
       "number": 50,
       "category": "",
       "title": "全夫人傳",
@@ -86,6 +121,33 @@
   "table_occurrences": [],
   "sources": [
     {
+      "chapter_id": "c-sanguozhi-048-sun-liang",
+      "work_id": "w-sanguozhi",
+      "book_id": "b-sanguozhi-048",
+      "source_id": "s-sanguozhi-048-sun-liang-ws2085142",
+      "source": {
+        "title": "三國志卷四十八·孫亮",
+        "provider": "Wikisource",
+        "permalink": "https://zh.wikisource.org/w/index.php?oldid=2085142",
+        "url": "https://zh.wikisource.org/w/index.php?oldid=2085142",
+        "revision_id": 2085142,
+        "edition": "維基文庫固定修訂",
+        "accessed_on": "2026-11-22",
+        "review_status": "text_checked",
+        "image_verified": false,
+        "rights": "古代原文；數位轉錄依維基文庫授權。",
+        "license_url": "https://creativecommons.org/licenses/by-sa/4.0/",
+        "extent": "三國志卷四十八·孫亮",
+        "text_scope": "complete_biography_unit",
+        "raw_path": "source-evidence/sanguozhi048-roll/ws2085142.wikitext",
+        "raw_file_sha256": "2a0ed9c69dc827d835ac2444f18f35fb8815f54b94eb1a1346246808d18d6d1c",
+        "collation_witnesses": [
+          "source-evidence/sanguozhi048-roll/main-reading.json",
+          "source-evidence/sanguozhi048-roll/close-reading.json"
+        ]
+      }
+    },
+    {
       "chapter_id": "c-sanguozhi-050-quan",
       "work_id": "w-sanguozhi",
       "book_id": "b-sanguozhi-050",
@@ -142,6 +204,58 @@
   ],
   "relations": [
     {
+      "id": "a-wu048-yi-father",
+      "subject_person_id": "21h_j51_2oi",
+      "object_person_id": "984_9e1_5e9_B",
+      "predicate": "father",
+      "qualifiers": {
+        "source_term": "全緒子禕、儀"
+      },
+      "evidence": [
+        {
+          "work_id": "w-sanguozhi",
+          "book_id": "b-sanguozhi-048",
+          "chapter_id": "c-sanguozhi-048-sun-liang",
+          "source_id": "s-sanguozhi-048-sun-liang-ws2085142",
+          "paragraph_id": "c-sanguozhi-048-sun-liang:p014",
+          "quote": "五月，魏征東大將軍諸葛誕以淮南之衆保壽春城，遣將軍朱成稱臣上疏，又遣子靚、長史吳綱諸牙門子弟爲質。六月，使文欽、唐咨、全端等步騎三萬救誕。朱異自虎林率衆襲夏口，夏口督孫壹奔魏。秋七月，綝率衆救壽春，次于鑊里，朱異至自夏口，綝使異爲前部督，與丁奉等將介士五萬解圍。八月，會稽南部反，殺都尉。鄱陽、新都民爲亂，廷尉丁密、步兵校尉鄭胄、將軍鍾離牧率軍討之。朱異以軍士乏食引還，綝大怒，九月朔己巳，殺異於鑊里。辛未，綝自鑊里還建業。甲申，大赦。十一月，全緒子禕、儀以其母奔魏。十二月，全端、懌等自壽春城詣司馬文王。",
+          "subject_person_mention_id": "c-sanguozhi-048-sun-liang:p014:m0225",
+          "object_person_mention_id": "c-sanguozhi-048-sun-liang:p014:m0222"
+        }
+      ],
+      "status": "source_attested",
+      "interpretation_note": "依固定見證同段親屬原詞及所屬敘事。",
+      "reviewer": "Codex（AI代理）",
+      "model": null,
+      "human_reviewed": false
+    },
+    {
+      "id": "a-wu048-yi-mother",
+      "subject_person_id": "21h_j51_2oi",
+      "object_person_id": "hgw_lcm_faj",
+      "predicate": "mother",
+      "qualifiers": {
+        "source_term": "禕、儀以其母"
+      },
+      "evidence": [
+        {
+          "work_id": "w-sanguozhi",
+          "book_id": "b-sanguozhi-048",
+          "chapter_id": "c-sanguozhi-048-sun-liang",
+          "source_id": "s-sanguozhi-048-sun-liang-ws2085142",
+          "paragraph_id": "c-sanguozhi-048-sun-liang:p014",
+          "quote": "五月，魏征東大將軍諸葛誕以淮南之衆保壽春城，遣將軍朱成稱臣上疏，又遣子靚、長史吳綱諸牙門子弟爲質。六月，使文欽、唐咨、全端等步騎三萬救誕。朱異自虎林率衆襲夏口，夏口督孫壹奔魏。秋七月，綝率衆救壽春，次于鑊里，朱異至自夏口，綝使異爲前部督，與丁奉等將介士五萬解圍。八月，會稽南部反，殺都尉。鄱陽、新都民爲亂，廷尉丁密、步兵校尉鄭胄、將軍鍾離牧率軍討之。朱異以軍士乏食引還，綝大怒，九月朔己巳，殺異於鑊里。辛未，綝自鑊里還建業。甲申，大赦。十一月，全緒子禕、儀以其母奔魏。十二月，全端、懌等自壽春城詣司馬文王。",
+          "subject_person_mention_id": "c-sanguozhi-048-sun-liang:p014:m0225",
+          "object_person_mention_id": "c-sanguozhi-048-sun-liang:p014:m0229"
+        }
+      ],
+      "status": "source_attested",
+      "interpretation_note": "依固定見證同段親屬原詞及所屬敘事。",
+      "reviewer": "Codex（AI代理）",
+      "model": null,
+      "human_reviewed": false
+    },
+    {
       "id": "a-wu060-yi-uncle-禕",
       "subject_person_id": "21h_j51_2oi",
       "object_person_id": "42v_re3_e0f",
@@ -171,7 +285,9 @@
   ],
   "related_people": {
     "21h_j51_2oi": "全禕",
-    "42v_re3_e0f": "全懌"
+    "42v_re3_e0f": "全懌",
+    "984_9e1_5e9_B": "全緒",
+    "hgw_lcm_faj": "全禕、全儀之母〔同奔魏〕"
   },
   "dates": [],
   "name_components": [],
@@ -179,6 +295,58 @@
     "21h_j51_2oi"
   ],
   "preferred_relations": [
+    {
+      "id": "a-wu048-yi-father",
+      "subject_person_id": "21h_j51_2oi",
+      "object_person_id": "984_9e1_5e9_B",
+      "predicate": "father",
+      "qualifiers": {
+        "source_term": "全緒子禕、儀"
+      },
+      "evidence": [
+        {
+          "work_id": "w-sanguozhi",
+          "book_id": "b-sanguozhi-048",
+          "chapter_id": "c-sanguozhi-048-sun-liang",
+          "source_id": "s-sanguozhi-048-sun-liang-ws2085142",
+          "paragraph_id": "c-sanguozhi-048-sun-liang:p014",
+          "quote": "五月，魏征東大將軍諸葛誕以淮南之衆保壽春城，遣將軍朱成稱臣上疏，又遣子靚、長史吳綱諸牙門子弟爲質。六月，使文欽、唐咨、全端等步騎三萬救誕。朱異自虎林率衆襲夏口，夏口督孫壹奔魏。秋七月，綝率衆救壽春，次于鑊里，朱異至自夏口，綝使異爲前部督，與丁奉等將介士五萬解圍。八月，會稽南部反，殺都尉。鄱陽、新都民爲亂，廷尉丁密、步兵校尉鄭胄、將軍鍾離牧率軍討之。朱異以軍士乏食引還，綝大怒，九月朔己巳，殺異於鑊里。辛未，綝自鑊里還建業。甲申，大赦。十一月，全緒子禕、儀以其母奔魏。十二月，全端、懌等自壽春城詣司馬文王。",
+          "subject_person_mention_id": "c-sanguozhi-048-sun-liang:p014:m0225",
+          "object_person_mention_id": "c-sanguozhi-048-sun-liang:p014:m0222"
+        }
+      ],
+      "status": "source_attested",
+      "interpretation_note": "依固定見證同段親屬原詞及所屬敘事。",
+      "reviewer": "Codex（AI代理）",
+      "model": null,
+      "human_reviewed": false
+    },
+    {
+      "id": "a-wu048-yi-mother",
+      "subject_person_id": "21h_j51_2oi",
+      "object_person_id": "hgw_lcm_faj",
+      "predicate": "mother",
+      "qualifiers": {
+        "source_term": "禕、儀以其母"
+      },
+      "evidence": [
+        {
+          "work_id": "w-sanguozhi",
+          "book_id": "b-sanguozhi-048",
+          "chapter_id": "c-sanguozhi-048-sun-liang",
+          "source_id": "s-sanguozhi-048-sun-liang-ws2085142",
+          "paragraph_id": "c-sanguozhi-048-sun-liang:p014",
+          "quote": "五月，魏征東大將軍諸葛誕以淮南之衆保壽春城，遣將軍朱成稱臣上疏，又遣子靚、長史吳綱諸牙門子弟爲質。六月，使文欽、唐咨、全端等步騎三萬救誕。朱異自虎林率衆襲夏口，夏口督孫壹奔魏。秋七月，綝率衆救壽春，次于鑊里，朱異至自夏口，綝使異爲前部督，與丁奉等將介士五萬解圍。八月，會稽南部反，殺都尉。鄱陽、新都民爲亂，廷尉丁密、步兵校尉鄭胄、將軍鍾離牧率軍討之。朱異以軍士乏食引還，綝大怒，九月朔己巳，殺異於鑊里。辛未，綝自鑊里還建業。甲申，大赦。十一月，全緒子禕、儀以其母奔魏。十二月，全端、懌等自壽春城詣司馬文王。",
+          "subject_person_mention_id": "c-sanguozhi-048-sun-liang:p014:m0225",
+          "object_person_mention_id": "c-sanguozhi-048-sun-liang:p014:m0229"
+        }
+      ],
+      "status": "source_attested",
+      "interpretation_note": "依固定見證同段親屬原詞及所屬敘事。",
+      "reviewer": "Codex（AI代理）",
+      "model": null,
+      "human_reviewed": false
+    },
     {
       "id": "a-wu060-yi-uncle-禕",
       "subject_person_id": "21h_j51_2oi",
