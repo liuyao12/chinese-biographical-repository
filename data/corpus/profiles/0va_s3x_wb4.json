@@ -9,7 +9,8 @@
     "統",
     "昭明太子",
     "德施",
-    "皇太子"
+    "皇太子",
+    "昭明太子統"
   ],
   "titles": [],
   "addresses": [],
@@ -403,6 +404,41 @@
       "book_id": "b-liangshu-027",
       "chapter_id": "c-liangshu-027-yinjun-complete",
       "source_id": "s-liangshu-027-yinjun-complete-ws1511478",
+      "work_title": "梁書"
+    },
+    {
+      "number": 29,
+      "category": "",
+      "title": "梁書卷二十九·高祖八男總敘",
+      "paragraph_id": "c-liangshu-029-eight-sons:p001",
+      "count": 1,
+      "raw_count": 1,
+      "duplicate_count": 0,
+      "counting_policy": "independent_fixed_witness_occurrences",
+      "quote": "高祖八男：丁貴嬪生昭明太子統，太宗簡文皇帝，廬陵威王續；阮脩容生世祖孝元皇帝；吳淑媛生豫章王綜；董淑儀生南康簡王績；丁充華生邵陵攜王綸；葛脩容生武陵王紀。綜及紀別有傳。",
+      "paragraph_ids": [
+        "c-liangshu-029-eight-sons:p001"
+      ],
+      "mention_ids": [
+        "c-liangshu-029-eight-sons:p001:m0009"
+      ],
+      "mention_paragraph_ids": {
+        "c-liangshu-029-eight-sons:p001:m0009": "c-liangshu-029-eight-sons:p001"
+      },
+      "mention_id": "c-liangshu-029-eight-sons:p001:m0009",
+      "occurrence_groups": [
+        {
+          "canonical_mention_id": "c-liangshu-029-eight-sons:p001:m0009",
+          "mention_ids": [
+            "c-liangshu-029-eight-sons:p001:m0009"
+          ],
+          "kind": "paragraph"
+        }
+      ],
+      "work_id": "w-liangshu",
+      "book_id": "b-liangshu-029",
+      "chapter_id": "c-liangshu-029-eight-sons",
+      "source_id": "s-liangshu-029-eight-sons-ws1538079",
       "work_title": "梁書"
     },
     {
@@ -809,6 +845,29 @@
         "text_scope": "complete_biography_unit",
         "raw_path": "source-evidence/nanshi019-xietiao/liangshu027-ws1511478.wikitext",
         "raw_file_sha256": "fcb730ce00423c60dc63e01c4a6d43ecd45cf2669df595850e0abb2339acfb5f"
+      }
+    },
+    {
+      "chapter_id": "c-liangshu-029-eight-sons",
+      "work_id": "w-liangshu",
+      "book_id": "b-liangshu-029",
+      "source_id": "s-liangshu-029-eight-sons-ws1538079",
+      "source": {
+        "title": "梁書卷二十九·高祖八男總敘",
+        "provider": "Wikisource",
+        "permalink": "https://zh.wikisource.org/w/index.php?oldid=1538079",
+        "url": "https://zh.wikisource.org/w/index.php?oldid=1538079",
+        "revision_id": 1538079,
+        "edition": "維基文庫固定修訂",
+        "accessed_on": "2026-11-21",
+        "review_status": "text_checked",
+        "image_verified": false,
+        "rights": "古代原文；數位轉錄依維基文庫授權。",
+        "license_url": "https://creativecommons.org/licenses/by-sa/4.0/",
+        "extent": "梁書卷二十九·高祖八男總敘",
+        "text_scope": "partial_chapter",
+        "raw_path": "source-evidence/liang021-wangtai/ws1538079.wikitext",
+        "raw_file_sha256": "8ee6d27e5a06b49bd70824c93abacd27719d15b8f74f9277c33f7b2969c3c055"
       }
     },
     {
@@ -1396,6 +1455,32 @@
       ],
       "status": "source_attested",
       "interpretation_note": "昭明薨後妃居金華宮，周書另稱統妃蔡氏。",
+      "reviewer": "Codex（AI代理）",
+      "model": null,
+      "human_reviewed": false
+    },
+    {
+      "id": "a-liang029-head-mother-0va_s3x_wb4",
+      "subject_person_id": "0va_s3x_wb4",
+      "object_person_id": "2zn_kvj_dmy_A",
+      "predicate": "mother",
+      "qualifiers": {
+        "source_term": "丁貴嬪生"
+      },
+      "evidence": [
+        {
+          "work_id": "w-liangshu",
+          "book_id": "b-liangshu-029",
+          "chapter_id": "c-liangshu-029-eight-sons",
+          "source_id": "s-liangshu-029-eight-sons-ws1538079",
+          "paragraph_id": "c-liangshu-029-eight-sons:p001",
+          "quote": "高祖八男：丁貴嬪生昭明太子統，太宗簡文皇帝，廬陵威王續；阮脩容生世祖孝元皇帝；吳淑媛生豫章王綜；董淑儀生南康簡王績；丁充華生邵陵攜王綸；葛脩容生武陵王紀。綜及紀別有傳。",
+          "subject_person_mention_id": "c-liangshu-029-eight-sons:p001:m0009",
+          "object_person_mention_id": "c-liangshu-029-eight-sons:p001:m0005"
+        }
+      ],
+      "status": "source_attested",
+      "interpretation_note": "「高祖八男」列母子，承母名之「生」統下面各子。",
       "reviewer": "Codex（AI代理）",
       "model": null,
       "human_reviewed": false
@@ -2150,6 +2235,32 @@
       ],
       "status": "source_attested",
       "interpretation_note": "昭明薨後妃居金華宮，周書另稱統妃蔡氏。",
+      "reviewer": "Codex（AI代理）",
+      "model": null,
+      "human_reviewed": false
+    },
+    {
+      "id": "a-liang029-head-mother-0va_s3x_wb4",
+      "subject_person_id": "0va_s3x_wb4",
+      "object_person_id": "2zn_kvj_dmy_A",
+      "predicate": "mother",
+      "qualifiers": {
+        "source_term": "丁貴嬪生"
+      },
+      "evidence": [
+        {
+          "work_id": "w-liangshu",
+          "book_id": "b-liangshu-029",
+          "chapter_id": "c-liangshu-029-eight-sons",
+          "source_id": "s-liangshu-029-eight-sons-ws1538079",
+          "paragraph_id": "c-liangshu-029-eight-sons:p001",
+          "quote": "高祖八男：丁貴嬪生昭明太子統，太宗簡文皇帝，廬陵威王續；阮脩容生世祖孝元皇帝；吳淑媛生豫章王綜；董淑儀生南康簡王績；丁充華生邵陵攜王綸；葛脩容生武陵王紀。綜及紀別有傳。",
+          "subject_person_mention_id": "c-liangshu-029-eight-sons:p001:m0009",
+          "object_person_mention_id": "c-liangshu-029-eight-sons:p001:m0005"
+        }
+      ],
+      "status": "source_attested",
+      "interpretation_note": "「高祖八男」列母子，承母名之「生」統下面各子。",
       "reviewer": "Codex（AI代理）",
       "model": null,
       "human_reviewed": false
