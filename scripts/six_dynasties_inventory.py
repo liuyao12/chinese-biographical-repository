@@ -246,6 +246,12 @@ def source_paragraphs(lines, layout=None):
         except ImportError:
             from sanguozhi063_layers import project_line
         return [body for line in lines if (body:=project_line(line)[0])]
+    if layout == 'sanguozhi046_contiguous_slice':
+        try:
+            from scripts.sanguozhi_early_wu_layers import project_line
+        except ImportError:
+            from sanguozhi_early_wu_layers import project_line
+        return [text for line in lines if (text := project_line(line)[0])]
     if layout in ('sanguozhi049_contiguous_slice', 'sanguozhi064_contiguous_slice',
                   'sanguozhi065_contiguous_slice'):
         try:
