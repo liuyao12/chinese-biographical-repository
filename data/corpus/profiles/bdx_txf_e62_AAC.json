@@ -1,0 +1,165 @@
+{
+  "schema_version": 1,
+  "id": "bdx_txf_e62_AAC",
+  "canonical_person_id": "bdx_txf_e62_AAC",
+  "label": "垣襲祖（南史所載護之子、淮陽太守）",
+  "identity_note": "垣襲祖（南史所載護之子、淮陽太守），見本組原文及身份互校。",
+  "review": "ai_provisional",
+  "names": [
+    "襲祖"
+  ],
+  "titles": [],
+  "addresses": [],
+  "occurrences": [
+    {
+      "number": 25,
+      "category": "",
+      "title": "南史所載護之子襲祖",
+      "paragraph_id": "c-nanshi-025-yuan-xizu:p001",
+      "count": 1,
+      "raw_count": 1,
+      "duplicate_count": 0,
+      "counting_policy": "independent_fixed_witness_occurrences",
+      "quote": "伯父豫州刺史護之子襲祖為淮陽太守，孝武以事徙之嶺南，護之不食而死。",
+      "paragraph_ids": [
+        "c-nanshi-025-yuan-xizu:p001"
+      ],
+      "mention_ids": [
+        "c-nanshi-025-yuan-xizu:p001:m0009"
+      ],
+      "mention_paragraph_ids": {
+        "c-nanshi-025-yuan-xizu:p001:m0009": "c-nanshi-025-yuan-xizu:p001"
+      },
+      "mention_id": "c-nanshi-025-yuan-xizu:p001:m0009",
+      "occurrence_groups": [
+        {
+          "canonical_mention_id": "c-nanshi-025-yuan-xizu:p001:m0009",
+          "mention_ids": [
+            "c-nanshi-025-yuan-xizu:p001:m0009"
+          ],
+          "kind": "paragraph"
+        }
+      ],
+      "work_id": "w-nanshi",
+      "book_id": "b-nanshi-025",
+      "chapter_id": "c-nanshi-025-yuan-xizu",
+      "source_id": "s-nanshi-025-yuan-xizu-ws12757141",
+      "work_title": "南史"
+    }
+  ],
+  "table_occurrences": [],
+  "sources": [
+    {
+      "chapter_id": "c-nanshi-025-yuan-xizu",
+      "work_id": "w-nanshi",
+      "book_id": "b-nanshi-025",
+      "source_id": "s-nanshi-025-yuan-xizu-ws12757141",
+      "source": {
+        "title": "南史所載護之子襲祖",
+        "provider": "Wikisource",
+        "permalink": "https://zh.wikisource.org/w/index.php?oldid=12757141",
+        "url": "https://zh.wikisource.org/w/index.php?oldid=12757141",
+        "revision_id": 12757141,
+        "edition": "維基文庫固定修訂",
+        "accessed_on": "2026-11-21",
+        "review_status": "text_checked",
+        "image_verified": false,
+        "rights": "古代原文；數位轉錄依維基文庫授權。",
+        "license_url": "https://creativecommons.org/licenses/by-sa/4.0/",
+        "extent": "南史所載護之子襲祖",
+        "text_scope": "partial_chapter",
+        "raw_path": "source-evidence/song046-wangyi-complete/external/ws12757141.wikitext",
+        "raw_file_sha256": "7c28b60e43f51d2c524ca29994d917bfea883896e31bb1cc1ec2c995a9cf9480"
+      }
+    }
+  ],
+  "relations": [
+    {
+      "id": "a-song050-xizu-huzhi",
+      "subject_person_id": "bdx_txf_e62_AAC",
+      "object_person_id": "bdx_txf_e62_AA",
+      "predicate": "father",
+      "qualifiers": {
+        "source_term": "護之子襲祖",
+        "lineage": "paternal"
+      },
+      "evidence": [
+        {
+          "work_id": "w-nanshi",
+          "book_id": "b-nanshi-025",
+          "chapter_id": "c-nanshi-025-yuan-xizu",
+          "source_id": "s-nanshi-025-yuan-xizu-ws12757141",
+          "paragraph_id": "c-nanshi-025-yuan-xizu:p001",
+          "quote": "伯父豫州刺史護之子襲祖為淮陽太守，孝武以事徙之嶺南，護之不食而死。",
+          "subject_person_mention_id": "c-nanshi-025-yuan-xizu:p001:m0009",
+          "object_person_mention_id": "c-nanshi-025-yuan-xizu:p001:m0006"
+        }
+      ],
+      "status": "source_attested",
+      "interpretation_note": "南25明護之子。宋50作承祖嗣，未將襲與承互改或確定等同。",
+      "reviewer": "Codex（AI代理）",
+      "model": null,
+      "human_reviewed": false
+    }
+  ],
+  "related_people": {
+    "bdx_txf_e62_AA": "垣護之（字彥宗）",
+    "bdx_txf_e62_AAC": "垣襲祖（南史所載護之子、淮陽太守）"
+  },
+  "dates": [],
+  "name_components": [],
+  "source_reading_cases": [
+    {
+      "id": "c-nanshi-025-yuan-xizu:identity_limit1-9",
+      "kind": "identity_limit",
+      "person_id": "bdx_txf_e62_AAC",
+      "source_quote": "襲祖",
+      "reading": "南25諸家敘事記淮陽太守襲祖，宋50有嗣男承祖及次子恭祖；同父，缺少證據決定襲祖是否與承祖同人。",
+      "note": "南25諸家敘事記淮陽太守襲祖，宋50有嗣男承祖及次子恭祖；同父，缺少證據決定襲祖是否與承祖同人。",
+      "paragraph_id": "c-nanshi-025-yuan-xizu:p001",
+      "start_codepoint": 9,
+      "end_codepoint": 11,
+      "human_reviewed": false,
+      "candidate_comparison": "bdx_txf_e62_AAA",
+      "identified": false,
+      "chapter_id": "c-nanshi-025-yuan-xizu",
+      "source_id": "s-nanshi-025-yuan-xizu-ws12757141"
+    }
+  ],
+  "person_ids": [
+    "bdx_txf_e62_AAC"
+  ],
+  "preferred_relations": [
+    {
+      "id": "a-song050-xizu-huzhi",
+      "subject_person_id": "bdx_txf_e62_AAC",
+      "object_person_id": "bdx_txf_e62_AA",
+      "predicate": "father",
+      "qualifiers": {
+        "source_term": "護之子襲祖",
+        "lineage": "paternal"
+      },
+      "evidence": [
+        {
+          "work_id": "w-nanshi",
+          "book_id": "b-nanshi-025",
+          "chapter_id": "c-nanshi-025-yuan-xizu",
+          "source_id": "s-nanshi-025-yuan-xizu-ws12757141",
+          "paragraph_id": "c-nanshi-025-yuan-xizu:p001",
+          "quote": "伯父豫州刺史護之子襲祖為淮陽太守，孝武以事徙之嶺南，護之不食而死。",
+          "subject_person_mention_id": "c-nanshi-025-yuan-xizu:p001:m0009",
+          "object_person_mention_id": "c-nanshi-025-yuan-xizu:p001:m0006"
+        }
+      ],
+      "status": "source_attested",
+      "interpretation_note": "南25明護之子。宋50作承祖嗣，未將襲與承互改或確定等同。",
+      "reviewer": "Codex（AI代理）",
+      "model": null,
+      "human_reviewed": false
+    }
+  ],
+  "age_assertions": [],
+  "life_events": [],
+  "life_event_date_decisions": [],
+  "selected_life_event_dates": []
+}

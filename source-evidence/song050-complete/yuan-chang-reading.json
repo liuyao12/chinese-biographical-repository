@@ -1,0 +1,87 @@
+{
+  "record_type": "fixed_source_complete_item_review",
+  "reviewer": "Codex（AI代理）",
+  "model": null,
+  "human_reviewed": false,
+  "external_witnesses": [
+    {
+      "revision_id": 12827614,
+      "raw_path": "source-evidence/song050-complete/external/nanqi025-ws12827614.wikitext",
+      "line": 11,
+      "start": 31,
+      "end": 44,
+      "source_quote": "曾祖敞，爲慕容德偽吏部尚書",
+      "raw_sha256": "edc8b844b2981b79b9e4727d76e9a1c1260f11a890b7c262faead51dad7cd456",
+      "interpretation": "齊書以垣崇祖為傳主，敞的世次從崇祖計。"
+    }
+  ],
+  "print_readings": [
+    {
+      "url": "https://upload.wikimedia.org/wikipedia/commons/4/49/NLC892-411999017142-12209_%E4%BA%8C%E5%8D%81%E5%9B%9B%E5%8F%B2_%E7%AC%AC145%E5%86%8A.pdf#page=8",
+      "catalog_record": "https://commons.wikimedia.org/wiki/File:NLC892-411999017142-12209_%E4%BA%8C%E5%8D%81%E5%9B%9B%E5%8F%B2_%E7%AC%AC145%E5%86%8A.pdf",
+      "pdf_sha1": "888def8c99848449305a0142411b32f9b0ca79e8",
+      "pdf_sha256": "5dafc33ab9565bb6f8d44691b15a706f3d4b672c50b837630c79797adbc0b342",
+      "image_sha256": "39d7c6e93d355038a21a838ea5d46b748ec0e1569785e40f12e73647c96e6e36",
+      "edition": "清乾隆武英殿本《宋書》，國圖第145冊。",
+      "page": 8,
+      "half": "R",
+      "folio": "六下",
+      "columns_from_right": "5–6",
+      "source_quote": "祖敞仕苻氏為長樂國郎中令慕容德入青州以敞為車騎長史",
+      "reading": "宋書與殿本同記兩段任官。"
+    }
+  ],
+  "boundaries": [
+    {
+      "book_id": "b-songshu-050",
+      "title": "垣敞",
+      "unit_kind": "embedded_account",
+      "chapter_id": "c-songshu-050-yuan-chang",
+      "entry_checked": true,
+      "full_text": true,
+      "first_pass": true,
+      "item_reviewed": true,
+      "source_layout": "wikisource_mixed_indented_prose",
+      "first_line": 42,
+      "last_line": 42,
+      "start_codepoint": 14,
+      "end_codepoint": 44,
+      "opening": "祖敞，仕苻氏，為長樂國郎",
+      "closing": "入青州，以敞為車騎長史。",
+      "parent_heading": "垣護之",
+      "chapter_path": "corpus/songshu/050-yuan-chang.json",
+      "paragraph_ids": [
+        "c-songshu-050-yuan-chang:p001"
+      ],
+      "item_review_path": "source-evidence/song050-complete/yuan-chang-reading.json"
+    }
+  ],
+  "chronology": [],
+  "readings": [
+    {
+      "id": "c-songshu-050-yuan-chang:received_sentence1-0",
+      "kind": "received_sentence",
+      "person_id": "bdx_txf_e62",
+      "source_quote": "祖敞，仕苻氏，為長樂國郎中令。",
+      "reading": "垣護之祖垣敞曾仕苻氏，任長樂國郎中令。",
+      "note": "垣護之祖垣敞曾仕苻氏，任長樂國郎中令。",
+      "paragraph_id": "c-songshu-050-yuan-chang:p001",
+      "start_codepoint": 0,
+      "end_codepoint": 15,
+      "human_reviewed": false
+    },
+    {
+      "id": "c-songshu-050-yuan-chang:received_sentence1-15",
+      "kind": "received_sentence",
+      "person_id": "bdx_txf_e62",
+      "source_quote": "慕容德入青州，以敞為車騎長史。",
+      "reading": "慕容德入青州，以垣敞為車騎長史。",
+      "note": "慕容德入青州，以垣敞為車騎長史。",
+      "paragraph_id": "c-songshu-050-yuan-chang:p001",
+      "start_codepoint": 15,
+      "end_codepoint": 30,
+      "human_reviewed": false
+    }
+  ],
+  "identity_limits": []
+}
