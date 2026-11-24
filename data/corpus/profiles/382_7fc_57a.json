@@ -193,6 +193,61 @@
       "work_title": "晉書"
     },
     {
+      "number": 48,
+      "category": "",
+      "title": "三國志卷四十八·孫皓",
+      "paragraph_id": "c-sanguozhi-048-sun-hao:p027",
+      "count": 3,
+      "raw_count": 3,
+      "duplicate_count": 0,
+      "counting_policy": "independent_fixed_witness_occurrences",
+      "quote": "會稽太守郭誕書，非論國政。誕但白熙書，不白妖言，送付建安作船。遣三郡督何植收熙，熙發兵自衞，斷絕海道。熙部曲殺熙，送首建業，夷三族。秋七月，遣使者二十五人分至州郡，科出亡叛。大司馬陸抗卒。自改年及是歲，連大疫。分鬱林爲桂林郡。",
+      "paragraph_ids": [
+        "c-sanguozhi-048-sun-hao:p027",
+        "c-sanguozhi-048-sun-hao:p036",
+        "c-sanguozhi-048-sun-hao:p047"
+      ],
+      "mention_ids": [
+        "c-sanguozhi-048-sun-hao:p027:m0058",
+        "c-sanguozhi-048-sun-hao:p036:m0171",
+        "c-sanguozhi-048-sun-hao:p047:m0012"
+      ],
+      "mention_paragraph_ids": {
+        "c-sanguozhi-048-sun-hao:p027:m0058": "c-sanguozhi-048-sun-hao:p027",
+        "c-sanguozhi-048-sun-hao:p036:m0171": "c-sanguozhi-048-sun-hao:p036",
+        "c-sanguozhi-048-sun-hao:p047:m0012": "c-sanguozhi-048-sun-hao:p047"
+      },
+      "mention_id": "c-sanguozhi-048-sun-hao:p027:m0058",
+      "occurrence_groups": [
+        {
+          "canonical_mention_id": "c-sanguozhi-048-sun-hao:p027:m0058",
+          "mention_ids": [
+            "c-sanguozhi-048-sun-hao:p027:m0058"
+          ],
+          "kind": "paragraph"
+        },
+        {
+          "canonical_mention_id": "c-sanguozhi-048-sun-hao:p036:m0171",
+          "mention_ids": [
+            "c-sanguozhi-048-sun-hao:p036:m0171"
+          ],
+          "kind": "paragraph"
+        },
+        {
+          "canonical_mention_id": "c-sanguozhi-048-sun-hao:p047:m0012",
+          "mention_ids": [
+            "c-sanguozhi-048-sun-hao:p047:m0012"
+          ],
+          "kind": "paragraph"
+        }
+      ],
+      "work_id": "w-sanguozhi",
+      "book_id": "b-sanguozhi-048",
+      "chapter_id": "c-sanguozhi-048-sun-hao",
+      "source_id": "s-sanguozhi-048-sun-hao-ws2085142",
+      "work_title": "三國志"
+    },
+    {
       "number": 50,
       "category": "",
       "title": "何姬傳",
@@ -638,6 +693,33 @@
       }
     },
     {
+      "chapter_id": "c-sanguozhi-048-sun-hao",
+      "work_id": "w-sanguozhi",
+      "book_id": "b-sanguozhi-048",
+      "source_id": "s-sanguozhi-048-sun-hao-ws2085142",
+      "source": {
+        "title": "三國志卷四十八·孫皓",
+        "provider": "Wikisource",
+        "permalink": "https://zh.wikisource.org/w/index.php?oldid=2085142",
+        "url": "https://zh.wikisource.org/w/index.php?oldid=2085142",
+        "revision_id": 2085142,
+        "edition": "維基文庫固定修訂",
+        "accessed_on": "2026-11-22",
+        "review_status": "text_checked",
+        "image_verified": false,
+        "rights": "古代原文；數位轉錄依維基文庫授權。",
+        "license_url": "https://creativecommons.org/licenses/by-sa/4.0/",
+        "extent": "三國志卷四十八·孫皓",
+        "text_scope": "complete_biography_unit",
+        "raw_path": "source-evidence/sanguozhi048-roll/ws2085142.wikitext",
+        "raw_file_sha256": "2a0ed9c69dc827d835ac2444f18f35fb8815f54b94eb1a1346246808d18d6d1c",
+        "collation_witnesses": [
+          "source-evidence/sanguozhi048-roll/main-reading.json",
+          "source-evidence/sanguozhi048-roll/close-reading.json"
+        ]
+      }
+    },
+    {
       "chapter_id": "c-sanguozhi-050-he",
       "work_id": "w-sanguozhi",
       "book_id": "b-sanguozhi-050",
@@ -699,6 +781,22 @@
   },
   "dates": [],
   "name_components": [],
+  "source_reading_cases": [
+    {
+      "id": "c-sanguozhi-048-sun-hao:kinship_review47-10",
+      "kind": "kinship_review",
+      "person_id": "382_7fc_57a",
+      "source_quote": "與舅何植書",
+      "reading": "江表傳以「舅」定位孫皓與何植，未據此補何氏父名。",
+      "note": "江表傳以「舅」定位孫皓與何植，未據此補何氏父名。",
+      "paragraph_id": "c-sanguozhi-048-sun-hao:p047",
+      "start_codepoint": 10,
+      "end_codepoint": 15,
+      "human_reviewed": false,
+      "chapter_id": "c-sanguozhi-048-sun-hao",
+      "source_id": "s-sanguozhi-048-sun-hao-ws2085142"
+    }
+  ],
   "person_ids": [
     "382_7fc_57a"
   ],
