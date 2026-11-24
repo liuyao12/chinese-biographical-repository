@@ -5,12 +5,76 @@
   "label": "吳縣公主（齊武帝長女）",
   "identity_note": "依《南史》卷二十二王慈傳及固定南齊本傳原句辨認。",
   "review": "ai_provisional",
-  "names": [],
+  "names": [
+    "吳縣公主"
+  ],
   "titles": [],
   "addresses": [],
-  "occurrences": [],
+  "occurrences": [
+    {
+      "number": 46,
+      "category": "",
+      "title": "南齊書卷四十六·王慈全傳",
+      "paragraph_id": "c-nanqishu-046-wangci-complete:p003",
+      "count": 1,
+      "raw_count": 1,
+      "duplicate_count": 0,
+      "counting_policy": "independent_fixed_witness_occurrences",
+      "quote": "例也。以疾從閑任，轉冠軍將軍、司徒左長史。慈妻劉秉女。子觀，尚世祖長女吳縣公主，脩婦禮，姑未嘗交答。江夏王鋒爲南徐州，妃，慈女也，以慈爲冠軍將軍、東海太守，加秩中二千石，行南徐州府事。還爲冠軍將軍、廬陵王中軍長史，未拜，永明九年，卒。年四十一。",
+      "paragraph_ids": [
+        "c-nanqishu-046-wangci-complete:p003"
+      ],
+      "mention_ids": [
+        "c-nanqishu-046-wangci-complete:p003:m0082"
+      ],
+      "mention_paragraph_ids": {
+        "c-nanqishu-046-wangci-complete:p003:m0082": "c-nanqishu-046-wangci-complete:p003"
+      },
+      "mention_id": "c-nanqishu-046-wangci-complete:p003:m0082",
+      "occurrence_groups": [
+        {
+          "canonical_mention_id": "c-nanqishu-046-wangci-complete:p003:m0082",
+          "mention_ids": [
+            "c-nanqishu-046-wangci-complete:p003:m0082"
+          ],
+          "kind": "paragraph"
+        }
+      ],
+      "work_id": "w-nanqishu",
+      "book_id": "b-nanqishu-046",
+      "chapter_id": "c-nanqishu-046-wangci-complete",
+      "source_id": "s-nanqishu-046-wangci-complete-ws1511897",
+      "work_title": "南齊書"
+    }
+  ],
   "table_occurrences": [],
   "sources": [
+    {
+      "chapter_id": "c-nanqishu-046-wangci-complete",
+      "work_id": "w-nanqishu",
+      "book_id": "b-nanqishu-046",
+      "source_id": "s-nanqishu-046-wangci-complete-ws1511897",
+      "source": {
+        "title": "南齊書卷四十六·王慈全傳",
+        "provider": "Wikisource",
+        "permalink": "https://zh.wikisource.org/w/index.php?oldid=1511897",
+        "url": "https://zh.wikisource.org/w/index.php?oldid=1511897",
+        "revision_id": 1511897,
+        "edition": "維基文庫固定修訂",
+        "accessed_on": "2026-11-21",
+        "review_status": "text_checked",
+        "image_verified": false,
+        "rights": "古代原文；數位轉錄依維基文庫授權。",
+        "license_url": "https://creativecommons.org/licenses/by-sa/4.0/",
+        "extent": "南齊書卷四十六·王慈全傳",
+        "text_scope": "complete_biography_unit",
+        "raw_path": "sources/nanqishu/nanqishu046-ws1511897.wikitext",
+        "raw_file_sha256": "d109243a343e069b8ce98cb0607567b69305574aa59ecc8776b9ea70ca0fd537",
+        "collation_witnesses": [
+          "source-evidence/nanqi046-roll/wangci-reading.json"
+        ]
+      }
+    },
     {
       "chapter_id": "c-nanshi-022-wangci",
       "work_id": "w-nanshi",
@@ -42,6 +106,59 @@
     }
   ],
   "relations": [
+    {
+      "id": "a-qi046-wangguan-marriage",
+      "subject_person_id": "7r6_k52_qji_ABAAAAEBAB",
+      "object_person_id": "kix_r92_2ed_D",
+      "predicate": "spouse",
+      "qualifiers": {
+        "source_term": "子觀，尚世祖長女吳縣公主"
+      },
+      "evidence": [
+        {
+          "work_id": "w-nanqishu",
+          "book_id": "b-nanqishu-046",
+          "chapter_id": "c-nanqishu-046-wangci-complete",
+          "source_id": "s-nanqishu-046-wangci-complete-ws1511897",
+          "paragraph_id": "c-nanqishu-046-wangci-complete:p003",
+          "quote": "　　慈患脚，世祖敕王晏曰：「慈在職未久，旣有微疾，不堪朝，又不能騎馬，聽乘車在仗後。」江左來少例也。以疾從閑任，轉冠軍將軍、司徒左長史。慈妻劉秉女。子觀，尚世祖長女吳縣公主，脩婦禮，姑未嘗交答。江夏王鋒爲南徐州，妃，慈女也，以慈爲冠軍將軍、東海太守，加秩中二千石，行南徐州府事。還爲冠軍將軍、廬陵王中軍長史，未拜，永明九年，卒。年四十一。",
+          "subject_person_mention_id": "c-nanqishu-046-wangci-complete:p003:m0075",
+          "object_person_mention_id": "c-nanqishu-046-wangci-complete:p003:m0082"
+        }
+      ],
+      "status": "source_attested",
+      "interpretation_note": "據原文親屬稱謂，存所見人物。",
+      "reviewer": "Codex（AI代理）",
+      "model": null,
+      "human_reviewed": false
+    },
+    {
+      "id": "a-qi046-wuxian-father",
+      "subject_person_id": "kix_r92_2ed_D",
+      "object_person_id": "kix_r92_2ed",
+      "predicate": "father",
+      "qualifiers": {
+        "source_term": "世祖長女吳縣公主",
+        "lineage": "paternal"
+      },
+      "evidence": [
+        {
+          "work_id": "w-nanqishu",
+          "book_id": "b-nanqishu-046",
+          "chapter_id": "c-nanqishu-046-wangci-complete",
+          "source_id": "s-nanqishu-046-wangci-complete-ws1511897",
+          "paragraph_id": "c-nanqishu-046-wangci-complete:p003",
+          "quote": "　　慈患脚，世祖敕王晏曰：「慈在職未久，旣有微疾，不堪朝，又不能騎馬，聽乘車在仗後。」江左來少例也。以疾從閑任，轉冠軍將軍、司徒左長史。慈妻劉秉女。子觀，尚世祖長女吳縣公主，脩婦禮，姑未嘗交答。江夏王鋒爲南徐州，妃，慈女也，以慈爲冠軍將軍、東海太守，加秩中二千石，行南徐州府事。還爲冠軍將軍、廬陵王中軍長史，未拜，永明九年，卒。年四十一。",
+          "subject_person_mention_id": "c-nanqishu-046-wangci-complete:p003:m0082",
+          "object_person_mention_id": "c-nanqishu-046-wangci-complete:p003:m0006"
+        }
+      ],
+      "status": "source_attested",
+      "interpretation_note": "據原文親屬稱謂，存所見人物。",
+      "reviewer": "Codex（AI代理）",
+      "model": null,
+      "human_reviewed": false
+    },
     {
       "id": "a-nanshi022-wangci-130-8-14",
       "subject_person_id": "7r6_k52_qji_ABAAAAEBAB",
@@ -136,6 +253,59 @@
     "kix_r92_2ed_D"
   ],
   "preferred_relations": [
+    {
+      "id": "a-qi046-wangguan-marriage",
+      "subject_person_id": "7r6_k52_qji_ABAAAAEBAB",
+      "object_person_id": "kix_r92_2ed_D",
+      "predicate": "spouse",
+      "qualifiers": {
+        "source_term": "子觀，尚世祖長女吳縣公主"
+      },
+      "evidence": [
+        {
+          "work_id": "w-nanqishu",
+          "book_id": "b-nanqishu-046",
+          "chapter_id": "c-nanqishu-046-wangci-complete",
+          "source_id": "s-nanqishu-046-wangci-complete-ws1511897",
+          "paragraph_id": "c-nanqishu-046-wangci-complete:p003",
+          "quote": "　　慈患脚，世祖敕王晏曰：「慈在職未久，旣有微疾，不堪朝，又不能騎馬，聽乘車在仗後。」江左來少例也。以疾從閑任，轉冠軍將軍、司徒左長史。慈妻劉秉女。子觀，尚世祖長女吳縣公主，脩婦禮，姑未嘗交答。江夏王鋒爲南徐州，妃，慈女也，以慈爲冠軍將軍、東海太守，加秩中二千石，行南徐州府事。還爲冠軍將軍、廬陵王中軍長史，未拜，永明九年，卒。年四十一。",
+          "subject_person_mention_id": "c-nanqishu-046-wangci-complete:p003:m0075",
+          "object_person_mention_id": "c-nanqishu-046-wangci-complete:p003:m0082"
+        }
+      ],
+      "status": "source_attested",
+      "interpretation_note": "據原文親屬稱謂，存所見人物。",
+      "reviewer": "Codex（AI代理）",
+      "model": null,
+      "human_reviewed": false
+    },
+    {
+      "id": "a-qi046-wuxian-father",
+      "subject_person_id": "kix_r92_2ed_D",
+      "object_person_id": "kix_r92_2ed",
+      "predicate": "father",
+      "qualifiers": {
+        "source_term": "世祖長女吳縣公主",
+        "lineage": "paternal"
+      },
+      "evidence": [
+        {
+          "work_id": "w-nanqishu",
+          "book_id": "b-nanqishu-046",
+          "chapter_id": "c-nanqishu-046-wangci-complete",
+          "source_id": "s-nanqishu-046-wangci-complete-ws1511897",
+          "paragraph_id": "c-nanqishu-046-wangci-complete:p003",
+          "quote": "　　慈患脚，世祖敕王晏曰：「慈在職未久，旣有微疾，不堪朝，又不能騎馬，聽乘車在仗後。」江左來少例也。以疾從閑任，轉冠軍將軍、司徒左長史。慈妻劉秉女。子觀，尚世祖長女吳縣公主，脩婦禮，姑未嘗交答。江夏王鋒爲南徐州，妃，慈女也，以慈爲冠軍將軍、東海太守，加秩中二千石，行南徐州府事。還爲冠軍將軍、廬陵王中軍長史，未拜，永明九年，卒。年四十一。",
+          "subject_person_mention_id": "c-nanqishu-046-wangci-complete:p003:m0082",
+          "object_person_mention_id": "c-nanqishu-046-wangci-complete:p003:m0006"
+        }
+      ],
+      "status": "source_attested",
+      "interpretation_note": "據原文親屬稱謂，存所見人物。",
+      "reviewer": "Codex（AI代理）",
+      "model": null,
+      "human_reviewed": false
+    },
     {
       "id": "a-nanshi022-wangci-130-8-14",
       "subject_person_id": "7r6_k52_qji_ABAAAAEBAB",

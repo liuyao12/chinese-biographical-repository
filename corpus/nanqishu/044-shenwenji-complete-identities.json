@@ -1,0 +1,64 @@
+{
+  "format_version": "0.2",
+  "record_type": "person_identity_decision_set",
+  "chapter_id": "c-nanqishu-044-shenwenji-complete",
+  "decisions": [
+    {
+      "id": "d-qi046-dan-jingjun-cross-source",
+      "person_id": "wbo_1n5_vgq",
+      "scope": "cross_chapter",
+      "chapter_ids": [
+        "c-nanqishu-044-shenwenji-complete",
+        "c-nanshi-024-wangyan",
+        "c-nanqishu-040-zhaozhou"
+      ],
+      "surfaces": [
+        "單景雋",
+        "景雋"
+      ],
+      "status": "contextual_provisional",
+      "confidence_level": "high",
+      "identification_basis": {
+        "kind": "source_context",
+        "target_mention_ids": [
+          "c-nanqishu-044-shenwenji-complete:p011:m0084",
+          "c-nanshi-024-wangyan:p008:m0124",
+          "c-nanqishu-040-zhaozhou:p002:m0142"
+        ]
+      },
+      "evidence": [
+        {
+          "work_id": "w-nanqishu",
+          "book_id": "b-nanqishu-044",
+          "source_id": "s-nanqishu-044-shenwenji-complete-ws1507959",
+          "chapter_id": "c-nanqishu-044-shenwenji-complete",
+          "paragraph_id": "c-nanqishu-044-shenwenji-complete:p011",
+          "person_mention_id": "c-nanqishu-044-shenwenji-complete:p011:m0084",
+          "quote": "遣左右單景雋宣旨"
+        },
+        {
+          "work_id": "w-nanshi",
+          "book_id": "b-nanshi-024",
+          "source_id": "s-nanshi-024-wangyan-ws1765279",
+          "chapter_id": "c-nanshi-024-wangyan",
+          "paragraph_id": "c-nanshi-024-wangyan:p008",
+          "person_mention_id": "c-nanshi-024-wangyan:p008:m0124",
+          "quote": "又左右單景雋、陳世范等采巫覡言啟上"
+        },
+        {
+          "work_id": "w-nanqishu",
+          "book_id": "b-nanqishu-040",
+          "source_id": "s-nanqishu-040-zhaozhou-ws2272748",
+          "chapter_id": "c-nanqishu-040-zhaozhou",
+          "paragraph_id": "c-nanqishu-040-zhaozhou:p002",
+          "person_mention_id": "c-nanqishu-040-zhaozhou:p002:m0142",
+          "quote": "與帝所親左右單景雋共謀少留其事"
+        }
+      ],
+      "rationale": "《南齊書》卷四十四稱高宗遣左右單景雋宣旨。卷四十與《南史》卷二十四均見明帝左右單景雋，三處具同一罕見姓名、朝代和親近職掌。沿用卷四十既有人物識別。",
+      "reviewer": "Codex（AI代理）",
+      "human_reviewed": false,
+      "model": null
+    }
+  ]
+}
