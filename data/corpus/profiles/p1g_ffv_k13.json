@@ -1,0 +1,150 @@
+{
+  "schema_version": 1,
+  "id": "p1g_ffv_k13",
+  "canonical_person_id": "p1g_ffv_k13",
+  "label": "管淑妃（蕭寶攸母）",
+  "identity_note": "管淑妃（蕭寶攸母），見本組原文及身份互校。",
+  "review": "ai_provisional",
+  "names": [
+    "管淑妃"
+  ],
+  "titles": [],
+  "addresses": [],
+  "occurrences": [
+    {
+      "number": 50,
+      "category": "",
+      "title": "南齊書卷五十·文惠太子二王及明帝七王",
+      "paragraph_id": "c-nanqishu-050-princes-complete:p005",
+      "count": 1,
+      "raw_count": 1,
+      "duplicate_count": 0,
+      "counting_policy": "independent_fixed_witness_occurrences",
+      "quote": "陽王寶寅，和帝；殷貴嬪生巴陵隱王寶義，晉熙王寶嵩；袁貴妃生廬陵王寶源；管淑妃生邵陵王寶攸；許淑媛生桂陽王寶貞。餘皆早夭。",
+      "paragraph_ids": [
+        "c-nanqishu-050-princes-complete:p005"
+      ],
+      "mention_ids": [
+        "c-nanqishu-050-princes-complete:p005:m0060"
+      ],
+      "mention_paragraph_ids": {
+        "c-nanqishu-050-princes-complete:p005:m0060": "c-nanqishu-050-princes-complete:p005"
+      },
+      "mention_id": "c-nanqishu-050-princes-complete:p005:m0060",
+      "occurrence_groups": [
+        {
+          "canonical_mention_id": "c-nanqishu-050-princes-complete:p005:m0060",
+          "mention_ids": [
+            "c-nanqishu-050-princes-complete:p005:m0060"
+          ],
+          "kind": "paragraph"
+        }
+      ],
+      "work_id": "w-nanqishu",
+      "book_id": "b-nanqishu-050",
+      "chapter_id": "c-nanqishu-050-princes-complete",
+      "source_id": "s-nanqishu-050-princes-complete-ws2272731",
+      "work_title": "南齊書"
+    }
+  ],
+  "table_occurrences": [],
+  "sources": [
+    {
+      "chapter_id": "c-nanqishu-050-princes-complete",
+      "work_id": "w-nanqishu",
+      "book_id": "b-nanqishu-050",
+      "source_id": "s-nanqishu-050-princes-complete-ws2272731",
+      "source": {
+        "title": "南齊書卷五十·文惠太子二王及明帝七王",
+        "provider": "Wikisource",
+        "permalink": "https://zh.wikisource.org/w/index.php?oldid=2272731",
+        "url": "https://zh.wikisource.org/w/index.php?oldid=2272731",
+        "revision_id": 2272731,
+        "edition": "維基文庫固定修訂",
+        "accessed_on": "2026-11-21",
+        "review_status": "text_checked",
+        "image_verified": false,
+        "rights": "古代原文；數位轉錄依維基文庫授權。",
+        "license_url": "https://creativecommons.org/licenses/by-sa/4.0/",
+        "extent": "南齊書卷五十·文惠太子二王及明帝七王",
+        "text_scope": "complete_biography_unit",
+        "raw_path": "source-evidence/nanshi019-xietiao/nanqishu050-ws2272731.wikitext",
+        "raw_file_sha256": "2459124c61a488a22b5213cfefd1ca38d0015243f9471998260692781a016207",
+        "collation_witnesses": [
+          "source-evidence/nanqi050-roll/princes-reading.json"
+        ]
+      }
+    }
+  ],
+  "relations": [
+    {
+      "id": "a-qi050-baoyou-mother",
+      "subject_person_id": "t5v_3x1_2ke",
+      "object_person_id": "p1g_ffv_k13",
+      "predicate": "mother",
+      "qualifiers": {
+        "source_term": "管淑妃生邵陵王寶攸",
+        "lineage": "maternal"
+      },
+      "evidence": [
+        {
+          "work_id": "w-nanqishu",
+          "book_id": "b-nanqishu-050",
+          "chapter_id": "c-nanqishu-050-princes-complete",
+          "source_id": "s-nanqishu-050-princes-complete-ws2272731",
+          "paragraph_id": "c-nanqishu-050-princes-complete:p005",
+          "quote": "　　明帝十一男：敬皇后生東昏侯寶卷，江夏王寶玄，鄱陽王寶寅，和帝；殷貴嬪生巴陵隱王寶義，晉熙王寶嵩；袁貴妃生廬陵王寶源；管淑妃生邵陵王寶攸；許淑媛生桂陽王寶貞。餘皆早夭。",
+          "subject_person_mention_id": "c-nanqishu-050-princes-complete:p005:m0064",
+          "object_person_mention_id": "c-nanqishu-050-princes-complete:p005:m0060"
+        }
+      ],
+      "status": "source_attested",
+      "interpretation_note": "父系總敘中特別具所生母。",
+      "reviewer": "Codex（AI代理）",
+      "model": null,
+      "human_reviewed": false
+    }
+  ],
+  "related_people": {
+    "p1g_ffv_k13": "管淑妃（蕭寶攸母）",
+    "t5v_3x1_2ke": "蕭寶攸（字智宣，邵陵王）"
+  },
+  "dates": [],
+  "name_components": [],
+  "person_ids": [
+    "p1g_ffv_k13"
+  ],
+  "preferred_relations": [
+    {
+      "id": "a-qi050-baoyou-mother",
+      "subject_person_id": "t5v_3x1_2ke",
+      "object_person_id": "p1g_ffv_k13",
+      "predicate": "mother",
+      "qualifiers": {
+        "source_term": "管淑妃生邵陵王寶攸",
+        "lineage": "maternal"
+      },
+      "evidence": [
+        {
+          "work_id": "w-nanqishu",
+          "book_id": "b-nanqishu-050",
+          "chapter_id": "c-nanqishu-050-princes-complete",
+          "source_id": "s-nanqishu-050-princes-complete-ws2272731",
+          "paragraph_id": "c-nanqishu-050-princes-complete:p005",
+          "quote": "　　明帝十一男：敬皇后生東昏侯寶卷，江夏王寶玄，鄱陽王寶寅，和帝；殷貴嬪生巴陵隱王寶義，晉熙王寶嵩；袁貴妃生廬陵王寶源；管淑妃生邵陵王寶攸；許淑媛生桂陽王寶貞。餘皆早夭。",
+          "subject_person_mention_id": "c-nanqishu-050-princes-complete:p005:m0064",
+          "object_person_mention_id": "c-nanqishu-050-princes-complete:p005:m0060"
+        }
+      ],
+      "status": "source_attested",
+      "interpretation_note": "父系總敘中特別具所生母。",
+      "reviewer": "Codex（AI代理）",
+      "model": null,
+      "human_reviewed": false
+    }
+  ],
+  "age_assertions": [],
+  "life_events": [],
+  "life_event_date_decisions": [],
+  "selected_life_event_dates": []
+}
