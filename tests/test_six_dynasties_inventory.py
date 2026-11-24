@@ -6,7 +6,7 @@ from scripts.six_dynasties_inventory import chapter_passage, received_text, sour
 from scripts.person_references import reference_errors
 from scripts.family_assemblies import registry_sibling_path_valid
 from scripts.nanqi041_projection import decode_line
-from scripts.sanguozhi_early_wu_layers import project_line, shown
+from scripts.sanguozhi_early_wu_layers import project_line, project_slice, shown
 
 
 class SixDynastiesInventoryTest(unittest.TestCase):
@@ -18,6 +18,8 @@ class SixDynastiesInventoryTest(unittest.TestCase):
         start, end, anchor = notes[0]
         self.assertEqual(anchor, len('孫堅曰：甲。'))
         self.assertEqual(shown(raw[start:end])[0], '呉史曰乙。')
+        self.assertEqual(project_slice(raw, raw.index('甲'), raw.index('丙') + 1), '甲。丙')
+        self.assertEqual(project_slice(raw, start, end), '呉史曰乙。')
 
     def test_nanqi_blockquote_keeps_raw_coordinate_and_internal_punctuation(self):
         text, spans, _ = decode_line(':夫曰：甲。', 10)
