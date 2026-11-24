@@ -1,0 +1,53 @@
+{
+  "format_version": "0.2",
+  "record_type": "person_identity_decision_set",
+  "chapter_id": "c-nanqishu-057-northern-wei-complete",
+  "decisions": [
+    {
+      "id": "d-qi057-liu-chang-two-princely-titles",
+      "person_id": "g9z_y41_l95",
+      "scope": "cross_chapter",
+      "chapter_ids": [
+        "c-nanqishu-057-northern-wei-complete",
+        "c-nanqishu-027-wangwenhe"
+      ],
+      "surfaces": [
+        "丹陽王劉昶",
+        "昶"
+      ],
+      "status": "contextual_provisional",
+      "confidence_level": "high",
+      "identification_basis": {
+        "kind": "source_context",
+        "target_mention_ids": [
+          "c-nanqishu-057-northern-wei-complete:p010:m0049",
+          "c-nanqishu-027-wangwenhe:p001:m0026"
+        ]
+      },
+      "evidence": [
+        {
+          "work_id": "w-nanqishu",
+          "book_id": "b-nanqishu-057",
+          "source_id": "s-nanqishu-057-northern-wei-complete-ws1999801",
+          "chapter_id": "c-nanqishu-057-northern-wei-complete",
+          "paragraph_id": "c-nanqishu-057-northern-wei-complete:p010",
+          "person_mention_id": "c-nanqishu-057-northern-wei-complete:p010:m0049",
+          "quote": "遣丹陽王劉昶為太師"
+        },
+        {
+          "work_id": "w-nanqishu",
+          "book_id": "b-nanqishu-027",
+          "source_id": "s-nanqishu-027-wangwenhe-ws1508012",
+          "chapter_id": "c-nanqishu-027-wangwenhe",
+          "paragraph_id": "c-nanqishu-027-wangwenhe:p001",
+          "person_mention_id": "c-nanqishu-027-wangwenhe:p001:m0026",
+          "quote": "為義陽王昶征北府主簿"
+        }
+      ],
+      "rationale": "《魏書》卷五十九劉昶本傳明記義隆第九子，宋封義陽王，入魏後尚主、封丹陽王。此人兩段的官位各按當時所載保留。",
+      "reviewer": "Codex（AI代理）",
+      "human_reviewed": false,
+      "model": null
+    }
+  ]
+}
