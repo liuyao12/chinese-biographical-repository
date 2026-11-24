@@ -6,11 +6,75 @@
   "identity_note": "059完整單元與固定平行來源上下文暫定辨識；不用同姓／同字自動接族。",
   "review": "ai_provisional",
   "names": [
-    "崔邪利"
+    "崔邪利",
+    "邪利"
   ],
   "titles": [],
   "addresses": [],
   "occurrences": [
+    {
+      "number": 55,
+      "category": "",
+      "title": "南齊書卷五十五·崔懷慎、韓靈敏等孝義列傳",
+      "paragraph_id": "c-nanqishu-055-filial-complete:p001",
+      "count": 4,
+      "raw_count": 4,
+      "duplicate_count": 0,
+      "counting_policy": "independent_fixed_witness_occurrences",
+      "quote": "　　崔懷慎，清河東武城人也。父邪利，魯郡太守，宋元嘉中，沒虜。懷慎與妻房氏篤愛，聞父陷沒，即日遣妻，布衣蔬食，如居喪禮。邪利後仕虜中書，戒懷慎不許如此，懷慎得書更號泣。懷慎從叔模爲滎陽太守，亦同沈虜，模子雖居處改節，而不廢婚宦。大明中",
+      "paragraph_ids": [
+        "c-nanqishu-055-filial-complete:p001",
+        "c-nanqishu-055-filial-complete:p002"
+      ],
+      "mention_ids": [
+        "c-nanqishu-055-filial-complete:p001:m0015",
+        "c-nanqishu-055-filial-complete:p001:m0060",
+        "c-nanqishu-055-filial-complete:p001:m0137",
+        "c-nanqishu-055-filial-complete:p002:m0033"
+      ],
+      "mention_paragraph_ids": {
+        "c-nanqishu-055-filial-complete:p001:m0015": "c-nanqishu-055-filial-complete:p001",
+        "c-nanqishu-055-filial-complete:p001:m0060": "c-nanqishu-055-filial-complete:p001",
+        "c-nanqishu-055-filial-complete:p001:m0137": "c-nanqishu-055-filial-complete:p001",
+        "c-nanqishu-055-filial-complete:p002:m0033": "c-nanqishu-055-filial-complete:p002"
+      },
+      "mention_id": "c-nanqishu-055-filial-complete:p001:m0015",
+      "occurrence_groups": [
+        {
+          "canonical_mention_id": "c-nanqishu-055-filial-complete:p001:m0015",
+          "mention_ids": [
+            "c-nanqishu-055-filial-complete:p001:m0015"
+          ],
+          "kind": "paragraph"
+        },
+        {
+          "canonical_mention_id": "c-nanqishu-055-filial-complete:p001:m0060",
+          "mention_ids": [
+            "c-nanqishu-055-filial-complete:p001:m0060"
+          ],
+          "kind": "paragraph"
+        },
+        {
+          "canonical_mention_id": "c-nanqishu-055-filial-complete:p001:m0137",
+          "mention_ids": [
+            "c-nanqishu-055-filial-complete:p001:m0137"
+          ],
+          "kind": "paragraph"
+        },
+        {
+          "canonical_mention_id": "c-nanqishu-055-filial-complete:p002:m0033",
+          "mention_ids": [
+            "c-nanqishu-055-filial-complete:p002:m0033"
+          ],
+          "kind": "paragraph"
+        }
+      ],
+      "work_id": "w-nanqishu",
+      "book_id": "b-nanqishu-055",
+      "chapter_id": "c-nanqishu-055-filial-complete",
+      "source_id": "s-nanqishu-055-filial-complete-ws1545598",
+      "work_title": "南齊書"
+    },
     {
       "number": 59,
       "category": "",
@@ -68,6 +132,32 @@
   "table_occurrences": [],
   "sources": [
     {
+      "chapter_id": "c-nanqishu-055-filial-complete",
+      "work_id": "w-nanqishu",
+      "book_id": "b-nanqishu-055",
+      "source_id": "s-nanqishu-055-filial-complete-ws1545598",
+      "source": {
+        "title": "南齊書卷五十五·崔懷慎、韓靈敏等孝義列傳",
+        "provider": "Wikisource",
+        "permalink": "https://zh.wikisource.org/w/index.php?oldid=1545598",
+        "url": "https://zh.wikisource.org/w/index.php?oldid=1545598",
+        "revision_id": 1545598,
+        "edition": "維基文庫固定修訂",
+        "accessed_on": "2026-11-22",
+        "review_status": "text_checked",
+        "image_verified": false,
+        "rights": "古代原文；數位轉錄依維基文庫授權。",
+        "license_url": "https://creativecommons.org/licenses/by-sa/4.0/",
+        "extent": "南齊書卷五十五·崔懷慎、韓靈敏等孝義列傳",
+        "text_scope": "complete_biography_unit",
+        "raw_path": "source-evidence/nanqi055-roll/nanqishu055-ws1545598.wikitext",
+        "raw_file_sha256": "371b4c928d933faa455b0c1174986abaa3465cb96f0d8982955e9ce805cf44f6",
+        "collation_witnesses": [
+          "source-evidence/nanqi055-roll/filial-reading.json"
+        ]
+      }
+    },
+    {
       "chapter_id": "c-songshu-059-zhangchang",
       "work_id": "w-songshu",
       "book_id": "b-songshu-059",
@@ -96,8 +186,36 @@
       }
     }
   ],
-  "relations": [],
+  "relations": [
+    {
+      "id": "a-qi055-cuihuaishen-father",
+      "subject_person_id": "3iy_odt_bv3",
+      "object_person_id": "w24_xki_l2n",
+      "predicate": "father",
+      "qualifiers": {
+        "source_term": "父邪利"
+      },
+      "evidence": [
+        {
+          "work_id": "w-nanqishu",
+          "book_id": "b-nanqishu-055",
+          "chapter_id": "c-nanqishu-055-filial-complete",
+          "source_id": "s-nanqishu-055-filial-complete-ws1545598",
+          "paragraph_id": "c-nanqishu-055-filial-complete:p001",
+          "quote": "　　崔懷慎，清河東武城人也。父邪利，魯郡太守，宋元嘉中，沒虜。懷慎與妻房氏篤愛，聞父陷沒，即日遣妻，布衣蔬食，如居喪禮。邪利後仕虜中書，戒懷慎不許如此，懷慎得書更號泣。懷慎從叔模爲滎陽太守，亦同沈虜，模子雖居處改節，而不廢婚宦。大明中，懷慎宗人冀州刺史元孫北使，虜問之曰：「崔邪利、模竝力屈歸命，二家子姪，出處不同，義將安在？」元孫曰：「王尊驅驥，王陽回車，欲令忠孝竝弘，臣子兩節。」",
+          "subject_person_mention_id": "c-nanqishu-055-filial-complete:p001:m0002",
+          "object_person_mention_id": "c-nanqishu-055-filial-complete:p001:m0015"
+        }
+      ],
+      "status": "source_attested",
+      "interpretation_note": "魏書所記邪利二子中有懷順。",
+      "reviewer": "Codex（AI代理）",
+      "model": null,
+      "human_reviewed": false
+    }
+  ],
   "related_people": {
+    "3iy_odt_bv3": "崔懷慎（清河東武城，南史作懷順）",
     "w24_xki_l2n": "崔邪利"
   },
   "dates": [],
@@ -105,9 +223,66 @@
   "person_ids": [
     "w24_xki_l2n"
   ],
-  "preferred_relations": [],
+  "preferred_relations": [
+    {
+      "id": "a-qi055-cuihuaishen-father",
+      "subject_person_id": "3iy_odt_bv3",
+      "object_person_id": "w24_xki_l2n",
+      "predicate": "father",
+      "qualifiers": {
+        "source_term": "父邪利"
+      },
+      "evidence": [
+        {
+          "work_id": "w-nanqishu",
+          "book_id": "b-nanqishu-055",
+          "chapter_id": "c-nanqishu-055-filial-complete",
+          "source_id": "s-nanqishu-055-filial-complete-ws1545598",
+          "paragraph_id": "c-nanqishu-055-filial-complete:p001",
+          "quote": "　　崔懷慎，清河東武城人也。父邪利，魯郡太守，宋元嘉中，沒虜。懷慎與妻房氏篤愛，聞父陷沒，即日遣妻，布衣蔬食，如居喪禮。邪利後仕虜中書，戒懷慎不許如此，懷慎得書更號泣。懷慎從叔模爲滎陽太守，亦同沈虜，模子雖居處改節，而不廢婚宦。大明中，懷慎宗人冀州刺史元孫北使，虜問之曰：「崔邪利、模竝力屈歸命，二家子姪，出處不同，義將安在？」元孫曰：「王尊驅驥，王陽回車，欲令忠孝竝弘，臣子兩節。」",
+          "subject_person_mention_id": "c-nanqishu-055-filial-complete:p001:m0002",
+          "object_person_mention_id": "c-nanqishu-055-filial-complete:p001:m0015"
+        }
+      ],
+      "status": "source_attested",
+      "interpretation_note": "魏書所記邪利二子中有懷順。",
+      "reviewer": "Codex（AI代理）",
+      "model": null,
+      "human_reviewed": false
+    }
+  ],
   "age_assertions": [],
-  "life_events": [],
+  "life_events": [
+    {
+      "id": "le-qi055-cuixieli-death",
+      "person_id": "w24_xki_l2n",
+      "event_type": "death",
+      "source_term": "卒",
+      "source_anchor": {
+        "paragraph_id": "c-nanqishu-055-filial-complete:p002",
+        "start": 37,
+        "end": 38,
+        "surface": "卒"
+      },
+      "date_expression": null,
+      "evidence": [
+        {
+          "work_id": "w-nanqishu",
+          "book_id": "b-nanqishu-055",
+          "chapter_id": "c-nanqishu-055-filial-complete",
+          "source_id": "s-nanqishu-055-filial-complete-ws1545598",
+          "paragraph_id": "c-nanqishu-055-filial-complete:p002",
+          "quote": "　　泰始初，淮北陷沒，界上流奔者，多有去就。懷慎因此入北。至桑乾，邪利時已卒，懷慎絕而後蘇。載喪還青州，徒跣冰雪，土氣寒酷，而手足不傷，時人以爲孝感。喪畢，以弟在南，建元初，又逃歸，而弟亦已亡。懷慎孤貧獨立，宗黨哀之，日斂給其升米。永明中卒。",
+          "person_mention_id": "c-nanqishu-055-filial-complete:p002:m0033"
+        }
+      ],
+      "status": "source_attested",
+      "interpretation_note": "按同段人物與次第核所屬卒事。",
+      "reviewer": "Codex（AI代理）",
+      "model": null,
+      "human_reviewed": false
+    }
+  ],
   "life_event_date_decisions": [],
   "selected_life_event_dates": []
 }

@@ -7,19 +7,25 @@ except ImportError:
     from sanguozhi063_layers import bounds
 
 
+LITERAL_CONVERSION = re.compile(r'-\{([^{}|:;]+)\}-')
+
+
 def decode_line(line, offset=0):
     text = []
     spans = []
     annotations = []
     cursor = int(line.startswith(':　　'))
     while cursor < len(line):
-        if line.startswith('-{云}-', cursor):
-            text.append('云')
-            spans.append([offset + cursor + 2, offset + cursor + 3])
-            annotations.append(dict(kind='數位字形轉換標記', raw_start=offset + cursor,
-                                    raw_end=offset + cursor + 5, source='云'))
-            cursor += 5
-            continue
+        if line.startswith('-{', cursor):
+            literal = LITERAL_CONVERSION.match(line, cursor)
+            if literal:
+                start, end = literal.span(1)
+                text.append(literal.group(1))
+                spans.extend([offset + p, offset + p + 1] for p in range(start, end))
+                annotations.append(dict(kind='數位字形轉換標記', raw_start=offset + cursor,
+                                        raw_end=offset + literal.end(), source=literal.group(1)))
+                cursor = literal.end()
+                continue
         if line.startswith("'''", cursor):
             annotations.append(dict(kind='數位粗體標記', raw_start=offset + cursor,
                                     raw_end=offset + cursor + 3, source="'''"))
