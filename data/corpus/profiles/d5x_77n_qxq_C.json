@@ -7,7 +7,8 @@
   "review": "ai_provisional",
   "names": [
     "絳",
-    "魏卿"
+    "魏卿",
+    "陸絳"
   ],
   "titles": [],
   "addresses": [],
@@ -99,6 +100,59 @@
       "chapter_id": "c-nanshi-048-luxiang-four-brothers",
       "source_id": "s-nanshi-048-luxiang-four-brothers-ws2493997",
       "work_title": "南史"
+    },
+    {
+      "number": 55,
+      "category": "",
+      "title": "南齊書卷五十五·崔懷慎、韓靈敏等孝義列傳",
+      "paragraph_id": "c-nanqishu-055-filial-complete:p040",
+      "count": 3,
+      "raw_count": 3,
+      "duplicate_count": 0,
+      "counting_policy": "independent_fixed_witness_occurrences",
+      "quote": "　　陸絳字魏卿，吳郡人也。父閑，字遐業，有風概，與人交，不苟合。少爲同郡張緒所知，仕至揚州別駕。明帝崩，閑謂所親曰：「宮車晏駕，百司將聽於冢宰。主王地重才弱，必不能振，難將至矣。」乃感心疾，不復預州事。刺史始",
+      "paragraph_ids": [
+        "c-nanqishu-055-filial-complete:p040"
+      ],
+      "mention_ids": [
+        "c-nanqishu-055-filial-complete:p040:m0002",
+        "c-nanqishu-055-filial-complete:p040:m0005",
+        "c-nanqishu-055-filial-complete:p040:m0148"
+      ],
+      "mention_paragraph_ids": {
+        "c-nanqishu-055-filial-complete:p040:m0002": "c-nanqishu-055-filial-complete:p040",
+        "c-nanqishu-055-filial-complete:p040:m0005": "c-nanqishu-055-filial-complete:p040",
+        "c-nanqishu-055-filial-complete:p040:m0148": "c-nanqishu-055-filial-complete:p040"
+      },
+      "mention_id": "c-nanqishu-055-filial-complete:p040:m0002",
+      "occurrence_groups": [
+        {
+          "canonical_mention_id": "c-nanqishu-055-filial-complete:p040:m0002",
+          "mention_ids": [
+            "c-nanqishu-055-filial-complete:p040:m0002"
+          ],
+          "kind": "paragraph"
+        },
+        {
+          "canonical_mention_id": "c-nanqishu-055-filial-complete:p040:m0005",
+          "mention_ids": [
+            "c-nanqishu-055-filial-complete:p040:m0005"
+          ],
+          "kind": "paragraph"
+        },
+        {
+          "canonical_mention_id": "c-nanqishu-055-filial-complete:p040:m0148",
+          "mention_ids": [
+            "c-nanqishu-055-filial-complete:p040:m0148"
+          ],
+          "kind": "paragraph"
+        }
+      ],
+      "work_id": "w-nanqishu",
+      "book_id": "b-nanqishu-055",
+      "chapter_id": "c-nanqishu-055-filial-complete",
+      "source_id": "s-nanqishu-055-filial-complete-ws1545598",
+      "work_title": "南齊書"
     }
   ],
   "table_occurrences": [],
@@ -127,6 +181,32 @@
       }
     },
     {
+      "chapter_id": "c-nanqishu-055-filial-complete",
+      "work_id": "w-nanqishu",
+      "book_id": "b-nanqishu-055",
+      "source_id": "s-nanqishu-055-filial-complete-ws1545598",
+      "source": {
+        "title": "南齊書卷五十五·崔懷慎、韓靈敏等孝義列傳",
+        "provider": "Wikisource",
+        "permalink": "https://zh.wikisource.org/w/index.php?oldid=1545598",
+        "url": "https://zh.wikisource.org/w/index.php?oldid=1545598",
+        "revision_id": 1545598,
+        "edition": "維基文庫固定修訂",
+        "accessed_on": "2026-11-22",
+        "review_status": "text_checked",
+        "image_verified": false,
+        "rights": "古代原文；數位轉錄依維基文庫授權。",
+        "license_url": "https://creativecommons.org/licenses/by-sa/4.0/",
+        "extent": "南齊書卷五十五·崔懷慎、韓靈敏等孝義列傳",
+        "text_scope": "complete_biography_unit",
+        "raw_path": "source-evidence/nanqi055-roll/nanqishu055-ws1545598.wikitext",
+        "raw_file_sha256": "371b4c928d933faa455b0c1174986abaa3465cb96f0d8982955e9ce805cf44f6",
+        "collation_witnesses": [
+          "source-evidence/nanqi055-roll/filial-reading.json"
+        ]
+      }
+    },
+    {
       "chapter_id": "c-nanshi-048-luxiang-four-brothers",
       "work_id": "w-nanshi",
       "book_id": "b-nanshi-048",
@@ -151,6 +231,32 @@
     }
   ],
   "relations": [
+    {
+      "id": "a-qi055-lujiang-father",
+      "subject_person_id": "d5x_77n_qxq_C",
+      "object_person_id": "d5x_77n_qxq",
+      "predicate": "father",
+      "qualifiers": {
+        "source_term": "父閑，字遐業"
+      },
+      "evidence": [
+        {
+          "work_id": "w-nanqishu",
+          "book_id": "b-nanqishu-055",
+          "chapter_id": "c-nanqishu-055-filial-complete",
+          "source_id": "s-nanqishu-055-filial-complete-ws1545598",
+          "paragraph_id": "c-nanqishu-055-filial-complete:p040",
+          "quote": "　　陸絳字魏卿，吳郡人也。父閑，字遐業，有風概，與人交，不苟合。少爲同郡張緒所知，仕至揚州別駕。明帝崩，閑謂所親曰：「宮車晏駕，百司將聽於冢宰。主王地重才弱，必不能振，難將至矣。」乃感心疾，不復預州事。刺史始安王遙光反，事敗，閑以綱佐被召至杜姥宅，尚書令徐孝嗣啟閑不預逆謀，未及報，徐世檦令殺之。絳時隨閑，抱閑頸乞代死，遂并見殺。",
+          "subject_person_mention_id": "c-nanqishu-055-filial-complete:p040:m0002",
+          "object_person_mention_id": "c-nanqishu-055-filial-complete:p040:m0014"
+        }
+      ],
+      "status": "source_attested",
+      "interpretation_note": "父子一同見殺。",
+      "reviewer": "Codex（AI代理）",
+      "model": null,
+      "human_reviewed": false
+    },
     {
       "id": "a-liang027-xian-son-絳",
       "subject_person_id": "d5x_77n_qxq_C",
@@ -185,10 +291,66 @@
   },
   "dates": [],
   "name_components": [],
+  "source_reading_cases": [
+    {
+      "id": "c-nanqishu-055-filial-complete:source_review40-0",
+      "kind": "source_review",
+      "person_id": "d5x_77n_qxq_C",
+      "source_quote": "　　陸絳字魏卿，吳郡人也。父閑，字遐業，有風概，與人交，不苟合。少爲同郡張緒所知，仕至揚州別駕。明帝崩，閑謂所親曰：「宮車晏駕，百司將聽於冢宰。主王地重才弱，必不能振，難將至矣。」乃感心疾，不復預州事。刺史始安王遙光反，事敗，閑以綱佐被召至杜姥宅，尚書令徐孝嗣啟閑不預逆謀，未及報，徐世檦令殺之。絳時隨閑，抱閑頸乞代死，遂并見殺。",
+      "reading": "陸閑有字、知遇與所終官，事敗被召時徐孝嗣申其未預逆謀。陸絳乞代父死後父子俱殺。",
+      "note": "陸閑有字、知遇與所終官，事敗被召時徐孝嗣申其未預逆謀。陸絳乞代父死後父子俱殺。",
+      "paragraph_id": "c-nanqishu-055-filial-complete:p040",
+      "start_codepoint": 0,
+      "end_codepoint": 165,
+      "human_reviewed": false,
+      "chapter_id": "c-nanqishu-055-filial-complete",
+      "source_id": "s-nanqishu-055-filial-complete-ws1545598"
+    },
+    {
+      "id": "c-nanqishu-055-filial-complete:variant_review40-148",
+      "kind": "variant_review",
+      "person_id": "d5x_77n_qxq_C",
+      "source_quote": "絳時隨閑，抱閑頸乞代死",
+      "reading": "父陸閑有字、任揚州別駕、去職及死事。陸絳主傳保留開頭身分及其隨父乞代死，父子共死按原句。",
+      "note": "父陸閑有字、任揚州別駕、去職及死事。陸絳主傳保留開頭身分及其隨父乞代死，父子共死按原句。",
+      "paragraph_id": "c-nanqishu-055-filial-complete:p040",
+      "start_codepoint": 148,
+      "end_codepoint": 159,
+      "human_reviewed": false,
+      "chapter_id": "c-nanqishu-055-filial-complete",
+      "source_id": "s-nanqishu-055-filial-complete-ws1545598"
+    }
+  ],
   "person_ids": [
     "d5x_77n_qxq_C"
   ],
   "preferred_relations": [
+    {
+      "id": "a-qi055-lujiang-father",
+      "subject_person_id": "d5x_77n_qxq_C",
+      "object_person_id": "d5x_77n_qxq",
+      "predicate": "father",
+      "qualifiers": {
+        "source_term": "父閑，字遐業"
+      },
+      "evidence": [
+        {
+          "work_id": "w-nanqishu",
+          "book_id": "b-nanqishu-055",
+          "chapter_id": "c-nanqishu-055-filial-complete",
+          "source_id": "s-nanqishu-055-filial-complete-ws1545598",
+          "paragraph_id": "c-nanqishu-055-filial-complete:p040",
+          "quote": "　　陸絳字魏卿，吳郡人也。父閑，字遐業，有風概，與人交，不苟合。少爲同郡張緒所知，仕至揚州別駕。明帝崩，閑謂所親曰：「宮車晏駕，百司將聽於冢宰。主王地重才弱，必不能振，難將至矣。」乃感心疾，不復預州事。刺史始安王遙光反，事敗，閑以綱佐被召至杜姥宅，尚書令徐孝嗣啟閑不預逆謀，未及報，徐世檦令殺之。絳時隨閑，抱閑頸乞代死，遂并見殺。",
+          "subject_person_mention_id": "c-nanqishu-055-filial-complete:p040:m0002",
+          "object_person_mention_id": "c-nanqishu-055-filial-complete:p040:m0014"
+        }
+      ],
+      "status": "source_attested",
+      "interpretation_note": "父子一同見殺。",
+      "reviewer": "Codex（AI代理）",
+      "model": null,
+      "human_reviewed": false
+    },
     {
       "id": "a-liang027-xian-son-絳",
       "subject_person_id": "d5x_77n_qxq_C",
@@ -218,7 +380,37 @@
     }
   ],
   "age_assertions": [],
-  "life_events": [],
+  "life_events": [
+    {
+      "id": "le-qi055-lujiang-death",
+      "person_id": "d5x_77n_qxq_C",
+      "event_type": "death",
+      "source_term": "見殺",
+      "source_anchor": {
+        "paragraph_id": "c-nanqishu-055-filial-complete:p040",
+        "start": 162,
+        "end": 164,
+        "surface": "見殺"
+      },
+      "date_expression": null,
+      "evidence": [
+        {
+          "work_id": "w-nanqishu",
+          "book_id": "b-nanqishu-055",
+          "chapter_id": "c-nanqishu-055-filial-complete",
+          "source_id": "s-nanqishu-055-filial-complete-ws1545598",
+          "paragraph_id": "c-nanqishu-055-filial-complete:p040",
+          "quote": "　　陸絳字魏卿，吳郡人也。父閑，字遐業，有風概，與人交，不苟合。少爲同郡張緒所知，仕至揚州別駕。明帝崩，閑謂所親曰：「宮車晏駕，百司將聽於冢宰。主王地重才弱，必不能振，難將至矣。」乃感心疾，不復預州事。刺史始安王遙光反，事敗，閑以綱佐被召至杜姥宅，尚書令徐孝嗣啟閑不預逆謀，未及報，徐世檦令殺之。絳時隨閑，抱閑頸乞代死，遂并見殺。",
+          "person_mention_id": "c-nanqishu-055-filial-complete:p040:m0002"
+        }
+      ],
+      "status": "source_attested",
+      "interpretation_note": "按同段人物與次第核所屬卒事。",
+      "reviewer": "Codex（AI代理）",
+      "model": null,
+      "human_reviewed": false
+    }
+  ],
   "life_event_date_decisions": [],
   "selected_life_event_dates": []
 }
