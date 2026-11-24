@@ -84,3 +84,15 @@ def project_line(line, offset=0):
         cursor = stop
     append(len(line))
     return ''.join(passages), positions, notes
+
+
+def project_slice(line, start, end):
+    """Read an interval in its original line, including around nested markup."""
+    received, positions, notes = project_line(line)
+    for left, right, _ in notes:
+        if left <= start < end <= right:
+            text, offsets = shown(line[left:right], left)
+            break
+    else:
+        text, offsets = received, positions
+    return ''.join(char for char, index in zip(text, offsets, strict=True) if start <= index < end)
