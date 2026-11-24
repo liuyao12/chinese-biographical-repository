@@ -9,6 +9,12 @@ from scripts.nanqi041_projection import decode_line
 
 
 class SixDynastiesInventoryTest(unittest.TestCase):
+    def test_nanqi_blockquote_keeps_raw_coordinate_and_internal_punctuation(self):
+        text, spans, _ = decode_line(':夫曰：甲。', 10)
+        self.assertEqual(text, '夫曰：甲。')
+        self.assertEqual(spans, [[11, 12], [12, 13], [13, 14], [14, 15], [15, 16]])
+        self.assertEqual(source_paragraphs([':夫曰：甲。'], 'nanqi059_fixed_text'), [text])
+
     def test_song_memorials_strip_one_leading_layout_colon(self):
         lines = ['上表曰：', ':臣聞：甲。', '::乙。']
         self.assertEqual(source_paragraphs(lines, 'wikisource_blockquote_colon'),

@@ -9,7 +9,8 @@
     "拓跋珪",
     "涉圭",
     "珪",
-    "什翼珪"
+    "什翼珪",
+    "什翼圭"
   ],
   "titles": [],
   "addresses": [],
@@ -84,6 +85,41 @@
       "book_id": "b-nanqishu-057",
       "chapter_id": "c-nanqishu-057-northern-wei-complete",
       "source_id": "s-nanqishu-057-northern-wei-complete-ws1999801",
+      "work_title": "南齊書"
+    },
+    {
+      "number": 59,
+      "category": "",
+      "title": "南齊書卷五十九·柔然、河南與氐羌",
+      "paragraph_id": "c-nanqishu-059-western-polities-complete:p001",
+      "count": 1,
+      "raw_count": 1,
+      "duplicate_count": 0,
+      "counting_policy": "independent_fixed_witness_occurrences",
+      "quote": "芮芮虜，塞外雜胡也。編髮左衽。晉世什翼圭入塞內後，芮芮逐水草，盡有匈奴故庭，威服西域。土氣早寒，所居為穹廬氈帳。刻木記事，不識文書。馬畜丁肥，種眾殷盛。常與魏虜為讎敵。",
+      "paragraph_ids": [
+        "c-nanqishu-059-western-polities-complete:p001"
+      ],
+      "mention_ids": [
+        "c-nanqishu-059-western-polities-complete:p001:m0017"
+      ],
+      "mention_paragraph_ids": {
+        "c-nanqishu-059-western-polities-complete:p001:m0017": "c-nanqishu-059-western-polities-complete:p001"
+      },
+      "mention_id": "c-nanqishu-059-western-polities-complete:p001:m0017",
+      "occurrence_groups": [
+        {
+          "canonical_mention_id": "c-nanqishu-059-western-polities-complete:p001:m0017",
+          "mention_ids": [
+            "c-nanqishu-059-western-polities-complete:p001:m0017"
+          ],
+          "kind": "paragraph"
+        }
+      ],
+      "work_id": "w-nanqishu",
+      "book_id": "b-nanqishu-059",
+      "chapter_id": "c-nanqishu-059-western-polities-complete",
+      "source_id": "s-nanqishu-059-western-polities-complete-ws1748911",
       "work_title": "南齊書"
     },
     {
@@ -174,6 +210,32 @@
         "raw_file_sha256": "3296a1b29f8acdbc4725846c32054172095b4ce7199a7eb2f9dd27676d73ece7",
         "collation_witnesses": [
           "source-evidence/nanqi057-roll/northern-wei-reading.json"
+        ]
+      }
+    },
+    {
+      "chapter_id": "c-nanqishu-059-western-polities-complete",
+      "work_id": "w-nanqishu",
+      "book_id": "b-nanqishu-059",
+      "source_id": "s-nanqishu-059-western-polities-complete-ws1748911",
+      "source": {
+        "title": "南齊書卷五十九·柔然、河南與氐羌",
+        "provider": "Wikisource",
+        "permalink": "https://zh.wikisource.org/w/index.php?oldid=1748911",
+        "url": "https://zh.wikisource.org/w/index.php?oldid=1748911",
+        "revision_id": 1748911,
+        "edition": "維基文庫固定修訂",
+        "accessed_on": "2026-11-22",
+        "review_status": "text_checked",
+        "image_verified": false,
+        "rights": "古代原文；數位轉錄依維基文庫授權。",
+        "license_url": "https://creativecommons.org/licenses/by-sa/4.0/",
+        "extent": "南齊書卷五十九·柔然、河南與氐羌",
+        "text_scope": "complete_biography_unit",
+        "raw_path": "source-evidence/nanqi059-roll/nanqishu059-ws1748911.wikitext",
+        "raw_file_sha256": "ea18ba18e4cf4532645bb578a6b31fefd8209ff4084f464fa056086d0ef4bbeb",
+        "collation_witnesses": [
+          "source-evidence/nanqi059-roll/western-polities-reading.json"
         ]
       }
     }
@@ -268,6 +330,34 @@
       "human_reviewed": false,
       "chapter_id": "c-nanqishu-057-northern-wei-complete",
       "source_id": "s-nanqishu-057-northern-wei-complete-ws1999801"
+    },
+    {
+      "id": "c-nanqishu-059-western-polities-complete:source_review1-0",
+      "kind": "source_review",
+      "person_id": "v6b_hpr_lax",
+      "source_quote": "芮芮虜，塞外雜胡也。編髮左衽。晉世什翼圭入塞內後，芮芮逐水草，盡有匈奴故庭，威服西域。土氣早寒，所居為穹廬氈帳。刻木記事，不識文書。馬畜丁肥，種眾殷盛。常與魏虜為讎敵。",
+      "reading": "齊書自述芮芮起於塞外與什翼圭入塞後所據。本傳族源說與魏書異敘保留各本。",
+      "note": "齊書自述芮芮起於塞外與什翼圭入塞後所據。本傳族源說與魏書異敘保留各本。",
+      "paragraph_id": "c-nanqishu-059-western-polities-complete:p001",
+      "start_codepoint": 0,
+      "end_codepoint": 84,
+      "human_reviewed": false,
+      "chapter_id": "c-nanqishu-059-western-polities-complete",
+      "source_id": "s-nanqishu-059-western-polities-complete-ws1748911"
+    },
+    {
+      "id": "c-nanqishu-059-western-polities-complete:variant_review1-15",
+      "kind": "variant_review",
+      "person_id": "v6b_hpr_lax",
+      "source_quote": "晉世什翼圭入塞內後",
+      "reading": "什翼圭在本卷作圭，卷五十七作什翼珪。此處保留紀事開頭和原姓名，不補年代。",
+      "note": "什翼圭在本卷作圭，卷五十七作什翼珪。此處保留紀事開頭和原姓名，不補年代。",
+      "paragraph_id": "c-nanqishu-059-western-polities-complete:p001",
+      "start_codepoint": 15,
+      "end_codepoint": 24,
+      "human_reviewed": false,
+      "chapter_id": "c-nanqishu-059-western-polities-complete",
+      "source_id": "s-nanqishu-059-western-polities-complete-ws1748911"
     }
   ],
   "person_ids": [
