@@ -7,11 +7,84 @@
   "review": "ai_provisional",
   "names": [
     "張儼",
-    "儼"
+    "儼",
+    "子節"
   ],
   "titles": [],
   "addresses": [],
   "occurrences": [
+    {
+      "number": 48,
+      "category": "",
+      "title": "三國志卷四十八·孫皓",
+      "paragraph_id": "c-sanguozhi-048-sun-hao:p008",
+      "count": 5,
+      "raw_count": 5,
+      "duplicate_count": 0,
+      "counting_policy": "independent_fixed_witness_occurrences",
+      "quote": "寶鼎元年正月，遣大鴻臚張儼、五官中郎將丁忠弔祭晉文帝。及還，儼道病死。忠說皓曰：「北方守戰之具不設，弋陽可襲而取。」皓訪羣臣，鎮西大將軍陸凱曰：「夫兵不得已而用之耳，且三國鼎立已來，更相侵伐，無歲寧居。今彊敵新并巴蜀，有兼土之",
+      "paragraph_ids": [
+        "c-sanguozhi-048-sun-hao:p008",
+        "c-sanguozhi-048-sun-hao:p009"
+      ],
+      "mention_ids": [
+        "c-sanguozhi-048-sun-hao:p008:m0011",
+        "c-sanguozhi-048-sun-hao:p008:m0030",
+        "c-sanguozhi-048-sun-hao:p009:m0006",
+        "c-sanguozhi-048-sun-hao:p009:m0008",
+        "c-sanguozhi-048-sun-hao:p009:m0041"
+      ],
+      "mention_paragraph_ids": {
+        "c-sanguozhi-048-sun-hao:p008:m0011": "c-sanguozhi-048-sun-hao:p008",
+        "c-sanguozhi-048-sun-hao:p008:m0030": "c-sanguozhi-048-sun-hao:p008",
+        "c-sanguozhi-048-sun-hao:p009:m0006": "c-sanguozhi-048-sun-hao:p009",
+        "c-sanguozhi-048-sun-hao:p009:m0008": "c-sanguozhi-048-sun-hao:p009",
+        "c-sanguozhi-048-sun-hao:p009:m0041": "c-sanguozhi-048-sun-hao:p009"
+      },
+      "mention_id": "c-sanguozhi-048-sun-hao:p008:m0011",
+      "occurrence_groups": [
+        {
+          "canonical_mention_id": "c-sanguozhi-048-sun-hao:p008:m0011",
+          "mention_ids": [
+            "c-sanguozhi-048-sun-hao:p008:m0011"
+          ],
+          "kind": "paragraph"
+        },
+        {
+          "canonical_mention_id": "c-sanguozhi-048-sun-hao:p008:m0030",
+          "mention_ids": [
+            "c-sanguozhi-048-sun-hao:p008:m0030"
+          ],
+          "kind": "paragraph"
+        },
+        {
+          "canonical_mention_id": "c-sanguozhi-048-sun-hao:p009:m0006",
+          "mention_ids": [
+            "c-sanguozhi-048-sun-hao:p009:m0006"
+          ],
+          "kind": "paragraph"
+        },
+        {
+          "canonical_mention_id": "c-sanguozhi-048-sun-hao:p009:m0008",
+          "mention_ids": [
+            "c-sanguozhi-048-sun-hao:p009:m0008"
+          ],
+          "kind": "paragraph"
+        },
+        {
+          "canonical_mention_id": "c-sanguozhi-048-sun-hao:p009:m0041",
+          "mention_ids": [
+            "c-sanguozhi-048-sun-hao:p009:m0041"
+          ],
+          "kind": "paragraph"
+        }
+      ],
+      "work_id": "w-sanguozhi",
+      "book_id": "b-sanguozhi-048",
+      "chapter_id": "c-sanguozhi-048-sun-hao",
+      "source_id": "s-sanguozhi-048-sun-hao-ws2085142",
+      "work_title": "三國志"
+    },
     {
       "number": 56,
       "category": "",
@@ -60,6 +133,33 @@
   "table_occurrences": [],
   "sources": [
     {
+      "chapter_id": "c-sanguozhi-048-sun-hao",
+      "work_id": "w-sanguozhi",
+      "book_id": "b-sanguozhi-048",
+      "source_id": "s-sanguozhi-048-sun-hao-ws2085142",
+      "source": {
+        "title": "三國志卷四十八·孫皓",
+        "provider": "Wikisource",
+        "permalink": "https://zh.wikisource.org/w/index.php?oldid=2085142",
+        "url": "https://zh.wikisource.org/w/index.php?oldid=2085142",
+        "revision_id": 2085142,
+        "edition": "維基文庫固定修訂",
+        "accessed_on": "2026-11-22",
+        "review_status": "text_checked",
+        "image_verified": false,
+        "rights": "古代原文；數位轉錄依維基文庫授權。",
+        "license_url": "https://creativecommons.org/licenses/by-sa/4.0/",
+        "extent": "三國志卷四十八·孫皓",
+        "text_scope": "complete_biography_unit",
+        "raw_path": "source-evidence/sanguozhi048-roll/ws2085142.wikitext",
+        "raw_file_sha256": "2a0ed9c69dc827d835ac2444f18f35fb8815f54b94eb1a1346246808d18d6d1c",
+        "collation_witnesses": [
+          "source-evidence/sanguozhi048-roll/main-reading.json",
+          "source-evidence/sanguozhi048-roll/close-reading.json"
+        ]
+      }
+    },
+    {
       "chapter_id": "c-sanguozhi-056-zhuyi",
       "work_id": "w-sanguozhi",
       "book_id": "b-sanguozhi-056",
@@ -99,7 +199,37 @@
   ],
   "preferred_relations": [],
   "age_assertions": [],
-  "life_events": [],
+  "life_events": [
+    {
+      "id": "le-wu048-yan-death",
+      "person_id": "1p0_b3p_e5e",
+      "event_type": "death",
+      "source_term": "道病死",
+      "source_anchor": {
+        "paragraph_id": "c-sanguozhi-048-sun-hao:p008",
+        "start": 31,
+        "end": 34,
+        "surface": "道病死"
+      },
+      "date_expression": null,
+      "evidence": [
+        {
+          "work_id": "w-sanguozhi",
+          "book_id": "b-sanguozhi-048",
+          "chapter_id": "c-sanguozhi-048-sun-hao",
+          "source_id": "s-sanguozhi-048-sun-hao-ws2085142",
+          "paragraph_id": "c-sanguozhi-048-sun-hao:p008",
+          "quote": "寶鼎元年正月，遣大鴻臚張儼、五官中郎將丁忠弔祭晉文帝。及還，儼道病死。忠說皓曰：「北方守戰之具不設，弋陽可襲而取。」皓訪羣臣，鎮西大將軍陸凱曰：「夫兵不得已而用之耳，且三國鼎立已來，更相侵伐，無歲寧居。今彊敵新并巴蜀，有兼土之實，而遣使求親，欲息兵役，不可謂其求援於我。今敵形勢方彊，而欲徼幸求勝，未見其利也。」車騎將軍劉纂曰：「天生五才，誰能去兵？譎詐相雄，有自來矣。若其有闕，庸可棄乎？宜遣閒諜，以觀其勢。」皓陰納纂言，且以蜀新平，故不行，然遂自絕。八月，所在言得大鼎，於是改年，大赦。以陸凱爲左丞相，常侍萬彧爲右丞相。冬十月，永安山賊施但等聚衆數千人，劫皓庶弟永安侯謙出烏程，取孫和陵上鼓吹曲蓋。比至建業，衆萬餘人。丁固、諸葛靚逆之於牛屯，大戰，但等敗走。獲謙，謙自殺。分會稽爲東陽郡，分吳、丹楊爲吳興郡。以零陵北部爲邵陵郡。十二月，皓還都建業，衞將軍滕牧留鎮武昌。",
+          "person_mention_id": "c-sanguozhi-048-sun-hao:p008:m0011"
+        }
+      ],
+      "status": "source_attested",
+      "interpretation_note": "按同段人物與次第核所屬卒事。",
+      "reviewer": "Codex（AI代理）",
+      "model": null,
+      "human_reviewed": false
+    }
+  ],
   "life_event_date_decisions": [],
   "selected_life_event_dates": []
 }

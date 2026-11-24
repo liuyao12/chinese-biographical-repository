@@ -13,6 +13,41 @@
   "addresses": [],
   "occurrences": [
     {
+      "number": 48,
+      "category": "",
+      "title": "三國志卷四十八·孫皓",
+      "paragraph_id": "c-sanguozhi-048-sun-hao:p002",
+      "count": 1,
+      "raw_count": 1,
+      "duplicate_count": 0,
+      "counting_policy": "independent_fixed_witness_occurrences",
+      "quote": "中，諸增位班賞，一皆如舊。九月，貶太后爲景皇后，追謚父和曰文皇帝，尊母何爲太后。十月，封休太子𩅦爲豫章王，次子汝南王，次子梁王，次子陳王，立皇后滕氏。皓旣得志，麤暴驕盈，多忌諱，好酒色，大小失望。興、布竊悔之。或以譖皓，十一月，誅興、布。十二月，孫休葬定陵。封后父滕牧爲高",
+      "paragraph_ids": [
+        "c-sanguozhi-048-sun-hao:p002"
+      ],
+      "mention_ids": [
+        "c-sanguozhi-048-sun-hao:p002:m0072"
+      ],
+      "mention_paragraph_ids": {
+        "c-sanguozhi-048-sun-hao:p002:m0072": "c-sanguozhi-048-sun-hao:p002"
+      },
+      "mention_id": "c-sanguozhi-048-sun-hao:p002:m0072",
+      "occurrence_groups": [
+        {
+          "canonical_mention_id": "c-sanguozhi-048-sun-hao:p002:m0072",
+          "mention_ids": [
+            "c-sanguozhi-048-sun-hao:p002:m0072"
+          ],
+          "kind": "paragraph"
+        }
+      ],
+      "work_id": "w-sanguozhi",
+      "book_id": "b-sanguozhi-048",
+      "chapter_id": "c-sanguozhi-048-sun-hao",
+      "source_id": "s-sanguozhi-048-sun-hao-ws2085142",
+      "work_title": "三國志"
+    },
+    {
       "number": 50,
       "category": "",
       "title": "何姬傳",
@@ -104,6 +139,33 @@
   "table_occurrences": [],
   "sources": [
     {
+      "chapter_id": "c-sanguozhi-048-sun-hao",
+      "work_id": "w-sanguozhi",
+      "book_id": "b-sanguozhi-048",
+      "source_id": "s-sanguozhi-048-sun-hao-ws2085142",
+      "source": {
+        "title": "三國志卷四十八·孫皓",
+        "provider": "Wikisource",
+        "permalink": "https://zh.wikisource.org/w/index.php?oldid=2085142",
+        "url": "https://zh.wikisource.org/w/index.php?oldid=2085142",
+        "revision_id": 2085142,
+        "edition": "維基文庫固定修訂",
+        "accessed_on": "2026-11-22",
+        "review_status": "text_checked",
+        "image_verified": false,
+        "rights": "古代原文；數位轉錄依維基文庫授權。",
+        "license_url": "https://creativecommons.org/licenses/by-sa/4.0/",
+        "extent": "三國志卷四十八·孫皓",
+        "text_scope": "complete_biography_unit",
+        "raw_path": "source-evidence/sanguozhi048-roll/ws2085142.wikitext",
+        "raw_file_sha256": "2a0ed9c69dc827d835ac2444f18f35fb8815f54b94eb1a1346246808d18d6d1c",
+        "collation_witnesses": [
+          "source-evidence/sanguozhi048-roll/main-reading.json",
+          "source-evidence/sanguozhi048-roll/close-reading.json"
+        ]
+      }
+    },
+    {
       "chapter_id": "c-sanguozhi-050-he",
       "work_id": "w-sanguozhi",
       "book_id": "b-sanguozhi-050",
@@ -159,6 +221,32 @@
     }
   ],
   "relations": [
+    {
+      "id": "a-wu048-hao-mother",
+      "subject_person_id": "05e_9bb_55a",
+      "object_person_id": "b1e_xqm_rhz",
+      "predicate": "mother",
+      "qualifiers": {
+        "source_term": "尊母何爲太后"
+      },
+      "evidence": [
+        {
+          "work_id": "w-sanguozhi",
+          "book_id": "b-sanguozhi-048",
+          "chapter_id": "c-sanguozhi-048-sun-hao",
+          "source_id": "s-sanguozhi-048-sun-hao-ws2085142",
+          "paragraph_id": "c-sanguozhi-048-sun-hao:p002",
+          "quote": "元興元年八月，以上大將軍施績、大將軍丁奉爲左右大司馬，張布爲驃騎將軍，加侍中，諸增位班賞，一皆如舊。九月，貶太后爲景皇后，追謚父和曰文皇帝，尊母何爲太后。十月，封休太子𩅦爲豫章王，次子汝南王，次子梁王，次子陳王，立皇后滕氏。皓旣得志，麤暴驕盈，多忌諱，好酒色，大小失望。興、布竊悔之。或以譖皓，十一月，誅興、布。十二月，孫休葬定陵。封后父滕牧爲高密侯，舅何洪等三人皆列侯。是歲，魏置交阯太守之郡。晉文帝爲魏相國，遣昔吳壽春城降將徐紹、孫彧銜命齎書，陳事勢利害，以申喻皓。",
+          "subject_person_mention_id": "c-sanguozhi-048-sun-hao:p002:m0112",
+          "object_person_mention_id": "c-sanguozhi-048-sun-hao:p002:m0072"
+        }
+      ],
+      "status": "source_attested",
+      "interpretation_note": "依固定見證同段親屬原詞及所屬敘事。",
+      "reviewer": "Codex（AI代理）",
+      "model": null,
+      "human_reviewed": false
+    },
     {
       "id": "a-wu050-he-0",
       "subject_person_id": "b1e_xqm_rhz",
@@ -413,6 +501,32 @@
     "b1e_xqm_rhz"
   ],
   "preferred_relations": [
+    {
+      "id": "a-wu048-hao-mother",
+      "subject_person_id": "05e_9bb_55a",
+      "object_person_id": "b1e_xqm_rhz",
+      "predicate": "mother",
+      "qualifiers": {
+        "source_term": "尊母何爲太后"
+      },
+      "evidence": [
+        {
+          "work_id": "w-sanguozhi",
+          "book_id": "b-sanguozhi-048",
+          "chapter_id": "c-sanguozhi-048-sun-hao",
+          "source_id": "s-sanguozhi-048-sun-hao-ws2085142",
+          "paragraph_id": "c-sanguozhi-048-sun-hao:p002",
+          "quote": "元興元年八月，以上大將軍施績、大將軍丁奉爲左右大司馬，張布爲驃騎將軍，加侍中，諸增位班賞，一皆如舊。九月，貶太后爲景皇后，追謚父和曰文皇帝，尊母何爲太后。十月，封休太子𩅦爲豫章王，次子汝南王，次子梁王，次子陳王，立皇后滕氏。皓旣得志，麤暴驕盈，多忌諱，好酒色，大小失望。興、布竊悔之。或以譖皓，十一月，誅興、布。十二月，孫休葬定陵。封后父滕牧爲高密侯，舅何洪等三人皆列侯。是歲，魏置交阯太守之郡。晉文帝爲魏相國，遣昔吳壽春城降將徐紹、孫彧銜命齎書，陳事勢利害，以申喻皓。",
+          "subject_person_mention_id": "c-sanguozhi-048-sun-hao:p002:m0112",
+          "object_person_mention_id": "c-sanguozhi-048-sun-hao:p002:m0072"
+        }
+      ],
+      "status": "source_attested",
+      "interpretation_note": "依固定見證同段親屬原詞及所屬敘事。",
+      "reviewer": "Codex（AI代理）",
+      "model": null,
+      "human_reviewed": false
+    },
     {
       "id": "a-wu050-he-0",
       "subject_person_id": "b1e_xqm_rhz",
