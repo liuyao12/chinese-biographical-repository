@@ -44,6 +44,51 @@
   ],
   "occurrences": [
     {
+      "number": 53,
+      "category": "",
+      "title": "南齊書卷五十三·傅琰、虞愿等良政列傳",
+      "paragraph_id": "c-nanqishu-053-local-officials-complete:p001",
+      "count": 2,
+      "raw_count": 2,
+      "duplicate_count": 0,
+      "counting_policy": "independent_fixed_witness_occurrences",
+      "quote": "　　傅琰字季珪，北地靈州人也。祖邵，員外郎。父僧祐，安東錄事參軍。",
+      "paragraph_ids": [
+        "c-nanqishu-053-local-officials-complete:p001",
+        "c-nanqishu-053-local-officials-complete:p003"
+      ],
+      "mention_ids": [
+        "c-nanqishu-053-local-officials-complete:p001:m0023",
+        "c-nanqishu-053-local-officials-complete:p003:m0025"
+      ],
+      "mention_paragraph_ids": {
+        "c-nanqishu-053-local-officials-complete:p001:m0023": "c-nanqishu-053-local-officials-complete:p001",
+        "c-nanqishu-053-local-officials-complete:p003:m0025": "c-nanqishu-053-local-officials-complete:p003"
+      },
+      "mention_id": "c-nanqishu-053-local-officials-complete:p001:m0023",
+      "occurrence_groups": [
+        {
+          "canonical_mention_id": "c-nanqishu-053-local-officials-complete:p001:m0023",
+          "mention_ids": [
+            "c-nanqishu-053-local-officials-complete:p001:m0023"
+          ],
+          "kind": "paragraph"
+        },
+        {
+          "canonical_mention_id": "c-nanqishu-053-local-officials-complete:p003:m0025",
+          "mention_ids": [
+            "c-nanqishu-053-local-officials-complete:p003:m0025"
+          ],
+          "kind": "paragraph"
+        }
+      ],
+      "work_id": "w-nanqishu",
+      "book_id": "b-nanqishu-053",
+      "chapter_id": "c-nanqishu-053-local-officials-complete",
+      "source_id": "s-nanqishu-053-local-officials-complete-ws1501803",
+      "work_title": "南齊書"
+    },
+    {
       "number": 92,
       "category": "",
       "title": "巡行薦吏奏及申季歷等傳敘",
@@ -91,6 +136,32 @@
   "table_occurrences": [],
   "sources": [
     {
+      "chapter_id": "c-nanqishu-053-local-officials-complete",
+      "work_id": "w-nanqishu",
+      "book_id": "b-nanqishu-053",
+      "source_id": "s-nanqishu-053-local-officials-complete-ws1501803",
+      "source": {
+        "title": "南齊書卷五十三·傅琰、虞愿等良政列傳",
+        "provider": "Wikisource",
+        "permalink": "https://zh.wikisource.org/w/index.php?oldid=1501803",
+        "url": "https://zh.wikisource.org/w/index.php?oldid=1501803",
+        "revision_id": 1501803,
+        "edition": "維基文庫固定修訂",
+        "accessed_on": "2026-11-21",
+        "review_status": "text_checked",
+        "image_verified": false,
+        "rights": "古代原文；數位轉錄依維基文庫授權。",
+        "license_url": "https://creativecommons.org/licenses/by-sa/4.0/",
+        "extent": "南齊書卷五十三·傅琰、虞愿等良政列傳",
+        "text_scope": "complete_biography_unit",
+        "raw_path": "source-evidence/nanqi049-wanghuan-item-review/external/nanqishu053-ws1501803.wikitext",
+        "raw_file_sha256": "97775eac54569041d53e5d8356e1ac0da29e57cf3728d00fe2d1212ec59ec567",
+        "collation_witnesses": [
+          "source-evidence/nanqi053-roll/local-officials-reading.json"
+        ]
+      }
+    },
+    {
       "chapter_id": "c-songshu-092-xunli-xunxing",
       "work_id": "w-songshu",
       "book_id": "b-songshu-092",
@@ -114,9 +185,38 @@
       }
     }
   ],
-  "relations": [],
+  "relations": [
+    {
+      "id": "a-qi053-fuyan-father",
+      "subject_person_id": "o6u_fls_sgx",
+      "object_person_id": "5rm_iwc_x07",
+      "predicate": "father",
+      "qualifiers": {
+        "source_term": "父僧祐",
+        "lineage": "paternal"
+      },
+      "evidence": [
+        {
+          "work_id": "w-nanqishu",
+          "book_id": "b-nanqishu-053",
+          "chapter_id": "c-nanqishu-053-local-officials-complete",
+          "source_id": "s-nanqishu-053-local-officials-complete-ws1501803",
+          "paragraph_id": "c-nanqishu-053-local-officials-complete:p001",
+          "quote": "　　傅琰字季珪，北地靈州人也。祖邵，員外郎。父僧祐，安東錄事參軍。",
+          "subject_person_mention_id": "c-nanqishu-053-local-officials-complete:p001:m0002",
+          "object_person_mention_id": "c-nanqishu-053-local-officials-complete:p001:m0023"
+        }
+      ],
+      "status": "source_attested",
+      "interpretation_note": "原文又記父子同有山陰治名。",
+      "reviewer": "Codex（AI代理）",
+      "model": null,
+      "human_reviewed": false
+    }
+  ],
   "related_people": {
-    "5rm_iwc_x07": "傅僧祐"
+    "5rm_iwc_x07": "傅僧祐",
+    "o6u_fls_sgx": "傅琰（字季珪，北地靈州人）"
   },
   "dates": [],
   "name_components": [],
@@ -153,7 +253,35 @@
   "person_ids": [
     "5rm_iwc_x07"
   ],
-  "preferred_relations": [],
+  "preferred_relations": [
+    {
+      "id": "a-qi053-fuyan-father",
+      "subject_person_id": "o6u_fls_sgx",
+      "object_person_id": "5rm_iwc_x07",
+      "predicate": "father",
+      "qualifiers": {
+        "source_term": "父僧祐",
+        "lineage": "paternal"
+      },
+      "evidence": [
+        {
+          "work_id": "w-nanqishu",
+          "book_id": "b-nanqishu-053",
+          "chapter_id": "c-nanqishu-053-local-officials-complete",
+          "source_id": "s-nanqishu-053-local-officials-complete-ws1501803",
+          "paragraph_id": "c-nanqishu-053-local-officials-complete:p001",
+          "quote": "　　傅琰字季珪，北地靈州人也。祖邵，員外郎。父僧祐，安東錄事參軍。",
+          "subject_person_mention_id": "c-nanqishu-053-local-officials-complete:p001:m0002",
+          "object_person_mention_id": "c-nanqishu-053-local-officials-complete:p001:m0023"
+        }
+      ],
+      "status": "source_attested",
+      "interpretation_note": "原文又記父子同有山陰治名。",
+      "reviewer": "Codex（AI代理）",
+      "model": null,
+      "human_reviewed": false
+    }
+  ],
   "age_assertions": [],
   "life_events": [],
   "life_event_date_decisions": [],
