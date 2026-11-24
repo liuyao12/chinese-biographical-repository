@@ -14,7 +14,7 @@ def decode_line(line, offset=0):
     text = []
     spans = []
     annotations = []
-    cursor = int(line.startswith(':　　'))
+    cursor = int(line.startswith(':') and not line.startswith('::'))
     while cursor < len(line):
         if line.startswith('-{', cursor):
             literal = LITERAL_CONVERSION.match(line, cursor)
