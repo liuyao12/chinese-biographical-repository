@@ -1,0 +1,150 @@
+{
+  "schema_version": 1,
+  "id": "bnp_u4g_kxx",
+  "canonical_person_id": "bnp_u4g_kxx",
+  "label": "祖昌（祖沖之祖，宋大匠卿）",
+  "identity_note": "祖昌（祖沖之祖，宋大匠卿），見本組原文及身份互校。",
+  "review": "ai_provisional",
+  "names": [
+    "昌"
+  ],
+  "titles": [],
+  "addresses": [],
+  "occurrences": [
+    {
+      "number": 52,
+      "category": "",
+      "title": "南齊書卷五十二·王智深、陸厥、崔慰祖、祖沖之、賈淵",
+      "paragraph_id": "c-nanqishu-052-later-literature-complete:p029",
+      "count": 1,
+      "raw_count": 1,
+      "duplicate_count": 0,
+      "counting_policy": "independent_fixed_witness_occurrences",
+      "quote": "　　祖沖之字文遠，范陽薊人也。祖昌，宋大匠卿。父朔之，奉朝請。",
+      "paragraph_ids": [
+        "c-nanqishu-052-later-literature-complete:p029"
+      ],
+      "mention_ids": [
+        "c-nanqishu-052-later-literature-complete:p029:m0016"
+      ],
+      "mention_paragraph_ids": {
+        "c-nanqishu-052-later-literature-complete:p029:m0016": "c-nanqishu-052-later-literature-complete:p029"
+      },
+      "mention_id": "c-nanqishu-052-later-literature-complete:p029:m0016",
+      "occurrence_groups": [
+        {
+          "canonical_mention_id": "c-nanqishu-052-later-literature-complete:p029:m0016",
+          "mention_ids": [
+            "c-nanqishu-052-later-literature-complete:p029:m0016"
+          ],
+          "kind": "paragraph"
+        }
+      ],
+      "work_id": "w-nanqishu",
+      "book_id": "b-nanqishu-052",
+      "chapter_id": "c-nanqishu-052-later-literature-complete",
+      "source_id": "s-nanqishu-052-later-literature-complete-ws2371079",
+      "work_title": "南齊書"
+    }
+  ],
+  "table_occurrences": [],
+  "sources": [
+    {
+      "chapter_id": "c-nanqishu-052-later-literature-complete",
+      "work_id": "w-nanqishu",
+      "book_id": "b-nanqishu-052",
+      "source_id": "s-nanqishu-052-later-literature-complete-ws2371079",
+      "source": {
+        "title": "南齊書卷五十二·王智深、陸厥、崔慰祖、祖沖之、賈淵",
+        "provider": "Wikisource",
+        "permalink": "https://zh.wikisource.org/w/index.php?oldid=2371079",
+        "url": "https://zh.wikisource.org/w/index.php?oldid=2371079",
+        "revision_id": 2371079,
+        "edition": "維基文庫固定修訂",
+        "accessed_on": "2026-11-21",
+        "review_status": "text_checked",
+        "image_verified": false,
+        "rights": "古代原文；數位轉錄依維基文庫授權。",
+        "license_url": "https://creativecommons.org/licenses/by-sa/4.0/",
+        "extent": "南齊書卷五十二·王智深、陸厥、崔慰祖、祖沖之、賈淵",
+        "text_scope": "complete_biography_unit",
+        "raw_path": "source-evidence/nanshi059-wangsengru/ws2371079.wikitext",
+        "raw_file_sha256": "0d21e91bd7417b412efe653110e18a597d7858db9f48f63191b88b3bf13d1364",
+        "collation_witnesses": [
+          "source-evidence/nanqi052-roll/later-literature-reading.json"
+        ]
+      }
+    }
+  ],
+  "relations": [
+    {
+      "id": "a-qi052-zuchongzhi-grandfather",
+      "subject_person_id": "vcm_d77_tsz_AA",
+      "object_person_id": "bnp_u4g_kxx",
+      "predicate": "grandfather",
+      "qualifiers": {
+        "source_term": "祖昌",
+        "lineage": "paternal"
+      },
+      "evidence": [
+        {
+          "work_id": "w-nanqishu",
+          "book_id": "b-nanqishu-052",
+          "chapter_id": "c-nanqishu-052-later-literature-complete",
+          "source_id": "s-nanqishu-052-later-literature-complete-ws2371079",
+          "paragraph_id": "c-nanqishu-052-later-literature-complete:p029",
+          "quote": "　　祖沖之字文遠，范陽薊人也。祖昌，宋大匠卿。父朔之，奉朝請。",
+          "subject_person_mention_id": "c-nanqishu-052-later-literature-complete:p029:m0002",
+          "object_person_mention_id": "c-nanqishu-052-later-literature-complete:p029:m0016"
+        }
+      ],
+      "status": "source_attested",
+      "interpretation_note": "祖官宋大匠卿。",
+      "reviewer": "Codex（AI代理）",
+      "model": null,
+      "human_reviewed": false
+    }
+  ],
+  "related_people": {
+    "bnp_u4g_kxx": "祖昌（祖沖之祖，宋大匠卿）",
+    "vcm_d77_tsz_AA": "祖沖之"
+  },
+  "dates": [],
+  "name_components": [],
+  "person_ids": [
+    "bnp_u4g_kxx"
+  ],
+  "preferred_relations": [
+    {
+      "id": "a-qi052-zuchongzhi-grandfather",
+      "subject_person_id": "vcm_d77_tsz_AA",
+      "object_person_id": "bnp_u4g_kxx",
+      "predicate": "grandfather",
+      "qualifiers": {
+        "source_term": "祖昌",
+        "lineage": "paternal"
+      },
+      "evidence": [
+        {
+          "work_id": "w-nanqishu",
+          "book_id": "b-nanqishu-052",
+          "chapter_id": "c-nanqishu-052-later-literature-complete",
+          "source_id": "s-nanqishu-052-later-literature-complete-ws2371079",
+          "paragraph_id": "c-nanqishu-052-later-literature-complete:p029",
+          "quote": "　　祖沖之字文遠，范陽薊人也。祖昌，宋大匠卿。父朔之，奉朝請。",
+          "subject_person_mention_id": "c-nanqishu-052-later-literature-complete:p029:m0002",
+          "object_person_mention_id": "c-nanqishu-052-later-literature-complete:p029:m0016"
+        }
+      ],
+      "status": "source_attested",
+      "interpretation_note": "祖官宋大匠卿。",
+      "reviewer": "Codex（AI代理）",
+      "model": null,
+      "human_reviewed": false
+    }
+  ],
+  "age_assertions": [],
+  "life_events": [],
+  "life_event_date_decisions": [],
+  "selected_life_event_dates": []
+}

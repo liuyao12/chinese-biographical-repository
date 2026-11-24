@@ -1377,6 +1377,41 @@
       "work_title": "南齊書"
     },
     {
+      "number": 52,
+      "category": "",
+      "title": "南齊書卷五十二·王智深、陸厥、崔慰祖、祖沖之、賈淵",
+      "paragraph_id": "c-nanqishu-052-later-literature-complete:p024",
+      "count": 1,
+      "raw_count": 1,
+      "duplicate_count": 0,
+      "counting_policy": "independent_fixed_witness_occurrences",
+      "quote": "遙光好棋，數召慰祖對戲，慰祖輙辭拙，非朔望不見也。建武中，詔舉士，從兄慧景舉慰祖及平原劉孝標，竝碩學。帝欲試以百里，慰祖辭不就。",
+      "paragraph_ids": [
+        "c-nanqishu-052-later-literature-complete:p024"
+      ],
+      "mention_ids": [
+        "c-nanqishu-052-later-literature-complete:p024:m0057"
+      ],
+      "mention_paragraph_ids": {
+        "c-nanqishu-052-later-literature-complete:p024:m0057": "c-nanqishu-052-later-literature-complete:p024"
+      },
+      "mention_id": "c-nanqishu-052-later-literature-complete:p024:m0057",
+      "occurrence_groups": [
+        {
+          "canonical_mention_id": "c-nanqishu-052-later-literature-complete:p024:m0057",
+          "mention_ids": [
+            "c-nanqishu-052-later-literature-complete:p024:m0057"
+          ],
+          "kind": "paragraph"
+        }
+      ],
+      "work_id": "w-nanqishu",
+      "book_id": "b-nanqishu-052",
+      "chapter_id": "c-nanqishu-052-later-literature-complete",
+      "source_id": "s-nanqishu-052-later-literature-complete-ws2371079",
+      "work_title": "南齊書"
+    },
+    {
       "number": 58,
       "category": "",
       "title": "卷五十八：楊播、楊侃完整傳與本卷共評（部分卷）",
@@ -1702,6 +1737,32 @@
       }
     },
     {
+      "chapter_id": "c-nanqishu-052-later-literature-complete",
+      "work_id": "w-nanqishu",
+      "book_id": "b-nanqishu-052",
+      "source_id": "s-nanqishu-052-later-literature-complete-ws2371079",
+      "source": {
+        "title": "南齊書卷五十二·王智深、陸厥、崔慰祖、祖沖之、賈淵",
+        "provider": "Wikisource",
+        "permalink": "https://zh.wikisource.org/w/index.php?oldid=2371079",
+        "url": "https://zh.wikisource.org/w/index.php?oldid=2371079",
+        "revision_id": 2371079,
+        "edition": "維基文庫固定修訂",
+        "accessed_on": "2026-11-21",
+        "review_status": "text_checked",
+        "image_verified": false,
+        "rights": "古代原文；數位轉錄依維基文庫授權。",
+        "license_url": "https://creativecommons.org/licenses/by-sa/4.0/",
+        "extent": "南齊書卷五十二·王智深、陸厥、崔慰祖、祖沖之、賈淵",
+        "text_scope": "complete_biography_unit",
+        "raw_path": "source-evidence/nanshi059-wangsengru/ws2371079.wikitext",
+        "raw_file_sha256": "0d21e91bd7417b412efe653110e18a597d7858db9f48f63191b88b3bf13d1364",
+        "collation_witnesses": [
+          "source-evidence/nanqi052-roll/later-literature-reading.json"
+        ]
+      }
+    },
+    {
       "chapter_id": "c-nanshi-022-wangzhi",
       "work_id": "w-nanshi",
       "book_id": "b-nanshi-022",
@@ -1970,9 +2031,37 @@
       "reviewer": "Codex（AI代理）",
       "model": null,
       "human_reviewed": false
+    },
+    {
+      "id": "a-qi052-cuiweizu-agnatic-elder",
+      "subject_person_id": "536_9u3_amc",
+      "object_person_id": "tvq_7my_nqh",
+      "predicate": "agnatic_cousin",
+      "qualifiers": {
+        "source_term": "從兄慧景",
+        "lineage": "paternal"
+      },
+      "evidence": [
+        {
+          "work_id": "w-nanqishu",
+          "book_id": "b-nanqishu-052",
+          "chapter_id": "c-nanqishu-052-later-literature-complete",
+          "source_id": "s-nanqishu-052-later-literature-complete-ws2371079",
+          "paragraph_id": "c-nanqishu-052-later-literature-complete:p024",
+          "quote": "　　爲始安王撫軍墨曹行參軍，轉刑獄，兼記室。遙光好棋，數召慰祖對戲，慰祖輙辭拙，非朔望不見也。建武中，詔舉士，從兄慧景舉慰祖及平原劉孝標，竝碩學。帝欲試以百里，慰祖辭不就。",
+          "subject_person_mention_id": "c-nanqishu-052-later-literature-complete:p024:m0029",
+          "object_person_mention_id": "c-nanqishu-052-later-literature-complete:p024:m0057"
+        }
+      ],
+      "status": "source_attested",
+      "interpretation_note": "本傳從兄原詞；慧景另有卷五十一傳。",
+      "reviewer": "Codex（AI代理）",
+      "model": null,
+      "human_reviewed": false
     }
   ],
   "related_people": {
+    "536_9u3_amc": "崔慰祖（字悅宗，清河東武城人）",
     "a7u_tsx_eo6": "崔系之（清河東武城人，崔慧景父）",
     "fcd_0am_u6y": "崔構（清河東武城人，崔慧景祖）",
     "kv7_cgf_xrf": "崔覺（崔慧景子，南齊直閤將軍）",
@@ -2315,6 +2404,33 @@
       ],
       "status": "source_attested",
       "interpretation_note": "先述慧景預約，子覺奉期。",
+      "reviewer": "Codex（AI代理）",
+      "model": null,
+      "human_reviewed": false
+    },
+    {
+      "id": "a-qi052-cuiweizu-agnatic-elder",
+      "subject_person_id": "536_9u3_amc",
+      "object_person_id": "tvq_7my_nqh",
+      "predicate": "agnatic_cousin",
+      "qualifiers": {
+        "source_term": "從兄慧景",
+        "lineage": "paternal"
+      },
+      "evidence": [
+        {
+          "work_id": "w-nanqishu",
+          "book_id": "b-nanqishu-052",
+          "chapter_id": "c-nanqishu-052-later-literature-complete",
+          "source_id": "s-nanqishu-052-later-literature-complete-ws2371079",
+          "paragraph_id": "c-nanqishu-052-later-literature-complete:p024",
+          "quote": "　　爲始安王撫軍墨曹行參軍，轉刑獄，兼記室。遙光好棋，數召慰祖對戲，慰祖輙辭拙，非朔望不見也。建武中，詔舉士，從兄慧景舉慰祖及平原劉孝標，竝碩學。帝欲試以百里，慰祖辭不就。",
+          "subject_person_mention_id": "c-nanqishu-052-later-literature-complete:p024:m0029",
+          "object_person_mention_id": "c-nanqishu-052-later-literature-complete:p024:m0057"
+        }
+      ],
+      "status": "source_attested",
+      "interpretation_note": "本傳從兄原詞；慧景另有卷五十一傳。",
       "reviewer": "Codex（AI代理）",
       "model": null,
       "human_reviewed": false
