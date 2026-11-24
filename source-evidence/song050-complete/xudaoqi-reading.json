@@ -1,0 +1,103 @@
+{
+  "record_type": "fixed_source_complete_item_review",
+  "reviewer": "Codex（AI代理）",
+  "model": null,
+  "human_reviewed": false,
+  "external_witnesses": [
+    {
+      "revision_id": 2567072,
+      "raw_path": "source-evidence/nanshi020-langye-king-reading/jin010-ws2567072.wikitext",
+      "line": 336,
+      "start": 26,
+      "end": 35,
+      "source_quote": "南海賊徐道期陷廣州",
+      "raw_sha256": "191bbf44a05c366e9ce2ae1556f05d317245ff0d923e97e99d5aad06c81e8794",
+      "interpretation": "晉紀按事件地稱南海賊，不等於籍貫。"
+    }
+  ],
+  "print_readings": [
+    {
+      "url": "https://upload.wikimedia.org/wikipedia/commons/4/49/NLC892-411999017142-12209_%E4%BA%8C%E5%8D%81%E5%9B%9B%E5%8F%B2_%E7%AC%AC145%E5%86%8A.pdf#page=5",
+      "catalog_record": "https://commons.wikimedia.org/wiki/File:NLC892-411999017142-12209_%E4%BA%8C%E5%8D%81%E5%9B%9B%E5%8F%B2_%E7%AC%AC145%E5%86%8A.pdf",
+      "pdf_sha1": "888def8c99848449305a0142411b32f9b0ca79e8",
+      "pdf_sha256": "5dafc33ab9565bb6f8d44691b15a706f3d4b672c50b837630c79797adbc0b342",
+      "image_sha256": "42027aa5f384d38d6a3ec2e419bfaf2a74e5d1f717815f89ba171b886eca40f0",
+      "edition": "清乾隆武英殿本《宋書》，國圖第145冊。",
+      "page": 5,
+      "half": "L",
+      "folio": "四上",
+      "columns_from_right": "9–10",
+      "source_quote": "東海人徐道期流寓廣州",
+      "reading": "徐氏附敘傳界。"
+    }
+  ],
+  "boundaries": [
+    {
+      "book_id": "b-songshu-050",
+      "title": "徐道期",
+      "unit_kind": "embedded_account",
+      "chapter_id": "c-songshu-050-xudaoqi",
+      "entry_checked": true,
+      "full_text": true,
+      "first_pass": true,
+      "item_reviewed": true,
+      "source_layout": "wikisource_mixed_indented_prose",
+      "first_line": 29,
+      "last_line": 29,
+      "start_codepoint": 175,
+      "end_codepoint": 242,
+      "opening": "東海人徐道期流寓廣州，無",
+      "closing": "庫，招集亡命，出攻始興。",
+      "parent_heading": "劉康祖",
+      "scope_note": "嵌在劉謙之事中，從籍貫與流寓廣州起，至出攻始興。",
+      "chapter_path": "corpus/songshu/050-xudaoqi.json",
+      "paragraph_ids": [
+        "c-songshu-050-xudaoqi:p001"
+      ],
+      "item_review_path": "source-evidence/song050-complete/xudaoqi-reading.json"
+    }
+  ],
+  "chronology": [],
+  "readings": [
+    {
+      "id": "c-songshu-050-xudaoqi:received_sentence1-0",
+      "kind": "received_sentence",
+      "person_id": "zd7_s50_u6k",
+      "source_quote": "東海人徐道期流寓廣州，無士行，為僑舊所陵侮。",
+      "reading": "徐道期本東海人，流寓廣州，受到當地僑舊陵侮。",
+      "note": "徐道期本東海人，流寓廣州，受到當地僑舊陵侮。",
+      "paragraph_id": "c-songshu-050-xudaoqi:p001",
+      "start_codepoint": 0,
+      "end_codepoint": 22,
+      "human_reviewed": false
+    },
+    {
+      "id": "c-songshu-050-xudaoqi:received_sentence1-22",
+      "kind": "received_sentence",
+      "person_id": "zd7_s50_u6k",
+      "source_quote": "因刺史謝欣死，合率羣不逞之徒作亂，攻沒州城，殺士庶素憾者百餘，傾府庫，招集亡命，出攻始興。",
+      "reading": "刺史謝欣死後，起事攻州城，殺素有怨者百餘人，出攻始興。",
+      "note": "刺史謝欣死後，起事攻州城，殺素有怨者百餘人，出攻始興。",
+      "paragraph_id": "c-songshu-050-xudaoqi:p001",
+      "start_codepoint": 22,
+      "end_codepoint": 67,
+      "human_reviewed": false
+    },
+    {
+      "id": "c-songshu-050-xudaoqi:residence1-6",
+      "kind": "residence",
+      "person_id": "zd7_s50_u6k",
+      "source_quote": "流寓廣州",
+      "reading": "區分籍貫東海、流寓廣州與隨後攻始興。",
+      "note": "區分籍貫東海、流寓廣州與隨後攻始興。",
+      "paragraph_id": "c-songshu-050-xudaoqi:p001",
+      "start_codepoint": 6,
+      "end_codepoint": 10,
+      "human_reviewed": false,
+      "origin": "東海",
+      "residence": "廣州",
+      "last_objective": "始興"
+    }
+  ],
+  "identity_limits": []
+}
