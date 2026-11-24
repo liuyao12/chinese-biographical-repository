@@ -1,0 +1,148 @@
+{
+  "schema_version": 1,
+  "id": "qo4_83w_vjq",
+  "canonical_person_id": "qo4_83w_vjq",
+  "label": "索石元",
+  "identity_note": "索石元，見本組原文及身份互校。",
+  "review": "ai_provisional",
+  "names": [
+    "石元"
+  ],
+  "titles": [],
+  "addresses": [],
+  "occurrences": [
+    {
+      "number": 60,
+      "category": "",
+      "title": "晉書卷六十·索綝",
+      "paragraph_id": "c-jinshu-060-suochen:p004",
+      "count": 1,
+      "raw_count": 1,
+      "duplicate_count": 0,
+      "counting_policy": "independent_fixed_witness_occurrences",
+      "quote": "。破曜呼日逐王呼延莫，以功封上洛郡公，食邑萬戶，拜夫人荀氏為新豐君，子石元為世子，賜子弟二人鄉亭侯。劉曜入關芟麥苗，綝又擊破之。自長安伐劉聰，聰將趙染杖其累捷，有自矜之色，帥精騎數百與綝戰，大敗之，染單馬而走。轉驃騎大將軍、尚書左僕射、錄尚書，承制行事。",
+      "paragraph_ids": [
+        "c-jinshu-060-suochen:p004"
+      ],
+      "mention_ids": [
+        "c-jinshu-060-suochen:p004:m0058"
+      ],
+      "mention_paragraph_ids": {
+        "c-jinshu-060-suochen:p004:m0058": "c-jinshu-060-suochen:p004"
+      },
+      "mention_id": "c-jinshu-060-suochen:p004:m0058",
+      "occurrence_groups": [
+        {
+          "canonical_mention_id": "c-jinshu-060-suochen:p004:m0058",
+          "mention_ids": [
+            "c-jinshu-060-suochen:p004:m0058"
+          ],
+          "kind": "paragraph"
+        }
+      ],
+      "work_id": "w-jinshu",
+      "book_id": "b-jinshu-060",
+      "chapter_id": "c-jinshu-060-suochen",
+      "source_id": "s-jinshu-060-suochen-ws2413335",
+      "work_title": "晉書"
+    }
+  ],
+  "table_occurrences": [],
+  "sources": [
+    {
+      "chapter_id": "c-jinshu-060-suochen",
+      "work_id": "w-jinshu",
+      "book_id": "b-jinshu-060",
+      "source_id": "s-jinshu-060-suochen-ws2413335",
+      "source": {
+        "title": "晉書卷六十·索綝",
+        "provider": "Wikisource",
+        "permalink": "https://zh.wikisource.org/w/index.php?oldid=2413335",
+        "url": "https://zh.wikisource.org/w/index.php?oldid=2413335",
+        "revision_id": 2413335,
+        "edition": "維基文庫固定修訂",
+        "accessed_on": "2026-11-22",
+        "review_status": "text_checked",
+        "image_verified": false,
+        "rights": "古代原文；數位轉錄依維基文庫授權。",
+        "license_url": "https://creativecommons.org/licenses/by-sa/4.0/",
+        "extent": "晉書卷六十·索綝",
+        "text_scope": "complete_biography_unit",
+        "raw_path": "source-evidence/jin060-roll/ws2413335.wikitext",
+        "raw_file_sha256": "672a23c2f4dfdcdbd4f29d98e5bc94bacbf82cba6e5759da81c2a7f6add365ef",
+        "collation_witnesses": [
+          "source-evidence/jin060-roll/volume-reading.json"
+        ]
+      }
+    }
+  ],
+  "relations": [
+    {
+      "id": "a-jin060-suoshiyuan-father",
+      "subject_person_id": "qo4_83w_vjq",
+      "object_person_id": "u3p_4ou_4st",
+      "predicate": "father",
+      "qualifiers": {
+        "source_term": "子石元為世子"
+      },
+      "evidence": [
+        {
+          "work_id": "w-jinshu",
+          "book_id": "b-jinshu-060",
+          "chapter_id": "c-jinshu-060-suochen",
+          "source_id": "s-jinshu-060-suochen-ws2413335",
+          "paragraph_id": "c-jinshu-060-suochen:p004",
+          "quote": "及劉曜侵逼王城，以綝為都督征東大將軍，持節討之。破曜呼日逐王呼延莫，以功封上洛郡公，食邑萬戶，拜夫人荀氏為新豐君，子石元為世子，賜子弟二人鄉亭侯。劉曜入關芟麥苗，綝又擊破之。自長安伐劉聰，聰將趙染杖其累捷，有自矜之色，帥精騎數百與綝戰，大敗之，染單馬而走。轉驃騎大將軍、尚書左僕射、錄尚書，承制行事。",
+          "subject_person_mention_id": "c-jinshu-060-suochen:p004:m0058",
+          "object_person_mention_id": "c-jinshu-060-suochen:p004:m0009"
+        }
+      ],
+      "status": "source_attested",
+      "interpretation_note": "石元為綝所立世子。",
+      "reviewer": "Codex（AI代理）",
+      "model": null,
+      "human_reviewed": false
+    }
+  ],
+  "related_people": {
+    "qo4_83w_vjq": "索石元",
+    "u3p_4ou_4st": "索綝"
+  },
+  "dates": [],
+  "name_components": [],
+  "person_ids": [
+    "qo4_83w_vjq"
+  ],
+  "preferred_relations": [
+    {
+      "id": "a-jin060-suoshiyuan-father",
+      "subject_person_id": "qo4_83w_vjq",
+      "object_person_id": "u3p_4ou_4st",
+      "predicate": "father",
+      "qualifiers": {
+        "source_term": "子石元為世子"
+      },
+      "evidence": [
+        {
+          "work_id": "w-jinshu",
+          "book_id": "b-jinshu-060",
+          "chapter_id": "c-jinshu-060-suochen",
+          "source_id": "s-jinshu-060-suochen-ws2413335",
+          "paragraph_id": "c-jinshu-060-suochen:p004",
+          "quote": "及劉曜侵逼王城，以綝為都督征東大將軍，持節討之。破曜呼日逐王呼延莫，以功封上洛郡公，食邑萬戶，拜夫人荀氏為新豐君，子石元為世子，賜子弟二人鄉亭侯。劉曜入關芟麥苗，綝又擊破之。自長安伐劉聰，聰將趙染杖其累捷，有自矜之色，帥精騎數百與綝戰，大敗之，染單馬而走。轉驃騎大將軍、尚書左僕射、錄尚書，承制行事。",
+          "subject_person_mention_id": "c-jinshu-060-suochen:p004:m0058",
+          "object_person_mention_id": "c-jinshu-060-suochen:p004:m0009"
+        }
+      ],
+      "status": "source_attested",
+      "interpretation_note": "石元為綝所立世子。",
+      "reviewer": "Codex（AI代理）",
+      "model": null,
+      "human_reviewed": false
+    }
+  ],
+  "age_assertions": [],
+  "life_events": [],
+  "life_event_date_decisions": [],
+  "selected_life_event_dates": []
+}

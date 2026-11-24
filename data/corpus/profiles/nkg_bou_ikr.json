@@ -1,0 +1,201 @@
+{
+  "schema_version": 1,
+  "id": "nkg_bou_ikr",
+  "canonical_person_id": "nkg_bou_ikr",
+  "label": "司馬義〔續汝南國、司馬統子〕",
+  "identity_note": "司馬義〔續汝南國、司馬統子〕，見本組原文及身份互校。",
+  "review": "ai_provisional",
+  "names": [
+    "義"
+  ],
+  "titles": [],
+  "addresses": [],
+  "occurrences": [
+    {
+      "number": 59,
+      "category": "",
+      "title": "晉書卷五十九·司馬祐",
+      "paragraph_id": "c-jinshu-059-ju-son-you:p002",
+      "count": 1,
+      "raw_count": 1,
+      "duplicate_count": 0,
+      "counting_policy": "independent_fixed_witness_occurrences",
+      "quote": "。其後成帝哀亮一門殄絕，詔統復封，累遷秘書監、侍中。薨，追贈光祿勳。子義立，官至散騎常侍。薨，子遵之立。義熙初，梁州刺史劉稚謀反，推遵之為主，事泄，伏誅。弟楷之子蓮扶立。宋受禪，國除。",
+      "paragraph_ids": [
+        "c-jinshu-059-ju-son-you:p002"
+      ],
+      "mention_ids": [
+        "c-jinshu-059-ju-son-you:p002:m0051"
+      ],
+      "mention_paragraph_ids": {
+        "c-jinshu-059-ju-son-you:p002:m0051": "c-jinshu-059-ju-son-you:p002"
+      },
+      "mention_id": "c-jinshu-059-ju-son-you:p002:m0051",
+      "occurrence_groups": [
+        {
+          "canonical_mention_id": "c-jinshu-059-ju-son-you:p002:m0051",
+          "mention_ids": [
+            "c-jinshu-059-ju-son-you:p002:m0051"
+          ],
+          "kind": "paragraph"
+        }
+      ],
+      "work_id": "w-jinshu",
+      "book_id": "b-jinshu-059",
+      "chapter_id": "c-jinshu-059-ju-son-you",
+      "source_id": "s-jinshu-059-ju-son-you-ws2650517",
+      "work_title": "晉書"
+    }
+  ],
+  "table_occurrences": [],
+  "sources": [
+    {
+      "chapter_id": "c-jinshu-059-ju-son-you",
+      "work_id": "w-jinshu",
+      "book_id": "b-jinshu-059",
+      "source_id": "s-jinshu-059-ju-son-you-ws2650517",
+      "source": {
+        "title": "晉書卷五十九·司馬祐",
+        "provider": "Wikisource",
+        "permalink": "https://zh.wikisource.org/w/index.php?oldid=2650517",
+        "url": "https://zh.wikisource.org/w/index.php?oldid=2650517",
+        "revision_id": 2650517,
+        "edition": "維基文庫固定修訂",
+        "accessed_on": "2026-11-22",
+        "review_status": "text_checked",
+        "image_verified": false,
+        "rights": "古代原文；數位轉錄依維基文庫授權。",
+        "license_url": "https://creativecommons.org/licenses/by-sa/4.0/",
+        "extent": "晉書卷五十九·司馬祐",
+        "text_scope": "complete_biography_unit",
+        "raw_path": "source-evidence/jin059-roll/ws2650517.wikitext",
+        "raw_file_sha256": "a83fe708c8dffc5965863d337a19fd4e7222ae41e29aa99e1c2a11ed8030d1d3",
+        "collation_witnesses": [
+          "source-evidence/jin059-roll/volume-reading.json"
+        ]
+      }
+    }
+  ],
+  "relations": [
+    {
+      "id": "a-jin059-volume-yi-father",
+      "subject_person_id": "nkg_bou_ikr",
+      "object_person_id": "4rs_bvk_56j",
+      "predicate": "father",
+      "qualifiers": {
+        "source_term": "子義立"
+      },
+      "evidence": [
+        {
+          "work_id": "w-jinshu",
+          "book_id": "b-jinshu-059",
+          "chapter_id": "c-jinshu-059-ju-son-you",
+          "source_id": "s-jinshu-059-ju-son-you-ws2650517",
+          "paragraph_id": "c-jinshu-059-ju-son-you:p002",
+          "quote": "子恭王統立，以南頓王宗謀反，被廢。其後成帝哀亮一門殄絕，詔統復封，累遷秘書監、侍中。薨，追贈光祿勳。子義立，官至散騎常侍。薨，子遵之立。義熙初，梁州刺史劉稚謀反，推遵之為主，事泄，伏誅。弟楷之子蓮扶立。宋受禪，國除。",
+          "subject_person_mention_id": "c-jinshu-059-ju-son-you:p002:m0051",
+          "object_person_mention_id": "c-jinshu-059-ju-son-you:p002:m0003"
+        }
+      ],
+      "status": "source_attested",
+      "interpretation_note": "恭王統薨後子義嗣。",
+      "reviewer": "Codex（AI代理）",
+      "model": null,
+      "human_reviewed": false
+    },
+    {
+      "id": "a-jin059-volume-zunzhi-father",
+      "subject_person_id": "5ci_gxh_opj",
+      "object_person_id": "nkg_bou_ikr",
+      "predicate": "father",
+      "qualifiers": {
+        "source_term": "子遵之立"
+      },
+      "evidence": [
+        {
+          "work_id": "w-jinshu",
+          "book_id": "b-jinshu-059",
+          "chapter_id": "c-jinshu-059-ju-son-you",
+          "source_id": "s-jinshu-059-ju-son-you-ws2650517",
+          "paragraph_id": "c-jinshu-059-ju-son-you:p002",
+          "quote": "子恭王統立，以南頓王宗謀反，被廢。其後成帝哀亮一門殄絕，詔統復封，累遷秘書監、侍中。薨，追贈光祿勳。子義立，官至散騎常侍。薨，子遵之立。義熙初，梁州刺史劉稚謀反，推遵之為主，事泄，伏誅。弟楷之子蓮扶立。宋受禪，國除。",
+          "subject_person_mention_id": "c-jinshu-059-ju-son-you:p002:m0064",
+          "object_person_mention_id": "c-jinshu-059-ju-son-you:p002:m0051"
+        }
+      ],
+      "status": "source_attested",
+      "interpretation_note": "義薨以子遵之繼。",
+      "reviewer": "Codex（AI代理）",
+      "model": null,
+      "human_reviewed": false
+    }
+  ],
+  "related_people": {
+    "4rs_bvk_56j": "司馬統〔汝南恭王、祐子〕",
+    "5ci_gxh_opj": "司馬遵之〔汝南王、義子〕",
+    "nkg_bou_ikr": "司馬義〔續汝南國、司馬統子〕"
+  },
+  "dates": [],
+  "name_components": [],
+  "person_ids": [
+    "nkg_bou_ikr"
+  ],
+  "preferred_relations": [
+    {
+      "id": "a-jin059-volume-yi-father",
+      "subject_person_id": "nkg_bou_ikr",
+      "object_person_id": "4rs_bvk_56j",
+      "predicate": "father",
+      "qualifiers": {
+        "source_term": "子義立"
+      },
+      "evidence": [
+        {
+          "work_id": "w-jinshu",
+          "book_id": "b-jinshu-059",
+          "chapter_id": "c-jinshu-059-ju-son-you",
+          "source_id": "s-jinshu-059-ju-son-you-ws2650517",
+          "paragraph_id": "c-jinshu-059-ju-son-you:p002",
+          "quote": "子恭王統立，以南頓王宗謀反，被廢。其後成帝哀亮一門殄絕，詔統復封，累遷秘書監、侍中。薨，追贈光祿勳。子義立，官至散騎常侍。薨，子遵之立。義熙初，梁州刺史劉稚謀反，推遵之為主，事泄，伏誅。弟楷之子蓮扶立。宋受禪，國除。",
+          "subject_person_mention_id": "c-jinshu-059-ju-son-you:p002:m0051",
+          "object_person_mention_id": "c-jinshu-059-ju-son-you:p002:m0003"
+        }
+      ],
+      "status": "source_attested",
+      "interpretation_note": "恭王統薨後子義嗣。",
+      "reviewer": "Codex（AI代理）",
+      "model": null,
+      "human_reviewed": false
+    },
+    {
+      "id": "a-jin059-volume-zunzhi-father",
+      "subject_person_id": "5ci_gxh_opj",
+      "object_person_id": "nkg_bou_ikr",
+      "predicate": "father",
+      "qualifiers": {
+        "source_term": "子遵之立"
+      },
+      "evidence": [
+        {
+          "work_id": "w-jinshu",
+          "book_id": "b-jinshu-059",
+          "chapter_id": "c-jinshu-059-ju-son-you",
+          "source_id": "s-jinshu-059-ju-son-you-ws2650517",
+          "paragraph_id": "c-jinshu-059-ju-son-you:p002",
+          "quote": "子恭王統立，以南頓王宗謀反，被廢。其後成帝哀亮一門殄絕，詔統復封，累遷秘書監、侍中。薨，追贈光祿勳。子義立，官至散騎常侍。薨，子遵之立。義熙初，梁州刺史劉稚謀反，推遵之為主，事泄，伏誅。弟楷之子蓮扶立。宋受禪，國除。",
+          "subject_person_mention_id": "c-jinshu-059-ju-son-you:p002:m0064",
+          "object_person_mention_id": "c-jinshu-059-ju-son-you:p002:m0051"
+        }
+      ],
+      "status": "source_attested",
+      "interpretation_note": "義薨以子遵之繼。",
+      "reviewer": "Codex（AI代理）",
+      "model": null,
+      "human_reviewed": false
+    }
+  ],
+  "age_assertions": [],
+  "life_events": [],
+  "life_event_date_decisions": [],
+  "selected_life_event_dates": []
+}

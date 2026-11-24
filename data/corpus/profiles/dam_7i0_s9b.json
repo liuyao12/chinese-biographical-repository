@@ -6,7 +6,8 @@
   "identity_note": "四晉完整選定單元來源內身份暫定；不把近似人名、同姓、遠祖報說變成近親或同人。",
   "review": "ai_provisional",
   "names": [
-    "周仲孫"
+    "周仲孫",
+    "仲孫"
   ],
   "titles": [],
   "addresses": [],
@@ -44,6 +45,59 @@
       "book_id": "b-jinshu-009",
       "chapter_id": "c-jinshu-009-huan-annal-ningkang1",
       "source_id": "s-jinshu-009-huan-annal-ningkang1",
+      "work_title": "晉書"
+    },
+    {
+      "number": 58,
+      "category": "",
+      "title": "晉書卷五十八·周仲孫",
+      "paragraph_id": "c-jinshu-058-zhou-zhongsun:p001",
+      "count": 3,
+      "raw_count": 3,
+      "duplicate_count": 0,
+      "counting_policy": "independent_fixed_witness_occurrences",
+      "quote": "子仲孫，興甯初督寧州軍事、振武將軍、甯州刺史。在州貪暴，人不堪命。桓溫以梁、益多寇，周氏世有威稱，復除仲孫監益、豫、梁州之三郡。甯康初，楊安寇蜀，仲孫失守，免官。後徵爲光祿勳，卒。",
+      "paragraph_ids": [
+        "c-jinshu-058-zhou-zhongsun:p001"
+      ],
+      "mention_ids": [
+        "c-jinshu-058-zhou-zhongsun:p001:m0001",
+        "c-jinshu-058-zhou-zhongsun:p001:m0051",
+        "c-jinshu-058-zhou-zhongsun:p001:m0073"
+      ],
+      "mention_paragraph_ids": {
+        "c-jinshu-058-zhou-zhongsun:p001:m0001": "c-jinshu-058-zhou-zhongsun:p001",
+        "c-jinshu-058-zhou-zhongsun:p001:m0051": "c-jinshu-058-zhou-zhongsun:p001",
+        "c-jinshu-058-zhou-zhongsun:p001:m0073": "c-jinshu-058-zhou-zhongsun:p001"
+      },
+      "mention_id": "c-jinshu-058-zhou-zhongsun:p001:m0001",
+      "occurrence_groups": [
+        {
+          "canonical_mention_id": "c-jinshu-058-zhou-zhongsun:p001:m0001",
+          "mention_ids": [
+            "c-jinshu-058-zhou-zhongsun:p001:m0001"
+          ],
+          "kind": "paragraph"
+        },
+        {
+          "canonical_mention_id": "c-jinshu-058-zhou-zhongsun:p001:m0051",
+          "mention_ids": [
+            "c-jinshu-058-zhou-zhongsun:p001:m0051"
+          ],
+          "kind": "paragraph"
+        },
+        {
+          "canonical_mention_id": "c-jinshu-058-zhou-zhongsun:p001:m0073",
+          "mention_ids": [
+            "c-jinshu-058-zhou-zhongsun:p001:m0073"
+          ],
+          "kind": "paragraph"
+        }
+      ],
+      "work_id": "w-jinshu",
+      "book_id": "b-jinshu-058",
+      "chapter_id": "c-jinshu-058-zhou-zhongsun",
+      "source_id": "s-jinshu-058-zhou-zhongsun-ws1775463",
       "work_title": "晉書"
     },
     {
@@ -131,6 +185,32 @@
       }
     },
     {
+      "chapter_id": "c-jinshu-058-zhou-zhongsun",
+      "work_id": "w-jinshu",
+      "book_id": "b-jinshu-058",
+      "source_id": "s-jinshu-058-zhou-zhongsun-ws1775463",
+      "source": {
+        "title": "晉書卷五十八·周仲孫",
+        "provider": "Wikisource",
+        "permalink": "https://zh.wikisource.org/w/index.php?oldid=1775463",
+        "url": "https://zh.wikisource.org/w/index.php?oldid=1775463",
+        "revision_id": 1775463,
+        "edition": "維基文庫固定修訂",
+        "accessed_on": "2026-11-22",
+        "review_status": "text_checked",
+        "image_verified": false,
+        "rights": "古代原文；數位轉錄依維基文庫授權。",
+        "license_url": "https://creativecommons.org/licenses/by-sa/4.0/",
+        "extent": "晉書卷五十八·周仲孫",
+        "text_scope": "complete_biography_unit",
+        "raw_path": "source-evidence/jin058-roll/ws1775463.wikitext",
+        "raw_file_sha256": "01b260cc8d1f216f20c4cfc426037be1e3f987097d24b45303e3659b07fe9083",
+        "collation_witnesses": [
+          "source-evidence/jin058-roll/volume-reading.json"
+        ]
+      }
+    },
+    {
       "chapter_id": "c-jinshu-074-huan-family",
       "work_id": "w-jinshu",
       "book_id": "b-jinshu-074",
@@ -168,12 +248,87 @@
   },
   "dates": [],
   "name_components": [],
+  "source_reading_cases": [
+    {
+      "id": "c-jinshu-058-zhou-zhongsun:source_review1-0",
+      "kind": "source_review",
+      "person_id": "dam_7i0_s9b",
+      "source_quote": "子仲孫，興甯初督寧州軍事、振武將軍、甯州刺史。在州貪暴，人不堪命。桓溫以梁、益多寇，周氏世有威稱，復除仲孫監益、豫、梁州之三郡。甯康初，楊安寇蜀，仲孫失守，免官。後徵爲光祿勳，卒。",
+      "reading": "周仲孫為光子。興寧初任寧州刺史，寧康初失守免官，後卒。",
+      "note": "周仲孫為光子。興寧初任寧州刺史，寧康初失守免官，後卒。",
+      "paragraph_id": "c-jinshu-058-zhou-zhongsun:p001",
+      "start_codepoint": 0,
+      "end_codepoint": 90,
+      "human_reviewed": false,
+      "chapter_id": "c-jinshu-058-zhou-zhongsun",
+      "source_id": "s-jinshu-058-zhou-zhongsun-ws1775463"
+    },
+    {
+      "id": "c-jinshu-058-zhou-zhongsun:source_review2-0",
+      "kind": "source_review",
+      "person_id": "dam_7i0_s9b",
+      "source_quote": "初，陶侃微時，丁艱，將葬，家中忽失牛而不知所在。遇一老父，謂曰：「前崗見一牛眠山汙中，其地若葬，位極人臣矣。」又指一山云：「此亦其次，當世出二千石。」言訖不見。侃尋牛得之，因葬其處，以所指別山與訪。訪父死，葬焉，果爲刺史，著稱甯、益，自訪以下，三世爲益州四十一年，如其所言云。",
+      "reading": "陶侃、周訪相與葬地的異聞，三世守益州四十一年依傳。",
+      "note": "陶侃、周訪相與葬地的異聞，三世守益州四十一年依傳。",
+      "paragraph_id": "c-jinshu-058-zhou-zhongsun:p002",
+      "start_codepoint": 0,
+      "end_codepoint": 138,
+      "human_reviewed": false,
+      "chapter_id": "c-jinshu-058-zhou-zhongsun",
+      "source_id": "s-jinshu-058-zhou-zhongsun-ws1775463"
+    },
+    {
+      "id": "c-jinshu-058-zhou-zhongsun:source_relationship1-0",
+      "kind": "source_relationship",
+      "person_id": "dam_7i0_s9b",
+      "source_quote": "子仲孫",
+      "reading": "本段接在周光後，「光子」為原題。",
+      "note": "本段接在周光後，「光子」為原題。",
+      "paragraph_id": "c-jinshu-058-zhou-zhongsun:p001",
+      "start_codepoint": 0,
+      "end_codepoint": 3,
+      "human_reviewed": false,
+      "related_person_id": "fqd_otm_jc2",
+      "chapter_id": "c-jinshu-058-zhou-zhongsun",
+      "source_id": "s-jinshu-058-zhou-zhongsun-ws1775463"
+    }
+  ],
   "person_ids": [
     "dam_7i0_s9b"
   ],
   "preferred_relations": [],
   "age_assertions": [],
-  "life_events": [],
+  "life_events": [
+    {
+      "id": "le-jin058-volume-zhou-zhongsun-death",
+      "person_id": "dam_7i0_s9b",
+      "event_type": "death",
+      "source_term": "卒",
+      "source_anchor": {
+        "paragraph_id": "c-jinshu-058-zhou-zhongsun:p001",
+        "start": 88,
+        "end": 89,
+        "surface": "卒"
+      },
+      "date_expression": null,
+      "evidence": [
+        {
+          "work_id": "w-jinshu",
+          "book_id": "b-jinshu-058",
+          "chapter_id": "c-jinshu-058-zhou-zhongsun",
+          "source_id": "s-jinshu-058-zhou-zhongsun-ws1775463",
+          "paragraph_id": "c-jinshu-058-zhou-zhongsun:p001",
+          "quote": "子仲孫，興甯初督寧州軍事、振武將軍、甯州刺史。在州貪暴，人不堪命。桓溫以梁、益多寇，周氏世有威稱，復除仲孫監益、豫、梁州之三郡。甯康初，楊安寇蜀，仲孫失守，免官。後徵爲光祿勳，卒。",
+          "person_mention_id": "c-jinshu-058-zhou-zhongsun:p001:m0001"
+        }
+      ],
+      "status": "source_attested",
+      "interpretation_note": "按同段人物與次第核所屬卒事。",
+      "reviewer": "Codex（AI代理）",
+      "model": null,
+      "human_reviewed": false
+    }
+  ],
   "life_event_date_decisions": [],
   "selected_life_event_dates": []
 }

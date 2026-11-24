@@ -146,6 +146,41 @@
       "work_title": "三國志"
     },
     {
+      "number": 54,
+      "category": "",
+      "title": "晉書卷五十四·陸喜",
+      "paragraph_id": "c-jinshu-054-lu-xi:p001",
+      "count": 1,
+      "raw_count": 1,
+      "duplicate_count": 0,
+      "counting_policy": "independent_fixed_witness_occurrences",
+      "quote": "喜字恭仲。父瑁，吳吏部尚書。喜仕吳，累遷吏部尚書。少有聲名，好學有才思。嘗為自敘，其略曰：「劉向省《新語》而作《新序》，桓譚詠《新序》而作《新論》。餘不自量，感子雲之《法言》而作《言道》，睹賈子之美才而作《訪論》，",
+      "paragraph_ids": [
+        "c-jinshu-054-lu-xi:p001"
+      ],
+      "mention_ids": [
+        "c-jinshu-054-lu-xi:p001:m0006"
+      ],
+      "mention_paragraph_ids": {
+        "c-jinshu-054-lu-xi:p001:m0006": "c-jinshu-054-lu-xi:p001"
+      },
+      "mention_id": "c-jinshu-054-lu-xi:p001:m0006",
+      "occurrence_groups": [
+        {
+          "canonical_mention_id": "c-jinshu-054-lu-xi:p001:m0006",
+          "mention_ids": [
+            "c-jinshu-054-lu-xi:p001:m0006"
+          ],
+          "kind": "paragraph"
+        }
+      ],
+      "work_id": "w-jinshu",
+      "book_id": "b-jinshu-054",
+      "chapter_id": "c-jinshu-054-lu-xi",
+      "source_id": "s-jinshu-054-lu-xi-ws2605147",
+      "work_title": "晉書"
+    },
+    {
       "number": 57,
       "category": "",
       "title": "卷末評",
@@ -368,6 +403,32 @@
   "table_occurrences": [],
   "sources": [
     {
+      "chapter_id": "c-jinshu-054-lu-xi",
+      "work_id": "w-jinshu",
+      "book_id": "b-jinshu-054",
+      "source_id": "s-jinshu-054-lu-xi-ws2605147",
+      "source": {
+        "title": "晉書卷五十四·陸喜",
+        "provider": "Wikisource",
+        "permalink": "https://zh.wikisource.org/w/index.php?oldid=2605147",
+        "url": "https://zh.wikisource.org/w/index.php?oldid=2605147",
+        "revision_id": 2605147,
+        "edition": "維基文庫固定修訂",
+        "accessed_on": "2026-11-22",
+        "review_status": "text_checked",
+        "image_verified": false,
+        "rights": "古代原文；數位轉錄依維基文庫授權。",
+        "license_url": "https://creativecommons.org/licenses/by-sa/4.0/",
+        "extent": "晉書卷五十四·陸喜",
+        "text_scope": "complete_biography_unit",
+        "raw_path": "source-evidence/sanguozhi051-roll-close/external/jin054-ws2605147.wikitext",
+        "raw_file_sha256": "77518bfb06b9a1a917849c9d669f0459fca826ab6fe88d54706f72b0314606c0",
+        "collation_witnesses": [
+          "source-evidence/jin054-roll/volume-reading.json"
+        ]
+      }
+    },
+    {
       "chapter_id": "c-sanguozhi-052-gucheng-complete",
       "work_id": "w-sanguozhi",
       "book_id": "b-sanguozhi-052",
@@ -450,6 +511,32 @@
     }
   ],
   "relations": [
+    {
+      "id": "a-jin054-volume-xi-father",
+      "subject_person_id": "36u_j3u_i3z_A",
+      "object_person_id": "36u_j3u_i3z",
+      "predicate": "father",
+      "qualifiers": {
+        "source_term": "父瑁"
+      },
+      "evidence": [
+        {
+          "work_id": "w-jinshu",
+          "book_id": "b-jinshu-054",
+          "chapter_id": "c-jinshu-054-lu-xi",
+          "source_id": "s-jinshu-054-lu-xi-ws2605147",
+          "paragraph_id": "c-jinshu-054-lu-xi:p001",
+          "quote": "喜字恭仲。父瑁，吳吏部尚書。喜仕吳，累遷吏部尚書。少有聲名，好學有才思。嘗為自敘，其略曰：「劉向省《新語》而作《新序》，桓譚詠《新序》而作《新論》。餘不自量，感子雲之《法言》而作《言道》，睹賈子之美才而作《訪論》，觀子政《洪範》而作《古今曆》，鑒蔣子通《萬機》而作《審機》，讀《幽通》、《思玄》、《四愁》而作《娛賓》、《九思》，真所謂忍愧者也。」其書近百篇。",
+          "subject_person_mention_id": "c-jinshu-054-lu-xi:p001:m0000",
+          "object_person_mention_id": "c-jinshu-054-lu-xi:p001:m0006"
+        }
+      ],
+      "status": "source_attested",
+      "interpretation_note": "喜父瑁，平行見吳卷五十七。",
+      "reviewer": "Codex（AI代理）",
+      "model": null,
+      "human_reviewed": false
+    },
     {
       "id": "a-wu052-gc-mao",
       "subject_person_id": "syc_ik6_bq5_**AAB",
@@ -679,6 +766,32 @@
     "36u_j3u_i3z"
   ],
   "preferred_relations": [
+    {
+      "id": "a-jin054-volume-xi-father",
+      "subject_person_id": "36u_j3u_i3z_A",
+      "object_person_id": "36u_j3u_i3z",
+      "predicate": "father",
+      "qualifiers": {
+        "source_term": "父瑁"
+      },
+      "evidence": [
+        {
+          "work_id": "w-jinshu",
+          "book_id": "b-jinshu-054",
+          "chapter_id": "c-jinshu-054-lu-xi",
+          "source_id": "s-jinshu-054-lu-xi-ws2605147",
+          "paragraph_id": "c-jinshu-054-lu-xi:p001",
+          "quote": "喜字恭仲。父瑁，吳吏部尚書。喜仕吳，累遷吏部尚書。少有聲名，好學有才思。嘗為自敘，其略曰：「劉向省《新語》而作《新序》，桓譚詠《新序》而作《新論》。餘不自量，感子雲之《法言》而作《言道》，睹賈子之美才而作《訪論》，觀子政《洪範》而作《古今曆》，鑒蔣子通《萬機》而作《審機》，讀《幽通》、《思玄》、《四愁》而作《娛賓》、《九思》，真所謂忍愧者也。」其書近百篇。",
+          "subject_person_mention_id": "c-jinshu-054-lu-xi:p001:m0000",
+          "object_person_mention_id": "c-jinshu-054-lu-xi:p001:m0006"
+        }
+      ],
+      "status": "source_attested",
+      "interpretation_note": "喜父瑁，平行見吳卷五十七。",
+      "reviewer": "Codex（AI代理）",
+      "model": null,
+      "human_reviewed": false
+    },
     {
       "id": "a-wu052-gc-mao",
       "subject_person_id": "syc_ik6_bq5_**AAB",

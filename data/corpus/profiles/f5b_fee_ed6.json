@@ -6,7 +6,8 @@
   "identity_note": "本批具名來源人物；已查 registry 標籤與異稱，未見可確定的既有同指；匯入前由主代理集中配號。",
   "review": "ai_provisional",
   "names": [
-    "滕恬之"
+    "滕恬之",
+    "恬之"
   ],
   "titles": [
     {
@@ -61,6 +62,41 @@
   "addresses": [],
   "occurrences": [
     {
+      "number": 57,
+      "category": "",
+      "title": "晉書卷五十七·滕修",
+      "paragraph_id": "c-jinshu-057-teng-xiu:p004",
+      "count": 1,
+      "raw_count": 1,
+      "duplicate_count": 0,
+      "counting_policy": "independent_fixed_witness_occurrences",
+      "quote": "修曾孫恬之，龍驤將軍、魏郡太守，戍黎陽，為翟遼所執，死之。",
+      "paragraph_ids": [
+        "c-jinshu-057-teng-xiu:p004"
+      ],
+      "mention_ids": [
+        "c-jinshu-057-teng-xiu:p004:m0003"
+      ],
+      "mention_paragraph_ids": {
+        "c-jinshu-057-teng-xiu:p004:m0003": "c-jinshu-057-teng-xiu:p004"
+      },
+      "mention_id": "c-jinshu-057-teng-xiu:p004:m0003",
+      "occurrence_groups": [
+        {
+          "canonical_mention_id": "c-jinshu-057-teng-xiu:p004:m0003",
+          "mention_ids": [
+            "c-jinshu-057-teng-xiu:p004:m0003"
+          ],
+          "kind": "paragraph"
+        }
+      ],
+      "work_id": "w-jinshu",
+      "book_id": "b-jinshu-057",
+      "chapter_id": "c-jinshu-057-teng-xiu",
+      "source_id": "s-jinshu-057-teng-xiu-ws2413329",
+      "work_title": "晉書"
+    },
+    {
       "number": 79,
       "category": "",
       "title": "謝氏家族選段及謝尚、奕、玄、石、邈完整單元",
@@ -107,6 +143,32 @@
   ],
   "table_occurrences": [],
   "sources": [
+    {
+      "chapter_id": "c-jinshu-057-teng-xiu",
+      "work_id": "w-jinshu",
+      "book_id": "b-jinshu-057",
+      "source_id": "s-jinshu-057-teng-xiu-ws2413329",
+      "source": {
+        "title": "晉書卷五十七·滕修",
+        "provider": "Wikisource",
+        "permalink": "https://zh.wikisource.org/w/index.php?oldid=2413329",
+        "url": "https://zh.wikisource.org/w/index.php?oldid=2413329",
+        "revision_id": 2413329,
+        "edition": "維基文庫固定修訂",
+        "accessed_on": "2026-11-22",
+        "review_status": "text_checked",
+        "image_verified": false,
+        "rights": "古代原文；數位轉錄依維基文庫授權。",
+        "license_url": "https://creativecommons.org/licenses/by-sa/4.0/",
+        "extent": "晉書卷五十七·滕修",
+        "text_scope": "complete_biography_unit",
+        "raw_path": "source-evidence/jin057-roll/ws2413329.wikitext",
+        "raw_file_sha256": "b8c7c77af7cc2d9dd644c5b5223d1ca1a7b91b46ce5e894901f37c2013340eb1",
+        "collation_witnesses": [
+          "source-evidence/jin057-roll/volume-reading.json"
+        ]
+      }
+    },
     {
       "chapter_id": "c-jinshu-079-xielang-family",
       "work_id": "w-jinshu",
@@ -778,6 +840,23 @@
   },
   "dates": [],
   "name_components": [],
+  "source_reading_cases": [
+    {
+      "id": "c-jinshu-057-teng-xiu:source_relationship4-0",
+      "kind": "source_relationship",
+      "person_id": "f5b_fee_ed6",
+      "source_quote": "修曾孫恬之",
+      "reading": "曾孫字樣具在；中間兩代未指。",
+      "note": "曾孫字樣具在；中間兩代未指。",
+      "paragraph_id": "c-jinshu-057-teng-xiu:p004",
+      "start_codepoint": 0,
+      "end_codepoint": 5,
+      "human_reviewed": false,
+      "related_person_id": "8zw_lx6_9le",
+      "chapter_id": "c-jinshu-057-teng-xiu",
+      "source_id": "s-jinshu-057-teng-xiu-ws2413329"
+    }
+  ],
   "person_ids": [
     "f5b_fee_ed6"
   ],
