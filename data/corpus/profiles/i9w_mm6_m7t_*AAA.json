@@ -8,7 +8,8 @@
   "names": [
     "顧覬之",
     "偉仁",
-    "覬之"
+    "覬之",
+    "凱之"
   ],
   "titles": [],
   "addresses": [],
@@ -74,6 +75,41 @@
       "book_id": "b-nanqishu-041",
       "chapter_id": "c-nanqishu-041-zhangrong-complete",
       "source_id": "s-nanqishu-041-zhangrong-complete-ws2044621",
+      "work_title": "南齊書"
+    },
+    {
+      "number": 46,
+      "category": "",
+      "title": "南齊書卷四十六·顧憲之附傳與牛埭稅議",
+      "paragraph_id": "c-nanqishu-046-guxianzhi-complete:p001",
+      "count": 1,
+      "raw_count": 1,
+      "duplicate_count": 0,
+      "counting_policy": "independent_fixed_witness_occurrences",
+      "quote": "　　同郡顧憲之，字士思，宋鎮南將軍凱之孫也。性尤清直。永明六年，爲隨王東中郎長史、行會稽郡事。時西陵戍主杜元懿啓：「吳興無秋，會稽豐登，商旅往來，倍多常歲。西陵牛埭稅，官格日三千五百，元懿如卽所見，日可一倍，盈縮相兼，略計年長百萬。浦陽南",
+      "paragraph_ids": [
+        "c-nanqishu-046-guxianzhi-complete:p001"
+      ],
+      "mention_ids": [
+        "c-nanqishu-046-guxianzhi-complete:p001:m0017"
+      ],
+      "mention_paragraph_ids": {
+        "c-nanqishu-046-guxianzhi-complete:p001:m0017": "c-nanqishu-046-guxianzhi-complete:p001"
+      },
+      "mention_id": "c-nanqishu-046-guxianzhi-complete:p001:m0017",
+      "occurrence_groups": [
+        {
+          "canonical_mention_id": "c-nanqishu-046-guxianzhi-complete:p001:m0017",
+          "mention_ids": [
+            "c-nanqishu-046-guxianzhi-complete:p001:m0017"
+          ],
+          "kind": "paragraph"
+        }
+      ],
+      "work_id": "w-nanqishu",
+      "book_id": "b-nanqishu-046",
+      "chapter_id": "c-nanqishu-046-guxianzhi-complete",
+      "source_id": "s-nanqishu-046-guxianzhi-complete-ws1511897",
       "work_title": "南齊書"
     },
     {
@@ -195,6 +231,32 @@
       }
     },
     {
+      "chapter_id": "c-nanqishu-046-guxianzhi-complete",
+      "work_id": "w-nanqishu",
+      "book_id": "b-nanqishu-046",
+      "source_id": "s-nanqishu-046-guxianzhi-complete-ws1511897",
+      "source": {
+        "title": "南齊書卷四十六·顧憲之附傳與牛埭稅議",
+        "provider": "Wikisource",
+        "permalink": "https://zh.wikisource.org/w/index.php?oldid=1511897",
+        "url": "https://zh.wikisource.org/w/index.php?oldid=1511897",
+        "revision_id": 1511897,
+        "edition": "維基文庫固定修訂",
+        "accessed_on": "2026-11-21",
+        "review_status": "text_checked",
+        "image_verified": false,
+        "rights": "古代原文；數位轉錄依維基文庫授權。",
+        "license_url": "https://creativecommons.org/licenses/by-sa/4.0/",
+        "extent": "南齊書卷四十六·顧憲之附傳與牛埭稅議",
+        "text_scope": "complete_biography_unit",
+        "raw_path": "sources/nanqishu/nanqishu046-ws1511897.wikitext",
+        "raw_file_sha256": "d109243a343e069b8ce98cb0607567b69305574aa59ecc8776b9ea70ca0fd537",
+        "collation_witnesses": [
+          "source-evidence/nanqi046-roll/gu-reading.json"
+        ]
+      }
+    },
+    {
       "chapter_id": "c-songshu-081-gujizhi-shanyin-ancestry",
       "work_id": "w-songshu",
       "book_id": "b-songshu-081",
@@ -243,6 +305,33 @@
   ],
   "relations": [
     {
+      "id": "a-qi046-guxianzhi-grandfather",
+      "subject_person_id": "7py_wlx_j2z",
+      "object_person_id": "i9w_mm6_m7t_*AAA",
+      "predicate": "grandfather",
+      "qualifiers": {
+        "source_term": "凱之孫也",
+        "lineage": "paternal"
+      },
+      "evidence": [
+        {
+          "work_id": "w-nanqishu",
+          "book_id": "b-nanqishu-046",
+          "chapter_id": "c-nanqishu-046-guxianzhi-complete",
+          "source_id": "s-nanqishu-046-guxianzhi-complete-ws1511897",
+          "paragraph_id": "c-nanqishu-046-guxianzhi-complete:p001",
+          "quote": "　　同郡顧憲之，字士思，宋鎮南將軍凱之孫也。性尤清直。永明六年，爲隨王東中郎長史、行會稽郡事。時西陵戍主杜元懿啓：「吳興無秋，會稽豐登，商旅往來，倍多常歲。西陵牛埭稅，官格日三千五百，元懿如卽所見，日可一倍，盈縮相兼，略計年長百萬。浦陽南北津及柳浦四埭，乞爲官領攝，一年格外長四百許萬。西陵戍前檢稅，無妨戍事，餘三埭自舉腹心。」世祖敕示會稽郡：「此詎是事？宜可訪察卽啓。」憲之議曰：",
+          "subject_person_mention_id": "c-nanqishu-046-guxianzhi-complete:p001:m0004",
+          "object_person_mention_id": "c-nanqishu-046-guxianzhi-complete:p001:m0017"
+        }
+      ],
+      "status": "source_attested",
+      "interpretation_note": "本傳凱，《梁書》抃，《宋書》覬；依吳郡和鎮軍、湘州任事對讀。",
+      "reviewer": "Codex（AI代理）",
+      "model": null,
+      "human_reviewed": false
+    },
+    {
       "id": "a-song092-gujizhi-father",
       "subject_person_id": "i9w_mm6_m7t_*AAA",
       "object_person_id": "i9w_mm6_m7t_*AA",
@@ -275,15 +364,115 @@
     }
   ],
   "related_people": {
+    "7py_wlx_j2z": "顧憲之（字士思，吳郡人）",
     "i9w_mm6_m7t_*AA": "顧黃老（司徒左西掾）",
     "i9w_mm6_m7t_*AAA": "顧覬之（字偉仁，山陰令）"
   },
   "dates": [],
   "name_components": [],
+  "source_reading_cases": [
+    {
+      "id": "c-nanqishu-046-guxianzhi-complete:source_review1-0",
+      "kind": "source_review",
+      "person_id": "i9w_mm6_m7t_*AAA",
+      "source_quote": "　　同郡顧憲之，字士思，宋鎮南將軍凱之孫也。性尤清直。永明六年，爲隨王東中郎長史、行會稽郡事。時西陵戍主杜元懿啓：「吳興無秋，會稽豐登，商旅往來，倍多常歲。西陵牛埭稅，官格日三千五百，元懿如卽所見，日可一倍，盈縮相兼，略計年長百萬。浦陽南北津及柳浦四埭，乞爲官領攝，一年格外長四百許萬。西陵戍前檢稅，無妨戍事，餘三埭自舉腹心。」世祖敕示會稽郡：「此詎是事？宜可訪察卽啓。」憲之議曰：",
+      "reading": "顧憲之字士思。數位與殿本作祖凱之、鎮南；《梁書》作抃之、鎮軍、湘州刺史。《宋書》顧覬之的湘州、追贈鎮軍及吳郡身分相合，字形各留。杜元懿請增埭稅，引議全文。",
+      "note": "顧憲之字士思。數位與殿本作祖凱之、鎮南；《梁書》作抃之、鎮軍、湘州刺史。《宋書》顧覬之的湘州、追贈鎮軍及吳郡身分相合，字形各留。杜元懿請增埭稅，引議全文。",
+      "paragraph_id": "c-nanqishu-046-guxianzhi-complete:p001",
+      "start_codepoint": 0,
+      "end_codepoint": 191,
+      "human_reviewed": false,
+      "chapter_id": "c-nanqishu-046-guxianzhi-complete",
+      "source_id": "s-nanqishu-046-guxianzhi-complete-ws1511897"
+    },
+    {
+      "id": "c-nanqishu-046-guxianzhi-complete:source_review2-0",
+      "kind": "source_review",
+      "person_id": "i9w_mm6_m7t_*AAA",
+      "source_quote": "　　尋始立牛埭之意，非苟逼僦以納稅也。當以風濤迅險，人力不捷，屢致膠溺，濟急利物耳。旣公私是樂，所以輸直無怨。京師航渡，卽其例也。而後之監領者，不達其本，各務己功，互生理外。或禁遏別道，或空稅江行，或撲船倍價，或力周而猶責，凡如此類，不經埭煩牛者上詳，被報格外十條，竝蒙停寢。從來諠訴，始得暫弭。案吳興頻歲失稔，今茲尤饉，去之從豐，良由饑棘。或徵貨貿粒，還拯親累。或提攜老弱，陳力餬口。埭司責稅，依格弗降。舊格新減，尚未議登，格外加倍，將以何術？皇慈恤隱，振廩蠲調，而元懿幸災搉利，重增困瘼，人而不仁，古今共疾。且比見加格置市者，前後相屬，非惟新加無贏，竝皆舊格猶闕。愚恐元懿今啓，亦當不殊。若事不副言，懼貽譴詰，便百方侵苦，爲公賈怨。元懿稟性苛刻，已彰往效，任以物土，譬以狼將羊，其所欲舉腹心，亦當虎而冠耳。書云：「與其有聚歛之臣，寧有盜臣。」此言盜公爲損蓋微，歛民所害乃大也。今雍熙在運，草木含澤，其非事宜，仰如聖旨。然掌斯任者，應簡廉平，廉則不竊於公，平則無害於民矣。愚又以便宜者，蓋謂便於公，宜於民也。竊見頃之言便宜者，非能於民力之外，用天分地者也。率皆卽日不宜於民，方來不便於公。名與實反，有乖政體。凡如此等，誠宜深察。",
+      "reading": "第一段議申原設牛埭為濟溺，使乘者得自選。原舊稅額、新加與止寢依文本保留。",
+      "note": "第一段議申原設牛埭為濟溺，使乘者得自選。原舊稅額、新加與止寢依文本保留。",
+      "paragraph_id": "c-nanqishu-046-guxianzhi-complete:p002",
+      "start_codepoint": 0,
+      "end_codepoint": 515,
+      "human_reviewed": false,
+      "chapter_id": "c-nanqishu-046-guxianzhi-complete",
+      "source_id": "s-nanqishu-046-guxianzhi-complete-ws1511897"
+    },
+    {
+      "id": "c-nanqishu-046-guxianzhi-complete:source_review3-0",
+      "kind": "source_review",
+      "person_id": "i9w_mm6_m7t_*AAA",
+      "source_quote": "　　山陰一縣，課戶二萬，其民貲不滿三千者，殆將居半，刻又刻之，猶且三分餘一。凡有貲者，多是士人復除。其貧極者，悉皆露戶役民。三五屬官，蓋惟分定，百端輸調，又則常然。比衆局檢校，首尾尋續，橫相質累者，亦復不少。一人被攝，十人相追；一緒裁萌，千櫱互起。蠶事弛而農業廢，賤取庸而貴舉責，應公贍私，日不暇給，欲無爲非，其可得乎？死且不憚，矧伊刑罰；身且不愛，何況妻子。是以前檢未窮，後巧復滋，網辟徒峻，猶不能悛。竊尋民之多偽，實由宋季軍旅繁興，役賦殷重，不堪勤劇，倚巧祈優，積習生常，遂迷忘反。四海之大，黎庶之衆，心用參差，難卒澄一。化宜以漸，不可疾責，誠存不擾，藏疾納汙，實增崇曠，務詳寬簡，則稍自歸淳。又被符簡，病前後年月久遠，具事不存，符旨旣嚴，不敢闇信。縣簡送郡，郡簡呈使，殊形詭狀，千變萬源。聞者忽不經懷，見者實足傷駭。兼親屬里伍，流離道路，時轉寒涸，事方未已。其士人婦女，彌難厝衷。不簡則疑其有巧，欲簡復未知所安。愚謂此條，宜委縣簡保，舉其綱領，略其毛目，乃囊漏，不出貯中，庶嬰疾沈痼者，重荷生造之恩也。",
+      "reading": "辨查財產、計戶、徵役及賞罰互相牽制，顧憲之反重課，仍以治政務詳寬簡為結。",
+      "note": "辨查財產、計戶、徵役及賞罰互相牽制，顧憲之反重課，仍以治政務詳寬簡為結。",
+      "paragraph_id": "c-nanqishu-046-guxianzhi-complete:p003",
+      "start_codepoint": 0,
+      "end_codepoint": 454,
+      "human_reviewed": false,
+      "chapter_id": "c-nanqishu-046-guxianzhi-complete",
+      "source_id": "s-nanqishu-046-guxianzhi-complete-ws1511897"
+    },
+    {
+      "id": "c-nanqishu-046-guxianzhi-complete:source_review4-0",
+      "kind": "source_review",
+      "person_id": "i9w_mm6_m7t_*AAA",
+      "source_quote": "　　又永興、諸暨離唐宇之寇擾，公私殘盡，彌復特甚。儻值水旱，實不易念。俗諺云：「會稽打鼓送卹，吳興步檐令史。」會稽舊稱沃壤，今猶若此；吳興本是塉土，事在可知。因循餘弊，誠宜改張。沿元懿今啓，敢陳管見。",
+      "reading": "議回應永興諸暨經唐宇之之亂，記百姓受害並回應杜元懿本次所請。諺語屬引語。",
+      "note": "議回應永興諸暨經唐宇之之亂，記百姓受害並回應杜元懿本次所請。諺語屬引語。",
+      "paragraph_id": "c-nanqishu-046-guxianzhi-complete:p004",
+      "start_codepoint": 0,
+      "end_codepoint": 100,
+      "human_reviewed": false,
+      "chapter_id": "c-nanqishu-046-guxianzhi-complete",
+      "source_id": "s-nanqishu-046-guxianzhi-complete-ws1511897"
+    },
+    {
+      "id": "c-nanqishu-046-guxianzhi-complete:source_review5-0",
+      "kind": "source_review",
+      "person_id": "i9w_mm6_m7t_*AAA",
+      "source_quote": "世祖竝從之。由是深以方直見委。仍行南豫、南兖二州事，籤典咨事，未嘗與色，動遵法制。歷黃門郎，吏部郎。永元中，爲豫章內史。",
+      "reading": "齊世祖從議。後顧憲之歷行州事及黃門、吏部，永元中任豫章內史，本篇止於此。",
+      "note": "齊世祖從議。後顧憲之歷行州事及黃門、吏部，永元中任豫章內史，本篇止於此。",
+      "paragraph_id": "c-nanqishu-046-guxianzhi-complete:p005",
+      "start_codepoint": 0,
+      "end_codepoint": 60,
+      "human_reviewed": false,
+      "chapter_id": "c-nanqishu-046-guxianzhi-complete",
+      "source_id": "s-nanqishu-046-guxianzhi-complete-ws1511897"
+    }
+  ],
   "person_ids": [
     "i9w_mm6_m7t_*AAA"
   ],
   "preferred_relations": [
+    {
+      "id": "a-qi046-guxianzhi-grandfather",
+      "subject_person_id": "7py_wlx_j2z",
+      "object_person_id": "i9w_mm6_m7t_*AAA",
+      "predicate": "grandfather",
+      "qualifiers": {
+        "source_term": "凱之孫也",
+        "lineage": "paternal"
+      },
+      "evidence": [
+        {
+          "work_id": "w-nanqishu",
+          "book_id": "b-nanqishu-046",
+          "chapter_id": "c-nanqishu-046-guxianzhi-complete",
+          "source_id": "s-nanqishu-046-guxianzhi-complete-ws1511897",
+          "paragraph_id": "c-nanqishu-046-guxianzhi-complete:p001",
+          "quote": "　　同郡顧憲之，字士思，宋鎮南將軍凱之孫也。性尤清直。永明六年，爲隨王東中郎長史、行會稽郡事。時西陵戍主杜元懿啓：「吳興無秋，會稽豐登，商旅往來，倍多常歲。西陵牛埭稅，官格日三千五百，元懿如卽所見，日可一倍，盈縮相兼，略計年長百萬。浦陽南北津及柳浦四埭，乞爲官領攝，一年格外長四百許萬。西陵戍前檢稅，無妨戍事，餘三埭自舉腹心。」世祖敕示會稽郡：「此詎是事？宜可訪察卽啓。」憲之議曰：",
+          "subject_person_mention_id": "c-nanqishu-046-guxianzhi-complete:p001:m0004",
+          "object_person_mention_id": "c-nanqishu-046-guxianzhi-complete:p001:m0017"
+        }
+      ],
+      "status": "source_attested",
+      "interpretation_note": "本傳凱，《梁書》抃，《宋書》覬；依吳郡和鎮軍、湘州任事對讀。",
+      "reviewer": "Codex（AI代理）",
+      "model": null,
+      "human_reviewed": false
+    },
     {
       "id": "a-song092-gujizhi-father",
       "subject_person_id": "i9w_mm6_m7t_*AAA",

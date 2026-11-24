@@ -131,6 +131,50 @@
       "chapter_id": "c-nanqishu-041-zhouyong-complete",
       "source_id": "s-nanqishu-041-zhouyong-complete-ws2044621",
       "work_title": "南齊書"
+    },
+    {
+      "number": 46,
+      "category": "",
+      "title": "南齊書卷四十六·蕭惠基、弈棊附敘、惠休與惠朗",
+      "paragraph_id": "c-nanqishu-046-xiaohuiji-complete:p003",
+      "count": 2,
+      "raw_count": 2,
+      "duplicate_count": 0,
+      "counting_policy": "independent_fixed_witness_occurrences",
+      "quote": "　　泰始初，兄益州刺史惠開拒命，明帝遣惠基奉使至蜀，宣旨慰勞。惠開降而益州土人反，引氐賊圍州城。惠基於外宣示朝廷威賞，於是氐人邵虎、郝天賜等斬賊帥馬興懷以降。還爲太子中舍人。惠基西使千餘部曲，竝欲論功，惠基毀除勳簿，競無所用。",
+      "paragraph_ids": [
+        "c-nanqishu-046-xiaohuiji-complete:p003"
+      ],
+      "mention_ids": [
+        "c-nanqishu-046-xiaohuiji-complete:p003:m0011",
+        "c-nanqishu-046-xiaohuiji-complete:p003:m0031"
+      ],
+      "mention_paragraph_ids": {
+        "c-nanqishu-046-xiaohuiji-complete:p003:m0011": "c-nanqishu-046-xiaohuiji-complete:p003",
+        "c-nanqishu-046-xiaohuiji-complete:p003:m0031": "c-nanqishu-046-xiaohuiji-complete:p003"
+      },
+      "mention_id": "c-nanqishu-046-xiaohuiji-complete:p003:m0011",
+      "occurrence_groups": [
+        {
+          "canonical_mention_id": "c-nanqishu-046-xiaohuiji-complete:p003:m0011",
+          "mention_ids": [
+            "c-nanqishu-046-xiaohuiji-complete:p003:m0011"
+          ],
+          "kind": "paragraph"
+        },
+        {
+          "canonical_mention_id": "c-nanqishu-046-xiaohuiji-complete:p003:m0031",
+          "mention_ids": [
+            "c-nanqishu-046-xiaohuiji-complete:p003:m0031"
+          ],
+          "kind": "paragraph"
+        }
+      ],
+      "work_id": "w-nanqishu",
+      "book_id": "b-nanqishu-046",
+      "chapter_id": "c-nanqishu-046-xiaohuiji-complete",
+      "source_id": "s-nanqishu-046-xiaohuiji-complete-ws1511897",
+      "work_title": "南齊書"
     }
   ],
   "table_occurrences": [],
@@ -160,10 +204,64 @@
           "source-evidence/nanqi041-roll/zhou-reading.json"
         ]
       }
+    },
+    {
+      "chapter_id": "c-nanqishu-046-xiaohuiji-complete",
+      "work_id": "w-nanqishu",
+      "book_id": "b-nanqishu-046",
+      "source_id": "s-nanqishu-046-xiaohuiji-complete-ws1511897",
+      "source": {
+        "title": "南齊書卷四十六·蕭惠基、弈棊附敘、惠休與惠朗",
+        "provider": "Wikisource",
+        "permalink": "https://zh.wikisource.org/w/index.php?oldid=1511897",
+        "url": "https://zh.wikisource.org/w/index.php?oldid=1511897",
+        "revision_id": 1511897,
+        "edition": "維基文庫固定修訂",
+        "accessed_on": "2026-11-21",
+        "review_status": "text_checked",
+        "image_verified": false,
+        "rights": "古代原文；數位轉錄依維基文庫授權。",
+        "license_url": "https://creativecommons.org/licenses/by-sa/4.0/",
+        "extent": "南齊書卷四十六·蕭惠基、弈棊附敘、惠休與惠朗",
+        "text_scope": "complete_biography_unit",
+        "raw_path": "sources/nanqishu/nanqishu046-ws1511897.wikitext",
+        "raw_file_sha256": "d109243a343e069b8ce98cb0607567b69305574aa59ecc8776b9ea70ca0fd537",
+        "collation_witnesses": [
+          "source-evidence/nanqi046-roll/xiao-reading.json"
+        ]
+      }
     }
   ],
-  "relations": [],
+  "relations": [
+    {
+      "id": "a-qi046-xiaohuiji-huikai",
+      "subject_person_id": "ph1_ms8_hyq_ABAA",
+      "object_person_id": "q3q_fgx_aqx",
+      "predicate": "brother",
+      "qualifiers": {
+        "source_term": "兄益州刺史惠開"
+      },
+      "evidence": [
+        {
+          "work_id": "w-nanqishu",
+          "book_id": "b-nanqishu-046",
+          "chapter_id": "c-nanqishu-046-xiaohuiji-complete",
+          "source_id": "s-nanqishu-046-xiaohuiji-complete-ws1511897",
+          "paragraph_id": "c-nanqishu-046-xiaohuiji-complete:p003",
+          "quote": "　　泰始初，兄益州刺史惠開拒命，明帝遣惠基奉使至蜀，宣旨慰勞。惠開降而益州土人反，引氐賊圍州城。惠基於外宣示朝廷威賞，於是氐人邵虎、郝天賜等斬賊帥馬興懷以降。還爲太子中舍人。惠基西使千餘部曲，竝欲論功，惠基毀除勳簿，競無所用。或問其此意，惠基曰：「我若論其此勞，則驅馳無已，豈吾素懷之本邪？」",
+          "subject_person_mention_id": "c-nanqishu-046-xiaohuiji-complete:p003:m0019",
+          "object_person_mention_id": "c-nanqishu-046-xiaohuiji-complete:p003:m0011"
+        }
+      ],
+      "status": "source_attested",
+      "interpretation_note": "原文以兄稱惠開。",
+      "reviewer": "Codex（AI代理）",
+      "model": null,
+      "human_reviewed": false
+    }
+  ],
   "related_people": {
+    "ph1_ms8_hyq_ABAA": "蕭惠基",
     "q3q_fgx_aqx": "蕭惠開（劉宋益州刺史）"
   },
   "dates": [],
@@ -171,7 +269,34 @@
   "person_ids": [
     "q3q_fgx_aqx"
   ],
-  "preferred_relations": [],
+  "preferred_relations": [
+    {
+      "id": "a-qi046-xiaohuiji-huikai",
+      "subject_person_id": "ph1_ms8_hyq_ABAA",
+      "object_person_id": "q3q_fgx_aqx",
+      "predicate": "brother",
+      "qualifiers": {
+        "source_term": "兄益州刺史惠開"
+      },
+      "evidence": [
+        {
+          "work_id": "w-nanqishu",
+          "book_id": "b-nanqishu-046",
+          "chapter_id": "c-nanqishu-046-xiaohuiji-complete",
+          "source_id": "s-nanqishu-046-xiaohuiji-complete-ws1511897",
+          "paragraph_id": "c-nanqishu-046-xiaohuiji-complete:p003",
+          "quote": "　　泰始初，兄益州刺史惠開拒命，明帝遣惠基奉使至蜀，宣旨慰勞。惠開降而益州土人反，引氐賊圍州城。惠基於外宣示朝廷威賞，於是氐人邵虎、郝天賜等斬賊帥馬興懷以降。還爲太子中舍人。惠基西使千餘部曲，竝欲論功，惠基毀除勳簿，競無所用。或問其此意，惠基曰：「我若論其此勞，則驅馳無已，豈吾素懷之本邪？」",
+          "subject_person_mention_id": "c-nanqishu-046-xiaohuiji-complete:p003:m0019",
+          "object_person_mention_id": "c-nanqishu-046-xiaohuiji-complete:p003:m0011"
+        }
+      ],
+      "status": "source_attested",
+      "interpretation_note": "原文以兄稱惠開。",
+      "reviewer": "Codex（AI代理）",
+      "model": null,
+      "human_reviewed": false
+    }
+  ],
   "age_assertions": [],
   "life_events": [],
   "life_event_date_decisions": [],
