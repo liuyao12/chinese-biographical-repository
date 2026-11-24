@@ -1,4 +1,4 @@
-"""Reconstruct the pinned Nanqishu 41 text while retaining explicitly encoded rare glyphs."""
+"""Reconstruct fixed Nanqishu text while retaining explicitly encoded rare glyphs."""
 import re
 
 try:
@@ -13,6 +13,12 @@ def decode_line(line, offset=0):
     annotations = []
     cursor = int(line.startswith(':　　'))
     while cursor < len(line):
+        if line.startswith('<ref>', cursor):
+            end = line.index('</ref>', cursor + 5)
+            annotations.append(dict(kind='數位校注', raw_start=offset + cursor,
+                                    raw_end=offset + end + 6, source=line[cursor + 5:end]))
+            cursor = end + 6
+            continue
         if line.startswith('{{', cursor):
             end = bounds(line, cursor)
             token = line[cursor + 2:end - 2]
