@@ -6,7 +6,9 @@
   "identity_note": "本卷具體來源身份；新號只表示暫分，非斷言與他篇必為異人。",
   "review": "ai_provisional",
   "names": [
-    "卞粹"
+    "卞粹",
+    "粹",
+    "玄仁"
   ],
   "titles": [],
   "addresses": [],
@@ -185,6 +187,59 @@
       "chapter_id": "c-jinshu-059-yi",
       "source_id": "s-jinshu-059-ws2650517-yi",
       "work_title": "晉書"
+    },
+    {
+      "number": 70,
+      "category": "",
+      "title": "晉書卷七十·卞壼",
+      "paragraph_id": "c-jinshu-070-bianhu:p001",
+      "count": 3,
+      "raw_count": 3,
+      "duplicate_count": 0,
+      "counting_policy": "independent_fixed_witness_occurrences",
+      "quote": "卞壼字望之，濟陰冤句人也。祖統，琅邪內史。父粹，以清辯鑒察稱。兄弟六人並登宰府，世稱「卞氏六龍，玄仁無雙」。玄仁，粹字也。弟裒，嘗忤其郡將。郡將怒訐其門內之私，粹遂以不訓見譏議，陵遲積年。惠帝初，爲尚書郎。楊駿執政，人多附會，而粹正直不阿。及駿誅",
+      "paragraph_ids": [
+        "c-jinshu-070-bianhu:p001"
+      ],
+      "mention_ids": [
+        "c-jinshu-070-bianhu:p001:m0022",
+        "c-jinshu-070-bianhu:p001:m0048",
+        "c-jinshu-070-bianhu:p001:m0054"
+      ],
+      "mention_paragraph_ids": {
+        "c-jinshu-070-bianhu:p001:m0022": "c-jinshu-070-bianhu:p001",
+        "c-jinshu-070-bianhu:p001:m0048": "c-jinshu-070-bianhu:p001",
+        "c-jinshu-070-bianhu:p001:m0054": "c-jinshu-070-bianhu:p001"
+      },
+      "mention_id": "c-jinshu-070-bianhu:p001:m0022",
+      "occurrence_groups": [
+        {
+          "canonical_mention_id": "c-jinshu-070-bianhu:p001:m0022",
+          "mention_ids": [
+            "c-jinshu-070-bianhu:p001:m0022"
+          ],
+          "kind": "paragraph"
+        },
+        {
+          "canonical_mention_id": "c-jinshu-070-bianhu:p001:m0048",
+          "mention_ids": [
+            "c-jinshu-070-bianhu:p001:m0048"
+          ],
+          "kind": "paragraph"
+        },
+        {
+          "canonical_mention_id": "c-jinshu-070-bianhu:p001:m0054",
+          "mention_ids": [
+            "c-jinshu-070-bianhu:p001:m0054"
+          ],
+          "kind": "paragraph"
+        }
+      ],
+      "work_id": "w-jinshu",
+      "book_id": "b-jinshu-070",
+      "chapter_id": "c-jinshu-070-bianhu",
+      "source_id": "s-jinshu-070-bianhu-ws2595540",
+      "work_title": "晉書"
     }
   ],
   "table_occurrences": [],
@@ -319,18 +374,115 @@
           "extraction_note": "展開維基連結與YL顯示字、移除quote及粗體控制字；完整數位ref註獨立留原raw位置，不作傳世正文；無校字。"
         }
       }
+    },
+    {
+      "chapter_id": "c-jinshu-070-bianhu",
+      "work_id": "w-jinshu",
+      "book_id": "b-jinshu-070",
+      "source_id": "s-jinshu-070-bianhu-ws2595540",
+      "source": {
+        "title": "晉書卷七十·卞壼",
+        "provider": "Wikisource",
+        "permalink": "https://zh.wikisource.org/w/index.php?oldid=2595540",
+        "url": "https://zh.wikisource.org/w/index.php?oldid=2595540",
+        "revision_id": 2595540,
+        "edition": "維基文庫固定修訂",
+        "accessed_on": "2026-11-22",
+        "review_status": "text_checked",
+        "image_verified": false,
+        "rights": "古代原文；數位轉錄依維基文庫授權。",
+        "license_url": "https://creativecommons.org/licenses/by-sa/4.0/",
+        "extent": "晉書卷七十·卞壼",
+        "text_scope": "complete_biography_unit",
+        "raw_path": "source-evidence/jin070-roll/ws2595540.wikitext",
+        "raw_file_sha256": "404f84e84c40bc9d73f119d4049da370e53bc396f97804ab30ee306783dd9ef5",
+        "collation_witnesses": [
+          "source-evidence/jin070-roll/volume-reading.json"
+        ]
+      }
     }
   ],
-  "relations": [],
+  "relations": [
+    {
+      "id": "a-jin070-biancui-father",
+      "subject_person_id": "4z4_ujq_8yo",
+      "object_person_id": "nux_k6o_mxn",
+      "predicate": "father",
+      "qualifiers": {
+        "source_term": "父粹，以清辯鑒察稱"
+      },
+      "evidence": [
+        {
+          "work_id": "w-jinshu",
+          "book_id": "b-jinshu-070",
+          "chapter_id": "c-jinshu-070-bianhu",
+          "source_id": "s-jinshu-070-bianhu-ws2595540",
+          "paragraph_id": "c-jinshu-070-bianhu:p001",
+          "quote": "卞壼字望之，濟陰冤句人也。祖統，琅邪內史。父粹，以清辯鑒察稱。兄弟六人並登宰府，世稱「卞氏六龍，玄仁無雙」。玄仁，粹字也。弟裒，嘗忤其郡將。郡將怒訐其門內之私，粹遂以不訓見譏議，陵遲積年。惠帝初，爲尚書郎。楊駿執政，人多附會，而粹正直不阿。及駿誅，超拜右丞，封成陽子，稍遷至右軍將軍。張華之誅，粹以華婿免官。齊王冏輔政，爲侍中、中書令，進爵爲公。及長沙王乂專權，粹立朝正色，乂忌而害之。初，粹如廁，見物若兩眼，俄而難作。",
+          "subject_person_mention_id": "c-jinshu-070-bianhu:p001:m0000",
+          "object_person_mention_id": "c-jinshu-070-bianhu:p001:m0022"
+        }
+      ],
+      "status": "source_attested",
+      "interpretation_note": "原文父粹。",
+      "reviewer": "Codex（AI代理）",
+      "model": null,
+      "human_reviewed": false
+    }
+  ],
   "related_people": {
+    "4z4_ujq_8yo": "卞壼〔本紀來源局部〕",
     "nux_k6o_mxn": "卞粹〔中書令，顒遣襲乂者〕"
   },
   "dates": [],
   "name_components": [],
+  "source_reading_cases": [
+    {
+      "id": "c-jinshu-070-bianhu:kinship1-142",
+      "kind": "kinship",
+      "person_id": "nux_k6o_mxn",
+      "source_quote": "張華之誅，粹以華婿免官",
+      "reading": "華女姓名待考。",
+      "note": "華女姓名待考。",
+      "paragraph_id": "c-jinshu-070-bianhu:p001",
+      "start_codepoint": 142,
+      "end_codepoint": 153,
+      "human_reviewed": false,
+      "chapter_id": "c-jinshu-070-bianhu",
+      "source_id": "s-jinshu-070-bianhu-ws2595540"
+    }
+  ],
   "person_ids": [
     "nux_k6o_mxn"
   ],
-  "preferred_relations": [],
+  "preferred_relations": [
+    {
+      "id": "a-jin070-biancui-father",
+      "subject_person_id": "4z4_ujq_8yo",
+      "object_person_id": "nux_k6o_mxn",
+      "predicate": "father",
+      "qualifiers": {
+        "source_term": "父粹，以清辯鑒察稱"
+      },
+      "evidence": [
+        {
+          "work_id": "w-jinshu",
+          "book_id": "b-jinshu-070",
+          "chapter_id": "c-jinshu-070-bianhu",
+          "source_id": "s-jinshu-070-bianhu-ws2595540",
+          "paragraph_id": "c-jinshu-070-bianhu:p001",
+          "quote": "卞壼字望之，濟陰冤句人也。祖統，琅邪內史。父粹，以清辯鑒察稱。兄弟六人並登宰府，世稱「卞氏六龍，玄仁無雙」。玄仁，粹字也。弟裒，嘗忤其郡將。郡將怒訐其門內之私，粹遂以不訓見譏議，陵遲積年。惠帝初，爲尚書郎。楊駿執政，人多附會，而粹正直不阿。及駿誅，超拜右丞，封成陽子，稍遷至右軍將軍。張華之誅，粹以華婿免官。齊王冏輔政，爲侍中、中書令，進爵爲公。及長沙王乂專權，粹立朝正色，乂忌而害之。初，粹如廁，見物若兩眼，俄而難作。",
+          "subject_person_mention_id": "c-jinshu-070-bianhu:p001:m0000",
+          "object_person_mention_id": "c-jinshu-070-bianhu:p001:m0022"
+        }
+      ],
+      "status": "source_attested",
+      "interpretation_note": "原文父粹。",
+      "reviewer": "Codex（AI代理）",
+      "model": null,
+      "human_reviewed": false
+    }
+  ],
   "age_assertions": [],
   "life_events": [
     {

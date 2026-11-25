@@ -12,6 +12,41 @@
   "addresses": [],
   "occurrences": [
     {
+      "number": 64,
+      "category": "",
+      "title": "晉書卷六十四·司馬道子",
+      "paragraph_id": "c-jinshu-064-simadaozi:p015",
+      "count": 1,
+      "raw_count": 1,
+      "duplicate_count": 0,
+      "counting_policy": "independent_fixed_witness_occurrences",
+      "quote": "大軍將發，玄從兄驃騎長史石生馳使告玄。玄進次尋陽，傳檄京師，罪狀元顯。俄而玄至西陽，帝戎服餞元顯于西池，始登舟而玄至新亭。元顯棄船退屯國子學堂。明日，列陣于宣陽門外，元顯佐吏多散走。或言玄已至大桁，劉牢之遂降于玄。元顯回入宣陽門",
+      "paragraph_ids": [
+        "c-jinshu-064-simadaozi:p015"
+      ],
+      "mention_ids": [
+        "c-jinshu-064-simadaozi:p015:m0012"
+      ],
+      "mention_paragraph_ids": {
+        "c-jinshu-064-simadaozi:p015:m0012": "c-jinshu-064-simadaozi:p015"
+      },
+      "mention_id": "c-jinshu-064-simadaozi:p015:m0012",
+      "occurrence_groups": [
+        {
+          "canonical_mention_id": "c-jinshu-064-simadaozi:p015:m0012",
+          "mention_ids": [
+            "c-jinshu-064-simadaozi:p015:m0012"
+          ],
+          "kind": "paragraph"
+        }
+      ],
+      "work_id": "w-jinshu",
+      "book_id": "b-jinshu-064",
+      "chapter_id": "c-jinshu-064-simadaozi",
+      "source_id": "s-jinshu-064-simadaozi-ws2622004",
+      "work_title": "晉書"
+    },
+    {
       "number": 74,
       "category": "",
       "title": "桓彝及附桓氏家族完整單元",
@@ -114,6 +149,32 @@
   "table_occurrences": [],
   "sources": [
     {
+      "chapter_id": "c-jinshu-064-simadaozi",
+      "work_id": "w-jinshu",
+      "book_id": "b-jinshu-064",
+      "source_id": "s-jinshu-064-simadaozi-ws2622004",
+      "source": {
+        "title": "晉書卷六十四·司馬道子",
+        "provider": "Wikisource",
+        "permalink": "https://zh.wikisource.org/w/index.php?oldid=2622004",
+        "url": "https://zh.wikisource.org/w/index.php?oldid=2622004",
+        "revision_id": 2622004,
+        "edition": "維基文庫固定修訂",
+        "accessed_on": "2026-11-22",
+        "review_status": "text_checked",
+        "image_verified": false,
+        "rights": "古代原文；數位轉錄依維基文庫授權。",
+        "license_url": "https://creativecommons.org/licenses/by-sa/4.0/",
+        "extent": "晉書卷六十四·司馬道子",
+        "text_scope": "complete_biography_unit",
+        "raw_path": "source-evidence/jin064-roll/ws2622004.wikitext",
+        "raw_file_sha256": "b4c389968a1af2d99c2a6ad4a8afa3e6a4706f845194c0ce283f41927afae31f",
+        "collation_witnesses": [
+          "source-evidence/jin064-roll/volume-reading.json"
+        ]
+      }
+    },
+    {
       "chapter_id": "c-jinshu-074-huan-family",
       "work_id": "w-jinshu",
       "book_id": "b-jinshu-074",
@@ -178,6 +239,32 @@
   ],
   "relations": [
     {
+      "id": "a-jin064-shisheng-cousin",
+      "subject_person_id": "u9s_w6j_8mc_ACD",
+      "object_person_id": "u9s_w6j_8mc_AAF",
+      "predicate": "agnatic_cousin",
+      "qualifiers": {
+        "source_term": "玄從兄驃騎長史石生"
+      },
+      "evidence": [
+        {
+          "work_id": "w-jinshu",
+          "book_id": "b-jinshu-064",
+          "chapter_id": "c-jinshu-064-simadaozi",
+          "source_id": "s-jinshu-064-simadaozi-ws2622004",
+          "paragraph_id": "c-jinshu-064-simadaozi:p015",
+          "quote": "大軍將發，玄從兄驃騎長史石生馳使告玄。玄進次尋陽，傳檄京師，罪狀元顯。俄而玄至西陽，帝戎服餞元顯于西池，始登舟而玄至新亭。元顯棄船退屯國子學堂。明日，列陣于宣陽門外，元顯佐吏多散走。或言玄已至大桁，劉牢之遂降于玄。元顯回入宣陽門，牢之參軍張暢之率眾遂之，眾潰。元顯奔入相府，唯張法順隨之。問計于道子，道子對之泣。玄遣太傅從事中郎毛泰收元顯送於新亭，縛於舫前而數之。元顯答曰：「為王誕、張法順所誤。」於是送付廷尉，並其六子皆害之。玄又奏：「道子酣縱不孝，當棄市。」詔徒安成郡，使御史杜竹林防衛，竟承玄旨酖殺之，時年三十九。帝三日哭於西堂。",
+          "subject_person_mention_id": "c-jinshu-064-simadaozi:p015:m0012",
+          "object_person_mention_id": "c-jinshu-064-simadaozi:p015:m0005"
+        }
+      ],
+      "status": "source_attested",
+      "interpretation_note": "從兄為同宗，未由此補兩人父名。",
+      "reviewer": "Codex（AI代理）",
+      "model": null,
+      "human_reviewed": false
+    },
+    {
       "id": "a-huan-close-010",
       "subject_person_id": "u9s_w6j_8mc_ACD",
       "predicate": "father",
@@ -205,6 +292,7 @@
     }
   ],
   "related_people": {
+    "u9s_w6j_8mc_AAF": "桓玄",
     "u9s_w6j_8mc_AC": "桓豁",
     "u9s_w6j_8mc_ACD": "桓石生"
   },
@@ -214,6 +302,32 @@
     "u9s_w6j_8mc_ACD"
   ],
   "preferred_relations": [
+    {
+      "id": "a-jin064-shisheng-cousin",
+      "subject_person_id": "u9s_w6j_8mc_ACD",
+      "object_person_id": "u9s_w6j_8mc_AAF",
+      "predicate": "agnatic_cousin",
+      "qualifiers": {
+        "source_term": "玄從兄驃騎長史石生"
+      },
+      "evidence": [
+        {
+          "work_id": "w-jinshu",
+          "book_id": "b-jinshu-064",
+          "chapter_id": "c-jinshu-064-simadaozi",
+          "source_id": "s-jinshu-064-simadaozi-ws2622004",
+          "paragraph_id": "c-jinshu-064-simadaozi:p015",
+          "quote": "大軍將發，玄從兄驃騎長史石生馳使告玄。玄進次尋陽，傳檄京師，罪狀元顯。俄而玄至西陽，帝戎服餞元顯于西池，始登舟而玄至新亭。元顯棄船退屯國子學堂。明日，列陣于宣陽門外，元顯佐吏多散走。或言玄已至大桁，劉牢之遂降于玄。元顯回入宣陽門，牢之參軍張暢之率眾遂之，眾潰。元顯奔入相府，唯張法順隨之。問計于道子，道子對之泣。玄遣太傅從事中郎毛泰收元顯送於新亭，縛於舫前而數之。元顯答曰：「為王誕、張法順所誤。」於是送付廷尉，並其六子皆害之。玄又奏：「道子酣縱不孝，當棄市。」詔徒安成郡，使御史杜竹林防衛，竟承玄旨酖殺之，時年三十九。帝三日哭於西堂。",
+          "subject_person_mention_id": "c-jinshu-064-simadaozi:p015:m0012",
+          "object_person_mention_id": "c-jinshu-064-simadaozi:p015:m0005"
+        }
+      ],
+      "status": "source_attested",
+      "interpretation_note": "從兄為同宗，未由此補兩人父名。",
+      "reviewer": "Codex（AI代理）",
+      "model": null,
+      "human_reviewed": false
+    },
     {
       "id": "a-huan-close-010",
       "subject_person_id": "u9s_w6j_8mc_ACD",

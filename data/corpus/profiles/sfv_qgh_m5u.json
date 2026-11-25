@@ -45,6 +45,60 @@
       "chapter_id": "c-jinshu-059-prince-yue",
       "source_id": "s-jinshu-059-prince-yue-ws2650517",
       "work_title": "晉書"
+    },
+    {
+      "number": 61,
+      "category": "",
+      "title": "晉書卷六十一·劉喬",
+      "paragraph_id": "c-jinshu-061-liuqiao:p004",
+      "count": 3,
+      "raw_count": 3,
+      "duplicate_count": 0,
+      "counting_policy": "independent_fixed_witness_occurrences",
+      "quote": "喬復收散卒，屯于平氏，河間王顒進喬鎮東將軍、假節，以其長子祐為東郡太守，又遣劉弘、劉准、彭城王釋等率兵援喬。弘與喬箋曰：「適承范陽欲代明使君。明使君受命本朝，列居方伯，當官而行，同獎王室，橫見遷代，誠為不允。然古人有言，牽牛以蹊人之田，信有罪矣，而奪之牛，罰亦",
+      "paragraph_ids": [
+        "c-jinshu-061-liuqiao:p004",
+        "c-jinshu-061-liuqiao:p006"
+      ],
+      "mention_ids": [
+        "c-jinshu-061-liuqiao:p004:m0029",
+        "c-jinshu-061-liuqiao:p006:m0052",
+        "c-jinshu-061-liuqiao:p006:m0086"
+      ],
+      "mention_paragraph_ids": {
+        "c-jinshu-061-liuqiao:p004:m0029": "c-jinshu-061-liuqiao:p004",
+        "c-jinshu-061-liuqiao:p006:m0052": "c-jinshu-061-liuqiao:p006",
+        "c-jinshu-061-liuqiao:p006:m0086": "c-jinshu-061-liuqiao:p006"
+      },
+      "mention_id": "c-jinshu-061-liuqiao:p004:m0029",
+      "occurrence_groups": [
+        {
+          "canonical_mention_id": "c-jinshu-061-liuqiao:p004:m0029",
+          "mention_ids": [
+            "c-jinshu-061-liuqiao:p004:m0029"
+          ],
+          "kind": "paragraph"
+        },
+        {
+          "canonical_mention_id": "c-jinshu-061-liuqiao:p006:m0052",
+          "mention_ids": [
+            "c-jinshu-061-liuqiao:p006:m0052"
+          ],
+          "kind": "paragraph"
+        },
+        {
+          "canonical_mention_id": "c-jinshu-061-liuqiao:p006:m0086",
+          "mention_ids": [
+            "c-jinshu-061-liuqiao:p006:m0086"
+          ],
+          "kind": "paragraph"
+        }
+      ],
+      "work_id": "w-jinshu",
+      "book_id": "b-jinshu-061",
+      "chapter_id": "c-jinshu-061-liuqiao",
+      "source_id": "s-jinshu-061-liuqiao-ws7903772",
+      "work_title": "晉書"
     }
   ],
   "table_occurrences": [],
@@ -74,6 +128,32 @@
           "source-evidence/jin059-roll/volume-reading.json"
         ]
       }
+    },
+    {
+      "chapter_id": "c-jinshu-061-liuqiao",
+      "work_id": "w-jinshu",
+      "book_id": "b-jinshu-061",
+      "source_id": "s-jinshu-061-liuqiao-ws7903772",
+      "source": {
+        "title": "晉書卷六十一·劉喬",
+        "provider": "Wikisource",
+        "permalink": "https://zh.wikisource.org/w/index.php?oldid=7903772",
+        "url": "https://zh.wikisource.org/w/index.php?oldid=7903772",
+        "revision_id": 7903772,
+        "edition": "維基文庫固定修訂",
+        "accessed_on": "2026-11-22",
+        "review_status": "text_checked",
+        "image_verified": false,
+        "rights": "古代原文；數位轉錄依維基文庫授權。",
+        "license_url": "https://creativecommons.org/licenses/by-sa/4.0/",
+        "extent": "晉書卷六十一·劉喬",
+        "text_scope": "complete_biography_unit",
+        "raw_path": "source-evidence/jin061-roll/ws7903772.wikitext",
+        "raw_file_sha256": "6e28403fc85f551b2aab898cac610180884ba0732a24a492f8ca514381b9978d",
+        "collation_witnesses": [
+          "source-evidence/jin061-roll/volume-reading.json"
+        ]
+      }
     }
   ],
   "relations": [
@@ -99,6 +179,32 @@
       ],
       "status": "source_attested",
       "interpretation_note": "祐奉父命拒越，與汝南王祐異人。",
+      "reviewer": "Codex（AI代理）",
+      "model": null,
+      "human_reviewed": false
+    },
+    {
+      "id": "a-jin061-liuyou-father",
+      "subject_person_id": "sfv_qgh_m5u",
+      "object_person_id": "7xd_7vq_fwl",
+      "predicate": "father",
+      "qualifiers": {
+        "source_term": "其長子祐"
+      },
+      "evidence": [
+        {
+          "work_id": "w-jinshu",
+          "book_id": "b-jinshu-061",
+          "chapter_id": "c-jinshu-061-liuqiao",
+          "source_id": "s-jinshu-061-liuqiao-ws7903772",
+          "paragraph_id": "c-jinshu-061-liuqiao:p004",
+          "quote": "喬復收散卒，屯于平氏，河間王顒進喬鎮東將軍、假節，以其長子祐為東郡太守，又遣劉弘、劉准、彭城王釋等率兵援喬。弘與喬箋曰：「適承范陽欲代明使君。明使君受命本朝，列居方伯，當官而行，同獎王室，橫見遷代，誠為不允。然古人有言，牽牛以蹊人之田，信有罪矣，而奪之牛，罰亦重矣。明使君不忍亮直狷介之忿，甘為戎首，竊以為過。何者？至人之道，用行舍藏。跨下之辱，猶宜俯就，況於換代之嫌，纖介之釁哉！范陽國屬，使君庶姓，周之宗盟，疏不間親，曲直既均，責有所在。廉藺區區戰國之將，猶能升降以利社稷，況命世之士哉！今天下紛紜，主上播越，正是忠臣義士同心戮力之時。弘實暗劣，過蒙國恩，願與使君共戴盟主，雁行下風，掃除凶寇，救蒼生之倒懸，反北辰於太極。此功未立，不宜乖離。備蒙顧遇，情隆于常，披露丹誠，不敢不盡。春秋之時，諸侯相伐，復為和親者多矣。願明使君回既往之恨，追不二之蹤，解連環之結，修如初之好。范陽亦將悔前之失，思崇後信矣。",
+          "subject_person_mention_id": "c-jinshu-061-liuqiao:p004:m0029",
+          "object_person_mention_id": "c-jinshu-061-liuqiao:p004:m0000"
+        }
+      ],
+      "status": "source_attested",
+      "interpretation_note": "長子祐。",
       "reviewer": "Codex（AI代理）",
       "model": null,
       "human_reviewed": false
@@ -139,10 +245,66 @@
       "reviewer": "Codex（AI代理）",
       "model": null,
       "human_reviewed": false
+    },
+    {
+      "id": "a-jin061-liuyou-father",
+      "subject_person_id": "sfv_qgh_m5u",
+      "object_person_id": "7xd_7vq_fwl",
+      "predicate": "father",
+      "qualifiers": {
+        "source_term": "其長子祐"
+      },
+      "evidence": [
+        {
+          "work_id": "w-jinshu",
+          "book_id": "b-jinshu-061",
+          "chapter_id": "c-jinshu-061-liuqiao",
+          "source_id": "s-jinshu-061-liuqiao-ws7903772",
+          "paragraph_id": "c-jinshu-061-liuqiao:p004",
+          "quote": "喬復收散卒，屯于平氏，河間王顒進喬鎮東將軍、假節，以其長子祐為東郡太守，又遣劉弘、劉准、彭城王釋等率兵援喬。弘與喬箋曰：「適承范陽欲代明使君。明使君受命本朝，列居方伯，當官而行，同獎王室，橫見遷代，誠為不允。然古人有言，牽牛以蹊人之田，信有罪矣，而奪之牛，罰亦重矣。明使君不忍亮直狷介之忿，甘為戎首，竊以為過。何者？至人之道，用行舍藏。跨下之辱，猶宜俯就，況於換代之嫌，纖介之釁哉！范陽國屬，使君庶姓，周之宗盟，疏不間親，曲直既均，責有所在。廉藺區區戰國之將，猶能升降以利社稷，況命世之士哉！今天下紛紜，主上播越，正是忠臣義士同心戮力之時。弘實暗劣，過蒙國恩，願與使君共戴盟主，雁行下風，掃除凶寇，救蒼生之倒懸，反北辰於太極。此功未立，不宜乖離。備蒙顧遇，情隆于常，披露丹誠，不敢不盡。春秋之時，諸侯相伐，復為和親者多矣。願明使君回既往之恨，追不二之蹤，解連環之結，修如初之好。范陽亦將悔前之失，思崇後信矣。",
+          "subject_person_mention_id": "c-jinshu-061-liuqiao:p004:m0029",
+          "object_person_mention_id": "c-jinshu-061-liuqiao:p004:m0000"
+        }
+      ],
+      "status": "source_attested",
+      "interpretation_note": "長子祐。",
+      "reviewer": "Codex（AI代理）",
+      "model": null,
+      "human_reviewed": false
     }
   ],
   "age_assertions": [],
-  "life_events": [],
+  "life_events": [
+    {
+      "id": "le-jin061-liuyou-death",
+      "person_id": "sfv_qgh_m5u",
+      "event_type": "death",
+      "source_term": "眾潰見殺",
+      "source_anchor": {
+        "paragraph_id": "c-jinshu-061-liuqiao:p006",
+        "start": 88,
+        "end": 92,
+        "surface": "眾潰見殺"
+      },
+      "date_expression": null,
+      "evidence": [
+        {
+          "work_id": "w-jinshu",
+          "book_id": "b-jinshu-061",
+          "chapter_id": "c-jinshu-061-liuqiao",
+          "source_id": "s-jinshu-061-liuqiao-ws7903772",
+          "paragraph_id": "c-jinshu-061-liuqiao:p006",
+          "quote": "時河間王顒方距關東，倚喬為助，不納其言。東海王越移檄天下，帥甲士三萬，將入關迎大駕，軍次於蕭，喬懼，遣子祐距越于蕭縣之靈壁。劉琨分兵向許昌，許昌人納之。琨自滎陽率兵迎越，遇祐，眾潰見殺。喬眾遂散，與五百騎奔平氏。帝還洛陽，大赦，越復表喬為太傅軍諮祭酒。越薨，復以喬為都督豫州諸軍事、鎮東將軍、豫州刺史。卒于官，時年六十三。湣帝末，追贈司空。子挺，潁川太守。挺子耽。",
+          "person_mention_id": "c-jinshu-061-liuqiao:p006:m0052"
+        }
+      ],
+      "status": "source_attested",
+      "interpretation_note": "按同段人物與次第核所屬卒事。",
+      "reviewer": "Codex（AI代理）",
+      "model": null,
+      "human_reviewed": false
+    }
+  ],
   "life_event_date_decisions": [],
   "selected_life_event_dates": []
 }

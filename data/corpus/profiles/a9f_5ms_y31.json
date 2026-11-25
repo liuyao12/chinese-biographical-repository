@@ -6,7 +6,8 @@
   "identity_note": null,
   "review": "ai_provisional",
   "names": [
-    "陳恢"
+    "陳恢",
+    "恢"
   ],
   "titles": [],
   "addresses": [],
@@ -56,6 +57,41 @@
       "work_title": "史記"
     },
     {
+      "number": 66,
+      "category": "",
+      "title": "晉書卷六十六·陶侃",
+      "paragraph_id": "c-jinshu-066-taokan:p004",
+      "count": 1,
+      "raw_count": 1,
+      "duplicate_count": 0,
+      "counting_policy": "independent_fixed_witness_occurrences",
+      "quote": "，弘以侃為江夏太守，加鷹揚將軍。侃備威儀，迎母官舍，鄉里榮之。敏遣其弟恢來寇武昌，侃出兵禦之。隨郡內史扈瑰間侃於弘曰：「侃與敏有鄉里之舊，居大郡，統強兵，脫有異志，則荊州無東門矣。」弘曰：「侃之忠能，吾得之已久，豈有是乎！」侃潛聞之，遽遣子洪及兄子臻詣弘以自固。弘引為參軍",
+      "paragraph_ids": [
+        "c-jinshu-066-taokan:p004"
+      ],
+      "mention_ids": [
+        "c-jinshu-066-taokan:p004:m0039"
+      ],
+      "mention_paragraph_ids": {
+        "c-jinshu-066-taokan:p004:m0039": "c-jinshu-066-taokan:p004"
+      },
+      "mention_id": "c-jinshu-066-taokan:p004:m0039",
+      "occurrence_groups": [
+        {
+          "canonical_mention_id": "c-jinshu-066-taokan:p004:m0039",
+          "mention_ids": [
+            "c-jinshu-066-taokan:p004:m0039"
+          ],
+          "kind": "paragraph"
+        }
+      ],
+      "work_id": "w-jinshu",
+      "book_id": "b-jinshu-066",
+      "chapter_id": "c-jinshu-066-taokan",
+      "source_id": "s-jinshu-066-taokan-ws1527632",
+      "work_title": "晉書"
+    },
+    {
       "number": 76,
       "category": "",
       "title": "虞潭傳",
@@ -93,6 +129,32 @@
   ],
   "table_occurrences": [],
   "sources": [
+    {
+      "chapter_id": "c-jinshu-066-taokan",
+      "work_id": "w-jinshu",
+      "book_id": "b-jinshu-066",
+      "source_id": "s-jinshu-066-taokan-ws1527632",
+      "source": {
+        "title": "晉書卷六十六·陶侃",
+        "provider": "Wikisource",
+        "permalink": "https://zh.wikisource.org/w/index.php?oldid=1527632",
+        "url": "https://zh.wikisource.org/w/index.php?oldid=1527632",
+        "revision_id": 1527632,
+        "edition": "維基文庫固定修訂",
+        "accessed_on": "2026-11-22",
+        "review_status": "text_checked",
+        "image_verified": false,
+        "rights": "古代原文；數位轉錄依維基文庫授權。",
+        "license_url": "https://creativecommons.org/licenses/by-sa/4.0/",
+        "extent": "晉書卷六十六·陶侃",
+        "text_scope": "complete_biography_unit",
+        "raw_path": "source-evidence/jin066-roll/ws1527632.wikitext",
+        "raw_file_sha256": "6cddc694d426567aad52b2183afd501d71adab778675ef7b91850801a4ced3aa",
+        "collation_witnesses": [
+          "source-evidence/jin066-roll/volume-reading.json"
+        ]
+      }
+    },
     {
       "chapter_id": "c-jinshu-076-yutan",
       "work_id": "w-jinshu",
@@ -148,16 +210,71 @@
       }
     }
   ],
-  "relations": [],
+  "relations": [
+    {
+      "id": "a-jin066-chenhui-brother",
+      "subject_person_id": "a9f_5ms_y31",
+      "object_person_id": "kok_m7n_tux",
+      "predicate": "brother",
+      "qualifiers": {
+        "source_term": "敏遣其弟恢"
+      },
+      "evidence": [
+        {
+          "work_id": "w-jinshu",
+          "book_id": "b-jinshu-066",
+          "chapter_id": "c-jinshu-066-taokan",
+          "source_id": "s-jinshu-066-taokan-ws1527632",
+          "paragraph_id": "c-jinshu-066-taokan:p004",
+          "quote": "陳敏之亂，弘以侃為江夏太守，加鷹揚將軍。侃備威儀，迎母官舍，鄉里榮之。敏遣其弟恢來寇武昌，侃出兵禦之。隨郡內史扈瑰間侃於弘曰：「侃與敏有鄉里之舊，居大郡，統強兵，脫有異志，則荊州無東門矣。」弘曰：「侃之忠能，吾得之已久，豈有是乎！」侃潛聞之，遽遣子洪及兄子臻詣弘以自固。弘引為參軍，資而遣之。又加侃為督護，使與諸軍並力距恢。侃乃以運船為戰艦，或言不可，侃曰：「用官物討官賊，但須列上有本末耳。」於是擊恢，所向必破。侃戎政齊肅，凡有虜獲，皆分士卒，身無私焉。後以母憂去職。嘗有二客來吊，不哭而退，化為雙鶴，沖天而去，時人異之。",
+          "subject_person_mention_id": "c-jinshu-066-taokan:p004:m0039",
+          "object_person_mention_id": "c-jinshu-066-taokan:p004:m0000"
+        }
+      ],
+      "status": "source_attested",
+      "interpretation_note": "陳敏弟恢來寇武昌。",
+      "reviewer": "Codex（AI代理）",
+      "model": null,
+      "human_reviewed": false
+    }
+  ],
   "related_people": {
-    "a9f_5ms_y31": "陳恢"
+    "a9f_5ms_y31": "陳恢",
+    "kok_m7n_tux": "陳敏"
   },
   "dates": [],
   "name_components": [],
   "person_ids": [
     "a9f_5ms_y31"
   ],
-  "preferred_relations": [],
+  "preferred_relations": [
+    {
+      "id": "a-jin066-chenhui-brother",
+      "subject_person_id": "a9f_5ms_y31",
+      "object_person_id": "kok_m7n_tux",
+      "predicate": "brother",
+      "qualifiers": {
+        "source_term": "敏遣其弟恢"
+      },
+      "evidence": [
+        {
+          "work_id": "w-jinshu",
+          "book_id": "b-jinshu-066",
+          "chapter_id": "c-jinshu-066-taokan",
+          "source_id": "s-jinshu-066-taokan-ws1527632",
+          "paragraph_id": "c-jinshu-066-taokan:p004",
+          "quote": "陳敏之亂，弘以侃為江夏太守，加鷹揚將軍。侃備威儀，迎母官舍，鄉里榮之。敏遣其弟恢來寇武昌，侃出兵禦之。隨郡內史扈瑰間侃於弘曰：「侃與敏有鄉里之舊，居大郡，統強兵，脫有異志，則荊州無東門矣。」弘曰：「侃之忠能，吾得之已久，豈有是乎！」侃潛聞之，遽遣子洪及兄子臻詣弘以自固。弘引為參軍，資而遣之。又加侃為督護，使與諸軍並力距恢。侃乃以運船為戰艦，或言不可，侃曰：「用官物討官賊，但須列上有本末耳。」於是擊恢，所向必破。侃戎政齊肅，凡有虜獲，皆分士卒，身無私焉。後以母憂去職。嘗有二客來吊，不哭而退，化為雙鶴，沖天而去，時人異之。",
+          "subject_person_mention_id": "c-jinshu-066-taokan:p004:m0039",
+          "object_person_mention_id": "c-jinshu-066-taokan:p004:m0000"
+        }
+      ],
+      "status": "source_attested",
+      "interpretation_note": "陳敏弟恢來寇武昌。",
+      "reviewer": "Codex（AI代理）",
+      "model": null,
+      "human_reviewed": false
+    }
+  ],
   "age_assertions": [],
   "life_events": [],
   "life_event_date_decisions": [],
