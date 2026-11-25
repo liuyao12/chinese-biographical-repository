@@ -7,7 +7,8 @@
   "review": "ai_provisional",
   "names": [
     "琅邪悼王煥",
-    "琅邪悼王"
+    "琅邪悼王",
+    "煥"
   ],
   "titles": [],
   "addresses": [],
@@ -45,6 +46,70 @@
       "book_id": "b-jinshu-032",
       "chapter_id": "c-jinshu-032-zheng-achun-family",
       "source_id": "s-jinshu-032-zheng-achun-family",
+      "work_title": "晉書"
+    },
+    {
+      "number": 64,
+      "category": "",
+      "title": "晉書卷六十四·司馬煥",
+      "paragraph_id": "c-jinshu-064-simahuan:p001",
+      "count": 4,
+      "raw_count": 4,
+      "duplicate_count": 0,
+      "counting_policy": "independent_fixed_witness_occurrences",
+      "quote": "琅邪悼王煥，字耀祖。母有寵，元帝特所鍾愛。初繼帝弟長樂亭侯渾，後封顯義亭侯。尚書令刁協奏：「昔魏臨淄侯以邢顒為家丞，劉楨為庶子。今侯幼弱，宜選明德。」帝令曰：「臨淄萬戶封，又植少有美才，能同游田蘇者。今晚生矇弱",
+      "paragraph_ids": [
+        "c-jinshu-064-simahuan:p001",
+        "c-jinshu-064-simahuan:p002",
+        "c-jinshu-064-simahuan:p007"
+      ],
+      "mention_ids": [
+        "c-jinshu-064-simahuan:p001:m0000",
+        "c-jinshu-064-simahuan:p001:m0162",
+        "c-jinshu-064-simahuan:p002:m0010",
+        "c-jinshu-064-simahuan:p007:m0006"
+      ],
+      "mention_paragraph_ids": {
+        "c-jinshu-064-simahuan:p001:m0000": "c-jinshu-064-simahuan:p001",
+        "c-jinshu-064-simahuan:p001:m0162": "c-jinshu-064-simahuan:p001",
+        "c-jinshu-064-simahuan:p002:m0010": "c-jinshu-064-simahuan:p002",
+        "c-jinshu-064-simahuan:p007:m0006": "c-jinshu-064-simahuan:p007"
+      },
+      "mention_id": "c-jinshu-064-simahuan:p001:m0000",
+      "occurrence_groups": [
+        {
+          "canonical_mention_id": "c-jinshu-064-simahuan:p001:m0000",
+          "mention_ids": [
+            "c-jinshu-064-simahuan:p001:m0000"
+          ],
+          "kind": "paragraph"
+        },
+        {
+          "canonical_mention_id": "c-jinshu-064-simahuan:p001:m0162",
+          "mention_ids": [
+            "c-jinshu-064-simahuan:p001:m0162"
+          ],
+          "kind": "paragraph"
+        },
+        {
+          "canonical_mention_id": "c-jinshu-064-simahuan:p002:m0010",
+          "mention_ids": [
+            "c-jinshu-064-simahuan:p002:m0010"
+          ],
+          "kind": "paragraph"
+        },
+        {
+          "canonical_mention_id": "c-jinshu-064-simahuan:p007:m0006",
+          "mention_ids": [
+            "c-jinshu-064-simahuan:p007:m0006"
+          ],
+          "kind": "paragraph"
+        }
+      ],
+      "work_id": "w-jinshu",
+      "book_id": "b-jinshu-064",
+      "chapter_id": "c-jinshu-064-simahuan",
+      "source_id": "s-jinshu-064-simahuan-ws2622004",
       "work_title": "晉書"
     },
     {
@@ -199,6 +264,32 @@
       }
     },
     {
+      "chapter_id": "c-jinshu-064-simahuan",
+      "work_id": "w-jinshu",
+      "book_id": "b-jinshu-064",
+      "source_id": "s-jinshu-064-simahuan-ws2622004",
+      "source": {
+        "title": "晉書卷六十四·司馬煥",
+        "provider": "Wikisource",
+        "permalink": "https://zh.wikisource.org/w/index.php?oldid=2622004",
+        "url": "https://zh.wikisource.org/w/index.php?oldid=2622004",
+        "revision_id": 2622004,
+        "edition": "維基文庫固定修訂",
+        "accessed_on": "2026-11-22",
+        "review_status": "text_checked",
+        "image_verified": false,
+        "rights": "古代原文；數位轉錄依維基文庫授權。",
+        "license_url": "https://creativecommons.org/licenses/by-sa/4.0/",
+        "extent": "晉書卷六十四·司馬煥",
+        "text_scope": "complete_biography_unit",
+        "raw_path": "source-evidence/jin064-roll/ws2622004.wikitext",
+        "raw_file_sha256": "b4c389968a1af2d99c2a6ad4a8afa3e6a4706f845194c0ce283f41927afae31f",
+        "collation_witnesses": [
+          "source-evidence/jin064-roll/volume-reading.json"
+        ]
+      }
+    },
+    {
       "chapter_id": "c-jinshu-064-yuandi-six-sons",
       "work_id": "w-jinshu",
       "book_id": "b-jinshu-064",
@@ -248,7 +339,12 @@
               "end_anchor": "太保。子哀王安國立，未逾年薨。"
             }
           ]
-        }
+        },
+        "raw_path": "source-evidence/jin064-roll/ws2622004.wikitext",
+        "raw_file_sha256": "b4c389968a1af2d99c2a6ad4a8afa3e6a4706f845194c0ce283f41927afae31f",
+        "collation_witnesses": [
+          "source-evidence/jin064-roll/volume-reading.json"
+        ]
       }
     }
   ],
@@ -306,11 +402,38 @@
       "reviewer": "Codex（AI 代理）",
       "human_reviewed": false,
       "model": null
+    },
+    {
+      "id": "a-jin064-yu-brother",
+      "subject_person_id": "dkn_ge4_286_AAAAAAAF",
+      "object_person_id": "dkn_ge4_286_AAAAAAAE",
+      "predicate": "brother",
+      "qualifiers": {
+        "source_term": "煥母弟昱"
+      },
+      "evidence": [
+        {
+          "work_id": "w-jinshu",
+          "book_id": "b-jinshu-064",
+          "chapter_id": "c-jinshu-064-simahuan",
+          "source_id": "s-jinshu-064-simahuan-ws2622004",
+          "paragraph_id": "c-jinshu-064-simahuan:p007",
+          "quote": "永昌元年，立煥母弟昱為琅邪王，即簡文帝也。咸和二年，徙封會稽，以康帝為琅邪王。康帝即位，哀帝為琅邪王。哀帝即位，廢帝為琅邪王。廢帝即位，又以簡文帝攝行琅邪王國祀。簡文登阼，國遂無嗣。帝臨崩，封少子道子為琅邪王。太元十七年，道子為會稽王，更以恭帝為琅邪王。恭帝即位，於是琅邪國除。",
+          "subject_person_mention_id": "c-jinshu-064-simahuan:p007:m0009",
+          "object_person_mention_id": "c-jinshu-064-simahuan:p007:m0006"
+        }
+      ],
+      "status": "source_attested",
+      "interpretation_note": "簡文帝為煥母弟。",
+      "reviewer": "Codex（AI代理）",
+      "model": null,
+      "human_reviewed": false
     }
   ],
   "related_people": {
     "dkn_ge4_286_AAAAAAA": "晉元帝",
     "dkn_ge4_286_AAAAAAAE": "琅邪悼王煥",
+    "dkn_ge4_286_AAAAAAAF": "晉簡文帝",
     "ll1_7jh_vr0_AA": "鄭阿春"
   },
   "dates": [],
@@ -331,6 +454,22 @@
       "human_reviewed": false,
       "model": null,
       "note": "名、姓與稱號分欄；不明之名、字、出生年與任期不補。 司馬姓為晉帝室編輯分姓，原段以王號與名列舉；字與年歲未由他段未錄文字補入。"
+    }
+  ],
+  "source_reading_cases": [
+    {
+      "id": "c-jinshu-064-simahuan:kinship1-21",
+      "kind": "kinship",
+      "person_id": "dkn_ge4_286_AAAAAAAE",
+      "source_quote": "初繼帝弟長樂亭侯渾",
+      "reading": "卷六十四裒本傳亦明載裒曾繼渾。煥後嗣恭王。",
+      "note": "卷六十四裒本傳亦明載裒曾繼渾。煥後嗣恭王。",
+      "paragraph_id": "c-jinshu-064-simahuan:p001",
+      "start_codepoint": 21,
+      "end_codepoint": 30,
+      "human_reviewed": false,
+      "chapter_id": "c-jinshu-064-simahuan",
+      "source_id": "s-jinshu-064-simahuan-ws2622004"
     }
   ],
   "person_ids": [
@@ -390,6 +529,32 @@
       "reviewer": "Codex（AI 代理）",
       "human_reviewed": false,
       "model": null
+    },
+    {
+      "id": "a-jin064-yu-brother",
+      "subject_person_id": "dkn_ge4_286_AAAAAAAF",
+      "object_person_id": "dkn_ge4_286_AAAAAAAE",
+      "predicate": "brother",
+      "qualifiers": {
+        "source_term": "煥母弟昱"
+      },
+      "evidence": [
+        {
+          "work_id": "w-jinshu",
+          "book_id": "b-jinshu-064",
+          "chapter_id": "c-jinshu-064-simahuan",
+          "source_id": "s-jinshu-064-simahuan-ws2622004",
+          "paragraph_id": "c-jinshu-064-simahuan:p007",
+          "quote": "永昌元年，立煥母弟昱為琅邪王，即簡文帝也。咸和二年，徙封會稽，以康帝為琅邪王。康帝即位，哀帝為琅邪王。哀帝即位，廢帝為琅邪王。廢帝即位，又以簡文帝攝行琅邪王國祀。簡文登阼，國遂無嗣。帝臨崩，封少子道子為琅邪王。太元十七年，道子為會稽王，更以恭帝為琅邪王。恭帝即位，於是琅邪國除。",
+          "subject_person_mention_id": "c-jinshu-064-simahuan:p007:m0009",
+          "object_person_mention_id": "c-jinshu-064-simahuan:p007:m0006"
+        }
+      ],
+      "status": "source_attested",
+      "interpretation_note": "簡文帝為煥母弟。",
+      "reviewer": "Codex（AI代理）",
+      "model": null,
+      "human_reviewed": false
     }
   ],
   "assembled_identity": {
@@ -408,7 +573,37 @@
     "human_reviewed": false
   },
   "age_assertions": [],
-  "life_events": [],
+  "life_events": [
+    {
+      "id": "le-jin064-huan",
+      "person_id": "dkn_ge4_286_AAAAAAAE",
+      "event_type": "death",
+      "source_term": "俄而薨",
+      "source_anchor": {
+        "paragraph_id": "c-jinshu-064-simahuan:p001",
+        "start": 186,
+        "end": 189,
+        "surface": "俄而薨"
+      },
+      "date_expression": null,
+      "evidence": [
+        {
+          "work_id": "w-jinshu",
+          "book_id": "b-jinshu-064",
+          "chapter_id": "c-jinshu-064-simahuan",
+          "source_id": "s-jinshu-064-simahuan-ws2622004",
+          "paragraph_id": "c-jinshu-064-simahuan:p001",
+          "quote": "琅邪悼王煥，字耀祖。母有寵，元帝特所鍾愛。初繼帝弟長樂亭侯渾，後封顯義亭侯。尚書令刁協奏：「昔魏臨淄侯以邢顒為家丞，劉楨為庶子。今侯幼弱，宜選明德。」帝令曰：「臨淄萬戶封，又植少有美才，能同游田蘇者。今晚生矇弱，何論於此！間封此兒，不以寵稚子也。亡弟當應繼嗣，不獲已耳。家丞、庶子，足以攝祠祭而已，豈宜屈賢才以受無用乎！」及煥疾篤，帝為之撤膳，乃下詔封為琅邪王，嗣恭王後，俄而薨，年二歲。",
+          "person_mention_id": "c-jinshu-064-simahuan:p001:m0000"
+        }
+      ],
+      "status": "source_attested",
+      "interpretation_note": "按同段人物與次第核所屬卒事。",
+      "reviewer": "Codex（AI代理）",
+      "model": null,
+      "human_reviewed": false
+    }
+  ],
   "life_event_date_decisions": [],
   "selected_life_event_dates": []
 }

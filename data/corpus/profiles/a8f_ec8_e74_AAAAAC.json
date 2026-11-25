@@ -873,6 +873,61 @@
       "work_title": "宋書"
     },
     {
+      "number": 64,
+      "category": "",
+      "title": "晉書卷六十四·司馬道子",
+      "paragraph_id": "c-jinshu-064-simadaozi:p002",
+      "count": 3,
+      "raw_count": 3,
+      "duplicate_count": 0,
+      "counting_policy": "independent_fixed_witness_occurrences",
+      "quote": "郡守長吏，多為道子所樹立。既為揚州總錄，勢傾天下，由是朝野奔湊。中書令王國寶性卑佞，特為道子所寵昵。官以賄遷，政刑謬亂。又崇信浮屠之學，用度奢侈，下不堪命。太元以後，為長夜之宴，蓬首昏目，政事多闕。桓玄嘗候道子，正遇其醉，賓客滿坐，道子張目謂人曰：「桓溫晚途欲作賊，云何？」玄",
+      "paragraph_ids": [
+        "c-jinshu-064-simadaozi:p002",
+        "c-jinshu-064-simadaozi:p003",
+        "c-jinshu-064-simadaozi:p008"
+      ],
+      "mention_ids": [
+        "c-jinshu-064-simadaozi:p002:m0081",
+        "c-jinshu-064-simadaozi:p003:m0376",
+        "c-jinshu-064-simadaozi:p008:m0093"
+      ],
+      "mention_paragraph_ids": {
+        "c-jinshu-064-simadaozi:p002:m0081": "c-jinshu-064-simadaozi:p002",
+        "c-jinshu-064-simadaozi:p003:m0376": "c-jinshu-064-simadaozi:p003",
+        "c-jinshu-064-simadaozi:p008:m0093": "c-jinshu-064-simadaozi:p008"
+      },
+      "mention_id": "c-jinshu-064-simadaozi:p002:m0081",
+      "occurrence_groups": [
+        {
+          "canonical_mention_id": "c-jinshu-064-simadaozi:p002:m0081",
+          "mention_ids": [
+            "c-jinshu-064-simadaozi:p002:m0081"
+          ],
+          "kind": "paragraph"
+        },
+        {
+          "canonical_mention_id": "c-jinshu-064-simadaozi:p003:m0376",
+          "mention_ids": [
+            "c-jinshu-064-simadaozi:p003:m0376"
+          ],
+          "kind": "paragraph"
+        },
+        {
+          "canonical_mention_id": "c-jinshu-064-simadaozi:p008:m0093",
+          "mention_ids": [
+            "c-jinshu-064-simadaozi:p008:m0093"
+          ],
+          "kind": "paragraph"
+        }
+      ],
+      "work_id": "w-jinshu",
+      "book_id": "b-jinshu-064",
+      "chapter_id": "c-jinshu-064-simadaozi",
+      "source_id": "s-jinshu-064-simadaozi-ws2622004",
+      "work_title": "晉書"
+    },
+    {
       "number": 65,
       "category": "",
       "title": "王導及子孫附傳（卷六十五完整數位正文）",
@@ -1420,6 +1475,32 @@
   ],
   "table_occurrences": [],
   "sources": [
+    {
+      "chapter_id": "c-jinshu-064-simadaozi",
+      "work_id": "w-jinshu",
+      "book_id": "b-jinshu-064",
+      "source_id": "s-jinshu-064-simadaozi-ws2622004",
+      "source": {
+        "title": "晉書卷六十四·司馬道子",
+        "provider": "Wikisource",
+        "permalink": "https://zh.wikisource.org/w/index.php?oldid=2622004",
+        "url": "https://zh.wikisource.org/w/index.php?oldid=2622004",
+        "revision_id": 2622004,
+        "edition": "維基文庫固定修訂",
+        "accessed_on": "2026-11-22",
+        "review_status": "text_checked",
+        "image_verified": false,
+        "rights": "古代原文；數位轉錄依維基文庫授權。",
+        "license_url": "https://creativecommons.org/licenses/by-sa/4.0/",
+        "extent": "晉書卷六十四·司馬道子",
+        "text_scope": "complete_biography_unit",
+        "raw_path": "source-evidence/jin064-roll/ws2622004.wikitext",
+        "raw_file_sha256": "b4c389968a1af2d99c2a6ad4a8afa3e6a4706f845194c0ce283f41927afae31f",
+        "collation_witnesses": [
+          "source-evidence/jin064-roll/volume-reading.json"
+        ]
+      }
+    },
     {
       "chapter_id": "c-jinshu-065-wangdao-family",
       "work_id": "w-jinshu",
@@ -3786,6 +3867,20 @@
     }
   ],
   "source_reading_cases": [
+    {
+      "id": "c-jinshu-064-simadaozi:kinship3-376",
+      "kind": "kinship",
+      "person_id": "a8f_ec8_e74_AAAAAC",
+      "source_quote": "國寶即寧之甥",
+      "reading": "范甯為王國寶舅，原文寧、甯同用；王國寶母名未見此段。",
+      "note": "范甯為王國寶舅，原文寧、甯同用；王國寶母名未見此段。",
+      "paragraph_id": "c-jinshu-064-simadaozi:p003",
+      "start_codepoint": 376,
+      "end_codepoint": 382,
+      "human_reviewed": false,
+      "chapter_id": "c-jinshu-064-simadaozi",
+      "source_id": "s-jinshu-064-simadaozi-ws2622004"
+    },
     {
       "id": "c-jinshu-075-taiyuan-wang:line090:received_sentence-0",
       "kind": "received_sentence",

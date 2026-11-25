@@ -723,10 +723,71 @@
       "chapter_id": "c-sanguozhi-056-zhuzhi",
       "source_id": "s-sanguozhi-056-zhuzhi",
       "work_title": "三國志"
+    },
+    {
+      "number": 71,
+      "category": "",
+      "title": "晉書卷七十一·孫惠",
+      "paragraph_id": "c-jinshu-071-sunhui:p001",
+      "count": 1,
+      "raw_count": 1,
+      "duplicate_count": 0,
+      "counting_policy": "independent_fixed_witness_occurrences",
+      "quote": "孫惠，字德施，吳國富陽人，吳豫章太守賁曾孫也。父祖並仕吳。惠口訥，好學有才識，州辟不就，寓居蕭沛之間。永甯初，赴齊王冏義，討趙王倫，以功封晉興縣侯，辟大司馬戶曹掾，轉東曹屬。冏驕矜僭侈，天下失望。惠獻言於冏，諷以五難、四不可，勸令歸籓，辭",
+      "paragraph_ids": [
+        "c-jinshu-071-sunhui:p001"
+      ],
+      "mention_ids": [
+        "c-jinshu-071-sunhui:p001:m0018"
+      ],
+      "mention_paragraph_ids": {
+        "c-jinshu-071-sunhui:p001:m0018": "c-jinshu-071-sunhui:p001"
+      },
+      "mention_id": "c-jinshu-071-sunhui:p001:m0018",
+      "occurrence_groups": [
+        {
+          "canonical_mention_id": "c-jinshu-071-sunhui:p001:m0018",
+          "mention_ids": [
+            "c-jinshu-071-sunhui:p001:m0018"
+          ],
+          "kind": "paragraph"
+        }
+      ],
+      "work_id": "w-jinshu",
+      "book_id": "b-jinshu-071",
+      "chapter_id": "c-jinshu-071-sunhui",
+      "source_id": "s-jinshu-071-sunhui-ws2595541",
+      "work_title": "晉書"
     }
   ],
   "table_occurrences": [],
   "sources": [
+    {
+      "chapter_id": "c-jinshu-071-sunhui",
+      "work_id": "w-jinshu",
+      "book_id": "b-jinshu-071",
+      "source_id": "s-jinshu-071-sunhui-ws2595541",
+      "source": {
+        "title": "晉書卷七十一·孫惠",
+        "provider": "Wikisource",
+        "permalink": "https://zh.wikisource.org/w/index.php?oldid=2595541",
+        "url": "https://zh.wikisource.org/w/index.php?oldid=2595541",
+        "revision_id": 2595541,
+        "edition": "維基文庫固定修訂",
+        "accessed_on": "2026-11-22",
+        "review_status": "text_checked",
+        "image_verified": false,
+        "rights": "古代原文；數位轉錄依維基文庫授權。",
+        "license_url": "https://creativecommons.org/licenses/by-sa/4.0/",
+        "extent": "晉書卷七十一·孫惠",
+        "text_scope": "complete_biography_unit",
+        "raw_path": "source-evidence/jin071-roll/ws2595541.wikitext",
+        "raw_file_sha256": "644b3e2fd382b741cfeff866793c83fe852be3ea920fe88ba4cca8e223307d94",
+        "collation_witnesses": [
+          "source-evidence/jin071-roll/volume-reading.json"
+        ]
+      }
+    },
     {
       "chapter_id": "c-sanguozhi-046-sun-ce",
       "work_id": "w-sanguozhi",
@@ -912,6 +973,32 @@
     }
   ],
   "relations": [
+    {
+      "id": "a-jin071-sunben-great-grandfather",
+      "subject_person_id": "jjg_z4m_on6",
+      "object_person_id": "8jx_b5c_t2q",
+      "predicate": "great_grandfather",
+      "qualifiers": {
+        "source_term": "吳豫章太守賁曾孫也"
+      },
+      "evidence": [
+        {
+          "work_id": "w-jinshu",
+          "book_id": "b-jinshu-071",
+          "chapter_id": "c-jinshu-071-sunhui",
+          "source_id": "s-jinshu-071-sunhui-ws2595541",
+          "paragraph_id": "c-jinshu-071-sunhui:p001",
+          "quote": "孫惠，字德施，吳國富陽人，吳豫章太守賁曾孫也。父祖並仕吳。惠口訥，好學有才識，州辟不就，寓居蕭沛之間。永甯初，赴齊王冏義，討趙王倫，以功封晉興縣侯，辟大司馬戶曹掾，轉東曹屬。冏驕矜僭侈，天下失望。惠獻言於冏，諷以五難、四不可，勸令歸籓，辭甚切至。冏不納。惠懼罪，辭疾去。頃之，冏果敗。成都王穎薦惠為大將軍參軍、領奮威將軍、白沙督。是時，穎將征長沙王乂，以陸機為前鋒都督。惠與機同鄉里，憂其致禍，勸機讓都督于王粹。及機兄弟被戮，惠甚傷恨之。時惠又擅殺穎牙門將梁俊，懼罪，因改姓名以遁。",
+          "subject_person_mention_id": "c-jinshu-071-sunhui:p001:m0000",
+          "object_person_mention_id": "c-jinshu-071-sunhui:p001:m0018"
+        }
+      ],
+      "status": "source_attested",
+      "interpretation_note": "通鑑八十四同記惠為賁曾孫。祖、父均無名。",
+      "reviewer": "Codex（AI代理）",
+      "model": null,
+      "human_reviewed": false
+    },
     {
       "id": "a-wu051-ben-0",
       "subject_person_id": "8jx_b5c_t2q",
@@ -1145,6 +1232,32 @@
     "8jx_b5c_t2q"
   ],
   "preferred_relations": [
+    {
+      "id": "a-jin071-sunben-great-grandfather",
+      "subject_person_id": "jjg_z4m_on6",
+      "object_person_id": "8jx_b5c_t2q",
+      "predicate": "great_grandfather",
+      "qualifiers": {
+        "source_term": "吳豫章太守賁曾孫也"
+      },
+      "evidence": [
+        {
+          "work_id": "w-jinshu",
+          "book_id": "b-jinshu-071",
+          "chapter_id": "c-jinshu-071-sunhui",
+          "source_id": "s-jinshu-071-sunhui-ws2595541",
+          "paragraph_id": "c-jinshu-071-sunhui:p001",
+          "quote": "孫惠，字德施，吳國富陽人，吳豫章太守賁曾孫也。父祖並仕吳。惠口訥，好學有才識，州辟不就，寓居蕭沛之間。永甯初，赴齊王冏義，討趙王倫，以功封晉興縣侯，辟大司馬戶曹掾，轉東曹屬。冏驕矜僭侈，天下失望。惠獻言於冏，諷以五難、四不可，勸令歸籓，辭甚切至。冏不納。惠懼罪，辭疾去。頃之，冏果敗。成都王穎薦惠為大將軍參軍、領奮威將軍、白沙督。是時，穎將征長沙王乂，以陸機為前鋒都督。惠與機同鄉里，憂其致禍，勸機讓都督于王粹。及機兄弟被戮，惠甚傷恨之。時惠又擅殺穎牙門將梁俊，懼罪，因改姓名以遁。",
+          "subject_person_mention_id": "c-jinshu-071-sunhui:p001:m0000",
+          "object_person_mention_id": "c-jinshu-071-sunhui:p001:m0018"
+        }
+      ],
+      "status": "source_attested",
+      "interpretation_note": "通鑑八十四同記惠為賁曾孫。祖、父均無名。",
+      "reviewer": "Codex（AI代理）",
+      "model": null,
+      "human_reviewed": false
+    },
     {
       "id": "a-wu051-ben-0",
       "subject_person_id": "8jx_b5c_t2q",

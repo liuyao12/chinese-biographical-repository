@@ -1,0 +1,210 @@
+{
+  "schema_version": 1,
+  "id": "6ld_plw_7m4",
+  "canonical_person_id": "6ld_plw_7m4",
+  "label": "劉挺",
+  "identity_note": "劉挺，見本組原文及身份互校。",
+  "review": "ai_provisional",
+  "names": [
+    "挺"
+  ],
+  "titles": [],
+  "addresses": [],
+  "occurrences": [
+    {
+      "number": 61,
+      "category": "",
+      "title": "晉書卷六十一·劉喬",
+      "paragraph_id": "c-jinshu-061-liuqiao:p006",
+      "count": 2,
+      "raw_count": 2,
+      "duplicate_count": 0,
+      "counting_policy": "independent_fixed_witness_occurrences",
+      "quote": "州諸軍事、鎮東將軍、豫州刺史。卒于官，時年六十三。湣帝末，追贈司空。子挺，潁川太守。挺子耽。",
+      "paragraph_ids": [
+        "c-jinshu-061-liuqiao:p006"
+      ],
+      "mention_ids": [
+        "c-jinshu-061-liuqiao:p006:m0171",
+        "c-jinshu-061-liuqiao:p006:m0178"
+      ],
+      "mention_paragraph_ids": {
+        "c-jinshu-061-liuqiao:p006:m0171": "c-jinshu-061-liuqiao:p006",
+        "c-jinshu-061-liuqiao:p006:m0178": "c-jinshu-061-liuqiao:p006"
+      },
+      "mention_id": "c-jinshu-061-liuqiao:p006:m0171",
+      "occurrence_groups": [
+        {
+          "canonical_mention_id": "c-jinshu-061-liuqiao:p006:m0171",
+          "mention_ids": [
+            "c-jinshu-061-liuqiao:p006:m0171"
+          ],
+          "kind": "paragraph"
+        },
+        {
+          "canonical_mention_id": "c-jinshu-061-liuqiao:p006:m0178",
+          "mention_ids": [
+            "c-jinshu-061-liuqiao:p006:m0178"
+          ],
+          "kind": "paragraph"
+        }
+      ],
+      "work_id": "w-jinshu",
+      "book_id": "b-jinshu-061",
+      "chapter_id": "c-jinshu-061-liuqiao",
+      "source_id": "s-jinshu-061-liuqiao-ws7903772",
+      "work_title": "晉書"
+    }
+  ],
+  "table_occurrences": [],
+  "sources": [
+    {
+      "chapter_id": "c-jinshu-061-liuqiao",
+      "work_id": "w-jinshu",
+      "book_id": "b-jinshu-061",
+      "source_id": "s-jinshu-061-liuqiao-ws7903772",
+      "source": {
+        "title": "晉書卷六十一·劉喬",
+        "provider": "Wikisource",
+        "permalink": "https://zh.wikisource.org/w/index.php?oldid=7903772",
+        "url": "https://zh.wikisource.org/w/index.php?oldid=7903772",
+        "revision_id": 7903772,
+        "edition": "維基文庫固定修訂",
+        "accessed_on": "2026-11-22",
+        "review_status": "text_checked",
+        "image_verified": false,
+        "rights": "古代原文；數位轉錄依維基文庫授權。",
+        "license_url": "https://creativecommons.org/licenses/by-sa/4.0/",
+        "extent": "晉書卷六十一·劉喬",
+        "text_scope": "complete_biography_unit",
+        "raw_path": "source-evidence/jin061-roll/ws7903772.wikitext",
+        "raw_file_sha256": "6e28403fc85f551b2aab898cac610180884ba0732a24a492f8ca514381b9978d",
+        "collation_witnesses": [
+          "source-evidence/jin061-roll/volume-reading.json"
+        ]
+      }
+    }
+  ],
+  "relations": [
+    {
+      "id": "a-jin061-liuting-father",
+      "subject_person_id": "6ld_plw_7m4",
+      "object_person_id": "7xd_7vq_fwl",
+      "predicate": "father",
+      "qualifiers": {
+        "source_term": "子挺"
+      },
+      "evidence": [
+        {
+          "work_id": "w-jinshu",
+          "book_id": "b-jinshu-061",
+          "chapter_id": "c-jinshu-061-liuqiao",
+          "source_id": "s-jinshu-061-liuqiao-ws7903772",
+          "paragraph_id": "c-jinshu-061-liuqiao:p006",
+          "quote": "時河間王顒方距關東，倚喬為助，不納其言。東海王越移檄天下，帥甲士三萬，將入關迎大駕，軍次於蕭，喬懼，遣子祐距越于蕭縣之靈壁。劉琨分兵向許昌，許昌人納之。琨自滎陽率兵迎越，遇祐，眾潰見殺。喬眾遂散，與五百騎奔平氏。帝還洛陽，大赦，越復表喬為太傅軍諮祭酒。越薨，復以喬為都督豫州諸軍事、鎮東將軍、豫州刺史。卒于官，時年六十三。湣帝末，追贈司空。子挺，潁川太守。挺子耽。",
+          "subject_person_mention_id": "c-jinshu-061-liuqiao:p006:m0171",
+          "object_person_mention_id": "c-jinshu-061-liuqiao:p006:m0011"
+        }
+      ],
+      "status": "source_attested",
+      "interpretation_note": "子挺繼記於喬卒後。",
+      "reviewer": "Codex（AI代理）",
+      "model": null,
+      "human_reviewed": false
+    },
+    {
+      "id": "a-jin061-liudan-father",
+      "subject_person_id": "mc1_08w_r6l",
+      "object_person_id": "6ld_plw_7m4",
+      "predicate": "father",
+      "qualifiers": {
+        "source_term": "挺子耽"
+      },
+      "evidence": [
+        {
+          "work_id": "w-jinshu",
+          "book_id": "b-jinshu-061",
+          "chapter_id": "c-jinshu-061-liuqiao",
+          "source_id": "s-jinshu-061-liuqiao-ws7903772",
+          "paragraph_id": "c-jinshu-061-liuqiao:p006",
+          "quote": "時河間王顒方距關東，倚喬為助，不納其言。東海王越移檄天下，帥甲士三萬，將入關迎大駕，軍次於蕭，喬懼，遣子祐距越于蕭縣之靈壁。劉琨分兵向許昌，許昌人納之。琨自滎陽率兵迎越，遇祐，眾潰見殺。喬眾遂散，與五百騎奔平氏。帝還洛陽，大赦，越復表喬為太傅軍諮祭酒。越薨，復以喬為都督豫州諸軍事、鎮東將軍、豫州刺史。卒于官，時年六十三。湣帝末，追贈司空。子挺，潁川太守。挺子耽。",
+          "subject_person_mention_id": "c-jinshu-061-liuqiao:p006:m0180",
+          "object_person_mention_id": "c-jinshu-061-liuqiao:p006:m0171"
+        }
+      ],
+      "status": "source_attested",
+      "interpretation_note": "耽為挺子。",
+      "reviewer": "Codex（AI代理）",
+      "model": null,
+      "human_reviewed": false
+    }
+  ],
+  "related_people": {
+    "6ld_plw_7m4": "劉挺",
+    "7xd_7vq_fwl": "劉喬〔王戎參軍〕",
+    "mc1_08w_r6l": "劉耽〔晉陵內史〕"
+  },
+  "dates": [],
+  "name_components": [],
+  "person_ids": [
+    "6ld_plw_7m4"
+  ],
+  "preferred_relations": [
+    {
+      "id": "a-jin061-liuting-father",
+      "subject_person_id": "6ld_plw_7m4",
+      "object_person_id": "7xd_7vq_fwl",
+      "predicate": "father",
+      "qualifiers": {
+        "source_term": "子挺"
+      },
+      "evidence": [
+        {
+          "work_id": "w-jinshu",
+          "book_id": "b-jinshu-061",
+          "chapter_id": "c-jinshu-061-liuqiao",
+          "source_id": "s-jinshu-061-liuqiao-ws7903772",
+          "paragraph_id": "c-jinshu-061-liuqiao:p006",
+          "quote": "時河間王顒方距關東，倚喬為助，不納其言。東海王越移檄天下，帥甲士三萬，將入關迎大駕，軍次於蕭，喬懼，遣子祐距越于蕭縣之靈壁。劉琨分兵向許昌，許昌人納之。琨自滎陽率兵迎越，遇祐，眾潰見殺。喬眾遂散，與五百騎奔平氏。帝還洛陽，大赦，越復表喬為太傅軍諮祭酒。越薨，復以喬為都督豫州諸軍事、鎮東將軍、豫州刺史。卒于官，時年六十三。湣帝末，追贈司空。子挺，潁川太守。挺子耽。",
+          "subject_person_mention_id": "c-jinshu-061-liuqiao:p006:m0171",
+          "object_person_mention_id": "c-jinshu-061-liuqiao:p006:m0011"
+        }
+      ],
+      "status": "source_attested",
+      "interpretation_note": "子挺繼記於喬卒後。",
+      "reviewer": "Codex（AI代理）",
+      "model": null,
+      "human_reviewed": false
+    },
+    {
+      "id": "a-jin061-liudan-father",
+      "subject_person_id": "mc1_08w_r6l",
+      "object_person_id": "6ld_plw_7m4",
+      "predicate": "father",
+      "qualifiers": {
+        "source_term": "挺子耽"
+      },
+      "evidence": [
+        {
+          "work_id": "w-jinshu",
+          "book_id": "b-jinshu-061",
+          "chapter_id": "c-jinshu-061-liuqiao",
+          "source_id": "s-jinshu-061-liuqiao-ws7903772",
+          "paragraph_id": "c-jinshu-061-liuqiao:p006",
+          "quote": "時河間王顒方距關東，倚喬為助，不納其言。東海王越移檄天下，帥甲士三萬，將入關迎大駕，軍次於蕭，喬懼，遣子祐距越于蕭縣之靈壁。劉琨分兵向許昌，許昌人納之。琨自滎陽率兵迎越，遇祐，眾潰見殺。喬眾遂散，與五百騎奔平氏。帝還洛陽，大赦，越復表喬為太傅軍諮祭酒。越薨，復以喬為都督豫州諸軍事、鎮東將軍、豫州刺史。卒于官，時年六十三。湣帝末，追贈司空。子挺，潁川太守。挺子耽。",
+          "subject_person_mention_id": "c-jinshu-061-liuqiao:p006:m0180",
+          "object_person_mention_id": "c-jinshu-061-liuqiao:p006:m0171"
+        }
+      ],
+      "status": "source_attested",
+      "interpretation_note": "耽為挺子。",
+      "reviewer": "Codex（AI代理）",
+      "model": null,
+      "human_reviewed": false
+    }
+  ],
+  "age_assertions": [],
+  "life_events": [],
+  "life_event_date_decisions": [],
+  "selected_life_event_dates": []
+}

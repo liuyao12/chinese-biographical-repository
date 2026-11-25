@@ -119,6 +119,41 @@
       "chapter_id": "c-jinshu-059-prince-ying",
       "source_id": "s-jinshu-059-prince-ying-ws2650517",
       "work_title": "晉書"
+    },
+    {
+      "number": 62,
+      "category": "",
+      "title": "晉書卷六十二·劉琨",
+      "paragraph_id": "c-jinshu-062-liukun:p002",
+      "count": 1,
+      "raw_count": 1,
+      "duplicate_count": 0,
+      "counting_policy": "independent_fixed_witness_occurrences",
+      "quote": "及篡，荂爲皇太子，琨爲荂詹事。三王之討倫也，以琨爲冠軍、假節，與孫秀子會率宿衞兵三萬距成都王穎，戰于黃橋，琨大敗而還，焚河橋以自固。及齊王冏輔政，以其父兄皆有當世之望，故特宥之，拜兄輿爲中書郎，琨爲尚書左丞，轉司徒左長史。冏敗，范陽王虓鎮許昌，引爲司馬。",
+      "paragraph_ids": [
+        "c-jinshu-062-liukun:p002"
+      ],
+      "mention_ids": [
+        "c-jinshu-062-liukun:p002:m0077"
+      ],
+      "mention_paragraph_ids": {
+        "c-jinshu-062-liukun:p002:m0077": "c-jinshu-062-liukun:p002"
+      },
+      "mention_id": "c-jinshu-062-liukun:p002:m0077",
+      "occurrence_groups": [
+        {
+          "canonical_mention_id": "c-jinshu-062-liukun:p002:m0077",
+          "mention_ids": [
+            "c-jinshu-062-liukun:p002:m0077"
+          ],
+          "kind": "paragraph"
+        }
+      ],
+      "work_id": "w-jinshu",
+      "book_id": "b-jinshu-062",
+      "chapter_id": "c-jinshu-062-liukun",
+      "source_id": "s-jinshu-062-liukun-ws2629226",
+      "work_title": "晉書"
     }
   ],
   "table_occurrences": [],
@@ -174,6 +209,32 @@
           "source-evidence/jin059-roll/volume-reading.json"
         ]
       }
+    },
+    {
+      "chapter_id": "c-jinshu-062-liukun",
+      "work_id": "w-jinshu",
+      "book_id": "b-jinshu-062",
+      "source_id": "s-jinshu-062-liukun-ws2629226",
+      "source": {
+        "title": "晉書卷六十二·劉琨",
+        "provider": "Wikisource",
+        "permalink": "https://zh.wikisource.org/w/index.php?oldid=2629226",
+        "url": "https://zh.wikisource.org/w/index.php?oldid=2629226",
+        "revision_id": 2629226,
+        "edition": "維基文庫固定修訂",
+        "accessed_on": "2026-11-22",
+        "review_status": "text_checked",
+        "image_verified": false,
+        "rights": "古代原文；數位轉錄依維基文庫授權。",
+        "license_url": "https://creativecommons.org/licenses/by-sa/4.0/",
+        "extent": "晉書卷六十二·劉琨",
+        "text_scope": "complete_biography_unit",
+        "raw_path": "source-evidence/jin062-roll/ws2629226.wikitext",
+        "raw_file_sha256": "cdb75f1a3d5f12219a75831e0c8c7cfc202c1edf76086c07267a40f7251f3a7b",
+        "collation_witnesses": [
+          "source-evidence/jin062-roll/volume-reading.json"
+        ]
+      }
     }
   ],
   "relations": [
@@ -199,6 +260,32 @@
       ],
       "status": "source_attested",
       "interpretation_note": "此會尚河東公主。",
+      "reviewer": "Codex（AI代理）",
+      "model": null,
+      "human_reviewed": false
+    },
+    {
+      "id": "a-jin062-sunhui-father",
+      "subject_person_id": "lka_ccx_iw0",
+      "object_person_id": "8x5_e5i_yle",
+      "predicate": "father",
+      "qualifiers": {
+        "source_term": "孫秀子會"
+      },
+      "evidence": [
+        {
+          "work_id": "w-jinshu",
+          "book_id": "b-jinshu-062",
+          "chapter_id": "c-jinshu-062-liukun",
+          "source_id": "s-jinshu-062-liukun-ws2629226",
+          "paragraph_id": "c-jinshu-062-liukun:p002",
+          "quote": "趙王倫執政，以琨爲記室督，轉從事中郎。倫子荂，即琨姊婿也，故琨父子兄弟並爲倫所委任。及篡，荂爲皇太子，琨爲荂詹事。三王之討倫也，以琨爲冠軍、假節，與孫秀子會率宿衞兵三萬距成都王穎，戰于黃橋，琨大敗而還，焚河橋以自固。及齊王冏輔政，以其父兄皆有當世之望，故特宥之，拜兄輿爲中書郎，琨爲尚書左丞，轉司徒左長史。冏敗，范陽王虓鎮許昌，引爲司馬。",
+          "subject_person_mention_id": "c-jinshu-062-liukun:p002:m0077",
+          "object_person_mention_id": "c-jinshu-062-liukun:p002:m0074"
+        }
+      ],
+      "status": "source_attested",
+      "interpretation_note": "同率宿衞兵，明列孫秀之子。",
       "reviewer": "Codex（AI代理）",
       "model": null,
       "human_reviewed": false
@@ -267,6 +354,32 @@
       ],
       "status": "source_attested",
       "interpretation_note": "此會尚河東公主。",
+      "reviewer": "Codex（AI代理）",
+      "model": null,
+      "human_reviewed": false
+    },
+    {
+      "id": "a-jin062-sunhui-father",
+      "subject_person_id": "lka_ccx_iw0",
+      "object_person_id": "8x5_e5i_yle",
+      "predicate": "father",
+      "qualifiers": {
+        "source_term": "孫秀子會"
+      },
+      "evidence": [
+        {
+          "work_id": "w-jinshu",
+          "book_id": "b-jinshu-062",
+          "chapter_id": "c-jinshu-062-liukun",
+          "source_id": "s-jinshu-062-liukun-ws2629226",
+          "paragraph_id": "c-jinshu-062-liukun:p002",
+          "quote": "趙王倫執政，以琨爲記室督，轉從事中郎。倫子荂，即琨姊婿也，故琨父子兄弟並爲倫所委任。及篡，荂爲皇太子，琨爲荂詹事。三王之討倫也，以琨爲冠軍、假節，與孫秀子會率宿衞兵三萬距成都王穎，戰于黃橋，琨大敗而還，焚河橋以自固。及齊王冏輔政，以其父兄皆有當世之望，故特宥之，拜兄輿爲中書郎，琨爲尚書左丞，轉司徒左長史。冏敗，范陽王虓鎮許昌，引爲司馬。",
+          "subject_person_mention_id": "c-jinshu-062-liukun:p002:m0077",
+          "object_person_mention_id": "c-jinshu-062-liukun:p002:m0074"
+        }
+      ],
+      "status": "source_attested",
+      "interpretation_note": "同率宿衞兵，明列孫秀之子。",
       "reviewer": "Codex（AI代理）",
       "model": null,
       "human_reviewed": false

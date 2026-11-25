@@ -774,6 +774,41 @@
     {
       "number": 61,
       "category": "",
+      "title": "晉書卷六十一·華軼",
+      "paragraph_id": "c-jinshu-061-huayi:p001",
+      "count": 1,
+      "raw_count": 1,
+      "duplicate_count": 0,
+      "counting_policy": "independent_fixed_witness_occurrences",
+      "quote": "華軼，字彥夏，平原人，魏太尉歆之曾孫也。祖表，太中大夫。父澹，河南尹。軼少有才氣，聞於當世，泛愛博納，眾論美之。初為博士，累遷散騎常侍。東海王越牧兗州，引為留府長史。永嘉中，曆振威將軍、江州刺史。雖逢喪亂，每崇典禮，置儒林祭酒以弘",
+      "paragraph_ids": [
+        "c-jinshu-061-huayi:p001"
+      ],
+      "mention_ids": [
+        "c-jinshu-061-huayi:p001:m0014"
+      ],
+      "mention_paragraph_ids": {
+        "c-jinshu-061-huayi:p001:m0014": "c-jinshu-061-huayi:p001"
+      },
+      "mention_id": "c-jinshu-061-huayi:p001:m0014",
+      "occurrence_groups": [
+        {
+          "canonical_mention_id": "c-jinshu-061-huayi:p001:m0014",
+          "mention_ids": [
+            "c-jinshu-061-huayi:p001:m0014"
+          ],
+          "kind": "paragraph"
+        }
+      ],
+      "work_id": "w-jinshu",
+      "book_id": "b-jinshu-061",
+      "chapter_id": "c-jinshu-061-huayi",
+      "source_id": "s-jinshu-061-huayi-ws7903772",
+      "work_title": "晉書"
+    },
+    {
+      "number": 61,
+      "category": "",
       "title": "晉書華軼傳·父澹及曾祖歆",
       "paragraph_id": "c-jinshu-061-jin044-huabiao:intro",
       "count": 1,
@@ -919,6 +954,32 @@
         "raw_file_sha256": "09742e651b479fea881fd24c7734451de2b78b9f0410adda36ba210c31a0b5c8",
         "collation_witnesses": [
           "source-evidence/jin044-zhengmao/reading.json"
+        ]
+      }
+    },
+    {
+      "chapter_id": "c-jinshu-061-huayi",
+      "work_id": "w-jinshu",
+      "book_id": "b-jinshu-061",
+      "source_id": "s-jinshu-061-huayi-ws7903772",
+      "source": {
+        "title": "晉書卷六十一·華軼",
+        "provider": "Wikisource",
+        "permalink": "https://zh.wikisource.org/w/index.php?oldid=7903772",
+        "url": "https://zh.wikisource.org/w/index.php?oldid=7903772",
+        "revision_id": 7903772,
+        "edition": "維基文庫固定修訂",
+        "accessed_on": "2026-11-22",
+        "review_status": "text_checked",
+        "image_verified": false,
+        "rights": "古代原文；數位轉錄依維基文庫授權。",
+        "license_url": "https://creativecommons.org/licenses/by-sa/4.0/",
+        "extent": "晉書卷六十一·華軼",
+        "text_scope": "complete_biography_unit",
+        "raw_path": "source-evidence/jin061-roll/ws7903772.wikitext",
+        "raw_file_sha256": "6e28403fc85f551b2aab898cac610180884ba0732a24a492f8ca514381b9978d",
+        "collation_witnesses": [
+          "source-evidence/jin061-roll/volume-reading.json"
         ]
       }
     },
@@ -5385,6 +5446,32 @@
       "model": null
     },
     {
+      "id": "a-jin061-huayi-great-grandfather",
+      "subject_person_id": "p86_bh6_jm2",
+      "object_person_id": "7zi_5gs_mq2",
+      "predicate": "great_grandfather",
+      "qualifiers": {
+        "source_term": "魏太尉歆之曾孫"
+      },
+      "evidence": [
+        {
+          "work_id": "w-jinshu",
+          "book_id": "b-jinshu-061",
+          "chapter_id": "c-jinshu-061-huayi",
+          "source_id": "s-jinshu-061-huayi-ws7903772",
+          "paragraph_id": "c-jinshu-061-huayi:p001",
+          "quote": "華軼，字彥夏，平原人，魏太尉歆之曾孫也。祖表，太中大夫。父澹，河南尹。軼少有才氣，聞於當世，泛愛博納，眾論美之。初為博士，累遷散騎常侍。東海王越牧兗州，引為留府長史。永嘉中，曆振威將軍、江州刺史。雖逢喪亂，每崇典禮，置儒林祭酒以弘道訓，乃下教曰：「今大義頹替，禮典無宗，朝廷滯議，莫能攸正，常以慨然，宜特立此官，以弘其事。軍諮祭酒杜夷，棲情玄遠，確然絕俗，才學精博，道行優備，其以為儒林祭酒。」俄被越檄使助討諸賊，軼遣前江夏太守陶侃為揚武將軍，率兵三千屯夏口，以為聲援。軼在州其有威惠，州之豪士接以友道，得江表之歡心，流亡之士赴之如歸。",
+          "subject_person_mention_id": "c-jinshu-061-huayi:p001:m0000",
+          "object_person_mention_id": "c-jinshu-061-huayi:p001:m0014"
+        }
+      ],
+      "status": "source_attested",
+      "interpretation_note": "本傳稱曾孫。",
+      "reviewer": "Codex（AI代理）",
+      "model": null,
+      "human_reviewed": false
+    },
+    {
       "id": "a-w044-huabiao-sg-博",
       "subject_person_id": "7zi_5gs_mq2_B",
       "object_person_id": "7zi_5gs_mq2",
@@ -5468,7 +5555,8 @@
     "7zi_5gs_mq2_A": "華表〔字偉容〕",
     "7zi_5gs_mq2_B": "華博〔華歆中子〕",
     "7zi_5gs_mq2_C": "華周〔華歆少子〕",
-    "a9b_jua_1z9": "駱統生母〔改適華歆〕"
+    "a9b_jua_1z9": "駱統生母〔改適華歆〕",
+    "p86_bh6_jm2": "華軼"
   },
   "dates": [],
   "name_components": [],
@@ -5544,6 +5632,32 @@
       "reviewer": "Codex（AI 代理）",
       "human_reviewed": false,
       "model": null
+    },
+    {
+      "id": "a-jin061-huayi-great-grandfather",
+      "subject_person_id": "p86_bh6_jm2",
+      "object_person_id": "7zi_5gs_mq2",
+      "predicate": "great_grandfather",
+      "qualifiers": {
+        "source_term": "魏太尉歆之曾孫"
+      },
+      "evidence": [
+        {
+          "work_id": "w-jinshu",
+          "book_id": "b-jinshu-061",
+          "chapter_id": "c-jinshu-061-huayi",
+          "source_id": "s-jinshu-061-huayi-ws7903772",
+          "paragraph_id": "c-jinshu-061-huayi:p001",
+          "quote": "華軼，字彥夏，平原人，魏太尉歆之曾孫也。祖表，太中大夫。父澹，河南尹。軼少有才氣，聞於當世，泛愛博納，眾論美之。初為博士，累遷散騎常侍。東海王越牧兗州，引為留府長史。永嘉中，曆振威將軍、江州刺史。雖逢喪亂，每崇典禮，置儒林祭酒以弘道訓，乃下教曰：「今大義頹替，禮典無宗，朝廷滯議，莫能攸正，常以慨然，宜特立此官，以弘其事。軍諮祭酒杜夷，棲情玄遠，確然絕俗，才學精博，道行優備，其以為儒林祭酒。」俄被越檄使助討諸賊，軼遣前江夏太守陶侃為揚武將軍，率兵三千屯夏口，以為聲援。軼在州其有威惠，州之豪士接以友道，得江表之歡心，流亡之士赴之如歸。",
+          "subject_person_mention_id": "c-jinshu-061-huayi:p001:m0000",
+          "object_person_mention_id": "c-jinshu-061-huayi:p001:m0014"
+        }
+      ],
+      "status": "source_attested",
+      "interpretation_note": "本傳稱曾孫。",
+      "reviewer": "Codex（AI代理）",
+      "model": null,
+      "human_reviewed": false
     },
     {
       "id": "a-w044-huabiao-sg-博",

@@ -1,0 +1,210 @@
+{
+  "schema_version": 1,
+  "id": "t9b_lqo_yfi",
+  "canonical_person_id": "t9b_lqo_yfi",
+  "label": "熊縉",
+  "identity_note": "熊縉，見本組原文及身份互校。",
+  "review": "ai_provisional",
+  "names": [
+    "縉"
+  ],
+  "titles": [],
+  "addresses": [],
+  "occurrences": [
+    {
+      "number": 71,
+      "category": "",
+      "title": "晉書卷七十一·熊縉、熊鳴鵠",
+      "paragraph_id": "c-jinshu-071-xiongjin:p001",
+      "count": 2,
+      "raw_count": 2,
+      "duplicate_count": 0,
+      "counting_policy": "independent_fixed_witness_occurrences",
+      "quote": "遠弟縉，名亞於遠，為王敦主簿，終於鄱陽太守。縉子鳴鵠，位至武昌太守。",
+      "paragraph_ids": [
+        "c-jinshu-071-xiongjin:p001"
+      ],
+      "mention_ids": [
+        "c-jinshu-071-xiongjin:p001:m0002",
+        "c-jinshu-071-xiongjin:p001:m0022"
+      ],
+      "mention_paragraph_ids": {
+        "c-jinshu-071-xiongjin:p001:m0002": "c-jinshu-071-xiongjin:p001",
+        "c-jinshu-071-xiongjin:p001:m0022": "c-jinshu-071-xiongjin:p001"
+      },
+      "mention_id": "c-jinshu-071-xiongjin:p001:m0002",
+      "occurrence_groups": [
+        {
+          "canonical_mention_id": "c-jinshu-071-xiongjin:p001:m0002",
+          "mention_ids": [
+            "c-jinshu-071-xiongjin:p001:m0002"
+          ],
+          "kind": "paragraph"
+        },
+        {
+          "canonical_mention_id": "c-jinshu-071-xiongjin:p001:m0022",
+          "mention_ids": [
+            "c-jinshu-071-xiongjin:p001:m0022"
+          ],
+          "kind": "paragraph"
+        }
+      ],
+      "work_id": "w-jinshu",
+      "book_id": "b-jinshu-071",
+      "chapter_id": "c-jinshu-071-xiongjin",
+      "source_id": "s-jinshu-071-xiongjin-ws2595541",
+      "work_title": "晉書"
+    }
+  ],
+  "table_occurrences": [],
+  "sources": [
+    {
+      "chapter_id": "c-jinshu-071-xiongjin",
+      "work_id": "w-jinshu",
+      "book_id": "b-jinshu-071",
+      "source_id": "s-jinshu-071-xiongjin-ws2595541",
+      "source": {
+        "title": "晉書卷七十一·熊縉、熊鳴鵠",
+        "provider": "Wikisource",
+        "permalink": "https://zh.wikisource.org/w/index.php?oldid=2595541",
+        "url": "https://zh.wikisource.org/w/index.php?oldid=2595541",
+        "revision_id": 2595541,
+        "edition": "維基文庫固定修訂",
+        "accessed_on": "2026-11-22",
+        "review_status": "text_checked",
+        "image_verified": false,
+        "rights": "古代原文；數位轉錄依維基文庫授權。",
+        "license_url": "https://creativecommons.org/licenses/by-sa/4.0/",
+        "extent": "晉書卷七十一·熊縉、熊鳴鵠",
+        "text_scope": "complete_biography_unit",
+        "raw_path": "source-evidence/jin071-roll/ws2595541.wikitext",
+        "raw_file_sha256": "644b3e2fd382b741cfeff866793c83fe852be3ea920fe88ba4cca8e223307d94",
+        "collation_witnesses": [
+          "source-evidence/jin071-roll/volume-reading.json"
+        ]
+      }
+    }
+  ],
+  "relations": [
+    {
+      "id": "a-jin071-xiongjin-brother",
+      "subject_person_id": "t9b_lqo_yfi",
+      "object_person_id": "27t_9yx_pnm",
+      "predicate": "brother",
+      "qualifiers": {
+        "source_term": "遠弟縉"
+      },
+      "evidence": [
+        {
+          "work_id": "w-jinshu",
+          "book_id": "b-jinshu-071",
+          "chapter_id": "c-jinshu-071-xiongjin",
+          "source_id": "s-jinshu-071-xiongjin-ws2595541",
+          "paragraph_id": "c-jinshu-071-xiongjin:p001",
+          "quote": "遠弟縉，名亞於遠，為王敦主簿，終於鄱陽太守。縉子鳴鵠，位至武昌太守。",
+          "subject_person_mention_id": "c-jinshu-071-xiongjin:p001:m0002",
+          "object_person_mention_id": "c-jinshu-071-xiongjin:p001:m0000"
+        }
+      ],
+      "status": "source_attested",
+      "interpretation_note": "熊遠之弟。",
+      "reviewer": "Codex（AI代理）",
+      "model": null,
+      "human_reviewed": false
+    },
+    {
+      "id": "a-jin071-xiongminghu-father",
+      "subject_person_id": "jt0_wbg_2s5",
+      "object_person_id": "t9b_lqo_yfi",
+      "predicate": "father",
+      "qualifiers": {
+        "source_term": "縉子鳴鵠"
+      },
+      "evidence": [
+        {
+          "work_id": "w-jinshu",
+          "book_id": "b-jinshu-071",
+          "chapter_id": "c-jinshu-071-xiongjin",
+          "source_id": "s-jinshu-071-xiongjin-ws2595541",
+          "paragraph_id": "c-jinshu-071-xiongjin:p001",
+          "quote": "遠弟縉，名亞於遠，為王敦主簿，終於鄱陽太守。縉子鳴鵠，位至武昌太守。",
+          "subject_person_mention_id": "c-jinshu-071-xiongjin:p001:m0024",
+          "object_person_mention_id": "c-jinshu-071-xiongjin:p001:m0002"
+        }
+      ],
+      "status": "source_attested",
+      "interpretation_note": "鳴鵠之父為縉。",
+      "reviewer": "Codex（AI代理）",
+      "model": null,
+      "human_reviewed": false
+    }
+  ],
+  "related_people": {
+    "27t_9yx_pnm": "熊遠",
+    "jt0_wbg_2s5": "熊鳴鵠",
+    "t9b_lqo_yfi": "熊縉"
+  },
+  "dates": [],
+  "name_components": [],
+  "person_ids": [
+    "t9b_lqo_yfi"
+  ],
+  "preferred_relations": [
+    {
+      "id": "a-jin071-xiongjin-brother",
+      "subject_person_id": "t9b_lqo_yfi",
+      "object_person_id": "27t_9yx_pnm",
+      "predicate": "brother",
+      "qualifiers": {
+        "source_term": "遠弟縉"
+      },
+      "evidence": [
+        {
+          "work_id": "w-jinshu",
+          "book_id": "b-jinshu-071",
+          "chapter_id": "c-jinshu-071-xiongjin",
+          "source_id": "s-jinshu-071-xiongjin-ws2595541",
+          "paragraph_id": "c-jinshu-071-xiongjin:p001",
+          "quote": "遠弟縉，名亞於遠，為王敦主簿，終於鄱陽太守。縉子鳴鵠，位至武昌太守。",
+          "subject_person_mention_id": "c-jinshu-071-xiongjin:p001:m0002",
+          "object_person_mention_id": "c-jinshu-071-xiongjin:p001:m0000"
+        }
+      ],
+      "status": "source_attested",
+      "interpretation_note": "熊遠之弟。",
+      "reviewer": "Codex（AI代理）",
+      "model": null,
+      "human_reviewed": false
+    },
+    {
+      "id": "a-jin071-xiongminghu-father",
+      "subject_person_id": "jt0_wbg_2s5",
+      "object_person_id": "t9b_lqo_yfi",
+      "predicate": "father",
+      "qualifiers": {
+        "source_term": "縉子鳴鵠"
+      },
+      "evidence": [
+        {
+          "work_id": "w-jinshu",
+          "book_id": "b-jinshu-071",
+          "chapter_id": "c-jinshu-071-xiongjin",
+          "source_id": "s-jinshu-071-xiongjin-ws2595541",
+          "paragraph_id": "c-jinshu-071-xiongjin:p001",
+          "quote": "遠弟縉，名亞於遠，為王敦主簿，終於鄱陽太守。縉子鳴鵠，位至武昌太守。",
+          "subject_person_mention_id": "c-jinshu-071-xiongjin:p001:m0024",
+          "object_person_mention_id": "c-jinshu-071-xiongjin:p001:m0002"
+        }
+      ],
+      "status": "source_attested",
+      "interpretation_note": "鳴鵠之父為縉。",
+      "reviewer": "Codex（AI代理）",
+      "model": null,
+      "human_reviewed": false
+    }
+  ],
+  "age_assertions": [],
+  "life_events": [],
+  "life_event_date_decisions": [],
+  "selected_life_event_dates": []
+}

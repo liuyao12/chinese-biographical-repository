@@ -1,0 +1,201 @@
+{
+  "schema_version": 1,
+  "id": "iux_dz0_8y7",
+  "canonical_person_id": "iux_dz0_8y7",
+  "label": "王氏〔王浚女、段務勿塵妻〕",
+  "identity_note": "王氏〔王浚女、段務勿塵妻〕，見本組原文及身份互校。",
+  "review": "ai_provisional",
+  "names": [
+    "女"
+  ],
+  "titles": [],
+  "addresses": [],
+  "occurrences": [
+    {
+      "number": 63,
+      "category": "",
+      "title": "晉書卷六十三·段匹磾",
+      "paragraph_id": "c-jinshu-063-duanpidi:p001",
+      "count": 1,
+      "raw_count": 1,
+      "duplicate_count": 0,
+      "counting_policy": "independent_fixed_witness_occurrences",
+      "quote": "為大人。父務勿塵，遣軍助東海王越征討有功，王浚表為親晉王，封遼西公，嫁女與務勿塵，以結鄰援。懷帝即位，以務勿塵為大單于，匹磾為左賢王，率眾助國征討，假撫軍大將軍。務勿塵死，弟涉復辰以務勿塵子疾陸眷襲號。",
+      "paragraph_ids": [
+        "c-jinshu-063-duanpidi:p001"
+      ],
+      "mention_ids": [
+        "c-jinshu-063-duanpidi:p001:m0052"
+      ],
+      "mention_paragraph_ids": {
+        "c-jinshu-063-duanpidi:p001:m0052": "c-jinshu-063-duanpidi:p001"
+      },
+      "mention_id": "c-jinshu-063-duanpidi:p001:m0052",
+      "occurrence_groups": [
+        {
+          "canonical_mention_id": "c-jinshu-063-duanpidi:p001:m0052",
+          "mention_ids": [
+            "c-jinshu-063-duanpidi:p001:m0052"
+          ],
+          "kind": "paragraph"
+        }
+      ],
+      "work_id": "w-jinshu",
+      "book_id": "b-jinshu-063",
+      "chapter_id": "c-jinshu-063-duanpidi",
+      "source_id": "s-jinshu-063-duanpidi-ws2025242",
+      "work_title": "晉書"
+    }
+  ],
+  "table_occurrences": [],
+  "sources": [
+    {
+      "chapter_id": "c-jinshu-063-duanpidi",
+      "work_id": "w-jinshu",
+      "book_id": "b-jinshu-063",
+      "source_id": "s-jinshu-063-duanpidi-ws2025242",
+      "source": {
+        "title": "晉書卷六十三·段匹磾",
+        "provider": "Wikisource",
+        "permalink": "https://zh.wikisource.org/w/index.php?oldid=2025242",
+        "url": "https://zh.wikisource.org/w/index.php?oldid=2025242",
+        "revision_id": 2025242,
+        "edition": "維基文庫固定修訂",
+        "accessed_on": "2026-11-22",
+        "review_status": "text_checked",
+        "image_verified": false,
+        "rights": "古代原文；數位轉錄依維基文庫授權。",
+        "license_url": "https://creativecommons.org/licenses/by-sa/4.0/",
+        "extent": "晉書卷六十三·段匹磾",
+        "text_scope": "complete_biography_unit",
+        "raw_path": "source-evidence/jin063-roll/ws2025242.wikitext",
+        "raw_file_sha256": "0280d39ae0278603314f6e33f9e12f7399905458e82d718caa2de68175f426d7",
+        "collation_witnesses": [
+          "source-evidence/jin063-roll/volume-reading.json"
+        ]
+      }
+    }
+  ],
+  "relations": [
+    {
+      "id": "a-jin063-wangjun-daughter",
+      "subject_person_id": "iux_dz0_8y7",
+      "object_person_id": "9c1_ff0_1b5",
+      "predicate": "father",
+      "qualifiers": {
+        "source_term": "王浚表為親晉王，封遼西公，嫁女"
+      },
+      "evidence": [
+        {
+          "work_id": "w-jinshu",
+          "book_id": "b-jinshu-063",
+          "chapter_id": "c-jinshu-063-duanpidi",
+          "source_id": "s-jinshu-063-duanpidi-ws2025242",
+          "paragraph_id": "c-jinshu-063-duanpidi:p001",
+          "quote": "段匹磾，東部鮮卑人也。種類勁健，世為大人。父務勿塵，遣軍助東海王越征討有功，王浚表為親晉王，封遼西公，嫁女與務勿塵，以結鄰援。懷帝即位，以務勿塵為大單于，匹磾為左賢王，率眾助國征討，假撫軍大將軍。務勿塵死，弟涉復辰以務勿塵子疾陸眷襲號。",
+          "subject_person_mention_id": "c-jinshu-063-duanpidi:p001:m0052",
+          "object_person_mention_id": "c-jinshu-063-duanpidi:p001:m0038"
+        }
+      ],
+      "status": "source_attested",
+      "interpretation_note": "嫁女主語上承王浚。",
+      "reviewer": "Codex（AI代理）",
+      "model": null,
+      "human_reviewed": false
+    },
+    {
+      "id": "a-jin063-duan-wuwuchen-spouse",
+      "subject_person_id": "iux_dz0_8y7",
+      "object_person_id": "smo_e2h_sw9",
+      "predicate": "spouse",
+      "qualifiers": {
+        "source_term": "嫁女與務勿塵"
+      },
+      "evidence": [
+        {
+          "work_id": "w-jinshu",
+          "book_id": "b-jinshu-063",
+          "chapter_id": "c-jinshu-063-duanpidi",
+          "source_id": "s-jinshu-063-duanpidi-ws2025242",
+          "paragraph_id": "c-jinshu-063-duanpidi:p001",
+          "quote": "段匹磾，東部鮮卑人也。種類勁健，世為大人。父務勿塵，遣軍助東海王越征討有功，王浚表為親晉王，封遼西公，嫁女與務勿塵，以結鄰援。懷帝即位，以務勿塵為大單于，匹磾為左賢王，率眾助國征討，假撫軍大將軍。務勿塵死，弟涉復辰以務勿塵子疾陸眷襲號。",
+          "subject_person_mention_id": "c-jinshu-063-duanpidi:p001:m0052",
+          "object_person_mention_id": "c-jinshu-063-duanpidi:p001:m0022"
+        }
+      ],
+      "status": "source_attested",
+      "interpretation_note": "女未具名，王浚作嫁者。",
+      "reviewer": "Codex（AI代理）",
+      "model": null,
+      "human_reviewed": false
+    }
+  ],
+  "related_people": {
+    "9c1_ff0_1b5": "王浚（幽州承制，王沈子）",
+    "iux_dz0_8y7": "王氏〔王浚女、段務勿塵妻〕",
+    "smo_e2h_sw9": "段務勿塵"
+  },
+  "dates": [],
+  "name_components": [],
+  "person_ids": [
+    "iux_dz0_8y7"
+  ],
+  "preferred_relations": [
+    {
+      "id": "a-jin063-wangjun-daughter",
+      "subject_person_id": "iux_dz0_8y7",
+      "object_person_id": "9c1_ff0_1b5",
+      "predicate": "father",
+      "qualifiers": {
+        "source_term": "王浚表為親晉王，封遼西公，嫁女"
+      },
+      "evidence": [
+        {
+          "work_id": "w-jinshu",
+          "book_id": "b-jinshu-063",
+          "chapter_id": "c-jinshu-063-duanpidi",
+          "source_id": "s-jinshu-063-duanpidi-ws2025242",
+          "paragraph_id": "c-jinshu-063-duanpidi:p001",
+          "quote": "段匹磾，東部鮮卑人也。種類勁健，世為大人。父務勿塵，遣軍助東海王越征討有功，王浚表為親晉王，封遼西公，嫁女與務勿塵，以結鄰援。懷帝即位，以務勿塵為大單于，匹磾為左賢王，率眾助國征討，假撫軍大將軍。務勿塵死，弟涉復辰以務勿塵子疾陸眷襲號。",
+          "subject_person_mention_id": "c-jinshu-063-duanpidi:p001:m0052",
+          "object_person_mention_id": "c-jinshu-063-duanpidi:p001:m0038"
+        }
+      ],
+      "status": "source_attested",
+      "interpretation_note": "嫁女主語上承王浚。",
+      "reviewer": "Codex（AI代理）",
+      "model": null,
+      "human_reviewed": false
+    },
+    {
+      "id": "a-jin063-duan-wuwuchen-spouse",
+      "subject_person_id": "iux_dz0_8y7",
+      "object_person_id": "smo_e2h_sw9",
+      "predicate": "spouse",
+      "qualifiers": {
+        "source_term": "嫁女與務勿塵"
+      },
+      "evidence": [
+        {
+          "work_id": "w-jinshu",
+          "book_id": "b-jinshu-063",
+          "chapter_id": "c-jinshu-063-duanpidi",
+          "source_id": "s-jinshu-063-duanpidi-ws2025242",
+          "paragraph_id": "c-jinshu-063-duanpidi:p001",
+          "quote": "段匹磾，東部鮮卑人也。種類勁健，世為大人。父務勿塵，遣軍助東海王越征討有功，王浚表為親晉王，封遼西公，嫁女與務勿塵，以結鄰援。懷帝即位，以務勿塵為大單于，匹磾為左賢王，率眾助國征討，假撫軍大將軍。務勿塵死，弟涉復辰以務勿塵子疾陸眷襲號。",
+          "subject_person_mention_id": "c-jinshu-063-duanpidi:p001:m0052",
+          "object_person_mention_id": "c-jinshu-063-duanpidi:p001:m0022"
+        }
+      ],
+      "status": "source_attested",
+      "interpretation_note": "女未具名，王浚作嫁者。",
+      "reviewer": "Codex（AI代理）",
+      "model": null,
+      "human_reviewed": false
+    }
+  ],
+  "age_assertions": [],
+  "life_events": [],
+  "life_event_date_decisions": [],
+  "selected_life_event_dates": []
+}

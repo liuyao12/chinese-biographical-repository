@@ -12,7 +12,8 @@
     "元琳",
     "王掾",
     "王",
-    "旬"
+    "旬",
+    "王殉"
   ],
   "titles": [
     {
@@ -2586,6 +2587,61 @@
       "work_title": "宋書"
     },
     {
+      "number": 64,
+      "category": "",
+      "title": "晉書卷六十四·司馬道子",
+      "paragraph_id": "c-jinshu-064-simadaozi:p005",
+      "count": 3,
+      "raw_count": 3,
+      "duplicate_count": 0,
+      "counting_policy": "independent_fixed_witness_occurrences",
+      "quote": "」疏奏，帝益不平，而逼於太妃，無所廢黜，乃出王恭為兗州，殷仲堪為荊州，王珣為僕射，王雅為太子少傳，以張王室，而潛制道子也。道子復委任王緒，由是朋黨競扇，友愛道盡。太妃每和解之，而道子不能改。",
+      "paragraph_ids": [
+        "c-jinshu-064-simadaozi:p005",
+        "c-jinshu-064-simadaozi:p007",
+        "c-jinshu-064-simadaozi:p010"
+      ],
+      "mention_ids": [
+        "c-jinshu-064-simadaozi:p005:m0255",
+        "c-jinshu-064-simadaozi:p007:m0112",
+        "c-jinshu-064-simadaozi:p010:m0493"
+      ],
+      "mention_paragraph_ids": {
+        "c-jinshu-064-simadaozi:p005:m0255": "c-jinshu-064-simadaozi:p005",
+        "c-jinshu-064-simadaozi:p007:m0112": "c-jinshu-064-simadaozi:p007",
+        "c-jinshu-064-simadaozi:p010:m0493": "c-jinshu-064-simadaozi:p010"
+      },
+      "mention_id": "c-jinshu-064-simadaozi:p005:m0255",
+      "occurrence_groups": [
+        {
+          "canonical_mention_id": "c-jinshu-064-simadaozi:p005:m0255",
+          "mention_ids": [
+            "c-jinshu-064-simadaozi:p005:m0255"
+          ],
+          "kind": "paragraph"
+        },
+        {
+          "canonical_mention_id": "c-jinshu-064-simadaozi:p007:m0112",
+          "mention_ids": [
+            "c-jinshu-064-simadaozi:p007:m0112"
+          ],
+          "kind": "paragraph"
+        },
+        {
+          "canonical_mention_id": "c-jinshu-064-simadaozi:p010:m0493",
+          "mention_ids": [
+            "c-jinshu-064-simadaozi:p010:m0493"
+          ],
+          "kind": "paragraph"
+        }
+      ],
+      "work_id": "w-jinshu",
+      "book_id": "b-jinshu-064",
+      "chapter_id": "c-jinshu-064-simadaozi",
+      "source_id": "s-jinshu-064-simadaozi-ws2622004",
+      "work_title": "晉書"
+    },
+    {
       "number": 65,
       "category": "",
       "title": "王導及子孫附傳（卷六十五完整數位正文）",
@@ -3173,6 +3229,32 @@
         "image_verified": false,
         "rights": "古代原文及維基文庫數位轉錄；保留見證歸屬。",
         "license_url": "https://creativecommons.org/licenses/by-sa/4.0/"
+      }
+    },
+    {
+      "chapter_id": "c-jinshu-064-simadaozi",
+      "work_id": "w-jinshu",
+      "book_id": "b-jinshu-064",
+      "source_id": "s-jinshu-064-simadaozi-ws2622004",
+      "source": {
+        "title": "晉書卷六十四·司馬道子",
+        "provider": "Wikisource",
+        "permalink": "https://zh.wikisource.org/w/index.php?oldid=2622004",
+        "url": "https://zh.wikisource.org/w/index.php?oldid=2622004",
+        "revision_id": 2622004,
+        "edition": "維基文庫固定修訂",
+        "accessed_on": "2026-11-22",
+        "review_status": "text_checked",
+        "image_verified": false,
+        "rights": "古代原文；數位轉錄依維基文庫授權。",
+        "license_url": "https://creativecommons.org/licenses/by-sa/4.0/",
+        "extent": "晉書卷六十四·司馬道子",
+        "text_scope": "complete_biography_unit",
+        "raw_path": "source-evidence/jin064-roll/ws2622004.wikitext",
+        "raw_file_sha256": "b4c389968a1af2d99c2a6ad4a8afa3e6a4706f845194c0ce283f41927afae31f",
+        "collation_witnesses": [
+          "source-evidence/jin064-roll/volume-reading.json"
+        ]
       }
     },
     {
@@ -10739,6 +10821,22 @@
           "image_verified": false
         }
       ]
+    }
+  ],
+  "source_reading_cases": [
+    {
+      "id": "c-jinshu-064-simadaozi:identity7-108",
+      "kind": "identity",
+      "person_id": "7r6_k52_qji_ABAAAA",
+      "source_quote": "法護，即王殉",
+      "reading": "原字殉。核卷六十五王珣本傳明記法護為珣小字，且與王瑉小字僧彌相辨。",
+      "note": "原字殉。核卷六十五王珣本傳明記法護為珣小字，且與王瑉小字僧彌相辨。",
+      "paragraph_id": "c-jinshu-064-simadaozi:p007",
+      "start_codepoint": 108,
+      "end_codepoint": 114,
+      "human_reviewed": false,
+      "chapter_id": "c-jinshu-064-simadaozi",
+      "source_id": "s-jinshu-064-simadaozi-ws2622004"
     }
   ],
   "person_references": [

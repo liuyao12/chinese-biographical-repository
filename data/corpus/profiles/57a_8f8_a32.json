@@ -1279,6 +1279,41 @@
       "chapter_id": "c-sanguozhi-065-weiyiao-complete",
       "source_id": "s-sanguozhi-065-weiyiao-complete-ws2589669",
       "work_title": "三國志"
+    },
+    {
+      "number": 68,
+      "category": "",
+      "title": "晉書卷六十八·薛兼",
+      "paragraph_id": "c-jinshu-068-xuejian:p001",
+      "count": 1,
+      "raw_count": 1,
+      "duplicate_count": 0,
+      "counting_policy": "independent_fixed_witness_occurrences",
+      "quote": "薛兼，字令長，丹陽人也。祖綜，仕吳為尚書僕射。父瑩，有名吳朝。吳平，為散騎常侍。兼清素有器宇，少與同郡紀瞻、廣陵閔鴻、吳郡顧榮、會稽賀循齊名，號為「五俊」。初入洛，司空張華見而奇之，曰：「皆南金也。」察河南孝謙，辟公府，除比陽相，蒞任有能名。曆太子洗",
+      "paragraph_ids": [
+        "c-jinshu-068-xuejian:p001"
+      ],
+      "mention_ids": [
+        "c-jinshu-068-xuejian:p001:m0024"
+      ],
+      "mention_paragraph_ids": {
+        "c-jinshu-068-xuejian:p001:m0024": "c-jinshu-068-xuejian:p001"
+      },
+      "mention_id": "c-jinshu-068-xuejian:p001:m0024",
+      "occurrence_groups": [
+        {
+          "canonical_mention_id": "c-jinshu-068-xuejian:p001:m0024",
+          "mention_ids": [
+            "c-jinshu-068-xuejian:p001:m0024"
+          ],
+          "kind": "paragraph"
+        }
+      ],
+      "work_id": "w-jinshu",
+      "book_id": "b-jinshu-068",
+      "chapter_id": "c-jinshu-068-xuejian",
+      "source_id": "s-jinshu-068-xuejian-ws2581578",
+      "work_title": "晉書"
     }
   ],
   "table_occurrences": [],
@@ -1751,6 +1786,32 @@
       }
     },
     {
+      "chapter_id": "c-jinshu-068-xuejian",
+      "work_id": "w-jinshu",
+      "book_id": "b-jinshu-068",
+      "source_id": "s-jinshu-068-xuejian-ws2581578",
+      "source": {
+        "title": "晉書卷六十八·薛兼",
+        "provider": "Wikisource",
+        "permalink": "https://zh.wikisource.org/w/index.php?oldid=2581578",
+        "url": "https://zh.wikisource.org/w/index.php?oldid=2581578",
+        "revision_id": 2581578,
+        "edition": "維基文庫固定修訂",
+        "accessed_on": "2026-11-22",
+        "review_status": "text_checked",
+        "image_verified": false,
+        "rights": "古代原文；數位轉錄依維基文庫授權。",
+        "license_url": "https://creativecommons.org/licenses/by-sa/4.0/",
+        "extent": "晉書卷六十八·薛兼",
+        "text_scope": "complete_biography_unit",
+        "raw_path": "source-evidence/jin068-roll/ws2581578.wikitext",
+        "raw_file_sha256": "51c836e14087ecf3b0f6577aae470c286607c067dd0331e306b5a3c42f3d10dc",
+        "collation_witnesses": [
+          "source-evidence/jin068-roll/volume-reading.json"
+        ]
+      }
+    },
+    {
       "chapter_id": "c-sanguozhi-052-zhouzhao-complete",
       "work_id": "w-sanguozhi",
       "book_id": "b-sanguozhi-052",
@@ -2008,6 +2069,32 @@
     }
   ],
   "relations": [
+    {
+      "id": "a-jin068-xueying-father",
+      "subject_person_id": "i8f_2hf_xm5",
+      "object_person_id": "57a_8f8_a32",
+      "predicate": "father",
+      "qualifiers": {
+        "source_term": "父瑩，有名吳朝"
+      },
+      "evidence": [
+        {
+          "work_id": "w-jinshu",
+          "book_id": "b-jinshu-068",
+          "chapter_id": "c-jinshu-068-xuejian",
+          "source_id": "s-jinshu-068-xuejian-ws2581578",
+          "paragraph_id": "c-jinshu-068-xuejian:p001",
+          "quote": "薛兼，字令長，丹陽人也。祖綜，仕吳為尚書僕射。父瑩，有名吳朝。吳平，為散騎常侍。兼清素有器宇，少與同郡紀瞻、廣陵閔鴻、吳郡顧榮、會稽賀循齊名，號為「五俊」。初入洛，司空張華見而奇之，曰：「皆南金也。」察河南孝謙，辟公府，除比陽相，蒞任有能名。曆太子洗馬、散騎常侍、懷令。司空、東海王越引為參軍，轉祭酒，賜爵安陽亭侯。元帝為安東將軍，以為軍諮祭酒，稍遷丞相長史。甚勤王事，以上佐祿優，每自約損，取周而已。進爵安陽鄉侯，拜丹陽太守。中興建，轉尹，加秩中二千石，遷尚書，領太子少傅。自綜至兼，三世傅東宮，談者美之。",
+          "subject_person_mention_id": "c-jinshu-068-xuejian:p001:m0000",
+          "object_person_mention_id": "c-jinshu-068-xuejian:p001:m0024"
+        }
+      ],
+      "status": "source_attested",
+      "interpretation_note": "吳平後為散騎常侍。",
+      "reviewer": "Codex（AI代理）",
+      "model": null,
+      "human_reviewed": false
+    },
     {
       "id": "a-wu053-xueying-0",
       "subject_person_id": "57a_8f8_a32",
@@ -2277,6 +2364,32 @@
     "57a_8f8_a32"
   ],
   "preferred_relations": [
+    {
+      "id": "a-jin068-xueying-father",
+      "subject_person_id": "i8f_2hf_xm5",
+      "object_person_id": "57a_8f8_a32",
+      "predicate": "father",
+      "qualifiers": {
+        "source_term": "父瑩，有名吳朝"
+      },
+      "evidence": [
+        {
+          "work_id": "w-jinshu",
+          "book_id": "b-jinshu-068",
+          "chapter_id": "c-jinshu-068-xuejian",
+          "source_id": "s-jinshu-068-xuejian-ws2581578",
+          "paragraph_id": "c-jinshu-068-xuejian:p001",
+          "quote": "薛兼，字令長，丹陽人也。祖綜，仕吳為尚書僕射。父瑩，有名吳朝。吳平，為散騎常侍。兼清素有器宇，少與同郡紀瞻、廣陵閔鴻、吳郡顧榮、會稽賀循齊名，號為「五俊」。初入洛，司空張華見而奇之，曰：「皆南金也。」察河南孝謙，辟公府，除比陽相，蒞任有能名。曆太子洗馬、散騎常侍、懷令。司空、東海王越引為參軍，轉祭酒，賜爵安陽亭侯。元帝為安東將軍，以為軍諮祭酒，稍遷丞相長史。甚勤王事，以上佐祿優，每自約損，取周而已。進爵安陽鄉侯，拜丹陽太守。中興建，轉尹，加秩中二千石，遷尚書，領太子少傅。自綜至兼，三世傅東宮，談者美之。",
+          "subject_person_mention_id": "c-jinshu-068-xuejian:p001:m0000",
+          "object_person_mention_id": "c-jinshu-068-xuejian:p001:m0024"
+        }
+      ],
+      "status": "source_attested",
+      "interpretation_note": "吳平後為散騎常侍。",
+      "reviewer": "Codex（AI代理）",
+      "model": null,
+      "human_reviewed": false
+    },
     {
       "id": "a-wu053-xueying-0",
       "subject_person_id": "57a_8f8_a32",

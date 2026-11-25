@@ -1,0 +1,148 @@
+{
+  "schema_version": 1,
+  "id": "lqg_2wn_tws",
+  "canonical_person_id": "lqg_2wn_tws",
+  "label": "戴烈",
+  "identity_note": "戴烈，見本組原文及身份互校。",
+  "review": "ai_provisional",
+  "names": [
+    "烈"
+  ],
+  "titles": [],
+  "addresses": [],
+  "occurrences": [
+    {
+      "number": 69,
+      "category": "",
+      "title": "晉書卷六十九·戴若思",
+      "paragraph_id": "c-jinshu-069-dairuosi:p001",
+      "count": 1,
+      "raw_count": 1,
+      "duplicate_count": 0,
+      "counting_policy": "independent_fixed_witness_occurrences",
+      "quote": "戴若思，廣陵人也，名犯高祖廟諱。祖烈，吳左將軍。父昌，會稽太守。若思有風儀，性閑爽，少好遊俠，不拘操行。遇陸機赴洛，船裝甚盛，遂與其徒掠之。若思登岸，據胡床，指麾同旅，皆得其宜。機察見之，知非常人，在舫屋上遙謂之曰：「卿才器如此，乃復作",
+      "paragraph_ids": [
+        "c-jinshu-069-dairuosi:p001"
+      ],
+      "mention_ids": [
+        "c-jinshu-069-dairuosi:p001:m0017"
+      ],
+      "mention_paragraph_ids": {
+        "c-jinshu-069-dairuosi:p001:m0017": "c-jinshu-069-dairuosi:p001"
+      },
+      "mention_id": "c-jinshu-069-dairuosi:p001:m0017",
+      "occurrence_groups": [
+        {
+          "canonical_mention_id": "c-jinshu-069-dairuosi:p001:m0017",
+          "mention_ids": [
+            "c-jinshu-069-dairuosi:p001:m0017"
+          ],
+          "kind": "paragraph"
+        }
+      ],
+      "work_id": "w-jinshu",
+      "book_id": "b-jinshu-069",
+      "chapter_id": "c-jinshu-069-dairuosi",
+      "source_id": "s-jinshu-069-dairuosi-ws2012453",
+      "work_title": "晉書"
+    }
+  ],
+  "table_occurrences": [],
+  "sources": [
+    {
+      "chapter_id": "c-jinshu-069-dairuosi",
+      "work_id": "w-jinshu",
+      "book_id": "b-jinshu-069",
+      "source_id": "s-jinshu-069-dairuosi-ws2012453",
+      "source": {
+        "title": "晉書卷六十九·戴若思",
+        "provider": "Wikisource",
+        "permalink": "https://zh.wikisource.org/w/index.php?oldid=2012453",
+        "url": "https://zh.wikisource.org/w/index.php?oldid=2012453",
+        "revision_id": 2012453,
+        "edition": "維基文庫固定修訂",
+        "accessed_on": "2026-11-22",
+        "review_status": "text_checked",
+        "image_verified": false,
+        "rights": "古代原文；數位轉錄依維基文庫授權。",
+        "license_url": "https://creativecommons.org/licenses/by-sa/4.0/",
+        "extent": "晉書卷六十九·戴若思",
+        "text_scope": "complete_biography_unit",
+        "raw_path": "source-evidence/jin069-roll/ws2012453.wikitext",
+        "raw_file_sha256": "c1e20b58e336495080becb68c3823ada28de1d6cfd202a74c22e053615cc9adf",
+        "collation_witnesses": [
+          "source-evidence/jin069-roll/volume-reading.json"
+        ]
+      }
+    }
+  ],
+  "relations": [
+    {
+      "id": "a-jin069-dailie-grandfather",
+      "subject_person_id": "d9d_ab2_a72",
+      "object_person_id": "lqg_2wn_tws",
+      "predicate": "grandfather",
+      "qualifiers": {
+        "source_term": "祖烈，吳左將軍"
+      },
+      "evidence": [
+        {
+          "work_id": "w-jinshu",
+          "book_id": "b-jinshu-069",
+          "chapter_id": "c-jinshu-069-dairuosi",
+          "source_id": "s-jinshu-069-dairuosi-ws2012453",
+          "paragraph_id": "c-jinshu-069-dairuosi:p001",
+          "quote": "戴若思，廣陵人也，名犯高祖廟諱。祖烈，吳左將軍。父昌，會稽太守。若思有風儀，性閑爽，少好遊俠，不拘操行。遇陸機赴洛，船裝甚盛，遂與其徒掠之。若思登岸，據胡床，指麾同旅，皆得其宜。機察見之，知非常人，在舫屋上遙謂之曰：「卿才器如此，乃復作劫邪！」若思感悟，因流涕，投劍就之。機與言，深加賞異，遂與定交焉。",
+          "subject_person_mention_id": "c-jinshu-069-dairuosi:p001:m0000",
+          "object_person_mention_id": "c-jinshu-069-dairuosi:p001:m0017"
+        }
+      ],
+      "status": "source_attested",
+      "interpretation_note": "祖烈在吳任左將軍。",
+      "reviewer": "Codex（AI代理）",
+      "model": null,
+      "human_reviewed": false
+    }
+  ],
+  "related_people": {
+    "d9d_ab2_a72": "戴若思",
+    "lqg_2wn_tws": "戴烈"
+  },
+  "dates": [],
+  "name_components": [],
+  "person_ids": [
+    "lqg_2wn_tws"
+  ],
+  "preferred_relations": [
+    {
+      "id": "a-jin069-dailie-grandfather",
+      "subject_person_id": "d9d_ab2_a72",
+      "object_person_id": "lqg_2wn_tws",
+      "predicate": "grandfather",
+      "qualifiers": {
+        "source_term": "祖烈，吳左將軍"
+      },
+      "evidence": [
+        {
+          "work_id": "w-jinshu",
+          "book_id": "b-jinshu-069",
+          "chapter_id": "c-jinshu-069-dairuosi",
+          "source_id": "s-jinshu-069-dairuosi-ws2012453",
+          "paragraph_id": "c-jinshu-069-dairuosi:p001",
+          "quote": "戴若思，廣陵人也，名犯高祖廟諱。祖烈，吳左將軍。父昌，會稽太守。若思有風儀，性閑爽，少好遊俠，不拘操行。遇陸機赴洛，船裝甚盛，遂與其徒掠之。若思登岸，據胡床，指麾同旅，皆得其宜。機察見之，知非常人，在舫屋上遙謂之曰：「卿才器如此，乃復作劫邪！」若思感悟，因流涕，投劍就之。機與言，深加賞異，遂與定交焉。",
+          "subject_person_mention_id": "c-jinshu-069-dairuosi:p001:m0000",
+          "object_person_mention_id": "c-jinshu-069-dairuosi:p001:m0017"
+        }
+      ],
+      "status": "source_attested",
+      "interpretation_note": "祖烈在吳任左將軍。",
+      "reviewer": "Codex（AI代理）",
+      "model": null,
+      "human_reviewed": false
+    }
+  ],
+  "age_assertions": [],
+  "life_events": [],
+  "life_event_date_decisions": [],
+  "selected_life_event_dates": []
+}

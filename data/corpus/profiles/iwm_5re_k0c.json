@@ -54,6 +54,41 @@
       "chapter_id": "c-jinshu-058-zhou-qi",
       "source_id": "s-jinshu-058-zhou-qi-ws1775463",
       "work_title": "晉書"
+    },
+    {
+      "number": 70,
+      "category": "",
+      "title": "晉書卷七十·甘卓",
+      "paragraph_id": "c-jinshu-070-ganzhuo:p001",
+      "count": 1,
+      "raw_count": 1,
+      "duplicate_count": 0,
+      "counting_policy": "independent_fixed_witness_occurrences",
+      "quote": "，共圖縱橫之計，遂爲其子景娶卓女，共相結託。會周玘唱義，密使錢廣攻敏弟昶，敏遣卓討廣，頓朱雀橋南。會廣殺昶，玘告丹楊太守顧榮共邀說卓。卓素敬服榮，且以昶死懷懼，良久乃從之。遂詐疾迎女，斷橋，收船南岸，共滅敏，傳首于京都。",
+      "paragraph_ids": [
+        "c-jinshu-070-ganzhuo:p001"
+      ],
+      "mention_ids": [
+        "c-jinshu-070-ganzhuo:p001:m0163"
+      ],
+      "mention_paragraph_ids": {
+        "c-jinshu-070-ganzhuo:p001:m0163": "c-jinshu-070-ganzhuo:p001"
+      },
+      "mention_id": "c-jinshu-070-ganzhuo:p001:m0163",
+      "occurrence_groups": [
+        {
+          "canonical_mention_id": "c-jinshu-070-ganzhuo:p001:m0163",
+          "mention_ids": [
+            "c-jinshu-070-ganzhuo:p001:m0163"
+          ],
+          "kind": "paragraph"
+        }
+      ],
+      "work_id": "w-jinshu",
+      "book_id": "b-jinshu-070",
+      "chapter_id": "c-jinshu-070-ganzhuo",
+      "source_id": "s-jinshu-070-ganzhuo-ws2595540",
+      "work_title": "晉書"
     }
   ],
   "table_occurrences": [],
@@ -83,18 +118,99 @@
           "source-evidence/jin058-roll/volume-reading.json"
         ]
       }
+    },
+    {
+      "chapter_id": "c-jinshu-070-ganzhuo",
+      "work_id": "w-jinshu",
+      "book_id": "b-jinshu-070",
+      "source_id": "s-jinshu-070-ganzhuo-ws2595540",
+      "source": {
+        "title": "晉書卷七十·甘卓",
+        "provider": "Wikisource",
+        "permalink": "https://zh.wikisource.org/w/index.php?oldid=2595540",
+        "url": "https://zh.wikisource.org/w/index.php?oldid=2595540",
+        "revision_id": 2595540,
+        "edition": "維基文庫固定修訂",
+        "accessed_on": "2026-11-22",
+        "review_status": "text_checked",
+        "image_verified": false,
+        "rights": "古代原文；數位轉錄依維基文庫授權。",
+        "license_url": "https://creativecommons.org/licenses/by-sa/4.0/",
+        "extent": "晉書卷七十·甘卓",
+        "text_scope": "complete_biography_unit",
+        "raw_path": "source-evidence/jin070-roll/ws2595540.wikitext",
+        "raw_file_sha256": "404f84e84c40bc9d73f119d4049da370e53bc396f97804ab30ee306783dd9ef5",
+        "collation_witnesses": [
+          "source-evidence/jin070-roll/volume-reading.json"
+        ]
+      }
     }
   ],
-  "relations": [],
+  "relations": [
+    {
+      "id": "a-jin070-chenchang-brother",
+      "subject_person_id": "iwm_5re_k0c",
+      "object_person_id": "kok_m7n_tux",
+      "predicate": "brother",
+      "qualifiers": {
+        "source_term": "敏弟昶"
+      },
+      "evidence": [
+        {
+          "work_id": "w-jinshu",
+          "book_id": "b-jinshu-070",
+          "chapter_id": "c-jinshu-070-ganzhuo",
+          "source_id": "s-jinshu-070-ganzhuo-ws2595540",
+          "paragraph_id": "c-jinshu-070-ganzhuo:p001",
+          "quote": "甘卓字季思，丹楊人，秦丞相茂之後也。曾祖寧，爲吳將。祖述，仕吳爲尚書。父昌，太子太傅。吳平，卓退居自守。郡命主簿、功曹，察孝廉，州舉秀才，爲吳王常侍。討石冰，以功賜爵都亭侯。東海王越引爲參軍，出補離狐令。卓見天下大亂，棄官東歸，前至歷陽，與陳敏相遇。敏甚悅，共圖縱橫之計，遂爲其子景娶卓女，共相結託。會周玘唱義，密使錢廣攻敏弟昶，敏遣卓討廣，頓朱雀橋南。會廣殺昶，玘告丹楊太守顧榮共邀說卓。卓素敬服榮，且以昶死懷懼，良久乃從之。遂詐疾迎女，斷橋，收船南岸，共滅敏，傳首于京都。",
+          "subject_person_mention_id": "c-jinshu-070-ganzhuo:p001:m0163",
+          "object_person_mention_id": "c-jinshu-070-ganzhuo:p001:m0120"
+        }
+      ],
+      "status": "source_attested",
+      "interpretation_note": "原文敏弟昶。",
+      "reviewer": "Codex（AI代理）",
+      "model": null,
+      "human_reviewed": false
+    }
+  ],
   "related_people": {
-    "iwm_5re_k0c": "陳昶〔陳敏弟〕"
+    "iwm_5re_k0c": "陳昶〔陳敏弟〕",
+    "kok_m7n_tux": "陳敏"
   },
   "dates": [],
   "name_components": [],
   "person_ids": [
     "iwm_5re_k0c"
   ],
-  "preferred_relations": [],
+  "preferred_relations": [
+    {
+      "id": "a-jin070-chenchang-brother",
+      "subject_person_id": "iwm_5re_k0c",
+      "object_person_id": "kok_m7n_tux",
+      "predicate": "brother",
+      "qualifiers": {
+        "source_term": "敏弟昶"
+      },
+      "evidence": [
+        {
+          "work_id": "w-jinshu",
+          "book_id": "b-jinshu-070",
+          "chapter_id": "c-jinshu-070-ganzhuo",
+          "source_id": "s-jinshu-070-ganzhuo-ws2595540",
+          "paragraph_id": "c-jinshu-070-ganzhuo:p001",
+          "quote": "甘卓字季思，丹楊人，秦丞相茂之後也。曾祖寧，爲吳將。祖述，仕吳爲尚書。父昌，太子太傅。吳平，卓退居自守。郡命主簿、功曹，察孝廉，州舉秀才，爲吳王常侍。討石冰，以功賜爵都亭侯。東海王越引爲參軍，出補離狐令。卓見天下大亂，棄官東歸，前至歷陽，與陳敏相遇。敏甚悅，共圖縱橫之計，遂爲其子景娶卓女，共相結託。會周玘唱義，密使錢廣攻敏弟昶，敏遣卓討廣，頓朱雀橋南。會廣殺昶，玘告丹楊太守顧榮共邀說卓。卓素敬服榮，且以昶死懷懼，良久乃從之。遂詐疾迎女，斷橋，收船南岸，共滅敏，傳首于京都。",
+          "subject_person_mention_id": "c-jinshu-070-ganzhuo:p001:m0163",
+          "object_person_mention_id": "c-jinshu-070-ganzhuo:p001:m0120"
+        }
+      ],
+      "status": "source_attested",
+      "interpretation_note": "原文敏弟昶。",
+      "reviewer": "Codex（AI代理）",
+      "model": null,
+      "human_reviewed": false
+    }
+  ],
   "age_assertions": [],
   "life_events": [],
   "life_event_date_decisions": [],
