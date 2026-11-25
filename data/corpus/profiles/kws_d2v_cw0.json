@@ -1,0 +1,194 @@
+{
+  "schema_version": 1,
+  "id": "kws_d2v_cw0",
+  "canonical_person_id": "kws_d2v_cw0",
+  "label": "壽〔宜都王，湛祖母之祖〕",
+  "identity_note": "固定國立歷史博物館89-00208機構全銘之來源角色；不以同名跨篇自動接合，數位錄文未核原拓。",
+  "review": "ai_provisional",
+  "names": [
+    "壽"
+  ],
+  "titles": [],
+  "addresses": [],
+  "occurrences": [
+    {
+      "number": null,
+      "category": "",
+      "title": "元湛墓誌全文（國立歷史博物館藏拓本之機構錄文）",
+      "paragraph_id": "c-epitaph-yuanzhan-nmh-full:p001",
+      "count": 1,
+      "raw_count": 1,
+      "duplicate_count": 0,
+      "counting_policy": "independent_fixed_witness_occurrences",
+      "quote": "文獻王銘祖諱嘉。太保尚書令司徒公冀州刺史廣陽懿烈王祖母河南穆氏。宜都王壽孫女。司空亮從妹父諱淵。侍中吏部尚書司徒公雍州刺史廣陽忠武王母瑯邪王氏。父肅。尚書令司空宣簡公公諱湛。字士深。河南洛陽人也。受命於天。造我王室。誓河疏流。瞻山作鎮。祖位當彼相。任屬保衡。送往事居。負圖",
+      "paragraph_ids": [
+        "c-epitaph-yuanzhan-nmh-full:p001"
+      ],
+      "mention_ids": [
+        "c-epitaph-yuanzhan-nmh-full:p001:m0059"
+      ],
+      "mention_paragraph_ids": {
+        "c-epitaph-yuanzhan-nmh-full:p001:m0059": "c-epitaph-yuanzhan-nmh-full:p001"
+      },
+      "mention_id": "c-epitaph-yuanzhan-nmh-full:p001:m0059",
+      "occurrence_groups": [
+        {
+          "canonical_mention_id": "c-epitaph-yuanzhan-nmh-full:p001:m0059",
+          "mention_ids": [
+            "c-epitaph-yuanzhan-nmh-full:p001:m0059"
+          ],
+          "kind": "paragraph"
+        }
+      ],
+      "work_id": "w-epitaph-yuanzhan",
+      "book_id": "b-epitaph-yuanzhan-full",
+      "chapter_id": "c-epitaph-yuanzhan-nmh-full",
+      "source_id": "s-epitaph-yuanzhan-nmh-8900208",
+      "work_title": "元湛墓誌"
+    }
+  ],
+  "table_occurrences": [],
+  "sources": [
+    {
+      "chapter_id": "c-epitaph-yuanzhan-nmh-full",
+      "work_id": "w-epitaph-yuanzhan",
+      "book_id": "b-epitaph-yuanzhan-full",
+      "source_id": "s-epitaph-yuanzhan-nmh-8900208",
+      "source": {
+        "title": "魏故使持節假黃鉞侍中太傅大司馬尚書令定州刺史廣陽文獻王銘",
+        "provider": "數位典藏國家型科技計畫內容發展分項計畫／國立歷史博物館館藏",
+        "url": "https://content.teldap.tw/main/dc_detail.php?dc_id=2389779",
+        "permalink": "https://content.teldap.tw/main/dc_detail.php?dc_id=2389779",
+        "revision_id": null,
+        "accessed_on": "2026-10-25",
+        "edition": "國立歷史博物館89-00208清代原拓之機構數位錄文；未核拓本影像",
+        "extent": "描述欄銘刻內容完整1474字，含題銘、敘傳與乃作銘曰後全部詩頌；單一編輯段不冒原石行界。",
+        "text_scope": "complete_work",
+        "review_status": "text_checked",
+        "image_verified": false,
+        "license_scope": "classical_inscription_text_only",
+        "license_url": "https://creativecommons.org/publicdomain/mark/1.0/",
+        "rights": "古代誌文為公版；館藏數位物件與描述之TCMB授權CC BY 3.0 TW+另記於collection-metadata；不收入HTML、影像或現代描述全文，不套MIT。",
+        "normalization": {
+          "character_conversion": "none",
+          "extraction_note": "strict Big5解碼；僅選銘刻內容欄並去欄尾一個排版全形空白；五個?、兩個□及原標點全保。"
+        },
+        "transcription_witness": {
+          "kind": "institutional_html_epitaph_transcription",
+          "institution": "國立歷史博物館",
+          "database_record_id": "89-00208",
+          "reported_transcription_origin": "TELDAP館藏描述欄之銘刻內容，未核原石／拓本",
+          "transcription_path": "source-evidence/yuanzhan-epitaph-nmh/transcription.json",
+          "capture_path": "source-evidence/yuanzhan-epitaph-nmh/acquisition.json",
+          "metadata_path": "source-evidence/yuanzhan-epitaph-nmh/collection-metadata.json",
+          "capture_retention_qualification_path": "source-evidence/yuanzhan-epitaph-nmh/capture-retention-qualification.json",
+          "transcription_page_visually_checked": false,
+          "original_stone_or_rubbing_image_verified": false,
+          "underlying_rubbing_personally_accessed": false,
+          "scope": "complete_single_inscription_not_modern_article"
+        }
+      }
+    }
+  ],
+  "relations": [
+    {
+      "id": "a-yuanzhan-nmh-grandmother-grandfather",
+      "subject_person_id": "qlv_ven_85w",
+      "predicate": "grandfather",
+      "object_person_id": "kws_d2v_cw0",
+      "status": "source_attested",
+      "qualifiers": {
+        "source_term": "宜都王壽孫女",
+        "lineage": "unspecified",
+        "generation_difference": -2,
+        "parent_person_id": null
+      },
+      "institution_epitaph_binding": {
+        "kind": "fixed_institutional_html_epitaph",
+        "slot": "grandmother-grandfather"
+      },
+      "evidence": [
+        {
+          "work_id": "w-epitaph-yuanzhan",
+          "book_id": "b-epitaph-yuanzhan-full",
+          "source_id": "s-epitaph-yuanzhan-nmh-8900208",
+          "chapter_id": "c-epitaph-yuanzhan-nmh-full",
+          "paragraph_id": "c-epitaph-yuanzhan-nmh-full:p001",
+          "quote": "魏故使持節假黃鉞侍中太傅大司馬尚書令定州刺史廣陽文獻王銘祖諱嘉。太保尚書令司徒公冀州刺史廣陽懿烈王祖母河南穆氏。宜都王壽孫女。司空亮從妹父諱淵。侍中吏部尚書司徒公雍州刺史廣陽忠武王母瑯邪王氏。父肅。尚書令司空宣簡公公諱湛。字士深。河南洛陽人也。受命於天。造我王室。誓河疏流。瞻山作鎮。祖位當彼相。任屬保衡。送往事居。負圖分陝。父才為國楨。望稱人傑。功最天下。名播海內。既而日月成象。山川出雲。乃感中和。剋生上德。器宇清明。風神秀整。音韻恬雅。儀表閑華。天資孝友。自然忠信。率禮而動。非法不言。既夙有成。德弱不好弄。致賞高明。實標清識。固能採菽中原。求珠赤水。心遊河漢。志在丘山乃引入侍書。除為羽林監。又轉散騎郎。在通直。鵷鴻始颺。便有摩天之資。驥騄初騁。自懷弭塵之氣。及遭不造。殆將毀滅。哀感庭禽。悲燋?樹。乃襲爵為廣陽王。除通直散騎常侍。轉給事黃門侍郎。而王如故。及居顯處。爰拜青門。等務伯之矜嚴。同昭先之淑慎。又為持節督膠州軍事左將軍膠州刺史。及其驂傳案部。班條察事。未言已信。不肅而成。念室於是自空。桴鼓所以且息。行人解旅而莫犯。遊客散馬而無虞。又兼侍中行河南尹。尋除使持節都督冀州諸軍事中軍將軍冀州刺史。竭忠貞之心。盡廉平之節。潤之以夏雨。照之以秋陽。遠至邇安。不能比其效。外平內成。無以喻其績又除侍中。軍?仍本至於仰瞻府視。切問近對。當渭橋之後車。坐殿中之重席又以本官行洛州事文武兼運。威德並施。政若神行。化如風偃又除太常卿。王如故未幾。還為侍中又以本官行司州牧乃揚清激濁。舉直厝枉。貴戚斂手。豪右屏氣然其情存去惡。合柱不能藏。其形心在窮奸。重轑無所隱其跡。又除驃騎將軍。仍侍中。俄以本官監典書事。逸文脫簡。罔不捃摭。毀壁頹墳。人所窮盡。既質含百練。公輔之望自高。氣逸千里。王佐之才久立。乃除太尉公。王如故。位冠人爵。任總天綱。贊傑遂賢。興仁隆化。其猶伯始溫柔。子魚和理。天下中庸。後世難繼。方當黜位而朝。以成師臣之禮。獨拜於屏。用饗養老之祑。曰仁者壽。所期必信。積善不報。終自欺人。春秋卅有五。以武定二年歲在甲子五月十四日丁酉薨於鄴。天子舉哀東堂。鴻臚監護喪事。贈賵之數。隆於常禮。惟公風猷峻遠。器量清高。望儼即溫。外明內潤。雖名重一時。位高四累。務在謙光。情無矜尚。是以虛衿待物。折節從人。當沐而休。據饋以起。至乃北遊竭石。南陟平臺。風彯飛閣。草蔓中渚。賓僚率止。親友具來。置酒陳辭。調琴寤語。思溢河水。言高太山。繡綵成文。金石起韻。?一物之不知。總四科而備舉。積珪璋於匈懷。散雲雨於衿袖。然據則德蹈?之基。秉文經武之業。重義輕財之量。匡主庇民之功。求之古人。希世罕有。千載一期。且云旦暮。哀哉奉孝。乃悲逝者。安得征虜。實痛良臣。追贈使持節假黃鉞侍中太傅大司馬尚書令都督定殷瀛幽四州諸軍事驃騎大將軍定州刺史。王如故。謚曰文獻。?也。粵以其年八月庚申葬於武城之北原。乃作銘曰。壽丘若水。開原發系。立功立德。或王或帝。繫衍不窮。蟬聯相繼。九畹滋蘭。百畝樹蕙。自天生德。唯岳降神。孰膺名世。實在斯人。剋隆遺構。載荷餘薪。乃稱惠王。寔曰宗臣。攀桂有叢。拔茅以類。赤霄易摩。青雲可致。惟德命官。以仁守位。令行禁止。功成身遂。作時領袖。為世冠冕。立行堂堂。秉心謇謇。執戟趨事。抱劍來踐。星神易識。豹文可辯。連率侯服。攝官帝城。導民由德。斷獄以情。化感風雨。政通神明。一虎垂首。二老變形。論道台階。補闕兗職。送日騁步。摶風使翼。高飛詎遠。長途未極。朝露已銷。夜舟誰力。芒阜臨北。魚山望東。安厝不異。託葬攸同。三臨出祖。五會送終。歸骸真宅。寧神□□。",
+          "subject_person_mention_id": "c-epitaph-yuanzhan-nmh-full:p001:m0053",
+          "object_person_mention_id": "c-epitaph-yuanzhan-nmh-full:p001:m0059"
+        }
+      ],
+      "reviewer": "Codex（AI代理）",
+      "human_reviewed": false,
+      "model": null,
+      "interpretation_note": "機構全銘數位錄文原字；未核原石/原拓，不補出生、未名父母、撰刻或發掘日期。"
+    }
+  ],
+  "related_people": {
+    "kws_d2v_cw0": "壽〔宜都王，湛祖母之祖〕",
+    "qlv_ven_85w": "穆氏〔湛祖母、壽孫女〕"
+  },
+  "dates": [],
+  "name_components": [
+    {
+      "id": "n-yuanzhan-nmh-mu_shou",
+      "person_id": "kws_d2v_cw0",
+      "surname": null,
+      "ming": "壽",
+      "additional_names": [],
+      "chapter_id": "c-epitaph-yuanzhan-nmh-full",
+      "paragraph_id": "c-epitaph-yuanzhan-nmh-full:p001",
+      "source_id": "s-epitaph-yuanzhan-nmh-8900208",
+      "person_mention_id": "c-epitaph-yuanzhan-nmh-full:p001:m0059",
+      "quote": "魏故使持節假黃鉞侍中太傅大司馬尚書令定州刺史廣陽文獻王銘祖諱嘉。太保尚書令司徒公冀州刺史廣陽懿烈王祖母河南穆氏。宜都王壽孫女。司空亮從妹父諱淵。侍中吏部尚書司徒公雍州刺史廣陽忠武王母瑯邪王氏。父肅。尚書令司空宣簡公公諱湛。字士深。河南洛陽人也。受命於天。造我王室。誓河疏流。瞻山作鎮。祖位當彼相。任屬保衡。送往事居。負圖分陝。父才為國楨。望稱人傑。功最天下。名播海內。既而日月成象。山川出雲。乃感中和。剋生上德。器宇清明。風神秀整。音韻恬雅。儀表閑華。天資孝友。自然忠信。率禮而動。非法不言。既夙有成。德弱不好弄。致賞高明。實標清識。固能採菽中原。求珠赤水。心遊河漢。志在丘山乃引入侍書。除為羽林監。又轉散騎郎。在通直。鵷鴻始颺。便有摩天之資。驥騄初騁。自懷弭塵之氣。及遭不造。殆將毀滅。哀感庭禽。悲燋?樹。乃襲爵為廣陽王。除通直散騎常侍。轉給事黃門侍郎。而王如故。及居顯處。爰拜青門。等務伯之矜嚴。同昭先之淑慎。又為持節督膠州軍事左將軍膠州刺史。及其驂傳案部。班條察事。未言已信。不肅而成。念室於是自空。桴鼓所以且息。行人解旅而莫犯。遊客散馬而無虞。又兼侍中行河南尹。尋除使持節都督冀州諸軍事中軍將軍冀州刺史。竭忠貞之心。盡廉平之節。潤之以夏雨。照之以秋陽。遠至邇安。不能比其效。外平內成。無以喻其績又除侍中。軍?仍本至於仰瞻府視。切問近對。當渭橋之後車。坐殿中之重席又以本官行洛州事文武兼運。威德並施。政若神行。化如風偃又除太常卿。王如故未幾。還為侍中又以本官行司州牧乃揚清激濁。舉直厝枉。貴戚斂手。豪右屏氣然其情存去惡。合柱不能藏。其形心在窮奸。重轑無所隱其跡。又除驃騎將軍。仍侍中。俄以本官監典書事。逸文脫簡。罔不捃摭。毀壁頹墳。人所窮盡。既質含百練。公輔之望自高。氣逸千里。王佐之才久立。乃除太尉公。王如故。位冠人爵。任總天綱。贊傑遂賢。興仁隆化。其猶伯始溫柔。子魚和理。天下中庸。後世難繼。方當黜位而朝。以成師臣之禮。獨拜於屏。用饗養老之祑。曰仁者壽。所期必信。積善不報。終自欺人。春秋卅有五。以武定二年歲在甲子五月十四日丁酉薨於鄴。天子舉哀東堂。鴻臚監護喪事。贈賵之數。隆於常禮。惟公風猷峻遠。器量清高。望儼即溫。外明內潤。雖名重一時。位高四累。務在謙光。情無矜尚。是以虛衿待物。折節從人。當沐而休。據饋以起。至乃北遊竭石。南陟平臺。風彯飛閣。草蔓中渚。賓僚率止。親友具來。置酒陳辭。調琴寤語。思溢河水。言高太山。繡綵成文。金石起韻。?一物之不知。總四科而備舉。積珪璋於匈懷。散雲雨於衿袖。然據則德蹈?之基。秉文經武之業。重義輕財之量。匡主庇民之功。求之古人。希世罕有。千載一期。且云旦暮。哀哉奉孝。乃悲逝者。安得征虜。實痛良臣。追贈使持節假黃鉞侍中太傅大司馬尚書令都督定殷瀛幽四州諸軍事驃騎大將軍定州刺史。王如故。謚曰文獻。?也。粵以其年八月庚申葬於武城之北原。乃作銘曰。壽丘若水。開原發系。立功立德。或王或帝。繫衍不窮。蟬聯相繼。九畹滋蘭。百畝樹蕙。自天生德。唯岳降神。孰膺名世。實在斯人。剋隆遺構。載荷餘薪。乃稱惠王。寔曰宗臣。攀桂有叢。拔茅以類。赤霄易摩。青雲可致。惟德命官。以仁守位。令行禁止。功成身遂。作時領袖。為世冠冕。立行堂堂。秉心謇謇。執戟趨事。抱劍來踐。星神易識。豹文可辯。連率侯服。攝官帝城。導民由德。斷獄以情。化感風雨。政通神明。一虎垂首。二老變形。論道台階。補闕兗職。送日騁步。摶風使翼。高飛詎遠。長途未極。朝露已銷。夜舟誰力。芒阜臨北。魚山望東。安厝不異。託葬攸同。三臨出祖。五會送終。歸骸真宅。寧神□□。",
+      "status": "source_attested",
+      "human_reviewed": false,
+      "note": "本碑字面構件；單名不補元/穆/王姓，士深不改作傳世士淵。",
+      "work_id": "w-epitaph-yuanzhan",
+      "book_id": "b-epitaph-yuanzhan-full"
+    }
+  ],
+  "person_ids": [
+    "kws_d2v_cw0"
+  ],
+  "preferred_relations": [
+    {
+      "id": "a-yuanzhan-nmh-grandmother-grandfather",
+      "subject_person_id": "qlv_ven_85w",
+      "predicate": "grandfather",
+      "object_person_id": "kws_d2v_cw0",
+      "status": "source_attested",
+      "qualifiers": {
+        "source_term": "宜都王壽孫女",
+        "lineage": "unspecified",
+        "generation_difference": -2,
+        "parent_person_id": null
+      },
+      "institution_epitaph_binding": {
+        "kind": "fixed_institutional_html_epitaph",
+        "slot": "grandmother-grandfather"
+      },
+      "evidence": [
+        {
+          "work_id": "w-epitaph-yuanzhan",
+          "book_id": "b-epitaph-yuanzhan-full",
+          "source_id": "s-epitaph-yuanzhan-nmh-8900208",
+          "chapter_id": "c-epitaph-yuanzhan-nmh-full",
+          "paragraph_id": "c-epitaph-yuanzhan-nmh-full:p001",
+          "quote": "魏故使持節假黃鉞侍中太傅大司馬尚書令定州刺史廣陽文獻王銘祖諱嘉。太保尚書令司徒公冀州刺史廣陽懿烈王祖母河南穆氏。宜都王壽孫女。司空亮從妹父諱淵。侍中吏部尚書司徒公雍州刺史廣陽忠武王母瑯邪王氏。父肅。尚書令司空宣簡公公諱湛。字士深。河南洛陽人也。受命於天。造我王室。誓河疏流。瞻山作鎮。祖位當彼相。任屬保衡。送往事居。負圖分陝。父才為國楨。望稱人傑。功最天下。名播海內。既而日月成象。山川出雲。乃感中和。剋生上德。器宇清明。風神秀整。音韻恬雅。儀表閑華。天資孝友。自然忠信。率禮而動。非法不言。既夙有成。德弱不好弄。致賞高明。實標清識。固能採菽中原。求珠赤水。心遊河漢。志在丘山乃引入侍書。除為羽林監。又轉散騎郎。在通直。鵷鴻始颺。便有摩天之資。驥騄初騁。自懷弭塵之氣。及遭不造。殆將毀滅。哀感庭禽。悲燋?樹。乃襲爵為廣陽王。除通直散騎常侍。轉給事黃門侍郎。而王如故。及居顯處。爰拜青門。等務伯之矜嚴。同昭先之淑慎。又為持節督膠州軍事左將軍膠州刺史。及其驂傳案部。班條察事。未言已信。不肅而成。念室於是自空。桴鼓所以且息。行人解旅而莫犯。遊客散馬而無虞。又兼侍中行河南尹。尋除使持節都督冀州諸軍事中軍將軍冀州刺史。竭忠貞之心。盡廉平之節。潤之以夏雨。照之以秋陽。遠至邇安。不能比其效。外平內成。無以喻其績又除侍中。軍?仍本至於仰瞻府視。切問近對。當渭橋之後車。坐殿中之重席又以本官行洛州事文武兼運。威德並施。政若神行。化如風偃又除太常卿。王如故未幾。還為侍中又以本官行司州牧乃揚清激濁。舉直厝枉。貴戚斂手。豪右屏氣然其情存去惡。合柱不能藏。其形心在窮奸。重轑無所隱其跡。又除驃騎將軍。仍侍中。俄以本官監典書事。逸文脫簡。罔不捃摭。毀壁頹墳。人所窮盡。既質含百練。公輔之望自高。氣逸千里。王佐之才久立。乃除太尉公。王如故。位冠人爵。任總天綱。贊傑遂賢。興仁隆化。其猶伯始溫柔。子魚和理。天下中庸。後世難繼。方當黜位而朝。以成師臣之禮。獨拜於屏。用饗養老之祑。曰仁者壽。所期必信。積善不報。終自欺人。春秋卅有五。以武定二年歲在甲子五月十四日丁酉薨於鄴。天子舉哀東堂。鴻臚監護喪事。贈賵之數。隆於常禮。惟公風猷峻遠。器量清高。望儼即溫。外明內潤。雖名重一時。位高四累。務在謙光。情無矜尚。是以虛衿待物。折節從人。當沐而休。據饋以起。至乃北遊竭石。南陟平臺。風彯飛閣。草蔓中渚。賓僚率止。親友具來。置酒陳辭。調琴寤語。思溢河水。言高太山。繡綵成文。金石起韻。?一物之不知。總四科而備舉。積珪璋於匈懷。散雲雨於衿袖。然據則德蹈?之基。秉文經武之業。重義輕財之量。匡主庇民之功。求之古人。希世罕有。千載一期。且云旦暮。哀哉奉孝。乃悲逝者。安得征虜。實痛良臣。追贈使持節假黃鉞侍中太傅大司馬尚書令都督定殷瀛幽四州諸軍事驃騎大將軍定州刺史。王如故。謚曰文獻。?也。粵以其年八月庚申葬於武城之北原。乃作銘曰。壽丘若水。開原發系。立功立德。或王或帝。繫衍不窮。蟬聯相繼。九畹滋蘭。百畝樹蕙。自天生德。唯岳降神。孰膺名世。實在斯人。剋隆遺構。載荷餘薪。乃稱惠王。寔曰宗臣。攀桂有叢。拔茅以類。赤霄易摩。青雲可致。惟德命官。以仁守位。令行禁止。功成身遂。作時領袖。為世冠冕。立行堂堂。秉心謇謇。執戟趨事。抱劍來踐。星神易識。豹文可辯。連率侯服。攝官帝城。導民由德。斷獄以情。化感風雨。政通神明。一虎垂首。二老變形。論道台階。補闕兗職。送日騁步。摶風使翼。高飛詎遠。長途未極。朝露已銷。夜舟誰力。芒阜臨北。魚山望東。安厝不異。託葬攸同。三臨出祖。五會送終。歸骸真宅。寧神□□。",
+          "subject_person_mention_id": "c-epitaph-yuanzhan-nmh-full:p001:m0053",
+          "object_person_mention_id": "c-epitaph-yuanzhan-nmh-full:p001:m0059"
+        }
+      ],
+      "reviewer": "Codex（AI代理）",
+      "human_reviewed": false,
+      "model": null,
+      "interpretation_note": "機構全銘數位錄文原字；未核原石/原拓，不補出生、未名父母、撰刻或發掘日期。"
+    }
+  ],
+  "age_assertions": [],
+  "life_events": [],
+  "life_event_date_decisions": [],
+  "selected_life_event_dates": []
+}

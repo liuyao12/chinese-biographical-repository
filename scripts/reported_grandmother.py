@@ -1,5 +1,9 @@
 """A literal 祖母 role does not choose the paternal or maternal branch."""
 def reported_grandmother_valid(a,paragraphs):
+ if isinstance(a,dict) and a.get('institution_epitaph_binding',{}).get('kind')=='fixed_institutional_html_epitaph':
+  try:from scripts.institutional_html_epitaph import relation_valid
+  except ImportError:from institutional_html_epitaph import relation_valid
+  return relation_valid(a,paragraphs)
  if isinstance(a.get('qualifiers'), dict) and isinstance(a['qualifiers'].get('source_clause_binding'), dict) and a['qualifiers']['source_clause_binding'].get('kind') == 'biography_head_birth_mother_dies_grandmother_care':
      try:
          from scripts.biography_orphan_grandmother_care import valid

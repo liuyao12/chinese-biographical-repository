@@ -124,7 +124,10 @@ export function personCard(p, full = false, sourceRef = 'main', family = null, m
   const {names, records:components, conflicts:nameConflicts} = nameDisplay;
   const preserveLabelForPartialName = Boolean(names && !names.clan_style?.value && !names.full_name && names.ming && !names.surname && p.label?.endsWith(names.ming) && p.label.length > names.ming.length);
   const personalName = names?.clan_style?.value || names?.full_name || (names ? `${names.surname || ''}${names.ming || ''}` : '');
-  const heading = preserveLabelForPartialName ? p.label : names && nameDisplay.canHead ? `${names.title || ''} ${personalName}`.trim() || p.label : p.label;
+  const nameHeading = preserveLabelForPartialName ? p.label : names && nameDisplay.canHead ? `${names.title || ''} ${personalName}`.trim() || p.label : p.label;
+  const profileTitle = p.default_profile_title?.status === 'editorial_provisional'
+    && p.default_profile_title?.temporal_claim === 'none' && p.default_profile_title?.title;
+  const heading = profileTitle ? `${profileTitle} ${nameHeading}` : nameHeading;
   const additional = names ? nameAliases(names) : [];
   const componentAlternatives = components.flatMap(x => x.component_alternatives || []).map(a => {
     const c=a.components || {}, labels=[['surname','Surname'],['ming','Given name'],['zi','Courtesy name']].filter(([k])=>c[k]).map(([k,label])=>`${ui(label)} ${h(c[k])}`);
