@@ -1,0 +1,164 @@
+{
+  "schema_version": 1,
+  "id": "f1g_lsv_jzc",
+  "canonical_person_id": "f1g_lsv_jzc",
+  "label": "郭瑗",
+  "identity_note": "郭瑗，見本組原文及身份互校。",
+  "review": "ai_provisional",
+  "names": [
+    "瑗"
+  ],
+  "titles": [],
+  "addresses": [],
+  "occurrences": [
+    {
+      "number": 72,
+      "category": "",
+      "title": "晉書卷七十二·郭璞",
+      "paragraph_id": "c-jinshu-072-guopu:p001",
+      "count": 1,
+      "raw_count": 1,
+      "duplicate_count": 0,
+      "counting_policy": "independent_fixed_witness_occurrences",
+      "quote": "郭璞，字景純，河東聞喜人也。父瑗，尚書都令史。時尚書杜預有所增損，瑗多駁正之，以公方著稱。終於建平太守。璞好經術，博學有高才，而訥於言論，詞賦為中興之冠。好古文奇字，妙於陰陽算曆。有郭公者，客居河東，精于卜筮，璞從之受業。公以《青囊",
+      "paragraph_ids": [
+        "c-jinshu-072-guopu:p001"
+      ],
+      "mention_ids": [
+        "c-jinshu-072-guopu:p001:m0015"
+      ],
+      "mention_paragraph_ids": {
+        "c-jinshu-072-guopu:p001:m0015": "c-jinshu-072-guopu:p001"
+      },
+      "mention_id": "c-jinshu-072-guopu:p001:m0015",
+      "occurrence_groups": [
+        {
+          "canonical_mention_id": "c-jinshu-072-guopu:p001:m0015",
+          "mention_ids": [
+            "c-jinshu-072-guopu:p001:m0015"
+          ],
+          "kind": "paragraph"
+        }
+      ],
+      "work_id": "w-jinshu",
+      "book_id": "b-jinshu-072",
+      "chapter_id": "c-jinshu-072-guopu",
+      "source_id": "s-jinshu-072-guopu-ws2595548",
+      "work_title": "晉書"
+    }
+  ],
+  "table_occurrences": [],
+  "sources": [
+    {
+      "chapter_id": "c-jinshu-072-guopu",
+      "work_id": "w-jinshu",
+      "book_id": "b-jinshu-072",
+      "source_id": "s-jinshu-072-guopu-ws2595548",
+      "source": {
+        "title": "晉書卷七十二·郭璞",
+        "provider": "Wikisource",
+        "permalink": "https://zh.wikisource.org/w/index.php?oldid=2595548",
+        "url": "https://zh.wikisource.org/w/index.php?oldid=2595548",
+        "revision_id": 2595548,
+        "edition": "維基文庫固定修訂",
+        "accessed_on": "2026-11-22",
+        "review_status": "text_checked",
+        "image_verified": false,
+        "rights": "古代原文；數位轉錄依維基文庫授權。",
+        "license_url": "https://creativecommons.org/licenses/by-sa/4.0/",
+        "extent": "晉書卷七十二·郭璞",
+        "text_scope": "complete_biography_unit",
+        "raw_path": "source-evidence/jin072-roll/ws2595548.wikitext",
+        "raw_file_sha256": "4fa157e9f49821ae870d4ba23cf9f1254be040fd709d9407ae6f515187a6fc44",
+        "collation_witnesses": [
+          "source-evidence/jin072-roll/volume-reading.json"
+        ]
+      }
+    }
+  ],
+  "relations": [
+    {
+      "id": "a-jin072-guoyuan-father",
+      "subject_person_id": "2i5_4eo_tve",
+      "object_person_id": "f1g_lsv_jzc",
+      "predicate": "father",
+      "qualifiers": {
+        "source_term": "父瑗，尚書都令史"
+      },
+      "evidence": [
+        {
+          "work_id": "w-jinshu",
+          "book_id": "b-jinshu-072",
+          "chapter_id": "c-jinshu-072-guopu",
+          "source_id": "s-jinshu-072-guopu-ws2595548",
+          "paragraph_id": "c-jinshu-072-guopu:p001",
+          "quote": "郭璞，字景純，河東聞喜人也。父瑗，尚書都令史。時尚書杜預有所增損，瑗多駁正之，以公方著稱。終於建平太守。璞好經術，博學有高才，而訥於言論，詞賦為中興之冠。好古文奇字，妙於陰陽算曆。有郭公者，客居河東，精于卜筮，璞從之受業。公以《青囊中書》九卷與之，由是遂洞五行、天文、卜筮之術，攘災轉禍，通致無方，雖京房、管輅不能過也。璞門人趙載嘗竊《青襄書》，未及讀，而為火所焚。",
+          "subject_person_mention_id": "c-jinshu-072-guopu:p001:m0000",
+          "object_person_mention_id": "c-jinshu-072-guopu:p001:m0015"
+        }
+      ],
+      "status": "source_attested",
+      "interpretation_note": "正文記父瑗終於建平太守。",
+      "reviewer": "Codex（AI代理）",
+      "model": null,
+      "human_reviewed": false
+    }
+  ],
+  "related_people": {
+    "2i5_4eo_tve": "郭璞",
+    "f1g_lsv_jzc": "郭瑗"
+  },
+  "dates": [],
+  "name_components": [],
+  "source_reading_cases": [
+    {
+      "id": "c-jinshu-072-guopu:kinship1-14",
+      "kind": "kinship",
+      "person_id": "f1g_lsv_jzc",
+      "source_quote": "父瑗，尚書都令史",
+      "reading": "郭璞父，後為建平太守。",
+      "note": "郭璞父，後為建平太守。",
+      "paragraph_id": "c-jinshu-072-guopu:p001",
+      "start_codepoint": 14,
+      "end_codepoint": 22,
+      "human_reviewed": false,
+      "chapter_id": "c-jinshu-072-guopu",
+      "source_id": "s-jinshu-072-guopu-ws2595548"
+    }
+  ],
+  "person_ids": [
+    "f1g_lsv_jzc"
+  ],
+  "preferred_relations": [
+    {
+      "id": "a-jin072-guoyuan-father",
+      "subject_person_id": "2i5_4eo_tve",
+      "object_person_id": "f1g_lsv_jzc",
+      "predicate": "father",
+      "qualifiers": {
+        "source_term": "父瑗，尚書都令史"
+      },
+      "evidence": [
+        {
+          "work_id": "w-jinshu",
+          "book_id": "b-jinshu-072",
+          "chapter_id": "c-jinshu-072-guopu",
+          "source_id": "s-jinshu-072-guopu-ws2595548",
+          "paragraph_id": "c-jinshu-072-guopu:p001",
+          "quote": "郭璞，字景純，河東聞喜人也。父瑗，尚書都令史。時尚書杜預有所增損，瑗多駁正之，以公方著稱。終於建平太守。璞好經術，博學有高才，而訥於言論，詞賦為中興之冠。好古文奇字，妙於陰陽算曆。有郭公者，客居河東，精于卜筮，璞從之受業。公以《青囊中書》九卷與之，由是遂洞五行、天文、卜筮之術，攘災轉禍，通致無方，雖京房、管輅不能過也。璞門人趙載嘗竊《青襄書》，未及讀，而為火所焚。",
+          "subject_person_mention_id": "c-jinshu-072-guopu:p001:m0000",
+          "object_person_mention_id": "c-jinshu-072-guopu:p001:m0015"
+        }
+      ],
+      "status": "source_attested",
+      "interpretation_note": "正文記父瑗終於建平太守。",
+      "reviewer": "Codex（AI代理）",
+      "model": null,
+      "human_reviewed": false
+    }
+  ],
+  "age_assertions": [],
+  "life_events": [],
+  "life_event_date_decisions": [],
+  "selected_life_event_dates": []
+}

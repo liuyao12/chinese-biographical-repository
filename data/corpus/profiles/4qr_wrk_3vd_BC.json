@@ -7,7 +7,8 @@
   "review": "ai_provisional",
   "names": [
     "龢",
-    "道季"
+    "道季",
+    "庾龢"
   ],
   "titles": [
     {
@@ -226,6 +227,76 @@
       "book_id": "b-jinshu-073",
       "chapter_id": "c-jinshu-073-yuliang",
       "source_id": "s-jinshu-073-yuliang",
+      "work_title": "晉書"
+    },
+    {
+      "number": 75,
+      "category": "",
+      "title": "晉書卷七十五·范堅",
+      "paragraph_id": "c-jinshu-075-fanjian:p002",
+      "count": 1,
+      "raw_count": 1,
+      "duplicate_count": 0,
+      "counting_policy": "independent_fixed_witness_occurrences",
+      "quote": "子啟，字榮期，雖經學不及堅，而以才義顯於當世。于時清談之士庾龢、韓伯、袁宏等，並相知友。為秘書郎，累居顯職，終於黃門侍郎。父子並有文筆傳於世。",
+      "paragraph_ids": [
+        "c-jinshu-075-fanjian:p002"
+      ],
+      "mention_ids": [
+        "c-jinshu-075-fanjian:p002:m0029"
+      ],
+      "mention_paragraph_ids": {
+        "c-jinshu-075-fanjian:p002:m0029": "c-jinshu-075-fanjian:p002"
+      },
+      "mention_id": "c-jinshu-075-fanjian:p002:m0029",
+      "occurrence_groups": [
+        {
+          "canonical_mention_id": "c-jinshu-075-fanjian:p002:m0029",
+          "mention_ids": [
+            "c-jinshu-075-fanjian:p002:m0029"
+          ],
+          "kind": "paragraph"
+        }
+      ],
+      "work_id": "w-jinshu",
+      "book_id": "b-jinshu-075",
+      "chapter_id": "c-jinshu-075-fanjian",
+      "source_id": "s-jinshu-075-fanjian-ws2645530",
+      "work_title": "晉書"
+    },
+    {
+      "number": 75,
+      "category": "",
+      "title": "晉書卷七十五·韓伯",
+      "paragraph_id": "c-jinshu-075-hanbo:p001",
+      "count": 1,
+      "raw_count": 1,
+      "duplicate_count": 0,
+      "counting_policy": "independent_fixed_witness_occurrences",
+      "quote": "有思理，留心文藝。舅殷浩稱之曰：「康伯能自標置，居然是出群之器。」潁川庾龢名重一時，少所推服，常稱伯及王坦之曰：「思理倫和，我敬韓康伯；志力強正，吾愧王文度。自此以還，吾皆百之矣。」",
+      "paragraph_ids": [
+        "c-jinshu-075-hanbo:p001"
+      ],
+      "mention_ids": [
+        "c-jinshu-075-hanbo:p001:m0149"
+      ],
+      "mention_paragraph_ids": {
+        "c-jinshu-075-hanbo:p001:m0149": "c-jinshu-075-hanbo:p001"
+      },
+      "mention_id": "c-jinshu-075-hanbo:p001:m0149",
+      "occurrence_groups": [
+        {
+          "canonical_mention_id": "c-jinshu-075-hanbo:p001:m0149",
+          "mention_ids": [
+            "c-jinshu-075-hanbo:p001:m0149"
+          ],
+          "kind": "paragraph"
+        }
+      ],
+      "work_id": "w-jinshu",
+      "book_id": "b-jinshu-075",
+      "chapter_id": "c-jinshu-075-hanbo",
+      "source_id": "s-jinshu-075-hanbo-ws2645530",
       "work_title": "晉書"
     }
   ],
@@ -682,7 +753,64 @@
               ]
             }
           ]
-        }
+        },
+        "raw_path": "source-evidence/jin073-roll/ws2296501.wikitext",
+        "raw_file_sha256": "5d01ef1f3455e9e7ddf6b6e0ddfd3b318f0112dfbcc5d2dabb0ab2ab0a4b1992",
+        "collation_witnesses": [
+          "source-evidence/jin073-roll/volume-reading.json"
+        ]
+      }
+    },
+    {
+      "chapter_id": "c-jinshu-075-fanjian",
+      "work_id": "w-jinshu",
+      "book_id": "b-jinshu-075",
+      "source_id": "s-jinshu-075-fanjian-ws2645530",
+      "source": {
+        "title": "晉書卷七十五·范堅",
+        "provider": "Wikisource",
+        "permalink": "https://zh.wikisource.org/w/index.php?oldid=2645530",
+        "url": "https://zh.wikisource.org/w/index.php?oldid=2645530",
+        "revision_id": 2645530,
+        "edition": "維基文庫固定修訂",
+        "accessed_on": "2026-11-22",
+        "review_status": "text_checked",
+        "image_verified": false,
+        "rights": "古代原文；數位轉錄依維基文庫授權。",
+        "license_url": "https://creativecommons.org/licenses/by-sa/4.0/",
+        "extent": "晉書卷七十五·范堅",
+        "text_scope": "complete_biography_unit",
+        "raw_path": "source-evidence/jin075-roll/ws2645530.wikitext",
+        "raw_file_sha256": "11d2db1eed03a9a461ce48abad661b90ba39911b13da75b3fe593dac197bc957",
+        "collation_witnesses": [
+          "source-evidence/jin075-roll/volume-reading.json"
+        ]
+      }
+    },
+    {
+      "chapter_id": "c-jinshu-075-hanbo",
+      "work_id": "w-jinshu",
+      "book_id": "b-jinshu-075",
+      "source_id": "s-jinshu-075-hanbo-ws2645530",
+      "source": {
+        "title": "晉書卷七十五·韓伯",
+        "provider": "Wikisource",
+        "permalink": "https://zh.wikisource.org/w/index.php?oldid=2645530",
+        "url": "https://zh.wikisource.org/w/index.php?oldid=2645530",
+        "revision_id": 2645530,
+        "edition": "維基文庫固定修訂",
+        "accessed_on": "2026-11-22",
+        "review_status": "text_checked",
+        "image_verified": false,
+        "rights": "古代原文；數位轉錄依維基文庫授權。",
+        "license_url": "https://creativecommons.org/licenses/by-sa/4.0/",
+        "extent": "晉書卷七十五·韓伯",
+        "text_scope": "complete_biography_unit",
+        "raw_path": "source-evidence/jin075-roll/ws2645530.wikitext",
+        "raw_file_sha256": "11d2db1eed03a9a461ce48abad661b90ba39911b13da75b3fe593dac197bc957",
+        "collation_witnesses": [
+          "source-evidence/jin075-roll/volume-reading.json"
+        ]
       }
     }
   ],
@@ -777,6 +905,22 @@
   },
   "dates": [],
   "name_components": [],
+  "source_reading_cases": [
+    {
+      "id": "c-jinshu-073-yuliang:kinship35-12",
+      "kind": "kinship",
+      "person_id": "4qr_wrk_3vd_BC",
+      "source_quote": "叔父翼將遷襄陽",
+      "reading": "庾龢致書叔父翼。傳末子恆。",
+      "note": "庾龢致書叔父翼。傳末子恆。",
+      "paragraph_id": "c-jinshu-073-yuliang:line080",
+      "start_codepoint": 12,
+      "end_codepoint": 19,
+      "human_reviewed": false,
+      "chapter_id": "c-jinshu-073-yuliang",
+      "source_id": "s-jinshu-073-yuliang"
+    }
+  ],
   "person_ids": [
     "4qr_wrk_3vd_BC"
   ],
