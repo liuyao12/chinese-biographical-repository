@@ -141,6 +141,9 @@ def build(root=ROOT, person_ids=None):
         if b.get('date_range_normalizations'):
             profile['date_ranges'] = [x for x in b['date_range_normalizations'] if x['person_id'] in own]
         profile['age_assertions'] = b.get('age_assertions', [])
+        if b.get('family_count_reports'):
+            profile['family_count_reports'] = [x for x in b['family_count_reports']
+                if x.get('parent_person_id') in own]
         profile['life_events'] = [x for x in b.get('life_events', []) if x['person_id'] in own]
         person_events = [x for x in (b.get('person_events') or []) if x['person_id'] in own]
         if person_events:
