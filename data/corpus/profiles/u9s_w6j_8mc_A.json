@@ -430,6 +430,41 @@
       "work_title": "晉書"
     },
     {
+      "number": 72,
+      "category": "",
+      "title": "晉書卷七十二·郭璞",
+      "paragraph_id": "c-jinshu-072-guopu:p029",
+      "count": 1,
+      "raw_count": 1,
+      "duplicate_count": 0,
+      "counting_policy": "independent_fixed_witness_occurrences",
+      "quote": "天子也。」帝曰：「出天子邪？」答曰：「能致天子問耳。」帝甚異之。璞素與桓彝友善，彝每造之，或值璞在婦間，便入。璞曰：「卿來，他處自可徑前，但不可廁上相尋耳。必客主有殃。」彝後因醉詣璞，正逢在廁，掩而觀之，見璞裸身被髮，銜刀設醊。璞見彝，撫心大驚曰：「吾每屬卿勿來，反更如是！",
+      "paragraph_ids": [
+        "c-jinshu-072-guopu:p029"
+      ],
+      "mention_ids": [
+        "c-jinshu-072-guopu:p029:m0264"
+      ],
+      "mention_paragraph_ids": {
+        "c-jinshu-072-guopu:p029:m0264": "c-jinshu-072-guopu:p029"
+      },
+      "mention_id": "c-jinshu-072-guopu:p029:m0264",
+      "occurrence_groups": [
+        {
+          "canonical_mention_id": "c-jinshu-072-guopu:p029:m0264",
+          "mention_ids": [
+            "c-jinshu-072-guopu:p029:m0264"
+          ],
+          "kind": "paragraph"
+        }
+      ],
+      "work_id": "w-jinshu",
+      "book_id": "b-jinshu-072",
+      "chapter_id": "c-jinshu-072-guopu",
+      "source_id": "s-jinshu-072-guopu-ws2595548",
+      "work_title": "晉書"
+    },
+    {
       "number": 74,
       "category": "",
       "title": "桓彝及附桓氏家族完整單元",
@@ -1853,6 +1888,32 @@
       }
     },
     {
+      "chapter_id": "c-jinshu-072-guopu",
+      "work_id": "w-jinshu",
+      "book_id": "b-jinshu-072",
+      "source_id": "s-jinshu-072-guopu-ws2595548",
+      "source": {
+        "title": "晉書卷七十二·郭璞",
+        "provider": "Wikisource",
+        "permalink": "https://zh.wikisource.org/w/index.php?oldid=2595548",
+        "url": "https://zh.wikisource.org/w/index.php?oldid=2595548",
+        "revision_id": 2595548,
+        "edition": "維基文庫固定修訂",
+        "accessed_on": "2026-11-22",
+        "review_status": "text_checked",
+        "image_verified": false,
+        "rights": "古代原文；數位轉錄依維基文庫授權。",
+        "license_url": "https://creativecommons.org/licenses/by-sa/4.0/",
+        "extent": "晉書卷七十二·郭璞",
+        "text_scope": "complete_biography_unit",
+        "raw_path": "source-evidence/jin072-roll/ws2595548.wikitext",
+        "raw_file_sha256": "4fa157e9f49821ae870d4ba23cf9f1254be040fd709d9407ae6f515187a6fc44",
+        "collation_witnesses": [
+          "source-evidence/jin072-roll/volume-reading.json"
+        ]
+      }
+    },
+    {
       "chapter_id": "c-jinshu-074-huan-family",
       "work_id": "w-jinshu",
       "book_id": "b-jinshu-074",
@@ -1880,7 +1941,10 @@
         "accessed_on": "2026-10-20",
         "text_scope": "partial_chapter",
         "review_status": "text_checked",
-        "license_url": "https://creativecommons.org/licenses/by-sa/4.0/"
+        "license_url": "https://creativecommons.org/licenses/by-sa/4.0/",
+        "collation_witnesses": [
+          "source-evidence/jin074-roll/volume-reading.json"
+        ]
       }
     },
     {
@@ -3167,6 +3231,50 @@
       "status": "editorial_provisional",
       "human_reviewed": false,
       "model": null
+    }
+  ],
+  "source_reading_cases": [
+    {
+      "id": "c-jinshu-074-huan-family:kinship1-13",
+      "kind": "kinship",
+      "person_id": "u9s_w6j_8mc_A",
+      "source_quote": "漢五更榮之九世孫也。父顥，官至郎中。",
+      "reading": "漢桓榮與父顥具名，本傳未列中間世系。",
+      "note": "漢桓榮與父顥具名，本傳未列中間世系。",
+      "paragraph_id": "c-jinshu-074-huan-family:p001",
+      "start_codepoint": 13,
+      "end_codepoint": 31,
+      "human_reviewed": false,
+      "chapter_id": "c-jinshu-074-huan-family",
+      "source_id": "s-jinshu-074-ws1536331"
+    },
+    {
+      "id": "c-jinshu-074-huan-family:source_review4-349",
+      "kind": "source_review",
+      "person_id": "u9s_w6j_8mc_A",
+      "source_quote": "城陷，為晃所害，年五十三",
+      "reading": "成帝紀咸和三年六月載韓晃攻宣城，桓彝力戰死。",
+      "note": "成帝紀咸和三年六月載韓晃攻宣城，桓彝力戰死。",
+      "paragraph_id": "c-jinshu-074-huan-family:p004",
+      "start_codepoint": 349,
+      "end_codepoint": 361,
+      "human_reviewed": false,
+      "chapter_id": "c-jinshu-074-huan-family",
+      "source_id": "s-jinshu-074-ws1536331"
+    },
+    {
+      "id": "c-jinshu-074-huan-family:kinship5-51",
+      "kind": "kinship",
+      "person_id": "u9s_w6j_8mc_A",
+      "source_quote": "有五子：溫、雲、豁、秘、沖。",
+      "reading": "同列五子，桓溫有卷九十八別傳。",
+      "note": "同列五子，桓溫有卷九十八別傳。",
+      "paragraph_id": "c-jinshu-074-huan-family:p005",
+      "start_codepoint": 51,
+      "end_codepoint": 65,
+      "human_reviewed": false,
+      "chapter_id": "c-jinshu-074-huan-family",
+      "source_id": "s-jinshu-074-ws1536331"
     }
   ],
   "person_references": [
