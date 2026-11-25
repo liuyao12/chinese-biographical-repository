@@ -1,5 +1,6 @@
 """Resolve person-export passage IDs against the same revision of the marked corpus."""
 import argparse
+import hashlib
 import json
 import os
 from pathlib import Path
@@ -18,6 +19,8 @@ class PassageCatalog:
         self.chapters = {}
         self.paragraphs = {}
         self.sources = {}
+        snapshot_path = self.root / 'exports/passage-annotations.json'
+        self.annotations = json.loads(snapshot_path.read_bytes())['records'] if snapshot_path.exists() else {}
         self.tables = TablePassages(self.root)
         self.table_chapters = {s['chapter_id']: tid for tid, s in self.tables.sources.items()}
         public = []
@@ -40,6 +43,24 @@ class PassageCatalog:
                 self.paragraphs[key] = dict(paragraph, chapter_id=cid, **location)
         self.quotations = Quotations(public, self.tables)
 
+    @staticmethod
+    def fingerprint(paragraph):
+        payload = json.dumps(paragraph, ensure_ascii=False, sort_keys=True, separators=(',', ':'))
+        return hashlib.sha256(payload.encode()).hexdigest()
+
+    def paragraph(self, ref):
+        native = self.paragraphs[ref['chapter'], ref['id']]
+        if 'annotation_ref' not in ref:
+            return native
+        key = ref['annotation_ref']
+        record = self.annotations[key]
+        if (record['chapter'], record['id']) != (ref['chapter'], ref['id']) or not record['fields'].keys() <= {'mentions','annotation_status'}:
+            raise ValueError(f'Invalid archived annotation {key}')
+        result = dict(native, **record['fields'])
+        if self.fingerprint(result) != key:
+            raise ValueError(f'Archived annotation digest mismatch {key}')
+        return result
+
     def compact(self, bundle):
         if 'passage_refs' in bundle:
             bundle = self.expand(bundle)
@@ -48,9 +69,15 @@ class PassageCatalog:
         for paragraph in output.pop('passages'):
             path = self.chapters[paragraph['chapter_id']]
             pid = paragraph['id']
-            if self.paragraphs[path, pid] != paragraph:
-                raise ValueError(f'Divergent passage {path} {pid}')
-            refs.append({'chapter': path, 'id': pid})
+            ref = {'chapter': path, 'id': pid}
+            if self.paragraph(ref) != paragraph:
+                key = self.fingerprint(paragraph)
+                if key not in self.annotations:
+                    raise ValueError(f'Divergent passage {path} {pid}')
+                ref['annotation_ref'] = key
+                if self.paragraph(ref) != paragraph:
+                    raise ValueError(f'Unresolved historical annotation {key}')
+            refs.append(ref)
         output['passage_refs'] = refs
         if 'table_passages' in output:
             output['table_passage_refs'] = []
@@ -83,7 +110,7 @@ class PassageCatalog:
         if 'passages' in bundle:
             raise ValueError('Mixed passage representations')
         output = self.quotations.convert(bundle, expand=True)
-        output['passages'] = [self.paragraphs[r['chapter'], r['id']] for r in output.pop('passage_refs')]
+        output['passages'] = [self.paragraph(r) for r in output.pop('passage_refs')]
         if 'table_passage_refs' in output:
             if 'table_passages' in output:
                 raise ValueError('Mixed table passage representations')

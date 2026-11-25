@@ -1186,6 +1186,8 @@ API `scripts.body_note_ancestry.body_note_ancestor_parent_valid(member, rows, as
 
 ## 段落與年表格位的儲存
 
+相同正文若有不同的歷史人名標記，引用可帶 `annotation_ref`。在 `exports/passage-annotations.json` 中只保存該次標記與狀態的差異；以整段還原結果的 SHA-256 辨識並核對。這些差異不另存正文。
+
 同一版本的標註篇章以 `corpus/<書>/<篇>.json` 為正文來源。人物來源包的 `passage_refs` 依原順序保存篇章路徑與段落 ID；`table_passage_refs` 引用原始表格 ID 與格位 ID，沿用該次引用的角色與位置資訊。公開人物頁引用篇章時保存 `chapter_ref`、`paragraph_id` 與半開區間 `quote_span`，位置按 Unicode code point 計算。完整段落或表格引文附於判讀資料時，`quote_passage_ref` 指向同一版本的正文，原有段落或格位 ID 繼續標示位置。獨立異文、不同版本的證據與判斷理由分開保留。
 
 `python -m scripts.passage_refs expand exports/persons/<人物ID>.json` 可輸出含原文的完整人物資料。靜態閱讀器以 `resolveProfilePassages` 讀取同一部署的正文；匯出與引用須來自相同提交。執行 `python -m scripts.passage_refs check` 與 `python -m scripts.profile_passages --check` 可檢查產物。閱讀器篇章在工作目錄使用相對連結，部署時為公共網址實體化一次。

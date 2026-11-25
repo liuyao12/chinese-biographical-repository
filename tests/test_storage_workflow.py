@@ -4,11 +4,35 @@ from tempfile import TemporaryDirectory
 import unittest
 
 from scripts.corpus_overlay import edited_inputs
+from scripts.passage_refs import PassageCatalog
 from scripts.profile_passages import ReaderPassages
 from scripts.stage_chapter_links import materialize
 
 
 class StorageWorkflowTests(unittest.TestCase):
+    def test_archived_mention_decision_preserves_one_shared_passage(self):
+        with TemporaryDirectory() as directory:
+            root = Path(directory)
+            path = root / 'corpus/shiji/001.json'
+            path.parent.mkdir(parents=True)
+            native = dict(id='p1', text='甲', mentions=[], annotation_status='reviewed')
+            path.write_text(json.dumps(dict(id='c1',work_id='w-shiji',book_id='b1',source_id='s1',
+                record_type='marked_chapter',source={},paragraphs=[native])))
+            catalog = PassageCatalog(root)
+            chapter = 'corpus/shiji/001.json'
+            prior = dict(catalog.paragraphs[chapter,'p1'], annotation_status='preliminary')
+            bundle = dict(passages=[prior],sources=[])
+            with self.assertRaises(ValueError):
+                catalog.compact(bundle)
+            key = catalog.fingerprint(prior)
+            catalog.annotations[key] = dict(chapter=chapter,id='p1',fields={'annotation_status':'preliminary'})
+            compact = catalog.compact(bundle)
+            self.assertEqual(compact['passage_refs'], [dict(chapter=chapter,id='p1',annotation_ref=key)])
+            self.assertEqual(catalog.expand(compact), bundle)
+            catalog.annotations[key]['fields']['annotation_status'] = 'different'
+            with self.assertRaises(ValueError):
+                catalog.expand(compact)
+
     def test_mutations_are_private_and_discarded_after_an_exception(self):
         with TemporaryDirectory() as directory:
             root = Path(directory)
