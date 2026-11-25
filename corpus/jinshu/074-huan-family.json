@@ -29,15 +29,18 @@
     "accessed_on": "2026-10-20",
     "text_scope": "partial_chapter",
     "review_status": "text_checked",
-    "license_url": "https://creativecommons.org/licenses/by-sa/4.0/"
+    "license_url": "https://creativecommons.org/licenses/by-sa/4.0/",
+    "collation_witnesses": [
+      "source-evidence/jin074-roll/volume-reading.json"
+    ]
   },
   "annotation": {
-    "status": "in_progress",
+    "status": "reviewed",
     "scope": "full_selected_biography_contextual_person_pass",
     "human_reviewed": false,
     "model": null,
     "reviewer": "Codex（AI代理）",
-    "completion_note": "完整選定單元逐人初讀；親屬依來源斷言與未決記錄分存，生卒／官爵等逐項補錄；未圖校，不代表全卷或全書已完成。",
+    "completion_note": "全章文字、原始字位、人物提及及獨立傳文起訖逐項對讀。",
     "age_assertions": [
       {
         "id": "age-jin074-biography-death",
@@ -162,6 +165,344 @@
         "human_reviewed": false,
         "reviewer": "Codex（AI代理）",
         "model": null
+      }
+    ],
+    "source_reading_cases": [
+      {
+        "id": "c-jinshu-074-huan-family:kinship1-13",
+        "kind": "kinship",
+        "person_id": "u9s_w6j_8mc_A",
+        "source_quote": "漢五更榮之九世孫也。父顥，官至郎中。",
+        "reading": "漢桓榮與父顥具名，本傳未列中間世系。",
+        "note": "漢桓榮與父顥具名，本傳未列中間世系。",
+        "paragraph_id": "c-jinshu-074-huan-family:p001",
+        "start_codepoint": 13,
+        "end_codepoint": 31,
+        "human_reviewed": false
+      },
+      {
+        "id": "c-jinshu-074-huan-family:identity2-23",
+        "kind": "identity",
+        "person_id": "wa4_ryp_uum",
+        "source_quote": "縣宰徐甯字安期",
+        "reading": "同段又稱徐寧，卷末附傳又有寧、甯，逐處原字留存。",
+        "note": "同段又稱徐寧，卷末附傳又有寧、甯，逐處原字留存。",
+        "paragraph_id": "c-jinshu-074-huan-family:p002",
+        "start_codepoint": 23,
+        "end_codepoint": 30,
+        "human_reviewed": false
+      },
+      {
+        "id": "c-jinshu-074-huan-family:source_review4-349",
+        "kind": "source_review",
+        "person_id": "u9s_w6j_8mc_A",
+        "source_quote": "城陷，為晃所害，年五十三",
+        "reading": "成帝紀咸和三年六月載韓晃攻宣城，桓彝力戰死。",
+        "note": "成帝紀咸和三年六月載韓晃攻宣城，桓彝力戰死。",
+        "paragraph_id": "c-jinshu-074-huan-family:p004",
+        "start_codepoint": 349,
+        "end_codepoint": 361,
+        "human_reviewed": false
+      },
+      {
+        "id": "c-jinshu-074-huan-family:kinship5-51",
+        "kind": "kinship",
+        "person_id": "u9s_w6j_8mc_A",
+        "source_quote": "有五子：溫、雲、豁、秘、沖。",
+        "reading": "同列五子，桓溫有卷九十八別傳。",
+        "note": "同列五子，桓溫有卷九十八別傳。",
+        "paragraph_id": "c-jinshu-074-huan-family:p005",
+        "start_codepoint": 51,
+        "end_codepoint": 65,
+        "human_reviewed": false
+      },
+      {
+        "id": "c-jinshu-074-huan-family:textual_variant6-21",
+        "kind": "textual_variant",
+        "person_id": "u9s_w6j_8mc_AB",
+        "source_quote": "襲爵萬寧男，歷位建武將軍、義成太守",
+        "reading": "武英殿數位轉錄作義城太守。底本依校者用義成。",
+        "note": "武英殿數位轉錄作義城太守。底本依校者用義成。",
+        "paragraph_id": "c-jinshu-074-huan-family:p006",
+        "start_codepoint": 21,
+        "end_codepoint": 38,
+        "human_reviewed": false
+      },
+      {
+        "id": "c-jinshu-074-huan-family:source_review6-138",
+        "kind": "source_review",
+        "person_id": "u9s_w6j_8mc_AB",
+        "source_quote": "昇平四年卒，贈平南將軍",
+        "reading": "本傳用昇平四年，原文未具日。子序承嗣。",
+        "note": "本傳用昇平四年，原文未具日。子序承嗣。",
+        "paragraph_id": "c-jinshu-074-huan-family:p006",
+        "start_codepoint": 138,
+        "end_codepoint": 149,
+        "human_reviewed": false
+      },
+      {
+        "id": "c-jinshu-074-huan-family:identity7-148",
+        "kind": "identity",
+        "person_id": "8dm_11s_z5x",
+        "source_quote": "時梁州刺史司馬勳以梁益叛",
+        "reading": "卷三十七桓宣死後代領梁州、卷七十三所見司勳及本卷桓豁、桓秘之文各用原字。",
+        "note": "卷三十七桓宣死後代領梁州、卷七十三所見司勳及本卷桓豁、桓秘之文各用原字。",
+        "paragraph_id": "c-jinshu-074-huan-family:p007",
+        "start_codepoint": 148,
+        "end_codepoint": 160,
+        "human_reviewed": false
+      },
+      {
+        "id": "c-jinshu-074-huan-family:textual_variant8-0",
+        "kind": "textual_variant",
+        "person_id": "u9s_w6j_8mc_AC",
+        "source_quote": "苻堅寇蜀，豁遣江夏相竺瑤距之",
+        "reading": "武英殿數位轉錄見竺瑗。固定底本編者附各本及平行史料。",
+        "note": "武英殿數位轉錄見竺瑗。固定底本編者附各本及平行史料。",
+        "paragraph_id": "c-jinshu-074-huan-family:p008",
+        "start_codepoint": 0,
+        "end_codepoint": 14,
+        "human_reviewed": false
+      },
+      {
+        "id": "c-jinshu-074-huan-family:source_review9-325",
+        "kind": "source_review",
+        "person_id": "u9s_w6j_8mc_AC",
+        "source_quote": "尋卒，時年五十八",
+        "reading": "孝武帝紀太元二年八月丙辰，年齡依本傳。",
+        "note": "孝武帝紀太元二年八月丙辰，年齡依本傳。",
+        "paragraph_id": "c-jinshu-074-huan-family:p009",
+        "start_codepoint": 325,
+        "end_codepoint": 333,
+        "human_reviewed": false
+      },
+      {
+        "id": "c-jinshu-074-huan-family:kinship10-22",
+        "kind": "kinship",
+        "person_id": "u9s_w6j_8mc_AC",
+        "source_quote": "有子二十人，皆以「石」為名以應之",
+        "reading": "本段只列六名；其餘不補名。",
+        "note": "本段只列六名；其餘不補名。",
+        "paragraph_id": "c-jinshu-074-huan-family:p010",
+        "start_codepoint": 22,
+        "end_codepoint": 38,
+        "human_reviewed": false
+      },
+      {
+        "id": "c-jinshu-074-huan-family:identity11-0",
+        "kind": "identity",
+        "person_id": "u9s_w6j_8mc_ACA",
+        "source_quote": "石虔小字鎮惡",
+        "reading": "本傳明言小字，同名小字不將桓石虔連為王鎮惡。",
+        "note": "本傳明言小字，同名小字不將桓石虔連為王鎮惡。",
+        "paragraph_id": "c-jinshu-074-huan-family:p011",
+        "start_codepoint": 0,
+        "end_codepoint": 6,
+        "human_reviewed": false
+      },
+      {
+        "id": "c-jinshu-074-huan-family:kinship12-148",
+        "kind": "kinship",
+        "person_id": "u9s_w6j_8mc_ACA",
+        "source_quote": "石虔與弟石民距之",
+        "reading": "此處與第 31 行桓豁諸子相合。",
+        "note": "此處與第 31 行桓豁諸子相合。",
+        "paragraph_id": "c-jinshu-074-huan-family:p012",
+        "start_codepoint": 148,
+        "end_codepoint": 156,
+        "human_reviewed": false
+      },
+      {
+        "id": "c-jinshu-074-huan-family:kinship13-20",
+        "kind": "kinship",
+        "person_id": "u9s_w6j_8mc_ACA",
+        "source_quote": "進爵作塘侯。第五子誕嗣。誕長兄洪，襄城太守。洪弟振。",
+        "reading": "爵名底本作作塘；第五子、長兄及洪弟原稱分存。",
+        "note": "爵名底本作作塘；第五子、長兄及洪弟原稱分存。",
+        "paragraph_id": "c-jinshu-074-huan-family:p013",
+        "start_codepoint": 20,
+        "end_codepoint": 46,
+        "human_reviewed": false
+      },
+      {
+        "id": "c-jinshu-074-huan-family:textual_variant14-85",
+        "kind": "textual_variant",
+        "person_id": "u9s_w6j_8mc_ACAC",
+        "source_quote": "桓欽已克京邑",
+        "reading": "武英殿數位轉錄作桓欽，通鑑一一三作桓歆。此為王稚徽使人報信之語。",
+        "note": "武英殿數位轉錄作桓欽，通鑑一一三作桓歆。此為王稚徽使人報信之語。",
+        "paragraph_id": "c-jinshu-074-huan-family:p014",
+        "start_codepoint": 85,
+        "end_codepoint": 91,
+        "human_reviewed": false
+      },
+      {
+        "id": "c-jinshu-074-huan-family:source_review15-227",
+        "kind": "source_review",
+        "person_id": "u9s_w6j_8mc_ACAC",
+        "source_quote": "廣武將軍唐興臨陣斬之",
+        "reading": "通鑑一一四繫義熙元年三月，另作臨隈。",
+        "note": "通鑑一一四繫義熙元年三月，另作臨隈。",
+        "paragraph_id": "c-jinshu-074-huan-family:p015",
+        "start_codepoint": 227,
+        "end_codepoint": 237,
+        "human_reviewed": false
+      },
+      {
+        "id": "c-jinshu-074-huan-family:kinship16-74",
+        "kind": "kinship",
+        "person_id": "u9s_w6j_8mc_ACB",
+        "source_quote": "尋代叔父沖為甯遠將軍",
+        "reading": "叔父沖與本卷桓豁、桓沖兄弟敘相合。",
+        "note": "叔父沖與本卷桓豁、桓沖兄弟敘相合。",
+        "paragraph_id": "c-jinshu-074-huan-family:p016",
+        "start_codepoint": 74,
+        "end_codepoint": 84,
+        "human_reviewed": false
+      },
+      {
+        "id": "c-jinshu-074-huan-family:kinship16-253",
+        "kind": "kinship",
+        "person_id": "u9s_w6j_8mc_ACB",
+        "source_quote": "子稚玉嗣",
+        "reading": "序在石秀卒事和追贈之後。",
+        "note": "序在石秀卒事和追贈之後。",
+        "paragraph_id": "c-jinshu-074-huan-family:p016",
+        "start_codepoint": 253,
+        "end_codepoint": 257,
+        "human_reviewed": false
+      },
+      {
+        "id": "c-jinshu-074-huan-family:kinship17-18",
+        "kind": "kinship",
+        "person_id": "u9s_w6j_8mc_ACC",
+        "source_quote": "叔父沖上疏",
+        "reading": "叔父桓沖。",
+        "note": "叔父桓沖。",
+        "paragraph_id": "c-jinshu-074-huan-family:p017",
+        "start_codepoint": 18,
+        "end_codepoint": 23,
+        "human_reviewed": false
+      },
+      {
+        "id": "c-jinshu-074-huan-family:textual_variant20-44",
+        "kind": "textual_variant",
+        "person_id": "u9s_w6j_8mc_ACE",
+        "source_quote": "後為梁州刺史傅歆之所殺",
+        "reading": "武英殿數位轉錄同作傅歆之，底本校注記通鑑一一五傅韶。",
+        "note": "武英殿數位轉錄同作傅歆之，底本校注記通鑑一一五傅韶。",
+        "paragraph_id": "c-jinshu-074-huan-family:p020",
+        "start_codepoint": 44,
+        "end_codepoint": 55,
+        "human_reviewed": false
+      },
+      {
+        "id": "c-jinshu-074-huan-family:kinship22-161",
+        "kind": "kinship",
+        "person_id": "u9s_w6j_8mc_AD",
+        "source_quote": "秘與溫子熙、濟等謀共廢沖",
+        "reading": "桓熙、桓濟為桓溫子。保留跨章節錄原字。",
+        "note": "桓熙、桓濟為桓溫子。保留跨章節錄原字。",
+        "paragraph_id": "c-jinshu-074-huan-family:p022",
+        "start_codepoint": 161,
+        "end_codepoint": 173,
+        "human_reviewed": false
+      },
+      {
+        "id": "c-jinshu-074-huan-family:identity24-53",
+        "kind": "identity",
+        "person_id": "u9s_w6j_8mc_AE",
+        "source_quote": "買德郎，沖小字也",
+        "reading": "買德郎與買德是同段兩種原稱；字幼子見本傳首。",
+        "note": "買德郎與買德是同段兩種原稱；字幼子見本傳首。",
+        "paragraph_id": "c-jinshu-074-huan-family:p024",
+        "start_codepoint": 53,
+        "end_codepoint": 61,
+        "human_reviewed": false
+      },
+      {
+        "id": "c-jinshu-074-huan-family:source_review33-287",
+        "kind": "source_review",
+        "person_id": "u9s_w6j_8mc_AE",
+        "source_quote": "發病而卒，時年五十七",
+        "reading": "孝武帝紀太元九年二月辛巳。",
+        "note": "孝武帝紀太元九年二月辛巳。",
+        "paragraph_id": "c-jinshu-074-huan-family:p033",
+        "start_codepoint": 287,
+        "end_codepoint": 297,
+        "human_reviewed": false
+      },
+      {
+        "id": "c-jinshu-074-huan-family:kinship34-212",
+        "kind": "kinship",
+        "person_id": "u9s_w6j_8mc_AE",
+        "source_quote": "有七子：嗣、謙、修、崇、弘、羨、怡。",
+        "reading": "保存具名七子，前三子在後分敘。",
+        "note": "保存具名七子，前三子在後分敘。",
+        "paragraph_id": "c-jinshu-074-huan-family:p034",
+        "start_codepoint": 212,
+        "end_codepoint": 230,
+        "human_reviewed": false
+      },
+      {
+        "id": "c-jinshu-074-huan-family:kinship35-120",
+        "kind": "kinship",
+        "person_id": "u9s_w6j_8mc_AEA",
+        "source_quote": "子胤嗣",
+        "reading": "桓嗣之子胤，與後一段詔稱沖孫相合。",
+        "note": "桓嗣之子胤，與後一段詔稱沖孫相合。",
+        "paragraph_id": "c-jinshu-074-huan-family:p035",
+        "start_codepoint": 120,
+        "end_codepoint": 123,
+        "human_reviewed": false
+      },
+      {
+        "id": "c-jinshu-074-huan-family:kinship36-144",
+        "kind": "kinship",
+        "person_id": "u9s_w6j_8mc_AEAA",
+        "source_quote": "其孫胤宜見矜宥",
+        "reading": "詔因桓沖舊勤而赦其孫，通鑑一一四同記。",
+        "note": "詔因桓沖舊勤而赦其孫，通鑑一一四同記。",
+        "paragraph_id": "c-jinshu-074-huan-family:p036",
+        "start_codepoint": 144,
+        "end_codepoint": 151,
+        "human_reviewed": false
+      },
+      {
+        "id": "c-jinshu-074-huan-family:kinship37-87",
+        "kind": "kinship",
+        "person_id": "u9s_w6j_8mc_AEB",
+        "source_quote": "謙父沖有遺惠于荊楚",
+        "reading": "原文父沖。",
+        "note": "原文父沖。",
+        "paragraph_id": "c-jinshu-074-huan-family:p037",
+        "start_codepoint": 87,
+        "end_codepoint": 96,
+        "human_reviewed": false
+      },
+      {
+        "id": "c-jinshu-074-huan-family:kinship40-5",
+        "kind": "kinship",
+        "person_id": "u9s_w6j_8mc_AEC",
+        "source_quote": "尚簡文帝女武昌公主",
+        "reading": "武昌公主為簡文帝女，桓修尚主。",
+        "note": "武昌公主為簡文帝女，桓修尚主。",
+        "paragraph_id": "c-jinshu-074-huan-family:p040",
+        "start_codepoint": 5,
+        "end_codepoint": 14,
+        "human_reviewed": false
+      },
+      {
+        "id": "c-jinshu-074-huan-family:identity41-0",
+        "kind": "identity",
+        "person_id": "wa4_ryp_uum",
+        "source_quote": "徐寧者，東海郯人也",
+        "reading": "附傳起首籍貫，與第十二行的薦舉、輿縣、吏部官互證。",
+        "note": "附傳起首籍貫，與第十二行的薦舉、輿縣、吏部官互證。",
+        "paragraph_id": "c-jinshu-074-huan-family:p041",
+        "start_codepoint": 0,
+        "end_codepoint": 9,
+        "human_reviewed": false
       }
     ]
   },
@@ -350,7 +691,9 @@
           480,
           481,
           482
-        ]
+        ],
+        "first_line": 10,
+        "last_line": 10
       },
       "mentions": [
         {
@@ -487,7 +830,8 @@
           "status": "contextual_provisional",
           "interpretation_note": "依完整單元、引語範圍及平行來源作AI暫定辨識，未圖校。"
         }
-      ]
+      ],
+      "annotation_status": "reviewed"
     },
     {
       "id": "c-jinshu-074-huan-family:p002",
@@ -634,7 +978,9 @@
           620,
           621,
           622
-        ]
+        ],
+        "first_line": 12,
+        "last_line": 12
       },
       "mentions": [
         {
@@ -757,7 +1103,8 @@
           "status": "contextual_provisional",
           "interpretation_note": "依完整單元、引語範圍及平行來源作AI暫定辨識，未圖校。"
         }
-      ]
+      ],
+      "annotation_status": "reviewed"
     },
     {
       "id": "c-jinshu-074-huan-family:p003",
@@ -936,7 +1283,9 @@
           800,
           801,
           802
-        ]
+        ],
+        "first_line": 14,
+        "last_line": 14
       },
       "mentions": [
         {
@@ -1039,7 +1388,8 @@
           "status": "contextual_provisional",
           "interpretation_note": "依完整單元、引語範圍及平行來源作AI暫定辨識，未圖校。"
         }
-      ]
+      ],
+      "annotation_status": "reviewed"
     },
     {
       "id": "c-jinshu-074-huan-family:p004",
@@ -1471,7 +1821,9 @@
           1225,
           1226,
           1227
-        ]
+        ],
+        "first_line": 16,
+        "last_line": 16
       },
       "mentions": [
         {
@@ -1814,7 +2166,8 @@
           "status": "contextual_provisional",
           "interpretation_note": "依完整單元、引語範圍及平行來源作AI暫定辨識，未圖校。"
         }
-      ]
+      ],
+      "annotation_status": "reviewed"
     },
     {
       "id": "c-jinshu-074-huan-family:p005",
@@ -1895,7 +2248,9 @@
           1312,
           1313,
           1316
-        ]
+        ],
+        "first_line": 18,
+        "last_line": 18
       },
       "mentions": [
         {
@@ -2018,7 +2373,8 @@
           "status": "contextual_provisional",
           "interpretation_note": "依完整單元、引語範圍及平行來源作AI暫定辨識，未圖校。"
         }
-      ]
+      ],
+      "annotation_status": "reviewed"
     },
     {
       "id": "c-jinshu-074-huan-family:p006",
@@ -2194,7 +2550,9 @@
           1562,
           1563,
           1564
-        ]
+        ],
+        "first_line": 22,
+        "last_line": 22
       },
       "mentions": [
         {
@@ -2267,7 +2625,8 @@
           "status": "contextual_provisional",
           "interpretation_note": "依完整單元、引語範圍及平行來源作AI暫定辨識，未圖校。"
         }
-      ]
+      ],
+      "annotation_status": "reviewed"
     },
     {
       "id": "c-jinshu-074-huan-family:p007",
@@ -2546,7 +2905,9 @@
           1914,
           1915,
           1916
-        ]
+        ],
+        "first_line": 25,
+        "last_line": 25
       },
       "mentions": [
         {
@@ -2759,7 +3120,8 @@
           "status": "contextual_provisional",
           "interpretation_note": "依完整單元、引語範圍及平行來源作AI暫定辨識，未圖校。"
         }
-      ]
+      ],
+      "annotation_status": "reviewed"
     },
     {
       "id": "c-jinshu-074-huan-family:p008",
@@ -2923,7 +3285,9 @@
           2128,
           2129,
           2130
-        ]
+        ],
+        "first_line": 27,
+        "last_line": 27
       },
       "mentions": [
         {
@@ -3116,7 +3480,8 @@
           "status": "contextual_provisional",
           "interpretation_note": "依完整單元、引語範圍及平行來源作AI暫定辨識，未圖校。"
         }
-      ]
+      ],
+      "annotation_status": "reviewed"
     },
     {
       "id": "c-jinshu-074-huan-family:p009",
@@ -3519,7 +3884,9 @@
           2533,
           2534,
           2535
-        ]
+        ],
+        "first_line": 29,
+        "last_line": 29
       },
       "mentions": [
         {
@@ -3662,7 +4029,8 @@
           "status": "contextual_provisional",
           "interpretation_note": "依完整單元、引語範圍及平行來源作AI暫定辨識，未圖校。"
         }
-      ]
+      ],
+      "annotation_status": "reviewed"
     },
     {
       "id": "c-jinshu-074-huan-family:p010",
@@ -3733,7 +4101,9 @@
           2597,
           2598,
           2599
-        ]
+        ],
+        "first_line": 31,
+        "last_line": 31
       },
       "mentions": [
         {
@@ -3826,7 +4196,8 @@
           "status": "contextual_provisional",
           "interpretation_note": "依完整單元、引語範圍及平行來源作AI暫定辨識，未圖校。"
         }
-      ]
+      ],
+      "annotation_status": "reviewed"
     },
     {
       "id": "c-jinshu-074-huan-family:p011",
@@ -3999,7 +4370,9 @@
           2763,
           2764,
           2765
-        ]
+        ],
+        "first_line": 33,
+        "last_line": 33
       },
       "mentions": [
         {
@@ -4112,7 +4485,8 @@
           "status": "contextual_provisional",
           "interpretation_note": "依完整單元、引語範圍及平行來源作AI暫定辨識，未圖校。"
         }
-      ]
+      ],
+      "annotation_status": "reviewed"
     },
     {
       "id": "c-jinshu-074-huan-family:p012",
@@ -4443,7 +4817,9 @@
           3190,
           3191,
           3192
-        ]
+        ],
+        "first_line": 35,
+        "last_line": 35
       },
       "mentions": [
         {
@@ -4666,7 +5042,8 @@
           "status": "contextual_provisional",
           "interpretation_note": "依完整單元、引語範圍及平行來源作AI暫定辨識，未圖校。"
         }
-      ]
+      ],
+      "annotation_status": "reviewed"
     },
     {
       "id": "c-jinshu-074-huan-family:p013",
@@ -4723,7 +5100,9 @@
           3278,
           3279,
           3280
-        ]
+        ],
+        "first_line": 37,
+        "last_line": 37
       },
       "mentions": [
         {
@@ -4786,7 +5165,8 @@
           "status": "contextual_provisional",
           "interpretation_note": "依完整單元、引語範圍及平行來源作AI暫定辨識，未圖校。"
         }
-      ]
+      ],
+      "annotation_status": "reviewed"
     },
     {
       "id": "c-jinshu-074-huan-family:p014",
@@ -5106,7 +5486,9 @@
           3635,
           3636,
           3637
-        ]
+        ],
+        "first_line": 39,
+        "last_line": 39
       },
       "mentions": [
         {
@@ -5422,7 +5804,8 @@
           "status": "contextual_provisional",
           "interpretation_note": "振歎語"
         }
-      ]
+      ],
+      "annotation_status": "reviewed"
     },
     {
       "id": "c-jinshu-074-huan-family:p015",
@@ -5671,7 +6054,9 @@
           3936,
           3937,
           3938
-        ]
+        ],
+        "first_line": 41,
+        "last_line": 41
       },
       "mentions": [
         {
@@ -5967,7 +6352,8 @@
           "status": "contextual_provisional",
           "interpretation_note": "依完整單元、引語範圍及平行來源作AI暫定辨識，未圖校。"
         }
-      ]
+      ],
+      "annotation_status": "reviewed"
     },
     {
       "id": "c-jinshu-074-huan-family:p016",
@@ -6257,7 +6643,9 @@
           4233,
           4234,
           4235
-        ]
+        ],
+        "first_line": 43,
+        "last_line": 43
       },
       "mentions": [
         {
@@ -6450,7 +6838,8 @@
           "status": "contextual_provisional",
           "interpretation_note": "依完整單元、引語範圍及平行來源作AI暫定辨識，未圖校。"
         }
-      ]
+      ],
+      "annotation_status": "reviewed"
     },
     {
       "id": "c-jinshu-074-huan-family:p017",
@@ -6615,7 +7004,9 @@
           4391,
           4392,
           4393
-        ]
+        ],
+        "first_line": 45,
+        "last_line": 45
       },
       "mentions": [
         {
@@ -6748,7 +7139,8 @@
           "status": "contextual_provisional",
           "interpretation_note": "依完整單元、引語範圍及平行來源作AI暫定辨識，未圖校。"
         }
-      ]
+      ],
+      "annotation_status": "reviewed"
     },
     {
       "id": "c-jinshu-074-huan-family:p018",
@@ -7004,7 +7396,9 @@
           4659,
           4660,
           4661
-        ]
+        ],
+        "first_line": 47,
+        "last_line": 47
       },
       "mentions": [
         {
@@ -7287,7 +7681,8 @@
           "status": "contextual_provisional",
           "interpretation_note": "依完整單元、引語範圍及平行來源作AI暫定辨識，未圖校。"
         }
-      ]
+      ],
+      "annotation_status": "reviewed"
     },
     {
       "id": "c-jinshu-074-huan-family:p019",
@@ -7367,7 +7762,9 @@
           4732,
           4733,
           4734
-        ]
+        ],
+        "first_line": 49,
+        "last_line": 49
       },
       "mentions": [
         {
@@ -7440,7 +7837,8 @@
           "status": "contextual_provisional",
           "interpretation_note": "依完整單元、引語範圍及平行來源作AI暫定辨識，未圖校。"
         }
-      ]
+      ],
+      "annotation_status": "reviewed"
     },
     {
       "id": "c-jinshu-074-huan-family:p020",
@@ -7507,7 +7905,9 @@
           4825,
           4826,
           4827
-        ]
+        ],
+        "first_line": 51,
+        "last_line": 51
       },
       "mentions": [
         {
@@ -7570,7 +7970,8 @@
           "status": "contextual_provisional",
           "interpretation_note": "依完整單元、引語範圍及平行來源作AI暫定辨識，未圖校。"
         }
-      ]
+      ],
+      "annotation_status": "reviewed"
     },
     {
       "id": "c-jinshu-074-huan-family:p021",
@@ -7625,7 +8026,9 @@
           4918,
           4919,
           4920
-        ]
+        ],
+        "first_line": 53,
+        "last_line": 53
       },
       "mentions": [
         {
@@ -7678,7 +8081,8 @@
           "status": "contextual_provisional",
           "interpretation_note": "依完整單元、引語範圍及平行來源作AI暫定辨識，未圖校。"
         }
-      ]
+      ],
+      "annotation_status": "reviewed"
     },
     {
       "id": "c-jinshu-074-huan-family:p022",
@@ -8049,7 +8453,9 @@
           5336,
           5337,
           5338
-        ]
+        ],
+        "first_line": 56,
+        "last_line": 56
       },
       "mentions": [
         {
@@ -8402,7 +8808,8 @@
           "status": "contextual_provisional",
           "interpretation_note": "依完整單元、引語範圍及平行來源作AI暫定辨識，未圖校。"
         }
-      ]
+      ],
+      "annotation_status": "reviewed"
     },
     {
       "id": "c-jinshu-074-huan-family:p023",
@@ -8644,7 +9051,9 @@
           5580,
           5581,
           5582
-        ]
+        ],
+        "first_line": 59,
+        "last_line": 59
       },
       "mentions": [
         {
@@ -8827,7 +9236,8 @@
           "status": "contextual_provisional",
           "interpretation_note": "依完整單元、引語範圍及平行來源作AI暫定辨識，未圖校。"
         }
-      ]
+      ],
+      "annotation_status": "reviewed"
     },
     {
       "id": "c-jinshu-074-huan-family:p024",
@@ -8964,7 +9374,9 @@
           5710,
           5711,
           5712
-        ]
+        ],
+        "first_line": 61,
+        "last_line": 61
       },
       "mentions": [
         {
@@ -9107,7 +9519,8 @@
           "status": "contextual_provisional",
           "interpretation_note": "依完整單元、引語範圍及平行來源作AI暫定辨識，未圖校。"
         }
-      ]
+      ],
+      "annotation_status": "reviewed"
     },
     {
       "id": "c-jinshu-074-huan-family:p025",
@@ -9287,7 +9700,9 @@
           5883,
           5884,
           5885
-        ]
+        ],
+        "first_line": 63,
+        "last_line": 63
       },
       "mentions": [
         {
@@ -9420,7 +9835,8 @@
           "status": "contextual_provisional",
           "interpretation_note": "依完整單元、引語範圍及平行來源作AI暫定辨識，未圖校。"
         }
-      ]
+      ],
+      "annotation_status": "reviewed"
     },
     {
       "id": "c-jinshu-074-huan-family:p026",
@@ -9634,7 +10050,9 @@
           6090,
           6091,
           6092
-        ]
+        ],
+        "first_line": 65,
+        "last_line": 65
       },
       "mentions": [
         {
@@ -9747,7 +10165,8 @@
           "status": "contextual_provisional",
           "interpretation_note": "依完整單元、引語範圍及平行來源作AI暫定辨識，未圖校。"
         }
-      ]
+      ],
+      "annotation_status": "reviewed"
     },
     {
       "id": "c-jinshu-074-huan-family:p027",
@@ -9812,7 +10231,9 @@
           6148,
           6149,
           6150
-        ]
+        ],
+        "first_line": 67,
+        "last_line": 67
       },
       "mentions": [
         {
@@ -9865,7 +10286,8 @@
           "status": "contextual_provisional",
           "interpretation_note": "依完整單元、引語範圍及平行來源作AI暫定辨識，未圖校。"
         }
-      ]
+      ],
+      "annotation_status": "reviewed"
     },
     {
       "id": "c-jinshu-074-huan-family:p028",
@@ -10031,7 +10453,9 @@
           6315,
           6316,
           6317
-        ]
+        ],
+        "first_line": 69,
+        "last_line": 69
       },
       "mentions": [
         {
@@ -10054,7 +10478,8 @@
           "status": "contextual_provisional",
           "interpretation_note": "同一表"
         }
-      ]
+      ],
+      "annotation_status": "reviewed"
     },
     {
       "id": "c-jinshu-074-huan-family:p029",
@@ -10221,7 +10646,9 @@
           6485,
           6486,
           6487
-        ]
+        ],
+        "first_line": 71,
+        "last_line": 71
       },
       "mentions": [
         {
@@ -10298,7 +10725,8 @@
           "status": "contextual_provisional",
           "interpretation_note": "同表自稱"
         }
-      ]
+      ],
+      "annotation_status": "reviewed"
     },
     {
       "id": "c-jinshu-074-huan-family:p030",
@@ -10577,7 +11005,9 @@
           6771,
           6772,
           6773
-        ]
+        ],
+        "first_line": 73,
+        "last_line": 73
       },
       "mentions": [
         {
@@ -10660,7 +11090,8 @@
           "status": "contextual_provisional",
           "interpretation_note": "依完整單元、引語範圍及平行來源作AI暫定辨識，未圖校。"
         }
-      ]
+      ],
+      "annotation_status": "reviewed"
     },
     {
       "id": "c-jinshu-074-huan-family:p031",
@@ -10929,7 +11360,9 @@
           7046,
           7047,
           7048
-        ]
+        ],
+        "first_line": 75,
+        "last_line": 75
       },
       "mentions": [
         {
@@ -11032,7 +11465,8 @@
           "status": "contextual_provisional",
           "interpretation_note": "依完整單元、引語範圍及平行來源作AI暫定辨識，未圖校。"
         }
-      ]
+      ],
+      "annotation_status": "reviewed"
     },
     {
       "id": "c-jinshu-074-huan-family:p032",
@@ -11505,7 +11939,9 @@
           7608,
           7609,
           7610
-        ]
+        ],
+        "first_line": 77,
+        "last_line": 77
       },
       "mentions": [
         {
@@ -12044,7 +12480,8 @@
           "status": "contextual_provisional",
           "interpretation_note": "依完整單元、引語範圍及平行來源作AI暫定辨識，未圖校。"
         }
-      ]
+      ],
+      "annotation_status": "reviewed"
     },
     {
       "id": "c-jinshu-074-huan-family:p033",
@@ -12378,7 +12815,9 @@
           7935,
           7936,
           7937
-        ]
+        ],
+        "first_line": 79,
+        "last_line": 79
       },
       "mentions": [
         {
@@ -12551,7 +12990,8 @@
           "status": "contextual_provisional",
           "interpretation_note": "依完整單元、引語範圍及平行來源作AI暫定辨識，未圖校。"
         }
-      ]
+      ],
+      "annotation_status": "reviewed"
     },
     {
       "id": "c-jinshu-074-huan-family:p034",
@@ -12792,7 +13232,9 @@
           8169,
           8170,
           8171
-        ]
+        ],
+        "first_line": 81,
+        "last_line": 81
       },
       "mentions": [
         {
@@ -13048,7 +13490,8 @@
           "status": "contextual_provisional",
           "interpretation_note": "依完整單元、引語範圍及平行來源作AI暫定辨識，未圖校。"
         }
-      ]
+      ],
+      "annotation_status": "reviewed"
     },
     {
       "id": "c-jinshu-074-huan-family:p035",
@@ -13183,7 +13626,9 @@
           8297,
           8298,
           8299
-        ]
+        ],
+        "first_line": 83,
+        "last_line": 83
       },
       "mentions": [
         {
@@ -13276,7 +13721,8 @@
           "status": "contextual_provisional",
           "interpretation_note": "依完整單元、引語範圍及平行來源作AI暫定辨識，未圖校。"
         }
-      ]
+      ],
+      "annotation_status": "reviewed"
     },
     {
       "id": "c-jinshu-074-huan-family:p036",
@@ -13489,7 +13935,9 @@
           8569,
           8570,
           8571
-        ]
+        ],
+        "first_line": 85,
+        "last_line": 85
       },
       "mentions": [
         {
@@ -13646,7 +14094,8 @@
           "status": "contextual_provisional",
           "interpretation_note": "依完整單元、引語範圍及平行來源作AI暫定辨識，未圖校。"
         }
-      ]
+      ],
+      "annotation_status": "reviewed"
     },
     {
       "id": "c-jinshu-074-huan-family:p037",
@@ -13797,7 +14246,9 @@
           8713,
           8714,
           8715
-        ]
+        ],
+        "first_line": 87,
+        "last_line": 87
       },
       "mentions": [
         {
@@ -13890,7 +14341,8 @@
           "status": "contextual_provisional",
           "interpretation_note": "依完整單元、引語範圍及平行來源作AI暫定辨識，未圖校。"
         }
-      ]
+      ],
+      "annotation_status": "reviewed"
     },
     {
       "id": "c-jinshu-074-huan-family:p038",
@@ -14000,7 +14452,9 @@
           8816,
           8817,
           8818
-        ]
+        ],
+        "first_line": 89,
+        "last_line": 89
       },
       "mentions": [
         {
@@ -14063,7 +14517,8 @@
           "status": "contextual_provisional",
           "interpretation_note": "依完整單元、引語範圍及平行來源作AI暫定辨識，未圖校。"
         }
-      ]
+      ],
+      "annotation_status": "reviewed"
     },
     {
       "id": "c-jinshu-074-huan-family:p039",
@@ -14338,7 +14793,9 @@
           9084,
           9085,
           9086
-        ]
+        ],
+        "first_line": 91,
+        "last_line": 91
       },
       "mentions": [
         {
@@ -14691,7 +15148,8 @@
           "status": "contextual_provisional",
           "interpretation_note": "依完整單元、引語範圍及平行來源作AI暫定辨識，未圖校。"
         }
-      ]
+      ],
+      "annotation_status": "reviewed"
     },
     {
       "id": "c-jinshu-074-huan-family:p040",
@@ -15109,7 +15567,9 @@
           9495,
           9496,
           9497
-        ]
+        ],
+        "first_line": 93,
+        "last_line": 93
       },
       "mentions": [
         {
@@ -15542,7 +16002,8 @@
           "status": "contextual_provisional",
           "interpretation_note": "依完整單元、引語範圍及平行來源作AI暫定辨識，未圖校。"
         }
-      ]
+      ],
+      "annotation_status": "reviewed"
     },
     {
       "id": "c-jinshu-074-huan-family:p041",
@@ -15707,7 +16168,9 @@
           9657,
           9658,
           9659
-        ]
+        ],
+        "first_line": 95,
+        "last_line": 95
       },
       "mentions": [
         {
@@ -15800,7 +16263,8 @@
           "status": "contextual_provisional",
           "interpretation_note": "依完整單元、引語範圍及平行來源作AI暫定辨識，未圖校。"
         }
-      ]
+      ],
+      "annotation_status": "reviewed"
     }
   ],
   "text_sha256": "55f15fa4deb96c8682a92ac2700c50a9978c111371faf020de0fff87a8ad1c94",

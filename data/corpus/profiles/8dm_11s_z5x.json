@@ -9,7 +9,8 @@
     "司馬勲",
     "勲",
     "司馬勳",
-    "勳"
+    "勳",
+    "司勳"
   ],
   "titles": [
     {
@@ -363,6 +364,41 @@
       "work_title": "晉書"
     },
     {
+      "number": 73,
+      "category": "",
+      "title": "晉書卷七十三·庾翼",
+      "paragraph_id": "c-jinshu-073-yuyi:p011",
+      "count": 1,
+      "raw_count": 1,
+      "duplicate_count": 0,
+      "counting_policy": "independent_fixed_witness_occurrences",
+      "quote": "，翼以長子方之為義成太守，代領宣眾，司馬應誕為龍驤將軍、襄陽太守，參軍司勳為建威將軍、梁州刺史，戍西城。康帝崩，兄冰卒，以家國情事，留方之戍襄陽，還鎮夏口，悉取冰所領兵自配，以兄子統為尋陽太守。詔使翼還督江州，又領豫州刺史，辭豫州。復欲移鎮樂鄉，詔不許。繕修軍器，大佃積穀，",
+      "paragraph_ids": [
+        "c-jinshu-073-yuyi:p011"
+      ],
+      "mention_ids": [
+        "c-jinshu-073-yuyi:p011:m0243"
+      ],
+      "mention_paragraph_ids": {
+        "c-jinshu-073-yuyi:p011:m0243": "c-jinshu-073-yuyi:p011"
+      },
+      "mention_id": "c-jinshu-073-yuyi:p011:m0243",
+      "occurrence_groups": [
+        {
+          "canonical_mention_id": "c-jinshu-073-yuyi:p011:m0243",
+          "mention_ids": [
+            "c-jinshu-073-yuyi:p011:m0243"
+          ],
+          "kind": "paragraph"
+        }
+      ],
+      "work_id": "w-jinshu",
+      "book_id": "b-jinshu-073",
+      "chapter_id": "c-jinshu-073-yuyi",
+      "source_id": "s-jinshu-073-yuyi-ws2296501",
+      "work_title": "晉書"
+    },
+    {
       "number": 74,
       "category": "",
       "title": "桓彝及附桓氏家族完整單元",
@@ -604,6 +640,32 @@
       }
     },
     {
+      "chapter_id": "c-jinshu-073-yuyi",
+      "work_id": "w-jinshu",
+      "book_id": "b-jinshu-073",
+      "source_id": "s-jinshu-073-yuyi-ws2296501",
+      "source": {
+        "title": "晉書卷七十三·庾翼",
+        "provider": "Wikisource",
+        "permalink": "https://zh.wikisource.org/w/index.php?oldid=2296501",
+        "url": "https://zh.wikisource.org/w/index.php?oldid=2296501",
+        "revision_id": 2296501,
+        "edition": "維基文庫固定修訂",
+        "accessed_on": "2026-11-22",
+        "review_status": "text_checked",
+        "image_verified": false,
+        "rights": "古代原文；數位轉錄依維基文庫授權。",
+        "license_url": "https://creativecommons.org/licenses/by-sa/4.0/",
+        "extent": "晉書卷七十三·庾翼",
+        "text_scope": "complete_biography_unit",
+        "raw_path": "source-evidence/jin073-roll/ws2296501.wikitext",
+        "raw_file_sha256": "5d01ef1f3455e9e7ddf6b6e0ddfd3b318f0112dfbcc5d2dabb0ab2ab0a4b1992",
+        "collation_witnesses": [
+          "source-evidence/jin073-roll/volume-reading.json"
+        ]
+      }
+    },
+    {
       "chapter_id": "c-jinshu-074-huan-family",
       "work_id": "w-jinshu",
       "book_id": "b-jinshu-074",
@@ -631,7 +693,10 @@
         "accessed_on": "2026-10-20",
         "text_scope": "partial_chapter",
         "review_status": "text_checked",
-        "license_url": "https://creativecommons.org/licenses/by-sa/4.0/"
+        "license_url": "https://creativecommons.org/licenses/by-sa/4.0/",
+        "collation_witnesses": [
+          "source-evidence/jin074-roll/volume-reading.json"
+        ]
       }
     },
     {
@@ -831,6 +896,36 @@
       "work_id": "w-jinshu",
       "book_id": "b-jinshu-008",
       "source_id": "s-jinshu-008-yonghe5"
+    }
+  ],
+  "source_reading_cases": [
+    {
+      "id": "c-jinshu-073-yuyi:identity11-241",
+      "kind": "identity",
+      "person_id": "8dm_11s_z5x",
+      "source_quote": "參軍司勳為建威將軍、梁州刺史，戍西城",
+      "reading": "四庫作司馬勲；卷三十七濟南王遂附傳也記庾翼鎮襄陽薦勳繼桓宣、屯西城。",
+      "note": "四庫作司馬勲；卷三十七濟南王遂附傳也記庾翼鎮襄陽薦勳繼桓宣、屯西城。",
+      "paragraph_id": "c-jinshu-073-yuyi:p011",
+      "start_codepoint": 241,
+      "end_codepoint": 259,
+      "human_reviewed": false,
+      "chapter_id": "c-jinshu-073-yuyi",
+      "source_id": "s-jinshu-073-yuyi-ws2296501"
+    },
+    {
+      "id": "c-jinshu-074-huan-family:identity7-148",
+      "kind": "identity",
+      "person_id": "8dm_11s_z5x",
+      "source_quote": "時梁州刺史司馬勳以梁益叛",
+      "reading": "卷三十七桓宣死後代領梁州、卷七十三所見司勳及本卷桓豁、桓秘之文各用原字。",
+      "note": "卷三十七桓宣死後代領梁州、卷七十三所見司勳及本卷桓豁、桓秘之文各用原字。",
+      "paragraph_id": "c-jinshu-074-huan-family:p007",
+      "start_codepoint": 148,
+      "end_codepoint": 160,
+      "human_reviewed": false,
+      "chapter_id": "c-jinshu-074-huan-family",
+      "source_id": "s-jinshu-074-ws1536331"
     }
   ],
   "person_ids": [
