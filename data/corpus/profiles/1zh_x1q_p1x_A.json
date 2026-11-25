@@ -7,7 +7,8 @@
   "review": "ai_provisional",
   "names": [
     "袁喬",
-    "喬"
+    "喬",
+    "袁羊"
   ],
   "titles": [
     {
@@ -145,6 +146,41 @@
       "work_title": "晉書"
     },
     {
+      "number": 75,
+      "category": "",
+      "title": "晉書卷七十五·劉惔",
+      "paragraph_id": "c-jinshu-075-liutan:p001",
+      "count": 1,
+      "raw_count": 1,
+      "duplicate_count": 0,
+      "counting_policy": "independent_fixed_witness_occurrences",
+      "quote": "以為養，雖蓽門陋巷，晏如也。人未之識，惟王導深器之。後稍知名，論者比之袁羊。惔喜，還告其母。其母，聰明婦人也，謂之曰：「此非汝比，勿受之。」又有方之范汪者。惔復喜，母又不聽。及惔年德轉升，論者遂比之荀粲。尚明帝女廬陵公主。以惔雅善言理，簡文帝初作相，與王濛並為談客，俱蒙上賓",
+      "paragraph_ids": [
+        "c-jinshu-075-liutan:p001"
+      ],
+      "mention_ids": [
+        "c-jinshu-075-liutan:p001:m0140"
+      ],
+      "mention_paragraph_ids": {
+        "c-jinshu-075-liutan:p001:m0140": "c-jinshu-075-liutan:p001"
+      },
+      "mention_id": "c-jinshu-075-liutan:p001:m0140",
+      "occurrence_groups": [
+        {
+          "canonical_mention_id": "c-jinshu-075-liutan:p001:m0140",
+          "mention_ids": [
+            "c-jinshu-075-liutan:p001:m0140"
+          ],
+          "kind": "paragraph"
+        }
+      ],
+      "work_id": "w-jinshu",
+      "book_id": "b-jinshu-075",
+      "chapter_id": "c-jinshu-075-liutan",
+      "source_id": "s-jinshu-075-liutan-ws2645530",
+      "work_title": "晉書"
+    },
+    {
       "number": 97,
       "category": "",
       "title": "資治通鑑永和紀年李氏、周氏及新舊屬官",
@@ -233,6 +269,32 @@
       }
     },
     {
+      "chapter_id": "c-jinshu-075-liutan",
+      "work_id": "w-jinshu",
+      "book_id": "b-jinshu-075",
+      "source_id": "s-jinshu-075-liutan-ws2645530",
+      "source": {
+        "title": "晉書卷七十五·劉惔",
+        "provider": "Wikisource",
+        "permalink": "https://zh.wikisource.org/w/index.php?oldid=2645530",
+        "url": "https://zh.wikisource.org/w/index.php?oldid=2645530",
+        "revision_id": 2645530,
+        "edition": "維基文庫固定修訂",
+        "accessed_on": "2026-11-22",
+        "review_status": "text_checked",
+        "image_verified": false,
+        "rights": "古代原文；數位轉錄依維基文庫授權。",
+        "license_url": "https://creativecommons.org/licenses/by-sa/4.0/",
+        "extent": "晉書卷七十五·劉惔",
+        "text_scope": "complete_biography_unit",
+        "raw_path": "source-evidence/jin075-roll/ws2645530.wikitext",
+        "raw_file_sha256": "11d2db1eed03a9a461ce48abad661b90ba39911b13da75b3fe593dac197bc957",
+        "collation_witnesses": [
+          "source-evidence/jin075-roll/volume-reading.json"
+        ]
+      }
+    },
+    {
       "chapter_id": "c-zizhitongjian-097-jin098-huanwen-shu",
       "work_id": "w-zizhitongjian",
       "book_id": "b-zizhitongjian-097",
@@ -297,6 +359,22 @@
   },
   "dates": [],
   "name_components": [],
+  "source_reading_cases": [
+    {
+      "id": "c-jinshu-075-liutan:identity1-136",
+      "kind": "identity",
+      "person_id": "1zh_x1q_p1x_A",
+      "source_quote": "論者比之袁羊",
+      "reading": "世說新語言語劉注記袁羊為喬小字。",
+      "note": "世說新語言語劉注記袁羊為喬小字。",
+      "paragraph_id": "c-jinshu-075-liutan:p001",
+      "start_codepoint": 136,
+      "end_codepoint": 142,
+      "human_reviewed": false,
+      "chapter_id": "c-jinshu-075-liutan",
+      "source_id": "s-jinshu-075-liutan-ws2645530"
+    }
+  ],
   "person_ids": [
     "1zh_x1q_p1x_A"
   ],

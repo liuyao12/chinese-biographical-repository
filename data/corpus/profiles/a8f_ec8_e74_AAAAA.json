@@ -1941,6 +1941,60 @@
     {
       "number": 75,
       "category": "",
+      "title": "晉書卷七十五·韓伯",
+      "paragraph_id": "c-jinshu-075-hanbo:p001",
+      "count": 3,
+      "raw_count": 3,
+      "duplicate_count": 0,
+      "counting_policy": "independent_fixed_witness_occurrences",
+      "quote": "「康伯能自標置，居然是出群之器。」潁川庾龢名重一時，少所推服，常稱伯及王坦之曰：「思理倫和，我敬韓康伯；志力強正，吾愧王文度。自此以還，吾皆百之矣。」",
+      "paragraph_ids": [
+        "c-jinshu-075-hanbo:p001",
+        "c-jinshu-075-hanbo:p003"
+      ],
+      "mention_ids": [
+        "c-jinshu-075-hanbo:p001:m0165",
+        "c-jinshu-075-hanbo:p001:m0189",
+        "c-jinshu-075-hanbo:p003:m0000"
+      ],
+      "mention_paragraph_ids": {
+        "c-jinshu-075-hanbo:p001:m0165": "c-jinshu-075-hanbo:p001",
+        "c-jinshu-075-hanbo:p001:m0189": "c-jinshu-075-hanbo:p001",
+        "c-jinshu-075-hanbo:p003:m0000": "c-jinshu-075-hanbo:p003"
+      },
+      "mention_id": "c-jinshu-075-hanbo:p001:m0165",
+      "occurrence_groups": [
+        {
+          "canonical_mention_id": "c-jinshu-075-hanbo:p001:m0165",
+          "mention_ids": [
+            "c-jinshu-075-hanbo:p001:m0165"
+          ],
+          "kind": "paragraph"
+        },
+        {
+          "canonical_mention_id": "c-jinshu-075-hanbo:p001:m0189",
+          "mention_ids": [
+            "c-jinshu-075-hanbo:p001:m0189"
+          ],
+          "kind": "paragraph"
+        },
+        {
+          "canonical_mention_id": "c-jinshu-075-hanbo:p003:m0000",
+          "mention_ids": [
+            "c-jinshu-075-hanbo:p003:m0000"
+          ],
+          "kind": "paragraph"
+        }
+      ],
+      "work_id": "w-jinshu",
+      "book_id": "b-jinshu-075",
+      "chapter_id": "c-jinshu-075-hanbo",
+      "source_id": "s-jinshu-075-hanbo-ws2645530",
+      "work_title": "晉書"
+    },
+    {
+      "number": 75,
+      "category": "",
       "title": "王湛、王承、王述、王坦之及附傳完整敘事單元",
       "paragraph_id": "c-jinshu-075-taiyuan-wang:line033",
       "count": 27,
@@ -2626,6 +2680,32 @@
         "raw_file_sha256": "bfbb80734b71669aaed368f54f088c89285f1acdbe70ca678745ea9684029495",
         "collation_witnesses": [
           "source-evidence/jin067-xichao-sengshi/reading.json"
+        ]
+      }
+    },
+    {
+      "chapter_id": "c-jinshu-075-hanbo",
+      "work_id": "w-jinshu",
+      "book_id": "b-jinshu-075",
+      "source_id": "s-jinshu-075-hanbo-ws2645530",
+      "source": {
+        "title": "晉書卷七十五·韓伯",
+        "provider": "Wikisource",
+        "permalink": "https://zh.wikisource.org/w/index.php?oldid=2645530",
+        "url": "https://zh.wikisource.org/w/index.php?oldid=2645530",
+        "revision_id": 2645530,
+        "edition": "維基文庫固定修訂",
+        "accessed_on": "2026-11-22",
+        "review_status": "text_checked",
+        "image_verified": false,
+        "rights": "古代原文；數位轉錄依維基文庫授權。",
+        "license_url": "https://creativecommons.org/licenses/by-sa/4.0/",
+        "extent": "晉書卷七十五·韓伯",
+        "text_scope": "complete_biography_unit",
+        "raw_path": "source-evidence/jin075-roll/ws2645530.wikitext",
+        "raw_file_sha256": "11d2db1eed03a9a461ce48abad661b90ba39911b13da75b3fe593dac197bc957",
+        "collation_witnesses": [
+          "source-evidence/jin075-roll/volume-reading.json"
         ]
       }
     },
