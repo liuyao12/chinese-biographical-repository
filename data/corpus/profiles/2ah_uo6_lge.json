@@ -72,7 +72,6 @@
       "raw_count": 4,
       "duplicate_count": 0,
       "counting_policy": "independent_fixed_witness_occurrences",
-      "quote": "，漢兵盛食多，項王兵罷食絕。漢遣陸賈說項王，請太公，項王弗聽。漢王復使侯公往說項王，項王乃與漢約，中分天下，割鴻溝以西者為漢，鴻溝而東者為楚。項王許之，即歸漢王父母妻子。軍皆呼萬歲。漢王乃封侯公為平國君。匿弗肯復見。曰：「此天下辯士，所居傾國，故號為平國君。」項王已約，乃引",
       "paragraph_ids": [
         "c-shiji-007-xiangyu:p038"
       ],
@@ -123,7 +122,12 @@
       "book_id": "b-shiji-007",
       "chapter_id": "c-shiji-007-xiangyu",
       "source_id": "s-shiji-007-xiangyu",
-      "work_title": "史記"
+      "work_title": "史記",
+      "chapter_ref": "data/corpus/shiji/007.json",
+      "quote_span": [
+        2,
+        139
+      ]
     }
   ],
   "table_occurrences": [],
@@ -133,24 +137,7 @@
       "work_id": "w-shiji",
       "book_id": "b-shiji-007",
       "source_id": "s-shiji-007-xiangyu",
-      "source": {
-        "title": "史記／卷007",
-        "provider": "維基文庫",
-        "url": "https://zh.wikisource.org/wiki/史記/卷007",
-        "permalink": "https://zh.wikisource.org/w/index.php?title=史記/卷007&oldid=5978360",
-        "revision_id": 5978360,
-        "accessed_on": "2026-10-09",
-        "extent": "本篇傳世正文45個p區塊，自「項籍者」至太史公論贊；不含導覽標題、跨站連結與另署【索隱述贊】的後出注家文字。",
-        "image_verified": false,
-        "rights": "古代原文；數位轉錄依維基文庫CC BY-SA 4.0，保留署名及固定版本。",
-        "license_url": "https://creativecommons.org/licenses/by-sa/4.0/",
-        "normalization": {
-          "character_conversion": {},
-          "editorial_readings": [],
-          "extraction_note": "核讀p與dd原有次序；本篇dd僅為正文前跨站導覽，正文45區塊均為p。排除sup註號，保留行內校勘符號待核。",
-          "note": "固定版本正文HTML與所讀頁面重讀一致；未核紙本或影像。"
-        }
-      }
+      "chapter_ref": "data/corpus/shiji/007.json"
     }
   ],
   "relations": [],

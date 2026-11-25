@@ -21,7 +21,7 @@
           "chapter_id": "c-shiji-009-lvhou",
           "source_id": "s-shiji-009-lvhou",
           "paragraph_id": "c-shiji-009-lvhou:p031",
-          "quote": "東牟侯興居曰：「誅呂氏吾無功，請得除宮。」乃與太仆汝陰侯滕公入宮，前謂少帝曰：「足下非劉氏，不當立。」乃顧麾左右執戟者掊兵罷去。有數人不肯去兵，宦者令張澤諭告，亦去兵。滕公乃召乘輿車載少帝出。少帝曰：「欲將我安之乎？」滕公曰「出就舍。」舍少府。乃奉天子法駕，迎代王於邸。報曰：「宮謹除。」代王即夕入未央宮。有謁者十人持戟衛端門，曰：「天子在也，足下何為者而入？」代王乃謂太尉。太尉往諭，謁者十人皆掊兵而去。代王遂入而聽政。夜，有司分部誅滅梁、淮陽、常山王及少帝於邸。代王立為天子。二十三年崩，謚為孝文皇帝。"
+          "quote_passage_ref": "data/corpus/shiji/009.json"
         }
       ],
       "attestations": [
@@ -65,7 +65,6 @@
       "raw_count": 1,
       "duplicate_count": 0,
       "counting_policy": "independent_fixed_witness_occurrences",
-      "quote": "足下非劉氏，不當立。」乃顧麾左右執戟者掊兵罷去。有數人不肯去兵，宦者令張澤諭告，亦去兵。滕公乃召乘輿車載少帝出。少帝曰：「欲將我安之乎？」滕公曰「出就舍。」舍少府。乃奉天子法駕，迎代王於邸。報曰：「宮謹除。」代王即夕入未央宮。有謁者十人持戟衛端門，曰：「天子在也，足下何為者",
       "paragraph_ids": [
         "c-shiji-009-lvhou:p031"
       ],
@@ -89,7 +88,12 @@
       "book_id": "b-shiji-009",
       "chapter_id": "c-shiji-009-lvhou",
       "source_id": "s-shiji-009-lvhou",
-      "work_title": "史記"
+      "work_title": "史記",
+      "chapter_ref": "data/corpus/shiji/009.json",
+      "quote_span": [
+        40,
+        177
+      ]
     }
   ],
   "table_occurrences": [
@@ -97,7 +101,6 @@
       "table_id": "shiji-019",
       "cell_id": "shiji-019-t2-r030-c02",
       "title": "《史記·惠景間侯者年表》",
-      "quote": "八年亖月丁酉，侯張澤元年。。九月，奪侯，國除。",
       "year": null,
       "mention": {
         "id": "shiji-019-t2-r030-c02-m000",
@@ -112,7 +115,8 @@
       "book_id": "b-shiji-019",
       "chapter_id": "table-chapter-shiji-019",
       "source_id": "table-witness-shiji-019",
-      "source_revision": "6359260"
+      "source_revision": "6359260",
+      "quote_ref": "cell"
     }
   ],
   "sources": [
@@ -121,47 +125,14 @@
       "work_id": "w-shiji",
       "book_id": "b-shiji-009",
       "source_id": "s-shiji-009-lvhou",
-      "source": {
-        "title": "史記／卷009",
-        "provider": "維基文庫",
-        "url": "https://zh.wikisource.org/wiki/史記/卷009",
-        "permalink": "https://zh.wikisource.org/w/index.php?title=史記/卷009&oldid=2087062",
-        "revision_id": 2087062,
-        "accessed_on": "2026-10-09",
-        "extent": "本篇傳世正文32個p區塊，自「呂太后者」至太史公論贊；不含篇名導覽、跨站dd及另署索隱述贊的後出文字。",
-        "image_verified": false,
-        "rights": "古代原文；數位轉錄依維基文庫CC BY-SA 4.0，保留署名及固定版本。",
-        "license_url": "https://creativecommons.org/licenses/by-sa/4.0/",
-        "normalization": {
-          "character_conversion": {},
-          "editorial_readings": [],
-          "extraction_note": "正文均為p，排除前置跨站導覽dd、sup註號與末尾索隱述贊，保留原有校勘符號。",
-          "note": "固定版本HTML與實際所讀正文一致；未核紙本或影像。"
-        }
-      }
+      "chapter_ref": "data/corpus/shiji/009.json"
     },
     {
       "chapter_id": "table-chapter-shiji-019",
       "work_id": "w-shiji",
       "book_id": "b-shiji-019",
       "source_id": "table-witness-shiji-019",
-      "source": {
-        "id": "table-witness-shiji-019",
-        "work_id": "w-shiji",
-        "book_id": "b-shiji-019",
-        "chapter_id": "table-chapter-shiji-019",
-        "url": "https://zh.wikisource.org/wiki/史記/卷019",
-        "revision_url": "https://zh.wikisource.org/w/index.php?title=史記/卷019&oldid=6359260",
-        "revision": "6359260",
-        "accessed": "2026-10-13",
-        "response_sha256": "46d73e9b0e530a6bebb401c0d906ac495ac4e0433e4479cb31e92dbd810776bf",
-        "edition": null,
-        "image_verified": false,
-        "rights": "古籍正文公有領域；維基文庫數位轉錄依CC BY-SA，保留貢獻者署名。",
-        "rights_url": "https://zh.wikisource.org/wiki/Wikisource:版權信息",
-        "review_status": "partial_named_entity_review",
-        "note": "各組表保留原欄題、原文、空格及合欄，不推不同欄題的接續。西元欄為數位編者增補；未明年份留空，不推世系曆年。未核底本影像，人物標註仍待逐處覆核。"
-      }
+      "table_source_ref": "shiji-019"
     }
   ],
   "relations": [],

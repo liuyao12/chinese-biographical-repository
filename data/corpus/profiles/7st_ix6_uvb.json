@@ -21,7 +21,7 @@
           "chapter_id": "c-shiji-102-zhangfeng",
           "source_id": "s-shiji-102-zhangfeng",
           "paragraph_id": "c-shiji-102-zhangfeng:p009",
-          "quote": "王生者，善爲黃老言，處士也。嘗召居廷中，三公九卿盡會立，王生老人，曰「吾韤解」，顧謂張廷尉：「爲我結韤！」釋之跪而結之。既已，人或謂王生曰：「獨柰何廷辱張廷尉，使跪結韤？」王生曰：「吾老且賤，自度終無益於張廷尉。張廷尉方今天下名臣，吾故聊辱廷尉，使跪結韤，欲以重之。」諸公聞之，賢王生而重張廷尉。"
+          "quote_passage_ref": "data/corpus/shiji/102.json"
         }
       ],
       "attestations": [
@@ -63,7 +63,6 @@
       "raw_count": 6,
       "duplicate_count": 0,
       "counting_policy": "independent_fixed_witness_occurrences",
-      "quote": "文帝崩，景帝立，釋之恐，稱病。欲免去，懼大誅至；欲見謝，則未知何如。用王生計，卒見謝，景帝不過也。",
       "paragraph_ids": [
         "c-shiji-102-zhangfeng:p008",
         "c-shiji-102-zhangfeng:p009"
@@ -133,7 +132,12 @@
       "book_id": "b-shiji-102",
       "chapter_id": "c-shiji-102-zhangfeng",
       "source_id": "s-shiji-102-zhangfeng",
-      "work_title": "史記"
+      "work_title": "史記",
+      "chapter_ref": "data/corpus/shiji/102.json",
+      "quote_span": [
+        1,
+        50
+      ]
     }
   ],
   "table_occurrences": [],
@@ -143,26 +147,7 @@
       "work_id": "w-shiji",
       "book_id": "b-shiji-102",
       "source_id": "s-shiji-102-zhangfeng",
-      "source": {
-        "title": "史記／卷102",
-        "provider": "維基文庫",
-        "url": "https://zh.wikisource.org/wiki/史記/卷102",
-        "permalink": "https://zh.wikisource.org/w/index.php?title=史記/卷102&oldid=1753957",
-        "revision_id": 1753957,
-        "accessed_on": "2026-10-10",
-        "extent": "14段正文含太史公論，另1段索隱。",
-        "image_verified": false,
-        "rights": "古代原文；數位轉錄依維基文庫CC BY-SA 4.0，保留署名及固定版本。",
-        "license_url": "https://creativecommons.org/licenses/by-sa/4.0/",
-        "normalization": {
-          "character_conversion": {
-            "释": "釋"
-          },
-          "editorial_readings": [],
-          "extraction_note": "只去外緣空白，明記一處释轉釋；爲、歳、斅、韤、郄、袪及官（卒）［率］將、［出］保留。",
-          "note": "已核讀15段數位正文，未核底本影像。"
-        }
-      }
+      "chapter_ref": "data/corpus/shiji/102.json"
     }
   ],
   "relations": [],

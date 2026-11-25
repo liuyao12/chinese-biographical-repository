@@ -22,7 +22,7 @@
           "chapter_id": "c-shiji-083-luzou",
           "source_id": "s-shiji-083-luzou",
           "paragraph_id": "c-shiji-083-luzou:p013",
-          "quote": "且吾聞之，規小睗者不能成榮名，惡小恥者不能立大功。昔者管夷吾射桓公中其鉤，篡也；遺公子糾不能死，怯也；束縛桎梏，辱也。若此三行者，世主不臣而鄉里不通。鄉使管子幽囚而不出，身死而不反於齊，則亦名不免為辱人賤行矣。臧獲且羞與之同名矣，況世俗乎！故管子不恥身在縲紲之中而恥天下之不治，不恥不死公子糾而恥威之不信於諸侯，故兼三行之過而為五霸首，名高天下而光燭鄰國。曹子為魯將，三戰三北，而亡地五百里。鄉使曹子計不反顧，議不還踵，刎頸而死，則亦名不免為敗軍禽將矣。曹子棄三北之恥，而退與魯君計。桓公朝天下，會諸侯，曹子以一劍之任，枝桓公之心於壇坫之上，顏色不變，辭氣不悖，三戰之所亡一朝而復之，天下震動，諸侯驚駭，威加吳、越。若此二士者，非不能成小廉而行小睗也，以為殺身亡軀，絕世滅後，功名不立，非智也。故去感忿之怨，立終身之名；棄忿悁之節，定累世之功。是以業與三王爭流，而名與天壤相獘也。願公擇一而行之。"
+          "quote_passage_ref": "data/corpus/shiji/083.json"
         }
       ],
       "attestations": [
@@ -64,7 +64,7 @@
           "chapter_id": "c-shiji-086-cike",
           "source_id": "s-shiji-086-cike",
           "paragraph_id": "c-shiji-086-cike:p001",
-          "quote": "曹沫者，魯人也，以勇力事魯莊公。莊公好力。曹沫爲魯將，與齊戰，三敗北。魯莊公懼，乃獻遂邑之地以和。猶復以爲將。"
+          "quote_passage_ref": "data/corpus/shiji/086.json"
         }
       ],
       "attestations": [
@@ -112,8 +112,8 @@
           "chapter_id": "c-shiji-086-cike",
           "source_id": "s-shiji-086-cike",
           "paragraph_id": "c-shiji-086-cike:p001",
-          "quote": "曹沫者，魯人也，以勇力事魯莊公。莊公好力。曹沫爲魯將，與齊戰，三敗北。魯莊公懼，乃獻遂邑之地以和。猶復以爲將。",
-          "person_mention_id": "c-shiji-086-cike:m001-0000"
+          "person_mention_id": "c-shiji-086-cike:m001-0000",
+          "quote_passage_ref": "data/corpus/shiji/086.json"
         }
       ],
       "source_term": "魯人也",
@@ -134,7 +134,6 @@
       "raw_count": 1,
       "duplicate_count": 0,
       "counting_policy": "independent_fixed_witness_occurrences",
-      "quote": "貢於周室。桓公實北征山戎，而管仲因而令燕修召公之政。於柯之會，桓公欲背曹沫之約，管仲因而信之，諸侯由是歸齊。故曰：「知與之為取，政之寶也。」",
       "paragraph_ids": [
         "c-shiji-062-guanyan:p005"
       ],
@@ -158,7 +157,12 @@
       "book_id": "b-shiji-062",
       "chapter_id": "c-shiji-062-guanyan",
       "source_id": "s-shiji-062-guanyan",
-      "work_title": "史記"
+      "work_title": "史記",
+      "chapter_ref": "data/corpus/shiji/062.json",
+      "quote_span": [
+        49,
+        119
+      ]
     },
     {
       "number": 83,
@@ -169,7 +173,6 @@
       "raw_count": 4,
       "duplicate_count": 0,
       "counting_policy": "independent_fixed_witness_occurrences",
-      "quote": "公子糾而恥威之不信於諸侯，故兼三行之過而為五霸首，名高天下而光燭鄰國。曹子為魯將，三戰三北，而亡地五百里。鄉使曹子計不反顧，議不還踵，刎頸而死，則亦名不免為敗軍禽將矣。曹子棄三北之恥，而退與魯君計。桓公朝天下，會諸侯，曹子以一劍之任，枝桓公之心於壇坫之上，顏色不變，辭氣不悖",
       "paragraph_ids": [
         "c-shiji-083-luzou:p013"
       ],
@@ -220,7 +223,12 @@
       "book_id": "b-shiji-083",
       "chapter_id": "c-shiji-083-luzou",
       "source_id": "s-shiji-083-luzou",
-      "work_title": "史記"
+      "work_title": "史記",
+      "chapter_ref": "data/corpus/shiji/083.json",
+      "quote_span": [
+        143,
+        280
+      ]
     },
     {
       "number": 86,
@@ -231,7 +239,6 @@
       "raw_count": 8,
       "duplicate_count": 0,
       "counting_policy": "independent_fixed_witness_occurrences",
-      "quote": "曹沫者，魯人也，以勇力事魯莊公。莊公好力。曹沫爲魯將，與齊戰，三敗北。魯莊公懼，乃獻遂邑之地以和。猶復以爲將。",
       "paragraph_ids": [
         "c-shiji-086-cike:p001",
         "c-shiji-086-cike:p002",
@@ -321,7 +328,12 @@
       "book_id": "b-shiji-086",
       "chapter_id": "c-shiji-086-cike",
       "source_id": "s-shiji-086-cike",
-      "work_title": "史記"
+      "work_title": "史記",
+      "chapter_ref": "data/corpus/shiji/086.json",
+      "quote_span": [
+        0,
+        55
+      ]
     },
     {
       "number": 130,
@@ -332,7 +344,6 @@
       "raw_count": 1,
       "duplicate_count": 0,
       "counting_policy": "independent_fixed_witness_occurrences",
-      "quote": "曹子匕首，魯獲其田，齊明其信；豫讓義不為二心。作刺客列傳第二十六。",
       "paragraph_ids": [
         "c-shiji-130-taishigong:p098"
       ],
@@ -356,7 +367,12 @@
       "book_id": "b-shiji-130",
       "chapter_id": "c-shiji-130-taishigong",
       "source_id": "s-shiji130-taishigong",
-      "work_title": "史記"
+      "work_title": "史記",
+      "chapter_ref": "data/corpus/shiji/130.json",
+      "quote_span": [
+        0,
+        33
+      ]
     }
   ],
   "table_occurrences": [],
@@ -366,129 +382,28 @@
       "work_id": "w-shiji",
       "book_id": "b-shiji-062",
       "source_id": "s-shiji-062-guanyan",
-      "source": {
-        "title": "史記／卷062",
-        "provider": "維基文庫",
-        "url": "https://zh.wikisource.org/wiki/史記/卷062",
-        "permalink": "https://zh.wikisource.org/w/index.php?title=史記/卷062&oldid=7903600",
-        "revision_id": 7903600,
-        "accessed_on": "2026-10-09",
-        "extent": "12段正文，排除註釋版及2段維基導覽，無索隱述贊。",
-        "image_verified": false,
-        "rights": "古代原文；數位轉錄依維基文庫CC BY-SA 4.0，保留署名及固定版本。",
-        "license_url": "https://creativecommons.org/licenses/by-sa/4.0/",
-        "normalization": {
-          "character_conversion": {},
-          "editorial_readings": [],
-          "extraction_note": "取得時HTML與固定修訂一致，只去外緣空白；第4段榮辱後的[1]經核HTML為sup.reference腳註連結，抽取正文時排除。保留涂、緦、闚、仆御與忻慕等原字。",
-          "note": "全部12段已核讀，未核底本、影像或現代研究。"
-        }
-      }
+      "chapter_ref": "data/corpus/shiji/062.json"
     },
     {
       "chapter_id": "c-shiji-083-luzou",
       "work_id": "w-shiji",
       "book_id": "b-shiji-083",
       "source_id": "s-shiji-083-luzou",
-      "source": {
-        "title": "史記／卷083",
-        "provider": "維基文庫",
-        "url": "https://zh.wikisource.org/wiki/史記/卷083",
-        "permalink": "https://zh.wikisource.org/w/index.php?title=史記/卷083&oldid=2089252",
-        "revision_id": 2089252,
-        "accessed_on": "2026-10-09",
-        "extent": "27段正文，自魯仲連者至太史公論贊；排除人物導覽、索隱述贊及現代版權。",
-        "image_verified": false,
-        "rights": "古代原文；數位轉錄依維基文庫CC BY-SA 4.0，保留署名及固定版本。",
-        "license_url": "https://creativecommons.org/licenses/by-sa/4.0/",
-        "normalization": {
-          "character_conversion": {},
-          "editorial_readings": [
-            {
-              "paragraph_id": "c-shiji-083-luzou:p002",
-              "witness_form": "［湣王］",
-              "body_reading": "",
-              "note": "數位增刪改讀提示另存，正文保留增改前形式，未核影像，不當已校定。"
-            },
-            {
-              "paragraph_id": "c-shiji-083-luzou:p007",
-              "witness_form": "［待］",
-              "body_reading": "",
-              "note": "數位增刪改讀提示另存，正文保留增改前形式，未核影像，不當已校定。"
-            },
-            {
-              "paragraph_id": "c-shiji-083-luzou:p009",
-              "witness_form": "（使）",
-              "body_reading": "使",
-              "note": "數位增刪改讀提示另存，正文保留增改前形式，未核影像，不當已校定。"
-            },
-            {
-              "paragraph_id": "c-shiji-083-luzou:p025",
-              "witness_form": "（巖）［藪］",
-              "body_reading": "巖",
-              "note": "數位增刪改讀提示另存，正文保留增改前形式，未核影像，不當已校定。"
-            }
-          ],
-          "extraction_note": "固定HTML與取得時版本一致，只去外緣空白；上書dd按原序；4項數位增刪改讀另存，正文保留前形，末段巖巖重複不擅校。",
-          "note": "全27段與HTML篇界已核讀；未核底本影像或現代研究，人物待逐段標註。"
-        }
-      }
+      "chapter_ref": "data/corpus/shiji/083.json"
     },
     {
       "chapter_id": "c-shiji-086-cike",
       "work_id": "w-shiji",
       "book_id": "b-shiji-086",
       "source_id": "s-shiji-086-cike",
-      "source": {
-        "title": "史記／卷086",
-        "provider": "維基文庫",
-        "url": "https://zh.wikisource.org/wiki/史記/卷086",
-        "permalink": "https://zh.wikisource.org/w/index.php?title=史記/卷086&oldid=2388562",
-        "revision_id": 2388562,
-        "accessed_on": "2026-10-09",
-        "extent": "38段正文含太史公論，排除導覽、索隱述贊及現代版權。",
-        "image_verified": false,
-        "rights": "古代原文；數位轉錄依維基文庫CC BY-SA 4.0，保留署名及固定版本。",
-        "license_url": "https://creativecommons.org/licenses/by-sa/4.0/",
-        "normalization": {
-          "character_conversion": {},
-          "editorial_readings": [],
-          "extraction_note": "固定HTML與取得時版本一致，只去外緣空白；（衆）按普通括號原文保留；第17段tooltip異文提示另存。",
-          "note": "全38段與HTML篇界已核讀，未核底本影像或現代研究。",
-          "digital_variant_notes": [
-            {
-              "paragraph_number": 17,
-              "body_reading": "縣",
-              "witness_tooltip": "一作「購縣」，又作「縣購」。",
-              "note": "數位見證未標明異文版本，另存，不代替正文。"
-            }
-          ]
-        }
-      }
+      "chapter_ref": "data/corpus/shiji/086.json"
     },
     {
       "chapter_id": "c-shiji-130-taishigong",
       "work_id": "w-shiji",
       "book_id": "b-shiji-130",
       "source_id": "s-shiji130-taishigong",
-      "source": {
-        "title": "史記／卷130",
-        "provider": "維基文庫",
-        "url": "https://zh.wikisource.org/wiki/史記/卷130",
-        "permalink": "https://zh.wikisource.org/w/index.php?title=史記/卷130&oldid=2609362",
-        "revision_id": 2609362,
-        "accessed_on": "2026-10-11",
-        "extent": "固定修訂全文143段，全部篇文。",
-        "image_verified": false,
-        "rights": "古代原文；數位轉錄依維基文庫CC BY-SA 4.0，保留署名及固定版本。",
-        "license_url": "https://creativecommons.org/licenses/by-sa/4.0/",
-        "normalization": {
-          "character_conversion": {},
-          "editorial_readings": [],
-          "extraction_note": "去header2及現代節標，移除維基引文縮排冒號，保留原字，未核影像。",
-          "note": "全文入庫不等於全部提及已標註；目錄段落仍待逐段處理。"
-        }
-      }
+      "chapter_ref": "data/corpus/shiji/130.json"
     }
   ],
   "relations": [],

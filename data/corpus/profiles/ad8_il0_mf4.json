@@ -21,7 +21,6 @@
       "raw_count": 1,
       "duplicate_count": 0,
       "counting_policy": "independent_fixed_witness_occurrences",
-      "quote": "播本字元休，太和中，高祖賜改焉。母王氏，文明太后之外姑。播少修整，奉養盡禮。擢為中散，累遷給事，領中起部曹。以外親，優賜亟加，前後萬計。進北部給事中。詔播巡行北邊，高祖親送及戶，戒以軍略。未幾，除龍驤將軍、員外常侍，轉衞尉少卿，常侍如故。與陽平王頤",
       "paragraph_ids": [
         "c-weishu-weishou-058-yangbo-yangkan:p002"
       ],
@@ -45,7 +44,12 @@
       "book_id": "b-weishu-weishou-058",
       "chapter_id": "c-weishu-weishou-058-yangbo-yangkan",
       "source_id": "s-weishu-weishou-058-yangbo-ws2087998",
-      "work_title": "魏書（魏收）"
+      "work_title": "魏書（魏收）",
+      "chapter_ref": "data/corpus/weishu-weishou/058-yangbo-yangkan.json",
+      "quote_span": [
+        0,
+        124
+      ]
     },
     {
       "number": 58,
@@ -56,7 +60,6 @@
       "raw_count": 4,
       "duplicate_count": 0,
       "counting_policy": "independent_fixed_witness_occurrences",
-      "quote": "給事，與兄播並侍禁闈。又領蘭臺行職，改授中部曹，析訟公正，高祖嘉之。及文明太后崩，高祖五日不食。椿進諫曰：「陛下至性，孝過有虞，居哀五朝，水漿不御，羣下惶灼，莫知所言。陛下荷祖宗之業，臨萬國之重，豈可同匹夫之節，以取僵仆。且聖人之禮，毀不滅性，縱陛下欲自賢於萬代，其若宗廟何！」",
       "paragraph_ids": [
         "c-weishu-weishou-058-yangchun:p001",
         "c-weishu-weishou-058-yangchun:p014"
@@ -108,7 +111,12 @@
       "book_id": "b-weishu-weishou-058",
       "chapter_id": "c-weishu-weishou-058-yangchun",
       "source_id": "s-weishu-weishou-058-yangchun-ws2087998",
-      "work_title": "魏書（魏收）"
+      "work_title": "魏書（魏收）",
+      "chapter_ref": "data/corpus/weishu-weishou/058-yangchun.json",
+      "quote_span": [
+        52,
+        191
+      ]
     },
     {
       "number": 58,
@@ -119,7 +127,6 @@
       "raw_count": 2,
       "duplicate_count": 0,
       "counting_policy": "independent_fixed_witness_occurrences",
-      "quote": "祚，高祖賜名焉。少端謹，以器度見稱。年十一，除侍御中散。于時高祖沖幼，文明太后臨朝，津曾久侍左右，忽咳逆失聲，遂吐數升，藏衣袖。太后聞聲，閱而不見，問其故，具以實言。遂以敬慎見知，賜縑百匹。遷符璽郎中。津以身在禁密，不外交遊，至於宗族姻表，罕相祗候。司徒馮誕與津少結交遊，而津見",
       "paragraph_ids": [
         "c-weishu-weishou-058-yangjin:p001"
       ],
@@ -152,7 +159,12 @@
       "book_id": "b-weishu-weishou-058",
       "chapter_id": "c-weishu-weishou-058-yangjin",
       "source_id": "s-weishu-weishou-058-yangjin-ws2087998",
-      "work_title": "魏書（魏收）"
+      "work_title": "魏書（魏收）",
+      "chapter_ref": "data/corpus/weishu-weishou/058-yangjin.json",
+      "quote_span": [
+        11,
+        150
+      ]
     }
   ],
   "table_occurrences": [],
@@ -162,81 +174,21 @@
       "work_id": "w-weishu-weishou",
       "book_id": "b-weishu-weishou-058",
       "source_id": "s-weishu-weishou-058-yangbo-ws2087998",
-      "source": {
-        "title": "魏書卷五十八楊播及子侃完整敘事",
-        "provider": "Wikisource",
-        "url": "https://zh.wikisource.org/w/index.php?title=%E9%AD%8F%E6%9B%B8%2F%E5%8D%B758&oldid=2087998",
-        "permalink": "https://zh.wikisource.org/w/index.php?title=%E9%AD%8F%E6%9B%B8%2F%E5%8D%B758&oldid=2087998",
-        "revision_id": 2087998,
-        "raw_path": "sources/weishu-weishou/weishu058-ws2087998.wikitext",
-        "raw_file_sha256": "a53ae2dbced88decaa460fbf34f87bb5e65a0b37b524480cb362a3bebb1bc19d",
-        "accessed_on": "2026-10-22",
-        "edition": "維基文庫固定數位轉錄；實際版本底本未確認，未圖校",
-        "extent": "楊播開篇至楊侃末子純陀襲，止弟椿獨立傳前；另完整本卷史臣共評。非全058卷。",
-        "text_scope": "partial_chapter",
-        "review_status": "text_checked",
-        "image_verified": false,
-        "license_url": "https://creativecommons.org/licenses/by-sa/4.0/",
-        "rights": "古代正文；數位見證及網站校勘署名依維基文庫CC BY-SA4.0與附加條款保留",
-        "normalization": {
-          "character_conversion": {},
-          "extraction_note": "保原字與標點；段落按固定raw非空正文行。只分離網站ref校勘，原ref全文連raw位於annotation，逐字映射無摘要。"
-        }
-      }
+      "chapter_ref": "data/corpus/weishu-weishou/058-yangbo-yangkan.json"
     },
     {
       "chapter_id": "c-weishu-weishou-058-yangchun",
       "work_id": "w-weishu-weishou",
       "book_id": "b-weishu-weishou-058",
       "source_id": "s-weishu-weishou-058-yangchun-ws2087998",
-      "source": {
-        "title": "魏書卷五十八楊椿及昱、穎、順近系完整敘事",
-        "provider": "Wikisource",
-        "url": "https://zh.wikisource.org/w/index.php?title=%E9%AD%8F%E6%9B%B8%2F%E5%8D%B758&oldid=2087998",
-        "permalink": "https://zh.wikisource.org/w/index.php?title=%E9%AD%8F%E6%9B%B8%2F%E5%8D%B758&oldid=2087998",
-        "revision_id": 2087998,
-        "raw_path": "source-evidence/weishu058-yangchun/primary/weishu058.wikitext",
-        "raw_file_sha256": "a53ae2dbced88decaa460fbf34f87bb5e65a0b37b524480cb362a3bebb1bc19d",
-        "accessed_on": "2026-10-22",
-        "edition": "維基文庫固定數位轉錄；實際版本底本未確認，未圖校",
-        "extent": "固定ws2087998 raw33弟椿至102，止103順弟津前；椿、昱、穎、順及附孝邕/叔良/辯/仲宣/玄就/測/稚卿全部33正文段；另同見證卷末共評。",
-        "text_scope": "partial_chapter",
-        "review_status": "text_checked",
-        "image_verified": false,
-        "license_url": "https://creativecommons.org/licenses/by-sa/4.0/",
-        "rights": "古代正文；數位見證及網站校勘署名依維基文庫CC BY-SA4.0與附加條款保留",
-        "normalization": {
-          "character_conversion": {},
-          "extraction_note": "保原字與標點；段落按固定raw非空正文行。只分離網站ref校勘，原ref全文連raw位於annotation，逐字映射無摘要。"
-        }
-      }
+      "chapter_ref": "data/corpus/weishu-weishou/058-yangchun.json"
     },
     {
       "chapter_id": "c-weishu-weishou-058-yangjin",
       "work_id": "w-weishu-weishou",
       "book_id": "b-weishu-weishou-058",
       "source_id": "s-weishu-weishou-058-yangjin-ws2087998",
-      "source": {
-        "title": "魏書058：津及遁逸謐遵彥、暐元讓、鈞近系完整單元",
-        "provider": "Wikisource",
-        "url": "https://zh.wikisource.org/w/index.php?title=%E9%AD%8F%E6%9B%B8%2F%E5%8D%B758&oldid=2087998",
-        "permalink": "https://zh.wikisource.org/w/index.php?title=%E9%AD%8F%E6%9B%B8%2F%E5%8D%B758&oldid=2087998",
-        "revision_id": 2087998,
-        "raw_path": "sources/weishu-weishou/weishu058-ws2087998.wikitext",
-        "raw_file_sha256": "a53ae2dbced88decaa460fbf34f87bb5e65a0b37b524480cb362a3bebb1bc19d",
-        "accessed_on": "2026-10-22",
-        "edition": "維基文庫固定數位轉錄；實際版本底本未確認，未圖校",
-        "extent": "固定2087998，自順弟津節題至史評前全部26正文段、4網站現代校勘；不稱全卷。",
-        "text_scope": "partial_chapter",
-        "review_status": "text_checked",
-        "image_verified": false,
-        "license_url": "https://creativecommons.org/licenses/by-sa/4.0/",
-        "rights": "古代正文；數位見證及網站校勘署名依維基文庫CC BY-SA4.0與附加條款保留",
-        "normalization": {
-          "character_conversion": {},
-          "extraction_note": "保原字與標點；段落按固定raw非空正文行。只分離網站ref校勘，原ref全文連raw位於annotation，逐字映射無摘要。"
-        }
-      }
+      "chapter_ref": "data/corpus/weishu-weishou/058-yangjin.json"
     }
   ],
   "relations": [],

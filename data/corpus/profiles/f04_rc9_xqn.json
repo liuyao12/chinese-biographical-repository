@@ -22,7 +22,7 @@
           "chapter_id": "c-shiji-046-tian",
           "source_id": "s-shiji-046-tian",
           "paragraph_id": "c-shiji-046-tian:p048",
-          "quote": "湣王之遇殺，其子法章變名姓爲莒太史敫家庸。太史敫女奇法章狀貌，以爲非恒人，憐而常竊衣食之，而與私通焉。淖齒旣以去莒，莒中人及齊亡臣相聚求湣王子，欲立之。法章懼其誅己也，久之，乃敢自言「我湣王子也」。於是莒人共立法章，是爲襄王。以保莒城而布告齊國中：「王已立在莒矣。」"
+          "quote_passage_ref": "data/corpus/shiji/046.json"
         }
       ],
       "attestations": [
@@ -64,7 +64,7 @@
           "chapter_id": "c-shiji-082-tiandan",
           "source_id": "s-shiji-082-tiandan",
           "paragraph_id": "c-shiji-082-tiandan:p008",
-          "quote": "初，淖齒之殺湣王也，莒人求湣王子法章，得之太史嬓之家，為人灌園。嬓女憐而善遇之。後法章私以情告女，女遂與通。及莒人共立法章為齊王，以莒距燕，而太史氏女遂為后，所謂「君王后」也。"
+          "quote_passage_ref": "data/corpus/shiji/082.json"
         }
       ],
       "attestations": [
@@ -106,7 +106,6 @@
       "raw_count": 3,
       "duplicate_count": 0,
       "counting_policy": "independent_fixed_witness_occurrences",
-      "quote": "湣王之遇殺，其子法章變名姓爲莒太史敫家庸。太史敫女奇法章狀貌，以爲非恒人，憐而常竊衣食之，而與私通焉。淖齒旣以去莒，莒中人及齊亡臣相聚求湣王子，欲立之。法章懼其誅己也，久之，乃敢自言「我湣王子也」。於是莒人共立法章，是爲襄王。以保莒城而",
       "paragraph_ids": [
         "c-shiji-046-tian:p048",
         "c-shiji-046-tian:p049"
@@ -149,7 +148,12 @@
       "book_id": "b-shiji-046",
       "chapter_id": "c-shiji-046-tian",
       "source_id": "s-shiji-046-tian",
-      "work_title": "史記"
+      "work_title": "史記",
+      "chapter_ref": "data/corpus/shiji/046.json",
+      "quote_span": [
+        0,
+        118
+      ]
     },
     {
       "number": 82,
@@ -160,7 +164,6 @@
       "raw_count": 1,
       "duplicate_count": 0,
       "counting_policy": "independent_fixed_witness_occurrences",
-      "quote": "初，淖齒之殺湣王也，莒人求湣王子法章，得之太史嬓之家，為人灌園。嬓女憐而善遇之。後法章私以情告女，女遂與通。及莒人共立法章為齊王，以莒距燕，而太史氏女遂為后，所謂「君王后」也。",
       "paragraph_ids": [
         "c-shiji-082-tiandan:p008"
       ],
@@ -184,7 +187,12 @@
       "book_id": "b-shiji-082",
       "chapter_id": "c-shiji-082-tiandan",
       "source_id": "s-shiji-082-tiandan",
-      "work_title": "史記"
+      "work_title": "史記",
+      "chapter_ref": "data/corpus/shiji/082.json",
+      "quote_span": [
+        0,
+        88
+      ]
     }
   ],
   "table_occurrences": [],
@@ -194,48 +202,14 @@
       "work_id": "w-shiji",
       "book_id": "b-shiji-046",
       "source_id": "s-shiji-046-tian",
-      "source": {
-        "title": "史記／卷046",
-        "provider": "維基文庫",
-        "url": "https://zh.wikisource.org/wiki/史記/卷046",
-        "permalink": "https://zh.wikisource.org/w/index.php?title=史記/卷046&oldid=2560838",
-        "revision_id": 2560838,
-        "accessed_on": "2026-10-09",
-        "extent": "55段正文（含太史公論贊）及1段索隱述贊，後者另標witness_appended_suoyin_zan；排除2個dd導覽及現代分節標題。",
-        "image_verified": false,
-        "rights": "古代原文；數位轉錄依維基文庫CC BY-SA 4.0，保留署名及固定版本。",
-        "license_url": "https://creativecommons.org/licenses/by-sa/4.0/",
-        "normalization": {
-          "character_conversion": {},
-          "editorial_readings": [],
-          "extraction_note": "取得時HTML與固定修訂一致，只去除段落外緣空白；保留［二］、（粟）［稟］、晏（孺子）［圉］、（帥）［師］、笔及称等數位見證原字，不暗改。",
-          "note": "已讀全56段數位文字並作明示人名首輪；未核可靠底本、影像或現代研究。"
-        }
-      }
+      "chapter_ref": "data/corpus/shiji/046.json"
     },
     {
       "chapter_id": "c-shiji-082-tiandan",
       "work_id": "w-shiji",
       "book_id": "b-shiji-082",
       "source_id": "s-shiji-082-tiandan",
-      "source": {
-        "title": "史記／卷082",
-        "provider": "維基文庫",
-        "url": "https://zh.wikisource.org/wiki/史記/卷082",
-        "permalink": "https://zh.wikisource.org/w/index.php?title=史記/卷082&oldid=2529471",
-        "revision_id": 2529471,
-        "accessed_on": "2026-10-09",
-        "extent": "9段正文，自田單者至王蠋敘事；包括太史公論後法章君王后及王蠋段，排除人物導覽。",
-        "image_verified": false,
-        "rights": "古代原文；數位轉錄依維基文庫CC BY-SA 4.0，保留署名及固定版本。",
-        "license_url": "https://creativecommons.org/licenses/by-sa/4.0/",
-        "normalization": {
-          "character_conversion": {},
-          "editorial_readings": [],
-          "extraction_note": "固定HTML與取得時版本一致，只去外緣空白；全部p按原序；原字與太史公論後兩段均按數位原序保存，不擅校。",
-          "note": "全9段正文、HTML篇界及姓名首輪已核讀；未核底本影像或現代研究。"
-        }
-      }
+      "chapter_ref": "data/corpus/shiji/082.json"
     }
   ],
   "relations": [
@@ -250,7 +224,7 @@
           "chapter_id": "c-shiji-046-tian",
           "source_id": "s-shiji-046-tian",
           "paragraph_id": "c-shiji-046-tian:p049",
-          "quote": "襄王旣立，立太史氏女爲王后，是爲君王后，生子建。太史敫曰：「女不取媒因自嫁，非吾種也，汙吾世。」終身不睹君王后。君王后賢，不以不睹故失人子之禮。"
+          "quote_passage_ref": "data/corpus/shiji/046.json"
         }
       ],
       "qualifiers": {
@@ -271,7 +245,7 @@
           "chapter_id": "c-shiji-082-tiandan",
           "source_id": "s-shiji-082-tiandan",
           "paragraph_id": "c-shiji-082-tiandan:p008",
-          "quote": "初，淖齒之殺湣王也，莒人求湣王子法章，得之太史嬓之家，為人灌園。嬓女憐而善遇之。後法章私以情告女，女遂與通。及莒人共立法章為齊王，以莒距燕，而太史氏女遂為后，所謂「君王后」也。"
+          "quote_passage_ref": "data/corpus/shiji/082.json"
         }
       ],
       "qualifiers": {
@@ -303,7 +277,7 @@
           "chapter_id": "c-shiji-046-tian",
           "source_id": "s-shiji-046-tian",
           "paragraph_id": "c-shiji-046-tian:p049",
-          "quote": "襄王旣立，立太史氏女爲王后，是爲君王后，生子建。太史敫曰：「女不取媒因自嫁，非吾種也，汙吾世。」終身不睹君王后。君王后賢，不以不睹故失人子之禮。"
+          "quote_passage_ref": "data/corpus/shiji/046.json"
         }
       ],
       "qualifiers": {
@@ -324,7 +298,7 @@
           "chapter_id": "c-shiji-082-tiandan",
           "source_id": "s-shiji-082-tiandan",
           "paragraph_id": "c-shiji-082-tiandan:p008",
-          "quote": "初，淖齒之殺湣王也，莒人求湣王子法章，得之太史嬓之家，為人灌園。嬓女憐而善遇之。後法章私以情告女，女遂與通。及莒人共立法章為齊王，以莒距燕，而太史氏女遂為后，所謂「君王后」也。"
+          "quote_passage_ref": "data/corpus/shiji/082.json"
         }
       ],
       "qualifiers": {

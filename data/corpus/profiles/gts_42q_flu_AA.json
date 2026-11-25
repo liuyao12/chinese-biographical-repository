@@ -24,7 +24,6 @@
       "raw_count": 12,
       "duplicate_count": 0,
       "counting_policy": "independent_fixed_witness_occurrences",
-      "quote": "公，釐公不禮。子駟怒，使廚人藥殺釐公，赴諸侯曰「釐公暴病卒」。立釐公子嘉，嘉時年五歳，是爲簡公。",
       "paragraph_ids": [
         "c-shiji-042-zheng:p036",
         "c-shiji-042-zheng:p037",
@@ -153,7 +152,12 @@
       "book_id": "b-shiji-042",
       "chapter_id": "c-shiji-042-zheng",
       "source_id": "s-shiji-042-zheng",
-      "work_title": "史記"
+      "work_title": "史記",
+      "chapter_ref": "data/corpus/shiji/042.json",
+      "quote_span": [
+        11,
+        59
+      ]
     }
   ],
   "table_occurrences": [],
@@ -163,24 +167,7 @@
       "work_id": "w-shiji",
       "book_id": "b-shiji-042",
       "source_id": "s-shiji-042-zheng",
-      "source": {
-        "title": "史記／卷042",
-        "provider": "維基文庫",
-        "url": "https://zh.wikisource.org/wiki/史記/卷042",
-        "permalink": "https://zh.wikisource.org/w/index.php?title=史記/卷042&oldid=2016409",
-        "revision_id": 2016409,
-        "accessed_on": "2026-10-09",
-        "extent": "59段正文及1段分層索隱述贊；排除2個dd導覽，只去除段落外緣空白。",
-        "image_verified": false,
-        "rights": "古代原文；數位轉錄依維基文庫CC BY-SA 4.0，保留署名及固定版本。",
-        "license_url": "https://creativecommons.org/licenses/by-sa/4.0/",
-        "normalization": {
-          "character_conversion": {},
-          "editorial_readings": [],
-          "extraction_note": "固定修訂與取得時HTML一致；保留古代異體、九月（辛）［丁］亥等校勘符號及溉逐、掔羊、持兩端等疑讀，不擅選讀法。",
-          "note": "全60段數位正文已閱讀；未核古籍影像、可靠底本及現代研究。"
-        }
-      }
+      "chapter_ref": "data/corpus/shiji/042.json"
     }
   ],
   "relations": [
@@ -195,7 +182,7 @@
           "chapter_id": "c-shiji-042-zheng",
           "source_id": "s-shiji-042-zheng",
           "paragraph_id": "c-shiji-042-zheng:p036",
-          "quote": "釐公五年，鄭相子駟朝釐公，釐公不禮。子駟怒，使廚人藥殺釐公，赴諸侯曰「釐公暴病卒」。立釐公子嘉，嘉時年五歳，是爲簡公。"
+          "quote_passage_ref": "data/corpus/shiji/042.json"
         }
       ],
       "qualifiers": {
@@ -216,7 +203,7 @@
           "chapter_id": "c-shiji-042-zheng",
           "source_id": "s-shiji-042-zheng",
           "paragraph_id": "c-shiji-042-zheng:p042",
-          "quote": "三十六年，簡公卒，子定公寧立。秋，定公朝晉昭公。"
+          "quote_passage_ref": "data/corpus/shiji/042.json"
         }
       ],
       "qualifiers": {
@@ -245,19 +232,19 @@
       "evidence": [
         {
           "paragraph_id": "c-shiji-042-zheng:p036",
-          "quote": "釐公五年，鄭相子駟朝釐公，釐公不禮。子駟怒，使廚人藥殺釐公，赴諸侯曰「釐公暴病卒」。立釐公子嘉，嘉時年五歳，是爲簡公。",
           "chapter_id": "c-shiji-042-zheng",
           "work_id": "w-shiji",
           "book_id": "b-shiji-042",
-          "source_id": "s-shiji-042-zheng"
+          "source_id": "s-shiji-042-zheng",
+          "quote_passage_ref": "data/corpus/shiji/042.json"
         },
         {
           "paragraph_id": "c-shiji-042-zheng:p051",
-          "quote": "十四年，宋景公滅曹。二十年，齊田常弒其君簡公，而常相於齊。二十二年，楚惠王滅陳。孔子卒。",
           "chapter_id": "c-shiji-042-zheng",
           "work_id": "w-shiji",
           "book_id": "b-shiji-042",
-          "source_id": "s-shiji-042-zheng"
+          "source_id": "s-shiji-042-zheng",
+          "quote_passage_ref": "data/corpus/shiji/042.json"
         }
       ],
       "rationale": "前者為鄭釐公子嘉而立鄭簡公，後者為齊田常所弒齊君，同諡不同國，不以簡公字樣合併。",
@@ -280,7 +267,7 @@
           "chapter_id": "c-shiji-042-zheng",
           "source_id": "s-shiji-042-zheng",
           "paragraph_id": "c-shiji-042-zheng:p036",
-          "quote": "釐公五年，鄭相子駟朝釐公，釐公不禮。子駟怒，使廚人藥殺釐公，赴諸侯曰「釐公暴病卒」。立釐公子嘉，嘉時年五歳，是爲簡公。"
+          "quote_passage_ref": "data/corpus/shiji/042.json"
         }
       ],
       "qualifiers": {
@@ -301,7 +288,7 @@
           "chapter_id": "c-shiji-042-zheng",
           "source_id": "s-shiji-042-zheng",
           "paragraph_id": "c-shiji-042-zheng:p042",
-          "quote": "三十六年，簡公卒，子定公寧立。秋，定公朝晉昭公。"
+          "quote_passage_ref": "data/corpus/shiji/042.json"
         }
       ],
       "qualifiers": {
@@ -325,8 +312,8 @@
           "chapter_id": "c-shiji-042-zheng",
           "source_id": "s-shiji-042-zheng",
           "paragraph_id": "c-shiji-042-zheng:p042",
-          "quote": "三十六年，簡公卒，子定公寧立。秋，定公朝晉昭公。",
-          "person_mention_id": "c-shiji-042-zheng:m042-0005"
+          "person_mention_id": "c-shiji-042-zheng:m042-0005",
+          "quote_passage_ref": "data/corpus/shiji/042.json"
         }
       ],
       "source_term": "簡公卒",

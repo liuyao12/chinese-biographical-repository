@@ -1,9 +1,9 @@
 # coding: utf-8
-import json
+from stored_documents import read_document
 import unittest
 from pathlib import Path
 ROOT=Path(__file__).resolve().parents[1]
-def read(p):return json.loads((ROOT/p).read_text())
+def read(p):return read_document(ROOT/p)
 def para(n,i):return next(p for p in read(f'corpus/shiji/{n:03}.json')['paragraphs'] if p['id'].endswith(f':p{i:03}'))
 def ids(p,s):return {m['person_id'] for m in p['mentions'] if m['surface']==s and m['kind']=='person'}
 

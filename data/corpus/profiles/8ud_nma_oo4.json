@@ -20,7 +20,6 @@
       "raw_count": 1,
       "duplicate_count": 0,
       "counting_policy": "independent_fixed_witness_occurrences",
-      "quote": "女適裴頠，貸錢數萬，久而未還。女後歸寧，戎色不悅，女遽還直，然後乃歡。從子將婚，戎遺其一單衣，婚訖而更責取。家有好李，常出貨之，恐人得種，恆鑽其核。以此獲譏於世。",
       "paragraph_ids": [
         "c-jinshu-043-wangrong:p011"
       ],
@@ -44,7 +43,12 @@
       "book_id": "b-jinshu-043",
       "chapter_id": "c-jinshu-043-wangrong",
       "source_id": "s-jinshu-043-ws2618531-wangrong",
-      "work_title": "晉書"
+      "work_title": "晉書",
+      "chapter_ref": "data/corpus/jinshu/043-wangrong.json",
+      "quote_span": [
+        172,
+        253
+      ]
     }
   ],
   "table_occurrences": [],
@@ -54,27 +58,7 @@
       "work_id": "w-jinshu",
       "book_id": "b-jinshu-043",
       "source_id": "s-jinshu-043-ws2618531-wangrong",
-      "source": {
-        "title": "《晉書》卷四十三王戎完整本傳（數位選錄）",
-        "provider": "Wikisource",
-        "url": "https://zh.wikisource.org/w/index.php?title=晉書/卷043&oldid=2618531",
-        "permalink": "https://zh.wikisource.org/w/index.php?title=晉書/卷043&oldid=2618531",
-        "revision_id": 2618531,
-        "accessed_on": "2026-10-21",
-        "extent": "王戎完整本傳14原段；止從弟衍附傳之前，不含王衍、澄等獨立單元及整卷史評。",
-        "text_scope": "partial_chapter",
-        "review_status": "text_checked",
-        "image_verified": false,
-        "rights": "古代原文及維基文庫數位轉錄，保留來源歸屬；數位文字依CC BY-SA 4.0。",
-        "license_url": "https://creativecommons.org/licenses/by-sa/4.0/",
-        "edition": null,
-        "wikitext_sha256": "d9ab0781004dc723ae243bb2bac47695d2736fd7b595ec472d5ffde62a04d0fe",
-        "raw_file": "sources/witnesses/jin043-ws2618531.wikitext",
-        "normalization": {
-          "character_conversion": {},
-          "extraction_note": "僅移除段首空白、展開維基連結顯示字及YL年號模板；原缺閉引號、季劄、鐘會、𦃩、報嘗均保留。"
-        }
-      }
+      "chapter_ref": "data/corpus/jinshu/043-wangrong.json"
     }
   ],
   "relations": [
@@ -115,9 +99,9 @@
           "chapter_id": "c-jinshu-043-wangrong",
           "source_id": "s-jinshu-043-ws2618531-wangrong",
           "paragraph_id": "c-jinshu-043-wangrong:p011",
-          "quote": "戎以晉室方亂，慕蘧伯玉之為人，與時舒卷，無蹇諤之節。自經典選，未嘗進寒素，退虛名，但與時浮沈，戶調門選而已。尋拜司徒，雖位總鼎司，而委事僚采。間乘小馬，從便門而出遊，見者不知其三公也。故吏多至大官，道路相遇輒避之。性好興利，廣收八方園田水碓，周遍天下。積實聚錢，不知紀極，每自執牙籌，晝夜算計，恆若不足。而又儉嗇，不自奉養，天下人謂之膏肓之疾。女適裴頠，貸錢數萬，久而未還。女後歸寧，戎色不悅，女遽還直，然後乃歡。從子將婚，戎遺其一單衣，婚訖而更責取。家有好李，常出貨之，恐人得種，恆鑽其核。以此獲譏於世。",
           "subject_person_mention_id": "c-jinshu-043-wangrong:p011:m0207",
-          "object_person_mention_id": "c-jinshu-043-wangrong:p011:m0000"
+          "object_person_mention_id": "c-jinshu-043-wangrong:p011:m0000",
+          "quote_passage_ref": "data/corpus/jinshu/043-wangrong.json"
         }
       ],
       "interpretation_note": "完整原段及精確角色字位綁定；母稱不升生母、嗣不升收養、從親不補共祖/距離，未載出生或排行皆未知。",
@@ -173,9 +157,9 @@
           "chapter_id": "c-jinshu-043-wangrong",
           "source_id": "s-jinshu-043-ws2618531-wangrong",
           "paragraph_id": "c-jinshu-043-wangrong:p011",
-          "quote": "戎以晉室方亂，慕蘧伯玉之為人，與時舒卷，無蹇諤之節。自經典選，未嘗進寒素，退虛名，但與時浮沈，戶調門選而已。尋拜司徒，雖位總鼎司，而委事僚采。間乘小馬，從便門而出遊，見者不知其三公也。故吏多至大官，道路相遇輒避之。性好興利，廣收八方園田水碓，周遍天下。積實聚錢，不知紀極，每自執牙籌，晝夜算計，恆若不足。而又儉嗇，不自奉養，天下人謂之膏肓之疾。女適裴頠，貸錢數萬，久而未還。女後歸寧，戎色不悅，女遽還直，然後乃歡。從子將婚，戎遺其一單衣，婚訖而更責取。家有好李，常出貨之，恐人得種，恆鑽其核。以此獲譏於世。",
           "subject_person_mention_id": "c-jinshu-043-wangrong:p011:m0207",
-          "object_person_mention_id": "c-jinshu-043-wangrong:p011:m0000"
+          "object_person_mention_id": "c-jinshu-043-wangrong:p011:m0000",
+          "quote_passage_ref": "data/corpus/jinshu/043-wangrong.json"
         }
       ],
       "interpretation_note": "完整原段及精確角色字位綁定；母稱不升生母、嗣不升收養、從親不補共祖/距離，未載出生或排行皆未知。",

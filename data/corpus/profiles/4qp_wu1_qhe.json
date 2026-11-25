@@ -22,7 +22,7 @@
           "chapter_id": "c-shiji-123-dayuan",
           "source_id": "s-shiji123-dayuan",
           "paragraph_id": "c-shiji-123-dayuan:p024",
-          "quote": "自博望侯開外國道以尊貴，其後從吏卒皆爭上書言外國奇怪利害，求使。天子為其絕遠，非人所樂往，聽其言，予節，募吏民毋問所從來，為具備人眾遣之，以廣其道。來還不能毋侵盜幣物，及使失指，天子為其習之，輒覆案致重罪，以激怒令贖，復求使。使端無窮，而輕犯法。其吏卒亦輒復盛推外國所有，言大者予節，言小者為副，故妄言無行之徒皆爭效之。其使皆貧人子，私縣官齎物，欲賤市以私其利外國。外國亦厭漢使人人有言輕重，度漢兵遠不能至，而禁其食物以苦漢使。漢使乏絕積怨，至相攻擊。而樓蘭、姑師小國耳，當空道，攻劫漢使王恢等尤甚。而匈奴奇兵時時遮擊使西國者。使者爭遍言外國災害，皆有城邑，兵弱易擊。於是天子以故遣從驃侯破奴將屬國騎及郡兵數萬，至匈河水，欲以擊胡，胡皆去。其明年，擊姑師，破奴與輕騎七百餘先至，虜樓蘭王，遂破姑師。因舉兵威以困烏孫、大宛之屬。還，封破奴為浞野侯。王恢數使，為樓蘭所苦，言天子，天子發兵令恢佐破奴擊破之，封恢為浩侯。於是酒泉列亭鄣至玉門矣。"
+          "quote_passage_ref": "data/corpus/shiji/123.json"
         }
       ],
       "attestations": [
@@ -47,7 +47,7 @@
               "chapter_id": "c-shiji-123-dayuan",
               "source_id": "s-shiji123-dayuan",
               "paragraph_id": "c-shiji-123-dayuan:p024",
-              "quote": "自博望侯開外國道以尊貴，其後從吏卒皆爭上書言外國奇怪利害，求使。天子為其絕遠，非人所樂往，聽其言，予節，募吏民毋問所從來，為具備人眾遣之，以廣其道。來還不能毋侵盜幣物，及使失指，天子為其習之，輒覆案致重罪，以激怒令贖，復求使。使端無窮，而輕犯法。其吏卒亦輒復盛推外國所有，言大者予節，言小者為副，故妄言無行之徒皆爭效之。其使皆貧人子，私縣官齎物，欲賤市以私其利外國。外國亦厭漢使人人有言輕重，度漢兵遠不能至，而禁其食物以苦漢使。漢使乏絕積怨，至相攻擊。而樓蘭、姑師小國耳，當空道，攻劫漢使王恢等尤甚。而匈奴奇兵時時遮擊使西國者。使者爭遍言外國災害，皆有城邑，兵弱易擊。於是天子以故遣從驃侯破奴將屬國騎及郡兵數萬，至匈河水，欲以擊胡，胡皆去。其明年，擊姑師，破奴與輕騎七百餘先至，虜樓蘭王，遂破姑師。因舉兵威以困烏孫、大宛之屬。還，封破奴為浞野侯。王恢數使，為樓蘭所苦，言天子，天子發兵令恢佐破奴擊破之，封恢為浩侯。於是酒泉列亭鄣至玉門矣。"
+              "quote_passage_ref": "data/corpus/shiji/123.json"
             }
           ]
         },
@@ -73,7 +73,6 @@
       "raw_count": 5,
       "duplicate_count": 0,
       "counting_policy": "independent_fixed_witness_occurrences",
-      "quote": "以苦漢使。漢使乏絕積怨，至相攻擊。而樓蘭、姑師小國耳，當空道，攻劫漢使王恢等尤甚。而匈奴奇兵時時遮擊使西國者。使者爭遍言外國災害，皆有城邑，兵弱易擊。於是天子以故遣從驃侯破奴將屬國騎及郡兵數萬，至匈河水，欲以擊胡，胡皆去。其明年，擊姑師，破奴與輕騎七百餘先至，虜樓蘭王，遂破",
       "paragraph_ids": [
         "c-shiji-123-dayuan:p024",
         "c-shiji-123-dayuan:p030"
@@ -134,7 +133,12 @@
       "book_id": "b-shiji-123",
       "chapter_id": "c-shiji-123-dayuan",
       "source_id": "s-shiji123-dayuan",
-      "work_title": "史記"
+      "work_title": "史記",
+      "chapter_ref": "data/corpus/shiji/123.json",
+      "quote_span": [
+        209,
+        346
+      ]
     }
   ],
   "table_occurrences": [],
@@ -144,48 +148,14 @@
       "work_id": "w-shiji",
       "book_id": "b-shiji-108",
       "source_id": "s-shiji-108-han",
-      "source": {
-        "title": "史記／卷108",
-        "provider": "維基文庫",
-        "url": "https://zh.wikisource.org/wiki/史記/卷108",
-        "permalink": "https://zh.wikisource.org/w/index.php?title=史記/卷108&oldid=1765317",
-        "revision_id": 1765317,
-        "accessed_on": "2026-10-11",
-        "extent": "13段正文、1段太史公論、1段索隱述贊。",
-        "image_verified": false,
-        "rights": "古代原文；數位轉錄依維基文庫CC BY-SA 4.0，保留署名及固定版本。",
-        "license_url": "https://creativecommons.org/licenses/by-sa/4.0/",
-        "normalization": {
-          "character_conversion": {},
-          "editorial_readings": [],
-          "extraction_note": "去介面模板與現代節標題；數位見證的單字語言轉換包裹符號解除，包裹內原字不變。其餘原字、標點與段落次序保留。",
-          "note": "未核底本影像。"
-        }
-      }
+      "chapter_ref": "data/corpus/shiji/108.json"
     },
     {
       "chapter_id": "c-shiji-123-dayuan",
       "work_id": "w-shiji",
       "book_id": "b-shiji-123",
       "source_id": "s-shiji123-dayuan",
-      "source": {
-        "title": "史記／卷123",
-        "provider": "維基文庫",
-        "url": "https://zh.wikisource.org/wiki/史記/卷123",
-        "permalink": "https://zh.wikisource.org/w/index.php?title=史記/卷123&oldid=8736799",
-        "revision_id": 8736799,
-        "accessed_on": "2026-10-11",
-        "extent": "固定修訂全文39段，包括末段索隱述贊。",
-        "image_verified": false,
-        "rights": "古代原文；數位轉錄依維基文庫CC BY-SA 4.0，保留署名及固定版本。",
-        "license_url": "https://creativecommons.org/licenses/by-sa/4.0/",
-        "normalization": {
-          "character_conversion": {},
-          "editorial_readings": [],
-          "extraction_note": "去header2、現代節標、blockquote排版及分類；維基連結保留顯示文字，原字未轉換，未核影像。",
-          "note": "末段索隱述贊另分層。"
-        }
-      }
+      "chapter_ref": "data/corpus/shiji/123.json"
     }
   ],
   "relations": [],
@@ -207,17 +177,17 @@
           "chapter_id": "c-shiji-108-han",
           "source_id": "s-shiji-108-han",
           "paragraph_id": "c-shiji-108-han:p010",
-          "quote": "天子怒王恢不出擊單于輜重，擅引兵罷也。恢曰：「始約虜入馬邑城，兵與單于接，而臣擊其輜重，可得利。今單于聞，不至而還，臣以三萬人眾不敵，禔取辱耳。臣固知還而斬，然得完陛下士三萬人。」於是下恢廷尉。廷尉當恢逗橈，當斬。恢私行千金丞相蚡。蚡不敢言上，而言於太后曰：「王恢首造馬邑事，今不成而誅恢，是爲匈奴報仇也。」上朝太后，太后以丞相言告上。上曰：「首爲馬邑事者，恢也，故發天下兵數十萬，從其言，爲此。且縱單于不可得，恢所部擊其輜重，猶頗可得，以慰士大夫心。今不誅恢，無以謝天下。」於是恢聞之，乃自殺。",
           "work_id": "w-shiji",
-          "book_id": "b-shiji-108"
+          "book_id": "b-shiji-108",
+          "quote_passage_ref": "data/corpus/shiji/108.json"
         },
         {
           "chapter_id": "c-shiji-123-dayuan",
           "source_id": "s-shiji123-dayuan",
           "paragraph_id": "c-shiji-123-dayuan:p030",
-          "quote": "天子已嘗使浞野侯攻樓蘭，以七百騎先至，虜其王，以定漢等言為然，而欲侯寵姬李氏，拜李廣利為貳師將軍，發屬國六千騎，及郡國惡少年數萬人，以往伐宛。期至貳師城取善馬，故號「貳師將軍」。趙始成為軍正，故浩侯王恢使導軍，而李哆為校尉，制軍事。是歲太初元年也。而關東蝗大起，蜚西至敦煌。",
           "work_id": "w-shiji",
-          "book_id": "b-shiji-123"
+          "book_id": "b-shiji-123",
+          "quote_passage_ref": "data/corpus/shiji/123.json"
         }
       ],
       "rationale": "108大行王恢於馬邑事敗後自殺；123故浩侯王恢於太初元年尚使導軍。兩段人物的職爵、生死及敘事時序不同，分開記錄，不因同名王恢而合併；不由本項區分補具體生年、卒日或世系。",

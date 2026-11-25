@@ -21,7 +21,7 @@
           "chapter_id": "c-shiji-005-qin",
           "source_id": "s-shiji-005-qin",
           "paragraph_id": "c-shiji-005-qin:p047",
-          "quote": "厲共公二年，蜀人來賂。十六年，塹河旁。以兵二萬伐大荔，取其王城。二十一年，初縣頻陽。晉取武成。二十四年，晉亂，殺智伯，分其國與趙、韓、魏。二十五年，智開與邑人來奔。三十三年，伐義渠，虜其王。三十四年，日食。厲共公卒，子躁公立。"
+          "quote_passage_ref": "data/corpus/shiji/005.json"
         }
       ],
       "attestations": [
@@ -46,7 +46,7 @@
               "chapter_id": "c-shiji-005-qin",
               "source_id": "s-shiji-005-qin",
               "paragraph_id": "c-shiji-005-qin:p047",
-              "quote": "厲共公二年，蜀人來賂。十六年，塹河旁。以兵二萬伐大荔，取其王城。二十一年，初縣頻陽。晉取武成。二十四年，晉亂，殺智伯，分其國與趙、韓、魏。二十五年，智開與邑人來奔。三十三年，伐義渠，虜其王。三十四年，日食。厲共公卒，子躁公立。"
+              "quote_passage_ref": "data/corpus/shiji/005.json"
             }
           ]
         },
@@ -78,7 +78,7 @@
           "chapter_id": "c-shiji-006-shihuang",
           "source_id": "s-shiji-006-shihuang",
           "paragraph_id": "c-shiji-006-shihuang:p084",
-          "quote": "躁公享國十四年。居受寢。葬悼公南。其元年，彗星見。"
+          "quote_passage_ref": "data/corpus/shiji/006.json"
         }
       ],
       "source_term": "居受寢",
@@ -104,7 +104,7 @@
           "chapter_id": "c-shiji-006-shihuang",
           "source_id": "s-shiji-006-shihuang",
           "paragraph_id": "c-shiji-006-shihuang:p084",
-          "quote": "躁公享國十四年。居受寢。葬悼公南。其元年，彗星見。"
+          "quote_passage_ref": "data/corpus/shiji/006.json"
         }
       ],
       "source_term": "葬悼公南",
@@ -125,7 +125,6 @@
       "raw_count": 3,
       "duplicate_count": 0,
       "counting_policy": "independent_fixed_witness_occurrences",
-      "quote": "智開與邑人來奔。三十三年，伐義渠，虜其王。三十四年，日食。厲共公卒，子躁公立。",
       "paragraph_ids": [
         "c-shiji-005-qin:p047",
         "c-shiji-005-qin:p048"
@@ -168,7 +167,12 @@
       "book_id": "b-shiji-005",
       "chapter_id": "c-shiji-005-qin",
       "source_id": "s-shiji-005-qin",
-      "work_title": "史記"
+      "work_title": "史記",
+      "chapter_ref": "data/corpus/shiji/005.json",
+      "quote_span": [
+        74,
+        113
+      ]
     },
     {
       "number": 6,
@@ -179,7 +183,6 @@
       "raw_count": 2,
       "duplicate_count": 0,
       "counting_policy": "independent_fixed_witness_occurrences",
-      "quote": "剌龔公享國三十四年。葬入里。生躁公、懷公。其十年，彗星見。",
       "paragraph_ids": [
         "c-shiji-006-shihuang:p083",
         "c-shiji-006-shihuang:p084"
@@ -213,7 +216,12 @@
       "book_id": "b-shiji-006",
       "chapter_id": "c-shiji-006-shihuang",
       "source_id": "s-shiji-006-shihuang",
-      "work_title": "史記"
+      "work_title": "史記",
+      "chapter_ref": "data/corpus/shiji/006.json",
+      "quote_span": [
+        0,
+        29
+      ]
     }
   ],
   "table_occurrences": [
@@ -221,7 +229,6 @@
       "table_id": "shiji-015",
       "cell_id": "shiji-015-r035-c02",
       "title": "《史記·六國年表》",
-      "quote": "秦躁公元年",
       "year": {
         "era": "BCE",
         "value": 442,
@@ -244,7 +251,8 @@
       "book_id": "b-shiji-015",
       "chapter_id": "table-chapter-shiji-015",
       "source_id": "table-witness-shiji-015",
-      "source_revision": "2607002"
+      "source_revision": "2607002",
+      "quote_ref": "cell"
     }
   ],
   "sources": [
@@ -253,160 +261,21 @@
       "work_id": "w-shiji",
       "book_id": "b-shiji-005",
       "source_id": "s-shiji-005-qin",
-      "source": {
-        "title": "史記／卷005",
-        "provider": "維基文庫",
-        "url": "https://zh.wikisource.org/wiki/史記/卷005",
-        "permalink": "https://zh.wikisource.org/w/index.php?title=史記/卷005&oldid=8744286",
-        "revision_id": 8744286,
-        "accessed_on": "2026-10-09",
-        "extent": "77段數位正文；排除註釋版導覽與註號，見證行內校勘符號暫原樣保留。",
-        "image_verified": false,
-        "rights": "古代原文；數位轉錄依維基文庫 CC BY-SA 4.0，保留署名及固定版本。",
-        "license_url": "https://creativecommons.org/licenses/by-sa/4.0/",
-        "normalization": {
-          "character_conversion": {
-            "铚": "銍",
-            "绖": "絰",
-            "龁": "齕"
-          },
-          "note": "第9段編者重複標記另存，其餘行內校勘符號仍待逐處分離；不稱已核讀底本。",
-          "editorial_readings": [
-            {
-              "paragraph_id": "c-shiji-005-qin:p009",
-              "witness_form": "（世父）世父",
-              "body_reading": "世父",
-              "note": "數位見證重複的括號標記另存；不作第二個正文人物提及。"
-            },
-            {
-              "paragraph_id": "c-shiji-005-qin:p022",
-              "witness_form": "铚",
-              "body_reading": "銍",
-              "note": "數位見證混入簡體字，轉繁體並保留字形轉換記錄；未核讀影像。"
-            },
-            {
-              "paragraph_id": "c-shiji-005-qin:p028",
-              "witness_form": "绖",
-              "body_reading": "絰",
-              "note": "數位見證混入簡體字，轉繁體並保留字形轉換記錄；未核讀影像。"
-            },
-            {
-              "paragraph_id": "c-shiji-005-qin:p033",
-              "witness_form": "绖",
-              "body_reading": "絰",
-              "note": "數位見證混入簡體字，轉繁體並保存原字；未核影像。"
-            },
-            {
-              "paragraph_id": "c-shiji-005-qin:p070",
-              "witness_form": "龁",
-              "body_reading": "齕",
-              "note": "數位見證簡體字轉繁體，原字保留；未核影像。"
-            },
-            {
-              "paragraph_id": "c-shiji-005-qin:p072",
-              "witness_form": "绖",
-              "body_reading": "絰",
-              "note": "數位見證簡體字轉繁體，原字保留；未核影像。"
-            },
-            {
-              "paragraph_id": "c-shiji-005-qin:p074",
-              "witness_form": "龁",
-              "body_reading": "齕",
-              "note": "數位見證簡體字轉繁體，原字保留；未核影像。"
-            },
-            {
-              "paragraph_id": "c-shiji-005-qin:p070",
-              "witness_form": "胡（傷）［陽］",
-              "body_reading": "胡傷",
-              "note": "行內校勘標記另存，成對讀法保留改讀前的字；身份與底本待核。"
-            },
-            {
-              "paragraph_id": "c-shiji-005-qin:p070",
-              "witness_form": "南（郡）［陽］",
-              "body_reading": "南郡",
-              "note": "行內校勘標記另存，成對讀法保留改讀前的字；身份與底本待核。"
-            },
-            {
-              "paragraph_id": "c-shiji-005-qin:p070",
-              "witness_form": "（武安）",
-              "body_reading": "",
-              "note": "行內校勘標記另存，成對讀法保留改讀前的字；身份與底本待核。"
-            }
-          ]
-        }
-      }
+      "chapter_ref": "data/corpus/shiji/005.json"
     },
     {
       "chapter_id": "c-shiji-006-shihuang",
       "work_id": "w-shiji",
       "book_id": "b-shiji-006",
       "source_id": "s-shiji-006-shihuang",
-      "source": {
-        "title": "史記／卷006",
-        "provider": "維基文庫",
-        "url": "https://zh.wikisource.org/wiki/史記/卷006",
-        "permalink": "https://zh.wikisource.org/w/index.php?title=史記/卷006&oldid=7907969",
-        "revision_id": 7907969,
-        "accessed_on": "2026-10-09",
-        "extent": "數位見證127個文字區塊，含16個dd刻辭或嵌入引文及卷末附載班固記；排除導覽、跨站連結與註號。",
-        "image_verified": false,
-        "rights": "古代原文與附載文字；數位轉錄依維基文庫CC BY-SA 4.0，保留署名及固定版本。",
-        "license_url": "https://creativecommons.org/licenses/by-sa/4.0/",
-        "normalization": {
-          "character_conversion": {},
-          "note": "正文未改寫；行內校勘標記及附載文字仍待逐處核對。固定版本正文HTML重讀一致。",
-          "editorial_readings": [
-            {
-              "paragraph_id": "c-shiji-006-shihuang:p010",
-              "witness_form": "（四）［是］",
-              "body_reading": "四",
-              "note": "數位見證行內校勘標記另存；正文保留改讀前的字，不稱已校定底本。"
-            },
-            {
-              "paragraph_id": "c-shiji-006-shihuang:p016",
-              "witness_form": "（薊）［荊］",
-              "body_reading": "薊",
-              "note": "數位見證行內校勘標記另存；正文保留改讀前的字，不稱已校定底本。"
-            },
-            {
-              "paragraph_id": "c-shiji-006-shihuang:p051",
-              "witness_form": "（其）",
-              "body_reading": "",
-              "note": "數位見證行內刪字標記另存；未核底本，不稱校定讀法。"
-            },
-            {
-              "paragraph_id": "c-shiji-006-shihuang:p061",
-              "witness_form": "（者）",
-              "body_reading": "",
-              "note": "數位見證行內刪字標記另存；未核底本，不稱校定讀法。"
-            }
-          ],
-          "extraction_note": "按正文p及dd區塊原有次序錄入；dd用前一段ID加block後綴，既有p段落ID不變。正文前兩個dd為維基百科與文言維基大典導覽，排除。"
-        }
-      }
+      "chapter_ref": "data/corpus/shiji/006.json"
     },
     {
       "chapter_id": "table-chapter-shiji-015",
       "work_id": "w-shiji",
       "book_id": "b-shiji-015",
       "source_id": "table-witness-shiji-015",
-      "source": {
-        "id": "table-witness-shiji-015",
-        "work_id": "w-shiji",
-        "book_id": "b-shiji-015",
-        "chapter_id": "table-chapter-shiji-015",
-        "url": "https://zh.wikisource.org/wiki/史記/卷015",
-        "revision_url": "https://zh.wikisource.org/w/index.php?title=史記/卷015&oldid=2607002",
-        "revision": "2607002",
-        "accessed": "2026-10-12",
-        "response_sha256": "eb0624a019e02c24ce90a40bfa24863f4020878062c6e2efea32355033be5559",
-        "edition": null,
-        "image_verified": false,
-        "rights": "古籍正文公有領域；維基文庫轉錄及編輯內容依 CC BY-SA 條款，署名維基文庫貢獻者。",
-        "rights_url": "https://zh.wikisource.org/wiki/Wikisource:版權信息",
-        "review_status": "agent_first_pass_named_entities",
-        "note": "完整數位表格結構匯入，未逐格學術覆核。未核讀印本影像，原印本頁碼未知。西元欄沿用此數位轉錄的編者對照，不是古籍原有西元紀年，也不引用其維基百科外連。"
-      }
+      "table_source_ref": "shiji-015"
     }
   ],
   "relations": [
@@ -471,9 +340,9 @@
       "evidence": [
         {
           "paragraph_id": "c-shiji-006-shihuang:p083",
-          "quote": "剌龔公享國三十四年。葬入里。生躁公、懷公。其十年，彗星見。",
           "chapter_id": "c-shiji-006-shihuang",
-          "source_id": "s-shiji-006-shihuang"
+          "source_id": "s-shiji-006-shihuang",
+          "quote_passage_ref": "data/corpus/shiji/006.json"
         }
       ],
       "qualifiers": {
@@ -562,8 +431,8 @@
           "chapter_id": "c-shiji-005-qin",
           "source_id": "s-shiji-005-qin",
           "paragraph_id": "c-shiji-005-qin:p048",
-          "quote": "躁公二年，南鄭反。十三年，義渠來伐，至渭南。十四年，躁公卒，立其弟懷公。",
-          "person_mention_id": "c-shiji-005-qin:m048-0000"
+          "person_mention_id": "c-shiji-005-qin:m048-0000",
+          "quote_passage_ref": "data/corpus/shiji/005.json"
         }
       ],
       "source_term": "躁公卒",
@@ -582,8 +451,8 @@
           "chapter_id": "c-shiji-006-shihuang",
           "source_id": "s-shiji-006-shihuang",
           "paragraph_id": "c-shiji-006-shihuang:p083",
-          "quote": "剌龔公享國三十四年。葬入里。生躁公、懷公。其十年，彗星見。",
-          "person_mention_id": "c-shiji-006-shihuang:p083:m0015"
+          "person_mention_id": "c-shiji-006-shihuang:p083:m0015",
+          "quote_passage_ref": "data/corpus/shiji/006.json"
         }
       ],
       "source_term": "生躁公、懷公",

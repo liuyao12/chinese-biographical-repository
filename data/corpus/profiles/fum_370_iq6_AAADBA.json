@@ -20,7 +20,6 @@
       "raw_count": 1,
       "duplicate_count": 0,
       "counting_policy": "independent_fixed_witness_occurrences",
-      "quote": "仲宣子玄就，幼而俊拔。收捕時年九歲，牽挽兵人，謂曰：「欲害諸尊，乞先就死。」兵人以刀斫斷其臂，猶請死不止，遂先殺之。永熙初，贈汝陰太守。",
       "paragraph_ids": [
         "c-weishu-weishou-058-yangchun:p031"
       ],
@@ -44,7 +43,12 @@
       "book_id": "b-weishu-weishou-058",
       "chapter_id": "c-weishu-weishou-058-yangchun",
       "source_id": "s-weishu-weishou-058-yangchun-ws2087998",
-      "work_title": "魏書（魏收）"
+      "work_title": "魏書（魏收）",
+      "chapter_ref": "data/corpus/weishu-weishou/058-yangchun.json",
+      "quote_span": [
+        0,
+        68
+      ]
     }
   ],
   "table_occurrences": [],
@@ -54,27 +58,7 @@
       "work_id": "w-weishu-weishou",
       "book_id": "b-weishu-weishou-058",
       "source_id": "s-weishu-weishou-058-yangchun-ws2087998",
-      "source": {
-        "title": "魏書卷五十八楊椿及昱、穎、順近系完整敘事",
-        "provider": "Wikisource",
-        "url": "https://zh.wikisource.org/w/index.php?title=%E9%AD%8F%E6%9B%B8%2F%E5%8D%B758&oldid=2087998",
-        "permalink": "https://zh.wikisource.org/w/index.php?title=%E9%AD%8F%E6%9B%B8%2F%E5%8D%B758&oldid=2087998",
-        "revision_id": 2087998,
-        "raw_path": "source-evidence/weishu058-yangchun/primary/weishu058.wikitext",
-        "raw_file_sha256": "a53ae2dbced88decaa460fbf34f87bb5e65a0b37b524480cb362a3bebb1bc19d",
-        "accessed_on": "2026-10-22",
-        "edition": "維基文庫固定數位轉錄；實際版本底本未確認，未圖校",
-        "extent": "固定ws2087998 raw33弟椿至102，止103順弟津前；椿、昱、穎、順及附孝邕/叔良/辯/仲宣/玄就/測/稚卿全部33正文段；另同見證卷末共評。",
-        "text_scope": "partial_chapter",
-        "review_status": "text_checked",
-        "image_verified": false,
-        "license_url": "https://creativecommons.org/licenses/by-sa/4.0/",
-        "rights": "古代正文；數位見證及網站校勘署名依維基文庫CC BY-SA4.0與附加條款保留",
-        "normalization": {
-          "character_conversion": {},
-          "extraction_note": "保原字與標點；段落按固定raw非空正文行。只分離網站ref校勘，原ref全文連raw位於annotation，逐字映射無摘要。"
-        }
-      }
+      "chapter_ref": "data/corpus/weishu-weishou/058-yangchun.json"
     }
   ],
   "relations": [
@@ -94,9 +78,9 @@
           "source_id": "s-weishu-weishou-058-yangchun-ws2087998",
           "chapter_id": "c-weishu-weishou-058-yangchun",
           "paragraph_id": "c-weishu-weishou-058-yangchun:p031",
-          "quote": "仲宣子玄就，幼而俊拔。收捕時年九歲，牽挽兵人，謂曰：「欲害諸尊，乞先就死。」兵人以刀斫斷其臂，猶請死不止，遂先殺之。永熙初，贈汝陰太守。",
           "subject_person_mention_id": "c-weishu-weishou-058-yangchun:p031:m0003",
-          "object_person_mention_id": "c-weishu-weishou-058-yangchun:p031:m0000"
+          "object_person_mention_id": "c-weishu-weishou-058-yangchun:p031:m0000",
+          "quote_passage_ref": "data/corpus/weishu-weishou/058-yangchun.json"
         }
       ],
       "interpretation_note": "依完整收到原文的明示近系；不補同母、缺名父代或由官爵推親屬。",
@@ -120,7 +104,6 @@
       "chapter_id": "c-weishu-weishou-058-yangchun",
       "paragraph_id": "c-weishu-weishou-058-yangchun:p031",
       "person_mention_id": "c-weishu-weishou-058-yangchun:p031:m0003",
-      "quote": "仲宣子玄就，幼而俊拔。收捕時年九歲，牽挽兵人，謂曰：「欲害諸尊，乞先就死。」兵人以刀斫斷其臂，猶請死不止，遂先殺之。永熙初，贈汝陰太守。",
       "status": "contextual_provisional",
       "human_reviewed": false,
       "model": null,
@@ -153,9 +136,9 @@
                 "source_id": "s-weishu-weishou-058-yangchun-ws2087998",
                 "chapter_id": "c-weishu-weishou-058-yangchun",
                 "paragraph_id": "c-weishu-weishou-058-yangchun:p026",
-                "quote": "椿弟穎，字惠哲。本州別駕。",
                 "subject_person_mention_id": "c-weishu-weishou-058-yangchun:p026:m0002",
-                "object_person_mention_id": "c-weishu-weishou-058-yangchun:p026:m0000"
+                "object_person_mention_id": "c-weishu-weishou-058-yangchun:p026:m0000",
+                "quote_passage_ref": "data/corpus/weishu-weishou/058-yangchun.json"
               }
             ],
             "source_frames": [
@@ -181,9 +164,9 @@
                 "source_id": "s-weishu-weishou-058-yangchun-ws2087998",
                 "chapter_id": "c-weishu-weishou-058-yangchun",
                 "paragraph_id": "c-weishu-weishou-058-yangchun:p028",
-                "quote": "穎弟順，字延和，寬裕謹厚。太和中，起家奉朝請。累遷直閤將軍、北中郎將、兼武衞將軍、太僕卿。預立莊帝之功，封三門縣開國公，食邑七百戶。出為平北將軍、冀州刺史，尋進號撫軍將軍。罷州還，遇害，年六十五。太昌初，贈都督相殷二州諸軍事、太尉公、錄尚書事、相州刺史。",
                 "subject_person_mention_id": "c-weishu-weishou-058-yangchun:p028:m0002",
-                "object_person_mention_id": "c-weishu-weishou-058-yangchun:p028:m0000"
+                "object_person_mention_id": "c-weishu-weishou-058-yangchun:p028:m0000",
+                "quote_passage_ref": "data/corpus/weishu-weishou/058-yangchun.json"
               }
             ],
             "source_frames": [
@@ -209,9 +192,9 @@
                 "source_id": "s-weishu-weishou-058-yangchun-ws2087998",
                 "chapter_id": "c-weishu-weishou-058-yangchun",
                 "paragraph_id": "c-weishu-weishou-058-yangchun:p010",
-                "quote": "建義元年，遷司徒公。尒朱榮東討葛榮，詔椿統眾為後軍，榮擒葛榮，乃止。永安初，進位太保、侍中，給後部鼓吹。元顥入洛，椿子征東將軍昱出鎮滎陽，為顥所擒。又椿弟順為冀州刺史，順子仲宣正平太守，兄子侃、弟子遁並從駕河北，為顥嫌疑。以椿家世顯重，恐失人望，未及加罪。時人助其憂怖，或有勸椿攜家避禍。椿曰：「吾內外百口，何處逃竄？正當坐任運耳。」",
                 "subject_person_mention_id": "c-weishu-weishou-058-yangchun:p010:m0086",
-                "object_person_mention_id": "c-weishu-weishou-058-yangchun:p010:m0084"
+                "object_person_mention_id": "c-weishu-weishou-058-yangchun:p010:m0084",
+                "quote_passage_ref": "data/corpus/weishu-weishou/058-yangchun.json"
               }
             ],
             "source_frames": [
@@ -237,9 +220,9 @@
                 "source_id": "s-weishu-weishou-058-yangchun-ws2087998",
                 "chapter_id": "c-weishu-weishou-058-yangchun",
                 "paragraph_id": "c-weishu-weishou-058-yangchun:p031",
-                "quote": "仲宣子玄就，幼而俊拔。收捕時年九歲，牽挽兵人，謂曰：「欲害諸尊，乞先就死。」兵人以刀斫斷其臂，猶請死不止，遂先殺之。永熙初，贈汝陰太守。",
                 "subject_person_mention_id": "c-weishu-weishou-058-yangchun:p031:m0003",
-                "object_person_mention_id": "c-weishu-weishou-058-yangchun:p031:m0000"
+                "object_person_mention_id": "c-weishu-weishou-058-yangchun:p031:m0000",
+                "quote_passage_ref": "data/corpus/weishu-weishou/058-yangchun.json"
               }
             ],
             "source_frames": [
@@ -255,7 +238,8 @@
       },
       "work_id": "w-weishu-weishou",
       "book_id": "b-weishu-weishou-058",
-      "source_id": "s-weishu-weishou-058-yangchun-ws2087998"
+      "source_id": "s-weishu-weishou-058-yangchun-ws2087998",
+      "quote_passage_ref": "data/corpus/weishu-weishou/058-yangchun.json"
     }
   ],
   "person_ids": [
@@ -278,9 +262,9 @@
           "source_id": "s-weishu-weishou-058-yangchun-ws2087998",
           "chapter_id": "c-weishu-weishou-058-yangchun",
           "paragraph_id": "c-weishu-weishou-058-yangchun:p031",
-          "quote": "仲宣子玄就，幼而俊拔。收捕時年九歲，牽挽兵人，謂曰：「欲害諸尊，乞先就死。」兵人以刀斫斷其臂，猶請死不止，遂先殺之。永熙初，贈汝陰太守。",
           "subject_person_mention_id": "c-weishu-weishou-058-yangchun:p031:m0003",
-          "object_person_mention_id": "c-weishu-weishou-058-yangchun:p031:m0000"
+          "object_person_mention_id": "c-weishu-weishou-058-yangchun:p031:m0000",
+          "quote_passage_ref": "data/corpus/weishu-weishou/058-yangchun.json"
         }
       ],
       "interpretation_note": "依完整收到原文的明示近系；不補同母、缺名父代或由官爵推親屬。",
@@ -325,8 +309,8 @@
           "source_id": "s-weishu-weishou-058-yangchun-ws2087998",
           "chapter_id": "c-weishu-weishou-058-yangchun",
           "paragraph_id": "c-weishu-weishou-058-yangchun:p031",
-          "quote": "仲宣子玄就，幼而俊拔。收捕時年九歲，牽挽兵人，謂曰：「欲害諸尊，乞先就死。」兵人以刀斫斷其臂，猶請死不止，遂先殺之。永熙初，贈汝陰太守。",
-          "person_mention_id": "c-weishu-weishou-058-yangchun:p031:m0003"
+          "person_mention_id": "c-weishu-weishou-058-yangchun:p031:m0003",
+          "quote_passage_ref": "data/corpus/weishu-weishou/058-yangchun.json"
         }
       ],
       "interpretation_note": "逐來源時點報齡，計歲法未明；不推生年，不以告子孫時75代卒齡77，八十老父另存引語稱示候選。",
@@ -350,8 +334,8 @@
           "source_id": "s-weishu-weishou-058-yangchun-ws2087998",
           "chapter_id": "c-weishu-weishou-058-yangchun",
           "paragraph_id": "c-weishu-weishou-058-yangchun:p031",
-          "quote": "仲宣子玄就，幼而俊拔。收捕時年九歲，牽挽兵人，謂曰：「欲害諸尊，乞先就死。」兵人以刀斫斷其臂，猶請死不止，遂先殺之。永熙初，贈汝陰太守。",
-          "person_mention_id": "c-weishu-weishou-058-yangchun:p031:m0003"
+          "person_mention_id": "c-weishu-weishou-058-yangchun:p031:m0003",
+          "quote_passage_ref": "data/corpus/weishu-weishou/058-yangchun.json"
         }
       ],
       "interpretation_note": "只記本段明示死亡；同遇害/亦所害未經獨立紀年契約者不借椿531。不由死亡填各官任終或推生年。",

@@ -22,7 +22,7 @@
           "chapter_id": "c-shiji-048-chenshe",
           "source_id": "s-shiji-048-chenshe",
           "paragraph_id": "c-shiji-048-chenshe:p015",
-          "quote": "陳王故涓人將軍呂臣為倉頭軍，起新陽，攻陳下之，殺莊賈，復以陳為楚。"
+          "quote_passage_ref": "data/corpus/shiji/048.json"
         }
       ],
       "attestations": [
@@ -64,7 +64,7 @@
           "chapter_id": "c-shiji-048-chenshe",
           "source_id": "s-shiji-048-chenshe",
           "paragraph_id": "c-shiji-048-chenshe:p015",
-          "quote": "陳王故涓人將軍呂臣為倉頭軍，起新陽，攻陳下之，殺莊賈，復以陳為楚。"
+          "quote_passage_ref": "data/corpus/shiji/048.json"
         }
       ],
       "attestations": [
@@ -106,7 +106,6 @@
       "raw_count": 2,
       "duplicate_count": 0,
       "counting_policy": "independent_fixed_witness_occurrences",
-      "quote": "陳王故涓人將軍呂臣為倉頭軍，起新陽，攻陳下之，殺莊賈，復以陳為楚。",
       "paragraph_ids": [
         "c-shiji-048-chenshe:p015",
         "c-shiji-048-chenshe:p018"
@@ -140,7 +139,12 @@
       "book_id": "b-shiji-048",
       "chapter_id": "c-shiji-048-chenshe",
       "source_id": "s-shiji-048-chenshe",
-      "work_title": "史記"
+      "work_title": "史記",
+      "chapter_ref": "data/corpus/shiji/048.json",
+      "quote_span": [
+        0,
+        33
+      ]
     }
   ],
   "table_occurrences": [],
@@ -150,24 +154,7 @@
       "work_id": "w-shiji",
       "book_id": "b-shiji-048",
       "source_id": "s-shiji-048-chenshe",
-      "source": {
-        "title": "史記／卷048",
-        "provider": "維基文庫",
-        "url": "https://zh.wikisource.org/wiki/史記/卷048",
-        "permalink": "https://zh.wikisource.org/w/index.php?title=史記/卷048&oldid=2531218",
-        "revision_id": 2531218,
-        "accessed_on": "2026-10-09",
-        "extent": "26段史文；前20段篇文，後6段明署褚先生曰及所引賈生文字另分層，排除註釋版導覽與2個dd。",
-        "image_verified": false,
-        "rights": "古代原文；數位轉錄依維基文庫CC BY-SA 4.0，保留署名及固定版本。",
-        "license_url": "https://creativecommons.org/licenses/by-sa/4.0/",
-        "normalization": {
-          "character_conversion": {},
-          "editorial_readings": [],
-          "extraction_note": "取得時HTML與固定修訂一致，只去除段落外緣空白；保留间、铚、余及熒一作「滎」陽等原字。第10段一作是數位校勘字樣，不當古文，未擅選讀法。",
-          "note": "已讀全26段並作明示人名首輪，褚氏與所引賈氏未補姓名；未核底本、影像或現代研究。"
-        }
-      }
+      "chapter_ref": "data/corpus/shiji/048.json"
     }
   ],
   "relations": [],

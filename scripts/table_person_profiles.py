@@ -3,6 +3,12 @@
 import json
 from collections import defaultdict
 from pathlib import Path
+try:
+    from .passage_refs import PassageCatalog, write_json
+    from .profile_passages import ReaderPassages
+except ImportError:
+    from passage_refs import PassageCatalog, write_json
+    from profile_passages import ReaderPassages
 ROOT = Path(__file__).resolve().parents[1]
 def build_summaries(root):
     # Cards are a derived projection; the source-rich profiles remain unchanged.
@@ -15,6 +21,8 @@ def build_summaries(root):
 
 def build(root=ROOT, person_ids=None):
     ROOT = root
+    passages = PassageCatalog(root)
+    reader = ReaderPassages(root)
     catalog = json.loads((ROOT/'data/corpus/index.json').read_text())
     chapters = {x.get('chapter_id'):x for x in catalog['chapters']}
     work_titles = {}
@@ -60,9 +68,9 @@ def build(root=ROOT, person_ids=None):
         if pid in candidates:
             candidate = candidates[pid]
             profile = {'schema_version':1,'id':pid,'canonical_person_id':pid,'label':candidate['label'],'identity_note':candidate['identity_note'],'review':'source_local_candidate','names':[candidate['source_surface']],'titles':[],'addresses':[],'occurrences':[],'table_occurrences':cells,'sources':[],'relations':[],'related_people':{},'dates':[]}
-            (out/f'{pid}.json').write_text(json.dumps(profile,ensure_ascii=False,indent=2)+'\n')
+            write_json(out/f'{pid}.json', reader.convert(profile), indent=2)
             continue
-        b = json.loads((ROOT/'exports/persons'/f'{pid}.json').read_text())
+        b = passages.expand(json.loads((ROOT/'exports/persons'/f'{pid}.json').read_text()))
         own = set(b['person_ids']); ps = {p['id']:p for p in b['passages']}
         try:
             from .profile_occurrence_counts import profile_occurrences
@@ -151,14 +159,14 @@ def build(root=ROOT, person_ids=None):
         profile['selected_life_event_dates'] = b.get('selected_life_event_dates', [])
         if b.get('reported_variants'):
             profile['reported_variants'] = b['reported_variants']
-        (out/f'{pid}.json').write_text(json.dumps(profile,ensure_ascii=False,indent=2)+'\n')
+        write_json(out/f'{pid}.json', reader.convert(profile), indent=2)
     entries = []
     for pid in sorted(table_mentions):
         p = json.loads((out/f'{pid}.json').read_text())
         entries.append({'id':pid,'label':p['label'],'names':p['names'],'path':f'data/corpus/profiles/{pid}.json','review':p['review']})
     if person_ids is not None and (out/'index.json').exists():
         entries = [x for x in json.loads((out/'index.json').read_text())['profiles'] if x['id'] not in person_ids] + entries
-    (out/'index.json').write_text(json.dumps({'schema_version':1,'profiles':entries},ensure_ascii=False,indent=2)+'\n')
+    write_json(out/'index.json', {'schema_version':1,'profiles':entries}, indent=2)
     if person_ids is None:
         try:
             from .person_directory import run as export_person_directory

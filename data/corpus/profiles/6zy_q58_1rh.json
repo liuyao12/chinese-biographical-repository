@@ -26,8 +26,8 @@
           "chapter_id": "c-shiji-049-waiqi",
           "source_id": "s-shiji-049-waiqi",
           "paragraph_id": "c-shiji-049-waiqi:p020",
-          "quote": "景帝長男榮，其母栗姬。栗姬，齊人也。立榮為太子。長公主嫖有女，欲予為妃。栗姬妒，而景帝諸美人皆因長公主見景帝，得貴幸，皆過栗姬，栗姬日怨怒，謝長公主，不許。長公主欲予王夫人，王夫人許之。長公主怒，而日讒栗姬短於景帝曰：「栗姬與諸貴夫人幸姬會，常使侍者祝唾其背，挾邪媚道。」景帝以故望之。",
-          "person_mention_id": "c-shiji-049-waiqi:m020-0008"
+          "person_mention_id": "c-shiji-049-waiqi:m020-0008",
+          "quote_passage_ref": "data/corpus/shiji/049.json"
         }
       ],
       "source_term": "栗姬，齊人也",
@@ -48,7 +48,6 @@
       "raw_count": 12,
       "duplicate_count": 0,
       "counting_policy": "independent_fixed_witness_occurrences",
-      "quote": "景帝長男榮，其母栗姬。栗姬，齊人也。立榮為太子。長公主嫖有女，欲予為妃。栗姬妒，而景帝諸美人皆因長公主見景帝，得貴幸，皆過栗姬，栗姬日怨怒，謝長公主，不許。長公主欲予王夫人，王夫人許之。長公主怒，而日讒栗姬短於景帝曰：「",
       "paragraph_ids": [
         "c-shiji-049-waiqi:p020",
         "c-shiji-049-waiqi:p021",
@@ -173,7 +172,12 @@
       "book_id": "b-shiji-049",
       "chapter_id": "c-shiji-049-waiqi",
       "source_id": "s-shiji-049-waiqi",
-      "work_title": "史記"
+      "work_title": "史記",
+      "chapter_ref": "data/corpus/shiji/049.json",
+      "quote_span": [
+        0,
+        110
+      ]
     },
     {
       "number": 130,
@@ -184,7 +188,6 @@
       "raw_count": 1,
       "duplicate_count": 0,
       "counting_policy": "independent_fixed_witness_occurrences",
-      "quote": "成皋之臺，薄氏始基。詘意適代，厥崇諸竇。栗姬偩貴，王氏乃遂。陳後太驕，卒尊子夫。嘉夫德若斯，作外戚世家十九。",
       "paragraph_ids": [
         "c-shiji-130-taishigong:p061"
       ],
@@ -208,7 +211,12 @@
       "book_id": "b-shiji-130",
       "chapter_id": "c-shiji-130-taishigong",
       "source_id": "s-shiji130-taishigong",
-      "work_title": "史記"
+      "work_title": "史記",
+      "chapter_ref": "data/corpus/shiji/130.json",
+      "quote_span": [
+        0,
+        54
+      ]
     }
   ],
   "table_occurrences": [],
@@ -218,48 +226,14 @@
       "work_id": "w-shiji",
       "book_id": "b-shiji-049",
       "source_id": "s-shiji-049-waiqi",
-      "source": {
-        "title": "史記／卷049",
-        "provider": "維基文庫",
-        "url": "https://zh.wikisource.org/wiki/史記/卷049",
-        "permalink": "https://zh.wikisource.org/w/index.php?title=史記/卷049&oldid=7903610",
-        "revision_id": 7903610,
-        "accessed_on": "2026-10-09",
-        "extent": "44段史文，前34段篇文，後10段自褚先生曰起為附載文字；數位分節欄題不是古文段落。",
-        "image_verified": false,
-        "rights": "古代原文；數位轉錄依維基文庫CC BY-SA 4.0，保留署名及固定版本。",
-        "license_url": "https://creativecommons.org/licenses/by-sa/4.0/",
-        "normalization": {
-          "character_conversion": {},
-          "editorial_readings": [],
-          "extraction_note": "固定修訂與取得時HTML相同，只去段落外緣空白；保留（寒）［暮］、［及尊］、（子）［一］及號日等數位見證原字與校勘字樣。",
-          "note": "全44段已讀並作明示人名首輪；未核底本、影像或現代研究。"
-        }
-      }
+      "chapter_ref": "data/corpus/shiji/049.json"
     },
     {
       "chapter_id": "c-shiji-130-taishigong",
       "work_id": "w-shiji",
       "book_id": "b-shiji-130",
       "source_id": "s-shiji130-taishigong",
-      "source": {
-        "title": "史記／卷130",
-        "provider": "維基文庫",
-        "url": "https://zh.wikisource.org/wiki/史記/卷130",
-        "permalink": "https://zh.wikisource.org/w/index.php?title=史記/卷130&oldid=2609362",
-        "revision_id": 2609362,
-        "accessed_on": "2026-10-11",
-        "extent": "固定修訂全文143段，全部篇文。",
-        "image_verified": false,
-        "rights": "古代原文；數位轉錄依維基文庫CC BY-SA 4.0，保留署名及固定版本。",
-        "license_url": "https://creativecommons.org/licenses/by-sa/4.0/",
-        "normalization": {
-          "character_conversion": {},
-          "editorial_readings": [],
-          "extraction_note": "去header2及現代節標，移除維基引文縮排冒號，保留原字，未核影像。",
-          "note": "全文入庫不等於全部提及已標註；目錄段落仍待逐段處理。"
-        }
-      }
+      "chapter_ref": "data/corpus/shiji/130.json"
     }
   ],
   "relations": [
@@ -274,7 +248,7 @@
           "chapter_id": "c-shiji-049-waiqi",
           "source_id": "s-shiji-049-waiqi",
           "paragraph_id": "c-shiji-049-waiqi:p020",
-          "quote": "景帝長男榮，其母栗姬。栗姬，齊人也。立榮為太子。長公主嫖有女，欲予為妃。栗姬妒，而景帝諸美人皆因長公主見景帝，得貴幸，皆過栗姬，栗姬日怨怒，謝長公主，不許。長公主欲予王夫人，王夫人許之。長公主怒，而日讒栗姬短於景帝曰：「栗姬與諸貴夫人幸姬會，常使侍者祝唾其背，挾邪媚道。」景帝以故望之。"
+          "quote_passage_ref": "data/corpus/shiji/049.json"
         }
       ],
       "qualifiers": {
@@ -306,7 +280,7 @@
           "chapter_id": "c-shiji-049-waiqi",
           "source_id": "s-shiji-049-waiqi",
           "paragraph_id": "c-shiji-049-waiqi:p020",
-          "quote": "景帝長男榮，其母栗姬。栗姬，齊人也。立榮為太子。長公主嫖有女，欲予為妃。栗姬妒，而景帝諸美人皆因長公主見景帝，得貴幸，皆過栗姬，栗姬日怨怒，謝長公主，不許。長公主欲予王夫人，王夫人許之。長公主怒，而日讒栗姬短於景帝曰：「栗姬與諸貴夫人幸姬會，常使侍者祝唾其背，挾邪媚道。」景帝以故望之。"
+          "quote_passage_ref": "data/corpus/shiji/049.json"
         }
       ],
       "qualifiers": {
@@ -330,8 +304,8 @@
           "chapter_id": "c-shiji-049-waiqi",
           "source_id": "s-shiji-049-waiqi",
           "paragraph_id": "c-shiji-049-waiqi:p022",
-          "quote": "長公主日譽王夫人男之美，景帝亦賢之，又有曩者所夢日符，計未有所定。王夫人知帝望栗姬，因怒未解，陰使人趣大臣立栗姬為皇后。大行奏事畢，曰：「『子以母貴，母以子貴』，今太子母無號，宜立為皇后。」景帝怒曰：「是而所宜言邪！」遂案誅大行，而廢太子為臨江王。栗姬愈恚恨，不得見，以憂死。卒立王夫人為皇后，其男為太子，封皇后兄信為蓋侯。",
-          "person_mention_id": "c-shiji-049-waiqi:m022-0124"
+          "person_mention_id": "c-shiji-049-waiqi:m022-0124",
+          "quote_passage_ref": "data/corpus/shiji/049.json"
         }
       ],
       "source_term": "栗姬愈恚恨，不得見，以憂死",

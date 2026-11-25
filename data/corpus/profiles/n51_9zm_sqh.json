@@ -22,7 +22,7 @@
           "chapter_id": "c-shiji-003-yin",
           "source_id": "s-shiji-003-yin",
           "paragraph_id": "c-shiji-003-yin:p025",
-          "quote": "帝甲崩，子帝廩辛立。帝廩辛崩，弟庚丁立，是為帝庚丁。帝庚丁崩，子帝武乙立。殷復去亳，徙河北。"
+          "quote_passage_ref": "data/corpus/shiji/003.json"
         }
       ],
       "attestations": [
@@ -47,7 +47,7 @@
               "chapter_id": "c-shiji-003-yin",
               "source_id": "s-shiji-003-yin",
               "paragraph_id": "c-shiji-003-yin:p025",
-              "quote": "帝甲崩，子帝廩辛立。帝廩辛崩，弟庚丁立，是為帝庚丁。帝庚丁崩，子帝武乙立。殷復去亳，徙河北。"
+              "quote_passage_ref": "data/corpus/shiji/003.json"
             }
           ]
         },
@@ -79,7 +79,7 @@
           "chapter_id": "c-shiji-003-yin",
           "source_id": "s-shiji-003-yin",
           "paragraph_id": "c-shiji-003-yin:p026",
-          "quote": "帝武乙無道，為偶人，謂之天神。與之博，令人為行。天神不勝，乃僇辱之。為革囊，盛血，卬而射之，命曰「射天」。武乙獵於河渭之閒，暴雷，武乙震死。子帝太丁立。帝太丁崩，子帝乙立。帝乙立，殷益衰。"
+          "quote_passage_ref": "data/corpus/shiji/003.json"
         }
       ],
       "source_term": "武乙獵於河渭之閒，暴雷，武乙震死",
@@ -100,7 +100,6 @@
       "raw_count": 4,
       "duplicate_count": 0,
       "counting_policy": "independent_fixed_witness_occurrences",
-      "quote": "帝甲崩，子帝廩辛立。帝廩辛崩，弟庚丁立，是為帝庚丁。帝庚丁崩，子帝武乙立。殷復去亳，徙河北。",
       "paragraph_ids": [
         "c-shiji-003-yin:p025",
         "c-shiji-003-yin:p026"
@@ -152,7 +151,12 @@
       "book_id": "b-shiji-003",
       "chapter_id": "c-shiji-003-yin",
       "source_id": "s-shiji-003-yin",
-      "work_title": "史記"
+      "work_title": "史記",
+      "chapter_ref": "data/corpus/shiji/003.json",
+      "quote_span": [
+        0,
+        46
+      ]
     }
   ],
   "table_occurrences": [
@@ -160,7 +164,6 @@
       "table_id": "shiji-013",
       "cell_id": "shiji-013-t2-r026-c00",
       "title": "《史記·三代世表》",
-      "quote": "帝武乙。慢神震死。",
       "year": null,
       "mention": {
         "id": "shiji-013-t2-r026-c00-m000",
@@ -175,7 +178,8 @@
       "book_id": "b-shiji-013",
       "chapter_id": "table-chapter-shiji-013",
       "source_id": "table-witness-shiji-013",
-      "source_revision": "2606991"
+      "source_revision": "2606991",
+      "quote_ref": "cell"
     }
   ],
   "sources": [
@@ -184,47 +188,14 @@
       "work_id": "w-shiji",
       "book_id": "b-shiji-003",
       "source_id": "s-shiji-003-yin",
-      "source": {
-        "title": "史記／卷003",
-        "provider": "維基文庫",
-        "url": "https://zh.wikisource.org/wiki/史記/卷003",
-        "permalink": "https://zh.wikisource.org/w/index.php?title=史記/卷003&oldid=7909145",
-        "revision_id": 7909145,
-        "accessed_on": "2026-10-09",
-        "extent": "正文全文；不含現代章節標題與註號。",
-        "image_verified": false,
-        "rights": "古代原文；數位轉錄依維基文庫 CC BY-SA 4.0，保留署名及固定版本。",
-        "license_url": "https://creativecommons.org/licenses/by-sa/4.0/",
-        "normalization": {
-          "character_conversion": {
-            "弃": "棄"
-          },
-          "note": "只轉換棄字字形；保留中𤳹、筑、犇等來源字形，移除現代註號。"
-        }
-      }
+      "chapter_ref": "data/corpus/shiji/003.json"
     },
     {
       "chapter_id": "table-chapter-shiji-013",
       "work_id": "w-shiji",
       "book_id": "b-shiji-013",
       "source_id": "table-witness-shiji-013",
-      "source": {
-        "id": "table-witness-shiji-013",
-        "work_id": "w-shiji",
-        "book_id": "b-shiji-013",
-        "chapter_id": "table-chapter-shiji-013",
-        "url": "https://zh.wikisource.org/wiki/史記/卷013",
-        "revision_url": "https://zh.wikisource.org/w/index.php?title=史記/卷013&oldid=2606991",
-        "revision": "2606991",
-        "accessed": "2026-10-13",
-        "response_sha256": "8c98c072f11fc224a605f6b8f4dfc77be5f87bad792d32c0a2a720914638d7c3",
-        "edition": null,
-        "image_verified": false,
-        "rights": "古籍正文公有領域；維基文庫數位轉錄依CC BY-SA，保留貢獻者署名。",
-        "rights_url": "https://zh.wikisource.org/wiki/Wikisource:版權信息",
-        "review_status": "partial_named_entity_review",
-        "note": "各組表保留原欄題、原文、空格及合欄，不推不同欄題的接續。西元欄為數位編者增補；未明年份留空，不推世系曆年。未核底本影像，人物標註仍待逐處覆核。"
-      }
+      "table_source_ref": "shiji-013"
     }
   ],
   "relations": [
@@ -338,8 +309,8 @@
           "chapter_id": "c-shiji-003-yin",
           "source_id": "s-shiji-003-yin",
           "paragraph_id": "c-shiji-003-yin:p026",
-          "quote": "帝武乙無道，為偶人，謂之天神。與之博，令人為行。天神不勝，乃僇辱之。為革囊，盛血，卬而射之，命曰「射天」。武乙獵於河渭之閒，暴雷，武乙震死。子帝太丁立。帝太丁崩，子帝乙立。帝乙立，殷益衰。",
-          "person_mention_id": "c-shiji-003-yin:m026-0053"
+          "person_mention_id": "c-shiji-003-yin:m026-0053",
+          "quote_passage_ref": "data/corpus/shiji/003.json"
         }
       ],
       "source_term": "武乙震死",

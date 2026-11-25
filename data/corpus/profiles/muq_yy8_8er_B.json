@@ -30,8 +30,8 @@
           "chapter_id": "c-shiji-042-zheng",
           "source_id": "s-shiji-042-zheng",
           "paragraph_id": "c-shiji-042-zheng:p009",
-          "quote": "厲公四年，祭仲專國政。厲公患之，陰使其婿雍糾欲殺祭仲。糾妻，祭仲女也，知之，謂其母曰：「父與夫孰親？」母曰：「父一而已，人盡夫也。」女乃告祭仲，祭仲反殺雍糾，戮之於市。厲公無柰祭仲何，怒糾曰：「謀及婦人，死固宜哉！」夏，厲公出居邊邑櫟。祭仲迎昭公忽，六月乙亥，復入鄭，卽位。",
-          "person_mention_id": "c-shiji-042-zheng:m009-0000"
+          "person_mention_id": "c-shiji-042-zheng:m009-0000",
+          "quote_passage_ref": "data/corpus/shiji/042.json"
         }
       ],
       "source_term": "厲公出居邊邑櫟",
@@ -52,7 +52,6 @@
       "raw_count": 35,
       "duplicate_count": 0,
       "counting_policy": "independent_fixed_witness_occurrences",
-      "quote": "君多内寵，太子無大援將不立，三公子皆君也。」所謂三公子者，太子忽，其弟突，次弟子亹也。",
       "paragraph_ids": [
         "c-shiji-042-zheng:p006",
         "c-shiji-042-zheng:p008",
@@ -394,7 +393,12 @@
       "book_id": "b-shiji-042",
       "chapter_id": "c-shiji-042-zheng",
       "source_id": "s-shiji-042-zheng",
-      "work_title": "史記"
+      "work_title": "史記",
+      "chapter_ref": "data/corpus/shiji/042.json",
+      "quote_span": [
+        61,
+        104
+      ]
     },
     {
       "number": 130,
@@ -405,7 +409,6 @@
       "raw_count": 1,
       "duplicate_count": 0,
       "counting_policy": "independent_fixed_witness_occurrences",
-      "quote": "人是議。祭仲要盟，鄭久不昌。子產之仁，紹世稱賢。三晉侵伐，鄭納於韓。嘉厲公納惠王，作鄭世家第十二。",
       "paragraph_ids": [
         "c-shiji-130-taishigong:p054"
       ],
@@ -429,7 +432,12 @@
       "book_id": "b-shiji-130",
       "chapter_id": "c-shiji-130-taishigong",
       "source_id": "s-shiji130-taishigong",
-      "work_title": "史記"
+      "work_title": "史記",
+      "chapter_ref": "data/corpus/shiji/130.json",
+      "quote_span": [
+        16,
+        65
+      ]
     }
   ],
   "table_occurrences": [],
@@ -439,48 +447,14 @@
       "work_id": "w-shiji",
       "book_id": "b-shiji-042",
       "source_id": "s-shiji-042-zheng",
-      "source": {
-        "title": "史記／卷042",
-        "provider": "維基文庫",
-        "url": "https://zh.wikisource.org/wiki/史記/卷042",
-        "permalink": "https://zh.wikisource.org/w/index.php?title=史記/卷042&oldid=2016409",
-        "revision_id": 2016409,
-        "accessed_on": "2026-10-09",
-        "extent": "59段正文及1段分層索隱述贊；排除2個dd導覽，只去除段落外緣空白。",
-        "image_verified": false,
-        "rights": "古代原文；數位轉錄依維基文庫CC BY-SA 4.0，保留署名及固定版本。",
-        "license_url": "https://creativecommons.org/licenses/by-sa/4.0/",
-        "normalization": {
-          "character_conversion": {},
-          "editorial_readings": [],
-          "extraction_note": "固定修訂與取得時HTML一致；保留古代異體、九月（辛）［丁］亥等校勘符號及溉逐、掔羊、持兩端等疑讀，不擅選讀法。",
-          "note": "全60段數位正文已閱讀；未核古籍影像、可靠底本及現代研究。"
-        }
-      }
+      "chapter_ref": "data/corpus/shiji/042.json"
     },
     {
       "chapter_id": "c-shiji-130-taishigong",
       "work_id": "w-shiji",
       "book_id": "b-shiji-130",
       "source_id": "s-shiji130-taishigong",
-      "source": {
-        "title": "史記／卷130",
-        "provider": "維基文庫",
-        "url": "https://zh.wikisource.org/wiki/史記/卷130",
-        "permalink": "https://zh.wikisource.org/w/index.php?title=史記/卷130&oldid=2609362",
-        "revision_id": 2609362,
-        "accessed_on": "2026-10-11",
-        "extent": "固定修訂全文143段，全部篇文。",
-        "image_verified": false,
-        "rights": "古代原文；數位轉錄依維基文庫CC BY-SA 4.0，保留署名及固定版本。",
-        "license_url": "https://creativecommons.org/licenses/by-sa/4.0/",
-        "normalization": {
-          "character_conversion": {},
-          "editorial_readings": [],
-          "extraction_note": "去header2及現代節標，移除維基引文縮排冒號，保留原字，未核影像。",
-          "note": "全文入庫不等於全部提及已標註；目錄段落仍待逐段處理。"
-        }
-      }
+      "chapter_ref": "data/corpus/shiji/130.json"
     }
   ],
   "relations": [
@@ -495,7 +469,7 @@
           "chapter_id": "c-shiji-042-zheng",
           "source_id": "s-shiji-042-zheng",
           "paragraph_id": "c-shiji-042-zheng:p008",
-          "quote": "莊公又娶宋雍氏女，生厲公突。雍氏有寵於宋。宋莊公聞祭仲之立忽，乃使人誘召祭仲而執之，曰：「不立突，將死。」亦執突以求賂焉。祭仲許宋，與宋盟。以突歸，立之。昭公忽聞祭仲以宋要立其弟突，九月（辛）［丁］亥，忽出奔衞。己亥，突至鄭，立，是爲厲公。"
+          "quote_passage_ref": "data/corpus/shiji/042.json"
         }
       ],
       "qualifiers": {
@@ -516,7 +490,7 @@
           "chapter_id": "c-shiji-042-zheng",
           "source_id": "s-shiji-042-zheng",
           "paragraph_id": "c-shiji-042-zheng:p008",
-          "quote": "莊公又娶宋雍氏女，生厲公突。雍氏有寵於宋。宋莊公聞祭仲之立忽，乃使人誘召祭仲而執之，曰：「不立突，將死。」亦執突以求賂焉。祭仲許宋，與宋盟。以突歸，立之。昭公忽聞祭仲以宋要立其弟突，九月（辛）［丁］亥，忽出奔衞。己亥，突至鄭，立，是爲厲公。"
+          "quote_passage_ref": "data/corpus/shiji/042.json"
         }
       ],
       "qualifiers": {
@@ -537,7 +511,7 @@
           "chapter_id": "c-shiji-042-zheng",
           "source_id": "s-shiji-042-zheng",
           "paragraph_id": "c-shiji-042-zheng:p006",
-          "quote": "三十八年，北戎伐齊，齊使求救，鄭遣太子忽將兵救齊。齊釐公欲妻之，忽謝曰：「我小國，非齊敵也。」時祭仲與倶，勸使取之，曰：「君多内寵，太子無大援將不立，三公子皆君也。」所謂三公子者，太子忽，其弟突，次弟子亹也。"
+          "quote_passage_ref": "data/corpus/shiji/042.json"
         }
       ],
       "qualifiers": {
@@ -558,7 +532,7 @@
           "chapter_id": "c-shiji-042-zheng",
           "source_id": "s-shiji-042-zheng",
           "paragraph_id": "c-shiji-042-zheng:p017",
-          "quote": "秋，厲公卒，子文公踕立。厲公初立四歳，亡居櫟，居櫟十七歳，復入，立七歳，與亡凡二十八年。"
+          "quote_passage_ref": "data/corpus/shiji/042.json"
         }
       ],
       "qualifiers": {
@@ -593,7 +567,7 @@
           "chapter_id": "c-shiji-042-zheng",
           "source_id": "s-shiji-042-zheng",
           "paragraph_id": "c-shiji-042-zheng:p008",
-          "quote": "莊公又娶宋雍氏女，生厲公突。雍氏有寵於宋。宋莊公聞祭仲之立忽，乃使人誘召祭仲而執之，曰：「不立突，將死。」亦執突以求賂焉。祭仲許宋，與宋盟。以突歸，立之。昭公忽聞祭仲以宋要立其弟突，九月（辛）［丁］亥，忽出奔衞。己亥，突至鄭，立，是爲厲公。"
+          "quote_passage_ref": "data/corpus/shiji/042.json"
         }
       ],
       "qualifiers": {
@@ -614,7 +588,7 @@
           "chapter_id": "c-shiji-042-zheng",
           "source_id": "s-shiji-042-zheng",
           "paragraph_id": "c-shiji-042-zheng:p008",
-          "quote": "莊公又娶宋雍氏女，生厲公突。雍氏有寵於宋。宋莊公聞祭仲之立忽，乃使人誘召祭仲而執之，曰：「不立突，將死。」亦執突以求賂焉。祭仲許宋，與宋盟。以突歸，立之。昭公忽聞祭仲以宋要立其弟突，九月（辛）［丁］亥，忽出奔衞。己亥，突至鄭，立，是爲厲公。"
+          "quote_passage_ref": "data/corpus/shiji/042.json"
         }
       ],
       "qualifiers": {
@@ -635,7 +609,7 @@
           "chapter_id": "c-shiji-042-zheng",
           "source_id": "s-shiji-042-zheng",
           "paragraph_id": "c-shiji-042-zheng:p006",
-          "quote": "三十八年，北戎伐齊，齊使求救，鄭遣太子忽將兵救齊。齊釐公欲妻之，忽謝曰：「我小國，非齊敵也。」時祭仲與倶，勸使取之，曰：「君多内寵，太子無大援將不立，三公子皆君也。」所謂三公子者，太子忽，其弟突，次弟子亹也。"
+          "quote_passage_ref": "data/corpus/shiji/042.json"
         }
       ],
       "qualifiers": {
@@ -656,7 +630,7 @@
           "chapter_id": "c-shiji-042-zheng",
           "source_id": "s-shiji-042-zheng",
           "paragraph_id": "c-shiji-042-zheng:p017",
-          "quote": "秋，厲公卒，子文公踕立。厲公初立四歳，亡居櫟，居櫟十七歳，復入，立七歳，與亡凡二十八年。"
+          "quote_passage_ref": "data/corpus/shiji/042.json"
         }
       ],
       "qualifiers": {
@@ -680,8 +654,8 @@
           "chapter_id": "c-shiji-042-zheng",
           "source_id": "s-shiji-042-zheng",
           "paragraph_id": "c-shiji-042-zheng:p017",
-          "quote": "秋，厲公卒，子文公踕立。厲公初立四歳，亡居櫟，居櫟十七歳，復入，立七歳，與亡凡二十八年。",
-          "person_mention_id": "c-shiji-042-zheng:m017-0002"
+          "person_mention_id": "c-shiji-042-zheng:m017-0002",
+          "quote_passage_ref": "data/corpus/shiji/042.json"
         }
       ],
       "source_term": "厲公卒",

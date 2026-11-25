@@ -21,7 +21,6 @@
       "raw_count": 2,
       "duplicate_count": 0,
       "counting_policy": "independent_fixed_witness_occurrences",
-      "quote": "文帝踐阼而道路得疾故計遠近為稽留及羣臣歡㑹帝正色責之曰昔禹㑹諸侯於塗山防風後至便行大戮今溥天同慶而卿最留遲何也淮對曰臣聞五帝先教導民以徳夏后政衰始用刑辟今臣遭唐虞之世是以自知免於防風之誅也帝悅之擢領雍州刺史封射陽亭侯五年為真安定羌大帥辟蹏反討破降之每羌胡來降淮輒先使人推問其",
       "paragraph_ids": [
         "c-sanguozhi-026-guohuai:unit004"
       ],
@@ -54,7 +53,12 @@
       "book_id": "b-sanguozhi-026",
       "chapter_id": "c-sanguozhi-026-guohuai",
       "source_id": "s-sanguozhi-026-guohuai",
-      "work_title": "三國志"
+      "work_title": "三國志",
+      "chapter_ref": "data/corpus/sanguozhi/026-guohuai.json",
+      "quote_span": [
+        7,
+        144
+      ]
     },
     {
       "number": 35,
@@ -65,7 +69,6 @@
       "raw_count": 2,
       "duplicate_count": 0,
       "counting_policy": "independent_fixed_witness_occurrences",
-      "quote": "疾。孤恭行乾憲，拯茲黎元，羈舊咸歡，慶謝交路。二君齊惡傲威，誠信岨絕，防風之戮，將誰歸乎？」憲神色侃然，泣而對曰：「臣等世荷晉榮，恩遇隆重。王浚凶粗醜正，尚晉之遺籓。雖欣聖化，義岨誠心。且武王伐紂，表商容之閭，未聞商容在倒戈之例也。明公既不欲以道化厲物，必于刑忍為治者，防風",
       "paragraph_ids": [
         "c-jinshu-035-peikai-family:p013"
       ],
@@ -98,7 +101,12 @@
       "book_id": "b-jinshu-035",
       "chapter_id": "c-jinshu-035-peikai-family",
       "source_id": "s-jinshu-035-peikai-ws2506399",
-      "work_title": "晉書"
+      "work_title": "晉書",
+      "chapter_ref": "data/corpus/jinshu/035-pei-family.json",
+      "quote_span": [
+        107,
+        244
+      ]
     },
     {
       "number": 47,
@@ -109,7 +117,6 @@
       "raw_count": 2,
       "duplicate_count": 0,
       "counting_policy": "independent_fixed_witness_occurrences",
-      "quote": "得骨節專車。吳使使問仲尼：「骨何者最大？」仲尼曰：「禹致羣神於會稽山，防風氏後至，禹殺而戮之，其節專車，此為大矣。」吳客曰：「誰為神？」仲尼曰：「山川之神足以綱紀天下，其守為神，社稷為公侯，皆屬於王者。」客曰：「防風何守？」仲尼曰：「汪罔氏之君守封、禺之山，為釐姓。在虞、夏、",
       "paragraph_ids": [
         "c-shiji-047-kong:p012"
       ],
@@ -142,7 +149,12 @@
       "book_id": "b-shiji-047",
       "chapter_id": "c-shiji-047-kong",
       "source_id": "s-shiji-047-kong",
-      "work_title": "史記"
+      "work_title": "史記",
+      "chapter_ref": "data/corpus/shiji/047.json",
+      "quote_span": [
+        8,
+        146
+      ]
     }
   ],
   "table_occurrences": [],
@@ -152,82 +164,21 @@
       "work_id": "w-jinshu",
       "book_id": "b-jinshu-035",
       "source_id": "s-jinshu-035-peikai-ws2506399",
-      "source": {
-        "title": "《晉書》卷三十五裴楷及附傳（固定數位選錄）",
-        "provider": "Wikisource",
-        "url": "https://zh.wikisource.org/w/index.php?title=%E6%99%89%E6%9B%B8%2F%E5%8D%B7035&oldid=2506399",
-        "permalink": "https://zh.wikisource.org/w/index.php?title=%E6%99%89%E6%9B%B8%2F%E5%8D%B7035&oldid=2506399",
-        "revision_id": 2506399,
-        "accessed_on": "2026-10-21",
-        "extent": "完整裴楷及輿、瓚、憲、康盾邵、綽遐與八裴八王19段；不是完整卷035，不含陳騫裴秀頠及史評。",
-        "text_scope": "partial_chapter",
-        "review_status": "text_checked",
-        "image_verified": false,
-        "rights": "古代原文及維基文庫數位轉錄，保留見證歸屬；數位文字依CC BY-SA 4.0。",
-        "license_url": "https://creativecommons.org/licenses/by-sa/4.0/",
-        "edition": null,
-        "wikitext_sha256": "b27aa9fc386b5f40990822d615febffcb8b8cd6df3fe6f74585274ff733c12be",
-        "response_sha256": "e7fc20a0864866bfb68f1f92b542b6f542edebed2052fcf550244ed46206fa35",
-        "raw_file": "sources/witnesses/jin035-ws2506399.wikitext",
-        "normalization": {
-          "character_conversion": {},
-          "extraction_note": "展開連結顯示字、去粗體排版；標題另層。㲄、俊郎、雲及缺閉引號原樣保留。"
-        }
-      }
+      "chapter_ref": "data/corpus/jinshu/035-pei-family.json"
     },
     {
       "chapter_id": "c-sanguozhi-026-guohuai",
       "work_id": "w-sanguozhi",
       "book_id": "b-sanguozhi-026",
       "source_id": "s-sanguozhi-026-guohuai",
-      "source": {
-        "title": "三國志／魏書卷二十六／郭淮傳",
-        "provider": "Kanripo WYG",
-        "url": "https://github.com/kanripo/KR2a0012/blob/214fcafa79894355909c9d8c2c1533089e7791c6/KR2a0012_026.txt",
-        "permalink": "https://github.com/kanripo/KR2a0012/blob/214fcafa79894355909c9d8c2c1533089e7791c6/KR2a0012_026.txt",
-        "revision_id": "214fcafa79894355909c9d8c2c1533089e7791c6",
-        "source_commit": "214fcafa79894355909c9d8c2c1533089e7791c6",
-        "source_blob": "99d0bad47453cda17150ad08d87eefe461707ba9",
-        "raw_file_sha256": "6764b2f841c384aec769c7ceea35deddf8bd05c56d1743b9fc77e10884530590",
-        "raw_path": "sources/sanguozhi/KR2a0012_026-214fcaf.txt",
-        "accessed_on": "2026-10-22",
-        "edition": "文淵閣四庫全書數位轉錄；未圖校",
-        "extent": "302–380郭淮完整傳及三注；381–385四傳合評；395–400郭淮相關清考證。滿寵、田豫、牽招完整本傳未匯，不稱全卷完成。",
-        "text_scope": "partial_chapter",
-        "review_status": "text_checked",
-        "image_verified": false,
-        "license_url": "https://creativecommons.org/publicdomain/mark/1.0/",
-        "rights": "古籍原文；Kanripo固定數位見證",
-        "normalization": {
-          "character_conversion": {},
-          "extraction_note": "保全部郭淮傳與三注及合評/郭淮考證；只去版面符號、縮排與注括號。緼/縕/蘊、泰業等收到原字不正字，逐行片段完整投影。",
-          "excerpts": []
-        }
-      }
+      "chapter_ref": "data/corpus/sanguozhi/026-guohuai.json"
     },
     {
       "chapter_id": "c-shiji-047-kong",
       "work_id": "w-shiji",
       "book_id": "b-shiji-047",
       "source_id": "s-shiji-047-kong",
-      "source": {
-        "title": "史記／卷047",
-        "provider": "維基文庫",
-        "url": "https://zh.wikisource.org/wiki/史記/卷047",
-        "permalink": "https://zh.wikisource.org/w/index.php?title=史記/卷047&oldid=7903609",
-        "revision_id": 7903609,
-        "accessed_on": "2026-10-09",
-        "extent": "85段正文及1段索隱述贊，後者分層；排除2個dd導覽與現代分節標題，只去除段落外緣空白。",
-        "image_verified": false,
-        "rights": "古代原文；數位轉錄依維基文庫CC BY-SA 4.0，保留署名及固定版本。",
-        "license_url": "https://creativecommons.org/licenses/by-sa/4.0/",
-        "normalization": {
-          "character_conversion": {},
-          "editorial_readings": [],
-          "extraction_note": "取得時HTML與固定修訂一致；現代分節標題不作古代正文，原字與來源標點保留。",
-          "note": "已核讀全86段數位文字並作首輪明示人名標註；未核可靠底本、影像或現代研究。"
-        }
-      }
+      "chapter_ref": "data/corpus/shiji/047.json"
     }
   ],
   "relations": [],
@@ -254,8 +205,8 @@
           "chapter_id": "c-shiji-047-kong",
           "source_id": "s-shiji-047-kong",
           "paragraph_id": "c-shiji-047-kong:p012",
-          "quote": "吳伐越，墮會稽，得骨節專車。吳使使問仲尼：「骨何者最大？」仲尼曰：「禹致羣神於會稽山，防風氏後至，禹殺而戮之，其節專車，此為大矣。」吳客曰：「誰為神？」仲尼曰：「山川之神足以綱紀天下，其守為神，社稷為公侯，皆屬於王者。」客曰：「防風何守？」仲尼曰：「汪罔氏之君守封、禺之山，為釐姓。在虞、夏、商為汪罔，於周為長翟，今謂之大人。」客曰：「人長幾何？」仲尼曰：「僬僥氏三尺，短之至也。長者不過十之，數之極也。」於是吳客曰：「善哉聖人！」",
-          "person_mention_id": "c-shiji-047-kong:m012-0043"
+          "person_mention_id": "c-shiji-047-kong:m012-0043",
+          "quote_passage_ref": "data/corpus/shiji/047.json"
         }
       ],
       "source_term": "防風氏後至，禹殺而戮之",

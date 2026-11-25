@@ -20,7 +20,6 @@
       "raw_count": 2,
       "duplicate_count": 0,
       "counting_policy": "independent_fixed_witness_occurrences",
-      "quote": "氏之先，與秦共祖。至中衍，爲帝大戊御。其後世蜚廉有子二人，而命其一子曰惡來，事紂，爲周所殺，其後爲秦。",
       "paragraph_ids": [
         "c-shiji-043-zhao:p001",
         "c-shiji-043-zhao:p002"
@@ -54,7 +53,12 @@
       "book_id": "b-shiji-043",
       "chapter_id": "c-shiji-043-zhao",
       "source_id": "s-shiji-043-zhao",
-      "work_title": "史記"
+      "work_title": "史記",
+      "chapter_ref": "data/corpus/shiji/043.json",
+      "quote_span": [
+        1,
+        52
+      ]
     }
   ],
   "table_occurrences": [],
@@ -64,24 +68,7 @@
       "work_id": "w-shiji",
       "book_id": "b-shiji-043",
       "source_id": "s-shiji-043-zhao",
-      "source": {
-        "title": "史記／卷043",
-        "provider": "維基文庫",
-        "url": "https://zh.wikisource.org/wiki/史記/卷043",
-        "permalink": "https://zh.wikisource.org/w/index.php?title=史記/卷043&oldid=7903603",
-        "revision_id": 7903603,
-        "accessed_on": "2026-10-09",
-        "extent": "121段正文及1段分層索隱述贊；排除2個dd導覽，只去除段落外緣空白。",
-        "image_verified": false,
-        "rights": "古代原文；數位轉錄依維基文庫CC BY-SA 4.0，保留署名及固定版本。",
-        "license_url": "https://creativecommons.org/licenses/by-sa/4.0/",
-        "normalization": {
-          "character_conversion": {},
-          "editorial_readings": [],
-          "extraction_note": "固定修訂與取得時HTML一致；保留古代異體及五世而（生）［至］趙夙等校勘符號。造父以下六世與叔帶以下五世不補闕代。",
-          "note": "已讀全121段數位正文及1段附載索隱述贊，後者另層保存；未核古籍影像、可靠底本或現代研究，首輪不是完成覆核。"
-        }
-      }
+      "chapter_ref": "data/corpus/shiji/043.json"
     }
   ],
   "relations": [
@@ -96,7 +83,7 @@
           "chapter_id": "c-shiji-043-zhao",
           "source_id": "s-shiji-043-zhao",
           "paragraph_id": "c-shiji-043-zhao:p001",
-          "quote": "趙氏之先，與秦共祖。至中衍，爲帝大戊御。其後世蜚廉有子二人，而命其一子曰惡來，事紂，爲周所殺，其後爲秦。"
+          "quote_passage_ref": "data/corpus/shiji/043.json"
         }
       ],
       "qualifiers": {
@@ -117,7 +104,7 @@
           "chapter_id": "c-shiji-043-zhao",
           "source_id": "s-shiji-043-zhao",
           "paragraph_id": "c-shiji-043-zhao:p002",
-          "quote": "惡來弟曰季勝，其後爲趙。季勝生孟增。"
+          "quote_passage_ref": "data/corpus/shiji/043.json"
         }
       ],
       "qualifiers": {
@@ -150,7 +137,7 @@
           "chapter_id": "c-shiji-043-zhao",
           "source_id": "s-shiji-043-zhao",
           "paragraph_id": "c-shiji-043-zhao:p001",
-          "quote": "趙氏之先，與秦共祖。至中衍，爲帝大戊御。其後世蜚廉有子二人，而命其一子曰惡來，事紂，爲周所殺，其後爲秦。"
+          "quote_passage_ref": "data/corpus/shiji/043.json"
         }
       ],
       "qualifiers": {
@@ -171,7 +158,7 @@
           "chapter_id": "c-shiji-043-zhao",
           "source_id": "s-shiji-043-zhao",
           "paragraph_id": "c-shiji-043-zhao:p002",
-          "quote": "惡來弟曰季勝，其後爲趙。季勝生孟增。"
+          "quote_passage_ref": "data/corpus/shiji/043.json"
         }
       ],
       "qualifiers": {
@@ -195,8 +182,8 @@
           "chapter_id": "c-shiji-043-zhao",
           "source_id": "s-shiji-043-zhao",
           "paragraph_id": "c-shiji-043-zhao:p001",
-          "quote": "趙氏之先，與秦共祖。至中衍，爲帝大戊御。其後世蜚廉有子二人，而命其一子曰惡來，事紂，爲周所殺，其後爲秦。",
-          "person_mention_id": "c-shiji-043-zhao:m001-0036"
+          "person_mention_id": "c-shiji-043-zhao:m001-0036",
+          "quote_passage_ref": "data/corpus/shiji/043.json"
         }
       ],
       "source_term": "爲周所殺",

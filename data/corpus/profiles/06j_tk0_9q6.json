@@ -23,7 +23,7 @@
           "chapter_id": "c-shiji-066-wu",
           "source_id": "s-shiji-066-wu",
           "paragraph_id": "c-shiji-066-wu:p016",
-          "quote": "後五年，伐越。越王句踐迎擊，敗吳於姑蘇，傷闔廬指，軍卻。闔廬病創將死，謂太子夫差曰：「爾忘句踐殺爾父乎？」夫差對曰：「不敢忘。」是夕，闔廬死。夫差既立為王，以伯嚭為太宰，習戰射。二年後伐越，敗越於夫湫。越王句踐乃以餘兵五千人棲於會稽之上，使大夫種厚幣遺吳太宰嚭以請和，求委國為臣妾。吳王將許之。伍子胥諫曰：「越王為人能辛苦。今王不滅，後必悔之。」吳王不聽，用太宰嚭計，與越平。"
+          "quote_passage_ref": "data/corpus/shiji/066.json"
         }
       ],
       "attestations": [
@@ -65,7 +65,6 @@
       "raw_count": 8,
       "duplicate_count": 0,
       "counting_policy": "independent_fixed_witness_occurrences",
-      "quote": "後五年，伐越。越王句踐迎擊，敗吳於姑蘇，傷闔廬指，軍卻。闔廬病創將死，謂太子夫差曰：「爾忘句踐殺爾父乎？」夫差對曰：「不敢忘。」是夕，闔廬死。夫差既立為王，以伯嚭為太宰，習戰射。二年後伐越，敗越於夫湫。越王句踐乃以餘兵五千",
       "paragraph_ids": [
         "c-shiji-066-wu:p016",
         "c-shiji-066-wu:p017",
@@ -155,7 +154,12 @@
       "book_id": "b-shiji-066",
       "chapter_id": "c-shiji-066-wu",
       "source_id": "s-shiji-066-wu",
-      "work_title": "史記"
+      "work_title": "史記",
+      "chapter_ref": "data/corpus/shiji/066.json",
+      "quote_span": [
+        0,
+        111
+      ]
     }
   ],
   "table_occurrences": [],
@@ -165,24 +169,7 @@
       "work_id": "w-shiji",
       "book_id": "b-shiji-066",
       "source_id": "s-shiji-066-wu",
-      "source": {
-        "title": "史記／卷066",
-        "provider": "維基文庫",
-        "url": "https://zh.wikisource.org/wiki/史記/卷066",
-        "permalink": "https://zh.wikisource.org/w/index.php?title=史記/卷066&oldid=2621138",
-        "revision_id": 2621138,
-        "accessed_on": "2026-10-09",
-        "extent": "24段正文，排除註釋版及2段導覽，無索隱述贊。",
-        "image_verified": false,
-        "rights": "古代原文；數位轉錄依維基文庫CC BY-SA 4.0，保留署名及固定版本。",
-        "license_url": "https://creativecommons.org/licenses/by-sa/4.0/",
-        "normalization": {
-          "character_conversion": {},
-          "editorial_readings": [],
-          "extraction_note": "取得時HTML與固定修訂一致，只去外緣空白。保留堂谿、（之）、忍訽、屬鏤、鴟夷等原字與括號文字，未核定校勘。",
-          "note": "全24段已核讀並作人物首輪；未核可靠底本、影像或現代研究。"
-        }
-      }
+      "chapter_ref": "data/corpus/shiji/066.json"
     }
   ],
   "relations": [],

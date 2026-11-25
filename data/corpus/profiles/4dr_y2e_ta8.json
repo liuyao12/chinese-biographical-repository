@@ -20,7 +20,6 @@
       "raw_count": 2,
       "duplicate_count": 0,
       "counting_policy": "independent_fixed_witness_occurrences",
-      "quote": "文侯受子夏經藝，客段干木，過其閭，未嘗不軾也。秦嘗欲伐魏，或曰：『魏君賢人是禮，國人稱仁，上下和合，未可圖也。』文侯由此得譽於諸侯。",
       "paragraph_ids": [
         "c-shiji-044-wei:p017",
         "c-shiji-044-wei:p019"
@@ -54,7 +53,12 @@
       "book_id": "b-shiji-044",
       "chapter_id": "c-shiji-044-wei",
       "source_id": "s-shiji-044-wei",
-      "work_title": "史記"
+      "work_title": "史記",
+      "chapter_ref": "data/corpus/shiji/044.json",
+      "quote_span": [
+        0,
+        66
+      ]
     },
     {
       "number": 121,
@@ -65,7 +69,6 @@
       "raw_count": 1,
       "duplicate_count": 0,
       "counting_policy": "independent_fixed_witness_occurrences",
-      "quote": "故子路居衛，子張居陳，澹臺子羽居楚，子夏居西河，子貢終於齊。如田子方、段干木、吳起、禽滑釐之屬，皆受業於子夏之倫，為王者師。是時獨魏文侯好學。后陵遲以至于始皇，天下并爭於戰國，懦術既絀焉，然齊魯之閒，學者獨不廢也。於威、宣之際，孟子、荀卿之列，咸遵夫子之業而潤色之，以學顯於當",
       "paragraph_ids": [
         "c-shiji-121-rulin:p002"
       ],
@@ -89,7 +92,12 @@
       "book_id": "b-shiji-121",
       "chapter_id": "c-shiji-121-rulin",
       "source_id": "s-shiji121-rulin",
-      "work_title": "史記"
+      "work_title": "史記",
+      "chapter_ref": "data/corpus/shiji/121.json",
+      "quote_span": [
+        38,
+        176
+      ]
     }
   ],
   "table_occurrences": [
@@ -97,7 +105,6 @@
       "table_id": "shiji-015",
       "cell_id": "shiji-015-r070-c03",
       "title": "《史記·六國年表》",
-      "quote": "十八。文侯受經子夏。過段干木之閭常式。",
       "year": {
         "era": "BCE",
         "value": 407,
@@ -120,7 +127,8 @@
       "book_id": "b-shiji-015",
       "chapter_id": "table-chapter-shiji-015",
       "source_id": "table-witness-shiji-015",
-      "source_revision": "2607002"
+      "source_revision": "2607002",
+      "quote_ref": "cell"
     }
   ],
   "sources": [
@@ -129,71 +137,21 @@
       "work_id": "w-shiji",
       "book_id": "b-shiji-044",
       "source_id": "s-shiji-044-wei",
-      "source": {
-        "title": "史記／卷044",
-        "provider": "維基文庫",
-        "url": "https://zh.wikisource.org/wiki/史記/卷044",
-        "permalink": "https://zh.wikisource.org/w/index.php?title=史記/卷044&oldid=7903606",
-        "revision_id": 7903606,
-        "accessed_on": "2026-10-09",
-        "extent": "70段正文；排除現代章節標題、斠勘空段與版權告示，只去除段落外緣空白。",
-        "image_verified": false,
-        "rights": "古代原文；數位轉錄依維基文庫CC BY-SA 4.0，保留署名及固定版本。",
-        "license_url": "https://creativecommons.org/licenses/by-sa/4.0/",
-        "normalization": {
-          "character_conversion": {},
-          "editorial_readings": [],
-          "extraction_note": "取得時HTML與固定修訂一致；現代分節標題不當古代正文，不收末尾現代版權告示。保留髙、僇、无等原字與引號。",
-          "note": "已讀全70段數位正文；未核古籍影像、可靠底本或現代研究，首輪不等於完成覆核。第62段[1]至[3]為數位註號，原樣保存但不是古代正文或史料陳述，未擷取現代註釋內容。"
-        }
-      }
+      "chapter_ref": "data/corpus/shiji/044.json"
     },
     {
       "chapter_id": "c-shiji-121-rulin",
       "work_id": "w-shiji",
       "book_id": "b-shiji-121",
       "source_id": "s-shiji121-rulin",
-      "source": {
-        "title": "史記／卷121",
-        "provider": "維基文庫",
-        "url": "https://zh.wikisource.org/wiki/史記/卷121",
-        "permalink": "https://zh.wikisource.org/w/index.php?title=史記/卷121&oldid=8735621",
-        "revision_id": 8735621,
-        "accessed_on": "2026-10-11",
-        "extent": "固定修訂全文25段，包括末段索隱述贊。",
-        "image_verified": false,
-        "rights": "古代原文；數位轉錄依維基文庫CC BY-SA 4.0，保留署名及固定版本。",
-        "license_url": "https://creativecommons.org/licenses/by-sa/4.0/",
-        "normalization": {
-          "character_conversion": {},
-          "editorial_readings": [],
-          "extraction_note": "去header2、現代節標與wikipedia模板，保留繆西王等原字；未核影像。",
-          "note": "末段索隱述贊分層，太史公論贊屬篇文。"
-        }
-      }
+      "chapter_ref": "data/corpus/shiji/121.json"
     },
     {
       "chapter_id": "table-chapter-shiji-015",
       "work_id": "w-shiji",
       "book_id": "b-shiji-015",
       "source_id": "table-witness-shiji-015",
-      "source": {
-        "id": "table-witness-shiji-015",
-        "work_id": "w-shiji",
-        "book_id": "b-shiji-015",
-        "chapter_id": "table-chapter-shiji-015",
-        "url": "https://zh.wikisource.org/wiki/史記/卷015",
-        "revision_url": "https://zh.wikisource.org/w/index.php?title=史記/卷015&oldid=2607002",
-        "revision": "2607002",
-        "accessed": "2026-10-12",
-        "response_sha256": "eb0624a019e02c24ce90a40bfa24863f4020878062c6e2efea32355033be5559",
-        "edition": null,
-        "image_verified": false,
-        "rights": "古籍正文公有領域；維基文庫轉錄及編輯內容依 CC BY-SA 條款，署名維基文庫貢獻者。",
-        "rights_url": "https://zh.wikisource.org/wiki/Wikisource:版權信息",
-        "review_status": "agent_first_pass_named_entities",
-        "note": "完整數位表格結構匯入，未逐格學術覆核。未核讀印本影像，原印本頁碼未知。西元欄沿用此數位轉錄的編者對照，不是古籍原有西元紀年，也不引用其維基百科外連。"
-      }
+      "table_source_ref": "shiji-015"
     }
   ],
   "relations": [],

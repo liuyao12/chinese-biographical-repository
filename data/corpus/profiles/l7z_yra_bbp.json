@@ -21,7 +21,7 @@
           "chapter_id": "c-shiji-066-wu",
           "source_id": "s-shiji-066-wu",
           "paragraph_id": "c-shiji-066-wu:p023",
-          "quote": "其後四歲，白公勝與石乞襲殺楚令尹子西、司馬子綦於朝。石乞曰：「不殺王，不可。」乃劫（之）王如高府。石乞從者屈固負楚惠王亡走昭夫人之宮。葉公聞白公為亂，率其國人攻白公。白公之徒敗，亡走山中，自殺。而虜石乞，而問白公尸處，不言將亨。石乞曰：「事成為卿，不成而亨，固其職也。」終不肯告其尸處。遂亨石乞，而求惠王復立之。"
+          "quote_passage_ref": "data/corpus/shiji/066.json"
         }
       ],
       "attestations": [
@@ -63,7 +63,6 @@
       "raw_count": 1,
       "duplicate_count": 0,
       "counting_policy": "independent_fixed_witness_occurrences",
-      "quote": "石乞曰：「不殺王，不可。」乃劫（之）王如高府。石乞從者屈固負楚惠王亡走昭夫人之宮。葉公聞白公為亂，率其國人攻白公。白公之徒敗，亡走山中，自殺。而虜石乞，而問白公尸處，不言將亨。石乞曰：「事成為卿，不成而亨，固其職也。」終不肯告其尸處。遂亨石乞，而求惠王復立之。",
       "paragraph_ids": [
         "c-shiji-066-wu:p023"
       ],
@@ -87,7 +86,12 @@
       "book_id": "b-shiji-066",
       "chapter_id": "c-shiji-066-wu",
       "source_id": "s-shiji-066-wu",
-      "work_title": "史記"
+      "work_title": "史記",
+      "chapter_ref": "data/corpus/shiji/066.json",
+      "quote_span": [
+        26,
+        156
+      ]
     }
   ],
   "table_occurrences": [],
@@ -97,24 +101,7 @@
       "work_id": "w-shiji",
       "book_id": "b-shiji-066",
       "source_id": "s-shiji-066-wu",
-      "source": {
-        "title": "史記／卷066",
-        "provider": "維基文庫",
-        "url": "https://zh.wikisource.org/wiki/史記/卷066",
-        "permalink": "https://zh.wikisource.org/w/index.php?title=史記/卷066&oldid=2621138",
-        "revision_id": 2621138,
-        "accessed_on": "2026-10-09",
-        "extent": "24段正文，排除註釋版及2段導覽，無索隱述贊。",
-        "image_verified": false,
-        "rights": "古代原文；數位轉錄依維基文庫CC BY-SA 4.0，保留署名及固定版本。",
-        "license_url": "https://creativecommons.org/licenses/by-sa/4.0/",
-        "normalization": {
-          "character_conversion": {},
-          "editorial_readings": [],
-          "extraction_note": "取得時HTML與固定修訂一致，只去外緣空白。保留堂谿、（之）、忍訽、屬鏤、鴟夷等原字與括號文字，未核定校勘。",
-          "note": "全24段已核讀並作人物首輪；未核可靠底本、影像或現代研究。"
-        }
-      }
+      "chapter_ref": "data/corpus/shiji/066.json"
     }
   ],
   "relations": [],

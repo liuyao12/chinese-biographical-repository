@@ -23,8 +23,8 @@
           "source_id": "s-sanguozhi-028-wangling",
           "chapter_id": "c-sanguozhi-028-wangling",
           "paragraph_id": "c-sanguozhi-028-wangling:appraisal-note",
-          "quote": "史記曰越王無彊與中國爭彊當楚威王時越北伐齊齊威王使人說越云越王不納齊使者曰幸也越之不亡也吾不貴其用智之如目目見毫毛而不自見其睫也今王知晉之失而不自知越之失是目論也",
-          "person_mention_id": "c-sanguozhi-028-wangling:appraisal-note:m0013"
+          "person_mention_id": "c-sanguozhi-028-wangling:appraisal-note:m0013",
+          "quote_passage_ref": "data/corpus/sanguozhi/028-wangling.json"
         }
       ],
       "attestations": [
@@ -69,7 +69,6 @@
       "raw_count": 1,
       "duplicate_count": 0,
       "counting_policy": "independent_fixed_witness_occurrences",
-      "quote": "史記曰越王無彊與中國爭彊當楚威王時越北伐齊齊威王使人說越云越王不納齊使者曰幸也越之不亡也吾不貴其用智之如目目見毫毛而不自見其睫也今王知晉之失而不自知越之失是目論也",
       "paragraph_ids": [
         "c-sanguozhi-028-wangling:appraisal-note"
       ],
@@ -93,7 +92,12 @@
       "book_id": "b-sanguozhi-028",
       "chapter_id": "c-sanguozhi-028-wangling",
       "source_id": "s-sanguozhi-028-wangling",
-      "work_title": "三國志"
+      "work_title": "三國志",
+      "chapter_ref": "data/corpus/sanguozhi/028-wangling.json",
+      "quote_span": [
+        0,
+        81
+      ]
     },
     {
       "number": 41,
@@ -104,7 +108,6 @@
       "raw_count": 2,
       "duplicate_count": 0,
       "counting_policy": "independent_fixed_witness_occurrences",
-      "quote": "王無彊時，越興師北伐齊，西伐楚，與中國爭彊。當楚威王之時，越北伐齊，齊威王使人説越王曰：「越不伐楚，大不王，小不伯。圖越之所爲不伐楚者，爲不得晉也。韓、魏固不攻楚。韓之攻楚，覆其軍，殺其將，則葉、陽翟危；魏亦覆其軍，殺其將，則陳、上蔡不安。故二晉之事越",
       "paragraph_ids": [
         "c-shiji-041-yue:p016",
         "c-shiji-041-yue:p017"
@@ -138,7 +141,12 @@
       "book_id": "b-shiji-041",
       "chapter_id": "c-shiji-041-yue",
       "source_id": "s-shiji-041-yue",
-      "work_title": "史記"
+      "work_title": "史記",
+      "chapter_ref": "data/corpus/shiji/041.json",
+      "quote_span": [
+        0,
+        126
+      ]
     }
   ],
   "table_occurrences": [],
@@ -148,56 +156,14 @@
       "work_id": "w-sanguozhi",
       "book_id": "b-sanguozhi-028",
       "source_id": "s-sanguozhi-028-wangling",
-      "source": {
-        "title": "三國志／魏書卷二十八／王凌完整傳",
-        "provider": "Kanripo WYG",
-        "url": "https://github.com/kanripo/KR2a0012/blob/214fcafa79894355909c9d8c2c1533089e7791c6/KR2a0012_028.txt",
-        "permalink": "https://github.com/kanripo/KR2a0012/blob/214fcafa79894355909c9d8c2c1533089e7791c6/KR2a0012_028.txt",
-        "revision_id": "214fcafa79894355909c9d8c2c1533089e7791c6",
-        "source_commit": "214fcafa79894355909c9d8c2c1533089e7791c6",
-        "source_blob": "d1d192e3e36be8919fa86563bd8e1fd82a3f4638",
-        "raw_file_sha256": "0d69bbb981b5dd31bbeee865d503179979226e2d2ce7c42aeac0fe0fc6e868f7",
-        "raw_path": "sources/sanguozhi/KR2a0012_028-214fcaf.txt",
-        "accessed_on": "2026-10-19",
-        "edition": "文淵閣四庫全書數位轉錄；未圖校",
-        "extent": "raw22–104王凌正文及裴注完整；858–865共評及引注；870–874兩清考證，不稱全卷處理",
-        "text_scope": "partial_chapter",
-        "review_status": "text_checked",
-        "image_verified": false,
-        "license_url": "https://creativecommons.org/publicdomain/mark/1.0/",
-        "rights": "古籍原文；固定Kanripo數位見證",
-        "normalization": {
-          "character_conversion": {},
-          "extraction_note": "只去版面符號、縮排及注括號；原字與逐字raw位置保存。",
-          "excerpts": []
-        }
-      }
+      "chapter_ref": "data/corpus/sanguozhi/028-wangling.json"
     },
     {
       "chapter_id": "c-shiji-041-yue",
       "work_id": "w-shiji",
       "book_id": "b-shiji-041",
       "source_id": "s-shiji-041-yue",
-      "source": {
-        "title": "史記／卷041",
-        "provider": "維基文庫",
-        "url": "https://zh.wikisource.org/wiki/史記/卷041",
-        "permalink": "https://zh.wikisource.org/w/index.php?title=史記/卷041&oldid=2018395",
-        "revision_id": 2018395,
-        "accessed_on": "2026-10-09",
-        "extent": "28段正文及1段分層索隱述贊；排除2個dd導覽，去除段落外緣空白。",
-        "image_verified": false,
-        "rights": "古代原文；數位轉錄依維基文庫CC BY-SA 4.0，保留署名及固定版本。",
-        "license_url": "https://creativecommons.org/licenses/by-sa/4.0/",
-        "normalization": {
-          "character_conversion": {
-            "笔": "筆"
-          },
-          "editorial_readings": [],
-          "extraction_note": "固定修訂與取得時HTML一致，僅去除段落外緣空白；第17段笔轉筆，不自行校讀盡取筆呉地。保留句踐／勾踐、闔廬／闔閭及呉等古代異體。",
-          "note": "全29段數位正文已閱讀；未核古籍影像、可靠底本及現代研究。"
-        }
-      }
+      "chapter_ref": "data/corpus/shiji/041.json"
     }
   ],
   "relations": [],

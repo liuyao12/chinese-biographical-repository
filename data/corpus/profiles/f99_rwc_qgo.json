@@ -21,7 +21,6 @@
       "raw_count": 2,
       "duplicate_count": 0,
       "counting_policy": "independent_fixed_witness_occurrences",
-      "quote": "田文既死，公叔為相，尚魏公主，而害吳起。公叔之僕曰：「起易去也。」公叔曰：「柰何？」其僕曰：「吳起為人節廉而自喜名也。君因先與武侯言曰：『夫吳起賢人也，而侯之國小，又與彊秦壤界，臣竊恐起之無留心也。』武侯即曰：『柰何？』君因謂武侯曰：『試延以公主，",
       "paragraph_ids": [
         "c-shiji-065-sun:p012"
       ],
@@ -54,7 +53,12 @@
       "book_id": "b-shiji-065",
       "chapter_id": "c-shiji-065-sun",
       "source_id": "s-shiji-065-sun",
-      "work_title": "史記"
+      "work_title": "史記",
+      "chapter_ref": "data/corpus/shiji/065.json",
+      "quote_span": [
+        0,
+        124
+      ]
     }
   ],
   "table_occurrences": [],
@@ -64,24 +68,7 @@
       "work_id": "w-shiji",
       "book_id": "b-shiji-065",
       "source_id": "s-shiji-065-sun",
-      "source": {
-        "title": "史記／卷065",
-        "provider": "維基文庫",
-        "url": "https://zh.wikisource.org/wiki/史記/卷065",
-        "permalink": "https://zh.wikisource.org/w/index.php?title=史記/卷065&oldid=2567048",
-        "revision_id": 2567048,
-        "accessed_on": "2026-10-09",
-        "extent": "14段正文，排除註釋版及2段導覽，無索隱述贊。",
-        "image_verified": false,
-        "rights": "古代原文；數位轉錄依維基文庫CC BY-SA 4.0，保留署名及固定版本。",
-        "license_url": "https://creativecommons.org/licenses/by-sa/4.0/",
-        "normalization": {
-          "character_conversion": {},
-          "editorial_readings": [],
-          "extraction_note": "取得時HTML與固定修訂一致，只去外緣空白。已核（即封）是正文括號文字，原樣保留，不當新增授爵事件。保留控棬、搏撠、擣虛、鉆火、贏糧、戰鬬等原字。",
-          "note": "全14段已核讀，未核可靠底本、影像或現代研究。"
-        }
-      }
+      "chapter_ref": "data/corpus/shiji/065.json"
     }
   ],
   "relations": [],

@@ -22,7 +22,7 @@
           "chapter_id": "c-shiji-110-xiongnu",
           "source_id": "s-shiji110-xiongnu",
           "paragraph_id": "c-shiji-110-xiongnu:p047",
-          "quote": "漢使楊信於匈奴。是時漢東拔穢貉、朝鮮以爲郡，而西置酒泉郡以鬲絕胡與羌通之路。漢又西通月氏、大夏，又以公主妻烏孫王，以分匈奴西方之援國。又北益廣田至胘雷爲塞，而匈奴終不敢以爲言。是歳，翕侯信死，漢用事者以匈奴爲已弱，可臣從也。楊信爲人剛直屈彊，素非貴臣，單于不親。單于欲召入，不肯去節，單于乃坐穹廬外見楊信。楊信既見單于，說曰：「即欲和親，以單于太子爲質於漢。」單于曰：「非故約。故約，漢常遣翁主，給繒絮食物有品，以和親，而匈奴亦不擾邊。今乃欲反古，令吾太子爲質，無幾矣。」匈奴俗，見漢使非中貴人，其儒先，以爲欲說，折其辯；其少年，以爲欲刺，折其氣。每漢使入匈奴，匈奴輒報償。漢留匈奴使，匈奴亦留漢使，必得當乃肯止。"
+          "quote_passage_ref": "data/corpus/shiji/110.json"
         }
       ],
       "attestations": [
@@ -64,7 +64,7 @@
           "chapter_id": "c-shiji-123-dayuan",
           "source_id": "s-shiji123-dayuan",
           "paragraph_id": "c-shiji-123-dayuan:p017",
-          "quote": "是後天子數問騫大夏之屬。騫既失侯，因言曰：「臣居匈奴中，聞烏孫王號昆莫，昆莫之父，匈奴西邊小國也。匈奴攻殺其父，而昆莫生棄於野。烏嗛肉蜚其上，狼往乳之。單于怪以為神，而收長之。及壯，使將兵，數有功，單于復以其父之民予昆莫，令長守於西（城）［域］。昆莫收養其民，攻旁小邑，控弦數萬，習攻戰。單于死，昆莫乃率其眾遠徙，中立，不肯朝會匈奴。匈奴遣奇兵擊，不勝，以為神而遠之，因羈屬之，不大攻。今單于新困於漢，而故渾邪地空無人。蠻夷俗貪漢財物，今誠以此時而厚幣賂烏孫，招以益東，居故渾邪之地，與漢結昆弟，其勢宜聽，聽則是斷匈奴右臂也。既連烏孫，自其西大夏之屬皆可招來而為外臣。」天子以為然，拜騫為中郎將，將三百人，馬各二匹，牛羊以萬數，齎金幣帛直數千巨萬，多持節副使，道可使，使遺之他旁國。"
+          "quote_passage_ref": "data/corpus/shiji/123.json"
         }
       ],
       "attestations": [
@@ -107,7 +107,6 @@
       "raw_count": 1,
       "duplicate_count": 0,
       "counting_policy": "independent_fixed_witness_occurrences",
-      "quote": "以爲郡，而西置酒泉郡以鬲絕胡與羌通之路。漢又西通月氏、大夏，又以公主妻烏孫王，以分匈奴西方之援國。又北益廣田至胘雷爲塞，而匈奴終不敢以爲言。是歳，翕侯信死，漢用事者以匈奴爲已弱，可臣從也。楊信爲人剛直屈彊，素非貴臣，單于不親。單于欲召入，不肯去節，單于乃坐穹廬外見楊信。楊信既",
       "paragraph_ids": [
         "c-shiji-110-xiongnu:p047"
       ],
@@ -131,7 +130,12 @@
       "book_id": "b-shiji-110",
       "chapter_id": "c-shiji-110-xiongnu",
       "source_id": "s-shiji110-xiongnu",
-      "work_title": "史記"
+      "work_title": "史記",
+      "chapter_ref": "data/corpus/shiji/110.json",
+      "quote_span": [
+        18,
+        156
+      ]
     },
     {
       "number": 123,
@@ -142,7 +146,6 @@
       "raw_count": 20,
       "duplicate_count": 0,
       "counting_policy": "independent_fixed_witness_occurrences",
-      "quote": "是後天子數問騫大夏之屬。騫既失侯，因言曰：「臣居匈奴中，聞烏孫王號昆莫，昆莫之父，匈奴西邊小國也。匈奴攻殺其父，而昆莫生棄於野。烏嗛肉蜚其上，狼往乳之。單于怪以為神，而收長之。及壯，使將兵，數有功，單于復以其父之民予昆莫，令長守於西（城）［域］。昆莫收養其民，攻旁小邑，",
       "paragraph_ids": [
         "c-shiji-123-dayuan:p017",
         "c-shiji-123-dayuan:p018",
@@ -339,7 +342,12 @@
       "book_id": "b-shiji-123",
       "chapter_id": "c-shiji-123-dayuan",
       "source_id": "s-shiji123-dayuan",
-      "work_title": "史記"
+      "work_title": "史記",
+      "chapter_ref": "data/corpus/shiji/123.json",
+      "quote_span": [
+        0,
+        135
+      ]
     }
   ],
   "table_occurrences": [],
@@ -349,48 +357,14 @@
       "work_id": "w-shiji",
       "book_id": "b-shiji-110",
       "source_id": "s-shiji110-xiongnu",
-      "source": {
-        "title": "史記／卷110",
-        "provider": "維基文庫",
-        "url": "https://zh.wikisource.org/wiki/史記/卷110",
-        "permalink": "https://zh.wikisource.org/w/index.php?title=史記/卷110&oldid=8735645",
-        "revision_id": 8735645,
-        "accessed_on": "2026-10-11",
-        "extent": "固定數位見證去介面及現代節標題後61段，末段為太史公論。",
-        "image_verified": false,
-        "rights": "古代原文；數位轉錄依維基文庫CC BY-SA 4.0，保留署名及固定版本。",
-        "license_url": "https://creativecommons.org/licenses/by-sa/4.0/",
-        "normalization": {
-          "character_conversion": {},
-          "editorial_readings": [],
-          "extraction_note": "去 header2 介面及現代單于節標題、太史公曰節標題；移除單字語言轉換包裹與下劃線標籤，紀年 YL 模板保留顯示原詞。其餘原字、標點及段落次序保留，不從小標題補正文人名。",
-          "note": "未核底本影像。"
-        }
-      }
+      "chapter_ref": "data/corpus/shiji/110.json"
     },
     {
       "chapter_id": "c-shiji-123-dayuan",
       "work_id": "w-shiji",
       "book_id": "b-shiji-123",
       "source_id": "s-shiji123-dayuan",
-      "source": {
-        "title": "史記／卷123",
-        "provider": "維基文庫",
-        "url": "https://zh.wikisource.org/wiki/史記/卷123",
-        "permalink": "https://zh.wikisource.org/w/index.php?title=史記/卷123&oldid=8736799",
-        "revision_id": 8736799,
-        "accessed_on": "2026-10-11",
-        "extent": "固定修訂全文39段，包括末段索隱述贊。",
-        "image_verified": false,
-        "rights": "古代原文；數位轉錄依維基文庫CC BY-SA 4.0，保留署名及固定版本。",
-        "license_url": "https://creativecommons.org/licenses/by-sa/4.0/",
-        "normalization": {
-          "character_conversion": {},
-          "editorial_readings": [],
-          "extraction_note": "去header2、現代節標、blockquote排版及分類；維基連結保留顯示文字，原字未轉換，未核影像。",
-          "note": "末段索隱述贊另分層。"
-        }
-      }
+      "chapter_ref": "data/corpus/shiji/123.json"
     }
   ],
   "relations": [
@@ -405,7 +379,7 @@
           "chapter_id": "c-shiji-110-xiongnu",
           "source_id": "s-shiji110-xiongnu",
           "paragraph_id": "c-shiji-110-xiongnu:p047",
-          "quote": "漢使楊信於匈奴。是時漢東拔穢貉、朝鮮以爲郡，而西置酒泉郡以鬲絕胡與羌通之路。漢又西通月氏、大夏，又以公主妻烏孫王，以分匈奴西方之援國。又北益廣田至胘雷爲塞，而匈奴終不敢以爲言。是歳，翕侯信死，漢用事者以匈奴爲已弱，可臣從也。楊信爲人剛直屈彊，素非貴臣，單于不親。單于欲召入，不肯去節，單于乃坐穹廬外見楊信。楊信既見單于，說曰：「即欲和親，以單于太子爲質於漢。」單于曰：「非故約。故約，漢常遣翁主，給繒絮食物有品，以和親，而匈奴亦不擾邊。今乃欲反古，令吾太子爲質，無幾矣。」匈奴俗，見漢使非中貴人，其儒先，以爲欲說，折其辯；其少年，以爲欲刺，折其氣。每漢使入匈奴，匈奴輒報償。漢留匈奴使，匈奴亦留漢使，必得當乃肯止。"
+          "quote_passage_ref": "data/corpus/shiji/110.json"
         }
       ],
       "qualifiers": {
@@ -426,7 +400,7 @@
           "chapter_id": "c-shiji-123-dayuan",
           "source_id": "s-shiji123-dayuan",
           "paragraph_id": "c-shiji-123-dayuan:p017",
-          "quote": "是後天子數問騫大夏之屬。騫既失侯，因言曰：「臣居匈奴中，聞烏孫王號昆莫，昆莫之父，匈奴西邊小國也。匈奴攻殺其父，而昆莫生棄於野。烏嗛肉蜚其上，狼往乳之。單于怪以為神，而收長之。及壯，使將兵，數有功，單于復以其父之民予昆莫，令長守於西（城）［域］。昆莫收養其民，攻旁小邑，控弦數萬，習攻戰。單于死，昆莫乃率其眾遠徙，中立，不肯朝會匈奴。匈奴遣奇兵擊，不勝，以為神而遠之，因羈屬之，不大攻。今單于新困於漢，而故渾邪地空無人。蠻夷俗貪漢財物，今誠以此時而厚幣賂烏孫，招以益東，居故渾邪之地，與漢結昆弟，其勢宜聽，聽則是斷匈奴右臂也。既連烏孫，自其西大夏之屬皆可招來而為外臣。」天子以為然，拜騫為中郎將，將三百人，馬各二匹，牛羊以萬數，齎金幣帛直數千巨萬，多持節副使，道可使，使遺之他旁國。"
+          "quote_passage_ref": "data/corpus/shiji/123.json"
         }
       ],
       "qualifiers": {
@@ -446,7 +420,7 @@
           "chapter_id": "c-shiji-123-dayuan",
           "source_id": "s-shiji123-dayuan",
           "paragraph_id": "c-shiji-123-dayuan:p018",
-          "quote": "騫既至烏孫，烏孫王昆莫見漢使如單于禮，騫大慚，知蠻夷貪，乃曰：「天子致賜，王不拜則還賜。」昆莫起拜賜，其他如故。騫諭使指曰：「烏孫能東居渾邪地，則漢遣翁主為昆莫夫人。」烏孫國分，王老，而遠漢，未知其大小，素服屬匈奴日久矣，且又近之，其大臣皆畏胡，不欲移徙，王不能專制。騫不得其要領。昆莫有十餘子，其中子曰大祿，彊，善將眾，將眾別居萬餘騎。大祿兄為太子，太子有子曰岑娶，而太子蚤死。臨死謂其父昆莫曰：「必以岑娶為太子，無令他人代之。」昆莫哀而許之，卒以岑娶為太子。大祿怒其不得代太子也，乃收其諸昆弟，將其眾畔，謀攻岑娶及昆莫。昆莫老，常恐大祿殺岑娶，予岑娶萬餘騎別居，而昆莫有萬餘騎自備，國眾分為三，而其大總取羈屬昆莫，昆莫亦以此不敢專約於騫。"
+          "quote_passage_ref": "data/corpus/shiji/123.json"
         }
       ],
       "qualifiers": {
@@ -466,7 +440,7 @@
           "chapter_id": "c-shiji-123-dayuan",
           "source_id": "s-shiji123-dayuan",
           "paragraph_id": "c-shiji-123-dayuan:p018",
-          "quote": "騫既至烏孫，烏孫王昆莫見漢使如單于禮，騫大慚，知蠻夷貪，乃曰：「天子致賜，王不拜則還賜。」昆莫起拜賜，其他如故。騫諭使指曰：「烏孫能東居渾邪地，則漢遣翁主為昆莫夫人。」烏孫國分，王老，而遠漢，未知其大小，素服屬匈奴日久矣，且又近之，其大臣皆畏胡，不欲移徙，王不能專制。騫不得其要領。昆莫有十餘子，其中子曰大祿，彊，善將眾，將眾別居萬餘騎。大祿兄為太子，太子有子曰岑娶，而太子蚤死。臨死謂其父昆莫曰：「必以岑娶為太子，無令他人代之。」昆莫哀而許之，卒以岑娶為太子。大祿怒其不得代太子也，乃收其諸昆弟，將其眾畔，謀攻岑娶及昆莫。昆莫老，常恐大祿殺岑娶，予岑娶萬餘騎別居，而昆莫有萬餘騎自備，國眾分為三，而其大總取羈屬昆莫，昆莫亦以此不敢專約於騫。"
+          "quote_passage_ref": "data/corpus/shiji/123.json"
         }
       ],
       "qualifiers": {
@@ -486,7 +460,7 @@
           "chapter_id": "c-shiji-123-dayuan",
           "source_id": "s-shiji123-dayuan",
           "paragraph_id": "c-shiji-123-dayuan:p025",
-          "quote": "烏孫以千匹馬聘漢女，漢遣宗室女江都翁主往妻烏孫，烏孫王昆莫以為右夫人。匈奴亦遣女妻昆莫，昆莫以為左夫人。昆莫曰「我老」，乃令其孫岑娶妻翁主。烏孫多馬，其富人至有四五千匹馬。"
+          "quote_passage_ref": "data/corpus/shiji/123.json"
         }
       ],
       "qualifiers": {
@@ -506,7 +480,7 @@
           "chapter_id": "c-shiji-123-dayuan",
           "source_id": "s-shiji123-dayuan",
           "paragraph_id": "c-shiji-123-dayuan:p025",
-          "quote": "烏孫以千匹馬聘漢女，漢遣宗室女江都翁主往妻烏孫，烏孫王昆莫以為右夫人。匈奴亦遣女妻昆莫，昆莫以為左夫人。昆莫曰「我老」，乃令其孫岑娶妻翁主。烏孫多馬，其富人至有四五千匹馬。"
+          "quote_passage_ref": "data/corpus/shiji/123.json"
         }
       ],
       "qualifiers": {
@@ -526,7 +500,7 @@
           "chapter_id": "c-shiji-123-dayuan",
           "source_id": "s-shiji123-dayuan",
           "paragraph_id": "c-shiji-123-dayuan:p025",
-          "quote": "烏孫以千匹馬聘漢女，漢遣宗室女江都翁主往妻烏孫，烏孫王昆莫以為右夫人。匈奴亦遣女妻昆莫，昆莫以為左夫人。昆莫曰「我老」，乃令其孫岑娶妻翁主。烏孫多馬，其富人至有四五千匹馬。"
+          "quote_passage_ref": "data/corpus/shiji/123.json"
         }
       ],
       "qualifiers": {
@@ -562,7 +536,7 @@
           "chapter_id": "c-shiji-110-xiongnu",
           "source_id": "s-shiji110-xiongnu",
           "paragraph_id": "c-shiji-110-xiongnu:p047",
-          "quote": "漢使楊信於匈奴。是時漢東拔穢貉、朝鮮以爲郡，而西置酒泉郡以鬲絕胡與羌通之路。漢又西通月氏、大夏，又以公主妻烏孫王，以分匈奴西方之援國。又北益廣田至胘雷爲塞，而匈奴終不敢以爲言。是歳，翕侯信死，漢用事者以匈奴爲已弱，可臣從也。楊信爲人剛直屈彊，素非貴臣，單于不親。單于欲召入，不肯去節，單于乃坐穹廬外見楊信。楊信既見單于，說曰：「即欲和親，以單于太子爲質於漢。」單于曰：「非故約。故約，漢常遣翁主，給繒絮食物有品，以和親，而匈奴亦不擾邊。今乃欲反古，令吾太子爲質，無幾矣。」匈奴俗，見漢使非中貴人，其儒先，以爲欲說，折其辯；其少年，以爲欲刺，折其氣。每漢使入匈奴，匈奴輒報償。漢留匈奴使，匈奴亦留漢使，必得當乃肯止。"
+          "quote_passage_ref": "data/corpus/shiji/110.json"
         }
       ],
       "qualifiers": {
@@ -583,7 +557,7 @@
           "chapter_id": "c-shiji-123-dayuan",
           "source_id": "s-shiji123-dayuan",
           "paragraph_id": "c-shiji-123-dayuan:p017",
-          "quote": "是後天子數問騫大夏之屬。騫既失侯，因言曰：「臣居匈奴中，聞烏孫王號昆莫，昆莫之父，匈奴西邊小國也。匈奴攻殺其父，而昆莫生棄於野。烏嗛肉蜚其上，狼往乳之。單于怪以為神，而收長之。及壯，使將兵，數有功，單于復以其父之民予昆莫，令長守於西（城）［域］。昆莫收養其民，攻旁小邑，控弦數萬，習攻戰。單于死，昆莫乃率其眾遠徙，中立，不肯朝會匈奴。匈奴遣奇兵擊，不勝，以為神而遠之，因羈屬之，不大攻。今單于新困於漢，而故渾邪地空無人。蠻夷俗貪漢財物，今誠以此時而厚幣賂烏孫，招以益東，居故渾邪之地，與漢結昆弟，其勢宜聽，聽則是斷匈奴右臂也。既連烏孫，自其西大夏之屬皆可招來而為外臣。」天子以為然，拜騫為中郎將，將三百人，馬各二匹，牛羊以萬數，齎金幣帛直數千巨萬，多持節副使，道可使，使遺之他旁國。"
+          "quote_passage_ref": "data/corpus/shiji/123.json"
         }
       ],
       "qualifiers": {
@@ -603,7 +577,7 @@
           "chapter_id": "c-shiji-123-dayuan",
           "source_id": "s-shiji123-dayuan",
           "paragraph_id": "c-shiji-123-dayuan:p018",
-          "quote": "騫既至烏孫，烏孫王昆莫見漢使如單于禮，騫大慚，知蠻夷貪，乃曰：「天子致賜，王不拜則還賜。」昆莫起拜賜，其他如故。騫諭使指曰：「烏孫能東居渾邪地，則漢遣翁主為昆莫夫人。」烏孫國分，王老，而遠漢，未知其大小，素服屬匈奴日久矣，且又近之，其大臣皆畏胡，不欲移徙，王不能專制。騫不得其要領。昆莫有十餘子，其中子曰大祿，彊，善將眾，將眾別居萬餘騎。大祿兄為太子，太子有子曰岑娶，而太子蚤死。臨死謂其父昆莫曰：「必以岑娶為太子，無令他人代之。」昆莫哀而許之，卒以岑娶為太子。大祿怒其不得代太子也，乃收其諸昆弟，將其眾畔，謀攻岑娶及昆莫。昆莫老，常恐大祿殺岑娶，予岑娶萬餘騎別居，而昆莫有萬餘騎自備，國眾分為三，而其大總取羈屬昆莫，昆莫亦以此不敢專約於騫。"
+          "quote_passage_ref": "data/corpus/shiji/123.json"
         }
       ],
       "qualifiers": {
@@ -623,7 +597,7 @@
           "chapter_id": "c-shiji-123-dayuan",
           "source_id": "s-shiji123-dayuan",
           "paragraph_id": "c-shiji-123-dayuan:p018",
-          "quote": "騫既至烏孫，烏孫王昆莫見漢使如單于禮，騫大慚，知蠻夷貪，乃曰：「天子致賜，王不拜則還賜。」昆莫起拜賜，其他如故。騫諭使指曰：「烏孫能東居渾邪地，則漢遣翁主為昆莫夫人。」烏孫國分，王老，而遠漢，未知其大小，素服屬匈奴日久矣，且又近之，其大臣皆畏胡，不欲移徙，王不能專制。騫不得其要領。昆莫有十餘子，其中子曰大祿，彊，善將眾，將眾別居萬餘騎。大祿兄為太子，太子有子曰岑娶，而太子蚤死。臨死謂其父昆莫曰：「必以岑娶為太子，無令他人代之。」昆莫哀而許之，卒以岑娶為太子。大祿怒其不得代太子也，乃收其諸昆弟，將其眾畔，謀攻岑娶及昆莫。昆莫老，常恐大祿殺岑娶，予岑娶萬餘騎別居，而昆莫有萬餘騎自備，國眾分為三，而其大總取羈屬昆莫，昆莫亦以此不敢專約於騫。"
+          "quote_passage_ref": "data/corpus/shiji/123.json"
         }
       ],
       "qualifiers": {
@@ -643,7 +617,7 @@
           "chapter_id": "c-shiji-123-dayuan",
           "source_id": "s-shiji123-dayuan",
           "paragraph_id": "c-shiji-123-dayuan:p025",
-          "quote": "烏孫以千匹馬聘漢女，漢遣宗室女江都翁主往妻烏孫，烏孫王昆莫以為右夫人。匈奴亦遣女妻昆莫，昆莫以為左夫人。昆莫曰「我老」，乃令其孫岑娶妻翁主。烏孫多馬，其富人至有四五千匹馬。"
+          "quote_passage_ref": "data/corpus/shiji/123.json"
         }
       ],
       "qualifiers": {
@@ -663,7 +637,7 @@
           "chapter_id": "c-shiji-123-dayuan",
           "source_id": "s-shiji123-dayuan",
           "paragraph_id": "c-shiji-123-dayuan:p025",
-          "quote": "烏孫以千匹馬聘漢女，漢遣宗室女江都翁主往妻烏孫，烏孫王昆莫以為右夫人。匈奴亦遣女妻昆莫，昆莫以為左夫人。昆莫曰「我老」，乃令其孫岑娶妻翁主。烏孫多馬，其富人至有四五千匹馬。"
+          "quote_passage_ref": "data/corpus/shiji/123.json"
         }
       ],
       "qualifiers": {
@@ -683,7 +657,7 @@
           "chapter_id": "c-shiji-123-dayuan",
           "source_id": "s-shiji123-dayuan",
           "paragraph_id": "c-shiji-123-dayuan:p025",
-          "quote": "烏孫以千匹馬聘漢女，漢遣宗室女江都翁主往妻烏孫，烏孫王昆莫以為右夫人。匈奴亦遣女妻昆莫，昆莫以為左夫人。昆莫曰「我老」，乃令其孫岑娶妻翁主。烏孫多馬，其富人至有四五千匹馬。"
+          "quote_passage_ref": "data/corpus/shiji/123.json"
         }
       ],
       "qualifiers": {
@@ -706,8 +680,8 @@
           "chapter_id": "c-shiji-123-dayuan",
           "source_id": "s-shiji123-dayuan",
           "paragraph_id": "c-shiji-123-dayuan:p017",
-          "quote": "是後天子數問騫大夏之屬。騫既失侯，因言曰：「臣居匈奴中，聞烏孫王號昆莫，昆莫之父，匈奴西邊小國也。匈奴攻殺其父，而昆莫生棄於野。烏嗛肉蜚其上，狼往乳之。單于怪以為神，而收長之。及壯，使將兵，數有功，單于復以其父之民予昆莫，令長守於西（城）［域］。昆莫收養其民，攻旁小邑，控弦數萬，習攻戰。單于死，昆莫乃率其眾遠徙，中立，不肯朝會匈奴。匈奴遣奇兵擊，不勝，以為神而遠之，因羈屬之，不大攻。今單于新困於漢，而故渾邪地空無人。蠻夷俗貪漢財物，今誠以此時而厚幣賂烏孫，招以益東，居故渾邪之地，與漢結昆弟，其勢宜聽，聽則是斷匈奴右臂也。既連烏孫，自其西大夏之屬皆可招來而為外臣。」天子以為然，拜騫為中郎將，將三百人，馬各二匹，牛羊以萬數，齎金幣帛直數千巨萬，多持節副使，道可使，使遺之他旁國。",
-          "person_mention_id": "c-shiji-123-dayuan:m017-0033"
+          "person_mention_id": "c-shiji-123-dayuan:m017-0033",
+          "quote_passage_ref": "data/corpus/shiji/123.json"
         }
       ],
       "source_term": "而昆莫生棄於野",

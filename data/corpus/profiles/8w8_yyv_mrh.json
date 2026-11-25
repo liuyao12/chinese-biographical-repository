@@ -21,7 +21,7 @@
           "chapter_id": "c-shiji-105-bianque",
           "source_id": "s-shiji-105-bianque",
           "paragraph_id": "c-shiji-105-bianque:p024",
-          "quote": "齊北宮司空命婦出於病，眾醫皆以為風入中，病主在肺，刺其足少陽脈。臣意診其脈，曰：「病氣疝，客於膀胱，難於前後溲，而溺赤。病見寒氣則遺溺，使人腹腫。」出於病得之欲溺不得，因以接內。所以知出於病者，切其脈大而實，其來難，是蹶陰之動也。脈來難者，疝氣之客於膀胱也。腹之所以腫者，言蹶陰之絡結小肮也。蹶陰有過則脈結動，動則腹腫。臣意即灸其足蹶陰之脈，左右各一所，即不遺溺而溲清，小肮痛止。即更為火齊湯以飲之，三日而疝氣散，即愈。"
+          "quote_passage_ref": "data/corpus/shiji/105.json"
         }
       ],
       "attestations": [
@@ -63,7 +63,6 @@
       "raw_count": 3,
       "duplicate_count": 0,
       "counting_policy": "independent_fixed_witness_occurrences",
-      "quote": "齊北宮司空命婦出於病，眾醫皆以為風入中，病主在肺，刺其足少陽脈。臣意診其脈，曰：「病氣疝，客於膀胱，難於前後溲，而溺赤。病見寒氣則遺溺，使人腹腫。」出於病得之欲溺不得，因以接內。所以知出於病者，切其脈大而實，其來難，是",
       "paragraph_ids": [
         "c-shiji-105-bianque:p024"
       ],
@@ -105,7 +104,12 @@
       "book_id": "b-shiji-105",
       "chapter_id": "c-shiji-105-bianque",
       "source_id": "s-shiji-105-bianque",
-      "work_title": "史記"
+      "work_title": "史記",
+      "chapter_ref": "data/corpus/shiji/105.json",
+      "quote_span": [
+        0,
+        109
+      ]
     }
   ],
   "table_occurrences": [],
@@ -115,24 +119,7 @@
       "work_id": "w-shiji",
       "book_id": "b-shiji-105",
       "source_id": "s-shiji-105-bianque",
-      "source": {
-        "title": "史記／卷105",
-        "provider": "維基文庫",
-        "url": "https://zh.wikisource.org/wiki/史記/卷105",
-        "permalink": "https://zh.wikisource.org/w/index.php?title=史記/卷105&oldid=8842726",
-        "revision_id": 8842726,
-        "accessed_on": "2026-10-10",
-        "extent": "48段正文含太史公論與答詔醫案，1段索隱述贊及3段見證附載正義。",
-        "image_verified": false,
-        "rights": "古代原文；數位轉錄依維基文庫CC BY-SA 4.0，保留署名及固定版本。",
-        "license_url": "https://creativecommons.org/licenses/by-sa/4.0/",
-        "normalization": {
-          "character_conversion": {},
-          "editorial_readings": [],
-          "extraction_note": "去標題與介面模板，原字、標點及段落次序保留。",
-          "note": "未核底本影像。"
-        }
-      }
+      "chapter_ref": "data/corpus/shiji/105.json"
     }
   ],
   "relations": [],

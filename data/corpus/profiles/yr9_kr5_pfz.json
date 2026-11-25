@@ -21,7 +21,7 @@
           "chapter_id": "c-shiji-114-dongyue",
           "source_id": "s-shiji114-dongyue",
           "paragraph_id": "c-shiji-114-dongyue:p007",
-          "quote": "元鼎六年秋，餘善聞樓船請誅之，漢兵臨境，且往，乃遂反，發兵距漢道。號將軍騶力等為「吞漢將軍」，入白沙、武林、梅嶺，殺漢三校尉。是時漢使大農張成、故山州侯齒將屯，弗敢擊，卻就便處，皆坐畏懦誅。"
+          "quote_passage_ref": "data/corpus/shiji/114.json"
         }
       ],
       "attestations": [
@@ -47,7 +47,7 @@
                 "chapter_id": "c-shiji-114-dongyue",
                 "source_id": "s-shiji114-dongyue",
                 "paragraph_id": "c-shiji-114-dongyue:p007",
-                "quote": "元鼎六年秋，餘善聞樓船請誅之，漢兵臨境，且往，乃遂反，發兵距漢道。號將軍騶力等為「吞漢將軍」，入白沙、武林、梅嶺，殺漢三校尉。是時漢使大農張成、故山州侯齒將屯，弗敢擊，卻就便處，皆坐畏懦誅。"
+                "quote_passage_ref": "data/corpus/shiji/114.json"
               }
             ],
             "references": [
@@ -63,29 +63,29 @@
               {
                 "title": "《史記·漢興以來將相名臣年表》",
                 "url": "https://zh.wikisource.org/w/index.php?title=史記/卷022&oldid=2607038",
-                "quote": "元鼎元年",
                 "table_id": "shiji-022",
                 "table_cell_id": "shiji-022-t1-r091-c01",
                 "scope": "received_regnal_year_attestation",
-                "image_verified": false
+                "image_verified": false,
+                "quote_passage_ref": "data/historical-tables/shiji-022.json"
               },
               {
                 "title": "《史記·漢興以來將相名臣年表》",
                 "url": "https://zh.wikisource.org/w/index.php?title=史記/卷022&oldid=2607038",
-                "quote": "六",
                 "table_id": "shiji-022",
                 "table_cell_id": "shiji-022-t1-r096-c01",
                 "scope": "received_regnal_year_attestation",
-                "image_verified": false
+                "image_verified": false,
+                "quote_passage_ref": "data/historical-tables/shiji-022.json"
               },
               {
                 "title": "《史記·漢興以來將相名臣年表》",
                 "url": "https://zh.wikisource.org/w/index.php?title=史記/卷022&oldid=2607038",
-                "quote": "111",
                 "table_id": "shiji-022",
                 "table_cell_id": "shiji-022-t1-r096-c00",
                 "scope": "digital_editorial_regnal_year_equivalence_only",
-                "image_verified": false
+                "image_verified": false,
+                "quote_passage_ref": "data/historical-tables/shiji-022.json"
               }
             ],
             "rationale": "元鼎六年秋原詞保留；漢以十月歲首，秋屬七至九月，落於固定數位所列西元前111年。年精度，不補月份或公曆日。",
@@ -123,7 +123,6 @@
       "raw_count": 1,
       "duplicate_count": 0,
       "counting_policy": "independent_fixed_witness_occurrences",
-      "quote": "將軍騶力等為「吞漢將軍」，入白沙、武林、梅嶺，殺漢三校尉。是時漢使大農張成、故山州侯齒將屯，弗敢擊，卻就便處，皆坐畏懦誅。",
       "paragraph_ids": [
         "c-shiji-114-dongyue:p007"
       ],
@@ -147,7 +146,12 @@
       "book_id": "b-shiji-114",
       "chapter_id": "c-shiji-114-dongyue",
       "source_id": "s-shiji114-dongyue",
-      "work_title": "史記"
+      "work_title": "史記",
+      "chapter_ref": "data/corpus/shiji/114.json",
+      "quote_span": [
+        34,
+        95
+      ]
     }
   ],
   "table_occurrences": [],
@@ -157,24 +161,7 @@
       "work_id": "w-shiji",
       "book_id": "b-shiji-114",
       "source_id": "s-shiji114-dongyue",
-      "source": {
-        "title": "史記／卷114",
-        "provider": "維基文庫",
-        "url": "https://zh.wikisource.org/wiki/史記/卷114",
-        "permalink": "https://zh.wikisource.org/w/index.php?title=史記/卷114&oldid=8735633",
-        "revision_id": 8735633,
-        "accessed_on": "2026-10-11",
-        "extent": "固定數位見證11段正文，沒有索隱述贊。",
-        "image_verified": false,
-        "rights": "古代原文；數位轉錄依維基文庫CC BY-SA 4.0，保留署名及固定版本。",
-        "license_url": "https://creativecommons.org/licenses/by-sa/4.0/",
-        "normalization": {
-          "character_conversion": {},
-          "editorial_readings": [],
-          "extraction_note": "去header2、現代節標題與YL模板外殼，紀年及正文原字保留，未核底本影像。",
-          "note": "太史公曰仍屬正文，未補此見證未載的索隱述贊。"
-        }
-      }
+      "chapter_ref": "data/corpus/shiji/114.json"
     }
   ],
   "relations": [],
@@ -195,8 +182,8 @@
           "chapter_id": "c-shiji-114-dongyue",
           "source_id": "s-shiji114-dongyue",
           "paragraph_id": "c-shiji-114-dongyue:p007",
-          "quote": "元鼎六年秋，餘善聞樓船請誅之，漢兵臨境，且往，乃遂反，發兵距漢道。號將軍騶力等為「吞漢將軍」，入白沙、武林、梅嶺，殺漢三校尉。是時漢使大農張成、故山州侯齒將屯，弗敢擊，卻就便處，皆坐畏懦誅。",
-          "person_mention_id": "c-shiji-114-dongyue:m007-0069"
+          "person_mention_id": "c-shiji-114-dongyue:m007-0069",
+          "quote_passage_ref": "data/corpus/shiji/114.json"
         }
       ],
       "references": [
@@ -212,29 +199,29 @@
         {
           "title": "《史記·漢興以來將相名臣年表》",
           "url": "https://zh.wikisource.org/w/index.php?title=史記/卷022&oldid=2607038",
-          "quote": "元鼎元年",
           "table_id": "shiji-022",
           "table_cell_id": "shiji-022-t1-r091-c01",
           "scope": "received_regnal_year_attestation",
-          "image_verified": false
+          "image_verified": false,
+          "quote_passage_ref": "data/historical-tables/shiji-022.json"
         },
         {
           "title": "《史記·漢興以來將相名臣年表》",
           "url": "https://zh.wikisource.org/w/index.php?title=史記/卷022&oldid=2607038",
-          "quote": "六",
           "table_id": "shiji-022",
           "table_cell_id": "shiji-022-t1-r096-c01",
           "scope": "received_regnal_year_attestation",
-          "image_verified": false
+          "image_verified": false,
+          "quote_passage_ref": "data/historical-tables/shiji-022.json"
         },
         {
           "title": "《史記·漢興以來將相名臣年表》",
           "url": "https://zh.wikisource.org/w/index.php?title=史記/卷022&oldid=2607038",
-          "quote": "111",
           "table_id": "shiji-022",
           "table_cell_id": "shiji-022-t1-r096-c00",
           "scope": "digital_editorial_regnal_year_equivalence_only",
-          "image_verified": false
+          "image_verified": false,
+          "quote_passage_ref": "data/historical-tables/shiji-022.json"
         }
       ],
       "rationale": "元鼎六年秋原詞保留；漢以十月歲首，秋屬七至九月，落於固定數位所列西元前111年。年精度，不補月份或公曆日。",
@@ -259,7 +246,7 @@
           "chapter_id": "c-shiji-114-dongyue",
           "source_id": "s-shiji114-dongyue",
           "paragraph_id": "c-shiji-114-dongyue:p007",
-          "quote": "元鼎六年秋，餘善聞樓船請誅之，漢兵臨境，且往，乃遂反，發兵距漢道。號將軍騶力等為「吞漢將軍」，入白沙、武林、梅嶺，殺漢三校尉。是時漢使大農張成、故山州侯齒將屯，弗敢擊，卻就便處，皆坐畏懦誅。"
+          "quote_passage_ref": "data/corpus/shiji/114.json"
         }
       ],
       "references": [
@@ -275,29 +262,29 @@
         {
           "title": "《史記·漢興以來將相名臣年表》",
           "url": "https://zh.wikisource.org/w/index.php?title=史記/卷022&oldid=2607038",
-          "quote": "元鼎元年",
           "table_id": "shiji-022",
           "table_cell_id": "shiji-022-t1-r091-c01",
           "scope": "received_regnal_year_attestation",
-          "image_verified": false
+          "image_verified": false,
+          "quote_passage_ref": "data/historical-tables/shiji-022.json"
         },
         {
           "title": "《史記·漢興以來將相名臣年表》",
           "url": "https://zh.wikisource.org/w/index.php?title=史記/卷022&oldid=2607038",
-          "quote": "六",
           "table_id": "shiji-022",
           "table_cell_id": "shiji-022-t1-r096-c01",
           "scope": "received_regnal_year_attestation",
-          "image_verified": false
+          "image_verified": false,
+          "quote_passage_ref": "data/historical-tables/shiji-022.json"
         },
         {
           "title": "《史記·漢興以來將相名臣年表》",
           "url": "https://zh.wikisource.org/w/index.php?title=史記/卷022&oldid=2607038",
-          "quote": "111",
           "table_id": "shiji-022",
           "table_cell_id": "shiji-022-t1-r096-c00",
           "scope": "digital_editorial_regnal_year_equivalence_only",
-          "image_verified": false
+          "image_verified": false,
+          "quote_passage_ref": "data/historical-tables/shiji-022.json"
         }
       ],
       "rationale": "元鼎六年秋原詞保留；漢以十月歲首，秋屬七至九月，落於固定數位所列西元前111年。年精度，不補月份或公曆日。",
@@ -329,8 +316,8 @@
           "chapter_id": "c-shiji-114-dongyue",
           "source_id": "s-shiji114-dongyue",
           "paragraph_id": "c-shiji-114-dongyue:p007",
-          "quote": "元鼎六年秋，餘善聞樓船請誅之，漢兵臨境，且往，乃遂反，發兵距漢道。號將軍騶力等為「吞漢將軍」，入白沙、武林、梅嶺，殺漢三校尉。是時漢使大農張成、故山州侯齒將屯，弗敢擊，卻就便處，皆坐畏懦誅。",
-          "person_mention_id": "c-shiji-114-dongyue:m007-0069"
+          "person_mention_id": "c-shiji-114-dongyue:m007-0069",
+          "quote_passage_ref": "data/corpus/shiji/114.json"
         }
       ],
       "interpretation_note": "被殺、斬或誅按明示個人死亡記錄，三校尉群體不拆姓名；未記地點不補，死亡不自動終止所有稱號。第9段日期承接尚待另核。",
@@ -349,8 +336,8 @@
             "chapter_id": "c-shiji-114-dongyue",
             "source_id": "s-shiji114-dongyue",
             "paragraph_id": "c-shiji-114-dongyue:p007",
-            "quote": "元鼎六年秋，餘善聞樓船請誅之，漢兵臨境，且往，乃遂反，發兵距漢道。號將軍騶力等為「吞漢將軍」，入白沙、武林、梅嶺，殺漢三校尉。是時漢使大農張成、故山州侯齒將屯，弗敢擊，卻就便處，皆坐畏懦誅。",
-            "person_mention_id": "c-shiji-114-dongyue:m007-0069"
+            "person_mention_id": "c-shiji-114-dongyue:m007-0069",
+            "quote_passage_ref": "data/corpus/shiji/114.json"
           }
         ],
         "references": [
@@ -366,29 +353,29 @@
           {
             "title": "《史記·漢興以來將相名臣年表》",
             "url": "https://zh.wikisource.org/w/index.php?title=史記/卷022&oldid=2607038",
-            "quote": "元鼎元年",
             "table_id": "shiji-022",
             "table_cell_id": "shiji-022-t1-r091-c01",
             "scope": "received_regnal_year_attestation",
-            "image_verified": false
+            "image_verified": false,
+            "quote_passage_ref": "data/historical-tables/shiji-022.json"
           },
           {
             "title": "《史記·漢興以來將相名臣年表》",
             "url": "https://zh.wikisource.org/w/index.php?title=史記/卷022&oldid=2607038",
-            "quote": "六",
             "table_id": "shiji-022",
             "table_cell_id": "shiji-022-t1-r096-c01",
             "scope": "received_regnal_year_attestation",
-            "image_verified": false
+            "image_verified": false,
+            "quote_passage_ref": "data/historical-tables/shiji-022.json"
           },
           {
             "title": "《史記·漢興以來將相名臣年表》",
             "url": "https://zh.wikisource.org/w/index.php?title=史記/卷022&oldid=2607038",
-            "quote": "111",
             "table_id": "shiji-022",
             "table_cell_id": "shiji-022-t1-r096-c00",
             "scope": "digital_editorial_regnal_year_equivalence_only",
-            "image_verified": false
+            "image_verified": false,
+            "quote_passage_ref": "data/historical-tables/shiji-022.json"
           }
         ],
         "rationale": "元鼎六年秋原詞保留；漢以十月歲首，秋屬七至九月，落於固定數位所列西元前111年。年精度，不補月份或公曆日。",

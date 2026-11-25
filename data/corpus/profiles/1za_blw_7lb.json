@@ -22,7 +22,7 @@
           "chapter_id": "c-shiji-043-zhao",
           "source_id": "s-shiji-043-zhao",
           "paragraph_id": "c-shiji-043-zhao:p029",
-          "quote": "異日，姑布子卿見簡子，簡子遍召諸子相之。子卿曰：「無爲將軍者。」簡子曰：「趙氏其滅乎？」子卿曰：「吾嘗見一子於路，殆君之子也。」簡子召子毋卹。毋卹至，則子卿起曰：「此眞將軍矣！」簡子曰：「此其母賤，翟婢也，奚道貴哉？」子卿曰：「天所授，雖賤必貴。」自是之後，簡子盡召諸子與語，毋卹最賢。簡子乃告諸子曰：「吾藏寶符於常山上，先得者賞。」諸子馳之常山上，求，無所得。毋卹還，曰：「已得符矣。」簡子曰：「奏之。」毋卹曰：「從常山上臨代，代可取也。」簡子於是知毋卹果賢，乃廢太子伯魯，而以毋卹爲太子。"
+          "quote_passage_ref": "data/corpus/shiji/043.json"
         }
       ],
       "attestations": [
@@ -51,7 +51,7 @@
               "chapter_id": "c-shiji-043-zhao",
               "source_id": "s-shiji-043-zhao",
               "paragraph_id": "c-shiji-043-zhao:p029",
-              "quote": "異日，姑布子卿見簡子，簡子遍召諸子相之。子卿曰：「無爲將軍者。」簡子曰：「趙氏其滅乎？」子卿曰：「吾嘗見一子於路，殆君之子也。」簡子召子毋卹。毋卹至，則子卿起曰：「此眞將軍矣！」簡子曰：「此其母賤，翟婢也，奚道貴哉？」子卿曰：「天所授，雖賤必貴。」自是之後，簡子盡召諸子與語，毋卹最賢。簡子乃告諸子曰：「吾藏寶符於常山上，先得者賞。」諸子馳之常山上，求，無所得。毋卹還，曰：「已得符矣。」簡子曰：「奏之。」毋卹曰：「從常山上臨代，代可取也。」簡子於是知毋卹果賢，乃廢太子伯魯，而以毋卹爲太子。"
+              "quote_passage_ref": "data/corpus/shiji/043.json"
             }
           ]
         }
@@ -72,7 +72,6 @@
       "raw_count": 8,
       "duplicate_count": 0,
       "counting_policy": "independent_fixed_witness_occurrences",
-      "quote": "之。」毋卹曰：「從常山上臨代，代可取也。」簡子於是知毋卹果賢，乃廢太子伯魯，而以毋卹爲太子。",
       "paragraph_ids": [
         "c-shiji-043-zhao:p029",
         "c-shiji-043-zhao:p038",
@@ -162,7 +161,12 @@
       "book_id": "b-shiji-043",
       "chapter_id": "c-shiji-043-zhao",
       "source_id": "s-shiji-043-zhao",
-      "work_title": "史記"
+      "work_title": "史記",
+      "chapter_ref": "data/corpus/shiji/043.json",
+      "quote_span": [
+        200,
+        246
+      ]
     }
   ],
   "table_occurrences": [
@@ -170,7 +174,6 @@
       "table_id": "shiji-015",
       "cell_id": "shiji-015-r020-c05",
       "title": "《史記·六國年表》",
-      "quote": "襄子。元年未除服，登夏屋，誘代王，以金斗殺代王。封伯魯子周為代成君。",
       "year": {
         "era": "BCE",
         "value": 457,
@@ -193,7 +196,8 @@
       "book_id": "b-shiji-015",
       "chapter_id": "table-chapter-shiji-015",
       "source_id": "table-witness-shiji-015",
-      "source_revision": "2607002"
+      "source_revision": "2607002",
+      "quote_ref": "cell"
     }
   ],
   "sources": [
@@ -202,47 +206,14 @@
       "work_id": "w-shiji",
       "book_id": "b-shiji-043",
       "source_id": "s-shiji-043-zhao",
-      "source": {
-        "title": "史記／卷043",
-        "provider": "維基文庫",
-        "url": "https://zh.wikisource.org/wiki/史記/卷043",
-        "permalink": "https://zh.wikisource.org/w/index.php?title=史記/卷043&oldid=7903603",
-        "revision_id": 7903603,
-        "accessed_on": "2026-10-09",
-        "extent": "121段正文及1段分層索隱述贊；排除2個dd導覽，只去除段落外緣空白。",
-        "image_verified": false,
-        "rights": "古代原文；數位轉錄依維基文庫CC BY-SA 4.0，保留署名及固定版本。",
-        "license_url": "https://creativecommons.org/licenses/by-sa/4.0/",
-        "normalization": {
-          "character_conversion": {},
-          "editorial_readings": [],
-          "extraction_note": "固定修訂與取得時HTML一致；保留古代異體及五世而（生）［至］趙夙等校勘符號。造父以下六世與叔帶以下五世不補闕代。",
-          "note": "已讀全121段數位正文及1段附載索隱述贊，後者另層保存；未核古籍影像、可靠底本或現代研究，首輪不是完成覆核。"
-        }
-      }
+      "chapter_ref": "data/corpus/shiji/043.json"
     },
     {
       "chapter_id": "table-chapter-shiji-015",
       "work_id": "w-shiji",
       "book_id": "b-shiji-015",
       "source_id": "table-witness-shiji-015",
-      "source": {
-        "id": "table-witness-shiji-015",
-        "work_id": "w-shiji",
-        "book_id": "b-shiji-015",
-        "chapter_id": "table-chapter-shiji-015",
-        "url": "https://zh.wikisource.org/wiki/史記/卷015",
-        "revision_url": "https://zh.wikisource.org/w/index.php?title=史記/卷015&oldid=2607002",
-        "revision": "2607002",
-        "accessed": "2026-10-12",
-        "response_sha256": "eb0624a019e02c24ce90a40bfa24863f4020878062c6e2efea32355033be5559",
-        "edition": null,
-        "image_verified": false,
-        "rights": "古籍正文公有領域；維基文庫轉錄及編輯內容依 CC BY-SA 條款，署名維基文庫貢獻者。",
-        "rights_url": "https://zh.wikisource.org/wiki/Wikisource:版權信息",
-        "review_status": "agent_first_pass_named_entities",
-        "note": "完整數位表格結構匯入，未逐格學術覆核。未核讀印本影像，原印本頁碼未知。西元欄沿用此數位轉錄的編者對照，不是古籍原有西元紀年，也不引用其維基百科外連。"
-      }
+      "table_source_ref": "shiji-015"
     }
   ],
   "relations": [
@@ -257,7 +228,7 @@
           "chapter_id": "c-shiji-043-zhao",
           "source_id": "s-shiji-043-zhao",
           "paragraph_id": "c-shiji-043-zhao:p038",
-          "quote": "襄子姊前爲代王夫人。簡子旣葬，未除服，北登夏屋，請代王。使廚人操銅枓以食代王及從者，行斟，陰令宰人各以枓撃殺代王及從官，遂興兵平代地。其姊聞之，泣而呼天，摩笄自殺。代人憐之，所死地名之爲摩笄之山。遂以代封伯魯子周爲代成君。伯魯者，襄子兄，故太子。太子蚤死，故封其子。"
+          "quote_passage_ref": "data/corpus/shiji/043.json"
         }
       ],
       "qualifiers": {
@@ -278,7 +249,7 @@
           "chapter_id": "c-shiji-043-zhao",
           "source_id": "s-shiji-043-zhao",
           "paragraph_id": "c-shiji-043-zhao:p038",
-          "quote": "襄子姊前爲代王夫人。簡子旣葬，未除服，北登夏屋，請代王。使廚人操銅枓以食代王及從者，行斟，陰令宰人各以枓撃殺代王及從官，遂興兵平代地。其姊聞之，泣而呼天，摩笄自殺。代人憐之，所死地名之爲摩笄之山。遂以代封伯魯子周爲代成君。伯魯者，襄子兄，故太子。太子蚤死，故封其子。"
+          "quote_passage_ref": "data/corpus/shiji/043.json"
         }
       ],
       "qualifiers": {
@@ -311,7 +282,7 @@
           "chapter_id": "c-shiji-043-zhao",
           "source_id": "s-shiji-043-zhao",
           "paragraph_id": "c-shiji-043-zhao:p038",
-          "quote": "襄子姊前爲代王夫人。簡子旣葬，未除服，北登夏屋，請代王。使廚人操銅枓以食代王及從者，行斟，陰令宰人各以枓撃殺代王及從官，遂興兵平代地。其姊聞之，泣而呼天，摩笄自殺。代人憐之，所死地名之爲摩笄之山。遂以代封伯魯子周爲代成君。伯魯者，襄子兄，故太子。太子蚤死，故封其子。"
+          "quote_passage_ref": "data/corpus/shiji/043.json"
         }
       ],
       "qualifiers": {
@@ -332,7 +303,7 @@
           "chapter_id": "c-shiji-043-zhao",
           "source_id": "s-shiji-043-zhao",
           "paragraph_id": "c-shiji-043-zhao:p038",
-          "quote": "襄子姊前爲代王夫人。簡子旣葬，未除服，北登夏屋，請代王。使廚人操銅枓以食代王及從者，行斟，陰令宰人各以枓撃殺代王及從官，遂興兵平代地。其姊聞之，泣而呼天，摩笄自殺。代人憐之，所死地名之爲摩笄之山。遂以代封伯魯子周爲代成君。伯魯者，襄子兄，故太子。太子蚤死，故封其子。"
+          "quote_passage_ref": "data/corpus/shiji/043.json"
         }
       ],
       "qualifiers": {
@@ -356,8 +327,8 @@
           "chapter_id": "c-shiji-043-zhao",
           "source_id": "s-shiji-043-zhao",
           "paragraph_id": "c-shiji-043-zhao:p038",
-          "quote": "襄子姊前爲代王夫人。簡子旣葬，未除服，北登夏屋，請代王。使廚人操銅枓以食代王及從者，行斟，陰令宰人各以枓撃殺代王及從官，遂興兵平代地。其姊聞之，泣而呼天，摩笄自殺。代人憐之，所死地名之爲摩笄之山。遂以代封伯魯子周爲代成君。伯魯者，襄子兄，故太子。太子蚤死，故封其子。",
-          "person_mention_id": "c-shiji-043-zhao:m038-0102"
+          "person_mention_id": "c-shiji-043-zhao:m038-0102",
+          "quote_passage_ref": "data/corpus/shiji/043.json"
         }
       ],
       "source_term": "太子蚤死",

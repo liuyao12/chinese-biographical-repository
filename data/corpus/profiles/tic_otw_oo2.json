@@ -65,7 +65,6 @@
       "raw_count": 1,
       "duplicate_count": 0,
       "counting_policy": "independent_fixed_witness_occurrences",
-      "quote": "年，魯隱公立。四十五年，魯弒其君隱公。四十六年，宋華父督弒其君殤公，及孔父。五十五年，桓公卒，子莊公夕姑立。",
       "paragraph_ids": [
         "c-shiji-035-guancai:p031"
       ],
@@ -89,7 +88,12 @@
       "book_id": "b-shiji-035",
       "chapter_id": "c-shiji-035-guancai",
       "source_id": "s-shiji-035-guancai",
-      "work_title": "史記"
+      "work_title": "史記",
+      "chapter_ref": "data/corpus/shiji/035.json",
+      "quote_span": [
+        5,
+        59
+      ]
     },
     {
       "number": 37,
@@ -100,7 +104,6 @@
       "raw_count": 1,
       "duplicate_count": 0,
       "counting_policy": "independent_fixed_witness_occurrences",
-      "quote": "宣公七年，魯弒其君隱公。九年，宋督弒其君殤公，及孔父。十年，晉曲沃莊伯弒其君哀侯。",
       "paragraph_ids": [
         "c-shiji-037-wei:p012"
       ],
@@ -124,7 +127,12 @@
       "book_id": "b-shiji-037",
       "chapter_id": "c-shiji-037-wei",
       "source_id": "s-shiji-037-wei",
-      "work_title": "史記"
+      "work_title": "史記",
+      "chapter_ref": "data/corpus/shiji/037.json",
+      "quote_span": [
+        0,
+        41
+      ]
     },
     {
       "number": 38,
@@ -135,7 +143,6 @@
       "raw_count": 7,
       "duplicate_count": 0,
       "counting_policy": "independent_fixed_witness_occurrences",
-      "quote": "穆公九年，病，召大司馬孔父謂曰：「先君宣公捨太子與夷而立我，我不敢忘。我死，必立與夷也。」孔父曰：「羣臣皆願立公子馮。」穆公曰：「毋立馮，吾不可以負宣公。」於是穆公使馮出居于鄭。八月庚辰，穆公卒，兄宣公子與夷立，是爲殤公。君子",
       "paragraph_ids": [
         "c-shiji-038-song:p029",
         "c-shiji-038-song:p031"
@@ -214,7 +221,12 @@
       "book_id": "b-shiji-038",
       "chapter_id": "c-shiji-038-song",
       "source_id": "s-shiji-038-song",
-      "work_title": "史記"
+      "work_title": "史記",
+      "chapter_ref": "data/corpus/shiji/038.json",
+      "quote_span": [
+        0,
+        113
+      ]
     }
   ],
   "table_occurrences": [],
@@ -224,93 +236,21 @@
       "work_id": "w-shiji",
       "book_id": "b-shiji-035",
       "source_id": "s-shiji-035-guancai",
-      "source": {
-        "title": "史記／卷035",
-        "provider": "維基文庫",
-        "url": "https://zh.wikisource.org/wiki/史記/卷035",
-        "permalink": "https://zh.wikisource.org/w/index.php?title=史記/卷035&oldid=8737302",
-        "revision_id": 8737302,
-        "accessed_on": "2026-10-09",
-        "extent": "正文43個p區塊，含管蔡世系及曹國世系，自管叔鮮至末尾太史公論贊；排除兩個dd導覽。",
-        "image_verified": false,
-        "rights": "古代原文；數位轉錄依維基文庫CC BY-SA 4.0，保留署名及固定版本。",
-        "license_url": "https://creativecommons.org/licenses/by-sa/4.0/",
-        "normalization": {
-          "character_conversion": {},
-          "editorial_readings": [],
-          "extraction_note": "固定版本與實讀HTML一致。原字、醳、云及平公（頃）［須］等數位見證校勘字樣保留，不由記憶選改。",
-          "note": "未核可靠底本、影像或現代研究。夢中敘事、蔡曹世系、異字名及爵位時段不據此作已確證史實。"
-        }
-      }
+      "chapter_ref": "data/corpus/shiji/035.json"
     },
     {
       "chapter_id": "c-shiji-037-wei",
       "work_id": "w-shiji",
       "book_id": "b-shiji-037",
       "source_id": "s-shiji-037-wei",
-      "source": {
-        "title": "史記／卷037",
-        "provider": "維基文庫",
-        "url": "https://zh.wikisource.org/wiki/史記/卷037",
-        "permalink": "https://zh.wikisource.org/w/index.php?title=史記/卷037&oldid=5977124",
-        "revision_id": 5977124,
-        "accessed_on": "2026-10-09",
-        "extent": "53段傳世正文，自衞康叔名封至太史公論贊，另保留1段數位見證附載索隱述贊並分層；排除2個dd導覽。",
-        "image_verified": false,
-        "rights": "古代原文；數位轉錄依維基文庫CC BY-SA 4.0，保留署名及固定版本。",
-        "license_url": "https://creativecommons.org/licenses/by-sa/4.0/",
-        "normalization": {
-          "character_conversion": {
-            "绖": "絰"
-          },
-          "editorial_readings": [
-            {
-              "paragraph_id": "c-shiji-037-wei:p027",
-              "rendered": "史Template:按",
-              "wikitext": "史{{按|魚}}",
-              "transcribed": "史魚",
-              "reason": "同一固定版本的按模板失效；取原始標記明示的魚字恢復轉錄，不是依模型補名或底本校勘。"
-            }
-          ],
-          "extraction_note": "固定版本與實讀HTML一致。第31段绖轉絰；第27段失效模板按同版原始標記修復。衞、偼、呉、徴、盂黶等其餘原字不默改。末段標題在h2索隱述贊，另層保留，不把標題添加到原段。",
-          "note": "未核可靠古籍底本及影像，原紀年、世系及異體保留。未以後世研究摘要直接修改親屬或身份。"
-        }
-      }
+      "chapter_ref": "data/corpus/shiji/037.json"
     },
     {
       "chapter_id": "c-shiji-038-song",
       "work_id": "w-shiji",
       "book_id": "b-shiji-038",
       "source_id": "s-shiji-038-song",
-      "source": {
-        "title": "史記／卷038",
-        "provider": "維基文庫",
-        "url": "https://zh.wikisource.org/wiki/史記/卷038",
-        "permalink": "https://zh.wikisource.org/w/index.php?title=史記/卷038&oldid=8737306",
-        "revision_id": 8737306,
-        "accessed_on": "2026-10-09",
-        "extent": "59段正文，自微子開至太史公論贊；排除2個dd導覽、正文邊界空白、末端空p與現代版權模板。本見證未見索隱述贊。",
-        "image_verified": false,
-        "rights": "古代原文；數位轉錄依維基文庫CC BY-SA 4.0，保留署名及固定版本。",
-        "license_url": "https://creativecommons.org/licenses/by-sa/4.0/",
-        "normalization": {
-          "character_conversion": {},
-          "editorial_readings": [
-            {
-              "paragraph_id": "c-shiji-038-song:p001",
-              "witness_note": "〈避漢景帝諱啓，改啓爲開〉",
-              "treatment": "數位見證的避諱說明另存，不作古文或景帝在場人物。"
-            },
-            {
-              "paragraph_id": "c-shiji-038-song:p050",
-              "witness_note": "傳世本「戌」作「成」；數位註釋援引公羊傳及鐘銘主張成為訛字。",
-              "treatment": "移除HTML sup reference註號[1]，正文保留本版戌；註者身份及所引古籍、鐘銘尚未獨立核讀，不直接採為校定。"
-            }
-          ],
-          "extraction_note": "固定版本與實讀HTML一致；只去除段落首尾版面換行、開篇明示數位避諱說明及第50段HTML reference註號。保留段內標點、古字、戌、鮑革、唐山、褍秦、頭曼及（鄭）［楚］命（楚）［鄭］的行內校勘。",
-          "note": "未核可靠古籍底本及影像，古代原紀年、世系與數位見證讀法保留；不以版本註釋或後世研究直接重指人物。"
-        }
-      }
+      "chapter_ref": "data/corpus/shiji/038.json"
     }
   ],
   "relations": [
@@ -325,7 +265,7 @@
           "chapter_id": "c-shiji-038-song",
           "source_id": "s-shiji-038-song",
           "paragraph_id": "c-shiji-038-song:p031",
-          "quote": "九年，大司馬孔父嘉妻好，出，道遇太宰華督，督說，目而觀之。督利孔父妻，乃使人宣言國中曰：「殤公即位十年耳，而十一戰，民苦不堪，皆孔父爲之，我且殺孔父以寧民。」是歲，魯弒其君隱公。十年，華督攻殺孔父，取其妻。殤公怒，遂弒殤公，而迎穆公子馮於鄭而立之，是爲莊公。"
+          "quote_passage_ref": "data/corpus/shiji/038.json"
         }
       ],
       "qualifiers": {
@@ -357,7 +297,7 @@
           "chapter_id": "c-shiji-038-song",
           "source_id": "s-shiji-038-song",
           "paragraph_id": "c-shiji-038-song:p031",
-          "quote": "九年，大司馬孔父嘉妻好，出，道遇太宰華督，督說，目而觀之。督利孔父妻，乃使人宣言國中曰：「殤公即位十年耳，而十一戰，民苦不堪，皆孔父爲之，我且殺孔父以寧民。」是歲，魯弒其君隱公。十年，華督攻殺孔父，取其妻。殤公怒，遂弒殤公，而迎穆公子馮於鄭而立之，是爲莊公。"
+          "quote_passage_ref": "data/corpus/shiji/038.json"
         }
       ],
       "qualifiers": {
@@ -381,8 +321,8 @@
           "chapter_id": "c-shiji-035-guancai",
           "source_id": "s-shiji-035-guancai",
           "paragraph_id": "c-shiji-035-guancai:p031",
-          "quote": "桓公三十五年，魯隱公立。四十五年，魯弒其君隱公。四十六年，宋華父督弒其君殤公，及孔父。五十五年，桓公卒，子莊公夕姑立。",
-          "person_mention_id": "c-shiji-035-guancai:m031-0040"
+          "person_mention_id": "c-shiji-035-guancai:m031-0040",
+          "quote_passage_ref": "data/corpus/shiji/035.json"
         }
       ],
       "source_term": "及孔父",
@@ -401,8 +341,8 @@
           "chapter_id": "c-shiji-037-wei",
           "source_id": "s-shiji-037-wei",
           "paragraph_id": "c-shiji-037-wei:p012",
-          "quote": "宣公七年，魯弒其君隱公。九年，宋督弒其君殤公，及孔父。十年，晉曲沃莊伯弒其君哀侯。",
-          "person_mention_id": "c-shiji-037-wei:m012-0024"
+          "person_mention_id": "c-shiji-037-wei:m012-0024",
+          "quote_passage_ref": "data/corpus/shiji/037.json"
         }
       ],
       "source_term": "宋督弒其君殤公，及孔父",
@@ -421,8 +361,8 @@
           "chapter_id": "c-shiji-038-song",
           "source_id": "s-shiji-038-song",
           "paragraph_id": "c-shiji-038-song:p031",
-          "quote": "九年，大司馬孔父嘉妻好，出，道遇太宰華督，督說，目而觀之。督利孔父妻，乃使人宣言國中曰：「殤公即位十年耳，而十一戰，民苦不堪，皆孔父爲之，我且殺孔父以寧民。」是歲，魯弒其君隱公。十年，華督攻殺孔父，取其妻。殤公怒，遂弒殤公，而迎穆公子馮於鄭而立之，是爲莊公。",
-          "person_mention_id": "c-shiji-038-song:m031-0031"
+          "person_mention_id": "c-shiji-038-song:m031-0031",
+          "quote_passage_ref": "data/corpus/shiji/038.json"
         }
       ],
       "source_term": "華督攻殺孔父",

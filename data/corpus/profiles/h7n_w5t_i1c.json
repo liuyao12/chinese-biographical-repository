@@ -20,7 +20,6 @@
       "raw_count": 2,
       "duplicate_count": 0,
       "counting_policy": "independent_fixed_witness_occurrences",
-      "quote": "魏書曰休祖父嘗為呉郡太守休於太守舍見壁上祖父畫像下榻拜涕泣同坐者皆嘉歎焉",
       "paragraph_ids": [
         "c-sanguozhi-009-caoxiu:p002"
       ],
@@ -53,7 +52,12 @@
       "book_id": "b-sanguozhi-009",
       "chapter_id": "c-sanguozhi-009-caoxiu",
       "source_id": "s-sanguozhi-009-caoxiu",
-      "work_title": "三國志"
+      "work_title": "三國志",
+      "chapter_ref": "data/corpus/sanguozhi/009-caoxiu.json",
+      "quote_span": [
+        0,
+        36
+      ]
     }
   ],
   "table_occurrences": [],
@@ -63,27 +67,7 @@
       "work_id": "w-sanguozhi",
       "book_id": "b-sanguozhi-009",
       "source_id": "s-sanguozhi-009-caoxiu",
-      "source": {
-        "title": "三國志卷九曹休完整本傳及附敘",
-        "provider": "Kanripo",
-        "url": "https://raw.githubusercontent.com/kanripo/KR2a0012/214fcafa79894355909c9d8c2c1533089e7791c6/KR2a0012_009.txt",
-        "permalink": "https://raw.githubusercontent.com/kanripo/KR2a0012/214fcafa79894355909c9d8c2c1533089e7791c6/KR2a0012_009.txt",
-        "revision_id": "214fcafa79894355909c9d8c2c1533089e7791c6",
-        "accessed_on": "2026-10-19",
-        "edition": "四庫全書數位固定見證；未核影像",
-        "extent": "曹休本傳及肇、纂附敘與裴注引文；原行272–308，下一曹真309不含。",
-        "text_scope": "partial_chapter",
-        "review_status": "text_checked",
-        "image_verified": false,
-        "license_url": "https://github.com/kanripo/KR2a0012",
-        "rights": "古代正文與公開Kanripo轉錄",
-        "raw_sha256": "dd430a2e31130eb1c392b1e2a034686685fed0366ff713ece75226ba8cdedf03",
-        "normalization": {
-          "character_conversion": "none",
-          "extraction_note": "刪原行尾¶與頁標並串接；各注層只移除行內注釋括號語法，原字符逐字映射；不改顔逺/襄陽/呉等字。",
-          "excerpts": []
-        }
-      }
+      "chapter_ref": "data/corpus/sanguozhi/009-caoxiu.json"
     }
   ],
   "relations": [
@@ -104,8 +88,8 @@
           "source_id": "s-sanguozhi-009-caoxiu",
           "chapter_id": "c-sanguozhi-009-caoxiu",
           "paragraph_id": "c-sanguozhi-009-caoxiu:p002",
-          "quote": "魏書曰休祖父嘗為呉郡太守休於太守舍見壁上祖父畫像下榻拜涕泣同坐者皆嘉歎焉",
-          "person_mention_id": "c-sanguozhi-009-caoxiu:p002:m0003"
+          "person_mention_id": "c-sanguozhi-009-caoxiu:p002:m0003",
+          "quote_passage_ref": "data/corpus/sanguozhi/009-caoxiu.json"
         }
       ]
     }
@@ -137,8 +121,8 @@
           "source_id": "s-sanguozhi-009-caoxiu",
           "chapter_id": "c-sanguozhi-009-caoxiu",
           "paragraph_id": "c-sanguozhi-009-caoxiu:p002",
-          "quote": "魏書曰休祖父嘗為呉郡太守休於太守舍見壁上祖父畫像下榻拜涕泣同坐者皆嘉歎焉",
-          "person_mention_id": "c-sanguozhi-009-caoxiu:p002:m0003"
+          "person_mention_id": "c-sanguozhi-009-caoxiu:p002:m0003",
+          "quote_passage_ref": "data/corpus/sanguozhi/009-caoxiu.json"
         }
       ]
     }
@@ -185,19 +169,19 @@
             "chapter_id": "c-sanguozhi-009-caoxiu",
             "paragraph_id": "c-sanguozhi-009-caoxiu:p001",
             "source_id": "s-sanguozhi-009-caoxiu",
-            "quote": "曹休字文烈太祖族子也天下亂宗族各散去鄉里休年十餘歳喪父獨與一客擔喪假葬攜將老母渡江至呉",
             "assertion_id": "a-sgz009-caoxiu54a-006",
             "scope": "完整正文段",
-            "url": "https://raw.githubusercontent.com/kanripo/KR2a0012/214fcafa79894355909c9d8c2c1533089e7791c6/KR2a0012_009.txt"
+            "url": "https://raw.githubusercontent.com/kanripo/KR2a0012/214fcafa79894355909c9d8c2c1533089e7791c6/KR2a0012_009.txt",
+            "quote_passage_ref": "data/corpus/sanguozhi/009-caoxiu.json"
           },
           {
             "chapter_id": "c-sanguozhi-009-caoxiu",
             "paragraph_id": "c-sanguozhi-009-caoxiu:p002",
             "source_id": "s-sanguozhi-009-caoxiu",
-            "quote": "魏書曰休祖父嘗為呉郡太守休於太守舍見壁上祖父畫像下榻拜涕泣同坐者皆嘉歎焉",
             "assertion_id": "a-sgz009-caoxiu54a-005",
             "scope": "完整裴注引書段",
-            "url": "https://raw.githubusercontent.com/kanripo/KR2a0012/214fcafa79894355909c9d8c2c1533089e7791c6/KR2a0012_009.txt"
+            "url": "https://raw.githubusercontent.com/kanripo/KR2a0012/214fcafa79894355909c9d8c2c1533089e7791c6/KR2a0012_009.txt",
+            "quote_passage_ref": "data/corpus/sanguozhi/009-caoxiu.json"
           }
         ]
       },

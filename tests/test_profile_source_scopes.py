@@ -1,4 +1,5 @@
 """Public profiles retain exact source scopes and every marked occurrence."""
+from stored_documents import read_document
 import json
 import unittest
 from collections import defaultdict
@@ -28,7 +29,7 @@ class ProfileSourceScopesTests(unittest.TestCase):
             for row in json.loads(path.read_text())['records']:
                 if row['kind'] == 'resolved_person_occurrence_alias':
                     cls.canonical_mentions[row['duplicate_mention_id']] = row['canonical_mention_id']
-        cls.profiles = [json.loads(p.read_text()) for p in
+        cls.profiles = [read_document(p) for p in
                         (ROOT / 'data/corpus/profiles').glob('*.json')
                         if p.stem != 'index']
 

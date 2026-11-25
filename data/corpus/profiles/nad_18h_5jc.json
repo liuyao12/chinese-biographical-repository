@@ -24,7 +24,7 @@
           "chapter_id": "c-shiji-049-waiqi",
           "source_id": "s-shiji-049-waiqi",
           "paragraph_id": "c-shiji-049-waiqi:p024",
-          "quote": "景帝十三男，一男為帝，十二男皆為王。而兒姁早卒，其四子皆為王。王太后長女號日平陽公主，次為南宮公主，次為林慮公主。"
+          "quote_passage_ref": "data/corpus/shiji/049.json"
         }
       ],
       "attestations": [
@@ -66,7 +66,7 @@
           "chapter_id": "c-shiji-054-cao",
           "source_id": "s-shiji-054-cao",
           "paragraph_id": "c-shiji-054-cao:p017",
-          "quote": "平陽侯窋，高后時為御史大夫。孝文帝立，免為侯。立二十九年卒，謚為靜侯。子奇代侯，立七年卒，謚為簡侯。子時代侯。時尚平陽公主，生子襄。時病癘，歸國。立二十三年卒，謚夷侯。子襄代侯。襄尚衛長公主，生子宗。立十六年卒，謚為共侯。子宗代侯。征和二年中，宗坐太子死，國除。"
+          "quote_passage_ref": "data/corpus/shiji/054.json"
         }
       ],
       "attestations": [
@@ -108,7 +108,7 @@
           "chapter_id": "c-shiji-111-wei-huo",
           "source_id": "s-shiji111-wei-huo",
           "paragraph_id": "c-shiji-111-wei-huo:p001",
-          "quote": "大將軍衛青者，平陽人也。其父鄭季，為吏，給事平陽侯家，與侯妾衛媼通，生青。青同母兄衛長子，而姊衛子夫自平陽公主家得幸天子，故冒姓為衛氏。字仲卿。長子更字長君。長君母號為衛媼。媼長女衛孺，次女少兒，次女即子夫。後子夫男弟步、廣皆冒衛氏。"
+          "quote_passage_ref": "data/corpus/shiji/111.json"
         }
       ],
       "attestations": [
@@ -150,7 +150,6 @@
       "raw_count": 11,
       "duplicate_count": 0,
       "counting_policy": "independent_fixed_witness_occurrences",
-      "quote": "三男，一男為帝，十二男皆為王。而兒姁早卒，其四子皆為王。王太后長女號日平陽公主，次為南宮公主，次為林慮公主。",
       "paragraph_ids": [
         "c-shiji-049-waiqi:p024",
         "c-shiji-049-waiqi:p026",
@@ -268,7 +267,12 @@
       "book_id": "b-shiji-049",
       "chapter_id": "c-shiji-049-waiqi",
       "source_id": "s-shiji-049-waiqi",
-      "work_title": "史記"
+      "work_title": "史記",
+      "chapter_ref": "data/corpus/shiji/049.json",
+      "quote_span": [
+        3,
+        57
+      ]
     },
     {
       "number": 54,
@@ -279,7 +283,6 @@
       "raw_count": 1,
       "duplicate_count": 0,
       "counting_policy": "independent_fixed_witness_occurrences",
-      "quote": "。立二十九年卒，謚為靜侯。子奇代侯，立七年卒，謚為簡侯。子時代侯。時尚平陽公主，生子襄。時病癘，歸國。立二十三年卒，謚夷侯。子襄代侯。襄尚衛長公主，生子宗。立十六年卒，謚為共侯。子宗代侯。征和二年中，宗坐太子死，國除。",
       "paragraph_ids": [
         "c-shiji-054-cao:p017"
       ],
@@ -303,7 +306,12 @@
       "book_id": "b-shiji-054",
       "chapter_id": "c-shiji-054-cao",
       "source_id": "s-shiji-054-cao",
-      "work_title": "史記"
+      "work_title": "史記",
+      "chapter_ref": "data/corpus/shiji/054.json",
+      "quote_span": [
+        22,
+        131
+      ]
     },
     {
       "number": 104,
@@ -314,7 +322,6 @@
       "raw_count": 1,
       "duplicate_count": 0,
       "counting_policy": "independent_fixed_witness_occurrences",
-      "quote": "知人哉家監也！」任安曰：「將軍尚不知人，何乃家監也！」衛將軍從此兩人過平陽主，主家令兩人與騎奴同席而食，此二子拔刀列斷席別坐。主家皆怪而惡之，莫敢呵。",
       "paragraph_ids": [
         "c-shiji-104-tianshu:p011"
       ],
@@ -338,7 +345,12 @@
       "book_id": "b-shiji-104",
       "chapter_id": "c-shiji-104-tianshu",
       "source_id": "s-shiji-104-tianshu",
-      "work_title": "史記"
+      "work_title": "史記",
+      "chapter_ref": "data/corpus/shiji/104.json",
+      "quote_span": [
+        64,
+        139
+      ]
     },
     {
       "number": 111,
@@ -349,7 +361,6 @@
       "raw_count": 4,
       "duplicate_count": 0,
       "counting_policy": "independent_fixed_witness_occurrences",
-      "quote": "，為吏，給事平陽侯家，與侯妾衛媼通，生青。青同母兄衛長子，而姊衛子夫自平陽公主家得幸天子，故冒姓為衛氏。字仲卿。長子更字長君。長君母號為衛媼。媼長女衛孺，次女少兒，次女即子夫。後子夫男弟步、廣皆冒衛氏。",
       "paragraph_ids": [
         "c-shiji-111-wei-huo:p001",
         "c-shiji-111-wei-huo:p003",
@@ -403,7 +414,12 @@
       "book_id": "b-shiji-111",
       "chapter_id": "c-shiji-111-wei-huo",
       "source_id": "s-shiji111-wei-huo",
-      "work_title": "史記"
+      "work_title": "史記",
+      "chapter_ref": "data/corpus/shiji/111.json",
+      "quote_span": [
+        16,
+        117
+      ]
     }
   ],
   "table_occurrences": [],
@@ -413,144 +429,42 @@
       "work_id": "w-shiji",
       "book_id": "b-shiji-049",
       "source_id": "s-shiji-049-waiqi",
-      "source": {
-        "title": "史記／卷049",
-        "provider": "維基文庫",
-        "url": "https://zh.wikisource.org/wiki/史記/卷049",
-        "permalink": "https://zh.wikisource.org/w/index.php?title=史記/卷049&oldid=7903610",
-        "revision_id": 7903610,
-        "accessed_on": "2026-10-09",
-        "extent": "44段史文，前34段篇文，後10段自褚先生曰起為附載文字；數位分節欄題不是古文段落。",
-        "image_verified": false,
-        "rights": "古代原文；數位轉錄依維基文庫CC BY-SA 4.0，保留署名及固定版本。",
-        "license_url": "https://creativecommons.org/licenses/by-sa/4.0/",
-        "normalization": {
-          "character_conversion": {},
-          "editorial_readings": [],
-          "extraction_note": "固定修訂與取得時HTML相同，只去段落外緣空白；保留（寒）［暮］、［及尊］、（子）［一］及號日等數位見證原字與校勘字樣。",
-          "note": "全44段已讀並作明示人名首輪；未核底本、影像或現代研究。"
-        }
-      }
+      "chapter_ref": "data/corpus/shiji/049.json"
     },
     {
       "chapter_id": "c-shiji-054-cao",
       "work_id": "w-shiji",
       "book_id": "b-shiji-054",
       "source_id": "s-shiji-054-cao",
-      "source": {
-        "title": "史記／卷054",
-        "provider": "維基文庫",
-        "url": "https://zh.wikisource.org/wiki/史記/卷054",
-        "permalink": "https://zh.wikisource.org/w/index.php?title=史記/卷054&oldid=1490182",
-        "revision_id": 1490182,
-        "accessed_on": "2026-10-09",
-        "extent": "18段篇文及1段索隱述贊，無需排除數位欄題。",
-        "image_verified": false,
-        "rights": "古代原文；數位轉錄依維基文庫CC BY-SA 4.0，保留署名及固定版本。",
-        "license_url": "https://creativecommons.org/licenses/by-sa/4.0/",
-        "normalization": {
-          "character_conversion": {},
-          "editorial_readings": [],
-          "extraction_note": "取得時HTML與固定修訂一致，只去外緣空白。保留夷[1]、高祖（三）［二］年、齊故［俗］、田既／田溉、共侯及末段索隱標記。夷後[1]是數位注釋標號，不當古文；同版注釋稱此字作上尸下二，未核底本不改字。",
-          "note": "全19段已讀並作明示人物首輪；未核底本、影像或現代研究。"
-        }
-      }
+      "chapter_ref": "data/corpus/shiji/054.json"
     },
     {
       "chapter_id": "c-shiji-095-fankuang",
       "work_id": "w-shiji",
       "book_id": "b-shiji-095",
       "source_id": "s-shiji-095-fankuang",
-      "source": {
-        "title": "史記／卷095",
-        "provider": "維基文庫",
-        "url": "https://zh.wikisource.org/wiki/史記/卷095",
-        "permalink": "https://zh.wikisource.org/w/index.php?title=史記/卷095&oldid=2298709",
-        "revision_id": 2298709,
-        "accessed_on": "2026-10-09",
-        "extent": "34段傳世正文含太史公論，另附1段分層索隱述贊；排除導覽與空白。",
-        "image_verified": false,
-        "rights": "古代原文；數位轉錄依維基文庫CC BY-SA 4.0，保留署名及固定版本。",
-        "license_url": "https://creativecommons.org/licenses/by-sa/4.0/",
-        "normalization": {
-          "character_conversion": {},
-          "editorial_readings": [],
-          "extraction_note": "固定HTML一致，只去外緣空白；樊噌、（肩）［屏］、（博）［傅］、（太卜）太仆、穎陰等原字保留。",
-          "note": "全37個HTML區塊已讀，未核底本影像。"
-        }
-      }
+      "chapter_ref": "data/corpus/shiji/095.json"
     },
     {
       "chapter_id": "c-shiji-104-tianshu",
       "work_id": "w-shiji",
       "book_id": "b-shiji-104",
       "source_id": "s-shiji-104-tianshu",
-      "source": {
-        "title": "史記／卷104",
-        "provider": "維基文庫",
-        "url": "https://zh.wikisource.org/wiki/史記/卷104",
-        "permalink": "https://zh.wikisource.org/w/index.php?title=史記/卷104&oldid=8739534",
-        "revision_id": 8739534,
-        "accessed_on": "2026-10-10",
-        "extent": "9段正文含太史公論，7段署褚先生補文與1段索隱述贊。",
-        "image_verified": false,
-        "rights": "古代原文；數位轉錄依維基文庫CC BY-SA 4.0，保留署名及固定版本。",
-        "license_url": "https://creativecommons.org/licenses/by-sa/4.0/",
-        "normalization": {
-          "character_conversion": {},
-          "editorial_readings": [],
-          "extraction_note": "去標題與介面模板，原字、標點及段落次序保留。",
-          "note": "未核底本影像。"
-        }
-      }
+      "chapter_ref": "data/corpus/shiji/104.json"
     },
     {
       "chapter_id": "c-shiji-111-wei-huo",
       "work_id": "w-shiji",
       "book_id": "b-shiji-111",
       "source_id": "s-shiji111-wei-huo",
-      "source": {
-        "title": "史記／卷111",
-        "provider": "維基文庫",
-        "url": "https://zh.wikisource.org/wiki/史記/卷111",
-        "permalink": "https://zh.wikisource.org/w/index.php?title=史記/卷111&oldid=8730225",
-        "revision_id": 8730225,
-        "accessed_on": "2026-10-11",
-        "extent": "固定數位見證去介面及現代節標題後48段；末段索隱述贊分層。",
-        "image_verified": false,
-        "rights": "古代原文；數位轉錄依維基文庫CC BY-SA 4.0，保留署名及固定版本。",
-        "license_url": "https://creativecommons.org/licenses/by-sa/4.0/",
-        "normalization": {
-          "character_conversion": {},
-          "editorial_readings": [],
-          "extraction_note": "去 header2 介面、現代節標題及 wikipedia 導航模板，YL 紀年模板保留原詞；原字、標點及段落次序不改，索隱述贊另標文字層次。",
-          "note": "未核底本影像。"
-        }
-      }
+      "chapter_ref": "data/corpus/shiji/111.json"
     },
     {
       "chapter_id": "c-shiji-125-ningxing",
       "work_id": "w-shiji",
       "book_id": "b-shiji-125",
       "source_id": "s-shiji125-ningxing",
-      "source": {
-        "title": "史記／卷125",
-        "provider": "維基文庫",
-        "url": "https://zh.wikisource.org/wiki/史記/卷125",
-        "permalink": "https://zh.wikisource.org/w/index.php?title=史記/卷125&oldid=2273599",
-        "revision_id": 2273599,
-        "accessed_on": "2026-10-11",
-        "extent": "固定修訂全文5段，末段太史公論贊屬篇文。",
-        "image_verified": false,
-        "rights": "古代原文；數位轉錄依維基文庫CC BY-SA 4.0，保留署名及固定版本。",
-        "license_url": "https://creativecommons.org/licenses/by-sa/4.0/",
-        "normalization": {
-          "character_conversion": {},
-          "editorial_readings": [],
-          "extraction_note": "去header2與現代節標；移除字形選擇包裝而保留姦字，原字未轉換，未核影像。",
-          "note": "全篇收到正文，太史公論贊屬篇文。"
-        }
-      }
+      "chapter_ref": "data/corpus/shiji/125.json"
     }
   ],
   "relations": [
@@ -565,7 +479,7 @@
           "chapter_id": "c-shiji-049-waiqi",
           "source_id": "s-shiji-049-waiqi",
           "paragraph_id": "c-shiji-049-waiqi:p028",
-          "quote": "陳皇后母大長公主，景帝姊也，數讓武帝姊平陽公主曰：「帝非我不得立，已而棄捐吾女，壹何不自喜而倍本乎！」平陽公主曰：「用無子故廢耳。」陳皇后求子，與醫錢凡九千萬，然竟無子。"
+          "quote_passage_ref": "data/corpus/shiji/049.json"
         }
       ],
       "qualifiers": {
@@ -586,7 +500,7 @@
           "chapter_id": "c-shiji-049-waiqi",
           "source_id": "s-shiji-049-waiqi",
           "paragraph_id": "c-shiji-049-waiqi:p037",
-          "quote": "是時平陽主寡居，當用列侯尚主。主與左右議長安中列侯可為夫者，皆言大將軍可。主笑曰：「此出吾家，常使令騎從我出入耳，柰何用為夫乎？」左右侍御者曰：「今大將軍姊為皇后，三子為侯，富貴振動天下，主何以易之乎？」於是主乃許之。言之皇后，令白之武帝，乃詔衛將軍尚平陽公主焉。"
+          "quote_passage_ref": "data/corpus/shiji/049.json"
         }
       ],
       "qualifiers": {
@@ -607,7 +521,7 @@
           "chapter_id": "c-shiji-049-waiqi",
           "source_id": "s-shiji-049-waiqi",
           "paragraph_id": "c-shiji-049-waiqi:p024",
-          "quote": "景帝十三男，一男為帝，十二男皆為王。而兒姁早卒，其四子皆為王。王太后長女號日平陽公主，次為南宮公主，次為林慮公主。"
+          "quote_passage_ref": "data/corpus/shiji/049.json"
         }
       ],
       "qualifiers": {
@@ -628,7 +542,7 @@
           "chapter_id": "c-shiji-049-waiqi",
           "source_id": "s-shiji-049-waiqi",
           "paragraph_id": "c-shiji-049-waiqi:p024",
-          "quote": "景帝十三男，一男為帝，十二男皆為王。而兒姁早卒，其四子皆為王。王太后長女號日平陽公主，次為南宮公主，次為林慮公主。"
+          "quote_passage_ref": "data/corpus/shiji/049.json"
         }
       ],
       "qualifiers": {
@@ -657,7 +571,7 @@
           "chapter_id": "c-shiji-054-cao",
           "source_id": "s-shiji-054-cao",
           "paragraph_id": "c-shiji-054-cao:p017",
-          "quote": "平陽侯窋，高后時為御史大夫。孝文帝立，免為侯。立二十九年卒，謚為靜侯。子奇代侯，立七年卒，謚為簡侯。子時代侯。時尚平陽公主，生子襄。時病癘，歸國。立二十三年卒，謚夷侯。子襄代侯。襄尚衛長公主，生子宗。立十六年卒，謚為共侯。子宗代侯。征和二年中，宗坐太子死，國除。"
+          "quote_passage_ref": "data/corpus/shiji/054.json"
         }
       ],
       "qualifiers": {
@@ -678,7 +592,7 @@
           "chapter_id": "c-shiji-054-cao",
           "source_id": "s-shiji-054-cao",
           "paragraph_id": "c-shiji-054-cao:p017",
-          "quote": "平陽侯窋，高后時為御史大夫。孝文帝立，免為侯。立二十九年卒，謚為靜侯。子奇代侯，立七年卒，謚為簡侯。子時代侯。時尚平陽公主，生子襄。時病癘，歸國。立二十三年卒，謚夷侯。子襄代侯。襄尚衛長公主，生子宗。立十六年卒，謚為共侯。子宗代侯。征和二年中，宗坐太子死，國除。"
+          "quote_passage_ref": "data/corpus/shiji/054.json"
         }
       ],
       "qualifiers": {
@@ -699,7 +613,7 @@
           "chapter_id": "c-shiji-111-wei-huo",
           "source_id": "s-shiji111-wei-huo",
           "paragraph_id": "c-shiji-111-wei-huo:p025",
-          "quote": "大將軍以其得尚平陽長公主故，長平侯伉代侯。六歲，坐法失侯。"
+          "quote_passage_ref": "data/corpus/shiji/111.json"
         }
       ],
       "qualifiers": {
@@ -782,7 +696,7 @@
           "chapter_id": "c-shiji-049-waiqi",
           "source_id": "s-shiji-049-waiqi",
           "paragraph_id": "c-shiji-049-waiqi:p028",
-          "quote": "陳皇后母大長公主，景帝姊也，數讓武帝姊平陽公主曰：「帝非我不得立，已而棄捐吾女，壹何不自喜而倍本乎！」平陽公主曰：「用無子故廢耳。」陳皇后求子，與醫錢凡九千萬，然竟無子。"
+          "quote_passage_ref": "data/corpus/shiji/049.json"
         }
       ],
       "qualifiers": {
@@ -803,7 +717,7 @@
           "chapter_id": "c-shiji-049-waiqi",
           "source_id": "s-shiji-049-waiqi",
           "paragraph_id": "c-shiji-049-waiqi:p037",
-          "quote": "是時平陽主寡居，當用列侯尚主。主與左右議長安中列侯可為夫者，皆言大將軍可。主笑曰：「此出吾家，常使令騎從我出入耳，柰何用為夫乎？」左右侍御者曰：「今大將軍姊為皇后，三子為侯，富貴振動天下，主何以易之乎？」於是主乃許之。言之皇后，令白之武帝，乃詔衛將軍尚平陽公主焉。"
+          "quote_passage_ref": "data/corpus/shiji/049.json"
         }
       ],
       "qualifiers": {
@@ -824,7 +738,7 @@
           "chapter_id": "c-shiji-049-waiqi",
           "source_id": "s-shiji-049-waiqi",
           "paragraph_id": "c-shiji-049-waiqi:p024",
-          "quote": "景帝十三男，一男為帝，十二男皆為王。而兒姁早卒，其四子皆為王。王太后長女號日平陽公主，次為南宮公主，次為林慮公主。"
+          "quote_passage_ref": "data/corpus/shiji/049.json"
         }
       ],
       "qualifiers": {
@@ -845,7 +759,7 @@
           "chapter_id": "c-shiji-049-waiqi",
           "source_id": "s-shiji-049-waiqi",
           "paragraph_id": "c-shiji-049-waiqi:p024",
-          "quote": "景帝十三男，一男為帝，十二男皆為王。而兒姁早卒，其四子皆為王。王太后長女號日平陽公主，次為南宮公主，次為林慮公主。"
+          "quote_passage_ref": "data/corpus/shiji/049.json"
         }
       ],
       "qualifiers": {
@@ -874,7 +788,7 @@
           "chapter_id": "c-shiji-054-cao",
           "source_id": "s-shiji-054-cao",
           "paragraph_id": "c-shiji-054-cao:p017",
-          "quote": "平陽侯窋，高后時為御史大夫。孝文帝立，免為侯。立二十九年卒，謚為靜侯。子奇代侯，立七年卒，謚為簡侯。子時代侯。時尚平陽公主，生子襄。時病癘，歸國。立二十三年卒，謚夷侯。子襄代侯。襄尚衛長公主，生子宗。立十六年卒，謚為共侯。子宗代侯。征和二年中，宗坐太子死，國除。"
+          "quote_passage_ref": "data/corpus/shiji/054.json"
         }
       ],
       "qualifiers": {
@@ -895,7 +809,7 @@
           "chapter_id": "c-shiji-054-cao",
           "source_id": "s-shiji-054-cao",
           "paragraph_id": "c-shiji-054-cao:p017",
-          "quote": "平陽侯窋，高后時為御史大夫。孝文帝立，免為侯。立二十九年卒，謚為靜侯。子奇代侯，立七年卒，謚為簡侯。子時代侯。時尚平陽公主，生子襄。時病癘，歸國。立二十三年卒，謚夷侯。子襄代侯。襄尚衛長公主，生子宗。立十六年卒，謚為共侯。子宗代侯。征和二年中，宗坐太子死，國除。"
+          "quote_passage_ref": "data/corpus/shiji/054.json"
         }
       ],
       "qualifiers": {
@@ -916,7 +830,7 @@
           "chapter_id": "c-shiji-111-wei-huo",
           "source_id": "s-shiji111-wei-huo",
           "paragraph_id": "c-shiji-111-wei-huo:p025",
-          "quote": "大將軍以其得尚平陽長公主故，長平侯伉代侯。六歲，坐法失侯。"
+          "quote_passage_ref": "data/corpus/shiji/111.json"
         }
       ],
       "qualifiers": {

@@ -21,7 +21,6 @@
       "raw_count": 2,
       "duplicate_count": 0,
       "counting_policy": "independent_fixed_witness_occurrences",
-      "quote": "報漢，漢爲單于築邸于長安。匈奴曰：「非得漢貴人使，吾不與誠語。」匈奴使其貴人至漢，病，漢予藥，欲愈之，不幸而死。而漢使路充國佩二千石印綬往使，因送其喪，厚葬直數千金，曰「此漢貴人也」。單于以爲漢殺吾貴使者，乃留路充國不歸。諸所言者，單于特空紿王烏，殊無意入漢及遣太子來質。於是",
       "paragraph_ids": [
         "c-shiji-110-xiongnu:p048"
       ],
@@ -54,7 +53,12 @@
       "book_id": "b-shiji-110",
       "chapter_id": "c-shiji-110-xiongnu",
       "source_id": "s-shiji110-xiongnu",
-      "work_title": "史記"
+      "work_title": "史記",
+      "chapter_ref": "data/corpus/shiji/110.json",
+      "quote_span": [
+        51,
+        189
+      ]
     }
   ],
   "table_occurrences": [],
@@ -64,24 +68,7 @@
       "work_id": "w-shiji",
       "book_id": "b-shiji-110",
       "source_id": "s-shiji110-xiongnu",
-      "source": {
-        "title": "史記／卷110",
-        "provider": "維基文庫",
-        "url": "https://zh.wikisource.org/wiki/史記/卷110",
-        "permalink": "https://zh.wikisource.org/w/index.php?title=史記/卷110&oldid=8735645",
-        "revision_id": 8735645,
-        "accessed_on": "2026-10-11",
-        "extent": "固定數位見證去介面及現代節標題後61段，末段為太史公論。",
-        "image_verified": false,
-        "rights": "古代原文；數位轉錄依維基文庫CC BY-SA 4.0，保留署名及固定版本。",
-        "license_url": "https://creativecommons.org/licenses/by-sa/4.0/",
-        "normalization": {
-          "character_conversion": {},
-          "editorial_readings": [],
-          "extraction_note": "去 header2 介面及現代單于節標題、太史公曰節標題；移除單字語言轉換包裹與下劃線標籤，紀年 YL 模板保留顯示原詞。其餘原字、標點及段落次序保留，不從小標題補正文人名。",
-          "note": "未核底本影像。"
-        }
-      }
+      "chapter_ref": "data/corpus/shiji/110.json"
     }
   ],
   "relations": [],
@@ -127,8 +114,8 @@
           "chapter_id": "c-shiji-110-xiongnu",
           "source_id": "s-shiji110-xiongnu",
           "paragraph_id": "c-shiji-110-xiongnu:p048",
-          "quote": "楊信既歸，漢使王烏，而單于復肴甘言，欲多得漢財物，紿謂王烏曰：「吾欲入漢見天子，面相約爲兄弟。」王烏歸報漢，漢爲單于築邸于長安。匈奴曰：「非得漢貴人使，吾不與誠語。」匈奴使其貴人至漢，病，漢予藥，欲愈之，不幸而死。而漢使路充國佩二千石印綬往使，因送其喪，厚葬直數千金，曰「此漢貴人也」。單于以爲漢殺吾貴使者，乃留路充國不歸。諸所言者，單于特空紿王烏，殊無意入漢及遣太子來質。於是匈奴數使奇兵侵犯邊。漢乃拜郭昌爲拔胡將軍，及浞野侯屯朔方以東，備胡。路充國留匈奴三歳，單于死。",
-          "person_mention_id": "c-shiji-110-xiongnu:m048-0086"
+          "person_mention_id": "c-shiji-110-xiongnu:m048-0086",
+          "quote_passage_ref": "data/corpus/shiji/110.json"
         }
       ],
       "interpretation_note": "保存明示死亡及原有相對敘事；使事與征服背景跨年，未定數字卒年。貴使在漢病死，不把單于以為漢殺判為已證實謀殺，不猜卒地城名或葬地。",

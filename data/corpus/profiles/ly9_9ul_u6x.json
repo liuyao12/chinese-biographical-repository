@@ -25,7 +25,7 @@
           "chapter_id": "c-shiji-126-huaji",
           "source_id": "s-shiji126-huaji",
           "paragraph_id": "c-shiji-126-huaji:p002",
-          "quote": "淳于髡者，齊之贅婿也。長不滿七尺，滑稽多辯，數使諸侯，未嘗屈辱。齊威王之時喜隱，好為淫樂長夜之飲，沈湎不治，委政卿大夫。百官荒亂，諸侯并侵，國且危亡，在於旦暮，左右莫敢諫。淳于髡說之以隱曰：「國中有大鳥，止王之庭，三年不蜚又不鳴，不知此鳥何也？」王曰：「此鳥不飛則已，一飛沖天；不鳴則已，一鳴驚人。」於是乃朝諸縣令長七十二人，賞一人，誅一人，奮兵而出。諸侯振驚，皆還齊侵地。威行三十六年。語在田完世家中。"
+          "quote_passage_ref": "data/corpus/shiji/126.json"
         }
       ],
       "attestations": [
@@ -68,7 +68,6 @@
       "raw_count": 13,
       "duplicate_count": 0,
       "counting_policy": "independent_fixed_witness_occurrences",
-      "quote": "淳于髡者，齊之贅婿也。長不滿七尺，滑稽多辯，數使諸侯，未嘗屈辱。齊威王之時喜隱，好為淫樂長夜之飲，沈湎不治，委政卿大夫。百官荒亂，諸侯并侵，國且危亡，在於旦暮，左右莫敢諫。淳于髡說之以隱曰：「國中有大鳥，止王之庭，三年不蜚又不鳴，不知此鳥何也？」王曰：「此鳥不飛則已，一",
       "paragraph_ids": [
         "c-shiji-126-huaji:p002",
         "c-shiji-126-huaji:p003",
@@ -203,7 +202,12 @@
       "book_id": "b-shiji-126",
       "chapter_id": "c-shiji-126-huaji",
       "source_id": "s-shiji126-huaji",
-      "work_title": "史記"
+      "work_title": "史記",
+      "chapter_ref": "data/corpus/shiji/126.json",
+      "quote_span": [
+        0,
+        135
+      ]
     }
   ],
   "table_occurrences": [],
@@ -213,24 +217,7 @@
       "work_id": "w-shiji",
       "book_id": "b-shiji-126",
       "source_id": "s-shiji126-huaji",
-      "source": {
-        "title": "史記／卷126",
-        "provider": "維基文庫",
-        "url": "https://zh.wikisource.org/wiki/史記/卷126",
-        "permalink": "https://zh.wikisource.org/w/index.php?title=史記/卷126&oldid=2609358",
-        "revision_id": 2609358,
-        "accessed_on": "2026-10-11",
-        "extent": "固定修訂全文27段；篇文12段、褚少孫補文14段、索隱述贊1段。",
-        "image_verified": false,
-        "rights": "古代原文；數位轉錄依維基文庫CC BY-SA 4.0，保留署名及固定版本。",
-        "license_url": "https://creativecommons.org/licenses/by-sa/4.0/",
-        "normalization": {
-          "character_conversion": {},
-          "editorial_readings": [],
-          "extraction_note": "去header2、現代節標與wikipedia導覽模板，維基內鏈只留顯示文字，移除衛后字形選擇包裝而保留后字；未核影像。",
-          "note": "褚先生補與索隱述贊依來源節標分層，不作司馬遷篇文。"
-        }
-      }
+      "chapter_ref": "data/corpus/shiji/126.json"
     }
   ],
   "relations": [],

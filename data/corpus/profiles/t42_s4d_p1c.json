@@ -21,7 +21,7 @@
           "chapter_id": "c-shiji-011-jingdi",
           "source_id": "s-shiji-011-jingdi",
           "paragraph_id": "c-shiji-011-jingdi:p007",
-          "quote": "六年春，封中尉（趙）綰為建陵侯，江都丞相嘉為建平侯，隴西太守渾邪為平曲侯，趙丞相嘉為江陵侯，故將軍布為鄃侯。梁楚二王皆薨。後九月，伐馳道樹，殖蘭池。"
+          "quote_passage_ref": "data/corpus/shiji/011.json"
         }
       ],
       "attestations": [
@@ -46,7 +46,7 @@
               "chapter_id": "c-shiji-011-jingdi",
               "source_id": "s-shiji-011-jingdi",
               "paragraph_id": "c-shiji-011-jingdi:p007",
-              "quote": "六年春，封中尉（趙）綰為建陵侯，江都丞相嘉為建平侯，隴西太守渾邪為平曲侯，趙丞相嘉為江陵侯，故將軍布為鄃侯。梁楚二王皆薨。後九月，伐馳道樹，殖蘭池。"
+              "quote_passage_ref": "data/corpus/shiji/011.json"
             }
           ]
         },
@@ -73,7 +73,6 @@
       "raw_count": 1,
       "duplicate_count": 0,
       "counting_policy": "independent_fixed_witness_occurrences",
-      "quote": "春，封中尉（趙）綰為建陵侯，江都丞相嘉為建平侯，隴西太守渾邪為平曲侯，趙丞相嘉為江陵侯，故將軍布為鄃侯。梁楚二王皆薨。後九月，伐馳道樹，殖蘭池。",
       "paragraph_ids": [
         "c-shiji-011-jingdi:p007"
       ],
@@ -97,7 +96,12 @@
       "book_id": "b-shiji-011",
       "chapter_id": "c-shiji-011-jingdi",
       "source_id": "s-shiji-011-jingdi",
-      "work_title": "史記"
+      "work_title": "史記",
+      "chapter_ref": "data/corpus/shiji/011.json",
+      "quote_span": [
+        2,
+        74
+      ]
     }
   ],
   "table_occurrences": [],
@@ -107,24 +111,7 @@
       "work_id": "w-shiji",
       "book_id": "b-shiji-011",
       "source_id": "s-shiji-011-jingdi",
-      "source": {
-        "title": "史記／卷011",
-        "provider": "維基文庫",
-        "url": "https://zh.wikisource.org/wiki/史記/卷011",
-        "permalink": "https://zh.wikisource.org/w/index.php?title=史記/卷011&oldid=2520527",
-        "revision_id": 2520527,
-        "accessed_on": "2026-10-09",
-        "extent": "本篇18個p區塊，自孝景皇帝者至太史公論贊；排除跨站導覽dd、索隱述贊及其後現代版權告示。",
-        "image_verified": false,
-        "rights": "古代原文；數位轉錄依維基文庫CC BY-SA 4.0，保留署名及固定版本。",
-        "license_url": "https://creativecommons.org/licenses/by-sa/4.0/",
-        "normalization": {
-          "character_conversion": {},
-          "editorial_readings": [],
-          "extraction_note": "保留行內（弋）［易］、（子）［孫］及其他校勘符號，不把改讀當已校定原文。",
-          "note": "固定版本正文與實讀HTML一致；未核底本、影像或現代專門研究。"
-        }
-      }
+      "chapter_ref": "data/corpus/shiji/011.json"
     }
   ],
   "relations": [],

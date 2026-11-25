@@ -25,7 +25,7 @@
           "chapter_id": "c-shiji-004-zhou",
           "source_id": "s-shiji-004-zhou",
           "paragraph_id": "c-shiji-004-zhou:p073",
-          "quote": "慎靚王立六年，崩，子赧王延立。王赧時東西周分治。王赧徙都西周。"
+          "quote_passage_ref": "data/corpus/shiji/004.json"
         }
       ],
       "attestations": [
@@ -50,7 +50,7 @@
               "chapter_id": "c-shiji-004-zhou",
               "source_id": "s-shiji-004-zhou",
               "paragraph_id": "c-shiji-004-zhou:p073",
-              "quote": "慎靚王立六年，崩，子赧王延立。王赧時東西周分治。王赧徙都西周。"
+              "quote_passage_ref": "data/corpus/shiji/004.json"
             }
           ]
         },
@@ -82,7 +82,7 @@
           "chapter_id": "c-shiji-004-zhou",
           "source_id": "s-shiji-004-zhou",
           "paragraph_id": "c-shiji-004-zhou:p073",
-          "quote": "慎靚王立六年，崩，子赧王延立。王赧時東西周分治。王赧徙都西周。"
+          "quote_passage_ref": "data/corpus/shiji/004.json"
         }
       ],
       "source_term": "王赧徙都西周",
@@ -103,7 +103,6 @@
       "raw_count": 5,
       "duplicate_count": 0,
       "counting_policy": "independent_fixed_witness_occurrences",
-      "quote": "慎靚王立六年，崩，子赧王延立。王赧時東西周分治。王赧徙都西周。",
       "paragraph_ids": [
         "c-shiji-004-zhou:p073",
         "c-shiji-004-zhou:p079",
@@ -165,7 +164,12 @@
       "book_id": "b-shiji-004",
       "chapter_id": "c-shiji-004-zhou",
       "source_id": "s-shiji-004-zhou",
-      "work_title": "史記"
+      "work_title": "史記",
+      "chapter_ref": "data/corpus/shiji/004.json",
+      "quote_span": [
+        0,
+        31
+      ]
     },
     {
       "number": 130,
@@ -176,7 +180,6 @@
       "raw_count": 1,
       "duplicate_count": 0,
       "counting_policy": "independent_fixed_witness_occurrences",
-      "quote": "維棄作稷，德盛西伯；武王牧野，實撫天下；幽厲昏亂，既喪酆鎬；陵遲至赧；洛邑不祀。作周本紀第四。",
       "paragraph_ids": [
         "c-shiji-130-taishigong:p016"
       ],
@@ -200,7 +203,12 @@
       "book_id": "b-shiji-130",
       "chapter_id": "c-shiji-130-taishigong",
       "source_id": "s-shiji130-taishigong",
-      "work_title": "史記"
+      "work_title": "史記",
+      "chapter_ref": "data/corpus/shiji/130.json",
+      "quote_span": [
+        0,
+        47
+      ]
     }
   ],
   "table_occurrences": [
@@ -208,7 +216,6 @@
       "table_id": "shiji-015",
       "cell_id": "shiji-015-r163-c01",
       "title": "《史記·六國年表》",
-      "quote": "周赧王元年。。",
       "year": {
         "era": "BCE",
         "value": 314,
@@ -231,13 +238,13 @@
       "book_id": "b-shiji-015",
       "chapter_id": "table-chapter-shiji-015",
       "source_id": "table-witness-shiji-015",
-      "source_revision": "2607002"
+      "source_revision": "2607002",
+      "quote_ref": "cell"
     },
     {
       "table_id": "shiji-015",
       "cell_id": "shiji-015-r221-c01",
       "title": "《史記·六國年表》",
-      "quote": "五十九。。赧王卒。",
       "year": {
         "era": "BCE",
         "value": 256,
@@ -260,7 +267,8 @@
       "book_id": "b-shiji-015",
       "chapter_id": "table-chapter-shiji-015",
       "source_id": "table-witness-shiji-015",
-      "source_revision": "2607002"
+      "source_revision": "2607002",
+      "quote_ref": "cell"
     }
   ],
   "sources": [
@@ -269,107 +277,21 @@
       "work_id": "w-shiji",
       "book_id": "b-shiji-004",
       "source_id": "s-shiji-004-zhou",
-      "source": {
-        "title": "史記／卷004",
-        "provider": "維基文庫",
-        "url": "https://zh.wikisource.org/wiki/史記/卷004",
-        "permalink": "https://zh.wikisource.org/w/index.php?title=史記/卷004&oldid=7909147",
-        "revision_id": 7909147,
-        "accessed_on": "2026-10-09",
-        "extent": "正文全文；排除註釋版導覽、現代節標題與註號；行內校勘標記另存。",
-        "image_verified": false,
-        "rights": "古代原文；數位轉錄依維基文庫 CC BY-SA 4.0，保留署名及固定版本。",
-        "license_url": "https://creativecommons.org/licenses/by-sa/4.0/",
-        "normalization": {
-          "character_conversion": {},
-          "editorial_readings": [
-            {
-              "paragraph_id": "c-shiji-004-zhou:p017",
-              "witness_form": "［左］",
-              "body_reading": "",
-              "note": "數位見證行內校勘標記另存；有兩讀時正文保存改讀前的字，不宣稱已完成校勘。"
-            },
-            {
-              "paragraph_id": "c-shiji-004-zhou:p039",
-              "witness_form": "（又作湦）",
-              "body_reading": "",
-              "note": "數位見證行內校勘標記另存；有兩讀時正文保存改讀前的字，不宣稱已完成校勘。"
-            },
-            {
-              "paragraph_id": "c-shiji-004-zhou:p074",
-              "witness_form": "（賀）［資］",
-              "body_reading": "賀",
-              "note": "數位見證行內校勘標記另存；有兩讀時正文保存改讀前的字，不宣稱已完成校勘。"
-            },
-            {
-              "paragraph_id": "c-shiji-004-zhou:p082",
-              "witness_form": "（最）［聚］",
-              "body_reading": "最",
-              "note": "數位見證行內校勘標記另存；有兩讀時正文保存改讀前的字，不宣稱已完成校勘。"
-            },
-            {
-              "paragraph_id": "c-shiji-004-zhou:p085",
-              "witness_form": "（西）",
-              "body_reading": "",
-              "note": "數位見證行內校勘標記另存；有兩讀時正文保存改讀前的字，不宣稱已完成校勘。"
-            },
-            {
-              "paragraph_id": "c-shiji-004-zhou:p086",
-              "witness_form": "（我）［於］",
-              "body_reading": "我",
-              "note": "數位見證行內校勘標記另存；有兩讀時正文保存改讀前的字，不宣稱已完成校勘。"
-            }
-          ],
-          "note": "有成對改讀標記時正文保留改讀前的字；校勘符號與異讀另存，不稱已核讀底本。保留古代異體與數位見證的疑讀。"
-        }
-      }
+      "chapter_ref": "data/corpus/shiji/004.json"
     },
     {
       "chapter_id": "c-shiji-130-taishigong",
       "work_id": "w-shiji",
       "book_id": "b-shiji-130",
       "source_id": "s-shiji130-taishigong",
-      "source": {
-        "title": "史記／卷130",
-        "provider": "維基文庫",
-        "url": "https://zh.wikisource.org/wiki/史記/卷130",
-        "permalink": "https://zh.wikisource.org/w/index.php?title=史記/卷130&oldid=2609362",
-        "revision_id": 2609362,
-        "accessed_on": "2026-10-11",
-        "extent": "固定修訂全文143段，全部篇文。",
-        "image_verified": false,
-        "rights": "古代原文；數位轉錄依維基文庫CC BY-SA 4.0，保留署名及固定版本。",
-        "license_url": "https://creativecommons.org/licenses/by-sa/4.0/",
-        "normalization": {
-          "character_conversion": {},
-          "editorial_readings": [],
-          "extraction_note": "去header2及現代節標，移除維基引文縮排冒號，保留原字，未核影像。",
-          "note": "全文入庫不等於全部提及已標註；目錄段落仍待逐段處理。"
-        }
-      }
+      "chapter_ref": "data/corpus/shiji/130.json"
     },
     {
       "chapter_id": "table-chapter-shiji-015",
       "work_id": "w-shiji",
       "book_id": "b-shiji-015",
       "source_id": "table-witness-shiji-015",
-      "source": {
-        "id": "table-witness-shiji-015",
-        "work_id": "w-shiji",
-        "book_id": "b-shiji-015",
-        "chapter_id": "table-chapter-shiji-015",
-        "url": "https://zh.wikisource.org/wiki/史記/卷015",
-        "revision_url": "https://zh.wikisource.org/w/index.php?title=史記/卷015&oldid=2607002",
-        "revision": "2607002",
-        "accessed": "2026-10-12",
-        "response_sha256": "eb0624a019e02c24ce90a40bfa24863f4020878062c6e2efea32355033be5559",
-        "edition": null,
-        "image_verified": false,
-        "rights": "古籍正文公有領域；維基文庫轉錄及編輯內容依 CC BY-SA 條款，署名維基文庫貢獻者。",
-        "rights_url": "https://zh.wikisource.org/wiki/Wikisource:版權信息",
-        "review_status": "agent_first_pass_named_entities",
-        "note": "完整數位表格結構匯入，未逐格學術覆核。未核讀印本影像，原印本頁碼未知。西元欄沿用此數位轉錄的編者對照，不是古籍原有西元紀年，也不引用其維基百科外連。"
-      }
+      "table_source_ref": "shiji-015"
     }
   ],
   "relations": [
@@ -413,8 +335,8 @@
           "chapter_id": "c-shiji-004-zhou",
           "source_id": "s-shiji-004-zhou",
           "paragraph_id": "c-shiji-004-zhou:p085",
-          "quote": "周君、王赧卒，周民遂東亡。秦取九鼎寶器，而遷西周公於憚狐。後七歲，秦莊襄王滅東周。東西周皆入于秦，周既不祀。",
-          "person_mention_id": "c-shiji-004-zhou:m085-0003"
+          "person_mention_id": "c-shiji-004-zhou:m085-0003",
+          "quote_passage_ref": "data/corpus/shiji/004.json"
         }
       ],
       "references": [
@@ -489,8 +411,8 @@
           "chapter_id": "c-shiji-004-zhou",
           "source_id": "s-shiji-004-zhou",
           "paragraph_id": "c-shiji-004-zhou:p085",
-          "quote": "周君、王赧卒，周民遂東亡。秦取九鼎寶器，而遷西周公於憚狐。後七歲，秦莊襄王滅東周。東西周皆入于秦，周既不祀。",
-          "person_mention_id": "c-shiji-004-zhou:m085-0003"
+          "person_mention_id": "c-shiji-004-zhou:m085-0003",
+          "quote_passage_ref": "data/corpus/shiji/004.json"
         }
       ],
       "source_term": "周君、王赧卒",
@@ -510,8 +432,8 @@
             "chapter_id": "c-shiji-004-zhou",
             "source_id": "s-shiji-004-zhou",
             "paragraph_id": "c-shiji-004-zhou:p085",
-            "quote": "周君、王赧卒，周民遂東亡。秦取九鼎寶器，而遷西周公於憚狐。後七歲，秦莊襄王滅東周。東西周皆入于秦，周既不祀。",
-            "person_mention_id": "c-shiji-004-zhou:m085-0003"
+            "person_mention_id": "c-shiji-004-zhou:m085-0003",
+            "quote_passage_ref": "data/corpus/shiji/004.json"
           }
         ],
         "references": [

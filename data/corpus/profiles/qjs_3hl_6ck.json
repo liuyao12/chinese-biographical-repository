@@ -22,7 +22,6 @@
       "raw_count": 1,
       "duplicate_count": 0,
       "counting_policy": "independent_fixed_witness_occurrences",
-      "quote": "發子産父",
       "paragraph_ids": [
         "c-zuozhuan-zhushu-030-xiang-005:p001"
       ],
@@ -46,7 +45,12 @@
       "book_id": "b-zuozhuan-zhushu-030",
       "chapter_id": "c-zuozhuan-zhushu-030-xiang-005",
       "source_id": "s-zuozhuan-zhushu-030-xiang-005-wyg",
-      "work_title": "春秋左傳注疏"
+      "work_title": "春秋左傳注疏",
+      "chapter_ref": "data/corpus/zuozhuan-zhushu/030-xiang005.json",
+      "quote_span": [
+        0,
+        4
+      ]
     },
     {
       "number": 30,
@@ -57,7 +61,6 @@
       "raw_count": 1,
       "duplicate_count": 0,
       "counting_policy": "independent_fixed_witness_occurrences",
-      "quote": "子産子國子",
       "paragraph_ids": [
         "c-zuozhuan-zhushu-030-xiang-008:p001"
       ],
@@ -81,7 +84,12 @@
       "book_id": "b-zuozhuan-zhushu-030",
       "chapter_id": "c-zuozhuan-zhushu-030-xiang-008",
       "source_id": "s-zuozhuan-zhushu-030-xiang-008-wyg",
-      "work_title": "春秋左傳注疏"
+      "work_title": "春秋左傳注疏",
+      "chapter_ref": "data/corpus/zuozhuan-zhushu/030-xiang008.json",
+      "quote_span": [
+        0,
+        5
+      ]
     },
     {
       "number": 30,
@@ -92,7 +100,6 @@
       "raw_count": 2,
       "duplicate_count": 0,
       "counting_policy": "independent_fixed_witness_occurrences",
-      "quote": "公子發注子國",
       "paragraph_ids": [
         "c-zuozhuan-zhushu-030-xiang-009:p001"
       ],
@@ -125,7 +132,12 @@
       "book_id": "b-zuozhuan-zhushu-030",
       "chapter_id": "c-zuozhuan-zhushu-030-xiang-009",
       "source_id": "s-zuozhuan-zhushu-030-xiang-009-wyg",
-      "work_title": "春秋左傳注疏"
+      "work_title": "春秋左傳注疏",
+      "chapter_ref": "data/corpus/zuozhuan-zhushu/030-xiang009.json",
+      "quote_span": [
+        0,
+        6
+      ]
     }
   ],
   "table_occurrences": [],
@@ -135,123 +147,28 @@
       "work_id": "w-shiji",
       "book_id": "b-shiji-042",
       "source_id": "s-shiji-042-zheng",
-      "source": {
-        "title": "史記／卷042",
-        "provider": "維基文庫",
-        "url": "https://zh.wikisource.org/wiki/史記/卷042",
-        "permalink": "https://zh.wikisource.org/w/index.php?title=史記/卷042&oldid=2016409",
-        "revision_id": 2016409,
-        "accessed_on": "2026-10-09",
-        "extent": "59段正文及1段分層索隱述贊；排除2個dd導覽，只去除段落外緣空白。",
-        "image_verified": false,
-        "rights": "古代原文；數位轉錄依維基文庫CC BY-SA 4.0，保留署名及固定版本。",
-        "license_url": "https://creativecommons.org/licenses/by-sa/4.0/",
-        "normalization": {
-          "character_conversion": {},
-          "editorial_readings": [],
-          "extraction_note": "固定修訂與取得時HTML一致；保留古代異體、九月（辛）［丁］亥等校勘符號及溉逐、掔羊、持兩端等疑讀，不擅選讀法。",
-          "note": "全60段數位正文已閱讀；未核古籍影像、可靠底本及現代研究。"
-        }
-      }
+      "chapter_ref": "data/corpus/shiji/042.json"
     },
     {
       "chapter_id": "c-zuozhuan-zhushu-030-xiang-005",
       "work_id": "w-zuozhuan-zhushu",
       "book_id": "b-zuozhuan-zhushu-030",
       "source_id": "s-zuozhuan-zhushu-030-xiang-005-wyg",
-      "source": {
-        "title": "春秋左傳注疏／卷三十／襄公五年（杜預注節錄）",
-        "provider": "Kanripo（轉錄所標文淵閣四庫全書）",
-        "url": "https://github.com/kanripo/KR1e0004/blob/685a6ddca22d98535cac38038afdff7308273d23/KR1e0004_030.txt",
-        "permalink": "https://github.com/kanripo/KR1e0004/blob/685a6ddca22d98535cac38038afdff7308273d23/KR1e0004_030.txt#L12-L12",
-        "revision_id": "685a6ddca22d98535cac38038afdff7308273d23",
-        "source_commit": "685a6ddca22d98535cac38038afdff7308273d23",
-        "source_blob": "0629cd96de40c09a76ba25f97cb234a99ed183a4",
-        "raw_file_sha256": "a7d7523595d7114588a8e73b022b112cd5c44fb52434296099911bda8991c47d",
-        "accessed_on": "2026-10-17",
-        "text_scope": "partial_chapter",
-        "extent": "僅此注節錄，非該年傳文全文。",
-        "image_verified": false,
-        "rights": "所摘為晉唐古注原句，按古代公有領域文字記錄；不將Kanripo數位轉錄整體另標MIT或宣稱其授權已核。",
-        "license_url": "https://creativecommons.org/publicdomain/mark/1.0/",
-        "license_scope": "古代原文分類，非Kanripo整庫授權聲明",
-        "normalization": {
-          "character_conversion": {},
-          "editorial_readings": [],
-          "extraction_note": "依固定原行Unicode字元範圍節錄；産字及原注標記不改。非該年傳文全文，未核影像。",
-          "note": "正文、杜注及編輯判斷分層；節錄範圍與原行均可回查。"
-        },
-        "attribution_header": {
-          "line_number": 10,
-          "raw_line": "　　晉杜氏注　唐陸德明音義　孔穎達疏¶"
-        }
-      }
+      "chapter_ref": "data/corpus/zuozhuan-zhushu/030-xiang005.json"
     },
     {
       "chapter_id": "c-zuozhuan-zhushu-030-xiang-008",
       "work_id": "w-zuozhuan-zhushu",
       "book_id": "b-zuozhuan-zhushu-030",
       "source_id": "s-zuozhuan-zhushu-030-xiang-008-wyg",
-      "source": {
-        "title": "春秋左傳注疏／卷三十／襄公八年（杜預注節錄）",
-        "provider": "Kanripo（轉錄所標文淵閣四庫全書）",
-        "url": "https://github.com/kanripo/KR1e0004/blob/685a6ddca22d98535cac38038afdff7308273d23/KR1e0004_030.txt",
-        "permalink": "https://github.com/kanripo/KR1e0004/blob/685a6ddca22d98535cac38038afdff7308273d23/KR1e0004_030.txt#L366-L366",
-        "revision_id": "685a6ddca22d98535cac38038afdff7308273d23",
-        "source_commit": "685a6ddca22d98535cac38038afdff7308273d23",
-        "source_blob": "0629cd96de40c09a76ba25f97cb234a99ed183a4",
-        "raw_file_sha256": "a7d7523595d7114588a8e73b022b112cd5c44fb52434296099911bda8991c47d",
-        "accessed_on": "2026-10-17",
-        "text_scope": "partial_chapter",
-        "extent": "僅此注節錄，非該年傳文全文。",
-        "image_verified": false,
-        "rights": "所摘為晉唐古注原句，按古代公有領域文字記錄；不將Kanripo數位轉錄整體另標MIT或宣稱其授權已核。",
-        "license_url": "https://creativecommons.org/publicdomain/mark/1.0/",
-        "license_scope": "古代原文分類，非Kanripo整庫授權聲明",
-        "normalization": {
-          "character_conversion": {},
-          "editorial_readings": [],
-          "extraction_note": "依固定原行Unicode字元範圍節錄；産字及原注標記不改。非該年傳文全文，未核影像。",
-          "note": "正文、杜注及編輯判斷分層；節錄範圍與原行均可回查。"
-        },
-        "attribution_header": {
-          "line_number": 10,
-          "raw_line": "　　晉杜氏注　唐陸德明音義　孔穎達疏¶"
-        }
-      }
+      "chapter_ref": "data/corpus/zuozhuan-zhushu/030-xiang008.json"
     },
     {
       "chapter_id": "c-zuozhuan-zhushu-030-xiang-009",
       "work_id": "w-zuozhuan-zhushu",
       "book_id": "b-zuozhuan-zhushu-030",
       "source_id": "s-zuozhuan-zhushu-030-xiang-009-wyg",
-      "source": {
-        "title": "春秋左傳注疏／卷三十／襄公九年（杜預注節錄）",
-        "provider": "Kanripo（轉錄所標文淵閣四庫全書）",
-        "url": "https://github.com/kanripo/KR1e0004/blob/685a6ddca22d98535cac38038afdff7308273d23/KR1e0004_030.txt",
-        "permalink": "https://github.com/kanripo/KR1e0004/blob/685a6ddca22d98535cac38038afdff7308273d23/KR1e0004_030.txt#L776-L776",
-        "revision_id": "685a6ddca22d98535cac38038afdff7308273d23",
-        "source_commit": "685a6ddca22d98535cac38038afdff7308273d23",
-        "source_blob": "0629cd96de40c09a76ba25f97cb234a99ed183a4",
-        "raw_file_sha256": "a7d7523595d7114588a8e73b022b112cd5c44fb52434296099911bda8991c47d",
-        "accessed_on": "2026-10-17",
-        "text_scope": "partial_chapter",
-        "extent": "僅此注節錄，非該年傳文全文。",
-        "image_verified": false,
-        "rights": "所摘為晉唐古注原句，按古代公有領域文字記錄；不將Kanripo數位轉錄整體另標MIT或宣稱其授權已核。",
-        "license_url": "https://creativecommons.org/publicdomain/mark/1.0/",
-        "license_scope": "古代原文分類，非Kanripo整庫授權聲明",
-        "normalization": {
-          "character_conversion": {},
-          "editorial_readings": [],
-          "extraction_note": "依固定原行Unicode字元範圍節錄；産字及原注標記不改。非該年傳文全文，未核影像。",
-          "note": "正文、杜注及編輯判斷分層；節錄範圍與原行均可回查。"
-        },
-        "attribution_header": {
-          "line_number": 10,
-          "raw_line": "　　晉杜氏注　唐陸德明音義　孔穎達疏¶"
-        }
-      }
+      "chapter_ref": "data/corpus/zuozhuan-zhushu/030-xiang009.json"
     }
   ],
   "relations": [
@@ -269,7 +186,7 @@
           "source_id": "s-zuozhuan-zhushu-030-xiang-005-wyg",
           "source_revision": "685a6ddca22d98535cac38038afdff7308273d23",
           "paragraph_id": "c-zuozhuan-zhushu-030-xiang-005:p001",
-          "quote": "發子産父"
+          "quote_passage_ref": "data/corpus/zuozhuan-zhushu/030-xiang005.json"
         }
       ],
       "qualifiers": {
@@ -294,7 +211,7 @@
           "source_id": "s-zuozhuan-zhushu-030-xiang-008-wyg",
           "source_revision": "685a6ddca22d98535cac38038afdff7308273d23",
           "paragraph_id": "c-zuozhuan-zhushu-030-xiang-008:p001",
-          "quote": "子産子國子"
+          "quote_passage_ref": "data/corpus/zuozhuan-zhushu/030-xiang008.json"
         }
       ],
       "qualifiers": {
@@ -323,14 +240,14 @@
       ],
       "chapter_id": "c-zuozhuan-zhushu-030-xiang-009",
       "paragraph_id": "c-zuozhuan-zhushu-030-xiang-009:p001",
-      "quote": "公子發注子國",
       "note": "公子發按來源原稱分存；子國為本注對應異稱，未據此補姓氏或細分字號。公子不表示已知授爵日期。",
       "status": "editorial_provisional",
       "human_reviewed": false,
       "model": null,
       "work_id": "w-zuozhuan-zhushu",
       "book_id": "b-zuozhuan-zhushu-030",
-      "source_id": "s-zuozhuan-zhushu-030-xiang-009-wyg"
+      "source_id": "s-zuozhuan-zhushu-030-xiang-009-wyg",
+      "quote_passage_ref": "data/corpus/zuozhuan-zhushu/030-xiang009.json"
     }
   ],
   "person_ids": [
@@ -351,7 +268,7 @@
           "source_id": "s-zuozhuan-zhushu-030-xiang-005-wyg",
           "source_revision": "685a6ddca22d98535cac38038afdff7308273d23",
           "paragraph_id": "c-zuozhuan-zhushu-030-xiang-005:p001",
-          "quote": "發子産父"
+          "quote_passage_ref": "data/corpus/zuozhuan-zhushu/030-xiang005.json"
         }
       ],
       "qualifiers": {
@@ -376,7 +293,7 @@
           "source_id": "s-zuozhuan-zhushu-030-xiang-008-wyg",
           "source_revision": "685a6ddca22d98535cac38038afdff7308273d23",
           "paragraph_id": "c-zuozhuan-zhushu-030-xiang-008:p001",
-          "quote": "子産子國子"
+          "quote_passage_ref": "data/corpus/zuozhuan-zhushu/030-xiang008.json"
         }
       ],
       "qualifiers": {

@@ -20,7 +20,6 @@
       "raw_count": 1,
       "duplicate_count": 0,
       "counting_policy": "independent_fixed_witness_occurrences",
-      "quote": "欲出虎符發兵郡國。」乃遣莊助以節發兵會稽。會稽太守欲距不為發兵，助乃斬一司馬，諭意指，遂發兵浮海救東甌。未至，閩越引兵而去。東甌請舉國徙中國，乃悉舉眾來，處江淮之閒。",
       "paragraph_ids": [
         "c-shiji-114-dongyue:p003"
       ],
@@ -44,7 +43,12 @@
       "book_id": "b-shiji-114",
       "chapter_id": "c-shiji-114-dongyue",
       "source_id": "s-shiji114-dongyue",
-      "work_title": "史記"
+      "work_title": "史記",
+      "chapter_ref": "data/corpus/shiji/114.json",
+      "quote_span": [
+        199,
+        282
+      ]
     }
   ],
   "table_occurrences": [],
@@ -54,47 +58,14 @@
       "work_id": "w-shiji",
       "book_id": "b-shiji-114",
       "source_id": "s-shiji114-dongyue",
-      "source": {
-        "title": "史記／卷114",
-        "provider": "維基文庫",
-        "url": "https://zh.wikisource.org/wiki/史記/卷114",
-        "permalink": "https://zh.wikisource.org/w/index.php?title=史記/卷114&oldid=8735633",
-        "revision_id": 8735633,
-        "accessed_on": "2026-10-11",
-        "extent": "固定數位見證11段正文，沒有索隱述贊。",
-        "image_verified": false,
-        "rights": "古代原文；數位轉錄依維基文庫CC BY-SA 4.0，保留署名及固定版本。",
-        "license_url": "https://creativecommons.org/licenses/by-sa/4.0/",
-        "normalization": {
-          "character_conversion": {},
-          "editorial_readings": [],
-          "extraction_note": "去header2、現代節標題與YL模板外殼，紀年及正文原字保留，未核底本影像。",
-          "note": "太史公曰仍屬正文，未補此見證未載的索隱述贊。"
-        }
-      }
+      "chapter_ref": "data/corpus/shiji/114.json"
     },
     {
       "chapter_id": "table-chapter-shiji-022",
       "work_id": "w-shiji",
       "book_id": "b-shiji-022",
       "source_id": "table-witness-shiji-022",
-      "source": {
-        "id": "table-witness-shiji-022",
-        "work_id": "w-shiji",
-        "book_id": "b-shiji-022",
-        "chapter_id": "table-chapter-shiji-022",
-        "url": "https://zh.wikisource.org/wiki/史記/卷022",
-        "revision_url": "https://zh.wikisource.org/w/index.php?title=史記/卷022&oldid=2607038",
-        "revision": "2607038",
-        "accessed": "2026-10-13",
-        "response_sha256": "e2ab3816ee3e18a035537d6d823271ce448f83fa549df81cf8028af1ed6add2f",
-        "edition": null,
-        "image_verified": false,
-        "rights": "古籍正文公有領域；維基文庫數位轉錄依CC BY-SA，保留貢獻者署名。",
-        "rights_url": "https://zh.wikisource.org/wiki/Wikisource:版權信息",
-        "review_status": "partial_named_entity_review",
-        "note": "各組表保留原欄題、原文、空格及合欄，不推不同欄題的接續。西元欄為數位編者增補；未明年份留空，不推世系曆年。未核底本影像，人物標註仍待逐處覆核。"
-      }
+      "table_source_ref": "shiji-022"
     }
   ],
   "relations": [],
@@ -129,8 +100,8 @@
           "chapter_id": "c-shiji-114-dongyue",
           "source_id": "s-shiji114-dongyue",
           "paragraph_id": "c-shiji-114-dongyue:p003",
-          "quote": "吳王子子駒亡走閩越，怨東甌殺其父，常勸閩越擊東甌。至建元三年，閩越發兵圍東甌。東甌食盡，困，且降，乃使人告急天子。天子問太尉田蚡，蚡對曰：「越人相攻擊，固其常，又數反覆，不足以煩中國往救也。自秦時棄弗屬。」於是中大夫莊助詰蚡曰：「特患力弗能救，德弗能覆；誠能，何故棄之？且秦舉咸陽而棄之，何乃越也！今小國以窮困來告急天子，天子弗振，彼當安所告愬？又何以子萬國乎？」上曰：「太尉未足與計。吾初即位，不欲出虎符發兵郡國。」乃遣莊助以節發兵會稽。會稽太守欲距不為發兵，助乃斬一司馬，諭意指，遂發兵浮海救東甌。未至，閩越引兵而去。東甌請舉國徙中國，乃悉舉眾來，處江淮之閒。",
-          "person_mention_id": "c-shiji-114-dongyue:m003-0234"
+          "person_mention_id": "c-shiji-114-dongyue:m003-0234",
+          "quote_passage_ref": "data/corpus/shiji/114.json"
         }
       ],
       "references": [
@@ -146,29 +117,29 @@
         {
           "title": "《史記·漢興以來將相名臣年表》",
           "url": "https://zh.wikisource.org/w/index.php?title=史記/卷022&oldid=2607038",
-          "quote": "孝武建元元年",
           "table_id": "shiji-022",
           "table_cell_id": "shiji-022-t1-r067-c01",
           "scope": "received_regnal_year_attestation",
-          "image_verified": false
+          "image_verified": false,
+          "quote_passage_ref": "data/historical-tables/shiji-022.json"
         },
         {
           "title": "《史記·漢興以來將相名臣年表》",
           "url": "https://zh.wikisource.org/w/index.php?title=史記/卷022&oldid=2607038",
-          "quote": "三",
           "table_id": "shiji-022",
           "table_cell_id": "shiji-022-t1-r069-c01",
           "scope": "received_regnal_year_attestation",
-          "image_verified": false
+          "image_verified": false,
+          "quote_passage_ref": "data/historical-tables/shiji-022.json"
         },
         {
           "title": "《史記·漢興以來將相名臣年表》",
           "url": "https://zh.wikisource.org/w/index.php?title=史記/卷022&oldid=2607038",
-          "quote": "138",
           "table_id": "shiji-022",
           "table_cell_id": "shiji-022-t1-r069-c00",
           "scope": "digital_editorial_regnal_year_equivalence_only",
-          "image_verified": false
+          "image_verified": false,
+          "quote_passage_ref": "data/historical-tables/shiji-022.json"
         }
       ],
       "regnal_year_table": {
@@ -209,8 +180,8 @@
           "chapter_id": "c-shiji-114-dongyue",
           "source_id": "s-shiji114-dongyue",
           "paragraph_id": "c-shiji-114-dongyue:p003",
-          "quote": "吳王子子駒亡走閩越，怨東甌殺其父，常勸閩越擊東甌。至建元三年，閩越發兵圍東甌。東甌食盡，困，且降，乃使人告急天子。天子問太尉田蚡，蚡對曰：「越人相攻擊，固其常，又數反覆，不足以煩中國往救也。自秦時棄弗屬。」於是中大夫莊助詰蚡曰：「特患力弗能救，德弗能覆；誠能，何故棄之？且秦舉咸陽而棄之，何乃越也！今小國以窮困來告急天子，天子弗振，彼當安所告愬？又何以子萬國乎？」上曰：「太尉未足與計。吾初即位，不欲出虎符發兵郡國。」乃遣莊助以節發兵會稽。會稽太守欲距不為發兵，助乃斬一司馬，諭意指，遂發兵浮海救東甌。未至，閩越引兵而去。東甌請舉國徙中國，乃悉舉眾來，處江淮之閒。",
-          "person_mention_id": "c-shiji-114-dongyue:m003-0234"
+          "person_mention_id": "c-shiji-114-dongyue:m003-0234",
+          "quote_passage_ref": "data/corpus/shiji/114.json"
         }
       ],
       "interpretation_note": "被殺、斬或誅按明示個人死亡記錄，三校尉群體不拆姓名；未記地點不補，死亡不自動終止所有稱號。第9段日期承接尚待另核。",
@@ -237,8 +208,8 @@
             "chapter_id": "c-shiji-114-dongyue",
             "source_id": "s-shiji114-dongyue",
             "paragraph_id": "c-shiji-114-dongyue:p003",
-            "quote": "吳王子子駒亡走閩越，怨東甌殺其父，常勸閩越擊東甌。至建元三年，閩越發兵圍東甌。東甌食盡，困，且降，乃使人告急天子。天子問太尉田蚡，蚡對曰：「越人相攻擊，固其常，又數反覆，不足以煩中國往救也。自秦時棄弗屬。」於是中大夫莊助詰蚡曰：「特患力弗能救，德弗能覆；誠能，何故棄之？且秦舉咸陽而棄之，何乃越也！今小國以窮困來告急天子，天子弗振，彼當安所告愬？又何以子萬國乎？」上曰：「太尉未足與計。吾初即位，不欲出虎符發兵郡國。」乃遣莊助以節發兵會稽。會稽太守欲距不為發兵，助乃斬一司馬，諭意指，遂發兵浮海救東甌。未至，閩越引兵而去。東甌請舉國徙中國，乃悉舉眾來，處江淮之閒。",
-            "person_mention_id": "c-shiji-114-dongyue:m003-0234"
+            "person_mention_id": "c-shiji-114-dongyue:m003-0234",
+            "quote_passage_ref": "data/corpus/shiji/114.json"
           }
         ],
         "references": [
@@ -254,29 +225,29 @@
           {
             "title": "《史記·漢興以來將相名臣年表》",
             "url": "https://zh.wikisource.org/w/index.php?title=史記/卷022&oldid=2607038",
-            "quote": "孝武建元元年",
             "table_id": "shiji-022",
             "table_cell_id": "shiji-022-t1-r067-c01",
             "scope": "received_regnal_year_attestation",
-            "image_verified": false
+            "image_verified": false,
+            "quote_passage_ref": "data/historical-tables/shiji-022.json"
           },
           {
             "title": "《史記·漢興以來將相名臣年表》",
             "url": "https://zh.wikisource.org/w/index.php?title=史記/卷022&oldid=2607038",
-            "quote": "三",
             "table_id": "shiji-022",
             "table_cell_id": "shiji-022-t1-r069-c01",
             "scope": "received_regnal_year_attestation",
-            "image_verified": false
+            "image_verified": false,
+            "quote_passage_ref": "data/historical-tables/shiji-022.json"
           },
           {
             "title": "《史記·漢興以來將相名臣年表》",
             "url": "https://zh.wikisource.org/w/index.php?title=史記/卷022&oldid=2607038",
-            "quote": "138",
             "table_id": "shiji-022",
             "table_cell_id": "shiji-022-t1-r069-c00",
             "scope": "digital_editorial_regnal_year_equivalence_only",
-            "image_verified": false
+            "image_verified": false,
+            "quote_passage_ref": "data/historical-tables/shiji-022.json"
           }
         ],
         "regnal_year_table": {

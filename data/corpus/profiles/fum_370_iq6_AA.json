@@ -22,7 +22,6 @@
       "raw_count": 1,
       "duplicate_count": 0,
       "counting_policy": "independent_fixed_witness_occurrences",
-      "quote": "也。高祖結，仕慕容氏，卒於中山相。曾祖珍，太祖時歸國，卒於上谷太守。祖真，河內、清河二郡太守。父懿，延興末為廣平太守，有稱績。高祖南巡，吏人頌之，加寧遠將軍，賜帛三百匹。徵為選部給事中，有公平之譽。除安南將軍、洛州刺史，未之任而卒。贈以本官，加弘農公，諡曰簡。",
       "paragraph_ids": [
         "c-weishu-weishou-058-yangbo-yangkan:p001"
       ],
@@ -46,7 +45,12 @@
       "book_id": "b-weishu-weishou-058",
       "chapter_id": "c-weishu-weishou-058-yangbo-yangkan",
       "source_id": "s-weishu-weishou-058-yangbo-ws2087998",
-      "work_title": "魏書（魏收）"
+      "work_title": "魏書（魏收）",
+      "chapter_ref": "data/corpus/weishu-weishou/058-yangbo-yangkan.json",
+      "quote_span": [
+        14,
+        144
+      ]
     },
     {
       "number": 58,
@@ -57,7 +61,6 @@
       "raw_count": 1,
       "duplicate_count": 0,
       "counting_policy": "independent_fixed_witness_occurrences",
-      "quote": "食。是故親姻朋友無憾焉。國家初，丈夫好服綵色。吾雖不記上谷翁時事，然記清河翁時服飾，恒見翁著布衣韋帶，常約敕諸父曰：「汝等後世，脫若富貴於今日者，慎勿積金一斤、綵帛百匹已上，用為富也。」又不聽治生求利，又不聽與勢家作婚姻。至吾兄弟，不能遵奉。今汝等服乘，以漸華好，吾是以知恭儉",
       "paragraph_ids": [
         "c-weishu-weishou-058-yangchun:p013"
       ],
@@ -81,7 +84,12 @@
       "book_id": "b-weishu-weishou-058",
       "chapter_id": "c-weishu-weishou-058-yangchun",
       "source_id": "s-weishu-weishou-058-yangchun-ws2087998",
-      "work_title": "魏書（魏收）"
+      "work_title": "魏書（魏收）",
+      "chapter_ref": "data/corpus/weishu-weishou/058-yangchun.json",
+      "quote_span": [
+        79,
+        217
+      ]
     },
     {
       "number": null,
@@ -92,7 +100,6 @@
       "raw_count": 1,
       "duplicate_count": 0,
       "counting_policy": "independent_fixed_witness_occurrences",
-      "quote": "將軍華州刺史楊君墓誌銘。君姓楊，諱舒，字延景，恒農華陰潼鄉習仙里人也。河內清河二郡府君之孫，洛州刺史恒農簡公之第六子。漢太尉震，晉儀同瑤，即其世矣。君體河嶽之淑靈，膺積福之餘慶。淵度凝深，風流濬邈。閨門垂孝敬之譽，鄉黨流汎愛之仁。爰自弱冠，銳情典誥，終朝下幃，薄暮潭思。業尚三禮之學，廣",
       "paragraph_ids": [
         "c-epitaph-yangshu-zju-full:p001"
       ],
@@ -116,7 +123,12 @@
       "book_id": "b-epitaph-yangshu-full",
       "chapter_id": "c-epitaph-yangshu-zju-full",
       "source_id": "s-epitaph-yangshu-zju-b-xabl-004",
-      "work_title": "楊舒墓誌"
+      "work_title": "楊舒墓誌",
+      "chapter_ref": "data/corpus/epitaph-yangshu/full-zju.json",
+      "quote_span": [
+        4,
+        147
+      ]
     }
   ],
   "table_occurrences": [],
@@ -126,93 +138,21 @@
       "work_id": "w-epitaph-yangshu",
       "book_id": "b-epitaph-yangshu-full",
       "source_id": "s-epitaph-yangshu-zju-b-xabl-004",
-      "source": {
-        "title": "楊舒墓誌（浙大B-XABL-004完整數位錄文）",
-        "provider": "浙江大學圖書館中國歷代墓誌數據庫",
-        "url": "http://csid.zju.edu.cn/tomb/stone/detail?id=40288b955bd07752015bfb74a80002de",
-        "permalink": "http://csid.zju.edu.cn/tomb/stone/detail?id=40288b955bd07752015bfb74a80002de",
-        "revision_id": null,
-        "accessed_on": "2026-10-22",
-        "edition": "浙大單件B-XABL-004所刊錄文，明標錄文來源《西安碑林博物館新藏墓誌彙編》；刊本頁未親見，原石未核",
-        "extent": "該頁article完整首題至恧慙無述；不含現代元資料/考論，不冒1985拓片已圖校",
-        "text_scope": "complete_work",
-        "review_status": "text_checked",
-        "image_verified": false,
-        "license_url": "https://creativecommons.org/publicdomain/mark/1.0/",
-        "license_scope": "classical_inscription_text_only",
-        "rights": "只存古代墓誌文字與必要來源事實；現代錄文見證資格分層，現代圖片/PDF/HTML不收入或套MIT。",
-        "normalization": {
-          "character_conversion": "none",
-          "extraction_note": "保官方錄文原字/〓/標點，包括疑器春/乃春/追增；一編輯段非原石一行。"
-        },
-        "transcription_witness": {
-          "kind": "institutional_database_epitaph_transcription",
-          "institution": "浙江大學圖書館",
-          "database_record_id": "B-XABL-004",
-          "reported_transcription_origin": "《西安碑林博物館新藏墓誌彙編》",
-          "transcription_path": "source-evidence/yangshu-epitaph-zju/transcription.json",
-          "capture_path": "source-evidence/yangshu-epitaph-zju/capture.json",
-          "metadata_path": "source-evidence/yangshu-epitaph-zju/witness-metadata.json",
-          "transcription_page_visually_checked": false,
-          "original_stone_or_rubbing_image_verified": false,
-          "underlying_rubbing_personally_accessed": false,
-          "scope": "complete_single_inscription_not_modern_article"
-        }
-      }
+      "chapter_ref": "data/corpus/epitaph-yangshu/full-zju.json"
     },
     {
       "chapter_id": "c-weishu-weishou-058-yangbo-yangkan",
       "work_id": "w-weishu-weishou",
       "book_id": "b-weishu-weishou-058",
       "source_id": "s-weishu-weishou-058-yangbo-ws2087998",
-      "source": {
-        "title": "魏書卷五十八楊播及子侃完整敘事",
-        "provider": "Wikisource",
-        "url": "https://zh.wikisource.org/w/index.php?title=%E9%AD%8F%E6%9B%B8%2F%E5%8D%B758&oldid=2087998",
-        "permalink": "https://zh.wikisource.org/w/index.php?title=%E9%AD%8F%E6%9B%B8%2F%E5%8D%B758&oldid=2087998",
-        "revision_id": 2087998,
-        "raw_path": "sources/weishu-weishou/weishu058-ws2087998.wikitext",
-        "raw_file_sha256": "a53ae2dbced88decaa460fbf34f87bb5e65a0b37b524480cb362a3bebb1bc19d",
-        "accessed_on": "2026-10-22",
-        "edition": "維基文庫固定數位轉錄；實際版本底本未確認，未圖校",
-        "extent": "楊播開篇至楊侃末子純陀襲，止弟椿獨立傳前；另完整本卷史臣共評。非全058卷。",
-        "text_scope": "partial_chapter",
-        "review_status": "text_checked",
-        "image_verified": false,
-        "license_url": "https://creativecommons.org/licenses/by-sa/4.0/",
-        "rights": "古代正文；數位見證及網站校勘署名依維基文庫CC BY-SA4.0與附加條款保留",
-        "normalization": {
-          "character_conversion": {},
-          "extraction_note": "保原字與標點；段落按固定raw非空正文行。只分離網站ref校勘，原ref全文連raw位於annotation，逐字映射無摘要。"
-        }
-      }
+      "chapter_ref": "data/corpus/weishu-weishou/058-yangbo-yangkan.json"
     },
     {
       "chapter_id": "c-weishu-weishou-058-yangchun",
       "work_id": "w-weishu-weishou",
       "book_id": "b-weishu-weishou-058",
       "source_id": "s-weishu-weishou-058-yangchun-ws2087998",
-      "source": {
-        "title": "魏書卷五十八楊椿及昱、穎、順近系完整敘事",
-        "provider": "Wikisource",
-        "url": "https://zh.wikisource.org/w/index.php?title=%E9%AD%8F%E6%9B%B8%2F%E5%8D%B758&oldid=2087998",
-        "permalink": "https://zh.wikisource.org/w/index.php?title=%E9%AD%8F%E6%9B%B8%2F%E5%8D%B758&oldid=2087998",
-        "revision_id": 2087998,
-        "raw_path": "source-evidence/weishu058-yangchun/primary/weishu058.wikitext",
-        "raw_file_sha256": "a53ae2dbced88decaa460fbf34f87bb5e65a0b37b524480cb362a3bebb1bc19d",
-        "accessed_on": "2026-10-22",
-        "edition": "維基文庫固定數位轉錄；實際版本底本未確認，未圖校",
-        "extent": "固定ws2087998 raw33弟椿至102，止103順弟津前；椿、昱、穎、順及附孝邕/叔良/辯/仲宣/玄就/測/稚卿全部33正文段；另同見證卷末共評。",
-        "text_scope": "partial_chapter",
-        "review_status": "text_checked",
-        "image_verified": false,
-        "license_url": "https://creativecommons.org/licenses/by-sa/4.0/",
-        "rights": "古代正文；數位見證及網站校勘署名依維基文庫CC BY-SA4.0與附加條款保留",
-        "normalization": {
-          "character_conversion": {},
-          "extraction_note": "保原字與標點；段落按固定raw非空正文行。只分離網站ref校勘，原ref全文連raw位於annotation，逐字映射無摘要。"
-        }
-      }
+      "chapter_ref": "data/corpus/weishu-weishou/058-yangchun.json"
     }
   ],
   "relations": [
@@ -249,9 +189,9 @@
           "source_id": "s-epitaph-yangshu-zju-b-xabl-004",
           "chapter_id": "c-epitaph-yangshu-zju-full",
           "paragraph_id": "c-epitaph-yangshu-zju-full:p001",
-          "quote": "魏故鎮遠將軍華州刺史楊君墓誌銘。君姓楊，諱舒，字延景，恒農華陰潼鄉習仙里人也。河內清河二郡府君之孫，洛州刺史恒農簡公之第六子。漢太尉震，晉儀同瑤，即其世矣。君體河嶽之淑靈，膺積福之餘慶。淵度凝深，風流濬邈。閨門垂孝敬之譽，鄉黨流汎愛之仁。爰自弱冠，銳情典誥，終朝下幃，薄暮潭思。業尚三禮之學，廣采百家之論。才藝優贍，道術通洽。汪汪焉，詳詳焉。允所謂黃中之儁髦，德音之令准者已。太和中，以勳望之冑，而除散騎郎。暨世宗即祚，壽春送款，君為揚武長史受降納附。未幾，以援接之功，除大鴻臚丞。弼贊九儀，賓翼四門，蕃衛載緝，戎陌來庭。義陽之役，君參鎮南軍事，職掌壘和，任屬防禦。嚴栅櫓之剬，峻雲梯之嶮。憑陵之志莫展，窺〓之望斯絕。又監別將田益宗軍事，破偽鈞城而還。俘虜二千，收甲萬計。以功遷司空府中兵參軍。俄而偽臨川王簫宏，敢率蟻徒殲我粱城，以君歷試惟允，復參征南軍事。都督元王，特深器春，杖以幃幄之任，諮以决勝之謀。及偽軍一遁，烽煙四起。君領羽林鐵騎，長驅淮滸，救其燌燒之委，收其器械之資。乃令邊儲載衍，軍士充仍者，君有力焉。永平初載，望府啟建，寮佐之選，妙盡時英。以君為伏波將軍、參太尉高陽王府事。於是翼亮台鉉，毗道鼎司。剋昭文薄之能，實允官人之職。及遭新昌君艱，幾盡者二三。孺慕之音，晝夜不絕，漿溢之禮，歷口莫飲。自爾尫頓，日就危惙。雖顏丁之居憂，遠有慙德；曾柴之銜恤，寧或能擬。春秋卌有六，以延昌四年九月九日，於洛陽縣之依仁里第瘠甚而卒。皇帝悼惜，朝野嗟痛。詔遣謁者持節册贈鎮遠將軍、華州刺史，所以旌崇孝德，禮也。粵以熙平二年九月二日，卜窆於本縣之舊塋焉。乃作銘曰：於鑠使君，清風獨絕。太尉之胤，儀同之裔。冠盖三秦，本枝百世。粵挺明德，聿遵前列。如玉之瑩，如冰之潔。永言孝友，率志貞厲。沖年受業，雅愛斯文。銳情無惰，潭思能懃。終朝章句，旦夕典墳。淵才博贍，高志脫群。九流畢鏡，八素咸分。振韍玉墀，濯纓朱廡。四門載穆，九儀率序。帝求鼎佐，唯德是與。我有儁哲，攬衣而處。三緝戎機，再遊台府。軍政允洽，槐風克舉。新昌殞世，瘠甚而卒。忪忪遺嗣，哀哀弟姪。書宮寂寥，琴庭蕭瑟。皇鑒乃春，追增顯秩。輝賁泉門，光昭松室。輒勒徽猷，恧慙無述。",
           "subject_person_mention_id": "c-epitaph-yangshu-zju-full:p001:m0048",
-          "object_person_mention_id": "c-epitaph-yangshu-zju-full:p001:m0039"
+          "object_person_mention_id": "c-epitaph-yangshu-zju-full:p001:m0039",
+          "quote_passage_ref": "data/corpus/epitaph-yangshu/full-zju.json"
         }
       ],
       "human_reviewed": false
@@ -272,9 +212,9 @@
           "source_id": "s-weishu-weishou-058-yangbo-ws2087998",
           "chapter_id": "c-weishu-weishou-058-yangbo-yangkan",
           "paragraph_id": "c-weishu-weishou-058-yangbo-yangkan:p001",
-          "quote": "楊播，字延慶，自云恒農華陰人也。高祖結，仕慕容氏，卒於中山相。曾祖珍，太祖時歸國，卒於上谷太守。祖真，河內、清河二郡太守。父懿，延興末為廣平太守，有稱績。高祖南巡，吏人頌之，加寧遠將軍，賜帛三百匹。徵為選部給事中，有公平之譽。除安南將軍、洛州刺史，未之任而卒。贈以本官，加弘農公，諡曰簡。",
           "subject_person_mention_id": "c-weishu-weishou-058-yangbo-yangkan:p001:m0000",
-          "object_person_mention_id": "c-weishu-weishou-058-yangbo-yangkan:p001:m0049"
+          "object_person_mention_id": "c-weishu-weishou-058-yangbo-yangkan:p001:m0049",
+          "quote_passage_ref": "data/corpus/weishu-weishou/058-yangbo-yangkan.json"
         }
       ],
       "interpretation_note": "祖父名真，未由本欄造真父珍新斷言。",
@@ -327,9 +267,9 @@
           "source_id": "s-epitaph-yangshu-zju-b-xabl-004",
           "chapter_id": "c-epitaph-yangshu-zju-full",
           "paragraph_id": "c-epitaph-yangshu-zju-full:p001",
-          "quote": "魏故鎮遠將軍華州刺史楊君墓誌銘。君姓楊，諱舒，字延景，恒農華陰潼鄉習仙里人也。河內清河二郡府君之孫，洛州刺史恒農簡公之第六子。漢太尉震，晉儀同瑤，即其世矣。君體河嶽之淑靈，膺積福之餘慶。淵度凝深，風流濬邈。閨門垂孝敬之譽，鄉黨流汎愛之仁。爰自弱冠，銳情典誥，終朝下幃，薄暮潭思。業尚三禮之學，廣采百家之論。才藝優贍，道術通洽。汪汪焉，詳詳焉。允所謂黃中之儁髦，德音之令准者已。太和中，以勳望之冑，而除散騎郎。暨世宗即祚，壽春送款，君為揚武長史受降納附。未幾，以援接之功，除大鴻臚丞。弼贊九儀，賓翼四門，蕃衛載緝，戎陌來庭。義陽之役，君參鎮南軍事，職掌壘和，任屬防禦。嚴栅櫓之剬，峻雲梯之嶮。憑陵之志莫展，窺〓之望斯絕。又監別將田益宗軍事，破偽鈞城而還。俘虜二千，收甲萬計。以功遷司空府中兵參軍。俄而偽臨川王簫宏，敢率蟻徒殲我粱城，以君歷試惟允，復參征南軍事。都督元王，特深器春，杖以幃幄之任，諮以决勝之謀。及偽軍一遁，烽煙四起。君領羽林鐵騎，長驅淮滸，救其燌燒之委，收其器械之資。乃令邊儲載衍，軍士充仍者，君有力焉。永平初載，望府啟建，寮佐之選，妙盡時英。以君為伏波將軍、參太尉高陽王府事。於是翼亮台鉉，毗道鼎司。剋昭文薄之能，實允官人之職。及遭新昌君艱，幾盡者二三。孺慕之音，晝夜不絕，漿溢之禮，歷口莫飲。自爾尫頓，日就危惙。雖顏丁之居憂，遠有慙德；曾柴之銜恤，寧或能擬。春秋卌有六，以延昌四年九月九日，於洛陽縣之依仁里第瘠甚而卒。皇帝悼惜，朝野嗟痛。詔遣謁者持節册贈鎮遠將軍、華州刺史，所以旌崇孝德，禮也。粵以熙平二年九月二日，卜窆於本縣之舊塋焉。乃作銘曰：於鑠使君，清風獨絕。太尉之胤，儀同之裔。冠盖三秦，本枝百世。粵挺明德，聿遵前列。如玉之瑩，如冰之潔。永言孝友，率志貞厲。沖年受業，雅愛斯文。銳情無惰，潭思能懃。終朝章句，旦夕典墳。淵才博贍，高志脫群。九流畢鏡，八素咸分。振韍玉墀，濯纓朱廡。四門載穆，九儀率序。帝求鼎佐，唯德是與。我有儁哲，攬衣而處。三緝戎機，再遊台府。軍政允洽，槐風克舉。新昌殞世，瘠甚而卒。忪忪遺嗣，哀哀弟姪。書宮寂寥，琴庭蕭瑟。皇鑒乃春，追增顯秩。輝賁泉門，光昭松室。輒勒徽猷，恧慙無述。",
           "subject_person_mention_id": "c-epitaph-yangshu-zju-full:p001:m0048",
-          "object_person_mention_id": "c-epitaph-yangshu-zju-full:p001:m0039"
+          "object_person_mention_id": "c-epitaph-yangshu-zju-full:p001:m0039",
+          "quote_passage_ref": "data/corpus/epitaph-yangshu/full-zju.json"
         }
       ],
       "human_reviewed": false
@@ -350,9 +290,9 @@
           "source_id": "s-weishu-weishou-058-yangbo-ws2087998",
           "chapter_id": "c-weishu-weishou-058-yangbo-yangkan",
           "paragraph_id": "c-weishu-weishou-058-yangbo-yangkan:p001",
-          "quote": "楊播，字延慶，自云恒農華陰人也。高祖結，仕慕容氏，卒於中山相。曾祖珍，太祖時歸國，卒於上谷太守。祖真，河內、清河二郡太守。父懿，延興末為廣平太守，有稱績。高祖南巡，吏人頌之，加寧遠將軍，賜帛三百匹。徵為選部給事中，有公平之譽。除安南將軍、洛州刺史，未之任而卒。贈以本官，加弘農公，諡曰簡。",
           "subject_person_mention_id": "c-weishu-weishou-058-yangbo-yangkan:p001:m0000",
-          "object_person_mention_id": "c-weishu-weishou-058-yangbo-yangkan:p001:m0049"
+          "object_person_mention_id": "c-weishu-weishou-058-yangbo-yangkan:p001:m0049",
+          "quote_passage_ref": "data/corpus/weishu-weishou/058-yangbo-yangkan.json"
         }
       ],
       "interpretation_note": "祖父名真，未由本欄造真父珍新斷言。",
@@ -386,12 +326,12 @@
           "source_id": "s-weishu-weishou-058-yangbo-ws2087998",
           "chapter_id": "c-weishu-weishou-058-yangbo-yangkan",
           "paragraph_id": "c-weishu-weishou-058-yangbo-yangkan:p001",
-          "quote": "楊播，字延慶，自云恒農華陰人也。高祖結，仕慕容氏，卒於中山相。曾祖珍，太祖時歸國，卒於上谷太守。祖真，河內、清河二郡太守。父懿，延興末為廣平太守，有稱績。高祖南巡，吏人頌之，加寧遠將軍，賜帛三百匹。徵為選部給事中，有公平之譽。除安南將軍、洛州刺史，未之任而卒。贈以本官，加弘農公，諡曰簡。",
           "subject_person_mention_id": "c-weishu-weishou-058-yangbo-yangkan:p001:m0000",
           "object_person_mention_id": "c-weishu-weishou-058-yangbo-yangkan:p001:m0049",
           "assertion_id": "a-weishu058-yang-002",
           "scope": "同一傳主之四級明祖詞及各自仕履；相鄰父邊僅編者暫接，原祖/曾祖/高祖陳述不改。",
-          "url": "https://zh.wikisource.org/w/index.php?title=%E9%AD%8F%E6%9B%B8%2F%E5%8D%B758&oldid=2087998"
+          "url": "https://zh.wikisource.org/w/index.php?title=%E9%AD%8F%E6%9B%B8%2F%E5%8D%B758&oldid=2087998",
+          "quote_passage_ref": "data/corpus/weishu-weishou/058-yangbo-yangkan.json"
         },
         {
           "work_id": "w-weishu-weishou",
@@ -399,12 +339,12 @@
           "source_id": "s-weishu-weishou-058-yangbo-ws2087998",
           "chapter_id": "c-weishu-weishou-058-yangbo-yangkan",
           "paragraph_id": "c-weishu-weishou-058-yangbo-yangkan:p001",
-          "quote": "楊播，字延慶，自云恒農華陰人也。高祖結，仕慕容氏，卒於中山相。曾祖珍，太祖時歸國，卒於上谷太守。祖真，河內、清河二郡太守。父懿，延興末為廣平太守，有稱績。高祖南巡，吏人頌之，加寧遠將軍，賜帛三百匹。徵為選部給事中，有公平之譽。除安南將軍、洛州刺史，未之任而卒。贈以本官，加弘農公，諡曰簡。",
           "subject_person_mention_id": "c-weishu-weishou-058-yangbo-yangkan:p001:m0000",
           "object_person_mention_id": "c-weishu-weishou-058-yangbo-yangkan:p001:m0033",
           "assertion_id": "a-weishu058-yang-003",
           "scope": "同一傳主之四級明祖詞及各自仕履；相鄰父邊僅編者暫接，原祖/曾祖/高祖陳述不改。",
-          "url": "https://zh.wikisource.org/w/index.php?title=%E9%AD%8F%E6%9B%B8%2F%E5%8D%B758&oldid=2087998"
+          "url": "https://zh.wikisource.org/w/index.php?title=%E9%AD%8F%E6%9B%B8%2F%E5%8D%B758&oldid=2087998",
+          "quote_passage_ref": "data/corpus/weishu-weishou/058-yangbo-yangkan.json"
         }
       ],
       "four_ancestor_frame": {
@@ -514,12 +454,12 @@
             "source_id": "s-weishu-weishou-058-yangbo-ws2087998",
             "chapter_id": "c-weishu-weishou-058-yangbo-yangkan",
             "paragraph_id": "c-weishu-weishou-058-yangbo-yangkan:p001",
-            "quote": "楊播，字延慶，自云恒農華陰人也。高祖結，仕慕容氏，卒於中山相。曾祖珍，太祖時歸國，卒於上谷太守。祖真，河內、清河二郡太守。父懿，延興末為廣平太守，有稱績。高祖南巡，吏人頌之，加寧遠將軍，賜帛三百匹。徵為選部給事中，有公平之譽。除安南將軍、洛州刺史，未之任而卒。贈以本官，加弘農公，諡曰簡。",
             "subject_person_mention_id": "c-weishu-weishou-058-yangbo-yangkan:p001:m0000",
             "object_person_mention_id": "c-weishu-weishou-058-yangbo-yangkan:p001:m0062",
             "assertion_id": "a-weishu058-yang-001",
             "scope": "同一傳主之四級明祖詞及各自仕履；相鄰父邊僅編者暫接，原祖/曾祖/高祖陳述不改。",
-            "url": "https://zh.wikisource.org/w/index.php?title=%E9%AD%8F%E6%9B%B8%2F%E5%8D%B758&oldid=2087998"
+            "url": "https://zh.wikisource.org/w/index.php?title=%E9%AD%8F%E6%9B%B8%2F%E5%8D%B758&oldid=2087998",
+            "quote_passage_ref": "data/corpus/weishu-weishou/058-yangbo-yangkan.json"
           },
           {
             "work_id": "w-weishu-weishou",
@@ -527,12 +467,12 @@
             "source_id": "s-weishu-weishou-058-yangbo-ws2087998",
             "chapter_id": "c-weishu-weishou-058-yangbo-yangkan",
             "paragraph_id": "c-weishu-weishou-058-yangbo-yangkan:p001",
-            "quote": "楊播，字延慶，自云恒農華陰人也。高祖結，仕慕容氏，卒於中山相。曾祖珍，太祖時歸國，卒於上谷太守。祖真，河內、清河二郡太守。父懿，延興末為廣平太守，有稱績。高祖南巡，吏人頌之，加寧遠將軍，賜帛三百匹。徵為選部給事中，有公平之譽。除安南將軍、洛州刺史，未之任而卒。贈以本官，加弘農公，諡曰簡。",
             "subject_person_mention_id": "c-weishu-weishou-058-yangbo-yangkan:p001:m0000",
             "object_person_mention_id": "c-weishu-weishou-058-yangbo-yangkan:p001:m0049",
             "assertion_id": "a-weishu058-yang-002",
             "scope": "同一傳主之四級明祖詞及各自仕履；相鄰父邊僅編者暫接，原祖/曾祖/高祖陳述不改。",
-            "url": "https://zh.wikisource.org/w/index.php?title=%E9%AD%8F%E6%9B%B8%2F%E5%8D%B758&oldid=2087998"
+            "url": "https://zh.wikisource.org/w/index.php?title=%E9%AD%8F%E6%9B%B8%2F%E5%8D%B758&oldid=2087998",
+            "quote_passage_ref": "data/corpus/weishu-weishou/058-yangbo-yangkan.json"
           }
         ],
         "four_ancestor_frame": {
@@ -641,12 +581,12 @@
             "source_id": "s-epitaph-yangshu-zju-b-xabl-004",
             "chapter_id": "c-epitaph-yangshu-zju-full",
             "paragraph_id": "c-epitaph-yangshu-zju-full:p001",
-            "quote": "魏故鎮遠將軍華州刺史楊君墓誌銘。君姓楊，諱舒，字延景，恒農華陰潼鄉習仙里人也。河內清河二郡府君之孫，洛州刺史恒農簡公之第六子。漢太尉震，晉儀同瑤，即其世矣。君體河嶽之淑靈，膺積福之餘慶。淵度凝深，風流濬邈。閨門垂孝敬之譽，鄉黨流汎愛之仁。爰自弱冠，銳情典誥，終朝下幃，薄暮潭思。業尚三禮之學，廣采百家之論。才藝優贍，道術通洽。汪汪焉，詳詳焉。允所謂黃中之儁髦，德音之令准者已。太和中，以勳望之冑，而除散騎郎。暨世宗即祚，壽春送款，君為揚武長史受降納附。未幾，以援接之功，除大鴻臚丞。弼贊九儀，賓翼四門，蕃衛載緝，戎陌來庭。義陽之役，君參鎮南軍事，職掌壘和，任屬防禦。嚴栅櫓之剬，峻雲梯之嶮。憑陵之志莫展，窺〓之望斯絕。又監別將田益宗軍事，破偽鈞城而還。俘虜二千，收甲萬計。以功遷司空府中兵參軍。俄而偽臨川王簫宏，敢率蟻徒殲我粱城，以君歷試惟允，復參征南軍事。都督元王，特深器春，杖以幃幄之任，諮以决勝之謀。及偽軍一遁，烽煙四起。君領羽林鐵騎，長驅淮滸，救其燌燒之委，收其器械之資。乃令邊儲載衍，軍士充仍者，君有力焉。永平初載，望府啟建，寮佐之選，妙盡時英。以君為伏波將軍、參太尉高陽王府事。於是翼亮台鉉，毗道鼎司。剋昭文薄之能，實允官人之職。及遭新昌君艱，幾盡者二三。孺慕之音，晝夜不絕，漿溢之禮，歷口莫飲。自爾尫頓，日就危惙。雖顏丁之居憂，遠有慙德；曾柴之銜恤，寧或能擬。春秋卌有六，以延昌四年九月九日，於洛陽縣之依仁里第瘠甚而卒。皇帝悼惜，朝野嗟痛。詔遣謁者持節册贈鎮遠將軍、華州刺史，所以旌崇孝德，禮也。粵以熙平二年九月二日，卜窆於本縣之舊塋焉。乃作銘曰：於鑠使君，清風獨絕。太尉之胤，儀同之裔。冠盖三秦，本枝百世。粵挺明德，聿遵前列。如玉之瑩，如冰之潔。永言孝友，率志貞厲。沖年受業，雅愛斯文。銳情無惰，潭思能懃。終朝章句，旦夕典墳。淵才博贍，高志脫群。九流畢鏡，八素咸分。振韍玉墀，濯纓朱廡。四門載穆，九儀率序。帝求鼎佐，唯德是與。我有儁哲，攬衣而處。三緝戎機，再遊台府。軍政允洽，槐風克舉。新昌殞世，瘠甚而卒。忪忪遺嗣，哀哀弟姪。書宮寂寥，琴庭蕭瑟。皇鑒乃春，追增顯秩。輝賁泉門，光昭松室。輒勒徽猷，恧慙無述。",
             "subject_person_mention_id": "c-epitaph-yangshu-zju-full:p001:m0059",
             "object_person_mention_id": "c-epitaph-yangshu-zju-full:p001:m0050",
             "assertion_id": "a-yangshu-zju-nearkin-001",
             "url": "http://csid.zju.edu.cn/tomb/stone/detail?id=40288b955bd07752015bfb74a80002de",
-            "scope": "同一完整墓誌父與祖相鄰世距，祖官稱首選身份可撤回；僅編輯安置，不添來源父子。"
+            "scope": "同一完整墓誌父與祖相鄰世距，祖官稱首選身份可撤回；僅編輯安置，不添來源父子。",
+            "quote_passage_ref": "data/corpus/epitaph-yangshu/full-zju.json"
           },
           {
             "work_id": "w-epitaph-yangshu",
@@ -654,12 +594,12 @@
             "source_id": "s-epitaph-yangshu-zju-b-xabl-004",
             "chapter_id": "c-epitaph-yangshu-zju-full",
             "paragraph_id": "c-epitaph-yangshu-zju-full:p001",
-            "quote": "魏故鎮遠將軍華州刺史楊君墓誌銘。君姓楊，諱舒，字延景，恒農華陰潼鄉習仙里人也。河內清河二郡府君之孫，洛州刺史恒農簡公之第六子。漢太尉震，晉儀同瑤，即其世矣。君體河嶽之淑靈，膺積福之餘慶。淵度凝深，風流濬邈。閨門垂孝敬之譽，鄉黨流汎愛之仁。爰自弱冠，銳情典誥，終朝下幃，薄暮潭思。業尚三禮之學，廣采百家之論。才藝優贍，道術通洽。汪汪焉，詳詳焉。允所謂黃中之儁髦，德音之令准者已。太和中，以勳望之冑，而除散騎郎。暨世宗即祚，壽春送款，君為揚武長史受降納附。未幾，以援接之功，除大鴻臚丞。弼贊九儀，賓翼四門，蕃衛載緝，戎陌來庭。義陽之役，君參鎮南軍事，職掌壘和，任屬防禦。嚴栅櫓之剬，峻雲梯之嶮。憑陵之志莫展，窺〓之望斯絕。又監別將田益宗軍事，破偽鈞城而還。俘虜二千，收甲萬計。以功遷司空府中兵參軍。俄而偽臨川王簫宏，敢率蟻徒殲我粱城，以君歷試惟允，復參征南軍事。都督元王，特深器春，杖以幃幄之任，諮以决勝之謀。及偽軍一遁，烽煙四起。君領羽林鐵騎，長驅淮滸，救其燌燒之委，收其器械之資。乃令邊儲載衍，軍士充仍者，君有力焉。永平初載，望府啟建，寮佐之選，妙盡時英。以君為伏波將軍、參太尉高陽王府事。於是翼亮台鉉，毗道鼎司。剋昭文薄之能，實允官人之職。及遭新昌君艱，幾盡者二三。孺慕之音，晝夜不絕，漿溢之禮，歷口莫飲。自爾尫頓，日就危惙。雖顏丁之居憂，遠有慙德；曾柴之銜恤，寧或能擬。春秋卌有六，以延昌四年九月九日，於洛陽縣之依仁里第瘠甚而卒。皇帝悼惜，朝野嗟痛。詔遣謁者持節册贈鎮遠將軍、華州刺史，所以旌崇孝德，禮也。粵以熙平二年九月二日，卜窆於本縣之舊塋焉。乃作銘曰：於鑠使君，清風獨絕。太尉之胤，儀同之裔。冠盖三秦，本枝百世。粵挺明德，聿遵前列。如玉之瑩，如冰之潔。永言孝友，率志貞厲。沖年受業，雅愛斯文。銳情無惰，潭思能懃。終朝章句，旦夕典墳。淵才博贍，高志脫群。九流畢鏡，八素咸分。振韍玉墀，濯纓朱廡。四門載穆，九儀率序。帝求鼎佐，唯德是與。我有儁哲，攬衣而處。三緝戎機，再遊台府。軍政允洽，槐風克舉。新昌殞世，瘠甚而卒。忪忪遺嗣，哀哀弟姪。書宮寂寥，琴庭蕭瑟。皇鑒乃春，追增顯秩。輝賁泉門，光昭松室。輒勒徽猷，恧慙無述。",
             "subject_person_mention_id": "c-epitaph-yangshu-zju-full:p001:m0048",
             "object_person_mention_id": "c-epitaph-yangshu-zju-full:p001:m0039",
             "assertion_id": "a-yangshu-zju-nearkin-002",
             "url": "http://csid.zju.edu.cn/tomb/stone/detail?id=40288b955bd07752015bfb74a80002de",
-            "scope": "同一完整墓誌父與祖相鄰世距，祖官稱首選身份可撤回；僅編輯安置，不添來源父子。"
+            "scope": "同一完整墓誌父與祖相鄰世距，祖官稱首選身份可撤回；僅編輯安置，不添來源父子。",
+            "quote_passage_ref": "data/corpus/epitaph-yangshu/full-zju.json"
           }
         ],
         "ancestor_identity_reference": {

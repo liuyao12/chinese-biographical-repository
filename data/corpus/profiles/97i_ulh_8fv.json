@@ -22,7 +22,7 @@
           "chapter_id": "c-shiji-010-wendi",
           "source_id": "s-shiji-010-wendi",
           "paragraph_id": "c-shiji-010-wendi:p011",
-          "quote": "上曰：「列侯從高帝入蜀、漢中者六十八人皆益封各三百戶，故吏二千石以上從高帝潁川守尊等十人食邑六百戶，淮陽守申徒嘉等十人五百戶，衛尉定等十人四百戶。封淮南王舅父趙兼為周陽侯，齊王舅父駟鈞為清郭侯。」秋，封故常山丞相蔡兼為樊侯。"
+          "quote_passage_ref": "data/corpus/shiji/010.json"
         }
       ],
       "attestations": [
@@ -47,7 +47,7 @@
               "chapter_id": "c-shiji-010-wendi",
               "source_id": "s-shiji-010-wendi",
               "paragraph_id": "c-shiji-010-wendi:p011",
-              "quote": "上曰：「列侯從高帝入蜀、漢中者六十八人皆益封各三百戶，故吏二千石以上從高帝潁川守尊等十人食邑六百戶，淮陽守申徒嘉等十人五百戶，衛尉定等十人四百戶。封淮南王舅父趙兼為周陽侯，齊王舅父駟鈞為清郭侯。」秋，封故常山丞相蔡兼為樊侯。"
+              "quote_passage_ref": "data/corpus/shiji/010.json"
             }
           ]
         },
@@ -74,7 +74,6 @@
       "raw_count": 2,
       "duplicate_count": 0,
       "counting_policy": "independent_fixed_witness_occurrences",
-      "quote": "適長孫，可立也」。大臣皆曰：「呂氏以外家惡而幾危宗廟，亂功臣今齊王母家駟（鈞），駟鈞，惡人也。即立齊王，則復為呂氏。」欲立淮南王，以為少，母家又惡。乃曰：「代王方今高帝見子，最長，仁孝寬厚。太后家薄氏謹良。且立長故順，以仁孝聞於天下，便。」乃相與共陰使人召代王。代王使人辭謝。再",
       "paragraph_ids": [
         "c-shiji-009-lvhou:p030"
       ],
@@ -107,7 +106,12 @@
       "book_id": "b-shiji-009",
       "chapter_id": "c-shiji-009-lvhou",
       "source_id": "s-shiji-009-lvhou",
-      "work_title": "史記"
+      "work_title": "史記",
+      "chapter_ref": "data/corpus/shiji/009.json",
+      "quote_span": [
+        131,
+        270
+      ]
     },
     {
       "number": 10,
@@ -118,7 +122,6 @@
       "raw_count": 1,
       "duplicate_count": 0,
       "counting_policy": "independent_fixed_witness_occurrences",
-      "quote": "嘉等十人五百戶，衛尉定等十人四百戶。封淮南王舅父趙兼為周陽侯，齊王舅父駟鈞為清郭侯。」秋，封故常山丞相蔡兼為樊侯。",
       "paragraph_ids": [
         "c-shiji-010-wendi:p011"
       ],
@@ -142,7 +145,12 @@
       "book_id": "b-shiji-010",
       "chapter_id": "c-shiji-010-wendi",
       "source_id": "s-shiji-010-wendi",
-      "work_title": "史記"
+      "work_title": "史記",
+      "chapter_ref": "data/corpus/shiji/010.json",
+      "quote_span": [
+        55,
+        112
+      ]
     }
   ],
   "table_occurrences": [
@@ -150,7 +158,6 @@
       "table_id": "shiji-019",
       "cell_id": "shiji-019-t3-r004-c02",
       "title": "《史記·惠景間侯者年表》",
-      "quote": "五。元年亖月辛未，侯駟鈞元年。前六年，鈞有罪，國除。",
       "year": null,
       "mention": {
         "id": "shiji-019-t3-r004-c02-m000",
@@ -165,7 +172,8 @@
       "book_id": "b-shiji-019",
       "chapter_id": "table-chapter-shiji-019",
       "source_id": "table-witness-shiji-019",
-      "source_revision": "6359260"
+      "source_revision": "6359260",
+      "quote_ref": "cell"
     }
   ],
   "sources": [
@@ -174,75 +182,21 @@
       "work_id": "w-shiji",
       "book_id": "b-shiji-009",
       "source_id": "s-shiji-009-lvhou",
-      "source": {
-        "title": "史記／卷009",
-        "provider": "維基文庫",
-        "url": "https://zh.wikisource.org/wiki/史記/卷009",
-        "permalink": "https://zh.wikisource.org/w/index.php?title=史記/卷009&oldid=2087062",
-        "revision_id": 2087062,
-        "accessed_on": "2026-10-09",
-        "extent": "本篇傳世正文32個p區塊，自「呂太后者」至太史公論贊；不含篇名導覽、跨站dd及另署索隱述贊的後出文字。",
-        "image_verified": false,
-        "rights": "古代原文；數位轉錄依維基文庫CC BY-SA 4.0，保留署名及固定版本。",
-        "license_url": "https://creativecommons.org/licenses/by-sa/4.0/",
-        "normalization": {
-          "character_conversion": {},
-          "editorial_readings": [],
-          "extraction_note": "正文均為p，排除前置跨站導覽dd、sup註號與末尾索隱述贊，保留原有校勘符號。",
-          "note": "固定版本HTML與實際所讀正文一致；未核紙本或影像。"
-        }
-      }
+      "chapter_ref": "data/corpus/shiji/009.json"
     },
     {
       "chapter_id": "c-shiji-010-wendi",
       "work_id": "w-shiji",
       "book_id": "b-shiji-010",
       "source_id": "s-shiji-010-wendi",
-      "source": {
-        "title": "史記／卷010",
-        "provider": "維基文庫",
-        "url": "https://zh.wikisource.org/wiki/史記/卷010",
-        "permalink": "https://zh.wikisource.org/w/index.php?title=史記/卷010&oldid=2599229",
-        "revision_id": 2599229,
-        "accessed_on": "2026-10-09",
-        "extent": "正文41個p區塊，自孝文皇帝至太史公論贊；排除前置跨站dd及末尾索隱述贊。",
-        "image_verified": false,
-        "rights": "古代原文；數位轉錄依維基文庫CC BY-SA 4.0，保留署名及固定版本。",
-        "license_url": "https://creativecommons.org/licenses/by-sa/4.0/",
-        "normalization": {
-          "character_conversion": {
-            "泽": "澤",
-            "为": "為",
-            "绖": "絰"
-          },
-          "editorial_readings": [],
-          "extraction_note": "正文均為p，排除sup註號，保留行內校勘符號。",
-          "note": "澤、為、絰僅作明記簡繁轉換；保留琅邪及古代異體，未核影像或可靠底本。"
-        }
-      }
+      "chapter_ref": "data/corpus/shiji/010.json"
     },
     {
       "chapter_id": "table-chapter-shiji-019",
       "work_id": "w-shiji",
       "book_id": "b-shiji-019",
       "source_id": "table-witness-shiji-019",
-      "source": {
-        "id": "table-witness-shiji-019",
-        "work_id": "w-shiji",
-        "book_id": "b-shiji-019",
-        "chapter_id": "table-chapter-shiji-019",
-        "url": "https://zh.wikisource.org/wiki/史記/卷019",
-        "revision_url": "https://zh.wikisource.org/w/index.php?title=史記/卷019&oldid=6359260",
-        "revision": "6359260",
-        "accessed": "2026-10-13",
-        "response_sha256": "46d73e9b0e530a6bebb401c0d906ac495ac4e0433e4479cb31e92dbd810776bf",
-        "edition": null,
-        "image_verified": false,
-        "rights": "古籍正文公有領域；維基文庫數位轉錄依CC BY-SA，保留貢獻者署名。",
-        "rights_url": "https://zh.wikisource.org/wiki/Wikisource:版權信息",
-        "review_status": "partial_named_entity_review",
-        "note": "各組表保留原欄題、原文、空格及合欄，不推不同欄題的接續。西元欄為數位編者增補；未明年份留空，不推世系曆年。未核底本影像，人物標註仍待逐處覆核。"
-      }
+      "table_source_ref": "shiji-019"
     }
   ],
   "relations": [],

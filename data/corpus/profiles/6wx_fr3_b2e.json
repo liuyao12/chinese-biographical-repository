@@ -25,7 +25,7 @@
           "chapter_id": "c-shiji-036-chenqi",
           "source_id": "s-shiji-036-chenqi",
           "paragraph_id": "c-shiji-036-chenqi:p001",
-          "quote": "陳胡公滿者，虞帝舜之後也。昔舜為庶人時，堯妻之二女，居于媯汭，其後因為氏姓，姓媯氏。舜已崩，傳禹天下，而舜子商均為封國。夏后之時，或失或續。至于周武王克殷紂，乃復求舜後，得媯滿，封之於陳，以奉帝舜祀，是為胡公。"
+          "quote_passage_ref": "data/corpus/shiji/036.json"
         }
       ],
       "attestations": [
@@ -67,7 +67,6 @@
       "raw_count": 2,
       "duplicate_count": 0,
       "counting_policy": "independent_fixed_witness_occurrences",
-      "quote": "風俗通云胡母姓夲陳胡公之後也公子完奔齊遂有齊國齊宣王母弟别封母鄉逺夲胡公近取母邑故曰胡母氏也",
       "paragraph_ids": [
         "c-houhanshu-009-xiandi-early:chuping01-note-05-1"
       ],
@@ -100,7 +99,12 @@
       "book_id": "b-houhanshu-009",
       "chapter_id": "c-houhanshu-009-xiandi-early",
       "source_id": "s-houhanshu-009-xiandi-early",
-      "work_title": "後漢書"
+      "work_title": "後漢書",
+      "chapter_ref": "data/corpus/houhanshu/009.json",
+      "quote_span": [
+        0,
+        46
+      ]
     },
     {
       "number": 36,
@@ -111,7 +115,6 @@
       "raw_count": 6,
       "duplicate_count": 0,
       "counting_policy": "independent_fixed_witness_occurrences",
-      "quote": "陳胡公滿者，虞帝舜之後也。昔舜為庶人時，堯妻之二女，居于媯汭，其後因為氏姓，姓媯氏。舜已崩，傳禹天下，而舜子商均為封國。夏后之時，或失或續。至于周武王克殷紂，乃復求舜後，得媯滿，封之於陳，以奉帝舜祀，是為胡公",
       "paragraph_ids": [
         "c-shiji-036-chenqi:p001",
         "c-shiji-036-chenqi:p002",
@@ -183,7 +186,12 @@
       "book_id": "b-shiji-036",
       "chapter_id": "c-shiji-036-chenqi",
       "source_id": "s-shiji-036-chenqi",
-      "work_title": "史記"
+      "work_title": "史記",
+      "chapter_ref": "data/corpus/shiji/036.json",
+      "quote_span": [
+        0,
+        104
+      ]
     },
     {
       "number": 71,
@@ -194,7 +202,6 @@
       "raw_count": 2,
       "duplicate_count": 0,
       "counting_policy": "independent_fixed_witness_occurrences",
-      "quote": "後。夏禹封舜子商均於虞城，三十二世孫遏父為周陶正，武王妻以元女大姬，生滿，封之於陳，賜姓媯，以奉舜祀，是為胡公。九世孫厲公他生敬仲完，奔齊，以國為姓。既而食邑於田，又為田氏。十五世孫齊王建為秦所滅。三子：昇、桓、軫。桓稱王氏。軫，楚相，封潁川侯，因徙潁川，稱陳氏。生嬰，秦",
       "paragraph_ids": [
         "c-xintangshu-071xia-chen-preface:p001"
       ],
@@ -227,7 +234,12 @@
       "book_id": "b-xintangshu-071-xia",
       "chapter_id": "c-xintangshu-071xia-chen-preface",
       "source_id": "s-xintangshu-071xia-chen-preface",
-      "work_title": "新唐書"
+      "work_title": "新唐書",
+      "chapter_ref": "data/corpus/xintangshu/071xia-chen-preface.json",
+      "quote_span": [
+        11,
+        147
+      ]
     }
   ],
   "table_occurrences": [
@@ -235,7 +247,6 @@
       "table_id": "shiji-013",
       "cell_id": "shiji-013-t3-r001-c08",
       "title": "《史記·三代世表》",
-      "quote": "陳胡公滿，舜之後。初封。",
       "year": null,
       "mention": {
         "id": "shiji-013-t3-r001-c08-m000",
@@ -250,7 +261,8 @@
       "book_id": "b-shiji-013",
       "chapter_id": "table-chapter-shiji-013",
       "source_id": "table-witness-shiji-013",
-      "source_revision": "2606991"
+      "source_revision": "2606991",
+      "quote_ref": "cell"
     }
   ],
   "sources": [
@@ -259,102 +271,28 @@
       "work_id": "w-houhanshu",
       "book_id": "b-houhanshu-009",
       "source_id": "s-houhanshu-009-xiandi-early",
-      "source": {
-        "title": "後漢書卷九：孝獻帝紀第九（兩完整年單元）",
-        "provider": "Kanripo",
-        "url": "https://github.com/kanripo/KR2a0009/blob/6db36b6dcbe843b825354c22e9be9193d0137c04/KR2a0009_009.txt",
-        "permalink": "https://github.com/kanripo/KR2a0009/blob/6db36b6dcbe843b825354c22e9be9193d0137c04/KR2a0009_009.txt",
-        "revision_id": "6db36b6dcbe843b825354c22e9be9193d0137c04",
-        "accessed_on": "2026-10-19",
-        "extent": "raw13–40開篇及中平六年全年；41–66初平元年全年；67起二年未收。正文、唐注、宋校獨立19容器。",
-        "text_scope": "partial_chapter",
-        "review_status": "text_checked",
-        "image_verified": false,
-        "rights": "古代原文；固定WYG數位見證，未校圖。",
-        "license_url": "https://www.kanripo.org/",
-        "normalization": {
-          "character_conversion": {},
-          "source_layering": "保底本文字；僅去版面頁標／分行符／注括號，正文唐注宋校分層，逐字raw_runs可回查。"
-        },
-        "response_sha256": "e0459bbe8ebcc6a3bf0ac881302a830b7b8b77284da70faf0723686b9c9bbba5",
-        "source_blob_sha": "1d565549277da141b973c906f61aeef06cff7d7e",
-        "raw_path": "sources/houhanshu/009-kr6db36b6-xiandi-fixed.txt"
-      }
+      "chapter_ref": "data/corpus/houhanshu/009.json"
     },
     {
       "chapter_id": "c-shiji-036-chenqi",
       "work_id": "w-shiji",
       "book_id": "b-shiji-036",
       "source_id": "s-shiji-036-chenqi",
-      "source": {
-        "title": "史記／卷036",
-        "provider": "維基文庫",
-        "url": "https://zh.wikisource.org/wiki/史記/卷036",
-        "permalink": "https://zh.wikisource.org/w/index.php?title=史記/卷036&oldid=2588525",
-        "revision_id": 2588525,
-        "accessed_on": "2026-10-09",
-        "extent": "32段傳世正文，自陳胡公滿至太史公論贊，另保留1段數位見證附載索隱述贊並分層；排除2個dd導覽。",
-        "image_verified": false,
-        "rights": "古代原文；數位轉錄依維基文庫CC BY-SA 4.0，保留署名及固定版本。",
-        "license_url": "https://creativecommons.org/licenses/by-sa/4.0/",
-        "normalization": {
-          "character_conversion": {},
-          "editorial_readings": [],
-          "extraction_note": "固定版本與實讀HTML一致。原字、探續、媯／姜及傳（上）［云］等見證字樣不默改。末段以索隱述贊標題辨為附載評論，不作司馬遷正文或已校定作者。",
-          "note": "未核可靠古籍底本及影像；原紀年、世系、卜筮引語及校勘保留。已另存吉本道雅2020年論文第6–7頁的具體辨析摘要，不表示本篇全部身份、版本及現代研究已覆核。"
-        }
-      }
+      "chapter_ref": "data/corpus/shiji/036.json"
     },
     {
       "chapter_id": "c-xintangshu-071xia-chen-preface",
       "work_id": "w-xintangshu",
       "book_id": "b-xintangshu-071-xia",
       "source_id": "s-xintangshu-071xia-chen-preface",
-      "source": {
-        "title": "新唐書/卷071下",
-        "provider": "維基文庫",
-        "url": "https://zh.wikisource.org/w/index.php?title=%E6%96%B0%E5%94%90%E6%9B%B8%2F%E5%8D%B7071%E4%B8%8B&oldid=2405769",
-        "permalink": "https://zh.wikisource.org/w/index.php?title=%E6%96%B0%E5%94%90%E6%9B%B8%2F%E5%8D%B7071%E4%B8%8B&oldid=2405769",
-        "revision_id": 2405769,
-        "response_sha256": "141e30b0a02865af6c2b7ce5538dd30febde373d07bbd1b148ffb4df11f263cf",
-        "raw_sha256": "2f764391521a46b9a7eb1b6bc8fc145ed307e7a35cc1c98088078ff262e39639",
-        "edition": "收到數位轉錄；所據最早現存古本未知，未校圖",
-        "image_verified": false,
-        "text_scope": "partial_chapter",
-        "extent": "固定raw第747行陳氏序完整409字；不含後續wikitable、不含其他姓、不是卷七十一下完成",
-        "rights": "古代原文，WS數位編輯層CC BY-SA 4.0，見來源頁",
-        "accessed_on": "2026-10-22",
-        "retrieval_qualification": "此日重讀庫內既存固定檔；非本批新HTTP擷取，授權沿封存metadata未重新開權利頁。",
-        "license_url": "https://zh.wikisource.org/wiki/Wikisource:版權信息",
-        "review_status": "text_checked",
-        "normalization": {
-          "character_conversion": "none",
-          "extraction_note": "固定raw第747行409字逐字截取；不改古字、標點，不含後續wikitable。"
-        }
-      }
+      "chapter_ref": "data/corpus/xintangshu/071xia-chen-preface.json"
     },
     {
       "chapter_id": "table-chapter-shiji-013",
       "work_id": "w-shiji",
       "book_id": "b-shiji-013",
       "source_id": "table-witness-shiji-013",
-      "source": {
-        "id": "table-witness-shiji-013",
-        "work_id": "w-shiji",
-        "book_id": "b-shiji-013",
-        "chapter_id": "table-chapter-shiji-013",
-        "url": "https://zh.wikisource.org/wiki/史記/卷013",
-        "revision_url": "https://zh.wikisource.org/w/index.php?title=史記/卷013&oldid=2606991",
-        "revision": "2606991",
-        "accessed": "2026-10-13",
-        "response_sha256": "8c98c072f11fc224a605f6b8f4dfc77be5f87bad792d32c0a2a720914638d7c3",
-        "edition": null,
-        "image_verified": false,
-        "rights": "古籍正文公有領域；維基文庫數位轉錄依CC BY-SA，保留貢獻者署名。",
-        "rights_url": "https://zh.wikisource.org/wiki/Wikisource:版權信息",
-        "review_status": "partial_named_entity_review",
-        "note": "各組表保留原欄題、原文、空格及合欄，不推不同欄題的接續。西元欄為數位編者增補；未明年份留空，不推世系曆年。未核底本影像，人物標註仍待逐處覆核。"
-      }
+      "table_source_ref": "shiji-013"
     }
   ],
   "relations": [
@@ -369,7 +307,7 @@
           "chapter_id": "c-shiji-036-chenqi",
           "source_id": "s-shiji-036-chenqi",
           "paragraph_id": "c-shiji-036-chenqi:p001",
-          "quote": "陳胡公滿者，虞帝舜之後也。昔舜為庶人時，堯妻之二女，居于媯汭，其後因為氏姓，姓媯氏。舜已崩，傳禹天下，而舜子商均為封國。夏后之時，或失或續。至于周武王克殷紂，乃復求舜後，得媯滿，封之於陳，以奉帝舜祀，是為胡公。"
+          "quote_passage_ref": "data/corpus/shiji/036.json"
         }
       ],
       "qualifiers": {
@@ -390,7 +328,7 @@
           "chapter_id": "c-shiji-036-chenqi",
           "source_id": "s-shiji-036-chenqi",
           "paragraph_id": "c-shiji-036-chenqi:p002",
-          "quote": "胡公卒，子申公犀侯立。申公卒，弟相公皋羊立。相公卒，立申公子突，是為孝公。孝公卒，子慎公圉戎立。慎公當周厲王時。慎公卒，子幽公寧立。"
+          "quote_passage_ref": "data/corpus/shiji/036.json"
         }
       ],
       "qualifiers": {
@@ -423,7 +361,7 @@
           "chapter_id": "c-shiji-036-chenqi",
           "source_id": "s-shiji-036-chenqi",
           "paragraph_id": "c-shiji-036-chenqi:p001",
-          "quote": "陳胡公滿者，虞帝舜之後也。昔舜為庶人時，堯妻之二女，居于媯汭，其後因為氏姓，姓媯氏。舜已崩，傳禹天下，而舜子商均為封國。夏后之時，或失或續。至于周武王克殷紂，乃復求舜後，得媯滿，封之於陳，以奉帝舜祀，是為胡公。"
+          "quote_passage_ref": "data/corpus/shiji/036.json"
         }
       ],
       "qualifiers": {
@@ -444,7 +382,7 @@
           "chapter_id": "c-shiji-036-chenqi",
           "source_id": "s-shiji-036-chenqi",
           "paragraph_id": "c-shiji-036-chenqi:p002",
-          "quote": "胡公卒，子申公犀侯立。申公卒，弟相公皋羊立。相公卒，立申公子突，是為孝公。孝公卒，子慎公圉戎立。慎公當周厲王時。慎公卒，子幽公寧立。"
+          "quote_passage_ref": "data/corpus/shiji/036.json"
         }
       ],
       "qualifiers": {
@@ -468,8 +406,8 @@
           "chapter_id": "c-shiji-036-chenqi",
           "source_id": "s-shiji-036-chenqi",
           "paragraph_id": "c-shiji-036-chenqi:p002",
-          "quote": "胡公卒，子申公犀侯立。申公卒，弟相公皋羊立。相公卒，立申公子突，是為孝公。孝公卒，子慎公圉戎立。慎公當周厲王時。慎公卒，子幽公寧立。",
-          "person_mention_id": "c-shiji-036-chenqi:m002-0000"
+          "person_mention_id": "c-shiji-036-chenqi:m002-0000",
+          "quote_passage_ref": "data/corpus/shiji/036.json"
         }
       ],
       "source_term": "胡公卒",

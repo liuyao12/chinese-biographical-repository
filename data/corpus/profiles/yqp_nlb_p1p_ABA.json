@@ -24,7 +24,7 @@
           "chapter_id": "c-shiji-052-qidaohui",
           "source_id": "s-shiji-052-qidaohui",
           "paragraph_id": "c-shiji-052-qidaohui:p003",
-          "quote": "悼惠王即位十三年，以惠帝六年卒。子襄立，是為哀王。"
+          "quote_passage_ref": "data/corpus/shiji/052.json"
         }
       ],
       "attestations": [
@@ -72,8 +72,8 @@
           "chapter_id": "c-shiji-009-lvhou",
           "source_id": "s-shiji-009-lvhou",
           "paragraph_id": "c-shiji-009-lvhou:p023",
-          "quote": "齊王乃遺諸侯王書曰：「高帝平定天下，王諸子弟，悼惠王王齊。悼惠王薨，孝惠帝使留侯良立臣為齊王。孝惠崩，高后用事，春秋高，聽諸呂，擅廢帝更立，又比殺三趙王，滅梁、趙、燕以王諸呂，分齊為四。忠臣進諫，上惑亂弗聽。今高后崩，而帝春秋富，未能治天下，固恃大臣諸侯。而諸呂又擅自尊官，聚兵嚴威，劫列侯忠臣，矯制以令天下，宗廟所以危。寡人率兵入誅不當為王者。」漢聞之，相國呂產等乃遣潁陰侯灌嬰將兵擊之。灌嬰至滎陽，乃謀曰：「諸呂權兵關中，欲危劉氏而自立。今我破齊還報，此益呂氏之資也。」乃留屯滎陽，使使諭齊王及諸侯，與連和，以待呂氏變，共誅之。齊王聞之，乃還兵西界待約。",
-          "person_mention_id": "c-shiji-009-lvhou:m023-0000"
+          "person_mention_id": "c-shiji-009-lvhou:m023-0000",
+          "quote_passage_ref": "data/corpus/shiji/009.json"
         }
       ],
       "source_term": "還兵西界待約",
@@ -99,8 +99,8 @@
           "chapter_id": "c-shiji-052-qidaohui",
           "source_id": "s-shiji-052-qidaohui",
           "paragraph_id": "c-shiji-052-qidaohui:p013",
-          "quote": "漢聞齊發兵而西，相國呂產乃遣大將軍灌嬰東擊之。灌嬰至滎陽，乃謀曰：「諸呂將兵居關中，欲危劉氏而自立。我今破齊還報，是益呂氏資也。」乃留兵屯滎陽，使使喻齊王及諸侯，與連和，以待呂氏之變而共誅之。齊王聞之，乃西取其故濟南郡，亦屯兵於齊西界以待約。",
-          "person_mention_id": "c-shiji-052-qidaohui:m013-0075"
+          "person_mention_id": "c-shiji-052-qidaohui:m013-0075",
+          "quote_passage_ref": "data/corpus/shiji/052.json"
         }
       ],
       "source_term": "亦屯兵於齊西界以待約",
@@ -121,7 +121,6 @@
       "raw_count": 12,
       "duplicate_count": 0,
       "counting_policy": "independent_fixed_witness_occurrences",
-      "quote": "朱虛侯劉章有氣力，東牟侯興居其弟也。皆齊哀王弟，居長安。當是時，諸呂用事擅權，欲為亂，畏高帝故大臣絳、灌等，未敢發。朱虛侯婦，呂祿女，陰知其謀。恐見誅，乃陰令人告其兄齊王，欲令發兵西，誅諸呂而立。朱虛侯欲從中與大臣為應。齊王欲發兵，其相弗聽。八",
       "paragraph_ids": [
         "c-shiji-009-lvhou:p022",
         "c-shiji-009-lvhou:p023",
@@ -247,7 +246,12 @@
       "book_id": "b-shiji-009",
       "chapter_id": "c-shiji-009-lvhou",
       "source_id": "s-shiji-009-lvhou",
-      "work_title": "史記"
+      "work_title": "史記",
+      "chapter_ref": "data/corpus/shiji/009.json",
+      "quote_span": [
+        0,
+        122
+      ]
     },
     {
       "number": 10,
@@ -258,7 +262,6 @@
       "raw_count": 1,
       "duplicate_count": 0,
       "counting_policy": "independent_fixed_witness_occurrences",
-      "quote": "陽守申徒嘉等十人五百戶，衛尉定等十人四百戶。封淮南王舅父趙兼為周陽侯，齊王舅父駟鈞為清郭侯。」秋，封故常山丞相蔡兼為樊侯。",
       "paragraph_ids": [
         "c-shiji-010-wendi:p011"
       ],
@@ -282,7 +285,12 @@
       "book_id": "b-shiji-010",
       "chapter_id": "c-shiji-010-wendi",
       "source_id": "s-shiji-010-wendi",
-      "work_title": "史記"
+      "work_title": "史記",
+      "chapter_ref": "data/corpus/shiji/010.json",
+      "quote_span": [
+        51,
+        112
+      ]
     },
     {
       "number": 52,
@@ -293,7 +301,6 @@
       "raw_count": 28,
       "duplicate_count": 0,
       "counting_policy": "independent_fixed_witness_occurrences",
-      "quote": "悼惠王即位十三年，以惠帝六年卒。子襄立，是為哀王。",
       "paragraph_ids": [
         "c-shiji-052-qidaohui:p003",
         "c-shiji-052-qidaohui:p004",
@@ -571,7 +578,12 @@
       "book_id": "b-shiji-052",
       "chapter_id": "c-shiji-052-qidaohui",
       "source_id": "s-shiji-052-qidaohui",
-      "work_title": "史記"
+      "work_title": "史記",
+      "chapter_ref": "data/corpus/shiji/052.json",
+      "quote_span": [
+        0,
+        25
+      ]
     },
     {
       "number": 95,
@@ -582,7 +594,6 @@
       "raw_count": 3,
       "duplicate_count": 0,
       "counting_policy": "independent_fixed_witness_occurrences",
-      "quote": "以列侯事孝惠帝及呂太后。太后崩，呂祿等以趙王自置為將軍，軍長安，為亂。齊哀王聞之，舉兵西，且入誅不當為王者。上將軍呂祿等聞之，乃遣嬰為大將，將軍往擊之。嬰行至滎陽，乃與絳侯等謀，因屯兵滎陽，風齊王以誅呂氏事，齊兵止不前。絳侯等既誅諸呂，齊王罷兵歸，嬰亦罷兵自滎陽歸，與絳侯、陳",
       "paragraph_ids": [
         "c-shiji-095-fankuang:p032"
       ],
@@ -624,7 +635,12 @@
       "book_id": "b-shiji-095",
       "chapter_id": "c-shiji-095-fankuang",
       "source_id": "s-shiji-095-fankuang",
-      "work_title": "史記"
+      "work_title": "史記",
+      "chapter_ref": "data/corpus/shiji/095.json",
+      "quote_span": [
+        11,
+        149
+      ]
     },
     {
       "number": 130,
@@ -635,7 +651,6 @@
       "raw_count": 1,
       "duplicate_count": 0,
       "counting_policy": "independent_fixed_witness_occurrences",
-      "quote": "天下已平，親屬既寡；悼惠先壯，實鎮東土。哀王擅興，發怒諸呂，駟鈞暴戾，京師弗許。厲之內淫，禍成主父。嘉肥股肱，作齊悼惠王世家第二十二。",
       "paragraph_ids": [
         "c-shiji-130-taishigong:p064"
       ],
@@ -659,7 +674,12 @@
       "book_id": "b-shiji-130",
       "chapter_id": "c-shiji-130-taishigong",
       "source_id": "s-shiji130-taishigong",
-      "work_title": "史記"
+      "work_title": "史記",
+      "chapter_ref": "data/corpus/shiji/130.json",
+      "quote_span": [
+        0,
+        67
+      ]
     }
   ],
   "table_occurrences": [],
@@ -669,124 +689,35 @@
       "work_id": "w-shiji",
       "book_id": "b-shiji-009",
       "source_id": "s-shiji-009-lvhou",
-      "source": {
-        "title": "史記／卷009",
-        "provider": "維基文庫",
-        "url": "https://zh.wikisource.org/wiki/史記/卷009",
-        "permalink": "https://zh.wikisource.org/w/index.php?title=史記/卷009&oldid=2087062",
-        "revision_id": 2087062,
-        "accessed_on": "2026-10-09",
-        "extent": "本篇傳世正文32個p區塊，自「呂太后者」至太史公論贊；不含篇名導覽、跨站dd及另署索隱述贊的後出文字。",
-        "image_verified": false,
-        "rights": "古代原文；數位轉錄依維基文庫CC BY-SA 4.0，保留署名及固定版本。",
-        "license_url": "https://creativecommons.org/licenses/by-sa/4.0/",
-        "normalization": {
-          "character_conversion": {},
-          "editorial_readings": [],
-          "extraction_note": "正文均為p，排除前置跨站導覽dd、sup註號與末尾索隱述贊，保留原有校勘符號。",
-          "note": "固定版本HTML與實際所讀正文一致；未核紙本或影像。"
-        }
-      }
+      "chapter_ref": "data/corpus/shiji/009.json"
     },
     {
       "chapter_id": "c-shiji-010-wendi",
       "work_id": "w-shiji",
       "book_id": "b-shiji-010",
       "source_id": "s-shiji-010-wendi",
-      "source": {
-        "title": "史記／卷010",
-        "provider": "維基文庫",
-        "url": "https://zh.wikisource.org/wiki/史記/卷010",
-        "permalink": "https://zh.wikisource.org/w/index.php?title=史記/卷010&oldid=2599229",
-        "revision_id": 2599229,
-        "accessed_on": "2026-10-09",
-        "extent": "正文41個p區塊，自孝文皇帝至太史公論贊；排除前置跨站dd及末尾索隱述贊。",
-        "image_verified": false,
-        "rights": "古代原文；數位轉錄依維基文庫CC BY-SA 4.0，保留署名及固定版本。",
-        "license_url": "https://creativecommons.org/licenses/by-sa/4.0/",
-        "normalization": {
-          "character_conversion": {
-            "泽": "澤",
-            "为": "為",
-            "绖": "絰"
-          },
-          "editorial_readings": [],
-          "extraction_note": "正文均為p，排除sup註號，保留行內校勘符號。",
-          "note": "澤、為、絰僅作明記簡繁轉換；保留琅邪及古代異體，未核影像或可靠底本。"
-        }
-      }
+      "chapter_ref": "data/corpus/shiji/010.json"
     },
     {
       "chapter_id": "c-shiji-052-qidaohui",
       "work_id": "w-shiji",
       "book_id": "b-shiji-052",
       "source_id": "s-shiji-052-qidaohui",
-      "source": {
-        "title": "史記／卷052",
-        "provider": "維基文庫",
-        "url": "https://zh.wikisource.org/wiki/史記/卷052",
-        "permalink": "https://zh.wikisource.org/w/index.php?title=史記/卷052&oldid=5977113",
-        "revision_id": 5977113,
-        "accessed_on": "2026-10-09",
-        "extent": "44段篇文及1段索隱述贊，數位分節欄題不作古文段落。",
-        "image_verified": false,
-        "rights": "古代原文；數位轉錄依維基文庫CC BY-SA 4.0，保留署名及固定版本。",
-        "license_url": "https://creativecommons.org/licenses/by-sa/4.0/",
-        "normalization": {
-          "character_conversion": {},
-          "editorial_readings": [],
-          "extraction_note": "取得時HTML與固定修訂一致，只去外緣空白；保留衛衛王、高后立諸呂諸呂、（西）［迺］、［建］延、硃虛等原字與校勘字樣，不擅刪重字或選讀法。",
-          "note": "全45段已讀並作明示人物首輪；未核底本、影像或現代研究。"
-        }
-      }
+      "chapter_ref": "data/corpus/shiji/052.json"
     },
     {
       "chapter_id": "c-shiji-095-fankuang",
       "work_id": "w-shiji",
       "book_id": "b-shiji-095",
       "source_id": "s-shiji-095-fankuang",
-      "source": {
-        "title": "史記／卷095",
-        "provider": "維基文庫",
-        "url": "https://zh.wikisource.org/wiki/史記/卷095",
-        "permalink": "https://zh.wikisource.org/w/index.php?title=史記/卷095&oldid=2298709",
-        "revision_id": 2298709,
-        "accessed_on": "2026-10-09",
-        "extent": "34段傳世正文含太史公論，另附1段分層索隱述贊；排除導覽與空白。",
-        "image_verified": false,
-        "rights": "古代原文；數位轉錄依維基文庫CC BY-SA 4.0，保留署名及固定版本。",
-        "license_url": "https://creativecommons.org/licenses/by-sa/4.0/",
-        "normalization": {
-          "character_conversion": {},
-          "editorial_readings": [],
-          "extraction_note": "固定HTML一致，只去外緣空白；樊噌、（肩）［屏］、（博）［傅］、（太卜）太仆、穎陰等原字保留。",
-          "note": "全37個HTML區塊已讀，未核底本影像。"
-        }
-      }
+      "chapter_ref": "data/corpus/shiji/095.json"
     },
     {
       "chapter_id": "c-shiji-130-taishigong",
       "work_id": "w-shiji",
       "book_id": "b-shiji-130",
       "source_id": "s-shiji130-taishigong",
-      "source": {
-        "title": "史記／卷130",
-        "provider": "維基文庫",
-        "url": "https://zh.wikisource.org/wiki/史記/卷130",
-        "permalink": "https://zh.wikisource.org/w/index.php?title=史記/卷130&oldid=2609362",
-        "revision_id": 2609362,
-        "accessed_on": "2026-10-11",
-        "extent": "固定修訂全文143段，全部篇文。",
-        "image_verified": false,
-        "rights": "古代原文；數位轉錄依維基文庫CC BY-SA 4.0，保留署名及固定版本。",
-        "license_url": "https://creativecommons.org/licenses/by-sa/4.0/",
-        "normalization": {
-          "character_conversion": {},
-          "editorial_readings": [],
-          "extraction_note": "去header2及現代節標，移除維基引文縮排冒號，保留原字，未核影像。",
-          "note": "全文入庫不等於全部提及已標註；目錄段落仍待逐段處理。"
-        }
-      }
+      "chapter_ref": "data/corpus/shiji/130.json"
     }
   ],
   "relations": [
@@ -822,7 +753,7 @@
           "chapter_id": "c-shiji-052-qidaohui",
           "source_id": "s-shiji-052-qidaohui",
           "paragraph_id": "c-shiji-052-qidaohui:p003",
-          "quote": "悼惠王即位十三年，以惠帝六年卒。子襄立，是為哀王。"
+          "quote_passage_ref": "data/corpus/shiji/052.json"
         }
       ],
       "qualifiers": {
@@ -843,7 +774,7 @@
           "chapter_id": "c-shiji-052-qidaohui",
           "source_id": "s-shiji-052-qidaohui",
           "paragraph_id": "c-shiji-052-qidaohui:p005",
-          "quote": "哀王三年，其弟章入宿衛於漢，呂太后封為朱虛侯，以呂祿女妻之。後四年，封章弟興居為東牟侯，皆宿衛長安中。"
+          "quote_passage_ref": "data/corpus/shiji/052.json"
         }
       ],
       "qualifiers": {
@@ -897,7 +828,7 @@
           "chapter_id": "c-shiji-052-qidaohui",
           "source_id": "s-shiji-052-qidaohui",
           "paragraph_id": "c-shiji-052-qidaohui:p003",
-          "quote": "悼惠王即位十三年，以惠帝六年卒。子襄立，是為哀王。"
+          "quote_passage_ref": "data/corpus/shiji/052.json"
         }
       ],
       "qualifiers": {
@@ -918,7 +849,7 @@
           "chapter_id": "c-shiji-052-qidaohui",
           "source_id": "s-shiji-052-qidaohui",
           "paragraph_id": "c-shiji-052-qidaohui:p005",
-          "quote": "哀王三年，其弟章入宿衛於漢，呂太后封為朱虛侯，以呂祿女妻之。後四年，封章弟興居為東牟侯，皆宿衛長安中。"
+          "quote_passage_ref": "data/corpus/shiji/052.json"
         }
       ],
       "qualifiers": {
@@ -958,8 +889,8 @@
           "chapter_id": "c-shiji-052-qidaohui",
           "source_id": "s-shiji-052-qidaohui",
           "paragraph_id": "c-shiji-052-qidaohui:p019",
-          "quote": "是歲，齊哀王卒，太子則立，是為文王。",
-          "person_mention_id": "c-shiji-052-qidaohui:m019-0003"
+          "person_mention_id": "c-shiji-052-qidaohui:m019-0003",
+          "quote_passage_ref": "data/corpus/shiji/052.json"
         }
       ],
       "source_term": "齊哀王卒",

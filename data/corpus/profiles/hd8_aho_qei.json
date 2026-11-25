@@ -20,7 +20,6 @@
       "raw_count": 1,
       "duplicate_count": 0,
       "counting_policy": "independent_fixed_witness_occurrences",
-      "quote": "尚方。祝融驚而蹕御兮，清氛氣而後行。屯余車其萬乘兮，綷雲蓋而樹華旗。使勾芒其將行兮，吾欲往乎南嬉。",
       "paragraph_ids": [
         "c-shiji-117-xiangru:p052"
       ],
@@ -44,7 +43,12 @@
       "book_id": "b-shiji-117",
       "chapter_id": "c-shiji-117-xiangru",
       "source_id": "s-shiji117-xiangru",
-      "work_title": "史記"
+      "work_title": "史記",
+      "chapter_ref": "data/corpus/shiji/117.json",
+      "quote_span": [
+        97,
+        146
+      ]
     }
   ],
   "table_occurrences": [],
@@ -54,24 +58,7 @@
       "work_id": "w-shiji",
       "book_id": "b-shiji-117",
       "source_id": "s-shiji117-xiangru",
-      "source": {
-        "title": "史記／卷117",
-        "provider": "維基文庫",
-        "url": "https://zh.wikisource.org/wiki/史記/卷117",
-        "permalink": "https://zh.wikisource.org/w/index.php?title=史記/卷117&oldid=10371549",
-        "revision_id": 10371549,
-        "accessed_on": "2026-10-11",
-        "extent": "固定修訂全文71段，包括賦、書與末段索隱述贊。",
-        "image_verified": false,
-        "rights": "古代原文；數位轉錄依維基文庫CC BY-SA 4.0，保留署名及固定版本。",
-        "license_url": "https://creativecommons.org/licenses/by-sa/4.0/",
-        "normalization": {
-          "character_conversion": {},
-          "editorial_readings": [],
-          "extraction_note": "去header2、目錄標記及現代節標；quote模板保留全文，br轉段落；罕字模板保留第一參數字形，描述未作正文；連結保留顯示字。未核影像。 移除防轉換控制外殼，保留內字云。",
-          "note": "第58段U+E0FA私用字缺字與頌中重句原樣保存，不猜補；末段索隱述贊分層。"
-        }
-      }
+      "chapter_ref": "data/corpus/shiji/117.json"
     }
   ],
   "relations": [],
@@ -105,10 +92,10 @@
           "chapter_id": "c-shiji-117-xiangru",
           "source_id": "s-shiji117-xiangru",
           "paragraph_id": "c-shiji-117-xiangru:p052",
-          "quote": "邪絕少陽而登太陰兮，與真人乎相求。互折窈窕以右轉兮，橫厲飛泉以正東。悉徵靈圉而選之兮，部乘眾神於瑤光。使五帝先導兮，反太一而從陵陽。左玄冥而右含靁兮，前陸離而後潏湟。厮征北僑而役羡門兮，屬岐伯使尚方。祝融驚而蹕御兮，清氛氣而後行。屯余車其萬乘兮，綷雲蓋而樹華旗。使勾芒其將行兮，吾欲往乎南嬉。",
           "mention_ids": [
             "c-shiji-117-xiangru:m052-0132"
-          ]
+          ],
+          "quote_passage_ref": "data/corpus/shiji/117.json"
         }
       ],
       "references": [

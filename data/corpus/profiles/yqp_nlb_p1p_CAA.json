@@ -26,7 +26,7 @@
           "chapter_id": "c-shiji-106-wuwang",
           "source_id": "s-shiji-106-wuwang",
           "paragraph_id": "c-shiji-106-wuwang:p003",
-          "quote": "孝文時，吳太子入見，得侍皇太子飲博。吳太子師傅皆楚人，輕悍，又素驕，博，爭道，不恭，皇太子引博局提吳太子，殺之。於是遣其喪歸葬。至吳，吳王慍曰：「天下同宗，死長安即葬長安，何必來葬為！」復遣喪之長安葬。吳王由此稍失藩臣之禮，稱病不朝。京師知其以子故稱病不朝，驗問實不病，諸吳使來，輒系責治之。吳王恐，為謀滋甚。及後使人為秋請，上復責問吳使者，使者對曰：「王實不病，漢系治使者數輩，以故遂稱病。且夫『察見淵中魚，不祥』。今王始詐病，及覺，見責急，愈益閉，恐上誅之，計乃無聊。唯上棄之而與更始。」於是天子乃赦吳使者歸之，而賜吳王几杖，老，不朝。吳得釋其罪，謀亦益解。然其居國以銅鹽故，百姓無賦。卒踐更，輒與平賈。歲時存問茂材，賞賜閭里。佗郡國吏欲來捕亡人者，訟共禁弗予。如此者四十餘年，以故能使其眾。"
+          "quote_passage_ref": "data/corpus/shiji/106.json"
         }
       ],
       "source_term": "死長安即葬長安",
@@ -52,7 +52,7 @@
           "chapter_id": "c-shiji-106-wuwang",
           "source_id": "s-shiji-106-wuwang",
           "paragraph_id": "c-shiji-106-wuwang:p003",
-          "quote": "孝文時，吳太子入見，得侍皇太子飲博。吳太子師傅皆楚人，輕悍，又素驕，博，爭道，不恭，皇太子引博局提吳太子，殺之。於是遣其喪歸葬。至吳，吳王慍曰：「天下同宗，死長安即葬長安，何必來葬為！」復遣喪之長安葬。吳王由此稍失藩臣之禮，稱病不朝。京師知其以子故稱病不朝，驗問實不病，諸吳使來，輒系責治之。吳王恐，為謀滋甚。及後使人為秋請，上復責問吳使者，使者對曰：「王實不病，漢系治使者數輩，以故遂稱病。且夫『察見淵中魚，不祥』。今王始詐病，及覺，見責急，愈益閉，恐上誅之，計乃無聊。唯上棄之而與更始。」於是天子乃赦吳使者歸之，而賜吳王几杖，老，不朝。吳得釋其罪，謀亦益解。然其居國以銅鹽故，百姓無賦。卒踐更，輒與平賈。歲時存問茂材，賞賜閭里。佗郡國吏欲來捕亡人者，訟共禁弗予。如此者四十餘年，以故能使其眾。"
+          "quote_passage_ref": "data/corpus/shiji/106.json"
         }
       ],
       "source_term": "復遣喪之長安葬",
@@ -73,7 +73,6 @@
       "raw_count": 3,
       "duplicate_count": 0,
       "counting_policy": "independent_fixed_witness_occurrences",
-      "quote": "孝文時，吳太子入見，得侍皇太子飲博。吳太子師傅皆楚人，輕悍，又素驕。博爭道，不恭，皇太子引博局提吳太子，殺之。於是遣其喪歸葬吳。吳王慍曰：「天下一宗，死長安即葬長安，何必來葬！」復遣喪之長安葬。吳王由是怨望，稍失藩",
       "paragraph_ids": [
         "c-hanshu-035-jingyanwu:wuwang:p003"
       ],
@@ -115,7 +114,12 @@
       "book_id": "b-hanshu-035",
       "chapter_id": "c-hanshu-035-jingyanwu",
       "source_id": "s-hanshu-035-jingyanwu",
-      "work_title": "漢書"
+      "work_title": "漢書",
+      "chapter_ref": "data/corpus/hanshu/035.json",
+      "quote_span": [
+        0,
+        107
+      ]
     },
     {
       "number": 106,
@@ -126,7 +130,6 @@
       "raw_count": 3,
       "duplicate_count": 0,
       "counting_policy": "independent_fixed_witness_occurrences",
-      "quote": "孝文時，吳太子入見，得侍皇太子飲博。吳太子師傅皆楚人，輕悍，又素驕，博，爭道，不恭，皇太子引博局提吳太子，殺之。於是遣其喪歸葬。至吳，吳王慍曰：「天下同宗，死長安即葬長安，何必來葬為！」復遣喪之長安葬。吳王由此稍失",
       "paragraph_ids": [
         "c-shiji-106-wuwang:p003"
       ],
@@ -168,7 +171,12 @@
       "book_id": "b-shiji-106",
       "chapter_id": "c-shiji-106-wuwang",
       "source_id": "s-shiji-106-wuwang",
-      "work_title": "史記"
+      "work_title": "史記",
+      "chapter_ref": "data/corpus/shiji/106.json",
+      "quote_span": [
+        0,
+        107
+      ]
     }
   ],
   "table_occurrences": [],
@@ -178,55 +186,14 @@
       "work_id": "w-hanshu",
       "book_id": "b-hanshu-035",
       "source_id": "s-hanshu-035-jingyanwu",
-      "source": {
-        "title": "漢書／卷035",
-        "provider": "維基文庫",
-        "url": "https://zh.wikisource.org/wiki/漢書/卷035",
-        "permalink": "https://zh.wikisource.org/w/index.php?title=漢書/卷035&oldid=2605377",
-        "revision_id": 2605377,
-        "accessed_on": "2026-10-15",
-        "extent": "目前錄吳王傳八個不連續段落；荊王、燕王、其他吳王段及贊未錄，不代表全卷完成。",
-        "text_scope": "partial_chapter",
-        "image_verified": false,
-        "review_status": "text_checked",
-        "normalization": {
-          "character_conversion": {},
-          "editorial_readings": [],
-          "extraction_note": "固定HTML的p元素，去段首尾空白、解碼HTML實體，不合併原段，不改古字。"
-        },
-        "html_sha256": "2e018b66d35e2de08408e9123eeb1e48966d649e98c66f2b89d4e11ef4811f9f",
-        "included_sections": [
-          "吳王傳八個不連續段落"
-        ],
-        "license_url": "https://creativecommons.org/licenses/by-sa/4.0/",
-        "rights": "古代原文；維基文庫數位轉錄依CC BY-SA 4.0，保留貢獻者署名及固定修訂連結。",
-        "edition": null,
-        "revision_timestamp": null
-      }
+      "chapter_ref": "data/corpus/hanshu/035.json"
     },
     {
       "chapter_id": "c-shiji-106-wuwang",
       "work_id": "w-shiji",
       "book_id": "b-shiji-106",
       "source_id": "s-shiji-106-wuwang",
-      "source": {
-        "title": "史記／卷106",
-        "provider": "維基文庫",
-        "url": "https://zh.wikisource.org/wiki/史記/卷106",
-        "permalink": "https://zh.wikisource.org/w/index.php?title=史記/卷106&oldid=405869",
-        "revision_id": 405869,
-        "accessed_on": "2026-10-10",
-        "extent": "20段正文含書信、制詔與太史公論，1段索隱述贊。",
-        "image_verified": false,
-        "rights": "古代原文；數位轉錄依維基文庫CC BY-SA 4.0，保留署名及固定版本。",
-        "license_url": "https://creativecommons.org/licenses/by-sa/4.0/",
-        "normalization": {
-          "character_conversion": {},
-          "editorial_readings": [],
-          "extraction_note": "去標題與介面模板，原字、標點及段落次序保留。",
-          "note": "未核底本影像。"
-        }
-      }
+      "chapter_ref": "data/corpus/shiji/106.json"
     }
   ],
   "relations": [
@@ -241,7 +208,7 @@
           "chapter_id": "c-shiji-106-wuwang",
           "source_id": "s-shiji-106-wuwang",
           "paragraph_id": "c-shiji-106-wuwang:p003",
-          "quote": "孝文時，吳太子入見，得侍皇太子飲博。吳太子師傅皆楚人，輕悍，又素驕，博，爭道，不恭，皇太子引博局提吳太子，殺之。於是遣其喪歸葬。至吳，吳王慍曰：「天下同宗，死長安即葬長安，何必來葬為！」復遣喪之長安葬。吳王由此稍失藩臣之禮，稱病不朝。京師知其以子故稱病不朝，驗問實不病，諸吳使來，輒系責治之。吳王恐，為謀滋甚。及後使人為秋請，上復責問吳使者，使者對曰：「王實不病，漢系治使者數輩，以故遂稱病。且夫『察見淵中魚，不祥』。今王始詐病，及覺，見責急，愈益閉，恐上誅之，計乃無聊。唯上棄之而與更始。」於是天子乃赦吳使者歸之，而賜吳王几杖，老，不朝。吳得釋其罪，謀亦益解。然其居國以銅鹽故，百姓無賦。卒踐更，輒與平賈。歲時存問茂材，賞賜閭里。佗郡國吏欲來捕亡人者，訟共禁弗予。如此者四十餘年，以故能使其眾。"
+          "quote_passage_ref": "data/corpus/shiji/106.json"
         }
       ],
       "qualifiers": {
@@ -273,7 +240,7 @@
           "chapter_id": "c-shiji-106-wuwang",
           "source_id": "s-shiji-106-wuwang",
           "paragraph_id": "c-shiji-106-wuwang:p003",
-          "quote": "孝文時，吳太子入見，得侍皇太子飲博。吳太子師傅皆楚人，輕悍，又素驕，博，爭道，不恭，皇太子引博局提吳太子，殺之。於是遣其喪歸葬。至吳，吳王慍曰：「天下同宗，死長安即葬長安，何必來葬為！」復遣喪之長安葬。吳王由此稍失藩臣之禮，稱病不朝。京師知其以子故稱病不朝，驗問實不病，諸吳使來，輒系責治之。吳王恐，為謀滋甚。及後使人為秋請，上復責問吳使者，使者對曰：「王實不病，漢系治使者數輩，以故遂稱病。且夫『察見淵中魚，不祥』。今王始詐病，及覺，見責急，愈益閉，恐上誅之，計乃無聊。唯上棄之而與更始。」於是天子乃赦吳使者歸之，而賜吳王几杖，老，不朝。吳得釋其罪，謀亦益解。然其居國以銅鹽故，百姓無賦。卒踐更，輒與平賈。歲時存問茂材，賞賜閭里。佗郡國吏欲來捕亡人者，訟共禁弗予。如此者四十餘年，以故能使其眾。"
+          "quote_passage_ref": "data/corpus/shiji/106.json"
         }
       ],
       "qualifiers": {
@@ -314,8 +281,8 @@
           "chapter_id": "c-shiji-106-wuwang",
           "source_id": "s-shiji-106-wuwang",
           "paragraph_id": "c-shiji-106-wuwang:p003",
-          "quote": "孝文時，吳太子入見，得侍皇太子飲博。吳太子師傅皆楚人，輕悍，又素驕，博，爭道，不恭，皇太子引博局提吳太子，殺之。於是遣其喪歸葬。至吳，吳王慍曰：「天下同宗，死長安即葬長安，何必來葬為！」復遣喪之長安葬。吳王由此稍失藩臣之禮，稱病不朝。京師知其以子故稱病不朝，驗問實不病，諸吳使來，輒系責治之。吳王恐，為謀滋甚。及後使人為秋請，上復責問吳使者，使者對曰：「王實不病，漢系治使者數輩，以故遂稱病。且夫『察見淵中魚，不祥』。今王始詐病，及覺，見責急，愈益閉，恐上誅之，計乃無聊。唯上棄之而與更始。」於是天子乃赦吳使者歸之，而賜吳王几杖，老，不朝。吳得釋其罪，謀亦益解。然其居國以銅鹽故，百姓無賦。卒踐更，輒與平賈。歲時存問茂材，賞賜閭里。佗郡國吏欲來捕亡人者，訟共禁弗予。如此者四十餘年，以故能使其眾。",
-          "person_mention_id": "c-shiji-106-wuwang:m003-0049"
+          "person_mention_id": "c-shiji-106-wuwang:m003-0049",
+          "quote_passage_ref": "data/corpus/shiji/106.json"
         }
       ],
       "interpretation_note": "只記本段實際死亡。未明死因者不補自殺；不以死亡終止全部官爵，不把時長當月名。吳太子僅孝文時，不補確切年；齊王早置發兵段的敘次與052不同，兩篇原文分存。未核書影。",

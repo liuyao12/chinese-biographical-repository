@@ -21,7 +21,7 @@
           "chapter_id": "c-shiji-105-bianque",
           "source_id": "s-shiji-105-bianque",
           "paragraph_id": "c-shiji-105-bianque:p043",
-          "quote": "問臣意：「意方能知病死生，論藥用所宜，諸侯王大臣有嘗問意者不？及文王病時，不求意診治，何故？」對曰：「趙王、膠西王、濟南王、吳王皆使人來召臣意，臣意不敢往。文王病時，臣意家貧，欲為人治病，誠恐吏以除拘臣意也，故移名數，左右不修家生，出行游國中，問善為方數者事之久矣，見事數師，悉受其要事，盡其方書意，及解論之。身居陽虛侯國，因事侯。侯入朝，臣意從之長安，以故得診安陵項處等病也。」"
+          "quote_passage_ref": "data/corpus/shiji/105.json"
         }
       ],
       "attestations": [
@@ -63,7 +63,6 @@
       "raw_count": 1,
       "duplicate_count": 0,
       "counting_policy": "independent_fixed_witness_occurrences",
-      "quote": "諸侯王大臣有嘗問意者不？及文王病時，不求意診治，何故？」對曰：「趙王、膠西王、濟南王、吳王皆使人來召臣意，臣意不敢往。文王病時，臣意家貧，欲為人治病，誠恐吏以除拘臣意也，故移名數，左右不修家生，出行游國中，問善為方數者事之久矣，見事數師，悉受其要事，盡其方書意，及解論之。身居",
       "paragraph_ids": [
         "c-shiji-105-bianque:p043"
       ],
@@ -87,7 +86,12 @@
       "book_id": "b-shiji-105",
       "chapter_id": "c-shiji-105-bianque",
       "source_id": "s-shiji-105-bianque",
-      "work_title": "史記"
+      "work_title": "史記",
+      "chapter_ref": "data/corpus/shiji/105.json",
+      "quote_span": [
+        19,
+        157
+      ]
     }
   ],
   "table_occurrences": [],
@@ -97,24 +101,7 @@
       "work_id": "w-shiji",
       "book_id": "b-shiji-105",
       "source_id": "s-shiji-105-bianque",
-      "source": {
-        "title": "史記／卷105",
-        "provider": "維基文庫",
-        "url": "https://zh.wikisource.org/wiki/史記/卷105",
-        "permalink": "https://zh.wikisource.org/w/index.php?title=史記/卷105&oldid=8842726",
-        "revision_id": 8842726,
-        "accessed_on": "2026-10-10",
-        "extent": "48段正文含太史公論與答詔醫案，1段索隱述贊及3段見證附載正義。",
-        "image_verified": false,
-        "rights": "古代原文；數位轉錄依維基文庫CC BY-SA 4.0，保留署名及固定版本。",
-        "license_url": "https://creativecommons.org/licenses/by-sa/4.0/",
-        "normalization": {
-          "character_conversion": {},
-          "editorial_readings": [],
-          "extraction_note": "去標題與介面模板，原字、標點及段落次序保留。",
-          "note": "未核底本影像。"
-        }
-      }
+      "chapter_ref": "data/corpus/shiji/105.json"
     }
   ],
   "relations": [],

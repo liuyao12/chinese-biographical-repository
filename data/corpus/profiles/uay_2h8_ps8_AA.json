@@ -23,7 +23,7 @@
           "chapter_id": "c-shiji-036-chenqi",
           "source_id": "s-shiji-036-chenqi",
           "paragraph_id": "c-shiji-036-chenqi:p023",
-          "quote": "十年，陳火。十五年，吳王僚使公子光伐陳，取胡、沈而去。二十八年，吳王闔閭與子胥敗楚入郢。是年，惠公卒，子懷公柳立。"
+          "quote_passage_ref": "data/corpus/shiji/036.json"
         }
       ],
       "attestations": [
@@ -113,8 +113,8 @@
           "chapter_id": "c-shiji-036-chenqi",
           "source_id": "s-shiji-036-chenqi",
           "paragraph_id": "c-shiji-036-chenqi:p024",
-          "quote": "懷公元年，吳破楚，在郢，召陳侯。陳侯欲往，大夫曰：「吳新得意；楚王雖亡，與陳有故，不可倍。」懷公乃以疾謝吳。四年，吳復召懷公。懷公恐，如吳。吳怒其前不往，留之，因卒吳。陳乃立懷公之子越，是為湣公。",
-          "person_mention_id": "c-shiji-036-chenqi:m024-0000"
+          "person_mention_id": "c-shiji-036-chenqi:m024-0000",
+          "quote_passage_ref": "data/corpus/shiji/036.json"
         }
       ],
       "source_term": "懷公恐，如吳",
@@ -140,8 +140,8 @@
           "chapter_id": "c-shiji-036-chenqi",
           "source_id": "s-shiji-036-chenqi",
           "paragraph_id": "c-shiji-036-chenqi:p024",
-          "quote": "懷公元年，吳破楚，在郢，召陳侯。陳侯欲往，大夫曰：「吳新得意；楚王雖亡，與陳有故，不可倍。」懷公乃以疾謝吳。四年，吳復召懷公。懷公恐，如吳。吳怒其前不往，留之，因卒吳。陳乃立懷公之子越，是為湣公。",
-          "person_mention_id": "c-shiji-036-chenqi:m024-0000"
+          "person_mention_id": "c-shiji-036-chenqi:m024-0000",
+          "quote_passage_ref": "data/corpus/shiji/036.json"
         }
       ],
       "source_term": "吳怒其前不往，留之，因卒吳",
@@ -167,8 +167,8 @@
           "chapter_id": "c-shiji-036-chenqi",
           "source_id": "s-shiji-036-chenqi",
           "paragraph_id": "c-shiji-036-chenqi:p024",
-          "quote": "懷公元年，吳破楚，在郢，召陳侯。陳侯欲往，大夫曰：「吳新得意；楚王雖亡，與陳有故，不可倍。」懷公乃以疾謝吳。四年，吳復召懷公。懷公恐，如吳。吳怒其前不往，留之，因卒吳。陳乃立懷公之子越，是為湣公。",
-          "person_mention_id": "c-shiji-036-chenqi:m024-0000"
+          "person_mention_id": "c-shiji-036-chenqi:m024-0000",
+          "quote_passage_ref": "data/corpus/shiji/036.json"
         }
       ],
       "source_term": "因卒吳",
@@ -189,7 +189,6 @@
       "raw_count": 8,
       "duplicate_count": 0,
       "counting_policy": "independent_fixed_witness_occurrences",
-      "quote": "伐陳，取胡、沈而去。二十八年，吳王闔閭與子胥敗楚入郢。是年，惠公卒，子懷公柳立。",
       "paragraph_ids": [
         "c-shiji-036-chenqi:p023",
         "c-shiji-036-chenqi:p024"
@@ -277,7 +276,12 @@
       "book_id": "b-shiji-036",
       "chapter_id": "c-shiji-036-chenqi",
       "source_id": "s-shiji-036-chenqi",
-      "work_title": "史記"
+      "work_title": "史記",
+      "chapter_ref": "data/corpus/shiji/036.json",
+      "quote_span": [
+        17,
+        57
+      ]
     }
   ],
   "table_occurrences": [],
@@ -287,24 +291,7 @@
       "work_id": "w-shiji",
       "book_id": "b-shiji-036",
       "source_id": "s-shiji-036-chenqi",
-      "source": {
-        "title": "史記／卷036",
-        "provider": "維基文庫",
-        "url": "https://zh.wikisource.org/wiki/史記/卷036",
-        "permalink": "https://zh.wikisource.org/w/index.php?title=史記/卷036&oldid=2588525",
-        "revision_id": 2588525,
-        "accessed_on": "2026-10-09",
-        "extent": "32段傳世正文，自陳胡公滿至太史公論贊，另保留1段數位見證附載索隱述贊並分層；排除2個dd導覽。",
-        "image_verified": false,
-        "rights": "古代原文；數位轉錄依維基文庫CC BY-SA 4.0，保留署名及固定版本。",
-        "license_url": "https://creativecommons.org/licenses/by-sa/4.0/",
-        "normalization": {
-          "character_conversion": {},
-          "editorial_readings": [],
-          "extraction_note": "固定版本與實讀HTML一致。原字、探續、媯／姜及傳（上）［云］等見證字樣不默改。末段以索隱述贊標題辨為附載評論，不作司馬遷正文或已校定作者。",
-          "note": "未核可靠古籍底本及影像；原紀年、世系、卜筮引語及校勘保留。已另存吉本道雅2020年論文第6–7頁的具體辨析摘要，不表示本篇全部身份、版本及現代研究已覆核。"
-        }
-      }
+      "chapter_ref": "data/corpus/shiji/036.json"
     }
   ],
   "relations": [
@@ -319,7 +306,7 @@
           "chapter_id": "c-shiji-036-chenqi",
           "source_id": "s-shiji-036-chenqi",
           "paragraph_id": "c-shiji-036-chenqi:p023",
-          "quote": "十年，陳火。十五年，吳王僚使公子光伐陳，取胡、沈而去。二十八年，吳王闔閭與子胥敗楚入郢。是年，惠公卒，子懷公柳立。"
+          "quote_passage_ref": "data/corpus/shiji/036.json"
         }
       ],
       "qualifiers": {
@@ -340,7 +327,7 @@
           "chapter_id": "c-shiji-036-chenqi",
           "source_id": "s-shiji-036-chenqi",
           "paragraph_id": "c-shiji-036-chenqi:p024",
-          "quote": "懷公元年，吳破楚，在郢，召陳侯。陳侯欲往，大夫曰：「吳新得意；楚王雖亡，與陳有故，不可倍。」懷公乃以疾謝吳。四年，吳復召懷公。懷公恐，如吳。吳怒其前不往，留之，因卒吳。陳乃立懷公之子越，是為湣公。"
+          "quote_passage_ref": "data/corpus/shiji/036.json"
         }
       ],
       "qualifiers": {
@@ -373,7 +360,7 @@
           "chapter_id": "c-shiji-036-chenqi",
           "source_id": "s-shiji-036-chenqi",
           "paragraph_id": "c-shiji-036-chenqi:p023",
-          "quote": "十年，陳火。十五年，吳王僚使公子光伐陳，取胡、沈而去。二十八年，吳王闔閭與子胥敗楚入郢。是年，惠公卒，子懷公柳立。"
+          "quote_passage_ref": "data/corpus/shiji/036.json"
         }
       ],
       "qualifiers": {
@@ -394,7 +381,7 @@
           "chapter_id": "c-shiji-036-chenqi",
           "source_id": "s-shiji-036-chenqi",
           "paragraph_id": "c-shiji-036-chenqi:p024",
-          "quote": "懷公元年，吳破楚，在郢，召陳侯。陳侯欲往，大夫曰：「吳新得意；楚王雖亡，與陳有故，不可倍。」懷公乃以疾謝吳。四年，吳復召懷公。懷公恐，如吳。吳怒其前不往，留之，因卒吳。陳乃立懷公之子越，是為湣公。"
+          "quote_passage_ref": "data/corpus/shiji/036.json"
         }
       ],
       "qualifiers": {
@@ -418,8 +405,8 @@
           "chapter_id": "c-shiji-036-chenqi",
           "source_id": "s-shiji-036-chenqi",
           "paragraph_id": "c-shiji-036-chenqi:p024",
-          "quote": "懷公元年，吳破楚，在郢，召陳侯。陳侯欲往，大夫曰：「吳新得意；楚王雖亡，與陳有故，不可倍。」懷公乃以疾謝吳。四年，吳復召懷公。懷公恐，如吳。吳怒其前不往，留之，因卒吳。陳乃立懷公之子越，是為湣公。",
-          "person_mention_id": "c-shiji-036-chenqi:m024-0000"
+          "person_mention_id": "c-shiji-036-chenqi:m024-0000",
+          "quote_passage_ref": "data/corpus/shiji/036.json"
         }
       ],
       "source_term": "因卒吳",

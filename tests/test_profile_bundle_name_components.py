@@ -22,10 +22,11 @@ class ProfileBundleNameComponents(unittest.TestCase):
  def test_actual_wangyi_brother_and_cao_profiles_follow_complete_bundle_sources(self):
   ids={'qsd_v11_ya1_AA':('懿','仲德',None),'lrq_cdc_wxj':('叡','元德',None),'30k_jzz_tpd_A':('真','子丹',None),'30k_jzz_tpd_AA':('爽','昭伯','黙')};captured={};prefix=str(ROOT/'data/corpus/profiles');original_read=Path.read_text
   def read(path,*a,**kw):return captured[str(path)]if str(path)in captured else original_read(path,*a,**kw)
-  def write(path,text,*a,**kw):
+  def write(path, value, **options):
+   text=json.dumps(value,ensure_ascii=False)
    self.assertTrue(str(path).startswith(prefix+'/'));captured[str(path)]=text;return len(text)
   def mkdir(path,*a,**kw):self.assertEqual(str(path),prefix)
-  with patch.object(Path,'read_text',read),patch.object(Path,'write_text',write),patch.object(Path,'mkdir',mkdir),patch('scripts.table_person_profiles.build_summaries'):
+  with patch.object(Path,'read_text',read),patch('scripts.table_person_profiles.write_json',write),patch.object(Path,'mkdir',mkdir),patch('scripts.table_person_profiles.build_summaries'):
    build(ROOT,person_ids=set(ids))
   for pid,(ming,zi,xiaozhi)in ids.items():
    b=json.loads((ROOT/'exports/persons'/f'{pid}.json').read_text());p=json.loads(captured[str(ROOT/'data/corpus/profiles'/f'{pid}.json')]);self.assertEqual(p['name_components'],b.get('name_components',[]));self.assertTrue(any(r.get('ming')==ming and r.get('zi')==zi for r in p['name_components']))

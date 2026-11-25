@@ -1,8 +1,7 @@
+from scripts.corpus_overlay import edited_inputs
 # -*- coding: utf-8 -*-
 import json
 from pathlib import Path
-import shutil
-import tempfile
 import unittest
 from scripts.validate_corpus import validate
 from scripts.person_bundle import bundle
@@ -17,9 +16,8 @@ class AgeDifferenceTests(unittest.TestCase):
             self.assertIn(age['evidence'][0]['paragraph_id'],[p['id'] for p in result['passages']])
         self.assertIsNone(age['birth_year'])
     def mutate_errors(self,change):
-        with tempfile.TemporaryDirectory() as temp:
-            root=Path(temp)
-            for name in ('registry','corpus'):shutil.copytree(ROOT/name,root/name)
+        with edited_inputs(ROOT):
+            root = ROOT
             path=root/'corpus/shiji/067.json';data=json.loads(path.read_text())
             change(data['annotation']['age_difference_assertions'][0])
             path.write_text(json.dumps(data,ensure_ascii=False))

@@ -21,7 +21,7 @@
           "chapter_id": "c-shiji-100-jibu",
           "source_id": "s-shiji-100-jibu",
           "paragraph_id": "c-shiji-100-jibu:p010",
-          "quote": "景帝中五年薨。子賁嗣，爲太常，犧牲不如令，國除。"
+          "quote_passage_ref": "data/corpus/shiji/100.json"
         }
       ],
       "attestations": [
@@ -63,7 +63,6 @@
       "raw_count": 1,
       "duplicate_count": 0,
       "counting_policy": "independent_fixed_witness_occurrences",
-      "quote": "景帝中五年薨。子賁嗣，爲太常，犧牲不如令，國除。",
       "paragraph_ids": [
         "c-shiji-100-jibu:p010"
       ],
@@ -87,7 +86,12 @@
       "book_id": "b-shiji-100",
       "chapter_id": "c-shiji-100-jibu",
       "source_id": "s-shiji-100-jibu",
-      "work_title": "史記"
+      "work_title": "史記",
+      "chapter_ref": "data/corpus/shiji/100.json",
+      "quote_span": [
+        0,
+        24
+      ]
     }
   ],
   "table_occurrences": [
@@ -95,7 +99,6 @@
       "table_id": "shiji-019",
       "cell_id": "shiji-019-t4-r008-c03",
       "title": "《史記·惠景間侯者年表》",
-      "quote": "十。元狩六年，侯賁坐爲太常廟犧牲不如令，有罪，國除。",
       "year": null,
       "mention": {
         "id": "shiji-019-t4-r008-c03-m000",
@@ -110,7 +113,8 @@
       "book_id": "b-shiji-019",
       "chapter_id": "table-chapter-shiji-019",
       "source_id": "table-witness-shiji-019",
-      "source_revision": "6359260"
+      "source_revision": "6359260",
+      "quote_ref": "cell"
     }
   ],
   "sources": [
@@ -119,47 +123,14 @@
       "work_id": "w-shiji",
       "book_id": "b-shiji-100",
       "source_id": "s-shiji-100-jibu",
-      "source": {
-        "title": "史記／卷100",
-        "provider": "維基文庫",
-        "url": "https://zh.wikisource.org/wiki/史記/卷100",
-        "permalink": "https://zh.wikisource.org/w/index.php?title=史記/卷100&oldid=1965696",
-        "revision_id": 1965696,
-        "accessed_on": "2026-10-10",
-        "extent": "11段正文含太史公論，另附1段索隱；首區塊即正文，無導覽可跳。",
-        "image_verified": false,
-        "rights": "古代原文；數位轉錄依維基文庫CC BY-SA 4.0，保留署名及固定版本。",
-        "license_url": "https://creativecommons.org/licenses/by-sa/4.0/",
-        "normalization": {
-          "character_conversion": {},
-          "editorial_readings": [],
-          "extraction_note": "只去外緣空白；髙、爲、呉、歳、説、兪、亨及校勘符號原字保留。",
-          "note": "全12個HTML區塊已核讀，無tooltip/reference/del/s0；未核底本影像。"
-        }
-      }
+      "chapter_ref": "data/corpus/shiji/100.json"
     },
     {
       "chapter_id": "table-chapter-shiji-019",
       "work_id": "w-shiji",
       "book_id": "b-shiji-019",
       "source_id": "table-witness-shiji-019",
-      "source": {
-        "id": "table-witness-shiji-019",
-        "work_id": "w-shiji",
-        "book_id": "b-shiji-019",
-        "chapter_id": "table-chapter-shiji-019",
-        "url": "https://zh.wikisource.org/wiki/史記/卷019",
-        "revision_url": "https://zh.wikisource.org/w/index.php?title=史記/卷019&oldid=6359260",
-        "revision": "6359260",
-        "accessed": "2026-10-13",
-        "response_sha256": "46d73e9b0e530a6bebb401c0d906ac495ac4e0433e4479cb31e92dbd810776bf",
-        "edition": null,
-        "image_verified": false,
-        "rights": "古籍正文公有領域；維基文庫數位轉錄依CC BY-SA，保留貢獻者署名。",
-        "rights_url": "https://zh.wikisource.org/wiki/Wikisource:版權信息",
-        "review_status": "partial_named_entity_review",
-        "note": "各組表保留原欄題、原文、空格及合欄，不推不同欄題的接續。西元欄為數位編者增補；未明年份留空，不推世系曆年。未核底本影像，人物標註仍待逐處覆核。"
-      }
+      "table_source_ref": "shiji-019"
     }
   ],
   "relations": [
@@ -174,13 +145,13 @@
           "chapter_id": "c-shiji-100-jibu",
           "source_id": "s-shiji-100-jibu",
           "paragraph_id": "c-shiji-100-jibu:p009",
-          "quote": "孝文時，爲燕相，至將軍。布乃稱曰：「窮困不能辱身下志，非人也；富貴不能快意，非賢也。」於是嘗有德者厚報之，有怨者必以法滅之。呉（軍）［楚］反時，以軍功封兪侯，復爲燕相。燕齊之閒皆爲欒布立社，號曰欒公社。"
+          "quote_passage_ref": "data/corpus/shiji/100.json"
         },
         {
           "chapter_id": "c-shiji-100-jibu",
           "source_id": "s-shiji-100-jibu",
           "paragraph_id": "c-shiji-100-jibu:p010",
-          "quote": "景帝中五年薨。子賁嗣，爲太常，犧牲不如令，國除。"
+          "quote_passage_ref": "data/corpus/shiji/100.json"
         }
       ],
       "qualifiers": {
@@ -227,13 +198,13 @@
           "chapter_id": "c-shiji-100-jibu",
           "source_id": "s-shiji-100-jibu",
           "paragraph_id": "c-shiji-100-jibu:p009",
-          "quote": "孝文時，爲燕相，至將軍。布乃稱曰：「窮困不能辱身下志，非人也；富貴不能快意，非賢也。」於是嘗有德者厚報之，有怨者必以法滅之。呉（軍）［楚］反時，以軍功封兪侯，復爲燕相。燕齊之閒皆爲欒布立社，號曰欒公社。"
+          "quote_passage_ref": "data/corpus/shiji/100.json"
         },
         {
           "chapter_id": "c-shiji-100-jibu",
           "source_id": "s-shiji-100-jibu",
           "paragraph_id": "c-shiji-100-jibu:p010",
-          "quote": "景帝中五年薨。子賁嗣，爲太常，犧牲不如令，國除。"
+          "quote_passage_ref": "data/corpus/shiji/100.json"
         }
       ],
       "qualifiers": {

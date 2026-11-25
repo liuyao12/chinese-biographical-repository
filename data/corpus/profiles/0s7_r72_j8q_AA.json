@@ -21,7 +21,7 @@
           "chapter_id": "c-shiji-033-lu",
           "source_id": "s-shiji-033-lu",
           "paragraph_id": "c-shiji-033-lu:p024",
-          "quote": "懿公九年，懿公兄括之子伯御與魯人攻弒懿公，而立伯御爲君。"
+          "quote_passage_ref": "data/corpus/shiji/033.json"
         }
       ],
       "attestations": [
@@ -45,7 +45,7 @@
               "chapter_id": "c-shiji-033-lu",
               "source_id": "s-shiji-033-lu",
               "paragraph_id": "c-shiji-033-lu:p024",
-              "quote": "懿公九年，懿公兄括之子伯御與魯人攻弒懿公，而立伯御爲君。"
+              "quote_passage_ref": "data/corpus/shiji/033.json"
             }
           ]
         },
@@ -71,7 +71,6 @@
       "raw_count": 4,
       "duplicate_count": 0,
       "counting_policy": "independent_fixed_witness_occurrences",
-      "quote": "懿公九年，懿公兄括之子伯御與魯人攻弒懿公，而立伯御爲君。",
       "paragraph_ids": [
         "c-shiji-033-lu:p024",
         "c-shiji-033-lu:p025"
@@ -123,7 +122,12 @@
       "book_id": "b-shiji-033",
       "chapter_id": "c-shiji-033-lu",
       "source_id": "s-shiji-033-lu",
-      "work_title": "史記"
+      "work_title": "史記",
+      "chapter_ref": "data/corpus/shiji/033.json",
+      "quote_span": [
+        0,
+        28
+      ]
     }
   ],
   "table_occurrences": [],
@@ -133,29 +137,7 @@
       "work_id": "w-shiji",
       "book_id": "b-shiji-033",
       "source_id": "s-shiji-033-lu",
-      "source": {
-        "title": "史記／魯周公世家",
-        "provider": "維基文庫",
-        "url": "https://zh.wikisource.org/wiki/史記/魯周公世家",
-        "permalink": "https://zh.wikisource.org/w/index.php?title=史記/魯周公世家&oldid=7909289",
-        "revision_id": 7909289,
-        "accessed_on": "2026-10-09",
-        "extent": "正文102個p區塊，自周公旦者至太史公論贊；排除導覽dd、現代版權告示及轉向頁。",
-        "image_verified": false,
-        "rights": "古代原文；數位轉錄依維基文庫CC BY-SA 4.0，保留署名及固定版本。",
-        "license_url": "https://creativecommons.org/licenses/by-sa/4.0/",
-        "normalization": {
-          "character_conversion": {
-            "笔": "筆",
-            "鸮": "鴞",
-            "龂": "齗",
-            "龁": "齕"
-          },
-          "editorial_readings": [],
-          "extraction_note": "卷033頁為轉向（版本2180467），實讀目標魯周公世家版本7909289。保留矦、歬、髙、爲等異體及校勘符號。",
-          "note": "固定正文與實讀HTML一致。筆昔疑讀未改作其他字；真公記事接武公九年，未補中間文字或武公名。全102段首輪，未核影像、底本及現代研究。"
-        }
-      }
+      "chapter_ref": "data/corpus/shiji/033.json"
     }
   ],
   "relations": [
@@ -170,7 +152,7 @@
           "chapter_id": "c-shiji-033-lu",
           "source_id": "s-shiji-033-lu",
           "paragraph_id": "c-shiji-033-lu:p024",
-          "quote": "懿公九年，懿公兄括之子伯御與魯人攻弒懿公，而立伯御爲君。"
+          "quote_passage_ref": "data/corpus/shiji/033.json"
         }
       ],
       "qualifiers": {
@@ -202,7 +184,7 @@
           "chapter_id": "c-shiji-033-lu",
           "source_id": "s-shiji-033-lu",
           "paragraph_id": "c-shiji-033-lu:p024",
-          "quote": "懿公九年，懿公兄括之子伯御與魯人攻弒懿公，而立伯御爲君。"
+          "quote_passage_ref": "data/corpus/shiji/033.json"
         }
       ],
       "qualifiers": {
@@ -226,8 +208,8 @@
           "chapter_id": "c-shiji-033-lu",
           "source_id": "s-shiji-033-lu",
           "paragraph_id": "c-shiji-033-lu:p025",
-          "quote": "伯御即位十一年，周宣王伐魯，殺其君伯御，而問魯公子能道順諸矦者，以爲魯後。樊穆仲曰：『魯懿公弟稱，肅恭明神，敬事耆老；賦事行刑，必問於遺訓而咨於固實；不干所問，不犯所（知）［咨］。』宣王曰：『然，能訓治其民矣。』乃立稱於夷宮，是爲孝公。自是後，諸矦多畔王命。",
-          "person_mention_id": "c-shiji-033-lu:m025-0000"
+          "person_mention_id": "c-shiji-033-lu:m025-0000",
+          "quote_passage_ref": "data/corpus/shiji/033.json"
         }
       ],
       "source_term": "殺其君伯御",

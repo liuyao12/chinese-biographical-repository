@@ -23,7 +23,7 @@
           "chapter_id": "c-shiji-075-mengchang",
           "source_id": "s-shiji-075-mengchang",
           "paragraph_id": "c-shiji-075-mengchang:p012",
-          "quote": "孟嘗君懼，乃遺秦相穰侯魏冉書曰：「吾聞秦欲以呂禮收齊，齊，天下之彊國也，子必輕矣。齊秦相取以臨三晉，呂禮必并相矣，是子通齊以重呂禮也。若齊免於天下之兵，其讎子必深矣。子不如勸秦王伐齊。齊破，吾請以所得封子。齊破，秦畏晉之彊，秦必重子以取晉。晉國敝於齊而畏秦，晉必重子以取秦。是子破齊以爲功，挾晉以爲重；是子破齊定封，秦、晉交重子。若齊不破，呂禮復用，子必大窮。」於是穰侯言於秦昭王伐齊，而呂禮亡。"
+          "quote_passage_ref": "data/corpus/shiji/075.json"
         }
       ],
       "attestations": [
@@ -65,7 +65,7 @@
           "chapter_id": "c-shiji-075-mengchang",
           "source_id": "s-shiji-075-mengchang",
           "paragraph_id": "c-shiji-075-mengchang:p012",
-          "quote": "孟嘗君懼，乃遺秦相穰侯魏冉書曰：「吾聞秦欲以呂禮收齊，齊，天下之彊國也，子必輕矣。齊秦相取以臨三晉，呂禮必并相矣，是子通齊以重呂禮也。若齊免於天下之兵，其讎子必深矣。子不如勸秦王伐齊。齊破，吾請以所得封子。齊破，秦畏晉之彊，秦必重子以取晉。晉國敝於齊而畏秦，晉必重子以取秦。是子破齊以爲功，挾晉以爲重；是子破齊定封，秦、晉交重子。若齊不破，呂禮復用，子必大窮。」於是穰侯言於秦昭王伐齊，而呂禮亡。"
+          "quote_passage_ref": "data/corpus/shiji/075.json"
         }
       ],
       "attestations": [
@@ -107,7 +107,6 @@
       "raw_count": 13,
       "duplicate_count": 0,
       "counting_policy": "independent_fixed_witness_occurrences",
-      "quote": "孟嘗君懼，乃遺秦相穰侯魏冉書曰：「吾聞秦欲以呂禮收齊，齊，天下之彊國也，子必輕矣。齊秦相取以臨三晉，呂禮必并相矣，是子通齊以重呂禮也。若齊免於天下之兵，其讎子必深矣。子不如勸秦王伐齊。齊破，吾請以所得封子。齊破，秦畏晉之彊，秦",
       "paragraph_ids": [
         "c-shiji-075-mengchang:p012"
       ],
@@ -239,7 +238,12 @@
       "book_id": "b-shiji-075",
       "chapter_id": "c-shiji-075-mengchang",
       "source_id": "s-shiji-075-mengchang",
-      "work_title": "史記"
+      "work_title": "史記",
+      "chapter_ref": "data/corpus/shiji/075.json",
+      "quote_span": [
+        0,
+        113
+      ]
     }
   ],
   "table_occurrences": [],
@@ -249,37 +253,7 @@
       "work_id": "w-shiji",
       "book_id": "b-shiji-075",
       "source_id": "s-shiji-075-mengchang",
-      "source": {
-        "title": "史記／卷075",
-        "provider": "維基文庫",
-        "url": "https://zh.wikisource.org/wiki/史記/卷075",
-        "permalink": "https://zh.wikisource.org/w/index.php?title=史記/卷075&oldid=1965692",
-        "revision_id": 1965692,
-        "accessed_on": "2026-10-09",
-        "extent": "19段正文，自孟嘗君名文至太史公論贊；排除ws-header人物與百科導覽、索隱述贊及現代版權告示。",
-        "image_verified": false,
-        "rights": "古代原文；數位轉錄依維基文庫CC BY-SA 4.0，保留署名及固定版本。",
-        "license_url": "https://creativecommons.org/licenses/by-sa/4.0/",
-        "normalization": {
-          "character_conversion": {},
-          "editorial_readings": [
-            {
-              "paragraph_id": "c-shiji-075-mengchang:p003",
-              "witness_form": "（短）［裋］",
-              "body_reading": "短",
-              "note": "保留數位改讀前短；裋為改讀提示，底本未核，不當已校定。"
-            },
-            {
-              "paragraph_id": "c-shiji-075-mengchang:p018",
-              "witness_form": "（朝）趣市［朝］",
-              "body_reading": "朝趣市",
-              "note": "保留改讀前朝在趣市之前的順序；移至市後的朝另記為數位改讀提示，底本未核，不依記憶改為趣市朝。"
-            }
-          ],
-          "extraction_note": "固定HTML與取得時版本一致，只去外緣空白並分離兩項數位改讀提示；保留爲、歳、倶、戸、髙、虚、鷄等原字。",
-          "note": "全19段正文及明示姓名首輪已核讀；未核底本、影像或現代研究。"
-        }
-      }
+      "chapter_ref": "data/corpus/shiji/075.json"
     }
   ],
   "relations": [],

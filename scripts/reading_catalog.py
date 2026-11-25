@@ -3,7 +3,9 @@ from pathlib import Path
 import argparse
 import hashlib
 import json
+import os
 import re
+from tempfile import TemporaryDirectory
 
 ROOT = Path(__file__).resolve().parents[1]
 CATEGORIES = [(1, 12, 'benji', '本紀'), (13, 22, 'biao', '表'),
@@ -15,7 +17,7 @@ def reading_counts(chapter):
     return {'primary_paragraph_count':len(chapter['reading_layout']['primary_paragraph_ids']),'archival_excerpt_count':len(chapter['reading_layout']['archival_excerpts'])}
 
 
-def outputs(root=None):
+def outputs(root=None, *, chapter_sources=None):
     root = Path(root) if root is not None else ROOT
     directory = root / 'data/corpus'
     contents = json.loads((directory / 'shiji-contents.json').read_text())
@@ -34,6 +36,8 @@ def outputs(root=None):
             path, chapter = chapters[number]
             public = 'data/corpus/shiji/' + path.name
             result[root / public] = path.read_bytes()
+            if chapter_sources is not None:
+                chapter_sources[root / public] = path
             entry.update({'path': public, 'chapter_id': chapter['id'], 'book_id': chapter['book_id'],
                           'paragraph_count': len(chapter['paragraphs']), **reading_counts(chapter),
                           'annotation_status': progress[chapter['id']]['person_status'], 'available': 'marked_text'})
@@ -72,6 +76,8 @@ def outputs(root=None):
             assert re.fullmatch('[a-z0-9-]+', slug)
             public = f'data/corpus/{slug}/{path.name}'
             result[root / public] = path.read_bytes()
+            if chapter_sources is not None:
+                chapter_sources[root / public] = path
             book = books[chapter['book_id']]
             selected.append({'number':book['number'],'book_id':book['id'],'book_title':book['title'],
                 'work_id':work['id'],'work_title':work['title'],'chapter_id':chapter['id'],
@@ -130,13 +136,25 @@ def outputs(root=None):
 
 
 def run(check=False, root=None):
-    generated = outputs(root)
+    chapter_sources = {}
+    generated = outputs(root, chapter_sources=chapter_sources)
     for path, data in generated.items():
+        source = chapter_sources.get(path)
+        target = os.path.relpath(source, path.parent) if source else None
+        current = (path.is_symlink() and os.readlink(path) == target if source else
+                   path.is_file() and not path.is_symlink() and path.read_bytes() == data)
+        if current:
+            continue
         if check:
-            assert path.exists() and path.read_bytes() == data, '閱讀器匯出不同步：' + str(path)
-        else:
-            path.parent.mkdir(parents=True, exist_ok=True)
-            path.write_bytes(data)
+            raise ValueError('閱讀器匯出不同步：' + str(path))
+        path.parent.mkdir(parents=True, exist_ok=True)
+        with TemporaryDirectory(dir=path.parent) as staging:
+            new = Path(staging) / path.name
+            if source:
+                new.symlink_to(target)
+            else:
+                new.write_bytes(data)
+            os.replace(new, path)
     print('閱讀分類及正文匯出' + ('同步檢查' if check else '') + '：', len(generated), '檔')
 
 

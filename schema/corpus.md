@@ -1183,3 +1183,11 @@ API `scripts.body_note_ancestry.body_note_ancestor_parent_valid(member, rows, as
 `normalized_date.rendered_collective_award_year_binding.kind: rendered_same_collective_award_explicit_peer_year` 是有界編輯首選，不能冒充本底本明文紀年。宋044武昌爵的端點可有 `date_expression: 永初元年`，但 `expression_scope: external_rendered_peer_biography_not_literal_in_wyd044` 明示原年詞來自比較本傅亮傳。`calendar: chinese_civil`、`precision: year`、`status: editorial_provisional`、人審false；CE420只是中國曆年度標號，不含月日。完整群授詔、傅亮同次建城縣公二千戶的永初元年明文、前後受禪初敘事及官方宋永初420–422完整表列均保存。比較資料是rendered閱讀、頁尾revision觀察、固定頁直取cache miss，沒有已取raw或書影資格；比較頁底本未知，不更換武英殿044底本。
 
 日期gate須傳實際root，逐一核外部payload SHA與全文單元SHA、同詔兩角色/兩爵/兩食邑/年詞的字位及取得scope，沿044既有謝晦與傅亮MID動態解現役PID。原本year校驗和literal歸屬規則不放寬；只有此已驗日期橋允許外源年詞，不虛建宋043 native章或MID。持有record須與本源明授完全一致，建平不入holding，未知終點不變，不借中領軍庚午任命日或死亡426年。bundle也依實際root驗外證後才輸出，完整比較引文與限制由一般紀年依據consumer顯示。
+
+## 段落與年表格位的儲存
+
+相同正文若有不同的歷史人名標記，引用可帶 `annotation_ref`。在 `exports/passage-annotations.json` 中只保存該次標記與狀態的差異；以整段還原結果的 SHA-256 辨識並核對。這些差異不另存正文。
+
+同一版本的標註篇章以 `corpus/<書>/<篇>.json` 為正文來源。人物來源包的 `passage_refs` 依原順序保存篇章路徑與段落 ID；`table_passage_refs` 引用原始表格 ID 與格位 ID，沿用該次引用的角色與位置資訊。公開人物頁引用篇章時保存 `chapter_ref`、`paragraph_id` 與半開區間 `quote_span`，位置按 Unicode code point 計算。完整段落或表格引文附於判讀資料時，`quote_passage_ref` 指向同一版本的正文，原有段落或格位 ID 繼續標示位置。獨立異文、不同版本的證據與判斷理由分開保留。
+
+`python -m scripts.passage_refs expand exports/persons/<人物ID>.json` 可輸出含原文的完整人物資料。靜態閱讀器以 `resolveProfilePassages` 讀取同一部署的正文；匯出與引用須來自相同提交。執行 `python -m scripts.passage_refs check` 與 `python -m scripts.profile_passages --check` 可檢查產物。閱讀器篇章在工作目錄使用相對連結，部署時為公共網址實體化一次。

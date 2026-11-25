@@ -21,7 +21,7 @@
           "chapter_id": "c-shiji-043-zhao",
           "source_id": "s-shiji-043-zhao",
           "paragraph_id": "c-shiji-043-zhao:p102",
-          "quote": "後三日，韓氏上黨守馮亭使者至，曰：「韓不能守上黨，入之於秦。其吏民皆安爲趙，不欲爲秦。有城市邑十七，願再拜入之趙，財王所以賜吏民。」王大喜，召平陽君豹告之曰：「馮亭入城市邑十七，受之何如？」對曰：「聖人甚禍無故之利。」王曰：「人懷吾德，何謂無故乎？」對曰：「夫秦蠶食韓氏地，中絶不令相通，固自以爲坐而受上黨之地也。韓氏所以不入於秦者，欲嫁其禍於趙也。秦服其勞而趙受其利，雖彊大不能得之於小弱，小弱顧能得之於彊大乎？豈可謂非無故之利哉！且夫秦以牛田之水通糧蠶食，上乘倍戰者，裂上國之地，其政行，不可與爲難，必勿受也。」王曰：「今發百萬之軍而攻，踰年歴歳未得一城也。今以城市邑十七幣吾國，此大利也。」"
+          "quote_passage_ref": "data/corpus/shiji/043.json"
         }
       ],
       "attestations": [
@@ -63,7 +63,6 @@
       "raw_count": 4,
       "duplicate_count": 0,
       "counting_policy": "independent_fixed_witness_occurrences",
-      "quote": "後三日，韓氏上黨守馮亭使者至，曰：「韓不能守上黨，入之於秦。其吏民皆安爲趙，不欲爲秦。有城市邑十七，願再拜入之趙，財王所以賜吏民。」王大喜，召平陽君豹告之曰：「馮亭入城市邑十七，受之何如？」對曰：「聖人甚禍無故之利。」王曰",
       "paragraph_ids": [
         "c-shiji-043-zhao:p102",
         "c-shiji-043-zhao:p103"
@@ -115,7 +114,12 @@
       "book_id": "b-shiji-043",
       "chapter_id": "c-shiji-043-zhao",
       "source_id": "s-shiji-043-zhao",
-      "work_title": "史記"
+      "work_title": "史記",
+      "chapter_ref": "data/corpus/shiji/043.json",
+      "quote_span": [
+        0,
+        111
+      ]
     },
     {
       "number": 76,
@@ -126,7 +130,6 @@
       "raw_count": 1,
       "duplicate_count": 0,
       "counting_policy": "independent_fixed_witness_occurrences",
-      "quote": "：平原君，翩翩濁世之佳公子也，然未睹大體。鄙語曰「利令智昏」，平原君貪馮亭邪説，使趙陷長平兵四十餘萬眾，邯鄲幾亡。虞卿料事揣情，爲趙畫策，何其工也！及不忍魏齊，卒困於大梁，庸夫且知其不可，況賢人乎？然虞卿非窮愁，亦不能著書以自見於後世云。",
       "paragraph_ids": [
         "c-shiji-076-pingyu:p019"
       ],
@@ -150,7 +153,12 @@
       "book_id": "b-shiji-076",
       "chapter_id": "c-shiji-076-pingyu",
       "source_id": "s-shiji-076-pingyu",
-      "work_title": "史記"
+      "work_title": "史記",
+      "chapter_ref": "data/corpus/shiji/076.json",
+      "quote_span": [
+        4,
+        123
+      ]
     },
     {
       "number": 130,
@@ -161,7 +169,6 @@
       "raw_count": 1,
       "duplicate_count": 0,
       "counting_policy": "independent_fixed_witness_occurrences",
-      "quote": "爭馮亭以權，如楚以救邯鄲之圍，使其君復稱於諸侯。作平原君虞卿列傳第十六。",
       "paragraph_ids": [
         "c-shiji-130-taishigong:p088"
       ],
@@ -185,7 +192,12 @@
       "book_id": "b-shiji-130",
       "chapter_id": "c-shiji-130-taishigong",
       "source_id": "s-shiji130-taishigong",
-      "work_title": "史記"
+      "work_title": "史記",
+      "chapter_ref": "data/corpus/shiji/130.json",
+      "quote_span": [
+        0,
+        36
+      ]
     }
   ],
   "table_occurrences": [],
@@ -195,93 +207,21 @@
       "work_id": "w-shiji",
       "book_id": "b-shiji-043",
       "source_id": "s-shiji-043-zhao",
-      "source": {
-        "title": "史記／卷043",
-        "provider": "維基文庫",
-        "url": "https://zh.wikisource.org/wiki/史記/卷043",
-        "permalink": "https://zh.wikisource.org/w/index.php?title=史記/卷043&oldid=7903603",
-        "revision_id": 7903603,
-        "accessed_on": "2026-10-09",
-        "extent": "121段正文及1段分層索隱述贊；排除2個dd導覽，只去除段落外緣空白。",
-        "image_verified": false,
-        "rights": "古代原文；數位轉錄依維基文庫CC BY-SA 4.0，保留署名及固定版本。",
-        "license_url": "https://creativecommons.org/licenses/by-sa/4.0/",
-        "normalization": {
-          "character_conversion": {},
-          "editorial_readings": [],
-          "extraction_note": "固定修訂與取得時HTML一致；保留古代異體及五世而（生）［至］趙夙等校勘符號。造父以下六世與叔帶以下五世不補闕代。",
-          "note": "已讀全121段數位正文及1段附載索隱述贊，後者另層保存；未核古籍影像、可靠底本或現代研究，首輪不是完成覆核。"
-        }
-      }
+      "chapter_ref": "data/corpus/shiji/043.json"
     },
     {
       "chapter_id": "c-shiji-076-pingyu",
       "work_id": "w-shiji",
       "book_id": "b-shiji-076",
       "source_id": "s-shiji-076-pingyu",
-      "source": {
-        "title": "史記／卷076",
-        "provider": "維基文庫",
-        "url": "https://zh.wikisource.org/wiki/史記/卷076",
-        "permalink": "https://zh.wikisource.org/w/index.php?title=史記/卷076&oldid=7909284",
-        "revision_id": 7909284,
-        "accessed_on": "2026-10-09",
-        "extent": "19段正文，自平原君趙勝至太史公論贊；排除ws-header人物導覽、索隱述贊及現代版權告示。",
-        "image_verified": false,
-        "rights": "古代原文；數位轉錄依維基文庫CC BY-SA 4.0，保留署名及固定版本。",
-        "license_url": "https://creativecommons.org/licenses/by-sa/4.0/",
-        "normalization": {
-          "character_conversion": {
-            "饱": "飽"
-          },
-          "editorial_readings": [
-            {
-              "paragraph_id": "c-shiji-076-pingyu:p013",
-              "witness_form": "（以爲韓魏不救趙也而王之軍必孤有以）",
-              "body_reading": "以爲韓魏不救趙也而王之軍必孤有以",
-              "note": "括號為數位刪讀提示；正文保留改讀前括號內文字而分離提示，未核底本，不當已校定。"
-            },
-            {
-              "paragraph_id": "c-shiji-076-pingyu:p014",
-              "witness_form": "（何）",
-              "body_reading": "何",
-              "note": "括號為數位刪讀提示；正文保留改讀前括號內文字而分離提示，未核底本，不當已校定。"
-            },
-            {
-              "paragraph_id": "c-shiji-076-pingyu:p015",
-              "witness_form": "（彊）",
-              "body_reading": "彊",
-              "note": "括號為數位刪讀提示；正文保留改讀前括號內文字而分離提示，未核底本，不當已校定。"
-            }
-          ],
-          "extraction_note": "固定HTML與取得時版本一致，只去外緣空白並分離三項數位改讀提示；第12段數位簡體饱轉為繁體飽並記錄，爲、檐、槃、説等原字保留。",
-          "note": "全19段正文及姓名首輪已核讀；未核底本、影像或現代研究。"
-        }
-      }
+      "chapter_ref": "data/corpus/shiji/076.json"
     },
     {
       "chapter_id": "c-shiji-130-taishigong",
       "work_id": "w-shiji",
       "book_id": "b-shiji-130",
       "source_id": "s-shiji130-taishigong",
-      "source": {
-        "title": "史記／卷130",
-        "provider": "維基文庫",
-        "url": "https://zh.wikisource.org/wiki/史記/卷130",
-        "permalink": "https://zh.wikisource.org/w/index.php?title=史記/卷130&oldid=2609362",
-        "revision_id": 2609362,
-        "accessed_on": "2026-10-11",
-        "extent": "固定修訂全文143段，全部篇文。",
-        "image_verified": false,
-        "rights": "古代原文；數位轉錄依維基文庫CC BY-SA 4.0，保留署名及固定版本。",
-        "license_url": "https://creativecommons.org/licenses/by-sa/4.0/",
-        "normalization": {
-          "character_conversion": {},
-          "editorial_readings": [],
-          "extraction_note": "去header2及現代節標，移除維基引文縮排冒號，保留原字，未核影像。",
-          "note": "全文入庫不等於全部提及已標註；目錄段落仍待逐段處理。"
-        }
-      }
+      "chapter_ref": "data/corpus/shiji/130.json"
     }
   ],
   "relations": [],

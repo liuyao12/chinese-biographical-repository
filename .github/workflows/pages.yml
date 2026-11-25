@@ -48,6 +48,7 @@ jobs:
           mkdir -p _site build
           cp ./*.html _site/
           cp -R assets data _site/
+          python scripts/stage_chapter_links.py _site
           touch _site/.nojekyll
           python - <<'PY'
           from pathlib import Path

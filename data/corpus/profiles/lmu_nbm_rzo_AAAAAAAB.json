@@ -25,7 +25,7 @@
           "chapter_id": "c-shiji-046-tian",
           "source_id": "s-shiji-046-tian",
           "paragraph_id": "c-shiji-046-tian:p007",
-          "quote": "田釐子乞事齊景公爲大夫，其收賦稅於民以小斗受之，其（粟）［稟］予民以大斗，行陰德於民，而景公弗禁。由此田氏得齊衆心，宗族益彊，民思田氏。晏子數諫景公，景公弗聽。已而使於晉，與叔向私語曰：「齊國之政卒歸於田氏矣。」"
+          "quote_passage_ref": "data/corpus/shiji/046.json"
         }
       ],
       "attestations": [
@@ -67,7 +67,7 @@
           "chapter_id": "c-shiji-046-tian",
           "source_id": "s-shiji-046-tian",
           "paragraph_id": "c-shiji-046-tian:p010",
-          "quote": "田乞使人之魯，迎陽生。陽生至齊，匿田乞家。請諸大夫曰：「常之母有魚菽之祭，幸而來會飲。」會飲田氏。田乞盛陽生橐中，置坐中央。發橐，出陽生，曰：「此乃齊君矣。」大夫皆伏謁。將盟立之，田乞誣曰：「吾與鮑牧謀共立陽生也。」鮑牧怒曰：「大夫忘景公之命乎？」諸大夫欲悔，陽生乃頓首曰：「可則立之，不可則已。」鮑牧恐禍及己，乃復曰：「皆景公之子，何爲不可！」遂立陽生於田乞之家，是爲悼公。乃使人遷晏孺子於駘，而殺孺子荼。悼公旣立，田乞爲相，專齊政。"
+          "quote_passage_ref": "data/corpus/shiji/046.json"
         }
       ],
       "attestations": [
@@ -109,7 +109,6 @@
       "raw_count": 18,
       "duplicate_count": 0,
       "counting_policy": "independent_fixed_witness_occurrences",
-      "quote": "田桓子無宇有力，事齊莊公，甚有寵。無宇卒，生武子開與釐子乞。",
       "paragraph_ids": [
         "c-shiji-046-tian:p006",
         "c-shiji-046-tian:p007",
@@ -293,7 +292,12 @@
       "book_id": "b-shiji-046",
       "chapter_id": "c-shiji-046-tian",
       "source_id": "s-shiji-046-tian",
-      "work_title": "史記"
+      "work_title": "史記",
+      "chapter_ref": "data/corpus/shiji/046.json",
+      "quote_span": [
+        0,
+        30
+      ]
     },
     {
       "number": 64,
@@ -304,7 +308,6 @@
       "raw_count": 1,
       "duplicate_count": 0,
       "counting_policy": "independent_fixed_witness_occurrences",
-      "quote": "已而大夫鮑氏、高、國之屬害之，譖於景公。景公退穰苴，苴發疾而死。田乞、田豹之徒由此怨高、國等。其後及田常殺簡公，盡滅高子、國子之族。至常曾孫和，因自立為齊威王，用兵行威，大放穰苴之法，而諸侯朝齊。",
       "paragraph_ids": [
         "c-shiji-064-sima:p002"
       ],
@@ -328,7 +331,12 @@
       "book_id": "b-shiji-064",
       "chapter_id": "c-shiji-064-sima",
       "source_id": "s-shiji-064-sima",
-      "work_title": "史記"
+      "work_title": "史記",
+      "chapter_ref": "data/corpus/shiji/064.json",
+      "quote_span": [
+        0,
+        98
+      ]
     }
   ],
   "table_occurrences": [],
@@ -338,55 +346,14 @@
       "work_id": "w-shiji",
       "book_id": "b-shiji-046",
       "source_id": "s-shiji-046-tian",
-      "source": {
-        "title": "史記／卷046",
-        "provider": "維基文庫",
-        "url": "https://zh.wikisource.org/wiki/史記/卷046",
-        "permalink": "https://zh.wikisource.org/w/index.php?title=史記/卷046&oldid=2560838",
-        "revision_id": 2560838,
-        "accessed_on": "2026-10-09",
-        "extent": "55段正文（含太史公論贊）及1段索隱述贊，後者另標witness_appended_suoyin_zan；排除2個dd導覽及現代分節標題。",
-        "image_verified": false,
-        "rights": "古代原文；數位轉錄依維基文庫CC BY-SA 4.0，保留署名及固定版本。",
-        "license_url": "https://creativecommons.org/licenses/by-sa/4.0/",
-        "normalization": {
-          "character_conversion": {},
-          "editorial_readings": [],
-          "extraction_note": "取得時HTML與固定修訂一致，只去除段落外緣空白；保留［二］、（粟）［稟］、晏（孺子）［圉］、（帥）［師］、笔及称等數位見證原字，不暗改。",
-          "note": "已讀全56段數位文字並作明示人名首輪；未核可靠底本、影像或現代研究。"
-        }
-      }
+      "chapter_ref": "data/corpus/shiji/046.json"
     },
     {
       "chapter_id": "c-shiji-064-sima",
       "work_id": "w-shiji",
       "book_id": "b-shiji-064",
       "source_id": "s-shiji-064-sima",
-      "source": {
-        "title": "史記／卷064",
-        "provider": "維基文庫",
-        "url": "https://zh.wikisource.org/wiki/史記/卷064",
-        "permalink": "https://zh.wikisource.org/w/index.php?title=史記/卷064&oldid=7895410",
-        "revision_id": 7895410,
-        "accessed_on": "2026-10-09",
-        "extent": "4段正文，排除註釋版及2段導覽，無索隱述贊。",
-        "image_verified": false,
-        "rights": "古代原文；數位轉錄依維基文庫CC BY-SA 4.0，保留署名及固定版本。",
-        "license_url": "https://creativecommons.org/licenses/by-sa/4.0/",
-        "normalization": {
-          "character_conversion": {},
-          "editorial_readings": [
-            {
-              "paragraph_id": "c-shiji-064-sima:p001",
-              "witness_form": "馳三軍法何一作「軍中不馳，今使者馳，云何」",
-              "body_reading": "馳三軍法何",
-              "note": "一作為HTML variant-tooltip校勘提示，另存原字；未核底本，不作已校定。"
-            }
-          ],
-          "extraction_note": "取得時HTML與固定修訂一致，只去外緣空白並排除style與script；variant-tooltip另存編輯讀法，不混入正文。保留仆表、援枹、左駙、左驂等原字。",
-          "note": "全4段已核讀，未核可靠底本、影像或現代研究。"
-        }
-      }
+      "chapter_ref": "data/corpus/shiji/064.json"
     }
   ],
   "relations": [
@@ -401,7 +368,7 @@
           "chapter_id": "c-shiji-046-tian",
           "source_id": "s-shiji-046-tian",
           "paragraph_id": "c-shiji-046-tian:p006",
-          "quote": "田桓子無宇有力，事齊莊公，甚有寵。無宇卒，生武子開與釐子乞。"
+          "quote_passage_ref": "data/corpus/shiji/046.json"
         }
       ],
       "qualifiers": {
@@ -422,7 +389,7 @@
           "chapter_id": "c-shiji-046-tian",
           "source_id": "s-shiji-046-tian",
           "paragraph_id": "c-shiji-046-tian:p011",
-          "quote": "四年，田乞卒，子常代立，是爲田成子。"
+          "quote_passage_ref": "data/corpus/shiji/046.json"
         }
       ],
       "qualifiers": {
@@ -455,7 +422,7 @@
           "chapter_id": "c-shiji-046-tian",
           "source_id": "s-shiji-046-tian",
           "paragraph_id": "c-shiji-046-tian:p006",
-          "quote": "田桓子無宇有力，事齊莊公，甚有寵。無宇卒，生武子開與釐子乞。"
+          "quote_passage_ref": "data/corpus/shiji/046.json"
         }
       ],
       "qualifiers": {
@@ -476,7 +443,7 @@
           "chapter_id": "c-shiji-046-tian",
           "source_id": "s-shiji-046-tian",
           "paragraph_id": "c-shiji-046-tian:p011",
-          "quote": "四年，田乞卒，子常代立，是爲田成子。"
+          "quote_passage_ref": "data/corpus/shiji/046.json"
         }
       ],
       "qualifiers": {
@@ -500,8 +467,8 @@
           "chapter_id": "c-shiji-046-tian",
           "source_id": "s-shiji-046-tian",
           "paragraph_id": "c-shiji-046-tian:p006",
-          "quote": "田桓子無宇有力，事齊莊公，甚有寵。無宇卒，生武子開與釐子乞。",
-          "person_mention_id": "c-shiji-046-tian:m006-0026"
+          "person_mention_id": "c-shiji-046-tian:m006-0026",
+          "quote_passage_ref": "data/corpus/shiji/046.json"
         }
       ],
       "source_term": "生武子開與釐子乞",
@@ -520,8 +487,8 @@
           "chapter_id": "c-shiji-046-tian",
           "source_id": "s-shiji-046-tian",
           "paragraph_id": "c-shiji-046-tian:p011",
-          "quote": "四年，田乞卒，子常代立，是爲田成子。",
-          "person_mention_id": "c-shiji-046-tian:m011-0003"
+          "person_mention_id": "c-shiji-046-tian:m011-0003",
+          "quote_passage_ref": "data/corpus/shiji/046.json"
         }
       ],
       "source_term": "田乞卒",

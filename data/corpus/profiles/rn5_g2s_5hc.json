@@ -21,7 +21,7 @@
           "chapter_id": "c-shiji-089-zhanger",
           "source_id": "s-shiji-089-zhanger",
           "paragraph_id": "c-shiji-089-zhanger:p006",
-          "quote": "陳餘乃復説陳王曰：「大王舉梁、楚而西，務在入關，未及收河北也。臣嘗游趙，知其豪桀及地形，願請奇兵北略趙地。」於是陳王以故所善陳人武臣爲將軍，邵騷爲護軍，以張耳、陳餘爲左右校尉，予卒三千人，北略趙地。"
+          "quote_passage_ref": "data/corpus/shiji/089.json"
         }
       ],
       "attestations": [
@@ -45,7 +45,7 @@
               "chapter_id": "c-shiji-089-zhanger",
               "source_id": "s-shiji-089-zhanger",
               "paragraph_id": "c-shiji-089-zhanger:p006",
-              "quote": "陳餘乃復説陳王曰：「大王舉梁、楚而西，務在入關，未及收河北也。臣嘗游趙，知其豪桀及地形，願請奇兵北略趙地。」於是陳王以故所善陳人武臣爲將軍，邵騷爲護軍，以張耳、陳餘爲左右校尉，予卒三千人，北略趙地。"
+              "quote_passage_ref": "data/corpus/shiji/089.json"
             }
           ]
         },
@@ -71,7 +71,7 @@
           "chapter_id": "c-shiji-089-zhanger",
           "source_id": "s-shiji-089-zhanger",
           "paragraph_id": "c-shiji-089-zhanger:p010",
-          "quote": "至邯鄲，張耳、陳餘聞周章軍入關，至戲卻；又聞諸將爲陳王徇地，多以讒毀得罪誅，怨陳王不其筴不以爲將而以爲校尉。乃説武臣曰：「陳王起蘄，至陳而王，非必立六國後。將軍今以三千人下趙數十城，獨介居河北，不王無以塡之。且陳王聽讒，還報，恐不脱於禍。又不如立其兄弟；不，即立趙後。將軍毋失時，時閒不容息。」武臣乃聽之，遂立爲趙王。以陳餘爲大將軍，張耳爲右丞相，邵騷爲左丞相。"
+          "quote_passage_ref": "data/corpus/shiji/089.json"
         }
       ],
       "attestations": [
@@ -95,7 +95,7 @@
               "chapter_id": "c-shiji-089-zhanger",
               "source_id": "s-shiji-089-zhanger",
               "paragraph_id": "c-shiji-089-zhanger:p010",
-              "quote": "至邯鄲，張耳、陳餘聞周章軍入關，至戲卻；又聞諸將爲陳王徇地，多以讒毀得罪誅，怨陳王不其筴不以爲將而以爲校尉。乃説武臣曰：「陳王起蘄，至陳而王，非必立六國後。將軍今以三千人下趙數十城，獨介居河北，不王無以塡之。且陳王聽讒，還報，恐不脱於禍。又不如立其兄弟；不，即立趙後。將軍毋失時，時閒不容息。」武臣乃聽之，遂立爲趙王。以陳餘爲大將軍，張耳爲右丞相，邵騷爲左丞相。"
+              "quote_passage_ref": "data/corpus/shiji/089.json"
             }
           ]
         },
@@ -121,7 +121,6 @@
       "raw_count": 3,
       "duplicate_count": 0,
       "counting_policy": "independent_fixed_witness_occurrences",
-      "quote": "，知其豪桀及地形，願請奇兵北略趙地。」於是陳王以故所善陳人武臣爲將軍，邵騷爲護軍，以張耳、陳餘爲左右校尉，予卒三千人，北略趙地。",
       "paragraph_ids": [
         "c-shiji-089-zhanger:p006",
         "c-shiji-089-zhanger:p010",
@@ -165,7 +164,12 @@
       "book_id": "b-shiji-089",
       "chapter_id": "c-shiji-089-zhanger",
       "source_id": "s-shiji-089-zhanger",
-      "work_title": "史記"
+      "work_title": "史記",
+      "chapter_ref": "data/corpus/shiji/089.json",
+      "quote_span": [
+        35,
+        99
+      ]
     }
   ],
   "table_occurrences": [],
@@ -175,26 +179,7 @@
       "work_id": "w-shiji",
       "book_id": "b-shiji-089",
       "source_id": "s-shiji-089-zhanger",
-      "source": {
-        "title": "史記／卷089",
-        "provider": "維基文庫",
-        "url": "https://zh.wikisource.org/wiki/史記/卷089",
-        "permalink": "https://zh.wikisource.org/w/index.php?title=史記/卷089&oldid=8744143",
-        "revision_id": 8744143,
-        "accessed_on": "2026-10-09",
-        "extent": "30段傳世正文含太史公論，另存1段witness_appended_suoyin_zan；排除導覽與空白段。",
-        "image_verified": false,
-        "rights": "古代原文；數位轉錄依維基文庫CC BY-SA 4.0，保留署名及固定版本。",
-        "license_url": "https://creativecommons.org/licenses/by-sa/4.0/",
-        "normalization": {
-          "character_conversion": {
-            "钜": "鉅"
-          },
-          "editorial_readings": [],
-          "extraction_note": "固定HTML與取得時版本一致，只去外緣空白及明記钜轉鉅；髙、渉、脱、黡、黶、信諸侯等原字保留。",
-          "note": "33個HTML區塊已全讀；頁面索隱述贊標題確認末段層次。未核底本影像。"
-        }
-      }
+      "chapter_ref": "data/corpus/shiji/089.json"
     }
   ],
   "relations": [],
@@ -221,8 +206,8 @@
           "chapter_id": "c-shiji-089-zhanger",
           "source_id": "s-shiji-089-zhanger",
           "paragraph_id": "c-shiji-089-zhanger:p014",
-          "quote": "李良已定常山，還報，趙王復使良略太原。至石邑，秦兵塞井陘，未能前。秦將詐稱二世使人遺李良書，不封，曰：「良嘗事我得顯幸。良誠能反趙爲秦，赦良罪，貴良。」良得書，疑不信。乃還之邯鄲，益請兵。未至，道逢趙王姊出飲，從百餘騎。李良望見，以爲王，伏謁道旁。王姊醉，不知其將，使騎謝李良。李良素貴，起，慚其從官。從官有一人曰：「天下畔秦，能者先立。且趙王素出將軍下，今女兒乃不爲將軍下車，請追殺之。」李良已得秦書，固欲反趙，未決，因此怒，遣人追殺王姊道中，乃遂將其兵襲邯鄲。邯鄲不知，竟殺武臣、邵騷。趙人多爲張耳、陳餘耳目者，以故得脱出。收其兵，得數萬人。客有説張耳曰：「兩君羈旅，而欲附趙，難；獨立趙後，扶以義，可就功。」乃求得趙歇，立爲趙王，居信都。李良進兵撃陳餘，陳餘敗李良，李良走歸章邯。",
-          "person_mention_id": "c-shiji-089-zhanger:m014-0242"
+          "person_mention_id": "c-shiji-089-zhanger:m014-0242",
+          "quote_passage_ref": "data/corpus/shiji/089.json"
         }
       ],
       "interpretation_note": "邵騷與武臣並列被殺，不推與前文王姊同地同日。 保存本篇原語及敘述範圍，不視作獨立證成，不由死亡一律終止所有官爵；未核書影。",

@@ -23,8 +23,8 @@
           "chapter_id": "c-houhanshu-009-xiandi-early",
           "source_id": "s-houhanshu-009-xiandi-early",
           "paragraph_id": "c-houhanshu-009-xiandi-early:accession-zhongping06-note-03-1",
-          "quote": "續漢志曰侍中比二千石無員漢官儀曰侍中左蟬右貂夲秦丞相史往来殿中故謂之侍中分掌乗輿服物下至褻器虎子之屬武帝時孔安國為侍中以其儒者特聽掌御坐唾壺朝廷榮之至東京時屬少府亦無員駕出則一人負傳國璽操斬蛇劒乗輿中官俱止禁中又曰給事黄門侍郎六百石無員掌侍從左右給事中使關通中外應劭曰黄門侍郎每日暮向青瑣門拜謂之夕郎輿服志曰禁門曰黄闥以中人主之故號曰黄門令然則黄門郎給事黄闥之内故曰黄門郎夲既無員於此各置六人也獻帝起居注曰自誅黄門後侍中侍郎出入禁中機事頗露由是王允乃奏侍中黄門不得出入不通賔客自此始也",
-          "person_mention_id": "c-houhanshu-009-xiandi-early:accession-zhongping06-note-03-1:m0053"
+          "person_mention_id": "c-houhanshu-009-xiandi-early:accession-zhongping06-note-03-1:m0053",
+          "quote_passage_ref": "data/corpus/houhanshu/009.json"
         }
       ],
       "interpretation_note": "武帝時孔安國為侍中。漢武帝時原年框無單年，不推建元元年。 正文／唐注／宋校分層；未知日期保空，不倒生年或以死亡終止全部官職。",
@@ -71,7 +71,7 @@
           "chapter_id": "c-shiji-121-rulin",
           "source_id": "s-shiji121-rulin",
           "paragraph_id": "c-shiji-121-rulin:p009",
-          "quote": "弟子為博士者十餘人：孔安國至臨淮太守，周霸至膠西內史，夏寬至城陽內史，碭魯賜至東海太守，蘭陵繆生至長沙內史，徐偃為膠西中尉，鄒人闕門慶忌為膠東內史。其治官民皆有廉節，稱其好學。學官弟子行雖不備，而至於大夫、郎中、掌故以百數。言詩雖殊，多本於申公。"
+          "quote_passage_ref": "data/corpus/shiji/121.json"
         }
       ],
       "attestations": [
@@ -114,7 +114,6 @@
       "raw_count": 3,
       "duplicate_count": 0,
       "counting_policy": "independent_fixed_witness_occurrences",
-      "quote": "左蟬右貂夲秦丞相史往来殿中故謂之侍中分掌乗輿服物下至褻器虎子之屬武帝時孔安國為侍中以其儒者特聽掌御坐唾壺朝廷榮之至東京時屬少府亦無員駕出則一人負傳國璽操斬蛇劒乗輿中官俱止禁中又曰給事黄門侍郎六百石無員掌侍從左右給事中使關通中外應劭曰黄門侍郎每日暮向青瑣門拜謂之夕郎輿服志曰禁門",
       "paragraph_ids": [
         "c-houhanshu-009-xiandi-early:accession-zhongping06-note-03-1"
       ],
@@ -156,7 +155,12 @@
       "book_id": "b-houhanshu-009",
       "chapter_id": "c-houhanshu-009-xiandi-early",
       "source_id": "s-houhanshu-009-xiandi-early",
-      "work_title": "後漢書"
+      "work_title": "後漢書",
+      "chapter_ref": "data/corpus/houhanshu/009.json",
+      "quote_span": [
+        18,
+        156
+      ]
     },
     {
       "number": 64,
@@ -167,7 +171,6 @@
       "raw_count": 1,
       "duplicate_count": 0,
       "counting_policy": "independent_fixed_witness_occurrences",
-      "quote": "書曰三載考績三考黜陟幽眀孔安國注曰三年考功三考九年能否幽明有别升進其明者黜退其幽者此皆唐堯之法也",
       "paragraph_ids": [
         "c-houhanshu-064-luzhi:note033"
       ],
@@ -191,7 +194,12 @@
       "book_id": "b-houhanshu-064",
       "chapter_id": "c-houhanshu-064-luzhi",
       "source_id": "s-houhanshu-064-luzhi",
-      "work_title": "後漢書"
+      "work_title": "後漢書",
+      "chapter_ref": "data/corpus/houhanshu/064-luzhi.json",
+      "quote_span": [
+        0,
+        48
+      ]
     },
     {
       "number": 121,
@@ -202,7 +210,6 @@
       "raw_count": 4,
       "duplicate_count": 0,
       "counting_policy": "independent_fixed_witness_occurrences",
-      "quote": "弟子為博士者十餘人：孔安國至臨淮太守，周霸至膠西內史，夏寬至城陽內史，碭魯賜至東海太守，蘭陵繆生至長沙內史，徐偃為膠西中尉，鄒人闕門慶忌為膠東內史。其治官民皆有廉節，稱其好學。學官弟子行雖不備，而至於大夫、郎中、掌故以百數。言",
       "paragraph_ids": [
         "c-shiji-121-rulin:p009",
         "c-shiji-121-rulin:p015",
@@ -255,7 +262,12 @@
       "book_id": "b-shiji-121",
       "chapter_id": "c-shiji-121-rulin",
       "source_id": "s-shiji121-rulin",
-      "work_title": "史記"
+      "work_title": "史記",
+      "chapter_ref": "data/corpus/shiji/121.json",
+      "quote_span": [
+        0,
+        113
+      ]
     }
   ],
   "table_occurrences": [],
@@ -265,83 +277,21 @@
       "work_id": "w-houhanshu",
       "book_id": "b-houhanshu-009",
       "source_id": "s-houhanshu-009-xiandi-early",
-      "source": {
-        "title": "後漢書卷九：孝獻帝紀第九（兩完整年單元）",
-        "provider": "Kanripo",
-        "url": "https://github.com/kanripo/KR2a0009/blob/6db36b6dcbe843b825354c22e9be9193d0137c04/KR2a0009_009.txt",
-        "permalink": "https://github.com/kanripo/KR2a0009/blob/6db36b6dcbe843b825354c22e9be9193d0137c04/KR2a0009_009.txt",
-        "revision_id": "6db36b6dcbe843b825354c22e9be9193d0137c04",
-        "accessed_on": "2026-10-19",
-        "extent": "raw13–40開篇及中平六年全年；41–66初平元年全年；67起二年未收。正文、唐注、宋校獨立19容器。",
-        "text_scope": "partial_chapter",
-        "review_status": "text_checked",
-        "image_verified": false,
-        "rights": "古代原文；固定WYG數位見證，未校圖。",
-        "license_url": "https://www.kanripo.org/",
-        "normalization": {
-          "character_conversion": {},
-          "source_layering": "保底本文字；僅去版面頁標／分行符／注括號，正文唐注宋校分層，逐字raw_runs可回查。"
-        },
-        "response_sha256": "e0459bbe8ebcc6a3bf0ac881302a830b7b8b77284da70faf0723686b9c9bbba5",
-        "source_blob_sha": "1d565549277da141b973c906f61aeef06cff7d7e",
-        "raw_path": "sources/houhanshu/009-kr6db36b6-xiandi-fixed.txt"
-      }
+      "chapter_ref": "data/corpus/houhanshu/009.json"
     },
     {
       "chapter_id": "c-houhanshu-064-luzhi",
       "work_id": "w-houhanshu",
       "book_id": "b-houhanshu-064",
       "source_id": "s-houhanshu-064-luzhi",
-      "source": {
-        "title": "後漢書 吳延史盧趙列傳第五十四·盧植完整傳及論（數位選錄）",
-        "provider": "Kanripo",
-        "url": "https://github.com/kanripo/KR2a0009/blob/6db36b6dcbe843b825354c22e9be9193d0137c04/KR2a0009_094.txt",
-        "permalink": "https://github.com/kanripo/KR2a0009/blob/6db36b6dcbe843b825354c22e9be9193d0137c04/KR2a0009_094.txt",
-        "revision_id": "6db36b6dcbe843b825354c22e9be9193d0137c04",
-        "accessed_on": "2026-10-22",
-        "extent": "固定raw235–358盧植完整傳/論及全部夾注；另470/471兩條清考證獨立層；非整卷其他傳主已匯。",
-        "text_scope": "partial_chapter",
-        "review_status": "text_checked",
-        "image_verified": false,
-        "rights": "古代原文及Kanripo固定數位轉錄；保留來源歸屬，未收入圖像。",
-        "license_url": "https://www.kanripo.org/",
-        "edition": "Kanripo BASEEDITION WYG題記（未核書影或對應實物年代）",
-        "raw_file": "sources/witnesses/KR2a0009_094-6db36b6-luzhi.txt",
-        "raw_sha256": "108a4486404e0ce38cc8be6fb84b24b360f0a0892e3dad1a42d9ddd994069b86",
-        "physical_file_juan": 94,
-        "logical_biographical_juan": 64,
-        "number_qualification": "本合編物理卷九十四；本紀列傳系統卷六十四、列傳第五十四，不造九十四為本傳邏輯卷號。",
-        "author_heading_raw": "　　宋　　宣　　城　　太　　守范　煜撰¶",
-        "author_heading_qualification": "固定數位見證原署范　煜撰，原字不靜改；作品登記既有作者范曄不因本題字異重寫。",
-        "normalization": {
-          "character_conversion": {},
-          "extraction_note": "僅排除換行/縮排/¶、注內換行/及pb頁標；全部可見字逐碼點覆蓋。括號內注獨立段；○劉攽明署部分分層；無補字校改。"
-        }
-      }
+      "chapter_ref": "data/corpus/houhanshu/064-luzhi.json"
     },
     {
       "chapter_id": "c-shiji-121-rulin",
       "work_id": "w-shiji",
       "book_id": "b-shiji-121",
       "source_id": "s-shiji121-rulin",
-      "source": {
-        "title": "史記／卷121",
-        "provider": "維基文庫",
-        "url": "https://zh.wikisource.org/wiki/史記/卷121",
-        "permalink": "https://zh.wikisource.org/w/index.php?title=史記/卷121&oldid=8735621",
-        "revision_id": 8735621,
-        "accessed_on": "2026-10-11",
-        "extent": "固定修訂全文25段，包括末段索隱述贊。",
-        "image_verified": false,
-        "rights": "古代原文；數位轉錄依維基文庫CC BY-SA 4.0，保留署名及固定版本。",
-        "license_url": "https://creativecommons.org/licenses/by-sa/4.0/",
-        "normalization": {
-          "character_conversion": {},
-          "editorial_readings": [],
-          "extraction_note": "去header2、現代節標與wikipedia模板，保留繆西王等原字；未核影像。",
-          "note": "末段索隱述贊分層，太史公論贊屬篇文。"
-        }
-      }
+      "chapter_ref": "data/corpus/shiji/121.json"
     }
   ],
   "relations": [],

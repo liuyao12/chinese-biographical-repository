@@ -22,7 +22,6 @@
       "raw_count": 7,
       "duplicate_count": 0,
       "counting_policy": "independent_fixed_witness_occurrences",
-      "quote": "乃西至秦。秦孝公卒。說惠王曰：「秦四塞之國，被山帶渭，東有關河，西有漢中，南有巴蜀，北有代馬，此天府也。以秦士民之衆，兵法之敎，可以吞天下，稱帝而治。」秦王曰：「毛羽未成，不可以高蜚；文理未明，不可以并兼。」方誅商鞅，疾辯士，",
       "paragraph_ids": [
         "c-shiji-069-su:p003",
         "c-shiji-069-su:p018",
@@ -103,7 +102,12 @@
       "book_id": "b-shiji-069",
       "chapter_id": "c-shiji-069-su",
       "source_id": "s-shiji-069-su",
-      "work_title": "史記"
+      "work_title": "史記",
+      "chapter_ref": "data/corpus/shiji/069.json",
+      "quote_span": [
+        0,
+        113
+      ]
     }
   ],
   "table_occurrences": [],
@@ -113,24 +117,7 @@
       "work_id": "w-shiji",
       "book_id": "b-shiji-069",
       "source_id": "s-shiji-069-su",
-      "source": {
-        "title": "史記／卷069",
-        "provider": "維基文庫",
-        "url": "https://zh.wikisource.org/wiki/史記/卷069",
-        "permalink": "https://zh.wikisource.org/w/index.php?title=史記/卷069&oldid=2621145",
-        "revision_id": 2621145,
-        "accessed_on": "2026-10-09",
-        "extent": "67段正文，自蘇秦者至太史公論贊；排除ws-header弟名導覽與空段、後附索隱述贊及現代版權告示。",
-        "image_verified": false,
-        "rights": "古代原文；數位轉錄依維基文庫CC BY-SA 4.0，保留署名及固定版本。",
-        "license_url": "https://creativecommons.org/licenses/by-sa/4.0/",
-        "normalization": {
-          "character_conversion": {},
-          "editorial_readings": [],
-          "extraction_note": "取得時HTML與固定修訂一致，只去外緣空白。保留雒、衞、嘑、敎、㕹等原字及數位標點疑點，未按現代研究改寫時序。",
-          "note": "全67段已核讀，人物標註待逐段處理；未核底本、影像、出土縱橫家材料或現代研究。"
-        }
-      }
+      "chapter_ref": "data/corpus/shiji/069.json"
     }
   ],
   "relations": [
@@ -145,7 +132,7 @@
           "chapter_id": "c-shiji-069-su",
           "source_id": "s-shiji-069-su",
           "paragraph_id": "c-shiji-069-su:p040",
-          "quote": "秦惠王以其女為燕太子婦。是歲，文侯卒，太子立，是為燕易王。易王初立，齊宣王因燕喪伐燕，取十城。易王謂蘇秦曰：「往日先生至燕，而先王資先生見趙，遂約六國從。今齊先伐趙，次至燕，以先生之故為天下笑，先生能為燕得侵地乎？」蘇秦大慚，曰：「請為王取之。」"
+          "quote_passage_ref": "data/corpus/shiji/069.json"
         }
       ],
       "qualifiers": {
@@ -177,7 +164,7 @@
           "chapter_id": "c-shiji-069-su",
           "source_id": "s-shiji-069-su",
           "paragraph_id": "c-shiji-069-su:p040",
-          "quote": "秦惠王以其女為燕太子婦。是歲，文侯卒，太子立，是為燕易王。易王初立，齊宣王因燕喪伐燕，取十城。易王謂蘇秦曰：「往日先生至燕，而先王資先生見趙，遂約六國從。今齊先伐趙，次至燕，以先生之故為天下笑，先生能為燕得侵地乎？」蘇秦大慚，曰：「請為王取之。」"
+          "quote_passage_ref": "data/corpus/shiji/069.json"
         }
       ],
       "qualifiers": {

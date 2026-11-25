@@ -22,7 +22,7 @@
           "chapter_id": "c-shiji-036-chenqi",
           "source_id": "s-shiji-036-chenqi",
           "paragraph_id": "c-shiji-036-chenqi:p002",
-          "quote": "胡公卒，子申公犀侯立。申公卒，弟相公皋羊立。相公卒，立申公子突，是為孝公。孝公卒，子慎公圉戎立。慎公當周厲王時。慎公卒，子幽公寧立。"
+          "quote_passage_ref": "data/corpus/shiji/036.json"
         }
       ],
       "attestations": [
@@ -64,7 +64,6 @@
       "raw_count": 2,
       "duplicate_count": 0,
       "counting_policy": "independent_fixed_witness_occurrences",
-      "quote": "胡公卒，子申公犀侯立。申公卒，弟相公皋羊立。相公卒，立申公子突，是為孝公。孝公卒，子慎公圉戎立。慎公當周厲王時。慎公卒，子幽公寧立。",
       "paragraph_ids": [
         "c-shiji-036-chenqi:p002"
       ],
@@ -97,7 +96,12 @@
       "book_id": "b-shiji-036",
       "chapter_id": "c-shiji-036-chenqi",
       "source_id": "s-shiji-036-chenqi",
-      "work_title": "史記"
+      "work_title": "史記",
+      "chapter_ref": "data/corpus/shiji/036.json",
+      "quote_span": [
+        0,
+        66
+      ]
     }
   ],
   "table_occurrences": [
@@ -105,7 +109,6 @@
       "table_id": "shiji-013",
       "cell_id": "shiji-013-t3-r003-c08",
       "title": "《史記·三代世表》",
-      "quote": "相公",
       "year": null,
       "mention": {
         "id": "shiji-013-t3-r003-c08-m000",
@@ -120,7 +123,8 @@
       "book_id": "b-shiji-013",
       "chapter_id": "table-chapter-shiji-013",
       "source_id": "table-witness-shiji-013",
-      "source_revision": "2606991"
+      "source_revision": "2606991",
+      "quote_ref": "cell"
     }
   ],
   "sources": [
@@ -129,47 +133,14 @@
       "work_id": "w-shiji",
       "book_id": "b-shiji-036",
       "source_id": "s-shiji-036-chenqi",
-      "source": {
-        "title": "史記／卷036",
-        "provider": "維基文庫",
-        "url": "https://zh.wikisource.org/wiki/史記/卷036",
-        "permalink": "https://zh.wikisource.org/w/index.php?title=史記/卷036&oldid=2588525",
-        "revision_id": 2588525,
-        "accessed_on": "2026-10-09",
-        "extent": "32段傳世正文，自陳胡公滿至太史公論贊，另保留1段數位見證附載索隱述贊並分層；排除2個dd導覽。",
-        "image_verified": false,
-        "rights": "古代原文；數位轉錄依維基文庫CC BY-SA 4.0，保留署名及固定版本。",
-        "license_url": "https://creativecommons.org/licenses/by-sa/4.0/",
-        "normalization": {
-          "character_conversion": {},
-          "editorial_readings": [],
-          "extraction_note": "固定版本與實讀HTML一致。原字、探續、媯／姜及傳（上）［云］等見證字樣不默改。末段以索隱述贊標題辨為附載評論，不作司馬遷正文或已校定作者。",
-          "note": "未核可靠古籍底本及影像；原紀年、世系、卜筮引語及校勘保留。已另存吉本道雅2020年論文第6–7頁的具體辨析摘要，不表示本篇全部身份、版本及現代研究已覆核。"
-        }
-      }
+      "chapter_ref": "data/corpus/shiji/036.json"
     },
     {
       "chapter_id": "table-chapter-shiji-013",
       "work_id": "w-shiji",
       "book_id": "b-shiji-013",
       "source_id": "table-witness-shiji-013",
-      "source": {
-        "id": "table-witness-shiji-013",
-        "work_id": "w-shiji",
-        "book_id": "b-shiji-013",
-        "chapter_id": "table-chapter-shiji-013",
-        "url": "https://zh.wikisource.org/wiki/史記/卷013",
-        "revision_url": "https://zh.wikisource.org/w/index.php?title=史記/卷013&oldid=2606991",
-        "revision": "2606991",
-        "accessed": "2026-10-13",
-        "response_sha256": "8c98c072f11fc224a605f6b8f4dfc77be5f87bad792d32c0a2a720914638d7c3",
-        "edition": null,
-        "image_verified": false,
-        "rights": "古籍正文公有領域；維基文庫數位轉錄依CC BY-SA，保留貢獻者署名。",
-        "rights_url": "https://zh.wikisource.org/wiki/Wikisource:版權信息",
-        "review_status": "partial_named_entity_review",
-        "note": "各組表保留原欄題、原文、空格及合欄，不推不同欄題的接續。西元欄為數位編者增補；未明年份留空，不推世系曆年。未核底本影像，人物標註仍待逐處覆核。"
-      }
+      "table_source_ref": "shiji-013"
     }
   ],
   "relations": [
@@ -184,7 +155,7 @@
           "chapter_id": "c-shiji-036-chenqi",
           "source_id": "s-shiji-036-chenqi",
           "paragraph_id": "c-shiji-036-chenqi:p002",
-          "quote": "胡公卒，子申公犀侯立。申公卒，弟相公皋羊立。相公卒，立申公子突，是為孝公。孝公卒，子慎公圉戎立。慎公當周厲王時。慎公卒，子幽公寧立。"
+          "quote_passage_ref": "data/corpus/shiji/036.json"
         }
       ],
       "qualifiers": {
@@ -216,7 +187,7 @@
           "chapter_id": "c-shiji-036-chenqi",
           "source_id": "s-shiji-036-chenqi",
           "paragraph_id": "c-shiji-036-chenqi:p002",
-          "quote": "胡公卒，子申公犀侯立。申公卒，弟相公皋羊立。相公卒，立申公子突，是為孝公。孝公卒，子慎公圉戎立。慎公當周厲王時。慎公卒，子幽公寧立。"
+          "quote_passage_ref": "data/corpus/shiji/036.json"
         }
       ],
       "qualifiers": {
@@ -240,8 +211,8 @@
           "chapter_id": "c-shiji-036-chenqi",
           "source_id": "s-shiji-036-chenqi",
           "paragraph_id": "c-shiji-036-chenqi:p002",
-          "quote": "胡公卒，子申公犀侯立。申公卒，弟相公皋羊立。相公卒，立申公子突，是為孝公。孝公卒，子慎公圉戎立。慎公當周厲王時。慎公卒，子幽公寧立。",
-          "person_mention_id": "c-shiji-036-chenqi:m002-0022"
+          "person_mention_id": "c-shiji-036-chenqi:m002-0022",
+          "quote_passage_ref": "data/corpus/shiji/036.json"
         }
       ],
       "source_term": "相公卒",

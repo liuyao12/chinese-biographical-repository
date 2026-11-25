@@ -21,7 +21,7 @@
           "chapter_id": "c-shiji-040-chu",
           "source_id": "s-shiji-040-chu",
           "paragraph_id": "c-shiji-040-chu:p079",
-          "quote": "楚大臣患之，乃相與謀曰：「吾王在秦不得還，要以割地，而太子爲質於齊，齊、秦合謀，則楚無國矣。」乃欲立懷王子在國者。昭雎曰：「王與太子倶困於諸侯，而今又倍王命而立其庶子，不宜。」乃詐赴於齊，齊湣王謂其相曰：「不若留太子以求楚之淮北。」相曰：「不可，郢中立王，是吾抱空質而行不義於天下也。」或曰：「不然。郢中立王，因與其新王市曰『予我下東國，吾爲王殺太子，不然，將與三國共立之』，然則東國必可得矣。」齊王卒用其相計而歸楚太子。太子橫至，立爲王，是爲頃襄王。乃告于秦曰：「賴社稷神靈，國有王矣。」"
+          "quote_passage_ref": "data/corpus/shiji/040.json"
         }
       ],
       "attestations": [
@@ -63,7 +63,6 @@
       "raw_count": 3,
       "duplicate_count": 0,
       "counting_policy": "independent_fixed_witness_occurrences",
-      "quote": "太子倶困於諸侯，而今又倍王命而立其庶子，不宜。」乃詐赴於齊，齊湣王謂其相曰：「不若留太子以求楚之淮北。」相曰：「不可，郢中立王，是吾抱空質而行不義於天下也。」或曰：「不然。郢中立王，因與其新王市曰『予我下東國，吾爲王殺太子，不然，將與三國共立之』，然則東國必可得矣。」齊王",
       "paragraph_ids": [
         "c-shiji-040-chu:p079"
       ],
@@ -105,7 +104,12 @@
       "book_id": "b-shiji-040",
       "chapter_id": "c-shiji-040-chu",
       "source_id": "s-shiji-040-chu",
-      "work_title": "史記"
+      "work_title": "史記",
+      "chapter_ref": "data/corpus/shiji/040.json",
+      "quote_span": [
+        64,
+        200
+      ]
     }
   ],
   "table_occurrences": [],
@@ -115,26 +119,7 @@
       "work_id": "w-shiji",
       "book_id": "b-shiji-040",
       "source_id": "s-shiji-040-chu",
-      "source": {
-        "title": "史記／卷040",
-        "provider": "維基文庫",
-        "url": "https://zh.wikisource.org/wiki/史記/卷040",
-        "permalink": "https://zh.wikisource.org/w/index.php?title=史記/卷040&oldid=8736796",
-        "revision_id": 8736796,
-        "accessed_on": "2026-10-09",
-        "extent": "96段正文及1段分層索隱述贊；排除2個dd導覽，去除段落外緣空白。",
-        "image_verified": false,
-        "rights": "古代原文；數位轉錄依維基文庫CC BY-SA 4.0，保留署名及固定版本。",
-        "license_url": "https://creativecommons.org/licenses/by-sa/4.0/",
-        "normalization": {
-          "character_conversion": {
-            "笔": "筆"
-          },
-          "editorial_readings": [],
-          "extraction_note": "固定修訂與取得時HTML一致；僅去除段落外緣空白，古代異體及校勘括號保留。 第70段笔轉筆，未將「西取筆秦」疑句自行校讀。",
-          "note": "全97段數位正文已核讀，人物標註與可靠底本、影像覆核尚未完成；不把數位轉錄當版本校定。"
-        }
-      }
+      "chapter_ref": "data/corpus/shiji/040.json"
     }
   ],
   "relations": [],

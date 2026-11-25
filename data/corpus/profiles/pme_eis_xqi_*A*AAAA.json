@@ -23,7 +23,7 @@
           "chapter_id": "c-shiji-130-taishigong",
           "source_id": "s-shiji130-taishigong",
           "paragraph_id": "c-shiji-130-taishigong:p002",
-          "quote": "自司馬氏去周適晉，分散，或在衛，或在趙，或在秦。其在衛者，相中山。在趙者，以傳劍論顯，蒯聵其後也。在秦者名錯，與張儀爭論，於是惠王使錯將伐蜀，遂拔，因而守之。錯孫靳，事武安君白起。而少梁更名曰夏陽。靳與武安君阬趙長平軍，還而與之俱賜死杜郵，葬於華池。靳孫昌，昌為秦主鐵官，當始皇之時。蒯聵玄孫卬為武信君將而徇朝歌。諸侯之相王，王卬於殷。漢之伐楚，卬歸漢，以其地為河內郡。昌生無澤，無澤為漢市長。無澤生喜，喜為五大夫，卒，皆葬高門。喜生談，談為太史公。"
+          "quote_passage_ref": "data/corpus/shiji/130.json"
         }
       ],
       "attestations": [
@@ -66,7 +66,6 @@
       "raw_count": 1,
       "duplicate_count": 0,
       "counting_policy": "independent_fixed_witness_occurrences",
-      "quote": "上表曰臣博訪前墳遠稽昔典五帝躔次三王交分春秋朔氣紀年薄蝕談遷載述彪固列志魏世注厯晉代起居探異今古觀要華戎書契以降二千餘稔日月離會之徴星度疎宻之騐專功躭思咸可得而言也加以親量圭尺躬察儀漏目盡毫釐心窮籌筴考課推移又曲備其詳矣然而古厯疎舛類不精宻羣氏糾紛莫審其㑹尋",
       "paragraph_ids": [
         "c-nanqishu-052-zuchongzhi:p003"
       ],
@@ -90,7 +89,12 @@
       "book_id": "b-nanqishu-052",
       "chapter_id": "c-nanqishu-052-zuchongzhi",
       "source_id": "s-nanqishu-052-zuchongzhi",
-      "work_title": "南齊書"
+      "work_title": "南齊書",
+      "chapter_ref": "data/corpus/nanqishu/052-zuchongzhi.json",
+      "quote_span": [
+        0,
+        129
+      ]
     },
     {
       "number": 130,
@@ -101,7 +105,6 @@
       "raw_count": 10,
       "duplicate_count": 0,
       "counting_policy": "independent_fixed_witness_occurrences",
-      "quote": "內郡。昌生無澤，無澤為漢市長。無澤生喜，喜為五大夫，卒，皆葬高門。喜生談，談為太史公。",
       "paragraph_ids": [
         "c-shiji-130-taishigong:p002",
         "c-shiji-130-taishigong:p003",
@@ -210,7 +213,12 @@
       "book_id": "b-shiji-130",
       "chapter_id": "c-shiji-130-taishigong",
       "source_id": "s-shiji130-taishigong",
-      "work_title": "史記"
+      "work_title": "史記",
+      "chapter_ref": "data/corpus/shiji/130.json",
+      "quote_span": [
+        182,
+        225
+      ]
     }
   ],
   "table_occurrences": [],
@@ -220,53 +228,14 @@
       "work_id": "w-nanqishu",
       "book_id": "b-nanqishu-052",
       "source_id": "s-nanqishu-052-zuchongzhi",
-      "source": {
-        "title": "南齊書卷五十二祖沖之完整傳數位單元",
-        "provider": "Kanripo",
-        "url": "https://github.com/kanripo/KR2a0017/blob/787dd9a7da495542e8f17c26c96900ce37b2c211/KR2a0017_052.txt",
-        "permalink": "https://github.com/kanripo/KR2a0017/blob/787dd9a7da495542e8f17c26c96900ce37b2c211/KR2a0017_052.txt",
-        "revision_id": "787dd9a7da495542e8f17c26c96900ce37b2c211",
-        "source_commit": "787dd9a7da495542e8f17c26c96900ce37b2c211",
-        "source_blob_sha": "cd4633717db1261dceeab439080f2e7f7c63ea9d",
-        "edition": "Kanripo BASEEDITION WYG數位轉錄；未圖校",
-        "accessed_on": "2026-10-22",
-        "extent": "完整祖沖之本傳，含長篇曆法上表；不含前王逡之及後賈淵單元。",
-        "text_scope": "partial_chapter",
-        "review_status": "text_checked",
-        "image_verified": false,
-        "rights": "古代正文及固定Kanripo數位轉錄，保來源歸屬；非MIT字體或現代全文。",
-        "license_url": "https://www.kanripo.org/",
-        "raw_file": "sources/witnesses/KR2a0017_052-787dd9a-zuchongzhi.txt",
-        "raw_sha256": "8b7a389be3484bc05ab235b7b1a22244e7a027d5022804a12b66454f36f3e8ef",
-        "normalization": {
-          "character_conversion": {},
-          "extraction_note": "僅去pb/¶/換行；全部1255可見字逐碼點保留，9段為編輯分段，數理文字不改寫/轉算/省略。"
-        }
-      }
+      "chapter_ref": "data/corpus/nanqishu/052-zuchongzhi.json"
     },
     {
       "chapter_id": "c-shiji-130-taishigong",
       "work_id": "w-shiji",
       "book_id": "b-shiji-130",
       "source_id": "s-shiji130-taishigong",
-      "source": {
-        "title": "史記／卷130",
-        "provider": "維基文庫",
-        "url": "https://zh.wikisource.org/wiki/史記/卷130",
-        "permalink": "https://zh.wikisource.org/w/index.php?title=史記/卷130&oldid=2609362",
-        "revision_id": 2609362,
-        "accessed_on": "2026-10-11",
-        "extent": "固定修訂全文143段，全部篇文。",
-        "image_verified": false,
-        "rights": "古代原文；數位轉錄依維基文庫CC BY-SA 4.0，保留署名及固定版本。",
-        "license_url": "https://creativecommons.org/licenses/by-sa/4.0/",
-        "normalization": {
-          "character_conversion": {},
-          "editorial_readings": [],
-          "extraction_note": "去header2及現代節標，移除維基引文縮排冒號，保留原字，未核影像。",
-          "note": "全文入庫不等於全部提及已標註；目錄段落仍待逐段處理。"
-        }
-      }
+      "chapter_ref": "data/corpus/shiji/130.json"
     }
   ],
   "relations": [
@@ -281,7 +250,7 @@
           "chapter_id": "c-shiji-130-taishigong",
           "source_id": "s-shiji130-taishigong",
           "paragraph_id": "c-shiji-130-taishigong:p002",
-          "quote": "自司馬氏去周適晉，分散，或在衛，或在趙，或在秦。其在衛者，相中山。在趙者，以傳劍論顯，蒯聵其後也。在秦者名錯，與張儀爭論，於是惠王使錯將伐蜀，遂拔，因而守之。錯孫靳，事武安君白起。而少梁更名曰夏陽。靳與武安君阬趙長平軍，還而與之俱賜死杜郵，葬於華池。靳孫昌，昌為秦主鐵官，當始皇之時。蒯聵玄孫卬為武信君將而徇朝歌。諸侯之相王，王卬於殷。漢之伐楚，卬歸漢，以其地為河內郡。昌生無澤，無澤為漢市長。無澤生喜，喜為五大夫，卒，皆葬高門。喜生談，談為太史公。"
+          "quote_passage_ref": "data/corpus/shiji/130.json"
         }
       ],
       "qualifiers": {
@@ -301,7 +270,7 @@
           "chapter_id": "c-shiji-130-taishigong",
           "source_id": "s-shiji130-taishigong",
           "paragraph_id": "c-shiji-130-taishigong:p004",
-          "quote": "太史公既掌天官，不治民。有子曰遷。"
+          "quote_passage_ref": "data/corpus/shiji/130.json"
         }
       ],
       "qualifiers": {
@@ -330,8 +299,8 @@
           "chapter_id": "c-shiji-130-taishigong",
           "source_id": "s-shiji130-taishigong",
           "paragraph_id": "c-shiji-130-taishigong:p006",
-          "quote": "是歲天子始建漢家之封，而太史公留滯周南，不得與從事，故發憤且卒。而子遷適使反，見父於河洛之閒。太史公執遷手而泣曰：「余先周室之太史也。自上世嘗顯功名於虞夏，典天官事。後世中衰，絕於予乎？汝復為太史，則續吾祖矣。今天子接千歲之統，封泰山，而余不得從行，是命也夫，命也夫！余死，汝必為太史；為太史，無忘吾所欲論著矣。且夫孝始於事親，中於事君，終於立身。揚名於後世，以顯父母，此孝之大者。夫天下稱誦周公，言其能論歌文武之德，宣周邵之風，達太王王季之思慮，爰及公劉，以尊后稷也。幽厲之後，王道缺，禮樂衰，孔子修舊起廢，論詩書，作春秋，則學者至今則之。自獲麟以來四百有餘歲，而諸侯相兼，史記放絕。今漢興，海內一統，明主賢君忠臣死義之士，余為太史而弗論載，廢天下之史文，余甚懼焉，汝其念哉！」遷俯首流涕曰：「小子不敏，請悉論先人所次舊聞，弗敢闕。」",
-          "person_mention_id": "c-shiji-130-taishigong:m006-0012"
+          "person_mention_id": "c-shiji-130-taishigong:m006-0012",
+          "quote_passage_ref": "data/corpus/shiji/130.json"
         }
       ],
       "references": [
@@ -382,7 +351,7 @@
           "chapter_id": "c-shiji-130-taishigong",
           "source_id": "s-shiji130-taishigong",
           "paragraph_id": "c-shiji-130-taishigong:p002",
-          "quote": "自司馬氏去周適晉，分散，或在衛，或在趙，或在秦。其在衛者，相中山。在趙者，以傳劍論顯，蒯聵其後也。在秦者名錯，與張儀爭論，於是惠王使錯將伐蜀，遂拔，因而守之。錯孫靳，事武安君白起。而少梁更名曰夏陽。靳與武安君阬趙長平軍，還而與之俱賜死杜郵，葬於華池。靳孫昌，昌為秦主鐵官，當始皇之時。蒯聵玄孫卬為武信君將而徇朝歌。諸侯之相王，王卬於殷。漢之伐楚，卬歸漢，以其地為河內郡。昌生無澤，無澤為漢市長。無澤生喜，喜為五大夫，卒，皆葬高門。喜生談，談為太史公。"
+          "quote_passage_ref": "data/corpus/shiji/130.json"
         }
       ],
       "qualifiers": {
@@ -402,7 +371,7 @@
           "chapter_id": "c-shiji-130-taishigong",
           "source_id": "s-shiji130-taishigong",
           "paragraph_id": "c-shiji-130-taishigong:p004",
-          "quote": "太史公既掌天官，不治民。有子曰遷。"
+          "quote_passage_ref": "data/corpus/shiji/130.json"
         }
       ],
       "qualifiers": {
@@ -425,8 +394,8 @@
           "chapter_id": "c-shiji-130-taishigong",
           "source_id": "s-shiji130-taishigong",
           "paragraph_id": "c-shiji-130-taishigong:p006",
-          "quote": "是歲天子始建漢家之封，而太史公留滯周南，不得與從事，故發憤且卒。而子遷適使反，見父於河洛之閒。太史公執遷手而泣曰：「余先周室之太史也。自上世嘗顯功名於虞夏，典天官事。後世中衰，絕於予乎？汝復為太史，則續吾祖矣。今天子接千歲之統，封泰山，而余不得從行，是命也夫，命也夫！余死，汝必為太史；為太史，無忘吾所欲論著矣。且夫孝始於事親，中於事君，終於立身。揚名於後世，以顯父母，此孝之大者。夫天下稱誦周公，言其能論歌文武之德，宣周邵之風，達太王王季之思慮，爰及公劉，以尊后稷也。幽厲之後，王道缺，禮樂衰，孔子修舊起廢，論詩書，作春秋，則學者至今則之。自獲麟以來四百有餘歲，而諸侯相兼，史記放絕。今漢興，海內一統，明主賢君忠臣死義之士，余為太史而弗論載，廢天下之史文，余甚懼焉，汝其念哉！」遷俯首流涕曰：「小子不敏，請悉論先人所次舊聞，弗敢闕。」",
-          "person_mention_id": "c-shiji-130-taishigong:m006-0012"
+          "person_mention_id": "c-shiji-130-taishigong:m006-0012",
+          "quote_passage_ref": "data/corpus/shiji/130.json"
         }
       ],
       "source_term": "故發憤且卒",
@@ -446,8 +415,8 @@
             "chapter_id": "c-shiji-130-taishigong",
             "source_id": "s-shiji130-taishigong",
             "paragraph_id": "c-shiji-130-taishigong:p006",
-            "quote": "是歲天子始建漢家之封，而太史公留滯周南，不得與從事，故發憤且卒。而子遷適使反，見父於河洛之閒。太史公執遷手而泣曰：「余先周室之太史也。自上世嘗顯功名於虞夏，典天官事。後世中衰，絕於予乎？汝復為太史，則續吾祖矣。今天子接千歲之統，封泰山，而余不得從行，是命也夫，命也夫！余死，汝必為太史；為太史，無忘吾所欲論著矣。且夫孝始於事親，中於事君，終於立身。揚名於後世，以顯父母，此孝之大者。夫天下稱誦周公，言其能論歌文武之德，宣周邵之風，達太王王季之思慮，爰及公劉，以尊后稷也。幽厲之後，王道缺，禮樂衰，孔子修舊起廢，論詩書，作春秋，則學者至今則之。自獲麟以來四百有餘歲，而諸侯相兼，史記放絕。今漢興，海內一統，明主賢君忠臣死義之士，余為太史而弗論載，廢天下之史文，余甚懼焉，汝其念哉！」遷俯首流涕曰：「小子不敏，請悉論先人所次舊聞，弗敢闕。」",
-            "person_mention_id": "c-shiji-130-taishigong:m006-0012"
+            "person_mention_id": "c-shiji-130-taishigong:m006-0012",
+            "quote_passage_ref": "data/corpus/shiji/130.json"
           }
         ],
         "references": [

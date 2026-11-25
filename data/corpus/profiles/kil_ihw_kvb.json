@@ -20,7 +20,6 @@
       "raw_count": 2,
       "duplicate_count": 0,
       "counting_policy": "independent_fixed_witness_occurrences",
-      "quote": "砮，矢長尺有咫。陳湣公使使問仲尼。仲尼曰：「隼來遠矣，此肅慎之矢也。昔武王克商，通道九夷百蠻，使各以其方賄來貢，使無忘職業。於是肅慎貢楛矢石砮，長尺有咫。先王欲昭其令德，以肅慎矢分大姬，配虞胡公而封諸陳。分同姓以珍玉，展親；分異姓以遠職，使無忘服。故分陳以肅慎矢。」試求之故",
       "paragraph_ids": [
         "c-shiji-047-kong:p027",
         "c-shiji-047-kong:p050"
@@ -54,7 +53,12 @@
       "book_id": "b-shiji-047",
       "chapter_id": "c-shiji-047-kong",
       "source_id": "s-shiji-047-kong",
-      "work_title": "史記"
+      "work_title": "史記",
+      "chapter_ref": "data/corpus/shiji/047.json",
+      "quote_span": [
+        15,
+        152
+      ]
     }
   ],
   "table_occurrences": [],
@@ -64,24 +68,7 @@
       "work_id": "w-shiji",
       "book_id": "b-shiji-047",
       "source_id": "s-shiji-047-kong",
-      "source": {
-        "title": "史記／卷047",
-        "provider": "維基文庫",
-        "url": "https://zh.wikisource.org/wiki/史記/卷047",
-        "permalink": "https://zh.wikisource.org/w/index.php?title=史記/卷047&oldid=7903609",
-        "revision_id": 7903609,
-        "accessed_on": "2026-10-09",
-        "extent": "85段正文及1段索隱述贊，後者分層；排除2個dd導覽與現代分節標題，只去除段落外緣空白。",
-        "image_verified": false,
-        "rights": "古代原文；數位轉錄依維基文庫CC BY-SA 4.0，保留署名及固定版本。",
-        "license_url": "https://creativecommons.org/licenses/by-sa/4.0/",
-        "normalization": {
-          "character_conversion": {},
-          "editorial_readings": [],
-          "extraction_note": "取得時HTML與固定修訂一致；現代分節標題不作古代正文，原字與來源標點保留。",
-          "note": "已核讀全86段數位文字並作首輪明示人名標註；未核可靠底本、影像或現代研究。"
-        }
-      }
+      "chapter_ref": "data/corpus/shiji/047.json"
     }
   ],
   "relations": [],

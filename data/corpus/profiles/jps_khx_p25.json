@@ -21,7 +21,6 @@
       "raw_count": 10,
       "duplicate_count": 0,
       "counting_policy": "independent_fixed_witness_occurrences",
-      "quote": "魏文侯謂李克曰：『先生嘗教寡人曰「家貧則思良妻，國亂則思良相」。今所置非成則璜，二子何如？』李克對曰：『臣聞之，卑不謀尊，疎不謀戚。臣在闕門之外，不敢當命。』文侯曰：『先生臨事勿讓。』李克曰：『君不察故也。居視其",
       "paragraph_ids": [
         "c-shiji-044-wei:p019"
       ],
@@ -126,7 +125,12 @@
       "book_id": "b-shiji-044",
       "chapter_id": "c-shiji-044-wei",
       "source_id": "s-shiji-044-wei",
-      "work_title": "史記"
+      "work_title": "史記",
+      "chapter_ref": "data/corpus/shiji/044.json",
+      "quote_span": [
+        0,
+        106
+      ]
     }
   ],
   "table_occurrences": [
@@ -134,7 +138,6 @@
       "table_id": "shiji-015",
       "cell_id": "shiji-015-r072-c03",
       "title": "《史記·六國年表》",
-      "quote": "二十。卜相，李克、翟璜爭。",
       "year": {
         "era": "BCE",
         "value": 405,
@@ -157,7 +160,8 @@
       "book_id": "b-shiji-015",
       "chapter_id": "table-chapter-shiji-015",
       "source_id": "table-witness-shiji-015",
-      "source_revision": "2607002"
+      "source_revision": "2607002",
+      "quote_ref": "cell"
     }
   ],
   "sources": [
@@ -166,47 +170,14 @@
       "work_id": "w-shiji",
       "book_id": "b-shiji-044",
       "source_id": "s-shiji-044-wei",
-      "source": {
-        "title": "史記／卷044",
-        "provider": "維基文庫",
-        "url": "https://zh.wikisource.org/wiki/史記/卷044",
-        "permalink": "https://zh.wikisource.org/w/index.php?title=史記/卷044&oldid=7903606",
-        "revision_id": 7903606,
-        "accessed_on": "2026-10-09",
-        "extent": "70段正文；排除現代章節標題、斠勘空段與版權告示，只去除段落外緣空白。",
-        "image_verified": false,
-        "rights": "古代原文；數位轉錄依維基文庫CC BY-SA 4.0，保留署名及固定版本。",
-        "license_url": "https://creativecommons.org/licenses/by-sa/4.0/",
-        "normalization": {
-          "character_conversion": {},
-          "editorial_readings": [],
-          "extraction_note": "取得時HTML與固定修訂一致；現代分節標題不當古代正文，不收末尾現代版權告示。保留髙、僇、无等原字與引號。",
-          "note": "已讀全70段數位正文；未核古籍影像、可靠底本或現代研究，首輪不等於完成覆核。第62段[1]至[3]為數位註號，原樣保存但不是古代正文或史料陳述，未擷取現代註釋內容。"
-        }
-      }
+      "chapter_ref": "data/corpus/shiji/044.json"
     },
     {
       "chapter_id": "table-chapter-shiji-015",
       "work_id": "w-shiji",
       "book_id": "b-shiji-015",
       "source_id": "table-witness-shiji-015",
-      "source": {
-        "id": "table-witness-shiji-015",
-        "work_id": "w-shiji",
-        "book_id": "b-shiji-015",
-        "chapter_id": "table-chapter-shiji-015",
-        "url": "https://zh.wikisource.org/wiki/史記/卷015",
-        "revision_url": "https://zh.wikisource.org/w/index.php?title=史記/卷015&oldid=2607002",
-        "revision": "2607002",
-        "accessed": "2026-10-12",
-        "response_sha256": "eb0624a019e02c24ce90a40bfa24863f4020878062c6e2efea32355033be5559",
-        "edition": null,
-        "image_verified": false,
-        "rights": "古籍正文公有領域；維基文庫轉錄及編輯內容依 CC BY-SA 條款，署名維基文庫貢獻者。",
-        "rights_url": "https://zh.wikisource.org/wiki/Wikisource:版權信息",
-        "review_status": "agent_first_pass_named_entities",
-        "note": "完整數位表格結構匯入，未逐格學術覆核。未核讀印本影像，原印本頁碼未知。西元欄沿用此數位轉錄的編者對照，不是古籍原有西元紀年，也不引用其維基百科外連。"
-      }
+      "table_source_ref": "shiji-015"
     }
   ],
   "relations": [],

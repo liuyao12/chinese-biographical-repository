@@ -1,3 +1,4 @@
+import {storedProfile} from './read-stored-profile.mjs';
 import test from 'node:test';import assert from 'node:assert/strict';import fs from 'node:fs';
 import {personCard} from '../assets/cbr-person.js';import {profileSourceContext,sourcePassageURL} from '../assets/corpus-reader.js';
 import {chapterDirectoryMap,sourceCitation} from '../assets/source-caption.js';
@@ -5,7 +6,7 @@ const directoryData={schema_version:1,works:[{work_id:'w-jinshu',title:'晉書',
 const directory=chapterDirectoryMap(directoryData);
 test('actual published Xie An occurrences use catalogue title in compact/full views without changing source data',()=>{
  const registry=JSON.parse(fs.readFileSync(new URL('../data/corpus/persons.json',import.meta.url)));const row=Object.values(registry).find(x=>x.label==='謝安');assert.ok(row);
- const raw=JSON.parse(fs.readFileSync(new URL('../data/corpus/profiles/'+encodeURIComponent(row.id)+'.json',import.meta.url)));const source=raw.occurrences.find(x=>x.work_id==='w-jinshu'&&x.book_id==='b-jinshu-079');assert.ok(source);const before=JSON.stringify(raw);
+ const raw=storedProfile(JSON.parse(fs.readFileSync(new URL('../data/corpus/profiles/'+encodeURIComponent(row.id)+'.json',import.meta.url))));const source=raw.occurrences.find(x=>x.work_id==='w-jinshu'&&x.book_id==='b-jinshu-079');assert.ok(source);const before=JSON.stringify(raw);
  const p={...raw,occurrences:[source],source_chapter_directory:directory};
  for(const full of [false,true]){const html=personCard(p,full);assert.match(html,/《晉書・謝尚 謝安》 · 卷七十九/);assert.doesNotMatch(html,/《[^》]*(?:完整單元|編輯選錄題|家族選段)[^》]*》/);assert.ok(html.includes(sourcePassageURL(source).replaceAll('&','&amp;')));}
  assert.equal(JSON.stringify(raw),before);

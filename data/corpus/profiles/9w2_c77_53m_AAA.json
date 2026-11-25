@@ -23,7 +23,7 @@
           "chapter_id": "c-shiji-032-qi",
           "source_id": "s-shiji-032-qi",
           "paragraph_id": "c-shiji-032-qi:p059",
-          "quote": "十七年，頃公卒，子靈公環立。"
+          "quote_passage_ref": "data/corpus/shiji/032.json"
         }
       ],
       "attestations": [
@@ -67,7 +67,7 @@
           "chapter_id": "c-shiji-062-guanyan",
           "source_id": "s-shiji-062-guanyan",
           "paragraph_id": "c-shiji-062-guanyan:p007",
-          "quote": "晏平仲嬰者，萊之夷維人也。事齊靈公、莊公、景公，以節儉力行重於齊。既相齊，食不重肉，妾不衣帛。其在朝，君語及之，即危言；語不及之，即危行。國有道，即順命；無道，即衡命。以此三世顯名於諸侯。"
+          "quote_passage_ref": "data/corpus/shiji/062.json"
         }
       ],
       "attestations": [
@@ -109,7 +109,6 @@
       "raw_count": 8,
       "duplicate_count": 0,
       "counting_policy": "independent_fixed_witness_occurrences",
-      "quote": "十七年，頃公卒，子靈公環立。",
       "paragraph_ids": [
         "c-shiji-032-qi:p059",
         "c-shiji-032-qi:p060",
@@ -198,7 +197,12 @@
       "book_id": "b-shiji-032",
       "chapter_id": "c-shiji-032-qi",
       "source_id": "s-shiji-032-qi",
-      "work_title": "史記"
+      "work_title": "史記",
+      "chapter_ref": "data/corpus/shiji/032.json",
+      "quote_span": [
+        0,
+        14
+      ]
     },
     {
       "number": 39,
@@ -209,7 +213,6 @@
       "raw_count": 1,
       "duplicate_count": 0,
       "counting_policy": "independent_fixed_witness_occurrences",
-      "quote": "平公元年，伐齊，齊靈公與戰靡下，齊師敗走。晏嬰曰：「君亦毋勇，何不止戰？」遂去。晉追，遂圍臨菑，盡燒屠其郭中。東至膠，南至沂，齊皆城守，晉乃引兵歸。",
       "paragraph_ids": [
         "c-shiji-039-jin:p118"
       ],
@@ -233,7 +236,12 @@
       "book_id": "b-shiji-039",
       "chapter_id": "c-shiji-039-jin",
       "source_id": "s-shiji-039-jin",
-      "work_title": "史記"
+      "work_title": "史記",
+      "chapter_ref": "data/corpus/shiji/039.json",
+      "quote_span": [
+        0,
+        74
+      ]
     },
     {
       "number": 62,
@@ -244,7 +252,6 @@
       "raw_count": 1,
       "duplicate_count": 0,
       "counting_policy": "independent_fixed_witness_occurrences",
-      "quote": "晏平仲嬰者，萊之夷維人也。事齊靈公、莊公、景公，以節儉力行重於齊。既相齊，食不重肉，妾不衣帛。其在朝，君語及之，即危言；語不及之，即危行。國有道，即順命；無道，即衡命。以此三世顯名於諸侯。",
       "paragraph_ids": [
         "c-shiji-062-guanyan:p007"
       ],
@@ -268,7 +275,12 @@
       "book_id": "b-shiji-062",
       "chapter_id": "c-shiji-062-guanyan",
       "source_id": "s-shiji-062-guanyan",
-      "work_title": "史記"
+      "work_title": "史記",
+      "chapter_ref": "data/corpus/shiji/062.json",
+      "quote_span": [
+        0,
+        94
+      ]
     }
   ],
   "table_occurrences": [],
@@ -278,76 +290,21 @@
       "work_id": "w-shiji",
       "book_id": "b-shiji-032",
       "source_id": "s-shiji-032-qi",
-      "source": {
-        "title": "史記／卷032",
-        "provider": "維基文庫",
-        "url": "https://zh.wikisource.org/wiki/史記/卷032",
-        "permalink": "https://zh.wikisource.org/w/index.php?title=史記/卷032&oldid=445042",
-        "revision_id": 445042,
-        "accessed_on": "2026-10-09",
-        "extent": "正文85個p區塊，自太公望呂尚者至太史公論贊；排除頂部君主摘要、跨站導覽及索隱述贊。",
-        "image_verified": false,
-        "rights": "古代原文；數位轉錄依維基文庫CC BY-SA 4.0，保留署名及固定版本。",
-        "license_url": "https://creativecommons.org/licenses/by-sa/4.0/",
-        "normalization": {
-          "character_conversion": {},
-          "editorial_readings": [],
-          "extraction_note": "保留彨、薄泵、慈母、無忌等原字與姓名，未按熟知讀法改寫。",
-          "note": "固定版本與實讀HTML一致；全85段首輪標註，代詞、版本與身份覆核未完；未核底本、影像或專門研究。"
-        }
-      }
+      "chapter_ref": "data/corpus/shiji/032.json"
     },
     {
       "chapter_id": "c-shiji-039-jin",
       "work_id": "w-shiji",
       "book_id": "b-shiji-039",
       "source_id": "s-shiji-039-jin",
-      "source": {
-        "title": "史記／卷039",
-        "provider": "維基文庫",
-        "url": "https://zh.wikisource.org/wiki/史記/卷039",
-        "permalink": "https://zh.wikisource.org/w/index.php?title=史記/卷039&oldid=2588534",
-        "revision_id": 2588534,
-        "accessed_on": "2026-10-09",
-        "extent": "142段正文，自晉唐叔虞至太史公論贊，另保留1段索隱述贊並分層；排除2個dd導覽及段首尾版面換行。",
-        "image_verified": false,
-        "rights": "古代原文；數位轉錄依維基文庫CC BY-SA 4.0，保留署名及固定版本。",
-        "license_url": "https://creativecommons.org/licenses/by-sa/4.0/",
-        "normalization": {
-          "character_conversion": {
-            "鲁": "魯",
-            "隐": "隱",
-            "绖": "絰"
-          },
-          "editorial_readings": [],
-          "extraction_note": "固定版本與實讀HTML一致。第14段鲁隐轉魯隱，第46、79段绖轉絰，去除段首尾換行，其餘古字、內外異說及校勘保留。",
-          "note": "同版原始標記亦作子胛桓叔，不默補代字或莊伯名字。保留冀芮／郤芮、郤鉤、欒逞、示瞇明、歩陽、郤臻、砹、六（卿）［軍］、［復］等見證字；未核可靠底本、影像或專門研究。"
-        }
-      }
+      "chapter_ref": "data/corpus/shiji/039.json"
     },
     {
       "chapter_id": "c-shiji-062-guanyan",
       "work_id": "w-shiji",
       "book_id": "b-shiji-062",
       "source_id": "s-shiji-062-guanyan",
-      "source": {
-        "title": "史記／卷062",
-        "provider": "維基文庫",
-        "url": "https://zh.wikisource.org/wiki/史記/卷062",
-        "permalink": "https://zh.wikisource.org/w/index.php?title=史記/卷062&oldid=7903600",
-        "revision_id": 7903600,
-        "accessed_on": "2026-10-09",
-        "extent": "12段正文，排除註釋版及2段維基導覽，無索隱述贊。",
-        "image_verified": false,
-        "rights": "古代原文；數位轉錄依維基文庫CC BY-SA 4.0，保留署名及固定版本。",
-        "license_url": "https://creativecommons.org/licenses/by-sa/4.0/",
-        "normalization": {
-          "character_conversion": {},
-          "editorial_readings": [],
-          "extraction_note": "取得時HTML與固定修訂一致，只去外緣空白；第4段榮辱後的[1]經核HTML為sup.reference腳註連結，抽取正文時排除。保留涂、緦、闚、仆御與忻慕等原字。",
-          "note": "全部12段已核讀，未核底本、影像或現代研究。"
-        }
-      }
+      "chapter_ref": "data/corpus/shiji/062.json"
     }
   ],
   "relations": [
@@ -362,7 +319,7 @@
           "chapter_id": "c-shiji-032-qi",
           "source_id": "s-shiji-032-qi",
           "paragraph_id": "c-shiji-032-qi:p059",
-          "quote": "十七年，頃公卒，子靈公環立。"
+          "quote_passage_ref": "data/corpus/shiji/032.json"
         }
       ],
       "qualifiers": {
@@ -383,7 +340,7 @@
           "chapter_id": "c-shiji-032-qi",
           "source_id": "s-shiji-032-qi",
           "paragraph_id": "c-shiji-032-qi:p061",
-          "quote": "二十八年，初，靈公取魯女，生子光，以為太子。仲姬，戎姬。戎姬嬖，仲姬生子牙，屬之戎姬。戎姬請以為太子，公許之。仲姬曰：「不可。光之立，列於諸侯矣，今無故廢之，君必悔之。」公曰：「在我耳。」遂東太子光，使高厚傅牙為太子。靈公疾，崔杼迎故太子光而立之，是為莊公。莊公殺戎姬。五月壬辰，靈公卒，莊公即位，執太子牙於句竇之丘，殺之。八月，崔杼殺高厚。晉聞齊亂，伐齊，至高唐。"
+          "quote_passage_ref": "data/corpus/shiji/032.json"
         }
       ],
       "qualifiers": {
@@ -416,7 +373,7 @@
           "chapter_id": "c-shiji-032-qi",
           "source_id": "s-shiji-032-qi",
           "paragraph_id": "c-shiji-032-qi:p059",
-          "quote": "十七年，頃公卒，子靈公環立。"
+          "quote_passage_ref": "data/corpus/shiji/032.json"
         }
       ],
       "qualifiers": {
@@ -437,7 +394,7 @@
           "chapter_id": "c-shiji-032-qi",
           "source_id": "s-shiji-032-qi",
           "paragraph_id": "c-shiji-032-qi:p061",
-          "quote": "二十八年，初，靈公取魯女，生子光，以為太子。仲姬，戎姬。戎姬嬖，仲姬生子牙，屬之戎姬。戎姬請以為太子，公許之。仲姬曰：「不可。光之立，列於諸侯矣，今無故廢之，君必悔之。」公曰：「在我耳。」遂東太子光，使高厚傅牙為太子。靈公疾，崔杼迎故太子光而立之，是為莊公。莊公殺戎姬。五月壬辰，靈公卒，莊公即位，執太子牙於句竇之丘，殺之。八月，崔杼殺高厚。晉聞齊亂，伐齊，至高唐。"
+          "quote_passage_ref": "data/corpus/shiji/032.json"
         }
       ],
       "qualifiers": {
@@ -461,8 +418,8 @@
           "chapter_id": "c-shiji-032-qi",
           "source_id": "s-shiji-032-qi",
           "paragraph_id": "c-shiji-032-qi:p061",
-          "quote": "二十八年，初，靈公取魯女，生子光，以為太子。仲姬，戎姬。戎姬嬖，仲姬生子牙，屬之戎姬。戎姬請以為太子，公許之。仲姬曰：「不可。光之立，列於諸侯矣，今無故廢之，君必悔之。」公曰：「在我耳。」遂東太子光，使高厚傅牙為太子。靈公疾，崔杼迎故太子光而立之，是為莊公。莊公殺戎姬。五月壬辰，靈公卒，莊公即位，執太子牙於句竇之丘，殺之。八月，崔杼殺高厚。晉聞齊亂，伐齊，至高唐。",
-          "person_mention_id": "c-shiji-032-qi:m061-0007"
+          "person_mention_id": "c-shiji-032-qi:m061-0007",
+          "quote_passage_ref": "data/corpus/shiji/032.json"
         }
       ],
       "source_term": "靈公卒",

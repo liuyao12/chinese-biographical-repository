@@ -21,7 +21,7 @@
           "chapter_id": "c-shiji-054-cao",
           "source_id": "s-shiji-054-cao",
           "paragraph_id": "c-shiji-054-cao:p017",
-          "quote": "平陽侯窋，高后時為御史大夫。孝文帝立，免為侯。立二十九年卒，謚為靜侯。子奇代侯，立七年卒，謚為簡侯。子時代侯。時尚平陽公主，生子襄。時病癘，歸國。立二十三年卒，謚夷侯。子襄代侯。襄尚衛長公主，生子宗。立十六年卒，謚為共侯。子宗代侯。征和二年中，宗坐太子死，國除。"
+          "quote_passage_ref": "data/corpus/shiji/054.json"
         }
       ],
       "attestations": [
@@ -45,8 +45,8 @@
               "chapter_id": "c-shiji-054-cao",
               "source_id": "s-shiji-054-cao",
               "paragraph_id": "c-shiji-054-cao:p017",
-              "quote": "平陽侯窋，高后時為御史大夫。孝文帝立，免為侯。立二十九年卒，謚為靜侯。子奇代侯，立七年卒，謚為簡侯。子時代侯。時尚平陽公主，生子襄。時病癘，歸國。立二十三年卒，謚夷侯。子襄代侯。襄尚衛長公主，生子宗。立十六年卒，謚為共侯。子宗代侯。征和二年中，宗坐太子死，國除。",
-              "person_mention_id": "c-shiji-054-cao:m017-0098"
+              "person_mention_id": "c-shiji-054-cao:m017-0098",
+              "quote_passage_ref": "data/corpus/shiji/054.json"
             }
           ]
         },
@@ -59,7 +59,7 @@
               "chapter_id": "c-shiji-054-cao",
               "source_id": "s-shiji-054-cao",
               "paragraph_id": "c-shiji-054-cao:p017",
-              "quote": "平陽侯窋，高后時為御史大夫。孝文帝立，免為侯。立二十九年卒，謚為靜侯。子奇代侯，立七年卒，謚為簡侯。子時代侯。時尚平陽公主，生子襄。時病癘，歸國。立二十三年卒，謚夷侯。子襄代侯。襄尚衛長公主，生子宗。立十六年卒，謚為共侯。子宗代侯。征和二年中，宗坐太子死，國除。"
+              "quote_passage_ref": "data/corpus/shiji/054.json"
             }
           ]
         }
@@ -77,8 +77,8 @@
             "chapter_id": "c-shiji-054-cao",
             "source_id": "s-shiji-054-cao",
             "paragraph_id": "c-shiji-054-cao:p017",
-            "quote": "平陽侯窋，高后時為御史大夫。孝文帝立，免為侯。立二十九年卒，謚為靜侯。子奇代侯，立七年卒，謚為簡侯。子時代侯。時尚平陽公主，生子襄。時病癘，歸國。立二十三年卒，謚夷侯。子襄代侯。襄尚衛長公主，生子宗。立十六年卒，謚為共侯。子宗代侯。征和二年中，宗坐太子死，國除。",
-            "person_mention_id": "c-shiji-054-cao:m017-0098"
+            "person_mention_id": "c-shiji-054-cao:m017-0098",
+            "quote_passage_ref": "data/corpus/shiji/054.json"
           }
         ],
         "rationale": "本段明示父子代侯，沿有來源前任平陽侯及承爵鏈判讀原侯字；不改寫原文，不跨全庫匹配侯。後段國除與未明日期保持。",
@@ -98,7 +98,6 @@
       "raw_count": 3,
       "duplicate_count": 0,
       "counting_policy": "independent_fixed_witness_occurrences",
-      "quote": "子襄。時病癘，歸國。立二十三年卒，謚夷侯。子襄代侯。襄尚衛長公主，生子宗。立十六年卒，謚為共侯。子宗代侯。征和二年中，宗坐太子死，國除。",
       "paragraph_ids": [
         "c-shiji-054-cao:p017"
       ],
@@ -140,7 +139,12 @@
       "book_id": "b-shiji-054",
       "chapter_id": "c-shiji-054-cao",
       "source_id": "s-shiji-054-cao",
-      "work_title": "史記"
+      "work_title": "史記",
+      "chapter_ref": "data/corpus/shiji/054.json",
+      "quote_span": [
+        63,
+        131
+      ]
     }
   ],
   "table_occurrences": [],
@@ -150,24 +154,7 @@
       "work_id": "w-shiji",
       "book_id": "b-shiji-054",
       "source_id": "s-shiji-054-cao",
-      "source": {
-        "title": "史記／卷054",
-        "provider": "維基文庫",
-        "url": "https://zh.wikisource.org/wiki/史記/卷054",
-        "permalink": "https://zh.wikisource.org/w/index.php?title=史記/卷054&oldid=1490182",
-        "revision_id": 1490182,
-        "accessed_on": "2026-10-09",
-        "extent": "18段篇文及1段索隱述贊，無需排除數位欄題。",
-        "image_verified": false,
-        "rights": "古代原文；數位轉錄依維基文庫CC BY-SA 4.0，保留署名及固定版本。",
-        "license_url": "https://creativecommons.org/licenses/by-sa/4.0/",
-        "normalization": {
-          "character_conversion": {},
-          "editorial_readings": [],
-          "extraction_note": "取得時HTML與固定修訂一致，只去外緣空白。保留夷[1]、高祖（三）［二］年、齊故［俗］、田既／田溉、共侯及末段索隱標記。夷後[1]是數位注釋標號，不當古文；同版注釋稱此字作上尸下二，未核底本不改字。",
-          "note": "全19段已讀並作明示人物首輪；未核底本、影像或現代研究。"
-        }
-      }
+      "chapter_ref": "data/corpus/shiji/054.json"
     }
   ],
   "relations": [
@@ -182,7 +169,7 @@
           "chapter_id": "c-shiji-054-cao",
           "source_id": "s-shiji-054-cao",
           "paragraph_id": "c-shiji-054-cao:p017",
-          "quote": "平陽侯窋，高后時為御史大夫。孝文帝立，免為侯。立二十九年卒，謚為靜侯。子奇代侯，立七年卒，謚為簡侯。子時代侯。時尚平陽公主，生子襄。時病癘，歸國。立二十三年卒，謚夷侯。子襄代侯。襄尚衛長公主，生子宗。立十六年卒，謚為共侯。子宗代侯。征和二年中，宗坐太子死，國除。"
+          "quote_passage_ref": "data/corpus/shiji/054.json"
         }
       ],
       "qualifiers": {
@@ -203,7 +190,7 @@
           "chapter_id": "c-shiji-054-cao",
           "source_id": "s-shiji-054-cao",
           "paragraph_id": "c-shiji-054-cao:p017",
-          "quote": "平陽侯窋，高后時為御史大夫。孝文帝立，免為侯。立二十九年卒，謚為靜侯。子奇代侯，立七年卒，謚為簡侯。子時代侯。時尚平陽公主，生子襄。時病癘，歸國。立二十三年卒，謚夷侯。子襄代侯。襄尚衛長公主，生子宗。立十六年卒，謚為共侯。子宗代侯。征和二年中，宗坐太子死，國除。"
+          "quote_passage_ref": "data/corpus/shiji/054.json"
         }
       ],
       "qualifiers": {
@@ -233,8 +220,8 @@
           "chapter_id": "c-shiji-054-cao",
           "source_id": "s-shiji-054-cao",
           "paragraph_id": "c-shiji-054-cao:p017",
-          "quote": "平陽侯窋，高后時為御史大夫。孝文帝立，免為侯。立二十九年卒，謚為靜侯。子奇代侯，立七年卒，謚為簡侯。子時代侯。時尚平陽公主，生子襄。時病癘，歸國。立二十三年卒，謚夷侯。子襄代侯。襄尚衛長公主，生子宗。立十六年卒，謚為共侯。子宗代侯。征和二年中，宗坐太子死，國除。",
-          "person_mention_id": "c-shiji-054-cao:m017-0098"
+          "person_mention_id": "c-shiji-054-cao:m017-0098",
+          "quote_passage_ref": "data/corpus/shiji/054.json"
         }
       ],
       "references": [
@@ -271,7 +258,7 @@
           "chapter_id": "c-shiji-054-cao",
           "source_id": "s-shiji-054-cao",
           "paragraph_id": "c-shiji-054-cao:p017",
-          "quote": "平陽侯窋，高后時為御史大夫。孝文帝立，免為侯。立二十九年卒，謚為靜侯。子奇代侯，立七年卒，謚為簡侯。子時代侯。時尚平陽公主，生子襄。時病癘，歸國。立二十三年卒，謚夷侯。子襄代侯。襄尚衛長公主，生子宗。立十六年卒，謚為共侯。子宗代侯。征和二年中，宗坐太子死，國除。"
+          "quote_passage_ref": "data/corpus/shiji/054.json"
         }
       ],
       "qualifiers": {
@@ -292,7 +279,7 @@
           "chapter_id": "c-shiji-054-cao",
           "source_id": "s-shiji-054-cao",
           "paragraph_id": "c-shiji-054-cao:p017",
-          "quote": "平陽侯窋，高后時為御史大夫。孝文帝立，免為侯。立二十九年卒，謚為靜侯。子奇代侯，立七年卒，謚為簡侯。子時代侯。時尚平陽公主，生子襄。時病癘，歸國。立二十三年卒，謚夷侯。子襄代侯。襄尚衛長公主，生子宗。立十六年卒，謚為共侯。子宗代侯。征和二年中，宗坐太子死，國除。"
+          "quote_passage_ref": "data/corpus/shiji/054.json"
         }
       ],
       "qualifiers": {
@@ -316,8 +303,8 @@
           "chapter_id": "c-shiji-054-cao",
           "source_id": "s-shiji-054-cao",
           "paragraph_id": "c-shiji-054-cao:p017",
-          "quote": "平陽侯窋，高后時為御史大夫。孝文帝立，免為侯。立二十九年卒，謚為靜侯。子奇代侯，立七年卒，謚為簡侯。子時代侯。時尚平陽公主，生子襄。時病癘，歸國。立二十三年卒，謚夷侯。子襄代侯。襄尚衛長公主，生子宗。立十六年卒，謚為共侯。子宗代侯。征和二年中，宗坐太子死，國除。",
-          "person_mention_id": "c-shiji-054-cao:m017-0098"
+          "person_mention_id": "c-shiji-054-cao:m017-0098",
+          "quote_passage_ref": "data/corpus/shiji/054.json"
         }
       ],
       "source_term": "宗坐太子死",
@@ -337,8 +324,8 @@
             "chapter_id": "c-shiji-054-cao",
             "source_id": "s-shiji-054-cao",
             "paragraph_id": "c-shiji-054-cao:p017",
-            "quote": "平陽侯窋，高后時為御史大夫。孝文帝立，免為侯。立二十九年卒，謚為靜侯。子奇代侯，立七年卒，謚為簡侯。子時代侯。時尚平陽公主，生子襄。時病癘，歸國。立二十三年卒，謚夷侯。子襄代侯。襄尚衛長公主，生子宗。立十六年卒，謚為共侯。子宗代侯。征和二年中，宗坐太子死，國除。",
-            "person_mention_id": "c-shiji-054-cao:m017-0098"
+            "person_mention_id": "c-shiji-054-cao:m017-0098",
+            "quote_passage_ref": "data/corpus/shiji/054.json"
           }
         ],
         "references": [
@@ -366,8 +353,8 @@
           "chapter_id": "c-shiji-054-cao",
           "source_id": "s-shiji-054-cao",
           "paragraph_id": "c-shiji-054-cao:p017",
-          "quote": "平陽侯窋，高后時為御史大夫。孝文帝立，免為侯。立二十九年卒，謚為靜侯。子奇代侯，立七年卒，謚為簡侯。子時代侯。時尚平陽公主，生子襄。時病癘，歸國。立二十三年卒，謚夷侯。子襄代侯。襄尚衛長公主，生子宗。立十六年卒，謚為共侯。子宗代侯。征和二年中，宗坐太子死，國除。",
-          "person_mention_id": "c-shiji-054-cao:m017-0098"
+          "person_mention_id": "c-shiji-054-cao:m017-0098",
+          "quote_passage_ref": "data/corpus/shiji/054.json"
         }
       ],
       "source_term": "襄尚衛長公主，生子宗",

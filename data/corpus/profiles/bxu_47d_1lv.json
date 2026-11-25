@@ -20,7 +20,6 @@
       "raw_count": 1,
       "duplicate_count": 0,
       "counting_policy": "independent_fixed_witness_occurrences",
-      "quote": "扁鵲乃使弟子子陽厲鍼砥石，以取外三陽五會。有閒，太子蘇。乃使子豹為五分之熨，以八減之齊和煮之，以更熨兩脅下。太子起坐。更適陰陽，但服湯二旬而復故。故天下盡以扁鵲為能生死人。扁鵲曰：「越人非能生死人也，此自當生者，越人",
       "paragraph_ids": [
         "c-shiji-105-bianque:p006"
       ],
@@ -44,7 +43,12 @@
       "book_id": "b-shiji-105",
       "chapter_id": "c-shiji-105-bianque",
       "source_id": "s-shiji-105-bianque",
-      "work_title": "史記"
+      "work_title": "史記",
+      "chapter_ref": "data/corpus/shiji/105.json",
+      "quote_span": [
+        0,
+        108
+      ]
     }
   ],
   "table_occurrences": [],
@@ -54,24 +58,7 @@
       "work_id": "w-shiji",
       "book_id": "b-shiji-105",
       "source_id": "s-shiji-105-bianque",
-      "source": {
-        "title": "史記／卷105",
-        "provider": "維基文庫",
-        "url": "https://zh.wikisource.org/wiki/史記/卷105",
-        "permalink": "https://zh.wikisource.org/w/index.php?title=史記/卷105&oldid=8842726",
-        "revision_id": 8842726,
-        "accessed_on": "2026-10-10",
-        "extent": "48段正文含太史公論與答詔醫案，1段索隱述贊及3段見證附載正義。",
-        "image_verified": false,
-        "rights": "古代原文；數位轉錄依維基文庫CC BY-SA 4.0，保留署名及固定版本。",
-        "license_url": "https://creativecommons.org/licenses/by-sa/4.0/",
-        "normalization": {
-          "character_conversion": {},
-          "editorial_readings": [],
-          "extraction_note": "去標題與介面模板，原字、標點及段落次序保留。",
-          "note": "未核底本影像。"
-        }
-      }
+      "chapter_ref": "data/corpus/shiji/105.json"
     }
   ],
   "relations": [
@@ -91,9 +78,9 @@
           "chapter_id": "c-shiji-105-bianque",
           "source_id": "s-shiji-105-bianque",
           "paragraph_id": "c-shiji-105-bianque:p006",
-          "quote": "扁鵲乃使弟子子陽厲鍼砥石，以取外三陽五會。有閒，太子蘇。乃使子豹為五分之熨，以八減之齊和煮之，以更熨兩脅下。太子起坐。更適陰陽，但服湯二旬而復故。故天下盡以扁鵲為能生死人。扁鵲曰：「越人非能生死人也，此自當生者，越人能使之起耳。」",
           "subject_person_mention_id": "c-shiji-105-bianque:m006-0006",
-          "object_person_mention_id": "c-shiji-105-bianque:m006-0000"
+          "object_person_mention_id": "c-shiji-105-bianque:m006-0000",
+          "quote_passage_ref": "data/corpus/shiji/105.json"
         }
       ],
       "interpretation_note": "依本段授受、師、弟子或學教原詞記師承；不作親屬，不推共同父系，學習年數不當官爵任期。",
@@ -129,9 +116,9 @@
           "chapter_id": "c-shiji-105-bianque",
           "source_id": "s-shiji-105-bianque",
           "paragraph_id": "c-shiji-105-bianque:p006",
-          "quote": "扁鵲乃使弟子子陽厲鍼砥石，以取外三陽五會。有閒，太子蘇。乃使子豹為五分之熨，以八減之齊和煮之，以更熨兩脅下。太子起坐。更適陰陽，但服湯二旬而復故。故天下盡以扁鵲為能生死人。扁鵲曰：「越人非能生死人也，此自當生者，越人能使之起耳。」",
           "subject_person_mention_id": "c-shiji-105-bianque:m006-0006",
-          "object_person_mention_id": "c-shiji-105-bianque:m006-0000"
+          "object_person_mention_id": "c-shiji-105-bianque:m006-0000",
+          "quote_passage_ref": "data/corpus/shiji/105.json"
         }
       ],
       "interpretation_note": "依本段授受、師、弟子或學教原詞記師承；不作親屬，不推共同父系，學習年數不當官爵任期。",

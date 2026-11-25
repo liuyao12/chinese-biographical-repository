@@ -21,7 +21,6 @@
       "raw_count": 2,
       "duplicate_count": 0,
       "counting_policy": "independent_fixed_witness_occurrences",
-      "quote": "以後事帝意尋變詔肇以侯歸第正始中薨追贈衛將軍子興嗣初文帝分休户三百封肇弟纂為列侯後為殄呉將軍薨追贈前將軍",
       "paragraph_ids": [
         "c-sanguozhi-009-caoxiu:p007"
       ],
@@ -54,7 +53,12 @@
       "book_id": "b-sanguozhi-009",
       "chapter_id": "c-sanguozhi-009-caoxiu",
       "source_id": "s-sanguozhi-009-caoxiu",
-      "work_title": "三國志"
+      "work_title": "三國志",
+      "chapter_ref": "data/corpus/sanguozhi/009-caoxiu.json",
+      "quote_span": [
+        26,
+        78
+      ]
     }
   ],
   "table_occurrences": [],
@@ -64,27 +68,7 @@
       "work_id": "w-sanguozhi",
       "book_id": "b-sanguozhi-009",
       "source_id": "s-sanguozhi-009-caoxiu",
-      "source": {
-        "title": "三國志卷九曹休完整本傳及附敘",
-        "provider": "Kanripo",
-        "url": "https://raw.githubusercontent.com/kanripo/KR2a0012/214fcafa79894355909c9d8c2c1533089e7791c6/KR2a0012_009.txt",
-        "permalink": "https://raw.githubusercontent.com/kanripo/KR2a0012/214fcafa79894355909c9d8c2c1533089e7791c6/KR2a0012_009.txt",
-        "revision_id": "214fcafa79894355909c9d8c2c1533089e7791c6",
-        "accessed_on": "2026-10-19",
-        "edition": "四庫全書數位固定見證；未核影像",
-        "extent": "曹休本傳及肇、纂附敘與裴注引文；原行272–308，下一曹真309不含。",
-        "text_scope": "partial_chapter",
-        "review_status": "text_checked",
-        "image_verified": false,
-        "license_url": "https://github.com/kanripo/KR2a0012",
-        "rights": "古代正文與公開Kanripo轉錄",
-        "raw_sha256": "dd430a2e31130eb1c392b1e2a034686685fed0366ff713ece75226ba8cdedf03",
-        "normalization": {
-          "character_conversion": "none",
-          "extraction_note": "刪原行尾¶與頁標並串接；各注層只移除行內注釋括號語法，原字符逐字映射；不改顔逺/襄陽/呉等字。",
-          "excerpts": []
-        }
-      }
+      "chapter_ref": "data/corpus/sanguozhi/009-caoxiu.json"
     }
   ],
   "relations": [
@@ -104,8 +88,8 @@
           "source_id": "s-sanguozhi-009-caoxiu",
           "chapter_id": "c-sanguozhi-009-caoxiu",
           "paragraph_id": "c-sanguozhi-009-caoxiu:p007",
-          "quote": "肇有當世才度為散騎常侍屯騎校尉眀帝寢疾方與燕王宇等屬以後事帝意尋變詔肇以侯歸第正始中薨追贈衛將軍子興嗣初文帝分休户三百封肇弟纂為列侯後為殄呉將軍薨追贈前將軍",
-          "person_mention_id": "c-sanguozhi-009-caoxiu:p007:m0061"
+          "person_mention_id": "c-sanguozhi-009-caoxiu:p007:m0061",
+          "quote_passage_ref": "data/corpus/sanguozhi/009-caoxiu.json"
         }
       ]
     }
@@ -136,8 +120,8 @@
           "source_id": "s-sanguozhi-009-caoxiu",
           "chapter_id": "c-sanguozhi-009-caoxiu",
           "paragraph_id": "c-sanguozhi-009-caoxiu:p007",
-          "quote": "肇有當世才度為散騎常侍屯騎校尉眀帝寢疾方與燕王宇等屬以後事帝意尋變詔肇以侯歸第正始中薨追贈衛將軍子興嗣初文帝分休户三百封肇弟纂為列侯後為殄呉將軍薨追贈前將軍",
-          "person_mention_id": "c-sanguozhi-009-caoxiu:p007:m0061"
+          "person_mention_id": "c-sanguozhi-009-caoxiu:p007:m0061",
+          "quote_passage_ref": "data/corpus/sanguozhi/009-caoxiu.json"
         }
       ]
     }
@@ -164,19 +148,19 @@
           "chapter_id": "c-sanguozhi-009-caoxiu",
           "paragraph_id": "c-sanguozhi-009-caoxiu:p007",
           "source_id": "s-sanguozhi-009-caoxiu",
-          "quote": "肇有當世才度為散騎常侍屯騎校尉眀帝寢疾方與燕王宇等屬以後事帝意尋變詔肇以侯歸第正始中薨追贈衛將軍子興嗣初文帝分休户三百封肇弟纂為列侯後為殄呉將軍薨追贈前將軍",
           "assertion_id": "a-sgz009-caoxiu54a-003",
           "scope": "完整正文段",
-          "url": "https://raw.githubusercontent.com/kanripo/KR2a0012/214fcafa79894355909c9d8c2c1533089e7791c6/KR2a0012_009.txt"
+          "url": "https://raw.githubusercontent.com/kanripo/KR2a0012/214fcafa79894355909c9d8c2c1533089e7791c6/KR2a0012_009.txt",
+          "quote_passage_ref": "data/corpus/sanguozhi/009-caoxiu.json"
         },
         {
           "chapter_id": "c-sanguozhi-009-caoxiu",
           "paragraph_id": "c-sanguozhi-009-caoxiu:p005",
           "source_id": "s-sanguozhi-009-caoxiu",
-          "quote": "帝征孫權以休為征東大將軍假黄鉞督張遼等及諸州郡二十餘軍擊權大將呂範等於洞浦破之拜揚州牧眀帝即位進封長平侯呉將審悳屯皖休擊破之斬悳首呉將韓綜翟丹等前後率衆詣休降增邑四百并前五千五百戸遷大司馬都督揚州如故太和二年帝為二道征呉遣司馬宣王從漢水下督休諸軍向尋陽賊將偽降休深入戰不利退還宿石亭軍夜驚士卒亂棄甲兵輜重甚多休上書謝罪帝遣屯騎校尉楊暨慰喻禮賜益隆休因此癰發背薨諡曰壮侯子肇嗣",
           "assertion_id": "a-sgz009-caoxiu54a-001",
           "scope": "完整正文段",
-          "url": "https://raw.githubusercontent.com/kanripo/KR2a0012/214fcafa79894355909c9d8c2c1533089e7791c6/KR2a0012_009.txt"
+          "url": "https://raw.githubusercontent.com/kanripo/KR2a0012/214fcafa79894355909c9d8c2c1533089e7791c6/KR2a0012_009.txt",
+          "quote_passage_ref": "data/corpus/sanguozhi/009-caoxiu.json"
         }
       ]
     },

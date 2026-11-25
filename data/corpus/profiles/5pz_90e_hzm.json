@@ -20,7 +20,6 @@
       "raw_count": 3,
       "duplicate_count": 0,
       "counting_policy": "independent_fixed_witness_occurrences",
-      "quote": "時會聚宮下博士諸先生與論議，共難之曰：「蘇秦、張儀一當萬乘之主，而都卿相之位，澤及後世。今子大夫修先王之術，慕聖人之義，諷誦詩書百家之言，不可勝數。著於竹帛，自以為海內無雙，即可謂博聞辯智矣。然悉力盡忠以事聖帝，曠日持久，積數十年，官不過侍郎，",
       "paragraph_ids": [
         "c-shiji-126-huaji:p016"
       ],
@@ -62,7 +61,12 @@
       "book_id": "b-shiji-126",
       "chapter_id": "c-shiji-126-huaji",
       "source_id": "s-shiji126-huaji",
-      "work_title": "史記"
+      "work_title": "史記",
+      "chapter_ref": "data/corpus/shiji/126.json",
+      "quote_span": [
+        0,
+        122
+      ]
     }
   ],
   "table_occurrences": [],
@@ -72,24 +76,7 @@
       "work_id": "w-shiji",
       "book_id": "b-shiji-126",
       "source_id": "s-shiji126-huaji",
-      "source": {
-        "title": "史記／卷126",
-        "provider": "維基文庫",
-        "url": "https://zh.wikisource.org/wiki/史記/卷126",
-        "permalink": "https://zh.wikisource.org/w/index.php?title=史記/卷126&oldid=2609358",
-        "revision_id": 2609358,
-        "accessed_on": "2026-10-11",
-        "extent": "固定修訂全文27段；篇文12段、褚少孫補文14段、索隱述贊1段。",
-        "image_verified": false,
-        "rights": "古代原文；數位轉錄依維基文庫CC BY-SA 4.0，保留署名及固定版本。",
-        "license_url": "https://creativecommons.org/licenses/by-sa/4.0/",
-        "normalization": {
-          "character_conversion": {},
-          "editorial_readings": [],
-          "extraction_note": "去header2、現代節標與wikipedia導覽模板，維基內鏈只留顯示文字，移除衛后字形選擇包裝而保留后字；未核影像。",
-          "note": "褚先生補與索隱述贊依來源節標分層，不作司馬遷篇文。"
-        }
-      }
+      "chapter_ref": "data/corpus/shiji/126.json"
     }
   ],
   "relations": [],

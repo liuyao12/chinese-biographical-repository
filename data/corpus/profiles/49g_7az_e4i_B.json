@@ -20,7 +20,6 @@
       "raw_count": 2,
       "duplicate_count": 0,
       "counting_policy": "independent_fixed_witness_occurrences",
-      "quote": "二世二年七月，具斯五刑，論腰斬咸陽市。斯出獄，與其中子俱執，顧謂其中子曰：「吾欲與若復牽黃犬俱出上蔡東門逐狡兔，豈可得乎！」遂父子相哭，而夷三族。",
       "paragraph_ids": [
         "c-shiji-087-lisi:p033"
       ],
@@ -53,7 +52,12 @@
       "book_id": "b-shiji-087",
       "chapter_id": "c-shiji-087-lisi",
       "source_id": "s-shiji-087-lisi",
-      "work_title": "史記"
+      "work_title": "史記",
+      "chapter_ref": "data/corpus/shiji/087.json",
+      "quote_span": [
+        0,
+        73
+      ]
     }
   ],
   "table_occurrences": [],
@@ -63,24 +67,7 @@
       "work_id": "w-shiji",
       "book_id": "b-shiji-087",
       "source_id": "s-shiji-087-lisi",
-      "source": {
-        "title": "史記／卷087",
-        "provider": "維基文庫",
-        "url": "https://zh.wikisource.org/wiki/史記/卷087",
-        "permalink": "https://zh.wikisource.org/w/index.php?title=史記/卷087&oldid=2364605",
-        "revision_id": 2364605,
-        "accessed_on": "2026-10-09",
-        "extent": "38個非空正文區塊含兩篇嵌入上書及太史公論，排除導覽、空段、索隱述贊及現代版權。",
-        "image_verified": false,
-        "rights": "古代原文；數位轉錄依維基文庫CC BY-SA 4.0，保留署名及固定版本。",
-        "license_url": "https://creativecommons.org/licenses/by-sa/4.0/",
-        "normalization": {
-          "character_conversion": {},
-          "editorial_readings": [],
-          "extraction_note": "固定HTML與取得時版本一致，只去外緣空白及空段；保留dd上書區塊，普通異體不擅校。",
-          "note": "全38個正文區塊與HTML篇界已核讀，未核底本影像或現代研究。"
-        }
-      }
+      "chapter_ref": "data/corpus/shiji/087.json"
     }
   ],
   "relations": [
@@ -95,7 +82,7 @@
           "chapter_id": "c-shiji-087-lisi",
           "source_id": "s-shiji-087-lisi",
           "paragraph_id": "c-shiji-087-lisi:p033",
-          "quote": "二世二年七月，具斯五刑，論腰斬咸陽市。斯出獄，與其中子俱執，顧謂其中子曰：「吾欲與若復牽黃犬俱出上蔡東門逐狡兔，豈可得乎！」遂父子相哭，而夷三族。"
+          "quote_passage_ref": "data/corpus/shiji/087.json"
         }
       ],
       "qualifiers": {
@@ -127,7 +114,7 @@
           "chapter_id": "c-shiji-087-lisi",
           "source_id": "s-shiji-087-lisi",
           "paragraph_id": "c-shiji-087-lisi:p033",
-          "quote": "二世二年七月，具斯五刑，論腰斬咸陽市。斯出獄，與其中子俱執，顧謂其中子曰：「吾欲與若復牽黃犬俱出上蔡東門逐狡兔，豈可得乎！」遂父子相哭，而夷三族。"
+          "quote_passage_ref": "data/corpus/shiji/087.json"
         }
       ],
       "qualifiers": {
@@ -152,8 +139,8 @@
           "chapter_id": "c-shiji-087-lisi",
           "source_id": "s-shiji-087-lisi",
           "paragraph_id": "c-shiji-087-lisi:p033",
-          "quote": "二世二年七月，具斯五刑，論腰斬咸陽市。斯出獄，與其中子俱執，顧謂其中子曰：「吾欲與若復牽黃犬俱出上蔡東門逐狡兔，豈可得乎！」遂父子相哭，而夷三族。",
-          "person_mention_id": "c-shiji-087-lisi:m033-0024"
+          "person_mention_id": "c-shiji-087-lisi:m033-0024",
+          "quote_passage_ref": "data/corpus/shiji/087.json"
         }
       ],
       "interpretation_note": "保存本篇死亡原語及敘述範圍；來源所傳不等於史實已獨立確證，未核書影，未知日期不補，不由死亡終止全部官爵。中子與父俱執及夷族原語支持同案死亡；不另補中子姓名、絕對排行或腰斬刑法，年月尚不單列。",

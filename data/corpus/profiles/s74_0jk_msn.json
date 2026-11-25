@@ -22,7 +22,6 @@
       "raw_count": 7,
       "duplicate_count": 0,
       "counting_policy": "independent_fixed_witness_occurrences",
-      "quote": "王行暴虐侈傲，國人謗王。召公諫曰：「民不堪命矣。」王怒，得衛巫，使監謗者，以告則殺之。其謗鮮矣，諸侯不朝。三十四年，王益嚴，國人莫敢言，道路以目。厲王喜，告召公曰：「吾能弭謗矣，乃不敢言。」召公曰：「是鄣之也。防民之口，甚於防水",
       "paragraph_ids": [
         "c-shiji-004-zhou:p034",
         "c-shiji-004-zhou:p035",
@@ -102,7 +101,12 @@
       "book_id": "b-shiji-004",
       "chapter_id": "c-shiji-004-zhou",
       "source_id": "s-shiji-004-zhou",
-      "work_title": "史記"
+      "work_title": "史記",
+      "chapter_ref": "data/corpus/shiji/004.json",
+      "quote_span": [
+        0,
+        114
+      ]
     },
     {
       "number": 9,
@@ -113,7 +117,6 @@
       "raw_count": 1,
       "duplicate_count": 0,
       "counting_policy": "independent_fixed_witness_occurrences",
-      "quote": "家内外所向三也加之耆艾紀綱邦國體練朝政論徳則過於吉甫樊仲課功則踰於方叔召虎凡此數者懿實兼之臣抱空名而處其右天下之人將謂臣以宗室見私知進而不知退陛下岐嶷克明克類如有以察臣之言臣以為宜以懿為太傅大司馬上昭陛下進賢之明中顯懿身文武之實下使愚臣免於誚謗於是帝使中書監劉放令孫資為詔曰",
       "paragraph_ids": [
         "c-sanguozhi-009-caozhen:p009"
       ],
@@ -137,7 +140,12 @@
       "book_id": "b-sanguozhi-009",
       "chapter_id": "c-sanguozhi-009-caozhen",
       "source_id": "s-sanguozhi-009-caozhen",
-      "work_title": "三國志"
+      "work_title": "三國志",
+      "chapter_ref": "data/corpus/sanguozhi/009-caozhen.json",
+      "quote_span": [
+        239,
+        376
+      ]
     },
     {
       "number": 61,
@@ -148,7 +156,6 @@
       "raw_count": 1,
       "duplicate_count": 0,
       "counting_policy": "independent_fixed_witness_occurrences",
-      "quote": "夫傅說之相高宗，申召之輔宣王，管仲之佐齊桓，衰范之翼晉文，或宗師其道，垂拱受成，委以權重，終至匡主，未有憂其逼己，還為國蠹者也。始田氏擅齊，王莽篡漢，皆藉封土之強，假累世之寵，因暗弱之主，資母后之權，樹比周之黨，階絕滅之",
       "paragraph_ids": [
         "c-jinshu-061-zhou-family:p010"
       ],
@@ -172,7 +179,12 @@
       "book_id": "b-jinshu-061",
       "chapter_id": "c-jinshu-061-zhou-family",
       "source_id": "s-jinshu-061-ws7903772",
-      "work_title": "晉書"
+      "work_title": "晉書",
+      "chapter_ref": "data/corpus/jinshu/061-zhou-family.json",
+      "quote_span": [
+        0,
+        110
+      ]
     }
   ],
   "table_occurrences": [],
@@ -182,112 +194,21 @@
       "work_id": "w-jinshu",
       "book_id": "b-jinshu-061",
       "source_id": "s-jinshu-061-ws7903772",
-      "source": {
-        "title": "晉書／卷061周浚及附周嵩、周謨、周馥完整單元",
-        "provider": "Wikisource",
-        "url": "https://zh.wikisource.org/w/index.php?title=%E6%99%89%E6%9B%B8%2F%E5%8D%B7061&oldid=7903772",
-        "permalink": "https://zh.wikisource.org/w/index.php?title=%E6%99%89%E6%9B%B8%2F%E5%8D%B7061&oldid=7903772",
-        "revision_id": 7903772,
-        "edition": null,
-        "accessed_on": "2026-10-20",
-        "raw_path": "sources/jinshu/wikisource-7903772-raw.wikitext",
-        "raw_file_sha256": "6e28403fc85f551b2aab898cac610180884ba0732a24a492f8ca514381b9978d",
-        "text_scope": "partial_chapter",
-        "review_status": "text_checked",
-        "license_url": "https://creativecommons.org/licenses/by-sa/4.0/",
-        "normalization": {
-          "description": "保數位原字；僅明示wiki wrappers及排版移除，完整raw與逐碼projection另存；未影像校勘。",
-          "omitted_digital_paratext": []
-        },
-        "extent": "周浚及嵩、謨、馥完整選定單元；固定見證25段4069字，止於成公簡前，不是卷六十一全卷。"
-      }
+      "chapter_ref": "data/corpus/jinshu/061-zhou-family.json"
     },
     {
       "chapter_id": "c-sanguozhi-009-caozhen",
       "work_id": "w-sanguozhi",
       "book_id": "b-sanguozhi-009",
       "source_id": "s-sanguozhi-009-caozhen",
-      "source": {
-        "title": "三國志卷九曹真曹爽完整本傳及裴注",
-        "provider": "Kanripo",
-        "url": "https://raw.githubusercontent.com/kanripo/KR2a0012/214fcafa79894355909c9d8c2c1533089e7791c6/KR2a0012_009.txt",
-        "permalink": "https://raw.githubusercontent.com/kanripo/KR2a0012/214fcafa79894355909c9d8c2c1533089e7791c6/KR2a0012_009.txt",
-        "revision_id": "214fcafa79894355909c9d8c2c1533089e7791c6",
-        "accessed_on": "2026-10-20",
-        "edition": "四庫全書數位固定見證；未核影像",
-        "extent": "固定原行309–563；564夏侯尚不含。",
-        "text_scope": "partial_chapter",
-        "review_status": "text_checked",
-        "image_verified": false,
-        "license_url": "https://github.com/kanripo/KR2a0012",
-        "rights": "古代正文與公開Kanripo轉錄",
-        "raw_sha256": "dd430a2e31130eb1c392b1e2a034686685fed0366ff713ece75226ba8cdedf03",
-        "normalization": {
-          "character_conversion": "none",
-          "extraction_note": "刪¶與頁標、合併行及移除注括號語法；保眀年即位、毛椽等原字。382–384行括號誤斷的連續注句按語義整段保為裴注，原始位元組另存。",
-          "excerpts": []
-        }
-      }
+      "chapter_ref": "data/corpus/sanguozhi/009-caozhen.json"
     },
     {
       "chapter_id": "c-shiji-004-zhou",
       "work_id": "w-shiji",
       "book_id": "b-shiji-004",
       "source_id": "s-shiji-004-zhou",
-      "source": {
-        "title": "史記／卷004",
-        "provider": "維基文庫",
-        "url": "https://zh.wikisource.org/wiki/史記/卷004",
-        "permalink": "https://zh.wikisource.org/w/index.php?title=史記/卷004&oldid=7909147",
-        "revision_id": 7909147,
-        "accessed_on": "2026-10-09",
-        "extent": "正文全文；排除註釋版導覽、現代節標題與註號；行內校勘標記另存。",
-        "image_verified": false,
-        "rights": "古代原文；數位轉錄依維基文庫 CC BY-SA 4.0，保留署名及固定版本。",
-        "license_url": "https://creativecommons.org/licenses/by-sa/4.0/",
-        "normalization": {
-          "character_conversion": {},
-          "editorial_readings": [
-            {
-              "paragraph_id": "c-shiji-004-zhou:p017",
-              "witness_form": "［左］",
-              "body_reading": "",
-              "note": "數位見證行內校勘標記另存；有兩讀時正文保存改讀前的字，不宣稱已完成校勘。"
-            },
-            {
-              "paragraph_id": "c-shiji-004-zhou:p039",
-              "witness_form": "（又作湦）",
-              "body_reading": "",
-              "note": "數位見證行內校勘標記另存；有兩讀時正文保存改讀前的字，不宣稱已完成校勘。"
-            },
-            {
-              "paragraph_id": "c-shiji-004-zhou:p074",
-              "witness_form": "（賀）［資］",
-              "body_reading": "賀",
-              "note": "數位見證行內校勘標記另存；有兩讀時正文保存改讀前的字，不宣稱已完成校勘。"
-            },
-            {
-              "paragraph_id": "c-shiji-004-zhou:p082",
-              "witness_form": "（最）［聚］",
-              "body_reading": "最",
-              "note": "數位見證行內校勘標記另存；有兩讀時正文保存改讀前的字，不宣稱已完成校勘。"
-            },
-            {
-              "paragraph_id": "c-shiji-004-zhou:p085",
-              "witness_form": "（西）",
-              "body_reading": "",
-              "note": "數位見證行內校勘標記另存；有兩讀時正文保存改讀前的字，不宣稱已完成校勘。"
-            },
-            {
-              "paragraph_id": "c-shiji-004-zhou:p086",
-              "witness_form": "（我）［於］",
-              "body_reading": "我",
-              "note": "數位見證行內校勘標記另存；有兩讀時正文保存改讀前的字，不宣稱已完成校勘。"
-            }
-          ],
-          "note": "有成對改讀標記時正文保留改讀前的字；校勘符號與異讀另存，不稱已核讀底本。保留古代異體與數位見證的疑讀。"
-        }
-      }
+      "chapter_ref": "data/corpus/shiji/004.json"
     }
   ],
   "relations": [],
@@ -307,19 +228,19 @@
       "evidence": [
         {
           "paragraph_id": "c-shiji-004-zhou:p023",
-          "quote": "成王在豐，使召公復營洛邑，如武王之意。周公復卜申視，卒營筑，居九鼎焉。曰：「此天下之中，四方入貢道里均。」作《召誥》、《洛誥》。成王既遷殷遺民，周公以王命告，作《多士》、《無佚》。召公為保，周公為師，東伐淮夷，殘奄，遷其君薄泵。成王自奄歸，在宗周，作《多方》。既絀殷命，襲淮夷，歸在豐，作《周官》。興正禮樂，度制於是改，而民和睦，頌聲興。成王既伐東夷，息慎來賀，王賜榮伯作《賄息慎之命》。",
           "chapter_id": "c-shiji-004-zhou",
           "work_id": "w-shiji",
           "book_id": "b-shiji-004",
-          "source_id": "s-shiji-004-zhou"
+          "source_id": "s-shiji-004-zhou",
+          "quote_passage_ref": "data/corpus/shiji/004.json"
         },
         {
           "paragraph_id": "c-shiji-004-zhou:p034",
-          "quote": "王行暴虐侈傲，國人謗王。召公諫曰：「民不堪命矣。」王怒，得衛巫，使監謗者，以告則殺之。其謗鮮矣，諸侯不朝。三十四年，王益嚴，國人莫敢言，道路以目。厲王喜，告召公曰：「吾能弭謗矣，乃不敢言。」召公曰：「是鄣之也。防民之口，甚於防水。水壅而潰，傷人必多，民亦如之。是故為水者決之使導，為民者宣之使言。故天子聽政，使公卿至於列士獻詩，瞽獻曲，史獻書，師箴，瞍賦，矇誦，百工諫，庶人傳語，近臣盡規，親戚補察，瞽史教誨，耆艾修之，而後王斟酌焉，是以事行而不悖。民之有口也，猶土之有山川也，財用於是乎出：猶其有原隰衍沃也，衣食於是乎生。口之宣言也，善敗於是乎興。行善而備敗，所以產財用衣食者也。夫民慮之於心而宣之於口，成而行之。若壅其口，其與能幾何？」王不聽。於是國莫敢出言，三年，乃相與畔，襲厲王。厲王出奔於彘。",
           "chapter_id": "c-shiji-004-zhou",
           "work_id": "w-shiji",
           "book_id": "b-shiji-004",
-          "source_id": "s-shiji-004-zhou"
+          "source_id": "s-shiji-004-zhou",
+          "quote_passage_ref": "data/corpus/shiji/004.json"
         }
       ],
       "rationale": "成王時與厲王時的召公按敘事時代分開；未以世襲稱呼推定為同一人。",

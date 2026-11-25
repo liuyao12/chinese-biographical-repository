@@ -23,7 +23,7 @@
           "chapter_id": "c-shiji-033-lu",
           "source_id": "s-shiji-033-lu",
           "paragraph_id": "c-shiji-033-lu:p062",
-          "quote": "十八年，成公卒，子午立，是爲襄公。是時襄公三歲也。"
+          "quote_passage_ref": "data/corpus/shiji/033.json"
         }
       ],
       "attestations": [
@@ -65,7 +65,6 @@
       "raw_count": 7,
       "duplicate_count": 0,
       "counting_policy": "independent_fixed_witness_occurrences",
-      "quote": "十八年，成公卒，子午立，是爲襄公。是時襄公三歲也。",
       "paragraph_ids": [
         "c-shiji-033-lu:p062",
         "c-shiji-033-lu:p063",
@@ -146,7 +145,12 @@
       "book_id": "b-shiji-033",
       "chapter_id": "c-shiji-033-lu",
       "source_id": "s-shiji-033-lu",
-      "work_title": "史記"
+      "work_title": "史記",
+      "chapter_ref": "data/corpus/shiji/033.json",
+      "quote_span": [
+        0,
+        25
+      ]
     },
     {
       "number": 39,
@@ -157,7 +161,6 @@
       "raw_count": 1,
       "duplicate_count": 0,
       "counting_policy": "independent_fixed_witness_occurrences",
-      "quote": "六年，魯襄公朝晉。晉欒逞有罪，奔齊。八年，齊莊公微遣欒逞於曲沃，以兵隨之。齊兵上太行，欒逞從曲沃中反，襲入絳。絳不戒，平公欲自殺，范獻子止公，以其徒撃逞，逞敗走曲沃。曲沃攻逞，逞死，遂滅欒氏宗。逞者，欒書孫也。其",
       "paragraph_ids": [
         "c-shiji-039-jin:p119"
       ],
@@ -181,7 +184,12 @@
       "book_id": "b-shiji-039",
       "chapter_id": "c-shiji-039-jin",
       "source_id": "s-shiji-039-jin",
-      "work_title": "史記"
+      "work_title": "史記",
+      "chapter_ref": "data/corpus/shiji/039.json",
+      "quote_span": [
+        0,
+        106
+      ]
     }
   ],
   "table_occurrences": [],
@@ -191,57 +199,14 @@
       "work_id": "w-shiji",
       "book_id": "b-shiji-033",
       "source_id": "s-shiji-033-lu",
-      "source": {
-        "title": "史記／魯周公世家",
-        "provider": "維基文庫",
-        "url": "https://zh.wikisource.org/wiki/史記/魯周公世家",
-        "permalink": "https://zh.wikisource.org/w/index.php?title=史記/魯周公世家&oldid=7909289",
-        "revision_id": 7909289,
-        "accessed_on": "2026-10-09",
-        "extent": "正文102個p區塊，自周公旦者至太史公論贊；排除導覽dd、現代版權告示及轉向頁。",
-        "image_verified": false,
-        "rights": "古代原文；數位轉錄依維基文庫CC BY-SA 4.0，保留署名及固定版本。",
-        "license_url": "https://creativecommons.org/licenses/by-sa/4.0/",
-        "normalization": {
-          "character_conversion": {
-            "笔": "筆",
-            "鸮": "鴞",
-            "龂": "齗",
-            "龁": "齕"
-          },
-          "editorial_readings": [],
-          "extraction_note": "卷033頁為轉向（版本2180467），實讀目標魯周公世家版本7909289。保留矦、歬、髙、爲等異體及校勘符號。",
-          "note": "固定正文與實讀HTML一致。筆昔疑讀未改作其他字；真公記事接武公九年，未補中間文字或武公名。全102段首輪，未核影像、底本及現代研究。"
-        }
-      }
+      "chapter_ref": "data/corpus/shiji/033.json"
     },
     {
       "chapter_id": "c-shiji-039-jin",
       "work_id": "w-shiji",
       "book_id": "b-shiji-039",
       "source_id": "s-shiji-039-jin",
-      "source": {
-        "title": "史記／卷039",
-        "provider": "維基文庫",
-        "url": "https://zh.wikisource.org/wiki/史記/卷039",
-        "permalink": "https://zh.wikisource.org/w/index.php?title=史記/卷039&oldid=2588534",
-        "revision_id": 2588534,
-        "accessed_on": "2026-10-09",
-        "extent": "142段正文，自晉唐叔虞至太史公論贊，另保留1段索隱述贊並分層；排除2個dd導覽及段首尾版面換行。",
-        "image_verified": false,
-        "rights": "古代原文；數位轉錄依維基文庫CC BY-SA 4.0，保留署名及固定版本。",
-        "license_url": "https://creativecommons.org/licenses/by-sa/4.0/",
-        "normalization": {
-          "character_conversion": {
-            "鲁": "魯",
-            "隐": "隱",
-            "绖": "絰"
-          },
-          "editorial_readings": [],
-          "extraction_note": "固定版本與實讀HTML一致。第14段鲁隐轉魯隱，第46、79段绖轉絰，去除段首尾換行，其餘古字、內外異說及校勘保留。",
-          "note": "同版原始標記亦作子胛桓叔，不默補代字或莊伯名字。保留冀芮／郤芮、郤鉤、欒逞、示瞇明、歩陽、郤臻、砹、六（卿）［軍］、［復］等見證字；未核可靠底本、影像或專門研究。"
-        }
-      }
+      "chapter_ref": "data/corpus/shiji/039.json"
     }
   ],
   "relations": [
@@ -256,7 +221,7 @@
           "chapter_id": "c-shiji-033-lu",
           "source_id": "s-shiji-033-lu",
           "paragraph_id": "c-shiji-033-lu:p062",
-          "quote": "十八年，成公卒，子午立，是爲襄公。是時襄公三歲也。"
+          "quote_passage_ref": "data/corpus/shiji/033.json"
         }
       ],
       "qualifiers": {
@@ -285,8 +250,8 @@
           "chapter_id": "c-shiji-033-lu",
           "source_id": "s-shiji-033-lu",
           "paragraph_id": "c-shiji-033-lu:p071",
-          "quote": "三十一年六月，襄公卒。其九月，太子卒。魯人立齊歸之子裯爲君，是爲昭公。",
-          "person_mention_id": "c-shiji-033-lu:m071-0007"
+          "person_mention_id": "c-shiji-033-lu:m071-0007",
+          "quote_passage_ref": "data/corpus/shiji/033.json"
         }
       ],
       "references": [
@@ -323,7 +288,7 @@
           "chapter_id": "c-shiji-033-lu",
           "source_id": "s-shiji-033-lu",
           "paragraph_id": "c-shiji-033-lu:p062",
-          "quote": "十八年，成公卒，子午立，是爲襄公。是時襄公三歲也。"
+          "quote_passage_ref": "data/corpus/shiji/033.json"
         }
       ],
       "qualifiers": {
@@ -347,8 +312,8 @@
           "chapter_id": "c-shiji-033-lu",
           "source_id": "s-shiji-033-lu",
           "paragraph_id": "c-shiji-033-lu:p071",
-          "quote": "三十一年六月，襄公卒。其九月，太子卒。魯人立齊歸之子裯爲君，是爲昭公。",
-          "person_mention_id": "c-shiji-033-lu:m071-0007"
+          "person_mention_id": "c-shiji-033-lu:m071-0007",
+          "quote_passage_ref": "data/corpus/shiji/033.json"
         }
       ],
       "source_term": "襄公卒",
@@ -368,8 +333,8 @@
             "chapter_id": "c-shiji-033-lu",
             "source_id": "s-shiji-033-lu",
             "paragraph_id": "c-shiji-033-lu:p071",
-            "quote": "三十一年六月，襄公卒。其九月，太子卒。魯人立齊歸之子裯爲君，是爲昭公。",
-            "person_mention_id": "c-shiji-033-lu:m071-0007"
+            "person_mention_id": "c-shiji-033-lu:m071-0007",
+            "quote_passage_ref": "data/corpus/shiji/033.json"
           }
         ],
         "references": [

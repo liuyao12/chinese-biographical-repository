@@ -21,7 +21,7 @@
           "chapter_id": "c-shiji-065-sun",
           "source_id": "s-shiji-065-sun",
           "paragraph_id": "c-shiji-065-sun:p002",
-          "quote": "孫武既死，後百餘歲有孫臏。臏生阿鄄之閒，臏亦孫武之後世子孫也。孫臏嘗與龐涓俱學兵法。龐涓既事魏，得為惠王將軍，而自以為能不及孫臏，乃陰使召孫臏。臏至，龐涓恐其賢於己，疾之，則以法刑斷其兩足而黥之，欲隱勿見。"
+          "quote_passage_ref": "data/corpus/shiji/065.json"
         }
       ],
       "attestations": [
@@ -63,7 +63,6 @@
       "raw_count": 1,
       "duplicate_count": 0,
       "counting_policy": "independent_fixed_witness_occurrences",
-      "quote": "阿鄄之閒，臏亦孫武之後世子孫也。孫臏嘗與龐涓俱學兵法。龐涓既事魏，得為惠王將軍，而自以為能不及孫臏，乃陰使召孫臏。臏至，龐涓恐其賢於己，疾之，則以法刑斷其兩足而黥之，欲隱勿見。",
       "paragraph_ids": [
         "c-shiji-065-sun:p002"
       ],
@@ -87,7 +86,12 @@
       "book_id": "b-shiji-065",
       "chapter_id": "c-shiji-065-sun",
       "source_id": "s-shiji-065-sun",
-      "work_title": "史記"
+      "work_title": "史記",
+      "chapter_ref": "data/corpus/shiji/065.json",
+      "quote_span": [
+        15,
+        103
+      ]
     }
   ],
   "table_occurrences": [],
@@ -97,24 +101,7 @@
       "work_id": "w-shiji",
       "book_id": "b-shiji-065",
       "source_id": "s-shiji-065-sun",
-      "source": {
-        "title": "史記／卷065",
-        "provider": "維基文庫",
-        "url": "https://zh.wikisource.org/wiki/史記/卷065",
-        "permalink": "https://zh.wikisource.org/w/index.php?title=史記/卷065&oldid=2567048",
-        "revision_id": 2567048,
-        "accessed_on": "2026-10-09",
-        "extent": "14段正文，排除註釋版及2段導覽，無索隱述贊。",
-        "image_verified": false,
-        "rights": "古代原文；數位轉錄依維基文庫CC BY-SA 4.0，保留署名及固定版本。",
-        "license_url": "https://creativecommons.org/licenses/by-sa/4.0/",
-        "normalization": {
-          "character_conversion": {},
-          "editorial_readings": [],
-          "extraction_note": "取得時HTML與固定修訂一致，只去外緣空白。已核（即封）是正文括號文字，原樣保留，不當新增授爵事件。保留控棬、搏撠、擣虛、鉆火、贏糧、戰鬬等原字。",
-          "note": "全14段已核讀，未核可靠底本、影像或現代研究。"
-        }
-      }
+      "chapter_ref": "data/corpus/shiji/065.json"
     }
   ],
   "relations": [],

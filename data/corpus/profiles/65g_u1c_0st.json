@@ -24,7 +24,7 @@
           "chapter_id": "c-shiji-051-jingyan",
           "source_id": "s-shiji-051-jingyan",
           "paragraph_id": "c-shiji-051-jingyan:p003",
-          "quote": "漢五年，漢王追項籍至固陵，使劉賈南渡淮圍壽春。還至，使人閒招楚大司馬周殷。周殷反楚，佐劉賈舉九江，迎武王黥布兵，皆會垓下，共擊項籍。漢王因使劉賈將九江兵，與太尉盧綰西南擊臨江王共尉。共尉已死，以臨江為南郡。"
+          "quote_passage_ref": "data/corpus/shiji/051.json"
         }
       ],
       "attestations": [
@@ -66,7 +66,7 @@
           "chapter_id": "c-shiji-051-jingyan",
           "source_id": "s-shiji-051-jingyan",
           "paragraph_id": "c-shiji-051-jingyan:p005",
-          "quote": "高祖十一年秋，淮南王黥布反，東擊荊。荊王賈與戰，不勝，走富陵，為布軍所殺。高祖自擊破布。十二年，立沛侯劉濞為吳王，王故荊地。"
+          "quote_passage_ref": "data/corpus/shiji/051.json"
         }
       ],
       "attestations": [
@@ -108,7 +108,6 @@
       "raw_count": 5,
       "duplicate_count": 0,
       "counting_policy": "independent_fixed_witness_occurrences",
-      "quote": "賈南渡淮圍壽春。還至，使人閒招楚大司馬周殷。周殷反楚，佐劉賈舉九江，迎武王黥布兵，皆會垓下，共擊項籍。漢王因使劉賈將九江兵，與太尉盧綰西南擊臨江王共尉。共尉已死，以臨江為南郡。",
       "paragraph_ids": [
         "c-shiji-051-jingyan:p003",
         "c-shiji-051-jingyan:p005",
@@ -170,7 +169,12 @@
       "book_id": "b-shiji-051",
       "chapter_id": "c-shiji-051-jingyan",
       "source_id": "s-shiji-051-jingyan",
-      "work_title": "史記"
+      "work_title": "史記",
+      "chapter_ref": "data/corpus/shiji/051.json",
+      "quote_span": [
+        15,
+        103
+      ]
     },
     {
       "number": 130,
@@ -181,7 +185,6 @@
       "raw_count": 1,
       "duplicate_count": 0,
       "counting_policy": "independent_fixed_witness_occurrences",
-      "quote": "維祖師旅，劉賈是與；為布所襲，喪其荊、吳。營陵激呂，乃王瑯邪；怵午信齊，往而不歸，遂西入關，遭立孝文，獲復王燕。天下未集，賈、澤以族，為漢藩輔。作荊燕世家第二十一。",
       "paragraph_ids": [
         "c-shiji-130-taishigong:p063"
       ],
@@ -205,7 +208,12 @@
       "book_id": "b-shiji-130",
       "chapter_id": "c-shiji-130-taishigong",
       "source_id": "s-shiji130-taishigong",
-      "work_title": "史記"
+      "work_title": "史記",
+      "chapter_ref": "data/corpus/shiji/130.json",
+      "quote_span": [
+        0,
+        82
+      ]
     }
   ],
   "table_occurrences": [],
@@ -215,48 +223,14 @@
       "work_id": "w-shiji",
       "book_id": "b-shiji-051",
       "source_id": "s-shiji-051-jingyan",
-      "source": {
-        "title": "史記／卷051",
-        "provider": "維基文庫",
-        "url": "https://zh.wikisource.org/wiki/史記/卷051",
-        "permalink": "https://zh.wikisource.org/w/index.php?title=史記/卷051&oldid=2380315",
-        "revision_id": 2380315,
-        "accessed_on": "2026-10-09",
-        "extent": "11段篇文及1段索隱述贊，保留末段行內索隱述贊標記。",
-        "image_verified": false,
-        "rights": "古代原文；數位轉錄依維基文庫CC BY-SA 4.0，保留署名及固定版本。",
-        "license_url": "https://creativecommons.org/licenses/by-sa/4.0/",
-        "normalization": {
-          "character_conversion": {},
-          "editorial_readings": [],
-          "extraction_note": "取得時HTML與固定修訂一致，只去外緣空白；保留［呂］、邸弟、瑯邪等原字及校勘字樣。",
-          "note": "全12段已讀並作明示人物首輪，索隱述贊另分層；未核底本、影像或現代研究。"
-        }
-      }
+      "chapter_ref": "data/corpus/shiji/051.json"
     },
     {
       "chapter_id": "c-shiji-130-taishigong",
       "work_id": "w-shiji",
       "book_id": "b-shiji-130",
       "source_id": "s-shiji130-taishigong",
-      "source": {
-        "title": "史記／卷130",
-        "provider": "維基文庫",
-        "url": "https://zh.wikisource.org/wiki/史記/卷130",
-        "permalink": "https://zh.wikisource.org/w/index.php?title=史記/卷130&oldid=2609362",
-        "revision_id": 2609362,
-        "accessed_on": "2026-10-11",
-        "extent": "固定修訂全文143段，全部篇文。",
-        "image_verified": false,
-        "rights": "古代原文；數位轉錄依維基文庫CC BY-SA 4.0，保留署名及固定版本。",
-        "license_url": "https://creativecommons.org/licenses/by-sa/4.0/",
-        "normalization": {
-          "character_conversion": {},
-          "editorial_readings": [],
-          "extraction_note": "去header2及現代節標，移除維基引文縮排冒號，保留原字，未核影像。",
-          "note": "全文入庫不等於全部提及已標註；目錄段落仍待逐段處理。"
-        }
-      }
+      "chapter_ref": "data/corpus/shiji/130.json"
     }
   ],
   "relations": [],

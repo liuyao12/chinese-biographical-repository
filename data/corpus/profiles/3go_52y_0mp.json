@@ -20,7 +20,6 @@
       "raw_count": 1,
       "duplicate_count": 0,
       "counting_policy": "independent_fixed_witness_occurrences",
-      "quote": "唫恒悲兮，永嘆慨兮。世既莫吾知兮，人心不可謂兮。懷情抱質兮，獨無匹兮。伯樂既歿兮，驥將焉程兮？人生稟命兮，各有所錯兮。定心廣志，餘何畏懼兮？曾傷爰哀，永嘆喟兮。世溷不吾知，心不可謂兮。知死不可讓兮，願勿愛兮。明以告君子兮，吾將以為類兮。」",
       "paragraph_ids": [
         "c-shiji-084-qujia:p016"
       ],
@@ -44,7 +43,12 @@
       "book_id": "b-shiji-084",
       "chapter_id": "c-shiji-084-qujia",
       "source_id": "s-shiji-084-qujia",
-      "work_title": "史記"
+      "work_title": "史記",
+      "chapter_ref": "data/corpus/shiji/084.json",
+      "quote_span": [
+        27,
+        146
+      ]
     }
   ],
   "table_occurrences": [],
@@ -54,77 +58,14 @@
       "work_id": "w-shiji",
       "book_id": "b-shiji-084",
       "source_id": "s-shiji-084-qujia",
-      "source": {
-        "title": "史記／卷084",
-        "provider": "維基文庫",
-        "url": "https://zh.wikisource.org/wiki/史記/卷084",
-        "permalink": "https://zh.wikisource.org/w/index.php?title=史記/卷084&oldid=1568305",
-        "revision_id": 1568305,
-        "accessed_on": "2026-10-09",
-        "extent": "33段正文，屈原、懷沙、賈生及篇末評論；索隱述贊另層待收。",
-        "image_verified": false,
-        "rights": "古代原文；數位轉錄依維基文庫CC BY-SA 4.0，保留署名及固定版本。",
-        "license_url": "https://creativecommons.org/licenses/by-sa/4.0/",
-        "normalization": {
-          "character_conversion": {
-            "铦": "銛",
-            "鸮": "鴞"
-          },
-          "editorial_readings": [
-            {
-              "paragraph_id": "c-shiji-084-qujia:p017",
-              "witness_form": "（投）［沈］",
-              "body_reading": "投",
-              "note": "數位增刪改讀提示另存，正文保留增改前形式，未核影像，不當已校定。"
-            },
-            {
-              "paragraph_id": "c-shiji-084-qujia:p025",
-              "witness_form": "（微）［徵］",
-              "body_reading": "微",
-              "note": "數位增刪改讀提示另存，正文保留增改前形式，未核影像，不當已校定。"
-            }
-          ],
-          "extraction_note": "固定HTML與取得時版本一致；兩項改讀前形投、微保留。正文去腳註標記[1]，註文另存。括號曰保留，簡體字形轉換明記。 第13至16段懷沙、第24至25段弔屈原賦及第27至29段服鳥賦按傳世正文次序保留，詩賦引古不視為敘事當時人物；第32段孝昭附述傳承仍待覆核。",
-          "note": "全33段正文與HTML篇界已核讀，明示姓名首輪已存；未核底本影像與現代研究。",
-          "digital_footnotes": [
-            {
-              "block_index": 8,
-              "anchor": "cite_ref-1",
-              "note_id": "cite_note-1",
-              "source_text": "纳",
-              "traditional_display": "納",
-              "character_conversion": {
-                "纳": "納"
-              },
-              "note": "數位腳註提示內讀為納；來源未附校勘書目，正文內不自行替換。"
-            }
-          ]
-        }
-      }
+      "chapter_ref": "data/corpus/shiji/084.json"
     },
     {
       "chapter_id": "c-shiji-117-xiangru",
       "work_id": "w-shiji",
       "book_id": "b-shiji-117",
       "source_id": "s-shiji117-xiangru",
-      "source": {
-        "title": "史記／卷117",
-        "provider": "維基文庫",
-        "url": "https://zh.wikisource.org/wiki/史記/卷117",
-        "permalink": "https://zh.wikisource.org/w/index.php?title=史記/卷117&oldid=10371549",
-        "revision_id": 10371549,
-        "accessed_on": "2026-10-11",
-        "extent": "固定修訂全文71段，包括賦、書與末段索隱述贊。",
-        "image_verified": false,
-        "rights": "古代原文；數位轉錄依維基文庫CC BY-SA 4.0，保留署名及固定版本。",
-        "license_url": "https://creativecommons.org/licenses/by-sa/4.0/",
-        "normalization": {
-          "character_conversion": {},
-          "editorial_readings": [],
-          "extraction_note": "去header2、目錄標記及現代節標；quote模板保留全文，br轉段落；罕字模板保留第一參數字形，描述未作正文；連結保留顯示字。未核影像。 移除防轉換控制外殼，保留內字云。",
-          "note": "第58段U+E0FA私用字缺字與頌中重句原樣保存，不猜補；末段索隱述贊分層。"
-        }
-      }
+      "chapter_ref": "data/corpus/shiji/117.json"
     }
   ],
   "relations": [],
@@ -145,12 +86,12 @@
         "chapter_id": "c-shiji-117-xiangru",
         "source_id": "s-shiji117-xiangru",
         "paragraph_id": "c-shiji-117-xiangru:p007",
-        "quote": "「『於是乃使專諸之倫，手格此獸。楚王乃駕馴駁之駟，乘雕玉之輿，靡魚須之橈旃，曳明月之珠旗，建干將之雄戟，左烏嗥之雕弓，右夏服之勁箭；陽子驂乘，纖阿為禦；案節未舒，即陵狡獸，轔邛邛，蹵距虛，軼野馬而𨎥騊駼，乘遺風而射遊騏；儵眒淒浰，靁動熛至，星流霆擊，弓不虛發，中必決眥，洞胷達腋，絕乎心繫，獲若雨獸，揜草蔽地。於是楚王乃弭節裴回，翱翔容與，覽乎陰林，觀壯士之暴怒，與猛獸之恐懼，徼𧮬受詘，殫睹衆物之變態。",
         "mention_ids": [
           "c-shiji-117-xiangru:m007-0066"
         ],
         "work_id": "w-shiji",
-        "book_id": "b-shiji-117"
+        "book_id": "b-shiji-117",
+        "quote_passage_ref": "data/corpus/shiji/117.json"
       },
       "alternatives": [
         {

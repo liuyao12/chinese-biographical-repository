@@ -21,7 +21,6 @@
       "raw_count": 3,
       "duplicate_count": 0,
       "counting_policy": "independent_fixed_witness_occurrences",
-      "quote": "侍郎領冀州從事出總庶事入為賓友衆務修理處斷無滯苻堅聞之徴為太子舍人辭以母疾不就左遷著作佐郎太原郝軒名知人稱宏有王佐之才近代所未有也堅亡避難齊魯間為丁零翟釗及晉叛將張願所留郝軒歎曰斯人也遇斯時不因扶揺之勢而與鴳雀飛沉豈不惜哉仕慕容垂為吏部郎尚書左丞髙陽内史所歴著稱立身雅正雖",
       "paragraph_ids": [
         "c-beishi-021-cuihong:p001"
       ],
@@ -63,7 +62,12 @@
       "book_id": "b-beishi-021",
       "chapter_id": "c-beishi-021-cuihong",
       "source_id": "s-beishi-021-cuihong",
-      "work_title": "北史"
+      "work_title": "北史",
+      "chapter_ref": "data/corpus/beishi/021-cuihong.json",
+      "quote_span": [
+        73,
+        209
+      ]
     },
     {
       "number": 24,
@@ -74,7 +78,6 @@
       "raw_count": 3,
       "duplicate_count": 0,
       "counting_policy": "independent_fixed_witness_occurrences",
-      "quote": "管征東記室出總庶事入為賔友衆務修理處斷無滯苻堅聞而竒之徵為太子舍人辭以母疾不就左遷著作佐郎苻丕牧冀州為征東功曹太原郝軒世名知人稱𤣥伯有王佐之才近代所未有也堅亡避難於齊魯之間為丁零翟釗及司馬昌明叛將張願所留縶郝軒歎曰斯人而遇斯時不因扶摇之勢而與鷃雀飛沉豈不惜哉慕容垂以為吏部",
       "paragraph_ids": [
         "c-weishu-weishou-024-cuixuanbo:p001",
         "c-weishu-weishou-024-cuixuanbo:p004",
@@ -118,7 +121,12 @@
       "book_id": "b-weishu-weishou-024",
       "chapter_id": "c-weishu-weishou-024-cuixuanbo",
       "source_id": "s-weishu-weishou-024-cuixuanbo",
-      "work_title": "魏書（魏收）"
+      "work_title": "魏書（魏收）",
+      "chapter_ref": "data/corpus/weishu-weishou/024-cuixuanbo.json",
+      "quote_span": [
+        88,
+        224
+      ]
     }
   ],
   "table_occurrences": [],
@@ -128,60 +136,14 @@
       "work_id": "w-beishi",
       "book_id": "b-beishi-021",
       "source_id": "s-beishi-021-cuihong",
-      "source": {
-        "title": "北史／卷二十一／崔宏",
-        "provider": "Kanripo WYG",
-        "url": "https://raw.githubusercontent.com/kanripo/KR2a0025/1a20a4b4c6ed0200ac8c1638634ec610bdea2eea/KR2a0025_021.txt",
-        "permalink": "https://raw.githubusercontent.com/kanripo/KR2a0025/1a20a4b4c6ed0200ac8c1638634ec610bdea2eea/KR2a0025_021.txt",
-        "revision_id": "1a20a4b4c6ed0200ac8c1638634ec610bdea2eea",
-        "source_commit": "1a20a4b4c6ed0200ac8c1638634ec610bdea2eea",
-        "source_blob": "8b114d5885cb7762ebe6ff0f9d672a4bedfd3175",
-        "raw_file_sha256": "f0b9178df723b132cddb2bb09b1d276c143171d9154cb40a0c75987603ec8eb6",
-        "raw_path": "sources/beishi/KR2a0025_021-1a20a4b.txt",
-        "accessed_on": "2026-10-19",
-        "edition": "文淵閣四庫全書數位轉錄；未圖校",
-        "extent": "raw55–120宏完整單元，121浩字伯深起未收；非北史全卷",
-        "text_scope": "partial_chapter",
-        "review_status": "text_checked",
-        "image_verified": false,
-        "license_url": "https://creativecommons.org/publicdomain/mark/1.0/",
-        "rights": "古籍原文；固定Kanripo數位見證",
-        "normalization": {
-          "character_conversion": {},
-          "extraction_note": "只去物理空白、¶與頁標；逐字座標保存，不改元伯/𤣥伯、悦/恱/悅、誅等源字。",
-          "excerpts": []
-        }
-      }
+      "chapter_ref": "data/corpus/beishi/021-cuihong.json"
     },
     {
       "chapter_id": "c-weishu-weishou-024-cuixuanbo",
       "work_id": "w-weishu-weishou",
       "book_id": "b-weishu-weishou-024",
       "source_id": "s-weishu-weishou-024-cuixuanbo",
-      "source": {
-        "title": "魏書／卷二十四／崔𤣥伯",
-        "provider": "Kanripo WYG",
-        "url": "https://raw.githubusercontent.com/kanripo/KR2a0020/17b6525eb5aaa878b9640f5a61e90da934ce5fc4/KR2a0020_024.txt",
-        "permalink": "https://raw.githubusercontent.com/kanripo/KR2a0020/17b6525eb5aaa878b9640f5a61e90da934ce5fc4/KR2a0020_024.txt",
-        "revision_id": "17b6525eb5aaa878b9640f5a61e90da934ce5fc4",
-        "source_commit": "17b6525eb5aaa878b9640f5a61e90da934ce5fc4",
-        "source_blob": "7af3a614996d40af52d5b8fefc3c79dd18022fff",
-        "raw_file_sha256": "be3d212cef7e47f3d64ee8089e95bc4d7ae37af28022ea6883e1ca8a0a57df5a",
-        "raw_path": "sources/weishu-weishou/KR2a0020_024-17b6525.txt",
-        "accessed_on": "2026-10-19",
-        "edition": "文淵閣四庫全書數位轉錄；未圖校",
-        "extent": "raw244至357首字惜；完整本傳及簡恬徽，不含崔寛等後續附支／卷末史評／清考證",
-        "text_scope": "partial_chapter",
-        "review_status": "text_checked",
-        "image_verified": false,
-        "license_url": "https://creativecommons.org/publicdomain/mark/1.0/",
-        "rights": "古籍原文；固定Kanripo數位見證",
-        "normalization": {
-          "character_conversion": {},
-          "extraction_note": "只去物理空白、¶與頁標；逐字座標保存，不改元伯/𤣥伯、悦/恱/悅、誅等源字。",
-          "excerpts": []
-        }
-      }
+      "chapter_ref": "data/corpus/weishu-weishou/024-cuixuanbo.json"
     }
   ],
   "relations": [],
@@ -206,8 +168,8 @@
           "chapter_id": "c-weishu-weishou-024-cuixuanbo",
           "source_id": "s-weishu-weishou-024-cuixuanbo",
           "paragraph_id": "c-weishu-weishou-024-cuixuanbo:p005",
-          "quote": "及置八部大夫以擬八坐𤣥伯通署三十六曹如令僕統事深為太祖所任勢傾朝廷而儉約自居不營産業家徒四壁出無車乗朝晡步上母年七十供養無重膳太祖嘗使人密察聞而益重之厚加饋賜時人亦或譏其過約而𤣥伯為之踰甚太祖常引問古今舊事王者制度治世之則𤣥伯陳古人制作之體及明君賢臣往代廢興之由甚合上意未嘗謇諤忤㫖亦不諂諛茍容及太祖季年大臣多犯威怒𤣥伯獨無譴者由於此也",
-          "person_mention_id": "c-weishu-weishou-024-cuixuanbo:p005:m0054"
+          "person_mention_id": "c-weishu-weishou-024-cuixuanbo:p005:m0054",
+          "quote_passage_ref": "data/corpus/weishu-weishou/024-cuixuanbo.json"
         }
       ],
       "interpretation_note": "原語 母年七十。 不由死亡截止全部官職，不補生日或缺年。",

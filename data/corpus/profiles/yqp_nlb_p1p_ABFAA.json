@@ -22,7 +22,7 @@
           "chapter_id": "c-shiji-052-qidaohui",
           "source_id": "s-shiji-052-qidaohui",
           "paragraph_id": "c-shiji-052-qidaohui:p034",
-          "quote": "共王八年，徙王淮南。四年，復還王城陽。凡三十三年卒，子［建］延立，是為頃王。"
+          "quote_passage_ref": "data/corpus/shiji/052.json"
         }
       ],
       "attestations": [
@@ -62,8 +62,8 @@
             "chapter_id": "c-shiji-052-qidaohui",
             "source_id": "s-shiji-052-qidaohui",
             "paragraph_id": "c-shiji-052-qidaohui:p035",
-            "quote": "頃王二十八年卒，子義立，是為敬王。敬王九年卒，子武立，是為惠王。惠王十一年卒，子順立，是為荒王。荒王四十六年卒，子恢立，是為戴王。戴王八年卒，子景立，至建始三年，十五歲，卒。",
-            "person_mention_id": "c-shiji-052-qidaohui:m035-0000"
+            "person_mention_id": "c-shiji-052-qidaohui:m035-0000",
+            "quote_passage_ref": "data/corpus/shiji/052.json"
           }
         ]
       },
@@ -81,7 +81,6 @@
       "raw_count": 3,
       "duplicate_count": 0,
       "counting_policy": "independent_fixed_witness_occurrences",
-      "quote": "共王八年，徙王淮南。四年，復還王城陽。凡三十三年卒，子［建］延立，是為頃王。",
       "paragraph_ids": [
         "c-shiji-052-qidaohui:p034",
         "c-shiji-052-qidaohui:p035"
@@ -124,7 +123,12 @@
       "book_id": "b-shiji-052",
       "chapter_id": "c-shiji-052-qidaohui",
       "source_id": "s-shiji-052-qidaohui",
-      "work_title": "史記"
+      "work_title": "史記",
+      "chapter_ref": "data/corpus/shiji/052.json",
+      "quote_span": [
+        0,
+        38
+      ]
     }
   ],
   "table_occurrences": [],
@@ -134,24 +138,7 @@
       "work_id": "w-shiji",
       "book_id": "b-shiji-052",
       "source_id": "s-shiji-052-qidaohui",
-      "source": {
-        "title": "史記／卷052",
-        "provider": "維基文庫",
-        "url": "https://zh.wikisource.org/wiki/史記/卷052",
-        "permalink": "https://zh.wikisource.org/w/index.php?title=史記/卷052&oldid=5977113",
-        "revision_id": 5977113,
-        "accessed_on": "2026-10-09",
-        "extent": "44段篇文及1段索隱述贊，數位分節欄題不作古文段落。",
-        "image_verified": false,
-        "rights": "古代原文；數位轉錄依維基文庫CC BY-SA 4.0，保留署名及固定版本。",
-        "license_url": "https://creativecommons.org/licenses/by-sa/4.0/",
-        "normalization": {
-          "character_conversion": {},
-          "editorial_readings": [],
-          "extraction_note": "取得時HTML與固定修訂一致，只去外緣空白；保留衛衛王、高后立諸呂諸呂、（西）［迺］、［建］延、硃虛等原字與校勘字樣，不擅刪重字或選讀法。",
-          "note": "全45段已讀並作明示人物首輪；未核底本、影像或現代研究。"
-        }
-      }
+      "chapter_ref": "data/corpus/shiji/052.json"
     }
   ],
   "relations": [
@@ -166,7 +153,7 @@
           "chapter_id": "c-shiji-052-qidaohui",
           "source_id": "s-shiji-052-qidaohui",
           "paragraph_id": "c-shiji-052-qidaohui:p034",
-          "quote": "共王八年，徙王淮南。四年，復還王城陽。凡三十三年卒，子［建］延立，是為頃王。"
+          "quote_passage_ref": "data/corpus/shiji/052.json"
         }
       ],
       "qualifiers": {
@@ -187,7 +174,7 @@
           "chapter_id": "c-shiji-052-qidaohui",
           "source_id": "s-shiji-052-qidaohui",
           "paragraph_id": "c-shiji-052-qidaohui:p035",
-          "quote": "頃王二十八年卒，子義立，是為敬王。敬王九年卒，子武立，是為惠王。惠王十一年卒，子順立，是為荒王。荒王四十六年卒，子恢立，是為戴王。戴王八年卒，子景立，至建始三年，十五歲，卒。"
+          "quote_passage_ref": "data/corpus/shiji/052.json"
         }
       ],
       "qualifiers": {
@@ -220,7 +207,7 @@
           "chapter_id": "c-shiji-052-qidaohui",
           "source_id": "s-shiji-052-qidaohui",
           "paragraph_id": "c-shiji-052-qidaohui:p034",
-          "quote": "共王八年，徙王淮南。四年，復還王城陽。凡三十三年卒，子［建］延立，是為頃王。"
+          "quote_passage_ref": "data/corpus/shiji/052.json"
         }
       ],
       "qualifiers": {
@@ -241,7 +228,7 @@
           "chapter_id": "c-shiji-052-qidaohui",
           "source_id": "s-shiji-052-qidaohui",
           "paragraph_id": "c-shiji-052-qidaohui:p035",
-          "quote": "頃王二十八年卒，子義立，是為敬王。敬王九年卒，子武立，是為惠王。惠王十一年卒，子順立，是為荒王。荒王四十六年卒，子恢立，是為戴王。戴王八年卒，子景立，至建始三年，十五歲，卒。"
+          "quote_passage_ref": "data/corpus/shiji/052.json"
         }
       ],
       "qualifiers": {
@@ -279,8 +266,8 @@
           "chapter_id": "c-shiji-052-qidaohui",
           "source_id": "s-shiji-052-qidaohui",
           "paragraph_id": "c-shiji-052-qidaohui:p035",
-          "quote": "頃王二十八年卒，子義立，是為敬王。敬王九年卒，子武立，是為惠王。惠王十一年卒，子順立，是為荒王。荒王四十六年卒，子恢立，是為戴王。戴王八年卒，子景立，至建始三年，十五歲，卒。",
-          "person_mention_id": "c-shiji-052-qidaohui:m035-0000"
+          "person_mention_id": "c-shiji-052-qidaohui:m035-0000",
+          "quote_passage_ref": "data/corpus/shiji/052.json"
         }
       ],
       "source_term": "頃王二十八年卒",

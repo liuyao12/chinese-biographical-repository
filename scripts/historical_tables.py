@@ -170,8 +170,13 @@ def validate_identity_evidence(mention, root=ROOT, cache=None, allow_legacy=Fals
             catalog = json.loads(catalog_path.read_text())
             entry = next((c for c in catalog['chapters'] if c['book_id'] == book and c['chapter_id'] == evidence['chapter_id']),None)
             assert entry, '表格同指證據的卷篇未列於所屬著作'
-            path = (root/entry['path']).resolve()
-            assert path.is_relative_to((root/'data/corpus').resolve()) and path.suffix == '.json'
+            relative = Path(entry['path'])
+            assert relative.parent == Path('data/corpus') / work['id'].removeprefix('w-')
+            assert relative.suffix == '.json'
+            public = root.resolve() / relative
+            path = public.resolve()
+            native = root.resolve() / relative.relative_to('data')
+            assert path == public or path == native
         key = (book,evidence['chapter_id'])
         if key not in cache:
             cache[key] = json.loads(path.read_text())

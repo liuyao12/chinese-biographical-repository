@@ -21,7 +21,6 @@
       "raw_count": 8,
       "duplicate_count": 0,
       "counting_policy": "independent_fixed_witness_occurrences",
-      "quote": "始浩與冀州刺史頤滎陽太守模等年皆相次浩為長次模次頤三人别祖而模頤為親浩恃其家世魏晉公卿常侮模頤模謂人曰桃簡正可欺我何合輕我家周兒也浩小名桃簡頤小名周兒世祖頗聞之故誅浩時二家獲免浩既不信佛道模深所歸向每雖糞土之中禮拜形像浩大笑之",
       "paragraph_ids": [
         "c-weishu-weishou-035-cuihao:p033"
       ],
@@ -108,7 +107,12 @@
       "book_id": "b-weishu-weishou-035",
       "chapter_id": "c-weishu-weishou-035-cuihao",
       "source_id": "s-weishu-weishou-035-cuihao",
-      "work_title": "魏書（魏收）"
+      "work_title": "魏書（魏收）",
+      "chapter_ref": "data/corpus/weishu-weishou/035-cuihao.json",
+      "quote_span": [
+        0,
+        113
+      ]
     }
   ],
   "table_occurrences": [],
@@ -118,29 +122,7 @@
       "work_id": "w-weishu-weishou",
       "book_id": "b-weishu-weishou-035",
       "source_id": "s-weishu-weishou-035-cuihao",
-      "source": {
-        "title": "魏書／卷三十五／崔浩",
-        "provider": "Kanripo WYG",
-        "url": "https://raw.githubusercontent.com/kanripo/KR2a0020/17b6525eb5aaa878b9640f5a61e90da934ce5fc4/KR2a0020_035.txt",
-        "permalink": "https://raw.githubusercontent.com/kanripo/KR2a0020/17b6525eb5aaa878b9640f5a61e90da934ce5fc4/KR2a0020_035.txt",
-        "revision_id": "17b6525eb5aaa878b9640f5a61e90da934ce5fc4",
-        "source_commit": "17b6525eb5aaa878b9640f5a61e90da934ce5fc4",
-        "raw_file_sha256": "190464d83516b3ce4ba11cfcde8cf2a25714bf0acfa86ec67bbf54c46fbc1422",
-        "raw_path": "sources/weishu-weishou/KR2a0020_035-17b6525.txt",
-        "accessed_on": "2026-10-20",
-        "edition": "文淵閣四庫全書數位轉錄；未圖校",
-        "extent": "完整崔浩本傳、史臣論及附清考證；不含空白、卷題、頁標",
-        "text_scope": "complete_chapter",
-        "review_status": "text_checked",
-        "image_verified": false,
-        "license_url": "https://creativecommons.org/publicdomain/mark/1.0/",
-        "rights": "古籍原文；固定Kanripo數位見證",
-        "normalization": {
-          "character_conversion": {},
-          "extraction_note": "只去物理空白、¶、頁標；原字及一對一座標保留。",
-          "excerpts": []
-        }
-      }
+      "chapter_ref": "data/corpus/weishu-weishou/035-cuihao.json"
     }
   ],
   "relations": [
@@ -172,10 +154,10 @@
           "chapter_id": "c-weishu-weishou-035-cuihao",
           "source_id": "s-weishu-weishou-035-cuihao",
           "paragraph_id": "c-weishu-weishou-035-cuihao:p033",
-          "quote": "始浩與冀州刺史頤滎陽太守模等年皆相次浩為長次模次頤三人别祖而模頤為親浩恃其家世魏晉公卿常侮模頤模謂人曰桃簡正可欺我何合輕我家周兒也浩小名桃簡頤小名周兒世祖頗聞之故誅浩時二家獲免浩既不信佛道模深所歸向每雖糞土之中禮拜形像浩大笑之云持此頭顱不淨處跪是胡神也",
           "subject_person_mention_id": "c-weishu-weishou-035-cuihao:p033:m0030",
           "object_person_mention_id": "c-weishu-weishou-035-cuihao:p033:m0031",
-          "person_mention_id": "c-weishu-weishou-035-cuihao:p033:m0030"
+          "person_mention_id": "c-weishu-weishou-035-cuihao:p033:m0030",
+          "quote_passage_ref": "data/corpus/weishu-weishou/035-cuihao.json"
         }
       ]
     }
@@ -218,10 +200,10 @@
           "chapter_id": "c-weishu-weishou-035-cuihao",
           "source_id": "s-weishu-weishou-035-cuihao",
           "paragraph_id": "c-weishu-weishou-035-cuihao:p033",
-          "quote": "始浩與冀州刺史頤滎陽太守模等年皆相次浩為長次模次頤三人别祖而模頤為親浩恃其家世魏晉公卿常侮模頤模謂人曰桃簡正可欺我何合輕我家周兒也浩小名桃簡頤小名周兒世祖頗聞之故誅浩時二家獲免浩既不信佛道模深所歸向每雖糞土之中禮拜形像浩大笑之云持此頭顱不淨處跪是胡神也",
           "subject_person_mention_id": "c-weishu-weishou-035-cuihao:p033:m0030",
           "object_person_mention_id": "c-weishu-weishou-035-cuihao:p033:m0031",
-          "person_mention_id": "c-weishu-weishou-035-cuihao:p033:m0030"
+          "person_mention_id": "c-weishu-weishou-035-cuihao:p033:m0030",
+          "quote_passage_ref": "data/corpus/weishu-weishou/035-cuihao.json"
         }
       ]
     }

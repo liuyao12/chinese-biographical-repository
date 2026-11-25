@@ -26,8 +26,8 @@
           "chapter_id": "c-shiji-043-zhao",
           "source_id": "s-shiji-043-zhao",
           "paragraph_id": "c-shiji-043-zhao:p032",
-          "quote": "晉定公十八年，趙簡子圍范、中行于朝歌，中行文子奔邯鄲。明年，衞靈公卒。簡子與陽虎送衞太子蒯聵于衞，衞不内，居戚。",
-          "person_mention_id": "c-shiji-043-zhao:m032-0019"
+          "person_mention_id": "c-shiji-043-zhao:m032-0019",
+          "quote_passage_ref": "data/corpus/shiji/043.json"
         }
       ],
       "source_term": "中行文子奔邯鄲",
@@ -53,8 +53,8 @@
           "chapter_id": "c-shiji-043-zhao",
           "source_id": "s-shiji-043-zhao",
           "paragraph_id": "c-shiji-043-zhao:p033",
-          "quote": "晉定公二十一年，簡子拔邯鄲，中行文子奔柏人。簡子又圍柏人，中行文子、范昭子遂奔齊。趙竟有邯鄲、柏人。范、中行餘邑入于晉。趙名晉卿，實專晉權，奉邑侔於諸侯。",
-          "person_mention_id": "c-shiji-043-zhao:m033-0014"
+          "person_mention_id": "c-shiji-043-zhao:m033-0014",
+          "quote_passage_ref": "data/corpus/shiji/043.json"
         }
       ],
       "source_term": "中行文子奔柏人",
@@ -80,8 +80,8 @@
           "chapter_id": "c-shiji-043-zhao",
           "source_id": "s-shiji-043-zhao",
           "paragraph_id": "c-shiji-043-zhao:p033",
-          "quote": "晉定公二十一年，簡子拔邯鄲，中行文子奔柏人。簡子又圍柏人，中行文子、范昭子遂奔齊。趙竟有邯鄲、柏人。范、中行餘邑入于晉。趙名晉卿，實專晉權，奉邑侔於諸侯。",
-          "person_mention_id": "c-shiji-043-zhao:m033-0014"
+          "person_mention_id": "c-shiji-043-zhao:m033-0014",
+          "quote_passage_ref": "data/corpus/shiji/043.json"
         }
       ],
       "source_term": "中行文子、范昭子遂奔齊",
@@ -102,7 +102,6 @@
       "raw_count": 3,
       "duplicate_count": 0,
       "counting_policy": "independent_fixed_witness_occurrences",
-      "quote": "晉定公十八年，趙簡子圍范、中行于朝歌，中行文子奔邯鄲。明年，衞靈公卒。簡子與陽虎送衞太子蒯聵于衞，衞不内，居戚。",
       "paragraph_ids": [
         "c-shiji-043-zhao:p032",
         "c-shiji-043-zhao:p033"
@@ -145,7 +144,12 @@
       "book_id": "b-shiji-043",
       "chapter_id": "c-shiji-043-zhao",
       "source_id": "s-shiji-043-zhao",
-      "work_title": "史記"
+      "work_title": "史記",
+      "chapter_ref": "data/corpus/shiji/043.json",
+      "quote_span": [
+        0,
+        56
+      ]
     }
   ],
   "table_occurrences": [
@@ -153,7 +157,6 @@
       "table_id": "shiji-015",
       "cell_id": "shiji-015-r013-c08",
       "title": "《史記·六國年表》",
-      "quote": "十七。救鄭，晉師去。中行文子謂田常：「乃今知所以亡。」",
       "year": {
         "era": "BCE",
         "value": 464,
@@ -176,7 +179,8 @@
       "book_id": "b-shiji-015",
       "chapter_id": "table-chapter-shiji-015",
       "source_id": "table-witness-shiji-015",
-      "source_revision": "2607002"
+      "source_revision": "2607002",
+      "quote_ref": "cell"
     }
   ],
   "sources": [
@@ -185,47 +189,14 @@
       "work_id": "w-shiji",
       "book_id": "b-shiji-043",
       "source_id": "s-shiji-043-zhao",
-      "source": {
-        "title": "史記／卷043",
-        "provider": "維基文庫",
-        "url": "https://zh.wikisource.org/wiki/史記/卷043",
-        "permalink": "https://zh.wikisource.org/w/index.php?title=史記/卷043&oldid=7903603",
-        "revision_id": 7903603,
-        "accessed_on": "2026-10-09",
-        "extent": "121段正文及1段分層索隱述贊；排除2個dd導覽，只去除段落外緣空白。",
-        "image_verified": false,
-        "rights": "古代原文；數位轉錄依維基文庫CC BY-SA 4.0，保留署名及固定版本。",
-        "license_url": "https://creativecommons.org/licenses/by-sa/4.0/",
-        "normalization": {
-          "character_conversion": {},
-          "editorial_readings": [],
-          "extraction_note": "固定修訂與取得時HTML一致；保留古代異體及五世而（生）［至］趙夙等校勘符號。造父以下六世與叔帶以下五世不補闕代。",
-          "note": "已讀全121段數位正文及1段附載索隱述贊，後者另層保存；未核古籍影像、可靠底本或現代研究，首輪不是完成覆核。"
-        }
-      }
+      "chapter_ref": "data/corpus/shiji/043.json"
     },
     {
       "chapter_id": "table-chapter-shiji-015",
       "work_id": "w-shiji",
       "book_id": "b-shiji-015",
       "source_id": "table-witness-shiji-015",
-      "source": {
-        "id": "table-witness-shiji-015",
-        "work_id": "w-shiji",
-        "book_id": "b-shiji-015",
-        "chapter_id": "table-chapter-shiji-015",
-        "url": "https://zh.wikisource.org/wiki/史記/卷015",
-        "revision_url": "https://zh.wikisource.org/w/index.php?title=史記/卷015&oldid=2607002",
-        "revision": "2607002",
-        "accessed": "2026-10-12",
-        "response_sha256": "eb0624a019e02c24ce90a40bfa24863f4020878062c6e2efea32355033be5559",
-        "edition": null,
-        "image_verified": false,
-        "rights": "古籍正文公有領域；維基文庫轉錄及編輯內容依 CC BY-SA 條款，署名維基文庫貢獻者。",
-        "rights_url": "https://zh.wikisource.org/wiki/Wikisource:版權信息",
-        "review_status": "agent_first_pass_named_entities",
-        "note": "完整數位表格結構匯入，未逐格學術覆核。未核讀印本影像，原印本頁碼未知。西元欄沿用此數位轉錄的編者對照，不是古籍原有西元紀年，也不引用其維基百科外連。"
-      }
+      "table_source_ref": "shiji-015"
     }
   ],
   "relations": [],

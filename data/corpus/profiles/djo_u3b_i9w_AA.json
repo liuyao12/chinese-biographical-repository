@@ -22,7 +22,6 @@
       "raw_count": 3,
       "duplicate_count": 0,
       "counting_policy": "independent_fixed_witness_occurrences",
-      "quote": "子涓，亦有美名，咸安初，桓溫廢太宰、武陵王晞，誣涓及庾倩與晞謀反，害之。",
       "paragraph_ids": [
         "c-jinshu-077-yinhao:p012"
       ],
@@ -64,7 +63,12 @@
       "book_id": "b-jinshu-077",
       "chapter_id": "c-jinshu-077-yinhao",
       "source_id": "s-jinshu-077-yinhao",
-      "work_title": "晉書"
+      "work_title": "晉書",
+      "chapter_ref": "data/corpus/jinshu/077-yinhao.json",
+      "quote_span": [
+        0,
+        36
+      ]
     },
     {
       "number": 98,
@@ -75,7 +79,6 @@
       "raw_count": 4,
       "duplicate_count": 0,
       "counting_policy": "independent_fixed_witness_occurrences",
-      "quote": "事，甲仗百人入殿，賜錢五千萬，絹二萬匹，布十萬匹。溫多所廢徒，誅庾倩、殷涓、曹秀等。是時溫威勢翕赫，侍中謝安見而遙拜，溫驚曰：「安石，卿何事乃爾！」安曰：「未有君拜於前，臣揖於後。」時溫有腳疾，詔乘輿入朝，既見，欲陳廢立本意，帝便泣下數十行，溫兢懼，不得一言而出。",
       "paragraph_ids": [
         "c-jinshu-098-huanwen:p024",
         "c-jinshu-098-huanwen:p028"
@@ -127,7 +130,12 @@
       "book_id": "b-jinshu-098",
       "chapter_id": "c-jinshu-098-huanwen",
       "source_id": "s-jinshu-098-ws2614273",
-      "work_title": "晉書"
+      "work_title": "晉書",
+      "chapter_ref": "data/corpus/jinshu/098-huanwen.json",
+      "quote_span": [
+        63,
+        195
+      ]
     }
   ],
   "table_occurrences": [],
@@ -137,56 +145,14 @@
       "work_id": "w-jinshu",
       "book_id": "b-jinshu-077",
       "source_id": "s-jinshu-077-yinhao",
-      "source": {
-        "title": "晉書/卷077",
-        "provider": "維基文庫",
-        "url": "https://zh.wikisource.org/w/index.php?title=%E6%99%89%E6%9B%B8%2F%E5%8D%B7077&oldid=8750392",
-        "permalink": "https://zh.wikisource.org/w/index.php?title=%E6%99%89%E6%9B%B8%2F%E5%8D%B7077&oldid=8750392",
-        "revision_id": "8750392",
-        "accessed_on": "2026-10-19",
-        "edition": "固定數位原文；未圖像核驗",
-        "extent": "殷浩完整本傳；不稱全卷完成，不含其他本傳／附傳",
-        "text_scope": "partial_chapter",
-        "review_status": "text_checked",
-        "image_verified": false,
-        "rights": "古代正文；數位轉錄保留來源歸屬",
-        "license_url": "https://creativecommons.org/licenses/by-sa/4.0/",
-        "normalization": {
-          "character_conversion": "none",
-          "extraction_note": "008除頁碼連接同一完整紀年；077僅去除維基排版前綴，原字／標點不校改。"
-        }
-      }
+      "chapter_ref": "data/corpus/jinshu/077-yinhao.json"
     },
     {
       "chapter_id": "c-jinshu-098-huanwen",
       "work_id": "w-jinshu",
       "book_id": "b-jinshu-098",
       "source_id": "s-jinshu-098-ws2614273",
-      "source": {
-        "provider": "Wikisource",
-        "revision_id": 2614273,
-        "permalink": "https://zh.wikisource.org/w/index.php?title=晉書/卷098&oldid=2614273",
-        "edition": null,
-        "image_verified": false,
-        "qualification": "固定數位傳世文字見證；未親核底本或影像，校勘ref另層。",
-        "selected_raw_start": 8177,
-        "selected_raw_end": 14871,
-        "extent": "完整選定傳記單元 huanwen；非全書、非全卷",
-        "rights": "古代正文公版；維基文庫數位整理保留來源歸屬及CC BY-SA資格。",
-        "normalization": {
-          "character_conversion": {},
-          "extraction_note": "Balanced wiki display parser; every selected raw codepoint classified as retained visible text, explicit display markup, apparatus ref or unit/navigation metadata. Encoded ! first argument retained; all suffix after closing template preserved.",
-          "parser": "wikitext_visible.py"
-        },
-        "title": "晉書／桓溫完整本傳單元",
-        "url": "https://zh.wikisource.org/w/index.php?title=晉書/卷098&oldid=2614273",
-        "raw_file_sha256": "019eb1b16d5b12d4fac53fe1c94cb23ef4794434faa88ce8222576f948f4ca36",
-        "raw_path": "sources/jinshu/wikisource-2614273-raw.wikitext",
-        "accessed_on": "2026-10-20",
-        "text_scope": "partial_chapter",
-        "review_status": "text_checked",
-        "license_url": "https://creativecommons.org/licenses/by-sa/4.0/"
-      }
+      "chapter_ref": "data/corpus/jinshu/098-huanwen.json"
     }
   ],
   "relations": [
@@ -219,7 +185,6 @@
           "chapter_id": "c-jinshu-077-yinhao",
           "source_id": "s-jinshu-077-yinhao",
           "paragraph_id": "c-jinshu-077-yinhao:p011",
-          "quote": "浩雖被黜放，口無怨言，夷神委命，談詠不輟，雖家人不見其有流放之戚。但終日書空，作「咄咄怪事」四字而已。浩甥韓伯，浩素賞愛之，隨至徙所，經歲還都，浩送至渚側，詠曹顏遠詩云：「富貴他人合，貧賤親戚離。」因而泣下。後溫將以浩為尚書令，遺書告之，浩欣然許焉。將答書，慮有謬誤，開閉者數十，竟達空函，大忤溫意，由是遂絕。永和十二年卒。",
           "relationship_anchor": {
             "paragraph_id": "c-jinshu-077-yinhao:p011",
             "start": 0,
@@ -227,7 +192,8 @@
             "surface": "浩"
           },
           "subject_person_mention_id": "c-jinshu-077-yinhao:p012:m0001",
-          "object_person_mention_id": "c-jinshu-077-yinhao:p011:m0000"
+          "object_person_mention_id": "c-jinshu-077-yinhao:p011:m0000",
+          "quote_passage_ref": "data/corpus/jinshu/077-yinhao.json"
         },
         {
           "work_id": "w-jinshu",
@@ -235,7 +201,6 @@
           "chapter_id": "c-jinshu-077-yinhao",
           "source_id": "s-jinshu-077-yinhao",
           "paragraph_id": "c-jinshu-077-yinhao:p012",
-          "quote": "子涓，亦有美名，咸安初，桓溫廢太宰、武陵王晞，誣涓及庾倩與晞謀反，害之。",
           "relationship_anchor": {
             "paragraph_id": "c-jinshu-077-yinhao:p012",
             "start": 0,
@@ -243,7 +208,8 @@
             "surface": "子"
           },
           "subject_person_mention_id": "c-jinshu-077-yinhao:p012:m0001",
-          "object_person_mention_id": "c-jinshu-077-yinhao:p011:m0000"
+          "object_person_mention_id": "c-jinshu-077-yinhao:p011:m0000",
+          "quote_passage_ref": "data/corpus/jinshu/077-yinhao.json"
         }
       ],
       "reviewer": "Codex（AI代理）",
@@ -267,7 +233,6 @@
       "chapter_id": "c-jinshu-077-yinhao",
       "paragraph_id": "c-jinshu-077-yinhao:p012",
       "person_mention_id": "c-jinshu-077-yinhao:p012:m0001",
-      "quote": "子涓，亦有美名，咸安初，桓溫廢太宰、武陵王晞，誣涓及庾倩與晞謀反，害之。",
       "source_anchor": {
         "paragraph_id": "c-jinshu-077-yinhao:p012",
         "start": 1,
@@ -280,7 +245,8 @@
       "model": null,
       "work_id": "w-jinshu",
       "book_id": "b-jinshu-077",
-      "source_id": "s-jinshu-077-yinhao"
+      "source_id": "s-jinshu-077-yinhao",
+      "quote_passage_ref": "data/corpus/jinshu/077-yinhao.json"
     }
   ],
   "person_ids": [
@@ -316,7 +282,6 @@
           "chapter_id": "c-jinshu-077-yinhao",
           "source_id": "s-jinshu-077-yinhao",
           "paragraph_id": "c-jinshu-077-yinhao:p011",
-          "quote": "浩雖被黜放，口無怨言，夷神委命，談詠不輟，雖家人不見其有流放之戚。但終日書空，作「咄咄怪事」四字而已。浩甥韓伯，浩素賞愛之，隨至徙所，經歲還都，浩送至渚側，詠曹顏遠詩云：「富貴他人合，貧賤親戚離。」因而泣下。後溫將以浩為尚書令，遺書告之，浩欣然許焉。將答書，慮有謬誤，開閉者數十，竟達空函，大忤溫意，由是遂絕。永和十二年卒。",
           "relationship_anchor": {
             "paragraph_id": "c-jinshu-077-yinhao:p011",
             "start": 0,
@@ -324,7 +289,8 @@
             "surface": "浩"
           },
           "subject_person_mention_id": "c-jinshu-077-yinhao:p012:m0001",
-          "object_person_mention_id": "c-jinshu-077-yinhao:p011:m0000"
+          "object_person_mention_id": "c-jinshu-077-yinhao:p011:m0000",
+          "quote_passage_ref": "data/corpus/jinshu/077-yinhao.json"
         },
         {
           "work_id": "w-jinshu",
@@ -332,7 +298,6 @@
           "chapter_id": "c-jinshu-077-yinhao",
           "source_id": "s-jinshu-077-yinhao",
           "paragraph_id": "c-jinshu-077-yinhao:p012",
-          "quote": "子涓，亦有美名，咸安初，桓溫廢太宰、武陵王晞，誣涓及庾倩與晞謀反，害之。",
           "relationship_anchor": {
             "paragraph_id": "c-jinshu-077-yinhao:p012",
             "start": 0,
@@ -340,7 +305,8 @@
             "surface": "子"
           },
           "subject_person_mention_id": "c-jinshu-077-yinhao:p012:m0001",
-          "object_person_mention_id": "c-jinshu-077-yinhao:p011:m0000"
+          "object_person_mention_id": "c-jinshu-077-yinhao:p011:m0000",
+          "quote_passage_ref": "data/corpus/jinshu/077-yinhao.json"
         }
       ],
       "reviewer": "Codex（AI代理）",
@@ -388,8 +354,8 @@
           "chapter_id": "c-jinshu-077-yinhao",
           "source_id": "s-jinshu-077-yinhao",
           "paragraph_id": "c-jinshu-077-yinhao:p012",
-          "quote": "子涓，亦有美名，咸安初，桓溫廢太宰、武陵王晞，誣涓及庾倩與晞謀反，害之。",
-          "person_mention_id": "c-jinshu-077-yinhao:p012:m0000"
+          "person_mention_id": "c-jinshu-077-yinhao:p012:m0000",
+          "quote_passage_ref": "data/corpus/jinshu/077-yinhao.json"
         }
       ],
       "original_quote": "子涓，亦有美名，咸安初，桓溫廢太宰、武陵王晞，誣涓及庾倩與晞謀反，害之。",
@@ -450,8 +416,8 @@
           "chapter_id": "c-jinshu-077-yinhao",
           "source_id": "s-jinshu-077-yinhao",
           "paragraph_id": "c-jinshu-077-yinhao:p012",
-          "quote": "子涓，亦有美名，咸安初，桓溫廢太宰、武陵王晞，誣涓及庾倩與晞謀反，害之。",
-          "person_mention_id": "c-jinshu-077-yinhao:p012:m0000"
+          "person_mention_id": "c-jinshu-077-yinhao:p012:m0000",
+          "quote_passage_ref": "data/corpus/jinshu/077-yinhao.json"
         }
       ],
       "interpretation_note": "原死亡主語；不倒出生年，不以此終止所有官職，誤判／謀誅／引古不作死亡。",
@@ -483,8 +449,8 @@
             "chapter_id": "c-jinshu-077-yinhao",
             "source_id": "s-jinshu-077-yinhao",
             "paragraph_id": "c-jinshu-077-yinhao:p012",
-            "quote": "子涓，亦有美名，咸安初，桓溫廢太宰、武陵王晞，誣涓及庾倩與晞謀反，害之。",
-            "person_mention_id": "c-jinshu-077-yinhao:p012:m0000"
+            "person_mention_id": "c-jinshu-077-yinhao:p012:m0000",
+            "quote_passage_ref": "data/corpus/jinshu/077-yinhao.json"
           }
         ],
         "original_quote": "子涓，亦有美名，咸安初，桓溫廢太宰、武陵王晞，誣涓及庾倩與晞謀反，害之。",

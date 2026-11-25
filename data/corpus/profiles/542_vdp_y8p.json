@@ -23,7 +23,7 @@
           "chapter_id": "c-shiji-047-kong",
           "source_id": "s-shiji-047-kong",
           "paragraph_id": "c-shiji-047-kong:p037",
-          "quote": "夏，衞靈公卒，立孫輒，是為衞出公。六月，趙鞅內太子蒯聵于戚。陽虎使太子絻，八人衰絰，偽自衞迎者，哭而入，遂居焉。冬，蔡遷于州來。是歲魯哀公三年，而孔子年六十矣。齊助衞圍戚，以衞太子蒯聵在故也。"
+          "quote_passage_ref": "data/corpus/shiji/047.json"
         }
       ],
       "attestations": [
@@ -71,8 +71,8 @@
           "chapter_id": "c-shiji-047-kong",
           "source_id": "s-shiji-047-kong",
           "paragraph_id": "c-shiji-047-kong:p037",
-          "quote": "夏，衞靈公卒，立孫輒，是為衞出公。六月，趙鞅內太子蒯聵于戚。陽虎使太子絻，八人衰絰，偽自衞迎者，哭而入，遂居焉。冬，蔡遷于州來。是歲魯哀公三年，而孔子年六十矣。齊助衞圍戚，以衞太子蒯聵在故也。",
-          "person_mention_id": "c-shiji-047-kong:m037-0023"
+          "person_mention_id": "c-shiji-047-kong:m037-0023",
+          "quote_passage_ref": "data/corpus/shiji/047.json"
         }
       ],
       "source_term": "內太子蒯聵于戚",
@@ -93,7 +93,6 @@
       "raw_count": 3,
       "duplicate_count": 0,
       "counting_policy": "independent_fixed_witness_occurrences",
-      "quote": "夏，衞靈公卒，立孫輒，是為衞出公。六月，趙鞅內太子蒯聵于戚。陽虎使太子絻，八人衰絰，偽自衞迎者，哭而入，遂居焉。冬，蔡遷于州來。是歲魯哀公三年，而孔子年六十矣。齊助衞圍戚，以衞太子蒯聵在故也。",
       "paragraph_ids": [
         "c-shiji-047-kong:p037"
       ],
@@ -135,7 +134,12 @@
       "book_id": "b-shiji-047",
       "chapter_id": "c-shiji-047-kong",
       "source_id": "s-shiji-047-kong",
-      "work_title": "史記"
+      "work_title": "史記",
+      "chapter_ref": "data/corpus/shiji/047.json",
+      "quote_span": [
+        0,
+        96
+      ]
     }
   ],
   "table_occurrences": [],
@@ -145,24 +149,7 @@
       "work_id": "w-shiji",
       "book_id": "b-shiji-047",
       "source_id": "s-shiji-047-kong",
-      "source": {
-        "title": "史記／卷047",
-        "provider": "維基文庫",
-        "url": "https://zh.wikisource.org/wiki/史記/卷047",
-        "permalink": "https://zh.wikisource.org/w/index.php?title=史記/卷047&oldid=7903609",
-        "revision_id": 7903609,
-        "accessed_on": "2026-10-09",
-        "extent": "85段正文及1段索隱述贊，後者分層；排除2個dd導覽與現代分節標題，只去除段落外緣空白。",
-        "image_verified": false,
-        "rights": "古代原文；數位轉錄依維基文庫CC BY-SA 4.0，保留署名及固定版本。",
-        "license_url": "https://creativecommons.org/licenses/by-sa/4.0/",
-        "normalization": {
-          "character_conversion": {},
-          "editorial_readings": [],
-          "extraction_note": "取得時HTML與固定修訂一致；現代分節標題不作古代正文，原字與來源標點保留。",
-          "note": "已核讀全86段數位文字並作首輪明示人名標註；未核可靠底本、影像或現代研究。"
-        }
-      }
+      "chapter_ref": "data/corpus/shiji/047.json"
     }
   ],
   "relations": [],

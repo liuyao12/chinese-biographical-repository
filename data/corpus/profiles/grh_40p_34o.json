@@ -22,7 +22,7 @@
           "chapter_id": "c-shiji-108-han",
           "source_id": "s-shiji-108-han",
           "paragraph_id": "c-shiji-108-han:p003",
-          "quote": "其後安國坐法抵罪，蒙獄吏田甲辱安國。安國曰：「死灰獨不復然乎？」田甲曰：「然即溺之。」居無何，梁內史缺，漢使使者拜安國爲梁內史，起徒中爲二千石。田甲亡走。安國曰：「甲不就官，我滅而宗。」甲因肉袒謝。安國笑曰：「可溺矣！公等足與治乎？」卒善遇之。"
+          "quote_passage_ref": "data/corpus/shiji/108.json"
         }
       ],
       "attestations": [
@@ -64,7 +64,6 @@
       "raw_count": 5,
       "duplicate_count": 0,
       "counting_policy": "independent_fixed_witness_occurrences",
-      "quote": "其後安國坐法抵罪，蒙獄吏田甲辱安國。安國曰：「死灰獨不復然乎？」田甲曰：「然即溺之。」居無何，梁內史缺，漢使使者拜安國爲梁內史，起徒中爲二千石。田甲亡走。安國曰：「甲不就官，我滅而宗。」甲因肉袒謝。安國笑曰：「可溺矣！公等足與治",
       "paragraph_ids": [
         "c-shiji-108-han:p003"
       ],
@@ -124,7 +123,12 @@
       "book_id": "b-shiji-108",
       "chapter_id": "c-shiji-108-han",
       "source_id": "s-shiji-108-han",
-      "work_title": "史記"
+      "work_title": "史記",
+      "chapter_ref": "data/corpus/shiji/108.json",
+      "quote_span": [
+        0,
+        114
+      ]
     }
   ],
   "table_occurrences": [],
@@ -134,24 +138,7 @@
       "work_id": "w-shiji",
       "book_id": "b-shiji-108",
       "source_id": "s-shiji-108-han",
-      "source": {
-        "title": "史記／卷108",
-        "provider": "維基文庫",
-        "url": "https://zh.wikisource.org/wiki/史記/卷108",
-        "permalink": "https://zh.wikisource.org/w/index.php?title=史記/卷108&oldid=1765317",
-        "revision_id": 1765317,
-        "accessed_on": "2026-10-11",
-        "extent": "13段正文、1段太史公論、1段索隱述贊。",
-        "image_verified": false,
-        "rights": "古代原文；數位轉錄依維基文庫CC BY-SA 4.0，保留署名及固定版本。",
-        "license_url": "https://creativecommons.org/licenses/by-sa/4.0/",
-        "normalization": {
-          "character_conversion": {},
-          "editorial_readings": [],
-          "extraction_note": "去介面模板與現代節標題；數位見證的單字語言轉換包裹符號解除，包裹內原字不變。其餘原字、標點與段落次序保留。",
-          "note": "未核底本影像。"
-        }
-      }
+      "chapter_ref": "data/corpus/shiji/108.json"
     }
   ],
   "relations": [],

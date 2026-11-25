@@ -26,8 +26,8 @@
           "chapter_id": "c-shiji-008-gaozu",
           "source_id": "s-shiji-008-gaozu",
           "paragraph_id": "c-shiji-008-gaozu:p020",
-          "quote": "當是時，趙別將司馬卬方欲渡河入關，沛公乃北攻平陰，絕河津。南，戰雒陽東，軍不利，還至陽城，收軍中馬騎，與南陽守齮戰犨東，破之。略南陽郡，南陽守齮走，保城守宛。沛公引兵過而西。張良諫曰：「沛公雖欲急入關，秦兵尚眾，距險。今不下宛，宛從後擊，彊秦在前，此危道也。」於是沛公乃夜引兵從他道還，更旗幟，黎明，圍宛城三匝。南陽守欲自剄。其舍人陳恢曰：「死未晚也。」乃踰城見沛公，曰：「臣聞足下約，先入咸陽者王之。今足下留守宛。宛，大郡之都也，連城數十，人民眾，積蓄多，吏人自以為降必死，故皆堅守乘城。今足下盡日止攻，士死傷者必多；引兵去宛，宛必隨足下後：足下前則失咸陽之約，後又有彊宛之患。為足下計，莫若約降，封其守，因使止守，引其甲卒與之西。諸城未下者，聞聲爭開門而待，足下通行無所累。」沛公曰：「善。」乃以宛守為殷侯，封陳恢千戶。引兵西，無不下者。至丹水，高武侯鰓、襄侯王陵降西陵。還攻胡陽，遇番君別將梅鋗，與皆，降析、酈。遣魏人甯昌使秦，使者未來。是時章邯已以軍降項羽於趙矣。",
-          "person_mention_id": "c-shiji-008-gaozu:m020-0412"
+          "person_mention_id": "c-shiji-008-gaozu:m020-0412",
+          "quote_passage_ref": "data/corpus/shiji/008.json"
         }
       ],
       "source_term": "魏人甯昌",
@@ -48,7 +48,6 @@
       "raw_count": 1,
       "duplicate_count": 0,
       "counting_policy": "independent_fixed_witness_occurrences",
-      "quote": "侯鰓、襄侯王陵降西陵。還攻胡陽，遇番君別將梅鋗，與皆，降析、酈。遣魏人甯昌使秦，使者未來。是時章邯已以軍降項羽於趙矣。",
       "paragraph_ids": [
         "c-shiji-008-gaozu:p020"
       ],
@@ -72,7 +71,12 @@
       "book_id": "b-shiji-008",
       "chapter_id": "c-shiji-008-gaozu",
       "source_id": "s-shiji-008-gaozu",
-      "work_title": "史記"
+      "work_title": "史記",
+      "chapter_ref": "data/corpus/shiji/008.json",
+      "quote_span": [
+        377,
+        436
+      ]
     }
   ],
   "table_occurrences": [],
@@ -82,26 +86,7 @@
       "work_id": "w-shiji",
       "book_id": "b-shiji-008",
       "source_id": "s-shiji-008-gaozu",
-      "source": {
-        "title": "史記／卷008",
-        "provider": "維基文庫",
-        "url": "https://zh.wikisource.org/wiki/史記/卷008",
-        "permalink": "https://zh.wikisource.org/w/index.php?title=史記/卷008&oldid=2440965",
-        "revision_id": 2440965,
-        "accessed_on": "2026-10-09",
-        "extent": "本篇傳世正文91個p區塊，自「高祖，沛豐邑中陽里人」至太史公論贊；不含導覽標題、跨站連結及另署【索隱述贊】的後出文字。",
-        "image_verified": false,
-        "rights": "古代原文；數位轉錄依維基文庫CC BY-SA 4.0，保留署名及固定版本。",
-        "license_url": "https://creativecommons.org/licenses/by-sa/4.0/",
-        "normalization": {
-          "character_conversion": {
-            "馕": "饢"
-          },
-          "editorial_readings": [],
-          "extraction_note": "正文91段均為p；前置兩個dd為跨站導覽，不收錄。排除sup註號，保留原有行內校勘符號。",
-          "note": "第48、57段馕僅作明示簡繁轉換為饢，詞義與疑讀待核，不逕改為餉或饟。數位轉錄尚未核紙本或影像。"
-        }
-      }
+      "chapter_ref": "data/corpus/shiji/008.json"
     }
   ],
   "relations": [],

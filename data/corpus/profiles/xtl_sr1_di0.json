@@ -20,7 +20,6 @@
       "raw_count": 1,
       "duplicate_count": 0,
       "counting_policy": "independent_fixed_witness_occurrences",
-      "quote": "饟道，起滎陽至襄邑。破項冠魯下。略地東至觞、郯、下邳，南至蘄、竹邑。擊項悍濟陽下。還擊項籍軍陳下，破之。別定江陵，降柱國、大司馬以下八人，身得江陵王，致雒陽，因定南郡。從至陳，取楚王信，剖符世世勿絕，定食四千六百戶，為信武侯。",
       "paragraph_ids": [
         "c-hanshu-041-fanli:p-jin-003"
       ],
@@ -44,7 +43,12 @@
       "book_id": "b-hanshu-041",
       "chapter_id": "c-hanshu-041-fanli",
       "source_id": "s-hanshu-041-fanli",
-      "work_title": "漢書"
+      "work_title": "漢書",
+      "chapter_ref": "data/corpus/hanshu/041.json",
+      "quote_span": [
+        141,
+        254
+      ]
     },
     {
       "number": 56,
@@ -55,7 +59,6 @@
       "raw_count": 1,
       "duplicate_count": 0,
       "counting_policy": "independent_fixed_witness_occurrences",
-      "quote": "王反楚。項羽乃以平爲信武君，將魏王咎客在楚者以往，擊降殷王而還。項王使項悍拜平爲都尉，賜金二十溢。居無何，漢王攻下殷。項王怒，將誅定殷者將吏。陳平懼誅，乃封其金與印，使使歸項王，而平身間行杖劎亡。渡河，船人見其美丈夫獨行，疑其亡將，要中當有金玉寶器，目之，欲殺平。平恐，乃解",
       "paragraph_ids": [
         "c-shiji-056-chen:p005"
       ],
@@ -79,7 +82,12 @@
       "book_id": "b-shiji-056",
       "chapter_id": "c-shiji-056-chen",
       "source_id": "s-shiji-056-chen",
-      "work_title": "史記"
+      "work_title": "史記",
+      "chapter_ref": "data/corpus/shiji/056.json",
+      "quote_span": [
+        46,
+        183
+      ]
     },
     {
       "number": 98,
@@ -90,7 +98,6 @@
       "raw_count": 1,
       "duplicate_count": 0,
       "counting_policy": "independent_fixed_witness_occurrences",
-      "quote": "道，起滎陽至襄邑。破項冠軍魯下。略地東至繒、郯、下邳，南至蘄、竹邑。擊項悍濟陽下。還擊項籍陳下，破之。別定江陵，降江陵柱國、大司馬以下八人，身得江陵王，生致之雒陽，因定南郡。從至陳，取楚王信，剖符世世勿絕，定食四千六百戶，號信武侯。",
       "paragraph_ids": [
         "c-shiji-098-fujin:p007"
       ],
@@ -114,7 +121,12 @@
       "book_id": "b-shiji-098",
       "chapter_id": "c-shiji-098-fujin",
       "source_id": "s-shiji-098-fujin",
-      "work_title": "史記"
+      "work_title": "史記",
+      "chapter_ref": "data/corpus/shiji/098.json",
+      "quote_span": [
+        147,
+        263
+      ]
     }
   ],
   "table_occurrences": [],
@@ -124,111 +136,21 @@
       "work_id": "w-hanshu",
       "book_id": "b-hanshu-041",
       "source_id": "s-hanshu-041-fanli",
-      "source": {
-        "title": "漢書／卷041",
-        "provider": "維基文庫",
-        "url": "https://zh.wikisource.org/wiki/漢書/卷041",
-        "permalink": "https://zh.wikisource.org/w/index.php?title=漢書/卷041&oldid=2342290",
-        "revision_id": 2342290,
-        "accessed_on": "2026-10-15",
-        "extent": "目前錄傅寬三段、靳歙五段、周惞三段，共十一段；卷內樊、酈、滕、灌傳及贊未匯入，不代表全卷完成。",
-        "included_sections": [
-          "傅寬傳文",
-          "靳歙傳文",
-          "周惞傳文"
-        ],
-        "text_scope": "partial_chapter",
-        "image_verified": false,
-        "rights": "古代原文；維基文庫數位轉錄依CC BY-SA 4.0，保留貢獻者署名及固定修訂連結。",
-        "license_url": "https://creativecommons.org/licenses/by-sa/4.0/",
-        "normalization": {
-          "character_conversion": {},
-          "editorial_readings": [],
-          "extraction_note": "去除現代網頁小標與Wikipedia模板，保留三節十一段原字、標點與數位異文；新補觞、五石等原字不默改，異讀另記。",
-          "note": "古代篇名仍為樊酈滕灌傅靳周傳；採節內穩定段ID，日後補前文不重編既有錨點。未核書影。"
-        },
-        "review_status": "text_checked",
-        "edition": null,
-        "revision_timestamp": "2023-12-14T05:51:09Z"
-      }
+      "chapter_ref": "data/corpus/hanshu/041.json"
     },
     {
       "chapter_id": "c-shiji-056-chen",
       "work_id": "w-shiji",
       "book_id": "b-shiji-056",
       "source_id": "s-shiji-056-chen",
-      "source": {
-        "title": "史記／卷056",
-        "provider": "維基文庫",
-        "url": "https://zh.wikisource.org/wiki/史記/卷056",
-        "permalink": "https://zh.wikisource.org/w/index.php?title=史記/卷056&oldid=1961615",
-        "revision_id": 1961615,
-        "accessed_on": "2026-10-09",
-        "extent": "28段篇文及1段索隱述贊，無需排除數位欄題。",
-        "image_verified": false,
-        "rights": "古代原文；數位轉錄依維基文庫CC BY-SA 4.0，保留署名及固定版本。",
-        "license_url": "https://creativecommons.org/licenses/by-sa/4.0/",
-        "normalization": {
-          "character_conversion": {},
-          "editorial_readings": [],
-          "extraction_note": "取得時HTML與固定修訂一致，只去外緣空白；保留戸、鄕、爲、渉、衞、歳、説、劎、躶、鍾離眛、共侯與上曰；等原字及符號，索隱標記另分層。",
-          "note": "全29段已讀並作明示人物首輪；未核底本、影像或現代研究。"
-        }
-      }
+      "chapter_ref": "data/corpus/shiji/056.json"
     },
     {
       "chapter_id": "c-shiji-098-fujin",
       "work_id": "w-shiji",
       "book_id": "b-shiji-098",
       "source_id": "s-shiji-098-fujin",
-      "source": {
-        "title": "史記／卷098",
-        "provider": "維基文庫",
-        "url": "https://zh.wikisource.org/wiki/史記/卷098",
-        "permalink": "https://zh.wikisource.org/w/index.php?title=史記/卷098&oldid=1490318",
-        "revision_id": 1490318,
-        "accessed_on": "2026-10-10",
-        "extent": "13段傳世正文含太史公論；排除導覽及空白，無索隱附贊。",
-        "image_verified": false,
-        "rights": "古代原文；數位轉錄依維基文庫CC BY-SA 4.0，保留署名及固定版本。",
-        "license_url": "https://creativecommons.org/licenses/by-sa/4.0/",
-        "normalization": {
-          "character_conversion": {
-            "横": "橫",
-            "户": "戶",
-            "别": "別",
-            "内": "內",
-            "郸": "鄲",
-            "仓": "倉",
-            "荥": "滎",
-            "鲁": "魯",
-            "缯": "繒",
-            "蕲": "蘄",
-            "韩": "韓",
-            "肃": "肅",
-            "夺": "奪",
-            "贞": "貞",
-            "伤": "傷",
-            "谓": "謂",
-            "笃": "篤"
-          },
-          "editorial_readings": [],
-          "digital_footnotes": [
-            {
-              "marker": "1",
-              "paragraph_number": 4,
-              "note": "數位編者稱武英殿二十四史本作二十一年；尚未核該底本，不作已驗證異文。"
-            },
-            {
-              "marker": "2",
-              "paragraph_number": 4,
-              "note": "數位編者依卒年、國除年及前代在位數推算三十一年；只作編者意見，不逕採其校勘與西曆換算。"
-            }
-          ],
-          "extraction_note": "去外緣空白及兩處HTML引用標記；逐字繁體轉換明記，保留緤、歙、饟及度平陰。",
-          "note": "全15個HTML區塊已核讀；數位編者意見分存，不改正文三十一年，未核底本影像。"
-        }
-      }
+      "chapter_ref": "data/corpus/shiji/098.json"
     }
   ],
   "relations": [],

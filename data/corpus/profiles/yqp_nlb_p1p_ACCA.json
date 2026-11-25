@@ -23,7 +23,7 @@
           "chapter_id": "c-shiji-058-liang",
           "source_id": "s-shiji-058-liang",
           "paragraph_id": "c-shiji-058-liang:p002",
-          "quote": "孝文帝凡四男：長子曰太子，是為孝景帝；次子武；次子參；次子勝。孝文帝即位二年，以武為代王，以參為太原王，以勝為梁王。二歲，徙代王為淮陽王。以代盡與太原王，號曰代王。參立十七年，孝文後二年卒，謚為孝王。子登嗣立，是為代共王。立二十九年，元光二年卒。子義立，是為代王。十九年，漢廣關，以常山為限，而徙代王王清河。清河王徙以元鼎三年也。"
+          "quote_passage_ref": "data/corpus/shiji/058.json"
         }
       ],
       "attestations": [
@@ -65,7 +65,6 @@
       "raw_count": 2,
       "duplicate_count": 0,
       "counting_policy": "independent_fixed_witness_occurrences",
-      "quote": "陽王。以代盡與太原王，號曰代王。參立十七年，孝文後二年卒，謚為孝王。子登嗣立，是為代共王。立二十九年，元光二年卒。子義立，是為代王。十九年，漢廣關，以常山為限，而徙代王王清河。清河王徙以元鼎三年也。",
       "paragraph_ids": [
         "c-shiji-058-liang:p002"
       ],
@@ -98,7 +97,12 @@
       "book_id": "b-shiji-058",
       "chapter_id": "c-shiji-058-liang",
       "source_id": "s-shiji-058-liang",
-      "work_title": "史記"
+      "work_title": "史記",
+      "chapter_ref": "data/corpus/shiji/058.json",
+      "quote_span": [
+        66,
+        165
+      ]
     }
   ],
   "table_occurrences": [
@@ -106,7 +110,6 @@
       "table_id": "shiji-017",
       "cell_id": "shiji-017-t1-r046-c26",
       "title": "《史記·漢興以來諸侯王年表》",
-      "quote": "恭王登元年",
       "year": {
         "era": "BCE",
         "value": 161,
@@ -141,7 +144,8 @@
       "book_id": "b-shiji-017",
       "chapter_id": "table-chapter-shiji-017",
       "source_id": "table-witness-shiji-017",
-      "source_revision": "2607010"
+      "source_revision": "2607010",
+      "quote_ref": "cell"
     }
   ],
   "sources": [
@@ -150,47 +154,14 @@
       "work_id": "w-shiji",
       "book_id": "b-shiji-058",
       "source_id": "s-shiji-058-liang",
-      "source": {
-        "title": "史記／卷058",
-        "provider": "維基文庫",
-        "url": "https://zh.wikisource.org/wiki/史記/卷058",
-        "permalink": "https://zh.wikisource.org/w/index.php?title=史記/卷058&oldid=8735555",
-        "revision_id": 8735555,
-        "accessed_on": "2026-10-09",
-        "extent": "22段篇文、4段褚先生附述及1段索隱述贊；現代欄題不當古文。",
-        "image_verified": false,
-        "rights": "古代原文；數位轉錄依維基文庫CC BY-SA 4.0，保留署名及固定版本。",
-        "license_url": "https://creativecommons.org/licenses/by-sa/4.0/",
-        "normalization": {
-          "character_conversion": {},
-          "editorial_readings": [],
-          "extraction_note": "取得時HTML與固定修訂一致，只去外緣空白；保留筑、然后、壹湌、適孫、齊如、應縣、削厲、霸昌廄、闚與旌旂等見證原字。末段依其前索隱述贊欄題分層，不補標籤入正文。",
-          "note": "全27段已核讀並作明示人物首輪；未核底本、影像或現代研究。"
-        }
-      }
+      "chapter_ref": "data/corpus/shiji/058.json"
     },
     {
       "chapter_id": "table-chapter-shiji-017",
       "work_id": "w-shiji",
       "book_id": "b-shiji-017",
       "source_id": "table-witness-shiji-017",
-      "source": {
-        "id": "table-witness-shiji-017",
-        "work_id": "w-shiji",
-        "book_id": "b-shiji-017",
-        "chapter_id": "table-chapter-shiji-017",
-        "url": "https://zh.wikisource.org/wiki/史記/卷017",
-        "revision_url": "https://zh.wikisource.org/w/index.php?title=史記/卷017&oldid=2607010",
-        "revision": "2607010",
-        "accessed": "2026-10-13",
-        "response_sha256": "4f4e0437ce3126d69899f71fd8334f22dad8943c888cf2b766e51679d50dd517",
-        "edition": null,
-        "image_verified": false,
-        "rights": "古籍正文公有領域；維基文庫數位轉錄依CC BY-SA，保留貢獻者署名。",
-        "rights_url": "https://zh.wikisource.org/wiki/Wikisource:版權信息",
-        "review_status": "partial_named_entity_review",
-        "note": "各組表保留原欄題、原文、空格及合欄，不推不同欄題的接續。西元欄為數位編者增補；未明年份留空，不推世系曆年。未核底本影像，人物標註仍待逐處覆核。"
-      }
+      "table_source_ref": "shiji-017"
     }
   ],
   "relations": [
@@ -205,7 +176,7 @@
           "chapter_id": "c-shiji-058-liang",
           "source_id": "s-shiji-058-liang",
           "paragraph_id": "c-shiji-058-liang:p002",
-          "quote": "孝文帝凡四男：長子曰太子，是為孝景帝；次子武；次子參；次子勝。孝文帝即位二年，以武為代王，以參為太原王，以勝為梁王。二歲，徙代王為淮陽王。以代盡與太原王，號曰代王。參立十七年，孝文後二年卒，謚為孝王。子登嗣立，是為代共王。立二十九年，元光二年卒。子義立，是為代王。十九年，漢廣關，以常山為限，而徙代王王清河。清河王徙以元鼎三年也。"
+          "quote_passage_ref": "data/corpus/shiji/058.json"
         }
       ],
       "qualifiers": {
@@ -226,7 +197,7 @@
           "chapter_id": "c-shiji-058-liang",
           "source_id": "s-shiji-058-liang",
           "paragraph_id": "c-shiji-058-liang:p002",
-          "quote": "孝文帝凡四男：長子曰太子，是為孝景帝；次子武；次子參；次子勝。孝文帝即位二年，以武為代王，以參為太原王，以勝為梁王。二歲，徙代王為淮陽王。以代盡與太原王，號曰代王。參立十七年，孝文後二年卒，謚為孝王。子登嗣立，是為代共王。立二十九年，元光二年卒。子義立，是為代王。十九年，漢廣關，以常山為限，而徙代王王清河。清河王徙以元鼎三年也。"
+          "quote_passage_ref": "data/corpus/shiji/058.json"
         }
       ],
       "qualifiers": {
@@ -256,8 +227,8 @@
           "chapter_id": "c-shiji-058-liang",
           "source_id": "s-shiji-058-liang",
           "paragraph_id": "c-shiji-058-liang:p002",
-          "quote": "孝文帝凡四男：長子曰太子，是為孝景帝；次子武；次子參；次子勝。孝文帝即位二年，以武為代王，以參為太原王，以勝為梁王。二歲，徙代王為淮陽王。以代盡與太原王，號曰代王。參立十七年，孝文後二年卒，謚為孝王。子登嗣立，是為代共王。立二十九年，元光二年卒。子義立，是為代王。十九年，漢廣關，以常山為限，而徙代王王清河。清河王徙以元鼎三年也。",
-          "person_mention_id": "c-shiji-058-liang:m002-0101"
+          "person_mention_id": "c-shiji-058-liang:m002-0101",
+          "quote_passage_ref": "data/corpus/shiji/058.json"
         }
       ],
       "references": [
@@ -294,7 +265,7 @@
           "chapter_id": "c-shiji-058-liang",
           "source_id": "s-shiji-058-liang",
           "paragraph_id": "c-shiji-058-liang:p002",
-          "quote": "孝文帝凡四男：長子曰太子，是為孝景帝；次子武；次子參；次子勝。孝文帝即位二年，以武為代王，以參為太原王，以勝為梁王。二歲，徙代王為淮陽王。以代盡與太原王，號曰代王。參立十七年，孝文後二年卒，謚為孝王。子登嗣立，是為代共王。立二十九年，元光二年卒。子義立，是為代王。十九年，漢廣關，以常山為限，而徙代王王清河。清河王徙以元鼎三年也。"
+          "quote_passage_ref": "data/corpus/shiji/058.json"
         }
       ],
       "qualifiers": {
@@ -315,7 +286,7 @@
           "chapter_id": "c-shiji-058-liang",
           "source_id": "s-shiji-058-liang",
           "paragraph_id": "c-shiji-058-liang:p002",
-          "quote": "孝文帝凡四男：長子曰太子，是為孝景帝；次子武；次子參；次子勝。孝文帝即位二年，以武為代王，以參為太原王，以勝為梁王。二歲，徙代王為淮陽王。以代盡與太原王，號曰代王。參立十七年，孝文後二年卒，謚為孝王。子登嗣立，是為代共王。立二十九年，元光二年卒。子義立，是為代王。十九年，漢廣關，以常山為限，而徙代王王清河。清河王徙以元鼎三年也。"
+          "quote_passage_ref": "data/corpus/shiji/058.json"
         }
       ],
       "qualifiers": {
@@ -354,8 +325,8 @@
           "chapter_id": "c-shiji-058-liang",
           "source_id": "s-shiji-058-liang",
           "paragraph_id": "c-shiji-058-liang:p002",
-          "quote": "孝文帝凡四男：長子曰太子，是為孝景帝；次子武；次子參；次子勝。孝文帝即位二年，以武為代王，以參為太原王，以勝為梁王。二歲，徙代王為淮陽王。以代盡與太原王，號曰代王。參立十七年，孝文後二年卒，謚為孝王。子登嗣立，是為代共王。立二十九年，元光二年卒。子義立，是為代王。十九年，漢廣關，以常山為限，而徙代王王清河。清河王徙以元鼎三年也。",
-          "person_mention_id": "c-shiji-058-liang:m002-0101"
+          "person_mention_id": "c-shiji-058-liang:m002-0101",
+          "quote_passage_ref": "data/corpus/shiji/058.json"
         }
       ],
       "interpretation_note": "本篇明示死亡；保留原文紀年，不由王位年數推定年齡或生年，不由國除或請誅推定死亡。",
@@ -374,8 +345,8 @@
             "chapter_id": "c-shiji-058-liang",
             "source_id": "s-shiji-058-liang",
             "paragraph_id": "c-shiji-058-liang:p002",
-            "quote": "孝文帝凡四男：長子曰太子，是為孝景帝；次子武；次子參；次子勝。孝文帝即位二年，以武為代王，以參為太原王，以勝為梁王。二歲，徙代王為淮陽王。以代盡與太原王，號曰代王。參立十七年，孝文後二年卒，謚為孝王。子登嗣立，是為代共王。立二十九年，元光二年卒。子義立，是為代王。十九年，漢廣關，以常山為限，而徙代王王清河。清河王徙以元鼎三年也。",
-            "person_mention_id": "c-shiji-058-liang:m002-0101"
+            "person_mention_id": "c-shiji-058-liang:m002-0101",
+            "quote_passage_ref": "data/corpus/shiji/058.json"
           }
         ],
         "references": [

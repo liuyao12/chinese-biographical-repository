@@ -8,9 +8,11 @@ from pathlib import Path
 try:
     from .person_bundle import ROOT, bundle, load_catalog
     from .family_assemblies import load_assemblies
+    from .passage_refs import PassageCatalog, write_json
 except ImportError:
     from person_bundle import ROOT, bundle, load_catalog
     from family_assemblies import load_assemblies
+    from passage_refs import PassageCatalog, write_json
 
 
 try:
@@ -66,6 +68,7 @@ def export(root=ROOT):
         from calendar_wiring import export_calendar_contexts
     export_calendar_contexts(root)
     catalog = load_catalog(root)
+    passages = PassageCatalog(root)
     destination = root / 'exports/persons'
     destination.mkdir(parents=True, exist_ok=True)
     try:
@@ -111,12 +114,13 @@ def export(root=ROOT):
         if pid in assembled_children:
             result['assembled_children'] = assembled_children[pid]
         filename = pid + '.json'
-        (destination / filename).write_text(json.dumps(result, ensure_ascii=False, separators=(',', ':')) + '\n')
+        compact = passages.compact(result)
+        write_json(destination / filename, compact)
         if assembly and pid != assembly['representative_source_person_id']:
             continue
         output_id = assembly['person_id'] if assembly else pid
         if output_id != pid:
-            (destination / (output_id + '.json')).write_text(json.dumps(result, ensure_ascii=False, separators=(',', ':')) + '\n')
+            write_json(destination / (output_id + '.json'), compact)
         rows.append({'person_id': output_id, 'label': person['label'], 'path': output_id + '.json',
                      'id_aliases': person.get('id_aliases', []),
                      'identity_policy': result['identity_policy'],
@@ -139,7 +143,7 @@ def export(root=ROOT):
         parent_id = source_map.get(source_id, {}).get('person_id', source_id)
         if parent_id in assembled_children:
             result['assembled_children'] = assembled_children[parent_id]
-        (destination / (alias + '.json')).write_text(json.dumps(result, ensure_ascii=False, separators=(',', ':')) + '\n')
+        write_json(destination / (alias + '.json'), passages.compact(result))
     expected_ids = set(catalog[0]) | set(assemblies) | set(aliases)
     try:
         from .personless_namespace import prune_person_files

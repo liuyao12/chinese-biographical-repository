@@ -1,4 +1,5 @@
 import {loadPersonSummary, personSummaryCard} from './person-summary.js';
+import {resolveProfilePassages} from './passage-refs.js';
 import {declinedNobleOutcomeUnreported,nobleHouseholds} from './noble-declination.js';
 import {sourceCitation,loadChapterDirectory} from './source-caption.js';
 import {principalOccurrences,occurrenceCountLabel} from './occurrence-counts.js';
@@ -34,7 +35,7 @@ export async function loadPerson(id, initial = null) {
         if (!r.ok) throw Error('人物資料尚未載入');
         return r.json();
       });
-    cache.set(id, person.then(async p => {
+    cache.set(id, person.then(resolveProfilePassages).then(async p => {
       if (!(p.occurrences?.length || (p.titles || []).some(challengedOffice) || p.source_details?.length)) return p;
       const [titles,directory] = await Promise.all([detailWorkTitles(),detailChapterDirectory()]);
       return {...p,source_work_titles:titles,source_chapter_directory:directory};

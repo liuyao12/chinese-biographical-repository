@@ -22,7 +22,7 @@
           "chapter_id": "c-shiji-067-disciples",
           "source_id": "s-shiji-067-disciples",
           "paragraph_id": "c-shiji-067-disciples:p098",
-          "quote": "孔子既沒，弟子思慕，有若狀似孔子，弟子相與共立爲師，師之如夫子時也。他日，弟子進問曰：「昔夫子當行，使弟子持雨具，已而果雨。弟子問曰：『夫子何以知之？』夫子曰：『《詩》不云乎？「月離于畢，俾滂沱矣。」昨暮月不宿畢乎？』他日，月宿畢，竟不雨。商瞿年長無子，其母爲取室。孔子使之齊，瞿母請之。孔子曰：『無憂，瞿年四十後當有五丈夫子。』已而果然。問夫子何以知此？」有若默然無以應。弟子起曰：「有子避之，此非子之座也！」"
+          "quote_passage_ref": "data/corpus/shiji/067.json"
         }
       ],
       "attestations": [
@@ -46,7 +46,7 @@
               "chapter_id": "c-shiji-067-disciples",
               "source_id": "s-shiji-067-disciples",
               "paragraph_id": "c-shiji-067-disciples:p098",
-              "quote": "孔子既沒，弟子思慕，有若狀似孔子，弟子相與共立爲師，師之如夫子時也。他日，弟子進問曰：「昔夫子當行，使弟子持雨具，已而果雨。弟子問曰：『夫子何以知之？』夫子曰：『《詩》不云乎？「月離于畢，俾滂沱矣。」昨暮月不宿畢乎？』他日，月宿畢，竟不雨。商瞿年長無子，其母爲取室。孔子使之齊，瞿母請之。孔子曰：『無憂，瞿年四十後當有五丈夫子。』已而果然。問夫子何以知此？」有若默然無以應。弟子起曰：「有子避之，此非子之座也！」"
+              "quote_passage_ref": "data/corpus/shiji/067.json"
             }
           ]
         },
@@ -72,7 +72,6 @@
       "raw_count": 5,
       "duplicate_count": 0,
       "counting_policy": "independent_fixed_witness_occurrences",
-      "quote": "有若少孔子四十三歳。有若曰：「禮之用，和爲貴，先王之道斯爲美。小大由之，有所不行；知和而和，不以禮節之，亦不可行也。」「信近於義，言可復也；恭近於禮，遠恥辱也；因不失其親，亦可宗也。」",
       "paragraph_ids": [
         "c-shiji-067-disciples:p097",
         "c-shiji-067-disciples:p098"
@@ -133,7 +132,12 @@
       "book_id": "b-shiji-067",
       "chapter_id": "c-shiji-067-disciples",
       "source_id": "s-shiji-067-disciples",
-      "work_title": "史記"
+      "work_title": "史記",
+      "chapter_ref": "data/corpus/shiji/067.json",
+      "quote_span": [
+        0,
+        92
+      ]
     }
   ],
   "table_occurrences": [],
@@ -143,24 +147,7 @@
       "work_id": "w-shiji",
       "book_id": "b-shiji-067",
       "source_id": "s-shiji-067-disciples",
-      "source": {
-        "title": "史記／卷067",
-        "provider": "維基文庫",
-        "url": "https://zh.wikisource.org/wiki/史記/卷067",
-        "permalink": "https://zh.wikisource.org/w/index.php?title=史記/卷067&oldid=7869003",
-        "revision_id": 7869003,
-        "accessed_on": "2026-10-09",
-        "extent": "152段正文，自孔子曰受業身通者至太史公論贊；排除ws-header中的導覽名單、後附索隱述贊及現代版權告示。",
-        "image_verified": false,
-        "rights": "古代原文；數位轉錄依維基文庫CC BY-SA 4.0，保留署名及固定版本。",
-        "license_url": "https://creativecommons.org/licenses/by-sa/4.0/",
-        "normalization": {
-          "character_conversion": {},
-          "editorial_readings": [],
-          "extraction_note": "取得時HTML與固定修訂一致，只去外緣空白；保留髙、歳、衞、漆彫、曾蒧等原字。導覽名單與正文異體不混接。",
-          "note": "全152段已核讀，人物標註待逐段處理；未核可靠底本、影像或現代研究。"
-        }
-      }
+      "chapter_ref": "data/corpus/shiji/067.json"
     }
   ],
   "relations": [],

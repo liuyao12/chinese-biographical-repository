@@ -20,7 +20,6 @@
       "raw_count": 1,
       "duplicate_count": 0,
       "counting_policy": "independent_fixed_witness_occurrences",
-      "quote": "七年冬，上自往擊，破信軍銅鞮，斬其將王喜。信亡走匈奴。（與）其與白土人曼丘臣、王黃等立趙苗裔趙利為王，復收信敗散兵，而與信及冒頓謀攻漢。匈奴仗左右賢王將萬餘騎與王黃等屯廣武以南，至晉陽，與漢兵戰，漢大破之，追至于離石，復破之。匈奴復聚兵樓煩",
       "paragraph_ids": [
         "c-shiji-093-hanlu:p005"
       ],
@@ -44,7 +43,12 @@
       "book_id": "b-shiji-093",
       "chapter_id": "c-shiji-093-hanlu",
       "source_id": "s-shiji-093-hanlu",
-      "work_title": "史記"
+      "work_title": "史記",
+      "chapter_ref": "data/corpus/shiji/093.json",
+      "quote_span": [
+        0,
+        120
+      ]
     }
   ],
   "table_occurrences": [],
@@ -54,24 +58,7 @@
       "work_id": "w-shiji",
       "book_id": "b-shiji-093",
       "source_id": "s-shiji-093-hanlu",
-      "source": {
-        "title": "史記／卷093",
-        "provider": "維基文庫",
-        "url": "https://zh.wikisource.org/wiki/史記/卷093",
-        "permalink": "https://zh.wikisource.org/w/index.php?title=史記/卷093&oldid=368019",
-        "revision_id": 368019,
-        "accessed_on": "2026-10-09",
-        "extent": "20段傳世正文含太史公論，另附1段witness_appended_suoyin_zan，排除導覽與空白段。",
-        "image_verified": false,
-        "rights": "古代原文；數位轉錄依維基文庫CC BY-SA 4.0，保留署名及固定版本。",
-        "license_url": "https://creativecommons.org/licenses/by-sa/4.0/",
-        "normalization": {
-          "character_conversion": {},
-          "editorial_readings": [],
-          "extraction_note": "固定HTML一致，只去外緣空白；（與）其與、代（上）谷、虜綰、臧茶、龍頟及高祖竟崩原字保留。",
-          "note": "全23個HTML區塊已讀，未核底本影像，疑字不擅改。"
-        }
-      }
+      "chapter_ref": "data/corpus/shiji/093.json"
     }
   ],
   "relations": [],
@@ -98,8 +85,8 @@
           "chapter_id": "c-shiji-093-hanlu",
           "source_id": "s-shiji-093-hanlu",
           "paragraph_id": "c-shiji-093-hanlu:p005",
-          "quote": "七年冬，上自往擊，破信軍銅鞮，斬其將王喜。信亡走匈奴。（與）其與白土人曼丘臣、王黃等立趙苗裔趙利為王，復收信敗散兵，而與信及冒頓謀攻漢。匈奴仗左右賢王將萬餘騎與王黃等屯廣武以南，至晉陽，與漢兵戰，漢大破之，追至于離石，復破之。匈奴復聚兵樓煩西北，漢令車騎擊破匈奴。匈奴常敗走，漢乘勝追北，聞冒頓居代（上）谷，高皇帝居晉陽，使人視冒頓，還報曰「可擊」。上遂至平城。上出白登，匈奴騎圍上，上乃使人厚遺閼氏。閼氏乃說冒頓曰：「今得漢地，猶不能居；且兩主不相緱」居七日，胡騎稍引去。時天大霧，漢使人往來，胡不覺。護軍中尉陳平言上曰：「胡者全兵，請令彊弩傅兩矢外向，徐行出圍。」入平城，漢救兵亦到，胡騎遂解去。漢亦罷兵歸。韓信為匈奴將兵往來擊邊。",
-          "person_mention_id": "c-shiji-093-hanlu:m005-0018"
+          "person_mention_id": "c-shiji-093-hanlu:m005-0018",
+          "quote_passage_ref": "data/corpus/shiji/093.json"
         }
       ],
       "interpretation_note": "漢初十月歲首，七年冬不能逕用七年春夏的公元年；保留冬季原紀年，未推日月。",

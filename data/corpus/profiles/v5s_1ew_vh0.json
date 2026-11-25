@@ -20,7 +20,6 @@
       "raw_count": 1,
       "duplicate_count": 0,
       "counting_policy": "independent_fixed_witness_occurrences",
-      "quote": "越之討苟晞也，衍以太尉為太傅軍司。及越薨，眾共推為元帥。衍以賊寇鋒起，懼不敢當。辭曰：「吾少無宦情，隨牒推移，遂至於此。今日之事，安可以非才處之。」俄而舉軍為石勒所破，勒呼王公，與之相見，問衍以晉故。衍為陳禍敗",
       "paragraph_ids": [
         "c-jinshu-043-wangyan:p008"
       ],
@@ -44,7 +43,12 @@
       "book_id": "b-jinshu-043",
       "chapter_id": "c-jinshu-043-wangyan",
       "source_id": "s-jinshu-043-ws2618531-wangrong",
-      "work_title": "晉書"
+      "work_title": "晉書",
+      "chapter_ref": "data/corpus/jinshu/043-wangyan.json",
+      "quote_span": [
+        0,
+        105
+      ]
     },
     {
       "number": 61,
@@ -55,7 +59,6 @@
       "raw_count": 2,
       "duplicate_count": 0,
       "counting_policy": "independent_fixed_witness_occurrences",
-      "quote": "、湘、江、揚各先運四年米租十五萬斛，布絹各十四萬匹，以供大駕。令王浚、苟晞共平河朔，臣等戮力以啟南路。遷都弭寇，其計並得。皇輿來巡，臣宜轉據江州，以恢王略。知無不為，古人所務，敢竭忠誠，庶報萬分。朝遂夕隕，猶生之願。」",
       "paragraph_ids": [
         "c-jinshu-061-zhou-family:p022",
         "c-jinshu-061-zhou-family:p023"
@@ -89,7 +92,12 @@
       "book_id": "b-jinshu-061",
       "chapter_id": "c-jinshu-061-zhou-family",
       "source_id": "s-jinshu-061-ws7903772",
-      "work_title": "晉書"
+      "work_title": "晉書",
+      "chapter_ref": "data/corpus/jinshu/061-zhou-family.json",
+      "quote_span": [
+        322,
+        431
+      ]
     }
   ],
   "table_occurrences": [],
@@ -99,52 +107,14 @@
       "work_id": "w-jinshu",
       "book_id": "b-jinshu-043",
       "source_id": "s-jinshu-043-ws2618531-wangrong",
-      "source": {
-        "title": "《晉書》卷四十三從弟王衍完整敘事單元（含子玄附敘）",
-        "provider": "Wikisource",
-        "url": "https://zh.wikisource.org/w/index.php?title=晉書/卷043&oldid=2618531",
-        "permalink": "https://zh.wikisource.org/w/index.php?title=晉書/卷043&oldid=2618531",
-        "revision_id": 2618531,
-        "accessed_on": "2026-10-21",
-        "extent": "從弟衍節十個完整原段，含子玄末段；止衍弟澄節之前，不含王澄與全卷史評。",
-        "text_scope": "partial_chapter",
-        "review_status": "text_checked",
-        "image_verified": false,
-        "rights": "古代原文及維基文庫數位轉錄，保留來源歸屬；數位文字依CC BY-SA 4.0。",
-        "license_url": "https://creativecommons.org/licenses/by-sa/4.0/",
-        "edition": null,
-        "wikitext_sha256": "d9ab0781004dc723ae243bb2bac47695d2736fd7b595ec472d5ffde62a04d0fe",
-        "raw_file": "sources/witnesses/jin043-ws2618531.wikitext",
-        "normalization": {
-          "character_conversion": {},
-          "extraction_note": "僅移除段首空白、展開維基連結顯示字及YL年號模板；原齊王乂、雲、荀籓、見誣見狀等保留；老莊連結顯示字依原wikitext展開。"
-        }
-      }
+      "chapter_ref": "data/corpus/jinshu/043-wangyan.json"
     },
     {
       "chapter_id": "c-jinshu-061-zhou-family",
       "work_id": "w-jinshu",
       "book_id": "b-jinshu-061",
       "source_id": "s-jinshu-061-ws7903772",
-      "source": {
-        "title": "晉書／卷061周浚及附周嵩、周謨、周馥完整單元",
-        "provider": "Wikisource",
-        "url": "https://zh.wikisource.org/w/index.php?title=%E6%99%89%E6%9B%B8%2F%E5%8D%B7061&oldid=7903772",
-        "permalink": "https://zh.wikisource.org/w/index.php?title=%E6%99%89%E6%9B%B8%2F%E5%8D%B7061&oldid=7903772",
-        "revision_id": 7903772,
-        "edition": null,
-        "accessed_on": "2026-10-20",
-        "raw_path": "sources/jinshu/wikisource-7903772-raw.wikitext",
-        "raw_file_sha256": "6e28403fc85f551b2aab898cac610180884ba0732a24a492f8ca514381b9978d",
-        "text_scope": "partial_chapter",
-        "review_status": "text_checked",
-        "license_url": "https://creativecommons.org/licenses/by-sa/4.0/",
-        "normalization": {
-          "description": "保數位原字；僅明示wiki wrappers及排版移除，完整raw與逐碼projection另存；未影像校勘。",
-          "omitted_digital_paratext": []
-        },
-        "extent": "周浚及嵩、謨、馥完整選定單元；固定見證25段4069字，止於成公簡前，不是卷六十一全卷。"
-      }
+      "chapter_ref": "data/corpus/jinshu/061-zhou-family.json"
     }
   ],
   "relations": [],

@@ -24,7 +24,7 @@
           "chapter_id": "c-shiji-036-chenqi",
           "source_id": "s-shiji-036-chenqi",
           "paragraph_id": "c-shiji-036-chenqi:p024",
-          "quote": "懷公元年，吳破楚，在郢，召陳侯。陳侯欲往，大夫曰：「吳新得意；楚王雖亡，與陳有故，不可倍。」懷公乃以疾謝吳。四年，吳復召懷公。懷公恐，如吳。吳怒其前不往，留之，因卒吳。陳乃立懷公之子越，是為湣公。"
+          "quote_passage_ref": "data/corpus/shiji/036.json"
         }
       ],
       "attestations": [
@@ -66,7 +66,7 @@
           "chapter_id": "c-shiji-036-chenqi",
           "source_id": "s-shiji-036-chenqi",
           "paragraph_id": "c-shiji-036-chenqi:p025",
-          "quote": "湣公六年，孔子適陳。吳王夫差伐陳，取三邑而去。十三年，吳復來伐陳，陳告急楚，楚昭王來救，軍於城父，吳師去。是年，楚昭王卒於城父。時孔子在陳。十五年，宋滅曹。十六年，吳王夫差伐齊，敗之艾陵，使人召陳侯。陳侯恐，如吳。楚伐陳。二十一年，齊田常弒其君簡公。二十三年，楚之白公勝殺令尹子西、子綦，襲惠王。葉公攻敗白公，白公自殺。"
+          "quote_passage_ref": "data/corpus/shiji/036.json"
         }
       ],
       "attestations": [
@@ -114,8 +114,8 @@
           "chapter_id": "c-shiji-036-chenqi",
           "source_id": "s-shiji-036-chenqi",
           "paragraph_id": "c-shiji-036-chenqi:p025",
-          "quote": "湣公六年，孔子適陳。吳王夫差伐陳，取三邑而去。十三年，吳復來伐陳，陳告急楚，楚昭王來救，軍於城父，吳師去。是年，楚昭王卒於城父。時孔子在陳。十五年，宋滅曹。十六年，吳王夫差伐齊，敗之艾陵，使人召陳侯。陳侯恐，如吳。楚伐陳。二十一年，齊田常弒其君簡公。二十三年，楚之白公勝殺令尹子西、子綦，襲惠王。葉公攻敗白公，白公自殺。",
-          "person_mention_id": "c-shiji-036-chenqi:m025-0097"
+          "person_mention_id": "c-shiji-036-chenqi:m025-0097",
+          "quote_passage_ref": "data/corpus/shiji/036.json"
         }
       ],
       "source_term": "陳侯恐，如吳",
@@ -136,7 +136,6 @@
       "raw_count": 6,
       "duplicate_count": 0,
       "counting_policy": "independent_fixed_witness_occurrences",
-      "quote": "，吳復召懷公。懷公恐，如吳。吳怒其前不往，留之，因卒吳。陳乃立懷公之子越，是為湣公。",
       "paragraph_ids": [
         "c-shiji-036-chenqi:p024",
         "c-shiji-036-chenqi:p025",
@@ -207,7 +206,12 @@
       "book_id": "b-shiji-036",
       "chapter_id": "c-shiji-036-chenqi",
       "source_id": "s-shiji-036-chenqi",
-      "work_title": "史記"
+      "work_title": "史記",
+      "chapter_ref": "data/corpus/shiji/036.json",
+      "quote_span": [
+        56,
+        98
+      ]
     }
   ],
   "table_occurrences": [],
@@ -217,24 +221,7 @@
       "work_id": "w-shiji",
       "book_id": "b-shiji-036",
       "source_id": "s-shiji-036-chenqi",
-      "source": {
-        "title": "史記／卷036",
-        "provider": "維基文庫",
-        "url": "https://zh.wikisource.org/wiki/史記/卷036",
-        "permalink": "https://zh.wikisource.org/w/index.php?title=史記/卷036&oldid=2588525",
-        "revision_id": 2588525,
-        "accessed_on": "2026-10-09",
-        "extent": "32段傳世正文，自陳胡公滿至太史公論贊，另保留1段數位見證附載索隱述贊並分層；排除2個dd導覽。",
-        "image_verified": false,
-        "rights": "古代原文；數位轉錄依維基文庫CC BY-SA 4.0，保留署名及固定版本。",
-        "license_url": "https://creativecommons.org/licenses/by-sa/4.0/",
-        "normalization": {
-          "character_conversion": {},
-          "editorial_readings": [],
-          "extraction_note": "固定版本與實讀HTML一致。原字、探續、媯／姜及傳（上）［云］等見證字樣不默改。末段以索隱述贊標題辨為附載評論，不作司馬遷正文或已校定作者。",
-          "note": "未核可靠古籍底本及影像；原紀年、世系、卜筮引語及校勘保留。已另存吉本道雅2020年論文第6–7頁的具體辨析摘要，不表示本篇全部身份、版本及現代研究已覆核。"
-        }
-      }
+      "chapter_ref": "data/corpus/shiji/036.json"
     }
   ],
   "relations": [
@@ -249,7 +236,7 @@
           "chapter_id": "c-shiji-036-chenqi",
           "source_id": "s-shiji-036-chenqi",
           "paragraph_id": "c-shiji-036-chenqi:p024",
-          "quote": "懷公元年，吳破楚，在郢，召陳侯。陳侯欲往，大夫曰：「吳新得意；楚王雖亡，與陳有故，不可倍。」懷公乃以疾謝吳。四年，吳復召懷公。懷公恐，如吳。吳怒其前不往，留之，因卒吳。陳乃立懷公之子越，是為湣公。"
+          "quote_passage_ref": "data/corpus/shiji/036.json"
         }
       ],
       "qualifiers": {
@@ -277,19 +264,19 @@
       "evidence": [
         {
           "paragraph_id": "c-shiji-036-chenqi:p024",
-          "quote": "懷公元年，吳破楚，在郢，召陳侯。陳侯欲往，大夫曰：「吳新得意；楚王雖亡，與陳有故，不可倍。」懷公乃以疾謝吳。四年，吳復召懷公。懷公恐，如吳。吳怒其前不往，留之，因卒吳。陳乃立懷公之子越，是為湣公。",
           "chapter_id": "c-shiji-036-chenqi",
           "work_id": "w-shiji",
           "book_id": "b-shiji-036",
-          "source_id": "s-shiji-036-chenqi"
+          "source_id": "s-shiji-036-chenqi",
+          "quote_passage_ref": "data/corpus/shiji/036.json"
         },
         {
           "paragraph_id": "c-shiji-036-chenqi:p028",
-          "quote": "東樓公生西樓公，西樓公生題公，題公生謀娶公。謀娶公當周厲王時。謀娶公生武公。武公立四十七年卒，子靖公立。靖公二十三年卒，子共公立。共公八年卒，子德公立。德公十八年卒，弟桓公姑容立。桓公十七年卒，子孝公丐立。孝公十七年卒，弟文公益姑立。文公十四年卒，弟平公郁立。平公十八年卒，子悼公成立。悼公十二年卒，子隱公乞立。七月，隱公弟遂弒隱公自立，是為釐公。釐公十九年卒，子湣公維立。湣公十五年，楚惠王滅陳。十六年，湣公弟閼路弒湣公代立，是為哀公。哀公立十年卒，湣公子敕立，是為出公。出公十二年卒，子簡公春立。立一年，楚惠王之四十四年，滅杞。杞後陳亡三十四年。",
           "chapter_id": "c-shiji-036-chenqi",
           "work_id": "w-shiji",
           "book_id": "b-shiji-036",
-          "source_id": "s-shiji-036-chenqi"
+          "source_id": "s-shiji-036-chenqi",
+          "quote_passage_ref": "data/corpus/shiji/036.json"
         }
       ],
       "rationale": "陳湣公越與杞湣公維不同國與世系。",
@@ -312,7 +299,7 @@
           "chapter_id": "c-shiji-036-chenqi",
           "source_id": "s-shiji-036-chenqi",
           "paragraph_id": "c-shiji-036-chenqi:p024",
-          "quote": "懷公元年，吳破楚，在郢，召陳侯。陳侯欲往，大夫曰：「吳新得意；楚王雖亡，與陳有故，不可倍。」懷公乃以疾謝吳。四年，吳復召懷公。懷公恐，如吳。吳怒其前不往，留之，因卒吳。陳乃立懷公之子越，是為湣公。"
+          "quote_passage_ref": "data/corpus/shiji/036.json"
         }
       ],
       "qualifiers": {
@@ -336,8 +323,8 @@
           "chapter_id": "c-shiji-036-chenqi",
           "source_id": "s-shiji-036-chenqi",
           "paragraph_id": "c-shiji-036-chenqi:p026",
-          "quote": "二十四年，楚惠王復國，以兵北伐，殺陳湣公，遂滅陳而有之。是歲，孔子卒。",
-          "person_mention_id": "c-shiji-036-chenqi:m026-0017"
+          "person_mention_id": "c-shiji-036-chenqi:m026-0017",
+          "quote_passage_ref": "data/corpus/shiji/036.json"
         }
       ],
       "source_term": "殺陳湣公",

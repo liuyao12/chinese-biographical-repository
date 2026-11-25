@@ -22,7 +22,7 @@
           "chapter_id": "c-shiji-101-yuanchao",
           "source_id": "s-shiji-101-yuanchao",
           "paragraph_id": "c-shiji-101-yuanchao:p013",
-          "quote": "及鼂錯已誅，袁盎以太常使吳。吳王欲使將，不肯。欲殺之，使一都尉以五百人圍守盎軍中。袁盎自其為吳相時，（嘗）有從史嘗盜愛盎侍兒，盎知之，弗泄，遇之如故。人有告從史，言「君知爾與侍者通」，乃亡歸。袁盎驅自追之，遂以侍者賜之，復為從史。及袁盎使吳見守，從史適為守盎校尉司馬，乃悉以其裝齎置二石醇醪，會天寒，士卒饑渴，飲酒醉，西南陬卒皆臥，司馬夜引袁盎起，曰：「君可以去矣，吳王期旦日斬君。」盎弗信，曰：「公何為者？」司馬曰：「臣故為從史盜君侍兒者。」盎乃驚謝曰；「公幸有親，吾不足以累公。」司馬曰：「君弟去，臣亦且亡，辟吾親，君何患！」乃以刀決張，道從醉卒（直）隧［直］出。司馬與分背，袁盎解節毛懷之，杖，步行七八里，明，見梁騎，騎馳去，遂歸報。"
+          "quote_passage_ref": "data/corpus/shiji/101.json"
         }
       ],
       "attestations": [
@@ -64,7 +64,7 @@
           "chapter_id": "c-shiji-101-yuanchao",
           "source_id": "s-shiji-101-yuanchao",
           "paragraph_id": "c-shiji-101-yuanchao:p013",
-          "quote": "及鼂錯已誅，袁盎以太常使吳。吳王欲使將，不肯。欲殺之，使一都尉以五百人圍守盎軍中。袁盎自其為吳相時，（嘗）有從史嘗盜愛盎侍兒，盎知之，弗泄，遇之如故。人有告從史，言「君知爾與侍者通」，乃亡歸。袁盎驅自追之，遂以侍者賜之，復為從史。及袁盎使吳見守，從史適為守盎校尉司馬，乃悉以其裝齎置二石醇醪，會天寒，士卒饑渴，飲酒醉，西南陬卒皆臥，司馬夜引袁盎起，曰：「君可以去矣，吳王期旦日斬君。」盎弗信，曰：「公何為者？」司馬曰：「臣故為從史盜君侍兒者。」盎乃驚謝曰；「公幸有親，吾不足以累公。」司馬曰：「君弟去，臣亦且亡，辟吾親，君何患！」乃以刀決張，道從醉卒（直）隧［直］出。司馬與分背，袁盎解節毛懷之，杖，步行七八里，明，見梁騎，騎馳去，遂歸報。"
+          "quote_passage_ref": "data/corpus/shiji/101.json"
         }
       ],
       "attestations": [
@@ -106,7 +106,6 @@
       "raw_count": 10,
       "duplicate_count": 0,
       "counting_policy": "independent_fixed_witness_occurrences",
-      "quote": "，不肯。欲殺之，使一都尉以五百人圍守盎軍中。袁盎自其為吳相時，（嘗）有從史嘗盜愛盎侍兒，盎知之，弗泄，遇之如故。人有告從史，言「君知爾與侍者通」，乃亡歸。袁盎驅自追之，遂以侍者賜之，復為從史。及袁盎使吳見守，從史適為守盎校尉司馬，乃悉以其裝齎置二石醇醪，會天寒，士卒饑渴，飲",
       "paragraph_ids": [
         "c-shiji-101-yuanchao:p013"
       ],
@@ -211,7 +210,12 @@
       "book_id": "b-shiji-101",
       "chapter_id": "c-shiji-101-yuanchao",
       "source_id": "s-shiji-101-yuanchao",
-      "work_title": "史記"
+      "work_title": "史記",
+      "chapter_ref": "data/corpus/shiji/101.json",
+      "quote_span": [
+        19,
+        156
+      ]
     }
   ],
   "table_occurrences": [],
@@ -221,24 +225,7 @@
       "work_id": "w-shiji",
       "book_id": "b-shiji-101",
       "source_id": "s-shiji-101-yuanchao",
-      "source": {
-        "title": "史記／卷101",
-        "provider": "維基文庫",
-        "url": "https://zh.wikisource.org/wiki/史記/卷101",
-        "permalink": "https://zh.wikisource.org/w/index.php?title=史記/卷101&oldid=368092",
-        "revision_id": 368092,
-        "accessed_on": "2026-10-10",
-        "extent": "22段正文含太史公論，另附1段索隱；首區塊即正文。",
-        "image_verified": false,
-        "rights": "古代原文；數位轉錄依維基文庫CC BY-SA 4.0，保留署名及固定版本。",
-        "license_url": "https://creativecommons.org/licenses/by-sa/4.0/",
-        "normalization": {
-          "character_conversion": {},
-          "editorial_readings": [],
-          "extraction_note": "只去外緣空白；鼂、陗、鬬、擥、棓、諠及（嘗）、（直）隧［直］等原字與見證符號保留。",
-          "note": "全23段已核讀；無tooltip、reference、del、s0或sup；未核底本影像。"
-        }
-      }
+      "chapter_ref": "data/corpus/shiji/101.json"
     }
   ],
   "relations": [],

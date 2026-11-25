@@ -20,7 +20,6 @@
       "raw_count": 2,
       "duplicate_count": 0,
       "counting_policy": "independent_fixed_witness_occurrences",
-      "quote": "舜之踐帝位，載天子旗，往朝父瞽叟，夔夔唯謹，如子道。封弟象爲諸侯。舜子商均亦不肖，舜乃豫薦禹於天。十七年而崩。三年喪畢，禹亦乃讓舜子，如舜讓堯子。諸侯歸之，然後禹踐天子位。堯子丹朱，舜子商均，皆有疆土，以奉先祀。服其服，禮樂如之。以客見天子，天子弗臣，示不敢專也。",
       "paragraph_ids": [
         "c-shiji-001-wudi:p026"
       ],
@@ -53,7 +52,12 @@
       "book_id": "b-shiji-001",
       "chapter_id": "c-shiji-001-wudi",
       "source_id": "s-shiji-001-wudi",
-      "work_title": "史記"
+      "work_title": "史記",
+      "chapter_ref": "data/corpus/shiji/001.json",
+      "quote_span": [
+        72,
+        204
+      ]
     },
     {
       "number": 2,
@@ -64,7 +68,6 @@
       "raw_count": 2,
       "duplicate_count": 0,
       "counting_policy": "independent_fixed_witness_occurrences",
-      "quote": "帝舜薦禹於天，爲嗣。十七年而帝舜崩。三年喪畢，禹辭辟舜之子商均於陽城。天下諸侯皆去商均而朝禹。禹於是遂即天子位，南面朝天下，國號曰夏后，姓姒氏。",
       "paragraph_ids": [
         "c-shiji-002-xia:p026"
       ],
@@ -97,7 +100,12 @@
       "book_id": "b-shiji-002",
       "chapter_id": "c-shiji-002-xia",
       "source_id": "s-shiji-002-xia",
-      "work_title": "史記"
+      "work_title": "史記",
+      "chapter_ref": "data/corpus/shiji/002.json",
+      "quote_span": [
+        0,
+        72
+      ]
     },
     {
       "number": 36,
@@ -108,7 +116,6 @@
       "raw_count": 1,
       "duplicate_count": 0,
       "counting_policy": "independent_fixed_witness_occurrences",
-      "quote": "，堯妻之二女，居于媯汭，其後因為氏姓，姓媯氏。舜已崩，傳禹天下，而舜子商均為封國。夏后之時，或失或續。至于周武王克殷紂，乃復求舜後，得媯滿，封之於陳，以奉帝舜祀，是為胡公。",
       "paragraph_ids": [
         "c-shiji-036-chenqi:p001"
       ],
@@ -132,7 +139,12 @@
       "book_id": "b-shiji-036",
       "chapter_id": "c-shiji-036-chenqi",
       "source_id": "s-shiji-036-chenqi",
-      "work_title": "史記"
+      "work_title": "史記",
+      "chapter_ref": "data/corpus/shiji/036.json",
+      "quote_span": [
+        19,
+        105
+      ]
     },
     {
       "number": 71,
@@ -143,7 +155,6 @@
       "raw_count": 1,
       "duplicate_count": 0,
       "counting_policy": "independent_fixed_witness_occurrences",
-      "quote": "陳氏出自媯姓，虞帝舜之後。夏禹封舜子商均於虞城，三十二世孫遏父為周陶正，武王妻以元女大姬，生滿，封之於陳，賜姓媯，以奉舜祀，是為胡公。九世孫厲公他生敬仲完，奔齊，以國為姓。既而食邑於田，又為田氏。十五世孫齊王建為秦所滅。三子：昇、桓、軫。桓",
       "paragraph_ids": [
         "c-xintangshu-071xia-chen-preface:p001"
       ],
@@ -167,7 +178,12 @@
       "book_id": "b-xintangshu-071-xia",
       "chapter_id": "c-xintangshu-071xia-chen-preface",
       "source_id": "s-xintangshu-071xia-chen-preface",
-      "work_title": "新唐書"
+      "work_title": "新唐書",
+      "chapter_ref": "data/corpus/xintangshu/071xia-chen-preface.json",
+      "quote_span": [
+        0,
+        120
+      ]
     }
   ],
   "table_occurrences": [],
@@ -177,101 +193,28 @@
       "work_id": "w-shiji",
       "book_id": "b-shiji-001",
       "source_id": "s-shiji-001-wudi",
-      "source": {
-        "title": "史記／卷001",
-        "provider": "維基文庫",
-        "url": "https://zh.wikisource.org/wiki/史記/卷001",
-        "permalink": "https://zh.wikisource.org/w/index.php?title=史記/卷001&oldid=7903634",
-        "revision_id": 7903634,
-        "accessed_on": "2026-10-09",
-        "extent": "正文全文；不含現代章節標題、跨維基說明與校勘記",
-        "image_verified": false,
-        "rights": "古代原文；數位轉錄依維基文庫 CC BY-SA 4.0，保留署名及版本連結。",
-        "license_url": "https://creativecommons.org/licenses/by-sa/4.0/",
-        "normalization": {
-          "character_conversion": {
-            "弃": "棄",
-            "异": "異"
-          },
-          "note": "保留古代異體；移除現代註號，兩個簡體字形明記轉換。"
-        }
-      }
+      "chapter_ref": "data/corpus/shiji/001.json"
     },
     {
       "chapter_id": "c-shiji-002-xia",
       "work_id": "w-shiji",
       "book_id": "b-shiji-002",
       "source_id": "s-shiji-002-xia",
-      "source": {
-        "title": "史記／卷002",
-        "provider": "維基文庫",
-        "url": "https://zh.wikisource.org/wiki/史記/卷002",
-        "permalink": "https://zh.wikisource.org/w/index.php?title=史記/卷002&oldid=7903612",
-        "revision_id": 7903612,
-        "accessed_on": "2026-10-09",
-        "extent": "正文全文；不含現代章節標題、跨維基說明及校勘記",
-        "image_verified": false,
-        "rights": "古代原文；數位轉錄依維基文庫 CC BY-SA 4.0，保留署名及固定版本。",
-        "license_url": "https://creativecommons.org/licenses/by-sa/4.0/",
-        "normalization": {
-          "character_conversion": {
-            "内": "內"
-          },
-          "note": "僅轉換內字字形，保留啓、荆、惪、辠等異體；移除現代註號。"
-        }
-      }
+      "chapter_ref": "data/corpus/shiji/002.json"
     },
     {
       "chapter_id": "c-shiji-036-chenqi",
       "work_id": "w-shiji",
       "book_id": "b-shiji-036",
       "source_id": "s-shiji-036-chenqi",
-      "source": {
-        "title": "史記／卷036",
-        "provider": "維基文庫",
-        "url": "https://zh.wikisource.org/wiki/史記/卷036",
-        "permalink": "https://zh.wikisource.org/w/index.php?title=史記/卷036&oldid=2588525",
-        "revision_id": 2588525,
-        "accessed_on": "2026-10-09",
-        "extent": "32段傳世正文，自陳胡公滿至太史公論贊，另保留1段數位見證附載索隱述贊並分層；排除2個dd導覽。",
-        "image_verified": false,
-        "rights": "古代原文；數位轉錄依維基文庫CC BY-SA 4.0，保留署名及固定版本。",
-        "license_url": "https://creativecommons.org/licenses/by-sa/4.0/",
-        "normalization": {
-          "character_conversion": {},
-          "editorial_readings": [],
-          "extraction_note": "固定版本與實讀HTML一致。原字、探續、媯／姜及傳（上）［云］等見證字樣不默改。末段以索隱述贊標題辨為附載評論，不作司馬遷正文或已校定作者。",
-          "note": "未核可靠古籍底本及影像；原紀年、世系、卜筮引語及校勘保留。已另存吉本道雅2020年論文第6–7頁的具體辨析摘要，不表示本篇全部身份、版本及現代研究已覆核。"
-        }
-      }
+      "chapter_ref": "data/corpus/shiji/036.json"
     },
     {
       "chapter_id": "c-xintangshu-071xia-chen-preface",
       "work_id": "w-xintangshu",
       "book_id": "b-xintangshu-071-xia",
       "source_id": "s-xintangshu-071xia-chen-preface",
-      "source": {
-        "title": "新唐書/卷071下",
-        "provider": "維基文庫",
-        "url": "https://zh.wikisource.org/w/index.php?title=%E6%96%B0%E5%94%90%E6%9B%B8%2F%E5%8D%B7071%E4%B8%8B&oldid=2405769",
-        "permalink": "https://zh.wikisource.org/w/index.php?title=%E6%96%B0%E5%94%90%E6%9B%B8%2F%E5%8D%B7071%E4%B8%8B&oldid=2405769",
-        "revision_id": 2405769,
-        "response_sha256": "141e30b0a02865af6c2b7ce5538dd30febde373d07bbd1b148ffb4df11f263cf",
-        "raw_sha256": "2f764391521a46b9a7eb1b6bc8fc145ed307e7a35cc1c98088078ff262e39639",
-        "edition": "收到數位轉錄；所據最早現存古本未知，未校圖",
-        "image_verified": false,
-        "text_scope": "partial_chapter",
-        "extent": "固定raw第747行陳氏序完整409字；不含後續wikitable、不含其他姓、不是卷七十一下完成",
-        "rights": "古代原文，WS數位編輯層CC BY-SA 4.0，見來源頁",
-        "accessed_on": "2026-10-22",
-        "retrieval_qualification": "此日重讀庫內既存固定檔；非本批新HTTP擷取，授權沿封存metadata未重新開權利頁。",
-        "license_url": "https://zh.wikisource.org/wiki/Wikisource:版權信息",
-        "review_status": "text_checked",
-        "normalization": {
-          "character_conversion": "none",
-          "extraction_note": "固定raw第747行409字逐字截取；不改古字、標點，不含後續wikitable。"
-        }
-      }
+      "chapter_ref": "data/corpus/xintangshu/071xia-chen-preface.json"
     }
   ],
   "relations": [
@@ -286,7 +229,7 @@
           "chapter_id": "c-shiji-001-wudi",
           "source_id": "s-shiji-001-wudi",
           "paragraph_id": "c-shiji-001-wudi:p026",
-          "quote": "舜年二十以孝聞，年三十堯舉之，年五十攝行天子事，年五十八堯崩，年六十一代堯踐帝位。踐帝位三十九年，南巡狩，崩於蒼梧之野。葬於江南九疑，是爲零陵。舜之踐帝位，載天子旗，往朝父瞽叟，夔夔唯謹，如子道。封弟象爲諸侯。舜子商均亦不肖，舜乃豫薦禹於天。十七年而崩。三年喪畢，禹亦乃讓舜子，如舜讓堯子。諸侯歸之，然後禹踐天子位。堯子丹朱，舜子商均，皆有疆土，以奉先祀。服其服，禮樂如之。以客見天子，天子弗臣，示不敢專也。"
+          "quote_passage_ref": "data/corpus/shiji/001.json"
         }
       ],
       "qualifiers": {
@@ -327,7 +270,7 @@
           "chapter_id": "c-shiji-036-chenqi",
           "source_id": "s-shiji-036-chenqi",
           "paragraph_id": "c-shiji-036-chenqi:p001",
-          "quote": "陳胡公滿者，虞帝舜之後也。昔舜為庶人時，堯妻之二女，居于媯汭，其後因為氏姓，姓媯氏。舜已崩，傳禹天下，而舜子商均為封國。夏后之時，或失或續。至于周武王克殷紂，乃復求舜後，得媯滿，封之於陳，以奉帝舜祀，是為胡公。"
+          "quote_passage_ref": "data/corpus/shiji/036.json"
         }
       ],
       "qualifiers": {
@@ -360,7 +303,7 @@
           "chapter_id": "c-shiji-001-wudi",
           "source_id": "s-shiji-001-wudi",
           "paragraph_id": "c-shiji-001-wudi:p026",
-          "quote": "舜年二十以孝聞，年三十堯舉之，年五十攝行天子事，年五十八堯崩，年六十一代堯踐帝位。踐帝位三十九年，南巡狩，崩於蒼梧之野。葬於江南九疑，是爲零陵。舜之踐帝位，載天子旗，往朝父瞽叟，夔夔唯謹，如子道。封弟象爲諸侯。舜子商均亦不肖，舜乃豫薦禹於天。十七年而崩。三年喪畢，禹亦乃讓舜子，如舜讓堯子。諸侯歸之，然後禹踐天子位。堯子丹朱，舜子商均，皆有疆土，以奉先祀。服其服，禮樂如之。以客見天子，天子弗臣，示不敢專也。"
+          "quote_passage_ref": "data/corpus/shiji/001.json"
         }
       ],
       "qualifiers": {
@@ -401,7 +344,7 @@
           "chapter_id": "c-shiji-036-chenqi",
           "source_id": "s-shiji-036-chenqi",
           "paragraph_id": "c-shiji-036-chenqi:p001",
-          "quote": "陳胡公滿者，虞帝舜之後也。昔舜為庶人時，堯妻之二女，居于媯汭，其後因為氏姓，姓媯氏。舜已崩，傳禹天下，而舜子商均為封國。夏后之時，或失或續。至于周武王克殷紂，乃復求舜後，得媯滿，封之於陳，以奉帝舜祀，是為胡公。"
+          "quote_passage_ref": "data/corpus/shiji/036.json"
         }
       ],
       "qualifiers": {

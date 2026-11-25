@@ -29,8 +29,8 @@
           "chapter_id": "c-shiji-067-disciples",
           "source_id": "s-shiji-067-disciples",
           "paragraph_id": "c-shiji-067-disciples:p082",
-          "quote": "商瞿，魯人，字子木。少孔子二十九歳。",
-          "person_mention_id": "c-shiji-067-disciples:m082-0000"
+          "person_mention_id": "c-shiji-067-disciples:m082-0000",
+          "quote_passage_ref": "data/corpus/shiji/067.json"
         }
       ],
       "interpretation_note": "按傳首或本段明示原地名保存，不將籍貫、居所、遷移與死亡地互換；傳授鏈每人各存來源地，不推共同到訪。未知年月與現代位置不補。",
@@ -55,7 +55,7 @@
           "chapter_id": "c-shiji-121-rulin",
           "source_id": "s-shiji121-rulin",
           "paragraph_id": "c-shiji-121-rulin:p019",
-          "quote": "自魯商瞿受易孔子，孔子卒，商瞿傳易，六世至齊人田何，字子莊，而漢興。田何傳東武人王同子仲，子仲傳菑川人楊何。何以易，元光元年徵，官至中大夫。齊人即墨成以易至城陽相。廣川人孟但以易為太子門大夫。魯人周霸，莒人衡胡，臨菑人主父偃，皆以易至二千石。然要言易者本於楊何之家。"
+          "quote_passage_ref": "data/corpus/shiji/121.json"
         }
       ],
       "source_term": "魯商瞿",
@@ -76,7 +76,6 @@
       "raw_count": 7,
       "duplicate_count": 0,
       "counting_policy": "independent_fixed_witness_occurrences",
-      "quote": "商瞿，魯人，字子木。少孔子二十九歳。",
       "paragraph_ids": [
         "c-shiji-067-disciples:p082",
         "c-shiji-067-disciples:p083",
@@ -156,7 +155,12 @@
       "book_id": "b-shiji-067",
       "chapter_id": "c-shiji-067-disciples",
       "source_id": "s-shiji-067-disciples",
-      "work_title": "史記"
+      "work_title": "史記",
+      "chapter_ref": "data/corpus/shiji/067.json",
+      "quote_span": [
+        0,
+        18
+      ]
     },
     {
       "number": 121,
@@ -167,7 +171,6 @@
       "raw_count": 2,
       "duplicate_count": 0,
       "counting_policy": "independent_fixed_witness_occurrences",
-      "quote": "自魯商瞿受易孔子，孔子卒，商瞿傳易，六世至齊人田何，字子莊，而漢興。田何傳東武人王同子仲，子仲傳菑川人楊何。何以易，元光元年徵，官至中大夫。齊人即墨成以易至城陽相。廣川人孟但以易為太子門大夫。魯人周霸，莒人衡",
       "paragraph_ids": [
         "c-shiji-121-rulin:p019"
       ],
@@ -200,7 +203,12 @@
       "book_id": "b-shiji-121",
       "chapter_id": "c-shiji-121-rulin",
       "source_id": "s-shiji121-rulin",
-      "work_title": "史記"
+      "work_title": "史記",
+      "chapter_ref": "data/corpus/shiji/121.json",
+      "quote_span": [
+        0,
+        104
+      ]
     }
   ],
   "table_occurrences": [],
@@ -210,48 +218,14 @@
       "work_id": "w-shiji",
       "book_id": "b-shiji-067",
       "source_id": "s-shiji-067-disciples",
-      "source": {
-        "title": "史記／卷067",
-        "provider": "維基文庫",
-        "url": "https://zh.wikisource.org/wiki/史記/卷067",
-        "permalink": "https://zh.wikisource.org/w/index.php?title=史記/卷067&oldid=7869003",
-        "revision_id": 7869003,
-        "accessed_on": "2026-10-09",
-        "extent": "152段正文，自孔子曰受業身通者至太史公論贊；排除ws-header中的導覽名單、後附索隱述贊及現代版權告示。",
-        "image_verified": false,
-        "rights": "古代原文；數位轉錄依維基文庫CC BY-SA 4.0，保留署名及固定版本。",
-        "license_url": "https://creativecommons.org/licenses/by-sa/4.0/",
-        "normalization": {
-          "character_conversion": {},
-          "editorial_readings": [],
-          "extraction_note": "取得時HTML與固定修訂一致，只去外緣空白；保留髙、歳、衞、漆彫、曾蒧等原字。導覽名單與正文異體不混接。",
-          "note": "全152段已核讀，人物標註待逐段處理；未核可靠底本、影像或現代研究。"
-        }
-      }
+      "chapter_ref": "data/corpus/shiji/067.json"
     },
     {
       "chapter_id": "c-shiji-121-rulin",
       "work_id": "w-shiji",
       "book_id": "b-shiji-121",
       "source_id": "s-shiji121-rulin",
-      "source": {
-        "title": "史記／卷121",
-        "provider": "維基文庫",
-        "url": "https://zh.wikisource.org/wiki/史記/卷121",
-        "permalink": "https://zh.wikisource.org/w/index.php?title=史記/卷121&oldid=8735621",
-        "revision_id": 8735621,
-        "accessed_on": "2026-10-11",
-        "extent": "固定修訂全文25段，包括末段索隱述贊。",
-        "image_verified": false,
-        "rights": "古代原文；數位轉錄依維基文庫CC BY-SA 4.0，保留署名及固定版本。",
-        "license_url": "https://creativecommons.org/licenses/by-sa/4.0/",
-        "normalization": {
-          "character_conversion": {},
-          "editorial_readings": [],
-          "extraction_note": "去header2、現代節標與wikipedia模板，保留繆西王等原字；未核影像。",
-          "note": "末段索隱述贊分層，太史公論贊屬篇文。"
-        }
-      }
+      "chapter_ref": "data/corpus/shiji/121.json"
     }
   ],
   "relations": [
@@ -266,7 +240,7 @@
           "chapter_id": "c-shiji-067-disciples",
           "source_id": "s-shiji-067-disciples",
           "paragraph_id": "c-shiji-067-disciples:p098",
-          "quote": "孔子既沒，弟子思慕，有若狀似孔子，弟子相與共立爲師，師之如夫子時也。他日，弟子進問曰：「昔夫子當行，使弟子持雨具，已而果雨。弟子問曰：『夫子何以知之？』夫子曰：『《詩》不云乎？「月離于畢，俾滂沱矣。」昨暮月不宿畢乎？』他日，月宿畢，竟不雨。商瞿年長無子，其母爲取室。孔子使之齊，瞿母請之。孔子曰：『無憂，瞿年四十後當有五丈夫子。』已而果然。問夫子何以知此？」有若默然無以應。弟子起曰：「有子避之，此非子之座也！」"
+          "quote_passage_ref": "data/corpus/shiji/067.json"
         }
       ],
       "qualifiers": {
@@ -296,11 +270,11 @@
       "chapter_id": "c-shiji-067-disciples",
       "source_id": "s-shiji-067-disciples",
       "paragraph_id": "c-shiji-067-disciples:p082",
-      "quote": "商瞿，魯人，字子木。少孔子二十九歳。",
       "note": "依本段所書姓名與明示字號分欄；姓氏劃分為編者判讀，保留複姓及完整名，不從字號倒造本名、不補未見官爵或血緣。",
       "status": "editorial_provisional",
       "human_reviewed": false,
-      "zi": "子木"
+      "zi": "子木",
+      "quote_passage_ref": "data/corpus/shiji/067.json"
     }
   ],
   "person_ids": [
@@ -318,7 +292,7 @@
           "chapter_id": "c-shiji-067-disciples",
           "source_id": "s-shiji-067-disciples",
           "paragraph_id": "c-shiji-067-disciples:p098",
-          "quote": "孔子既沒，弟子思慕，有若狀似孔子，弟子相與共立爲師，師之如夫子時也。他日，弟子進問曰：「昔夫子當行，使弟子持雨具，已而果雨。弟子問曰：『夫子何以知之？』夫子曰：『《詩》不云乎？「月離于畢，俾滂沱矣。」昨暮月不宿畢乎？』他日，月宿畢，竟不雨。商瞿年長無子，其母爲取室。孔子使之齊，瞿母請之。孔子曰：『無憂，瞿年四十後當有五丈夫子。』已而果然。問夫子何以知此？」有若默然無以應。弟子起曰：「有子避之，此非子之座也！」"
+          "quote_passage_ref": "data/corpus/shiji/067.json"
         }
       ],
       "qualifiers": {

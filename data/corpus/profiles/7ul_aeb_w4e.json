@@ -21,7 +21,7 @@
           "chapter_id": "c-shiji-100-jibu",
           "source_id": "s-shiji-100-jibu",
           "paragraph_id": "c-shiji-100-jibu:p006",
-          "quote": "季布母弟丁公，爲楚將。丁公爲項羽逐窘髙祖彭城西，短兵接，髙祖急，顧丁公曰：「兩賢豈相戹哉！」於是丁公引兵而還，漢王遂解去。及項王滅，丁公謁見髙祖。髙祖以丁公徇軍中，曰：「丁公爲項王臣不忠，使項王失天下者，乃丁公也。」遂斬丁公，曰：「使後世爲人臣者無效丁公！」"
+          "quote_passage_ref": "data/corpus/shiji/100.json"
         }
       ],
       "attestations": [
@@ -63,7 +63,6 @@
       "raw_count": 10,
       "duplicate_count": 0,
       "counting_policy": "independent_fixed_witness_occurrences",
-      "quote": "季布母弟丁公，爲楚將。丁公爲項羽逐窘髙祖彭城西，短兵接，髙祖急，顧丁公曰：「兩賢豈相戹哉！」於是丁公引兵而還，漢王遂解去。及項王滅，丁公謁見髙祖。髙祖以丁公徇軍中，曰：「丁公爲項王臣不忠，使項王失天下者，乃丁公也",
       "paragraph_ids": [
         "c-shiji-100-jibu:p006"
       ],
@@ -168,7 +167,12 @@
       "book_id": "b-shiji-100",
       "chapter_id": "c-shiji-100-jibu",
       "source_id": "s-shiji-100-jibu",
-      "work_title": "史記"
+      "work_title": "史記",
+      "chapter_ref": "data/corpus/shiji/100.json",
+      "quote_span": [
+        0,
+        106
+      ]
     }
   ],
   "table_occurrences": [],
@@ -178,112 +182,14 @@
       "work_id": "w-shiji",
       "book_id": "b-shiji-005",
       "source_id": "s-shiji-005-qin",
-      "source": {
-        "title": "史記／卷005",
-        "provider": "維基文庫",
-        "url": "https://zh.wikisource.org/wiki/史記/卷005",
-        "permalink": "https://zh.wikisource.org/w/index.php?title=史記/卷005&oldid=8744286",
-        "revision_id": 8744286,
-        "accessed_on": "2026-10-09",
-        "extent": "77段數位正文；排除註釋版導覽與註號，見證行內校勘符號暫原樣保留。",
-        "image_verified": false,
-        "rights": "古代原文；數位轉錄依維基文庫 CC BY-SA 4.0，保留署名及固定版本。",
-        "license_url": "https://creativecommons.org/licenses/by-sa/4.0/",
-        "normalization": {
-          "character_conversion": {
-            "铚": "銍",
-            "绖": "絰",
-            "龁": "齕"
-          },
-          "note": "第9段編者重複標記另存，其餘行內校勘符號仍待逐處分離；不稱已核讀底本。",
-          "editorial_readings": [
-            {
-              "paragraph_id": "c-shiji-005-qin:p009",
-              "witness_form": "（世父）世父",
-              "body_reading": "世父",
-              "note": "數位見證重複的括號標記另存；不作第二個正文人物提及。"
-            },
-            {
-              "paragraph_id": "c-shiji-005-qin:p022",
-              "witness_form": "铚",
-              "body_reading": "銍",
-              "note": "數位見證混入簡體字，轉繁體並保留字形轉換記錄；未核讀影像。"
-            },
-            {
-              "paragraph_id": "c-shiji-005-qin:p028",
-              "witness_form": "绖",
-              "body_reading": "絰",
-              "note": "數位見證混入簡體字，轉繁體並保留字形轉換記錄；未核讀影像。"
-            },
-            {
-              "paragraph_id": "c-shiji-005-qin:p033",
-              "witness_form": "绖",
-              "body_reading": "絰",
-              "note": "數位見證混入簡體字，轉繁體並保存原字；未核影像。"
-            },
-            {
-              "paragraph_id": "c-shiji-005-qin:p070",
-              "witness_form": "龁",
-              "body_reading": "齕",
-              "note": "數位見證簡體字轉繁體，原字保留；未核影像。"
-            },
-            {
-              "paragraph_id": "c-shiji-005-qin:p072",
-              "witness_form": "绖",
-              "body_reading": "絰",
-              "note": "數位見證簡體字轉繁體，原字保留；未核影像。"
-            },
-            {
-              "paragraph_id": "c-shiji-005-qin:p074",
-              "witness_form": "龁",
-              "body_reading": "齕",
-              "note": "數位見證簡體字轉繁體，原字保留；未核影像。"
-            },
-            {
-              "paragraph_id": "c-shiji-005-qin:p070",
-              "witness_form": "胡（傷）［陽］",
-              "body_reading": "胡傷",
-              "note": "行內校勘標記另存，成對讀法保留改讀前的字；身份與底本待核。"
-            },
-            {
-              "paragraph_id": "c-shiji-005-qin:p070",
-              "witness_form": "南（郡）［陽］",
-              "body_reading": "南郡",
-              "note": "行內校勘標記另存，成對讀法保留改讀前的字；身份與底本待核。"
-            },
-            {
-              "paragraph_id": "c-shiji-005-qin:p070",
-              "witness_form": "（武安）",
-              "body_reading": "",
-              "note": "行內校勘標記另存，成對讀法保留改讀前的字；身份與底本待核。"
-            }
-          ]
-        }
-      }
+      "chapter_ref": "data/corpus/shiji/005.json"
     },
     {
       "chapter_id": "c-shiji-100-jibu",
       "work_id": "w-shiji",
       "book_id": "b-shiji-100",
       "source_id": "s-shiji-100-jibu",
-      "source": {
-        "title": "史記／卷100",
-        "provider": "維基文庫",
-        "url": "https://zh.wikisource.org/wiki/史記/卷100",
-        "permalink": "https://zh.wikisource.org/w/index.php?title=史記/卷100&oldid=1965696",
-        "revision_id": 1965696,
-        "accessed_on": "2026-10-10",
-        "extent": "11段正文含太史公論，另附1段索隱；首區塊即正文，無導覽可跳。",
-        "image_verified": false,
-        "rights": "古代原文；數位轉錄依維基文庫CC BY-SA 4.0，保留署名及固定版本。",
-        "license_url": "https://creativecommons.org/licenses/by-sa/4.0/",
-        "normalization": {
-          "character_conversion": {},
-          "editorial_readings": [],
-          "extraction_note": "只去外緣空白；髙、爲、呉、歳、説、兪、亨及校勘符號原字保留。",
-          "note": "全12個HTML區塊已核讀，無tooltip/reference/del/s0；未核底本影像。"
-        }
-      }
+      "chapter_ref": "data/corpus/shiji/100.json"
     }
   ],
   "relations": [],
@@ -326,7 +232,7 @@
           "chapter_id": "c-shiji-100-jibu",
           "source_id": "s-shiji-100-jibu",
           "paragraph_id": "c-shiji-100-jibu:p006",
-          "quote": "季布母弟丁公，爲楚將。丁公爲項羽逐窘髙祖彭城西，短兵接，髙祖急，顧丁公曰：「兩賢豈相戹哉！」於是丁公引兵而還，漢王遂解去。及項王滅，丁公謁見髙祖。髙祖以丁公徇軍中，曰：「丁公爲項王臣不忠，使項王失天下者，乃丁公也。」遂斬丁公，曰：「使後世爲人臣者無效丁公！」"
+          "quote_passage_ref": "data/corpus/shiji/100.json"
         }
       ],
       "selection": {
@@ -380,8 +286,8 @@
           "chapter_id": "c-shiji-100-jibu",
           "source_id": "s-shiji-100-jibu",
           "paragraph_id": "c-shiji-100-jibu:p006",
-          "quote": "季布母弟丁公，爲楚將。丁公爲項羽逐窘髙祖彭城西，短兵接，髙祖急，顧丁公曰：「兩賢豈相戹哉！」於是丁公引兵而還，漢王遂解去。及項王滅，丁公謁見髙祖。髙祖以丁公徇軍中，曰：「丁公爲項王臣不忠，使項王失天下者，乃丁公也。」遂斬丁公，曰：「使後世爲人臣者無效丁公！」",
-          "person_mention_id": "c-shiji-100-jibu:m006-0004"
+          "person_mention_id": "c-shiji-100-jibu:m006-0004",
+          "quote_passage_ref": "data/corpus/shiji/100.json"
         }
       ],
       "reviewer": "Codex（AI 代理）",

@@ -21,7 +21,6 @@
       "raw_count": 4,
       "duplicate_count": 0,
       "counting_policy": "independent_fixed_witness_occurrences",
-      "quote": "厲公四年，祭仲專國政。厲公患之，陰使其婿雍糾欲殺祭仲。糾妻，祭仲女也，知之，謂其母曰：「父與夫孰親？」母曰：「父一而已，人盡夫也。」女乃告祭仲，祭仲反殺雍糾，戮之於市。厲公無柰祭仲何，怒糾曰：「謀及婦人，死固宜哉！」夏，厲公出居邊邑櫟。祭仲迎昭",
       "paragraph_ids": [
         "c-shiji-042-zheng:p009"
       ],
@@ -72,7 +71,12 @@
       "book_id": "b-shiji-042",
       "chapter_id": "c-shiji-042-zheng",
       "source_id": "s-shiji-042-zheng",
-      "work_title": "史記"
+      "work_title": "史記",
+      "chapter_ref": "data/corpus/shiji/042.json",
+      "quote_span": [
+        0,
+        122
+      ]
     }
   ],
   "table_occurrences": [],
@@ -82,24 +86,7 @@
       "work_id": "w-shiji",
       "book_id": "b-shiji-042",
       "source_id": "s-shiji-042-zheng",
-      "source": {
-        "title": "史記／卷042",
-        "provider": "維基文庫",
-        "url": "https://zh.wikisource.org/wiki/史記/卷042",
-        "permalink": "https://zh.wikisource.org/w/index.php?title=史記/卷042&oldid=2016409",
-        "revision_id": 2016409,
-        "accessed_on": "2026-10-09",
-        "extent": "59段正文及1段分層索隱述贊；排除2個dd導覽，只去除段落外緣空白。",
-        "image_verified": false,
-        "rights": "古代原文；數位轉錄依維基文庫CC BY-SA 4.0，保留署名及固定版本。",
-        "license_url": "https://creativecommons.org/licenses/by-sa/4.0/",
-        "normalization": {
-          "character_conversion": {},
-          "editorial_readings": [],
-          "extraction_note": "固定修訂與取得時HTML一致；保留古代異體、九月（辛）［丁］亥等校勘符號及溉逐、掔羊、持兩端等疑讀，不擅選讀法。",
-          "note": "全60段數位正文已閱讀；未核古籍影像、可靠底本及現代研究。"
-        }
-      }
+      "chapter_ref": "data/corpus/shiji/042.json"
     }
   ],
   "relations": [],
@@ -125,8 +112,8 @@
           "chapter_id": "c-shiji-042-zheng",
           "source_id": "s-shiji-042-zheng",
           "paragraph_id": "c-shiji-042-zheng:p009",
-          "quote": "厲公四年，祭仲專國政。厲公患之，陰使其婿雍糾欲殺祭仲。糾妻，祭仲女也，知之，謂其母曰：「父與夫孰親？」母曰：「父一而已，人盡夫也。」女乃告祭仲，祭仲反殺雍糾，戮之於市。厲公無柰祭仲何，怒糾曰：「謀及婦人，死固宜哉！」夏，厲公出居邊邑櫟。祭仲迎昭公忽，六月乙亥，復入鄭，卽位。",
-          "person_mention_id": "c-shiji-042-zheng:m009-0020"
+          "person_mention_id": "c-shiji-042-zheng:m009-0020",
+          "quote_passage_ref": "data/corpus/shiji/042.json"
         }
       ],
       "source_term": "祭仲反殺雍糾",

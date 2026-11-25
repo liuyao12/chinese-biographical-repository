@@ -21,7 +21,7 @@
           "chapter_id": "c-shiji-051-jingyan",
           "source_id": "s-shiji-051-jingyan",
           "paragraph_id": "c-shiji-051-jingyan:p005",
-          "quote": "高祖十一年秋，淮南王黥布反，東擊荊。荊王賈與戰，不勝，走富陵，為布軍所殺。高祖自擊破布。十二年，立沛侯劉濞為吳王，王故荊地。"
+          "quote_passage_ref": "data/corpus/shiji/051.json"
         }
       ],
       "attestations": [
@@ -50,8 +50,8 @@
               "chapter_id": "c-shiji-051-jingyan",
               "source_id": "s-shiji-051-jingyan",
               "paragraph_id": "c-shiji-051-jingyan:p005",
-              "quote": "高祖十一年秋，淮南王黥布反，東擊荊。荊王賈與戰，不勝，走富陵，為布軍所殺。高祖自擊破布。十二年，立沛侯劉濞為吳王，王故荊地。",
-              "person_mention_id": "c-shiji-051-jingyan:m005-0049"
+              "person_mention_id": "c-shiji-051-jingyan:m005-0049",
+              "quote_passage_ref": "data/corpus/shiji/051.json"
             }
           ]
         }
@@ -72,7 +72,7 @@
           "chapter_id": "c-shiji-051-jingyan",
           "source_id": "s-shiji-051-jingyan",
           "paragraph_id": "c-shiji-051-jingyan:p005",
-          "quote": "高祖十一年秋，淮南王黥布反，東擊荊。荊王賈與戰，不勝，走富陵，為布軍所殺。高祖自擊破布。十二年，立沛侯劉濞為吳王，王故荊地。"
+          "quote_passage_ref": "data/corpus/shiji/051.json"
         }
       ],
       "attestations": [
@@ -96,7 +96,7 @@
               "chapter_id": "c-shiji-051-jingyan",
               "source_id": "s-shiji-051-jingyan",
               "paragraph_id": "c-shiji-051-jingyan:p005",
-              "quote": "高祖十一年秋，淮南王黥布反，東擊荊。荊王賈與戰，不勝，走富陵，為布軍所殺。高祖自擊破布。十二年，立沛侯劉濞為吳王，王故荊地。"
+              "quote_passage_ref": "data/corpus/shiji/051.json"
             }
           ]
         },
@@ -122,7 +122,6 @@
       "raw_count": 1,
       "duplicate_count": 0,
       "counting_policy": "independent_fixed_witness_occurrences",
-      "quote": "東擊荊。荊王賈與戰，不勝，走富陵，為布軍所殺。高祖自擊破布。十二年，立沛侯劉濞為吳王，王故荊地。",
       "paragraph_ids": [
         "c-shiji-051-jingyan:p005"
       ],
@@ -146,7 +145,12 @@
       "book_id": "b-shiji-051",
       "chapter_id": "c-shiji-051-jingyan",
       "source_id": "s-shiji-051-jingyan",
-      "work_title": "史記"
+      "work_title": "史記",
+      "chapter_ref": "data/corpus/shiji/051.json",
+      "quote_span": [
+        14,
+        62
+      ]
     }
   ],
   "table_occurrences": [],
@@ -156,24 +160,7 @@
       "work_id": "w-shiji",
       "book_id": "b-shiji-051",
       "source_id": "s-shiji-051-jingyan",
-      "source": {
-        "title": "史記／卷051",
-        "provider": "維基文庫",
-        "url": "https://zh.wikisource.org/wiki/史記/卷051",
-        "permalink": "https://zh.wikisource.org/w/index.php?title=史記/卷051&oldid=2380315",
-        "revision_id": 2380315,
-        "accessed_on": "2026-10-09",
-        "extent": "11段篇文及1段索隱述贊，保留末段行內索隱述贊標記。",
-        "image_verified": false,
-        "rights": "古代原文；數位轉錄依維基文庫CC BY-SA 4.0，保留署名及固定版本。",
-        "license_url": "https://creativecommons.org/licenses/by-sa/4.0/",
-        "normalization": {
-          "character_conversion": {},
-          "editorial_readings": [],
-          "extraction_note": "取得時HTML與固定修訂一致，只去外緣空白；保留［呂］、邸弟、瑯邪等原字及校勘字樣。",
-          "note": "全12段已讀並作明示人物首輪，索隱述贊另分層；未核底本、影像或現代研究。"
-        }
-      }
+      "chapter_ref": "data/corpus/shiji/051.json"
     }
   ],
   "relations": [],

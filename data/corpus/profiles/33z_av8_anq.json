@@ -22,7 +22,7 @@
           "chapter_id": "c-shiji-096-zhang",
           "source_id": "s-shiji-096-zhang",
           "paragraph_id": "c-shiji-096-zhang:p028",
-          "quote": "丞相匡衡者，東海人也。好讀書，從博士受詩。家貧，衡傭作以給食飲。才下，數射策不中，至九，乃中丙科。其經以不中科故明習。補平原文學卒史。數年，郡不尊敬。御史徵之，以補百石屬薦為郎，而補博士，拜為太子少傅，而事孝元帝。孝元好詩，而遷為光祿勳，居殿中為師，授教左右，而縣官坐其旁聽，甚善之，日以尊貴。御史大夫鄭弘坐事免，而匡君為御史大夫。歲餘，韋丞相死，匡君代為丞相，封樂安侯。以十年之閒，不出長安城門而至丞相，豈非遇時而命也哉！"
+          "quote_passage_ref": "data/corpus/shiji/096.json"
         }
       ],
       "attestations": [
@@ -51,7 +51,7 @@
               "chapter_id": "c-shiji-096-zhang",
               "source_id": "s-shiji-096-zhang",
               "paragraph_id": "c-shiji-096-zhang:p028",
-              "quote": "丞相匡衡者，東海人也。好讀書，從博士受詩。家貧，衡傭作以給食飲。才下，數射策不中，至九，乃中丙科。其經以不中科故明習。補平原文學卒史。數年，郡不尊敬。御史徵之，以補百石屬薦為郎，而補博士，拜為太子少傅，而事孝元帝。孝元好詩，而遷為光祿勳，居殿中為師，授教左右，而縣官坐其旁聽，甚善之，日以尊貴。御史大夫鄭弘坐事免，而匡君為御史大夫。歲餘，韋丞相死，匡君代為丞相，封樂安侯。以十年之閒，不出長安城門而至丞相，豈非遇時而命也哉！"
+              "quote_passage_ref": "data/corpus/shiji/096.json"
             }
           ]
         }
@@ -72,7 +72,6 @@
       "raw_count": 2,
       "duplicate_count": 0,
       "counting_policy": "independent_fixed_witness_occurrences",
-      "quote": "祿勳，居殿中為師，授教左右，而縣官坐其旁聽，甚善之，日以尊貴。御史大夫鄭弘坐事免，而匡君為御史大夫。歲餘，韋丞相死，匡君代為丞相，封樂安侯。以十年之閒，不出長安城門而至丞相，豈非遇時而命也哉！",
       "paragraph_ids": [
         "c-shiji-096-zhang:p028",
         "c-shiji-096-zhang:p029"
@@ -106,7 +105,12 @@
       "book_id": "b-shiji-096",
       "chapter_id": "c-shiji-096-zhang",
       "source_id": "s-shiji-096-zhang",
-      "work_title": "史記"
+      "work_title": "史記",
+      "chapter_ref": "data/corpus/shiji/096.json",
+      "quote_span": [
+        116,
+        212
+      ]
     }
   ],
   "table_occurrences": [],
@@ -116,24 +120,7 @@
       "work_id": "w-shiji",
       "book_id": "b-shiji-096",
       "source_id": "s-shiji-096-zhang",
-      "source": {
-        "title": "史記／卷096",
-        "provider": "維基文庫",
-        "url": "https://zh.wikisource.org/wiki/史記/卷096",
-        "permalink": "https://zh.wikisource.org/w/index.php?title=史記/卷096&oldid=8770206",
-        "revision_id": 8770206,
-        "accessed_on": "2026-10-09",
-        "extent": "29段傳世文字含兩處太史公論，另附1段分層索隱述贊；首HTML區塊即正文，不刪頭2段。",
-        "image_verified": false,
-        "rights": "古代原文；數位轉錄依維基文庫CC BY-SA 4.0，保留署名及固定版本。",
-        "license_url": "https://creativecommons.org/licenses/by-sa/4.0/",
-        "normalization": {
-          "character_conversion": {},
-          "editorial_readings": [],
-          "extraction_note": "固定HTML一致，只去外緣空白；亨周苛、（不）、困妯囡及邴丞相等原字保留。",
-          "note": "全30個HTML區塊已讀，未核底本影像。後段征和以後丞相記述在此見證未署補作者，不冒署褚先生。"
-        }
-      }
+      "chapter_ref": "data/corpus/shiji/096.json"
     }
   ],
   "relations": [],

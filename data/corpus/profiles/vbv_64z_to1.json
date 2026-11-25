@@ -27,7 +27,7 @@
           "chapter_id": "c-shiji-105-bianque",
           "source_id": "s-shiji-105-bianque",
           "paragraph_id": "c-shiji-105-bianque:p039",
-          "quote": "安陵阪裏公乘項處病，臣意診脈，曰：「牡疝。」牡疝在鬲下，上連肺。病得之內。臣意謂之：「慎毋為勞力事，為勞力事則必嘔血死。」處後蹴踘，要蹷寒，汗出多，即嘔血。臣意復診之，曰：「當旦日日夕死。」即死。病得之內。所以知項處病者，切其脈得番陽。番陽入虛裏，處旦日死。一番一絡者，牡疝也。"
+          "quote_passage_ref": "data/corpus/shiji/105.json"
         }
       ],
       "source_term": "安陵阪裏公乘項處病",
@@ -52,7 +52,6 @@
       "raw_count": 5,
       "duplicate_count": 0,
       "counting_policy": "independent_fixed_witness_occurrences",
-      "quote": "安陵阪裏公乘項處病，臣意診脈，曰：「牡疝。」牡疝在鬲下，上連肺。病得之內。臣意謂之：「慎毋為勞力事，為勞力事則必嘔血死。」處後蹴踘，要蹷寒，汗出多，即嘔血。臣意復診之，曰：「當旦日日夕死。」即死。病得之內。所以知項處",
       "paragraph_ids": [
         "c-shiji-105-bianque:p039",
         "c-shiji-105-bianque:p043"
@@ -113,7 +112,12 @@
       "book_id": "b-shiji-105",
       "chapter_id": "c-shiji-105-bianque",
       "source_id": "s-shiji-105-bianque",
-      "work_title": "史記"
+      "work_title": "史記",
+      "chapter_ref": "data/corpus/shiji/105.json",
+      "quote_span": [
+        0,
+        108
+      ]
     }
   ],
   "table_occurrences": [],
@@ -123,24 +127,7 @@
       "work_id": "w-shiji",
       "book_id": "b-shiji-105",
       "source_id": "s-shiji-105-bianque",
-      "source": {
-        "title": "史記／卷105",
-        "provider": "維基文庫",
-        "url": "https://zh.wikisource.org/wiki/史記/卷105",
-        "permalink": "https://zh.wikisource.org/w/index.php?title=史記/卷105&oldid=8842726",
-        "revision_id": 8842726,
-        "accessed_on": "2026-10-10",
-        "extent": "48段正文含太史公論與答詔醫案，1段索隱述贊及3段見證附載正義。",
-        "image_verified": false,
-        "rights": "古代原文；數位轉錄依維基文庫CC BY-SA 4.0，保留署名及固定版本。",
-        "license_url": "https://creativecommons.org/licenses/by-sa/4.0/",
-        "normalization": {
-          "character_conversion": {},
-          "editorial_readings": [],
-          "extraction_note": "去標題與介面模板，原字、標點及段落次序保留。",
-          "note": "未核底本影像。"
-        }
-      }
+      "chapter_ref": "data/corpus/shiji/105.json"
     }
   ],
   "relations": [],
@@ -169,8 +156,8 @@
           "chapter_id": "c-shiji-105-bianque",
           "source_id": "s-shiji-105-bianque",
           "paragraph_id": "c-shiji-105-bianque:p039",
-          "quote": "安陵阪裏公乘項處病，臣意診脈，曰：「牡疝。」牡疝在鬲下，上連肺。病得之內。臣意謂之：「慎毋為勞力事，為勞力事則必嘔血死。」處後蹴踘，要蹷寒，汗出多，即嘔血。臣意復診之，曰：「當旦日日夕死。」即死。病得之內。所以知項處病者，切其脈得番陽。番陽入虛裏，處旦日死。一番一絡者，牡疝也。",
-          "person_mention_id": "c-shiji-105-bianque:m039-0061"
+          "person_mention_id": "c-shiji-105-bianque:m039-0061",
+          "quote_passage_ref": "data/corpus/shiji/105.json"
         }
       ],
       "interpretation_note": "保存來源所敘實際死亡，不把預期病程或醫理泛論當死亡；未明年不推卒年，不由死亡自動終止全部官爵。 未核書影。",

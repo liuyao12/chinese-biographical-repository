@@ -21,7 +21,7 @@
           "chapter_id": "c-shiji-002-xia",
           "source_id": "s-shiji-002-xia",
           "paragraph_id": "c-shiji-002-xia:p033",
-          "quote": "中康崩，子帝相立。帝相崩，子帝少康立。帝少康崩，子帝予立。帝予崩，子帝槐立。帝槐崩，子帝芒立。帝芒崩，子帝泄立。帝泄崩，子帝不降立。帝不降崩，弟帝扃立。帝扃崩，子帝廑立。帝廑崩，立帝不降之子孔甲，是爲帝孔甲。帝孔甲立，好方鬼神，事淫亂。夏后氏德衰，諸侯畔之。天降龍二，有雌雄，孔甲不能食，未得豢龍氏。陶唐既衰，其后有劉累，學擾龍于豢龍氏，以事孔甲。孔甲賜之姓曰御龍氏，受豕韋之後。龍一雌死，以食夏后。夏后使求，懼而遷去。"
+          "quote_passage_ref": "data/corpus/shiji/002.json"
         }
       ],
       "attestations": [
@@ -46,7 +46,7 @@
               "chapter_id": "c-shiji-002-xia",
               "source_id": "s-shiji-002-xia",
               "paragraph_id": "c-shiji-002-xia:p033",
-              "quote": "中康崩，子帝相立。帝相崩，子帝少康立。帝少康崩，子帝予立。帝予崩，子帝槐立。帝槐崩，子帝芒立。帝芒崩，子帝泄立。帝泄崩，子帝不降立。帝不降崩，弟帝扃立。帝扃崩，子帝廑立。帝廑崩，立帝不降之子孔甲，是爲帝孔甲。帝孔甲立，好方鬼神，事淫亂。夏后氏德衰，諸侯畔之。天降龍二，有雌雄，孔甲不能食，未得豢龍氏。陶唐既衰，其后有劉累，學擾龍于豢龍氏，以事孔甲。孔甲賜之姓曰御龍氏，受豕韋之後。龍一雌死，以食夏后。夏后使求，懼而遷去。"
+              "quote_passage_ref": "data/corpus/shiji/002.json"
             }
           ]
         },
@@ -72,7 +72,6 @@
       "raw_count": 2,
       "duplicate_count": 0,
       "counting_policy": "independent_fixed_witness_occurrences",
-      "quote": "。帝槐崩，子帝芒立。帝芒崩，子帝泄立。帝泄崩，子帝不降立。帝不降崩，弟帝扃立。帝扃崩，子帝廑立。帝廑崩，立帝不降之子孔甲，是爲帝孔甲。帝孔甲立，好方鬼神，事淫亂。夏后氏德衰，諸侯畔之。天降龍二，有雌雄，孔甲不能食，未得豢龍氏。陶唐既衰，其后有劉累，學擾龍于豢龍氏，以事孔甲。",
       "paragraph_ids": [
         "c-shiji-002-xia:p033"
       ],
@@ -105,7 +104,12 @@
       "book_id": "b-shiji-002",
       "chapter_id": "c-shiji-002-xia",
       "source_id": "s-shiji-002-xia",
-      "work_title": "史記"
+      "work_title": "史記",
+      "chapter_ref": "data/corpus/shiji/002.json",
+      "quote_span": [
+        37,
+        174
+      ]
     }
   ],
   "table_occurrences": [
@@ -113,7 +117,6 @@
       "table_id": "shiji-013",
       "cell_id": "shiji-013-t1-r017-c00",
       "title": "《史記·三代世表》",
-      "quote": "帝扃不降弟。",
       "year": null,
       "mention": {
         "id": "shiji-013-t1-r017-c00-m000",
@@ -128,7 +131,8 @@
       "book_id": "b-shiji-013",
       "chapter_id": "table-chapter-shiji-013",
       "source_id": "table-witness-shiji-013",
-      "source_revision": "2606991"
+      "source_revision": "2606991",
+      "quote_ref": "cell"
     }
   ],
   "sources": [
@@ -137,47 +141,14 @@
       "work_id": "w-shiji",
       "book_id": "b-shiji-002",
       "source_id": "s-shiji-002-xia",
-      "source": {
-        "title": "史記／卷002",
-        "provider": "維基文庫",
-        "url": "https://zh.wikisource.org/wiki/史記/卷002",
-        "permalink": "https://zh.wikisource.org/w/index.php?title=史記/卷002&oldid=7903612",
-        "revision_id": 7903612,
-        "accessed_on": "2026-10-09",
-        "extent": "正文全文；不含現代章節標題、跨維基說明及校勘記",
-        "image_verified": false,
-        "rights": "古代原文；數位轉錄依維基文庫 CC BY-SA 4.0，保留署名及固定版本。",
-        "license_url": "https://creativecommons.org/licenses/by-sa/4.0/",
-        "normalization": {
-          "character_conversion": {
-            "内": "內"
-          },
-          "note": "僅轉換內字字形，保留啓、荆、惪、辠等異體；移除現代註號。"
-        }
-      }
+      "chapter_ref": "data/corpus/shiji/002.json"
     },
     {
       "chapter_id": "table-chapter-shiji-013",
       "work_id": "w-shiji",
       "book_id": "b-shiji-013",
       "source_id": "table-witness-shiji-013",
-      "source": {
-        "id": "table-witness-shiji-013",
-        "work_id": "w-shiji",
-        "book_id": "b-shiji-013",
-        "chapter_id": "table-chapter-shiji-013",
-        "url": "https://zh.wikisource.org/wiki/史記/卷013",
-        "revision_url": "https://zh.wikisource.org/w/index.php?title=史記/卷013&oldid=2606991",
-        "revision": "2606991",
-        "accessed": "2026-10-13",
-        "response_sha256": "8c98c072f11fc224a605f6b8f4dfc77be5f87bad792d32c0a2a720914638d7c3",
-        "edition": null,
-        "image_verified": false,
-        "rights": "古籍正文公有領域；維基文庫數位轉錄依CC BY-SA，保留貢獻者署名。",
-        "rights_url": "https://zh.wikisource.org/wiki/Wikisource:版權信息",
-        "review_status": "partial_named_entity_review",
-        "note": "各組表保留原欄題、原文、空格及合欄，不推不同欄題的接續。西元欄為數位編者增補；未明年份留空，不推世系曆年。未核底本影像，人物標註仍待逐處覆核。"
-      }
+      "table_source_ref": "shiji-013"
     }
   ],
   "relations": [
@@ -314,8 +285,8 @@
           "chapter_id": "c-shiji-002-xia",
           "source_id": "s-shiji-002-xia",
           "paragraph_id": "c-shiji-002-xia:p033",
-          "quote": "中康崩，子帝相立。帝相崩，子帝少康立。帝少康崩，子帝予立。帝予崩，子帝槐立。帝槐崩，子帝芒立。帝芒崩，子帝泄立。帝泄崩，子帝不降立。帝不降崩，弟帝扃立。帝扃崩，子帝廑立。帝廑崩，立帝不降之子孔甲，是爲帝孔甲。帝孔甲立，好方鬼神，事淫亂。夏后氏德衰，諸侯畔之。天降龍二，有雌雄，孔甲不能食，未得豢龍氏。陶唐既衰，其后有劉累，學擾龍于豢龍氏，以事孔甲。孔甲賜之姓曰御龍氏，受豕韋之後。龍一雌死，以食夏后。夏后使求，懼而遷去。",
-          "person_mention_id": "c-shiji-002-xia:m033-0072"
+          "person_mention_id": "c-shiji-002-xia:m033-0072",
+          "quote_passage_ref": "data/corpus/shiji/002.json"
         }
       ],
       "source_term": "帝扃崩",

@@ -26,8 +26,8 @@
           "source_id": "s-sanguozhi-028-wangling",
           "chapter_id": "c-sanguozhi-028-wangling",
           "paragraph_id": "c-sanguozhi-028-wangling:unit009",
-          "quote": "三年春吳賊塞涂水凌欲因此發大嚴諸軍表求討賊詔報不聽凌隂謀滋甚遣將軍楊弘以廢立事告兖州刺史黄華華弘連名以白太傅司馬宣王宣王將中軍乗水道討凌先下赦赦凌罪又將尚書廣東使為書喻凌大軍掩至百尺逼凌凌自知勢窮乃乗船單出迎宣王遣掾王彧謝罪還印綬節鉞軍到丘頭凌面縛水次宣王承詔遣主簿解縛反服見凌慰勞之還印綬節鉞遣歩騎六百人送還京都凌至項飲藥死",
-          "person_mention_id": "c-sanguozhi-028-wangling:unit009:m0076"
+          "person_mention_id": "c-sanguozhi-028-wangling:unit009:m0076",
+          "quote_passage_ref": "data/corpus/sanguozhi/028-wangling.json"
         }
       ],
       "attestations": [
@@ -72,7 +72,6 @@
       "raw_count": 10,
       "duplicate_count": 0,
       "counting_policy": "independent_fixed_witness_occurrences",
-      "quote": "彪都許昌嘉平元年九月愚遣將張式至白馬與彪相問往來凌又遣舎人勞精詣洛陽語子廣廣言廢立大事勿為禍先",
       "paragraph_ids": [
         "c-sanguozhi-028-wangling:unit003",
         "c-sanguozhi-028-wangling:unit004",
@@ -181,7 +180,12 @@
       "book_id": "b-sanguozhi-028",
       "chapter_id": "c-sanguozhi-028-wangling",
       "source_id": "s-sanguozhi-028-wangling",
-      "work_title": "三國志"
+      "work_title": "三國志",
+      "chapter_ref": "data/corpus/sanguozhi/028-wangling.json",
+      "quote_span": [
+        342,
+        389
+      ]
     }
   ],
   "table_occurrences": [],
@@ -191,30 +195,7 @@
       "work_id": "w-sanguozhi",
       "book_id": "b-sanguozhi-028",
       "source_id": "s-sanguozhi-028-wangling",
-      "source": {
-        "title": "三國志／魏書卷二十八／王凌完整傳",
-        "provider": "Kanripo WYG",
-        "url": "https://github.com/kanripo/KR2a0012/blob/214fcafa79894355909c9d8c2c1533089e7791c6/KR2a0012_028.txt",
-        "permalink": "https://github.com/kanripo/KR2a0012/blob/214fcafa79894355909c9d8c2c1533089e7791c6/KR2a0012_028.txt",
-        "revision_id": "214fcafa79894355909c9d8c2c1533089e7791c6",
-        "source_commit": "214fcafa79894355909c9d8c2c1533089e7791c6",
-        "source_blob": "d1d192e3e36be8919fa86563bd8e1fd82a3f4638",
-        "raw_file_sha256": "0d69bbb981b5dd31bbeee865d503179979226e2d2ce7c42aeac0fe0fc6e868f7",
-        "raw_path": "sources/sanguozhi/KR2a0012_028-214fcaf.txt",
-        "accessed_on": "2026-10-19",
-        "edition": "文淵閣四庫全書數位轉錄；未圖校",
-        "extent": "raw22–104王凌正文及裴注完整；858–865共評及引注；870–874兩清考證，不稱全卷處理",
-        "text_scope": "partial_chapter",
-        "review_status": "text_checked",
-        "image_verified": false,
-        "license_url": "https://creativecommons.org/publicdomain/mark/1.0/",
-        "rights": "古籍原文；固定Kanripo數位見證",
-        "normalization": {
-          "character_conversion": {},
-          "extraction_note": "只去版面符號、縮排及注括號；原字與逐字raw位置保存。",
-          "excerpts": []
-        }
-      }
+      "chapter_ref": "data/corpus/sanguozhi/028-wangling.json"
     }
   ],
   "relations": [
@@ -234,9 +215,9 @@
           "source_id": "s-sanguozhi-028-wangling",
           "chapter_id": "c-sanguozhi-028-wangling",
           "paragraph_id": "c-sanguozhi-028-wangling:unit003",
-          "quote": "稍遷至中山太守所在有治太祖辟為丞相掾屬文帝踐阼拜散騎常侍出為兖州刺史與張遼等至廣陵討孫權臨江夜大風吳將呂範等船漂至北岸凌與諸將逆擊捕斬首虜獲舟船有功封宜成亭侯加建武將軍轉在青州是時海濵乗喪亂之後法度未整凌布政施教賞善罸惡甚有綱紀百姓稱之不容於口後從曹休征吳與賊遇於夾石休軍失利凌力戰决圍休得免難仍徙為揚豫州刺史咸得軍民之歡心始至豫州旌先賢之後求未顯之士各有條教意義甚美初凌與司馬郎賈逵友善及臨兖豫繼其名跡正始初為征東將軍假節都督揚州諸軍事二年吳大將全琮數萬衆寇芍陂凌率諸軍逆討與賊爭塘力戰連日賊退走進封南鄉侯邑千三百五十戸遷車騎將軍儀同三司是時凌外甥令狐愚以才能為兖州刺史屯平阿舅甥並典兵専淮南之重凌就遷為司空司馬宣王既誅曹爽進凌為太尉假節鉞凌愚宻協計謂齊王不任天位楚王彪長而才欲迎立彪都許昌嘉平元年九月愚遣將張式至白馬與彪相問往來凌又遣舎人勞精詣洛陽語子廣廣言廢立大事勿為禍先",
           "subject_person_mention_id": "c-sanguozhi-028-wangling:unit003:m0377",
-          "object_person_mention_id": "c-sanguozhi-028-wangling:unit003:m0059"
+          "object_person_mention_id": "c-sanguozhi-028-wangling:unit003:m0059",
+          "quote_passage_ref": "data/corpus/sanguozhi/028-wangling.json"
         }
       ],
       "interpretation_note": "只存本源明言；不補未知父母，不改既有家族根或身份，不由外甥補母。",
@@ -259,14 +240,14 @@
       "additional_names": [],
       "chapter_id": "c-sanguozhi-028-wangling",
       "paragraph_id": "c-sanguozhi-028-wangling:unit003",
-      "quote": "稍遷至中山太守所在有治太祖辟為丞相掾屬文帝踐阼拜散騎常侍出為兖州刺史與張遼等至廣陵討孫權臨江夜大風吳將呂範等船漂至北岸凌與諸將逆擊捕斬首虜獲舟船有功封宜成亭侯加建武將軍轉在青州是時海濵乗喪亂之後法度未整凌布政施教賞善罸惡甚有綱紀百姓稱之不容於口後從曹休征吳與賊遇於夾石休軍失利凌力戰决圍休得免難仍徙為揚豫州刺史咸得軍民之歡心始至豫州旌先賢之後求未顯之士各有條教意義甚美初凌與司馬郎賈逵友善及臨兖豫繼其名跡正始初為征東將軍假節都督揚州諸軍事二年吳大將全琮數萬衆寇芍陂凌率諸軍逆討與賊爭塘力戰連日賊退走進封南鄉侯邑千三百五十戸遷車騎將軍儀同三司是時凌外甥令狐愚以才能為兖州刺史屯平阿舅甥並典兵専淮南之重凌就遷為司空司馬宣王既誅曹爽進凌為太尉假節鉞凌愚宻協計謂齊王不任天位楚王彪長而才欲迎立彪都許昌嘉平元年九月愚遣將張式至白馬與彪相問往來凌又遣舎人勞精詣洛陽語子廣廣言廢立大事勿為禍先",
       "note": "保本源原字姓名構件，不改既有主名或其他來源證。",
       "status": "editorial_provisional",
       "human_reviewed": false,
       "source_proposal_id": "proposal-sanguozhi028-wangling-020",
       "work_id": "w-sanguozhi",
       "book_id": "b-sanguozhi-028",
-      "source_id": "s-sanguozhi-028-wangling"
+      "source_id": "s-sanguozhi-028-wangling",
+      "quote_passage_ref": "data/corpus/sanguozhi/028-wangling.json"
     },
     {
       "person_id": "f89_ad1_61d_A",
@@ -276,7 +257,6 @@
       "additional_names": [],
       "chapter_id": "c-sanguozhi-028-wangling",
       "paragraph_id": "c-sanguozhi-028-wangling:unit016",
-      "quote": "魏氏春秋曰廣字公淵弟飛梟金虎並才武過人太傅嘗從容問蒋濟濟曰凌文武俱贍當今無䨇廣等志力有美於父耳退而悔之告所親曰吾此言滅人門宗矣魏末傳曰凌少子字眀山最知名善書多技藝人得其書皆以為法走向太原追軍及之時有飛鳥集桑樹随枝低卬舉弓射之即倒追人乃止不復進眀山投親家食親家告吏乃就執之",
       "note": "保本源原字姓名構件，不改既有主名或其他來源證。",
       "status": "editorial_provisional",
       "human_reviewed": false,
@@ -284,7 +264,8 @@
       "zi": "公淵",
       "work_id": "w-sanguozhi",
       "book_id": "b-sanguozhi-028",
-      "source_id": "s-sanguozhi-028-wangling"
+      "source_id": "s-sanguozhi-028-wangling",
+      "quote_passage_ref": "data/corpus/sanguozhi/028-wangling.json"
     }
   ],
   "person_ids": [
@@ -307,9 +288,9 @@
           "source_id": "s-sanguozhi-028-wangling",
           "chapter_id": "c-sanguozhi-028-wangling",
           "paragraph_id": "c-sanguozhi-028-wangling:unit003",
-          "quote": "稍遷至中山太守所在有治太祖辟為丞相掾屬文帝踐阼拜散騎常侍出為兖州刺史與張遼等至廣陵討孫權臨江夜大風吳將呂範等船漂至北岸凌與諸將逆擊捕斬首虜獲舟船有功封宜成亭侯加建武將軍轉在青州是時海濵乗喪亂之後法度未整凌布政施教賞善罸惡甚有綱紀百姓稱之不容於口後從曹休征吳與賊遇於夾石休軍失利凌力戰决圍休得免難仍徙為揚豫州刺史咸得軍民之歡心始至豫州旌先賢之後求未顯之士各有條教意義甚美初凌與司馬郎賈逵友善及臨兖豫繼其名跡正始初為征東將軍假節都督揚州諸軍事二年吳大將全琮數萬衆寇芍陂凌率諸軍逆討與賊爭塘力戰連日賊退走進封南鄉侯邑千三百五十戸遷車騎將軍儀同三司是時凌外甥令狐愚以才能為兖州刺史屯平阿舅甥並典兵専淮南之重凌就遷為司空司馬宣王既誅曹爽進凌為太尉假節鉞凌愚宻協計謂齊王不任天位楚王彪長而才欲迎立彪都許昌嘉平元年九月愚遣將張式至白馬與彪相問往來凌又遣舎人勞精詣洛陽語子廣廣言廢立大事勿為禍先",
           "subject_person_mention_id": "c-sanguozhi-028-wangling:unit003:m0377",
-          "object_person_mention_id": "c-sanguozhi-028-wangling:unit003:m0059"
+          "object_person_mention_id": "c-sanguozhi-028-wangling:unit003:m0059",
+          "quote_passage_ref": "data/corpus/sanguozhi/028-wangling.json"
         }
       ],
       "interpretation_note": "只存本源明言；不補未知父母，不改既有家族根或身份，不由外甥補母。",
@@ -340,8 +321,8 @@
           "source_id": "s-sanguozhi-028-wangling",
           "chapter_id": "c-sanguozhi-028-wangling",
           "paragraph_id": "c-sanguozhi-028-wangling:unit015",
-          "quote": "進弘華爵為鄉侯廣有志尚學行死時年四十餘",
-          "person_mention_id": "c-sanguozhi-028-wangling:unit015:m0007"
+          "person_mention_id": "c-sanguozhi-028-wangling:unit015:m0007",
+          "quote_passage_ref": "data/corpus/sanguozhi/028-wangling.json"
         }
       ],
       "interpretation_note": "原文報齡，不推虛歲或周歲，不倒生年；四十餘為排除40的開下界。",
@@ -371,8 +352,8 @@
           "source_id": "s-sanguozhi-028-wangling",
           "chapter_id": "c-sanguozhi-028-wangling",
           "paragraph_id": "c-sanguozhi-028-wangling:unit015",
-          "quote": "進弘華爵為鄉侯廣有志尚學行死時年四十餘",
-          "person_mention_id": "c-sanguozhi-028-wangling:unit015:m0007"
+          "person_mention_id": "c-sanguozhi-028-wangling:unit015:m0007",
+          "quote_passage_ref": "data/corpus/sanguozhi/028-wangling.json"
         }
       ],
       "interpretation_note": "本源死亡敘述；保同死的平行源分層。未知年保持null，不倒生年或終止官職。",

@@ -21,7 +21,6 @@
       "raw_count": 1,
       "duplicate_count": 0,
       "counting_policy": "independent_fixed_witness_occurrences",
-      "quote": "三十二年，始皇之碣石，使燕人盧生求羨門、高誓。刻碣石門。壞城郭，決通隄防。其辭曰：",
       "paragraph_ids": [
         "c-shiji-006-shihuang:p039"
       ],
@@ -45,7 +44,12 @@
       "book_id": "b-shiji-006",
       "chapter_id": "c-shiji-006-shihuang",
       "source_id": "s-shiji-006-shihuang",
-      "work_title": "史記"
+      "work_title": "史記",
+      "chapter_ref": "data/corpus/shiji/006.json",
+      "quote_span": [
+        0,
+        41
+      ]
     },
     {
       "number": 12,
@@ -56,7 +60,6 @@
       "raw_count": 1,
       "duplicate_count": 0,
       "counting_policy": "independent_fixed_witness_occurrences",
-      "quote": "長美，言多方略，而敢為大言，處之不疑。大言曰：「臣嘗往來海中，見安期、羨門之屬。顧以為臣賤，不信臣。又以為康王諸侯耳，不足予方。臣數言康王，康王又不用臣。臣之師曰：『黃金可成，而河決可塞，不死之藥可得，僊人可致也。』臣恐效文成，則方士皆掩口，惡敢言方哉！」上曰：「文成食馬肝",
       "paragraph_ids": [
         "c-shiji-012-wudi:p017"
       ],
@@ -80,7 +83,12 @@
       "book_id": "b-shiji-012",
       "chapter_id": "c-shiji-012-wudi",
       "source_id": "s-shiji-012-wudi",
-      "work_title": "史記"
+      "work_title": "史記",
+      "chapter_ref": "data/corpus/shiji/012.json",
+      "quote_span": [
+        143,
+        280
+      ]
     },
     {
       "number": 117,
@@ -91,7 +99,6 @@
       "raw_count": 1,
       "duplicate_count": 0,
       "counting_policy": "independent_fixed_witness_occurrences",
-      "quote": "先導兮，反太一而從陵陽。左玄冥而右含靁兮，前陸離而後潏湟。厮征北僑而役羡門兮，屬岐伯使尚方。祝融驚而蹕御兮，清氛氣而後行。屯余車其萬乘兮，綷雲蓋而樹華旗。使勾芒其將行兮，吾欲往乎南嬉。",
       "paragraph_ids": [
         "c-shiji-117-xiangru:p052"
       ],
@@ -115,7 +122,12 @@
       "book_id": "b-shiji-117",
       "chapter_id": "c-shiji-117-xiangru",
       "source_id": "s-shiji117-xiangru",
-      "work_title": "史記"
+      "work_title": "史記",
+      "chapter_ref": "data/corpus/shiji/117.json",
+      "quote_span": [
+        54,
+        146
+      ]
     }
   ],
   "table_occurrences": [],
@@ -125,97 +137,21 @@
       "work_id": "w-shiji",
       "book_id": "b-shiji-006",
       "source_id": "s-shiji-006-shihuang",
-      "source": {
-        "title": "史記／卷006",
-        "provider": "維基文庫",
-        "url": "https://zh.wikisource.org/wiki/史記/卷006",
-        "permalink": "https://zh.wikisource.org/w/index.php?title=史記/卷006&oldid=7907969",
-        "revision_id": 7907969,
-        "accessed_on": "2026-10-09",
-        "extent": "數位見證127個文字區塊，含16個dd刻辭或嵌入引文及卷末附載班固記；排除導覽、跨站連結與註號。",
-        "image_verified": false,
-        "rights": "古代原文與附載文字；數位轉錄依維基文庫CC BY-SA 4.0，保留署名及固定版本。",
-        "license_url": "https://creativecommons.org/licenses/by-sa/4.0/",
-        "normalization": {
-          "character_conversion": {},
-          "note": "正文未改寫；行內校勘標記及附載文字仍待逐處核對。固定版本正文HTML重讀一致。",
-          "editorial_readings": [
-            {
-              "paragraph_id": "c-shiji-006-shihuang:p010",
-              "witness_form": "（四）［是］",
-              "body_reading": "四",
-              "note": "數位見證行內校勘標記另存；正文保留改讀前的字，不稱已校定底本。"
-            },
-            {
-              "paragraph_id": "c-shiji-006-shihuang:p016",
-              "witness_form": "（薊）［荊］",
-              "body_reading": "薊",
-              "note": "數位見證行內校勘標記另存；正文保留改讀前的字，不稱已校定底本。"
-            },
-            {
-              "paragraph_id": "c-shiji-006-shihuang:p051",
-              "witness_form": "（其）",
-              "body_reading": "",
-              "note": "數位見證行內刪字標記另存；未核底本，不稱校定讀法。"
-            },
-            {
-              "paragraph_id": "c-shiji-006-shihuang:p061",
-              "witness_form": "（者）",
-              "body_reading": "",
-              "note": "數位見證行內刪字標記另存；未核底本，不稱校定讀法。"
-            }
-          ],
-          "extraction_note": "按正文p及dd區塊原有次序錄入；dd用前一段ID加block後綴，既有p段落ID不變。正文前兩個dd為維基百科與文言維基大典導覽，排除。"
-        }
-      }
+      "chapter_ref": "data/corpus/shiji/006.json"
     },
     {
       "chapter_id": "c-shiji-012-wudi",
       "work_id": "w-shiji",
       "book_id": "b-shiji-012",
       "source_id": "s-shiji-012-wudi",
-      "source": {
-        "title": "史記／卷012",
-        "provider": "維基文庫",
-        "url": "https://zh.wikisource.org/wiki/史記/卷012",
-        "permalink": "https://zh.wikisource.org/w/index.php?title=史記/卷012&oldid=8733061",
-        "revision_id": 8733061,
-        "accessed_on": "2026-10-09",
-        "extent": "本篇52個p區塊，自孝武皇帝者至太史公論贊；排除導覽dd、索隱述贊、現代版權告示及style／script樣式程式內容。",
-        "image_verified": false,
-        "rights": "古代原文；數位轉錄依維基文庫CC BY-SA 4.0，保留署名及固定版本。",
-        "license_url": "https://creativecommons.org/licenses/by-sa/4.0/",
-        "normalization": {
-          "character_conversion": {},
-          "editorial_readings": [],
-          "extraction_note": "去除正文區塊內嵌style內容，保留同段史文；保留行內校勘符號及公玊帶等原字。",
-          "note": "固定版本與實讀HTML一致；未核底本、影像或本紀傳承研究。"
-        }
-      }
+      "chapter_ref": "data/corpus/shiji/012.json"
     },
     {
       "chapter_id": "c-shiji-117-xiangru",
       "work_id": "w-shiji",
       "book_id": "b-shiji-117",
       "source_id": "s-shiji117-xiangru",
-      "source": {
-        "title": "史記／卷117",
-        "provider": "維基文庫",
-        "url": "https://zh.wikisource.org/wiki/史記/卷117",
-        "permalink": "https://zh.wikisource.org/w/index.php?title=史記/卷117&oldid=10371549",
-        "revision_id": 10371549,
-        "accessed_on": "2026-10-11",
-        "extent": "固定修訂全文71段，包括賦、書與末段索隱述贊。",
-        "image_verified": false,
-        "rights": "古代原文；數位轉錄依維基文庫CC BY-SA 4.0，保留署名及固定版本。",
-        "license_url": "https://creativecommons.org/licenses/by-sa/4.0/",
-        "normalization": {
-          "character_conversion": {},
-          "editorial_readings": [],
-          "extraction_note": "去header2、目錄標記及現代節標；quote模板保留全文，br轉段落；罕字模板保留第一參數字形，描述未作正文；連結保留顯示字。未核影像。 移除防轉換控制外殼，保留內字云。",
-          "note": "第58段U+E0FA私用字缺字與頌中重句原樣保存，不猜補；末段索隱述贊分層。"
-        }
-      }
+      "chapter_ref": "data/corpus/shiji/117.json"
     }
   ],
   "relations": [],
@@ -250,19 +186,19 @@
           "chapter_id": "c-shiji-117-xiangru",
           "source_id": "s-shiji117-xiangru",
           "paragraph_id": "c-shiji-117-xiangru:p052",
-          "quote": "邪絕少陽而登太陰兮，與真人乎相求。互折窈窕以右轉兮，橫厲飛泉以正東。悉徵靈圉而選之兮，部乘眾神於瑤光。使五帝先導兮，反太一而從陵陽。左玄冥而右含靁兮，前陸離而後潏湟。厮征北僑而役羡門兮，屬岐伯使尚方。祝融驚而蹕御兮，清氛氣而後行。屯余車其萬乘兮，綷雲蓋而樹華旗。使勾芒其將行兮，吾欲往乎南嬉。",
           "mention_ids": [
             "c-shiji-117-xiangru:m052-0089"
-          ]
+          ],
+          "quote_passage_ref": "data/corpus/shiji/117.json"
         },
         {
           "chapter_id": "c-shiji-006-shihuang",
           "source_id": "s-shiji-006-shihuang",
           "paragraph_id": "c-shiji-006-shihuang:p039",
-          "quote": "三十二年，始皇之碣石，使燕人盧生求羨門、高誓。刻碣石門。壞城郭，決通隄防。其辭曰：",
           "mention_ids": [
             "c-shiji-006-shihuang:p039:m0017"
-          ]
+          ],
+          "quote_passage_ref": "data/corpus/shiji/006.json"
         }
       ],
       "references": [

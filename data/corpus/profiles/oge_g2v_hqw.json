@@ -21,7 +21,7 @@
           "chapter_id": "c-shiji-097-luli",
           "source_id": "s-shiji-097-luli",
           "paragraph_id": "c-shiji-097-luli:p008",
-          "quote": "漢十二年，曲周侯酈商以丞相將兵擊黥布有功。高祖舉列侯功臣，思酈食其。酈食其子疥數將兵，功未當侯，上以其父故，封疥為高梁侯。後更食武遂，嗣三世。元狩元年中，武遂侯平坐詐詔衡山王取百斤金，當棄市，病死，國除也。"
+          "quote_passage_ref": "data/corpus/shiji/097.json"
         }
       ],
       "attestations": [
@@ -50,7 +50,7 @@
               "chapter_id": "c-shiji-097-luli",
               "source_id": "s-shiji-097-luli",
               "paragraph_id": "c-shiji-097-luli:p008",
-              "quote": "漢十二年，曲周侯酈商以丞相將兵擊黥布有功。高祖舉列侯功臣，思酈食其。酈食其子疥數將兵，功未當侯，上以其父故，封疥為高梁侯。後更食武遂，嗣三世。元狩元年中，武遂侯平坐詐詔衡山王取百斤金，當棄市，病死，國除也。"
+              "quote_passage_ref": "data/corpus/shiji/097.json"
             }
           ],
           "normalized_date_range": {
@@ -74,7 +74,7 @@
                 "chapter_id": "c-shiji-097-luli",
                 "source_id": "s-shiji-097-luli",
                 "paragraph_id": "c-shiji-097-luli:p008",
-                "quote": "漢十二年，曲周侯酈商以丞相將兵擊黥布有功。高祖舉列侯功臣，思酈食其。酈食其子疥數將兵，功未當侯，上以其父故，封疥為高梁侯。後更食武遂，嗣三世。元狩元年中，武遂侯平坐詐詔衡山王取百斤金，當棄市，病死，國除也。"
+                "quote_passage_ref": "data/corpus/shiji/097.json"
               }
             ],
             "references": [
@@ -135,7 +135,6 @@
       "raw_count": 1,
       "duplicate_count": 0,
       "counting_policy": "independent_fixed_witness_occurrences",
-      "quote": "，功未當侯，上以其父故，封疥為高梁侯。後更食武遂，嗣三世。元狩元年中，武遂侯平坐詐詔衡山王取百斤金，當棄市，病死，國除也。",
       "paragraph_ids": [
         "c-shiji-097-luli:p008"
       ],
@@ -159,7 +158,12 @@
       "book_id": "b-shiji-097",
       "chapter_id": "c-shiji-097-luli",
       "source_id": "s-shiji-097-luli",
-      "work_title": "史記"
+      "work_title": "史記",
+      "chapter_ref": "data/corpus/shiji/097.json",
+      "quote_span": [
+        42,
+        103
+      ]
     }
   ],
   "table_occurrences": [],
@@ -169,24 +173,7 @@
       "work_id": "w-shiji",
       "book_id": "b-shiji-097",
       "source_id": "s-shiji-097-luli",
-      "source": {
-        "title": "史記／卷097",
-        "provider": "維基文庫",
-        "url": "https://zh.wikisource.org/wiki/史記/卷097",
-        "permalink": "https://zh.wikisource.org/w/index.php?title=史記/卷097&oldid=1383195",
-        "revision_id": 1383195,
-        "accessed_on": "2026-10-09",
-        "extent": "24段傳世正文含太史公論，另附1段分層索隱述贊；排除導覽與空白。",
-        "image_verified": false,
-        "rights": "古代原文；數位轉錄依維基文庫CC BY-SA 4.0，保留署名及固定版本。",
-        "license_url": "https://creativecommons.org/licenses/by-sa/4.0/",
-        "normalization": {
-          "character_conversion": {},
-          "editorial_readings": [],
-          "extraction_note": "固定HTML一致，只去外緣空白；亨、尉他及尉佗等原字保留，前後陳留敘事分存。",
-          "note": "全27個HTML區塊已讀；無tooltip/reference/del/s，未核底本影像。"
-        }
-      }
+      "chapter_ref": "data/corpus/shiji/097.json"
     }
   ],
   "relations": [],
@@ -221,8 +208,8 @@
           "chapter_id": "c-shiji-097-luli",
           "source_id": "s-shiji-097-luli",
           "paragraph_id": "c-shiji-097-luli:p008",
-          "quote": "漢十二年，曲周侯酈商以丞相將兵擊黥布有功。高祖舉列侯功臣，思酈食其。酈食其子疥數將兵，功未當侯，上以其父故，封疥為高梁侯。後更食武遂，嗣三世。元狩元年中，武遂侯平坐詐詔衡山王取百斤金，當棄市，病死，國除也。",
-          "person_mention_id": "c-shiji-097-luli:m008-0077"
+          "person_mention_id": "c-shiji-097-luli:m008-0077",
+          "quote_passage_ref": "data/corpus/shiji/097.json"
         }
       ],
       "references": [
@@ -290,7 +277,7 @@
           "chapter_id": "c-shiji-097-luli",
           "source_id": "s-shiji-097-luli",
           "paragraph_id": "c-shiji-097-luli:p008",
-          "quote": "漢十二年，曲周侯酈商以丞相將兵擊黥布有功。高祖舉列侯功臣，思酈食其。酈食其子疥數將兵，功未當侯，上以其父故，封疥為高梁侯。後更食武遂，嗣三世。元狩元年中，武遂侯平坐詐詔衡山王取百斤金，當棄市，病死，國除也。"
+          "quote_passage_ref": "data/corpus/shiji/097.json"
         }
       ],
       "references": [
@@ -353,8 +340,8 @@
           "chapter_id": "c-shiji-097-luli",
           "source_id": "s-shiji-097-luli",
           "paragraph_id": "c-shiji-097-luli:p008",
-          "quote": "漢十二年，曲周侯酈商以丞相將兵擊黥布有功。高祖舉列侯功臣，思酈食其。酈食其子疥數將兵，功未當侯，上以其父故，封疥為高梁侯。後更食武遂，嗣三世。元狩元年中，武遂侯平坐詐詔衡山王取百斤金，當棄市，病死，國除也。",
-          "person_mention_id": "c-shiji-097-luli:m008-0077"
+          "person_mention_id": "c-shiji-097-luli:m008-0077",
+          "quote_passage_ref": "data/corpus/shiji/097.json"
         }
       ],
       "interpretation_note": "判罪當棄市，實錄為病死；元狩元年直接繫本事，非本段開頭漢十二年。 未核書影。",
@@ -381,8 +368,8 @@
             "chapter_id": "c-shiji-097-luli",
             "source_id": "s-shiji-097-luli",
             "paragraph_id": "c-shiji-097-luli:p008",
-            "quote": "漢十二年，曲周侯酈商以丞相將兵擊黥布有功。高祖舉列侯功臣，思酈食其。酈食其子疥數將兵，功未當侯，上以其父故，封疥為高梁侯。後更食武遂，嗣三世。元狩元年中，武遂侯平坐詐詔衡山王取百斤金，當棄市，病死，國除也。",
-            "person_mention_id": "c-shiji-097-luli:m008-0077"
+            "person_mention_id": "c-shiji-097-luli:m008-0077",
+            "quote_passage_ref": "data/corpus/shiji/097.json"
           }
         ],
         "references": [

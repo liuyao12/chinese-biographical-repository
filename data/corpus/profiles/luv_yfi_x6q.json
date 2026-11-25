@@ -21,7 +21,6 @@
       "raw_count": 3,
       "duplicate_count": 0,
       "counting_policy": "independent_fixed_witness_occurrences",
-      "quote": "初，冏之盛也，有一婦人詣大司馬府求寄產。吏詰之，婦人曰：「我截齊便去耳。」識者聞而惡之。時又謠曰：「著布袙腹，為齊持服。」俄而冏誅。",
       "paragraph_ids": [
         "c-jinshu-059-jiong:p015"
       ],
@@ -63,7 +62,12 @@
       "book_id": "b-jinshu-059",
       "chapter_id": "c-jinshu-059-jiong",
       "source_id": "s-jinshu-059-ws2650517-jiong",
-      "work_title": "晉書"
+      "work_title": "晉書",
+      "chapter_ref": "data/corpus/jinshu/059-jiong.json",
+      "quote_span": [
+        0,
+        66
+      ]
     }
   ],
   "table_occurrences": [],
@@ -73,27 +77,7 @@
       "work_id": "w-jinshu",
       "book_id": "b-jinshu-059",
       "source_id": "s-jinshu-059-ws2650517-jiong",
-      "source": {
-        "title": "《晉書》卷五十九齊武閔王冏傳（含鄭方附敘）",
-        "provider": "Wikisource",
-        "url": "https://zh.wikisource.org/w/index.php?title=晉書/卷059&oldid=2650517",
-        "permalink": "https://zh.wikisource.org/w/index.php?title=晉書/卷059&oldid=2650517",
-        "revision_id": 2650517,
-        "accessed_on": "2026-10-21",
-        "extent": "齊武閔王冏節完整18個正文段，含鄭方附敘；止長沙厲王乂節前。",
-        "text_scope": "partial_chapter",
-        "review_status": "text_checked",
-        "image_verified": false,
-        "rights": "古代原文及維基文庫數位轉錄，保留來源歸屬；數位轉錄CC BY-SA 4.0。",
-        "license_url": "https://creativecommons.org/licenses/by-sa/4.0/",
-        "edition": null,
-        "wikitext_sha256": "a83fe708c8dffc5965863d337a19fd4e7222ae41e29aa99e1c2a11ed8030d1d3",
-        "raw_file": "sources/calendar-context/jinshu059-fixed2650517.wikitext",
-        "normalization": {
-          "character_conversion": {},
-          "extraction_note": "展開維基連結與YL顯示字、移除quote及粗體控制字；完整數位ref註獨立留原raw位置，不作傳世正文；無校字。"
-        }
-      }
+      "chapter_ref": "data/corpus/jinshu/059-jiong.json"
     }
   ],
   "relations": [],

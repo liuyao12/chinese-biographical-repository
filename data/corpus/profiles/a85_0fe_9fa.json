@@ -21,8 +21,8 @@
           "chapter_id": "c-weishu-weishou-024-cuixuanbo",
           "source_id": "s-weishu-weishou-024-cuixuanbo",
           "paragraph_id": "c-weishu-weishou-024-cuixuanbo:p016",
-          "quote": "元伯弟徽字元猷少有文才與渤海髙演俱知名初徵相州别駕中書侍郎稍遷祕書監賜爵貝邱侯加龍驤將軍樂安王範鎮長安世祖以範年少而三秦民夷恃險多變乃選忠清舊徳之士與範俱鎮以徽為散騎常侍督雍涇梁秦四州諸軍事平西將軍副將行樂安王傅進爵濟南公徽為政務存大體不親小事性好人倫引接賔客或談及平生或講論道義誨誘後進終日不止以疾徵還京師真君四年卒諡曰元公士類無不歎惜",
-          "person_mention_id": "c-weishu-weishou-024-cuixuanbo:p016:m0044"
+          "person_mention_id": "c-weishu-weishou-024-cuixuanbo:p016:m0044",
+          "quote_passage_ref": "data/corpus/weishu-weishou/024-cuixuanbo.json"
         }
       ],
       "interpretation_note": "原語 樂安王。 不由死亡截止全部官職，不補生日或缺年。",
@@ -71,8 +71,8 @@
           "source_id": "s-weishu-weishou-038-wanghuilong",
           "chapter_id": "c-weishu-weishou-038-wanghuilong",
           "paragraph_id": "c-weishu-weishou-038-wanghuilong:unit003",
-          "quote": "久之除樂安王範傅領并荆揚三州大中正慧龍抗表願得南垂自効崔浩固言之乃授南蠻校尉安南大將軍左長史及劉義隆荆州刺史謝晦起兵江陵引慧龍為援慧龍督司馬盧夀等一萬人㧞其思陵戍進圍項城晦敗乃班師後劉義隆將王𤣥謨寇滑臺詔假慧龍楚兵將軍與安頡等同討之相持五十餘日諸將以賊盛莫敢先慧龍設奇兵大破之世祖賜以劒馬錢帛授龍驤將軍賜爵長社侯拜滎陽太守仍領長史在任十年農戰竝修大著聲績招攜邊逺歸附者萬餘家號為善政",
-          "person_mention_id": "c-weishu-weishou-038-wanghuilong:unit003:m0003"
+          "person_mention_id": "c-weishu-weishou-038-wanghuilong:unit003:m0003",
+          "quote_passage_ref": "data/corpus/weishu-weishou/038-wanghuilong.json"
         }
       ],
       "attestations": [
@@ -117,7 +117,6 @@
       "raw_count": 3,
       "duplicate_count": 0,
       "counting_policy": "independent_fixed_witness_occurrences",
-      "quote": "文才與渤海髙演俱知名初徵相州别駕中書侍郎稍遷祕書監賜爵貝邱侯加龍驤將軍樂安王範鎮長安世祖以範年少而三秦民夷恃險多變乃選忠清舊徳之士與範俱鎮以徽為散騎常侍督雍涇梁秦四州諸軍事平西將軍副將行樂安王傅進爵濟南公徽為政務存大體不親小事性好人倫引接賔客或談及平生或講論道義誨誘後進終日不止",
       "paragraph_ids": [
         "c-weishu-weishou-024-cuixuanbo:p016"
       ],
@@ -159,7 +158,12 @@
       "book_id": "b-weishu-weishou-024",
       "chapter_id": "c-weishu-weishou-024-cuixuanbo",
       "source_id": "s-weishu-weishou-024-cuixuanbo",
-      "work_title": "魏書（魏收）"
+      "work_title": "魏書（魏收）",
+      "chapter_ref": "data/corpus/weishu-weishou/024-cuixuanbo.json",
+      "quote_span": [
+        9,
+        148
+      ]
     },
     {
       "number": 38,
@@ -170,7 +174,6 @@
       "raw_count": 1,
       "duplicate_count": 0,
       "counting_policy": "independent_fixed_witness_occurrences",
-      "quote": "久之除樂安王範傅領并荆揚三州大中正慧龍抗表願得南垂自効崔浩固言之乃授南蠻校尉安南大將軍左長史及劉義隆荆州刺史謝晦起兵江陵引慧龍為援慧龍督司馬盧夀等一萬人㧞其思陵戍進圍項城晦敗乃班師後劉義隆將王𤣥謨寇滑臺詔假慧龍楚兵",
       "paragraph_ids": [
         "c-weishu-weishou-038-wanghuilong:unit003"
       ],
@@ -194,7 +197,12 @@
       "book_id": "b-weishu-weishou-038",
       "chapter_id": "c-weishu-weishou-038-wanghuilong",
       "source_id": "s-weishu-weishou-038-wanghuilong",
-      "work_title": "魏書（魏收）"
+      "work_title": "魏書（魏收）",
+      "chapter_ref": "data/corpus/weishu-weishou/038-wanghuilong.json",
+      "quote_span": [
+        0,
+        107
+      ]
     }
   ],
   "table_occurrences": [],
@@ -204,60 +212,14 @@
       "work_id": "w-weishu-weishou",
       "book_id": "b-weishu-weishou-024",
       "source_id": "s-weishu-weishou-024-cuixuanbo",
-      "source": {
-        "title": "魏書／卷二十四／崔𤣥伯",
-        "provider": "Kanripo WYG",
-        "url": "https://raw.githubusercontent.com/kanripo/KR2a0020/17b6525eb5aaa878b9640f5a61e90da934ce5fc4/KR2a0020_024.txt",
-        "permalink": "https://raw.githubusercontent.com/kanripo/KR2a0020/17b6525eb5aaa878b9640f5a61e90da934ce5fc4/KR2a0020_024.txt",
-        "revision_id": "17b6525eb5aaa878b9640f5a61e90da934ce5fc4",
-        "source_commit": "17b6525eb5aaa878b9640f5a61e90da934ce5fc4",
-        "source_blob": "7af3a614996d40af52d5b8fefc3c79dd18022fff",
-        "raw_file_sha256": "be3d212cef7e47f3d64ee8089e95bc4d7ae37af28022ea6883e1ca8a0a57df5a",
-        "raw_path": "sources/weishu-weishou/KR2a0020_024-17b6525.txt",
-        "accessed_on": "2026-10-19",
-        "edition": "文淵閣四庫全書數位轉錄；未圖校",
-        "extent": "raw244至357首字惜；完整本傳及簡恬徽，不含崔寛等後續附支／卷末史評／清考證",
-        "text_scope": "partial_chapter",
-        "review_status": "text_checked",
-        "image_verified": false,
-        "license_url": "https://creativecommons.org/publicdomain/mark/1.0/",
-        "rights": "古籍原文；固定Kanripo數位見證",
-        "normalization": {
-          "character_conversion": {},
-          "extraction_note": "只去物理空白、¶與頁標；逐字座標保存，不改元伯/𤣥伯、悦/恱/悅、誅等源字。",
-          "excerpts": []
-        }
-      }
+      "chapter_ref": "data/corpus/weishu-weishou/024-cuixuanbo.json"
     },
     {
       "chapter_id": "c-weishu-weishou-038-wanghuilong",
       "work_id": "w-weishu-weishou",
       "book_id": "b-weishu-weishou-038",
       "source_id": "s-weishu-weishou-038-wanghuilong",
-      "source": {
-        "title": "魏書／卷三十八／王慧龍完整傳及附敘",
-        "provider": "Kanripo WYG",
-        "url": "https://github.com/kanripo/KR2a0020/blob/17b6525eb5aaa878b9640f5a61e90da934ce5fc4/KR2a0020_038.txt",
-        "permalink": "https://github.com/kanripo/KR2a0020/blob/17b6525eb5aaa878b9640f5a61e90da934ce5fc4/KR2a0020_038.txt",
-        "revision_id": "17b6525eb5aaa878b9640f5a61e90da934ce5fc4",
-        "source_commit": "17b6525eb5aaa878b9640f5a61e90da934ce5fc4",
-        "source_blob": "c3fddb10227cd450724cb39a7d4c3ec86a3f7fef",
-        "raw_file_sha256": "07faab280233959bfa89a0354119c2b67f7ad1f23c1e1b8ebd67deb6927e6deb",
-        "raw_path": "sources/weishu-weishou/KR2a0020_038-17b6525.txt",
-        "accessed_on": "2026-10-19",
-        "edition": "文淵閣四庫全書數位轉錄；未圖校",
-        "extent": "raw225–339完整王慧龍至遵業子松年；375–380完整四傳共評。非全卷處理。",
-        "text_scope": "partial_chapter",
-        "review_status": "text_checked",
-        "image_verified": false,
-        "license_url": "https://creativecommons.org/publicdomain/mark/1.0/",
-        "rights": "古籍原文；固定Kanripo數位見證",
-        "normalization": {
-          "character_conversion": {},
-          "extraction_note": "只去物理空白、¶及頁碼；保(闕/)四字與全部原字，逐字raw座標另存。",
-          "excerpts": []
-        }
-      }
+      "chapter_ref": "data/corpus/weishu-weishou/038-wanghuilong.json"
     }
   ],
   "relations": [],

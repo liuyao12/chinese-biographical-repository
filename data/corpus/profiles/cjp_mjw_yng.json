@@ -21,7 +21,7 @@
           "chapter_id": "c-shiji-009-lvhou",
           "source_id": "s-shiji-009-lvhou",
           "paragraph_id": "c-shiji-009-lvhou:p017",
-          "quote": "太傅產、丞相平等言，武信侯呂祿上侯，位次第一，請立為趙王。太后許之，追尊祿父康侯為趙昭王。九月，燕靈王建薨，有美人子，太后使人殺之，無後，國除。八年十月，立呂肅王子東平侯呂通為燕王，封通弟呂莊為東平侯。"
+          "quote_passage_ref": "data/corpus/shiji/009.json"
         }
       ],
       "attestations": [
@@ -46,7 +46,7 @@
               "chapter_id": "c-shiji-009-lvhou",
               "source_id": "s-shiji-009-lvhou",
               "paragraph_id": "c-shiji-009-lvhou:p017",
-              "quote": "太傅產、丞相平等言，武信侯呂祿上侯，位次第一，請立為趙王。太后許之，追尊祿父康侯為趙昭王。九月，燕靈王建薨，有美人子，太后使人殺之，無後，國除。八年十月，立呂肅王子東平侯呂通為燕王，封通弟呂莊為東平侯。"
+              "quote_passage_ref": "data/corpus/shiji/009.json"
             }
           ]
         },
@@ -73,7 +73,6 @@
       "raw_count": 2,
       "duplicate_count": 0,
       "counting_policy": "independent_fixed_witness_occurrences",
-      "quote": "王建薨，有美人子，太后使人殺之，無後，國除。八年十月，立呂肅王子東平侯呂通為燕王，封通弟呂莊為東平侯。",
       "paragraph_ids": [
         "c-shiji-009-lvhou:p017",
         "c-shiji-009-lvhou:p029"
@@ -107,7 +106,12 @@
       "book_id": "b-shiji-009",
       "chapter_id": "c-shiji-009-lvhou",
       "source_id": "s-shiji-009-lvhou",
-      "work_title": "史記"
+      "work_title": "史記",
+      "chapter_ref": "data/corpus/shiji/009.json",
+      "quote_span": [
+        50,
+        101
+      ]
     }
   ],
   "table_occurrences": [
@@ -115,7 +119,6 @@
       "table_id": "shiji-017",
       "cell_id": "shiji-017-t1-r027-c14",
       "title": "《史記·漢興以來諸侯王年表》",
-      "quote": "十月辛丑，初王呂通元年。肅王子，故東平侯。九月誅，國除。",
       "year": {
         "era": "BCE",
         "value": 180,
@@ -138,13 +141,13 @@
       "book_id": "b-shiji-017",
       "chapter_id": "table-chapter-shiji-017",
       "source_id": "table-witness-shiji-017",
-      "source_revision": "2607010"
+      "source_revision": "2607010",
+      "quote_ref": "cell"
     },
     {
       "table_id": "shiji-019",
       "cell_id": "shiji-019-t2-r026-c02",
       "title": "《史記·惠景間侯者年表》",
-      "quote": "二。六年亖月丁酉，侯呂通。元年。八年，侯通爲燕王，坐呂氏事，國除。",
       "year": null,
       "mention": {
         "id": "shiji-019-t2-r026-c02-m000",
@@ -159,13 +162,13 @@
       "book_id": "b-shiji-019",
       "chapter_id": "table-chapter-shiji-019",
       "source_id": "table-witness-shiji-019",
-      "source_revision": "6359260"
+      "source_revision": "6359260",
+      "quote_ref": "cell"
     },
     {
       "table_id": "shiji-019",
       "cell_id": "shiji-019-t2-r031-c01",
       "title": "《史記·惠景間侯者年表》",
-      "quote": "以燕王呂通弟侯。",
       "year": null,
       "mention": {
         "id": "shiji-019-t2-r031-c01-m000",
@@ -180,7 +183,8 @@
       "book_id": "b-shiji-019",
       "chapter_id": "table-chapter-shiji-019",
       "source_id": "table-witness-shiji-019",
-      "source_revision": "6359260"
+      "source_revision": "6359260",
+      "quote_ref": "cell"
     }
   ],
   "sources": [
@@ -189,70 +193,21 @@
       "work_id": "w-shiji",
       "book_id": "b-shiji-009",
       "source_id": "s-shiji-009-lvhou",
-      "source": {
-        "title": "史記／卷009",
-        "provider": "維基文庫",
-        "url": "https://zh.wikisource.org/wiki/史記/卷009",
-        "permalink": "https://zh.wikisource.org/w/index.php?title=史記/卷009&oldid=2087062",
-        "revision_id": 2087062,
-        "accessed_on": "2026-10-09",
-        "extent": "本篇傳世正文32個p區塊，自「呂太后者」至太史公論贊；不含篇名導覽、跨站dd及另署索隱述贊的後出文字。",
-        "image_verified": false,
-        "rights": "古代原文；數位轉錄依維基文庫CC BY-SA 4.0，保留署名及固定版本。",
-        "license_url": "https://creativecommons.org/licenses/by-sa/4.0/",
-        "normalization": {
-          "character_conversion": {},
-          "editorial_readings": [],
-          "extraction_note": "正文均為p，排除前置跨站導覽dd、sup註號與末尾索隱述贊，保留原有校勘符號。",
-          "note": "固定版本HTML與實際所讀正文一致；未核紙本或影像。"
-        }
-      }
+      "chapter_ref": "data/corpus/shiji/009.json"
     },
     {
       "chapter_id": "table-chapter-shiji-017",
       "work_id": "w-shiji",
       "book_id": "b-shiji-017",
       "source_id": "table-witness-shiji-017",
-      "source": {
-        "id": "table-witness-shiji-017",
-        "work_id": "w-shiji",
-        "book_id": "b-shiji-017",
-        "chapter_id": "table-chapter-shiji-017",
-        "url": "https://zh.wikisource.org/wiki/史記/卷017",
-        "revision_url": "https://zh.wikisource.org/w/index.php?title=史記/卷017&oldid=2607010",
-        "revision": "2607010",
-        "accessed": "2026-10-13",
-        "response_sha256": "4f4e0437ce3126d69899f71fd8334f22dad8943c888cf2b766e51679d50dd517",
-        "edition": null,
-        "image_verified": false,
-        "rights": "古籍正文公有領域；維基文庫數位轉錄依CC BY-SA，保留貢獻者署名。",
-        "rights_url": "https://zh.wikisource.org/wiki/Wikisource:版權信息",
-        "review_status": "partial_named_entity_review",
-        "note": "各組表保留原欄題、原文、空格及合欄，不推不同欄題的接續。西元欄為數位編者增補；未明年份留空，不推世系曆年。未核底本影像，人物標註仍待逐處覆核。"
-      }
+      "table_source_ref": "shiji-017"
     },
     {
       "chapter_id": "table-chapter-shiji-019",
       "work_id": "w-shiji",
       "book_id": "b-shiji-019",
       "source_id": "table-witness-shiji-019",
-      "source": {
-        "id": "table-witness-shiji-019",
-        "work_id": "w-shiji",
-        "book_id": "b-shiji-019",
-        "chapter_id": "table-chapter-shiji-019",
-        "url": "https://zh.wikisource.org/wiki/史記/卷019",
-        "revision_url": "https://zh.wikisource.org/w/index.php?title=史記/卷019&oldid=6359260",
-        "revision": "6359260",
-        "accessed": "2026-10-13",
-        "response_sha256": "46d73e9b0e530a6bebb401c0d906ac495ac4e0433e4479cb31e92dbd810776bf",
-        "edition": null,
-        "image_verified": false,
-        "rights": "古籍正文公有領域；維基文庫數位轉錄依CC BY-SA，保留貢獻者署名。",
-        "rights_url": "https://zh.wikisource.org/wiki/Wikisource:版權信息",
-        "review_status": "partial_named_entity_review",
-        "note": "各組表保留原欄題、原文、空格及合欄，不推不同欄題的接續。西元欄為數位編者增補；未明年份留空，不推世系曆年。未核底本影像，人物標註仍待逐處覆核。"
-      }
+      "table_source_ref": "shiji-019"
     }
   ],
   "relations": [],
@@ -278,8 +233,8 @@
           "chapter_id": "c-shiji-009-lvhou",
           "source_id": "s-shiji-009-lvhou",
           "paragraph_id": "c-shiji-009-lvhou:p029",
-          "quote": "朱虛侯已殺產，帝命謁者持節勞朱虛侯。朱虛侯欲奪節信，謁者不肯，朱虛侯則從與載，因節信馳走，斬長樂衛尉呂更始。還，馳入北軍，報太尉。太尉起，拜賀朱虛侯曰：「所患獨呂產，今已誅，天下定矣。」遂遣人分部悉捕諸呂男女，無少長皆斬之。辛酉，捕斬呂祿，而笞殺呂媭。使人誅燕王呂通，而廢魯王偃。壬戌，以帝太傅食其復為左丞相。戊辰，徙濟川王王梁，立趙幽王子遂為趙王。遣朱虛侯章以誅諸呂氏事告齊王，令罷兵。灌嬰兵亦罷滎陽而歸。",
-          "person_mention_id": "c-shiji-009-lvhou:m029-0131"
+          "person_mention_id": "c-shiji-009-lvhou:m029-0131",
+          "quote_passage_ref": "data/corpus/shiji/009.json"
         }
       ],
       "source_term": "使人誅燕王呂通",

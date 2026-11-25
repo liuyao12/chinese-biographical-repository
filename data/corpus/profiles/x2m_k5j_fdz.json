@@ -23,7 +23,7 @@
           "chapter_id": "c-shiji-004-zhou",
           "source_id": "s-shiji-004-zhou",
           "paragraph_id": "c-shiji-004-zhou:p029",
-          "quote": "穆王立五十五年，崩，子共王繄扈立。共王游於涇上，密康公從，有三女奔之。其母曰：「必致之王。夫獸三為群，人三為眾，女三為粲。王田不取群，公行不下眾，王御不參一族。夫粲，美之物也。眾以美物歸女，而何德以堪之？王猶不堪，況爾之小醜乎！小醜備物，終必亡。」康公不獻，一年，共王滅密。共王崩，子懿王艱立。"
+          "quote_passage_ref": "data/corpus/shiji/004.json"
         }
       ],
       "attestations": [
@@ -48,7 +48,7 @@
               "chapter_id": "c-shiji-004-zhou",
               "source_id": "s-shiji-004-zhou",
               "paragraph_id": "c-shiji-004-zhou:p029",
-              "quote": "穆王立五十五年，崩，子共王繄扈立。共王游於涇上，密康公從，有三女奔之。其母曰：「必致之王。夫獸三為群，人三為眾，女三為粲。王田不取群，公行不下眾，王御不參一族。夫粲，美之物也。眾以美物歸女，而何德以堪之？王猶不堪，況爾之小醜乎！小醜備物，終必亡。」康公不獻，一年，共王滅密。共王崩，子懿王艱立。"
+              "quote_passage_ref": "data/corpus/shiji/004.json"
             }
           ]
         },
@@ -74,7 +74,6 @@
       "raw_count": 5,
       "duplicate_count": 0,
       "counting_policy": "independent_fixed_witness_occurrences",
-      "quote": "穆王立五十五年，崩，子共王繄扈立。共王游於涇上，密康公從，有三女奔之。其母曰：「必致之王。夫獸三為群，人三為眾，女三為粲。王田不取群，公行不下眾，王御不參一族。夫粲，美之物也。眾以美物歸女，而何德以堪之？王猶不堪，況爾之小醜乎！小",
       "paragraph_ids": [
         "c-shiji-004-zhou:p029",
         "c-shiji-004-zhou:p031"
@@ -135,7 +134,12 @@
       "book_id": "b-shiji-004",
       "chapter_id": "c-shiji-004-zhou",
       "source_id": "s-shiji-004-zhou",
-      "work_title": "史記"
+      "work_title": "史記",
+      "chapter_ref": "data/corpus/shiji/004.json",
+      "quote_span": [
+        0,
+        115
+      ]
     }
   ],
   "table_occurrences": [
@@ -143,7 +147,6 @@
       "table_id": "shiji-013",
       "cell_id": "shiji-013-t3-r005-c00",
       "title": "《史記·三代世表》",
-      "quote": "恭王伊扈",
       "year": null,
       "mention": {
         "id": "shiji-013-t3-r005-c00-m000",
@@ -158,7 +161,8 @@
       "book_id": "b-shiji-013",
       "chapter_id": "table-chapter-shiji-013",
       "source_id": "table-witness-shiji-013",
-      "source_revision": "2606991"
+      "source_revision": "2606991",
+      "quote_ref": "cell"
     }
   ],
   "sources": [
@@ -167,171 +171,21 @@
       "work_id": "w-shiji",
       "book_id": "b-shiji-004",
       "source_id": "s-shiji-004-zhou",
-      "source": {
-        "title": "史記／卷004",
-        "provider": "維基文庫",
-        "url": "https://zh.wikisource.org/wiki/史記/卷004",
-        "permalink": "https://zh.wikisource.org/w/index.php?title=史記/卷004&oldid=7909147",
-        "revision_id": 7909147,
-        "accessed_on": "2026-10-09",
-        "extent": "正文全文；排除註釋版導覽、現代節標題與註號；行內校勘標記另存。",
-        "image_verified": false,
-        "rights": "古代原文；數位轉錄依維基文庫 CC BY-SA 4.0，保留署名及固定版本。",
-        "license_url": "https://creativecommons.org/licenses/by-sa/4.0/",
-        "normalization": {
-          "character_conversion": {},
-          "editorial_readings": [
-            {
-              "paragraph_id": "c-shiji-004-zhou:p017",
-              "witness_form": "［左］",
-              "body_reading": "",
-              "note": "數位見證行內校勘標記另存；有兩讀時正文保存改讀前的字，不宣稱已完成校勘。"
-            },
-            {
-              "paragraph_id": "c-shiji-004-zhou:p039",
-              "witness_form": "（又作湦）",
-              "body_reading": "",
-              "note": "數位見證行內校勘標記另存；有兩讀時正文保存改讀前的字，不宣稱已完成校勘。"
-            },
-            {
-              "paragraph_id": "c-shiji-004-zhou:p074",
-              "witness_form": "（賀）［資］",
-              "body_reading": "賀",
-              "note": "數位見證行內校勘標記另存；有兩讀時正文保存改讀前的字，不宣稱已完成校勘。"
-            },
-            {
-              "paragraph_id": "c-shiji-004-zhou:p082",
-              "witness_form": "（最）［聚］",
-              "body_reading": "最",
-              "note": "數位見證行內校勘標記另存；有兩讀時正文保存改讀前的字，不宣稱已完成校勘。"
-            },
-            {
-              "paragraph_id": "c-shiji-004-zhou:p085",
-              "witness_form": "（西）",
-              "body_reading": "",
-              "note": "數位見證行內校勘標記另存；有兩讀時正文保存改讀前的字，不宣稱已完成校勘。"
-            },
-            {
-              "paragraph_id": "c-shiji-004-zhou:p086",
-              "witness_form": "（我）［於］",
-              "body_reading": "我",
-              "note": "數位見證行內校勘標記另存；有兩讀時正文保存改讀前的字，不宣稱已完成校勘。"
-            }
-          ],
-          "note": "有成對改讀標記時正文保留改讀前的字；校勘符號與異讀另存，不稱已核讀底本。保留古代異體與數位見證的疑讀。"
-        }
-      }
+      "chapter_ref": "data/corpus/shiji/004.json"
     },
     {
       "chapter_id": "c-shiji-005-qin",
       "work_id": "w-shiji",
       "book_id": "b-shiji-005",
       "source_id": "s-shiji-005-qin",
-      "source": {
-        "title": "史記／卷005",
-        "provider": "維基文庫",
-        "url": "https://zh.wikisource.org/wiki/史記/卷005",
-        "permalink": "https://zh.wikisource.org/w/index.php?title=史記/卷005&oldid=8744286",
-        "revision_id": 8744286,
-        "accessed_on": "2026-10-09",
-        "extent": "77段數位正文；排除註釋版導覽與註號，見證行內校勘符號暫原樣保留。",
-        "image_verified": false,
-        "rights": "古代原文；數位轉錄依維基文庫 CC BY-SA 4.0，保留署名及固定版本。",
-        "license_url": "https://creativecommons.org/licenses/by-sa/4.0/",
-        "normalization": {
-          "character_conversion": {
-            "铚": "銍",
-            "绖": "絰",
-            "龁": "齕"
-          },
-          "note": "第9段編者重複標記另存，其餘行內校勘符號仍待逐處分離；不稱已核讀底本。",
-          "editorial_readings": [
-            {
-              "paragraph_id": "c-shiji-005-qin:p009",
-              "witness_form": "（世父）世父",
-              "body_reading": "世父",
-              "note": "數位見證重複的括號標記另存；不作第二個正文人物提及。"
-            },
-            {
-              "paragraph_id": "c-shiji-005-qin:p022",
-              "witness_form": "铚",
-              "body_reading": "銍",
-              "note": "數位見證混入簡體字，轉繁體並保留字形轉換記錄；未核讀影像。"
-            },
-            {
-              "paragraph_id": "c-shiji-005-qin:p028",
-              "witness_form": "绖",
-              "body_reading": "絰",
-              "note": "數位見證混入簡體字，轉繁體並保留字形轉換記錄；未核讀影像。"
-            },
-            {
-              "paragraph_id": "c-shiji-005-qin:p033",
-              "witness_form": "绖",
-              "body_reading": "絰",
-              "note": "數位見證混入簡體字，轉繁體並保存原字；未核影像。"
-            },
-            {
-              "paragraph_id": "c-shiji-005-qin:p070",
-              "witness_form": "龁",
-              "body_reading": "齕",
-              "note": "數位見證簡體字轉繁體，原字保留；未核影像。"
-            },
-            {
-              "paragraph_id": "c-shiji-005-qin:p072",
-              "witness_form": "绖",
-              "body_reading": "絰",
-              "note": "數位見證簡體字轉繁體，原字保留；未核影像。"
-            },
-            {
-              "paragraph_id": "c-shiji-005-qin:p074",
-              "witness_form": "龁",
-              "body_reading": "齕",
-              "note": "數位見證簡體字轉繁體，原字保留；未核影像。"
-            },
-            {
-              "paragraph_id": "c-shiji-005-qin:p070",
-              "witness_form": "胡（傷）［陽］",
-              "body_reading": "胡傷",
-              "note": "行內校勘標記另存，成對讀法保留改讀前的字；身份與底本待核。"
-            },
-            {
-              "paragraph_id": "c-shiji-005-qin:p070",
-              "witness_form": "南（郡）［陽］",
-              "body_reading": "南郡",
-              "note": "行內校勘標記另存，成對讀法保留改讀前的字；身份與底本待核。"
-            },
-            {
-              "paragraph_id": "c-shiji-005-qin:p070",
-              "witness_form": "（武安）",
-              "body_reading": "",
-              "note": "行內校勘標記另存，成對讀法保留改讀前的字；身份與底本待核。"
-            }
-          ]
-        }
-      }
+      "chapter_ref": "data/corpus/shiji/005.json"
     },
     {
       "chapter_id": "table-chapter-shiji-013",
       "work_id": "w-shiji",
       "book_id": "b-shiji-013",
       "source_id": "table-witness-shiji-013",
-      "source": {
-        "id": "table-witness-shiji-013",
-        "work_id": "w-shiji",
-        "book_id": "b-shiji-013",
-        "chapter_id": "table-chapter-shiji-013",
-        "url": "https://zh.wikisource.org/wiki/史記/卷013",
-        "revision_url": "https://zh.wikisource.org/w/index.php?title=史記/卷013&oldid=2606991",
-        "revision": "2606991",
-        "accessed": "2026-10-13",
-        "response_sha256": "8c98c072f11fc224a605f6b8f4dfc77be5f87bad792d32c0a2a720914638d7c3",
-        "edition": null,
-        "image_verified": false,
-        "rights": "古籍正文公有領域；維基文庫數位轉錄依CC BY-SA，保留貢獻者署名。",
-        "rights_url": "https://zh.wikisource.org/wiki/Wikisource:版權信息",
-        "review_status": "partial_named_entity_review",
-        "note": "各組表保留原欄題、原文、空格及合欄，不推不同欄題的接續。西元欄為數位編者增補；未明年份留空，不推世系曆年。未核底本影像，人物標註仍待逐處覆核。"
-      }
+      "table_source_ref": "shiji-013"
     }
   ],
   "relations": [
@@ -428,19 +282,19 @@
       "evidence": [
         {
           "paragraph_id": "c-shiji-005-qin:p040",
-          "quote": "康公元年。往歲繆公之卒，晉襄公亦卒；襄公之弟名雍，秦出也，在秦。晉趙盾欲立之，使隨會來迎雍，秦以兵送至令狐。晉立襄公子而反擊秦師，秦師敗，隨會來奔。二年，秦伐晉，取武城，報令狐之役。四年，晉伐秦，取少梁。六年，秦伐晉，取羈馬。戰於河曲，大敗晉軍。晉人患隨會在秦為亂，乃使魏讎餘詳反，合謀會，詐而得會，會遂歸晉。康公立十二年卒，子共公立。",
           "chapter_id": "c-shiji-005-qin",
           "work_id": "w-shiji",
           "book_id": "b-shiji-005",
-          "source_id": "s-shiji-005-qin"
+          "source_id": "s-shiji-005-qin",
+          "quote_passage_ref": "data/corpus/shiji/005.json"
         },
         {
           "paragraph_id": "c-shiji-004-zhou:p029",
-          "quote": "穆王立五十五年，崩，子共王繄扈立。共王游於涇上，密康公從，有三女奔之。其母曰：「必致之王。夫獸三為群，人三為眾，女三為粲。王田不取群，公行不下眾，王御不參一族。夫粲，美之物也。眾以美物歸女，而何德以堪之？王猶不堪，況爾之小醜乎！小醜備物，終必亡。」康公不獻，一年，共王滅密。共王崩，子懿王艱立。",
           "chapter_id": "c-shiji-004-zhou",
           "work_id": "w-shiji",
           "book_id": "b-shiji-004",
-          "source_id": "s-shiji-004-zhou"
+          "source_id": "s-shiji-004-zhou",
+          "quote_passage_ref": "data/corpus/shiji/004.json"
         }
       ],
       "rationale": "所屬國家、王朝與敘事時代不同，按本文分開登記；共同稱號不足以支持合併。",
@@ -539,8 +393,8 @@
           "chapter_id": "c-shiji-004-zhou",
           "source_id": "s-shiji-004-zhou",
           "paragraph_id": "c-shiji-004-zhou:p029",
-          "quote": "穆王立五十五年，崩，子共王繄扈立。共王游於涇上，密康公從，有三女奔之。其母曰：「必致之王。夫獸三為群，人三為眾，女三為粲。王田不取群，公行不下眾，王御不參一族。夫粲，美之物也。眾以美物歸女，而何德以堪之？王猶不堪，況爾之小醜乎！小醜備物，終必亡。」康公不獻，一年，共王滅密。共王崩，子懿王艱立。",
-          "person_mention_id": "c-shiji-004-zhou:m029-0017"
+          "person_mention_id": "c-shiji-004-zhou:m029-0017",
+          "quote_passage_ref": "data/corpus/shiji/004.json"
         }
       ],
       "source_term": "共王崩",

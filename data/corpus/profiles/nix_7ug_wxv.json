@@ -22,7 +22,7 @@
           "chapter_id": "c-shiji-095-fankuang",
           "source_id": "s-shiji-095-fankuang",
           "paragraph_id": "c-shiji-095-fankuang:p010",
-          "quote": "孝惠六年，樊噲卒，謚為武侯。子伉代侯。而伉母呂須亦為臨光侯，高后時用事專權，大臣盡畏之。伉代侯九歲，高后崩。大臣誅諸呂、呂須婘屬，因誅伉。舞陽侯中絕數月。孝文帝既立，乃復封噲他庶子市人為舞陽侯，復故爵邑。市人立二十九歲卒，謚為荒侯。子他廣代侯。六歲，侯家舍人得罪他廣，怨之，乃上書曰：「荒侯市人病不能為人，令其夫人與其弟亂而生他廣，他廣實非荒侯子，不當代後。」詔下吏。孝景中六年，他廣奪侯為庶人，國除。"
+          "quote_passage_ref": "data/corpus/shiji/095.json"
         }
       ],
       "attestations": [
@@ -64,7 +64,6 @@
       "raw_count": 6,
       "duplicate_count": 0,
       "counting_policy": "independent_fixed_witness_occurrences",
-      "quote": "人既受詔，馳傳未至軍，行計之曰：「樊噲，帝之故人也，功多，且又乃呂后弟呂嬃之夫，有親且貴，帝以忿怒故，欲斬之，則恐後悔。寧囚而致上，上自誅之。」未至軍，爲壇，以節召樊噲。噲受詔，即反接載檻車，傳詣長安，而令絳侯勃代將，將兵定燕反縣。",
       "paragraph_ids": [
         "c-shiji-056-chen:p015",
         "c-shiji-056-chen:p016",
@@ -135,7 +134,12 @@
       "book_id": "b-shiji-056",
       "chapter_id": "c-shiji-056-chen",
       "source_id": "s-shiji-056-chen",
-      "work_title": "史記"
+      "work_title": "史記",
+      "chapter_ref": "data/corpus/shiji/056.json",
+      "quote_span": [
+        103,
+        219
+      ]
     },
     {
       "number": 95,
@@ -146,7 +150,6 @@
       "raw_count": 3,
       "duplicate_count": 0,
       "counting_policy": "independent_fixed_witness_occurrences",
-      "quote": "噲以呂后女弟呂須為婦，生子伉，故其比諸將最親。",
       "paragraph_ids": [
         "c-shiji-095-fankuang:p007",
         "c-shiji-095-fankuang:p010"
@@ -189,7 +192,12 @@
       "book_id": "b-shiji-095",
       "chapter_id": "c-shiji-095-fankuang",
       "source_id": "s-shiji-095-fankuang",
-      "work_title": "史記"
+      "work_title": "史記",
+      "chapter_ref": "data/corpus/shiji/095.json",
+      "quote_span": [
+        0,
+        23
+      ]
     }
   ],
   "table_occurrences": [],
@@ -199,48 +207,14 @@
       "work_id": "w-shiji",
       "book_id": "b-shiji-056",
       "source_id": "s-shiji-056-chen",
-      "source": {
-        "title": "史記／卷056",
-        "provider": "維基文庫",
-        "url": "https://zh.wikisource.org/wiki/史記/卷056",
-        "permalink": "https://zh.wikisource.org/w/index.php?title=史記/卷056&oldid=1961615",
-        "revision_id": 1961615,
-        "accessed_on": "2026-10-09",
-        "extent": "28段篇文及1段索隱述贊，無需排除數位欄題。",
-        "image_verified": false,
-        "rights": "古代原文；數位轉錄依維基文庫CC BY-SA 4.0，保留署名及固定版本。",
-        "license_url": "https://creativecommons.org/licenses/by-sa/4.0/",
-        "normalization": {
-          "character_conversion": {},
-          "editorial_readings": [],
-          "extraction_note": "取得時HTML與固定修訂一致，只去外緣空白；保留戸、鄕、爲、渉、衞、歳、説、劎、躶、鍾離眛、共侯與上曰；等原字及符號，索隱標記另分層。",
-          "note": "全29段已讀並作明示人物首輪；未核底本、影像或現代研究。"
-        }
-      }
+      "chapter_ref": "data/corpus/shiji/056.json"
     },
     {
       "chapter_id": "c-shiji-095-fankuang",
       "work_id": "w-shiji",
       "book_id": "b-shiji-095",
       "source_id": "s-shiji-095-fankuang",
-      "source": {
-        "title": "史記／卷095",
-        "provider": "維基文庫",
-        "url": "https://zh.wikisource.org/wiki/史記/卷095",
-        "permalink": "https://zh.wikisource.org/w/index.php?title=史記/卷095&oldid=2298709",
-        "revision_id": 2298709,
-        "accessed_on": "2026-10-09",
-        "extent": "34段傳世正文含太史公論，另附1段分層索隱述贊；排除導覽與空白。",
-        "image_verified": false,
-        "rights": "古代原文；數位轉錄依維基文庫CC BY-SA 4.0，保留署名及固定版本。",
-        "license_url": "https://creativecommons.org/licenses/by-sa/4.0/",
-        "normalization": {
-          "character_conversion": {},
-          "editorial_readings": [],
-          "extraction_note": "固定HTML一致，只去外緣空白；樊噌、（肩）［屏］、（博）［傅］、（太卜）太仆、穎陰等原字保留。",
-          "note": "全37個HTML區塊已讀，未核底本影像。"
-        }
-      }
+      "chapter_ref": "data/corpus/shiji/095.json"
     }
   ],
   "relations": [
@@ -255,7 +229,7 @@
           "chapter_id": "c-shiji-056-chen",
           "source_id": "s-shiji-056-chen",
           "paragraph_id": "c-shiji-056-chen:p015",
-          "quote": "高帝從破布軍還，病創，徐行至長安。燕王盧綰反，上使樊噲以相國將兵攻之。既行，人有短惡噲者。高帝怒曰：「噲見吾病，乃冀我死也。」用陳平謀而召絳侯周勃受詔牀下，曰：「陳平亟馳傳載勃代噲將，平至軍中即斬噲頭！」二人既受詔，馳傳未至軍，行計之曰：「樊噲，帝之故人也，功多，且又乃呂后弟呂嬃之夫，有親且貴，帝以忿怒故，欲斬之，則恐後悔。寧囚而致上，上自誅之。」未至軍，爲壇，以節召樊噲。噲受詔，即反接載檻車，傳詣長安，而令絳侯勃代將，將兵定燕反縣。"
+          "quote_passage_ref": "data/corpus/shiji/056.json"
         }
       ],
       "qualifiers": {
@@ -276,7 +250,7 @@
           "chapter_id": "c-shiji-056-chen",
           "source_id": "s-shiji-056-chen",
           "paragraph_id": "c-shiji-056-chen:p015",
-          "quote": "高帝從破布軍還，病創，徐行至長安。燕王盧綰反，上使樊噲以相國將兵攻之。既行，人有短惡噲者。高帝怒曰：「噲見吾病，乃冀我死也。」用陳平謀而召絳侯周勃受詔牀下，曰：「陳平亟馳傳載勃代噲將，平至軍中即斬噲頭！」二人既受詔，馳傳未至軍，行計之曰：「樊噲，帝之故人也，功多，且又乃呂后弟呂嬃之夫，有親且貴，帝以忿怒故，欲斬之，則恐後悔。寧囚而致上，上自誅之。」未至軍，爲壇，以節召樊噲。噲受詔，即反接載檻車，傳詣長安，而令絳侯勃代將，將兵定燕反縣。"
+          "quote_passage_ref": "data/corpus/shiji/056.json"
         }
       ],
       "qualifiers": {
@@ -297,7 +271,7 @@
           "chapter_id": "c-shiji-095-fankuang",
           "source_id": "s-shiji-095-fankuang",
           "paragraph_id": "c-shiji-095-fankuang:p007",
-          "quote": "噲以呂后女弟呂須為婦，生子伉，故其比諸將最親。"
+          "quote_passage_ref": "data/corpus/shiji/095.json"
         }
       ],
       "qualifiers": {
@@ -328,7 +302,7 @@
           "chapter_id": "c-shiji-095-fankuang",
           "source_id": "s-shiji-095-fankuang",
           "paragraph_id": "c-shiji-095-fankuang:p007",
-          "quote": "噲以呂后女弟呂須為婦，生子伉，故其比諸將最親。"
+          "quote_passage_ref": "data/corpus/shiji/095.json"
         }
       ],
       "qualifiers": {
@@ -349,7 +323,7 @@
           "chapter_id": "c-shiji-095-fankuang",
           "source_id": "s-shiji-095-fankuang",
           "paragraph_id": "c-shiji-095-fankuang:p010",
-          "quote": "孝惠六年，樊噲卒，謚為武侯。子伉代侯。而伉母呂須亦為臨光侯，高后時用事專權，大臣盡畏之。伉代侯九歲，高后崩。大臣誅諸呂、呂須婘屬，因誅伉。舞陽侯中絕數月。孝文帝既立，乃復封噲他庶子市人為舞陽侯，復故爵邑。市人立二十九歲卒，謚為荒侯。子他廣代侯。六歲，侯家舍人得罪他廣，怨之，乃上書曰：「荒侯市人病不能為人，令其夫人與其弟亂而生他廣，他廣實非荒侯子，不當代後。」詔下吏。孝景中六年，他廣奪侯為庶人，國除。"
+          "quote_passage_ref": "data/corpus/shiji/095.json"
         }
       ],
       "qualifiers": {
@@ -383,7 +357,7 @@
           "chapter_id": "c-shiji-056-chen",
           "source_id": "s-shiji-056-chen",
           "paragraph_id": "c-shiji-056-chen:p015",
-          "quote": "高帝從破布軍還，病創，徐行至長安。燕王盧綰反，上使樊噲以相國將兵攻之。既行，人有短惡噲者。高帝怒曰：「噲見吾病，乃冀我死也。」用陳平謀而召絳侯周勃受詔牀下，曰：「陳平亟馳傳載勃代噲將，平至軍中即斬噲頭！」二人既受詔，馳傳未至軍，行計之曰：「樊噲，帝之故人也，功多，且又乃呂后弟呂嬃之夫，有親且貴，帝以忿怒故，欲斬之，則恐後悔。寧囚而致上，上自誅之。」未至軍，爲壇，以節召樊噲。噲受詔，即反接載檻車，傳詣長安，而令絳侯勃代將，將兵定燕反縣。"
+          "quote_passage_ref": "data/corpus/shiji/056.json"
         }
       ],
       "qualifiers": {
@@ -404,7 +378,7 @@
           "chapter_id": "c-shiji-056-chen",
           "source_id": "s-shiji-056-chen",
           "paragraph_id": "c-shiji-056-chen:p015",
-          "quote": "高帝從破布軍還，病創，徐行至長安。燕王盧綰反，上使樊噲以相國將兵攻之。既行，人有短惡噲者。高帝怒曰：「噲見吾病，乃冀我死也。」用陳平謀而召絳侯周勃受詔牀下，曰：「陳平亟馳傳載勃代噲將，平至軍中即斬噲頭！」二人既受詔，馳傳未至軍，行計之曰：「樊噲，帝之故人也，功多，且又乃呂后弟呂嬃之夫，有親且貴，帝以忿怒故，欲斬之，則恐後悔。寧囚而致上，上自誅之。」未至軍，爲壇，以節召樊噲。噲受詔，即反接載檻車，傳詣長安，而令絳侯勃代將，將兵定燕反縣。"
+          "quote_passage_ref": "data/corpus/shiji/056.json"
         }
       ],
       "qualifiers": {
@@ -425,7 +399,7 @@
           "chapter_id": "c-shiji-095-fankuang",
           "source_id": "s-shiji-095-fankuang",
           "paragraph_id": "c-shiji-095-fankuang:p007",
-          "quote": "噲以呂后女弟呂須為婦，生子伉，故其比諸將最親。"
+          "quote_passage_ref": "data/corpus/shiji/095.json"
         }
       ],
       "qualifiers": {
@@ -456,7 +430,7 @@
           "chapter_id": "c-shiji-095-fankuang",
           "source_id": "s-shiji-095-fankuang",
           "paragraph_id": "c-shiji-095-fankuang:p007",
-          "quote": "噲以呂后女弟呂須為婦，生子伉，故其比諸將最親。"
+          "quote_passage_ref": "data/corpus/shiji/095.json"
         }
       ],
       "qualifiers": {
@@ -477,7 +451,7 @@
           "chapter_id": "c-shiji-095-fankuang",
           "source_id": "s-shiji-095-fankuang",
           "paragraph_id": "c-shiji-095-fankuang:p010",
-          "quote": "孝惠六年，樊噲卒，謚為武侯。子伉代侯。而伉母呂須亦為臨光侯，高后時用事專權，大臣盡畏之。伉代侯九歲，高后崩。大臣誅諸呂、呂須婘屬，因誅伉。舞陽侯中絕數月。孝文帝既立，乃復封噲他庶子市人為舞陽侯，復故爵邑。市人立二十九歲卒，謚為荒侯。子他廣代侯。六歲，侯家舍人得罪他廣，怨之，乃上書曰：「荒侯市人病不能為人，令其夫人與其弟亂而生他廣，他廣實非荒侯子，不當代後。」詔下吏。孝景中六年，他廣奪侯為庶人，國除。"
+          "quote_passage_ref": "data/corpus/shiji/095.json"
         }
       ],
       "qualifiers": {

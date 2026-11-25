@@ -20,7 +20,6 @@
       "raw_count": 1,
       "duplicate_count": 0,
       "counting_policy": "independent_fixed_witness_occurrences",
-      "quote": "三十二年，釐公同母弟夷仲年死。其子曰公孫無知，釐公愛之，令其秩服奉養比太子。",
       "paragraph_ids": [
         "c-shiji-032-qi:p022"
       ],
@@ -44,7 +43,12 @@
       "book_id": "b-shiji-032",
       "chapter_id": "c-shiji-032-qi",
       "source_id": "s-shiji-032-qi",
-      "work_title": "史記"
+      "work_title": "史記",
+      "chapter_ref": "data/corpus/shiji/032.json",
+      "quote_span": [
+        0,
+        38
+      ]
     }
   ],
   "table_occurrences": [
@@ -52,7 +56,6 @@
       "table_id": "shiji-014",
       "cell_id": "shiji-014-r113-c04",
       "title": "《史記·十二諸侯年表》",
-      "quote": "二同母弟夷仲年生公孫毋知也。",
       "year": {
         "era": "BCE",
         "value": 729,
@@ -75,7 +78,8 @@
       "book_id": "b-shiji-014",
       "chapter_id": "table-chapter-shiji-014",
       "source_id": "table-witness-shiji-014",
-      "source_revision": "2607001"
+      "source_revision": "2607001",
+      "quote_ref": "cell"
     }
   ],
   "sources": [
@@ -84,47 +88,14 @@
       "work_id": "w-shiji",
       "book_id": "b-shiji-032",
       "source_id": "s-shiji-032-qi",
-      "source": {
-        "title": "史記／卷032",
-        "provider": "維基文庫",
-        "url": "https://zh.wikisource.org/wiki/史記/卷032",
-        "permalink": "https://zh.wikisource.org/w/index.php?title=史記/卷032&oldid=445042",
-        "revision_id": 445042,
-        "accessed_on": "2026-10-09",
-        "extent": "正文85個p區塊，自太公望呂尚者至太史公論贊；排除頂部君主摘要、跨站導覽及索隱述贊。",
-        "image_verified": false,
-        "rights": "古代原文；數位轉錄依維基文庫CC BY-SA 4.0，保留署名及固定版本。",
-        "license_url": "https://creativecommons.org/licenses/by-sa/4.0/",
-        "normalization": {
-          "character_conversion": {},
-          "editorial_readings": [],
-          "extraction_note": "保留彨、薄泵、慈母、無忌等原字與姓名，未按熟知讀法改寫。",
-          "note": "固定版本與實讀HTML一致；全85段首輪標註，代詞、版本與身份覆核未完；未核底本、影像或專門研究。"
-        }
-      }
+      "chapter_ref": "data/corpus/shiji/032.json"
     },
     {
       "chapter_id": "table-chapter-shiji-014",
       "work_id": "w-shiji",
       "book_id": "b-shiji-014",
       "source_id": "table-witness-shiji-014",
-      "source": {
-        "id": "table-witness-shiji-014",
-        "work_id": "w-shiji",
-        "book_id": "b-shiji-014",
-        "chapter_id": "table-chapter-shiji-014",
-        "url": "https://zh.wikisource.org/wiki/史記/卷014",
-        "revision_url": "https://zh.wikisource.org/w/index.php?title=史記/卷014&oldid=2607001",
-        "revision": "2607001",
-        "accessed": "2026-10-12",
-        "response_sha256": "399a83afe1f1fdb785213c55cbb4ec792c1b5e08929e24486f67ccc83fbacae6",
-        "edition": null,
-        "image_verified": false,
-        "rights": "古籍正文公有領域；維基文庫轉錄及編輯內容依 CC BY-SA 條款，署名維基文庫貢獻者。",
-        "rights_url": "https://zh.wikisource.org/wiki/Wikisource:版權信息",
-        "review_status": "partial_named_entity_review",
-        "note": "完整數位表格結構匯入，未逐格學術覆核。未核讀印本影像，原印本頁碼未知。西元欄沿用此數位轉錄的編者對照，不是古籍原有西元紀年，也不引用其維基百科外連。"
-      }
+      "table_source_ref": "shiji-014"
     }
   ],
   "relations": [
@@ -139,7 +110,7 @@
           "chapter_id": "c-shiji-032-qi",
           "source_id": "s-shiji-032-qi",
           "paragraph_id": "c-shiji-032-qi:p022",
-          "quote": "三十二年，釐公同母弟夷仲年死。其子曰公孫無知，釐公愛之，令其秩服奉養比太子。"
+          "quote_passage_ref": "data/corpus/shiji/032.json"
         }
       ],
       "qualifiers": {
@@ -160,7 +131,7 @@
           "chapter_id": "c-shiji-032-qi",
           "source_id": "s-shiji-032-qi",
           "paragraph_id": "c-shiji-032-qi:p022",
-          "quote": "三十二年，釐公同母弟夷仲年死。其子曰公孫無知，釐公愛之，令其秩服奉養比太子。"
+          "quote_passage_ref": "data/corpus/shiji/032.json"
         }
       ],
       "qualifiers": {
@@ -193,7 +164,7 @@
           "chapter_id": "c-shiji-032-qi",
           "source_id": "s-shiji-032-qi",
           "paragraph_id": "c-shiji-032-qi:p022",
-          "quote": "三十二年，釐公同母弟夷仲年死。其子曰公孫無知，釐公愛之，令其秩服奉養比太子。"
+          "quote_passage_ref": "data/corpus/shiji/032.json"
         }
       ],
       "qualifiers": {
@@ -214,7 +185,7 @@
           "chapter_id": "c-shiji-032-qi",
           "source_id": "s-shiji-032-qi",
           "paragraph_id": "c-shiji-032-qi:p022",
-          "quote": "三十二年，釐公同母弟夷仲年死。其子曰公孫無知，釐公愛之，令其秩服奉養比太子。"
+          "quote_passage_ref": "data/corpus/shiji/032.json"
         }
       ],
       "qualifiers": {
@@ -238,8 +209,8 @@
           "chapter_id": "c-shiji-032-qi",
           "source_id": "s-shiji-032-qi",
           "paragraph_id": "c-shiji-032-qi:p022",
-          "quote": "三十二年，釐公同母弟夷仲年死。其子曰公孫無知，釐公愛之，令其秩服奉養比太子。",
-          "person_mention_id": "c-shiji-032-qi:m022-0010"
+          "person_mention_id": "c-shiji-032-qi:m022-0010",
+          "quote_passage_ref": "data/corpus/shiji/032.json"
         }
       ],
       "source_term": "夷仲年死",

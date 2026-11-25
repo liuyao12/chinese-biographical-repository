@@ -1,3 +1,4 @@
+import {storedProfile} from './read-stored-profile.mjs';
 import {readFileSync} from 'node:fs';
 import test from 'node:test';
 import assert from 'node:assert/strict';
@@ -17,7 +18,7 @@ test('without an approved display form all raw source markers remain available',
  const ref={quote:'<pb:synthetic>¶原/字',quote_format:'kanripo_line_wrapped'};assert.equal(sourceReferenceQuote(ref),ref.quote);assert.equal(sourceReferenceQuote(null),'');
 });
 
-const jie=JSON.parse(readFileSync(new URL('../data/corpus/profiles/d7u_bgr_wdi_A.json',import.meta.url),'utf8'));
+const jie=storedProfile(JSON.parse(readFileSync(new URL('../data/corpus/profiles/d7u_bgr_wdi_A.json',import.meta.url),'utf8')));
 test('the source-bound unresolved tenure warning is visible in the reading card',()=>{
  assert.match(personCard(jie),/person-chronology-warning/);
 });
@@ -26,7 +27,7 @@ test('a normal profile without that source caution gets no invented warning',()=
  assert.doesNotMatch(personCard(person),/person-chronology-warning/);
 });
 
-const descendant=JSON.parse(readFileSync(new URL('../data/corpus/profiles/d7u_bgr_wdi_***A.json',import.meta.url),'utf8'));
+const descendant=storedProfile(JSON.parse(readFileSync(new URL('../data/corpus/profiles/d7u_bgr_wdi_***A.json',import.meta.url),'utf8')));
 test('the ancestor relation labels its object as ancestor rather than descendant',()=>{
  const html=personCard(descendant,true);assert.match(html,/ · 先祖：/);assert.doesNotMatch(html,/ · 玄孫：/);
 });

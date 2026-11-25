@@ -20,7 +20,6 @@
       "raw_count": 3,
       "duplicate_count": 0,
       "counting_policy": "independent_fixed_witness_occurrences",
-      "quote": "桓玄，字敬道，一名靈寶，大司馬溫之孽子也。其母馬氏嘗與同輩夜坐，於月下見流星墜銅盆水中，忽如二寸火珠，冏然明淨，競以瓢接取，馬氏得而吞之，若有感，遂有娠。及生玄，有光照室，占者奇之，故小名靈寶。妳媼每抱詣溫，輒易人而後至，云其重兼常兒，溫甚愛異之。臨",
       "paragraph_ids": [
         "c-jinshu-099-huanxuan:p001",
         "c-jinshu-099-huanxuan:p016"
@@ -63,7 +62,12 @@
       "book_id": "b-jinshu-099",
       "chapter_id": "c-jinshu-099-huanxuan",
       "source_id": "s-jinshu-099-huanxuan-ws2644703",
-      "work_title": "晉書"
+      "work_title": "晉書",
+      "chapter_ref": "data/corpus/jinshu/099-huanxuan.json",
+      "quote_span": [
+        0,
+        125
+      ]
     }
   ],
   "table_occurrences": [],
@@ -73,31 +77,7 @@
       "work_id": "w-jinshu",
       "book_id": "b-jinshu-099",
       "source_id": "s-jinshu-099-huanxuan-ws2644703",
-      "source": {
-        "provider": "Wikisource",
-        "revision_id": 2644703,
-        "permalink": "https://zh.wikisource.org/w/index.php?title=晉書/卷099&oldid=2644703",
-        "edition": null,
-        "image_verified": false,
-        "qualification": "固定數位傳世文字見證；未親核底本或影像，校勘ref另層。",
-        "selected_raw_start": 205,
-        "selected_raw_end": 10419,
-        "extent": "完整選定傳記單元 huanxuan；非全書、非全卷",
-        "rights": "古代正文公版；維基文庫數位整理保留來源歸屬及CC BY-SA資格。",
-        "normalization": {
-          "character_conversion": {},
-          "extraction_note": "Balanced wiki display parser; every selected raw codepoint classified as retained visible text, explicit display markup, apparatus ref or unit/navigation metadata. Encoded ! first argument retained; all suffix after closing template preserved.",
-          "parser": "wikitext_visible.py"
-        },
-        "title": "晉書／桓玄完整本傳單元",
-        "url": "https://zh.wikisource.org/w/index.php?title=晉書/卷099&oldid=2644703",
-        "raw_file_sha256": "710aeeace35e122a76ad7762035418cef8310c25020749273023c1b6a3af98d4",
-        "raw_path": "sources/jinshu/wikisource-2644703-raw.wikitext",
-        "accessed_on": "2026-10-20",
-        "text_scope": "partial_chapter",
-        "review_status": "text_checked",
-        "license_url": "https://creativecommons.org/licenses/by-sa/4.0/"
-      }
+      "chapter_ref": "data/corpus/jinshu/099-huanxuan.json"
     }
   ],
   "relations": [
@@ -125,9 +105,9 @@
           "source_id": "s-jinshu-099-huanxuan-ws2644703",
           "chapter_id": "c-jinshu-099-huanxuan",
           "paragraph_id": "c-jinshu-099-huanxuan:p001",
-          "quote": "桓玄，字敬道，一名靈寶，大司馬溫之孽子也。其母馬氏嘗與同輩夜坐，於月下見流星墜銅盆水中，忽如二寸火珠，冏然明淨，競以瓢接取，馬氏得而吞之，若有感，遂有娠。及生玄，有光照室，占者奇之，故小名靈寶。妳媼每抱詣溫，輒易人而後至，云其重兼常兒，溫甚愛異之。臨終，命以為嗣，襲爵南郡公。年七歲，溫服終，府州文武辭其叔父沖，沖撫玄頭曰：「此汝家之故吏也。」玄因涕淚覆面，眾並異之。及長，形貌瑰奇，風神疏朗，博綜藝術，善屬文。常負其才地，以雄豪自處，眾咸憚之，朝廷亦疑而未用。年二十三，始拜太子洗馬，時議謂溫有不臣之跡，故折玄兄弟而為素官。",
           "subject_person_mention_id": "c-jinshu-099-huanxuan:p001:m0000",
-          "object_person_mention_id": "c-jinshu-099-huanxuan:p001:m0023"
+          "object_person_mention_id": "c-jinshu-099-huanxuan:p001:m0023",
+          "quote_passage_ref": "data/corpus/jinshu/099-huanxuan.json"
         }
       ],
       "interpretation_note": "依完整原段與具體錨點辨識；未補原文未述父母、配偶、世系或排行。",
@@ -170,9 +150,9 @@
           "source_id": "s-jinshu-099-huanxuan-ws2644703",
           "chapter_id": "c-jinshu-099-huanxuan",
           "paragraph_id": "c-jinshu-099-huanxuan:p001",
-          "quote": "桓玄，字敬道，一名靈寶，大司馬溫之孽子也。其母馬氏嘗與同輩夜坐，於月下見流星墜銅盆水中，忽如二寸火珠，冏然明淨，競以瓢接取，馬氏得而吞之，若有感，遂有娠。及生玄，有光照室，占者奇之，故小名靈寶。妳媼每抱詣溫，輒易人而後至，云其重兼常兒，溫甚愛異之。臨終，命以為嗣，襲爵南郡公。年七歲，溫服終，府州文武辭其叔父沖，沖撫玄頭曰：「此汝家之故吏也。」玄因涕淚覆面，眾並異之。及長，形貌瑰奇，風神疏朗，博綜藝術，善屬文。常負其才地，以雄豪自處，眾咸憚之，朝廷亦疑而未用。年二十三，始拜太子洗馬，時議謂溫有不臣之跡，故折玄兄弟而為素官。",
           "subject_person_mention_id": "c-jinshu-099-huanxuan:p001:m0000",
-          "object_person_mention_id": "c-jinshu-099-huanxuan:p001:m0023"
+          "object_person_mention_id": "c-jinshu-099-huanxuan:p001:m0023",
+          "quote_passage_ref": "data/corpus/jinshu/099-huanxuan.json"
         }
       ],
       "interpretation_note": "依完整原段與具體錨點辨識；未補原文未述父母、配偶、世系或排行。",

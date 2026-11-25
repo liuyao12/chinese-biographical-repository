@@ -22,7 +22,7 @@
           "chapter_id": "c-shiji-041-yue",
           "source_id": "s-shiji-041-yue",
           "paragraph_id": "c-shiji-041-yue:p010",
-          "quote": "至明年春，呉王北會諸侯於黃池，呉國精兵從王，惟獨老弱與太子留守。句踐復問范蠡，蠡曰「可矣」。乃發習流二千人，教士四萬人，君子六千人，諸御千人，伐呉。呉師敗，遂殺呉太子。呉告急於王，王方會諸侯於黃池，懼天下聞之，乃祕之。呉王已盟黃池，乃使人厚禮以請成越。越自度亦未能滅呉，乃與呉平。"
+          "quote_passage_ref": "data/corpus/shiji/041.json"
         }
       ],
       "attestations": [
@@ -64,7 +64,6 @@
       "raw_count": 2,
       "duplicate_count": 0,
       "counting_policy": "independent_fixed_witness_occurrences",
-      "quote": "至明年春，呉王北會諸侯於黃池，呉國精兵從王，惟獨老弱與太子留守。句踐復問范蠡，蠡曰「可矣」。乃發習流二千人，教士四萬人，君子六千人，諸御千人，伐呉。呉師敗，遂殺呉太子。呉告急於王，王方會諸侯於黃池，懼天下聞之，乃祕之。呉王已盟黃池，乃使人厚禮以請成越。越自度",
       "paragraph_ids": [
         "c-shiji-041-yue:p010"
       ],
@@ -97,7 +96,12 @@
       "book_id": "b-shiji-041",
       "chapter_id": "c-shiji-041-yue",
       "source_id": "s-shiji-041-yue",
-      "work_title": "史記"
+      "work_title": "史記",
+      "chapter_ref": "data/corpus/shiji/041.json",
+      "quote_span": [
+        0,
+        129
+      ]
     }
   ],
   "table_occurrences": [],
@@ -107,26 +111,7 @@
       "work_id": "w-shiji",
       "book_id": "b-shiji-041",
       "source_id": "s-shiji-041-yue",
-      "source": {
-        "title": "史記／卷041",
-        "provider": "維基文庫",
-        "url": "https://zh.wikisource.org/wiki/史記/卷041",
-        "permalink": "https://zh.wikisource.org/w/index.php?title=史記/卷041&oldid=2018395",
-        "revision_id": 2018395,
-        "accessed_on": "2026-10-09",
-        "extent": "28段正文及1段分層索隱述贊；排除2個dd導覽，去除段落外緣空白。",
-        "image_verified": false,
-        "rights": "古代原文；數位轉錄依維基文庫CC BY-SA 4.0，保留署名及固定版本。",
-        "license_url": "https://creativecommons.org/licenses/by-sa/4.0/",
-        "normalization": {
-          "character_conversion": {
-            "笔": "筆"
-          },
-          "editorial_readings": [],
-          "extraction_note": "固定修訂與取得時HTML一致，僅去除段落外緣空白；第17段笔轉筆，不自行校讀盡取筆呉地。保留句踐／勾踐、闔廬／闔閭及呉等古代異體。",
-          "note": "全29段數位正文已閱讀；未核古籍影像、可靠底本及現代研究。"
-        }
-      }
+      "chapter_ref": "data/corpus/shiji/041.json"
     }
   ],
   "relations": [],
@@ -152,8 +137,8 @@
           "chapter_id": "c-shiji-041-yue",
           "source_id": "s-shiji-041-yue",
           "paragraph_id": "c-shiji-041-yue:p010",
-          "quote": "至明年春，呉王北會諸侯於黃池，呉國精兵從王，惟獨老弱與太子留守。句踐復問范蠡，蠡曰「可矣」。乃發習流二千人，教士四萬人，君子六千人，諸御千人，伐呉。呉師敗，遂殺呉太子。呉告急於王，王方會諸侯於黃池，懼天下聞之，乃祕之。呉王已盟黃池，乃使人厚禮以請成越。越自度亦未能滅呉，乃與呉平。",
-          "person_mention_id": "c-shiji-041-yue:m010-0080"
+          "person_mention_id": "c-shiji-041-yue:m010-0080",
+          "quote_passage_ref": "data/corpus/shiji/041.json"
         }
       ],
       "source_term": "遂殺呉太子",

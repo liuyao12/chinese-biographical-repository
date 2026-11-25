@@ -22,7 +22,7 @@
           "chapter_id": "c-shiji-045-han",
           "source_id": "s-shiji-045-han",
           "paragraph_id": "c-shiji-045-han:p013",
-          "quote": "列侯三年，聶政殺韓相俠累。九年，秦伐我宜陽，取六邑。十三年，列侯卒，子文侯立。是歳魏文侯卒。"
+          "quote_passage_ref": "data/corpus/shiji/045.json"
         }
       ],
       "attestations": [
@@ -64,7 +64,7 @@
           "chapter_id": "c-shiji-086-cike",
           "source_id": "s-shiji-086-cike",
           "paragraph_id": "c-shiji-086-cike:p014",
-          "quote": "久之，濮陽嚴仲子事韓哀侯，與韓相俠累有卻。嚴仲子恐誅，亡去，游求人可以報俠累者。至齊，齊人或言聶政勇敢士也，避仇隱於屠者之閒。嚴仲子至門請，數反，然後具酒自暢聶政母前。酒酣，嚴仲子奉黃金百溢，前爲聶政母壽。聶政驚怪其厚，固謝嚴仲子。嚴仲子固進，而聶政謝曰：「臣幸有老母，家貧，客游以爲狗屠，可以旦夕得甘毳以養親。親供養備，不敢當仲子之賜。」嚴仲子辟人，因爲聶政言曰：「臣有仇，而行游諸侯衆矣；然至齊，竊聞足下義甚髙，故進百金者，將用爲大人麤糲之費，得以交足下之驩，豈敢以有求望邪！」聶政曰：「臣所以降志辱身居市井屠者，徒幸以養老母；老母在，政身未敢以許人也。」嚴仲子固讓，聶政竟不肯受也。然嚴仲子卒備賓主之禮而去。"
+          "quote_passage_ref": "data/corpus/shiji/086.json"
         }
       ],
       "attestations": [
@@ -106,7 +106,6 @@
       "raw_count": 1,
       "duplicate_count": 0,
       "counting_policy": "independent_fixed_witness_occurrences",
-      "quote": "列侯三年，聶政殺韓相俠累。九年，秦伐我宜陽，取六邑。十三年，列侯卒，子文侯立。是歳魏文侯卒。",
       "paragraph_ids": [
         "c-shiji-045-han:p013"
       ],
@@ -130,7 +129,12 @@
       "book_id": "b-shiji-045",
       "chapter_id": "c-shiji-045-han",
       "source_id": "s-shiji-045-han",
-      "work_title": "史記"
+      "work_title": "史記",
+      "chapter_ref": "data/corpus/shiji/045.json",
+      "quote_span": [
+        0,
+        46
+      ]
     },
     {
       "number": 86,
@@ -141,7 +145,6 @@
       "raw_count": 7,
       "duplicate_count": 0,
       "counting_policy": "independent_fixed_witness_occurrences",
-      "quote": "久之，濮陽嚴仲子事韓哀侯，與韓相俠累有卻。嚴仲子恐誅，亡去，游求人可以報俠累者。至齊，齊人或言聶政勇敢士也，避仇隱於屠者之閒。嚴仲子至門請，數反，然後具酒自暢聶政母前。酒酣，嚴仲子奉黃金百溢，前爲聶政母壽。聶政驚怪其厚，固謝嚴仲子。嚴仲",
       "paragraph_ids": [
         "c-shiji-086-cike:p014",
         "c-shiji-086-cike:p015",
@@ -222,7 +225,12 @@
       "book_id": "b-shiji-086",
       "chapter_id": "c-shiji-086-cike",
       "source_id": "s-shiji-086-cike",
-      "work_title": "史記"
+      "work_title": "史記",
+      "chapter_ref": "data/corpus/shiji/086.json",
+      "quote_span": [
+        0,
+        118
+      ]
     }
   ],
   "table_occurrences": [
@@ -230,7 +238,6 @@
       "table_id": "shiji-015",
       "cell_id": "shiji-015-r080-c04",
       "title": "《史記·六國年表》",
-      "quote": "三。（鄭人殺君）三月，盜殺韓相俠累。",
       "year": {
         "era": "BCE",
         "value": 397,
@@ -253,7 +260,8 @@
       "book_id": "b-shiji-015",
       "chapter_id": "table-chapter-shiji-015",
       "source_id": "table-witness-shiji-015",
-      "source_revision": "2607002"
+      "source_revision": "2607002",
+      "quote_ref": "cell"
     }
   ],
   "sources": [
@@ -262,79 +270,21 @@
       "work_id": "w-shiji",
       "book_id": "b-shiji-045",
       "source_id": "s-shiji-045-han",
-      "source": {
-        "title": "史記／卷045",
-        "provider": "維基文庫",
-        "url": "https://zh.wikisource.org/wiki/史記/卷045",
-        "permalink": "https://zh.wikisource.org/w/index.php?title=史記/卷045&oldid=7903607",
-        "revision_id": 7903607,
-        "accessed_on": "2026-10-09",
-        "extent": "36段正文；排除註釋版導覽、2個dd及現代分節標題，只去除段落外緣空白。",
-        "image_verified": false,
-        "rights": "古代原文；數位轉錄依維基文庫CC BY-SA 4.0，保留署名及固定版本。",
-        "license_url": "https://creativecommons.org/licenses/by-sa/4.0/",
-        "normalization": {
-          "character_conversion": {},
-          "editorial_readings": [],
-          "extraction_note": "取得時HTML與固定修訂一致；現代分節標題及導覽不當古代正文。保留蟣蝨、韓姬、韓嚴、韓非與非等原字。",
-          "note": "已讀全36段數位正文；未核古籍影像、可靠底本或現代研究，首輪不是完成覆核。"
-        }
-      }
+      "chapter_ref": "data/corpus/shiji/045.json"
     },
     {
       "chapter_id": "c-shiji-086-cike",
       "work_id": "w-shiji",
       "book_id": "b-shiji-086",
       "source_id": "s-shiji-086-cike",
-      "source": {
-        "title": "史記／卷086",
-        "provider": "維基文庫",
-        "url": "https://zh.wikisource.org/wiki/史記/卷086",
-        "permalink": "https://zh.wikisource.org/w/index.php?title=史記/卷086&oldid=2388562",
-        "revision_id": 2388562,
-        "accessed_on": "2026-10-09",
-        "extent": "38段正文含太史公論，排除導覽、索隱述贊及現代版權。",
-        "image_verified": false,
-        "rights": "古代原文；數位轉錄依維基文庫CC BY-SA 4.0，保留署名及固定版本。",
-        "license_url": "https://creativecommons.org/licenses/by-sa/4.0/",
-        "normalization": {
-          "character_conversion": {},
-          "editorial_readings": [],
-          "extraction_note": "固定HTML與取得時版本一致，只去外緣空白；（衆）按普通括號原文保留；第17段tooltip異文提示另存。",
-          "note": "全38段與HTML篇界已核讀，未核底本影像或現代研究。",
-          "digital_variant_notes": [
-            {
-              "paragraph_number": 17,
-              "body_reading": "縣",
-              "witness_tooltip": "一作「購縣」，又作「縣購」。",
-              "note": "數位見證未標明異文版本，另存，不代替正文。"
-            }
-          ]
-        }
-      }
+      "chapter_ref": "data/corpus/shiji/086.json"
     },
     {
       "chapter_id": "table-chapter-shiji-015",
       "work_id": "w-shiji",
       "book_id": "b-shiji-015",
       "source_id": "table-witness-shiji-015",
-      "source": {
-        "id": "table-witness-shiji-015",
-        "work_id": "w-shiji",
-        "book_id": "b-shiji-015",
-        "chapter_id": "table-chapter-shiji-015",
-        "url": "https://zh.wikisource.org/wiki/史記/卷015",
-        "revision_url": "https://zh.wikisource.org/w/index.php?title=史記/卷015&oldid=2607002",
-        "revision": "2607002",
-        "accessed": "2026-10-12",
-        "response_sha256": "eb0624a019e02c24ce90a40bfa24863f4020878062c6e2efea32355033be5559",
-        "edition": null,
-        "image_verified": false,
-        "rights": "古籍正文公有領域；維基文庫轉錄及編輯內容依 CC BY-SA 條款，署名維基文庫貢獻者。",
-        "rights_url": "https://zh.wikisource.org/wiki/Wikisource:版權信息",
-        "review_status": "agent_first_pass_named_entities",
-        "note": "完整數位表格結構匯入，未逐格學術覆核。未核讀印本影像，原印本頁碼未知。西元欄沿用此數位轉錄的編者對照，不是古籍原有西元紀年，也不引用其維基百科外連。"
-      }
+      "table_source_ref": "shiji-015"
     }
   ],
   "relations": [],
@@ -355,8 +305,8 @@
           "chapter_id": "c-shiji-086-cike",
           "source_id": "s-shiji-086-cike",
           "paragraph_id": "c-shiji-086-cike:p016",
-          "quote": "杖劍至韓，韓相俠累方坐府上，持兵戟而衞侍者甚衆。聶政直入，上階刺殺俠累，左右大亂。聶政大呼，所撃殺者數十人，因自皮面決眼，自屠出腸，遂以死。",
-          "person_mention_id": "c-shiji-086-cike:m016-0005"
+          "person_mention_id": "c-shiji-086-cike:m016-0005",
+          "quote_passage_ref": "data/corpus/shiji/086.json"
         }
       ],
       "references": [
@@ -418,8 +368,8 @@
           "chapter_id": "c-shiji-045-han",
           "source_id": "s-shiji-045-han",
           "paragraph_id": "c-shiji-045-han:p013",
-          "quote": "列侯三年，聶政殺韓相俠累。九年，秦伐我宜陽，取六邑。十三年，列侯卒，子文侯立。是歳魏文侯卒。",
-          "person_mention_id": "c-shiji-045-han:m013-0010"
+          "person_mention_id": "c-shiji-045-han:m013-0010",
+          "quote_passage_ref": "data/corpus/shiji/045.json"
         }
       ],
       "source_term": "聶政殺韓相俠累",
@@ -439,8 +389,8 @@
           "chapter_id": "c-shiji-086-cike",
           "source_id": "s-shiji-086-cike",
           "paragraph_id": "c-shiji-086-cike:p016",
-          "quote": "杖劍至韓，韓相俠累方坐府上，持兵戟而衞侍者甚衆。聶政直入，上階刺殺俠累，左右大亂。聶政大呼，所撃殺者數十人，因自皮面決眼，自屠出腸，遂以死。",
-          "person_mention_id": "c-shiji-086-cike:m016-0005"
+          "person_mention_id": "c-shiji-086-cike:m016-0005",
+          "quote_passage_ref": "data/corpus/shiji/086.json"
         }
       ],
       "interpretation_note": "保存本段死亡原語；日期未明者不逆算，不由死亡自動終止全部官爵。未核影像。",
@@ -459,8 +409,8 @@
             "chapter_id": "c-shiji-086-cike",
             "source_id": "s-shiji-086-cike",
             "paragraph_id": "c-shiji-086-cike:p016",
-            "quote": "杖劍至韓，韓相俠累方坐府上，持兵戟而衞侍者甚衆。聶政直入，上階刺殺俠累，左右大亂。聶政大呼，所撃殺者數十人，因自皮面決眼，自屠出腸，遂以死。",
-            "person_mention_id": "c-shiji-086-cike:m016-0005"
+            "person_mention_id": "c-shiji-086-cike:m016-0005",
+            "quote_passage_ref": "data/corpus/shiji/086.json"
           }
         ],
         "references": [

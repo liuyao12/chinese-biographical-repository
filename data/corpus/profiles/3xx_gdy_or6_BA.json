@@ -24,7 +24,6 @@
       "raw_count": 2,
       "duplicate_count": 0,
       "counting_policy": "independent_fixed_witness_occurrences",
-      "quote": "玄理，音辭清暢，泠然若琴瑟。嘗與河南郭象談論，一坐嗟服。又嘗在平東將軍周馥坐，與人圍棋。馥司馬行酒，遐未即飲，司馬醉怒，因曳遐墮地。遐徐起還坐，顏色不變，復棋如故。其性虛和如此。東海王越引為主簿，後為越子毗所害。",
       "paragraph_ids": [
         "c-jinshu-035-peikai-family:p018"
       ],
@@ -57,7 +56,12 @@
       "book_id": "b-jinshu-035",
       "chapter_id": "c-jinshu-035-peikai-family",
       "source_id": "s-jinshu-035-peikai-ws2506399",
-      "work_title": "晉書"
+      "work_title": "晉書",
+      "chapter_ref": "data/corpus/jinshu/035-pei-family.json",
+      "quote_span": [
+        31,
+        137
+      ]
     },
     {
       "number": 61,
@@ -68,7 +72,6 @@
       "raw_count": 37,
       "duplicate_count": 0,
       "counting_policy": "independent_fixed_witness_occurrences",
-      "quote": "武帝問浚：「卿宗後生，稱誰為可？」答曰：「臣叔父子恢，稱重臣宗；從父子馥，稱清臣宗。」帝並召用。浚轉少府，以本官領將作大匠。改營宗廟訖，增邑五百戶。後代王渾為使持節、都督揚州諸軍事、安東將軍，卒于位。三子：顗、嵩、謨。顗嗣爵，別有傳云。",
       "paragraph_ids": [
         "c-jinshu-061-zhou-family:p005",
         "c-jinshu-061-zhou-family:p020",
@@ -422,7 +425,12 @@
       "book_id": "b-jinshu-061",
       "chapter_id": "c-jinshu-061-zhou-family",
       "source_id": "s-jinshu-061-ws7903772",
-      "work_title": "晉書"
+      "work_title": "晉書",
+      "chapter_ref": "data/corpus/jinshu/061-zhou-family.json",
+      "quote_span": [
+        4,
+        122
+      ]
     },
     {
       "number": 76,
@@ -433,7 +441,6 @@
       "raw_count": 1,
       "duplicate_count": 0,
       "counting_policy": "independent_fixed_witness_occurrences",
-      "quote": "帝作鎮江左，廙棄郡過江。帝見之大悅，以為司馬。頻守廬江、鄱陽二郡。豫討周馥、杜韜，以功累增封邑，除冠軍將軍，鎮石頭，領丞相軍諮祭酒。王敦啟為甯遠將軍、荊州刺史。",
       "paragraph_ids": [
         "c-jinshu-076-wangyi-family:p001"
       ],
@@ -457,7 +464,12 @@
       "book_id": "b-jinshu-076",
       "chapter_id": "c-jinshu-076-wangyi-family",
       "source_id": "s-jinshu-076-wangyi-family",
-      "work_title": "晉書"
+      "work_title": "晉書",
+      "chapter_ref": "data/corpus/jinshu/076.json",
+      "quote_span": [
+        88,
+        168
+      ]
     }
   ],
   "table_occurrences": [],
@@ -467,130 +479,21 @@
       "work_id": "w-jinshu",
       "book_id": "b-jinshu-035",
       "source_id": "s-jinshu-035-peikai-ws2506399",
-      "source": {
-        "title": "《晉書》卷三十五裴楷及附傳（固定數位選錄）",
-        "provider": "Wikisource",
-        "url": "https://zh.wikisource.org/w/index.php?title=%E6%99%89%E6%9B%B8%2F%E5%8D%B7035&oldid=2506399",
-        "permalink": "https://zh.wikisource.org/w/index.php?title=%E6%99%89%E6%9B%B8%2F%E5%8D%B7035&oldid=2506399",
-        "revision_id": 2506399,
-        "accessed_on": "2026-10-21",
-        "extent": "完整裴楷及輿、瓚、憲、康盾邵、綽遐與八裴八王19段；不是完整卷035，不含陳騫裴秀頠及史評。",
-        "text_scope": "partial_chapter",
-        "review_status": "text_checked",
-        "image_verified": false,
-        "rights": "古代原文及維基文庫數位轉錄，保留見證歸屬；數位文字依CC BY-SA 4.0。",
-        "license_url": "https://creativecommons.org/licenses/by-sa/4.0/",
-        "edition": null,
-        "wikitext_sha256": "b27aa9fc386b5f40990822d615febffcb8b8cd6df3fe6f74585274ff733c12be",
-        "response_sha256": "e7fc20a0864866bfb68f1f92b542b6f542edebed2052fcf550244ed46206fa35",
-        "raw_file": "sources/witnesses/jin035-ws2506399.wikitext",
-        "normalization": {
-          "character_conversion": {},
-          "extraction_note": "展開連結顯示字、去粗體排版；標題另層。㲄、俊郎、雲及缺閉引號原樣保留。"
-        }
-      }
+      "chapter_ref": "data/corpus/jinshu/035-pei-family.json"
     },
     {
       "chapter_id": "c-jinshu-061-zhou-family",
       "work_id": "w-jinshu",
       "book_id": "b-jinshu-061",
       "source_id": "s-jinshu-061-ws7903772",
-      "source": {
-        "title": "晉書／卷061周浚及附周嵩、周謨、周馥完整單元",
-        "provider": "Wikisource",
-        "url": "https://zh.wikisource.org/w/index.php?title=%E6%99%89%E6%9B%B8%2F%E5%8D%B7061&oldid=7903772",
-        "permalink": "https://zh.wikisource.org/w/index.php?title=%E6%99%89%E6%9B%B8%2F%E5%8D%B7061&oldid=7903772",
-        "revision_id": 7903772,
-        "edition": null,
-        "accessed_on": "2026-10-20",
-        "raw_path": "sources/jinshu/wikisource-7903772-raw.wikitext",
-        "raw_file_sha256": "6e28403fc85f551b2aab898cac610180884ba0732a24a492f8ca514381b9978d",
-        "text_scope": "partial_chapter",
-        "review_status": "text_checked",
-        "license_url": "https://creativecommons.org/licenses/by-sa/4.0/",
-        "normalization": {
-          "description": "保數位原字；僅明示wiki wrappers及排版移除，完整raw與逐碼projection另存；未影像校勘。",
-          "omitted_digital_paratext": []
-        },
-        "extent": "周浚及嵩、謨、馥完整選定單元；固定見證25段4069字，止於成公簡前，不是卷六十一全卷。"
-      }
+      "chapter_ref": "data/corpus/jinshu/061-zhou-family.json"
     },
     {
       "chapter_id": "c-jinshu-076-wangyi-family",
       "work_id": "w-jinshu",
       "book_id": "b-jinshu-076",
       "source_id": "s-jinshu-076-wangyi-family",
-      "source": {
-        "title": "《晉書》卷七十六（數位選錄）",
-        "provider": "Wikisource",
-        "url": "https://zh.wikisource.org/w/index.php?title=%E6%99%89%E6%9B%B8%2F%E5%8D%B7076&oldid=2180533",
-        "permalink": "https://zh.wikisource.org/w/index.php?title=%E6%99%89%E6%9B%B8%2F%E5%8D%B7076&oldid=2180533",
-        "revision_id": 2180533,
-        "accessed_on": "2026-10-18",
-        "extent": "王廙傳首、末段及子嗣共四段，中興賦等中段未錄，非完整列傳。",
-        "text_scope": "partial_chapter",
-        "review_status": "text_checked",
-        "image_verified": false,
-        "rights": "古代原文及維基文庫數位轉錄；保留見證歸屬。",
-        "license_url": "https://creativecommons.org/licenses/by-sa/4.0/",
-        "edition": "維基文庫數位轉錄，未親核底本影像",
-        "response_sha256": "c6c7c41bf93c491f6f69b058ecc493e979d65f3e65397d20055284f2e829cd30",
-        "wikitext_sha256": "872701db949f6f58ea6f183425617dfa82353177d2cc026037bfad953a60cd71",
-        "normalization": {
-          "character_conversion": {},
-          "extraction_note": "去首部空白，宋書ref校勘記另存，正文原字不改；不補平南將領的疑缺字。",
-          "excerpts": [
-            {
-              "proposed_paragraph_id": "c-jinshu-076-wangyi-family:p001",
-              "source_lines": [
-                27,
-                28
-              ],
-              "raw_quote": "王廙，字世將，丞相導從弟，而元帝姨弟也。父正，尚書郎。廙少能屬文，多所通涉，工書畫，善音樂、射御、博弈、雜伎。辟太傅掾，轉參軍。豫迎大駕，封武陵縣侯，拜尚書郎，出為濮陽太守。元帝作鎮江左，廙棄郡過江。帝見之大悅，以為司馬。頻守廬江、鄱陽二郡。豫討周馥、杜韜，以功累增封邑，除冠軍將軍，鎮石頭，領丞相軍諮祭酒。王敦啟為甯遠將軍、荊州刺史。",
-              "raw_quote_sha256": "8147d33d3202efaa1adf4a1c6aa137d71d239827b11033011846a53f38708001",
-              "selected_text_sha256": "8147d33d3202efaa1adf4a1c6aa137d71d239827b11033011846a53f38708001",
-              "begin_anchor": "王廙，字世將，丞相導從弟，而元",
-              "end_anchor": "。王敦啟為甯遠將軍、荊州刺史。"
-            },
-            {
-              "proposed_paragraph_id": "c-jinshu-076-wangyi-family:p002",
-              "source_lines": [
-                39,
-                40
-              ],
-              "raw_quote": "初，王敦左遷陶侃，使廙代為荊州。將吏馬俊、鄭攀等上書請留侃，敦不許。廙為俊等所襲，奔于江安。賊杜曾與俊、攀北迎第五猗以距廙。廙督諸軍討曾，又為曾所敗。敦命湘州刺史甘卓、豫章太守周廣等助廙擊曾，曾衆潰，廙得到州。廙性俊率，嘗從南下，旦自尋陽，迅風飛帆，暮至都，倚舫樓長嘯，神氣甚逸。王導謂庾亮曰：「世將為傷時識事。」亮曰：「正足舒其逸氣耳。」廙在州大誅戮侃時將佐，及征士皇甫方回，於是大失荊土之望，人情乖阻。帝乃征廙為輔國將軍，加散騎常侍。以母喪去職。服闋，拜征虜將軍，進左衛將軍。",
-              "raw_quote_sha256": "713e46789dcf7fe1c521542418159b142d29f81e58c3e6357597be46caf9c662",
-              "selected_text_sha256": "713e46789dcf7fe1c521542418159b142d29f81e58c3e6357597be46caf9c662",
-              "begin_anchor": "初，王敦左遷陶侃，使廙代為荊州",
-              "end_anchor": "服闋，拜征虜將軍，進左衛將軍。"
-            },
-            {
-              "proposed_paragraph_id": "c-jinshu-076-wangyi-family:p003",
-              "source_lines": [
-                41,
-                42
-              ],
-              "raw_quote": "及王敦構禍，帝遣廙喻敦，既不能諫其悖逆，乃為敦所留，受任助亂。敦得志，以廙為平南將領護南蠻校尉、荊州刺史。尋病卒。帝猶以親故，深痛湣之。喪還京都，皇太子親臨拜柩，如家人之禮。贈侍中、驃騎將軍，諡曰康。明帝與大將軍溫嶠書曰：「痛謝鯤未絕於口，世將復至於此。並盛年雋才，不遂其志，痛切於心。廙明古多通，鯤遠有識致。其言雖未足令人改聽，然味之不倦，近未易有也。坐相視盡，如何！」",
-              "raw_quote_sha256": "b2c8c3b975ba6ac7732d8b4a11f0ec1be353f9f1fb577963a649d9140d52c2bb",
-              "selected_text_sha256": "b2c8c3b975ba6ac7732d8b4a11f0ec1be353f9f1fb577963a649d9140d52c2bb",
-              "begin_anchor": "及王敦構禍，帝遣廙喻敦，既不能",
-              "end_anchor": "近未易有也。坐相視盡，如何！」"
-            },
-            {
-              "proposed_paragraph_id": "c-jinshu-076-wangyi-family:p004",
-              "source_lines": [
-                43,
-                44
-              ],
-              "raw_quote": "子頤之嗣，仕至東海內史。頤之弟胡之，字修齡，弱冠有聲譽，歷郡守、侍中、丹陽尹。素有風眩疾，發動甚數，而神明不損。石季龍死，朝廷欲綏輯河洛，以胡之為西中郎將、司州刺史、假節，以疾固辭，未行而卒。子茂之亦有美譽，官至晉陵太守。子敬弘，義熙末為尚書。",
-              "raw_quote_sha256": "07b3bbc4071f24625a64510a17080b7ab063923ca9f6d5febeb0893dfefef0c6",
-              "selected_text_sha256": "07b3bbc4071f24625a64510a17080b7ab063923ca9f6d5febeb0893dfefef0c6",
-              "begin_anchor": "子頤之嗣，仕至東海內史。頤之弟",
-              "end_anchor": "陵太守。子敬弘，義熙末為尚書。"
-            }
-          ]
-        }
-      }
+      "chapter_ref": "data/corpus/jinshu/076.json"
     }
   ],
   "relations": [
@@ -656,9 +559,9 @@
           "source_id": "s-jinshu-061-ws7903772",
           "chapter_id": "c-jinshu-061-zhou-family",
           "paragraph_id": "c-jinshu-061-zhou-family:p020",
-          "quote": "馥字祖宣，浚從父弟也。父蕤，安平太守。馥少與友人成公簡齊名，俱起家為諸王文學，累遷司徒左西屬。司徒王渾表「馥理識清正，兼有才幹，主定九品，檢括精詳。臣委任責成，褒貶允當，請補尚書郎」。許之。稍遷司徒左長史、吏部郎，選舉精密，論望益美。轉御史中丞、侍中，拜徐州刺史，加冠軍將軍、假節。徵為廷尉。",
           "subject_person_mention_id": "c-jinshu-061-zhou-family:p020:m0000",
-          "object_person_mention_id": "c-jinshu-061-zhou-family:p020:m0005"
+          "object_person_mention_id": "c-jinshu-061-zhou-family:p020:m0005",
+          "quote_passage_ref": "data/corpus/jinshu/061-zhou-family.json"
         }
       ],
       "interpretation_note": "從父弟依固定原典常規釋義為父系同祖堂弟；不驗遺傳、不補共祖姓名及父輩長幼，不建立裴蕤直接兄弟邊。",
@@ -683,9 +586,9 @@
           "chapter_id": "c-jinshu-061-zhou-family",
           "source_id": "s-jinshu-061-ws7903772",
           "paragraph_id": "c-jinshu-061-zhou-family:p020",
-          "quote": "馥字祖宣，浚從父弟也。父蕤，安平太守。馥少與友人成公簡齊名，俱起家為諸王文學，累遷司徒左西屬。司徒王渾表「馥理識清正，兼有才幹，主定九品，檢括精詳。臣委任責成，褒貶允當，請補尚書郎」。許之。稍遷司徒左長史、吏部郎，選舉精密，論望益美。轉御史中丞、侍中，拜徐州刺史，加冠軍將軍、假節。徵為廷尉。",
           "subject_person_mention_id": "c-jinshu-061-zhou-family:p020:m0002",
-          "object_person_mention_id": "c-jinshu-061-zhou-family:p020:m0012"
+          "object_person_mention_id": "c-jinshu-061-zhou-family:p020:m0012",
+          "quote_passage_ref": "data/corpus/jinshu/061-zhou-family.json"
         }
       ],
       "interpretation_note": " 原人數不作個別排行；只記本來源父子，不補生母、同母、共同祖父或日期。",
@@ -710,9 +613,9 @@
           "chapter_id": "c-jinshu-061-zhou-family",
           "source_id": "s-jinshu-061-ws7903772",
           "paragraph_id": "c-jinshu-061-zhou-family:p025",
-          "quote": "馥有二子：密、矯。密字泰玄，性虛簡，時人稱為清士，位至尚書郎，矯字正玄，亦有才幹。",
           "subject_person_mention_id": "c-jinshu-061-zhou-family:p025:m0005",
-          "object_person_mention_id": "c-jinshu-061-zhou-family:p025:m0000"
+          "object_person_mention_id": "c-jinshu-061-zhou-family:p025:m0000",
+          "quote_passage_ref": "data/corpus/jinshu/061-zhou-family.json"
         }
       ],
       "interpretation_note": "二為人數，不給ordinal；矯canonical仍未定。 原人數不作個別排行；只記本來源父子，不補生母、同母、共同祖父或日期。",
@@ -737,9 +640,9 @@
           "chapter_id": "c-jinshu-061-zhou-family",
           "source_id": "s-jinshu-061-ws7903772",
           "paragraph_id": "c-jinshu-061-zhou-family:p025",
-          "quote": "馥有二子：密、矯。密字泰玄，性虛簡，時人稱為清士，位至尚書郎，矯字正玄，亦有才幹。",
           "subject_person_mention_id": "c-jinshu-061-zhou-family:p025:m0007",
-          "object_person_mention_id": "c-jinshu-061-zhou-family:p025:m0000"
+          "object_person_mention_id": "c-jinshu-061-zhou-family:p025:m0000",
+          "quote_passage_ref": "data/corpus/jinshu/061-zhou-family.json"
         }
       ],
       "interpretation_note": "二子為人數而非排行；矯為馥子是明文，不推排行、生母、同母或日期。",
@@ -765,14 +668,14 @@
       "additional_names": [],
       "chapter_id": "c-jinshu-061-zhou-family",
       "paragraph_id": "c-jinshu-061-zhou-family:p020",
-      "quote": "馥字祖宣，浚從父弟也。父蕤，安平太守。馥少與友人成公簡齊名，俱起家為諸王文學，累遷司徒左西屬。司徒王渾表「馥理識清正，兼有才幹，主定九品，檢括精詳。臣委任責成，褒貶允當，請補尚書郎」。許之。稍遷司徒左長史、吏部郎，選舉精密，論望益美。轉御史中丞、侍中，拜徐州刺史，加冠軍將軍、假節。徵為廷尉。",
       "note": "名與字依本段明文分存；姓僅在本段明示時記錄，不由父系接合補入。",
       "status": "editorial_provisional",
       "human_reviewed": false,
       "model": null,
       "work_id": "w-jinshu",
       "book_id": "b-jinshu-061",
-      "source_id": "s-jinshu-061-ws7903772"
+      "source_id": "s-jinshu-061-ws7903772",
+      "quote_passage_ref": "data/corpus/jinshu/061-zhou-family.json"
     }
   ],
   "person_ids": [
@@ -841,9 +744,9 @@
           "source_id": "s-jinshu-061-ws7903772",
           "chapter_id": "c-jinshu-061-zhou-family",
           "paragraph_id": "c-jinshu-061-zhou-family:p020",
-          "quote": "馥字祖宣，浚從父弟也。父蕤，安平太守。馥少與友人成公簡齊名，俱起家為諸王文學，累遷司徒左西屬。司徒王渾表「馥理識清正，兼有才幹，主定九品，檢括精詳。臣委任責成，褒貶允當，請補尚書郎」。許之。稍遷司徒左長史、吏部郎，選舉精密，論望益美。轉御史中丞、侍中，拜徐州刺史，加冠軍將軍、假節。徵為廷尉。",
           "subject_person_mention_id": "c-jinshu-061-zhou-family:p020:m0000",
-          "object_person_mention_id": "c-jinshu-061-zhou-family:p020:m0005"
+          "object_person_mention_id": "c-jinshu-061-zhou-family:p020:m0005",
+          "quote_passage_ref": "data/corpus/jinshu/061-zhou-family.json"
         }
       ],
       "interpretation_note": "從父弟依固定原典常規釋義為父系同祖堂弟；不驗遺傳、不補共祖姓名及父輩長幼，不建立裴蕤直接兄弟邊。",
@@ -868,9 +771,9 @@
           "chapter_id": "c-jinshu-061-zhou-family",
           "source_id": "s-jinshu-061-ws7903772",
           "paragraph_id": "c-jinshu-061-zhou-family:p020",
-          "quote": "馥字祖宣，浚從父弟也。父蕤，安平太守。馥少與友人成公簡齊名，俱起家為諸王文學，累遷司徒左西屬。司徒王渾表「馥理識清正，兼有才幹，主定九品，檢括精詳。臣委任責成，褒貶允當，請補尚書郎」。許之。稍遷司徒左長史、吏部郎，選舉精密，論望益美。轉御史中丞、侍中，拜徐州刺史，加冠軍將軍、假節。徵為廷尉。",
           "subject_person_mention_id": "c-jinshu-061-zhou-family:p020:m0002",
-          "object_person_mention_id": "c-jinshu-061-zhou-family:p020:m0012"
+          "object_person_mention_id": "c-jinshu-061-zhou-family:p020:m0012",
+          "quote_passage_ref": "data/corpus/jinshu/061-zhou-family.json"
         }
       ],
       "interpretation_note": " 原人數不作個別排行；只記本來源父子，不補生母、同母、共同祖父或日期。",
@@ -895,9 +798,9 @@
           "chapter_id": "c-jinshu-061-zhou-family",
           "source_id": "s-jinshu-061-ws7903772",
           "paragraph_id": "c-jinshu-061-zhou-family:p025",
-          "quote": "馥有二子：密、矯。密字泰玄，性虛簡，時人稱為清士，位至尚書郎，矯字正玄，亦有才幹。",
           "subject_person_mention_id": "c-jinshu-061-zhou-family:p025:m0005",
-          "object_person_mention_id": "c-jinshu-061-zhou-family:p025:m0000"
+          "object_person_mention_id": "c-jinshu-061-zhou-family:p025:m0000",
+          "quote_passage_ref": "data/corpus/jinshu/061-zhou-family.json"
         }
       ],
       "interpretation_note": "二為人數，不給ordinal；矯canonical仍未定。 原人數不作個別排行；只記本來源父子，不補生母、同母、共同祖父或日期。",
@@ -922,9 +825,9 @@
           "chapter_id": "c-jinshu-061-zhou-family",
           "source_id": "s-jinshu-061-ws7903772",
           "paragraph_id": "c-jinshu-061-zhou-family:p025",
-          "quote": "馥有二子：密、矯。密字泰玄，性虛簡，時人稱為清士，位至尚書郎，矯字正玄，亦有才幹。",
           "subject_person_mention_id": "c-jinshu-061-zhou-family:p025:m0007",
-          "object_person_mention_id": "c-jinshu-061-zhou-family:p025:m0000"
+          "object_person_mention_id": "c-jinshu-061-zhou-family:p025:m0000",
+          "quote_passage_ref": "data/corpus/jinshu/061-zhou-family.json"
         }
       ],
       "interpretation_note": "二子為人數而非排行；矯為馥子是明文，不推排行、生母、同母或日期。",
@@ -973,12 +876,12 @@
           "source_id": "s-jinshu-061-ws7903772",
           "chapter_id": "c-jinshu-061-zhou-family",
           "paragraph_id": "c-jinshu-061-zhou-family:p020",
-          "quote": "馥字祖宣，浚從父弟也。父蕤，安平太守。馥少與友人成公簡齊名，俱起家為諸王文學，累遷司徒左西屬。司徒王渾表「馥理識清正，兼有才幹，主定九品，檢括精詳。臣委任責成，褒貶允當，請補尚書郎」。許之。稍遷司徒左長史、吏部郎，選舉精密，論望益美。轉御史中丞、侍中，拜徐州刺史，加冠軍將軍、假節。徵為廷尉。",
           "subject_person_mention_id": "c-jinshu-061-zhou-family:p020:m0000",
           "object_person_mention_id": "c-jinshu-061-zhou-family:p020:m0005",
           "assertion_id": "a-jinshu061-congfudi-001",
           "url": "https://zh.wikisource.org/w/index.php?title=%E6%99%89%E6%9B%B8%2F%E5%8D%B7061&oldid=7903772",
-          "scope": "古稱從父弟及兩端明父三證合讀；非明載裴蕤兄弟或共父姓名"
+          "scope": "古稱從父弟及兩端明父三證合讀；非明載裴蕤兄弟或共父姓名",
+          "quote_passage_ref": "data/corpus/jinshu/061-zhou-family.json"
         },
         {
           "work_id": "w-jinshu",
@@ -986,12 +889,12 @@
           "chapter_id": "c-jinshu-061-zhou-family",
           "source_id": "s-jinshu-061-ws7903772",
           "paragraph_id": "c-jinshu-061-zhou-family:p001",
-          "quote": "周浚，字開林，汝南安成人也。父裴，少府卿。浚性果烈。以才理見知，有人倫鑒識。鄉人史曜素微賤，眾所未知，浚獨引之為友，遂以妹妻之，曜竟有名於世。浚初不應州郡之辟，後仕魏為尚書郎。累遷御史中丞，拜折沖將軍、揚州刺史，封射陽侯。",
           "subject_person_mention_id": "c-jinshu-061-zhou-family:p001:m0004",
           "object_person_mention_id": "c-jinshu-061-zhou-family:p001:m0015",
           "assertion_id": "a-jin061-jun-father",
           "url": "https://zh.wikisource.org/w/index.php?title=%E6%99%89%E6%9B%B8%2F%E5%8D%B7061&oldid=7903772",
-          "scope": "古稱從父弟及兩端明父三證合讀；非明載裴蕤兄弟或共父姓名"
+          "scope": "古稱從父弟及兩端明父三證合讀；非明載裴蕤兄弟或共父姓名",
+          "quote_passage_ref": "data/corpus/jinshu/061-zhou-family.json"
         },
         {
           "work_id": "w-jinshu",
@@ -999,12 +902,12 @@
           "chapter_id": "c-jinshu-061-zhou-family",
           "source_id": "s-jinshu-061-ws7903772",
           "paragraph_id": "c-jinshu-061-zhou-family:p020",
-          "quote": "馥字祖宣，浚從父弟也。父蕤，安平太守。馥少與友人成公簡齊名，俱起家為諸王文學，累遷司徒左西屬。司徒王渾表「馥理識清正，兼有才幹，主定九品，檢括精詳。臣委任責成，褒貶允當，請補尚書郎」。許之。稍遷司徒左長史、吏部郎，選舉精密，論望益美。轉御史中丞、侍中，拜徐州刺史，加冠軍將軍、假節。徵為廷尉。",
           "subject_person_mention_id": "c-jinshu-061-zhou-family:p020:m0002",
           "object_person_mention_id": "c-jinshu-061-zhou-family:p020:m0012",
           "assertion_id": "a-jin061-fu-father",
           "url": "https://zh.wikisource.org/w/index.php?title=%E6%99%89%E6%9B%B8%2F%E5%8D%B7061&oldid=7903772",
-          "scope": "古稱從父弟及兩端明父三證合讀；非明載裴蕤兄弟或共父姓名"
+          "scope": "古稱從父弟及兩端明父三證合讀；非明載裴蕤兄弟或共父姓名",
+          "quote_passage_ref": "data/corpus/jinshu/061-zhou-family.json"
         }
       ],
       "rationale": "馥為浚從父弟的古代稱謂常規，合浚父裴、馥父蕤，推得裴蕤同父兄弟的名義父系結構；共同父無名，僅namespace結構槽，不創person或source_attested父子／兄弟。"
@@ -1034,8 +937,8 @@
           "chapter_id": "c-jinshu-061-zhou-family",
           "source_id": "s-jinshu-061-ws7903772",
           "paragraph_id": "c-jinshu-061-zhou-family:p023",
-          "quote": "越與苟晞不協，馥不先白於越，而直上書，越大怒。先是，越召馥及淮南太守裴碩，馥不肯行，而令碩率兵先進。碩貳於馥，乃舉兵稱馥擅命，已奉越密旨圖馥，遂襲之，為馥所敗。碩退保東城，求救於元帝。帝遣揚威將軍甘卓、建威將軍郭逸攻馥于壽春。安豐太守孫惠帥眾應之，使謝摛為檄。摛，馥之故將也。馥見檄，流涕曰：「必謝摛之辭。」摛聞之，遂毀草。旬日而馥眾潰，奔于項，為新蔡王確所拘，憂憤發病卒。",
-          "person_mention_id": "c-jinshu-061-zhou-family:p023:m0165"
+          "person_mention_id": "c-jinshu-061-zhou-family:p023:m0165",
+          "quote_passage_ref": "data/corpus/jinshu/061-zhou-family.json"
         }
       ],
       "interpretation_note": "馥眾潰、奔項、被拘、發病卒為相承敘述；新蔡王確是拘人者，非死亡主體。不把前段永嘉四年上書當死亡年，亦不硬定死於項。",

@@ -21,7 +21,7 @@
           "chapter_id": "c-shiji-054-cao",
           "source_id": "s-shiji-054-cao",
           "paragraph_id": "c-shiji-054-cao:p005",
-          "quote": "高祖（三）［二］年，拜為假左丞相，入屯兵關中。月餘，魏王豹反，以假左丞相別與韓信東攻魏將軍孫遬軍東張，大破之。因攻安邑，得魏將王襄。擊魏王於曲陽，追至武垣，生得魏王豹。取平陽，得魏王母妻子，盡定魏地，凡五十二城。賜食邑平陽。因從韓信擊趙相國夏說軍於鄔東，大破之，斬夏說。韓信與故常山王張耳引兵下井陘，擊成安君，而令參還圍趙別將戚將軍於鄔城中。戚將軍出走，追斬之。乃引兵詣敖倉漢王之所。韓信已破趙，為相國，東擊齊。參以右丞相屬韓信，攻破齊歷下軍，遂取臨菑。還定濟北郡，攻著、漯陰、平原、鬲、盧。已而從韓信擊龍且軍於上假密，大破之，斬龍且，虜其將軍周蘭。定齊，凡得七十餘縣。得故齊王田廣相田光，其守相許章，及故齊膠東將軍田既。韓信為齊王，引兵詣陳，與漢王共破項羽，而參留平齊未服者。"
+          "quote_passage_ref": "data/corpus/shiji/054.json"
         }
       ],
       "attestations": [
@@ -63,7 +63,6 @@
       "raw_count": 3,
       "duplicate_count": 0,
       "counting_policy": "independent_fixed_witness_occurrences",
-      "quote": "平陽，得魏王母妻子，盡定魏地，凡五十二城。賜食邑平陽。因從韓信擊趙相國夏說軍於鄔東，大破之，斬夏說。韓信與故常山王張耳引兵下井陘，擊成安君，而令參還圍趙別將戚將軍於鄔城中。戚將軍出走，追斬之。乃引兵詣敖倉漢王之所。韓信已破趙，為相國，東擊齊。參以右丞相屬韓信，攻破齊歷下軍，",
       "paragraph_ids": [
         "c-shiji-054-cao:p005",
         "c-shiji-054-cao:p019"
@@ -106,7 +105,12 @@
       "book_id": "b-shiji-054",
       "chapter_id": "c-shiji-054-cao",
       "source_id": "s-shiji-054-cao",
-      "work_title": "史記"
+      "work_title": "史記",
+      "chapter_ref": "data/corpus/shiji/054.json",
+      "quote_span": [
+        85,
+        222
+      ]
     },
     {
       "number": 92,
@@ -117,7 +121,6 @@
       "raw_count": 4,
       "duplicate_count": 0,
       "counting_policy": "independent_fixed_witness_occurrences",
-      "quote": "定魏爲河東郡。漢王遣張耳與信俱，引兵東，北擊趙、代。後九月，破代兵，禽夏說閼與。信之下魏破代，漢輒使人收其精兵，詣滎陽以距楚。",
       "paragraph_ids": [
         "c-shiji-092-hanxin:p008",
         "c-shiji-092-hanxin:p009",
@@ -171,7 +174,12 @@
       "book_id": "b-shiji-092",
       "chapter_id": "c-shiji-092-hanxin",
       "source_id": "s-shiji-092-hanxin",
-      "work_title": "史記"
+      "work_title": "史記",
+      "chapter_ref": "data/corpus/shiji/092.json",
+      "quote_span": [
+        138,
+        201
+      ]
     }
   ],
   "table_occurrences": [],
@@ -181,66 +189,14 @@
       "work_id": "w-shiji",
       "book_id": "b-shiji-054",
       "source_id": "s-shiji-054-cao",
-      "source": {
-        "title": "史記／卷054",
-        "provider": "維基文庫",
-        "url": "https://zh.wikisource.org/wiki/史記/卷054",
-        "permalink": "https://zh.wikisource.org/w/index.php?title=史記/卷054&oldid=1490182",
-        "revision_id": 1490182,
-        "accessed_on": "2026-10-09",
-        "extent": "18段篇文及1段索隱述贊，無需排除數位欄題。",
-        "image_verified": false,
-        "rights": "古代原文；數位轉錄依維基文庫CC BY-SA 4.0，保留署名及固定版本。",
-        "license_url": "https://creativecommons.org/licenses/by-sa/4.0/",
-        "normalization": {
-          "character_conversion": {},
-          "editorial_readings": [],
-          "extraction_note": "取得時HTML與固定修訂一致，只去外緣空白。保留夷[1]、高祖（三）［二］年、齊故［俗］、田既／田溉、共侯及末段索隱標記。夷後[1]是數位注釋標號，不當古文；同版注釋稱此字作上尸下二，未核底本不改字。",
-          "note": "全19段已讀並作明示人物首輪；未核底本、影像或現代研究。"
-        }
-      }
+      "chapter_ref": "data/corpus/shiji/054.json"
     },
     {
       "chapter_id": "c-shiji-092-hanxin",
       "work_id": "w-shiji",
       "book_id": "b-shiji-092",
       "source_id": "s-shiji-092-hanxin",
-      "source": {
-        "title": "史記／卷092",
-        "provider": "維基文庫",
-        "url": "https://zh.wikisource.org/wiki/史記/卷092",
-        "permalink": "https://zh.wikisource.org/w/index.php?title=史記/卷092&oldid=2256147",
-        "revision_id": 2256147,
-        "accessed_on": "2026-10-09",
-        "extent": "27段傳世正文含太史公論；頁面未附索隱述贊。排除導覽、空段、現代標點版權說明與版權告示，腳註分存。",
-        "image_verified": false,
-        "rights": "古代原文；數位轉錄依維基文庫CC BY-SA 4.0，保留署名及固定版本。",
-        "license_url": "https://creativecommons.org/licenses/by-sa/4.0/",
-        "normalization": {
-          "character_conversion": {
-            "弃": "棄"
-          },
-          "editorial_readings": [
-            {
-              "paragraph_id": "c-shiji-092-hanxin:p004",
-              "witness_form": "連囂",
-              "body_reading": "連敖",
-              "note": "頁面編者腳註明說傳世本作敖，正文依該記錄保留改字前形式；未核底本影像，不宣稱已校定。"
-            }
-          ],
-          "digital_footnotes": [
-            {
-              "block_index": 4,
-              "anchor": "cite_ref-1",
-              "note_id": "cite_note-1",
-              "source_text": "傳世本『囂』作『敖』。曾侯乙墓竹簡、包山楚簡、『連囂之□三』印、『燕客銅量』銘文中該官名皆作『連囂』，據改。",
-              "note": "頁面編者以出土材料改字的註記僅分存為參考，不驗證其論證，不作原文或官名先後定論。"
-            }
-          ],
-          "extraction_note": "固定HTML一致，只去外緣空白；去腳註[1]，明記連囂恢復連敖及弃轉棄。髙、襍、涂地、（休）與隨（何）等原字括號保留。",
-          "note": "全27段正文與HTML篇界已讀；未核底本影像。"
-        }
-      }
+      "chapter_ref": "data/corpus/shiji/092.json"
     }
   ],
   "relations": [],
@@ -266,8 +222,8 @@
           "chapter_id": "c-shiji-054-cao",
           "source_id": "s-shiji-054-cao",
           "paragraph_id": "c-shiji-054-cao:p005",
-          "quote": "高祖（三）［二］年，拜為假左丞相，入屯兵關中。月餘，魏王豹反，以假左丞相別與韓信東攻魏將軍孫遬軍東張，大破之。因攻安邑，得魏將王襄。擊魏王於曲陽，追至武垣，生得魏王豹。取平陽，得魏王母妻子，盡定魏地，凡五十二城。賜食邑平陽。因從韓信擊趙相國夏說軍於鄔東，大破之，斬夏說。韓信與故常山王張耳引兵下井陘，擊成安君，而令參還圍趙別將戚將軍於鄔城中。戚將軍出走，追斬之。乃引兵詣敖倉漢王之所。韓信已破趙，為相國，東擊齊。參以右丞相屬韓信，攻破齊歷下軍，遂取臨菑。還定濟北郡，攻著、漯陰、平原、鬲、盧。已而從韓信擊龍且軍於上假密，大破之，斬龍且，虜其將軍周蘭。定齊，凡得七十餘縣。得故齊王田廣相田光，其守相許章，及故齊膠東將軍田既。韓信為齊王，引兵詣陳，與漢王共破項羽，而參留平齊未服者。",
-          "person_mention_id": "c-shiji-054-cao:m005-0120"
+          "person_mention_id": "c-shiji-054-cao:m005-0120",
+          "quote_passage_ref": "data/corpus/shiji/054.json"
         }
       ],
       "source_term": "斬夏說",

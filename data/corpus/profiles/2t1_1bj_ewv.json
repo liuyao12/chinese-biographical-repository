@@ -23,7 +23,7 @@
           "chapter_id": "c-shiji-008-gaozu",
           "source_id": "s-shiji-008-gaozu",
           "paragraph_id": "c-shiji-008-gaozu:p068",
-          "quote": "高祖之東垣，過柏人，趙相貫高等謀弒高祖，高祖心動，因不留。代王劉仲棄國亡，自歸雒陽，廢以為合陽侯。"
+          "quote_passage_ref": "data/corpus/shiji/008.json"
         }
       ],
       "attestations": [
@@ -67,7 +67,7 @@
           "chapter_id": "c-shiji-089-zhanger",
           "source_id": "s-shiji-089-zhanger",
           "paragraph_id": "c-shiji-089-zhanger:p024",
-          "quote": "漢七年，髙祖從平城過趙，趙王朝夕袒韛蔽，自上食，禮甚卑，有子婿禮。髙祖箕踞詈，甚慢易之。趙相貫髙、趙午等年六十餘，故張耳客也。生平爲氣，乃怒曰：「吾王孱王也！」説王曰：「夫天下豪桀并起，能者先立。今王事髙祖甚恭，而髙祖無禮，請爲王殺之！」張敖齧其指出血，曰：「君何言之誤！且先人亡國，賴髙祖得復國，德流子孫，秋豪皆髙祖力也。願君無復出口。」貫髙、趙午等十餘人皆相謂曰：「乃吾等非也。吾王長者，不倍德。且吾等義不辱，今怨髙祖辱我王，故欲殺之，何乃汙王爲乎？令事成歸王，事敗獨身坐耳。」"
+          "quote_passage_ref": "data/corpus/shiji/089.json"
         }
       ],
       "attestations": [
@@ -109,7 +109,6 @@
       "raw_count": 2,
       "duplicate_count": 0,
       "counting_policy": "independent_fixed_witness_occurrences",
-      "quote": "高祖之東垣，過柏人，趙相貫高等謀弒高祖，高祖心動，因不留。代王劉仲棄國亡，自歸雒陽，廢以為合陽侯。",
       "paragraph_ids": [
         "c-shiji-008-gaozu:p068",
         "c-shiji-008-gaozu:p069"
@@ -143,7 +142,12 @@
       "book_id": "b-shiji-008",
       "chapter_id": "c-shiji-008-gaozu",
       "source_id": "s-shiji-008-gaozu",
-      "work_title": "史記"
+      "work_title": "史記",
+      "chapter_ref": "data/corpus/shiji/008.json",
+      "quote_span": [
+        0,
+        49
+      ]
     },
     {
       "number": 89,
@@ -154,7 +158,6 @@
       "raw_count": 14,
       "duplicate_count": 0,
       "counting_policy": "independent_fixed_witness_occurrences",
-      "quote": "，趙王朝夕袒韛蔽，自上食，禮甚卑，有子婿禮。髙祖箕踞詈，甚慢易之。趙相貫髙、趙午等年六十餘，故張耳客也。生平爲氣，乃怒曰：「吾王孱王也！」説王曰：「夫天下豪桀并起，能者先立。今王事髙祖甚恭，而髙祖無禮，請爲王殺之！」張敖齧其指出血，曰：「君何言之誤！且先人亡國，賴髙祖得復國",
       "paragraph_ids": [
         "c-shiji-089-zhanger:p024",
         "c-shiji-089-zhanger:p025",
@@ -298,7 +301,12 @@
       "book_id": "b-shiji-089",
       "chapter_id": "c-shiji-089-zhanger",
       "source_id": "s-shiji-089-zhanger",
-      "work_title": "史記"
+      "work_title": "史記",
+      "chapter_ref": "data/corpus/shiji/089.json",
+      "quote_span": [
+        11,
+        148
+      ]
     },
     {
       "number": 104,
@@ -309,7 +317,6 @@
       "raw_count": 4,
       "duplicate_count": 0,
       "counting_policy": "independent_fixed_witness_occurrences",
-      "quote": "曰：「先人失國，微陛下，臣等當蟲出。公等柰何言若是！毋復出口矣！」於是貫高等曰：「王長者，不倍德。」卒私相與謀弒上。會事發覺，漢下詔捕趙王及群臣反者。於是趙午等皆自殺，唯貫高就系。是時漢下詔書：「趙有敢隨王者罪三族。」唯孟舒、田叔等十餘人赭衣自髡鉗，稱王家奴，隨趙王敖至長安",
       "paragraph_ids": [
         "c-shiji-104-tianshu:p002",
         "c-shiji-104-tianshu:p003"
@@ -361,7 +368,12 @@
       "book_id": "b-shiji-104",
       "chapter_id": "c-shiji-104-tianshu",
       "source_id": "s-shiji-104-tianshu",
-      "work_title": "史記"
+      "work_title": "史記",
+      "chapter_ref": "data/corpus/shiji/104.json",
+      "quote_span": [
+        86,
+        223
+      ]
     },
     {
       "number": 118,
@@ -372,7 +384,6 @@
       "raw_count": 1,
       "duplicate_count": 0,
       "counting_policy": "independent_fixed_witness_occurrences",
-      "quote": "，趙王獻之美人。厲王母得幸焉，有身。趙王敖弗敢內宮，為筑外宮而捨之。及貫高等謀反柏人事發覺，并逮治王，盡收捕王母兄弟美人，繋之河內。厲王母亦繋，告吏曰：「得幸上，有身。」吏以聞上，上方怒趙王，未理厲王母。厲王母弟趙兼因辟陽侯言呂后，呂后妒，弗肯白，辟陽侯不彊爭。及厲王母已生",
       "paragraph_ids": [
         "c-shiji-118-huainan:p001"
       ],
@@ -396,7 +407,12 @@
       "book_id": "b-shiji-118",
       "chapter_id": "c-shiji-118-huainan",
       "source_id": "s-shiji118-huainan",
-      "work_title": "史記"
+      "work_title": "史記",
+      "chapter_ref": "data/corpus/shiji/118.json",
+      "quote_span": [
+        33,
+        170
+      ]
     }
   ],
   "table_occurrences": [
@@ -404,7 +420,6 @@
       "table_id": "shiji-018",
       "cell_id": "shiji-018-t1-r103-c01",
       "title": "《史記·高祖功臣侯者年表》",
-      "quote": "兵初起，張耳誅秦，爲相，合諸侯兵鉅鹿，破秦定趙，爲常山王。陳餘反，襲耳，棄國，與大臣歸漢，漢定趙，爲王。卒，子敖嗣。其臣貫高不善，廢爲侯。",
       "year": null,
       "mention": {
         "id": "shiji-018-t1-r103-c01-m002",
@@ -419,13 +434,13 @@
       "book_id": "b-shiji-018",
       "chapter_id": "table-chapter-shiji-018",
       "source_id": "table-witness-shiji-018",
-      "source_revision": "9484995"
+      "source_revision": "9484995",
+      "quote_ref": "cell"
     },
     {
       "table_id": "shiji-022",
       "cell_id": "shiji-022-t1-r008-c02",
       "title": "《史記·漢興以來將相名臣年表》",
-      "quote": "擊韓信反虜於趙城。貫高作亂，明年覺，誅之。匈奴攻代王，代王棄國亡，廢為郃陽侯。",
       "year": {
         "era": "BCE",
         "value": 199,
@@ -448,7 +463,8 @@
       "book_id": "b-shiji-022",
       "chapter_id": "table-chapter-shiji-022",
       "source_id": "table-witness-shiji-022",
-      "source_revision": "2607038"
+      "source_revision": "2607038",
+      "quote_ref": "cell"
     }
   ],
   "sources": [
@@ -457,146 +473,42 @@
       "work_id": "w-shiji",
       "book_id": "b-shiji-008",
       "source_id": "s-shiji-008-gaozu",
-      "source": {
-        "title": "史記／卷008",
-        "provider": "維基文庫",
-        "url": "https://zh.wikisource.org/wiki/史記/卷008",
-        "permalink": "https://zh.wikisource.org/w/index.php?title=史記/卷008&oldid=2440965",
-        "revision_id": 2440965,
-        "accessed_on": "2026-10-09",
-        "extent": "本篇傳世正文91個p區塊，自「高祖，沛豐邑中陽里人」至太史公論贊；不含導覽標題、跨站連結及另署【索隱述贊】的後出文字。",
-        "image_verified": false,
-        "rights": "古代原文；數位轉錄依維基文庫CC BY-SA 4.0，保留署名及固定版本。",
-        "license_url": "https://creativecommons.org/licenses/by-sa/4.0/",
-        "normalization": {
-          "character_conversion": {
-            "馕": "饢"
-          },
-          "editorial_readings": [],
-          "extraction_note": "正文91段均為p；前置兩個dd為跨站導覽，不收錄。排除sup註號，保留原有行內校勘符號。",
-          "note": "第48、57段馕僅作明示簡繁轉換為饢，詞義與疑讀待核，不逕改為餉或饟。數位轉錄尚未核紙本或影像。"
-        }
-      }
+      "chapter_ref": "data/corpus/shiji/008.json"
     },
     {
       "chapter_id": "c-shiji-089-zhanger",
       "work_id": "w-shiji",
       "book_id": "b-shiji-089",
       "source_id": "s-shiji-089-zhanger",
-      "source": {
-        "title": "史記／卷089",
-        "provider": "維基文庫",
-        "url": "https://zh.wikisource.org/wiki/史記/卷089",
-        "permalink": "https://zh.wikisource.org/w/index.php?title=史記/卷089&oldid=8744143",
-        "revision_id": 8744143,
-        "accessed_on": "2026-10-09",
-        "extent": "30段傳世正文含太史公論，另存1段witness_appended_suoyin_zan；排除導覽與空白段。",
-        "image_verified": false,
-        "rights": "古代原文；數位轉錄依維基文庫CC BY-SA 4.0，保留署名及固定版本。",
-        "license_url": "https://creativecommons.org/licenses/by-sa/4.0/",
-        "normalization": {
-          "character_conversion": {
-            "钜": "鉅"
-          },
-          "editorial_readings": [],
-          "extraction_note": "固定HTML與取得時版本一致，只去外緣空白及明記钜轉鉅；髙、渉、脱、黡、黶、信諸侯等原字保留。",
-          "note": "33個HTML區塊已全讀；頁面索隱述贊標題確認末段層次。未核底本影像。"
-        }
-      }
+      "chapter_ref": "data/corpus/shiji/089.json"
     },
     {
       "chapter_id": "c-shiji-104-tianshu",
       "work_id": "w-shiji",
       "book_id": "b-shiji-104",
       "source_id": "s-shiji-104-tianshu",
-      "source": {
-        "title": "史記／卷104",
-        "provider": "維基文庫",
-        "url": "https://zh.wikisource.org/wiki/史記/卷104",
-        "permalink": "https://zh.wikisource.org/w/index.php?title=史記/卷104&oldid=8739534",
-        "revision_id": 8739534,
-        "accessed_on": "2026-10-10",
-        "extent": "9段正文含太史公論，7段署褚先生補文與1段索隱述贊。",
-        "image_verified": false,
-        "rights": "古代原文；數位轉錄依維基文庫CC BY-SA 4.0，保留署名及固定版本。",
-        "license_url": "https://creativecommons.org/licenses/by-sa/4.0/",
-        "normalization": {
-          "character_conversion": {},
-          "editorial_readings": [],
-          "extraction_note": "去標題與介面模板，原字、標點及段落次序保留。",
-          "note": "未核底本影像。"
-        }
-      }
+      "chapter_ref": "data/corpus/shiji/104.json"
     },
     {
       "chapter_id": "c-shiji-118-huainan",
       "work_id": "w-shiji",
       "book_id": "b-shiji-118",
       "source_id": "s-shiji118-huainan",
-      "source": {
-        "title": "史記／卷118",
-        "provider": "維基文庫",
-        "url": "https://zh.wikisource.org/wiki/史記/卷118",
-        "permalink": "https://zh.wikisource.org/w/index.php?title=史記/卷118&oldid=7904122",
-        "revision_id": 7904122,
-        "accessed_on": "2026-10-11",
-        "extent": "固定修訂全文31段，末段索隱述贊分層。",
-        "image_verified": false,
-        "rights": "古代原文；數位轉錄依維基文庫CC BY-SA 4.0，保留署名及固定版本。",
-        "license_url": "https://creativecommons.org/licenses/by-sa/4.0/",
-        "normalization": {
-          "character_conversion": {},
-          "editorial_readings": [],
-          "extraction_note": "去header2與現代節標；YL模板保留原曆首參數，數位公元年不收入正文。保留（十）［七］及元（朔七）［狩元］等校記，不默改。未核影像。",
-          "note": "全部身份與版本仍待覆核。"
-        }
-      }
+      "chapter_ref": "data/corpus/shiji/118.json"
     },
     {
       "chapter_id": "table-chapter-shiji-018",
       "work_id": "w-shiji",
       "book_id": "b-shiji-018",
       "source_id": "table-witness-shiji-018",
-      "source": {
-        "id": "table-witness-shiji-018",
-        "work_id": "w-shiji",
-        "book_id": "b-shiji-018",
-        "chapter_id": "table-chapter-shiji-018",
-        "url": "https://zh.wikisource.org/wiki/史記/卷018",
-        "revision_url": "https://zh.wikisource.org/w/index.php?title=史記/卷018&oldid=9484995",
-        "revision": "9484995",
-        "accessed": "2026-10-13",
-        "response_sha256": "e9817647c74a75eaa478d78e30387fe1403da1cc9961ad7947b185af3ae1217c",
-        "edition": null,
-        "image_verified": false,
-        "rights": "古籍正文公有領域；維基文庫數位轉錄依CC BY-SA，保留貢獻者署名。",
-        "rights_url": "https://zh.wikisource.org/wiki/Wikisource:版權信息",
-        "review_status": "partial_named_entity_review",
-        "note": "各組表保留原欄題、原文、空格及合欄，不推不同欄題的接續。西元欄為數位編者增補；未明年份留空，不推世系曆年。未核底本影像，人物標註仍待逐處覆核。"
-      }
+      "table_source_ref": "shiji-018"
     },
     {
       "chapter_id": "table-chapter-shiji-022",
       "work_id": "w-shiji",
       "book_id": "b-shiji-022",
       "source_id": "table-witness-shiji-022",
-      "source": {
-        "id": "table-witness-shiji-022",
-        "work_id": "w-shiji",
-        "book_id": "b-shiji-022",
-        "chapter_id": "table-chapter-shiji-022",
-        "url": "https://zh.wikisource.org/wiki/史記/卷022",
-        "revision_url": "https://zh.wikisource.org/w/index.php?title=史記/卷022&oldid=2607038",
-        "revision": "2607038",
-        "accessed": "2026-10-13",
-        "response_sha256": "e2ab3816ee3e18a035537d6d823271ce448f83fa549df81cf8028af1ed6add2f",
-        "edition": null,
-        "image_verified": false,
-        "rights": "古籍正文公有領域；維基文庫數位轉錄依CC BY-SA，保留貢獻者署名。",
-        "rights_url": "https://zh.wikisource.org/wiki/Wikisource:版權信息",
-        "review_status": "partial_named_entity_review",
-        "note": "各組表保留原欄題、原文、空格及合欄，不推不同欄題的接續。西元欄為數位編者增補；未明年份留空，不推世系曆年。未核底本影像，人物標註仍待逐處覆核。"
-      }
+      "table_source_ref": "shiji-022"
     }
   ],
   "relations": [],
@@ -617,8 +529,8 @@
           "chapter_id": "c-shiji-089-zhanger",
           "source_id": "s-shiji-089-zhanger",
           "paragraph_id": "c-shiji-089-zhanger:p024",
-          "quote": "漢七年，髙祖從平城過趙，趙王朝夕袒韛蔽，自上食，禮甚卑，有子婿禮。髙祖箕踞詈，甚慢易之。趙相貫髙、趙午等年六十餘，故張耳客也。生平爲氣，乃怒曰：「吾王孱王也！」説王曰：「夫天下豪桀并起，能者先立。今王事髙祖甚恭，而髙祖無禮，請爲王殺之！」張敖齧其指出血，曰：「君何言之誤！且先人亡國，賴髙祖得復國，德流子孫，秋豪皆髙祖力也。願君無復出口。」貫髙、趙午等十餘人皆相謂曰：「乃吾等非也。吾王長者，不倍德。且吾等義不辱，今怨髙祖辱我王，故欲殺之，何乃汙王爲乎？令事成歸王，事敗獨身坐耳。」",
-          "person_mention_id": "c-shiji-089-zhanger:m024-0046"
+          "person_mention_id": "c-shiji-089-zhanger:m024-0046",
+          "quote_passage_ref": "data/corpus/shiji/089.json"
         }
       ],
       "references": [
@@ -684,8 +596,8 @@
           "chapter_id": "c-shiji-089-zhanger",
           "source_id": "s-shiji-089-zhanger",
           "paragraph_id": "c-shiji-089-zhanger:p024",
-          "quote": "漢七年，髙祖從平城過趙，趙王朝夕袒韛蔽，自上食，禮甚卑，有子婿禮。髙祖箕踞詈，甚慢易之。趙相貫髙、趙午等年六十餘，故張耳客也。生平爲氣，乃怒曰：「吾王孱王也！」説王曰：「夫天下豪桀并起，能者先立。今王事髙祖甚恭，而髙祖無禮，請爲王殺之！」張敖齧其指出血，曰：「君何言之誤！且先人亡國，賴髙祖得復國，德流子孫，秋豪皆髙祖力也。願君無復出口。」貫髙、趙午等十餘人皆相謂曰：「乃吾等非也。吾王長者，不倍德。且吾等義不辱，今怨髙祖辱我王，故欲殺之，何乃汙王爲乎？令事成歸王，事敗獨身坐耳。」",
-          "person_mention_id": "c-shiji-089-zhanger:m024-0046"
+          "person_mention_id": "c-shiji-089-zhanger:m024-0046",
+          "quote_passage_ref": "data/corpus/shiji/089.json"
         }
       ],
       "interpretation_note": "具名兩人的群體報齡，等字仍有未名成員，名單不是全體。六十餘只支持大於六十，沒有六十九上限；非死亡年齡，不定計歲法、不反推出生年。",
@@ -704,8 +616,8 @@
             "chapter_id": "c-shiji-089-zhanger",
             "source_id": "s-shiji-089-zhanger",
             "paragraph_id": "c-shiji-089-zhanger:p024",
-            "quote": "漢七年，髙祖從平城過趙，趙王朝夕袒韛蔽，自上食，禮甚卑，有子婿禮。髙祖箕踞詈，甚慢易之。趙相貫髙、趙午等年六十餘，故張耳客也。生平爲氣，乃怒曰：「吾王孱王也！」説王曰：「夫天下豪桀并起，能者先立。今王事髙祖甚恭，而髙祖無禮，請爲王殺之！」張敖齧其指出血，曰：「君何言之誤！且先人亡國，賴髙祖得復國，德流子孫，秋豪皆髙祖力也。願君無復出口。」貫髙、趙午等十餘人皆相謂曰：「乃吾等非也。吾王長者，不倍德。且吾等義不辱，今怨髙祖辱我王，故欲殺之，何乃汙王爲乎？令事成歸王，事敗獨身坐耳。」",
-            "person_mention_id": "c-shiji-089-zhanger:m024-0046"
+            "person_mention_id": "c-shiji-089-zhanger:m024-0046",
+            "quote_passage_ref": "data/corpus/shiji/089.json"
           }
         ],
         "references": [
@@ -745,8 +657,8 @@
           "chapter_id": "c-shiji-089-zhanger",
           "source_id": "s-shiji-089-zhanger",
           "paragraph_id": "c-shiji-089-zhanger:p027",
-          "quote": "上賢貫髙爲人能立然諾，使泄公具告之，曰：「張王已出。」因赦貫髙。貫髙喜曰：「吾王審出乎？」泄公曰：「然。」泄公曰：「上多足下，故赦足下。」貫髙曰：「所以不死一身無餘者，白張王不反也。今王已出，吾責已塞，死不恨矣。且人臣有篡殺之名，何面目復事上哉！縱上不殺我，我不愧於心乎？」乃仰絶骯，遂死。當此之時，名聞天下。",
-          "person_mention_id": "c-shiji-089-zhanger:m027-0002"
+          "person_mention_id": "c-shiji-089-zhanger:m027-0002",
+          "quote_passage_ref": "data/corpus/shiji/089.json"
         }
       ],
       "interpretation_note": "貫高獲赦後自死，不把先前其他賓客爭自剄直接作貫高或孟舒死亡。 保存本篇原語及敘述範圍，不視作獨立證成，不由死亡一律終止所有官爵；未核書影。",

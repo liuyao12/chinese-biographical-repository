@@ -1,7 +1,6 @@
+from scripts.corpus_overlay import edited_inputs
 import copy
 import json
-import shutil
-import tempfile
 import unittest
 from pathlib import Path
 from scripts.validate_corpus import parallel_event_date, validate
@@ -43,10 +42,8 @@ class ChunshenEvidenceTests(unittest.TestCase):
             self.assertNotIn('normalized_date', h['effective_period']['end'])
 
     def test_request_without_approval_cannot_be_recorded_as_granted_fief(self):
-        with tempfile.TemporaryDirectory() as tmp:
-            root = Path(tmp)
-            for directory in ('corpus', 'registry'):
-                shutil.copytree(ROOT/directory, root/directory)
+        with edited_inputs(ROOT):
+            root = ROOT
             path = root/'corpus/shiji/078-addresses.json'
             data = json.loads(path.read_text())
             address = next(a for a in data['assertions'] if a['id']=='pa-shiji078-005')

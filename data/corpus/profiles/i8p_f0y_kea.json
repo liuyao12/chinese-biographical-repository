@@ -23,7 +23,7 @@
           "chapter_id": "c-shiji-050-chuyuan",
           "source_id": "s-shiji-050-chuyuan",
           "paragraph_id": "c-shiji-050-chuyuan:p004",
-          "quote": "王戊立二十年，冬，坐為薄太后服私姦，削東海郡。春，戊與吳王合謀反，其相張尚、太傅趙夷吾諫，不聽。戊則殺尚、夷吾，起兵與吳西攻梁，破棘壁。至昌邑南，與漢將周亞夫戰。漢絕吳楚糧道，士卒饑，吳王走，楚王戊自殺，軍遂降漢。"
+          "quote_passage_ref": "data/corpus/shiji/050.json"
         }
       ],
       "attestations": [
@@ -65,7 +65,7 @@
           "chapter_id": "c-shiji-106-wuwang",
           "source_id": "s-shiji-106-wuwang",
           "paragraph_id": "c-shiji-106-wuwang:p017",
-          "quote": "初，吳王之度淮，與楚王遂西敗棘壁，乘勝前，銳甚。梁孝王恐，遣六將軍擊吳，又敗梁兩將，士卒皆還走梁。梁數使使報條侯求救，條侯不許。又使使惡條侯於上，上使人告條侯救梁，復守便宜不行。梁使韓安國及楚死事相弟張羽為將軍，乃得頗敗吳兵。吳兵欲西，梁城守堅，不敢西，即走條侯軍，會下邑。欲戰，條侯壁，不肯戰。吳糧絕，卒饑，數挑戰，遂夜奔條侯壁，驚東南。條侯使備西北，果從西北入。吳大敗，士卒多饑死，乃畔散。於是吳王乃與其麾下壯士數千人夜亡去，度江走丹徒，保東越。東越兵可萬餘人，乃使人收聚亡卒。漢使人以利啗東越，東越即紿吳王，吳王出勞軍，即使人鏦殺吳王，盛其頭，馳傳以聞。吳王子子華、子駒亡走閩越。吳王之棄其軍亡也，軍遂潰，往往稍降太尉、梁軍。楚王戊軍敗，自殺。"
+          "quote_passage_ref": "data/corpus/shiji/106.json"
         }
       ],
       "attestations": [
@@ -107,7 +107,6 @@
       "raw_count": 1,
       "duplicate_count": 0,
       "counting_policy": "independent_fixed_witness_occurrences",
-      "quote": "條侯不許。又使使愬條侯於上，上使告條侯救梁，又守便宜不行。梁使韓安國及楚死事相弟張羽為將軍，乃得頗敗吳兵。吳兵欲西，梁城守，不敢西，即走條侯軍，會下邑。欲戰，條侯壁，不肯戰。吳糧絕，卒飢，數挑戰，遂夜奔條侯壁，驚東南。條侯使備西北，果從西北。不得入，吳大敗，士卒多飢死叛散。於是",
       "paragraph_ids": [
         "c-hanshu-035-jingyanwu:wuwang:p018"
       ],
@@ -131,7 +130,12 @@
       "book_id": "b-hanshu-035",
       "chapter_id": "c-hanshu-035-jingyanwu",
       "source_id": "s-hanshu-035-jingyanwu",
-      "work_title": "漢書"
+      "work_title": "漢書",
+      "chapter_ref": "data/corpus/hanshu/035.json",
+      "quote_span": [
+        57,
+        196
+      ]
     },
     {
       "number": 50,
@@ -142,7 +146,6 @@
       "raw_count": 2,
       "duplicate_count": 0,
       "counting_policy": "independent_fixed_witness_occurrences",
-      "quote": "王戊立二十年，冬，坐為薄太后服私姦，削東海郡。春，戊與吳王合謀反，其相張尚、太傅趙夷吾諫，不聽。戊則殺尚、夷吾，起兵與吳西攻梁，破棘壁。至昌邑南，與漢將周亞夫戰。漢絕吳楚糧道，士卒饑，吳王走，楚王戊自殺，軍遂降漢。",
       "paragraph_ids": [
         "c-shiji-050-chuyuan:p004"
       ],
@@ -175,7 +178,12 @@
       "book_id": "b-shiji-050",
       "chapter_id": "c-shiji-050-chuyuan",
       "source_id": "s-shiji-050-chuyuan",
-      "work_title": "史記"
+      "work_title": "史記",
+      "chapter_ref": "data/corpus/shiji/050.json",
+      "quote_span": [
+        0,
+        107
+      ]
     },
     {
       "number": 106,
@@ -186,7 +194,6 @@
       "raw_count": 1,
       "duplicate_count": 0,
       "counting_policy": "independent_fixed_witness_occurrences",
-      "quote": "侯不許。又使使惡條侯於上，上使人告條侯救梁，復守便宜不行。梁使韓安國及楚死事相弟張羽為將軍，乃得頗敗吳兵。吳兵欲西，梁城守堅，不敢西，即走條侯軍，會下邑。欲戰，條侯壁，不肯戰。吳糧絕，卒饑，數挑戰，遂夜奔條侯壁，驚東南。條侯使備西北，果從西北入。吳大敗，士卒多饑死，乃畔散。於是",
       "paragraph_ids": [
         "c-shiji-106-wuwang:p017"
       ],
@@ -210,7 +217,12 @@
       "book_id": "b-shiji-106",
       "chapter_id": "c-shiji-106-wuwang",
       "source_id": "s-shiji-106-wuwang",
-      "work_title": "史記"
+      "work_title": "史記",
+      "chapter_ref": "data/corpus/shiji/106.json",
+      "quote_span": [
+        60,
+        199
+      ]
     }
   ],
   "table_occurrences": [],
@@ -220,79 +232,21 @@
       "work_id": "w-hanshu",
       "book_id": "b-hanshu-035",
       "source_id": "s-hanshu-035-jingyanwu",
-      "source": {
-        "title": "漢書／卷035",
-        "provider": "維基文庫",
-        "url": "https://zh.wikisource.org/wiki/漢書/卷035",
-        "permalink": "https://zh.wikisource.org/w/index.php?title=漢書/卷035&oldid=2605377",
-        "revision_id": 2605377,
-        "accessed_on": "2026-10-15",
-        "extent": "目前錄吳王傳八個不連續段落；荊王、燕王、其他吳王段及贊未錄，不代表全卷完成。",
-        "text_scope": "partial_chapter",
-        "image_verified": false,
-        "review_status": "text_checked",
-        "normalization": {
-          "character_conversion": {},
-          "editorial_readings": [],
-          "extraction_note": "固定HTML的p元素，去段首尾空白、解碼HTML實體，不合併原段，不改古字。"
-        },
-        "html_sha256": "2e018b66d35e2de08408e9123eeb1e48966d649e98c66f2b89d4e11ef4811f9f",
-        "included_sections": [
-          "吳王傳八個不連續段落"
-        ],
-        "license_url": "https://creativecommons.org/licenses/by-sa/4.0/",
-        "rights": "古代原文；維基文庫數位轉錄依CC BY-SA 4.0，保留貢獻者署名及固定修訂連結。",
-        "edition": null,
-        "revision_timestamp": null
-      }
+      "chapter_ref": "data/corpus/hanshu/035.json"
     },
     {
       "chapter_id": "c-shiji-050-chuyuan",
       "work_id": "w-shiji",
       "book_id": "b-shiji-050",
       "source_id": "s-shiji-050-chuyuan",
-      "source": {
-        "title": "史記／卷050",
-        "provider": "維基文庫",
-        "url": "https://zh.wikisource.org/wiki/史記/卷050",
-        "permalink": "https://zh.wikisource.org/w/index.php?title=史記/卷050&oldid=8737728",
-        "revision_id": 8737728,
-        "accessed_on": "2026-10-09",
-        "extent": "10段篇文及1段索隱述贊；排除1個空p，數位分節欄題不作古文段落。",
-        "image_verified": false,
-        "rights": "古代原文；數位轉錄依維基文庫CC BY-SA 4.0，保留署名及固定版本。",
-        "license_url": "https://creativecommons.org/licenses/by-sa/4.0/",
-        "normalization": {
-          "character_conversion": {},
-          "editorial_readings": [],
-          "extraction_note": "取得時HTML與固定修訂一致，只去外緣空白；保留辟彊、（以）［是］、防與先生等原字與校勘字樣。",
-          "note": "全11段已讀並作明示人物首輪，索隱述贊另分層；未核底本、影像或現代研究。"
-        }
-      }
+      "chapter_ref": "data/corpus/shiji/050.json"
     },
     {
       "chapter_id": "c-shiji-106-wuwang",
       "work_id": "w-shiji",
       "book_id": "b-shiji-106",
       "source_id": "s-shiji-106-wuwang",
-      "source": {
-        "title": "史記／卷106",
-        "provider": "維基文庫",
-        "url": "https://zh.wikisource.org/wiki/史記/卷106",
-        "permalink": "https://zh.wikisource.org/w/index.php?title=史記/卷106&oldid=405869",
-        "revision_id": 405869,
-        "accessed_on": "2026-10-10",
-        "extent": "20段正文含書信、制詔與太史公論，1段索隱述贊。",
-        "image_verified": false,
-        "rights": "古代原文；數位轉錄依維基文庫CC BY-SA 4.0，保留署名及固定版本。",
-        "license_url": "https://creativecommons.org/licenses/by-sa/4.0/",
-        "normalization": {
-          "character_conversion": {},
-          "editorial_readings": [],
-          "extraction_note": "去標題與介面模板，原字、標點及段落次序保留。",
-          "note": "未核底本影像。"
-        }
-      }
+      "chapter_ref": "data/corpus/shiji/106.json"
     }
   ],
   "relations": [
@@ -307,7 +261,7 @@
           "chapter_id": "c-shiji-106-wuwang",
           "source_id": "s-shiji-106-wuwang",
           "paragraph_id": "c-shiji-106-wuwang:p017",
-          "quote": "初，吳王之度淮，與楚王遂西敗棘壁，乘勝前，銳甚。梁孝王恐，遣六將軍擊吳，又敗梁兩將，士卒皆還走梁。梁數使使報條侯求救，條侯不許。又使使惡條侯於上，上使人告條侯救梁，復守便宜不行。梁使韓安國及楚死事相弟張羽為將軍，乃得頗敗吳兵。吳兵欲西，梁城守堅，不敢西，即走條侯軍，會下邑。欲戰，條侯壁，不肯戰。吳糧絕，卒饑，數挑戰，遂夜奔條侯壁，驚東南。條侯使備西北，果從西北入。吳大敗，士卒多饑死，乃畔散。於是吳王乃與其麾下壯士數千人夜亡去，度江走丹徒，保東越。東越兵可萬餘人，乃使人收聚亡卒。漢使人以利啗東越，東越即紿吳王，吳王出勞軍，即使人鏦殺吳王，盛其頭，馳傳以聞。吳王子子華、子駒亡走閩越。吳王之棄其軍亡也，軍遂潰，往往稍降太尉、梁軍。楚王戊軍敗，自殺。"
+          "quote_passage_ref": "data/corpus/shiji/106.json"
         }
       ],
       "qualifiers": {
@@ -353,11 +307,11 @@
           "chapter_id": "c-shiji-050-chuyuan",
           "source_id": "s-shiji-050-chuyuan",
           "paragraph_id": "c-shiji-050-chuyuan:p004",
-          "quote": "王戊立二十年，冬，坐為薄太后服私姦，削東海郡。春，戊與吳王合謀反，其相張尚、太傅趙夷吾諫，不聽。戊則殺尚、夷吾，起兵與吳西攻梁，破棘壁。至昌邑南，與漢將周亞夫戰。漢絕吳楚糧道，士卒饑，吳王走，楚王戊自殺，軍遂降漢。",
           "mention_ids": [
             "c-shiji-050-chuyuan:m004-0035",
             "c-shiji-050-chuyuan:m004-0051"
-          ]
+          ],
+          "quote_passage_ref": "data/corpus/shiji/050.json"
         },
         {
           "work_id": "w-shiji",
@@ -365,10 +319,10 @@
           "chapter_id": "c-shiji-106-wuwang",
           "source_id": "s-shiji-106-wuwang",
           "paragraph_id": "c-shiji-106-wuwang:p017",
-          "quote": "初，吳王之度淮，與楚王遂西敗棘壁，乘勝前，銳甚。梁孝王恐，遣六將軍擊吳，又敗梁兩將，士卒皆還走梁。梁數使使報條侯求救，條侯不許。又使使惡條侯於上，上使人告條侯救梁，復守便宜不行。梁使韓安國及楚死事相弟張羽為將軍，乃得頗敗吳兵。吳兵欲西，梁城守堅，不敢西，即走條侯軍，會下邑。欲戰，條侯壁，不肯戰。吳糧絕，卒饑，數挑戰，遂夜奔條侯壁，驚東南。條侯使備西北，果從西北入。吳大敗，士卒多饑死，乃畔散。於是吳王乃與其麾下壯士數千人夜亡去，度江走丹徒，保東越。東越兵可萬餘人，乃使人收聚亡卒。漢使人以利啗東越，東越即紿吳王，吳王出勞軍，即使人鏦殺吳王，盛其頭，馳傳以聞。吳王子子華、子駒亡走閩越。吳王之棄其軍亡也，軍遂潰，往往稍降太尉、梁軍。楚王戊軍敗，自殺。",
           "mention_ids": [
             "c-shiji-106-wuwang:m017-0095"
-          ]
+          ],
+          "quote_passage_ref": "data/corpus/shiji/106.json"
         }
       ],
       "rationale": "同一七國之役楚國，相而死事；050明記相張尚因諫被殺，106張羽為楚死事相之弟。官職、國別及死事背景一致，不單憑張姓。 集解徐廣及正義明指張尚、羽弟，與正文楚相死諫相合；古注另層保存，不把古注姓名塞入傳世正文，不補父親。",
@@ -416,7 +370,7 @@
           "chapter_id": "c-shiji-106-wuwang",
           "source_id": "s-shiji-106-wuwang",
           "paragraph_id": "c-shiji-106-wuwang:p017",
-          "quote": "初，吳王之度淮，與楚王遂西敗棘壁，乘勝前，銳甚。梁孝王恐，遣六將軍擊吳，又敗梁兩將，士卒皆還走梁。梁數使使報條侯求救，條侯不許。又使使惡條侯於上，上使人告條侯救梁，復守便宜不行。梁使韓安國及楚死事相弟張羽為將軍，乃得頗敗吳兵。吳兵欲西，梁城守堅，不敢西，即走條侯軍，會下邑。欲戰，條侯壁，不肯戰。吳糧絕，卒饑，數挑戰，遂夜奔條侯壁，驚東南。條侯使備西北，果從西北入。吳大敗，士卒多饑死，乃畔散。於是吳王乃與其麾下壯士數千人夜亡去，度江走丹徒，保東越。東越兵可萬餘人，乃使人收聚亡卒。漢使人以利啗東越，東越即紿吳王，吳王出勞軍，即使人鏦殺吳王，盛其頭，馳傳以聞。吳王子子華、子駒亡走閩越。吳王之棄其軍亡也，軍遂潰，往往稍降太尉、梁軍。楚王戊軍敗，自殺。"
+          "quote_passage_ref": "data/corpus/shiji/106.json"
         }
       ],
       "qualifiers": {
@@ -450,8 +404,8 @@
           "chapter_id": "c-shiji-050-chuyuan",
           "source_id": "s-shiji-050-chuyuan",
           "paragraph_id": "c-shiji-050-chuyuan:p004",
-          "quote": "王戊立二十年，冬，坐為薄太后服私姦，削東海郡。春，戊與吳王合謀反，其相張尚、太傅趙夷吾諫，不聽。戊則殺尚、夷吾，起兵與吳西攻梁，破棘壁。至昌邑南，與漢將周亞夫戰。漢絕吳楚糧道，士卒饑，吳王走，楚王戊自殺，軍遂降漢。",
-          "person_mention_id": "c-shiji-050-chuyuan:m004-0051"
+          "person_mention_id": "c-shiji-050-chuyuan:m004-0051",
+          "quote_passage_ref": "data/corpus/shiji/050.json"
         }
       ],
       "source_term": "戊則殺尚、夷吾",

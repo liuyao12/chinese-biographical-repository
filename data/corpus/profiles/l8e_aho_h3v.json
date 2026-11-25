@@ -20,7 +20,6 @@
       "raw_count": 1,
       "duplicate_count": 0,
       "counting_policy": "independent_fixed_witness_occurrences",
-      "quote": "群臣以禮次侍。乃使太仆嬰與東牟侯興居清宮，奉天子法駕，迎于代邸。皇帝即日夕入未央宮。乃夜拜宋昌為衛將軍，鎮撫南北軍。以張武為郎中令，行殿中。還坐前殿。於是夜下詔書曰：「閒者諸呂用事擅權，謀為大逆，欲以危劉氏宗廟，賴將相列侯宗",
       "paragraph_ids": [
         "c-shiji-010-wendi:p004"
       ],
@@ -44,7 +43,12 @@
       "book_id": "b-shiji-010",
       "chapter_id": "c-shiji-010-wendi",
       "source_id": "s-shiji-010-wendi",
-      "work_title": "史記"
+      "work_title": "史記",
+      "chapter_ref": "data/corpus/shiji/010.json",
+      "quote_span": [
+        0,
+        112
+      ]
     }
   ],
   "table_occurrences": [],
@@ -54,28 +58,7 @@
       "work_id": "w-shiji",
       "book_id": "b-shiji-010",
       "source_id": "s-shiji-010-wendi",
-      "source": {
-        "title": "史記／卷010",
-        "provider": "維基文庫",
-        "url": "https://zh.wikisource.org/wiki/史記/卷010",
-        "permalink": "https://zh.wikisource.org/w/index.php?title=史記/卷010&oldid=2599229",
-        "revision_id": 2599229,
-        "accessed_on": "2026-10-09",
-        "extent": "正文41個p區塊，自孝文皇帝至太史公論贊；排除前置跨站dd及末尾索隱述贊。",
-        "image_verified": false,
-        "rights": "古代原文；數位轉錄依維基文庫CC BY-SA 4.0，保留署名及固定版本。",
-        "license_url": "https://creativecommons.org/licenses/by-sa/4.0/",
-        "normalization": {
-          "character_conversion": {
-            "泽": "澤",
-            "为": "為",
-            "绖": "絰"
-          },
-          "editorial_readings": [],
-          "extraction_note": "正文均為p，排除sup註號，保留行內校勘符號。",
-          "note": "澤、為、絰僅作明記簡繁轉換；保留琅邪及古代異體，未核影像或可靠底本。"
-        }
-      }
+      "chapter_ref": "data/corpus/shiji/010.json"
     }
   ],
   "relations": [],

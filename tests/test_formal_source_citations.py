@@ -39,7 +39,7 @@ class FormalCitationTests(unittest.TestCase):
   from scripts import export_person_bundles as exporter
   record=dict(self.c,record_type='marked_chapter',source_id='s-test',source={'url':'https://example.test/fixed'})
   person={'label':'謝安'};pid='abc_def_123'
-  result={'identity_policy':{},'person_ids':[pid],'family_tree_decisions':[]}
+  result={'identity_policy':{},'person_ids':[pid],'family_tree_decisions':[],'passages':[],'sources':[]}
   with tempfile.TemporaryDirectory()as tmp:
    root=Path(tmp);(root/'registry').mkdir();(root/'data/corpus').mkdir(parents=True)
    (root/'registry/works.json').write_text(json.dumps(self.r));(root/'data/corpus/chapter-directory.json').write_text(json.dumps(self.d))
@@ -49,5 +49,6 @@ class FormalCitationTests(unittest.TestCase):
    md=(root/'exports/persons/unconnected.md').read_text()
    self.assertIn('[《晉書・謝尚 謝安》][1]',md);self.assertIn('[1]: https://example.test/fixed',md)
    self.assertNotIn('編輯選錄題',md);self.assertEqual(record,before)
-   self.assertEqual(json.loads((root/'exports/persons'/ (pid+'.json')).read_text()),result)
+   saved = json.loads((root/'exports/persons'/ (pid+'.json')).read_text())
+   self.assertEqual(exporter.PassageCatalog(root).expand(saved),result)
 if __name__=='__main__':unittest.main()

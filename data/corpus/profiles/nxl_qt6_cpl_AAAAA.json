@@ -22,7 +22,7 @@
           "chapter_id": "c-shiji-044-wei",
           "source_id": "s-shiji-044-wei",
           "paragraph_id": "c-shiji-044-wei:p008",
-          "quote": "晉頃公之十二年，韓宣子老，魏獻子爲國政。晉宗室祁氏、羊舌氏相惡，六卿誅之，盡取其邑爲十縣，六卿各令其子爲之大夫。獻子與趙簡子、中行文子、范獻子并爲晉卿。"
+          "quote_passage_ref": "data/corpus/shiji/044.json"
         }
       ],
       "attestations": [
@@ -46,7 +46,7 @@
               "chapter_id": "c-shiji-044-wei",
               "source_id": "s-shiji-044-wei",
               "paragraph_id": "c-shiji-044-wei:p008",
-              "quote": "晉頃公之十二年，韓宣子老，魏獻子爲國政。晉宗室祁氏、羊舌氏相惡，六卿誅之，盡取其邑爲十縣，六卿各令其子爲之大夫。獻子與趙簡子、中行文子、范獻子并爲晉卿。"
+              "quote_passage_ref": "data/corpus/shiji/044.json"
             }
           ]
         },
@@ -72,7 +72,7 @@
           "chapter_id": "c-shiji-044-wei",
           "source_id": "s-shiji-044-wei",
           "paragraph_id": "c-shiji-044-wei:p008",
-          "quote": "晉頃公之十二年，韓宣子老，魏獻子爲國政。晉宗室祁氏、羊舌氏相惡，六卿誅之，盡取其邑爲十縣，六卿各令其子爲之大夫。獻子與趙簡子、中行文子、范獻子并爲晉卿。"
+          "quote_passage_ref": "data/corpus/shiji/044.json"
         }
       ],
       "attestations": [
@@ -114,7 +114,6 @@
       "raw_count": 5,
       "duplicate_count": 0,
       "counting_policy": "independent_fixed_witness_occurrences",
-      "quote": "也。』賜之樂，三讓，然後受之。徙治安邑。魏絳卒，諡爲昭子。生魏嬴。嬴生魏獻子。",
       "paragraph_ids": [
         "c-shiji-044-wei:p006",
         "c-shiji-044-wei:p007",
@@ -177,7 +176,12 @@
       "book_id": "b-shiji-044",
       "chapter_id": "c-shiji-044-wei",
       "source_id": "s-shiji-044-wei",
-      "work_title": "史記"
+      "work_title": "史記",
+      "chapter_ref": "data/corpus/shiji/044.json",
+      "quote_span": [
+        116,
+        155
+      ]
     }
   ],
   "table_occurrences": [
@@ -185,7 +189,6 @@
       "table_id": "shiji-015",
       "cell_id": "shiji-015-r001-c03",
       "title": "《史記·六國年表》",
-      "quote": "獻子。衛出公輒後元年。",
       "year": {
         "era": "BCE",
         "value": 476,
@@ -208,7 +211,8 @@
       "book_id": "b-shiji-015",
       "chapter_id": "table-chapter-shiji-015",
       "source_id": "table-witness-shiji-015",
-      "source_revision": "2607002"
+      "source_revision": "2607002",
+      "quote_ref": "cell"
     }
   ],
   "sources": [
@@ -217,47 +221,14 @@
       "work_id": "w-shiji",
       "book_id": "b-shiji-044",
       "source_id": "s-shiji-044-wei",
-      "source": {
-        "title": "史記／卷044",
-        "provider": "維基文庫",
-        "url": "https://zh.wikisource.org/wiki/史記/卷044",
-        "permalink": "https://zh.wikisource.org/w/index.php?title=史記/卷044&oldid=7903606",
-        "revision_id": 7903606,
-        "accessed_on": "2026-10-09",
-        "extent": "70段正文；排除現代章節標題、斠勘空段與版權告示，只去除段落外緣空白。",
-        "image_verified": false,
-        "rights": "古代原文；數位轉錄依維基文庫CC BY-SA 4.0，保留署名及固定版本。",
-        "license_url": "https://creativecommons.org/licenses/by-sa/4.0/",
-        "normalization": {
-          "character_conversion": {},
-          "editorial_readings": [],
-          "extraction_note": "取得時HTML與固定修訂一致；現代分節標題不當古代正文，不收末尾現代版權告示。保留髙、僇、无等原字與引號。",
-          "note": "已讀全70段數位正文；未核古籍影像、可靠底本或現代研究，首輪不等於完成覆核。第62段[1]至[3]為數位註號，原樣保存但不是古代正文或史料陳述，未擷取現代註釋內容。"
-        }
-      }
+      "chapter_ref": "data/corpus/shiji/044.json"
     },
     {
       "chapter_id": "table-chapter-shiji-015",
       "work_id": "w-shiji",
       "book_id": "b-shiji-015",
       "source_id": "table-witness-shiji-015",
-      "source": {
-        "id": "table-witness-shiji-015",
-        "work_id": "w-shiji",
-        "book_id": "b-shiji-015",
-        "chapter_id": "table-chapter-shiji-015",
-        "url": "https://zh.wikisource.org/wiki/史記/卷015",
-        "revision_url": "https://zh.wikisource.org/w/index.php?title=史記/卷015&oldid=2607002",
-        "revision": "2607002",
-        "accessed": "2026-10-12",
-        "response_sha256": "eb0624a019e02c24ce90a40bfa24863f4020878062c6e2efea32355033be5559",
-        "edition": null,
-        "image_verified": false,
-        "rights": "古籍正文公有領域；維基文庫轉錄及編輯內容依 CC BY-SA 條款，署名維基文庫貢獻者。",
-        "rights_url": "https://zh.wikisource.org/wiki/Wikisource:版權信息",
-        "review_status": "agent_first_pass_named_entities",
-        "note": "完整數位表格結構匯入，未逐格學術覆核。未核讀印本影像，原印本頁碼未知。西元欄沿用此數位轉錄的編者對照，不是古籍原有西元紀年，也不引用其維基百科外連。"
-      }
+      "table_source_ref": "shiji-015"
     }
   ],
   "relations": [
@@ -272,7 +243,7 @@
           "chapter_id": "c-shiji-044-wei",
           "source_id": "s-shiji-044-wei",
           "paragraph_id": "c-shiji-044-wei:p006",
-          "quote": "魏絳事晉悼公。悼公三年，會諸侯。悼公弟楊干亂行，魏絳僇辱楊干。悼公怒曰：『合諸侯以爲榮，今辱吾弟！』將誅魏絳。或説悼公，悼公止。卒任魏絳政，使和戎、翟，戎、翟親附。悼公之十一年，曰：『自吾用魏絳，八年之中，九合諸侯，戎、翟和，子之力也。』賜之樂，三讓，然後受之。徙治安邑。魏絳卒，諡爲昭子。生魏嬴。嬴生魏獻子。"
+          "quote_passage_ref": "data/corpus/shiji/044.json"
         }
       ],
       "qualifiers": {
@@ -293,7 +264,7 @@
           "chapter_id": "c-shiji-044-wei",
           "source_id": "s-shiji-044-wei",
           "paragraph_id": "c-shiji-044-wei:p009",
-          "quote": "其後十四歳而孔子相魯。後四歳，趙簡子以晉陽之亂也，而與韓、魏共攻范、中行氏。魏獻子生魏侈。魏侈與趙鞅共攻范、中行氏。"
+          "quote_passage_ref": "data/corpus/shiji/044.json"
         }
       ],
       "qualifiers": {
@@ -326,7 +297,7 @@
           "chapter_id": "c-shiji-044-wei",
           "source_id": "s-shiji-044-wei",
           "paragraph_id": "c-shiji-044-wei:p006",
-          "quote": "魏絳事晉悼公。悼公三年，會諸侯。悼公弟楊干亂行，魏絳僇辱楊干。悼公怒曰：『合諸侯以爲榮，今辱吾弟！』將誅魏絳。或説悼公，悼公止。卒任魏絳政，使和戎、翟，戎、翟親附。悼公之十一年，曰：『自吾用魏絳，八年之中，九合諸侯，戎、翟和，子之力也。』賜之樂，三讓，然後受之。徙治安邑。魏絳卒，諡爲昭子。生魏嬴。嬴生魏獻子。"
+          "quote_passage_ref": "data/corpus/shiji/044.json"
         }
       ],
       "qualifiers": {
@@ -347,7 +318,7 @@
           "chapter_id": "c-shiji-044-wei",
           "source_id": "s-shiji-044-wei",
           "paragraph_id": "c-shiji-044-wei:p009",
-          "quote": "其後十四歳而孔子相魯。後四歳，趙簡子以晉陽之亂也，而與韓、魏共攻范、中行氏。魏獻子生魏侈。魏侈與趙鞅共攻范、中行氏。"
+          "quote_passage_ref": "data/corpus/shiji/044.json"
         }
       ],
       "qualifiers": {
@@ -371,8 +342,8 @@
           "chapter_id": "c-shiji-044-wei",
           "source_id": "s-shiji-044-wei",
           "paragraph_id": "c-shiji-044-wei:p006",
-          "quote": "魏絳事晉悼公。悼公三年，會諸侯。悼公弟楊干亂行，魏絳僇辱楊干。悼公怒曰：『合諸侯以爲榮，今辱吾弟！』將誅魏絳。或説悼公，悼公止。卒任魏絳政，使和戎、翟，戎、翟親附。悼公之十一年，曰：『自吾用魏絳，八年之中，九合諸侯，戎、翟和，子之力也。』賜之樂，三讓，然後受之。徙治安邑。魏絳卒，諡爲昭子。生魏嬴。嬴生魏獻子。",
-          "person_mention_id": "c-shiji-044-wei:m006-0151"
+          "person_mention_id": "c-shiji-044-wei:m006-0151",
+          "quote_passage_ref": "data/corpus/shiji/044.json"
         }
       ],
       "source_term": "嬴生魏獻子",

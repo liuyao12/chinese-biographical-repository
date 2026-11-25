@@ -21,7 +21,6 @@
       "raw_count": 3,
       "duplicate_count": 0,
       "counting_policy": "independent_fixed_witness_occurrences",
-      "quote": "廿三年，秦復予我河外及封陵爲和。哀王卒，子昭王立。",
       "paragraph_ids": [
         "c-shiji-044-wei:p051",
         "c-shiji-044-wei:p052",
@@ -65,7 +64,12 @@
       "book_id": "b-shiji-044",
       "chapter_id": "c-shiji-044-wei",
       "source_id": "s-shiji-044-wei",
-      "work_title": "史記"
+      "work_title": "史記",
+      "chapter_ref": "data/corpus/shiji/044.json",
+      "quote_span": [
+        0,
+        25
+      ]
     },
     {
       "number": 77,
@@ -76,7 +80,6 @@
       "raw_count": 2,
       "duplicate_count": 0,
       "counting_policy": "independent_fixed_witness_occurrences",
-      "quote": "魏公子無忌者，魏昭王子少子而魏安釐王異母弟也。昭王薨，安釐王即位，封公子為信陵君。是時范睢亡魏相秦，以怨魏齊故，秦兵圍大梁，破魏華陽下軍，走芒卯。魏王及公子患之。",
       "paragraph_ids": [
         "c-shiji-077-weigong:p001"
       ],
@@ -109,7 +112,12 @@
       "book_id": "b-shiji-077",
       "chapter_id": "c-shiji-077-weigong",
       "source_id": "s-shiji-077-weigong",
-      "work_title": "史記"
+      "work_title": "史記",
+      "chapter_ref": "data/corpus/shiji/077.json",
+      "quote_span": [
+        0,
+        81
+      ]
     },
     {
       "number": 79,
@@ -120,7 +128,6 @@
       "raw_count": 1,
       "duplicate_count": 0,
       "counting_policy": "independent_fixed_witness_occurrences",
-      "quote": "須賈為魏昭王使於齊，范睢從。留數月，未得報。齊襄王聞睢辯口，乃使人賜睢金十斤及牛酒，睢辭謝不敢受。須賈知之，大怒，以為睢持魏國陰事告齊，故得此饋，令睢受其牛酒，還其金。既歸，心怒睢，以告魏相。魏相，魏之諸公子，曰",
       "paragraph_ids": [
         "c-shiji-079-fancai:p002"
       ],
@@ -144,7 +151,12 @@
       "book_id": "b-shiji-079",
       "chapter_id": "c-shiji-079-fancai",
       "source_id": "s-shiji-079-fancai",
-      "work_title": "史記"
+      "work_title": "史記",
+      "chapter_ref": "data/corpus/shiji/079.json",
+      "quote_span": [
+        0,
+        106
+      ]
     },
     {
       "number": 80,
@@ -155,7 +167,6 @@
       "raw_count": 1,
       "duplicate_count": 0,
       "counting_policy": "independent_fixed_witness_occurrences",
-      "quote": "也。燕國小，辟遠，力不能制，於是屈身下士，先禮郭隗以招賢者。樂毅於是為魏昭王使於燕，燕王以客禮待之。樂毅辭讓，遂委質為臣，燕昭王以為亞卿，久之。",
       "paragraph_ids": [
         "c-shiji-080-leyi:p002"
       ],
@@ -179,7 +190,12 @@
       "book_id": "b-shiji-080",
       "chapter_id": "c-shiji-080-leyi",
       "source_id": "s-shiji-080-leyi",
-      "work_title": "史記"
+      "work_title": "史記",
+      "chapter_ref": "data/corpus/shiji/080.json",
+      "quote_span": [
+        57,
+        129
+      ]
     }
   ],
   "table_occurrences": [
@@ -187,7 +203,6 @@
       "table_id": "shiji-015",
       "cell_id": "shiji-015-r182-c03",
       "title": "《史記·六國年表》",
-      "quote": "魏昭王元年。秦尉錯來擊我襄。",
       "year": {
         "era": "BCE",
         "value": 295,
@@ -210,7 +225,8 @@
       "book_id": "b-shiji-015",
       "chapter_id": "table-chapter-shiji-015",
       "source_id": "table-witness-shiji-015",
-      "source_revision": "2607002"
+      "source_revision": "2607002",
+      "quote_ref": "cell"
     }
   ],
   "sources": [
@@ -219,132 +235,35 @@
       "work_id": "w-shiji",
       "book_id": "b-shiji-044",
       "source_id": "s-shiji-044-wei",
-      "source": {
-        "title": "史記／卷044",
-        "provider": "維基文庫",
-        "url": "https://zh.wikisource.org/wiki/史記/卷044",
-        "permalink": "https://zh.wikisource.org/w/index.php?title=史記/卷044&oldid=7903606",
-        "revision_id": 7903606,
-        "accessed_on": "2026-10-09",
-        "extent": "70段正文；排除現代章節標題、斠勘空段與版權告示，只去除段落外緣空白。",
-        "image_verified": false,
-        "rights": "古代原文；數位轉錄依維基文庫CC BY-SA 4.0，保留署名及固定版本。",
-        "license_url": "https://creativecommons.org/licenses/by-sa/4.0/",
-        "normalization": {
-          "character_conversion": {},
-          "editorial_readings": [],
-          "extraction_note": "取得時HTML與固定修訂一致；現代分節標題不當古代正文，不收末尾現代版權告示。保留髙、僇、无等原字與引號。",
-          "note": "已讀全70段數位正文；未核古籍影像、可靠底本或現代研究，首輪不等於完成覆核。第62段[1]至[3]為數位註號，原樣保存但不是古代正文或史料陳述，未擷取現代註釋內容。"
-        }
-      }
+      "chapter_ref": "data/corpus/shiji/044.json"
     },
     {
       "chapter_id": "c-shiji-077-weigong",
       "work_id": "w-shiji",
       "book_id": "b-shiji-077",
       "source_id": "s-shiji-077-weigong",
-      "source": {
-        "title": "史記／卷077",
-        "provider": "維基文庫",
-        "url": "https://zh.wikisource.org/wiki/史記/卷077",
-        "permalink": "https://zh.wikisource.org/w/index.php?title=史記/卷077&oldid=367917",
-        "revision_id": 367917,
-        "accessed_on": "2026-10-09",
-        "extent": "17段正文，自魏公子無忌至太史公論贊；排除人物導覽、索隱述贊及現代版權告示。",
-        "image_verified": false,
-        "rights": "古代原文；數位轉錄依維基文庫CC BY-SA 4.0，保留署名及固定版本。",
-        "license_url": "https://creativecommons.org/licenses/by-sa/4.0/",
-        "normalization": {
-          "character_conversion": {},
-          "editorial_readings": [],
-          "extraction_note": "固定HTML與取得時版本一致，只去外緣空白；未見括號改讀提示，為、釐、籣、埽等原字保留。",
-          "note": "全17段正文及姓名首輪已核讀；未核底本、影像或現代研究。"
-        }
-      }
+      "chapter_ref": "data/corpus/shiji/077.json"
     },
     {
       "chapter_id": "c-shiji-079-fancai",
       "work_id": "w-shiji",
       "book_id": "b-shiji-079",
       "source_id": "s-shiji-079-fancai",
-      "source": {
-        "title": "史記／卷079",
-        "provider": "維基文庫",
-        "url": "https://zh.wikisource.org/wiki/史記/卷079",
-        "permalink": "https://zh.wikisource.org/w/index.php?title=史記/卷079&oldid=2549307",
-        "revision_id": 2549307,
-        "accessed_on": "2026-10-09",
-        "extent": "35段正文，自范睢者至太史公論贊；排除人物導覽、索隱述贊及現代版權告示。",
-        "image_verified": false,
-        "rights": "古代原文；數位轉錄依維基文庫CC BY-SA 4.0，保留署名及固定版本。",
-        "license_url": "https://creativecommons.org/licenses/by-sa/4.0/",
-        "normalization": {
-          "character_conversion": {},
-          "editorial_readings": [
-            {
-              "paragraph_id": "c-shiji-079-fancai:p032",
-              "witness_form": "（止）［足］",
-              "body_reading": "止",
-              "note": "數位改讀提示另存，正文保留改讀前括號內文字，未核底本，不當已校定。"
-            },
-            {
-              "paragraph_id": "c-shiji-079-fancai:p032",
-              "witness_form": "（足）［止］",
-              "body_reading": "足",
-              "note": "數位改讀提示另存，正文保留改讀前括號內文字，未核底本，不當已校定。"
-            }
-          ],
-          "extraction_note": "固定HTML與取得時版本一致，只去外緣空白；第32段止／足兩項數位改讀提示分離，正文保留改讀前原語；睢、厀、檐、繆、甐等原字保留，上書dd引文按原序。",
-          "note": "全35段正文、HTML篇界及姓名首輪已核讀；未核底本影像或現代研究。"
-        }
-      }
+      "chapter_ref": "data/corpus/shiji/079.json"
     },
     {
       "chapter_id": "c-shiji-080-leyi",
       "work_id": "w-shiji",
       "book_id": "b-shiji-080",
       "source_id": "s-shiji-080-leyi",
-      "source": {
-        "title": "史記／卷080",
-        "provider": "維基文庫",
-        "url": "https://zh.wikisource.org/wiki/史記/卷080",
-        "permalink": "https://zh.wikisource.org/w/index.php?title=史記/卷080&oldid=2089316",
-        "revision_id": 2089316,
-        "accessed_on": "2026-10-09",
-        "extent": "20段正文，自樂毅者至太史公論述師承；HTML題頭與評論篇界已核，無索隱述贊混入。",
-        "image_verified": false,
-        "rights": "古代原文；數位轉錄依維基文庫CC BY-SA 4.0，保留署名及固定版本。",
-        "license_url": "https://creativecommons.org/licenses/by-sa/4.0/",
-        "normalization": {
-          "character_conversion": {},
-          "editorial_readings": [],
-          "extraction_note": "固定HTML與取得時版本一致，只去外緣空白；上書dd保持原序，異體不擅校。",
-          "note": "全20段正文、HTML篇界及姓名首輪已核讀；未核底本影像或現代研究。"
-        }
-      }
+      "chapter_ref": "data/corpus/shiji/080.json"
     },
     {
       "chapter_id": "table-chapter-shiji-015",
       "work_id": "w-shiji",
       "book_id": "b-shiji-015",
       "source_id": "table-witness-shiji-015",
-      "source": {
-        "id": "table-witness-shiji-015",
-        "work_id": "w-shiji",
-        "book_id": "b-shiji-015",
-        "chapter_id": "table-chapter-shiji-015",
-        "url": "https://zh.wikisource.org/wiki/史記/卷015",
-        "revision_url": "https://zh.wikisource.org/w/index.php?title=史記/卷015&oldid=2607002",
-        "revision": "2607002",
-        "accessed": "2026-10-12",
-        "response_sha256": "eb0624a019e02c24ce90a40bfa24863f4020878062c6e2efea32355033be5559",
-        "edition": null,
-        "image_verified": false,
-        "rights": "古籍正文公有領域；維基文庫轉錄及編輯內容依 CC BY-SA 條款，署名維基文庫貢獻者。",
-        "rights_url": "https://zh.wikisource.org/wiki/Wikisource:版權信息",
-        "review_status": "agent_first_pass_named_entities",
-        "note": "完整數位表格結構匯入，未逐格學術覆核。未核讀印本影像，原印本頁碼未知。西元欄沿用此數位轉錄的編者對照，不是古籍原有西元紀年，也不引用其維基百科外連。"
-      }
+      "table_source_ref": "shiji-015"
     }
   ],
   "relations": [
@@ -359,7 +278,7 @@
           "chapter_id": "c-shiji-044-wei",
           "source_id": "s-shiji-044-wei",
           "paragraph_id": "c-shiji-044-wei:p051",
-          "quote": "廿三年，秦復予我河外及封陵爲和。哀王卒，子昭王立。"
+          "quote_passage_ref": "data/corpus/shiji/044.json"
         }
       ],
       "qualifiers": {
@@ -380,7 +299,7 @@
           "chapter_id": "c-shiji-044-wei",
           "source_id": "s-shiji-044-wei",
           "paragraph_id": "c-shiji-044-wei:p055",
-          "quote": "十九年，昭王卒，子安釐王立。"
+          "quote_passage_ref": "data/corpus/shiji/044.json"
         }
       ],
       "qualifiers": {
@@ -401,7 +320,7 @@
           "chapter_id": "c-shiji-077-weigong",
           "source_id": "s-shiji-077-weigong",
           "paragraph_id": "c-shiji-077-weigong:p001",
-          "quote": "魏公子無忌者，魏昭王子少子而魏安釐王異母弟也。昭王薨，安釐王即位，封公子為信陵君。是時范睢亡魏相秦，以怨魏齊故，秦兵圍大梁，破魏華陽下軍，走芒卯。魏王及公子患之。"
+          "quote_passage_ref": "data/corpus/shiji/077.json"
         }
       ],
       "qualifiers": {
@@ -441,8 +360,8 @@
           "chapter_id": "c-shiji-044-wei",
           "source_id": "s-shiji-044-wei",
           "paragraph_id": "c-shiji-044-wei:p055",
-          "quote": "十九年，昭王卒，子安釐王立。",
-          "person_mention_id": "c-shiji-044-wei:m055-0004"
+          "person_mention_id": "c-shiji-044-wei:m055-0004",
+          "quote_passage_ref": "data/corpus/shiji/044.json"
         }
       ],
       "references": [
@@ -484,8 +403,8 @@
           "chapter_id": "c-shiji-077-weigong",
           "source_id": "s-shiji-077-weigong",
           "paragraph_id": "c-shiji-077-weigong:p001",
-          "quote": "魏公子無忌者，魏昭王子少子而魏安釐王異母弟也。昭王薨，安釐王即位，封公子為信陵君。是時范睢亡魏相秦，以怨魏齊故，秦兵圍大梁，破魏華陽下軍，走芒卯。魏王及公子患之。",
-          "person_mention_id": "c-shiji-077-weigong:m001-0023"
+          "person_mention_id": "c-shiji-077-weigong:m001-0023",
+          "quote_passage_ref": "data/corpus/shiji/077.json"
         }
       ],
       "references": [
@@ -552,7 +471,7 @@
           "chapter_id": "c-shiji-044-wei",
           "source_id": "s-shiji-044-wei",
           "paragraph_id": "c-shiji-044-wei:p051",
-          "quote": "廿三年，秦復予我河外及封陵爲和。哀王卒，子昭王立。"
+          "quote_passage_ref": "data/corpus/shiji/044.json"
         }
       ],
       "qualifiers": {
@@ -573,7 +492,7 @@
           "chapter_id": "c-shiji-044-wei",
           "source_id": "s-shiji-044-wei",
           "paragraph_id": "c-shiji-044-wei:p055",
-          "quote": "十九年，昭王卒，子安釐王立。"
+          "quote_passage_ref": "data/corpus/shiji/044.json"
         }
       ],
       "qualifiers": {
@@ -594,7 +513,7 @@
           "chapter_id": "c-shiji-077-weigong",
           "source_id": "s-shiji-077-weigong",
           "paragraph_id": "c-shiji-077-weigong:p001",
-          "quote": "魏公子無忌者，魏昭王子少子而魏安釐王異母弟也。昭王薨，安釐王即位，封公子為信陵君。是時范睢亡魏相秦，以怨魏齊故，秦兵圍大梁，破魏華陽下軍，走芒卯。魏王及公子患之。"
+          "quote_passage_ref": "data/corpus/shiji/077.json"
         }
       ],
       "qualifiers": {
@@ -627,8 +546,8 @@
           "chapter_id": "c-shiji-044-wei",
           "source_id": "s-shiji-044-wei",
           "paragraph_id": "c-shiji-044-wei:p055",
-          "quote": "十九年，昭王卒，子安釐王立。",
-          "person_mention_id": "c-shiji-044-wei:m055-0004"
+          "person_mention_id": "c-shiji-044-wei:m055-0004",
+          "quote_passage_ref": "data/corpus/shiji/044.json"
         }
       ],
       "source_term": "昭王卒",
@@ -648,8 +567,8 @@
             "chapter_id": "c-shiji-044-wei",
             "source_id": "s-shiji-044-wei",
             "paragraph_id": "c-shiji-044-wei:p055",
-            "quote": "十九年，昭王卒，子安釐王立。",
-            "person_mention_id": "c-shiji-044-wei:m055-0004"
+            "person_mention_id": "c-shiji-044-wei:m055-0004",
+            "quote_passage_ref": "data/corpus/shiji/044.json"
           }
         ],
         "references": [
@@ -687,8 +606,8 @@
           "chapter_id": "c-shiji-077-weigong",
           "source_id": "s-shiji-077-weigong",
           "paragraph_id": "c-shiji-077-weigong:p001",
-          "quote": "魏公子無忌者，魏昭王子少子而魏安釐王異母弟也。昭王薨，安釐王即位，封公子為信陵君。是時范睢亡魏相秦，以怨魏齊故，秦兵圍大梁，破魏華陽下軍，走芒卯。魏王及公子患之。",
-          "person_mention_id": "c-shiji-077-weigong:m001-0023"
+          "person_mention_id": "c-shiji-077-weigong:m001-0023",
+          "quote_passage_ref": "data/corpus/shiji/077.json"
         }
       ],
       "interpretation_note": "本段明記死亡實行，保留敘事原句；此前死亡願望、條件式與計畫不當實行，來源年份未明時不補生卒年份。",
@@ -707,8 +626,8 @@
             "chapter_id": "c-shiji-077-weigong",
             "source_id": "s-shiji-077-weigong",
             "paragraph_id": "c-shiji-077-weigong:p001",
-            "quote": "魏公子無忌者，魏昭王子少子而魏安釐王異母弟也。昭王薨，安釐王即位，封公子為信陵君。是時范睢亡魏相秦，以怨魏齊故，秦兵圍大梁，破魏華陽下軍，走芒卯。魏王及公子患之。",
-            "person_mention_id": "c-shiji-077-weigong:m001-0023"
+            "person_mention_id": "c-shiji-077-weigong:m001-0023",
+            "quote_passage_ref": "data/corpus/shiji/077.json"
           }
         ],
         "references": [

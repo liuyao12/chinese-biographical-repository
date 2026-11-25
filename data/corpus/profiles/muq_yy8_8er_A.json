@@ -24,7 +24,7 @@
           "chapter_id": "c-shiji-042-zheng",
           "source_id": "s-shiji-042-zheng",
           "paragraph_id": "c-shiji-042-zheng:p006",
-          "quote": "三十八年，北戎伐齊，齊使求救，鄭遣太子忽將兵救齊。齊釐公欲妻之，忽謝曰：「我小國，非齊敵也。」時祭仲與倶，勸使取之，曰：「君多内寵，太子無大援將不立，三公子皆君也。」所謂三公子者，太子忽，其弟突，次弟子亹也。"
+          "quote_passage_ref": "data/corpus/shiji/042.json"
         }
       ],
       "attestations": [
@@ -53,7 +53,7 @@
               "chapter_id": "c-shiji-042-zheng",
               "source_id": "s-shiji-042-zheng",
               "paragraph_id": "c-shiji-042-zheng:p007",
-              "quote": "四十三年，鄭莊公卒。初，祭仲甚有寵於莊公，莊公使爲卿；公使娶鄧女，生太子忽，故祭仲立之，是爲昭公。"
+              "quote_passage_ref": "data/corpus/shiji/042.json"
             }
           ]
         }
@@ -80,8 +80,8 @@
           "chapter_id": "c-shiji-042-zheng",
           "source_id": "s-shiji-042-zheng",
           "paragraph_id": "c-shiji-042-zheng:p008",
-          "quote": "莊公又娶宋雍氏女，生厲公突。雍氏有寵於宋。宋莊公聞祭仲之立忽，乃使人誘召祭仲而執之，曰：「不立突，將死。」亦執突以求賂焉。祭仲許宋，與宋盟。以突歸，立之。昭公忽聞祭仲以宋要立其弟突，九月（辛）［丁］亥，忽出奔衞。己亥，突至鄭，立，是爲厲公。",
-          "person_mention_id": "c-shiji-042-zheng:m008-0077"
+          "person_mention_id": "c-shiji-042-zheng:m008-0077",
+          "quote_passage_ref": "data/corpus/shiji/042.json"
         }
       ],
       "source_term": "忽出奔衞",
@@ -107,8 +107,8 @@
           "chapter_id": "c-shiji-042-zheng",
           "source_id": "s-shiji-042-zheng",
           "paragraph_id": "c-shiji-042-zheng:p011",
-          "quote": "昭公二年，自昭公爲太子時，父莊公欲以髙渠彌爲卿，太子忽惡之，莊公弗聽，卒用渠彌爲卿。及昭公卽位，懼其殺己，冬十月辛卯，渠彌與昭公出獵，射殺昭公於野。祭仲與渠彌不敢入厲公，乃更立昭公弟子亹爲君，是爲子亹也，無謚號。",
-          "person_mention_id": "c-shiji-042-zheng:m011-0000"
+          "person_mention_id": "c-shiji-042-zheng:m011-0000",
+          "quote_passage_ref": "data/corpus/shiji/042.json"
         }
       ],
       "source_term": "射殺昭公於野",
@@ -129,7 +129,6 @@
       "raw_count": 16,
       "duplicate_count": 0,
       "counting_policy": "independent_fixed_witness_occurrences",
-      "quote": "三十八年，北戎伐齊，齊使求救，鄭遣太子忽將兵救齊。齊釐公欲妻之，忽謝曰：「我小國，非齊敵也。」時祭仲與倶，勸使取之，曰：「君多内寵，太子無大援將不立，三公子皆君也。」所謂三公子者，太子忽，其弟突，次弟子亹也。",
       "paragraph_ids": [
         "c-shiji-042-zheng:p006",
         "c-shiji-042-zheng:p007",
@@ -292,7 +291,12 @@
       "book_id": "b-shiji-042",
       "chapter_id": "c-shiji-042-zheng",
       "source_id": "s-shiji-042-zheng",
-      "work_title": "史記"
+      "work_title": "史記",
+      "chapter_ref": "data/corpus/shiji/042.json",
+      "quote_span": [
+        0,
+        104
+      ]
     }
   ],
   "table_occurrences": [],
@@ -302,24 +306,7 @@
       "work_id": "w-shiji",
       "book_id": "b-shiji-042",
       "source_id": "s-shiji-042-zheng",
-      "source": {
-        "title": "史記／卷042",
-        "provider": "維基文庫",
-        "url": "https://zh.wikisource.org/wiki/史記/卷042",
-        "permalink": "https://zh.wikisource.org/w/index.php?title=史記/卷042&oldid=2016409",
-        "revision_id": 2016409,
-        "accessed_on": "2026-10-09",
-        "extent": "59段正文及1段分層索隱述贊；排除2個dd導覽，只去除段落外緣空白。",
-        "image_verified": false,
-        "rights": "古代原文；數位轉錄依維基文庫CC BY-SA 4.0，保留署名及固定版本。",
-        "license_url": "https://creativecommons.org/licenses/by-sa/4.0/",
-        "normalization": {
-          "character_conversion": {},
-          "editorial_readings": [],
-          "extraction_note": "固定修訂與取得時HTML一致；保留古代異體、九月（辛）［丁］亥等校勘符號及溉逐、掔羊、持兩端等疑讀，不擅選讀法。",
-          "note": "全60段數位正文已閱讀；未核古籍影像、可靠底本及現代研究。"
-        }
-      }
+      "chapter_ref": "data/corpus/shiji/042.json"
     }
   ],
   "relations": [
@@ -334,7 +321,7 @@
           "chapter_id": "c-shiji-042-zheng",
           "source_id": "s-shiji-042-zheng",
           "paragraph_id": "c-shiji-042-zheng:p011",
-          "quote": "昭公二年，自昭公爲太子時，父莊公欲以髙渠彌爲卿，太子忽惡之，莊公弗聽，卒用渠彌爲卿。及昭公卽位，懼其殺己，冬十月辛卯，渠彌與昭公出獵，射殺昭公於野。祭仲與渠彌不敢入厲公，乃更立昭公弟子亹爲君，是爲子亹也，無謚號。"
+          "quote_passage_ref": "data/corpus/shiji/042.json"
         }
       ],
       "qualifiers": {
@@ -355,7 +342,7 @@
           "chapter_id": "c-shiji-042-zheng",
           "source_id": "s-shiji-042-zheng",
           "paragraph_id": "c-shiji-042-zheng:p007",
-          "quote": "四十三年，鄭莊公卒。初，祭仲甚有寵於莊公，莊公使爲卿；公使娶鄧女，生太子忽，故祭仲立之，是爲昭公。"
+          "quote_passage_ref": "data/corpus/shiji/042.json"
         }
       ],
       "qualifiers": {
@@ -376,7 +363,7 @@
           "chapter_id": "c-shiji-042-zheng",
           "source_id": "s-shiji-042-zheng",
           "paragraph_id": "c-shiji-042-zheng:p006",
-          "quote": "三十八年，北戎伐齊，齊使求救，鄭遣太子忽將兵救齊。齊釐公欲妻之，忽謝曰：「我小國，非齊敵也。」時祭仲與倶，勸使取之，曰：「君多内寵，太子無大援將不立，三公子皆君也。」所謂三公子者，太子忽，其弟突，次弟子亹也。"
+          "quote_passage_ref": "data/corpus/shiji/042.json"
         }
       ],
       "qualifiers": {
@@ -397,7 +384,7 @@
           "chapter_id": "c-shiji-042-zheng",
           "source_id": "s-shiji-042-zheng",
           "paragraph_id": "c-shiji-042-zheng:p006",
-          "quote": "三十八年，北戎伐齊，齊使求救，鄭遣太子忽將兵救齊。齊釐公欲妻之，忽謝曰：「我小國，非齊敵也。」時祭仲與倶，勸使取之，曰：「君多内寵，太子無大援將不立，三公子皆君也。」所謂三公子者，太子忽，其弟突，次弟子亹也。"
+          "quote_passage_ref": "data/corpus/shiji/042.json"
         }
       ],
       "qualifiers": {
@@ -432,7 +419,7 @@
           "chapter_id": "c-shiji-042-zheng",
           "source_id": "s-shiji-042-zheng",
           "paragraph_id": "c-shiji-042-zheng:p011",
-          "quote": "昭公二年，自昭公爲太子時，父莊公欲以髙渠彌爲卿，太子忽惡之，莊公弗聽，卒用渠彌爲卿。及昭公卽位，懼其殺己，冬十月辛卯，渠彌與昭公出獵，射殺昭公於野。祭仲與渠彌不敢入厲公，乃更立昭公弟子亹爲君，是爲子亹也，無謚號。"
+          "quote_passage_ref": "data/corpus/shiji/042.json"
         }
       ],
       "qualifiers": {
@@ -453,7 +440,7 @@
           "chapter_id": "c-shiji-042-zheng",
           "source_id": "s-shiji-042-zheng",
           "paragraph_id": "c-shiji-042-zheng:p007",
-          "quote": "四十三年，鄭莊公卒。初，祭仲甚有寵於莊公，莊公使爲卿；公使娶鄧女，生太子忽，故祭仲立之，是爲昭公。"
+          "quote_passage_ref": "data/corpus/shiji/042.json"
         }
       ],
       "qualifiers": {
@@ -474,7 +461,7 @@
           "chapter_id": "c-shiji-042-zheng",
           "source_id": "s-shiji-042-zheng",
           "paragraph_id": "c-shiji-042-zheng:p006",
-          "quote": "三十八年，北戎伐齊，齊使求救，鄭遣太子忽將兵救齊。齊釐公欲妻之，忽謝曰：「我小國，非齊敵也。」時祭仲與倶，勸使取之，曰：「君多内寵，太子無大援將不立，三公子皆君也。」所謂三公子者，太子忽，其弟突，次弟子亹也。"
+          "quote_passage_ref": "data/corpus/shiji/042.json"
         }
       ],
       "qualifiers": {
@@ -495,7 +482,7 @@
           "chapter_id": "c-shiji-042-zheng",
           "source_id": "s-shiji-042-zheng",
           "paragraph_id": "c-shiji-042-zheng:p006",
-          "quote": "三十八年，北戎伐齊，齊使求救，鄭遣太子忽將兵救齊。齊釐公欲妻之，忽謝曰：「我小國，非齊敵也。」時祭仲與倶，勸使取之，曰：「君多内寵，太子無大援將不立，三公子皆君也。」所謂三公子者，太子忽，其弟突，次弟子亹也。"
+          "quote_passage_ref": "data/corpus/shiji/042.json"
         }
       ],
       "qualifiers": {
@@ -519,8 +506,8 @@
           "chapter_id": "c-shiji-042-zheng",
           "source_id": "s-shiji-042-zheng",
           "paragraph_id": "c-shiji-042-zheng:p011",
-          "quote": "昭公二年，自昭公爲太子時，父莊公欲以髙渠彌爲卿，太子忽惡之，莊公弗聽，卒用渠彌爲卿。及昭公卽位，懼其殺己，冬十月辛卯，渠彌與昭公出獵，射殺昭公於野。祭仲與渠彌不敢入厲公，乃更立昭公弟子亹爲君，是爲子亹也，無謚號。",
-          "person_mention_id": "c-shiji-042-zheng:m011-0000"
+          "person_mention_id": "c-shiji-042-zheng:m011-0000",
+          "quote_passage_ref": "data/corpus/shiji/042.json"
         }
       ],
       "source_term": "射殺昭公於野",
@@ -539,8 +526,8 @@
           "chapter_id": "c-shiji-042-zheng",
           "source_id": "s-shiji-042-zheng",
           "paragraph_id": "c-shiji-042-zheng:p007",
-          "quote": "四十三年，鄭莊公卒。初，祭仲甚有寵於莊公，莊公使爲卿；公使娶鄧女，生太子忽，故祭仲立之，是爲昭公。",
-          "person_mention_id": "c-shiji-042-zheng:m007-0034"
+          "person_mention_id": "c-shiji-042-zheng:m007-0034",
+          "quote_passage_ref": "data/corpus/shiji/042.json"
         }
       ],
       "source_term": "生太子忽",

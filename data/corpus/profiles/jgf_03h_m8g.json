@@ -21,7 +21,6 @@
       "raw_count": 3,
       "duplicate_count": 0,
       "counting_policy": "independent_fixed_witness_occurrences",
-      "quote": "漢興，呂娥姁為高祖正后，男為太子。及晚節色衰愛弛，而戚夫人有寵，其子如意幾代太子者數矣。及高祖崩，呂后夷戚氏，誅趙王，而高祖後宮唯獨無寵疏遠者得無恙。",
       "paragraph_ids": [
         "c-shiji-049-waiqi:p003",
         "c-shiji-049-waiqi:p008"
@@ -64,7 +63,12 @@
       "book_id": "b-shiji-049",
       "chapter_id": "c-shiji-049-waiqi",
       "source_id": "s-shiji-049-waiqi",
-      "work_title": "史記"
+      "work_title": "史記",
+      "chapter_ref": "data/corpus/shiji/049.json",
+      "quote_span": [
+        0,
+        75
+      ]
     }
   ],
   "table_occurrences": [],
@@ -74,24 +78,7 @@
       "work_id": "w-shiji",
       "book_id": "b-shiji-049",
       "source_id": "s-shiji-049-waiqi",
-      "source": {
-        "title": "史記／卷049",
-        "provider": "維基文庫",
-        "url": "https://zh.wikisource.org/wiki/史記/卷049",
-        "permalink": "https://zh.wikisource.org/w/index.php?title=史記/卷049&oldid=7903610",
-        "revision_id": 7903610,
-        "accessed_on": "2026-10-09",
-        "extent": "44段史文，前34段篇文，後10段自褚先生曰起為附載文字；數位分節欄題不是古文段落。",
-        "image_verified": false,
-        "rights": "古代原文；數位轉錄依維基文庫CC BY-SA 4.0，保留署名及固定版本。",
-        "license_url": "https://creativecommons.org/licenses/by-sa/4.0/",
-        "normalization": {
-          "character_conversion": {},
-          "editorial_readings": [],
-          "extraction_note": "固定修訂與取得時HTML相同，只去段落外緣空白；保留（寒）［暮］、［及尊］、（子）［一］及號日等數位見證原字與校勘字樣。",
-          "note": "全44段已讀並作明示人名首輪；未核底本、影像或現代研究。"
-        }
-      }
+      "chapter_ref": "data/corpus/shiji/049.json"
     }
   ],
   "relations": [],
@@ -117,8 +104,8 @@
           "chapter_id": "c-shiji-049-waiqi",
           "source_id": "s-shiji-049-waiqi",
           "paragraph_id": "c-shiji-049-waiqi:p003",
-          "quote": "漢興，呂娥姁為高祖正后，男為太子。及晚節色衰愛弛，而戚夫人有寵，其子如意幾代太子者數矣。及高祖崩，呂后夷戚氏，誅趙王，而高祖後宮唯獨無寵疏遠者得無恙。",
-          "person_mention_id": "c-shiji-049-waiqi:m003-0052"
+          "person_mention_id": "c-shiji-049-waiqi:m003-0052",
+          "quote_passage_ref": "data/corpus/shiji/049.json"
         }
       ],
       "source_term": "呂后夷戚氏",

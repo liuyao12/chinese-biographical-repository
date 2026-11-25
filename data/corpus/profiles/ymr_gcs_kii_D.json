@@ -21,7 +21,6 @@
       "raw_count": 5,
       "duplicate_count": 0,
       "counting_policy": "independent_fixed_witness_occurrences",
-      "quote": "熊嚴十年，卒。有子四人，長子伯霜，中子仲雪，次子叔堪，少子季徇。熊嚴卒，長子伯霜代立，是爲熊霜。",
       "paragraph_ids": [
         "c-shiji-040-chu:p008",
         "c-shiji-040-chu:p009"
@@ -82,7 +81,12 @@
       "book_id": "b-shiji-040",
       "chapter_id": "c-shiji-040-chu",
       "source_id": "s-shiji-040-chu",
-      "work_title": "史記"
+      "work_title": "史記",
+      "chapter_ref": "data/corpus/shiji/040.json",
+      "quote_span": [
+        0,
+        48
+      ]
     }
   ],
   "table_occurrences": [],
@@ -92,26 +96,7 @@
       "work_id": "w-shiji",
       "book_id": "b-shiji-040",
       "source_id": "s-shiji-040-chu",
-      "source": {
-        "title": "史記／卷040",
-        "provider": "維基文庫",
-        "url": "https://zh.wikisource.org/wiki/史記/卷040",
-        "permalink": "https://zh.wikisource.org/w/index.php?title=史記/卷040&oldid=8736796",
-        "revision_id": 8736796,
-        "accessed_on": "2026-10-09",
-        "extent": "96段正文及1段分層索隱述贊；排除2個dd導覽，去除段落外緣空白。",
-        "image_verified": false,
-        "rights": "古代原文；數位轉錄依維基文庫CC BY-SA 4.0，保留署名及固定版本。",
-        "license_url": "https://creativecommons.org/licenses/by-sa/4.0/",
-        "normalization": {
-          "character_conversion": {
-            "笔": "筆"
-          },
-          "editorial_readings": [],
-          "extraction_note": "固定修訂與取得時HTML一致；僅去除段落外緣空白，古代異體及校勘括號保留。 第70段笔轉筆，未將「西取筆秦」疑句自行校讀。",
-          "note": "全97段數位正文已核讀，人物標註與可靠底本、影像覆核尚未完成；不把數位轉錄當版本校定。"
-        }
-      }
+      "chapter_ref": "data/corpus/shiji/040.json"
     }
   ],
   "relations": [
@@ -126,7 +111,7 @@
           "chapter_id": "c-shiji-040-chu",
           "source_id": "s-shiji-040-chu",
           "paragraph_id": "c-shiji-040-chu:p008",
-          "quote": "熊嚴十年，卒。有子四人，長子伯霜，中子仲雪，次子叔堪，少子季徇。熊嚴卒，長子伯霜代立，是爲熊霜。"
+          "quote_passage_ref": "data/corpus/shiji/040.json"
         }
       ],
       "qualifiers": {
@@ -147,7 +132,7 @@
           "chapter_id": "c-shiji-040-chu",
           "source_id": "s-shiji-040-chu",
           "paragraph_id": "c-shiji-040-chu:p009",
-          "quote": "熊霜元年，周宣王初立。熊霜六年，卒，三弟爭立。仲雪死；叔堪亡，避難於濮；而少弟季徇立，是爲熊徇。熊徇十六年，鄭桓公初封於鄭。二十二年，熊徇卒，子熊咢立。熊咢九年，卒，子熊儀立，是爲若敖。"
+          "quote_passage_ref": "data/corpus/shiji/040.json"
         }
       ],
       "qualifiers": {
@@ -180,7 +165,7 @@
           "chapter_id": "c-shiji-040-chu",
           "source_id": "s-shiji-040-chu",
           "paragraph_id": "c-shiji-040-chu:p008",
-          "quote": "熊嚴十年，卒。有子四人，長子伯霜，中子仲雪，次子叔堪，少子季徇。熊嚴卒，長子伯霜代立，是爲熊霜。"
+          "quote_passage_ref": "data/corpus/shiji/040.json"
         }
       ],
       "qualifiers": {
@@ -201,7 +186,7 @@
           "chapter_id": "c-shiji-040-chu",
           "source_id": "s-shiji-040-chu",
           "paragraph_id": "c-shiji-040-chu:p009",
-          "quote": "熊霜元年，周宣王初立。熊霜六年，卒，三弟爭立。仲雪死；叔堪亡，避難於濮；而少弟季徇立，是爲熊徇。熊徇十六年，鄭桓公初封於鄭。二十二年，熊徇卒，子熊咢立。熊咢九年，卒，子熊儀立，是爲若敖。"
+          "quote_passage_ref": "data/corpus/shiji/040.json"
         }
       ],
       "qualifiers": {
@@ -225,8 +210,8 @@
           "chapter_id": "c-shiji-040-chu",
           "source_id": "s-shiji-040-chu",
           "paragraph_id": "c-shiji-040-chu:p009",
-          "quote": "熊霜元年，周宣王初立。熊霜六年，卒，三弟爭立。仲雪死；叔堪亡，避難於濮；而少弟季徇立，是爲熊徇。熊徇十六年，鄭桓公初封於鄭。二十二年，熊徇卒，子熊咢立。熊咢九年，卒，子熊儀立，是爲若敖。",
-          "person_mention_id": "c-shiji-040-chu:m009-0045"
+          "person_mention_id": "c-shiji-040-chu:m009-0045",
+          "quote_passage_ref": "data/corpus/shiji/040.json"
         }
       ],
       "source_term": "熊徇卒",

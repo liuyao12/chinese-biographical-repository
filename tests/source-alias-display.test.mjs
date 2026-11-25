@@ -1,3 +1,4 @@
+import {storedProfile} from './read-stored-profile.mjs';
 import test from 'node:test';
 import assert from 'node:assert/strict';
 import {readFileSync} from 'node:fs';
@@ -19,6 +20,6 @@ for(const full of [false,true]){
   const p={id:'synthetic',label:'甲乙',names:['公','子','臣'],name_components:[{surname:'甲',ming:'乙',zi:'子丙',xiaozhi:'子',additional_names:[],quote:'合成姓名依據'}]};const html=personCard(p,full);assert.equal(alias(html),'字 子丙 小字 子');assert(sourceNames(html).includes('公、子、臣'));
  });
  test(`real He Yan child preserves profile data and raw source names (${full})`,()=>{
-  const p=JSON.parse(readFileSync(root+'/data/corpus/profiles/0db_22c_332_*AA.json'));const before=JSON.stringify(p);assert.deepEqual(p.names,['男','子']);const html=personCard(p,full);assert.equal(alias(html),'');assert(sourceNames(html).includes('男、子'));assert(html.includes('五六'));assert.equal(JSON.stringify(p),before);
+  const p=storedProfile(JSON.parse(readFileSync(root+'/data/corpus/profiles/0db_22c_332_*AA.json')));const before=JSON.stringify(p);assert.deepEqual(p.names,['男','子']);const html=personCard(p,full);assert.equal(alias(html),'');assert(sourceNames(html).includes('男、子'));assert(html.includes('五六'));assert.equal(JSON.stringify(p),before);
  });
 }

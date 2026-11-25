@@ -27,7 +27,7 @@
           "chapter_id": "c-shiji-046-tian",
           "source_id": "s-shiji-046-tian",
           "paragraph_id": "c-shiji-046-tian:p021",
-          "quote": "田太公相齊宣公。宣公四十八年，取魯之城。明年，宣公與鄭人會西城。伐衞，取毋丘。宣公五十一年卒，田會自廩丘反。"
+          "quote_passage_ref": "data/corpus/shiji/046.json"
         }
       ],
       "attestations": [
@@ -69,7 +69,7 @@
           "chapter_id": "c-shiji-046-tian",
           "source_id": "s-shiji-046-tian",
           "paragraph_id": "c-shiji-046-tian:p023",
-          "quote": "三年，太公與魏文侯會濁澤，求爲諸侯。魏文侯乃使使言周天子及諸侯，請立齊相田和爲諸侯。周天子許之。康公之十九年，田和立爲齊侯，列於周室，紀元年。"
+          "quote_passage_ref": "data/corpus/shiji/046.json"
         }
       ],
       "attestations": [
@@ -93,7 +93,7 @@
               "chapter_id": "c-shiji-046-tian",
               "source_id": "s-shiji-046-tian",
               "paragraph_id": "c-shiji-046-tian:p023",
-              "quote": "三年，太公與魏文侯會濁澤，求爲諸侯。魏文侯乃使使言周天子及諸侯，請立齊相田和爲諸侯。周天子許之。康公之十九年，田和立爲齊侯，列於周室，紀元年。"
+              "quote_passage_ref": "data/corpus/shiji/046.json"
             }
           ]
         },
@@ -119,7 +119,6 @@
       "raw_count": 8,
       "duplicate_count": 0,
       "counting_policy": "independent_fixed_witness_occurrences",
-      "quote": "晉，毀黃城，圍陽狐。明年，伐魯、葛及安陵。明年，取魯之一城。莊子卒，子太公和立。",
       "paragraph_ids": [
         "c-shiji-046-tian:p020",
         "c-shiji-046-tian:p021",
@@ -210,7 +209,12 @@
       "book_id": "b-shiji-046",
       "chapter_id": "c-shiji-046-tian",
       "source_id": "s-shiji-046-tian",
-      "work_title": "史記"
+      "work_title": "史記",
+      "chapter_ref": "data/corpus/shiji/046.json",
+      "quote_span": [
+        16,
+        56
+      ]
     },
     {
       "number": 130,
@@ -221,7 +225,6 @@
       "raw_count": 1,
       "duplicate_count": 0,
       "counting_policy": "independent_fixed_witness_occurrences",
-      "quote": "完子避難，適齊為援，陰施五世，齊人歌之。成子得政，田和為侯。王建動心，乃遷于共。嘉威、宣能撥濁世而獨宗周，作田敬仲完世家第十六。",
       "paragraph_ids": [
         "c-shiji-130-taishigong:p058"
       ],
@@ -245,7 +248,12 @@
       "book_id": "b-shiji-130",
       "chapter_id": "c-shiji-130-taishigong",
       "source_id": "s-shiji130-taishigong",
-      "work_title": "史記"
+      "work_title": "史記",
+      "chapter_ref": "data/corpus/shiji/130.json",
+      "quote_span": [
+        0,
+        64
+      ]
     }
   ],
   "table_occurrences": [],
@@ -255,79 +263,21 @@
       "work_id": "w-shiji",
       "book_id": "b-shiji-046",
       "source_id": "s-shiji-046-tian",
-      "source": {
-        "title": "史記／卷046",
-        "provider": "維基文庫",
-        "url": "https://zh.wikisource.org/wiki/史記/卷046",
-        "permalink": "https://zh.wikisource.org/w/index.php?title=史記/卷046&oldid=2560838",
-        "revision_id": 2560838,
-        "accessed_on": "2026-10-09",
-        "extent": "55段正文（含太史公論贊）及1段索隱述贊，後者另標witness_appended_suoyin_zan；排除2個dd導覽及現代分節標題。",
-        "image_verified": false,
-        "rights": "古代原文；數位轉錄依維基文庫CC BY-SA 4.0，保留署名及固定版本。",
-        "license_url": "https://creativecommons.org/licenses/by-sa/4.0/",
-        "normalization": {
-          "character_conversion": {},
-          "editorial_readings": [],
-          "extraction_note": "取得時HTML與固定修訂一致，只去除段落外緣空白；保留［二］、（粟）［稟］、晏（孺子）［圉］、（帥）［師］、笔及称等數位見證原字，不暗改。",
-          "note": "已讀全56段數位文字並作明示人名首輪；未核可靠底本、影像或現代研究。"
-        }
-      }
+      "chapter_ref": "data/corpus/shiji/046.json"
     },
     {
       "chapter_id": "c-shiji-064-sima",
       "work_id": "w-shiji",
       "book_id": "b-shiji-064",
       "source_id": "s-shiji-064-sima",
-      "source": {
-        "title": "史記／卷064",
-        "provider": "維基文庫",
-        "url": "https://zh.wikisource.org/wiki/史記/卷064",
-        "permalink": "https://zh.wikisource.org/w/index.php?title=史記/卷064&oldid=7895410",
-        "revision_id": 7895410,
-        "accessed_on": "2026-10-09",
-        "extent": "4段正文，排除註釋版及2段導覽，無索隱述贊。",
-        "image_verified": false,
-        "rights": "古代原文；數位轉錄依維基文庫CC BY-SA 4.0，保留署名及固定版本。",
-        "license_url": "https://creativecommons.org/licenses/by-sa/4.0/",
-        "normalization": {
-          "character_conversion": {},
-          "editorial_readings": [
-            {
-              "paragraph_id": "c-shiji-064-sima:p001",
-              "witness_form": "馳三軍法何一作「軍中不馳，今使者馳，云何」",
-              "body_reading": "馳三軍法何",
-              "note": "一作為HTML variant-tooltip校勘提示，另存原字；未核底本，不作已校定。"
-            }
-          ],
-          "extraction_note": "取得時HTML與固定修訂一致，只去外緣空白並排除style與script；variant-tooltip另存編輯讀法，不混入正文。保留仆表、援枹、左駙、左驂等原字。",
-          "note": "全4段已核讀，未核可靠底本、影像或現代研究。"
-        }
-      }
+      "chapter_ref": "data/corpus/shiji/064.json"
     },
     {
       "chapter_id": "c-shiji-130-taishigong",
       "work_id": "w-shiji",
       "book_id": "b-shiji-130",
       "source_id": "s-shiji130-taishigong",
-      "source": {
-        "title": "史記／卷130",
-        "provider": "維基文庫",
-        "url": "https://zh.wikisource.org/wiki/史記/卷130",
-        "permalink": "https://zh.wikisource.org/w/index.php?title=史記/卷130&oldid=2609362",
-        "revision_id": 2609362,
-        "accessed_on": "2026-10-11",
-        "extent": "固定修訂全文143段，全部篇文。",
-        "image_verified": false,
-        "rights": "古代原文；數位轉錄依維基文庫CC BY-SA 4.0，保留署名及固定版本。",
-        "license_url": "https://creativecommons.org/licenses/by-sa/4.0/",
-        "normalization": {
-          "character_conversion": {},
-          "editorial_readings": [],
-          "extraction_note": "去header2及現代節標，移除維基引文縮排冒號，保留原字，未核影像。",
-          "note": "全文入庫不等於全部提及已標註；目錄段落仍待逐段處理。"
-        }
-      }
+      "chapter_ref": "data/corpus/shiji/130.json"
     }
   ],
   "relations": [
@@ -342,7 +292,7 @@
           "chapter_id": "c-shiji-046-tian",
           "source_id": "s-shiji-046-tian",
           "paragraph_id": "c-shiji-046-tian:p020",
-          "quote": "田莊子相齊宣公。宣公四十三年，伐晉，毀黃城，圍陽狐。明年，伐魯、葛及安陵。明年，取魯之一城。莊子卒，子太公和立。"
+          "quote_passage_ref": "data/corpus/shiji/046.json"
         }
       ],
       "qualifiers": {
@@ -363,7 +313,7 @@
           "chapter_id": "c-shiji-046-tian",
           "source_id": "s-shiji-046-tian",
           "paragraph_id": "c-shiji-046-tian:p024",
-          "quote": "齊侯太公和立二年，和卒，子桓公午立。桓公午五年，秦、魏攻韓，韓求救於齊。齊桓公召大臣而謀曰：「蚤救之孰與晩救之？」騶忌曰：「不若勿救。」段干朋曰：「不救，則韓且折而入於魏，不若救之。」田臣思曰：「過矣君之謀也！秦、魏攻韓、楚，趙必救之，是天以燕予齊也。」桓公曰：「善」。乃陰告韓使者而遣之。韓自以爲得齊之救，因與秦、魏戰。楚、趙聞之，果起兵而救之。齊因起兵襲燕國，取桑丘。"
+          "quote_passage_ref": "data/corpus/shiji/046.json"
         }
       ],
       "qualifiers": {
@@ -417,7 +367,7 @@
           "chapter_id": "c-shiji-046-tian",
           "source_id": "s-shiji-046-tian",
           "paragraph_id": "c-shiji-046-tian:p020",
-          "quote": "田莊子相齊宣公。宣公四十三年，伐晉，毀黃城，圍陽狐。明年，伐魯、葛及安陵。明年，取魯之一城。莊子卒，子太公和立。"
+          "quote_passage_ref": "data/corpus/shiji/046.json"
         }
       ],
       "qualifiers": {
@@ -438,7 +388,7 @@
           "chapter_id": "c-shiji-046-tian",
           "source_id": "s-shiji-046-tian",
           "paragraph_id": "c-shiji-046-tian:p024",
-          "quote": "齊侯太公和立二年，和卒，子桓公午立。桓公午五年，秦、魏攻韓，韓求救於齊。齊桓公召大臣而謀曰：「蚤救之孰與晩救之？」騶忌曰：「不若勿救。」段干朋曰：「不救，則韓且折而入於魏，不若救之。」田臣思曰：「過矣君之謀也！秦、魏攻韓、楚，趙必救之，是天以燕予齊也。」桓公曰：「善」。乃陰告韓使者而遣之。韓自以爲得齊之救，因與秦、魏戰。楚、趙聞之，果起兵而救之。齊因起兵襲燕國，取桑丘。"
+          "quote_passage_ref": "data/corpus/shiji/046.json"
         }
       ],
       "qualifiers": {
@@ -462,8 +412,8 @@
           "chapter_id": "c-shiji-046-tian",
           "source_id": "s-shiji-046-tian",
           "paragraph_id": "c-shiji-046-tian:p024",
-          "quote": "齊侯太公和立二年，和卒，子桓公午立。桓公午五年，秦、魏攻韓，韓求救於齊。齊桓公召大臣而謀曰：「蚤救之孰與晩救之？」騶忌曰：「不若勿救。」段干朋曰：「不救，則韓且折而入於魏，不若救之。」田臣思曰：「過矣君之謀也！秦、魏攻韓、楚，趙必救之，是天以燕予齊也。」桓公曰：「善」。乃陰告韓使者而遣之。韓自以爲得齊之救，因與秦、魏戰。楚、趙聞之，果起兵而救之。齊因起兵襲燕國，取桑丘。",
-          "person_mention_id": "c-shiji-046-tian:m024-0009"
+          "person_mention_id": "c-shiji-046-tian:m024-0009",
+          "quote_passage_ref": "data/corpus/shiji/046.json"
         }
       ],
       "source_term": "和卒",
