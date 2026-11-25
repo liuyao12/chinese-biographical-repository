@@ -168,6 +168,16 @@ def _direction(p, subjects, objects, term):
                             and (o['surface'] == '其' and '其為兄子及子作名字' in t[:a]
                                  or o['surface'] == '臣' and '臣' in t[:a] and '云：「' not in t[o['end']:a]))):
                     return True
+                if (hit[0] == '弟子' and s['start'] == b
+                        and o['end'] + 2 < a and t[o['end']] == '弟' and t[a - 1] == '及'
+                        and term == t[o['start']:s['end']]):
+                    brother = t[o['end'] + 1:a - 1]
+                    if (re.fullmatch(r'[^，。；：、曰云也]{1,12}', brother)
+                            and any(m.get('kind') == 'person' and m.get('surface') == brother
+                                    and m.get('start') == o['end'] + 1 and m.get('end') == a - 1
+                                    and m.get('person_id') not in (None, s['person_id'], o['person_id'])
+                                    for m in p['mentions'])):
+                        return True
             # Third-person biography with an earlier explicitly named subject
             # resumes after a quotation; require the named uncle before and
             # after the child, and an explicit personal-name opening sentence.

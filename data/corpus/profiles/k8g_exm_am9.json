@@ -7,7 +7,8 @@
   "review": "ai_provisional",
   "names": [
     "趙染",
-    "染"
+    "染",
+    "趙冉"
   ],
   "titles": [],
   "addresses": [],
@@ -90,6 +91,41 @@
       "chapter_id": "c-jinshu-060-suochen",
       "source_id": "s-jinshu-060-suochen-ws2413335",
       "work_title": "晉書"
+    },
+    {
+      "number": 62,
+      "category": "",
+      "title": "晉書卷六十二·劉琨",
+      "paragraph_id": "c-jinshu-062-liukun:p011",
+      "count": 1,
+      "raw_count": 1,
+      "duplicate_count": 0,
+      "counting_policy": "independent_fixed_witness_occurrences",
+      "quote": "及麹允敗劉曜，斬趙冉，琨又表曰：",
+      "paragraph_ids": [
+        "c-jinshu-062-liukun:p011"
+      ],
+      "mention_ids": [
+        "c-jinshu-062-liukun:p011:m0008"
+      ],
+      "mention_paragraph_ids": {
+        "c-jinshu-062-liukun:p011:m0008": "c-jinshu-062-liukun:p011"
+      },
+      "mention_id": "c-jinshu-062-liukun:p011:m0008",
+      "occurrence_groups": [
+        {
+          "canonical_mention_id": "c-jinshu-062-liukun:p011:m0008",
+          "mention_ids": [
+            "c-jinshu-062-liukun:p011:m0008"
+          ],
+          "kind": "paragraph"
+        }
+      ],
+      "work_id": "w-jinshu",
+      "book_id": "b-jinshu-062",
+      "chapter_id": "c-jinshu-062-liukun",
+      "source_id": "s-jinshu-062-liukun-ws2629226",
+      "work_title": "晉書"
     }
   ],
   "table_occurrences": [],
@@ -145,6 +181,32 @@
           "source-evidence/jin060-roll/volume-reading.json"
         ]
       }
+    },
+    {
+      "chapter_id": "c-jinshu-062-liukun",
+      "work_id": "w-jinshu",
+      "book_id": "b-jinshu-062",
+      "source_id": "s-jinshu-062-liukun-ws2629226",
+      "source": {
+        "title": "晉書卷六十二·劉琨",
+        "provider": "Wikisource",
+        "permalink": "https://zh.wikisource.org/w/index.php?oldid=2629226",
+        "url": "https://zh.wikisource.org/w/index.php?oldid=2629226",
+        "revision_id": 2629226,
+        "edition": "維基文庫固定修訂",
+        "accessed_on": "2026-11-22",
+        "review_status": "text_checked",
+        "image_verified": false,
+        "rights": "古代原文；數位轉錄依維基文庫授權。",
+        "license_url": "https://creativecommons.org/licenses/by-sa/4.0/",
+        "extent": "晉書卷六十二·劉琨",
+        "text_scope": "complete_biography_unit",
+        "raw_path": "source-evidence/jin062-roll/ws2629226.wikitext",
+        "raw_file_sha256": "cdb75f1a3d5f12219a75831e0c8c7cfc202c1edf76086c07267a40f7251f3a7b",
+        "collation_witnesses": [
+          "source-evidence/jin062-roll/volume-reading.json"
+        ]
+      }
     }
   ],
   "relations": [],
@@ -153,12 +215,58 @@
   },
   "dates": [],
   "name_components": [],
+  "source_reading_cases": [
+    {
+      "id": "c-jinshu-062-liukun:source_review11-0",
+      "kind": "source_review",
+      "person_id": "k8g_exm_am9",
+      "source_quote": "及麹允敗劉曜，斬趙冉",
+      "reading": "愍帝紀趙冉中流矢而死；索綝傳趙染奔逃另事，帝紀附名字校記。",
+      "note": "愍帝紀趙冉中流矢而死；索綝傳趙染奔逃另事，帝紀附名字校記。",
+      "paragraph_id": "c-jinshu-062-liukun:p011",
+      "start_codepoint": 0,
+      "end_codepoint": 10,
+      "human_reviewed": false,
+      "chapter_id": "c-jinshu-062-liukun",
+      "source_id": "s-jinshu-062-liukun-ws2629226"
+    }
+  ],
   "person_ids": [
     "k8g_exm_am9"
   ],
   "preferred_relations": [],
   "age_assertions": [],
-  "life_events": [],
+  "life_events": [
+    {
+      "id": "le-jin062-zhaoran-death",
+      "person_id": "k8g_exm_am9",
+      "event_type": "death",
+      "source_term": "斬趙冉",
+      "source_anchor": {
+        "paragraph_id": "c-jinshu-062-liukun:p011",
+        "start": 7,
+        "end": 10,
+        "surface": "斬趙冉"
+      },
+      "date_expression": null,
+      "evidence": [
+        {
+          "work_id": "w-jinshu",
+          "book_id": "b-jinshu-062",
+          "chapter_id": "c-jinshu-062-liukun",
+          "source_id": "s-jinshu-062-liukun-ws2629226",
+          "paragraph_id": "c-jinshu-062-liukun:p011",
+          "quote": "及麹允敗劉曜，斬趙冉，琨又表曰：",
+          "person_mention_id": "c-jinshu-062-liukun:p011:m0008"
+        }
+      ],
+      "status": "source_attested",
+      "interpretation_note": "按同段人物與次第核所屬卒事。",
+      "reviewer": "Codex（AI代理）",
+      "model": null,
+      "human_reviewed": false
+    }
+  ],
   "life_event_date_decisions": [],
   "selected_life_event_dates": []
 }

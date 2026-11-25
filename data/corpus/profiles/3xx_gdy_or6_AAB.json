@@ -260,6 +260,41 @@
     {
       "number": 69,
       "category": "",
+      "title": "晉書卷六十九·劉隗",
+      "paragraph_id": "c-jinshu-069-liuwei:p003",
+      "count": 1,
+      "raw_count": 1,
+      "duplicate_count": 0,
+      "counting_policy": "independent_fixed_witness_occurrences",
+      "quote": "晉國既建，拜御史中丞。周嵩嫁女，門生斷道解廬，斫傷二人，建康左尉赴變，又被斫。隗劾嵩兄顗曰：「顗幸荷殊寵，列位上僚，當崇明憲典，協和上下，刑於左右，以禦於家邦。而乃縱肆小人，群為凶害，公於廣都之中白日刃尉，遠近洶嚇，百姓喧華，",
+      "paragraph_ids": [
+        "c-jinshu-069-liuwei:p003"
+      ],
+      "mention_ids": [
+        "c-jinshu-069-liuwei:p003:m0011"
+      ],
+      "mention_paragraph_ids": {
+        "c-jinshu-069-liuwei:p003:m0011": "c-jinshu-069-liuwei:p003"
+      },
+      "mention_id": "c-jinshu-069-liuwei:p003:m0011",
+      "occurrence_groups": [
+        {
+          "canonical_mention_id": "c-jinshu-069-liuwei:p003:m0011",
+          "mention_ids": [
+            "c-jinshu-069-liuwei:p003:m0011"
+          ],
+          "kind": "paragraph"
+        }
+      ],
+      "work_id": "w-jinshu",
+      "book_id": "b-jinshu-069",
+      "chapter_id": "c-jinshu-069-liuwei",
+      "source_id": "s-jinshu-069-liuwei-ws2012453",
+      "work_title": "晉書"
+    },
+    {
+      "number": 69,
+      "category": "",
       "title": "周顗及附子閔",
       "paragraph_id": "c-jinshu-069-zhouyi:p006",
       "count": 3,
@@ -371,6 +406,32 @@
           "omitted_digital_paratext": []
         },
         "extent": "周浚及嵩、謨、馥完整選定單元；固定見證25段4069字，止於成公簡前，不是卷六十一全卷。"
+      }
+    },
+    {
+      "chapter_id": "c-jinshu-069-liuwei",
+      "work_id": "w-jinshu",
+      "book_id": "b-jinshu-069",
+      "source_id": "s-jinshu-069-liuwei-ws2012453",
+      "source": {
+        "title": "晉書卷六十九·劉隗",
+        "provider": "Wikisource",
+        "permalink": "https://zh.wikisource.org/w/index.php?oldid=2012453",
+        "url": "https://zh.wikisource.org/w/index.php?oldid=2012453",
+        "revision_id": 2012453,
+        "edition": "維基文庫固定修訂",
+        "accessed_on": "2026-11-22",
+        "review_status": "text_checked",
+        "image_verified": false,
+        "rights": "古代原文；數位轉錄依維基文庫授權。",
+        "license_url": "https://creativecommons.org/licenses/by-sa/4.0/",
+        "extent": "晉書卷六十九·劉隗",
+        "text_scope": "complete_biography_unit",
+        "raw_path": "source-evidence/jin069-roll/ws2012453.wikitext",
+        "raw_file_sha256": "c1e20b58e336495080becb68c3823ada28de1d6cfd202a74c22e053615cc9adf",
+        "collation_witnesses": [
+          "source-evidence/jin069-roll/volume-reading.json"
+        ]
       }
     },
     {
@@ -519,7 +580,12 @@
               "end_anchor": "恬、頤並歷卿守。琳少子文，驃騎諮議參軍。"
             }
           ]
-        }
+        },
+        "raw_path": "source-evidence/jin069-roll/ws2012453.wikitext",
+        "raw_file_sha256": "c1e20b58e336495080becb68c3823ada28de1d6cfd202a74c22e053615cc9adf",
+        "collation_witnesses": [
+          "source-evidence/jin069-roll/volume-reading.json"
+        ]
       }
     },
     {
@@ -606,6 +672,32 @@
       "reviewer": "Codex（AI代理）",
       "human_reviewed": false,
       "model": null
+    },
+    {
+      "id": "a-jin069-zhousong-elder-brother",
+      "subject_person_id": "3xx_gdy_or6_AAB",
+      "object_person_id": "3xx_gdy_or6_AAA",
+      "predicate": "brother",
+      "qualifiers": {
+        "source_term": "嵩兄顗"
+      },
+      "evidence": [
+        {
+          "work_id": "w-jinshu",
+          "book_id": "b-jinshu-069",
+          "chapter_id": "c-jinshu-069-liuwei",
+          "source_id": "s-jinshu-069-liuwei-ws2012453",
+          "paragraph_id": "c-jinshu-069-liuwei:p003",
+          "quote": "晉國既建，拜御史中丞。周嵩嫁女，門生斷道解廬，斫傷二人，建康左尉赴變，又被斫。隗劾嵩兄顗曰：「顗幸荷殊寵，列位上僚，當崇明憲典，協和上下，刑於左右，以禦於家邦。而乃縱肆小人，群為凶害，公於廣都之中白日刃尉，遠近洶嚇，百姓喧華，虧損風望，漸不可長。既無大臣檢禦之節，不可對揚休命。宜加貶黜，以肅其違。」顗坐免官。",
+          "subject_person_mention_id": "c-jinshu-069-liuwei:p003:m0011",
+          "object_person_mention_id": "c-jinshu-069-liuwei:p003:m0043"
+        }
+      ],
+      "status": "source_attested",
+      "interpretation_note": "嫁女是周嵩的事；受劾的是兄顗。",
+      "reviewer": "Codex（AI代理）",
+      "model": null,
+      "human_reviewed": false
     },
     {
       "id": "a-jin069-zhouyi-07",
@@ -725,6 +817,32 @@
       "reviewer": "Codex（AI代理）",
       "human_reviewed": false,
       "model": null
+    },
+    {
+      "id": "a-jin069-zhousong-elder-brother",
+      "subject_person_id": "3xx_gdy_or6_AAB",
+      "object_person_id": "3xx_gdy_or6_AAA",
+      "predicate": "brother",
+      "qualifiers": {
+        "source_term": "嵩兄顗"
+      },
+      "evidence": [
+        {
+          "work_id": "w-jinshu",
+          "book_id": "b-jinshu-069",
+          "chapter_id": "c-jinshu-069-liuwei",
+          "source_id": "s-jinshu-069-liuwei-ws2012453",
+          "paragraph_id": "c-jinshu-069-liuwei:p003",
+          "quote": "晉國既建，拜御史中丞。周嵩嫁女，門生斷道解廬，斫傷二人，建康左尉赴變，又被斫。隗劾嵩兄顗曰：「顗幸荷殊寵，列位上僚，當崇明憲典，協和上下，刑於左右，以禦於家邦。而乃縱肆小人，群為凶害，公於廣都之中白日刃尉，遠近洶嚇，百姓喧華，虧損風望，漸不可長。既無大臣檢禦之節，不可對揚休命。宜加貶黜，以肅其違。」顗坐免官。",
+          "subject_person_mention_id": "c-jinshu-069-liuwei:p003:m0011",
+          "object_person_mention_id": "c-jinshu-069-liuwei:p003:m0043"
+        }
+      ],
+      "status": "source_attested",
+      "interpretation_note": "嫁女是周嵩的事；受劾的是兄顗。",
+      "reviewer": "Codex（AI代理）",
+      "model": null,
+      "human_reviewed": false
     },
     {
       "id": "a-jin069-zhouyi-07",

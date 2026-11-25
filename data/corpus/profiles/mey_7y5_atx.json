@@ -48,6 +48,41 @@
       "work_title": "三國志"
     },
     {
+      "number": 68,
+      "category": "",
+      "title": "晉書卷六十八·賀循",
+      "paragraph_id": "c-jinshu-068-hexun:p003",
+      "count": 1,
+      "raw_count": 1,
+      "duplicate_count": 0,
+      "counting_policy": "independent_fixed_witness_occurrences",
+      "quote": "可用，敏竟不敢逼。是時州內豪傑皆見維縶，或有老疾，就加秩命，惟循與吳郡硃誕不豫其事。及敏破，征東將軍周馥上循領會稽相，尋除吳國內史，公車征賢良，皆不就。",
+      "paragraph_ids": [
+        "c-jinshu-068-hexun:p003"
+      ],
+      "mention_ids": [
+        "c-jinshu-068-hexun:p003:m0078"
+      ],
+      "mention_paragraph_ids": {
+        "c-jinshu-068-hexun:p003:m0078": "c-jinshu-068-hexun:p003"
+      },
+      "mention_id": "c-jinshu-068-hexun:p003:m0078",
+      "occurrence_groups": [
+        {
+          "canonical_mention_id": "c-jinshu-068-hexun:p003:m0078",
+          "mention_ids": [
+            "c-jinshu-068-hexun:p003:m0078"
+          ],
+          "kind": "paragraph"
+        }
+      ],
+      "work_id": "w-jinshu",
+      "book_id": "b-jinshu-068",
+      "chapter_id": "c-jinshu-068-hexun",
+      "source_id": "s-jinshu-068-hexun-ws2581578",
+      "work_title": "晉書"
+    },
+    {
       "number": 76,
       "category": "",
       "title": "顧衆傳",
@@ -85,6 +120,32 @@
   ],
   "table_occurrences": [],
   "sources": [
+    {
+      "chapter_id": "c-jinshu-068-hexun",
+      "work_id": "w-jinshu",
+      "book_id": "b-jinshu-068",
+      "source_id": "s-jinshu-068-hexun-ws2581578",
+      "source": {
+        "title": "晉書卷六十八·賀循",
+        "provider": "Wikisource",
+        "permalink": "https://zh.wikisource.org/w/index.php?oldid=2581578",
+        "url": "https://zh.wikisource.org/w/index.php?oldid=2581578",
+        "revision_id": 2581578,
+        "edition": "維基文庫固定修訂",
+        "accessed_on": "2026-11-22",
+        "review_status": "text_checked",
+        "image_verified": false,
+        "rights": "古代原文；數位轉錄依維基文庫授權。",
+        "license_url": "https://creativecommons.org/licenses/by-sa/4.0/",
+        "extent": "晉書卷六十八·賀循",
+        "text_scope": "complete_biography_unit",
+        "raw_path": "source-evidence/jin068-roll/ws2581578.wikitext",
+        "raw_file_sha256": "51c836e14087ecf3b0f6577aae470c286607c067dd0331e306b5a3c42f3d10dc",
+        "collation_witnesses": [
+          "source-evidence/jin068-roll/volume-reading.json"
+        ]
+      }
+    },
     {
       "chapter_id": "c-jinshu-076-guzhong",
       "work_id": "w-jinshu",
@@ -142,6 +203,22 @@
   },
   "dates": [],
   "name_components": [],
+  "source_reading_cases": [
+    {
+      "id": "c-jinshu-068-hexun:identity3-73",
+      "kind": "identity",
+      "person_id": "mey_7y5_atx",
+      "source_quote": "惟循與吳郡硃誕不豫其事",
+      "reading": "採顧衆傳與吳書裴注的吳郡硃誕身份，與孫惠致書的候選照原區分。",
+      "note": "採顧衆傳與吳書裴注的吳郡硃誕身份，與孫惠致書的候選照原區分。",
+      "paragraph_id": "c-jinshu-068-hexun:p003",
+      "start_codepoint": 73,
+      "end_codepoint": 84,
+      "human_reviewed": false,
+      "chapter_id": "c-jinshu-068-hexun",
+      "source_id": "s-jinshu-068-hexun-ws2581578"
+    }
+  ],
   "person_ids": [
     "mey_7y5_atx"
   ],

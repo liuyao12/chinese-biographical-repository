@@ -10,7 +10,8 @@
     "武悼楊皇后",
     "芷",
     "季蘭",
-    "男胤"
+    "男胤",
+    "楊悼后"
   ],
   "titles": [],
   "addresses": [],
@@ -111,6 +112,41 @@
       "chapter_id": "c-jinshu-044-shijian",
       "source_id": "s-jinshu-044-shijian",
       "work_title": "晉書"
+    },
+    {
+      "number": 64,
+      "category": "",
+      "title": "晉書卷六十四·武帝諸子序",
+      "paragraph_id": "c-jinshu-064-wudi-sons-intro:p001",
+      "count": 1,
+      "raw_count": 1,
+      "duplicate_count": 0,
+      "counting_policy": "independent_fixed_witness_occurrences",
+      "quote": "美人生清河康王遐。諸姬生汝陰哀王謨。程才人生成都王穎。王才人生孝懷帝。楊悼后生渤海殤王恢。餘八子不顯母氏，並早夭，又無封國及追諡，今並略之。其瑋、乂、穎自有傳。",
+      "paragraph_ids": [
+        "c-jinshu-064-wudi-sons-intro:p001"
+      ],
+      "mention_ids": [
+        "c-jinshu-064-wudi-sons-intro:p001:m0147"
+      ],
+      "mention_paragraph_ids": {
+        "c-jinshu-064-wudi-sons-intro:p001:m0147": "c-jinshu-064-wudi-sons-intro:p001"
+      },
+      "mention_id": "c-jinshu-064-wudi-sons-intro:p001:m0147",
+      "occurrence_groups": [
+        {
+          "canonical_mention_id": "c-jinshu-064-wudi-sons-intro:p001:m0147",
+          "mention_ids": [
+            "c-jinshu-064-wudi-sons-intro:p001:m0147"
+          ],
+          "kind": "paragraph"
+        }
+      ],
+      "work_id": "w-jinshu",
+      "book_id": "b-jinshu-064",
+      "chapter_id": "c-jinshu-064-wudi-sons-intro",
+      "source_id": "s-jinshu-064-wudi-sons-intro-ws2622004",
+      "work_title": "晉書"
     }
   ],
   "table_occurrences": [],
@@ -163,6 +199,32 @@
         "raw_file_sha256": "09742e651b479fea881fd24c7734451de2b78b9f0410adda36ba210c31a0b5c8",
         "collation_witnesses": [
           "source-evidence/jin044-shijian/reading.json"
+        ]
+      }
+    },
+    {
+      "chapter_id": "c-jinshu-064-wudi-sons-intro",
+      "work_id": "w-jinshu",
+      "book_id": "b-jinshu-064",
+      "source_id": "s-jinshu-064-wudi-sons-intro-ws2622004",
+      "source": {
+        "title": "晉書卷六十四·武帝諸子序",
+        "provider": "Wikisource",
+        "permalink": "https://zh.wikisource.org/w/index.php?oldid=2622004",
+        "url": "https://zh.wikisource.org/w/index.php?oldid=2622004",
+        "revision_id": 2622004,
+        "edition": "維基文庫固定修訂",
+        "accessed_on": "2026-11-22",
+        "review_status": "text_checked",
+        "image_verified": false,
+        "rights": "古代原文；數位轉錄依維基文庫授權。",
+        "license_url": "https://creativecommons.org/licenses/by-sa/4.0/",
+        "extent": "晉書卷六十四·武帝諸子序",
+        "text_scope": "partial_chapter",
+        "raw_path": "source-evidence/jin064-roll/ws2622004.wikitext",
+        "raw_file_sha256": "b4c389968a1af2d99c2a6ad4a8afa3e6a4706f845194c0ce283f41927afae31f",
+        "collation_witnesses": [
+          "source-evidence/jin064-roll/volume-reading.json"
         ]
       }
     }

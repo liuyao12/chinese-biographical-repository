@@ -751,6 +751,51 @@
       "work_title": "晉書"
     },
     {
+      "number": 69,
+      "category": "",
+      "title": "晉書卷六十九·劉波",
+      "paragraph_id": "c-jinshu-069-liubo:p001",
+      "count": 2,
+      "raw_count": 2,
+      "duplicate_count": 0,
+      "counting_policy": "independent_fixed_witness_occurrences",
+      "quote": "內史，領五千人鎮石頭。壽陽平，除尚書左丞，不拜，轉冠軍將軍、南郡相。時苻堅弟融圍雍州刺史硃序于襄陽，波率眾八千救之，以敵強不敢進，序竟陷沒。波以畏懦免官。後復以波為冠軍將軍，累遷散騎常侍。",
+      "paragraph_ids": [
+        "c-jinshu-069-liubo:p001",
+        "c-jinshu-069-liubo:p002"
+      ],
+      "mention_ids": [
+        "c-jinshu-069-liubo:p001:m0111",
+        "c-jinshu-069-liubo:p002:m0000"
+      ],
+      "mention_paragraph_ids": {
+        "c-jinshu-069-liubo:p001:m0111": "c-jinshu-069-liubo:p001",
+        "c-jinshu-069-liubo:p002:m0000": "c-jinshu-069-liubo:p002"
+      },
+      "mention_id": "c-jinshu-069-liubo:p001:m0111",
+      "occurrence_groups": [
+        {
+          "canonical_mention_id": "c-jinshu-069-liubo:p001:m0111",
+          "mention_ids": [
+            "c-jinshu-069-liubo:p001:m0111"
+          ],
+          "kind": "paragraph"
+        },
+        {
+          "canonical_mention_id": "c-jinshu-069-liubo:p002:m0000",
+          "mention_ids": [
+            "c-jinshu-069-liubo:p002:m0000"
+          ],
+          "kind": "paragraph"
+        }
+      ],
+      "work_id": "w-jinshu",
+      "book_id": "b-jinshu-069",
+      "chapter_id": "c-jinshu-069-liubo",
+      "source_id": "s-jinshu-069-liubo-ws2012453",
+      "work_title": "晉書"
+    },
+    {
       "number": 74,
       "category": "",
       "title": "桓彝及附桓氏家族完整單元",
@@ -1526,6 +1571,32 @@
         "raw_file_sha256": "01b260cc8d1f216f20c4cfc426037be1e3f987097d24b45303e3659b07fe9083",
         "collation_witnesses": [
           "source-evidence/jin058-roll/volume-reading.json"
+        ]
+      }
+    },
+    {
+      "chapter_id": "c-jinshu-069-liubo",
+      "work_id": "w-jinshu",
+      "book_id": "b-jinshu-069",
+      "source_id": "s-jinshu-069-liubo-ws2012453",
+      "source": {
+        "title": "晉書卷六十九·劉波",
+        "provider": "Wikisource",
+        "permalink": "https://zh.wikisource.org/w/index.php?oldid=2012453",
+        "url": "https://zh.wikisource.org/w/index.php?oldid=2012453",
+        "revision_id": 2012453,
+        "edition": "維基文庫固定修訂",
+        "accessed_on": "2026-11-22",
+        "review_status": "text_checked",
+        "image_verified": false,
+        "rights": "古代原文；數位轉錄依維基文庫授權。",
+        "license_url": "https://creativecommons.org/licenses/by-sa/4.0/",
+        "extent": "晉書卷六十九·劉波",
+        "text_scope": "complete_biography_unit",
+        "raw_path": "source-evidence/jin069-roll/ws2012453.wikitext",
+        "raw_file_sha256": "c1e20b58e336495080becb68c3823ada28de1d6cfd202a74c22e053615cc9adf",
+        "collation_witnesses": [
+          "source-evidence/jin069-roll/volume-reading.json"
         ]
       }
     },
@@ -5729,9 +5800,37 @@
       }
     }
   ],
-  "relations": [],
+  "relations": [
+    {
+      "id": "a-jin069-furong-brother",
+      "subject_person_id": "519_3e4_cc9",
+      "object_person_id": "1bd_b18_3c0",
+      "predicate": "brother",
+      "qualifiers": {
+        "source_term": "苻堅弟融"
+      },
+      "evidence": [
+        {
+          "work_id": "w-jinshu",
+          "book_id": "b-jinshu-069",
+          "chapter_id": "c-jinshu-069-liubo",
+          "source_id": "s-jinshu-069-liubo-ws2012453",
+          "paragraph_id": "c-jinshu-069-liubo:p001",
+          "quote": "波字道則。初為石季龍冠軍將軍王洽參軍，及季龍死，洽與波俱降。穆帝以波為襄城太守，累遷桓沖中軍諮議參軍。大司馬桓溫西征袁真，朝廷空虛，以波為建威將軍、淮南內史，領五千人鎮石頭。壽陽平，除尚書左丞，不拜，轉冠軍將軍、南郡相。時苻堅弟融圍雍州刺史硃序于襄陽，波率眾八千救之，以敵強不敢進，序竟陷沒。波以畏懦免官。後復以波為冠軍將軍，累遷散騎常侍。",
+          "subject_person_mention_id": "c-jinshu-069-liubo:p001:m0114",
+          "object_person_mention_id": "c-jinshu-069-liubo:p001:m0111"
+        }
+      ],
+      "status": "source_attested",
+      "interpretation_note": "本傳明言苻堅弟融。",
+      "reviewer": "Codex（AI代理）",
+      "model": null,
+      "human_reviewed": false
+    }
+  ],
   "related_people": {
-    "1bd_b18_3c0": "苻堅"
+    "1bd_b18_3c0": "苻堅",
+    "519_3e4_cc9": "苻融"
   },
   "dates": [],
   "name_components": [],
@@ -5807,7 +5906,34 @@
   "person_ids": [
     "1bd_b18_3c0"
   ],
-  "preferred_relations": [],
+  "preferred_relations": [
+    {
+      "id": "a-jin069-furong-brother",
+      "subject_person_id": "519_3e4_cc9",
+      "object_person_id": "1bd_b18_3c0",
+      "predicate": "brother",
+      "qualifiers": {
+        "source_term": "苻堅弟融"
+      },
+      "evidence": [
+        {
+          "work_id": "w-jinshu",
+          "book_id": "b-jinshu-069",
+          "chapter_id": "c-jinshu-069-liubo",
+          "source_id": "s-jinshu-069-liubo-ws2012453",
+          "paragraph_id": "c-jinshu-069-liubo:p001",
+          "quote": "波字道則。初為石季龍冠軍將軍王洽參軍，及季龍死，洽與波俱降。穆帝以波為襄城太守，累遷桓沖中軍諮議參軍。大司馬桓溫西征袁真，朝廷空虛，以波為建威將軍、淮南內史，領五千人鎮石頭。壽陽平，除尚書左丞，不拜，轉冠軍將軍、南郡相。時苻堅弟融圍雍州刺史硃序于襄陽，波率眾八千救之，以敵強不敢進，序竟陷沒。波以畏懦免官。後復以波為冠軍將軍，累遷散騎常侍。",
+          "subject_person_mention_id": "c-jinshu-069-liubo:p001:m0114",
+          "object_person_mention_id": "c-jinshu-069-liubo:p001:m0111"
+        }
+      ],
+      "status": "source_attested",
+      "interpretation_note": "本傳明言苻堅弟融。",
+      "reviewer": "Codex（AI代理）",
+      "model": null,
+      "human_reviewed": false
+    }
+  ],
   "age_assertions": [],
   "life_events": [],
   "life_event_date_decisions": [],

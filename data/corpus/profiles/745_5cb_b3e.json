@@ -7,7 +7,8 @@
   "review": "ai_provisional",
   "names": [
     "高崧",
-    "崧"
+    "崧",
+    "阿酃"
   ],
   "titles": [
     {
@@ -112,6 +113,80 @@
     {
       "number": 71,
       "category": "",
+      "title": "晉書卷七十一·高崧",
+      "paragraph_id": "c-jinshu-071-gaosong:p001",
+      "count": 5,
+      "raw_count": 5,
+      "duplicate_count": 0,
+      "counting_policy": "independent_fixed_witness_occurrences",
+      "quote": "高崧，字茂琰，廣陵人也。父悝，少孤，事母以孝聞。年十三，值歲饑，悝菜蔬不饜，每致甘肥於母。撫幼弟以友愛稱。寓居江州，刺史華軼辟為西曹書佐。及軼敗，悝藏匿軼子經年，會赦乃出。元帝嘉而宥之，以為參軍，遂曆顯位",
+      "paragraph_ids": [
+        "c-jinshu-071-gaosong:p001",
+        "c-jinshu-071-gaosong:p002",
+        "c-jinshu-071-gaosong:p003",
+        "c-jinshu-071-gaosong:p004"
+      ],
+      "mention_ids": [
+        "c-jinshu-071-gaosong:p001:m0000",
+        "c-jinshu-071-gaosong:p002:m0125",
+        "c-jinshu-071-gaosong:p003:m0034",
+        "c-jinshu-071-gaosong:p004:m0000",
+        "c-jinshu-071-gaosong:p004:m0080"
+      ],
+      "mention_paragraph_ids": {
+        "c-jinshu-071-gaosong:p001:m0000": "c-jinshu-071-gaosong:p001",
+        "c-jinshu-071-gaosong:p002:m0125": "c-jinshu-071-gaosong:p002",
+        "c-jinshu-071-gaosong:p003:m0034": "c-jinshu-071-gaosong:p003",
+        "c-jinshu-071-gaosong:p004:m0000": "c-jinshu-071-gaosong:p004",
+        "c-jinshu-071-gaosong:p004:m0080": "c-jinshu-071-gaosong:p004"
+      },
+      "mention_id": "c-jinshu-071-gaosong:p001:m0000",
+      "occurrence_groups": [
+        {
+          "canonical_mention_id": "c-jinshu-071-gaosong:p001:m0000",
+          "mention_ids": [
+            "c-jinshu-071-gaosong:p001:m0000"
+          ],
+          "kind": "paragraph"
+        },
+        {
+          "canonical_mention_id": "c-jinshu-071-gaosong:p002:m0125",
+          "mention_ids": [
+            "c-jinshu-071-gaosong:p002:m0125"
+          ],
+          "kind": "paragraph"
+        },
+        {
+          "canonical_mention_id": "c-jinshu-071-gaosong:p003:m0034",
+          "mention_ids": [
+            "c-jinshu-071-gaosong:p003:m0034"
+          ],
+          "kind": "paragraph"
+        },
+        {
+          "canonical_mention_id": "c-jinshu-071-gaosong:p004:m0000",
+          "mention_ids": [
+            "c-jinshu-071-gaosong:p004:m0000"
+          ],
+          "kind": "paragraph"
+        },
+        {
+          "canonical_mention_id": "c-jinshu-071-gaosong:p004:m0080",
+          "mention_ids": [
+            "c-jinshu-071-gaosong:p004:m0080"
+          ],
+          "kind": "paragraph"
+        }
+      ],
+      "work_id": "w-jinshu",
+      "book_id": "b-jinshu-071",
+      "chapter_id": "c-jinshu-071-gaosong",
+      "source_id": "s-jinshu-071-gaosong-ws2595541",
+      "work_title": "晉書"
+    },
+    {
+      "number": 71,
+      "category": "",
       "title": "高崧傳代會稽王草書及書內人稱",
       "paragraph_id": "c-jinshu-071-jin098-huanwen-wuchang:author",
       "count": 1,
@@ -182,6 +257,32 @@
   ],
   "table_occurrences": [],
   "sources": [
+    {
+      "chapter_id": "c-jinshu-071-gaosong",
+      "work_id": "w-jinshu",
+      "book_id": "b-jinshu-071",
+      "source_id": "s-jinshu-071-gaosong-ws2595541",
+      "source": {
+        "title": "晉書卷七十一·高崧",
+        "provider": "Wikisource",
+        "permalink": "https://zh.wikisource.org/w/index.php?oldid=2595541",
+        "url": "https://zh.wikisource.org/w/index.php?oldid=2595541",
+        "revision_id": 2595541,
+        "edition": "維基文庫固定修訂",
+        "accessed_on": "2026-11-22",
+        "review_status": "text_checked",
+        "image_verified": false,
+        "rights": "古代原文；數位轉錄依維基文庫授權。",
+        "license_url": "https://creativecommons.org/licenses/by-sa/4.0/",
+        "extent": "晉書卷七十一·高崧",
+        "text_scope": "complete_biography_unit",
+        "raw_path": "source-evidence/jin071-roll/ws2595541.wikitext",
+        "raw_file_sha256": "644b3e2fd382b741cfeff866793c83fe852be3ea920fe88ba4cca8e223307d94",
+        "collation_witnesses": [
+          "source-evidence/jin071-roll/volume-reading.json"
+        ]
+      }
+    },
     {
       "chapter_id": "c-jinshu-071-jin098-huanwen-wuchang",
       "work_id": "w-jinshu",
@@ -877,18 +978,200 @@
       }
     }
   ],
-  "relations": [],
+  "relations": [
+    {
+      "id": "a-jin071-gaokui-father",
+      "subject_person_id": "745_5cb_b3e",
+      "object_person_id": "xnh_uji_ecj",
+      "predicate": "father",
+      "qualifiers": {
+        "source_term": "父悝，少孤"
+      },
+      "evidence": [
+        {
+          "work_id": "w-jinshu",
+          "book_id": "b-jinshu-071",
+          "chapter_id": "c-jinshu-071-gaosong",
+          "source_id": "s-jinshu-071-gaosong-ws2595541",
+          "paragraph_id": "c-jinshu-071-gaosong:p001",
+          "quote": "高崧，字茂琰，廣陵人也。父悝，少孤，事母以孝聞。年十三，值歲饑，悝菜蔬不饜，每致甘肥於母。撫幼弟以友愛稱。寓居江州，刺史華軼辟為西曹書佐。及軼敗，悝藏匿軼子經年，會赦乃出。元帝嘉而宥之，以為參軍，遂曆顯位，至丹陽尹、光祿大夫，封建昌伯。",
+          "subject_person_mention_id": "c-jinshu-071-gaosong:p001:m0000",
+          "object_person_mention_id": "c-jinshu-071-gaosong:p001:m0013"
+        }
+      ],
+      "status": "source_attested",
+      "interpretation_note": "次段詔亦以崧為高悝子。",
+      "reviewer": "Codex（AI代理）",
+      "model": null,
+      "human_reviewed": false
+    },
+    {
+      "id": "a-jin071-gaoqi-father",
+      "subject_person_id": "5ix_gtx_ytf",
+      "object_person_id": "745_5cb_b3e",
+      "predicate": "father",
+      "qualifiers": {
+        "source_term": "子耆，官至散騎常侍"
+      },
+      "evidence": [
+        {
+          "work_id": "w-jinshu",
+          "book_id": "b-jinshu-071",
+          "chapter_id": "c-jinshu-071-gaosong",
+          "source_id": "s-jinshu-071-gaosong-ws2595541",
+          "paragraph_id": "c-jinshu-071-gaosong:p004",
+          "quote": "崧累遷侍中。是時謝萬為豫州都督，疲于親賓相送，方臥在室。崧徑造之，謂曰：「卿令疆理西籓，何以為政？」萬粗陳其意。崧便為敘刑政之要數百言。萬遂起坐，呼崧小字曰：「阿酃！故有才具邪！」哀帝雅好服食，崧諫以為「非萬乘所宜。陛下此事，實日月之一食也」。後以公事免，卒於家。子耆，官至散騎常侍。",
+          "subject_person_mention_id": "c-jinshu-071-gaosong:p004:m0133",
+          "object_person_mention_id": "c-jinshu-071-gaosong:p004:m0000"
+        }
+      ],
+      "status": "source_attested",
+      "interpretation_note": "上承高崧卒於家。",
+      "reviewer": "Codex（AI代理）",
+      "model": null,
+      "human_reviewed": false
+    }
+  ],
   "related_people": {
-    "745_5cb_b3e": "高崧"
+    "5ix_gtx_ytf": "高耆",
+    "745_5cb_b3e": "高崧",
+    "xnh_uji_ecj": "高悝"
   },
   "dates": [],
   "name_components": [],
+  "source_reading_cases": [
+    {
+      "id": "c-jinshu-071-gaosong:kinship2-123",
+      "kind": "kinship",
+      "person_id": "745_5cb_b3e",
+      "source_quote": "其子崧求直無已。今特聽傳侯爵。",
+      "reading": "沿用詔書侯爵原詞，與本傳高悝建昌伯分錄。",
+      "note": "沿用詔書侯爵原詞，與本傳高悝建昌伯分錄。",
+      "paragraph_id": "c-jinshu-071-gaosong:p002",
+      "start_codepoint": 123,
+      "end_codepoint": 138,
+      "human_reviewed": false,
+      "chapter_id": "c-jinshu-071-gaosong",
+      "source_id": "s-jinshu-071-gaosong-ws2595541"
+    },
+    {
+      "id": "c-jinshu-071-gaosong:source_review3-80",
+      "kind": "source_review",
+      "person_id": "745_5cb_b3e",
+      "source_quote": "便於坐為簡文書草曰",
+      "reading": "高崧代會稽王司馬昱草致桓溫書；保留既有說話者與受書者錨點。",
+      "note": "高崧代會稽王司馬昱草致桓溫書；保留既有說話者與受書者錨點。",
+      "paragraph_id": "c-jinshu-071-gaosong:p003",
+      "start_codepoint": 80,
+      "end_codepoint": 89,
+      "human_reviewed": false,
+      "chapter_id": "c-jinshu-071-gaosong",
+      "source_id": "s-jinshu-071-gaosong-ws2595541"
+    },
+    {
+      "id": "c-jinshu-071-gaosong:identity4-73",
+      "kind": "identity",
+      "person_id": "745_5cb_b3e",
+      "source_quote": "呼崧小字曰：「阿酃！",
+      "reading": "阿酃是小字；字茂琰見傳首。",
+      "note": "阿酃是小字；字茂琰見傳首。",
+      "paragraph_id": "c-jinshu-071-gaosong:p004",
+      "start_codepoint": 73,
+      "end_codepoint": 83,
+      "human_reviewed": false,
+      "chapter_id": "c-jinshu-071-gaosong",
+      "source_id": "s-jinshu-071-gaosong-ws2595541"
+    }
+  ],
   "person_ids": [
     "745_5cb_b3e"
   ],
-  "preferred_relations": [],
+  "preferred_relations": [
+    {
+      "id": "a-jin071-gaokui-father",
+      "subject_person_id": "745_5cb_b3e",
+      "object_person_id": "xnh_uji_ecj",
+      "predicate": "father",
+      "qualifiers": {
+        "source_term": "父悝，少孤"
+      },
+      "evidence": [
+        {
+          "work_id": "w-jinshu",
+          "book_id": "b-jinshu-071",
+          "chapter_id": "c-jinshu-071-gaosong",
+          "source_id": "s-jinshu-071-gaosong-ws2595541",
+          "paragraph_id": "c-jinshu-071-gaosong:p001",
+          "quote": "高崧，字茂琰，廣陵人也。父悝，少孤，事母以孝聞。年十三，值歲饑，悝菜蔬不饜，每致甘肥於母。撫幼弟以友愛稱。寓居江州，刺史華軼辟為西曹書佐。及軼敗，悝藏匿軼子經年，會赦乃出。元帝嘉而宥之，以為參軍，遂曆顯位，至丹陽尹、光祿大夫，封建昌伯。",
+          "subject_person_mention_id": "c-jinshu-071-gaosong:p001:m0000",
+          "object_person_mention_id": "c-jinshu-071-gaosong:p001:m0013"
+        }
+      ],
+      "status": "source_attested",
+      "interpretation_note": "次段詔亦以崧為高悝子。",
+      "reviewer": "Codex（AI代理）",
+      "model": null,
+      "human_reviewed": false
+    },
+    {
+      "id": "a-jin071-gaoqi-father",
+      "subject_person_id": "5ix_gtx_ytf",
+      "object_person_id": "745_5cb_b3e",
+      "predicate": "father",
+      "qualifiers": {
+        "source_term": "子耆，官至散騎常侍"
+      },
+      "evidence": [
+        {
+          "work_id": "w-jinshu",
+          "book_id": "b-jinshu-071",
+          "chapter_id": "c-jinshu-071-gaosong",
+          "source_id": "s-jinshu-071-gaosong-ws2595541",
+          "paragraph_id": "c-jinshu-071-gaosong:p004",
+          "quote": "崧累遷侍中。是時謝萬為豫州都督，疲于親賓相送，方臥在室。崧徑造之，謂曰：「卿令疆理西籓，何以為政？」萬粗陳其意。崧便為敘刑政之要數百言。萬遂起坐，呼崧小字曰：「阿酃！故有才具邪！」哀帝雅好服食，崧諫以為「非萬乘所宜。陛下此事，實日月之一食也」。後以公事免，卒於家。子耆，官至散騎常侍。",
+          "subject_person_mention_id": "c-jinshu-071-gaosong:p004:m0133",
+          "object_person_mention_id": "c-jinshu-071-gaosong:p004:m0000"
+        }
+      ],
+      "status": "source_attested",
+      "interpretation_note": "上承高崧卒於家。",
+      "reviewer": "Codex（AI代理）",
+      "model": null,
+      "human_reviewed": false
+    }
+  ],
   "age_assertions": [],
-  "life_events": [],
+  "life_events": [
+    {
+      "id": "le-jin071-gaosong",
+      "person_id": "745_5cb_b3e",
+      "event_type": "death",
+      "source_term": "卒於家",
+      "source_anchor": {
+        "paragraph_id": "c-jinshu-071-gaosong:p004",
+        "start": 128,
+        "end": 131,
+        "surface": "卒於家"
+      },
+      "date_expression": null,
+      "evidence": [
+        {
+          "work_id": "w-jinshu",
+          "book_id": "b-jinshu-071",
+          "chapter_id": "c-jinshu-071-gaosong",
+          "source_id": "s-jinshu-071-gaosong-ws2595541",
+          "paragraph_id": "c-jinshu-071-gaosong:p004",
+          "quote": "崧累遷侍中。是時謝萬為豫州都督，疲于親賓相送，方臥在室。崧徑造之，謂曰：「卿令疆理西籓，何以為政？」萬粗陳其意。崧便為敘刑政之要數百言。萬遂起坐，呼崧小字曰：「阿酃！故有才具邪！」哀帝雅好服食，崧諫以為「非萬乘所宜。陛下此事，實日月之一食也」。後以公事免，卒於家。子耆，官至散騎常侍。",
+          "person_mention_id": "c-jinshu-071-gaosong:p004:m0000"
+        }
+      ],
+      "status": "source_attested",
+      "interpretation_note": "按同段人物與次第核所屬卒事。",
+      "reviewer": "Codex（AI代理）",
+      "model": null,
+      "human_reviewed": false
+    }
+  ],
   "life_event_date_decisions": [],
   "selected_life_event_dates": []
 }

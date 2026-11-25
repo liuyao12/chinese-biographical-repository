@@ -45,10 +45,71 @@
       "chapter_id": "c-sanguozhi-048-sun-hao",
       "source_id": "s-sanguozhi-048-sun-hao-ws2085142",
       "work_title": "三國志"
+    },
+    {
+      "number": 68,
+      "category": "",
+      "title": "晉書卷六十八·紀瞻",
+      "paragraph_id": "c-jinshu-068-jizhan:p001",
+      "count": 1,
+      "raw_count": 1,
+      "duplicate_count": 0,
+      "counting_policy": "independent_fixed_witness_occurrences",
+      "quote": "紀瞻，字思遠，丹陽秣陵人也。祖亮，吳尚書令。父陟，光祿大夫。瞻少以方直知名。吳平，徙家曆陽郡。察孝廉，不行。",
+      "paragraph_ids": [
+        "c-jinshu-068-jizhan:p001"
+      ],
+      "mention_ids": [
+        "c-jinshu-068-jizhan:p001:m0015"
+      ],
+      "mention_paragraph_ids": {
+        "c-jinshu-068-jizhan:p001:m0015": "c-jinshu-068-jizhan:p001"
+      },
+      "mention_id": "c-jinshu-068-jizhan:p001:m0015",
+      "occurrence_groups": [
+        {
+          "canonical_mention_id": "c-jinshu-068-jizhan:p001:m0015",
+          "mention_ids": [
+            "c-jinshu-068-jizhan:p001:m0015"
+          ],
+          "kind": "paragraph"
+        }
+      ],
+      "work_id": "w-jinshu",
+      "book_id": "b-jinshu-068",
+      "chapter_id": "c-jinshu-068-jizhan",
+      "source_id": "s-jinshu-068-jizhan-ws2581578",
+      "work_title": "晉書"
     }
   ],
   "table_occurrences": [],
   "sources": [
+    {
+      "chapter_id": "c-jinshu-068-jizhan",
+      "work_id": "w-jinshu",
+      "book_id": "b-jinshu-068",
+      "source_id": "s-jinshu-068-jizhan-ws2581578",
+      "source": {
+        "title": "晉書卷六十八·紀瞻",
+        "provider": "Wikisource",
+        "permalink": "https://zh.wikisource.org/w/index.php?oldid=2581578",
+        "url": "https://zh.wikisource.org/w/index.php?oldid=2581578",
+        "revision_id": 2581578,
+        "edition": "維基文庫固定修訂",
+        "accessed_on": "2026-11-22",
+        "review_status": "text_checked",
+        "image_verified": false,
+        "rights": "古代原文；數位轉錄依維基文庫授權。",
+        "license_url": "https://creativecommons.org/licenses/by-sa/4.0/",
+        "extent": "晉書卷六十八·紀瞻",
+        "text_scope": "complete_biography_unit",
+        "raw_path": "source-evidence/jin068-roll/ws2581578.wikitext",
+        "raw_file_sha256": "51c836e14087ecf3b0f6577aae470c286607c067dd0331e306b5a3c42f3d10dc",
+        "collation_witnesses": [
+          "source-evidence/jin068-roll/volume-reading.json"
+        ]
+      }
+    },
     {
       "chapter_id": "c-sanguozhi-048-sun-hao",
       "work_id": "w-sanguozhi",
@@ -79,6 +140,32 @@
   ],
   "relations": [
     {
+      "id": "a-jin068-jiliang-grandfather",
+      "subject_person_id": "23e_6ed_438",
+      "object_person_id": "8h9_qyd_2x6",
+      "predicate": "grandfather",
+      "qualifiers": {
+        "source_term": "祖亮，吳尚書令"
+      },
+      "evidence": [
+        {
+          "work_id": "w-jinshu",
+          "book_id": "b-jinshu-068",
+          "chapter_id": "c-jinshu-068-jizhan",
+          "source_id": "s-jinshu-068-jizhan-ws2581578",
+          "paragraph_id": "c-jinshu-068-jizhan:p001",
+          "quote": "紀瞻，字思遠，丹陽秣陵人也。祖亮，吳尚書令。父陟，光祿大夫。瞻少以方直知名。吳平，徙家曆陽郡。察孝廉，不行。",
+          "subject_person_mention_id": "c-jinshu-068-jizhan:p001:m0000",
+          "object_person_mention_id": "c-jinshu-068-jizhan:p001:m0015"
+        }
+      ],
+      "status": "source_attested",
+      "interpretation_note": "紀亮在孫吳爲尚書令。",
+      "reviewer": "Codex（AI代理）",
+      "model": null,
+      "human_reviewed": false
+    },
+    {
       "id": "a-wu048-ji-father",
       "subject_person_id": "zqm_tyo_3ab",
       "object_person_id": "8h9_qyd_2x6",
@@ -106,6 +193,7 @@
     }
   ],
   "related_people": {
+    "23e_6ed_438": "紀瞻",
     "8h9_qyd_2x6": "紀亮〔紀陟父、尚書令〕",
     "zqm_tyo_3ab": "紀陟〔字子上、光祿大夫〕"
   },
@@ -115,6 +203,32 @@
     "8h9_qyd_2x6"
   ],
   "preferred_relations": [
+    {
+      "id": "a-jin068-jiliang-grandfather",
+      "subject_person_id": "23e_6ed_438",
+      "object_person_id": "8h9_qyd_2x6",
+      "predicate": "grandfather",
+      "qualifiers": {
+        "source_term": "祖亮，吳尚書令"
+      },
+      "evidence": [
+        {
+          "work_id": "w-jinshu",
+          "book_id": "b-jinshu-068",
+          "chapter_id": "c-jinshu-068-jizhan",
+          "source_id": "s-jinshu-068-jizhan-ws2581578",
+          "paragraph_id": "c-jinshu-068-jizhan:p001",
+          "quote": "紀瞻，字思遠，丹陽秣陵人也。祖亮，吳尚書令。父陟，光祿大夫。瞻少以方直知名。吳平，徙家曆陽郡。察孝廉，不行。",
+          "subject_person_mention_id": "c-jinshu-068-jizhan:p001:m0000",
+          "object_person_mention_id": "c-jinshu-068-jizhan:p001:m0015"
+        }
+      ],
+      "status": "source_attested",
+      "interpretation_note": "紀亮在孫吳爲尚書令。",
+      "reviewer": "Codex（AI代理）",
+      "model": null,
+      "human_reviewed": false
+    },
     {
       "id": "a-wu048-ji-father",
       "subject_person_id": "zqm_tyo_3ab",

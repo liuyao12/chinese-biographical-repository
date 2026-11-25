@@ -1,0 +1,148 @@
+{
+  "schema_version": 1,
+  "id": "pj2_fyq_mqy",
+  "canonical_person_id": "pj2_fyq_mqy",
+  "label": "王濬〔王鑒父、御史中丞〕",
+  "identity_note": "王濬〔王鑒父、御史中丞〕，見本組原文及身份互校。",
+  "review": "ai_provisional",
+  "names": [
+    "濬"
+  ],
+  "titles": [],
+  "addresses": [],
+  "occurrences": [
+    {
+      "number": 71,
+      "category": "",
+      "title": "晉書卷七十一·王鑒",
+      "paragraph_id": "c-jinshu-071-wangjian:p001",
+      "count": 1,
+      "raw_count": 1,
+      "duplicate_count": 0,
+      "counting_policy": "independent_fixed_witness_occurrences",
+      "quote": "王鑒，字茂高，堂邑人也。父濬，御史中丞。鑒少以文筆著稱，初為元帝琅邪國侍郎。時杜弢作逆，江湘流弊，王敦不能制，朝廷深以為憂。鑒上疏勸帝征之，曰：",
+      "paragraph_ids": [
+        "c-jinshu-071-wangjian:p001"
+      ],
+      "mention_ids": [
+        "c-jinshu-071-wangjian:p001:m0013"
+      ],
+      "mention_paragraph_ids": {
+        "c-jinshu-071-wangjian:p001:m0013": "c-jinshu-071-wangjian:p001"
+      },
+      "mention_id": "c-jinshu-071-wangjian:p001:m0013",
+      "occurrence_groups": [
+        {
+          "canonical_mention_id": "c-jinshu-071-wangjian:p001:m0013",
+          "mention_ids": [
+            "c-jinshu-071-wangjian:p001:m0013"
+          ],
+          "kind": "paragraph"
+        }
+      ],
+      "work_id": "w-jinshu",
+      "book_id": "b-jinshu-071",
+      "chapter_id": "c-jinshu-071-wangjian",
+      "source_id": "s-jinshu-071-wangjian-ws2595541",
+      "work_title": "晉書"
+    }
+  ],
+  "table_occurrences": [],
+  "sources": [
+    {
+      "chapter_id": "c-jinshu-071-wangjian",
+      "work_id": "w-jinshu",
+      "book_id": "b-jinshu-071",
+      "source_id": "s-jinshu-071-wangjian-ws2595541",
+      "source": {
+        "title": "晉書卷七十一·王鑒",
+        "provider": "Wikisource",
+        "permalink": "https://zh.wikisource.org/w/index.php?oldid=2595541",
+        "url": "https://zh.wikisource.org/w/index.php?oldid=2595541",
+        "revision_id": 2595541,
+        "edition": "維基文庫固定修訂",
+        "accessed_on": "2026-11-22",
+        "review_status": "text_checked",
+        "image_verified": false,
+        "rights": "古代原文；數位轉錄依維基文庫授權。",
+        "license_url": "https://creativecommons.org/licenses/by-sa/4.0/",
+        "extent": "晉書卷七十一·王鑒",
+        "text_scope": "complete_biography_unit",
+        "raw_path": "source-evidence/jin071-roll/ws2595541.wikitext",
+        "raw_file_sha256": "644b3e2fd382b741cfeff866793c83fe852be3ea920fe88ba4cca8e223307d94",
+        "collation_witnesses": [
+          "source-evidence/jin071-roll/volume-reading.json"
+        ]
+      }
+    }
+  ],
+  "relations": [
+    {
+      "id": "a-jin071-wangjun-father",
+      "subject_person_id": "dkd_jrm_hin",
+      "object_person_id": "pj2_fyq_mqy",
+      "predicate": "father",
+      "qualifiers": {
+        "source_term": "父濬，御史中丞"
+      },
+      "evidence": [
+        {
+          "work_id": "w-jinshu",
+          "book_id": "b-jinshu-071",
+          "chapter_id": "c-jinshu-071-wangjian",
+          "source_id": "s-jinshu-071-wangjian-ws2595541",
+          "paragraph_id": "c-jinshu-071-wangjian:p001",
+          "quote": "王鑒，字茂高，堂邑人也。父濬，御史中丞。鑒少以文筆著稱，初為元帝琅邪國侍郎。時杜弢作逆，江湘流弊，王敦不能制，朝廷深以為憂。鑒上疏勸帝征之，曰：",
+          "subject_person_mention_id": "c-jinshu-071-wangjian:p001:m0000",
+          "object_person_mention_id": "c-jinshu-071-wangjian:p001:m0013"
+        }
+      ],
+      "status": "source_attested",
+      "interpretation_note": "以本傳父濬、官御史中丞定位。與滅吳的弘農王濬分存。",
+      "reviewer": "Codex（AI代理）",
+      "model": null,
+      "human_reviewed": false
+    }
+  ],
+  "related_people": {
+    "dkd_jrm_hin": "王鑒〔字茂高、堂邑人〕",
+    "pj2_fyq_mqy": "王濬〔王鑒父、御史中丞〕"
+  },
+  "dates": [],
+  "name_components": [],
+  "person_ids": [
+    "pj2_fyq_mqy"
+  ],
+  "preferred_relations": [
+    {
+      "id": "a-jin071-wangjun-father",
+      "subject_person_id": "dkd_jrm_hin",
+      "object_person_id": "pj2_fyq_mqy",
+      "predicate": "father",
+      "qualifiers": {
+        "source_term": "父濬，御史中丞"
+      },
+      "evidence": [
+        {
+          "work_id": "w-jinshu",
+          "book_id": "b-jinshu-071",
+          "chapter_id": "c-jinshu-071-wangjian",
+          "source_id": "s-jinshu-071-wangjian-ws2595541",
+          "paragraph_id": "c-jinshu-071-wangjian:p001",
+          "quote": "王鑒，字茂高，堂邑人也。父濬，御史中丞。鑒少以文筆著稱，初為元帝琅邪國侍郎。時杜弢作逆，江湘流弊，王敦不能制，朝廷深以為憂。鑒上疏勸帝征之，曰：",
+          "subject_person_mention_id": "c-jinshu-071-wangjian:p001:m0000",
+          "object_person_mention_id": "c-jinshu-071-wangjian:p001:m0013"
+        }
+      ],
+      "status": "source_attested",
+      "interpretation_note": "以本傳父濬、官御史中丞定位。與滅吳的弘農王濬分存。",
+      "reviewer": "Codex（AI代理）",
+      "model": null,
+      "human_reviewed": false
+    }
+  ],
+  "age_assertions": [],
+  "life_events": [],
+  "life_event_date_decisions": [],
+  "selected_life_event_dates": []
+}

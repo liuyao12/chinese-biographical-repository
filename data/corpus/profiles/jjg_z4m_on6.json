@@ -10,7 +10,9 @@
     "惠",
     "孙惠",
     "德施",
-    "南嶽逸民秦祕之"
+    "南嶽逸民秦祕之",
+    "秦秘之",
+    "孫中郎"
   ],
   "titles": [
     {
@@ -646,6 +648,80 @@
       "chapter_id": "c-jinshu-061-zhou-family",
       "source_id": "s-jinshu-061-ws7903772",
       "work_title": "晉書"
+    },
+    {
+      "number": 71,
+      "category": "",
+      "title": "晉書卷七十一·孫惠",
+      "paragraph_id": "c-jinshu-071-sunhui:p001",
+      "count": 5,
+      "raw_count": 5,
+      "duplicate_count": 0,
+      "counting_policy": "independent_fixed_witness_occurrences",
+      "quote": "孫惠，字德施，吳國富陽人，吳豫章太守賁曾孫也。父祖並仕吳。惠口訥，好學有才識，州辟不就，寓居蕭沛之間。永甯初，赴齊王冏義，討趙王倫，以功封晉興縣侯，辟大司馬戶曹掾，轉東曹屬。冏驕矜僭侈，天下失望。惠獻言於",
+      "paragraph_ids": [
+        "c-jinshu-071-sunhui:p001",
+        "c-jinshu-071-sunhui:p002",
+        "c-jinshu-071-sunhui:p007",
+        "c-jinshu-071-sunhui:p008"
+      ],
+      "mention_ids": [
+        "c-jinshu-071-sunhui:p001:m0000",
+        "c-jinshu-071-sunhui:p002:m0018",
+        "c-jinshu-071-sunhui:p007:m0010",
+        "c-jinshu-071-sunhui:p007:m0090",
+        "c-jinshu-071-sunhui:p008:m0012"
+      ],
+      "mention_paragraph_ids": {
+        "c-jinshu-071-sunhui:p001:m0000": "c-jinshu-071-sunhui:p001",
+        "c-jinshu-071-sunhui:p002:m0018": "c-jinshu-071-sunhui:p002",
+        "c-jinshu-071-sunhui:p007:m0010": "c-jinshu-071-sunhui:p007",
+        "c-jinshu-071-sunhui:p007:m0090": "c-jinshu-071-sunhui:p007",
+        "c-jinshu-071-sunhui:p008:m0012": "c-jinshu-071-sunhui:p008"
+      },
+      "mention_id": "c-jinshu-071-sunhui:p001:m0000",
+      "occurrence_groups": [
+        {
+          "canonical_mention_id": "c-jinshu-071-sunhui:p001:m0000",
+          "mention_ids": [
+            "c-jinshu-071-sunhui:p001:m0000"
+          ],
+          "kind": "paragraph"
+        },
+        {
+          "canonical_mention_id": "c-jinshu-071-sunhui:p002:m0018",
+          "mention_ids": [
+            "c-jinshu-071-sunhui:p002:m0018"
+          ],
+          "kind": "paragraph"
+        },
+        {
+          "canonical_mention_id": "c-jinshu-071-sunhui:p007:m0010",
+          "mention_ids": [
+            "c-jinshu-071-sunhui:p007:m0010"
+          ],
+          "kind": "paragraph"
+        },
+        {
+          "canonical_mention_id": "c-jinshu-071-sunhui:p007:m0090",
+          "mention_ids": [
+            "c-jinshu-071-sunhui:p007:m0090"
+          ],
+          "kind": "paragraph"
+        },
+        {
+          "canonical_mention_id": "c-jinshu-071-sunhui:p008:m0012",
+          "mention_ids": [
+            "c-jinshu-071-sunhui:p008:m0012"
+          ],
+          "kind": "paragraph"
+        }
+      ],
+      "work_id": "w-jinshu",
+      "book_id": "b-jinshu-071",
+      "chapter_id": "c-jinshu-071-sunhui",
+      "source_id": "s-jinshu-071-sunhui-ws2595541",
+      "work_title": "晉書"
     }
   ],
   "table_occurrences": [],
@@ -807,6 +883,32 @@
       }
     },
     {
+      "chapter_id": "c-jinshu-071-sunhui",
+      "work_id": "w-jinshu",
+      "book_id": "b-jinshu-071",
+      "source_id": "s-jinshu-071-sunhui-ws2595541",
+      "source": {
+        "title": "晉書卷七十一·孫惠",
+        "provider": "Wikisource",
+        "permalink": "https://zh.wikisource.org/w/index.php?oldid=2595541",
+        "url": "https://zh.wikisource.org/w/index.php?oldid=2595541",
+        "revision_id": 2595541,
+        "edition": "維基文庫固定修訂",
+        "accessed_on": "2026-11-22",
+        "review_status": "text_checked",
+        "image_verified": false,
+        "rights": "古代原文；數位轉錄依維基文庫授權。",
+        "license_url": "https://creativecommons.org/licenses/by-sa/4.0/",
+        "extent": "晉書卷七十一·孫惠",
+        "text_scope": "complete_biography_unit",
+        "raw_path": "source-evidence/jin071-roll/ws2595541.wikitext",
+        "raw_file_sha256": "644b3e2fd382b741cfeff866793c83fe852be3ea920fe88ba4cca8e223307d94",
+        "collation_witnesses": [
+          "source-evidence/jin071-roll/volume-reading.json"
+        ]
+      }
+    },
+    {
       "chapter_id": "c-sanguozhi-051-ben",
       "work_id": "w-sanguozhi",
       "book_id": "b-sanguozhi-051",
@@ -863,6 +965,32 @@
   ],
   "relations": [
     {
+      "id": "a-jin071-sunben-great-grandfather",
+      "subject_person_id": "jjg_z4m_on6",
+      "object_person_id": "8jx_b5c_t2q",
+      "predicate": "great_grandfather",
+      "qualifiers": {
+        "source_term": "吳豫章太守賁曾孫也"
+      },
+      "evidence": [
+        {
+          "work_id": "w-jinshu",
+          "book_id": "b-jinshu-071",
+          "chapter_id": "c-jinshu-071-sunhui",
+          "source_id": "s-jinshu-071-sunhui-ws2595541",
+          "paragraph_id": "c-jinshu-071-sunhui:p001",
+          "quote": "孫惠，字德施，吳國富陽人，吳豫章太守賁曾孫也。父祖並仕吳。惠口訥，好學有才識，州辟不就，寓居蕭沛之間。永甯初，赴齊王冏義，討趙王倫，以功封晉興縣侯，辟大司馬戶曹掾，轉東曹屬。冏驕矜僭侈，天下失望。惠獻言於冏，諷以五難、四不可，勸令歸籓，辭甚切至。冏不納。惠懼罪，辭疾去。頃之，冏果敗。成都王穎薦惠為大將軍參軍、領奮威將軍、白沙督。是時，穎將征長沙王乂，以陸機為前鋒都督。惠與機同鄉里，憂其致禍，勸機讓都督于王粹。及機兄弟被戮，惠甚傷恨之。時惠又擅殺穎牙門將梁俊，懼罪，因改姓名以遁。",
+          "subject_person_mention_id": "c-jinshu-071-sunhui:p001:m0000",
+          "object_person_mention_id": "c-jinshu-071-sunhui:p001:m0018"
+        }
+      ],
+      "status": "source_attested",
+      "interpretation_note": "通鑑八十四同記惠為賁曾孫。祖、父均無名。",
+      "reviewer": "Codex（AI代理）",
+      "model": null,
+      "human_reviewed": false
+    },
+    {
       "id": "a-wu051-hui-ben",
       "subject_person_id": "jjg_z4m_on6",
       "object_person_id": "8jx_b5c_t2q",
@@ -899,6 +1027,62 @@
   "dates": [],
   "name_components": [],
   "source_reading_cases": [
+    {
+      "id": "c-jinshu-071-sunhui:kinship1-13",
+      "kind": "kinship",
+      "person_id": "jjg_z4m_on6",
+      "source_quote": "吳豫章太守賁曾孫也。父祖並仕吳。",
+      "reading": "曾祖賁可接固定吳書；父、祖原文只記仕吳。",
+      "note": "曾祖賁可接固定吳書；父、祖原文只記仕吳。",
+      "paragraph_id": "c-jinshu-071-sunhui:p001",
+      "start_codepoint": 13,
+      "end_codepoint": 29,
+      "human_reviewed": false,
+      "chapter_id": "c-jinshu-071-sunhui",
+      "source_id": "s-jinshu-071-sunhui-ws2595541"
+    },
+    {
+      "id": "c-jinshu-071-sunhui:source_review1-104",
+      "kind": "source_review",
+      "person_id": "jjg_z4m_on6",
+      "source_quote": "諷以五難、四不可，勸令歸籓",
+      "reading": "通鑑八十四保留五難及四不可議論。",
+      "note": "通鑑八十四保留五難及四不可議論。",
+      "paragraph_id": "c-jinshu-071-sunhui:p001",
+      "start_codepoint": 104,
+      "end_codepoint": 117,
+      "human_reviewed": false,
+      "chapter_id": "c-jinshu-071-sunhui",
+      "source_id": "s-jinshu-071-sunhui-ws2595541"
+    },
+    {
+      "id": "c-jinshu-071-sunhui:identity2-10",
+      "kind": "identity",
+      "person_id": "jjg_z4m_on6",
+      "source_quote": "惠乃詭稱南嶽逸士秦秘之",
+      "reading": "秦秘之是向司馬越投書所托名，與文末出見的惠同人。",
+      "note": "秦秘之是向司馬越投書所托名，與文末出見的惠同人。",
+      "paragraph_id": "c-jinshu-071-sunhui:p002",
+      "start_codepoint": 10,
+      "end_codepoint": 21,
+      "human_reviewed": false,
+      "chapter_id": "c-jinshu-071-sunhui",
+      "source_id": "s-jinshu-071-sunhui-ws2595541"
+    },
+    {
+      "id": "c-jinshu-071-sunhui:source_review8-78",
+      "kind": "source_review",
+      "person_id": "jjg_z4m_on6",
+      "source_quote": "尋病卒，時年四十七",
+      "reading": "年四十七為年齡。應甘卓、殺何銳及奔入蠻中為本傳相對次序。",
+      "note": "年四十七為年齡。應甘卓、殺何銳及奔入蠻中為本傳相對次序。",
+      "paragraph_id": "c-jinshu-071-sunhui:p008",
+      "start_codepoint": 78,
+      "end_codepoint": 87,
+      "human_reviewed": false,
+      "chapter_id": "c-jinshu-071-sunhui",
+      "source_id": "s-jinshu-071-sunhui-ws2595541"
+    },
     {
       "id": "c-sanguozhi-051-ben:line034-pei03-02:reading-000-340",
       "kind": "annotation_sentence",
@@ -942,6 +1126,32 @@
     "jjg_z4m_on6"
   ],
   "preferred_relations": [
+    {
+      "id": "a-jin071-sunben-great-grandfather",
+      "subject_person_id": "jjg_z4m_on6",
+      "object_person_id": "8jx_b5c_t2q",
+      "predicate": "great_grandfather",
+      "qualifiers": {
+        "source_term": "吳豫章太守賁曾孫也"
+      },
+      "evidence": [
+        {
+          "work_id": "w-jinshu",
+          "book_id": "b-jinshu-071",
+          "chapter_id": "c-jinshu-071-sunhui",
+          "source_id": "s-jinshu-071-sunhui-ws2595541",
+          "paragraph_id": "c-jinshu-071-sunhui:p001",
+          "quote": "孫惠，字德施，吳國富陽人，吳豫章太守賁曾孫也。父祖並仕吳。惠口訥，好學有才識，州辟不就，寓居蕭沛之間。永甯初，赴齊王冏義，討趙王倫，以功封晉興縣侯，辟大司馬戶曹掾，轉東曹屬。冏驕矜僭侈，天下失望。惠獻言於冏，諷以五難、四不可，勸令歸籓，辭甚切至。冏不納。惠懼罪，辭疾去。頃之，冏果敗。成都王穎薦惠為大將軍參軍、領奮威將軍、白沙督。是時，穎將征長沙王乂，以陸機為前鋒都督。惠與機同鄉里，憂其致禍，勸機讓都督于王粹。及機兄弟被戮，惠甚傷恨之。時惠又擅殺穎牙門將梁俊，懼罪，因改姓名以遁。",
+          "subject_person_mention_id": "c-jinshu-071-sunhui:p001:m0000",
+          "object_person_mention_id": "c-jinshu-071-sunhui:p001:m0018"
+        }
+      ],
+      "status": "source_attested",
+      "interpretation_note": "通鑑八十四同記惠為賁曾孫。祖、父均無名。",
+      "reviewer": "Codex（AI代理）",
+      "model": null,
+      "human_reviewed": false
+    },
     {
       "id": "a-wu051-hui-ben",
       "subject_person_id": "jjg_z4m_on6",
@@ -1001,6 +1211,35 @@
     }
   ],
   "life_events": [
+    {
+      "id": "le-jin071-sunhui",
+      "person_id": "jjg_z4m_on6",
+      "event_type": "death",
+      "source_term": "尋病卒，時年四十七",
+      "source_anchor": {
+        "paragraph_id": "c-jinshu-071-sunhui:p008",
+        "start": 78,
+        "end": 87,
+        "surface": "尋病卒，時年四十七"
+      },
+      "date_expression": null,
+      "evidence": [
+        {
+          "work_id": "w-jinshu",
+          "book_id": "b-jinshu-071",
+          "chapter_id": "c-jinshu-071-sunhui",
+          "source_id": "s-jinshu-071-sunhui-ws2595541",
+          "paragraph_id": "c-jinshu-071-sunhui:p008",
+          "quote": "元帝遣甘卓討周馥于壽陽，惠乃率眾應卓，馥敗走。廬江何銳為安豐太守，惠權留郡境。銳以他事收惠下人推之，惠既非南朝所授，常慮讒間，因此大懼，遂攻殺銳，奔入蠻中。尋病卒，時年四十七。喪還鄉里，朝廷明其本心，追加吊賻。",
+          "person_mention_id": "c-jinshu-071-sunhui:p008:m0012"
+        }
+      ],
+      "status": "source_attested",
+      "interpretation_note": "按同段人物與次第核所屬卒事。",
+      "reviewer": "Codex（AI代理）",
+      "model": null,
+      "human_reviewed": false
+    },
     {
       "id": "le-wu051-ben5",
       "person_id": "jjg_z4m_on6",

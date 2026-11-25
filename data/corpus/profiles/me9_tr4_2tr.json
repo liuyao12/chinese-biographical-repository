@@ -113,6 +113,41 @@
       "chapter_id": "c-jinshu-043-wangcheng",
       "source_id": "s-jinshu-043-wangcheng",
       "work_title": "晉書"
+    },
+    {
+      "number": 66,
+      "category": "",
+      "title": "晉書卷六十六·陶侃",
+      "paragraph_id": "c-jinshu-066-taokan:p010",
+      "count": 1,
+      "raw_count": 1,
+      "duplicate_count": 0,
+      "counting_policy": "independent_fixed_witness_occurrences",
+      "quote": "先是，廣州人背刺史郭訥，迎長沙人王機為刺史。機復遣使詣王敦，乞為交州。敦從之，而機未發。會杜弘據臨賀，因機乞降，勸弘取廣州，弘遂與溫邵及交州秀才劉沈俱謀反。或勸侃且住始興，觀察形勢。侃不聽，直至廣州。弘遣使偽降。侃知其詐，先於封口起發石",
+      "paragraph_ids": [
+        "c-jinshu-066-taokan:p010"
+      ],
+      "mention_ids": [
+        "c-jinshu-066-taokan:p010:m0016"
+      ],
+      "mention_paragraph_ids": {
+        "c-jinshu-066-taokan:p010:m0016": "c-jinshu-066-taokan:p010"
+      },
+      "mention_id": "c-jinshu-066-taokan:p010:m0016",
+      "occurrence_groups": [
+        {
+          "canonical_mention_id": "c-jinshu-066-taokan:p010:m0016",
+          "mention_ids": [
+            "c-jinshu-066-taokan:p010:m0016"
+          ],
+          "kind": "paragraph"
+        }
+      ],
+      "work_id": "w-jinshu",
+      "book_id": "b-jinshu-066",
+      "chapter_id": "c-jinshu-066-taokan",
+      "source_id": "s-jinshu-066-taokan-ws1527632",
+      "work_title": "晉書"
     }
   ],
   "table_occurrences": [],
@@ -143,6 +178,32 @@
           "source-evidence/jin043-wangcheng-main/reading.json"
         ]
       }
+    },
+    {
+      "chapter_id": "c-jinshu-066-taokan",
+      "work_id": "w-jinshu",
+      "book_id": "b-jinshu-066",
+      "source_id": "s-jinshu-066-taokan-ws1527632",
+      "source": {
+        "title": "晉書卷六十六·陶侃",
+        "provider": "Wikisource",
+        "permalink": "https://zh.wikisource.org/w/index.php?oldid=1527632",
+        "url": "https://zh.wikisource.org/w/index.php?oldid=1527632",
+        "revision_id": 1527632,
+        "edition": "維基文庫固定修訂",
+        "accessed_on": "2026-11-22",
+        "review_status": "text_checked",
+        "image_verified": false,
+        "rights": "古代原文；數位轉錄依維基文庫授權。",
+        "license_url": "https://creativecommons.org/licenses/by-sa/4.0/",
+        "extent": "晉書卷六十六·陶侃",
+        "text_scope": "complete_biography_unit",
+        "raw_path": "source-evidence/jin066-roll/ws1527632.wikitext",
+        "raw_file_sha256": "6cddc694d426567aad52b2183afd501d71adab778675ef7b91850801a4ced3aa",
+        "collation_witnesses": [
+          "source-evidence/jin066-roll/volume-reading.json"
+        ]
+      }
     }
   ],
   "relations": [],
@@ -151,6 +212,22 @@
   },
   "dates": [],
   "name_components": [],
+  "source_reading_cases": [
+    {
+      "id": "c-jinshu-066-taokan:source_review10-150",
+      "kind": "source_review",
+      "person_id": "me9_tr4_2tr",
+      "source_quote": "又遣部將許高討機，斬之，傳首京都。",
+      "reading": "卷一百本傳記王機病死於道，許高掘屍斬首。兩卷照原句。",
+      "note": "卷一百本傳記王機病死於道，許高掘屍斬首。兩卷照原句。",
+      "paragraph_id": "c-jinshu-066-taokan:p010",
+      "start_codepoint": 150,
+      "end_codepoint": 167,
+      "human_reviewed": false,
+      "chapter_id": "c-jinshu-066-taokan",
+      "source_id": "s-jinshu-066-taokan-ws1527632"
+    }
+  ],
   "person_ids": [
     "me9_tr4_2tr"
   ],

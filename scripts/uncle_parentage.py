@@ -273,6 +273,29 @@ def explicit_maternal_uncle_valid(assertion, paragraphs):
                 or obj.get('person_id') != assertion.get('object_person_id')
                 or e.get('chapter_id') != hit[0] or obj['start'] < 0):
             return False
+        coordinated_nephews = q.get('coordinated_nephew_mention_ids')
+        if coordinated_nephews is not None:
+            if (not isinstance(coordinated_nephews, list) or len(coordinated_nephews) != 2
+                    or not all(isinstance(mid, str) and mid in mentions for mid in coordinated_nephews)
+                    or subject['id'] not in coordinated_nephews
+                    or e['quote'] != p['text']):
+                return False
+            first, second = (mentions[mid] for mid in coordinated_nephews)
+            text = p['text']
+            term_start, term_end = second['start'] - 1, obj['end'] + len('之甥')
+            if (len({first['person_id'], second['person_id'], obj['person_id']}) != 3
+                    or any(m['kind'] != 'person' or text[m['start']:m['end']] != m['surface']
+                           for m in (first, second, obj))
+                    or first['start'] != 0 or not text[first['end']:].startswith('字')
+                    or term_start <= first['end'] or text[term_start] != '與'
+                    or text[second['end']:obj['start']] != '並尚書'
+                    or text[obj['end']:term_end] != '之甥'
+                    or text[term_start:term_end] != q.get('source_term')
+                    or any(m['kind'] == 'person' and m['person_id'] != first['person_id']
+                           and first['end'] <= m['start'] < term_start
+                           for m in p['mentions'])):
+                return False
+            continue
         if q.get('source_term') == '庾公帝之元舅':
             text = p['text']
             if not (hit[0] == 'c-jinshu-065-wangdao-family' and obj['surface'] == '庾公'

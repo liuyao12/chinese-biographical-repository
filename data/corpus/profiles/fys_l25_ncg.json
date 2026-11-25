@@ -1,0 +1,148 @@
+{
+  "schema_version": 1,
+  "id": "fys_l25_ncg",
+  "canonical_person_id": "fys_l25_ncg",
+  "label": "司馬球之",
+  "identity_note": "司馬球之，見本組原文及身份互校。",
+  "review": "ai_provisional",
+  "names": [
+    "球之"
+  ],
+  "titles": [],
+  "addresses": [],
+  "occurrences": [
+    {
+      "number": 64,
+      "category": "",
+      "title": "晉書卷六十四·武陵王遵",
+      "paragraph_id": "c-jinshu-064-simazun:p001",
+      "count": 1,
+      "raw_count": 1,
+      "duplicate_count": 0,
+      "counting_policy": "independent_fixed_witness_occurrences",
+      "quote": "，錢百萬，布千匹，策贈太傳，葬加殊禮。子定王季度立，拜散騎侍郎。薨，子球之立。宋興，國除。",
+      "paragraph_ids": [
+        "c-jinshu-064-simazun:p001"
+      ],
+      "mention_ids": [
+        "c-jinshu-064-simazun:p001:m0311"
+      ],
+      "mention_paragraph_ids": {
+        "c-jinshu-064-simazun:p001:m0311": "c-jinshu-064-simazun:p001"
+      },
+      "mention_id": "c-jinshu-064-simazun:p001:m0311",
+      "occurrence_groups": [
+        {
+          "canonical_mention_id": "c-jinshu-064-simazun:p001:m0311",
+          "mention_ids": [
+            "c-jinshu-064-simazun:p001:m0311"
+          ],
+          "kind": "paragraph"
+        }
+      ],
+      "work_id": "w-jinshu",
+      "book_id": "b-jinshu-064",
+      "chapter_id": "c-jinshu-064-simazun",
+      "source_id": "s-jinshu-064-simazun-ws2622004",
+      "work_title": "晉書"
+    }
+  ],
+  "table_occurrences": [],
+  "sources": [
+    {
+      "chapter_id": "c-jinshu-064-simazun",
+      "work_id": "w-jinshu",
+      "book_id": "b-jinshu-064",
+      "source_id": "s-jinshu-064-simazun-ws2622004",
+      "source": {
+        "title": "晉書卷六十四·武陵王遵",
+        "provider": "Wikisource",
+        "permalink": "https://zh.wikisource.org/w/index.php?oldid=2622004",
+        "url": "https://zh.wikisource.org/w/index.php?oldid=2622004",
+        "revision_id": 2622004,
+        "edition": "維基文庫固定修訂",
+        "accessed_on": "2026-11-22",
+        "review_status": "text_checked",
+        "image_verified": false,
+        "rights": "古代原文；數位轉錄依維基文庫授權。",
+        "license_url": "https://creativecommons.org/licenses/by-sa/4.0/",
+        "extent": "晉書卷六十四·武陵王遵",
+        "text_scope": "complete_biography_unit",
+        "raw_path": "source-evidence/jin064-roll/ws2622004.wikitext",
+        "raw_file_sha256": "b4c389968a1af2d99c2a6ad4a8afa3e6a4706f845194c0ce283f41927afae31f",
+        "collation_witnesses": [
+          "source-evidence/jin064-roll/volume-reading.json"
+        ]
+      }
+    }
+  ],
+  "relations": [
+    {
+      "id": "a-jin064-qiuzhi-father",
+      "subject_person_id": "fys_l25_ncg",
+      "object_person_id": "ndl_uz7_h8o",
+      "predicate": "father",
+      "qualifiers": {
+        "source_term": "薨，子球之立"
+      },
+      "evidence": [
+        {
+          "work_id": "w-jinshu",
+          "book_id": "b-jinshu-064",
+          "chapter_id": "c-jinshu-064-simazun",
+          "source_id": "s-jinshu-064-simazun-ws2622004",
+          "paragraph_id": "c-jinshu-064-simazun:p001",
+          "quote": "忠敬王遵，字茂遠。初襲封新甯，時年十二，受拜流涕，哀感左右。右將軍桓伊嘗詣遵，遵曰：「門何為通桓氏？」左右曰：「伊與桓溫疏宗，相見無嫌。」遵曰：「我聞人姓木邊，便欲殺之，況諸桓乎！」由是少稱聰慧。及晞追復封武陵王，以遵嗣，歷位散騎常侍、秘書監、太常、中領軍。桓玄用事，拜金紫光祿大夫。玄篡，貶為彭澤侯，遣之國。行次石頭，夜濤水入淮，船破，未得發。會義旗興，復還國第。朝廷稱受密詔，使遵總攝萬機，加侍中、大將軍，移入東宮，內外畢敬。遷轉百官，稱制書；又教稱令書。安帝反正，更拜太保，加班劍二十人。義熙四年薨，時年三十五，詔賜東園溫明神器，朝服一具，衣一襲，錢百萬，布千匹，策贈太傳，葬加殊禮。子定王季度立，拜散騎侍郎。薨，子球之立。宋興，國除。",
+          "subject_person_mention_id": "c-jinshu-064-simazun:p001:m0311",
+          "object_person_mention_id": "c-jinshu-064-simazun:p001:m0296"
+        }
+      ],
+      "status": "source_attested",
+      "interpretation_note": "敘季度薨後球之立。",
+      "reviewer": "Codex（AI代理）",
+      "model": null,
+      "human_reviewed": false
+    }
+  ],
+  "related_people": {
+    "fys_l25_ncg": "司馬球之",
+    "ndl_uz7_h8o": "司馬季度"
+  },
+  "dates": [],
+  "name_components": [],
+  "person_ids": [
+    "fys_l25_ncg"
+  ],
+  "preferred_relations": [
+    {
+      "id": "a-jin064-qiuzhi-father",
+      "subject_person_id": "fys_l25_ncg",
+      "object_person_id": "ndl_uz7_h8o",
+      "predicate": "father",
+      "qualifiers": {
+        "source_term": "薨，子球之立"
+      },
+      "evidence": [
+        {
+          "work_id": "w-jinshu",
+          "book_id": "b-jinshu-064",
+          "chapter_id": "c-jinshu-064-simazun",
+          "source_id": "s-jinshu-064-simazun-ws2622004",
+          "paragraph_id": "c-jinshu-064-simazun:p001",
+          "quote": "忠敬王遵，字茂遠。初襲封新甯，時年十二，受拜流涕，哀感左右。右將軍桓伊嘗詣遵，遵曰：「門何為通桓氏？」左右曰：「伊與桓溫疏宗，相見無嫌。」遵曰：「我聞人姓木邊，便欲殺之，況諸桓乎！」由是少稱聰慧。及晞追復封武陵王，以遵嗣，歷位散騎常侍、秘書監、太常、中領軍。桓玄用事，拜金紫光祿大夫。玄篡，貶為彭澤侯，遣之國。行次石頭，夜濤水入淮，船破，未得發。會義旗興，復還國第。朝廷稱受密詔，使遵總攝萬機，加侍中、大將軍，移入東宮，內外畢敬。遷轉百官，稱制書；又教稱令書。安帝反正，更拜太保，加班劍二十人。義熙四年薨，時年三十五，詔賜東園溫明神器，朝服一具，衣一襲，錢百萬，布千匹，策贈太傳，葬加殊禮。子定王季度立，拜散騎侍郎。薨，子球之立。宋興，國除。",
+          "subject_person_mention_id": "c-jinshu-064-simazun:p001:m0311",
+          "object_person_mention_id": "c-jinshu-064-simazun:p001:m0296"
+        }
+      ],
+      "status": "source_attested",
+      "interpretation_note": "敘季度薨後球之立。",
+      "reviewer": "Codex（AI代理）",
+      "model": null,
+      "human_reviewed": false
+    }
+  ],
+  "age_assertions": [],
+  "life_events": [],
+  "life_event_date_decisions": [],
+  "selected_life_event_dates": []
+}

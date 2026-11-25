@@ -120,6 +120,41 @@
       "work_title": "宋書"
     },
     {
+      "number": 62,
+      "category": "",
+      "title": "晉書卷六十二·劉琨",
+      "paragraph_id": "c-jinshu-062-liukun:p010",
+      "count": 1,
+      "raw_count": 1,
+      "duplicate_count": 0,
+      "counting_policy": "independent_fixed_witness_occurrences",
+      "quote": "兼常伯，征討之務，得從事宜。拜命驚惶，五情戰悸，懼於隕越，以爲朝羞。昔申胥不徇伯舉，而成公壻之勳；伍員不從城父，而濟入郢之庸。臣雖頑凶，無覬古人，其于被堅執銳，致身寇仇，所謂天地之施，群生莫謝不勝。受恩至深，謹拜表陳聞。",
+      "paragraph_ids": [
+        "c-jinshu-062-liukun:p010"
+      ],
+      "mention_ids": [
+        "c-jinshu-062-liukun:p010:m0323"
+      ],
+      "mention_paragraph_ids": {
+        "c-jinshu-062-liukun:p010:m0323": "c-jinshu-062-liukun:p010"
+      },
+      "mention_id": "c-jinshu-062-liukun:p010:m0323",
+      "occurrence_groups": [
+        {
+          "canonical_mention_id": "c-jinshu-062-liukun:p010:m0323",
+          "mention_ids": [
+            "c-jinshu-062-liukun:p010:m0323"
+          ],
+          "kind": "paragraph"
+        }
+      ],
+      "work_id": "w-jinshu",
+      "book_id": "b-jinshu-062",
+      "chapter_id": "c-jinshu-062-liukun",
+      "source_id": "s-jinshu-062-liukun-ws2629226",
+      "work_title": "晉書"
+    },
+    {
       "number": 67,
       "category": "",
       "title": "晉書卷六十七·溫嶠傳",
@@ -188,10 +223,71 @@
       "chapter_id": "c-jinshu-067-xijian",
       "source_id": "s-jinshu-067-xijian",
       "work_title": "晉書"
+    },
+    {
+      "number": 71,
+      "category": "",
+      "title": "晉書卷七十一·孫惠",
+      "paragraph_id": "c-jinshu-071-sunhui:p004",
+      "count": 1,
+      "raw_count": 1,
+      "duplicate_count": 0,
+      "counting_policy": "independent_fixed_witness_occurrences",
+      "quote": "秘之不天，值此衰運，竊慕墨翟、申包之誠，跋涉荊棘，重繭而至，櫛風沐雨，來承禍難。思以管穴毗佐大猷，道險時吝，未敢自顯。伏在川泥，系情宸極，謹先白箋，以啟天慮。若猶沈吟際會，徘徊二端，徼幸在險，請從恕宥之例。",
+      "paragraph_ids": [
+        "c-jinshu-071-sunhui:p004"
+      ],
+      "mention_ids": [
+        "c-jinshu-071-sunhui:p004:m0015"
+      ],
+      "mention_paragraph_ids": {
+        "c-jinshu-071-sunhui:p004:m0015": "c-jinshu-071-sunhui:p004"
+      },
+      "mention_id": "c-jinshu-071-sunhui:p004:m0015",
+      "occurrence_groups": [
+        {
+          "canonical_mention_id": "c-jinshu-071-sunhui:p004:m0015",
+          "mention_ids": [
+            "c-jinshu-071-sunhui:p004:m0015"
+          ],
+          "kind": "paragraph"
+        }
+      ],
+      "work_id": "w-jinshu",
+      "book_id": "b-jinshu-071",
+      "chapter_id": "c-jinshu-071-sunhui",
+      "source_id": "s-jinshu-071-sunhui-ws2595541",
+      "work_title": "晉書"
     }
   ],
   "table_occurrences": [],
   "sources": [
+    {
+      "chapter_id": "c-jinshu-062-liukun",
+      "work_id": "w-jinshu",
+      "book_id": "b-jinshu-062",
+      "source_id": "s-jinshu-062-liukun-ws2629226",
+      "source": {
+        "title": "晉書卷六十二·劉琨",
+        "provider": "Wikisource",
+        "permalink": "https://zh.wikisource.org/w/index.php?oldid=2629226",
+        "url": "https://zh.wikisource.org/w/index.php?oldid=2629226",
+        "revision_id": 2629226,
+        "edition": "維基文庫固定修訂",
+        "accessed_on": "2026-11-22",
+        "review_status": "text_checked",
+        "image_verified": false,
+        "rights": "古代原文；數位轉錄依維基文庫授權。",
+        "license_url": "https://creativecommons.org/licenses/by-sa/4.0/",
+        "extent": "晉書卷六十二·劉琨",
+        "text_scope": "complete_biography_unit",
+        "raw_path": "source-evidence/jin062-roll/ws2629226.wikitext",
+        "raw_file_sha256": "cdb75f1a3d5f12219a75831e0c8c7cfc202c1edf76086c07267a40f7251f3a7b",
+        "collation_witnesses": [
+          "source-evidence/jin062-roll/volume-reading.json"
+        ]
+      }
+    },
     {
       "chapter_id": "c-jinshu-067-wenqiao",
       "work_id": "w-jinshu",
@@ -244,6 +340,32 @@
         "raw_file_sha256": "bfbb80734b71669aaed368f54f088c89285f1acdbe70ca678745ea9684029495",
         "collation_witnesses": [
           "source-evidence/jin067-xijian-relatives/reading.json"
+        ]
+      }
+    },
+    {
+      "chapter_id": "c-jinshu-071-sunhui",
+      "work_id": "w-jinshu",
+      "book_id": "b-jinshu-071",
+      "source_id": "s-jinshu-071-sunhui-ws2595541",
+      "source": {
+        "title": "晉書卷七十一·孫惠",
+        "provider": "Wikisource",
+        "permalink": "https://zh.wikisource.org/w/index.php?oldid=2595541",
+        "url": "https://zh.wikisource.org/w/index.php?oldid=2595541",
+        "revision_id": 2595541,
+        "edition": "維基文庫固定修訂",
+        "accessed_on": "2026-11-22",
+        "review_status": "text_checked",
+        "image_verified": false,
+        "rights": "古代原文；數位轉錄依維基文庫授權。",
+        "license_url": "https://creativecommons.org/licenses/by-sa/4.0/",
+        "extent": "晉書卷七十一·孫惠",
+        "text_scope": "complete_biography_unit",
+        "raw_path": "source-evidence/jin071-roll/ws2595541.wikitext",
+        "raw_file_sha256": "644b3e2fd382b741cfeff866793c83fe852be3ea920fe88ba4cca8e223307d94",
+        "collation_witnesses": [
+          "source-evidence/jin071-roll/volume-reading.json"
         ]
       }
     },

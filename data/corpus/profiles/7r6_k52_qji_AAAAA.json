@@ -6,7 +6,8 @@
   "identity_note": "王祥完整本傳來源內具體人物；同名異人不合併，原文姓名組件與親屬另層。",
   "review": "ai_provisional",
   "names": [
-    "遐"
+    "遐",
+    "王遐"
   ],
   "titles": [
     {
@@ -93,6 +94,41 @@
       "book_id": "b-jinshu-033",
       "chapter_id": "c-jinshu-033-wanglan-family",
       "source_id": "s-jinshu-033-wanglan-family",
+      "work_title": "晉書"
+    },
+    {
+      "number": 69,
+      "category": "",
+      "title": "晉書卷六十九·戴若思",
+      "paragraph_id": "c-jinshu-069-dairuosi:p003",
+      "count": 1,
+      "raw_count": 1,
+      "duplicate_count": 0,
+      "counting_policy": "independent_fixed_witness_occurrences",
+      "quote": "散騎常侍。發投刺王官千人為軍吏，調揚州百姓家奴萬人為兵配之，以散騎常侍王遐為軍司，鎮壽陽，與劉隗同出。帝親幸其營，勞勉將士，臨發祖餞，置酒賦詩。",
+      "paragraph_ids": [
+        "c-jinshu-069-dairuosi:p003"
+      ],
+      "mention_ids": [
+        "c-jinshu-069-dairuosi:p003:m0123"
+      ],
+      "mention_paragraph_ids": {
+        "c-jinshu-069-dairuosi:p003:m0123": "c-jinshu-069-dairuosi:p003"
+      },
+      "mention_id": "c-jinshu-069-dairuosi:p003:m0123",
+      "occurrence_groups": [
+        {
+          "canonical_mention_id": "c-jinshu-069-dairuosi:p003:m0123",
+          "mention_ids": [
+            "c-jinshu-069-dairuosi:p003:m0123"
+          ],
+          "kind": "paragraph"
+        }
+      ],
+      "work_id": "w-jinshu",
+      "book_id": "b-jinshu-069",
+      "chapter_id": "c-jinshu-069-dairuosi",
+      "source_id": "s-jinshu-069-dairuosi-ws2012453",
       "work_title": "晉書"
     }
   ],
@@ -226,6 +262,32 @@
           "source-evidence/jin033-wang-family-children/reading.json",
           "source-evidence/jin033-wanglan/reading.json",
           "source-evidence/jin033-wangxiang/reading.json"
+        ]
+      }
+    },
+    {
+      "chapter_id": "c-jinshu-069-dairuosi",
+      "work_id": "w-jinshu",
+      "book_id": "b-jinshu-069",
+      "source_id": "s-jinshu-069-dairuosi-ws2012453",
+      "source": {
+        "title": "晉書卷六十九·戴若思",
+        "provider": "Wikisource",
+        "permalink": "https://zh.wikisource.org/w/index.php?oldid=2012453",
+        "url": "https://zh.wikisource.org/w/index.php?oldid=2012453",
+        "revision_id": 2012453,
+        "edition": "維基文庫固定修訂",
+        "accessed_on": "2026-11-22",
+        "review_status": "text_checked",
+        "image_verified": false,
+        "rights": "古代原文；數位轉錄依維基文庫授權。",
+        "license_url": "https://creativecommons.org/licenses/by-sa/4.0/",
+        "extent": "晉書卷六十九·戴若思",
+        "text_scope": "complete_biography_unit",
+        "raw_path": "source-evidence/jin069-roll/ws2012453.wikitext",
+        "raw_file_sha256": "c1e20b58e336495080becb68c3823ada28de1d6cfd202a74c22e053615cc9adf",
+        "collation_witnesses": [
+          "source-evidence/jin069-roll/volume-reading.json"
         ]
       }
     }
