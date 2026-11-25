@@ -21,7 +21,7 @@
           "chapter_id": "c-shiji-077-weigong",
           "source_id": "s-shiji-077-weigong",
           "paragraph_id": "c-shiji-077-weigong:p011",
-          "quote": "公子聞趙有處士毛公藏於博徒，薛公藏於賣漿家，公子欲見兩人，兩人自匿不肯見公子。公子聞所在，乃間步往從此兩人遊，甚歡。平原君聞之，謂其夫人曰：「始吾聞夫人弟公子天下無雙，今吾聞之，乃妄從博徒賣漿者游，公子妄人耳。」夫人以告公子。公子乃謝夫人去，曰：「始吾聞平原君賢，故負魏王而救趙，以稱平原君。平原君之遊，徒豪舉耳，不求士也。無忌自在大梁時，常聞此兩人賢，至趙，恐不得見。以無忌從之游，尚恐其不我欲也，今平原君乃以為羞，其不足從遊。」乃裝為去。夫人具以語平原君。平原君乃免冠謝，固留公子。平原君門下聞之，半去平原君歸公子，天下士復往歸公子，公子傾平原君客。"
+          "quote_passage_ref": "data/corpus/shiji/077.json"
         }
       ],
       "attestations": [
@@ -63,7 +63,6 @@
       "raw_count": 2,
       "duplicate_count": 0,
       "counting_policy": "independent_fixed_witness_occurrences",
-      "quote": "公子聞趙有處士毛公藏於博徒，薛公藏於賣漿家，公子欲見兩人，兩人自匿不肯見公子。公子聞所在，乃間步往從此兩人遊，甚歡。平原君聞之，謂其夫人曰：「始吾聞夫人弟公子天下無雙，今吾聞之，乃妄從博徒賣漿者游，公子妄人耳。」夫人以",
       "paragraph_ids": [
         "c-shiji-077-weigong:p011",
         "c-shiji-077-weigong:p012"
@@ -97,7 +96,12 @@
       "book_id": "b-shiji-077",
       "chapter_id": "c-shiji-077-weigong",
       "source_id": "s-shiji-077-weigong",
-      "work_title": "史記"
+      "work_title": "史記",
+      "chapter_ref": "data/corpus/shiji/077.json",
+      "quote_span": [
+        0,
+        109
+      ]
     }
   ],
   "table_occurrences": [],
@@ -107,24 +111,7 @@
       "work_id": "w-shiji",
       "book_id": "b-shiji-077",
       "source_id": "s-shiji-077-weigong",
-      "source": {
-        "title": "史記／卷077",
-        "provider": "維基文庫",
-        "url": "https://zh.wikisource.org/wiki/史記/卷077",
-        "permalink": "https://zh.wikisource.org/w/index.php?title=史記/卷077&oldid=367917",
-        "revision_id": 367917,
-        "accessed_on": "2026-10-09",
-        "extent": "17段正文，自魏公子無忌至太史公論贊；排除人物導覽、索隱述贊及現代版權告示。",
-        "image_verified": false,
-        "rights": "古代原文；數位轉錄依維基文庫CC BY-SA 4.0，保留署名及固定版本。",
-        "license_url": "https://creativecommons.org/licenses/by-sa/4.0/",
-        "normalization": {
-          "character_conversion": {},
-          "editorial_readings": [],
-          "extraction_note": "固定HTML與取得時版本一致，只去外緣空白；未見括號改讀提示，為、釐、籣、埽等原字保留。",
-          "note": "全17段正文及姓名首輪已核讀；未核底本、影像或現代研究。"
-        }
-      }
+      "chapter_ref": "data/corpus/shiji/077.json"
     }
   ],
   "relations": [],

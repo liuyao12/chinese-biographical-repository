@@ -22,7 +22,6 @@
       "raw_count": 1,
       "duplicate_count": 0,
       "counting_policy": "independent_fixed_witness_occurrences",
-      "quote": "于周，子朝為臣，諸侯城周。十六年，子朝之徒復作亂，敬王奔于晉。十七年，晉定公遂入敬王于周。",
       "paragraph_ids": [
         "c-shiji-004-zhou:p060"
       ],
@@ -46,7 +45,12 @@
       "book_id": "b-shiji-004",
       "chapter_id": "c-shiji-004-zhou",
       "source_id": "s-shiji-004-zhou",
-      "work_title": "史記"
+      "work_title": "史記",
+      "chapter_ref": "data/corpus/shiji/004.json",
+      "quote_span": [
+        35,
+        80
+      ]
     },
     {
       "number": 5,
@@ -57,7 +61,6 @@
       "raw_count": 1,
       "duplicate_count": 0,
       "counting_policy": "independent_fixed_witness_occurrences",
-      "quote": "，立其兄陽生，是為悼公。六年，吳敗齊師。齊人弒悼公，立其子簡公。九年，晉定公與吳王夫差盟，爭長於黃池，卒先吳。吳彊，陵中國。十二年，齊田常弒簡公，立其弟平公，常相之。十三年，楚滅陳。秦悼公立十四年卒，子厲共公立。孔子以悼公十二年卒。",
       "paragraph_ids": [
         "c-shiji-005-qin:p046"
       ],
@@ -81,7 +84,12 @@
       "book_id": "b-shiji-005",
       "chapter_id": "c-shiji-005-qin",
       "source_id": "s-shiji-005-qin",
-      "work_title": "史記"
+      "work_title": "史記",
+      "chapter_ref": "data/corpus/shiji/005.json",
+      "quote_span": [
+        14,
+        130
+      ]
     },
     {
       "number": 31,
@@ -92,7 +100,6 @@
       "raw_count": 3,
       "duplicate_count": 0,
       "counting_policy": "independent_fixed_witness_occurrences",
-      "quote": "王夫差，夫差惡其聞也。或泄其語，吳王怒，斬七人於幕下。七月辛丑，吳王與晉定公爭長。吳王曰：「於周室我爲長。」晉定公曰：「於姬姓我爲伯。」趙鞅怒，將伐吳，乃長晉定公。吳王已盟，與晉別，欲伐宋。太宰嚭曰：「可勝而不能居也。」乃引兵歸國。國亡太子，內空，王居外久，士皆罷敝，於是乃使",
       "paragraph_ids": [
         "c-shiji-031-wu:p037"
       ],
@@ -134,7 +141,12 @@
       "book_id": "b-shiji-031",
       "chapter_id": "c-shiji-031-wu",
       "source_id": "s-shiji-031-wu",
-      "work_title": "史記"
+      "work_title": "史記",
+      "chapter_ref": "data/corpus/shiji/031.json",
+      "quote_span": [
+        66,
+        204
+      ]
     },
     {
       "number": 39,
@@ -145,7 +157,6 @@
       "raw_count": 5,
       "duplicate_count": 0,
       "counting_policy": "independent_fixed_witness_occurrences",
-      "quote": "十四年，頃公卒，子定公午立。定公十一年，魯陽虎奔晉，趙鞅簡子捨之。十二年，孔子相魯。",
       "paragraph_ids": [
         "c-shiji-039-jin:p128",
         "c-shiji-039-jin:p129",
@@ -208,7 +219,12 @@
       "book_id": "b-shiji-039",
       "chapter_id": "c-shiji-039-jin",
       "source_id": "s-shiji-039-jin",
-      "work_title": "史記"
+      "work_title": "史記",
+      "chapter_ref": "data/corpus/shiji/039.json",
+      "quote_span": [
+        0,
+        42
+      ]
     }
   ],
   "table_occurrences": [
@@ -216,7 +232,6 @@
       "table_id": "shiji-015",
       "cell_id": "shiji-015-r002-c03",
       "title": "《史記·六國年表》",
-      "quote": "晉定公卒。",
       "year": {
         "era": "BCE",
         "value": 475,
@@ -239,7 +254,8 @@
       "book_id": "b-shiji-015",
       "chapter_id": "table-chapter-shiji-015",
       "source_id": "table-witness-shiji-015",
-      "source_revision": "2607002"
+      "source_revision": "2607002",
+      "quote_ref": "cell"
     }
   ],
   "sources": [
@@ -248,228 +264,35 @@
       "work_id": "w-shiji",
       "book_id": "b-shiji-004",
       "source_id": "s-shiji-004-zhou",
-      "source": {
-        "title": "史記／卷004",
-        "provider": "維基文庫",
-        "url": "https://zh.wikisource.org/wiki/史記/卷004",
-        "permalink": "https://zh.wikisource.org/w/index.php?title=史記/卷004&oldid=7909147",
-        "revision_id": 7909147,
-        "accessed_on": "2026-10-09",
-        "extent": "正文全文；排除註釋版導覽、現代節標題與註號；行內校勘標記另存。",
-        "image_verified": false,
-        "rights": "古代原文；數位轉錄依維基文庫 CC BY-SA 4.0，保留署名及固定版本。",
-        "license_url": "https://creativecommons.org/licenses/by-sa/4.0/",
-        "normalization": {
-          "character_conversion": {},
-          "editorial_readings": [
-            {
-              "paragraph_id": "c-shiji-004-zhou:p017",
-              "witness_form": "［左］",
-              "body_reading": "",
-              "note": "數位見證行內校勘標記另存；有兩讀時正文保存改讀前的字，不宣稱已完成校勘。"
-            },
-            {
-              "paragraph_id": "c-shiji-004-zhou:p039",
-              "witness_form": "（又作湦）",
-              "body_reading": "",
-              "note": "數位見證行內校勘標記另存；有兩讀時正文保存改讀前的字，不宣稱已完成校勘。"
-            },
-            {
-              "paragraph_id": "c-shiji-004-zhou:p074",
-              "witness_form": "（賀）［資］",
-              "body_reading": "賀",
-              "note": "數位見證行內校勘標記另存；有兩讀時正文保存改讀前的字，不宣稱已完成校勘。"
-            },
-            {
-              "paragraph_id": "c-shiji-004-zhou:p082",
-              "witness_form": "（最）［聚］",
-              "body_reading": "最",
-              "note": "數位見證行內校勘標記另存；有兩讀時正文保存改讀前的字，不宣稱已完成校勘。"
-            },
-            {
-              "paragraph_id": "c-shiji-004-zhou:p085",
-              "witness_form": "（西）",
-              "body_reading": "",
-              "note": "數位見證行內校勘標記另存；有兩讀時正文保存改讀前的字，不宣稱已完成校勘。"
-            },
-            {
-              "paragraph_id": "c-shiji-004-zhou:p086",
-              "witness_form": "（我）［於］",
-              "body_reading": "我",
-              "note": "數位見證行內校勘標記另存；有兩讀時正文保存改讀前的字，不宣稱已完成校勘。"
-            }
-          ],
-          "note": "有成對改讀標記時正文保留改讀前的字；校勘符號與異讀另存，不稱已核讀底本。保留古代異體與數位見證的疑讀。"
-        }
-      }
+      "chapter_ref": "data/corpus/shiji/004.json"
     },
     {
       "chapter_id": "c-shiji-005-qin",
       "work_id": "w-shiji",
       "book_id": "b-shiji-005",
       "source_id": "s-shiji-005-qin",
-      "source": {
-        "title": "史記／卷005",
-        "provider": "維基文庫",
-        "url": "https://zh.wikisource.org/wiki/史記/卷005",
-        "permalink": "https://zh.wikisource.org/w/index.php?title=史記/卷005&oldid=8744286",
-        "revision_id": 8744286,
-        "accessed_on": "2026-10-09",
-        "extent": "77段數位正文；排除註釋版導覽與註號，見證行內校勘符號暫原樣保留。",
-        "image_verified": false,
-        "rights": "古代原文；數位轉錄依維基文庫 CC BY-SA 4.0，保留署名及固定版本。",
-        "license_url": "https://creativecommons.org/licenses/by-sa/4.0/",
-        "normalization": {
-          "character_conversion": {
-            "铚": "銍",
-            "绖": "絰",
-            "龁": "齕"
-          },
-          "note": "第9段編者重複標記另存，其餘行內校勘符號仍待逐處分離；不稱已核讀底本。",
-          "editorial_readings": [
-            {
-              "paragraph_id": "c-shiji-005-qin:p009",
-              "witness_form": "（世父）世父",
-              "body_reading": "世父",
-              "note": "數位見證重複的括號標記另存；不作第二個正文人物提及。"
-            },
-            {
-              "paragraph_id": "c-shiji-005-qin:p022",
-              "witness_form": "铚",
-              "body_reading": "銍",
-              "note": "數位見證混入簡體字，轉繁體並保留字形轉換記錄；未核讀影像。"
-            },
-            {
-              "paragraph_id": "c-shiji-005-qin:p028",
-              "witness_form": "绖",
-              "body_reading": "絰",
-              "note": "數位見證混入簡體字，轉繁體並保留字形轉換記錄；未核讀影像。"
-            },
-            {
-              "paragraph_id": "c-shiji-005-qin:p033",
-              "witness_form": "绖",
-              "body_reading": "絰",
-              "note": "數位見證混入簡體字，轉繁體並保存原字；未核影像。"
-            },
-            {
-              "paragraph_id": "c-shiji-005-qin:p070",
-              "witness_form": "龁",
-              "body_reading": "齕",
-              "note": "數位見證簡體字轉繁體，原字保留；未核影像。"
-            },
-            {
-              "paragraph_id": "c-shiji-005-qin:p072",
-              "witness_form": "绖",
-              "body_reading": "絰",
-              "note": "數位見證簡體字轉繁體，原字保留；未核影像。"
-            },
-            {
-              "paragraph_id": "c-shiji-005-qin:p074",
-              "witness_form": "龁",
-              "body_reading": "齕",
-              "note": "數位見證簡體字轉繁體，原字保留；未核影像。"
-            },
-            {
-              "paragraph_id": "c-shiji-005-qin:p070",
-              "witness_form": "胡（傷）［陽］",
-              "body_reading": "胡傷",
-              "note": "行內校勘標記另存，成對讀法保留改讀前的字；身份與底本待核。"
-            },
-            {
-              "paragraph_id": "c-shiji-005-qin:p070",
-              "witness_form": "南（郡）［陽］",
-              "body_reading": "南郡",
-              "note": "行內校勘標記另存，成對讀法保留改讀前的字；身份與底本待核。"
-            },
-            {
-              "paragraph_id": "c-shiji-005-qin:p070",
-              "witness_form": "（武安）",
-              "body_reading": "",
-              "note": "行內校勘標記另存，成對讀法保留改讀前的字；身份與底本待核。"
-            }
-          ]
-        }
-      }
+      "chapter_ref": "data/corpus/shiji/005.json"
     },
     {
       "chapter_id": "c-shiji-031-wu",
       "work_id": "w-shiji",
       "book_id": "b-shiji-031",
       "source_id": "s-shiji-031-wu",
-      "source": {
-        "title": "史記／卷031",
-        "provider": "維基文庫",
-        "url": "https://zh.wikisource.org/wiki/史記/卷031",
-        "permalink": "https://zh.wikisource.org/w/index.php?title=史記/卷031&oldid=7909287",
-        "revision_id": 7909287,
-        "accessed_on": "2026-10-09",
-        "extent": "正文41個p區塊，自吳太伯至太史公論贊；排除頂部世系摘要、跨站導覽及索隱述贊。",
-        "image_verified": false,
-        "rights": "古代原文；數位轉錄依維基文庫CC BY-SA 4.0，保留署名及固定版本。",
-        "license_url": "https://creativecommons.org/licenses/by-sa/4.0/",
-        "normalization": {
-          "character_conversion": {
-            "虚": "虛",
-            "鳅": "鰍",
-            "内": "內",
-            "戸": "戶"
-          },
-          "editorial_readings": [],
-          "extraction_note": "保留暦／歴、爲、髙、餘眛、闔廬等見證異體，不默改為熟知姓名。",
-          "note": "固定版本與實讀HTML一致；未核底本、影像或世系研究。"
-        }
-      }
+      "chapter_ref": "data/corpus/shiji/031.json"
     },
     {
       "chapter_id": "c-shiji-039-jin",
       "work_id": "w-shiji",
       "book_id": "b-shiji-039",
       "source_id": "s-shiji-039-jin",
-      "source": {
-        "title": "史記／卷039",
-        "provider": "維基文庫",
-        "url": "https://zh.wikisource.org/wiki/史記/卷039",
-        "permalink": "https://zh.wikisource.org/w/index.php?title=史記/卷039&oldid=2588534",
-        "revision_id": 2588534,
-        "accessed_on": "2026-10-09",
-        "extent": "142段正文，自晉唐叔虞至太史公論贊，另保留1段索隱述贊並分層；排除2個dd導覽及段首尾版面換行。",
-        "image_verified": false,
-        "rights": "古代原文；數位轉錄依維基文庫CC BY-SA 4.0，保留署名及固定版本。",
-        "license_url": "https://creativecommons.org/licenses/by-sa/4.0/",
-        "normalization": {
-          "character_conversion": {
-            "鲁": "魯",
-            "隐": "隱",
-            "绖": "絰"
-          },
-          "editorial_readings": [],
-          "extraction_note": "固定版本與實讀HTML一致。第14段鲁隐轉魯隱，第46、79段绖轉絰，去除段首尾換行，其餘古字、內外異說及校勘保留。",
-          "note": "同版原始標記亦作子胛桓叔，不默補代字或莊伯名字。保留冀芮／郤芮、郤鉤、欒逞、示瞇明、歩陽、郤臻、砹、六（卿）［軍］、［復］等見證字；未核可靠底本、影像或專門研究。"
-        }
-      }
+      "chapter_ref": "data/corpus/shiji/039.json"
     },
     {
       "chapter_id": "table-chapter-shiji-015",
       "work_id": "w-shiji",
       "book_id": "b-shiji-015",
       "source_id": "table-witness-shiji-015",
-      "source": {
-        "id": "table-witness-shiji-015",
-        "work_id": "w-shiji",
-        "book_id": "b-shiji-015",
-        "chapter_id": "table-chapter-shiji-015",
-        "url": "https://zh.wikisource.org/wiki/史記/卷015",
-        "revision_url": "https://zh.wikisource.org/w/index.php?title=史記/卷015&oldid=2607002",
-        "revision": "2607002",
-        "accessed": "2026-10-12",
-        "response_sha256": "eb0624a019e02c24ce90a40bfa24863f4020878062c6e2efea32355033be5559",
-        "edition": null,
-        "image_verified": false,
-        "rights": "古籍正文公有領域；維基文庫轉錄及編輯內容依 CC BY-SA 條款，署名維基文庫貢獻者。",
-        "rights_url": "https://zh.wikisource.org/wiki/Wikisource:版權信息",
-        "review_status": "agent_first_pass_named_entities",
-        "note": "完整數位表格結構匯入，未逐格學術覆核。未核讀印本影像，原印本頁碼未知。西元欄沿用此數位轉錄的編者對照，不是古籍原有西元紀年，也不引用其維基百科外連。"
-      }
+      "table_source_ref": "shiji-015"
     }
   ],
   "relations": [],
@@ -495,8 +318,8 @@
           "chapter_id": "c-shiji-039-jin",
           "source_id": "s-shiji-039-jin",
           "paragraph_id": "c-shiji-039-jin:p132",
-          "quote": "三十七年，定公卒，子出公鑿立。",
-          "person_mention_id": "c-shiji-039-jin:m132-0005"
+          "person_mention_id": "c-shiji-039-jin:m132-0005",
+          "quote_passage_ref": "data/corpus/shiji/039.json"
         }
       ],
       "source_term": "定公卒",

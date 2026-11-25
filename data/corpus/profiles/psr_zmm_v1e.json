@@ -27,7 +27,7 @@
           "chapter_id": "c-shiji-128-guice",
           "source_id": "s-shiji128-guice",
           "paragraph_id": "c-shiji-128-guice:p010",
-          "quote": "南方老人用龜支床足，行二十餘歲，老人死，移床，龜尚生不死。龜能行氣導引。問者曰：「龜至神若此，然太卜官得生龜，何為輒殺取其甲乎？」近世江上人有得名龜，畜置之，家因大富。與人議，欲遣去。人教殺之勿遣，遣之破人家。龜見夢曰：「送我水中，無殺吾也。」其家終殺之。殺之后，身死，家不利。人民與君王者異道。人民得名龜，其狀類不宜殺也。以往古故事言之，古明王聖主皆殺而用之。"
+          "quote_passage_ref": "data/corpus/shiji/128.json"
         }
       ],
       "source_term": "南方老人",
@@ -48,7 +48,6 @@
       "raw_count": 2,
       "duplicate_count": 0,
       "counting_policy": "independent_fixed_witness_occurrences",
-      "quote": "南方老人用龜支床足，行二十餘歲，老人死，移床，龜尚生不死。龜能行氣導引。問者曰：「龜至神若此，然太卜官得生龜，何為輒殺取其甲乎？」近世江上人有得名龜，畜置之，家因大富。與人議，欲遣去。人教殺之勿遣，遣之破人家",
       "paragraph_ids": [
         "c-shiji-128-guice:p010"
       ],
@@ -81,7 +80,12 @@
       "book_id": "b-shiji-128",
       "chapter_id": "c-shiji-128-guice",
       "source_id": "s-shiji128-guice",
-      "work_title": "史記"
+      "work_title": "史記",
+      "chapter_ref": "data/corpus/shiji/128.json",
+      "quote_span": [
+        0,
+        104
+      ]
     }
   ],
   "table_occurrences": [],
@@ -91,24 +95,7 @@
       "work_id": "w-shiji",
       "book_id": "b-shiji-128",
       "source_id": "s-shiji128-guice",
-      "source": {
-        "title": "史記／卷128",
-        "provider": "維基文庫",
-        "url": "https://zh.wikisource.org/wiki/史記/卷128",
-        "permalink": "https://zh.wikisource.org/w/index.php?title=史記/卷128&oldid=7904127",
-        "revision_id": 7904127,
-        "accessed_on": "2026-10-11",
-        "extent": "固定修訂全文95段，篇文5段、褚先生補文89段、索隱述贊1段。",
-        "image_verified": false,
-        "rights": "古代原文；數位轉錄依維基文庫CC BY-SA 4.0，保留署名及固定版本。",
-        "license_url": "https://creativecommons.org/licenses/by-sa/4.0/",
-        "normalization": {
-          "character_conversion": {},
-          "editorial_readings": [],
-          "extraction_note": "去header2、wikipedia導覽模板與現代節標；保留原字及（民）［氓］等來源校讀括號，未核影像。",
-          "note": "來源笔與帮字面疑訛；最近五個修訂皆有，不擅校改。萬畢石朱方、陰兢及周太子歷待校。"
-        }
-      }
+      "chapter_ref": "data/corpus/shiji/128.json"
     }
   ],
   "relations": [],
@@ -134,8 +121,8 @@
           "chapter_id": "c-shiji-128-guice",
           "source_id": "s-shiji128-guice",
           "paragraph_id": "c-shiji-128-guice:p010",
-          "quote": "南方老人用龜支床足，行二十餘歲，老人死，移床，龜尚生不死。龜能行氣導引。問者曰：「龜至神若此，然太卜官得生龜，何為輒殺取其甲乎？」近世江上人有得名龜，畜置之，家因大富。與人議，欲遣去。人教殺之勿遣，遣之破人家。龜見夢曰：「送我水中，無殺吾也。」其家終殺之。殺之后，身死，家不利。人民與君王者異道。人民得名龜，其狀類不宜殺也。以往古故事言之，古明王聖主皆殺而用之。",
-          "person_mention_id": "c-shiji-128-guice:m010-0000"
+          "person_mention_id": "c-shiji-128-guice:m010-0000",
+          "quote_passage_ref": "data/corpus/shiji/128.json"
         }
       ],
       "source_term": "老人死",

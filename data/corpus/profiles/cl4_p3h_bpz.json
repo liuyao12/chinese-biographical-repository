@@ -20,7 +20,6 @@
       "raw_count": 2,
       "duplicate_count": 0,
       "counting_policy": "independent_fixed_witness_occurrences",
-      "quote": "遍告諸侯。諸侯聞公子將，各遣將將兵救魏。公子率五國之兵破秦軍於河外，走蒙驁。遂乘勝逐秦軍至函谷關，抑秦兵，秦兵不敢出。當是時，公子威振天下，諸侯之客進兵法，公子皆名之，故世俗稱魏公子兵法。",
       "paragraph_ids": [
         "c-shiji-077-weigong:p013",
         "c-shiji-077-weigong:p015"
@@ -54,7 +53,12 @@
       "book_id": "b-shiji-077",
       "chapter_id": "c-shiji-077-weigong",
       "source_id": "s-shiji-077-weigong",
-      "work_title": "史記"
+      "work_title": "史記",
+      "chapter_ref": "data/corpus/shiji/077.json",
+      "quote_span": [
+        37,
+        131
+      ]
     }
   ],
   "table_occurrences": [],
@@ -64,24 +68,7 @@
       "work_id": "w-shiji",
       "book_id": "b-shiji-077",
       "source_id": "s-shiji-077-weigong",
-      "source": {
-        "title": "史記／卷077",
-        "provider": "維基文庫",
-        "url": "https://zh.wikisource.org/wiki/史記/卷077",
-        "permalink": "https://zh.wikisource.org/w/index.php?title=史記/卷077&oldid=367917",
-        "revision_id": 367917,
-        "accessed_on": "2026-10-09",
-        "extent": "17段正文，自魏公子無忌至太史公論贊；排除人物導覽、索隱述贊及現代版權告示。",
-        "image_verified": false,
-        "rights": "古代原文；數位轉錄依維基文庫CC BY-SA 4.0，保留署名及固定版本。",
-        "license_url": "https://creativecommons.org/licenses/by-sa/4.0/",
-        "normalization": {
-          "character_conversion": {},
-          "editorial_readings": [],
-          "extraction_note": "固定HTML與取得時版本一致，只去外緣空白；未見括號改讀提示，為、釐、籣、埽等原字保留。",
-          "note": "全17段正文及姓名首輪已核讀；未核底本、影像或現代研究。"
-        }
-      }
+      "chapter_ref": "data/corpus/shiji/077.json"
     }
   ],
   "relations": [],

@@ -1,9 +1,8 @@
+from scripts.corpus_overlay import edited_inputs
 # -*- coding: utf-8 -*-
 import copy
 import json
 from pathlib import Path
-import shutil
-import tempfile
 import unittest
 from scripts.validate_corpus import validate
 from scripts.person_bundle import bundle
@@ -18,9 +17,8 @@ class PersonEventsTests(unittest.TestCase):
         holding=next(h for h in result['title_holdings'] if h['title']=='中大夫')
         self.assertEqual(holding['effective_period']['start']['status'],'unknown')
     def test_recruitment_rejects_wrong_person_and_bce_year(self):
-        with tempfile.TemporaryDirectory() as temp:
-            root=Path(temp)
-            for name in ('registry','corpus'):shutil.copytree(ROOT/name,root/name)
+        with edited_inputs(ROOT):
+            root = ROOT
             path=root/'corpus/shiji/121-person-events.json';data=json.loads(path.read_text());e=data['events'][0]
             e['normalized_date']['year']=-134
             e['person_id']='fmh_dmt_cql'
@@ -39,17 +37,15 @@ class PersonEventsTests(unittest.TestCase):
         self.assertTrue(any(e['event_type']=='death' for e in result['life_events']))
     def test_burial_requires_actual_source_term(self):
         for term in ('悼王死','未見於原文的葬詞'):
-            with self.subTest(term=term), tempfile.TemporaryDirectory() as temp:
-                root=Path(temp)
-                for name in ('registry','corpus'):shutil.copytree(ROOT/name,root/name)
+            with self.subTest(term=term), edited_inputs(ROOT):
+                root = ROOT
                 path=root/'corpus/shiji/065-person-events.json';data=json.loads(path.read_text())
                 data['events'][0]['source_term']=term
                 path.write_text(json.dumps(data,ensure_ascii=False))
                 self.assertIn('埋葬事件須有原文明示葬詞及相符引句',validate(root))
     def test_burial_rejects_other_person_anchor(self):
-        with tempfile.TemporaryDirectory() as temp:
-            root=Path(temp)
-            for name in ('registry','corpus'):shutil.copytree(ROOT/name,root/name)
+        with edited_inputs(ROOT):
+            root = ROOT
             path=root/'corpus/shiji/065-person-events.json';data=json.loads(path.read_text())
             data['events'][0]['evidence'][0]['person_mention_id']='c-shiji-065-sun:m013-0124'
             path.write_text(json.dumps(data,ensure_ascii=False))

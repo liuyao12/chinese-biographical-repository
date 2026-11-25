@@ -21,7 +21,7 @@
           "chapter_id": "c-shiji-040-chu",
           "source_id": "s-shiji-040-chu",
           "paragraph_id": "c-shiji-040-chu:p020",
-          "quote": "莊王卽位三年，不出號令，日夜爲樂，令國中曰：「有敢諫者死無赦！」伍舉入諫。莊王左抱鄭姬，右抱越女，坐鐘鼓之閒。伍舉曰：「願有進隱。」曰：「有鳥在於阜，三年不蜚不鳴，是何鳥也？」莊王曰：「三年不蜚，蜚將沖天；三年不鳴，鳴將驚人。舉退矣，吾知之矣。」居數月，淫益甚。大夫蘇從乃入諫。王曰：「若不聞令乎？」對曰：「殺身以明君，臣之願也。」於是乃罷淫樂，聽政，所誅者數百人，所進者數百人，任伍舉、蘇從以政，國人大説。是歳滅庸。六年，伐宋，獲五百乘。"
+          "quote_passage_ref": "data/corpus/shiji/040.json"
         }
       ],
       "attestations": [
@@ -63,7 +63,6 @@
       "raw_count": 2,
       "duplicate_count": 0,
       "counting_policy": "independent_fixed_witness_occurrences",
-      "quote": "蜚將沖天；三年不鳴，鳴將驚人。舉退矣，吾知之矣。」居數月，淫益甚。大夫蘇從乃入諫。王曰：「若不聞令乎？」對曰：「殺身以明君，臣之願也。」於是乃罷淫樂，聽政，所誅者數百人，所進者數百人，任伍舉、蘇從以政，國人大説。是歳滅庸。六年，伐宋，獲五百乘。",
       "paragraph_ids": [
         "c-shiji-040-chu:p020"
       ],
@@ -96,7 +95,12 @@
       "book_id": "b-shiji-040",
       "chapter_id": "c-shiji-040-chu",
       "source_id": "s-shiji-040-chu",
-      "work_title": "史記"
+      "work_title": "史記",
+      "chapter_ref": "data/corpus/shiji/040.json",
+      "quote_span": [
+        98,
+        220
+      ]
     }
   ],
   "table_occurrences": [],
@@ -106,26 +110,7 @@
       "work_id": "w-shiji",
       "book_id": "b-shiji-040",
       "source_id": "s-shiji-040-chu",
-      "source": {
-        "title": "史記／卷040",
-        "provider": "維基文庫",
-        "url": "https://zh.wikisource.org/wiki/史記/卷040",
-        "permalink": "https://zh.wikisource.org/w/index.php?title=史記/卷040&oldid=8736796",
-        "revision_id": 8736796,
-        "accessed_on": "2026-10-09",
-        "extent": "96段正文及1段分層索隱述贊；排除2個dd導覽，去除段落外緣空白。",
-        "image_verified": false,
-        "rights": "古代原文；數位轉錄依維基文庫CC BY-SA 4.0，保留署名及固定版本。",
-        "license_url": "https://creativecommons.org/licenses/by-sa/4.0/",
-        "normalization": {
-          "character_conversion": {
-            "笔": "筆"
-          },
-          "editorial_readings": [],
-          "extraction_note": "固定修訂與取得時HTML一致；僅去除段落外緣空白，古代異體及校勘括號保留。 第70段笔轉筆，未將「西取筆秦」疑句自行校讀。",
-          "note": "全97段數位正文已核讀，人物標註與可靠底本、影像覆核尚未完成；不把數位轉錄當版本校定。"
-        }
-      }
+      "chapter_ref": "data/corpus/shiji/040.json"
     }
   ],
   "relations": [],

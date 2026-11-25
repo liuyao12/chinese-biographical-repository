@@ -21,7 +21,7 @@
           "chapter_id": "c-shiji-127-rizhe",
           "source_id": "s-shiji127-rizhe",
           "paragraph_id": "c-shiji-127-rizhe:p001",
-          "quote": "自古受命而王，王者之興何嘗不以卜筮決於天命哉！其於周尤甚，及秦可見。代王之入，任於卜者。太卜之起，由漢興而有。"
+          "quote_passage_ref": "data/corpus/shiji/127.json"
         }
       ],
       "attestations": [
@@ -64,7 +64,6 @@
       "raw_count": 1,
       "duplicate_count": 0,
       "counting_policy": "independent_fixed_witness_occurrences",
-      "quote": "自古受命而王，王者之興何嘗不以卜筮決於天命哉！其於周尤甚，及秦可見。代王之入，任於卜者。太卜之起，由漢興而有。",
       "paragraph_ids": [
         "c-shiji-127-rizhe:p001"
       ],
@@ -88,7 +87,12 @@
       "book_id": "b-shiji-127",
       "chapter_id": "c-shiji-127-rizhe",
       "source_id": "s-shiji127-rizhe",
-      "work_title": "史記"
+      "work_title": "史記",
+      "chapter_ref": "data/corpus/shiji/127.json",
+      "quote_span": [
+        0,
+        55
+      ]
     }
   ],
   "table_occurrences": [],
@@ -98,24 +102,7 @@
       "work_id": "w-shiji",
       "book_id": "b-shiji-127",
       "source_id": "s-shiji127-rizhe",
-      "source": {
-        "title": "史記／卷127",
-        "provider": "維基文庫",
-        "url": "https://zh.wikisource.org/wiki/史記/卷127",
-        "permalink": "https://zh.wikisource.org/w/index.php?title=史記/卷127&oldid=2609359",
-        "revision_id": 2609359,
-        "accessed_on": "2026-10-11",
-        "extent": "固定修訂全文21段，篇文19段、褚先生補文1段、索隱述贊1段。",
-        "image_verified": false,
-        "rights": "古代原文；數位轉錄依維基文庫CC BY-SA 4.0，保留署名及固定版本。",
-        "license_url": "https://creativecommons.org/licenses/by-sa/4.0/",
-        "normalization": {
-          "character_conversion": {},
-          "editorial_readings": [],
-          "extraction_note": "去header2、TOC、現代節標與wikipedia導覽模板；保留爲、髪、讬、歳等原字，未核影像。",
-          "note": "褚先生補文與索隱述贊依來源節標分層。"
-        }
-      }
+      "chapter_ref": "data/corpus/shiji/127.json"
     }
   ],
   "relations": [],

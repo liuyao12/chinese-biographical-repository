@@ -1,3 +1,4 @@
+import {storedProfile} from './read-stored-profile.mjs';
 import {readFileSync} from 'node:fs';
 import {setLocale} from '../assets/i18n.js';
 import test from 'node:test';
@@ -379,11 +380,11 @@ test('compact title summary shows attested periods while full profile retains un
 
 test('生卒首選與異說範圍保留並展示古注依據',()=>{
  setLocale('zh-Hant',{persist:false});
- const p=JSON.parse(readFileSync(new URL('../data/corpus/profiles/nuf_tb9_fjs_A.json',import.meta.url),'utf8'));const html=personCard(p,true);
+ const p=storedProfile(JSON.parse(readFileSync(new URL('../data/corpus/profiles/nuf_tb9_fjs_A.json',import.meta.url),'utf8')));const html=personCard(p,true);
  assert.match(html,/data-event-id="le-hanshu006-003" data-choice="preferred"/);assert.match(html,/data-event-id="le-shiji107-003" data-choice="alternative"/);assert.match(html,/西元前132至131年/);assert.match(html,/西元前131至130年/);assert.match(html,/按：五年者，誤也。/);assert.match(html,/oldid=2514777/);
 });
 test('紀年狀態可切英文，取捨參考拒絕腳本連結並轉義引文',()=>{
- const p=JSON.parse(readFileSync(new URL('../data/corpus/profiles/nuf_tb9_fjs_A.json',import.meta.url),'utf8'));const d=p.life_event_date_decisions.find(d=>d.id==='ld-shiji107-death-001');d.references=[{url:'javascript:alert(1)',quote:'<script>synthetic</script>',title:'synthetic'}];setLocale('en',{persist:false});let html=personCard(p,true);assert.match(html,/Provisional preferred date/);assert.doesNotMatch(html,/href="javascript:/);assert.match(html,/&lt;script&gt;synthetic&lt;\/script&gt;/);d.status='unresolved';d.preferred_event_id=null;html=personCard(p,true);assert.match(html,/Date choice unresolved/);setLocale('zh-Hant',{persist:false});
+ const p=storedProfile(JSON.parse(readFileSync(new URL('../data/corpus/profiles/nuf_tb9_fjs_A.json',import.meta.url),'utf8')));const d=p.life_event_date_decisions.find(d=>d.id==='ld-shiji107-death-001');d.references=[{url:'javascript:alert(1)',quote:'<script>synthetic</script>',title:'synthetic'}];setLocale('en',{persist:false});let html=personCard(p,true);assert.match(html,/Provisional preferred date/);assert.doesNotMatch(html,/href="javascript:/);assert.match(html,/&lt;script&gt;synthetic&lt;\/script&gt;/);d.status='unresolved';d.preferred_event_id=null;html=personCard(p,true);assert.match(html,/Date choice unresolved/);setLocale('zh-Hant',{persist:false});
 });
 
 test('distinct people retain separate profile links and escaped source evidence',()=>{
@@ -657,7 +658,7 @@ test('event-specific title chronology choice shows preference and preserves the 
 
 test('source-backed customary titles head the new Wang profiles',()=>{
  for (const [id,title,ming] of [['7r6_k52_qji_ABDABAA','文貞公','裕之'],['7r6_k52_qji_ABDABAACA','簡子','延之'],['7r6_k52_qji_ABDABAAB','貞子','瓚之']]) {
-  const p=JSON.parse(readFileSync(new URL('../data/corpus/profiles/'+id+'.json',import.meta.url),'utf8'));
+  const p=storedProfile(JSON.parse(readFileSync(new URL('../data/corpus/profiles/'+id+'.json',import.meta.url),'utf8')));
   const heading=personCard(p,true).match(/<h1>([\s\S]*?)<\/h1>/)?.[1];assert(heading);assert(heading.includes(title));assert(heading.includes(ming));
  }
 });

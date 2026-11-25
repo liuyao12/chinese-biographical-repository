@@ -22,7 +22,7 @@
           "chapter_id": "c-shiji-105-bianque",
           "source_id": "s-shiji-105-bianque",
           "paragraph_id": "c-shiji-105-bianque:p018",
-          "quote": "齊中御府長信病，臣意入診其脈，告曰：「熱病氣也。然暑汗，脈少衰，不死。」曰：「此病得之當浴流水而寒甚，已則熱。」信曰：「唯，然！往冬時，為王使於楚，至莒縣陽周水，而莒橋梁頗壞，信則擥車轅未欲渡也，馬驚，即墮，信身入水中，幾死，吏即來救信，出之水中，衣盡濡，有閒而身寒，已熱如火，至今不可以見寒。」臣意即為之液湯火齊逐熱，一飲汗盡，再飲熱去，三飲病已。即使服藥，出入二十日，身無病者。所以知信之病者，切其脈時，并陰。脈法曰「熱病陰陽交者死」。切之不交，并陰。并陰者，脈順清而愈，其熱雖未盡，猶活也。腎氣有時閒濁，在太陰脈口而希，是水氣也。腎固主水，故以此知之。失治一時，即轉為寒熱。"
+          "quote_passage_ref": "data/corpus/shiji/105.json"
         }
       ],
       "attestations": [
@@ -64,7 +64,6 @@
       "raw_count": 6,
       "duplicate_count": 0,
       "counting_policy": "independent_fixed_witness_occurrences",
-      "quote": "齊中御府長信病，臣意入診其脈，告曰：「熱病氣也。然暑汗，脈少衰，不死。」曰：「此病得之當浴流水而寒甚，已則熱。」信曰：「唯，然！往冬時，為王使於楚，至莒縣陽周水，而莒橋梁頗壞，信則擥車轅未欲渡也，馬驚，即墮，信身",
       "paragraph_ids": [
         "c-shiji-105-bianque:p018"
       ],
@@ -133,7 +132,12 @@
       "book_id": "b-shiji-105",
       "chapter_id": "c-shiji-105-bianque",
       "source_id": "s-shiji-105-bianque",
-      "work_title": "史記"
+      "work_title": "史記",
+      "chapter_ref": "data/corpus/shiji/105.json",
+      "quote_span": [
+        0,
+        106
+      ]
     }
   ],
   "table_occurrences": [],
@@ -143,24 +147,7 @@
       "work_id": "w-shiji",
       "book_id": "b-shiji-105",
       "source_id": "s-shiji-105-bianque",
-      "source": {
-        "title": "史記／卷105",
-        "provider": "維基文庫",
-        "url": "https://zh.wikisource.org/wiki/史記/卷105",
-        "permalink": "https://zh.wikisource.org/w/index.php?title=史記/卷105&oldid=8842726",
-        "revision_id": 8842726,
-        "accessed_on": "2026-10-10",
-        "extent": "48段正文含太史公論與答詔醫案，1段索隱述贊及3段見證附載正義。",
-        "image_verified": false,
-        "rights": "古代原文；數位轉錄依維基文庫CC BY-SA 4.0，保留署名及固定版本。",
-        "license_url": "https://creativecommons.org/licenses/by-sa/4.0/",
-        "normalization": {
-          "character_conversion": {},
-          "editorial_readings": [],
-          "extraction_note": "去標題與介面模板，原字、標點及段落次序保留。",
-          "note": "未核底本影像。"
-        }
-      }
+      "chapter_ref": "data/corpus/shiji/105.json"
     }
   ],
   "relations": [],

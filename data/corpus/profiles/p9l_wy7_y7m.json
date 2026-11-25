@@ -22,7 +22,7 @@
           "chapter_id": "c-shiji-065-sun",
           "source_id": "s-shiji-065-sun",
           "paragraph_id": "c-shiji-065-sun:p008",
-          "quote": "吳起於是聞魏文侯賢，欲事之。文侯問李克曰：「吳起何如人哉？」李克曰：「起貪而好色，然用兵司馬穰苴不能過也。」於是魏文侯以為將，擊秦，拔五城。"
+          "quote_passage_ref": "data/corpus/shiji/065.json"
         }
       ],
       "attestations": [
@@ -64,7 +64,6 @@
       "raw_count": 5,
       "duplicate_count": 0,
       "counting_policy": "independent_fixed_witness_occurrences",
-      "quote": "吳起於是聞魏文侯賢，欲事之。文侯問李克曰：「吳起何如人哉？」李克曰：「起貪而好色，然用兵司馬穰苴不能過也。」於是魏文侯以為將，擊秦，拔五城。",
       "paragraph_ids": [
         "c-shiji-065-sun:p008",
         "c-shiji-065-sun:p010"
@@ -125,7 +124,12 @@
       "book_id": "b-shiji-065",
       "chapter_id": "c-shiji-065-sun",
       "source_id": "s-shiji-065-sun",
-      "work_title": "史記"
+      "work_title": "史記",
+      "chapter_ref": "data/corpus/shiji/065.json",
+      "quote_span": [
+        0,
+        70
+      ]
     }
   ],
   "table_occurrences": [],
@@ -135,24 +139,7 @@
       "work_id": "w-shiji",
       "book_id": "b-shiji-065",
       "source_id": "s-shiji-065-sun",
-      "source": {
-        "title": "史記／卷065",
-        "provider": "維基文庫",
-        "url": "https://zh.wikisource.org/wiki/史記/卷065",
-        "permalink": "https://zh.wikisource.org/w/index.php?title=史記/卷065&oldid=2567048",
-        "revision_id": 2567048,
-        "accessed_on": "2026-10-09",
-        "extent": "14段正文，排除註釋版及2段導覽，無索隱述贊。",
-        "image_verified": false,
-        "rights": "古代原文；數位轉錄依維基文庫CC BY-SA 4.0，保留署名及固定版本。",
-        "license_url": "https://creativecommons.org/licenses/by-sa/4.0/",
-        "normalization": {
-          "character_conversion": {},
-          "editorial_readings": [],
-          "extraction_note": "取得時HTML與固定修訂一致，只去外緣空白。已核（即封）是正文括號文字，原樣保留，不當新增授爵事件。保留控棬、搏撠、擣虛、鉆火、贏糧、戰鬬等原字。",
-          "note": "全14段已核讀，未核可靠底本、影像或現代研究。"
-        }
-      }
+      "chapter_ref": "data/corpus/shiji/065.json"
     }
   ],
   "relations": [
@@ -167,7 +154,7 @@
           "chapter_id": "c-shiji-065-sun",
           "source_id": "s-shiji-065-sun",
           "paragraph_id": "c-shiji-065-sun:p010",
-          "quote": "文侯以吳起善用兵，廉平，盡能得士心，乃以為西河守，以拒秦、韓。魏文侯既卒，起事其子武侯。武侯浮西河而下，中流，顧而謂吳起曰：「美哉乎山河之固，此魏國之寶也！」起對曰：「在德不在險。昔三苗氏左洞庭，右彭蠡，德義不修，禹滅之。夏桀之居，左河濟，右泰華，伊闕在其南，羊腸在其北，修政不仁，湯放之。殷紂之國，左孟門，右太行，常山在其北，大河經其南，修政不德，武王殺之。由此觀之，在德不在險。若君不修德，舟中之人盡為敵國也。」武侯曰：「善。」"
+          "quote_passage_ref": "data/corpus/shiji/065.json"
         }
       ],
       "qualifiers": {
@@ -199,7 +186,7 @@
           "chapter_id": "c-shiji-065-sun",
           "source_id": "s-shiji-065-sun",
           "paragraph_id": "c-shiji-065-sun:p010",
-          "quote": "文侯以吳起善用兵，廉平，盡能得士心，乃以為西河守，以拒秦、韓。魏文侯既卒，起事其子武侯。武侯浮西河而下，中流，顧而謂吳起曰：「美哉乎山河之固，此魏國之寶也！」起對曰：「在德不在險。昔三苗氏左洞庭，右彭蠡，德義不修，禹滅之。夏桀之居，左河濟，右泰華，伊闕在其南，羊腸在其北，修政不仁，湯放之。殷紂之國，左孟門，右太行，常山在其北，大河經其南，修政不德，武王殺之。由此觀之，在德不在險。若君不修德，舟中之人盡為敵國也。」武侯曰：「善。」"
+          "quote_passage_ref": "data/corpus/shiji/065.json"
         }
       ],
       "qualifiers": {
@@ -222,10 +209,10 @@
       "evidence": [
         {
           "paragraph_id": "c-shiji-065-sun:p010",
-          "quote": "文侯以吳起善用兵，廉平，盡能得士心，乃以為西河守，以拒秦、韓。魏文侯既卒，起事其子武侯。武侯浮西河而下，中流，顧而謂吳起曰：「美哉乎山河之固，此魏國之寶也！」起對曰：「在德不在險。昔三苗氏左洞庭，右彭蠡，德義不修，禹滅之。夏桀之居，左河濟，右泰華，伊闕在其南，羊腸在其北，修政不仁，湯放之。殷紂之國，左孟門，右太行，常山在其北，大河經其南，修政不德，武王殺之。由此觀之，在德不在險。若君不修德，舟中之人盡為敵國也。」武侯曰：「善。」",
           "person_mention_id": "c-shiji-065-sun:m010-0000",
           "chapter_id": "c-shiji-065-sun",
-          "source_id": "s-shiji-065-sun"
+          "source_id": "s-shiji-065-sun",
+          "quote_passage_ref": "data/corpus/shiji/065.json"
         }
       ],
       "interpretation_note": "魏文侯死亡，日期未記。",

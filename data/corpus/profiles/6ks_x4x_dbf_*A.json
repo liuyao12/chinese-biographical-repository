@@ -22,7 +22,7 @@
           "chapter_id": "c-shiji-049-waiqi",
           "source_id": "s-shiji-049-waiqi",
           "paragraph_id": "c-shiji-049-waiqi:p023",
-          "quote": "景帝崩，太子襲號為皇帝。尊皇太后母臧兒為平原君。封田蚡為武安侯，勝為周陽侯。"
+          "quote_passage_ref": "data/corpus/shiji/049.json"
         }
       ],
       "attestations": [
@@ -46,7 +46,7 @@
               "chapter_id": "c-shiji-049-waiqi",
               "source_id": "s-shiji-049-waiqi",
               "paragraph_id": "c-shiji-049-waiqi:p023",
-              "quote": "景帝崩，太子襲號為皇帝。尊皇太后母臧兒為平原君。封田蚡為武安侯，勝為周陽侯。"
+              "quote_passage_ref": "data/corpus/shiji/049.json"
             }
           ]
         },
@@ -78,8 +78,8 @@
           "chapter_id": "c-shiji-049-waiqi",
           "source_id": "s-shiji-049-waiqi",
           "paragraph_id": "c-shiji-049-waiqi:p025",
-          "quote": "蓋侯信好酒。田蚡、勝貪，巧於文辭。王仲蚤死，葬槐裏，追尊為共侯，置園邑二百家。及平原君卒，從田氏葬長陵，置園比共侯園。而王太后後孝景帝十六歲，以元朔四年崩，合葬陽陵。王太后家凡三人為侯。",
-          "person_mention_id": "c-shiji-049-waiqi:m025-0040"
+          "person_mention_id": "c-shiji-049-waiqi:m025-0040",
+          "quote_passage_ref": "data/corpus/shiji/049.json"
         }
       ],
       "source_term": "及平原君卒，從田氏葬長陵",
@@ -100,7 +100,6 @@
       "raw_count": 9,
       "duplicate_count": 0,
       "counting_policy": "independent_fixed_witness_occurrences",
-      "quote": "王太后，槐裏人，母曰臧兒。臧兒者，故燕王臧荼孫也。臧兒嫁為槐裏王仲妻，生男曰信，與兩女。而仲死，臧兒更嫁長陵田氏，生男蚡、勝。臧兒長女嫁為金王孫婦，生一女矣，而臧兒卜筮之，曰兩女皆當貴。因欲奇兩女，乃奪金氏。金氏怒，不肯予決",
       "paragraph_ids": [
         "c-shiji-049-waiqi:p018",
         "c-shiji-049-waiqi:p019",
@@ -199,7 +198,12 @@
       "book_id": "b-shiji-049",
       "chapter_id": "c-shiji-049-waiqi",
       "source_id": "s-shiji-049-waiqi",
-      "work_title": "史記"
+      "work_title": "史記",
+      "chapter_ref": "data/corpus/shiji/049.json",
+      "quote_span": [
+        0,
+        112
+      ]
     },
     {
       "number": 95,
@@ -210,7 +214,6 @@
       "raw_count": 1,
       "duplicate_count": 0,
       "counting_policy": "independent_fixed_witness_occurrences",
-      "quote": "。得俞侯欒布自平齊來，乃下趙城，滅趙，王自殺，除國。孝景中二年，寄欲取平原君為夫人，景帝怒，下寄吏，有罪，奪侯。景帝乃以商他子堅封為繆侯，續酈氏後。繆靖侯卒，子康侯遂成立。遂成卒，子懷侯世宗立。世宗卒，子侯終根立，為太常，坐法，國除。",
       "paragraph_ids": [
         "c-shiji-095-fankuang:p015"
       ],
@@ -234,7 +237,12 @@
       "book_id": "b-shiji-095",
       "chapter_id": "c-shiji-095-fankuang",
       "source_id": "s-shiji-095-fankuang",
-      "work_title": "史記"
+      "work_title": "史記",
+      "chapter_ref": "data/corpus/shiji/095.json",
+      "quote_span": [
+        31,
+        148
+      ]
     }
   ],
   "table_occurrences": [],
@@ -244,48 +252,14 @@
       "work_id": "w-shiji",
       "book_id": "b-shiji-049",
       "source_id": "s-shiji-049-waiqi",
-      "source": {
-        "title": "史記／卷049",
-        "provider": "維基文庫",
-        "url": "https://zh.wikisource.org/wiki/史記/卷049",
-        "permalink": "https://zh.wikisource.org/w/index.php?title=史記/卷049&oldid=7903610",
-        "revision_id": 7903610,
-        "accessed_on": "2026-10-09",
-        "extent": "44段史文，前34段篇文，後10段自褚先生曰起為附載文字；數位分節欄題不是古文段落。",
-        "image_verified": false,
-        "rights": "古代原文；數位轉錄依維基文庫CC BY-SA 4.0，保留署名及固定版本。",
-        "license_url": "https://creativecommons.org/licenses/by-sa/4.0/",
-        "normalization": {
-          "character_conversion": {},
-          "editorial_readings": [],
-          "extraction_note": "固定修訂與取得時HTML相同，只去段落外緣空白；保留（寒）［暮］、［及尊］、（子）［一］及號日等數位見證原字與校勘字樣。",
-          "note": "全44段已讀並作明示人名首輪；未核底本、影像或現代研究。"
-        }
-      }
+      "chapter_ref": "data/corpus/shiji/049.json"
     },
     {
       "chapter_id": "c-shiji-095-fankuang",
       "work_id": "w-shiji",
       "book_id": "b-shiji-095",
       "source_id": "s-shiji-095-fankuang",
-      "source": {
-        "title": "史記／卷095",
-        "provider": "維基文庫",
-        "url": "https://zh.wikisource.org/wiki/史記/卷095",
-        "permalink": "https://zh.wikisource.org/w/index.php?title=史記/卷095&oldid=2298709",
-        "revision_id": 2298709,
-        "accessed_on": "2026-10-09",
-        "extent": "34段傳世正文含太史公論，另附1段分層索隱述贊；排除導覽與空白。",
-        "image_verified": false,
-        "rights": "古代原文；數位轉錄依維基文庫CC BY-SA 4.0，保留署名及固定版本。",
-        "license_url": "https://creativecommons.org/licenses/by-sa/4.0/",
-        "normalization": {
-          "character_conversion": {},
-          "editorial_readings": [],
-          "extraction_note": "固定HTML一致，只去外緣空白；樊噌、（肩）［屏］、（博）［傅］、（太卜）太仆、穎陰等原字保留。",
-          "note": "全37個HTML區塊已讀，未核底本影像。"
-        }
-      }
+      "chapter_ref": "data/corpus/shiji/095.json"
     }
   ],
   "relations": [
@@ -300,7 +274,7 @@
           "chapter_id": "c-shiji-049-waiqi",
           "source_id": "s-shiji-049-waiqi",
           "paragraph_id": "c-shiji-049-waiqi:p018",
-          "quote": "王太后，槐裏人，母曰臧兒。臧兒者，故燕王臧荼孫也。臧兒嫁為槐裏王仲妻，生男曰信，與兩女。而仲死，臧兒更嫁長陵田氏，生男蚡、勝。臧兒長女嫁為金王孫婦，生一女矣，而臧兒卜筮之，曰兩女皆當貴。因欲奇兩女，乃奪金氏。金氏怒，不肯予決，乃內之太子宮。太子幸愛之，生三女一男。男方在身時，王美人夢日入其懷。以告太子，太子曰：「此貴徵也。」未生而孝文帝崩，孝景帝即位，王夫人生男。"
+          "quote_passage_ref": "data/corpus/shiji/049.json"
         }
       ],
       "qualifiers": {
@@ -321,7 +295,7 @@
           "chapter_id": "c-shiji-049-waiqi",
           "source_id": "s-shiji-049-waiqi",
           "paragraph_id": "c-shiji-049-waiqi:p018",
-          "quote": "王太后，槐裏人，母曰臧兒。臧兒者，故燕王臧荼孫也。臧兒嫁為槐裏王仲妻，生男曰信，與兩女。而仲死，臧兒更嫁長陵田氏，生男蚡、勝。臧兒長女嫁為金王孫婦，生一女矣，而臧兒卜筮之，曰兩女皆當貴。因欲奇兩女，乃奪金氏。金氏怒，不肯予決，乃內之太子宮。太子幸愛之，生三女一男。男方在身時，王美人夢日入其懷。以告太子，太子曰：「此貴徵也。」未生而孝文帝崩，孝景帝即位，王夫人生男。"
+          "quote_passage_ref": "data/corpus/shiji/049.json"
         }
       ],
       "qualifiers": {
@@ -342,7 +316,7 @@
           "chapter_id": "c-shiji-049-waiqi",
           "source_id": "s-shiji-049-waiqi",
           "paragraph_id": "c-shiji-049-waiqi:p018",
-          "quote": "王太后，槐裏人，母曰臧兒。臧兒者，故燕王臧荼孫也。臧兒嫁為槐裏王仲妻，生男曰信，與兩女。而仲死，臧兒更嫁長陵田氏，生男蚡、勝。臧兒長女嫁為金王孫婦，生一女矣，而臧兒卜筮之，曰兩女皆當貴。因欲奇兩女，乃奪金氏。金氏怒，不肯予決，乃內之太子宮。太子幸愛之，生三女一男。男方在身時，王美人夢日入其懷。以告太子，太子曰：「此貴徵也。」未生而孝文帝崩，孝景帝即位，王夫人生男。"
+          "quote_passage_ref": "data/corpus/shiji/049.json"
         }
       ],
       "qualifiers": {
@@ -363,7 +337,7 @@
           "chapter_id": "c-shiji-049-waiqi",
           "source_id": "s-shiji-049-waiqi",
           "paragraph_id": "c-shiji-049-waiqi:p018",
-          "quote": "王太后，槐裏人，母曰臧兒。臧兒者，故燕王臧荼孫也。臧兒嫁為槐裏王仲妻，生男曰信，與兩女。而仲死，臧兒更嫁長陵田氏，生男蚡、勝。臧兒長女嫁為金王孫婦，生一女矣，而臧兒卜筮之，曰兩女皆當貴。因欲奇兩女，乃奪金氏。金氏怒，不肯予決，乃內之太子宮。太子幸愛之，生三女一男。男方在身時，王美人夢日入其懷。以告太子，太子曰：「此貴徵也。」未生而孝文帝崩，孝景帝即位，王夫人生男。"
+          "quote_passage_ref": "data/corpus/shiji/049.json"
         }
       ],
       "qualifiers": {
@@ -384,7 +358,7 @@
           "chapter_id": "c-shiji-049-waiqi",
           "source_id": "s-shiji-049-waiqi",
           "paragraph_id": "c-shiji-049-waiqi:p018",
-          "quote": "王太后，槐裏人，母曰臧兒。臧兒者，故燕王臧荼孫也。臧兒嫁為槐裏王仲妻，生男曰信，與兩女。而仲死，臧兒更嫁長陵田氏，生男蚡、勝。臧兒長女嫁為金王孫婦，生一女矣，而臧兒卜筮之，曰兩女皆當貴。因欲奇兩女，乃奪金氏。金氏怒，不肯予決，乃內之太子宮。太子幸愛之，生三女一男。男方在身時，王美人夢日入其懷。以告太子，太子曰：「此貴徵也。」未生而孝文帝崩，孝景帝即位，王夫人生男。"
+          "quote_passage_ref": "data/corpus/shiji/049.json"
         }
       ],
       "qualifiers": {
@@ -405,7 +379,7 @@
           "chapter_id": "c-shiji-049-waiqi",
           "source_id": "s-shiji-049-waiqi",
           "paragraph_id": "c-shiji-049-waiqi:p019",
-          "quote": "先是臧兒又入其少女兒姁，兒姁生四男。景帝為太子時，薄太后以薄氏女為妃。及景帝立，立妃曰薄皇后。皇后毋子，毋寵。薄太后崩，廢薄皇后。"
+          "quote_passage_ref": "data/corpus/shiji/049.json"
         }
       ],
       "qualifiers": {
@@ -444,16 +418,15 @@
           "chapter_id": "c-shiji-095-fankuang",
           "source_id": "s-shiji-095-fankuang",
           "paragraph_id": "c-shiji-095-fankuang:p015",
-          "quote": "孝景前三年，吳、楚、齊、趙反，上以寄為將軍，圍趙城，十月不能下。得俞侯欒布自平齊來，乃下趙城，滅趙，王自殺，除國。孝景中二年，寄欲取平原君為夫人，景帝怒，下寄吏，有罪，奪侯。景帝乃以商他子堅封為繆侯，續酈氏後。繆靖侯卒，子康侯遂成立。遂成卒，子懷侯世宗立。世宗卒，子侯終根立，為太常，坐法，國除。",
           "mention_ids": [
             "c-shiji-095-fankuang:m015-0066"
-          ]
+          ],
+          "quote_passage_ref": "data/corpus/shiji/095.json"
         },
         {
           "chapter_id": "c-shiji-049-waiqi",
           "source_id": "s-shiji-049-waiqi",
           "paragraph_id": "c-shiji-049-waiqi:p018",
-          "quote": "王太后，槐裏人，母曰臧兒。臧兒者，故燕王臧荼孫也。臧兒嫁為槐裏王仲妻，生男曰信，與兩女。而仲死，臧兒更嫁長陵田氏，生男蚡、勝。臧兒長女嫁為金王孫婦，生一女矣，而臧兒卜筮之，曰兩女皆當貴。因欲奇兩女，乃奪金氏。金氏怒，不肯予決，乃內之太子宮。太子幸愛之，生三女一男。男方在身時，王美人夢日入其懷。以告太子，太子曰：「此貴徵也。」未生而孝文帝崩，孝景帝即位，王夫人生男。",
           "mention_ids": [
             "c-shiji-049-waiqi:m018-0010",
             "c-shiji-049-waiqi:m018-0013",
@@ -461,16 +434,17 @@
             "c-shiji-049-waiqi:m018-0048",
             "c-shiji-049-waiqi:m018-0063",
             "c-shiji-049-waiqi:m018-0080"
-          ]
+          ],
+          "quote_passage_ref": "data/corpus/shiji/049.json"
         },
         {
           "chapter_id": "c-shiji-049-waiqi",
           "source_id": "s-shiji-049-waiqi",
           "paragraph_id": "c-shiji-049-waiqi:p023",
-          "quote": "景帝崩，太子襲號為皇帝。尊皇太后母臧兒為平原君。封田蚡為武安侯，勝為周陽侯。",
           "mention_ids": [
             "c-shiji-049-waiqi:m023-0017"
-          ]
+          ],
+          "quote_passage_ref": "data/corpus/shiji/049.json"
         }
       ],
       "rationale": "景帝時酈寄欲取為夫人的平原君，採《集解》所引蘇林明辨為景帝王皇后母臧兒，並對讀〈外戚世家〉母女與封平原君記載。古注辨識另記參考；後來封號被用於此前敘事，不據此把授號時間提前，更非戰國趙勝。 原文與來源錨點保留；同書跨篇不當獨立見證，未核書影。",
@@ -507,7 +481,7 @@
           "chapter_id": "c-shiji-049-waiqi",
           "source_id": "s-shiji-049-waiqi",
           "paragraph_id": "c-shiji-049-waiqi:p018",
-          "quote": "王太后，槐裏人，母曰臧兒。臧兒者，故燕王臧荼孫也。臧兒嫁為槐裏王仲妻，生男曰信，與兩女。而仲死，臧兒更嫁長陵田氏，生男蚡、勝。臧兒長女嫁為金王孫婦，生一女矣，而臧兒卜筮之，曰兩女皆當貴。因欲奇兩女，乃奪金氏。金氏怒，不肯予決，乃內之太子宮。太子幸愛之，生三女一男。男方在身時，王美人夢日入其懷。以告太子，太子曰：「此貴徵也。」未生而孝文帝崩，孝景帝即位，王夫人生男。"
+          "quote_passage_ref": "data/corpus/shiji/049.json"
         }
       ],
       "qualifiers": {
@@ -528,7 +502,7 @@
           "chapter_id": "c-shiji-049-waiqi",
           "source_id": "s-shiji-049-waiqi",
           "paragraph_id": "c-shiji-049-waiqi:p018",
-          "quote": "王太后，槐裏人，母曰臧兒。臧兒者，故燕王臧荼孫也。臧兒嫁為槐裏王仲妻，生男曰信，與兩女。而仲死，臧兒更嫁長陵田氏，生男蚡、勝。臧兒長女嫁為金王孫婦，生一女矣，而臧兒卜筮之，曰兩女皆當貴。因欲奇兩女，乃奪金氏。金氏怒，不肯予決，乃內之太子宮。太子幸愛之，生三女一男。男方在身時，王美人夢日入其懷。以告太子，太子曰：「此貴徵也。」未生而孝文帝崩，孝景帝即位，王夫人生男。"
+          "quote_passage_ref": "data/corpus/shiji/049.json"
         }
       ],
       "qualifiers": {
@@ -549,7 +523,7 @@
           "chapter_id": "c-shiji-049-waiqi",
           "source_id": "s-shiji-049-waiqi",
           "paragraph_id": "c-shiji-049-waiqi:p018",
-          "quote": "王太后，槐裏人，母曰臧兒。臧兒者，故燕王臧荼孫也。臧兒嫁為槐裏王仲妻，生男曰信，與兩女。而仲死，臧兒更嫁長陵田氏，生男蚡、勝。臧兒長女嫁為金王孫婦，生一女矣，而臧兒卜筮之，曰兩女皆當貴。因欲奇兩女，乃奪金氏。金氏怒，不肯予決，乃內之太子宮。太子幸愛之，生三女一男。男方在身時，王美人夢日入其懷。以告太子，太子曰：「此貴徵也。」未生而孝文帝崩，孝景帝即位，王夫人生男。"
+          "quote_passage_ref": "data/corpus/shiji/049.json"
         }
       ],
       "qualifiers": {
@@ -570,7 +544,7 @@
           "chapter_id": "c-shiji-049-waiqi",
           "source_id": "s-shiji-049-waiqi",
           "paragraph_id": "c-shiji-049-waiqi:p018",
-          "quote": "王太后，槐裏人，母曰臧兒。臧兒者，故燕王臧荼孫也。臧兒嫁為槐裏王仲妻，生男曰信，與兩女。而仲死，臧兒更嫁長陵田氏，生男蚡、勝。臧兒長女嫁為金王孫婦，生一女矣，而臧兒卜筮之，曰兩女皆當貴。因欲奇兩女，乃奪金氏。金氏怒，不肯予決，乃內之太子宮。太子幸愛之，生三女一男。男方在身時，王美人夢日入其懷。以告太子，太子曰：「此貴徵也。」未生而孝文帝崩，孝景帝即位，王夫人生男。"
+          "quote_passage_ref": "data/corpus/shiji/049.json"
         }
       ],
       "qualifiers": {
@@ -591,7 +565,7 @@
           "chapter_id": "c-shiji-049-waiqi",
           "source_id": "s-shiji-049-waiqi",
           "paragraph_id": "c-shiji-049-waiqi:p018",
-          "quote": "王太后，槐裏人，母曰臧兒。臧兒者，故燕王臧荼孫也。臧兒嫁為槐裏王仲妻，生男曰信，與兩女。而仲死，臧兒更嫁長陵田氏，生男蚡、勝。臧兒長女嫁為金王孫婦，生一女矣，而臧兒卜筮之，曰兩女皆當貴。因欲奇兩女，乃奪金氏。金氏怒，不肯予決，乃內之太子宮。太子幸愛之，生三女一男。男方在身時，王美人夢日入其懷。以告太子，太子曰：「此貴徵也。」未生而孝文帝崩，孝景帝即位，王夫人生男。"
+          "quote_passage_ref": "data/corpus/shiji/049.json"
         }
       ],
       "qualifiers": {
@@ -612,7 +586,7 @@
           "chapter_id": "c-shiji-049-waiqi",
           "source_id": "s-shiji-049-waiqi",
           "paragraph_id": "c-shiji-049-waiqi:p019",
-          "quote": "先是臧兒又入其少女兒姁，兒姁生四男。景帝為太子時，薄太后以薄氏女為妃。及景帝立，立妃曰薄皇后。皇后毋子，毋寵。薄太后崩，廢薄皇后。"
+          "quote_passage_ref": "data/corpus/shiji/049.json"
         }
       ],
       "qualifiers": {
@@ -636,8 +610,8 @@
           "chapter_id": "c-shiji-049-waiqi",
           "source_id": "s-shiji-049-waiqi",
           "paragraph_id": "c-shiji-049-waiqi:p025",
-          "quote": "蓋侯信好酒。田蚡、勝貪，巧於文辭。王仲蚤死，葬槐裏，追尊為共侯，置園邑二百家。及平原君卒，從田氏葬長陵，置園比共侯園。而王太后後孝景帝十六歲，以元朔四年崩，合葬陽陵。王太后家凡三人為侯。",
-          "person_mention_id": "c-shiji-049-waiqi:m025-0040"
+          "person_mention_id": "c-shiji-049-waiqi:m025-0040",
+          "quote_passage_ref": "data/corpus/shiji/049.json"
         }
       ],
       "source_term": "及平原君卒",

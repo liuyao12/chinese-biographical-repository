@@ -21,7 +21,7 @@
           "chapter_id": "c-shiji-093-hanlu",
           "source_id": "s-shiji-093-hanlu",
           "paragraph_id": "c-shiji-093-hanlu:p016",
-          "quote": "上聞，乃赦趙、代吏人為豨所詿誤劫略者，皆赦之。上自往，至邯鄲，喜曰：「豨不南據漳水，北守邯鄲，知其無能為也。」趙相奏斬常山守、尉，曰：「常山二十五城，豨反，亡其二十城。」上問曰：「守、尉反乎？」對曰：「不反。」上曰：「是力不足也。」赦之，復以為常山守、尉。上問周昌曰：「趙亦有壯士可令將者乎？」對曰：「有四人。」四人謁，上謾罵曰：「豎子能為將乎？」四人慚伏。上封之各千戶，以為將。左右諫曰：「從入蜀、漢，伐楚，功未遍行，今此何功而封？」上曰：「非若所知！陳豨反，邯鄲以北皆豨有，吾以羽檄徵天下兵，未有至者，今唯獨邯鄲中兵耳。吾胡愛四千戶封四人，不以慰趙子弟！」皆曰：「善。」於是上曰：「陳豨將誰？」曰：「王黃、曼丘臣，皆故賈人。」上曰：「吾知之矣。」乃各以千金購黃、臣等。"
+          "quote_passage_ref": "data/corpus/shiji/093.json"
         }
       ],
       "attestations": [
@@ -63,7 +63,6 @@
       "raw_count": 3,
       "duplicate_count": 0,
       "counting_policy": "independent_fixed_witness_occurrences",
-      "quote": "邯鄲，喜曰：「豨不南據漳水，北守邯鄲，知其無能為也。」趙相奏斬常山守、尉，曰：「常山二十五城，豨反，亡其二十城。」上問曰：「守、尉反乎？」對曰：「不反。」上曰：「是力不足也。」赦之，復以為常山守、尉。上問周昌曰：「趙亦有壯士可令將者乎？」對曰：「有四人。」四人謁，上謾罵曰",
       "paragraph_ids": [
         "c-shiji-093-hanlu:p016"
       ],
@@ -105,7 +104,12 @@
       "book_id": "b-shiji-093",
       "chapter_id": "c-shiji-093-hanlu",
       "source_id": "s-shiji-093-hanlu",
-      "work_title": "史記"
+      "work_title": "史記",
+      "chapter_ref": "data/corpus/shiji/093.json",
+      "quote_span": [
+        28,
+        164
+      ]
     }
   ],
   "table_occurrences": [],
@@ -115,24 +119,7 @@
       "work_id": "w-shiji",
       "book_id": "b-shiji-093",
       "source_id": "s-shiji-093-hanlu",
-      "source": {
-        "title": "史記／卷093",
-        "provider": "維基文庫",
-        "url": "https://zh.wikisource.org/wiki/史記/卷093",
-        "permalink": "https://zh.wikisource.org/w/index.php?title=史記/卷093&oldid=368019",
-        "revision_id": 368019,
-        "accessed_on": "2026-10-09",
-        "extent": "20段傳世正文含太史公論，另附1段witness_appended_suoyin_zan，排除導覽與空白段。",
-        "image_verified": false,
-        "rights": "古代原文；數位轉錄依維基文庫CC BY-SA 4.0，保留署名及固定版本。",
-        "license_url": "https://creativecommons.org/licenses/by-sa/4.0/",
-        "normalization": {
-          "character_conversion": {},
-          "editorial_readings": [],
-          "extraction_note": "固定HTML一致，只去外緣空白；（與）其與、代（上）谷、虜綰、臧茶、龍頟及高祖竟崩原字保留。",
-          "note": "全23個HTML區塊已讀，未核底本影像，疑字不擅改。"
-        }
-      }
+      "chapter_ref": "data/corpus/shiji/093.json"
     }
   ],
   "relations": [],

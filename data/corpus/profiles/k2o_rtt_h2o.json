@@ -21,7 +21,7 @@
           "chapter_id": "c-shiji-003-yin",
           "source_id": "s-shiji-003-yin",
           "paragraph_id": "c-shiji-003-yin:p016",
-          "quote": "帝雍己崩，弟太戊立，是為帝太戊。帝太戊立伊陟為相。亳有祥，桑穀共生於朝，一暮大拱。帝太戊懼，問伊陟。伊陟曰：「臣聞妖不勝德，帝之政其有闕與？帝其修德。」太戊從之，而祥桑枯死而去。伊陟贊言于巫咸。巫咸治王家有成，作咸艾，作太戊。帝太戊贊伊陟于廟，言弗臣，伊陟讓，作原命。殷復興，諸侯歸之，故稱中宗。"
+          "quote_passage_ref": "data/corpus/shiji/003.json"
         }
       ],
       "attestations": [
@@ -46,7 +46,7 @@
               "chapter_id": "c-shiji-003-yin",
               "source_id": "s-shiji-003-yin",
               "paragraph_id": "c-shiji-003-yin:p016",
-              "quote": "帝雍己崩，弟太戊立，是為帝太戊。帝太戊立伊陟為相。亳有祥，桑穀共生於朝，一暮大拱。帝太戊懼，問伊陟。伊陟曰：「臣聞妖不勝德，帝之政其有闕與？帝其修德。」太戊從之，而祥桑枯死而去。伊陟贊言于巫咸。巫咸治王家有成，作咸艾，作太戊。帝太戊贊伊陟于廟，言弗臣，伊陟讓，作原命。殷復興，諸侯歸之，故稱中宗。"
+              "quote_passage_ref": "data/corpus/shiji/003.json"
             }
           ]
         },
@@ -72,7 +72,6 @@
       "raw_count": 6,
       "duplicate_count": 0,
       "counting_policy": "independent_fixed_witness_occurrences",
-      "quote": "帝雍己崩，弟太戊立，是為帝太戊。帝太戊立伊陟為相。亳有祥，桑穀共生於朝，一暮大拱。帝太戊懼，問伊陟。伊陟曰：「臣聞妖不勝德，帝之政其有闕與？帝其修德。」太戊從之，而祥桑枯死而去。伊陟贊言于巫咸。巫咸治王家有成，作咸艾，作太戊。帝太戊贊伊陟于廟，",
       "paragraph_ids": [
         "c-shiji-003-yin:p016"
       ],
@@ -141,7 +140,12 @@
       "book_id": "b-shiji-003",
       "chapter_id": "c-shiji-003-yin",
       "source_id": "s-shiji-003-yin",
-      "work_title": "史記"
+      "work_title": "史記",
+      "chapter_ref": "data/corpus/shiji/003.json",
+      "quote_span": [
+        0,
+        122
+      ]
     },
     {
       "number": 34,
@@ -152,7 +156,6 @@
       "raw_count": 1,
       "duplicate_count": 0,
       "counting_policy": "independent_fixed_witness_occurrences",
-      "quote": "作君奭。君奭不説周公。周公乃稱「湯時有伊尹，假于皇天；在太戊時，則有若伊陟、臣扈，假于上帝，巫咸治王家；在祖乙時，則有若巫賢；在武丁時，則有若甘般：率維茲有陳，保乂有殷」。於是召公乃説。",
       "paragraph_ids": [
         "c-shiji-034-yan:p002"
       ],
@@ -176,7 +179,12 @@
       "book_id": "b-shiji-034",
       "chapter_id": "c-shiji-034-yan",
       "source_id": "s-shiji-034-yan",
-      "work_title": "史記"
+      "work_title": "史記",
+      "chapter_ref": "data/corpus/shiji/034.json",
+      "quote_span": [
+        52,
+        145
+      ]
     }
   ],
   "table_occurrences": [],
@@ -186,65 +194,14 @@
       "work_id": "w-shiji",
       "book_id": "b-shiji-003",
       "source_id": "s-shiji-003-yin",
-      "source": {
-        "title": "史記／卷003",
-        "provider": "維基文庫",
-        "url": "https://zh.wikisource.org/wiki/史記/卷003",
-        "permalink": "https://zh.wikisource.org/w/index.php?title=史記/卷003&oldid=7909145",
-        "revision_id": 7909145,
-        "accessed_on": "2026-10-09",
-        "extent": "正文全文；不含現代章節標題與註號。",
-        "image_verified": false,
-        "rights": "古代原文；數位轉錄依維基文庫 CC BY-SA 4.0，保留署名及固定版本。",
-        "license_url": "https://creativecommons.org/licenses/by-sa/4.0/",
-        "normalization": {
-          "character_conversion": {
-            "弃": "棄"
-          },
-          "note": "只轉換棄字字形；保留中𤳹、筑、犇等來源字形，移除現代註號。"
-        }
-      }
+      "chapter_ref": "data/corpus/shiji/003.json"
     },
     {
       "chapter_id": "c-shiji-034-yan",
       "work_id": "w-shiji",
       "book_id": "b-shiji-034",
       "source_id": "s-shiji-034-yan",
-      "source": {
-        "title": "史記／卷034",
-        "provider": "維基文庫",
-        "url": "https://zh.wikisource.org/wiki/史記/卷034",
-        "permalink": "https://zh.wikisource.org/w/index.php?title=史記/卷034&oldid=2559287",
-        "revision_id": 2559287,
-        "accessed_on": "2026-10-09",
-        "extent": "正文35個p區塊，自召公奭與周同姓至太史公論贊；排除兩個dd導覽，未混入版權／介面文字。",
-        "image_verified": false,
-        "rights": "古代原文；數位轉錄依維基文庫CC BY-SA 4.0，保留署名及固定版本。",
-        "license_url": "https://creativecommons.org/licenses/by-sa/4.0/",
-        "normalization": {
-          "character_conversion": {
-            "为": "為",
-            "时": "時",
-            "与": "與",
-            "乐": "樂",
-            "骑": "騎",
-            "将": "將",
-            "赵": "趙",
-            "齐": "齊",
-            "单": "單",
-            "击": "擊",
-            "败": "敗",
-            "军": "軍",
-            "归": "歸",
-            "复": "復",
-            "闵": "閔",
-            "韩": "韓"
-          },
-          "editorial_readings": [],
-          "extraction_note": "固定版本與實讀HTML一致；第27段簡體及第28段韓字按明列字形轉換，保留爲、呉、説、歳、髙等異體與校勘括號。",
-          "note": "召王、笆棠、燕王噲死問孤等疑讀未由記憶訂正；第31、32、35段插改字及地名校勘符號保留待核。篇名頁不存在，實讀卷034頁；未核影像、底本或現代研究。"
-        }
-      }
+      "chapter_ref": "data/corpus/shiji/034.json"
     }
   ],
   "relations": [],

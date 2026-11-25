@@ -33,7 +33,7 @@
           "chapter_id": "c-shiji-113-nanyue",
           "source_id": "s-shiji113-nanyue",
           "paragraph_id": "c-shiji-113-nanyue:p006",
-          "quote": "嬰齊代立，即藏其先武帝璽。嬰齊其入宿衛在長安時，取邯鄲樛氏女，生子興。及即位，上書請立樛氏女為后，興為嗣。漢數使使者風諭嬰齊，嬰齊尚樂擅殺生自恣，懼入見要用漢法，比內諸侯，固稱病，遂不入見。遣子次公入宿衛。嬰齊薨，謚為明王。"
+          "quote_passage_ref": "data/corpus/shiji/113.json"
         }
       ],
       "source_term": "邯鄲樛氏女",
@@ -54,7 +54,6 @@
       "raw_count": 2,
       "duplicate_count": 0,
       "counting_policy": "independent_fixed_witness_occurrences",
-      "quote": "初南越文王遣其子嬰齊入宿衛在長安取邯鄲樛氏女生子興文王薨嬰齊立乃蔵其先武帝璽上書請立樛氏女為后興為嗣",
       "paragraph_ids": [
         "c-zizhitongjian-020-han12:p-nanyue-001"
       ],
@@ -87,7 +86,12 @@
       "book_id": "b-zizhitongjian-020",
       "chapter_id": "c-zizhitongjian-020-han12",
       "source_id": "s-zizhitongjian-020-han12",
-      "work_title": "資治通鑑"
+      "work_title": "資治通鑑",
+      "chapter_ref": "data/corpus/zizhitongjian/020.json",
+      "quote_span": [
+        0,
+        50
+      ]
     },
     {
       "number": 113,
@@ -98,7 +102,6 @@
       "raw_count": 24,
       "duplicate_count": 0,
       "counting_policy": "independent_fixed_witness_occurrences",
-      "quote": "嬰齊代立，即藏其先武帝璽。嬰齊其入宿衛在長安時，取邯鄲樛氏女，生子興。及即位，上書請立樛氏女為后，興為嗣。漢數使使者風諭嬰齊，嬰齊尚樂擅殺生自恣，懼入見要用漢法，比內諸侯，固稱病，遂不入見。遣子次公入宿衛。嬰齊薨，謚為明王。",
       "paragraph_ids": [
         "c-shiji-113-nanyue:p006",
         "c-shiji-113-nanyue:p007",
@@ -334,7 +337,12 @@
       "book_id": "b-shiji-113",
       "chapter_id": "c-shiji-113-nanyue",
       "source_id": "s-shiji113-nanyue",
-      "work_title": "史記"
+      "work_title": "史記",
+      "chapter_ref": "data/corpus/shiji/113.json",
+      "quote_span": [
+        0,
+        112
+      ]
     }
   ],
   "table_occurrences": [],
@@ -344,62 +352,14 @@
       "work_id": "w-shiji",
       "book_id": "b-shiji-113",
       "source_id": "s-shiji113-nanyue",
-      "source": {
-        "title": "史記／卷113",
-        "provider": "維基文庫",
-        "url": "https://zh.wikisource.org/wiki/史記/卷113",
-        "permalink": "https://zh.wikisource.org/w/index.php?title=史記/卷113&oldid=8735632",
-        "revision_id": 8735632,
-        "accessed_on": "2026-10-11",
-        "extent": "固定數位見證14段，末段索隱述贊分層。",
-        "image_verified": false,
-        "rights": "古代原文；數位轉錄依維基文庫CC BY-SA 4.0，保留署名及固定版本。",
-        "license_url": "https://creativecommons.org/licenses/by-sa/4.0/",
-        "normalization": {
-          "character_conversion": {},
-          "editorial_readings": [],
-          "extraction_note": "去header2及現代節標題，YL紀年模板僅去外殼保留原字。未核底本影像。",
-          "note": "索隱述贊另層，不混作正文。"
-        }
-      }
+      "chapter_ref": "data/corpus/shiji/113.json"
     },
     {
       "chapter_id": "c-zizhitongjian-020-han12",
       "work_id": "w-zizhitongjian",
       "book_id": "b-zizhitongjian-020",
       "source_id": "s-zizhitongjian-020-han12",
-      "source": {
-        "title": "資治通鑑卷二十（固定數位轉錄，版本標記待核）",
-        "provider": "Kanripo",
-        "url": "https://github.com/kanripo/KR2b0007/blob/80174f61e491db29f9921d0d3e54a59649419aa9/KR2b0007_020.txt",
-        "permalink": "https://github.com/kanripo/KR2b0007/blob/80174f61e491db29f9921d0d3e54a59649419aa9/KR2b0007_020.txt",
-        "revision_id": "80174f61e491db29f9921d0d3e54a59649419aa9",
-        "source_commit": "80174f61e491db29f9921d0d3e54a59649419aa9",
-        "source_blob_sha": "71c9f2f93a06f0869cbe807edf3f42524a9ea2a3",
-        "accessed_on": "2026-10-16",
-        "extent": "只錄初南越文王遣其子嬰齊入宿衛至興為嗣一段，作史記南越父子對讀；未錄全卷。",
-        "text_scope": "partial_chapter",
-        "included_sections": [
-          "南越文王與嬰齊、樛氏女及興"
-        ],
-        "image_verified": false,
-        "rights": "古代正文及古注；保留Kanripo數位轉錄與固定提交來源歸屬。",
-        "license_url": "https://www.kanripo.org/",
-        "review_status": "text_checked",
-        "edition": null,
-        "edition_metadata_note": "檔頭BASEEDITION SBCK，頁標WYG；只標固定數位轉錄，不宣稱已核實物版本。",
-        "response_sha256": "f21e05fe0f13c21e1e437b8f793cdf79a9fc0a2daecea645135f9696d940d8c6",
-        "response_extent": {
-          "first_line": 201,
-          "last_line": 350,
-          "partial_file": true
-        },
-        "normalization": {
-          "character_conversion": {},
-          "editorial_readings": [],
-          "extraction_note": "固定原檔305至310行中截取正文首尾；去括號雙行注、換行、段末符，保留蔵等原字、不補標點。raw_quote保留古注與前後截取範圍；response指紋只涵201至350行，不冒作全卷或圖像校勘。"
-        }
-      }
+      "chapter_ref": "data/corpus/zizhitongjian/020.json"
     }
   ],
   "relations": [
@@ -414,7 +374,7 @@
           "chapter_id": "c-shiji-113-nanyue",
           "source_id": "s-shiji113-nanyue",
           "paragraph_id": "c-shiji-113-nanyue:p006",
-          "quote": "嬰齊代立，即藏其先武帝璽。嬰齊其入宿衛在長安時，取邯鄲樛氏女，生子興。及即位，上書請立樛氏女為后，興為嗣。漢數使使者風諭嬰齊，嬰齊尚樂擅殺生自恣，懼入見要用漢法，比內諸侯，固稱病，遂不入見。遣子次公入宿衛。嬰齊薨，謚為明王。"
+          "quote_passage_ref": "data/corpus/shiji/113.json"
         }
       ],
       "qualifiers": {
@@ -434,7 +394,7 @@
           "chapter_id": "c-shiji-113-nanyue",
           "source_id": "s-shiji113-nanyue",
           "paragraph_id": "c-shiji-113-nanyue:p006",
-          "quote": "嬰齊代立，即藏其先武帝璽。嬰齊其入宿衛在長安時，取邯鄲樛氏女，生子興。及即位，上書請立樛氏女為后，興為嗣。漢數使使者風諭嬰齊，嬰齊尚樂擅殺生自恣，懼入見要用漢法，比內諸侯，固稱病，遂不入見。遣子次公入宿衛。嬰齊薨，謚為明王。"
+          "quote_passage_ref": "data/corpus/shiji/113.json"
         }
       ],
       "qualifiers": {
@@ -454,7 +414,7 @@
           "chapter_id": "c-shiji-113-nanyue",
           "source_id": "s-shiji113-nanyue",
           "paragraph_id": "c-shiji-113-nanyue:p009",
-          "quote": "天子聞嘉不聽王，王、王太后弱孤不能制，使者怯無決。又以為王、王太后已附漢，獨呂嘉為亂，不足以興兵，欲使莊參以二千人往使。參曰：「以好往，數人足矣；以武往，二千人無足以為也。」辭不可，天子罷參也。郟壯士故濟北相韓千秋奮曰：「以區區之越，又有王、太后應，獨相呂嘉為害，願得勇士二百人，必斬嘉以報。」於是天子遣千秋與王太后弟樛樂將二千人往，入越境。呂嘉等乃遂反，下令國中曰：「王年少。太後，中國人也，又與使者亂，專欲內屬，盡持先王寶器入獻天子以自媚，多從人，行至長安，虜賣以為僮仆。取自脫一時之利，無顧趙氏社稷，為萬世慮計之意。」乃與其弟將卒攻殺王、太后及漢使者。遣人告蒼梧秦王及其諸郡縣，立明王長男越妻子術陽侯建德為王。而韓千秋兵入，破數小邑。其後越直開道給食，未至番禺四十里，越以兵擊千秋等，遂滅之。使人函封漢使者節置塞上，好為謾辭謝罪，發兵守要害處。於是天子曰：「韓千秋雖無成功，亦軍鋒之冠。」封其子延年為成安侯。樛樂，其姊為王太后，首願屬漢，封其子廣德為龍亢侯。乃下赦曰：「天子微，諸侯力政，譏臣不討賊。今呂嘉、建德等反，自立晏如，令罪人及江淮以南樓船十萬師往討之。」"
+          "quote_passage_ref": "data/corpus/shiji/113.json"
         }
       ],
       "qualifiers": {
@@ -485,7 +445,7 @@
           "chapter_id": "c-zizhitongjian-020-han12",
           "source_id": "s-zizhitongjian-020-han12",
           "paragraph_id": "c-zizhitongjian-020-han12:p-nanyue-001",
-          "quote": "初南越文王遣其子嬰齊入宿衛在長安取邯鄲樛氏女生子興文王薨嬰齊立乃蔵其先武帝璽上書請立樛氏女為后興為嗣"
+          "quote_passage_ref": "data/corpus/zizhitongjian/020.json"
         }
       ],
       "qualifiers": {
@@ -509,7 +469,7 @@
           "chapter_id": "c-zizhitongjian-020-han12",
           "source_id": "s-zizhitongjian-020-han12",
           "paragraph_id": "c-zizhitongjian-020-han12:p-nanyue-001",
-          "quote": "初南越文王遣其子嬰齊入宿衛在長安取邯鄲樛氏女生子興文王薨嬰齊立乃蔵其先武帝璽上書請立樛氏女為后興為嗣"
+          "quote_passage_ref": "data/corpus/zizhitongjian/020.json"
         }
       ],
       "qualifiers": {
@@ -537,7 +497,6 @@
       "additional_names": [],
       "chapter_id": "c-shiji-113-nanyue",
       "paragraph_id": "c-shiji-113-nanyue:p006",
-      "quote": "嬰齊代立，即藏其先武帝璽。嬰齊其入宿衛在長安時，取邯鄲樛氏女，生子興。及即位，上書請立樛氏女為后，興為嗣。漢數使使者風諭嬰齊，嬰齊尚樂擅殺生自恣，懼入見要用漢法，比內諸侯，固稱病，遂不入見。遣子次公入宿衛。嬰齊薨，謚為明王。",
       "references": [
         {
           "title": "〈南越列傳〉興立與王太后",
@@ -552,7 +511,8 @@
       "human_reviewed": false,
       "work_id": "w-shiji",
       "book_id": "b-shiji-113",
-      "source_id": "s-shiji113-nanyue"
+      "source_id": "s-shiji113-nanyue",
+      "quote_passage_ref": "data/corpus/shiji/113.json"
     }
   ],
   "person_ids": [
@@ -570,7 +530,7 @@
           "chapter_id": "c-shiji-113-nanyue",
           "source_id": "s-shiji113-nanyue",
           "paragraph_id": "c-shiji-113-nanyue:p006",
-          "quote": "嬰齊代立，即藏其先武帝璽。嬰齊其入宿衛在長安時，取邯鄲樛氏女，生子興。及即位，上書請立樛氏女為后，興為嗣。漢數使使者風諭嬰齊，嬰齊尚樂擅殺生自恣，懼入見要用漢法，比內諸侯，固稱病，遂不入見。遣子次公入宿衛。嬰齊薨，謚為明王。"
+          "quote_passage_ref": "data/corpus/shiji/113.json"
         }
       ],
       "qualifiers": {
@@ -590,7 +550,7 @@
           "chapter_id": "c-shiji-113-nanyue",
           "source_id": "s-shiji113-nanyue",
           "paragraph_id": "c-shiji-113-nanyue:p006",
-          "quote": "嬰齊代立，即藏其先武帝璽。嬰齊其入宿衛在長安時，取邯鄲樛氏女，生子興。及即位，上書請立樛氏女為后，興為嗣。漢數使使者風諭嬰齊，嬰齊尚樂擅殺生自恣，懼入見要用漢法，比內諸侯，固稱病，遂不入見。遣子次公入宿衛。嬰齊薨，謚為明王。"
+          "quote_passage_ref": "data/corpus/shiji/113.json"
         }
       ],
       "qualifiers": {
@@ -610,7 +570,7 @@
           "chapter_id": "c-shiji-113-nanyue",
           "source_id": "s-shiji113-nanyue",
           "paragraph_id": "c-shiji-113-nanyue:p009",
-          "quote": "天子聞嘉不聽王，王、王太后弱孤不能制，使者怯無決。又以為王、王太后已附漢，獨呂嘉為亂，不足以興兵，欲使莊參以二千人往使。參曰：「以好往，數人足矣；以武往，二千人無足以為也。」辭不可，天子罷參也。郟壯士故濟北相韓千秋奮曰：「以區區之越，又有王、太后應，獨相呂嘉為害，願得勇士二百人，必斬嘉以報。」於是天子遣千秋與王太后弟樛樂將二千人往，入越境。呂嘉等乃遂反，下令國中曰：「王年少。太後，中國人也，又與使者亂，專欲內屬，盡持先王寶器入獻天子以自媚，多從人，行至長安，虜賣以為僮仆。取自脫一時之利，無顧趙氏社稷，為萬世慮計之意。」乃與其弟將卒攻殺王、太后及漢使者。遣人告蒼梧秦王及其諸郡縣，立明王長男越妻子術陽侯建德為王。而韓千秋兵入，破數小邑。其後越直開道給食，未至番禺四十里，越以兵擊千秋等，遂滅之。使人函封漢使者節置塞上，好為謾辭謝罪，發兵守要害處。於是天子曰：「韓千秋雖無成功，亦軍鋒之冠。」封其子延年為成安侯。樛樂，其姊為王太后，首願屬漢，封其子廣德為龍亢侯。乃下赦曰：「天子微，諸侯力政，譏臣不討賊。今呂嘉、建德等反，自立晏如，令罪人及江淮以南樓船十萬師往討之。」"
+          "quote_passage_ref": "data/corpus/shiji/113.json"
         }
       ],
       "qualifiers": {
@@ -641,7 +601,7 @@
           "chapter_id": "c-zizhitongjian-020-han12",
           "source_id": "s-zizhitongjian-020-han12",
           "paragraph_id": "c-zizhitongjian-020-han12:p-nanyue-001",
-          "quote": "初南越文王遣其子嬰齊入宿衛在長安取邯鄲樛氏女生子興文王薨嬰齊立乃蔵其先武帝璽上書請立樛氏女為后興為嗣"
+          "quote_passage_ref": "data/corpus/zizhitongjian/020.json"
         }
       ],
       "qualifiers": {
@@ -665,7 +625,7 @@
           "chapter_id": "c-zizhitongjian-020-han12",
           "source_id": "s-zizhitongjian-020-han12",
           "paragraph_id": "c-zizhitongjian-020-han12:p-nanyue-001",
-          "quote": "初南越文王遣其子嬰齊入宿衛在長安取邯鄲樛氏女生子興文王薨嬰齊立乃蔵其先武帝璽上書請立樛氏女為后興為嗣"
+          "quote_passage_ref": "data/corpus/zizhitongjian/020.json"
         }
       ],
       "qualifiers": {
@@ -690,8 +650,8 @@
           "chapter_id": "c-shiji-113-nanyue",
           "source_id": "s-shiji113-nanyue",
           "paragraph_id": "c-shiji-113-nanyue:p009",
-          "quote": "天子聞嘉不聽王，王、王太后弱孤不能制，使者怯無決。又以為王、王太后已附漢，獨呂嘉為亂，不足以興兵，欲使莊參以二千人往使。參曰：「以好往，數人足矣；以武往，二千人無足以為也。」辭不可，天子罷參也。郟壯士故濟北相韓千秋奮曰：「以區區之越，又有王、太后應，獨相呂嘉為害，願得勇士二百人，必斬嘉以報。」於是天子遣千秋與王太后弟樛樂將二千人往，入越境。呂嘉等乃遂反，下令國中曰：「王年少。太後，中國人也，又與使者亂，專欲內屬，盡持先王寶器入獻天子以自媚，多從人，行至長安，虜賣以為僮仆。取自脫一時之利，無顧趙氏社稷，為萬世慮計之意。」乃與其弟將卒攻殺王、太后及漢使者。遣人告蒼梧秦王及其諸郡縣，立明王長男越妻子術陽侯建德為王。而韓千秋兵入，破數小邑。其後越直開道給食，未至番禺四十里，越以兵擊千秋等，遂滅之。使人函封漢使者節置塞上，好為謾辭謝罪，發兵守要害處。於是天子曰：「韓千秋雖無成功，亦軍鋒之冠。」封其子延年為成安侯。樛樂，其姊為王太后，首願屬漢，封其子廣德為龍亢侯。乃下赦曰：「天子微，諸侯力政，譏臣不討賊。今呂嘉、建德等反，自立晏如，令罪人及江淮以南樓船十萬師往討之。」",
-          "person_mention_id": "c-shiji-113-nanyue:m009-0010"
+          "person_mention_id": "c-shiji-113-nanyue:m009-0010",
+          "quote_passage_ref": "data/corpus/shiji/113.json"
         }
       ],
       "interpretation_note": "攻殺太后承接樛氏女，未將元鼎四年使者來訪直接作死亡年。 不補死亡地點、葬地或全部官爵終點。",

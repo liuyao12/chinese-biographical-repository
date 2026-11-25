@@ -23,7 +23,7 @@
           "chapter_id": "c-shiji-074-mengxun",
           "source_id": "s-shiji-074-mengxun",
           "paragraph_id": "c-shiji-074-mengxun:p012",
-          "quote": "而趙亦有公孫龍為堅白同異之辯，劇子之言；魏有李悝，盡地力之教；楚有尸子、長盧；阿之吁子焉。自如孟子至于吁子，世多有其書，故不論其傳云。蓋墨翟，宋之大夫，善守御，為節用。或曰并孔子時，或曰在其後。"
+          "quote_passage_ref": "data/corpus/shiji/074.json"
         }
       ],
       "attestations": [
@@ -65,7 +65,6 @@
       "raw_count": 1,
       "duplicate_count": 0,
       "counting_policy": "independent_fixed_witness_occurrences",
-      "quote": "俗。陳涉，罋牖繩樞之子，甿隸之人，而遷徙之徒，才能不及中人，非有仲尼、墨翟之賢，陶朱、猗頓之富，躡足行伍之閒，而倔起什伯之中，率罷散之卒，將數百之眾，而轉攻秦。斬木為兵，揭竿為旗，天下雲集響應，贏糧而景從，山東豪俊遂并起而亡秦族矣。",
       "paragraph_ids": [
         "c-shiji-006-shihuang:p064:block07"
       ],
@@ -89,7 +88,12 @@
       "book_id": "b-shiji-006",
       "chapter_id": "c-shiji-006-shihuang",
       "source_id": "s-shiji-006-shihuang",
-      "work_title": "史記"
+      "work_title": "史記",
+      "chapter_ref": "data/corpus/shiji/006.json",
+      "quote_span": [
+        10,
+        126
+      ]
     },
     {
       "number": 74,
@@ -100,7 +104,6 @@
       "raw_count": 1,
       "duplicate_count": 0,
       "counting_policy": "independent_fixed_witness_occurrences",
-      "quote": "尸子、長盧；阿之吁子焉。自如孟子至于吁子，世多有其書，故不論其傳云。蓋墨翟，宋之大夫，善守御，為節用。或曰并孔子時，或曰在其後。",
       "paragraph_ids": [
         "c-shiji-074-mengxun:p012"
       ],
@@ -124,7 +127,12 @@
       "book_id": "b-shiji-074",
       "chapter_id": "c-shiji-074-mengxun",
       "source_id": "s-shiji-074-mengxun",
-      "work_title": "史記"
+      "work_title": "史記",
+      "chapter_ref": "data/corpus/shiji/074.json",
+      "quote_span": [
+        33,
+        97
+      ]
     },
     {
       "number": 112,
@@ -135,7 +143,6 @@
       "raw_count": 1,
       "duplicate_count": 0,
       "counting_policy": "independent_fixed_witness_occurrences",
-      "quote": "。陳涉無千乘之尊，尺土之地，身非王公大人名族之后，無鄉曲之譽，非有孔、墨、曾子之賢，陶朱、猗頓之富也，然起窮巷，奮棘矜，偏袒大呼而天下從風，此其故何也？由民困而主不恤，下怨而上不知（也），俗已亂而政不修，此三者陳涉之所以為資也。是之謂土崩。故曰天下之患在於土崩。何謂瓦解？",
       "paragraph_ids": [
         "c-shiji-112-pingjin:p015"
       ],
@@ -159,7 +166,12 @@
       "book_id": "b-shiji-112",
       "chapter_id": "c-shiji-112-pingjin",
       "source_id": "s-shiji112-pingjin",
-      "work_title": "史記"
+      "work_title": "史記",
+      "chapter_ref": "data/corpus/shiji/112.json",
+      "quote_span": [
+        33,
+        169
+      ]
     },
     {
       "number": 130,
@@ -170,7 +182,6 @@
       "raw_count": 1,
       "duplicate_count": 0,
       "counting_policy": "independent_fixed_witness_occurrences",
-      "quote": "時移，事業不必同，故曰「儉而難遵」。要曰彊本節用，則人給家足之道也。此墨子之所長，雖百長弗能廢也。\n法家不別親疏，不殊貴賤，一斷於法，則親親尊尊之恩絕矣。可以行一時之計，而不可長用也，故曰「嚴而少恩」。若尊主卑臣，明分職不得相踰越，雖百家弗能改也。\n名家苛察繳繞，使人不得反",
       "paragraph_ids": [
         "c-shiji-130-taishigong:p003"
       ],
@@ -194,7 +205,12 @@
       "book_id": "b-shiji-130",
       "chapter_id": "c-shiji-130-taishigong",
       "source_id": "s-shiji130-taishigong",
-      "work_title": "史記"
+      "work_title": "史記",
+      "chapter_ref": "data/corpus/shiji/130.json",
+      "quote_span": [
+        714,
+        851
+      ]
     }
   ],
   "table_occurrences": [],
@@ -204,121 +220,28 @@
       "work_id": "w-shiji",
       "book_id": "b-shiji-006",
       "source_id": "s-shiji-006-shihuang",
-      "source": {
-        "title": "史記／卷006",
-        "provider": "維基文庫",
-        "url": "https://zh.wikisource.org/wiki/史記/卷006",
-        "permalink": "https://zh.wikisource.org/w/index.php?title=史記/卷006&oldid=7907969",
-        "revision_id": 7907969,
-        "accessed_on": "2026-10-09",
-        "extent": "數位見證127個文字區塊，含16個dd刻辭或嵌入引文及卷末附載班固記；排除導覽、跨站連結與註號。",
-        "image_verified": false,
-        "rights": "古代原文與附載文字；數位轉錄依維基文庫CC BY-SA 4.0，保留署名及固定版本。",
-        "license_url": "https://creativecommons.org/licenses/by-sa/4.0/",
-        "normalization": {
-          "character_conversion": {},
-          "note": "正文未改寫；行內校勘標記及附載文字仍待逐處核對。固定版本正文HTML重讀一致。",
-          "editorial_readings": [
-            {
-              "paragraph_id": "c-shiji-006-shihuang:p010",
-              "witness_form": "（四）［是］",
-              "body_reading": "四",
-              "note": "數位見證行內校勘標記另存；正文保留改讀前的字，不稱已校定底本。"
-            },
-            {
-              "paragraph_id": "c-shiji-006-shihuang:p016",
-              "witness_form": "（薊）［荊］",
-              "body_reading": "薊",
-              "note": "數位見證行內校勘標記另存；正文保留改讀前的字，不稱已校定底本。"
-            },
-            {
-              "paragraph_id": "c-shiji-006-shihuang:p051",
-              "witness_form": "（其）",
-              "body_reading": "",
-              "note": "數位見證行內刪字標記另存；未核底本，不稱校定讀法。"
-            },
-            {
-              "paragraph_id": "c-shiji-006-shihuang:p061",
-              "witness_form": "（者）",
-              "body_reading": "",
-              "note": "數位見證行內刪字標記另存；未核底本，不稱校定讀法。"
-            }
-          ],
-          "extraction_note": "按正文p及dd區塊原有次序錄入；dd用前一段ID加block後綴，既有p段落ID不變。正文前兩個dd為維基百科與文言維基大典導覽，排除。"
-        }
-      }
+      "chapter_ref": "data/corpus/shiji/006.json"
     },
     {
       "chapter_id": "c-shiji-074-mengxun",
       "work_id": "w-shiji",
       "book_id": "b-shiji-074",
       "source_id": "s-shiji-074-mengxun",
-      "source": {
-        "title": "史記／卷074",
-        "provider": "維基文庫",
-        "url": "https://zh.wikisource.org/wiki/史記/卷074",
-        "permalink": "https://zh.wikisource.org/w/index.php?title=史記/卷074&oldid=7908177",
-        "revision_id": 7908177,
-        "accessed_on": "2026-10-09",
-        "extent": "12段非空正文，自太史公讀孟子書序至公孫龍等末段；排除ws-header註釋版導覽及空白段，固定頁未附索隱述贊。",
-        "image_verified": false,
-        "rights": "古代原文；數位轉錄依維基文庫CC BY-SA 4.0，保留署名及固定版本。",
-        "license_url": "https://creativecommons.org/licenses/by-sa/4.0/",
-        "normalization": {
-          "character_conversion": {},
-          "editorial_readings": [],
-          "extraction_note": "固定HTML與取得時版本一致，只去外緣空白並略空段；保留騶、獘、彊、筑、茍、髡等原字。",
-          "note": "全12段正文及明示姓名首輪已核讀；未核底本、影像或現代研究。"
-        }
-      }
+      "chapter_ref": "data/corpus/shiji/074.json"
     },
     {
       "chapter_id": "c-shiji-112-pingjin",
       "work_id": "w-shiji",
       "book_id": "b-shiji-112",
       "source_id": "s-shiji112-pingjin",
-      "source": {
-        "title": "史記／卷112",
-        "provider": "維基文庫",
-        "url": "https://zh.wikisource.org/wiki/史記/卷112",
-        "permalink": "https://zh.wikisource.org/w/index.php?title=史記/卷112&oldid=2089420",
-        "revision_id": 2089420,
-        "accessed_on": "2026-10-11",
-        "extent": "固定數位見證31段；末三段分為後附詔書、班固贊及索隱述贊。",
-        "image_verified": false,
-        "rights": "古代原文；數位轉錄依維基文庫CC BY-SA 4.0，保留署名及固定版本。",
-        "license_url": "https://creativecommons.org/licenses/by-sa/4.0/",
-        "normalization": {
-          "character_conversion": {},
-          "editorial_readings": [],
-          "extraction_note": "去header2、__TOC__與現代節標題；去行首冒號排版符號，保留正文、異體、方括弧與圓括弧校字。未核底本影像。",
-          "note": "太皇太后詔及班固贊均按見證附載分層，不自行確認編入者。"
-        }
-      }
+      "chapter_ref": "data/corpus/shiji/112.json"
     },
     {
       "chapter_id": "c-shiji-130-taishigong",
       "work_id": "w-shiji",
       "book_id": "b-shiji-130",
       "source_id": "s-shiji130-taishigong",
-      "source": {
-        "title": "史記／卷130",
-        "provider": "維基文庫",
-        "url": "https://zh.wikisource.org/wiki/史記/卷130",
-        "permalink": "https://zh.wikisource.org/w/index.php?title=史記/卷130&oldid=2609362",
-        "revision_id": 2609362,
-        "accessed_on": "2026-10-11",
-        "extent": "固定修訂全文143段，全部篇文。",
-        "image_verified": false,
-        "rights": "古代原文；數位轉錄依維基文庫CC BY-SA 4.0，保留署名及固定版本。",
-        "license_url": "https://creativecommons.org/licenses/by-sa/4.0/",
-        "normalization": {
-          "character_conversion": {},
-          "editorial_readings": [],
-          "extraction_note": "去header2及現代節標，移除維基引文縮排冒號，保留原字，未核影像。",
-          "note": "全文入庫不等於全部提及已標註；目錄段落仍待逐段處理。"
-        }
-      }
+      "chapter_ref": "data/corpus/shiji/130.json"
     }
   ],
   "relations": [],

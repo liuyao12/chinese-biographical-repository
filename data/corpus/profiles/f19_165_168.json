@@ -25,8 +25,8 @@
           "source_id": "s-sanguozhi-028-wangling",
           "chapter_id": "c-sanguozhi-028-wangling",
           "paragraph_id": "c-sanguozhi-028-wangling:unit006",
-          "quote": "魏書曰愚字公治本名浚黄初中為和戎䕶軍烏丸校尉田豫討胡有功小違節度愚以法繩之帝怒械繫愚免官治罪詔曰浚何愚遂以名之正始中為曹爽長史後出為兖州刺史魏畧曰愚聞楚王彪有智勇初東郡有譌言云白馬河出妖馬夜過官牧邊鳴呼衆馬皆應眀日見其跡大如斛行數里還入河中又有謡言白馬素羈西南馳其誰乗者朱虎騎楚王小字朱虎故愚與王凌隂謀立楚王乃先使人通意於王言使君謝王天下事不可知願王自愛彪亦隂知其意答言謝使君知厚意也",
-          "person_mention_id": "c-sanguozhi-028-wangling:unit006:m0022"
+          "person_mention_id": "c-sanguozhi-028-wangling:unit006:m0022",
+          "quote_passage_ref": "data/corpus/sanguozhi/028-wangling.json"
         }
       ],
       "attestations": [
@@ -71,7 +71,6 @@
       "raw_count": 2,
       "duplicate_count": 0,
       "counting_policy": "independent_fixed_witness_occurrences",
-      "quote": "評曰滿寵立志剛毅勇而有謀田豫居身清白規畧明練牽招秉義壯烈威績顯著郭淮方策精詳垂問秦雍而豫位止小州招終於郡守未盡其用也",
       "paragraph_ids": [
         "c-sanguozhi-026-guohuai:unit017"
       ],
@@ -104,7 +103,12 @@
       "book_id": "b-sanguozhi-026",
       "chapter_id": "c-sanguozhi-026-guohuai",
       "source_id": "s-sanguozhi-026-guohuai",
-      "work_title": "三國志"
+      "work_title": "三國志",
+      "chapter_ref": "data/corpus/sanguozhi/026-guohuai.json",
+      "quote_span": [
+        0,
+        58
+      ]
     },
     {
       "number": 28,
@@ -115,7 +119,6 @@
       "raw_count": 2,
       "duplicate_count": 0,
       "counting_policy": "independent_fixed_witness_occurrences",
-      "quote": "魏書曰愚字公治本名浚黄初中為和戎䕶軍烏丸校尉田豫討胡有功小違節度愚以法繩之帝怒械繫愚免官治罪詔曰浚何愚遂以名之正始中為曹爽長史後出為兖州刺史魏畧曰愚聞楚王彪有智勇初東郡有譌言云白馬河出妖馬夜過官牧邊鳴呼衆馬皆應眀日見其跡大如斛行數里還入河中又有謡言",
       "paragraph_ids": [
         "c-sanguozhi-028-wangling:unit006"
       ],
@@ -148,7 +151,12 @@
       "book_id": "b-sanguozhi-028",
       "chapter_id": "c-sanguozhi-028-wangling",
       "source_id": "s-sanguozhi-028-wangling",
-      "work_title": "三國志"
+      "work_title": "三國志",
+      "chapter_ref": "data/corpus/sanguozhi/028-wangling.json",
+      "quote_span": [
+        0,
+        124
+      ]
     }
   ],
   "table_occurrences": [],
@@ -158,60 +166,14 @@
       "work_id": "w-sanguozhi",
       "book_id": "b-sanguozhi-026",
       "source_id": "s-sanguozhi-026-guohuai",
-      "source": {
-        "title": "三國志／魏書卷二十六／郭淮傳",
-        "provider": "Kanripo WYG",
-        "url": "https://github.com/kanripo/KR2a0012/blob/214fcafa79894355909c9d8c2c1533089e7791c6/KR2a0012_026.txt",
-        "permalink": "https://github.com/kanripo/KR2a0012/blob/214fcafa79894355909c9d8c2c1533089e7791c6/KR2a0012_026.txt",
-        "revision_id": "214fcafa79894355909c9d8c2c1533089e7791c6",
-        "source_commit": "214fcafa79894355909c9d8c2c1533089e7791c6",
-        "source_blob": "99d0bad47453cda17150ad08d87eefe461707ba9",
-        "raw_file_sha256": "6764b2f841c384aec769c7ceea35deddf8bd05c56d1743b9fc77e10884530590",
-        "raw_path": "sources/sanguozhi/KR2a0012_026-214fcaf.txt",
-        "accessed_on": "2026-10-22",
-        "edition": "文淵閣四庫全書數位轉錄；未圖校",
-        "extent": "302–380郭淮完整傳及三注；381–385四傳合評；395–400郭淮相關清考證。滿寵、田豫、牽招完整本傳未匯，不稱全卷完成。",
-        "text_scope": "partial_chapter",
-        "review_status": "text_checked",
-        "image_verified": false,
-        "license_url": "https://creativecommons.org/publicdomain/mark/1.0/",
-        "rights": "古籍原文；Kanripo固定數位見證",
-        "normalization": {
-          "character_conversion": {},
-          "extraction_note": "保全部郭淮傳與三注及合評/郭淮考證；只去版面符號、縮排與注括號。緼/縕/蘊、泰業等收到原字不正字，逐行片段完整投影。",
-          "excerpts": []
-        }
-      }
+      "chapter_ref": "data/corpus/sanguozhi/026-guohuai.json"
     },
     {
       "chapter_id": "c-sanguozhi-028-wangling",
       "work_id": "w-sanguozhi",
       "book_id": "b-sanguozhi-028",
       "source_id": "s-sanguozhi-028-wangling",
-      "source": {
-        "title": "三國志／魏書卷二十八／王凌完整傳",
-        "provider": "Kanripo WYG",
-        "url": "https://github.com/kanripo/KR2a0012/blob/214fcafa79894355909c9d8c2c1533089e7791c6/KR2a0012_028.txt",
-        "permalink": "https://github.com/kanripo/KR2a0012/blob/214fcafa79894355909c9d8c2c1533089e7791c6/KR2a0012_028.txt",
-        "revision_id": "214fcafa79894355909c9d8c2c1533089e7791c6",
-        "source_commit": "214fcafa79894355909c9d8c2c1533089e7791c6",
-        "source_blob": "d1d192e3e36be8919fa86563bd8e1fd82a3f4638",
-        "raw_file_sha256": "0d69bbb981b5dd31bbeee865d503179979226e2d2ce7c42aeac0fe0fc6e868f7",
-        "raw_path": "sources/sanguozhi/KR2a0012_028-214fcaf.txt",
-        "accessed_on": "2026-10-19",
-        "edition": "文淵閣四庫全書數位轉錄；未圖校",
-        "extent": "raw22–104王凌正文及裴注完整；858–865共評及引注；870–874兩清考證，不稱全卷處理",
-        "text_scope": "partial_chapter",
-        "review_status": "text_checked",
-        "image_verified": false,
-        "license_url": "https://creativecommons.org/publicdomain/mark/1.0/",
-        "rights": "古籍原文；固定Kanripo數位見證",
-        "normalization": {
-          "character_conversion": {},
-          "extraction_note": "只去版面符號、縮排及注括號；原字與逐字raw位置保存。",
-          "excerpts": []
-        }
-      }
+      "chapter_ref": "data/corpus/sanguozhi/028-wangling.json"
     }
   ],
   "relations": [],
@@ -228,14 +190,14 @@
       "additional_names": [],
       "chapter_id": "c-sanguozhi-028-wangling",
       "paragraph_id": "c-sanguozhi-028-wangling:unit006",
-      "quote": "魏書曰愚字公治本名浚黄初中為和戎䕶軍烏丸校尉田豫討胡有功小違節度愚以法繩之帝怒械繫愚免官治罪詔曰浚何愚遂以名之正始中為曹爽長史後出為兖州刺史魏畧曰愚聞楚王彪有智勇初東郡有譌言云白馬河出妖馬夜過官牧邊鳴呼衆馬皆應眀日見其跡大如斛行數里還入河中又有謡言白馬素羈西南馳其誰乗者朱虎騎楚王小字朱虎故愚與王凌隂謀立楚王乃先使人通意於王言使君謝王天下事不可知願王自愛彪亦隂知其意答言謝使君知厚意也",
       "note": "保本源原字姓名構件，不改既有主名或其他來源證。",
       "status": "editorial_provisional",
       "human_reviewed": false,
       "source_proposal_id": "proposal-sanguozhi028-wangling-022",
       "work_id": "w-sanguozhi",
       "book_id": "b-sanguozhi-028",
-      "source_id": "s-sanguozhi-028-wangling"
+      "source_id": "s-sanguozhi-028-wangling",
+      "quote_passage_ref": "data/corpus/sanguozhi/028-wangling.json"
     }
   ],
   "person_ids": [

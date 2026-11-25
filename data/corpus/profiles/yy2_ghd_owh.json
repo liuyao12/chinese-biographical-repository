@@ -21,7 +21,7 @@
           "chapter_id": "c-shiji-040-chu",
           "source_id": "s-shiji-040-chu",
           "paragraph_id": "c-shiji-040-chu:p045",
-          "quote": "十三年，平王卒。將軍子常曰：「太子珍少，且其母乃前太子建所當娶也。」欲立令尹子西。子西，平王之庶弟也，有義。子西曰：「國有常法，更立則亂，言之則致誅。」乃立太子珍，是爲昭王。"
+          "quote_passage_ref": "data/corpus/shiji/040.json"
         }
       ],
       "attestations": [
@@ -69,8 +69,8 @@
           "chapter_id": "c-shiji-040-chu",
           "source_id": "s-shiji-040-chu",
           "paragraph_id": "c-shiji-040-chu:p048",
-          "quote": "十年冬，呉王闔閭、伍子胥、伯與唐、蔡倶伐楚，楚大敗，呉兵遂入郢，辱平王之墓，以伍子胥故也。呉兵之來，楚使子常以兵迎之，夾漢水陣。呉伐敗子常，子常亡奔鄭。楚兵走，呉乘勝逐之，五戰及郢。己卯，昭王出奔。庚辰，呉人入郢。",
-          "person_mention_id": "c-shiji-040-chu:m048-0052"
+          "person_mention_id": "c-shiji-040-chu:m048-0052",
+          "quote_passage_ref": "data/corpus/shiji/040.json"
         }
       ],
       "source_term": "子常亡奔鄭",
@@ -91,7 +91,6 @@
       "raw_count": 6,
       "duplicate_count": 0,
       "counting_policy": "independent_fixed_witness_occurrences",
-      "quote": "十三年，平王卒。將軍子常曰：「太子珍少，且其母乃前太子建所當娶也。」欲立令尹子西。子西，平王之庶弟也，有義。子西曰：「國有常法，更立則亂，言之則致誅。」乃立太子珍，是爲昭王。",
       "paragraph_ids": [
         "c-shiji-040-chu:p045",
         "c-shiji-040-chu:p046",
@@ -163,7 +162,12 @@
       "book_id": "b-shiji-040",
       "chapter_id": "c-shiji-040-chu",
       "source_id": "s-shiji-040-chu",
-      "work_title": "史記"
+      "work_title": "史記",
+      "chapter_ref": "data/corpus/shiji/040.json",
+      "quote_span": [
+        0,
+        87
+      ]
     }
   ],
   "table_occurrences": [],
@@ -173,26 +177,7 @@
       "work_id": "w-shiji",
       "book_id": "b-shiji-040",
       "source_id": "s-shiji-040-chu",
-      "source": {
-        "title": "史記／卷040",
-        "provider": "維基文庫",
-        "url": "https://zh.wikisource.org/wiki/史記/卷040",
-        "permalink": "https://zh.wikisource.org/w/index.php?title=史記/卷040&oldid=8736796",
-        "revision_id": 8736796,
-        "accessed_on": "2026-10-09",
-        "extent": "96段正文及1段分層索隱述贊；排除2個dd導覽，去除段落外緣空白。",
-        "image_verified": false,
-        "rights": "古代原文；數位轉錄依維基文庫CC BY-SA 4.0，保留署名及固定版本。",
-        "license_url": "https://creativecommons.org/licenses/by-sa/4.0/",
-        "normalization": {
-          "character_conversion": {
-            "笔": "筆"
-          },
-          "editorial_readings": [],
-          "extraction_note": "固定修訂與取得時HTML一致；僅去除段落外緣空白，古代異體及校勘括號保留。 第70段笔轉筆，未將「西取筆秦」疑句自行校讀。",
-          "note": "全97段數位正文已核讀，人物標註與可靠底本、影像覆核尚未完成；不把數位轉錄當版本校定。"
-        }
-      }
+      "chapter_ref": "data/corpus/shiji/040.json"
     }
   ],
   "relations": [],

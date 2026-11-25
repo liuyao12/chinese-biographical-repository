@@ -65,7 +65,6 @@
       "raw_count": 6,
       "duplicate_count": 0,
       "counting_policy": "independent_fixed_witness_occurrences",
-      "quote": "二十五年，王壽夢卒。壽夢有子四人，長曰諸樊，次曰餘祭，次曰餘眛，次曰季札。季札賢，而壽夢欲立之，季札讓不可，於是乃立長子諸樊，攝行事當國。",
       "paragraph_ids": [
         "c-shiji-031-wu:p006",
         "c-shiji-031-wu:p007",
@@ -137,7 +136,12 @@
       "book_id": "b-shiji-031",
       "chapter_id": "c-shiji-031-wu",
       "source_id": "s-shiji-031-wu",
-      "work_title": "史記"
+      "work_title": "史記",
+      "chapter_ref": "data/corpus/shiji/031.json",
+      "quote_span": [
+        0,
+        69
+      ]
     },
     {
       "number": 86,
@@ -148,7 +152,6 @@
       "raw_count": 4,
       "duplicate_count": 0,
       "counting_policy": "independent_fixed_witness_occurrences",
-      "quote": "光之父曰呉王諸樊。諸樊弟三人：次曰餘祭，次曰夷眛，次曰季子札。諸樊知季子札賢而不立太子，以次傳三弟，欲卒致國于季子札。諸樊既死，傳餘祭。餘祭死，傳夷眛。夷眛死，當傳季子札；季子札逃不肯立，呉人乃立夷眛之子僚爲王。公子",
       "paragraph_ids": [
         "c-shiji-086-cike:p005"
       ],
@@ -199,7 +202,12 @@
       "book_id": "b-shiji-086",
       "chapter_id": "c-shiji-086-cike",
       "source_id": "s-shiji-086-cike",
-      "work_title": "史記"
+      "work_title": "史記",
+      "chapter_ref": "data/corpus/shiji/086.json",
+      "quote_span": [
+        0,
+        108
+      ]
     }
   ],
   "table_occurrences": [
@@ -207,7 +215,6 @@
       "table_id": "shiji-014",
       "cell_id": "shiji-014-r282-c15",
       "title": "《史記·十二諸侯年表》",
-      "quote": "吳諸樊元年楚敗我。",
       "year": {
         "era": "BCE",
         "value": 560,
@@ -230,13 +237,13 @@
       "book_id": "b-shiji-014",
       "chapter_id": "table-chapter-shiji-014",
       "source_id": "table-witness-shiji-014",
-      "source_revision": "2607001"
+      "source_revision": "2607001",
+      "quote_ref": "cell"
     },
     {
       "table_id": "shiji-014",
       "cell_id": "shiji-014-r294-c15",
       "title": "《史記·十二諸侯年表》",
-      "quote": "十三諸樊伐楚，迫巢門，傷射以薨。",
       "year": {
         "era": "BCE",
         "value": 548,
@@ -259,7 +266,8 @@
       "book_id": "b-shiji-014",
       "chapter_id": "table-chapter-shiji-014",
       "source_id": "table-witness-shiji-014",
-      "source_revision": "2607001"
+      "source_revision": "2607001",
+      "quote_ref": "cell"
     }
   ],
   "sources": [
@@ -268,84 +276,21 @@
       "work_id": "w-shiji",
       "book_id": "b-shiji-031",
       "source_id": "s-shiji-031-wu",
-      "source": {
-        "title": "史記／卷031",
-        "provider": "維基文庫",
-        "url": "https://zh.wikisource.org/wiki/史記/卷031",
-        "permalink": "https://zh.wikisource.org/w/index.php?title=史記/卷031&oldid=7909287",
-        "revision_id": 7909287,
-        "accessed_on": "2026-10-09",
-        "extent": "正文41個p區塊，自吳太伯至太史公論贊；排除頂部世系摘要、跨站導覽及索隱述贊。",
-        "image_verified": false,
-        "rights": "古代原文；數位轉錄依維基文庫CC BY-SA 4.0，保留署名及固定版本。",
-        "license_url": "https://creativecommons.org/licenses/by-sa/4.0/",
-        "normalization": {
-          "character_conversion": {
-            "虚": "虛",
-            "鳅": "鰍",
-            "内": "內",
-            "戸": "戶"
-          },
-          "editorial_readings": [],
-          "extraction_note": "保留暦／歴、爲、髙、餘眛、闔廬等見證異體，不默改為熟知姓名。",
-          "note": "固定版本與實讀HTML一致；未核底本、影像或世系研究。"
-        }
-      }
+      "chapter_ref": "data/corpus/shiji/031.json"
     },
     {
       "chapter_id": "c-shiji-086-cike",
       "work_id": "w-shiji",
       "book_id": "b-shiji-086",
       "source_id": "s-shiji-086-cike",
-      "source": {
-        "title": "史記／卷086",
-        "provider": "維基文庫",
-        "url": "https://zh.wikisource.org/wiki/史記/卷086",
-        "permalink": "https://zh.wikisource.org/w/index.php?title=史記/卷086&oldid=2388562",
-        "revision_id": 2388562,
-        "accessed_on": "2026-10-09",
-        "extent": "38段正文含太史公論，排除導覽、索隱述贊及現代版權。",
-        "image_verified": false,
-        "rights": "古代原文；數位轉錄依維基文庫CC BY-SA 4.0，保留署名及固定版本。",
-        "license_url": "https://creativecommons.org/licenses/by-sa/4.0/",
-        "normalization": {
-          "character_conversion": {},
-          "editorial_readings": [],
-          "extraction_note": "固定HTML與取得時版本一致，只去外緣空白；（衆）按普通括號原文保留；第17段tooltip異文提示另存。",
-          "note": "全38段與HTML篇界已核讀，未核底本影像或現代研究。",
-          "digital_variant_notes": [
-            {
-              "paragraph_number": 17,
-              "body_reading": "縣",
-              "witness_tooltip": "一作「購縣」，又作「縣購」。",
-              "note": "數位見證未標明異文版本，另存，不代替正文。"
-            }
-          ]
-        }
-      }
+      "chapter_ref": "data/corpus/shiji/086.json"
     },
     {
       "chapter_id": "table-chapter-shiji-014",
       "work_id": "w-shiji",
       "book_id": "b-shiji-014",
       "source_id": "table-witness-shiji-014",
-      "source": {
-        "id": "table-witness-shiji-014",
-        "work_id": "w-shiji",
-        "book_id": "b-shiji-014",
-        "chapter_id": "table-chapter-shiji-014",
-        "url": "https://zh.wikisource.org/wiki/史記/卷014",
-        "revision_url": "https://zh.wikisource.org/w/index.php?title=史記/卷014&oldid=2607001",
-        "revision": "2607001",
-        "accessed": "2026-10-12",
-        "response_sha256": "399a83afe1f1fdb785213c55cbb4ec792c1b5e08929e24486f67ccc83fbacae6",
-        "edition": null,
-        "image_verified": false,
-        "rights": "古籍正文公有領域；維基文庫轉錄及編輯內容依 CC BY-SA 條款，署名維基文庫貢獻者。",
-        "rights_url": "https://zh.wikisource.org/wiki/Wikisource:版權信息",
-        "review_status": "partial_named_entity_review",
-        "note": "完整數位表格結構匯入，未逐格學術覆核。未核讀印本影像，原印本頁碼未知。西元欄沿用此數位轉錄的編者對照，不是古籍原有西元紀年，也不引用其維基百科外連。"
-      }
+      "table_source_ref": "shiji-014"
     }
   ],
   "relations": [
@@ -360,7 +305,7 @@
           "chapter_id": "c-shiji-031-wu",
           "source_id": "s-shiji-031-wu",
           "paragraph_id": "c-shiji-031-wu:p006",
-          "quote": "二十五年，王壽夢卒。壽夢有子四人，長曰諸樊，次曰餘祭，次曰餘眛，次曰季札。季札賢，而壽夢欲立之，季札讓不可，於是乃立長子諸樊，攝行事當國。"
+          "quote_passage_ref": "data/corpus/shiji/031.json"
         }
       ],
       "qualifiers": {
@@ -390,7 +335,7 @@
           "chapter_id": "c-shiji-031-wu",
           "source_id": "s-shiji-031-wu",
           "paragraph_id": "c-shiji-031-wu:p008",
-          "quote": "十三年，王諸樊卒。有命授弟餘祭，欲傳以次，必致國於季札而止，以稱先王壽夢之意，且嘉季札之義，兄弟皆欲致國，令以漸至焉。季札封於延陵，故號曰延陵季子。"
+          "quote_passage_ref": "data/corpus/shiji/031.json"
         }
       ],
       "qualifiers": {
@@ -411,7 +356,7 @@
           "chapter_id": "c-shiji-031-wu",
           "source_id": "s-shiji-031-wu",
           "paragraph_id": "c-shiji-031-wu:p021",
-          "quote": "五年，楚之亡臣伍子胥來奔，公子光客之。公子光者，王諸樊之子也。常以爲吾父兄弟四人，當傳至季子。季子即不受國，光父先立。即不傳季子，光當立。陰納賢士，欲以襲王僚。"
+          "quote_passage_ref": "data/corpus/shiji/031.json"
         }
       ],
       "qualifiers": {
@@ -432,7 +377,7 @@
           "chapter_id": "c-shiji-086-cike",
           "source_id": "s-shiji-086-cike",
           "paragraph_id": "c-shiji-086-cike:p005",
-          "quote": "光之父曰呉王諸樊。諸樊弟三人：次曰餘祭，次曰夷眛，次曰季子札。諸樊知季子札賢而不立太子，以次傳三弟，欲卒致國于季子札。諸樊既死，傳餘祭。餘祭死，傳夷眛。夷眛死，當傳季子札；季子札逃不肯立，呉人乃立夷眛之子僚爲王。公子光曰：「使以兄弟次邪，季子當立；必以子乎，則光眞適嗣，當立。」故嘗陰養謀臣以求立。"
+          "quote_passage_ref": "data/corpus/shiji/086.json"
         }
       ],
       "qualifiers": {
@@ -453,7 +398,7 @@
           "chapter_id": "c-shiji-086-cike",
           "source_id": "s-shiji-086-cike",
           "paragraph_id": "c-shiji-086-cike:p005",
-          "quote": "光之父曰呉王諸樊。諸樊弟三人：次曰餘祭，次曰夷眛，次曰季子札。諸樊知季子札賢而不立太子，以次傳三弟，欲卒致國于季子札。諸樊既死，傳餘祭。餘祭死，傳夷眛。夷眛死，當傳季子札；季子札逃不肯立，呉人乃立夷眛之子僚爲王。公子光曰：「使以兄弟次邪，季子當立；必以子乎，則光眞適嗣，當立。」故嘗陰養謀臣以求立。"
+          "quote_passage_ref": "data/corpus/shiji/086.json"
         }
       ],
       "qualifiers": {
@@ -474,7 +419,7 @@
           "chapter_id": "c-shiji-086-cike",
           "source_id": "s-shiji-086-cike",
           "paragraph_id": "c-shiji-086-cike:p005",
-          "quote": "光之父曰呉王諸樊。諸樊弟三人：次曰餘祭，次曰夷眛，次曰季子札。諸樊知季子札賢而不立太子，以次傳三弟，欲卒致國于季子札。諸樊既死，傳餘祭。餘祭死，傳夷眛。夷眛死，當傳季子札；季子札逃不肯立，呉人乃立夷眛之子僚爲王。公子光曰：「使以兄弟次邪，季子當立；必以子乎，則光眞適嗣，當立。」故嘗陰養謀臣以求立。"
+          "quote_passage_ref": "data/corpus/shiji/086.json"
         }
       ],
       "qualifiers": {
@@ -495,7 +440,7 @@
           "chapter_id": "c-shiji-086-cike",
           "source_id": "s-shiji-086-cike",
           "paragraph_id": "c-shiji-086-cike:p005",
-          "quote": "光之父曰呉王諸樊。諸樊弟三人：次曰餘祭，次曰夷眛，次曰季子札。諸樊知季子札賢而不立太子，以次傳三弟，欲卒致國于季子札。諸樊既死，傳餘祭。餘祭死，傳夷眛。夷眛死，當傳季子札；季子札逃不肯立，呉人乃立夷眛之子僚爲王。公子光曰：「使以兄弟次邪，季子當立；必以子乎，則光眞適嗣，當立。」故嘗陰養謀臣以求立。"
+          "quote_passage_ref": "data/corpus/shiji/086.json"
         }
       ],
       "qualifiers": {
@@ -528,8 +473,8 @@
           "chapter_id": "c-shiji-031-wu",
           "source_id": "s-shiji-031-wu",
           "paragraph_id": "c-shiji-031-wu:p008",
-          "quote": "十三年，王諸樊卒。有命授弟餘祭，欲傳以次，必致國於季札而止，以稱先王壽夢之意，且嘉季札之義，兄弟皆欲致國，令以漸至焉。季札封於延陵，故號曰延陵季子。",
-          "person_mention_id": "c-shiji-031-wu:m008-0004"
+          "person_mention_id": "c-shiji-031-wu:m008-0004",
+          "quote_passage_ref": "data/corpus/shiji/031.json"
         }
       ],
       "references": [
@@ -566,7 +511,7 @@
           "chapter_id": "c-shiji-031-wu",
           "source_id": "s-shiji-031-wu",
           "paragraph_id": "c-shiji-031-wu:p006",
-          "quote": "二十五年，王壽夢卒。壽夢有子四人，長曰諸樊，次曰餘祭，次曰餘眛，次曰季札。季札賢，而壽夢欲立之，季札讓不可，於是乃立長子諸樊，攝行事當國。"
+          "quote_passage_ref": "data/corpus/shiji/031.json"
         }
       ],
       "qualifiers": {
@@ -596,7 +541,7 @@
           "chapter_id": "c-shiji-031-wu",
           "source_id": "s-shiji-031-wu",
           "paragraph_id": "c-shiji-031-wu:p008",
-          "quote": "十三年，王諸樊卒。有命授弟餘祭，欲傳以次，必致國於季札而止，以稱先王壽夢之意，且嘉季札之義，兄弟皆欲致國，令以漸至焉。季札封於延陵，故號曰延陵季子。"
+          "quote_passage_ref": "data/corpus/shiji/031.json"
         }
       ],
       "qualifiers": {
@@ -617,7 +562,7 @@
           "chapter_id": "c-shiji-031-wu",
           "source_id": "s-shiji-031-wu",
           "paragraph_id": "c-shiji-031-wu:p021",
-          "quote": "五年，楚之亡臣伍子胥來奔，公子光客之。公子光者，王諸樊之子也。常以爲吾父兄弟四人，當傳至季子。季子即不受國，光父先立。即不傳季子，光當立。陰納賢士，欲以襲王僚。"
+          "quote_passage_ref": "data/corpus/shiji/031.json"
         }
       ],
       "qualifiers": {
@@ -638,7 +583,7 @@
           "chapter_id": "c-shiji-086-cike",
           "source_id": "s-shiji-086-cike",
           "paragraph_id": "c-shiji-086-cike:p005",
-          "quote": "光之父曰呉王諸樊。諸樊弟三人：次曰餘祭，次曰夷眛，次曰季子札。諸樊知季子札賢而不立太子，以次傳三弟，欲卒致國于季子札。諸樊既死，傳餘祭。餘祭死，傳夷眛。夷眛死，當傳季子札；季子札逃不肯立，呉人乃立夷眛之子僚爲王。公子光曰：「使以兄弟次邪，季子當立；必以子乎，則光眞適嗣，當立。」故嘗陰養謀臣以求立。"
+          "quote_passage_ref": "data/corpus/shiji/086.json"
         }
       ],
       "qualifiers": {
@@ -659,7 +604,7 @@
           "chapter_id": "c-shiji-086-cike",
           "source_id": "s-shiji-086-cike",
           "paragraph_id": "c-shiji-086-cike:p005",
-          "quote": "光之父曰呉王諸樊。諸樊弟三人：次曰餘祭，次曰夷眛，次曰季子札。諸樊知季子札賢而不立太子，以次傳三弟，欲卒致國于季子札。諸樊既死，傳餘祭。餘祭死，傳夷眛。夷眛死，當傳季子札；季子札逃不肯立，呉人乃立夷眛之子僚爲王。公子光曰：「使以兄弟次邪，季子當立；必以子乎，則光眞適嗣，當立。」故嘗陰養謀臣以求立。"
+          "quote_passage_ref": "data/corpus/shiji/086.json"
         }
       ],
       "qualifiers": {
@@ -680,7 +625,7 @@
           "chapter_id": "c-shiji-086-cike",
           "source_id": "s-shiji-086-cike",
           "paragraph_id": "c-shiji-086-cike:p005",
-          "quote": "光之父曰呉王諸樊。諸樊弟三人：次曰餘祭，次曰夷眛，次曰季子札。諸樊知季子札賢而不立太子，以次傳三弟，欲卒致國于季子札。諸樊既死，傳餘祭。餘祭死，傳夷眛。夷眛死，當傳季子札；季子札逃不肯立，呉人乃立夷眛之子僚爲王。公子光曰：「使以兄弟次邪，季子當立；必以子乎，則光眞適嗣，當立。」故嘗陰養謀臣以求立。"
+          "quote_passage_ref": "data/corpus/shiji/086.json"
         }
       ],
       "qualifiers": {
@@ -701,7 +646,7 @@
           "chapter_id": "c-shiji-086-cike",
           "source_id": "s-shiji-086-cike",
           "paragraph_id": "c-shiji-086-cike:p005",
-          "quote": "光之父曰呉王諸樊。諸樊弟三人：次曰餘祭，次曰夷眛，次曰季子札。諸樊知季子札賢而不立太子，以次傳三弟，欲卒致國于季子札。諸樊既死，傳餘祭。餘祭死，傳夷眛。夷眛死，當傳季子札；季子札逃不肯立，呉人乃立夷眛之子僚爲王。公子光曰：「使以兄弟次邪，季子當立；必以子乎，則光眞適嗣，當立。」故嘗陰養謀臣以求立。"
+          "quote_passage_ref": "data/corpus/shiji/086.json"
         }
       ],
       "qualifiers": {
@@ -725,8 +670,8 @@
           "chapter_id": "c-shiji-031-wu",
           "source_id": "s-shiji-031-wu",
           "paragraph_id": "c-shiji-031-wu:p008",
-          "quote": "十三年，王諸樊卒。有命授弟餘祭，欲傳以次，必致國於季札而止，以稱先王壽夢之意，且嘉季札之義，兄弟皆欲致國，令以漸至焉。季札封於延陵，故號曰延陵季子。",
-          "person_mention_id": "c-shiji-031-wu:m008-0004"
+          "person_mention_id": "c-shiji-031-wu:m008-0004",
+          "quote_passage_ref": "data/corpus/shiji/031.json"
         }
       ],
       "source_term": "王諸樊卒",
@@ -746,8 +691,8 @@
             "chapter_id": "c-shiji-031-wu",
             "source_id": "s-shiji-031-wu",
             "paragraph_id": "c-shiji-031-wu:p008",
-            "quote": "十三年，王諸樊卒。有命授弟餘祭，欲傳以次，必致國於季札而止，以稱先王壽夢之意，且嘉季札之義，兄弟皆欲致國，令以漸至焉。季札封於延陵，故號曰延陵季子。",
-            "person_mention_id": "c-shiji-031-wu:m008-0004"
+            "person_mention_id": "c-shiji-031-wu:m008-0004",
+            "quote_passage_ref": "data/corpus/shiji/031.json"
           }
         ],
         "references": [
@@ -776,8 +721,8 @@
           "chapter_id": "c-shiji-086-cike",
           "source_id": "s-shiji-086-cike",
           "paragraph_id": "c-shiji-086-cike:p005",
-          "quote": "光之父曰呉王諸樊。諸樊弟三人：次曰餘祭，次曰夷眛，次曰季子札。諸樊知季子札賢而不立太子，以次傳三弟，欲卒致國于季子札。諸樊既死，傳餘祭。餘祭死，傳夷眛。夷眛死，當傳季子札；季子札逃不肯立，呉人乃立夷眛之子僚爲王。公子光曰：「使以兄弟次邪，季子當立；必以子乎，則光眞適嗣，當立。」故嘗陰養謀臣以求立。",
-          "person_mention_id": "c-shiji-086-cike:m005-0004"
+          "person_mention_id": "c-shiji-086-cike:m005-0004",
+          "quote_passage_ref": "data/corpus/shiji/086.json"
         }
       ],
       "interpretation_note": "保存本段死亡原語；日期未明者不逆算，不由死亡自動終止全部官爵。未核影像。",

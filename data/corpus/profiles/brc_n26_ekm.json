@@ -24,7 +24,6 @@
       "raw_count": 6,
       "duplicate_count": 0,
       "counting_policy": "independent_fixed_witness_occurrences",
-      "quote": "瓚字國寶，中書郎，風神高邁，見者皆敬之。特為王綏所重，每從其遊。綏父戎謂之曰：「國寶初不來，汝數往，何也？」對曰：「國寶雖不知綏，綏自知國寶。」楊駿之誅，為亂兵所害。",
       "paragraph_ids": [
         "c-jinshu-035-peikai-family:p011"
       ],
@@ -93,7 +92,12 @@
       "book_id": "b-jinshu-035",
       "chapter_id": "c-jinshu-035-peikai-family",
       "source_id": "s-jinshu-035-peikai-ws2506399",
-      "work_title": "晉書"
+      "work_title": "晉書",
+      "chapter_ref": "data/corpus/jinshu/035-pei-family.json",
+      "quote_span": [
+        0,
+        83
+      ]
     },
     {
       "number": 43,
@@ -104,7 +108,6 @@
       "raw_count": 1,
       "duplicate_count": 0,
       "counting_policy": "independent_fixed_witness_occurrences",
-      "quote": "子萬，有美名。少而大肥，戎令食穅，而肥愈甚。年十九卒。有庶子興，戎所不齒。以從弟陽平太守愔子為嗣。",
       "paragraph_ids": [
         "c-jinshu-043-wangrong:p014"
       ],
@@ -128,7 +131,12 @@
       "book_id": "b-jinshu-043",
       "chapter_id": "c-jinshu-043-wangrong",
       "source_id": "s-jinshu-043-ws2618531-wangrong",
-      "work_title": "晉書"
+      "work_title": "晉書",
+      "chapter_ref": "data/corpus/jinshu/043-wangrong.json",
+      "quote_span": [
+        0,
+        49
+      ]
     }
   ],
   "table_occurrences": [],
@@ -138,55 +146,14 @@
       "work_id": "w-jinshu",
       "book_id": "b-jinshu-035",
       "source_id": "s-jinshu-035-peikai-ws2506399",
-      "source": {
-        "title": "《晉書》卷三十五裴楷及附傳（固定數位選錄）",
-        "provider": "Wikisource",
-        "url": "https://zh.wikisource.org/w/index.php?title=%E6%99%89%E6%9B%B8%2F%E5%8D%B7035&oldid=2506399",
-        "permalink": "https://zh.wikisource.org/w/index.php?title=%E6%99%89%E6%9B%B8%2F%E5%8D%B7035&oldid=2506399",
-        "revision_id": 2506399,
-        "accessed_on": "2026-10-21",
-        "extent": "完整裴楷及輿、瓚、憲、康盾邵、綽遐與八裴八王19段；不是完整卷035，不含陳騫裴秀頠及史評。",
-        "text_scope": "partial_chapter",
-        "review_status": "text_checked",
-        "image_verified": false,
-        "rights": "古代原文及維基文庫數位轉錄，保留見證歸屬；數位文字依CC BY-SA 4.0。",
-        "license_url": "https://creativecommons.org/licenses/by-sa/4.0/",
-        "edition": null,
-        "wikitext_sha256": "b27aa9fc386b5f40990822d615febffcb8b8cd6df3fe6f74585274ff733c12be",
-        "response_sha256": "e7fc20a0864866bfb68f1f92b542b6f542edebed2052fcf550244ed46206fa35",
-        "raw_file": "sources/witnesses/jin035-ws2506399.wikitext",
-        "normalization": {
-          "character_conversion": {},
-          "extraction_note": "展開連結顯示字、去粗體排版；標題另層。㲄、俊郎、雲及缺閉引號原樣保留。"
-        }
-      }
+      "chapter_ref": "data/corpus/jinshu/035-pei-family.json"
     },
     {
       "chapter_id": "c-jinshu-043-wangrong",
       "work_id": "w-jinshu",
       "book_id": "b-jinshu-043",
       "source_id": "s-jinshu-043-ws2618531-wangrong",
-      "source": {
-        "title": "《晉書》卷四十三王戎完整本傳（數位選錄）",
-        "provider": "Wikisource",
-        "url": "https://zh.wikisource.org/w/index.php?title=晉書/卷043&oldid=2618531",
-        "permalink": "https://zh.wikisource.org/w/index.php?title=晉書/卷043&oldid=2618531",
-        "revision_id": 2618531,
-        "accessed_on": "2026-10-21",
-        "extent": "王戎完整本傳14原段；止從弟衍附傳之前，不含王衍、澄等獨立單元及整卷史評。",
-        "text_scope": "partial_chapter",
-        "review_status": "text_checked",
-        "image_verified": false,
-        "rights": "古代原文及維基文庫數位轉錄，保留來源歸屬；數位文字依CC BY-SA 4.0。",
-        "license_url": "https://creativecommons.org/licenses/by-sa/4.0/",
-        "edition": null,
-        "wikitext_sha256": "d9ab0781004dc723ae243bb2bac47695d2736fd7b595ec472d5ffde62a04d0fe",
-        "raw_file": "sources/witnesses/jin043-ws2618531.wikitext",
-        "normalization": {
-          "character_conversion": {},
-          "extraction_note": "僅移除段首空白、展開維基連結顯示字及YL年號模板；原缺閉引號、季劄、鐘會、𦃩、報嘗均保留。"
-        }
-      }
+      "chapter_ref": "data/corpus/jinshu/043-wangrong.json"
     }
   ],
   "relations": [
@@ -203,9 +170,9 @@
           "source_id": "s-jinshu-035-peikai-ws2506399",
           "chapter_id": "c-jinshu-035-peikai-family",
           "paragraph_id": "c-jinshu-035-peikai-family:p011",
-          "quote": "瓚字國寶，中書郎，風神高邁，見者皆敬之。特為王綏所重，每從其遊。綏父戎謂之曰：「國寶初不來，汝數往，何也？」對曰：「國寶雖不知綏，綏自知國寶。」楊駿之誅，為亂兵所害。",
           "subject_person_mention_id": "c-jinshu-035-peikai-family:p011:m0032",
-          "object_person_mention_id": "c-jinshu-035-peikai-family:p011:m0034"
+          "object_person_mention_id": "c-jinshu-035-peikai-family:p011:m0034",
+          "quote_passage_ref": "data/corpus/jinshu/035-pei-family.json"
         }
       ],
       "qualifiers": {
@@ -262,9 +229,9 @@
           "chapter_id": "c-jinshu-043-wangrong",
           "source_id": "s-jinshu-043-ws2618531-wangrong",
           "paragraph_id": "c-jinshu-043-wangrong:p014",
-          "quote": "子萬，有美名。少而大肥，戎令食穅，而肥愈甚。年十九卒。有庶子興，戎所不齒。以從弟陽平太守愔子為嗣。",
           "subject_person_mention_id": "c-jinshu-043-wangrong:p014:m0001",
-          "object_person_mention_id": "c-jinshu-043-wangrong:p014:m0012"
+          "object_person_mention_id": "c-jinshu-043-wangrong:p014:m0012",
+          "quote_passage_ref": "data/corpus/jinshu/043-wangrong.json"
         }
       ],
       "interpretation_note": "完整原段及精確角色字位綁定；母稱不升生母、嗣不升收養、從親不補共祖/距離，未載出生或排行皆未知。",
@@ -314,9 +281,9 @@
           "source_id": "s-jinshu-035-peikai-ws2506399",
           "chapter_id": "c-jinshu-035-peikai-family",
           "paragraph_id": "c-jinshu-035-peikai-family:p011",
-          "quote": "瓚字國寶，中書郎，風神高邁，見者皆敬之。特為王綏所重，每從其遊。綏父戎謂之曰：「國寶初不來，汝數往，何也？」對曰：「國寶雖不知綏，綏自知國寶。」楊駿之誅，為亂兵所害。",
           "subject_person_mention_id": "c-jinshu-035-peikai-family:p011:m0032",
-          "object_person_mention_id": "c-jinshu-035-peikai-family:p011:m0034"
+          "object_person_mention_id": "c-jinshu-035-peikai-family:p011:m0034",
+          "quote_passage_ref": "data/corpus/jinshu/035-pei-family.json"
         }
       ],
       "qualifiers": {
@@ -373,9 +340,9 @@
           "chapter_id": "c-jinshu-043-wangrong",
           "source_id": "s-jinshu-043-ws2618531-wangrong",
           "paragraph_id": "c-jinshu-043-wangrong:p014",
-          "quote": "子萬，有美名。少而大肥，戎令食穅，而肥愈甚。年十九卒。有庶子興，戎所不齒。以從弟陽平太守愔子為嗣。",
           "subject_person_mention_id": "c-jinshu-043-wangrong:p014:m0001",
-          "object_person_mention_id": "c-jinshu-043-wangrong:p014:m0012"
+          "object_person_mention_id": "c-jinshu-043-wangrong:p014:m0012",
+          "quote_passage_ref": "data/corpus/jinshu/043-wangrong.json"
         }
       ],
       "interpretation_note": "完整原段及精確角色字位綁定；母稱不升生母、嗣不升收養、從親不補共祖/距離，未載出生或排行皆未知。",
@@ -403,8 +370,8 @@
           "chapter_id": "c-jinshu-043-wangrong",
           "source_id": "s-jinshu-043-ws2618531-wangrong",
           "paragraph_id": "c-jinshu-043-wangrong:p014",
-          "quote": "子萬，有美名。少而大肥，戎令食穅，而肥愈甚。年十九卒。有庶子興，戎所不齒。以從弟陽平太守愔子為嗣。",
-          "person_mention_id": "c-jinshu-043-wangrong:p014:m0001"
+          "person_mention_id": "c-jinshu-043-wangrong:p014:m0001",
+          "quote_passage_ref": "data/corpus/jinshu/043-wangrong.json"
         }
       ],
       "interpretation_note": "來源報齡，未推計歲法或出生年。",
@@ -434,8 +401,8 @@
           "chapter_id": "c-jinshu-043-wangrong",
           "source_id": "s-jinshu-043-ws2618531-wangrong",
           "paragraph_id": "c-jinshu-043-wangrong:p014",
-          "quote": "子萬，有美名。少而大肥，戎令食穅，而肥愈甚。年十九卒。有庶子興，戎所不齒。以從弟陽平太守愔子為嗣。",
-          "person_mention_id": "c-jinshu-043-wangrong:p014:m0001"
+          "person_mention_id": "c-jinshu-043-wangrong:p014:m0001",
+          "quote_passage_ref": "data/corpus/jinshu/043-wangrong.json"
         }
       ],
       "interpretation_note": "本篇原文死亡/回憶死亡主體與原詞；除戎明載永興二年外年份未知，不把前後事件年套入。",

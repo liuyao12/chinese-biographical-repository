@@ -20,7 +20,6 @@
       "raw_count": 1,
       "duplicate_count": 0,
       "counting_policy": "independent_fixed_witness_occurrences",
-      "quote": "君長者，不忍刺君。然後刺君者十餘曹，備之！」袁盎心不樂，家又多怪，乃之棓生所問占。還，梁刺客後曹輩果遮刺殺盎安陵郭門外。",
       "paragraph_ids": [
         "c-shiji-101-yuanchao:p015"
       ],
@@ -44,7 +43,12 @@
       "book_id": "b-shiji-101",
       "chapter_id": "c-shiji-101-yuanchao",
       "source_id": "s-shiji-101-yuanchao",
-      "work_title": "史記"
+      "work_title": "史記",
+      "chapter_ref": "data/corpus/shiji/101.json",
+      "quote_span": [
+        81,
+        141
+      ]
     }
   ],
   "table_occurrences": [],
@@ -54,24 +58,7 @@
       "work_id": "w-shiji",
       "book_id": "b-shiji-101",
       "source_id": "s-shiji-101-yuanchao",
-      "source": {
-        "title": "史記／卷101",
-        "provider": "維基文庫",
-        "url": "https://zh.wikisource.org/wiki/史記/卷101",
-        "permalink": "https://zh.wikisource.org/w/index.php?title=史記/卷101&oldid=368092",
-        "revision_id": 368092,
-        "accessed_on": "2026-10-10",
-        "extent": "22段正文含太史公論，另附1段索隱；首區塊即正文。",
-        "image_verified": false,
-        "rights": "古代原文；數位轉錄依維基文庫CC BY-SA 4.0，保留署名及固定版本。",
-        "license_url": "https://creativecommons.org/licenses/by-sa/4.0/",
-        "normalization": {
-          "character_conversion": {},
-          "editorial_readings": [],
-          "extraction_note": "只去外緣空白；鼂、陗、鬬、擥、棓、諠及（嘗）、（直）隧［直］等原字與見證符號保留。",
-          "note": "全23段已核讀；無tooltip、reference、del、s0或sup；未核底本影像。"
-        }
-      }
+      "chapter_ref": "data/corpus/shiji/101.json"
     }
   ],
   "relations": [],
@@ -94,7 +81,7 @@
       "evidence": [
         {
           "paragraph_id": "c-shiji-101-yuanchao:p015",
-          "quote": "袁盎雖家居，景帝時時使人問籌策。梁王欲求為嗣，袁盎進說，其後語塞。梁王以此怨盎，曾使人刺盎。刺者至關中，問袁盎，諸君譽之皆不容口。乃見袁盎曰：「臣受梁王金來刺君，君長者，不忍刺君。然後刺君者十餘曹，備之！」袁盎心不樂，家又多怪，乃之棓生所問占。還，梁刺客後曹輩果遮刺殺盎安陵郭門外。"
+          "quote_passage_ref": "data/corpus/shiji/101.json"
         }
       ],
       "rationale": "按本傳明示姓名、字及敘事承接；皇帝上字逐處依文景敘事核定，建元上另留未名。兄噲不合樊噲，兄子種不補具名父親。身份及官稱回指為代理首輪判讀，非人工覆核。 指定古注固定修訂已核讀，與正文分層，未核書影。",

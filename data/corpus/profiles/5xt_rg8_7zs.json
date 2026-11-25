@@ -23,7 +23,7 @@
           "chapter_id": "c-shiji-007-xiangyu",
           "source_id": "s-shiji-007-xiangyu",
           "paragraph_id": "c-shiji-007-xiangyu:p001",
-          "quote": "項籍者，下相人也，字羽。初起時，年二十四。其季父項梁，梁父即楚將項燕，為秦將王翦所戮者也。項氏世世為楚將，封於項，故姓項氏。"
+          "quote_passage_ref": "data/corpus/shiji/007.json"
         }
       ],
       "attestations": [
@@ -67,7 +67,7 @@
           "chapter_id": "c-shiji-040-chu",
           "source_id": "s-shiji-040-chu",
           "paragraph_id": "c-shiji-040-chu:p094",
-          "quote": "王負芻元年，燕太子丹使荊軻刺秦王。二年，秦使將軍伐楚，大破楚軍，亡十餘城。三年，秦滅魏。四年，秦將王翦破我軍於蘄，而殺將軍項燕。"
+          "quote_passage_ref": "data/corpus/shiji/040.json"
         }
       ],
       "attestations": [
@@ -109,7 +109,7 @@
           "chapter_id": "c-shiji-073-baiwang",
           "source_id": "s-shiji-073-baiwang",
           "paragraph_id": "c-shiji-073-baiwang:p012",
-          "quote": "王翦果代李信擊荊。荊聞王翦益軍而來，乃悉國中兵以拒秦。王翦至，堅壁而守之，不肯戰。荊兵數出挑戰，終不出。王翦日休士洗沐，而善飲食撫循之，親與士卒同食。久之，王翦使人問軍中戲乎？對曰：「方投石超距。」於是王翦曰：「士卒可用矣。」荊數挑戰而秦不出，乃引而東。翦因舉兵追之，令壯士擊，大破荊軍。至蘄南，殺其將軍項燕，荊兵遂敗走。秦因乘勝略定荊地城邑。歲餘，虜荊王負芻，竟平荊地為郡縣。因南征百越之君。而王翦子王賁，與李信破定燕、齊地。"
+          "quote_passage_ref": "data/corpus/shiji/073.json"
         }
       ],
       "attestations": [
@@ -151,7 +151,6 @@
       "raw_count": 2,
       "duplicate_count": 0,
       "counting_policy": "independent_fixed_witness_occurrences",
-      "quote": "秦王復召王翦，彊起之，使將擊荊。取陳以南至平輿，虜荊王。秦王游至郢陳。荊將項燕立昌平君為荊王，反秦於淮南。二十四年，王翦、蒙武攻荊，破荊軍，昌平君死，項燕遂自殺。",
       "paragraph_ids": [
         "c-shiji-006-shihuang:p018"
       ],
@@ -184,7 +183,12 @@
       "book_id": "b-shiji-006",
       "chapter_id": "c-shiji-006-shihuang",
       "source_id": "s-shiji-006-shihuang",
-      "work_title": "史記"
+      "work_title": "史記",
+      "chapter_ref": "data/corpus/shiji/006.json",
+      "quote_span": [
+        5,
+        86
+      ]
     },
     {
       "number": 7,
@@ -195,7 +199,6 @@
       "raw_count": 1,
       "duplicate_count": 0,
       "counting_policy": "independent_fixed_witness_occurrences",
-      "quote": "項籍者，下相人也，字羽。初起時，年二十四。其季父項梁，梁父即楚將項燕，為秦將王翦所戮者也。項氏世世為楚將，封於項，故姓項氏。",
       "paragraph_ids": [
         "c-shiji-007-xiangyu:p001"
       ],
@@ -219,7 +222,12 @@
       "book_id": "b-shiji-007",
       "chapter_id": "c-shiji-007-xiangyu",
       "source_id": "s-shiji-007-xiangyu",
-      "work_title": "史記"
+      "work_title": "史記",
+      "chapter_ref": "data/corpus/shiji/007.json",
+      "quote_span": [
+        0,
+        62
+      ]
     },
     {
       "number": 40,
@@ -230,7 +238,6 @@
       "raw_count": 1,
       "duplicate_count": 0,
       "counting_policy": "independent_fixed_witness_occurrences",
-      "quote": "，大破楚軍，亡十餘城。三年，秦滅魏。四年，秦將王翦破我軍於蘄，而殺將軍項燕。",
       "paragraph_ids": [
         "c-shiji-040-chu:p094"
       ],
@@ -254,7 +261,12 @@
       "book_id": "b-shiji-040",
       "chapter_id": "c-shiji-040-chu",
       "source_id": "s-shiji-040-chu",
-      "work_title": "史記"
+      "work_title": "史記",
+      "chapter_ref": "data/corpus/shiji/040.json",
+      "quote_span": [
+        26,
+        64
+      ]
     },
     {
       "number": 73,
@@ -265,7 +277,6 @@
       "raw_count": 1,
       "duplicate_count": 0,
       "counting_policy": "independent_fixed_witness_occurrences",
-      "quote": "挑戰而秦不出，乃引而東。翦因舉兵追之，令壯士擊，大破荊軍。至蘄南，殺其將軍項燕，荊兵遂敗走。秦因乘勝略定荊地城邑。歲餘，虜荊王負芻，竟平荊地為郡縣。因南征百越之君。而王翦子王賁，與李信破定燕、齊地。",
       "paragraph_ids": [
         "c-shiji-073-baiwang:p012"
       ],
@@ -289,7 +300,12 @@
       "book_id": "b-shiji-073",
       "chapter_id": "c-shiji-073-baiwang",
       "source_id": "s-shiji-073-baiwang",
-      "work_title": "史記"
+      "work_title": "史記",
+      "chapter_ref": "data/corpus/shiji/073.json",
+      "quote_span": [
+        115,
+        214
+      ]
     },
     {
       "number": 88,
@@ -300,7 +316,6 @@
       "raw_count": 1,
       "duplicate_count": 0,
       "counting_policy": "independent_fixed_witness_occurrences",
-      "quote": "。恬嘗書獄典文學。始皇二十三年，蒙武為秦裨將軍，與王翦攻楚，大破之，殺項燕。二十四年，蒙武攻楚，虜楚王。蒙恬弟毅。",
       "paragraph_ids": [
         "c-shiji-088-mengtian:p001"
       ],
@@ -324,7 +339,12 @@
       "book_id": "b-shiji-088",
       "chapter_id": "c-shiji-088-mengtian",
       "source_id": "s-shiji-088-mengtian",
-      "work_title": "史記"
+      "work_title": "史記",
+      "chapter_ref": "data/corpus/shiji/088.json",
+      "quote_span": [
+        122,
+        179
+      ]
     }
   ],
   "table_occurrences": [
@@ -332,7 +352,6 @@
       "table_id": "shiji-015",
       "cell_id": "shiji-015-r253-c01",
       "title": "《史記·六國年表》",
-      "quote": "二十三。王翦、蒙武擊破楚軍，殺其將項燕。",
       "year": {
         "era": "BCE",
         "value": 224,
@@ -355,13 +374,13 @@
       "book_id": "b-shiji-015",
       "chapter_id": "table-chapter-shiji-015",
       "source_id": "table-witness-shiji-015",
-      "source_revision": "2607002"
+      "source_revision": "2607002",
+      "quote_ref": "cell"
     },
     {
       "table_id": "shiji-015",
       "cell_id": "shiji-015-r253-c06",
       "title": "《史記·六國年表》",
-      "quote": "四。秦破我將項燕。",
       "year": {
         "era": "BCE",
         "value": 224,
@@ -384,7 +403,8 @@
       "book_id": "b-shiji-015",
       "chapter_id": "table-chapter-shiji-015",
       "source_id": "table-witness-shiji-015",
-      "source_revision": "2607002"
+      "source_revision": "2607002",
+      "quote_ref": "cell"
     }
   ],
   "sources": [
@@ -393,170 +413,42 @@
       "work_id": "w-shiji",
       "book_id": "b-shiji-006",
       "source_id": "s-shiji-006-shihuang",
-      "source": {
-        "title": "史記／卷006",
-        "provider": "維基文庫",
-        "url": "https://zh.wikisource.org/wiki/史記/卷006",
-        "permalink": "https://zh.wikisource.org/w/index.php?title=史記/卷006&oldid=7907969",
-        "revision_id": 7907969,
-        "accessed_on": "2026-10-09",
-        "extent": "數位見證127個文字區塊，含16個dd刻辭或嵌入引文及卷末附載班固記；排除導覽、跨站連結與註號。",
-        "image_verified": false,
-        "rights": "古代原文與附載文字；數位轉錄依維基文庫CC BY-SA 4.0，保留署名及固定版本。",
-        "license_url": "https://creativecommons.org/licenses/by-sa/4.0/",
-        "normalization": {
-          "character_conversion": {},
-          "note": "正文未改寫；行內校勘標記及附載文字仍待逐處核對。固定版本正文HTML重讀一致。",
-          "editorial_readings": [
-            {
-              "paragraph_id": "c-shiji-006-shihuang:p010",
-              "witness_form": "（四）［是］",
-              "body_reading": "四",
-              "note": "數位見證行內校勘標記另存；正文保留改讀前的字，不稱已校定底本。"
-            },
-            {
-              "paragraph_id": "c-shiji-006-shihuang:p016",
-              "witness_form": "（薊）［荊］",
-              "body_reading": "薊",
-              "note": "數位見證行內校勘標記另存；正文保留改讀前的字，不稱已校定底本。"
-            },
-            {
-              "paragraph_id": "c-shiji-006-shihuang:p051",
-              "witness_form": "（其）",
-              "body_reading": "",
-              "note": "數位見證行內刪字標記另存；未核底本，不稱校定讀法。"
-            },
-            {
-              "paragraph_id": "c-shiji-006-shihuang:p061",
-              "witness_form": "（者）",
-              "body_reading": "",
-              "note": "數位見證行內刪字標記另存；未核底本，不稱校定讀法。"
-            }
-          ],
-          "extraction_note": "按正文p及dd區塊原有次序錄入；dd用前一段ID加block後綴，既有p段落ID不變。正文前兩個dd為維基百科與文言維基大典導覽，排除。"
-        }
-      }
+      "chapter_ref": "data/corpus/shiji/006.json"
     },
     {
       "chapter_id": "c-shiji-007-xiangyu",
       "work_id": "w-shiji",
       "book_id": "b-shiji-007",
       "source_id": "s-shiji-007-xiangyu",
-      "source": {
-        "title": "史記／卷007",
-        "provider": "維基文庫",
-        "url": "https://zh.wikisource.org/wiki/史記/卷007",
-        "permalink": "https://zh.wikisource.org/w/index.php?title=史記/卷007&oldid=5978360",
-        "revision_id": 5978360,
-        "accessed_on": "2026-10-09",
-        "extent": "本篇傳世正文45個p區塊，自「項籍者」至太史公論贊；不含導覽標題、跨站連結與另署【索隱述贊】的後出注家文字。",
-        "image_verified": false,
-        "rights": "古代原文；數位轉錄依維基文庫CC BY-SA 4.0，保留署名及固定版本。",
-        "license_url": "https://creativecommons.org/licenses/by-sa/4.0/",
-        "normalization": {
-          "character_conversion": {},
-          "editorial_readings": [],
-          "extraction_note": "核讀p與dd原有次序；本篇dd僅為正文前跨站導覽，正文45區塊均為p。排除sup註號，保留行內校勘符號待核。",
-          "note": "固定版本正文HTML與所讀頁面重讀一致；未核紙本或影像。"
-        }
-      }
+      "chapter_ref": "data/corpus/shiji/007.json"
     },
     {
       "chapter_id": "c-shiji-040-chu",
       "work_id": "w-shiji",
       "book_id": "b-shiji-040",
       "source_id": "s-shiji-040-chu",
-      "source": {
-        "title": "史記／卷040",
-        "provider": "維基文庫",
-        "url": "https://zh.wikisource.org/wiki/史記/卷040",
-        "permalink": "https://zh.wikisource.org/w/index.php?title=史記/卷040&oldid=8736796",
-        "revision_id": 8736796,
-        "accessed_on": "2026-10-09",
-        "extent": "96段正文及1段分層索隱述贊；排除2個dd導覽，去除段落外緣空白。",
-        "image_verified": false,
-        "rights": "古代原文；數位轉錄依維基文庫CC BY-SA 4.0，保留署名及固定版本。",
-        "license_url": "https://creativecommons.org/licenses/by-sa/4.0/",
-        "normalization": {
-          "character_conversion": {
-            "笔": "筆"
-          },
-          "editorial_readings": [],
-          "extraction_note": "固定修訂與取得時HTML一致；僅去除段落外緣空白，古代異體及校勘括號保留。 第70段笔轉筆，未將「西取筆秦」疑句自行校讀。",
-          "note": "全97段數位正文已核讀，人物標註與可靠底本、影像覆核尚未完成；不把數位轉錄當版本校定。"
-        }
-      }
+      "chapter_ref": "data/corpus/shiji/040.json"
     },
     {
       "chapter_id": "c-shiji-073-baiwang",
       "work_id": "w-shiji",
       "book_id": "b-shiji-073",
       "source_id": "s-shiji-073-baiwang",
-      "source": {
-        "title": "史記／卷073",
-        "provider": "維基文庫",
-        "url": "https://zh.wikisource.org/wiki/史記/卷073",
-        "permalink": "https://zh.wikisource.org/w/index.php?title=史記/卷073&oldid=7909285",
-        "revision_id": 7909285,
-        "accessed_on": "2026-10-09",
-        "extent": "15段正文，自白起者至太史公論贊；排除ws-header人物導覽、索隱述贊及現代版權告示。",
-        "image_verified": false,
-        "rights": "古代原文；數位轉錄依維基文庫CC BY-SA 4.0，保留署名及固定版本。",
-        "license_url": "https://creativecommons.org/licenses/by-sa/4.0/",
-        "normalization": {
-          "character_conversion": {},
-          "editorial_readings": [],
-          "extraction_note": "固定HTML與取得時版本一致，只去外緣空白；保留龁、筑、阬、沈、甐、于、怚、圽等原字。",
-          "note": "全15段正文及明示姓名首輪已核讀；未核底本、影像或現代研究。"
-        }
-      }
+      "chapter_ref": "data/corpus/shiji/073.json"
     },
     {
       "chapter_id": "c-shiji-088-mengtian",
       "work_id": "w-shiji",
       "book_id": "b-shiji-088",
       "source_id": "s-shiji-088-mengtian",
-      "source": {
-        "title": "史記／卷088",
-        "provider": "維基文庫",
-        "url": "https://zh.wikisource.org/wiki/史記/卷088",
-        "permalink": "https://zh.wikisource.org/w/index.php?title=史記/卷088&oldid=1965690",
-        "revision_id": 1965690,
-        "accessed_on": "2026-10-09",
-        "extent": "11段正文含太史公論，排除導覽；所取得頁面未附索隱述贊。",
-        "image_verified": false,
-        "rights": "古代原文；數位轉錄依維基文庫CC BY-SA 4.0，保留署名及固定版本。",
-        "license_url": "https://creativecommons.org/licenses/by-sa/4.0/",
-        "normalization": {
-          "character_conversion": {},
-          "editorial_readings": [],
-          "extraction_note": "固定HTML與取得時版本一致，只去外緣空白；異體、引古及對話原文保留。",
-          "note": "11段正文與HTML篇界已核讀，未核底本影像；局部現代研究核讀另記，不改數位正文。"
-        }
-      }
+      "chapter_ref": "data/corpus/shiji/088.json"
     },
     {
       "chapter_id": "table-chapter-shiji-015",
       "work_id": "w-shiji",
       "book_id": "b-shiji-015",
       "source_id": "table-witness-shiji-015",
-      "source": {
-        "id": "table-witness-shiji-015",
-        "work_id": "w-shiji",
-        "book_id": "b-shiji-015",
-        "chapter_id": "table-chapter-shiji-015",
-        "url": "https://zh.wikisource.org/wiki/史記/卷015",
-        "revision_url": "https://zh.wikisource.org/w/index.php?title=史記/卷015&oldid=2607002",
-        "revision": "2607002",
-        "accessed": "2026-10-12",
-        "response_sha256": "eb0624a019e02c24ce90a40bfa24863f4020878062c6e2efea32355033be5559",
-        "edition": null,
-        "image_verified": false,
-        "rights": "古籍正文公有領域；維基文庫轉錄及編輯內容依 CC BY-SA 條款，署名維基文庫貢獻者。",
-        "rights_url": "https://zh.wikisource.org/wiki/Wikisource:版權信息",
-        "review_status": "agent_first_pass_named_entities",
-        "note": "完整數位表格結構匯入，未逐格學術覆核。未核讀印本影像，原印本頁碼未知。西元欄沿用此數位轉錄的編者對照，不是古籍原有西元紀年，也不引用其維基百科外連。"
-      }
+      "table_source_ref": "shiji-015"
     }
   ],
   "relations": [
@@ -600,8 +492,8 @@
           "chapter_id": "c-shiji-006-shihuang",
           "source_id": "s-shiji-006-shihuang",
           "paragraph_id": "c-shiji-006-shihuang:p018",
-          "quote": "二十三年，秦王復召王翦，彊起之，使將擊荊。取陳以南至平輿，虜荊王。秦王游至郢陳。荊將項燕立昌平君為荊王，反秦於淮南。二十四年，王翦、蒙武攻荊，破荊軍，昌平君死，項燕遂自殺。",
-          "person_mention_id": "c-shiji-006-shihuang:m018-0080"
+          "person_mention_id": "c-shiji-006-shihuang:m018-0080",
+          "quote_passage_ref": "data/corpus/shiji/006.json"
         }
       ],
       "references": [
@@ -643,8 +535,8 @@
           "chapter_id": "c-shiji-088-mengtian",
           "source_id": "s-shiji-088-mengtian",
           "paragraph_id": "c-shiji-088-mengtian:p001",
-          "quote": "蒙恬者，其先齊人也。恬大父蒙驁，自齊事秦昭王，官至上卿。秦莊襄王元年，蒙驁為秦將，伐韓，取成皋、滎陽，作置三川郡。二年，蒙驁攻趙，取三十七城。始皇三年，蒙驁攻韓，取十三城。五年，蒙驁攻魏，取二十城，作置東郡。始皇七年，蒙驁卒。驁子曰武，武子曰恬。恬嘗書獄典文學。始皇二十三年，蒙武為秦裨將軍，與王翦攻楚，大破之，殺項燕。二十四年，蒙武攻楚，虜楚王。蒙恬弟毅。",
-          "person_mention_id": "c-shiji-088-mengtian:m001-0157"
+          "person_mention_id": "c-shiji-088-mengtian:m001-0157",
+          "quote_passage_ref": "data/corpus/shiji/088.json"
         }
       ],
       "references": [
@@ -721,8 +613,8 @@
           "chapter_id": "c-shiji-006-shihuang",
           "source_id": "s-shiji-006-shihuang",
           "paragraph_id": "c-shiji-006-shihuang:p018",
-          "quote": "二十三年，秦王復召王翦，彊起之，使將擊荊。取陳以南至平輿，虜荊王。秦王游至郢陳。荊將項燕立昌平君為荊王，反秦於淮南。二十四年，王翦、蒙武攻荊，破荊軍，昌平君死，項燕遂自殺。",
-          "person_mention_id": "c-shiji-006-shihuang:m018-0080"
+          "person_mention_id": "c-shiji-006-shihuang:m018-0080",
+          "quote_passage_ref": "data/corpus/shiji/006.json"
         }
       ],
       "source_term": "項燕遂自殺",
@@ -742,8 +634,8 @@
             "chapter_id": "c-shiji-006-shihuang",
             "source_id": "s-shiji-006-shihuang",
             "paragraph_id": "c-shiji-006-shihuang:p018",
-            "quote": "二十三年，秦王復召王翦，彊起之，使將擊荊。取陳以南至平輿，虜荊王。秦王游至郢陳。荊將項燕立昌平君為荊王，反秦於淮南。二十四年，王翦、蒙武攻荊，破荊軍，昌平君死，項燕遂自殺。",
-            "person_mention_id": "c-shiji-006-shihuang:m018-0080"
+            "person_mention_id": "c-shiji-006-shihuang:m018-0080",
+            "quote_passage_ref": "data/corpus/shiji/006.json"
           }
         ],
         "references": [
@@ -780,8 +672,8 @@
           "chapter_id": "c-shiji-007-xiangyu",
           "source_id": "s-shiji-007-xiangyu",
           "paragraph_id": "c-shiji-007-xiangyu:p001",
-          "quote": "項籍者，下相人也，字羽。初起時，年二十四。其季父項梁，梁父即楚將項燕，為秦將王翦所戮者也。項氏世世為楚將，封於項，故姓項氏。",
-          "person_mention_id": "c-shiji-007-xiangyu:m001-0032"
+          "person_mention_id": "c-shiji-007-xiangyu:m001-0032",
+          "quote_passage_ref": "data/corpus/shiji/007.json"
         }
       ],
       "source_term": "為秦將王翦所戮者也",
@@ -800,8 +692,8 @@
           "chapter_id": "c-shiji-040-chu",
           "source_id": "s-shiji-040-chu",
           "paragraph_id": "c-shiji-040-chu:p094",
-          "quote": "王負芻元年，燕太子丹使荊軻刺秦王。二年，秦使將軍伐楚，大破楚軍，亡十餘城。三年，秦滅魏。四年，秦將王翦破我軍於蘄，而殺將軍項燕。",
-          "person_mention_id": "c-shiji-040-chu:m094-0061"
+          "person_mention_id": "c-shiji-040-chu:m094-0061",
+          "quote_passage_ref": "data/corpus/shiji/040.json"
         }
       ],
       "source_term": "殺將軍項燕",
@@ -821,8 +713,8 @@
           "chapter_id": "c-shiji-073-baiwang",
           "source_id": "s-shiji-073-baiwang",
           "paragraph_id": "c-shiji-073-baiwang:p012",
-          "quote": "王翦果代李信擊荊。荊聞王翦益軍而來，乃悉國中兵以拒秦。王翦至，堅壁而守之，不肯戰。荊兵數出挑戰，終不出。王翦日休士洗沐，而善飲食撫循之，親與士卒同食。久之，王翦使人問軍中戲乎？對曰：「方投石超距。」於是王翦曰：「士卒可用矣。」荊數挑戰而秦不出，乃引而東。翦因舉兵追之，令壯士擊，大破荊軍。至蘄南，殺其將軍項燕，荊兵遂敗走。秦因乘勝略定荊地城邑。歲餘，虜荊王負芻，竟平荊地為郡縣。因南征百越之君。而王翦子王賁，與李信破定燕、齊地。",
-          "person_mention_id": "c-shiji-073-baiwang:m012-0150"
+          "person_mention_id": "c-shiji-073-baiwang:m012-0150",
+          "quote_passage_ref": "data/corpus/shiji/073.json"
         }
       ],
       "interpretation_note": "僅保存具名者明示死亡；被虜、王降、病及群體死亡不轉為個人死亡。秦二世時皆已死是已死陳述，不當兩人同年或秦二世年內死亡；原月日不轉公曆。",
@@ -841,8 +733,8 @@
           "chapter_id": "c-shiji-088-mengtian",
           "source_id": "s-shiji-088-mengtian",
           "paragraph_id": "c-shiji-088-mengtian:p001",
-          "quote": "蒙恬者，其先齊人也。恬大父蒙驁，自齊事秦昭王，官至上卿。秦莊襄王元年，蒙驁為秦將，伐韓，取成皋、滎陽，作置三川郡。二年，蒙驁攻趙，取三十七城。始皇三年，蒙驁攻韓，取十三城。五年，蒙驁攻魏，取二十城，作置東郡。始皇七年，蒙驁卒。驁子曰武，武子曰恬。恬嘗書獄典文學。始皇二十三年，蒙武為秦裨將軍，與王翦攻楚，大破之，殺項燕。二十四年，蒙武攻楚，虜楚王。蒙恬弟毅。",
-          "person_mention_id": "c-shiji-088-mengtian:m001-0157"
+          "person_mention_id": "c-shiji-088-mengtian:m001-0157",
+          "quote_passage_ref": "data/corpus/shiji/088.json"
         }
       ],
       "interpretation_note": "蒙武與王翦攻楚之敘述，保留被殺與二十三年；與本紀二十四年自殺異說分存。 保存本篇原語及敘述範圍，不視作獨立證成，不由死亡一律終止所有官爵；未核書影。",
@@ -861,8 +753,8 @@
             "chapter_id": "c-shiji-088-mengtian",
             "source_id": "s-shiji-088-mengtian",
             "paragraph_id": "c-shiji-088-mengtian:p001",
-            "quote": "蒙恬者，其先齊人也。恬大父蒙驁，自齊事秦昭王，官至上卿。秦莊襄王元年，蒙驁為秦將，伐韓，取成皋、滎陽，作置三川郡。二年，蒙驁攻趙，取三十七城。始皇三年，蒙驁攻韓，取十三城。五年，蒙驁攻魏，取二十城，作置東郡。始皇七年，蒙驁卒。驁子曰武，武子曰恬。恬嘗書獄典文學。始皇二十三年，蒙武為秦裨將軍，與王翦攻楚，大破之，殺項燕。二十四年，蒙武攻楚，虜楚王。蒙恬弟毅。",
-            "person_mention_id": "c-shiji-088-mengtian:m001-0157"
+            "person_mention_id": "c-shiji-088-mengtian:m001-0157",
+            "quote_passage_ref": "data/corpus/shiji/088.json"
           }
         ],
         "references": [
@@ -915,15 +807,15 @@
           "chapter_id": "c-shiji-006-shihuang",
           "source_id": "s-shiji-006-shihuang",
           "paragraph_id": "c-shiji-006-shihuang:p018",
-          "quote": "二十三年，秦王復召王翦，彊起之，使將擊荊。取陳以南至平輿，虜荊王。秦王游至郢陳。荊將項燕立昌平君為荊王，反秦於淮南。二十四年，王翦、蒙武攻荊，破荊軍，昌平君死，項燕遂自殺。",
-          "person_mention_id": "c-shiji-006-shihuang:m018-0080"
+          "person_mention_id": "c-shiji-006-shihuang:m018-0080",
+          "quote_passage_ref": "data/corpus/shiji/006.json"
         },
         {
           "chapter_id": "c-shiji-088-mengtian",
           "source_id": "s-shiji-088-mengtian",
           "paragraph_id": "c-shiji-088-mengtian:p001",
-          "quote": "蒙恬者，其先齊人也。恬大父蒙驁，自齊事秦昭王，官至上卿。秦莊襄王元年，蒙驁為秦將，伐韓，取成皋、滎陽，作置三川郡。二年，蒙驁攻趙，取三十七城。始皇三年，蒙驁攻韓，取十三城。五年，蒙驁攻魏，取二十城，作置東郡。始皇七年，蒙驁卒。驁子曰武，武子曰恬。恬嘗書獄典文學。始皇二十三年，蒙武為秦裨將軍，與王翦攻楚，大破之，殺項燕。二十四年，蒙武攻楚，虜楚王。蒙恬弟毅。",
-          "person_mention_id": "c-shiji-088-mengtian:m001-0157"
+          "person_mention_id": "c-shiji-088-mengtian:m001-0157",
+          "quote_passage_ref": "data/corpus/shiji/088.json"
         }
       ],
       "reviewer": "Codex（AI 代理）",
@@ -945,8 +837,8 @@
           "chapter_id": "c-shiji-088-mengtian",
           "source_id": "s-shiji-088-mengtian",
           "paragraph_id": "c-shiji-088-mengtian:p001",
-          "quote": "蒙恬者，其先齊人也。恬大父蒙驁，自齊事秦昭王，官至上卿。秦莊襄王元年，蒙驁為秦將，伐韓，取成皋、滎陽，作置三川郡。二年，蒙驁攻趙，取三十七城。始皇三年，蒙驁攻韓，取十三城。五年，蒙驁攻魏，取二十城，作置東郡。始皇七年，蒙驁卒。驁子曰武，武子曰恬。恬嘗書獄典文學。始皇二十三年，蒙武為秦裨將軍，與王翦攻楚，大破之，殺項燕。二十四年，蒙武攻楚，虜楚王。蒙恬弟毅。",
-          "person_mention_id": "c-shiji-088-mengtian:m001-0157"
+          "person_mention_id": "c-shiji-088-mengtian:m001-0157",
+          "quote_passage_ref": "data/corpus/shiji/088.json"
         }
       ],
       "references": [

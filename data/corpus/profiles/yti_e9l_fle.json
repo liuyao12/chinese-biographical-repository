@@ -20,7 +20,6 @@
       "raw_count": 3,
       "duplicate_count": 0,
       "counting_policy": "independent_fixed_witness_occurrences",
-      "quote": "書弒其君厲公。十年，晉悼公伐齊，齊令公子光質晉。十九年，立子光為太子，高厚傅之，令會諸侯盟於鐘離。二十七年，晉使中行獻子伐齊。齊師敗，靈公走入臨菑。晏嬰止靈公，靈公弗從。曰：「君亦無勇矣！」晉兵遂圍臨菑，臨菑城守不敢出，晉焚郭中而去。",
       "paragraph_ids": [
         "c-shiji-032-qi:p060",
         "c-shiji-032-qi:p061"
@@ -63,7 +62,12 @@
       "book_id": "b-shiji-032",
       "chapter_id": "c-shiji-032-qi",
       "source_id": "s-shiji-032-qi",
-      "work_title": "史記"
+      "work_title": "史記",
+      "chapter_ref": "data/corpus/shiji/032.json",
+      "quote_span": [
+        7,
+        124
+      ]
     }
   ],
   "table_occurrences": [
@@ -71,7 +75,6 @@
       "table_id": "shiji-014",
       "cell_id": "shiji-014-r279-c04",
       "title": "《史記·十二諸侯年表》",
-      "quote": "十九令太子光、高厚會諸侯鍾離。",
       "year": {
         "era": "BCE",
         "value": 563,
@@ -94,7 +97,8 @@
       "book_id": "b-shiji-014",
       "chapter_id": "table-chapter-shiji-014",
       "source_id": "table-witness-shiji-014",
-      "source_revision": "2607001"
+      "source_revision": "2607001",
+      "quote_ref": "cell"
     }
   ],
   "sources": [
@@ -103,47 +107,14 @@
       "work_id": "w-shiji",
       "book_id": "b-shiji-032",
       "source_id": "s-shiji-032-qi",
-      "source": {
-        "title": "史記／卷032",
-        "provider": "維基文庫",
-        "url": "https://zh.wikisource.org/wiki/史記/卷032",
-        "permalink": "https://zh.wikisource.org/w/index.php?title=史記/卷032&oldid=445042",
-        "revision_id": 445042,
-        "accessed_on": "2026-10-09",
-        "extent": "正文85個p區塊，自太公望呂尚者至太史公論贊；排除頂部君主摘要、跨站導覽及索隱述贊。",
-        "image_verified": false,
-        "rights": "古代原文；數位轉錄依維基文庫CC BY-SA 4.0，保留署名及固定版本。",
-        "license_url": "https://creativecommons.org/licenses/by-sa/4.0/",
-        "normalization": {
-          "character_conversion": {},
-          "editorial_readings": [],
-          "extraction_note": "保留彨、薄泵、慈母、無忌等原字與姓名，未按熟知讀法改寫。",
-          "note": "固定版本與實讀HTML一致；全85段首輪標註，代詞、版本與身份覆核未完；未核底本、影像或專門研究。"
-        }
-      }
+      "chapter_ref": "data/corpus/shiji/032.json"
     },
     {
       "chapter_id": "table-chapter-shiji-014",
       "work_id": "w-shiji",
       "book_id": "b-shiji-014",
       "source_id": "table-witness-shiji-014",
-      "source": {
-        "id": "table-witness-shiji-014",
-        "work_id": "w-shiji",
-        "book_id": "b-shiji-014",
-        "chapter_id": "table-chapter-shiji-014",
-        "url": "https://zh.wikisource.org/wiki/史記/卷014",
-        "revision_url": "https://zh.wikisource.org/w/index.php?title=史記/卷014&oldid=2607001",
-        "revision": "2607001",
-        "accessed": "2026-10-12",
-        "response_sha256": "399a83afe1f1fdb785213c55cbb4ec792c1b5e08929e24486f67ccc83fbacae6",
-        "edition": null,
-        "image_verified": false,
-        "rights": "古籍正文公有領域；維基文庫轉錄及編輯內容依 CC BY-SA 條款，署名維基文庫貢獻者。",
-        "rights_url": "https://zh.wikisource.org/wiki/Wikisource:版權信息",
-        "review_status": "partial_named_entity_review",
-        "note": "完整數位表格結構匯入，未逐格學術覆核。未核讀印本影像，原印本頁碼未知。西元欄沿用此數位轉錄的編者對照，不是古籍原有西元紀年，也不引用其維基百科外連。"
-      }
+      "table_source_ref": "shiji-014"
     }
   ],
   "relations": [],
@@ -169,8 +140,8 @@
           "chapter_id": "c-shiji-032-qi",
           "source_id": "s-shiji-032-qi",
           "paragraph_id": "c-shiji-032-qi:p061",
-          "quote": "二十八年，初，靈公取魯女，生子光，以為太子。仲姬，戎姬。戎姬嬖，仲姬生子牙，屬之戎姬。戎姬請以為太子，公許之。仲姬曰：「不可。光之立，列於諸侯矣，今無故廢之，君必悔之。」公曰：「在我耳。」遂東太子光，使高厚傅牙為太子。靈公疾，崔杼迎故太子光而立之，是為莊公。莊公殺戎姬。五月壬辰，靈公卒，莊公即位，執太子牙於句竇之丘，殺之。八月，崔杼殺高厚。晉聞齊亂，伐齊，至高唐。",
-          "person_mention_id": "c-shiji-032-qi:m061-0101"
+          "person_mention_id": "c-shiji-032-qi:m061-0101",
+          "quote_passage_ref": "data/corpus/shiji/032.json"
         }
       ],
       "source_term": "崔杼殺高厚",

@@ -21,7 +21,7 @@
           "chapter_id": "c-shiji-008-gaozu",
           "source_id": "s-shiji-008-gaozu",
           "paragraph_id": "c-shiji-008-gaozu:p060",
-          "quote": "其秋，利幾反，高祖自將兵擊之，利幾走。利幾者，項氏之將。項氏敗，利幾為陳公，不隨項羽，亡降高祖，高祖侯之潁川。高祖至雒陽，舉通侯籍召之，而利幾恐，故反。"
+          "quote_passage_ref": "data/corpus/shiji/008.json"
         }
       ],
       "attestations": [
@@ -65,7 +65,7 @@
           "chapter_id": "c-shiji-008-gaozu",
           "source_id": "s-shiji-008-gaozu",
           "paragraph_id": "c-shiji-008-gaozu:p060",
-          "quote": "其秋，利幾反，高祖自將兵擊之，利幾走。利幾者，項氏之將。項氏敗，利幾為陳公，不隨項羽，亡降高祖，高祖侯之潁川。高祖至雒陽，舉通侯籍召之，而利幾恐，故反。"
+          "quote_passage_ref": "data/corpus/shiji/008.json"
         }
       ],
       "attestations": [
@@ -90,7 +90,7 @@
               "chapter_id": "c-shiji-008-gaozu",
               "source_id": "s-shiji-008-gaozu",
               "paragraph_id": "c-shiji-008-gaozu:p060",
-              "quote": "其秋，利幾反，高祖自將兵擊之，利幾走。利幾者，項氏之將。項氏敗，利幾為陳公，不隨項羽，亡降高祖，高祖侯之潁川。高祖至雒陽，舉通侯籍召之，而利幾恐，故反。"
+              "quote_passage_ref": "data/corpus/shiji/008.json"
             }
           ]
         },
@@ -117,7 +117,6 @@
       "raw_count": 5,
       "duplicate_count": 0,
       "counting_policy": "independent_fixed_witness_occurrences",
-      "quote": "其秋，利幾反，高祖自將兵擊之，利幾走。利幾者，項氏之將。項氏敗，利幾為陳公，不隨項羽，亡降高祖，高祖侯之潁川。高祖至雒陽，舉通侯籍召之，而利幾恐，故反。",
       "paragraph_ids": [
         "c-shiji-008-gaozu:p060"
       ],
@@ -177,7 +176,12 @@
       "book_id": "b-shiji-008",
       "chapter_id": "c-shiji-008-gaozu",
       "source_id": "s-shiji-008-gaozu",
-      "work_title": "史記"
+      "work_title": "史記",
+      "chapter_ref": "data/corpus/shiji/008.json",
+      "quote_span": [
+        0,
+        76
+      ]
     }
   ],
   "table_occurrences": [
@@ -185,7 +189,6 @@
       "table_id": "shiji-018",
       "cell_id": "shiji-018-t1-r127-c01",
       "title": "《史記·高祖功臣侯者年表》",
-      "quote": "以荊令尹漢王五年初從，擊鍾離眛及陳公利幾，破之，徙爲漢大夫，從至陳，取韓信，還爲中尉，從擊布，功侯，二千戶。",
       "year": null,
       "mention": {
         "id": "shiji-018-t1-r127-c01-m000",
@@ -200,7 +203,8 @@
       "book_id": "b-shiji-018",
       "chapter_id": "table-chapter-shiji-018",
       "source_id": "table-witness-shiji-018",
-      "source_revision": "9484995"
+      "source_revision": "9484995",
+      "quote_ref": "cell"
     }
   ],
   "sources": [
@@ -209,49 +213,14 @@
       "work_id": "w-shiji",
       "book_id": "b-shiji-008",
       "source_id": "s-shiji-008-gaozu",
-      "source": {
-        "title": "史記／卷008",
-        "provider": "維基文庫",
-        "url": "https://zh.wikisource.org/wiki/史記/卷008",
-        "permalink": "https://zh.wikisource.org/w/index.php?title=史記/卷008&oldid=2440965",
-        "revision_id": 2440965,
-        "accessed_on": "2026-10-09",
-        "extent": "本篇傳世正文91個p區塊，自「高祖，沛豐邑中陽里人」至太史公論贊；不含導覽標題、跨站連結及另署【索隱述贊】的後出文字。",
-        "image_verified": false,
-        "rights": "古代原文；數位轉錄依維基文庫CC BY-SA 4.0，保留署名及固定版本。",
-        "license_url": "https://creativecommons.org/licenses/by-sa/4.0/",
-        "normalization": {
-          "character_conversion": {
-            "馕": "饢"
-          },
-          "editorial_readings": [],
-          "extraction_note": "正文91段均為p；前置兩個dd為跨站導覽，不收錄。排除sup註號，保留原有行內校勘符號。",
-          "note": "第48、57段馕僅作明示簡繁轉換為饢，詞義與疑讀待核，不逕改為餉或饟。數位轉錄尚未核紙本或影像。"
-        }
-      }
+      "chapter_ref": "data/corpus/shiji/008.json"
     },
     {
       "chapter_id": "table-chapter-shiji-018",
       "work_id": "w-shiji",
       "book_id": "b-shiji-018",
       "source_id": "table-witness-shiji-018",
-      "source": {
-        "id": "table-witness-shiji-018",
-        "work_id": "w-shiji",
-        "book_id": "b-shiji-018",
-        "chapter_id": "table-chapter-shiji-018",
-        "url": "https://zh.wikisource.org/wiki/史記/卷018",
-        "revision_url": "https://zh.wikisource.org/w/index.php?title=史記/卷018&oldid=9484995",
-        "revision": "9484995",
-        "accessed": "2026-10-13",
-        "response_sha256": "e9817647c74a75eaa478d78e30387fe1403da1cc9961ad7947b185af3ae1217c",
-        "edition": null,
-        "image_verified": false,
-        "rights": "古籍正文公有領域；維基文庫數位轉錄依CC BY-SA，保留貢獻者署名。",
-        "rights_url": "https://zh.wikisource.org/wiki/Wikisource:版權信息",
-        "review_status": "partial_named_entity_review",
-        "note": "各組表保留原欄題、原文、空格及合欄，不推不同欄題的接續。西元欄為數位編者增補；未明年份留空，不推世系曆年。未核底本影像，人物標註仍待逐處覆核。"
-      }
+      "table_source_ref": "shiji-018"
     }
   ],
   "relations": [],

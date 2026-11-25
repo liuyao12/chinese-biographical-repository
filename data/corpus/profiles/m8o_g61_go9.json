@@ -22,7 +22,7 @@
           "chapter_id": "c-shiji-008-gaozu",
           "source_id": "s-shiji-008-gaozu",
           "paragraph_id": "c-shiji-008-gaozu:p011",
-          "quote": "秦二世二年，陳涉之將周章軍西至戲而還。燕、趙、齊、魏皆自立為王。項氏起吳。秦泗川監平將兵圍豐，二日，出與戰，破之。命雍齒守豐，引兵之薛。泗州守壯敗於薛，走至戚，沛公左司馬得泗川守壯，殺之。沛公還軍亢父，至方與，（周市來攻方與）未戰。陳王使魏人周市略地。周市使人謂雍齒曰：「豐，故梁徙也。今魏地已定者數十城。齒今下魏，魏以齒為侯守豐。不下，且屠豐。」雍齒雅不欲屬沛公，及魏招之，即反為魏守豐。沛公引兵攻豐，不能取。沛公病，還之沛。沛公怨雍齒與豐子弟叛之，聞東陽甯君、秦嘉立景駒為假王，在留，乃往從之，欲請兵以攻豐。是時秦將章邯從陳，別將司馬夷將兵北定楚地，屠相，至碭。東陽甯君、沛公引兵西，與戰蕭西，不利。還收兵聚留，引兵攻碭，三日乃取碭。因收碭兵，得五六千人。攻下邑，拔之。還軍豐。聞項梁在薛，從騎百餘往見之。項梁益沛公卒五千人，五大夫將十人。沛公還，引兵攻豐。"
+          "quote_passage_ref": "data/corpus/shiji/008.json"
         }
       ],
       "attestations": [
@@ -66,7 +66,7 @@
           "chapter_id": "c-shiji-054-cao",
           "source_id": "s-shiji-054-cao",
           "paragraph_id": "c-shiji-054-cao:p002",
-          "quote": "高祖為沛公而初起也，參以中涓從。將擊胡陵、方與，攻秦監公軍，大破之。東下薛，擊泗水守軍薛郭西。復攻胡陵，取之。徙守方與。方與反為魏，擊之。豐反為魏，攻之。賜爵七大夫。擊秦司馬夷[1]軍碭東，破之，取碭、狐父、祁善置。又攻下邑以西，至虞，擊章邯車騎。攻爰戚及亢父，先登。遷為五大夫。北救阿，擊章邯軍，陷陳，追至濮陽。攻定陶，取臨濟。南救雍丘。擊李由軍，破之，殺李由，虜秦候一人。秦將章邯破殺項梁也，沛公與項羽引而東。楚懷王以沛公為碭郡長，將碭郡兵。於是乃封參為執帛，號曰建成君。遷為戚公，屬碭郡。"
+          "quote_passage_ref": "data/corpus/shiji/054.json"
         }
       ],
       "attestations": [
@@ -108,7 +108,6 @@
       "raw_count": 1,
       "duplicate_count": 0,
       "counting_policy": "independent_fixed_witness_occurrences",
-      "quote": "秦嘉立景駒為假王，在留，乃往從之，欲請兵以攻豐。是時秦將章邯從陳，別將司馬夷將兵北定楚地，屠相，至碭。東陽甯君、沛公引兵西，與戰蕭西，不利。還收兵聚留，引兵攻碭，三日乃取碭。因收碭兵，得五六千人。攻下邑，拔之。還軍豐。聞項梁在薛，從騎百餘往見之。項梁益沛公卒五千人，五大夫將十",
       "paragraph_ids": [
         "c-shiji-008-gaozu:p011"
       ],
@@ -132,7 +131,12 @@
       "book_id": "b-shiji-008",
       "chapter_id": "c-shiji-008-gaozu",
       "source_id": "s-shiji-008-gaozu",
-      "work_title": "史記"
+      "work_title": "史記",
+      "chapter_ref": "data/corpus/shiji/008.json",
+      "quote_span": [
+        232,
+        370
+      ]
     },
     {
       "number": 54,
@@ -143,7 +147,6 @@
       "raw_count": 1,
       "duplicate_count": 0,
       "counting_policy": "independent_fixed_witness_occurrences",
-      "quote": "胡陵，取之。徙守方與。方與反為魏，擊之。豐反為魏，攻之。賜爵七大夫。擊秦司馬夷[1]軍碭東，破之，取碭、狐父、祁善置。又攻下邑以西，至虞，擊章邯車騎。攻爰戚及亢父，先登。遷為五大夫。北救阿，擊章邯軍，陷陳，追至濮陽。攻定陶，取臨濟。南救雍丘。擊李由軍，破之，殺李由，虜秦候一人。",
       "paragraph_ids": [
         "c-shiji-054-cao:p002"
       ],
@@ -167,7 +170,12 @@
       "book_id": "b-shiji-054",
       "chapter_id": "c-shiji-054-cao",
       "source_id": "s-shiji-054-cao",
-      "work_title": "史記"
+      "work_title": "史記",
+      "chapter_ref": "data/corpus/shiji/054.json",
+      "quote_span": [
+        49,
+        188
+      ]
     },
     {
       "number": 95,
@@ -178,7 +186,6 @@
       "raw_count": 1,
       "duplicate_count": 0,
       "counting_policy": "independent_fixed_witness_occurrences",
-      "quote": "從攻胡陵、方與，還守豐，擊泗水監豐下，破之。復東定沛，破泗水守薛西。與司馬夷戰碭東，卻敵，斬首十五級，賜爵國大夫。常從，沛公擊章邯軍濮陽，攻城先登，斬首二十三級，賜爵列大夫。復常從，從攻城陽，先登。下戶牖，破李由軍，斬首十六級，賜上閒爵。從攻圍東郡守尉於成武，卻敵，斬首十四級",
       "paragraph_ids": [
         "c-shiji-095-fankuang:p002"
       ],
@@ -202,7 +209,12 @@
       "book_id": "b-shiji-095",
       "chapter_id": "c-shiji-095-fankuang",
       "source_id": "s-shiji-095-fankuang",
-      "work_title": "史記"
+      "work_title": "史記",
+      "chapter_ref": "data/corpus/shiji/095.json",
+      "quote_span": [
+        23,
+        161
+      ]
     }
   ],
   "table_occurrences": [],
@@ -212,74 +224,21 @@
       "work_id": "w-shiji",
       "book_id": "b-shiji-008",
       "source_id": "s-shiji-008-gaozu",
-      "source": {
-        "title": "史記／卷008",
-        "provider": "維基文庫",
-        "url": "https://zh.wikisource.org/wiki/史記/卷008",
-        "permalink": "https://zh.wikisource.org/w/index.php?title=史記/卷008&oldid=2440965",
-        "revision_id": 2440965,
-        "accessed_on": "2026-10-09",
-        "extent": "本篇傳世正文91個p區塊，自「高祖，沛豐邑中陽里人」至太史公論贊；不含導覽標題、跨站連結及另署【索隱述贊】的後出文字。",
-        "image_verified": false,
-        "rights": "古代原文；數位轉錄依維基文庫CC BY-SA 4.0，保留署名及固定版本。",
-        "license_url": "https://creativecommons.org/licenses/by-sa/4.0/",
-        "normalization": {
-          "character_conversion": {
-            "馕": "饢"
-          },
-          "editorial_readings": [],
-          "extraction_note": "正文91段均為p；前置兩個dd為跨站導覽，不收錄。排除sup註號，保留原有行內校勘符號。",
-          "note": "第48、57段馕僅作明示簡繁轉換為饢，詞義與疑讀待核，不逕改為餉或饟。數位轉錄尚未核紙本或影像。"
-        }
-      }
+      "chapter_ref": "data/corpus/shiji/008.json"
     },
     {
       "chapter_id": "c-shiji-054-cao",
       "work_id": "w-shiji",
       "book_id": "b-shiji-054",
       "source_id": "s-shiji-054-cao",
-      "source": {
-        "title": "史記／卷054",
-        "provider": "維基文庫",
-        "url": "https://zh.wikisource.org/wiki/史記/卷054",
-        "permalink": "https://zh.wikisource.org/w/index.php?title=史記/卷054&oldid=1490182",
-        "revision_id": 1490182,
-        "accessed_on": "2026-10-09",
-        "extent": "18段篇文及1段索隱述贊，無需排除數位欄題。",
-        "image_verified": false,
-        "rights": "古代原文；數位轉錄依維基文庫CC BY-SA 4.0，保留署名及固定版本。",
-        "license_url": "https://creativecommons.org/licenses/by-sa/4.0/",
-        "normalization": {
-          "character_conversion": {},
-          "editorial_readings": [],
-          "extraction_note": "取得時HTML與固定修訂一致，只去外緣空白。保留夷[1]、高祖（三）［二］年、齊故［俗］、田既／田溉、共侯及末段索隱標記。夷後[1]是數位注釋標號，不當古文；同版注釋稱此字作上尸下二，未核底本不改字。",
-          "note": "全19段已讀並作明示人物首輪；未核底本、影像或現代研究。"
-        }
-      }
+      "chapter_ref": "data/corpus/shiji/054.json"
     },
     {
       "chapter_id": "c-shiji-095-fankuang",
       "work_id": "w-shiji",
       "book_id": "b-shiji-095",
       "source_id": "s-shiji-095-fankuang",
-      "source": {
-        "title": "史記／卷095",
-        "provider": "維基文庫",
-        "url": "https://zh.wikisource.org/wiki/史記/卷095",
-        "permalink": "https://zh.wikisource.org/w/index.php?title=史記/卷095&oldid=2298709",
-        "revision_id": 2298709,
-        "accessed_on": "2026-10-09",
-        "extent": "34段傳世正文含太史公論，另附1段分層索隱述贊；排除導覽與空白。",
-        "image_verified": false,
-        "rights": "古代原文；數位轉錄依維基文庫CC BY-SA 4.0，保留署名及固定版本。",
-        "license_url": "https://creativecommons.org/licenses/by-sa/4.0/",
-        "normalization": {
-          "character_conversion": {},
-          "editorial_readings": [],
-          "extraction_note": "固定HTML一致，只去外緣空白；樊噌、（肩）［屏］、（博）［傅］、（太卜）太仆、穎陰等原字保留。",
-          "note": "全37個HTML區塊已讀，未核底本影像。"
-        }
-      }
+      "chapter_ref": "data/corpus/shiji/095.json"
     }
   ],
   "relations": [],

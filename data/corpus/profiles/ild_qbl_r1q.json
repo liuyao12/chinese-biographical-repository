@@ -22,7 +22,7 @@
           "chapter_id": "c-shiji-062-guanyan",
           "source_id": "s-shiji-062-guanyan",
           "paragraph_id": "c-shiji-062-guanyan:p008",
-          "quote": "越石父賢，在縲紲中。晏子出，遭之涂，解左驂贖之，載歸。弗謝，入閨。久之，越石父請絕。晏子懼然，攝衣冠謝曰：「嬰雖不仁，免子於緦何子求絕之速也？」石父曰：「不然。吾聞君子詘於不知己而信於知己者。方吾在縲紲中，彼不知我也。夫子既已感寤而贖我，是知己；知己而無禮，固不如在縲紲之中。」晏子於是延入為上客。"
+          "quote_passage_ref": "data/corpus/shiji/062.json"
         }
       ],
       "attestations": [
@@ -46,7 +46,7 @@
               "chapter_id": "c-shiji-062-guanyan",
               "source_id": "s-shiji-062-guanyan",
               "paragraph_id": "c-shiji-062-guanyan:p008",
-              "quote": "越石父賢，在縲紲中。晏子出，遭之涂，解左驂贖之，載歸。弗謝，入閨。久之，越石父請絕。晏子懼然，攝衣冠謝曰：「嬰雖不仁，免子於緦何子求絕之速也？」石父曰：「不然。吾聞君子詘於不知己而信於知己者。方吾在縲紲中，彼不知我也。夫子既已感寤而贖我，是知己；知己而無禮，固不如在縲紲之中。」晏子於是延入為上客。"
+              "quote_passage_ref": "data/corpus/shiji/062.json"
             }
           ]
         },
@@ -72,7 +72,6 @@
       "raw_count": 3,
       "duplicate_count": 0,
       "counting_policy": "independent_fixed_witness_occurrences",
-      "quote": "越石父賢，在縲紲中。晏子出，遭之涂，解左驂贖之，載歸。弗謝，入閨。久之，越石父請絕。晏子懼然，攝衣冠謝曰：「嬰雖不仁，免子於緦何子求絕之速也？」石父曰：「不然。吾聞君子詘於不知己而信於知己者。方吾在縲紲中，",
       "paragraph_ids": [
         "c-shiji-062-guanyan:p008"
       ],
@@ -114,7 +113,12 @@
       "book_id": "b-shiji-062",
       "chapter_id": "c-shiji-062-guanyan",
       "source_id": "s-shiji-062-guanyan",
-      "work_title": "史記"
+      "work_title": "史記",
+      "chapter_ref": "data/corpus/shiji/062.json",
+      "quote_span": [
+        0,
+        103
+      ]
     }
   ],
   "table_occurrences": [],
@@ -124,24 +128,7 @@
       "work_id": "w-shiji",
       "book_id": "b-shiji-062",
       "source_id": "s-shiji-062-guanyan",
-      "source": {
-        "title": "史記／卷062",
-        "provider": "維基文庫",
-        "url": "https://zh.wikisource.org/wiki/史記/卷062",
-        "permalink": "https://zh.wikisource.org/w/index.php?title=史記/卷062&oldid=7903600",
-        "revision_id": 7903600,
-        "accessed_on": "2026-10-09",
-        "extent": "12段正文，排除註釋版及2段維基導覽，無索隱述贊。",
-        "image_verified": false,
-        "rights": "古代原文；數位轉錄依維基文庫CC BY-SA 4.0，保留署名及固定版本。",
-        "license_url": "https://creativecommons.org/licenses/by-sa/4.0/",
-        "normalization": {
-          "character_conversion": {},
-          "editorial_readings": [],
-          "extraction_note": "取得時HTML與固定修訂一致，只去外緣空白；第4段榮辱後的[1]經核HTML為sup.reference腳註連結，抽取正文時排除。保留涂、緦、闚、仆御與忻慕等原字。",
-          "note": "全部12段已核讀，未核底本、影像或現代研究。"
-        }
-      }
+      "chapter_ref": "data/corpus/shiji/062.json"
     }
   ],
   "relations": [],

@@ -23,7 +23,7 @@
           "chapter_id": "c-shiji-084-qujia",
           "source_id": "s-shiji-084-qujia",
           "paragraph_id": "c-shiji-084-qujia:p008",
-          "quote": "長子頃襄王立，以其弟子蘭為令尹。楚人既咎子蘭以勸懷王入秦而不反也。"
+          "quote_passage_ref": "data/corpus/shiji/084.json"
         }
       ],
       "attestations": [
@@ -47,7 +47,7 @@
               "chapter_id": "c-shiji-084-qujia",
               "source_id": "s-shiji-084-qujia",
               "paragraph_id": "c-shiji-084-qujia:p008",
-              "quote": "長子頃襄王立，以其弟子蘭為令尹。楚人既咎子蘭以勸懷王入秦而不反也。"
+              "quote_passage_ref": "data/corpus/shiji/084.json"
             }
           ]
         },
@@ -73,7 +73,6 @@
       "raw_count": 1,
       "duplicate_count": 0,
       "counting_policy": "independent_fixed_witness_occurrences",
-      "quote": "昭雎曰：「王毋行，而發兵自守耳。秦虎狼，不可信，有并諸侯之心。」懷王子子蘭勸王行，曰：「柰何絶秦之驩心！」於是往會秦昭王。昭王詐令一將軍伏兵武關，號爲秦王。楚王至，則閉武關，遂與西至咸陽，朝章臺，如蕃臣，不與亢禮。楚懷王大怒，悔不用昭子言。秦因留楚王，要以割巫、黔中之郡。楚",
       "paragraph_ids": [
         "c-shiji-040-chu:p078"
       ],
@@ -97,7 +96,12 @@
       "book_id": "b-shiji-040",
       "chapter_id": "c-shiji-040-chu",
       "source_id": "s-shiji-040-chu",
-      "work_title": "史記"
+      "work_title": "史記",
+      "chapter_ref": "data/corpus/shiji/040.json",
+      "quote_span": [
+        285,
+        422
+      ]
     },
     {
       "number": 84,
@@ -108,7 +112,6 @@
       "raw_count": 5,
       "duplicate_count": 0,
       "counting_policy": "independent_fixed_witness_occurrences",
-      "quote": "與懷王會。懷王欲行，屈平曰：「秦虎狼之國，不可信，不如毋行。」懷王稚子子蘭勸王行：「奈何絕秦歡？」懷王卒行。入武關，秦伏兵絕其後，因留懷王，以求割地。懷王怒，不聽。亡走趙，趙不內。復之秦，竟死於秦而歸葬。",
       "paragraph_ids": [
         "c-shiji-084-qujia:p007",
         "c-shiji-084-qujia:p008",
@@ -171,7 +174,12 @@
       "book_id": "b-shiji-084",
       "chapter_id": "c-shiji-084-qujia",
       "source_id": "s-shiji-084-qujia",
-      "work_title": "史記"
+      "work_title": "史記",
+      "chapter_ref": "data/corpus/shiji/084.json",
+      "quote_span": [
+        9,
+        111
+      ]
     },
     {
       "number": 130,
@@ -182,7 +190,6 @@
       "raw_count": 1,
       "duplicate_count": 0,
       "counting_policy": "independent_fixed_witness_occurrences",
-      "quote": "周用熊繹，熊渠是續。莊王之賢，乃復國陳；既赦鄭伯，班師華元。懷王客死，蘭咎屈原；好諛信讒，楚并於秦。嘉莊王之義，作楚世家第十。",
       "paragraph_ids": [
         "c-shiji-130-taishigong:p052"
       ],
@@ -206,7 +213,12 @@
       "book_id": "b-shiji-130",
       "chapter_id": "c-shiji-130-taishigong",
       "source_id": "s-shiji130-taishigong",
-      "work_title": "史記"
+      "work_title": "史記",
+      "chapter_ref": "data/corpus/shiji/130.json",
+      "quote_span": [
+        20,
+        83
+      ]
     }
   ],
   "table_occurrences": [],
@@ -216,103 +228,21 @@
       "work_id": "w-shiji",
       "book_id": "b-shiji-040",
       "source_id": "s-shiji-040-chu",
-      "source": {
-        "title": "史記／卷040",
-        "provider": "維基文庫",
-        "url": "https://zh.wikisource.org/wiki/史記/卷040",
-        "permalink": "https://zh.wikisource.org/w/index.php?title=史記/卷040&oldid=8736796",
-        "revision_id": 8736796,
-        "accessed_on": "2026-10-09",
-        "extent": "96段正文及1段分層索隱述贊；排除2個dd導覽，去除段落外緣空白。",
-        "image_verified": false,
-        "rights": "古代原文；數位轉錄依維基文庫CC BY-SA 4.0，保留署名及固定版本。",
-        "license_url": "https://creativecommons.org/licenses/by-sa/4.0/",
-        "normalization": {
-          "character_conversion": {
-            "笔": "筆"
-          },
-          "editorial_readings": [],
-          "extraction_note": "固定修訂與取得時HTML一致；僅去除段落外緣空白，古代異體及校勘括號保留。 第70段笔轉筆，未將「西取筆秦」疑句自行校讀。",
-          "note": "全97段數位正文已核讀，人物標註與可靠底本、影像覆核尚未完成；不把數位轉錄當版本校定。"
-        }
-      }
+      "chapter_ref": "data/corpus/shiji/040.json"
     },
     {
       "chapter_id": "c-shiji-084-qujia",
       "work_id": "w-shiji",
       "book_id": "b-shiji-084",
       "source_id": "s-shiji-084-qujia",
-      "source": {
-        "title": "史記／卷084",
-        "provider": "維基文庫",
-        "url": "https://zh.wikisource.org/wiki/史記/卷084",
-        "permalink": "https://zh.wikisource.org/w/index.php?title=史記/卷084&oldid=1568305",
-        "revision_id": 1568305,
-        "accessed_on": "2026-10-09",
-        "extent": "33段正文，屈原、懷沙、賈生及篇末評論；索隱述贊另層待收。",
-        "image_verified": false,
-        "rights": "古代原文；數位轉錄依維基文庫CC BY-SA 4.0，保留署名及固定版本。",
-        "license_url": "https://creativecommons.org/licenses/by-sa/4.0/",
-        "normalization": {
-          "character_conversion": {
-            "铦": "銛",
-            "鸮": "鴞"
-          },
-          "editorial_readings": [
-            {
-              "paragraph_id": "c-shiji-084-qujia:p017",
-              "witness_form": "（投）［沈］",
-              "body_reading": "投",
-              "note": "數位增刪改讀提示另存，正文保留增改前形式，未核影像，不當已校定。"
-            },
-            {
-              "paragraph_id": "c-shiji-084-qujia:p025",
-              "witness_form": "（微）［徵］",
-              "body_reading": "微",
-              "note": "數位增刪改讀提示另存，正文保留增改前形式，未核影像，不當已校定。"
-            }
-          ],
-          "extraction_note": "固定HTML與取得時版本一致；兩項改讀前形投、微保留。正文去腳註標記[1]，註文另存。括號曰保留，簡體字形轉換明記。 第13至16段懷沙、第24至25段弔屈原賦及第27至29段服鳥賦按傳世正文次序保留，詩賦引古不視為敘事當時人物；第32段孝昭附述傳承仍待覆核。",
-          "note": "全33段正文與HTML篇界已核讀，明示姓名首輪已存；未核底本影像與現代研究。",
-          "digital_footnotes": [
-            {
-              "block_index": 8,
-              "anchor": "cite_ref-1",
-              "note_id": "cite_note-1",
-              "source_text": "纳",
-              "traditional_display": "納",
-              "character_conversion": {
-                "纳": "納"
-              },
-              "note": "數位腳註提示內讀為納；來源未附校勘書目，正文內不自行替換。"
-            }
-          ]
-        }
-      }
+      "chapter_ref": "data/corpus/shiji/084.json"
     },
     {
       "chapter_id": "c-shiji-130-taishigong",
       "work_id": "w-shiji",
       "book_id": "b-shiji-130",
       "source_id": "s-shiji130-taishigong",
-      "source": {
-        "title": "史記／卷130",
-        "provider": "維基文庫",
-        "url": "https://zh.wikisource.org/wiki/史記/卷130",
-        "permalink": "https://zh.wikisource.org/w/index.php?title=史記/卷130&oldid=2609362",
-        "revision_id": 2609362,
-        "accessed_on": "2026-10-11",
-        "extent": "固定修訂全文143段，全部篇文。",
-        "image_verified": false,
-        "rights": "古代原文；數位轉錄依維基文庫CC BY-SA 4.0，保留署名及固定版本。",
-        "license_url": "https://creativecommons.org/licenses/by-sa/4.0/",
-        "normalization": {
-          "character_conversion": {},
-          "editorial_readings": [],
-          "extraction_note": "去header2及現代節標，移除維基引文縮排冒號，保留原字，未核影像。",
-          "note": "全文入庫不等於全部提及已標註；目錄段落仍待逐段處理。"
-        }
-      }
+      "chapter_ref": "data/corpus/shiji/130.json"
     }
   ],
   "relations": [
@@ -327,7 +257,7 @@
           "chapter_id": "c-shiji-040-chu",
           "source_id": "s-shiji-040-chu",
           "paragraph_id": "c-shiji-040-chu:p078",
-          "quote": "二十七年，秦大夫有私與楚太子鬬，楚太子殺之而亡歸。二十八年，秦乃與齊、韓、魏共攻楚，殺楚將唐眛，取我重丘而去。二十九年，秦復攻楚，大破楚，楚軍死者二萬，殺我將軍景缺。懷王恐，乃使太子爲質於齊以求平。三十年，秦復伐楚，取八城。秦昭王遺楚王書曰：「始寡人與王約爲弟兄，盟于黃棘，太子爲質，至驩也。太子陵殺寡人之重臣，不謝而亡去，寡人誠不勝怒，使兵侵君王之邊。今聞君王乃令太子質於齊以求平。寡人與楚接境壤界，故爲婚姻，所從相親久矣。而今秦楚不驩，則無以令諸侯。寡人願與君王會武關，面相約，結盟而去，寡人之願也。敢以聞下執事。」楚懷王見秦王書，患之。欲往，恐見欺；無往，恐秦怒。昭雎曰：「王毋行，而發兵自守耳。秦虎狼，不可信，有并諸侯之心。」懷王子子蘭勸王行，曰：「柰何絶秦之驩心！」於是往會秦昭王。昭王詐令一將軍伏兵武關，號爲秦王。楚王至，則閉武關，遂與西至咸陽，朝章臺，如蕃臣，不與亢禮。楚懷王大怒，悔不用昭子言。秦因留楚王，要以割巫、黔中之郡。楚王欲盟，秦欲先得地。楚王怒曰：「秦詐我而又彊要我以地！」不復許秦。秦因留之。"
+          "quote_passage_ref": "data/corpus/shiji/040.json"
         }
       ],
       "qualifiers": {
@@ -348,7 +278,7 @@
           "chapter_id": "c-shiji-084-qujia",
           "source_id": "s-shiji-084-qujia",
           "paragraph_id": "c-shiji-084-qujia:p007",
-          "quote": "時秦昭王與楚婚，欲與懷王會。懷王欲行，屈平曰：「秦虎狼之國，不可信，不如毋行。」懷王稚子子蘭勸王行：「奈何絕秦歡？」懷王卒行。入武關，秦伏兵絕其後，因留懷王，以求割地。懷王怒，不聽。亡走趙，趙不內。復之秦，竟死於秦而歸葬。"
+          "quote_passage_ref": "data/corpus/shiji/084.json"
         }
       ],
       "qualifiers": {
@@ -369,7 +299,7 @@
           "chapter_id": "c-shiji-084-qujia",
           "source_id": "s-shiji-084-qujia",
           "paragraph_id": "c-shiji-084-qujia:p008",
-          "quote": "長子頃襄王立，以其弟子蘭為令尹。楚人既咎子蘭以勸懷王入秦而不反也。"
+          "quote_passage_ref": "data/corpus/shiji/084.json"
         }
       ],
       "qualifiers": {
@@ -402,7 +332,7 @@
           "chapter_id": "c-shiji-040-chu",
           "source_id": "s-shiji-040-chu",
           "paragraph_id": "c-shiji-040-chu:p078",
-          "quote": "二十七年，秦大夫有私與楚太子鬬，楚太子殺之而亡歸。二十八年，秦乃與齊、韓、魏共攻楚，殺楚將唐眛，取我重丘而去。二十九年，秦復攻楚，大破楚，楚軍死者二萬，殺我將軍景缺。懷王恐，乃使太子爲質於齊以求平。三十年，秦復伐楚，取八城。秦昭王遺楚王書曰：「始寡人與王約爲弟兄，盟于黃棘，太子爲質，至驩也。太子陵殺寡人之重臣，不謝而亡去，寡人誠不勝怒，使兵侵君王之邊。今聞君王乃令太子質於齊以求平。寡人與楚接境壤界，故爲婚姻，所從相親久矣。而今秦楚不驩，則無以令諸侯。寡人願與君王會武關，面相約，結盟而去，寡人之願也。敢以聞下執事。」楚懷王見秦王書，患之。欲往，恐見欺；無往，恐秦怒。昭雎曰：「王毋行，而發兵自守耳。秦虎狼，不可信，有并諸侯之心。」懷王子子蘭勸王行，曰：「柰何絶秦之驩心！」於是往會秦昭王。昭王詐令一將軍伏兵武關，號爲秦王。楚王至，則閉武關，遂與西至咸陽，朝章臺，如蕃臣，不與亢禮。楚懷王大怒，悔不用昭子言。秦因留楚王，要以割巫、黔中之郡。楚王欲盟，秦欲先得地。楚王怒曰：「秦詐我而又彊要我以地！」不復許秦。秦因留之。"
+          "quote_passage_ref": "data/corpus/shiji/040.json"
         }
       ],
       "qualifiers": {
@@ -423,7 +353,7 @@
           "chapter_id": "c-shiji-084-qujia",
           "source_id": "s-shiji-084-qujia",
           "paragraph_id": "c-shiji-084-qujia:p007",
-          "quote": "時秦昭王與楚婚，欲與懷王會。懷王欲行，屈平曰：「秦虎狼之國，不可信，不如毋行。」懷王稚子子蘭勸王行：「奈何絕秦歡？」懷王卒行。入武關，秦伏兵絕其後，因留懷王，以求割地。懷王怒，不聽。亡走趙，趙不內。復之秦，竟死於秦而歸葬。"
+          "quote_passage_ref": "data/corpus/shiji/084.json"
         }
       ],
       "qualifiers": {
@@ -444,7 +374,7 @@
           "chapter_id": "c-shiji-084-qujia",
           "source_id": "s-shiji-084-qujia",
           "paragraph_id": "c-shiji-084-qujia:p008",
-          "quote": "長子頃襄王立，以其弟子蘭為令尹。楚人既咎子蘭以勸懷王入秦而不反也。"
+          "quote_passage_ref": "data/corpus/shiji/084.json"
         }
       ],
       "qualifiers": {

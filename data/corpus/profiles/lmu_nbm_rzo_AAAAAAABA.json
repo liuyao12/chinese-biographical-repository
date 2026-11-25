@@ -25,7 +25,7 @@
           "chapter_id": "c-shiji-046-tian",
           "source_id": "s-shiji-046-tian",
           "paragraph_id": "c-shiji-046-tian:p012",
-          "quote": "鮑牧與齊悼公有郄，弒悼公。齊人共立其子壬，是爲簡公。田常成子與監止倶爲左右相，相簡公。田常心害監止，監止幸於簡公，權弗能去。於是田常復修釐子之政，以大斗出貸，以小斗收。齊人歌之曰：「嫗乎采芑，歸乎田成子！」齊大夫朝，御鞅諫簡公曰：「田、監不可并也，君其擇焉。」君弗聽。"
+          "quote_passage_ref": "data/corpus/shiji/046.json"
         }
       ],
       "attestations": [
@@ -67,7 +67,7 @@
           "chapter_id": "c-shiji-046-tian",
           "source_id": "s-shiji-046-tian",
           "paragraph_id": "c-shiji-046-tian:p014",
-          "quote": "簡公出奔，田氏之徒追執簡公于徐州。簡公曰：「蚤從御鞅之言，不及此難。」田氏之徒恐簡公復立而誅己，遂殺簡公。簡公立四年而殺。於是田常立簡公弟驁，是爲平公。平公卽位，田常爲相。"
+          "quote_passage_ref": "data/corpus/shiji/046.json"
         }
       ],
       "attestations": [
@@ -109,7 +109,7 @@
           "chapter_id": "c-shiji-046-tian",
           "source_id": "s-shiji-046-tian",
           "paragraph_id": "c-shiji-046-tian:p018",
-          "quote": "田常卒，子襄子盤代立，相齊。常諡爲成子。"
+          "quote_passage_ref": "data/corpus/shiji/046.json"
         }
       ],
       "attestations": [
@@ -151,7 +151,6 @@
       "raw_count": 23,
       "duplicate_count": 0,
       "counting_policy": "independent_fixed_witness_occurrences",
-      "quote": "四年，田乞卒，子常代立，是爲田成子。",
       "paragraph_ids": [
         "c-shiji-046-tian:p011",
         "c-shiji-046-tian:p012",
@@ -381,7 +380,12 @@
       "book_id": "b-shiji-046",
       "chapter_id": "c-shiji-046-tian",
       "source_id": "s-shiji-046-tian",
-      "work_title": "史記"
+      "work_title": "史記",
+      "chapter_ref": "data/corpus/shiji/046.json",
+      "quote_span": [
+        0,
+        18
+      ]
     },
     {
       "number": 64,
@@ -392,7 +396,6 @@
       "raw_count": 2,
       "duplicate_count": 0,
       "counting_policy": "independent_fixed_witness_occurrences",
-      "quote": "譖於景公。景公退穰苴，苴發疾而死。田乞、田豹之徒由此怨高、國等。其後及田常殺簡公，盡滅高子、國子之族。至常曾孫和，因自立為齊威王，用兵行威，大放穰苴之法，而諸侯朝齊。",
       "paragraph_ids": [
         "c-shiji-064-sima:p002"
       ],
@@ -425,7 +428,12 @@
       "book_id": "b-shiji-064",
       "chapter_id": "c-shiji-064-sima",
       "source_id": "s-shiji-064-sima",
-      "work_title": "史記"
+      "work_title": "史記",
+      "chapter_ref": "data/corpus/shiji/064.json",
+      "quote_span": [
+        15,
+        98
+      ]
     },
     {
       "number": 112,
@@ -436,7 +444,6 @@
       "raw_count": 1,
       "duplicate_count": 0,
       "counting_policy": "independent_fixed_witness_occurrences",
-      "quote": "子。五伯既沒，賢聖莫續，天子孤弱，號令不行。諸侯恣行，彊陵弱，眾暴寡，田常篡齊，六卿分晉，并為戰國，此民之始苦也。於是彊國務攻，弱國備守，合從連橫，馳車擊轂，介胄生蟣蝨，民無所告愬。",
       "paragraph_ids": [
         "c-shiji-112-pingjin:p018"
       ],
@@ -460,7 +467,12 @@
       "book_id": "b-shiji-112",
       "chapter_id": "c-shiji-112-pingjin",
       "source_id": "s-shiji112-pingjin",
-      "work_title": "史記"
+      "work_title": "史記",
+      "chapter_ref": "data/corpus/shiji/112.json",
+      "quote_span": [
+        73,
+        164
+      ]
     },
     {
       "number": 130,
@@ -471,7 +483,6 @@
       "raw_count": 1,
       "duplicate_count": 0,
       "counting_policy": "independent_fixed_witness_occurrences",
-      "quote": "完子避難，適齊為援，陰施五世，齊人歌之。成子得政，田和為侯。王建動心，乃遷于共。嘉威、宣能撥濁世而獨宗周，作田敬仲完世家第十六。",
       "paragraph_ids": [
         "c-shiji-130-taishigong:p058"
       ],
@@ -495,7 +506,12 @@
       "book_id": "b-shiji-130",
       "chapter_id": "c-shiji-130-taishigong",
       "source_id": "s-shiji130-taishigong",
-      "work_title": "史記"
+      "work_title": "史記",
+      "chapter_ref": "data/corpus/shiji/130.json",
+      "quote_span": [
+        0,
+        64
+      ]
     }
   ],
   "table_occurrences": [],
@@ -505,103 +521,28 @@
       "work_id": "w-shiji",
       "book_id": "b-shiji-046",
       "source_id": "s-shiji-046-tian",
-      "source": {
-        "title": "史記／卷046",
-        "provider": "維基文庫",
-        "url": "https://zh.wikisource.org/wiki/史記/卷046",
-        "permalink": "https://zh.wikisource.org/w/index.php?title=史記/卷046&oldid=2560838",
-        "revision_id": 2560838,
-        "accessed_on": "2026-10-09",
-        "extent": "55段正文（含太史公論贊）及1段索隱述贊，後者另標witness_appended_suoyin_zan；排除2個dd導覽及現代分節標題。",
-        "image_verified": false,
-        "rights": "古代原文；數位轉錄依維基文庫CC BY-SA 4.0，保留署名及固定版本。",
-        "license_url": "https://creativecommons.org/licenses/by-sa/4.0/",
-        "normalization": {
-          "character_conversion": {},
-          "editorial_readings": [],
-          "extraction_note": "取得時HTML與固定修訂一致，只去除段落外緣空白；保留［二］、（粟）［稟］、晏（孺子）［圉］、（帥）［師］、笔及称等數位見證原字，不暗改。",
-          "note": "已讀全56段數位文字並作明示人名首輪；未核可靠底本、影像或現代研究。"
-        }
-      }
+      "chapter_ref": "data/corpus/shiji/046.json"
     },
     {
       "chapter_id": "c-shiji-064-sima",
       "work_id": "w-shiji",
       "book_id": "b-shiji-064",
       "source_id": "s-shiji-064-sima",
-      "source": {
-        "title": "史記／卷064",
-        "provider": "維基文庫",
-        "url": "https://zh.wikisource.org/wiki/史記/卷064",
-        "permalink": "https://zh.wikisource.org/w/index.php?title=史記/卷064&oldid=7895410",
-        "revision_id": 7895410,
-        "accessed_on": "2026-10-09",
-        "extent": "4段正文，排除註釋版及2段導覽，無索隱述贊。",
-        "image_verified": false,
-        "rights": "古代原文；數位轉錄依維基文庫CC BY-SA 4.0，保留署名及固定版本。",
-        "license_url": "https://creativecommons.org/licenses/by-sa/4.0/",
-        "normalization": {
-          "character_conversion": {},
-          "editorial_readings": [
-            {
-              "paragraph_id": "c-shiji-064-sima:p001",
-              "witness_form": "馳三軍法何一作「軍中不馳，今使者馳，云何」",
-              "body_reading": "馳三軍法何",
-              "note": "一作為HTML variant-tooltip校勘提示，另存原字；未核底本，不作已校定。"
-            }
-          ],
-          "extraction_note": "取得時HTML與固定修訂一致，只去外緣空白並排除style與script；variant-tooltip另存編輯讀法，不混入正文。保留仆表、援枹、左駙、左驂等原字。",
-          "note": "全4段已核讀，未核可靠底本、影像或現代研究。"
-        }
-      }
+      "chapter_ref": "data/corpus/shiji/064.json"
     },
     {
       "chapter_id": "c-shiji-112-pingjin",
       "work_id": "w-shiji",
       "book_id": "b-shiji-112",
       "source_id": "s-shiji112-pingjin",
-      "source": {
-        "title": "史記／卷112",
-        "provider": "維基文庫",
-        "url": "https://zh.wikisource.org/wiki/史記/卷112",
-        "permalink": "https://zh.wikisource.org/w/index.php?title=史記/卷112&oldid=2089420",
-        "revision_id": 2089420,
-        "accessed_on": "2026-10-11",
-        "extent": "固定數位見證31段；末三段分為後附詔書、班固贊及索隱述贊。",
-        "image_verified": false,
-        "rights": "古代原文；數位轉錄依維基文庫CC BY-SA 4.0，保留署名及固定版本。",
-        "license_url": "https://creativecommons.org/licenses/by-sa/4.0/",
-        "normalization": {
-          "character_conversion": {},
-          "editorial_readings": [],
-          "extraction_note": "去header2、__TOC__與現代節標題；去行首冒號排版符號，保留正文、異體、方括弧與圓括弧校字。未核底本影像。",
-          "note": "太皇太后詔及班固贊均按見證附載分層，不自行確認編入者。"
-        }
-      }
+      "chapter_ref": "data/corpus/shiji/112.json"
     },
     {
       "chapter_id": "c-shiji-130-taishigong",
       "work_id": "w-shiji",
       "book_id": "b-shiji-130",
       "source_id": "s-shiji130-taishigong",
-      "source": {
-        "title": "史記／卷130",
-        "provider": "維基文庫",
-        "url": "https://zh.wikisource.org/wiki/史記/卷130",
-        "permalink": "https://zh.wikisource.org/w/index.php?title=史記/卷130&oldid=2609362",
-        "revision_id": 2609362,
-        "accessed_on": "2026-10-11",
-        "extent": "固定修訂全文143段，全部篇文。",
-        "image_verified": false,
-        "rights": "古代原文；數位轉錄依維基文庫CC BY-SA 4.0，保留署名及固定版本。",
-        "license_url": "https://creativecommons.org/licenses/by-sa/4.0/",
-        "normalization": {
-          "character_conversion": {},
-          "editorial_readings": [],
-          "extraction_note": "去header2及現代節標，移除維基引文縮排冒號，保留原字，未核影像。",
-          "note": "全文入庫不等於全部提及已標註；目錄段落仍待逐段處理。"
-        }
-      }
+      "chapter_ref": "data/corpus/shiji/130.json"
     }
   ],
   "relations": [
@@ -616,7 +557,7 @@
           "chapter_id": "c-shiji-046-tian",
           "source_id": "s-shiji-046-tian",
           "paragraph_id": "c-shiji-046-tian:p011",
-          "quote": "四年，田乞卒，子常代立，是爲田成子。"
+          "quote_passage_ref": "data/corpus/shiji/046.json"
         }
       ],
       "qualifiers": {
@@ -637,7 +578,7 @@
           "chapter_id": "c-shiji-046-tian",
           "source_id": "s-shiji-046-tian",
           "paragraph_id": "c-shiji-046-tian:p018",
-          "quote": "田常卒，子襄子盤代立，相齊。常諡爲成子。"
+          "quote_passage_ref": "data/corpus/shiji/046.json"
         }
       ],
       "qualifiers": {
@@ -658,7 +599,7 @@
           "chapter_id": "c-shiji-064-sima",
           "source_id": "s-shiji-064-sima",
           "paragraph_id": "c-shiji-064-sima:p002",
-          "quote": "已而大夫鮑氏、高、國之屬害之，譖於景公。景公退穰苴，苴發疾而死。田乞、田豹之徒由此怨高、國等。其後及田常殺簡公，盡滅高子、國子之族。至常曾孫和，因自立為齊威王，用兵行威，大放穰苴之法，而諸侯朝齊。"
+          "quote_passage_ref": "data/corpus/shiji/064.json"
         }
       ],
       "qualifiers": {
@@ -692,7 +633,7 @@
           "chapter_id": "c-shiji-046-tian",
           "source_id": "s-shiji-046-tian",
           "paragraph_id": "c-shiji-046-tian:p011",
-          "quote": "四年，田乞卒，子常代立，是爲田成子。"
+          "quote_passage_ref": "data/corpus/shiji/046.json"
         }
       ],
       "qualifiers": {
@@ -713,7 +654,7 @@
           "chapter_id": "c-shiji-046-tian",
           "source_id": "s-shiji-046-tian",
           "paragraph_id": "c-shiji-046-tian:p018",
-          "quote": "田常卒，子襄子盤代立，相齊。常諡爲成子。"
+          "quote_passage_ref": "data/corpus/shiji/046.json"
         }
       ],
       "qualifiers": {
@@ -734,7 +675,7 @@
           "chapter_id": "c-shiji-064-sima",
           "source_id": "s-shiji-064-sima",
           "paragraph_id": "c-shiji-064-sima:p002",
-          "quote": "已而大夫鮑氏、高、國之屬害之，譖於景公。景公退穰苴，苴發疾而死。田乞、田豹之徒由此怨高、國等。其後及田常殺簡公，盡滅高子、國子之族。至常曾孫和，因自立為齊威王，用兵行威，大放穰苴之法，而諸侯朝齊。"
+          "quote_passage_ref": "data/corpus/shiji/064.json"
         }
       ],
       "qualifiers": {
@@ -758,8 +699,8 @@
           "chapter_id": "c-shiji-046-tian",
           "source_id": "s-shiji-046-tian",
           "paragraph_id": "c-shiji-046-tian:p018",
-          "quote": "田常卒，子襄子盤代立，相齊。常諡爲成子。",
-          "person_mention_id": "c-shiji-046-tian:m018-0000"
+          "person_mention_id": "c-shiji-046-tian:m018-0000",
+          "quote_passage_ref": "data/corpus/shiji/046.json"
         }
       ],
       "source_term": "田常卒",

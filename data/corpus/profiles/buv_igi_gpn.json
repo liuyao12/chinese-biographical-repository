@@ -22,7 +22,7 @@
           "chapter_id": "c-shiji-003-yin",
           "source_id": "s-shiji-003-yin",
           "paragraph_id": "c-shiji-003-yin:p026",
-          "quote": "帝武乙無道，為偶人，謂之天神。與之博，令人為行。天神不勝，乃僇辱之。為革囊，盛血，卬而射之，命曰「射天」。武乙獵於河渭之閒，暴雷，武乙震死。子帝太丁立。帝太丁崩，子帝乙立。帝乙立，殷益衰。"
+          "quote_passage_ref": "data/corpus/shiji/003.json"
         }
       ],
       "attestations": [
@@ -47,7 +47,7 @@
               "chapter_id": "c-shiji-003-yin",
               "source_id": "s-shiji-003-yin",
               "paragraph_id": "c-shiji-003-yin:p026",
-              "quote": "帝武乙無道，為偶人，謂之天神。與之博，令人為行。天神不勝，乃僇辱之。為革囊，盛血，卬而射之，命曰「射天」。武乙獵於河渭之閒，暴雷，武乙震死。子帝太丁立。帝太丁崩，子帝乙立。帝乙立，殷益衰。"
+              "quote_passage_ref": "data/corpus/shiji/003.json"
             }
           ]
         },
@@ -73,7 +73,6 @@
       "raw_count": 4,
       "duplicate_count": 0,
       "counting_policy": "independent_fixed_witness_occurrences",
-      "quote": "曰「射天」。武乙獵於河渭之閒，暴雷，武乙震死。子帝太丁立。帝太丁崩，子帝乙立。帝乙立，殷益衰。",
       "paragraph_ids": [
         "c-shiji-003-yin:p026",
         "c-shiji-003-yin:p027"
@@ -125,7 +124,12 @@
       "book_id": "b-shiji-003",
       "chapter_id": "c-shiji-003-yin",
       "source_id": "s-shiji-003-yin",
-      "work_title": "史記"
+      "work_title": "史記",
+      "chapter_ref": "data/corpus/shiji/003.json",
+      "quote_span": [
+        47,
+        94
+      ]
     },
     {
       "number": 33,
@@ -136,7 +140,6 @@
       "raw_count": 1,
       "duplicate_count": 0,
       "counting_policy": "independent_fixed_witness_occurrences",
-      "quote": "人之依，能保施小民，不侮寡，故祖甲饗國三十三年。』多士稱曰：『自湯至于帝乙，無不率祀明德，帝無不配天者。在今後嗣王紂，誕淫厥佚，不顧天及民之從也。其民皆可誅。』『文王日中昃不暇食，饗國五十年。』作此以誡成王。",
       "paragraph_ids": [
         "c-shiji-033-lu:p009"
       ],
@@ -160,7 +163,12 @@
       "book_id": "b-shiji-033",
       "chapter_id": "c-shiji-033-lu",
       "source_id": "s-shiji-033-lu",
-      "work_title": "史記"
+      "work_title": "史記",
+      "chapter_ref": "data/corpus/shiji/033.json",
+      "quote_span": [
+        177,
+        281
+      ]
     },
     {
       "number": 38,
@@ -171,7 +179,6 @@
       "raw_count": 1,
       "duplicate_count": 0,
       "counting_policy": "independent_fixed_witness_occurrences",
-      "quote": "微子開者，殷帝乙之首子而帝紂之庶兄也。紂既立，不明，淫亂於政，微子數諫，紂不聽。及祖伊以周西伯昌之修德，滅黎國，懼禍至，以告紂。紂曰：「我生不有命在天乎？是何能爲！」於是微子度紂終不可諫，欲死之，及去，未能自決，乃問",
       "paragraph_ids": [
         "c-shiji-038-song:p001"
       ],
@@ -195,7 +202,12 @@
       "book_id": "b-shiji-038",
       "chapter_id": "c-shiji-038-song",
       "source_id": "s-shiji-038-song",
-      "work_title": "史記"
+      "work_title": "史記",
+      "chapter_ref": "data/corpus/shiji/038.json",
+      "quote_span": [
+        0,
+        108
+      ]
     }
   ],
   "table_occurrences": [
@@ -203,7 +215,6 @@
       "table_id": "shiji-013",
       "cell_id": "shiji-013-t2-r028-c00",
       "title": "《史記·三代世表》",
-      "quote": "帝乙。殷益衰。",
       "year": null,
       "mention": {
         "id": "shiji-013-t2-r028-c00-m000",
@@ -218,7 +229,8 @@
       "book_id": "b-shiji-013",
       "chapter_id": "table-chapter-shiji-013",
       "source_id": "table-witness-shiji-013",
-      "source_revision": "2606991"
+      "source_revision": "2606991",
+      "quote_ref": "cell"
     }
   ],
   "sources": [
@@ -227,111 +239,28 @@
       "work_id": "w-shiji",
       "book_id": "b-shiji-003",
       "source_id": "s-shiji-003-yin",
-      "source": {
-        "title": "史記／卷003",
-        "provider": "維基文庫",
-        "url": "https://zh.wikisource.org/wiki/史記/卷003",
-        "permalink": "https://zh.wikisource.org/w/index.php?title=史記/卷003&oldid=7909145",
-        "revision_id": 7909145,
-        "accessed_on": "2026-10-09",
-        "extent": "正文全文；不含現代章節標題與註號。",
-        "image_verified": false,
-        "rights": "古代原文；數位轉錄依維基文庫 CC BY-SA 4.0，保留署名及固定版本。",
-        "license_url": "https://creativecommons.org/licenses/by-sa/4.0/",
-        "normalization": {
-          "character_conversion": {
-            "弃": "棄"
-          },
-          "note": "只轉換棄字字形；保留中𤳹、筑、犇等來源字形，移除現代註號。"
-        }
-      }
+      "chapter_ref": "data/corpus/shiji/003.json"
     },
     {
       "chapter_id": "c-shiji-033-lu",
       "work_id": "w-shiji",
       "book_id": "b-shiji-033",
       "source_id": "s-shiji-033-lu",
-      "source": {
-        "title": "史記／魯周公世家",
-        "provider": "維基文庫",
-        "url": "https://zh.wikisource.org/wiki/史記/魯周公世家",
-        "permalink": "https://zh.wikisource.org/w/index.php?title=史記/魯周公世家&oldid=7909289",
-        "revision_id": 7909289,
-        "accessed_on": "2026-10-09",
-        "extent": "正文102個p區塊，自周公旦者至太史公論贊；排除導覽dd、現代版權告示及轉向頁。",
-        "image_verified": false,
-        "rights": "古代原文；數位轉錄依維基文庫CC BY-SA 4.0，保留署名及固定版本。",
-        "license_url": "https://creativecommons.org/licenses/by-sa/4.0/",
-        "normalization": {
-          "character_conversion": {
-            "笔": "筆",
-            "鸮": "鴞",
-            "龂": "齗",
-            "龁": "齕"
-          },
-          "editorial_readings": [],
-          "extraction_note": "卷033頁為轉向（版本2180467），實讀目標魯周公世家版本7909289。保留矦、歬、髙、爲等異體及校勘符號。",
-          "note": "固定正文與實讀HTML一致。筆昔疑讀未改作其他字；真公記事接武公九年，未補中間文字或武公名。全102段首輪，未核影像、底本及現代研究。"
-        }
-      }
+      "chapter_ref": "data/corpus/shiji/033.json"
     },
     {
       "chapter_id": "c-shiji-038-song",
       "work_id": "w-shiji",
       "book_id": "b-shiji-038",
       "source_id": "s-shiji-038-song",
-      "source": {
-        "title": "史記／卷038",
-        "provider": "維基文庫",
-        "url": "https://zh.wikisource.org/wiki/史記/卷038",
-        "permalink": "https://zh.wikisource.org/w/index.php?title=史記/卷038&oldid=8737306",
-        "revision_id": 8737306,
-        "accessed_on": "2026-10-09",
-        "extent": "59段正文，自微子開至太史公論贊；排除2個dd導覽、正文邊界空白、末端空p與現代版權模板。本見證未見索隱述贊。",
-        "image_verified": false,
-        "rights": "古代原文；數位轉錄依維基文庫CC BY-SA 4.0，保留署名及固定版本。",
-        "license_url": "https://creativecommons.org/licenses/by-sa/4.0/",
-        "normalization": {
-          "character_conversion": {},
-          "editorial_readings": [
-            {
-              "paragraph_id": "c-shiji-038-song:p001",
-              "witness_note": "〈避漢景帝諱啓，改啓爲開〉",
-              "treatment": "數位見證的避諱說明另存，不作古文或景帝在場人物。"
-            },
-            {
-              "paragraph_id": "c-shiji-038-song:p050",
-              "witness_note": "傳世本「戌」作「成」；數位註釋援引公羊傳及鐘銘主張成為訛字。",
-              "treatment": "移除HTML sup reference註號[1]，正文保留本版戌；註者身份及所引古籍、鐘銘尚未獨立核讀，不直接採為校定。"
-            }
-          ],
-          "extraction_note": "固定版本與實讀HTML一致；只去除段落首尾版面換行、開篇明示數位避諱說明及第50段HTML reference註號。保留段內標點、古字、戌、鮑革、唐山、褍秦、頭曼及（鄭）［楚］命（楚）［鄭］的行內校勘。",
-          "note": "未核可靠古籍底本及影像，古代原紀年、世系與數位見證讀法保留；不以版本註釋或後世研究直接重指人物。"
-        }
-      }
+      "chapter_ref": "data/corpus/shiji/038.json"
     },
     {
       "chapter_id": "table-chapter-shiji-013",
       "work_id": "w-shiji",
       "book_id": "b-shiji-013",
       "source_id": "table-witness-shiji-013",
-      "source": {
-        "id": "table-witness-shiji-013",
-        "work_id": "w-shiji",
-        "book_id": "b-shiji-013",
-        "chapter_id": "table-chapter-shiji-013",
-        "url": "https://zh.wikisource.org/wiki/史記/卷013",
-        "revision_url": "https://zh.wikisource.org/w/index.php?title=史記/卷013&oldid=2606991",
-        "revision": "2606991",
-        "accessed": "2026-10-13",
-        "response_sha256": "8c98c072f11fc224a605f6b8f4dfc77be5f87bad792d32c0a2a720914638d7c3",
-        "edition": null,
-        "image_verified": false,
-        "rights": "古籍正文公有領域；維基文庫數位轉錄依CC BY-SA，保留貢獻者署名。",
-        "rights_url": "https://zh.wikisource.org/wiki/Wikisource:版權信息",
-        "review_status": "partial_named_entity_review",
-        "note": "各組表保留原欄題、原文、空格及合欄，不推不同欄題的接續。西元欄為數位編者增補；未明年份留空，不推世系曆年。未核底本影像，人物標註仍待逐處覆核。"
-      }
+      "table_source_ref": "shiji-013"
     }
   ],
   "relations": [
@@ -395,9 +324,9 @@
       "evidence": [
         {
           "paragraph_id": "c-shiji-003-yin:p027",
-          "quote": "帝乙長子曰微子啓，啓母賤，不得嗣。少子辛，辛母正后，辛為嗣。帝乙崩，子辛立，是為帝辛，天下謂之紂。",
           "chapter_id": "c-shiji-003-yin",
-          "source_id": "s-shiji-003-yin"
+          "source_id": "s-shiji-003-yin",
+          "quote_passage_ref": "data/corpus/shiji/003.json"
         }
       ],
       "qualifiers": {
@@ -427,7 +356,7 @@
           "chapter_id": "c-shiji-038-song",
           "source_id": "s-shiji-038-song",
           "paragraph_id": "c-shiji-038-song:p001",
-          "quote": "微子開者，殷帝乙之首子而帝紂之庶兄也。紂既立，不明，淫亂於政，微子數諫，紂不聽。及祖伊以周西伯昌之修德，滅黎國，懼禍至，以告紂。紂曰：「我生不有命在天乎？是何能爲！」於是微子度紂終不可諫，欲死之，及去，未能自決，乃問於太師、少師曰：「殷不有治政，不治四方。我祖遂陳於上，紂沈湎於酒，婦人是用，亂敗湯德於下。殷既小大好草竊姦宄，卿士師師非度，皆有罪辜，乃无維獲，小民乃并興，相爲敵讎。今殷其典喪！若涉水无津涯。殷遂喪，越至于今。」曰：「太師，少師，我其發出往？吾家保于喪？今女无故告予，顛躋，如之何其？」太師若曰：「王子，天篤下菑亡殷國，乃毋畏畏，不用老長。今殷民乃陋淫神祇之祀。今誠得治國，國治身死不恨。爲死，終不得治，不如去。」遂亡。"
+          "quote_passage_ref": "data/corpus/shiji/038.json"
         }
       ],
       "qualifiers": {
@@ -510,9 +439,9 @@
       "evidence": [
         {
           "paragraph_id": "c-shiji-003-yin:p027",
-          "quote": "帝乙長子曰微子啓，啓母賤，不得嗣。少子辛，辛母正后，辛為嗣。帝乙崩，子辛立，是為帝辛，天下謂之紂。",
           "chapter_id": "c-shiji-003-yin",
-          "source_id": "s-shiji-003-yin"
+          "source_id": "s-shiji-003-yin",
+          "quote_passage_ref": "data/corpus/shiji/003.json"
         }
       ],
       "qualifiers": {
@@ -542,7 +471,7 @@
           "chapter_id": "c-shiji-038-song",
           "source_id": "s-shiji-038-song",
           "paragraph_id": "c-shiji-038-song:p001",
-          "quote": "微子開者，殷帝乙之首子而帝紂之庶兄也。紂既立，不明，淫亂於政，微子數諫，紂不聽。及祖伊以周西伯昌之修德，滅黎國，懼禍至，以告紂。紂曰：「我生不有命在天乎？是何能爲！」於是微子度紂終不可諫，欲死之，及去，未能自決，乃問於太師、少師曰：「殷不有治政，不治四方。我祖遂陳於上，紂沈湎於酒，婦人是用，亂敗湯德於下。殷既小大好草竊姦宄，卿士師師非度，皆有罪辜，乃无維獲，小民乃并興，相爲敵讎。今殷其典喪！若涉水无津涯。殷遂喪，越至于今。」曰：「太師，少師，我其發出往？吾家保于喪？今女无故告予，顛躋，如之何其？」太師若曰：「王子，天篤下菑亡殷國，乃毋畏畏，不用老長。今殷民乃陋淫神祇之祀。今誠得治國，國治身死不恨。爲死，終不得治，不如去。」遂亡。"
+          "quote_passage_ref": "data/corpus/shiji/038.json"
         }
       ],
       "qualifiers": {
@@ -566,8 +495,8 @@
           "chapter_id": "c-shiji-003-yin",
           "source_id": "s-shiji-003-yin",
           "paragraph_id": "c-shiji-003-yin:p027",
-          "quote": "帝乙長子曰微子啓，啓母賤，不得嗣。少子辛，辛母正后，辛為嗣。帝乙崩，子辛立，是為帝辛，天下謂之紂。",
-          "person_mention_id": "c-shiji-003-yin:m027-0000"
+          "person_mention_id": "c-shiji-003-yin:m027-0000",
+          "quote_passage_ref": "data/corpus/shiji/003.json"
         }
       ],
       "source_term": "帝乙崩",

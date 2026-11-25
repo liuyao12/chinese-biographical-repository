@@ -28,8 +28,8 @@
           "chapter_id": "c-shiji-040-chu",
           "source_id": "s-shiji-040-chu",
           "paragraph_id": "c-shiji-040-chu:p044",
-          "quote": "十年，楚太子建母在居巣，開呉。呉使公子光伐楚，遂敗陳、蔡，取太子建母而去。楚恐，城郢。初，呉之邊邑卑梁與楚邊邑鐘離小童爭桑，兩家交怒相攻，滅卑梁人。卑梁大夫怒，發邑兵攻鐘離。楚王聞之怒，發國兵滅卑梁。呉王聞之大怒，亦發兵，使公子光因建母家攻楚，遂滅鐘離、居巣。楚乃恐而城郢。",
-          "person_mention_id": "c-shiji-040-chu:m044-0007"
+          "person_mention_id": "c-shiji-040-chu:m044-0007",
+          "quote_passage_ref": "data/corpus/shiji/040.json"
         }
       ],
       "source_term": "楚太子建母在居巣",
@@ -50,7 +50,6 @@
       "raw_count": 1,
       "duplicate_count": 0,
       "counting_policy": "independent_fixed_witness_occurrences",
-      "quote": "八年，吳使公子光伐楚，敗楚師，迎楚故太子建母於居巣以歸。因北伐，敗陳、蔡之師。九年，公子光伐楚，拔居巣、鍾離。初，楚邊邑卑梁氏之處女與吳邊邑之女爭桑，二女家怒相滅，兩國邊邑長聞之，怒而相攻，滅吳之邊邑。吳王怒，故遂伐楚，取兩都而去。",
       "paragraph_ids": [
         "c-shiji-031-wu:p022"
       ],
@@ -74,7 +73,12 @@
       "book_id": "b-shiji-031",
       "chapter_id": "c-shiji-031-wu",
       "source_id": "s-shiji-031-wu",
-      "work_title": "史記"
+      "work_title": "史記",
+      "chapter_ref": "data/corpus/shiji/031.json",
+      "quote_span": [
+        0,
+        116
+      ]
     },
     {
       "number": 40,
@@ -85,7 +89,6 @@
       "raw_count": 4,
       "duplicate_count": 0,
       "counting_policy": "independent_fixed_witness_occurrences",
-      "quote": "太子太傅，無忌爲少傅。無忌無寵於太子，常讒惡太子建。建時年十五矣，其母蔡女也，無寵於王，王稍益疎外建也。",
       "paragraph_ids": [
         "c-shiji-040-chu:p041",
         "c-shiji-040-chu:p044"
@@ -137,7 +140,12 @@
       "book_id": "b-shiji-040",
       "chapter_id": "c-shiji-040-chu",
       "source_id": "s-shiji-040-chu",
-      "work_title": "史記"
+      "work_title": "史記",
+      "chapter_ref": "data/corpus/shiji/040.json",
+      "quote_span": [
+        78,
+        130
+      ]
     },
     {
       "number": 66,
@@ -148,7 +156,6 @@
       "raw_count": 2,
       "duplicate_count": 0,
       "counting_policy": "independent_fixed_witness_occurrences",
-      "quote": "於平王，因去太子而事平王。恐一旦平王卒而太子立，殺己，乃因讒太子建。建母，蔡女也，無寵於平王。平王稍益疏建，使建守城父，備邊兵。",
       "paragraph_ids": [
         "c-shiji-066-wu:p003"
       ],
@@ -181,7 +188,12 @@
       "book_id": "b-shiji-066",
       "chapter_id": "c-shiji-066-wu",
       "source_id": "s-shiji-066-wu",
-      "work_title": "史記"
+      "work_title": "史記",
+      "chapter_ref": "data/corpus/shiji/066.json",
+      "quote_span": [
+        8,
+        72
+      ]
     }
   ],
   "table_occurrences": [],
@@ -191,79 +203,21 @@
       "work_id": "w-shiji",
       "book_id": "b-shiji-031",
       "source_id": "s-shiji-031-wu",
-      "source": {
-        "title": "史記／卷031",
-        "provider": "維基文庫",
-        "url": "https://zh.wikisource.org/wiki/史記/卷031",
-        "permalink": "https://zh.wikisource.org/w/index.php?title=史記/卷031&oldid=7909287",
-        "revision_id": 7909287,
-        "accessed_on": "2026-10-09",
-        "extent": "正文41個p區塊，自吳太伯至太史公論贊；排除頂部世系摘要、跨站導覽及索隱述贊。",
-        "image_verified": false,
-        "rights": "古代原文；數位轉錄依維基文庫CC BY-SA 4.0，保留署名及固定版本。",
-        "license_url": "https://creativecommons.org/licenses/by-sa/4.0/",
-        "normalization": {
-          "character_conversion": {
-            "虚": "虛",
-            "鳅": "鰍",
-            "内": "內",
-            "戸": "戶"
-          },
-          "editorial_readings": [],
-          "extraction_note": "保留暦／歴、爲、髙、餘眛、闔廬等見證異體，不默改為熟知姓名。",
-          "note": "固定版本與實讀HTML一致；未核底本、影像或世系研究。"
-        }
-      }
+      "chapter_ref": "data/corpus/shiji/031.json"
     },
     {
       "chapter_id": "c-shiji-040-chu",
       "work_id": "w-shiji",
       "book_id": "b-shiji-040",
       "source_id": "s-shiji-040-chu",
-      "source": {
-        "title": "史記／卷040",
-        "provider": "維基文庫",
-        "url": "https://zh.wikisource.org/wiki/史記/卷040",
-        "permalink": "https://zh.wikisource.org/w/index.php?title=史記/卷040&oldid=8736796",
-        "revision_id": 8736796,
-        "accessed_on": "2026-10-09",
-        "extent": "96段正文及1段分層索隱述贊；排除2個dd導覽，去除段落外緣空白。",
-        "image_verified": false,
-        "rights": "古代原文；數位轉錄依維基文庫CC BY-SA 4.0，保留署名及固定版本。",
-        "license_url": "https://creativecommons.org/licenses/by-sa/4.0/",
-        "normalization": {
-          "character_conversion": {
-            "笔": "筆"
-          },
-          "editorial_readings": [],
-          "extraction_note": "固定修訂與取得時HTML一致；僅去除段落外緣空白，古代異體及校勘括號保留。 第70段笔轉筆，未將「西取筆秦」疑句自行校讀。",
-          "note": "全97段數位正文已核讀，人物標註與可靠底本、影像覆核尚未完成；不把數位轉錄當版本校定。"
-        }
-      }
+      "chapter_ref": "data/corpus/shiji/040.json"
     },
     {
       "chapter_id": "c-shiji-066-wu",
       "work_id": "w-shiji",
       "book_id": "b-shiji-066",
       "source_id": "s-shiji-066-wu",
-      "source": {
-        "title": "史記／卷066",
-        "provider": "維基文庫",
-        "url": "https://zh.wikisource.org/wiki/史記/卷066",
-        "permalink": "https://zh.wikisource.org/w/index.php?title=史記/卷066&oldid=2621138",
-        "revision_id": 2621138,
-        "accessed_on": "2026-10-09",
-        "extent": "24段正文，排除註釋版及2段導覽，無索隱述贊。",
-        "image_verified": false,
-        "rights": "古代原文；數位轉錄依維基文庫CC BY-SA 4.0，保留署名及固定版本。",
-        "license_url": "https://creativecommons.org/licenses/by-sa/4.0/",
-        "normalization": {
-          "character_conversion": {},
-          "editorial_readings": [],
-          "extraction_note": "取得時HTML與固定修訂一致，只去外緣空白。保留堂谿、（之）、忍訽、屬鏤、鴟夷等原字與括號文字，未核定校勘。",
-          "note": "全24段已核讀並作人物首輪；未核可靠底本、影像或現代研究。"
-        }
-      }
+      "chapter_ref": "data/corpus/shiji/066.json"
     }
   ],
   "relations": [
@@ -278,7 +232,7 @@
           "chapter_id": "c-shiji-031-wu",
           "source_id": "s-shiji-031-wu",
           "paragraph_id": "c-shiji-031-wu:p022",
-          "quote": "八年，吳使公子光伐楚，敗楚師，迎楚故太子建母於居巣以歸。因北伐，敗陳、蔡之師。九年，公子光伐楚，拔居巣、鍾離。初，楚邊邑卑梁氏之處女與吳邊邑之女爭桑，二女家怒相滅，兩國邊邑長聞之，怒而相攻，滅吳之邊邑。吳王怒，故遂伐楚，取兩都而去。"
+          "quote_passage_ref": "data/corpus/shiji/031.json"
         }
       ],
       "qualifiers": {
@@ -299,7 +253,7 @@
           "chapter_id": "c-shiji-040-chu",
           "source_id": "s-shiji-040-chu",
           "paragraph_id": "c-shiji-040-chu:p041",
-          "quote": "平王二年，使費無忌如秦爲太子建取婦。婦好，來，未至，無忌先歸，説平王曰：「秦女好，可自娶，爲太子更求。」平王聽之，卒自娶秦女，生熊珍。更爲太子娶。是時伍奢爲太子太傅，無忌爲少傅。無忌無寵於太子，常讒惡太子建。建時年十五矣，其母蔡女也，無寵於王，王稍益疎外建也。"
+          "quote_passage_ref": "data/corpus/shiji/040.json"
         }
       ],
       "qualifiers": {
@@ -320,7 +274,7 @@
           "chapter_id": "c-shiji-066-wu",
           "source_id": "s-shiji-066-wu",
           "paragraph_id": "c-shiji-066-wu:p003",
-          "quote": "無忌既以秦女自媚於平王，因去太子而事平王。恐一旦平王卒而太子立，殺己，乃因讒太子建。建母，蔡女也，無寵於平王。平王稍益疏建，使建守城父，備邊兵。"
+          "quote_passage_ref": "data/corpus/shiji/066.json"
         }
       ],
       "qualifiers": {
@@ -352,7 +306,7 @@
           "chapter_id": "c-shiji-031-wu",
           "source_id": "s-shiji-031-wu",
           "paragraph_id": "c-shiji-031-wu:p022",
-          "quote": "八年，吳使公子光伐楚，敗楚師，迎楚故太子建母於居巣以歸。因北伐，敗陳、蔡之師。九年，公子光伐楚，拔居巣、鍾離。初，楚邊邑卑梁氏之處女與吳邊邑之女爭桑，二女家怒相滅，兩國邊邑長聞之，怒而相攻，滅吳之邊邑。吳王怒，故遂伐楚，取兩都而去。"
+          "quote_passage_ref": "data/corpus/shiji/031.json"
         }
       ],
       "qualifiers": {
@@ -373,7 +327,7 @@
           "chapter_id": "c-shiji-040-chu",
           "source_id": "s-shiji-040-chu",
           "paragraph_id": "c-shiji-040-chu:p041",
-          "quote": "平王二年，使費無忌如秦爲太子建取婦。婦好，來，未至，無忌先歸，説平王曰：「秦女好，可自娶，爲太子更求。」平王聽之，卒自娶秦女，生熊珍。更爲太子娶。是時伍奢爲太子太傅，無忌爲少傅。無忌無寵於太子，常讒惡太子建。建時年十五矣，其母蔡女也，無寵於王，王稍益疎外建也。"
+          "quote_passage_ref": "data/corpus/shiji/040.json"
         }
       ],
       "qualifiers": {
@@ -394,7 +348,7 @@
           "chapter_id": "c-shiji-066-wu",
           "source_id": "s-shiji-066-wu",
           "paragraph_id": "c-shiji-066-wu:p003",
-          "quote": "無忌既以秦女自媚於平王，因去太子而事平王。恐一旦平王卒而太子立，殺己，乃因讒太子建。建母，蔡女也，無寵於平王。平王稍益疏建，使建守城父，備邊兵。"
+          "quote_passage_ref": "data/corpus/shiji/066.json"
         }
       ],
       "qualifiers": {

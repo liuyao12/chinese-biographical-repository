@@ -65,7 +65,6 @@
       "raw_count": 4,
       "duplicate_count": 0,
       "counting_policy": "independent_fixed_witness_occurrences",
-      "quote": "氏。三桓攻公，公奔于衛，去如鄒，遂如越。國人迎哀公復歸，卒于有山氏。子寧立，是爲悼公。",
       "paragraph_ids": [
         "c-shiji-033-lu:p089",
         "c-shiji-033-lu:p090",
@@ -118,7 +117,12 @@
       "book_id": "b-shiji-033",
       "chapter_id": "c-shiji-033-lu",
       "source_id": "s-shiji-033-lu",
-      "work_title": "史記"
+      "work_title": "史記",
+      "chapter_ref": "data/corpus/shiji/033.json",
+      "quote_span": [
+        90,
+        133
+      ]
     }
   ],
   "table_occurrences": [
@@ -126,7 +130,6 @@
       "table_id": "shiji-015",
       "cell_id": "shiji-015-r011-c06",
       "title": "《史記·六國年表》",
-      "quote": "二十三。魯悼公元年。三桓勝，魯如小侯。",
       "year": {
         "era": "BCE",
         "value": 466,
@@ -149,13 +152,13 @@
       "book_id": "b-shiji-015",
       "chapter_id": "table-chapter-shiji-015",
       "source_id": "table-witness-shiji-015",
-      "source_revision": "2607002"
+      "source_revision": "2607002",
+      "quote_ref": "cell"
     },
     {
       "table_id": "shiji-015",
       "cell_id": "shiji-015-r048-c06",
       "title": "《史記·六國年表》",
-      "quote": "三。魯悼公卒。",
       "year": {
         "era": "BCE",
         "value": 429,
@@ -178,7 +181,8 @@
       "book_id": "b-shiji-015",
       "chapter_id": "table-chapter-shiji-015",
       "source_id": "table-witness-shiji-015",
-      "source_revision": "2607002"
+      "source_revision": "2607002",
+      "quote_ref": "cell"
     }
   ],
   "sources": [
@@ -187,52 +191,14 @@
       "work_id": "w-shiji",
       "book_id": "b-shiji-033",
       "source_id": "s-shiji-033-lu",
-      "source": {
-        "title": "史記／魯周公世家",
-        "provider": "維基文庫",
-        "url": "https://zh.wikisource.org/wiki/史記/魯周公世家",
-        "permalink": "https://zh.wikisource.org/w/index.php?title=史記/魯周公世家&oldid=7909289",
-        "revision_id": 7909289,
-        "accessed_on": "2026-10-09",
-        "extent": "正文102個p區塊，自周公旦者至太史公論贊；排除導覽dd、現代版權告示及轉向頁。",
-        "image_verified": false,
-        "rights": "古代原文；數位轉錄依維基文庫CC BY-SA 4.0，保留署名及固定版本。",
-        "license_url": "https://creativecommons.org/licenses/by-sa/4.0/",
-        "normalization": {
-          "character_conversion": {
-            "笔": "筆",
-            "鸮": "鴞",
-            "龂": "齗",
-            "龁": "齕"
-          },
-          "editorial_readings": [],
-          "extraction_note": "卷033頁為轉向（版本2180467），實讀目標魯周公世家版本7909289。保留矦、歬、髙、爲等異體及校勘符號。",
-          "note": "固定正文與實讀HTML一致。筆昔疑讀未改作其他字；真公記事接武公九年，未補中間文字或武公名。全102段首輪，未核影像、底本及現代研究。"
-        }
-      }
+      "chapter_ref": "data/corpus/shiji/033.json"
     },
     {
       "chapter_id": "table-chapter-shiji-015",
       "work_id": "w-shiji",
       "book_id": "b-shiji-015",
       "source_id": "table-witness-shiji-015",
-      "source": {
-        "id": "table-witness-shiji-015",
-        "work_id": "w-shiji",
-        "book_id": "b-shiji-015",
-        "chapter_id": "table-chapter-shiji-015",
-        "url": "https://zh.wikisource.org/wiki/史記/卷015",
-        "revision_url": "https://zh.wikisource.org/w/index.php?title=史記/卷015&oldid=2607002",
-        "revision": "2607002",
-        "accessed": "2026-10-12",
-        "response_sha256": "eb0624a019e02c24ce90a40bfa24863f4020878062c6e2efea32355033be5559",
-        "edition": null,
-        "image_verified": false,
-        "rights": "古籍正文公有領域；維基文庫轉錄及編輯內容依 CC BY-SA 條款，署名維基文庫貢獻者。",
-        "rights_url": "https://zh.wikisource.org/wiki/Wikisource:版權信息",
-        "review_status": "agent_first_pass_named_entities",
-        "note": "完整數位表格結構匯入，未逐格學術覆核。未核讀印本影像，原印本頁碼未知。西元欄沿用此數位轉錄的編者對照，不是古籍原有西元紀年，也不引用其維基百科外連。"
-      }
+      "table_source_ref": "shiji-015"
     }
   ],
   "relations": [
@@ -247,7 +213,7 @@
           "chapter_id": "c-shiji-033-lu",
           "source_id": "s-shiji-033-lu",
           "paragraph_id": "c-shiji-033-lu:p089",
-          "quote": "二十七年春，季康子卒。夏，哀公患三桓，將欲因諸矦以劫之，三桓亦患公作難，故君臣多閒。公游于陵阪，遇孟武伯於街，曰：『請問余及死乎？』對曰：『不知也。』公欲以越伐三桓。八月，哀公如陘氏。三桓攻公，公奔于衛，去如鄒，遂如越。國人迎哀公復歸，卒于有山氏。子寧立，是爲悼公。"
+          "quote_passage_ref": "data/corpus/shiji/033.json"
         }
       ],
       "qualifiers": {
@@ -268,7 +234,7 @@
           "chapter_id": "c-shiji-033-lu",
           "source_id": "s-shiji-033-lu",
           "paragraph_id": "c-shiji-033-lu:p092",
-          "quote": "三十七年，悼公卒，子嘉立，是爲元公。"
+          "quote_passage_ref": "data/corpus/shiji/033.json"
         }
       ],
       "qualifiers": {
@@ -301,7 +267,7 @@
           "chapter_id": "c-shiji-033-lu",
           "source_id": "s-shiji-033-lu",
           "paragraph_id": "c-shiji-033-lu:p089",
-          "quote": "二十七年春，季康子卒。夏，哀公患三桓，將欲因諸矦以劫之，三桓亦患公作難，故君臣多閒。公游于陵阪，遇孟武伯於街，曰：『請問余及死乎？』對曰：『不知也。』公欲以越伐三桓。八月，哀公如陘氏。三桓攻公，公奔于衛，去如鄒，遂如越。國人迎哀公復歸，卒于有山氏。子寧立，是爲悼公。"
+          "quote_passage_ref": "data/corpus/shiji/033.json"
         }
       ],
       "qualifiers": {
@@ -322,7 +288,7 @@
           "chapter_id": "c-shiji-033-lu",
           "source_id": "s-shiji-033-lu",
           "paragraph_id": "c-shiji-033-lu:p092",
-          "quote": "三十七年，悼公卒，子嘉立，是爲元公。"
+          "quote_passage_ref": "data/corpus/shiji/033.json"
         }
       ],
       "qualifiers": {
@@ -346,8 +312,8 @@
           "chapter_id": "c-shiji-033-lu",
           "source_id": "s-shiji-033-lu",
           "paragraph_id": "c-shiji-033-lu:p092",
-          "quote": "三十七年，悼公卒，子嘉立，是爲元公。",
-          "person_mention_id": "c-shiji-033-lu:m092-0005"
+          "person_mention_id": "c-shiji-033-lu:m092-0005",
+          "quote_passage_ref": "data/corpus/shiji/033.json"
         }
       ],
       "source_term": "悼公卒",

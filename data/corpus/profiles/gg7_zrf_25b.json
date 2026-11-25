@@ -21,7 +21,7 @@
           "chapter_id": "c-shiji-097-luli",
           "source_id": "s-shiji-097-luli",
           "paragraph_id": "c-shiji-097-luli:p016",
-          "quote": "平原君朱建者，楚人也。故嘗為淮南王黥布相，有罪去，後復事黥布。布欲反時，問平原君，平原君非之，布不聽而聽梁父侯，遂反。漢已誅布，聞平原君諫不與謀，得不誅。語在黥布語中。"
+          "quote_passage_ref": "data/corpus/shiji/097.json"
         }
       ],
       "attestations": [
@@ -63,7 +63,6 @@
       "raw_count": 1,
       "duplicate_count": 0,
       "counting_policy": "independent_fixed_witness_occurrences",
-      "quote": "黥布相，有罪去，後復事黥布。布欲反時，問平原君，平原君非之，布不聽而聽梁父侯，遂反。漢已誅布，聞平原君諫不與謀，得不誅。語在黥布語中。",
       "paragraph_ids": [
         "c-shiji-097-luli:p016"
       ],
@@ -87,7 +86,12 @@
       "book_id": "b-shiji-097",
       "chapter_id": "c-shiji-097-luli",
       "source_id": "s-shiji-097-luli",
-      "work_title": "史記"
+      "work_title": "史記",
+      "chapter_ref": "data/corpus/shiji/097.json",
+      "quote_span": [
+        17,
+        84
+      ]
     }
   ],
   "table_occurrences": [],
@@ -97,24 +101,7 @@
       "work_id": "w-shiji",
       "book_id": "b-shiji-097",
       "source_id": "s-shiji-097-luli",
-      "source": {
-        "title": "史記／卷097",
-        "provider": "維基文庫",
-        "url": "https://zh.wikisource.org/wiki/史記/卷097",
-        "permalink": "https://zh.wikisource.org/w/index.php?title=史記/卷097&oldid=1383195",
-        "revision_id": 1383195,
-        "accessed_on": "2026-10-09",
-        "extent": "24段傳世正文含太史公論，另附1段分層索隱述贊；排除導覽與空白。",
-        "image_verified": false,
-        "rights": "古代原文；數位轉錄依維基文庫CC BY-SA 4.0，保留署名及固定版本。",
-        "license_url": "https://creativecommons.org/licenses/by-sa/4.0/",
-        "normalization": {
-          "character_conversion": {},
-          "editorial_readings": [],
-          "extraction_note": "固定HTML一致，只去外緣空白；亨、尉他及尉佗等原字保留，前後陳留敘事分存。",
-          "note": "全27個HTML區塊已讀；無tooltip/reference/del/s，未核底本影像。"
-        }
-      }
+      "chapter_ref": "data/corpus/shiji/097.json"
     }
   ],
   "relations": [],

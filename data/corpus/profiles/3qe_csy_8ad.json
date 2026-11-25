@@ -21,7 +21,6 @@
       "raw_count": 2,
       "duplicate_count": 0,
       "counting_policy": "independent_fixed_witness_occurrences",
-      "quote": "二人。從東擊楚，至彭城。漢軍敗還，保雍丘，擊反者王武等。略梁地，別西擊邢說軍菑南，破之，身得說都尉二人，司馬、候十二人，降吏卒四千六百八十人。破楚軍滎陽東。食邑四千二百戶。",
       "paragraph_ids": [
         "c-hanshu-041-fanli:p-jin-002"
       ],
@@ -54,7 +53,12 @@
       "book_id": "b-hanshu-041",
       "chapter_id": "c-hanshu-041-fanli",
       "source_id": "s-hanshu-041-fanli",
-      "work_title": "漢書"
+      "work_title": "漢書",
+      "chapter_ref": "data/corpus/hanshu/041.json",
+      "quote_span": [
+        40,
+        126
+      ]
     },
     {
       "number": 98,
@@ -65,7 +69,6 @@
       "raw_count": 2,
       "duplicate_count": 0,
       "counting_policy": "independent_fixed_witness_occurrences",
-      "quote": "人。從東擊楚，至彭城。漢軍敗還，保雍丘，去擊反者王武等。略梁地，別將擊邢說軍菑南，破之，身得說都尉二人，司馬、候十二人，降吏卒四千一百八十人。破楚軍滎陽東。三年，賜食邑四千二百戶。",
       "paragraph_ids": [
         "c-shiji-098-fujin:p006"
       ],
@@ -98,7 +101,12 @@
       "book_id": "b-shiji-098",
       "chapter_id": "c-shiji-098-fujin",
       "source_id": "s-shiji-098-fujin",
-      "work_title": "史記"
+      "work_title": "史記",
+      "chapter_ref": "data/corpus/shiji/098.json",
+      "quote_span": [
+        41,
+        131
+      ]
     }
   ],
   "table_occurrences": [],
@@ -108,87 +116,14 @@
       "work_id": "w-hanshu",
       "book_id": "b-hanshu-041",
       "source_id": "s-hanshu-041-fanli",
-      "source": {
-        "title": "漢書／卷041",
-        "provider": "維基文庫",
-        "url": "https://zh.wikisource.org/wiki/漢書/卷041",
-        "permalink": "https://zh.wikisource.org/w/index.php?title=漢書/卷041&oldid=2342290",
-        "revision_id": 2342290,
-        "accessed_on": "2026-10-15",
-        "extent": "目前錄傅寬三段、靳歙五段、周惞三段，共十一段；卷內樊、酈、滕、灌傳及贊未匯入，不代表全卷完成。",
-        "included_sections": [
-          "傅寬傳文",
-          "靳歙傳文",
-          "周惞傳文"
-        ],
-        "text_scope": "partial_chapter",
-        "image_verified": false,
-        "rights": "古代原文；維基文庫數位轉錄依CC BY-SA 4.0，保留貢獻者署名及固定修訂連結。",
-        "license_url": "https://creativecommons.org/licenses/by-sa/4.0/",
-        "normalization": {
-          "character_conversion": {},
-          "editorial_readings": [],
-          "extraction_note": "去除現代網頁小標與Wikipedia模板，保留三節十一段原字、標點與數位異文；新補觞、五石等原字不默改，異讀另記。",
-          "note": "古代篇名仍為樊酈滕灌傅靳周傳；採節內穩定段ID，日後補前文不重編既有錨點。未核書影。"
-        },
-        "review_status": "text_checked",
-        "edition": null,
-        "revision_timestamp": "2023-12-14T05:51:09Z"
-      }
+      "chapter_ref": "data/corpus/hanshu/041.json"
     },
     {
       "chapter_id": "c-shiji-098-fujin",
       "work_id": "w-shiji",
       "book_id": "b-shiji-098",
       "source_id": "s-shiji-098-fujin",
-      "source": {
-        "title": "史記／卷098",
-        "provider": "維基文庫",
-        "url": "https://zh.wikisource.org/wiki/史記/卷098",
-        "permalink": "https://zh.wikisource.org/w/index.php?title=史記/卷098&oldid=1490318",
-        "revision_id": 1490318,
-        "accessed_on": "2026-10-10",
-        "extent": "13段傳世正文含太史公論；排除導覽及空白，無索隱附贊。",
-        "image_verified": false,
-        "rights": "古代原文；數位轉錄依維基文庫CC BY-SA 4.0，保留署名及固定版本。",
-        "license_url": "https://creativecommons.org/licenses/by-sa/4.0/",
-        "normalization": {
-          "character_conversion": {
-            "横": "橫",
-            "户": "戶",
-            "别": "別",
-            "内": "內",
-            "郸": "鄲",
-            "仓": "倉",
-            "荥": "滎",
-            "鲁": "魯",
-            "缯": "繒",
-            "蕲": "蘄",
-            "韩": "韓",
-            "肃": "肅",
-            "夺": "奪",
-            "贞": "貞",
-            "伤": "傷",
-            "谓": "謂",
-            "笃": "篤"
-          },
-          "editorial_readings": [],
-          "digital_footnotes": [
-            {
-              "marker": "1",
-              "paragraph_number": 4,
-              "note": "數位編者稱武英殿二十四史本作二十一年；尚未核該底本，不作已驗證異文。"
-            },
-            {
-              "marker": "2",
-              "paragraph_number": 4,
-              "note": "數位編者依卒年、國除年及前代在位數推算三十一年；只作編者意見，不逕採其校勘與西曆換算。"
-            }
-          ],
-          "extraction_note": "去外緣空白及兩處HTML引用標記；逐字繁體轉換明記，保留緤、歙、饟及度平陰。",
-          "note": "全15個HTML區塊已核讀；數位編者意見分存，不改正文三十一年，未核底本影像。"
-        }
-      }
+      "chapter_ref": "data/corpus/shiji/098.json"
     }
   ],
   "relations": [],

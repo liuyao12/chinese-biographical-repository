@@ -22,7 +22,6 @@
       "raw_count": 3,
       "duplicate_count": 0,
       "counting_policy": "independent_fixed_witness_occurrences",
-      "quote": "令興之之元子年廿八升平二年三月九日卒葬于舊墓在贛令墓之後故刻塼於墓為識妻吳興施氏字女式弟嗣之咸之預之",
       "paragraph_ids": [
         "c-epitaph-wangminzhi-full:p001"
       ],
@@ -64,7 +63,12 @@
       "book_id": "b-epitaph-wangminzhi-full",
       "chapter_id": "c-epitaph-wangminzhi-full",
       "source_id": "s-epitaph-wangminzhi-ntu2009-cc75be5",
-      "work_title": "王閩之墓誌"
+      "work_title": "王閩之墓誌",
+      "chapter_ref": "data/corpus/epitaph-wangminzhi/full.json",
+      "quote_span": [
+        34,
+        84
+      ]
     }
   ],
   "table_occurrences": [],
@@ -74,42 +78,7 @@
       "work_id": "w-epitaph-wangminzhi",
       "book_id": "b-epitaph-wangminzhi-full",
       "source_id": "s-epitaph-wangminzhi-ntu2009-cc75be5",
-      "source": {
-        "title": "王閩之墓誌（林宗閱2009排印校錄見證）",
-        "provider": "國立臺灣大學歷史學系／林宗閱2009校錄",
-        "url": "https://homepage.ntu.edu.tw/~history/public_html/newsletter/c_pub_newsletter03.html",
-        "permalink": "https://homepage.ntu.edu.tw/~history/public_html/newsletter/public_html/09newsletter/03/newsletter3_09.pdf#page=3",
-        "revision_id": null,
-        "accessed_on": "2026-10-22",
-        "edition": "據林宗閱2009印頁39錄文；文稱據南京市博物館1980拓片，未親見原拓或1972原刊",
-        "extent": "本方古文完整84字，據林宗閱2009排印校錄；1980館編原拓及1972原刊未親見。現代文章、註釋與系譜圖不屬本誌文。",
-        "text_scope": "complete_work",
-        "review_status": "text_checked",
-        "image_verified": false,
-        "license_url": "https://creativecommons.org/publicdomain/mark/1.0/",
-        "rights": "僅古代墓誌文字為公版；現代文章及版面/拓片權利歸原作者與出版者，不套本專案MIT，不收入其PDF/圖片。",
-        "license_scope": "classical_inscription_text_only",
-        "normalization": {
-          "character_conversion": "僅PDF CJK相容碼位NFKC，逐字原碼位另存；不正字或增標點",
-          "extraction_note": "完整84字依排印錄文讀序；第6排印號空白保留於見證布局，全文以一編輯段容納，不冒原石一行或卷一。"
-        },
-        "transcription_witness": {
-          "kind": "modern_printed_epitaph_transcription",
-          "publication_author": "林宗閱",
-          "publication_title": "「漢魏南北朝墓誌釋註計畫」簡介",
-          "publication": "臺大歷史系學術通訊3（2009年5月）37–42",
-          "printed_page": 39,
-          "pdf_page": 3,
-          "pdf_sha256": "cc75be5c4737e98fca8252de656b5b1e77a095ddd080576731242ed7b3782ad2",
-          "transcription_path": "source-evidence/wangminzhi-epitaph-ntu2009/transcription.json",
-          "span_path": "source-evidence/wangminzhi-epitaph-ntu2009/transcription-page-spans.json",
-          "metadata_path": "source-evidence/wangminzhi-epitaph-ntu2009/source-metadata.json",
-          "transcription_page_visually_checked": true,
-          "original_stone_or_rubbing_image_verified": false,
-          "underlying_rubbing_personally_accessed": false,
-          "scope": "complete_single_inscription_not_modern_article"
-        }
-      }
+      "chapter_ref": "data/corpus/epitaph-wangminzhi/full.json"
     }
   ],
   "relations": [
@@ -147,9 +116,9 @@
           "source_id": "s-epitaph-wangminzhi-ntu2009-cc75be5",
           "chapter_id": "c-epitaph-wangminzhi-full",
           "paragraph_id": "c-epitaph-wangminzhi-full:p001",
-          "quote": "晉故男子琅耶臨沂都鄉南仁里王閩之字冶民故尚書左僕射特進衛將軍彬之孫贛令興之之元子年廿八升平二年三月九日卒葬于舊墓在贛令墓之後故刻塼於墓為識妻吳興施氏字女式弟嗣之咸之預之",
           "subject_person_mention_id": "c-epitaph-wangminzhi-full:p001:m0013",
-          "object_person_mention_id": "c-epitaph-wangminzhi-full:p001:m0072"
+          "object_person_mention_id": "c-epitaph-wangminzhi-full:p001:m0072",
+          "quote_passage_ref": "data/corpus/epitaph-wangminzhi/full.json"
         }
       ],
       "reviewer": "Codex（AI代理）",
@@ -172,13 +141,13 @@
       "additional_names": [],
       "chapter_id": "c-epitaph-wangminzhi-full",
       "paragraph_id": "c-epitaph-wangminzhi-full:p001",
-      "quote": "晉故男子琅耶臨沂都鄉南仁里王閩之字冶民故尚書左僕射特進衛將軍彬之孫贛令興之之元子年廿八升平二年三月九日卒葬于舊墓在贛令墓之後故刻塼於墓為識妻吳興施氏字女式弟嗣之咸之預之",
       "note": "原文姓名與字分存；未明寫之姓/名不補。原拓未見。",
       "status": "editorial_provisional",
       "human_reviewed": false,
       "work_id": "w-epitaph-wangminzhi",
       "book_id": "b-epitaph-wangminzhi-full",
-      "source_id": "s-epitaph-wangminzhi-ntu2009-cc75be5"
+      "source_id": "s-epitaph-wangminzhi-ntu2009-cc75be5",
+      "quote_passage_ref": "data/corpus/epitaph-wangminzhi/full.json"
     }
   ],
   "person_ids": [
@@ -219,9 +188,9 @@
           "source_id": "s-epitaph-wangminzhi-ntu2009-cc75be5",
           "chapter_id": "c-epitaph-wangminzhi-full",
           "paragraph_id": "c-epitaph-wangminzhi-full:p001",
-          "quote": "晉故男子琅耶臨沂都鄉南仁里王閩之字冶民故尚書左僕射特進衛將軍彬之孫贛令興之之元子年廿八升平二年三月九日卒葬于舊墓在贛令墓之後故刻塼於墓為識妻吳興施氏字女式弟嗣之咸之預之",
           "subject_person_mention_id": "c-epitaph-wangminzhi-full:p001:m0013",
-          "object_person_mention_id": "c-epitaph-wangminzhi-full:p001:m0072"
+          "object_person_mention_id": "c-epitaph-wangminzhi-full:p001:m0072",
+          "quote_passage_ref": "data/corpus/epitaph-wangminzhi/full.json"
         }
       ],
       "reviewer": "Codex（AI代理）",

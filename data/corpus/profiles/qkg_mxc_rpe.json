@@ -20,7 +20,6 @@
       "raw_count": 1,
       "duplicate_count": 0,
       "counting_policy": "independent_fixed_witness_occurrences",
-      "quote": "，使無忘職業。於是肅慎貢楛矢石砮，長尺有咫。先王欲昭其令德，以肅慎矢分大姬，配虞胡公而封諸陳。分同姓以珍玉，展親；分異姓以遠職，使無忘服。故分陳以肅慎矢。」試求之故府，果得之。",
       "paragraph_ids": [
         "c-shiji-047-kong:p027"
       ],
@@ -44,7 +43,12 @@
       "book_id": "b-shiji-047",
       "chapter_id": "c-shiji-047-kong",
       "source_id": "s-shiji-047-kong",
-      "work_title": "史記"
+      "work_title": "史記",
+      "chapter_ref": "data/corpus/shiji/047.json",
+      "quote_span": [
+        70,
+        158
+      ]
     },
     {
       "number": 71,
@@ -55,7 +59,6 @@
       "raw_count": 1,
       "duplicate_count": 0,
       "counting_policy": "independent_fixed_witness_occurrences",
-      "quote": "虞帝舜之後。夏禹封舜子商均於虞城，三十二世孫遏父為周陶正，武王妻以元女大姬，生滿，封之於陳，賜姓媯，以奉舜祀，是為胡公。九世孫厲公他生敬仲完，奔齊，以國為姓。既而食邑於田，又為田氏。十五世孫齊王建為秦所滅。三子：昇、桓、軫。桓稱王氏。軫，楚相，封潁川侯，因徙潁川，稱陳氏。生",
       "paragraph_ids": [
         "c-xintangshu-071xia-chen-preface:p001"
       ],
@@ -79,7 +82,12 @@
       "book_id": "b-xintangshu-071-xia",
       "chapter_id": "c-xintangshu-071xia-chen-preface",
       "source_id": "s-xintangshu-071xia-chen-preface",
-      "work_title": "新唐書"
+      "work_title": "新唐書",
+      "chapter_ref": "data/corpus/xintangshu/071xia-chen-preface.json",
+      "quote_span": [
+        7,
+        144
+      ]
     }
   ],
   "table_occurrences": [],
@@ -89,52 +97,14 @@
       "work_id": "w-shiji",
       "book_id": "b-shiji-047",
       "source_id": "s-shiji-047-kong",
-      "source": {
-        "title": "史記／卷047",
-        "provider": "維基文庫",
-        "url": "https://zh.wikisource.org/wiki/史記/卷047",
-        "permalink": "https://zh.wikisource.org/w/index.php?title=史記/卷047&oldid=7903609",
-        "revision_id": 7903609,
-        "accessed_on": "2026-10-09",
-        "extent": "85段正文及1段索隱述贊，後者分層；排除2個dd導覽與現代分節標題，只去除段落外緣空白。",
-        "image_verified": false,
-        "rights": "古代原文；數位轉錄依維基文庫CC BY-SA 4.0，保留署名及固定版本。",
-        "license_url": "https://creativecommons.org/licenses/by-sa/4.0/",
-        "normalization": {
-          "character_conversion": {},
-          "editorial_readings": [],
-          "extraction_note": "取得時HTML與固定修訂一致；現代分節標題不作古代正文，原字與來源標點保留。",
-          "note": "已核讀全86段數位文字並作首輪明示人名標註；未核可靠底本、影像或現代研究。"
-        }
-      }
+      "chapter_ref": "data/corpus/shiji/047.json"
     },
     {
       "chapter_id": "c-xintangshu-071xia-chen-preface",
       "work_id": "w-xintangshu",
       "book_id": "b-xintangshu-071-xia",
       "source_id": "s-xintangshu-071xia-chen-preface",
-      "source": {
-        "title": "新唐書/卷071下",
-        "provider": "維基文庫",
-        "url": "https://zh.wikisource.org/w/index.php?title=%E6%96%B0%E5%94%90%E6%9B%B8%2F%E5%8D%B7071%E4%B8%8B&oldid=2405769",
-        "permalink": "https://zh.wikisource.org/w/index.php?title=%E6%96%B0%E5%94%90%E6%9B%B8%2F%E5%8D%B7071%E4%B8%8B&oldid=2405769",
-        "revision_id": 2405769,
-        "response_sha256": "141e30b0a02865af6c2b7ce5538dd30febde373d07bbd1b148ffb4df11f263cf",
-        "raw_sha256": "2f764391521a46b9a7eb1b6bc8fc145ed307e7a35cc1c98088078ff262e39639",
-        "edition": "收到數位轉錄；所據最早現存古本未知，未校圖",
-        "image_verified": false,
-        "text_scope": "partial_chapter",
-        "extent": "固定raw第747行陳氏序完整409字；不含後續wikitable、不含其他姓、不是卷七十一下完成",
-        "rights": "古代原文，WS數位編輯層CC BY-SA 4.0，見來源頁",
-        "accessed_on": "2026-10-22",
-        "retrieval_qualification": "此日重讀庫內既存固定檔；非本批新HTTP擷取，授權沿封存metadata未重新開權利頁。",
-        "license_url": "https://zh.wikisource.org/wiki/Wikisource:版權信息",
-        "review_status": "text_checked",
-        "normalization": {
-          "character_conversion": "none",
-          "extraction_note": "固定raw第747行409字逐字截取；不改古字、標點，不含後續wikitable。"
-        }
-      }
+      "chapter_ref": "data/corpus/xintangshu/071xia-chen-preface.json"
     }
   ],
   "relations": [
@@ -149,7 +119,7 @@
           "chapter_id": "c-shiji-047-kong",
           "source_id": "s-shiji-047-kong",
           "paragraph_id": "c-shiji-047-kong:p027",
-          "quote": "有隼集于陳廷而死，楛矢貫之，石砮，矢長尺有咫。陳湣公使使問仲尼。仲尼曰：「隼來遠矣，此肅慎之矢也。昔武王克商，通道九夷百蠻，使各以其方賄來貢，使無忘職業。於是肅慎貢楛矢石砮，長尺有咫。先王欲昭其令德，以肅慎矢分大姬，配虞胡公而封諸陳。分同姓以珍玉，展親；分異姓以遠職，使無忘服。故分陳以肅慎矢。」試求之故府，果得之。"
+          "quote_passage_ref": "data/corpus/shiji/047.json"
         }
       ],
       "qualifiers": {
@@ -181,7 +151,7 @@
           "chapter_id": "c-shiji-047-kong",
           "source_id": "s-shiji-047-kong",
           "paragraph_id": "c-shiji-047-kong:p027",
-          "quote": "有隼集于陳廷而死，楛矢貫之，石砮，矢長尺有咫。陳湣公使使問仲尼。仲尼曰：「隼來遠矣，此肅慎之矢也。昔武王克商，通道九夷百蠻，使各以其方賄來貢，使無忘職業。於是肅慎貢楛矢石砮，長尺有咫。先王欲昭其令德，以肅慎矢分大姬，配虞胡公而封諸陳。分同姓以珍玉，展親；分異姓以遠職，使無忘服。故分陳以肅慎矢。」試求之故府，果得之。"
+          "quote_passage_ref": "data/corpus/shiji/047.json"
         }
       ],
       "qualifiers": {

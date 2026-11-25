@@ -21,7 +21,7 @@
           "chapter_id": "c-shiji-105-bianque",
           "source_id": "s-shiji-105-bianque",
           "paragraph_id": "c-shiji-105-bianque:p023",
-          "quote": "濟北王病，召臣意診其脈，曰：「風蹶胸滿。」即為藥酒，盡三石，病已。得之汗出伏地。所以知濟北王病者，臣意切其脈時，風氣也，心脈濁。病法「過入其陽，陽氣盡而陰氣入」。陰氣入張，則寒氣上而熱氣下，故胸滿。汗出伏地者，切其脈，氣陰。陰氣者，病必入中，出及瀺水也。"
+          "quote_passage_ref": "data/corpus/shiji/105.json"
         }
       ],
       "attestations": [
@@ -63,7 +63,6 @@
       "raw_count": 4,
       "duplicate_count": 0,
       "counting_policy": "independent_fixed_witness_occurrences",
-      "quote": "濟北王病，召臣意診其脈，曰：「風蹶胸滿。」即為藥酒，盡三石，病已。得之汗出伏地。所以知濟北王病者，臣意切其脈時，風氣也，心脈濁。病法「過入其陽，陽氣盡而陰氣入」。陰氣入張，則寒氣上而熱氣下，故胸滿。汗出伏地",
       "paragraph_ids": [
         "c-shiji-105-bianque:p023",
         "c-shiji-105-bianque:p026",
@@ -116,7 +115,12 @@
       "book_id": "b-shiji-105",
       "chapter_id": "c-shiji-105-bianque",
       "source_id": "s-shiji-105-bianque",
-      "work_title": "史記"
+      "work_title": "史記",
+      "chapter_ref": "data/corpus/shiji/105.json",
+      "quote_span": [
+        0,
+        103
+      ]
     }
   ],
   "table_occurrences": [],
@@ -126,24 +130,7 @@
       "work_id": "w-shiji",
       "book_id": "b-shiji-105",
       "source_id": "s-shiji-105-bianque",
-      "source": {
-        "title": "史記／卷105",
-        "provider": "維基文庫",
-        "url": "https://zh.wikisource.org/wiki/史記/卷105",
-        "permalink": "https://zh.wikisource.org/w/index.php?title=史記/卷105&oldid=8842726",
-        "revision_id": 8842726,
-        "accessed_on": "2026-10-10",
-        "extent": "48段正文含太史公論與答詔醫案，1段索隱述贊及3段見證附載正義。",
-        "image_verified": false,
-        "rights": "古代原文；數位轉錄依維基文庫CC BY-SA 4.0，保留署名及固定版本。",
-        "license_url": "https://creativecommons.org/licenses/by-sa/4.0/",
-        "normalization": {
-          "character_conversion": {},
-          "editorial_readings": [],
-          "extraction_note": "去標題與介面模板，原字、標點及段落次序保留。",
-          "note": "未核底本影像。"
-        }
-      }
+      "chapter_ref": "data/corpus/shiji/105.json"
     }
   ],
   "relations": [],

@@ -20,7 +20,6 @@
       "raw_count": 2,
       "duplicate_count": 0,
       "counting_policy": "independent_fixed_witness_occurrences",
-      "quote": "子乘城，遣使約降於燕，燕軍皆呼萬歲。田單又收民金，得千溢，令即墨富豪遺燕將，曰：「即墨即降，願無虜掠吾族家妻妾，令安堵。」燕將大喜，許之。燕軍由此益懈。",
       "paragraph_ids": [
         "c-shiji-082-tiandan:p004"
       ],
@@ -53,7 +52,12 @@
       "book_id": "b-shiji-082",
       "chapter_id": "c-shiji-082-tiandan",
       "source_id": "s-shiji-082-tiandan",
-      "work_title": "史記"
+      "work_title": "史記",
+      "chapter_ref": "data/corpus/shiji/082.json",
+      "quote_span": [
+        47,
+        123
+      ]
     }
   ],
   "table_occurrences": [],
@@ -63,24 +67,7 @@
       "work_id": "w-shiji",
       "book_id": "b-shiji-082",
       "source_id": "s-shiji-082-tiandan",
-      "source": {
-        "title": "史記／卷082",
-        "provider": "維基文庫",
-        "url": "https://zh.wikisource.org/wiki/史記/卷082",
-        "permalink": "https://zh.wikisource.org/w/index.php?title=史記/卷082&oldid=2529471",
-        "revision_id": 2529471,
-        "accessed_on": "2026-10-09",
-        "extent": "9段正文，自田單者至王蠋敘事；包括太史公論後法章君王后及王蠋段，排除人物導覽。",
-        "image_verified": false,
-        "rights": "古代原文；數位轉錄依維基文庫CC BY-SA 4.0，保留署名及固定版本。",
-        "license_url": "https://creativecommons.org/licenses/by-sa/4.0/",
-        "normalization": {
-          "character_conversion": {},
-          "editorial_readings": [],
-          "extraction_note": "固定HTML與取得時版本一致，只去外緣空白；全部p按原序；原字與太史公論後兩段均按數位原序保存，不擅校。",
-          "note": "全9段正文、HTML篇界及姓名首輪已核讀；未核底本影像或現代研究。"
-        }
-      }
+      "chapter_ref": "data/corpus/shiji/082.json"
     }
   ],
   "relations": [],

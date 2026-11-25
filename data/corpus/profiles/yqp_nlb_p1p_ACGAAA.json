@@ -22,7 +22,7 @@
           "chapter_id": "c-shiji-058-liang",
           "source_id": "s-shiji-058-liang",
           "paragraph_id": "c-shiji-058-liang:p017",
-          "quote": "元朔中，睢陽人類犴反者，人有辱其父，而與淮陽太守客出同車。太守客出下車，類犴反殺其仇於車上而去。淮陽太守怒，以讓梁二千石。二千石以下求反甚急，執反親戚。反知國陰事，乃上變事，具告知王與大母爭樽狀。時丞相以下見知之，欲以傷梁長吏，其書聞天子。天子下吏驗問，有之。公卿請廢襄為庶人。天子曰：「李太后有淫行，而梁王襄無良師傅，故陷不義。」乃削梁八城，梟任王后首于市。梁餘尚有十城。襄立三十九年卒，謚為平王。子無傷立為梁王也。"
+          "quote_passage_ref": "data/corpus/shiji/058.json"
         }
       ],
       "attestations": [
@@ -46,8 +46,8 @@
               "chapter_id": "c-shiji-058-liang",
               "source_id": "s-shiji-058-liang",
               "paragraph_id": "c-shiji-058-liang:p017",
-              "quote": "元朔中，睢陽人類犴反者，人有辱其父，而與淮陽太守客出同車。太守客出下車，類犴反殺其仇於車上而去。淮陽太守怒，以讓梁二千石。二千石以下求反甚急，執反親戚。反知國陰事，乃上變事，具告知王與大母爭樽狀。時丞相以下見知之，欲以傷梁長吏，其書聞天子。天子下吏驗問，有之。公卿請廢襄為庶人。天子曰：「李太后有淫行，而梁王襄無良師傅，故陷不義。」乃削梁八城，梟任王后首于市。梁餘尚有十城。襄立三十九年卒，謚為平王。子無傷立為梁王也。",
-              "person_mention_id": "c-shiji-058-liang:m017-0201"
+              "person_mention_id": "c-shiji-058-liang:m017-0201",
+              "quote_passage_ref": "data/corpus/shiji/058.json"
             }
           ]
         },
@@ -70,8 +70,8 @@
             "chapter_id": "c-shiji-058-liang",
             "source_id": "s-shiji-058-liang",
             "paragraph_id": "c-shiji-058-liang:p017",
-            "quote": "元朔中，睢陽人類犴反者，人有辱其父，而與淮陽太守客出同車。太守客出下車，類犴反殺其仇於車上而去。淮陽太守怒，以讓梁二千石。二千石以下求反甚急，執反親戚。反知國陰事，乃上變事，具告知王與大母爭樽狀。時丞相以下見知之，欲以傷梁長吏，其書聞天子。天子下吏驗問，有之。公卿請廢襄為庶人。天子曰：「李太后有淫行，而梁王襄無良師傅，故陷不義。」乃削梁八城，梟任王后首于市。梁餘尚有十城。襄立三十九年卒，謚為平王。子無傷立為梁王也。",
-            "person_mention_id": "c-shiji-058-liang:m017-0201"
+            "person_mention_id": "c-shiji-058-liang:m017-0201",
+            "quote_passage_ref": "data/corpus/shiji/058.json"
           }
         ],
         "rationale": "本篇父王卒與子繼位相承，沿生前梁王記錄解析同國王位；諡名與生前授任分存，未知年不倒推。",
@@ -91,7 +91,6 @@
       "raw_count": 2,
       "duplicate_count": 0,
       "counting_policy": "independent_fixed_witness_occurrences",
-      "quote": "乃削梁八城，梟任王后首于市。梁餘尚有十城。襄立三十九年卒，謚為平王。子無傷立為梁王也。",
       "paragraph_ids": [
         "c-shiji-058-liang:p017"
       ],
@@ -124,7 +123,12 @@
       "book_id": "b-shiji-058",
       "chapter_id": "c-shiji-058-liang",
       "source_id": "s-shiji-058-liang",
-      "work_title": "史記"
+      "work_title": "史記",
+      "chapter_ref": "data/corpus/shiji/058.json",
+      "quote_span": [
+        166,
+        209
+      ]
     }
   ],
   "table_occurrences": [],
@@ -134,24 +138,7 @@
       "work_id": "w-shiji",
       "book_id": "b-shiji-058",
       "source_id": "s-shiji-058-liang",
-      "source": {
-        "title": "史記／卷058",
-        "provider": "維基文庫",
-        "url": "https://zh.wikisource.org/wiki/史記/卷058",
-        "permalink": "https://zh.wikisource.org/w/index.php?title=史記/卷058&oldid=8735555",
-        "revision_id": 8735555,
-        "accessed_on": "2026-10-09",
-        "extent": "22段篇文、4段褚先生附述及1段索隱述贊；現代欄題不當古文。",
-        "image_verified": false,
-        "rights": "古代原文；數位轉錄依維基文庫CC BY-SA 4.0，保留署名及固定版本。",
-        "license_url": "https://creativecommons.org/licenses/by-sa/4.0/",
-        "normalization": {
-          "character_conversion": {},
-          "editorial_readings": [],
-          "extraction_note": "取得時HTML與固定修訂一致，只去外緣空白；保留筑、然后、壹湌、適孫、齊如、應縣、削厲、霸昌廄、闚與旌旂等見證原字。末段依其前索隱述贊欄題分層，不補標籤入正文。",
-          "note": "全27段已核讀並作明示人物首輪；未核底本、影像或現代研究。"
-        }
-      }
+      "chapter_ref": "data/corpus/shiji/058.json"
     }
   ],
   "relations": [
@@ -166,7 +153,7 @@
           "chapter_id": "c-shiji-058-liang",
           "source_id": "s-shiji-058-liang",
           "paragraph_id": "c-shiji-058-liang:p017",
-          "quote": "元朔中，睢陽人類犴反者，人有辱其父，而與淮陽太守客出同車。太守客出下車，類犴反殺其仇於車上而去。淮陽太守怒，以讓梁二千石。二千石以下求反甚急，執反親戚。反知國陰事，乃上變事，具告知王與大母爭樽狀。時丞相以下見知之，欲以傷梁長吏，其書聞天子。天子下吏驗問，有之。公卿請廢襄為庶人。天子曰：「李太后有淫行，而梁王襄無良師傅，故陷不義。」乃削梁八城，梟任王后首于市。梁餘尚有十城。襄立三十九年卒，謚為平王。子無傷立為梁王也。"
+          "quote_passage_ref": "data/corpus/shiji/058.json"
         }
       ],
       "qualifiers": {
@@ -197,27 +184,27 @@
       "evidence": [
         {
           "paragraph_id": "c-shiji-058-liang:p013",
-          "quote": "梁孝王長子買為梁王，是為共王；子明為濟川王；子彭離為濟東王；子定為山陽王；子不識為濟陰王。",
           "chapter_id": "c-shiji-058-liang",
           "work_id": "w-shiji",
           "book_id": "b-shiji-058",
-          "source_id": "s-shiji-058-liang"
+          "source_id": "s-shiji-058-liang",
+          "quote_passage_ref": "data/corpus/shiji/058.json"
         },
         {
           "paragraph_id": "c-shiji-058-liang:p015",
-          "quote": "梁共王三年，景帝崩。共王立七年卒，子襄立，是為平王。",
           "chapter_id": "c-shiji-058-liang",
           "work_id": "w-shiji",
           "book_id": "b-shiji-058",
-          "source_id": "s-shiji-058-liang"
+          "source_id": "s-shiji-058-liang",
+          "quote_passage_ref": "data/corpus/shiji/058.json"
         },
         {
           "paragraph_id": "c-shiji-058-liang:p017",
-          "quote": "元朔中，睢陽人類犴反者，人有辱其父，而與淮陽太守客出同車。太守客出下車，類犴反殺其仇於車上而去。淮陽太守怒，以讓梁二千石。二千石以下求反甚急，執反親戚。反知國陰事，乃上變事，具告知王與大母爭樽狀。時丞相以下見知之，欲以傷梁長吏，其書聞天子。天子下吏驗問，有之。公卿請廢襄為庶人。天子曰：「李太后有淫行，而梁王襄無良師傅，故陷不義。」乃削梁八城，梟任王后首于市。梁餘尚有十城。襄立三十九年卒，謚為平王。子無傷立為梁王也。",
           "chapter_id": "c-shiji-058-liang",
           "work_id": "w-shiji",
           "book_id": "b-shiji-058",
-          "source_id": "s-shiji-058-liang"
+          "source_id": "s-shiji-058-liang",
+          "quote_passage_ref": "data/corpus/shiji/058.json"
         }
       ],
       "rationale": "長子買、子襄及子無傷按世系與繼立分辨；梁王爵號為各代承用，不當同人姓名。",
@@ -240,7 +227,7 @@
           "chapter_id": "c-shiji-058-liang",
           "source_id": "s-shiji-058-liang",
           "paragraph_id": "c-shiji-058-liang:p017",
-          "quote": "元朔中，睢陽人類犴反者，人有辱其父，而與淮陽太守客出同車。太守客出下車，類犴反殺其仇於車上而去。淮陽太守怒，以讓梁二千石。二千石以下求反甚急，執反親戚。反知國陰事，乃上變事，具告知王與大母爭樽狀。時丞相以下見知之，欲以傷梁長吏，其書聞天子。天子下吏驗問，有之。公卿請廢襄為庶人。天子曰：「李太后有淫行，而梁王襄無良師傅，故陷不義。」乃削梁八城，梟任王后首于市。梁餘尚有十城。襄立三十九年卒，謚為平王。子無傷立為梁王也。"
+          "quote_passage_ref": "data/corpus/shiji/058.json"
         }
       ],
       "qualifiers": {

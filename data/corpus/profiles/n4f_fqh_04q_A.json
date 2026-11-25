@@ -27,7 +27,7 @@
           "chapter_id": "c-shiji-034-yan",
           "source_id": "s-shiji-034-yan",
           "paragraph_id": "c-shiji-034-yan:p021",
-          "quote": "燕噲旣立，齊人殺蘇秦。蘇秦之在燕，與其相子之爲婚，而蘇代與子之交。及蘇秦死，而齊宣王復用蘇代。燕噲三年，與楚、三晉攻秦，不勝而還。子之相燕，貴重，主斷。蘇代爲齊使於燕，燕王問曰：「齊王奚如？」對曰：「必不霸。」燕王曰：「何也？」對曰：「不信其臣。」蘇代欲以激燕王以尊子之也。於是燕王大信子之。子之因遺蘇代百金，而聽其所使。"
+          "quote_passage_ref": "data/corpus/shiji/034.json"
         }
       ],
       "attestations": [
@@ -127,7 +127,7 @@
           "chapter_id": "c-shiji-069-su",
           "source_id": "s-shiji-069-su",
           "paragraph_id": "c-shiji-069-su:p044",
-          "quote": "齊宣王卒，湣王即位，說湣王厚葬以明孝，高宮室大苑囿以明得意，欲破敝齊而為燕。燕易王卒，燕噲立為王。其後齊大夫多與蘇秦爭寵者，而使人刺蘇秦，不死，殊而走。齊王使人求賊，不得。蘇秦且死，乃謂齊王曰：「臣即死，車裂臣以徇於市，曰『蘇秦為燕作亂於齊』，如此則臣之賊必得矣。」於是如其言，而殺蘇秦者果自出，齊王因而誅之。燕聞之曰：「甚矣，齊之為蘇生報仇也！」"
+          "quote_passage_ref": "data/corpus/shiji/069.json"
         }
       ],
       "attestations": [
@@ -151,7 +151,7 @@
               "chapter_id": "c-shiji-069-su",
               "source_id": "s-shiji-069-su",
               "paragraph_id": "c-shiji-069-su:p044",
-              "quote": "齊宣王卒，湣王即位，說湣王厚葬以明孝，高宮室大苑囿以明得意，欲破敝齊而為燕。燕易王卒，燕噲立為王。其後齊大夫多與蘇秦爭寵者，而使人刺蘇秦，不死，殊而走。齊王使人求賊，不得。蘇秦且死，乃謂齊王曰：「臣即死，車裂臣以徇於市，曰『蘇秦為燕作亂於齊』，如此則臣之賊必得矣。」於是如其言，而殺蘇秦者果自出，齊王因而誅之。燕聞之曰：「甚矣，齊之為蘇生報仇也！」"
+              "quote_passage_ref": "data/corpus/shiji/069.json"
             }
           ]
         },
@@ -177,7 +177,6 @@
       "raw_count": 12,
       "duplicate_count": 0,
       "counting_policy": "independent_fixed_witness_occurrences",
-      "quote": "與燕文公夫人私通，懼誅，乃説王使齊爲反閒，欲以亂齊。易王立十二年卒，子燕噲立。",
       "paragraph_ids": [
         "c-shiji-034-yan:p020",
         "c-shiji-034-yan:p021",
@@ -304,7 +303,12 @@
       "book_id": "b-shiji-034",
       "chapter_id": "c-shiji-034-yan",
       "source_id": "s-shiji-034-yan",
-      "work_title": "史記"
+      "work_title": "史記",
+      "chapter_ref": "data/corpus/shiji/034.json",
+      "quote_span": [
+        40,
+        79
+      ]
     },
     {
       "number": 69,
@@ -315,7 +319,6 @@
       "raw_count": 4,
       "duplicate_count": 0,
       "counting_policy": "independent_fixed_witness_occurrences",
-      "quote": "位，說湣王厚葬以明孝，高宮室大苑囿以明得意，欲破敝齊而為燕。燕易王卒，燕噲立為王。其後齊大夫多與蘇秦爭寵者，而使人刺蘇秦，不死，殊而走。齊王使人求賊，不得。蘇秦且死，乃謂齊王曰：「臣即死，車裂臣以徇於市，曰『蘇秦為燕作亂於齊』，如此則臣之賊必得矣。」於是如其言，而殺蘇秦者果",
       "paragraph_ids": [
         "c-shiji-069-su:p044",
         "c-shiji-069-su:p046"
@@ -367,7 +370,12 @@
       "book_id": "b-shiji-069",
       "chapter_id": "c-shiji-069-su",
       "source_id": "s-shiji-069-su",
-      "work_title": "史記"
+      "work_title": "史記",
+      "chapter_ref": "data/corpus/shiji/069.json",
+      "quote_span": [
+        8,
+        145
+      ]
     },
     {
       "number": 130,
@@ -378,7 +386,6 @@
       "raw_count": 1,
       "duplicate_count": 0,
       "counting_policy": "independent_fixed_witness_occurrences",
-      "quote": "而崩。成王既幼，管蔡疑之，淮夷叛之，於是召公率德，安集王室，以寧東土。燕噲之禪，乃成禍亂。嘉甘棠之詩，作燕世家第四。",
       "paragraph_ids": [
         "c-shiji-130-taishigong:p046"
       ],
@@ -402,7 +409,12 @@
       "book_id": "b-shiji-130",
       "chapter_id": "c-shiji-130-taishigong",
       "source_id": "s-shiji130-taishigong",
-      "work_title": "史記"
+      "work_title": "史記",
+      "chapter_ref": "data/corpus/shiji/130.json",
+      "quote_span": [
+        9,
+        67
+      ]
     }
   ],
   "table_occurrences": [
@@ -410,7 +422,6 @@
       "table_id": "shiji-015",
       "cell_id": "shiji-015-r157-c07",
       "title": "《史記·六國年表》",
-      "quote": "燕王噲元年",
       "year": {
         "era": "BCE",
         "value": 320,
@@ -433,13 +444,13 @@
       "book_id": "b-shiji-015",
       "chapter_id": "table-chapter-shiji-015",
       "source_id": "table-witness-shiji-015",
-      "source_revision": "2607002"
+      "source_revision": "2607002",
+      "quote_ref": "cell"
     },
     {
       "table_id": "shiji-015",
       "cell_id": "shiji-015-r163-c07",
       "title": "《史記·六國年表》",
-      "quote": "七。君噲及太子相子之皆死。",
       "year": {
         "era": "BCE",
         "value": 314,
@@ -462,7 +473,8 @@
       "book_id": "b-shiji-015",
       "chapter_id": "table-chapter-shiji-015",
       "source_id": "table-witness-shiji-015",
-      "source_revision": "2607002"
+      "source_revision": "2607002",
+      "quote_ref": "cell"
     }
   ],
   "sources": [
@@ -471,112 +483,28 @@
       "work_id": "w-shiji",
       "book_id": "b-shiji-034",
       "source_id": "s-shiji-034-yan",
-      "source": {
-        "title": "史記／卷034",
-        "provider": "維基文庫",
-        "url": "https://zh.wikisource.org/wiki/史記/卷034",
-        "permalink": "https://zh.wikisource.org/w/index.php?title=史記/卷034&oldid=2559287",
-        "revision_id": 2559287,
-        "accessed_on": "2026-10-09",
-        "extent": "正文35個p區塊，自召公奭與周同姓至太史公論贊；排除兩個dd導覽，未混入版權／介面文字。",
-        "image_verified": false,
-        "rights": "古代原文；數位轉錄依維基文庫CC BY-SA 4.0，保留署名及固定版本。",
-        "license_url": "https://creativecommons.org/licenses/by-sa/4.0/",
-        "normalization": {
-          "character_conversion": {
-            "为": "為",
-            "时": "時",
-            "与": "與",
-            "乐": "樂",
-            "骑": "騎",
-            "将": "將",
-            "赵": "趙",
-            "齐": "齊",
-            "单": "單",
-            "击": "擊",
-            "败": "敗",
-            "军": "軍",
-            "归": "歸",
-            "复": "復",
-            "闵": "閔",
-            "韩": "韓"
-          },
-          "editorial_readings": [],
-          "extraction_note": "固定版本與實讀HTML一致；第27段簡體及第28段韓字按明列字形轉換，保留爲、呉、説、歳、髙等異體與校勘括號。",
-          "note": "召王、笆棠、燕王噲死問孤等疑讀未由記憶訂正；第31、32、35段插改字及地名校勘符號保留待核。篇名頁不存在，實讀卷034頁；未核影像、底本或現代研究。"
-        }
-      }
+      "chapter_ref": "data/corpus/shiji/034.json"
     },
     {
       "chapter_id": "c-shiji-069-su",
       "work_id": "w-shiji",
       "book_id": "b-shiji-069",
       "source_id": "s-shiji-069-su",
-      "source": {
-        "title": "史記／卷069",
-        "provider": "維基文庫",
-        "url": "https://zh.wikisource.org/wiki/史記/卷069",
-        "permalink": "https://zh.wikisource.org/w/index.php?title=史記/卷069&oldid=2621145",
-        "revision_id": 2621145,
-        "accessed_on": "2026-10-09",
-        "extent": "67段正文，自蘇秦者至太史公論贊；排除ws-header弟名導覽與空段、後附索隱述贊及現代版權告示。",
-        "image_verified": false,
-        "rights": "古代原文；數位轉錄依維基文庫CC BY-SA 4.0，保留署名及固定版本。",
-        "license_url": "https://creativecommons.org/licenses/by-sa/4.0/",
-        "normalization": {
-          "character_conversion": {},
-          "editorial_readings": [],
-          "extraction_note": "取得時HTML與固定修訂一致，只去外緣空白。保留雒、衞、嘑、敎、㕹等原字及數位標點疑點，未按現代研究改寫時序。",
-          "note": "全67段已核讀，人物標註待逐段處理；未核底本、影像、出土縱橫家材料或現代研究。"
-        }
-      }
+      "chapter_ref": "data/corpus/shiji/069.json"
     },
     {
       "chapter_id": "c-shiji-130-taishigong",
       "work_id": "w-shiji",
       "book_id": "b-shiji-130",
       "source_id": "s-shiji130-taishigong",
-      "source": {
-        "title": "史記／卷130",
-        "provider": "維基文庫",
-        "url": "https://zh.wikisource.org/wiki/史記/卷130",
-        "permalink": "https://zh.wikisource.org/w/index.php?title=史記/卷130&oldid=2609362",
-        "revision_id": 2609362,
-        "accessed_on": "2026-10-11",
-        "extent": "固定修訂全文143段，全部篇文。",
-        "image_verified": false,
-        "rights": "古代原文；數位轉錄依維基文庫CC BY-SA 4.0，保留署名及固定版本。",
-        "license_url": "https://creativecommons.org/licenses/by-sa/4.0/",
-        "normalization": {
-          "character_conversion": {},
-          "editorial_readings": [],
-          "extraction_note": "去header2及現代節標，移除維基引文縮排冒號，保留原字，未核影像。",
-          "note": "全文入庫不等於全部提及已標註；目錄段落仍待逐段處理。"
-        }
-      }
+      "chapter_ref": "data/corpus/shiji/130.json"
     },
     {
       "chapter_id": "table-chapter-shiji-015",
       "work_id": "w-shiji",
       "book_id": "b-shiji-015",
       "source_id": "table-witness-shiji-015",
-      "source": {
-        "id": "table-witness-shiji-015",
-        "work_id": "w-shiji",
-        "book_id": "b-shiji-015",
-        "chapter_id": "table-chapter-shiji-015",
-        "url": "https://zh.wikisource.org/wiki/史記/卷015",
-        "revision_url": "https://zh.wikisource.org/w/index.php?title=史記/卷015&oldid=2607002",
-        "revision": "2607002",
-        "accessed": "2026-10-12",
-        "response_sha256": "eb0624a019e02c24ce90a40bfa24863f4020878062c6e2efea32355033be5559",
-        "edition": null,
-        "image_verified": false,
-        "rights": "古籍正文公有領域；維基文庫轉錄及編輯內容依 CC BY-SA 條款，署名維基文庫貢獻者。",
-        "rights_url": "https://zh.wikisource.org/wiki/Wikisource:版權信息",
-        "review_status": "agent_first_pass_named_entities",
-        "note": "完整數位表格結構匯入，未逐格學術覆核。未核讀印本影像，原印本頁碼未知。西元欄沿用此數位轉錄的編者對照，不是古籍原有西元紀年，也不引用其維基百科外連。"
-      }
+      "table_source_ref": "shiji-015"
     }
   ],
   "relations": [
@@ -591,7 +519,7 @@
           "chapter_id": "c-shiji-034-yan",
           "source_id": "s-shiji-034-yan",
           "paragraph_id": "c-shiji-034-yan:p020",
-          "quote": "易王初立，齊宣王因燕喪伐我，取十城；蘇秦説齊，使復歸燕十城。十年，燕君爲王。蘇秦與燕文公夫人私通，懼誅，乃説王使齊爲反閒，欲以亂齊。易王立十二年卒，子燕噲立。"
+          "quote_passage_ref": "data/corpus/shiji/034.json"
         }
       ],
       "qualifiers": {
@@ -623,7 +551,7 @@
           "chapter_id": "c-shiji-034-yan",
           "source_id": "s-shiji-034-yan",
           "paragraph_id": "c-shiji-034-yan:p020",
-          "quote": "易王初立，齊宣王因燕喪伐我，取十城；蘇秦説齊，使復歸燕十城。十年，燕君爲王。蘇秦與燕文公夫人私通，懼誅，乃説王使齊爲反閒，欲以亂齊。易王立十二年卒，子燕噲立。"
+          "quote_passage_ref": "data/corpus/shiji/034.json"
         }
       ],
       "qualifiers": {
@@ -647,8 +575,8 @@
           "chapter_id": "c-shiji-034-yan",
           "source_id": "s-shiji-034-yan",
           "paragraph_id": "c-shiji-034-yan:p023",
-          "quote": "三年，國大亂，百姓恫恐。將軍市被與太子平謀，將攻子之。諸將謂齊湣王曰：「因而赴之，破燕必矣。」齊王因令人謂燕太子平曰：「寡人聞太子之義，將廢私而立公，飭君臣之義，明父子之位。寡人之國小，不足以爲先後。雖然，則唯太子所以令之。」太子因要黨聚衆，將軍市被圍公宮，攻子之，不克。將軍市被及百姓反攻太子平，將軍市被死，以徇。因搆難數月，死者數萬，衆人恫恐，百姓離志。孟軻謂齊王曰：「今伐燕，此文、武之時，不可失也。」王因令章子將五都之兵，以因北地之衆以伐燕。士卒不戰，城門不閉，燕君噲死，齊大勝。燕子之亡二年，而燕人共立太子平，是爲燕昭王。",
-          "person_mention_id": "c-shiji-034-yan:m023-0235"
+          "person_mention_id": "c-shiji-034-yan:m023-0235",
+          "quote_passage_ref": "data/corpus/shiji/034.json"
         }
       ],
       "source_term": "燕君噲死",
@@ -668,8 +596,8 @@
           "chapter_id": "c-shiji-069-su",
           "source_id": "s-shiji-069-su",
           "paragraph_id": "c-shiji-069-su:p046",
-          "quote": "燕相子之與蘇代婚，而欲得燕權，乃使蘇代侍質子於齊。齊使代報燕，燕王噲問曰：「齊王其霸乎？」曰：「不能。」曰：「何也？」曰：「不信其臣。」於是燕王專任子之，已而讓位，燕大亂。齊伐燕，殺王噲、子之。燕立昭王，而蘇代、蘇厲遂不敢入燕，皆終歸齊，齊善待之。",
-          "person_mention_id": "c-shiji-069-su:m046-0091"
+          "person_mention_id": "c-shiji-069-su:m046-0091",
+          "quote_passage_ref": "data/corpus/shiji/069.json"
         }
       ],
       "interpretation_note": "保留本篇死亡原句、局部人物與敘事範圍；未換算日期，篇末時序附會提醒與王稱疑點須另核。",

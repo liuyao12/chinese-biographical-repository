@@ -1,3 +1,4 @@
+import {storedProfile} from './read-stored-profile.mjs';
 import test from 'node:test';
 import assert from 'node:assert/strict';
 import {readFileSync,readdirSync} from 'node:fs';
@@ -11,7 +12,7 @@ test('export and runtime API expose numeric year without NLU',()=>{
   const b=load('../exports/persons/'+fn);
   const dates=(b.date_normalizations||[]).filter(x=>x.calendar_context?.context_id.startsWith('cal-context-phase5-'));
   if(!dates.length)continue;
-  const p=load('../data/corpus/profiles/'+fn);
+  const p=storedProfile(load('../data/corpus/profiles/'+fn));
   assert.ok(p.dates.some(x=>x.calendar_context&&Number.isSafeInteger(x.year)));
   assert.ok(b.calendar_context_assertions.length);
   for(const d of dates){assert.ok([277,329].includes(d.year));assert.equal(civilYearLabelData({normalized_date:d}).params.year,d.year);assert.ok(d.original_quote);seen++;}
@@ -38,8 +39,8 @@ test('biography contexts expose five exact event years with local event quotes',
  const contexts=api.records.filter(x=>expected.has(x.id));assert.equal(contexts.length,5);
  for(const c of contexts){
   const year=expected.get(c.id);assert.equal(c.normalized_date.year,year);
-  const b=load('../exports/persons/'+c.event_binding.person_id+'.json');
-  const p=load('../data/corpus/profiles/'+c.event_binding.person_id+'.json');
+  const b=storedProfile(load('../exports/persons/'+c.event_binding.person_id+'.json'));
+  const p=storedProfile(load('../data/corpus/profiles/'+c.event_binding.person_id+'.json'));
   const d=b.date_normalizations.find(x=>x.calendar_context?.context_id===c.id);assert.ok(d);assert.equal(d.year,year);
   assert.equal(civilYearLabelData({normalized_date:d}).params.year,year);assert.equal(d.original_quote,c.full_paragraph);
   assert.ok(d.evidence.every(e=>e.paragraph_id===c.anchor.paragraph_id&&e.quote===c.full_paragraph));

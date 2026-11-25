@@ -22,7 +22,7 @@
           "chapter_id": "c-shiji-040-chu",
           "source_id": "s-shiji-040-chu",
           "paragraph_id": "c-shiji-040-chu:p001",
-          "quote": "楚之先祖出自帝顓頊髙陽。髙陽者，黃帝之孫，昌意之子也。髙陽生稱，稱生巻章，巻章生重黎。重黎爲帝嚳髙辛居火正，甚有功，能光融天下，帝嚳命曰祝融。共工氏作亂，帝嚳使重黎誅之而不盡。帝乃以庚寅日誅重黎，而以其弟呉回爲重黎後，復居火正，爲祝融。"
+          "quote_passage_ref": "data/corpus/shiji/040.json"
         }
       ],
       "attestations": [
@@ -46,7 +46,7 @@
               "chapter_id": "c-shiji-040-chu",
               "source_id": "s-shiji-040-chu",
               "paragraph_id": "c-shiji-040-chu:p001",
-              "quote": "楚之先祖出自帝顓頊髙陽。髙陽者，黃帝之孫，昌意之子也。髙陽生稱，稱生巻章，巻章生重黎。重黎爲帝嚳髙辛居火正，甚有功，能光融天下，帝嚳命曰祝融。共工氏作亂，帝嚳使重黎誅之而不盡。帝乃以庚寅日誅重黎，而以其弟呉回爲重黎後，復居火正，爲祝融。"
+              "quote_passage_ref": "data/corpus/shiji/040.json"
             }
           ]
         },
@@ -72,7 +72,7 @@
           "chapter_id": "c-shiji-040-chu",
           "source_id": "s-shiji-040-chu",
           "paragraph_id": "c-shiji-040-chu:p001",
-          "quote": "楚之先祖出自帝顓頊髙陽。髙陽者，黃帝之孫，昌意之子也。髙陽生稱，稱生巻章，巻章生重黎。重黎爲帝嚳髙辛居火正，甚有功，能光融天下，帝嚳命曰祝融。共工氏作亂，帝嚳使重黎誅之而不盡。帝乃以庚寅日誅重黎，而以其弟呉回爲重黎後，復居火正，爲祝融。"
+          "quote_passage_ref": "data/corpus/shiji/040.json"
         }
       ],
       "attestations": [
@@ -114,7 +114,6 @@
       "raw_count": 2,
       "duplicate_count": 0,
       "counting_policy": "independent_fixed_witness_occurrences",
-      "quote": "曰祝融。共工氏作亂，帝嚳使重黎誅之而不盡。帝乃以庚寅日誅重黎，而以其弟呉回爲重黎後，復居火正，爲祝融。",
       "paragraph_ids": [
         "c-shiji-040-chu:p001",
         "c-shiji-040-chu:p002"
@@ -148,7 +147,12 @@
       "book_id": "b-shiji-040",
       "chapter_id": "c-shiji-040-chu",
       "source_id": "s-shiji-040-chu",
-      "work_title": "史記"
+      "work_title": "史記",
+      "chapter_ref": "data/corpus/shiji/040.json",
+      "quote_span": [
+        67,
+        118
+      ]
     },
     {
       "number": 130,
@@ -159,7 +163,6 @@
       "raw_count": 1,
       "duplicate_count": 0,
       "counting_policy": "independent_fixed_witness_occurrences",
-      "quote": "重黎業之，吳回接之；殷之季世，粥子牒之。周用熊繹，熊渠是續。莊王之賢，乃復國陳；既赦鄭伯，班師華元。懷王客死，蘭咎屈原；好諛信讒，楚并於秦。嘉莊王之義，作楚世家第十。",
       "paragraph_ids": [
         "c-shiji-130-taishigong:p052"
       ],
@@ -183,7 +186,12 @@
       "book_id": "b-shiji-130",
       "chapter_id": "c-shiji-130-taishigong",
       "source_id": "s-shiji130-taishigong",
-      "work_title": "史記"
+      "work_title": "史記",
+      "chapter_ref": "data/corpus/shiji/130.json",
+      "quote_span": [
+        0,
+        83
+      ]
     }
   ],
   "table_occurrences": [],
@@ -193,50 +201,14 @@
       "work_id": "w-shiji",
       "book_id": "b-shiji-040",
       "source_id": "s-shiji-040-chu",
-      "source": {
-        "title": "史記／卷040",
-        "provider": "維基文庫",
-        "url": "https://zh.wikisource.org/wiki/史記/卷040",
-        "permalink": "https://zh.wikisource.org/w/index.php?title=史記/卷040&oldid=8736796",
-        "revision_id": 8736796,
-        "accessed_on": "2026-10-09",
-        "extent": "96段正文及1段分層索隱述贊；排除2個dd導覽，去除段落外緣空白。",
-        "image_verified": false,
-        "rights": "古代原文；數位轉錄依維基文庫CC BY-SA 4.0，保留署名及固定版本。",
-        "license_url": "https://creativecommons.org/licenses/by-sa/4.0/",
-        "normalization": {
-          "character_conversion": {
-            "笔": "筆"
-          },
-          "editorial_readings": [],
-          "extraction_note": "固定修訂與取得時HTML一致；僅去除段落外緣空白，古代異體及校勘括號保留。 第70段笔轉筆，未將「西取筆秦」疑句自行校讀。",
-          "note": "全97段數位正文已核讀，人物標註與可靠底本、影像覆核尚未完成；不把數位轉錄當版本校定。"
-        }
-      }
+      "chapter_ref": "data/corpus/shiji/040.json"
     },
     {
       "chapter_id": "c-shiji-130-taishigong",
       "work_id": "w-shiji",
       "book_id": "b-shiji-130",
       "source_id": "s-shiji130-taishigong",
-      "source": {
-        "title": "史記／卷130",
-        "provider": "維基文庫",
-        "url": "https://zh.wikisource.org/wiki/史記/卷130",
-        "permalink": "https://zh.wikisource.org/w/index.php?title=史記/卷130&oldid=2609362",
-        "revision_id": 2609362,
-        "accessed_on": "2026-10-11",
-        "extent": "固定修訂全文143段，全部篇文。",
-        "image_verified": false,
-        "rights": "古代原文；數位轉錄依維基文庫CC BY-SA 4.0，保留署名及固定版本。",
-        "license_url": "https://creativecommons.org/licenses/by-sa/4.0/",
-        "normalization": {
-          "character_conversion": {},
-          "editorial_readings": [],
-          "extraction_note": "去header2及現代節標，移除維基引文縮排冒號，保留原字，未核影像。",
-          "note": "全文入庫不等於全部提及已標註；目錄段落仍待逐段處理。"
-        }
-      }
+      "chapter_ref": "data/corpus/shiji/130.json"
     }
   ],
   "relations": [
@@ -251,7 +223,7 @@
           "chapter_id": "c-shiji-040-chu",
           "source_id": "s-shiji-040-chu",
           "paragraph_id": "c-shiji-040-chu:p001",
-          "quote": "楚之先祖出自帝顓頊髙陽。髙陽者，黃帝之孫，昌意之子也。髙陽生稱，稱生巻章，巻章生重黎。重黎爲帝嚳髙辛居火正，甚有功，能光融天下，帝嚳命曰祝融。共工氏作亂，帝嚳使重黎誅之而不盡。帝乃以庚寅日誅重黎，而以其弟呉回爲重黎後，復居火正，爲祝融。"
+          "quote_passage_ref": "data/corpus/shiji/040.json"
         }
       ],
       "qualifiers": {
@@ -272,7 +244,7 @@
           "chapter_id": "c-shiji-040-chu",
           "source_id": "s-shiji-040-chu",
           "paragraph_id": "c-shiji-040-chu:p002",
-          "quote": "呉回生陸終。陸終生子六人，坼剖而産焉。其長一曰昆吾；二曰參胡；三曰彭祖；四曰會人；五曰曹姓；六曰季連，羋姓，楚其後也。昆吾氏，夏之時嘗爲侯伯，桀之時湯滅之。彭祖氏，殷之時嘗爲侯伯，殷之末世滅彭祖氏。季連生附沮，附沮生穴熊。其後中微，或在中國，或在蠻夷，弗能紀其世。"
+          "quote_passage_ref": "data/corpus/shiji/040.json"
         }
       ],
       "qualifiers": {
@@ -306,7 +278,7 @@
           "chapter_id": "c-shiji-040-chu",
           "source_id": "s-shiji-040-chu",
           "paragraph_id": "c-shiji-040-chu:p001",
-          "quote": "楚之先祖出自帝顓頊髙陽。髙陽者，黃帝之孫，昌意之子也。髙陽生稱，稱生巻章，巻章生重黎。重黎爲帝嚳髙辛居火正，甚有功，能光融天下，帝嚳命曰祝融。共工氏作亂，帝嚳使重黎誅之而不盡。帝乃以庚寅日誅重黎，而以其弟呉回爲重黎後，復居火正，爲祝融。"
+          "quote_passage_ref": "data/corpus/shiji/040.json"
         }
       ],
       "qualifiers": {
@@ -327,7 +299,7 @@
           "chapter_id": "c-shiji-040-chu",
           "source_id": "s-shiji-040-chu",
           "paragraph_id": "c-shiji-040-chu:p002",
-          "quote": "呉回生陸終。陸終生子六人，坼剖而産焉。其長一曰昆吾；二曰參胡；三曰彭祖；四曰會人；五曰曹姓；六曰季連，羋姓，楚其後也。昆吾氏，夏之時嘗爲侯伯，桀之時湯滅之。彭祖氏，殷之時嘗爲侯伯，殷之末世滅彭祖氏。季連生附沮，附沮生穴熊。其後中微，或在中國，或在蠻夷，弗能紀其世。"
+          "quote_passage_ref": "data/corpus/shiji/040.json"
         }
       ],
       "qualifiers": {

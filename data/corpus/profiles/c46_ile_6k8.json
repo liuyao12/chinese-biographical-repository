@@ -25,8 +25,8 @@
           "source_id": "s-sanguozhi-015-wenhui",
           "chapter_id": "c-sanguozhi-015-wenhui",
           "paragraph_id": "c-sanguozhi-015-wenhui:p003",
-          "quote": "建安二十四年孫權攻合肥是時諸州皆屯戌恢謂兖州刺史裴潛曰此間雖有賊不足憂而畏征南方有變今水生而子孝縣軍無有遠備關羽驍銳乘利而進必將為患於是有樊城之事詔書召潛及豫州刺史吕貢等潛等緩之恢密語潛曰此必襄陽之急欲赴之也所以不為急㑹者不欲驚動遠衆一二日必有密書促卿進道張遼等又將被召遼等素知王意後召前至卿受其責矣潛受其言置輜重更為輕裝速發果被促令遼等尋各見召如恢所䇿",
-          "person_mention_id": "c-sanguozhi-015-wenhui:p003:m0024"
+          "person_mention_id": "c-sanguozhi-015-wenhui:p003:m0024",
+          "quote_passage_ref": "data/corpus/sanguozhi/015-wenhui.json"
         }
       ],
       "attestations": [
@@ -56,8 +56,8 @@
                 "source_id": "s-sanguozhi-015-wenhui",
                 "chapter_id": "c-sanguozhi-015-wenhui",
                 "paragraph_id": "c-sanguozhi-015-wenhui:p003",
-                "quote": "建安二十四年孫權攻合肥是時諸州皆屯戌恢謂兖州刺史裴潛曰此間雖有賊不足憂而畏征南方有變今水生而子孝縣軍無有遠備關羽驍銳乘利而進必將為患於是有樊城之事詔書召潛及豫州刺史吕貢等潛等緩之恢密語潛曰此必襄陽之急欲赴之也所以不為急㑹者不欲驚動遠衆一二日必有密書促卿進道張遼等又將被召遼等素知王意後召前至卿受其責矣潛受其言置輜重更為輕裝速發果被促令遼等尋各見召如恢所䇿",
-                "person_mention_id": "c-sanguozhi-015-wenhui:p003:m0024"
+                "person_mention_id": "c-sanguozhi-015-wenhui:p003:m0024",
+                "quote_passage_ref": "data/corpus/sanguozhi/015-wenhui.json"
               }
             ],
             "references": [
@@ -120,7 +120,6 @@
       "raw_count": 7,
       "duplicate_count": 0,
       "counting_policy": "independent_fixed_witness_occurrences",
-      "quote": "建安二十四年孫權攻合肥是時諸州皆屯戌恢謂兖州刺史裴潛曰此間雖有賊不足憂而畏征南方有變今水生而子孝縣軍無有遠備關羽驍銳乘利而進必將為患於是有樊城之事詔書召潛及豫州刺史吕貢等潛等緩之恢密語潛曰此必襄陽之急欲赴之也所以不為急㑹者不欲驚動遠衆一二日必有密書促卿",
       "paragraph_ids": [
         "c-sanguozhi-015-wenhui:p003"
       ],
@@ -198,7 +197,12 @@
       "book_id": "b-sanguozhi-015",
       "chapter_id": "c-sanguozhi-015-wenhui",
       "source_id": "s-sanguozhi-015-wenhui",
-      "work_title": "三國志"
+      "work_title": "三國志",
+      "chapter_ref": "data/corpus/sanguozhi/015-wenhui.json",
+      "quote_span": [
+        0,
+        126
+      ]
     }
   ],
   "table_occurrences": [],
@@ -208,28 +212,7 @@
       "work_id": "w-sanguozhi",
       "book_id": "b-sanguozhi-015",
       "source_id": "s-sanguozhi-015-wenhui",
-      "source": {
-        "title": "三國志魏書卷十五溫恢本傳及裴注",
-        "provider": "Kanripo",
-        "url": "https://raw.githubusercontent.com/kanripo/KR2a0012/214fcafa79894355909c9d8c2c1533089e7791c6/KR2a0012_015.txt",
-        "permalink": "https://raw.githubusercontent.com/kanripo/KR2a0012/214fcafa79894355909c9d8c2c1533089e7791c6/KR2a0012_015.txt",
-        "revision_id": "214fcafa79894355909c9d8c2c1533089e7791c6",
-        "source_commit": "214fcafa79894355909c9d8c2c1533089e7791c6",
-        "response_sha256": "31fbefa47ba1bb895430867835edcffe53e86f11bc05e235470306b8e85971ed",
-        "edition": "WYG數位轉錄，未核影像",
-        "accessed_on": "2026-10-22",
-        "extent": "固定raw338–363行，溫恢完整本傳及傳末孟建附述、魏畧裴注；364賈逵傳開始，不含前張既尾。",
-        "text_scope": "partial_chapter",
-        "review_status": "text_checked",
-        "image_verified": false,
-        "rights": "古代正文，保留Kanripo數位轉錄歸屬。",
-        "license_url": "https://www.kanripo.org/",
-        "normalization": {
-          "character_conversion": "none",
-          "extraction_note": "移除¶/換行/pb及逐行古注括號；正文/裴注分層，原字不改；raw_positions逐字投影。"
-        },
-        "quality_note": "非全卷匯入；WYG數位轉錄未圖校，異字不擅校。"
-      }
+      "chapter_ref": "data/corpus/sanguozhi/015-wenhui.json"
     }
   ],
   "relations": [],
@@ -254,8 +237,8 @@
           "source_id": "s-sanguozhi-015-wenhui",
           "chapter_id": "c-sanguozhi-015-wenhui",
           "paragraph_id": "c-sanguozhi-015-wenhui:p003",
-          "quote": "建安二十四年孫權攻合肥是時諸州皆屯戌恢謂兖州刺史裴潛曰此間雖有賊不足憂而畏征南方有變今水生而子孝縣軍無有遠備關羽驍銳乘利而進必將為患於是有樊城之事詔書召潛及豫州刺史吕貢等潛等緩之恢密語潛曰此必襄陽之急欲赴之也所以不為急㑹者不欲驚動遠衆一二日必有密書促卿進道張遼等又將被召遼等素知王意後召前至卿受其責矣潛受其言置輜重更為輕裝速發果被促令遼等尋各見召如恢所䇿",
-          "person_mention_id": "c-sanguozhi-015-wenhui:p003:m0024"
+          "person_mention_id": "c-sanguozhi-015-wenhui:p003:m0024",
+          "quote_passage_ref": "data/corpus/sanguozhi/015-wenhui.json"
         }
       ],
       "references": [

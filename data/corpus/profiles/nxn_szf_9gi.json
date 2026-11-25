@@ -27,7 +27,7 @@
           "chapter_id": "c-shiji-125-ningxing",
           "source_id": "s-shiji125-ningxing",
           "paragraph_id": "c-shiji-125-ningxing:p001",
-          "quote": "諺曰「力田不如逢年，善仕不如遇合」，固無虛言。非獨女以色媚，而士宦亦有之。昔以色幸者多矣。至漢興，高祖至暴抗也，然籍孺以佞幸；孝惠時有閎孺。此兩人非有材能，徒以婉佞貴幸，與上臥起，公卿皆因關說。故孝惠時郎侍中皆冠鵕䴊，貝帶，傅脂粉，化閎、籍之屬也。兩人徙家安陵。孝文時中寵臣，士人則鄧通，宦者則趙同、北宮伯子。北宮伯子以愛人長者；而趙同以星氣幸，常為文帝參乘；鄧通無伎能。"
+          "quote_passage_ref": "data/corpus/shiji/125.json"
         }
       ],
       "source_term": "兩人徙家安陵",
@@ -48,7 +48,6 @@
       "raw_count": 2,
       "duplicate_count": 0,
       "counting_policy": "independent_fixed_witness_occurrences",
-      "quote": "侯急，因使人欲見平原君。平原君辭曰：「獄急，不敢見君。」乃求見孝惠幸臣閎籍孺，說之曰：「君所以得幸帝，天下莫不聞。今辟陽侯幸太后而下吏，道路皆言君讒，欲殺之。今日辟陽侯誅，旦日太后含怒，亦誅君。何不肉袒為辟陽侯言於帝？帝聽君出辟陽侯，太后大驩。兩主共幸君，君貴富益倍矣。」於是",
       "paragraph_ids": [
         "c-shiji-097-luli:p018"
       ],
@@ -81,7 +80,12 @@
       "book_id": "b-shiji-097",
       "chapter_id": "c-shiji-097-luli",
       "source_id": "s-shiji-097-luli",
-      "work_title": "史記"
+      "work_title": "史記",
+      "chapter_ref": "data/corpus/shiji/097.json",
+      "quote_span": [
+        58,
+        196
+      ]
     },
     {
       "number": 125,
@@ -92,7 +96,6 @@
       "raw_count": 2,
       "duplicate_count": 0,
       "counting_policy": "independent_fixed_witness_occurrences",
-      "quote": "宦亦有之。昔以色幸者多矣。至漢興，高祖至暴抗也，然籍孺以佞幸；孝惠時有閎孺。此兩人非有材能，徒以婉佞貴幸，與上臥起，公卿皆因關說。故孝惠時郎侍中皆冠鵕䴊，貝帶，傅脂粉，化閎、籍之屬也。兩人徙家安陵。孝文時中寵臣，士人則鄧通，宦者則趙同、北宮伯子。北宮伯子以愛人長者；而趙同以",
       "paragraph_ids": [
         "c-shiji-125-ningxing:p001"
       ],
@@ -125,7 +128,12 @@
       "book_id": "b-shiji-125",
       "chapter_id": "c-shiji-125-ningxing",
       "source_id": "s-shiji125-ningxing",
-      "work_title": "史記"
+      "work_title": "史記",
+      "chapter_ref": "data/corpus/shiji/125.json",
+      "quote_span": [
+        32,
+        169
+      ]
     }
   ],
   "table_occurrences": [],
@@ -135,48 +143,14 @@
       "work_id": "w-shiji",
       "book_id": "b-shiji-097",
       "source_id": "s-shiji-097-luli",
-      "source": {
-        "title": "史記／卷097",
-        "provider": "維基文庫",
-        "url": "https://zh.wikisource.org/wiki/史記/卷097",
-        "permalink": "https://zh.wikisource.org/w/index.php?title=史記/卷097&oldid=1383195",
-        "revision_id": 1383195,
-        "accessed_on": "2026-10-09",
-        "extent": "24段傳世正文含太史公論，另附1段分層索隱述贊；排除導覽與空白。",
-        "image_verified": false,
-        "rights": "古代原文；數位轉錄依維基文庫CC BY-SA 4.0，保留署名及固定版本。",
-        "license_url": "https://creativecommons.org/licenses/by-sa/4.0/",
-        "normalization": {
-          "character_conversion": {},
-          "editorial_readings": [],
-          "extraction_note": "固定HTML一致，只去外緣空白；亨、尉他及尉佗等原字保留，前後陳留敘事分存。",
-          "note": "全27個HTML區塊已讀；無tooltip/reference/del/s，未核底本影像。"
-        }
-      }
+      "chapter_ref": "data/corpus/shiji/097.json"
     },
     {
       "chapter_id": "c-shiji-125-ningxing",
       "work_id": "w-shiji",
       "book_id": "b-shiji-125",
       "source_id": "s-shiji125-ningxing",
-      "source": {
-        "title": "史記／卷125",
-        "provider": "維基文庫",
-        "url": "https://zh.wikisource.org/wiki/史記/卷125",
-        "permalink": "https://zh.wikisource.org/w/index.php?title=史記/卷125&oldid=2273599",
-        "revision_id": 2273599,
-        "accessed_on": "2026-10-11",
-        "extent": "固定修訂全文5段，末段太史公論贊屬篇文。",
-        "image_verified": false,
-        "rights": "古代原文；數位轉錄依維基文庫CC BY-SA 4.0，保留署名及固定版本。",
-        "license_url": "https://creativecommons.org/licenses/by-sa/4.0/",
-        "normalization": {
-          "character_conversion": {},
-          "editorial_readings": [],
-          "extraction_note": "去header2與現代節標；移除字形選擇包裝而保留姦字，原字未轉換，未核影像。",
-          "note": "全篇收到正文，太史公論贊屬篇文。"
-        }
-      }
+      "chapter_ref": "data/corpus/shiji/125.json"
     }
   ],
   "relations": [],
@@ -222,7 +196,7 @@
       "evidence": [
         {
           "paragraph_id": "c-shiji-097-luli:p018",
-          "quote": "辟陽侯幸呂太后，人或毀辟陽侯於孝惠帝，孝惠帝大怒，下吏，欲誅之。呂太后慚，不可以言。大臣多害辟陽侯行，欲遂誅之。辟陽侯急，因使人欲見平原君。平原君辭曰：「獄急，不敢見君。」乃求見孝惠幸臣閎籍孺，說之曰：「君所以得幸帝，天下莫不聞。今辟陽侯幸太后而下吏，道路皆言君讒，欲殺之。今日辟陽侯誅，旦日太后含怒，亦誅君。何不肉袒為辟陽侯言於帝？帝聽君出辟陽侯，太后大驩。兩主共幸君，君貴富益倍矣。」於是閎籍孺大恐，從其計，言帝，果出辟陽侯。辟陽侯之囚，欲見平原君，平原君不見辟陽侯，辟陽侯以為倍己，大怒。及其成功出之，乃大驚。"
+          "quote_passage_ref": "data/corpus/shiji/097.json"
         }
       ],
       "rationale": "本篇明孝惠幸臣；佞幸篇區別高祖籍孺與孝惠閎孺，索隱明指閎籍孺混稱有誤。暫辨所指為閎孺，仍保本篇原字並另記首選校讀，不把閎籍孺當閎孺通用別名，不合籍孺。",
@@ -271,7 +245,7 @@
       "evidence": [
         {
           "paragraph_id": "c-shiji-097-luli:p018",
-          "quote": "辟陽侯幸呂太后，人或毀辟陽侯於孝惠帝，孝惠帝大怒，下吏，欲誅之。呂太后慚，不可以言。大臣多害辟陽侯行，欲遂誅之。辟陽侯急，因使人欲見平原君。平原君辭曰：「獄急，不敢見君。」乃求見孝惠幸臣閎籍孺，說之曰：「君所以得幸帝，天下莫不聞。今辟陽侯幸太后而下吏，道路皆言君讒，欲殺之。今日辟陽侯誅，旦日太后含怒，亦誅君。何不肉袒為辟陽侯言於帝？帝聽君出辟陽侯，太后大驩。兩主共幸君，君貴富益倍矣。」於是閎籍孺大恐，從其計，言帝，果出辟陽侯。辟陽侯之囚，欲見平原君，平原君不見辟陽侯，辟陽侯以為倍己，大怒。及其成功出之，乃大驚。"
+          "quote_passage_ref": "data/corpus/shiji/097.json"
         }
       ],
       "rationale": "本篇明孝惠幸臣；佞幸篇區別高祖籍孺與孝惠閎孺，索隱明指閎籍孺混稱有誤。暫辨所指為閎孺，仍保本篇原字並另記首選校讀，不把閎籍孺當閎孺通用別名，不合籍孺。",
@@ -322,21 +296,21 @@
           "chapter_id": "c-shiji-097-luli",
           "source_id": "s-shiji-097-luli",
           "paragraph_id": "c-shiji-097-luli:p018",
-          "quote": "辟陽侯幸呂太后，人或毀辟陽侯於孝惠帝，孝惠帝大怒，下吏，欲誅之。呂太后慚，不可以言。大臣多害辟陽侯行，欲遂誅之。辟陽侯急，因使人欲見平原君。平原君辭曰：「獄急，不敢見君。」乃求見孝惠幸臣閎籍孺，說之曰：「君所以得幸帝，天下莫不聞。今辟陽侯幸太后而下吏，道路皆言君讒，欲殺之。今日辟陽侯誅，旦日太后含怒，亦誅君。何不肉袒為辟陽侯言於帝？帝聽君出辟陽侯，太后大驩。兩主共幸君，君貴富益倍矣。」於是閎籍孺大恐，從其計，言帝，果出辟陽侯。辟陽侯之囚，欲見平原君，平原君不見辟陽侯，辟陽侯以為倍己，大怒。及其成功出之，乃大驚。",
           "mention_ids": [
             "c-shiji-097-luli:m018-0093",
             "c-shiji-097-luli:m018-0196"
-          ]
+          ],
+          "quote_passage_ref": "data/corpus/shiji/097.json"
         },
         {
           "chapter_id": "c-shiji-125-ningxing",
           "source_id": "s-shiji125-ningxing",
           "paragraph_id": "c-shiji-125-ningxing:p001",
-          "quote": "諺曰「力田不如逢年，善仕不如遇合」，固無虛言。非獨女以色媚，而士宦亦有之。昔以色幸者多矣。至漢興，高祖至暴抗也，然籍孺以佞幸；孝惠時有閎孺。此兩人非有材能，徒以婉佞貴幸，與上臥起，公卿皆因關說。故孝惠時郎侍中皆冠鵕䴊，貝帶，傅脂粉，化閎、籍之屬也。兩人徙家安陵。孝文時中寵臣，士人則鄧通，宦者則趙同、北宮伯子。北宮伯子以愛人長者；而趙同以星氣幸，常為文帝參乘；鄧通無伎能。",
           "mention_ids": [
             "c-shiji-125-ningxing:m001-0067",
             "c-shiji-125-ningxing:m001-0117"
-          ]
+          ],
+          "quote_passage_ref": "data/corpus/shiji/125.json"
         }
       ],
       "references": [

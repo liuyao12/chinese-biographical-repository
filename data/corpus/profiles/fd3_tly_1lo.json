@@ -22,8 +22,8 @@
           "chapter_id": "c-shiji-033-lu",
           "source_id": "s-shiji-033-lu",
           "paragraph_id": "c-shiji-033-lu:p018",
-          "quote": "幽公十四年，幽公弟沸殺幽公而自立，是爲魏公。",
-          "person_mention_id": "c-shiji-033-lu:m018-0019"
+          "person_mention_id": "c-shiji-033-lu:m018-0019",
+          "quote_passage_ref": "data/corpus/shiji/033.json"
         }
       ],
       "attestations": [
@@ -66,7 +66,6 @@
       "raw_count": 3,
       "duplicate_count": 0,
       "counting_policy": "independent_fixed_witness_occurrences",
-      "quote": "幽公十四年，幽公弟沸殺幽公而自立，是爲魏公。",
       "paragraph_ids": [
         "c-shiji-033-lu:p018",
         "c-shiji-033-lu:p019"
@@ -109,7 +108,12 @@
       "book_id": "b-shiji-033",
       "chapter_id": "c-shiji-033-lu",
       "source_id": "s-shiji-033-lu",
-      "work_title": "史記"
+      "work_title": "史記",
+      "chapter_ref": "data/corpus/shiji/033.json",
+      "quote_span": [
+        0,
+        22
+      ]
     }
   ],
   "table_occurrences": [
@@ -117,7 +121,6 @@
       "table_id": "shiji-013",
       "cell_id": "shiji-013-t3-r006-c01",
       "title": "《史記·三代世表》",
-      "quote": "魏公",
       "year": null,
       "mention": {
         "id": "shiji-013-t3-r006-c01-m000",
@@ -132,7 +135,8 @@
       "book_id": "b-shiji-013",
       "chapter_id": "table-chapter-shiji-013",
       "source_id": "table-witness-shiji-013",
-      "source_revision": "2606991"
+      "source_revision": "2606991",
+      "quote_ref": "cell"
     }
   ],
   "sources": [
@@ -141,52 +145,14 @@
       "work_id": "w-shiji",
       "book_id": "b-shiji-033",
       "source_id": "s-shiji-033-lu",
-      "source": {
-        "title": "史記／魯周公世家",
-        "provider": "維基文庫",
-        "url": "https://zh.wikisource.org/wiki/史記/魯周公世家",
-        "permalink": "https://zh.wikisource.org/w/index.php?title=史記/魯周公世家&oldid=7909289",
-        "revision_id": 7909289,
-        "accessed_on": "2026-10-09",
-        "extent": "正文102個p區塊，自周公旦者至太史公論贊；排除導覽dd、現代版權告示及轉向頁。",
-        "image_verified": false,
-        "rights": "古代原文；數位轉錄依維基文庫CC BY-SA 4.0，保留署名及固定版本。",
-        "license_url": "https://creativecommons.org/licenses/by-sa/4.0/",
-        "normalization": {
-          "character_conversion": {
-            "笔": "筆",
-            "鸮": "鴞",
-            "龂": "齗",
-            "龁": "齕"
-          },
-          "editorial_readings": [],
-          "extraction_note": "卷033頁為轉向（版本2180467），實讀目標魯周公世家版本7909289。保留矦、歬、髙、爲等異體及校勘符號。",
-          "note": "固定正文與實讀HTML一致。筆昔疑讀未改作其他字；真公記事接武公九年，未補中間文字或武公名。全102段首輪，未核影像、底本及現代研究。"
-        }
-      }
+      "chapter_ref": "data/corpus/shiji/033.json"
     },
     {
       "chapter_id": "table-chapter-shiji-013",
       "work_id": "w-shiji",
       "book_id": "b-shiji-013",
       "source_id": "table-witness-shiji-013",
-      "source": {
-        "id": "table-witness-shiji-013",
-        "work_id": "w-shiji",
-        "book_id": "b-shiji-013",
-        "chapter_id": "table-chapter-shiji-013",
-        "url": "https://zh.wikisource.org/wiki/史記/卷013",
-        "revision_url": "https://zh.wikisource.org/w/index.php?title=史記/卷013&oldid=2606991",
-        "revision": "2606991",
-        "accessed": "2026-10-13",
-        "response_sha256": "8c98c072f11fc224a605f6b8f4dfc77be5f87bad792d32c0a2a720914638d7c3",
-        "edition": null,
-        "image_verified": false,
-        "rights": "古籍正文公有領域；維基文庫數位轉錄依CC BY-SA，保留貢獻者署名。",
-        "rights_url": "https://zh.wikisource.org/wiki/Wikisource:版權信息",
-        "review_status": "partial_named_entity_review",
-        "note": "各組表保留原欄題、原文、空格及合欄，不推不同欄題的接續。西元欄為數位編者增補；未明年份留空，不推世系曆年。未核底本影像，人物標註仍待逐處覆核。"
-      }
+      "table_source_ref": "shiji-013"
     }
   ],
   "relations": [
@@ -201,7 +167,7 @@
           "chapter_id": "c-shiji-033-lu",
           "source_id": "s-shiji-033-lu",
           "paragraph_id": "c-shiji-033-lu:p018",
-          "quote": "幽公十四年，幽公弟沸殺幽公而自立，是爲魏公。"
+          "quote_passage_ref": "data/corpus/shiji/033.json"
         }
       ],
       "qualifiers": {
@@ -233,7 +199,7 @@
           "chapter_id": "c-shiji-033-lu",
           "source_id": "s-shiji-033-lu",
           "paragraph_id": "c-shiji-033-lu:p019",
-          "quote": "魏公五十年卒，子厲公擢立。"
+          "quote_passage_ref": "data/corpus/shiji/033.json"
         }
       ],
       "qualifiers": {
@@ -266,7 +232,7 @@
           "chapter_id": "c-shiji-033-lu",
           "source_id": "s-shiji-033-lu",
           "paragraph_id": "c-shiji-033-lu:p018",
-          "quote": "幽公十四年，幽公弟沸殺幽公而自立，是爲魏公。"
+          "quote_passage_ref": "data/corpus/shiji/033.json"
         }
       ],
       "qualifiers": {
@@ -298,7 +264,7 @@
           "chapter_id": "c-shiji-033-lu",
           "source_id": "s-shiji-033-lu",
           "paragraph_id": "c-shiji-033-lu:p019",
-          "quote": "魏公五十年卒，子厲公擢立。"
+          "quote_passage_ref": "data/corpus/shiji/033.json"
         }
       ],
       "qualifiers": {
@@ -322,8 +288,8 @@
           "chapter_id": "c-shiji-033-lu",
           "source_id": "s-shiji-033-lu",
           "paragraph_id": "c-shiji-033-lu:p019",
-          "quote": "魏公五十年卒，子厲公擢立。",
-          "person_mention_id": "c-shiji-033-lu:m019-0000"
+          "person_mention_id": "c-shiji-033-lu:m019-0000",
+          "quote_passage_ref": "data/corpus/shiji/033.json"
         }
       ],
       "source_term": "魏公五十年卒",

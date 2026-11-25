@@ -20,7 +20,6 @@
       "raw_count": 2,
       "duplicate_count": 0,
       "counting_policy": "independent_fixed_witness_occurrences",
-      "quote": "吳楚反，聞，鼂錯謂丞史曰：「夫袁盎多受吳王金錢，專為蔽匿，言不反。今果反，欲請治盎宜知計謀。」丞史曰：「事未發，治之有絕。今兵西鄉，治之何益！且袁盎不宜有謀。」鼂錯猶與未決。人有告袁盎者，袁盎恐，夜見竇嬰，為言吳所以反者，",
       "paragraph_ids": [
         "c-shiji-101-yuanchao:p012"
       ],
@@ -53,7 +52,12 @@
       "book_id": "b-shiji-101",
       "chapter_id": "c-shiji-101-yuanchao",
       "source_id": "s-shiji-101-yuanchao",
-      "work_title": "史記"
+      "work_title": "史記",
+      "chapter_ref": "data/corpus/shiji/101.json",
+      "quote_span": [
+        0,
+        111
+      ]
     }
   ],
   "table_occurrences": [],
@@ -63,24 +67,7 @@
       "work_id": "w-shiji",
       "book_id": "b-shiji-101",
       "source_id": "s-shiji-101-yuanchao",
-      "source": {
-        "title": "史記／卷101",
-        "provider": "維基文庫",
-        "url": "https://zh.wikisource.org/wiki/史記/卷101",
-        "permalink": "https://zh.wikisource.org/w/index.php?title=史記/卷101&oldid=368092",
-        "revision_id": 368092,
-        "accessed_on": "2026-10-10",
-        "extent": "22段正文含太史公論，另附1段索隱；首區塊即正文。",
-        "image_verified": false,
-        "rights": "古代原文；數位轉錄依維基文庫CC BY-SA 4.0，保留署名及固定版本。",
-        "license_url": "https://creativecommons.org/licenses/by-sa/4.0/",
-        "normalization": {
-          "character_conversion": {},
-          "editorial_readings": [],
-          "extraction_note": "只去外緣空白；鼂、陗、鬬、擥、棓、諠及（嘗）、（直）隧［直］等原字與見證符號保留。",
-          "note": "全23段已核讀；無tooltip、reference、del、s0或sup；未核底本影像。"
-        }
-      }
+      "chapter_ref": "data/corpus/shiji/101.json"
     }
   ],
   "relations": [],

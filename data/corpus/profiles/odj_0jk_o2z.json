@@ -22,7 +22,7 @@
           "chapter_id": "c-shiji-003-yin",
           "source_id": "s-shiji-003-yin",
           "paragraph_id": "c-shiji-003-yin:p011",
-          "quote": "湯崩，太子太丁未立而卒，於是迺立太丁之弟外丙，是為帝外丙。帝外丙即位三年，崩，立外丙之弟中壬，是為帝中壬。帝中壬即位四年，崩，伊尹迺立太丁之子太甲。太甲，成湯適長孫也，是為帝太甲。帝太甲元年，伊尹作伊訓，作肆命，作徂后。"
+          "quote_passage_ref": "data/corpus/shiji/003.json"
         }
       ],
       "attestations": [
@@ -47,7 +47,7 @@
               "chapter_id": "c-shiji-003-yin",
               "source_id": "s-shiji-003-yin",
               "paragraph_id": "c-shiji-003-yin:p011",
-              "quote": "湯崩，太子太丁未立而卒，於是迺立太丁之弟外丙，是為帝外丙。帝外丙即位三年，崩，立外丙之弟中壬，是為帝中壬。帝中壬即位四年，崩，伊尹迺立太丁之子太甲。太甲，成湯適長孫也，是為帝太甲。帝太甲元年，伊尹作伊訓，作肆命，作徂后。"
+              "quote_passage_ref": "data/corpus/shiji/003.json"
             }
           ]
         },
@@ -73,7 +73,6 @@
       "raw_count": 4,
       "duplicate_count": 0,
       "counting_policy": "independent_fixed_witness_occurrences",
-      "quote": "湯崩，太子太丁未立而卒，於是迺立太丁之弟外丙，是為帝外丙。帝外丙即位三年，崩，立外丙之弟中壬，是為帝中壬。帝中壬即位四年，崩，伊尹迺立太丁之子太甲。太甲，成湯適長孫也，是為帝太甲。帝太甲元年，伊尹作伊訓，作肆命，作徂后。",
       "paragraph_ids": [
         "c-shiji-003-yin:p011"
       ],
@@ -124,7 +123,12 @@
       "book_id": "b-shiji-003",
       "chapter_id": "c-shiji-003-yin",
       "source_id": "s-shiji-003-yin",
-      "work_title": "史記"
+      "work_title": "史記",
+      "chapter_ref": "data/corpus/shiji/003.json",
+      "quote_span": [
+        0,
+        110
+      ]
     }
   ],
   "table_occurrences": [
@@ -132,7 +136,6 @@
       "table_id": "shiji-013",
       "cell_id": "shiji-013-t2-r001-c00",
       "title": "《史記·三代世表》",
-      "quote": "帝外丙，湯太子。太丁蚤卒，故立次弟外丙。",
       "year": null,
       "mention": {
         "id": "shiji-013-t2-r001-c00-m000",
@@ -147,13 +150,13 @@
       "book_id": "b-shiji-013",
       "chapter_id": "table-chapter-shiji-013",
       "source_id": "table-witness-shiji-013",
-      "source_revision": "2606991"
+      "source_revision": "2606991",
+      "quote_ref": "cell"
     },
     {
       "table_id": "shiji-013",
       "cell_id": "shiji-013-t2-r001-c00",
       "title": "《史記·三代世表》",
-      "quote": "帝外丙，湯太子。太丁蚤卒，故立次弟外丙。",
       "year": null,
       "mention": {
         "id": "shiji-013-t2-r001-c00-m003",
@@ -168,13 +171,13 @@
       "book_id": "b-shiji-013",
       "chapter_id": "table-chapter-shiji-013",
       "source_id": "table-witness-shiji-013",
-      "source_revision": "2606991"
+      "source_revision": "2606991",
+      "quote_ref": "cell"
     },
     {
       "table_id": "shiji-013",
       "cell_id": "shiji-013-t2-r002-c00",
       "title": "《史記·三代世表》",
-      "quote": "帝仲壬，外丙弟。",
       "year": null,
       "mention": {
         "id": "shiji-013-t2-r002-c00-m001",
@@ -189,7 +192,8 @@
       "book_id": "b-shiji-013",
       "chapter_id": "table-chapter-shiji-013",
       "source_id": "table-witness-shiji-013",
-      "source_revision": "2606991"
+      "source_revision": "2606991",
+      "quote_ref": "cell"
     }
   ],
   "sources": [
@@ -198,47 +202,14 @@
       "work_id": "w-shiji",
       "book_id": "b-shiji-003",
       "source_id": "s-shiji-003-yin",
-      "source": {
-        "title": "史記／卷003",
-        "provider": "維基文庫",
-        "url": "https://zh.wikisource.org/wiki/史記/卷003",
-        "permalink": "https://zh.wikisource.org/w/index.php?title=史記/卷003&oldid=7909145",
-        "revision_id": 7909145,
-        "accessed_on": "2026-10-09",
-        "extent": "正文全文；不含現代章節標題與註號。",
-        "image_verified": false,
-        "rights": "古代原文；數位轉錄依維基文庫 CC BY-SA 4.0，保留署名及固定版本。",
-        "license_url": "https://creativecommons.org/licenses/by-sa/4.0/",
-        "normalization": {
-          "character_conversion": {
-            "弃": "棄"
-          },
-          "note": "只轉換棄字字形；保留中𤳹、筑、犇等來源字形，移除現代註號。"
-        }
-      }
+      "chapter_ref": "data/corpus/shiji/003.json"
     },
     {
       "chapter_id": "table-chapter-shiji-013",
       "work_id": "w-shiji",
       "book_id": "b-shiji-013",
       "source_id": "table-witness-shiji-013",
-      "source": {
-        "id": "table-witness-shiji-013",
-        "work_id": "w-shiji",
-        "book_id": "b-shiji-013",
-        "chapter_id": "table-chapter-shiji-013",
-        "url": "https://zh.wikisource.org/wiki/史記/卷013",
-        "revision_url": "https://zh.wikisource.org/w/index.php?title=史記/卷013&oldid=2606991",
-        "revision": "2606991",
-        "accessed": "2026-10-13",
-        "response_sha256": "8c98c072f11fc224a605f6b8f4dfc77be5f87bad792d32c0a2a720914638d7c3",
-        "edition": null,
-        "image_verified": false,
-        "rights": "古籍正文公有領域；維基文庫數位轉錄依CC BY-SA，保留貢獻者署名。",
-        "rights_url": "https://zh.wikisource.org/wiki/Wikisource:版權信息",
-        "review_status": "partial_named_entity_review",
-        "note": "各組表保留原欄題、原文、空格及合欄，不推不同欄題的接續。西元欄為數位編者增補；未明年份留空，不推世系曆年。未核底本影像，人物標註仍待逐處覆核。"
-      }
+      "table_source_ref": "shiji-013"
     }
   ],
   "relations": [
@@ -396,8 +367,8 @@
           "chapter_id": "c-shiji-003-yin",
           "source_id": "s-shiji-003-yin",
           "paragraph_id": "c-shiji-003-yin:p011",
-          "quote": "湯崩，太子太丁未立而卒，於是迺立太丁之弟外丙，是為帝外丙。帝外丙即位三年，崩，立外丙之弟中壬，是為帝中壬。帝中壬即位四年，崩，伊尹迺立太丁之子太甲。太甲，成湯適長孫也，是為帝太甲。帝太甲元年，伊尹作伊訓，作肆命，作徂后。",
-          "person_mention_id": "c-shiji-003-yin:m011-0025"
+          "person_mention_id": "c-shiji-003-yin:m011-0025",
+          "quote_passage_ref": "data/corpus/shiji/003.json"
         }
       ],
       "source_term": "帝外丙即位三年，崩",

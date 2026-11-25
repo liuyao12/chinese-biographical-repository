@@ -27,7 +27,7 @@
           "chapter_id": "c-shiji-052-qidaohui",
           "source_id": "s-shiji-052-qidaohui",
           "paragraph_id": "c-shiji-052-qidaohui:p024",
-          "quote": "後一歲，孝文帝以所封悼惠王子分齊為王，齊孝王將閭以悼惠王子楊虛侯為齊王。故齊別郡盡以王悼惠王子：子志為濟北王，子辟光為濟南王，子賢為菑川王，子卬為膠西王，子雄渠為膠東王，與城陽、齊凡七王。"
+          "quote_passage_ref": "data/corpus/shiji/052.json"
         }
       ],
       "attestations": [
@@ -51,7 +51,7 @@
               "chapter_id": "c-shiji-052-qidaohui",
               "source_id": "s-shiji-052-qidaohui",
               "paragraph_id": "c-shiji-052-qidaohui:p024",
-              "quote": "後一歲，孝文帝以所封悼惠王子分齊為王，齊孝王將閭以悼惠王子楊虛侯為齊王。故齊別郡盡以王悼惠王子：子志為濟北王，子辟光為濟南王，子賢為菑川王，子卬為膠西王，子雄渠為膠東王，與城陽、齊凡七王。"
+              "quote_passage_ref": "data/corpus/shiji/052.json"
             }
           ]
         },
@@ -77,7 +77,7 @@
           "chapter_id": "c-shiji-052-qidaohui",
           "source_id": "s-shiji-052-qidaohui",
           "paragraph_id": "c-shiji-052-qidaohui:p042",
-          "quote": "膠西王卬，齊悼惠王子，以昌平侯文帝十六年為膠西王。十一年，與吳楚反。漢擊破，殺卬，地入于漢，為膠西郡。"
+          "quote_passage_ref": "data/corpus/shiji/052.json"
         }
       ],
       "attestations": [
@@ -106,8 +106,8 @@
               "chapter_id": "c-shiji-052-qidaohui",
               "source_id": "s-shiji-052-qidaohui",
               "paragraph_id": "c-shiji-052-qidaohui:p042",
-              "quote": "膠西王卬，齊悼惠王子，以昌平侯文帝十六年為膠西王。十一年，與吳楚反。漢擊破，殺卬，地入于漢，為膠西郡。",
-              "person_mention_id": "c-shiji-052-qidaohui:m042-0000"
+              "person_mention_id": "c-shiji-052-qidaohui:m042-0000",
+              "quote_passage_ref": "data/corpus/shiji/052.json"
             }
           ]
         }
@@ -128,7 +128,7 @@
           "chapter_id": "c-shiji-052-qidaohui",
           "source_id": "s-shiji-052-qidaohui",
           "paragraph_id": "c-shiji-052-qidaohui:p042",
-          "quote": "膠西王卬，齊悼惠王子，以昌平侯文帝十六年為膠西王。十一年，與吳楚反。漢擊破，殺卬，地入于漢，為膠西郡。"
+          "quote_passage_ref": "data/corpus/shiji/052.json"
         }
       ],
       "attestations": [
@@ -152,7 +152,7 @@
               "chapter_id": "c-shiji-052-qidaohui",
               "source_id": "s-shiji-052-qidaohui",
               "paragraph_id": "c-shiji-052-qidaohui:p042",
-              "quote": "膠西王卬，齊悼惠王子，以昌平侯文帝十六年為膠西王。十一年，與吳楚反。漢擊破，殺卬，地入于漢，為膠西郡。"
+              "quote_passage_ref": "data/corpus/shiji/052.json"
             }
           ],
           "normalized_date": {
@@ -168,7 +168,7 @@
                 "chapter_id": "c-shiji-052-qidaohui",
                 "source_id": "s-shiji-052-qidaohui",
                 "paragraph_id": "c-shiji-052-qidaohui:p042",
-                "quote": "膠西王卬，齊悼惠王子，以昌平侯文帝十六年為膠西王。十一年，與吳楚反。漢擊破，殺卬，地入于漢，為膠西郡。"
+                "quote_passage_ref": "data/corpus/shiji/052.json"
               }
             ],
             "references": [
@@ -207,7 +207,6 @@
       "raw_count": 1,
       "duplicate_count": 0,
       "counting_policy": "independent_fixed_witness_occurrences",
-      "quote": "，赦天下。長星出西方。天火燔雒陽東宮大殿城室。吳王濞、楚王戊、趙王遂、膠西王卬、濟南王辟光、菑川王賢、膠東王雄渠反，發兵西鄉。天子為誅晁錯，遣袁盎諭告，不止，遂西圍梁。上乃遣大將軍竇嬰、太尉周亞夫將兵誅之。六月乙亥。赦亡軍及楚元王子藝等與謀反者。封大將軍竇嬰為魏其侯。立楚元王子",
       "paragraph_ids": [
         "c-shiji-011-jingdi:p004"
       ],
@@ -231,7 +230,12 @@
       "book_id": "b-shiji-011",
       "chapter_id": "c-shiji-011-jingdi",
       "source_id": "s-shiji-011-jingdi",
-      "work_title": "史記"
+      "work_title": "史記",
+      "chapter_ref": "data/corpus/shiji/011.json",
+      "quote_span": [
+        6,
+        145
+      ]
     },
     {
       "number": 52,
@@ -242,7 +246,6 @@
       "raw_count": 3,
       "duplicate_count": 0,
       "counting_policy": "independent_fixed_witness_occurrences",
-      "quote": "故齊別郡盡以王悼惠王子：子志為濟北王，子辟光為濟南王，子賢為菑川王，子卬為膠西王，子雄渠為膠東王，與城陽、齊凡七王。",
       "paragraph_ids": [
         "c-shiji-052-qidaohui:p024",
         "c-shiji-052-qidaohui:p042"
@@ -285,7 +288,12 @@
       "book_id": "b-shiji-052",
       "chapter_id": "c-shiji-052-qidaohui",
       "source_id": "s-shiji-052-qidaohui",
-      "work_title": "史記"
+      "work_title": "史記",
+      "chapter_ref": "data/corpus/shiji/052.json",
+      "quote_span": [
+        36,
+        94
+      ]
     },
     {
       "number": 106,
@@ -296,7 +304,6 @@
       "raw_count": 23,
       "duplicate_count": 0,
       "counting_policy": "independent_fixed_witness_occurrences",
-      "quote": "赦，罰削東海郡。因削吳之豫章郡、會稽郡。及前二年趙王有罪，削其河閒郡。膠西王卬以賣爵有姦，削其六縣。",
       "paragraph_ids": [
         "c-shiji-106-wuwang:p004",
         "c-shiji-106-wuwang:p005",
@@ -523,7 +530,12 @@
       "book_id": "b-shiji-106",
       "chapter_id": "c-shiji-106-wuwang",
       "source_id": "s-shiji-106-wuwang",
-      "work_title": "史記"
+      "work_title": "史記",
+      "chapter_ref": "data/corpus/shiji/106.json",
+      "quote_span": [
+        263,
+        313
+      ]
     }
   ],
   "table_occurrences": [
@@ -531,7 +543,6 @@
       "table_id": "shiji-017",
       "cell_id": "shiji-017-t1-r043-c10",
       "title": "《史記·漢興以來諸侯王年表》",
-      "quote": "四月丙寅，初王卬元年。齊悼惠王子，故平昌侯。",
       "year": {
         "era": "BCE",
         "value": 164,
@@ -557,8 +568,8 @@
             "source_id": "s-shiji-052-qidaohui",
             "paragraph_id": "c-shiji-052-qidaohui:p024",
             "person_id": "yqp_nlb_p1p_ABB",
-            "quote": "後一歲，孝文帝以所封悼惠王子分齊為王，齊孝王將閭以悼惠王子楊虛侯為齊王。故齊別郡盡以王悼惠王子：子志為濟北王，子辟光為濟南王，子賢為菑川王，子卬為膠西王，子雄渠為膠東王，與城陽、齊凡七王。",
-            "source_revision": 5977113
+            "source_revision": 5977113,
+            "quote_passage_ref": "data/corpus/shiji/052.json"
           }
         ]
       },
@@ -566,13 +577,13 @@
       "book_id": "b-shiji-017",
       "chapter_id": "table-chapter-shiji-017",
       "source_id": "table-witness-shiji-017",
-      "source_revision": "2607010"
+      "source_revision": "2607010",
+      "quote_ref": "cell"
     },
     {
       "table_id": "shiji-017",
       "cell_id": "shiji-017-t1-r043-c10",
       "title": "《史記·漢興以來諸侯王年表》",
-      "quote": "四月丙寅，初王卬元年。齊悼惠王子，故平昌侯。",
       "year": {
         "era": "BCE",
         "value": 164,
@@ -598,8 +609,8 @@
             "source_id": "s-shiji-052-qidaohui",
             "paragraph_id": "c-shiji-052-qidaohui:p024",
             "person_id": "yqp_nlb_p1p_ABB",
-            "quote": "後一歲，孝文帝以所封悼惠王子分齊為王，齊孝王將閭以悼惠王子楊虛侯為齊王。故齊別郡盡以王悼惠王子：子志為濟北王，子辟光為濟南王，子賢為菑川王，子卬為膠西王，子雄渠為膠東王，與城陽、齊凡七王。",
-            "source_revision": 5977113
+            "source_revision": 5977113,
+            "quote_passage_ref": "data/corpus/shiji/052.json"
           }
         ]
       },
@@ -607,7 +618,8 @@
       "book_id": "b-shiji-017",
       "chapter_id": "table-chapter-shiji-017",
       "source_id": "table-witness-shiji-017",
-      "source_revision": "2607010"
+      "source_revision": "2607010",
+      "quote_ref": "cell"
     }
   ],
   "sources": [
@@ -616,95 +628,28 @@
       "work_id": "w-shiji",
       "book_id": "b-shiji-011",
       "source_id": "s-shiji-011-jingdi",
-      "source": {
-        "title": "史記／卷011",
-        "provider": "維基文庫",
-        "url": "https://zh.wikisource.org/wiki/史記/卷011",
-        "permalink": "https://zh.wikisource.org/w/index.php?title=史記/卷011&oldid=2520527",
-        "revision_id": 2520527,
-        "accessed_on": "2026-10-09",
-        "extent": "本篇18個p區塊，自孝景皇帝者至太史公論贊；排除跨站導覽dd、索隱述贊及其後現代版權告示。",
-        "image_verified": false,
-        "rights": "古代原文；數位轉錄依維基文庫CC BY-SA 4.0，保留署名及固定版本。",
-        "license_url": "https://creativecommons.org/licenses/by-sa/4.0/",
-        "normalization": {
-          "character_conversion": {},
-          "editorial_readings": [],
-          "extraction_note": "保留行內（弋）［易］、（子）［孫］及其他校勘符號，不把改讀當已校定原文。",
-          "note": "固定版本正文與實讀HTML一致；未核底本、影像或現代專門研究。"
-        }
-      }
+      "chapter_ref": "data/corpus/shiji/011.json"
     },
     {
       "chapter_id": "c-shiji-052-qidaohui",
       "work_id": "w-shiji",
       "book_id": "b-shiji-052",
       "source_id": "s-shiji-052-qidaohui",
-      "source": {
-        "title": "史記／卷052",
-        "provider": "維基文庫",
-        "url": "https://zh.wikisource.org/wiki/史記/卷052",
-        "permalink": "https://zh.wikisource.org/w/index.php?title=史記/卷052&oldid=5977113",
-        "revision_id": 5977113,
-        "accessed_on": "2026-10-09",
-        "extent": "44段篇文及1段索隱述贊，數位分節欄題不作古文段落。",
-        "image_verified": false,
-        "rights": "古代原文；數位轉錄依維基文庫CC BY-SA 4.0，保留署名及固定版本。",
-        "license_url": "https://creativecommons.org/licenses/by-sa/4.0/",
-        "normalization": {
-          "character_conversion": {},
-          "editorial_readings": [],
-          "extraction_note": "取得時HTML與固定修訂一致，只去外緣空白；保留衛衛王、高后立諸呂諸呂、（西）［迺］、［建］延、硃虛等原字與校勘字樣，不擅刪重字或選讀法。",
-          "note": "全45段已讀並作明示人物首輪；未核底本、影像或現代研究。"
-        }
-      }
+      "chapter_ref": "data/corpus/shiji/052.json"
     },
     {
       "chapter_id": "c-shiji-106-wuwang",
       "work_id": "w-shiji",
       "book_id": "b-shiji-106",
       "source_id": "s-shiji-106-wuwang",
-      "source": {
-        "title": "史記／卷106",
-        "provider": "維基文庫",
-        "url": "https://zh.wikisource.org/wiki/史記/卷106",
-        "permalink": "https://zh.wikisource.org/w/index.php?title=史記/卷106&oldid=405869",
-        "revision_id": 405869,
-        "accessed_on": "2026-10-10",
-        "extent": "20段正文含書信、制詔與太史公論，1段索隱述贊。",
-        "image_verified": false,
-        "rights": "古代原文；數位轉錄依維基文庫CC BY-SA 4.0，保留署名及固定版本。",
-        "license_url": "https://creativecommons.org/licenses/by-sa/4.0/",
-        "normalization": {
-          "character_conversion": {},
-          "editorial_readings": [],
-          "extraction_note": "去標題與介面模板，原字、標點及段落次序保留。",
-          "note": "未核底本影像。"
-        }
-      }
+      "chapter_ref": "data/corpus/shiji/106.json"
     },
     {
       "chapter_id": "table-chapter-shiji-017",
       "work_id": "w-shiji",
       "book_id": "b-shiji-017",
       "source_id": "table-witness-shiji-017",
-      "source": {
-        "id": "table-witness-shiji-017",
-        "work_id": "w-shiji",
-        "book_id": "b-shiji-017",
-        "chapter_id": "table-chapter-shiji-017",
-        "url": "https://zh.wikisource.org/wiki/史記/卷017",
-        "revision_url": "https://zh.wikisource.org/w/index.php?title=史記/卷017&oldid=2607010",
-        "revision": "2607010",
-        "accessed": "2026-10-13",
-        "response_sha256": "4f4e0437ce3126d69899f71fd8334f22dad8943c888cf2b766e51679d50dd517",
-        "edition": null,
-        "image_verified": false,
-        "rights": "古籍正文公有領域；維基文庫數位轉錄依CC BY-SA，保留貢獻者署名。",
-        "rights_url": "https://zh.wikisource.org/wiki/Wikisource:版權信息",
-        "review_status": "partial_named_entity_review",
-        "note": "各組表保留原欄題、原文、空格及合欄，不推不同欄題的接續。西元欄為數位編者增補；未明年份留空，不推世系曆年。未核底本影像，人物標註仍待逐處覆核。"
-      }
+      "table_source_ref": "shiji-017"
     }
   ],
   "relations": [
@@ -719,7 +664,7 @@
           "chapter_id": "c-shiji-052-qidaohui",
           "source_id": "s-shiji-052-qidaohui",
           "paragraph_id": "c-shiji-052-qidaohui:p042",
-          "quote": "膠西王卬，齊悼惠王子，以昌平侯文帝十六年為膠西王。十一年，與吳楚反。漢擊破，殺卬，地入于漢，為膠西郡。"
+          "quote_passage_ref": "data/corpus/shiji/052.json"
         }
       ],
       "qualifiers": {
@@ -740,7 +685,7 @@
           "chapter_id": "c-shiji-106-wuwang",
           "source_id": "s-shiji-106-wuwang",
           "paragraph_id": "c-shiji-106-wuwang:p018",
-          "quote": "三王之圍齊臨菑也，三月不能下。漢兵至，膠西、膠東、菑川王各引兵歸。膠西王乃袒跣，席槁，飲水，謝太后。王太子德曰：「漢兵遠，臣觀之已罷，可襲，願收大王餘兵擊之，擊之不勝，乃逃入海，未晚也。」王曰：「吾士卒皆已壞，不可發用。」弗聽。漢將弓高侯穨當遺王書曰：「奉詔誅不義，降者赦其罪，復故；不降者滅之。王何處，須以從事。」王肉袒叩頭漢軍壁，謁曰：「臣卬奉法不謹，驚駭百姓，乃苦將軍遠道至于窮國，敢請菹醢之罪。」弓高侯執金鼓見之，曰：「王苦軍事，願聞王發兵狀。」王頓首膝行對曰：「今者，晁錯天子用事臣，變更高皇帝法令，侵奪諸侯地。卬等以為不義，恐其敗亂天下，七國發兵，且以誅錯。今聞錯已誅，卬等謹以罷兵歸。」將軍曰：「王茍以錯不善，何不以聞？（及）［乃］未有詔虎符，擅發兵擊義國。以此觀之，意非欲誅錯也。」乃出詔書為王讀之。讀之訖，曰：「王其自圖。」王曰：「如卬等死有餘罪。」遂自殺。太后、太子皆死。膠東、菑川、濟南王皆死，國除，納于漢。酈將軍圍趙十月而下之，趙王自殺。濟北王以劫故，得不誅，徙王菑川。"
+          "quote_passage_ref": "data/corpus/shiji/106.json"
         }
       ],
       "qualifiers": {
@@ -770,7 +715,7 @@
           "chapter_id": "c-shiji-052-qidaohui",
           "source_id": "s-shiji-052-qidaohui",
           "paragraph_id": "c-shiji-052-qidaohui:p042",
-          "quote": "膠西王卬，齊悼惠王子，以昌平侯文帝十六年為膠西王。十一年，與吳楚反。漢擊破，殺卬，地入于漢，為膠西郡。"
+          "quote_passage_ref": "data/corpus/shiji/052.json"
         }
       ],
       "references": [
@@ -807,7 +752,7 @@
           "chapter_id": "c-shiji-052-qidaohui",
           "source_id": "s-shiji-052-qidaohui",
           "paragraph_id": "c-shiji-052-qidaohui:p042",
-          "quote": "膠西王卬，齊悼惠王子，以昌平侯文帝十六年為膠西王。十一年，與吳楚反。漢擊破，殺卬，地入于漢，為膠西郡。"
+          "quote_passage_ref": "data/corpus/shiji/052.json"
         }
       ],
       "qualifiers": {
@@ -828,7 +773,7 @@
           "chapter_id": "c-shiji-106-wuwang",
           "source_id": "s-shiji-106-wuwang",
           "paragraph_id": "c-shiji-106-wuwang:p018",
-          "quote": "三王之圍齊臨菑也，三月不能下。漢兵至，膠西、膠東、菑川王各引兵歸。膠西王乃袒跣，席槁，飲水，謝太后。王太子德曰：「漢兵遠，臣觀之已罷，可襲，願收大王餘兵擊之，擊之不勝，乃逃入海，未晚也。」王曰：「吾士卒皆已壞，不可發用。」弗聽。漢將弓高侯穨當遺王書曰：「奉詔誅不義，降者赦其罪，復故；不降者滅之。王何處，須以從事。」王肉袒叩頭漢軍壁，謁曰：「臣卬奉法不謹，驚駭百姓，乃苦將軍遠道至于窮國，敢請菹醢之罪。」弓高侯執金鼓見之，曰：「王苦軍事，願聞王發兵狀。」王頓首膝行對曰：「今者，晁錯天子用事臣，變更高皇帝法令，侵奪諸侯地。卬等以為不義，恐其敗亂天下，七國發兵，且以誅錯。今聞錯已誅，卬等謹以罷兵歸。」將軍曰：「王茍以錯不善，何不以聞？（及）［乃］未有詔虎符，擅發兵擊義國。以此觀之，意非欲誅錯也。」乃出詔書為王讀之。讀之訖，曰：「王其自圖。」王曰：「如卬等死有餘罪。」遂自殺。太后、太子皆死。膠東、菑川、濟南王皆死，國除，納于漢。酈將軍圍趙十月而下之，趙王自殺。濟北王以劫故，得不誅，徙王菑川。"
+          "quote_passage_ref": "data/corpus/shiji/106.json"
         }
       ],
       "qualifiers": {
@@ -880,8 +825,8 @@
           "chapter_id": "c-shiji-106-wuwang",
           "source_id": "s-shiji-106-wuwang",
           "paragraph_id": "c-shiji-106-wuwang:p018",
-          "quote": "三王之圍齊臨菑也，三月不能下。漢兵至，膠西、膠東、菑川王各引兵歸。膠西王乃袒跣，席槁，飲水，謝太后。王太子德曰：「漢兵遠，臣觀之已罷，可襲，願收大王餘兵擊之，擊之不勝，乃逃入海，未晚也。」王曰：「吾士卒皆已壞，不可發用。」弗聽。漢將弓高侯穨當遺王書曰：「奉詔誅不義，降者赦其罪，復故；不降者滅之。王何處，須以從事。」王肉袒叩頭漢軍壁，謁曰：「臣卬奉法不謹，驚駭百姓，乃苦將軍遠道至于窮國，敢請菹醢之罪。」弓高侯執金鼓見之，曰：「王苦軍事，願聞王發兵狀。」王頓首膝行對曰：「今者，晁錯天子用事臣，變更高皇帝法令，侵奪諸侯地。卬等以為不義，恐其敗亂天下，七國發兵，且以誅錯。今聞錯已誅，卬等謹以罷兵歸。」將軍曰：「王茍以錯不善，何不以聞？（及）［乃］未有詔虎符，擅發兵擊義國。以此觀之，意非欲誅錯也。」乃出詔書為王讀之。讀之訖，曰：「王其自圖。」王曰：「如卬等死有餘罪。」遂自殺。太后、太子皆死。膠東、菑川、濟南王皆死，國除，納于漢。酈將軍圍趙十月而下之，趙王自殺。濟北王以劫故，得不誅，徙王菑川。",
-          "person_mention_id": "c-shiji-106-wuwang:m018-0376"
+          "person_mention_id": "c-shiji-106-wuwang:m018-0376",
+          "quote_passage_ref": "data/corpus/shiji/106.json"
         }
       ],
       "references": [
@@ -950,8 +895,8 @@
           "chapter_id": "c-shiji-052-qidaohui",
           "source_id": "s-shiji-052-qidaohui",
           "paragraph_id": "c-shiji-052-qidaohui:p042",
-          "quote": "膠西王卬，齊悼惠王子，以昌平侯文帝十六年為膠西王。十一年，與吳楚反。漢擊破，殺卬，地入于漢，為膠西郡。",
-          "person_mention_id": "c-shiji-052-qidaohui:m042-0000"
+          "person_mention_id": "c-shiji-052-qidaohui:m042-0000",
+          "quote_passage_ref": "data/corpus/shiji/052.json"
         }
       ],
       "source_term": "殺卬",
@@ -973,8 +918,8 @@
           "chapter_id": "c-shiji-106-wuwang",
           "source_id": "s-shiji-106-wuwang",
           "paragraph_id": "c-shiji-106-wuwang:p018",
-          "quote": "三王之圍齊臨菑也，三月不能下。漢兵至，膠西、膠東、菑川王各引兵歸。膠西王乃袒跣，席槁，飲水，謝太后。王太子德曰：「漢兵遠，臣觀之已罷，可襲，願收大王餘兵擊之，擊之不勝，乃逃入海，未晚也。」王曰：「吾士卒皆已壞，不可發用。」弗聽。漢將弓高侯穨當遺王書曰：「奉詔誅不義，降者赦其罪，復故；不降者滅之。王何處，須以從事。」王肉袒叩頭漢軍壁，謁曰：「臣卬奉法不謹，驚駭百姓，乃苦將軍遠道至于窮國，敢請菹醢之罪。」弓高侯執金鼓見之，曰：「王苦軍事，願聞王發兵狀。」王頓首膝行對曰：「今者，晁錯天子用事臣，變更高皇帝法令，侵奪諸侯地。卬等以為不義，恐其敗亂天下，七國發兵，且以誅錯。今聞錯已誅，卬等謹以罷兵歸。」將軍曰：「王茍以錯不善，何不以聞？（及）［乃］未有詔虎符，擅發兵擊義國。以此觀之，意非欲誅錯也。」乃出詔書為王讀之。讀之訖，曰：「王其自圖。」王曰：「如卬等死有餘罪。」遂自殺。太后、太子皆死。膠東、菑川、濟南王皆死，國除，納于漢。酈將軍圍趙十月而下之，趙王自殺。濟北王以劫故，得不誅，徙王菑川。",
-          "person_mention_id": "c-shiji-106-wuwang:m018-0376"
+          "person_mention_id": "c-shiji-106-wuwang:m018-0376",
+          "quote_passage_ref": "data/corpus/shiji/106.json"
         }
       ],
       "interpretation_note": "只記本段實際死亡。未明死因者不補自殺；不以死亡終止全部官爵，不把時長當月名。吳太子僅孝文時，不補確切年；齊王早置發兵段的敘次與052不同，兩篇原文分存。未核書影。",
@@ -1004,8 +949,8 @@
             "chapter_id": "c-shiji-106-wuwang",
             "source_id": "s-shiji-106-wuwang",
             "paragraph_id": "c-shiji-106-wuwang:p018",
-            "quote": "三王之圍齊臨菑也，三月不能下。漢兵至，膠西、膠東、菑川王各引兵歸。膠西王乃袒跣，席槁，飲水，謝太后。王太子德曰：「漢兵遠，臣觀之已罷，可襲，願收大王餘兵擊之，擊之不勝，乃逃入海，未晚也。」王曰：「吾士卒皆已壞，不可發用。」弗聽。漢將弓高侯穨當遺王書曰：「奉詔誅不義，降者赦其罪，復故；不降者滅之。王何處，須以從事。」王肉袒叩頭漢軍壁，謁曰：「臣卬奉法不謹，驚駭百姓，乃苦將軍遠道至于窮國，敢請菹醢之罪。」弓高侯執金鼓見之，曰：「王苦軍事，願聞王發兵狀。」王頓首膝行對曰：「今者，晁錯天子用事臣，變更高皇帝法令，侵奪諸侯地。卬等以為不義，恐其敗亂天下，七國發兵，且以誅錯。今聞錯已誅，卬等謹以罷兵歸。」將軍曰：「王茍以錯不善，何不以聞？（及）［乃］未有詔虎符，擅發兵擊義國。以此觀之，意非欲誅錯也。」乃出詔書為王讀之。讀之訖，曰：「王其自圖。」王曰：「如卬等死有餘罪。」遂自殺。太后、太子皆死。膠東、菑川、濟南王皆死，國除，納于漢。酈將軍圍趙十月而下之，趙王自殺。濟北王以劫故，得不誅，徙王菑川。",
-            "person_mention_id": "c-shiji-106-wuwang:m018-0376"
+            "person_mention_id": "c-shiji-106-wuwang:m018-0376",
+            "quote_passage_ref": "data/corpus/shiji/106.json"
           }
         ],
         "references": [

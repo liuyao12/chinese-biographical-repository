@@ -160,7 +160,13 @@ export async function plan(root, ids = undefined) {
 export async function write(root) {
   const outputs=await plan(root),directory=path.join(root,'data/corpus/summaries');
   await fs.mkdir(directory,{recursive:true});
-  for(const[relative,text]of outputs)await fs.writeFile(path.join(root,relative),text);
+  for (const [relative, text] of outputs) {
+    const target = path.join(root, relative);
+    let previous;
+    try { previous = await fs.readFile(target, 'utf8'); }
+    catch (error) { if (error.code !== 'ENOENT') throw error; }
+    if (previous !== text) await fs.writeFile(target, text);
+  }
   const active=new Set([...outputs.keys()].map(x=>path.basename(x)));
   for(const filename of await fs.readdir(directory))if(filename.endsWith('.json')&&!active.has(filename))await fs.unlink(path.join(directory,filename));
   return {summaries:outputs.size};

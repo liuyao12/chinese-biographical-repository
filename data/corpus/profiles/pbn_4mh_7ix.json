@@ -21,7 +21,6 @@
       "raw_count": 2,
       "duplicate_count": 0,
       "counting_policy": "independent_fixed_witness_occurrences",
-      "quote": "！」遣漢使去，令其東邊郁成遮攻殺漢使，取其財物。於是天子大怒。諸嘗使宛姚定漢等言宛兵弱，誠以漢兵不過三千人，彊弩射之，即盡虜破宛矣。",
       "paragraph_ids": [
         "c-shiji-123-dayuan:p029",
         "c-shiji-123-dayuan:p030"
@@ -55,7 +54,12 @@
       "book_id": "b-shiji-123",
       "chapter_id": "c-shiji-123-dayuan",
       "source_id": "s-shiji123-dayuan",
-      "work_title": "史記"
+      "work_title": "史記",
+      "chapter_ref": "data/corpus/shiji/123.json",
+      "quote_span": [
+        200,
+        266
+      ]
     }
   ],
   "table_occurrences": [],
@@ -65,24 +69,7 @@
       "work_id": "w-shiji",
       "book_id": "b-shiji-123",
       "source_id": "s-shiji123-dayuan",
-      "source": {
-        "title": "史記／卷123",
-        "provider": "維基文庫",
-        "url": "https://zh.wikisource.org/wiki/史記/卷123",
-        "permalink": "https://zh.wikisource.org/w/index.php?title=史記/卷123&oldid=8736799",
-        "revision_id": 8736799,
-        "accessed_on": "2026-10-11",
-        "extent": "固定修訂全文39段，包括末段索隱述贊。",
-        "image_verified": false,
-        "rights": "古代原文；數位轉錄依維基文庫CC BY-SA 4.0，保留署名及固定版本。",
-        "license_url": "https://creativecommons.org/licenses/by-sa/4.0/",
-        "normalization": {
-          "character_conversion": {},
-          "editorial_readings": [],
-          "extraction_note": "去header2、現代節標、blockquote排版及分類；維基連結保留顯示文字，原字未轉換，未核影像。",
-          "note": "末段索隱述贊另分層。"
-        }
-      }
+      "chapter_ref": "data/corpus/shiji/123.json"
     }
   ],
   "relations": [],

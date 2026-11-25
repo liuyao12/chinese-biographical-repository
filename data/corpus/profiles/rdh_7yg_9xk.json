@@ -21,7 +21,6 @@
       "raw_count": 1,
       "duplicate_count": 0,
       "counting_policy": "independent_fixed_witness_occurrences",
-      "quote": "文故用低佪有意未遂耳斯亦先帝敬重大臣恩愛深厚之至也昔成王建保傅之官近漢顯宗以鄧禹為太傳皆所以優崇儁乂必有尊也其以太尉為太傅",
       "paragraph_ids": [
         "c-sanguozhi-009-caozhen:p009"
       ],
@@ -45,7 +44,12 @@
       "book_id": "b-sanguozhi-009",
       "chapter_id": "c-sanguozhi-009-caozhen",
       "source_id": "s-sanguozhi-009-caozhen",
-      "work_title": "三國志"
+      "work_title": "三國志",
+      "chapter_ref": "data/corpus/sanguozhi/009-caozhen.json",
+      "quote_span": [
+        520,
+        581
+      ]
     },
     {
       "number": 22,
@@ -56,7 +60,6 @@
       "raw_count": 1,
       "duplicate_count": 0,
       "counting_policy": "independent_fixed_witness_occurrences",
-      "quote": "之謂不可不置也若必作之固非臣下辭言所屈若少留神卓然回意亦非臣下之所及也漢明帝欲起徳陽殿鍾離意諫即用其言後乃復作之殿成謂羣臣曰鍾離尚書在不得成此殿也夫王者豈憚一臣蓋為百姓也今臣曾不能少凝聖聽不及意遠矣帝於是有所減省初太祖時劉廙坐弟與魏諷謀反當誅羣言之太祖太祖曰廙名臣也吾亦欲赦之",
       "paragraph_ids": [
         "c-sanguozhi-022-chenqun-chentai:p001"
       ],
@@ -80,7 +83,12 @@
       "book_id": "b-sanguozhi-022",
       "chapter_id": "c-sanguozhi-022-chenqun-chentai",
       "source_id": "s-sanguozhi-022-chenqun-chentai",
-      "work_title": "三國志"
+      "work_title": "三國志",
+      "chapter_ref": "data/corpus/sanguozhi/022-chenqun-chentai.json",
+      "quote_span": [
+        1714,
+        1852
+      ]
     }
   ],
   "table_occurrences": [],
@@ -90,54 +98,14 @@
       "work_id": "w-sanguozhi",
       "book_id": "b-sanguozhi-009",
       "source_id": "s-sanguozhi-009-caozhen",
-      "source": {
-        "title": "三國志卷九曹真曹爽完整本傳及裴注",
-        "provider": "Kanripo",
-        "url": "https://raw.githubusercontent.com/kanripo/KR2a0012/214fcafa79894355909c9d8c2c1533089e7791c6/KR2a0012_009.txt",
-        "permalink": "https://raw.githubusercontent.com/kanripo/KR2a0012/214fcafa79894355909c9d8c2c1533089e7791c6/KR2a0012_009.txt",
-        "revision_id": "214fcafa79894355909c9d8c2c1533089e7791c6",
-        "accessed_on": "2026-10-20",
-        "edition": "四庫全書數位固定見證；未核影像",
-        "extent": "固定原行309–563；564夏侯尚不含。",
-        "text_scope": "partial_chapter",
-        "review_status": "text_checked",
-        "image_verified": false,
-        "license_url": "https://github.com/kanripo/KR2a0012",
-        "rights": "古代正文與公開Kanripo轉錄",
-        "raw_sha256": "dd430a2e31130eb1c392b1e2a034686685fed0366ff713ece75226ba8cdedf03",
-        "normalization": {
-          "character_conversion": "none",
-          "extraction_note": "刪¶與頁標、合併行及移除注括號語法；保眀年即位、毛椽等原字。382–384行括號誤斷的連續注句按語義整段保為裴注，原始位元組另存。",
-          "excerpts": []
-        }
-      }
+      "chapter_ref": "data/corpus/sanguozhi/009-caozhen.json"
     },
     {
       "chapter_id": "c-sanguozhi-022-chenqun-chentai",
       "work_id": "w-sanguozhi",
       "book_id": "b-sanguozhi-022",
       "source_id": "s-sanguozhi-022-chenqun-chentai",
-      "source": {
-        "title": "三國志魏書卷二十二陳羣本傳及陳泰附傳",
-        "provider": "Kanripo",
-        "url": "https://raw.githubusercontent.com/kanripo/KR2a0012/214fcafa79894355909c9d8c2c1533089e7791c6/KR2a0012_022.txt",
-        "permalink": "https://raw.githubusercontent.com/kanripo/KR2a0012/214fcafa79894355909c9d8c2c1533089e7791c6/KR2a0012_022.txt",
-        "revision_id": "214fcafa79894355909c9d8c2c1533089e7791c6",
-        "source_commit": "214fcafa79894355909c9d8c2c1533089e7791c6",
-        "response_sha256": "3bac47f1f63c9556bc3b4087fda3cfb04f3470a267595521d236e22e58b00a3b",
-        "edition": "WYG數位轉錄，未核影像",
-        "accessed_on": "2026-10-19",
-        "extent": "固定原行60–276陳羣本傳及陳泰附傳含十四古注層；277陳矯另傳排除。",
-        "text_scope": "partial_chapter",
-        "review_status": "text_checked",
-        "image_verified": false,
-        "rights": "古代正文，保留Kanripo數位轉錄歸屬。",
-        "license_url": "https://www.kanripo.org/",
-        "normalization": {
-          "character_conversion": "none",
-          "extraction_note": "正文兩完整傳主分段，古注十四層另段；去¶、頁碼、古注逐行括號包裝，原字不校改。完整raw與逐字runs另存。"
-        }
-      }
+      "chapter_ref": "data/corpus/sanguozhi/022-chenqun-chentai.json"
     }
   ],
   "relations": [],

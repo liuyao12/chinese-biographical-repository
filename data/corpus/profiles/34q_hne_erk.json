@@ -20,7 +20,6 @@
       "raw_count": 1,
       "duplicate_count": 0,
       "counting_policy": "independent_fixed_witness_occurrences",
-      "quote": "孟嘗君怒而退魏子。居數年，人或毀孟嘗君於齊湣王曰：「孟嘗君將爲亂。」及田甲劫湣王，湣王意疑孟嘗君，孟嘗君乃奔。魏子所與粟賢者聞之，乃上書言孟嘗君不作亂，請以身爲盟，遂自剄宮門以明孟嘗君。湣王乃驚，而蹤跡驗問，孟嘗君果無反謀，乃復召孟嘗君。孟嘗君因謝病，歸老於薛。湣王許之。",
       "paragraph_ids": [
         "c-shiji-075-mengchang:p010"
       ],
@@ -44,7 +43,12 @@
       "book_id": "b-shiji-075",
       "chapter_id": "c-shiji-075-mengchang",
       "source_id": "s-shiji-075-mengchang",
-      "work_title": "史記"
+      "work_title": "史記",
+      "chapter_ref": "data/corpus/shiji/075.json",
+      "quote_span": [
+        53,
+        189
+      ]
     }
   ],
   "table_occurrences": [
@@ -52,7 +56,6 @@
       "table_id": "shiji-015",
       "cell_id": "shiji-015-r183-c08",
       "title": "《史記·六國年表》",
-      "quote": "三十。田甲劫王，相薛文走。",
       "year": {
         "era": "BCE",
         "value": 294,
@@ -75,7 +78,8 @@
       "book_id": "b-shiji-015",
       "chapter_id": "table-chapter-shiji-015",
       "source_id": "table-witness-shiji-015",
-      "source_revision": "2607002"
+      "source_revision": "2607002",
+      "quote_ref": "cell"
     }
   ],
   "sources": [
@@ -84,60 +88,14 @@
       "work_id": "w-shiji",
       "book_id": "b-shiji-075",
       "source_id": "s-shiji-075-mengchang",
-      "source": {
-        "title": "史記／卷075",
-        "provider": "維基文庫",
-        "url": "https://zh.wikisource.org/wiki/史記/卷075",
-        "permalink": "https://zh.wikisource.org/w/index.php?title=史記/卷075&oldid=1965692",
-        "revision_id": 1965692,
-        "accessed_on": "2026-10-09",
-        "extent": "19段正文，自孟嘗君名文至太史公論贊；排除ws-header人物與百科導覽、索隱述贊及現代版權告示。",
-        "image_verified": false,
-        "rights": "古代原文；數位轉錄依維基文庫CC BY-SA 4.0，保留署名及固定版本。",
-        "license_url": "https://creativecommons.org/licenses/by-sa/4.0/",
-        "normalization": {
-          "character_conversion": {},
-          "editorial_readings": [
-            {
-              "paragraph_id": "c-shiji-075-mengchang:p003",
-              "witness_form": "（短）［裋］",
-              "body_reading": "短",
-              "note": "保留數位改讀前短；裋為改讀提示，底本未核，不當已校定。"
-            },
-            {
-              "paragraph_id": "c-shiji-075-mengchang:p018",
-              "witness_form": "（朝）趣市［朝］",
-              "body_reading": "朝趣市",
-              "note": "保留改讀前朝在趣市之前的順序；移至市後的朝另記為數位改讀提示，底本未核，不依記憶改為趣市朝。"
-            }
-          ],
-          "extraction_note": "固定HTML與取得時版本一致，只去外緣空白並分離兩項數位改讀提示；保留爲、歳、倶、戸、髙、虚、鷄等原字。",
-          "note": "全19段正文及明示姓名首輪已核讀；未核底本、影像或現代研究。"
-        }
-      }
+      "chapter_ref": "data/corpus/shiji/075.json"
     },
     {
       "chapter_id": "table-chapter-shiji-015",
       "work_id": "w-shiji",
       "book_id": "b-shiji-015",
       "source_id": "table-witness-shiji-015",
-      "source": {
-        "id": "table-witness-shiji-015",
-        "work_id": "w-shiji",
-        "book_id": "b-shiji-015",
-        "chapter_id": "table-chapter-shiji-015",
-        "url": "https://zh.wikisource.org/wiki/史記/卷015",
-        "revision_url": "https://zh.wikisource.org/w/index.php?title=史記/卷015&oldid=2607002",
-        "revision": "2607002",
-        "accessed": "2026-10-12",
-        "response_sha256": "eb0624a019e02c24ce90a40bfa24863f4020878062c6e2efea32355033be5559",
-        "edition": null,
-        "image_verified": false,
-        "rights": "古籍正文公有領域；維基文庫轉錄及編輯內容依 CC BY-SA 條款，署名維基文庫貢獻者。",
-        "rights_url": "https://zh.wikisource.org/wiki/Wikisource:版權信息",
-        "review_status": "agent_first_pass_named_entities",
-        "note": "完整數位表格結構匯入，未逐格學術覆核。未核讀印本影像，原印本頁碼未知。西元欄沿用此數位轉錄的編者對照，不是古籍原有西元紀年，也不引用其維基百科外連。"
-      }
+      "table_source_ref": "shiji-015"
     }
   ],
   "relations": [],

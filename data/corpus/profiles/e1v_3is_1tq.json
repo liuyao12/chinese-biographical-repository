@@ -63,7 +63,6 @@
       "raw_count": 3,
       "duplicate_count": 0,
       "counting_policy": "independent_fixed_witness_occurrences",
-      "quote": "可。」公曰：「開方如何？」對曰：「倍親以適君，非人情，難近。」公曰：「豎刀如何？」對曰：「自宮以適君，非人情，難親。」管仲死，而桓公不用管仲言，卒近用三子，三子專權。",
       "paragraph_ids": [
         "c-shiji-032-qi:p043",
         "c-shiji-032-qi:p045"
@@ -106,7 +105,12 @@
       "book_id": "b-shiji-032",
       "chapter_id": "c-shiji-032-qi",
       "source_id": "s-shiji-032-qi",
-      "work_title": "史記"
+      "work_title": "史記",
+      "chapter_ref": "data/corpus/shiji/032.json",
+      "quote_span": [
+        83,
+        166
+      ]
     },
     {
       "number": 39,
@@ -117,7 +121,6 @@
       "raw_count": 1,
       "duplicate_count": 0,
       "counting_policy": "independent_fixed_witness_occurrences",
-      "quote": "桓公厚禮，而以宗女妻之，有馬二十乘，重耳安之。重耳至齊二歳而桓公卒，會豎刀等爲内亂，齊孝公之立，諸侯兵數至。留齊凡五歳。重耳愛齊女，毋去心。趙衰、咎犯乃於桑下謀行。齊女侍者在桑上聞之，以告其主。其主乃殺侍者，勸重耳趣行。重耳曰：「人生安樂，孰知其他！必死於此，不能去。」齊女",
       "paragraph_ids": [
         "c-shiji-039-jin:p054"
       ],
@@ -141,7 +144,12 @@
       "book_id": "b-shiji-039",
       "chapter_id": "c-shiji-039-jin",
       "source_id": "s-shiji-039-jin",
-      "work_title": "史記"
+      "work_title": "史記",
+      "chapter_ref": "data/corpus/shiji/039.json",
+      "quote_span": [
+        4,
+        141
+      ]
     }
   ],
   "table_occurrences": [],
@@ -151,52 +159,14 @@
       "work_id": "w-shiji",
       "book_id": "b-shiji-032",
       "source_id": "s-shiji-032-qi",
-      "source": {
-        "title": "史記／卷032",
-        "provider": "維基文庫",
-        "url": "https://zh.wikisource.org/wiki/史記/卷032",
-        "permalink": "https://zh.wikisource.org/w/index.php?title=史記/卷032&oldid=445042",
-        "revision_id": 445042,
-        "accessed_on": "2026-10-09",
-        "extent": "正文85個p區塊，自太公望呂尚者至太史公論贊；排除頂部君主摘要、跨站導覽及索隱述贊。",
-        "image_verified": false,
-        "rights": "古代原文；數位轉錄依維基文庫CC BY-SA 4.0，保留署名及固定版本。",
-        "license_url": "https://creativecommons.org/licenses/by-sa/4.0/",
-        "normalization": {
-          "character_conversion": {},
-          "editorial_readings": [],
-          "extraction_note": "保留彨、薄泵、慈母、無忌等原字與姓名，未按熟知讀法改寫。",
-          "note": "固定版本與實讀HTML一致；全85段首輪標註，代詞、版本與身份覆核未完；未核底本、影像或專門研究。"
-        }
-      }
+      "chapter_ref": "data/corpus/shiji/032.json"
     },
     {
       "chapter_id": "c-shiji-039-jin",
       "work_id": "w-shiji",
       "book_id": "b-shiji-039",
       "source_id": "s-shiji-039-jin",
-      "source": {
-        "title": "史記／卷039",
-        "provider": "維基文庫",
-        "url": "https://zh.wikisource.org/wiki/史記/卷039",
-        "permalink": "https://zh.wikisource.org/w/index.php?title=史記/卷039&oldid=2588534",
-        "revision_id": 2588534,
-        "accessed_on": "2026-10-09",
-        "extent": "142段正文，自晉唐叔虞至太史公論贊，另保留1段索隱述贊並分層；排除2個dd導覽及段首尾版面換行。",
-        "image_verified": false,
-        "rights": "古代原文；數位轉錄依維基文庫CC BY-SA 4.0，保留署名及固定版本。",
-        "license_url": "https://creativecommons.org/licenses/by-sa/4.0/",
-        "normalization": {
-          "character_conversion": {
-            "鲁": "魯",
-            "隐": "隱",
-            "绖": "絰"
-          },
-          "editorial_readings": [],
-          "extraction_note": "固定版本與實讀HTML一致。第14段鲁隐轉魯隱，第46、79段绖轉絰，去除段首尾換行，其餘古字、內外異說及校勘保留。",
-          "note": "同版原始標記亦作子胛桓叔，不默補代字或莊伯名字。保留冀芮／郤芮、郤鉤、欒逞、示瞇明、歩陽、郤臻、砹、六（卿）［軍］、［復］等見證字；未核可靠底本、影像或專門研究。"
-        }
-      }
+      "chapter_ref": "data/corpus/shiji/039.json"
     }
   ],
   "relations": [],

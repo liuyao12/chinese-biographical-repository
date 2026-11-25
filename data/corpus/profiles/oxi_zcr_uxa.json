@@ -20,7 +20,6 @@
       "raw_count": 1,
       "duplicate_count": 0,
       "counting_policy": "independent_fixed_witness_occurrences",
-      "quote": "列侯諸將無敢隱朕，皆言其情。吾所以有天下者何？項氏之所以失天下者何？」高起、王陵對曰：「陛下慢而侮人，項羽仁而愛人。然陛下使人攻城略地，所降下者因以予之，與天下同利也。項羽妒賢嫉能，有功者害之，賢者疑之，戰勝而不予人功，得地而不予人利，此所以失天下也。」高祖曰：「公知其一，",
       "paragraph_ids": [
         "c-shiji-008-gaozu:p057"
       ],
@@ -44,7 +43,12 @@
       "book_id": "b-shiji-008",
       "chapter_id": "c-shiji-008-gaozu",
       "source_id": "s-shiji-008-gaozu",
-      "work_title": "史記"
+      "work_title": "史記",
+      "chapter_ref": "data/corpus/shiji/008.json",
+      "quote_span": [
+        14,
+        151
+      ]
     }
   ],
   "table_occurrences": [],
@@ -54,26 +58,7 @@
       "work_id": "w-shiji",
       "book_id": "b-shiji-008",
       "source_id": "s-shiji-008-gaozu",
-      "source": {
-        "title": "史記／卷008",
-        "provider": "維基文庫",
-        "url": "https://zh.wikisource.org/wiki/史記/卷008",
-        "permalink": "https://zh.wikisource.org/w/index.php?title=史記/卷008&oldid=2440965",
-        "revision_id": 2440965,
-        "accessed_on": "2026-10-09",
-        "extent": "本篇傳世正文91個p區塊，自「高祖，沛豐邑中陽里人」至太史公論贊；不含導覽標題、跨站連結及另署【索隱述贊】的後出文字。",
-        "image_verified": false,
-        "rights": "古代原文；數位轉錄依維基文庫CC BY-SA 4.0，保留署名及固定版本。",
-        "license_url": "https://creativecommons.org/licenses/by-sa/4.0/",
-        "normalization": {
-          "character_conversion": {
-            "馕": "饢"
-          },
-          "editorial_readings": [],
-          "extraction_note": "正文91段均為p；前置兩個dd為跨站導覽，不收錄。排除sup註號，保留原有行內校勘符號。",
-          "note": "第48、57段馕僅作明示簡繁轉換為饢，詞義與疑讀待核，不逕改為餉或饟。數位轉錄尚未核紙本或影像。"
-        }
-      }
+      "chapter_ref": "data/corpus/shiji/008.json"
     }
   ],
   "relations": [],

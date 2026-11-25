@@ -20,7 +20,6 @@
       "raw_count": 1,
       "duplicate_count": 0,
       "counting_policy": "independent_fixed_witness_occurrences",
-      "quote": "為諱故改云代强魏初國號曰代故也顔師古曰急就篇序曰避諱改易漸就蕪舛正指此酈道元水經注廣漢並作廣魏即其例也",
       "paragraph_ids": [
         "c-weishu-weishou-035-cuihao:p035"
       ],
@@ -44,7 +43,12 @@
       "book_id": "b-weishu-weishou-035",
       "chapter_id": "c-weishu-weishou-035-cuihao",
       "source_id": "s-weishu-weishou-035-cuihao",
-      "work_title": "魏書（魏收）"
+      "work_title": "魏書（魏收）",
+      "chapter_ref": "data/corpus/weishu-weishou/035-cuihao.json",
+      "quote_span": [
+        30,
+        81
+      ]
     },
     {
       "number": 58,
@@ -55,7 +59,6 @@
       "raw_count": 1,
       "duplicate_count": 0,
       "counting_policy": "independent_fixed_witness_occurrences",
-      "quote": "不遣，必成深憂。」昱還，面啟肅宗及靈太后，並不信納。及寶夤邀害御史中尉酈道元，猶上表自理，稱為椿父子所謗。詔復除椿都督雍岐南豳三州諸軍事、本將軍、開府儀同三司、雍州刺史、討蜀大都督。椿辭以老病，不行。",
       "paragraph_ids": [
         "c-weishu-weishou-058-yangchun:p009"
       ],
@@ -79,7 +82,12 @@
       "book_id": "b-weishu-weishou-058",
       "chapter_id": "c-weishu-weishou-058-yangchun",
       "source_id": "s-weishu-weishou-058-yangchun-ws2087998",
-      "work_title": "魏書（魏收）"
+      "work_title": "魏書（魏收）",
+      "chapter_ref": "data/corpus/weishu-weishou/058-yangchun.json",
+      "quote_span": [
+        152,
+        252
+      ]
     }
   ],
   "table_occurrences": [],
@@ -89,56 +97,14 @@
       "work_id": "w-weishu-weishou",
       "book_id": "b-weishu-weishou-035",
       "source_id": "s-weishu-weishou-035-cuihao",
-      "source": {
-        "title": "魏書／卷三十五／崔浩",
-        "provider": "Kanripo WYG",
-        "url": "https://raw.githubusercontent.com/kanripo/KR2a0020/17b6525eb5aaa878b9640f5a61e90da934ce5fc4/KR2a0020_035.txt",
-        "permalink": "https://raw.githubusercontent.com/kanripo/KR2a0020/17b6525eb5aaa878b9640f5a61e90da934ce5fc4/KR2a0020_035.txt",
-        "revision_id": "17b6525eb5aaa878b9640f5a61e90da934ce5fc4",
-        "source_commit": "17b6525eb5aaa878b9640f5a61e90da934ce5fc4",
-        "raw_file_sha256": "190464d83516b3ce4ba11cfcde8cf2a25714bf0acfa86ec67bbf54c46fbc1422",
-        "raw_path": "sources/weishu-weishou/KR2a0020_035-17b6525.txt",
-        "accessed_on": "2026-10-20",
-        "edition": "文淵閣四庫全書數位轉錄；未圖校",
-        "extent": "完整崔浩本傳、史臣論及附清考證；不含空白、卷題、頁標",
-        "text_scope": "complete_chapter",
-        "review_status": "text_checked",
-        "image_verified": false,
-        "license_url": "https://creativecommons.org/publicdomain/mark/1.0/",
-        "rights": "古籍原文；固定Kanripo數位見證",
-        "normalization": {
-          "character_conversion": {},
-          "extraction_note": "只去物理空白、¶、頁標；原字及一對一座標保留。",
-          "excerpts": []
-        }
-      }
+      "chapter_ref": "data/corpus/weishu-weishou/035-cuihao.json"
     },
     {
       "chapter_id": "c-weishu-weishou-058-yangchun",
       "work_id": "w-weishu-weishou",
       "book_id": "b-weishu-weishou-058",
       "source_id": "s-weishu-weishou-058-yangchun-ws2087998",
-      "source": {
-        "title": "魏書卷五十八楊椿及昱、穎、順近系完整敘事",
-        "provider": "Wikisource",
-        "url": "https://zh.wikisource.org/w/index.php?title=%E9%AD%8F%E6%9B%B8%2F%E5%8D%B758&oldid=2087998",
-        "permalink": "https://zh.wikisource.org/w/index.php?title=%E9%AD%8F%E6%9B%B8%2F%E5%8D%B758&oldid=2087998",
-        "revision_id": 2087998,
-        "raw_path": "source-evidence/weishu058-yangchun/primary/weishu058.wikitext",
-        "raw_file_sha256": "a53ae2dbced88decaa460fbf34f87bb5e65a0b37b524480cb362a3bebb1bc19d",
-        "accessed_on": "2026-10-22",
-        "edition": "維基文庫固定數位轉錄；實際版本底本未確認，未圖校",
-        "extent": "固定ws2087998 raw33弟椿至102，止103順弟津前；椿、昱、穎、順及附孝邕/叔良/辯/仲宣/玄就/測/稚卿全部33正文段；另同見證卷末共評。",
-        "text_scope": "partial_chapter",
-        "review_status": "text_checked",
-        "image_verified": false,
-        "license_url": "https://creativecommons.org/licenses/by-sa/4.0/",
-        "rights": "古代正文；數位見證及網站校勘署名依維基文庫CC BY-SA4.0與附加條款保留",
-        "normalization": {
-          "character_conversion": {},
-          "extraction_note": "保原字與標點；段落按固定raw非空正文行。只分離網站ref校勘，原ref全文連raw位於annotation，逐字映射無摘要。"
-        }
-      }
+      "chapter_ref": "data/corpus/weishu-weishou/058-yangchun.json"
     }
   ],
   "relations": [],

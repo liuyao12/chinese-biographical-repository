@@ -22,7 +22,7 @@
           "chapter_id": "c-shiji-043-zhao",
           "source_id": "s-shiji-043-zhao",
           "paragraph_id": "c-shiji-043-zhao:p074",
-          "quote": "二十七年五月戊申，大朝於東宮，傳國，立王子何以爲王。王廟見禮畢，出臨朝。大夫悉爲臣，肥義爲相國，并傅王。是爲惠文王。惠文王，惠后吳娃子也。武靈王自號爲主父。"
+          "quote_passage_ref": "data/corpus/shiji/043.json"
         }
       ],
       "attestations": [
@@ -46,7 +46,7 @@
               "chapter_id": "c-shiji-043-zhao",
               "source_id": "s-shiji-043-zhao",
               "paragraph_id": "c-shiji-043-zhao:p074",
-              "quote": "二十七年五月戊申，大朝於東宮，傳國，立王子何以爲王。王廟見禮畢，出臨朝。大夫悉爲臣，肥義爲相國，并傅王。是爲惠文王。惠文王，惠后吳娃子也。武靈王自號爲主父。"
+              "quote_passage_ref": "data/corpus/shiji/043.json"
             }
           ]
         },
@@ -72,7 +72,7 @@
           "chapter_id": "c-shiji-043-zhao",
           "source_id": "s-shiji-043-zhao",
           "paragraph_id": "c-shiji-043-zhao:p074",
-          "quote": "二十七年五月戊申，大朝於東宮，傳國，立王子何以爲王。王廟見禮畢，出臨朝。大夫悉爲臣，肥義爲相國，并傅王。是爲惠文王。惠文王，惠后吳娃子也。武靈王自號爲主父。"
+          "quote_passage_ref": "data/corpus/shiji/043.json"
         }
       ],
       "attestations": [
@@ -114,7 +114,6 @@
       "raw_count": 12,
       "duplicate_count": 0,
       "counting_policy": "independent_fixed_witness_occurrences",
-      "quote": "宮。武靈王少，未能聽政，博聞師三人，左右司過三人。及聽政，先問先王貴臣肥義，加其秩；國三老年八十，月致其禮。",
       "paragraph_ids": [
         "c-shiji-043-zhao:p060",
         "c-shiji-043-zhao:p067",
@@ -243,7 +242,12 @@
       "book_id": "b-shiji-043",
       "chapter_id": "c-shiji-043-zhao",
       "source_id": "s-shiji-043-zhao",
-      "work_title": "史記"
+      "work_title": "史記",
+      "chapter_ref": "data/corpus/shiji/043.json",
+      "quote_span": [
+        31,
+        85
+      ]
     }
   ],
   "table_occurrences": [],
@@ -253,24 +257,7 @@
       "work_id": "w-shiji",
       "book_id": "b-shiji-043",
       "source_id": "s-shiji-043-zhao",
-      "source": {
-        "title": "史記／卷043",
-        "provider": "維基文庫",
-        "url": "https://zh.wikisource.org/wiki/史記/卷043",
-        "permalink": "https://zh.wikisource.org/w/index.php?title=史記/卷043&oldid=7903603",
-        "revision_id": 7903603,
-        "accessed_on": "2026-10-09",
-        "extent": "121段正文及1段分層索隱述贊；排除2個dd導覽，只去除段落外緣空白。",
-        "image_verified": false,
-        "rights": "古代原文；數位轉錄依維基文庫CC BY-SA 4.0，保留署名及固定版本。",
-        "license_url": "https://creativecommons.org/licenses/by-sa/4.0/",
-        "normalization": {
-          "character_conversion": {},
-          "editorial_readings": [],
-          "extraction_note": "固定修訂與取得時HTML一致；保留古代異體及五世而（生）［至］趙夙等校勘符號。造父以下六世與叔帶以下五世不補闕代。",
-          "note": "已讀全121段數位正文及1段附載索隱述贊，後者另層保存；未核古籍影像、可靠底本或現代研究，首輪不是完成覆核。"
-        }
-      }
+      "chapter_ref": "data/corpus/shiji/043.json"
     }
   ],
   "relations": [],
@@ -296,8 +283,8 @@
           "chapter_id": "c-shiji-043-zhao",
           "source_id": "s-shiji-043-zhao",
           "paragraph_id": "c-shiji-043-zhao:p081",
-          "quote": "主父及王游沙丘，異宮，公子章卽以其徒與田不禮作亂，詐以主父令召王。肥義先入，殺之。髙信卽與王戰。公子成與李兌自國至，乃起四邑之兵入距難，殺公子章及田不禮，滅其黨賊而定王室。公子成爲相，號安平君，李兌爲司寇。公子章之敗，往走主父，主主開之，成、兌因圍主父宮。公子章死，公子成、李兌謀曰：「以章故圍主父，卽解兵，吾屬夷矣。」乃遂圍主父。令宮中人「後出者夷」，宮中人悉出。主父欲出不得，又不得食，探爵鷇而食之，三月餘而餓死沙丘宮。主父定死，乃發喪赴諸侯。",
-          "person_mention_id": "c-shiji-043-zhao:m081-0033"
+          "person_mention_id": "c-shiji-043-zhao:m081-0033",
+          "quote_passage_ref": "data/corpus/shiji/043.json"
         }
       ],
       "source_term": "肥義先入，殺之",

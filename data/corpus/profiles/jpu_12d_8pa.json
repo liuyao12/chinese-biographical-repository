@@ -26,7 +26,7 @@
           "chapter_id": "c-shiji-124-youxia",
           "source_id": "s-shiji124-youxia",
           "paragraph_id": "c-shiji-124-youxia:p015",
-          "quote": "自是之後，為俠者極眾，敖而無足數者。然關中長安樊仲子，槐裏趙王孫，長陵高公子，西河郭公仲，太原鹵公孺，臨淮兒長卿，東陽田君孺，雖為俠而逡逡有退讓君子之風。至若北道姚氏，西道諸杜，南道仇景，東道趙他、羽公子，南陽趙調之徒，此盜跖居民間者耳，曷足道哉！此乃鄉者朱家之羞也。"
+          "quote_passage_ref": "data/corpus/shiji/124.json"
         }
       ],
       "source_term": "西河郭公仲",
@@ -47,7 +47,6 @@
       "raw_count": 1,
       "duplicate_count": 0,
       "counting_policy": "independent_fixed_witness_occurrences",
-      "quote": "俠者極眾，敖而無足數者。然關中長安樊仲子，槐裏趙王孫，長陵高公子，西河郭公仲，太原鹵公孺，臨淮兒長卿，東陽田君孺，雖為俠而逡逡有退讓君子之風。至若北道姚氏，西道諸杜，南道仇景，東道趙他、羽公子，南陽趙調之徒，此盜跖居民間者耳，曷足道哉！此乃鄉者朱家之羞也。",
       "paragraph_ids": [
         "c-shiji-124-youxia:p015"
       ],
@@ -71,7 +70,12 @@
       "book_id": "b-shiji-124",
       "chapter_id": "c-shiji-124-youxia",
       "source_id": "s-shiji124-youxia",
-      "work_title": "史記"
+      "work_title": "史記",
+      "chapter_ref": "data/corpus/shiji/124.json",
+      "quote_span": [
+        6,
+        134
+      ]
     }
   ],
   "table_occurrences": [],
@@ -81,24 +85,7 @@
       "work_id": "w-shiji",
       "book_id": "b-shiji-124",
       "source_id": "s-shiji124-youxia",
-      "source": {
-        "title": "史記／卷124",
-        "provider": "維基文庫",
-        "url": "https://zh.wikisource.org/wiki/史記/卷124",
-        "permalink": "https://zh.wikisource.org/w/index.php?title=史記/卷124&oldid=367994",
-        "revision_id": 367994,
-        "accessed_on": "2026-10-11",
-        "extent": "固定修訂全文17段，包括末段索隱述贊。",
-        "image_verified": false,
-        "rights": "古代原文；數位轉錄依維基文庫CC BY-SA 4.0，保留署名及固定版本。",
-        "license_url": "https://creativecommons.org/licenses/by-sa/4.0/",
-        "normalization": {
-          "character_conversion": {},
-          "editorial_readings": [],
-          "extraction_note": "去header2、現代節標、Textquality及wikipedia導覽模板；原文字面保留，原字未轉換，未核影像。",
-          "note": "末段索隱述贊另分層。"
-        }
-      }
+      "chapter_ref": "data/corpus/shiji/124.json"
     }
   ],
   "relations": [],

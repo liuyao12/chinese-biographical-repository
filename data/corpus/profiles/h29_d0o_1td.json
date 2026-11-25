@@ -22,7 +22,7 @@
           "chapter_id": "c-shiji-052-qidaohui",
           "source_id": "s-shiji-052-qidaohui",
           "paragraph_id": "c-shiji-052-qidaohui:p009",
-          "quote": "其明年，高后崩。趙王呂祿為上將軍，呂王產為相國，皆居長安中，聚兵以威大臣，欲為亂。朱虛侯章以呂祿女為婦，知其謀，乃使人陰出告其兄齊王，欲令發兵西，朱虛侯、東牟侯為內應，以誅諸呂，因立齊王為帝。"
+          "quote_passage_ref": "data/corpus/shiji/052.json"
         }
       ],
       "attestations": [
@@ -64,7 +64,7 @@
           "chapter_id": "c-shiji-052-qidaohui",
           "source_id": "s-shiji-052-qidaohui",
           "paragraph_id": "c-shiji-052-qidaohui:p009",
-          "quote": "其明年，高后崩。趙王呂祿為上將軍，呂王產為相國，皆居長安中，聚兵以威大臣，欲為亂。朱虛侯章以呂祿女為婦，知其謀，乃使人陰出告其兄齊王，欲令發兵西，朱虛侯、東牟侯為內應，以誅諸呂，因立齊王為帝。"
+          "quote_passage_ref": "data/corpus/shiji/052.json"
         }
       ],
       "attestations": [
@@ -112,8 +112,8 @@
           "chapter_id": "c-shiji-052-qidaohui",
           "source_id": "s-shiji-052-qidaohui",
           "paragraph_id": "c-shiji-052-qidaohui:p009",
-          "quote": "其明年，高后崩。趙王呂祿為上將軍，呂王產為相國，皆居長安中，聚兵以威大臣，欲為亂。朱虛侯章以呂祿女為婦，知其謀，乃使人陰出告其兄齊王，欲令發兵西，朱虛侯、東牟侯為內應，以誅諸呂，因立齊王為帝。",
-          "person_mention_id": "c-shiji-052-qidaohui:m009-0008"
+          "person_mention_id": "c-shiji-052-qidaohui:m009-0008",
+          "quote_passage_ref": "data/corpus/shiji/052.json"
         }
       ],
       "source_term": "皆居長安中",
@@ -134,7 +134,6 @@
       "raw_count": 2,
       "duplicate_count": 0,
       "counting_policy": "independent_fixed_witness_occurrences",
-      "quote": "其明年，高后崩。趙王呂祿為上將軍，呂王產為相國，皆居長安中，聚兵以威大臣，欲為亂。朱虛侯章以呂祿女為婦，知其謀，乃使人陰出告其兄齊王，欲令發兵西，朱虛侯、東牟侯為內應，以誅諸呂，因立齊王為帝。",
       "paragraph_ids": [
         "c-shiji-052-qidaohui:p009",
         "c-shiji-052-qidaohui:p014"
@@ -168,7 +167,12 @@
       "book_id": "b-shiji-052",
       "chapter_id": "c-shiji-052-qidaohui",
       "source_id": "s-shiji-052-qidaohui",
-      "work_title": "史記"
+      "work_title": "史記",
+      "chapter_ref": "data/corpus/shiji/052.json",
+      "quote_span": [
+        0,
+        96
+      ]
     }
   ],
   "table_occurrences": [],
@@ -178,24 +182,7 @@
       "work_id": "w-shiji",
       "book_id": "b-shiji-052",
       "source_id": "s-shiji-052-qidaohui",
-      "source": {
-        "title": "史記／卷052",
-        "provider": "維基文庫",
-        "url": "https://zh.wikisource.org/wiki/史記/卷052",
-        "permalink": "https://zh.wikisource.org/w/index.php?title=史記/卷052&oldid=5977113",
-        "revision_id": 5977113,
-        "accessed_on": "2026-10-09",
-        "extent": "44段篇文及1段索隱述贊，數位分節欄題不作古文段落。",
-        "image_verified": false,
-        "rights": "古代原文；數位轉錄依維基文庫CC BY-SA 4.0，保留署名及固定版本。",
-        "license_url": "https://creativecommons.org/licenses/by-sa/4.0/",
-        "normalization": {
-          "character_conversion": {},
-          "editorial_readings": [],
-          "extraction_note": "取得時HTML與固定修訂一致，只去外緣空白；保留衛衛王、高后立諸呂諸呂、（西）［迺］、［建］延、硃虛等原字與校勘字樣，不擅刪重字或選讀法。",
-          "note": "全45段已讀並作明示人物首輪；未核底本、影像或現代研究。"
-        }
-      }
+      "chapter_ref": "data/corpus/shiji/052.json"
     }
   ],
   "relations": [],
@@ -221,8 +208,8 @@
           "chapter_id": "c-shiji-052-qidaohui",
           "source_id": "s-shiji-052-qidaohui",
           "paragraph_id": "c-shiji-052-qidaohui:p014",
-          "quote": "呂祿、呂產欲作亂關中，朱虛侯與太尉勃、丞相平等誅之。朱虛侯首先斬呂產，於是太尉勃等乃得盡誅諸呂。而瑯邪王亦從齊至長安。",
-          "person_mention_id": "c-shiji-052-qidaohui:m014-0000"
+          "person_mention_id": "c-shiji-052-qidaohui:m014-0000",
+          "quote_passage_ref": "data/corpus/shiji/052.json"
         }
       ],
       "source_term": "呂祿、呂產欲作亂關中，朱虛侯與太尉勃、丞相平等誅之",

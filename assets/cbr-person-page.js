@@ -1,4 +1,5 @@
 import {loadPerson, loadFamily, personCard} from './cbr-person.js';
+import {resolveProfilePassages} from './passage-refs.js';
 import {profileReturnLink} from './profile-return.js';
 import {escapeHTML} from './core.js';
 
@@ -31,7 +32,7 @@ async function render() {
   try {
     const response = await fetch('data/corpus/profiles/' + encodeURIComponent(id) + '.json');
     if (!response.ok) throw Error('人物資料尚未載入');
-    const preview = await response.json();
+    const preview = await resolveProfilePassages(await response.json());
     if (preview.id !== id) throw Error('人物資料 ID 不符');
     if (ticket !== request) return;
     setReturnLink(preview);

@@ -22,7 +22,7 @@
           "chapter_id": "c-shiji-042-zheng",
           "source_id": "s-shiji-042-zheng",
           "paragraph_id": "c-shiji-042-zheng:p037",
-          "quote": "簡公元年，諸公子謀欲誅相子駟，子駟覺之，反盡誅諸公子。二年，晉伐鄭，鄭與盟，晉去。冬，又與楚盟。子駟畏誅，故兩親晉、楚。三年，相子駟欲自立爲君，公子子孔使尉止殺相子駟而代之。子孔又欲自立。子産曰：「子駟爲不可，誅之，今又效之，是亂無時息也。」於是子孔從之而相鄭簡公。"
+          "quote_passage_ref": "data/corpus/shiji/042.json"
         }
       ],
       "attestations": [
@@ -64,7 +64,6 @@
       "raw_count": 4,
       "duplicate_count": 0,
       "counting_policy": "independent_fixed_witness_occurrences",
-      "quote": "，晉去。冬，又與楚盟。子駟畏誅，故兩親晉、楚。三年，相子駟欲自立爲君，公子子孔使尉止殺相子駟而代之。子孔又欲自立。子産曰：「子駟爲不可，誅之，今又效之，是亂無時息也。」於是子孔從之而相鄭簡公。",
       "paragraph_ids": [
         "c-shiji-042-zheng:p037",
         "c-shiji-042-zheng:p039"
@@ -116,7 +115,12 @@
       "book_id": "b-shiji-042",
       "chapter_id": "c-shiji-042-zheng",
       "source_id": "s-shiji-042-zheng",
-      "work_title": "史記"
+      "work_title": "史記",
+      "chapter_ref": "data/corpus/shiji/042.json",
+      "quote_span": [
+        37,
+        133
+      ]
     }
   ],
   "table_occurrences": [
@@ -124,7 +128,6 @@
       "table_id": "shiji-014",
       "cell_id": "shiji-014-r279-c13",
       "title": "《史記·十二諸侯年表》",
-      "quote": "三晉率諸侯伐我，楚來救。子孔作亂，子產攻之",
       "year": {
         "era": "BCE",
         "value": 563,
@@ -147,7 +150,8 @@
       "book_id": "b-shiji-014",
       "chapter_id": "table-chapter-shiji-014",
       "source_id": "table-witness-shiji-014",
-      "source_revision": "2607001"
+      "source_revision": "2607001",
+      "quote_ref": "cell"
     }
   ],
   "sources": [
@@ -156,47 +160,14 @@
       "work_id": "w-shiji",
       "book_id": "b-shiji-042",
       "source_id": "s-shiji-042-zheng",
-      "source": {
-        "title": "史記／卷042",
-        "provider": "維基文庫",
-        "url": "https://zh.wikisource.org/wiki/史記/卷042",
-        "permalink": "https://zh.wikisource.org/w/index.php?title=史記/卷042&oldid=2016409",
-        "revision_id": 2016409,
-        "accessed_on": "2026-10-09",
-        "extent": "59段正文及1段分層索隱述贊；排除2個dd導覽，只去除段落外緣空白。",
-        "image_verified": false,
-        "rights": "古代原文；數位轉錄依維基文庫CC BY-SA 4.0，保留署名及固定版本。",
-        "license_url": "https://creativecommons.org/licenses/by-sa/4.0/",
-        "normalization": {
-          "character_conversion": {},
-          "editorial_readings": [],
-          "extraction_note": "固定修訂與取得時HTML一致；保留古代異體、九月（辛）［丁］亥等校勘符號及溉逐、掔羊、持兩端等疑讀，不擅選讀法。",
-          "note": "全60段數位正文已閱讀；未核古籍影像、可靠底本及現代研究。"
-        }
-      }
+      "chapter_ref": "data/corpus/shiji/042.json"
     },
     {
       "chapter_id": "table-chapter-shiji-014",
       "work_id": "w-shiji",
       "book_id": "b-shiji-014",
       "source_id": "table-witness-shiji-014",
-      "source": {
-        "id": "table-witness-shiji-014",
-        "work_id": "w-shiji",
-        "book_id": "b-shiji-014",
-        "chapter_id": "table-chapter-shiji-014",
-        "url": "https://zh.wikisource.org/wiki/史記/卷014",
-        "revision_url": "https://zh.wikisource.org/w/index.php?title=史記/卷014&oldid=2607001",
-        "revision": "2607001",
-        "accessed": "2026-10-12",
-        "response_sha256": "399a83afe1f1fdb785213c55cbb4ec792c1b5e08929e24486f67ccc83fbacae6",
-        "edition": null,
-        "image_verified": false,
-        "rights": "古籍正文公有領域；維基文庫轉錄及編輯內容依 CC BY-SA 條款，署名維基文庫貢獻者。",
-        "rights_url": "https://zh.wikisource.org/wiki/Wikisource:版權信息",
-        "review_status": "partial_named_entity_review",
-        "note": "完整數位表格結構匯入，未逐格學術覆核。未核讀印本影像，原印本頁碼未知。西元欄沿用此數位轉錄的編者對照，不是古籍原有西元紀年，也不引用其維基百科外連。"
-      }
+      "table_source_ref": "shiji-014"
     }
   ],
   "relations": [],
@@ -222,8 +193,8 @@
           "chapter_id": "c-shiji-042-zheng",
           "source_id": "s-shiji-042-zheng",
           "paragraph_id": "c-shiji-042-zheng:p039",
-          "quote": "十二年，簡公怒相子孔專國權，誅之，而以子産爲卿。十九年，簡公如晉請衞君還，而封子産以六邑。子産讓，受其三邑。二十二年，呉使延陵季子於鄭，見子産如舊交，謂子産曰：「鄭之執政者侈，難將至，政將及子。子爲政，必以禮；不然，鄭將敗。」子産厚遇季子。二十三年，諸公子爭寵相殺，又欲殺子産。公子或諫曰：「子産仁人，鄭所以存者子産也，勿殺！」乃止。",
-          "person_mention_id": "c-shiji-042-zheng:m039-0008"
+          "person_mention_id": "c-shiji-042-zheng:m039-0008",
+          "quote_passage_ref": "data/corpus/shiji/042.json"
         }
       ],
       "source_term": "誅之",

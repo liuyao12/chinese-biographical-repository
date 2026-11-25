@@ -25,7 +25,7 @@
           "chapter_id": "c-shiji-046-tian",
           "source_id": "s-shiji-046-tian",
           "paragraph_id": "c-shiji-046-tian:p032",
-          "quote": "其後成侯騶忌與田忌不善，公孫閲謂成侯忌曰：「公何不謀伐魏，田忌必將。戰勝有功，則公之謀中也；戰不勝，非前死則後北，而命在公矣。」於是成侯言威王，使田忌南攻襄陵。十月，邯鄲拔，齊因起兵撃魏，大敗之桂陵。于是齊最彊于諸侯，自稱爲王，以令天下。"
+          "quote_passage_ref": "data/corpus/shiji/046.json"
         }
       ],
       "attestations": [
@@ -49,7 +49,7 @@
               "chapter_id": "c-shiji-046-tian",
               "source_id": "s-shiji-046-tian",
               "paragraph_id": "c-shiji-046-tian:p032",
-              "quote": "其後成侯騶忌與田忌不善，公孫閲謂成侯忌曰：「公何不謀伐魏，田忌必將。戰勝有功，則公之謀中也；戰不勝，非前死則後北，而命在公矣。」於是成侯言威王，使田忌南攻襄陵。十月，邯鄲拔，齊因起兵撃魏，大敗之桂陵。于是齊最彊于諸侯，自稱爲王，以令天下。"
+              "quote_passage_ref": "data/corpus/shiji/046.json"
             }
           ]
         },
@@ -75,7 +75,6 @@
       "raw_count": 14,
       "duplicate_count": 0,
       "counting_policy": "independent_fixed_witness_occurrences",
-      "quote": "六年，救衞。桓公卒，子威王因齊立。是歳，故齊康公卒，絶無後，奉邑皆入田氏。",
       "paragraph_ids": [
         "c-shiji-046-tian:p025",
         "c-shiji-046-tian:p026",
@@ -223,7 +222,12 @@
       "book_id": "b-shiji-046",
       "chapter_id": "c-shiji-046-tian",
       "source_id": "s-shiji-046-tian",
-      "work_title": "史記"
+      "work_title": "史記",
+      "chapter_ref": "data/corpus/shiji/046.json",
+      "quote_span": [
+        0,
+        37
+      ]
     },
     {
       "number": 74,
@@ -234,7 +238,6 @@
       "raw_count": 2,
       "duplicate_count": 0,
       "counting_policy": "independent_fixed_witness_occurrences",
-      "quote": "迂遠而闊於事情。當是之時，秦用商君，富國彊兵；楚、魏用吳起，戰勝弱敵；齊威王、宣王用孫子、田忌之徒，而諸侯東面朝齊。天下方務於合從連衡，以攻伐為賢，而孟軻乃述唐、虞、三代之德，是以所如者不合。退而與萬章之徒序詩書，述仲尼之意，作孟子七篇。其後有騶子之屬。",
       "paragraph_ids": [
         "c-shiji-074-mengxun:p002",
         "c-shiji-074-mengxun:p003"
@@ -268,7 +271,12 @@
       "book_id": "b-shiji-074",
       "chapter_id": "c-shiji-074-mengxun",
       "source_id": "s-shiji-074-mengxun",
-      "work_title": "史記"
+      "work_title": "史記",
+      "chapter_ref": "data/corpus/shiji/074.json",
+      "quote_span": [
+        46,
+        173
+      ]
     },
     {
       "number": 121,
@@ -279,7 +287,6 @@
       "raw_count": 1,
       "duplicate_count": 0,
       "counting_policy": "independent_fixed_witness_occurrences",
-      "quote": "遲以至于始皇，天下并爭於戰國，懦術既絀焉，然齊魯之閒，學者獨不廢也。於威、宣之際，孟子、荀卿之列，咸遵夫子之業而潤色之，以學顯於當世。",
       "paragraph_ids": [
         "c-shiji-121-rulin:p002"
       ],
@@ -303,7 +310,12 @@
       "book_id": "b-shiji-121",
       "chapter_id": "c-shiji-121-rulin",
       "source_id": "s-shiji121-rulin",
-      "work_title": "史記"
+      "work_title": "史記",
+      "chapter_ref": "data/corpus/shiji/121.json",
+      "quote_span": [
+        111,
+        178
+      ]
     },
     {
       "number": 130,
@@ -314,7 +326,6 @@
       "raw_count": 1,
       "duplicate_count": 0,
       "counting_policy": "independent_fixed_witness_occurrences",
-      "quote": "齊為援，陰施五世，齊人歌之。成子得政，田和為侯。王建動心，乃遷于共。嘉威、宣能撥濁世而獨宗周，作田敬仲完世家第十六。",
       "paragraph_ids": [
         "c-shiji-130-taishigong:p058"
       ],
@@ -338,7 +349,12 @@
       "book_id": "b-shiji-130",
       "chapter_id": "c-shiji-130-taishigong",
       "source_id": "s-shiji130-taishigong",
-      "work_title": "史記"
+      "work_title": "史記",
+      "chapter_ref": "data/corpus/shiji/130.json",
+      "quote_span": [
+        6,
+        64
+      ]
     }
   ],
   "table_occurrences": [
@@ -346,7 +362,6 @@
       "table_id": "shiji-015",
       "cell_id": "shiji-015-r099-c08",
       "title": "《史記·六國年表》",
-      "quote": "齊威王因元年。自田常至威王，威王始以齊彊天下。",
       "year": {
         "era": "BCE",
         "value": 378,
@@ -369,13 +384,13 @@
       "book_id": "b-shiji-015",
       "chapter_id": "table-chapter-shiji-015",
       "source_id": "table-witness-shiji-015",
-      "source_revision": "2607002"
+      "source_revision": "2607002",
+      "quote_ref": "cell"
     },
     {
       "table_id": "shiji-015",
       "cell_id": "shiji-015-r099-c08",
       "title": "《史記·六國年表》",
-      "quote": "齊威王因元年。自田常至威王，威王始以齊彊天下。",
       "year": {
         "era": "BCE",
         "value": 378,
@@ -398,13 +413,13 @@
       "book_id": "b-shiji-015",
       "chapter_id": "table-chapter-shiji-015",
       "source_id": "table-witness-shiji-015",
-      "source_revision": "2607002"
+      "source_revision": "2607002",
+      "quote_ref": "cell"
     },
     {
       "table_id": "shiji-015",
       "cell_id": "shiji-015-r099-c08",
       "title": "《史記·六國年表》",
-      "quote": "齊威王因元年。自田常至威王，威王始以齊彊天下。",
       "year": {
         "era": "BCE",
         "value": 378,
@@ -427,13 +442,13 @@
       "book_id": "b-shiji-015",
       "chapter_id": "table-chapter-shiji-015",
       "source_id": "table-witness-shiji-015",
-      "source_revision": "2607002"
+      "source_revision": "2607002",
+      "quote_ref": "cell"
     },
     {
       "table_id": "shiji-015",
       "cell_id": "shiji-015-r119-c08",
       "title": "《史記·六國年表》",
-      "quote": "二十一。鄒忌以鼓琴見威王。",
       "year": {
         "era": "BCE",
         "value": 358,
@@ -456,7 +471,8 @@
       "book_id": "b-shiji-015",
       "chapter_id": "table-chapter-shiji-015",
       "source_id": "table-witness-shiji-015",
-      "source_revision": "2607002"
+      "source_revision": "2607002",
+      "quote_ref": "cell"
     }
   ],
   "sources": [
@@ -465,150 +481,42 @@
       "work_id": "w-shiji",
       "book_id": "b-shiji-046",
       "source_id": "s-shiji-046-tian",
-      "source": {
-        "title": "史記／卷046",
-        "provider": "維基文庫",
-        "url": "https://zh.wikisource.org/wiki/史記/卷046",
-        "permalink": "https://zh.wikisource.org/w/index.php?title=史記/卷046&oldid=2560838",
-        "revision_id": 2560838,
-        "accessed_on": "2026-10-09",
-        "extent": "55段正文（含太史公論贊）及1段索隱述贊，後者另標witness_appended_suoyin_zan；排除2個dd導覽及現代分節標題。",
-        "image_verified": false,
-        "rights": "古代原文；數位轉錄依維基文庫CC BY-SA 4.0，保留署名及固定版本。",
-        "license_url": "https://creativecommons.org/licenses/by-sa/4.0/",
-        "normalization": {
-          "character_conversion": {},
-          "editorial_readings": [],
-          "extraction_note": "取得時HTML與固定修訂一致，只去除段落外緣空白；保留［二］、（粟）［稟］、晏（孺子）［圉］、（帥）［師］、笔及称等數位見證原字，不暗改。",
-          "note": "已讀全56段數位文字並作明示人名首輪；未核可靠底本、影像或現代研究。"
-        }
-      }
+      "chapter_ref": "data/corpus/shiji/046.json"
     },
     {
       "chapter_id": "c-shiji-064-sima",
       "work_id": "w-shiji",
       "book_id": "b-shiji-064",
       "source_id": "s-shiji-064-sima",
-      "source": {
-        "title": "史記／卷064",
-        "provider": "維基文庫",
-        "url": "https://zh.wikisource.org/wiki/史記/卷064",
-        "permalink": "https://zh.wikisource.org/w/index.php?title=史記/卷064&oldid=7895410",
-        "revision_id": 7895410,
-        "accessed_on": "2026-10-09",
-        "extent": "4段正文，排除註釋版及2段導覽，無索隱述贊。",
-        "image_verified": false,
-        "rights": "古代原文；數位轉錄依維基文庫CC BY-SA 4.0，保留署名及固定版本。",
-        "license_url": "https://creativecommons.org/licenses/by-sa/4.0/",
-        "normalization": {
-          "character_conversion": {},
-          "editorial_readings": [
-            {
-              "paragraph_id": "c-shiji-064-sima:p001",
-              "witness_form": "馳三軍法何一作「軍中不馳，今使者馳，云何」",
-              "body_reading": "馳三軍法何",
-              "note": "一作為HTML variant-tooltip校勘提示，另存原字；未核底本，不作已校定。"
-            }
-          ],
-          "extraction_note": "取得時HTML與固定修訂一致，只去外緣空白並排除style與script；variant-tooltip另存編輯讀法，不混入正文。保留仆表、援枹、左駙、左驂等原字。",
-          "note": "全4段已核讀，未核可靠底本、影像或現代研究。"
-        }
-      }
+      "chapter_ref": "data/corpus/shiji/064.json"
     },
     {
       "chapter_id": "c-shiji-074-mengxun",
       "work_id": "w-shiji",
       "book_id": "b-shiji-074",
       "source_id": "s-shiji-074-mengxun",
-      "source": {
-        "title": "史記／卷074",
-        "provider": "維基文庫",
-        "url": "https://zh.wikisource.org/wiki/史記/卷074",
-        "permalink": "https://zh.wikisource.org/w/index.php?title=史記/卷074&oldid=7908177",
-        "revision_id": 7908177,
-        "accessed_on": "2026-10-09",
-        "extent": "12段非空正文，自太史公讀孟子書序至公孫龍等末段；排除ws-header註釋版導覽及空白段，固定頁未附索隱述贊。",
-        "image_verified": false,
-        "rights": "古代原文；數位轉錄依維基文庫CC BY-SA 4.0，保留署名及固定版本。",
-        "license_url": "https://creativecommons.org/licenses/by-sa/4.0/",
-        "normalization": {
-          "character_conversion": {},
-          "editorial_readings": [],
-          "extraction_note": "固定HTML與取得時版本一致，只去外緣空白並略空段；保留騶、獘、彊、筑、茍、髡等原字。",
-          "note": "全12段正文及明示姓名首輪已核讀；未核底本、影像或現代研究。"
-        }
-      }
+      "chapter_ref": "data/corpus/shiji/074.json"
     },
     {
       "chapter_id": "c-shiji-121-rulin",
       "work_id": "w-shiji",
       "book_id": "b-shiji-121",
       "source_id": "s-shiji121-rulin",
-      "source": {
-        "title": "史記／卷121",
-        "provider": "維基文庫",
-        "url": "https://zh.wikisource.org/wiki/史記/卷121",
-        "permalink": "https://zh.wikisource.org/w/index.php?title=史記/卷121&oldid=8735621",
-        "revision_id": 8735621,
-        "accessed_on": "2026-10-11",
-        "extent": "固定修訂全文25段，包括末段索隱述贊。",
-        "image_verified": false,
-        "rights": "古代原文；數位轉錄依維基文庫CC BY-SA 4.0，保留署名及固定版本。",
-        "license_url": "https://creativecommons.org/licenses/by-sa/4.0/",
-        "normalization": {
-          "character_conversion": {},
-          "editorial_readings": [],
-          "extraction_note": "去header2、現代節標與wikipedia模板，保留繆西王等原字；未核影像。",
-          "note": "末段索隱述贊分層，太史公論贊屬篇文。"
-        }
-      }
+      "chapter_ref": "data/corpus/shiji/121.json"
     },
     {
       "chapter_id": "c-shiji-130-taishigong",
       "work_id": "w-shiji",
       "book_id": "b-shiji-130",
       "source_id": "s-shiji130-taishigong",
-      "source": {
-        "title": "史記／卷130",
-        "provider": "維基文庫",
-        "url": "https://zh.wikisource.org/wiki/史記/卷130",
-        "permalink": "https://zh.wikisource.org/w/index.php?title=史記/卷130&oldid=2609362",
-        "revision_id": 2609362,
-        "accessed_on": "2026-10-11",
-        "extent": "固定修訂全文143段，全部篇文。",
-        "image_verified": false,
-        "rights": "古代原文；數位轉錄依維基文庫CC BY-SA 4.0，保留署名及固定版本。",
-        "license_url": "https://creativecommons.org/licenses/by-sa/4.0/",
-        "normalization": {
-          "character_conversion": {},
-          "editorial_readings": [],
-          "extraction_note": "去header2及現代節標，移除維基引文縮排冒號，保留原字，未核影像。",
-          "note": "全文入庫不等於全部提及已標註；目錄段落仍待逐段處理。"
-        }
-      }
+      "chapter_ref": "data/corpus/shiji/130.json"
     },
     {
       "chapter_id": "table-chapter-shiji-015",
       "work_id": "w-shiji",
       "book_id": "b-shiji-015",
       "source_id": "table-witness-shiji-015",
-      "source": {
-        "id": "table-witness-shiji-015",
-        "work_id": "w-shiji",
-        "book_id": "b-shiji-015",
-        "chapter_id": "table-chapter-shiji-015",
-        "url": "https://zh.wikisource.org/wiki/史記/卷015",
-        "revision_url": "https://zh.wikisource.org/w/index.php?title=史記/卷015&oldid=2607002",
-        "revision": "2607002",
-        "accessed": "2026-10-12",
-        "response_sha256": "eb0624a019e02c24ce90a40bfa24863f4020878062c6e2efea32355033be5559",
-        "edition": null,
-        "image_verified": false,
-        "rights": "古籍正文公有領域；維基文庫轉錄及編輯內容依 CC BY-SA 條款，署名維基文庫貢獻者。",
-        "rights_url": "https://zh.wikisource.org/wiki/Wikisource:版權信息",
-        "review_status": "agent_first_pass_named_entities",
-        "note": "完整數位表格結構匯入，未逐格學術覆核。未核讀印本影像，原印本頁碼未知。西元欄沿用此數位轉錄的編者對照，不是古籍原有西元紀年，也不引用其維基百科外連。"
-      }
+      "table_source_ref": "shiji-015"
     }
   ],
   "relations": [
@@ -623,7 +531,7 @@
           "chapter_id": "c-shiji-046-tian",
           "source_id": "s-shiji-046-tian",
           "paragraph_id": "c-shiji-046-tian:p025",
-          "quote": "六年，救衞。桓公卒，子威王因齊立。是歳，故齊康公卒，絶無後，奉邑皆入田氏。"
+          "quote_passage_ref": "data/corpus/shiji/046.json"
         }
       ],
       "qualifiers": {
@@ -644,7 +552,7 @@
           "chapter_id": "c-shiji-046-tian",
           "source_id": "s-shiji-046-tian",
           "paragraph_id": "c-shiji-046-tian:p035",
-          "quote": "三十六年，威王卒，子宣王辟彊立。"
+          "quote_passage_ref": "data/corpus/shiji/046.json"
         }
       ],
       "qualifiers": {
@@ -698,7 +606,7 @@
           "chapter_id": "c-shiji-046-tian",
           "source_id": "s-shiji-046-tian",
           "paragraph_id": "c-shiji-046-tian:p025",
-          "quote": "六年，救衞。桓公卒，子威王因齊立。是歳，故齊康公卒，絶無後，奉邑皆入田氏。"
+          "quote_passage_ref": "data/corpus/shiji/046.json"
         }
       ],
       "qualifiers": {
@@ -719,7 +627,7 @@
           "chapter_id": "c-shiji-046-tian",
           "source_id": "s-shiji-046-tian",
           "paragraph_id": "c-shiji-046-tian:p035",
-          "quote": "三十六年，威王卒，子宣王辟彊立。"
+          "quote_passage_ref": "data/corpus/shiji/046.json"
         }
       ],
       "qualifiers": {
@@ -743,8 +651,8 @@
           "chapter_id": "c-shiji-046-tian",
           "source_id": "s-shiji-046-tian",
           "paragraph_id": "c-shiji-046-tian:p035",
-          "quote": "三十六年，威王卒，子宣王辟彊立。",
-          "person_mention_id": "c-shiji-046-tian:m035-0005"
+          "person_mention_id": "c-shiji-046-tian:m035-0005",
+          "quote_passage_ref": "data/corpus/shiji/046.json"
         }
       ],
       "source_term": "威王卒",

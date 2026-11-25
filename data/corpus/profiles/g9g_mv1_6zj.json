@@ -26,8 +26,8 @@
           "chapter_id": "c-shiji-054-cao",
           "source_id": "s-shiji-054-cao",
           "paragraph_id": "c-shiji-054-cao:p009",
-          "quote": "孝惠帝元年，除諸侯相國法，更以參為齊丞相。參之相齊，齊七十城。天下初定，悼惠王富於春秋，參盡召長老諸生，問所以安集百姓，如齊故［俗］諸儒以百數，言人人殊，參未知所定。聞膠西有蓋公，善治黃老言，使人厚幣請之。既見蓋公，蓋公為言治道貴清靜而民自定，推此類具言之。參於是避正堂，舍蓋公焉。其治要用黃老術，故相齊九年，齊國安集，大稱賢相。",
-          "person_mention_id": "c-shiji-054-cao:m009-0087"
+          "person_mention_id": "c-shiji-054-cao:m009-0087",
+          "quote_passage_ref": "data/corpus/shiji/054.json"
         }
       ],
       "source_term": "聞膠西有蓋公",
@@ -48,7 +48,6 @@
       "raw_count": 4,
       "duplicate_count": 0,
       "counting_policy": "independent_fixed_witness_occurrences",
-      "quote": "問所以安集百姓，如齊故［俗］諸儒以百數，言人人殊，參未知所定。聞膠西有蓋公，善治黃老言，使人厚幣請之。既見蓋公，蓋公為言治道貴清靜而民自定，推此類具言之。參於是避正堂，舍蓋公焉。其治要用黃老術，故相齊九年，齊國安集，大稱賢相。",
       "paragraph_ids": [
         "c-shiji-054-cao:p009"
       ],
@@ -99,7 +98,12 @@
       "book_id": "b-shiji-054",
       "chapter_id": "c-shiji-054-cao",
       "source_id": "s-shiji-054-cao",
-      "work_title": "史記"
+      "work_title": "史記",
+      "chapter_ref": "data/corpus/shiji/054.json",
+      "quote_span": [
+        52,
+        165
+      ]
     },
     {
       "number": 80,
@@ -110,7 +114,6 @@
       "raw_count": 2,
       "duplicate_count": 0,
       "counting_policy": "independent_fixed_witness_occurrences",
-      "quote": "丈人教安期生，安期生教毛翕公，毛翕公教樂瑕公，樂瑕公教樂臣公，樂臣公教蓋公。蓋公教於齊高密、膠西，為曹相國師。",
       "paragraph_ids": [
         "c-shiji-080-leyi:p020"
       ],
@@ -143,7 +146,12 @@
       "book_id": "b-shiji-080",
       "chapter_id": "c-shiji-080-leyi",
       "source_id": "s-shiji-080-leyi",
-      "work_title": "史記"
+      "work_title": "史記",
+      "chapter_ref": "data/corpus/shiji/080.json",
+      "quote_span": [
+        60,
+        115
+      ]
     },
     {
       "number": 130,
@@ -154,7 +162,6 @@
       "raw_count": 1,
       "duplicate_count": 0,
       "counting_policy": "independent_fixed_witness_occurrences",
-      "quote": "法，張蒼為章程，叔孫通定禮儀，則文學彬彬稍進，詩書往往閒出矣。自曹參薦蓋公言黃老，而賈生、晁錯明申、商，公孫弘以儒顯，百年之閒，天下遺文古事靡不畢集太史公。太史公仍父子相續纂其職。曰：「於戲！余維先人嘗掌斯事，顯於唐虞，至于周，復典之，故司馬氏世主天官。至於余乎，欽念哉！欽",
       "paragraph_ids": [
         "c-shiji-130-taishigong:p142"
       ],
@@ -178,7 +185,12 @@
       "book_id": "b-shiji-130",
       "chapter_id": "c-shiji-130-taishigong",
       "source_id": "s-shiji130-taishigong",
-      "work_title": "史記"
+      "work_title": "史記",
+      "chapter_ref": "data/corpus/shiji/130.json",
+      "quote_span": [
+        59,
+        196
+      ]
     }
   ],
   "table_occurrences": [],
@@ -188,72 +200,21 @@
       "work_id": "w-shiji",
       "book_id": "b-shiji-054",
       "source_id": "s-shiji-054-cao",
-      "source": {
-        "title": "史記／卷054",
-        "provider": "維基文庫",
-        "url": "https://zh.wikisource.org/wiki/史記/卷054",
-        "permalink": "https://zh.wikisource.org/w/index.php?title=史記/卷054&oldid=1490182",
-        "revision_id": 1490182,
-        "accessed_on": "2026-10-09",
-        "extent": "18段篇文及1段索隱述贊，無需排除數位欄題。",
-        "image_verified": false,
-        "rights": "古代原文；數位轉錄依維基文庫CC BY-SA 4.0，保留署名及固定版本。",
-        "license_url": "https://creativecommons.org/licenses/by-sa/4.0/",
-        "normalization": {
-          "character_conversion": {},
-          "editorial_readings": [],
-          "extraction_note": "取得時HTML與固定修訂一致，只去外緣空白。保留夷[1]、高祖（三）［二］年、齊故［俗］、田既／田溉、共侯及末段索隱標記。夷後[1]是數位注釋標號，不當古文；同版注釋稱此字作上尸下二，未核底本不改字。",
-          "note": "全19段已讀並作明示人物首輪；未核底本、影像或現代研究。"
-        }
-      }
+      "chapter_ref": "data/corpus/shiji/054.json"
     },
     {
       "chapter_id": "c-shiji-080-leyi",
       "work_id": "w-shiji",
       "book_id": "b-shiji-080",
       "source_id": "s-shiji-080-leyi",
-      "source": {
-        "title": "史記／卷080",
-        "provider": "維基文庫",
-        "url": "https://zh.wikisource.org/wiki/史記/卷080",
-        "permalink": "https://zh.wikisource.org/w/index.php?title=史記/卷080&oldid=2089316",
-        "revision_id": 2089316,
-        "accessed_on": "2026-10-09",
-        "extent": "20段正文，自樂毅者至太史公論述師承；HTML題頭與評論篇界已核，無索隱述贊混入。",
-        "image_verified": false,
-        "rights": "古代原文；數位轉錄依維基文庫CC BY-SA 4.0，保留署名及固定版本。",
-        "license_url": "https://creativecommons.org/licenses/by-sa/4.0/",
-        "normalization": {
-          "character_conversion": {},
-          "editorial_readings": [],
-          "extraction_note": "固定HTML與取得時版本一致，只去外緣空白；上書dd保持原序，異體不擅校。",
-          "note": "全20段正文、HTML篇界及姓名首輪已核讀；未核底本影像或現代研究。"
-        }
-      }
+      "chapter_ref": "data/corpus/shiji/080.json"
     },
     {
       "chapter_id": "c-shiji-130-taishigong",
       "work_id": "w-shiji",
       "book_id": "b-shiji-130",
       "source_id": "s-shiji130-taishigong",
-      "source": {
-        "title": "史記／卷130",
-        "provider": "維基文庫",
-        "url": "https://zh.wikisource.org/wiki/史記/卷130",
-        "permalink": "https://zh.wikisource.org/w/index.php?title=史記/卷130&oldid=2609362",
-        "revision_id": 2609362,
-        "accessed_on": "2026-10-11",
-        "extent": "固定修訂全文143段，全部篇文。",
-        "image_verified": false,
-        "rights": "古代原文；數位轉錄依維基文庫CC BY-SA 4.0，保留署名及固定版本。",
-        "license_url": "https://creativecommons.org/licenses/by-sa/4.0/",
-        "normalization": {
-          "character_conversion": {},
-          "editorial_readings": [],
-          "extraction_note": "去header2及現代節標，移除維基引文縮排冒號，保留原字，未核影像。",
-          "note": "全文入庫不等於全部提及已標註；目錄段落仍待逐段處理。"
-        }
-      }
+      "chapter_ref": "data/corpus/shiji/130.json"
     }
   ],
   "relations": [],

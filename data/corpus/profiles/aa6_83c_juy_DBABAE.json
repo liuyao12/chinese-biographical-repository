@@ -20,7 +20,6 @@
       "raw_count": 1,
       "duplicate_count": 0,
       "counting_policy": "independent_fixed_witness_occurrences",
-      "quote": "，陳郡陽夏人也。祖弘微，宋太常。父莊，金紫光祿大夫。𤅢四兄颺、朏、顥、嵷，世謂謝莊名兒爲風、月、景、山、水。顥字仁悠，少簡靜。解褐祕書郎，累至太祖驃騎從事中郎。建元初，爲吏部郎，至太尉從事中郎。永明初，高選友、學，以顥爲竟陵王友。至北中郎長史。卒。",
       "paragraph_ids": [
         "c-nanqishu-043-xieyue:p001"
       ],
@@ -44,7 +43,12 @@
       "book_id": "b-nanqishu-043",
       "chapter_id": "c-nanqishu-043-xieyue",
       "source_id": "s-nanqishu043-ws2400356",
-      "work_title": "南齊書"
+      "work_title": "南齊書",
+      "chapter_ref": "data/corpus/nanqishu/043-xieyue.json",
+      "quote_span": [
+        5,
+        129
+      ]
     }
   ],
   "table_occurrences": [],
@@ -54,29 +58,7 @@
       "work_id": "w-nanqishu",
       "book_id": "b-nanqishu-043",
       "source_id": "s-nanqishu043-ws2400356",
-      "source": {
-        "title": "《南齊書》卷四十三謝𤅢完整本傳（含兄顥附傳）",
-        "provider": "Wikisource",
-        "url": "https://zh.wikisource.org/w/index.php?title=南齊書/卷43&oldid=2400356",
-        "permalink": "https://zh.wikisource.org/w/index.php?title=南齊書/卷43&oldid=2400356",
-        "revision_id": 2400356,
-        "accessed_on": "2026-10-21",
-        "extent": "原行53至67共八完整段，謝𤅢本傳含顥附傳；止王思遠傳前，非全卷。",
-        "text_scope": "partial_chapter",
-        "review_status": "text_checked",
-        "image_verified": false,
-        "rights": "古代原文及維基文庫數位轉錄；保留數位歸屬。",
-        "license_url": "https://creativecommons.org/licenses/by-sa/4.0/",
-        "edition": "維基文庫數位轉錄，未核底本影像",
-        "response_sha256": "3a6a97e651528165730c9449870379efdfddd44a36b17e7600fab6060b7b24ae",
-        "wikitext_sha256": "7a65e9b58b508ef0dbc64a4a650c99c30dcd94f8f13ea9a23d171f539174baed",
-        "normalization": {
-          "character_conversion": {
-            "{{!|𤅢|左「氵」右「𦿈」}}": "𤅢"
-          },
-          "extraction_note": "僅展開字形模板與YL日期連結，去兩全形縮排；不轉瀹、不改鞭除身或爲/爲等原字。"
-        }
-      }
+      "chapter_ref": "data/corpus/nanqishu/043-xieyue.json"
     }
   ],
   "relations": [
@@ -122,9 +104,9 @@
           "source_id": "s-nanqishu043-ws2400356",
           "chapter_id": "c-nanqishu-043-xieyue",
           "paragraph_id": "c-nanqishu-043-xieyue:p001",
-          "quote": "謝𤅢字義潔，陳郡陽夏人也。祖弘微，宋太常。父莊，金紫光祿大夫。𤅢四兄颺、朏、顥、嵷，世謂謝莊名兒爲風、月、景、山、水。顥字仁悠，少簡靜。解褐祕書郎，累至太祖驃騎從事中郎。建元初，爲吏部郎，至太尉從事中郎。永明初，高選友、學，以顥爲竟陵王友。至北中郎長史。卒。",
           "subject_person_mention_id": "c-nanqishu-043-xieyue:p001:m0040",
-          "object_person_mention_id": "c-nanqishu-043-xieyue:p001:m0031"
+          "object_person_mention_id": "c-nanqishu-043-xieyue:p001:m0031",
+          "quote_passage_ref": "data/corpus/nanqishu/043-xieyue.json"
         }
       ],
       "interpretation_note": "四兄逐人皆年長於𤅢，未記四兄彼此排序、絕對排行或同母。"
@@ -182,9 +164,9 @@
           "source_id": "s-nanqishu043-ws2400356",
           "chapter_id": "c-nanqishu-043-xieyue",
           "paragraph_id": "c-nanqishu-043-xieyue:p001",
-          "quote": "謝𤅢字義潔，陳郡陽夏人也。祖弘微，宋太常。父莊，金紫光祿大夫。𤅢四兄颺、朏、顥、嵷，世謂謝莊名兒爲風、月、景、山、水。顥字仁悠，少簡靜。解褐祕書郎，累至太祖驃騎從事中郎。建元初，爲吏部郎，至太尉從事中郎。永明初，高選友、學，以顥爲竟陵王友。至北中郎長史。卒。",
           "subject_person_mention_id": "c-nanqishu-043-xieyue:p001:m0040",
-          "object_person_mention_id": "c-nanqishu-043-xieyue:p001:m0031"
+          "object_person_mention_id": "c-nanqishu-043-xieyue:p001:m0031",
+          "quote_passage_ref": "data/corpus/nanqishu/043-xieyue.json"
         }
       ],
       "interpretation_note": "四兄逐人皆年長於𤅢，未記四兄彼此排序、絕對排行或同母。"
@@ -214,10 +196,10 @@
           "chapter_id": "c-nanqishu-043-xieyue",
           "source_id": "s-nanqishu043-ws2400356",
           "paragraph_id": "c-nanqishu-043-xieyue:p001",
-          "quote": "謝𤅢字義潔，陳郡陽夏人也。祖弘微，宋太常。父莊，金紫光祿大夫。𤅢四兄颺、朏、顥、嵷，世謂謝莊名兒爲風、月、景、山、水。顥字仁悠，少簡靜。解褐祕書郎，累至太祖驃騎從事中郎。建元初，爲吏部郎，至太尉從事中郎。永明初，高選友、學，以顥爲竟陵王友。至北中郎長史。卒。",
           "scope": "同段明父莊與四兄、名兒語境；顥嵷同父為編輯組裝",
           "url": "https://zh.wikisource.org/w/index.php?title=南齊書/卷43&oldid=2400356",
-          "assertion_id": "a-nanqi043-xieyue-elder-fourth"
+          "assertion_id": "a-nanqi043-xieyue-elder-fourth",
+          "quote_passage_ref": "data/corpus/nanqishu/043-xieyue.json"
         }
       ]
     },

@@ -21,7 +21,7 @@
           "chapter_id": "c-shiji-003-yin",
           "source_id": "s-shiji-003-yin",
           "paragraph_id": "c-shiji-003-yin:p027",
-          "quote": "帝乙長子曰微子啓，啓母賤，不得嗣。少子辛，辛母正后，辛為嗣。帝乙崩，子辛立，是為帝辛，天下謂之紂。"
+          "quote_passage_ref": "data/corpus/shiji/003.json"
         }
       ],
       "attestations": [
@@ -64,7 +64,6 @@
       "raw_count": 1,
       "duplicate_count": 0,
       "counting_policy": "independent_fixed_witness_occurrences",
-      "quote": "帝乙長子曰微子啓，啓母賤，不得嗣。少子辛，辛母正后，辛為嗣。帝乙崩，子辛立，是為帝辛，天下謂之紂。",
       "paragraph_ids": [
         "c-shiji-003-yin:p027"
       ],
@@ -88,7 +87,12 @@
       "book_id": "b-shiji-003",
       "chapter_id": "c-shiji-003-yin",
       "source_id": "s-shiji-003-yin",
-      "work_title": "史記"
+      "work_title": "史記",
+      "chapter_ref": "data/corpus/shiji/003.json",
+      "quote_span": [
+        0,
+        49
+      ]
     }
   ],
   "table_occurrences": [],
@@ -98,24 +102,7 @@
       "work_id": "w-shiji",
       "book_id": "b-shiji-003",
       "source_id": "s-shiji-003-yin",
-      "source": {
-        "title": "史記／卷003",
-        "provider": "維基文庫",
-        "url": "https://zh.wikisource.org/wiki/史記/卷003",
-        "permalink": "https://zh.wikisource.org/w/index.php?title=史記/卷003&oldid=7909145",
-        "revision_id": 7909145,
-        "accessed_on": "2026-10-09",
-        "extent": "正文全文；不含現代章節標題與註號。",
-        "image_verified": false,
-        "rights": "古代原文；數位轉錄依維基文庫 CC BY-SA 4.0，保留署名及固定版本。",
-        "license_url": "https://creativecommons.org/licenses/by-sa/4.0/",
-        "normalization": {
-          "character_conversion": {
-            "弃": "棄"
-          },
-          "note": "只轉換棄字字形；保留中𤳹、筑、犇等來源字形，移除現代註號。"
-        }
-      }
+      "chapter_ref": "data/corpus/shiji/003.json"
     }
   ],
   "relations": [

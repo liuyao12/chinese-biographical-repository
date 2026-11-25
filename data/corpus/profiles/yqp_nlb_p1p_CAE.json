@@ -22,7 +22,6 @@
       "raw_count": 2,
       "duplicate_count": 0,
       "counting_policy": "independent_fixed_witness_occurrences",
-      "quote": "得五萬人，別循江淮而上，收淮南、長沙，入武關，與大王會，此亦一奇也。」吳王太子諫曰：「王以反為名，此兵難以藉人，人亦且反王，柰何？且擅兵而別，多它利害，徒自損耳。」吳王即不許田祿伯。",
       "paragraph_ids": [
         "c-hanshu-035-jingyanwu:wuwang:p014",
         "c-hanshu-035-jingyanwu:wuwang:p018"
@@ -56,7 +55,12 @@
       "book_id": "b-hanshu-035",
       "chapter_id": "c-hanshu-035-jingyanwu",
       "source_id": "s-hanshu-035-jingyanwu",
-      "work_title": "漢書"
+      "work_title": "漢書",
+      "chapter_ref": "data/corpus/hanshu/035.json",
+      "quote_span": [
+        41,
+        132
+      ]
     },
     {
       "number": 106,
@@ -67,7 +71,6 @@
       "raw_count": 2,
       "duplicate_count": 0,
       "counting_policy": "independent_fixed_witness_occurrences",
-      "quote": "得五萬人，別循江淮而上，收淮南、長沙，入武關，與大王會，此亦一奇也。」吳王太子諫曰：「王以反為名，此兵難以藉人，藉人亦且反王，柰何？且擅兵而別，多佗利害，未可知也，徒自損耳。」吳王即不許田祿伯。",
       "paragraph_ids": [
         "c-shiji-106-wuwang:p013",
         "c-shiji-106-wuwang:p017"
@@ -101,7 +104,12 @@
       "book_id": "b-shiji-106",
       "chapter_id": "c-shiji-106-wuwang",
       "source_id": "s-shiji-106-wuwang",
-      "work_title": "史記"
+      "work_title": "史記",
+      "chapter_ref": "data/corpus/shiji/106.json",
+      "quote_span": [
+        41,
+        138
+      ]
     },
     {
       "number": 114,
@@ -112,7 +120,6 @@
       "raw_count": 1,
       "duplicate_count": 0,
       "counting_policy": "independent_fixed_witness_occurrences",
-      "quote": "吳王子子駒亡走閩越，怨東甌殺其父，常勸閩越擊東甌。至建元三年，閩越發兵圍東甌。東甌食盡，困，且降，乃使人告急天子。天子問太尉田蚡，蚡對曰：「越人相攻擊，固其常，又數反覆，不足以煩中國往救也。自秦時棄弗屬。」於是",
       "paragraph_ids": [
         "c-shiji-114-dongyue:p003"
       ],
@@ -136,7 +143,12 @@
       "book_id": "b-shiji-114",
       "chapter_id": "c-shiji-114-dongyue",
       "source_id": "s-shiji114-dongyue",
-      "work_title": "史記"
+      "work_title": "史記",
+      "chapter_ref": "data/corpus/shiji/114.json",
+      "quote_span": [
+        0,
+        105
+      ]
     }
   ],
   "table_occurrences": [],
@@ -146,79 +158,21 @@
       "work_id": "w-hanshu",
       "book_id": "b-hanshu-035",
       "source_id": "s-hanshu-035-jingyanwu",
-      "source": {
-        "title": "漢書／卷035",
-        "provider": "維基文庫",
-        "url": "https://zh.wikisource.org/wiki/漢書/卷035",
-        "permalink": "https://zh.wikisource.org/w/index.php?title=漢書/卷035&oldid=2605377",
-        "revision_id": 2605377,
-        "accessed_on": "2026-10-15",
-        "extent": "目前錄吳王傳八個不連續段落；荊王、燕王、其他吳王段及贊未錄，不代表全卷完成。",
-        "text_scope": "partial_chapter",
-        "image_verified": false,
-        "review_status": "text_checked",
-        "normalization": {
-          "character_conversion": {},
-          "editorial_readings": [],
-          "extraction_note": "固定HTML的p元素，去段首尾空白、解碼HTML實體，不合併原段，不改古字。"
-        },
-        "html_sha256": "2e018b66d35e2de08408e9123eeb1e48966d649e98c66f2b89d4e11ef4811f9f",
-        "included_sections": [
-          "吳王傳八個不連續段落"
-        ],
-        "license_url": "https://creativecommons.org/licenses/by-sa/4.0/",
-        "rights": "古代原文；維基文庫數位轉錄依CC BY-SA 4.0，保留貢獻者署名及固定修訂連結。",
-        "edition": null,
-        "revision_timestamp": null
-      }
+      "chapter_ref": "data/corpus/hanshu/035.json"
     },
     {
       "chapter_id": "c-shiji-106-wuwang",
       "work_id": "w-shiji",
       "book_id": "b-shiji-106",
       "source_id": "s-shiji-106-wuwang",
-      "source": {
-        "title": "史記／卷106",
-        "provider": "維基文庫",
-        "url": "https://zh.wikisource.org/wiki/史記/卷106",
-        "permalink": "https://zh.wikisource.org/w/index.php?title=史記/卷106&oldid=405869",
-        "revision_id": 405869,
-        "accessed_on": "2026-10-10",
-        "extent": "20段正文含書信、制詔與太史公論，1段索隱述贊。",
-        "image_verified": false,
-        "rights": "古代原文；數位轉錄依維基文庫CC BY-SA 4.0，保留署名及固定版本。",
-        "license_url": "https://creativecommons.org/licenses/by-sa/4.0/",
-        "normalization": {
-          "character_conversion": {},
-          "editorial_readings": [],
-          "extraction_note": "去標題與介面模板，原字、標點及段落次序保留。",
-          "note": "未核底本影像。"
-        }
-      }
+      "chapter_ref": "data/corpus/shiji/106.json"
     },
     {
       "chapter_id": "c-shiji-114-dongyue",
       "work_id": "w-shiji",
       "book_id": "b-shiji-114",
       "source_id": "s-shiji114-dongyue",
-      "source": {
-        "title": "史記／卷114",
-        "provider": "維基文庫",
-        "url": "https://zh.wikisource.org/wiki/史記/卷114",
-        "permalink": "https://zh.wikisource.org/w/index.php?title=史記/卷114&oldid=8735633",
-        "revision_id": 8735633,
-        "accessed_on": "2026-10-11",
-        "extent": "固定數位見證11段正文，沒有索隱述贊。",
-        "image_verified": false,
-        "rights": "古代原文；數位轉錄依維基文庫CC BY-SA 4.0，保留署名及固定版本。",
-        "license_url": "https://creativecommons.org/licenses/by-sa/4.0/",
-        "normalization": {
-          "character_conversion": {},
-          "editorial_readings": [],
-          "extraction_note": "去header2、現代節標題與YL模板外殼，紀年及正文原字保留，未核底本影像。",
-          "note": "太史公曰仍屬正文，未補此見證未載的索隱述贊。"
-        }
-      }
+      "chapter_ref": "data/corpus/shiji/114.json"
     }
   ],
   "relations": [
@@ -233,7 +187,7 @@
           "chapter_id": "c-shiji-106-wuwang",
           "source_id": "s-shiji-106-wuwang",
           "paragraph_id": "c-shiji-106-wuwang:p013",
-          "quote": "吳王之初發也，吳臣田祿伯為大將軍。田祿伯曰：「兵屯聚而西，無佗奇道，難以就功。臣願得五萬人，別循江淮而上，收淮南、長沙，入武關，與大王會，此亦一奇也。」吳王太子諫曰：「王以反為名，此兵難以藉人，藉人亦且反王，柰何？且擅兵而別，多佗利害，未可知也，徒自損耳。」吳王即不許田祿伯。"
+          "quote_passage_ref": "data/corpus/shiji/106.json"
         }
       ],
       "qualifiers": {
@@ -254,7 +208,7 @@
           "chapter_id": "c-shiji-106-wuwang",
           "source_id": "s-shiji-106-wuwang",
           "paragraph_id": "c-shiji-106-wuwang:p017",
-          "quote": "初，吳王之度淮，與楚王遂西敗棘壁，乘勝前，銳甚。梁孝王恐，遣六將軍擊吳，又敗梁兩將，士卒皆還走梁。梁數使使報條侯求救，條侯不許。又使使惡條侯於上，上使人告條侯救梁，復守便宜不行。梁使韓安國及楚死事相弟張羽為將軍，乃得頗敗吳兵。吳兵欲西，梁城守堅，不敢西，即走條侯軍，會下邑。欲戰，條侯壁，不肯戰。吳糧絕，卒饑，數挑戰，遂夜奔條侯壁，驚東南。條侯使備西北，果從西北入。吳大敗，士卒多饑死，乃畔散。於是吳王乃與其麾下壯士數千人夜亡去，度江走丹徒，保東越。東越兵可萬餘人，乃使人收聚亡卒。漢使人以利啗東越，東越即紿吳王，吳王出勞軍，即使人鏦殺吳王，盛其頭，馳傳以聞。吳王子子華、子駒亡走閩越。吳王之棄其軍亡也，軍遂潰，往往稍降太尉、梁軍。楚王戊軍敗，自殺。"
+          "quote_passage_ref": "data/corpus/shiji/106.json"
         }
       ],
       "qualifiers": {
@@ -275,13 +229,13 @@
           "chapter_id": "c-shiji-114-dongyue",
           "source_id": "s-shiji114-dongyue",
           "paragraph_id": "c-shiji-114-dongyue:p002",
-          "quote": "後數世，至孝景三年，吳王濞反，欲從閩越，閩越未肯行，獨東甌從吳。及吳破，東甌受漢購，殺吳王丹徒，以故皆得不誅，歸國。"
+          "quote_passage_ref": "data/corpus/shiji/114.json"
         },
         {
           "chapter_id": "c-shiji-114-dongyue",
           "source_id": "s-shiji114-dongyue",
           "paragraph_id": "c-shiji-114-dongyue:p003",
-          "quote": "吳王子子駒亡走閩越，怨東甌殺其父，常勸閩越擊東甌。至建元三年，閩越發兵圍東甌。東甌食盡，困，且降，乃使人告急天子。天子問太尉田蚡，蚡對曰：「越人相攻擊，固其常，又數反覆，不足以煩中國往救也。自秦時棄弗屬。」於是中大夫莊助詰蚡曰：「特患力弗能救，德弗能覆；誠能，何故棄之？且秦舉咸陽而棄之，何乃越也！今小國以窮困來告急天子，天子弗振，彼當安所告愬？又何以子萬國乎？」上曰：「太尉未足與計。吾初即位，不欲出虎符發兵郡國。」乃遣莊助以節發兵會稽。會稽太守欲距不為發兵，助乃斬一司馬，諭意指，遂發兵浮海救東甌。未至，閩越引兵而去。東甌請舉國徙中國，乃悉舉眾來，處江淮之閒。"
+          "quote_passage_ref": "data/corpus/shiji/114.json"
         }
       ],
       "qualifiers": {
@@ -338,7 +292,7 @@
           "chapter_id": "c-shiji-106-wuwang",
           "source_id": "s-shiji-106-wuwang",
           "paragraph_id": "c-shiji-106-wuwang:p013",
-          "quote": "吳王之初發也，吳臣田祿伯為大將軍。田祿伯曰：「兵屯聚而西，無佗奇道，難以就功。臣願得五萬人，別循江淮而上，收淮南、長沙，入武關，與大王會，此亦一奇也。」吳王太子諫曰：「王以反為名，此兵難以藉人，藉人亦且反王，柰何？且擅兵而別，多佗利害，未可知也，徒自損耳。」吳王即不許田祿伯。"
+          "quote_passage_ref": "data/corpus/shiji/106.json"
         }
       ],
       "qualifiers": {
@@ -359,7 +313,7 @@
           "chapter_id": "c-shiji-106-wuwang",
           "source_id": "s-shiji-106-wuwang",
           "paragraph_id": "c-shiji-106-wuwang:p017",
-          "quote": "初，吳王之度淮，與楚王遂西敗棘壁，乘勝前，銳甚。梁孝王恐，遣六將軍擊吳，又敗梁兩將，士卒皆還走梁。梁數使使報條侯求救，條侯不許。又使使惡條侯於上，上使人告條侯救梁，復守便宜不行。梁使韓安國及楚死事相弟張羽為將軍，乃得頗敗吳兵。吳兵欲西，梁城守堅，不敢西，即走條侯軍，會下邑。欲戰，條侯壁，不肯戰。吳糧絕，卒饑，數挑戰，遂夜奔條侯壁，驚東南。條侯使備西北，果從西北入。吳大敗，士卒多饑死，乃畔散。於是吳王乃與其麾下壯士數千人夜亡去，度江走丹徒，保東越。東越兵可萬餘人，乃使人收聚亡卒。漢使人以利啗東越，東越即紿吳王，吳王出勞軍，即使人鏦殺吳王，盛其頭，馳傳以聞。吳王子子華、子駒亡走閩越。吳王之棄其軍亡也，軍遂潰，往往稍降太尉、梁軍。楚王戊軍敗，自殺。"
+          "quote_passage_ref": "data/corpus/shiji/106.json"
         }
       ],
       "qualifiers": {
@@ -380,13 +334,13 @@
           "chapter_id": "c-shiji-114-dongyue",
           "source_id": "s-shiji114-dongyue",
           "paragraph_id": "c-shiji-114-dongyue:p002",
-          "quote": "後數世，至孝景三年，吳王濞反，欲從閩越，閩越未肯行，獨東甌從吳。及吳破，東甌受漢購，殺吳王丹徒，以故皆得不誅，歸國。"
+          "quote_passage_ref": "data/corpus/shiji/114.json"
         },
         {
           "chapter_id": "c-shiji-114-dongyue",
           "source_id": "s-shiji114-dongyue",
           "paragraph_id": "c-shiji-114-dongyue:p003",
-          "quote": "吳王子子駒亡走閩越，怨東甌殺其父，常勸閩越擊東甌。至建元三年，閩越發兵圍東甌。東甌食盡，困，且降，乃使人告急天子。天子問太尉田蚡，蚡對曰：「越人相攻擊，固其常，又數反覆，不足以煩中國往救也。自秦時棄弗屬。」於是中大夫莊助詰蚡曰：「特患力弗能救，德弗能覆；誠能，何故棄之？且秦舉咸陽而棄之，何乃越也！今小國以窮困來告急天子，天子弗振，彼當安所告愬？又何以子萬國乎？」上曰：「太尉未足與計。吾初即位，不欲出虎符發兵郡國。」乃遣莊助以節發兵會稽。會稽太守欲距不為發兵，助乃斬一司馬，諭意指，遂發兵浮海救東甌。未至，閩越引兵而去。東甌請舉國徙中國，乃悉舉眾來，處江淮之閒。"
+          "quote_passage_ref": "data/corpus/shiji/114.json"
         }
       ],
       "qualifiers": {

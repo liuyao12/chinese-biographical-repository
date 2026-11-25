@@ -25,7 +25,7 @@
           "chapter_id": "c-shiji-067-disciples",
           "source_id": "s-shiji-067-disciples",
           "paragraph_id": "c-shiji-067-disciples:p016",
-          "quote": "冉求字子有，少孔子二十九歳。爲季氏宰。"
+          "quote_passage_ref": "data/corpus/shiji/067.json"
         }
       ],
       "attestations": [
@@ -67,7 +67,6 @@
       "raw_count": 10,
       "duplicate_count": 0,
       "counting_policy": "independent_fixed_witness_occurrences",
-      "quote": "者七十有七人」，皆異能之士也。德行：顏淵，閔子騫，冉伯牛，仲弓。政事：冉有，季路。言語：宰我，子貢。文學：子游，子夏。師也辟，參也魯，柴也愚，由也喭，回也屢空。賜不受命而貨殖焉，億則屢中。",
       "paragraph_ids": [
         "c-shiji-067-disciples:p001",
         "c-shiji-067-disciples:p016",
@@ -176,7 +175,12 @@
       "book_id": "b-shiji-067",
       "chapter_id": "c-shiji-067-disciples",
       "source_id": "s-shiji-067-disciples",
-      "work_title": "史記"
+      "work_title": "史記",
+      "chapter_ref": "data/corpus/shiji/067.json",
+      "quote_span": [
+        8,
+        102
+      ]
     }
   ],
   "table_occurrences": [],
@@ -186,24 +190,7 @@
       "work_id": "w-shiji",
       "book_id": "b-shiji-067",
       "source_id": "s-shiji-067-disciples",
-      "source": {
-        "title": "史記／卷067",
-        "provider": "維基文庫",
-        "url": "https://zh.wikisource.org/wiki/史記/卷067",
-        "permalink": "https://zh.wikisource.org/w/index.php?title=史記/卷067&oldid=7869003",
-        "revision_id": 7869003,
-        "accessed_on": "2026-10-09",
-        "extent": "152段正文，自孔子曰受業身通者至太史公論贊；排除ws-header中的導覽名單、後附索隱述贊及現代版權告示。",
-        "image_verified": false,
-        "rights": "古代原文；數位轉錄依維基文庫CC BY-SA 4.0，保留署名及固定版本。",
-        "license_url": "https://creativecommons.org/licenses/by-sa/4.0/",
-        "normalization": {
-          "character_conversion": {},
-          "editorial_readings": [],
-          "extraction_note": "取得時HTML與固定修訂一致，只去外緣空白；保留髙、歳、衞、漆彫、曾蒧等原字。導覽名單與正文異體不混接。",
-          "note": "全152段已核讀，人物標註待逐段處理；未核可靠底本、影像或現代研究。"
-        }
-      }
+      "chapter_ref": "data/corpus/shiji/067.json"
     }
   ],
   "relations": [],

@@ -21,7 +21,7 @@
           "chapter_id": "c-shiji-035-guancai",
           "source_id": "s-shiji-035-guancai",
           "paragraph_id": "c-shiji-035-guancai:p041",
-          "quote": "伯陽三年，國人有夢眾君子立于社宮，謀欲亡曹；曹叔振鐸止之，請待公孫彊，許之。旦，求之曹，無此人。夢者戒其子曰：「我亡，爾聞公孫彊為政，必去曹，無離曹禍。」及伯陽即位，好田弋之事。六年，曹野人公孫彊亦好田弋，獲白鴈而獻之，且言田弋之說，因訪政事。伯陽大說之，有寵，使為司城以聽政。夢者之子乃亡去。"
+          "quote_passage_ref": "data/corpus/shiji/035.json"
         }
       ],
       "attestations": [
@@ -45,7 +45,7 @@
               "chapter_id": "c-shiji-035-guancai",
               "source_id": "s-shiji-035-guancai",
               "paragraph_id": "c-shiji-035-guancai:p041",
-              "quote": "伯陽三年，國人有夢眾君子立于社宮，謀欲亡曹；曹叔振鐸止之，請待公孫彊，許之。旦，求之曹，無此人。夢者戒其子曰：「我亡，爾聞公孫彊為政，必去曹，無離曹禍。」及伯陽即位，好田弋之事。六年，曹野人公孫彊亦好田弋，獲白鴈而獻之，且言田弋之說，因訪政事。伯陽大說之，有寵，使為司城以聽政。夢者之子乃亡去。"
+              "quote_passage_ref": "data/corpus/shiji/035.json"
             }
           ]
         },
@@ -71,7 +71,6 @@
       "raw_count": 1,
       "duplicate_count": 0,
       "counting_policy": "independent_fixed_witness_occurrences",
-      "quote": "車騎甚衆以物呈廟云誅大将軍曹爽窹而以告其邑人邑人曰君欲作曹人之夢乎朝無公孫彊如何且爽兄弟典重兵又權尚書事誰敢謀之謐曰爽無叔振鐸之請茍失天機則離矣何恃於彊昔漢之閻顯倚母后之尊權國威命可謂至重矣閹人十九人一旦尸之況爽兄弟乎",
       "paragraph_ids": [
         "c-sanguozhi-009-caozhen:p035"
       ],
@@ -95,7 +94,12 @@
       "book_id": "b-sanguozhi-009",
       "chapter_id": "c-sanguozhi-009-caozhen",
       "source_id": "s-sanguozhi-009-caozhen",
-      "work_title": "三國志"
+      "work_title": "三國志",
+      "chapter_ref": "data/corpus/sanguozhi/009-caozhen.json",
+      "quote_span": [
+        22,
+        131
+      ]
     },
     {
       "number": 35,
@@ -106,7 +110,6 @@
       "raw_count": 6,
       "duplicate_count": 0,
       "counting_policy": "independent_fixed_witness_occurrences",
-      "quote": "伯陽三年，國人有夢眾君子立于社宮，謀欲亡曹；曹叔振鐸止之，請待公孫彊，許之。旦，求之曹，無此人。夢者戒其子曰：「我亡，爾聞公孫彊為政，必去曹，無離曹禍。」及伯陽即位，好田弋之事。六年，曹野人公孫彊亦好田弋，獲白鴈而獻之，且言田弋之說，因訪政事。伯陽大說之，有寵，使為司",
       "paragraph_ids": [
         "c-shiji-035-guancai:p041",
         "c-shiji-035-guancai:p042",
@@ -177,7 +180,12 @@
       "book_id": "b-shiji-035",
       "chapter_id": "c-shiji-035-guancai",
       "source_id": "s-shiji-035-guancai",
-      "work_title": "史記"
+      "work_title": "史記",
+      "chapter_ref": "data/corpus/shiji/035.json",
+      "quote_span": [
+        0,
+        134
+      ]
     }
   ],
   "table_occurrences": [],
@@ -187,51 +195,14 @@
       "work_id": "w-sanguozhi",
       "book_id": "b-sanguozhi-009",
       "source_id": "s-sanguozhi-009-caozhen",
-      "source": {
-        "title": "三國志卷九曹真曹爽完整本傳及裴注",
-        "provider": "Kanripo",
-        "url": "https://raw.githubusercontent.com/kanripo/KR2a0012/214fcafa79894355909c9d8c2c1533089e7791c6/KR2a0012_009.txt",
-        "permalink": "https://raw.githubusercontent.com/kanripo/KR2a0012/214fcafa79894355909c9d8c2c1533089e7791c6/KR2a0012_009.txt",
-        "revision_id": "214fcafa79894355909c9d8c2c1533089e7791c6",
-        "accessed_on": "2026-10-20",
-        "edition": "四庫全書數位固定見證；未核影像",
-        "extent": "固定原行309–563；564夏侯尚不含。",
-        "text_scope": "partial_chapter",
-        "review_status": "text_checked",
-        "image_verified": false,
-        "license_url": "https://github.com/kanripo/KR2a0012",
-        "rights": "古代正文與公開Kanripo轉錄",
-        "raw_sha256": "dd430a2e31130eb1c392b1e2a034686685fed0366ff713ece75226ba8cdedf03",
-        "normalization": {
-          "character_conversion": "none",
-          "extraction_note": "刪¶與頁標、合併行及移除注括號語法；保眀年即位、毛椽等原字。382–384行括號誤斷的連續注句按語義整段保為裴注，原始位元組另存。",
-          "excerpts": []
-        }
-      }
+      "chapter_ref": "data/corpus/sanguozhi/009-caozhen.json"
     },
     {
       "chapter_id": "c-shiji-035-guancai",
       "work_id": "w-shiji",
       "book_id": "b-shiji-035",
       "source_id": "s-shiji-035-guancai",
-      "source": {
-        "title": "史記／卷035",
-        "provider": "維基文庫",
-        "url": "https://zh.wikisource.org/wiki/史記/卷035",
-        "permalink": "https://zh.wikisource.org/w/index.php?title=史記/卷035&oldid=8737302",
-        "revision_id": 8737302,
-        "accessed_on": "2026-10-09",
-        "extent": "正文43個p區塊，含管蔡世系及曹國世系，自管叔鮮至末尾太史公論贊；排除兩個dd導覽。",
-        "image_verified": false,
-        "rights": "古代原文；數位轉錄依維基文庫CC BY-SA 4.0，保留署名及固定版本。",
-        "license_url": "https://creativecommons.org/licenses/by-sa/4.0/",
-        "normalization": {
-          "character_conversion": {},
-          "editorial_readings": [],
-          "extraction_note": "固定版本與實讀HTML一致。原字、醳、云及平公（頃）［須］等數位見證校勘字樣保留，不由記憶選改。",
-          "note": "未核可靠底本、影像或現代研究。夢中敘事、蔡曹世系、異字名及爵位時段不據此作已確證史實。"
-        }
-      }
+      "chapter_ref": "data/corpus/shiji/035.json"
     }
   ],
   "relations": [],
@@ -251,19 +222,19 @@
       "evidence": [
         {
           "paragraph_id": "c-shiji-035-guancai:p037",
-          "quote": "二十五年，晉文公卒。三十五年，共公卒，子文公壽立。文公二十三年卒，子宣公彊立。宣公十七年卒，弟成公負芻立。",
           "chapter_id": "c-shiji-035-guancai",
           "work_id": "w-shiji",
           "book_id": "b-shiji-035",
-          "source_id": "s-shiji-035-guancai"
+          "source_id": "s-shiji-035-guancai",
+          "quote_passage_ref": "data/corpus/shiji/035.json"
         },
         {
           "paragraph_id": "c-shiji-035-guancai:p041",
-          "quote": "伯陽三年，國人有夢眾君子立于社宮，謀欲亡曹；曹叔振鐸止之，請待公孫彊，許之。旦，求之曹，無此人。夢者戒其子曰：「我亡，爾聞公孫彊為政，必去曹，無離曹禍。」及伯陽即位，好田弋之事。六年，曹野人公孫彊亦好田弋，獲白鴈而獻之，且言田弋之說，因訪政事。伯陽大說之，有寵，使為司城以聽政。夢者之子乃亡去。",
           "chapter_id": "c-shiji-035-guancai",
           "work_id": "w-shiji",
           "book_id": "b-shiji-035",
-          "source_id": "s-shiji-035-guancai"
+          "source_id": "s-shiji-035-guancai",
+          "quote_passage_ref": "data/corpus/shiji/035.json"
         }
       ],
       "rationale": "曹宣公與後世曹伯陽時任司城的公孫彊為不同人物，不因單字彊合併。",
@@ -288,8 +259,8 @@
           "chapter_id": "c-shiji-035-guancai",
           "source_id": "s-shiji-035-guancai",
           "paragraph_id": "c-shiji-035-guancai:p042",
-          "quote": "公孫彊言霸說於曹伯。十四年，曹伯從之，乃背晉干宋。宋景公伐之，晉人不救。十五年，宋滅曹，執曹伯陽及公孫彊以歸而殺之。曹遂絕其祀。",
-          "person_mention_id": "c-shiji-035-guancai:m042-0000"
+          "person_mention_id": "c-shiji-035-guancai:m042-0000",
+          "quote_passage_ref": "data/corpus/shiji/035.json"
         }
       ],
       "source_term": "執曹伯陽及公孫彊以歸而殺之",

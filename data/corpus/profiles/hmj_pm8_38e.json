@@ -22,7 +22,7 @@
           "chapter_id": "c-shiji-108-han",
           "source_id": "s-shiji-108-han",
           "paragraph_id": "c-shiji-108-han:p014",
-          "quote": "太史公曰：余與壺遂定律暦，觀韓長孺之義，壺遂之深中隱厚。世之言梁多長者，不虛哉！壺遂官至詹事，天子方倚以爲漢相，會遂卒。不然，壺遂之內廉行修，斯鞠躬君子也。"
+          "quote_passage_ref": "data/corpus/shiji/108.json"
         }
       ],
       "attestations": [
@@ -64,7 +64,7 @@
           "chapter_id": "c-shiji-130-taishigong",
           "source_id": "s-shiji130-taishigong",
           "paragraph_id": "c-shiji-130-taishigong:p009",
-          "quote": "上大夫壺遂曰：「昔孔子何為而作春秋哉？」太史公曰：「余聞董生曰：『周道衰廢，孔子為魯司寇，諸侯害之，大夫壅之。孔子知言之不用，道之不行也，是非二百四十二年之中，以為天下儀表，貶天子，退諸侯，討大夫，以達王事而已矣。』子曰：『我欲載之空言，不如見之於行事之深切著明也。』夫春秋，上明三王之道，下辨人事之紀，別嫌疑，明是非，定猶豫，善善惡惡，賢賢賤不肖，存亡國，繼絕世，補敝起廢，王道之大者也。易著天地陰陽四時五行，故長於變；禮經紀人倫，故長於行；書記先王之事，故長於政；詩記山川谿谷禽獸草木牝牡雌雄，故長於風；樂樂所以立，故長於和；春秋辯是非，故長於治人。是故禮以節人，樂以發和，書以道事，詩以達意，易以道化，春秋以道義。撥亂世反之正，莫近於春秋。春秋文成數萬，其指數千。萬物之散聚皆在春秋。春秋之中，弒君三十六，亡國五十二，諸侯奔走不得保其社稷者不可勝數。察其所以，皆失其本已。故易曰『失之豪釐，差以千里』。故曰『臣弒君，子弒父，非一旦一夕之故也，其漸久矣』。故有國者不可以不知春秋，前有讒而弗見，後有賊而不知。為人臣者不可以不知春秋，守經事而不知其宜，遭變事而不知其權。為人君父而不通於春秋之義者，必蒙首惡之名。為人臣子而不通於春秋之義者，必陷篡弒之誅，死罪之名。其實皆以為善，為之不知其義，被之空言而不敢辭。夫不通禮義之旨，至於君不君，臣不臣，父不父，子不子。夫君不君則犯，臣不臣則誅，父不父則無道，子不子則不孝。此四行者，天下之大過也。以天下之大過予之，則受而弗敢辭。故春秋者，禮義之大宗也。夫禮禁未然之前，法施已然之後；法之所為用者易見，而禮之所為禁者難知。」"
+          "quote_passage_ref": "data/corpus/shiji/130.json"
         }
       ],
       "attestations": [
@@ -107,7 +107,6 @@
       "raw_count": 6,
       "duplicate_count": 0,
       "counting_policy": "independent_fixed_witness_occurrences",
-      "quote": "足以當世取合，而出於忠厚焉。貪嗜於財。所推舉皆廉士，賢於己者也。於梁舉壺遂、臧固、郅他，皆天下名士，士亦以此稱慕之，唯天子以爲國器。安國爲御史大夫四歳餘，丞相田蚡死，安國行丞相事，奉引墮車蹇。天子議置相，欲用安國，使使視之，蹇甚，乃更以平棘侯薛澤爲丞相。安國病免數月，蹇愈，",
       "paragraph_ids": [
         "c-shiji-108-han:p011",
         "c-shiji-108-han:p014"
@@ -177,7 +176,12 @@
       "book_id": "b-shiji-108",
       "chapter_id": "c-shiji-108-han",
       "source_id": "s-shiji-108-han",
-      "work_title": "史記"
+      "work_title": "史記",
+      "chapter_ref": "data/corpus/shiji/108.json",
+      "quote_span": [
+        9,
+        146
+      ]
     },
     {
       "number": 130,
@@ -188,7 +192,6 @@
       "raw_count": 2,
       "duplicate_count": 0,
       "counting_policy": "independent_fixed_witness_occurrences",
-      "quote": "上大夫壺遂曰：「昔孔子何為而作春秋哉？」太史公曰：「余聞董生曰：『周道衰廢，孔子為魯司寇，諸侯害之，大夫壅之。孔子知言之不用，道之不行也，是非二百四十二年之中，以為天下儀表，貶天子，退諸侯，討大夫，以達王事而已",
       "paragraph_ids": [
         "c-shiji-130-taishigong:p009",
         "c-shiji-130-taishigong:p010"
@@ -222,7 +225,12 @@
       "book_id": "b-shiji-130",
       "chapter_id": "c-shiji-130-taishigong",
       "source_id": "s-shiji130-taishigong",
-      "work_title": "史記"
+      "work_title": "史記",
+      "chapter_ref": "data/corpus/shiji/130.json",
+      "quote_span": [
+        0,
+        105
+      ]
     }
   ],
   "table_occurrences": [],
@@ -232,48 +240,14 @@
       "work_id": "w-shiji",
       "book_id": "b-shiji-108",
       "source_id": "s-shiji-108-han",
-      "source": {
-        "title": "史記／卷108",
-        "provider": "維基文庫",
-        "url": "https://zh.wikisource.org/wiki/史記/卷108",
-        "permalink": "https://zh.wikisource.org/w/index.php?title=史記/卷108&oldid=1765317",
-        "revision_id": 1765317,
-        "accessed_on": "2026-10-11",
-        "extent": "13段正文、1段太史公論、1段索隱述贊。",
-        "image_verified": false,
-        "rights": "古代原文；數位轉錄依維基文庫CC BY-SA 4.0，保留署名及固定版本。",
-        "license_url": "https://creativecommons.org/licenses/by-sa/4.0/",
-        "normalization": {
-          "character_conversion": {},
-          "editorial_readings": [],
-          "extraction_note": "去介面模板與現代節標題；數位見證的單字語言轉換包裹符號解除，包裹內原字不變。其餘原字、標點與段落次序保留。",
-          "note": "未核底本影像。"
-        }
-      }
+      "chapter_ref": "data/corpus/shiji/108.json"
     },
     {
       "chapter_id": "c-shiji-130-taishigong",
       "work_id": "w-shiji",
       "book_id": "b-shiji-130",
       "source_id": "s-shiji130-taishigong",
-      "source": {
-        "title": "史記／卷130",
-        "provider": "維基文庫",
-        "url": "https://zh.wikisource.org/wiki/史記/卷130",
-        "permalink": "https://zh.wikisource.org/w/index.php?title=史記/卷130&oldid=2609362",
-        "revision_id": 2609362,
-        "accessed_on": "2026-10-11",
-        "extent": "固定修訂全文143段，全部篇文。",
-        "image_verified": false,
-        "rights": "古代原文；數位轉錄依維基文庫CC BY-SA 4.0，保留署名及固定版本。",
-        "license_url": "https://creativecommons.org/licenses/by-sa/4.0/",
-        "normalization": {
-          "character_conversion": {},
-          "editorial_readings": [],
-          "extraction_note": "去header2及現代節標，移除維基引文縮排冒號，保留原字，未核影像。",
-          "note": "全文入庫不等於全部提及已標註；目錄段落仍待逐段處理。"
-        }
-      }
+      "chapter_ref": "data/corpus/shiji/130.json"
     }
   ],
   "relations": [],
@@ -302,14 +276,14 @@
           "chapter_id": "c-shiji-108-han",
           "source_id": "s-shiji-108-han",
           "paragraph_id": "c-shiji-108-han:p014",
-          "quote": "太史公曰：余與壺遂定律暦，觀韓長孺之義，壺遂之深中隱厚。世之言梁多長者，不虛哉！壺遂官至詹事，天子方倚以爲漢相，會遂卒。不然，壺遂之內廉行修，斯鞠躬君子也。",
           "mention_ids": [
             "c-shiji-108-han:m014-0007",
             "c-shiji-108-han:m014-0020",
             "c-shiji-108-han:m014-0040",
             "c-shiji-108-han:m014-0057",
             "c-shiji-108-han:m014-0063"
-          ]
+          ],
+          "quote_passage_ref": "data/corpus/shiji/108.json"
         },
         {
           "work_id": "w-shiji",
@@ -317,10 +291,10 @@
           "chapter_id": "c-shiji-130-taishigong",
           "source_id": "s-shiji130-taishigong",
           "paragraph_id": "c-shiji-130-taishigong:p009",
-          "quote": "上大夫壺遂曰：「昔孔子何為而作春秋哉？」太史公曰：「余聞董生曰：『周道衰廢，孔子為魯司寇，諸侯害之，大夫壅之。孔子知言之不用，道之不行也，是非二百四十二年之中，以為天下儀表，貶天子，退諸侯，討大夫，以達王事而已矣。』子曰：『我欲載之空言，不如見之於行事之深切著明也。』夫春秋，上明三王之道，下辨人事之紀，別嫌疑，明是非，定猶豫，善善惡惡，賢賢賤不肖，存亡國，繼絕世，補敝起廢，王道之大者也。易著天地陰陽四時五行，故長於變；禮經紀人倫，故長於行；書記先王之事，故長於政；詩記山川谿谷禽獸草木牝牡雌雄，故長於風；樂樂所以立，故長於和；春秋辯是非，故長於治人。是故禮以節人，樂以發和，書以道事，詩以達意，易以道化，春秋以道義。撥亂世反之正，莫近於春秋。春秋文成數萬，其指數千。萬物之散聚皆在春秋。春秋之中，弒君三十六，亡國五十二，諸侯奔走不得保其社稷者不可勝數。察其所以，皆失其本已。故易曰『失之豪釐，差以千里』。故曰『臣弒君，子弒父，非一旦一夕之故也，其漸久矣』。故有國者不可以不知春秋，前有讒而弗見，後有賊而不知。為人臣者不可以不知春秋，守經事而不知其宜，遭變事而不知其權。為人君父而不通於春秋之義者，必蒙首惡之名。為人臣子而不通於春秋之義者，必陷篡弒之誅，死罪之名。其實皆以為善，為之不知其義，被之空言而不敢辭。夫不通禮義之旨，至於君不君，臣不臣，父不父，子不子。夫君不君則犯，臣不臣則誅，父不父則無道，子不子則不孝。此四行者，天下之大過也。以天下之大過予之，則受而弗敢辭。故春秋者，禮義之大宗也。夫禮禁未然之前，法施已然之後；法之所為用者易見，而禮之所為禁者難知。」",
           "mention_ids": [
             "c-shiji-130-taishigong:m009-0003"
-          ]
+          ],
+          "quote_passage_ref": "data/corpus/shiji/130.json"
         },
         {
           "work_id": "w-shiji",
@@ -328,10 +302,10 @@
           "chapter_id": "c-shiji-130-taishigong",
           "source_id": "s-shiji130-taishigong",
           "paragraph_id": "c-shiji-130-taishigong:p010",
-          "quote": "壺遂曰：「孔子之時，上無明君，下不得任用，故作春秋，垂空文以斷禮義，當一王之法。今夫子上遇明天子，下得守職，萬事既具，咸各序其宜，夫子所論，欲以何明？」",
           "mention_ids": [
             "c-shiji-130-taishigong:m010-0000"
-          ]
+          ],
+          "quote_passage_ref": "data/corpus/shiji/130.json"
         }
       ],
       "references": [

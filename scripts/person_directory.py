@@ -79,13 +79,22 @@ def metadata(p):
 def outputs(root=ROOT):
  root=Path(root);directory=root/'data/corpus/profiles';index=directory/'index.json'
  if not index.is_file():return {}
+ try:
+  from .profile_passages import ReaderPassages
+ except ImportError:
+  from profile_passages import ReaderPassages
+ reader=None
  canonical={p['id']for p in json.loads((root/'registry/persons.json').read_text())['persons']};rows={}
  for entry in sorted(json.loads(index.read_text())['profiles'],key=lambda v:v['id']):
   pid=entry['id']
   if pid not in canonical:continue
   path=directory/(pid+'.json')
   if not path.is_file():raise ValueError('人物目錄缺少已登記profile：'+pid)
-  p=json.loads(path.read_text())
+  raw=path.read_text()
+  p=json.loads(raw)
+  if '"quote_passage_ref"' in raw:
+   if reader is None:reader=ReaderPassages(root)
+   p=reader.convert(p,expand=True)
   if p.get('id')!=pid or p.get('canonical_person_id',pid)!=pid:raise ValueError('人物目錄canonical profile不符：'+pid)
   rows[pid]=metadata(p)
  result=dict(schema_version=1,coverage=dict(canonical_registry_count=len(canonical),indexed_profile_count=len(rows),complete=len(rows)==len(canonical)),qualification=dict(dynasty='朝代沿本人已錄生卒/生前職務紀年對照原標籤；同名標籤未進行政權同一判定，非效忠、國籍或一生唯一歸屬，未載不猜。',surname='既有typed姓名共識；不從label拆姓。',jiguan='僅biographical_origin/native_place；不將出生、居住、祖籍或葬地混入。'),persons=rows)

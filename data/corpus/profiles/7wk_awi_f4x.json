@@ -20,7 +20,6 @@
       "raw_count": 2,
       "duplicate_count": 0,
       "counting_policy": "independent_fixed_witness_occurrences",
-      "quote": "剄。孝文帝聞而惜之，曰：「吾無意殺之。」乃召其子，拜為中大夫。使匈奴，單于無禮，乃罵單于，遂死匈奴中。",
       "paragraph_ids": [
         "c-shiji-097-luli:p020"
       ],
@@ -53,7 +52,12 @@
       "book_id": "b-shiji-097",
       "chapter_id": "c-shiji-097-luli",
       "source_id": "s-shiji-097-luli",
-      "work_title": "史記"
+      "work_title": "史記",
+      "chapter_ref": "data/corpus/shiji/097.json",
+      "quote_span": [
+        89,
+        140
+      ]
     }
   ],
   "table_occurrences": [],
@@ -63,48 +67,14 @@
       "work_id": "w-shiji",
       "book_id": "b-shiji-097",
       "source_id": "s-shiji-097-luli",
-      "source": {
-        "title": "史記／卷097",
-        "provider": "維基文庫",
-        "url": "https://zh.wikisource.org/wiki/史記/卷097",
-        "permalink": "https://zh.wikisource.org/w/index.php?title=史記/卷097&oldid=1383195",
-        "revision_id": 1383195,
-        "accessed_on": "2026-10-09",
-        "extent": "24段傳世正文含太史公論，另附1段分層索隱述贊；排除導覽與空白。",
-        "image_verified": false,
-        "rights": "古代原文；數位轉錄依維基文庫CC BY-SA 4.0，保留署名及固定版本。",
-        "license_url": "https://creativecommons.org/licenses/by-sa/4.0/",
-        "normalization": {
-          "character_conversion": {},
-          "editorial_readings": [],
-          "extraction_note": "固定HTML一致，只去外緣空白；亨、尉他及尉佗等原字保留，前後陳留敘事分存。",
-          "note": "全27個HTML區塊已讀；無tooltip/reference/del/s，未核底本影像。"
-        }
-      }
+      "chapter_ref": "data/corpus/shiji/097.json"
     },
     {
       "chapter_id": "c-shiji-110-xiongnu",
       "work_id": "w-shiji",
       "book_id": "b-shiji-110",
       "source_id": "s-shiji110-xiongnu",
-      "source": {
-        "title": "史記／卷110",
-        "provider": "維基文庫",
-        "url": "https://zh.wikisource.org/wiki/史記/卷110",
-        "permalink": "https://zh.wikisource.org/w/index.php?title=史記/卷110&oldid=8735645",
-        "revision_id": 8735645,
-        "accessed_on": "2026-10-11",
-        "extent": "固定數位見證去介面及現代節標題後61段，末段為太史公論。",
-        "image_verified": false,
-        "rights": "古代原文；數位轉錄依維基文庫CC BY-SA 4.0，保留署名及固定版本。",
-        "license_url": "https://creativecommons.org/licenses/by-sa/4.0/",
-        "normalization": {
-          "character_conversion": {},
-          "editorial_readings": [],
-          "extraction_note": "去 header2 介面及現代單于節標題、太史公曰節標題；移除單字語言轉換包裹與下劃線標籤，紀年 YL 模板保留顯示原詞。其餘原字、標點及段落次序保留，不從小標題補正文人名。",
-          "note": "未核底本影像。"
-        }
-      }
+      "chapter_ref": "data/corpus/shiji/110.json"
     }
   ],
   "relations": [],

@@ -21,7 +21,7 @@
           "chapter_id": "c-shiji-122-kuli",
           "source_id": "s-shiji122-kuli",
           "paragraph_id": "c-shiji-122-kuli:p027",
-          "quote": "寧成家居，上欲以爲郡守。御史大夫弘曰：「臣居山東爲小吏時，寧成爲濟南都尉，其治如狼牧羊。成不可使治民。」上乃拜成爲關都尉。歳餘，關東吏隸郡國出入關者，號曰「寧見乳虎，無値寧成之怒」。義縱自河内遷爲南陽太守，聞寧成家居南陽，及縱至關，寧成側行送迎，然縱氣盛，弗爲禮。至郡，遂案寧氏，盡破碎其家。成坐有罪，及孔、暴之屬皆奔亡，南陽吏民重足一跡。而平氏朱彊、杜衍、杜周爲縱牙爪之吏，任用，遷爲廷史。軍數出定襄，定襄吏民亂敗，於是徙縱爲定襄太守。縱至，掩定襄獄中重罪輕繋二百餘人，及賓客昆弟私入相視亦二百餘人。縱一捕鞠，曰「爲死罪解脱」。是日皆報殺四百餘人。其後郡中不寒而栗，猾民佐吏爲治。"
+          "quote_passage_ref": "data/corpus/shiji/122.json"
         }
       ],
       "attestations": [
@@ -46,7 +46,7 @@
               "chapter_id": "c-shiji-122-kuli",
               "source_id": "s-shiji122-kuli",
               "paragraph_id": "c-shiji-122-kuli:p027",
-              "quote": "寧成家居，上欲以爲郡守。御史大夫弘曰：「臣居山東爲小吏時，寧成爲濟南都尉，其治如狼牧羊。成不可使治民。」上乃拜成爲關都尉。歳餘，關東吏隸郡國出入關者，號曰「寧見乳虎，無値寧成之怒」。義縱自河内遷爲南陽太守，聞寧成家居南陽，及縱至關，寧成側行送迎，然縱氣盛，弗爲禮。至郡，遂案寧氏，盡破碎其家。成坐有罪，及孔、暴之屬皆奔亡，南陽吏民重足一跡。而平氏朱彊、杜衍、杜周爲縱牙爪之吏，任用，遷爲廷史。軍數出定襄，定襄吏民亂敗，於是徙縱爲定襄太守。縱至，掩定襄獄中重罪輕繋二百餘人，及賓客昆弟私入相視亦二百餘人。縱一捕鞠，曰「爲死罪解脱」。是日皆報殺四百餘人。其後郡中不寒而栗，猾民佐吏爲治。"
+              "quote_passage_ref": "data/corpus/shiji/122.json"
             }
           ]
         },
@@ -72,7 +72,6 @@
       "raw_count": 1,
       "duplicate_count": 0,
       "counting_policy": "independent_fixed_witness_occurrences",
-      "quote": "氏，盡破碎其家。成坐有罪，及孔、暴之屬皆奔亡，南陽吏民重足一跡。而平氏朱彊、杜衍、杜周爲縱牙爪之吏，任用，遷爲廷史。軍數出定襄，定襄吏民亂敗，於是徙縱爲定襄太守。縱至，掩定襄獄中重罪輕繋二百餘人，及賓客昆弟私入相視亦二百餘人。縱一捕鞠，曰「爲死罪解脱」。是日皆報殺四百餘人。",
       "paragraph_ids": [
         "c-shiji-122-kuli:p027"
       ],
@@ -96,7 +95,12 @@
       "book_id": "b-shiji-122",
       "chapter_id": "c-shiji-122-kuli",
       "source_id": "s-shiji122-kuli",
-      "work_title": "史記"
+      "work_title": "史記",
+      "chapter_ref": "data/corpus/shiji/122.json",
+      "quote_span": [
+        138,
+        275
+      ]
     }
   ],
   "table_occurrences": [],
@@ -106,24 +110,7 @@
       "work_id": "w-shiji",
       "book_id": "b-shiji-122",
       "source_id": "s-shiji122-kuli",
-      "source": {
-        "title": "史記／卷122",
-        "provider": "維基文庫",
-        "url": "https://zh.wikisource.org/wiki/史記/卷122",
-        "permalink": "https://zh.wikisource.org/w/index.php?title=史記/卷122&oldid=7904124",
-        "revision_id": 7904124,
-        "accessed_on": "2026-10-11",
-        "extent": "固定修訂全文44段，包括末段索隱述贊。",
-        "image_verified": false,
-        "rights": "古代原文；數位轉錄依維基文庫CC BY-SA 4.0，保留署名及固定版本。",
-        "license_url": "https://creativecommons.org/licenses/by-sa/4.0/",
-        "normalization": {
-          "character_conversion": {},
-          "editorial_readings": [],
-          "extraction_note": "去header2及現代節標、字形控制外殼而保留其中原字與異文；未核影像。",
-          "note": "末段索隱述贊分層，太史公論贊屬篇文。"
-        }
-      }
+      "chapter_ref": "data/corpus/shiji/122.json"
     }
   ],
   "relations": [],

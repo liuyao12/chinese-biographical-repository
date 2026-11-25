@@ -27,8 +27,8 @@
           "chapter_id": "c-shiji-045-han",
           "source_id": "s-shiji-045-han",
           "paragraph_id": "c-shiji-045-han:p020",
-          "quote": "十年，韓姬弒其君悼公。十一年，昭侯如秦。二十二年，申不害死。二十四年，秦來拔我宜陽。",
-          "person_mention_id": "c-shiji-045-han:m020-0015"
+          "person_mention_id": "c-shiji-045-han:m020-0015",
+          "quote_passage_ref": "data/corpus/shiji/045.json"
         }
       ],
       "source_term": "昭侯如秦",
@@ -49,7 +49,6 @@
       "raw_count": 7,
       "duplicate_count": 0,
       "counting_policy": "independent_fixed_witness_occurrences",
-      "quote": "，魏敗我馬陵。五年，與魏惠王會宅陽。九年，魏敗我澮。十二年，懿侯卒，子昭侯立。",
       "paragraph_ids": [
         "c-shiji-045-han:p017",
         "c-shiji-045-han:p018",
@@ -130,7 +129,12 @@
       "book_id": "b-shiji-045",
       "chapter_id": "c-shiji-045-han",
       "source_id": "s-shiji-045-han",
-      "work_title": "史記"
+      "work_title": "史記",
+      "chapter_ref": "data/corpus/shiji/045.json",
+      "quote_span": [
+        4,
+        43
+      ]
     },
     {
       "number": 130,
@@ -141,7 +145,6 @@
       "raw_count": 1,
       "duplicate_count": 0,
       "counting_policy": "independent_fixed_witness_occurrences",
-      "quote": "韓厥陰德，趙武攸興。紹絕立廢，晉人宗之。昭侯顯列，申子庸之。疑非不信，秦人襲之。嘉厥輔晉匡周天子之賦，作韓世家第十五。",
       "paragraph_ids": [
         "c-shiji-130-taishigong:p057"
       ],
@@ -165,7 +168,12 @@
       "book_id": "b-shiji-130",
       "chapter_id": "c-shiji-130-taishigong",
       "source_id": "s-shiji130-taishigong",
-      "work_title": "史記"
+      "work_title": "史記",
+      "chapter_ref": "data/corpus/shiji/130.json",
+      "quote_span": [
+        0,
+        59
+      ]
     }
   ],
   "table_occurrences": [
@@ -173,7 +181,6 @@
       "table_id": "shiji-015",
       "cell_id": "shiji-015-r119-c04",
       "title": "《史記·六國年表》",
-      "quote": "韓昭侯元年。秦敗我西山。",
       "year": {
         "era": "BCE",
         "value": 358,
@@ -196,13 +203,13 @@
       "book_id": "b-shiji-015",
       "chapter_id": "table-chapter-shiji-015",
       "source_id": "table-witness-shiji-015",
-      "source_revision": "2607002"
+      "source_revision": "2607002",
+      "quote_ref": "cell"
     },
     {
       "table_id": "shiji-015",
       "cell_id": "shiji-015-r129-c04",
       "title": "《史記·六國年表》",
-      "quote": "十一。昭侯如秦。",
       "year": {
         "era": "BCE",
         "value": 348,
@@ -225,13 +232,13 @@
       "book_id": "b-shiji-015",
       "chapter_id": "table-chapter-shiji-015",
       "source_id": "table-witness-shiji-015",
-      "source_revision": "2607002"
+      "source_revision": "2607002",
+      "quote_ref": "cell"
     },
     {
       "table_id": "shiji-015",
       "cell_id": "shiji-015-r143-c04",
       "title": "《史記·六國年表》",
-      "quote": "二十五。旱。作高門，屈宜臼曰「昭侯不出此門。」",
       "year": {
         "era": "BCE",
         "value": 334,
@@ -254,13 +261,13 @@
       "book_id": "b-shiji-015",
       "chapter_id": "table-chapter-shiji-015",
       "source_id": "table-witness-shiji-015",
-      "source_revision": "2607002"
+      "source_revision": "2607002",
+      "quote_ref": "cell"
     },
     {
       "table_id": "shiji-015",
       "cell_id": "shiji-015-r144-c04",
       "title": "《史記·六國年表》",
-      "quote": "二十六。高門成，昭侯卒，不出此門。",
       "year": {
         "era": "BCE",
         "value": 333,
@@ -283,7 +290,8 @@
       "book_id": "b-shiji-015",
       "chapter_id": "table-chapter-shiji-015",
       "source_id": "table-witness-shiji-015",
-      "source_revision": "2607002"
+      "source_revision": "2607002",
+      "quote_ref": "cell"
     }
   ],
   "sources": [
@@ -292,71 +300,21 @@
       "work_id": "w-shiji",
       "book_id": "b-shiji-045",
       "source_id": "s-shiji-045-han",
-      "source": {
-        "title": "史記／卷045",
-        "provider": "維基文庫",
-        "url": "https://zh.wikisource.org/wiki/史記/卷045",
-        "permalink": "https://zh.wikisource.org/w/index.php?title=史記/卷045&oldid=7903607",
-        "revision_id": 7903607,
-        "accessed_on": "2026-10-09",
-        "extent": "36段正文；排除註釋版導覽、2個dd及現代分節標題，只去除段落外緣空白。",
-        "image_verified": false,
-        "rights": "古代原文；數位轉錄依維基文庫CC BY-SA 4.0，保留署名及固定版本。",
-        "license_url": "https://creativecommons.org/licenses/by-sa/4.0/",
-        "normalization": {
-          "character_conversion": {},
-          "editorial_readings": [],
-          "extraction_note": "取得時HTML與固定修訂一致；現代分節標題及導覽不當古代正文。保留蟣蝨、韓姬、韓嚴、韓非與非等原字。",
-          "note": "已讀全36段數位正文；未核古籍影像、可靠底本或現代研究，首輪不是完成覆核。"
-        }
-      }
+      "chapter_ref": "data/corpus/shiji/045.json"
     },
     {
       "chapter_id": "c-shiji-130-taishigong",
       "work_id": "w-shiji",
       "book_id": "b-shiji-130",
       "source_id": "s-shiji130-taishigong",
-      "source": {
-        "title": "史記／卷130",
-        "provider": "維基文庫",
-        "url": "https://zh.wikisource.org/wiki/史記/卷130",
-        "permalink": "https://zh.wikisource.org/w/index.php?title=史記/卷130&oldid=2609362",
-        "revision_id": 2609362,
-        "accessed_on": "2026-10-11",
-        "extent": "固定修訂全文143段，全部篇文。",
-        "image_verified": false,
-        "rights": "古代原文；數位轉錄依維基文庫CC BY-SA 4.0，保留署名及固定版本。",
-        "license_url": "https://creativecommons.org/licenses/by-sa/4.0/",
-        "normalization": {
-          "character_conversion": {},
-          "editorial_readings": [],
-          "extraction_note": "去header2及現代節標，移除維基引文縮排冒號，保留原字，未核影像。",
-          "note": "全文入庫不等於全部提及已標註；目錄段落仍待逐段處理。"
-        }
-      }
+      "chapter_ref": "data/corpus/shiji/130.json"
     },
     {
       "chapter_id": "table-chapter-shiji-015",
       "work_id": "w-shiji",
       "book_id": "b-shiji-015",
       "source_id": "table-witness-shiji-015",
-      "source": {
-        "id": "table-witness-shiji-015",
-        "work_id": "w-shiji",
-        "book_id": "b-shiji-015",
-        "chapter_id": "table-chapter-shiji-015",
-        "url": "https://zh.wikisource.org/wiki/史記/卷015",
-        "revision_url": "https://zh.wikisource.org/w/index.php?title=史記/卷015&oldid=2607002",
-        "revision": "2607002",
-        "accessed": "2026-10-12",
-        "response_sha256": "eb0624a019e02c24ce90a40bfa24863f4020878062c6e2efea32355033be5559",
-        "edition": null,
-        "image_verified": false,
-        "rights": "古籍正文公有領域；維基文庫轉錄及編輯內容依 CC BY-SA 條款，署名維基文庫貢獻者。",
-        "rights_url": "https://zh.wikisource.org/wiki/Wikisource:版權信息",
-        "review_status": "agent_first_pass_named_entities",
-        "note": "完整數位表格結構匯入，未逐格學術覆核。未核讀印本影像，原印本頁碼未知。西元欄沿用此數位轉錄的編者對照，不是古籍原有西元紀年，也不引用其維基百科外連。"
-      }
+      "table_source_ref": "shiji-015"
     }
   ],
   "relations": [
@@ -371,7 +329,7 @@
           "chapter_id": "c-shiji-045-han",
           "source_id": "s-shiji-045-han",
           "paragraph_id": "c-shiji-045-han:p017",
-          "quote": "懿侯二年，魏敗我馬陵。五年，與魏惠王會宅陽。九年，魏敗我澮。十二年，懿侯卒，子昭侯立。"
+          "quote_passage_ref": "data/corpus/shiji/045.json"
         }
       ],
       "qualifiers": {
@@ -392,7 +350,7 @@
           "chapter_id": "c-shiji-045-han",
           "source_id": "s-shiji-045-han",
           "paragraph_id": "c-shiji-045-han:p021",
-          "quote": "二十五年，旱，作髙門。屈宜臼曰：「昭侯不出此門。何也？不時。吾所謂時者，非時日也，人固有利不利時。昭侯嘗利矣，不作髙門。往年秦拔宜陽，今年旱，昭侯不以此時卹民之急，而顧益奢，此謂『時絀舉贏』。」二十六年，髙門成，昭侯卒，果不出此門。子宣惠王立。"
+          "quote_passage_ref": "data/corpus/shiji/045.json"
         }
       ],
       "qualifiers": {
@@ -425,7 +383,7 @@
           "chapter_id": "c-shiji-045-han",
           "source_id": "s-shiji-045-han",
           "paragraph_id": "c-shiji-045-han:p017",
-          "quote": "懿侯二年，魏敗我馬陵。五年，與魏惠王會宅陽。九年，魏敗我澮。十二年，懿侯卒，子昭侯立。"
+          "quote_passage_ref": "data/corpus/shiji/045.json"
         }
       ],
       "qualifiers": {
@@ -446,7 +404,7 @@
           "chapter_id": "c-shiji-045-han",
           "source_id": "s-shiji-045-han",
           "paragraph_id": "c-shiji-045-han:p021",
-          "quote": "二十五年，旱，作髙門。屈宜臼曰：「昭侯不出此門。何也？不時。吾所謂時者，非時日也，人固有利不利時。昭侯嘗利矣，不作髙門。往年秦拔宜陽，今年旱，昭侯不以此時卹民之急，而顧益奢，此謂『時絀舉贏』。」二十六年，髙門成，昭侯卒，果不出此門。子宣惠王立。"
+          "quote_passage_ref": "data/corpus/shiji/045.json"
         }
       ],
       "qualifiers": {
@@ -470,8 +428,8 @@
           "chapter_id": "c-shiji-045-han",
           "source_id": "s-shiji-045-han",
           "paragraph_id": "c-shiji-045-han:p021",
-          "quote": "二十五年，旱，作髙門。屈宜臼曰：「昭侯不出此門。何也？不時。吾所謂時者，非時日也，人固有利不利時。昭侯嘗利矣，不作髙門。往年秦拔宜陽，今年旱，昭侯不以此時卹民之急，而顧益奢，此謂『時絀舉贏』。」二十六年，髙門成，昭侯卒，果不出此門。子宣惠王立。",
-          "person_mention_id": "c-shiji-045-han:m021-0106"
+          "person_mention_id": "c-shiji-045-han:m021-0106",
+          "quote_passage_ref": "data/corpus/shiji/045.json"
         }
       ],
       "source_term": "昭侯卒",

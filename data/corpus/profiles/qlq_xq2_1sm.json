@@ -21,7 +21,7 @@
           "chapter_id": "c-shiji-104-tianshu",
           "source_id": "s-shiji-104-tianshu",
           "paragraph_id": "c-shiji-104-tianshu:p015",
-          "quote": "其後逢太子有兵事，丞相自將兵，使司直主城門。司直以為太子骨肉之親，父子之閒不甚欲近，去之諸陵過。是時武帝在甘泉，使御史大夫暴君下責丞相「何為縱太子」，丞相對言「使司直部守城門而開太子」。上書以聞，請捕系司直。司直下吏，誅死。"
+          "quote_passage_ref": "data/corpus/shiji/104.json"
         }
       ],
       "attestations": [
@@ -63,7 +63,6 @@
       "raw_count": 1,
       "duplicate_count": 0,
       "counting_policy": "independent_fixed_witness_occurrences",
-      "quote": "司直以為太子骨肉之親，父子之閒不甚欲近，去之諸陵過。是時武帝在甘泉，使御史大夫暴君下責丞相「何為縱太子」，丞相對言「使司直部守城門而開太子」。上書以聞，請捕系司直。司直下吏，誅死。",
       "paragraph_ids": [
         "c-shiji-104-tianshu:p015"
       ],
@@ -87,7 +86,12 @@
       "book_id": "b-shiji-104",
       "chapter_id": "c-shiji-104-tianshu",
       "source_id": "s-shiji-104-tianshu",
-      "work_title": "史記"
+      "work_title": "史記",
+      "chapter_ref": "data/corpus/shiji/104.json",
+      "quote_span": [
+        22,
+        112
+      ]
     }
   ],
   "table_occurrences": [],
@@ -97,24 +101,7 @@
       "work_id": "w-shiji",
       "book_id": "b-shiji-104",
       "source_id": "s-shiji-104-tianshu",
-      "source": {
-        "title": "史記／卷104",
-        "provider": "維基文庫",
-        "url": "https://zh.wikisource.org/wiki/史記/卷104",
-        "permalink": "https://zh.wikisource.org/w/index.php?title=史記/卷104&oldid=8739534",
-        "revision_id": 8739534,
-        "accessed_on": "2026-10-10",
-        "extent": "9段正文含太史公論，7段署褚先生補文與1段索隱述贊。",
-        "image_verified": false,
-        "rights": "古代原文；數位轉錄依維基文庫CC BY-SA 4.0，保留署名及固定版本。",
-        "license_url": "https://creativecommons.org/licenses/by-sa/4.0/",
-        "normalization": {
-          "character_conversion": {},
-          "editorial_readings": [],
-          "extraction_note": "去標題與介面模板，原字、標點及段落次序保留。",
-          "note": "未核底本影像。"
-        }
-      }
+      "chapter_ref": "data/corpus/shiji/104.json"
     }
   ],
   "relations": [],
@@ -137,7 +124,7 @@
       "evidence": [
         {
           "paragraph_id": "c-shiji-104-tianshu:p015",
-          "quote": "其後逢太子有兵事，丞相自將兵，使司直主城門。司直以為太子骨肉之親，父子之閒不甚欲近，去之諸陵過。是時武帝在甘泉，使御史大夫暴君下責丞相「何為縱太子」，丞相對言「使司直部守城門而開太子」。上書以聞，請捕系司直。司直下吏，誅死。"
+          "quote_passage_ref": "data/corpus/shiji/104.json"
         }
       ],
       "rationale": "集解徐廣明指暴勝之為御史大夫；漢書066同一事件亦明名，但對暴氏責問或阻斬的行動敘述不同，分存不改原文。",

@@ -25,7 +25,6 @@
       "raw_count": 1,
       "duplicate_count": 0,
       "counting_policy": "independent_fixed_witness_occurrences",
-      "quote": "風俗通云胡母姓夲陳胡公之後也公子完奔齊遂有齊國齊宣王母弟别封母鄉逺夲胡公近取母邑故曰胡母氏也",
       "paragraph_ids": [
         "c-houhanshu-009-xiandi-early:chuping01-note-05-1"
       ],
@@ -49,7 +48,12 @@
       "book_id": "b-houhanshu-009",
       "chapter_id": "c-houhanshu-009-xiandi-early",
       "source_id": "s-houhanshu-009-xiandi-early",
-      "work_title": "後漢書"
+      "work_title": "後漢書",
+      "chapter_ref": "data/corpus/houhanshu/009.json",
+      "quote_span": [
+        0,
+        46
+      ]
     },
     {
       "number": 46,
@@ -60,7 +64,6 @@
       "raw_count": 8,
       "duplicate_count": 0,
       "counting_policy": "independent_fixed_witness_occurrences",
-      "quote": "三十六年，威王卒，子宣王辟彊立。",
       "paragraph_ids": [
         "c-shiji-046-tian:p035",
         "c-shiji-046-tian:p036",
@@ -151,7 +154,12 @@
       "book_id": "b-shiji-046",
       "chapter_id": "c-shiji-046-tian",
       "source_id": "s-shiji-046-tian",
-      "work_title": "史記"
+      "work_title": "史記",
+      "chapter_ref": "data/corpus/shiji/046.json",
+      "quote_span": [
+        0,
+        16
+      ]
     },
     {
       "number": 75,
@@ -162,7 +170,6 @@
       "raw_count": 8,
       "duplicate_count": 0,
       "counting_policy": "independent_fixed_witness_occurrences",
-      "quote": "孟嘗君名文，姓田氏。文之父曰靖郭君田嬰。田嬰者，齊威王少子而齊宣王庶弟也。田嬰自威王時任職用事，與成侯鄒忌及田忌將而救韓伐魏。成侯與田忌爭寵，成侯賣田忌。田忌懼，襲齊之邊邑，不勝，亡走。會威王卒，宣王立，知成侯賣田忌，乃復召田忌以爲將。宣王二年，田忌與孫臏、田嬰倶伐",
       "paragraph_ids": [
         "c-shiji-075-mengchang:p001"
       ],
@@ -249,7 +256,12 @@
       "book_id": "b-shiji-075",
       "chapter_id": "c-shiji-075-mengchang",
       "source_id": "s-shiji-075-mengchang",
-      "work_title": "史記"
+      "work_title": "史記",
+      "chapter_ref": "data/corpus/shiji/075.json",
+      "quote_span": [
+        0,
+        133
+      ]
     },
     {
       "number": 121,
@@ -260,7 +272,6 @@
       "raw_count": 1,
       "duplicate_count": 0,
       "counting_policy": "independent_fixed_witness_occurrences",
-      "quote": "至于始皇，天下并爭於戰國，懦術既絀焉，然齊魯之閒，學者獨不廢也。於威、宣之際，孟子、荀卿之列，咸遵夫子之業而潤色之，以學顯於當世。",
       "paragraph_ids": [
         "c-shiji-121-rulin:p002"
       ],
@@ -284,7 +295,12 @@
       "book_id": "b-shiji-121",
       "chapter_id": "c-shiji-121-rulin",
       "source_id": "s-shiji121-rulin",
-      "work_title": "史記"
+      "work_title": "史記",
+      "chapter_ref": "data/corpus/shiji/121.json",
+      "quote_span": [
+        113,
+        178
+      ]
     },
     {
       "number": 130,
@@ -295,7 +311,6 @@
       "raw_count": 1,
       "duplicate_count": 0,
       "counting_policy": "independent_fixed_witness_occurrences",
-      "quote": "援，陰施五世，齊人歌之。成子得政，田和為侯。王建動心，乃遷于共。嘉威、宣能撥濁世而獨宗周，作田敬仲完世家第十六。",
       "paragraph_ids": [
         "c-shiji-130-taishigong:p058"
       ],
@@ -319,7 +334,12 @@
       "book_id": "b-shiji-130",
       "chapter_id": "c-shiji-130-taishigong",
       "source_id": "s-shiji130-taishigong",
-      "work_title": "史記"
+      "work_title": "史記",
+      "chapter_ref": "data/corpus/shiji/130.json",
+      "quote_span": [
+        8,
+        64
+      ]
     }
   ],
   "table_occurrences": [
@@ -327,7 +347,6 @@
       "table_id": "shiji-015",
       "cell_id": "shiji-015-r135-c08",
       "title": "《史記·六國年表》",
-      "quote": "齊宣王辟彊元年",
       "year": {
         "era": "BCE",
         "value": 342,
@@ -350,7 +369,8 @@
       "book_id": "b-shiji-015",
       "chapter_id": "table-chapter-shiji-015",
       "source_id": "table-witness-shiji-015",
-      "source_revision": "2607002"
+      "source_revision": "2607002",
+      "quote_ref": "cell"
     }
   ],
   "sources": [
@@ -359,159 +379,42 @@
       "work_id": "w-houhanshu",
       "book_id": "b-houhanshu-009",
       "source_id": "s-houhanshu-009-xiandi-early",
-      "source": {
-        "title": "後漢書卷九：孝獻帝紀第九（兩完整年單元）",
-        "provider": "Kanripo",
-        "url": "https://github.com/kanripo/KR2a0009/blob/6db36b6dcbe843b825354c22e9be9193d0137c04/KR2a0009_009.txt",
-        "permalink": "https://github.com/kanripo/KR2a0009/blob/6db36b6dcbe843b825354c22e9be9193d0137c04/KR2a0009_009.txt",
-        "revision_id": "6db36b6dcbe843b825354c22e9be9193d0137c04",
-        "accessed_on": "2026-10-19",
-        "extent": "raw13–40開篇及中平六年全年；41–66初平元年全年；67起二年未收。正文、唐注、宋校獨立19容器。",
-        "text_scope": "partial_chapter",
-        "review_status": "text_checked",
-        "image_verified": false,
-        "rights": "古代原文；固定WYG數位見證，未校圖。",
-        "license_url": "https://www.kanripo.org/",
-        "normalization": {
-          "character_conversion": {},
-          "source_layering": "保底本文字；僅去版面頁標／分行符／注括號，正文唐注宋校分層，逐字raw_runs可回查。"
-        },
-        "response_sha256": "e0459bbe8ebcc6a3bf0ac881302a830b7b8b77284da70faf0723686b9c9bbba5",
-        "source_blob_sha": "1d565549277da141b973c906f61aeef06cff7d7e",
-        "raw_path": "sources/houhanshu/009-kr6db36b6-xiandi-fixed.txt"
-      }
+      "chapter_ref": "data/corpus/houhanshu/009.json"
     },
     {
       "chapter_id": "c-shiji-046-tian",
       "work_id": "w-shiji",
       "book_id": "b-shiji-046",
       "source_id": "s-shiji-046-tian",
-      "source": {
-        "title": "史記／卷046",
-        "provider": "維基文庫",
-        "url": "https://zh.wikisource.org/wiki/史記/卷046",
-        "permalink": "https://zh.wikisource.org/w/index.php?title=史記/卷046&oldid=2560838",
-        "revision_id": 2560838,
-        "accessed_on": "2026-10-09",
-        "extent": "55段正文（含太史公論贊）及1段索隱述贊，後者另標witness_appended_suoyin_zan；排除2個dd導覽及現代分節標題。",
-        "image_verified": false,
-        "rights": "古代原文；數位轉錄依維基文庫CC BY-SA 4.0，保留署名及固定版本。",
-        "license_url": "https://creativecommons.org/licenses/by-sa/4.0/",
-        "normalization": {
-          "character_conversion": {},
-          "editorial_readings": [],
-          "extraction_note": "取得時HTML與固定修訂一致，只去除段落外緣空白；保留［二］、（粟）［稟］、晏（孺子）［圉］、（帥）［師］、笔及称等數位見證原字，不暗改。",
-          "note": "已讀全56段數位文字並作明示人名首輪；未核可靠底本、影像或現代研究。"
-        }
-      }
+      "chapter_ref": "data/corpus/shiji/046.json"
     },
     {
       "chapter_id": "c-shiji-075-mengchang",
       "work_id": "w-shiji",
       "book_id": "b-shiji-075",
       "source_id": "s-shiji-075-mengchang",
-      "source": {
-        "title": "史記／卷075",
-        "provider": "維基文庫",
-        "url": "https://zh.wikisource.org/wiki/史記/卷075",
-        "permalink": "https://zh.wikisource.org/w/index.php?title=史記/卷075&oldid=1965692",
-        "revision_id": 1965692,
-        "accessed_on": "2026-10-09",
-        "extent": "19段正文，自孟嘗君名文至太史公論贊；排除ws-header人物與百科導覽、索隱述贊及現代版權告示。",
-        "image_verified": false,
-        "rights": "古代原文；數位轉錄依維基文庫CC BY-SA 4.0，保留署名及固定版本。",
-        "license_url": "https://creativecommons.org/licenses/by-sa/4.0/",
-        "normalization": {
-          "character_conversion": {},
-          "editorial_readings": [
-            {
-              "paragraph_id": "c-shiji-075-mengchang:p003",
-              "witness_form": "（短）［裋］",
-              "body_reading": "短",
-              "note": "保留數位改讀前短；裋為改讀提示，底本未核，不當已校定。"
-            },
-            {
-              "paragraph_id": "c-shiji-075-mengchang:p018",
-              "witness_form": "（朝）趣市［朝］",
-              "body_reading": "朝趣市",
-              "note": "保留改讀前朝在趣市之前的順序；移至市後的朝另記為數位改讀提示，底本未核，不依記憶改為趣市朝。"
-            }
-          ],
-          "extraction_note": "固定HTML與取得時版本一致，只去外緣空白並分離兩項數位改讀提示；保留爲、歳、倶、戸、髙、虚、鷄等原字。",
-          "note": "全19段正文及明示姓名首輪已核讀；未核底本、影像或現代研究。"
-        }
-      }
+      "chapter_ref": "data/corpus/shiji/075.json"
     },
     {
       "chapter_id": "c-shiji-121-rulin",
       "work_id": "w-shiji",
       "book_id": "b-shiji-121",
       "source_id": "s-shiji121-rulin",
-      "source": {
-        "title": "史記／卷121",
-        "provider": "維基文庫",
-        "url": "https://zh.wikisource.org/wiki/史記/卷121",
-        "permalink": "https://zh.wikisource.org/w/index.php?title=史記/卷121&oldid=8735621",
-        "revision_id": 8735621,
-        "accessed_on": "2026-10-11",
-        "extent": "固定修訂全文25段，包括末段索隱述贊。",
-        "image_verified": false,
-        "rights": "古代原文；數位轉錄依維基文庫CC BY-SA 4.0，保留署名及固定版本。",
-        "license_url": "https://creativecommons.org/licenses/by-sa/4.0/",
-        "normalization": {
-          "character_conversion": {},
-          "editorial_readings": [],
-          "extraction_note": "去header2、現代節標與wikipedia模板，保留繆西王等原字；未核影像。",
-          "note": "末段索隱述贊分層，太史公論贊屬篇文。"
-        }
-      }
+      "chapter_ref": "data/corpus/shiji/121.json"
     },
     {
       "chapter_id": "c-shiji-130-taishigong",
       "work_id": "w-shiji",
       "book_id": "b-shiji-130",
       "source_id": "s-shiji130-taishigong",
-      "source": {
-        "title": "史記／卷130",
-        "provider": "維基文庫",
-        "url": "https://zh.wikisource.org/wiki/史記/卷130",
-        "permalink": "https://zh.wikisource.org/w/index.php?title=史記/卷130&oldid=2609362",
-        "revision_id": 2609362,
-        "accessed_on": "2026-10-11",
-        "extent": "固定修訂全文143段，全部篇文。",
-        "image_verified": false,
-        "rights": "古代原文；數位轉錄依維基文庫CC BY-SA 4.0，保留署名及固定版本。",
-        "license_url": "https://creativecommons.org/licenses/by-sa/4.0/",
-        "normalization": {
-          "character_conversion": {},
-          "editorial_readings": [],
-          "extraction_note": "去header2及現代節標，移除維基引文縮排冒號，保留原字，未核影像。",
-          "note": "全文入庫不等於全部提及已標註；目錄段落仍待逐段處理。"
-        }
-      }
+      "chapter_ref": "data/corpus/shiji/130.json"
     },
     {
       "chapter_id": "table-chapter-shiji-015",
       "work_id": "w-shiji",
       "book_id": "b-shiji-015",
       "source_id": "table-witness-shiji-015",
-      "source": {
-        "id": "table-witness-shiji-015",
-        "work_id": "w-shiji",
-        "book_id": "b-shiji-015",
-        "chapter_id": "table-chapter-shiji-015",
-        "url": "https://zh.wikisource.org/wiki/史記/卷015",
-        "revision_url": "https://zh.wikisource.org/w/index.php?title=史記/卷015&oldid=2607002",
-        "revision": "2607002",
-        "accessed": "2026-10-12",
-        "response_sha256": "eb0624a019e02c24ce90a40bfa24863f4020878062c6e2efea32355033be5559",
-        "edition": null,
-        "image_verified": false,
-        "rights": "古籍正文公有領域；維基文庫轉錄及編輯內容依 CC BY-SA 條款，署名維基文庫貢獻者。",
-        "rights_url": "https://zh.wikisource.org/wiki/Wikisource:版權信息",
-        "review_status": "agent_first_pass_named_entities",
-        "note": "完整數位表格結構匯入，未逐格學術覆核。未核讀印本影像，原印本頁碼未知。西元欄沿用此數位轉錄的編者對照，不是古籍原有西元紀年，也不引用其維基百科外連。"
-      }
+      "table_source_ref": "shiji-015"
     }
   ],
   "relations": [
@@ -526,7 +429,7 @@
           "chapter_id": "c-shiji-046-tian",
           "source_id": "s-shiji-046-tian",
           "paragraph_id": "c-shiji-046-tian:p035",
-          "quote": "三十六年，威王卒，子宣王辟彊立。"
+          "quote_passage_ref": "data/corpus/shiji/046.json"
         }
       ],
       "qualifiers": {
@@ -547,7 +450,7 @@
           "chapter_id": "c-shiji-046-tian",
           "source_id": "s-shiji-046-tian",
           "paragraph_id": "c-shiji-046-tian:p040",
-          "quote": "十九年，宣王卒，子湣王地立。"
+          "quote_passage_ref": "data/corpus/shiji/046.json"
         }
       ],
       "qualifiers": {
@@ -568,7 +471,7 @@
           "chapter_id": "c-shiji-075-mengchang",
           "source_id": "s-shiji-075-mengchang",
           "paragraph_id": "c-shiji-075-mengchang:p001",
-          "quote": "孟嘗君名文，姓田氏。文之父曰靖郭君田嬰。田嬰者，齊威王少子而齊宣王庶弟也。田嬰自威王時任職用事，與成侯鄒忌及田忌將而救韓伐魏。成侯與田忌爭寵，成侯賣田忌。田忌懼，襲齊之邊邑，不勝，亡走。會威王卒，宣王立，知成侯賣田忌，乃復召田忌以爲將。宣王二年，田忌與孫臏、田嬰倶伐魏，敗之馬陵，虜魏太子申而殺魏將龐涓。宣王七年，田嬰使於韓、魏，韓、魏服於齊。嬰與韓昭侯、魏惠王會齊宣王東阿南，盟而去。明年，復與梁惠王會甄。是歳，梁惠王卒。宣王九年，田嬰相齊。齊宣王與魏襄王會徐州而相王也。楚威王聞之，怒田嬰。明年，楚伐敗齊師於徐州，而使人逐田嬰。田嬰使張丑説楚威王，威王乃止。田嬰相齊十一年，宣王卒，湣王即位。即位三年，而封田嬰於薛。"
+          "quote_passage_ref": "data/corpus/shiji/075.json"
         }
       ],
       "qualifiers": {
@@ -612,7 +515,7 @@
           "chapter_id": "c-shiji-046-tian",
           "source_id": "s-shiji-046-tian",
           "paragraph_id": "c-shiji-046-tian:p035",
-          "quote": "三十六年，威王卒，子宣王辟彊立。"
+          "quote_passage_ref": "data/corpus/shiji/046.json"
         }
       ],
       "qualifiers": {
@@ -633,7 +536,7 @@
           "chapter_id": "c-shiji-046-tian",
           "source_id": "s-shiji-046-tian",
           "paragraph_id": "c-shiji-046-tian:p040",
-          "quote": "十九年，宣王卒，子湣王地立。"
+          "quote_passage_ref": "data/corpus/shiji/046.json"
         }
       ],
       "qualifiers": {
@@ -654,7 +557,7 @@
           "chapter_id": "c-shiji-075-mengchang",
           "source_id": "s-shiji-075-mengchang",
           "paragraph_id": "c-shiji-075-mengchang:p001",
-          "quote": "孟嘗君名文，姓田氏。文之父曰靖郭君田嬰。田嬰者，齊威王少子而齊宣王庶弟也。田嬰自威王時任職用事，與成侯鄒忌及田忌將而救韓伐魏。成侯與田忌爭寵，成侯賣田忌。田忌懼，襲齊之邊邑，不勝，亡走。會威王卒，宣王立，知成侯賣田忌，乃復召田忌以爲將。宣王二年，田忌與孫臏、田嬰倶伐魏，敗之馬陵，虜魏太子申而殺魏將龐涓。宣王七年，田嬰使於韓、魏，韓、魏服於齊。嬰與韓昭侯、魏惠王會齊宣王東阿南，盟而去。明年，復與梁惠王會甄。是歳，梁惠王卒。宣王九年，田嬰相齊。齊宣王與魏襄王會徐州而相王也。楚威王聞之，怒田嬰。明年，楚伐敗齊師於徐州，而使人逐田嬰。田嬰使張丑説楚威王，威王乃止。田嬰相齊十一年，宣王卒，湣王即位。即位三年，而封田嬰於薛。"
+          "quote_passage_ref": "data/corpus/shiji/075.json"
         }
       ],
       "qualifiers": {
@@ -688,8 +591,8 @@
           "chapter_id": "c-shiji-046-tian",
           "source_id": "s-shiji-046-tian",
           "paragraph_id": "c-shiji-046-tian:p040",
-          "quote": "十九年，宣王卒，子湣王地立。",
-          "person_mention_id": "c-shiji-046-tian:m040-0004"
+          "person_mention_id": "c-shiji-046-tian:m040-0004",
+          "quote_passage_ref": "data/corpus/shiji/046.json"
         }
       ],
       "source_term": "宣王卒",
@@ -709,8 +612,8 @@
           "chapter_id": "c-shiji-075-mengchang",
           "source_id": "s-shiji-075-mengchang",
           "paragraph_id": "c-shiji-075-mengchang:p001",
-          "quote": "孟嘗君名文，姓田氏。文之父曰靖郭君田嬰。田嬰者，齊威王少子而齊宣王庶弟也。田嬰自威王時任職用事，與成侯鄒忌及田忌將而救韓伐魏。成侯與田忌爭寵，成侯賣田忌。田忌懼，襲齊之邊邑，不勝，亡走。會威王卒，宣王立，知成侯賣田忌，乃復召田忌以爲將。宣王二年，田忌與孫臏、田嬰倶伐魏，敗之馬陵，虜魏太子申而殺魏將龐涓。宣王七年，田嬰使於韓、魏，韓、魏服於齊。嬰與韓昭侯、魏惠王會齊宣王東阿南，盟而去。明年，復與梁惠王會甄。是歳，梁惠王卒。宣王九年，田嬰相齊。齊宣王與魏襄王會徐州而相王也。楚威王聞之，怒田嬰。明年，楚伐敗齊師於徐州，而使人逐田嬰。田嬰使張丑説楚威王，威王乃止。田嬰相齊十一年，宣王卒，湣王即位。即位三年，而封田嬰於薛。",
-          "person_mention_id": "c-shiji-075-mengchang:m001-0030"
+          "person_mention_id": "c-shiji-075-mengchang:m001-0030",
+          "quote_passage_ref": "data/corpus/shiji/075.json"
         }
       ],
       "interpretation_note": "依本篇原文記錄生卒，不以群體遇害補具名名單；兩名自剄者各按已有匿名人物錨點保存，不同人。五月五日不補生年；宣王二年馬陵及梁惠王卒的篇內紀年仍待與其他篇章對讀，不直接套通行年份。",

@@ -24,7 +24,7 @@
           "chapter_id": "c-shiji-037-wei",
           "source_id": "s-shiji-037-wei",
           "paragraph_id": "c-shiji-037-wei:p051",
-          "quote": "元君爲魏婿，故魏立之。元君十四年，秦拔魏東地，秦初置東郡，更徙衞野王縣，而并濮陽爲東郡。二十五年，元君卒，子君角立。"
+          "quote_passage_ref": "data/corpus/shiji/037.json"
         }
       ],
       "attestations": [
@@ -74,7 +74,7 @@
           "chapter_id": "c-shiji-037-wei",
           "source_id": "s-shiji-037-wei",
           "paragraph_id": "c-shiji-037-wei:p052",
-          "quote": "君角九年，秦併天下，立爲始皇帝。二十一年，二世廢君角爲庶人，衞絶祀。"
+          "quote_passage_ref": "data/corpus/shiji/037.json"
         }
       ],
       "attestations": [
@@ -98,7 +98,7 @@
               "chapter_id": "c-shiji-037-wei",
               "source_id": "s-shiji-037-wei",
               "paragraph_id": "c-shiji-037-wei:p052",
-              "quote": "君角九年，秦併天下，立爲始皇帝。二十一年，二世廢君角爲庶人，衞絶祀。"
+              "quote_passage_ref": "data/corpus/shiji/037.json"
             }
           ]
         },
@@ -130,7 +130,7 @@
           "chapter_id": "c-shiji-006-shihuang",
           "source_id": "s-shiji-006-shihuang",
           "paragraph_id": "c-shiji-006-shihuang:p007",
-          "quote": "六年，韓、魏、趙、衛、楚共擊秦，取壽陵。秦出兵，五國兵罷。拔衛，迫東郡，其君角率其支屬徙居野王，阻其山以保魏之河內。"
+          "quote_passage_ref": "data/corpus/shiji/006.json"
         }
       ],
       "source_term": "徙居野王",
@@ -151,7 +151,6 @@
       "raw_count": 1,
       "duplicate_count": 0,
       "counting_policy": "independent_fixed_witness_occurrences",
-      "quote": "年，韓、魏、趙、衛、楚共擊秦，取壽陵。秦出兵，五國兵罷。拔衛，迫東郡，其君角率其支屬徙居野王，阻其山以保魏之河內。",
       "paragraph_ids": [
         "c-shiji-006-shihuang:p007"
       ],
@@ -175,7 +174,12 @@
       "book_id": "b-shiji-006",
       "chapter_id": "c-shiji-006-shihuang",
       "source_id": "s-shiji-006-shihuang",
-      "work_title": "史記"
+      "work_title": "史記",
+      "chapter_ref": "data/corpus/shiji/006.json",
+      "quote_span": [
+        1,
+        58
+      ]
     },
     {
       "number": 37,
@@ -186,7 +190,6 @@
       "raw_count": 4,
       "duplicate_count": 0,
       "counting_policy": "independent_fixed_witness_occurrences",
-      "quote": "魏東地，秦初置東郡，更徙衞野王縣，而并濮陽爲東郡。二十五年，元君卒，子君角立。",
       "paragraph_ids": [
         "c-shiji-037-wei:p051",
         "c-shiji-037-wei:p052",
@@ -239,7 +242,12 @@
       "book_id": "b-shiji-037",
       "chapter_id": "c-shiji-037-wei",
       "source_id": "s-shiji-037-wei",
-      "work_title": "史記"
+      "work_title": "史記",
+      "chapter_ref": "data/corpus/shiji/037.json",
+      "quote_span": [
+        19,
+        58
+      ]
     },
     {
       "number": 130,
@@ -250,7 +258,6 @@
       "raw_count": 1,
       "duplicate_count": 0,
       "counting_policy": "independent_fixed_witness_occurrences",
-      "quote": "朔之生，衛頃不寧；南子惡蒯聵，子父易名。周德卑微，戰國既彊，衛以小弱，角獨後亡。喜彼康誥，作衛世家第七。",
       "paragraph_ids": [
         "c-shiji-130-taishigong:p049"
       ],
@@ -274,7 +281,12 @@
       "book_id": "b-shiji-130",
       "chapter_id": "c-shiji-130-taishigong",
       "source_id": "s-shiji130-taishigong",
-      "work_title": "史記"
+      "work_title": "史記",
+      "chapter_ref": "data/corpus/shiji/130.json",
+      "quote_span": [
+        21,
+        73
+      ]
     }
   ],
   "table_occurrences": [
@@ -282,7 +294,6 @@
       "table_id": "shiji-015",
       "cell_id": "shiji-015-r248-c03",
       "title": "《史記·六國年表》",
-      "quote": "十四。衛君角元年。",
       "year": {
         "era": "BCE",
         "value": 229,
@@ -305,13 +316,13 @@
       "book_id": "b-shiji-015",
       "chapter_id": "table-chapter-shiji-015",
       "source_id": "table-witness-shiji-015",
-      "source_revision": "2607002"
+      "source_revision": "2607002",
+      "quote_ref": "cell"
     },
     {
       "table_id": "shiji-015",
       "cell_id": "shiji-015-r268-c01",
       "title": "《史記·六國年表》",
-      "quote": "二世元年十月戊寅，大赦罪人。十一月，為兔園。十二月，就阿房宮。其九月，郡縣皆反。楚兵至戲，章邯擊卻之。出衛君角為庶人。",
       "year": {
         "era": "BCE",
         "value": 209,
@@ -334,7 +345,8 @@
       "book_id": "b-shiji-015",
       "chapter_id": "table-chapter-shiji-015",
       "source_id": "table-witness-shiji-015",
-      "source_revision": "2607002"
+      "source_revision": "2607002",
+      "quote_ref": "cell"
     }
   ],
   "sources": [
@@ -343,130 +355,28 @@
       "work_id": "w-shiji",
       "book_id": "b-shiji-006",
       "source_id": "s-shiji-006-shihuang",
-      "source": {
-        "title": "史記／卷006",
-        "provider": "維基文庫",
-        "url": "https://zh.wikisource.org/wiki/史記/卷006",
-        "permalink": "https://zh.wikisource.org/w/index.php?title=史記/卷006&oldid=7907969",
-        "revision_id": 7907969,
-        "accessed_on": "2026-10-09",
-        "extent": "數位見證127個文字區塊，含16個dd刻辭或嵌入引文及卷末附載班固記；排除導覽、跨站連結與註號。",
-        "image_verified": false,
-        "rights": "古代原文與附載文字；數位轉錄依維基文庫CC BY-SA 4.0，保留署名及固定版本。",
-        "license_url": "https://creativecommons.org/licenses/by-sa/4.0/",
-        "normalization": {
-          "character_conversion": {},
-          "note": "正文未改寫；行內校勘標記及附載文字仍待逐處核對。固定版本正文HTML重讀一致。",
-          "editorial_readings": [
-            {
-              "paragraph_id": "c-shiji-006-shihuang:p010",
-              "witness_form": "（四）［是］",
-              "body_reading": "四",
-              "note": "數位見證行內校勘標記另存；正文保留改讀前的字，不稱已校定底本。"
-            },
-            {
-              "paragraph_id": "c-shiji-006-shihuang:p016",
-              "witness_form": "（薊）［荊］",
-              "body_reading": "薊",
-              "note": "數位見證行內校勘標記另存；正文保留改讀前的字，不稱已校定底本。"
-            },
-            {
-              "paragraph_id": "c-shiji-006-shihuang:p051",
-              "witness_form": "（其）",
-              "body_reading": "",
-              "note": "數位見證行內刪字標記另存；未核底本，不稱校定讀法。"
-            },
-            {
-              "paragraph_id": "c-shiji-006-shihuang:p061",
-              "witness_form": "（者）",
-              "body_reading": "",
-              "note": "數位見證行內刪字標記另存；未核底本，不稱校定讀法。"
-            }
-          ],
-          "extraction_note": "按正文p及dd區塊原有次序錄入；dd用前一段ID加block後綴，既有p段落ID不變。正文前兩個dd為維基百科與文言維基大典導覽，排除。"
-        }
-      }
+      "chapter_ref": "data/corpus/shiji/006.json"
     },
     {
       "chapter_id": "c-shiji-037-wei",
       "work_id": "w-shiji",
       "book_id": "b-shiji-037",
       "source_id": "s-shiji-037-wei",
-      "source": {
-        "title": "史記／卷037",
-        "provider": "維基文庫",
-        "url": "https://zh.wikisource.org/wiki/史記/卷037",
-        "permalink": "https://zh.wikisource.org/w/index.php?title=史記/卷037&oldid=5977124",
-        "revision_id": 5977124,
-        "accessed_on": "2026-10-09",
-        "extent": "53段傳世正文，自衞康叔名封至太史公論贊，另保留1段數位見證附載索隱述贊並分層；排除2個dd導覽。",
-        "image_verified": false,
-        "rights": "古代原文；數位轉錄依維基文庫CC BY-SA 4.0，保留署名及固定版本。",
-        "license_url": "https://creativecommons.org/licenses/by-sa/4.0/",
-        "normalization": {
-          "character_conversion": {
-            "绖": "絰"
-          },
-          "editorial_readings": [
-            {
-              "paragraph_id": "c-shiji-037-wei:p027",
-              "rendered": "史Template:按",
-              "wikitext": "史{{按|魚}}",
-              "transcribed": "史魚",
-              "reason": "同一固定版本的按模板失效；取原始標記明示的魚字恢復轉錄，不是依模型補名或底本校勘。"
-            }
-          ],
-          "extraction_note": "固定版本與實讀HTML一致。第31段绖轉絰；第27段失效模板按同版原始標記修復。衞、偼、呉、徴、盂黶等其餘原字不默改。末段標題在h2索隱述贊，另層保留，不把標題添加到原段。",
-          "note": "未核可靠古籍底本及影像，原紀年、世系及異體保留。未以後世研究摘要直接修改親屬或身份。"
-        }
-      }
+      "chapter_ref": "data/corpus/shiji/037.json"
     },
     {
       "chapter_id": "c-shiji-130-taishigong",
       "work_id": "w-shiji",
       "book_id": "b-shiji-130",
       "source_id": "s-shiji130-taishigong",
-      "source": {
-        "title": "史記／卷130",
-        "provider": "維基文庫",
-        "url": "https://zh.wikisource.org/wiki/史記/卷130",
-        "permalink": "https://zh.wikisource.org/w/index.php?title=史記/卷130&oldid=2609362",
-        "revision_id": 2609362,
-        "accessed_on": "2026-10-11",
-        "extent": "固定修訂全文143段，全部篇文。",
-        "image_verified": false,
-        "rights": "古代原文；數位轉錄依維基文庫CC BY-SA 4.0，保留署名及固定版本。",
-        "license_url": "https://creativecommons.org/licenses/by-sa/4.0/",
-        "normalization": {
-          "character_conversion": {},
-          "editorial_readings": [],
-          "extraction_note": "去header2及現代節標，移除維基引文縮排冒號，保留原字，未核影像。",
-          "note": "全文入庫不等於全部提及已標註；目錄段落仍待逐段處理。"
-        }
-      }
+      "chapter_ref": "data/corpus/shiji/130.json"
     },
     {
       "chapter_id": "table-chapter-shiji-015",
       "work_id": "w-shiji",
       "book_id": "b-shiji-015",
       "source_id": "table-witness-shiji-015",
-      "source": {
-        "id": "table-witness-shiji-015",
-        "work_id": "w-shiji",
-        "book_id": "b-shiji-015",
-        "chapter_id": "table-chapter-shiji-015",
-        "url": "https://zh.wikisource.org/wiki/史記/卷015",
-        "revision_url": "https://zh.wikisource.org/w/index.php?title=史記/卷015&oldid=2607002",
-        "revision": "2607002",
-        "accessed": "2026-10-12",
-        "response_sha256": "eb0624a019e02c24ce90a40bfa24863f4020878062c6e2efea32355033be5559",
-        "edition": null,
-        "image_verified": false,
-        "rights": "古籍正文公有領域；維基文庫轉錄及編輯內容依 CC BY-SA 條款，署名維基文庫貢獻者。",
-        "rights_url": "https://zh.wikisource.org/wiki/Wikisource:版權信息",
-        "review_status": "agent_first_pass_named_entities",
-        "note": "完整數位表格結構匯入，未逐格學術覆核。未核讀印本影像，原印本頁碼未知。西元欄沿用此數位轉錄的編者對照，不是古籍原有西元紀年，也不引用其維基百科外連。"
-      }
+      "table_source_ref": "shiji-015"
     }
   ],
   "relations": [
@@ -481,7 +391,7 @@
           "chapter_id": "c-shiji-037-wei",
           "source_id": "s-shiji-037-wei",
           "paragraph_id": "c-shiji-037-wei:p051",
-          "quote": "元君爲魏婿，故魏立之。元君十四年，秦拔魏東地，秦初置東郡，更徙衞野王縣，而并濮陽爲東郡。二十五年，元君卒，子君角立。"
+          "quote_passage_ref": "data/corpus/shiji/037.json"
         }
       ],
       "qualifiers": {
@@ -513,7 +423,7 @@
           "chapter_id": "c-shiji-037-wei",
           "source_id": "s-shiji-037-wei",
           "paragraph_id": "c-shiji-037-wei:p051",
-          "quote": "元君爲魏婿，故魏立之。元君十四年，秦拔魏東地，秦初置東郡，更徙衞野王縣，而并濮陽爲東郡。二十五年，元君卒，子君角立。"
+          "quote_passage_ref": "data/corpus/shiji/037.json"
         }
       ],
       "qualifiers": {

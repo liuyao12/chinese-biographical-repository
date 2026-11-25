@@ -21,7 +21,7 @@
           "chapter_id": "c-shiji-100-jibu",
           "source_id": "s-shiji-100-jibu",
           "paragraph_id": "c-shiji-100-jibu:p005",
-          "quote": "季布弟季心，氣蓋關中，遇人恭謹，爲任俠，方數千里，士皆爭爲之死。嘗殺人，亡之呉，從袁絲匿。長事袁絲，弟畜灌夫、籍福之屬。嘗爲中司馬，中尉郅都不敢不加禮。少年多時時竊籍其名以行。當是時，季心以勇，布以諾，著聞關中。"
+          "quote_passage_ref": "data/corpus/shiji/100.json"
         }
       ],
       "attestations": [
@@ -72,8 +72,8 @@
           "chapter_id": "c-shiji-100-jibu",
           "source_id": "s-shiji-100-jibu",
           "paragraph_id": "c-shiji-100-jibu:p005",
-          "quote": "季布弟季心，氣蓋關中，遇人恭謹，爲任俠，方數千里，士皆爭爲之死。嘗殺人，亡之呉，從袁絲匿。長事袁絲，弟畜灌夫、籍福之屬。嘗爲中司馬，中尉郅都不敢不加禮。少年多時時竊籍其名以行。當是時，季心以勇，布以諾，著聞關中。",
-          "person_mention_id": "c-shiji-100-jibu:m005-0003"
+          "person_mention_id": "c-shiji-100-jibu:m005-0003",
+          "quote_passage_ref": "data/corpus/shiji/100.json"
         }
       ],
       "interpretation_note": "逃亡匿居記錄，不據此補吳人籍貫或具體縣邑。 未核書影，不推現代行政區。",
@@ -94,7 +94,6 @@
       "raw_count": 3,
       "duplicate_count": 0,
       "counting_policy": "independent_fixed_witness_occurrences",
-      "quote": "季布弟季心，氣蓋關中，遇人恭謹，爲任俠，方數千里，士皆爭爲之死。嘗殺人，亡之呉，從袁絲匿。長事袁絲，弟畜灌夫、籍福之屬。嘗爲中司馬，中尉郅都不敢不加禮。少年多時時竊籍其名以行。當是時，季心以勇，布以諾，著聞關中",
       "paragraph_ids": [
         "c-shiji-100-jibu:p005",
         "c-shiji-100-jibu:p012"
@@ -137,7 +136,12 @@
       "book_id": "b-shiji-100",
       "chapter_id": "c-shiji-100-jibu",
       "source_id": "s-shiji-100-jibu",
-      "work_title": "史記"
+      "work_title": "史記",
+      "chapter_ref": "data/corpus/shiji/100.json",
+      "quote_span": [
+        0,
+        105
+      ]
     },
     {
       "number": 101,
@@ -148,7 +152,6 @@
       "raw_count": 1,
       "duplicate_count": 0,
       "counting_policy": "independent_fixed_witness_occurrences",
-      "quote": "且緩急人所有。夫一旦有急叩門，不以親為解，不以存亡為辭，天下所望者，獨季心、劇孟耳。今公常從數騎，一旦有緩急，寧足恃乎！」罵富人，弗與通。諸公聞之，皆多袁盎。",
       "paragraph_ids": [
         "c-shiji-101-yuanchao:p014"
       ],
@@ -172,7 +175,12 @@
       "book_id": "b-shiji-101",
       "chapter_id": "c-shiji-101-yuanchao",
       "source_id": "s-shiji-101-yuanchao",
-      "work_title": "史記"
+      "work_title": "史記",
+      "chapter_ref": "data/corpus/shiji/101.json",
+      "quote_span": [
+        125,
+        204
+      ]
     }
   ],
   "table_occurrences": [],
@@ -182,48 +190,14 @@
       "work_id": "w-shiji",
       "book_id": "b-shiji-100",
       "source_id": "s-shiji-100-jibu",
-      "source": {
-        "title": "史記／卷100",
-        "provider": "維基文庫",
-        "url": "https://zh.wikisource.org/wiki/史記/卷100",
-        "permalink": "https://zh.wikisource.org/w/index.php?title=史記/卷100&oldid=1965696",
-        "revision_id": 1965696,
-        "accessed_on": "2026-10-10",
-        "extent": "11段正文含太史公論，另附1段索隱；首區塊即正文，無導覽可跳。",
-        "image_verified": false,
-        "rights": "古代原文；數位轉錄依維基文庫CC BY-SA 4.0，保留署名及固定版本。",
-        "license_url": "https://creativecommons.org/licenses/by-sa/4.0/",
-        "normalization": {
-          "character_conversion": {},
-          "editorial_readings": [],
-          "extraction_note": "只去外緣空白；髙、爲、呉、歳、説、兪、亨及校勘符號原字保留。",
-          "note": "全12個HTML區塊已核讀，無tooltip/reference/del/s0；未核底本影像。"
-        }
-      }
+      "chapter_ref": "data/corpus/shiji/100.json"
     },
     {
       "chapter_id": "c-shiji-101-yuanchao",
       "work_id": "w-shiji",
       "book_id": "b-shiji-101",
       "source_id": "s-shiji-101-yuanchao",
-      "source": {
-        "title": "史記／卷101",
-        "provider": "維基文庫",
-        "url": "https://zh.wikisource.org/wiki/史記/卷101",
-        "permalink": "https://zh.wikisource.org/w/index.php?title=史記/卷101&oldid=368092",
-        "revision_id": 368092,
-        "accessed_on": "2026-10-10",
-        "extent": "22段正文含太史公論，另附1段索隱；首區塊即正文。",
-        "image_verified": false,
-        "rights": "古代原文；數位轉錄依維基文庫CC BY-SA 4.0，保留署名及固定版本。",
-        "license_url": "https://creativecommons.org/licenses/by-sa/4.0/",
-        "normalization": {
-          "character_conversion": {},
-          "editorial_readings": [],
-          "extraction_note": "只去外緣空白；鼂、陗、鬬、擥、棓、諠及（嘗）、（直）隧［直］等原字與見證符號保留。",
-          "note": "全23段已核讀；無tooltip、reference、del、s0或sup；未核底本影像。"
-        }
-      }
+      "chapter_ref": "data/corpus/shiji/101.json"
     }
   ],
   "relations": [
@@ -238,7 +212,7 @@
           "chapter_id": "c-shiji-100-jibu",
           "source_id": "s-shiji-100-jibu",
           "paragraph_id": "c-shiji-100-jibu:p005",
-          "quote": "季布弟季心，氣蓋關中，遇人恭謹，爲任俠，方數千里，士皆爭爲之死。嘗殺人，亡之呉，從袁絲匿。長事袁絲，弟畜灌夫、籍福之屬。嘗爲中司馬，中尉郅都不敢不加禮。少年多時時竊籍其名以行。當是時，季心以勇，布以諾，著聞關中。"
+          "quote_passage_ref": "data/corpus/shiji/100.json"
         }
       ],
       "qualifiers": {
@@ -280,7 +254,7 @@
           "chapter_id": "c-shiji-100-jibu",
           "source_id": "s-shiji-100-jibu",
           "paragraph_id": "c-shiji-100-jibu:p005",
-          "quote": "季布弟季心，氣蓋關中，遇人恭謹，爲任俠，方數千里，士皆爭爲之死。嘗殺人，亡之呉，從袁絲匿。長事袁絲，弟畜灌夫、籍福之屬。嘗爲中司馬，中尉郅都不敢不加禮。少年多時時竊籍其名以行。當是時，季心以勇，布以諾，著聞關中。"
+          "quote_passage_ref": "data/corpus/shiji/100.json"
         }
       ],
       "qualifiers": {

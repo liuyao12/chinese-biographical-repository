@@ -20,7 +20,6 @@
       "raw_count": 1,
       "duplicate_count": 0,
       "counting_policy": "independent_fixed_witness_occurrences",
-      "quote": "軍、金紫光祿大夫。以濟河之功，進爵濟北郡開國公，增邑五百戶，復除其長子師沖為祕書郎。",
       "paragraph_ids": [
         "c-weishu-weishou-058-yangbo-yangkan:p011"
       ],
@@ -44,7 +43,12 @@
       "book_id": "b-weishu-weishou-058",
       "chapter_id": "c-weishu-weishou-058-yangbo-yangkan",
       "source_id": "s-weishu-weishou-058-yangbo-ws2087998",
-      "work_title": "魏書（魏收）"
+      "work_title": "魏書（魏收）",
+      "chapter_ref": "data/corpus/weishu-weishou/058-yangbo-yangkan.json",
+      "quote_span": [
+        328,
+        370
+      ]
     }
   ],
   "table_occurrences": [],
@@ -54,27 +58,7 @@
       "work_id": "w-weishu-weishou",
       "book_id": "b-weishu-weishou-058",
       "source_id": "s-weishu-weishou-058-yangbo-ws2087998",
-      "source": {
-        "title": "魏書卷五十八楊播及子侃完整敘事",
-        "provider": "Wikisource",
-        "url": "https://zh.wikisource.org/w/index.php?title=%E9%AD%8F%E6%9B%B8%2F%E5%8D%B758&oldid=2087998",
-        "permalink": "https://zh.wikisource.org/w/index.php?title=%E9%AD%8F%E6%9B%B8%2F%E5%8D%B758&oldid=2087998",
-        "revision_id": 2087998,
-        "raw_path": "sources/weishu-weishou/weishu058-ws2087998.wikitext",
-        "raw_file_sha256": "a53ae2dbced88decaa460fbf34f87bb5e65a0b37b524480cb362a3bebb1bc19d",
-        "accessed_on": "2026-10-22",
-        "edition": "維基文庫固定數位轉錄；實際版本底本未確認，未圖校",
-        "extent": "楊播開篇至楊侃末子純陀襲，止弟椿獨立傳前；另完整本卷史臣共評。非全058卷。",
-        "text_scope": "partial_chapter",
-        "review_status": "text_checked",
-        "image_verified": false,
-        "license_url": "https://creativecommons.org/licenses/by-sa/4.0/",
-        "rights": "古代正文；數位見證及網站校勘署名依維基文庫CC BY-SA4.0與附加條款保留",
-        "normalization": {
-          "character_conversion": {},
-          "extraction_note": "保原字與標點；段落按固定raw非空正文行。只分離網站ref校勘，原ref全文連raw位於annotation，逐字映射無摘要。"
-        }
-      }
+      "chapter_ref": "data/corpus/weishu-weishou/058-yangbo-yangkan.json"
     }
   ],
   "relations": [
@@ -99,8 +83,8 @@
               "source_id": "s-weishu-weishou-058-yangbo-ws2087998",
               "chapter_id": "c-weishu-weishou-058-yangbo-yangkan",
               "paragraph_id": "c-weishu-weishou-058-yangbo-yangkan:p011",
-              "quote": "及車駕南還，顥令蕭衍將陳慶之守北中城，自據南岸。有夏州義士為顥守河中渚，乃密信通款，求破橋立效，尒朱榮率軍赴之。及橋破，應接不果，皆為顥所屠滅。榮因悵然，將為還計，欲更圖後舉。侃曰：「未審明大王發并州之日，已知有夏州義士指來相應，為欲廣申經略，寧復帝基乎？夫兵散而更合，瘡愈而更戰，持此收功，自古不少，豈可以一圖不全，而眾慮頓廢。今事不果，乃是兩賊相殺，則大王之利矣。若今即還，民情失望，去就之心，何由可保？未若召發民材，惟多縛筏，間以舟楫，沿河廣布，令數百里中，皆為渡勢。首尾既遠，顥復知防何處，一旦得渡，必立大功。」榮大笑曰：「黃門即奏行此計。」於是尒朱兆與侃等遂與馬渚諸楊南渡，破顥子領軍將軍冠受，擒之。顥便南走。車駕入都，侃解尚書，正黃門，加征東將軍、金紫光祿大夫。以濟河之功，進爵濟北郡開國公，增邑五百戶，復除其長子師沖為祕書郎。",
-              "source_term": "長子師沖"
+              "source_term": "長子師沖",
+              "quote_passage_ref": "data/corpus/weishu-weishou/058-yangbo-yangkan.json"
             }
           ]
         }
@@ -112,9 +96,9 @@
           "source_id": "s-weishu-weishou-058-yangbo-ws2087998",
           "chapter_id": "c-weishu-weishou-058-yangbo-yangkan",
           "paragraph_id": "c-weishu-weishou-058-yangbo-yangkan:p011",
-          "quote": "及車駕南還，顥令蕭衍將陳慶之守北中城，自據南岸。有夏州義士為顥守河中渚，乃密信通款，求破橋立效，尒朱榮率軍赴之。及橋破，應接不果，皆為顥所屠滅。榮因悵然，將為還計，欲更圖後舉。侃曰：「未審明大王發并州之日，已知有夏州義士指來相應，為欲廣申經略，寧復帝基乎？夫兵散而更合，瘡愈而更戰，持此收功，自古不少，豈可以一圖不全，而眾慮頓廢。今事不果，乃是兩賊相殺，則大王之利矣。若今即還，民情失望，去就之心，何由可保？未若召發民材，惟多縛筏，間以舟楫，沿河廣布，令數百里中，皆為渡勢。首尾既遠，顥復知防何處，一旦得渡，必立大功。」榮大笑曰：「黃門即奏行此計。」於是尒朱兆與侃等遂與馬渚諸楊南渡，破顥子領軍將軍冠受，擒之。顥便南走。車駕入都，侃解尚書，正黃門，加征東將軍、金紫光祿大夫。以濟河之功，進爵濟北郡開國公，增邑五百戶，復除其長子師沖為祕書郎。",
           "subject_person_mention_id": "c-weishu-weishou-058-yangbo-yangkan:p011:m0363",
-          "object_person_mention_id": "c-weishu-weishou-058-yangbo-yangkan:p011:m0088"
+          "object_person_mention_id": "c-weishu-weishou-058-yangbo-yangkan:p011:m0088",
+          "quote_passage_ref": "data/corpus/weishu-weishou/058-yangbo-yangkan.json"
         }
       ],
       "interpretation_note": "其承侃濟河功；原長子=1，異文師仲另保。",
@@ -138,7 +122,6 @@
       "chapter_id": "c-weishu-weishou-058-yangbo-yangkan",
       "paragraph_id": "c-weishu-weishou-058-yangbo-yangkan:p011",
       "person_mention_id": "c-weishu-weishou-058-yangbo-yangkan:p011:m0363",
-      "quote": "及車駕南還，顥令蕭衍將陳慶之守北中城，自據南岸。有夏州義士為顥守河中渚，乃密信通款，求破橋立效，尒朱榮率軍赴之。及橋破，應接不果，皆為顥所屠滅。榮因悵然，將為還計，欲更圖後舉。侃曰：「未審明大王發并州之日，已知有夏州義士指來相應，為欲廣申經略，寧復帝基乎？夫兵散而更合，瘡愈而更戰，持此收功，自古不少，豈可以一圖不全，而眾慮頓廢。今事不果，乃是兩賊相殺，則大王之利矣。若今即還，民情失望，去就之心，何由可保？未若召發民材，惟多縛筏，間以舟楫，沿河廣布，令數百里中，皆為渡勢。首尾既遠，顥復知防何處，一旦得渡，必立大功。」榮大笑曰：「黃門即奏行此計。」於是尒朱兆與侃等遂與馬渚諸楊南渡，破顥子領軍將軍冠受，擒之。顥便南走。車駕入都，侃解尚書，正黃門，加征東將軍、金紫光祿大夫。以濟河之功，進爵濟北郡開國公，增邑五百戶，復除其長子師沖為祕書郎。",
       "note": "原文只稱師沖；姓楊是依同一完整傳記楊播與明示近系父子鏈的編輯首選，不是原句明載完整姓名，不由ID字母／同郡望推得。",
       "status": "contextual_provisional",
       "human_reviewed": false,
@@ -163,9 +146,9 @@
               "source_id": "s-weishu-weishou-058-yangbo-ws2087998",
               "chapter_id": "c-weishu-weishou-058-yangbo-yangkan",
               "paragraph_id": "c-weishu-weishou-058-yangbo-yangkan:p005",
-              "quote": "景明初，兼侍中，使恒州，贍恤寒乏。轉左衞將軍。出除安北將軍、并州刺史，固辭，乃授安西將軍、華州刺史。至州借民田，為御史王基所劾，削除官爵。延昌二年，卒于家。子侃等停柩不葬，披訴積年，至熙平中乃贈鎮西將軍、雍州刺史，并復其爵，諡曰壯。",
               "subject_person_mention_id": "c-weishu-weishou-058-yangbo-yangkan:p005:m0079",
-              "object_person_mention_id": "c-weishu-weishou-058-yangbo-yangkan:p005:m0109"
+              "object_person_mention_id": "c-weishu-weishou-058-yangbo-yangkan:p005:m0109",
+              "quote_passage_ref": "data/corpus/weishu-weishou/058-yangbo-yangkan.json"
             }
           },
           {
@@ -180,16 +163,17 @@
               "source_id": "s-weishu-weishou-058-yangbo-ws2087998",
               "chapter_id": "c-weishu-weishou-058-yangbo-yangkan",
               "paragraph_id": "c-weishu-weishou-058-yangbo-yangkan:p011",
-              "quote": "及車駕南還，顥令蕭衍將陳慶之守北中城，自據南岸。有夏州義士為顥守河中渚，乃密信通款，求破橋立效，尒朱榮率軍赴之。及橋破，應接不果，皆為顥所屠滅。榮因悵然，將為還計，欲更圖後舉。侃曰：「未審明大王發并州之日，已知有夏州義士指來相應，為欲廣申經略，寧復帝基乎？夫兵散而更合，瘡愈而更戰，持此收功，自古不少，豈可以一圖不全，而眾慮頓廢。今事不果，乃是兩賊相殺，則大王之利矣。若今即還，民情失望，去就之心，何由可保？未若召發民材，惟多縛筏，間以舟楫，沿河廣布，令數百里中，皆為渡勢。首尾既遠，顥復知防何處，一旦得渡，必立大功。」榮大笑曰：「黃門即奏行此計。」於是尒朱兆與侃等遂與馬渚諸楊南渡，破顥子領軍將軍冠受，擒之。顥便南走。車駕入都，侃解尚書，正黃門，加征東將軍、金紫光祿大夫。以濟河之功，進爵濟北郡開國公，增邑五百戶，復除其長子師沖為祕書郎。",
               "subject_person_mention_id": "c-weishu-weishou-058-yangbo-yangkan:p011:m0363",
-              "object_person_mention_id": "c-weishu-weishou-058-yangbo-yangkan:p011:m0088"
+              "object_person_mention_id": "c-weishu-weishou-058-yangbo-yangkan:p011:m0088",
+              "quote_passage_ref": "data/corpus/weishu-weishou/058-yangbo-yangkan.json"
             }
           }
         ]
       },
       "work_id": "w-weishu-weishou",
       "book_id": "b-weishu-weishou-058",
-      "source_id": "s-weishu-weishou-058-yangbo-ws2087998"
+      "source_id": "s-weishu-weishou-058-yangbo-ws2087998",
+      "quote_passage_ref": "data/corpus/weishu-weishou/058-yangbo-yangkan.json"
     }
   ],
   "person_ids": [
@@ -217,8 +201,8 @@
               "source_id": "s-weishu-weishou-058-yangbo-ws2087998",
               "chapter_id": "c-weishu-weishou-058-yangbo-yangkan",
               "paragraph_id": "c-weishu-weishou-058-yangbo-yangkan:p011",
-              "quote": "及車駕南還，顥令蕭衍將陳慶之守北中城，自據南岸。有夏州義士為顥守河中渚，乃密信通款，求破橋立效，尒朱榮率軍赴之。及橋破，應接不果，皆為顥所屠滅。榮因悵然，將為還計，欲更圖後舉。侃曰：「未審明大王發并州之日，已知有夏州義士指來相應，為欲廣申經略，寧復帝基乎？夫兵散而更合，瘡愈而更戰，持此收功，自古不少，豈可以一圖不全，而眾慮頓廢。今事不果，乃是兩賊相殺，則大王之利矣。若今即還，民情失望，去就之心，何由可保？未若召發民材，惟多縛筏，間以舟楫，沿河廣布，令數百里中，皆為渡勢。首尾既遠，顥復知防何處，一旦得渡，必立大功。」榮大笑曰：「黃門即奏行此計。」於是尒朱兆與侃等遂與馬渚諸楊南渡，破顥子領軍將軍冠受，擒之。顥便南走。車駕入都，侃解尚書，正黃門，加征東將軍、金紫光祿大夫。以濟河之功，進爵濟北郡開國公，增邑五百戶，復除其長子師沖為祕書郎。",
-              "source_term": "長子師沖"
+              "source_term": "長子師沖",
+              "quote_passage_ref": "data/corpus/weishu-weishou/058-yangbo-yangkan.json"
             }
           ]
         }
@@ -230,9 +214,9 @@
           "source_id": "s-weishu-weishou-058-yangbo-ws2087998",
           "chapter_id": "c-weishu-weishou-058-yangbo-yangkan",
           "paragraph_id": "c-weishu-weishou-058-yangbo-yangkan:p011",
-          "quote": "及車駕南還，顥令蕭衍將陳慶之守北中城，自據南岸。有夏州義士為顥守河中渚，乃密信通款，求破橋立效，尒朱榮率軍赴之。及橋破，應接不果，皆為顥所屠滅。榮因悵然，將為還計，欲更圖後舉。侃曰：「未審明大王發并州之日，已知有夏州義士指來相應，為欲廣申經略，寧復帝基乎？夫兵散而更合，瘡愈而更戰，持此收功，自古不少，豈可以一圖不全，而眾慮頓廢。今事不果，乃是兩賊相殺，則大王之利矣。若今即還，民情失望，去就之心，何由可保？未若召發民材，惟多縛筏，間以舟楫，沿河廣布，令數百里中，皆為渡勢。首尾既遠，顥復知防何處，一旦得渡，必立大功。」榮大笑曰：「黃門即奏行此計。」於是尒朱兆與侃等遂與馬渚諸楊南渡，破顥子領軍將軍冠受，擒之。顥便南走。車駕入都，侃解尚書，正黃門，加征東將軍、金紫光祿大夫。以濟河之功，進爵濟北郡開國公，增邑五百戶，復除其長子師沖為祕書郎。",
           "subject_person_mention_id": "c-weishu-weishou-058-yangbo-yangkan:p011:m0363",
-          "object_person_mention_id": "c-weishu-weishou-058-yangbo-yangkan:p011:m0088"
+          "object_person_mention_id": "c-weishu-weishou-058-yangbo-yangkan:p011:m0088",
+          "quote_passage_ref": "data/corpus/weishu-weishou/058-yangbo-yangkan.json"
         }
       ],
       "interpretation_note": "其承侃濟河功；原長子=1，異文師仲另保。",

@@ -23,7 +23,6 @@
       "raw_count": 5,
       "duplicate_count": 0,
       "counting_policy": "independent_fixed_witness_occurrences",
-      "quote": "三十一年，共公卒，子幽公已立。幽公元年，韓武子伐鄭，殺幽公。鄭人立幽公弟駘，是爲繻公。",
       "paragraph_ids": [
         "c-shiji-042-zheng:p054",
         "c-shiji-042-zheng:p055",
@@ -85,7 +84,12 @@
       "book_id": "b-shiji-042",
       "chapter_id": "c-shiji-042-zheng",
       "source_id": "s-shiji-042-zheng",
-      "work_title": "史記"
+      "work_title": "史記",
+      "chapter_ref": "data/corpus/shiji/042.json",
+      "quote_span": [
+        33,
+        76
+      ]
     }
   ],
   "table_occurrences": [
@@ -93,7 +97,6 @@
       "table_id": "shiji-015",
       "cell_id": "shiji-015-r055-c04",
       "title": "《史記·六國年表》",
-      "quote": "三。鄭立幽公子，為繻公，元年。",
       "year": {
         "era": "BCE",
         "value": 422,
@@ -116,13 +119,13 @@
       "book_id": "b-shiji-015",
       "chapter_id": "table-chapter-shiji-015",
       "source_id": "table-witness-shiji-015",
-      "source_revision": "2607002"
+      "source_revision": "2607002",
+      "quote_ref": "cell"
     },
     {
       "table_id": "shiji-015",
       "cell_id": "shiji-015-r081-c04",
       "title": "《史記·六國年表》",
-      "quote": "四。鄭相子陽之徒殺其君繻公。",
       "year": {
         "era": "BCE",
         "value": 396,
@@ -145,7 +148,8 @@
       "book_id": "b-shiji-015",
       "chapter_id": "table-chapter-shiji-015",
       "source_id": "table-witness-shiji-015",
-      "source_revision": "2607002"
+      "source_revision": "2607002",
+      "quote_ref": "cell"
     }
   ],
   "sources": [
@@ -154,47 +158,14 @@
       "work_id": "w-shiji",
       "book_id": "b-shiji-042",
       "source_id": "s-shiji-042-zheng",
-      "source": {
-        "title": "史記／卷042",
-        "provider": "維基文庫",
-        "url": "https://zh.wikisource.org/wiki/史記/卷042",
-        "permalink": "https://zh.wikisource.org/w/index.php?title=史記/卷042&oldid=2016409",
-        "revision_id": 2016409,
-        "accessed_on": "2026-10-09",
-        "extent": "59段正文及1段分層索隱述贊；排除2個dd導覽，只去除段落外緣空白。",
-        "image_verified": false,
-        "rights": "古代原文；數位轉錄依維基文庫CC BY-SA 4.0，保留署名及固定版本。",
-        "license_url": "https://creativecommons.org/licenses/by-sa/4.0/",
-        "normalization": {
-          "character_conversion": {},
-          "editorial_readings": [],
-          "extraction_note": "固定修訂與取得時HTML一致；保留古代異體、九月（辛）［丁］亥等校勘符號及溉逐、掔羊、持兩端等疑讀，不擅選讀法。",
-          "note": "全60段數位正文已閱讀；未核古籍影像、可靠底本及現代研究。"
-        }
-      }
+      "chapter_ref": "data/corpus/shiji/042.json"
     },
     {
       "chapter_id": "table-chapter-shiji-015",
       "work_id": "w-shiji",
       "book_id": "b-shiji-015",
       "source_id": "table-witness-shiji-015",
-      "source": {
-        "id": "table-witness-shiji-015",
-        "work_id": "w-shiji",
-        "book_id": "b-shiji-015",
-        "chapter_id": "table-chapter-shiji-015",
-        "url": "https://zh.wikisource.org/wiki/史記/卷015",
-        "revision_url": "https://zh.wikisource.org/w/index.php?title=史記/卷015&oldid=2607002",
-        "revision": "2607002",
-        "accessed": "2026-10-12",
-        "response_sha256": "eb0624a019e02c24ce90a40bfa24863f4020878062c6e2efea32355033be5559",
-        "edition": null,
-        "image_verified": false,
-        "rights": "古籍正文公有領域；維基文庫轉錄及編輯內容依 CC BY-SA 條款，署名維基文庫貢獻者。",
-        "rights_url": "https://zh.wikisource.org/wiki/Wikisource:版權信息",
-        "review_status": "agent_first_pass_named_entities",
-        "note": "完整數位表格結構匯入，未逐格學術覆核。未核讀印本影像，原印本頁碼未知。西元欄沿用此數位轉錄的編者對照，不是古籍原有西元紀年，也不引用其維基百科外連。"
-      }
+      "table_source_ref": "shiji-015"
     }
   ],
   "relations": [
@@ -209,7 +180,7 @@
           "chapter_id": "c-shiji-042-zheng",
           "source_id": "s-shiji-042-zheng",
           "paragraph_id": "c-shiji-042-zheng:p054",
-          "quote": "哀公八年，鄭人弒哀公而立聲公弟丑，是爲共公。共公三年，三晉滅知伯。三十一年，共公卒，子幽公已立。幽公元年，韓武子伐鄭，殺幽公。鄭人立幽公弟駘，是爲繻公。"
+          "quote_passage_ref": "data/corpus/shiji/042.json"
         }
       ],
       "qualifiers": {
@@ -237,19 +208,19 @@
       "evidence": [
         {
           "paragraph_id": "c-shiji-042-zheng:p033",
-          "quote": "成公三年，楚共王曰「鄭成公孤有德焉」，使人來與盟。成公私與盟。秋，成公朝晉，晉曰「鄭私平於楚」，執之。使欒書伐鄭。四年春，鄭患晉圍，公子如乃立成公庶兄繻爲君。其四月，晉聞鄭立君，乃歸成公。鄭人聞成公歸，亦殺君繻，迎成公。晉兵去。",
           "chapter_id": "c-shiji-042-zheng",
           "work_id": "w-shiji",
           "book_id": "b-shiji-042",
-          "source_id": "s-shiji-042-zheng"
+          "source_id": "s-shiji-042-zheng",
+          "quote_passage_ref": "data/corpus/shiji/042.json"
         },
         {
           "paragraph_id": "c-shiji-042-zheng:p054",
-          "quote": "哀公八年，鄭人弒哀公而立聲公弟丑，是爲共公。共公三年，三晉滅知伯。三十一年，共公卒，子幽公已立。幽公元年，韓武子伐鄭，殺幽公。鄭人立幽公弟駘，是爲繻公。",
           "chapter_id": "c-shiji-042-zheng",
           "work_id": "w-shiji",
           "book_id": "b-shiji-042",
-          "source_id": "s-shiji-042-zheng"
+          "source_id": "s-shiji-042-zheng",
+          "quote_passage_ref": "data/corpus/shiji/042.json"
         }
       ],
       "rationale": "前者為成公庶兄繻、晉拘成公時暫立而後被殺；後者名駘、幽公弟而立繻公，關係與敘事時段不同。",
@@ -272,7 +243,7 @@
           "chapter_id": "c-shiji-042-zheng",
           "source_id": "s-shiji-042-zheng",
           "paragraph_id": "c-shiji-042-zheng:p054",
-          "quote": "哀公八年，鄭人弒哀公而立聲公弟丑，是爲共公。共公三年，三晉滅知伯。三十一年，共公卒，子幽公已立。幽公元年，韓武子伐鄭，殺幽公。鄭人立幽公弟駘，是爲繻公。"
+          "quote_passage_ref": "data/corpus/shiji/042.json"
         }
       ],
       "qualifiers": {
@@ -296,8 +267,8 @@
           "chapter_id": "c-shiji-042-zheng",
           "source_id": "s-shiji-042-zheng",
           "paragraph_id": "c-shiji-042-zheng:p057",
-          "quote": "二十五年，鄭君殺其相子陽。二十七，子陽之黨共弒繻公駘而立幽公弟乙爲君，是爲鄭君。鄭君乙立二年，鄭負黍反，復歸韓。十一年，韓伐鄭，取陽城。",
-          "person_mention_id": "c-shiji-042-zheng:m057-0023"
+          "person_mention_id": "c-shiji-042-zheng:m057-0023",
+          "quote_passage_ref": "data/corpus/shiji/042.json"
         }
       ],
       "source_term": "共弒繻公駘",

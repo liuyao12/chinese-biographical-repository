@@ -21,7 +21,7 @@
           "chapter_id": "c-shiji-047-kong",
           "source_id": "s-shiji-047-kong",
           "paragraph_id": "c-shiji-047-kong:p017",
-          "quote": "定公十年春，及齊平。夏，齊大夫黎鉏言於景公曰：「魯用孔丘，其勢危齊。」乃使使告魯為好會，會於夾谷。魯定公且以乘車好往。孔子攝相事，曰：「臣聞有文事者必有武備，有武事者必有文備。古者諸侯出疆，必具官以從。請具左右司馬。」定公曰：「諾。」具左右司馬。會齊侯夾谷，為壇位，土階三等，以會遇之禮相見，揖讓而登。獻酬之禮畢，齊有司趨而進曰：「請奏四方之樂。」景公曰：「諾。」於是旍旄羽袚矛戟劍撥鼓噪而至。孔子趨而進，歷階而登，不盡一等，舉袂而言曰：「吾兩君為好會，夷狄之樂何為於此！請命有司！」有司卻之，不去，則左右視晏子與景公。景公心怍，麾而去之。有頃，齊有司趨而進曰：「請奏宮中之樂。」景公曰：「諾。」優倡侏儒為戲而前。孔子趨而進，歷階而登，不盡一等，曰：「匹夫而營惑諸侯者罪當誅！請命有司！」有司加法焉，手足異處。景公懼而動，知義不若，歸而大恐，告其羣臣曰：「魯以君子之道輔其君，而子獨以夷狄之道敎寡人，使得罪於魯君，為之奈何？」有司進對曰：「君子有過則謝以質，小人有過則謝以文。君若悼之，則謝以質。」於是齊侯乃歸所侵魯之鄆、汶陽、龜陰之田以謝過。"
+          "quote_passage_ref": "data/corpus/shiji/047.json"
         }
       ],
       "attestations": [
@@ -63,7 +63,6 @@
       "raw_count": 2,
       "duplicate_count": 0,
       "counting_policy": "independent_fixed_witness_occurrences",
-      "quote": "定公十年春，及齊平。夏，齊大夫黎鉏言於景公曰：「魯用孔丘，其勢危齊。」乃使使告魯為好會，會於夾谷。魯定公且以乘車好往。孔子攝相事，曰：「臣聞有文事者必有武備，有武事者必有文備。古者諸侯出疆，必具官以從。請具左右司馬。」定公曰：「諾。」",
       "paragraph_ids": [
         "c-shiji-047-kong:p017",
         "c-shiji-047-kong:p020"
@@ -97,7 +96,12 @@
       "book_id": "b-shiji-047",
       "chapter_id": "c-shiji-047-kong",
       "source_id": "s-shiji-047-kong",
-      "work_title": "史記"
+      "work_title": "史記",
+      "chapter_ref": "data/corpus/shiji/047.json",
+      "quote_span": [
+        0,
+        117
+      ]
     }
   ],
   "table_occurrences": [],
@@ -107,24 +111,7 @@
       "work_id": "w-shiji",
       "book_id": "b-shiji-047",
       "source_id": "s-shiji-047-kong",
-      "source": {
-        "title": "史記／卷047",
-        "provider": "維基文庫",
-        "url": "https://zh.wikisource.org/wiki/史記/卷047",
-        "permalink": "https://zh.wikisource.org/w/index.php?title=史記/卷047&oldid=7903609",
-        "revision_id": 7903609,
-        "accessed_on": "2026-10-09",
-        "extent": "85段正文及1段索隱述贊，後者分層；排除2個dd導覽與現代分節標題，只去除段落外緣空白。",
-        "image_verified": false,
-        "rights": "古代原文；數位轉錄依維基文庫CC BY-SA 4.0，保留署名及固定版本。",
-        "license_url": "https://creativecommons.org/licenses/by-sa/4.0/",
-        "normalization": {
-          "character_conversion": {},
-          "editorial_readings": [],
-          "extraction_note": "取得時HTML與固定修訂一致；現代分節標題不作古代正文，原字與來源標點保留。",
-          "note": "已核讀全86段數位文字並作首輪明示人名標註；未核可靠底本、影像或現代研究。"
-        }
-      }
+      "chapter_ref": "data/corpus/shiji/047.json"
     }
   ],
   "relations": [],

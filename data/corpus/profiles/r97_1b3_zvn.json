@@ -21,7 +21,7 @@
           "chapter_id": "c-shiji-007-xiangyu",
           "source_id": "s-shiji-007-xiangyu",
           "paragraph_id": "c-shiji-007-xiangyu:p008",
-          "quote": "項梁起東阿，西，（北）［比］至定陶，再破秦軍，項羽等又斬李由，益輕秦，有驕色。宋義乃諫項梁曰：「戰勝而將驕卒惰者敗。今卒少惰矣，秦兵日益，臣為君畏之。」項梁弗聽。乃使宋義使於齊。道遇齊使者高陵君顯，曰：「公將見武信君乎？」曰：「然。」曰：「臣論武信君軍必敗。公徐行即免死，疾行則及禍。」秦果悉起兵益章邯，擊楚軍，大破之定陶，項梁死。沛公、項羽去外黃攻陳留，陳留堅守不能下。沛公、項羽相與謀曰：「今項梁軍破，士卒恐。」乃與呂臣軍俱引兵而東。呂臣軍彭城東，項羽軍彭城西，沛公軍碭。"
+          "quote_passage_ref": "data/corpus/shiji/007.json"
         }
       ],
       "attestations": [
@@ -65,7 +65,6 @@
       "raw_count": 2,
       "duplicate_count": 0,
       "counting_policy": "independent_fixed_witness_occurrences",
-      "quote": "卒少惰矣，秦兵日益，臣為君畏之。」項梁弗聽。乃使宋義使於齊。道遇齊使者高陵君顯，曰：「公將見武信君乎？」曰：「然。」曰：「臣論武信君軍必敗。公徐行即免死，疾行則及禍。」秦果悉起兵益章邯，擊楚軍，大破之定陶，項梁死。沛公、項羽去外黃攻陳留，陳留堅守不能下。沛公、項羽相與謀曰：「今",
       "paragraph_ids": [
         "c-shiji-007-xiangyu:p008",
         "c-shiji-007-xiangyu:p011"
@@ -99,7 +98,12 @@
       "book_id": "b-shiji-007",
       "chapter_id": "c-shiji-007-xiangyu",
       "source_id": "s-shiji-007-xiangyu",
-      "work_title": "史記"
+      "work_title": "史記",
+      "chapter_ref": "data/corpus/shiji/007.json",
+      "quote_span": [
+        59,
+        198
+      ]
     }
   ],
   "table_occurrences": [],
@@ -109,24 +113,7 @@
       "work_id": "w-shiji",
       "book_id": "b-shiji-007",
       "source_id": "s-shiji-007-xiangyu",
-      "source": {
-        "title": "史記／卷007",
-        "provider": "維基文庫",
-        "url": "https://zh.wikisource.org/wiki/史記/卷007",
-        "permalink": "https://zh.wikisource.org/w/index.php?title=史記/卷007&oldid=5978360",
-        "revision_id": 5978360,
-        "accessed_on": "2026-10-09",
-        "extent": "本篇傳世正文45個p區塊，自「項籍者」至太史公論贊；不含導覽標題、跨站連結與另署【索隱述贊】的後出注家文字。",
-        "image_verified": false,
-        "rights": "古代原文；數位轉錄依維基文庫CC BY-SA 4.0，保留署名及固定版本。",
-        "license_url": "https://creativecommons.org/licenses/by-sa/4.0/",
-        "normalization": {
-          "character_conversion": {},
-          "editorial_readings": [],
-          "extraction_note": "核讀p與dd原有次序；本篇dd僅為正文前跨站導覽，正文45區塊均為p。排除sup註號，保留行內校勘符號待核。",
-          "note": "固定版本正文HTML與所讀頁面重讀一致；未核紙本或影像。"
-        }
-      }
+      "chapter_ref": "data/corpus/shiji/007.json"
     }
   ],
   "relations": [],

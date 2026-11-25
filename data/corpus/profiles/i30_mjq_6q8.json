@@ -26,8 +26,8 @@
           "chapter_id": "c-shiji-008-gaozu",
           "source_id": "s-shiji-008-gaozu",
           "paragraph_id": "c-shiji-008-gaozu:p004",
-          "quote": "單父人呂公善沛令，避仇從之客，因家沛焉。沛中豪桀吏聞令有重客，皆往賀。蕭何為主吏，主進，令諸大夫曰：「進不滿千錢，坐之堂下。」高祖為亭長，素易諸吏，乃紿為謁曰「賀錢萬」，實不持一錢。謁入，呂公大驚，起，迎之門。呂公者，好相人，見高祖狀貌，因重敬之，引入坐。蕭何曰：「劉季固多大言，少成事。」高祖因狎侮諸客，遂坐上坐，無所詘。酒闌，呂公因目固留高祖。高祖竟酒，後。呂公曰：「臣少好相人，相人多矣，無如季相，願季自愛。臣有息女，願為季箕帚妾。」酒罷，呂媼怒呂公曰：「公始常欲奇此女，與貴人。沛令善公，求之不與，何自妄許與劉季？」呂公曰：「此非兒女子所知也。」卒與劉季。呂公女乃呂后也，生孝惠帝、魯元公主。",
-          "person_mention_id": "c-shiji-008-gaozu:m004-0003"
+          "person_mention_id": "c-shiji-008-gaozu:m004-0003",
+          "quote_passage_ref": "data/corpus/shiji/008.json"
         }
       ],
       "source_term": "單父人呂公",
@@ -53,8 +53,8 @@
           "chapter_id": "c-shiji-008-gaozu",
           "source_id": "s-shiji-008-gaozu",
           "paragraph_id": "c-shiji-008-gaozu:p004",
-          "quote": "單父人呂公善沛令，避仇從之客，因家沛焉。沛中豪桀吏聞令有重客，皆往賀。蕭何為主吏，主進，令諸大夫曰：「進不滿千錢，坐之堂下。」高祖為亭長，素易諸吏，乃紿為謁曰「賀錢萬」，實不持一錢。謁入，呂公大驚，起，迎之門。呂公者，好相人，見高祖狀貌，因重敬之，引入坐。蕭何曰：「劉季固多大言，少成事。」高祖因狎侮諸客，遂坐上坐，無所詘。酒闌，呂公因目固留高祖。高祖竟酒，後。呂公曰：「臣少好相人，相人多矣，無如季相，願季自愛。臣有息女，願為季箕帚妾。」酒罷，呂媼怒呂公曰：「公始常欲奇此女，與貴人。沛令善公，求之不與，何自妄許與劉季？」呂公曰：「此非兒女子所知也。」卒與劉季。呂公女乃呂后也，生孝惠帝、魯元公主。",
-          "person_mention_id": "c-shiji-008-gaozu:m004-0003"
+          "person_mention_id": "c-shiji-008-gaozu:m004-0003",
+          "quote_passage_ref": "data/corpus/shiji/008.json"
         }
       ],
       "source_term": "因家沛焉",
@@ -75,7 +75,6 @@
       "raw_count": 8,
       "duplicate_count": 0,
       "counting_policy": "independent_fixed_witness_occurrences",
-      "quote": "單父人呂公善沛令，避仇從之客，因家沛焉。沛中豪桀吏聞令有重客，皆往賀。蕭何為主吏，主進，令諸大夫曰：「進不滿千錢，坐之堂下。」高祖為亭長，素易諸吏，乃紿為謁曰「賀錢萬」，實不持一錢。謁入，呂公大驚，起，迎之門。",
       "paragraph_ids": [
         "c-shiji-008-gaozu:p004"
       ],
@@ -162,7 +161,12 @@
       "book_id": "b-shiji-008",
       "chapter_id": "c-shiji-008-gaozu",
       "source_id": "s-shiji-008-gaozu",
-      "work_title": "史記"
+      "work_title": "史記",
+      "chapter_ref": "data/corpus/shiji/008.json",
+      "quote_span": [
+        0,
+        105
+      ]
     }
   ],
   "table_occurrences": [],
@@ -172,26 +176,7 @@
       "work_id": "w-shiji",
       "book_id": "b-shiji-008",
       "source_id": "s-shiji-008-gaozu",
-      "source": {
-        "title": "史記／卷008",
-        "provider": "維基文庫",
-        "url": "https://zh.wikisource.org/wiki/史記/卷008",
-        "permalink": "https://zh.wikisource.org/w/index.php?title=史記/卷008&oldid=2440965",
-        "revision_id": 2440965,
-        "accessed_on": "2026-10-09",
-        "extent": "本篇傳世正文91個p區塊，自「高祖，沛豐邑中陽里人」至太史公論贊；不含導覽標題、跨站連結及另署【索隱述贊】的後出文字。",
-        "image_verified": false,
-        "rights": "古代原文；數位轉錄依維基文庫CC BY-SA 4.0，保留署名及固定版本。",
-        "license_url": "https://creativecommons.org/licenses/by-sa/4.0/",
-        "normalization": {
-          "character_conversion": {
-            "馕": "饢"
-          },
-          "editorial_readings": [],
-          "extraction_note": "正文91段均為p；前置兩個dd為跨站導覽，不收錄。排除sup註號，保留原有行內校勘符號。",
-          "note": "第48、57段馕僅作明示簡繁轉換為饢，詞義與疑讀待核，不逕改為餉或饟。數位轉錄尚未核紙本或影像。"
-        }
-      }
+      "chapter_ref": "data/corpus/shiji/008.json"
     }
   ],
   "relations": [

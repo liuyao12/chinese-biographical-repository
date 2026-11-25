@@ -21,7 +21,7 @@
           "chapter_id": "c-shiji-078-chunshen",
           "source_id": "s-shiji-078-chunshen",
           "paragraph_id": "c-shiji-078-chunshen:p009",
-          "quote": "黃歇受約歸楚，楚使歇與太子完入質於秦，秦留之數年。楚頃襄王病，太子不得歸。而楚太子與秦相應侯善，於是黃歇乃說應侯曰：「相國誠善楚太子乎？」應侯曰：「然。」歇曰：「今楚王恐不起疾，秦不如歸其太子。太子得立，其事秦必重而德相國無窮，是親與國而得儲萬乘也。若不歸，則咸陽一布衣耳；楚更立太子，必不事秦。夫失與國而絕萬乘之和，非計也。願相國孰慮之。」應侯以聞秦王。秦王曰：「令楚太子之傅先往問楚王之疾，返而後圖之。」黃歇為楚太子計曰：「秦之留太子也，欲以求利也。今太子力未能有以利秦也，歇憂之甚。而陽文君子二人在中，王若卒大命，太子不在，陽文君子必立為後，太子不得奉宗廟矣。不如亡秦，與使者俱出；臣請止，以死當之。」楚太子因變衣服為楚使者御以出關，而黃歇守舍，常為謝病。度太子已遠，秦不能追，歇乃自言秦昭王曰：「楚太子已歸，出遠矣。歇當死，願賜死。」昭王大怒，欲聽其自殺也。應侯曰：「歇為人臣，出身以徇其主，太子立，必用歇，故不如無罪而歸之，以親楚。」秦因遣黃歇。"
+          "quote_passage_ref": "data/corpus/shiji/078.json"
         }
       ],
       "attestations": [
@@ -63,7 +63,6 @@
       "raw_count": 1,
       "duplicate_count": 0,
       "counting_policy": "independent_fixed_witness_occurrences",
-      "quote": "失與國而絕萬乘之和，非計也。願相國孰慮之。」應侯以聞秦王。秦王曰：「令楚太子之傅先往問楚王之疾，返而後圖之。」黃歇為楚太子計曰：「秦之留太子也，欲以求利也。今太子力未能有以利秦也，歇憂之甚。而陽文君子二人在中，王若卒大命，太子不在，陽文君子必立為後，太子不得奉宗廟矣。不如亡秦，與",
       "paragraph_ids": [
         "c-shiji-078-chunshen:p009"
       ],
@@ -87,7 +86,12 @@
       "book_id": "b-shiji-078",
       "chapter_id": "c-shiji-078-chunshen",
       "source_id": "s-shiji-078-chunshen",
-      "work_title": "史記"
+      "work_title": "史記",
+      "chapter_ref": "data/corpus/shiji/078.json",
+      "quote_span": [
+        149,
+        289
+      ]
     }
   ],
   "table_occurrences": [],
@@ -97,26 +101,7 @@
       "work_id": "w-shiji",
       "book_id": "b-shiji-078",
       "source_id": "s-shiji-078-chunshen",
-      "source": {
-        "title": "史記／卷078",
-        "provider": "維基文庫",
-        "url": "https://zh.wikisource.org/wiki/史記/卷078",
-        "permalink": "https://zh.wikisource.org/w/index.php?title=史記/卷078&oldid=2089016",
-        "revision_id": 2089016,
-        "accessed_on": "2026-10-09",
-        "extent": "22段正文，自春申君黃歇至太史公論贊；排除人物導覽、索隱述贊及現代版權告示。",
-        "image_verified": false,
-        "rights": "古代原文；數位轉錄依維基文庫CC BY-SA 4.0，保留署名及固定版本。",
-        "license_url": "https://creativecommons.org/licenses/by-sa/4.0/",
-        "normalization": {
-          "character_conversion": {
-            "铚": "銍"
-          },
-          "editorial_readings": [],
-          "extraction_note": "固定HTML與取得時版本一致，只去外緣空白；第6段铚轉銍明示記錄；未見括號改讀提示，為、彊、谿、免等原字保留，上書引文區塊依原序保存。",
-          "note": "全22段正文及姓名首輪已核讀；未核底本影像或現代研究。"
-        }
-      }
+      "chapter_ref": "data/corpus/shiji/078.json"
     }
   ],
   "relations": [],

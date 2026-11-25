@@ -21,7 +21,6 @@
       "raw_count": 6,
       "duplicate_count": 0,
       "counting_policy": "independent_fixed_witness_occurrences",
-      "quote": "昭王元年，樗里子將伐蒲。蒲守恐，請胡衍。胡衍為蒲謂樗里子曰：「公之攻蒲，為秦乎？為魏乎？為魏則善矣，為秦則不為賴矣。夫衛之所以為衛者，以蒲也。今伐蒲入於魏，衛必折而從之。魏亡西河之外而無以取者，兵弱也。今并衛於魏，魏必彊。魏彊之日，西河之",
       "paragraph_ids": [
         "c-shiji-071-chugan:p005"
       ],
@@ -90,7 +89,12 @@
       "book_id": "b-shiji-071",
       "chapter_id": "c-shiji-071-chugan",
       "source_id": "s-shiji-071-chugan",
-      "work_title": "史記"
+      "work_title": "史記",
+      "chapter_ref": "data/corpus/shiji/071.json",
+      "quote_span": [
+        0,
+        119
+      ]
     }
   ],
   "table_occurrences": [],
@@ -100,24 +104,7 @@
       "work_id": "w-shiji",
       "book_id": "b-shiji-071",
       "source_id": "s-shiji-071-chugan",
-      "source": {
-        "title": "史記／卷071",
-        "provider": "維基文庫",
-        "url": "https://zh.wikisource.org/wiki/史記/卷071",
-        "permalink": "https://zh.wikisource.org/w/index.php?title=史記/卷071&oldid=2621152",
-        "revision_id": 2621152,
-        "accessed_on": "2026-10-09",
-        "extent": "20段正文，自樗里子者至太史公論贊；排除ws-header人物導覽、索隱述贊及現代版權告示。",
-        "image_verified": false,
-        "rights": "古代原文；數位轉錄依維基文庫CC BY-SA 4.0，保留署名及固定版本。",
-        "license_url": "https://creativecommons.org/licenses/by-sa/4.0/",
-        "normalization": {
-          "character_conversion": {},
-          "editorial_readings": [],
-          "extraction_note": "固定HTML與取得時版本一致，只去外緣空白；保留樗里／樗裏、于、遯、茍與數位轉錄原字。",
-          "note": "全20段正文已核讀；未核底本、影像或現代研究，人物待逐段標註。"
-        }
-      }
+      "chapter_ref": "data/corpus/shiji/071.json"
     }
   ],
   "relations": [],

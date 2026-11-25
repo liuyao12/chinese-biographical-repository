@@ -8,6 +8,7 @@ import tempfile
 from pathlib import Path
 
 from .family_assemblies import load_assemblies
+from .corpus_overlay import edited_inputs
 from .person_bundle import ROOT, load_catalog
 from .person_ids import allocate_descendant_id, family_path_errors
 from .retired_person_ids import retired_person_ids
@@ -159,19 +160,10 @@ def stage(root, destination):
     people, mapping = plan(root)
     _, records = load_catalog(root)
     decisions = [d for r in records if r.get('record_type') == 'person_equivalence_set' for d in r['decisions']]
-    for directory in ('registry', 'corpus'):
-        shutil.copytree(root / directory, destination / directory)
-    # Preserve retirement reservations in the staged validation root.
-    for receipt in (root / 'source-evidence').glob('*/annotation-chain.json'):
-        target = destination / receipt.relative_to(root)
-        target.parent.mkdir(parents=True, exist_ok=True)
-        shutil.copyfile(receipt, target)
     for original in reference_files(root):
         path = destination / original.relative_to(root)
-        path.parent.mkdir(parents=True, exist_ok=True)
-        if not path.exists():
-            shutil.copyfile(original, path)
-        data = json.loads(path.read_text())
+        previous = json.loads(original.read_text())
+        data = dict(previous)
         if path.name == 'persons.json' and path.parent.name == 'registry':
             data['persons'] = people
         data = rewrite(data, mapping)
@@ -192,9 +184,15 @@ def stage(root, destination):
         if resolved:
             annotation['resolved_identity_cases'] = resolved
             annotation['unresolved_identity_cases'] = remaining
-        path.write_text(json.dumps(data, ensure_ascii=False, indent=2) + '\n')
+        if data != previous:
+            path.parent.mkdir(parents=True, exist_ok=True)
+            path.write_text(json.dumps(data, ensure_ascii=False, indent=2) + '\n')
         if data.get('record_type') == 'marked_chapter':
-            path.with_suffix('.xml').write_text(render(data))
+            xml = render(data)
+            original_xml = original.with_suffix('.xml')
+            if not original_xml.is_file() or original_xml.read_text() != xml:
+                path.parent.mkdir(parents=True, exist_ok=True)
+                path.with_suffix('.xml').write_text(xml)
     return mapping
 
 
@@ -206,7 +204,10 @@ def main():
     with tempfile.TemporaryDirectory(prefix='cbr-identity-preflight-') as tmp:
         destination = Path(tmp)
         mapping = stage(args.root, destination)
-        errors = validate(destination)
+        with edited_inputs(args.root) as changed:
+            changed.update({args.root.resolve() / p.relative_to(destination): p
+                            for p in destination.rglob('*') if p.is_file()})
+            errors = validate(args.root)
         report = {'rewritten_ids': len(mapping), 'validation_errors': errors, 'applied': False}
         if args.apply and not errors:
             for path in destination.rglob('*'):

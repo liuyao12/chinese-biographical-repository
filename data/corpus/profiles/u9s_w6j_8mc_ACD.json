@@ -20,7 +20,6 @@
       "raw_count": 3,
       "duplicate_count": 0,
       "counting_policy": "independent_fixed_witness_occurrences",
-      "quote": "謂爾堅石打碎。」有子二十人，皆以「石」為名以應之。唯石虔、石秀、石民、石生、石綏、石康知名。",
       "paragraph_ids": [
         "c-jinshu-074-huan-family:p010",
         "c-jinshu-074-huan-family:p019"
@@ -63,7 +62,12 @@
       "book_id": "b-jinshu-074",
       "chapter_id": "c-jinshu-074-huan-family",
       "source_id": "s-jinshu-074-ws1536331",
-      "work_title": "晉書"
+      "work_title": "晉書",
+      "chapter_ref": "data/corpus/jinshu/074-huan-family.json",
+      "quote_span": [
+        14,
+        60
+      ]
     },
     {
       "number": 99,
@@ -74,7 +78,6 @@
       "raw_count": 2,
       "duplicate_count": 0,
       "counting_policy": "independent_fixed_witness_occurrences",
-      "quote": "，禍及於己，乃密結于後將軍元顯，許為內應。元興初，元顯稱詔伐玄，玄從兄石生時為太傅長史，密書報玄。玄本謂揚土饑饉，孫恩未滅，必未遑討己，可得蓄力養眾，觀釁而動。既聞元顯將伐之，甚懼，欲保江陵。長史卞範之說玄曰：「公英略威名振於天下，元顯口尚乳臭，劉牢之大失物情，若兵臨近畿，",
       "paragraph_ids": [
         "c-jinshu-099-huanxuan:p013",
         "c-jinshu-099-huanxuan:p014"
@@ -108,7 +111,12 @@
       "book_id": "b-jinshu-099",
       "chapter_id": "c-jinshu-099-huanxuan",
       "source_id": "s-jinshu-099-huanxuan-ws2644703",
-      "work_title": "晉書"
+      "work_title": "晉書",
+      "chapter_ref": "data/corpus/jinshu/099-huanxuan.json",
+      "quote_span": [
+        47,
+        184
+      ]
     }
   ],
   "table_occurrences": [],
@@ -118,62 +126,14 @@
       "work_id": "w-jinshu",
       "book_id": "b-jinshu-074",
       "source_id": "s-jinshu-074-ws1536331",
-      "source": {
-        "provider": "Wikisource",
-        "revision_id": 1536331,
-        "permalink": "https://zh.wikisource.org/w/index.php?title=晉書/卷074&oldid=1536331",
-        "edition": null,
-        "image_verified": false,
-        "qualification": "固定數位傳世文字見證；未親核底本或影像，校勘ref另層。",
-        "selected_raw_start": 299,
-        "selected_raw_end": 9662,
-        "extent": "完整選定傳記單元 huan-family；非全書、非全卷",
-        "rights": "古代正文公版；維基文庫數位整理保留來源歸屬及CC BY-SA資格。",
-        "normalization": {
-          "character_conversion": {},
-          "extraction_note": "Balanced wiki display parser; every selected raw codepoint classified as retained visible text, explicit display markup, apparatus ref or unit/navigation metadata. Encoded ! first argument retained; all suffix after closing template preserved.",
-          "parser": "wikitext_visible.py"
-        },
-        "title": "晉書／桓彝及附桓氏家族完整單元",
-        "url": "https://zh.wikisource.org/w/index.php?title=晉書/卷074&oldid=1536331",
-        "raw_file_sha256": "7bda6727ecfc8408408ee49fb5d8a7ef3062666e54535355b3d51b8517fcd925",
-        "raw_path": "sources/jinshu/wikisource-1536331-raw.wikitext",
-        "accessed_on": "2026-10-20",
-        "text_scope": "partial_chapter",
-        "review_status": "text_checked",
-        "license_url": "https://creativecommons.org/licenses/by-sa/4.0/"
-      }
+      "chapter_ref": "data/corpus/jinshu/074-huan-family.json"
     },
     {
       "chapter_id": "c-jinshu-099-huanxuan",
       "work_id": "w-jinshu",
       "book_id": "b-jinshu-099",
       "source_id": "s-jinshu-099-huanxuan-ws2644703",
-      "source": {
-        "provider": "Wikisource",
-        "revision_id": 2644703,
-        "permalink": "https://zh.wikisource.org/w/index.php?title=晉書/卷099&oldid=2644703",
-        "edition": null,
-        "image_verified": false,
-        "qualification": "固定數位傳世文字見證；未親核底本或影像，校勘ref另層。",
-        "selected_raw_start": 205,
-        "selected_raw_end": 10419,
-        "extent": "完整選定傳記單元 huanxuan；非全書、非全卷",
-        "rights": "古代正文公版；維基文庫數位整理保留來源歸屬及CC BY-SA資格。",
-        "normalization": {
-          "character_conversion": {},
-          "extraction_note": "Balanced wiki display parser; every selected raw codepoint classified as retained visible text, explicit display markup, apparatus ref or unit/navigation metadata. Encoded ! first argument retained; all suffix after closing template preserved.",
-          "parser": "wikitext_visible.py"
-        },
-        "title": "晉書／桓玄完整本傳單元",
-        "url": "https://zh.wikisource.org/w/index.php?title=晉書/卷099&oldid=2644703",
-        "raw_file_sha256": "710aeeace35e122a76ad7762035418cef8310c25020749273023c1b6a3af98d4",
-        "raw_path": "sources/jinshu/wikisource-2644703-raw.wikitext",
-        "accessed_on": "2026-10-20",
-        "text_scope": "partial_chapter",
-        "review_status": "text_checked",
-        "license_url": "https://creativecommons.org/licenses/by-sa/4.0/"
-      }
+      "chapter_ref": "data/corpus/jinshu/099-huanxuan.json"
     }
   ],
   "relations": [
@@ -193,9 +153,9 @@
           "source_id": "s-jinshu-074-ws1536331",
           "chapter_id": "c-jinshu-074-huan-family",
           "paragraph_id": "c-jinshu-074-huan-family:p010",
-          "quote": "初，豁聞符堅國中有謠云：「誰謂爾堅石打碎。」有子二十人，皆以「石」為名以應之。唯石虔、石秀、石民、石生、石綏、石康知名。",
           "subject_person_mention_id": "c-jinshu-074-huan-family:p010:m0049",
-          "object_person_mention_id": "c-jinshu-074-huan-family:p010:m0002"
+          "object_person_mention_id": "c-jinshu-074-huan-family:p010:m0002",
+          "quote_passage_ref": "data/corpus/jinshu/074-huan-family.json"
         }
       ],
       "interpretation_note": "依完整原段與具體錨點辨識；未補原文未述父母、配偶、世系或排行。",
@@ -230,9 +190,9 @@
           "source_id": "s-jinshu-074-ws1536331",
           "chapter_id": "c-jinshu-074-huan-family",
           "paragraph_id": "c-jinshu-074-huan-family:p010",
-          "quote": "初，豁聞符堅國中有謠云：「誰謂爾堅石打碎。」有子二十人，皆以「石」為名以應之。唯石虔、石秀、石民、石生、石綏、石康知名。",
           "subject_person_mention_id": "c-jinshu-074-huan-family:p010:m0049",
-          "object_person_mention_id": "c-jinshu-074-huan-family:p010:m0002"
+          "object_person_mention_id": "c-jinshu-074-huan-family:p010:m0002",
+          "quote_passage_ref": "data/corpus/jinshu/074-huan-family.json"
         }
       ],
       "interpretation_note": "依完整原段與具體錨點辨識；未補原文未述父母、配偶、世系或排行。",

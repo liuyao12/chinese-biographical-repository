@@ -21,7 +21,7 @@
           "chapter_id": "c-shiji-056-chen",
           "source_id": "s-shiji-056-chen",
           "paragraph_id": "c-shiji-056-chen:p005",
-          "quote": "久之，項羽略地至河上，陳平往歸之，從入破秦，賜平爵卿。項羽之東王彭城也，漢王還定三秦而東，殷王反楚。項羽乃以平爲信武君，將魏王咎客在楚者以往，擊降殷王而還。項王使項悍拜平爲都尉，賜金二十溢。居無何，漢王攻下殷。項王怒，將誅定殷者將吏。陳平懼誅，乃封其金與印，使使歸項王，而平身間行杖劎亡。渡河，船人見其美丈夫獨行，疑其亡將，要中當有金玉寶器，目之，欲殺平。平恐，乃解衣躶而佐刺船。船人知其無有，乃止。"
+          "quote_passage_ref": "data/corpus/shiji/056.json"
         }
       ],
       "attestations": [
@@ -63,7 +63,6 @@
       "raw_count": 2,
       "duplicate_count": 0,
       "counting_policy": "independent_fixed_witness_occurrences",
-      "quote": "，陳平往歸之，從入破秦，賜平爵卿。項羽之東王彭城也，漢王還定三秦而東，殷王反楚。項羽乃以平爲信武君，將魏王咎客在楚者以往，擊降殷王而還。項王使項悍拜平爲都尉，賜金二十溢。居無何，漢王攻下殷。項王怒，將誅定殷者將吏。陳平懼誅，乃封其金與印，使使歸項王，而平身間行杖劎亡。渡河，",
       "paragraph_ids": [
         "c-shiji-056-chen:p005"
       ],
@@ -96,7 +95,12 @@
       "book_id": "b-shiji-056",
       "chapter_id": "c-shiji-056-chen",
       "source_id": "s-shiji-056-chen",
-      "work_title": "史記"
+      "work_title": "史記",
+      "chapter_ref": "data/corpus/shiji/056.json",
+      "quote_span": [
+        10,
+        147
+      ]
     }
   ],
   "table_occurrences": [],
@@ -106,24 +110,7 @@
       "work_id": "w-shiji",
       "book_id": "b-shiji-056",
       "source_id": "s-shiji-056-chen",
-      "source": {
-        "title": "史記／卷056",
-        "provider": "維基文庫",
-        "url": "https://zh.wikisource.org/wiki/史記/卷056",
-        "permalink": "https://zh.wikisource.org/w/index.php?title=史記/卷056&oldid=1961615",
-        "revision_id": 1961615,
-        "accessed_on": "2026-10-09",
-        "extent": "28段篇文及1段索隱述贊，無需排除數位欄題。",
-        "image_verified": false,
-        "rights": "古代原文；數位轉錄依維基文庫CC BY-SA 4.0，保留署名及固定版本。",
-        "license_url": "https://creativecommons.org/licenses/by-sa/4.0/",
-        "normalization": {
-          "character_conversion": {},
-          "editorial_readings": [],
-          "extraction_note": "取得時HTML與固定修訂一致，只去外緣空白；保留戸、鄕、爲、渉、衞、歳、説、劎、躶、鍾離眛、共侯與上曰；等原字及符號，索隱標記另分層。",
-          "note": "全29段已讀並作明示人物首輪；未核底本、影像或現代研究。"
-        }
-      }
+      "chapter_ref": "data/corpus/shiji/056.json"
     }
   ],
   "relations": [],

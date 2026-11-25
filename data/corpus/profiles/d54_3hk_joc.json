@@ -21,7 +21,7 @@
           "chapter_id": "c-shiji-105-bianque",
           "source_id": "s-shiji-105-bianque",
           "paragraph_id": "c-shiji-105-bianque:p009",
-          "quote": "扁鵲名聞天下。過邯鄲，聞貴婦人，即為帶下醫；過雒陽，聞周人愛老人，即為耳目痹醫；來入咸陽，聞秦人愛小兒，即為小兒醫：隨俗為變。秦太醫令李醯自知伎不如扁鵲也，使人刺殺之。至今天下言脈者，由扁鵲也。"
+          "quote_passage_ref": "data/corpus/shiji/105.json"
         }
       ],
       "attestations": [
@@ -63,7 +63,6 @@
       "raw_count": 1,
       "duplicate_count": 0,
       "counting_policy": "independent_fixed_witness_occurrences",
-      "quote": "，即為耳目痹醫；來入咸陽，聞秦人愛小兒，即為小兒醫：隨俗為變。秦太醫令李醯自知伎不如扁鵲也，使人刺殺之。至今天下言脈者，由扁鵲也。",
       "paragraph_ids": [
         "c-shiji-105-bianque:p009"
       ],
@@ -87,7 +86,12 @@
       "book_id": "b-shiji-105",
       "chapter_id": "c-shiji-105-bianque",
       "source_id": "s-shiji-105-bianque",
-      "work_title": "史記"
+      "work_title": "史記",
+      "chapter_ref": "data/corpus/shiji/105.json",
+      "quote_span": [
+        32,
+        97
+      ]
     }
   ],
   "table_occurrences": [],
@@ -97,24 +101,7 @@
       "work_id": "w-shiji",
       "book_id": "b-shiji-105",
       "source_id": "s-shiji-105-bianque",
-      "source": {
-        "title": "史記／卷105",
-        "provider": "維基文庫",
-        "url": "https://zh.wikisource.org/wiki/史記/卷105",
-        "permalink": "https://zh.wikisource.org/w/index.php?title=史記/卷105&oldid=8842726",
-        "revision_id": 8842726,
-        "accessed_on": "2026-10-10",
-        "extent": "48段正文含太史公論與答詔醫案，1段索隱述贊及3段見證附載正義。",
-        "image_verified": false,
-        "rights": "古代原文；數位轉錄依維基文庫CC BY-SA 4.0，保留署名及固定版本。",
-        "license_url": "https://creativecommons.org/licenses/by-sa/4.0/",
-        "normalization": {
-          "character_conversion": {},
-          "editorial_readings": [],
-          "extraction_note": "去標題與介面模板，原字、標點及段落次序保留。",
-          "note": "未核底本影像。"
-        }
-      }
+      "chapter_ref": "data/corpus/shiji/105.json"
     }
   ],
   "relations": [],

@@ -27,7 +27,7 @@
           "chapter_id": "c-shiji-105-bianque",
           "source_id": "s-shiji-105-bianque",
           "paragraph_id": "c-shiji-105-bianque:p010",
-          "quote": "太倉公者，齊太倉長，臨菑人也，姓淳于氏，名意。少而喜醫方術。高后八年，更受師同郡元里公乘陽慶。慶年七十餘，無子，使意盡去其故方，更悉以禁方予之，傳黃帝、扁鵲之脈書，五色診病，知人死生，決嫌疑，定可治，及藥論，甚精。受之三年，為人治病，決死生多驗。然左右行游諸侯，不以家為家，或不為人治病，病家多怨之者。"
+          "quote_passage_ref": "data/corpus/shiji/105.json"
         }
       ],
       "source_term": "更受師同郡元里公乘陽慶",
@@ -52,7 +52,6 @@
       "raw_count": 18,
       "duplicate_count": 0,
       "counting_policy": "independent_fixed_witness_occurrences",
-      "quote": "，臨菑人也，姓淳于氏，名意。少而喜醫方術。高后八年，更受師同郡元里公乘陽慶。慶年七十餘，無子，使意盡去其故方，更悉以禁方予之，傳黃帝、扁鵲之脈書，五色診病，知人死生，決嫌疑，定可治，及藥論，甚精。受之三年，為人治病，決死生多驗。然左右行游諸侯，不以家為家，或不為人治病，病家",
       "paragraph_ids": [
         "c-shiji-105-bianque:p010",
         "c-shiji-105-bianque:p014",
@@ -233,7 +232,12 @@
       "book_id": "b-shiji-105",
       "chapter_id": "c-shiji-105-bianque",
       "source_id": "s-shiji-105-bianque",
-      "work_title": "史記"
+      "work_title": "史記",
+      "chapter_ref": "data/corpus/shiji/105.json",
+      "quote_span": [
+        9,
+        146
+      ]
     }
   ],
   "table_occurrences": [],
@@ -243,24 +247,7 @@
       "work_id": "w-shiji",
       "book_id": "b-shiji-105",
       "source_id": "s-shiji-105-bianque",
-      "source": {
-        "title": "史記／卷105",
-        "provider": "維基文庫",
-        "url": "https://zh.wikisource.org/wiki/史記/卷105",
-        "permalink": "https://zh.wikisource.org/w/index.php?title=史記/卷105&oldid=8842726",
-        "revision_id": 8842726,
-        "accessed_on": "2026-10-10",
-        "extent": "48段正文含太史公論與答詔醫案，1段索隱述贊及3段見證附載正義。",
-        "image_verified": false,
-        "rights": "古代原文；數位轉錄依維基文庫CC BY-SA 4.0，保留署名及固定版本。",
-        "license_url": "https://creativecommons.org/licenses/by-sa/4.0/",
-        "normalization": {
-          "character_conversion": {},
-          "editorial_readings": [],
-          "extraction_note": "去標題與介面模板，原字、標點及段落次序保留。",
-          "note": "未核底本影像。"
-        }
-      }
+      "chapter_ref": "data/corpus/shiji/105.json"
     }
   ],
   "relations": [
@@ -275,7 +262,7 @@
           "chapter_id": "c-shiji-105-bianque",
           "source_id": "s-shiji-105-bianque",
           "paragraph_id": "c-shiji-105-bianque:p046",
-          "quote": "問臣意：「師慶何見於意而愛意，欲悉教意方？」對曰：「臣意不聞師慶為方善也。意所以知慶者，意少時好諸方事，臣意試其方，皆多驗，精良。臣意聞菑川唐裏公孫光善為古傳方，臣意即往謁之。得見事之，受方化陰陽及傳語法，臣意悉受書之。臣意欲盡受他精方，公孫光曰：『吾方盡矣，不為愛公所。吾身已衰，無所復事之。是吾年少所受妙方也，悉與公，毋以教人。』臣意曰：『得見事侍公前，悉得禁方，幸甚。意死不敢妄傳人。』居有閒，公孫光閒處，臣意深論方，見言百世為之精也。師光喜曰：『公必為國工。吾有所善者皆疏，同產處臨菑，善為方，吾不若，其方甚奇，非世之所聞也。吾年中時，嘗欲受其方，楊中倩不肯，曰「若非其人也」。胥與公往見之，當知公喜方也。其人亦老矣，其家給富。』時者未往，會慶子男殷來獻馬，因師光奏馬王所，意以故得與殷善。光又屬意於殷曰：『意好數，公必謹遇之，其人聖儒。』即為書以意屬陽慶，以故知慶。臣意事慶謹，以故愛意也。」"
+          "quote_passage_ref": "data/corpus/shiji/105.json"
         }
       ],
       "qualifiers": {
@@ -301,9 +288,9 @@
           "chapter_id": "c-shiji-105-bianque",
           "source_id": "s-shiji-105-bianque",
           "paragraph_id": "c-shiji-105-bianque:p014",
-          "quote": "自意少時，喜醫藥，醫藥方試之多不驗者。至高后八年，得見師臨菑元里公乘陽慶。慶年七十餘，意得見事之。謂意曰：「盡去而方書，非是也。慶有古先道遺傳黃帝、扁鵲之脈書，五色診病，知人生死，決嫌疑，定可治，及藥論書，甚精。我家給富，心愛公，欲盡以我禁方書悉教公。」臣意即曰：「幸甚，非意之所敢望也。」臣意即避席再拜謁，受其脈書上下經、五色診、奇咳術、揆度陰陽外變、藥論、石神、接陰陽禁書，受讀解驗之，可一年所。明歲即驗之，有驗，然尚未精也。要事之三年所，即嘗已為人治，診病決死生，有驗，精良。今慶已死十年所，臣意年盡三年，年三十九歲也。",
           "subject_person_mention_id": "c-shiji-105-bianque:m014-0001",
-          "object_person_mention_id": "c-shiji-105-bianque:m014-0034"
+          "object_person_mention_id": "c-shiji-105-bianque:m014-0034",
+          "quote_passage_ref": "data/corpus/shiji/105.json"
         }
       ],
       "interpretation_note": "依本段授受、師、弟子或學教原詞記師承；不作親屬，不推共同父系，學習年數不當官爵任期。",
@@ -335,7 +322,7 @@
           "chapter_id": "c-shiji-105-bianque",
           "source_id": "s-shiji-105-bianque",
           "paragraph_id": "c-shiji-105-bianque:p046",
-          "quote": "問臣意：「師慶何見於意而愛意，欲悉教意方？」對曰：「臣意不聞師慶為方善也。意所以知慶者，意少時好諸方事，臣意試其方，皆多驗，精良。臣意聞菑川唐裏公孫光善為古傳方，臣意即往謁之。得見事之，受方化陰陽及傳語法，臣意悉受書之。臣意欲盡受他精方，公孫光曰：『吾方盡矣，不為愛公所。吾身已衰，無所復事之。是吾年少所受妙方也，悉與公，毋以教人。』臣意曰：『得見事侍公前，悉得禁方，幸甚。意死不敢妄傳人。』居有閒，公孫光閒處，臣意深論方，見言百世為之精也。師光喜曰：『公必為國工。吾有所善者皆疏，同產處臨菑，善為方，吾不若，其方甚奇，非世之所聞也。吾年中時，嘗欲受其方，楊中倩不肯，曰「若非其人也」。胥與公往見之，當知公喜方也。其人亦老矣，其家給富。』時者未往，會慶子男殷來獻馬，因師光奏馬王所，意以故得與殷善。光又屬意於殷曰：『意好數，公必謹遇之，其人聖儒。』即為書以意屬陽慶，以故知慶。臣意事慶謹，以故愛意也。」"
+          "quote_passage_ref": "data/corpus/shiji/105.json"
         }
       ],
       "qualifiers": {
@@ -361,9 +348,9 @@
           "chapter_id": "c-shiji-105-bianque",
           "source_id": "s-shiji-105-bianque",
           "paragraph_id": "c-shiji-105-bianque:p014",
-          "quote": "自意少時，喜醫藥，醫藥方試之多不驗者。至高后八年，得見師臨菑元里公乘陽慶。慶年七十餘，意得見事之。謂意曰：「盡去而方書，非是也。慶有古先道遺傳黃帝、扁鵲之脈書，五色診病，知人生死，決嫌疑，定可治，及藥論書，甚精。我家給富，心愛公，欲盡以我禁方書悉教公。」臣意即曰：「幸甚，非意之所敢望也。」臣意即避席再拜謁，受其脈書上下經、五色診、奇咳術、揆度陰陽外變、藥論、石神、接陰陽禁書，受讀解驗之，可一年所。明歲即驗之，有驗，然尚未精也。要事之三年所，即嘗已為人治，診病決死生，有驗，精良。今慶已死十年所，臣意年盡三年，年三十九歲也。",
           "subject_person_mention_id": "c-shiji-105-bianque:m014-0001",
-          "object_person_mention_id": "c-shiji-105-bianque:m014-0034"
+          "object_person_mention_id": "c-shiji-105-bianque:m014-0034",
+          "quote_passage_ref": "data/corpus/shiji/105.json"
         }
       ],
       "interpretation_note": "依本段授受、師、弟子或學教原詞記師承；不作親屬，不推共同父系，學習年數不當官爵任期。",
@@ -392,8 +379,8 @@
           "chapter_id": "c-shiji-105-bianque",
           "source_id": "s-shiji-105-bianque",
           "paragraph_id": "c-shiji-105-bianque:p010",
-          "quote": "太倉公者，齊太倉長，臨菑人也，姓淳于氏，名意。少而喜醫方術。高后八年，更受師同郡元里公乘陽慶。慶年七十餘，無子，使意盡去其故方，更悉以禁方予之，傳黃帝、扁鵲之脈書，五色診病，知人死生，決嫌疑，定可治，及藥論，甚精。受之三年，為人治病，決死生多驗。然左右行游諸侯，不以家為家，或不為人治病，病家多怨之者。",
-          "person_mention_id": "c-shiji-105-bianque:m010-0047"
+          "person_mention_id": "c-shiji-105-bianque:m010-0047",
+          "quote_passage_ref": "data/corpus/shiji/105.json"
         },
         {
           "work_id": "w-shiji",
@@ -401,8 +388,8 @@
           "chapter_id": "c-shiji-105-bianque",
           "source_id": "s-shiji-105-bianque",
           "paragraph_id": "c-shiji-105-bianque:p014",
-          "quote": "自意少時，喜醫藥，醫藥方試之多不驗者。至高后八年，得見師臨菑元里公乘陽慶。慶年七十餘，意得見事之。謂意曰：「盡去而方書，非是也。慶有古先道遺傳黃帝、扁鵲之脈書，五色診病，知人生死，決嫌疑，定可治，及藥論書，甚精。我家給富，心愛公，欲盡以我禁方書悉教公。」臣意即曰：「幸甚，非意之所敢望也。」臣意即避席再拜謁，受其脈書上下經、五色診、奇咳術、揆度陰陽外變、藥論、石神、接陰陽禁書，受讀解驗之，可一年所。明歲即驗之，有驗，然尚未精也。要事之三年所，即嘗已為人治，診病決死生，有驗，精良。今慶已死十年所，臣意年盡三年，年三十九歲也。",
-          "person_mention_id": "c-shiji-105-bianque:m014-0037"
+          "person_mention_id": "c-shiji-105-bianque:m014-0037",
+          "quote_passage_ref": "data/corpus/shiji/105.json"
         }
       ],
       "interpretation_note": "保存來源報齡及未知計歲方式，不當享年，不倒推出生年。陽慶授學同事兩段引文合存；倉公年盡三年疑句原字保留；文王未滿二十保留開放上界，轉聞不作親診。未核書影。",
@@ -434,8 +421,8 @@
           "chapter_id": "c-shiji-105-bianque",
           "source_id": "s-shiji-105-bianque",
           "paragraph_id": "c-shiji-105-bianque:p014",
-          "quote": "自意少時，喜醫藥，醫藥方試之多不驗者。至高后八年，得見師臨菑元里公乘陽慶。慶年七十餘，意得見事之。謂意曰：「盡去而方書，非是也。慶有古先道遺傳黃帝、扁鵲之脈書，五色診病，知人生死，決嫌疑，定可治，及藥論書，甚精。我家給富，心愛公，欲盡以我禁方書悉教公。」臣意即曰：「幸甚，非意之所敢望也。」臣意即避席再拜謁，受其脈書上下經、五色診、奇咳術、揆度陰陽外變、藥論、石神、接陰陽禁書，受讀解驗之，可一年所。明歲即驗之，有驗，然尚未精也。要事之三年所，即嘗已為人治，診病決死生，有驗，精良。今慶已死十年所，臣意年盡三年，年三十九歲也。",
-          "person_mention_id": "c-shiji-105-bianque:m014-0242"
+          "person_mention_id": "c-shiji-105-bianque:m014-0242",
+          "quote_passage_ref": "data/corpus/shiji/105.json"
         }
       ],
       "interpretation_note": "保存來源所敘實際死亡，不把預期病程或醫理泛論當死亡；未明年不推卒年，不由死亡自動終止全部官爵。 死十年所為相對語，敘事時點另有紀年問題，不能倒推陽慶確切卒年。 未核書影。",

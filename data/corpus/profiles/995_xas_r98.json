@@ -24,7 +24,7 @@
           "chapter_id": "c-shiji-035-guancai",
           "source_id": "s-shiji-035-guancai",
           "paragraph_id": "c-shiji-035-guancai:p017",
-          "quote": "平侯九年卒，靈侯般之孫東國攻平侯子而自立，是為悼侯。悼侯父曰隱太子友。隱太子友者，靈侯之太子，平侯立而殺隱太子，故平侯卒而隱太子之子東國攻平侯子而代立，是為悼侯。悼侯三年卒，弟昭侯申立。"
+          "quote_passage_ref": "data/corpus/shiji/035.json"
         }
       ],
       "attestations": [
@@ -72,8 +72,8 @@
           "chapter_id": "c-shiji-035-guancai",
           "source_id": "s-shiji-035-guancai",
           "paragraph_id": "c-shiji-035-guancai:p018",
-          "quote": "昭侯十年，朝楚昭王，持美裘二，獻其一於昭王而自衣其一。楚相子常欲之，不與。子常讒蔡侯，留之楚三年。蔡侯知之，乃獻其裘於子常；子常受之，乃言歸蔡侯。蔡侯歸而之晉，請與晉伐楚。",
-          "person_mention_id": "c-shiji-035-guancai:m018-0000"
+          "person_mention_id": "c-shiji-035-guancai:m018-0000",
+          "quote_passage_ref": "data/corpus/shiji/035.json"
         }
       ],
       "source_term": "留之楚三年",
@@ -99,8 +99,8 @@
           "chapter_id": "c-shiji-035-guancai",
           "source_id": "s-shiji-035-guancai",
           "paragraph_id": "c-shiji-035-guancai:p018",
-          "quote": "昭侯十年，朝楚昭王，持美裘二，獻其一於昭王而自衣其一。楚相子常欲之，不與。子常讒蔡侯，留之楚三年。蔡侯知之，乃獻其裘於子常；子常受之，乃言歸蔡侯。蔡侯歸而之晉，請與晉伐楚。",
-          "person_mention_id": "c-shiji-035-guancai:m018-0000"
+          "person_mention_id": "c-shiji-035-guancai:m018-0000",
+          "quote_passage_ref": "data/corpus/shiji/035.json"
         }
       ],
       "source_term": "蔡侯歸而之晉",
@@ -121,7 +121,6 @@
       "raw_count": 13,
       "duplicate_count": 0,
       "counting_policy": "independent_fixed_witness_occurrences",
-      "quote": "太子，故平侯卒而隱太子之子東國攻平侯子而代立，是為悼侯。悼侯三年卒，弟昭侯申立。",
       "paragraph_ids": [
         "c-shiji-035-guancai:p017",
         "c-shiji-035-guancai:p018",
@@ -255,7 +254,12 @@
       "book_id": "b-shiji-035",
       "chapter_id": "c-shiji-035-guancai",
       "source_id": "s-shiji-035-guancai",
-      "work_title": "史記"
+      "work_title": "史記",
+      "chapter_ref": "data/corpus/shiji/035.json",
+      "quote_span": [
+        53,
+        93
+      ]
     }
   ],
   "table_occurrences": [],
@@ -265,24 +269,7 @@
       "work_id": "w-shiji",
       "book_id": "b-shiji-035",
       "source_id": "s-shiji-035-guancai",
-      "source": {
-        "title": "史記／卷035",
-        "provider": "維基文庫",
-        "url": "https://zh.wikisource.org/wiki/史記/卷035",
-        "permalink": "https://zh.wikisource.org/w/index.php?title=史記/卷035&oldid=8737302",
-        "revision_id": 8737302,
-        "accessed_on": "2026-10-09",
-        "extent": "正文43個p區塊，含管蔡世系及曹國世系，自管叔鮮至末尾太史公論贊；排除兩個dd導覽。",
-        "image_verified": false,
-        "rights": "古代原文；數位轉錄依維基文庫CC BY-SA 4.0，保留署名及固定版本。",
-        "license_url": "https://creativecommons.org/licenses/by-sa/4.0/",
-        "normalization": {
-          "character_conversion": {},
-          "editorial_readings": [],
-          "extraction_note": "固定版本與實讀HTML一致。原字、醳、云及平公（頃）［須］等數位見證校勘字樣保留，不由記憶選改。",
-          "note": "未核可靠底本、影像或現代研究。夢中敘事、蔡曹世系、異字名及爵位時段不據此作已確證史實。"
-        }
-      }
+      "chapter_ref": "data/corpus/shiji/035.json"
     }
   ],
   "relations": [
@@ -297,7 +284,7 @@
           "chapter_id": "c-shiji-035-guancai",
           "source_id": "s-shiji-035-guancai",
           "paragraph_id": "c-shiji-035-guancai:p017",
-          "quote": "平侯九年卒，靈侯般之孫東國攻平侯子而自立，是為悼侯。悼侯父曰隱太子友。隱太子友者，靈侯之太子，平侯立而殺隱太子，故平侯卒而隱太子之子東國攻平侯子而代立，是為悼侯。悼侯三年卒，弟昭侯申立。"
+          "quote_passage_ref": "data/corpus/shiji/035.json"
         }
       ],
       "qualifiers": {
@@ -318,7 +305,7 @@
           "chapter_id": "c-shiji-035-guancai",
           "source_id": "s-shiji-035-guancai",
           "paragraph_id": "c-shiji-035-guancai:p019",
-          "quote": "十三年春，與衛靈公會邵陵。蔡侯私於周萇弘以求長於衛；衛使史言康叔之功德，乃長衛。夏，為晉滅沈，楚怒，攻蔡。蔡昭侯使其子為質於吳，以共伐楚。冬，與吳王闔閭遂破楚入郢。蔡怨子常，子常恐，奔鄭。十四年，吳去而楚昭王復國。十六年，楚令尹為其民泣以謀蔡，蔡昭侯懼。二十六年，孔子如蔡。楚昭王伐蔡，蔡恐，告急於吳。吳為蔡遠，約遷以自近，易以相救；昭侯私許，不與大夫計。吳人來救蔡，因遷蔡于州來。二十八年，昭侯將朝于吳，大夫恐其復遷，乃令賊利殺昭侯；已而誅賊利以解過，而立昭侯子朔，是為成侯。"
+          "quote_passage_ref": "data/corpus/shiji/035.json"
         }
       ],
       "qualifiers": {
@@ -339,7 +326,7 @@
           "chapter_id": "c-shiji-035-guancai",
           "source_id": "s-shiji-035-guancai",
           "paragraph_id": "c-shiji-035-guancai:p019",
-          "quote": "十三年春，與衛靈公會邵陵。蔡侯私於周萇弘以求長於衛；衛使史言康叔之功德，乃長衛。夏，為晉滅沈，楚怒，攻蔡。蔡昭侯使其子為質於吳，以共伐楚。冬，與吳王闔閭遂破楚入郢。蔡怨子常，子常恐，奔鄭。十四年，吳去而楚昭王復國。十六年，楚令尹為其民泣以謀蔡，蔡昭侯懼。二十六年，孔子如蔡。楚昭王伐蔡，蔡恐，告急於吳。吳為蔡遠，約遷以自近，易以相救；昭侯私許，不與大夫計。吳人來救蔡，因遷蔡于州來。二十八年，昭侯將朝于吳，大夫恐其復遷，乃令賊利殺昭侯；已而誅賊利以解過，而立昭侯子朔，是為成侯。"
+          "quote_passage_ref": "data/corpus/shiji/035.json"
         }
       ],
       "qualifiers": {
@@ -369,19 +356,19 @@
       "evidence": [
         {
           "paragraph_id": "c-shiji-035-guancai:p012",
-          "quote": "莊侯三年，齊桓公卒。十四年，晉文公敗楚於城濮。二十年，楚太子商臣弒其父成王代立。二十五年，秦穆公卒。三十三年，楚莊王即位。三十四年，莊侯卒，子文侯申立。",
           "chapter_id": "c-shiji-035-guancai",
           "work_id": "w-shiji",
           "book_id": "b-shiji-035",
-          "source_id": "s-shiji-035-guancai"
+          "source_id": "s-shiji-035-guancai",
+          "quote_passage_ref": "data/corpus/shiji/035.json"
         },
         {
           "paragraph_id": "c-shiji-035-guancai:p017",
-          "quote": "平侯九年卒，靈侯般之孫東國攻平侯子而自立，是為悼侯。悼侯父曰隱太子友。隱太子友者，靈侯之太子，平侯立而殺隱太子，故平侯卒而隱太子之子東國攻平侯子而代立，是為悼侯。悼侯三年卒，弟昭侯申立。",
           "chapter_id": "c-shiji-035-guancai",
           "work_id": "w-shiji",
           "book_id": "b-shiji-035",
-          "source_id": "s-shiji-035-guancai"
+          "source_id": "s-shiji-035-guancai",
+          "quote_passage_ref": "data/corpus/shiji/035.json"
         }
       ],
       "rationale": "蔡文侯申在景侯之前，蔡昭侯申在悼侯之後，相隔多代，不按同名合併。",
@@ -404,7 +391,7 @@
           "chapter_id": "c-shiji-035-guancai",
           "source_id": "s-shiji-035-guancai",
           "paragraph_id": "c-shiji-035-guancai:p017",
-          "quote": "平侯九年卒，靈侯般之孫東國攻平侯子而自立，是為悼侯。悼侯父曰隱太子友。隱太子友者，靈侯之太子，平侯立而殺隱太子，故平侯卒而隱太子之子東國攻平侯子而代立，是為悼侯。悼侯三年卒，弟昭侯申立。"
+          "quote_passage_ref": "data/corpus/shiji/035.json"
         }
       ],
       "qualifiers": {
@@ -425,7 +412,7 @@
           "chapter_id": "c-shiji-035-guancai",
           "source_id": "s-shiji-035-guancai",
           "paragraph_id": "c-shiji-035-guancai:p019",
-          "quote": "十三年春，與衛靈公會邵陵。蔡侯私於周萇弘以求長於衛；衛使史言康叔之功德，乃長衛。夏，為晉滅沈，楚怒，攻蔡。蔡昭侯使其子為質於吳，以共伐楚。冬，與吳王闔閭遂破楚入郢。蔡怨子常，子常恐，奔鄭。十四年，吳去而楚昭王復國。十六年，楚令尹為其民泣以謀蔡，蔡昭侯懼。二十六年，孔子如蔡。楚昭王伐蔡，蔡恐，告急於吳。吳為蔡遠，約遷以自近，易以相救；昭侯私許，不與大夫計。吳人來救蔡，因遷蔡于州來。二十八年，昭侯將朝于吳，大夫恐其復遷，乃令賊利殺昭侯；已而誅賊利以解過，而立昭侯子朔，是為成侯。"
+          "quote_passage_ref": "data/corpus/shiji/035.json"
         }
       ],
       "qualifiers": {
@@ -446,7 +433,7 @@
           "chapter_id": "c-shiji-035-guancai",
           "source_id": "s-shiji-035-guancai",
           "paragraph_id": "c-shiji-035-guancai:p019",
-          "quote": "十三年春，與衛靈公會邵陵。蔡侯私於周萇弘以求長於衛；衛使史言康叔之功德，乃長衛。夏，為晉滅沈，楚怒，攻蔡。蔡昭侯使其子為質於吳，以共伐楚。冬，與吳王闔閭遂破楚入郢。蔡怨子常，子常恐，奔鄭。十四年，吳去而楚昭王復國。十六年，楚令尹為其民泣以謀蔡，蔡昭侯懼。二十六年，孔子如蔡。楚昭王伐蔡，蔡恐，告急於吳。吳為蔡遠，約遷以自近，易以相救；昭侯私許，不與大夫計。吳人來救蔡，因遷蔡于州來。二十八年，昭侯將朝于吳，大夫恐其復遷，乃令賊利殺昭侯；已而誅賊利以解過，而立昭侯子朔，是為成侯。"
+          "quote_passage_ref": "data/corpus/shiji/035.json"
         }
       ],
       "qualifiers": {
@@ -470,8 +457,8 @@
           "chapter_id": "c-shiji-035-guancai",
           "source_id": "s-shiji-035-guancai",
           "paragraph_id": "c-shiji-035-guancai:p019",
-          "quote": "十三年春，與衛靈公會邵陵。蔡侯私於周萇弘以求長於衛；衛使史言康叔之功德，乃長衛。夏，為晉滅沈，楚怒，攻蔡。蔡昭侯使其子為質於吳，以共伐楚。冬，與吳王闔閭遂破楚入郢。蔡怨子常，子常恐，奔鄭。十四年，吳去而楚昭王復國。十六年，楚令尹為其民泣以謀蔡，蔡昭侯懼。二十六年，孔子如蔡。楚昭王伐蔡，蔡恐，告急於吳。吳為蔡遠，約遷以自近，易以相救；昭侯私許，不與大夫計。吳人來救蔡，因遷蔡于州來。二十八年，昭侯將朝于吳，大夫恐其復遷，乃令賊利殺昭侯；已而誅賊利以解過，而立昭侯子朔，是為成侯。",
-          "person_mention_id": "c-shiji-035-guancai:m019-0167"
+          "person_mention_id": "c-shiji-035-guancai:m019-0167",
+          "quote_passage_ref": "data/corpus/shiji/035.json"
         }
       ],
       "source_term": "殺昭侯",

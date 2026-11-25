@@ -20,7 +20,6 @@
       "raw_count": 2,
       "duplicate_count": 0,
       "counting_policy": "independent_fixed_witness_occurrences",
-      "quote": "：「家有長子曰家督，今弟有罪，大人不遣，乃遺少弟，是吾不肖。」欲自殺。其母爲言曰：「今遣少子，未必能生中子也，而先空亡長男，柰何？」朱公不得已而遣長子，爲一封書遺故所善莊生。曰：「至則進千金于莊生所，聽其所爲，愼無與爭事。」長男旣行，亦自私齎數百金。",
       "paragraph_ids": [
         "c-shiji-041-yue:p021",
         "c-shiji-041-yue:p026"
@@ -54,7 +53,12 @@
       "book_id": "b-shiji-041",
       "chapter_id": "c-shiji-041-yue",
       "source_id": "s-shiji-041-yue",
-      "work_title": "史記"
+      "work_title": "史記",
+      "chapter_ref": "data/corpus/shiji/041.json",
+      "quote_span": [
+        101,
+        226
+      ]
     }
   ],
   "table_occurrences": [],
@@ -64,26 +68,7 @@
       "work_id": "w-shiji",
       "book_id": "b-shiji-041",
       "source_id": "s-shiji-041-yue",
-      "source": {
-        "title": "史記／卷041",
-        "provider": "維基文庫",
-        "url": "https://zh.wikisource.org/wiki/史記/卷041",
-        "permalink": "https://zh.wikisource.org/w/index.php?title=史記/卷041&oldid=2018395",
-        "revision_id": 2018395,
-        "accessed_on": "2026-10-09",
-        "extent": "28段正文及1段分層索隱述贊；排除2個dd導覽，去除段落外緣空白。",
-        "image_verified": false,
-        "rights": "古代原文；數位轉錄依維基文庫CC BY-SA 4.0，保留署名及固定版本。",
-        "license_url": "https://creativecommons.org/licenses/by-sa/4.0/",
-        "normalization": {
-          "character_conversion": {
-            "笔": "筆"
-          },
-          "editorial_readings": [],
-          "extraction_note": "固定修訂與取得時HTML一致，僅去除段落外緣空白；第17段笔轉筆，不自行校讀盡取筆呉地。保留句踐／勾踐、闔廬／闔閭及呉等古代異體。",
-          "note": "全29段數位正文已閱讀；未核古籍影像、可靠底本及現代研究。"
-        }
-      }
+      "chapter_ref": "data/corpus/shiji/041.json"
     }
   ],
   "relations": [
@@ -98,7 +83,7 @@
           "chapter_id": "c-shiji-041-yue",
           "source_id": "s-shiji-041-yue",
           "paragraph_id": "c-shiji-041-yue:p021",
-          "quote": "朱公居陶，生少子。少子及壯，而朱公中男殺人，囚於楚。朱公曰：「殺人而死，職也。然吾聞千金之子不死於市。」告其少子往視之。乃裝黃金千溢，置褐器中，載以一牛車。且遣其少子，朱公長男固請欲行，朱公不聽。長男曰：「家有長子曰家督，今弟有罪，大人不遣，乃遺少弟，是吾不肖。」欲自殺。其母爲言曰：「今遣少子，未必能生中子也，而先空亡長男，柰何？」朱公不得已而遣長子，爲一封書遺故所善莊生。曰：「至則進千金于莊生所，聽其所爲，愼無與爭事。」長男旣行，亦自私齎數百金。"
+          "quote_passage_ref": "data/corpus/shiji/041.json"
         }
       ],
       "qualifiers": {
@@ -130,7 +115,7 @@
           "chapter_id": "c-shiji-041-yue",
           "source_id": "s-shiji-041-yue",
           "paragraph_id": "c-shiji-041-yue:p021",
-          "quote": "朱公居陶，生少子。少子及壯，而朱公中男殺人，囚於楚。朱公曰：「殺人而死，職也。然吾聞千金之子不死於市。」告其少子往視之。乃裝黃金千溢，置褐器中，載以一牛車。且遣其少子，朱公長男固請欲行，朱公不聽。長男曰：「家有長子曰家督，今弟有罪，大人不遣，乃遺少弟，是吾不肖。」欲自殺。其母爲言曰：「今遣少子，未必能生中子也，而先空亡長男，柰何？」朱公不得已而遣長子，爲一封書遺故所善莊生。曰：「至則進千金于莊生所，聽其所爲，愼無與爭事。」長男旣行，亦自私齎數百金。"
+          "quote_passage_ref": "data/corpus/shiji/041.json"
         }
       ],
       "qualifiers": {

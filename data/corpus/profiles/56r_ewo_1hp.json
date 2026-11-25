@@ -21,7 +21,6 @@
       "raw_count": 2,
       "duplicate_count": 0,
       "counting_policy": "independent_fixed_witness_occurrences",
-      "quote": "慶節卒，子皇仆立。皇仆卒，子差弗立。差弗卒，子毀隃立。毀隃卒，子公非立。公非卒，子高圉立。高圉卒，子亞圉立。亞圉卒，子公叔祖類立。公叔祖類卒，子古公亶父立。古公亶父復修后稷、公劉之業，積德行義，國人皆戴之。薰育戎狄攻之，欲得財物，予之。已復攻，欲得地",
       "paragraph_ids": [
         "c-shiji-004-zhou:p004"
       ],
@@ -54,7 +53,12 @@
       "book_id": "b-shiji-004",
       "chapter_id": "c-shiji-004-zhou",
       "source_id": "s-shiji-004-zhou",
-      "work_title": "史記"
+      "work_title": "史記",
+      "chapter_ref": "data/corpus/shiji/004.json",
+      "quote_span": [
+        0,
+        125
+      ]
     }
   ],
   "table_occurrences": [
@@ -62,7 +66,6 @@
       "table_id": "shiji-013",
       "cell_id": "shiji-013-t1-r010-c07",
       "title": "《史記·三代世表》",
-      "quote": "差弗生毀渝。",
       "year": null,
       "mention": {
         "id": "shiji-013-t1-r010-c07-m001",
@@ -77,13 +80,13 @@
       "book_id": "b-shiji-013",
       "chapter_id": "table-chapter-shiji-013",
       "source_id": "table-witness-shiji-013",
-      "source_revision": "2606991"
+      "source_revision": "2606991",
+      "quote_ref": "cell"
     },
     {
       "table_id": "shiji-013",
       "cell_id": "shiji-013-t1-r011-c07",
       "title": "《史記·三代世表》",
-      "quote": "毀渝生公非。",
       "year": null,
       "mention": {
         "id": "shiji-013-t1-r011-c07-m000",
@@ -98,7 +101,8 @@
       "book_id": "b-shiji-013",
       "chapter_id": "table-chapter-shiji-013",
       "source_id": "table-witness-shiji-013",
-      "source_revision": "2606991"
+      "source_revision": "2606991",
+      "quote_ref": "cell"
     }
   ],
   "sources": [
@@ -107,83 +111,14 @@
       "work_id": "w-shiji",
       "book_id": "b-shiji-004",
       "source_id": "s-shiji-004-zhou",
-      "source": {
-        "title": "史記／卷004",
-        "provider": "維基文庫",
-        "url": "https://zh.wikisource.org/wiki/史記/卷004",
-        "permalink": "https://zh.wikisource.org/w/index.php?title=史記/卷004&oldid=7909147",
-        "revision_id": 7909147,
-        "accessed_on": "2026-10-09",
-        "extent": "正文全文；排除註釋版導覽、現代節標題與註號；行內校勘標記另存。",
-        "image_verified": false,
-        "rights": "古代原文；數位轉錄依維基文庫 CC BY-SA 4.0，保留署名及固定版本。",
-        "license_url": "https://creativecommons.org/licenses/by-sa/4.0/",
-        "normalization": {
-          "character_conversion": {},
-          "editorial_readings": [
-            {
-              "paragraph_id": "c-shiji-004-zhou:p017",
-              "witness_form": "［左］",
-              "body_reading": "",
-              "note": "數位見證行內校勘標記另存；有兩讀時正文保存改讀前的字，不宣稱已完成校勘。"
-            },
-            {
-              "paragraph_id": "c-shiji-004-zhou:p039",
-              "witness_form": "（又作湦）",
-              "body_reading": "",
-              "note": "數位見證行內校勘標記另存；有兩讀時正文保存改讀前的字，不宣稱已完成校勘。"
-            },
-            {
-              "paragraph_id": "c-shiji-004-zhou:p074",
-              "witness_form": "（賀）［資］",
-              "body_reading": "賀",
-              "note": "數位見證行內校勘標記另存；有兩讀時正文保存改讀前的字，不宣稱已完成校勘。"
-            },
-            {
-              "paragraph_id": "c-shiji-004-zhou:p082",
-              "witness_form": "（最）［聚］",
-              "body_reading": "最",
-              "note": "數位見證行內校勘標記另存；有兩讀時正文保存改讀前的字，不宣稱已完成校勘。"
-            },
-            {
-              "paragraph_id": "c-shiji-004-zhou:p085",
-              "witness_form": "（西）",
-              "body_reading": "",
-              "note": "數位見證行內校勘標記另存；有兩讀時正文保存改讀前的字，不宣稱已完成校勘。"
-            },
-            {
-              "paragraph_id": "c-shiji-004-zhou:p086",
-              "witness_form": "（我）［於］",
-              "body_reading": "我",
-              "note": "數位見證行內校勘標記另存；有兩讀時正文保存改讀前的字，不宣稱已完成校勘。"
-            }
-          ],
-          "note": "有成對改讀標記時正文保留改讀前的字；校勘符號與異讀另存，不稱已核讀底本。保留古代異體與數位見證的疑讀。"
-        }
-      }
+      "chapter_ref": "data/corpus/shiji/004.json"
     },
     {
       "chapter_id": "table-chapter-shiji-013",
       "work_id": "w-shiji",
       "book_id": "b-shiji-013",
       "source_id": "table-witness-shiji-013",
-      "source": {
-        "id": "table-witness-shiji-013",
-        "work_id": "w-shiji",
-        "book_id": "b-shiji-013",
-        "chapter_id": "table-chapter-shiji-013",
-        "url": "https://zh.wikisource.org/wiki/史記/卷013",
-        "revision_url": "https://zh.wikisource.org/w/index.php?title=史記/卷013&oldid=2606991",
-        "revision": "2606991",
-        "accessed": "2026-10-13",
-        "response_sha256": "8c98c072f11fc224a605f6b8f4dfc77be5f87bad792d32c0a2a720914638d7c3",
-        "edition": null,
-        "image_verified": false,
-        "rights": "古籍正文公有領域；維基文庫數位轉錄依CC BY-SA，保留貢獻者署名。",
-        "rights_url": "https://zh.wikisource.org/wiki/Wikisource:版權信息",
-        "review_status": "partial_named_entity_review",
-        "note": "各組表保留原欄題、原文、空格及合欄，不推不同欄題的接續。西元欄為數位編者增補；未明年份留空，不推世系曆年。未核底本影像，人物標註仍待逐處覆核。"
-      }
+      "table_source_ref": "shiji-013"
     }
   ],
   "relations": [
@@ -297,8 +232,8 @@
           "chapter_id": "c-shiji-004-zhou",
           "source_id": "s-shiji-004-zhou",
           "paragraph_id": "c-shiji-004-zhou:p004",
-          "quote": "慶節卒，子皇仆立。皇仆卒，子差弗立。差弗卒，子毀隃立。毀隃卒，子公非立。公非卒，子高圉立。高圉卒，子亞圉立。亞圉卒，子公叔祖類立。公叔祖類卒，子古公亶父立。古公亶父復修后稷、公劉之業，積德行義，國人皆戴之。薰育戎狄攻之，欲得財物，予之。已復攻，欲得地與民。民皆怒，欲戰。古公曰：「有民立君，將以利之。今戎狄所為攻戰，以吾地與民。民之在我，與其在彼，何異。民欲以我故戰，殺人父子而君之，予不忍為。」乃與私屬遂去豳，度漆、沮，踰梁山，止於岐下。豳人舉國扶老攜弱，盡復歸古公於岐下。及他旁國聞古公仁，亦多歸之。於是古公乃貶戎狄之俗，而營筑城郭室屋，而邑別居之。作五官有司。民皆歌樂之，頌其德。",
-          "person_mention_id": "c-shiji-004-zhou:m004-0023"
+          "person_mention_id": "c-shiji-004-zhou:m004-0023",
+          "quote_passage_ref": "data/corpus/shiji/004.json"
         }
       ],
       "source_term": "毀隃卒",

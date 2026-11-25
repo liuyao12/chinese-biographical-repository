@@ -23,7 +23,7 @@
           "chapter_id": "c-shiji-076-pingyu",
           "source_id": "s-shiji-076-pingyu",
           "paragraph_id": "c-shiji-076-pingyu:p006",
-          "quote": "平原君既返趙，楚使春申君將兵赴救趙，魏信陵君亦矯奪晉鄙軍往救趙，皆未至。秦急圍邯鄲，邯鄲急，且降，平原君甚患之。邯鄲傳舍吏子李同説平原君曰：「君不憂趙亡邪？」平原君曰：「趙亡則勝爲虜，何爲不憂乎？」李同曰：「邯鄲之民，炊骨易子而食，可謂急矣，而君之後宮以百數，婢妾被綺縠，餘粱肉，而民褐衣不完，糟糠不厭。民困兵盡，或剡木爲矛矢，而君器物鐘磬自若。使秦破趙，君安得有此？使趙得全，君何患無有？今君誠能令夫人以下編於士卒之閒，分功而作，家之所有盡散以饗士，士方其危苦之時，易德耳。」於是平原君從之，得敢死之士三千人。李同遂與三千人赴秦軍，秦軍爲之卻三十里。亦會楚、魏救至，秦兵遂罷，邯鄲復存。李同戰死，封其父爲李侯。"
+          "quote_passage_ref": "data/corpus/shiji/076.json"
         }
       ],
       "attestations": [
@@ -65,7 +65,7 @@
           "chapter_id": "c-shiji-077-weigong",
           "source_id": "s-shiji-077-weigong",
           "paragraph_id": "c-shiji-077-weigong:p006",
-          "quote": "魏安釐王二十年，秦昭王已破趙長平軍，又進兵圍邯鄲。公子姊為趙惠文王弟平原君夫人，數遺魏王及公子書，請救於魏。魏王使將軍晉鄙將十萬眾救趙。秦王使使者告魏王曰：「吾攻趙旦暮且下，而諸侯敢救者，已拔趙，必移兵先擊之。」魏王恐，使人止晉鄙，留軍壁鄴，名為救趙，實持兩端以觀望。平原君使者冠蓋相屬於魏，讓魏公子曰：「勝所以自附為婚姻者，以公子之高義，為能急人之困。今邯鄲旦暮降秦而魏救不至，安在公子能急人之困也！且公子縱輕勝，棄之降秦，獨不憐公子姊邪？」公子患之，數請魏王，及賓客辯士說王萬端。魏王畏秦，終不聽公子。公子自度終不能得之於王，計不獨生而令趙亡，乃請賓客，約車騎百餘乘，欲以客往赴秦軍，與趙俱死。"
+          "quote_passage_ref": "data/corpus/shiji/077.json"
         }
       ],
       "attestations": [
@@ -107,7 +107,6 @@
       "raw_count": 1,
       "duplicate_count": 0,
       "counting_policy": "independent_fixed_witness_occurrences",
-      "quote": "君器物鐘磬自若。使秦破趙，君安得有此？使趙得全，君何患無有？今君誠能令夫人以下編於士卒之閒，分功而作，家之所有盡散以饗士，士方其危苦之時，易德耳。」於是平原君從之，得敢死之士三千人。李同遂與三千人赴秦軍，秦軍爲之卻三十里。亦會楚、魏救至，秦兵遂罷，邯鄲復存。李同戰死，封其父",
       "paragraph_ids": [
         "c-shiji-076-pingyu:p006"
       ],
@@ -131,7 +130,12 @@
       "book_id": "b-shiji-076",
       "chapter_id": "c-shiji-076-pingyu",
       "source_id": "s-shiji-076-pingyu",
-      "work_title": "史記"
+      "work_title": "史記",
+      "chapter_ref": "data/corpus/shiji/076.json",
+      "quote_span": [
+        165,
+        302
+      ]
     },
     {
       "number": 77,
@@ -142,7 +146,6 @@
       "raw_count": 8,
       "duplicate_count": 0,
       "counting_policy": "independent_fixed_witness_occurrences",
-      "quote": "魏安釐王二十年，秦昭王已破趙長平軍，又進兵圍邯鄲。公子姊為趙惠文王弟平原君夫人，數遺魏王及公子書，請救於魏。魏王使將軍晉鄙將十萬眾救趙。秦王使使者告魏王曰：「吾攻趙旦暮且下，而諸侯敢救者，已拔趙，必移兵先擊之。」魏王恐，使人止晉鄙，留軍壁鄴，名為救趙，實持",
       "paragraph_ids": [
         "c-shiji-077-weigong:p006",
         "c-shiji-077-weigong:p011"
@@ -230,7 +233,12 @@
       "book_id": "b-shiji-077",
       "chapter_id": "c-shiji-077-weigong",
       "source_id": "s-shiji-077-weigong",
-      "work_title": "史記"
+      "work_title": "史記",
+      "chapter_ref": "data/corpus/shiji/077.json",
+      "quote_span": [
+        0,
+        128
+      ]
     }
   ],
   "table_occurrences": [],
@@ -240,69 +248,14 @@
       "work_id": "w-shiji",
       "book_id": "b-shiji-076",
       "source_id": "s-shiji-076-pingyu",
-      "source": {
-        "title": "史記／卷076",
-        "provider": "維基文庫",
-        "url": "https://zh.wikisource.org/wiki/史記/卷076",
-        "permalink": "https://zh.wikisource.org/w/index.php?title=史記/卷076&oldid=7909284",
-        "revision_id": 7909284,
-        "accessed_on": "2026-10-09",
-        "extent": "19段正文，自平原君趙勝至太史公論贊；排除ws-header人物導覽、索隱述贊及現代版權告示。",
-        "image_verified": false,
-        "rights": "古代原文；數位轉錄依維基文庫CC BY-SA 4.0，保留署名及固定版本。",
-        "license_url": "https://creativecommons.org/licenses/by-sa/4.0/",
-        "normalization": {
-          "character_conversion": {
-            "饱": "飽"
-          },
-          "editorial_readings": [
-            {
-              "paragraph_id": "c-shiji-076-pingyu:p013",
-              "witness_form": "（以爲韓魏不救趙也而王之軍必孤有以）",
-              "body_reading": "以爲韓魏不救趙也而王之軍必孤有以",
-              "note": "括號為數位刪讀提示；正文保留改讀前括號內文字而分離提示，未核底本，不當已校定。"
-            },
-            {
-              "paragraph_id": "c-shiji-076-pingyu:p014",
-              "witness_form": "（何）",
-              "body_reading": "何",
-              "note": "括號為數位刪讀提示；正文保留改讀前括號內文字而分離提示，未核底本，不當已校定。"
-            },
-            {
-              "paragraph_id": "c-shiji-076-pingyu:p015",
-              "witness_form": "（彊）",
-              "body_reading": "彊",
-              "note": "括號為數位刪讀提示；正文保留改讀前括號內文字而分離提示，未核底本，不當已校定。"
-            }
-          ],
-          "extraction_note": "固定HTML與取得時版本一致，只去外緣空白並分離三項數位改讀提示；第12段數位簡體饱轉為繁體飽並記錄，爲、檐、槃、説等原字保留。",
-          "note": "全19段正文及姓名首輪已核讀；未核底本、影像或現代研究。"
-        }
-      }
+      "chapter_ref": "data/corpus/shiji/076.json"
     },
     {
       "chapter_id": "c-shiji-077-weigong",
       "work_id": "w-shiji",
       "book_id": "b-shiji-077",
       "source_id": "s-shiji-077-weigong",
-      "source": {
-        "title": "史記／卷077",
-        "provider": "維基文庫",
-        "url": "https://zh.wikisource.org/wiki/史記/卷077",
-        "permalink": "https://zh.wikisource.org/w/index.php?title=史記/卷077&oldid=367917",
-        "revision_id": 367917,
-        "accessed_on": "2026-10-09",
-        "extent": "17段正文，自魏公子無忌至太史公論贊；排除人物導覽、索隱述贊及現代版權告示。",
-        "image_verified": false,
-        "rights": "古代原文；數位轉錄依維基文庫CC BY-SA 4.0，保留署名及固定版本。",
-        "license_url": "https://creativecommons.org/licenses/by-sa/4.0/",
-        "normalization": {
-          "character_conversion": {},
-          "editorial_readings": [],
-          "extraction_note": "固定HTML與取得時版本一致，只去外緣空白；未見括號改讀提示，為、釐、籣、埽等原字保留。",
-          "note": "全17段正文及姓名首輪已核讀；未核底本、影像或現代研究。"
-        }
-      }
+      "chapter_ref": "data/corpus/shiji/077.json"
     }
   ],
   "relations": [
@@ -317,7 +270,7 @@
           "chapter_id": "c-shiji-077-weigong",
           "source_id": "s-shiji-077-weigong",
           "paragraph_id": "c-shiji-077-weigong:p006",
-          "quote": "魏安釐王二十年，秦昭王已破趙長平軍，又進兵圍邯鄲。公子姊為趙惠文王弟平原君夫人，數遺魏王及公子書，請救於魏。魏王使將軍晉鄙將十萬眾救趙。秦王使使者告魏王曰：「吾攻趙旦暮且下，而諸侯敢救者，已拔趙，必移兵先擊之。」魏王恐，使人止晉鄙，留軍壁鄴，名為救趙，實持兩端以觀望。平原君使者冠蓋相屬於魏，讓魏公子曰：「勝所以自附為婚姻者，以公子之高義，為能急人之困。今邯鄲旦暮降秦而魏救不至，安在公子能急人之困也！且公子縱輕勝，棄之降秦，獨不憐公子姊邪？」公子患之，數請魏王，及賓客辯士說王萬端。魏王畏秦，終不聽公子。公子自度終不能得之於王，計不獨生而令趙亡，乃請賓客，約車騎百餘乘，欲以客往赴秦軍，與趙俱死。"
+          "quote_passage_ref": "data/corpus/shiji/077.json"
         }
       ],
       "qualifiers": {
@@ -348,7 +301,7 @@
           "chapter_id": "c-shiji-077-weigong",
           "source_id": "s-shiji-077-weigong",
           "paragraph_id": "c-shiji-077-weigong:p006",
-          "quote": "魏安釐王二十年，秦昭王已破趙長平軍，又進兵圍邯鄲。公子姊為趙惠文王弟平原君夫人，數遺魏王及公子書，請救於魏。魏王使將軍晉鄙將十萬眾救趙。秦王使使者告魏王曰：「吾攻趙旦暮且下，而諸侯敢救者，已拔趙，必移兵先擊之。」魏王恐，使人止晉鄙，留軍壁鄴，名為救趙，實持兩端以觀望。平原君使者冠蓋相屬於魏，讓魏公子曰：「勝所以自附為婚姻者，以公子之高義，為能急人之困。今邯鄲旦暮降秦而魏救不至，安在公子能急人之困也！且公子縱輕勝，棄之降秦，獨不憐公子姊邪？」公子患之，數請魏王，及賓客辯士說王萬端。魏王畏秦，終不聽公子。公子自度終不能得之於王，計不獨生而令趙亡，乃請賓客，約車騎百餘乘，欲以客往赴秦軍，與趙俱死。"
+          "quote_passage_ref": "data/corpus/shiji/077.json"
         }
       ],
       "qualifiers": {
@@ -381,7 +334,7 @@
           "chapter_id": "c-shiji-077-weigong",
           "source_id": "s-shiji-077-weigong",
           "paragraph_id": "c-shiji-077-weigong:p006",
-          "quote": "魏安釐王二十年，秦昭王已破趙長平軍，又進兵圍邯鄲。公子姊為趙惠文王弟平原君夫人，數遺魏王及公子書，請救於魏。魏王使將軍晉鄙將十萬眾救趙。秦王使使者告魏王曰：「吾攻趙旦暮且下，而諸侯敢救者，已拔趙，必移兵先擊之。」魏王恐，使人止晉鄙，留軍壁鄴，名為救趙，實持兩端以觀望。平原君使者冠蓋相屬於魏，讓魏公子曰：「勝所以自附為婚姻者，以公子之高義，為能急人之困。今邯鄲旦暮降秦而魏救不至，安在公子能急人之困也！且公子縱輕勝，棄之降秦，獨不憐公子姊邪？」公子患之，數請魏王，及賓客辯士說王萬端。魏王畏秦，終不聽公子。公子自度終不能得之於王，計不獨生而令趙亡，乃請賓客，約車騎百餘乘，欲以客往赴秦軍，與趙俱死。"
+          "quote_passage_ref": "data/corpus/shiji/077.json"
         }
       ],
       "qualifiers": {
@@ -412,7 +365,7 @@
           "chapter_id": "c-shiji-077-weigong",
           "source_id": "s-shiji-077-weigong",
           "paragraph_id": "c-shiji-077-weigong:p006",
-          "quote": "魏安釐王二十年，秦昭王已破趙長平軍，又進兵圍邯鄲。公子姊為趙惠文王弟平原君夫人，數遺魏王及公子書，請救於魏。魏王使將軍晉鄙將十萬眾救趙。秦王使使者告魏王曰：「吾攻趙旦暮且下，而諸侯敢救者，已拔趙，必移兵先擊之。」魏王恐，使人止晉鄙，留軍壁鄴，名為救趙，實持兩端以觀望。平原君使者冠蓋相屬於魏，讓魏公子曰：「勝所以自附為婚姻者，以公子之高義，為能急人之困。今邯鄲旦暮降秦而魏救不至，安在公子能急人之困也！且公子縱輕勝，棄之降秦，獨不憐公子姊邪？」公子患之，數請魏王，及賓客辯士說王萬端。魏王畏秦，終不聽公子。公子自度終不能得之於王，計不獨生而令趙亡，乃請賓客，約車騎百餘乘，欲以客往赴秦軍，與趙俱死。"
+          "quote_passage_ref": "data/corpus/shiji/077.json"
         }
       ],
       "qualifiers": {

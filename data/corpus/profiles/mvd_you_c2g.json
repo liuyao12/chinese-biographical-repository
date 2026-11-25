@@ -21,7 +21,7 @@
           "chapter_id": "c-shiji-079-fancai",
           "source_id": "s-shiji-079-fancai",
           "paragraph_id": "c-shiji-079-fancai:p015",
-          "quote": "然左右多竊聽者，范睢恐，未敢言內，先言外事，以觀秦王之俯仰。因進曰：「夫穰侯越韓、魏而攻齊綱壽，非計也。少出師則不足以傷齊，多出師則害於秦。臣意王之計，欲少出師而悉韓、魏之兵也，則不義矣。今見與國之不親也，越人之國而攻，可乎？其於計疏矣。且昔齊湣王南攻楚，破軍殺將，再辟地千里，而齊尺寸之地無得焉者，豈不欲得地哉，形勢不能有也。諸侯見齊之罷獘，君臣之不和也，興兵而伐齊，大破之。士辱兵頓，皆咎其王，曰：『誰為此計者乎？』王曰：『文子為之。』大臣作亂，文子出走。攻齊所以大破者，以其伐楚而肥韓、魏也。此所謂借賊兵而齎盜糧者也。王不如遠交而近攻，得寸則王之寸也，得尺亦王之尺也。今釋此而遠攻，不亦繆乎！且昔者中山之國地方五百里，趙獨吞之，功成名立而利附焉，天下莫之能害也。今夫韓、魏，中國之處而天下之樞也，王其欲霸，必親中國以為天下樞，以威楚、趙。楚彊則附趙，趙彊則附楚，楚、趙皆附，齊必懼矣。齊懼，必卑辭重幣以事秦。齊附而韓、魏因可虜也。」昭王曰：「吾欲親魏久矣，而魏多變之國也，寡人不能親。請問親魏柰何？」對曰：「王卑詞重幣以事之；不可，則割地而賂之；不可，因舉兵而伐之。」王曰：「寡人敬聞命矣。」乃拜范睢為客卿，謀兵事。卒聽范睢謀，使五大夫綰伐魏，拔懷。後二歲，拔邢丘。"
+          "quote_passage_ref": "data/corpus/shiji/079.json"
         }
       ],
       "attestations": [
@@ -63,7 +63,6 @@
       "raw_count": 1,
       "duplicate_count": 0,
       "counting_policy": "independent_fixed_witness_occurrences",
-      "quote": "伐之。」王曰：「寡人敬聞命矣。」乃拜范睢為客卿，謀兵事。卒聽范睢謀，使五大夫綰伐魏，拔懷。後二歲，拔邢丘。",
       "paragraph_ids": [
         "c-shiji-079-fancai:p015"
       ],
@@ -87,7 +86,12 @@
       "book_id": "b-shiji-079",
       "chapter_id": "c-shiji-079-fancai",
       "source_id": "s-shiji-079-fancai",
-      "work_title": "史記"
+      "work_title": "史記",
+      "chapter_ref": "data/corpus/shiji/079.json",
+      "quote_span": [
+        483,
+        536
+      ]
     }
   ],
   "table_occurrences": [],
@@ -97,37 +101,7 @@
       "work_id": "w-shiji",
       "book_id": "b-shiji-079",
       "source_id": "s-shiji-079-fancai",
-      "source": {
-        "title": "史記／卷079",
-        "provider": "維基文庫",
-        "url": "https://zh.wikisource.org/wiki/史記/卷079",
-        "permalink": "https://zh.wikisource.org/w/index.php?title=史記/卷079&oldid=2549307",
-        "revision_id": 2549307,
-        "accessed_on": "2026-10-09",
-        "extent": "35段正文，自范睢者至太史公論贊；排除人物導覽、索隱述贊及現代版權告示。",
-        "image_verified": false,
-        "rights": "古代原文；數位轉錄依維基文庫CC BY-SA 4.0，保留署名及固定版本。",
-        "license_url": "https://creativecommons.org/licenses/by-sa/4.0/",
-        "normalization": {
-          "character_conversion": {},
-          "editorial_readings": [
-            {
-              "paragraph_id": "c-shiji-079-fancai:p032",
-              "witness_form": "（止）［足］",
-              "body_reading": "止",
-              "note": "數位改讀提示另存，正文保留改讀前括號內文字，未核底本，不當已校定。"
-            },
-            {
-              "paragraph_id": "c-shiji-079-fancai:p032",
-              "witness_form": "（足）［止］",
-              "body_reading": "足",
-              "note": "數位改讀提示另存，正文保留改讀前括號內文字，未核底本，不當已校定。"
-            }
-          ],
-          "extraction_note": "固定HTML與取得時版本一致，只去外緣空白；第32段止／足兩項數位改讀提示分離，正文保留改讀前原語；睢、厀、檐、繆、甐等原字保留，上書dd引文按原序。",
-          "note": "全35段正文、HTML篇界及姓名首輪已核讀；未核底本影像或現代研究。"
-        }
-      }
+      "chapter_ref": "data/corpus/shiji/079.json"
     }
   ],
   "relations": [],

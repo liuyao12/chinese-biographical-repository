@@ -22,7 +22,7 @@
           "chapter_id": "c-shiji-123-dayuan",
           "source_id": "s-shiji123-dayuan",
           "paragraph_id": "c-shiji-123-dayuan:p004",
-          "quote": "留歲餘，還，并南山，欲從羌中歸，復為匈奴所得。留歲餘，單于死，左谷蠡王攻其太子自立，國內亂，騫與胡妻及堂邑父俱亡歸漢。漢拜騫為太中大夫，堂邑父為奉使君。"
+          "quote_passage_ref": "data/corpus/shiji/123.json"
         }
       ],
       "attestations": [
@@ -47,7 +47,7 @@
               "chapter_id": "c-shiji-123-dayuan",
               "source_id": "s-shiji123-dayuan",
               "paragraph_id": "c-shiji-123-dayuan:p004",
-              "quote": "留歲餘，還，并南山，欲從羌中歸，復為匈奴所得。留歲餘，單于死，左谷蠡王攻其太子自立，國內亂，騫與胡妻及堂邑父俱亡歸漢。漢拜騫為太中大夫，堂邑父為奉使君。"
+              "quote_passage_ref": "data/corpus/shiji/123.json"
             }
           ]
         },
@@ -73,7 +73,6 @@
       "raw_count": 4,
       "duplicate_count": 0,
       "counting_policy": "independent_fixed_witness_occurrences",
-      "quote": "通使。道必更匈奴中，乃募能使者。騫以郎應募，使月氏，與堂邑氏（故）胡奴甘父俱出隴西。經匈奴，匈奴得之，傳詣單于。單于留之，曰：「月氏在吾北，漢何以得往使？吾欲使越，漢肯聽我乎？」留騫十餘歲，與妻，有子，然騫持漢節不失。",
       "paragraph_ids": [
         "c-shiji-123-dayuan:p002",
         "c-shiji-123-dayuan:p004",
@@ -126,7 +125,12 @@
       "book_id": "b-shiji-123",
       "chapter_id": "c-shiji-123-dayuan",
       "source_id": "s-shiji123-dayuan",
-      "work_title": "史記"
+      "work_title": "史記",
+      "chapter_ref": "data/corpus/shiji/123.json",
+      "quote_span": [
+        69,
+        178
+      ]
     }
   ],
   "table_occurrences": [],
@@ -136,24 +140,7 @@
       "work_id": "w-shiji",
       "book_id": "b-shiji-123",
       "source_id": "s-shiji123-dayuan",
-      "source": {
-        "title": "史記／卷123",
-        "provider": "維基文庫",
-        "url": "https://zh.wikisource.org/wiki/史記/卷123",
-        "permalink": "https://zh.wikisource.org/w/index.php?title=史記/卷123&oldid=8736799",
-        "revision_id": 8736799,
-        "accessed_on": "2026-10-11",
-        "extent": "固定修訂全文39段，包括末段索隱述贊。",
-        "image_verified": false,
-        "rights": "古代原文；數位轉錄依維基文庫CC BY-SA 4.0，保留署名及固定版本。",
-        "license_url": "https://creativecommons.org/licenses/by-sa/4.0/",
-        "normalization": {
-          "character_conversion": {},
-          "editorial_readings": [],
-          "extraction_note": "去header2、現代節標、blockquote排版及分類；維基連結保留顯示文字，原字未轉換，未核影像。",
-          "note": "末段索隱述贊另分層。"
-        }
-      }
+      "chapter_ref": "data/corpus/shiji/123.json"
     }
   ],
   "relations": [],

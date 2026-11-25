@@ -27,7 +27,7 @@
           "chapter_id": "c-shiji-043-zhao",
           "source_id": "s-shiji-043-zhao",
           "paragraph_id": "c-shiji-043-zhao:p062",
-          "quote": "八年，韓撃秦，不勝而去。五國相王，趙獨否，曰：「無其實，敢處其名乎！」令國人謂已曰「君」。"
+          "quote_passage_ref": "data/corpus/shiji/043.json"
         }
       ],
       "attestations": [
@@ -69,7 +69,7 @@
           "chapter_id": "c-shiji-043-zhao",
           "source_id": "s-shiji-043-zhao",
           "paragraph_id": "c-shiji-043-zhao:p074",
-          "quote": "二十七年五月戊申，大朝於東宮，傳國，立王子何以爲王。王廟見禮畢，出臨朝。大夫悉爲臣，肥義爲相國，并傅王。是爲惠文王。惠文王，惠后吳娃子也。武靈王自號爲主父。"
+          "quote_passage_ref": "data/corpus/shiji/043.json"
         }
       ],
       "attestations": [
@@ -93,7 +93,7 @@
               "chapter_id": "c-shiji-043-zhao",
               "source_id": "s-shiji-043-zhao",
               "paragraph_id": "c-shiji-043-zhao:p074",
-              "quote": "二十七年五月戊申，大朝於東宮，傳國，立王子何以爲王。王廟見禮畢，出臨朝。大夫悉爲臣，肥義爲相國，并傅王。是爲惠文王。惠文王，惠后吳娃子也。武靈王自號爲主父。"
+              "quote_passage_ref": "data/corpus/shiji/043.json"
             }
           ]
         },
@@ -119,7 +119,7 @@
           "chapter_id": "c-shiji-110-xiongnu",
           "source_id": "s-shiji110-xiongnu",
           "paragraph_id": "c-shiji-110-xiongnu:p004",
-          "quote": "自是之後百有餘年，晉悼公使魏絳和戎翟，戎翟朝晉。後百有餘年，趙襄子踰句注而破并代以臨胡貉。其後既與韓魏共滅智伯，分晉地而有之，則趙有代、句注之北，魏有河西、上郡，以與戎界邊。其後義渠之戎築城郭以自守，而秦稍蠶食，至於惠王，遂拔義渠二十五城。惠王擊魏，魏盡入西河及上郡于秦。秦昭王時，義渠戎王與宣太后亂，有二子。宣太后詐而殺義渠戎王於甘泉，遂起兵伐殘義渠。於是秦有隴西、北地、上郡，築長城以拒胡。而趙武靈王亦變俗胡服，習騎射，北破林胡、樓煩。築長城，自代并陰山下，至高闕爲塞。而置雲中、鴈門、代郡。其後燕有賢將秦開，爲質於胡，胡甚信之。歸而襲破走東胡，東胡卻千餘里。與荊軻刺秦王秦舞陽者，開之孫也。燕亦築長城，自造陽至襄平。置上谷、漁陽、右北平、遼西、遼東郡以拒胡。當是之時，冠帶戰國七，而三國邊於匈奴。其後趙將李牧時，匈奴不敢入趙邊。後秦滅六國，而始皇帝使蒙恬將十萬之眾北擊胡，悉收河南地。因河爲塞，築四十四縣城臨河，徙適戍以充之。而通直道，自九原至雲陽，因邊山險塹谿谷可繕者治之，起臨洮至遼東萬餘里。又度河據陽山北假中。"
+          "quote_passage_ref": "data/corpus/shiji/110.json"
         }
       ],
       "attestations": [
@@ -167,8 +167,8 @@
           "chapter_id": "c-shiji-043-zhao",
           "source_id": "s-shiji-043-zhao",
           "paragraph_id": "c-shiji-043-zhao:p081",
-          "quote": "主父及王游沙丘，異宮，公子章卽以其徒與田不禮作亂，詐以主父令召王。肥義先入，殺之。髙信卽與王戰。公子成與李兌自國至，乃起四邑之兵入距難，殺公子章及田不禮，滅其黨賊而定王室。公子成爲相，號安平君，李兌爲司寇。公子章之敗，往走主父，主主開之，成、兌因圍主父宮。公子章死，公子成、李兌謀曰：「以章故圍主父，卽解兵，吾屬夷矣。」乃遂圍主父。令宮中人「後出者夷」，宮中人悉出。主父欲出不得，又不得食，探爵鷇而食之，三月餘而餓死沙丘宮。主父定死，乃發喪赴諸侯。",
-          "person_mention_id": "c-shiji-043-zhao:m081-0000"
+          "person_mention_id": "c-shiji-043-zhao:m081-0000",
+          "quote_passage_ref": "data/corpus/shiji/043.json"
         }
       ],
       "source_term": "三月餘而餓死沙丘宮",
@@ -216,7 +216,6 @@
       "raw_count": 55,
       "duplicate_count": 0,
       "counting_policy": "independent_fixed_witness_occurrences",
-      "quote": "二十四年，肅侯卒。秦、楚、燕、齊、魏出鋭師各萬人來會葬。子武靈王立。",
       "paragraph_ids": [
         "c-shiji-043-zhao:p059",
         "c-shiji-043-zhao:p060",
@@ -749,7 +748,12 @@
       "book_id": "b-shiji-043",
       "chapter_id": "c-shiji-043-zhao",
       "source_id": "s-shiji-043-zhao",
-      "work_title": "史記"
+      "work_title": "史記",
+      "chapter_ref": "data/corpus/shiji/043.json",
+      "quote_span": [
+        0,
+        34
+      ]
     },
     {
       "number": 79,
@@ -760,7 +764,6 @@
       "raw_count": 1,
       "duplicate_count": 0,
       "counting_policy": "independent_fixed_witness_occurrences",
-      "quote": "』。崔杼、淖齒管齊，射王股，擢王筋，縣之於廟梁，宿昔而死。李兌管趙，囚主父於沙丘，百日而餓死。今臣聞秦太后、穰侯用事，高陵、華陽、涇陽佐之，卒無秦王，此亦淖齒、李兌之類也。且夫三代所以亡國者，君專授政，縱酒馳騁弋獵，不聽政事。其所授者，妒賢嫉能，御下蔽上，以成其私，不為主計",
       "paragraph_ids": [
         "c-shiji-079-fancai:p017"
       ],
@@ -784,7 +787,12 @@
       "book_id": "b-shiji-079",
       "chapter_id": "c-shiji-079-fancai",
       "source_id": "s-shiji-079-fancai",
-      "work_title": "史記"
+      "work_title": "史記",
+      "chapter_ref": "data/corpus/shiji/079.json",
+      "quote_span": [
+        284,
+        421
+      ]
     },
     {
       "number": 80,
@@ -795,7 +803,6 @@
       "raw_count": 2,
       "duplicate_count": 0,
       "counting_policy": "independent_fixed_witness_occurrences",
-      "quote": "山，魏文侯封樂羊以靈壽。樂羊死，葬於靈壽，其後子孫因家焉。中山復國，至趙武靈王時復滅中山，而樂氏後有樂毅。",
       "paragraph_ids": [
         "c-shiji-080-leyi:p001",
         "c-shiji-080-leyi:p002"
@@ -829,7 +836,12 @@
       "book_id": "b-shiji-080",
       "chapter_id": "c-shiji-080-leyi",
       "source_id": "s-shiji-080-leyi",
-      "work_title": "史記"
+      "work_title": "史記",
+      "chapter_ref": "data/corpus/shiji/080.json",
+      "quote_span": [
+        22,
+        75
+      ]
     },
     {
       "number": 110,
@@ -840,7 +852,6 @@
       "raw_count": 1,
       "duplicate_count": 0,
       "counting_policy": "independent_fixed_witness_occurrences",
-      "quote": "戎王於甘泉，遂起兵伐殘義渠。於是秦有隴西、北地、上郡，築長城以拒胡。而趙武靈王亦變俗胡服，習騎射，北破林胡、樓煩。築長城，自代并陰山下，至高闕爲塞。而置雲中、鴈門、代郡。其後燕有賢將秦開，爲質於胡，胡甚信之。歸而襲破走東胡，東胡卻千餘里。與荊軻刺秦王秦舞陽者，開之孫也。燕亦築長",
       "paragraph_ids": [
         "c-shiji-110-xiongnu:p004"
       ],
@@ -864,7 +875,12 @@
       "book_id": "b-shiji-110",
       "chapter_id": "c-shiji-110-xiongnu",
       "source_id": "s-shiji110-xiongnu",
-      "work_title": "史記"
+      "work_title": "史記",
+      "chapter_ref": "data/corpus/shiji/110.json",
+      "quote_span": [
+        163,
+        302
+      ]
     },
     {
       "number": 130,
@@ -875,7 +891,6 @@
       "raw_count": 1,
       "duplicate_count": 0,
       "counting_policy": "independent_fixed_witness_occurrences",
-      "quote": "乃章造父。趙夙事獻，衰續厥緒。佐文尊王，卒為晉輔。襄子困辱，乃禽智伯。主父生縛，餓死探爵。王遷辟淫，良將是斥。嘉鞅討周亂，作趙世家第十三。",
       "paragraph_ids": [
         "c-shiji-130-taishigong:p055"
       ],
@@ -899,7 +914,12 @@
       "book_id": "b-shiji-130",
       "chapter_id": "c-shiji-130-taishigong",
       "source_id": "s-shiji130-taishigong",
-      "work_title": "史記"
+      "work_title": "史記",
+      "chapter_ref": "data/corpus/shiji/130.json",
+      "quote_span": [
+        5,
+        74
+      ]
     }
   ],
   "table_occurrences": [
@@ -907,7 +927,6 @@
       "table_id": "shiji-015",
       "cell_id": "shiji-015-r152-c05",
       "title": "《史記·六國年表》",
-      "quote": "趙武靈王元年。魏敗我趙護。",
       "year": {
         "era": "BCE",
         "value": 325,
@@ -930,13 +949,13 @@
       "book_id": "b-shiji-015",
       "chapter_id": "table-chapter-shiji-015",
       "source_id": "table-witness-shiji-015",
-      "source_revision": "2607002"
+      "source_revision": "2607002",
+      "quote_ref": "cell"
     },
     {
       "table_id": "shiji-015",
       "cell_id": "shiji-015-r182-c05",
       "title": "《史記·六國年表》",
-      "quote": "四。圍殺主父。與齊、燕共滅中山。",
       "year": {
         "era": "BCE",
         "value": 295,
@@ -959,7 +978,8 @@
       "book_id": "b-shiji-015",
       "chapter_id": "table-chapter-shiji-015",
       "source_id": "table-witness-shiji-015",
-      "source_revision": "2607002"
+      "source_revision": "2607002",
+      "quote_ref": "cell"
     }
   ],
   "sources": [
@@ -968,156 +988,42 @@
       "work_id": "w-shiji",
       "book_id": "b-shiji-043",
       "source_id": "s-shiji-043-zhao",
-      "source": {
-        "title": "史記／卷043",
-        "provider": "維基文庫",
-        "url": "https://zh.wikisource.org/wiki/史記/卷043",
-        "permalink": "https://zh.wikisource.org/w/index.php?title=史記/卷043&oldid=7903603",
-        "revision_id": 7903603,
-        "accessed_on": "2026-10-09",
-        "extent": "121段正文及1段分層索隱述贊；排除2個dd導覽，只去除段落外緣空白。",
-        "image_verified": false,
-        "rights": "古代原文；數位轉錄依維基文庫CC BY-SA 4.0，保留署名及固定版本。",
-        "license_url": "https://creativecommons.org/licenses/by-sa/4.0/",
-        "normalization": {
-          "character_conversion": {},
-          "editorial_readings": [],
-          "extraction_note": "固定修訂與取得時HTML一致；保留古代異體及五世而（生）［至］趙夙等校勘符號。造父以下六世與叔帶以下五世不補闕代。",
-          "note": "已讀全121段數位正文及1段附載索隱述贊，後者另層保存；未核古籍影像、可靠底本或現代研究，首輪不是完成覆核。"
-        }
-      }
+      "chapter_ref": "data/corpus/shiji/043.json"
     },
     {
       "chapter_id": "c-shiji-079-fancai",
       "work_id": "w-shiji",
       "book_id": "b-shiji-079",
       "source_id": "s-shiji-079-fancai",
-      "source": {
-        "title": "史記／卷079",
-        "provider": "維基文庫",
-        "url": "https://zh.wikisource.org/wiki/史記/卷079",
-        "permalink": "https://zh.wikisource.org/w/index.php?title=史記/卷079&oldid=2549307",
-        "revision_id": 2549307,
-        "accessed_on": "2026-10-09",
-        "extent": "35段正文，自范睢者至太史公論贊；排除人物導覽、索隱述贊及現代版權告示。",
-        "image_verified": false,
-        "rights": "古代原文；數位轉錄依維基文庫CC BY-SA 4.0，保留署名及固定版本。",
-        "license_url": "https://creativecommons.org/licenses/by-sa/4.0/",
-        "normalization": {
-          "character_conversion": {},
-          "editorial_readings": [
-            {
-              "paragraph_id": "c-shiji-079-fancai:p032",
-              "witness_form": "（止）［足］",
-              "body_reading": "止",
-              "note": "數位改讀提示另存，正文保留改讀前括號內文字，未核底本，不當已校定。"
-            },
-            {
-              "paragraph_id": "c-shiji-079-fancai:p032",
-              "witness_form": "（足）［止］",
-              "body_reading": "足",
-              "note": "數位改讀提示另存，正文保留改讀前括號內文字，未核底本，不當已校定。"
-            }
-          ],
-          "extraction_note": "固定HTML與取得時版本一致，只去外緣空白；第32段止／足兩項數位改讀提示分離，正文保留改讀前原語；睢、厀、檐、繆、甐等原字保留，上書dd引文按原序。",
-          "note": "全35段正文、HTML篇界及姓名首輪已核讀；未核底本影像或現代研究。"
-        }
-      }
+      "chapter_ref": "data/corpus/shiji/079.json"
     },
     {
       "chapter_id": "c-shiji-080-leyi",
       "work_id": "w-shiji",
       "book_id": "b-shiji-080",
       "source_id": "s-shiji-080-leyi",
-      "source": {
-        "title": "史記／卷080",
-        "provider": "維基文庫",
-        "url": "https://zh.wikisource.org/wiki/史記/卷080",
-        "permalink": "https://zh.wikisource.org/w/index.php?title=史記/卷080&oldid=2089316",
-        "revision_id": 2089316,
-        "accessed_on": "2026-10-09",
-        "extent": "20段正文，自樂毅者至太史公論述師承；HTML題頭與評論篇界已核，無索隱述贊混入。",
-        "image_verified": false,
-        "rights": "古代原文；數位轉錄依維基文庫CC BY-SA 4.0，保留署名及固定版本。",
-        "license_url": "https://creativecommons.org/licenses/by-sa/4.0/",
-        "normalization": {
-          "character_conversion": {},
-          "editorial_readings": [],
-          "extraction_note": "固定HTML與取得時版本一致，只去外緣空白；上書dd保持原序，異體不擅校。",
-          "note": "全20段正文、HTML篇界及姓名首輪已核讀；未核底本影像或現代研究。"
-        }
-      }
+      "chapter_ref": "data/corpus/shiji/080.json"
     },
     {
       "chapter_id": "c-shiji-110-xiongnu",
       "work_id": "w-shiji",
       "book_id": "b-shiji-110",
       "source_id": "s-shiji110-xiongnu",
-      "source": {
-        "title": "史記／卷110",
-        "provider": "維基文庫",
-        "url": "https://zh.wikisource.org/wiki/史記/卷110",
-        "permalink": "https://zh.wikisource.org/w/index.php?title=史記/卷110&oldid=8735645",
-        "revision_id": 8735645,
-        "accessed_on": "2026-10-11",
-        "extent": "固定數位見證去介面及現代節標題後61段，末段為太史公論。",
-        "image_verified": false,
-        "rights": "古代原文；數位轉錄依維基文庫CC BY-SA 4.0，保留署名及固定版本。",
-        "license_url": "https://creativecommons.org/licenses/by-sa/4.0/",
-        "normalization": {
-          "character_conversion": {},
-          "editorial_readings": [],
-          "extraction_note": "去 header2 介面及現代單于節標題、太史公曰節標題；移除單字語言轉換包裹與下劃線標籤，紀年 YL 模板保留顯示原詞。其餘原字、標點及段落次序保留，不從小標題補正文人名。",
-          "note": "未核底本影像。"
-        }
-      }
+      "chapter_ref": "data/corpus/shiji/110.json"
     },
     {
       "chapter_id": "c-shiji-130-taishigong",
       "work_id": "w-shiji",
       "book_id": "b-shiji-130",
       "source_id": "s-shiji130-taishigong",
-      "source": {
-        "title": "史記／卷130",
-        "provider": "維基文庫",
-        "url": "https://zh.wikisource.org/wiki/史記/卷130",
-        "permalink": "https://zh.wikisource.org/w/index.php?title=史記/卷130&oldid=2609362",
-        "revision_id": 2609362,
-        "accessed_on": "2026-10-11",
-        "extent": "固定修訂全文143段，全部篇文。",
-        "image_verified": false,
-        "rights": "古代原文；數位轉錄依維基文庫CC BY-SA 4.0，保留署名及固定版本。",
-        "license_url": "https://creativecommons.org/licenses/by-sa/4.0/",
-        "normalization": {
-          "character_conversion": {},
-          "editorial_readings": [],
-          "extraction_note": "去header2及現代節標，移除維基引文縮排冒號，保留原字，未核影像。",
-          "note": "全文入庫不等於全部提及已標註；目錄段落仍待逐段處理。"
-        }
-      }
+      "chapter_ref": "data/corpus/shiji/130.json"
     },
     {
       "chapter_id": "table-chapter-shiji-015",
       "work_id": "w-shiji",
       "book_id": "b-shiji-015",
       "source_id": "table-witness-shiji-015",
-      "source": {
-        "id": "table-witness-shiji-015",
-        "work_id": "w-shiji",
-        "book_id": "b-shiji-015",
-        "chapter_id": "table-chapter-shiji-015",
-        "url": "https://zh.wikisource.org/wiki/史記/卷015",
-        "revision_url": "https://zh.wikisource.org/w/index.php?title=史記/卷015&oldid=2607002",
-        "revision": "2607002",
-        "accessed": "2026-10-12",
-        "response_sha256": "eb0624a019e02c24ce90a40bfa24863f4020878062c6e2efea32355033be5559",
-        "edition": null,
-        "image_verified": false,
-        "rights": "古籍正文公有領域；維基文庫轉錄及編輯內容依 CC BY-SA 條款，署名維基文庫貢獻者。",
-        "rights_url": "https://zh.wikisource.org/wiki/Wikisource:版權信息",
-        "review_status": "agent_first_pass_named_entities",
-        "note": "完整數位表格結構匯入，未逐格學術覆核。未核讀印本影像，原印本頁碼未知。西元欄沿用此數位轉錄的編者對照，不是古籍原有西元紀年，也不引用其維基百科外連。"
-      }
+      "table_source_ref": "shiji-015"
     }
   ],
   "relations": [
@@ -1132,7 +1038,7 @@
           "chapter_id": "c-shiji-043-zhao",
           "source_id": "s-shiji-043-zhao",
           "paragraph_id": "c-shiji-043-zhao:p059",
-          "quote": "二十四年，肅侯卒。秦、楚、燕、齊、魏出鋭師各萬人來會葬。子武靈王立。"
+          "quote_passage_ref": "data/corpus/shiji/043.json"
         }
       ],
       "qualifiers": {
@@ -1153,7 +1059,7 @@
           "chapter_id": "c-shiji-043-zhao",
           "source_id": "s-shiji-043-zhao",
           "paragraph_id": "c-shiji-043-zhao:p082",
-          "quote": "是時王少，成、兌專政，畏誅，故圍主父。主父初以長子章爲太子，後得吳娃，愛之，爲不出者數歳，生子何，乃廢太子章而立何爲王。吳娃死，愛弛，憐故太子，欲兩王之，猶豫未決，故亂起，以至父子倶死，爲天下笑，豈不痛乎！"
+          "quote_passage_ref": "data/corpus/shiji/043.json"
         }
       ],
       "qualifiers": {
@@ -1174,7 +1080,7 @@
           "chapter_id": "c-shiji-043-zhao",
           "source_id": "s-shiji-043-zhao",
           "paragraph_id": "c-shiji-043-zhao:p082",
-          "quote": "是時王少，成、兌專政，畏誅，故圍主父。主父初以長子章爲太子，後得吳娃，愛之，爲不出者數歳，生子何，乃廢太子章而立何爲王。吳娃死，愛弛，憐故太子，欲兩王之，猶豫未決，故亂起，以至父子倶死，爲天下笑，豈不痛乎！"
+          "quote_passage_ref": "data/corpus/shiji/043.json"
         }
       ],
       "qualifiers": {
@@ -1266,7 +1172,7 @@
           "chapter_id": "c-shiji-043-zhao",
           "source_id": "s-shiji-043-zhao",
           "paragraph_id": "c-shiji-043-zhao:p059",
-          "quote": "二十四年，肅侯卒。秦、楚、燕、齊、魏出鋭師各萬人來會葬。子武靈王立。"
+          "quote_passage_ref": "data/corpus/shiji/043.json"
         }
       ],
       "qualifiers": {
@@ -1287,7 +1193,7 @@
           "chapter_id": "c-shiji-043-zhao",
           "source_id": "s-shiji-043-zhao",
           "paragraph_id": "c-shiji-043-zhao:p082",
-          "quote": "是時王少，成、兌專政，畏誅，故圍主父。主父初以長子章爲太子，後得吳娃，愛之，爲不出者數歳，生子何，乃廢太子章而立何爲王。吳娃死，愛弛，憐故太子，欲兩王之，猶豫未決，故亂起，以至父子倶死，爲天下笑，豈不痛乎！"
+          "quote_passage_ref": "data/corpus/shiji/043.json"
         }
       ],
       "qualifiers": {
@@ -1308,7 +1214,7 @@
           "chapter_id": "c-shiji-043-zhao",
           "source_id": "s-shiji-043-zhao",
           "paragraph_id": "c-shiji-043-zhao:p082",
-          "quote": "是時王少，成、兌專政，畏誅，故圍主父。主父初以長子章爲太子，後得吳娃，愛之，爲不出者數歳，生子何，乃廢太子章而立何爲王。吳娃死，愛弛，憐故太子，欲兩王之，猶豫未決，故亂起，以至父子倶死，爲天下笑，豈不痛乎！"
+          "quote_passage_ref": "data/corpus/shiji/043.json"
         }
       ],
       "qualifiers": {
@@ -1332,8 +1238,8 @@
           "chapter_id": "c-shiji-043-zhao",
           "source_id": "s-shiji-043-zhao",
           "paragraph_id": "c-shiji-043-zhao:p081",
-          "quote": "主父及王游沙丘，異宮，公子章卽以其徒與田不禮作亂，詐以主父令召王。肥義先入，殺之。髙信卽與王戰。公子成與李兌自國至，乃起四邑之兵入距難，殺公子章及田不禮，滅其黨賊而定王室。公子成爲相，號安平君，李兌爲司寇。公子章之敗，往走主父，主主開之，成、兌因圍主父宮。公子章死，公子成、李兌謀曰：「以章故圍主父，卽解兵，吾屬夷矣。」乃遂圍主父。令宮中人「後出者夷」，宮中人悉出。主父欲出不得，又不得食，探爵鷇而食之，三月餘而餓死沙丘宮。主父定死，乃發喪赴諸侯。",
-          "person_mention_id": "c-shiji-043-zhao:m081-0000"
+          "person_mention_id": "c-shiji-043-zhao:m081-0000",
+          "quote_passage_ref": "data/corpus/shiji/043.json"
         }
       ],
       "source_term": "三月餘而餓死沙丘宮",

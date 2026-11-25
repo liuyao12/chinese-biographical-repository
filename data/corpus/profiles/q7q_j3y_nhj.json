@@ -20,7 +20,6 @@
       "raw_count": 1,
       "duplicate_count": 0,
       "counting_policy": "independent_fixed_witness_occurrences",
-      "quote": "德聞王愉在江南是太原人乃徃依之愉禮之甚薄因至姑熟投桓𤣥值𤣥簒見輔國將軍張暢言及世事仲德曰自古革命誠非一族然今之起者恐不足以成大事",
       "paragraph_ids": [
         "c-songshu-046-wangyi:p003"
       ],
@@ -44,7 +43,12 @@
       "book_id": "b-songshu-046",
       "chapter_id": "c-songshu-046-wangyi",
       "source_id": "s-songshu-046-wangyi",
-      "work_title": "宋書"
+      "work_title": "宋書",
+      "chapter_ref": "data/corpus/songshu/046-wangyi.json",
+      "quote_span": [
+        62,
+        126
+      ]
     }
   ],
   "table_occurrences": [],
@@ -54,55 +58,14 @@
       "work_id": "w-songshu",
       "book_id": "b-songshu-046",
       "source_id": "s-songshu-046-wangyi",
-      "source": {
-        "title": "宋書／卷四十六／王懿",
-        "provider": "Kanripo WYG",
-        "url": "https://raw.githubusercontent.com/kanripo/KR2a0016/e80c057667e3c8684f11d5088251e10244d5a264/KR2a0016_046.txt",
-        "permalink": "https://raw.githubusercontent.com/kanripo/KR2a0016/e80c057667e3c8684f11d5088251e10244d5a264/KR2a0016_046.txt",
-        "revision_id": "e80c057667e3c8684f11d5088251e10244d5a264",
-        "raw_file_sha256": "9f973762548f2e077297a0621457461bf0749d0bbc81389ec7dc175f0d68e3ef",
-        "raw_path": "sources/songshu/KR2a0016_046-e80c057-identity-reference.txt",
-        "accessed_on": "2026-10-20",
-        "edition": "文淵閣四庫全書數位轉錄；未圖校",
-        "extent": "王懿（王仲德）完整傳主單元，原檔41–104行，至張邵之前；全卷僅此選段。",
-        "text_scope": "partial_chapter",
-        "review_status": "text_checked",
-        "image_verified": false,
-        "license_url": "https://creativecommons.org/publicdomain/mark/1.0/",
-        "rights": "古籍原文；固定Kanripo數位見證",
-        "normalization": {
-          "character_conversion": {},
-          "extraction_note": "去空白、¶與頁標；原字逐字座標保留。全選傳為後補傳世正文，非假定沈約原篇。",
-          "excerpts": []
-        }
-      }
+      "chapter_ref": "data/corpus/songshu/046-wangyi.json"
     },
     {
       "chapter_id": "c-songshu-047-liuhuaisu",
       "work_id": "w-songshu",
       "book_id": "b-songshu-047",
       "source_id": "s-songshu-047-liuhuaisu",
-      "source": {
-        "title": "宋書／卷四十七／劉懷肅及附傳",
-        "provider": "Kanripo WYG",
-        "url": "https://raw.githubusercontent.com/kanripo/KR2a0016/e80c057667e3c8684f11d5088251e10244d5a264/KR2a0016_047.txt",
-        "revision_id": "e80c057667e3c8684f11d5088251e10244d5a264",
-        "raw_file_sha256": "65a0020c6b4d8d37522ce325f0d28bdbec5921125cdd94e3c1f741d90b63e6f6",
-        "edition": "文淵閣四庫全書數位轉錄；未核影像",
-        "extent": "raw13–94，至孟懷玉前；完整選錄單元1535字，不含全卷餘傳及史論。",
-        "text_scope": "partial_chapter",
-        "review_status": "text_checked",
-        "image_verified": false,
-        "normalization": {
-          "character_conversion": {},
-          "extraction_note": "去換行空白、¶與pb頁標；保留子月神、升卿、洛陽符昭、千萬及&KR缺字碼。"
-        },
-        "rights": "古代正文，固定數位見證；保留提供者歸屬。",
-        "permalink": "https://raw.githubusercontent.com/kanripo/KR2a0016/e80c057667e3c8684f11d5088251e10244d5a264/KR2a0016_047.txt",
-        "raw_path": "sources/songshu/KR2a0016_047-e80c057-zhangchang-reference.txt",
-        "accessed_on": "2026-10-20",
-        "license_url": "https://creativecommons.org/publicdomain/mark/1.0/"
-      }
+      "chapter_ref": "data/corpus/songshu/047-liuhuaisu.json"
     }
   ],
   "relations": [],
@@ -157,7 +120,7 @@
           "source_id": "s-songshu-046-wangyi",
           "chapter_id": "c-songshu-046-wangyi",
           "paragraph_id": "c-songshu-046-wangyi:p003",
-          "quote": "晉太元末徙居彭城兄弟名犯晉宣元二帝諱並以字稱叡字元德北土重同姓謂之骨肉有逺來相投者莫不竭力營贍若不至者以為不義不為鄉里所容仲德聞王愉在江南是太原人乃徃依之愉禮之甚薄因至姑熟投桓𤣥值𤣥簒見輔國將軍張暢言及世事仲德曰自古革命誠非一族然今之起者恐不足以成大事"
+          "quote_passage_ref": "data/corpus/songshu/046-wangyi.json"
         }
       ],
       "rationale": "補讀固定宋059完整張暢本傳後，元嘉二十七年彭城／李孝伯事件與046附傳、085相合，支持a16為字少微、邵兄子。059大明元年卒、時年五十，與固定宋001元興二三年桓玄篡／王元德謀襲被誅所繫早輔國張暢場景有死亡年齡反證，首選q7與a16分立；不把約408推算存成原文生年。047江夏相張暢之及孫虨考論轉引只作q7候選，原文未明示異名，不合ID。完整原單元與資格見source-evidence/zhangchang-primary-review/identity-review.json。",
@@ -201,7 +164,7 @@
           "source_id": "s-songshu-047-liuhuaisu",
           "chapter_id": "c-songshu-047-liuhuaisu",
           "paragraph_id": "c-songshu-047-liuhuaisu:p002",
-          "quote": "振武將軍道規追桓𤣥以懷肅為司馬𤣥留何澹之郭銓等戌桑落洲進擊破之潁川太守劉統平除髙平太守𤣥既死從子振大破義軍於楊林義軍退尋陽懷肅與江夏相張暢之攻澹之於西塞破之偽鎮東將軍馮該戍夏口東岸孟山圖據曾山城桓仙客守月壘皆連壁相望懷肅與道規攻之躬擐甲胄䧟二城馮該走石城生擒仙客義熙元年正月振敗走道規遣懷肅平石城斬馮該及其子山靖子月神振復襲江陵荆州刺史司馬休之出奔懷肅自雲杜馳赴日夜兼行七日而至振勒兵三萬旗幟蔽野躍馬横矛躬自突陳流矢傷懷肅頟衆懼欲奔懷肅瞋目奮戰士氣益壯於是士卒争先臨陣斬振首江陵既平休之反鎮執懷肅手曰微子之力吾無所歸矣偽輔國將軍符嗣馬孫偽龍驤將軍金符青樂志等屯結江夏懷肅又討之梟樂志等道規加懷肅督江夏九郡權鎮夏口"
+          "quote_passage_ref": "data/corpus/songshu/047-liuhuaisu.json"
         }
       ],
       "human_reviewed": false,

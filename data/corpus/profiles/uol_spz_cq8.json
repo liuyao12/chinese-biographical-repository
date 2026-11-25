@@ -21,7 +21,6 @@
       "raw_count": 7,
       "duplicate_count": 0,
       "counting_policy": "independent_fixed_witness_occurrences",
-      "quote": "濟北王召臣意診脈諸女子侍者，至女子豎，豎無病。臣意告永巷長曰：「豎傷脾，不可勞，法當春嘔血死。」臣意言王曰：「才人女子豎何能？」王曰：「是好為方，多伎能，為所是案法新，往年市之民所，四百七十萬，曹偶四人。」王曰：「得毋有病乎？」臣意對曰",
       "paragraph_ids": [
         "c-shiji-105-bianque:p026"
       ],
@@ -99,7 +98,12 @@
       "book_id": "b-shiji-105",
       "chapter_id": "c-shiji-105-bianque",
       "source_id": "s-shiji-105-bianque",
-      "work_title": "史記"
+      "work_title": "史記",
+      "chapter_ref": "data/corpus/shiji/105.json",
+      "quote_span": [
+        0,
+        118
+      ]
     }
   ],
   "table_occurrences": [],
@@ -109,24 +113,7 @@
       "work_id": "w-shiji",
       "book_id": "b-shiji-105",
       "source_id": "s-shiji-105-bianque",
-      "source": {
-        "title": "史記／卷105",
-        "provider": "維基文庫",
-        "url": "https://zh.wikisource.org/wiki/史記/卷105",
-        "permalink": "https://zh.wikisource.org/w/index.php?title=史記/卷105&oldid=8842726",
-        "revision_id": 8842726,
-        "accessed_on": "2026-10-10",
-        "extent": "48段正文含太史公論與答詔醫案，1段索隱述贊及3段見證附載正義。",
-        "image_verified": false,
-        "rights": "古代原文；數位轉錄依維基文庫CC BY-SA 4.0，保留署名及固定版本。",
-        "license_url": "https://creativecommons.org/licenses/by-sa/4.0/",
-        "normalization": {
-          "character_conversion": {},
-          "editorial_readings": [],
-          "extraction_note": "去標題與介面模板，原字、標點及段落次序保留。",
-          "note": "未核底本影像。"
-        }
-      }
+      "chapter_ref": "data/corpus/shiji/105.json"
     }
   ],
   "relations": [],
@@ -155,8 +142,8 @@
           "chapter_id": "c-shiji-105-bianque",
           "source_id": "s-shiji-105-bianque",
           "paragraph_id": "c-shiji-105-bianque:p026",
-          "quote": "濟北王召臣意診脈諸女子侍者，至女子豎，豎無病。臣意告永巷長曰：「豎傷脾，不可勞，法當春嘔血死。」臣意言王曰：「才人女子豎何能？」王曰：「是好為方，多伎能，為所是案法新，往年市之民所，四百七十萬，曹偶四人。」王曰：「得毋有病乎？」臣意對曰：「豎病重，在死法中。」王召視之，其顏色不變，以為不然，不賣諸侯所。至春，豎奉劍從王之廁，王去，豎後，王令人召之，即仆於廁，嘔血死。病得之流汗。流汗者，（同）法病內重，毛髮而色澤，脈不衰，此亦（關）內［關］之病也。",
-          "person_mention_id": "c-shiji-105-bianque:m026-0032"
+          "person_mention_id": "c-shiji-105-bianque:m026-0032",
+          "quote_passage_ref": "data/corpus/shiji/105.json"
         }
       ],
       "interpretation_note": "保存來源所敘實際死亡，不把預期病程或醫理泛論當死亡；未明年不推卒年，不由死亡自動終止全部官爵。 未核書影。",

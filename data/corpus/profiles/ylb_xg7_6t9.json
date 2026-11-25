@@ -22,7 +22,7 @@
           "chapter_id": "c-shiji-090-wei",
           "source_id": "s-shiji-090-wei",
           "paragraph_id": "c-shiji-090-wei:p011",
-          "quote": "十年秋，陳豨反代地，高帝自往擊，至邯鄲，徵兵梁王。梁王稱病，使將將兵詣邯鄲。高帝怒，使人讓梁王。梁王恐，欲自往謝。其將扈輒曰：「王始不往，見讓而往，往則為禽矣。不如遂發兵反。」梁王不聽，稱病。梁王怒其太仆，欲斬之。太仆亡走漢，告梁王與扈輒謀反。於是上使使掩梁王，梁王不覺，捕梁王，囚之雒陽。有司治反形己具，請論如法。上赦以為庶人，傳處蜀青衣。西至鄭，逢呂后從長安來，欲之雒陽，道見彭王。彭王為呂后泣涕，自言無罪，願處故昌邑。呂后許諾，與俱東至雒陽。呂后白上曰：「彭王壯士，今徙之蜀，此自遺患，不如遂誅之。妾謹與俱來。」於是呂后乃令其舍人告彭越復謀反。廷尉王恬開奏請族之。上乃可，遂夷越宗族，國除。"
+          "quote_passage_ref": "data/corpus/shiji/090.json"
         }
       ],
       "attestations": [
@@ -64,7 +64,7 @@
           "chapter_id": "c-shiji-102-zhangfeng",
           "source_id": "s-shiji-102-zhangfeng",
           "paragraph_id": "c-shiji-102-zhangfeng:p007",
-          "quote": "其後有人盜高廟坐前玉環，捕得，文帝怒，下廷尉治。釋之案律盜宗廟服御物者爲奏，奏當棄市。上大怒曰：「人之無道，乃盜先帝廟器，吾屬廷尉者，欲致之族，而君以法奏之，非吾所以共承宗廟意也。」釋之免冠頓首謝曰：「法如是足也。且罪等，然以逆順爲差。今盜宗廟器而族之，有如萬分之一，假令愚民取長陵一抔土，陛下何以加其法乎？」久之，文帝與太后言之，乃許廷尉當。是時，中尉條侯周亞夫與梁相山都侯王恬開見釋之持議平，乃結爲親友。張廷尉由此天下稱之。"
+          "quote_passage_ref": "data/corpus/shiji/102.json"
         }
       ],
       "attestations": [
@@ -106,7 +106,7 @@
           "chapter_id": "c-shiji-102-zhangfeng",
           "source_id": "s-shiji-102-zhangfeng",
           "paragraph_id": "c-shiji-102-zhangfeng:p007",
-          "quote": "其後有人盜高廟坐前玉環，捕得，文帝怒，下廷尉治。釋之案律盜宗廟服御物者爲奏，奏當棄市。上大怒曰：「人之無道，乃盜先帝廟器，吾屬廷尉者，欲致之族，而君以法奏之，非吾所以共承宗廟意也。」釋之免冠頓首謝曰：「法如是足也。且罪等，然以逆順爲差。今盜宗廟器而族之，有如萬分之一，假令愚民取長陵一抔土，陛下何以加其法乎？」久之，文帝與太后言之，乃許廷尉當。是時，中尉條侯周亞夫與梁相山都侯王恬開見釋之持議平，乃結爲親友。張廷尉由此天下稱之。"
+          "quote_passage_ref": "data/corpus/shiji/102.json"
         }
       ],
       "attestations": [
@@ -148,7 +148,6 @@
       "raw_count": 1,
       "duplicate_count": 0,
       "counting_policy": "independent_fixed_witness_occurrences",
-      "quote": "自遺患，不如遂誅之。妾謹與俱來。」於是呂后乃令其舍人告彭越復謀反。廷尉王恬開奏請族之。上乃可，遂夷越宗族，國除。",
       "paragraph_ids": [
         "c-shiji-090-wei:p011"
       ],
@@ -172,7 +171,12 @@
       "book_id": "b-shiji-090",
       "chapter_id": "c-shiji-090-wei",
       "source_id": "s-shiji-090-wei",
-      "work_title": "史記"
+      "work_title": "史記",
+      "chapter_ref": "data/corpus/shiji/090.json",
+      "quote_span": [
+        242,
+        298
+      ]
     },
     {
       "number": 102,
@@ -183,7 +187,6 @@
       "raw_count": 1,
       "duplicate_count": 0,
       "counting_policy": "independent_fixed_witness_occurrences",
-      "quote": "其法乎？」久之，文帝與太后言之，乃許廷尉當。是時，中尉條侯周亞夫與梁相山都侯王恬開見釋之持議平，乃結爲親友。張廷尉由此天下稱之。",
       "paragraph_ids": [
         "c-shiji-102-zhangfeng:p007"
       ],
@@ -207,7 +210,12 @@
       "book_id": "b-shiji-102",
       "chapter_id": "c-shiji-102-zhangfeng",
       "source_id": "s-shiji-102-zhangfeng",
-      "work_title": "史記"
+      "work_title": "史記",
+      "chapter_ref": "data/corpus/shiji/102.json",
+      "quote_span": [
+        150,
+        214
+      ]
     }
   ],
   "table_occurrences": [],
@@ -217,50 +225,14 @@
       "work_id": "w-shiji",
       "book_id": "b-shiji-090",
       "source_id": "s-shiji-090-wei",
-      "source": {
-        "title": "史記／卷090",
-        "provider": "維基文庫",
-        "url": "https://zh.wikisource.org/wiki/史記/卷090",
-        "permalink": "https://zh.wikisource.org/w/index.php?title=史記/卷090&oldid=376055",
-        "revision_id": 376055,
-        "accessed_on": "2026-10-09",
-        "extent": "12段正文含太史公論，另附1段witness_appended_suoyin_zan，排除導覽與空白段。",
-        "image_verified": false,
-        "rights": "古代原文；數位轉錄依維基文庫CC BY-SA 4.0，保留署名及固定版本。",
-        "license_url": "https://creativecommons.org/licenses/by-sa/4.0/",
-        "normalization": {
-          "character_conversion": {},
-          "editorial_readings": [],
-          "extraction_note": "固定HTML與取得時版本一致，只去外緣空白；后、碧陵、形己具、太仆及（五年）原字與括號保留。",
-          "note": "15個HTML區塊已讀並核篇界，未核底本影像。"
-        }
-      }
+      "chapter_ref": "data/corpus/shiji/090.json"
     },
     {
       "chapter_id": "c-shiji-102-zhangfeng",
       "work_id": "w-shiji",
       "book_id": "b-shiji-102",
       "source_id": "s-shiji-102-zhangfeng",
-      "source": {
-        "title": "史記／卷102",
-        "provider": "維基文庫",
-        "url": "https://zh.wikisource.org/wiki/史記/卷102",
-        "permalink": "https://zh.wikisource.org/w/index.php?title=史記/卷102&oldid=1753957",
-        "revision_id": 1753957,
-        "accessed_on": "2026-10-10",
-        "extent": "14段正文含太史公論，另1段索隱。",
-        "image_verified": false,
-        "rights": "古代原文；數位轉錄依維基文庫CC BY-SA 4.0，保留署名及固定版本。",
-        "license_url": "https://creativecommons.org/licenses/by-sa/4.0/",
-        "normalization": {
-          "character_conversion": {
-            "释": "釋"
-          },
-          "editorial_readings": [],
-          "extraction_note": "只去外緣空白，明記一處释轉釋；爲、歳、斅、韤、郄、袪及官（卒）［率］將、［出］保留。",
-          "note": "已核讀15段數位正文，未核底本影像。"
-        }
-      }
+      "chapter_ref": "data/corpus/shiji/102.json"
     }
   ],
   "relations": [],

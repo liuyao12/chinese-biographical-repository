@@ -1,4 +1,5 @@
-import copy,json,shutil,tempfile,unittest
+from scripts.corpus_overlay import edited_inputs
+import copy,json,unittest
 from pathlib import Path
 from scripts.validate_corpus import validate
 from scripts.person_bundle import bundle
@@ -12,8 +13,7 @@ class ChaoxianAttestedLocations(unittest.TestCase):
  def test_person_bundle_keeps_capital_separate_from_individual_residence(self):
   a=bundle('f41_ulg_3u1',R)['address_assertions'];capital=next(x for x in a if x['relation']=='capital_location');self.assertEqual(capital['source_term'],'都王險');self.assertEqual(capital['qualifiers'],{'seat_kind':'royal_capital','source_action':'都'});self.assertFalse(any(x['relation']=='residence'and x['place']['source_name']=='王險'for x in a))
  def test_capital_without_attested_action_or_with_residence_scope_is_rejected(self):
-  with tempfile.TemporaryDirectory()as temp:
-   root=Path(temp)
-   for name in ['registry','corpus']:shutil.copytree(R/name,root/name)
+  with edited_inputs(R):
+   root=R
    p=root/'corpus/shiji/115-addresses.json';d=json.loads(p.read_text());d['assertions'][2]['qualifiers']['seat_kind']='individual_residence';p.write_text(json.dumps(d,ensure_ascii=False));self.assertIn('王都須有都與原地名，不得當籍貫或個人居所',validate(root))
 if __name__=='__main__':unittest.main()

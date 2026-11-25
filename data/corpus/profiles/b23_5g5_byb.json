@@ -20,7 +20,6 @@
       "raw_count": 1,
       "duplicate_count": 0,
       "counting_policy": "independent_fixed_witness_occurrences",
-      "quote": "召公、周公二相行政，號曰「共和」。共和十四年，厲王死于彘。太子靜長於召公家，二相乃共立之為王，是為宣王。宣王即位，二相輔之，修政，法文、武、成、康之遺風，諸侯復宗周。十二年，魯武公來朝。",
       "paragraph_ids": [
         "c-shiji-004-zhou:p036"
       ],
@@ -44,7 +43,12 @@
       "book_id": "b-shiji-004",
       "chapter_id": "c-shiji-004-zhou",
       "source_id": "s-shiji-004-zhou",
-      "work_title": "史記"
+      "work_title": "史記",
+      "chapter_ref": "data/corpus/shiji/004.json",
+      "quote_span": [
+        0,
+        93
+      ]
     }
   ],
   "table_occurrences": [],
@@ -54,60 +58,7 @@
       "work_id": "w-shiji",
       "book_id": "b-shiji-004",
       "source_id": "s-shiji-004-zhou",
-      "source": {
-        "title": "史記／卷004",
-        "provider": "維基文庫",
-        "url": "https://zh.wikisource.org/wiki/史記/卷004",
-        "permalink": "https://zh.wikisource.org/w/index.php?title=史記/卷004&oldid=7909147",
-        "revision_id": 7909147,
-        "accessed_on": "2026-10-09",
-        "extent": "正文全文；排除註釋版導覽、現代節標題與註號；行內校勘標記另存。",
-        "image_verified": false,
-        "rights": "古代原文；數位轉錄依維基文庫 CC BY-SA 4.0，保留署名及固定版本。",
-        "license_url": "https://creativecommons.org/licenses/by-sa/4.0/",
-        "normalization": {
-          "character_conversion": {},
-          "editorial_readings": [
-            {
-              "paragraph_id": "c-shiji-004-zhou:p017",
-              "witness_form": "［左］",
-              "body_reading": "",
-              "note": "數位見證行內校勘標記另存；有兩讀時正文保存改讀前的字，不宣稱已完成校勘。"
-            },
-            {
-              "paragraph_id": "c-shiji-004-zhou:p039",
-              "witness_form": "（又作湦）",
-              "body_reading": "",
-              "note": "數位見證行內校勘標記另存；有兩讀時正文保存改讀前的字，不宣稱已完成校勘。"
-            },
-            {
-              "paragraph_id": "c-shiji-004-zhou:p074",
-              "witness_form": "（賀）［資］",
-              "body_reading": "賀",
-              "note": "數位見證行內校勘標記另存；有兩讀時正文保存改讀前的字，不宣稱已完成校勘。"
-            },
-            {
-              "paragraph_id": "c-shiji-004-zhou:p082",
-              "witness_form": "（最）［聚］",
-              "body_reading": "最",
-              "note": "數位見證行內校勘標記另存；有兩讀時正文保存改讀前的字，不宣稱已完成校勘。"
-            },
-            {
-              "paragraph_id": "c-shiji-004-zhou:p085",
-              "witness_form": "（西）",
-              "body_reading": "",
-              "note": "數位見證行內校勘標記另存；有兩讀時正文保存改讀前的字，不宣稱已完成校勘。"
-            },
-            {
-              "paragraph_id": "c-shiji-004-zhou:p086",
-              "witness_form": "（我）［於］",
-              "body_reading": "我",
-              "note": "數位見證行內校勘標記另存；有兩讀時正文保存改讀前的字，不宣稱已完成校勘。"
-            }
-          ],
-          "note": "有成對改讀標記時正文保留改讀前的字；校勘符號與異讀另存，不稱已核讀底本。保留古代異體與數位見證的疑讀。"
-        }
-      }
+      "chapter_ref": "data/corpus/shiji/004.json"
     }
   ],
   "relations": [],
@@ -129,27 +80,27 @@
       "evidence": [
         {
           "paragraph_id": "c-shiji-004-zhou:p023",
-          "quote": "成王在豐，使召公復營洛邑，如武王之意。周公復卜申視，卒營筑，居九鼎焉。曰：「此天下之中，四方入貢道里均。」作《召誥》、《洛誥》。成王既遷殷遺民，周公以王命告，作《多士》、《無佚》。召公為保，周公為師，東伐淮夷，殘奄，遷其君薄泵。成王自奄歸，在宗周，作《多方》。既絀殷命，襲淮夷，歸在豐，作《周官》。興正禮樂，度制於是改，而民和睦，頌聲興。成王既伐東夷，息慎來賀，王賜榮伯作《賄息慎之命》。",
           "chapter_id": "c-shiji-004-zhou",
           "work_id": "w-shiji",
           "book_id": "b-shiji-004",
-          "source_id": "s-shiji-004-zhou"
+          "source_id": "s-shiji-004-zhou",
+          "quote_passage_ref": "data/corpus/shiji/004.json"
         },
         {
           "paragraph_id": "c-shiji-004-zhou:p036",
-          "quote": "召公、周公二相行政，號曰「共和」。共和十四年，厲王死于彘。太子靜長於召公家，二相乃共立之為王，是為宣王。宣王即位，二相輔之，修政，法文、武、成、康之遺風，諸侯復宗周。十二年，魯武公來朝。",
           "chapter_id": "c-shiji-004-zhou",
           "work_id": "w-shiji",
           "book_id": "b-shiji-004",
-          "source_id": "s-shiji-004-zhou"
+          "source_id": "s-shiji-004-zhou",
+          "quote_passage_ref": "data/corpus/shiji/004.json"
         },
         {
           "paragraph_id": "c-shiji-004-zhou:p047",
-          "quote": "二十三年，桓王崩，子莊王佗立。莊王四年，周公黑肩欲殺莊王而立王子克。辛伯告王，王殺周公。王子克奔燕。",
           "chapter_id": "c-shiji-004-zhou",
           "work_id": "w-shiji",
           "book_id": "b-shiji-004",
-          "source_id": "s-shiji-004-zhou"
+          "source_id": "s-shiji-004-zhou",
+          "quote_passage_ref": "data/corpus/shiji/004.json"
         }
       ],
       "rationale": "成王、共和與莊王時的周公分別登記；官稱相同不足以合併。",

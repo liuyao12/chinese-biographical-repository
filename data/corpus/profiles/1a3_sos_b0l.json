@@ -21,7 +21,6 @@
       "raw_count": 5,
       "duplicate_count": 0,
       "counting_policy": "independent_fixed_witness_occurrences",
-      "quote": "天子為兩將未有利，乃使衛山因兵威往諭右渠。右渠見使者頓首謝：「願降，恐兩將詐殺臣；今見信節，請服降。」遣太子入謝，獻馬五千匹，及饋軍糧。人眾萬餘，持兵，方渡浿水，使者及左將軍疑其為變，謂太子已服降，宜命人毋持兵。太子亦疑使者左",
       "paragraph_ids": [
         "c-shiji-115-chaoxian:p005",
         "c-shiji-115-chaoxian:p007"
@@ -82,7 +81,12 @@
       "book_id": "b-shiji-115",
       "chapter_id": "c-shiji-115-chaoxian",
       "source_id": "s-shiji115-chaoxian",
-      "work_title": "史記"
+      "work_title": "史記",
+      "chapter_ref": "data/corpus/shiji/115.json",
+      "quote_span": [
+        0,
+        113
+      ]
     }
   ],
   "table_occurrences": [],
@@ -92,24 +96,7 @@
       "work_id": "w-shiji",
       "book_id": "b-shiji-115",
       "source_id": "s-shiji115-chaoxian",
-      "source": {
-        "title": "史記／卷115",
-        "provider": "維基文庫",
-        "url": "https://zh.wikisource.org/wiki/史記/卷115",
-        "permalink": "https://zh.wikisource.org/w/index.php?title=史記/卷115&oldid=439220",
-        "revision_id": 439220,
-        "accessed_on": "2026-10-11",
-        "extent": "固定數位見證10段正文，沒有索隱述贊。",
-        "image_verified": false,
-        "rights": "古代原文；數位轉錄依維基文庫CC BY-SA 4.0，保留署名及固定版本。",
-        "license_url": "https://creativecommons.org/licenses/by-sa/4.0/",
-        "normalization": {
-          "character_conversion": {},
-          "editorial_readings": [],
-          "extraction_note": "去header2與分類標籤，移除后字防轉換外殼，保留正文及括號校記，未核底本影像。",
-          "note": "太史公曰仍屬正文，未補此見證未載的索隱述贊。"
-        }
-      }
+      "chapter_ref": "data/corpus/shiji/115.json"
     }
   ],
   "relations": [],
@@ -135,8 +122,8 @@
           "chapter_id": "c-shiji-115-chaoxian",
           "source_id": "s-shiji115-chaoxian",
           "paragraph_id": "c-shiji-115-chaoxian:p005",
-          "quote": "天子為兩將未有利，乃使衛山因兵威往諭右渠。右渠見使者頓首謝：「願降，恐兩將詐殺臣；今見信節，請服降。」遣太子入謝，獻馬五千匹，及饋軍糧。人眾萬餘，持兵，方渡浿水，使者及左將軍疑其為變，謂太子已服降，宜命人毋持兵。太子亦疑使者左將軍詐殺之，遂不渡浿水，復引歸。山還報天子，天子誅山。",
-          "person_mention_id": "c-shiji-115-chaoxian:m005-0011"
+          "person_mention_id": "c-shiji-115-chaoxian:m005-0011",
+          "quote_passage_ref": "data/corpus/shiji/115.json"
         }
       ],
       "interpretation_note": "依原文明示殺、斬、誅、道死或棄市；未知跨段紀年不補。楊仆贖為庶人不是死亡，死亡不自動終止全部稱號。",

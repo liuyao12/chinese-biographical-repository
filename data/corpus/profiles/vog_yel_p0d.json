@@ -23,7 +23,7 @@
           "chapter_id": "c-shiji-068-shang",
           "source_id": "s-shiji-068-shang",
           "paragraph_id": "c-shiji-068-shang:p001",
-          "quote": "商君者，衛之諸庶孽公子也，名鞅，姓公孫氏，其祖本姬姓也。鞅少好刑名之學，事魏相公叔座為中庶子。公叔座知其賢，未及進。會座病，魏惠王親往問病，曰：「公叔病有如不可諱，將奈社稷何？」公叔曰：「座之中庶子公孫鞅，年雖少，有奇才，願王舉國而聽之。」王嘿然。王且去，座屏人言曰：「王即不聽用鞅，必殺之，無令出境。」王許諾而去。公叔座召鞅謝曰：「今者王問可以為相者，我言若，王色不許我。我方先君後臣，因謂王即弗用鞅，當殺之。王許我。汝可疾去矣，且見禽。」鞅曰：「彼王不能用君之言任臣，又安能用君之言殺臣乎？」卒不去。惠王既去，而謂左右曰：「公叔病甚，悲乎，欲令寡人以國聽公孫鞅也，豈不悖哉！」"
+          "quote_passage_ref": "data/corpus/shiji/068.json"
         }
       ],
       "attestations": [
@@ -65,7 +65,6 @@
       "raw_count": 11,
       "duplicate_count": 0,
       "counting_policy": "independent_fixed_witness_occurrences",
-      "quote": "衛之諸庶孽公子也，名鞅，姓公孫氏，其祖本姬姓也。鞅少好刑名之學，事魏相公叔座為中庶子。公叔座知其賢，未及進。會座病，魏惠王親往問病，曰：「公叔病有如不可諱，將奈社稷何？」公叔曰：「座之中庶子公孫鞅，年雖少，有奇才，願王舉國而聽之。」王嘿然。王且去，座屏人言曰：「王即不聽用鞅，",
       "paragraph_ids": [
         "c-shiji-068-shang:p001",
         "c-shiji-068-shang:p002",
@@ -181,7 +180,12 @@
       "book_id": "b-shiji-068",
       "chapter_id": "c-shiji-068-shang",
       "source_id": "s-shiji-068-shang",
-      "work_title": "史記"
+      "work_title": "史記",
+      "chapter_ref": "data/corpus/shiji/068.json",
+      "quote_span": [
+        4,
+        142
+      ]
     }
   ],
   "table_occurrences": [],
@@ -191,24 +195,7 @@
       "work_id": "w-shiji",
       "book_id": "b-shiji-068",
       "source_id": "s-shiji-068-shang",
-      "source": {
-        "title": "史記／卷068",
-        "provider": "維基文庫",
-        "url": "https://zh.wikisource.org/wiki/史記/卷068",
-        "permalink": "https://zh.wikisource.org/w/index.php?title=史記/卷068&oldid=8764712",
-        "revision_id": 8764712,
-        "accessed_on": "2026-10-09",
-        "extent": "11段正文，自商君者至篇末論贊；排除頁首標題及2段導覽、h2索隱述贊以下後附評論、現代版權告示。",
-        "image_verified": false,
-        "rights": "古代原文；數位轉錄依維基文庫CC BY-SA 4.0，保留署名及固定版本。",
-        "license_url": "https://creativecommons.org/licenses/by-sa/4.0/",
-        "normalization": {
-          "character_conversion": {},
-          "editorial_readings": [],
-          "extraction_note": "取得時HTML與固定修訂一致，只去外緣空白；保留厀、朞、筑、（都）等原字及括號。秦封之於、商十五邑照錄，未補字或校定邑名。",
-          "note": "全11段已核讀，人物標註待逐段處理；未核可靠底本、影像或現代研究。"
-        }
-      }
+      "chapter_ref": "data/corpus/shiji/068.json"
     }
   ],
   "relations": [],
@@ -235,8 +222,8 @@
           "chapter_id": "c-shiji-068-shang",
           "source_id": "s-shiji-068-shang",
           "paragraph_id": "c-shiji-068-shang:p002",
-          "quote": "公叔既死，公孫鞅聞秦孝公下令國中求賢者，將修繆公之業，東復侵地，乃遂西入秦，因孝公寵臣景監以求見孝公。孝公既見衛鞅，語事良久，孝公時時睡，弗聽。罷而孝公怒景監曰：「子之客妄人耳，安足用邪！」景監以讓衛鞅。衛鞅曰：「吾說公以帝道，其志不開悟矣。」後五日，復求見鞅。鞅復見孝公，益愈，然而未中旨。罷而孝公復讓景監，景監亦讓鞅。鞅曰：「吾說公以王道而未入也。請復見鞅。」鞅復見孝公，孝公善之而未用也。罷而去。孝公謂景監曰：「汝客善，可與語矣。」鞅曰：「吾說公以霸道，其意欲用之矣。誠復見我，我知之矣。」衛鞅復見孝公。公與語，不自知厀之前於席也。語數日不厭。景監曰：「子何以中吾君？吾君之懽甚也。」鞅曰：「吾說君以帝王之道比三代，而君曰：『久遠，吾不能待。且賢君者，各及其身顯名天下，安能邑邑待數十百年以成帝王乎？』故吾以彊國之術說君，君大說之耳。然亦難以比德於殷周矣。」",
-          "person_mention_id": "c-shiji-068-shang:m002-0000"
+          "person_mention_id": "c-shiji-068-shang:m002-0000",
+          "quote_passage_ref": "data/corpus/shiji/068.json"
         }
       ],
       "interpretation_note": "本段公叔既死承接篇首公叔座，不與他篇未名公叔按同稱合併。日期未明。",

@@ -1,3 +1,4 @@
+import {storedProfile} from './read-stored-profile.mjs';
 import test from 'node:test';
 import assert from 'node:assert/strict';
 import fs from 'node:fs';
@@ -68,7 +69,7 @@ test('English labels switch while Chinese received wording remains untouched',()
  try{setLocale('en');const html=personCard({...person,source_details:details},true);assert.match(html,/Quoted office name · questioned by commentator/);assert.match(html,/Cumulative fief increase/);assert.match(html,/增邑二千六百尸/);}finally{setLocale('zh-Hant');}
 });
 test('actual native Chen Tai profile keeps five details and both Taichang sources visible',()=>{
- const p=JSON.parse(fs.readFileSync(new URL('../data/corpus/profiles/9w8_tqh_ysn_AAA.json',import.meta.url)));const native=JSON.parse(fs.readFileSync(new URL('../corpus/sanguozhi/022-chentai-source-details.json',import.meta.url))).records;const original=JSON.stringify(p);const view={...p,source_details:native};const html=personCard(view,true);assert.equal((html.match(/class="person-source-detail"/g)||[]).length,5);assert.match(html,/本傳泰不為太常/);assert.match(html,/太常陳泰不至/);assert.match(html,/2600尸/);assert.match(html,/職掌見於257–258年間；非任期/);assert.equal(JSON.stringify(p),original);
+ const p=storedProfile(JSON.parse(fs.readFileSync(new URL('../data/corpus/profiles/9w8_tqh_ysn_AAA.json',import.meta.url))));const native=JSON.parse(fs.readFileSync(new URL('../corpus/sanguozhi/022-chentai-source-details.json',import.meta.url))).records;const original=JSON.stringify(p);const view={...p,source_details:native};const html=personCard(view,true);assert.equal((html.match(/class="person-source-detail"/g)||[]).length,5);assert.match(html,/本傳泰不為太常/);assert.match(html,/太常陳泰不至/);assert.match(html,/2600尸/);assert.match(html,/職掌見於257–258年間；非任期/);assert.equal(JSON.stringify(p),original);
 });
 test('loadPerson reads the existing work title index once and enriches a copy, not the raw profile',async()=>{
  const previous=globalThis.fetch,calls=[];const raw={id:'synthetic-loading-ui',label:'合成人',titles:[title]};globalThis.fetch=async url=>{calls.push(url);return {ok:true,json:async()=>url==='data/corpus/work-titles.json'?{schema_version:1,works:[{id:'w-quoted-synthetic',title:'合成引書全題'}]}:raw};};
@@ -107,6 +108,6 @@ test('English career labels change while source titles, original wording and ano
  try{setLocale('en');const d=careerDetail('office_duration',{duration_years:3,unit:'年',linked_holding_id:linkedOffice.id});const html=careerHTML(d);assert.match(html,/Reported service duration: 3 years/);assert.match(html,/Associated office/);assert.match(html,/合成侍中|合成收到原詞/);const grants=careerHTML({...details[4],values:{...details[4].values,recipient_group_source_term:'一子',biological_children_only:false}});assert.match(grants,/一子/);assert.doesNotMatch(grants,/biological|親生/);}finally{setLocale('zh-Hant');}
 });
 test('actual W Lu Yu duration/duty/departure and Lu Zhi recruitment/penalty remain readable with exact source return links',()=>{
- const p=JSON.parse(fs.readFileSync(new URL('../data/corpus/profiles/m8n_ntm_79h_A.json',import.meta.url)));const father=JSON.parse(fs.readFileSync(new URL('../data/corpus/profiles/m8n_ntm_79h.json',import.meta.url)));const before=JSON.stringify([p,father]);const html=sourceDetailsHTML(p),parentHTML=sourceDetailsHTML(father);
+ const p=storedProfile(JSON.parse(fs.readFileSync(new URL('../data/corpus/profiles/m8n_ntm_79h_A.json',import.meta.url))));const father=storedProfile(JSON.parse(fs.readFileSync(new URL('../data/corpus/profiles/m8n_ntm_79h.json',import.meta.url))));const before=JSON.stringify([p,father]);const html=sourceDetailsHTML(p),parentHTML=sourceDetailsHTML(father);
  assert.match(html.replace(/<[^>]*>/g,''),/所屬官稱：侍中/);assert.match(html,/原記任職時長：3年/);assert.match(html.replace(/<[^>]*>/g,''),/所屬官稱：僕射/);assert.match(html,/不表示所有官爵同時終止/);assert.match(parentHTML,/未應徵召|抵罪記載/);assert.match(parentHTML,/以病去官|不應州郡命召|抵罪/);assert.equal(JSON.stringify([p,father]),before);assert.match(html,/person-detail-source-link/);assert.doesNotMatch(html,/null|undefined|NaN|親生/);
 });

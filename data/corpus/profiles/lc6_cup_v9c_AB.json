@@ -26,7 +26,7 @@
           "chapter_id": "c-shiji-004-zhou",
           "source_id": "s-shiji-004-zhou",
           "paragraph_id": "c-shiji-004-zhou:p046",
-          "quote": "桓王三年，鄭莊公朝，桓王不禮。五年，鄭怨，與魯易許田。許田，天子之用事太山田也。八年，魯殺隱公，立桓公。十三年，伐鄭，鄭射傷桓王，桓王去歸。"
+          "quote_passage_ref": "data/corpus/shiji/004.json"
         }
       ],
       "attestations": [
@@ -51,7 +51,7 @@
               "chapter_id": "c-shiji-004-zhou",
               "source_id": "s-shiji-004-zhou",
               "paragraph_id": "c-shiji-004-zhou:p046",
-              "quote": "桓王三年，鄭莊公朝，桓王不禮。五年，鄭怨，與魯易許田。許田，天子之用事太山田也。八年，魯殺隱公，立桓公。十三年，伐鄭，鄭射傷桓王，桓王去歸。"
+              "quote_passage_ref": "data/corpus/shiji/004.json"
             }
           ]
         },
@@ -135,7 +135,7 @@
           "chapter_id": "c-shiji-033-lu",
           "source_id": "s-shiji-033-lu",
           "paragraph_id": "c-shiji-033-lu:p032",
-          "quote": "十一年冬，公子揮諂謂隱公曰：「百姓便君，君其遂立。吾請爲君殺子允，君以我爲相。」隱公曰：「有先君命。吾爲允少，故攝代。今允長矣，吾方營菟裘之地而老焉，以授子允政。」揮懼子允聞而反誅之，乃反譖隱公於子允曰：「隱公欲遂立，去子，子其圖之。請爲子殺隱公。」子允許諾。十一月，隱公祭鐘巫，齊于社圃，館于蒍氏。揮使人殺隱公于蒍氏，而立子允爲君，是爲桓公。"
+          "quote_passage_ref": "data/corpus/shiji/033.json"
         }
       ],
       "attestations": [
@@ -159,7 +159,7 @@
               "chapter_id": "c-shiji-033-lu",
               "source_id": "s-shiji-033-lu",
               "paragraph_id": "c-shiji-033-lu:p032",
-              "quote": "十一年冬，公子揮諂謂隱公曰：「百姓便君，君其遂立。吾請爲君殺子允，君以我爲相。」隱公曰：「有先君命。吾爲允少，故攝代。今允長矣，吾方營菟裘之地而老焉，以授子允政。」揮懼子允聞而反誅之，乃反譖隱公於子允曰：「隱公欲遂立，去子，子其圖之。請爲子殺隱公。」子允許諾。十一月，隱公祭鐘巫，齊于社圃，館于蒍氏。揮使人殺隱公于蒍氏，而立子允爲君，是爲桓公。"
+              "quote_passage_ref": "data/corpus/shiji/033.json"
             }
           ]
         },
@@ -227,7 +227,7 @@
           "chapter_id": "c-shiji-110-xiongnu",
           "source_id": "s-shiji110-xiongnu",
           "paragraph_id": "c-shiji-110-xiongnu:p061",
-          "quote": "孔氏著春秋，隱桓之閒則章，至定哀之際則微，爲其切當世之文而罔褒，忌諱之辭也。世俗之言匈奴者，患其徼一時之權，而務莖讇納其說，以便偏指，不參彼己；將率席中國廣大，氣奮，人主因以決策，是以建功不深。堯雖賢，興事業不成，得禹而九州寧。且欲興聖統，唯在擇任將相哉！唯在擇任將相哉！"
+          "quote_passage_ref": "data/corpus/shiji/110.json"
         }
       ],
       "attestations": [
@@ -275,8 +275,8 @@
           "chapter_id": "c-shiji-033-lu",
           "source_id": "s-shiji-033-lu",
           "paragraph_id": "c-shiji-033-lu:p038",
-          "quote": "十八年春，公將有行，遂與夫人如齊。申繻諫止，公不聽，遂如齊。齊襄公通桓公夫人。公怒夫人，夫人以告齊矦。夏四月丙子，齊襄公饗公，公醉，使公子彭生抱魯桓公，因命彭生摺其脅，公死于車。魯人告于齊曰：『寡君畏君之威，不敢寧居，來修好禮。禮成而不反，無所歸咎，請得彭生除丑於諸矦。』齊人殺彭生以說魯。立太子同，是爲莊公。莊公母夫人因留齊，不敢歸魯。",
-          "person_mention_id": "c-shiji-033-lu:m038-0072"
+          "person_mention_id": "c-shiji-033-lu:m038-0072",
+          "quote_passage_ref": "data/corpus/shiji/033.json"
         }
       ],
       "source_term": "公死于車",
@@ -297,7 +297,6 @@
       "raw_count": 1,
       "duplicate_count": 0,
       "counting_policy": "independent_fixed_witness_occurrences",
-      "quote": "。五年，鄭怨，與魯易許田。許田，天子之用事太山田也。八年，魯殺隱公，立桓公。十三年，伐鄭，鄭射傷桓王，桓王去歸。",
       "paragraph_ids": [
         "c-shiji-004-zhou:p046"
       ],
@@ -321,7 +320,12 @@
       "book_id": "b-shiji-004",
       "chapter_id": "c-shiji-004-zhou",
       "source_id": "s-shiji-004-zhou",
-      "work_title": "史記"
+      "work_title": "史記",
+      "chapter_ref": "data/corpus/shiji/004.json",
+      "quote_span": [
+        14,
+        70
+      ]
     },
     {
       "number": 32,
@@ -332,7 +336,6 @@
       "raw_count": 8,
       "duplicate_count": 0,
       "counting_policy": "independent_fixed_witness_occurrences",
-      "quote": "釐公九年，魯隱公初立。十九年，魯桓公弒其兄隱公而自立為君。",
       "paragraph_ids": [
         "c-shiji-032-qi:p020",
         "c-shiji-032-qi:p025",
@@ -421,7 +424,12 @@
       "book_id": "b-shiji-032",
       "chapter_id": "c-shiji-032-qi",
       "source_id": "s-shiji-032-qi",
-      "work_title": "史記"
+      "work_title": "史記",
+      "chapter_ref": "data/corpus/shiji/032.json",
+      "quote_span": [
+        0,
+        29
+      ]
     },
     {
       "number": 33,
@@ -432,7 +440,6 @@
       "raw_count": 24,
       "duplicate_count": 0,
       "counting_policy": "independent_fixed_witness_occurrences",
-      "quote": "無子，公賤妾聲子生子息。息長，爲娶於宋。宋女至而好，惠公奪而自妻之。生子允。登宋女爲夫人，以允爲太子。及惠公卒，爲允少故，魯人共令息攝政，不言即位。",
       "paragraph_ids": [
         "c-shiji-033-lu:p030",
         "c-shiji-033-lu:p032",
@@ -669,7 +676,12 @@
       "book_id": "b-shiji-033",
       "chapter_id": "c-shiji-033-lu",
       "source_id": "s-shiji-033-lu",
-      "work_title": "史記"
+      "work_title": "史記",
+      "chapter_ref": "data/corpus/shiji/033.json",
+      "quote_span": [
+        7,
+        81
+      ]
     },
     {
       "number": 38,
@@ -680,7 +692,6 @@
       "raw_count": 1,
       "duplicate_count": 0,
       "counting_policy": "independent_fixed_witness_occurrences",
-      "quote": "三十四年，戴公卒，子武公司空立。武公生女爲魯惠公夫人，生魯桓公。十八年，武公卒，子宣公力立。",
       "paragraph_ids": [
         "c-shiji-038-song:p027"
       ],
@@ -704,7 +715,12 @@
       "book_id": "b-shiji-038",
       "chapter_id": "c-shiji-038-song",
       "source_id": "s-shiji-038-song",
-      "work_title": "史記"
+      "work_title": "史記",
+      "chapter_ref": "data/corpus/shiji/038.json",
+      "quote_span": [
+        0,
+        46
+      ]
     },
     {
       "number": 42,
@@ -715,7 +731,6 @@
       "raw_count": 1,
       "duplicate_count": 0,
       "counting_policy": "independent_fixed_witness_occurrences",
-      "quote": "與祭仲謀，召子亹弟公子嬰於陳而立之，是爲鄭子。是歳，齊襄公使彭生醉拉殺魯桓公。",
       "paragraph_ids": [
         "c-shiji-042-zheng:p012"
       ],
@@ -739,7 +754,12 @@
       "book_id": "b-shiji-042",
       "chapter_id": "c-shiji-042-zheng",
       "source_id": "s-shiji-042-zheng",
-      "work_title": "史記"
+      "work_title": "史記",
+      "chapter_ref": "data/corpus/shiji/042.json",
+      "quote_span": [
+        166,
+        205
+      ]
     },
     {
       "number": 110,
@@ -750,7 +770,6 @@
       "raw_count": 1,
       "duplicate_count": 0,
       "counting_policy": "independent_fixed_witness_occurrences",
-      "quote": "孔氏著春秋，隱桓之閒則章，至定哀之際則微，爲其切當世之文而罔褒，忌諱之辭也。世俗之言匈奴者，患其徼一時之權，而務莖讇納其說，以便偏指，不參彼己；將率席中國廣大，氣奮，人主因以決策，是以建功不深。堯雖賢，興事業不成，得",
       "paragraph_ids": [
         "c-shiji-110-xiongnu:p061"
       ],
@@ -774,7 +793,12 @@
       "book_id": "b-shiji-110",
       "chapter_id": "c-shiji-110-xiongnu",
       "source_id": "s-shiji110-xiongnu",
-      "work_title": "史記"
+      "work_title": "史記",
+      "chapter_ref": "data/corpus/shiji/110.json",
+      "quote_span": [
+        0,
+        108
+      ]
     }
   ],
   "table_occurrences": [],
@@ -784,196 +808,42 @@
       "work_id": "w-shiji",
       "book_id": "b-shiji-004",
       "source_id": "s-shiji-004-zhou",
-      "source": {
-        "title": "史記／卷004",
-        "provider": "維基文庫",
-        "url": "https://zh.wikisource.org/wiki/史記/卷004",
-        "permalink": "https://zh.wikisource.org/w/index.php?title=史記/卷004&oldid=7909147",
-        "revision_id": 7909147,
-        "accessed_on": "2026-10-09",
-        "extent": "正文全文；排除註釋版導覽、現代節標題與註號；行內校勘標記另存。",
-        "image_verified": false,
-        "rights": "古代原文；數位轉錄依維基文庫 CC BY-SA 4.0，保留署名及固定版本。",
-        "license_url": "https://creativecommons.org/licenses/by-sa/4.0/",
-        "normalization": {
-          "character_conversion": {},
-          "editorial_readings": [
-            {
-              "paragraph_id": "c-shiji-004-zhou:p017",
-              "witness_form": "［左］",
-              "body_reading": "",
-              "note": "數位見證行內校勘標記另存；有兩讀時正文保存改讀前的字，不宣稱已完成校勘。"
-            },
-            {
-              "paragraph_id": "c-shiji-004-zhou:p039",
-              "witness_form": "（又作湦）",
-              "body_reading": "",
-              "note": "數位見證行內校勘標記另存；有兩讀時正文保存改讀前的字，不宣稱已完成校勘。"
-            },
-            {
-              "paragraph_id": "c-shiji-004-zhou:p074",
-              "witness_form": "（賀）［資］",
-              "body_reading": "賀",
-              "note": "數位見證行內校勘標記另存；有兩讀時正文保存改讀前的字，不宣稱已完成校勘。"
-            },
-            {
-              "paragraph_id": "c-shiji-004-zhou:p082",
-              "witness_form": "（最）［聚］",
-              "body_reading": "最",
-              "note": "數位見證行內校勘標記另存；有兩讀時正文保存改讀前的字，不宣稱已完成校勘。"
-            },
-            {
-              "paragraph_id": "c-shiji-004-zhou:p085",
-              "witness_form": "（西）",
-              "body_reading": "",
-              "note": "數位見證行內校勘標記另存；有兩讀時正文保存改讀前的字，不宣稱已完成校勘。"
-            },
-            {
-              "paragraph_id": "c-shiji-004-zhou:p086",
-              "witness_form": "（我）［於］",
-              "body_reading": "我",
-              "note": "數位見證行內校勘標記另存；有兩讀時正文保存改讀前的字，不宣稱已完成校勘。"
-            }
-          ],
-          "note": "有成對改讀標記時正文保留改讀前的字；校勘符號與異讀另存，不稱已核讀底本。保留古代異體與數位見證的疑讀。"
-        }
-      }
+      "chapter_ref": "data/corpus/shiji/004.json"
     },
     {
       "chapter_id": "c-shiji-032-qi",
       "work_id": "w-shiji",
       "book_id": "b-shiji-032",
       "source_id": "s-shiji-032-qi",
-      "source": {
-        "title": "史記／卷032",
-        "provider": "維基文庫",
-        "url": "https://zh.wikisource.org/wiki/史記/卷032",
-        "permalink": "https://zh.wikisource.org/w/index.php?title=史記/卷032&oldid=445042",
-        "revision_id": 445042,
-        "accessed_on": "2026-10-09",
-        "extent": "正文85個p區塊，自太公望呂尚者至太史公論贊；排除頂部君主摘要、跨站導覽及索隱述贊。",
-        "image_verified": false,
-        "rights": "古代原文；數位轉錄依維基文庫CC BY-SA 4.0，保留署名及固定版本。",
-        "license_url": "https://creativecommons.org/licenses/by-sa/4.0/",
-        "normalization": {
-          "character_conversion": {},
-          "editorial_readings": [],
-          "extraction_note": "保留彨、薄泵、慈母、無忌等原字與姓名，未按熟知讀法改寫。",
-          "note": "固定版本與實讀HTML一致；全85段首輪標註，代詞、版本與身份覆核未完；未核底本、影像或專門研究。"
-        }
-      }
+      "chapter_ref": "data/corpus/shiji/032.json"
     },
     {
       "chapter_id": "c-shiji-033-lu",
       "work_id": "w-shiji",
       "book_id": "b-shiji-033",
       "source_id": "s-shiji-033-lu",
-      "source": {
-        "title": "史記／魯周公世家",
-        "provider": "維基文庫",
-        "url": "https://zh.wikisource.org/wiki/史記/魯周公世家",
-        "permalink": "https://zh.wikisource.org/w/index.php?title=史記/魯周公世家&oldid=7909289",
-        "revision_id": 7909289,
-        "accessed_on": "2026-10-09",
-        "extent": "正文102個p區塊，自周公旦者至太史公論贊；排除導覽dd、現代版權告示及轉向頁。",
-        "image_verified": false,
-        "rights": "古代原文；數位轉錄依維基文庫CC BY-SA 4.0，保留署名及固定版本。",
-        "license_url": "https://creativecommons.org/licenses/by-sa/4.0/",
-        "normalization": {
-          "character_conversion": {
-            "笔": "筆",
-            "鸮": "鴞",
-            "龂": "齗",
-            "龁": "齕"
-          },
-          "editorial_readings": [],
-          "extraction_note": "卷033頁為轉向（版本2180467），實讀目標魯周公世家版本7909289。保留矦、歬、髙、爲等異體及校勘符號。",
-          "note": "固定正文與實讀HTML一致。筆昔疑讀未改作其他字；真公記事接武公九年，未補中間文字或武公名。全102段首輪，未核影像、底本及現代研究。"
-        }
-      }
+      "chapter_ref": "data/corpus/shiji/033.json"
     },
     {
       "chapter_id": "c-shiji-038-song",
       "work_id": "w-shiji",
       "book_id": "b-shiji-038",
       "source_id": "s-shiji-038-song",
-      "source": {
-        "title": "史記／卷038",
-        "provider": "維基文庫",
-        "url": "https://zh.wikisource.org/wiki/史記/卷038",
-        "permalink": "https://zh.wikisource.org/w/index.php?title=史記/卷038&oldid=8737306",
-        "revision_id": 8737306,
-        "accessed_on": "2026-10-09",
-        "extent": "59段正文，自微子開至太史公論贊；排除2個dd導覽、正文邊界空白、末端空p與現代版權模板。本見證未見索隱述贊。",
-        "image_verified": false,
-        "rights": "古代原文；數位轉錄依維基文庫CC BY-SA 4.0，保留署名及固定版本。",
-        "license_url": "https://creativecommons.org/licenses/by-sa/4.0/",
-        "normalization": {
-          "character_conversion": {},
-          "editorial_readings": [
-            {
-              "paragraph_id": "c-shiji-038-song:p001",
-              "witness_note": "〈避漢景帝諱啓，改啓爲開〉",
-              "treatment": "數位見證的避諱說明另存，不作古文或景帝在場人物。"
-            },
-            {
-              "paragraph_id": "c-shiji-038-song:p050",
-              "witness_note": "傳世本「戌」作「成」；數位註釋援引公羊傳及鐘銘主張成為訛字。",
-              "treatment": "移除HTML sup reference註號[1]，正文保留本版戌；註者身份及所引古籍、鐘銘尚未獨立核讀，不直接採為校定。"
-            }
-          ],
-          "extraction_note": "固定版本與實讀HTML一致；只去除段落首尾版面換行、開篇明示數位避諱說明及第50段HTML reference註號。保留段內標點、古字、戌、鮑革、唐山、褍秦、頭曼及（鄭）［楚］命（楚）［鄭］的行內校勘。",
-          "note": "未核可靠古籍底本及影像，古代原紀年、世系與數位見證讀法保留；不以版本註釋或後世研究直接重指人物。"
-        }
-      }
+      "chapter_ref": "data/corpus/shiji/038.json"
     },
     {
       "chapter_id": "c-shiji-042-zheng",
       "work_id": "w-shiji",
       "book_id": "b-shiji-042",
       "source_id": "s-shiji-042-zheng",
-      "source": {
-        "title": "史記／卷042",
-        "provider": "維基文庫",
-        "url": "https://zh.wikisource.org/wiki/史記/卷042",
-        "permalink": "https://zh.wikisource.org/w/index.php?title=史記/卷042&oldid=2016409",
-        "revision_id": 2016409,
-        "accessed_on": "2026-10-09",
-        "extent": "59段正文及1段分層索隱述贊；排除2個dd導覽，只去除段落外緣空白。",
-        "image_verified": false,
-        "rights": "古代原文；數位轉錄依維基文庫CC BY-SA 4.0，保留署名及固定版本。",
-        "license_url": "https://creativecommons.org/licenses/by-sa/4.0/",
-        "normalization": {
-          "character_conversion": {},
-          "editorial_readings": [],
-          "extraction_note": "固定修訂與取得時HTML一致；保留古代異體、九月（辛）［丁］亥等校勘符號及溉逐、掔羊、持兩端等疑讀，不擅選讀法。",
-          "note": "全60段數位正文已閱讀；未核古籍影像、可靠底本及現代研究。"
-        }
-      }
+      "chapter_ref": "data/corpus/shiji/042.json"
     },
     {
       "chapter_id": "c-shiji-110-xiongnu",
       "work_id": "w-shiji",
       "book_id": "b-shiji-110",
       "source_id": "s-shiji110-xiongnu",
-      "source": {
-        "title": "史記／卷110",
-        "provider": "維基文庫",
-        "url": "https://zh.wikisource.org/wiki/史記/卷110",
-        "permalink": "https://zh.wikisource.org/w/index.php?title=史記/卷110&oldid=8735645",
-        "revision_id": 8735645,
-        "accessed_on": "2026-10-11",
-        "extent": "固定數位見證去介面及現代節標題後61段，末段為太史公論。",
-        "image_verified": false,
-        "rights": "古代原文；數位轉錄依維基文庫CC BY-SA 4.0，保留署名及固定版本。",
-        "license_url": "https://creativecommons.org/licenses/by-sa/4.0/",
-        "normalization": {
-          "character_conversion": {},
-          "editorial_readings": [],
-          "extraction_note": "去 header2 介面及現代單于節標題、太史公曰節標題；移除單字語言轉換包裹與下劃線標籤，紀年 YL 模板保留顯示原詞。其餘原字、標點及段落次序保留，不從小標題補正文人名。",
-          "note": "未核底本影像。"
-        }
-      }
+      "chapter_ref": "data/corpus/shiji/110.json"
     }
   ],
   "relations": [
@@ -988,7 +858,7 @@
           "chapter_id": "c-shiji-032-qi",
           "source_id": "s-shiji-032-qi",
           "paragraph_id": "c-shiji-032-qi:p025",
-          "quote": "四年，魯桓公與夫人如齊。齊襄公故嘗私通魯夫人。魯夫人者，襄公女弟也，自釐公時嫁為魯桓公婦，及桓公來而襄公復通焉。魯桓公知之，怒夫人，夫人以告齊襄公。齊襄公與魯君飲，醉之，使力士彭生抱上魯君車，因拉殺魯桓公，桓公下車則死矣。魯人以為讓，而齊襄公殺彭生以謝魯。"
+          "quote_passage_ref": "data/corpus/shiji/032.json"
         }
       ],
       "qualifiers": {
@@ -1009,7 +879,7 @@
           "chapter_id": "c-shiji-033-lu",
           "source_id": "s-shiji-033-lu",
           "paragraph_id": "c-shiji-033-lu:p030",
-          "quote": "初，惠公適夫人無子，公賤妾聲子生子息。息長，爲娶於宋。宋女至而好，惠公奪而自妻之。生子允。登宋女爲夫人，以允爲太子。及惠公卒，爲允少故，魯人共令息攝政，不言即位。"
+          "quote_passage_ref": "data/corpus/shiji/033.json"
         }
       ],
       "qualifiers": {
@@ -1030,7 +900,7 @@
           "chapter_id": "c-shiji-033-lu",
           "source_id": "s-shiji-033-lu",
           "paragraph_id": "c-shiji-033-lu:p030",
-          "quote": "初，惠公適夫人無子，公賤妾聲子生子息。息長，爲娶於宋。宋女至而好，惠公奪而自妻之。生子允。登宋女爲夫人，以允爲太子。及惠公卒，爲允少故，魯人共令息攝政，不言即位。"
+          "quote_passage_ref": "data/corpus/shiji/033.json"
         }
       ],
       "qualifiers": {
@@ -1051,7 +921,7 @@
           "chapter_id": "c-shiji-033-lu",
           "source_id": "s-shiji-033-lu",
           "paragraph_id": "c-shiji-033-lu:p038",
-          "quote": "十八年春，公將有行，遂與夫人如齊。申繻諫止，公不聽，遂如齊。齊襄公通桓公夫人。公怒夫人，夫人以告齊矦。夏四月丙子，齊襄公饗公，公醉，使公子彭生抱魯桓公，因命彭生摺其脅，公死于車。魯人告于齊曰：『寡君畏君之威，不敢寧居，來修好禮。禮成而不反，無所歸咎，請得彭生除丑於諸矦。』齊人殺彭生以說魯。立太子同，是爲莊公。莊公母夫人因留齊，不敢歸魯。"
+          "quote_passage_ref": "data/corpus/shiji/033.json"
         }
       ],
       "qualifiers": {
@@ -1072,7 +942,7 @@
           "chapter_id": "c-shiji-033-lu",
           "source_id": "s-shiji-033-lu",
           "paragraph_id": "c-shiji-033-lu:p049",
-          "quote": "季友母陳女，故亡在陳，陳故佐送季友及子申。季友之將生也，父魯桓公使人卜之，曰：『男也，其名曰「友」，閒于兩社，爲公室輔。季友亡，則魯不昌。』及生，有文在掌曰『友』，遂以名之，號爲成季。其後爲季氏，慶父後爲孟氏也。"
+          "quote_passage_ref": "data/corpus/shiji/033.json"
         }
       ],
       "qualifiers": {
@@ -1093,7 +963,7 @@
           "chapter_id": "c-shiji-038-song",
           "source_id": "s-shiji-038-song",
           "paragraph_id": "c-shiji-038-song:p027",
-          "quote": "三十四年，戴公卒，子武公司空立。武公生女爲魯惠公夫人，生魯桓公。十八年，武公卒，子宣公力立。"
+          "quote_passage_ref": "data/corpus/shiji/038.json"
         }
       ],
       "qualifiers": {
@@ -1114,7 +984,7 @@
           "chapter_id": "c-shiji-038-song",
           "source_id": "s-shiji-038-song",
           "paragraph_id": "c-shiji-038-song:p027",
-          "quote": "三十四年，戴公卒，子武公司空立。武公生女爲魯惠公夫人，生魯桓公。十八年，武公卒，子宣公力立。"
+          "quote_passage_ref": "data/corpus/shiji/038.json"
         }
       ],
       "qualifiers": {
@@ -1147,19 +1017,19 @@
       "evidence": [
         {
           "paragraph_id": "c-shiji-033-lu:p038",
-          "quote": "十八年春，公將有行，遂與夫人如齊。申繻諫止，公不聽，遂如齊。齊襄公通桓公夫人。公怒夫人，夫人以告齊矦。夏四月丙子，齊襄公饗公，公醉，使公子彭生抱魯桓公，因命彭生摺其脅，公死于車。魯人告于齊曰：『寡君畏君之威，不敢寧居，來修好禮。禮成而不反，無所歸咎，請得彭生除丑於諸矦。』齊人殺彭生以說魯。立太子同，是爲莊公。莊公母夫人因留齊，不敢歸魯。",
           "chapter_id": "c-shiji-033-lu",
           "work_id": "w-shiji",
           "book_id": "b-shiji-033",
-          "source_id": "s-shiji-033-lu"
+          "source_id": "s-shiji-033-lu",
+          "quote_passage_ref": "data/corpus/shiji/033.json"
         },
         {
           "paragraph_id": "c-shiji-033-lu:p041",
-          "quote": "十三年，魯莊公與曹沬會齊桓公於柯，曹沬劫齊桓公，求魯侵地，已盟而釋桓公。桓公欲背約，管仲諫，卒歸魯侵地。",
           "chapter_id": "c-shiji-033-lu",
           "work_id": "w-shiji",
           "book_id": "b-shiji-033",
-          "source_id": "s-shiji-033-lu"
+          "source_id": "s-shiji-033-lu",
+          "quote_passage_ref": "data/corpus/shiji/033.json"
         }
       ],
       "rationale": "魯桓公在齊襄公饗飲記事被殺；後柯盟齊桓公與魯莊公相會，不能因桓公同字而合併。",
@@ -1175,19 +1045,19 @@
       "evidence": [
         {
           "paragraph_id": "c-shiji-038-song:p027",
-          "quote": "三十四年，戴公卒，子武公司空立。武公生女爲魯惠公夫人，生魯桓公。十八年，武公卒，子宣公力立。",
           "chapter_id": "c-shiji-038-song",
           "work_id": "w-shiji",
           "book_id": "b-shiji-038",
-          "source_id": "s-shiji-038-song"
+          "source_id": "s-shiji-038-song",
+          "quote_passage_ref": "data/corpus/shiji/038.json"
         },
         {
           "paragraph_id": "c-shiji-038-song:p034",
-          "quote": "十年夏，宋伐魯，戰於乘丘，魯生虜宋南宮萬。宋人請萬，萬歸宋。十一年秋，湣公與南宮萬獵，因博爭行，湣公怒，辱之，曰：「始吾敬若；今若，魯虜也。」萬有力，病此言，遂以局殺湣公于蒙澤。大夫仇牧聞之，以兵造公門。萬搏牧，牧齒著門闔死。因殺太宰華督，乃更立公子游爲君。諸公子奔蕭，公子御說奔亳。萬弟南宮牛將兵圍亳。冬，蕭及宋之諸公子共擊殺南宮牛，弒宋新君游而立湣公弟御說，是爲桓公。宋萬奔陳。宋人請以賂陳。陳人使婦人飲之醇酒，以革裹之，歸宋。宋人醢萬也。",
           "chapter_id": "c-shiji-038-song",
           "work_id": "w-shiji",
           "book_id": "b-shiji-038",
-          "source_id": "s-shiji-038-song"
+          "source_id": "s-shiji-038-song",
+          "quote_passage_ref": "data/corpus/shiji/038.json"
         }
       ],
       "rationale": "宋桓公御說與魯桓公不同國君，魯桓母為宋武公女，不據宋女當他本人宋君。",
@@ -1210,7 +1080,7 @@
           "chapter_id": "c-shiji-032-qi",
           "source_id": "s-shiji-032-qi",
           "paragraph_id": "c-shiji-032-qi:p025",
-          "quote": "四年，魯桓公與夫人如齊。齊襄公故嘗私通魯夫人。魯夫人者，襄公女弟也，自釐公時嫁為魯桓公婦，及桓公來而襄公復通焉。魯桓公知之，怒夫人，夫人以告齊襄公。齊襄公與魯君飲，醉之，使力士彭生抱上魯君車，因拉殺魯桓公，桓公下車則死矣。魯人以為讓，而齊襄公殺彭生以謝魯。"
+          "quote_passage_ref": "data/corpus/shiji/032.json"
         }
       ],
       "qualifiers": {
@@ -1231,7 +1101,7 @@
           "chapter_id": "c-shiji-033-lu",
           "source_id": "s-shiji-033-lu",
           "paragraph_id": "c-shiji-033-lu:p030",
-          "quote": "初，惠公適夫人無子，公賤妾聲子生子息。息長，爲娶於宋。宋女至而好，惠公奪而自妻之。生子允。登宋女爲夫人，以允爲太子。及惠公卒，爲允少故，魯人共令息攝政，不言即位。"
+          "quote_passage_ref": "data/corpus/shiji/033.json"
         }
       ],
       "qualifiers": {
@@ -1252,7 +1122,7 @@
           "chapter_id": "c-shiji-033-lu",
           "source_id": "s-shiji-033-lu",
           "paragraph_id": "c-shiji-033-lu:p030",
-          "quote": "初，惠公適夫人無子，公賤妾聲子生子息。息長，爲娶於宋。宋女至而好，惠公奪而自妻之。生子允。登宋女爲夫人，以允爲太子。及惠公卒，爲允少故，魯人共令息攝政，不言即位。"
+          "quote_passage_ref": "data/corpus/shiji/033.json"
         }
       ],
       "qualifiers": {
@@ -1273,7 +1143,7 @@
           "chapter_id": "c-shiji-033-lu",
           "source_id": "s-shiji-033-lu",
           "paragraph_id": "c-shiji-033-lu:p038",
-          "quote": "十八年春，公將有行，遂與夫人如齊。申繻諫止，公不聽，遂如齊。齊襄公通桓公夫人。公怒夫人，夫人以告齊矦。夏四月丙子，齊襄公饗公，公醉，使公子彭生抱魯桓公，因命彭生摺其脅，公死于車。魯人告于齊曰：『寡君畏君之威，不敢寧居，來修好禮。禮成而不反，無所歸咎，請得彭生除丑於諸矦。』齊人殺彭生以說魯。立太子同，是爲莊公。莊公母夫人因留齊，不敢歸魯。"
+          "quote_passage_ref": "data/corpus/shiji/033.json"
         }
       ],
       "qualifiers": {
@@ -1294,7 +1164,7 @@
           "chapter_id": "c-shiji-033-lu",
           "source_id": "s-shiji-033-lu",
           "paragraph_id": "c-shiji-033-lu:p049",
-          "quote": "季友母陳女，故亡在陳，陳故佐送季友及子申。季友之將生也，父魯桓公使人卜之，曰：『男也，其名曰「友」，閒于兩社，爲公室輔。季友亡，則魯不昌。』及生，有文在掌曰『友』，遂以名之，號爲成季。其後爲季氏，慶父後爲孟氏也。"
+          "quote_passage_ref": "data/corpus/shiji/033.json"
         }
       ],
       "qualifiers": {
@@ -1315,7 +1185,7 @@
           "chapter_id": "c-shiji-038-song",
           "source_id": "s-shiji-038-song",
           "paragraph_id": "c-shiji-038-song:p027",
-          "quote": "三十四年，戴公卒，子武公司空立。武公生女爲魯惠公夫人，生魯桓公。十八年，武公卒，子宣公力立。"
+          "quote_passage_ref": "data/corpus/shiji/038.json"
         }
       ],
       "qualifiers": {
@@ -1336,7 +1206,7 @@
           "chapter_id": "c-shiji-038-song",
           "source_id": "s-shiji-038-song",
           "paragraph_id": "c-shiji-038-song:p027",
-          "quote": "三十四年，戴公卒，子武公司空立。武公生女爲魯惠公夫人，生魯桓公。十八年，武公卒，子宣公力立。"
+          "quote_passage_ref": "data/corpus/shiji/038.json"
         }
       ],
       "qualifiers": {
@@ -1360,8 +1230,8 @@
           "chapter_id": "c-shiji-032-qi",
           "source_id": "s-shiji-032-qi",
           "paragraph_id": "c-shiji-032-qi:p025",
-          "quote": "四年，魯桓公與夫人如齊。齊襄公故嘗私通魯夫人。魯夫人者，襄公女弟也，自釐公時嫁為魯桓公婦，及桓公來而襄公復通焉。魯桓公知之，怒夫人，夫人以告齊襄公。齊襄公與魯君飲，醉之，使力士彭生抱上魯君車，因拉殺魯桓公，桓公下車則死矣。魯人以為讓，而齊襄公殺彭生以謝魯。",
-          "person_mention_id": "c-shiji-032-qi:m025-0003"
+          "person_mention_id": "c-shiji-032-qi:m025-0003",
+          "quote_passage_ref": "data/corpus/shiji/032.json"
         }
       ],
       "source_term": "拉殺魯桓公",
@@ -1380,8 +1250,8 @@
           "chapter_id": "c-shiji-033-lu",
           "source_id": "s-shiji-033-lu",
           "paragraph_id": "c-shiji-033-lu:p038",
-          "quote": "十八年春，公將有行，遂與夫人如齊。申繻諫止，公不聽，遂如齊。齊襄公通桓公夫人。公怒夫人，夫人以告齊矦。夏四月丙子，齊襄公饗公，公醉，使公子彭生抱魯桓公，因命彭生摺其脅，公死于車。魯人告于齊曰：『寡君畏君之威，不敢寧居，來修好禮。禮成而不反，無所歸咎，請得彭生除丑於諸矦。』齊人殺彭生以說魯。立太子同，是爲莊公。莊公母夫人因留齊，不敢歸魯。",
-          "person_mention_id": "c-shiji-033-lu:m038-0072"
+          "person_mention_id": "c-shiji-033-lu:m038-0072",
+          "quote_passage_ref": "data/corpus/shiji/033.json"
         }
       ],
       "source_term": "公死于車",
@@ -1400,8 +1270,8 @@
           "chapter_id": "c-shiji-042-zheng",
           "source_id": "s-shiji-042-zheng",
           "paragraph_id": "c-shiji-042-zheng:p012",
-          "quote": "子亹元年七月，齊襄公會諸侯於首止，鄭子亹往會，髙渠彌相，從，祭仲稱疾不行。所以然者，子亹自齊襄公爲公子之時，嘗會鬬，相仇，及會諸侯，祭仲請子亹無行。子亹曰：「齊彊，而厲公居櫟，卽不往，是率諸侯伐我，内厲公。我不如往，往何遽必辱，且又何至是！」卒行。於是祭仲恐齊并殺之，故稱疾。子亹至，不謝齊侯，齊侯怒，遂伏甲而殺子亹。髙渠彌亡歸，歸與祭仲謀，召子亹弟公子嬰於陳而立之，是爲鄭子。是歳，齊襄公使彭生醉拉殺魯桓公。",
-          "person_mention_id": "c-shiji-042-zheng:m012-0201"
+          "person_mention_id": "c-shiji-042-zheng:m012-0201",
+          "quote_passage_ref": "data/corpus/shiji/042.json"
         }
       ],
       "source_term": "使彭生醉拉殺魯桓公",

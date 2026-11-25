@@ -21,7 +21,7 @@
           "chapter_id": "c-shiji-056-chen",
           "source_id": "s-shiji-056-chen",
           "paragraph_id": "c-shiji-056-chen:p026",
-          "quote": "孝文帝二年，丞相陳平卒，諡爲獻侯。子共侯買代侯。二年卒，子簡侯恢代侯。二十三年卒，子何代侯。二十三年，何坐略人妻，棄市，國除。"
+          "quote_passage_ref": "data/corpus/shiji/056.json"
         }
       ],
       "attestations": [
@@ -63,7 +63,7 @@
           "chapter_id": "c-shiji-056-chen",
           "source_id": "s-shiji-056-chen",
           "paragraph_id": "c-shiji-056-chen:p026",
-          "quote": "孝文帝二年，丞相陳平卒，諡爲獻侯。子共侯買代侯。二年卒，子簡侯恢代侯。二十三年卒，子何代侯。二十三年，何坐略人妻，棄市，國除。"
+          "quote_passage_ref": "data/corpus/shiji/056.json"
         }
       ],
       "attestations": [
@@ -87,8 +87,8 @@
               "chapter_id": "c-shiji-056-chen",
               "source_id": "s-shiji-056-chen",
               "paragraph_id": "c-shiji-056-chen:p026",
-              "quote": "孝文帝二年，丞相陳平卒，諡爲獻侯。子共侯買代侯。二年卒，子簡侯恢代侯。二十三年卒，子何代侯。二十三年，何坐略人妻，棄市，國除。",
-              "person_mention_id": "c-shiji-056-chen:m026-0031"
+              "person_mention_id": "c-shiji-056-chen:m026-0031",
+              "quote_passage_ref": "data/corpus/shiji/056.json"
             }
           ]
         },
@@ -111,8 +111,8 @@
             "chapter_id": "c-shiji-056-chen",
             "source_id": "s-shiji-056-chen",
             "paragraph_id": "c-shiji-056-chen:p026",
-            "quote": "孝文帝二年，丞相陳平卒，諡爲獻侯。子共侯買代侯。二年卒，子簡侯恢代侯。二十三年卒，子何代侯。二十三年，何坐略人妻，棄市，國除。",
-            "person_mention_id": "c-shiji-056-chen:m026-0031"
+            "person_mention_id": "c-shiji-056-chen:m026-0031",
+            "quote_passage_ref": "data/corpus/shiji/056.json"
           }
         ],
         "rationale": "本篇明示子與代侯，沿前任曲逆侯及父子承爵鏈解原侯字；不改寫正文，不以共侯或簡侯用稱補未見諡授事件。",
@@ -130,8 +130,8 @@
             "chapter_id": "c-shiji-056-chen",
             "source_id": "s-shiji-056-chen",
             "paragraph_id": "c-shiji-056-chen:p026",
-            "quote": "孝文帝二年，丞相陳平卒，諡爲獻侯。子共侯買代侯。二年卒，子簡侯恢代侯。二十三年卒，子何代侯。二十三年，何坐略人妻，棄市，國除。",
-            "person_mention_id": "c-shiji-056-chen:m026-0031"
+            "person_mention_id": "c-shiji-056-chen:m026-0031",
+            "quote_passage_ref": "data/corpus/shiji/056.json"
           }
         ]
       },
@@ -149,7 +149,6 @@
       "raw_count": 1,
       "duplicate_count": 0,
       "counting_policy": "independent_fixed_witness_occurrences",
-      "quote": "孝文帝二年，丞相陳平卒，諡爲獻侯。子共侯買代侯。二年卒，子簡侯恢代侯。二十三年卒，子何代侯。二十三年，何坐略人妻，棄市，國除。",
       "paragraph_ids": [
         "c-shiji-056-chen:p026"
       ],
@@ -173,7 +172,12 @@
       "book_id": "b-shiji-056",
       "chapter_id": "c-shiji-056-chen",
       "source_id": "s-shiji-056-chen",
-      "work_title": "史記"
+      "work_title": "史記",
+      "chapter_ref": "data/corpus/shiji/056.json",
+      "quote_span": [
+        0,
+        63
+      ]
     }
   ],
   "table_occurrences": [],
@@ -183,24 +187,7 @@
       "work_id": "w-shiji",
       "book_id": "b-shiji-056",
       "source_id": "s-shiji-056-chen",
-      "source": {
-        "title": "史記／卷056",
-        "provider": "維基文庫",
-        "url": "https://zh.wikisource.org/wiki/史記/卷056",
-        "permalink": "https://zh.wikisource.org/w/index.php?title=史記/卷056&oldid=1961615",
-        "revision_id": 1961615,
-        "accessed_on": "2026-10-09",
-        "extent": "28段篇文及1段索隱述贊，無需排除數位欄題。",
-        "image_verified": false,
-        "rights": "古代原文；數位轉錄依維基文庫CC BY-SA 4.0，保留署名及固定版本。",
-        "license_url": "https://creativecommons.org/licenses/by-sa/4.0/",
-        "normalization": {
-          "character_conversion": {},
-          "editorial_readings": [],
-          "extraction_note": "取得時HTML與固定修訂一致，只去外緣空白；保留戸、鄕、爲、渉、衞、歳、説、劎、躶、鍾離眛、共侯與上曰；等原字及符號，索隱標記另分層。",
-          "note": "全29段已讀並作明示人物首輪；未核底本、影像或現代研究。"
-        }
-      }
+      "chapter_ref": "data/corpus/shiji/056.json"
     }
   ],
   "relations": [
@@ -215,7 +202,7 @@
           "chapter_id": "c-shiji-056-chen",
           "source_id": "s-shiji-056-chen",
           "paragraph_id": "c-shiji-056-chen:p026",
-          "quote": "孝文帝二年，丞相陳平卒，諡爲獻侯。子共侯買代侯。二年卒，子簡侯恢代侯。二十三年卒，子何代侯。二十三年，何坐略人妻，棄市，國除。"
+          "quote_passage_ref": "data/corpus/shiji/056.json"
         }
       ],
       "qualifiers": {
@@ -236,7 +223,7 @@
           "chapter_id": "c-shiji-056-chen",
           "source_id": "s-shiji-056-chen",
           "paragraph_id": "c-shiji-056-chen:p026",
-          "quote": "孝文帝二年，丞相陳平卒，諡爲獻侯。子共侯買代侯。二年卒，子簡侯恢代侯。二十三年卒，子何代侯。二十三年，何坐略人妻，棄市，國除。"
+          "quote_passage_ref": "data/corpus/shiji/056.json"
         }
       ],
       "qualifiers": {
@@ -269,7 +256,7 @@
           "chapter_id": "c-shiji-056-chen",
           "source_id": "s-shiji-056-chen",
           "paragraph_id": "c-shiji-056-chen:p026",
-          "quote": "孝文帝二年，丞相陳平卒，諡爲獻侯。子共侯買代侯。二年卒，子簡侯恢代侯。二十三年卒，子何代侯。二十三年，何坐略人妻，棄市，國除。"
+          "quote_passage_ref": "data/corpus/shiji/056.json"
         }
       ],
       "qualifiers": {
@@ -290,7 +277,7 @@
           "chapter_id": "c-shiji-056-chen",
           "source_id": "s-shiji-056-chen",
           "paragraph_id": "c-shiji-056-chen:p026",
-          "quote": "孝文帝二年，丞相陳平卒，諡爲獻侯。子共侯買代侯。二年卒，子簡侯恢代侯。二十三年卒，子何代侯。二十三年，何坐略人妻，棄市，國除。"
+          "quote_passage_ref": "data/corpus/shiji/056.json"
         }
       ],
       "qualifiers": {
@@ -314,8 +301,8 @@
           "chapter_id": "c-shiji-056-chen",
           "source_id": "s-shiji-056-chen",
           "paragraph_id": "c-shiji-056-chen:p026",
-          "quote": "孝文帝二年，丞相陳平卒，諡爲獻侯。子共侯買代侯。二年卒，子簡侯恢代侯。二十三年卒，子何代侯。二十三年，何坐略人妻，棄市，國除。",
-          "person_mention_id": "c-shiji-056-chen:m026-0031"
+          "person_mention_id": "c-shiji-056-chen:m026-0031",
+          "quote_passage_ref": "data/corpus/shiji/056.json"
         }
       ],
       "source_term": "二十三年卒",

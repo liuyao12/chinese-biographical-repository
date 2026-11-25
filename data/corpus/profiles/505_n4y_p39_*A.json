@@ -21,7 +21,6 @@
       "raw_count": 7,
       "duplicate_count": 0,
       "counting_policy": "independent_fixed_witness_occurrences",
-      "quote": "，使工以藥焠之，以試人，血濡縷，人無不立死者。乃裝爲遣荊卿。燕國有勇士秦舞陽，年十三，殺人，人不敢忤視。乃令秦舞陽爲副。荊軻有所待，欲與倶；其人居遠未來，而爲治行。頃之，未發，太子遲之，疑其改悔，乃復請曰：「日已盡矣，荊卿豈有意哉？丹請得先遣秦舞陽。」荊軻怒，叱太子曰：「何太",
       "paragraph_ids": [
         "c-shiji-086-cike:p032",
         "c-shiji-086-cike:p034"
@@ -100,7 +99,12 @@
       "book_id": "b-shiji-086",
       "chapter_id": "c-shiji-086-cike",
       "source_id": "s-shiji-086-cike",
-      "work_title": "史記"
+      "work_title": "史記",
+      "chapter_ref": "data/corpus/shiji/086.json",
+      "quote_span": [
+        26,
+        164
+      ]
     },
     {
       "number": 110,
@@ -111,7 +115,6 @@
       "raw_count": 1,
       "duplicate_count": 0,
       "counting_policy": "independent_fixed_witness_occurrences",
-      "quote": "將秦開，爲質於胡，胡甚信之。歸而襲破走東胡，東胡卻千餘里。與荊軻刺秦王秦舞陽者，開之孫也。燕亦築長城，自造陽至襄平。置上谷、漁陽、右北平、遼西、遼東郡以拒胡。當是之時，冠帶戰國七，而三國邊於匈奴。其後趙將李牧時，匈奴不敢入趙邊。後秦滅六國，而始皇帝使蒙恬將十萬之眾北擊胡，悉收",
       "paragraph_ids": [
         "c-shiji-110-xiongnu:p004"
       ],
@@ -135,7 +138,12 @@
       "book_id": "b-shiji-110",
       "chapter_id": "c-shiji-110-xiongnu",
       "source_id": "s-shiji110-xiongnu",
-      "work_title": "史記"
+      "work_title": "史記",
+      "chapter_ref": "data/corpus/shiji/110.json",
+      "quote_span": [
+        253,
+        391
+      ]
     }
   ],
   "table_occurrences": [],
@@ -145,56 +153,14 @@
       "work_id": "w-shiji",
       "book_id": "b-shiji-086",
       "source_id": "s-shiji-086-cike",
-      "source": {
-        "title": "史記／卷086",
-        "provider": "維基文庫",
-        "url": "https://zh.wikisource.org/wiki/史記/卷086",
-        "permalink": "https://zh.wikisource.org/w/index.php?title=史記/卷086&oldid=2388562",
-        "revision_id": 2388562,
-        "accessed_on": "2026-10-09",
-        "extent": "38段正文含太史公論，排除導覽、索隱述贊及現代版權。",
-        "image_verified": false,
-        "rights": "古代原文；數位轉錄依維基文庫CC BY-SA 4.0，保留署名及固定版本。",
-        "license_url": "https://creativecommons.org/licenses/by-sa/4.0/",
-        "normalization": {
-          "character_conversion": {},
-          "editorial_readings": [],
-          "extraction_note": "固定HTML與取得時版本一致，只去外緣空白；（衆）按普通括號原文保留；第17段tooltip異文提示另存。",
-          "note": "全38段與HTML篇界已核讀，未核底本影像或現代研究。",
-          "digital_variant_notes": [
-            {
-              "paragraph_number": 17,
-              "body_reading": "縣",
-              "witness_tooltip": "一作「購縣」，又作「縣購」。",
-              "note": "數位見證未標明異文版本，另存，不代替正文。"
-            }
-          ]
-        }
-      }
+      "chapter_ref": "data/corpus/shiji/086.json"
     },
     {
       "chapter_id": "c-shiji-110-xiongnu",
       "work_id": "w-shiji",
       "book_id": "b-shiji-110",
       "source_id": "s-shiji110-xiongnu",
-      "source": {
-        "title": "史記／卷110",
-        "provider": "維基文庫",
-        "url": "https://zh.wikisource.org/wiki/史記/卷110",
-        "permalink": "https://zh.wikisource.org/w/index.php?title=史記/卷110&oldid=8735645",
-        "revision_id": 8735645,
-        "accessed_on": "2026-10-11",
-        "extent": "固定數位見證去介面及現代節標題後61段，末段為太史公論。",
-        "image_verified": false,
-        "rights": "古代原文；數位轉錄依維基文庫CC BY-SA 4.0，保留署名及固定版本。",
-        "license_url": "https://creativecommons.org/licenses/by-sa/4.0/",
-        "normalization": {
-          "character_conversion": {},
-          "editorial_readings": [],
-          "extraction_note": "去 header2 介面及現代單于節標題、太史公曰節標題；移除單字語言轉換包裹與下劃線標籤，紀年 YL 模板保留顯示原詞。其餘原字、標點及段落次序保留，不從小標題補正文人名。",
-          "note": "未核底本影像。"
-        }
-      }
+      "chapter_ref": "data/corpus/shiji/110.json"
     }
   ],
   "relations": [
@@ -209,7 +175,7 @@
           "chapter_id": "c-shiji-110-xiongnu",
           "source_id": "s-shiji110-xiongnu",
           "paragraph_id": "c-shiji-110-xiongnu:p004",
-          "quote": "自是之後百有餘年，晉悼公使魏絳和戎翟，戎翟朝晉。後百有餘年，趙襄子踰句注而破并代以臨胡貉。其後既與韓魏共滅智伯，分晉地而有之，則趙有代、句注之北，魏有河西、上郡，以與戎界邊。其後義渠之戎築城郭以自守，而秦稍蠶食，至於惠王，遂拔義渠二十五城。惠王擊魏，魏盡入西河及上郡于秦。秦昭王時，義渠戎王與宣太后亂，有二子。宣太后詐而殺義渠戎王於甘泉，遂起兵伐殘義渠。於是秦有隴西、北地、上郡，築長城以拒胡。而趙武靈王亦變俗胡服，習騎射，北破林胡、樓煩。築長城，自代并陰山下，至高闕爲塞。而置雲中、鴈門、代郡。其後燕有賢將秦開，爲質於胡，胡甚信之。歸而襲破走東胡，東胡卻千餘里。與荊軻刺秦王秦舞陽者，開之孫也。燕亦築長城，自造陽至襄平。置上谷、漁陽、右北平、遼西、遼東郡以拒胡。當是之時，冠帶戰國七，而三國邊於匈奴。其後趙將李牧時，匈奴不敢入趙邊。後秦滅六國，而始皇帝使蒙恬將十萬之眾北擊胡，悉收河南地。因河爲塞，築四十四縣城臨河，徙適戍以充之。而通直道，自九原至雲陽，因邊山險塹谿谷可繕者治之，起臨洮至遼東萬餘里。又度河據陽山北假中。"
+          "quote_passage_ref": "data/corpus/shiji/110.json"
         }
       ],
       "qualifiers": {
@@ -241,7 +207,7 @@
           "chapter_id": "c-shiji-110-xiongnu",
           "source_id": "s-shiji110-xiongnu",
           "paragraph_id": "c-shiji-110-xiongnu:p004",
-          "quote": "自是之後百有餘年，晉悼公使魏絳和戎翟，戎翟朝晉。後百有餘年，趙襄子踰句注而破并代以臨胡貉。其後既與韓魏共滅智伯，分晉地而有之，則趙有代、句注之北，魏有河西、上郡，以與戎界邊。其後義渠之戎築城郭以自守，而秦稍蠶食，至於惠王，遂拔義渠二十五城。惠王擊魏，魏盡入西河及上郡于秦。秦昭王時，義渠戎王與宣太后亂，有二子。宣太后詐而殺義渠戎王於甘泉，遂起兵伐殘義渠。於是秦有隴西、北地、上郡，築長城以拒胡。而趙武靈王亦變俗胡服，習騎射，北破林胡、樓煩。築長城，自代并陰山下，至高闕爲塞。而置雲中、鴈門、代郡。其後燕有賢將秦開，爲質於胡，胡甚信之。歸而襲破走東胡，東胡卻千餘里。與荊軻刺秦王秦舞陽者，開之孫也。燕亦築長城，自造陽至襄平。置上谷、漁陽、右北平、遼西、遼東郡以拒胡。當是之時，冠帶戰國七，而三國邊於匈奴。其後趙將李牧時，匈奴不敢入趙邊。後秦滅六國，而始皇帝使蒙恬將十萬之眾北擊胡，悉收河南地。因河爲塞，築四十四縣城臨河，徙適戍以充之。而通直道，自九原至雲陽，因邊山險塹谿谷可繕者治之，起臨洮至遼東萬餘里。又度河據陽山北假中。"
+          "quote_passage_ref": "data/corpus/shiji/110.json"
         }
       ],
       "qualifiers": {

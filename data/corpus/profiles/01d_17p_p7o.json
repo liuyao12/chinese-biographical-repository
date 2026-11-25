@@ -22,7 +22,7 @@
           "chapter_id": "c-shiji-110-xiongnu",
           "source_id": "s-shiji110-xiongnu",
           "paragraph_id": "c-shiji-110-xiongnu:p045",
-          "quote": "是時天子巡邊，至朔方，勒兵十八萬騎以見武節，而使郭吉風告單于。郭吉既至匈奴，匈奴主客問所使，郭吉禮卑言好，曰：「吾見單于而口言。」單于見吉，吉曰：「南越王頭已懸於漢北闕。今單于（能）即［能］前與漢戰，天子自將兵待邊；單于即不能，即南面而臣於漢。何徒遠走，亡匿於幕北寒苦無水草之地，毋爲也。」語卒而單于大怒，立斬主客見者，而留郭吉不歸，遷之北海上。而單于終不肯爲寇於漢邊，休養息士馬，習射獵，數使使於漢，好辭甘言求請和親。"
+          "quote_passage_ref": "data/corpus/shiji/110.json"
         }
       ],
       "attestations": [
@@ -47,7 +47,7 @@
                 "chapter_id": "c-shiji-110-xiongnu",
                 "source_id": "s-shiji110-xiongnu",
                 "paragraph_id": "c-shiji-110-xiongnu:p045",
-                "quote": "是時天子巡邊，至朔方，勒兵十八萬騎以見武節，而使郭吉風告單于。郭吉既至匈奴，匈奴主客問所使，郭吉禮卑言好，曰：「吾見單于而口言。」單于見吉，吉曰：「南越王頭已懸於漢北闕。今單于（能）即［能］前與漢戰，天子自將兵待邊；單于即不能，即南面而臣於漢。何徒遠走，亡匿於幕北寒苦無水草之地，毋爲也。」語卒而單于大怒，立斬主客見者，而留郭吉不歸，遷之北海上。而單于終不肯爲寇於漢邊，休養息士馬，習射獵，數使使於漢，好辭甘言求請和親。"
+                "quote_passage_ref": "data/corpus/shiji/110.json"
               }
             ],
             "references": [
@@ -99,7 +99,7 @@
                 "chapter_id": "c-shiji-110-xiongnu",
                 "source_id": "s-shiji110-xiongnu",
                 "paragraph_id": "c-shiji-110-xiongnu:p045",
-                "quote": "是時天子巡邊，至朔方，勒兵十八萬騎以見武節，而使郭吉風告單于。郭吉既至匈奴，匈奴主客問所使，郭吉禮卑言好，曰：「吾見單于而口言。」單于見吉，吉曰：「南越王頭已懸於漢北闕。今單于（能）即［能］前與漢戰，天子自將兵待邊；單于即不能，即南面而臣於漢。何徒遠走，亡匿於幕北寒苦無水草之地，毋爲也。」語卒而單于大怒，立斬主客見者，而留郭吉不歸，遷之北海上。而單于終不肯爲寇於漢邊，休養息士馬，習射獵，數使使於漢，好辭甘言求請和親。"
+                "quote_passage_ref": "data/corpus/shiji/110.json"
               }
             ],
             "references": [
@@ -159,7 +159,6 @@
       "raw_count": 2,
       "duplicate_count": 0,
       "counting_policy": "independent_fixed_witness_occurrences",
-      "quote": "子巡邊，至朔方，勒兵十八萬騎以見武節，而使郭吉風告單于。郭吉既至匈奴，匈奴主客問所使，郭吉禮卑言好，曰：「吾見單于而口言。」單于見吉，吉曰：「南越王頭已懸於漢北闕。今單于（能）即［能］前與漢戰，天子自將兵待邊；單于即不能，即南面而臣於漢。何徒遠走，亡匿於幕北寒苦無水草之地，毋爲",
       "paragraph_ids": [
         "c-shiji-110-xiongnu:p045"
       ],
@@ -192,7 +191,12 @@
       "book_id": "b-shiji-110",
       "chapter_id": "c-shiji-110-xiongnu",
       "source_id": "s-shiji110-xiongnu",
-      "work_title": "史記"
+      "work_title": "史記",
+      "chapter_ref": "data/corpus/shiji/110.json",
+      "quote_span": [
+        3,
+        142
+      ]
     }
   ],
   "table_occurrences": [],
@@ -202,24 +206,7 @@
       "work_id": "w-shiji",
       "book_id": "b-shiji-110",
       "source_id": "s-shiji110-xiongnu",
-      "source": {
-        "title": "史記／卷110",
-        "provider": "維基文庫",
-        "url": "https://zh.wikisource.org/wiki/史記/卷110",
-        "permalink": "https://zh.wikisource.org/w/index.php?title=史記/卷110&oldid=8735645",
-        "revision_id": 8735645,
-        "accessed_on": "2026-10-11",
-        "extent": "固定數位見證去介面及現代節標題後61段，末段為太史公論。",
-        "image_verified": false,
-        "rights": "古代原文；數位轉錄依維基文庫CC BY-SA 4.0，保留署名及固定版本。",
-        "license_url": "https://creativecommons.org/licenses/by-sa/4.0/",
-        "normalization": {
-          "character_conversion": {},
-          "editorial_readings": [],
-          "extraction_note": "去 header2 介面及現代單于節標題、太史公曰節標題；移除單字語言轉換包裹與下劃線標籤，紀年 YL 模板保留顯示原詞。其餘原字、標點及段落次序保留，不從小標題補正文人名。",
-          "note": "未核底本影像。"
-        }
-      }
+      "chapter_ref": "data/corpus/shiji/110.json"
     }
   ],
   "relations": [],
@@ -240,8 +227,8 @@
           "chapter_id": "c-shiji-110-xiongnu",
           "source_id": "s-shiji110-xiongnu",
           "paragraph_id": "c-shiji-110-xiongnu:p045",
-          "quote": "是時天子巡邊，至朔方，勒兵十八萬騎以見武節，而使郭吉風告單于。郭吉既至匈奴，匈奴主客問所使，郭吉禮卑言好，曰：「吾見單于而口言。」單于見吉，吉曰：「南越王頭已懸於漢北闕。今單于（能）即［能］前與漢戰，天子自將兵待邊；單于即不能，即南面而臣於漢。何徒遠走，亡匿於幕北寒苦無水草之地，毋爲也。」語卒而單于大怒，立斬主客見者，而留郭吉不歸，遷之北海上。而單于終不肯爲寇於漢邊，休養息士馬，習射獵，數使使於漢，好辭甘言求請和親。",
-          "person_mention_id": "c-shiji-110-xiongnu:m045-0038"
+          "person_mention_id": "c-shiji-110-xiongnu:m045-0038",
+          "quote_passage_ref": "data/corpus/shiji/110.json"
         }
       ],
       "references": [
@@ -288,7 +275,7 @@
           "chapter_id": "c-shiji-110-xiongnu",
           "source_id": "s-shiji110-xiongnu",
           "paragraph_id": "c-shiji-110-xiongnu:p045",
-          "quote": "是時天子巡邊，至朔方，勒兵十八萬騎以見武節，而使郭吉風告單于。郭吉既至匈奴，匈奴主客問所使，郭吉禮卑言好，曰：「吾見單于而口言。」單于見吉，吉曰：「南越王頭已懸於漢北闕。今單于（能）即［能］前與漢戰，天子自將兵待邊；單于即不能，即南面而臣於漢。何徒遠走，亡匿於幕北寒苦無水草之地，毋爲也。」語卒而單于大怒，立斬主客見者，而留郭吉不歸，遷之北海上。而單于終不肯爲寇於漢邊，休養息士馬，習射獵，數使使於漢，好辭甘言求請和親。"
+          "quote_passage_ref": "data/corpus/shiji/110.json"
         }
       ],
       "references": [
@@ -336,7 +323,7 @@
           "chapter_id": "c-shiji-110-xiongnu",
           "source_id": "s-shiji110-xiongnu",
           "paragraph_id": "c-shiji-110-xiongnu:p045",
-          "quote": "是時天子巡邊，至朔方，勒兵十八萬騎以見武節，而使郭吉風告單于。郭吉既至匈奴，匈奴主客問所使，郭吉禮卑言好，曰：「吾見單于而口言。」單于見吉，吉曰：「南越王頭已懸於漢北闕。今單于（能）即［能］前與漢戰，天子自將兵待邊；單于即不能，即南面而臣於漢。何徒遠走，亡匿於幕北寒苦無水草之地，毋爲也。」語卒而單于大怒，立斬主客見者，而留郭吉不歸，遷之北海上。而單于終不肯爲寇於漢邊，休養息士馬，習射獵，數使使於漢，好辭甘言求請和親。"
+          "quote_passage_ref": "data/corpus/shiji/110.json"
         }
       ],
       "references": [
@@ -390,8 +377,8 @@
           "chapter_id": "c-shiji-110-xiongnu",
           "source_id": "s-shiji110-xiongnu",
           "paragraph_id": "c-shiji-110-xiongnu:p045",
-          "quote": "是時天子巡邊，至朔方，勒兵十八萬騎以見武節，而使郭吉風告單于。郭吉既至匈奴，匈奴主客問所使，郭吉禮卑言好，曰：「吾見單于而口言。」單于見吉，吉曰：「南越王頭已懸於漢北闕。今單于（能）即［能］前與漢戰，天子自將兵待邊；單于即不能，即南面而臣於漢。何徒遠走，亡匿於幕北寒苦無水草之地，毋爲也。」語卒而單于大怒，立斬主客見者，而留郭吉不歸，遷之北海上。而單于終不肯爲寇於漢邊，休養息士馬，習射獵，數使使於漢，好辭甘言求請和親。",
-          "person_mention_id": "c-shiji-110-xiongnu:m045-0038"
+          "person_mention_id": "c-shiji-110-xiongnu:m045-0038",
+          "quote_passage_ref": "data/corpus/shiji/110.json"
         }
       ],
       "interpretation_note": "立斬主客見者明示死亡；按同一接引郭吉使事暫同指前述未名匈奴主客，對讀通鑑巡邊事件記前110年。死亡不自動終止全部官職，不補姓名、卒地或家系。",
@@ -410,8 +397,8 @@
             "chapter_id": "c-shiji-110-xiongnu",
             "source_id": "s-shiji110-xiongnu",
             "paragraph_id": "c-shiji-110-xiongnu:p045",
-            "quote": "是時天子巡邊，至朔方，勒兵十八萬騎以見武節，而使郭吉風告單于。郭吉既至匈奴，匈奴主客問所使，郭吉禮卑言好，曰：「吾見單于而口言。」單于見吉，吉曰：「南越王頭已懸於漢北闕。今單于（能）即［能］前與漢戰，天子自將兵待邊；單于即不能，即南面而臣於漢。何徒遠走，亡匿於幕北寒苦無水草之地，毋爲也。」語卒而單于大怒，立斬主客見者，而留郭吉不歸，遷之北海上。而單于終不肯爲寇於漢邊，休養息士馬，習射獵，數使使於漢，好辭甘言求請和親。",
-            "person_mention_id": "c-shiji-110-xiongnu:m045-0038"
+            "person_mention_id": "c-shiji-110-xiongnu:m045-0038",
+            "quote_passage_ref": "data/corpus/shiji/110.json"
           }
         ],
         "references": [

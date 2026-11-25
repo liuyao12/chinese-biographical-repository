@@ -24,13 +24,13 @@
           "chapter_id": "c-shiji-052-qidaohui",
           "source_id": "s-shiji-052-qidaohui",
           "paragraph_id": "c-shiji-052-qidaohui:p019",
-          "quote": "是歲，齊哀王卒，太子則立，是為文王。"
+          "quote_passage_ref": "data/corpus/shiji/052.json"
         },
         {
           "chapter_id": "c-shiji-052-qidaohui",
           "source_id": "s-shiji-052-qidaohui",
           "paragraph_id": "c-shiji-052-qidaohui:p023",
-          "quote": "齊文王立十四年卒，無子，國除，地入于漢。"
+          "quote_passage_ref": "data/corpus/shiji/052.json"
         }
       ],
       "attestations": [
@@ -59,7 +59,7 @@
               "chapter_id": "c-shiji-052-qidaohui",
               "source_id": "s-shiji-052-qidaohui",
               "paragraph_id": "c-shiji-052-qidaohui:p023",
-              "quote": "齊文王立十四年卒，無子，國除，地入于漢。"
+              "quote_passage_ref": "data/corpus/shiji/052.json"
             }
           ]
         }
@@ -78,8 +78,8 @@
             "chapter_id": "c-shiji-052-qidaohui",
             "source_id": "s-shiji-052-qidaohui",
             "paragraph_id": "c-shiji-052-qidaohui:p023",
-            "quote": "齊文王立十四年卒，無子，國除，地入于漢。",
-            "person_mention_id": "c-shiji-052-qidaohui:m023-0000"
+            "person_mention_id": "c-shiji-052-qidaohui:m023-0000",
+            "quote_passage_ref": "data/corpus/shiji/052.json"
           }
         ]
       },
@@ -97,7 +97,7 @@
           "chapter_id": "c-shiji-105-bianque",
           "source_id": "s-shiji-105-bianque",
           "paragraph_id": "c-shiji-105-bianque:p043",
-          "quote": "問臣意：「意方能知病死生，論藥用所宜，諸侯王大臣有嘗問意者不？及文王病時，不求意診治，何故？」對曰：「趙王、膠西王、濟南王、吳王皆使人來召臣意，臣意不敢往。文王病時，臣意家貧，欲為人治病，誠恐吏以除拘臣意也，故移名數，左右不修家生，出行游國中，問善為方數者事之久矣，見事數師，悉受其要事，盡其方書意，及解論之。身居陽虛侯國，因事侯。侯入朝，臣意從之長安，以故得診安陵項處等病也。」"
+          "quote_passage_ref": "data/corpus/shiji/105.json"
         }
       ],
       "attestations": [
@@ -139,7 +139,6 @@
       "raw_count": 5,
       "duplicate_count": 0,
       "counting_policy": "independent_fixed_witness_occurrences",
-      "quote": "是歲，齊哀王卒，太子則立，是為文王。",
       "paragraph_ids": [
         "c-shiji-052-qidaohui:p019",
         "c-shiji-052-qidaohui:p020",
@@ -201,7 +200,12 @@
       "book_id": "b-shiji-052",
       "chapter_id": "c-shiji-052-qidaohui",
       "source_id": "s-shiji-052-qidaohui",
-      "work_title": "史記"
+      "work_title": "史記",
+      "chapter_ref": "data/corpus/shiji/052.json",
+      "quote_span": [
+        0,
+        18
+      ]
     },
     {
       "number": 105,
@@ -212,7 +216,6 @@
       "raw_count": 6,
       "duplicate_count": 0,
       "counting_policy": "independent_fixed_witness_occurrences",
-      "quote": "問臣意：「意方能知病死生，論藥用所宜，諸侯王大臣有嘗問意者不？及文王病時，不求意診治，何故？」對曰：「趙王、膠西王、濟南王、吳王皆使人來召臣意，臣意不敢往。文王病時，臣意家貧，欲為人治病，誠恐吏以除拘臣意也，故移名數，左右不修家生，出行游國中，問善為方數者事之久矣，見",
       "paragraph_ids": [
         "c-shiji-105-bianque:p043",
         "c-shiji-105-bianque:p044"
@@ -282,7 +285,12 @@
       "book_id": "b-shiji-105",
       "chapter_id": "c-shiji-105-bianque",
       "source_id": "s-shiji-105-bianque",
-      "work_title": "史記"
+      "work_title": "史記",
+      "chapter_ref": "data/corpus/shiji/105.json",
+      "quote_span": [
+        0,
+        134
+      ]
     }
   ],
   "table_occurrences": [],
@@ -292,48 +300,14 @@
       "work_id": "w-shiji",
       "book_id": "b-shiji-052",
       "source_id": "s-shiji-052-qidaohui",
-      "source": {
-        "title": "史記／卷052",
-        "provider": "維基文庫",
-        "url": "https://zh.wikisource.org/wiki/史記/卷052",
-        "permalink": "https://zh.wikisource.org/w/index.php?title=史記/卷052&oldid=5977113",
-        "revision_id": 5977113,
-        "accessed_on": "2026-10-09",
-        "extent": "44段篇文及1段索隱述贊，數位分節欄題不作古文段落。",
-        "image_verified": false,
-        "rights": "古代原文；數位轉錄依維基文庫CC BY-SA 4.0，保留署名及固定版本。",
-        "license_url": "https://creativecommons.org/licenses/by-sa/4.0/",
-        "normalization": {
-          "character_conversion": {},
-          "editorial_readings": [],
-          "extraction_note": "取得時HTML與固定修訂一致，只去外緣空白；保留衛衛王、高后立諸呂諸呂、（西）［迺］、［建］延、硃虛等原字與校勘字樣，不擅刪重字或選讀法。",
-          "note": "全45段已讀並作明示人物首輪；未核底本、影像或現代研究。"
-        }
-      }
+      "chapter_ref": "data/corpus/shiji/052.json"
     },
     {
       "chapter_id": "c-shiji-105-bianque",
       "work_id": "w-shiji",
       "book_id": "b-shiji-105",
       "source_id": "s-shiji-105-bianque",
-      "source": {
-        "title": "史記／卷105",
-        "provider": "維基文庫",
-        "url": "https://zh.wikisource.org/wiki/史記/卷105",
-        "permalink": "https://zh.wikisource.org/w/index.php?title=史記/卷105&oldid=8842726",
-        "revision_id": 8842726,
-        "accessed_on": "2026-10-10",
-        "extent": "48段正文含太史公論與答詔醫案，1段索隱述贊及3段見證附載正義。",
-        "image_verified": false,
-        "rights": "古代原文；數位轉錄依維基文庫CC BY-SA 4.0，保留署名及固定版本。",
-        "license_url": "https://creativecommons.org/licenses/by-sa/4.0/",
-        "normalization": {
-          "character_conversion": {},
-          "editorial_readings": [],
-          "extraction_note": "去標題與介面模板，原字、標點及段落次序保留。",
-          "note": "未核底本影像。"
-        }
-      }
+      "chapter_ref": "data/corpus/shiji/105.json"
     }
   ],
   "relations": [],
@@ -361,11 +335,11 @@
           "chapter_id": "c-shiji-105-bianque",
           "source_id": "s-shiji-105-bianque",
           "paragraph_id": "c-shiji-105-bianque:p043",
-          "quote": "問臣意：「意方能知病死生，論藥用所宜，諸侯王大臣有嘗問意者不？及文王病時，不求意診治，何故？」對曰：「趙王、膠西王、濟南王、吳王皆使人來召臣意，臣意不敢往。文王病時，臣意家貧，欲為人治病，誠恐吏以除拘臣意也，故移名數，左右不修家生，出行游國中，問善為方數者事之久矣，見事數師，悉受其要事，盡其方書意，及解論之。身居陽虛侯國，因事侯。侯入朝，臣意從之長安，以故得診安陵項處等病也。」",
           "mention_ids": [
             "c-shiji-105-bianque:m043-0032",
             "c-shiji-105-bianque:m043-0078"
-          ]
+          ],
+          "quote_passage_ref": "data/corpus/shiji/105.json"
         },
         {
           "work_id": "w-shiji",
@@ -373,13 +347,13 @@
           "chapter_id": "c-shiji-105-bianque",
           "source_id": "s-shiji-105-bianque",
           "paragraph_id": "c-shiji-105-bianque:p044",
-          "quote": "問臣意：「知文王所以得病不起之狀？」臣意對曰：「不見文王病，然竊聞文王病喘，頭痛，目不明。臣意心論之，以為非病也。以為肥而蓄精，身體不得搖，骨肉不相任，故喘，不當醫治。脈法曰『年二十脈氣當趨，年三十當疾步，年四十當安坐，年五十當安臥，年六十已上氣當大董』。文王年未滿二十，方脈氣之趨也而徐之，不應天道四時。後聞醫灸之即篤，此論病之過也。臣意論之，以為神氣爭而邪氣入，非年少所能復之也，以故死。所謂氣者，當調飲食，擇晏日，車步廣志，以適筋骨肉血脈，以瀉氣。故年二十，是謂『易眢』。法不當砭灸，砭灸至氣逐。」",
           "mention_ids": [
             "c-shiji-105-bianque:m044-0006",
             "c-shiji-105-bianque:m044-0026",
             "c-shiji-105-bianque:m044-0033",
             "c-shiji-105-bianque:m044-0128"
-          ]
+          ],
+          "quote_passage_ref": "data/corpus/shiji/105.json"
         },
         {
           "work_id": "w-shiji",
@@ -387,12 +361,12 @@
           "chapter_id": "c-shiji-052-qidaohui",
           "source_id": "s-shiji-052-qidaohui",
           "paragraph_id": "c-shiji-052-qidaohui:p019",
-          "quote": "是歲，齊哀王卒，太子則立，是為文王。",
           "mention_ids": [
             "c-shiji-052-qidaohui:m019-0008",
             "c-shiji-052-qidaohui:m019-0010",
             "c-shiji-052-qidaohui:m019-0015"
-          ]
+          ],
+          "quote_passage_ref": "data/corpus/shiji/052.json"
         },
         {
           "work_id": "w-shiji",
@@ -400,10 +374,10 @@
           "chapter_id": "c-shiji-052-qidaohui",
           "source_id": "s-shiji-052-qidaohui",
           "paragraph_id": "c-shiji-052-qidaohui:p023",
-          "quote": "齊文王立十四年卒，無子，國除，地入于漢。",
           "mention_ids": [
             "c-shiji-052-qidaohui:m023-0000"
-          ]
+          ],
+          "quote_passage_ref": "data/corpus/shiji/052.json"
         }
       ],
       "references": [
@@ -453,8 +427,8 @@
           "chapter_id": "c-shiji-105-bianque",
           "source_id": "s-shiji-105-bianque",
           "paragraph_id": "c-shiji-105-bianque:p044",
-          "quote": "問臣意：「知文王所以得病不起之狀？」臣意對曰：「不見文王病，然竊聞文王病喘，頭痛，目不明。臣意心論之，以為非病也。以為肥而蓄精，身體不得搖，骨肉不相任，故喘，不當醫治。脈法曰『年二十脈氣當趨，年三十當疾步，年四十當安坐，年五十當安臥，年六十已上氣當大董』。文王年未滿二十，方脈氣之趨也而徐之，不應天道四時。後聞醫灸之即篤，此論病之過也。臣意論之，以為神氣爭而邪氣入，非年少所能復之也，以故死。所謂氣者，當調飲食，擇晏日，車步廣志，以適筋骨肉血脈，以瀉氣。故年二十，是謂『易眢』。法不當砭灸，砭灸至氣逐。」",
-          "person_mention_id": "c-shiji-105-bianque:m044-0128"
+          "person_mention_id": "c-shiji-105-bianque:m044-0128",
+          "quote_passage_ref": "data/corpus/shiji/105.json"
         }
       ],
       "references": [
@@ -470,29 +444,29 @@
         {
           "title": "《史記·漢興以來諸侯王年表》齊文王卒年",
           "url": "https://zh.wikisource.org/w/index.php?title=史記/卷017&oldid=2607010",
-          "quote": "十五",
           "table_id": "shiji-017",
           "cell_id": "shiji-017-t1-r042-c01",
           "scope": "received_regnal_year_attestation",
-          "image_verified": false
+          "image_verified": false,
+          "quote_passage_ref": "data/historical-tables/shiji-017.json"
         },
         {
           "title": "《史記·漢興以來諸侯王年表》齊文王卒年",
           "url": "https://zh.wikisource.org/w/index.php?title=史記/卷017&oldid=2607010",
-          "quote": "十四。薨。無後。",
           "table_id": "shiji-017",
           "cell_id": "shiji-017-t1-r042-c05",
           "scope": "received_parallel_event",
-          "image_verified": false
+          "image_verified": false,
+          "quote_passage_ref": "data/historical-tables/shiji-017.json"
         },
         {
           "title": "《史記·漢興以來諸侯王年表》齊文王卒年",
           "url": "https://zh.wikisource.org/w/index.php?title=史記/卷017&oldid=2607010",
-          "quote": "165",
           "table_id": "shiji-017",
           "cell_id": "shiji-017-t1-r042-c00",
           "scope": "digital_editorial_regnal_year_equivalence_only",
-          "image_verified": false
+          "image_verified": false,
+          "quote_passage_ref": "data/historical-tables/shiji-017.json"
         },
         {
           "title": "《史記·齊悼惠王世家》齊文王死亡",
@@ -548,8 +522,8 @@
           "chapter_id": "c-shiji-105-bianque",
           "source_id": "s-shiji-105-bianque",
           "paragraph_id": "c-shiji-105-bianque:p044",
-          "quote": "問臣意：「知文王所以得病不起之狀？」臣意對曰：「不見文王病，然竊聞文王病喘，頭痛，目不明。臣意心論之，以為非病也。以為肥而蓄精，身體不得搖，骨肉不相任，故喘，不當醫治。脈法曰『年二十脈氣當趨，年三十當疾步，年四十當安坐，年五十當安臥，年六十已上氣當大董』。文王年未滿二十，方脈氣之趨也而徐之，不應天道四時。後聞醫灸之即篤，此論病之過也。臣意論之，以為神氣爭而邪氣入，非年少所能復之也，以故死。所謂氣者，當調飲食，擇晏日，車步廣志，以適筋骨肉血脈，以瀉氣。故年二十，是謂『易眢』。法不當砭灸，砭灸至氣逐。」",
-          "person_mention_id": "c-shiji-105-bianque:m044-0128"
+          "person_mention_id": "c-shiji-105-bianque:m044-0128",
+          "quote_passage_ref": "data/corpus/shiji/105.json"
         }
       ],
       "interpretation_note": "保存來源報齡及未知計歲方式，不當享年，不倒推出生年。陽慶授學同事兩段引文合存；倉公年盡三年疑句原字保留；文王未滿二十保留開放上界，轉聞不作親診。未核書影。",
@@ -578,8 +552,8 @@
           "chapter_id": "c-shiji-052-qidaohui",
           "source_id": "s-shiji-052-qidaohui",
           "paragraph_id": "c-shiji-052-qidaohui:p023",
-          "quote": "齊文王立十四年卒，無子，國除，地入于漢。",
-          "person_mention_id": "c-shiji-052-qidaohui:m023-0000"
+          "person_mention_id": "c-shiji-052-qidaohui:m023-0000",
+          "quote_passage_ref": "data/corpus/shiji/052.json"
         }
       ],
       "source_term": "齊文王立十四年卒",
@@ -601,8 +575,8 @@
           "chapter_id": "c-shiji-105-bianque",
           "source_id": "s-shiji-105-bianque",
           "paragraph_id": "c-shiji-105-bianque:p044",
-          "quote": "問臣意：「知文王所以得病不起之狀？」臣意對曰：「不見文王病，然竊聞文王病喘，頭痛，目不明。臣意心論之，以為非病也。以為肥而蓄精，身體不得搖，骨肉不相任，故喘，不當醫治。脈法曰『年二十脈氣當趨，年三十當疾步，年四十當安坐，年五十當安臥，年六十已上氣當大董』。文王年未滿二十，方脈氣之趨也而徐之，不應天道四時。後聞醫灸之即篤，此論病之過也。臣意論之，以為神氣爭而邪氣入，非年少所能復之也，以故死。所謂氣者，當調飲食，擇晏日，車步廣志，以適筋骨肉血脈，以瀉氣。故年二十，是謂『易眢』。法不當砭灸，砭灸至氣逐。」",
-          "person_mention_id": "c-shiji-105-bianque:m044-0128"
+          "person_mention_id": "c-shiji-105-bianque:m044-0128",
+          "quote_passage_ref": "data/corpus/shiji/105.json"
         }
       ],
       "interpretation_note": "保存來源所敘實際死亡，不把預期病程或醫理泛論當死亡；未明年不推卒年，不由死亡自動終止全部官爵。 倉公明言不見文王病，竊聞及後聞為轉聞，不能標作本人診見。 未核書影。",
@@ -632,8 +606,8 @@
             "chapter_id": "c-shiji-105-bianque",
             "source_id": "s-shiji-105-bianque",
             "paragraph_id": "c-shiji-105-bianque:p044",
-            "quote": "問臣意：「知文王所以得病不起之狀？」臣意對曰：「不見文王病，然竊聞文王病喘，頭痛，目不明。臣意心論之，以為非病也。以為肥而蓄精，身體不得搖，骨肉不相任，故喘，不當醫治。脈法曰『年二十脈氣當趨，年三十當疾步，年四十當安坐，年五十當安臥，年六十已上氣當大董』。文王年未滿二十，方脈氣之趨也而徐之，不應天道四時。後聞醫灸之即篤，此論病之過也。臣意論之，以為神氣爭而邪氣入，非年少所能復之也，以故死。所謂氣者，當調飲食，擇晏日，車步廣志，以適筋骨肉血脈，以瀉氣。故年二十，是謂『易眢』。法不當砭灸，砭灸至氣逐。」",
-            "person_mention_id": "c-shiji-105-bianque:m044-0128"
+            "person_mention_id": "c-shiji-105-bianque:m044-0128",
+            "quote_passage_ref": "data/corpus/shiji/105.json"
           }
         ],
         "references": [
@@ -649,29 +623,29 @@
           {
             "title": "《史記·漢興以來諸侯王年表》齊文王卒年",
             "url": "https://zh.wikisource.org/w/index.php?title=史記/卷017&oldid=2607010",
-            "quote": "十五",
             "table_id": "shiji-017",
             "cell_id": "shiji-017-t1-r042-c01",
             "scope": "received_regnal_year_attestation",
-            "image_verified": false
+            "image_verified": false,
+            "quote_passage_ref": "data/historical-tables/shiji-017.json"
           },
           {
             "title": "《史記·漢興以來諸侯王年表》齊文王卒年",
             "url": "https://zh.wikisource.org/w/index.php?title=史記/卷017&oldid=2607010",
-            "quote": "十四。薨。無後。",
             "table_id": "shiji-017",
             "cell_id": "shiji-017-t1-r042-c05",
             "scope": "received_parallel_event",
-            "image_verified": false
+            "image_verified": false,
+            "quote_passage_ref": "data/historical-tables/shiji-017.json"
           },
           {
             "title": "《史記·漢興以來諸侯王年表》齊文王卒年",
             "url": "https://zh.wikisource.org/w/index.php?title=史記/卷017&oldid=2607010",
-            "quote": "165",
             "table_id": "shiji-017",
             "cell_id": "shiji-017-t1-r042-c00",
             "scope": "digital_editorial_regnal_year_equivalence_only",
-            "image_verified": false
+            "image_verified": false,
+            "quote_passage_ref": "data/historical-tables/shiji-017.json"
           },
           {
             "title": "《史記·齊悼惠王世家》齊文王死亡",

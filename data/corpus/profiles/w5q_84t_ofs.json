@@ -26,7 +26,7 @@
           "chapter_id": "c-shiji-001-wudi",
           "source_id": "s-shiji-001-wudi",
           "paragraph_id": "c-shiji-001-wudi:p016",
-          "quote": "讙兜進言共工，堯曰不可，而試之工師，共工果淫辟。四嶽舉鯀治鴻水，堯以爲不可，嶽彊請試之，試之而無功，故百姓不便。三苗在江淮、荆州數爲亂。於是舜歸而言於帝，請流共工於幽陵，以變北狄；放驩兜於崇山，以變南蠻；遷三苗於三危，以變西戎；殛鯀於羽山，以變東夷：四辠而天下咸服。"
+          "quote_passage_ref": "data/corpus/shiji/001.json"
         }
       ],
       "source_term": "流共工於幽陵",
@@ -51,7 +51,6 @@
       "raw_count": 5,
       "duplicate_count": 0,
       "counting_policy": "independent_fixed_witness_occurrences",
-      "quote": "子丹朱開明。」堯曰：「吁！頑凶，不用。」堯又曰：「誰可者？」讙兜曰：「共工旁聚布功，可用。」堯曰：「共工善言，其用僻，似恭漫天，不可。」堯又曰：「嗟！四嶽：湯湯洪水滔天，浩浩懷山襄陵，下民其憂，有能使治者？」皆曰鯀可。堯曰：「鯀負命毀族，不可。」嶽曰：「異哉，試不可用而已。",
       "paragraph_ids": [
         "c-shiji-001-wudi:p013",
         "c-shiji-001-wudi:p016"
@@ -112,7 +111,12 @@
       "book_id": "b-shiji-001",
       "chapter_id": "c-shiji-001-wudi",
       "source_id": "s-shiji-001-wudi",
-      "work_title": "史記"
+      "work_title": "史記",
+      "chapter_ref": "data/corpus/shiji/001.json",
+      "quote_span": [
+        17,
+        154
+      ]
     }
   ],
   "table_occurrences": [],
@@ -122,25 +126,7 @@
       "work_id": "w-shiji",
       "book_id": "b-shiji-001",
       "source_id": "s-shiji-001-wudi",
-      "source": {
-        "title": "史記／卷001",
-        "provider": "維基文庫",
-        "url": "https://zh.wikisource.org/wiki/史記/卷001",
-        "permalink": "https://zh.wikisource.org/w/index.php?title=史記/卷001&oldid=7903634",
-        "revision_id": 7903634,
-        "accessed_on": "2026-10-09",
-        "extent": "正文全文；不含現代章節標題、跨維基說明與校勘記",
-        "image_verified": false,
-        "rights": "古代原文；數位轉錄依維基文庫 CC BY-SA 4.0，保留署名及版本連結。",
-        "license_url": "https://creativecommons.org/licenses/by-sa/4.0/",
-        "normalization": {
-          "character_conversion": {
-            "弃": "棄",
-            "异": "異"
-          },
-          "note": "保留古代異體；移除現代註號，兩個簡體字形明記轉換。"
-        }
-      }
+      "chapter_ref": "data/corpus/shiji/001.json"
     }
   ],
   "relations": [],

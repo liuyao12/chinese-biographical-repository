@@ -20,7 +20,6 @@
       "raw_count": 2,
       "duplicate_count": 0,
       "counting_policy": "independent_fixed_witness_occurrences",
-      "quote": "由後爲河東都尉，時與其守勝屠公爭權，相告言罪。勝屠公當抵罪，義不受刑，自殺，而由棄市。",
       "paragraph_ids": [
         "c-shiji-122-kuli:p011"
       ],
@@ -53,7 +52,12 @@
       "book_id": "b-shiji-122",
       "chapter_id": "c-shiji-122-kuli",
       "source_id": "s-shiji122-kuli",
-      "work_title": "史記"
+      "work_title": "史記",
+      "chapter_ref": "data/corpus/shiji/122.json",
+      "quote_span": [
+        0,
+        43
+      ]
     }
   ],
   "table_occurrences": [],
@@ -63,24 +67,7 @@
       "work_id": "w-shiji",
       "book_id": "b-shiji-122",
       "source_id": "s-shiji122-kuli",
-      "source": {
-        "title": "史記／卷122",
-        "provider": "維基文庫",
-        "url": "https://zh.wikisource.org/wiki/史記/卷122",
-        "permalink": "https://zh.wikisource.org/w/index.php?title=史記/卷122&oldid=7904124",
-        "revision_id": 7904124,
-        "accessed_on": "2026-10-11",
-        "extent": "固定修訂全文44段，包括末段索隱述贊。",
-        "image_verified": false,
-        "rights": "古代原文；數位轉錄依維基文庫CC BY-SA 4.0，保留署名及固定版本。",
-        "license_url": "https://creativecommons.org/licenses/by-sa/4.0/",
-        "normalization": {
-          "character_conversion": {},
-          "editorial_readings": [],
-          "extraction_note": "去header2及現代節標、字形控制外殼而保留其中原字與異文；未核影像。",
-          "note": "末段索隱述贊分層，太史公論贊屬篇文。"
-        }
-      }
+      "chapter_ref": "data/corpus/shiji/122.json"
     }
   ],
   "relations": [],
@@ -106,8 +93,8 @@
           "chapter_id": "c-shiji-122-kuli",
           "source_id": "s-shiji122-kuli",
           "paragraph_id": "c-shiji-122-kuli:p011",
-          "quote": "由後爲河東都尉，時與其守勝屠公爭權，相告言罪。勝屠公當抵罪，義不受刑，自殺，而由棄市。",
-          "person_mention_id": "c-shiji-122-kuli:m011-0012"
+          "person_mention_id": "c-shiji-122-kuli:m011-0012",
+          "quote_passage_ref": "data/corpus/shiji/122.json"
         }
       ],
       "source_term": "自殺",

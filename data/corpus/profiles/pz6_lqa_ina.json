@@ -22,7 +22,7 @@
           "chapter_id": "c-shiji-085-lubuwei",
           "source_id": "s-shiji-085-lubuwei",
           "paragraph_id": "c-shiji-085-lubuwei:p007",
-          "quote": "秦王立一年，薨，謚為孝文王。太子子楚代立，是為莊襄王。莊襄王所母華陽后為華陽太后，真母夏姬尊以為夏太后。莊襄王元年，以呂不韋為丞相，封為文信侯，食河南洛陽十萬戶。"
+          "quote_passage_ref": "data/corpus/shiji/085.json"
         }
       ],
       "attestations": [
@@ -46,7 +46,7 @@
               "chapter_id": "c-shiji-085-lubuwei",
               "source_id": "s-shiji-085-lubuwei",
               "paragraph_id": "c-shiji-085-lubuwei:p007",
-              "quote": "秦王立一年，薨，謚為孝文王。太子子楚代立，是為莊襄王。莊襄王所母華陽后為華陽太后，真母夏姬尊以為夏太后。莊襄王元年，以呂不韋為丞相，封為文信侯，食河南洛陽十萬戶。"
+              "quote_passage_ref": "data/corpus/shiji/085.json"
             }
           ]
         },
@@ -78,8 +78,8 @@
           "chapter_id": "c-shiji-085-lubuwei",
           "source_id": "s-shiji-085-lubuwei",
           "paragraph_id": "c-shiji-085-lubuwei:p011",
-          "quote": "始皇七年，莊襄王母夏太后薨。孝文王后曰華陽太后，與孝文王會葬壽陵。夏太后子莊襄王葬芷陽，故夏太后獨別葬杜東，曰「東望吾子，西望吾夫。後百年，旁當有萬家邑」。",
-          "person_mention_id": "c-shiji-085-lubuwei:m011-0009"
+          "person_mention_id": "c-shiji-085-lubuwei:m011-0009",
+          "quote_passage_ref": "data/corpus/shiji/085.json"
         }
       ],
       "source_term": "夏太后獨別葬杜東",
@@ -100,7 +100,6 @@
       "raw_count": 1,
       "duplicate_count": 0,
       "counting_policy": "independent_fixed_witness_occurrences",
-      "quote": "五月見西方。將軍驁死。以攻龍、孤、慶都，還兵攻汲。彗星復見西方十六日。夏太后死。",
       "paragraph_ids": [
         "c-shiji-006-shihuang:p008"
       ],
@@ -124,7 +123,12 @@
       "book_id": "b-shiji-006",
       "chapter_id": "c-shiji-006-shihuang",
       "source_id": "s-shiji-006-shihuang",
-      "work_title": "史記"
+      "work_title": "史記",
+      "chapter_ref": "data/corpus/shiji/006.json",
+      "quote_span": [
+        14,
+        54
+      ]
     },
     {
       "number": 85,
@@ -135,7 +139,6 @@
       "raw_count": 6,
       "duplicate_count": 0,
       "counting_policy": "independent_fixed_witness_occurrences",
-      "quote": "，立以為正夫人，號曰華陽夫人。華陽夫人無子。安國君中男名子楚，子楚母曰夏姬，毋愛。子楚為秦質子於趙。秦數攻趙，趙不甚禮子楚。",
       "paragraph_ids": [
         "c-shiji-085-lubuwei:p002",
         "c-shiji-085-lubuwei:p007",
@@ -206,7 +209,12 @@
       "book_id": "b-shiji-085",
       "chapter_id": "c-shiji-085-lubuwei",
       "source_id": "s-shiji-085-lubuwei",
-      "work_title": "史記"
+      "work_title": "史記",
+      "chapter_ref": "data/corpus/shiji/085.json",
+      "quote_span": [
+        46,
+        108
+      ]
     }
   ],
   "table_occurrences": [
@@ -214,7 +222,6 @@
       "table_id": "shiji-015",
       "cell_id": "shiji-015-r237-c01",
       "title": "《史記·六國年表》",
-      "quote": "七。彗星見北方西方。夏太后薨。蒙驁死。",
       "year": {
         "era": "BCE",
         "value": 240,
@@ -237,7 +244,8 @@
       "book_id": "b-shiji-015",
       "chapter_id": "table-chapter-shiji-015",
       "source_id": "table-witness-shiji-015",
-      "source_revision": "2607002"
+      "source_revision": "2607002",
+      "quote_ref": "cell"
     }
   ],
   "sources": [
@@ -246,96 +254,21 @@
       "work_id": "w-shiji",
       "book_id": "b-shiji-006",
       "source_id": "s-shiji-006-shihuang",
-      "source": {
-        "title": "史記／卷006",
-        "provider": "維基文庫",
-        "url": "https://zh.wikisource.org/wiki/史記/卷006",
-        "permalink": "https://zh.wikisource.org/w/index.php?title=史記/卷006&oldid=7907969",
-        "revision_id": 7907969,
-        "accessed_on": "2026-10-09",
-        "extent": "數位見證127個文字區塊，含16個dd刻辭或嵌入引文及卷末附載班固記；排除導覽、跨站連結與註號。",
-        "image_verified": false,
-        "rights": "古代原文與附載文字；數位轉錄依維基文庫CC BY-SA 4.0，保留署名及固定版本。",
-        "license_url": "https://creativecommons.org/licenses/by-sa/4.0/",
-        "normalization": {
-          "character_conversion": {},
-          "note": "正文未改寫；行內校勘標記及附載文字仍待逐處核對。固定版本正文HTML重讀一致。",
-          "editorial_readings": [
-            {
-              "paragraph_id": "c-shiji-006-shihuang:p010",
-              "witness_form": "（四）［是］",
-              "body_reading": "四",
-              "note": "數位見證行內校勘標記另存；正文保留改讀前的字，不稱已校定底本。"
-            },
-            {
-              "paragraph_id": "c-shiji-006-shihuang:p016",
-              "witness_form": "（薊）［荊］",
-              "body_reading": "薊",
-              "note": "數位見證行內校勘標記另存；正文保留改讀前的字，不稱已校定底本。"
-            },
-            {
-              "paragraph_id": "c-shiji-006-shihuang:p051",
-              "witness_form": "（其）",
-              "body_reading": "",
-              "note": "數位見證行內刪字標記另存；未核底本，不稱校定讀法。"
-            },
-            {
-              "paragraph_id": "c-shiji-006-shihuang:p061",
-              "witness_form": "（者）",
-              "body_reading": "",
-              "note": "數位見證行內刪字標記另存；未核底本，不稱校定讀法。"
-            }
-          ],
-          "extraction_note": "按正文p及dd區塊原有次序錄入；dd用前一段ID加block後綴，既有p段落ID不變。正文前兩個dd為維基百科與文言維基大典導覽，排除。"
-        }
-      }
+      "chapter_ref": "data/corpus/shiji/006.json"
     },
     {
       "chapter_id": "c-shiji-085-lubuwei",
       "work_id": "w-shiji",
       "book_id": "b-shiji-085",
       "source_id": "s-shiji-085-lubuwei",
-      "source": {
-        "title": "史記／卷085",
-        "provider": "維基文庫",
-        "url": "https://zh.wikisource.org/wiki/史記/卷085",
-        "permalink": "https://zh.wikisource.org/w/index.php?title=史記/卷085&oldid=2027911",
-        "revision_id": 2027911,
-        "accessed_on": "2026-10-09",
-        "extent": "16段正文含太史公論，排除導覽、索隱述贊及現代版權。",
-        "image_verified": false,
-        "rights": "古代原文；數位轉錄依維基文庫CC BY-SA 4.0，保留署名及固定版本。",
-        "license_url": "https://creativecommons.org/licenses/by-sa/4.0/",
-        "normalization": {
-          "character_conversion": {},
-          "editorial_readings": [],
-          "extraction_note": "固定HTML與取得時版本一致，只去外緣空白；正文未見括號校讀提示。",
-          "note": "全16段正文與HTML篇界已核讀，明示姓名首輪已存；未核影像與現代研究。"
-        }
-      }
+      "chapter_ref": "data/corpus/shiji/085.json"
     },
     {
       "chapter_id": "table-chapter-shiji-015",
       "work_id": "w-shiji",
       "book_id": "b-shiji-015",
       "source_id": "table-witness-shiji-015",
-      "source": {
-        "id": "table-witness-shiji-015",
-        "work_id": "w-shiji",
-        "book_id": "b-shiji-015",
-        "chapter_id": "table-chapter-shiji-015",
-        "url": "https://zh.wikisource.org/wiki/史記/卷015",
-        "revision_url": "https://zh.wikisource.org/w/index.php?title=史記/卷015&oldid=2607002",
-        "revision": "2607002",
-        "accessed": "2026-10-12",
-        "response_sha256": "eb0624a019e02c24ce90a40bfa24863f4020878062c6e2efea32355033be5559",
-        "edition": null,
-        "image_verified": false,
-        "rights": "古籍正文公有領域；維基文庫轉錄及編輯內容依 CC BY-SA 條款，署名維基文庫貢獻者。",
-        "rights_url": "https://zh.wikisource.org/wiki/Wikisource:版權信息",
-        "review_status": "agent_first_pass_named_entities",
-        "note": "完整數位表格結構匯入，未逐格學術覆核。未核讀印本影像，原印本頁碼未知。西元欄沿用此數位轉錄的編者對照，不是古籍原有西元紀年，也不引用其維基百科外連。"
-      }
+      "table_source_ref": "shiji-015"
     }
   ],
   "relations": [
@@ -350,7 +283,7 @@
           "chapter_id": "c-shiji-085-lubuwei",
           "source_id": "s-shiji-085-lubuwei",
           "paragraph_id": "c-shiji-085-lubuwei:p002",
-          "quote": "秦昭王四十年，太子死。其四十二年，以其次子安國君為太子。安國君有子二十餘人。安國君有所甚愛姬，立以為正夫人，號曰華陽夫人。華陽夫人無子。安國君中男名子楚，子楚母曰夏姬，毋愛。子楚為秦質子於趙。秦數攻趙，趙不甚禮子楚。"
+          "quote_passage_ref": "data/corpus/shiji/085.json"
         }
       ],
       "qualifiers": {
@@ -379,8 +312,8 @@
           "chapter_id": "c-shiji-085-lubuwei",
           "source_id": "s-shiji-085-lubuwei",
           "paragraph_id": "c-shiji-085-lubuwei:p011",
-          "quote": "始皇七年，莊襄王母夏太后薨。孝文王后曰華陽太后，與孝文王會葬壽陵。夏太后子莊襄王葬芷陽，故夏太后獨別葬杜東，曰「東望吾子，西望吾夫。後百年，旁當有萬家邑」。",
-          "person_mention_id": "c-shiji-085-lubuwei:m011-0009"
+          "person_mention_id": "c-shiji-085-lubuwei:m011-0009",
+          "quote_passage_ref": "data/corpus/shiji/085.json"
         }
       ],
       "references": [
@@ -426,7 +359,7 @@
           "chapter_id": "c-shiji-085-lubuwei",
           "source_id": "s-shiji-085-lubuwei",
           "paragraph_id": "c-shiji-085-lubuwei:p002",
-          "quote": "秦昭王四十年，太子死。其四十二年，以其次子安國君為太子。安國君有子二十餘人。安國君有所甚愛姬，立以為正夫人，號曰華陽夫人。華陽夫人無子。安國君中男名子楚，子楚母曰夏姬，毋愛。子楚為秦質子於趙。秦數攻趙，趙不甚禮子楚。"
+          "quote_passage_ref": "data/corpus/shiji/085.json"
         }
       ],
       "qualifiers": {
@@ -450,8 +383,8 @@
           "chapter_id": "c-shiji-006-shihuang",
           "source_id": "s-shiji-006-shihuang",
           "paragraph_id": "c-shiji-006-shihuang:p008",
-          "quote": "七年，彗星先出東方，見北方，五月見西方。將軍驁死。以攻龍、孤、慶都，還兵攻汲。彗星復見西方十六日。夏太后死。",
-          "person_mention_id": "c-shiji-006-shihuang:m008-0049"
+          "person_mention_id": "c-shiji-006-shihuang:m008-0049",
+          "quote_passage_ref": "data/corpus/shiji/006.json"
         }
       ],
       "source_term": "夏太后死",
@@ -471,8 +404,8 @@
           "chapter_id": "c-shiji-085-lubuwei",
           "source_id": "s-shiji-085-lubuwei",
           "paragraph_id": "c-shiji-085-lubuwei:p011",
-          "quote": "始皇七年，莊襄王母夏太后薨。孝文王后曰華陽太后，與孝文王會葬壽陵。夏太后子莊襄王葬芷陽，故夏太后獨別葬杜東，曰「東望吾子，西望吾夫。後百年，旁當有萬家邑」。",
-          "person_mention_id": "c-shiji-085-lubuwei:m011-0009"
+          "person_mention_id": "c-shiji-085-lubuwei:m011-0009",
+          "quote_passage_ref": "data/corpus/shiji/085.json"
         }
       ],
       "normalized_date": {
@@ -488,8 +421,8 @@
             "chapter_id": "c-shiji-085-lubuwei",
             "source_id": "s-shiji-085-lubuwei",
             "paragraph_id": "c-shiji-085-lubuwei:p011",
-            "quote": "始皇七年，莊襄王母夏太后薨。孝文王后曰華陽太后，與孝文王會葬壽陵。夏太后子莊襄王葬芷陽，故夏太后獨別葬杜東，曰「東望吾子，西望吾夫。後百年，旁當有萬家邑」。",
-            "person_mention_id": "c-shiji-085-lubuwei:m011-0009"
+            "person_mention_id": "c-shiji-085-lubuwei:m011-0009",
+            "quote_passage_ref": "data/corpus/shiji/085.json"
           }
         ],
         "references": [

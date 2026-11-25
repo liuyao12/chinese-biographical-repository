@@ -20,7 +20,6 @@
       "raw_count": 2,
       "duplicate_count": 0,
       "counting_policy": "independent_fixed_witness_occurrences",
-      "quote": "高后時，盧綰妻子亡降漢，會高后病，不能見，舍燕邸，為欲置酒見之。高祖竟崩，不得見。盧綰妻亦病死。",
       "paragraph_ids": [
         "c-shiji-093-hanlu:p012"
       ],
@@ -53,7 +52,12 @@
       "book_id": "b-shiji-093",
       "chapter_id": "c-shiji-093-hanlu",
       "source_id": "s-shiji-093-hanlu",
-      "work_title": "史記"
+      "work_title": "史記",
+      "chapter_ref": "data/corpus/shiji/093.json",
+      "quote_span": [
+        0,
+        48
+      ]
     }
   ],
   "table_occurrences": [],
@@ -63,24 +67,7 @@
       "work_id": "w-shiji",
       "book_id": "b-shiji-093",
       "source_id": "s-shiji-093-hanlu",
-      "source": {
-        "title": "史記／卷093",
-        "provider": "維基文庫",
-        "url": "https://zh.wikisource.org/wiki/史記/卷093",
-        "permalink": "https://zh.wikisource.org/w/index.php?title=史記/卷093&oldid=368019",
-        "revision_id": 368019,
-        "accessed_on": "2026-10-09",
-        "extent": "20段傳世正文含太史公論，另附1段witness_appended_suoyin_zan，排除導覽與空白段。",
-        "image_verified": false,
-        "rights": "古代原文；數位轉錄依維基文庫CC BY-SA 4.0，保留署名及固定版本。",
-        "license_url": "https://creativecommons.org/licenses/by-sa/4.0/",
-        "normalization": {
-          "character_conversion": {},
-          "editorial_readings": [],
-          "extraction_note": "固定HTML一致，只去外緣空白；（與）其與、代（上）谷、虜綰、臧茶、龍頟及高祖竟崩原字保留。",
-          "note": "全23個HTML區塊已讀，未核底本影像，疑字不擅改。"
-        }
-      }
+      "chapter_ref": "data/corpus/shiji/093.json"
     }
   ],
   "relations": [
@@ -95,7 +82,7 @@
           "chapter_id": "c-shiji-093-hanlu",
           "source_id": "s-shiji-093-hanlu",
           "paragraph_id": "c-shiji-093-hanlu:p012",
-          "quote": "高后時，盧綰妻子亡降漢，會高后病，不能見，舍燕邸，為欲置酒見之。高祖竟崩，不得見。盧綰妻亦病死。"
+          "quote_passage_ref": "data/corpus/shiji/093.json"
         }
       ],
       "qualifiers": {
@@ -127,7 +114,7 @@
           "chapter_id": "c-shiji-093-hanlu",
           "source_id": "s-shiji-093-hanlu",
           "paragraph_id": "c-shiji-093-hanlu:p012",
-          "quote": "高后時，盧綰妻子亡降漢，會高后病，不能見，舍燕邸，為欲置酒見之。高祖竟崩，不得見。盧綰妻亦病死。"
+          "quote_passage_ref": "data/corpus/shiji/093.json"
         }
       ],
       "qualifiers": {
@@ -152,8 +139,8 @@
           "chapter_id": "c-shiji-093-hanlu",
           "source_id": "s-shiji-093-hanlu",
           "paragraph_id": "c-shiji-093-hanlu:p012",
-          "quote": "高后時，盧綰妻子亡降漢，會高后病，不能見，舍燕邸，為欲置酒見之。高祖竟崩，不得見。盧綰妻亦病死。",
-          "person_mention_id": "c-shiji-093-hanlu:m012-0006"
+          "person_mention_id": "c-shiji-093-hanlu:m012-0006",
+          "quote_passage_ref": "data/corpus/shiji/093.json"
         }
       ],
       "interpretation_note": "本段高祖竟崩與三家註數位正文高后竟崩有異，妻病死有直接記載，但不據此補確切卒年或死亡地。",

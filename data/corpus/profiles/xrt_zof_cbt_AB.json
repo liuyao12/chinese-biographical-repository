@@ -23,7 +23,7 @@
           "chapter_id": "c-shiji-037-wei",
           "source_id": "s-shiji-037-wei",
           "paragraph_id": "c-shiji-037-wei:p010",
-          "quote": "莊公五年，取齊女爲夫人，好而無子。又取陳女爲夫人，生子，蚤死。陳女女弟亦幸於莊公，而生子完。完母死，莊公令夫人齊女子之，立爲太子。莊公有寵妾，生子州吁。十八年，州吁長，好兵，莊公使將。石碏諫莊公曰：「庶子好兵，使將，亂自此起。」不聽。二十三年，莊公卒，太子完立，是爲桓公。"
+          "quote_passage_ref": "data/corpus/shiji/037.json"
         }
       ],
       "attestations": [
@@ -102,7 +102,7 @@
               "chapter_id": "c-shiji-037-wei",
               "source_id": "s-shiji-037-wei",
               "paragraph_id": "c-shiji-037-wei:p010",
-              "quote": "莊公五年，取齊女爲夫人，好而無子。又取陳女爲夫人，生子，蚤死。陳女女弟亦幸於莊公，而生子完。完母死，莊公令夫人齊女子之，立爲太子。莊公有寵妾，生子州吁。十八年，州吁長，好兵，莊公使將。石碏諫莊公曰：「庶子好兵，使將，亂自此起。」不聽。二十三年，莊公卒，太子完立，是爲桓公。"
+              "quote_passage_ref": "data/corpus/shiji/037.json"
             }
           ]
         }
@@ -123,7 +123,6 @@
       "raw_count": 10,
       "duplicate_count": 0,
       "counting_policy": "independent_fixed_witness_occurrences",
-      "quote": "夫人，好而無子。又取陳女爲夫人，生子，蚤死。陳女女弟亦幸於莊公，而生子完。完母死，莊公令夫人齊女子之，立爲太子。莊公有寵妾，生子州吁。十八年，州吁長，好兵，莊公使將。石碏諫莊公曰：「庶子好兵，使將，亂自此起。」不聽。二十三年，莊公卒，太子完立，是爲桓公。",
       "paragraph_ids": [
         "c-shiji-037-wei:p010",
         "c-shiji-037-wei:p011"
@@ -229,7 +228,12 @@
       "book_id": "b-shiji-037",
       "chapter_id": "c-shiji-037-wei",
       "source_id": "s-shiji-037-wei",
-      "work_title": "史記"
+      "work_title": "史記",
+      "chapter_ref": "data/corpus/shiji/037.json",
+      "quote_span": [
+        9,
+        136
+      ]
     },
     {
       "number": 38,
@@ -240,7 +244,6 @@
       "raw_count": 1,
       "duplicate_count": 0,
       "counting_policy": "independent_fixed_witness_occurrences",
-      "quote": "殤公元年，衛公子州吁弒其君完自立，欲得諸矦，使告於宋曰：「馮在鄭，必爲亂，可與我伐之。」宋許之，與伐鄭，至東門而還。二年，鄭伐宋，以報東門之役。其後諸矦數來侵伐。",
       "paragraph_ids": [
         "c-shiji-038-song:p030"
       ],
@@ -264,7 +267,12 @@
       "book_id": "b-shiji-038",
       "chapter_id": "c-shiji-038-song",
       "source_id": "s-shiji-038-song",
-      "work_title": "史記"
+      "work_title": "史記",
+      "chapter_ref": "data/corpus/shiji/038.json",
+      "quote_span": [
+        0,
+        81
+      ]
     }
   ],
   "table_occurrences": [],
@@ -274,69 +282,14 @@
       "work_id": "w-shiji",
       "book_id": "b-shiji-037",
       "source_id": "s-shiji-037-wei",
-      "source": {
-        "title": "史記／卷037",
-        "provider": "維基文庫",
-        "url": "https://zh.wikisource.org/wiki/史記/卷037",
-        "permalink": "https://zh.wikisource.org/w/index.php?title=史記/卷037&oldid=5977124",
-        "revision_id": 5977124,
-        "accessed_on": "2026-10-09",
-        "extent": "53段傳世正文，自衞康叔名封至太史公論贊，另保留1段數位見證附載索隱述贊並分層；排除2個dd導覽。",
-        "image_verified": false,
-        "rights": "古代原文；數位轉錄依維基文庫CC BY-SA 4.0，保留署名及固定版本。",
-        "license_url": "https://creativecommons.org/licenses/by-sa/4.0/",
-        "normalization": {
-          "character_conversion": {
-            "绖": "絰"
-          },
-          "editorial_readings": [
-            {
-              "paragraph_id": "c-shiji-037-wei:p027",
-              "rendered": "史Template:按",
-              "wikitext": "史{{按|魚}}",
-              "transcribed": "史魚",
-              "reason": "同一固定版本的按模板失效；取原始標記明示的魚字恢復轉錄，不是依模型補名或底本校勘。"
-            }
-          ],
-          "extraction_note": "固定版本與實讀HTML一致。第31段绖轉絰；第27段失效模板按同版原始標記修復。衞、偼、呉、徴、盂黶等其餘原字不默改。末段標題在h2索隱述贊，另層保留，不把標題添加到原段。",
-          "note": "未核可靠古籍底本及影像，原紀年、世系及異體保留。未以後世研究摘要直接修改親屬或身份。"
-        }
-      }
+      "chapter_ref": "data/corpus/shiji/037.json"
     },
     {
       "chapter_id": "c-shiji-038-song",
       "work_id": "w-shiji",
       "book_id": "b-shiji-038",
       "source_id": "s-shiji-038-song",
-      "source": {
-        "title": "史記／卷038",
-        "provider": "維基文庫",
-        "url": "https://zh.wikisource.org/wiki/史記/卷038",
-        "permalink": "https://zh.wikisource.org/w/index.php?title=史記/卷038&oldid=8737306",
-        "revision_id": 8737306,
-        "accessed_on": "2026-10-09",
-        "extent": "59段正文，自微子開至太史公論贊；排除2個dd導覽、正文邊界空白、末端空p與現代版權模板。本見證未見索隱述贊。",
-        "image_verified": false,
-        "rights": "古代原文；數位轉錄依維基文庫CC BY-SA 4.0，保留署名及固定版本。",
-        "license_url": "https://creativecommons.org/licenses/by-sa/4.0/",
-        "normalization": {
-          "character_conversion": {},
-          "editorial_readings": [
-            {
-              "paragraph_id": "c-shiji-038-song:p001",
-              "witness_note": "〈避漢景帝諱啓，改啓爲開〉",
-              "treatment": "數位見證的避諱說明另存，不作古文或景帝在場人物。"
-            },
-            {
-              "paragraph_id": "c-shiji-038-song:p050",
-              "witness_note": "傳世本「戌」作「成」；數位註釋援引公羊傳及鐘銘主張成為訛字。",
-              "treatment": "移除HTML sup reference註號[1]，正文保留本版戌；註者身份及所引古籍、鐘銘尚未獨立核讀，不直接採為校定。"
-            }
-          ],
-          "extraction_note": "固定版本與實讀HTML一致；只去除段落首尾版面換行、開篇明示數位避諱說明及第50段HTML reference註號。保留段內標點、古字、戌、鮑革、唐山、褍秦、頭曼及（鄭）［楚］命（楚）［鄭］的行內校勘。",
-          "note": "未核可靠古籍底本及影像，古代原紀年、世系與數位見證讀法保留；不以版本註釋或後世研究直接重指人物。"
-        }
-      }
+      "chapter_ref": "data/corpus/shiji/038.json"
     }
   ],
   "relations": [
@@ -351,7 +304,7 @@
           "chapter_id": "c-shiji-037-wei",
           "source_id": "s-shiji-037-wei",
           "paragraph_id": "c-shiji-037-wei:p010",
-          "quote": "莊公五年，取齊女爲夫人，好而無子。又取陳女爲夫人，生子，蚤死。陳女女弟亦幸於莊公，而生子完。完母死，莊公令夫人齊女子之，立爲太子。莊公有寵妾，生子州吁。十八年，州吁長，好兵，莊公使將。石碏諫莊公曰：「庶子好兵，使將，亂自此起。」不聽。二十三年，莊公卒，太子完立，是爲桓公。"
+          "quote_passage_ref": "data/corpus/shiji/037.json"
         }
       ],
       "qualifiers": {
@@ -372,7 +325,7 @@
           "chapter_id": "c-shiji-037-wei",
           "source_id": "s-shiji-037-wei",
           "paragraph_id": "c-shiji-037-wei:p010",
-          "quote": "莊公五年，取齊女爲夫人，好而無子。又取陳女爲夫人，生子，蚤死。陳女女弟亦幸於莊公，而生子完。完母死，莊公令夫人齊女子之，立爲太子。莊公有寵妾，生子州吁。十八年，州吁長，好兵，莊公使將。石碏諫莊公曰：「庶子好兵，使將，亂自此起。」不聽。二十三年，莊公卒，太子完立，是爲桓公。"
+          "quote_passage_ref": "data/corpus/shiji/037.json"
         }
       ],
       "qualifiers": {
@@ -393,7 +346,7 @@
           "chapter_id": "c-shiji-037-wei",
           "source_id": "s-shiji-037-wei",
           "paragraph_id": "c-shiji-037-wei:p011",
-          "quote": "桓公二年，弟州吁驕奢，桓公絀之，州吁出奔。十三年，鄭伯弟段攻其兄，不勝，亡，而州吁求與之友。十六年，州吁收聚衞亡人以襲殺桓公，州吁自立爲衞君。爲鄭伯弟段欲伐鄭，請宋、陳、蔡與倶，三國皆許州吁。州吁新立，好兵，弒桓公，衞人皆不愛。石碏乃因桓公母家於陳，詳爲善州吁。至鄭郊，石碏與陳侯共謀，使右宰丑進食，因殺州吁于濮，而迎桓公弟晉於邢而立之，是爲宣公。"
+          "quote_passage_ref": "data/corpus/shiji/037.json"
         }
       ],
       "qualifiers": {
@@ -414,7 +367,7 @@
           "chapter_id": "c-shiji-037-wei",
           "source_id": "s-shiji-037-wei",
           "paragraph_id": "c-shiji-037-wei:p011",
-          "quote": "桓公二年，弟州吁驕奢，桓公絀之，州吁出奔。十三年，鄭伯弟段攻其兄，不勝，亡，而州吁求與之友。十六年，州吁收聚衞亡人以襲殺桓公，州吁自立爲衞君。爲鄭伯弟段欲伐鄭，請宋、陳、蔡與倶，三國皆許州吁。州吁新立，好兵，弒桓公，衞人皆不愛。石碏乃因桓公母家於陳，詳爲善州吁。至鄭郊，石碏與陳侯共謀，使右宰丑進食，因殺州吁于濮，而迎桓公弟晉於邢而立之，是爲宣公。"
+          "quote_passage_ref": "data/corpus/shiji/037.json"
         }
       ],
       "qualifiers": {
@@ -445,19 +398,19 @@
       "evidence": [
         {
           "paragraph_id": "c-shiji-037-wei:p011",
-          "quote": "桓公二年，弟州吁驕奢，桓公絀之，州吁出奔。十三年，鄭伯弟段攻其兄，不勝，亡，而州吁求與之友。十六年，州吁收聚衞亡人以襲殺桓公，州吁自立爲衞君。爲鄭伯弟段欲伐鄭，請宋、陳、蔡與倶，三國皆許州吁。州吁新立，好兵，弒桓公，衞人皆不愛。石碏乃因桓公母家於陳，詳爲善州吁。至鄭郊，石碏與陳侯共謀，使右宰丑進食，因殺州吁于濮，而迎桓公弟晉於邢而立之，是爲宣公。",
           "chapter_id": "c-shiji-037-wei",
           "work_id": "w-shiji",
           "book_id": "b-shiji-037",
-          "source_id": "s-shiji-037-wei"
+          "source_id": "s-shiji-037-wei",
+          "quote_passage_ref": "data/corpus/shiji/037.json"
         },
         {
           "paragraph_id": "c-shiji-037-wei:p019",
-          "quote": "齊桓公以衞數亂，乃率諸侯伐翟，爲衞築楚丘，立戴公弟燬爲衞君，是爲文公。文公以亂故奔齊，齊人入之。",
           "chapter_id": "c-shiji-037-wei",
           "work_id": "w-shiji",
           "book_id": "b-shiji-037",
-          "source_id": "s-shiji-037-wei"
+          "source_id": "s-shiji-037-wei",
+          "quote_passage_ref": "data/corpus/shiji/037.json"
         }
       ],
       "rationale": "衛桓公完遭州吁弒與齊桓公築楚丘是不同國君。",
@@ -480,7 +433,7 @@
           "chapter_id": "c-shiji-037-wei",
           "source_id": "s-shiji-037-wei",
           "paragraph_id": "c-shiji-037-wei:p010",
-          "quote": "莊公五年，取齊女爲夫人，好而無子。又取陳女爲夫人，生子，蚤死。陳女女弟亦幸於莊公，而生子完。完母死，莊公令夫人齊女子之，立爲太子。莊公有寵妾，生子州吁。十八年，州吁長，好兵，莊公使將。石碏諫莊公曰：「庶子好兵，使將，亂自此起。」不聽。二十三年，莊公卒，太子完立，是爲桓公。"
+          "quote_passage_ref": "data/corpus/shiji/037.json"
         }
       ],
       "qualifiers": {
@@ -501,7 +454,7 @@
           "chapter_id": "c-shiji-037-wei",
           "source_id": "s-shiji-037-wei",
           "paragraph_id": "c-shiji-037-wei:p010",
-          "quote": "莊公五年，取齊女爲夫人，好而無子。又取陳女爲夫人，生子，蚤死。陳女女弟亦幸於莊公，而生子完。完母死，莊公令夫人齊女子之，立爲太子。莊公有寵妾，生子州吁。十八年，州吁長，好兵，莊公使將。石碏諫莊公曰：「庶子好兵，使將，亂自此起。」不聽。二十三年，莊公卒，太子完立，是爲桓公。"
+          "quote_passage_ref": "data/corpus/shiji/037.json"
         }
       ],
       "qualifiers": {
@@ -522,7 +475,7 @@
           "chapter_id": "c-shiji-037-wei",
           "source_id": "s-shiji-037-wei",
           "paragraph_id": "c-shiji-037-wei:p011",
-          "quote": "桓公二年，弟州吁驕奢，桓公絀之，州吁出奔。十三年，鄭伯弟段攻其兄，不勝，亡，而州吁求與之友。十六年，州吁收聚衞亡人以襲殺桓公，州吁自立爲衞君。爲鄭伯弟段欲伐鄭，請宋、陳、蔡與倶，三國皆許州吁。州吁新立，好兵，弒桓公，衞人皆不愛。石碏乃因桓公母家於陳，詳爲善州吁。至鄭郊，石碏與陳侯共謀，使右宰丑進食，因殺州吁于濮，而迎桓公弟晉於邢而立之，是爲宣公。"
+          "quote_passage_ref": "data/corpus/shiji/037.json"
         }
       ],
       "qualifiers": {
@@ -543,7 +496,7 @@
           "chapter_id": "c-shiji-037-wei",
           "source_id": "s-shiji-037-wei",
           "paragraph_id": "c-shiji-037-wei:p011",
-          "quote": "桓公二年，弟州吁驕奢，桓公絀之，州吁出奔。十三年，鄭伯弟段攻其兄，不勝，亡，而州吁求與之友。十六年，州吁收聚衞亡人以襲殺桓公，州吁自立爲衞君。爲鄭伯弟段欲伐鄭，請宋、陳、蔡與倶，三國皆許州吁。州吁新立，好兵，弒桓公，衞人皆不愛。石碏乃因桓公母家於陳，詳爲善州吁。至鄭郊，石碏與陳侯共謀，使右宰丑進食，因殺州吁于濮，而迎桓公弟晉於邢而立之，是爲宣公。"
+          "quote_passage_ref": "data/corpus/shiji/037.json"
         }
       ],
       "qualifiers": {
@@ -567,8 +520,8 @@
           "chapter_id": "c-shiji-037-wei",
           "source_id": "s-shiji-037-wei",
           "paragraph_id": "c-shiji-037-wei:p011",
-          "quote": "桓公二年，弟州吁驕奢，桓公絀之，州吁出奔。十三年，鄭伯弟段攻其兄，不勝，亡，而州吁求與之友。十六年，州吁收聚衞亡人以襲殺桓公，州吁自立爲衞君。爲鄭伯弟段欲伐鄭，請宋、陳、蔡與倶，三國皆許州吁。州吁新立，好兵，弒桓公，衞人皆不愛。石碏乃因桓公母家於陳，詳爲善州吁。至鄭郊，石碏與陳侯共謀，使右宰丑進食，因殺州吁于濮，而迎桓公弟晉於邢而立之，是爲宣公。",
-          "person_mention_id": "c-shiji-037-wei:m011-0000"
+          "person_mention_id": "c-shiji-037-wei:m011-0000",
+          "quote_passage_ref": "data/corpus/shiji/037.json"
         }
       ],
       "source_term": "襲殺桓公",
@@ -587,8 +540,8 @@
           "chapter_id": "c-shiji-038-song",
           "source_id": "s-shiji-038-song",
           "paragraph_id": "c-shiji-038-song:p030",
-          "quote": "殤公元年，衛公子州吁弒其君完自立，欲得諸矦，使告於宋曰：「馮在鄭，必爲亂，可與我伐之。」宋許之，與伐鄭，至東門而還。二年，鄭伐宋，以報東門之役。其後諸矦數來侵伐。",
-          "person_mention_id": "c-shiji-038-song:m030-0013"
+          "person_mention_id": "c-shiji-038-song:m030-0013",
+          "quote_passage_ref": "data/corpus/shiji/038.json"
         }
       ],
       "source_term": "弒其君完",

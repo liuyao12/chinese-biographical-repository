@@ -21,7 +21,7 @@
           "chapter_id": "c-shiji-110-xiongnu",
           "source_id": "s-shiji110-xiongnu",
           "paragraph_id": "c-shiji-110-xiongnu:p060",
-          "quote": "後二歳，復使貳師將軍將六萬騎，步兵十萬，出朔方。彊弩都尉路博德將萬餘人，與貳師會。游擊將軍說將步騎三萬人，出五原。因杅將軍敖將萬騎步兵三萬人，出鴈門。匈奴聞，悉遠其累重於余吾水北，而單于以十萬騎待水南，與貳師將軍接戰。貳師乃解而引歸，與單于連戰十餘日。貳師聞其家以巫蠱族滅，因并眾降匈奴，得來還千人一兩人耳。游擊說無所得。因杅敖與左賢王戰，不利，引歸。是歳漢兵之出擊匈奴者不得言功多少，功不得御。有詔捕太醫令隨但，言貳師將軍家室族滅，使廣利得降匈奴。"
+          "quote_passage_ref": "data/corpus/shiji/110.json"
         }
       ],
       "attestations": [
@@ -63,7 +63,6 @@
       "raw_count": 1,
       "duplicate_count": 0,
       "counting_policy": "independent_fixed_witness_occurrences",
-      "quote": "，不利，引歸。是歳漢兵之出擊匈奴者不得言功多少，功不得御。有詔捕太醫令隨但，言貳師將軍家室族滅，使廣利得降匈奴。",
       "paragraph_ids": [
         "c-shiji-110-xiongnu:p060"
       ],
@@ -87,7 +86,12 @@
       "book_id": "b-shiji-110",
       "chapter_id": "c-shiji-110-xiongnu",
       "source_id": "s-shiji110-xiongnu",
-      "work_title": "史記"
+      "work_title": "史記",
+      "chapter_ref": "data/corpus/shiji/110.json",
+      "quote_span": [
+        169,
+        225
+      ]
     }
   ],
   "table_occurrences": [],
@@ -97,24 +101,7 @@
       "work_id": "w-shiji",
       "book_id": "b-shiji-110",
       "source_id": "s-shiji110-xiongnu",
-      "source": {
-        "title": "史記／卷110",
-        "provider": "維基文庫",
-        "url": "https://zh.wikisource.org/wiki/史記/卷110",
-        "permalink": "https://zh.wikisource.org/w/index.php?title=史記/卷110&oldid=8735645",
-        "revision_id": 8735645,
-        "accessed_on": "2026-10-11",
-        "extent": "固定數位見證去介面及現代節標題後61段，末段為太史公論。",
-        "image_verified": false,
-        "rights": "古代原文；數位轉錄依維基文庫CC BY-SA 4.0，保留署名及固定版本。",
-        "license_url": "https://creativecommons.org/licenses/by-sa/4.0/",
-        "normalization": {
-          "character_conversion": {},
-          "editorial_readings": [],
-          "extraction_note": "去 header2 介面及現代單于節標題、太史公曰節標題；移除單字語言轉換包裹與下劃線標籤，紀年 YL 模板保留顯示原詞。其餘原字、標點及段落次序保留，不從小標題補正文人名。",
-          "note": "未核底本影像。"
-        }
-      }
+      "chapter_ref": "data/corpus/shiji/110.json"
     }
   ],
   "relations": [],

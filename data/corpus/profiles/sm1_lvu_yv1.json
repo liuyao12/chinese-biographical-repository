@@ -21,7 +21,7 @@
           "chapter_id": "c-shiji-126-huaji",
           "source_id": "s-shiji126-huaji",
           "paragraph_id": "c-shiji-126-huaji:p023",
-          "quote": "魏文侯時，西門豹為鄴令。豹往到鄴，會長老，問之民所疾苦。長老曰：「苦為河伯娶婦，以故貧。」豹問其故，對曰：「鄴三老、廷掾常歲賦斂百姓，收取其錢得數百萬，用其二三十萬為河伯娶婦，與祝巫共分其餘錢持歸。當其時，巫行視小家女好者，云是當為河伯婦，即娉取。洗沐之，為治新繒綺縠衣，閒居齋戒；為治齋宮河上，張緹絳帷，女居其中。為具牛酒飯食，行十餘日。共粉飾之，如嫁女床席，令女居其上，浮之河中。始浮，行數十里乃沒。其人家有好女者，恐大巫祝為河伯取之，以故多持女遠逃亡。以故城中益空無人，又困貧，所從來久遠矣。民人俗語曰『即不為河伯娶婦，水來漂沒，溺其人民』云。」西門豹曰：「至為河伯娶婦時，願三老、巫祝、父老送女河上，幸來告語之，吾亦往送女。」皆曰：「諾。」"
+          "quote_passage_ref": "data/corpus/shiji/126.json"
         }
       ],
       "attestations": [
@@ -64,7 +64,6 @@
       "raw_count": 1,
       "duplicate_count": 0,
       "counting_policy": "independent_fixed_witness_occurrences",
-      "quote": "魏文侯時，西門豹為鄴令。豹往到鄴，會長老，問之民所疾苦。長老曰：「苦為河伯娶婦，以故貧。」豹問其故，對曰：「鄴三老、廷掾常歲賦斂百姓，收取其錢得數百萬，用其二三十萬為河伯娶婦，與祝巫共分其餘錢持歸。當其時，",
       "paragraph_ids": [
         "c-shiji-126-huaji:p023"
       ],
@@ -88,7 +87,12 @@
       "book_id": "b-shiji-126",
       "chapter_id": "c-shiji-126-huaji",
       "source_id": "s-shiji126-huaji",
-      "work_title": "史記"
+      "work_title": "史記",
+      "chapter_ref": "data/corpus/shiji/126.json",
+      "quote_span": [
+        0,
+        103
+      ]
     }
   ],
   "table_occurrences": [],
@@ -98,24 +102,7 @@
       "work_id": "w-shiji",
       "book_id": "b-shiji-126",
       "source_id": "s-shiji126-huaji",
-      "source": {
-        "title": "史記／卷126",
-        "provider": "維基文庫",
-        "url": "https://zh.wikisource.org/wiki/史記/卷126",
-        "permalink": "https://zh.wikisource.org/w/index.php?title=史記/卷126&oldid=2609358",
-        "revision_id": 2609358,
-        "accessed_on": "2026-10-11",
-        "extent": "固定修訂全文27段；篇文12段、褚少孫補文14段、索隱述贊1段。",
-        "image_verified": false,
-        "rights": "古代原文；數位轉錄依維基文庫CC BY-SA 4.0，保留署名及固定版本。",
-        "license_url": "https://creativecommons.org/licenses/by-sa/4.0/",
-        "normalization": {
-          "character_conversion": {},
-          "editorial_readings": [],
-          "extraction_note": "去header2、現代節標與wikipedia導覽模板，維基內鏈只留顯示文字，移除衛后字形選擇包裝而保留后字；未核影像。",
-          "note": "褚先生補與索隱述贊依來源節標分層，不作司馬遷篇文。"
-        }
-      }
+      "chapter_ref": "data/corpus/shiji/126.json"
     }
   ],
   "relations": [],

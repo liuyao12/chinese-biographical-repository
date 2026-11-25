@@ -21,7 +21,7 @@
           "chapter_id": "c-shiji-096-zhang",
           "source_id": "s-shiji-096-zhang",
           "paragraph_id": "c-shiji-096-zhang:p023",
-          "quote": "魏丞相相者，濟陰人也。以文吏至丞相。其人好武，皆令諸吏帶劍，帶劍前奏事。或有不帶劍者，當入奏事，至乃借劍而敢入奏事。其時京兆尹趙君，丞相奏以免罪，使人執魏丞相，欲求脫罪而不聽。復使人脅恐魏丞相，以夫人賊殺待婢事而私獨奏請驗之，發吏卒至丞相舍，捕奴婢笞擊問之，實不以兵刃殺也。而丞相司直繁君奏京兆尹趙君迫脅丞相，誣以夫人賊殺婢，發吏卒圍捕丞相舍，不道；又得擅屏騎士事，趙京兆坐要斬。又有使掾陳平等劾中尚書，疑以獨擅劫事而坐之，大不敬，長史以下皆坐死，或下蠶室。而魏丞相竟以丞相病死。子嗣。後坐騎至廟，不敬，有詔奪爵一級，為關內侯，失列侯，得食其故國邑。魏丞相卒，以御史大夫邴吉代。"
+          "quote_passage_ref": "data/corpus/shiji/096.json"
         }
       ],
       "attestations": [
@@ -63,7 +63,6 @@
       "raw_count": 1,
       "duplicate_count": 0,
       "counting_policy": "independent_fixed_witness_occurrences",
-      "quote": "獨奏請驗之，發吏卒至丞相舍，捕奴婢笞擊問之，實不以兵刃殺也。而丞相司直繁君奏京兆尹趙君迫脅丞相，誣以夫人賊殺婢，發吏卒圍捕丞相舍，不道；又得擅屏騎士事，趙京兆坐要斬。又有使掾陳平等劾中尚書，疑以獨擅劫事而坐之，大不敬，長史以下皆坐死，或下蠶室。而魏丞相竟以丞相病死。子嗣。後",
       "paragraph_ids": [
         "c-shiji-096-zhang:p023"
       ],
@@ -87,7 +86,12 @@
       "book_id": "b-shiji-096",
       "chapter_id": "c-shiji-096-zhang",
       "source_id": "s-shiji-096-zhang",
-      "work_title": "史記"
+      "work_title": "史記",
+      "chapter_ref": "data/corpus/shiji/096.json",
+      "quote_span": [
+        107,
+        244
+      ]
     }
   ],
   "table_occurrences": [],
@@ -97,24 +101,7 @@
       "work_id": "w-shiji",
       "book_id": "b-shiji-096",
       "source_id": "s-shiji-096-zhang",
-      "source": {
-        "title": "史記／卷096",
-        "provider": "維基文庫",
-        "url": "https://zh.wikisource.org/wiki/史記/卷096",
-        "permalink": "https://zh.wikisource.org/w/index.php?title=史記/卷096&oldid=8770206",
-        "revision_id": 8770206,
-        "accessed_on": "2026-10-09",
-        "extent": "29段傳世文字含兩處太史公論，另附1段分層索隱述贊；首HTML區塊即正文，不刪頭2段。",
-        "image_verified": false,
-        "rights": "古代原文；數位轉錄依維基文庫CC BY-SA 4.0，保留署名及固定版本。",
-        "license_url": "https://creativecommons.org/licenses/by-sa/4.0/",
-        "normalization": {
-          "character_conversion": {},
-          "editorial_readings": [],
-          "extraction_note": "固定HTML一致，只去外緣空白；亨周苛、（不）、困妯囡及邴丞相等原字保留。",
-          "note": "全30個HTML區塊已讀，未核底本影像。後段征和以後丞相記述在此見證未署補作者，不冒署褚先生。"
-        }
-      }
+      "chapter_ref": "data/corpus/shiji/096.json"
     }
   ],
   "relations": [],

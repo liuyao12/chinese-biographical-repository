@@ -22,7 +22,7 @@
           "chapter_id": "c-shiji-066-wu",
           "source_id": "s-shiji-066-wu",
           "paragraph_id": "c-shiji-066-wu:p002",
-          "quote": "楚平王有太子名曰建，使伍奢為太傅，費無忌為少傅。無忌不忠於太子建。平王使無忌為太子取婦於秦，秦女好，無忌馳歸報平王曰：「秦女絕美，王可自取，而更為太子取婦。」平王遂自取秦女而絕愛幸之，生子軫。更為太子取婦。"
+          "quote_passage_ref": "data/corpus/shiji/066.json"
         }
       ],
       "attestations": [
@@ -46,7 +46,7 @@
               "chapter_id": "c-shiji-066-wu",
               "source_id": "s-shiji-066-wu",
               "paragraph_id": "c-shiji-066-wu:p002",
-              "quote": "楚平王有太子名曰建，使伍奢為太傅，費無忌為少傅。無忌不忠於太子建。平王使無忌為太子取婦於秦，秦女好，無忌馳歸報平王曰：「秦女絕美，王可自取，而更為太子取婦。」平王遂自取秦女而絕愛幸之，生子軫。更為太子取婦。"
+              "quote_passage_ref": "data/corpus/shiji/066.json"
             }
           ]
         },
@@ -72,7 +72,6 @@
       "raw_count": 12,
       "duplicate_count": 0,
       "counting_policy": "independent_fixed_witness_occurrences",
-      "quote": "伍子胥者，楚人也，名員。員父曰伍奢。員兄曰伍尚。其先曰伍舉，以直諫事楚莊王，有顯，故其後世有名於楚。",
       "paragraph_ids": [
         "c-shiji-066-wu:p001",
         "c-shiji-066-wu:p002",
@@ -199,7 +198,12 @@
       "book_id": "b-shiji-066",
       "chapter_id": "c-shiji-066-wu",
       "source_id": "s-shiji-066-wu",
-      "work_title": "史記"
+      "work_title": "史記",
+      "chapter_ref": "data/corpus/shiji/066.json",
+      "quote_span": [
+        0,
+        50
+      ]
     },
     {
       "number": 88,
@@ -210,7 +214,6 @@
       "raw_count": 1,
       "duplicate_count": 0,
       "counting_policy": "independent_fixed_witness_occurrences",
-      "quote": "而死，罪百里奚而非其罪也，故立號曰『繆』。昭襄王殺武安君白起。楚平王殺伍奢。吳王夫差殺伍子胥。此四君者，皆為大失，而天下非之，以其君為不明，以是籍於諸侯。故曰『用道治者不殺無罪，而罰不加於無辜』。唯大夫留心！」使者知胡亥之意，不聽蒙毅之言，遂殺之。",
       "paragraph_ids": [
         "c-shiji-088-mengtian:p009"
       ],
@@ -234,7 +237,12 @@
       "book_id": "b-shiji-088",
       "chapter_id": "c-shiji-088-mengtian",
       "source_id": "s-shiji-088-mengtian",
-      "work_title": "史記"
+      "work_title": "史記",
+      "chapter_ref": "data/corpus/shiji/088.json",
+      "quote_span": [
+        222,
+        346
+      ]
     },
     {
       "number": 130,
@@ -245,7 +253,6 @@
       "raw_count": 1,
       "duplicate_count": 0,
       "counting_policy": "independent_fixed_witness_occurrences",
-      "quote": "維建遇讒，爰及子奢，尚既匡父，伍員奔吳。作伍子胥列傳第六。",
       "paragraph_ids": [
         "c-shiji-130-taishigong:p078"
       ],
@@ -269,7 +276,12 @@
       "book_id": "b-shiji-130",
       "chapter_id": "c-shiji-130-taishigong",
       "source_id": "s-shiji130-taishigong",
-      "work_title": "史記"
+      "work_title": "史記",
+      "chapter_ref": "data/corpus/shiji/130.json",
+      "quote_span": [
+        0,
+        29
+      ]
     }
   ],
   "table_occurrences": [],
@@ -279,72 +291,21 @@
       "work_id": "w-shiji",
       "book_id": "b-shiji-066",
       "source_id": "s-shiji-066-wu",
-      "source": {
-        "title": "史記／卷066",
-        "provider": "維基文庫",
-        "url": "https://zh.wikisource.org/wiki/史記/卷066",
-        "permalink": "https://zh.wikisource.org/w/index.php?title=史記/卷066&oldid=2621138",
-        "revision_id": 2621138,
-        "accessed_on": "2026-10-09",
-        "extent": "24段正文，排除註釋版及2段導覽，無索隱述贊。",
-        "image_verified": false,
-        "rights": "古代原文；數位轉錄依維基文庫CC BY-SA 4.0，保留署名及固定版本。",
-        "license_url": "https://creativecommons.org/licenses/by-sa/4.0/",
-        "normalization": {
-          "character_conversion": {},
-          "editorial_readings": [],
-          "extraction_note": "取得時HTML與固定修訂一致，只去外緣空白。保留堂谿、（之）、忍訽、屬鏤、鴟夷等原字與括號文字，未核定校勘。",
-          "note": "全24段已核讀並作人物首輪；未核可靠底本、影像或現代研究。"
-        }
-      }
+      "chapter_ref": "data/corpus/shiji/066.json"
     },
     {
       "chapter_id": "c-shiji-088-mengtian",
       "work_id": "w-shiji",
       "book_id": "b-shiji-088",
       "source_id": "s-shiji-088-mengtian",
-      "source": {
-        "title": "史記／卷088",
-        "provider": "維基文庫",
-        "url": "https://zh.wikisource.org/wiki/史記/卷088",
-        "permalink": "https://zh.wikisource.org/w/index.php?title=史記/卷088&oldid=1965690",
-        "revision_id": 1965690,
-        "accessed_on": "2026-10-09",
-        "extent": "11段正文含太史公論，排除導覽；所取得頁面未附索隱述贊。",
-        "image_verified": false,
-        "rights": "古代原文；數位轉錄依維基文庫CC BY-SA 4.0，保留署名及固定版本。",
-        "license_url": "https://creativecommons.org/licenses/by-sa/4.0/",
-        "normalization": {
-          "character_conversion": {},
-          "editorial_readings": [],
-          "extraction_note": "固定HTML與取得時版本一致，只去外緣空白；異體、引古及對話原文保留。",
-          "note": "11段正文與HTML篇界已核讀，未核底本影像；局部現代研究核讀另記，不改數位正文。"
-        }
-      }
+      "chapter_ref": "data/corpus/shiji/088.json"
     },
     {
       "chapter_id": "c-shiji-130-taishigong",
       "work_id": "w-shiji",
       "book_id": "b-shiji-130",
       "source_id": "s-shiji130-taishigong",
-      "source": {
-        "title": "史記／卷130",
-        "provider": "維基文庫",
-        "url": "https://zh.wikisource.org/wiki/史記/卷130",
-        "permalink": "https://zh.wikisource.org/w/index.php?title=史記/卷130&oldid=2609362",
-        "revision_id": 2609362,
-        "accessed_on": "2026-10-11",
-        "extent": "固定修訂全文143段，全部篇文。",
-        "image_verified": false,
-        "rights": "古代原文；數位轉錄依維基文庫CC BY-SA 4.0，保留署名及固定版本。",
-        "license_url": "https://creativecommons.org/licenses/by-sa/4.0/",
-        "normalization": {
-          "character_conversion": {},
-          "editorial_readings": [],
-          "extraction_note": "去header2及現代節標，移除維基引文縮排冒號，保留原字，未核影像。",
-          "note": "全文入庫不等於全部提及已標註；目錄段落仍待逐段處理。"
-        }
-      }
+      "chapter_ref": "data/corpus/shiji/130.json"
     }
   ],
   "relations": [
@@ -359,7 +320,7 @@
           "chapter_id": "c-shiji-066-wu",
           "source_id": "s-shiji-066-wu",
           "paragraph_id": "c-shiji-066-wu:p001",
-          "quote": "伍子胥者，楚人也，名員。員父曰伍奢。員兄曰伍尚。其先曰伍舉，以直諫事楚莊王，有顯，故其後世有名於楚。"
+          "quote_passage_ref": "data/corpus/shiji/066.json"
         }
       ],
       "qualifiers": {
@@ -380,7 +341,7 @@
           "chapter_id": "c-shiji-066-wu",
           "source_id": "s-shiji-066-wu",
           "paragraph_id": "c-shiji-066-wu:p005",
-          "quote": "無忌言於平王曰：「伍奢有二子，皆賢，不誅且為楚憂。可以其父質而召之，不然且為楚患。」王使使謂伍奢曰：「能致汝二子則生，不能則死。」伍奢曰：「尚為人仁，呼必來。員為人剛戾忍訽，能成大事，彼見來之并禽，其勢必不來。」王不聽，使人召二子曰：「來，吾生汝父；不來，今殺奢也。」伍尚欲往，員曰：「楚之召我兄弟，非欲以生我父也，恐有脫者後生患，故以父為質，詐召二子。二子到，則父子俱死。何益父之死？往而令讎不得報耳。不如奔他國，借力以雪父之恥，俱滅，無為也。」伍尚曰：「我知往終不能全父命。然恨父召我以求生而不往，後不能雪恥，終為天下笑耳。」謂員：「可去矣！汝能報殺父之讎，我將歸死。」尚既就執，使者捕伍胥。伍胥貫弓執矢向使者，使者不敢進，伍胥遂亡。聞太子建之在宋，往從之。奢聞子胥之亡也，曰：「楚國君臣且苦兵矣。」伍尚至楚，楚并殺奢與尚也。"
+          "quote_passage_ref": "data/corpus/shiji/066.json"
         }
       ],
       "qualifiers": {
@@ -413,7 +374,7 @@
           "chapter_id": "c-shiji-066-wu",
           "source_id": "s-shiji-066-wu",
           "paragraph_id": "c-shiji-066-wu:p001",
-          "quote": "伍子胥者，楚人也，名員。員父曰伍奢。員兄曰伍尚。其先曰伍舉，以直諫事楚莊王，有顯，故其後世有名於楚。"
+          "quote_passage_ref": "data/corpus/shiji/066.json"
         }
       ],
       "qualifiers": {
@@ -434,7 +395,7 @@
           "chapter_id": "c-shiji-066-wu",
           "source_id": "s-shiji-066-wu",
           "paragraph_id": "c-shiji-066-wu:p005",
-          "quote": "無忌言於平王曰：「伍奢有二子，皆賢，不誅且為楚憂。可以其父質而召之，不然且為楚患。」王使使謂伍奢曰：「能致汝二子則生，不能則死。」伍奢曰：「尚為人仁，呼必來。員為人剛戾忍訽，能成大事，彼見來之并禽，其勢必不來。」王不聽，使人召二子曰：「來，吾生汝父；不來，今殺奢也。」伍尚欲往，員曰：「楚之召我兄弟，非欲以生我父也，恐有脫者後生患，故以父為質，詐召二子。二子到，則父子俱死。何益父之死？往而令讎不得報耳。不如奔他國，借力以雪父之恥，俱滅，無為也。」伍尚曰：「我知往終不能全父命。然恨父召我以求生而不往，後不能雪恥，終為天下笑耳。」謂員：「可去矣！汝能報殺父之讎，我將歸死。」尚既就執，使者捕伍胥。伍胥貫弓執矢向使者，使者不敢進，伍胥遂亡。聞太子建之在宋，往從之。奢聞子胥之亡也，曰：「楚國君臣且苦兵矣。」伍尚至楚，楚并殺奢與尚也。"
+          "quote_passage_ref": "data/corpus/shiji/066.json"
         }
       ],
       "qualifiers": {
@@ -459,8 +420,8 @@
           "chapter_id": "c-shiji-066-wu",
           "source_id": "s-shiji-066-wu",
           "paragraph_id": "c-shiji-066-wu:p005",
-          "quote": "無忌言於平王曰：「伍奢有二子，皆賢，不誅且為楚憂。可以其父質而召之，不然且為楚患。」王使使謂伍奢曰：「能致汝二子則生，不能則死。」伍奢曰：「尚為人仁，呼必來。員為人剛戾忍訽，能成大事，彼見來之并禽，其勢必不來。」王不聽，使人召二子曰：「來，吾生汝父；不來，今殺奢也。」伍尚欲往，員曰：「楚之召我兄弟，非欲以生我父也，恐有脫者後生患，故以父為質，詐召二子。二子到，則父子俱死。何益父之死？往而令讎不得報耳。不如奔他國，借力以雪父之恥，俱滅，無為也。」伍尚曰：「我知往終不能全父命。然恨父召我以求生而不往，後不能雪恥，終為天下笑耳。」謂員：「可去矣！汝能報殺父之讎，我將歸死。」尚既就執，使者捕伍胥。伍胥貫弓執矢向使者，使者不敢進，伍胥遂亡。聞太子建之在宋，往從之。奢聞子胥之亡也，曰：「楚國君臣且苦兵矣。」伍尚至楚，楚并殺奢與尚也。",
-          "person_mention_id": "c-shiji-066-wu:m005-0360"
+          "person_mention_id": "c-shiji-066-wu:m005-0360",
+          "quote_passage_ref": "data/corpus/shiji/066.json"
         }
       ],
       "interpretation_note": "保存本篇明示死亡，未知日期保持未知；未執行殺令、假設、敗逃與尸體處置不推另一死亡。",
@@ -479,8 +440,8 @@
           "chapter_id": "c-shiji-088-mengtian",
           "source_id": "s-shiji-088-mengtian",
           "paragraph_id": "c-shiji-088-mengtian:p009",
-          "quote": "胡亥不聽。而遣御史曲宮乘傳之代，令蒙毅曰：「先主欲立太子而卿難之。今丞相以卿為不忠，罪及其宗。朕不忍，乃賜卿死，亦甚幸矣。卿其圖之！」毅對曰：「以臣不能得先主之意，則臣少宦，順幸沒世。可謂知意矣。以臣不知太子之能，則太子獨從，周旋天下，去諸公子絕遠，臣無所疑矣。夫先主之舉用太子，數年之積也，臣乃何言之敢諫，何慮之敢謀！非敢飾辭以避死也，為羞累先主之名，願大夫為慮焉，使臣得死情實。且夫順成全者，道之所貴也；刑殺者，道之所卒也。昔者秦穆公殺三良而死，罪百里奚而非其罪也，故立號曰『繆』。昭襄王殺武安君白起。楚平王殺伍奢。吳王夫差殺伍子胥。此四君者，皆為大失，而天下非之，以其君為不明，以是籍於諸侯。故曰『用道治者不殺無罪，而罰不加於無辜』。唯大夫留心！」使者知胡亥之意，不聽蒙毅之言，遂殺之。",
-          "person_mention_id": "c-shiji-088-mengtian:m009-0257"
+          "person_mention_id": "c-shiji-088-mengtian:m009-0257",
+          "quote_passage_ref": "data/corpus/shiji/088.json"
         }
       ],
       "interpretation_note": "蒙毅引古中的死亡陳述。 保存本篇原語及敘述範圍，不視作獨立證成，不由死亡一律終止所有官爵；未核書影。",

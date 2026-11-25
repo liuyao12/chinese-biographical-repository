@@ -26,8 +26,8 @@
           "chapter_id": "c-shiji-047-kong",
           "source_id": "s-shiji-047-kong",
           "paragraph_id": "c-shiji-047-kong:p018",
-          "quote": "定公十三年夏，孔子言於定公曰：「臣無藏甲，大夫毋百雉之城。」使仲由為季氏宰，將墮三都。於是叔孫氏先墮郈。季氏將墮費，公山不狃、叔孫輒率費人襲魯。公與三子入于季氏之宮，登武子之臺。費人攻之，弗克，入及公側。孔子命申句須、樂頎下伐之，費人北。國人追之，敗諸姑蔑。二子奔齊，遂墮費。將墮成，公歛處父謂孟孫曰：「墮成，齊人必至于北門。且成，孟氏之保鄣，無成是無孟氏也。我將弗墮。」十二月，公圍成，弗克。",
-          "person_mention_id": "c-shiji-047-kong:m018-0063"
+          "person_mention_id": "c-shiji-047-kong:m018-0063",
+          "quote_passage_ref": "data/corpus/shiji/047.json"
         }
       ],
       "source_term": "二子奔齊",
@@ -48,7 +48,6 @@
       "raw_count": 1,
       "duplicate_count": 0,
       "counting_policy": "independent_fixed_witness_occurrences",
-      "quote": "。」使仲由為季氏宰，將墮三都。於是叔孫氏先墮郈。季氏將墮費，公山不狃、叔孫輒率費人襲魯。公與三子入于季氏之宮，登武子之臺。費人攻之，弗克，入及公側。孔子命申句須、樂頎下伐之，費人北。國人追之，敗諸姑蔑。二子奔齊，遂墮費。將墮成，公歛處父謂孟孫曰：「墮成，齊人必至于北門。且成，",
       "paragraph_ids": [
         "c-shiji-047-kong:p018"
       ],
@@ -72,7 +71,12 @@
       "book_id": "b-shiji-047",
       "chapter_id": "c-shiji-047-kong",
       "source_id": "s-shiji-047-kong",
-      "work_title": "史記"
+      "work_title": "史記",
+      "chapter_ref": "data/corpus/shiji/047.json",
+      "quote_span": [
+        28,
+        166
+      ]
     }
   ],
   "table_occurrences": [],
@@ -82,24 +86,7 @@
       "work_id": "w-shiji",
       "book_id": "b-shiji-047",
       "source_id": "s-shiji-047-kong",
-      "source": {
-        "title": "史記／卷047",
-        "provider": "維基文庫",
-        "url": "https://zh.wikisource.org/wiki/史記/卷047",
-        "permalink": "https://zh.wikisource.org/w/index.php?title=史記/卷047&oldid=7903609",
-        "revision_id": 7903609,
-        "accessed_on": "2026-10-09",
-        "extent": "85段正文及1段索隱述贊，後者分層；排除2個dd導覽與現代分節標題，只去除段落外緣空白。",
-        "image_verified": false,
-        "rights": "古代原文；數位轉錄依維基文庫CC BY-SA 4.0，保留署名及固定版本。",
-        "license_url": "https://creativecommons.org/licenses/by-sa/4.0/",
-        "normalization": {
-          "character_conversion": {},
-          "editorial_readings": [],
-          "extraction_note": "取得時HTML與固定修訂一致；現代分節標題不作古代正文，原字與來源標點保留。",
-          "note": "已核讀全86段數位文字並作首輪明示人名標註；未核可靠底本、影像或現代研究。"
-        }
-      }
+      "chapter_ref": "data/corpus/shiji/047.json"
     }
   ],
   "relations": [],

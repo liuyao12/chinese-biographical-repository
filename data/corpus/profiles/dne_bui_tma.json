@@ -21,7 +21,7 @@
           "chapter_id": "c-shiji-110-xiongnu",
           "source_id": "s-shiji110-xiongnu",
           "paragraph_id": "c-shiji-110-xiongnu:p017",
-          "quote": "孝文皇帝前六年，漢遺匈奴書曰：「皇帝敬問匈奴大單于無恙。使郎中系雩淺遺朕書曰：『右賢王不請，聽後義盧侯難氏等計，絕二主之約，離兄弟之親，漢以故不和，鄰國不附。今以小吏敗約，故罰右賢王使西擊月氏，盡定之。願寢兵休士卒養馬，除前事，復故約，以安邊民，使少者得成其長，老者安其處，世世平樂。』朕甚嘉之，此古聖主之意也。漢與匈奴約爲兄弟，所以遺單于甚厚。倍約離兄弟之親者，常在匈奴。然右賢王事已在赦前，單于勿深誅。單于若稱書意，明告諸吏，使無負約，有信，敬如單于書。使者言單于自將伐國有功，甚苦兵事。服繡袷綺衣、繡袷長襦、錦袷袍各一，比余一，黃金飾具帶一，黃金胥紕一，繡十匹，錦三十匹，赤綈、綠繒各四十匹，使中大夫意、謁者令肩遺單于。」"
+          "quote_passage_ref": "data/corpus/shiji/110.json"
         }
       ],
       "attestations": [
@@ -47,7 +47,7 @@
                 "chapter_id": "c-shiji-110-xiongnu",
                 "source_id": "s-shiji110-xiongnu",
                 "paragraph_id": "c-shiji-110-xiongnu:p017",
-                "quote": "孝文皇帝前六年，漢遺匈奴書曰：「皇帝敬問匈奴大單于無恙。使郎中系雩淺遺朕書曰：『右賢王不請，聽後義盧侯難氏等計，絕二主之約，離兄弟之親，漢以故不和，鄰國不附。今以小吏敗約，故罰右賢王使西擊月氏，盡定之。願寢兵休士卒養馬，除前事，復故約，以安邊民，使少者得成其長，老者安其處，世世平樂。』朕甚嘉之，此古聖主之意也。漢與匈奴約爲兄弟，所以遺單于甚厚。倍約離兄弟之親者，常在匈奴。然右賢王事已在赦前，單于勿深誅。單于若稱書意，明告諸吏，使無負約，有信，敬如單于書。使者言單于自將伐國有功，甚苦兵事。服繡袷綺衣、繡袷長襦、錦袷袍各一，比余一，黃金飾具帶一，黃金胥紕一，繡十匹，錦三十匹，赤綈、綠繒各四十匹，使中大夫意、謁者令肩遺單于。」"
+                "quote_passage_ref": "data/corpus/shiji/110.json"
               }
             ],
             "references": [
@@ -93,7 +93,6 @@
       "raw_count": 1,
       "duplicate_count": 0,
       "counting_policy": "independent_fixed_witness_occurrences",
-      "quote": "具帶一，黃金胥紕一，繡十匹，錦三十匹，赤綈、綠繒各四十匹，使中大夫意、謁者令肩遺單于。」",
       "paragraph_ids": [
         "c-shiji-110-xiongnu:p017"
       ],
@@ -117,7 +116,12 @@
       "book_id": "b-shiji-110",
       "chapter_id": "c-shiji-110-xiongnu",
       "source_id": "s-shiji110-xiongnu",
-      "work_title": "史記"
+      "work_title": "史記",
+      "chapter_ref": "data/corpus/shiji/110.json",
+      "quote_span": [
+        270,
+        314
+      ]
     }
   ],
   "table_occurrences": [],
@@ -127,24 +131,7 @@
       "work_id": "w-shiji",
       "book_id": "b-shiji-110",
       "source_id": "s-shiji110-xiongnu",
-      "source": {
-        "title": "史記／卷110",
-        "provider": "維基文庫",
-        "url": "https://zh.wikisource.org/wiki/史記/卷110",
-        "permalink": "https://zh.wikisource.org/w/index.php?title=史記/卷110&oldid=8735645",
-        "revision_id": 8735645,
-        "accessed_on": "2026-10-11",
-        "extent": "固定數位見證去介面及現代節標題後61段，末段為太史公論。",
-        "image_verified": false,
-        "rights": "古代原文；數位轉錄依維基文庫CC BY-SA 4.0，保留署名及固定版本。",
-        "license_url": "https://creativecommons.org/licenses/by-sa/4.0/",
-        "normalization": {
-          "character_conversion": {},
-          "editorial_readings": [],
-          "extraction_note": "去 header2 介面及現代單于節標題、太史公曰節標題；移除單字語言轉換包裹與下劃線標籤，紀年 YL 模板保留顯示原詞。其餘原字、標點及段落次序保留，不從小標題補正文人名。",
-          "note": "未核底本影像。"
-        }
-      }
+      "chapter_ref": "data/corpus/shiji/110.json"
     }
   ],
   "relations": [],
@@ -165,7 +152,7 @@
           "chapter_id": "c-shiji-110-xiongnu",
           "source_id": "s-shiji110-xiongnu",
           "paragraph_id": "c-shiji-110-xiongnu:p017",
-          "quote": "孝文皇帝前六年，漢遺匈奴書曰：「皇帝敬問匈奴大單于無恙。使郎中系雩淺遺朕書曰：『右賢王不請，聽後義盧侯難氏等計，絕二主之約，離兄弟之親，漢以故不和，鄰國不附。今以小吏敗約，故罰右賢王使西擊月氏，盡定之。願寢兵休士卒養馬，除前事，復故約，以安邊民，使少者得成其長，老者安其處，世世平樂。』朕甚嘉之，此古聖主之意也。漢與匈奴約爲兄弟，所以遺單于甚厚。倍約離兄弟之親者，常在匈奴。然右賢王事已在赦前，單于勿深誅。單于若稱書意，明告諸吏，使無負約，有信，敬如單于書。使者言單于自將伐國有功，甚苦兵事。服繡袷綺衣、繡袷長襦、錦袷袍各一，比余一，黃金飾具帶一，黃金胥紕一，繡十匹，錦三十匹，赤綈、綠繒各四十匹，使中大夫意、謁者令肩遺單于。」"
+          "quote_passage_ref": "data/corpus/shiji/110.json"
         }
       ],
       "references": [

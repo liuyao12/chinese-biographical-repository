@@ -25,7 +25,7 @@
           "chapter_id": "c-shiji-042-zheng",
           "source_id": "s-shiji-042-zheng",
           "paragraph_id": "c-shiji-042-zheng:p017",
-          "quote": "秋，厲公卒，子文公踕立。厲公初立四歳，亡居櫟，居櫟十七歳，復入，立七歳，與亡凡二十八年。"
+          "quote_passage_ref": "data/corpus/shiji/042.json"
         }
       ],
       "attestations": [
@@ -67,7 +67,6 @@
       "raw_count": 5,
       "duplicate_count": 0,
       "counting_policy": "independent_fixed_witness_occurrences",
-      "quote": "「晉公子賢，而其從者皆國相，且又同姓。鄭之出自厲王，而晉之出自武王。」鄭君曰：「諸侯亡公子過此者衆，安可盡禮！」叔瞻曰：「君不禮，不如殺之，且後爲國患。」鄭君不聽。",
       "paragraph_ids": [
         "c-shiji-039-jin:p057",
         "c-shiji-039-jin:p069",
@@ -130,7 +129,12 @@
       "book_id": "b-shiji-039",
       "chapter_id": "c-shiji-039-jin",
       "source_id": "s-shiji-039-jin",
-      "work_title": "史記"
+      "work_title": "史記",
+      "chapter_ref": "data/corpus/shiji/039.json",
+      "quote_span": [
+        17,
+        99
+      ]
     },
     {
       "number": 42,
@@ -141,7 +145,6 @@
       "raw_count": 15,
       "duplicate_count": 0,
       "counting_policy": "independent_fixed_witness_occurrences",
-      "quote": "秋，厲公卒，子文公踕立。厲公初立四歳，亡居櫟，居櫟十七歳，復入，立七歳，與亡凡二十八年。",
       "paragraph_ids": [
         "c-shiji-042-zheng:p017",
         "c-shiji-042-zheng:p018",
@@ -297,7 +300,12 @@
       "book_id": "b-shiji-042",
       "chapter_id": "c-shiji-042-zheng",
       "source_id": "s-shiji-042-zheng",
-      "work_title": "史記"
+      "work_title": "史記",
+      "chapter_ref": "data/corpus/shiji/042.json",
+      "quote_span": [
+        0,
+        44
+      ]
     }
   ],
   "table_occurrences": [],
@@ -307,52 +315,14 @@
       "work_id": "w-shiji",
       "book_id": "b-shiji-039",
       "source_id": "s-shiji-039-jin",
-      "source": {
-        "title": "史記／卷039",
-        "provider": "維基文庫",
-        "url": "https://zh.wikisource.org/wiki/史記/卷039",
-        "permalink": "https://zh.wikisource.org/w/index.php?title=史記/卷039&oldid=2588534",
-        "revision_id": 2588534,
-        "accessed_on": "2026-10-09",
-        "extent": "142段正文，自晉唐叔虞至太史公論贊，另保留1段索隱述贊並分層；排除2個dd導覽及段首尾版面換行。",
-        "image_verified": false,
-        "rights": "古代原文；數位轉錄依維基文庫CC BY-SA 4.0，保留署名及固定版本。",
-        "license_url": "https://creativecommons.org/licenses/by-sa/4.0/",
-        "normalization": {
-          "character_conversion": {
-            "鲁": "魯",
-            "隐": "隱",
-            "绖": "絰"
-          },
-          "editorial_readings": [],
-          "extraction_note": "固定版本與實讀HTML一致。第14段鲁隐轉魯隱，第46、79段绖轉絰，去除段首尾換行，其餘古字、內外異說及校勘保留。",
-          "note": "同版原始標記亦作子胛桓叔，不默補代字或莊伯名字。保留冀芮／郤芮、郤鉤、欒逞、示瞇明、歩陽、郤臻、砹、六（卿）［軍］、［復］等見證字；未核可靠底本、影像或專門研究。"
-        }
-      }
+      "chapter_ref": "data/corpus/shiji/039.json"
     },
     {
       "chapter_id": "c-shiji-042-zheng",
       "work_id": "w-shiji",
       "book_id": "b-shiji-042",
       "source_id": "s-shiji-042-zheng",
-      "source": {
-        "title": "史記／卷042",
-        "provider": "維基文庫",
-        "url": "https://zh.wikisource.org/wiki/史記/卷042",
-        "permalink": "https://zh.wikisource.org/w/index.php?title=史記/卷042&oldid=2016409",
-        "revision_id": 2016409,
-        "accessed_on": "2026-10-09",
-        "extent": "59段正文及1段分層索隱述贊；排除2個dd導覽，只去除段落外緣空白。",
-        "image_verified": false,
-        "rights": "古代原文；數位轉錄依維基文庫CC BY-SA 4.0，保留署名及固定版本。",
-        "license_url": "https://creativecommons.org/licenses/by-sa/4.0/",
-        "normalization": {
-          "character_conversion": {},
-          "editorial_readings": [],
-          "extraction_note": "固定修訂與取得時HTML一致；保留古代異體、九月（辛）［丁］亥等校勘符號及溉逐、掔羊、持兩端等疑讀，不擅選讀法。",
-          "note": "全60段數位正文已閱讀；未核古籍影像、可靠底本及現代研究。"
-        }
-      }
+      "chapter_ref": "data/corpus/shiji/042.json"
     }
   ],
   "relations": [
@@ -367,7 +337,7 @@
           "chapter_id": "c-shiji-042-zheng",
           "source_id": "s-shiji-042-zheng",
           "paragraph_id": "c-shiji-042-zheng:p017",
-          "quote": "秋，厲公卒，子文公踕立。厲公初立四歳，亡居櫟，居櫟十七歳，復入，立七歳，與亡凡二十八年。"
+          "quote_passage_ref": "data/corpus/shiji/042.json"
         }
       ],
       "qualifiers": {
@@ -388,7 +358,7 @@
           "chapter_id": "c-shiji-042-zheng",
           "source_id": "s-shiji-042-zheng",
           "paragraph_id": "c-shiji-042-zheng:p022",
-          "quote": "四十五年，文公卒，子蘭立，是爲繆公。"
+          "quote_passage_ref": "data/corpus/shiji/042.json"
         }
       ],
       "qualifiers": {
@@ -409,7 +379,7 @@
           "chapter_id": "c-shiji-042-zheng",
           "source_id": "s-shiji-042-zheng",
           "paragraph_id": "c-shiji-042-zheng:p019",
-          "quote": "三十六年，晉公子重耳過，文公弗禮。文公弟叔詹曰：「重耳賢，且又同姓，窮而過君，不可無禮。」文公曰：「諸侯亡公子過者多矣，安能盡禮之！」詹曰：「君如弗禮，遂殺之；弗殺，使卽反國，爲鄭憂矣。」文公弗聽。"
+          "quote_passage_ref": "data/corpus/shiji/042.json"
         }
       ],
       "qualifiers": {
@@ -440,8 +410,8 @@
           "chapter_id": "c-shiji-039-jin",
           "source_id": "s-shiji-039-jin",
           "paragraph_id": "c-shiji-039-jin:p077",
-          "quote": "九年冬，晉文公卒，子襄公歡立。是歳鄭伯亦卒。",
-          "person_mention_id": "c-shiji-039-jin:m077-0017"
+          "person_mention_id": "c-shiji-039-jin:m077-0017",
+          "quote_passage_ref": "data/corpus/shiji/039.json"
         }
       ],
       "references": [
@@ -478,7 +448,7 @@
           "chapter_id": "c-shiji-042-zheng",
           "source_id": "s-shiji-042-zheng",
           "paragraph_id": "c-shiji-042-zheng:p017",
-          "quote": "秋，厲公卒，子文公踕立。厲公初立四歳，亡居櫟，居櫟十七歳，復入，立七歳，與亡凡二十八年。"
+          "quote_passage_ref": "data/corpus/shiji/042.json"
         }
       ],
       "qualifiers": {
@@ -499,7 +469,7 @@
           "chapter_id": "c-shiji-042-zheng",
           "source_id": "s-shiji-042-zheng",
           "paragraph_id": "c-shiji-042-zheng:p022",
-          "quote": "四十五年，文公卒，子蘭立，是爲繆公。"
+          "quote_passage_ref": "data/corpus/shiji/042.json"
         }
       ],
       "qualifiers": {
@@ -520,7 +490,7 @@
           "chapter_id": "c-shiji-042-zheng",
           "source_id": "s-shiji-042-zheng",
           "paragraph_id": "c-shiji-042-zheng:p019",
-          "quote": "三十六年，晉公子重耳過，文公弗禮。文公弟叔詹曰：「重耳賢，且又同姓，窮而過君，不可無禮。」文公曰：「諸侯亡公子過者多矣，安能盡禮之！」詹曰：「君如弗禮，遂殺之；弗殺，使卽反國，爲鄭憂矣。」文公弗聽。"
+          "quote_passage_ref": "data/corpus/shiji/042.json"
         }
       ],
       "qualifiers": {
@@ -544,8 +514,8 @@
           "chapter_id": "c-shiji-039-jin",
           "source_id": "s-shiji-039-jin",
           "paragraph_id": "c-shiji-039-jin:p077",
-          "quote": "九年冬，晉文公卒，子襄公歡立。是歳鄭伯亦卒。",
-          "person_mention_id": "c-shiji-039-jin:m077-0017"
+          "person_mention_id": "c-shiji-039-jin:m077-0017",
+          "quote_passage_ref": "data/corpus/shiji/039.json"
         }
       ],
       "source_term": "鄭伯亦卒",
@@ -565,8 +535,8 @@
             "chapter_id": "c-shiji-039-jin",
             "source_id": "s-shiji-039-jin",
             "paragraph_id": "c-shiji-039-jin:p077",
-            "quote": "九年冬，晉文公卒，子襄公歡立。是歳鄭伯亦卒。",
-            "person_mention_id": "c-shiji-039-jin:m077-0017"
+            "person_mention_id": "c-shiji-039-jin:m077-0017",
+            "quote_passage_ref": "data/corpus/shiji/039.json"
           }
         ],
         "references": [
@@ -594,8 +564,8 @@
           "chapter_id": "c-shiji-042-zheng",
           "source_id": "s-shiji-042-zheng",
           "paragraph_id": "c-shiji-042-zheng:p022",
-          "quote": "四十五年，文公卒，子蘭立，是爲繆公。",
-          "person_mention_id": "c-shiji-042-zheng:m022-0005"
+          "person_mention_id": "c-shiji-042-zheng:m022-0005",
+          "quote_passage_ref": "data/corpus/shiji/042.json"
         }
       ],
       "source_term": "文公卒",

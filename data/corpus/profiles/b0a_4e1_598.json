@@ -21,7 +21,6 @@
       "raw_count": 2,
       "duplicate_count": 0,
       "counting_policy": "independent_fixed_witness_occurrences",
-      "quote": "浩母盧氏諶孫女也浩著食經敘曰余自少及長耳目聞見諸母諸姑所修婦功無不藴習酒食朝夕養舅姑四時祭祀雖有功力不任僮使常手自親焉昔遭喪亂饑饉仍臻饘蔬餬口不能具其物用十餘年間不復備設先妣慮久廢忘後生無知見而少不習業書乃占",
       "paragraph_ids": [
         "c-weishu-weishou-035-cuihao:p032"
       ],
@@ -54,7 +53,12 @@
       "book_id": "b-weishu-weishou-035",
       "chapter_id": "c-weishu-weishou-035-cuihao",
       "source_id": "s-weishu-weishou-035-cuihao",
-      "work_title": "魏書（魏收）"
+      "work_title": "魏書（魏收）",
+      "chapter_ref": "data/corpus/weishu-weishou/035-cuihao.json",
+      "quote_span": [
+        0,
+        104
+      ]
     }
   ],
   "table_occurrences": [],
@@ -64,29 +68,7 @@
       "work_id": "w-weishu-weishou",
       "book_id": "b-weishu-weishou-035",
       "source_id": "s-weishu-weishou-035-cuihao",
-      "source": {
-        "title": "魏書／卷三十五／崔浩",
-        "provider": "Kanripo WYG",
-        "url": "https://raw.githubusercontent.com/kanripo/KR2a0020/17b6525eb5aaa878b9640f5a61e90da934ce5fc4/KR2a0020_035.txt",
-        "permalink": "https://raw.githubusercontent.com/kanripo/KR2a0020/17b6525eb5aaa878b9640f5a61e90da934ce5fc4/KR2a0020_035.txt",
-        "revision_id": "17b6525eb5aaa878b9640f5a61e90da934ce5fc4",
-        "source_commit": "17b6525eb5aaa878b9640f5a61e90da934ce5fc4",
-        "raw_file_sha256": "190464d83516b3ce4ba11cfcde8cf2a25714bf0acfa86ec67bbf54c46fbc1422",
-        "raw_path": "sources/weishu-weishou/KR2a0020_035-17b6525.txt",
-        "accessed_on": "2026-10-20",
-        "edition": "文淵閣四庫全書數位轉錄；未圖校",
-        "extent": "完整崔浩本傳、史臣論及附清考證；不含空白、卷題、頁標",
-        "text_scope": "complete_chapter",
-        "review_status": "text_checked",
-        "image_verified": false,
-        "license_url": "https://creativecommons.org/publicdomain/mark/1.0/",
-        "rights": "古籍原文；固定Kanripo數位見證",
-        "normalization": {
-          "character_conversion": {},
-          "extraction_note": "只去物理空白、¶、頁標；原字及一對一座標保留。",
-          "excerpts": []
-        }
-      }
+      "chapter_ref": "data/corpus/weishu-weishou/035-cuihao.json"
     }
   ],
   "relations": [
@@ -109,9 +91,9 @@
           "chapter_id": "c-weishu-weishou-035-cuihao",
           "source_id": "s-weishu-weishou-035-cuihao",
           "paragraph_id": "c-weishu-weishou-035-cuihao:p032",
-          "quote": "浩母盧氏諶孫女也浩著食經敘曰余自少及長耳目聞見諸母諸姑所修婦功無不藴習酒食朝夕養舅姑四時祭祀雖有功力不任僮使常手自親焉昔遭喪亂饑饉仍臻饘蔬餬口不能具其物用十餘年間不復備設先妣慮久廢忘後生無知見而少不習業書乃占授為九篇文辭約舉婉而成章聰辨彊記皆此類也親没之後值國龍興之㑹平暴除亂拓定四方余備位台鉉與參大謀賞獲豐厚牛羊盖澤貲累巨萬衣則重錦食則梁肉逺惟平生思季路負米之時不可復得故序遺文垂示來世",
           "subject_person_mention_id": "c-weishu-weishou-035-cuihao:p032:m0000",
-          "object_person_mention_id": "c-weishu-weishou-035-cuihao:p032:m0002"
+          "object_person_mention_id": "c-weishu-weishou-035-cuihao:p032:m0002",
+          "quote_passage_ref": "data/corpus/weishu-weishou/035-cuihao.json"
         }
       ],
       "interpretation_note": "直接母稱；生母、父親端點均不從母稱推定。",
@@ -136,9 +118,9 @@
           "chapter_id": "c-weishu-weishou-035-cuihao",
           "source_id": "s-weishu-weishou-035-cuihao",
           "paragraph_id": "c-weishu-weishou-035-cuihao:p032",
-          "quote": "浩母盧氏諶孫女也浩著食經敘曰余自少及長耳目聞見諸母諸姑所修婦功無不藴習酒食朝夕養舅姑四時祭祀雖有功力不任僮使常手自親焉昔遭喪亂饑饉仍臻饘蔬餬口不能具其物用十餘年間不復備設先妣慮久廢忘後生無知見而少不習業書乃占授為九篇文辭約舉婉而成章聰辨彊記皆此類也親没之後值國龍興之㑹平暴除亂拓定四方余備位台鉉與參大謀賞獲豐厚牛羊盖澤貲累巨萬衣則重錦食則梁肉逺惟平生思季路負米之時不可復得故序遺文垂示來世",
           "subject_person_mention_id": "c-weishu-weishou-035-cuihao:p032:m0002",
-          "object_person_mention_id": "c-weishu-weishou-035-cuihao:p032:m0004"
+          "object_person_mention_id": "c-weishu-weishou-035-cuihao:p032:m0004",
+          "quote_passage_ref": "data/corpus/weishu-weishou/035-cuihao.json"
         }
       ],
       "interpretation_note": "明言孫女，缺中間父親不造身份。",
@@ -177,9 +159,9 @@
           "chapter_id": "c-weishu-weishou-035-cuihao",
           "source_id": "s-weishu-weishou-035-cuihao",
           "paragraph_id": "c-weishu-weishou-035-cuihao:p032",
-          "quote": "浩母盧氏諶孫女也浩著食經敘曰余自少及長耳目聞見諸母諸姑所修婦功無不藴習酒食朝夕養舅姑四時祭祀雖有功力不任僮使常手自親焉昔遭喪亂饑饉仍臻饘蔬餬口不能具其物用十餘年間不復備設先妣慮久廢忘後生無知見而少不習業書乃占授為九篇文辭約舉婉而成章聰辨彊記皆此類也親没之後值國龍興之㑹平暴除亂拓定四方余備位台鉉與參大謀賞獲豐厚牛羊盖澤貲累巨萬衣則重錦食則梁肉逺惟平生思季路負米之時不可復得故序遺文垂示來世",
           "subject_person_mention_id": "c-weishu-weishou-035-cuihao:p032:m0000",
-          "object_person_mention_id": "c-weishu-weishou-035-cuihao:p032:m0002"
+          "object_person_mention_id": "c-weishu-weishou-035-cuihao:p032:m0002",
+          "quote_passage_ref": "data/corpus/weishu-weishou/035-cuihao.json"
         }
       ],
       "interpretation_note": "直接母稱；生母、父親端點均不從母稱推定。",
@@ -204,9 +186,9 @@
           "chapter_id": "c-weishu-weishou-035-cuihao",
           "source_id": "s-weishu-weishou-035-cuihao",
           "paragraph_id": "c-weishu-weishou-035-cuihao:p032",
-          "quote": "浩母盧氏諶孫女也浩著食經敘曰余自少及長耳目聞見諸母諸姑所修婦功無不藴習酒食朝夕養舅姑四時祭祀雖有功力不任僮使常手自親焉昔遭喪亂饑饉仍臻饘蔬餬口不能具其物用十餘年間不復備設先妣慮久廢忘後生無知見而少不習業書乃占授為九篇文辭約舉婉而成章聰辨彊記皆此類也親没之後值國龍興之㑹平暴除亂拓定四方余備位台鉉與參大謀賞獲豐厚牛羊盖澤貲累巨萬衣則重錦食則梁肉逺惟平生思季路負米之時不可復得故序遺文垂示來世",
           "subject_person_mention_id": "c-weishu-weishou-035-cuihao:p032:m0002",
-          "object_person_mention_id": "c-weishu-weishou-035-cuihao:p032:m0004"
+          "object_person_mention_id": "c-weishu-weishou-035-cuihao:p032:m0004",
+          "quote_passage_ref": "data/corpus/weishu-weishou/035-cuihao.json"
         }
       ],
       "interpretation_note": "明言孫女，缺中間父親不造身份。",

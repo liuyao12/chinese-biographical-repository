@@ -23,8 +23,8 @@
           "chapter_id": "c-sanguozhi-022-chenqun-chentai",
           "source_id": "s-sanguozhi-022-chenqun-chentai",
           "paragraph_id": "c-sanguozhi-022-chenqun-chentai:p016",
-          "quote": "案陳氏譜羣之後名位遂微諶孫佐官至青州刺史佐弟坦廷尉佐子凖太尉封廣陵郡公凖弟戴徵及從弟堪並至大位凖孫逵字林道有譽江左為西中郎將追贈衛將軍",
-          "person_mention_id": "c-sanguozhi-022-chenqun-chentai:p016:m0013"
+          "person_mention_id": "c-sanguozhi-022-chenqun-chentai:p016:m0013",
+          "quote_passage_ref": "data/corpus/sanguozhi/022-chenqun-chentai.json"
         }
       ],
       "attestations": [
@@ -69,7 +69,6 @@
       "raw_count": 3,
       "duplicate_count": 0,
       "counting_policy": "independent_fixed_witness_occurrences",
-      "quote": "案陳氏譜羣之後名位遂微諶孫佐官至青州刺史佐弟坦廷尉佐子凖太尉封廣陵郡公凖弟戴徵及從弟堪並至大位凖孫逵字林道有譽江左為西中郎將追贈衛將軍",
       "paragraph_ids": [
         "c-sanguozhi-022-chenqun-chentai:p016"
       ],
@@ -111,7 +110,12 @@
       "book_id": "b-sanguozhi-022",
       "chapter_id": "c-sanguozhi-022-chenqun-chentai",
       "source_id": "s-sanguozhi-022-chenqun-chentai",
-      "work_title": "三國志"
+      "work_title": "三國志",
+      "chapter_ref": "data/corpus/sanguozhi/022-chenqun-chentai.json",
+      "quote_span": [
+        0,
+        67
+      ]
     },
     {
       "number": 71,
@@ -122,7 +126,6 @@
       "raw_count": 2,
       "duplicate_count": 0,
       "counting_policy": "independent_fixed_witness_occurrences",
-      "quote": "六子：紀、夔、洽、諶、休、光。諶字季方，獻文先生。生青州刺史忠。二子：佐、和。佐二子：準、徽。準字道基，晉太尉、廣陵元公。生伯眕，建興中度江居曲阿新豐湖。生匡，二子：赤松、世達。世達，長城令，徙居長城下若里，生丞相掾康。康生盱眙太守英，英生尚書郎公弼，公弼生步兵校尉鼎，鼎",
       "paragraph_ids": [
         "c-xintangshu-071xia-chen-preface:p001"
       ],
@@ -155,7 +158,12 @@
       "book_id": "b-xintangshu-071-xia",
       "chapter_id": "c-xintangshu-071xia-chen-preface",
       "source_id": "s-xintangshu-071xia-chen-preface",
-      "work_title": "新唐書"
+      "work_title": "新唐書",
+      "chapter_ref": "data/corpus/xintangshu/071xia-chen-preface.json",
+      "quote_span": [
+        223,
+        359
+      ]
     }
   ],
   "table_occurrences": [],
@@ -165,55 +173,14 @@
       "work_id": "w-sanguozhi",
       "book_id": "b-sanguozhi-022",
       "source_id": "s-sanguozhi-022-chenqun-chentai",
-      "source": {
-        "title": "三國志魏書卷二十二陳羣本傳及陳泰附傳",
-        "provider": "Kanripo",
-        "url": "https://raw.githubusercontent.com/kanripo/KR2a0012/214fcafa79894355909c9d8c2c1533089e7791c6/KR2a0012_022.txt",
-        "permalink": "https://raw.githubusercontent.com/kanripo/KR2a0012/214fcafa79894355909c9d8c2c1533089e7791c6/KR2a0012_022.txt",
-        "revision_id": "214fcafa79894355909c9d8c2c1533089e7791c6",
-        "source_commit": "214fcafa79894355909c9d8c2c1533089e7791c6",
-        "response_sha256": "3bac47f1f63c9556bc3b4087fda3cfb04f3470a267595521d236e22e58b00a3b",
-        "edition": "WYG數位轉錄，未核影像",
-        "accessed_on": "2026-10-19",
-        "extent": "固定原行60–276陳羣本傳及陳泰附傳含十四古注層；277陳矯另傳排除。",
-        "text_scope": "partial_chapter",
-        "review_status": "text_checked",
-        "image_verified": false,
-        "rights": "古代正文，保留Kanripo數位轉錄歸屬。",
-        "license_url": "https://www.kanripo.org/",
-        "normalization": {
-          "character_conversion": "none",
-          "extraction_note": "正文兩完整傳主分段，古注十四層另段；去¶、頁碼、古注逐行括號包裝，原字不校改。完整raw與逐字runs另存。"
-        }
-      }
+      "chapter_ref": "data/corpus/sanguozhi/022-chenqun-chentai.json"
     },
     {
       "chapter_id": "c-xintangshu-071xia-chen-preface",
       "work_id": "w-xintangshu",
       "book_id": "b-xintangshu-071-xia",
       "source_id": "s-xintangshu-071xia-chen-preface",
-      "source": {
-        "title": "新唐書/卷071下",
-        "provider": "維基文庫",
-        "url": "https://zh.wikisource.org/w/index.php?title=%E6%96%B0%E5%94%90%E6%9B%B8%2F%E5%8D%B7071%E4%B8%8B&oldid=2405769",
-        "permalink": "https://zh.wikisource.org/w/index.php?title=%E6%96%B0%E5%94%90%E6%9B%B8%2F%E5%8D%B7071%E4%B8%8B&oldid=2405769",
-        "revision_id": 2405769,
-        "response_sha256": "141e30b0a02865af6c2b7ce5538dd30febde373d07bbd1b148ffb4df11f263cf",
-        "raw_sha256": "2f764391521a46b9a7eb1b6bc8fc145ed307e7a35cc1c98088078ff262e39639",
-        "edition": "收到數位轉錄；所據最早現存古本未知，未校圖",
-        "image_verified": false,
-        "text_scope": "partial_chapter",
-        "extent": "固定raw第747行陳氏序完整409字；不含後續wikitable、不含其他姓、不是卷七十一下完成",
-        "rights": "古代原文，WS數位編輯層CC BY-SA 4.0，見來源頁",
-        "accessed_on": "2026-10-22",
-        "retrieval_qualification": "此日重讀庫內既存固定檔；非本批新HTTP擷取，授權沿封存metadata未重新開權利頁。",
-        "license_url": "https://zh.wikisource.org/wiki/Wikisource:版權信息",
-        "review_status": "text_checked",
-        "normalization": {
-          "character_conversion": "none",
-          "extraction_note": "固定raw第747行409字逐字截取；不改古字、標點，不含後續wikitable。"
-        }
-      }
+      "chapter_ref": "data/corpus/xintangshu/071xia-chen-preface.json"
     }
   ],
   "relations": [
@@ -236,7 +203,6 @@
           "chapter_id": "c-sanguozhi-022-chenqun-chentai",
           "source_id": "s-sanguozhi-022-chenqun-chentai",
           "paragraph_id": "c-sanguozhi-022-chenqun-chentai:p016",
-          "quote": "案陳氏譜羣之後名位遂微諶孫佐官至青州刺史佐弟坦廷尉佐子凖太尉封廣陵郡公凖弟戴徵及從弟堪並至大位凖孫逵字林道有譽江左為西中郎將追贈衛將軍",
           "relationship_anchor": {
             "paragraph_id": "c-sanguozhi-022-chenqun-chentai:p016",
             "start": 11,
@@ -244,7 +210,8 @@
             "surface": "諶孫佐"
           },
           "subject_person_mention_id": "c-sanguozhi-022-chenqun-chentai:p016:m0013",
-          "object_person_mention_id": "c-sanguozhi-022-chenqun-chentai:p016:m0011"
+          "object_person_mention_id": "c-sanguozhi-022-chenqun-chentai:p016:m0011",
+          "quote_passage_ref": "data/corpus/sanguozhi/022-chenqun-chentai.json"
         }
       ],
       "interpretation_note": "陳氏譜轉引祖孫，佐父未知，星號不造人物。",
@@ -278,7 +245,6 @@
           "chapter_id": "c-sanguozhi-022-chenqun-chentai",
           "source_id": "s-sanguozhi-022-chenqun-chentai",
           "paragraph_id": "c-sanguozhi-022-chenqun-chentai:p016",
-          "quote": "案陳氏譜羣之後名位遂微諶孫佐官至青州刺史佐弟坦廷尉佐子凖太尉封廣陵郡公凖弟戴徵及從弟堪並至大位凖孫逵字林道有譽江左為西中郎將追贈衛將軍",
           "relationship_anchor": {
             "paragraph_id": "c-sanguozhi-022-chenqun-chentai:p016",
             "start": 20,
@@ -286,7 +252,8 @@
             "surface": "佐弟坦"
           },
           "subject_person_mention_id": "c-sanguozhi-022-chenqun-chentai:p016:m0022",
-          "object_person_mention_id": "c-sanguozhi-022-chenqun-chentai:p016:m0013"
+          "object_person_mention_id": "c-sanguozhi-022-chenqun-chentai:p016:m0013",
+          "quote_passage_ref": "data/corpus/sanguozhi/022-chenqun-chentai.json"
         }
       ],
       "interpretation_note": "坦較佐幼，未補絕對排行、同母或同父明文。",
@@ -313,7 +280,6 @@
           "chapter_id": "c-sanguozhi-022-chenqun-chentai",
           "source_id": "s-sanguozhi-022-chenqun-chentai",
           "paragraph_id": "c-sanguozhi-022-chenqun-chentai:p016",
-          "quote": "案陳氏譜羣之後名位遂微諶孫佐官至青州刺史佐弟坦廷尉佐子凖太尉封廣陵郡公凖弟戴徵及從弟堪並至大位凖孫逵字林道有譽江左為西中郎將追贈衛將軍",
           "relationship_anchor": {
             "paragraph_id": "c-sanguozhi-022-chenqun-chentai:p016",
             "start": 25,
@@ -321,7 +287,8 @@
             "surface": "佐子凖"
           },
           "subject_person_mention_id": "c-sanguozhi-022-chenqun-chentai:p016:m0027",
-          "object_person_mention_id": "c-sanguozhi-022-chenqun-chentai:p016:m0013"
+          "object_person_mention_id": "c-sanguozhi-022-chenqun-chentai:p016:m0013",
+          "quote_passage_ref": "data/corpus/sanguozhi/022-chenqun-chentai.json"
         }
       ],
       "interpretation_note": "凖原字保留。",
@@ -363,7 +330,6 @@
           "chapter_id": "c-xintangshu-071xia-chen-preface",
           "source_id": "s-xintangshu-071xia-chen-preface",
           "paragraph_id": "c-xintangshu-071xia-chen-preface:p001",
-          "quote": "陳氏出自媯姓，虞帝舜之後。夏禹封舜子商均於虞城，三十二世孫遏父為周陶正，武王妻以元女大姬，生滿，封之於陳，賜姓媯，以奉舜祀，是為胡公。九世孫厲公他生敬仲完，奔齊，以國為姓。既而食邑於田，又為田氏。十五世孫齊王建為秦所滅。三子：昇、桓、軫。桓稱王氏。軫，楚相，封潁川侯，因徙潁川，稱陳氏。生嬰，秦東陽令史。嬰生成安君餘，餘生軌，軌生審，審生安，安生恒，恒生願，願四子：清、察、齊、尚。齊生源，源三子：寔、崱、邃。寔字仲弓，後漢大將軍掾屬，文範先生。六子：紀、夔、洽、諶、休、光。諶字季方，獻文先生。生青州刺史忠。二子：佐、和。佐二子：準、徽。準字道基，晉太尉、廣陵元公。生伯眕，建興中度江居曲阿新豐湖。生匡，二子：赤松、世達。世達，長城令，徙居長城下若里，生丞相掾康。康生盱眙太守英，英生尚書郎公弼，公弼生步兵校尉鼎，鼎生散騎侍郎高，高生懷安令詠，詠生安成太守猛，猛生太常卿道巨，道巨生文讚。文讚三子：談先、霸先、休先。",
           "relationship_anchor": {
             "paragraph_id": "c-xintangshu-071xia-chen-preface:p001",
             "start": 253,
@@ -371,7 +337,8 @@
             "surface": "忠。二子：佐、和。"
           },
           "subject_person_mention_id": "c-xintangshu-071xia-chen-preface:p001:m0258",
-          "object_person_mention_id": "c-xintangshu-071xia-chen-preface:p001:m0253"
+          "object_person_mention_id": "c-xintangshu-071xia-chen-preface:p001:m0253",
+          "quote_passage_ref": "data/corpus/xintangshu/071xia-chen-preface.json"
         }
       ],
       "interpretation_note": "只記收到唐表近系之子句；後出系譜未作首選父系，由獨立family_tree_decision排除。列次不給絕對序、不推母。",
@@ -413,7 +380,6 @@
           "chapter_id": "c-xintangshu-071xia-chen-preface",
           "source_id": "s-xintangshu-071xia-chen-preface",
           "paragraph_id": "c-xintangshu-071xia-chen-preface:p001",
-          "quote": "陳氏出自媯姓，虞帝舜之後。夏禹封舜子商均於虞城，三十二世孫遏父為周陶正，武王妻以元女大姬，生滿，封之於陳，賜姓媯，以奉舜祀，是為胡公。九世孫厲公他生敬仲完，奔齊，以國為姓。既而食邑於田，又為田氏。十五世孫齊王建為秦所滅。三子：昇、桓、軫。桓稱王氏。軫，楚相，封潁川侯，因徙潁川，稱陳氏。生嬰，秦東陽令史。嬰生成安君餘，餘生軌，軌生審，審生安，安生恒，恒生願，願四子：清、察、齊、尚。齊生源，源三子：寔、崱、邃。寔字仲弓，後漢大將軍掾屬，文範先生。六子：紀、夔、洽、諶、休、光。諶字季方，獻文先生。生青州刺史忠。二子：佐、和。佐二子：準、徽。準字道基，晉太尉、廣陵元公。生伯眕，建興中度江居曲阿新豐湖。生匡，二子：赤松、世達。世達，長城令，徙居長城下若里，生丞相掾康。康生盱眙太守英，英生尚書郎公弼，公弼生步兵校尉鼎，鼎生散騎侍郎高，高生懷安令詠，詠生安成太守猛，猛生太常卿道巨，道巨生文讚。文讚三子：談先、霸先、休先。",
           "relationship_anchor": {
             "paragraph_id": "c-xintangshu-071xia-chen-preface:p001",
             "start": 262,
@@ -421,7 +387,8 @@
             "surface": "佐二子：準、徽。"
           },
           "subject_person_mention_id": "c-xintangshu-071xia-chen-preface:p001:m0266",
-          "object_person_mention_id": "c-xintangshu-071xia-chen-preface:p001:m0262"
+          "object_person_mention_id": "c-xintangshu-071xia-chen-preface:p001:m0262",
+          "quote_passage_ref": "data/corpus/xintangshu/071xia-chen-preface.json"
         }
       ],
       "interpretation_note": "只記收到唐表近系之子句；後出系譜未作首選父系，由獨立family_tree_decision排除。列次不給絕對序、不推母。",
@@ -463,7 +430,6 @@
           "chapter_id": "c-xintangshu-071xia-chen-preface",
           "source_id": "s-xintangshu-071xia-chen-preface",
           "paragraph_id": "c-xintangshu-071xia-chen-preface:p001",
-          "quote": "陳氏出自媯姓，虞帝舜之後。夏禹封舜子商均於虞城，三十二世孫遏父為周陶正，武王妻以元女大姬，生滿，封之於陳，賜姓媯，以奉舜祀，是為胡公。九世孫厲公他生敬仲完，奔齊，以國為姓。既而食邑於田，又為田氏。十五世孫齊王建為秦所滅。三子：昇、桓、軫。桓稱王氏。軫，楚相，封潁川侯，因徙潁川，稱陳氏。生嬰，秦東陽令史。嬰生成安君餘，餘生軌，軌生審，審生安，安生恒，恒生願，願四子：清、察、齊、尚。齊生源，源三子：寔、崱、邃。寔字仲弓，後漢大將軍掾屬，文範先生。六子：紀、夔、洽、諶、休、光。諶字季方，獻文先生。生青州刺史忠。二子：佐、和。佐二子：準、徽。準字道基，晉太尉、廣陵元公。生伯眕，建興中度江居曲阿新豐湖。生匡，二子：赤松、世達。世達，長城令，徙居長城下若里，生丞相掾康。康生盱眙太守英，英生尚書郎公弼，公弼生步兵校尉鼎，鼎生散騎侍郎高，高生懷安令詠，詠生安成太守猛，猛生太常卿道巨，道巨生文讚。文讚三子：談先、霸先、休先。",
           "relationship_anchor": {
             "paragraph_id": "c-xintangshu-071xia-chen-preface:p001",
             "start": 262,
@@ -471,7 +437,8 @@
             "surface": "佐二子：準、徽。"
           },
           "subject_person_mention_id": "c-xintangshu-071xia-chen-preface:p001:m0268",
-          "object_person_mention_id": "c-xintangshu-071xia-chen-preface:p001:m0262"
+          "object_person_mention_id": "c-xintangshu-071xia-chen-preface:p001:m0262",
+          "quote_passage_ref": "data/corpus/xintangshu/071xia-chen-preface.json"
         }
       ],
       "interpretation_note": "只記收到唐表近系之子句；後出系譜未作首選父系，由獨立family_tree_decision排除。列次不給絕對序、不推母。",
@@ -513,7 +480,6 @@
           "chapter_id": "c-sanguozhi-022-chenqun-chentai",
           "source_id": "s-sanguozhi-022-chenqun-chentai",
           "paragraph_id": "c-sanguozhi-022-chenqun-chentai:p016",
-          "quote": "案陳氏譜羣之後名位遂微諶孫佐官至青州刺史佐弟坦廷尉佐子凖太尉封廣陵郡公凖弟戴徵及從弟堪並至大位凖孫逵字林道有譽江左為西中郎將追贈衛將軍",
           "relationship_anchor": {
             "paragraph_id": "c-sanguozhi-022-chenqun-chentai:p016",
             "start": 11,
@@ -521,7 +487,8 @@
             "surface": "諶孫佐"
           },
           "subject_person_mention_id": "c-sanguozhi-022-chenqun-chentai:p016:m0013",
-          "object_person_mention_id": "c-sanguozhi-022-chenqun-chentai:p016:m0011"
+          "object_person_mention_id": "c-sanguozhi-022-chenqun-chentai:p016:m0011",
+          "quote_passage_ref": "data/corpus/sanguozhi/022-chenqun-chentai.json"
         }
       ],
       "interpretation_note": "陳氏譜轉引祖孫，佐父未知，星號不造人物。",
@@ -555,7 +522,6 @@
           "chapter_id": "c-sanguozhi-022-chenqun-chentai",
           "source_id": "s-sanguozhi-022-chenqun-chentai",
           "paragraph_id": "c-sanguozhi-022-chenqun-chentai:p016",
-          "quote": "案陳氏譜羣之後名位遂微諶孫佐官至青州刺史佐弟坦廷尉佐子凖太尉封廣陵郡公凖弟戴徵及從弟堪並至大位凖孫逵字林道有譽江左為西中郎將追贈衛將軍",
           "relationship_anchor": {
             "paragraph_id": "c-sanguozhi-022-chenqun-chentai:p016",
             "start": 20,
@@ -563,7 +529,8 @@
             "surface": "佐弟坦"
           },
           "subject_person_mention_id": "c-sanguozhi-022-chenqun-chentai:p016:m0022",
-          "object_person_mention_id": "c-sanguozhi-022-chenqun-chentai:p016:m0013"
+          "object_person_mention_id": "c-sanguozhi-022-chenqun-chentai:p016:m0013",
+          "quote_passage_ref": "data/corpus/sanguozhi/022-chenqun-chentai.json"
         }
       ],
       "interpretation_note": "坦較佐幼，未補絕對排行、同母或同父明文。",
@@ -590,7 +557,6 @@
           "chapter_id": "c-sanguozhi-022-chenqun-chentai",
           "source_id": "s-sanguozhi-022-chenqun-chentai",
           "paragraph_id": "c-sanguozhi-022-chenqun-chentai:p016",
-          "quote": "案陳氏譜羣之後名位遂微諶孫佐官至青州刺史佐弟坦廷尉佐子凖太尉封廣陵郡公凖弟戴徵及從弟堪並至大位凖孫逵字林道有譽江左為西中郎將追贈衛將軍",
           "relationship_anchor": {
             "paragraph_id": "c-sanguozhi-022-chenqun-chentai:p016",
             "start": 25,
@@ -598,7 +564,8 @@
             "surface": "佐子凖"
           },
           "subject_person_mention_id": "c-sanguozhi-022-chenqun-chentai:p016:m0027",
-          "object_person_mention_id": "c-sanguozhi-022-chenqun-chentai:p016:m0013"
+          "object_person_mention_id": "c-sanguozhi-022-chenqun-chentai:p016:m0013",
+          "quote_passage_ref": "data/corpus/sanguozhi/022-chenqun-chentai.json"
         }
       ],
       "interpretation_note": "凖原字保留。",
@@ -653,11 +620,11 @@
             "chapter_id": "c-sanguozhi-022-chenqun-chentai",
             "source_id": "s-sanguozhi-022-chenqun-chentai",
             "paragraph_id": "c-sanguozhi-022-chenqun-chentai:p016",
-            "quote": "案陳氏譜羣之後名位遂微諶孫佐官至青州刺史佐弟坦廷尉佐子凖太尉封廣陵郡公凖弟戴徵及從弟堪並至大位凖孫逵字林道有譽江左為西中郎將追贈衛將軍",
             "assertion_id": "a-sanguozhi022-daizheng-dai-brother",
             "scope": "凖弟戴/徵與同段佐子凖；同父為可撤回推導，不是原文明父。唐表準徽異說見source-evidence/sanguozhi022-daizheng/decision.json",
             "url": "https://raw.githubusercontent.com/kanripo/KR2a0012/214fcafa79894355909c9d8c2c1533089e7791c6/KR2a0012_022.txt",
-            "parallel_punctuation_url": "https://zh.wikisource.org/w/index.php?title=三國志/卷22&oldid=2085105"
+            "parallel_punctuation_url": "https://zh.wikisource.org/w/index.php?title=三國志/卷22&oldid=2085105",
+            "quote_passage_ref": "data/corpus/sanguozhi/022-chenqun-chentai.json"
           }
         ]
       },
@@ -690,11 +657,11 @@
             "chapter_id": "c-sanguozhi-022-chenqun-chentai",
             "source_id": "s-sanguozhi-022-chenqun-chentai",
             "paragraph_id": "c-sanguozhi-022-chenqun-chentai:p016",
-            "quote": "案陳氏譜羣之後名位遂微諶孫佐官至青州刺史佐弟坦廷尉佐子凖太尉封廣陵郡公凖弟戴徵及從弟堪並至大位凖孫逵字林道有譽江左為西中郎將追贈衛將軍",
             "assertion_id": "a-sanguozhi022-daizheng-zheng-brother",
             "scope": "凖弟戴/徵與同段佐子凖；同父為可撤回推導，不是原文明父。唐表準徽異說見source-evidence/sanguozhi022-daizheng/decision.json",
             "url": "https://raw.githubusercontent.com/kanripo/KR2a0012/214fcafa79894355909c9d8c2c1533089e7791c6/KR2a0012_022.txt",
-            "parallel_punctuation_url": "https://zh.wikisource.org/w/index.php?title=三國志/卷22&oldid=2085105"
+            "parallel_punctuation_url": "https://zh.wikisource.org/w/index.php?title=三國志/卷22&oldid=2085105",
+            "quote_passage_ref": "data/corpus/sanguozhi/022-chenqun-chentai.json"
           }
         ]
       },

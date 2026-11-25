@@ -21,7 +21,6 @@
       "raw_count": 5,
       "duplicate_count": 0,
       "counting_policy": "independent_fixed_witness_occurrences",
-      "quote": "於是酈生乃夜見陳留令，說之曰：「夫秦為無道而天下畔之，今足下與天下從則可以成大功。今獨為亡秦嬰城而堅守，臣竊為足下危之。」陳留令曰：「秦法至重也，不可以妄言，妄言者無類，吾不可以應。先生所以教臣者，非臣之意也，願勿復道。",
       "paragraph_ids": [
         "c-shiji-097-luli:p023"
       ],
@@ -81,7 +80,12 @@
       "book_id": "b-shiji-097",
       "chapter_id": "c-shiji-097-luli",
       "source_id": "s-shiji-097-luli",
-      "work_title": "史記"
+      "work_title": "史記",
+      "chapter_ref": "data/corpus/shiji/097.json",
+      "quote_span": [
+        0,
+        110
+      ]
     }
   ],
   "table_occurrences": [],
@@ -91,24 +95,7 @@
       "work_id": "w-shiji",
       "book_id": "b-shiji-097",
       "source_id": "s-shiji-097-luli",
-      "source": {
-        "title": "史記／卷097",
-        "provider": "維基文庫",
-        "url": "https://zh.wikisource.org/wiki/史記/卷097",
-        "permalink": "https://zh.wikisource.org/w/index.php?title=史記/卷097&oldid=1383195",
-        "revision_id": 1383195,
-        "accessed_on": "2026-10-09",
-        "extent": "24段傳世正文含太史公論，另附1段分層索隱述贊；排除導覽與空白。",
-        "image_verified": false,
-        "rights": "古代原文；數位轉錄依維基文庫CC BY-SA 4.0，保留署名及固定版本。",
-        "license_url": "https://creativecommons.org/licenses/by-sa/4.0/",
-        "normalization": {
-          "character_conversion": {},
-          "editorial_readings": [],
-          "extraction_note": "固定HTML一致，只去外緣空白；亨、尉他及尉佗等原字保留，前後陳留敘事分存。",
-          "note": "全27個HTML區塊已讀；無tooltip/reference/del/s，未核底本影像。"
-        }
-      }
+      "chapter_ref": "data/corpus/shiji/097.json"
     }
   ],
   "relations": [],
@@ -135,8 +122,8 @@
           "chapter_id": "c-shiji-097-luli",
           "source_id": "s-shiji-097-luli",
           "paragraph_id": "c-shiji-097-luli:p023",
-          "quote": "於是酈生乃夜見陳留令，說之曰：「夫秦為無道而天下畔之，今足下與天下從則可以成大功。今獨為亡秦嬰城而堅守，臣竊為足下危之。」陳留令曰：「秦法至重也，不可以妄言，妄言者無類，吾不可以應。先生所以教臣者，非臣之意也，願勿復道。」酈生留宿臥，夜半時斬陳留令首，踰城而下報沛公。沛公引兵攻城，縣令首於長竿以示城上人，曰：「趣下，而令頭已斷矣！今後下者必先斬之！」於是陳留人見令已死，遂相率而下沛公。沛公舍陳留南城門上，因其庫兵，食積粟，留出入三月，從兵以萬數，遂入破秦。",
-          "person_mention_id": "c-shiji-097-luli:m023-0121"
+          "person_mention_id": "c-shiji-097-luli:m023-0121",
+          "quote_passage_ref": "data/corpus/shiji/097.json"
         }
       ],
       "interpretation_note": "本篇後段陳留敘事，與第3段說下陳留分存，不改前段為已記殺令。 未核書影。",

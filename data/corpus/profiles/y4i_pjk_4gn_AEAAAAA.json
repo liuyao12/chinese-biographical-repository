@@ -21,7 +21,7 @@
           "chapter_id": "c-shiji-037-wei",
           "source_id": "s-shiji-037-wei",
           "paragraph_id": "c-shiji-037-wei:p005",
-          "quote": "康叔卒，子康伯代立。康伯卒，子考伯立。考伯卒，子嗣伯立。嗣伯卒，子偼伯立。偼伯卒，子靖伯立。靖伯卒，子貞伯立。貞伯卒，子頃侯立。"
+          "quote_passage_ref": "data/corpus/shiji/037.json"
         }
       ],
       "attestations": [
@@ -63,7 +63,6 @@
       "raw_count": 2,
       "duplicate_count": 0,
       "counting_policy": "independent_fixed_witness_occurrences",
-      "quote": "代立。康伯卒，子考伯立。考伯卒，子嗣伯立。嗣伯卒，子偼伯立。偼伯卒，子靖伯立。靖伯卒，子貞伯立。貞伯卒，子頃侯立。",
       "paragraph_ids": [
         "c-shiji-037-wei:p005"
       ],
@@ -96,7 +95,12 @@
       "book_id": "b-shiji-037",
       "chapter_id": "c-shiji-037-wei",
       "source_id": "s-shiji-037-wei",
-      "work_title": "史記"
+      "work_title": "史記",
+      "chapter_ref": "data/corpus/shiji/037.json",
+      "quote_span": [
+        7,
+        64
+      ]
     }
   ],
   "table_occurrences": [
@@ -104,7 +108,6 @@
       "table_id": "shiji-013",
       "cell_id": "shiji-013-t3-r006-c07",
       "title": "《史記·三代世表》",
-      "quote": "靖伯",
       "year": null,
       "mention": {
         "id": "shiji-013-t3-r006-c07-m000",
@@ -119,7 +122,8 @@
       "book_id": "b-shiji-013",
       "chapter_id": "table-chapter-shiji-013",
       "source_id": "table-witness-shiji-013",
-      "source_revision": "2606991"
+      "source_revision": "2606991",
+      "quote_ref": "cell"
     }
   ],
   "sources": [
@@ -128,57 +132,14 @@
       "work_id": "w-shiji",
       "book_id": "b-shiji-037",
       "source_id": "s-shiji-037-wei",
-      "source": {
-        "title": "史記／卷037",
-        "provider": "維基文庫",
-        "url": "https://zh.wikisource.org/wiki/史記/卷037",
-        "permalink": "https://zh.wikisource.org/w/index.php?title=史記/卷037&oldid=5977124",
-        "revision_id": 5977124,
-        "accessed_on": "2026-10-09",
-        "extent": "53段傳世正文，自衞康叔名封至太史公論贊，另保留1段數位見證附載索隱述贊並分層；排除2個dd導覽。",
-        "image_verified": false,
-        "rights": "古代原文；數位轉錄依維基文庫CC BY-SA 4.0，保留署名及固定版本。",
-        "license_url": "https://creativecommons.org/licenses/by-sa/4.0/",
-        "normalization": {
-          "character_conversion": {
-            "绖": "絰"
-          },
-          "editorial_readings": [
-            {
-              "paragraph_id": "c-shiji-037-wei:p027",
-              "rendered": "史Template:按",
-              "wikitext": "史{{按|魚}}",
-              "transcribed": "史魚",
-              "reason": "同一固定版本的按模板失效；取原始標記明示的魚字恢復轉錄，不是依模型補名或底本校勘。"
-            }
-          ],
-          "extraction_note": "固定版本與實讀HTML一致。第31段绖轉絰；第27段失效模板按同版原始標記修復。衞、偼、呉、徴、盂黶等其餘原字不默改。末段標題在h2索隱述贊，另層保留，不把標題添加到原段。",
-          "note": "未核可靠古籍底本及影像，原紀年、世系及異體保留。未以後世研究摘要直接修改親屬或身份。"
-        }
-      }
+      "chapter_ref": "data/corpus/shiji/037.json"
     },
     {
       "chapter_id": "table-chapter-shiji-013",
       "work_id": "w-shiji",
       "book_id": "b-shiji-013",
       "source_id": "table-witness-shiji-013",
-      "source": {
-        "id": "table-witness-shiji-013",
-        "work_id": "w-shiji",
-        "book_id": "b-shiji-013",
-        "chapter_id": "table-chapter-shiji-013",
-        "url": "https://zh.wikisource.org/wiki/史記/卷013",
-        "revision_url": "https://zh.wikisource.org/w/index.php?title=史記/卷013&oldid=2606991",
-        "revision": "2606991",
-        "accessed": "2026-10-13",
-        "response_sha256": "8c98c072f11fc224a605f6b8f4dfc77be5f87bad792d32c0a2a720914638d7c3",
-        "edition": null,
-        "image_verified": false,
-        "rights": "古籍正文公有領域；維基文庫數位轉錄依CC BY-SA，保留貢獻者署名。",
-        "rights_url": "https://zh.wikisource.org/wiki/Wikisource:版權信息",
-        "review_status": "partial_named_entity_review",
-        "note": "各組表保留原欄題、原文、空格及合欄，不推不同欄題的接續。西元欄為數位編者增補；未明年份留空，不推世系曆年。未核底本影像，人物標註仍待逐處覆核。"
-      }
+      "table_source_ref": "shiji-013"
     }
   ],
   "relations": [
@@ -193,7 +154,7 @@
           "chapter_id": "c-shiji-037-wei",
           "source_id": "s-shiji-037-wei",
           "paragraph_id": "c-shiji-037-wei:p005",
-          "quote": "康叔卒，子康伯代立。康伯卒，子考伯立。考伯卒，子嗣伯立。嗣伯卒，子偼伯立。偼伯卒，子靖伯立。靖伯卒，子貞伯立。貞伯卒，子頃侯立。"
+          "quote_passage_ref": "data/corpus/shiji/037.json"
         }
       ],
       "qualifiers": {
@@ -214,7 +175,7 @@
           "chapter_id": "c-shiji-037-wei",
           "source_id": "s-shiji-037-wei",
           "paragraph_id": "c-shiji-037-wei:p005",
-          "quote": "康叔卒，子康伯代立。康伯卒，子考伯立。考伯卒，子嗣伯立。嗣伯卒，子偼伯立。偼伯卒，子靖伯立。靖伯卒，子貞伯立。貞伯卒，子頃侯立。"
+          "quote_passage_ref": "data/corpus/shiji/037.json"
         }
       ],
       "qualifiers": {
@@ -247,7 +208,7 @@
           "chapter_id": "c-shiji-037-wei",
           "source_id": "s-shiji-037-wei",
           "paragraph_id": "c-shiji-037-wei:p005",
-          "quote": "康叔卒，子康伯代立。康伯卒，子考伯立。考伯卒，子嗣伯立。嗣伯卒，子偼伯立。偼伯卒，子靖伯立。靖伯卒，子貞伯立。貞伯卒，子頃侯立。"
+          "quote_passage_ref": "data/corpus/shiji/037.json"
         }
       ],
       "qualifiers": {
@@ -268,7 +229,7 @@
           "chapter_id": "c-shiji-037-wei",
           "source_id": "s-shiji-037-wei",
           "paragraph_id": "c-shiji-037-wei:p005",
-          "quote": "康叔卒，子康伯代立。康伯卒，子考伯立。考伯卒，子嗣伯立。嗣伯卒，子偼伯立。偼伯卒，子靖伯立。靖伯卒，子貞伯立。貞伯卒，子頃侯立。"
+          "quote_passage_ref": "data/corpus/shiji/037.json"
         }
       ],
       "qualifiers": {
@@ -292,8 +253,8 @@
           "chapter_id": "c-shiji-037-wei",
           "source_id": "s-shiji-037-wei",
           "paragraph_id": "c-shiji-037-wei:p005",
-          "quote": "康叔卒，子康伯代立。康伯卒，子考伯立。考伯卒，子嗣伯立。嗣伯卒，子偼伯立。偼伯卒，子靖伯立。靖伯卒，子貞伯立。貞伯卒，子頃侯立。",
-          "person_mention_id": "c-shiji-037-wei:m005-0042"
+          "person_mention_id": "c-shiji-037-wei:m005-0042",
+          "quote_passage_ref": "data/corpus/shiji/037.json"
         }
       ],
       "source_term": "靖伯卒",

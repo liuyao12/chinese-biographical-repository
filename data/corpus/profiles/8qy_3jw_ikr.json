@@ -21,7 +21,7 @@
           "chapter_id": "c-shiji-109-liguang",
           "source_id": "s-shiji-109-liguang",
           "paragraph_id": "c-shiji-109-liguang:p002",
-          "quote": "及孝景初立，廣爲隴西都尉，徙爲騎郎將。呉楚軍時，廣爲驍騎都尉，從太尉亞夫擊呉楚軍，取旗，顯功名昌邑下。以梁王授廣將軍印，還，賞不行。徙爲上谷太守，匈奴日以合戰。典屬國公孫昆邪爲上泣曰：「李廣才氣，天下無雙，自負其能，數與虜敵戰，恐亡之。」於是乃徙爲上郡太守。後廣轉爲邊郡太守，徙上郡。嘗爲隴西、北地、鴈門、代郡、雲中太守，皆以力戰爲名。"
+          "quote_passage_ref": "data/corpus/shiji/109.json"
         }
       ],
       "attestations": [
@@ -63,7 +63,6 @@
       "raw_count": 1,
       "duplicate_count": 0,
       "counting_policy": "independent_fixed_witness_occurrences",
-      "quote": "邑下。以梁王授廣將軍印，還，賞不行。徙爲上谷太守，匈奴日以合戰。典屬國公孫昆邪爲上泣曰：「李廣才氣，天下無雙，自負其能，數與虜敵戰，恐亡之。」於是乃徙爲上郡太守。後廣轉爲邊郡太守，徙上郡。嘗爲隴西、北地、鴈門、代郡、雲中太守，皆以力戰爲名。",
       "paragraph_ids": [
         "c-shiji-109-liguang:p002"
       ],
@@ -87,7 +86,12 @@
       "book_id": "b-shiji-109",
       "chapter_id": "c-shiji-109-liguang",
       "source_id": "s-shiji-109-liguang",
-      "work_title": "史記"
+      "work_title": "史記",
+      "chapter_ref": "data/corpus/shiji/109.json",
+      "quote_span": [
+        48,
+        168
+      ]
     }
   ],
   "table_occurrences": [],
@@ -97,24 +101,7 @@
       "work_id": "w-shiji",
       "book_id": "b-shiji-109",
       "source_id": "s-shiji-109-liguang",
-      "source": {
-        "title": "史記／卷109",
-        "provider": "維基文庫",
-        "url": "https://zh.wikisource.org/wiki/史記/卷109",
-        "permalink": "https://zh.wikisource.org/w/index.php?title=史記/卷109&oldid=1765440",
-        "revision_id": 1765440,
-        "accessed_on": "2026-10-11",
-        "extent": "18段正文、1段太史公論、1段索隱述贊。",
-        "image_verified": false,
-        "rights": "古代原文；數位轉錄依維基文庫CC BY-SA 4.0，保留署名及固定版本。",
-        "license_url": "https://creativecommons.org/licenses/by-sa/4.0/",
-        "normalization": {
-          "character_conversion": {},
-          "editorial_readings": [],
-          "extraction_note": "去介面模板與現代節標題；移除專名顯示模板及單字語言轉換包裹，保留模板內原字。其餘原字、標點與段落次序保留。",
-          "note": "未核底本影像。"
-        }
-      }
+      "chapter_ref": "data/corpus/shiji/109.json"
     }
   ],
   "relations": [],

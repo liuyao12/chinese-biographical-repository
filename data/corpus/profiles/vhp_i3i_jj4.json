@@ -29,8 +29,8 @@
           "source_id": "s-sanguozhi-027-wangchang",
           "chapter_id": "c-sanguozhi-027-wangchang",
           "paragraph_id": "c-sanguozhi-027-wangchang:unit009",
-          "quote": "人或毁已當退而求之於身若己有可毁之行則彼言當矣若己無可毁之行則彼言妄矣當則無怨於彼妄則無害於身又何反報焉且聞人毁己而忿者惡醜聲之加人也人報者滋甚不如黙而自脩己也諺曰救寒莫如重裘止謗莫如自脩斯言信矣若與是非之士凶險之人近猶不可况與對校乎其害深矣夫虛偽之人言不根道行不顧言其為浮淺較可識别而世人惑焉猶不檢之以言行也近濟隂魏諷山陽曹偉皆以傾邪敗沒熒惑當世挾持姦慝驅動後生雖刑於鈇鉞大為烱戒然所汙染固以衆矣可不慎與",
-          "person_mention_id": "c-sanguozhi-027-wangchang:unit009:m0158"
+          "person_mention_id": "c-sanguozhi-027-wangchang:unit009:m0158",
+          "quote_passage_ref": "data/corpus/sanguozhi/027-wangchang.json"
         }
       ],
       "interpretation_note": "原籍、來源地域稱法與任所分開；不作出生地、不補現代定位、不從故吏地名補官。",
@@ -55,7 +55,6 @@
       "raw_count": 1,
       "duplicate_count": 0,
       "counting_policy": "independent_fixed_witness_occurrences",
-      "quote": "蓋為百姓也今臣曾不能少凝聖聽不及意遠矣帝於是有所減省初太祖時劉廙坐弟與魏諷謀反當誅羣言之太祖太祖曰廙名臣也吾亦欲赦之乃復位廙深徳羣羣曰夫議刑為國非為私也且自明主之意吾何知焉其弘博不伐皆此類也青龍四年薨諡曰靖侯子泰嗣帝追思羣功徳分羣戸邑封一子列侯",
       "paragraph_ids": [
         "c-sanguozhi-022-chenqun-chentai:p001"
       ],
@@ -79,7 +78,12 @@
       "book_id": "b-sanguozhi-022",
       "chapter_id": "c-sanguozhi-022-chenqun-chentai",
       "source_id": "s-sanguozhi-022-chenqun-chentai",
-      "work_title": "三國志"
+      "work_title": "三國志",
+      "chapter_ref": "data/corpus/sanguozhi/022-chenqun-chentai.json",
+      "quote_span": [
+        1794,
+        1916
+      ]
     },
     {
       "number": 27,
@@ -90,7 +94,6 @@
       "raw_count": 2,
       "duplicate_count": 0,
       "counting_policy": "independent_fixed_witness_occurrences",
-      "quote": "偽之人言不根道行不顧言其為浮淺較可識别而世人惑焉猶不檢之以言行也近濟隂魏諷山陽曹偉皆以傾邪敗沒熒惑當世挾持姦慝驅動後生雖刑於鈇鉞大為烱戒然所汙染固以衆矣可不慎與",
       "paragraph_ids": [
         "c-sanguozhi-027-wangchang:unit009",
         "c-sanguozhi-027-wangchang:unit014"
@@ -124,7 +127,12 @@
       "book_id": "b-sanguozhi-027",
       "chapter_id": "c-sanguozhi-027-wangchang",
       "source_id": "s-sanguozhi-027-wangchang",
-      "work_title": "三國志"
+      "work_title": "三國志",
+      "chapter_ref": "data/corpus/sanguozhi/027-wangchang.json",
+      "quote_span": [
+        123,
+        203
+      ]
     }
   ],
   "table_occurrences": [],
@@ -134,57 +142,14 @@
       "work_id": "w-sanguozhi",
       "book_id": "b-sanguozhi-022",
       "source_id": "s-sanguozhi-022-chenqun-chentai",
-      "source": {
-        "title": "三國志魏書卷二十二陳羣本傳及陳泰附傳",
-        "provider": "Kanripo",
-        "url": "https://raw.githubusercontent.com/kanripo/KR2a0012/214fcafa79894355909c9d8c2c1533089e7791c6/KR2a0012_022.txt",
-        "permalink": "https://raw.githubusercontent.com/kanripo/KR2a0012/214fcafa79894355909c9d8c2c1533089e7791c6/KR2a0012_022.txt",
-        "revision_id": "214fcafa79894355909c9d8c2c1533089e7791c6",
-        "source_commit": "214fcafa79894355909c9d8c2c1533089e7791c6",
-        "response_sha256": "3bac47f1f63c9556bc3b4087fda3cfb04f3470a267595521d236e22e58b00a3b",
-        "edition": "WYG數位轉錄，未核影像",
-        "accessed_on": "2026-10-19",
-        "extent": "固定原行60–276陳羣本傳及陳泰附傳含十四古注層；277陳矯另傳排除。",
-        "text_scope": "partial_chapter",
-        "review_status": "text_checked",
-        "image_verified": false,
-        "rights": "古代正文，保留Kanripo數位轉錄歸屬。",
-        "license_url": "https://www.kanripo.org/",
-        "normalization": {
-          "character_conversion": "none",
-          "extraction_note": "正文兩完整傳主分段，古注十四層另段；去¶、頁碼、古注逐行括號包裝，原字不校改。完整raw與逐字runs另存。"
-        }
-      }
+      "chapter_ref": "data/corpus/sanguozhi/022-chenqun-chentai.json"
     },
     {
       "chapter_id": "c-sanguozhi-027-wangchang",
       "work_id": "w-sanguozhi",
       "book_id": "b-sanguozhi-027",
       "source_id": "s-sanguozhi-027-wangchang",
-      "source": {
-        "title": "三國志／魏書卷二十七／王昶傳",
-        "provider": "Kanripo WYG",
-        "url": "https://github.com/kanripo/KR2a0012/blob/214fcafa79894355909c9d8c2c1533089e7791c6/KR2a0012_027.txt",
-        "permalink": "https://github.com/kanripo/KR2a0012/blob/214fcafa79894355909c9d8c2c1533089e7791c6/KR2a0012_027.txt",
-        "revision_id": "214fcafa79894355909c9d8c2c1533089e7791c6",
-        "source_commit": "214fcafa79894355909c9d8c2c1533089e7791c6",
-        "source_blob": "5305506e7094013caff1247f971797655b3839fe",
-        "raw_file_sha256": "022fc5dba059f0b330510848ef58d10b96ce10fc09a466c73cf45aaf52139998",
-        "raw_path": "sources/sanguozhi/KR2a0012_027-214fcaf.txt",
-        "accessed_on": "2026-10-19",
-        "edition": "文淵閣四庫全書數位轉錄；未圖校",
-        "extent": "117–260完整王昶傳及九裴注；402–404四傳合評；410–418完整王昶相關清考證，不稱全卷完成",
-        "text_scope": "partial_chapter",
-        "review_status": "text_checked",
-        "image_verified": false,
-        "license_url": "https://creativecommons.org/publicdomain/mark/1.0/",
-        "rights": "古籍原文；Kanripo固定數位見證",
-        "normalization": {
-          "character_conversion": {},
-          "extraction_note": "正文與九裴注按原次序分層；只去版面符號、縮排及注括號，不正字。逐字原行片段保留。",
-          "excerpts": []
-        }
-      }
+      "chapter_ref": "data/corpus/sanguozhi/027-wangchang.json"
     }
   ],
   "relations": [],
@@ -201,14 +166,14 @@
       "additional_names": [],
       "chapter_id": "c-sanguozhi-027-wangchang",
       "paragraph_id": "c-sanguozhi-027-wangchang:unit009",
-      "quote": "人或毁已當退而求之於身若己有可毁之行則彼言當矣若己無可毁之行則彼言妄矣當則無怨於彼妄則無害於身又何反報焉且聞人毁己而忿者惡醜聲之加人也人報者滋甚不如黙而自脩己也諺曰救寒莫如重裘止謗莫如自脩斯言信矣若與是非之士凶險之人近猶不可况與對校乎其害深矣夫虛偽之人言不根道行不顧言其為浮淺較可識别而世人惑焉猶不檢之以言行也近濟隂魏諷山陽曹偉皆以傾邪敗沒熒惑當世挾持姦慝驅動後生雖刑於鈇鉞大為烱戒然所汙染固以衆矣可不慎與",
       "note": "本源姓名構件追加出處，不覆寫既有主名、姓或字；異體各存。",
       "status": "editorial_provisional",
       "human_reviewed": false,
       "source_proposal_id": "proposal-wang34-017",
       "work_id": "w-sanguozhi",
       "book_id": "b-sanguozhi-027",
-      "source_id": "s-sanguozhi-027-wangchang"
+      "source_id": "s-sanguozhi-027-wangchang",
+      "quote_passage_ref": "data/corpus/sanguozhi/027-wangchang.json"
     }
   ],
   "person_ids": [

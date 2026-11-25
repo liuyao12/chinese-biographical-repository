@@ -22,7 +22,7 @@
           "chapter_id": "c-shiji-110-xiongnu",
           "source_id": "s-shiji110-xiongnu",
           "paragraph_id": "c-shiji-110-xiongnu:p013",
-          "quote": "是後韓王信爲匈奴將，及趙利、王黃等數倍約，侵盜代、雲中。居無幾何，陳豨反，又與韓信合謀擊代。漢使樊噲往擊之，復拔代、鴈門、雲中郡縣，不出塞。是時匈奴以漢將眾往降，故冒頓常往來侵盜代地。於是漢患之，高帝乃使劉敬奉宗室女公主爲單于閼氏，歳奉匈奴絮繒酒米食物各有數，約爲昆弟以和親，冒頓乃少止。後燕王盧綰反，率其黨數千人降匈奴，往來苦上谷以東。"
+          "quote_passage_ref": "data/corpus/shiji/110.json"
         }
       ],
       "attestations": [
@@ -64,7 +64,7 @@
           "chapter_id": "c-shiji-110-xiongnu",
           "source_id": "s-shiji110-xiongnu",
           "paragraph_id": "c-shiji-110-xiongnu:p013",
-          "quote": "是後韓王信爲匈奴將，及趙利、王黃等數倍約，侵盜代、雲中。居無幾何，陳豨反，又與韓信合謀擊代。漢使樊噲往擊之，復拔代、鴈門、雲中郡縣，不出塞。是時匈奴以漢將眾往降，故冒頓常往來侵盜代地。於是漢患之，高帝乃使劉敬奉宗室女公主爲單于閼氏，歳奉匈奴絮繒酒米食物各有數，約爲昆弟以和親，冒頓乃少止。後燕王盧綰反，率其黨數千人降匈奴，往來苦上谷以東。"
+          "quote_passage_ref": "data/corpus/shiji/110.json"
         }
       ],
       "attestations": [
@@ -106,7 +106,6 @@
       "raw_count": 2,
       "duplicate_count": 0,
       "counting_policy": "independent_fixed_witness_occurrences",
-      "quote": "是時匈奴以漢將眾往降，故冒頓常往來侵盜代地。於是漢患之，高帝乃使劉敬奉宗室女公主爲單于閼氏，歳奉匈奴絮繒酒米食物各有數，約爲昆弟以和親，冒頓乃少止。後燕王盧綰反，率其黨數千人降匈奴，往來苦上谷以東。",
       "paragraph_ids": [
         "c-shiji-110-xiongnu:p013"
       ],
@@ -139,7 +138,12 @@
       "book_id": "b-shiji-110",
       "chapter_id": "c-shiji-110-xiongnu",
       "source_id": "s-shiji110-xiongnu",
-      "work_title": "史記"
+      "work_title": "史記",
+      "chapter_ref": "data/corpus/shiji/110.json",
+      "quote_span": [
+        70,
+        169
+      ]
     }
   ],
   "table_occurrences": [],
@@ -149,24 +153,7 @@
       "work_id": "w-shiji",
       "book_id": "b-shiji-110",
       "source_id": "s-shiji110-xiongnu",
-      "source": {
-        "title": "史記／卷110",
-        "provider": "維基文庫",
-        "url": "https://zh.wikisource.org/wiki/史記/卷110",
-        "permalink": "https://zh.wikisource.org/w/index.php?title=史記/卷110&oldid=8735645",
-        "revision_id": 8735645,
-        "accessed_on": "2026-10-11",
-        "extent": "固定數位見證去介面及現代節標題後61段，末段為太史公論。",
-        "image_verified": false,
-        "rights": "古代原文；數位轉錄依維基文庫CC BY-SA 4.0，保留署名及固定版本。",
-        "license_url": "https://creativecommons.org/licenses/by-sa/4.0/",
-        "normalization": {
-          "character_conversion": {},
-          "editorial_readings": [],
-          "extraction_note": "去 header2 介面及現代單于節標題、太史公曰節標題；移除單字語言轉換包裹與下劃線標籤，紀年 YL 模板保留顯示原詞。其餘原字、標點及段落次序保留，不從小標題補正文人名。",
-          "note": "未核底本影像。"
-        }
-      }
+      "chapter_ref": "data/corpus/shiji/110.json"
     }
   ],
   "relations": [],

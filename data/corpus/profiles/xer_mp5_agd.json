@@ -20,7 +20,6 @@
       "raw_count": 4,
       "duplicate_count": 0,
       "counting_policy": "independent_fixed_witness_occurrences",
-      "quote": "楚使者在，方急責英布發兵，舍傳舍。隨何直入，坐楚使者上坐，曰：「九江王已歸漢，楚何以得發兵？」布愕然。楚使者起。何因說布曰：「事已搆，可遂殺楚使者，無使歸，而疾走漢并力。」布曰：「如使者教，因起兵而擊之耳。",
       "paragraph_ids": [
         "c-shiji-091-qingbu:p008"
       ],
@@ -71,7 +70,12 @@
       "book_id": "b-shiji-091",
       "chapter_id": "c-shiji-091-qingbu",
       "source_id": "s-shiji-091-qingbu",
-      "work_title": "史記"
+      "work_title": "史記",
+      "chapter_ref": "data/corpus/shiji/091.json",
+      "quote_span": [
+        0,
+        103
+      ]
     }
   ],
   "table_occurrences": [],
@@ -81,24 +85,7 @@
       "work_id": "w-shiji",
       "book_id": "b-shiji-091",
       "source_id": "s-shiji-091-qingbu",
-      "source": {
-        "title": "史記／卷091",
-        "provider": "維基文庫",
-        "url": "https://zh.wikisource.org/wiki/史記/卷091",
-        "permalink": "https://zh.wikisource.org/w/index.php?title=史記/卷091&oldid=2509940",
-        "revision_id": 2509940,
-        "accessed_on": "2026-10-09",
-        "extent": "19段傳世正文含太史公論，另附1段witness_appended_suoyin_zan，排除導覽與空白段。",
-        "image_verified": false,
-        "rights": "古代原文；數位轉錄依維基文庫CC BY-SA 4.0，保留署名及固定版本。",
-        "license_url": "https://creativecommons.org/licenses/by-sa/4.0/",
-        "normalization": {
-          "character_conversion": {},
-          "editorial_readings": [],
-          "extraction_note": "固定HTML一致，只去外緣空白；范曾、讬、迺及布（甚）大怒原字與括號保留。",
-          "note": "全22個HTML區塊已讀並核篇界，未核底本影像。"
-        }
-      }
+      "chapter_ref": "data/corpus/shiji/091.json"
     }
   ],
   "relations": [],

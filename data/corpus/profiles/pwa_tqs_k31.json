@@ -21,7 +21,7 @@
           "chapter_id": "c-shiji-081-lianlin",
           "source_id": "s-shiji-081-lianlin",
           "paragraph_id": "c-shiji-081-lianlin:p004",
-          "quote": "秦王齋五日後，乃設九賓禮於廷，引趙使者藺相如。相如至，謂秦王曰：「秦自繆公以來二十餘君，未嘗有堅明約束者也。臣誠恐見欺於王而負趙，故令人持璧歸，間至趙矣。且秦彊而趙弱，大王遣一介之使至趙，趙立奉璧來。今以秦之彊而先割十五都予趙，趙豈敢留璧而得罪於大王乎？臣知欺大王之罪當誅，臣請就湯鑊，唯大王與群臣孰計議之。」秦王與群臣相視而嘻。左右或欲引相如去，秦王因曰：「今殺相如，終不能得璧也，而絶秦趙之驩，不如因而厚遇之，使歸趙，趙王豈以一璧之故欺秦邪！」卒廷見相如，畢禮而歸之。"
+          "quote_passage_ref": "data/corpus/shiji/081.json"
         }
       ],
       "attestations": [
@@ -63,7 +63,6 @@
       "raw_count": 1,
       "duplicate_count": 0,
       "counting_policy": "independent_fixed_witness_occurrences",
-      "quote": "秦王齋五日後，乃設九賓禮於廷，引趙使者藺相如。相如至，謂秦王曰：「秦自繆公以來二十餘君，未嘗有堅明約束者也。臣誠恐見欺於王而負趙，故令人持璧歸，間至趙矣。且秦彊而趙弱，大王遣一介之使至趙，趙立奉璧來。今以秦之彊而先割十五都予趙，趙豈敢留璧而得罪於大王乎？臣知欺大王之罪當誅，",
       "paragraph_ids": [
         "c-shiji-081-lianlin:p004"
       ],
@@ -87,7 +86,12 @@
       "book_id": "b-shiji-081",
       "chapter_id": "c-shiji-081-lianlin",
       "source_id": "s-shiji-081-lianlin",
-      "work_title": "史記"
+      "work_title": "史記",
+      "chapter_ref": "data/corpus/shiji/081.json",
+      "quote_span": [
+        0,
+        137
+      ]
     }
   ],
   "table_occurrences": [],
@@ -97,24 +101,7 @@
       "work_id": "w-shiji",
       "book_id": "b-shiji-081",
       "source_id": "s-shiji-081-lianlin",
-      "source": {
-        "title": "史記／卷081",
-        "provider": "維基文庫",
-        "url": "https://zh.wikisource.org/wiki/史記/卷081",
-        "permalink": "https://zh.wikisource.org/w/index.php?title=史記/卷081&oldid=8735558",
-        "revision_id": 8735558,
-        "accessed_on": "2026-10-09",
-        "extent": "27段正文，自廉頗者至太史公論贊；排除人物導覽、索隱述贊及現代版權。",
-        "image_verified": false,
-        "rights": "古代原文；數位轉錄依維基文庫CC BY-SA 4.0，保留署名及固定版本。",
-        "license_url": "https://creativecommons.org/licenses/by-sa/4.0/",
-        "normalization": {
-          "character_conversion": {},
-          "editorial_readings": [],
-          "extraction_note": "固定HTML與取得時版本一致，只去外緣空白；全部p按原序；爲、原、繆、脱、盆鮓、許暦與桓齮等原字不擅校。",
-          "note": "全27段正文、HTML篇界及姓名首輪已核讀；未核底本影像或現代研究。"
-        }
-      }
+      "chapter_ref": "data/corpus/shiji/081.json"
     }
   ],
   "relations": [],

@@ -22,7 +22,6 @@
       "raw_count": 3,
       "duplicate_count": 0,
       "counting_policy": "independent_fixed_witness_occurrences",
-      "quote": "孝景三年，吳楚七國反，吳使者至淮南，淮南王欲發兵應之。其相曰：「大王必欲發兵應吳，臣願為將。」王乃屬相兵。淮南相已將兵，因城守，不聽王而為漢；漢亦使曲城侯將兵救淮南：淮南以故得完。吳使者至廬江，廬江王弗應，而往來使越。吳使者至衡山，衡山王堅守無二心。孝景四年",
       "paragraph_ids": [
         "c-shiji-118-huainan:p014"
       ],
@@ -64,7 +63,12 @@
       "book_id": "b-shiji-118",
       "chapter_id": "c-shiji-118-huainan",
       "source_id": "s-shiji118-huainan",
-      "work_title": "史記"
+      "work_title": "史記",
+      "chapter_ref": "data/corpus/shiji/118.json",
+      "quote_span": [
+        0,
+        129
+      ]
     }
   ],
   "table_occurrences": [],
@@ -74,24 +78,7 @@
       "work_id": "w-shiji",
       "book_id": "b-shiji-118",
       "source_id": "s-shiji118-huainan",
-      "source": {
-        "title": "史記／卷118",
-        "provider": "維基文庫",
-        "url": "https://zh.wikisource.org/wiki/史記/卷118",
-        "permalink": "https://zh.wikisource.org/w/index.php?title=史記/卷118&oldid=7904122",
-        "revision_id": 7904122,
-        "accessed_on": "2026-10-11",
-        "extent": "固定修訂全文31段，末段索隱述贊分層。",
-        "image_verified": false,
-        "rights": "古代原文；數位轉錄依維基文庫CC BY-SA 4.0，保留署名及固定版本。",
-        "license_url": "https://creativecommons.org/licenses/by-sa/4.0/",
-        "normalization": {
-          "character_conversion": {},
-          "editorial_readings": [],
-          "extraction_note": "去header2與現代節標；YL模板保留原曆首參數，數位公元年不收入正文。保留（十）［七］及元（朔七）［狩元］等校記，不默改。未核影像。",
-          "note": "全部身份與版本仍待覆核。"
-        }
-      }
+      "chapter_ref": "data/corpus/shiji/118.json"
     }
   ],
   "relations": [],

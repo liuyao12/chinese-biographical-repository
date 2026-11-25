@@ -23,7 +23,7 @@
           "chapter_id": "c-shiji-045-han",
           "source_id": "s-shiji-045-han",
           "paragraph_id": "c-shiji-045-han:p010",
-          "quote": "景侯虔元年，伐鄭，取雍丘。二年，鄭敗我負黍。"
+          "quote_passage_ref": "data/corpus/shiji/045.json"
         }
       ],
       "attestations": [
@@ -65,7 +65,6 @@
       "raw_count": 3,
       "duplicate_count": 0,
       "counting_policy": "independent_fixed_witness_occurrences",
-      "quote": "武子二年，伐鄭，殺其君幽公。十六年，武子卒，子景侯立。",
       "paragraph_ids": [
         "c-shiji-045-han:p009",
         "c-shiji-045-han:p010",
@@ -109,7 +108,12 @@
       "book_id": "b-shiji-045",
       "chapter_id": "c-shiji-045-han",
       "source_id": "s-shiji-045-han",
-      "work_title": "史記"
+      "work_title": "史記",
+      "chapter_ref": "data/corpus/shiji/045.json",
+      "quote_span": [
+        0,
+        27
+      ]
     }
   ],
   "table_occurrences": [
@@ -117,7 +121,6 @@
       "table_id": "shiji-015",
       "cell_id": "shiji-015-r069-c04",
       "title": "《史記·六國年表》",
-      "quote": "韓景侯虔元年。伐鄭，取雍丘。鄭城京。",
       "year": {
         "era": "BCE",
         "value": 408,
@@ -140,7 +143,8 @@
       "book_id": "b-shiji-015",
       "chapter_id": "table-chapter-shiji-015",
       "source_id": "table-witness-shiji-015",
-      "source_revision": "2607002"
+      "source_revision": "2607002",
+      "quote_ref": "cell"
     }
   ],
   "sources": [
@@ -149,47 +153,14 @@
       "work_id": "w-shiji",
       "book_id": "b-shiji-045",
       "source_id": "s-shiji-045-han",
-      "source": {
-        "title": "史記／卷045",
-        "provider": "維基文庫",
-        "url": "https://zh.wikisource.org/wiki/史記/卷045",
-        "permalink": "https://zh.wikisource.org/w/index.php?title=史記/卷045&oldid=7903607",
-        "revision_id": 7903607,
-        "accessed_on": "2026-10-09",
-        "extent": "36段正文；排除註釋版導覽、2個dd及現代分節標題，只去除段落外緣空白。",
-        "image_verified": false,
-        "rights": "古代原文；數位轉錄依維基文庫CC BY-SA 4.0，保留署名及固定版本。",
-        "license_url": "https://creativecommons.org/licenses/by-sa/4.0/",
-        "normalization": {
-          "character_conversion": {},
-          "editorial_readings": [],
-          "extraction_note": "取得時HTML與固定修訂一致；現代分節標題及導覽不當古代正文。保留蟣蝨、韓姬、韓嚴、韓非與非等原字。",
-          "note": "已讀全36段數位正文；未核古籍影像、可靠底本或現代研究，首輪不是完成覆核。"
-        }
-      }
+      "chapter_ref": "data/corpus/shiji/045.json"
     },
     {
       "chapter_id": "table-chapter-shiji-015",
       "work_id": "w-shiji",
       "book_id": "b-shiji-015",
       "source_id": "table-witness-shiji-015",
-      "source": {
-        "id": "table-witness-shiji-015",
-        "work_id": "w-shiji",
-        "book_id": "b-shiji-015",
-        "chapter_id": "table-chapter-shiji-015",
-        "url": "https://zh.wikisource.org/wiki/史記/卷015",
-        "revision_url": "https://zh.wikisource.org/w/index.php?title=史記/卷015&oldid=2607002",
-        "revision": "2607002",
-        "accessed": "2026-10-12",
-        "response_sha256": "eb0624a019e02c24ce90a40bfa24863f4020878062c6e2efea32355033be5559",
-        "edition": null,
-        "image_verified": false,
-        "rights": "古籍正文公有領域；維基文庫轉錄及編輯內容依 CC BY-SA 條款，署名維基文庫貢獻者。",
-        "rights_url": "https://zh.wikisource.org/wiki/Wikisource:版權信息",
-        "review_status": "agent_first_pass_named_entities",
-        "note": "完整數位表格結構匯入，未逐格學術覆核。未核讀印本影像，原印本頁碼未知。西元欄沿用此數位轉錄的編者對照，不是古籍原有西元紀年，也不引用其維基百科外連。"
-      }
+      "table_source_ref": "shiji-015"
     }
   ],
   "relations": [
@@ -204,7 +175,7 @@
           "chapter_id": "c-shiji-045-han",
           "source_id": "s-shiji-045-han",
           "paragraph_id": "c-shiji-045-han:p009",
-          "quote": "武子二年，伐鄭，殺其君幽公。十六年，武子卒，子景侯立。"
+          "quote_passage_ref": "data/corpus/shiji/045.json"
         }
       ],
       "qualifiers": {
@@ -225,7 +196,7 @@
           "chapter_id": "c-shiji-045-han",
           "source_id": "s-shiji-045-han",
           "paragraph_id": "c-shiji-045-han:p012",
-          "quote": "九年，鄭圍我陽翟。景侯卒，子列侯取立。"
+          "quote_passage_ref": "data/corpus/shiji/045.json"
         }
       ],
       "qualifiers": {
@@ -258,7 +229,7 @@
           "chapter_id": "c-shiji-045-han",
           "source_id": "s-shiji-045-han",
           "paragraph_id": "c-shiji-045-han:p009",
-          "quote": "武子二年，伐鄭，殺其君幽公。十六年，武子卒，子景侯立。"
+          "quote_passage_ref": "data/corpus/shiji/045.json"
         }
       ],
       "qualifiers": {
@@ -279,7 +250,7 @@
           "chapter_id": "c-shiji-045-han",
           "source_id": "s-shiji-045-han",
           "paragraph_id": "c-shiji-045-han:p012",
-          "quote": "九年，鄭圍我陽翟。景侯卒，子列侯取立。"
+          "quote_passage_ref": "data/corpus/shiji/045.json"
         }
       ],
       "qualifiers": {
@@ -303,8 +274,8 @@
           "chapter_id": "c-shiji-045-han",
           "source_id": "s-shiji-045-han",
           "paragraph_id": "c-shiji-045-han:p012",
-          "quote": "九年，鄭圍我陽翟。景侯卒，子列侯取立。",
-          "person_mention_id": "c-shiji-045-han:m012-0009"
+          "person_mention_id": "c-shiji-045-han:m012-0009",
+          "quote_passage_ref": "data/corpus/shiji/045.json"
         }
       ],
       "source_term": "景侯卒",

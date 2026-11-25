@@ -6,7 +6,7 @@ from pathlib import Path
 import sqlite3
 import tempfile
 import unittest
-import shutil
+from scripts.corpus_overlay import edited_inputs
 
 ROOT=Path(__file__).resolve().parents[1]
 spec=importlib.util.spec_from_file_location('renwen',ROOT/'scripts/renwen.py')
@@ -65,8 +65,8 @@ class CorpusTests(unittest.TestCase):
         for raw in [b'<!DOCTYPE r [<!ENTITY e "x">]><r>&e;</r>',b'<!ENTITY e SYSTEM "file:///etc/passwd"><r/>']:
             with self.assertRaises(ValueError): rw.inspect_xml(raw)
     def test_checksum_tampering(self):
-        with tempfile.TemporaryDirectory() as d:
-            root=Path(d);shutil.copytree(ROOT/'data',root/'data')
+        with edited_inputs(ROOT):
+            root=ROOT
             with (root/'data/texts/eccp.html').open('a') as f:f.write('x')
             with self.assertRaises(ValueError):rw.validate(root)
     def test_build_sqlite(self):
@@ -76,11 +76,11 @@ class CorpusTests(unittest.TestCase):
                 self.assertEqual(db.execute('SELECT count(*) FROM mentions').fetchone()[0],len(self.c['mentions']))
                 self.assertEqual(db.execute('PRAGMA foreign_key_check').fetchall(),[])
     def test_apply_is_explicit_and_keeps_upstream(self):
-        with tempfile.TemporaryDirectory() as d:
-            root=Path(d);shutil.copytree(ROOT/'data',root/'data');p=root/'proposals.json';p.write_text(json.dumps([self.proposal()]))
+        with edited_inputs(ROOT) as changed, tempfile.TemporaryDirectory() as d:
+            root=ROOT;p=Path(d)/'proposals.json';p.write_text(json.dumps([self.proposal()]))
             old=(root/'data/upstream/eccp.html').read_bytes();result=rw.apply_proposals(p,'Unit test only',root)
             self.assertEqual(result['accepted'],1);self.assertEqual((root/'data/upstream/eccp.html').read_bytes(),old)
-            self.assertTrue((root/'data/reviews.jsonl').exists());rw.validate(root)
+            self.assertTrue(changed[root/'data/reviews.jsonl'].exists());rw.validate(root)
     def test_merge_never_overwrites_inputs(self):
         with tempfile.TemporaryDirectory() as d:
             base,ours,theirs=[Path(d)/s for s in ['base','ours','theirs']]

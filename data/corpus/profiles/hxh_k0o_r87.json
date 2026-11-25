@@ -21,7 +21,7 @@
           "chapter_id": "c-shiji-048-chenshe",
           "source_id": "s-shiji-048-chenshe",
           "paragraph_id": "c-shiji-048-chenshe:p007",
-          "quote": "武臣到邯鄲，自立為趙王，陳餘為大將軍，張耳、召騷為左右丞相。陳王怒，捕系武臣等家室，欲誅之。柱國曰：「秦未亡而誅趙王將相家屬，此生一秦也。不如因而立之。」陳王乃遣使者賀趙，而徙系武臣等家屬宮中，而封耳子張敖為成都君，趣趙兵亟入關。趙王將相相與謀曰：「王王趙，非楚意也。楚已誅秦，必加兵於趙。計莫如毋西兵，使使北徇燕地以自廣也。趙南據大河，北有燕、代，楚雖勝秦，不敢制趙。若楚不勝秦，必重趙。趙乘秦之獘，可以得志於天下。」趙王以為然，因不西兵，而遣故上谷卒史韓廣將兵北徇燕地。"
+          "quote_passage_ref": "data/corpus/shiji/048.json"
         }
       ],
       "attestations": [
@@ -45,8 +45,8 @@
               "chapter_id": "c-shiji-048-chenshe",
               "source_id": "s-shiji-048-chenshe",
               "paragraph_id": "c-shiji-048-chenshe:p007",
-              "quote": "武臣到邯鄲，自立為趙王，陳餘為大將軍，張耳、召騷為左右丞相。陳王怒，捕系武臣等家室，欲誅之。柱國曰：「秦未亡而誅趙王將相家屬，此生一秦也。不如因而立之。」陳王乃遣使者賀趙，而徙系武臣等家屬宮中，而封耳子張敖為成都君，趣趙兵亟入關。趙王將相相與謀曰：「王王趙，非楚意也。楚已誅秦，必加兵於趙。計莫如毋西兵，使使北徇燕地以自廣也。趙南據大河，北有燕、代，楚雖勝秦，不敢制趙。若楚不勝秦，必重趙。趙乘秦之獘，可以得志於天下。」趙王以為然，因不西兵，而遣故上谷卒史韓廣將兵北徇燕地。",
-              "person_mention_id": "c-shiji-048-chenshe:m007-0022"
+              "person_mention_id": "c-shiji-048-chenshe:m007-0022",
+              "quote_passage_ref": "data/corpus/shiji/048.json"
             }
           ]
         },
@@ -72,7 +72,6 @@
       "raw_count": 1,
       "duplicate_count": 0,
       "counting_policy": "independent_fixed_witness_occurrences",
-      "quote": "武臣到邯鄲，自立為趙王，陳餘為大將軍，張耳、召騷為左右丞相。陳王怒，捕系武臣等家室，欲誅之。柱國曰：「秦未亡而誅趙王將相家屬，此生一秦也。不如因而立之。」陳王乃遣使者賀趙，而徙系武臣等家屬宮中，而封耳子張敖為成都君，趣趙兵亟入關。趙王將相相與謀曰：",
       "paragraph_ids": [
         "c-shiji-048-chenshe:p007"
       ],
@@ -96,7 +95,12 @@
       "book_id": "b-shiji-048",
       "chapter_id": "c-shiji-048-chenshe",
       "source_id": "s-shiji-048-chenshe",
-      "work_title": "史記"
+      "work_title": "史記",
+      "chapter_ref": "data/corpus/shiji/048.json",
+      "quote_span": [
+        0,
+        124
+      ]
     }
   ],
   "table_occurrences": [],
@@ -106,24 +110,7 @@
       "work_id": "w-shiji",
       "book_id": "b-shiji-048",
       "source_id": "s-shiji-048-chenshe",
-      "source": {
-        "title": "史記／卷048",
-        "provider": "維基文庫",
-        "url": "https://zh.wikisource.org/wiki/史記/卷048",
-        "permalink": "https://zh.wikisource.org/w/index.php?title=史記/卷048&oldid=2531218",
-        "revision_id": 2531218,
-        "accessed_on": "2026-10-09",
-        "extent": "26段史文；前20段篇文，後6段明署褚先生曰及所引賈生文字另分層，排除註釋版導覽與2個dd。",
-        "image_verified": false,
-        "rights": "古代原文；數位轉錄依維基文庫CC BY-SA 4.0，保留署名及固定版本。",
-        "license_url": "https://creativecommons.org/licenses/by-sa/4.0/",
-        "normalization": {
-          "character_conversion": {},
-          "editorial_readings": [],
-          "extraction_note": "取得時HTML與固定修訂一致，只去除段落外緣空白；保留间、铚、余及熒一作「滎」陽等原字。第10段一作是數位校勘字樣，不當古文，未擅選讀法。",
-          "note": "已讀全26段並作明示人名首輪，褚氏與所引賈氏未補姓名；未核底本、影像或現代研究。"
-        }
-      }
+      "chapter_ref": "data/corpus/shiji/048.json"
     }
   ],
   "relations": [],

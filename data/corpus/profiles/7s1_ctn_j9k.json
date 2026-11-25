@@ -24,7 +24,7 @@
           "chapter_id": "c-shiji-070-zhang",
           "source_id": "s-shiji-070-zhang",
           "paragraph_id": "c-shiji-070-zhang:p023",
-          "quote": "秦要楚欲得黔中地，欲以武關外易之。楚王曰：「不願易地，願得張儀而獻黔中地。」秦王欲遣之，口弗忍言。張儀乃請行。惠王曰：「彼楚王怒子之負以商於之地，是且甘心於子。」張儀曰：「秦彊楚弱，臣善靳尚，尚得事楚夫人鄭袖，袖所言皆從。且臣奉王之節使楚，楚何敢加誅。假令誅臣而為秦得黔中之地，臣之上願。」遂使楚。楚懷王至則囚張儀，將殺之。靳尚謂鄭袖曰：「子亦知子之賤於王乎？」鄭袖曰：「何也？」靳尚曰：「秦王甚愛張儀而不欲出之，今將以上庸之地六縣賂楚，美人聘楚，以宮中善歌謳者為媵。楚王重地尊秦，秦女必貴而夫人斥矣。不若為言而出之。」於是鄭袖日夜言懷王曰：「人臣各為其主用。今地未入秦，秦使張儀來，至重王。王未有禮而殺張儀，秦必大怒攻楚。妾請子母俱遷江南，毋為秦所魚肉也。」懷王後悔，赦張儀，厚禮之如故。"
+          "quote_passage_ref": "data/corpus/shiji/070.json"
         }
       ],
       "attestations": [
@@ -66,7 +66,6 @@
       "raw_count": 6,
       "duplicate_count": 0,
       "counting_policy": "independent_fixed_witness_occurrences",
-      "quote": "子之負以商於之地，是且甘心於子。」張儀曰：「秦彊楚弱，臣善靳尚，尚得事楚夫人鄭袖，袖所言皆從。且臣奉王之節使楚，楚何敢加誅。假令誅臣而為秦得黔中之地，臣之上願。」遂使楚。楚懷王至則囚張儀，將殺之。靳尚謂鄭袖曰：「子亦知子之賤於王乎？」鄭袖曰：「何也？」靳尚曰：「秦王甚愛張儀而不欲",
       "paragraph_ids": [
         "c-shiji-070-zhang:p023"
       ],
@@ -135,7 +134,12 @@
       "book_id": "b-shiji-070",
       "chapter_id": "c-shiji-070-zhang",
       "source_id": "s-shiji-070-zhang",
-      "work_title": "史記"
+      "work_title": "史記",
+      "chapter_ref": "data/corpus/shiji/070.json",
+      "quote_span": [
+        64,
+        204
+      ]
     }
   ],
   "table_occurrences": [],
@@ -145,49 +149,7 @@
       "work_id": "w-shiji",
       "book_id": "b-shiji-070",
       "source_id": "s-shiji-070-zhang",
-      "source": {
-        "title": "史記／卷070",
-        "provider": "維基文庫",
-        "url": "https://zh.wikisource.org/wiki/史記/卷070",
-        "permalink": "https://zh.wikisource.org/w/index.php?title=史記/卷070&oldid=2621148",
-        "revision_id": 2621148,
-        "accessed_on": "2026-10-09",
-        "extent": "59段正文，自張儀者至太史公論贊；排除ws-header人物導覽、索隱述贊與現代版權告示。",
-        "image_verified": false,
-        "rights": "古代原文；數位轉錄依維基文庫CC BY-SA 4.0，保留署名及固定版本。",
-        "license_url": "https://creativecommons.org/licenses/by-sa/4.0/",
-        "normalization": {
-          "character_conversion": {},
-          "editorial_readings": [
-            {
-              "paragraph_id": "c-shiji-070-zhang:p015",
-              "witness_form": "［燕］",
-              "body_reading": "燕",
-              "note": "成對改讀保留改讀前字，方括號補字取其字並另存符號；未核底本，採用讀法不作已校定。"
-            },
-            {
-              "paragraph_id": "c-shiji-070-zhang:p027",
-              "witness_form": "（待）［恃］",
-              "body_reading": "待",
-              "note": "成對改讀保留改讀前字，方括號補字取其字並另存符號；未核底本，採用讀法不作已校定。"
-            },
-            {
-              "paragraph_id": "c-shiji-070-zhang:p034",
-              "witness_form": "［飯］",
-              "body_reading": "飯",
-              "note": "成對改讀保留改讀前字，方括號補字取其字並另存符號；未核底本，採用讀法不作已校定。"
-            },
-            {
-              "paragraph_id": "c-shiji-070-zhang:p044",
-              "witness_form": "（服）［破］",
-              "body_reading": "服",
-              "note": "成對改讀保留改讀前字，方括號補字取其字並另存符號；未核底本，採用讀法不作已校定。"
-            }
-          ],
-          "extraction_note": "固定HTML與取得時版本一致，只去外緣空白及另存數位校讀符號。保留彊、醳、鬬、筑、茍等異體。",
-          "note": "59段正文已核讀，人物待逐段標註；未核底本、影像與現代研究。"
-        }
-      }
+      "chapter_ref": "data/corpus/shiji/070.json"
     }
   ],
   "relations": [],

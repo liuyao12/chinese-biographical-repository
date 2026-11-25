@@ -22,7 +22,7 @@
           "chapter_id": "c-shiji-075-mengchang",
           "source_id": "s-shiji-075-mengchang",
           "paragraph_id": "c-shiji-075-mengchang:p014",
-          "quote": "初，馮驩聞孟嘗君好客，躡蹻而見之。孟嘗君曰；「先生遠辱，何以教文也？」馮驩曰：「聞君好士，以貧身歸於君。」孟嘗君置傳舍十日，孟嘗君問傳舍長曰：「客何所爲？」答曰：「馮先生甚貧，猶有一劍耳，又蒯緱。彈其劍而歌曰『長鋏歸來乎，食無魚』。」孟嘗君遷之幸舍，食有魚矣。五日，又問傳舍長。答曰：「客復彈劍而歌曰『長鋏歸來乎，出無輿』。」孟嘗君遷之代舍，出入乘輿車矣。五日，孟嘗君復問傳舍長。舍長答曰：「先生又嘗彈劍而歌曰『長鋏歸來乎，無以爲家』。」孟嘗君不悅。"
+          "quote_passage_ref": "data/corpus/shiji/075.json"
         }
       ],
       "attestations": [
@@ -64,7 +64,6 @@
       "raw_count": 5,
       "duplicate_count": 0,
       "counting_policy": "independent_fixed_witness_occurrences",
-      "quote": "文也？」馮驩曰：「聞君好士，以貧身歸於君。」孟嘗君置傳舍十日，孟嘗君問傳舍長曰：「客何所爲？」答曰：「馮先生甚貧，猶有一劍耳，又蒯緱。彈其劍而歌曰『長鋏歸來乎，食無魚』。」孟嘗君遷之幸舍，食有魚矣。五日，又問傳舍長。答曰：「客復彈劍而歌曰『長鋏歸來乎，出無輿』。」孟嘗君遷之代",
       "paragraph_ids": [
         "c-shiji-075-mengchang:p014",
         "c-shiji-075-mengchang:p015"
@@ -125,7 +124,12 @@
       "book_id": "b-shiji-075",
       "chapter_id": "c-shiji-075-mengchang",
       "source_id": "s-shiji-075-mengchang",
-      "work_title": "史記"
+      "work_title": "史記",
+      "chapter_ref": "data/corpus/shiji/075.json",
+      "quote_span": [
+        31,
+        169
+      ]
     }
   ],
   "table_occurrences": [],
@@ -135,37 +139,7 @@
       "work_id": "w-shiji",
       "book_id": "b-shiji-075",
       "source_id": "s-shiji-075-mengchang",
-      "source": {
-        "title": "史記／卷075",
-        "provider": "維基文庫",
-        "url": "https://zh.wikisource.org/wiki/史記/卷075",
-        "permalink": "https://zh.wikisource.org/w/index.php?title=史記/卷075&oldid=1965692",
-        "revision_id": 1965692,
-        "accessed_on": "2026-10-09",
-        "extent": "19段正文，自孟嘗君名文至太史公論贊；排除ws-header人物與百科導覽、索隱述贊及現代版權告示。",
-        "image_verified": false,
-        "rights": "古代原文；數位轉錄依維基文庫CC BY-SA 4.0，保留署名及固定版本。",
-        "license_url": "https://creativecommons.org/licenses/by-sa/4.0/",
-        "normalization": {
-          "character_conversion": {},
-          "editorial_readings": [
-            {
-              "paragraph_id": "c-shiji-075-mengchang:p003",
-              "witness_form": "（短）［裋］",
-              "body_reading": "短",
-              "note": "保留數位改讀前短；裋為改讀提示，底本未核，不當已校定。"
-            },
-            {
-              "paragraph_id": "c-shiji-075-mengchang:p018",
-              "witness_form": "（朝）趣市［朝］",
-              "body_reading": "朝趣市",
-              "note": "保留改讀前朝在趣市之前的順序；移至市後的朝另記為數位改讀提示，底本未核，不依記憶改為趣市朝。"
-            }
-          ],
-          "extraction_note": "固定HTML與取得時版本一致，只去外緣空白並分離兩項數位改讀提示；保留爲、歳、倶、戸、髙、虚、鷄等原字。",
-          "note": "全19段正文及明示姓名首輪已核讀；未核底本、影像或現代研究。"
-        }
-      }
+      "chapter_ref": "data/corpus/shiji/075.json"
     }
   ],
   "relations": [],

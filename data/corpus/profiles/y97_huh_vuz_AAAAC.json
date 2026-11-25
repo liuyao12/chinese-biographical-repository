@@ -21,7 +21,7 @@
           "chapter_id": "c-shiji-005-qin",
           "source_id": "s-shiji-005-qin",
           "paragraph_id": "c-shiji-005-qin:p018",
-          "quote": "宣公元年，衛、燕伐周，出惠王，立王子穨。三年，鄭伯、虢叔殺子穨而入惠王。四年，作密畤。與晉戰河陽，勝之。十二年，宣公卒。生子九人，莫立，立其弟成公。"
+          "quote_passage_ref": "data/corpus/shiji/005.json"
         }
       ],
       "attestations": [
@@ -46,7 +46,7 @@
               "chapter_id": "c-shiji-005-qin",
               "source_id": "s-shiji-005-qin",
               "paragraph_id": "c-shiji-005-qin:p018",
-              "quote": "宣公元年，衛、燕伐周，出惠王，立王子穨。三年，鄭伯、虢叔殺子穨而入惠王。四年，作密畤。與晉戰河陽，勝之。十二年，宣公卒。生子九人，莫立，立其弟成公。"
+              "quote_passage_ref": "data/corpus/shiji/005.json"
             }
           ]
         },
@@ -78,7 +78,7 @@
           "chapter_id": "c-shiji-006-shihuang",
           "source_id": "s-shiji-006-shihuang",
           "paragraph_id": "c-shiji-006-shihuang:p073",
-          "quote": "成公享國四年，居雍之宮。葬陽。齊伐山戎、孤竹。"
+          "quote_passage_ref": "data/corpus/shiji/006.json"
         }
       ],
       "source_term": "居雍之宮",
@@ -104,7 +104,7 @@
           "chapter_id": "c-shiji-006-shihuang",
           "source_id": "s-shiji-006-shihuang",
           "paragraph_id": "c-shiji-006-shihuang:p073",
-          "quote": "成公享國四年，居雍之宮。葬陽。齊伐山戎、孤竹。"
+          "quote_passage_ref": "data/corpus/shiji/006.json"
         }
       ],
       "source_term": "葬陽",
@@ -125,7 +125,6 @@
       "raw_count": 4,
       "duplicate_count": 0,
       "counting_policy": "independent_fixed_witness_occurrences",
-      "quote": "初伏，以狗御蠱。德公生三十三歲而立，立二年卒。生子三人：長子宣公，中子成公，少子穆公。長子宣公立。",
       "paragraph_ids": [
         "c-shiji-005-qin:p017",
         "c-shiji-005-qin:p018",
@@ -179,7 +178,12 @@
       "book_id": "b-shiji-005",
       "chapter_id": "c-shiji-005-qin",
       "source_id": "s-shiji-005-qin",
-      "work_title": "史記"
+      "work_title": "史記",
+      "chapter_ref": "data/corpus/shiji/005.json",
+      "quote_span": [
+        45,
+        94
+      ]
     },
     {
       "number": 6,
@@ -190,7 +194,6 @@
       "raw_count": 2,
       "duplicate_count": 0,
       "counting_policy": "independent_fixed_witness_occurrences",
-      "quote": "德公享國二年。居雍大鄭宮。生宣公、成公、繆公。葬陽。初伏，以御蠱。",
       "paragraph_ids": [
         "c-shiji-006-shihuang:p071",
         "c-shiji-006-shihuang:p073"
@@ -224,7 +227,12 @@
       "book_id": "b-shiji-006",
       "chapter_id": "c-shiji-006-shihuang",
       "source_id": "s-shiji-006-shihuang",
-      "work_title": "史記"
+      "work_title": "史記",
+      "chapter_ref": "data/corpus/shiji/006.json",
+      "quote_span": [
+        0,
+        33
+      ]
     }
   ],
   "table_occurrences": [],
@@ -234,137 +242,14 @@
       "work_id": "w-shiji",
       "book_id": "b-shiji-005",
       "source_id": "s-shiji-005-qin",
-      "source": {
-        "title": "史記／卷005",
-        "provider": "維基文庫",
-        "url": "https://zh.wikisource.org/wiki/史記/卷005",
-        "permalink": "https://zh.wikisource.org/w/index.php?title=史記/卷005&oldid=8744286",
-        "revision_id": 8744286,
-        "accessed_on": "2026-10-09",
-        "extent": "77段數位正文；排除註釋版導覽與註號，見證行內校勘符號暫原樣保留。",
-        "image_verified": false,
-        "rights": "古代原文；數位轉錄依維基文庫 CC BY-SA 4.0，保留署名及固定版本。",
-        "license_url": "https://creativecommons.org/licenses/by-sa/4.0/",
-        "normalization": {
-          "character_conversion": {
-            "铚": "銍",
-            "绖": "絰",
-            "龁": "齕"
-          },
-          "note": "第9段編者重複標記另存，其餘行內校勘符號仍待逐處分離；不稱已核讀底本。",
-          "editorial_readings": [
-            {
-              "paragraph_id": "c-shiji-005-qin:p009",
-              "witness_form": "（世父）世父",
-              "body_reading": "世父",
-              "note": "數位見證重複的括號標記另存；不作第二個正文人物提及。"
-            },
-            {
-              "paragraph_id": "c-shiji-005-qin:p022",
-              "witness_form": "铚",
-              "body_reading": "銍",
-              "note": "數位見證混入簡體字，轉繁體並保留字形轉換記錄；未核讀影像。"
-            },
-            {
-              "paragraph_id": "c-shiji-005-qin:p028",
-              "witness_form": "绖",
-              "body_reading": "絰",
-              "note": "數位見證混入簡體字，轉繁體並保留字形轉換記錄；未核讀影像。"
-            },
-            {
-              "paragraph_id": "c-shiji-005-qin:p033",
-              "witness_form": "绖",
-              "body_reading": "絰",
-              "note": "數位見證混入簡體字，轉繁體並保存原字；未核影像。"
-            },
-            {
-              "paragraph_id": "c-shiji-005-qin:p070",
-              "witness_form": "龁",
-              "body_reading": "齕",
-              "note": "數位見證簡體字轉繁體，原字保留；未核影像。"
-            },
-            {
-              "paragraph_id": "c-shiji-005-qin:p072",
-              "witness_form": "绖",
-              "body_reading": "絰",
-              "note": "數位見證簡體字轉繁體，原字保留；未核影像。"
-            },
-            {
-              "paragraph_id": "c-shiji-005-qin:p074",
-              "witness_form": "龁",
-              "body_reading": "齕",
-              "note": "數位見證簡體字轉繁體，原字保留；未核影像。"
-            },
-            {
-              "paragraph_id": "c-shiji-005-qin:p070",
-              "witness_form": "胡（傷）［陽］",
-              "body_reading": "胡傷",
-              "note": "行內校勘標記另存，成對讀法保留改讀前的字；身份與底本待核。"
-            },
-            {
-              "paragraph_id": "c-shiji-005-qin:p070",
-              "witness_form": "南（郡）［陽］",
-              "body_reading": "南郡",
-              "note": "行內校勘標記另存，成對讀法保留改讀前的字；身份與底本待核。"
-            },
-            {
-              "paragraph_id": "c-shiji-005-qin:p070",
-              "witness_form": "（武安）",
-              "body_reading": "",
-              "note": "行內校勘標記另存，成對讀法保留改讀前的字；身份與底本待核。"
-            }
-          ]
-        }
-      }
+      "chapter_ref": "data/corpus/shiji/005.json"
     },
     {
       "chapter_id": "c-shiji-006-shihuang",
       "work_id": "w-shiji",
       "book_id": "b-shiji-006",
       "source_id": "s-shiji-006-shihuang",
-      "source": {
-        "title": "史記／卷006",
-        "provider": "維基文庫",
-        "url": "https://zh.wikisource.org/wiki/史記/卷006",
-        "permalink": "https://zh.wikisource.org/w/index.php?title=史記/卷006&oldid=7907969",
-        "revision_id": 7907969,
-        "accessed_on": "2026-10-09",
-        "extent": "數位見證127個文字區塊，含16個dd刻辭或嵌入引文及卷末附載班固記；排除導覽、跨站連結與註號。",
-        "image_verified": false,
-        "rights": "古代原文與附載文字；數位轉錄依維基文庫CC BY-SA 4.0，保留署名及固定版本。",
-        "license_url": "https://creativecommons.org/licenses/by-sa/4.0/",
-        "normalization": {
-          "character_conversion": {},
-          "note": "正文未改寫；行內校勘標記及附載文字仍待逐處核對。固定版本正文HTML重讀一致。",
-          "editorial_readings": [
-            {
-              "paragraph_id": "c-shiji-006-shihuang:p010",
-              "witness_form": "（四）［是］",
-              "body_reading": "四",
-              "note": "數位見證行內校勘標記另存；正文保留改讀前的字，不稱已校定底本。"
-            },
-            {
-              "paragraph_id": "c-shiji-006-shihuang:p016",
-              "witness_form": "（薊）［荊］",
-              "body_reading": "薊",
-              "note": "數位見證行內校勘標記另存；正文保留改讀前的字，不稱已校定底本。"
-            },
-            {
-              "paragraph_id": "c-shiji-006-shihuang:p051",
-              "witness_form": "（其）",
-              "body_reading": "",
-              "note": "數位見證行內刪字標記另存；未核底本，不稱校定讀法。"
-            },
-            {
-              "paragraph_id": "c-shiji-006-shihuang:p061",
-              "witness_form": "（者）",
-              "body_reading": "",
-              "note": "數位見證行內刪字標記另存；未核底本，不稱校定讀法。"
-            }
-          ],
-          "extraction_note": "按正文p及dd區塊原有次序錄入；dd用前一段ID加block後綴，既有p段落ID不變。正文前兩個dd為維基百科與文言維基大典導覽，排除。"
-        }
-      }
+      "chapter_ref": "data/corpus/shiji/006.json"
     }
   ],
   "relations": [
@@ -469,9 +354,9 @@
       "evidence": [
         {
           "paragraph_id": "c-shiji-006-shihuang:p071",
-          "quote": "德公享國二年。居雍大鄭宮。生宣公、成公、繆公。葬陽。初伏，以御蠱。",
           "chapter_id": "c-shiji-006-shihuang",
-          "source_id": "s-shiji-006-shihuang"
+          "source_id": "s-shiji-006-shihuang",
+          "quote_passage_ref": "data/corpus/shiji/006.json"
         }
       ],
       "qualifiers": {
@@ -595,9 +480,9 @@
       "evidence": [
         {
           "paragraph_id": "c-shiji-006-shihuang:p071",
-          "quote": "德公享國二年。居雍大鄭宮。生宣公、成公、繆公。葬陽。初伏，以御蠱。",
           "chapter_id": "c-shiji-006-shihuang",
-          "source_id": "s-shiji-006-shihuang"
+          "source_id": "s-shiji-006-shihuang",
+          "quote_passage_ref": "data/corpus/shiji/006.json"
         }
       ],
       "qualifiers": {
@@ -621,8 +506,8 @@
           "chapter_id": "c-shiji-005-qin",
           "source_id": "s-shiji-005-qin",
           "paragraph_id": "c-shiji-005-qin:p020",
-          "quote": "成公立四年卒。子七人，莫立，立其弟繆公。",
-          "person_mention_id": "c-shiji-005-qin:m020-0000"
+          "person_mention_id": "c-shiji-005-qin:m020-0000",
+          "quote_passage_ref": "data/corpus/shiji/005.json"
         }
       ],
       "source_term": "成公立四年卒",

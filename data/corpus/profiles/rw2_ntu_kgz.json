@@ -21,7 +21,7 @@
           "chapter_id": "c-shiji-057-zhou",
           "source_id": "s-shiji-057-zhou",
           "paragraph_id": "c-shiji-057-zhou:p003",
-          "quote": "項羽至，以沛公為漢王。漢王賜勃爵為威武侯。從入漢中，拜為將軍。還定三秦，至秦，賜食邑懷德。攻槐裏、好畤，最。擊趙賁、內史保於咸陽，最。北攻漆。擊章平、姚卬軍。西定汧。還下郿、頻陽。圍章邯廢丘。破西丞。擊盜巴軍，破之。攻上邽。東守峣關。轉擊項籍。攻曲逆，最。還守敖倉，追項籍。籍已死，因東定楚地泗（川）［水］、東海郡，凡得二十二縣。還守雒陽、櫟陽，賜與潁（陽）［陰］侯共食鐘離。以將軍從高帝反者燕王臧荼，破之易下。所將卒當馳道為多。賜爵列侯，剖符世世勿絕。食絳八千一百八十戶，號絳侯。"
+          "quote_passage_ref": "data/corpus/shiji/057.json"
         }
       ],
       "attestations": [
@@ -63,7 +63,6 @@
       "raw_count": 1,
       "duplicate_count": 0,
       "counting_policy": "independent_fixed_witness_occurrences",
-      "quote": "漢中，拜為將軍。還定三秦，至秦，賜食邑懷德。攻槐裏、好畤，最。擊趙賁、內史保於咸陽，最。北攻漆。擊章平、姚卬軍。西定汧。還下郿、頻陽。圍章邯廢丘。破西丞。擊盜巴軍，破之。攻上邽。東守峣關。轉擊項籍。攻曲逆，最。還守敖倉，追項籍。籍已死，因東定楚地泗（川）［水］、東海郡，凡得二",
       "paragraph_ids": [
         "c-shiji-057-zhou:p003"
       ],
@@ -87,7 +86,12 @@
       "book_id": "b-shiji-057",
       "chapter_id": "c-shiji-057-zhou",
       "source_id": "s-shiji-057-zhou",
-      "work_title": "史記"
+      "work_title": "史記",
+      "chapter_ref": "data/corpus/shiji/057.json",
+      "quote_span": [
+        23,
+        161
+      ]
     }
   ],
   "table_occurrences": [],
@@ -97,24 +101,7 @@
       "work_id": "w-shiji",
       "book_id": "b-shiji-057",
       "source_id": "s-shiji-057-zhou",
-      "source": {
-        "title": "史記／卷057",
-        "provider": "維基文庫",
-        "url": "https://zh.wikisource.org/wiki/史記/卷057",
-        "permalink": "https://zh.wikisource.org/w/index.php?title=史記/卷057&oldid=1569360",
-        "revision_id": 1569360,
-        "accessed_on": "2026-10-09",
-        "extent": "24段篇文及1段索隱述贊，無需排除數位欄題。",
-        "image_verified": false,
-        "rights": "古代原文；數位轉錄依維基文庫CC BY-SA 4.0，保留署名及固定版本。",
-        "license_url": "https://creativecommons.org/licenses/by-sa/4.0/",
-        "normalization": {
-          "character_conversion": {},
-          "editorial_readings": [],
-          "extraction_note": "取得時HTML與固定修訂一致，只去外緣空白；保留泗（川）［水］、潁（陽）［陰］侯、吏［事］、乃［封］、［唯］徐盧、櫡、圂、遬、屍北與鹹克等見證原字及符號，索隱另分層。",
-          "note": "全25段已讀並作明示人物首輪；未核底本、影像或現代研究。"
-        }
-      }
+      "chapter_ref": "data/corpus/shiji/057.json"
     }
   ],
   "relations": [],

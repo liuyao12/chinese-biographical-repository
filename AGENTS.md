@@ -2,6 +2,10 @@
 
 本庫以史料為中心。先閱讀 README、CONTRIBUTING 與 schema/README。
 
+正文依版本保存在 `corpus/` 的標註篇章。人物匯出引用篇章與段落 ID；年表引用原表格與格位 ID。閱讀器引文用段落 ID 及 Unicode 字元範圍。以 `python -m scripts.passage_refs expand 人物檔` 還原完整人名資料；公開章節由 `python -m scripts.reading_catalog` 建立相對連結，只在部署目錄實體化。歷史證據快照以 `scripts.parallel_evidence` 分離重複來源並保留原始雜湊。
+
+驗證使用同一版本的唯讀來源，需改資料的測試以 `scripts.corpus_overlay.edited_inputs` 隔離實際修改的檔案。復原批次重用工作目錄；查閱舊版本用 `git show` 或明列所需路徑的 sparse checkout。清理前核對未提交、未追蹤及未推送內容、執行中的工作及離線還原方式。
+
 - 所有中文使用繁體，原始 URL、技術識別碼不轉換。轉錄保留古代異體；簡繁轉換必須記錄。
 - 不以模型記憶或未讀到的網頁片段生成史料；不得虛構墓誌編號、影像位置、書目頁碼、出版日期或學者結論。
 - 建立穩定人物 ID，但人物登記只保存標籤、來源提及與身份證據，不把權威生平或手工預接的整體圖當原始資料。來源提及、陳述與身份判讀分層保存。

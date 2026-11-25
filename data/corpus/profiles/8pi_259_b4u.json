@@ -23,7 +23,7 @@
           "chapter_id": "c-shiji-047-kong",
           "source_id": "s-shiji-047-kong",
           "paragraph_id": "c-shiji-047-kong:p023",
-          "quote": "去即過蒲。月餘，反乎衞，主蘧伯玉家。靈公夫人有南子者，使人謂孔子曰：「四方之君子不辱欲與寡君為兄弟者，必見寡小君。寡小君願見。」孔子辭謝，不得已而見之。夫人在絺帷中。孔子入門，北面稽首。夫人自帷中再拜，環珮玉聲璆然。孔子曰：「吾鄉為弗見，見之禮答焉。」子路不說。孔子矢之曰：「予所不者，天厭之！天厭之！」居衞月餘，靈公與夫人同車，宦者雍渠參乘，出，使孔子為次乘，招搖市過之。孔子曰：「吾未見好德如好色者也。」於是醜之，去衞，過曹。是歲，魯定公卒。"
+          "quote_passage_ref": "data/corpus/shiji/047.json"
         }
       ],
       "attestations": [
@@ -65,7 +65,6 @@
       "raw_count": 7,
       "duplicate_count": 0,
       "counting_policy": "independent_fixed_witness_occurrences",
-      "quote": "去即過蒲。月餘，反乎衞，主蘧伯玉家。靈公夫人有南子者，使人謂孔子曰：「四方之君子不辱欲與寡君為兄弟者，必見寡小君。寡小君願見。」孔子辭謝，不得已而見之。夫人在絺帷中。孔子入門，北面稽首。夫人自帷中再拜，環珮玉聲璆然。孔子曰：「吾鄉為弗見，見之禮",
       "paragraph_ids": [
         "c-shiji-047-kong:p023"
       ],
@@ -143,7 +142,12 @@
       "book_id": "b-shiji-047",
       "chapter_id": "c-shiji-047-kong",
       "source_id": "s-shiji-047-kong",
-      "work_title": "史記"
+      "work_title": "史記",
+      "chapter_ref": "data/corpus/shiji/047.json",
+      "quote_span": [
+        0,
+        122
+      ]
     },
     {
       "number": 67,
@@ -154,7 +158,6 @@
       "raw_count": 3,
       "duplicate_count": 0,
       "counting_policy": "independent_fixed_witness_occurrences",
-      "quote": "初，衞靈公有寵姬曰南子。靈公太子蕢聵得過南子，懼誅出奔。及靈公卒而夫人欲立公子郢。郢不肯，曰：「亡人太子之子輒在。」於是衞立輒爲君，是爲出公。出公立十二年，其父蕢聵居外，不得入。子路爲衞大夫孔悝之邑宰。蕢聵乃與孔悝作亂，謀",
       "paragraph_ids": [
         "c-shiji-067-disciples:p029"
       ],
@@ -196,7 +199,12 @@
       "book_id": "b-shiji-067",
       "chapter_id": "c-shiji-067-disciples",
       "source_id": "s-shiji-067-disciples",
-      "work_title": "史記"
+      "work_title": "史記",
+      "chapter_ref": "data/corpus/shiji/067.json",
+      "quote_span": [
+        0,
+        111
+      ]
     },
     {
       "number": 130,
@@ -207,7 +215,6 @@
       "raw_count": 1,
       "duplicate_count": 0,
       "counting_policy": "independent_fixed_witness_occurrences",
-      "quote": "收殷餘民，叔封始邑，申以商亂，酒材是告，及朔之生，衛頃不寧；南子惡蒯聵，子父易名。周德卑微，戰國既彊，衛以小弱，角獨後亡。喜彼康誥，作衛世家第七。",
       "paragraph_ids": [
         "c-shiji-130-taishigong:p049"
       ],
@@ -231,7 +238,12 @@
       "book_id": "b-shiji-130",
       "chapter_id": "c-shiji-130-taishigong",
       "source_id": "s-shiji130-taishigong",
-      "work_title": "史記"
+      "work_title": "史記",
+      "chapter_ref": "data/corpus/shiji/130.json",
+      "quote_span": [
+        0,
+        73
+      ]
     }
   ],
   "table_occurrences": [],
@@ -241,72 +253,21 @@
       "work_id": "w-shiji",
       "book_id": "b-shiji-047",
       "source_id": "s-shiji-047-kong",
-      "source": {
-        "title": "史記／卷047",
-        "provider": "維基文庫",
-        "url": "https://zh.wikisource.org/wiki/史記/卷047",
-        "permalink": "https://zh.wikisource.org/w/index.php?title=史記/卷047&oldid=7903609",
-        "revision_id": 7903609,
-        "accessed_on": "2026-10-09",
-        "extent": "85段正文及1段索隱述贊，後者分層；排除2個dd導覽與現代分節標題，只去除段落外緣空白。",
-        "image_verified": false,
-        "rights": "古代原文；數位轉錄依維基文庫CC BY-SA 4.0，保留署名及固定版本。",
-        "license_url": "https://creativecommons.org/licenses/by-sa/4.0/",
-        "normalization": {
-          "character_conversion": {},
-          "editorial_readings": [],
-          "extraction_note": "取得時HTML與固定修訂一致；現代分節標題不作古代正文，原字與來源標點保留。",
-          "note": "已核讀全86段數位文字並作首輪明示人名標註；未核可靠底本、影像或現代研究。"
-        }
-      }
+      "chapter_ref": "data/corpus/shiji/047.json"
     },
     {
       "chapter_id": "c-shiji-067-disciples",
       "work_id": "w-shiji",
       "book_id": "b-shiji-067",
       "source_id": "s-shiji-067-disciples",
-      "source": {
-        "title": "史記／卷067",
-        "provider": "維基文庫",
-        "url": "https://zh.wikisource.org/wiki/史記/卷067",
-        "permalink": "https://zh.wikisource.org/w/index.php?title=史記/卷067&oldid=7869003",
-        "revision_id": 7869003,
-        "accessed_on": "2026-10-09",
-        "extent": "152段正文，自孔子曰受業身通者至太史公論贊；排除ws-header中的導覽名單、後附索隱述贊及現代版權告示。",
-        "image_verified": false,
-        "rights": "古代原文；數位轉錄依維基文庫CC BY-SA 4.0，保留署名及固定版本。",
-        "license_url": "https://creativecommons.org/licenses/by-sa/4.0/",
-        "normalization": {
-          "character_conversion": {},
-          "editorial_readings": [],
-          "extraction_note": "取得時HTML與固定修訂一致，只去外緣空白；保留髙、歳、衞、漆彫、曾蒧等原字。導覽名單與正文異體不混接。",
-          "note": "全152段已核讀，人物標註待逐段處理；未核可靠底本、影像或現代研究。"
-        }
-      }
+      "chapter_ref": "data/corpus/shiji/067.json"
     },
     {
       "chapter_id": "c-shiji-130-taishigong",
       "work_id": "w-shiji",
       "book_id": "b-shiji-130",
       "source_id": "s-shiji130-taishigong",
-      "source": {
-        "title": "史記／卷130",
-        "provider": "維基文庫",
-        "url": "https://zh.wikisource.org/wiki/史記/卷130",
-        "permalink": "https://zh.wikisource.org/w/index.php?title=史記/卷130&oldid=2609362",
-        "revision_id": 2609362,
-        "accessed_on": "2026-10-11",
-        "extent": "固定修訂全文143段，全部篇文。",
-        "image_verified": false,
-        "rights": "古代原文；數位轉錄依維基文庫CC BY-SA 4.0，保留署名及固定版本。",
-        "license_url": "https://creativecommons.org/licenses/by-sa/4.0/",
-        "normalization": {
-          "character_conversion": {},
-          "editorial_readings": [],
-          "extraction_note": "去header2及現代節標，移除維基引文縮排冒號，保留原字，未核影像。",
-          "note": "全文入庫不等於全部提及已標註；目錄段落仍待逐段處理。"
-        }
-      }
+      "chapter_ref": "data/corpus/shiji/130.json"
     }
   ],
   "relations": [
@@ -321,7 +282,7 @@
           "chapter_id": "c-shiji-047-kong",
           "source_id": "s-shiji-047-kong",
           "paragraph_id": "c-shiji-047-kong:p023",
-          "quote": "去即過蒲。月餘，反乎衞，主蘧伯玉家。靈公夫人有南子者，使人謂孔子曰：「四方之君子不辱欲與寡君為兄弟者，必見寡小君。寡小君願見。」孔子辭謝，不得已而見之。夫人在絺帷中。孔子入門，北面稽首。夫人自帷中再拜，環珮玉聲璆然。孔子曰：「吾鄉為弗見，見之禮答焉。」子路不說。孔子矢之曰：「予所不者，天厭之！天厭之！」居衞月餘，靈公與夫人同車，宦者雍渠參乘，出，使孔子為次乘，招搖市過之。孔子曰：「吾未見好德如好色者也。」於是醜之，去衞，過曹。是歲，魯定公卒。"
+          "quote_passage_ref": "data/corpus/shiji/047.json"
         }
       ],
       "qualifiers": {
@@ -353,7 +314,7 @@
           "chapter_id": "c-shiji-047-kong",
           "source_id": "s-shiji-047-kong",
           "paragraph_id": "c-shiji-047-kong:p023",
-          "quote": "去即過蒲。月餘，反乎衞，主蘧伯玉家。靈公夫人有南子者，使人謂孔子曰：「四方之君子不辱欲與寡君為兄弟者，必見寡小君。寡小君願見。」孔子辭謝，不得已而見之。夫人在絺帷中。孔子入門，北面稽首。夫人自帷中再拜，環珮玉聲璆然。孔子曰：「吾鄉為弗見，見之禮答焉。」子路不說。孔子矢之曰：「予所不者，天厭之！天厭之！」居衞月餘，靈公與夫人同車，宦者雍渠參乘，出，使孔子為次乘，招搖市過之。孔子曰：「吾未見好德如好色者也。」於是醜之，去衞，過曹。是歲，魯定公卒。"
+          "quote_passage_ref": "data/corpus/shiji/047.json"
         }
       ],
       "qualifiers": {

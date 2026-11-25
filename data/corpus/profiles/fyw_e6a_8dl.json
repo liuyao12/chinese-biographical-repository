@@ -21,7 +21,6 @@
       "raw_count": 2,
       "duplicate_count": 0,
       "counting_policy": "independent_fixed_witness_occurrences",
-      "quote": "季。少時為薛獄吏，有罪，免。家貧，牧豕海上。年四十餘，乃學春秋雜說。養後母孝謹。",
       "paragraph_ids": [
         "c-shiji-112-pingjin:p001",
         "c-shiji-112-pingjin:p004"
@@ -55,7 +54,12 @@
       "book_id": "b-shiji-112",
       "chapter_id": "c-shiji-112-pingjin",
       "source_id": "s-shiji112-pingjin",
-      "work_title": "史記"
+      "work_title": "史記",
+      "chapter_ref": "data/corpus/shiji/112.json",
+      "quote_span": [
+        17,
+        57
+      ]
     }
   ],
   "table_occurrences": [],
@@ -65,24 +69,7 @@
       "work_id": "w-shiji",
       "book_id": "b-shiji-112",
       "source_id": "s-shiji112-pingjin",
-      "source": {
-        "title": "史記／卷112",
-        "provider": "維基文庫",
-        "url": "https://zh.wikisource.org/wiki/史記/卷112",
-        "permalink": "https://zh.wikisource.org/w/index.php?title=史記/卷112&oldid=2089420",
-        "revision_id": 2089420,
-        "accessed_on": "2026-10-11",
-        "extent": "固定數位見證31段；末三段分為後附詔書、班固贊及索隱述贊。",
-        "image_verified": false,
-        "rights": "古代原文；數位轉錄依維基文庫CC BY-SA 4.0，保留署名及固定版本。",
-        "license_url": "https://creativecommons.org/licenses/by-sa/4.0/",
-        "normalization": {
-          "character_conversion": {},
-          "editorial_readings": [],
-          "extraction_note": "去header2、__TOC__與現代節標題；去行首冒號排版符號，保留正文、異體、方括弧與圓括弧校字。未核底本影像。",
-          "note": "太皇太后詔及班固贊均按見證附載分層，不自行確認編入者。"
-        }
-      }
+      "chapter_ref": "data/corpus/shiji/112.json"
     }
   ],
   "relations": [
@@ -97,7 +84,7 @@
           "chapter_id": "c-shiji-112-pingjin",
           "source_id": "s-shiji112-pingjin",
           "paragraph_id": "c-shiji-112-pingjin:p001",
-          "quote": "丞相公孫弘者，齊菑川國薛縣人也，字季。少時為薛獄吏，有罪，免。家貧，牧豕海上。年四十餘，乃學春秋雜說。養後母孝謹。"
+          "quote_passage_ref": "data/corpus/shiji/112.json"
         }
       ],
       "qualifiers": {
@@ -128,7 +115,7 @@
           "chapter_id": "c-shiji-112-pingjin",
           "source_id": "s-shiji112-pingjin",
           "paragraph_id": "c-shiji-112-pingjin:p001",
-          "quote": "丞相公孫弘者，齊菑川國薛縣人也，字季。少時為薛獄吏，有罪，免。家貧，牧豕海上。年四十餘，乃學春秋雜說。養後母孝謹。"
+          "quote_passage_ref": "data/corpus/shiji/112.json"
         }
       ],
       "qualifiers": {
@@ -151,8 +138,8 @@
           "chapter_id": "c-shiji-112-pingjin",
           "source_id": "s-shiji112-pingjin",
           "paragraph_id": "c-shiji-112-pingjin:p004",
-          "quote": "弘為人恢奇多聞，常稱以為人主病不廣大，人臣病不儉節。弘為布被，食不重肉。后母死，服喪三年。每朝會議，開陳其端，令人主自擇，不肯面折庭爭。於是天子察其行敦厚，辯論有餘，習文法吏事，而又緣飾以儒術，上大說之。二歲中，至左內史。弘奏事，有不可，不庭辯之。嘗與主爵都尉汲黯請閒，汲黯先發之，弘推其後，天子常說，所言皆聽，以此日益親貴。嘗與公卿約議，至上前，皆倍其約以順上旨。汲黯庭詰弘曰：「齊人多詐而無情實，始與臣等建此議，今皆倍之，不忠。」上問弘。弘謝曰：「夫知臣者以臣為忠，不知臣者以臣為不忠。」上然弘言。左右幸臣每毀弘，上益厚遇之。",
-          "person_mention_id": "c-shiji-112-pingjin:m004-0036"
+          "person_mention_id": "c-shiji-112-pingjin:m004-0036",
+          "quote_passage_ref": "data/corpus/shiji/112.json"
         }
       ],
       "interpretation_note": "后母死明記死亡，服喪三年不反推卒年。",

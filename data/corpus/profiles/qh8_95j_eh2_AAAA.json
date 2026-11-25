@@ -23,7 +23,7 @@
           "chapter_id": "c-shiji-035-guancai",
           "source_id": "s-shiji-035-guancai",
           "paragraph_id": "c-shiji-035-guancai:p013",
-          "quote": "文侯十四年，楚莊王伐陳，殺夏徵舒。十五年，楚圍鄭，鄭降楚，楚復醳之。二十年，文侯卒，子景侯固立。"
+          "quote_passage_ref": "data/corpus/shiji/035.json"
         }
       ],
       "attestations": [
@@ -65,7 +65,6 @@
       "raw_count": 6,
       "duplicate_count": 0,
       "counting_policy": "independent_fixed_witness_occurrences",
-      "quote": "王伐陳，殺夏徵舒。十五年，楚圍鄭，鄭降楚，楚復醳之。二十年，文侯卒，子景侯固立。",
       "paragraph_ids": [
         "c-shiji-035-guancai:p013",
         "c-shiji-035-guancai:p014",
@@ -136,7 +135,12 @@
       "book_id": "b-shiji-035",
       "chapter_id": "c-shiji-035-guancai",
       "source_id": "s-shiji-035-guancai",
-      "work_title": "史記"
+      "work_title": "史記",
+      "chapter_ref": "data/corpus/shiji/035.json",
+      "quote_span": [
+        8,
+        48
+      ]
     }
   ],
   "table_occurrences": [
@@ -144,7 +148,6 @@
       "table_id": "shiji-015",
       "cell_id": "shiji-015-r005-c06",
       "title": "《史記·六國年表》",
-      "quote": "十七。蔡景侯卒。",
       "year": {
         "era": "BCE",
         "value": 472,
@@ -167,7 +170,8 @@
       "book_id": "b-shiji-015",
       "chapter_id": "table-chapter-shiji-015",
       "source_id": "table-witness-shiji-015",
-      "source_revision": "2607002"
+      "source_revision": "2607002",
+      "quote_ref": "cell"
     }
   ],
   "sources": [
@@ -176,47 +180,14 @@
       "work_id": "w-shiji",
       "book_id": "b-shiji-035",
       "source_id": "s-shiji-035-guancai",
-      "source": {
-        "title": "史記／卷035",
-        "provider": "維基文庫",
-        "url": "https://zh.wikisource.org/wiki/史記/卷035",
-        "permalink": "https://zh.wikisource.org/w/index.php?title=史記/卷035&oldid=8737302",
-        "revision_id": 8737302,
-        "accessed_on": "2026-10-09",
-        "extent": "正文43個p區塊，含管蔡世系及曹國世系，自管叔鮮至末尾太史公論贊；排除兩個dd導覽。",
-        "image_verified": false,
-        "rights": "古代原文；數位轉錄依維基文庫CC BY-SA 4.0，保留署名及固定版本。",
-        "license_url": "https://creativecommons.org/licenses/by-sa/4.0/",
-        "normalization": {
-          "character_conversion": {},
-          "editorial_readings": [],
-          "extraction_note": "固定版本與實讀HTML一致。原字、醳、云及平公（頃）［須］等數位見證校勘字樣保留，不由記憶選改。",
-          "note": "未核可靠底本、影像或現代研究。夢中敘事、蔡曹世系、異字名及爵位時段不據此作已確證史實。"
-        }
-      }
+      "chapter_ref": "data/corpus/shiji/035.json"
     },
     {
       "chapter_id": "table-chapter-shiji-015",
       "work_id": "w-shiji",
       "book_id": "b-shiji-015",
       "source_id": "table-witness-shiji-015",
-      "source": {
-        "id": "table-witness-shiji-015",
-        "work_id": "w-shiji",
-        "book_id": "b-shiji-015",
-        "chapter_id": "table-chapter-shiji-015",
-        "url": "https://zh.wikisource.org/wiki/史記/卷015",
-        "revision_url": "https://zh.wikisource.org/w/index.php?title=史記/卷015&oldid=2607002",
-        "revision": "2607002",
-        "accessed": "2026-10-12",
-        "response_sha256": "eb0624a019e02c24ce90a40bfa24863f4020878062c6e2efea32355033be5559",
-        "edition": null,
-        "image_verified": false,
-        "rights": "古籍正文公有領域；維基文庫轉錄及編輯內容依 CC BY-SA 條款，署名維基文庫貢獻者。",
-        "rights_url": "https://zh.wikisource.org/wiki/Wikisource:版權信息",
-        "review_status": "agent_first_pass_named_entities",
-        "note": "完整數位表格結構匯入，未逐格學術覆核。未核讀印本影像，原印本頁碼未知。西元欄沿用此數位轉錄的編者對照，不是古籍原有西元紀年，也不引用其維基百科外連。"
-      }
+      "table_source_ref": "shiji-015"
     }
   ],
   "relations": [
@@ -231,7 +202,7 @@
           "chapter_id": "c-shiji-035-guancai",
           "source_id": "s-shiji-035-guancai",
           "paragraph_id": "c-shiji-035-guancai:p013",
-          "quote": "文侯十四年，楚莊王伐陳，殺夏徵舒。十五年，楚圍鄭，鄭降楚，楚復醳之。二十年，文侯卒，子景侯固立。"
+          "quote_passage_ref": "data/corpus/shiji/035.json"
         }
       ],
       "qualifiers": {
@@ -252,7 +223,7 @@
           "chapter_id": "c-shiji-035-guancai",
           "source_id": "s-shiji-035-guancai",
           "paragraph_id": "c-shiji-035-guancai:p014",
-          "quote": "景侯元年，楚莊王卒。四十九年，景侯為太子般娶婦於楚，而景侯通焉。太子弒景侯而自立，是為靈侯。"
+          "quote_passage_ref": "data/corpus/shiji/035.json"
         }
       ],
       "qualifiers": {
@@ -273,7 +244,7 @@
           "chapter_id": "c-shiji-035-guancai",
           "source_id": "s-shiji-035-guancai",
           "paragraph_id": "c-shiji-035-guancai:p016",
-          "quote": "楚滅蔡三歲，楚公子棄疾弒其君靈王代立，為平王。平王乃求蔡景侯少子廬，立之，是為平侯。是年，楚亦復立陳。楚平王初立，欲親諸侯，故復立陳、蔡後。"
+          "quote_passage_ref": "data/corpus/shiji/035.json"
         }
       ],
       "qualifiers": {
@@ -307,7 +278,7 @@
           "chapter_id": "c-shiji-035-guancai",
           "source_id": "s-shiji-035-guancai",
           "paragraph_id": "c-shiji-035-guancai:p013",
-          "quote": "文侯十四年，楚莊王伐陳，殺夏徵舒。十五年，楚圍鄭，鄭降楚，楚復醳之。二十年，文侯卒，子景侯固立。"
+          "quote_passage_ref": "data/corpus/shiji/035.json"
         }
       ],
       "qualifiers": {
@@ -328,7 +299,7 @@
           "chapter_id": "c-shiji-035-guancai",
           "source_id": "s-shiji-035-guancai",
           "paragraph_id": "c-shiji-035-guancai:p014",
-          "quote": "景侯元年，楚莊王卒。四十九年，景侯為太子般娶婦於楚，而景侯通焉。太子弒景侯而自立，是為靈侯。"
+          "quote_passage_ref": "data/corpus/shiji/035.json"
         }
       ],
       "qualifiers": {
@@ -349,7 +320,7 @@
           "chapter_id": "c-shiji-035-guancai",
           "source_id": "s-shiji-035-guancai",
           "paragraph_id": "c-shiji-035-guancai:p016",
-          "quote": "楚滅蔡三歲，楚公子棄疾弒其君靈王代立，為平王。平王乃求蔡景侯少子廬，立之，是為平侯。是年，楚亦復立陳。楚平王初立，欲親諸侯，故復立陳、蔡後。"
+          "quote_passage_ref": "data/corpus/shiji/035.json"
         }
       ],
       "qualifiers": {
@@ -373,8 +344,8 @@
           "chapter_id": "c-shiji-035-guancai",
           "source_id": "s-shiji-035-guancai",
           "paragraph_id": "c-shiji-035-guancai:p014",
-          "quote": "景侯元年，楚莊王卒。四十九年，景侯為太子般娶婦於楚，而景侯通焉。太子弒景侯而自立，是為靈侯。",
-          "person_mention_id": "c-shiji-035-guancai:m014-0000"
+          "person_mention_id": "c-shiji-035-guancai:m014-0000",
+          "quote_passage_ref": "data/corpus/shiji/035.json"
         }
       ],
       "source_term": "太子弒景侯",
